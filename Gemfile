@@ -74,4 +74,6 @@ gem 'pg_search'
 
 # For CMS-like admin interface
 gem 'activeadmin'
+#for SASS
+gem 'sassc-rails'
 
