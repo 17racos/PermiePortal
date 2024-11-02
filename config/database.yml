@@ -1,22 +1,21 @@
 default: &default
-  adapter: "postgresql"
-  encoding: "unicode"
-  database: "<%= ENV.fetch("POSTGRES_DB") { "permieportal" } %>"
-  username: "<%= ENV.fetch("POSTGRES_USER") { "permieportal" } %>"
-  password: "<%= ENV.fetch("POSTGRES_PASSWORD") { "password" } %>"
-  host: "<%= ENV.fetch("POSTGRES_HOST") { "postgres" } %>"
-  port: "<%= ENV.fetch("POSTGRES_PORT") { 5432 } %>"
-  # http://guides.rubyonrails.org/configuring.html#database-pooling
-  pool: "<%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>"
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: <%= ENV['POSTGRES_USER'] || 'postgres' %>
+  password: <%= ENV['POSTGRES_PASSWORD'] || 'password' %>
+  host: postgres
+  port: 5432
 
 development:
   <<: *default
-  database: <%= ENV.fetch("POSTGRES_DB") { "permieportal" } %>_development
+  database: permieportal_development
 
 test:
   <<: *default
-  database: <%= ENV.fetch("POSTGRES_DB") { "permieportal" } %>_test
+  database: permieportal_test
 
 production:
   <<: *default
-  database: <%= ENV.fetch("POSTGRES_DB") { "permieportal" } %>_production
+  database: permieportal_production
+
