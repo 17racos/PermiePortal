@@ -1,10 +1,12 @@
 Rails.application.routes.draw do
+  get "home/index"
+  get "get_involved/index"
   get "community/index"
   get "plants/index"
   get "projects/index"
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
-  root "resources#index"
+  root "home#index"
   
   devise_for :users
   
@@ -19,6 +21,7 @@ Rails.application.routes.draw do
   get 'projects', to: 'projects#index'
   get 'plants', to: 'plants#index'
   get 'community', to: 'community#index'
+  get 'get_involved', to: 'get_involved#index'
 end
 
 

@@ -1,56 +1,96 @@
-k<div class="flex justify-center pt-24 pb-12 px-2 sm:px-0">
-  <%= image_tag "permieportal-logo.png", size: "480x188", alt: "PermiePortal logo" %>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PermiePortal | Your Hub for Permaculture Knowledge</title>
 
-<h1 class="text-center text-3xl font-bold mb-4">Welcome to PermiePortal!</h1>
-<p class="text-center text-lg mb-6">
-  Your central hub for permaculture education, resources, and community networking.
-</p>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <%= action_cable_meta_tag %>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PermiePortal: Your central resource for permaculture education and community networking.">
 
-<div class="text-center">
-  <p class="text-lg">
-    🌱 Start your journey into permaculture principles and practices with the following resources:
-  </p>
-  <strong>
-    <a class="border-b border-green-600 text-green-600 hover:text-green-800 mb-1" href="https://permacultureprinciples.com" target="_blank">
-      Permaculture Principles
-    </a>
-  </strong>
-  <br>
-  <strong>
-    <a class="border-b border-green-600 text-green-600 hover:text-green-800 mb-1" href="https://permaculture.org" target="_blank">
-      Permaculture.org
-    </a>
-  </strong>
-  <br>
-  <strong>
-    <a class="border-b border-green-600 text-green-600 hover:text-green-800 mb-1" href="https://diveintodocker.com?ref=docker-rails-example" target="_blank">
-      Docker Fundamentals
-    </a>
-  </strong>
-</div>
-<div class="flex justify-center pt-24 pb-12 px-2 sm:px-0">
-  <%= image_tag "permieportal-logo.png", size: "480x188", alt: "PermiePortal logo" %>
-</div>
+  <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+  <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
 
-<h2 class="text-center text-3xl font-bold mb-4">Welcome to PermiePortal!</h22>
-<p class="text-center text-lg mb-6">
-  Your central hub for permaculture education, resources, and community networking.
-</p>
+  <%# Favicon and Apple Touch Icons %>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#61b9d2">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
 
-<div class="text-center mb-6">
-  <p class="text-lg">🌱 Explore our resources:</p>
-  <div class="space-y-4">
-    <%= link_to 'Projects', projects_path, class: 'block border-b border-green-600 text-green-600 hover:text-green-800 text-lg' %>
-    <%= link_to 'Plants', plants_path, class: 'block border-b border-green-600 text-green-600 hover:text-green-800 text-lg' %>
-    <%= link_to 'Community', community_path, class: 'block border-b border-green-600 text-green-600 hover:text-green-800 text-lg' %>
-  </div>
-</div>
+<body class="flex flex-col h-screen justify-between">
+  <header class="bg-green-600">
+    <div class="max-w-screen-lg mx-auto py-3 px-3 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between flex-wrap">
+        <div class="flex-1 flex items-center">
+          <h1 class="ml-3 text-lg font-semibold text-white">PermiePortal</h1>
+        </div>
+        <nav class="mt-2 order-3 w-full sm:mt-0 sm:w-auto">
+          <div class="rounded-md shadow-sm">
+            <% if user_signed_in? %>
+              <span class="flex items-center justify-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white bg-green-500">
+                Logged in as <%= current_user.email %>
+              </span>
+            <% else %>
+              <%= link_to 'Login', new_user_session_path, class: 'text-white' %> |
+              <%= link_to 'Sign Up', new_user_registration_path, class: 'text-white' %>
+            <% end %>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
 
-<p class="text-center text-lg">
-  🌍 Additional Resources:
-  <strong>
-    <a class="border-b border-green-600 text-green-600 hover:text-green-800" href="https://permacultureprinciples.com" target="_blank">Permaculture Principles</a>
-  </strong>
-</p>
+  <main class="max-w-screen-lg mx-auto mb-auto flex flex-col items-center pt-12">
+    <div class="flex justify-center mb-6">
+      <%= image_tag "permieportal-logo.png", size: "480x188", alt: "PermiePortal logo" %>
+    </div>
+
+    <h2 class="text-center text-3xl font-bold mb-4">Welcome to PermiePortal!</h2>
+    <p class="text-center text-lg mb-6">
+      Your central hub for permaculture education, resources, and community networking.
+    </p>
+
+    <div class="text-center mb-6">
+      <p class="text-lg">🌱 Explore our resources:</p>
+      <div class="space-y-4">
+        <%= link_to 'Projects', projects_path, class: 'block border-b border-green-600 text-green-600 hover:text-green-800 text-lg' %>
+        <%= link_to 'Plants', plants_path, class: 'block border-b border-green-600 text-green-600 hover:text-green-800 text-lg' %>
+        <%= link_to 'Community', community_path, class: 'block border-b border-green-600 text-green-600 hover:text-green-800 text-lg' %>
+      </div>
+    </div>
+
+    <div class="text-center mb-6">
+      <p class="text-lg">🌍 Additional Resources:</p>
+      <strong>
+        <a class="border-b border-green-600 text-green-600 hover:text-green-800 mb-1" href="https://permacultureprinciples.com" target="_blank">Permaculture Principles</a>
+      </strong>
+      <br>
+      <strong>
+        <a class="border-b border-green-600 text-green-600 hover:text-green-800 mb-1" href="https://permaculture.org" target="_blank">Permaculture.org</a>
+      </strong>
+      <br>
+      <strong>
+        <a class="border-b border-green-600 text-green-600 hover:text-green-800 mb-1" href="https://diveintodocker.com?ref=docker-rails-example" target="_blank">Docker Fundamentals</a>
+      </strong>
+    </div>
+  </main>
+
+  <footer class="bg-gray-800 text-white text-center mt-6 pb-6">
+    <p class="text-gray-400">
+      &copy; <%= Time.current.year %> PermiePortal. All rights reserved.
+    </p>
+    <p>
+      Built with <svg class="h-5 w-5 text-red-600 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+      </svg> by Mark.
+    </p>
+  </footer>
+</body>
+</html>
 
