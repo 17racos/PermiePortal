@@ -1,8 +1,20 @@
 Rails.application.routes.draw do
-  root to: "pages#home"
-
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
+  root "resources#index"
+  
+  devise_for :users
+  
+  resources :resources, only: [:index, :show]
+  
+  resources :forum_threads do
+    resources :forum_posts, only: [:create, :destroy]
+  end
+  
   get "/up/", to: "up#index", as: :up
   get "/up/databases", to: "up#databases", as: :up_databases
+end
+
 
   # Sidekiq has a web dashboard which you can enable below. It's turned off by
   # default because you very likely wouldn't want this to be available to
@@ -22,4 +34,3 @@ Rails.application.routes.draw do
   # end
 
   # Learn more about this file at: https://guides.rubyonrails.org/routing.html
-end

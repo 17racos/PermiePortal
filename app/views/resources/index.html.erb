@@ -1,0 +1,12 @@
+<h1>Permaculture Resources</h1>
+
+<%= form_with url: resources_path, method: :get, local: true do %>
+  <%= text_field_tag :query, params[:query] %>
+  <%= submit_tag "Search" %>
+<% end %>
+
+<% @resources.each do |resource| %>
+  <h2><%= link_to resource.title, resource %></h2>
+  <p><%= resource.description %></p>
+<% end %>
+

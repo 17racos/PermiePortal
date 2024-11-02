@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <title>Docker + Rails</title>
-
+    
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= action_cable_meta_tag %>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A production ready example Rails app that's using Docker and Docker Compose.">
-
+    
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
 
@@ -29,7 +29,9 @@
         <div class="flex items-center justify-between flex-wrap">
           <div class="flex-1 flex items-center">
             <span class="flex p-2 rounded-lg bg-gray-900">
-              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
             </span>
             <p class="ml-3 font-medium text-white truncate">
               Rails <%= Rails::VERSION::STRING %> and Ruby <%= ENV["RUBY_VERSION"] %>
@@ -50,16 +52,27 @@
       <%= yield %>
     </main>
 
-    <footer class="text-center mt-6 pb-6 h-10">
+    <div class="text-center mt-4 mb-4">
+      <% if user_signed_in? %>
+        <%= link_to 'Logout', destroy_user_session_path, method: :delete %>
+        <%= link_to 'Profile', edit_user_registration_path %>
+      <% else %>
+        <%= link_to 'Login', new_user_session_path %> |
+        <%= link_to 'Sign Up', new_user_registration_path %>
+      <% end %>
+    </div>
+
+    <footer class="text-center mt-6 pb-6">
       <p class="text-gray-500">
-        <a class="border-b mb-1" href="https://github.com/nickjj/docker-rails-example">Coded</a>
+        <a class="border-b mb-1"">Coded</a>
         with
         <svg class="h-5 w-5 text-red-600 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
         </svg>
-        by
-        <a class="border-b mb-1" href="https://nickjanetakis.com">Nick Janetakis</a>
+        by Mark
+        <a class="border-b mb-1"</a>
       </p>
     </footer>
   </body>
 </html>
+

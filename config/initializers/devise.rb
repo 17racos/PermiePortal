@@ -14,7 +14,7 @@ Devise.setup do |config|
   # confirmation, reset password and unlock tokens in the database.
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
-  # config.secret_key = 'd6f591433abbe020dc18e13e112f3646ac10b708110a0226e258462f2ceee57717eb5d8a41aeb01b3ab8e7aa278868db0bb56a865968e1c1f266047008404b6b'
+  # config.secret_key = 'e063c76658bcbd05d5003e52d9facd6eb5c962b2a61eb6ed585bc42ac42987cef401639b3c433f363256fbc2a571ee6d53aa15e1eaa0c0f653c154692a4e2f48'
 
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
@@ -24,7 +24,7 @@ Devise.setup do |config|
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class
   # with default "from" parameter.
-  config.mailer_sender = 'please-change-me-at-config-initializers-devise@example.com'
+#  config.mailer_sender = 'please-change-me-at-config-initializers-devise@example.com'
 
   # Configure the class responsible to send e-mails.
   # config.mailer = 'Devise::Mailer'
@@ -58,12 +58,12 @@ Devise.setup do |config|
   # Configure which authentication keys should be case-insensitive.
   # These keys will be downcased upon creating or modifying a user and when used
   # to authenticate or find a user. Default is :email.
-  config.case_insensitive_keys = [:email]
+#  config.case_insensitive_keys = [:email]
 
   # Configure which authentication keys should have whitespace stripped.
   # These keys will have whitespace before and after removed upon creating or
   # modifying a user and when used to authenticate or find a user. Default is :email.
-  config.strip_whitespace_keys = [:email]
+#  config.strip_whitespace_keys = [:email]
 
   # Tell if authentication through request.params is enabled. True by default.
   # It can be set to an array that will enable params authentication only for the
@@ -126,7 +126,7 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 12
 
   # Set up a pepper to generate the hashed password.
-  # config.pepper = '714fbb07283b1c6721382cfc2ed197693a945d04c3231185e3d44e05e7e9d90930e317af0c83d6cbefc6243b6402ce8db4e5e8c5520c049a7684af7dddd72c8f'
+  # config.pepper = '5913628d16c5ef68930425c2a4b295952a73b8c93986c9d557300ea915d0ad108bdb390db43b028821c10b093b39fe2e65ca605b4b9f2da5fbeedccb04d0d8d5'
 
   # Send a notification to the original email when the user's email is changed.
   # config.send_email_changed_notification = false
