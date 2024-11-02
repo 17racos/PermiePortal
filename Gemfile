@@ -66,3 +66,12 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+# For authentication
+gem 'devise'
+
+# For search functionality
+gem 'pg_search'
+
+# For CMS-like admin interface
+gem 'activeadmin'
+
