@@ -104,10 +104,17 @@
         <h2 class="text-xl font-semibold text-green-600 mb-4 mt-6">Plants to Avoid</h2>
         <% if @plant.avoid.present? %>
           <ul class="list-disc pl-6 space-y-1">
-            <% @plant.avoid.each do |avoid_plant| %>
-              <li><%= h(avoid_plant) %></li>
+          <% @plant.avoid.each do |avoid_name| %>
+            <% avoid = Plant.find_by(common_name: avoid_name) %>
+            <% if avoid %>
+              <li>
+                <%= link_to avoid_name, plant_path(avoid), class: "text-blue-600 hover:underline" %>
+              </li>
+            <% else %>
+              <li><%= h(avoid_name) %></li>
             <% end %>
-          </ul>
+          <% end %>
+        </ul>
         <% else %>
           <p class="text-gray-500">No plants to avoid specified for this plant.</p>
         <% end %>
