@@ -26,7 +26,7 @@
         <%= link_to h(@plant.family), "/guides/plant-families##{h(@plant.family.downcase.gsub(/\s+/, '-'))}", class: "text-blue-600 hover:underline", data: { turbo: false } %>
       </p>      
       <p><strong>🗺️ Zone:</strong> <%= @plant.zone %></p>
-      <p><strong>🌡️ Ideal Temperature Range:</strong>
+      <p><strong>🌡️ Ideal Temperature :</strong>
       <% if @plant.ideal_temp_min.present? && @plant.ideal_temp_max.present? %>
         <%= @plant.ideal_temp_min %>°F – <%= @plant.ideal_temp_max %>°F
       <% else %>
@@ -65,12 +65,12 @@
         <% end %>
 
         <!-- Pests -->
-        <h2>Pests</h2>
+        <h2 class="text-xl font-semibold text-green-600 mb-4">Pests</h2>
         <% if @plant.pests.present? %>
           <ul>
             <% @plant.pests.each do |pest| %>
               <li>
-              <%= link_to pest.name, pest_path(pest.slug), class: "text-blue-600 hover:underline", data: { turbo: false } %>
+              <%= link_to pest.name, pest_path(pest), class: "text-blue-600 hover:underline", data: { turbo: false } %>
               </li>
             <% end %>
           </ul>

@@ -43,21 +43,21 @@ class PlantsController < ApplicationController
   def apply_filters(plants)
     search_params.each do |filter, values|
       next if values.blank?
-
+  
       case filter.to_sym
       when :plant_function
         plants = plants.filter_by_plant_function(values)
       when :layers
         plants = plants.filter_by_layers(values)
       when :zone
-        plants = plants.filter_by_zones(values.map(&:to_i))
+        plants = plants.filter_by_zones(values.map(&:to_i)) # Convert zones to integers before filtering
       else
         Rails.logger.warn "Unknown filter: #{filter}"
       end
     end
-
+  
     plants
-  end
+  end  
 
   # Safely fetch and permit search parameters
   def search_params
