@@ -20,7 +20,6 @@ gem "turbo-rails"
 gem "stimulus-rails"
 
 #CSS Setup
-gem "tailwindcss-rails", "~> 2.0"
 
 
 #Asset Pipline
@@ -55,7 +54,6 @@ gem "bootsnap", require: false
 group :development do
   gem "web-console"
 end
-
 
 
 

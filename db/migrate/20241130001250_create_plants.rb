@@ -7,8 +7,6 @@ class CreatePlants < ActiveRecord::Migration[7.0]
       t.text :aka, array: true, default: []
       t.string :family
       t.string :zone
-      t.integer :zone_min
-      t.integer :zone_max
 
       # New temperature fields
       t.string :ideal_temp_min

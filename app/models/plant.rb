@@ -14,8 +14,6 @@ class Plant < ApplicationRecord
   validates :plant_function, presence: true, allow_blank: true
 
   # === Scopes ===
-  before_save :set_zone_range
-
   scope :filter_by_plant_function, ->(functions) { 
     where("plant_function @> ARRAY[?]::text[]", functions) 
   }
@@ -23,14 +21,14 @@ class Plant < ApplicationRecord
   scope :filter_by_layers, ->(layers) { 
     where("layers @> ARRAY[?]::text[]", layers) 
   }
-
   scope :filter_by_zones, ->(search_zones) {
     where(
-      search_zones.map { |_| "(zone_min <= ? AND zone_max >= ?)" }
+      search_zones.map { |_| "(CAST(substring(zone FROM '^(\\d+)') AS INT) <= ? AND CAST(substring(zone FROM '-(\\d+)$') AS INT) >= ?)" }
       .join(" OR "),
-      *search_zones.flat_map { |z| [z, z] }
+      *search_zones.flat_map { |z| [z.to_i, z.to_i] }
     )
   }
+  
 
   # === Instance Methods ===
 
@@ -79,15 +77,5 @@ class Plant < ApplicationRecord
   # Find a plant by its parameterized common_name
   def self.find_by_common_name(parameterized_name)
     where("LOWER(common_name) = ?", parameterized_name.tr('-', ' ').downcase).first
-  end
-
-  private
-
-  # Extracts min/max values from "x-y" string
-  def set_zone_range
-    if zone.present? && zone.match(/^(\d+)-(\d+)$/)
-      self.zone_min = $1.to_i
-      self.zone_max = $2.to_i
-    end
   end
 end

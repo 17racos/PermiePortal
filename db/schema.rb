@@ -67,8 +67,6 @@ ActiveRecord::Schema[7.2].define(version: 2025_01_13_201936) do
     t.text "aka", default: [], array: true
     t.string "family"
     t.string "zone"
-    t.integer "zone_min"
-    t.integer "zone_max"
     t.string "ideal_temp_min"
     t.string "ideal_temp_max"
     t.string "min_temp"

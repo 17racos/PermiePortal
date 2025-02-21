@@ -50,7 +50,7 @@ class PlantsController < ApplicationController
       when :layers
         plants = plants.filter_by_layers(values)
       when :zone
-        plants = plants.filter_by_zones(values.map(&:to_i)) # Convert zones to integers before filtering
+        plants = plants.filter_by_zones(values) # Convert zones to integers before filtering
       else
         Rails.logger.warn "Unknown filter: #{filter}"
       end
