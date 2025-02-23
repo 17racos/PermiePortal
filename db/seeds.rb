@@ -64,34 +64,56 @@ end
 # Map attributes for pests
 def map_pest_attributes(data)
   {
-    name: data['name'],
-    picture: data['picture'],
-    scientific_name: data['scientific_name'],
-    description: data['description'],
-    characteristics: data['characteristics'],
-    control_methods: data['control_methods'],
-    natural_enemies: data['natural_enemies']
+    name: data["name"],
+    slug: data["slug"] || data["name"].parameterize,
+    picture: data["picture"],
+    scientific_name: data["scientific_name"],
+    description: data["description"],
+    characteristics: data["characteristics"],
+    control_methods: if data["control_methods"].is_a?(Hash)
+      data["control_methods"]
+    elsif data["control_methods"].is_a?(String) && !data["control_methods"].empty?
+      { "default" => data["control_methods"] }
+    else
+      {}
+    end,
+    natural_enemies: if data["natural_enemies"].is_a?(Array)
+      data["natural_enemies"]
+    elsif data["natural_enemies"].is_a?(String)
+      data["natural_enemies"].split(',').map(&:strip)
+    else
+      []
+    end
   }
 end
 
-# Seed pests from pests-data.yml
+
+# Seed pests from all YAML files in the pests subdirectory
 def seed_pests
-  pests_file = Rails.root.join('db', 'seeds', 'pests-data.yml')
-  unless File.exist?(pests_file)
-    puts "No pests-data.yml file found. Skipping pest seeding."
+  pests_directory = Rails.root.join('db', 'seeds', 'pests')
+  pest_files = Dir.glob("#{pests_directory}/*.yml")
+  
+  if pest_files.empty?
+    puts "No YAML files found in #{pests_directory}. Skipping pest seeding."
     return
   end
 
-  puts "Seeding pests from #{pests_file}..."
-  pests_data = load_file_data(pests_file, :yaml)
-
-  pests_data.each do |data|
-    attributes = map_pest_attributes(data)
-    create_or_update_record(Pest, :name, attributes)
+  pest_files.each do |file|
+    puts "Seeding pests from #{file}..."
+    pests_data = load_file_data(file, :yaml)
+    
+    # Use compact to remove any nil entries
+    pests_data.compact.each do |data|
+      # Debug output to verify the data is as expected
+      puts "Processing pest: #{data['name'] || 'Unknown'}"
+      attributes = map_pest_attributes(data)
+      create_or_update_record(Pest, :name, attributes)
+    end
   end
 
   puts "Pests seeded successfully!"
 end
+
 
 # Seed plants and establish relationships with pests
 def seed_plants

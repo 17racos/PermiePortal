@@ -19,9 +19,6 @@ gem "puma", "~> 6.5"
 gem "turbo-rails"
 gem "stimulus-rails"
 
-#CSS Setup
-
-
 #Asset Pipline
 gem "sprockets-rails", "~> 3.5"
 

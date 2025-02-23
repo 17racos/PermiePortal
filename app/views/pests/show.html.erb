@@ -2,7 +2,9 @@
   <div class="bg-white shadow-lg rounded-lg p-6 max-w-4xl mx-auto">
     
     <!-- Pest Name -->
-    <h1 class="text-4xl font-bold text-green-800 text-center mb-4"><%= sanitize(@pest.name) %></h1>
+    <h1 class="text-4xl font-bold text-green-800 text-center mb-4">
+      <%= sanitize(@pest.name) %>
+    </h1>
 
     <!-- Pest Image -->
     <% if @pest.image_path.present? %>
@@ -36,18 +38,47 @@
       <!-- Control Methods -->
       <div>
         <h2 class="text-2xl font-semibold text-green-700">Control Methods</h2>
-        <p class="text-gray-700"><%= sanitize(@pest.control_methods.presence || "No control methods available.") %></p>
+        <div class="text-gray-700">
+          <% if @pest.control_methods.is_a?(Hash) && @pest.control_methods.any? %>
+            <ul class="list-disc list-inside">
+              <% @pest.control_methods.each do |method, description| %>
+                <li>
+                  <strong><%= method.to_s.humanize %>:</strong>
+                  <%= sanitize(description) %>
+                </li>
+              <% end %>
+            </ul>
+          <% elsif @pest.control_methods.present? %>
+            <p><%= sanitize(@pest.control_methods) %></p>
+          <% else %>
+            <p>No control methods available.</p>
+          <% end %>
+        </div>
       </div>
 
       <!-- Natural Enemies -->
       <div>
         <h2 class="text-2xl font-semibold text-green-700">Natural Enemies</h2>
-        <p class="text-gray-700"><%= sanitize(@pest.natural_enemies.presence || "No natural enemies specified.") %></p>
+        <div class="text-gray-700">
+          <% if @pest.natural_enemies.is_a?(Array) && @pest.natural_enemies.any? %>
+            <ul class="list-disc list-inside">
+              <% @pest.natural_enemies.each do |enemy| %>
+                <li><%= sanitize(enemy) %></li>
+              <% end %>
+            </ul>
+          <% elsif @pest.natural_enemies.present? %>
+            <p><%= sanitize(@pest.natural_enemies) %></p>
+          <% else %>
+            <p>No natural enemies specified.</p>
+          <% end %>
+        </div>
       </div>
       
       <!-- Plants Affected -->
       <div>
-        <h2 class="text-2xl font-semibold text-green-700">Plants Affected by <%= sanitize(@pest.name) %></h2>
+        <h2 class="text-2xl font-semibold text-green-700">
+          Plants Affected by <%= sanitize(@pest.name) %>
+        </h2>
         <% if @plants.any? %>
           <ul class="list-disc list-inside text-gray-700">
             <% @plants.each do |plant| %>

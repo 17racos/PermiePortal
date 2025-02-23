@@ -42,8 +42,8 @@ ActiveRecord::Schema[7.2].define(version: 2025_01_13_201936) do
     t.string "scientific_name"
     t.text "description"
     t.text "characteristics"
-    t.text "control_methods"
-    t.text "natural_enemies"
+    t.jsonb "control_methods", default: {}
+    t.jsonb "natural_enemies", default: []
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["name"], name: "index_pests_on_name", unique: true
