@@ -87,6 +87,17 @@ def map_pest_attributes(data)
   }
 end
 
+def create_or_update_record(model, identifier, attributes)
+  record = model.find_by(identifier => attributes[identifier])
+  if record.present?
+    # Force update even if record exists
+    record.update!(attributes)
+    puts "Updated record for #{attributes[identifier]}"
+  else
+    model.create!(attributes)
+    puts "Created record for #{attributes[identifier]}"
+  end
+end
 
 # Seed pests from all YAML files in the pests subdirectory
 def seed_pests

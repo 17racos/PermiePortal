@@ -16,7 +16,7 @@ Rails.application.configure do
   config.assets.compile = true  # Should be false unless assets are missing
   config.assets.digest = true
   config.assets.version = "1.0"
-  config.assets.css_compressor = :sass  # Compress CSS with Sass
+  config.assets.css_compressor = nil  
   config.assets.precompile += %w(application.js application.css)  # Ensure these precompile
 
   # ✅ Serve static files only if required by ENV variable (for Heroku)

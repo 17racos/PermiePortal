@@ -3,6 +3,9 @@ FROM ruby:3.3.6-bullseye
 
 WORKDIR /app
 
+# Set Rails environment to production
+ENV RAILS_ENV=production
+
 # Install system dependencies
 RUN apt-get update -qq && apt-get install -y \
     build-essential \
@@ -10,7 +13,7 @@ RUN apt-get update -qq && apt-get install -y \
     curl \
     git
 
-# Install Node.js 18, npm 10, and Yarn (Required for Sprockets)
+# Install Node.js 18, npm 10, and Yarn (required for asset compilation)
 RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
     apt-get install -y nodejs && \
     npm install -g npm@10 yarn
@@ -21,28 +24,21 @@ RUN node -v && npm -v && yarn -v
 # Copy application code
 COPY . .
 
-# ✅ Remove old `node_modules` and reinstall dependencies
+# Remove old node_modules and reinstall dependencies
 RUN rm -rf node_modules yarn.lock && yarn install --check-files
 
-# ✅ Install Gems in production mode
+# Install Gems for production (exclude development and test groups)
 RUN bundle config set force_ruby_platform false
 RUN bundle install --jobs=4 --retry=3 --without development test
 
-# ✅ Manually install the TailwindCSS CLI binary
-RUN curl -fsSL https://github.com/tailwindlabs/tailwindcss/releases/download/v3.4.0/tailwindcss-linux-x64 -o /usr/local/bin/tailwindcss && chmod +x /usr/local/bin/tailwindcss
+# Precompile assets
+RUN bin/rails assets:clobber && bin/rails assets:precompile
 
-# ✅ Verify TailwindCSS Installation
-RUN tailwindcss --help
-
-# ✅ Precompile assets (Tailwind first)
-RUN bin/rails assets:clobber
-RUN bin/rails assets:precompile
-
-# ✅ Clean up system to reduce image size
+# Clean up apt cache to reduce image size
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# ✅ Expose port 3000 for production
+# Expose port 3000 for production
 EXPOSE 3000
 
-# ✅ Start the Rails application in production mode
+# Start the Rails application in production mode
 CMD ["bash", "-c", "rm -f tmp/pids/server.pid && bundle exec rails server -b 0.0.0.0 -e production"]
