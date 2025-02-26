@@ -1,9 +1,11 @@
-<%= turbo_frame_tag "plants-list" do %>
-  <!-- Filter Form -->
-  <%= form_with url: plants_path, method: :get, turbo_frame: "plants-list" do %>
-    <%= render partial: "plants/filters" %>
-  <% end %>
+<div class="container mx-auto max-w-4xl">
+  <%= turbo_frame_tag "plants-list" do %>
+    <!-- Filter Form -->
+    <%= form_with url: plants_path, method: :get, turbo_frame: "plants-list" do %>
+      <%= render partial: "plants/filters" %>
+    <% end %>
 
-  <!-- Plant List or Results -->
-  <%= render partial: "plants/plants_list", locals: { plants: @plants } %>
-<% end %>
+    <!-- Plant List or Results -->
+    <%= render partial: "plants/plants_list", locals: { plants: @plants } %>
+  <% end %>
+</div>

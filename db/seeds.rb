@@ -196,7 +196,17 @@ guides = [
     title: 'Plant Families',
     body: 'Unlock the secrets of plant families and discover how understanding botanical relationships can transform your gardening and permaculture practices. This guide explores the major plant families, their unique characteristics, and how they influence companion planting and crop rotation. Learn how grouping plants by family can improve soil health, optimize nutrient cycling, and reduce pests naturally. Whether you are planning a vegetable garden or creating a diverse permaculture system, this guide will help you harness the power of plant families for sustainable and efficient garden design. Perfect for gardeners and permaculture enthusiasts alike, start exploring plant relationships today!',
     image: 'plant-families.jpg'
-  }
+  },
+  {
+  title: 'Permaculture Deeper Look',
+  body: 'Dive deep into the principles of permaculture with this comprehensive guide. Explore the design ethics and innovative techniques that create sustainable, regenerative ecosystems. Learn about closed-loop systems, companion planting, water harvesting, and the integration of plants, animals, and natural elements to build resilient landscapes. Whether you are an experienced practitioner or just beginning your journey, this guide offers valuable insights to transform your garden into a self-sustaining ecosystem.',
+  image: 'permaculture-deeper-look.jpg'
+},
+{
+  title: 'Important Soil Biodiversity',
+  body: 'Discover the critical role of soil biodiversity in maintaining healthy, productive landscapes. This guide explains how a vibrant community of microorganisms, earthworms, fungi, and insects work together to enhance nutrient cycling, improve water retention, and suppress diseases. Learn practical strategies to nurture soil life through organic practices, cover cropping, and reduced chemical inputs, ensuring your soil remains a living, thriving foundation for sustainable agriculture.',
+  image: 'soil-biodiversity.jpg'
+},
 ]
 
 guides.each do |guide|
