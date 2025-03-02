@@ -200,7 +200,7 @@ guides = [
   {
   title: 'Unlocking Natures Blueprint',
   body: 'Dive deep into the principles of permaculture with this comprehensive guide through the eyes of Bill Molison, one of the founders of Permaculture. Explore the design ethics and innovative techniques that create sustainable, regenerative ecosystems. Learn about closed-loop systems, companion planting, water harvesting, and the integration of plants, animals, and natural elements to build resilient landscapes. Whether you are an experienced practitioner or just beginning your journey, this guide offers valuable insights to transform your garden into a self-sustaining ecosystem.',
-  image: 'permaculture-deeper-look.jpg'
+  image: 'unlocking-natures-blueprint.jpg'
 },
 {
   title: 'Important Soil Biodiversity',
