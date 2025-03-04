@@ -203,7 +203,7 @@ guides = [
   image: 'unlocking-natures-blueprint.jpg'
 },
 {
-  title: 'Important Soil Biodiversity',
+  title: 'Importance of Soil Biodiversity',
   body: 'Discover the critical role of soil biodiversity in maintaining healthy, productive landscapes. This guide explains how a vibrant community of microorganisms, earthworms, fungi, and insects work together to enhance nutrient cycling, improve water retention, and suppress diseases. Learn practical strategies to nurture soil life through organic practices, cover cropping, and reduced chemical inputs, ensuring your soil remains a living, thriving foundation for sustainable agriculture.',
   image: 'soil-biodiversity.jpg'
 },
