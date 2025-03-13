@@ -16,6 +16,7 @@ Bundler.require(*Rails.groups)
 module App
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
+    config.encoding = "utf-8"
     config.load_defaults 7.0
 
     # ✅ Ensure ActiveAdmin dependencies are available
