@@ -26,13 +26,27 @@
         <%= link_to h(@plant.family), "/guides/plant-families##{h(@plant.family.downcase.gsub(/\s+/, '-'))}", class: "text-blue-600 hover:underline", data: { turbo: false } %>
       </p>      
       <p><strong>🗺️ Zone:</strong> <%= @plant.zone %></p>
+      
+      <!-- Other Names -->
+      <h3 class="text-lg font-semibold text-green-600 mb-2 mt-4">Other Names:</h3>
+      <% if @plant.aka.present? %>
+        <ul class="list-disc pl-6 space-y-1">
+          <% @plant.aka.each do |aka| %>
+            <li><%= h(aka) %></li>
+          <% end %>
+        </ul>
+      <% else %>
+        <p class="text-gray-500">No names specified.</p>
+      <% end %>
+    
       <p><strong>🌡️ Ideal Temperature :</strong>
       <% if @plant.ideal_temp_min.present? && @plant.ideal_temp_max.present? %>
         <%= @plant.ideal_temp_min %>°F – <%= @plant.ideal_temp_max %>°F
       <% else %>
         Not Available
       <% end %>
-      </p>  
+      </p>
+
       <p><strong>🔥 Heat Tolerance:</strong> Up to <%= @plant.max_temp %>°F</p>
       <p><strong>❄️ Cold Tolerance:</strong> Down to <%= @plant.min_temp %>°F</p>
       <p><strong>🌱 Type:</strong> <%= h(@plant.perennial ? "Perennial" : "Annual") %></p>      
@@ -41,8 +55,8 @@
         <h3 class="text-lg font-semibold text-green-600 mb-2 mt-4">Layers</h3>
         <% if @plant.layers.present? %>
           <ul class="list-disc pl-6 space-y-1">
-            <% @plant.layers.each do |layer| %>
-              <li><%= h(layer) %></li>
+            <% @plant.layers.each do |layers| %>
+              <li><%= h(layers) %></li>
             <% end %>
           </ul>
         <% else %>

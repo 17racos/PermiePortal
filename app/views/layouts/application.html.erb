@@ -31,8 +31,9 @@
               <span>Welcome, <%= current_user.email %>!</span>
               <%= link_to 'Logout', destroy_user_session_path, method: :delete, style: "color: white; margin-left: 15px; text-decoration: none;" %>
             <% else %>
-              <%= link_to 'Login', new_user_session_path, style: "color: white; margin-right: 15px; text-decoration: none;" %>
+            <!--  <%= link_to 'Login', new_user_session_path, style: "color: white; margin-right: 15px; text-decoration: none;" %>
               <%= link_to 'Sign Up', new_user_registration_path, style: "color: white; text-decoration: none;" %>
+              -->
             <% end %>
           </nav>
         </div>
