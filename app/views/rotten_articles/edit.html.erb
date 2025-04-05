@@ -1,0 +1,12 @@
+<% content_for :title, "Editing rotten article" %>
+
+<h1>Editing rotten article</h1>
+
+<%= render "form", rotten_article: @rotten_article %>
+
+<br>
+
+<div>
+  <%= link_to "Show this rotten article", @rotten_article %> |
+  <%= link_to "Back to rotten articles", rotten_articles_path %>
+</div>

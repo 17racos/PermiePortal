@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   # Suppress favicon errors
   get '/favicon.ico', to: proc { [204, {}, []] }
 
@@ -7,6 +8,9 @@ Rails.application.routes.draw do
 
   # Root route
   root 'home#index'
+
+  # Dynamic rotten_article routes using slugs
+  resources :rotten_articles, param: :slug  # Ensures rotten_article are found by slug, not ID
 
   # Dynamic guides routes using slugs
   resources :guides, param: :slug  # Ensures guides are found by slug, not ID

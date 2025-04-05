@@ -218,6 +218,39 @@ end
 
 puts "#{guides.size} guides have been added or updated."
 
+# db/seeds.rb
+
+rotten_article = [
+  {
+    title: 'We Saved the Lake by Killing It!',
+    body: 'Here\'s the ironic tale of ecological collapse in Lake Huron, where the so-called "solutions" only made things worse...',
+    slug: 'we-saved-the-lake-by-killing-it',  # This is crucial!
+    is_published: true,
+    image: 'lake-collapsing.jpg'
+  },
+  {
+    title: 'The Great American Lawn: How We Turned Nature Into a Green Buzzcut',
+    body: 'A satirical deep dive into the origins of lawn monoculture...',
+    slug: 'great-american-lawn',
+    is_published: true,
+    image: 'green-buzzcut.jpg'
+  }  
+]
+
+rotten_article.each do |article|
+  # Make sure slug is properly assigned
+  RottenArticle.find_or_initialize_by(slug: article[:slug]).tap do |a|
+    a.title = article[:title]
+    a.body = article[:body]
+    a.is_published = article[:is_published]
+    a.image = article[:image]
+    a.save!  # Save the article
+  end
+end
+
+puts "#{rotten_article.size} Rotten Articles have been added or updated."
+
+
 # Run the seeds
 run_seeds
 
