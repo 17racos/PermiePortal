@@ -3,7 +3,7 @@
     <div class="bg-white shadow-md rounded-lg hover:shadow-lg transition overflow-hidden">
       <div class="flex flex-col h-full">
         <h2><%= link_to rotten_article.title, rotten_article_path(rotten_article.slug) %></h2>
-        <p><%= truncate(rotten_article.body, length: 150) %></p>
+        <p><%= truncate(rotten_article.body, length: 500) %></p>
         <% if rotten_article.image.present? %>
           <%= image_tag "/images/#{rotten_article.image}" %>
         <% end %>

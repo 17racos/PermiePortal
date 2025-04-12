@@ -220,21 +220,22 @@ puts "#{guides.size} guides have been added or updated."
 
 # db/seeds.rb
 
+
 rotten_article = [
   {
     title: 'We Saved the Lake by Killing It!',
-    body: 'Here\'s the ironic tale of ecological collapse in Lake Huron, where the so-called "solutions" only made things worse...',
-    slug: 'we-saved-the-lake-by-killing-it',  # This is crucial!
+    body: 'We saved the lake by killing it! And now it’s so clear, you can see the full extent of our brilliance… right down to the dead zone.',
+    slug: 'we-saved-the-lake-by-killing-it',
     is_published: true,
     image: 'lake-collapsing.jpg'
   },
   {
-    title: 'The Great American Lawn: How We Turned Nature Into a Green Buzzcut',
-    body: 'A satirical deep dive into the origins of lawn monoculture...',
+    title: 'Grass! Humanity’s most expensive crop that feeds no one, shelters nothing, and demands everything.',
+    body: 'Lawns! Because nothing screams “environmental stewardship” like weekly fossil-fueled grass mutilation. The crown jewel of the American Dream — where we spend thousands to fight nature, kill the soil, to please HOA overlords. What’s not to love? Because going broke, polluting the air, and fighting nature every weekend is clearly the most logical way to show you’re a responsible homeowner.',
     slug: 'great-american-lawn',
     is_published: true,
     image: 'green-buzzcut.jpg'
-  }  
+  }
 ]
 
 rotten_article.each do |article|
