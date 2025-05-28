@@ -4,8 +4,18 @@
 
     <div class="bg-white rounded-lg shadow-lg overflow-hidden">
       <%# Plant Image %>
-      <div class="w-full h-96 overflow-hidden">
-        <%= image_tag asset_path(@plant.display_image), class: "w-full h-full object-cover", alt: @plant.common_name %>
+      <div class="w-full h-96 overflow-hidden bg-gray-200 flex items-center justify-center">
+        <% if @plant.respond_to?(:display_image) && @plant.display_image.present? %>
+          <%= image_tag asset_path(@plant.display_image), class: "w-full h-full object-cover", alt: @plant.common_name %>
+        <% else %>
+          <%# Fallback for missing images %>
+          <div class="text-gray-400 text-center">
+            <svg class="w-24 h-24 mx-auto mb-4" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd" />
+            </svg>
+            <p class="text-lg">No image available</p>
+          </div>
+        <% end %>
       </div>
 
       <div class="p-8">
@@ -13,6 +23,9 @@
         <div class="mb-8">
           <h1 class="text-3xl font-bold text-gray-900 mb-2"><%= @plant.common_name %></h1>
           <p class="text-xl text-gray-600 italic"><%= @plant.scientific_name %></p>
+          <% if @plant.family.present? %>
+            <p class="text-lg text-gray-500">Family: <%= @plant.family %></p>
+          <% end %>
         </div>
 
         <%# Key Info Grid %>
@@ -23,80 +36,154 @@
             <div class="mb-6">
               <h3 class="text-lg font-semibold mb-3">Basic Information</h3>
               <div class="space-y-3">
-                <div>
-                  <span class="font-medium">Type:</span>
-                  <span class="ml-2"><%= @plant.perennial ? "Perennial" : "Annual" %></span>
-                </div>
-                <div>
-                  <span class="font-medium">USDA Zone:</span>
-                  <span class="ml-2"><%= "#{@plant.zone_range.begin}-#{@plant.zone_range.end}" %></span>
-                </div>
-                <div>
-                  <span class="font-medium">Temperature Range:</span>
-                  <span class="ml-2"><%= @plant.ideal_temp_range %></span>
-                </div>
-                <div>
-                  <span class="font-medium">Temperature Extremes:</span>
-                  <span class="ml-2"><%= @plant.temperature_extremes %></span>
-                </div>
-              </div>
-            </div>
+                <% if @plant.plant_type.present? %>
+                  <div>
+                    <span class="font-medium">Type:</span>
+                    <span class="ml-2"><%= @plant.plant_type.humanize %></span>
+                    <% if @plant.life_cycle.present? %>
+                      (<%= @plant.life_cycle.humanize %>)
+                    <% end %>
+                  </div>
+                <% end %>
+                
+                <% if @plant.environmental_requirements %>
+                  <% env = @plant.environmental_requirements %>
+                  <% if env.zone_range %>
+                    <div>
+                      <span class="font-medium">USDA Zone:</span>
+                      <span class="ml-2"><%= env.zone_range %></span>
+                    </div>
+                  <% end %>
+                  
+                  <% if env.temperature_range_celsius %>
+                    <div>
+                      <span class="font-medium">Temperature Range:</span>
+                      <span class="ml-2"><%= env.temperature_range_celsius %></span>
+                    </div>
+                  <% end %>
+                  
+                  <% if env.light_requirement %>
+                    <div>
+                      <span class="font-medium">Light Requirement:</span>
+                      <span class="ml-2"><%= env.light_requirement.humanize.gsub('_', ' ') %></span>
+                    </div>
+                  <% end %>
+                  
+                  <% if env.soil_preferences.present? %>
+                    <div>
+                      <span class="font-medium">Soil Preferences:</span>
+                      <span class="ml-2"><%= env.soil_preferences %></span>
+                    </div>
+                  <% end %>
+                <% end %>
 
-            <%# Functions %>
-            <div class="mb-6">
-              <h3 class="text-lg font-semibold mb-3">Functions</h3>
-              <div class="flex flex-wrap gap-2">
-                <% @plant.functions_array.each do |function| %>
-                  <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">
-                    <%= function %>
-                  </span>
+                <% if @plant.mature_height_min_cm || @plant.mature_height_max_cm %>
+                  <div>
+                    <span class="font-medium">Mature Height:</span>
+                    <span class="ml-2">
+                      <% if @plant.mature_height_min_cm && @plant.mature_height_max_cm %>
+                        <%= @plant.mature_height_min_cm %>-<%= @plant.mature_height_max_cm %> cm
+                      <% elsif @plant.mature_height_max_cm %>
+                        Up to <%= @plant.mature_height_max_cm %> cm
+                      <% end %>
+                    </span>
+                  </div>
                 <% end %>
               </div>
             </div>
 
-            <%# Layers %>
-            <div class="mb-6">
-              <h3 class="text-lg font-semibold mb-3">Forest Layers</h3>
-              <div class="flex flex-wrap gap-2">
-                <% @plant.layers_array.each do |layer| %>
-                  <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">
-                    <%= layer %>
-                  </span>
-                <% end %>
+            <%# Plant Traits %>
+            <% if @plant.plant_traits.any? %>
+              <div class="mb-6">
+                <h3 class="text-lg font-semibold mb-3">Plant Traits</h3>
+                <div class="space-y-2">
+                  <% @plant.plant_traits.includes(:trait_category).each do |trait| %>
+                    <div class="flex justify-between">
+                      <span class="font-medium"><%= trait.trait_category.name.humanize %>:</span>
+                      <span>
+                        <% if trait.boolean_value.present? %>
+                          <%= trait.boolean_value ? "Yes" : "No" %>
+                        <% elsif trait.categorical_value.present? %>
+                          <%= trait.categorical_value.humanize %>
+                        <% elsif trait.numeric_value.present? %>
+                          <%= trait.numeric_value %>
+                        <% elsif trait.text_value.present? %>
+                          <%= trait.text_value %>
+                        <% end %>
+                      </span>
+                    </div>
+                  <% end %>
+                </div>
               </div>
-            </div>
+            <% end %>
           </div>
 
           <%# Right Column %>
           <div>
-            <%# Purpose %>
-            <div class="mb-6">
-              <h3 class="text-lg font-semibold mb-3">Purpose & Uses</h3>
-              <div class="prose prose-green">
-                <%= simple_format @plant.purpose %>
-              </div>
-            </div>
-
-            <%# Pests %>
-            <% if @plant.valid_pests.any? %>
+            <%# Uses %>
+            <% if @plant.plant_uses.any? %>
               <div class="mb-6">
-                <h3 class="text-lg font-semibold mb-3">Known Pests</h3>
-                <ul class="list-disc list-inside space-y-1">
-                  <% @plant.valid_pests.each do |pest| %>
-                    <li><%= pest.name %></li>
+                <h3 class="text-lg font-semibold mb-3">Uses & Functions</h3>
+                <div class="space-y-3">
+                  <% @plant.plant_uses.includes(:use_category).group_by(&:use_category).each do |category, uses| %>
+                    <div>
+                      <h4 class="font-medium text-green-800"><%= category.name %></h4>
+                      <% if category.description.present? %>
+                        <p class="text-sm text-gray-600 mb-2"><%= category.description %></p>
+                      <% end %>
+                      <div class="flex flex-wrap gap-2">
+                        <% uses.each do |use| %>
+                          <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-sm">
+                            <% if use.effectiveness_score %>
+                              <%= (use.effectiveness_score * 100).round %>% effective
+                            <% else %>
+                              Used for <%= category.name.downcase %>
+                            <% end %>
+                          </span>
+                        <% end %>
+                      </div>
+                    </div>
                   <% end %>
-                </ul>
+                </div>
+              </div>
+            <% end %>
+
+            <%# Companion Plants %>
+            <% if @plant.beneficial_companions.any? %>
+              <div class="mb-6">
+                <h3 class="text-lg font-semibold mb-3">Companion Plants</h3>
+                <div class="flex flex-wrap gap-2">
+                  <% @plant.beneficial_companions.limit(10).each do |companion| %>
+                    <%= link_to companion.common_name, plant_path(companion), 
+                        class: "px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm hover:bg-blue-200" %>
+                  <% end %>
+                  <% if @plant.beneficial_companions.count > 10 %>
+                    <span class="px-3 py-1 bg-gray-100 text-gray-600 rounded-full text-sm">
+                      +<%= @plant.beneficial_companions.count - 10 %> more
+                    </span>
+                  <% end %>
+                </div>
               </div>
             <% end %>
           </div>
         </div>
 
         <%# Description %>
-        <% if @plant.description.present? %>
+        <% if @plant.description_detailed.present? %>
           <div class="border-t pt-8">
-            <h3 class="text-lg font-semibold mb-4">Additional Information</h3>
+            <h3 class="text-lg font-semibold mb-4">Detailed Description</h3>
             <div class="prose prose-green max-w-none">
-              <%= simple_format @plant.description %>
+              <%= simple_format @plant.description_detailed %>
+            </div>
+          </div>
+        <% end %>
+
+        <%# Growing Notes %>
+        <% if @plant.growing_notes.present? %>
+          <div class="border-t pt-8">
+            <h3 class="text-lg font-semibold mb-4">Growing Notes</h3>
+            <div class="prose prose-green max-w-none">
+              <%= simple_format @plant.growing_notes %>
             </div>
           </div>
         <% end %>
