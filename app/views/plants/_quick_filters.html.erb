@@ -1,0 +1,30 @@
+# Quick Filter Navigation
+<div class="quick-filters bg-green-100 p-4 rounded-lg mb-6">
+  <h3 class="text-lg font-semibold mb-3">Quick Filters</h3>
+  <div class="flex flex-wrap gap-3">
+    <%= link_to "All Plants", 
+                plants_path,
+                class: "px-4 py-2 bg-white rounded-full shadow hover:bg-green-50 transition-colors",
+                data: { turbo_frame: "plants-list" } %>
+    
+    <%= link_to "Edible Plants", 
+                quick_filter_plants_path(filter: 'edible'),
+                class: "px-4 py-2 bg-white rounded-full shadow hover:bg-green-50 transition-colors",
+                data: { turbo_frame: "plants-list" } %>
+    
+    <%= link_to "Medicinal", 
+                quick_filter_plants_path(filter: 'medicinal'),
+                class: "px-4 py-2 bg-white rounded-full shadow hover:bg-green-50 transition-colors",
+                data: { turbo_frame: "plants-list" } %>
+    
+    <%= link_to "Nitrogen Fixers", 
+                quick_filter_plants_path(filter: 'nitrogen'),
+                class: "px-4 py-2 bg-white rounded-full shadow hover:bg-green-50 transition-colors",
+                data: { turbo_frame: "plants-list" } %>
+    
+    <%= link_to "Ground Cover", 
+                quick_filter_plants_path(filter: 'groundcover'),
+                class: "px-4 py-2 bg-white rounded-full shadow hover:bg-green-50 transition-colors",
+                data: { turbo_frame: "plants-list" } %>
+  </div>
+</div> 

@@ -56,3 +56,8 @@
 /coverage/
 vendor/bundle
 config/master.key
+
+# Environment files
+.env
+.env.*
+!.env.example

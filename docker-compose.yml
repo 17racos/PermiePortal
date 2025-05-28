@@ -1,39 +1,92 @@
 services:
-  app:
+  web:
     build:
       context: .
       dockerfile: Dockerfile
-    volumes:
-      - ".:/app"
-      - "./storage:/app/storage"
-      - "./public/assets:/app/public/assets"
     ports:
       - "3000:3000"
+    volumes:
+      - .:/app
+      - bundle_cache:/usr/local/bundle
+    environment:
+      - RAILS_ENV=development
+      - DATABASE_URL=postgres://postgres:postgres@db:5432/permieportal_development
+      - REDIS_URL=redis://redis:6379/1
     depends_on:
-      - db
-    env_file:
-      - .env
-    command: >
-      bash -c "
-      rm -f tmp/pids/server.pid &&
-      if ! rails db:version > /dev/null 2>&1; then rails db:create; fi &&
-      rails db:migrate &&
-      rails db:seed &&
-      rails server -b 0.0.0.0"
-      
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - app_network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 40s
+
   db:
     image: postgres:15
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
     environment:
-      POSTGRES_USER: ${POSTGRES_USER}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-      POSTGRES_DB: ${POSTGRES_DB}
-      PGDATA: /var/lib/postgresql/data
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=permieportal_development
+      - POSTGRES_HOST_AUTH_METHOD=trust
     ports:
       - "5432:5432"
+    networks:
+      - app_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
     volumes:
-      - db_data:/var/lib/postgresql/data
-    restart: always
+      - redis_data:/data
+    networks:
+      - app_network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  sidekiq:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: bundle exec sidekiq
+    volumes:
+      - .:/app
+      - bundle_cache:/usr/local/bundle
+    environment:
+      - RAILS_ENV=development
+      - REDIS_URL=redis://redis:6379/1
+      - DATABASE_URL=postgres://postgres:postgres@db:5432/permieportal_development
+      - SKIP_DB_MIGRATE=true
+    depends_on:
+      web:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      db:
+        condition: service_healthy
+    networks:
+      - app_network
 
 volumes:
-  db_data:
-    driver: local
+  postgres_data:
+  redis_data:
+  bundle_cache:
+
+networks:
+  app_network:
+    driver: bridge

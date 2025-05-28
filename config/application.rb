@@ -6,12 +6,16 @@ require "sprockets/railtie" # ✅ Ensure Sprockets is loaded
 require "active_model/railtie"
 require "active_job/railtie"
 require "active_record/railtie"
+require "active_storage/engine" # Add ActiveStorage
 require "action_controller/railtie"
 require "action_mailer/railtie"
 require "action_view/railtie"
 
 # ✅ Load all gems (must be AFTER Rails components)
 Bundler.require(*Rails.groups)
+
+# Load middleware
+require_relative "../lib/middleware/response_time_middleware"
 
 module App
   class Application < Rails::Application
@@ -43,5 +47,8 @@ module App
       g.assets false
       g.helper false
     end
+
+    # Add ResponseTimeMiddleware
+    config.middleware.use ResponseTimeMiddleware
   end
 end

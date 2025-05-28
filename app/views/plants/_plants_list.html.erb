@@ -1,15 +1,46 @@
-<% if plants.any? %>
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+<%= turbo_frame_tag "plants-list" do %>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
     <% plants.each do |plant| %>
-      <div class="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition">
-        <%= image_tag(plant.picture.presence || 'default_plant_image.jpg', alt: plant.common_name, class: "w-full h-40 object-cover rounded-md mb-4") %>
-        <h2 class="text-xl font-semibold text-green-700 hover:text-green-500">
-        <%= link_to plant.common_name, plant_path(plant) %>
-        </h2>
-        <p class="text-gray-600 italic"><%= plant.scientific_name %></p>
+      <div class="plant-card bg-white rounded-lg shadow overflow-hidden hover:shadow-lg transition-shadow">
+        <%# Plant Image %>
+        <div class="w-full h-48 overflow-hidden">
+          <%= image_tag asset_path(plant.display_image), class: "w-full h-full object-cover", alt: plant.common_name %>
+        </div>
+
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-2">
+            <%= link_to plant.common_name, plant_path(plant), class: "text-green-800 hover:text-green-600" %>
+          </h3>
+          <p class="text-gray-600 italic mb-3"><%= plant.scientific_name %></p>
+          
+          <div class="mb-4">
+            <span class="text-sm font-semibold text-gray-700">Zone:</span>
+            <span class="text-sm text-gray-600"><%= "#{plant.zone_range.begin}-#{plant.zone_range.end}" %></span>
+          </div>
+
+          <div class="mb-4">
+            <span class="text-sm font-semibold text-gray-700">Functions:</span>
+            <div class="flex flex-wrap gap-2 mt-1">
+              <% plant.functions_array.each do |function| %>
+                <span class="px-2 py-1 bg-green-100 text-green-800 text-xs rounded-full">
+                  <%= function %>
+                </span>
+              <% end %>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <span class="text-sm font-semibold text-gray-700">Layers:</span>
+            <div class="flex flex-wrap gap-2 mt-1">
+              <% plant.layers_array.each do |layer| %>
+                <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">
+                  <%= layer %>
+                </span>
+              <% end %>
+            </div>
+          </div>
+        </div>
       </div>
     <% end %>
   </div>
-<% else %>
-  <p class="text-center text-gray-500 mt-8">No plants match your search criteria.</p>
 <% end %>

@@ -1,4 +1,4 @@
-class CreatePests < ActiveRecord::Migration[7.2]
+class CreatePests < ActiveRecord::Migration[7.1]
   def change
     create_table :pests do |t|
       t.string :name, null: false

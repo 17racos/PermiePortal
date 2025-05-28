@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2025_04_02_113018) do
+ActiveRecord::Schema[7.1].define(version: 2025_04_02_113018) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -66,14 +66,14 @@ ActiveRecord::Schema[7.2].define(version: 2025_04_02_113018) do
     t.string "scientific_name"
     t.text "aka", default: [], array: true
     t.string "family"
-    t.string "zone"
+    t.int4range "zone_range"
     t.string "ideal_temp_min"
     t.string "ideal_temp_max"
     t.string "min_temp"
     t.string "max_temp"
     t.boolean "perennial"
     t.text "layers", default: [], array: true
-    t.text "plant_function", default: [], array: true
+    t.text "plant_functions", default: [], array: true
     t.text "description"
     t.text "purpose"
     t.text "avoid", default: [], array: true

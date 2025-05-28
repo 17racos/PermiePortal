@@ -5,7 +5,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.3.6"
 
 # Rails framework
-gem "rails", "~> 7.2.2.1"
+gem "rails", "~> 7.1.3"
 
 # Database adapter for PostgreSQL
 gem "pg", "~> 1.5"
@@ -19,6 +19,9 @@ gem "puma", "~> 6.5"
 gem "turbo-rails"
 gem "stimulus-rails"
 
+# Active Storage
+gem "activestorage", "~> 7.1.3"
+
 #Asset Pipline
 gem "sprockets-rails", "~> 3.5"
 
@@ -26,12 +29,10 @@ gem "sprockets-rails", "~> 3.5"
 gem "sass-rails", "~> 6.0"
 gem "sassc-rails", "~> 2.1.2"
 
-
 # Dependencies required for SASS
 gem "sassc", "~> 2.4.0"
 gem "tilt", "~> 2.6.0"
 gem "ffi", "~> 1.17.1"
-
 
 # JSON API builder
 gem "jbuilder"
@@ -50,6 +51,28 @@ gem "bootsnap", require: false
 
 group :development do
   gem "web-console"
+end
+
+# Background Jobs
+gem 'sidekiq', '~> 7.2'
+
+# Image Processing
+gem 'image_processing', '~> 1.12'
+gem 'mini_magick', '~> 4.12'
+
+# API Documentation
+gem 'rswag'
+
+# Caching
+gem 'redis', '~> 5.0'
+gem 'hiredis'
+
+# Monitoring and Metrics
+gem 'prometheus-client'
+
+group :development do
+  gem 'pry-rails'
+  gem 'rubocop', require: false
 end
 
 

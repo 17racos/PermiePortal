@@ -1,4 +1,4 @@
-class CreatePlantPests < ActiveRecord::Migration[7.2]
+class CreatePlantPests < ActiveRecord::Migration[7.1]
   def change
     create_table :plant_pests do |t|
       t.references :plant, null: false, foreign_key: true

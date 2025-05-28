@@ -51,4 +51,33 @@ Rails.application.routes.draw do
       end
     }, constraints: { filename: /.+\.(jpg|jpeg|png|gif|webp)/ }
   end
+
+  # Sidekiq Web UI
+  authenticate :user, lambda { |u| u.admin? } do
+    require 'sidekiq/web'
+    mount Sidekiq::Web => '/sidekiq'
+  end
+
+  # Monitoring endpoint
+  get '/metrics', to: 'monitoring#metrics'
+
+  # API Routes
+  namespace :api do
+    namespace :v1 do
+      resources :sync, only: [] do
+        collection do
+          get :manifest
+          get :delta
+        end
+      end
+    end
+  end
+
+  # Health check endpoint
+  get '/health', to: 'health#show'
+
+  # Test metrics routes
+  get 'test_metrics/error', to: 'test_metrics#test_error'
+  get 'test_metrics/view', to: 'test_metrics#test_view'
+  get 'test_metrics/search', to: 'test_metrics#test_search'
 end

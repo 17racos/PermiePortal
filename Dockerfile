@@ -1,44 +1,55 @@
-# Use official Ruby image
-FROM ruby:3.3.6-bullseye
+# syntax=docker/dockerfile:1
 
-WORKDIR /app
+# Builder stage
+FROM ruby:3.3.6-slim as builder
 
-# Set Rails environment to production
-ENV RAILS_ENV=production
-
-# Install system dependencies
-RUN apt-get update -qq && apt-get install -y \
+# Install build essentials
+RUN apt-get update -qq && \
+    apt-get install -y --no-install-recommends \
     build-essential \
     libpq-dev \
-    curl \
-    git
+    git \
+    && rm -rf /var/lib/apt/lists/*
 
-# Install Node.js 18, npm 10, and Yarn (required for asset compilation)
-RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
-    apt-get install -y nodejs && \
-    npm install -g npm@10 yarn
+# Set working directory
+WORKDIR /app
 
-# Verify Node.js, npm, and Yarn versions
-RUN node -v && npm -v && yarn -v
+# Install dependencies
+COPY Gemfile Gemfile.lock ./
+RUN bundle config set --local without 'development test' && \
+    bundle install --jobs 4 --retry 3
 
 # Copy application code
 COPY . .
 
-# Remove old node_modules and reinstall dependencies
-RUN rm -rf node_modules yarn.lock && yarn install --check-files
-
-# Install Gems for production (exclude development and test groups)
-RUN bundle config set force_ruby_platform false
-RUN bundle install --jobs=4 --retry=3 --without development test
-
 # Precompile assets
-RUN bin/rails assets:clobber && bin/rails assets:precompile
+RUN bundle exec rake assets:precompile
 
-# Clean up apt cache to reduce image size
-RUN apt-get clean && rm -rf /var/lib/apt/lists/*
+# Final stage
+FROM ruby:3.3.6-slim
 
-# Expose port 3000 for production
+# Install runtime dependencies
+RUN apt-get update -qq && \
+    apt-get install -y --no-install-recommends \
+    libpq-dev \
+    postgresql-client \
+    nodejs \
+    npm \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Set working directory
+WORKDIR /app
+
+# Copy from builder
+COPY --from=builder /usr/local/bundle /usr/local/bundle
+COPY --from=builder /app /app
+
+# Add entrypoint script
+COPY entrypoint.sh /usr/bin/
+RUN chmod +x /usr/bin/entrypoint.sh
+ENTRYPOINT ["entrypoint.sh"]
+
+# Configure the main process
 EXPOSE 3000
-
-# Start the Rails application in production mode
-CMD ["bash", "-c", "rm -f tmp/pids/server.pid && bundle exec rails server -b 0.0.0.0 -e production"]
+CMD ["rails", "server", "-b", "0.0.0.0"]

@@ -1,0 +1,41 @@
+<%= form_with(url: plants_path, method: :get, data: { turbo_frame: "plants-list" }, class: "mb-8") do |f| %>
+  <div class="bg-white rounded-lg shadow p-6">
+    <div class="mb-6">
+      <%= f.label :query, "Search Plants", class: "block text-lg font-semibold mb-2" %>
+      <%= f.text_field :query, 
+          value: params.dig(:search, :query),
+          class: "w-full p-3 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500",
+          placeholder: "Search by common or scientific name..." %>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div>
+        <%= f.label :functions, "Functions", class: "block font-medium mb-2" %>
+        <%= f.select :functions,
+            options_for_select(['Food', 'Nitrogen', 'Medicinal', 'Barrier', 'Shade'], params.dig(:search, :functions)),
+            { include_blank: true },
+            { multiple: true, class: "w-full p-2 border rounded-lg" } %>
+      </div>
+
+      <div>
+        <%= f.label :layers, "Layers", class: "block font-medium mb-2" %>
+        <%= f.select :layers,
+            options_for_select(['Canopy', 'Understory', 'Shrub', 'Herbaceous', 'Ground Cover', 'Root', 'Vine'], params.dig(:search, :layers)),
+            { include_blank: true },
+            { multiple: true, class: "w-full p-2 border rounded-lg" } %>
+      </div>
+
+      <div>
+        <%= f.label :zones, "USDA Zones", class: "block font-medium mb-2" %>
+        <%= f.select :zones,
+            options_for_select((1..13).map(&:to_s), params.dig(:search, :zones)),
+            { include_blank: true },
+            { multiple: true, class: "w-full p-2 border rounded-lg" } %>
+      </div>
+    </div>
+
+    <div class="mt-6 flex justify-end">
+      <%= f.submit "Search", class: "px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2" %>
+    </div>
+  </div>
+<% end %> 

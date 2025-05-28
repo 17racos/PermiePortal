@@ -45,10 +45,10 @@ def map_plant_attributes(data)
     scientific_name: data['scientific_name'],
     aka: data['aka'],
     family: data['family'],
-    zone: data['zone'],
+    zone_range: data['zone'],
     perennial: data['perennial'],
     layers: data['layers'],
-    plant_function: data['plant_function'],
+    plant_functions: data['plant_function'],
     description: data['description'],
     purpose: data['purpose'],
     companions: data['companions'],
@@ -224,21 +224,21 @@ puts "#{guides.size} guides have been added or updated."
 rotten_article = [
   {
     title: 'We Saved the Lake by Killing It!',
-    body: 'We saved the lake by killing it! And now it’s so clear, you can see the full extent of our brilliance… right down to the dead zone.',
+    body: 'We saved the lake by killing it! And now it\'s so clear, you can see the full extent of our brilliance... right down to the dead zone.',
     slug: 'we-saved-the-lake-by-killing-it',
     is_published: true,
     image: 'lake-collapsing.jpg'
   },
   {
-    title: 'Grass! Humanity’s most expensive crop that feeds no one, shelters nothing, and demands everything.',
-    body: 'Lawns! Because nothing screams “environmental stewardship” like weekly fossil-fueled grass mutilation. The crown jewel of the American Dream — where we spend thousands to fight nature, kill the soil, to please HOA overlords. What’s not to love? Because going broke, polluting the air, and fighting nature every weekend is clearly the most logical way to show you’re a responsible homeowner.',
+    title: 'Grass! Humanity\'s most expensive crop that feeds no one, shelters nothing, and demands everything.',
+    body: 'Lawns! Because nothing screams "environmental stewardship" like weekly fossil-fueled grass mutilation. The crown jewel of the American Dream - where we spend thousands to fight nature, kill the soil, to please HOA overlords. What\'s not to love? Because going broke, polluting the air, and fighting nature every weekend is clearly the most logical way to show you\'re a responsible homeowner.',
     slug: 'great-american-lawn',
     is_published: false,
     image: 'green-buzzcut.jpg'
   },
   {
-    title: 'Genghis Khan: History’s Greatest Environmentalist',
-    body: 'How one man lowered global carbon levels using nothing but carbon-neutral cavalry operations, low-tech ecological interventions, and the most efficient compost-to-carbon strategy in recorded history. Before Greta, there was Genghis—fighting the good fight for the environment one empire at a time...',
+    title: 'Genghis Khan: History\'s Greatest Environmentalist',
+    body: 'How one man lowered global carbon levels using nothing but carbon-neutral cavalry operations, low-tech ecological interventions, and the most efficient compost-to-carbon strategy in recorded history. Before Greta, there was Genghis-fighting the good fight for the environment one empire at a time...',
     slug: 'genghis-kahn-historys-greatest-environmentalist',
     is_published: true,
     image: 'genghis-khan-the-enviornmentalist.jpg'
