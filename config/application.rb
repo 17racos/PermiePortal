@@ -1,26 +1,27 @@
-require_relative "boot"
-require "rails"
+# frozen_string_literal: true
+require_relative 'boot'
+require 'rails'
 
 # ✅ Load only the frameworks you need (BEFORE Bundler.require)
-require "sprockets/railtie" # ✅ Ensure Sprockets is loaded
-require "active_model/railtie"
-require "active_job/railtie"
-require "active_record/railtie"
-require "active_storage/engine" # Add ActiveStorage
-require "action_controller/railtie"
-require "action_mailer/railtie"
-require "action_view/railtie"
+require 'sprockets/railtie' # ✅ Ensure Sprockets is loaded
+require 'active_model/railtie'
+require 'active_job/railtie'
+require 'active_record/railtie'
+require 'active_storage/engine' # Add ActiveStorage
+require 'action_controller/railtie'
+require 'action_mailer/railtie'
+require 'action_view/railtie'
 
 # ✅ Load all gems (must be AFTER Rails components)
 Bundler.require(*Rails.groups)
 
 # Load middleware
-require_relative "../lib/middleware/response_time_middleware"
+require_relative '../lib/middleware/response_time_middleware'
 
 module App
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
-    config.encoding = "utf-8"
+    config.encoding = 'utf-8'
     config.load_defaults 7.0
 
     # ✅ Ensure ActiveAdmin dependencies are available
@@ -29,18 +30,18 @@ module App
     config.eager_load_namespaces << ActionController
 
     # ✅ Configure assets pipeline
-    config.assets.version = "1.0"
-    config.assets.paths << Rails.root.join("app", "assets", "javascripts")
-    config.assets.paths << Rails.root.join("app", "assets", "stylesheets")
-    config.assets.paths << Rails.root.join("vendor", "assets", "javascripts")
-    config.assets.paths << Rails.root.join("vendor", "assets", "stylesheets")
-    config.assets.paths << Rails.root.join("app", "assets", "images")
+    config.assets.version = '1.0'
+    config.assets.paths << Rails.root.join('app', 'assets', 'javascripts')
+    config.assets.paths << Rails.root.join('app', 'assets', 'stylesheets')
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'javascripts')
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'stylesheets')
+    config.assets.paths << Rails.root.join('app', 'assets', 'images')
 
     # ✅ Ensure TailwindCSS and other assets are precompiled
     config.assets.precompile += %w(application.js application.css admin.js admin.css tailwind.css)
 
     # ✅ Serve static files only if required (for Heroku, etc.)
-    config.public_file_server.enabled = ENV["RAILS_SERVE_STATIC_FILES"].present?
+    config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
 
     # ✅ Don't generate assets/helpers when running generators
     config.generators do |g|

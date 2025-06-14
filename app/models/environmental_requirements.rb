@@ -1,7 +1,8 @@
+# frozen_string_literal: true
 class EnvironmentalRequirements < ApplicationRecord
   belongs_to :enhanced_plant
 
-  validates :hardiness_zone_min, :hardiness_zone_max, 
+  validates :hardiness_zone_min, :hardiness_zone_max,
             numericality: { in: 1..13 }, allow_nil: true
   validates :heat_zone_min, :heat_zone_max,
             numericality: { in: 1..12 }, allow_nil: true
@@ -12,7 +13,7 @@ class EnvironmentalRequirements < ApplicationRecord
 
   enum soil_drainage: {
     poor: 'poor',
-    moderate: 'moderate', 
+    moderate: 'moderate',
     good: 'good',
     excellent: 'excellent'
   }, _prefix: :drainage
@@ -38,7 +39,7 @@ class EnvironmentalRequirements < ApplicationRecord
 
   def zone_range
     return nil unless hardiness_zone_min && hardiness_zone_max
-    
+
     if hardiness_zone_min == hardiness_zone_max
       hardiness_zone_min.to_s
     else
@@ -48,7 +49,7 @@ class EnvironmentalRequirements < ApplicationRecord
 
   def heat_zone_range
     return nil unless heat_zone_min && heat_zone_max
-    
+
     if heat_zone_min == heat_zone_max
       heat_zone_min.to_s
     else
@@ -58,7 +59,7 @@ class EnvironmentalRequirements < ApplicationRecord
 
   def ph_range
     return nil unless soil_ph_min && soil_ph_max
-    
+
     if soil_ph_min == soil_ph_max
       soil_ph_min.to_s
     else
@@ -68,13 +69,13 @@ class EnvironmentalRequirements < ApplicationRecord
 
   def temperature_range_celsius
     return nil unless temp_optimal_min && temp_optimal_max
-    
+
     "#{temp_optimal_min}°C - #{temp_optimal_max}°C"
   end
 
   def temperature_range_fahrenheit
     return nil unless temp_optimal_min && temp_optimal_max
-    
+
     min_f = (temp_optimal_min * 9/5) + 32
     max_f = (temp_optimal_max * 9/5) + 32
     "#{min_f.round}°F - #{max_f.round}°F"
@@ -82,7 +83,7 @@ class EnvironmentalRequirements < ApplicationRecord
 
   def rainfall_range_inches
     return nil unless annual_rainfall_min_mm && annual_rainfall_max_mm
-    
+
     min_inches = (annual_rainfall_min_mm / 25.4).round(1)
     max_inches = (annual_rainfall_max_mm / 25.4).round(1)
     "#{min_inches}\" - #{max_inches}\""
@@ -90,13 +91,13 @@ class EnvironmentalRequirements < ApplicationRecord
 
   def is_suitable_for_zone?(zone)
     return false unless hardiness_zone_min && hardiness_zone_max
-    
+
     zone >= hardiness_zone_min && zone <= hardiness_zone_max
   end
 
   def drought_tolerance_level
     return 'Unknown' unless drought_tolerance_score
-    
+
     case drought_tolerance_score
     when 0.0..0.3
       'Low'
@@ -138,4 +139,4 @@ class EnvironmentalRequirements < ApplicationRecord
     summary << light_needs_description if light_requirement
     summary.join(' • ')
   end
-end 
+end

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class GuidesController < ApplicationController
   before_action :set_guide, only: [:show, :edit, :update, :destroy]
 
@@ -9,7 +10,7 @@ class GuidesController < ApplicationController
   # GET /guides/:slug
   def show
     if @guide
-      custom_view = Rails.root.join("app", "views", "guides", "#{@guide.slug}.html.erb")
+      custom_view = Rails.root.join('app', 'views', 'guides', "#{@guide.slug}.html.erb")
 
       if File.exist?(custom_view)
         render template: "guides/#{@guide.slug}"

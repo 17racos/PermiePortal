@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class EnhancedPlant < ApplicationRecord
   extend FriendlyId
   friendly_id :common_name, use: :slugged
@@ -8,25 +9,29 @@ class EnhancedPlant < ApplicationRecord
   has_one :environmental_requirements, dependent: :destroy
   has_many :plant_uses, dependent: :destroy
   has_many :use_categories, through: :plant_uses
-  
+
+  # Semantic tagging associations
+  has_many :plant_semantic_tags, dependent: :destroy
+  has_many :semantic_tags, through: :plant_semantic_tags
+
   # Plant relationships
   has_many :plant_relationships_as_a, class_name: 'PlantRelationship', foreign_key: 'plant_a_id', dependent: :destroy
   has_many :plant_relationships_as_b, class_name: 'PlantRelationship', foreign_key: 'plant_b_id', dependent: :destroy
   has_many :related_plants_a, through: :plant_relationships_as_a, source: :plant_b
   has_many :related_plants_b, through: :plant_relationships_as_b, source: :plant_a
-  
+
   # Guild memberships
   has_many :guild_members, dependent: :destroy
   has_many :plant_guilds, through: :guild_members
-  
+
   # Regional data
-  has_many :plant_regional_data, dependent: :destroy
+  has_many :plant_regional_data, class_name: 'PlantRegionalData', dependent: :destroy
   has_many :regions, through: :plant_regional_data
-  
-  # Pest relationships
-  has_many :enhanced_plant_pest_relationships, dependent: :destroy
-  has_many :enhanced_pests_diseases, through: :enhanced_plant_pest_relationships
-  
+
+  # Pest relationships (commented out until models are created)
+  # has_many :enhanced_plant_pest_relationships, dependent: :destroy
+  # has_many :enhanced_pests_diseases, through: :enhanced_plant_pest_relationships
+
   # Validations
   validates :common_name, presence: true, length: { maximum: 255 }
   validates :scientific_name, presence: true, uniqueness: true, length: { maximum: 255 }
@@ -34,14 +39,14 @@ class EnhancedPlant < ApplicationRecord
   validates :genus, length: { maximum: 100 }
   validates :species, length: { maximum: 100 }
   validates :data_quality_score, inclusion: { in: 0.0..1.0 }
-  validates :mature_height_min_cm, :mature_height_max_cm, 
-            :mature_width_min_cm, :mature_width_max_cm, 
+  validates :mature_height_min_cm, :mature_height_max_cm,
+            :mature_width_min_cm, :mature_width_max_cm,
             numericality: { greater_than: 0 }, allow_nil: true
 
   # Enums
   enum plant_type: {
     tree: 'tree',
-    shrub: 'shrub', 
+    shrub: 'shrub',
     herbaceous: 'herbaceous',
     vine: 'vine',
     grass: 'grass',
@@ -65,6 +70,10 @@ class EnhancedPlant < ApplicationRecord
   scope :search_by_text, ->(query) { where("search_vector @@ plainto_tsquery('english', ?)", query) }
 
   # Instance methods
+  def to_param
+    common_name
+  end
+
   def all_names
     ([common_name] + plant_names.pluck(:name)).uniq
   end
@@ -104,12 +113,12 @@ class EnhancedPlant < ApplicationRecord
 
   def hardiness_zones
     return nil unless environmental_requirements
-    
+
     min_zone = environmental_requirements.hardiness_zone_min
     max_zone = environmental_requirements.hardiness_zone_max
-    
+
     return nil unless min_zone && max_zone
-    
+
     min_zone == max_zone ? min_zone.to_s : "#{min_zone}-#{max_zone}"
   end
 
@@ -137,7 +146,7 @@ class EnhancedPlant < ApplicationRecord
     regional_data = plant_regional_data.joins(:region)
                                       .find_by(regions: { name: region_name })
     return false unless regional_data
-    
+
     %w[moderate high severe].include?(regional_data.invasiveness_risk)
   end
 
@@ -150,20 +159,102 @@ class EnhancedPlant < ApplicationRecord
                         .limit(limit)
   end
 
+  # Semantic tag methods
+  def add_semantic_tag(tag_name, confidence: 1.0, source: 'manual')
+    tag = SemanticTag.find_or_create_by(name: tag_name.downcase) do |t|
+      t.category = 'trait' # default category
+    end
+
+    plant_semantic_tags.find_or_create_by(semantic_tag: tag) do |pst|
+      pst.confidence_score = confidence
+      pst.source = source
+    end
+  end
+
+  def remove_semantic_tag(tag_name)
+    tag = SemanticTag.find_by(name: tag_name.downcase)
+    return false unless tag
+
+    plant_semantic_tags.where(semantic_tag: tag).destroy_all
+    true
+  end
+
+  def has_semantic_tag?(tag_name, min_confidence: 0.5)
+    semantic_tags.joins(:plant_semantic_tags)
+                 .where(name: tag_name.downcase)
+                 .where('plant_semantic_tags.confidence_score >= ?', min_confidence)
+                 .exists?
+  end
+
+  def tags_by_category
+    semantic_tags.group_by(&:category)
+  end
+
+  def high_confidence_tags(min_confidence: 0.7)
+    semantic_tags.joins(:plant_semantic_tags)
+                 .where('plant_semantic_tags.confidence_score >= ?', min_confidence)
+  end
+
+  def similar_plants_by_tags(limit: 10)
+    tag_ids = semantic_tags.pluck(:id)
+    return EnhancedPlant.none if tag_ids.empty?
+
+    EnhancedPlant
+      .joins(:plant_semantic_tags)
+      .where(plant_semantic_tags: { semantic_tag_id: tag_ids })
+      .where.not(id: id)
+      .group('enhanced_plants.id')
+      .order('COUNT(plant_semantic_tags.id) DESC')
+      .limit(limit)
+  end
+
   # Image handling
   def display_image
-    # Try to find an image based on common name (lowercase, with hyphens)
-    image_name = common_name.downcase.gsub(/\s+/, '-').gsub(/[^a-z0-9\-]/, '')
-    image_path = "#{image_name}.jpg"
-    
-    # Check if the image exists in assets
-    if Rails.application.assets&.find_asset(image_path) || 
-       File.exist?(Rails.root.join('app', 'assets', 'images', image_path))
-      image_path
-    else
-      # Fallback to a default plant image or nil
-      'default-plant.jpg' if Rails.application.assets&.find_asset('default-plant.jpg')
+    return 'default_plant.jpg' if common_name.nil? || common_name.strip.empty?
+
+    # Try multiple naming conventions in order of preference
+
+    # 1. Try underscore format (bok_choy.jpg, black_ginger.jpg)
+    image_name_underscore = common_name
+      .downcase
+      .gsub("'", '')        # Remove apostrophes
+      .gsub(/[^a-z0-9\s]/, '') # Remove other special characters
+      .strip
+      .gsub(/\s+/, '_')    # Replace spaces with underscores
+
+    image_path_underscore = "#{image_name_underscore}.jpg"
+
+    if Rails.application.assets&.find_asset(image_path_underscore) ||
+       File.exist?(Rails.root.join('app', 'assets', 'images', image_path_underscore))
+      return image_path_underscore
     end
+
+    # 2. Try no spaces/underscores format (beebalm.jpg, holybasil.jpg)
+    image_name_nospace = common_name
+      .downcase
+      .gsub("'", '')        # Remove apostrophes
+      .gsub(/[^a-z0-9\s]/, '') # Remove other special characters
+      .strip
+      .gsub(/\s+/, '')     # Remove all spaces
+
+    image_path_nospace = "#{image_name_nospace}.jpg"
+
+    if Rails.application.assets&.find_asset(image_path_nospace) ||
+       File.exist?(Rails.root.join('app', 'assets', 'images', image_path_nospace))
+      return image_path_nospace
+    end
+
+    # 3. Try hyphen format (original logic)
+    image_name_hyphen = common_name.downcase.gsub(/\s+/, '-').gsub(/[^a-z0-9\-]/, '')
+    image_path_hyphen = "#{image_name_hyphen}.jpg"
+
+    if Rails.application.assets&.find_asset(image_path_hyphen) ||
+       File.exist?(Rails.root.join('app', 'assets', 'images', image_path_hyphen))
+      return image_path_hyphen
+    end
+
+    # Final fallback to default image
+    'default_plant.jpg'
   end
 
   def has_image?
@@ -178,19 +269,19 @@ class EnhancedPlant < ApplicationRecord
     # connection.execute(
     #   "SELECT * FROM find_similar_enhanced_plants('#{embedding_vector}', #{threshold}, #{limit})"
     # ).map { |row| find(row['plant_id']) }
-    
+
     # For now, return empty result
     none
   end
 
   def self.search_by_traits(trait_filters)
     plants = includes(:plant_traits, :trait_categories)
-    
+
     trait_filters.each do |category_name, criteria|
       plants = plants.where(
         plant_traits: { trait_categories: { name: category_name } }
       )
-      
+
       case criteria
       when Hash
         if criteria[:min]
@@ -205,13 +296,13 @@ class EnhancedPlant < ApplicationRecord
         plants = plants.where(plant_traits: { categorical_value: criteria })
       end
     end
-    
+
     plants.distinct
   end
 
   def self.search_by_environmental_conditions(conditions)
     plants = joins(:environmental_requirements)
-    
+
     conditions.each do |condition, value|
       case condition.to_s
       when 'drought_tolerant'
@@ -227,7 +318,7 @@ class EnhancedPlant < ApplicationRecord
         plants = plants.where('enhanced_plants.mature_height_max_cm <= ?', value)
       end
     end
-    
+
     plants
   end
 
@@ -251,17 +342,17 @@ class EnhancedPlant < ApplicationRecord
     return EnhancedPlant.none unless relationship_type
 
     related_a = EnhancedPlant.joins(:plant_relationships_as_b)
-                            .where(plant_relationships: { 
-                              plant_a_id: id, 
-                              relationship_type: relationship_type 
+                            .where(plant_relationships: {
+                              plant_a_id: id,
+                              relationship_type: relationship_type
                             })
-    
+
     related_b = EnhancedPlant.joins(:plant_relationships_as_a)
-                            .where(plant_relationships: { 
-                              plant_b_id: id, 
-                              relationship_type: relationship_type 
+                            .where(plant_relationships: {
+                              plant_b_id: id,
+                              relationship_type: relationship_type
                             })
-    
+
     EnhancedPlant.where(id: (related_a.pluck(:id) + related_b.pluck(:id)).uniq)
   end
-end 
+end

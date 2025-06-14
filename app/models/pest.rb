@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class Pest < ApplicationRecord
   # === Associations ===
   has_many :plant_pests, dependent: :destroy

@@ -19,7 +19,7 @@
 
         <div class="p-6">
           <h3 class="text-xl font-bold mb-2">
-            <%= link_to plant.common_name, plant_path(plant), class: "text-green-800 hover:text-green-600" %>
+            <%= link_to plant.common_name, plant_path(plant.to_param), class: "text-green-800 hover:text-green-600" %>
           </h3>
           <p class="text-gray-600 italic mb-3"><%= plant.scientific_name %></p>
           
@@ -79,6 +79,6 @@
 
   <%# Show count %>
   <div class="mt-6 text-center text-gray-600">
-    Showing <%= plants.respond_to?(:count) ? plants.count : plants.size %> plants
+    Showing <%= plants.is_a?(Array) ? plants.size : plants.count %> plants
   </div>
 <% end %>

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class PlantMigrationService
   attr_reader :migrated_count, :errors
 
@@ -32,22 +33,22 @@ class PlantMigrationService
     ActiveRecord::Base.transaction do
       # Create enhanced plant
       enhanced_plant = create_enhanced_plant(old_plant)
-      
+
       # Migrate environmental data
       create_environmental_requirements(enhanced_plant, old_plant)
-      
+
       # Migrate uses
       migrate_uses(enhanced_plant, old_plant)
-      
+
       # Migrate traits from existing data
       extract_and_create_traits(enhanced_plant, old_plant)
-      
+
       # Migrate relationships
       migrate_relationships(enhanced_plant, old_plant)
-      
+
       # Generate initial embedding text
       update_search_vector(enhanced_plant)
-      
+
       enhanced_plant
     end
   end
@@ -70,7 +71,7 @@ class PlantMigrationService
 
   def create_environmental_requirements(enhanced_plant, old_plant)
     zone_min, zone_max = parse_zone_range(old_plant.zone_range)
-    
+
     EnvironmentalRequirements.create!(
       enhanced_plant: enhanced_plant,
       hardiness_zone_min: zone_min,
@@ -90,7 +91,7 @@ class PlantMigrationService
 
     old_plant.plant_functions.each do |function|
       use_category = find_or_create_use_category(function)
-      
+
       PlantUse.create!(
         enhanced_plant: enhanced_plant,
         use_category: use_category,
@@ -109,19 +110,19 @@ class PlantMigrationService
 
   def extract_growth_traits(enhanced_plant, old_plant)
     description = old_plant.description.to_s.downcase
-    
+
     # Growth rate
     if description.match?(/fast[- ]growing|rapid|vigorous/i)
       create_trait(enhanced_plant, 'growth_rate', 'fast')
     elsif description.match?(/slow[- ]growing|slow/i)
       create_trait(enhanced_plant, 'growth_rate', 'slow')
     end
-    
+
     # Drought tolerance
     if description.match?(/drought[- ]tolerant|drought[- ]resistant|dry/i)
       create_trait(enhanced_plant, 'drought_tolerance', true)
     end
-    
+
     # Shade tolerance
     if description.match?(/shade[- ]tolerant|partial shade|full shade/i)
       create_trait(enhanced_plant, 'shade_tolerance', true)
@@ -132,7 +133,7 @@ class PlantMigrationService
     # Use layers to infer size
     if old_plant.layers.present?
       layers = old_plant.layers.map(&:downcase)
-      
+
       if layers.include?('canopy')
         enhanced_plant.update!(
           mature_height_min_cm: 800,
@@ -159,18 +160,18 @@ class PlantMigrationService
 
   def extract_descriptive_traits(enhanced_plant, old_plant)
     description = old_plant.description.to_s
-    
+
     # Extract color information
     colors = description.scan(/\b(red|blue|yellow|purple|pink|white|orange|green)\b/i).flatten
     if colors.any?
       create_trait(enhanced_plant, 'flower_color', colors.first.downcase)
     end
-    
+
     # Extract fragrance
     if description.match?(/fragrant|scented|aromatic/i)
       create_trait(enhanced_plant, 'fragrant', true)
     end
-    
+
     # Extract edibility
     if description.match?(/edible|food|fruit|vegetable/i)
       create_trait(enhanced_plant, 'edible', true)
@@ -181,11 +182,11 @@ class PlantMigrationService
     # Migrate companions
     if old_plant.companions.present?
       beneficial_type = find_or_create_relationship_type('beneficial_companion')
-      
+
       old_plant.companions.each do |companion_name|
         companion = find_plant_by_name(companion_name)
         next unless companion
-        
+
         PlantRelationship.create!(
           plant_a: enhanced_plant,
           plant_b: companion,
@@ -196,15 +197,15 @@ class PlantMigrationService
         )
       end
     end
-    
+
     # Migrate avoid list
     if old_plant.avoid.present?
       antagonistic_type = find_or_create_relationship_type('antagonistic')
-      
+
       old_plant.avoid.each do |avoid_name|
         avoided_plant = find_plant_by_name(avoid_name)
         next unless avoided_plant
-        
+
         PlantRelationship.create!(
           plant_a: enhanced_plant,
           plant_b: avoided_plant,
@@ -219,14 +220,14 @@ class PlantMigrationService
 
   def create_trait(enhanced_plant, category_name, value)
     category = find_or_create_trait_category(category_name)
-    
+
     trait_attributes = {
       enhanced_plant: enhanced_plant,
       trait_category: category,
       confidence_score: 0.6,
       source: 'migration_extraction'
     }
-    
+
     case category.data_type
     when 'boolean'
       trait_attributes[:boolean_value] = value
@@ -237,15 +238,15 @@ class PlantMigrationService
     when 'text'
       trait_attributes[:text_value] = value.to_s
     end
-    
+
     PlantTrait.create!(trait_attributes)
   end
 
   def infer_plant_type(old_plant)
     return nil unless old_plant.layers.present?
-    
+
     layers = old_plant.layers.map(&:downcase)
-    
+
     if layers.include?('canopy')
       'tree'
     elsif layers.include?('understory')
@@ -261,9 +262,9 @@ class PlantMigrationService
 
   def infer_light_requirement(old_plant)
     return nil unless old_plant.layers.present?
-    
+
     layers = old_plant.layers.map(&:downcase)
-    
+
     if layers.include?('canopy')
       'full_sun'
     elsif layers.include?('understory')
@@ -277,7 +278,7 @@ class PlantMigrationService
 
   def parse_zone_range(zone_range)
     return [nil, nil] unless zone_range.present?
-    
+
     if zone_range.is_a?(Range)
       [zone_range.begin, zone_range.end]
     elsif zone_range.to_s.include?('-')
@@ -291,18 +292,18 @@ class PlantMigrationService
 
   def parse_temperature(temp_string)
     return nil unless temp_string.present?
-    
+
     # Extract numeric value from temperature string
     temp_string.to_s.scan(/[-]?\d+(?:\.\d+)?/).first&.to_f
   end
 
   def extract_short_description(description)
     return nil unless description.present?
-    
+
     # Take first sentence or first 150 characters
     sentences = description.split(/[.!?]/)
     first_sentence = sentences.first&.strip
-    
+
     if first_sentence && first_sentence.length <= 150
       first_sentence
     else
@@ -312,50 +313,50 @@ class PlantMigrationService
 
   def extract_climate_description(description)
     return nil unless description.present?
-    
+
     # Extract climate-related sentences
     climate_keywords = %w[climate temperature heat cold drought wet dry sun shade wind]
     sentences = description.split(/[.!?]/)
-    
+
     climate_sentences = sentences.select do |sentence|
       climate_keywords.any? { |keyword| sentence.downcase.include?(keyword) }
     end
-    
+
     climate_sentences.first(2).join('. ').presence
   end
 
   def extract_soil_description(description)
     return nil unless description.present?
-    
+
     # Extract soil-related sentences
     soil_keywords = %w[soil drainage ph acidic alkaline sandy clay loam rich poor]
     sentences = description.split(/[.!?]/)
-    
+
     soil_sentences = sentences.select do |sentence|
       soil_keywords.any? { |keyword| sentence.downcase.include?(keyword) }
     end
-    
+
     soil_sentences.first(2).join('. ').presence
   end
 
   def calculate_data_quality(old_plant)
     score = 0.0
-    
+
     # Basic information
     score += 0.2 if old_plant.common_name.present?
     score += 0.2 if old_plant.scientific_name.present?
     score += 0.1 if old_plant.family.present?
-    
+
     # Environmental data
     score += 0.1 if old_plant.zone_range.present?
     score += 0.1 if old_plant.ideal_temp_min.present?
     score += 0.1 if old_plant.ideal_temp_max.present?
-    
+
     # Functional data
     score += 0.1 if old_plant.plant_functions.present?
     score += 0.05 if old_plant.companions.present?
     score += 0.05 if old_plant.description.present?
-    
+
     [score, 1.0].min
   end
 
@@ -363,15 +364,15 @@ class PlantMigrationService
     # Try to find in enhanced plants first
     enhanced_plant = EnhancedPlant.find_by(common_name: name) ||
                     EnhancedPlant.find_by(scientific_name: name)
-    
+
     return enhanced_plant if enhanced_plant
-    
+
     # Try to find in old plants and migrate if found
     old_plant = Plant.find_by(common_name: name) ||
                Plant.find_by(scientific_name: name)
-    
+
     return nil unless old_plant
-    
+
     # Migrate the found plant
     migrate_plant(old_plant)
   end
@@ -379,19 +380,19 @@ class PlantMigrationService
   def find_or_create_trait_category(name)
     TraitCategory.find_or_create_by(name: name) do |category|
       category.data_type = infer_data_type(name)
-      category.description = "Auto-created during migration"
+      category.description = 'Auto-created during migration'
     end
   end
 
   def find_or_create_use_category(name)
     UseCategory.find_or_create_by(name: name) do |category|
-      category.description = "Auto-created during migration"
+      category.description = 'Auto-created during migration'
     end
   end
 
   def find_or_create_relationship_type(name)
     RelationshipType.find_or_create_by(name: name) do |type|
-      type.description = "Auto-created during migration"
+      type.description = 'Auto-created during migration'
       type.is_beneficial = name.include?('beneficial')
     end
   end
@@ -399,7 +400,7 @@ class PlantMigrationService
   def infer_data_type(trait_name)
     boolean_traits = %w[drought_tolerance shade_tolerance fragrant edible invasive native]
     categorical_traits = %w[growth_rate flower_color plant_type]
-    
+
     if boolean_traits.include?(trait_name)
       'boolean'
     elsif categorical_traits.include?(trait_name)
@@ -427,7 +428,7 @@ class PlantMigrationService
       { name: 'mature_height', data_type: 'numeric', unit: 'cm', description: 'Height at maturity' },
       { name: 'mature_width', data_type: 'numeric', unit: 'cm', description: 'Width at maturity' }
     ]
-    
+
     default_categories.each do |attrs|
       TraitCategory.find_or_create_by(name: attrs[:name]) do |category|
         category.assign_attributes(attrs.except(:name))
@@ -448,7 +449,7 @@ class PlantMigrationService
       { name: 'ground_cover', description: 'Covers and protects soil' },
       { name: 'pollinator_attractant', description: 'Attracts beneficial insects' }
     ]
-    
+
     default_uses.each do |attrs|
       UseCategory.find_or_create_by(name: attrs[:name]) do |category|
         category.assign_attributes(attrs.except(:name))
@@ -464,11 +465,11 @@ class PlantMigrationService
       { name: 'nurse_plant', description: 'Provides protection for other plants', is_beneficial: true },
       { name: 'guild_member', description: 'Part of a plant guild system', is_beneficial: true }
     ]
-    
+
     default_relationships.each do |attrs|
       RelationshipType.find_or_create_by(name: attrs[:name]) do |type|
         type.assign_attributes(attrs.except(:name))
       end
     end
   end
-end 
+end

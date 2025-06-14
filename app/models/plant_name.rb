@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class PlantName < ApplicationRecord
   belongs_to :enhanced_plant
 
@@ -21,6 +22,6 @@ class PlantName < ApplicationRecord
   scope :primary_names, -> { where(name_type: ['common', 'regional']) }
 
   def self.search_by_name(query)
-    where("name ILIKE ?", "%#{query}%")
+    where('name ILIKE ?', "%#{query}%")
   end
-end 
+end

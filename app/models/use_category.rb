@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class UseCategory < ApplicationRecord
   has_many :plant_uses, dependent: :destroy
   has_many :enhanced_plants, through: :plant_uses
@@ -10,9 +11,9 @@ class UseCategory < ApplicationRecord
   scope :with_plants, -> { joins(:plant_uses).distinct }
 
   def self.search_by_term(term)
-    where("search_terms @> ?", [term].to_json)
-      .or(where("name ILIKE ?", "%#{term}%"))
-      .or(where("description ILIKE ?", "%#{term}%"))
+    where('search_terms @> ?', [term].to_json)
+      .or(where('name ILIKE ?', "%#{term}%"))
+      .or(where('description ILIKE ?', "%#{term}%"))
   end
 
   def all_search_terms
@@ -38,4 +39,4 @@ class UseCategory < ApplicationRecord
                   .where(plant_uses: { use_category: self })
                   .where('plant_uses.effectiveness_score >= ?', min_effectiveness)
   end
-end 
+end

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 Rails.application.configure do
   # ✅ Code is NOT reloaded between requests in production
   config.cache_classes = true
@@ -15,12 +16,12 @@ Rails.application.configure do
   # ✅ Ensure Sprockets Asset Pipeline is Configured
   config.assets.compile = true  # Should be false unless assets are missing
   config.assets.digest = true
-  config.assets.version = "1.0"
-  config.assets.css_compressor = nil  
+  config.assets.version = '1.0'
+  config.assets.css_compressor = nil
   config.assets.precompile += %w(application.js application.css)  # Ensure these precompile
 
   # ✅ Serve static files only if required by ENV variable (for Heroku)
-  config.public_file_server.enabled = ENV["RAILS_SERVE_STATIC_FILES"].present?
+  config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
 
   # ✅ Force SSL in production (Recommended for security)
   config.force_ssl = true
@@ -33,7 +34,7 @@ Rails.application.configure do
   config.require_master_key = true
 
   # ✅ Mailer configuration (Set `APP_HOST` in your environment variables)
-  config.action_mailer.default_url_options = { host: ENV["APP_HOST"], protocol: "https" }
+  config.action_mailer.default_url_options = { host: ENV['APP_HOST'], protocol: 'https' }
   config.action_mailer.perform_caching = false
 
   # ✅ Handle migrations and database connection issues
@@ -42,4 +43,3 @@ Rails.application.configure do
   # ✅ Background job queueing (Set to `:inline` if not using Sidekiq or similar)
   config.active_job.queue_adapter = :inline
 end
-  

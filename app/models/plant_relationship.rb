@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class PlantRelationship < ApplicationRecord
   belongs_to :plant_a, class_name: 'EnhancedPlant'
   belongs_to :plant_b, class_name: 'EnhancedPlant'
@@ -27,7 +28,7 @@ class PlantRelationship < ApplicationRecord
 
   def strength_level
     return 'Unknown' unless strength_score
-    
+
     case strength_score
     when 0.0..0.3
       'Weak'
@@ -78,7 +79,7 @@ class PlantRelationship < ApplicationRecord
 
   def create_reciprocal!
     return if reciprocal_relationship.present?
-    
+
     PlantRelationship.create!(
       plant_a: plant_b,
       plant_b: plant_a,
@@ -94,7 +95,7 @@ class PlantRelationship < ApplicationRecord
 
   def plants_must_be_different
     if plant_a_id == plant_b_id
-      errors.add(:plant_b, "cannot be the same as plant A")
+      errors.add(:plant_b, 'cannot be the same as plant A')
     end
   end
-end 
+end

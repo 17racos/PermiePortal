@@ -10,8 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2025_05_28_161241) do
+ActiveRecord::Schema[7.1].define(version: 2025_06_01_182940) do
   # These are extensions that must be enabled in order to support this database
+  enable_extension "pgcrypto"
   enable_extension "plpgsql"
   enable_extension "uuid-ossp"
 
@@ -29,6 +30,20 @@ ActiveRecord::Schema[7.1].define(version: 2025_05_28_161241) do
   create_enum "soil_drainage_enum", ["poor", "moderate", "good", "excellent"]
   create_enum "soil_fertility_enum", ["poor", "moderate", "rich", "very_rich"]
   create_enum "trait_data_type_enum", ["numeric", "categorical", "boolean", "text"]
+
+  create_table "ai_query_cache", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
+    t.text "query_text", null: false
+    t.string "query_hash", limit: 64, null: false
+    t.jsonb "response_data"
+    t.jsonb "plant_ids", default: []
+    t.integer "hit_count", default: 1
+    t.datetime "last_accessed_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["last_accessed_at"], name: "index_ai_query_cache_on_last_accessed_at"
+    t.index ["plant_ids"], name: "index_ai_query_cache_on_plant_ids", using: :gin
+    t.index ["query_hash"], name: "index_ai_query_cache_on_query_hash", unique: true
+  end
 
   create_table "enhanced_pests_diseases", force: :cascade do |t|
     t.string "name", null: false
@@ -175,6 +190,17 @@ ActiveRecord::Schema[7.1].define(version: 2025_05_28_161241) do
     t.index ["slug"], name: "index_pests_on_slug", unique: true
   end
 
+  create_table "plant_contexts", force: :cascade do |t|
+    t.bigint "enhanced_plant_id", null: false
+    t.string "context_type", null: false
+    t.text "content", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["context_type"], name: "index_plant_contexts_on_context_type"
+    t.index ["enhanced_plant_id", "context_type"], name: "index_plant_contexts_on_enhanced_plant_id_and_context_type", unique: true
+    t.index ["enhanced_plant_id"], name: "index_plant_contexts_on_enhanced_plant_id"
+  end
+
   create_table "plant_guilds", force: :cascade do |t|
     t.string "name", null: false
     t.text "description"
@@ -200,16 +226,6 @@ ActiveRecord::Schema[7.1].define(version: 2025_05_28_161241) do
     t.index ["enhanced_plant_id"], name: "index_plant_names_on_enhanced_plant_id"
     t.index ["language_code", "region"], name: "index_plant_names_on_language_code_and_region"
     t.index ["name"], name: "index_plant_names_on_name"
-  end
-
-  create_table "plant_pests", force: :cascade do |t|
-    t.bigint "plant_id", null: false
-    t.bigint "pest_id", null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["pest_id"], name: "index_plant_pests_on_pest_id"
-    t.index ["plant_id", "pest_id"], name: "index_plant_pests_on_plant_id_and_pest_id", unique: true
-    t.index ["plant_id"], name: "index_plant_pests_on_plant_id"
   end
 
   create_table "plant_regional_data", force: :cascade do |t|
@@ -256,6 +272,18 @@ ActiveRecord::Schema[7.1].define(version: 2025_05_28_161241) do
     t.index ["strength_score"], name: "index_plant_relationships_on_strength_score"
   end
 
+  create_table "plant_semantic_tags", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
+    t.bigint "enhanced_plant_id", null: false
+    t.uuid "semantic_tag_id", null: false
+    t.decimal "confidence_score", precision: 3, scale: 2, default: "1.0"
+    t.string "source", limit: 50, default: "manual"
+    t.text "notes"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["enhanced_plant_id", "semantic_tag_id"], name: "idx_plant_semantic_tags_unique", unique: true
+    t.index ["semantic_tag_id"], name: "index_plant_semantic_tags_on_semantic_tag_id"
+  end
+
   create_table "plant_traits", force: :cascade do |t|
     t.bigint "enhanced_plant_id", null: false
     t.bigint "trait_category_id", null: false
@@ -298,27 +326,16 @@ ActiveRecord::Schema[7.1].define(version: 2025_05_28_161241) do
     t.index ["use_category_id"], name: "index_plant_uses_on_use_category_id"
   end
 
-  create_table "plants", force: :cascade do |t|
-    t.string "picture"
-    t.string "common_name", null: false
-    t.string "scientific_name"
-    t.text "aka", default: [], array: true
-    t.string "family"
-    t.int4range "zone_range"
-    t.string "ideal_temp_min"
-    t.string "ideal_temp_max"
-    t.string "min_temp"
-    t.string "max_temp"
-    t.boolean "perennial"
-    t.text "layers", default: [], array: true
-    t.text "plant_functions", default: [], array: true
-    t.text "description"
-    t.text "purpose"
-    t.text "avoid", default: [], array: true
-    t.text "companions", default: [], array: true
+  create_table "query_patterns", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
+    t.text "pattern", null: false
+    t.string "intent", limit: 50
+    t.jsonb "parameters", default: {}
+    t.jsonb "tag_mappings", default: {}
+    t.integer "usage_count", default: 0
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["common_name"], name: "index_plants_on_common_name", unique: true
+    t.index ["intent"], name: "index_query_patterns_on_intent"
+    t.index ["parameters"], name: "index_query_patterns_on_parameters", using: :gin
   end
 
   create_table "regions", force: :cascade do |t|
@@ -372,6 +389,42 @@ ActiveRecord::Schema[7.1].define(version: 2025_05_28_161241) do
     t.index ["slug"], name: "index_rotten_articles_on_slug", unique: true
   end
 
+  create_table "semantic_ontology", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
+    t.string "name", limit: 100, null: false
+    t.string "ontology_category", null: false
+    t.uuid "parent_id"
+    t.text "synonyms", default: [], array: true
+    t.text "nlp_keywords", default: [], array: true
+    t.decimal "ai_weight", precision: 3, scale: 2, default: "0.5"
+    t.boolean "include_in_nlp", default: true
+    t.text "description"
+    t.jsonb "metadata", default: {}
+    t.integer "usage_count", default: 0
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["ai_weight"], name: "index_semantic_ontology_on_ai_weight"
+    t.index ["metadata"], name: "index_semantic_ontology_on_metadata", using: :gin
+    t.index ["name"], name: "index_semantic_ontology_on_name"
+    t.index ["nlp_keywords"], name: "index_semantic_ontology_on_nlp_keywords", using: :gin
+    t.index ["ontology_category"], name: "index_semantic_ontology_on_ontology_category"
+    t.index ["parent_id"], name: "index_semantic_ontology_on_parent_id"
+    t.index ["synonyms"], name: "index_semantic_ontology_on_synonyms", using: :gin
+  end
+
+  create_table "semantic_tags", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
+    t.string "name", limit: 100, null: false
+    t.string "category", limit: 50, null: false
+    t.text "synonyms", default: [], array: true
+    t.uuid "parent_tag_id"
+    t.decimal "weight", precision: 3, scale: 2, default: "1.0"
+    t.text "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["category"], name: "index_semantic_tags_on_category"
+    t.index ["name"], name: "index_semantic_tags_on_name", unique: true
+    t.index ["parent_tag_id"], name: "index_semantic_tags_on_parent_tag_id"
+  end
+
   create_table "trait_categories", force: :cascade do |t|
     t.string "name", limit: 100, null: false
     t.text "description"
@@ -413,18 +466,21 @@ ActiveRecord::Schema[7.1].define(version: 2025_05_28_161241) do
   add_foreign_key "environmental_requirements", "enhanced_plants", on_delete: :cascade
   add_foreign_key "guild_members", "enhanced_plants", on_delete: :cascade
   add_foreign_key "guild_members", "plant_guilds", on_delete: :cascade
+  add_foreign_key "plant_contexts", "enhanced_plants"
   add_foreign_key "plant_names", "enhanced_plants", on_delete: :cascade
-  add_foreign_key "plant_pests", "pests"
-  add_foreign_key "plant_pests", "plants"
   add_foreign_key "plant_regional_data", "enhanced_plants", on_delete: :cascade
   add_foreign_key "plant_regional_data", "regions", on_delete: :cascade
   add_foreign_key "plant_relationships", "enhanced_plants", column: "plant_a_id", on_delete: :cascade
   add_foreign_key "plant_relationships", "enhanced_plants", column: "plant_b_id", on_delete: :cascade
   add_foreign_key "plant_relationships", "relationship_types"
+  add_foreign_key "plant_semantic_tags", "enhanced_plants"
+  add_foreign_key "plant_semantic_tags", "semantic_tags"
   add_foreign_key "plant_traits", "enhanced_plants", on_delete: :cascade
   add_foreign_key "plant_traits", "trait_categories"
   add_foreign_key "plant_uses", "enhanced_plants", on_delete: :cascade
   add_foreign_key "plant_uses", "use_categories"
   add_foreign_key "resources", "users"
+  add_foreign_key "semantic_ontology", "semantic_ontology", column: "parent_id"
+  add_foreign_key "semantic_tags", "semantic_tags", column: "parent_tag_id"
   add_foreign_key "use_categories", "use_categories", column: "parent_category_id"
 end

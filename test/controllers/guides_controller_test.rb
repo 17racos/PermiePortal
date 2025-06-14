@@ -1,45 +1,46 @@
-require "test_helper"
+# frozen_string_literal: true
+require 'test_helper'
 
 class GuidesControllerTest < ActionDispatch::IntegrationTest
   setup do
     @guide = guides(:one)
   end
 
-  test "should get index" do
+  test 'should get index' do
     get guides_url
     assert_response :success
   end
 
-  test "should get new" do
+  test 'should get new' do
     get new_guide_url
     assert_response :success
   end
 
-  test "should create guide" do
-    assert_difference("Guide.count") do
+  test 'should create guide' do
+    assert_difference('Guide.count') do
       post guides_url, params: { guide: { body: @guide.body, title: @guide.title } }
     end
 
     assert_redirected_to guide_url(Guide.last)
   end
 
-  test "should show guide" do
+  test 'should show guide' do
     get guide_url(@guide)
     assert_response :success
   end
 
-  test "should get edit" do
+  test 'should get edit' do
     get edit_guide_url(@guide)
     assert_response :success
   end
 
-  test "should update guide" do
+  test 'should update guide' do
     patch guide_url(@guide), params: { guide: { body: @guide.body, title: @guide.title } }
     assert_redirected_to guide_url(@guide)
   end
 
-  test "should destroy guide" do
-    assert_difference("Guide.count", -1) do
+  test 'should destroy guide' do
+    assert_difference('Guide.count', -1) do
       delete guide_url(@guide)
     end
 

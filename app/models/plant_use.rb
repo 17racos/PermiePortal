@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class PlantUse < ApplicationRecord
   belongs_to :enhanced_plant
   belongs_to :use_category
@@ -52,4 +53,4 @@ class PlantUse < ApplicationRecord
   def reliable?
     effectiveness_score >= 0.6 && confidence_score >= 0.6
   end
-end 
+end

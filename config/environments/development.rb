@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 Rails.application.configure do
   # Code is reloaded on changes in development
   config.cache_classes = false
@@ -11,7 +12,7 @@ Rails.application.configure do
   # ✅ Ensure public file server is enabled for Sprockets
   config.public_file_server.enabled = true
   config.public_file_server.headers = {
-    "Cache-Control" => "public, max-age=#{2.days.to_i}"
+    'Cache-Control' => "public, max-age=#{2.days.to_i}"
   }
 
   # ✅ Enable Sprockets asset debugging
@@ -19,7 +20,7 @@ Rails.application.configure do
   config.assets.raise_runtime_errors = true
 
   # Enable caching
-  if Rails.root.join("tmp/caching-dev.txt").exist?
+  if Rails.root.join('tmp/caching-dev.txt').exist?
     config.action_controller.perform_caching = true
     config.cache_store = :memory_store
   else

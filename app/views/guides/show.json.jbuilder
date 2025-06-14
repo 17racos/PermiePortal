@@ -1,1 +1,2 @@
-json.partial! "guides/guide", guide: @guide
+# frozen_string_literal: true
+json.partial! 'guides/guide', guide: @guide

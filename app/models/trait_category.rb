@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class TraitCategory < ApplicationRecord
   has_many :plant_traits, dependent: :destroy
 
@@ -16,9 +17,9 @@ class TraitCategory < ApplicationRecord
   scope :with_units, -> { where.not(unit: [nil, '']) }
 
   def self.search_by_keyword(keyword)
-    where("search_keywords @> ?", [keyword].to_json)
-      .or(where("synonyms @> ?", [keyword].to_json))
-      .or(where("name ILIKE ?", "%#{keyword}%"))
+    where('search_keywords @> ?', [keyword].to_json)
+      .or(where('synonyms @> ?', [keyword].to_json))
+      .or(where('name ILIKE ?', "%#{keyword}%"))
   end
 
   def all_search_terms
@@ -43,4 +44,4 @@ class TraitCategory < ApplicationRecord
   def text_type?
     data_type == 'text'
   end
-end 
+end

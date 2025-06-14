@@ -31,6 +31,7 @@ FROM ruby:3.3.6-slim
 # Install runtime dependencies
 RUN apt-get update -qq && \
     apt-get install -y --no-install-recommends \
+    build-essential \
     libpq-dev \
     postgresql-client \
     nodejs \

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class GuildMember < ApplicationRecord
   belongs_to :plant_guild
   belongs_to :enhanced_plant
@@ -61,7 +62,7 @@ class GuildMember < ApplicationRecord
   def spacing_requirements
     # Return recommended spacing from other plants in meters
     plant = enhanced_plant
-    
+
     base_spacing = if plant.mature_width_max_cm
                      plant.mature_width_max_cm / 100.0 / 2 # Half the mature width
                    else
@@ -78,7 +79,7 @@ class GuildMember < ApplicationRecord
                        1.0
                      end
                    end
-    
+
     # Adjust based on role
     case role
     when 'ground_cover'
@@ -93,22 +94,22 @@ class GuildMember < ApplicationRecord
   def contribution_score
     # Calculate how much this plant contributes to guild success
     score = 0.5 # Base score
-    
+
     # Essential plants get higher score
     score += 0.3 if is_essential?
-    
+
     # Primary plants get higher score
     score += 0.2 if primary?
-    
+
     # Adjust based on plant's uses that benefit the guild
     beneficial_uses = enhanced_plant.plant_uses.joins(:use_category)
-                                   .where(use_categories: { 
+                                   .where(use_categories: {
                                      name: ['nitrogen_fixation', 'pest_control', 'pollinator_attractant', 'soil_improvement']
                                    })
                                    .count
-    
+
     score += beneficial_uses * 0.1
-    
+
     [score, 1.0].min # Cap at 1.0
   end
-end 
+end

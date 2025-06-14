@@ -1,1 +1,2 @@
-json.array! @rotten_articles, partial: "rotten_articles/rotten_article", as: :rotten_article
+# frozen_string_literal: true
+json.array! @rotten_articles, partial: 'rotten_articles/rotten_article', as: :rotten_article

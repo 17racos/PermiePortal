@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class MonitoringController < ApplicationController
   before_action :authenticate
 
@@ -10,7 +11,7 @@ class MonitoringController < ApplicationController
         values: metric.values
       }
     end
-    
+
     render json: metrics
   end
 
@@ -24,4 +25,4 @@ class MonitoringController < ApplicationController
       ActiveSupport::SecurityUtils.secure_compare(password, ENV['METRICS_PASSWORD'])
     end
   end
-end 
+end

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 Rails.application.configure do
   # Code inside the block
   config.cache_classes = true

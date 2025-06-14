@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 # Ensure Sprockets is loaded before configuring assets
 Rails.application.config.assets ||= ActiveSupport::OrderedOptions.new
 
@@ -5,10 +6,10 @@ Rails.application.config.assets ||= ActiveSupport::OrderedOptions.new
 Rails.application.config.assets.paths ||= []
 
 # Add asset paths (if needed)
-Rails.application.config.assets.paths << Rails.root.join("app", "assets", "javascripts")
-Rails.application.config.assets.paths << Rails.root.join("app", "assets", "stylesheets")
-Rails.application.config.assets.paths << Rails.root.join("vendor", "assets", "javascripts")
-Rails.application.config.assets.paths << Rails.root.join("vendor", "assets", "stylesheets")
+Rails.application.config.assets.paths << Rails.root.join('app', 'assets', 'javascripts')
+Rails.application.config.assets.paths << Rails.root.join('app', 'assets', 'stylesheets')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'assets', 'javascripts')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'assets', 'stylesheets')
 
 # Ensure `config.assets.precompile` is defined before modifying it
 Rails.application.config.assets.precompile ||= []
@@ -17,4 +18,4 @@ Rails.application.config.assets.precompile ||= []
 Rails.application.config.assets.precompile += %w(application.js application.css admin.js admin.css)
 
 # Explicitly set the version of assets to force cache busting when changed
-Rails.application.config.assets.version = "1.0"
+Rails.application.config.assets.version = '1.0'

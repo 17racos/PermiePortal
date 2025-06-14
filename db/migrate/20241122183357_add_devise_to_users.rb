@@ -1,9 +1,10 @@
+# frozen_string_literal: true
 class AddDeviseToUsers < ActiveRecord::Migration[7.0]
   def change
     change_table :users, bulk: true do |t|
       # Only add necessary columns, checking if they are already present
       unless column_exists?(:users, :encrypted_password)
-        t.string :encrypted_password, null: false, default: ""
+        t.string :encrypted_password, null: false, default: ''
       end
 
       unless column_exists?(:users, :reset_password_token)

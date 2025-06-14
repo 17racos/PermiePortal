@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class PlantPest < ApplicationRecord
   belongs_to :plant
   belongs_to :pest

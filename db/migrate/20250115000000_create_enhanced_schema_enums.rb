@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class CreateEnhancedSchemaEnums < ActiveRecord::Migration[7.1]
   def up
     # Plant type enum
@@ -99,4 +100,4 @@ class CreateEnhancedSchemaEnums < ActiveRecord::Migration[7.1]
     execute 'DROP TYPE IF EXISTS life_cycle_enum;'
     execute 'DROP TYPE IF EXISTS plant_type_enum;'
   end
-end 
+end

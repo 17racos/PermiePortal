@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 # app/models/resource.rb
 class Resource < ApplicationRecord
   belongs_to :user
@@ -6,6 +7,6 @@ class Resource < ApplicationRecord
   def self.search(query)
     return all if query.blank?
 
-    where("title ILIKE ? OR description ILIKE ?", "%#{query}%", "%#{query}%")
+    where('title ILIKE ? OR description ILIKE ?', "%#{query}%", "%#{query}%")
   end
 end

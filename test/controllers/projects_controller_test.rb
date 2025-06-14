@@ -1,7 +1,8 @@
-require "test_helper"
+# frozen_string_literal: true
+require 'test_helper'
 
 class ProjectsControllerTest < ActionDispatch::IntegrationTest
-  test "should get index" do
+  test 'should get index' do
     get projects_index_url
     assert_response :success
   end

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class PestsController < ApplicationController
   before_action :set_pest, only: :show
 
@@ -15,6 +16,6 @@ class PestsController < ApplicationController
   def set_pest
     @pest = Pest.find_by!(slug: params[:slug])
   rescue ActiveRecord::RecordNotFound
-    redirect_to pests_path, alert: "Pest not found"
+    redirect_to pests_path, alert: 'Pest not found'
   end
 end

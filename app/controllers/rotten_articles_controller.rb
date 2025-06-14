@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class RottenArticlesController < ApplicationController
   before_action :set_rotten_article, only: [:show]
 
@@ -8,7 +9,7 @@ class RottenArticlesController < ApplicationController
   def show
     @rotten_article = RottenArticle.friendly.find_by(slug: params[:slug])
     if @rotten_article
-      custom_view = Rails.root.join("app", "views", "rotten_articles", "#{@rotten_article.slug}.html.erb")
+      custom_view = Rails.root.join('app', 'views', 'rotten_articles', "#{@rotten_article.slug}.html.erb")
       if File.exist?(custom_view)
         render template: "rotten_articles/#{@rotten_article.slug}"
       else

@@ -165,6 +165,37 @@
                 </div>
               </div>
             <% end %>
+
+            <%# Semantic Tags %>
+            <% if @plant.semantic_tags.any? %>
+              <div class="mb-6">
+                <h3 class="text-lg font-semibold mb-3">Plant Characteristics</h3>
+                <div class="space-y-3">
+                  <% @plant.tags_by_category.each do |category, tags| %>
+                    <div>
+                      <h4 class="font-medium text-gray-700 mb-2"><%= category.humanize %></h4>
+                      <div class="flex flex-wrap gap-2">
+                        <% tags.each do |tag| %>
+                          <% confidence = @plant.plant_semantic_tags.find_by(semantic_tag: tag)&.confidence_score %>
+                          <% confidence_class = case confidence
+                               when 0.8..1.0 then "bg-green-100 text-green-800"
+                               when 0.6..0.8 then "bg-yellow-100 text-yellow-800"
+                               else "bg-gray-100 text-gray-600"
+                               end %>
+                          <span class="px-2 py-1 <%= confidence_class %> rounded text-sm" 
+                                title="Confidence: <%= (confidence * 100).round %>%">
+                            <%= tag.name.humanize %>
+                            <% if confidence %>
+                              <span class="text-xs opacity-75">(<%= (confidence * 100).round %>%)</span>
+                            <% end %>
+                          </span>
+                        <% end %>
+                      </div>
+                    </div>
+                  <% end %>
+                </div>
+              </div>
+            <% end %>
           </div>
         </div>
 

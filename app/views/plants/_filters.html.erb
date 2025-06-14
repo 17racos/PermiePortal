@@ -1,130 +1,451 @@
-<div class="mb-8 bg-gradient-to-b from-green-50 to-green-100 shadow-lg rounded-lg p-6 border border-green-300">
-  <%= form_with url: plants_path, method: :get, data: { turbo_frame: "plants-list" } do |f| %>
-    <!-- Search Bar -->
-    <div class="mb-6">
-      <div class="relative">
+<div class="mb-8 bg-gradient-to-br from-green-50 via-emerald-50 to-teal-50 shadow-xl rounded-2xl p-8 border border-green-200">
+  <%= form_with url: plants_path, method: :get, data: { turbo_frame: "plants-list" }, local: true, id: "ai-search-form" do |f| %>
+    
+    <!-- AI Search Header -->
+    <div class="text-center mb-8">
+      <h1 class="text-3xl font-bold text-green-900 mb-2">🤖 AI Plant Discovery</h1>
+      <p class="text-green-700 text-lg">Ask me anything about plants in natural language</p>
+      <div class="mt-2">
+        <span id="ai-status" class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium">
+          <span class="w-2 h-2 mr-2 rounded-full animate-pulse" id="ai-status-dot"></span>
+          <span id="ai-status-text">Checking AI availability...</span>
+        </span>
+      </div>
+    </div>
+
+    <!-- Primary AI Search Bar -->
+    <div class="mb-8">
+      <div class="relative group">
         <%= f.text_field :query, 
-          class: "w-full px-4 py-2 pr-10 rounded-lg border border-green-300 focus:ring-2 focus:ring-green-500 focus:border-transparent",
-          placeholder: "Search plants by name, use, trait, or environmental condition (e.g., 'drought tolerant herbs', 'nitrogen fixing trees')...",
-          onchange: "this.form.requestSubmit()" %>
+          class: "w-full px-6 py-5 pr-24 rounded-2xl border-2 border-green-300 focus:ring-4 focus:ring-green-500/20 focus:border-green-500 text-lg placeholder-gray-500 shadow-lg transition-all duration-200 group-hover:shadow-xl",
+          placeholder: "Ask me anything: 'companion plants for tomatoes', 'drought tolerant herbs zone 8', 'plants that attract butterflies'...",
+          value: params[:query],
+          id: "ai-search-input" %>
+        
         <div class="absolute inset-y-0 right-0 flex items-center pr-3">
-          <svg class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
-          </svg>
+          <button type="button" id="ai-search-btn" class="mr-2 p-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors" onclick="performAISearch()">
+            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+          </button>
+          <button type="submit" class="p-2 text-gray-400 hover:text-green-600 transition-colors">
+            <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+            </svg>
+          </button>
         </div>
       </div>
-      <div class="mt-2 text-sm text-gray-600">
-        💡 Try: "edible ground cover", "shade tolerant plants", "companion plants for tomatoes", "zone 9 trees"
-      </div>
-    </div>
-
-    <!-- Active Filters Display -->
-    <div class="mb-6" data-filter-target="activeFilters">
-      <div class="flex flex-wrap gap-2">
-        <!-- Active filters will be inserted here by JavaScript -->
-      </div>
-    </div>
-
-    <!-- Clear Filters Button -->
-    <div class="mb-6 flex justify-end">
-      <%= link_to "Clear All Filters", plants_path, 
-          class: "px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors",
-          data: { turbo_frame: "plants-list" } %>
-    </div>
-
-    <div class="grid md:grid-cols-3 gap-6">
-      <!-- Functions Filter -->
-      <div class="filter-section">
-        <h3 class="text-lg font-semibold text-green-900 mb-4">🌿 Functions</h3>
-        <div class="space-y-4">
-          <% [
-            ["Food", ["Edible", "Animal Fodder"]],
-            ["Soil", ["Nitrogen Fixer", "Dynamic Accumulator", "Mulcher", "Erosion Control"]],
-            ["Wildlife", ["Wildlife Attractor", "Pollinator", "Pest Management"]],
-            ["Structure", ["Ground Cover", "Windbreaker", "Border Plant"]],
-            ["Other", ["Medicinal", "Biofuel", "Water Purifier"]]
-          ].each do |category, functions| %>
-            <div class="w-full">
-              <h4 class="text-sm font-medium text-green-800 mb-2"><%= category %></h4>
-              <div class="space-y-2">
-                <% functions.each do |function| %>
-                  <label class="flex items-center gap-2">
-                    <%= check_box_tag "functions[]", 
-                      function, 
-                      params[:functions]&.include?(function),
-                      class: "w-4 h-4 text-green-600 rounded border-gray-300 focus:ring-green-500",
-                      onchange: "this.form.requestSubmit()" %>
-                    <span class="text-sm text-gray-700"><%= function %></span>
-                  </label>
-                <% end %>
-              </div>
+      
+      <!-- AI Response Area -->
+      <div id="ai-response" class="hidden mt-4 p-4 bg-blue-50 border border-blue-200 rounded-xl">
+        <div class="flex items-start space-x-3">
+          <div class="flex-shrink-0">
+            <div class="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
+              <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+              </svg>
             </div>
-          <% end %>
+          </div>
+          <div class="flex-1">
+            <h4 class="text-sm font-medium text-blue-900 mb-1">AI Assistant</h4>
+            <div id="ai-response-text" class="text-sm text-blue-800"></div>
+          </div>
+          <button type="button" onclick="closeAIResponse()" class="flex-shrink-0 text-blue-400 hover:text-blue-600">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+          </button>
         </div>
       </div>
-
-      <!-- Layers Filter -->
-      <div class="filter-section">
-        <h3 class="text-lg font-semibold text-green-900 mb-4">🌾 Layers</h3>
-        <div class="space-y-2">
-          <% ["Canopy", "Sub-canopy", "Shrub", "Herbaceous", "Ground", "Root", "Vine", "Aquatic"].each do |layer| %>
-            <label class="flex items-center gap-2">
-              <%= check_box_tag "layers[]", 
-                layer, 
-                params[:layers]&.include?(layer),
-                class: "w-4 h-4 text-green-600 rounded border-gray-300 focus:ring-green-500",
-                onchange: "this.form.requestSubmit()" %>
-              <span class="text-sm text-gray-700"><%= layer %></span>
-            </label>
-          <% end %>
+      
+      <!-- Search Suggestions -->
+      <div class="mt-4 bg-white/70 backdrop-blur-sm rounded-xl p-4 border border-green-100">
+        <div class="text-sm text-green-800 mb-3">
+          <span class="font-semibold">💡 Try these AI-powered searches:</span>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
+          <button type="button" onclick="setSearchQuery('companion plants for tomatoes')" class="text-left px-3 py-2 bg-green-100 hover:bg-green-200 text-green-800 rounded-lg transition-colors">
+            "companion plants for tomatoes"
+          </button>
+          <button type="button" onclick="setSearchQuery('drought tolerant vegetables zone 8')" class="text-left px-3 py-2 bg-blue-100 hover:bg-blue-200 text-blue-800 rounded-lg transition-colors">
+            "drought tolerant vegetables zone 8"
+          </button>
+          <button type="button" onclick="setSearchQuery('nitrogen fixing trees under 20 feet')" class="text-left px-3 py-2 bg-purple-100 hover:bg-purple-200 text-purple-800 rounded-lg transition-colors">
+            "nitrogen fixing trees under 20 feet"
+          </button>
+          <button type="button" onclick="setSearchQuery('plants that attract pollinators and birds')" class="text-left px-3 py-2 bg-orange-100 hover:bg-orange-200 text-orange-800 rounded-lg transition-colors">
+            "plants that attract pollinators and birds"
+          </button>
         </div>
       </div>
+    </div>
 
-      <!-- Zones Filter -->
-      <div class="filter-section">
-        <h3 class="text-lg font-semibold text-green-900 mb-4">🌎 Zones</h3>
-        <div class="space-y-4">
-          <div>
-            <label class="block text-sm font-medium text-gray-700 mb-1">Zone Range</label>
-            <div class="flex items-center gap-2">
-              <%= f.number_field :min_zone, 
-                min: 1, max: 13,
-                value: params[:min_zone],
-                class: "w-20 px-2 py-1 border border-gray-300 rounded",
-                onchange: "this.form.requestSubmit()" %>
-              <span>to</span>
-              <%= f.number_field :max_zone,
-                min: 1, max: 13,
-                value: params[:max_zone],
-                class: "w-20 px-2 py-1 border border-gray-300 rounded",
-                onchange: "this.form.requestSubmit()" %>
+    <!-- Quick Discovery Tags -->
+    <div class="mb-8">
+      <h3 class="text-lg font-semibold text-green-900 mb-4 flex items-center">
+        <span class="mr-2">🚀</span>Quick Discovery
+      </h3>
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-3">
+        <%= link_to quick_filter_plants_path("edible"), 
+            class: "group flex flex-col items-center p-4 bg-gradient-to-br from-green-100 to-green-200 hover:from-green-200 hover:to-green-300 rounded-xl transition-all duration-200 hover:scale-105 hover:shadow-lg",
+            data: { turbo_frame: "plants-list" } do %>
+          <div class="text-2xl mb-2">🍎</div>
+          <span class="text-sm font-medium text-green-800">Edible</span>
+        <% end %>
+        
+        <%= link_to quick_filter_plants_path("medicinal"), 
+            class: "group flex flex-col items-center p-4 bg-gradient-to-br from-blue-100 to-blue-200 hover:from-blue-200 hover:to-blue-300 rounded-xl transition-all duration-200 hover:scale-105 hover:shadow-lg",
+            data: { turbo_frame: "plants-list" } do %>
+          <div class="text-2xl mb-2">🌿</div>
+          <span class="text-sm font-medium text-blue-800">Medicinal</span>
+        <% end %>
+        
+        <%= link_to quick_filter_plants_path("pollinator"), 
+            class: "group flex flex-col items-center p-4 bg-gradient-to-br from-yellow-100 to-yellow-200 hover:from-yellow-200 hover:to-yellow-300 rounded-xl transition-all duration-200 hover:scale-105 hover:shadow-lg",
+            data: { turbo_frame: "plants-list" } do %>
+          <div class="text-2xl mb-2">🐝</div>
+          <span class="text-sm font-medium text-yellow-800">Pollinators</span>
+        <% end %>
+        
+        <%= link_to quick_filter_plants_path("drought"), 
+            class: "group flex flex-col items-center p-4 bg-gradient-to-br from-orange-100 to-orange-200 hover:from-orange-200 hover:to-orange-300 rounded-xl transition-all duration-200 hover:scale-105 hover:shadow-lg",
+            data: { turbo_frame: "plants-list" } do %>
+          <div class="text-2xl mb-2">🏜️</div>
+          <span class="text-sm font-medium text-orange-800">Drought Hardy</span>
+        <% end %>
+        
+        <%= link_to quick_filter_plants_path("nitrogen"), 
+            class: "group flex flex-col items-center p-4 bg-gradient-to-br from-purple-100 to-purple-200 hover:from-purple-200 hover:to-purple-300 rounded-xl transition-all duration-200 hover:scale-105 hover:shadow-lg",
+            data: { turbo_frame: "plants-list" } do %>
+          <div class="text-2xl mb-2">🌱</div>
+          <span class="text-sm font-medium text-purple-800">Soil Builders</span>
+        <% end %>
+      </div>
+    </div>
+
+    <!-- Advanced Filters Toggle -->
+    <div class="mb-6">
+      <button type="button" 
+              onclick="toggleAdvancedFilters()" 
+              class="flex items-center justify-center w-full px-4 py-3 bg-white/80 hover:bg-white border-2 border-green-300 hover:border-green-400 rounded-xl transition-all duration-200 text-green-800 font-medium">
+        <span id="advanced-toggle-text">Show Traditional Filters</span>
+        <svg id="advanced-toggle-icon" class="ml-2 h-5 w-5 transform transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Traditional Filters (Initially Hidden) -->
+    <div id="advanced-filters" class="hidden">
+      <div class="bg-white/60 backdrop-blur-sm rounded-xl p-6 border border-green-200 mb-6">
+        <h3 class="text-lg font-semibold text-green-900 mb-4 flex items-center">
+          <span class="mr-2">🔧</span>Traditional Search Filters
+        </h3>
+        
+        <div class="grid md:grid-cols-3 gap-6">
+          <!-- Plant Functions -->
+          <div class="space-y-3">
+            <h4 class="font-medium text-green-800 flex items-center">
+              <span class="mr-2">🌿</span>Plant Functions
+            </h4>
+            <div class="space-y-2 max-h-40 overflow-y-auto">
+              <% ["Edible", "Medicinal", "Nitrogen Fixer", "Ground Cover", "Pollinator", "Wildlife Attractor", "Windbreaker", "Erosion Control"].each do |function| %>
+                <label class="flex items-center gap-2 text-sm hover:bg-green-50 p-1 rounded">
+                  <%= check_box_tag "functions[]", 
+                    function, 
+                    params[:functions]&.include?(function),
+                    class: "w-4 h-4 text-green-600 rounded border-gray-300 focus:ring-green-500",
+                    onchange: "this.form.requestSubmit()" %>
+                  <span class="text-gray-700"><%= function %></span>
+                </label>
+              <% end %>
+            </div>
+          </div>
+
+          <!-- Plant Layers -->
+          <div class="space-y-3">
+            <h4 class="font-medium text-green-800 flex items-center">
+              <span class="mr-2">🌾</span>Plant Layers
+            </h4>
+            <div class="space-y-2">
+              <% ["Canopy", "Sub-canopy", "Shrub", "Herbaceous", "Ground", "Vine"].each do |layer| %>
+                <label class="flex items-center gap-2 text-sm hover:bg-green-50 p-1 rounded">
+                  <%= check_box_tag "layers[]", 
+                    layer, 
+                    params[:layers]&.include?(layer),
+                    class: "w-4 h-4 text-green-600 rounded border-gray-300 focus:ring-green-500",
+                    onchange: "this.form.requestSubmit()" %>
+                  <span class="text-gray-700"><%= layer %></span>
+                </label>
+              <% end %>
+            </div>
+          </div>
+
+          <!-- Climate Zones -->
+          <div class="space-y-3">
+            <h4 class="font-medium text-green-800 flex items-center">
+              <span class="mr-2">🌎</span>Climate Zone
+            </h4>
+            <div class="space-y-3">
+              <div>
+                <label class="block text-sm text-gray-600 mb-1">Zone Range</label>
+                <div class="flex items-center gap-2">
+                  <%= f.number_field :min_zone, 
+                    min: 1, max: 13,
+                    value: params[:min_zone],
+                    class: "w-20 px-3 py-2 border border-gray-300 rounded-lg text-center",
+                    placeholder: "Min",
+                    onchange: "this.form.requestSubmit()" %>
+                  <span class="text-gray-500">to</span>
+                  <%= f.number_field :max_zone,
+                    min: 1, max: 13,
+                    value: params[:max_zone],
+                    class: "w-20 px-3 py-2 border border-gray-300 rounded-lg text-center",
+                    placeholder: "Max",
+                    onchange: "this.form.requestSubmit()" %>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Results Count -->
-    <div class="mt-6 text-right text-sm text-gray-600" data-filter-target="resultCount">
-      Showing all plants
+    <!-- Search Status and Controls -->
+    <div class="flex justify-between items-center">
+      <div class="text-sm text-green-700">
+        <% if params[:query].present? || params[:functions].present? || params[:layers].present? || params[:min_zone].present? || params[:max_zone].present? %>
+          <span class="flex items-center">
+            <svg class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.707A1 1 0 013 7V4z" />
+            </svg>
+            Search active
+          </span>
+        <% else %>
+          <span class="text-gray-500">Browse all plants or use AI search above</span>
+        <% end %>
+      </div>
+      
+      <div class="flex space-x-2">
+        <% if params[:query].present? || params[:functions].present? || params[:layers].present? || params[:min_zone].present? || params[:max_zone].present? %>
+          <%= link_to "Clear Search", plants_path, 
+              class: "px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors",
+              data: { turbo_frame: "plants-list" } %>
+        <% end %>
+        
+        <button type="button" onclick="openAIChat()" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors">
+          Chat with AI
+        </button>
+      </div>
     </div>
   <% end %>
 </div>
 
+<script>
+let aiAvailable = false;
+
+// Check AI availability on page load
+document.addEventListener('DOMContentLoaded', function() {
+  checkAIAvailability();
+  
+  // Auto-show traditional filters if any are already active
+  const hasActiveFilters = <%= (params[:functions].present? || params[:layers].present? || params[:min_zone].present? || params[:max_zone].present?).to_json %>;
+  if (hasActiveFilters) {
+    toggleAdvancedFilters();
+  }
+  
+  // Add Enter key support for AI search
+  document.getElementById('ai-search-input').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+      e.preventDefault();
+      performAISearch();
+    }
+  });
+});
+
+async function checkAIAvailability() {
+  try {
+    const response = await fetch('/api/v1/gpt/status');
+    const data = await response.json();
+    
+    const statusElement = document.getElementById('ai-status');
+    const dotElement = document.getElementById('ai-status-dot');
+    const textElement = document.getElementById('ai-status-text');
+    
+    if (data.success && data.data.llm_available) {
+      aiAvailable = true;
+      statusElement.className = 'inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800';
+      dotElement.className = 'w-2 h-2 mr-2 rounded-full bg-green-500';
+      textElement.textContent = `AI Online (${data.data.model})`;
+    } else {
+      aiAvailable = false;
+      statusElement.className = 'inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800';
+      dotElement.className = 'w-2 h-2 mr-2 rounded-full bg-yellow-500';
+      textElement.textContent = 'AI Offline - Using search fallback';
+    }
+  } catch (error) {
+    aiAvailable = false;
+    const statusElement = document.getElementById('ai-status');
+    const dotElement = document.getElementById('ai-status-dot');
+    const textElement = document.getElementById('ai-status-text');
+    
+    statusElement.className = 'inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-red-100 text-red-800';
+    dotElement.className = 'w-2 h-2 mr-2 rounded-full bg-red-500';
+    textElement.textContent = 'AI Error - Using search fallback';
+  }
+}
+
+async function performAISearch() {
+  const query = document.getElementById('ai-search-input').value.trim();
+  
+  if (!query) {
+    alert('Please enter a search query');
+    return;
+  }
+  
+  const aiBtn = document.getElementById('ai-search-btn');
+  const originalContent = aiBtn.innerHTML;
+  
+  // Show loading state
+  aiBtn.innerHTML = '<svg class="h-5 w-5 animate-spin" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>';
+  aiBtn.disabled = true;
+  
+  try {
+    if (aiAvailable) {
+      // Use AI search
+      const response = await fetch('/api/v1/gpt/search_plants', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRF-Token': document.querySelector('meta[name="csrf-token"]').content
+        },
+        body: JSON.stringify({
+          query: query,
+          criteria: {}
+        })
+      });
+      
+      const data = await response.json();
+      
+      if (data.success) {
+        showAIResponse(data.data.ai_response);
+        // Also submit the form to show matching plants
+        document.getElementById('ai-search-form').requestSubmit();
+      } else {
+        showAIResponse('Sorry, I encountered an error while searching. Let me try a traditional search instead.');
+        document.getElementById('ai-search-form').requestSubmit();
+      }
+    } else {
+      // Fall back to traditional search
+      showAIResponse(`I'm currently in offline mode, so I'll perform a traditional search for "${query}". For AI-powered insights, please ensure Ollama is running.`);
+      document.getElementById('ai-search-form').requestSubmit();
+    }
+  } catch (error) {
+    console.error('AI search error:', error);
+    showAIResponse('Sorry, there was an error with the AI search. Falling back to traditional search.');
+    document.getElementById('ai-search-form').requestSubmit();
+  } finally {
+    // Restore button state
+    aiBtn.innerHTML = originalContent;
+    aiBtn.disabled = false;
+  }
+}
+
+function showAIResponse(text) {
+  const responseDiv = document.getElementById('ai-response');
+  const responseText = document.getElementById('ai-response-text');
+  
+  responseText.innerHTML = text.replace(/\n/g, '<br>');
+  responseDiv.classList.remove('hidden');
+  
+  // Scroll to response
+  responseDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+function closeAIResponse() {
+  document.getElementById('ai-response').classList.add('hidden');
+}
+
+function setSearchQuery(query) {
+  document.getElementById('ai-search-input').value = query;
+  performAISearch();
+}
+
+function toggleAdvancedFilters() {
+  const advancedFilters = document.getElementById('advanced-filters');
+  const toggleText = document.getElementById('advanced-toggle-text');
+  const toggleIcon = document.getElementById('advanced-toggle-icon');
+  
+  if (advancedFilters.classList.contains('hidden')) {
+    advancedFilters.classList.remove('hidden');
+    toggleText.textContent = 'Hide Traditional Filters';
+    toggleIcon.style.transform = 'rotate(180deg)';
+  } else {
+    advancedFilters.classList.add('hidden');
+    toggleText.textContent = 'Show Traditional Filters';
+    toggleIcon.style.transform = 'rotate(0deg)';
+  }
+}
+
+function openAIChat() {
+  // Open AI chat in a new window/tab
+  window.open('/plants/gpt_chat', '_blank');
+}
+</script>
+
 <% content_for :styles do %>
 <style>
-.filter-tag {
-  background-color: #E5E7EB;
-  color: #374151;
+.group:hover .animate-pulse {
+  animation: none;
 }
 
-.filter-tag[data-active="true"] {
-  background-color: #059669;
-  color: white;
+.backdrop-blur-sm {
+  backdrop-filter: blur(4px);
 }
 
-.filter-section {
-  transition: all 0.3s ease;
+#advanced-filters {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Custom scrollbar for function list */
+.overflow-y-auto::-webkit-scrollbar {
+  width: 4px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 2px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb {
+  background: #10b981;
+  border-radius: 2px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb:hover {
+  background: #059669;
+}
+
+/* AI response animations */
+#ai-response {
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Button hover effects */
+.suggestion-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 </style>
 <% end %>

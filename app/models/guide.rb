@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class Guide < ApplicationRecord
   extend FriendlyId
   friendly_id :title, use: :slugged

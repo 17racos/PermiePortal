@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class CreateRottenArticles < ActiveRecord::Migration[7.0]
   def change
     create_table :rotten_articles do |t|
@@ -6,7 +7,7 @@ class CreateRottenArticles < ActiveRecord::Migration[7.0]
       t.string :slug, unique: true
       t.string :image
       t.boolean :is_published, default: true
-      
+
       t.timestamps
     end
 

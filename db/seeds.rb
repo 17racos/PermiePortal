@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 # Helper method to create or update a record
 def create_or_update_record(model, find_by_attr, attributes)
   record = model.find_or_initialize_by(find_by_attr => attributes[find_by_attr])
@@ -64,23 +65,23 @@ end
 # Map attributes for pests
 def map_pest_attributes(data)
   {
-    name: data["name"],
-    slug: data["slug"] || data["name"].parameterize,
-    picture: data["picture"],
-    scientific_name: data["scientific_name"],
-    description: data["description"],
-    characteristics: data["characteristics"],
-    control_methods: if data["control_methods"].is_a?(Hash)
-      data["control_methods"]
-    elsif data["control_methods"].is_a?(String) && !data["control_methods"].empty?
-      { "default" => data["control_methods"] }
+    name: data['name'],
+    slug: data['slug'] || data['name'].parameterize,
+    picture: data['picture'],
+    scientific_name: data['scientific_name'],
+    description: data['description'],
+    characteristics: data['characteristics'],
+    control_methods: if data['control_methods'].is_a?(Hash)
+                       data['control_methods']
+    elsif data['control_methods'].is_a?(String) && !data['control_methods'].empty?
+      { 'default' => data['control_methods'] }
     else
       {}
     end,
-    natural_enemies: if data["natural_enemies"].is_a?(Array)
-      data["natural_enemies"]
-    elsif data["natural_enemies"].is_a?(String)
-      data["natural_enemies"].split(',').map(&:strip)
+    natural_enemies: if data['natural_enemies'].is_a?(Array)
+                       data['natural_enemies']
+    elsif data['natural_enemies'].is_a?(String)
+      data['natural_enemies'].split(',').map(&:strip)
     else
       []
     end
@@ -103,7 +104,7 @@ end
 def seed_pests
   pests_directory = Rails.root.join('db', 'seeds', 'pests')
   pest_files = Dir.glob("#{pests_directory}/*.yml")
-  
+
   if pest_files.empty?
     puts "No YAML files found in #{pests_directory}. Skipping pest seeding."
     return
@@ -112,7 +113,7 @@ def seed_pests
   pest_files.each do |file|
     puts "Seeding pests from #{file}..."
     pests_data = load_file_data(file, :yaml)
-    
+
     # Use compact to remove any nil entries
     pests_data.compact.each do |data|
       # Debug output to verify the data is as expected
@@ -122,7 +123,7 @@ def seed_pests
     end
   end
 
-  puts "Pests seeded successfully!"
+  puts 'Pests seeded successfully!'
 end
 
 
@@ -138,19 +139,62 @@ def seed_plants
       attributes = map_plant_attributes(data)
       pests = attributes.delete(:pests) || []
 
-      plant = Plant.find_or_initialize_by(common_name: attributes[:common_name])
+      # Use EnhancedPlant instead of Plant
+      plant = EnhancedPlant.find_or_initialize_by(common_name: attributes[:common_name])
       if plant.new_record?
-        puts "Creating plant: #{attributes[:common_name]}"
+        puts "Creating enhanced plant: #{attributes[:common_name]}"
       else
-        puts "Updating plant: #{attributes[:common_name]}"
+        puts "Updating enhanced plant: #{attributes[:common_name]}"
       end
 
-      plant.assign_attributes(attributes)
+      # Map old attributes to new enhanced plant structure
+      enhanced_attributes = {
+        common_name: attributes[:common_name],
+        scientific_name: attributes[:scientific_name],
+        family: attributes[:family],
+        description_detailed: attributes[:description],
+        growing_notes: attributes[:characteristics],
+        plant_type: map_plant_type(attributes[:layers]),
+        life_cycle: attributes[:perennial] ? 'perennial' : 'annual'
+      }
+
+      plant.assign_attributes(enhanced_attributes)
       plant.save!
 
-      # Associate pests with the plant
-      valid_pests = Pest.where(name: pests)
-      plant.pests = valid_pests
+      # Create environmental requirements if zone data exists
+      if attributes[:zone_range].present?
+        env_req = plant.environmental_requirements || plant.build_environmental_requirements
+        zone_min, zone_max = parse_zone_range(attributes[:zone_range])
+        env_req.update!(
+          hardiness_zone_min: zone_min,
+          hardiness_zone_max: zone_max,
+          temp_min_survival: attributes[:min_temp] ? fahrenheit_to_celsius(attributes[:min_temp]) : nil,
+          temp_max_survival: attributes[:max_temp] ? fahrenheit_to_celsius(attributes[:max_temp]) : nil,
+          temp_optimal_min: attributes[:ideal_temp_min] ? fahrenheit_to_celsius(attributes[:ideal_temp_min]) : nil,
+          temp_optimal_max: attributes[:ideal_temp_max] ? fahrenheit_to_celsius(attributes[:ideal_temp_max]) : nil
+        )
+      end
+
+      # Create plant uses from functions
+      if attributes[:plant_functions].present?
+        attributes[:plant_functions].each do |function|
+          use_category = UseCategory.find_or_create_by(name: function)
+          PlantUse.find_or_create_by(
+            enhanced_plant: plant,
+            use_category: use_category
+          ) do |plant_use|
+            plant_use.effectiveness_score = 0.8 # Default effectiveness (0.0-1.0 scale)
+            plant_use.confidence_score = 0.7   # Default confidence (0.0-1.0 scale)
+          end
+        end
+      end
+
+      # Associate pests with the plant (if pest relationships are still needed)
+      if pests.any?
+        Pest.where(name: pests)
+        # Note: You may need to create a new association table for enhanced plants and pests
+        # For now, we'll skip this as the enhanced schema doesn't include pest relationships
+      end
     end
 
     puts "Finished processing file: #{file}"
@@ -159,11 +203,53 @@ rescue ActiveRecord::RecordInvalid => e
   puts "Error while seeding plants: #{e.message}"
 end
 
+private
+
+def map_plant_type(layers)
+  return 'tree' if layers&.include?('Canopy')
+  return 'shrub' if layers&.include?('Shrub')
+  return 'herbaceous' if layers&.include?('Herbaceous')
+  return 'herbaceous' if layers&.include?('Ground') # Map ground cover to herbaceous
+  return 'vine' if layers&.include?('Vine')
+  'herbaceous' # default
+end
+
+def parse_zone_range(zone_range)
+  return [nil, nil] if zone_range.blank?
+
+  if zone_range.is_a?(String)
+    # Remove parentheses and clean the string
+    cleaned = zone_range.gsub(/[()]/, '').strip
+
+    # Split on dash and extract numeric parts
+    parts = cleaned.split('-')
+
+    # Extract numeric part from each zone (e.g., "8b" -> 8, "11" -> 11)
+    zone_min = parts[0]&.match(/\d+/)&.to_s&.to_i
+    zone_max = parts[1]&.match(/\d+/)&.to_s&.to_i
+
+    # Validate zones are in valid range (1-13)
+    zone_min = nil if zone_min && (zone_min < 1 || zone_min > 13)
+    zone_max = nil if zone_max && (zone_max < 1 || zone_max > 13)
+
+    [zone_min, zone_max]
+  elsif zone_range.is_a?(Range)
+    [zone_range.begin, zone_range.end]
+  else
+    [nil, nil]
+  end
+end
+
+def fahrenheit_to_celsius(fahrenheit)
+  return nil if fahrenheit.nil?
+  ((fahrenheit.to_f - 32) * 5.0 / 9.0).round(1)
+end
+
 # Main seed execution
 def run_seeds
   seed_pests        # Step 1: Seed pests first
   seed_plants       # Step 2: Seed plants and establish relationships
-  puts "Seeding completed!"
+  puts 'Seeding completed!'
 rescue StandardError => e
   puts "An error occurred during seeding: #{e.message}"
 end

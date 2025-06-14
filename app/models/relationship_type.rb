@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class RelationshipType < ApplicationRecord
   has_many :plant_relationships, dependent: :destroy
 
@@ -33,4 +34,4 @@ class RelationshipType < ApplicationRecord
       "#{name} (neutral)"
     end
   end
-end 
+end

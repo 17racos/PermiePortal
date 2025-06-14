@@ -1,15 +1,17 @@
+# frozen_string_literal: true
 class PlantsController < ApplicationController
   before_action :set_plant, only: [:show]
 
   # GET /plants
   def index
     # Start with base query
-    @plants = EnhancedPlant.includes(:environmental_requirements, :plant_uses, :plant_traits)
+    @plants = EnhancedPlant.includes(:environmental_requirements, :plant_uses, :plant_traits, :semantic_tags)
 
-    # Apply search filter using enhanced search service
+    # Apply search filter using enhanced search service with natural language support
     if params[:query].present?
       search_service = EnhancedPlantSearchService.new
-      search_results = search_service.search(params[:query], limit: 200)
+      # Use natural language search for better semantic understanding
+      search_results = search_service.natural_language_search(params[:query], limit: 200)
       # Convert to ActiveRecord relation for further filtering
       @plants = @plants.where(id: search_results.map(&:id))
     end
@@ -37,7 +39,7 @@ class PlantsController < ApplicationController
         'Vine' => 'vine',
         'Aquatic' => 'aquatic'
       }
-      
+
       plant_types = layers.map { |layer| layer_to_type_mapping[layer] }.compact.uniq
       if plant_types.any?
         @plants = @plants.where(plant_type: plant_types)
@@ -45,17 +47,17 @@ class PlantsController < ApplicationController
     end
 
     # Apply zone filters
-    if (params[:min_zone].present? && params[:min_zone] != "") || 
-       (params[:max_zone].present? && params[:max_zone] != "")
+    if (params[:min_zone].present? && params[:min_zone] != '') ||
+       (params[:max_zone].present? && params[:max_zone] != '')
       min_zone = params[:min_zone].presence&.to_i || 1
       max_zone = params[:max_zone].presence&.to_i || 13
-      
+
       # Get plant IDs that match zone requirements
       plant_ids_in_zone = EnvironmentalRequirements.where(
         'hardiness_zone_min <= ? AND hardiness_zone_max >= ?',
         max_zone, min_zone
       ).pluck(:enhanced_plant_id).uniq
-      
+
       @plants = @plants.where(id: plant_ids_in_zone)
     end
 
@@ -67,8 +69,8 @@ class PlantsController < ApplicationController
       format.json { render json: @plants }
       format.turbo_stream do
         render turbo_stream: turbo_stream.replace(
-          "plants-list",
-          partial: "plants/plants_list",
+          'plants-list',
+          partial: 'plants/plants_list',
           locals: { plants: @plants }
         )
       end
@@ -81,39 +83,54 @@ class PlantsController < ApplicationController
 
   # GET /plants/quick/:filter
   def quick_filter
+    filter_type = params[:filter]
     search_service = EnhancedPlantSearchService.new
-    
-    @plants = case params[:filter]
+
+    case filter_type
     when 'edible'
-      search_service.search('edible food', limit: 100)
+      @plants = search_service.natural_language_search('edible')
     when 'medicinal'
-      search_service.search('medicinal', limit: 100)
+      @plants = search_service.natural_language_search('medicinal')
+    when 'pollinator'
+      @plants = search_service.natural_language_search('pollinator friendly')
+    when 'drought'
+      @plants = search_service.natural_language_search('drought tolerant')
     when 'nitrogen'
-      search_service.search('nitrogen fixing', limit: 100)
+      @plants = search_service.natural_language_search('nitrogen fixing')
     when 'groundcover'
-      search_service.search('ground cover', limit: 100)
+      @plants = search_service.natural_language_search('ground cover')
+    when 'aromatic'
+      @plants = search_service.natural_language_search('aromatic')
+    when 'container'
+      @plants = search_service.natural_language_search('container suitable')
+    when 'cold_hardy'
+      @plants = search_service.natural_language_search('cold hardy')
+    when 'deer_resistant'
+      @plants = search_service.natural_language_search('deer resistant')
     else
-      EnhancedPlant.all
+      @plants = EnhancedPlant.limit(200)
     end
 
     respond_to do |format|
+      format.html { redirect_to plants_path }
       format.turbo_stream do
-        render turbo_stream: turbo_stream.replace(
-          "plants-list",
-          partial: "plants/plants_list",
-          locals: { plants: @plants }
-        )
+        render turbo_stream: turbo_stream.replace('plants-list', partial: 'plants_list', locals: { plants: @plants })
       end
     end
+  end
+
+  # GET /plants/gpt_chat
+  def gpt_chat
+    # Simple action to render the GPT chat interface
   end
 
   private
 
   def set_plant
     @plant = EnhancedPlant.find_by(common_name: params[:common_name])
-    
+
     unless @plant
-      redirect_to plants_path, alert: "Plant not found."
+      redirect_to plants_path, alert: 'Plant not found.'
     end
   end
 

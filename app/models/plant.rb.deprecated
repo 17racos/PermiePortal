@@ -1,4 +1,11 @@
+# DEPRECATED: This model has been replaced by EnhancedPlant
+# All new functionality should use EnhancedPlant instead
+# This model is kept for backward compatibility and migration purposes only
 class Plant < ApplicationRecord
+  # === DEPRECATION WARNING ===
+  # This model is deprecated and will be removed in a future version.
+  # Use EnhancedPlant instead for all new development.
+
   # === Active Storage ===
   has_one_attached :image
 
@@ -16,12 +23,12 @@ class Plant < ApplicationRecord
   validates :plant_functions, presence: true, allow_blank: true
 
   # === Scopes ===
-  scope :filter_by_plant_function, ->(functions) { 
-    where("plant_functions @> ARRAY[?]::text[]", functions) 
+  scope :filter_by_plant_function, ->(functions) {
+    where("plant_functions @> ARRAY[?]::text[]", functions)
   }
 
-  scope :filter_by_layers, ->(layers) { 
-    where("layers @> ARRAY[?]::text[]", layers) 
+  scope :filter_by_layers, ->(layers) {
+    where("layers @> ARRAY[?]::text[]", layers)
   }
 
   scope :filter_by_zones, ->(search_zones) {
@@ -34,7 +41,7 @@ class Plant < ApplicationRecord
 
   scope :search_by_name, ->(query) {
     sanitized = sanitize_sql_like(query.downcase)
-    where("LOWER(common_name) LIKE ? OR LOWER(scientific_name) LIKE ?", 
+    where("LOWER(common_name) LIKE ? OR LOWER(scientific_name) LIKE ?",
           "%#{sanitized}%", "%#{sanitized}%")
   }
 
@@ -78,7 +85,7 @@ class Plant < ApplicationRecord
   # === Image Methods ===
   def image_filename
     return "default_plant.jpg" if common_name.blank?
-    
+
     filename = common_name
       .downcase
       .gsub("'", "")        # Remove apostrophes
@@ -114,15 +121,15 @@ class Plant < ApplicationRecord
 
   def self.advanced_search(params)
     results = all
-    
+
     results = results.search_by_name(params[:query]) if params[:query].present?
     results = results.filter_by_plant_function(params[:functions]) if params[:functions].present?
     results = results.filter_by_layers(params[:layers]) if params[:layers].present?
     results = results.filter_by_zones(params[:zones]) if params[:zones].present?
-    
+
     results
   end
-  
+
   # Handle zone range
   def zone_range=(value)
     if value.is_a?(String)

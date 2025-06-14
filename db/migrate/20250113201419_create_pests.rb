@@ -1,10 +1,11 @@
+# frozen_string_literal: true
 class CreatePests < ActiveRecord::Migration[7.1]
   def change
     create_table :pests do |t|
       t.string :name, null: false
       t.string :slug, null: false
       t.string :picture
-      t.string :scientific_name      
+      t.string :scientific_name
       t.text :description
       t.text :characteristics
       t.jsonb :control_methods, default: {}  # Expecting a hash

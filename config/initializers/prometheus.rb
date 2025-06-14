@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'prometheus/client'
 
 # Create a new registry
@@ -29,4 +30,4 @@ prometheus.counter(
 prometheus.histogram(
   :search_duration_seconds,
   docstring: 'Search operation duration'
-) 
+)

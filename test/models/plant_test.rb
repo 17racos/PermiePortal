@@ -1,6 +1,7 @@
-require "test_helper"
+# frozen_string_literal: true
+require 'test_helper'
 
-class PlantTest < ActiveSupport::TestCase
+class EnhancedPlantTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

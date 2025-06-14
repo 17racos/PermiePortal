@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class PlantTrait < ApplicationRecord
   belongs_to :enhanced_plant
   belongs_to :trait_category
@@ -54,16 +55,16 @@ class PlantTrait < ApplicationRecord
     case trait_category.data_type
     when 'numeric'
       if numeric_value.present?
-        unit = trait_category.unit.present? ? " #{trait_category.unit}" : ""
+        unit = trait_category.unit.present? ? " #{trait_category.unit}" : ''
         "#{numeric_value}#{unit}"
       elsif numeric_min.present? && numeric_max.present?
-        unit = trait_category.unit.present? ? " #{trait_category.unit}" : ""
+        unit = trait_category.unit.present? ? " #{trait_category.unit}" : ''
         "#{numeric_min}-#{numeric_max}#{unit}"
       elsif numeric_min.present?
-        unit = trait_category.unit.present? ? " #{trait_category.unit}" : ""
+        unit = trait_category.unit.present? ? " #{trait_category.unit}" : ''
         "#{numeric_min}+#{unit}"
       elsif numeric_max.present?
-        unit = trait_category.unit.present? ? " #{trait_category.unit}" : ""
+        unit = trait_category.unit.present? ? " #{trait_category.unit}" : ''
         "up to #{numeric_max}#{unit}"
       end
     when 'categorical'
@@ -79,7 +80,7 @@ class PlantTrait < ApplicationRecord
     case trait_category.data_type
     when 'numeric'
       return false unless numeric_value.present?
-      
+
       if criteria.is_a?(Hash)
         result = true
         result &&= numeric_value >= criteria[:min] if criteria[:min]
@@ -140,4 +141,4 @@ class PlantTrait < ApplicationRecord
       end
     end
   end
-end 
+end
