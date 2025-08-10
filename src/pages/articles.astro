@@ -21,7 +21,7 @@ const pageItems = entries.slice(start, start + PAGE_SIZE);
     <h2 id="articles-list" class="text-2xl font-bold">Articles</h2>
     <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {pageItems.map((a) => (
-        <ArticleCard title={a.data.title} summary={a.data.summary} date={a.data.date.toISOString()} tags={a.data.tags} href={`/articles/${a.data.slug}`} />
+        <ArticleCard title={a.data.title} summary={a.data.summary} date={a.data.date.toISOString()} tags={a.data.tags} href={`/articles/${a.slug}`} />
       ))}
     </div>
     <nav class="mt-8 flex items-center justify-between" aria-label="Pagination">

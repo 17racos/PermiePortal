@@ -20,7 +20,7 @@ const projects = (await getCollection('projects')).sort((a,b)=> b.data.date.getT
     <h2 id="latest-articles" class="text-2xl font-bold">Latest Articles</h2>
     <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {articles.map((a) => (
-        <ArticleCard title={a.data.title} summary={a.data.summary} date={a.data.date.toISOString()} tags={a.data.tags} href={`/articles/${a.data.slug}`} />
+        <ArticleCard title={a.data.title} summary={a.data.summary} date={a.data.date.toISOString()} tags={a.data.tags} href={`/articles/${a.slug}`} />
       ))}
     </div>
   </section>
@@ -28,7 +28,7 @@ const projects = (await getCollection('projects')).sort((a,b)=> b.data.date.getT
     <h2 id="latest-projects" class="text-2xl font-bold">Latest Projects</h2>
     <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {projects.map((p) => (
-        <ProjectCard title={p.data.title} summary={p.data.summary} date={p.data.date.toISOString()} tags={p.data.tags} href={`/projects/${p.data.slug}`} />
+        <ProjectCard title={p.data.title} summary={p.data.summary} date={p.data.date.toISOString()} tags={p.data.tags} href={`/projects/${p.slug}`} />
       ))}
     </div>
   </section>

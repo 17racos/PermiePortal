@@ -7,4 +7,5 @@ export default defineConfig({
   integrations: [tailwind({ applyBaseStyles: true }), mdx()],
   server: { host: true, port: 4321 },
   markdown: { smartypants: true },
+  output: 'static',
 });
