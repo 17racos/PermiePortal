@@ -7,12 +7,12 @@ import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
   const entries = await getCollection('articles');
-  return entries.map((e) => ({ params: { slug: e.data.slug }, props: { slug: e.data.slug } }));
+  return entries.map((e) => ({ params: { slug: e.slug } }));
 }
 
-const { slug } = Astro.props as { slug: string };
+const { slug } = Astro.params;
 const all = await getCollection('articles');
-const match = all.find((e) => e.data.slug === slug);
+const match = all.find((e) => e.slug === slug);
 if (!match) throw new Error('Article not found');
 const { Content, data } = await match.render();
 ---
