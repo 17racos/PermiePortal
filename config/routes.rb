@@ -88,11 +88,14 @@ Rails.application.routes.draw do
         get :status
         get :models
       end
+
+      # PermieGPT API
+      post 'permie_gpt/query', to: 'permie_gpt#query'
     end
   end
 
   # Health check endpoint
-  get '/health', to: 'application#health'
+  get 'health', to: 'health#show'
 
   # Test metrics routes
   get 'test_metrics/error', to: 'test_metrics#test_error'

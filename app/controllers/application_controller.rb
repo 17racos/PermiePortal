@@ -1,30 +1,39 @@
 # frozen_string_literal: true
 class ApplicationController < ActionController::Base
   def health
-    render json: {
+    health_status = {
       status: 'ok',
       timestamp: Time.current,
       services: {
-        database: database_healthy?,
-        ollama: ollama_healthy?
+        database: check_database,
+        redis: check_redis,
+        ollama: check_ollama
       }
     }
+
+    render json: health_status
   end
 
   private
 
-  def database_healthy?
+  def check_database
     ActiveRecord::Base.connection.execute('SELECT 1')
-    true
-  rescue
-    false
+    { status: 'ok' }
+  rescue => e
+    { status: 'error', message: e.message }
   end
 
-  def ollama_healthy?
-    ollama_url = ENV['OLLAMA_URL'] || 'http://localhost:11434'
-    response = HTTParty.get("#{ollama_url}/api/tags", timeout: 5)
-    response.success?
-  rescue
-    false
+  def check_redis
+    Redis.current.ping
+    { status: 'ok' }
+  rescue => e
+    { status: 'error', message: e.message }
+  end
+
+  def check_ollama
+    response = HTTP.timeout(5).get(ENV.fetch('OLLAMA_URL', 'http://localhost:11434') + '/api/health')
+    { status: response.status.success? ? 'ok' : 'error' }
+  rescue => e
+    { status: 'error', message: e.message }
   end
 end

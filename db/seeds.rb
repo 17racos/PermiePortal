@@ -59,6 +59,7 @@ def map_plant_attributes(data)
     max_temp: data['max_temp'],
     ideal_temp_min: data['ideal_temp_min'],
     ideal_temp_max: data['ideal_temp_max'],
+    growth_habit: data['growth_habit'],
   }
 end
 
@@ -152,28 +153,36 @@ def seed_plants
         common_name: attributes[:common_name],
         scientific_name: attributes[:scientific_name],
         family: attributes[:family],
-        description_detailed: attributes[:description],
-        growing_notes: attributes[:characteristics],
+        description: attributes[:description],
         plant_type: map_plant_type(attributes[:layers]),
-        life_cycle: attributes[:perennial] ? 'perennial' : 'annual'
-      }
-
+        life_cycle: attributes[:perennial] ? 'perennial' : 'annual',
+        growth_habit: attributes[:growth_habit]
+      }    
+         
       plant.assign_attributes(enhanced_attributes)
       plant.save!
 
-      # Create environmental requirements if zone data exists
       if attributes[:zone_range].present?
         env_req = plant.environmental_requirements || plant.build_environmental_requirements
         zone_min, zone_max = parse_zone_range(attributes[:zone_range])
+      
         env_req.update!(
           hardiness_zone_min: zone_min,
           hardiness_zone_max: zone_max,
+          soil_ph_min: attributes[:pH_min],
+          soil_ph_max: attributes[:pH_max],
           temp_min_survival: attributes[:min_temp] ? fahrenheit_to_celsius(attributes[:min_temp]) : nil,
           temp_max_survival: attributes[:max_temp] ? fahrenheit_to_celsius(attributes[:max_temp]) : nil,
-          temp_optimal_min: attributes[:ideal_temp_min] ? fahrenheit_to_celsius(attributes[:ideal_temp_min]) : nil,
-          temp_optimal_max: attributes[:ideal_temp_max] ? fahrenheit_to_celsius(attributes[:ideal_temp_max]) : nil
+          ideal_temp_min: attributes[:ideal_temp_min] ? fahrenheit_to_celsius(attributes[:ideal_temp_min]) : nil,
+          ideal_temp_max: attributes[:ideal_temp_max] ? fahrenheit_to_celsius(attributes[:ideal_temp_max]) : nil,
+          drought_tolerance_score: attributes[:drought_tolerance_score],
+          flood_tolerance_score: attributes[:flood_tolerance_score],
+          heat_zone_min: attributes[:heat_zone_min],
+          heat_zone_max: attributes[:heat_zone_max]
         )
       end
+
+      
 
       # Create plant uses from functions
       if attributes[:plant_functions].present?

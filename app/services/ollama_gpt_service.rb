@@ -14,6 +14,18 @@ class OllamaGptService
     check_ollama_health
   end
 
+  def generate_completion(prompt)
+    return nil unless available?
+
+    begin
+      response = make_ollama_request(prompt, enhanced_options: true)
+      response&.dig('response')
+    rescue => e
+      Rails.logger.error "Ollama Completion Error: #{e.message}"
+      nil
+    end
+  end
+
   def process_plant_query(user_query, context: {})
     return fallback_response(user_query) unless available?
 

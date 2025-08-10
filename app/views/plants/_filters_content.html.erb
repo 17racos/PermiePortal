@@ -1,0 +1,172 @@
+<!-- Quick Discovery Tags -->
+<div class="mb-8">
+  <h3 class="text-lg font-semibold text-green-900 mb-4 flex items-center">
+    <span class="mr-2">🚀</span>Quick Discovery
+  </h3>
+  <div class="grid grid-cols-2 md:grid-cols-5 gap-3">
+    <%= link_to quick_filter_plants_path("edible"), 
+        class: "group flex flex-col items-center p-4 bg-gradient-to-br from-green-100 to-green-200 hover:from-green-200 hover:to-green-300 rounded-xl transition-all duration-200 hover:scale-105 hover:shadow-lg",
+        data: { turbo_frame: "plants-list" } do %>
+      <div class="text-2xl mb-2">🍎</div>
+      <span class="text-sm font-medium text-green-800">Edible</span>
+    <% end %>
+    
+    <%= link_to quick_filter_plants_path("medicinal"), 
+        class: "group flex flex-col items-center p-4 bg-gradient-to-br from-blue-100 to-blue-200 hover:from-blue-200 hover:to-blue-300 rounded-xl transition-all duration-200 hover:scale-105 hover:shadow-lg",
+        data: { turbo_frame: "plants-list" } do %>
+      <div class="text-2xl mb-2">🌿</div>
+      <span class="text-sm font-medium text-blue-800">Medicinal</span>
+    <% end %>
+    
+    <%= link_to quick_filter_plants_path("pollinator"), 
+        class: "group flex flex-col items-center p-4 bg-gradient-to-br from-yellow-100 to-yellow-200 hover:from-yellow-200 hover:to-yellow-300 rounded-xl transition-all duration-200 hover:scale-105 hover:shadow-lg",
+        data: { turbo_frame: "plants-list" } do %>
+      <div class="text-2xl mb-2">🐝</div>
+      <span class="text-sm font-medium text-yellow-800">Pollinators</span>
+    <% end %>
+    
+    <%= link_to quick_filter_plants_path("drought"), 
+        class: "group flex flex-col items-center p-4 bg-gradient-to-br from-orange-100 to-orange-200 hover:from-orange-200 hover:to-orange-300 rounded-xl transition-all duration-200 hover:scale-105 hover:shadow-lg",
+        data: { turbo_frame: "plants-list" } do %>
+      <div class="text-2xl mb-2">🏜️</div>
+      <span class="text-sm font-medium text-orange-800">Drought Hardy</span>
+    <% end %>
+    
+    <%= link_to quick_filter_plants_path("nitrogen"), 
+        class: "group flex flex-col items-center p-4 bg-gradient-to-br from-purple-100 to-purple-200 hover:from-purple-200 hover:to-purple-300 rounded-xl transition-all duration-200 hover:scale-105 hover:shadow-lg",
+        data: { turbo_frame: "plants-list" } do %>
+      <div class="text-2xl mb-2">🌱</div>
+      <span class="text-sm font-medium text-purple-800">Soil Builders</span>
+    <% end %>
+  </div>
+</div>
+
+<!-- Advanced Filters Toggle -->
+<div class="mb-6">
+  <button type="button" 
+          data-action="click->ai-search#toggleAdvancedFilters"
+          class="flex items-center justify-center w-full px-4 py-3 bg-white/80 hover:bg-white border-2 border-green-300 hover:border-green-400 rounded-xl transition-all duration-200 text-green-800 font-medium">
+    <span data-ai-search-target="advancedToggleText">Show Traditional Filters</span>
+    <svg data-ai-search-target="advancedToggleIcon" 
+         class="ml-2 h-5 w-5 transform transition-transform duration-200" 
+         fill="none" 
+         viewBox="0 0 24 24" 
+         stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+    </svg>
+  </button>
+</div>
+
+<!-- Traditional Filters (Initially Hidden) -->
+<div id="advanced-filters" 
+     data-ai-search-target="advancedFilters"
+     class="hidden">
+  <div class="bg-white/60 backdrop-blur-sm rounded-xl p-6 border border-green-200 mb-6">
+    <h3 class="text-lg font-semibold text-green-900 mb-4 flex items-center">
+      <span class="mr-2">🔧</span>Traditional Search Filters
+    </h3>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      <!-- Plant Functions -->
+      <div class="space-y-3">
+        <h4 class="font-medium text-green-800 flex items-center">
+          <span class="mr-2">🌿</span>Plant Functions
+        </h4>
+        <div class="space-y-2 max-h-40 overflow-y-auto">
+          <% ["Edible", "Medicinal", "Nitrogen Fixer", "Ground Cover", "Pollinator", "Wildlife Attractor", "Windbreaker", "Erosion Control"].each do |function| %>
+            <label class="flex items-center gap-2 text-sm hover:bg-green-50 p-1 rounded">
+              <%= check_box_tag "functions[]", 
+                function, 
+                params[:functions]&.include?(function),
+                class: "w-4 h-4 text-green-600 rounded border-gray-300 focus:ring-green-500",
+                onchange: "this.form.requestSubmit()" %>
+              <span class="text-gray-700"><%= function %></span>
+            </label>
+          <% end %>
+        </div>
+      </div>
+
+      <!-- Plant Layers -->
+      <div class="space-y-3">
+        <h4 class="font-medium text-green-800 flex items-center">
+          <span class="mr-2">🌾</span>Plant Layers
+        </h4>
+        <div class="space-y-2">
+          <% ["Canopy", "Sub-canopy", "Shrub", "Herbaceous", "Ground", "Vine"].each do |layer| %>
+            <label class="flex items-center gap-2 text-sm hover:bg-green-50 p-1 rounded">
+              <%= check_box_tag "layers[]", 
+                layer, 
+                params[:layers]&.include?(layer),
+                class: "w-4 h-4 text-green-600 rounded border-gray-300 focus:ring-green-500",
+                onchange: "this.form.requestSubmit()" %>
+              <span class="text-gray-700"><%= layer %></span>
+            </label>
+          <% end %>
+        </div>
+      </div>
+
+      <!-- Climate Zones -->
+      <div class="space-y-3">
+        <h4 class="font-medium text-green-800 flex items-center">
+          <span class="mr-2">🌎</span>Climate Zone
+        </h4>
+        <div class="space-y-3">
+          <div>
+            <label class="block text-sm text-gray-600 mb-1">Zone Range</label>
+            <div class="flex items-center gap-2">
+              <%= f.number_field :min_zone, 
+                min: 1, max: 13,
+                value: params[:min_zone],
+                class: "w-20 px-3 py-2 border border-gray-300 rounded-lg text-center",
+                placeholder: "Min",
+                onchange: "this.form.requestSubmit()" %>
+              <span class="text-gray-500">to</span>
+              <%= f.number_field :max_zone,
+                min: 1, max: 13,
+                value: params[:max_zone],
+                class: "w-20 px-3 py-2 border border-gray-300 rounded-lg text-center",
+                placeholder: "Max",
+                onchange: "this.form.requestSubmit()" %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Search Status and Controls -->
+<div class="flex justify-between items-center">
+  <div class="text-sm text-green-700">
+    <% if params[:query].present? || params[:functions].present? || params[:layers].present? || params[:min_zone].present? || params[:max_zone].present? %>
+      <span class="flex items-center">
+        <svg class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.707A1 1 0 013 7V4z" />
+        </svg>
+        Search active
+      </span>
+    <% else %>
+      <span class="text-gray-500">Browse all plants or use AI search above</span>
+    <% end %>
+  </div>
+  
+  <div class="flex space-x-2">
+    <% if params[:query].present? || params[:functions].present? || params[:layers].present? || params[:min_zone].present? || params[:max_zone].present? %>
+      <%= link_to "Clear Search", plants_path, 
+          class: "px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors",
+          data: { turbo_frame: "plants-list" } %>
+    <% end %>
+    
+    <button type="button" 
+            data-action="click->ai-search#openAIChat"
+            class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors">
+      Chat with AI
+    </button>
+  </div>
+</div>
+
+<script>
+(function() {
+  // ... all your JS code here ...
+})();
+</script> 

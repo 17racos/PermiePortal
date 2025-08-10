@@ -204,6 +204,7 @@
 </div>
 
 <script>
+(function() {
 let chatHistory = [];
 let messageCount = 0;
 let totalTokens = 0;
@@ -583,6 +584,13 @@ function getUserPreferences() {
     auto_context: settings.autoContext !== false
   };
 }
+
+// Expose functions globally for HTML event handlers
+window.askExample = askExample;
+window.handleKeyPress = handleKeyPress;
+window.autoResize = autoResize;
+
+})();
 </script>
 
 <style>

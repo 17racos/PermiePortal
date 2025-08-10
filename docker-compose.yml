@@ -8,11 +8,16 @@ services:
     volumes:
       - .:/app
       - bundle_cache:/usr/local/bundle
+      - node_modules:/app/node_modules
     environment:
       - RAILS_ENV=development
       - DATABASE_URL=postgres://postgres:postgres@db:5432/permieportal_development
       - REDIS_URL=redis://redis:6379/1
-      - OLLAMA_URL=http://172.17.0.1:11434
+      - OLLAMA_URL=http://192.168.1.106:11434
+      - RAILS_MAX_THREADS=5
+      - WEB_CONCURRENCY=1
+      - RAILS_LOG_TO_STDOUT=true
+      - RAILS_SERVE_STATIC_FILES=true
     depends_on:
       db:
         condition: service_healthy
@@ -22,10 +27,12 @@ services:
       - app_network
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:3000/health"]
-      interval: 10s
-      timeout: 5s
-      retries: 3
-      start_period: 40s
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
 
   db:
     image: postgres:15
@@ -68,26 +75,36 @@ services:
     volumes:
       - .:/app
       - bundle_cache:/usr/local/bundle
+      - node_modules:/app/node_modules
     environment:
       - RAILS_ENV=development
       - REDIS_URL=redis://redis:6379/1
-      - DATABASE_URL=postgres://postgres:postgres@db:5432/permieportal_development
-      - OLLAMA_URL=http://172.17.0.1:11434
-      - SKIP_DB_MIGRATE=true
+      - DATABASE_URL=postgres://postgres:postgres@db:5432/permieportal_devtest
+      - OLLAMA_URL=http://192.168.1.106:11434
+      - RAILS_MAX_THREADS=5
+      - WEB_CONCURRENCY=1
+      - RAILS_LOG_TO_STDOUT=true
     depends_on:
-      web:
-        condition: service_healthy
       redis:
         condition: service_healthy
       db:
         condition: service_healthy
     networks:
       - app_network
+    healthcheck:
+      test: ["CMD-SHELL", "pgrep -f sidekiq || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
 
 volumes:
   postgres_data:
   redis_data:
   bundle_cache:
+  node_modules:
 
 networks:
   app_network:

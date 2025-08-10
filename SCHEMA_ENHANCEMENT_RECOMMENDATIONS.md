@@ -306,4 +306,4 @@ This enhanced schema provides:
 - **Data quality** monitoring and validation
 - **Performance tracking** for optimization
 
-The design maintains backward compatibility while adding powerful new capabilities for natural language processing and advanced search functionality. 
+The design maintains backward compatibility while adding powerful new capabilities for natural language processing and advanced search functionality. lsof

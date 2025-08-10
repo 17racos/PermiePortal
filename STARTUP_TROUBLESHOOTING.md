@@ -1,256 +1,334 @@
-# PermiePortal Startup Troubleshooting Guide
+# Startup Troubleshooting Guide
 
-## 🚀 Quick Start
-
-Use the automated startup script:
+## Quick Start
 ```bash
-./scripts/start-app.sh
+# Kill any existing Rails server
+pkill -f "rails server"
+
+# Start the server with required environment variables
+RAILS_ENV=development \
+DATABASE_URL=postgres://postgres:postgres@localhost:5432/permieportal_development \
+REDIS_URL=redis://localhost:6379/1 \
+OLLAMA_URL=http://localhost:11434 \
+PORT=3000 \
+bundle exec rails server
 ```
 
-## 🔧 Manual Startup
+## Common Issues and Solutions
 
-If you prefer manual control:
+### 1. Database Connection Issues
 
+#### Symptoms
+- "Could not connect to PostgreSQL"
+- "Database does not exist"
+- "Connection refused"
+
+#### Solutions
 ```bash
-# 1. Start with simplified configuration
-docker-compose -f docker-compose.test.yml up -d web
+# Check PostgreSQL status
+sudo service postgresql status
 
-# 2. Check status
-docker-compose -f docker-compose.test.yml ps
+# Start PostgreSQL if stopped
+sudo service postgresql start
 
-# 3. View logs
-docker-compose -f docker-compose.test.yml logs web
-```
+# Create database if missing
+rails db:create
 
-## 🐛 Common Issues & Solutions
-
-### Issue 1: Port Already in Use
-**Error:** `bind: address already in use`
-
-**Solution:**
-```bash
-# Check what's using the port
-sudo netstat -tlnp | grep :3000
-
-# Option A: Use different port
-sed -i 's/"3000:3000"/"3001:3000"/g' docker-compose.test.yml
-
-# Option B: Stop conflicting service
-docker stop $(docker ps -q --filter "publish=3000")
-```
-
-### Issue 2: Database Connection Failed
-**Error:** `ActiveRecord::DatabaseConnectionError`
-
-**Solution:**
-```bash
-# Check if PostgreSQL is running
-sudo systemctl status postgresql
-
-# Start PostgreSQL if needed
-sudo systemctl start postgresql
-
-# Or use Docker PostgreSQL
-docker run -d --name postgres-dev \
-  -e POSTGRES_PASSWORD=postgres \
-  -e POSTGRES_DB=permieportal_development \
-  -p 5432:5432 postgres:15
-```
-
-### Issue 3: Redis Connection Failed
-**Error:** `Redis::CannotConnectError`
-
-**Solution:**
-```bash
-# Start Redis with Docker
-docker run -d --name redis-dev -p 6379:6379 redis:7-alpine
-
-# Or install locally
-sudo apt-get install redis-server
-sudo systemctl start redis-server
-```
-
-### Issue 4: Build Failures
-**Error:** Docker build fails
-
-**Solution:**
-```bash
-# Clear Docker cache
-docker system prune -a
-
-# Rebuild without cache
-docker-compose -f docker-compose.test.yml build --no-cache web
-
-# Check Dockerfile syntax
-docker build -t permieportal-test .
-```
-
-### Issue 5: Missing Dependencies
-**Error:** `Gem::LoadError` or missing gems
-
-**Solution:**
-```bash
-# Rebuild bundle cache
-docker-compose -f docker-compose.test.yml exec web bundle install
-
-# Or rebuild container
-docker-compose -f docker-compose.test.yml build web
-```
-
-### Issue 6: Database Not Migrated
-**Error:** `ActiveRecord::PendingMigrationError`
-
-**Solution:**
-```bash
 # Run migrations
-docker-compose -f docker-compose.test.yml exec web rails db:migrate
+rails db:migrate
 
-# Check migration status
-docker-compose -f docker-compose.test.yml exec web rails db:migrate:status
+# Reset database if needed
+rails db:drop db:create db:migrate db:seed
 ```
 
-### Issue 7: Ollama/AI Service Not Available
-**Error:** AI search not working
+### 2. Redis Connection Issues
 
-**Solution:**
+#### Symptoms
+- "Could not connect to Redis"
+- "Redis connection refused"
+- Cache-related errors
+
+#### Solutions
 ```bash
-# Start Ollama separately
-docker run -d --name ollama-dev -p 11434:11434 ollama/ollama:latest
+# Check Redis status
+sudo service redis-server status
 
-# Test Ollama
-curl http://localhost:11434/api/tags
+# Start Redis if stopped
+sudo service redis-server start
 
-# The app will work without Ollama (fallback mode)
+# Test Redis connection
+redis-cli ping
 ```
 
-## 🏥 Health Checks
+### 3. Ollama Integration Issues
 
-### Quick Health Check
+#### Symptoms
+- "Could not connect to Ollama"
+- "Ollama service unavailable"
+- AI responses failing
+
+#### Solutions
 ```bash
-# Test application response
-curl -s -o /dev/null -w "%{http_code}" http://localhost:3000
+# Check Ollama status
+curl http://localhost:11434/api/version
 
-# Should return: 200
+# Start Ollama if stopped
+ollama serve
+
+# Pull required model
+ollama pull mistral
+
+# Verify model availability
+ollama list
 ```
 
-### Database Health Check
+### 4. Environment Variable Issues
+
+#### Symptoms
+- "Missing required environment variable"
+- Configuration errors
+- Service connection failures
+
+#### Solutions
 ```bash
-docker-compose -f docker-compose.test.yml exec web rails runner "puts EnhancedPlant.count"
+# Create .env file
+cp .env.example .env
+
+# Edit environment variables
+nano .env
+
+# Verify environment variables
+rails runner "puts ENV['DATABASE_URL']"
 ```
 
-### Search Functionality Check
+### 5. Asset Compilation Issues
+
+#### Symptoms
+- Missing JavaScript files
+- CSS not loading
+- Asset pipeline errors
+
+#### Solutions
 ```bash
-docker-compose -f docker-compose.test.yml exec web rails runner "puts EnhancedPlantSearchService.new.natural_language_search('herbs').count"
+# Precompile assets
+rails assets:precompile
+
+# Clean and recompile
+rails assets:clean assets:precompile
+
+# Check asset pipeline
+rails assets:check
 ```
 
-### UI Component Check
+### 6. Port Conflicts
+
+#### Symptoms
+- "Address already in use"
+- "Port 3000 is already taken"
+- Server won't start
+
+#### Solutions
 ```bash
-curl -s http://localhost:3000/plants | grep -q "Discover Plants with AI" && echo "UI OK" || echo "UI FAILED"
+# Find process using port
+lsof -i :3000
+
+# Kill process
+kill -9 <PID>
+
+# Or use different port
+PORT=3001 rails server
 ```
 
-## 🔍 Debugging Commands
+### 7. Gem Dependencies
 
-### View Application Logs
+#### Symptoms
+- "Could not find gem"
+- Bundle install failures
+- Version conflicts
+
+#### Solutions
 ```bash
-docker-compose -f docker-compose.test.yml logs web -f
+# Update bundler
+gem update bundler
+
+# Install dependencies
+bundle install
+
+# Clean and reinstall
+bundle clean --force
+bundle install
 ```
 
-### Access Rails Console
+### 8. JavaScript Dependencies
+
+#### Symptoms
+- "Module not found"
+- JavaScript errors
+- Yarn issues
+
+#### Solutions
 ```bash
-docker-compose -f docker-compose.test.yml exec web rails console
+# Install JavaScript dependencies
+yarn install
+
+# Clean and reinstall
+yarn cache clean
+yarn install
+
+# Check for updates
+yarn upgrade
 ```
 
-### Check Environment Variables
+## System Requirements
+
+### Minimum Requirements
+- Ruby 3.2.0 or higher
+- PostgreSQL 13 or higher
+- Redis 6.0 or higher
+- Node.js 16 or higher
+- Yarn 1.22 or higher
+- 4GB RAM minimum
+- 10GB free disk space
+
+### Recommended Requirements
+- Ruby 3.2.2
+- PostgreSQL 14
+- Redis 7.0
+- Node.js 18 LTS
+- Yarn 1.22
+- 8GB RAM
+- 20GB free disk space
+
+## Performance Optimization
+
+### Database
 ```bash
-docker-compose -f docker-compose.test.yml exec web env | grep -E "(DATABASE|REDIS|OLLAMA)"
+# Analyze database performance
+rails db:analyze
+
+# Optimize indexes
+rails db:optimize_indexes
+
+# Check for slow queries
+rails db:slow_queries
 ```
 
-### Test Database Connection
+### Cache
 ```bash
-docker-compose -f docker-compose.test.yml exec web rails db:version
+# Clear cache
+rails tmp:cache:clear
+
+# Warm cache
+rails cache:warm
+
+# Check cache stats
+rails cache:stats
 ```
 
-## 🛠️ Development Tools
-
-### Reset Everything
+### Assets
 ```bash
-# Nuclear option - reset everything
-docker-compose -f docker-compose.test.yml down -v
-docker system prune -a
-./scripts/start-app.sh
+# Optimize images
+rails assets:optimize_images
+
+# Compress assets
+rails assets:compress
+
+# Check asset sizes
+rails assets:size
 ```
 
-### Performance Monitoring
-```bash
-# Monitor container resources
-docker stats permieportal_web_1
+## Monitoring
 
-# Check disk usage
-docker system df
+### Logs
+```bash
+# View Rails logs
+tail -f log/development.log
+
+# View PostgreSQL logs
+tail -f /var/log/postgresql/postgresql-*.log
+
+# View Redis logs
+tail -f /var/log/redis/redis-server.log
 ```
 
-### Network Debugging
+### Metrics
 ```bash
-# Check container networking
-docker network ls
-docker network inspect permieportal_app_network
+# Check system resources
+htop
+
+# Monitor database
+pg_stat_activity
+
+# Check Redis memory
+redis-cli info memory
 ```
 
-## 📱 Testing the New Search Interface
+## Security
 
-### Test Natural Language Search
-1. Go to http://localhost:3000/plants
-2. Try searches like:
-   - "drought tolerant herbs"
-   - "pollinator friendly trees"
-   - "edible ground cover"
-
-### Test Quick Discovery
-1. Click on the colorful discovery cards
-2. Verify they filter results correctly
-
-### Test Advanced Filters
-1. Click "Show Advanced Filters"
-2. Select multiple functions, layers, and zones
-3. Verify combined filtering works
-
-### Test UI Responsiveness
-1. Resize browser window
-2. Test on mobile viewport
-3. Verify animations and hover effects
-
-## 🆘 Getting Help
-
-If you're still having issues:
-
-1. **Check the logs:** `docker-compose -f docker-compose.test.yml logs web`
-2. **Verify environment:** Ensure Docker, PostgreSQL, and Redis are available
-3. **Try the automated script:** `./scripts/start-app.sh`
-4. **Reset everything:** Use the nuclear option above
-
-## 📊 Success Indicators
-
-When everything is working correctly, you should see:
-
-- ✅ Application responds on http://localhost:3000
-- ✅ Plants page loads with "Discover Plants with AI" header
-- ✅ Search functionality returns results
-- ✅ Quick discovery cards are interactive
-- ✅ Advanced filters toggle properly
-- ✅ Database contains 198 plants (or your expected count)
-
-## 🔄 Regular Maintenance
-
-### Weekly
+### Database
 ```bash
-# Update containers
-docker-compose -f docker-compose.test.yml pull
-docker-compose -f docker-compose.test.yml up -d web
+# Check database security
+rails db:security_check
+
+# Audit database access
+rails db:audit
+
+# Rotate credentials
+rails credentials:rotate
 ```
 
-### Monthly
+### Application
 ```bash
-# Clean up Docker
-docker system prune
-docker volume prune
-``` 
+# Check for vulnerabilities
+bundle audit
+
+# Update dependencies
+bundle update
+
+# Run security checks
+rails security:check
+```
+
+## Backup and Recovery
+
+### Database
+```bash
+# Create backup
+rails db:backup
+
+# Restore from backup
+rails db:restore
+
+# Verify backup
+rails db:verify_backup
+```
+
+### Assets
+```bash
+# Backup assets
+rails assets:backup
+
+# Restore assets
+rails assets:restore
+
+# Verify assets
+rails assets:verify
+```
+
+## Support
+
+### Getting Help
+1. Check the logs for error messages
+2. Review the documentation
+3. Search existing issues
+4. Create a new issue with:
+   - Error message
+   - Steps to reproduce
+   - Environment details
+   - Log files
+
+### Resources
+- [Rails Documentation](https://guides.rubyonrails.org)
+- [PostgreSQL Documentation](https://www.postgresql.org/docs)
+- [Redis Documentation](https://redis.io/documentation)
+- [Ollama Documentation](https://ollama.ai/docs) 

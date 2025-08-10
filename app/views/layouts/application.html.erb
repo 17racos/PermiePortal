@@ -8,31 +8,31 @@
     <!-- Make sure JavaScript and CSS is properly loaded -->
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-    <%= javascript_include_tag "application", defer: true, "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="PermiePortal: Your central resource for permaculture education and community networking.">
   </head>
   
-  <body style="background-color: #f0fff4; font-family: Arial, sans-serif; color: #333;">
-    <div style="min-height: 100vh; display: flex; flex-direction: column;">
+  <body class="bg-green-50 font-sans text-gray-800">
+    <div class="min-h-screen flex flex-col">
 
       <!-- Header Section -->
-      <header style="background: linear-gradient(to right, #4CAF50, #388E3C); color: white; padding: 15px; text-align: center;">
-        <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+      <header class="bg-gradient-to-r from-green-600 to-green-700 text-white py-4">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
           <!-- Logo -->
-          <h1 style="font-size: 1.5rem; font-weight: bold;">
-            <%= link_to 'PermiePortal', root_path, style: "color: white; text-decoration: none;" %>
+          <h1 class="text-2xl font-bold">
+            <%= link_to 'PermiePortal', root_path, class: "text-white hover:text-green-100 transition-colors" %>
           </h1>
 
           <!-- Navigation -->
-          <nav style="font-size: 0.9rem;">
+          <nav class="text-sm">
             <% if user_signed_in? %>
-              <span>Welcome, <%= current_user.email %>!</span>
-              <%= link_to 'Logout', destroy_user_session_path, method: :delete, style: "color: white; margin-left: 15px; text-decoration: none;" %>
+              <span class="text-green-100">Welcome, <%= current_user.email %>!</span>
+              <%= link_to 'Logout', destroy_user_session_path, method: :delete, class: "ml-4 text-white hover:text-green-100 transition-colors" %>
             <% else %>
-            <!--  <%= link_to 'Login', new_user_session_path, style: "color: white; margin-right: 15px; text-decoration: none;" %>
-              <%= link_to 'Sign Up', new_user_registration_path, style: "color: white; text-decoration: none;" %>
+              <!-- <%= link_to 'Login', new_user_session_path, class: "text-white hover:text-green-100 transition-colors mr-4" %>
+              <%= link_to 'Sign Up', new_user_registration_path, class: "text-white hover:text-green-100 transition-colors" %>
               -->
             <% end %>
           </nav>
@@ -40,20 +40,19 @@
       </header>
 
       <!-- Main Content -->
-      <main style="flex-grow: 1; max-width: 1200px; margin: 40px auto; padding: 20px;">
-        <div style="display: flex; flex-direction: column; min-height: 100vh;">
-          <!-- Yield to content in individual views -->
+      <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <div class="min-h-screen">
           <%= yield %>
         </div>
       </main>
 
       <!-- Footer -->
-      <footer style="background: #333; color: white; text-align: center; padding: 20px;">
-        <p style="font-size: 0.9rem; color: #ccc;">
-          &copy; <%= Time.current.year %> PermiePortal. All rights reserved.
-        </p>
-        <p style="margin-top: 5px;">
-        </p>
+      <footer class="bg-gray-800 text-white py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p class="text-sm text-gray-400">
+            &copy; <%= Time.current.year %> PermiePortal. All rights reserved.
+          </p>
+        </div>
       </footer>
 
     </div>

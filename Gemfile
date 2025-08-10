@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Specify Ruby version
-ruby '3.3.6'
+ruby '3.2.2'
 
 # Rails framework
 gem 'rails', '~> 7.1.3'
@@ -22,6 +22,9 @@ gem 'stimulus-rails'
 
 # Active Storage
 gem 'activestorage', '~> 7.1.3'
+
+#Importmap
+gem 'importmap-rails'
 
 #Asset Pipline
 gem 'sprockets-rails', '~> 3.5'
@@ -80,6 +83,9 @@ gem 'ruby-openai', '~> 7.0'
 
 # HTTP client for API requests
 gem 'httparty', '~> 0.21'
+
+# HTTP client for health checks
+gem 'http', '~> 5.1'
 
 group :development do
   gem 'pry-rails'
