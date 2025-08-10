@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html, body { height: 100%; }
+body { @apply bg-bg text-text antialiased; }
+a { @apply text-accent underline-offset-4 hover:underline; }
+.focus-ring { @apply focus:outline-none focus:ring-2 focus:ring-accent; }
+.card { @apply bg-surface border border-border rounded-xl; }

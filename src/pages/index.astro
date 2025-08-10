@@ -1,0 +1,35 @@
+import '../styles/tailwind.css';
+import Navbar from '../components/Navbar.astro';
+import Hero from '../components/Hero.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+import CTA from '../components/CTA.astro';
+import Footer from '../components/Footer.astro';
+import { getCollection } from 'astro:content';
+const articles = (await getCollection('articles')).sort((a,b)=> b.data.date.getTime()-a.data.date.getTime()).slice(0,3);
+const projects = (await getCollection('projects')).sort((a,b)=> b.data.date.getTime()-a.data.date.getTime()).slice(0,3);
+---
+<header>
+  <Navbar />
+</header>
+<main id="main">
+  <Hero />
+  <section class="mt-10" aria-labelledby="latest-articles">
+    <h2 id="latest-articles" class="text-2xl font-bold">Latest Articles</h2>
+    <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {articles.map((a) => (
+        <ArticleCard title={a.data.title} summary={a.data.summary} date={a.data.date.toISOString()} tags={a.data.tags} href={`/articles/${a.data.slug}`} />
+      ))}
+    </div>
+  </section>
+  <section class="mt-12" aria-labelledby="latest-projects">
+    <h2 id="latest-projects" class="text-2xl font-bold">Latest Projects</h2>
+    <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {projects.map((p) => (
+        <ProjectCard title={p.data.title} summary={p.data.summary} date={p.data.date.toISOString()} tags={p.data.tags} href={`/projects/${p.data.slug}`} />
+      ))}
+    </div>
+  </section>
+  <CTA />
+</main>
+<Footer />

@@ -1,0 +1,35 @@
+---
+import '../styles/tailwind.css';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+import { getCollection } from 'astro:content';
+const PAGE_SIZE = 12;
+const entries = (await getCollection('projects')).sort((a,b)=> b.data.date.getTime()-a.data.date.getTime());
+const totalPages = Math.max(1, Math.ceil(entries.length / PAGE_SIZE));
+const currentPage = Math.min(Math.max(parseInt(Astro.url.searchParams.get('page') || '1', 10), 1), totalPages);
+const start = (currentPage - 1) * PAGE_SIZE;
+const pageItems = entries.slice(start, start + PAGE_SIZE);
+---
+<header>
+  <Navbar />
+</header>
+<main id="main">
+  <h1 class="sr-only">Projects</h1>
+  <section class="mt-8" aria-labelledby="projects-list">
+    <h2 id="projects-list" class="text-2xl font-bold">Projects</h2>
+    <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {pageItems.map((p) => (
+        <ProjectCard title={p.data.title} summary={p.data.summary} date={p.data.date.toISOString()} tags={p.data.tags} href={`/projects/${p.data.slug}`} />
+      ))}
+    </div>
+    <nav class="mt-8 flex items-center justify-between" aria-label="Pagination">
+      <a aria-disabled={currentPage === 1} class={`px-3 py-2 rounded border ${currentPage === 1 ? 'opacity-50 pointer-events-none' : ''}`} href={`?page=${currentPage - 1}`}>Previous</a>
+      <p class="text-sm">Page {currentPage} of {totalPages}</p>
+      <a aria-disabled={currentPage === totalPages} class={`px-3 py-2 rounded border ${currentPage === totalPages ? 'opacity-50 pointer-events-none' : ''}`} href={`?page=${currentPage + 1}`}>Next</a>
+    </nav>
+  </section>
+</main>
+<Footer />
+
+

@@ -1,0 +1,18 @@
+---
+const links = [
+  { href: /articles, text: Articles },
+  { href: /projects, text: Projects },
+  { href: /about, text: About },
+];
+---
+<nav class="border-b border-border" aria-label="Primary">
+  <div class="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
+    <a href="/" class="font-bold tracking-tight text-xl">PermiePortal</a>
+    <ul class="flex gap-6 text-sm">
+      {links.map((l) => (
+        <li><a class="hover:text-accent focus-ring" href={l.href}>{l.text}</a></li>
+      ))}
+    </ul>
+  </div>
+  <a class="sr-only" href="#main">Skip to content</a>
+</nav>

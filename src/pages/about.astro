@@ -1,0 +1,22 @@
+---
+import '../styles/tailwind.css';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+---
+<header>
+  <Navbar />
+</header>
+<main id="main">
+  <section class="mt-10 max-w-3xl mx-auto px-4">
+    <h1 class="text-3xl font-bold">About</h1>
+    <p class="mt-3 text-secondary">We’re a Florida permaculture zine and project lab. We dunk on greenwashing, we plant natives, we test ideas in the swamp, then ship what works.</p>
+    <ul class="mt-6 list-disc list-inside text-secondary">
+      <li><strong>Native-first</strong>: ecosystems over aesthetics.</li>
+      <li><strong>No greenwashing</strong>: receipts or silence.</li>
+      <li><strong>Anti-monoculture</strong>: biodiversity beats lawns.</li>
+    </ul>
+  </section>
+</main>
+<Footer />
+
+

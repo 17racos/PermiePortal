@@ -1,0 +1,35 @@
+---
+import '../../styles/tailwind.css';
+import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
+import { getCollection } from 'astro:content';
+
+const { slug } = Astro.params;
+const entries = await getCollection('articles');
+const match = entries.find((e) => e.data.slug === slug);
+if (!match) return Astro.redirect('/articles');
+const { Content, data } = await match.render();
+---
+<header>
+  <Navbar />
+</header>
+<main id="main" class="prose prose-invert max-w-3xl px-4">
+  <article>
+    <h1 class="!mb-2">{data.title}</h1>
+    <p class="text-sm text-secondary">{data.date.toDateString()}</p>
+    <div class="mt-6">
+      <Content />
+    </div>
+    <script type="application/ld+json">{JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: data.title,
+      datePublished: data.date.toISOString(),
+      author: { '@type': 'Organization', name: 'PermiePortal' },
+      url: new URL(Astro.url.pathname, Astro.site).toString()
+    })}</script>
+  </article>
+</main>
+<Footer />
+
+
