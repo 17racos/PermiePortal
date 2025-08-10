@@ -1,6 +1,5 @@
 ---
-import '../styles/tailwind.css';
-import '../styles/base.css';
+import BaseLayout from '../components/layouts/BaseLayout.astro';
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 import ProjectCard from '../components/ProjectCard.astro';
@@ -12,9 +11,8 @@ const currentPage = Math.min(Math.max(parseInt(Astro.url.searchParams.get('page'
 const start = (currentPage - 1) * PAGE_SIZE;
 const pageItems = entries.slice(start, start + PAGE_SIZE);
 ---
-<header>
-  <Navbar />
-</header>
+<BaseLayout title="Projects">
+<header><Navbar /></header>
 <main id="main">
   <h1 class="sr-only">Projects</h1>
   <section class="mt-8" aria-labelledby="projects-list">
@@ -32,5 +30,6 @@ const pageItems = entries.slice(start, start + PAGE_SIZE);
   </section>
 </main>
 <Footer />
+</BaseLayout>
 
 
