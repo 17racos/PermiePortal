@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Optional prose tweaks for nicer MDX */
+.prose :where(h1,h2,h3,h4){scroll-margin-top:6rem}
+.prose img{display:block;margin-inline:auto;border-radius:0.75rem}

@@ -5,26 +5,60 @@ import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import { getCollection } from 'astro:content';
+import { getSlug } from '../lib/content';
+
 const PAGE_SIZE = 12;
-const entries = (await getCollection('articles')).sort((a,b)=> b.data.date.getTime()-a.data.date.getTime());
+const entries = (await getCollection('articles'))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
 const totalPages = Math.max(1, Math.ceil(entries.length / PAGE_SIZE));
-const currentPage = Math.min(Math.max(parseInt(Astro.url.searchParams.get('page') || '1', 10), 1), totalPages);
+const currentPage = Math.min(
+  Math.max(parseInt(Astro.url.searchParams.get('page') || '1', 10), 1),
+  totalPages
+);
 const start = (currentPage - 1) * PAGE_SIZE;
 const pageItems = entries.slice(start, start + PAGE_SIZE);
 ---
-<header>
-  <Navbar />
-</header>
-<main id="main">
+
+<header><Navbar /></header>
+
+<main id="main" class="mx-auto max-w-6xl px-4 py-10">
   <h1 class="sr-only">Articles</h1>
-  <section class="mt-8" aria-labelledby="articles-list">
+
+  <section class="mt-2" aria-labelledby="articles-list">
     <h2 id="articles-list" class="text-2xl font-bold">Articles</h2>
-    <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      {pageItems.map((a) => (
-        <ArticleCard title={a.data.title} summary={a.data.summary} date={a.data.date.toISOString()} tags={a.data.tags} href={`/articles/${a.slug}`} />
-      ))}
+
+    <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {pageItems.map((a) => {
+        const href = `/articles/${getSlug(a.data)}`;
+        return (
+          <ArticleCard
+            title={a.data.title}
+            summary={a.data.summary}
+            date={a.data.date.toISOString()}
+            tags={a.data.tags}
+            href={href}
+          />
+        );
+      })}
     </div>
+
     <nav class="mt-8 flex items-center justify-between" aria-label="Pagination">
-      <a aria-disabled={currentPage === 1} class={`px-3 py-2 rounded border ${currentPage === 1 ? 'opacity-50 pointer-events-none' : ''}`} href={`?page=${currentPage - 1}`}>Previous</a>
-      <p class="text-sm">Page {currentPage} of {totalPages}</p>
-      <a aria-disabled={currentPage === totalPages} class={`px-3 py-2 rounded border ${currentPage === totalPages ? 'opacity-50 pointer-events-none' : ''}`} href={`?page=${currentPage + 1}`}>Next</a>
+      <a
+        aria-disabled={currentPage === 1}
+        class={`px-3 py-2 rounded border border-neutral-800 hover:border-neutral-600 ${currentPage === 1 ? 'opacity-50 pointer-events-none' : ''}`}
+        href={`?page=${currentPage - 1}`}
+      >Previous</a>
+
+      <p class="text-sm text-neutral-400">Page {currentPage} of {totalPages}</p>
+
+      <a
+        aria-disabled={currentPage === totalPages}
+        class={`px-3 py-2 rounded border border-neutral-800 hover:border-neutral-600 ${currentPage === totalPages ? 'opacity-50 pointer-events-none' : ''}`}
+        href={`?page=${currentPage + 1}`}
+      >Next</a>
+    </nav>
+  </section>
+</main>
+
+<footer><Footer /></footer>
