@@ -6,8 +6,12 @@ export default defineConfig({
   integrations: [tailwind({ applyBaseStyles: true }), mdx()],
   site: 'https://permieportal.example',
   markdown: {
-    smartypants: true
-  }
+    smartypants: true,
+  },
+  server: {
+    host: true,
+    port: 4321,
+  },
 });
 
 

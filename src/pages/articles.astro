@@ -24,7 +24,7 @@ const pageItems = articles.slice(start, end);
 <main id="main">
   <h1 class="sr-only">Articles</h1>
   <section class="mt-8" aria-labelledby="articles-list">
-    <h2 id="articles-list" class="text-2xl font-bold">Rotten Articles</h2>
+    <h2 id="articles-list" class="text-2xl font-bold">Articles</h2>
     <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {pageItems.map((a) => (
         <ArticleCard title={a.title} summary={a.summary} date={a.date} tags={a.tags} href={a.url || `/articles/${a.slug}`} />
