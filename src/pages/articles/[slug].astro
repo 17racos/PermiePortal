@@ -14,7 +14,8 @@ const { slug } = Astro.params;
 const all = await getCollection('articles');
 const match = all.find((e) => e.slug === slug);
 if (!match) throw new Error('Article not found');
-const { Content, data } = await match.render();
+const { Content } = await match.render();
+const data = match.data;
 ---
 <header>
   <Navbar />
