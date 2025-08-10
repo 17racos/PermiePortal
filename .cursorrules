@@ -1,0 +1,6 @@
+Voice: Dark satire, Heyoka, anti-greenwashing. No corporate speak.
+Tech: Astro + Tailwind only. Content in MDX with frontmatter {title, date, summary, tags, slug}.
+Structure: pages — /, /articles, /projects, /shop, /about. Lists paginate at 12 per page, newest-first.
+Constraints: no heavy client JS; images live in /public; semantic HTML; high contrast.
+
+
