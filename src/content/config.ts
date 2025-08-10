@@ -5,7 +5,6 @@ const baseSchema = z.object({
   date: z.date(),
   summary: z.string(),
   tags: z.array(z.string()).default([]),
-  slug: z.string()
 });
 
 export const collections = {
