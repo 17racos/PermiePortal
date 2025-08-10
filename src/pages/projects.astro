@@ -1,0 +1,41 @@
+---
+import '../styles.css';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+
+const PAGE_SIZE = 12;
+
+const modules = import.meta.glob('../content/projects/**/*.mdx', { eager: true });
+let projects = Object.values(modules).map((m: any) => ({ ...(m.frontmatter || {}), url: m.url }))
+  .filter(p => p.title)
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+const totalPages = Math.max(1, Math.ceil(projects.length / PAGE_SIZE));
+const currentPage = Math.min(Math.max(parseInt(Astro.url.searchParams.get('page') || '1', 10), 1), totalPages);
+const start = (currentPage - 1) * PAGE_SIZE;
+const end = start + PAGE_SIZE;
+const pageItems = projects.slice(start, end);
+---
+<header>
+  <Navbar />
+</header>
+<main id="main">
+  <h1 class="sr-only">Projects</h1>
+  <section class="mt-8" aria-labelledby="projects-list">
+    <h2 id="projects-list" class="text-2xl font-bold">Projects</h2>
+    <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {pageItems.map((p) => (
+        <ProjectCard title={p.title} summary={p.summary} date={p.date} tags={p.tags} href={p.url || `/projects/${p.slug}`} />
+      ))}
+    </div>
+    <nav class="mt-8 flex items-center justify-between" aria-label="Pagination">
+      <a aria-disabled={currentPage === 1} class={`px-3 py-2 rounded border ${currentPage === 1 ? 'opacity-50 pointer-events-none' : ''}`} href={`?page=${currentPage - 1}`}>Previous</a>
+      <p class="text-sm">Page {currentPage} of {totalPages}</p>
+      <a aria-disabled={currentPage === totalPages} class={`px-3 py-2 rounded border ${currentPage === totalPages ? 'opacity-50 pointer-events-none' : ''}`} href={`?page=${currentPage + 1}`}>Next</a>
+    </nav>
+  </section>
+</main>
+<Footer />
+
+
