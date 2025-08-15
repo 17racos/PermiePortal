@@ -7,6 +7,7 @@ import ProjectCard from '../components/ProjectCard.astro';
 import CTA from '../components/CTA.astro';
 import Footer from '../components/Footer.astro';
 import { getCollection } from 'astro:content';
+import { entrySlug } from '../lib/content';
 const articles = (await getCollection('articles')).sort((a,b)=> b.data.date.getTime()-a.data.date.getTime()).slice(0,3);
 const projects = (await getCollection('projects')).sort((a,b)=> b.data.date.getTime()-a.data.date.getTime()).slice(0,3);
 ---
@@ -18,7 +19,7 @@ const projects = (await getCollection('projects')).sort((a,b)=> b.data.date.getT
     <h2 id="latest-articles" class="text-2xl font-bold">Latest Articles</h2>
     <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {articles.map((a) => (
-        <ArticleCard title={a.data.title} summary={a.data.summary} date={a.data.date.toISOString()} tags={a.data.tags} href={`/articles/${a.slug}`} />
+        <ArticleCard title={a.data.title} summary={a.data.summary} date={a.data.date.toISOString()} tags={a.data.tags} href={`/articles/${entrySlug(a)}`} />
       ))}
     </div>
   </section>

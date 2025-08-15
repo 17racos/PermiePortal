@@ -1,8 +1,15 @@
 
 export default new Map([
-["src/content/articles/guerrilla-irrigation.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fguerrilla-irrigation.mdx&astroContentModuleFlag=true")],
 ["src/content/articles/historys-greatest-environmentalist.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fhistorys-greatest-environmentalist.mdx&astroContentModuleFlag=true")],
+["src/content/articles/how-to-make-a-worm-bin.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fhow-to-make-a-worm-bin.mdx&astroContentModuleFlag=true")],
 ["src/content/articles/lawn-apocalypse.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Flawn-apocalypse.mdx&astroContentModuleFlag=true")],
-["src/content/projects/ditch-food-forest.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Fprojects%2Fditch-food-forest.mdx&astroContentModuleFlag=true")],
-["src/content/projects/mangrove-micro-nursery.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Fprojects%2Fmangrove-micro-nursery.mdx&astroContentModuleFlag=true")]]);
+["src/content/articles/moringa-the-miracle-tree.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fmoringa-the-miracle-tree.mdx&astroContentModuleFlag=true")],
+["src/content/articles/plant-families-permaculture.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fplant-families-permaculture.mdx&astroContentModuleFlag=true")],
+["src/content/articles/soil-science-and-microbial-biodiversity.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fsoil-science-and-microbial-biodiversity.mdx&astroContentModuleFlag=true")],
+["src/content/articles/turmeric-the-golden-spice.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fturmeric-the-golden-spice.mdx&astroContentModuleFlag=true")],
+["src/content/articles/unlocking-natures-blueprint-bill-mollison.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Funlocking-natures-blueprint-bill-mollison.mdx&astroContentModuleFlag=true")],
+["src/content/articles/vermicomposting-guide.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fvermicomposting-guide.mdx&astroContentModuleFlag=true")],
+["src/content/articles/we-saved-the-lake-by-killing-it.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fwe-saved-the-lake-by-killing-it.mdx&astroContentModuleFlag=true")],
+["src/content/projects/mangrove-micro-nursery.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Fprojects%2Fmangrove-micro-nursery.mdx&astroContentModuleFlag=true")],
+["src/content/projects/ditch-food-forest.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Fprojects%2Fditch-food-forest.mdx&astroContentModuleFlag=true")]]);
 		

@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import { getCollection } from 'astro:content';
-import { getSlug } from '../lib/content';
+import { entrySlug } from '../lib/content';
 
 const PAGE_SIZE = 12;
 const entries = (await getCollection('articles'))
@@ -28,18 +28,15 @@ const pageItems = entries.slice(start, start + PAGE_SIZE);
     <h2 id="articles-list" class="text-2xl font-bold">Articles</h2>
 
     <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-      {pageItems.map((a) => {
-        const href = `/articles/${getSlug(a.data)}`;
-        return (
-          <ArticleCard
-            title={a.data.title}
-            summary={a.data.summary}
-            date={a.data.date.toISOString()}
-            tags={a.data.tags}
-            href={href}
-          />
-        );
-      })}
+      {pageItems.map((a) => (
+        <ArticleCard
+          title={a.data.title}
+          summary={a.data.summary}
+          date={a.data.date.toISOString()}
+          tags={a.data.tags}
+          href={`/articles/${entrySlug(a)}`}
+        />
+      ))}
     </div>
 
     <nav class="mt-8 flex items-center justify-between" aria-label="Pagination">
