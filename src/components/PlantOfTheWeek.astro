@@ -1,0 +1,22 @@
+---
+import data from "../data/plantOfWeek.json";
+
+// rotate by week number (build-time)
+const now = new Date();
+const weekIndex = Math.floor(now.getTime() / (7 * 24 * 60 * 60 * 1000));
+const item = data[weekIndex % data.length];
+
+// if you prefer a fixed item while testing, hardcode: const item = data[0];
+const href = `/articles/${item.slug}`;
+---
+<section class="mt-10 rounded-xl border border-neutral-800 p-4">
+  <h2 class="text-xl font-bold">Plant of the Week</h2>
+  <div class="mt-3 flex items-center gap-4">
+    <img src={item.img} alt={item.title} class="w-24 h-24 object-cover rounded-lg" loading="lazy" />
+    <div>
+      <p class="text-lg font-semibold">{item.title}</p>
+      <p class="text-sm opacity-80">{item.blurb}</p>
+      <a href={href} class="inline-block mt-2 underline text-accent">Learn more →</a>
+    </div>
+  </div>
+</section>

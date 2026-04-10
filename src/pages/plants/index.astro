@@ -1,0 +1,350 @@
+---
+// src/pages/plants/index.astro
+import BaseLayout from '../../components/layouts/BaseLayout.astro';
+import plantsData from '../../data/plants.json';
+
+const plants = plantsData.sort((a, b) => a.common_name.localeCompare(b.common_name));
+
+const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].sort();
+---
+
+<BaseLayout title="Plant Database">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Serif:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
+  :root {
+    --soil: #0f0d0a; --bark: #1c1812; --moss: #2a3d1f;
+    --leaf: #4a7c35; --lime: #8fb83a; --straw: #d4a843;
+    --ash: #b8b0a0; --paper: #ede8dc; --rot: #7a3b1e; --rust: #c4551a;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--soil);
+    color: var(--paper);
+    font-family: 'Instrument Serif', Georgia, serif;
+    min-height: 100vh;
+  }
+
+  .nav {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid rgba(139,184,58,0.2);
+  }
+  .nav-logo {
+    font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem;
+    letter-spacing: 0.08em; color: var(--lime); text-decoration: none;
+  }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a {
+    font-family: 'Space Mono', monospace; font-size: 0.72rem;
+    text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--ash); text-decoration: none; transition: color 0.2s;
+  }
+  .nav-links a:hover, .nav-links a[aria-current] { color: var(--lime); }
+
+  .page-header {
+    padding: 3rem 2rem 2rem;
+    border-bottom: 1px solid rgba(139,184,58,0.15);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: end;
+    gap: 2rem;
+  }
+
+  .page-eyebrow {
+    font-family: 'Space Mono', monospace; font-size: 0.65rem;
+    letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--lime); margin-bottom: 0.75rem;
+    display: flex; align-items: center; gap: 0.75rem;
+  }
+  .page-eyebrow::before {
+    content: ''; width: 2rem; height: 1px; background: var(--lime);
+  }
+
+  .page-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(3rem, 6vw, 5rem);
+    line-height: 1; letter-spacing: 0.02em; color: var(--paper);
+  }
+
+  .page-count {
+    font-family: 'Space Mono', monospace; font-size: 0.7rem;
+    color: var(--ash); text-align: right;
+  }
+  .page-count span {
+    display: block; font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem; color: var(--lime); line-height: 1;
+  }
+
+  .filters {
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid rgba(139,184,58,0.15);
+    display: flex; gap: 1rem; flex-wrap: wrap; align-items: center;
+  }
+
+  .filter-label {
+    font-family: 'Space Mono', monospace; font-size: 0.65rem;
+    letter-spacing: 0.12em; text-transform: uppercase; color: var(--ash);
+  }
+
+  .filter-btn {
+    font-family: 'Space Mono', monospace; font-size: 0.65rem;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    padding: 0.3rem 0.8rem;
+    background: transparent;
+    border: 1px solid rgba(139,184,58,0.25);
+    color: var(--ash); cursor: pointer; transition: all 0.2s;
+  }
+  .filter-btn:hover, .filter-btn.active {
+    border-color: var(--lime); color: var(--lime);
+    background: rgba(139,184,58,0.08);
+  }
+
+  .search-wrap { margin-left: auto; }
+
+  .search-input {
+    font-family: 'Space Mono', monospace; font-size: 0.75rem;
+    background: rgba(28,24,18,0.8);
+    border: 1px solid rgba(139,184,58,0.25);
+    color: var(--paper); padding: 0.4rem 1rem;
+    width: 220px; outline: none; transition: border-color 0.2s;
+  }
+  .search-input::placeholder { color: var(--ash); opacity: 0.5; }
+  .search-input:focus { border-color: var(--lime); }
+
+  .grid-wrap { padding: 2rem; }
+
+  .plants-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1px;
+    background: rgba(139,184,58,0.1);
+  }
+
+  .plant-card {
+    background: var(--bark);
+    padding: 0;
+    text-decoration: none;
+    display: block;
+    transition: background 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .plant-card::after {
+    content: '';
+    position: absolute; bottom: 0; left: 0;
+    width: 100%; height: 2px;
+    background: var(--lime);
+    transform: scaleX(0); transform-origin: left;
+    transition: transform 0.25s;
+  }
+
+  .plant-card:hover { background: rgba(42,61,31,0.5); }
+  .plant-card:hover::after { transform: scaleX(1); }
+  .plant-card.hidden { display: none; }
+
+  .card-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+    opacity: 0.88;
+    transition: opacity 0.2s;
+  }
+
+  .plant-card:hover .card-img { opacity: 1; }
+
+  .card-body { padding: 1.25rem; }
+
+  .card-layer {
+    font-family: 'Space Mono', monospace; font-size: 0.6rem;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--leaf); margin-bottom: 0.5rem;
+  }
+
+  .card-name {
+    font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem;
+    letter-spacing: 0.03em; color: var(--paper);
+    margin-bottom: 0.2rem; line-height: 1.1;
+  }
+
+  .card-sci {
+    font-style: italic; font-size: 0.8rem;
+    color: var(--ash); margin-bottom: 0.75rem;
+  }
+
+  .card-zone {
+    font-family: 'Space Mono', monospace; font-size: 0.65rem;
+    color: var(--straw); margin-bottom: 0.75rem;
+  }
+
+  .card-tags { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+
+  .card-tag {
+    font-family: 'Space Mono', monospace; font-size: 0.55rem;
+    letter-spacing: 0.06em; padding: 0.15rem 0.5rem;
+    background: rgba(42,61,31,0.6);
+    border: 1px solid rgba(74,124,53,0.3);
+    color: var(--lime); text-transform: uppercase;
+  }
+
+  .no-results {
+    padding: 4rem 2rem; text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.85rem; color: var(--ash);
+    display: none;
+  }
+
+  .footer {
+    padding: 2rem 4rem;
+    border-top: 1px solid rgba(139,184,58,0.15);
+    display: flex; justify-content: space-between; align-items: center;
+    margin-top: 2rem;
+  }
+  .footer-logo {
+    font-family: 'Bebas Neue', sans-serif; font-size: 1.2rem;
+    color: var(--lime); letter-spacing: 0.08em;
+  }
+  .footer-copy {
+    font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--ash);
+  }
+
+  @media (max-width: 768px) {
+    .page-header { grid-template-columns: 1fr; gap: 1rem; }
+    .nav-links { gap: 1rem; }
+    .search-wrap { margin-left: 0; width: 100%; }
+    .search-input { width: 100%; }
+    .footer { flex-direction: column; gap: 1rem; padding: 2rem 1.5rem; }
+  }
+</style>
+
+<nav class="nav">
+  <a href="/" class="nav-logo">PermiePortal</a>
+  <ul class="nav-links">
+    <li><a href="/plants" aria-current="true">Plants</a></li>
+    <li><a href="/pests">Pests</a></li>
+    <li><a href="/articles">Articles</a></li>
+    <li><a href="/projects">Projects</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
+</nav>
+
+<div class="page-header">
+  <div>
+    <p class="page-eyebrow">Field Database</p>
+    <h1 class="page-title">Plant Index</h1>
+  </div>
+  <div class="page-count">
+    <span>{plants.length}</span>
+    plants documented
+  </div>
+</div>
+
+<div class="filters" id="filters">
+  <span class="filter-label">Layer:</span>
+  <button class="filter-btn active" data-filter="layer" data-value="all">All</button>
+  {allLayers.map(layer => (
+    <button class="filter-btn" data-filter="layer" data-value={layer}>{layer}</button>
+  ))}
+  <div class="search-wrap">
+    <input
+      type="search"
+      class="search-input"
+      placeholder="Search plants..."
+      id="plant-search"
+      autocomplete="off"
+    />
+  </div>
+</div>
+
+<div class="grid-wrap">
+  <div class="plants-grid" id="plants-grid">
+    {plants.map(plant => (
+      <a
+        href={`/plants/${plant.slug}`}
+        class="plant-card"
+        data-name={plant.common_name.toLowerCase()}
+        data-sci={plant.scientific_name?.toLowerCase() || ''}
+        data-layer={(plant.layers || []).join(' ').toLowerCase()}
+        data-function={(plant.plant_function || []).join(' ').toLowerCase()}
+      >
+        {plant.picture
+          ? <img class="card-img" src={`/assets/plants/${plant.picture}`} alt={plant.common_name} loading="lazy" />
+          : <div style="width:100%;height:160px;background:var(--moss);opacity:0.4;" />
+        }
+        <div class="card-body">
+          <div class="card-layer">{plant.layers?.[0] || 'Plant'}</div>
+          <div class="card-name">{plant.common_name}</div>
+          {plant.scientific_name && (
+            <div class="card-sci">{plant.scientific_name}</div>
+          )}
+          {plant.zone && (
+            <div class="card-zone">Zone {plant.zone}</div>
+          )}
+          <div class="card-tags">
+            {(plant.plant_function || []).slice(0, 3).map((fn: string) => (
+              <span class="card-tag">{fn}</span>
+            ))}
+          </div>
+        </div>
+      </a>
+    ))}
+  </div>
+  <div class="no-results" id="no-results">
+    No plants found. Try a different search.
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-logo">PermiePortal</div>
+  <div class="footer-copy">© {new Date().getFullYear()} — Built in a food forest in Yulee, FL</div>
+</footer>
+
+<script>
+  const search = document.getElementById('plant-search') as HTMLInputElement;
+  const cards = document.querySelectorAll('.plant-card') as NodeListOf<HTMLElement>;
+  const noResults = document.getElementById('no-results')!;
+  const filterBtns = document.querySelectorAll('.filter-btn') as NodeListOf<HTMLButtonElement>;
+
+  let activeLayer = 'all';
+  let searchTerm = '';
+
+  function applyFilters() {
+    let visible = 0;
+    cards.forEach(card => {
+      const nameMatch = !searchTerm ||
+        card.dataset.name!.includes(searchTerm) ||
+        card.dataset.sci!.includes(searchTerm);
+      const layerMatch = activeLayer === 'all' ||
+        card.dataset.layer!.includes(activeLayer.toLowerCase());
+      if (nameMatch && layerMatch) {
+        card.classList.remove('hidden');
+        visible++;
+      } else {
+        card.classList.add('hidden');
+      }
+    });
+    noResults.style.display = visible === 0 ? 'block' : 'none';
+  }
+
+  search?.addEventListener('input', e => {
+    searchTerm = (e.target as HTMLInputElement).value.toLowerCase().trim();
+    applyFilters();
+  });
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      if (btn.dataset.filter === 'layer') {
+        filterBtns.forEach(b => { if (b.dataset.filter === 'layer') b.classList.remove('active'); });
+        btn.classList.add('active');
+        activeLayer = btn.dataset.value!;
+        applyFilters();
+      }
+    });
+  });
+</script>
+
+</BaseLayout>

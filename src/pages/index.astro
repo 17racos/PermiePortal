@@ -1,37 +1,733 @@
 ---
+// src/pages/index.astro
+// PermiePortal Homepage — PermieBro's front door
 import BaseLayout from '../components/layouts/BaseLayout.astro';
-import Navbar from '../components/Navbar.astro';
-import Hero from '../components/Hero.astro';
-import ArticleCard from '../components/ArticleCard.astro';
-import ProjectCard from '../components/ProjectCard.astro';
-import CTA from '../components/CTA.astro';
-import Footer from '../components/Footer.astro';
-import { getCollection } from 'astro:content';
-import { entrySlug } from '../lib/content';
-const articles = (await getCollection('articles')).sort((a,b)=> b.data.date.getTime()-a.data.date.getTime()).slice(0,3);
-const projects = (await getCollection('projects')).sort((a,b)=> b.data.date.getTime()-a.data.date.getTime()).slice(0,3);
+
+import plantsData from '../data/plants.json';
+import pestsData from '../data/pests.json';
+
+const plantCount = plantsData.length;
+const pestCount = pestsData.length;
+
+// Grab a random featured plant on each build
+const featuredPlant = plantsData[Math.floor(Math.random() * plantsData.length)];
+
+const rants = [
+  "Your grasshole neighbor is why we can't have nice ecosystems.",
+  "Neem oil is not a personality. It's a starting point.",
+  "The food forest doesn't care about your HOA.",
+  "Compost is just time doing what chemicals can't.",
+  "Every monoculture is just a pest buffet with better signage.",
+  "The soil doesn't need your advice. It needs your leaves.",
+];
+const randomRant = rants[Math.floor(Math.random() * rants.length)];
 ---
-<BaseLayout title="Home">
-<header><Navbar /></header>
-<main id="main">
-  <Hero />
-  <section class="mt-10" aria-labelledby="latest-articles">
-    <h2 id="latest-articles" class="text-2xl font-bold">Latest Articles</h2>
-    <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      {articles.map((a) => (
-        <ArticleCard title={a.data.title} summary={a.data.summary} date={a.data.date.toISOString()} tags={a.data.tags} href={`/articles/${entrySlug(a)}`} />
-      ))}
+
+<BaseLayout title="PermiePortal — Where Grassholes Go to Learn Better">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Serif:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
+    :root {
+      --soil: #0f0d0a;
+      --bark: #1c1812;
+      --moss: #2a3d1f;
+      --leaf: #4a7c35;
+      --lime: #8fb83a;
+      --straw: #d4a843;
+      --ash: #b8b0a0;
+      --paper: #ede8dc;
+      --rot: #7a3b1e;
+      --rust: #c4551a;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--soil);
+      color: var(--paper);
+      font-family: 'Instrument Serif', Georgia, serif;
+      overflow-x: hidden;
+    }
+
+    /* ── NOISE TEXTURE OVERLAY ── */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.4;
+    }
+
+    /* ── NAV ── */
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 2rem;
+      border-bottom: 1px solid rgba(139,184,58,0.2);
+      position: relative;
+      z-index: 10;
+    }
+
+    .nav-logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.8rem;
+      letter-spacing: 0.08em;
+      color: var(--lime);
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--ash);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--lime); }
+
+    /* ── HERO ── */
+    .hero {
+      position: relative;
+      min-height: 92vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      padding: 4rem 2rem 4rem 4rem;
+      gap: 4rem;
+      overflow: hidden;
+    }
+
+    /* Organic background shape */
+    .hero::before {
+      content: '';
+      position: absolute;
+      right: -10%;
+      top: -20%;
+      width: 70%;
+      height: 120%;
+      background: radial-gradient(ellipse at center, rgba(42,61,31,0.6) 0%, transparent 70%);
+      border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+      pointer-events: none;
+    }
+
+    .hero-text { position: relative; z-index: 2; }
+
+    .hero-eyebrow {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--lime);
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .hero-eyebrow::before {
+      content: '';
+      display: inline-block;
+      width: 2rem;
+      height: 1px;
+      background: var(--lime);
+    }
+
+    .hero-headline {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(4rem, 9vw, 8rem);
+      line-height: 0.92;
+      letter-spacing: 0.02em;
+      color: var(--paper);
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-headline em {
+      color: var(--lime);
+      font-style: normal;
+    }
+
+    .hero-headline .strike {
+      position: relative;
+      color: var(--ash);
+    }
+
+    .hero-headline .strike::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      height: 3px;
+      background: var(--rust);
+      transform: rotate(-2deg);
+    }
+
+    .hero-sub {
+      font-size: 1.2rem;
+      line-height: 1.65;
+      color: var(--ash);
+      max-width: 480px;
+      margin-bottom: 2.5rem;
+      font-style: italic;
+    }
+
+    .hero-sub strong {
+      color: var(--paper);
+      font-style: normal;
+    }
+
+    .hero-cta-group {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.78rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.9rem 1.8rem;
+      background: var(--lime);
+      color: var(--soil);
+      text-decoration: none;
+      font-weight: 700;
+      transition: all 0.2s;
+      clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px));
+    }
+
+    .btn-primary:hover {
+      background: var(--straw);
+      transform: translateY(-2px);
+    }
+
+    .btn-ghost {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.78rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.9rem 1.8rem;
+      border: 1px solid rgba(139,184,58,0.4);
+      color: var(--lime);
+      text-decoration: none;
+      transition: all 0.2s;
+      clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px));
+    }
+
+    .btn-ghost:hover {
+      border-color: var(--lime);
+      background: rgba(139,184,58,0.08);
+    }
+
+    /* ── HERO STATS PANEL ── */
+    .hero-panel {
+      position: relative;
+      z-index: 2;
+      background: rgba(28,24,18,0.8);
+      border: 1px solid rgba(139,184,58,0.25);
+      padding: 2.5rem;
+      backdrop-filter: blur(4px);
+    }
+
+    .hero-panel::before {
+      content: '// FIELD DATABASE';
+      font-family: 'Space Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.15em;
+      color: var(--lime);
+      opacity: 0.7;
+      display: block;
+      margin-bottom: 2rem;
+    }
+
+    .stat-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .stat {
+      border-left: 2px solid var(--moss);
+      padding-left: 1rem;
+    }
+
+    .stat-number {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 3.5rem;
+      line-height: 1;
+      color: var(--lime);
+    }
+
+    .stat-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--ash);
+      margin-top: 0.25rem;
+    }
+
+    .featured-plant {
+      border-top: 1px solid rgba(139,184,58,0.15);
+      padding-top: 1.5rem;
+    }
+
+    .featured-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--straw);
+      margin-bottom: 0.5rem;
+    }
+
+    .featured-name {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.8rem;
+      color: var(--paper);
+      letter-spacing: 0.05em;
+    }
+
+    .featured-sci {
+      font-style: italic;
+      font-size: 0.85rem;
+      color: var(--ash);
+      margin-bottom: 0.75rem;
+    }
+
+    .featured-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    .tag {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.08em;
+      padding: 0.2rem 0.6rem;
+      background: rgba(42,61,31,0.6);
+      border: 1px solid rgba(74,124,53,0.4);
+      color: var(--lime);
+      text-transform: uppercase;
+    }
+
+    /* ── RANT TICKER ── */
+    .rant-bar {
+      background: var(--moss);
+      padding: 0.75rem 2rem;
+      overflow: hidden;
+      border-top: 1px solid rgba(139,184,58,0.2);
+      border-bottom: 1px solid rgba(139,184,58,0.2);
+      position: relative;
+      z-index: 5;
+    }
+
+    .rant-inner {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.75rem;
+      color: var(--lime);
+      letter-spacing: 0.05em;
+      white-space: nowrap;
+      animation: ticker 24s linear infinite;
+    }
+
+    @keyframes ticker {
+      0% { transform: translateX(100vw); }
+      100% { transform: translateX(-100%); }
+    }
+
+    /* ── THREE PILLARS ── */
+    .pillars {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0;
+      border-top: 1px solid rgba(139,184,58,0.15);
+    }
+
+    .pillar {
+      padding: 3rem 2.5rem;
+      border-right: 1px solid rgba(139,184,58,0.15);
+      text-decoration: none;
+      display: block;
+      transition: background 0.3s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .pillar:last-child { border-right: none; }
+
+    .pillar::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: var(--lime);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s;
+    }
+
+    .pillar:hover { background: rgba(42,61,31,0.3); }
+    .pillar:hover::before { transform: scaleX(1); }
+
+    .pillar-number {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 5rem;
+      line-height: 1;
+      color: rgba(139,184,58,0.12);
+      margin-bottom: 1rem;
+      transition: color 0.3s;
+    }
+
+    .pillar:hover .pillar-number { color: rgba(139,184,58,0.25); }
+
+    .pillar-icon {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      display: block;
+    }
+
+    .pillar-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 2rem;
+      letter-spacing: 0.05em;
+      color: var(--paper);
+      margin-bottom: 0.75rem;
+    }
+
+    .pillar-desc {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: var(--ash);
+      margin-bottom: 1.5rem;
+    }
+
+    .pillar-link {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--lime);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .pillar-link::after {
+      content: '→';
+      transition: transform 0.2s;
+    }
+
+    .pillar:hover .pillar-link::after { transform: translateX(4px); }
+
+    /* ── MANIFESTO STRIP ── */
+    .manifesto {
+      background: var(--bark);
+      padding: 5rem 4rem;
+      border-top: 1px solid rgba(139,184,58,0.15);
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 4rem;
+      align-items: start;
+    }
+
+    .manifesto-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--straw);
+      margin-bottom: 1rem;
+    }
+
+    .manifesto-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 3.5rem;
+      line-height: 1;
+      color: var(--paper);
+      letter-spacing: 0.03em;
+    }
+
+    .manifesto-body {
+      font-size: 1.15rem;
+      line-height: 1.8;
+      color: var(--ash);
+    }
+
+    .manifesto-body p { margin-bottom: 1.25rem; }
+
+    .manifesto-body strong {
+      color: var(--paper);
+      font-weight: normal;
+    }
+
+    .manifesto-body em {
+      color: var(--lime);
+      font-style: normal;
+    }
+
+    /* ── PERMIEBRO ASK TEASER ── */
+    .ask-strip {
+      padding: 4rem;
+      background: var(--moss);
+      border-top: 1px solid rgba(139,184,58,0.3);
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 3rem;
+    }
+
+    .ask-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--straw);
+      margin-bottom: 0.5rem;
+    }
+
+    .ask-headline {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 2.8rem;
+      color: var(--paper);
+      letter-spacing: 0.03em;
+      margin-bottom: 0.5rem;
+    }
+
+    .ask-sub {
+      font-size: 1rem;
+      color: rgba(237,232,220,0.7);
+      font-style: italic;
+    }
+
+    /* ── FOOTER ── */
+    .footer {
+      padding: 2rem 4rem;
+      border-top: 1px solid rgba(139,184,58,0.15);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer-logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.2rem;
+      color: var(--lime);
+      letter-spacing: 0.08em;
+    }
+
+    .footer-copy {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.65rem;
+      color: var(--ash);
+      letter-spacing: 0.08em;
+    }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .hero-eyebrow { animation: fadeUp 0.6s ease both; }
+    .hero-headline { animation: fadeUp 0.6s 0.1s ease both; }
+    .hero-sub      { animation: fadeUp 0.6s 0.2s ease both; }
+    .hero-cta-group{ animation: fadeUp 0.6s 0.3s ease both; }
+    .hero-panel    { animation: fadeUp 0.6s 0.15s ease both; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      .hero {
+        grid-template-columns: 1fr;
+        padding: 3rem 1.5rem;
+        min-height: auto;
+        gap: 3rem;
+      }
+      .hero::before { display: none; }
+      .pillars { grid-template-columns: 1fr; }
+      .pillar { border-right: none; border-bottom: 1px solid rgba(139,184,58,0.15); }
+      .manifesto { grid-template-columns: 1fr; gap: 2rem; padding: 3rem 1.5rem; }
+      .ask-strip { grid-template-columns: 1fr; padding: 3rem 1.5rem; }
+      .footer { flex-direction: column; gap: 1rem; text-align: center; padding: 2rem 1.5rem; }
+      .nav { padding: 1.25rem 1.5rem; }
+      .nav-links { gap: 1.2rem; }
+    }
+  </style>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="/" class="nav-logo">PermiePortal</a>
+    <ul class="nav-links">
+      <li><a href="/plants">Plants</a></li>
+      <li><a href="/pests">Pests</a></li>
+      <li><a href="/articles">Articles</a></li>
+      <li><a href="/projects">Projects</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="hero-eyebrow">Permaculture. Unfiltered.</p>
+
+      <h1 class="hero-headline">
+        Burn<br>
+        the <span class="strike">grass</span><br>
+        <em>grasshole.</em>
+      </h1>
+
+      <p class="hero-sub">
+        PermiePortal is a <strong>field guide, a rant, and a genuinely useful database</strong>
+        for people done pretending monocultures make sense.
+        No greenwash. No HOA compliance. Just soil, biology, and the occasional scorched earth metaphor.
+      </p>
+
+      <div class="hero-cta-group">
+        <a href="/plants" class="btn-primary">Explore Plants</a>
+        <a href="/pests" class="btn-ghost">Identify a Pest</a>
+      </div>
+    </div>
+
+    <!-- STATS PANEL -->
+    <div class="hero-panel">
+      <div class="stat-row">
+        <div class="stat">
+          <div class="stat-number">{plantCount}</div>
+          <div class="stat-label">Plants Documented</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">{pestCount}</div>
+          <div class="stat-label">Organic Pest Profiles</div>
+        </div>
+      </div>
+
+      <div class="featured-plant">
+        <div class="featured-label">▸ Random Plant</div>
+        <div class="featured-name">{featuredPlant.common_name}</div>
+        <div class="featured-sci">{featuredPlant.scientific_name}</div>
+        <div class="featured-tags">
+          {featuredPlant.plant_function?.slice(0,4).map((fn: string) => (
+            <span class="tag">{fn}</span>
+          ))}
+          {featuredPlant.layers?.slice(0,2).map((l: string) => (
+            <span class="tag">{l}</span>
+          ))}
+        </div>
+      </div>
     </div>
   </section>
-  <section class="mt-12" aria-labelledby="latest-projects">
-    <h2 id="latest-projects" class="text-2xl font-bold">Latest Projects</h2>
-    <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      {projects.map((p) => (
-        <ProjectCard title={p.data.title} summary={p.data.summary} date={p.data.date.toISOString()} tags={p.data.tags} href={`/projects/${p.slug}`} />
-      ))}
+
+  <!-- RANT TICKER -->
+  <div class="rant-bar" aria-hidden="true">
+    <div class="rant-inner">
+      ⬤ &nbsp; {randomRant} &nbsp;&nbsp;&nbsp;&nbsp;
+      ⬤ &nbsp; {plantCount} plants that earn their keep &nbsp;&nbsp;&nbsp;&nbsp;
+      ⬤ &nbsp; {pestCount} pests. Zero chemical solutions. &nbsp;&nbsp;&nbsp;&nbsp;
+      ⬤ &nbsp; The soil food web doesn't care about your opinion &nbsp;&nbsp;&nbsp;&nbsp;
+      ⬤ &nbsp; Companion planting is just friendship with benefits &nbsp;&nbsp;&nbsp;&nbsp;
+      ⬤ &nbsp; {randomRant} &nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+  </div>
+
+  <!-- THREE PILLARS -->
+  <div class="pillars">
+    <a href="/plants" class="pillar">
+      <div class="pillar-number">01</div>
+      <span class="pillar-icon">🌱</span>
+      <div class="pillar-title">Plant Something Useful</div>
+      <p class="pillar-desc">
+        {plantCount} plants with zones, functions, companions, pest relationships,
+        and propagation. Actual field data, not stock photos with captions.
+      </p>
+      <span class="pillar-link">Browse the database</span>
+    </a>
+
+    <a href="/pests" class="pillar">
+      <div class="pillar-number">02</div>
+      <span class="pillar-icon">🐛</span>
+      <div class="pillar-title">Something's Eating Your Garden</div>
+      <p class="pillar-desc">
+        {pestCount} organic pest profiles. Natural enemies, biological controls,
+        companion deterrents. No Roundup. Not ever.
+      </p>
+      <span class="pillar-link">Find the culprit</span>
+    </a>
+
+    <a href="/articles" class="pillar">
+      <div class="pillar-number">03</div>
+      <span class="pillar-icon">🔥</span>
+      <div class="pillar-title">Read Something Useful</div>
+      <p class="pillar-desc">
+        Satire, guides, and field notes that'll permanently ruin your tolerance
+        for greenwashing, chemical agriculture, and Ted's HOA newsletter.
+      </p>
+      <span class="pillar-link">Start the damage</span>
+    </a>
+  </div>
+
+  <!-- MANIFESTO -->
+  <section class="manifesto">
+    <div>
+      <div class="manifesto-label">Why This Exists</div>
+      <div class="manifesto-title">The Heyoka Doesn't Lecture. The Heyoka Holds Up a Mirror.</div>
+    </div>
+    <div class="manifesto-body">
+      <p>
+        Most environmental content makes you feel guilty or sells you something.
+        PermiePortal does neither. The goal isn't to shame you out of your lawn —
+        it's to show you <em>what's possible</em> once you stop defending it.
+      </p>
+      <p>
+        The Heyoka in Lakota tradition is the sacred clown — the contrarian healer
+        who disrupts comfort so something true can grow in its place.
+        <strong>PermieBro is that energy applied to dirt.</strong>
+        Dark satire on top. Serious soil science underneath.
+        Useful whether you have 40 acres or a front yard that's finally ready to quit.
+      </p>
+      <p>
+        The database was built by hand. The voice is real.
+        The companion planting data came from a food forest in North Florida, not a Wikipedia scrape.
+        <em>This is what it looks like when a Navy Corpsman becomes a syntropic agroforestry nerd.</em>
+      </p>
     </div>
   </section>
-  <CTA />
-</main>
-<Footer />
+
+  <!-- ASK PERMIEBRO TEASER -->
+  <section class="ask-strip">
+    <div>
+      <div class="ask-label">Coming Soon</div>
+      <div class="ask-headline">Ask PermieBro</div>
+      <p class="ask-sub">
+        An AI that knows your zone, your pests, your soil, and won't recommend a synthetic pesticide.
+        Trained on this database. Opinionated by design.
+      </p>
+    </div>
+    <a href="/about" class="btn-primary">Learn more</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-logo">PermiePortal</div>
+    <div class="footer-copy">
+      © {new Date().getFullYear()} PermiePortal — Built in a food forest in Yulee, FL
+    </div>
+  </footer>
+
 </BaseLayout>
