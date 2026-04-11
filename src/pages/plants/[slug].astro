@@ -13,14 +13,15 @@ export function getStaticPaths() {
 
 const { plant } = Astro.props;
 
-// Find matching pests from the pests database
 const plantPests = pestsData.filter(pest =>
   pest.affected_plants?.some((p: any) => p.slug === plant.slug)
 );
 
-// Find companion plants
 const companions = plant.companions || [];
 const avoid = plant.avoid || [];
+
+// Check if image file exists path
+const imagePath = plant.picture ? `/assets/plants/${plant.picture}` : null;
 ---
 
 <BaseLayout title={plant.common_name}>
@@ -66,8 +67,53 @@ const avoid = plant.avoid || [];
   .breadcrumb a { color: var(--lime); text-decoration: none; }
   .breadcrumb a:hover { text-decoration: underline; }
 
+  /* ── HERO IMAGE ── */
+  .hero-image-wrap {
+    position: relative;
+    width: 100%;
+    height: clamp(280px, 40vw, 480px);
+    overflow: hidden;
+    border-bottom: 1px solid rgba(139,184,58,0.15);
+  }
+
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    opacity: 0.85;
+  }
+
+  .hero-image-placeholder {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, var(--moss) 0%, var(--bark) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-image-placeholder span {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.2em;
+    color: rgba(139,184,58,0.3);
+    text-transform: uppercase;
+  }
+
+  /* Gradient overlay on image for text legibility */
+  .hero-image-wrap::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 50%;
+    background: linear-gradient(to top, rgba(15,13,10,0.9) 0%, transparent 100%);
+    pointer-events: none;
+  }
+
+  /* ── HERO TEXT ── */
   .hero {
-    padding: 3rem 2rem 2rem;
+    padding: 2.5rem 2rem 2rem;
     border-bottom: 1px solid rgba(139,184,58,0.15);
     display: grid;
     grid-template-columns: 1fr auto;
@@ -150,7 +196,6 @@ const avoid = plant.avoid || [];
     font-size: 1.4rem; color: var(--lime); line-height: 1;
   }
 
-  /* CONTENT SECTIONS */
   .content { max-width: 1200px; margin: 0 auto; }
 
   .section {
@@ -181,12 +226,12 @@ const avoid = plant.avoid || [];
     gap: 2rem;
   }
 
-  .companion-list, .pest-list {
+  .companion-list {
     list-style: none;
     display: flex; flex-direction: column; gap: 0.4rem;
   }
 
-  .companion-list li, .pest-list li {
+  .companion-list li {
     font-family: 'Space Mono', monospace; font-size: 0.78rem;
     padding: 0.4rem 0.75rem;
     background: rgba(42,61,31,0.4);
@@ -227,16 +272,6 @@ const avoid = plant.avoid || [];
     color: var(--ash); font-style: italic; padding: 1rem 0;
   }
 
-  .back-link {
-    display: inline-flex; align-items: center; gap: 0.5rem;
-    font-family: 'Space Mono', monospace; font-size: 0.7rem;
-    letter-spacing: 0.1em; text-transform: uppercase;
-    color: var(--lime); text-decoration: none;
-    padding: 2rem 2rem 0;
-    transition: gap 0.2s;
-  }
-  .back-link:hover { gap: 0.75rem; }
-
   .footer {
     padding: 2rem 4rem;
     border-top: 1px solid rgba(139,184,58,0.15);
@@ -256,6 +291,7 @@ const avoid = plant.avoid || [];
     .two-col { grid-template-columns: 1fr; }
     .footer { flex-direction: column; gap: 1rem; padding: 2rem 1.5rem; }
     .nav-links { gap: 1rem; }
+    .hero-image-wrap { height: 240px; }
   }
 </style>
 
@@ -274,6 +310,23 @@ const avoid = plant.avoid || [];
   <a href="/plants">← Plants</a> / {plant.common_name}
 </div>
 
+<!-- HERO IMAGE — full width, edge to edge -->
+<div class="hero-image-wrap">
+  {imagePath ? (
+    <img
+      class="hero-image"
+      src={imagePath}
+      alt={plant.common_name}
+      loading="eager"
+    />
+  ) : (
+    <div class="hero-image-placeholder">
+      <span>{plant.common_name}</span>
+    </div>
+  )}
+</div>
+
+<!-- HERO TEXT -->
 <div class="hero">
   <div>
     <p class="plant-layer">{plant.layers?.[0] || 'Plant'}</p>
