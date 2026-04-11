@@ -1,27 +1,46 @@
 ---
 - common_name: Buriti Palm
-  picture: buriti_palm.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Mauritia flexuosa
+  aka:
+  - Moriche palm
+  - Ité palm
+  - Buriti palm (Buriti fruit)
+  family: Arecaceae
+  zone: 11-12
+  ideal_temp_min: 72
+  ideal_temp_max: 95
+  min_temp: 40
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Canopy
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Mulcher
+  description: |-
+    Buriti is the swamp monarch of Amazonian palm imagination—feathery crown, seasonal flooding tolerance, and oil-rich fruit that powers local economies where it actually belongs. Not a patio plant unless your patio is a seasonally flooded savanna.
+
+    North Florida / subtropical: Wrong continent for honest outdoor permanence; greenhouse curiosity or botanical brag only for most readers.
+
+    Sun and water: Full sun in humid tropics. Roots tolerate long inundation in native systems; in cultivation mimic wet-dry rhythms with excellent drainage between floods if you are simulating habitat.
+
+    Propagation: Fresh seeds; extremely slow early growth; plan generational timelines.
+  purpose: |-
+    Fruit pulp and oil where processed traditionally; thatch and craft fiber; massive wildlife food and nesting sites in native wetlands—ecological anchor, not suburban filler.
   companions:
-  - NEEDS_DATA
+  - Other native Amazonian wetland trees (in range)
   avoid:
-  - NEEDS_DATA
+  - Cold snaps
+  - Arid xeriscape cosplay
   pests:
-  - NEEDS_DATA
+  - scale insects
+  - red palm weevil
+  - palmetto weevil
+  growth_habit: Tall solitary palm of wet lowlands; huge pinnate crown
+  data_quality_score: 0.7
   # Image attribution: No image found
   # Image source: none
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

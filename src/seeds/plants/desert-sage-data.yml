@@ -1,27 +1,53 @@
 ---
 - common_name: Desert Sage
-  picture: desert_sage.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Salvia dorrii
+  aka:
+  - Purple sage
+  - Dorr's sage
+  family: Lamiaceae
+  zone: 5-9
+  ideal_temp_min: 55
+  ideal_temp_max: 88
+  min_temp: -15
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Wildlife Attractor
+  - Border Plant
+  - Medicinal
+  description: |-
+    Desert sage is a gray, aromatic shrub with shocking magenta flowers—desert glam without the glitter glue. It expects Western drainage honesty; Florida humidity is a stress test unless you cheat with grit, slope, and spacing. North Florida growers: think rock garden royalty on a raised berm, not bog princess.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for bloom density and tight habit.
+    - Extremely well-drained, lean soil; deep occasional soak beats daily spritzing.
+
+    ✂️ Methods to Propagate:
+    - Cuttings: semi-hardwood with bottom heat in warm weather.
+    - Seeds: can be slow/variable; clones preserve known good forms.
+
+    🌾 Harvest notes:
+    - Light pruning after bloom; aromatic leaves for smudge bundles and crafts—verify safe indoor use.
+  purpose: |-
+    - Pollinator: Spring bloom feeds bees when early forage can be thin.
+    - Wildlife Attractor: Hummingbirds investigate tubular flowers in suitable climates.
+    - Border Plant: Silver mound + color pop for dry borders.
+    - Medicinal: Traditional aromatic uses—research before internal use.
   companions:
-  - NEEDS_DATA
+  - Penstemon
+  - Agave
+  - Yucca
   avoid:
-  - NEEDS_DATA
+  - Humid shade and heavy mulch on crowns
+  - Lawn irrigation overspray every morning
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Spider Mites
+  - Root Rot Fungus
   # Image attribution: peganum from Small Dole, England / Wikimedia Commons / CC BY-SA 2.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

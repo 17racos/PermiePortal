@@ -1,27 +1,49 @@
 ---
 - common_name: Creeping Oregano
-  picture: creeping_oregano.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Origanum vulgare
+  aka:
+  - Wild marjoram (name chaos)
+  - Prostrate oregano (forms)
+  family: Lamiaceae
+  zone: 5-9
+  ideal_temp_min: 45
+  ideal_temp_max: 90
+  min_temp: -20
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Ground Cover
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ground Cover
+  - Pollinator
+  description: "Prostrate selections of Origanum vulgare crawl between pavers and
+    down rock walls, blooming pink to lavender for pollinators while your pizza gets
+    an excuse for ‘yard thyme.’ Flavor is oregano—some forms are milder.\n\nNorth
+    Florida / subtropical: Often struggles with constant summer wet—give drainage,
+    gravel mulch, and sun. Humid nights invite foliar funk; airflow helps.\n\nSun
+    and water: Full sun for flavor and density; lean, well-drained soil. Drought-tolerant
+    once established.\n\nPropagation: Division; soft cuttings; layer stems touching soil."
+  purpose: |-
+    Edible crevice filler:
+
+    - Edible: Leaves dried or fresh; flowers edible too.
+    - Ground Cover: Tolerates light foot traffic between stones.
+    - Pollinator: Small blooms feed many small bees.
   companions:
-  - NEEDS_DATA
+  - Thyme
+  - Lavender
+  - Sage
   avoid:
-  - NEEDS_DATA
+  - Heavy wet clay without amendment
+  - Deep shade (opens up and sulks)
   pests:
-  - NEEDS_DATA
+  - spider mites
+  - aphids
+  growth_habit: Low mat-forming perennial subshrub
+  data_quality_score: 0.8
   # Image attribution: No image found
   # Image source: none
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

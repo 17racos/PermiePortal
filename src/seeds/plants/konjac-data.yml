@@ -1,27 +1,49 @@
 ---
 - common_name: Konjac
   picture: konjac.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Amorphophallus konjac
+  aka:
+  - Devil's Tongue
+  - Voodoo Lily
+  family: Araceae
+  zone: 8-11
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 15
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  description: "Konjac is the elephant-foot yam famous for glucomannan noodles and
+    jelly that bounce like science. Same genus vibe as suran but different species —
+    konjac corms become shirataki after processing, not mash-and-pray yam fries.
+    Hardy oddity in warm zones; dormant corms survive mild winters with mulch. North
+    Florida: grow in part shade, excellent drainage, dry winter dormancy.\n\n☀️💧
+    Sun and Water:\n- Bright shade to filtered sun; hot dry sun scorches petioles.\n-
+    Moist while in leaf; almost dry when dormant to prevent rot.\n\n✂️ Propagation:\n-
+    Offset cormlets split at dormancy.\n- Tissue culture and commercial corms for
+    food industry — home growers use offsets.\n\nFlower smells like a dare; your
+    nose has been warned."
+  purpose: |-
+    Starch specialist with PR problems:
+
+    - Edible: Processed flour/noodles; raw corm is not a crunchy apple substitute.
+    - Ornamental: Single dramatic leaf and bizarre inflorescence for plant nerds.
   companions:
-  - NEEDS_DATA
+  - Taro
+  - Ginger
+  - Comfrey
   avoid:
-  - NEEDS_DATA
+  - Wet winter pots
   pests:
-  - NEEDS_DATA
+  - Root Rot Fungus
+  - Nematodes
+  growth_habit: Herbaceous perennial
+  data_quality_score: 0.74
   # Image attribution: Walter Hood Fitch / Wikimedia Commons / Public domain
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

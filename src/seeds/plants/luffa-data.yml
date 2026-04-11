@@ -1,27 +1,51 @@
 ---
 - common_name: Luffa
   picture: luffa.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  scientific_name: Luffa aegyptiaca
+  aka:
+  - Loofah
+  - Dishcloth Gourd
+  family: Cucurbitaceae
+  zone: 3-11
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 100
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Vine
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Fiber
+  - Ornamental
+  description: "Luffa is the shower sponge that was a vegetable first. Young fruit
+    harvests like a zucchini; left to mature, the flesh dries into fibrous skeleton
+    you can peel like a weird banana of scrubbing. Long-season vine — North Florida
+    needs early start, trellis, and cultivars that finish before cool nights stall
+    fruit fill.\n\n☀️💧 Sun and Water:\n- Full sun.\n- Steady water during growth;
+    reduce as fruits mature for sponges to dry down cleanly.\n\n✂️ Propagation:\n-
+    Direct-sow after frost or start indoors 3-4 weeks ahead; roots resent rough
+    transplanting — use deep pots.\n- Trellis for straight fruit; ground fruits
+    curve and collect slug opinions.\n\nYou can buy plastic loofahs, but where is
+    the drama in that."
+  purpose: |-
+    Two crops in one obnoxious vine:
+
+    - Edible: Harvest small fruit like summer squash.
+    - Fiber: Mature sponges for skin, scrubbers, and craft projects.
+    - Ornamental: Yellow flowers are cheerful if the vine has not eaten your fence.
   companions:
-  - NEEDS_DATA
+  - Beans
+  - Marigold
+  - Nasturtium
   avoid:
-  - NEEDS_DATA
+  - Late planting with short frost-free window
   pests:
-  - NEEDS_DATA
+  - Squash Vine Borer
+  - Pickleworm
+  - Aphids
+  growth_habit: Annual vine
+  data_quality_score: 0.78
   # Image attribution: (c) brngckn, all rights reserved, uploaded by brngckn
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

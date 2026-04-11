@@ -1,27 +1,55 @@
 ---
 - common_name: Fruit Sage
   picture: fruit_sage.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Salvia elegans
+  aka:
+  - Pineapple sage
+  - Tangerine sage
+  family: Lamiaceae
+  zone: 8-11
+  ideal_temp_min: 55
+  ideal_temp_max: 90
+  min_temp: 15
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Pollinator
+  - Ornamental
+  - Wildlife Attractor
+  description: |-
+    Fruit sage here is the pineapple-scented Salvia elegans crowd-pleaser: scarlet late-season tubes that make hummingbirds insufferably smug. Leaves smell like candy propaganda and taste mild-sweet in teas and syrups. In North Florida it often dies to the roots in a rude freeze then returns like nothing happened — mulch the crown and stop acting shocked.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for dense growth and flowers; light afternoon shade reduces wilt in brutal August.
+    - Average garden soil with decent drainage; steady moisture beats boom-bust drought cycling.
+    - Container culture: upsize pots before it hits root-bound drama.
+
+    ✂️ Methods to Propagate:
+    - Softwood cuttings: take tips in warm months, root in perlite/peat under humidity.
+    - Division: split established clumps in spring as shoots emerge.
+  purpose: |-
+    Fruit sage is an insectary workhorse dressed as ornament:
+
+    - Edible: Leaves and flowers for tea, syrups, and garnish; flavor is strong — taste before dumping a cup in.
+    - Medicinal: Traditional calming teas — not a substitute for real medical care.
+    - Pollinator: Late nectar when many plants quit.
+    - Ornamental: Red flowering spikes read well in layered beds.
+    - Wildlife Attractor: Hummingbirds will lobby for more.
   companions:
-  - NEEDS_DATA
+  - Mexican sunflower
+  - Basil
+  - Pepper
   avoid:
-  - NEEDS_DATA
+  - Wet feet all winter
+  - Deep shade (gets leggy and sulk)
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Whitefly
+  - Spider mites
   # Image attribution: aussiegall from sydney, Australia / Wikimedia Commons / CC BY 2.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

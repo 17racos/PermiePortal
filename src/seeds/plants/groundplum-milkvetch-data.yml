@@ -1,27 +1,51 @@
 ---
 - common_name: Groundplum Milkvetch
-  picture: groundplum_milkvetch.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Astragalus crassicarpus
+  aka:
+  - Ground Plum
+  - Buffalo Plum
+  family: Fabaceae
+  zone: "4-8"
+  ideal_temp_min: 50
+  ideal_temp_max: 85
+  min_temp: -35
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Nitrogen Fixer
+  - Wildlife Attractor
+  - Ground Cover
+  description: "Groundplum milkvetch is a prairie legume with pinnate silvery-green
+    leaves, purple-pea flowers, and inflated pods that bury themselves and swell into
+    plum-like underground fruits. The subterranean \"plums\" were a known Indigenous
+    food on the Plains; above-ground parts of many Astragalus spp. are not snack
+    material—know your plant.\n\nThis is a sun-loving Great Plains / tallgrass personality,
+    not a swamp queen. In humid subtropical Florida it is mostly a curiosity unless
+    you simulate its fast-draining, lean conditions.\n\nSun and water: Full sun;
+    dry to mesic, well-drained soils; drought-tolerant deep taproot once established.
+    Wet feet rot it faster than optimism.\n\nPropagation: Scarified seed in spring;
+    transplant young taprooted seedlings carefully. Slow from seed; patience is not
+    optional."
+  purpose: |-
+    N-fixing herb layer in dry prairie mimic gardens, food forest edges on sand,
+    and pollinator strips. Edible novelty where historically used—do your own safety
+    homework and never confuse random milkvetches with locoweed-type species.
   companions:
-  - NEEDS_DATA
+  - Baptisia
+  - Purple Coneflower
+  - Little Bluestem
+  - Yarrow
   avoid:
-  - NEEDS_DATA
+  - Irrigation-heavy lawn culture
+  - Heavy clay bogs
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Japanese Beetles
+  - Rootknot Nematodes
   # Image attribution: Clarence A. Rechenthin / Wikimedia Commons / Public domain
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

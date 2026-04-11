@@ -1,27 +1,51 @@
 ---
 - common_name: Grumichama
   picture: grumichama.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Eugenia brasiliensis
+  aka:
+  - Brazilian cherry
+  family: Myrtaceae
+  zone: "10-11"
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 28
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  description: |-
+    Grumichama is the myrtle-family cherry that fruited at the family reunion without asking — dark sweet berries, handsome glossy leaves, and a tropical resume that laughs at North Florida frost unless you are in the warmest pockets. Small tree or big shrub depending on pruning and ambition.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to high shade; fruits heavier with more sun and honest fertility.
+    - Rich, well-drained, slightly acidic soil; steady moisture when fruiting.
+    - Young plants need wind protection and mulch — roots are not drama majors but dislike bake.
+
+    ✂️ Methods to Propagate:
+    - Seeds: plant fresh; variable juvenility before fruit — bring patience.
+    - Grafting selected varieties onto seedling rootstocks where material exists.
+  purpose: |-
+    Grumichama is backyard jam with curb appeal:
+
+    - Edible: Fruit fresh, jellies, and ferments; seed is a nuisance, spit with philosophy.
+    - Wildlife Attractor: Flowers and fruit feed birds and insects in frost-free months.
+    - Ornamental: Clean evergreen look suits edible hedgerows and privacy strips.
   companions:
-  - NEEDS_DATA
+  - Jaboticaba
+  - Surinam cherry
+  - Mulberry
   avoid:
-  - NEEDS_DATA
+  - Exposed 9a frost hollows without protection
+  - Waterlogged heavy clay without berm or drainage edits
   pests:
-  - NEEDS_DATA
+  - Caribbean Fruit Fly
+  - Scale Insects
+  - Mediterranean Fruit Fly
   # Image attribution: No machine-readable author provided. B.navez assumed (based on copyright claims). / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,50 @@
 ---
 - common_name: Blue Agave
   picture: blue_agave.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Agave tequilana
+  aka:
+  - Weber blue agave
+  family: Asparagaceae
+  zone: "9-11"
+  ideal_temp_min: 55
+  ideal_temp_max: 95
+  min_temp: 25
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Mulcher
+  - Erosion Control
+  description: |-
+    Blue agave is the spiky fountain of desert capitalism — same species behind tequila, same drama in the landscape. Rosette for years, then a telegraph pole of bloom and death. In North Florida it is a dry microclimate pet, not a swamp roommate.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full blasting sun; shade makes weak, etiolated leaves that offend aesthetics and ethics.
+    - Sharp drainage — sand, gravel, berms, contempt for clay bowls.
+    - Drought-tolerant once established; summer wet on cold soil is rot karaoke.
+
+    ✂️ Methods to Propagate:
+    - Bulbils and offsets: remove pups when sizable, dry cuts, plant in gritty mix.
+    - Seeds: slow and variable; novelty path, not production timeline.
+  purpose: |-
+    Blue agave is structure and syrup industry lore:
+
+    - Edible: Sap and processing traditions exist — legal and safety context varies by jurisdiction and scale.
+    - Mulcher: Dead leaves become rough mulch or fiber; wear gloves — margins bite.
+    - Erosion Control: Dense fibrous root mass stabilizes slopes where drainage is honest.
   companions:
-  - NEEDS_DATA
+  - Prickly pear
+  - Desert sage
+  - Yucca
   avoid:
-  - NEEDS_DATA
+  - Heavy irrigation in cool seasons
+  - Planting in low frost pockets without grit amendment
   pests:
-  - NEEDS_DATA
+  - Palmetto Weevil
+  - Scale Insects
+  - Mealybugs
   # Image attribution: Tomascastelazo / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

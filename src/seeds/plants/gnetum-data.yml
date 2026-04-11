@@ -1,27 +1,49 @@
 ---
 - common_name: Gnetum
   picture: gnetum.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Gnetum gnemon
+  aka:
+  - Melinjo
+  - Bago
+  family: Gnetaceae
+  zone: "10-12"
+  ideal_temp_min: 70
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Shade Provider
+  - Wildlife Attractor
+  description: "Gnetum gnemon is a tropical gymnosperm that looks like a broadleaf
+    tree—botany's long-running inside joke. It yields edible young leaves and shoots,
+    and starchy nuts/seeds used in Indonesian dishes (emping crackers, say hello).\n\nContinental
+    US: greenhouse or Miami-adjacent microclimates; not a North Florida field crop
+    unless you enjoy replacing frozen plants.\n\nSun and water: Young plants appreciate
+    partial shade; older trees take more sun in humid tropics. Rich, moist, well-drained
+    soil; steady humidity; wind protection for large leaves.\n\nPropagation: Seeds
+    (recalcitrant, sow fresh); cuttings; air layering in humid shade. Import clean
+    planting stock—slow is normal."
+  purpose: |-
+    Niche edible canopy/understory tree in true tropical food forests; conversation
+    piece for plant nerds who want a gymnosperm salad. Outside the frost-free band,
+    keep it potted and spoiled.
   companions:
-  - NEEDS_DATA
+  - Cacao
+  - Coffee
+  - Banana
+  - Vanilla
   avoid:
-  - NEEDS_DATA
+  - Frost
+  - Arid wind tunnels
   pests:
-  - NEEDS_DATA
+  - Scale Insects
+  - Mealybugs
+  - Aphids
   # Image attribution: Unknown / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

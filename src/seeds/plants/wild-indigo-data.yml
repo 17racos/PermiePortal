@@ -1,27 +1,47 @@
 ---
 - common_name: Wild Indigo
   picture: wild_indigo.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Baptisia tinctoria
+  aka:
+  - Yellow wild indigo
+  - Horsefly weed
+  family: Fabaceae
+  zone: 3-9
+  ideal_temp_min: 45
+  ideal_temp_max: 88
+  min_temp: -30
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Nitrogen Fixer
+  - Ornamental
+  - Wildlife Attractor
+  - Dynamic Accumulator
+  description: |-
+    Wild indigo is the yellow-flowered Baptisia cousin—shorter, scrappier, and happy on sandier, drier ground than some of the big blue false indigos. Deep roots; moving mature plants is a negotiation you lose.
+
+    North Florida / subtropical: Solid through 9a in well-drained sites; hates wet winter stagnation more than a little summer roast.
+
+    Sun and water: Full sun for stiff stems and bright bloom. Lean to average, well-drained soil; drought-tolerant once established.
+
+    Propagation: Scarified seed; young divisions; avoid repeated transplant tantrums.
+  purpose: |-
+    Nitrogen fixation in dryish perennial beds; long-tongued bee support; deep nutrient pump with responsible chop-and-drop after dormancy.
   companions:
-  - NEEDS_DATA
+  - Little bluestem
+  - Coreopsis
+  - Yarrow
   avoid:
-  - NEEDS_DATA
+  - Wet clay flats
+  - Shade-heavy corners (lodging and fewer flowers)
   pests:
-  - NEEDS_DATA
+  - aphids
+  - leafhoppers
+  - caterpillars
+  growth_habit: Mounding herbaceous perennial; yellow pea flowers; fine-textured leaves
+  data_quality_score: 0.75
   # Image attribution: Photo by and (c)2007 Derek Ramsey (Ram-Man) / Wikimedia Commons / GFDL 1.2
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

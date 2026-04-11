@@ -1,27 +1,50 @@
 ---
 - common_name: Buckwheat
-  picture: buckwheat.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  picture: ""
+  scientific_name: Fagopyrum esculentum
+  aka:
+  - Common Buckwheat
+  - Bee Wheat
+  family: Polygonaceae
+  zone: "3-10"
+  ideal_temp_min: 55
+  ideal_temp_max: 80
+  min_temp: 25
+  max_temp: 95
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Green Manure
+  - Pollinator
+  - Wildlife Attractor
+  description: "Buckwheat is a fast summer annual with heart-shaped leaves, white
+    to pinkish flowers that honeybees mob, and triangular \"groats\" that are not
+    a true cereal but behave like one in the kitchen. It smothers weeds, pulls phosphorus,
+    and finishes before frost if you time sowing right.\n\nNorth Florida: excellent
+    cover between spring and fall crops; sow after soil warms. It will decline once
+    nights stay tropical-hot unless you keep moisture up.\n\nSun and water: Full sun;
+    loamy, well-drained soil; keep moist during establishment, somewhat drought-tolerant
+    once rooted. Poorly drained fields invite root rots.\n\nPropagation: Direct seed
+    broadcast or drill; do not transplant—life is too short. Turn under before hard
+    seed set if you do not want volunteer buckwheat forever."
+  purpose: |-
+    Smother crop, bee pasture, and emergency grain/greens; breaks disease cycles
+    when rotated with solanums. The flowers smell like old honey and hot metal—in
+    the best way.
   companions:
-  - NEEDS_DATA
+  - Cowpea
+  - Millet
+  - Sunflower
+  - Phacelia
   avoid:
-  - NEEDS_DATA
+  - Waterlogged fields
+  - Shade
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Japanese Beetles
+  - Armyworms
   # Image attribution: Krzysztof Ziarnek, Kenraiz / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

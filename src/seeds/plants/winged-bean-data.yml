@@ -1,27 +1,54 @@
 ---
 - common_name: Winged Bean
   picture: winged_bean.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Psophocarpus tetragonolobus
+  aka:
+  - Goa bean
+  - Four-angled bean
+  - Asparagus pea
+  family: Fabaceae
+  zone: 9-11
+  ideal_temp_min: 70
+  ideal_temp_max: 90
+  min_temp: 40
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Vine
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Nitrogen Fixer
+  - Ground Cover
+  - Animal Fodder
+  description: |-
+    Winged bean is the overachieving legume vine—ridged pods, edible leaves, flowers, and tuberous roots on long-day types that actually cooperate. It wants heat and long seasons; North Florida can grow it as a pushed annual or short-lived perennial in frost-free pockets. Trellis like you mean it; flimsy cages get humiliated.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for flowers and pods.
+    - Rich, well-drained soil; steady moisture during vine run—reduce when cool.
+
+    ✂️ Methods to Propagate:
+    - Seeds: inoculate with cowpea-type rhizobia; sow warm after frost risk drops.
+    - Tubers from short-day landraces where available—verify type before expecting underground payoffs.
+
+    🌾 Harvest notes:
+    - Pick pods young for snap use; flowers and tips in cuisines that know what to do with them.
+  purpose: |-
+    - Edible: Multi-use vegetable for warm climates—learn which parts your variety handles best.
+    - Nitrogen Fixer: Nodules feed the bed; still rotate like an adult.
+    - Ground Cover: Temporary living mulch on trellis footprint.
+    - Animal Fodder: Leaves and vines in integrated systems with species-appropriate testing.
   companions:
-  - NEEDS_DATA
+  - Corn
+  - Sunflower
+  - Cucumber (separate trellis runs to reduce disease tangle)
   avoid:
-  - NEEDS_DATA
+  - Cold soil sowing that rots seed
+  - Shady corners that yield vine with no pods
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Bean Leaf Beetle
+  - Whiteflies
   # Image attribution: (c) mish mill, some rights reserved (CC BY-NC), uploaded by mish mill
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

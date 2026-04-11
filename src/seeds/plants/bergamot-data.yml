@@ -1,27 +1,52 @@
 ---
 - common_name: Bergamot
   picture: bergamot.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Monarda fistulosa
+  aka:
+  - Wild bergamot
+  - Bee balm (name overlap with M. didyma)
+  - Oswego tea
+  family: Lamiaceae
+  zone: 3-9
+  ideal_temp_min: 50
+  ideal_temp_max: 85
+  min_temp: -35
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Pollinator
+  - Wildlife Attractor
+  description: "Monarda fistulosa is the lavender-pom-pom mint relative that smells
+    like oregano had a perfume phase—tubular flowers stacked into ragged heads, hummingbirds
+    and bees act territorial, leaves make a sharp tea if you are brave.\n\nNorth Florida
+    / subtropical: Treat as short-lived perennial or refresh from seed; intense heat
+    and humidity can shorten life—give morning sun, afternoon relief, and airflow.
+    Not the same plant as citrus bergamot—wrong aisle entirely.\n\nSun and water: Full
+    sun to part shade; rich, moist but well-drained soil. Avoid drought during bloom.\n\n
+    Propagation: Seed (stratify for best luck), division in cool weather, soft cuttings."
+  purpose: |-
+    Native-ish pollinator bar with tea potential:
+
+    - Edible: Flowers as garnish; leaves for tea in moderation.
+    - Medicinal: Traditional uses exist—verify before pretending you are a clinic.
+    - Pollinator: Nectar heavy hitter for bees, butterflies, hummingbirds.
+    - Wildlife Attractor: Insects, then birds on seed heads if you leave stems.
   companions:
-  - NEEDS_DATA
+  - Yarrow
+  - Echinacea
+  - Anise Hyssop
   avoid:
-  - NEEDS_DATA
+  - Powdery-mildew factories (stagnant wet foliage)
+  - Confusing with Monarda didyma if color expectations matter
   pests:
-  - NEEDS_DATA
+  - Powdery Mildew
+  - japanese beetles
+  growth_habit: Upright clumping perennial mint relative
+  data_quality_score: 0.8
   # Image attribution: (c) Oldforestthing, all rights reserved, uploaded by Oldforestthing
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

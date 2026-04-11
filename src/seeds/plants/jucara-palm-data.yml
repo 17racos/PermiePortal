@@ -1,27 +1,51 @@
 ---
 - common_name: Jucara Palm
   picture: jucara_palm.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Euterpe edulis
+  aka:
+  - Juçara
+  - Heart of Palm Palm
+  family: Arecaceae
+  zone: "10-12"
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 28
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  - Shade Provider
+  description: "Juçara is the southern Brazilian sister to açaí (**Euterpe oleracea**):
+    a slender clustering palm with pinnate leaves, hanging inflorescences, and edible
+    purple fruit pulp—when you can beat the pests and humidity to harvest. Wild
+    populations have been hammered by illegal palm-heart cutting; sustainable cultivation
+    matters.\n\nIn Florida, treat like other tropical understory palms: frost-free,
+    humid, shaded when young. Not a North Florida staple unless you have a conservatory
+    and a humidity kink.\n\nSun and water: Bright shade to partial sun as juvenile;
+    more sun in cloud-forest humidity. Rich, organic, well-drained but moist soil;
+    never dry to wilting for long.\n\nPropagation: Fresh seed in warm, humid media;
+    divisions of clustering stems on mature clumps (specialist work). Patience measured
+    in years."
+  purpose: |-
+    Subcanopy palm for tropical food forests; superfood fruit in the right climate;
+    ornamental texture. If someone offers you \"sustainable\" palm heart from wild
+    juçara, ask rude questions.
   companions:
-  - NEEDS_DATA
+  - Cacao
+  - Banana
+  - Inga
+  - Jackfruit
   avoid:
-  - NEEDS_DATA
+  - Hard freezes
+  - Wind-blasted rooftops
   pests:
-  - NEEDS_DATA
+  - Palmetto Weevil
+  - Scale Insects
+  - Mealybugs
   # Image attribution: (c) João Medeiros, some rights reserved (CC BY)
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

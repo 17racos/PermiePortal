@@ -1,27 +1,51 @@
 ---
 - common_name: Arracacha
   picture: arracacha.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Arracacia xanthorrhiza
+  aka:
+  - Peruvian carrot
+  - Apio criollo
+  family: Apiaceae
+  zone: "9-11"
+  ideal_temp_min: 55
+  ideal_temp_max: 75
+  min_temp: 30
+  max_temp: 90
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Root
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Soil Improvement
+  description: |-
+    Arracacha is the Andean root crop that tastes like carrot met celery met potato and forgot to be boring. Creamy yellow roots form from a crown of stems; leaves resemble parsley's dramatic cousin. North Florida is marginal—think cool winters, afternoon shade in summer, and zero heroics during heat waves. Treat it like a pampered perennial carrot guild member, not a set-and-forget sweet potato.
+
+    ☀️💧 Sun and Water Requirements:
+    - Part sun / bright shade in hot subtropics; cooler highland conditions allow more sun.
+    - Deep, loose, fertile loam with steady moisture—swings between bone dry and swamp rot the crown.
+    - Heavy mulch to buffer soil temperature and flatter the roots.
+
+    ✂️ Methods to Propagate:
+    - Crown divisions and offsets from established plants—primary practical method.
+    - True seed is rare in cultivation; commercial propagation is vegetative.
+
+    🌾 Harvest notes:
+    - Dig roots when crowns go dormant or after 8–12 months growth; handle like bruise-prone potatoes.
+  purpose: |-
+    - Edible: Starchy roots and sometimes young stems—cooking unlocks the flavor; raw checks are cautious nibbles only.
+    - Soil Improvement: Deep organic-matter lover when mulched; chop-and-drop tops return biomass if disease-free.
   companions:
-  - NEEDS_DATA
+  - Comfrey
+  - Yacon
+  - Legumes
   avoid:
-  - NEEDS_DATA
+  - Baking full-sun sand without irrigation
+  - Waterlogged clay that murders crowns
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Rootknot Nematodes
+  - Cutworms
   # Image attribution: (c) Neptalí Ramírez Marcial, some rights reserved (CC BY), uploaded by Neptalí Ramírez Marcial
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

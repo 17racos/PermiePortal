@@ -1,27 +1,48 @@
 ---
 - common_name: Araza
   picture: araza.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Eugenia stipitata
+  aka:
+  - Arazá
+  - Amazon cherry
+  family: Myrtaceae
+  zone: 10-11
+  ideal_temp_min: 72
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  description: "Araza is a loud tropical myrtle from the Amazon headwaters—soft yellow
+    fruit, extreme acidity, and aromatics that want sugar the way lemonade wants a business
+    model. Often grown as a shrubby tree for juice and nectars.\n\nNorth Florida / subtropical:
+    Collector plant for warmest pockets or greenhouse. Occasional light frost may be
+    survived briefly when mature—do not bet the farm on 9a without protection.\n\nSun
+    and water: Full sun for productivity. Loves steady moisture and organic mulch; intolerant
+    of drought once fruiting hard.\n\nPropagation: Seeds (variable); grafting onto related
+    rootstocks where expertise exists."
+  purpose: |-
+    Acid fruit processing for beverages and desserts, myrtle guild component in humid
+    food forests, and bird food if you slack on harvest.
   companions:
-  - NEEDS_DATA
+  - Other Myrtaceae
+  - Nitrogen-fixing ground covers
+  - Heavy mulch circles
   avoid:
-  - NEEDS_DATA
+  - Wind-exposed hilltops without irrigation
+  - Calcareous soil without amendment
   pests:
-  - NEEDS_DATA
-  # Image attribution: USDA / Wikimedia Commons / Public domain
-  # Image source: wikimedia
+  - Caribbean Fruit Fly
+  - scale insects
+  - aphids
+  growth_habit: Evergreen shrub to small tree
+  data_quality_score: 0.7
+  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
+  # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

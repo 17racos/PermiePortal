@@ -44,3 +44,13 @@ Pest images: public/assets/pests/{filename}.jpg
 - Add client-side JS frameworks
 - Change the color palette
 - Use corporate or greenwash language
+
+## Critical — Pest Field Rules
+When filling in the pests: field in plant YAML files:
+- ONLY use pest names that exist verbatim in src/seeds/pests/pests-data.yml
+- Before writing any pest name, grep src/seeds/pests/pests-data.yml to confirm it exists
+- If a plant has no significant pests, use an empty list: pests: []
+- NEVER invent descriptive slugs like "root-rot-in-poorly-drained-soil"
+- NEVER use "None", "None significant", "None documented" — use empty list instead
+- NEVER add animals like "ducks" or "fish" as pests
+- Run ./sync.sh --check after enriching each batch to catch errors immediately

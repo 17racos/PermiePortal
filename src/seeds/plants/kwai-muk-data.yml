@@ -1,27 +1,54 @@
 ---
 - common_name: Kwai Muk
   picture: kwai_muk.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Artocarpus hypargyraeus
+  aka:
+  - Small Jackfruit
+  - Chinese Jackfruit
+  family: Moraceae
+  zone: 10-11
+  ideal_temp_min: 72
+  ideal_temp_max: 92
+  min_temp: 30
+  max_temp: 115
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Windbreaker
+  - Mulcher
+  description: "Kwai Muk is a compact, slow-growing relative of jackfruit and breadfruit,
+    topping out around 15–25 feet in cultivation—think jackfruit for people who do not
+    have a stadium parking lot for one tree. The yellowish, waxy-skinned fruit is smaller
+    than jackfruit but still a starchy-sweet conversation piece when you actually get
+    one to ripen.\n\nNorth Florida / subtropical reality check: this is a true tropical.
+    In 9a/9b you are basically running a pet tree—cold winter nights will insult it,
+    so microclimate, frost cloth, or a large pot you can roll under cover are the honest
+    options. South Florida and greenhouse people have the easier job.\n\nSun and water:
+    Full sun for best growth once established. Young trees want steady moisture; mature
+    specimens tolerate short dry spells but not desert cosplay. Well-drained soil—wet
+    feet rot roots like any Moraceae.\n\nPropagation: Fresh seed is the usual path;
+    air-layering or grafting are options for clones of a known good fruiting individual.
+    Start warm (think summer bench) and do not let seedlings sit soggy."
+  purpose: |-
+    Edible fruit for humid tropical and borderline-subtropical systems where jackfruit
+    is too much tree. Ornamental evergreen presence and light shade. Windbreak component
+    in frost-free rows when spaced appropriately.
   companions:
-  - NEEDS_DATA
+  - Banana
+  - Papaya
+  - Nitrogen-fixing shrubs
   avoid:
-  - NEEDS_DATA
+  - Low frost pockets without protection
   pests:
-  - NEEDS_DATA
+  - scale insects
+  - mealybugs
+  - aphids
+  - whiteflies
+  growth_habit: Evergreen fruiting tree, smaller stature than jackfruit
+  data_quality_score: 0.75
   # Image attribution: (c) Sunnetchan, some rights reserved (CC BY-NC-ND), uploaded by Sunnetchan
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

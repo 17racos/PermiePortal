@@ -1,27 +1,54 @@
 ---
 - common_name: Artemisia
-  picture: artemisia.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  picture: ""
+  scientific_name: Artemisia annua
+  aka:
+  - Sweet Annie
+  - Sweet wormwood
+  - Annual wormwood
+  family: Asteraceae
+  zone: 2-11
+  ideal_temp_min: 60
+  ideal_temp_max: 85
+  min_temp: -10
+  max_temp: 100
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Medicinal
+  - Pest Management
+  - Wildlife Attractor
+  - Border Plant
+  description: |-
+    This entry keys on sweet Annie—an annual artemisia that smells like camphor candy and self-sows like it pays rent in seeds. Feathery leaves, tiny cream flowers, legendary medicinal chemistry that launched modern antimalarial research (not a DIY prescription—respect the plant and the pharmacology). In North Florida it completes a fast cycle in warm seasons; humid summers can bring foliar funk without airflow.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for aromatic oils and sturdy stems.
+    - Well-drained, average fertility; drought-tolerant once established—wet clay rots crowns.
+
+    ✂️ Methods to Propagate:
+    - Seeds: surface sow; tiny seeds need light and steady moisture.
+    - Self-sows; thin volunteers unless you want a monoculture perfume riot.
+
+    🌾 Harvest notes:
+    - Harvest leafy tops before full bloom for traditional drying—timing affects chemistry; use vetted guides.
+  purpose: |-
+    - Medicinal: Historic uses for bitter aromatic compounds—coordinate with trained practitioners, not influencer threads.
+    - Pest Management: Strong scent can confuse some insects in interplanting trials—results vary.
+    - Wildlife Attractor: Insects visit inconspicuous flowers; balance with sprays.
+    - Border Plant: Tall, airy backdrop in cottage and herb gardens.
   companions:
-  - NEEDS_DATA
+  - Lavender
+  - Yarrow
+  - Echinacea
   avoid:
-  - NEEDS_DATA
+  - Heavy wet shade
+  - Livestock pastures where unguided grazing meets unknown tolerance
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Spider Mites
+  - Powdery Mildew
   # Image attribution: Dmitry Makeev / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

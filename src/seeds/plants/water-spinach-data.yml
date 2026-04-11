@@ -1,27 +1,57 @@
 ---
 - common_name: Water Spinach
   picture: water_spinach.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Ipomoea aquatica
+  aka:
+  - Kangkong
+  - Ong choy
+  - River spinach
+  family: Convolvulaceae
+  zone: "9-12"
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 35
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Vine
+  - Aquatic
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ground Cover
+  - Water Purifier
+  - Green Manure
+  description: "Water spinach is a delicious aquatic vine that doubles as an invasive
+    nightmare where it escapes — hollow stems float, root at nodes, and colonize ditches
+    like it is getting paid by the acre. Florida and federal rules have historically
+    restricted possession/cultivation because it can choke waterways. If you are in
+    North Florida, verify current law and never dump trimmings. Sun, heat, and nutrients
+    make it explode; containment is not a vibe, it is engineering.\n\n \U0001F31E\U0001F4A7
+    Sun and Water Requirements:\n- Full sun to part shade.\n- Grows in wet soil,
+    hydroponic rafts, or slow-moving clean water setups you can legally operate.\n-
+    Heavy feeder; fertile muck or aquaponics water speeds growth.\n\n✂️\U0001FAD8 Methods
+    to Propagate:\n- Stem cuttings root at nodes in water or wet media.\n- Never release
+    plants or water to natural systems.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E
+    When to Harvest:\n- Cut tips repeatedly; plant responds bushy.\n- Cook before
+    eating; some contexts recommend caution with heavy-metal uptake — know your water
+    source."
+  purpose: |-
+    Water spinach is high-yield greens with regulatory baggage:
+
+    - Edible: Fast leafy vegetable for warm, wet cultivation.
+    - Ground Cover: Dense mat along pond edges in controlled systems.
+    - Water Purifier: Can uptake nutrients in constructed wetlands (managed systems only).
+    - Green Manure: Excess biomass can be composted on-site — not exported to wild water.
   companions:
-  - NEEDS_DATA
+  - Taro
+  - Lemongrass
+  - Rice
   avoid:
-  - NEEDS_DATA
+  - Open waterways, storm drains, and anything downstream of your ego
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Caterpillars
+  - Snails
   # Image attribution: no rights reserved, uploaded by 葉子
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

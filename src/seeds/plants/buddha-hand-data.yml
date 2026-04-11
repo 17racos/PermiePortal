@@ -1,27 +1,54 @@
 ---
 - common_name: Buddha Hand
   picture: buddha_hand.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Citrus medica var. sarcodactylis
+  aka:
+  - Fingered citron
+  - Bushukan (Japanese)
+  family: Rutaceae
+  zone: 9-11
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 24
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Border Plant
+  - Wildlife Attractor
+  description: |-
+    Buddha’s hand is a citron that forgot what “normal fruit shape” means—fused segments look like citrus cosplaying as a cephalopod. Almost no pulp: it is zest, candy, liqueur, and temple offering fuel. Treat like other citrus for culture; North Florida needs frost strategy, drainage, and realistic expectations about greening-era scouting.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for oil-rich rind and solid wood.
+    - Well-drained soil; even moisture during fruit swell, never chronic sogginess.
+
+    ✂️ Methods to Propagate:
+    - Budding/grafting onto appropriate citrus rootstock—standard for true-to-type trees.
+    - Seeds are a genetic dice roll and slow—fine for curiosity, not deadlines.
+
+    🌾 Harvest notes:
+    - Pick when yellow and intensely fragrant; color and oil aroma beat calendar dates.
+  purpose: |-
+    - Edible: Zest, candied peel, infusions—perfume-forward, pulp-shy.
+    - Ornamental: Wild silhouette in a citrus collection.
+    - Border Plant: Evergreen punctuation in warm microclimates.
+    - Wildlife Attractor: Flowers bring pollinators when sprays are not scorched-earth.
   companions:
-  - NEEDS_DATA
+  - Comfrey
+  - Clover
+  - Chives
   avoid:
-  - NEEDS_DATA
+  - Low frost pockets without protection for young trees
+  - Lawn herbicide drift
   pests:
-  - NEEDS_DATA
+  - Asian Citrus Psyllid
+  - Citrus Leafminer
+  - Scale Insects
   # Image attribution: no rights reserved, uploaded by 葉子
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

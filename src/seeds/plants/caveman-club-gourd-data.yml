@@ -1,27 +1,51 @@
 ---
 - common_name: Caveman Club Gourd
-  picture: caveman_club_gourd.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  picture: ""
+  scientific_name: Lagenaria siceraria
+  aka:
+  - Bottle gourd (cultivar class)
+  - Hard-shelled gourd
+  family: Cucurbitaceae
+  zone: 3-11
+  ideal_temp_min: 70
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 100
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Vine
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Animal Fodder
+  description: |-
+    Caveman club gourd is a **Lagenaria siceraria** line selected for big, silly, hard-shelled fruits that look like props from a low-budget caveman flick. Young fruits can be eaten like other bottle gourds; mature ones lignify into clubs, rattles, and birdhouses after drying. North Florida needs a long warm runway—start indoors, trellis hard, and accept that humidity invites fungal leaf speckle.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for size and shell thickness.
+    - Fertile, well-drained soil; even moisture while vines run—cut back before harvest to harden fruit if your line benefits.
+
+    ✂️ Methods to Propagate:
+    - Seeds: sow warm; large seeds germinate fast when heat is real.
+    - Isolate from other cucurbits if saving true seed—crossing happens.
+
+    🌾 Harvest notes:
+    - For crafts, leave on vine until stems brown, then cure in dry airflow for months—patience beats moldy interiors.
+  purpose: |-
+    - Edible: Only young, tender fruits from known lines—verify edibility before bulk cooking.
+    - Ornamental: Harvestable absurdity on sturdy arbors.
+    - Animal Fodder: Trimmed vines sometimes feed stock after checking species tolerance—default is compost.
   companions:
-  - NEEDS_DATA
+  - Corn
+  - Beans
+  - Nasturtium
   avoid:
-  - NEEDS_DATA
+  - Weak trellis
+  - Crowding that blocks air and invites mildew parties
   pests:
-  - NEEDS_DATA
+  - Squash Vine Borer
+  - Pickleworm
+  - Downy Mildew
   # Image attribution: No image found
   # Image source: none
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

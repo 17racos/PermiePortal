@@ -1,27 +1,49 @@
 ---
 - common_name: Toothache Plant
   picture: toothache_plant.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Acmella oleracea
+  aka:
+  - Spilanthes
+  - Buzz Buttons
+  - Szechuan Buttons
+  family: Asteraceae
+  zone: "9-12"
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Pollinator
+  - Ornamental
+  description: "Toothache plant is a low, spreading aster relative with golden
+    pom-pom flowers packed with spilanthol—the compound that makes your mouth buzz
+    like you licked a nine-volt battery. Traditional use for oral numbness is where
+    the common name comes from; cocktail nerds know it as a prank garnish.\n\nNorth
+    Florida: annual unless winter is mild; reseeds freely; loves heat when temperate
+    herbs are on strike.\n\nSun and water: Full sun to very light shade; fertile,
+    moist, well-drained soil; do not let containers dry to concrete in summer.\n\nPropagation:
+    Seeds (easy, many per flower head); cuttings root quickly; overwinter a pot indoors
+    for early spring buzz crop."
+  purpose: |-
+    Living novelty medicine/edible; intense pollinator attractor for small native
+    bees; permaculture party trick. Use sparingly if you have allergies to daisy-family
+    compounds.
   companions:
-  - NEEDS_DATA
+  - Basil
+  - Peppers
+  - Roselle
+  - Lemongrass
   avoid:
-  - NEEDS_DATA
+  - Deep dry shade
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Whiteflies
+  - Spider Mites
   # Image attribution: no rights reserved, uploaded by 葉子
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

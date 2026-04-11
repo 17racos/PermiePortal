@@ -1,27 +1,47 @@
 ---
 - common_name: Ashitaba
   picture: ashitaba.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Angelica keiskei
+  aka:
+  - Tomorrow leaf
+  - Japanese angelica
+  family: Apiaceae
+  zone: 9-11
+  ideal_temp_min: 55
+  ideal_temp_max: 80
+  min_temp: 28
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  description: "Angelica keiskei is the Japanese perennial umbellifer with thick
+    celery-ish stems and compound leaves—‘ashitaba’ means tomorrow leaf for basal
+    sprouting folklore. Flavor is bitter-green; health hype is a contact sport.\n\n
+    North Florida / subtropical: Part shade and constant moisture mimic its humid
+    coastal native sites; summer heat stress calls for mulch and afternoon relief.\n\n
+    Sun and water: Part sun to light shade; rich, moist, well-drained soil. Never
+    let pots dry completely.\n\nPropagation: Fresh seed (short-lived); division of
+    crowns in warm wet weather."
+  purpose: |-
+    Shade-garden novelty green:
+
+    - Edible: Young leaves and stems in small amounts—Apiaceae ID discipline required.
+    - Medicinal: Traditional uses; internet immortality claims are suspicious.
   companions:
-  - NEEDS_DATA
+  - Ginger
+  - Turmeric
+  - Elderflower
   avoid:
-  - NEEDS_DATA
+  - Blazing all-day sun and drought
+  - Confusing with toxic umbellifers—learn sterile keys
   pests:
-  - NEEDS_DATA
+  - aphids
+  - leafhoppers
+  growth_habit: Clumping perennial herb to 3–4 feet
+  data_quality_score: 0.8
   # Image attribution: (c) Keita Watanabe, some rights reserved (CC BY-NC), uploaded by Keita Watanabe
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

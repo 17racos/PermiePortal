@@ -1,27 +1,53 @@
 ---
 - common_name: Pennyroyal
   picture: pennyroyal.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Mentha pulegium
+  aka:
+  - Pudding grass
+  family: Lamiaceae
+  zone: 6-9
+  ideal_temp_min: 40
+  ideal_temp_max: 85
+  min_temp: -10
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Ground Cover
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Medicinal
+  - Pollinator
+  - Ground Cover
+  - Pest Management
+  description: |-
+    Pennyroyal is the mint that comes with a safety lecture. Essential oil is dangerous — especially around pregnancy — and the plant's reputation is half insect-repellent folklore, half poison-control case study. Use it as a creeping moist-edge ground cover with boundaries, not as tea cosplay. In North Florida it wants damp spots; baking sand will ghost it.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to light shade; hotter climates appreciate afternoon shade and moisture.
+    - Consistently moist, rich soil; pond margins and rain garden edges are classic.
+    - Do not let pots dry completely in peak heat if you want lush mats.
+
+    ✂️ Methods to Propagate:
+    - Division: easiest mint path — split mats in spring or fall.
+    - Cuttings: root stem tips in water or humid media.
+  purpose: |-
+    Pennyroyal is powerful chemistry in a small leaf package:
+
+    - Medicinal: Historical uses for digestion and menstruation — modern safety says hard no to casual internal oil use.
+    - Pollinator: Small flowers feed beneficials when allowed to bloom briefly.
+    - Ground Cover: Creeping mats for moist, contained beds.
+    - Pest Management: Crush-tested repellent folklore for fleas and mosquitoes — verify expectations.
   companions:
-  - NEEDS_DATA
+  - Elderberry
+  - Iris
+  - Cattail
   avoid:
-  - NEEDS_DATA
+  - Pregnancy, infants, pets chewing experiments
+  - Letting it escape into sensitive wetlands
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Spider mites
+  - Whitefly
   # Image attribution: (c) dodger93, some rights reserved (CC BY-NC)
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

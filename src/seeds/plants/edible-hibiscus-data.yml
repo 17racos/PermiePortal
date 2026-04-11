@@ -1,27 +1,49 @@
 ---
 - common_name: Edible Hibiscus
   picture: edible_hibiscus.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Abelmoschus manihot
+  aka:
+  - Aibika
+  - Bele
+  - Hibiscus manihot
+  family: Malvaceae
+  zone: "8-12"
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 25
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Mulcher
+  - Wildlife Attractor
+  description: "Edible hibiscus here means **Abelmoschus manihot**, a tall malvaceous
+    shrub with huge maple-ish leaves and showy pale yellow flowers. Young leaves and
+    shoot tips are cooked like mild greens; mucilage behaves okra-adjacent in stews.\n\nNorth
+    Florida: dies back in hard freezes, returns from crown or mulch if mild; treat
+    as annual north of 9a or overwinter cuttings.\n\nSun and water: Full sun to light
+    shade; rich, moist, well-drained soil; heavy feeding during rapid summer growth;
+    mulch to keep roots cool.\n\nPropagation: Seeds; basal cuttings; division of multi-stem
+    clumps. Save seed from the most tender-leafed plants you like."
+  purpose: |-
+    Monster greens for humid summers, chop-and-drop biomass, and pollinator-sized
+    flowers. If you expected cranberry-colored roselle calyces, that is a different
+    hibiscus—still Malvaceae, different snack.
   companions:
-  - NEEDS_DATA
+  - Okra
+  - Roselle
+  - Sweet Potato
+  - Lemongrass
   avoid:
-  - NEEDS_DATA
+  - Boggy stagnant soil
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Whiteflies
+  - Japanese Beetles
+  - Caterpillars
   # Image attribution: ADARSHluck / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

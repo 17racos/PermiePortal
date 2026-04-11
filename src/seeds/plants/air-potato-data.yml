@@ -1,27 +1,42 @@
 ---
 - common_name: Air Potato
   picture: air_potato.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Dioscorea bulbifera
+  aka:
+  - Air yam
+  - Potato yam (do not confuse with food-security fantasy)
+  family: Dioscoreaceae
+  zone: 9-11
+  ideal_temp_min: 65
+  ideal_temp_max: 92
+  min_temp: 28
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Vine
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ground Cover
+  description: |-
+    Air potato is the poster yam for “just because it is edible somewhere does not mean you should unleash it.” In Florida it is a regulated invasive that smothers canopy; the aerial bulbils travel like gossip. This entry is documentation, not encouragement.
+
+    North Florida / subtropical: Already a known ecosystem problem in parts of the state. If you are researching control, assume any bulbil you drop is a lawsuit against the forest.
+
+    Sun and water: Rampant in sun to partial shade with summer moisture; tolerates seasonal dry-down once established—that is part of why it wins.
+
+    Propagation: Unfortunately extremely easy from bulbils and tubers—which is exactly why land managers lose sleep. Do not propagate for permaculture cosplay where it is illegal or unethical.
+  purpose: |-
+    In its native range, starchy food from tubers and some forms of bulbils with proper processing knowledge. In invaded landscapes: prioritize reporting, mechanical removal, and site-appropriate control per local guidance—not backyard cultivation.
   companions:
-  - NEEDS_DATA
+  - None recommended in invasion zones
   avoid:
-  - NEEDS_DATA
+  - Planting where prohibited or ecologically reckless
+  - Confusing it with benign ornamental vines
   pests:
-  - NEEDS_DATA
+  - flea beetles
+  - aphids
+  - mites
+  growth_habit: Deciduous twining vine; forms underground tubers and aerial bulbils
+  data_quality_score: 0.75
   # Image attribution: Vengolis / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

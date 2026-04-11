@@ -1,27 +1,45 @@
 ---
 - common_name: Lychee
   picture: lychee.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Litchi chinensis
+  aka:
+  - Litchi
+  - Chinese strawberry (old nickname)
+  family: Sapindaceae
+  zone: 10-11
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 24
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  description: |-
+    Lychee is the soapberry-family diva: glossy evergreen leaves, panicles of cream flowers, and fruit that spoils faster than your weekend plans. Wind, soggy roots, and winter nerves are how dreams die.
+
+    North Florida / subtropical: In-ground reliability starts around serious 10a/b microclimate; 9b is mostly potted refugee or accept periodic dieback.
+
+    Sun and water: Full sun for flowering and fruit set once hardened. Deep, acidic, well-drained soil; careful irrigation—Phytophthora does not need encouragement.
+
+    Propagation: Air-layering and grafting for true-to-type trees; seeds for rootstock experiments, not fruit patience.
+  purpose: |-
+    Premium fresh fruit where climate cooperates; ornamental evergreen canopy in frost-free yards; bragging rights tempered by humility and mulch.
   companions:
-  - NEEDS_DATA
+  - Nitrogen-fixing ground covers
+  - Comfrey
   avoid:
-  - NEEDS_DATA
+  - High pH water and soil without amendment
+  - Lawn herbicide drift
   pests:
-  - NEEDS_DATA
+  - caribbean fruit fly
+  - scale insects
+  - aphids
+  growth_habit: Medium to large evergreen tree; dense rounded crown when managed
+  data_quality_score: 0.75
   # Image attribution: Ivar Leidus / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

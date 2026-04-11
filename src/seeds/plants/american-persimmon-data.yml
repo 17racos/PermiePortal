@@ -1,27 +1,47 @@
 ---
 - common_name: American Persimmon
-  picture: american_persimmon.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Diospyros virginiana
+  aka:
+  - Common persimmon
+  - Eastern persimmon
+  family: Ebenaceae
+  zone: 4-9
+  ideal_temp_min: 45
+  ideal_temp_max: 88
+  min_temp: -25
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Timber
+  - Ornamental
+  description: |-
+    American persimmon is the native astringent poker that ripens into sugar only after frost—or patience—then feeds everything with a sweet tooth. Taprooted, slow to fruit from seed, worth it for honest regional food forests.
+
+    North Florida / subtropical: Right at home; fruit quality varies wildly by genetics—grafted cultivars exist for people who dislike botanical roulette.
+
+    Sun and water: Full sun for best fruiting. Tolerates poor, dry soils once established; appreciates deep watering when sizing fruit in sandy drought.
+
+    Propagation: Seeds (deep taproot, long juvenility); grafting onto seedling rootstock for known fruit; transplant very young trees only.
+  purpose: |-
+    Wildlife mast crop; human-grade fruit from improved selections; dense wood and turning stock where ethically harvested; fall color and bark interest without asking permission.
   companions:
-  - NEEDS_DATA
+  - Pawpaw
+  - Black locust
+  - Native grasses
   avoid:
-  - NEEDS_DATA
+  - Expecting instant gratification from seedling trees
+  - Planting under aggressive turf competition without mulch ring honesty
   pests:
-  - NEEDS_DATA
+  - persimmon psylla
+  - scale insects
+  - borers
+  growth_habit: Medium deciduous tree; often multi-trunked; deep taproot
+  data_quality_score: 0.8
   # Image attribution: Ryan Native Plant / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

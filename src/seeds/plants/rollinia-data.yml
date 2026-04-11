@@ -1,27 +1,45 @@
 ---
 - common_name: Rollinia
   picture: rollinia.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Rollinia deliciosa
+  aka:
+  - Biriba
+  - Lemon meringue fruit (marketing adjacent)
+  family: Annonaceae
+  zone: 10-11
+  ideal_temp_min: 65
+  ideal_temp_max: 92
+  min_temp: 32
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  description: |-
+    Rollinia is the annonaceous fruit that looks like soft yellow armor and tastes like citrus custard had a fling with banana. Brittle branches, dramatic fruit, zero interest in your cold snaps.
+
+    North Florida / subtropical: Greenhouse or very protected 10b+ unless you enjoy resetting the experiment annually.
+
+    Sun and water: Young trees want partial shade; fruiting adults take more sun in humid tropics. Steady moisture with excellent drainage; hates salt wind and drought stress during fruit set.
+
+    Propagation: Seeds (variable); grafting onto compatible annona rootstocks where practiced.
+  purpose: |-
+    Fresh dessert fruit where climate cooperates; novelty small tree for collectors; wildlife will audition for fallen fruit if you slack on harvest.
   companions:
-  - NEEDS_DATA
+  - Other annonas (with spacing for airflow)
+  - Nitrogen-fixing ground covers
   avoid:
-  - NEEDS_DATA
+  - Wind-exposed hilltops
+  - Heavy wet clay
   pests:
-  - NEEDS_DATA
+  - scale insects
+  - aphids
+  - caribbean fruit fly
+  growth_habit: Fast-growing soft-wooded tree; pendant fruit with soft spines
+  data_quality_score: 0.75
   # Image attribution: Aibdescalzo / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

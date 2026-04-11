@@ -1,27 +1,48 @@
 ---
 - common_name: Jatoba
   picture: jatoba.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Hymenaea courbaril
+  aka:
+  - Brazilian copal
+  - West Indian locust
+  - Stinking toe (fruit nickname—yes, really)
+  family: Fabaceae
+  zone: 10b-12
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 30
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Canopy
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Timber
+  - Wildlife Attractor
+  - Nitrogen Fixer
+  description: |-
+    Jatoba is a massive neotropical legume tree with resinous drama, hardwood timber dreams, and a podded fruit that tastes better than its playground nicknames suggest—when fully ripe and properly handled.
+
+    North Florida / subtropical: Marginal at best in warmest pockets; treat as curiosity or greenhouse unless you are comfortably south and frost-free.
+
+    Sun and water: Full sun for strong architecture. Deep, well-drained soil; established trees tolerate seasonal dry periods typical of savanna and forest-edge habitats.
+
+    Propagation: Fresh seeds after scarification; long taproot—transplant young or plan permanent placement.
+  purpose: |-
+    Starchy-aromatic pulp for regional beverages and sweets where known; high-value timber where legal and sustainable; canopy layer for large food forests in true tropics; wildlife food from fallen fruit.
   companions:
-  - NEEDS_DATA
+  - Other large legume trees
+  - Understory shrubs adapted to dry season shade
   avoid:
-  - NEEDS_DATA
+  - Heavy clay with poor drainage
+  - Urban lots that cannot host a real canopy tree
   pests:
-  - NEEDS_DATA
+  - borers
+  - scale insects
+  - caterpillars
+  growth_habit: Very large evergreen canopy tree in native range
+  data_quality_score: 0.75
   # Image attribution: (c) Mauricio Mercadante, some rights reserved (CC BY-NC-SA)
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

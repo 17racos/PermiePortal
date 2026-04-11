@@ -1,27 +1,47 @@
 ---
 - common_name: New Zealand Spinach
   picture: new_zealand_spinach.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Tetragonia tetragonoides
+  aka:
+  - Warrigal Greens
+  - Sea Spinach
+  family: Aizoaceae
+  zone: "8-11"
+  ideal_temp_min: 60
+  ideal_temp_max: 90
+  min_temp: 25
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ground Cover
+  - Erosion Control
+  - Wildlife Attractor
+  description: "New Zealand spinach is a succulent-leaved ground creeper from sandy
+    coasts, bearing mild spinachy leaves high in oxalates—blanch or cook; do not
+    mainline raw kilos. It thrives when true spinach is having a meltdown in heat.\n\nNorth
+    Florida: excellent summer annual/perennial ground cover near coast or in sandy
+    gardens; inland humidity can encourage fungal spots without airflow.\n\nSun and
+    water: Full sun to light shade; tolerates poor sand and some salt spray; moderate
+    moisture—succulent leaves still hate drought baking.\n\nPropagation: Seeds (scarify/soak);
+    cuttings root at nodes; spreads by runners—edge beds with barriers if you like
+    tidy lines."
+  purpose: |-
+    Hot-season leafy green, living mulch, and stabilizer for salty breezy edges.
+    Oxalate management is adulting for foragers.
   companions:
-  - NEEDS_DATA
+  - Roselle
+  - Okra
+  - Sweet Potato
+  - Beach Bean
   avoid:
-  - NEEDS_DATA
+  - Heavy clay with poor drainage
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Slugs
+  - Snails
   # Image attribution: Joydeep / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

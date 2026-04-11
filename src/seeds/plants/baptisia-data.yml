@@ -1,27 +1,47 @@
 ---
 - common_name: Baptisia
-  picture: baptisia.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Baptisia australis
+  aka:
+  - Blue wild indigo
+  - False indigo
+  family: Fabaceae
+  zone: 3-9
+  ideal_temp_min: 50
+  ideal_temp_max: 85
+  min_temp: -35
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Nitrogen Fixer
+  - Ornamental
+  - Wildlife Attractor
+  - Dynamic Accumulator
+  description: |-
+    Baptisia is the perennial legume that builds its own fertilizer, then flowers like a lupine that skipped leg day and went straight to architecture. Deep taproot; do not plan on moving it twice.
+
+    North Florida / subtropical: Fine through 9a as long as soil drains; intense heat plus wet can shorten lifespan—give it space and sun, not swale soup.
+
+    Sun and water: Full sun for stiff stems and best bloom. Average to lean, well-drained soil; drought-tolerant once established. Overwatering and heavy clay are the usual killers.
+
+    Propagation: Scarified seeds (slow, honest work); division of young clumps if you must; transplant small plants only.
+  purpose: |-
+    Nitrogen fixation in perennial borders and savanna-style plantings; long-season pollinator plant (bumblebees show up like it owes them money); deep nutrient mining with chop-and-drop potential after dieback.
   companions:
-  - NEEDS_DATA
+  - Coneflower
+  - Switchgrass
+  - Little bluestem
   avoid:
-  - NEEDS_DATA
+  - Wet, stagnant soil
+  - Heavy root disturbance once mature
   pests:
-  - NEEDS_DATA
+  - aphids
+  - leafhoppers
+  - caterpillars
+  growth_habit: Upright herbaceous perennial; shrub-like mound by maturity
+  data_quality_score: 0.75
   # Image attribution: Hayes Valentine / Wikimedia Commons / CC BY 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

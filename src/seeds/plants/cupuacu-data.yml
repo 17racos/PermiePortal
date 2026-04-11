@@ -1,27 +1,50 @@
 ---
 - common_name: Cupuacu
   picture: cupuacu.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Theobroma grandiflorum
+  aka:
+  - Cupuaçu
+  family: Malvaceae
+  zone: "11-12"
+  ideal_temp_min: 70
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Shade Provider
+  description: |-
+    Cupuacu is cacao's loud cousin in the rainforest — big fuzzy brown fruit, pulp that tastes like pear crossed with pineapple propaganda, and seeds that become confectionery butter in countries that actually process it. True lowland humid tropical; continental North Florida is "nice try" unless you own a conservatory and a therapist.
+
+    ☀️💧 Sun and Water Requirements:
+    - Understory youth in nature; in cultivation often given bright shade then more sun with humidity.
+    - Constant moisture, high organic matter, excellent drainage on slopes to avoid root suffocation.
+    - Wind protection; brittle architecture when young.
+
+    ✂️ Methods to Propagate:
+    - Seeds: recalcitrant — plant fresh, short viability window.
+    - Grafting selected clones for fruit quality and vigor control.
+  purpose: |-
+    Cupuacu is canopy dessert for equatorial honesty:
+
+    - Edible: Pulp fresh or in drinks; seeds for butter and chocolate-adjacent industry — processing matters.
+    - Wildlife Attractor: Flowers and fruit engage tropical pollinators and frugivores.
+    - Shade Provider: Medium tree for understory guilds where humidity stays rude year-round.
   companions:
-  - NEEDS_DATA
+  - Cacao
+  - Banana
+  - Inga
   avoid:
-  - NEEDS_DATA
+  - Cool dry winters typical of North Florida
+  - Saline or calcareous soils without amendment and irony management
   pests:
-  - NEEDS_DATA
+  - Mealybugs
+  - Scale Insects
+  - Anthracnose
   # Image attribution: (c) Sergio Mendez-Cardona, some rights reserved (CC BY-NC), uploaded by Sergio Mendez-Cardona
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

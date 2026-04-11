@@ -1,27 +1,45 @@
 ---
 - common_name: Water Hyacinth
   picture: water_hyacinth.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Eichhornia crassipes
+  aka:
+  - Common Water Hyacinth
+  family: Pontederiaceae
+  zone: "9-12"
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 32
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Aquatic
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Water Purifier
+  - Animal Fodder
+  - Mulcher
+  - Green Manure
+  description: "Water hyacinth is a floating rosette with glossy leaves and lavender
+    flowers—gorgeous, fast, and ecologically obnoxious when it escapes. It strips
+    nutrients from water, mats thick enough to stall boats, and is illegal to possess
+    in many jurisdictions, **including Florida**, because it clogs springs and rivers.\n\nTreat
+    this entry as ID + historical use, not a planting recommendation. In permitted
+    research or wastewater systems overseas it is grown in contained tanks—not open
+    ponds that touch public water.\n\nSun and water: Full sun; floating on nutrient-rich
+    freshwater; explodes with heat and fertility.\n\nPropagation: Daughter plants on
+    stolons—absurdly easy, which is the problem. Do not \"share\" with neighbors unless
+    you dislike them and local laws."
+  purpose: |-
+    Nutrient sponge in closed systems where legal; compost feedstock where allowed;
+    cautionary tale everywhere else. If you are in Florida, assume possession is
+    restricted and design with native aquatics instead.
   companions:
-  - NEEDS_DATA
+  - None outdoors (contained systems only)
   avoid:
-  - NEEDS_DATA
+  - Open waterways
+  - Natural ponds
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Snails
   # Image attribution: no rights reserved, uploaded by 葉子
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

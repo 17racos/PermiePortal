@@ -1,27 +1,46 @@
 ---
 - common_name: Aguaje Palm
   picture: aguaje_palm.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Mauritia flexuosa
+  aka:
+  - Moriche palm
+  - Buriti
+  family: Arecaceae
+  zone: 10-12
+  ideal_temp_min: 75
+  ideal_temp_max: 92
+  min_temp: 32
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Erosion Control
+  description: "Aguaje palm is the swamp beauty of western Amazonia—stilt roots, huge
+    feather leaves, and red-scaled fruit pulp that shows up in drinks, ice creams, and
+    local economies. This is not a balcony palm unless your balcony overlooks a peat
+    swamp.\n\nNorth Florida / subtropical: Not realistic outdoors. Think botanical
+    garden greenhouse or move to Iquitos.\n\nSun and water: Full sun in wet settings;
+    roots tolerate seasonal flooding. Needs tropical humidity and space—lots of space.\n\nPropagation:
+    Fresh seed; very slow early growth; patience measured in decades for canopy form."
+  purpose: |-
+    Fruit and oil palm for true tropical agroforestry, peatland stabilization where
+    appropriate ecologically, and megafauna food fantasies.
   companions:
-  - NEEDS_DATA
+  - Aquatic edge guilds
+  - Other palms
+  - Wetland hardwoods
   avoid:
-  - NEEDS_DATA
+  - Cold dry winters
+  - Tiny suburban lots
   pests:
-  - NEEDS_DATA
-  # Image attribution: No image found
-  # Image source: none
+  - palmetto weevil
+  - red palm weevil
+  - scale insects
+  growth_habit: Large dioecious palm of seasonally flooded forests
+  data_quality_score: 0.65
+  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
+  # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,54 @@
 ---
 - common_name: Bignay
   picture: bignay.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Antidesma bunius
+  aka:
+  - Bugnay
+  - Chinese laurel
+  family: Phyllanthaceae
+  zone: 10-11
+  ideal_temp_min: 70
+  ideal_temp_max: 90
+  min_temp: 30
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  - Mulcher
+  description: |-
+    Bignay is a Southeast Asian tree bearing long racemes of sour-to-sweet red berries—wine, jams, and brave faces at potlucks. Dioecious: you need male and female plants for fruit unless you luck into a hermaphrodite selection. North Florida is only friendly in warm microclimates; cold snaps punish careless placement.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to light shade; more sun generally means heavier flowering and fruiting where climate allows.
+    - Deep, fertile, well-drained soil; consistent moisture during fruit development.
+
+    ✂️ Methods to Propagate:
+    - Seeds: viable from fresh fruit; juveniles take years—patience or grafting for production.
+    - Cuttings and air-layering used for known sexed selections when available.
+
+    🌾 Harvest notes:
+    - Ripening is staggered along the cluster; pick as individual berries darken—taste before you commit a whole batch to fermentation.
+  purpose: |-
+    - Edible: Berries for preserves, beverages, and acidic punches—verify processing recipes.
+    - Wildlife Attractor: Birds love the fruit; plan netting or share politely.
+    - Ornamental: Glossy foliage and showy fruiting stems in humid subtropical gardens.
+    - Mulcher: Leaf fall feeds understory in guild settings.
   companions:
-  - NEEDS_DATA
+  - Banana
+  - Nitrogen-fixing shrubs
+  - Ginger understory
   avoid:
-  - NEEDS_DATA
+  - Exposed frost pockets for young trees
+  - Waterlogged clay that suffocates roots
   pests:
-  - NEEDS_DATA
+  - Scale Insects
+  - Mealybugs
+  - Aphids
   # Image attribution: (c) biobank-lantauhk, some rights reserved (CC BY-NC), uploaded by biobank-lantauhk
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

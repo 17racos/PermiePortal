@@ -1,27 +1,46 @@
 ---
-- common_name: Acai Palm
+- common_name: Açaí Palm
   picture: acai_palm.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Euterpe oleracea
+  aka:
+  - Assai palm
+  family: Arecaceae
+  zone: 10-11
+  ideal_temp_min: 72
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Mulcher
+  description: "Açaí is the multi-stemmed palm behind the purple smoothie bowl industrial
+    complex—slender trunks, pinnate leaves, and fruit borne in hanging clusters that
+    want heat, humidity, and shade when young.\n\nNorth Florida / subtropical: Marginal
+    at best outdoors; coastal south Florida triers with canopy shade and winter protection
+    experiments exist. Everyone else: greenhouse or vacation.\n\nSun and water: Part
+    shade for juveniles; more sun with age in humid air. Consistent soil moisture; intolerant
+    of drought once pushing new spears.\n\nPropagation: Fresh seed; clumping habit from
+    multiple stems—division is not a casual weekend trick on big specimens."
+  purpose: |-
+    Palm heart (sustainability debates apply), antioxidant fruit pulp for processing,
+    and fast leafy biomass in humid tropical stacks.
   companions:
-  - NEEDS_DATA
+  - Theobroma cacao
+  - Other shade-tolerant understory crops
+  - Nitrogen-fixing trees at edge
   avoid:
-  - NEEDS_DATA
+  - Dry cold winds
+  - Open exposed 9a fields
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) João Medeiros, some rights reserved (CC BY)
+  - red palm weevil
+  - scale insects
+  - palmetto weevil
+  growth_habit: Clustering palm of lowland humid tropics
+  data_quality_score: 0.72
+  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

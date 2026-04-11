@@ -1,27 +1,53 @@
 ---
 - common_name: Sacred Basil
-  picture: sacred_basil.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Ocimum tenuiflorum
+  aka:
+  - Tulsi
+  - Holy basil (also used for other Ocimum taxa — verify cultivar)
+  family: Lamiaceae
+  zone: "10-12"
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 40
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Medicinal
+  - Pollinator
+  - Edible
+  - Pest Management
+  description: "Sacred basil — tulsi — is the aromatic shrubby basil that thinks
+    sweet Genovese basil is soft. Peppery-clove scent, small leaves, and a cultural resume
+    longer than this file. In true tropical frost-free pockets it is a short-lived
+    woody perennial; in North Florida grow as a heat-season annual unless you overwinter
+    cuttings indoors. Full sun, excellent drainage, and airflow reduce downy mildew’s
+    invitation to the party.\n\n \U0001F31E\U0001F4A7 Sun and Water Requirements:\n-
+    Full sun for dense, aromatic growth.\n- Moderate water; let soil breathe between
+    drinks.\n- Well-drained loam; pots work well in humid rainy spells.\n\n✂️\U0001FAD8
+    Methods to Propagate:\n- Seeds: surface sow warm.\n- Cuttings root readily in water
+    or humid media for winter insurance.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E
+    When to Harvest:\n- Pinch flowering tops for leaf production or allow bloom for
+    pollinators — pick your theology."
+  purpose: |-
+    Sacred basil is medicine, tea, and insect confusion in one plant:
+
+    - Medicinal: Adaptogen-adjacent herbal fame — still a plant, not a pharma press release.
+    - Pollinator: Small flowers feed bees and tiny wasps.
+    - Edible: Tea, fresh leaf use, and syrups in culinary traditions.
+    - Pest Management: Strong scent in polycultures can mask neighbors — scout anyway.
   companions:
-  - NEEDS_DATA
+  - Lemongrass
+  - Ginger
+  - Tomato
   avoid:
-  - NEEDS_DATA
+  - Shady wet corners where mildew throws parties
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Whiteflies
+  - Downy Mildew
   # Image attribution: No image found
   # Image source: none
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

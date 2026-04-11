@@ -1,27 +1,55 @@
 ---
 - common_name: Eddoe
-  picture: eddoe.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Colocasia esculenta (eddoe type)
+  aka:
+  - Taro (corm type)
+  - Malanga isleña
+  family: Araceae
+  zone: "8-12"
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 35
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ground Cover
+  - Animal Fodder
+  - Mulcher
+  description: "Eddoe is a small-corm, more drought-tolerant taro type than giant
+    dasheen — still a tropical beast pretending it belongs in a temperate spreadsheet.
+    It grows big, elephant-ear leaves and starchy corms used like potato or taro. In
+    North Florida you treat it as a long-season annual or lift corms before hard frost;
+    humid summers are its happy place.\n\n \U0001F31E\U0001F4A7 Sun and Water Requirements:\n-
+    Part sun to full sun; some afternoon shade helps in brutal heat.\n- Consistently
+    moist, rich soil for best corm bulk; tolerates brief wet feet better than true
+    desert crops.\n- Mulch heavily to hold moisture and feed the soil food web.\n\n✂️\U0001FAD8
+    Methods to Propagate:\n- Corm division: Split offsets when dormant in warm soil.\n-
+    Suckers: Separate pups from the mother clump at the start of the growing season.\n-
+    Not a beginner seed crop — buy known eddoe types, not random ornamental elephant
+    ear.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E When to Harvest:\n- Dig corms
+    after tops yellow or before first killing frost.\n- Cure briefly in shade with
+    airflow before storage.\n- Leaves must be cooked; do not eat raw."
+  purpose: |-
+    Eddoe is a starchy staple for humid subtropical systems:
+
+    - Edible: Starchy corms; cooked leaves where culturally used (always cook).
+    - Ground Cover: Broad leaves shade soil and reduce evaporation.
+    - Animal Fodder: Foliage can feed livestock where practices allow (cooking for humans).
+    - Mulcher: Spent tops chop-and-drop into wet beds.
   companions:
-  - NEEDS_DATA
+  - Banana
+  - Papaya
+  - Sweet Potato
   avoid:
-  - NEEDS_DATA
+  - Dry Mediterranean herbs that hate humidity
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Caterpillars
+  - Root Rot Fungus
   # Image attribution: No image found
   # Image source: none
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

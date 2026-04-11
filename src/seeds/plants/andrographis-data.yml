@@ -1,27 +1,48 @@
 ---
 - common_name: Andrographis
   picture: andrographis.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  scientific_name: Andrographis paniculata
+  aka:
+  - King of bitters
+  - Green chiretta
+  family: Acanthaceae
+  zone: 10-11
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 32
+  max_temp: 105
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Medicinal
+  - Pollinator
+  - Ornamental
+  description: "Andrographis is the famously bitter leafy herb of Ayurveda and traditional
+    Asian medicine—tastes like punishment, marketed like redemption. Upright stems,
+    simple leaves, and small white-to-lilac flowers with dramatic eyelashes on the petals.\n\nNorth
+    Florida / subtropical: Grow as a fast warm-season annual or push as a tender perennial
+    in protected 10a microclimates. It loves heat the way tourists love air conditioning.\n\nSun
+    and water: Full sun to bright part shade. Steady moisture, fertile but well-drained
+    soil; wilts theatrically when dry, recovers if you are quick.\n\nPropagation: Easy
+    from seed; also cuttings in warm weather. Self-sows lightly where winters are mild—watch
+    volunteers."
+  purpose: |-
+    Bitter tonic herb for teas and extracts (do your own homework on dosing), pollinator
+    support during bloom, and a vertical accent in medicinal beds.
   companions:
-  - NEEDS_DATA
+  - Basil
+  - Lemongrass
+  - Other heat-loving herbs
   avoid:
-  - NEEDS_DATA
+  - Cold wet soil at germination
+  - Deep shade that reduces vigor
   pests:
-  - NEEDS_DATA
-  # Image attribution: no rights reserved, uploaded by 葉子
+  - aphids
+  - whiteflies
+  - spider mites
+  growth_habit: Erect branching annual or short-lived perennial
+  data_quality_score: 0.72
+  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

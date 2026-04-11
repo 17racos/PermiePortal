@@ -1,27 +1,52 @@
 ---
 - common_name: Maidenhair Fern
   picture: maidenhair_fern.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
+  scientific_name: Adiantum capillus-veneris
+  aka:
+  - Southern maidenhair fern
+  - Venus hair fern
+  family: Pteridaceae
+  zone: "6-11"
+  ideal_temp_min: 45
+  ideal_temp_max: 85
   min_temp: 0
-  max_temp: 0
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Ground Cover
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ornamental
+  - Erosion Control
+  - Wildlife Attractor
+  description: |-
+    Maidenhair fern is the lacy black-stem drama queen — fan-shaped leaflets on wiry stalks, happiest on limestone seeps and humid shade. In North Florida it naturalizes near springs and moist walls; indoors it tests your misting discipline and honesty about drafty HVAC.
+
+    ☀️💧 Sun and Water Requirements:
+    - Bright shade to dappled light; direct sun fries fronds like bad critique.
+    - Consistent moisture with good air movement; hates drying cycles and salt buildup.
+    - Limestone-tolerant; appreciates alkaline seep chemistry where applicable.
+
+    ✂️ Methods to Propagate:
+    - Division: split crowns in spring with sharp tools and minimal root trauma.
+    - Spores: slow lab-art path — division is the backyard sanity move.
+  purpose: |-
+    Maidenhair fern is shade aesthetics with habitat receipts:
+
+    - Ornamental: Texture plant for shade gardens, courtyards, and grotto cosplay.
+    - Erosion Control: Fibrous roots stabilize moist rock crevices and seeps modestly.
+    - Wildlife Attractor: Moist shade cover for small invertebrates and amphibian micro-life.
   companions:
-  - NEEDS_DATA
+  - Cardinal flower
+  - Cinnamon fern
+  - Wild ginger
   avoid:
-  - NEEDS_DATA
+  - Windy dry balconies without humidity intervention
+  - Hard water spots on fronds from overhead splash without occasional rinse
   pests:
-  - NEEDS_DATA
+  - Scale Insects
+  - Mealybugs
+  - Slugs
   # Image attribution: (c) cgbb2004, some rights reserved (CC BY-NC), uploaded by cgbb2004
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

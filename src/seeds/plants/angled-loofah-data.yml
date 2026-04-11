@@ -1,27 +1,51 @@
 ---
 - common_name: Angled Loofah
-  picture: angled_loofah.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  picture: ""
+  scientific_name: Luffa acutangula
+  aka:
+  - Ridge gourd
+  - Chinese okra
+  family: Cucurbitaceae
+  zone: 3-11
+  ideal_temp_min: 70
+  ideal_temp_max: 92
+  min_temp: 50
+  max_temp: 100
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Vine
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Fiber
+  - Pollinator
+  description: |-
+    Angled loofah is the ridged cousin of the sponge loofah — young fruit stir-fries like a cucumber with ambition; old fruit becomes fibrous skeletons for scrubbing dishes and exfoliating your bad decisions. It is a heat-loving annual vine that will climb your fence, your tomatoes, and your dignity if you skip a trellis. In North Florida plant after soil warms; the first cold snap ends the party.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun and rich, organic soil with steady moisture during fruit set.
+    - Heavy feeder — compost and occasional balanced fertility beat miracle-gro cosplay.
+    - Trellis strongly; fruit hangs straighter and rots less than fruits on wet ground.
+
+    ✂️ Methods to Propagate:
+    - Direct sow 2–3 seeds per hill after last frost, thin to strongest.
+    - Transplant: start indoors 3–4 weeks before last frost if you need head start on short seasons.
+  purpose: |-
+    Angled loofah is food plus utility fiber in one vine:
+
+    - Edible: Harvest young fruit for cooking before fibers toughen.
+    - Fiber: Mature gourds yield luffa sponges when dried and peeled.
+    - Pollinator: Large yellow flowers feed bees if you stop spraying every bug.
   companions:
-  - NEEDS_DATA
+  - Beans
+  - Nasturtium
+  - Marigold
   avoid:
-  - NEEDS_DATA
+  - Wet foliage without airflow (disease city)
+  - Letting vines sprawl on damp soil
   pests:
-  - NEEDS_DATA
+  - Squash vine borer
+  - Pickleworm
+  - Spotted cucumber beetle
   # Image attribution: No image found
   # Image source: none
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

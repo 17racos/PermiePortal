@@ -1,27 +1,49 @@
 ---
 - common_name: Lemon Basil
   picture: lemon_basil.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  scientific_name: "Ocimum × citriodorum"
+  aka:
+  - Lemon scented basil
+  - Hoary basil hybrid group
+  family: Lamiaceae
+  zone: 9-11
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 100
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Pollinator
+  - Pest Management
+  description: "Lemon basil is the citrus-leaning Ocimum hybrid group sold for teas,
+    fish, and salads—bright lemon aroma without stealing a tree’s thunder. Flowers
+    still feed bees if you stop pinching for a week.\n\nNorth Florida / subtropical:
+    Grow spring through fall like other basils; bolts in heat waves—harvest tips and
+    flower spikes to stretch production. Frost is the hard stop.\n\nSun and water:
+    Full sun, fertile well-drained soil, steady moisture. Container culture works if
+    you accept daily water checks in August.\n\nPropagation: Seed; soft cuttings root
+    in water or moist media."
+  purpose: |-
+    Aromatic annual for hot kitchens:
+
+    - Edible: Leaves raw or cooked; flowers as garnish.
+    - Pollinator: Blooms when you allow them.
+    - Pest Management: Strong scent may confuse some pests—realism appreciated.
   companions:
-  - NEEDS_DATA
+  - Tomatoes
+  - Thai Basil
+  - Marigold
   avoid:
-  - NEEDS_DATA
+  - Cold wet soil at germination
+  - Dense shade
   pests:
-  - NEEDS_DATA
+  - aphids
+  - japanese beetles
+  growth_habit: Bushy annual herb to about 18–24 inches
+  data_quality_score: 0.8
   # Image attribution: (c) jularat, some rights reserved (CC BY-NC)
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

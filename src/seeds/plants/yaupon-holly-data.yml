@@ -1,27 +1,54 @@
 ---
 - common_name: Yaupon Holly
   picture: yaupon_holly.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Ilex vomitoria
+  aka:
+  - Cassina
+  family: Aquifoliaceae
+  zone: "7-10"
+  ideal_temp_min: 45
+  ideal_temp_max: 98
+  min_temp: -5
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Windbreaker
+  - Erosion Control
+  description: |-
+    Yaupon holly is the native caffeinated shrug — small evergreen leaves, red berries on females, historically brewed into a black drink colonizers misread as "vomitoria" theater. Contains caffeine; respect concentration and personal wiring. North Florida workhorse for hedges, dunes, and food forest edges that need tough.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to part shade; denser in sun, looser in shade.
+    - Tolerates drought and salt spray once established — coastal sand is not an insult.
+    - Almost any soil that drains; over-irrigation is insecurity, not love.
+
+    ✂️ Methods to Propagate:
+    - Seeds: stratify; need both sexes nearby for berries on females.
+    - Cuttings: semi-hardwood roots with humidity and patience.
+    - Transplant volunteers carefully — roots resent rude moves when large.
+  purpose: |-
+    Yaupon is regional infrastructure with a stimulant side quest:
+
+    - Edible: Leaf tea traditions — start mild, ID correctly, skip random holly cosplay.
+    - Wildlife Attractor: Berries for birds; dense cover for nesting.
+    - Windbreaker: Shearable hedge or freeform screen on exposed edges.
+    - Erosion Control: Roots stabilize sandy banks where lesser shrubs surrender.
   companions:
-  - NEEDS_DATA
+  - Beautyberry
+  - Muhly grass
+  - Wiregrass
   avoid:
-  - NEEDS_DATA
+  - Confusing with other hollies for tea experiments
+  - Planting only males if you wanted berries for wildlife or aesthetics
   pests:
-  - NEEDS_DATA
+  - Scale Insects
+  - Japanese Beetles
+  - Leafrollers
   # Image attribution: Luteus / Wikimedia Commons / CC BY 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

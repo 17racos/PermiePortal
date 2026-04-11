@@ -1,27 +1,48 @@
 ---
 - common_name: Pindo Palm
   picture: pindo_palm.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Butia capitata
+  aka:
+  - Jelly palm
+  - South American jelly palm
+  - Wine palm
+  family: Arecaceae
+  zone: 8-11
+  ideal_temp_min: 55
+  ideal_temp_max: 90
+  min_temp: 12
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Windbreaker
+  - Wildlife Attractor
+  description: |-
+    Pindo palm is the cold-tolerant feather palm that drops messy, fragrant yellow fruit and dares you to make jelly. Landscape architects love the blue-gray fronds; squirrels love everything.
+
+    North Florida / subtropical: A realistic palm for 8b/9a with established specimens handling short dips better than marketing brochures admit. Still: plant the crown high, improve drainage, and skip the fantasy that it is a coconut.
+
+    Sun and water: Full sun once established; young plants appreciate part shade. Drought-tolerant when mature but fruits better with deep, occasional watering in well-drained soil.
+
+    Propagation: Fresh seeds (slow germination, months are normal); transplant only small specimens—large palms resent root disturbance.
+  purpose: |-
+    Jelly and wine-adjacent experiments from ripe fruit; evergreen structure and light shade; windbreak accents in drier sites; wildlife snacks whether you approve or not.
   companions:
-  - NEEDS_DATA
+  - Yucca
+  - Agave
+  - Mediterranean herbs
   avoid:
-  - NEEDS_DATA
+  - Chronic wet feet
+  - Deep shade (weak growth, fewer fruit)
   pests:
-  - NEEDS_DATA
+  - scale insects
+  - palmetto weevil
+  - spider mites
+  growth_habit: Solitary pinnate palm; slow to moderate growth
+  data_quality_score: 0.75
   # Image attribution: Marco Schmidt [1] / Wikimedia Commons / CC BY-SA 2.5
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,47 @@
 ---
 - common_name: Wild Ginger
   picture: wild_ginger.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Asarum canadense
+  aka:
+  - Canadian wild ginger
+  - Snakeroot (folk; verify ID)
+  family: Aristolochiaceae
+  zone: 4-7
+  ideal_temp_min: 40
+  ideal_temp_max: 78
+  min_temp: -30
+  max_temp: 90
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Ground Cover
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ground Cover
+  - Medicinal
+  - Wildlife Attractor
+  description: |-
+    Wild ginger is the low heart-leaved groundcover of eastern woodlands—flowers hidden at soil level for ants and curiosity, not Instagram. Not culinary ginger; different family, different rules.
+
+    North Florida / subtropical: Only in cool pockets and northward; heat and long humid summers are not its personality—try native Hexastylis species farther south if you want ginger-ish leaves.
+
+    Sun and water: Full to partial shade; rich, moist, humusy soil that never bakes. Mimics forest floor, not parking median.
+
+    Propagation: Rhizome division when dormant; fresh seed sown immediately; slow spread—patience is currency.
+  purpose: |-
+    Native woodland groundcover; traditional herbal use where culturally appropriate and positively identified; early-spring structure before ferns fully unfurl.
   companions:
-  - NEEDS_DATA
+  - Ferns
+  - Trillium
+  - Spicebush
   avoid:
-  - NEEDS_DATA
+  - Full sun and drought
+  - Confusing with unrelated “wild ginger” toxic lookalikes in other regions
   pests:
-  - NEEDS_DATA
+  - slugs
+  - snails
+  - Root Rot Fungus
+  growth_habit: Rhizomatous perennial; two broad leaves per stem node; low carpet
+  data_quality_score: 0.75
   # Image attribution: (c) George Lee, some rights reserved (CC BY-NC), uploaded by George Lee
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

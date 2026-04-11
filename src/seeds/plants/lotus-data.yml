@@ -1,27 +1,49 @@
 ---
 - common_name: Lotus
   picture: lotus.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Nelumbo nucifera
+  aka:
+  - Sacred lotus
+  - Asian lotus
+  family: Nelumbonaceae
+  zone: 4-11
+  ideal_temp_min: 75
+  ideal_temp_max: 95
+  min_temp: -20
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Aquatic
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Water Purifier
+  - Wildlife Attractor
+  description: "Lotus is the poster child for emergent aquatics—huge peltate leaves,
+    flowers that look like they hired a stylist, and rhizomes humans have eaten for millennia
+    when prepared correctly. Nelumbo lutea is the yellow American cousin; nucifera is
+    the pink/white cultigen complex most people picture.\n\nNorth Florida / subtropical:
+    Pick hardy cultivars for outdoor ponds in 8b/9a; tropical types need winter protection
+    or greenhouse tubs. Deep water over rhizomes reduces temperature swings.\n\nSun
+    and water: Full sun for bloom. Shallow to moderate depth over rich mud; calm water—lotus
+    hates chop like a bad hair day.\n\nPropagation: Division of rhizome sections with
+    growing tips; seed scarification and patience for the botanically stubborn."
+  purpose: |-
+    Edible rhizome, seeds, and young stems where processing knowledge exists; stunning
+    pond architecture; nutrient capture in contained aquatic systems.
   companions:
-  - NEEDS_DATA
+  - Duck potato
+  - Pickerelweed
+  - Fish that balance algae—not koi demolition crews
   avoid:
-  - NEEDS_DATA
+  - Koi without rock protection for rhizomes
+  - Moving water that prevents leaf emergence
   pests:
-  - NEEDS_DATA
+  - aphids
+  - caterpillars
+  - snail
+  growth_habit: Rhizomatous aquatic perennial with emergent leaves and flowers
+  data_quality_score: 0.76
   # Image attribution: (c) Joey Santore, some rights reserved (CC BY-NC), uploaded by Joey Santore
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

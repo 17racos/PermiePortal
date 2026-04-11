@@ -1,27 +1,48 @@
 ---
 - common_name: Sea Purslane
   picture: sea_purslane.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Sesuvium portulacastrum
+  aka:
+  - Shoreline seapurslane
+  family: Aizoaceae
+  zone: 9-11
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 25
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Ground Cover
+  - Aquatic
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Erosion Control
+  - Ground Cover
+  - Wildlife Attractor
+  description: "Sea purslane is the succulent carpet of coastal flats—fleshy leaves, reddish
+    stems, and the casual ability to drink brackish water while your lettuce throws
+    a fit. Young tips are eaten in some cuisines; ID carefully and respect local harvest
+    rules near protected shores.\n\nNorth Florida / subtropical: Native-ish coastal
+    vibe along both coasts; great for salty swales, living shoreline buffers, and “nothing
+    else will grow here” beds.\n\nSun and water: Full sun. Tolerates salt spray and periodic
+    inundation; also handles garden irrigation if drainage exists—do not marinate it
+    in stagnant muck.\n\nPropagation: Cuttings root obnoxiously easily; seed where legal
+    and ecologically appropriate."
+  purpose: |-
+    Edible greens where salinity selects for it, soil-binding ground cover on dunes
+    and pond edges, and habitat for shoreline insects.
   companions:
-  - NEEDS_DATA
+  - Mangrove associates
+  - Salt-tolerant grasses
+  - Beach sunflower
   avoid:
-  - NEEDS_DATA
+  - Deep forest shade
+  - Pure freshwater bog without salt—competes poorly with aggressive aquatics
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Aaron Echols, some rights reserved (CC BY-NC), uploaded by Aaron Echols
+  - aphids
+  - caterpillars
+  growth_habit: Prostrate succulent perennial herb
+  data_quality_score: 0.74
+  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

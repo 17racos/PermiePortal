@@ -1,27 +1,49 @@
 ---
 - common_name: Camu Camu
   picture: camu_camu.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Myrciaria dubia
+  aka:
+  - Cacari
+  - Guayabo
+  family: Myrtaceae
+  zone: 10-11
+  ideal_temp_min: 72
+  ideal_temp_max: 92
+  min_temp: 30
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Erosion Control
+  description: "Camu camu is the Amazonian myrtle that fruits in floodplain energy—sour
+    cherry-sized berries with vitamin C numbers that make supplement grifters sweat.
+    In cultivation it behaves as a multi-stemmed riverine shrub to small tree.\n\nNorth
+    Florida / subtropical: Marginal. Loves humidity and acidic soils; cold tolerance
+    is not its brand. Serious growers use greenhouse or the warmest coastal microclimates.\n\nSun
+    and water: Full sun to bright part shade. High water table tolerance compared to
+    desert fruit; still needs drainage between flood pulses—potted growers mimic wet/dry
+    rhythm carefully.\n\nPropagation: Seeds (short viability—fresh is best); air-layering
+    for known selections."
+  purpose: |-
+    Extremely tart fruit for juice, freeze-dried powder fantasies, and permaculture
+    bragging rights. Bank stabilization along pond edges in truly suitable climates.
   companions:
-  - NEEDS_DATA
+  - Açaí palm
+  - Other myrtles
+  - Wetland edge species
   avoid:
-  - NEEDS_DATA
+  - Alkaline irrigation water without soil organic matter
+  - Dry upland sand without irrigation
   pests:
-  - NEEDS_DATA
-  # Image attribution: LeRoc / Wikimedia Commons / CC BY-SA 3.0
-  # Image source: wikimedia
+  - Caribbean Fruit Fly
+  - scale insects
+  - aphids
+  growth_habit: Bushy evergreen shrub to small tree in wet tropics
+  data_quality_score: 0.7
+  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
+  # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

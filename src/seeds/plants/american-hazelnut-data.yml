@@ -1,27 +1,49 @@
 ---
 - common_name: American Hazelnut
   picture: american_hazelnut.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Corylus americana
+  aka:
+  - American filbert
+  - Eastern hazelnut
+  family: Betulaceae
+  zone: 4-9
+  ideal_temp_min: 40
+  ideal_temp_max: 85
+  min_temp: -35
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Windbreaker
+  description: "Corylus americana is the native multi-stemmed hazel of eastern North
+    America—soft fuzzy husks hiding small sweet nuts squirrels annotate as ‘mine.’
+    Suckering habit makes a thicket unless you edit.\n\nNorth Florida / subtropical:
+    Northern ecotypes sulk in zone 9 heat—seek southern-provenance plants if you
+    are on the peninsula. Needs chill for reliable flowering in some selections.\n\n
+    Sun and water: Full sun to light shade; moist, well-drained, humus-rich soil.
+    Mulch to keep roots cool; drought slows nut fill.\n\nPropagation: Layering
+    suckers; seed (squirrel-assisted); grafted improved selections for bigger nuts."
+  purpose: |-
+    Backyard protein for patient mammals:
+
+    - Edible: Nuts raw or roasted—shell-to-meat ratio keeps you humble.
+    - Wildlife Attractor: Birds, squirrels, and you negotiating harvest timing.
+    - Windbreaker: Informal hedge when allowed to clump.
   companions:
-  - NEEDS_DATA
+  - American Elderberry
+  - Pawpaw
+  - Walnut Tree
   avoid:
-  - NEEDS_DATA
+  - Baking dry sand without organic matter
+  - Expecting commercial Oregon yields from wild-type genetics
   pests:
-  - NEEDS_DATA
+  - japanese beetles
+  - borers
+  growth_habit: Multi-stem deciduous shrub to 10–16 feet
+  data_quality_score: 0.8
   # Image attribution: (c) peggyo, some rights reserved (CC BY-NC), uploaded by peggyo
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

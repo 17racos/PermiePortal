@@ -1,27 +1,53 @@
 ---
 - common_name: Duck Potato
   picture: duck_potato.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Sagittaria latifolia
+  aka:
+  - Broadleaf arrowhead
+  - Wapato
+  family: Alismataceae
+  zone: "4-11"
+  ideal_temp_min: 45
+  ideal_temp_max: 92
+  min_temp: -30
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Aquatic
+  - Herbaceous
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Water Purifier
+  - Wildlife Attractor
+  description: |-
+    Duck potato is the edible pond potato North America forgot it had — starchy tubers on rhizomes, arrow leaves, and zero patience for drought cosplay. In North Florida it colonizes marshy edges; harvest only where water is not a runoff confessional.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to light shade in shallow water or saturated mud.
+    - 6–18 inches water typical; tolerates drawdowns that trigger tuber formation.
+    - Spreads by rhizome — liner or embrace wetland empire.
+
+    ✂️ Methods to Propagate:
+    - Rhizome division: move sections with growing tips in spring.
+    - Seeds: sow in wet mud; variable timeline, good for restoration scale.
+  purpose: |-
+    Duck potato is calories at the water's edge:
+
+    - Edible: Tubers after cooking traditions; verify clean water like your reputation depends on it.
+    - Water Purifier: Roots and rhizomes trap sediment and cycle nutrients in plant tissue.
+    - Wildlife Attractor: Ducks and waterfowl historically keyed to wapato — share or fence mentally.
   companions:
-  - NEEDS_DATA
+  - Cattail
+  - Pickerelweed
+  - Water lily
   avoid:
-  - NEEDS_DATA
+  - Harvest from ditches with fertilizer or road runoff fanfic
+  - Dry berms — wrong plant, wrong sermon
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Snails
+  - Caterpillars
   # Image attribution: (c) Susan Elliott, some rights reserved (CC BY-NC), uploaded by Susan Elliott
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

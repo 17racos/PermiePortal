@@ -1,27 +1,52 @@
 ---
 - common_name: Surinam Cherry
   picture: surinam_cherry.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Eugenia uniflora
+  aka:
+  - Pitanga
+  - Brazilian cherry
+  family: Myrtaceae
+  zone: "9-11"
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 22
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  - Border Plant
+  description: "Surinam cherry is a myrtle relative with ribbed, lantern fruits that
+    taste resinous-tropical — love it or pretend you never met it. In Florida it is
+    a documented invasive in many counties, seeding into hammocks and disturbed ground.
+    If you already have it, harvest hard and remove seedlings; if you are planting
+    new, pick native alternatives unless you enjoy explaining yourself to land managers.
+    Full sun, heat, and decent drainage make it fruit; freezes nip northern margins.\n\n
+    \U0001F31E\U0001F4A7 Sun and Water Requirements:\n- Full sun for heaviest fruiting.\n-
+    Moderate water; drought-tolerant once established but fruits better with even moisture.\n-
+    Well-drained soil; tolerates sandy Florida yards.\n\n✂️\U0001FAD8 Methods to Propagate:\n-
+    Seeds germinate readily — which is the ecological problem.\n- Cuttings and air-layering
+    for clones.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E When to Harvest:\n-
+    Pick fully colored fruit; unripe berries are not a prank worth repeating.\n-
+    Overripe can taste better to some palates, animal-bait to others."
+  purpose: |-
+    Surinam cherry is a cautionary fruiting shrub:
+
+    - Edible: Jams, juices, and brave fresh eating when fully ripe.
+    - Wildlife Attractor: Birds spread seeds — manage accordingly.
+    - Ornamental: Red new growth and tidy habit seduce plant shoppers.
+    - Hedge: Tolerates clipping if you must — still check invasive status locally.
   companions:
-  - NEEDS_DATA
+  - None documented
   avoid:
-  - NEEDS_DATA
+  - Planting near natural areas in invasion-prone regions
   pests:
-  - NEEDS_DATA
+  - Caribbean Fruit Fly
+  - Scale Insects
+  - Whiteflies
   # Image attribution: B. Navez / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

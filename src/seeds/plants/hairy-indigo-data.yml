@@ -1,27 +1,55 @@
 ---
 - common_name: Hairy Indigo
   picture: hairy_indigo.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  scientific_name: Indigofera hirsuta
+  aka:
+  - Hairy indigo (cover crop selection)
+  family: Fabaceae
+  zone: 5-11
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 32
+  max_temp: 105
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Ground Cover
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Nitrogen Fixer
+  - Green Manure
+  - Animal Fodder
+  - Cover Crop
+  - Wildlife Attractor
+  description: |-
+    Hairy indigo is the warm-season cover crop for people tired of bare soil baking like parking lots. It is hairier than your uncle's vacation photos and fixes nitrogen while smothering weeds if you give it heat and time. Not the same as the perennial false indigo gang — this one behaves like an annual hero in Florida summer rotations. Seed in warm soil; frost finishes it without tears.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for maximum biomass and nodulation.
+    - Tolerates poor sandy soils; drought-tolerant once established but grows faster with moderate water.
+    - Avoid waterlogged fields — roots need air between rains.
+
+    ✂️ Methods to Propagate:
+    - Seeds: scarify lightly; drill or broadcast after soil hits reliable warmth.
+    - Incorporate before seed set if you are not breeding a weedy sequel.
+  purpose: |-
+    Hairy indigo is cheap soil insurance in hot climates:
+
+    - Nitrogen Fixer: Feeds the next crop without bagged fantasy numbers.
+    - Green Manure: Mow and incorporate or mulch-in-place.
+    - Animal Fodder: Grazed carefully in systems that know legume bloat basics.
+    - Cover Crop: Fast canopy beats summer weeds.
+    - Wildlife Attractor: Flowers feed small bees when allowed to bloom briefly.
   companions:
-  - NEEDS_DATA
+  - Millet
+  - Sorghum-sudangrass
+  - Cowpea
   avoid:
-  - NEEDS_DATA
+  - Planting into cold wet soil
+  - Letting hard seeds mature if you dislike volunteer indigo
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Bean leaf beetle
+  - Leafhoppers
   # Image attribution: Alex Popovkin, Bahia, Brazil from Brazil / Wikimedia Commons / CC BY 2.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

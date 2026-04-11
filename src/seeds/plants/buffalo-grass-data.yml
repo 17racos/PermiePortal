@@ -1,27 +1,50 @@
 ---
 - common_name: Buffalo Grass
   picture: buffalo_grass.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Bouteloua dactyloides
+  aka:
+  - Prairie buffalo grass
+  family: Poaceae
+  zone: "4-8"
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: -30
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Ground Cover
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ground Cover
+  - Erosion Control
+  - Drought Tolerant
+  description: "Bouteloua dactyloides is the warm-season turf species that actually
+    evolved on North American prairies instead of in a petrochemical marketing deck.
+    Fine texture, stolons, dioecious populations — male and female plants are separate,
+    which matters if you buy seed mixes expecting instant lawn. North Florida sits
+    near the humidity edge; some cultivars sulk where summer nights stay tropical
+    wet.\n\n🌞💧 Sun and Water Requirements:\n- Full sun — shade turns it into a
+    thin regret.\n- Low water once established; deep infrequent beats daily spritzing.\n-
+    Well-drained soils; tolerates heat and modest salinity better than Kentucky bluegrass
+    cosplay.\n\n✂️🌱 Methods to Propagate:\n- Plugs or sod for predictable cover.\n-
+    Seed with correct male/female expectations — read the label like it matters.\n\n🧺
+    When to Harvest:\n- Mow or graze lightly if using as low-input ground cover —
+    not a hay monster."
+  purpose: |-
+    Buffalo grass is xeric lawn rebellion: fewer inputs than cool-season grass cults,
+    decent erosion control on sunny slopes, and honest warm-season timing. It is not
+    a shade solution or a tropical rainforest understory — design accordingly.
   companions:
-  - NEEDS_DATA
+  - Yarrow
+  - Dutch Clover
+  - Echinacea
   avoid:
-  - NEEDS_DATA
+  - Deep shade under live oak cathedrals
+  - Overwatering plus humidity — fungal pity parties
   pests:
-  - NEEDS_DATA
+  - Fall Armyworm
+  - Cutworms
+  - Armyworms
   # Image attribution: (c) cassi saari, some rights reserved (CC BY-NC), uploaded by cassi saari
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,54 @@
 ---
 - common_name: Century Plant
-  picture: century_plant.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Agave americana
+  aka:
+  - American aloe (misnomer)
+  - Maguey
+  family: Asparagaceae
+  zone: 8-11
+  ideal_temp_min: 60
+  ideal_temp_max: 100
+  min_temp: 12
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Fiber
+  - Ornamental
+  - Erosion Control
+  - Mulcher
+  description: |-
+    Century plant is the meme agave: rosette for years, then one absurd flowering spike, then the rosette dies like it finished the boss fight. Sap can irritate skin; spine tips file human stupidity down to the bone. Edible use centers on roasted hearts and careful processing traditions — not random backyard tequila fantasies without permits and sense. In North Florida it grows bold until a wet winter tries to rot the crown; drainage is non-negotiable.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun and lean, gritty, well-drained soil; wet clay is a death sentence with extra drama.
+    - Extremely drought-tolerant once established; summer rain is fine if soil sheds water fast.
+    - Cold: dry cold tolerates better than cold + wet.
+
+    ✂️ Methods to Propagate:
+    - Pups: remove offsets when roots have started; let cuts callus before potting.
+    - Bulbils on inflorescence (species/clone dependent) can be rooted when present.
+  purpose: |-
+    Century plant is armored biomass for dry edges:
+
+    - Edible: Traditional foods from pit-roasted hearts where legal and culturally appropriate — not casual nibbling.
+    - Fiber: Leaf fiber historically used where processing exists.
+    - Ornamental: Architectural rosettes for xeric design.
+    - Erosion Control: Roots stabilize rocky slopes in dry microclimates.
+    - Mulcher: Spent leaves chop-and-drop sparingly — spines complicate handling.
   companions:
-  - NEEDS_DATA
+  - Prickly pear
+  - Desert spoon
+  - Low sedums
   avoid:
-  - NEEDS_DATA
+  - Shade and irrigation addiction
+  - High-traffic paths (spines)
   pests:
-  - NEEDS_DATA
+  - Borers
+  - Scale insects
   # Image attribution: Tomascastelazo / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

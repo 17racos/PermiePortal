@@ -1,27 +1,48 @@
 ---
 - common_name: Rose Apple
   picture: rose_apple.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Syzygium jambos
+  aka:
+  - Jambos
+  - Malabar plum (name collision territory — verify regional usage)
+  family: Myrtaceae
+  zone: "9-11"
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 26
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  description: "Syzygium jambos is the pom-pom flowering myrtle tree whose waxy fruit
+    smells like roses and tastes like subtle pear-water — not a sugar bomb, more a
+    porch snack for people who like quiet flavors. Fluffy flowers embarrass ornamentals
+    twice their price. North Florida: possible in warm pockets; protect young trees
+    from hard freezes.\n\n🌞💧 Sun and Water Requirements:\n- Full sun for best flowering
+    and fruit.\n- Deep, fertile, well-drained soil with even moisture during fruit
+    set.\n- Wind protection while young.\n\n✂️🌱 Methods to Propagate:\n- Seeds:
+    variable offspring, easy sprouting when fresh.\n- Air-layering and grafting for
+    known types.\n\n🧺 When to Harvest:\n- When fruit lightens, yields slightly, and
+    smells sweet — overripe goes mushy fast in heat."
+  purpose: |-
+    Rose apple is a subtropical ornamental that also feeds you and birds. Use it as
+    a mid-canopy fruiting tree in myrtle-heavy guilds; accept regional invasive notes
+    for Syzygium taxa and plan responsibly.
   companions:
-  - NEEDS_DATA
+  - Guava
+  - Jaboticaba
+  - Pitanga
   avoid:
-  - NEEDS_DATA
+  - Frost pockets on juvenile trees
+  - Chronic overwatering in heavy clay
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Beate &amp; Heinz Beyerlein, some rights reserved (CC BY-NC), uploaded by Beate &amp; Heinz Beyerlein
+  - Caribbean Fruit Fly
+  - Scale Insects
+  - Aphids
+  # Image attribution: (c) Beate & Heinz Beyerlein, some rights reserved (CC BY-NC), uploaded by Beate & Heinz Beyerlein
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

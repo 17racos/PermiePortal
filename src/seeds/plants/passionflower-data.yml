@@ -1,27 +1,56 @@
 ---
 - common_name: Passionflower
   picture: passionflower.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Passiflora incarnata
+  aka:
+  - Maypop
+  - Wild Passionflower
+  family: Passifloraceae
+  zone: 5-9
+  ideal_temp_min: 55
+  ideal_temp_max: 90
+  min_temp: -15
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Vine
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Pollinator
+  - Wildlife Attractor
+  - Ornamental
+  description: "Passiflora incarnata is the Southeast’s native passionflower —
+    maypop — roots hardy, tops freeze back, fruit pops when ripe with loud childhood
+    memories. Exotic edulis-type passionfruit is a different species for frost-free
+    areas; this entry centers the wild Florida-friendly vine. North Florida: full
+    sun, trellis or shrub to climb, expect gulf fritillary caterpillars to strip
+    leaves seasonally — buy extra plants or share.\n\n☀️💧 Sun and Water:\n- Full
+    sun for flowers and fruit; tolerates part shade with fewer blooms.\n- Average
+    moisture; drought-tolerant once established but fruits better with steady water.\n\n
+    ✂️ Propagation:\n- Seeds: scarify/nick and soak; variable germination.\n-
+    Layering and division of spreading roots.\n\nTea tradition exists; drug-dose
+    claims belong in peer review, not your group chat."
+  purpose: |-
+    Native vine that multitasks:
+
+    - Edible: Ripe maypops; floral parts used sparingly in traditional teas — research first.
+    - Medicinal: Traditional calming use; check interactions like any herb.
+    - Pollinator: Wildflowers feed bees; foliage feeds gulf fritillary larvae.
+    - Wildlife Attractor: Insects and birds queue for the drama.
+    - Ornamental: Alien-fringe flowers beat bland fence paint.
   companions:
-  - NEEDS_DATA
+  - Elderflower
+  - Beautyberry
+  - Coneflower
   avoid:
-  - NEEDS_DATA
+  - Spraying every caterpillar because butterflies exist
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Whiteflies
+  - Spider Mites
+  growth_habit: Herbaceous vine
+  data_quality_score: 0.8
   # Image attribution: PumpkinSky / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

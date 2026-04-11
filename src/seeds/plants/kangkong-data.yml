@@ -1,27 +1,52 @@
 ---
 - common_name: Kangkong
   picture: kangkong.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Ipomoea aquatica
+  aka:
+  - Water spinach
+  - Ong choy
+  family: Convolvulaceae
+  zone: 9-11
+  ideal_temp_min: 70
+  ideal_temp_max: 92
+  min_temp: 32
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Aquatic
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ground Cover
+  - Soil Improvement
+  description: |-
+    Kangkong is a heat-loving aquatic/moist-soil vine grown like spinach that actually respects summer. Hollow stems, lush leaves, stir-fry royalty. In Florida it is regulated as an invasive aquatic plant in many contexts—grow it like you mean containment (tanks, raised beds lined from waterways, zero “let’s see what the canal thinks”). North Florida frosts set the calendar; treat it as annual or greenhouse winter crop unless you are frost-free.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to light shade; fastest growth with heat + nutrients + moisture.
+    - Hydrophilic: moist soil, hydroponic, or clean recirculating aquaponics—never introduce to natural water bodies.
+
+    ✂️ Methods to Propagate:
+    - Cuttings: 20–30 cm tips root in water or wet media—commercial growers repeat this all season.
+    - Seeds in warm conditions if you can source them reliably.
+
+    🌾 Harvest tips:
+    - Snip tips repeatedly; plant responds with bushier growth—harvest before flowering for tenderest stems.
+  purpose: |-
+    - Edible: Leaf and tender stem vegetable in many Asian cuisines—cook like spinach, season like you mean it.
+    - Ground Cover: Temporary wet-soil cover in controlled beds—not a native replacement for shorelines.
+    - Soil Improvement: Biomass returns to compost when season ends—keep it on your land.
   companions:
-  - NEEDS_DATA
+  - Aquaponic lettuce
+  - Taro (in separate containment philosophy)
+  - Wetland-edge species only where law and ethics allow zero escape
   avoid:
-  - NEEDS_DATA
+  - Floating mats that can reach public water
+  - Ignoring regional invasive-plant rules
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Caterpillars
+  - Leafhoppers
   # Image attribution: no rights reserved, uploaded by 葉子
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

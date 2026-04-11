@@ -1,27 +1,52 @@
 ---
 - common_name: Calabaza
   picture: calabaza.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  scientific_name: Cucurbita moschata
+  aka:
+  - West Indian Pumpkin
+  - Cuban Squash
+  family: Cucurbitaceae
+  zone: 3-11
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 100
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Vine
+  - Ground Cover
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ground Cover
+  - Wildlife Attractor
+  description: "Calabaza is the tropical pumpkin mindset — usually Cucurbita moschata
+    landraces with huge vines, hard rinds, and dense orange flesh that laughs at
+    humidity better than most pepo squash. Central to Caribbean and Latin kitchens.
+    North Florida: long season; start early, watch fungal leaves in wet August, and
+    cure fruits under cover before storage.\n\n☀️💧 Sun and Water:\n- Full sun.\n-
+    Steady moisture and fertile soil for fruit set; avoid overhead drama if powdery
+    mildew is your annual villain — morning water at soil line helps.\n\n✂️ Propagation:\n-
+    Direct-sow after frost or transplant carefully; moschata roots hate rough handling.\n-
+    One vine needs real estate — plan trellis or accept yard imperialism.\n\nIf your
+    HOA complains, soup them into submission."
+  purpose: |-
+    Calories that scale with square footage:
+
+    - Edible: Stews, soups, pies, fritters — workhorse winter squash flavor.
+    - Ground Cover: Aggressive vine shades soil until frost.
+    - Wildlife Attractor: Flowers feed pollinators; fruit feeds you if raccoons lose.
   companions:
-  - NEEDS_DATA
+  - Corn
+  - Beans
+  - Sunflower
   avoid:
-  - NEEDS_DATA
+  - Shaded soggy corners
   pests:
-  - NEEDS_DATA
+  - Squash Vine Borer
+  - Pickleworm
+  - Powdery Mildew
+  growth_habit: Annual vine
+  data_quality_score: 0.76
   # Image attribution: (c) Marcello Consolo, some rights reserved (CC BY-NC-SA)
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

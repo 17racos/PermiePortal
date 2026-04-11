@@ -1,27 +1,48 @@
 ---
 - common_name: Asparagus Bean
   picture: asparagus_bean.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  scientific_name: Vigna unguiculata subsp. sesquipedalis
+  aka:
+  - Yardlong bean
+  - Snake bean
+  - Dow gauk
+  family: Fabaceae
+  zone: 3-11
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 32
+  max_temp: 105
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Vine
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Nitrogen Fixer
+  description: "Vigna unguiculata subsp. sesquipedalis is the cowpea that learned
+    to climb—long tender pods, heat tolerance that laughs at common beans, and vines
+    that will annex your fence if you blink.\n\nNorth Florida / subtropical: Plant
+    after soil warms; produces through brutal summer when Phaseolus sulk. Keep picking
+    or pods go fibrous fast.\n\nSun and water: Full sun; fertile well-drained soil.
+    Steady moisture during flowering and pod set; drought during bloom drops pods.\n\n
+    Propagation: Direct-sow; inoculate with cowpea rhizobia if you want the nitrogen
+    bragging rights."
+  purpose: |-
+    Summer protein and shade vine:
+
+    - Edible: Pods stir-fried, grilled, or pickled before they turn rope.
+    - Nitrogen Fixer: Legume roots feed the next crop if you manage residues honestly.
   companions:
-  - NEEDS_DATA
+  - Corn
+  - Sweet Potato
+  - Marigold
   avoid:
-  - NEEDS_DATA
+  - Cold wet soil at planting
+  - Letting pods hide until they qualify as fiber supplements
   pests:
-  - NEEDS_DATA
+  - cowpea curculio
+  - bean leaf beetle
+  growth_habit: Twining annual vine to 8–12 feet
+  data_quality_score: 0.8
   # Image attribution: (c) Matthew O'Donnell, some rights reserved (CC BY-NC-SA), uploaded by Matthew O'Donnell
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

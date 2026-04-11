@@ -1,27 +1,58 @@
 ---
-- common_name: # ── DYNAMIC ACCUMULATORS ────────────────────────────────────────
+- common_name: Dynamic accumulators
   picture: dynamic_accumulators.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Various species (guild concept)
+  aka:
+  - Nutrient miners
+  - Chop-and-drop specialists
+  family: Various
+  zone: "3-11"
+  ideal_temp_min: 45
+  ideal_temp_max: 85
+  min_temp: -35
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Dynamic Accumulator
+  - Mulcher
+  - Soil Improvement
+  - Green Manure
+  - Animal Fodder
+  description: "This is not one plant flexing a Latin name — it is a guild idea: deep-rooted
+    or fast-cycling species that pull minerals from subsoil or parent material and
+    return them as leaf litter, tea, or compost. Classic examples include comfrey,
+    yarrow, dandelion, and dock; your actual lineup depends on zone, ethics, and
+    whether you are okay with aggressive spreaders. In North Florida / subtropical
+    food forests, pair accumulators with fruit trees and mulch circles, not with naive
+    “set and forget” optimism.\n\n \U0001F31E\U0001F4A7 Sun and Water Requirements:\n-
+    Varies by species; most accumulators want full sun to partial shade.\n- Deep moisture
+    helps comfrey-class miners; taprooted weeds laugh at occasional drought once established.\n-
+    Avoid waterlogging species that rot in Florida’s summer monotony unless the site
+    is elevated.\n\n✂️\U0001FAD8 Methods to Propagate:\n- Species-specific: root cuttings,
+    seed, division — see each plant’s file (e.g. Comfrey).\n- Design move: plant downslope
+    of fruit trees and cycle clippings uphill as mulch.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E
+    When to Harvest:\n- Cut leafy biomass before flowering for maximum mulch quality
+    (species-dependent).\n- Never treat toxic species as feed without positive ID."
+  purpose: |-
+    Dynamic accumulator guilds stack functions instead of buying bagged miracles:
+
+    - Dynamic Accumulator: Concentrates nutrients for redistribution via mulch/compost.
+    - Mulcher: Supplies regular biomass for soil cover.
+    - Soil Improvement: Feeds fungi and bacteria through litter inputs.
+    - Green Manure: Can be grown as seasonal biomass crops.
+    - Animal Fodder: Some species (e.g. comfrey) are livestock supplements where appropriate.
   companions:
-  - NEEDS_DATA
+  - Apple
+  - Pear
+  - Citrus
+  - Banana
   avoid:
-  - NEEDS_DATA
+  - Invasive species lists for your county
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Slugs
   # Image attribution: Luigi Antonio Pezone / Wikimedia Commons / CC BY 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,50 @@
 ---
 - common_name: Calamondin
   picture: calamondin.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: × Citrofortunella microcarpa
+  aka:
+  - Calamansi
+  - Musk lime
+  family: Rutaceae
+  zone: 9-11
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 22
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  description: "Calamondin is the patio-sized citrus that fruits like it has something
+    to prove—small, thin-skinned, mouth-puckering sour oranges used across Southeast
+    Asian and Filipino cooking, drinks, and preserves. It behaves like a dense shrubby
+    citrus, which makes it easier to shove under eaves when frost threatens.\n\nNorth
+    Florida / subtropical: 9a is negotiation territory. Plant on south walls, in pots
+    you can move, or accept periodic dieback like a citrus-themed trust exercise. Greenhouse
+    people sleep better.\n\nSun and water: Full sun for flowers and fruit. Even, deep
+    watering in porous soil; let the root zone breathe—Phytophthora does not need your
+    help.\n\nPropagation: Budded or grafted onto appropriate citrus rootstock for trueness
+    and soil adaptation; seedlings are a genetic lottery and often extra thorny."
+  purpose: |-
+    Acid fruit for beverages, marmalade, and marinades; ornamental evergreen structure
+    in small yards; nectar for pollinators when in bloom.
   companions:
-  - NEEDS_DATA
+  - Other citrus
+  - Comfrey
+  - Nitrogen-fixing ground covers
   avoid:
-  - NEEDS_DATA
+  - Lawn herbicide drift
+  - Poor drainage
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Manuel Martín Vicente, some rights reserved (CC BY-NC-ND)
+  - asian citrus psyllid
+  - citrus leafminer
+  - scale insects
+  - citrus mealybug
+  growth_habit: Compact evergreen citrus shrub or small tree on rootstock
+  data_quality_score: 0.75
+  # Image attribution: (c) Ken-ichi Ueda, some rights reserved (CC BY-NC), uploaded by Ken-ichi Ueda
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,17 +1,22 @@
 #!/usr/bin/env python3
 """
-PermiePortal Plant & Pest Automation
-=====================================
-Fetches images from Wikimedia Commons / iNaturalist,
-generates YAML stubs, and queues them for Cursor Agent to enrich.
+PermiePortal Plant & Pest Automation v3
+========================================
+Fixes in v3:
+- Validates names before processing (rejects headers/comments/section labels)
+- Cursor Agent prompts scan ALL seeds for NEEDS_DATA, not just current batch
+- Chunks prompts into batches of 30 for sequential Agent sessions
+- Deduplication check before creating any stub
+- --prompt-only flag to regenerate prompts without processing anything
 
 Usage:
-  python3 automate.py plants "Chaya" "Lemon Verbena" "Cranberry Hibiscus"
-  python3 automate.py pests "Squash Vine Borer" "Stink Bug" "Fungus Gnats"
-  python3 automate.py plants --file plant_queue.txt
-  python3 automate.py pests --file pest_queue.txt
-  python3 automate.py --daily          # runs full daily batch from queue files
-  python3 automate.py --dry-run plants "Moringa"  # test without downloading
+  python3 automate.py plants "Chaya" "Lemon Verbena"
+  python3 automate.py pests "Squash Vine Borer" "Stink Bug"
+  python3 automate.py plants --file queue_plants.txt
+  python3 automate.py pests --file queue_pests.txt
+  python3 automate.py --daily
+  python3 automate.py --dry-run plants "Moringa"
+  python3 automate.py --prompt-only
 """
 
 import json
@@ -21,22 +26,78 @@ import time
 import argparse
 import urllib.request
 import urllib.parse
-import urllib.error
 from pathlib import Path
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
-PROJECT         = Path(__file__).parent
-SEEDS_PLANTS    = PROJECT / "src/seeds/plants"
-SEEDS_PESTS     = PROJECT / "src/seeds/pests"
-PESTS_FILE      = SEEDS_PESTS / "pests-data.yml"
-PLANT_IMAGES    = PROJECT / "public/assets/plants"
-PEST_IMAGES     = PROJECT / "public/assets/pests"
-QUEUE_PLANTS    = PROJECT / "queue_plants.txt"
-QUEUE_PESTS     = PROJECT / "queue_pests.txt"
-REVIEW_DIR      = PROJECT / "review"
-DAILY_PLANTS    = 20
-DAILY_PESTS     = 10
-# ──────────────────────────────────────────────────────────────────────────────
+PROJECT      = Path(__file__).parent
+SEEDS_PLANTS = PROJECT / "src/seeds/plants"
+SEEDS_PESTS  = PROJECT / "src/seeds/pests"
+PESTS_FILE   = SEEDS_PESTS / "pests-data.yml"
+PLANT_IMAGES = PROJECT / "public/assets/plants"
+PEST_IMAGES  = PROJECT / "public/assets/pests"
+QUEUE_PLANTS = PROJECT / "queue_plants.txt"
+QUEUE_PESTS  = PROJECT / "queue_pests.txt"
+REVIEW_DIR   = PROJECT / "review"
+DAILY_PLANTS = 20
+DAILY_PESTS  = 10
+PROMPT_CHUNK = 30
+# ─────────────────────────────────────────────────────────────────────────────
+
+
+# ── NAME VALIDATION ──────────────────────────────────────────────────────────
+
+INVALID_PATTERNS = [
+    r'^#',
+    r'^-{2,}',
+    r'──',
+    r'^Add to',
+    r'^\d{2,}',
+    r'queue_plants',
+    r'queue_pests',
+    r'\.txt$',
+    r'\.yml$',
+    r'\.py$',
+    r'Focus$',
+    r'^(Canopy Trees|Shrubs|Herbaceous|Vines|Ground Covers|Roots|'
+    r'Nitrogen Fix|Dynamic Acc|Pollinator|Mushroom|Fiber|Medicinal|'
+    r'Rare Tropical|Native|Subtropical|Water|Understud|Industrial)',
+]
+
+VALID_NAME_RE = re.compile(r"^[A-Z][a-zA-Z\s\-\'\.]{1,49}$")
+
+
+def is_valid_name(line):
+    line = line.strip()
+    if not line:
+        return False
+    for pattern in INVALID_PATTERNS:
+        if re.search(pattern, line, re.IGNORECASE):
+            return False
+    if not VALID_NAME_RE.match(line):
+        return False
+    if len(line) > 50:
+        return False
+    return True
+
+
+def validate_names(names, source="input"):
+    valid, rejected = [], []
+    for name in names:
+        name = name.strip()
+        if is_valid_name(name):
+            valid.append(name)
+        elif name:
+            rejected.append(name)
+    if rejected:
+        print(f"  ⚠️  Rejected {len(rejected)} invalid entries from {source}:")
+        for r in rejected[:10]:
+            print(f"    ✗ {r!r}")
+        if len(rejected) > 10:
+            print(f"    ... and {len(rejected) - 10} more")
+    return valid
+
+
+# ── HELPERS ──────────────────────────────────────────────────────────────────
 
 def slugify(text):
     text = str(text).lower().strip()
@@ -46,12 +107,10 @@ def slugify(text):
 
 
 def picture_name(name):
-    """Convert display name to image filename."""
     return slugify(name).replace('-', '_') + '.jpg'
 
 
 def fetch_json(url, timeout=10):
-    """Simple JSON fetch with user agent."""
     req = urllib.request.Request(
         url,
         headers={'User-Agent': 'PermiePortal/2.0 (permieportal.com; botanical database)'}
@@ -59,19 +118,17 @@ def fetch_json(url, timeout=10):
     try:
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             return json.loads(resp.read().decode('utf-8'))
-    except Exception as e:
+    except Exception:
         return None
 
 
 def download_image(url, dest_path, dry_run=False):
-    """Download an image to dest_path."""
     if dry_run:
         print(f"    [DRY RUN] Would download: {url}")
         return True
     try:
         req = urllib.request.Request(
-            url,
-            headers={'User-Agent': 'PermiePortal/2.0 (permieportal.com)'}
+            url, headers={'User-Agent': 'PermiePortal/2.0 (permieportal.com)'}
         )
         with urllib.request.urlopen(req, timeout=15) as resp:
             dest_path.parent.mkdir(parents=True, exist_ok=True)
@@ -84,12 +141,7 @@ def download_image(url, dest_path, dry_run=False):
 
 # ── IMAGE SOURCES ─────────────────────────────────────────────────────────────
 
-def wikimedia_image(query, prefer_botanical=True):
-    """
-    Search Wikimedia Commons for a plant/pest image.
-    Returns (image_url, attribution) or (None, None).
-    """
-    # Search Commons
+def wikimedia_image(query):
     search_url = (
         "https://commons.wikimedia.org/w/api.php?"
         "action=query&format=json&list=search"
@@ -99,18 +151,10 @@ def wikimedia_image(query, prefer_botanical=True):
     data = fetch_json(search_url)
     if not data:
         return None, None
-
-    results = data.get('query', {}).get('search', [])
-    if not results:
-        return None, None
-
-    # Try each result until we get a usable image
-    for result in results:
+    for result in data.get('query', {}).get('search', []):
         title = result.get('title', '')
         if not title.startswith('File:'):
             continue
-
-        # Get image info
         info_url = (
             "https://commons.wikimedia.org/w/api.php?"
             "action=query&format=json&prop=imageinfo"
@@ -120,82 +164,54 @@ def wikimedia_image(query, prefer_botanical=True):
         info = fetch_json(info_url)
         if not info:
             continue
-
-        pages = info.get('query', {}).get('pages', {})
-        for page in pages.values():
+        for page in info.get('query', {}).get('pages', {}).values():
             ii = page.get('imageinfo', [{}])[0]
-            mime = ii.get('mime', '')
-            if mime not in ('image/jpeg', 'image/png', 'image/webp'):
+            if ii.get('mime', '') not in ('image/jpeg', 'image/png', 'image/webp'):
                 continue
-
             url = ii.get('url', '')
             if not url:
                 continue
-
             meta = ii.get('extmetadata', {})
             license_short = meta.get('LicenseShortName', {}).get('value', 'Unknown')
-            artist = meta.get('Artist', {}).get('value', 'Unknown')
-            # Strip HTML from artist
-            artist = re.sub(r'<[^>]+>', '', artist).strip()
-
-            attribution = f"{artist} / Wikimedia Commons / {license_short}"
-            return url, attribution
-
+            artist = re.sub(
+                r'<[^>]+>', '',
+                meta.get('Artist', {}).get('value', 'Unknown')
+            ).strip()
+            return url, f"{artist} / Wikimedia Commons / {license_short}"
     return None, None
 
 
-def inaturalist_image(query, taxon_type='Plantae'):
-    """
-    Search iNaturalist for a plant or insect image.
-    Returns (image_url, attribution) or (None, None).
-    """
-    search_url = (
+def inaturalist_image(query):
+    data = fetch_json(
         f"https://api.inaturalist.org/v1/taxa?"
         f"q={urllib.parse.quote(query)}&per_page=3"
     )
-    data = fetch_json(search_url)
     if not data:
         return None, None
-
-    results = data.get('results', [])
-    for taxon in results:
+    for taxon in data.get('results', []):
         photo = taxon.get('default_photo')
-        if not photo:
-            continue
-        url = photo.get('medium_url') or photo.get('url')
-        if not url:
-            continue
-        attribution = photo.get('attribution', 'iNaturalist')
-        return url, attribution
-
+        if photo:
+            url = photo.get('medium_url') or photo.get('url')
+            if url:
+                return url, photo.get('attribution', 'iNaturalist')
     return None, None
 
 
 def get_best_image(name, mode='plant', dry_run=False):
-    """
-    Try Wikimedia first, fall back to iNaturalist.
-    Returns (url, attribution, source) or (None, None, None).
-    """
-    print(f"  🔍 Searching images for: {name}")
-
-    # Wikimedia first
+    print(f"  🔍 {name}...", end=' ', flush=True)
     url, attr = wikimedia_image(name)
     if url:
-        print(f"    ✅ Found on Wikimedia Commons")
+        print("✅ Wikimedia")
         return url, attr, 'wikimedia'
-
-    # iNaturalist fallback
-    taxon = 'Insecta' if mode == 'pest' else 'Plantae'
-    url, attr = inaturalist_image(name, taxon)
+    url, attr = inaturalist_image(name)
     if url:
-        print(f"    ✅ Found on iNaturalist")
+        print("✅ iNaturalist")
         return url, attr, 'inaturalist'
-
-    print(f"    ⚠️  No image found — placeholder will be used")
+    print("⚠️  no image found")
     return None, None, None
 
 
-# ── YAML GENERATORS ───────────────────────────────────────────────────────────
+# ── YAML STUBS ────────────────────────────────────────────────────────────────
 
 PLANT_STUB = '''---
 - common_name: {common_name}
@@ -246,18 +262,27 @@ PEST_STUB = '''- name: "{name}"
 '''
 
 
+def plant_slug_exists(slug):
+    for pattern in [f"{slug}-data.yml", f"{slug}.yml"]:
+        if (SEEDS_PLANTS / pattern).exists():
+            return True
+    archived = SEEDS_PLANTS / "_archived_duplicates"
+    if archived.exists():
+        for pattern in [f"{slug}-data.yml", f"{slug}.yml"]:
+            if (archived / pattern).exists():
+                return True
+    return False
+
+
 def generate_plant_stub(name, attribution, source):
-    pic = picture_name(name)
     slug = slugify(name)
-    filepath = SEEDS_PLANTS / f"{slug}-data.yml"
-
-    if filepath.exists():
-        print(f"  ⏭️  Skipping {name} — YAML already exists")
+    if plant_slug_exists(slug):
+        print(f"  ⏭️  Skipping {name} — already exists")
         return None
-
+    pic = picture_name(name)
+    filepath = SEEDS_PLANTS / f"{slug}-data.yml"
     content = PLANT_STUB.format(
-        common_name=name,
-        picture=pic,
+        common_name=name, picture=pic,
         attribution=attribution or 'No image found',
         source=source or 'none',
     )
@@ -265,309 +290,288 @@ def generate_plant_stub(name, attribution, source):
 
 
 def generate_pest_stub(name, attribution, source):
-    pic = picture_name(name)
-    slug = slugify(name)
-
-    # Check if pest already exists in pests-data.yml
     if PESTS_FILE.exists():
         existing = PESTS_FILE.read_text()
         if f'name: "{name}"' in existing or f"name: '{name}'" in existing:
-            print(f"  ⏭️  Skipping {name} — pest already exists")
+            print(f"  ⏭️  Skipping {name} — already exists")
             return None
-
-    content = PEST_STUB.format(
-        name=name,
-        slug=slug,
-        picture=pic,
+    slug = slugify(name)
+    pic = picture_name(name)
+    return PEST_STUB.format(
+        name=name, slug=slug, picture=pic,
         attribution=attribution or 'No image found',
         source=source or 'none',
     )
-    return content
 
 
-# ── CURSOR AGENT PROMPT GENERATOR ────────────────────────────────────────────
+# ── CURSOR PROMPT GENERATOR ──────────────────────────────────────────────────
 
-def write_cursor_prompt(plant_names, pest_names, output_path):
-    """Write a ready-to-paste Cursor Agent prompt."""
-    lines = ["# PermiePortal — Cursor Agent Enrichment Task\n"]
-    lines.append("Paste this entire prompt into Cursor Agent (not chat — Agent mode).\n")
-    lines.append("---\n")
+def scan_all_needs_data():
+    """Scan ALL seed files for NEEDS_DATA. Returns (plant_list, pest_count)."""
+    needs = []
+    if SEEDS_PLANTS.exists():
+        for yml in sorted(SEEDS_PLANTS.glob("*.yml")):
+            if '_archived' in str(yml):
+                continue
+            try:
+                content = yml.read_text(encoding='utf-8')
+                count = content.count('NEEDS_DATA')
+                if count > 0:
+                    needs.append((yml.name, count))
+            except Exception:
+                continue
 
-    if plant_names:
-        lines.append("## Plants to Enrich\n")
-        lines.append(
-            "The following plant YAML files have been created with stub data. "
-            "For each file, replace every `NEEDS_DATA` field with accurate botanical "
-            "information. Use `src/seeds/plants/moringa-data.yml` as the exact structure "
-            "reference. Requirements:\n"
-            "- Zones and temperatures in Fahrenheit\n"
-            "- Layers must be one of: Tree, Shrub, Herbaceous, Vine, Ground Cover, "
-            "Root, Aquatic, Canopy\n"
-            "- plant_function values must match existing entries in other seed files\n"
-            "- Pests must exactly match slugs in src/seeds/pests/pests-data.yml\n"
-            "- Description should include propagation methods and sun/water requirements\n"
-            "- Focus on North Florida / subtropical context where relevant\n"
-            "- Voice: informative but not corporate. PermieBro tone where appropriate.\n\n"
-        )
-        for name in plant_names:
-            slug = slugify(name)
-            lines.append(f"- `src/seeds/plants/{slug}-data.yml`\n")
+    pest_count = 0
+    if PESTS_FILE.exists():
+        pest_count = PESTS_FILE.read_text(encoding='utf-8').count('NEEDS_DATA')
 
-        lines.append("\n")
-
-    if pest_names:
-        lines.append("## Pests to Enrich\n")
-        lines.append(
-            "The following pest stubs have been appended to "
-            "`src/seeds/pests/pests-data.yml`. Find each entry with `NEEDS_DATA` "
-            "and replace with accurate information. Requirements:\n"
-            "- Organic control methods ONLY — no synthetic pesticides ever\n"
-            "- control_methods keys: organic_sprays, biological_controls, "
-            "cultural_practices, mechanical_physical, preventive_methods\n"
-            "- natural_enemies should be real biological predators/parasites\n"
-            "- Description should help identify the pest in the field\n\n"
-        )
-        for name in pest_names:
-            lines.append(f"- {name}\n")
-        lines.append("\n")
-
-    lines.append("## After Enriching\n")
-    lines.append(
-        "When all entries are filled in, run:\n"
-        "```\n./sync.sh --check\n```\n"
-        "Fix any warnings about unmatched pest references, then run:\n"
-        "```\n./sync.sh\n```\n"
-        "Report the final summary (plants, pests, relationships count).\n"
-    )
-
-    output_path.write_text(''.join(lines))
-    print(f"\n📋 Cursor Agent prompt saved to: {output_path}")
+    return sorted(needs, key=lambda x: x[1], reverse=True), pest_count
 
 
-# ── MAIN PROCESSORS ──────────────────────────────────────────────────────────
+def write_cursor_prompts():
+    """
+    Always scans ALL seeds. Writes chunked prompt files.
+    Deletes stale prompts from previous runs first.
+    """
+    REVIEW_DIR.mkdir(exist_ok=True)
+
+    # Clean up old prompt files
+    for f in REVIEW_DIR.glob("cursor_enrich_*.md"):
+        f.unlink()
+
+    needs, pest_needs = scan_all_needs_data()
+
+    if not needs and pest_needs == 0:
+        print("  ✅ All seeds fully enriched — no NEEDS_DATA found")
+        return []
+
+    total_plants = len(needs)
+    chunks = [needs[i:i+PROMPT_CHUNK] for i in range(0, len(needs), PROMPT_CHUNK)]
+    num_chunks = len(chunks)
+
+    prompt_files = []
+    for i, chunk in enumerate(chunks, 1):
+        prompt_path = REVIEW_DIR / f"cursor_enrich_{i}_of_{num_chunks}.md"
+
+        lines = [
+            f"# PermiePortal Cursor Agent — Batch {i} of {num_chunks}\n\n",
+            f"> **Use Agent mode** (not chat). "
+            f"This batch: {len(chunk)} plants. "
+            f"Total remaining: {total_plants} plants + {pest_needs} pest fields.\n\n",
+            "---\n\n",
+            "## Instructions\n\n",
+            "Replace every `NEEDS_DATA` value with accurate botanical data.\n"
+            "**Do NOT modify fields that already have real data.**\n\n",
+            "**Reference file:** `src/seeds/plants/moringa-data.yml`\n\n",
+            "**Rules:**\n",
+            "- Temperatures in Fahrenheit\n",
+            "- Zones as strings e.g. `\"9-11\"`\n",
+            "- `layers` values: Tree, Shrub, Herbaceous, Vine, Ground Cover, Root, Aquatic, Canopy\n",
+            "- `plant_function`: match values from existing seed files\n",
+            "- `pests`: must exactly match slugs in `src/seeds/pests/pests-data.yml`\n",
+            "- Description must include propagation methods and sun/water requirements\n",
+            "- North Florida / subtropical context where relevant\n",
+            "- No corporate language\n\n",
+            "## Plants to Enrich\n\n",
+        ]
+
+        for fname, count in chunk:
+            lines.append(f"- `src/seeds/plants/{fname}` ({count} fields)\n")
+
+        if i == num_chunks and pest_needs > 0:
+            lines.append(f"\n## Pests to Enrich\n\n")
+            lines.append(
+                f"`src/seeds/pests/pests-data.yml` — {pest_needs} NEEDS_DATA fields\n\n"
+                "Find entries with `NEEDS_DATA` and replace with accurate data.\n\n"
+                "**Pest rules:**\n"
+                "- Organic controls ONLY — no synthetic pesticides\n"
+                "- `control_methods` keys: organic_sprays, biological_controls, "
+                "cultural_practices, mechanical_physical, preventive_methods\n"
+                "- `natural_enemies`: real predators/parasites only\n"
+                "- Descriptions should help ID the pest in the field\n\n"
+            )
+
+        lines.append("\n## When Done\n\n```bash\n./sync.sh --check\n```\n")
+        lines.append("Fix warnings, then:\n```bash\n./sync.sh\n```\n")
+
+        if i < num_chunks:
+            lines.append(
+                f"\nNext: open `cursor_enrich_{i+1}_of_{num_chunks}.md`\n"
+            )
+        else:
+            lines.append("\n✅ Final batch complete!\n")
+
+        prompt_path.write_text(''.join(lines))
+        prompt_files.append(prompt_path)
+
+    print(f"\n📋 {num_chunks} prompt file(s) in review/")
+    print(f"   {total_plants} plants + {pest_needs} pest fields need enrichment")
+    print(f"   Start: review/cursor_enrich_1_of_{num_chunks}.md")
+    print(f"   Run one Agent session per file — sequential, not parallel\n")
+
+    return prompt_files
+
+
+# ── PROCESSORS ────────────────────────────────────────────────────────────────
 
 def process_plants(names, dry_run=False):
-    """Process a list of plant names."""
     SEEDS_PLANTS.mkdir(parents=True, exist_ok=True)
     PLANT_IMAGES.mkdir(parents=True, exist_ok=True)
-
     processed = []
     for name in names:
         name = name.strip()
         if not name:
             continue
-
-        print(f"\n🌱 Processing plant: {name}")
-
-        # Get image
-        img_url, attribution, source = get_best_image(name, mode='plant', dry_run=dry_run)
-
-        # Download image
+        print(f"\n🌱 {name}")
+        img_url, attribution, source = get_best_image(name, dry_run=dry_run)
         pic = picture_name(name)
         img_dest = PLANT_IMAGES / pic
         if img_url and not img_dest.exists():
             ok = download_image(img_url, img_dest, dry_run=dry_run)
             if ok and not dry_run:
-                print(f"    💾 Saved: public/assets/plants/{pic}")
+                print(f"    💾 {pic}")
         elif img_dest.exists():
-            print(f"    ⏭️  Image already exists: {pic}")
-
-        # Generate YAML stub
+            print(f"    ⏭️  image exists")
         result = generate_plant_stub(name, attribution, source)
         if result:
             filepath, content = result
             if not dry_run:
                 filepath.write_text(content)
-                print(f"    📝 Created: src/seeds/plants/{filepath.name}")
+                print(f"    📝 {filepath.name}")
             else:
-                print(f"    [DRY RUN] Would create: src/seeds/plants/{filepath.name}")
+                print(f"    [DRY RUN] would create {filepath.name}")
             processed.append(name)
-
-        time.sleep(0.5)  # Be polite to APIs
-
+        time.sleep(0.5)
     return processed
 
 
 def process_pests(names, dry_run=False):
-    """Process a list of pest names — appends to pests-data.yml."""
     SEEDS_PESTS.mkdir(parents=True, exist_ok=True)
     PEST_IMAGES.mkdir(parents=True, exist_ok=True)
-
     processed = []
     new_stubs = []
-
     for name in names:
         name = name.strip()
         if not name:
             continue
-
-        print(f"\n🐛 Processing pest: {name}")
-
-        # Get image
+        print(f"\n🐛 {name}")
         img_url, attribution, source = get_best_image(name, mode='pest', dry_run=dry_run)
-
-        # Download image
         pic = picture_name(name)
         img_dest = PEST_IMAGES / pic
         if img_url and not img_dest.exists():
             ok = download_image(img_url, img_dest, dry_run=dry_run)
             if ok and not dry_run:
-                print(f"    💾 Saved: public/assets/pests/{pic}")
+                print(f"    💾 {pic}")
         elif img_dest.exists():
-            print(f"    ⏭️  Image already exists: {pic}")
-
-        # Generate pest stub
+            print(f"    ⏭️  image exists")
         result = generate_pest_stub(name, attribution, source)
         if result:
             new_stubs.append(result)
             processed.append(name)
-            if dry_run:
-                print(f"    [DRY RUN] Would append {name} to pests-data.yml")
-            else:
-                print(f"    📝 Queued: {name}")
-
+            if not dry_run:
+                print(f"    📝 queued")
         time.sleep(0.5)
-
-    # Append all new stubs to pests-data.yml at once
     if new_stubs and not dry_run:
         with open(PESTS_FILE, 'a', encoding='utf-8') as f:
             f.write('\n')
             for stub in new_stubs:
                 f.write(stub)
-        print(f"\n  ✅ Appended {len(new_stubs)} pest stubs to pests-data.yml")
-
+        print(f"\n  ✅ Appended {len(new_stubs)} pest stubs")
     return processed
 
 
 def load_queue(filepath, limit):
-    """Load names from a queue file, return first N, rewrite remainder."""
     if not filepath.exists():
         return []
-    lines = [l.strip() for l in filepath.read_text().splitlines() if l.strip()]
-    batch = lines[:limit]
-    remaining = lines[limit:]
+    raw = [l.strip() for l in filepath.read_text().splitlines()]
+    valid = validate_names(raw, source=filepath.name)
+    batch = valid[:limit]
+    remaining = valid[limit:]
     filepath.write_text('\n'.join(remaining) + ('\n' if remaining else ''))
     return batch
 
 
-# ── CLI ───────────────────────────────────────────────────────────────────────
+# ── MAIN ─────────────────────────────────────────────────────────────────────
 
 def main():
-    parser = argparse.ArgumentParser(description='PermiePortal Automation')
-    parser.add_argument('mode', nargs='?', choices=['plants', 'pests'],
-                        help='What to process')
-    parser.add_argument('names', nargs='*', help='Names to process')
-    parser.add_argument('--file', '-f', help='Read names from a text file (one per line)')
-    parser.add_argument('--daily', action='store_true',
-                        help=f'Run daily batch: {DAILY_PLANTS} plants + {DAILY_PESTS} pests from queue files')
-    parser.add_argument('--dry-run', action='store_true',
-                        help='Test run — no files downloaded or created')
+    parser = argparse.ArgumentParser(description='PermiePortal Automation v3')
+    parser.add_argument('mode', nargs='?', choices=['plants', 'pests'])
+    parser.add_argument('names', nargs='*')
+    parser.add_argument('--file', '-f')
+    parser.add_argument('--daily', action='store_true')
+    parser.add_argument('--dry-run', action='store_true')
+    parser.add_argument('--prompt-only', action='store_true',
+                        help='Regenerate Cursor Agent prompts without processing')
     args = parser.parse_args()
 
     REVIEW_DIR.mkdir(exist_ok=True)
-    prompt_path = REVIEW_DIR / "cursor_agent_prompt.md"
+
+    if args.prompt_only:
+        print("\n📋 Scanning all seeds for NEEDS_DATA...")
+        write_cursor_prompts()
+        return
 
     plant_names = []
     pest_names = []
 
-    # ── DAILY MODE ────────────────────────────────────────────────────────────
     if args.daily:
-        print(f"\n📅 Daily batch mode")
-        print(f"   Plants: up to {DAILY_PLANTS} from {QUEUE_PLANTS.name}")
-        print(f"   Pests:  up to {DAILY_PESTS} from {QUEUE_PESTS.name}")
-
+        print(f"\n📅 Daily batch ({DAILY_PLANTS} plants / {DAILY_PESTS} pests)")
         plant_names = load_queue(QUEUE_PLANTS, DAILY_PLANTS)
         pest_names  = load_queue(QUEUE_PESTS, DAILY_PESTS)
-
         if not plant_names and not pest_names:
-            print("\n  ℹ️  Both queues are empty.")
-            print(f"  Add plant names to: {QUEUE_PLANTS}")
-            print(f"  Add pest names to:  {QUEUE_PESTS}")
+            print("\n  ℹ️  Queues empty.")
+            write_cursor_prompts()
             return
-
-        print(f"\n  Plants queued: {len(plant_names)}")
-        print(f"  Pests queued:  {len(pest_names)}")
-
-    # ── SINGLE MODE ───────────────────────────────────────────────────────────
+        print(f"  Plants: {len(plant_names)}, Pests: {len(pest_names)}")
     else:
         if not args.mode:
             parser.print_help()
             return
-
-        # Collect names from args or file
         names = list(args.names)
         if args.file:
             fpath = Path(args.file)
             if fpath.exists():
-                names += [l.strip() for l in fpath.read_text().splitlines() if l.strip()]
+                raw = [l.strip() for l in fpath.read_text().splitlines()]
+                names += raw
             else:
                 print(f"❌ File not found: {args.file}")
                 return
-
+        names = validate_names(names, source=args.file or "arguments")
         if not names:
-            print("❌ No names provided. Pass names as arguments or use --file")
+            print("❌ No valid names provided.")
             return
-
         if args.mode == 'plants':
             plant_names = names
         else:
             pest_names = names
 
-    # ── PROCESS ───────────────────────────────────────────────────────────────
     if args.dry_run:
-        print("\n🔍 DRY RUN — no files will be created or downloaded\n")
+        print("\n🔍 DRY RUN — no files created\n")
 
-    done_plants = []
-    done_pests = []
+    done_plants, done_pests = [], []
 
     if plant_names:
-        print(f"\n{'='*50}")
-        print(f"🌱 Processing {len(plant_names)} plants")
-        print('='*50)
+        print(f"\n{'='*50}\n🌱 {len(plant_names)} plants\n{'='*50}")
         done_plants = process_plants(plant_names, dry_run=args.dry_run)
 
     if pest_names:
-        print(f"\n{'='*50}")
-        print(f"🐛 Processing {len(pest_names)} pests")
-        print('='*50)
+        print(f"\n{'='*50}\n🐛 {len(pest_names)} pests\n{'='*50}")
         done_pests = process_pests(pest_names, dry_run=args.dry_run)
 
-    # ── SUMMARY ───────────────────────────────────────────────────────────────
     total = len(done_plants) + len(done_pests)
-    print(f"\n{'='*50}")
-    print(f"✅ Done — {total} items processed")
-    if done_plants:
-        print(f"  Plants: {', '.join(done_plants)}")
-    if done_pests:
-        print(f"  Pests:  {', '.join(done_pests)}")
+    print(f"\n{'='*50}\n✅ {total} processed\n{'='*50}")
 
-    if total > 0 and not args.dry_run:
-        # Write Cursor Agent prompt
-        write_cursor_prompt(done_plants, done_pests, prompt_path)
+    if not args.dry_run:
+        write_cursor_prompts()
 
-        print(f"""
-{'='*50}
-📋 NEXT STEPS
-{'='*50}
-1. Open Cursor in this project
-2. Switch to Agent mode (not chat)
-3. Paste contents of: review/cursor_agent_prompt.md
-4. Let Agent enrich all NEEDS_DATA fields
-5. When done, Agent will run ./sync.sh automatically
-6. Review at http://localhost:4321/plants and /pests
-7. Commit when satisfied:
-   git add -A && git commit -m "add {total} new entries"
-""")
-
-        # Show remaining queue counts
-        if QUEUE_PLANTS.exists():
-            remaining = len([l for l in QUEUE_PLANTS.read_text().splitlines() if l.strip()])
-            if remaining:
-                print(f"  📋 {remaining} plants still in queue ({QUEUE_PLANTS.name})")
-        if QUEUE_PESTS.exists():
-            remaining = len([l for l in QUEUE_PESTS.read_text().splitlines() if l.strip()])
-            if remaining:
-                print(f"  📋 {remaining} pests still in queue ({QUEUE_PESTS.name})")
+        for label, qfile in [("plants", QUEUE_PLANTS), ("pests", QUEUE_PESTS)]:
+            if qfile.exists():
+                remaining = sum(
+                    1 for l in qfile.read_text().splitlines()
+                    if is_valid_name(l.strip())
+                )
+                if remaining:
+                    print(f"  📋 {remaining} {label} still in queue")
 
 
 if __name__ == '__main__':

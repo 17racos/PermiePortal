@@ -1,27 +1,48 @@
 ---
 - common_name: Motherwort
   picture: motherwort.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Leonurus cardiaca
+  aka:
+  - Throw-wort
+  - Lion's Tail
+  family: Lamiaceae
+  zone: "4-8"
+  ideal_temp_min: 45
+  ideal_temp_max: 80
+  min_temp: -35
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Medicinal
+  - Wildlife Attractor
+  - Mulcher
+  - Dynamic Accumulator
+  description: "Motherwort is a square-stemmed mint family perennial with deeply
+    lobed leaves and whorls of small pink-purple flowers that bees adore. Traditional
+    Western and Chinese herbalism leans on aerial parts for \"calm the heck down\"
+    teas—pregnancy warnings apply; read real references, not blog astrology.\n\nNorth
+    Florida: often short-lived in brutal wet summers unless given airflow and leaner
+    soil; behaves more reliably in the northern end of the state and up the Eastern
+    Seaboard.\n\nSun and water: Full sun to light shade; average to moist, well-drained
+    soil; tolerates poor ground and city margins—classic \"grows by the dumpster\"
+    resilience.\n\nPropagation: Seeds (cold stratify for best germination); division
+    in spring or fall; self-sows politely to obnoxiously depending on mulch depth."
+  purpose: |-
+    Medicinal herb for informed adults, pollinator spike plant, and chop-and-drop
+    biomass. If it escapes attention it will gentrify your fence line—harvest often.
   companions:
-  - NEEDS_DATA
+  - Yarrow
+  - Echinacea
+  - Hyssop
+  - Anise Hyssop
   avoid:
-  - NEEDS_DATA
+  - Stagnant bog
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Spider Mites
+  - Japanese Beetles
   # Image attribution: Bff / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

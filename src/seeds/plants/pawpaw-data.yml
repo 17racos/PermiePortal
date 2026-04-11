@@ -1,27 +1,54 @@
 ---
 - common_name: Pawpaw
   picture: pawpaw.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Asimina triloba
+  aka:
+  - American Custard Apple
+  - Hillbilly Mango
+  family: Annonaceae
+  zone: 5-9
+  ideal_temp_min: 50
+  ideal_temp_max: 85
+  min_temp: -25
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Shade Provider
+  - Mulcher
+  description: "Pawpaw is North America’s native annonaceous fruit — custardy,
+    tropical-candy flavor from a tree that laughs at eastern winters. Clonal thickets
+    are normal; fruit set improves with genetic diversity, so plant at least two
+    unrelated seedlings or grafted cultivars. North Florida: thrives in rich bottomlands
+    and part shade; protect young trees from full blasting sun and from deer that
+    browse leaves.\n\n☀️💧 Sun and Water:\n- Young trees: part shade; mature tolerate
+    more sun with deep mulch and moisture.\n- Likes steady moisture and deep organic
+    soil; tolerates wet feet better than drought.\n\n✂️ Propagation:\n- Seeds: keep
+    moist — they do not tolerate desiccation; long taproot, transplant carefully.\n-
+    Grafting named varieties for quality.\n\nZebra swallowtail caterpillars eat
+    leaves — that is a feature, not a crisis."
+  purpose: |-
+    Native fruit that embarrasses grocery melons:
+
+    - Edible: Ripe fruit fresh or frozen; seeds are not snacks.
+    - Wildlife Attractor: Flowers and fruit feed insects and mammals; host for zebra swallowtail.
+    - Shade Provider: Small tree canopy for understory guilds.
+    - Mulcher: Large leaves chop-and-drop like green plates.
   companions:
-  - NEEDS_DATA
+  - Elderflower
+  - Spicebush
+  - Comfrey
   avoid:
-  - NEEDS_DATA
+  - Windy dry dunes with zero irrigation
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Japanese Beetles
+  - Powdery Mildew
+  growth_habit: Small tree
+  data_quality_score: 0.78
   # Image attribution: Jebulon / Wikimedia Commons / CC0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

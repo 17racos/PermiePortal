@@ -1,27 +1,53 @@
 ---
 - common_name: Shiso
   picture: shiso.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  scientific_name: Perilla frutescens
+  aka:
+  - Beefsteak Plant
+  - Japanese Basil
+  family: Lamiaceae
+  zone: 5-11
+  ideal_temp_min: 55
+  ideal_temp_max: 85
+  min_temp: 20
+  max_temp: 95
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Pollinator
+  - Pest Management
+  - Ornamental
+  description: "Shiso is the mint-adjacent annual with green or purple serrated
+    leaves that sashimi plates and Korean pickles cannot live without. Self-sows
+    like it pays rent in seeds — North Florida gardeners either love the volunteers
+    or learn to deadhead before the deed is done. Flavor is bold anise-cinnamon;
+    not a shy herb.\n\n☀️💧 Sun and Water:\n- Full sun to light shade; purple forms
+    color best with sun.\n- Steady moisture; heat flags plants in dry pots fast.\n\n
+    ✂️ Propagation:\n- Seed: surface sow after frost; cold stratification optional
+    but improves some lots.\n- Transplant starts for head start against summer.\n\n
+    Invasive alerts exist in some southeastern states — keep it in the kitchen
+    garden, not the conservation easement."
+  purpose: |-
+    Aromatic workhorse with opinions:
+
+    - Edible: Wraps, pickles, teas, rice seasonings.
+    - Pollinator: Flowering spikes attract bees and small beneficials if you allow bloom.
+    - Pest Management: Strong scent confuses some herbivores in interplantings.
+    - Ornamental: Purple cultivars are edible landscaping with zero apology.
   companions:
-  - NEEDS_DATA
+  - Tomato
+  - Pepper
+  - Basil
   avoid:
-  - NEEDS_DATA
+  - Letting seed rain into natural areas where it is unwelcome
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Japanese Beetles
+  - Spider Mites
+  growth_habit: Annual
+  data_quality_score: 0.76
   # Image attribution: (c) 李博恒, some rights reserved (CC BY-NC), uploaded by 李博恒
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

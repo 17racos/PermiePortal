@@ -1,27 +1,50 @@
 ---
 - common_name: Culantro
   picture: culantro.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Eryngium foetidum
+  aka:
+  - Recao
+  - Ngò gai
+  - Mexican coriander
+  family: Apiaceae
+  zone: "9-12"
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Pest Management
+  description: "Eryngium foetidum is the saw-toothed cilantro alternative that laughs
+    at heat while true cilantro bolts for the door. Strong aromatic leaves — 'foetidum'
+    was taxonomy shade — power Caribbean, Southeast Asian, and Latin American pots.
+    Likes humidity and warmth; North Florida summers are on-brand if you keep moisture
+    sane.\n\n🌞💧 Sun and Water Requirements:\n- Part shade in brutal heat; morning
+    sun + afternoon relief is chef's kiss.\n- Consistent moisture; stress invites
+    flowering and tougher leaves.\n- Rich, organic soil beats starved sand.\n\n✂️🌱
+    Methods to Propagate:\n- Seeds: can be slow/erratic — patience and warmth.\n-
+    Careful root division of clumps once established.\n\n🧺 When to Harvest:\n- Outer
+    leaves continuously; flower stalks mean shift to seed saving or replace plants
+    if flavor goes feral."
+  purpose: |-
+    Culantro is the subtropical herb bridge for people tired of cilantro drama. Stack
+    near kitchen gardens and wetter microclimates; let it reseed modestly if your
+    county allows the party.
   companions:
-  - NEEDS_DATA
+  - Tomato
+  - Green Bean
+  - Lemongrass
   avoid:
-  - NEEDS_DATA
+  - Baking all day in reflective mulch deserts without water
+  - Confusing with unrelated wild eryngiums without tasting homework
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Leafhoppers
+  - Whiteflies
   # Image attribution: (c) Mike Tidwell, all rights reserved, uploaded by Mike Tidwell
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

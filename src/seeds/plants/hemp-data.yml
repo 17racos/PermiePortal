@@ -1,27 +1,54 @@
 ---
 - common_name: Hemp
   picture: hemp.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  scientific_name: Cannabis sativa
+  aka:
+  - Industrial Hemp
+  - Fiber Hemp
+  family: Cannabaceae
+  zone: 3-11
+  ideal_temp_min: 55
+  ideal_temp_max: 85
+  min_temp: 25
+  max_temp: 100
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Fiber
+  - Edible
+  - Cover Crop
+  - Dynamic Accumulator
+  description: "Industrial hemp is Cannabis sativa grown for fiber, seed, and
+    extract markets — not the lounge-chair marketing story, just a fast annual that
+    eats sunlight and makes long bast fibers. Legality is a paperwork theme park:
+    follow your state program if you plant a field, or you will meet people with
+    badges. North Florida humidity raises disease pressure; choose adapted cultivars
+    and spacing for air flow.\n\n☀️💧 Sun and Water:\n- Full sun; competitive stand
+    needs fertility and water early, then moderate through season.\n- Well-drained
+    soil; soggy fields invite root pathogens.\n\n✂️ Propagation:\n- Direct seed
+    when soil warms; tight spacing for fiber, wider for seed.\n- Transplants used
+    in some systems for weed control head start.\n\nPermieBro: great in a rotation
+    slot; still not a magic carbon credit tree."
+  purpose: |-
+    Annual industrial stack:
+
+    - Fiber: Bast for cordage, textiles, mulch mats depending on processing.
+    - Edible: Grain/seed and oil where varieties and law allow.
+    - Cover Crop: Rapid canopy smothers weeds and adds biomass when terminated.
+    - Dynamic Accumulator: Deep roots pull nutrients if you manage residues well.
   companions:
-  - NEEDS_DATA
+  - Clover
+  - Oats
+  - Field Pea
   avoid:
-  - NEEDS_DATA
+  - Planting without checking state hemp rules
   pests:
-  - NEEDS_DATA
+  - Corn Earworm
+  - Japanese Beetles
+  - Powdery Mildew
+  growth_habit: Annual
+  data_quality_score: 0.7
   # Image attribution: Roger McLassus. / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

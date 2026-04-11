@@ -1,27 +1,48 @@
 ---
 - common_name: Leren
   picture: leren.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Calathea allouia
+  aka:
+  - Guinea arrowroot
+  - Topi tambu
+  - Sweet corn root
+  family: Marantaceae
+  zone: 9-11
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 35
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ground Cover
+  description: "Calathea allouia is the shade-loving arrowroot relative that makes
+    crunchy, juicy corms with a mild sweet flavor—think water chestnut that went
+    tropical. Leaves are big and ornamental; no full-sun machismo.\n\nNorth Florida
+    / subtropical: Best under partial shade of fruit trees; protect from hard freezes.
+    Loves humidity; mulch hard.\n\nSun and water: Part to full shade in hot climates;
+    rich, moist, well-drained soil high in organic matter.\n\nPropagation: Divide
+    clumps; harvest corms and replant smaller offsets."
+  purpose: |-
+    Edible ground layer for shady corners:
+
+    - Edible: Boiled or pickled corms; peel carefully.
+    - Ground Cover: Broad leaves shade soil and reduce weeds.
   companions:
-  - NEEDS_DATA
+  - Banana
+  - Taro
+  - Canna Lily
   avoid:
-  - NEEDS_DATA
+  - Full blasting sun and drought
+  - Waterlogged anaerobic muck
   pests:
-  - NEEDS_DATA
+  - nematodes
+  - aphids
+  growth_habit: Clumping perennial herb from underground rhizomes and corms
+  data_quality_score: 0.8
   # Image attribution: (c) Linda Loffler, some rights reserved (CC BY-NC), uploaded by Linda Loffler
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

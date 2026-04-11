@@ -1,27 +1,49 @@
 ---
 - common_name: Guanabana
   picture: guanabana.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Annona muricata
+  aka:
+  - Soursop
+  - Graviola (common trade name)
+  family: Annonaceae
+  zone: "10-11"
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 30
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  description: "Annona muricata is the spiky green heartthrob of tropical fruit stands:
+    soft, fibrous-sweet pulp with a flavor people describe as strawberry-pineapple-citrus
+    and a PR department that should calm down. Semi-evergreen tree with large soft
+    leaves; hates dry wind and hard frost. North Florida: mostly greenhouse or brave
+    microclimate — this is not your first frost-tolerant fruit gamble.\n\n🌞💧 Sun
+    and Water Requirements:\n- Full sun in humid tropics once established.\n- Deep,
+    fertile, well-drained soil with steady moisture.\n- Windbreak for young trees.\n\n✂️🌱
+    Methods to Propagate:\n- Seeds: easy, long juvenile phase.\n- Grafting superior
+    cultivars where available.\n\n🧺 When to Harvest:\n- When spines soften, color
+    shifts, and fruit yields — overripe goes fermented fast in heat."
+  purpose: |-
+    Guanabana is dessert biomass for true tropical stacks: shade, mulch leaves, fruit
+    for humans and fruit flies if you blink. Same species as soursop leaf entries —
+    plan the tree once, harvest fruit and leaves with different timing and ethics.
   companions:
-  - NEEDS_DATA
+  - Banana
+  - Papaya
+  - Cacao
   avoid:
-  - NEEDS_DATA
+  - Dry windy hilltops
+  - Marketing medical miracles without doing homework
   pests:
-  - NEEDS_DATA
+  - Caribbean Fruit Fly
+  - Scale Insects
+  - Mealybugs
+  - Caterpillars
   # Image attribution: Damien Boilley from suburbs of Paris, France / Wikimedia Commons / CC BY 2.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

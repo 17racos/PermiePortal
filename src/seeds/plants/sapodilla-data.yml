@@ -1,27 +1,52 @@
 ---
 - common_name: Sapodilla
   picture: sapodilla.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Manilkara zapota
+  aka:
+  - Nispero
+  - Chico sapote
+  family: Sapotaceae
+  zone: "10-12"
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 28
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Shade Provider
+  - Wildlife Attractor
+  - Timber
+  description: "Sapodilla is the brown-sugar fruit that looks like a potato and tastes
+    like dessert cheating. Evergreen tree, milky latex historically used for chicle,
+    and a serious heat requirement. North Florida is marginal — young trees need frost
+    protection; mature specimens tolerate brief chills better but are not hobby orchard
+    material without microclimate lies you can live with.\n\n \U0001F31E\U0001F4A7 Sun
+    and Water Requirements:\n- Full sun for fruiting.\n- Deep, regular watering in
+    establishment; somewhat drought-tolerant later.\n- Well-drained soil; hates standing
+    water on roots.\n\n✂️\U0001FAD8 Methods to Propagate:\n- Grafting selected cultivars
+    onto seedling rootstocks.\n- Seeds grow but fruit quality varies wildly.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E
+    When to Harvest:\n- Pick when brown, slightly soft, and fragrant — unripe astringency
+    is a memorable mistake.\n- Sap can irritate skin; handle like an adult."
+  purpose: |-
+    Sapodilla is a lowland tropical fruit tree with history:
+
+    - Edible: Fresh eating and smoothies when fully ripe.
+    - Shade Provider: Dense canopy for understory guilds in frost-free sites.
+    - Wildlife Attractor: Fruit feeds birds and mammals where unmanaged drops occur.
+    - Timber: Hard wood where harvest is legal and ethical — not a casual weekend project.
   companions:
-  - NEEDS_DATA
+  - Banana
+  - Papaya
+  - Cacao
   avoid:
-  - NEEDS_DATA
+  - Exposed frost sinks and poorly drained lawns
   pests:
-  - NEEDS_DATA
+  - Caribbean Fruit Fly
+  - Scale Insects
+  - Mealybugs
   # Image attribution: Grace789 / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

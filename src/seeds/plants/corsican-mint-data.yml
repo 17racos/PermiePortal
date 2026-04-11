@@ -1,27 +1,47 @@
 ---
 - common_name: Corsican Mint
   picture: corsican_mint.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
+  scientific_name: Mentha requienii
+  aka:
+  - Creeping mint
+  - Rock mint
+  family: Lamiaceae
+  zone: 6-9
+  ideal_temp_min: 45
+  ideal_temp_max: 82
   min_temp: 0
-  max_temp: 0
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Ground Cover
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ground Cover
+  - Ornamental
+  description: |-
+    Corsican mint is the tiny creeping mint that carpets cracks and smells like someone stepped on a mojito. Step-on-it release is the feature; turf monoculture is the enemy.
+
+    North Florida / subtropical: Treat as a cool-season carpet; summer humidity can rot it in heavy soil—grit, slope, or morning sun help.
+
+    Sun and water: Part sun to light shade in hot climates; more sun OK where summers are mild. Sharp drainage; keep evenly moist but never soggy.
+
+    Propagation: Division; small rooted pieces; seeds are fiddly—vegetative wins.
+  purpose: |-
+    Pathway ground cover between stepping stones; intense mint aroma for sensory gardens; tiny garnish leaves if you like twee plating.
   companions:
-  - NEEDS_DATA
+  - Thyme
+  - Sedum
+  - Alpine strawberries
   avoid:
-  - NEEDS_DATA
+  - Heavy wet clay
+  - Deep shade plus humidity (rot bingo)
   pests:
-  - NEEDS_DATA
+  - spider mites
+  - aphids
+  - slugs
+  growth_habit: Mat-forming miniature mint; tiny leaves; tolerates light foot traffic
+  data_quality_score: 0.75
   # Image attribution: (c) Calum McLennan, some rights reserved (CC BY-NC), uploaded by Calum McLennan
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,47 @@
 ---
 - common_name: Thai Basil
   picture: thai_basil.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  scientific_name: Ocimum basilicum var. thyrsiflorum
+  aka:
+  - Horapha
+  - Anise basil
+  family: Lamiaceae
+  zone: 9-11
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 100
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Pollinator
+  - Pest Management
+  description: "Thai basil is the liquorice-mint square-stemmed workhorse of stir-fries
+    and phở—purple stems, pointed leaves, and flower spikes bees treat like a runway.
+    Distinct from sweet basil; do not substitute unless you enjoy flavor chaos.\n\nNorth
+    Florida / subtropical: Grow spring through fall; bolts in heat but keeps producing
+    if you steal tips. Frost ends the party—extend with row cover or pots.\n\nSun and
+    water: Full sun, rich well-drained soil, steady moisture. Wilts fast in pots—mulch
+    and check daily in August.\n\nPropagation: Seed indoors after last frost or direct
+    sow warm soil; cuttings root in water in a week if you forget to label them."
+  purpose: |-
+    Culinary herb for hot-climate kitchens, pollinator support, and companion planting
+    where strong scent may confuse some pests (realistic expectations, please).
   companions:
-  - NEEDS_DATA
+  - Tomatoes
+  - Eggplant
+  - Peppers
   avoid:
-  - NEEDS_DATA
+  - Cold wet soil at germination
+  - Dense shade
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Sune Holt, some rights reserved (CC BY-NC), uploaded by Sune Holt
+  - aphids
+  - japanese beetles
+  - whiteflies
+  growth_habit: Bushy annual basil with upright flower spikes
+  data_quality_score: 0.8
+  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

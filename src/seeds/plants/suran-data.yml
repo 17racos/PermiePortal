@@ -1,27 +1,53 @@
 ---
 - common_name: Suran
   picture: suran.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Amorphophallus paeoniifolius
+  aka:
+  - Elephant Foot Yam
+  - Whitespot Giant Arum
+  family: Araceae
+  zone: 9-11
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 40
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Mulcher
+  description: "Suran is the elephant foot yam — a giant aroid tuber crop, not
+    konjac (that is Amorphophallus konjac). It sends up an absurd petiole tree-ringed
+    like bark and a flower that smells like a prank on mammals. The starchy corm is
+    a staple where it is grown; it must be properly processed — oxalates and calcium
+    oxalate raphides are not negotiable kitchen suggestions. North Florida: possible
+    as a novelty in 9b+ with dry winter dormancy and excellent drainage.\n\n☀️💧 Sun
+    and Water:\n- Part shade to dappled sun; harsh midday sun can scorch petioles.\n-
+    Moist growing season, dry-ish when dormant; rotting corms hate summer soup soils.\n\n
+    ✂️ Propagation:\n- Offset corm pieces with eyes, or harvest and replant main corm
+    while saving smaller offsets.\n- Seeds are rare in cultivation and slow — tuber
+    propagation wins.\n\nIf you wanted a polite perennial, buy lettuce."
+  purpose: |-
+    Suran is calorie theater with rules:
+
+    - Edible: Corm as staple starch after correct processing — research before you stew.
+    - Ornamental: Foliage reads prehistoric; inflorescence is a botany joke.
+    - Mulcher: Huge leaves chop-and-drop if you are brave and compost-hot.
   companions:
-  - NEEDS_DATA
+  - Taro
+  - Banana
+  - Ginger
   avoid:
-  - NEEDS_DATA
+  - Petting zoos and curious dogs near fruiting spathes
   pests:
-  - NEEDS_DATA
+  - Nematodes
+  - Root Rot Fungus
+  - Aphids
+  growth_habit: Herbaceous perennial
+  data_quality_score: 0.7
   # Image attribution: Schlaghecken Josef / Wikimedia Commons / CC BY 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,54 @@
 ---
 - common_name: Russian Olive
   picture: russian_olive.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Elaeagnus angustifolia
+  aka:
+  - Oleaster
+  - Silver berry
+  family: Elaeagnaceae
+  zone: 2-7
+  ideal_temp_min: 55
+  ideal_temp_max: 80
+  min_temp: -30
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Nitrogen Fixer
+  - Wildlife Attractor
+  - Windbreaker
+  - Animal Fodder
+  description: |-
+    Russian olive is a silvery, drought-tough shrub or small tree that fixes nitrogen with the quiet confidence of something listed invasive in multiple U.S. states. Edible fruit is mealy-sweet to some palates, bird candy to others. If you are in North Florida, check regional invasive lists before planting—this entry is education-first, not a cheerleader for ecosystem roulette.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for dense silver foliage and fruiting.
+    - Tolerates poor, alkaline, and salty soils; drought-tolerant once established—over-irrigation is unnecessary flattery.
+
+    ✂️ Methods to Propagate:
+    - Seeds: dispersed by birds in the wild; cold stratify for controlled sowing.
+    - Hardwood cuttings and suckers can expand colonies—manage boundaries if you plant at all.
+
+    🌾 Harvest notes:
+    - Fruit when fully ripe; texture divides humans—try small batches before committing a pantry.
+  purpose: |-
+    - Nitrogen Fixer: Elaeagnus nodules feed soil in harsh sites—ethics of placement still matter.
+    - Wildlife Attractor: Birds spread seed; know what that means regionally.
+    - Windbreaker: Tough hedge component in dry corridors.
+    - Animal Fodder: Browse varies by stock and management—verify safety and legality in your area.
   companions:
-  - NEEDS_DATA
+  - Yarrow
+  - Lavender cotton
+  - Drought-tolerant grasses at the drip line
   avoid:
-  - NEEDS_DATA
+  - Wetlands and riparian zones where spread is socially unacceptable
+  - Planting where regional conservation groups will rightfully glare
   pests:
-  - NEEDS_DATA
+  - Scale Insects
+  - Japanese Beetles
+  - Borers
   # Image attribution: Mykola Swarnyk / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

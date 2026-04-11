@@ -1,27 +1,53 @@
 ---
 - common_name: Pomelo
   picture: pomelo.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Citrus maxima
+  aka:
+  - Shaddock
+  - Pummelo
+  family: Rutaceae
+  zone: "9-11"
+  ideal_temp_min: 60
+  ideal_temp_max: 90
+  min_temp: 28
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  - Shade Provider
+  description: "Pomelo is the thick-rinded ancestor of modern grapefruit, bearing
+    huge, mild to sweet segments under a peel you could use as body armor. Trees are
+    big, evergreen, and long-lived in frost-free sites with good drainage.\n\nNorth
+    Florida coastal and warm microclimates can push the envelope with cold-hardy
+    rootstocks and protection, but this is still a citrus—greening, canker, and
+    assorted psyllid drama are part of the package now. Plant only if you accept the
+    maintenance and regulatory reality.\n\nSun and water: Full sun. Deep watering on
+    well-drained soil; less frequent but thorough beats daily sips. Mulch wide, keep
+    mulch off the trunk, and do not let it sit in a bathtub of irrigation.\n\nPropagation:
+    Commercial trees are grafted onto selected rootstocks. Seedlings are fun experiments
+    but take years and may not match parent fruit. Air layering and budding are
+    nursery skills—home growers usually buy a tested tree."
+  purpose: |-
+    Heavy-producing canopy citrus for warm subtropical yards. Shade for understory
+    guilds once the frame is tall. If you are not prepared for citrus pest and disease
+    homework, this tree will assign it anyway.
   companions:
-  - NEEDS_DATA
+  - Comfrey
+  - Pigeon Pea
+  - Cranberry Hibiscus
+  - Sweet Potato
   avoid:
-  - NEEDS_DATA
+  - Waterlogged soil
+  - Lawn right against trunk
   pests:
-  - NEEDS_DATA
+  - Citrus Leafminer
+  - Asian Citrus Psyllid
+  - Scale Insects
+  - Aphids
   # Image attribution: no rights reserved, uploaded by 葉子
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

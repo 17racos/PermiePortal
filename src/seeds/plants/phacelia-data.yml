@@ -1,27 +1,54 @@
 ---
 - common_name: Phacelia
   picture: phacelia.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  scientific_name: Phacelia tanacetifolia
+  aka:
+  - Lacy phacelia
+  - Blue tansy phacelia
+  - Bienenfreund (bee friend)
+  family: Boraginaceae
+  zone: 2-11
+  ideal_temp_min: 45
+  ideal_temp_max: 80
+  min_temp: 25
+  max_temp: 95
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Green Manure
+  - Ground Cover
+  - Wildlife Attractor
+  description: "Phacelia tanacetifolia is the annual flower that turns a field edge
+    into a bee rave—fern-soft leaves, coiled scorpioid flower clusters opening to
+    lavender-blue, and nectar output that embarrasses many ornamentals. Common cover
+    crop and orchard understory in Mediterranean and West Coast systems; useful anywhere
+    you have a cool-season or mild-winter window.\n\nNorth Florida / subtropical:
+    Best as fall–winter–early-spring planting; bolts fast once days heat up. Mix into
+    vegetable fallow to feed pollinators before melon season drama.\n\nSun and water:
+    Full sun to light shade; tolerates poor soil but likes even moisture for lush
+    growth. Avoid waterlogging.\n\nPropagation: Direct-sow; scatter seed—germinates
+    cool; do not bury deeply."
+  purpose: |-
+    Fast insect support and soil polite company:
+
+    - Pollinator: High-value nectar/pollen for bees and beneficials.
+    - Green Manure: Chop before heavy seed set if you fear volunteer clouds.
+    - Ground Cover: Quick cover on disturbed soil.
+    - Wildlife Attractor: Insects, then birds on the insect buffet.
   companions:
-  - NEEDS_DATA
+  - Buckwheat
+  - Sunflower
+  - Calendula
   avoid:
-  - NEEDS_DATA
+  - Letting it set seed everywhere if you dislike surprises
+  - Expecting it to behave like a perennial
   pests:
-  - NEEDS_DATA
+  - aphids
+  - leafhoppers
+  growth_habit: Upright branching annual to about 3 feet
+  data_quality_score: 0.8
   # Image attribution: Dietmar Rabich / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

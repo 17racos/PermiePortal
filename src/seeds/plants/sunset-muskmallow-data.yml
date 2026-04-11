@@ -1,27 +1,55 @@
 ---
 - common_name: Sunset Muskmallow
   picture: sunset_muskmallow.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Abelmoschus manihot
+  aka:
+  - Aibika
+  - Edible hibiscus
+  - Hibiscus manihot (former name)
+  family: Malvaceae
+  zone: 8-11
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 25
+  max_temp: 102
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Pollinator
+  - Ornamental
+  - Mulcher
+  description: |-
+    Sunset muskmallow is the dramatic hibiscus-relative that hands you huge soft leaves for soups and wraps while pretending to be landscaping. Flowers are showy enough to confuse your HOA into thinking you care about curb appeal. In true tropics it is a short-lived shrubby perennial; in North Florida it often freezes to the crown then rebounds with mulch — unless winter is petty.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to bright partial shade; more sun equals bigger plants if water matches.
+    - Rich, moisture-retentive, well-drained soil; steady water prevents leaf flagging in heat.
+    - Wind protection helps enormous leaves from shredding cosmetically.
+
+    ✂️ Methods to Propagate:
+    - Seeds: nick or soak; start warm, transplant after frost.
+    - Cuttings: easy in humid summer conditions — root in water or moist media.
+  purpose: |-
+    Sunset muskmallow is a subtropical leaf vegetable with flower flair:
+
+    - Edible: Young leaves and mucilaginous texture for okra-adjacent dishes.
+    - Pollinator: Large flowers attract bees and hummingbirds.
+    - Ornamental: Tropical look without a palm budget.
+    - Mulcher: Huge leaves feed soil when pruned sensibly.
   companions:
-  - NEEDS_DATA
+  - Okra
+  - Basil
+  - Papaya
   avoid:
-  - NEEDS_DATA
+  - Drought and neglect in peak summer
+  - Heavy clay without organic fluff
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Japanese beetles
+  - Whitefly
   # Image attribution: J.M.Garg / Wikimedia Commons / CC BY 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

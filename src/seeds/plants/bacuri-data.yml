@@ -1,27 +1,49 @@
 ---
 - common_name: Bacuri
   picture: bacuri.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Platonia insignis
+  aka:
+  - Pacuri
+  - Maniballi
+  family: Calophyllaceae
+  zone: 10-11
+  ideal_temp_min: 72
+  ideal_temp_max: 90
+  min_temp: 30
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Timber
+  - Wildlife Attractor
+  description: "Bacuri is a hefty Amazonian forest tree with thick-skinned brown fruit
+    and aromatic pulp that shows up in local sweets and beverages where marketing departments
+    have not yet flattened the story. Tall canopy component—not a balcony plant unless
+    your balcony is unreasonable.\n\nNorth Florida / subtropical: Essentially not a
+    9a crop. This is for collectors in true tropical lowland or greenhouse estates.
+    If you are reading this in Jacksonville, enjoy the wiki rabbit hole and move on.\n\nSun
+    and water: Full sun when mature; young trees appreciate partial shade in savanna
+    transition. Deep, fertile, well-drained acidic soils; consistent rainfall pattern.\n\nPropagation:
+    Fresh seeds; long taproot makes later transplant touchy—plan final location or use
+    deep containers."
+  purpose: |-
+    Rare fruit for humid tropical systems, timber potential where legal and sustainable,
+    and canopy biomass in agroforestry stacks.
   companions:
-  - NEEDS_DATA
+  - Other rainforest fruit trees
+  - Nitrogen-fixing overstory legumes
+  - Understory shade-tolerant crops
   avoid:
-  - NEEDS_DATA
+  - Calcareous water without organic buffering
+  - Marginal chill without protection
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Rich Hoyer, some rights reserved (CC BY-NC-SA), uploaded by Rich Hoyer
+  - scale insects
+  - borers
+  - caterpillars
+  growth_habit: Large tropical canopy tree
+  data_quality_score: 0.68
+  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

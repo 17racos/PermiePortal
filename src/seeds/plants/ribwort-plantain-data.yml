@@ -1,27 +1,49 @@
 ---
 - common_name: Ribwort Plantain
   picture: ribwort_plantain.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Plantago lanceolata
+  aka:
+  - English plantain
+  - Narrowleaf plantain
+  - Lanceleaf plantain
+  family: Plantaginaceae
+  zone: 3-9
+  ideal_temp_min: 40
+  ideal_temp_max: 85
+  min_temp: -30
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Ground Cover
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Dynamic Accumulator
+  - Animal Fodder
+  description: |-
+    Ribwort plantain is the lawn weed that herbalists respect and turf purists spray. Basal rosette, tight flower spikes, pulls easy after rain—if you decide it owes you rent.
+
+    North Florida / subtropical: Thrives in winter cool and mild seasons; can look tatty in brutal summer drought unless given a little shade and moisture.
+
+    Sun and water: Full sun to part shade. Tolerates poor, compacted soil—that is the brand. Irrigate if you want lush leaves for harvest.
+
+    Propagation: Self-seeds abundantly; transplant rosettes when soil is moist.
+  purpose: |-
+    Salve and poultice herb traditions; nibble greens and seeds in moderation; poultry forage; living mulch in disturbed zones you are willing to look at honestly.
   companions:
-  - NEEDS_DATA
+  - Clover
+  - Dandelion
+  - Yarrow
   avoid:
-  - NEEDS_DATA
+  - Confusing with plantains you cannot ID
+  - Overharvesting single wild patches to extinction
   pests:
-  - NEEDS_DATA
+  - slugs
+  - aphids
+  - flea beetles
+  growth_habit: Low rosette perennial; erect flower spikes
+  data_quality_score: 0.75
   # Image attribution: Ivar Leidus / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

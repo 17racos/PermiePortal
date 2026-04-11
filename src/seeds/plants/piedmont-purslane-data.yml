@@ -1,27 +1,51 @@
 ---
 - common_name: Piedmont Purslane
-  picture: piedmont_purslane.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Portulaca pilosa
+  aka:
+  - Kiss-me-quick
+  - Hairy purslane
+  - Moss rose relative (same genus, different vibe)
+  family: Portulacaceae
+  zone: 5-11
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 20
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Ground Cover
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ground Cover
+  - Wildlife Attractor
+  description: "Portulaca pilosa is the low, slightly hairy purslane cousin of flashy
+    moss rose—prostrate stems, tiny yellow flowers, succulent leaves, and a talent
+    for colonizing hot disturbed ground including North Florida sidewalks.\n\nNorth
+    Florida / subtropical: Explodes in warm wet weather; tolerates drought by going
+    crisp then bouncing back. Edible like common purslane—ID carefully and skip
+    sprayed lots.\n\nSun and water: Full sun; lean to average soil; excellent drainage.
+    Occasional deep watering beats chronic sprinkle.\n\nPropagation: Stem pieces root
+    casually; seed after summer heat—do not invite it if you hate editing volunteers."
+  purpose: |-
+    Heat-proof ground cover with snack potential:
+
+    - Edible: Young tips in moderation—oxalates and sourcing matter.
+    - Ground Cover: Living mulch for brutal hot spots.
+    - Wildlife Attractor: Small flowers feed tiny pollinators.
   companions:
-  - NEEDS_DATA
+  - Sweet Potato
+  - Tomatoes
+  - Roselle
   avoid:
-  - NEEDS_DATA
+  - Overwatering in cool weather (rot)
+  - Confusing with sprayed urban weeds
   pests:
-  - NEEDS_DATA
+  - aphids
+  - leafhoppers
+  growth_habit: Prostrate annual or short-lived perennial in frost-free areas
+  data_quality_score: 0.8
   # Image attribution: No image found
   # Image source: none
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

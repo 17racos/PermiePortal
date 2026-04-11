@@ -1,27 +1,46 @@
 ---
 - common_name: Ramie
   picture: ramie.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Boehmeria nivea
+  aka:
+  - China grass
+  - White ramie
+  family: Urticaceae
+  zone: 7-10
+  ideal_temp_min: 55
+  ideal_temp_max: 90
+  min_temp: 10
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Fiber
+  - Mulcher
+  - Dynamic Accumulator
+  description: |-
+    Ramie is the nettle that went corporate on bast fiber—lustrous, strong, and thirsty enough to remind you why cotton won the PR war. Permaculture fiber heads still adore it where summers are long.
+
+    North Florida / subtropical: Fine as a die-back perennial in warm pockets if winter soil does not stay sodden; mulch crowns after frost.
+
+    Sun and water: Full sun to light shade. Rich, moist, well-drained soil; consistent water yields softer bark for stripping. Drought makes it dramatic and small.
+
+    Propagation: Stem cuttings; division of clumps; rhizome bits spread—site accordingly.
+  purpose: |-
+    Bast fiber for cordage and textiles where processing grit exists; heavy biomass for chop-and-drop; deep nutrient pumping with responsible harvest cycles.
   companions:
-  - NEEDS_DATA
+  - Nitrogen-fixing shrubs
+  - Comfrey
   avoid:
-  - NEEDS_DATA
+  - Waterlogged winter crowns
+  - Letting rhizomes colonize neighbor beds without consent
   pests:
-  - NEEDS_DATA
+  - aphids
+  - caterpillars
+  - nematodes
+  growth_habit: Upright herbaceous perennial; clumping; dies back in frost
+  data_quality_score: 0.75
   # Image attribution: Dominicus Johannes Bergsma / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

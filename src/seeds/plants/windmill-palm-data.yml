@@ -1,27 +1,53 @@
 ---
 - common_name: Windmill Palm
   picture: windmill_palm.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Trachycarpus fortunei
+  aka:
+  - Chusan palm
+  - Chinese windmill palm
+  family: Arecaceae
+  zone: 7-11
+  ideal_temp_min: 55
+  ideal_temp_max: 85
+  min_temp: 5
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ornamental
+  - Windbreaker
+  - Wildlife Attractor
+  - Mulcher
+  description: |-
+    Windmill palm is the palm Northerners point at and whisper “see, we can too.” Single trunk, fan leaves, modest size by palm standards. In North Florida it is one of the more plausible trunking palms if you avoid salt blast and remember that “hardy” is not “immune to idiot pruning.” Old leaf bases (“boots”) are aesthetic choice—clean trunk or shaggy wizard staff, your call.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to partial shade; juveniles appreciate some shade in hottest inland sites.
+    - Well-drained but fertile soil; steady moisture when establishing, then fairly drought-tolerant for a palm.
+
+    ✂️ Methods to Propagate:
+    - Seeds: slow germination, variable timing—warm stratification helps some batches.
+    - Transplant young seedlings with root ball intact; mature specimens hate casual moves.
+
+    🌾 Harvest notes:
+    - Ornamental and structural; not a primary food palm for most growers in this region.
+  purpose: |-
+    - Ornamental: Vertical punctuation in subtropical and temperate-tropical transition plantings.
+    - Windbreaker: Juvenile clumps in multi-line buffers; realistic spacing matters.
+    - Wildlife Attractor: Flowers and fruit attract pollinators and birds where allowed to develop.
+    - Mulcher: Fronds to chop-and-drop in guild edges—watch spines on petioles.
   companions:
-  - NEEDS_DATA
+  - Ferns
+  - Ginger
+  - Understory shrubs that tolerate root competition
   avoid:
-  - NEEDS_DATA
+  - Coastal salt spray without acclimation
+  - Grade changes that bury root crowns
   pests:
-  - NEEDS_DATA
+  - Scale Insects
+  - Palmetto Weevil
+  - Mealybugs
   # Image attribution: Fernando Losada Rodríguez / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

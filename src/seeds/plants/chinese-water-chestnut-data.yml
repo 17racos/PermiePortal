@@ -1,27 +1,45 @@
 ---
 - common_name: Chinese Water Chestnut
   picture: chinese_water_chestnut.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Eleocharis dulcis
+  aka:
+  - Water chestnut (culinary)
+  - Ma tai
+  family: Cyperaceae
+  zone: 8-11
+  ideal_temp_min: 65
+  ideal_temp_max: 92
+  min_temp: 35
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Aquatic
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Water Purifier
+  description: |-
+    Chinese water chestnut is a sedge, not the spiky invasive Trapa monster. It grows in shallow paddies and tubs, forming crisp corms that crunch in stir-fries—if you keep the water warm enough through the growing season.
+
+    North Florida / subtropical: Treat as a long-season annual crop in ponds, stock tanks, or IBC rigs; winter chill can shut the party down—harvest corms before cold stalls growth.
+
+    Sun and water: Full sun for best corm fill. Shallow flooded soil or saturated muck 4–8 inches deep over a loamy bottom; never let the invasive floating types confuse your ethics or your ecology.
+
+    Propagation: Corms replanted in spring after last frost; division of clumps where legal and contained.
+  purpose: |-
+    Crisp edible corms; nutrient cycling in controlled aquatic beds; teaching tool for “water chestnut” name chaos.
   companions:
-  - NEEDS_DATA
+  - Azolla (where contained)
+  - Edible aquatics in separate zones
   avoid:
-  - NEEDS_DATA
+  - Open waterways where escape is possible
+  - Confusion with invasive water chestnut (Trapa species)
   pests:
-  - NEEDS_DATA
+  - aphids
+  - fungus gnats
+  - nematodes
+  growth_habit: Rush-like sedges in shallow water; edible underground corms
+  data_quality_score: 0.75
   # Image attribution: (c) Russell Cumming, some rights reserved (CC BY-NC), uploaded by Russell Cumming
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

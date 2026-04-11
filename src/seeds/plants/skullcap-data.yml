@@ -1,27 +1,54 @@
 ---
 - common_name: Skullcap
   picture: skullcap.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Scutellaria lateriflora
+  aka:
+  - American skullcap
+  - Blue skullcap
+  family: Lamiaceae
+  zone: 4-8
+  ideal_temp_min: 40
+  ideal_temp_max: 85
+  min_temp: -25
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Ground Cover
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Medicinal
+  - Pollinator
+  - Wildlife Attractor
+  - Ground Cover
+  description: |-
+    Skullcap is the mint-family nerve herb people whisper about beside chamomile. Flowers look like tiny helmets — hence the name, not a metal band. North Florida sits at the warm edge of range; give it morning sun, afternoon shade, and moist rich soil like a spoiled trout stream edge. Florida also hosts native Scutellaria species; ID matters if you wild-forage.
+
+    ☀️💧 Sun and Water Requirements:
+    - Partial shade ideal; full sun only with constant moisture and cool roots.
+    - Rich, humusy, well-drained but never bone-dry soil.
+    - Mulch to buffer summer heat and reduce weed competition.
+
+    ✂️ Methods to Propagate:
+    - Seeds: cold stratify; surface sow in spring.
+    - Division: split clumps in early spring as growth resumes.
+  purpose: |-
+    Skullcap is a shade herb for calm-tea culture:
+
+    - Medicinal: Traditional anxiolytic teas — quality and dosing are not DIY roulette.
+    - Pollinator: Tubular flowers feed specialized bees.
+    - Wildlife Attractor: Native insects use mint-family flowers.
+    - Ground Cover: Low clumps fill moist woodland edges.
   companions:
-  - NEEDS_DATA
+  - Violet
+  - Ferns
+  - Spicebush
   avoid:
-  - NEEDS_DATA
+  - Hot dry berms
+  - Confusing with unrelated plants when harvesting wild
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Spider mites
+  - Whitefly
   # Image attribution: Rolf Engstrand / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

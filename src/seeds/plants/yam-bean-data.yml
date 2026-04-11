@@ -1,27 +1,52 @@
 ---
 - common_name: Yam Bean
   picture: yam_bean.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  scientific_name: Pachyrhizus erosus
+  aka:
+  - Jicama
+  - Mexican yam bean
+  family: Fabaceae
+  zone: 9-11
+  ideal_temp_min: 70
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 100
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Vine
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Nitrogen Fixer
+  - Ground Cover
+  description: |-
+    Yam bean is a twining legume grown for the crunchy, sweet storage root—everything above ground is basically “do not snack unless you enjoy lectins yelling at you.” Seeds and raw pods are not party food. In North Florida grow as a long warm-season annual; day-length varieties matter—short-day types tuberize where tropical types sulk.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for maximum photosynthate shoved into the root.
+    - Deep, loose, well-drained soil; steady moisture during vine growth, backing off before harvest to reduce splitting.
+
+    ✂️ Methods to Propagate:
+    - Seeds: sow warm after frost; inoculate with appropriate rhizobia if your soil is sterile-minded.
+    - Tubers do not reliably propagate like potatoes—seed is standard.
+
+    🌾 Harvest notes:
+    - Dig before hard frost; roots enlarge late—patience beats golf-ball disappointment.
+  purpose: |-
+    - Edible: Crisp root raw or in salads; cooking options exist—peel like you mean it.
+    - Nitrogen Fixer: Nodules quietly help the bed if you treat roots gently at harvest.
+    - Ground Cover: Temporary vine cover on trellis—do not confuse vigor with permission to ignore supports.
   companions:
-  - NEEDS_DATA
+  - Corn
+  - Sunflower
+  - Low-growing herbs at the base that tolerate shade
   avoid:
-  - NEEDS_DATA
+  - Heavy clay that cracks tubers
+  - Confusing edible root with “maybe the beans are fine raw” (they are not)
   pests:
-  - NEEDS_DATA
+  - Rootknot Nematodes
+  - Aphids
+  - Whiteflies
   # Image attribution: Francisco Manuel Blanco (O.S.A.) / Wikimedia Commons / Public domain
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

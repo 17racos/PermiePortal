@@ -1,27 +1,51 @@
 ---
 - common_name: Dichondra
   picture: dichondra.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Dichondra repens
+  aka:
+  - Lawn leaf
+  - Kidneyweed
+  family: Convolvulaceae
+  zone: "8-11"
+  ideal_temp_min: 55
+  ideal_temp_max: 90
+  min_temp: 20
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Ground Cover
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ground Cover
+  - Ornamental
+  - Erosion Control
+  - Drought Tolerant
+  description: "Dichondra is a creeping coin-leaf ground cover that reads ‘lawn’ to
+    people allergic to grass monocultures. It mats low, tolerates light foot traffic,
+    and laughs at mowing schedules. In North Florida humidity, give it drainage and
+    airflow or it will invite fungal drama like any other mat-forming plant.\n\n \U0001F31E\U0001F4A7
+    Sun and Water Requirements:\n- Part sun to light shade in hot climates; coastal
+    plantings often take more sun with irrigation.\n- Regular moisture for lush mats;
+    established patches endure short dry spells.\n- Avoid soggy, stagnant low spots.\n\n✂️\U0001FAD8
+    Methods to Propagate:\n- Plug trays or stolons pressed into prepared soil.\n- Divide
+    mats in spring.\n- Seed possible for some selections; plugs are faster.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E
+    When to Harvest:\n- Mow or clip lightly to thicken; not a food crop for humans."
+  purpose: |-
+    Dichondra is living mulch with manners:
+
+    - Ground Cover: Dense, low layer under shrubs and paths.
+    - Ornamental: Clean texture without turfgrass cosplay.
+    - Erosion Control: Holds soil on gentle slopes with irrigation.
+    - Drought Tolerant: Once established compared to conventional turf.
   companions:
-  - NEEDS_DATA
+  - Peach
+  - Citrus
+  - Thyme
   avoid:
-  - NEEDS_DATA
+  - Deep shade plus constant wet — mildew city
   pests:
-  - NEEDS_DATA
+  - Cutworms
+  - Slugs
+  - Snails
   # Image attribution: (c) Alex Abair, some rights reserved (CC BY), uploaded by Alex Abair
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,47 @@
 ---
 - common_name: Samphire
   picture: samphire.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
+  scientific_name: Salicornia europaea
+  aka:
+  - Marsh samphire
+  - Glasswort
+  family: Amaranthaceae (Chenopodiaceae legacy gang)
+  zone: "5-10"
+  ideal_temp_min: 45
+  ideal_temp_max: 80
   min_temp: 0
-  max_temp: 0
-  perennial: true
+  max_temp: 95
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Ground Cover
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Erosion Control
+  - Wildlife Attractor
+  description: "Salicornia europaea is the jointed, salt-blessed succulent stem
+    vegetable people pickle or blanch like the ocean sent asparagus. Thrives in saline
+    soils and tidal margins where polite vegetables rage-quit. North Florida coastal
+    salt marshes are on-brand; inland gardeners can try salty irrigation experiments
+    if they enjoy science projects.\n\n🌞💧 Sun and Water Requirements:\n- Full
+    sun.\n- Salt or brackish moisture — true halophyte energy.\n- Not a freshwater
+    shade bog plant.\n\n✂️🌱 Methods to Propagate:\n- Seeds: sow where salinity and
+    drainage match its coastal job description.\n\n🧺 When to Harvest:\n- Young stems
+    in summer; snap tops like you mean it and leave bases to regrow where sustainable."
+  purpose: |-
+    Samphire is edible coastline in plant form: stabilizes salty edges, feeds brine-tolerant
+    food webs, and gives you pickles that taste like tide without the greenwashed
+    'sea superfood' brochure voice.
   companions:
-  - NEEDS_DATA
+  - Seagrape
+  - Sea Purslane
+  - Pond Apple
   avoid:
-  - NEEDS_DATA
+  - Standard vegetable bed logic — it wants salt, not compost monoculture
+  - Harvesting wild stands without knowing local protection rules
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Slugs
   # Image attribution: (c) tangatawhenua, some rights reserved (CC BY-NC), uploaded by tangatawhenua
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

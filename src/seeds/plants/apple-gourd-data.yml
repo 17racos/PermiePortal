@@ -1,27 +1,49 @@
 ---
 - common_name: Apple Gourd
   picture: apple_gourd.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  scientific_name: Lagenaria siceraria
+  aka:
+  - Round bottle gourd
+  - Calabash (shape group)
+  family: Cucurbitaceae
+  zone: 3-11
+  ideal_temp_min: 70
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 100
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Vine
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Fiber
+  description: "Apple gourd is Lagenaria siceraria selected for round, apple-sized
+    to larger fruits—smooth when young, woody when cured. Eat immature like summer
+    squash; dry mature shells for containers and crafts.\n\nNorth Florida / subtropical:
+    Long warm season helps fruits size before frost; trellis small round types to
+    avoid soil scarring and slug signatures.\n\nSun and water: Full sun, fertile
+    well-drained soil, even moisture during growth; reduce watering as shells cure.\n\n
+    Propagation: Direct-sow warm soil or transplant gently—roots sulk if mangled."
+  purpose: |-
+    Compact bottle gourd for kitchen and craft:
+
+    - Edible: Tender young fruits.
+    - Ornamental: Rounds that stack like fake orchard props.
+    - Fiber: Cured shells for utensils and birdhouses.
   companions:
-  - NEEDS_DATA
+  - Corn
+  - Beans
+  - Nasturtium
   avoid:
-  - NEEDS_DATA
+  - Planting in cold wet soil
+  - Letting vines sprawl into slug condominiums
   pests:
-  - NEEDS_DATA
+  - squash vine borer
+  - pickleworm
+  - spotted cucumber beetle
+  growth_habit: Annual vine; fruit round to slightly oblate
+  data_quality_score: 0.8
   # Image attribution: Franz Eugen Köhler, Köhler's Medizinal-Pflanzen / Wikimedia Commons / Public domain
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

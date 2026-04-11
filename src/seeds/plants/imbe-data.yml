@@ -1,27 +1,50 @@
 ---
 - common_name: Imbe
   picture: imbe.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Garcinia livingstonei
+  aka:
+  - African mangosteen
+  - Lowveld mangosteen
+  family: Clusiaceae
+  zone: "10-11"
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 28
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  description: "Imbe is a shrubby Garcinia with orange, pleasantly tart fruit and
+    a knack for looking tidy while being picky about cold. Dioecious — you need a male
+    pollinator for female fruiting plants unless your nursery sold you a grafted cheat
+    code. In North Florida it is a protected coastal 10a mood, not an inland gamble.
+    Sun, heat, drainage, and mulch make the difference between ‘cute plant’ and ‘actually
+    fruiting.’\n\n \U0001F31E\U0001F4A7 Sun and Water Requirements:\n- Full sun for
+    best flowering and fruit set once established.\n- Regular moisture; drought during
+    fruit swell is how you get disappointment for free.\n- Sandy loam with organic
+    matter; avoid standing water.\n\n✂️\U0001FAD8 Methods to Propagate:\n- Seeds; slow
+    juvenility.\n- Grafting known cultivars when you can find them.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E
+    When to Harvest:\n- Pick when color peaks and fruit yields slightly to pressure."
+  purpose: |-
+    Imbe is a warm-climate Garcinia for patient growers:
+
+    - Edible: Fresh fruit and preserves with mangosteen-adjacent vibes.
+    - Ornamental: Glossy foliage and neat habit.
+    - Wildlife Attractor: Fruit drops feed birds if you are not greedy.
   companions:
-  - NEEDS_DATA
+  - Banana
+  - Papaya
+  - Citrus
   avoid:
-  - NEEDS_DATA
+  - Frost pockets and saturated clay
   pests:
-  - NEEDS_DATA
+  - Scale Insects
+  - Mealybugs
+  - Whiteflies
   # Image attribution: (c) Ana Maria Benavides, some rights reserved (CC BY-NC), uploaded by Ana Maria Benavides
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

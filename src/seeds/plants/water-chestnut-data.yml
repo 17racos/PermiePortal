@@ -1,27 +1,47 @@
 ---
 - common_name: Water Chestnut
   picture: water_chestnut.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Eleocharis dulcis
+  aka:
+  - Chinese Water Chestnut
+  - Ma Tai
+  family: Cyperaceae
+  zone: "8-11"
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 20
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Aquatic
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Water Purifier
+  - Wildlife Attractor
+  description: "This is the crunchy corm crop sold canned for stir-fries—not the
+    spiny **Trapa** invader sometimes called water chestnut up north. **Eleocharis
+    dulcis** is a sedge with upright tubular leaves and underwater rhizomes that
+    form crisp, sweet corms when grown in warm, long seasons.\n\nNorth Florida: doable
+    in sun-heated tubs or shallow paddies if you can give 7+ frost-free months; harvest
+    before hard chill kills tops. Not a casual pond plant—manage fertility and avoid
+    escapes into sensitive wetlands.\n\nSun and water: Full sun; shallow flooded soil
+    or mucky containers 3–8 inches deep; high organic matter; keep consistently wet
+    during growth, drain to force corm finish where growers use that trick.\n\nPropagation:
+    Cormlets at rhizome tips; divide clumps at repot. Start with disease-free corms
+    from reputable sources."
+  purpose: |-
+    Starchy wetland crop for controlled systems; texture hero in home kitchens. If
+    someone says \"water chestnut\" and means floating rosettes with barbed nuts, that
+    is a different genus and a different ethics lecture.
   companions:
-  - NEEDS_DATA
+  - Azolla
+  - Duckweed
+  - Taro
   avoid:
-  - NEEDS_DATA
+  - Drying out at peak growth
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Fungus Gnats
   # Image attribution: (c) Karelj, some rights reserved (CC BY-SA)
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

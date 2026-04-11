@@ -1,27 +1,54 @@
 ---
 - common_name: Creeping Thyme
   picture: creeping_thyme.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Thymus serpyllum
+  aka:
+  - Wild thyme
+  - Mother of thyme
+  family: Lamiaceae
+  zone: 4-9
+  ideal_temp_min: 60
+  ideal_temp_max: 85
+  min_temp: -20
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Ground Cover
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Pollinator
+  - Ground Cover
+  description: |-
+    Creeping thyme is a low, mat-forming perennial herb that smells like pizza walked through a meadow. Tiny flowers mob bees in spring; leaves handle light foot traffic on paths if you are not trying to host a monster truck rally. In North Florida it wants sharp drainage—humid wet winters will rot drama queens without grit.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for dense growth and best flavor; open shade quickly becomes leggy and sparse.
+    - Lean, well-drained soil; drought-tolerant once established—wet clay is enemy number one.
+
+    ✂️ Methods to Propagate:
+    - Division: lift mats in spring or fall and replant plugs.
+    - Soft cuttings root easily in warm weather under light humidity.
+
+    🌾 Harvest notes:
+    - Snip young growth for kitchen use; heavy shearing after bloom keeps mats tight and less woody.
+  purpose: |-
+    - Edible: Culinary thyme flavor in ground-cover form—intensity varies by clone and stress.
+    - Medicinal: Traditional aromatic uses align with other thymes—verify dosage with serious references, not vibes alone.
+    - Pollinator: Spring flowers for small bees and beneficials.
+    - Ground Cover: Living mulch between stepping stones and on dry banks.
   companions:
-  - NEEDS_DATA
+  - Lavender
+  - Rosemary
+  - Oregano
   avoid:
-  - NEEDS_DATA
+  - Heavy organic mulches that hold moisture against crowns
+  - Shaded bog gardens pretending to be “herb spirals”
   pests:
-  - NEEDS_DATA
+  - Spider Mites
+  - Aphids
+  - Root Rot Fungus
   # Image attribution: (c) Kathy Webb + Bill Depew, some rights reserved (CC BY-NC), uploaded by Kathy Webb + Bill Depew
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

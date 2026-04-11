@@ -1,27 +1,50 @@
 ---
 - common_name: Bacupari
   picture: bacupari.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Garcinia gardneriana
+  aka:
+  - Bacupari-miúdo (regional common names vary)
+  family: Clusiaceae
+  zone: "10-12"
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 30
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Shade Provider
+  description: "Bacupari is a rainforest Garcinia relative — small to medium tree,
+    latex, and tart aromatic fruit used fresh and in preserves. This is not grocery-store
+    mango reliability; it is a collector’s lowland fruit for humid tropics. North Florida
+    is basically a greenhouse cosplay unless you have serious protection and patience.
+    Part shade when young, rich organic soil, and steady moisture mirror its native
+    understory-to-canopy trajectory.\n\n \U0001F31E\U0001F4A7 Sun and Water Requirements:\n-
+    Young trees: bright shade transitioning to full sun as canopy develops.\n- Consistent
+    moisture; intolerant of long drought while establishing.\n- Mulch heavily; roots
+    appreciate cool, fungal soil.\n\n✂️\U0001FAD8 Methods to Propagate:\n- Fresh seeds.\n-
+    Grafting superior selections where available.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E
+    When to Harvest:\n- Pick when color and aroma say ripe for your landrace/cultivar
+    — Garcinias punish guessing."
+  purpose: |-
+    Bacupari is specialty fruit for true tropical stacks:
+
+    - Edible: Tart fruit for fresh eating and processing.
+    - Wildlife Attractor: Fruit feeds birds in unmanaged settings.
+    - Shade Provider: Canopy for lower guild layers in frost-free systems.
   companions:
-  - NEEDS_DATA
+  - Cacao
+  - Banana
+  - Papaya
   avoid:
-  - NEEDS_DATA
+  - Wind-blasted ridge tops and calcareous drought rock
   pests:
-  - NEEDS_DATA
+  - Scale Insects
+  - Mealybugs
+  - Aphids
   # Image attribution: (c) GERMAN LEONEL SARMIENTO CRUZ, some rights reserved (CC BY), uploaded by GERMAN LEONEL SARMIENTO CRUZ
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

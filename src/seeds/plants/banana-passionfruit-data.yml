@@ -1,27 +1,54 @@
 ---
 - common_name: Banana Passionfruit
   picture: banana_passionfruit.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Passiflora tarminiana
+  aka:
+  - Curuba
+  - Banana Poka
+  family: Passifloraceae
+  zone: "9-11"
+  ideal_temp_min: 55
+  ideal_temp_max: 85
+  min_temp: 28
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Vine
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  - Shade Provider
+  description: "Banana passionfruit is a high-vigor passionflower vine with soft,
+    lobed leaves and pink to rose flowers followed by elongated, yellow, aromatic
+    fruit with tart, seedy pulp. Taxonomy is a moving target—**P. tarminiana** and
+    related **P. tripartita** types show up under similar common names. Fruit quality
+    varies; some selections are genuinely delicious, others are feral cat energy in
+    fruit form.\n\nInvasion alert: this group has wreaked havoc in Hawaii and parts
+    of the Pacific. In mainland North Florida treat it like a supervised exotic:
+    prune hard, harvest every fruit, do not let it run into wild hammocks or parks.\n\nSun
+    and water: Full sun to light afternoon shade in brutal heat. Rich, well-drained
+    soil with steady moisture during growth; reduce water somewhat in cool winter if
+    leaves yellow. Wind protection helps tender new growth.\n\nPropagation: Seeds
+    (variable offspring); semi-hardwood cuttings; layering. Named types are best kept
+    from cuttings for predictable fruit."
+  purpose: |-
+    Vertical food on a sturdy trellis or fence; flowers feed bees and passion-vine
+    specialists. The permie tradeoff is yield vs. vigilance—if you will not manage
+    it, plant a less hungry native passiflora instead.
   companions:
-  - NEEDS_DATA
+  - Papaya
+  - Banana
+  - Chaya
+  - Malabar Chestnut
   avoid:
-  - NEEDS_DATA
+  - Unmanaged wild edges
+  - Fragile shrubs
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Whiteflies
+  - Scale Insects
+  - Caterpillars
   # Image attribution: (c) marianaordonez, some rights reserved (CC BY-NC)
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

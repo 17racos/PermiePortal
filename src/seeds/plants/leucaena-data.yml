@@ -1,27 +1,54 @@
 ---
 - common_name: Leucaena
   picture: leucaena.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Leucaena leucocephala
+  aka:
+  - Lead tree
+  - White popinac
+  - Ipil-ipil
+  family: Fabaceae
+  zone: 10-11
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 28
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Nitrogen Fixer
+  - Animal Fodder
+  - Mulcher
+  - Windbreaker
+  description: |-
+    Leucaena is a fast legume tree that grows like it owes money—fine bipinnate leaves, creamy flowers, flat pods. It fixes nitrogen, feeds ruminants in managed systems, and contains mimosine, which is toxic to non-ruminants and requires real forage science, not backyard cowboy cosplay. In Florida it is invasive in parts of the south; North Florida frosts check it more but ethics of planting still matter.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun; lanky and disappointing in shade.
+    - Tolerates poor soils but fruits and biomass ramp with deep moisture access—avoid stagnant wet root zones.
+
+    ✂️ Methods to Propagate:
+    - Seeds: hot-water soak or scarify; germinates fast in warm wet media.
+    - Cuttings possible for some lines; seed is the norm at scale.
+
+    🌾 Harvest notes:
+    - For fodder systems, follow rotational grazing and variety guidance—this is livestock nutrition, not a meme.
+  purpose: |-
+    - Nitrogen Fixer: Chop-and-drop biomass and nodules feed guilds where management prevents weed-tree chaos.
+    - Animal Fodder: High-protein browse for adapted ruminants with trained oversight.
+    - Mulcher: Frequent coppice yields leafy mulch in warm climates.
+    - Windbreaker: Fast shelterbelt component where legal and appropriate.
   companions:
-  - NEEDS_DATA
+  - Banana
+  - Papaya
+  - Cassava
   avoid:
-  - NEEDS_DATA
+  - Horse pastures (mimosine risk)
+  - Planting where regional lists flag it as invasive
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Scale Insects
+  - Root Rot Fungus
   # Image attribution: Unknown / Wikimedia Commons / Public domain
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

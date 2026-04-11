@@ -1,27 +1,56 @@
 ---
 - common_name: Guava
   picture: guava.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Psidium guajava
+  aka:
+  - Apple guava
+  - Yellow guava
+  family: Myrtaceae
+  zone: "9-11"
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 25
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Windbreaker
+  - Mulcher
+  description: "Psidium guajava is the backyard workhorse of subtropical fruit: scrappy
+    enough for North Florida microclimates if you dodge the worst freezes, absurdly
+    productive once happy, and beloved by every fruit fly within county lines. Fragrant
+    flowers, rough bark, and fruit that runs from white to pink pulp depending on
+    cultivar.\n\n🌞💧 Sun and Water Requirements:\n- Full sun for heaviest fruiting;
+    young plants appreciate light shade during brutal heat.\n- Deep, well-drained
+    soil; steady moisture in fruit fill, but not boggy roots.\n- Mulch hard to buffer
+    soil temps and cut weed competition.\n\n✂️🌱 Methods to Propagate:\n- Seeds: fresh
+    seed germinates quickly; offspring variable.\n- Cuttings and air-layering: clone
+    a known good cultivar — do not roll dice on seedling fruit quality.\n- Grafted
+    or named varieties from nurseries: fastest path to dessert.\n\n🧺 When to Harvest:\n-
+    Pick when fruit gives slightly under gentle pressure and aroma develops — guavas
+    are masters of the 'one day perfect, next day mush' timeline."
+  purpose: |-
+    Guava stacks calories, vitamin C, and habitat value without asking for a corporate
+    sustainability report. Use it as a small tree or large shrub in food forests,
+    accept that wildlife will audit your crop, and plan pruning for airflow so fungal
+    drama stays boring.
   companions:
-  - NEEDS_DATA
+  - Banana
+  - Papaya
+  - Legume Tree
+  - Sweet Potato
   avoid:
-  - NEEDS_DATA
+  - Low frost pockets with no protection for young trees
+  - Overhead irrigation that keeps foliage wet all night
   pests:
-  - NEEDS_DATA
+  - Caribbean Fruit Fly
+  - Scale Insects
+  - Mealybugs
+  - Anthracnose
   # Image attribution: Sabina Bajracharya / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

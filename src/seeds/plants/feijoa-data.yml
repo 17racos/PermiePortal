@@ -1,27 +1,55 @@
 ---
 - common_name: Feijoa
   picture: feijoa.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Acca sellowiana
+  aka:
+  - Pineapple guava
+  - Guavasteen
+  family: Myrtaceae
+  zone: 8-11
+  ideal_temp_min: 45
+  ideal_temp_max: 90
+  min_temp: 12
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Windbreaker
+  - Wildlife Attractor
+  description: |-
+    Feijoa is the shrub that eats like dessert and still pretends to be landscape-tough. Flowers are edible marshmallow weirdos; fruit is pineapple-guava jam waiting to happen if you have two compatible varieties or a neighbor who does. North Florida can grow it well in 8b+ with wind protection; young wood can burn in hard freezes — plan site, mulch, and realistic expectations.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for heaviest fruit; light afternoon shade reduces leaf scorch in hottest sites.
+    - Well-drained loam; tolerates some drought when established but fruits better with even moisture.
+    - Avoid standing water; roots rot quietly while you blame the cultivar.
+
+    ✂️ Methods to Propagate:
+    - Cuttings: semi-hardwood in late summer under mist or humidity dome.
+    - Grafting: named varieties often grafted for reliable fruit quality.
+    - Seeds: variable offspring; fun for breeding, not for instant clones.
+  purpose: |-
+    Feijoa is a dual-purpose myrtle for subtropical edges:
+
+    - Edible: Flowers, fruit pulp, and limited culinary uses where flavor matches your palate.
+    - Ornamental: Evergreen leaves with silvery undersides photograph well even when fruit fails.
+    - Windbreaker: Hedge-trained plants buffer smaller guild members.
+    - Wildlife Attractor: Flowers draw pollinators; fallen fruit feeds whoever shows up first.
   companions:
-  - NEEDS_DATA
+  - Citrus
+  - Strawberry
+  - Comfrey
   avoid:
-  - NEEDS_DATA
+  - Heavy wet clay without mounding
+  - Single-tree pollination fantasies without a mate
   pests:
-  - NEEDS_DATA
+  - Scale insects
+  - Mediterranean Fruit Fly
+  - Aphids
   # Image attribution: Didier Descouens / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

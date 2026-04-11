@@ -1,27 +1,45 @@
 ---
 - common_name: Bismarck Palm
   picture: bismarck_palm.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Bismarckia nobilis
+  aka:
+  - Bismarck palm
+  family: Arecaceae
+  zone: 10-11
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 26
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ornamental
+  - Windbreaker
+  - Shade Provider
+  description: "Bismarck palm is the silver-blue fan palm that landscape architects
+    love and lot sizes fear—massive costate leaves, stout trunk, and a presence that
+    says “estate” even when your HOA says “no.”\n\nNorth Florida / subtropical: Coastal
+    south Florida and warmest 10b pockets; 9a is mostly fantasy without heroic protection.
+    Wet cold is worse than dry cold.\n\nSun and water: Full sun for best color once
+    established. Deep watering while young; somewhat drought-tolerant with maturity but
+    not a cactus.\n\nPropagation: Seed; growth is slow enough to teach children patience."
+  purpose: |-
+    Signature ornamental and windbreak in frost-free sites, light shade for understory
+    experiments, and mulch factory when old fronds are trimmed responsibly.
   companions:
-  - NEEDS_DATA
+  - Tropical shrubs
+  - Bromeliads
+  - Low ground covers away from falling fronds
   avoid:
-  - NEEDS_DATA
+  - Planting under eaves you like
+  - Narrow strips next to driveways once trunks thicken
   pests:
-  - NEEDS_DATA
-  # Image attribution: Roger Culos / Wikimedia Commons / CC BY-SA 3.0
-  # Image source: wikimedia
+  - palmetto weevil
+  - scale insects
+  - red palm weevil
+  growth_habit: Massive solitary fan palm
+  data_quality_score: 0.74
+  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
+  # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

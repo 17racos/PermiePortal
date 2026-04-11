@@ -1,27 +1,51 @@
 ---
 - common_name: Pickerelweed
   picture: pickerelweed.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Pontederia cordata
+  aka:
+  - Pickerel Rush
+  family: Pontederiaceae
+  zone: 3-11
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 10
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Aquatic
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Water Purifier
+  - Ornamental
+  description: "Pickerelweed is the classic emergent pond plant with glossy leaves
+    and spikes of blue-purple flowers that look designed for dragonflies. Young leaf
+    stalks and seeds have food use histories; positive ID and clean water matter —
+    do not forage next to stormwater outflows named after chemicals. In North Florida
+    it spreads politely in shallow margins and helps clarify water by catching silt.\n\n
+    ☀️💧 Sun and Water:\n- Full sun for best bloom; tolerates light shade with fewer
+    flowers.\n- Roots in submerged soil 6-18 inches of water typical; stabilizes
+    pond edges.\n\n✂️ Propagation:\n- Divide rhizomes in spring.\n- Seeds germinate
+    in warm wet conditions.\n\nGreat in a frog hotel; terrible in a dry rock garden
+    unless you enjoy brown archaeology."
+  purpose: |-
+    Shallow-water workhorse:
+
+    - Edible: Historical use of young shoots and seeds; verify water quality and prep.
+    - Wildlife Attractor: Pollinators on flowers; fish and amphibians use roots as cover.
+    - Water Purifier: Roots and rhizomes slow sediment and uptake nutrients.
+    - Ornamental: Clean vertical lines at pond edge beat plastic swan decor.
   companions:
-  - NEEDS_DATA
+  - Cattail
+  - Duck Potato
+  - Lotus
   avoid:
-  - NEEDS_DATA
+  - Droughty berms with no liner or water source
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Snails
+  growth_habit: Emergent aquatic
+  data_quality_score: 0.75
   # Image attribution: (c) J Miner, all rights reserved, uploaded by J Miner
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

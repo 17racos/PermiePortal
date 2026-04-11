@@ -1,27 +1,50 @@
 ---
 - common_name: Ulluco
   picture: ulluco.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Ullucus tuberosus
+  aka:
+  - Melloco
+  - Earth gem
+  family: Basellaceae
+  zone: 8-10
+  ideal_temp_min: 45
+  ideal_temp_max: 75
+  min_temp: 28
+  max_temp: 85
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ground Cover
+  description: |-
+    Ulluco is the Andean technicolor tuber that refuses to be a potato cosplay. Daylength-sensitive and frost-tender, it wants cool nights and mild days — think high-elevation vibe in a Florida winter garden experiment, not July furnace beds. Tubers form late; patience is the whole personality. Skin pigments mean anthocyanin stains and smug salad photos.
+
+    ☀️💧 Sun and Water Requirements:
+    - Bright light without brutal midday heat; afternoon shade helps in warm latitudes.
+    - Loose, fertile, moisture-retentive soil; never let pots dry to bone mid-tuber-fill.
+    - Protect from frost; freezes turn vines to compost statistics.
+
+    ✂️ Methods to Propagate:
+    - Tubers: plant small tubers when soil is cool-warm in fall/winter subtropical windows.
+    - Stem cuttings: root tips in humid shade to clone productive lines.
+  purpose: |-
+    Ulluco is a specialty tuber for cool-season subtropical nerds:
+
+    - Edible: Boiled or roasted tubers; mucilaginous texture surprises the uninitiated.
+    - Ground Cover: Low sprawling stems shade soil briefly before frost ends the season.
   companions:
-  - NEEDS_DATA
+  - Peas
+  - Lettuce
+  - Brassicas
   avoid:
-  - NEEDS_DATA
+  - Hot dry summer as primary growing season
+  - Expecting potato yields on your first naive attempt
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Slugs
+  - Root Rot Fungus
   # Image attribution: (c) jose_balderrama, some rights reserved (CC BY-NC), uploaded by jose_balderrama
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

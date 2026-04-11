@@ -1,27 +1,53 @@
 ---
 - common_name: Natal Plum
   picture: natal_plum.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Carissa macrocarpa
+  aka:
+  - Num-num
+  - Amatungulu
+  family: Apocynaceae
+  zone: "9-11"
+  ideal_temp_min: 55
+  ideal_temp_max: 95
+  min_temp: 25
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  - Erosion Control
+  description: |-
+    Natal plum is the salt-tolerant hedge with milky sap and red fruit that tastes like cranberry propaganda — glossy leaves, thorns for trespasser feedback, and flowers that perfume evenings. Fruit is edible ripe; unripe and other plant parts are not snack material. North Florida coastal 9b+ often works inland with mulch on cold nights.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for dense growth and fruit; tolerates light shade with fewer flowers.
+    - Well-drained soil; tolerates sandy coastal sites and moderate salt spray.
+    - Drought-tolerant when established; occasional deep watering improves fruit plumpness.
+
+    ✂️ Methods to Propagate:
+    - Semi-hardwood cuttings with warmth and humidity root reliably.
+    - Seeds: slow and variable; cuttings win the backyard timeline.
+  purpose: |-
+    Natal plum is edible security theater for warm coasts:
+
+    - Edible: Ripe fruit for fresh eating and jelly; respect sap and unripe rules.
+    - Ornamental: Train as formal hedge or free shrub — thorns enforce boundaries.
+    - Wildlife Attractor: Flowers for night pollinators; fruit for birds if shared.
+    - Erosion Control: Tough roots on sandy banks where fussy shrubs pout.
   companions:
-  - NEEDS_DATA
+  - Seagrape
+  - Yucca
+  - Beach sunflower
   avoid:
-  - NEEDS_DATA
+  - Casual pruning without gloves — milky sap is not lotion
+  - Heavy wet clay without slope or amendment
   pests:
-  - NEEDS_DATA
+  - Scale Insects
+  - Mealybugs
+  - Whiteflies
   # Image attribution: PierreSelim / Wikimedia Commons / CC BY 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

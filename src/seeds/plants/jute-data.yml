@@ -1,27 +1,51 @@
 ---
 - common_name: Jute
   picture: jute.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  scientific_name: Corchorus olitorius
+  aka:
+  - Jew's mallow (molokhia, regional)
+  - Tossa jute
+  family: Malvaceae
+  zone: "8-12"
+  ideal_temp_min: 65
+  ideal_temp_max: 100
+  min_temp: 40
+  max_temp: 110
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Fiber
+  - Edible
+  - Cover Crop
+  - Green Manure
+  description: "Corchorus olitorius is the dual-use annual malvaceous workhorse:
+    edible leafy greens in many cuisines and bast fiber in the 'actually industrial'
+    sense. It wants heat the way North Florida wants afternoon thunderstorms — long,
+    sultry days, fertile soil, and moisture when it is stacking biomass. Treat it
+    like kenaf's slimmer cousin: not subtle, not evergreen, not impressed by your
+    spring frost dates.\n\n🌞💧 Sun and Water Requirements:\n- Full sun.\n- Rich,
+    well-drained soil with steady moisture during explosive growth.\n- Heavy feeding
+    — feed the plant before it feeds your regrets.\n\n✂️🌱 Methods to Propagate:\n-
+    Direct sow after soil warms; dense planting for fiber trials, wider for leaf harvest.\n-
+    Optional indoor starts if you are racing the season.\n\n🧺 When to Harvest:\n-
+    Young leaves for greens; stems for fiber at stages before they turn into rope
+    that hates you."
+  purpose: |-
+    Jute is summer biomass you can eat or cordage-test without corporate supply chains.
+    In subtropical food systems it fills the 'hot-season leafy + fiber' slot — rotate
+    beds, compost the residues, and do not pretend it is a landscape shrub.
   companions:
-  - NEEDS_DATA
+  - Pigeon Pea
+  - Sunflower
+  - Cowpea
   avoid:
-  - NEEDS_DATA
+  - Cold wet soil at sowing — seeds rot fast
+  - Letting it dry to straw mid-growth if you wanted edible leaves
   pests:
-  - NEEDS_DATA
+  - Japanese Beetles
+  - Aphids
+  - Whiteflies
   # Image attribution: AnonymousUnknown author / Wikimedia Commons / Public domain
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

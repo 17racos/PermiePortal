@@ -1,27 +1,50 @@
 ---
 - common_name: Ilama
   picture: ilama.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Annona diversifolia
+  aka:
+  - Ilama Annona
+  - Melon Zapote
+  family: Annonaceae
+  zone: 10-11
+  ideal_temp_min: 70
+  ideal_temp_max: 90
+  min_temp: 30
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Shade Provider
+  description: "Ilama is a Central American annona with green or pink types,
+    aromatic flesh ranging from sweet to tangy depending on form. Less commercial
+    hype than cherimoya, more niche fruit-nerd treasure. Tree is small to medium,
+    needs warmth and humidity. North Florida: experimental coastal plantings only;
+    inland freezes are the usual villain.\n\n☀️💧 Sun and Water:\n- Full sun to
+    light shade when young.\n- Consistent moisture; intolerant of drought and of
+    sodden roots — the usual annona paradox solved with mulch and slope.\n\n✂️
+    Propagation:\n- Seeds, grafting, and air-layering where material exists.\n-
+    Hand-pollination can boost fruit set like other annonas.\n\nName looks like
+    “llama”; tastes nothing like one."
+  purpose: |-
+    Rare fruit layer for warm sites:
+
+    - Edible: Fresh fruit; flavor varies by selection — sample before you plant ten.
+    - Wildlife Attractor: Flowers for beetles and bees; fruit for vertebrates.
+    - Shade Provider: Canopy for understory in a tropical-edge guild.
   companions:
-  - NEEDS_DATA
+  - Sugar Apple
+  - Mamey Sapote
+  - Banana
   avoid:
-  - NEEDS_DATA
+  - Exposed hilltops in marginal zones
   pests:
-  - NEEDS_DATA
+  - Caribbean Fruit Fly
+  - Scale Insects
+  growth_habit: Small tree
+  data_quality_score: 0.68
   # Image attribution: (c) David W K Foster, some rights reserved (CC BY-NC-ND), uploaded by David W K Foster
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

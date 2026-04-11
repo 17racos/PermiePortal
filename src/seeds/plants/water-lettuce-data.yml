@@ -1,27 +1,44 @@
 ---
 - common_name: Water Lettuce
   picture: water_lettuce.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Pistia stratiotes
+  aka:
+  - Water cabbage
+  - Nile cabbage
+  family: Araceae
+  zone: 9-11
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 35
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Aquatic
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Water Purifier
+  - Animal Fodder
+  description: |-
+    Water lettuce is the floating rosette that multiplies like a group chat gone feral. In Florida it is an aggressive aquatic weed in open waters—containment is ethics, not aesthetics.
+
+    North Florida / subtropical: Only keep in closed systems (tubs, pools, lined ponds) where escape is impossible. Do not “gift” extras to local waterways.
+
+    Sun and water: Full sun to part shade on still, nutrient-rich water. Roots hang in the water column stripping nutrients—great in a drum, catastrophic in a spring run.
+
+    Propagation: Daughter rosettes on stolons—absurdly easy; your job is saying no to release.
+  purpose: |-
+    Nutrient stripping in controlled aquaponics; livestock fodder trials where laws and hygiene allow; shade for fish in tanks—not for ecosystem roulette.
   companions:
-  - NEEDS_DATA
+  - Azolla (contained)
+  - Duckweed (contained)
   avoid:
-  - NEEDS_DATA
+  - Open waterways
+  - Any setup where flood can float plants to public water
   pests:
-  - NEEDS_DATA
+  - aphids
+  - caterpillars
+  - snails
+  growth_habit: Free-floating aquatic rosette; stoloniferous mat former
+  data_quality_score: 0.75
   # Image attribution: (c) amywainwright, some rights reserved (CC BY-NC)
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

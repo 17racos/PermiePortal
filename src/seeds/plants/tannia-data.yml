@@ -1,27 +1,54 @@
 ---
 - common_name: Tannia
   picture: tannia.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Xanthosoma sagittifolium
+  aka:
+  - Malanga
+  - Yautia
+  - Tanier
+  family: Araceae
+  zone: 9-11
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 35
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Mulcher
+  - Ornamental
+  description: "Tannia is a giant-leaf aroid grown for starchy corms and edible
+    leaves where cuisines know what to do with calcium oxalate chemistry — cook it,
+    do not audition for ER reality TV. It is a staple across the Caribbean and
+    Latin America and behaves like a bolder cousin to taro in the landscape. North
+    Florida: summer lush, winter die-back in cold snaps; mulch corms in marginal
+    zones or lift like fancy cannas.\n\n☀️💧 Sun and Water:\n- Part shade to filtered
+    sun; harsh midday sun can bleach leaves.\n- Consistent moisture; thrives in
+    humid subtropical rhythm.\n\n✂️ Propagation:\n- Split offsets from parent clumps
+    at start of warm season.\n- Head corms harvested and replanted from best plants.\n\n
+    Leaves look Jurassic; respect the cooking rules and they stay culinary, not
+    medical."
+  purpose: |-
+    Starch with landscaping attitude:
+
+    - Edible: Corms and well-cooked leaves in traditional dishes.
+    - Mulcher: Huge leaves are chop-and-drop gold in wet systems.
+    - Ornamental: Landscapers plant it for drama; you get dinner too.
   companions:
-  - NEEDS_DATA
+  - Taro
+  - Ginger
+  - Papaya
   avoid:
-  - NEEDS_DATA
+  - Raw kitchen experiments
   pests:
-  - NEEDS_DATA
+  - Root Rot Fungus
+  - Nematodes
+  - Aphids
+  growth_habit: Herbaceous perennial
+  data_quality_score: 0.72
   # Image attribution: (c) Roberto R. Calderón, some rights reserved (CC BY-NC), uploaded by Roberto R. Calderón
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

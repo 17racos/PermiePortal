@@ -1,27 +1,47 @@
 ---
 - common_name: Bushel Gourd
-  picture: bushel_gourd.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  picture: ""
+  scientific_name: Lagenaria siceraria
+  aka:
+  - Bottle Gourd
+  - Calabash
+  family: Cucurbitaceae
+  zone: "3-11"
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 105
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Vine
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Animal Fodder
+  description: "Bushel gourd is a **Lagenaria siceraria** cultivar class selected
+    for huge, round-to-oblong fruits used for containers, birdhouses, rattles, and
+    occasional young edible squash. Left to mature, the shell hardens into a woody
+    canteen; pick young if you want something stir-fry adjacent.\n\nNorth Florida:
+    long-season vining monster—start early indoors or buy time with a tunnel; downy
+    mildew still RSVPs yes.\n\nSun and water: Full sun; fertile, well-drained soil;
+    heavy feeders—compost and steady moisture during growth; cut water as fruits
+    mature for storage gourds.\n\nPropagation: Direct seed after frost; transplants
+    for competition gardening. Hand pollinate if bee traffic is weak."
+  purpose: |-
+    Utility craft crop plus summer shade on trellis; conversation piece fruit that
+    doubles as a kindergarten percussion section. Not a subtle plant—plan structure first.
   companions:
-  - NEEDS_DATA
+  - Corn
+  - Beans
+  - Marigold
+  - Nasturtium
   avoid:
-  - NEEDS_DATA
+  - Shaded corners
   pests:
-  - NEEDS_DATA
+  - Squash Vine Borer
+  - Pickleworm
+  - Aphids
+  - Striped Cucumber Beetle
   # Image attribution: No image found
   # Image source: none
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

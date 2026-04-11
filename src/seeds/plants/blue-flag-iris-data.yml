@@ -1,27 +1,51 @@
 ---
 - common_name: Blue Flag Iris
   picture: blue_flag_iris.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Iris virginica
+  aka:
+  - Southern blue flag
+  - Virginia iris
+  family: Iridaceae
+  zone: "5-9"
+  ideal_temp_min: 45
+  ideal_temp_max: 85
+  min_temp: -10
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Aquatic
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ornamental
+  - Wildlife Attractor
+  - Erosion Control
+  description: "Iris virginica is the wetland iris that actually belongs in soggy
+    North Florida edges — swales, pond margins, and rain gardens that other perennials
+    ghost. Sword leaves, classic iris flowers in blue-purple tones, and a high tolerance
+    for fluctuating water levels compared to your average landscape blob.\n\n🌞💧
+    Sun and Water Requirements:\n- Full sun to light shade; blooms best with good
+    light.\n- Moist to shallow standing water; do not maroon it on a dry sand hill.\n-
+    Rich organic muck or loam beats pure compaction.\n\n✂️🌱 Methods to Propagate:\n-
+    Division of rhizomes in late summer or early fall.\n- Seeds: stratify and be patient
+    — iris from seed is a slow novel.\n\n🧺 When to Harvest:\n- Ornamental / ecological
+    use — leave flowers for pollinators unless you have a specific craft plan and
+    local ethics covered."
+  purpose: |-
+    Blue flag iris is riparian polish for permaculture water features: roots stabilize
+    mucky edges, flowers feed pollinators, and structure reads intentional instead
+    of 'accidental ditch weed.' Pair with other native wet-site plants for layered
+    habitat.
   companions:
-  - NEEDS_DATA
+  - Pickerelweed
+  - Cattail
+  - Elderberry
   avoid:
-  - NEEDS_DATA
+  - Dry berms and xeriscape cosplay
+  - Deep permanent shade — fewer flowers, more drama
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Thrips
+  - Slugs
   # Image attribution: Ermell / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

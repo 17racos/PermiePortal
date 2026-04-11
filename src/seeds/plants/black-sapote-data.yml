@@ -1,27 +1,49 @@
 ---
 - common_name: Black Sapote
   picture: black_sapote.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Diospyros nigra
+  aka:
+  - Chocolate pudding fruit
+  - Zapote prieto
+  family: Ebenaceae
+  zone: 10-11
+  ideal_temp_min: 70
+  ideal_temp_max: 90
+  min_temp: 28
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  description: "Black sapote is the persimmon that cosplays as dessert—green skin, pulp
+    that ripens to brown and spoonable, flavor that is mild-sweet and not actually chocolate
+    no matter what the brochures claim. Evergreen to semi-evergreen tree with glossy
+    leaves and the quiet confidence of something that fruits in the tropics.\n\nNorth
+    Florida / subtropical: True tropical. 9b explorers need serious microclimate or
+    accept occasional insult from cold snaps. Coastal south Florida and keys energy.\n\nSun
+    and water: Full sun for fruiting. Deep, regular watering when young; established
+    trees tolerate short dry periods but not salt spray bravado without selection.\n\nPropagation:
+    Seedlings variable; grafted trees for known fruit quality. Fresh seed germinates
+    readily in warm mix."
+  purpose: |-
+    Fresh-eating fruit for frost-free systems, shade and structure in home orchards,
+    wildlife food when fruit drops.
   companions:
-  - NEEDS_DATA
+  - Other tropical fruit trees
+  - Nitrogen-fixing understory
+  - Mulch species
   avoid:
-  - NEEDS_DATA
+  - Exposed frost hollows
+  - Waterlogged heavy clay
   pests:
-  - NEEDS_DATA
-  # Image attribution: Francisco Manuel Blanco (O.S.A.) / Wikimedia Commons / Public domain
-  # Image source: wikimedia
+  - scale insects
+  - mealybugs
+  - Caribbean Fruit Fly
+  growth_habit: Medium to large evergreen fruiting tree
+  data_quality_score: 0.75
+  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
+  # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

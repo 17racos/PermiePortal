@@ -1,27 +1,55 @@
 ---
 - common_name: Cattail
   picture: cattail.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Typha latifolia
+  aka:
+  - Broadleaf cattail
+  - Bulrush (colloquial confusion)
+  family: Typhaceae
+  zone: 3-10
+  ideal_temp_min: 40
+  ideal_temp_max: 90
+  min_temp: -40
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Aquatic
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Water Purifier
+  - Wildlife Attractor
+  - Mulcher
+  description: |-
+    Cattail is the swamp multitool: edible shoots, pollen pancakes if you are ambitious, and dense rhizomes that stabilize muck while filtering water like a grumpy intern. In North Florida it dominates ditches, pond margins, and anywhere society forgot drainage. Harvest only from clean water — cattails are not a heavy-metal detox strategy, they are a sponge.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun in shallow water or saturated margins; tolerates seasonal drawdowns.
+    - Mucky, anaerobic soils are home; not a xeriscape flex.
+    - Spreads by rhizome — contain with liners or accept wetland empire.
+
+    ✂️ Methods to Propagate:
+    - Rhizome division: move chunks in dormancy or early growth with mud attached.
+    - Seeds: fluffy parachutes travel; sow in wet mud for experiments.
+  purpose: |-
+    Cattail is infrastructure with calories:
+
+    - Edible: Young shoots, pollen, and starchy rhizomes where water quality is verified.
+    - Water Purifier: Rhizosphere traps sediments and nutrients — not magic, biomass cycling.
+    - Wildlife Attractor: Cover and food for birds, amphibians, insects.
+    - Mulcher: Dead leaves feed marsh detritus pathways.
   companions:
-  - NEEDS_DATA
+  - Pickerelweed
+  - Duck potato
+  - Water lily
   avoid:
-  - NEEDS_DATA
+  - Harvest from roadside ditches with mystery runoff
+  - Small ornamental ponds without containment if you dislike monoculture
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Caterpillars
+  - Snails
   # Image attribution: (c) Arthur Chapman, some rights reserved (CC BY-NC-SA)
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

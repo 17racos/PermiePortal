@@ -1,27 +1,52 @@
 ---
 - common_name: White Sage
   picture: white_sage.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Salvia apiana
+  aka:
+  - Sacred sage
+  - Bee sage
+  family: Lamiaceae
+  zone: "8-11"
+  ideal_temp_min: 45
+  ideal_temp_max: 90
+  min_temp: 15
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Medicinal
+  - Pollinator
+  - Drought Tolerant
+  - Wildlife Attractor
+  description: "White sage is the silvery chaparral icon people smudge first and
+    ask questions later. In humid subtropical Florida it is a diva: needs airflow,
+    perfect drainage, and restraint on summer irrigation. Treat North Florida attempts
+    as container-or-berm experiments, not guaranteed sacred groves. Flowers feed pollinators
+    in its native range; leaves carry strong volatile oils — harvest ethically and
+    know fire regulations if you burn bundles.\n\n \U0001F31E\U0001F4A7 Sun and Water
+    Requirements:\n- Full sun.\n- Lean, well-drained soil; sand/gravel mixes on mounds.\n-
+    Deep but infrequent watering once established; summer humidity invites fungal side-eye.\n\n✂️\U0001FAD8
+    Methods to Propagate:\n- Seeds: can be finicky; surface sow warm.\n- Cuttings from
+    semi-hardwood.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E When to Harvest:\n-
+    Harvest leafy stems respectfully and sustainably; never strip wild public land."
+  purpose: |-
+    White sage is aromatic ecology with cultural weight:
+
+    - Medicinal: Traditional ceremonial and herbal uses — respect sourcing and sustainability.
+    - Pollinator: Whorls of white flowers attract bees and hummingbirds where climate fits.
+    - Drought Tolerant: Xeric design anchor when sited correctly.
+    - Wildlife Attractor: Nectar and structure in dry landscapes.
   companions:
-  - NEEDS_DATA
+  - Yarrow
+  - Lavender
+  - Rosemary
   avoid:
-  - NEEDS_DATA
+  - Humid shade bowls and automatic sprinkler tyranny
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Whiteflies
+  - Powdery Mildew
   # Image attribution: Krzysztof Ziarnek, Kenraiz / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

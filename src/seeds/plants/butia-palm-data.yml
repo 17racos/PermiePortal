@@ -1,27 +1,55 @@
 ---
 - common_name: Butia Palm
   picture: butia_palm.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Butia capitata
+  aka:
+  - Pindo Palm
+  - Jelly Palm
+  - South American Jelly Palm
+  family: Arecaceae
+  zone: 8-11
+  ideal_temp_min: 55
+  ideal_temp_max: 95
+  min_temp: 12
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Windbreaker
+  - Wildlife Attractor
+  description: "Butia capitata is the cold-toughest feather palm many subtropical
+    growers bet on—blue-green recurving fronds, a stout trunk, and olive-sized yellow
+    fruit that range from ‘pleasantly apricot’ to ‘fermented sock’ depending on genetics
+    and patience. The flesh makes jelly and wine; the kernel is like a tiny coconut
+    project.\n\nNorth Florida / subtropical: Young plants need frost protection until
+    established; mature specimens often take brief dips into the teens °F with damage
+    scaling with duration and humidity. Plant high and dry; wet feet rot kings.\n\nSun
+    and water: Full sun once established; tolerates some shade when young. Well-drained
+    soil; drought-tolerant after establishment but fruits better with deep occasional
+    watering in dry spells.\n\nPropagation: From seed (slow, variable); transplant
+    container-grown specimens—field-dug palms sulk for years."
+  purpose: |-
+    Landscape palm with edible fruit and serious windbreak energy:
+
+    - Edible: Pulp for jelly, wine, and adventurous nibbling; seeds for the stubborn.
+    - Ornamental: Formal to feral depending on pruning choices.
+    - Windbreaker: Tough fronds and trunk for coastal and exposed sites.
+    - Wildlife Attractor: Fruit for birds and mammals you may or may not have invited.
   companions:
-  - NEEDS_DATA
+  - Seagrape
+  - Moringa
+  - Pawpaw
   avoid:
-  - NEEDS_DATA
+  - Poor drainage and standing water
+  - Deep shade (weak growth, fewer fruit)
   pests:
-  - NEEDS_DATA
+  - scale insects
+  - palmetto weevil
+  growth_habit: Single-trunk feather palm, slow to moderate
+  data_quality_score: 0.8
   # Image attribution: (c) cmilner, all rights reserved
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,52 @@
 ---
 - common_name: Noni
   picture: noni.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Morinda citrifolia
+  aka:
+  - Indian mulberry
+  - Cheese fruit (honest nickname)
+  - Great morinda
+  family: Rubiaceae
+  zone: 10-11
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 30
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  description: "Morinda citrifolia is the tree that fruits whether you approve of
+    the smell or not—large glossy leaves, white tubular flowers, lumpy green-white
+    fruits that ripen to translucent stink-bombs beloved by certain Polynesian traditions
+    and MLM nightmares.\n\nNorth Florida / subtropical: Marginal north of true tropics;
+    microclimate and young-plant protection required in 10a cold pockets. Loves heat
+    and humidity; hates long freezes.\n\nSun and water: Full sun for best fruiting;
+    tolerates some shade when young. Tolerates drought once established but fruits better
+    with deep occasional irrigation in dry season.\n\nPropagation: Seed (variable);
+    large cuttings in humid warm weather."
+  purpose: |-
+    Tough coastal-tropical tree with cultural baggage:
+
+    - Edible: Ripe or fermented uses depending on tradition and courage.
+    - Medicinal: Long folk history—modern health claims deserve side-eye and citations.
+    - Wildlife Attractor: Fruit flies and fruit pigeons RSVP yes.
   companions:
-  - NEEDS_DATA
+  - Papaya
+  - Banana
+  - Taro
   avoid:
-  - NEEDS_DATA
+  - Freezing winds on young trees
+  - Waterlogged heavy soils
   pests:
-  - NEEDS_DATA
+  - caribbean fruit fly
+  - scale insects
+  growth_habit: Open-canopy small tree to about 30 feet in ideal sites
+  data_quality_score: 0.8
   # Image attribution: (c) Douglas Goldman, some rights reserved (CC BY-SA), uploaded by Douglas Goldman
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

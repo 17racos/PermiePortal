@@ -1,27 +1,56 @@
 ---
 - common_name: Honey Locust
   picture: honey_locust.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Gleditsia triacanthos
+  aka:
+  - Thornless honey locust (cultivars)
+  family: Fabaceae
+  zone: "4-9"
+  ideal_temp_min: 45
+  ideal_temp_max: 90
+  min_temp: -30
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Canopy
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Nitrogen Fixer
+  - Animal Fodder
+  - Wildlife Attractor
+  - Timber
+  - Shade Provider
+  description: |-
+    Honey locust is the legume tree that dropped medieval armor for suburbia: wild types bristle with thorns; nursery cultivars go bare-legged and polite. Drought-tough, sun-hungry, and happy on poor soils — it fixes nitrogen enough to matter in polyculture talk without pretending to be a bean patch.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for strong form and pod production.
+    - Tolerates drought once established; wet feet invite decline.
+    - pH flexible; compaction bothers it less than most ornamentals.
+
+    ✂️ Methods to Propagate:
+    - Seeds: scarify and soak — hard seed coat is a gatekeeper.
+    - Grafted cultivars: propagate by budding to keep thornless, predictable habits.
+    - Transplant young bareroot trees in cool, wet seasons.
+  purpose: |-
+    Honey locust is overstory infrastructure with snacks:
+
+    - Nitrogen Fixer: Nodules on roots feed the system modestly, not miracle hype.
+    - Animal Fodder: Sweet pods fed livestock historically; verify cultivar and quantity.
+    - Wildlife Attractor: Flowers for pollinators; pods for mammals and bold foragers.
+    - Timber: Dense wood where straight stems exist — often more windbreak than lumber mill.
+    - Shade Provider: Light, dappled shade compared to oak — understory still breathes.
   companions:
-  - NEEDS_DATA
+  - Black locust
+  - Elderberry
+  - Pawpaw
   avoid:
-  - NEEDS_DATA
+  - Confusing wild thorny volunteers with child- and pet-safe yards
+  - Heavy shade — gets leggy and sullen
   pests:
-  - NEEDS_DATA
+  - Borers
+  - Scale Insects
+  - Caterpillars
   # Image attribution: Roger Culos / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

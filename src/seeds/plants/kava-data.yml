@@ -1,27 +1,52 @@
 ---
 - common_name: Kava
   picture: kava.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Piper methysticum
+  aka:
+  - Kava Kava
+  - Awa
+  family: Piperaceae
+  zone: 10-11
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 40
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Medicinal
+  - Ground Cover
+  - Mulcher
+  description: "Kava is a sterile Pacific Islands shrub grown from cuttings for
+    roots that become the famous earthy beverage — not a party drug from a gas
+    station. Legality and quality control vary; some jurisdictions side-eye extracts.
+    Humid heat lover; North Florida is marginal outside frost-free microclimates or
+    greenhouse wintering. Needs shade, moisture, and patience — harvest on multi-year
+    cycles traditionally.\n\n☀️💧 Sun and Water:\n- Understory part shade to dappled
+    light; full sun burns leaves.\n- Consistent moisture, high humidity; mulch and
+    wind protection help.\n\n✂️ Propagation:\n- Stem cuttings in moist mix; seeds
+    essentially do not exist in crop clones.\n\nRespect local laws and your liver;
+    permaculture includes adult decision-making."
+  purpose: |-
+    Cultural plant, not a landscape filler:
+
+    - Medicinal / social: Traditional calming beverage from prepared root; modern regulation applies.
+    - Ground Cover: Broad leaves shade soil in wet understory plantings.
+    - Mulcher: Spent leaves and prunings feed compost in humid systems.
   companions:
-  - NEEDS_DATA
+  - Banana
+  - Taro
+  - Lemongrass
   avoid:
-  - NEEDS_DATA
+  - Exposed rooftop pots in winter cold
   pests:
-  - NEEDS_DATA
-  # Image attribution: Forest &amp; Kim Starr / Wikimedia Commons / CC BY 3.0
+  - Scale Insects
+  - Mealybugs
+  - Nematodes
+  growth_habit: Herbaceous shrub
+  data_quality_score: 0.65
+  # Image attribution: Forest & Kim Starr / Wikimedia Commons / CC BY 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

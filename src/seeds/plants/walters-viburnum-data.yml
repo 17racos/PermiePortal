@@ -1,27 +1,50 @@
 ---
 - common_name: Walter's Viburnum
   picture: walters_viburnum.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Viburnum obovatum
+  aka:
+  - Small-leaf Arrowwood
+  - Walter Viburnum
+  family: Adoxaceae
+  zone: "7-10"
+  ideal_temp_min: 45
+  ideal_temp_max: 95
+  min_temp: 5
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  - Erosion Control
+  description: "Walter's viburnum is a Florida-native evergreen to semi-evergreen
+    shrub with small glossy leaves, creamy spring flowers, and bird-feeding drupes.
+    It ranges from formal hedge height to small-tree form depending on genotype and
+    pruning—coastal ecotypes stay tighter; inland forms can stretch.\n\nNorth Florida
+    through the peninsula: workhorse hedge, understory, or wetland edge plant. Tolerates
+    wet feet better than many ornamentals, which is why it keeps getting planted by
+    people who actually read site conditions.\n\nSun and water: Full sun to moderate
+    shade; adaptable soils from sand to limestone to seasonal wet; salt tolerance
+    moderate—coastal spray okay, not a dune pioneer.\n\nPropagation: Seeds (double
+    dormancy—slow); softwood/hardwood cuttings; dig suckers with roots. Nursery liners
+    save years of waiting."
+  purpose: |-
+    Native privacy screen, pollinator bridge, and bird candy factory. Edible fruit
+    is technically usable but mostly wildlife fare—humans plant it for ecology and
+    structure, not jam envy.
   companions:
-  - NEEDS_DATA
+  - Beautyberry
+  - Muhly Grass
+  - Coontie
+  - Saw Palmetto
   avoid:
-  - NEEDS_DATA
+  - Deep shade interior of forest
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Scale Insects
+  - Whiteflies
   # Image attribution: Daderot / Wikimedia Commons / Public domain
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

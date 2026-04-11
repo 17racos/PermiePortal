@@ -1,27 +1,51 @@
 ---
 - common_name: Wax Jambu
-  picture: wax_jambu.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Syzygium samarangense
+  aka:
+  - Java Apple
+  - Rose Apple
+  - Chomphu
+  family: Myrtaceae
+  zone: "10-12"
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 28
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  - Shade Provider
+  description: "Wax jambu is a tropical myrtle relative with glossy leaves, fluffy
+    cream flowers, and bell-shaped, waxy fruit in white, pink, or red—crisp, mild,
+    and thirst-quenching rather than intensely sweet. It wants monsoon humidity and
+    frost-free years.\n\nFlorida: common in South Florida landscapes; marginal and
+    angry north of roughly 10a except in greenhouse cosplay. Psyllids love myrtaceae—expect
+    pitted leaves and learn your IPM.\n\nSun and water: Full sun for fruit; deep,
+    fertile, well-drained soil with steady moisture; wind protection reduces leaf
+    tatter.\n\nPropagation: Seeds (variable); air layering; grafting superior cultivars.
+    Buy named types if you want predictable fruit size and color."
+  purpose: |-
+    Subtropical backyard snack tree, ornamental canopy for smaller yards, and bird
+    diversion fruit if you plant enough to share. Not a calorie bomb—think living
+    water balloon.
   companions:
-  - NEEDS_DATA
+  - Starfruit
+  - Guava
+  - Papaya
+  - Turmeric
   avoid:
-  - NEEDS_DATA
+  - Hard freezes
+  - Dry windy ridges
   pests:
-  - NEEDS_DATA
+  - Caribbean Fruit Fly
+  - Scale Insects
+  - Mealybugs
+  - Aphids
   # Image attribution: Unknown / Wikimedia Commons / CC BY 2.5
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,52 @@
 ---
 - common_name: Mexican Bush Sage
   picture: mexican_bush_sage.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Salvia leucantha
+  aka:
+  - Velvet sage
+  family: Lamiaceae
+  zone: "8-11"
+  ideal_temp_min: 55
+  ideal_temp_max: 95
+  min_temp: 15
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Ornamental
+  - Wildlife Attractor
+  - Border Plant
+  description: "Mexican bush sage is the fuzzy purple fireworks plant hummingbirds
+    treat like a VIP lounge. Upright spikes of velvety flowers ride above aromatic
+    foliage from late summer into frost. In North Florida it often behaves as a die-back
+    shrub: freezes to the ground in hard winters, rebounds when soil warms if roots
+    are mulched and drainage is honest.\n\n \U0001F31E\U0001F4A7 Sun and Water Requirements:\n-
+    Full sun for maximum bloom density.\n- Moderate water; drought-tolerant once established
+    but sulks in baked sand without mulch.\n- Well-drained soil; wet winter feet rot
+    crowns.\n\n✂️\U0001FAD8 Methods to Propagate:\n- Softwood cuttings in warm, humid
+    conditions.\n- Division of mature clumps in spring.\n- Seeds possible but variable;
+    clones preserve the show.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E When to
+    Harvest:\n- Cut long stems for bouquets before flowers fully brown.\n- Leave
+    late blooms for migrating pollinators."
+  purpose: |-
+    Mexican bush sage earns its space on edges and sun gaps:
+
+    - Pollinator: Hummingbirds and long-tongued bees mob the tubes.
+    - Ornamental: Long-season color without corporate bedding-plant despair.
+    - Wildlife Attractor: Nectar corridor in subtropical and warm-temperate yards.
+    - Border Plant: Defines paths and food-forest sun edges.
   companions:
-  - NEEDS_DATA
+  - Anise Hyssop
+  - Milkweed
+  - Lantana
   avoid:
-  - NEEDS_DATA
+  - Boggy shade with poor airflow
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Whiteflies
+  - Powdery Mildew
   # Image attribution: SAplants / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

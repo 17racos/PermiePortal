@@ -1,27 +1,54 @@
 ---
 - common_name: Huacatay
   picture: huacatay.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  scientific_name: Tagetes minuta
+  aka:
+  - Peruvian black mint
+  - Wild marigold
+  - Stinking Roger
+  family: Asteraceae
+  zone: 9-11
+  ideal_temp_min: 65
+  ideal_temp_max: 85
+  min_temp: 28
+  max_temp: 100
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Pest Management
+  - Soil Improvement
+  - Border Plant
+  description: |-
+    Huacatay is a tall, pungent marigold relative used in Andean cooking—think cilantro’s weird cousin who lifts weights. The smell is strong enough to split a room; some insects agree and move out. In North Florida grow it as a warm-season annual unless you are in a frost-free pocket. Do not assume “herb” means “plant anywhere next to delicate seedlings without consequences”—it can bully neighbors through scent chemistry.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for sturdy stems and aromatic oils.
+    - Average to rich, well-drained soil; steady moisture while young, tolerates short dry spells once tall.
+
+    ✂️ Methods to Propagate:
+    - Seeds: surface sow warm; light helps germination.
+    - Self-sows in mild winters—deadhead if you dislike volunteer committees.
+
+    🌾 Harvest notes:
+    - Harvest young leaves for culinary use; flavor is potent—start small in recipes.
+  purpose: |-
+    - Edible: Traditional herb for stews, sauces, and marinades—verify personal tolerance and preparation.
+    - Pest Management: Strong volatile compounds can confuse or repel some pests in interplanting experiments—results vary with spacing and species.
+    - Soil Improvement: Biomass chop-and-drop at season’s end.
+    - Border Plant: Tall aromatic screen at the edge of veg beds—place with intent.
   companions:
-  - NEEDS_DATA
+  - Tomatoes
+  - Peppers
+  - Beans
   avoid:
-  - NEEDS_DATA
+  - Tiny seedlings sensitive to allelopathic drama
+  - Low spots that stay soggy and rot stems
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Spider Mites
+  - Whiteflies
   # Image attribution: (c) tlit46, some rights reserved (CC BY-NC), uploaded by tlit46
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

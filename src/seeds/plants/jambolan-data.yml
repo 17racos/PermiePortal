@@ -1,27 +1,49 @@
 ---
 - common_name: Jambolan
   picture: jambolan.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Syzygium cumini
+  aka:
+  - Java plum
+  - Jambul
+  family: Myrtaceae
+  zone: "9-11"
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 26
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Shade Provider
+  description: "Syzygium cumini is the fast-growing myrtle tree with dark fruits that
+    stain fingers, sidewalks, and innocence. Evergreen in warm climates, salt-tolerant
+    enough for some coastal contexts, and famous for purple fruit mess underfoot.
+    Florida: listed invasive in parts of the state — birds seed it everywhere. If
+    you already have it, harvest hard; if planting new, read county guidance like an
+    adult.\n\n🌞💧 Sun and Water Requirements:\n- Full sun for dense growth and fruiting.\n-
+    Tolerates a range of soils; prefers deep drainage over permanent bog.\n- Drought
+    tolerance improves with age but young trees want steady moisture.\n\n✂️🌱 Methods
+    to Propagate:\n- Seeds germinate easily — which is part of the invasive story.\n-
+    Air-layering for known trees.\n\n🧺 When to Harvest:\n- When fruit darkens fully
+    and separates easily — expect purple rain on pavement."
+  purpose: |-
+    Jambolan is shade, bird food, and 'is that a plum?' flavor experiments. In permaculture
+    ethics it is also a case study in planting consequences — stack benefits with open
+    eyes about regional weed risk.
   companions:
-  - NEEDS_DATA
+  - Guava
+  - Rose Apple
+  - Papaya
   avoid:
-  - NEEDS_DATA
+  - Planting near pools, patios, or cars you like clean
+  - Ignoring local invasive advisories
   pests:
-  - NEEDS_DATA
+  - Caribbean Fruit Fly
+  - Scale Insects
+  - Whiteflies
   # Image attribution: (c) sea-kangaroo, some rights reserved (CC BY-NC-ND), uploaded by sea-kangaroo
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

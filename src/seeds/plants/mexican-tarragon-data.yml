@@ -1,27 +1,48 @@
 ---
 - common_name: Mexican Tarragon
   picture: mexican_tarragon.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Tagetes lucida
+  aka:
+  - Mexican marigold mint
+  - Pericon
+  - Sweet mace
+  family: Asteraceae
+  zone: 8-11
+  ideal_temp_min: 55
+  ideal_temp_max: 92
+  min_temp: 20
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Ornamental
+  - Wildlife Attractor
+  description: |-
+    Mexican tarragon is the anise-flavored marigold that fakes tarragon in heat where French tarragon sulks. Tea, mole herbs, pollinator bait—pick your lane.
+
+    North Florida / subtropical: Dies back in hard frost; returns from roots in mild 9a/b if mulched. In cold snaps it becomes a memory unless potted.
+
+    Sun and water: Full sun for dense oils and upright habit. Average, well-drained soil; drought-tolerant once established but wilts dramatically when thirsty—mostly theater.
+
+    Propagation: Cuttings root easily; seeds for diversity; divide clumps in spring.
+  purpose: |-
+    Culinary herb for warm climates; tea traditions where culturally used; late-season nectar for butterflies and bees when other herbs quit.
   companions:
-  - NEEDS_DATA
+  - Peppers
+  - Tomatoes
+  - Basil
   avoid:
-  - NEEDS_DATA
+  - Boggy shade
+  - Overwatering in cool weather
   pests:
-  - NEEDS_DATA
+  - aphids
+  - spider mites
+  - whiteflies
+  growth_habit: Upright herbaceous perennial; shrubby in frost-free areas
+  data_quality_score: 0.75
   # Image attribution: (c) Bodo Nuñez Oberg, some rights reserved (CC BY-NC), uploaded by Bodo Nuñez Oberg
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

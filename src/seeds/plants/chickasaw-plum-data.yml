@@ -1,27 +1,54 @@
 ---
 - common_name: Chickasaw Plum
   picture: chickasaw_plum.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Prunus angustifolia
+  aka:
+  - Sand plum
+  family: Rosaceae
+  zone: "5-9"
+  ideal_temp_min: 40
+  ideal_temp_max: 95
+  min_temp: -25
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Erosion Control
+  - Mulcher
+  description: |-
+    Chickasaw plum is the thicket-forming native plum that fruits before your patience runs out — small tart plums, suckering hedge energy, and flowers that embarrass ornamental pears for pollinator value. North Florida: happy in sandy edges, old fields, and food forest margins if you accept colonial expansion by root.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for fruit; tolerates part shade with fewer plums and more drama.
+    - Drought-tolerant once established; prefers well-drained soils, laughs at sand.
+    - Occasional deep watering helps fruit sizing in brutal drought years.
+
+    ✂️ Methods to Propagate:
+    - Seeds: cold stratify; wildlife-planted volunteers are nature's shortcut.
+    - Root suckers: dig connected sprouts in dormancy for instant thicket politics.
+    - Softwood cuttings possible for clones — less common than seed and suckers.
+  purpose: |-
+    Chickasaw plum is early fruit and thicket habitat:
+
+    - Edible: Jams, jellies, wine, and brave fresh eating — pit discipline required.
+    - Wildlife Attractor: Flowers, fruit, and thorny cover for birds and insects.
+    - Erosion Control: Suckering roots knit sandy disturbed ground.
+    - Mulcher: Prunings and leaf drop feed edge guilds if you chop-and-drop.
   companions:
-  - NEEDS_DATA
+  - Black locust
+  - Elderberry
+  - Beautyberry
   avoid:
-  - NEEDS_DATA
+  - Planting where root suckers will upset turf purists
+  - Expecting sweet supermarket plum without breeding or jam sugar
   pests:
-  - NEEDS_DATA
+  - Japanese Beetles
+  - Borers
+  - Caterpillars
   # Image attribution: (c) chasecorrington, all rights reserved
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

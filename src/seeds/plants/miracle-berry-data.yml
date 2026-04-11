@@ -1,27 +1,47 @@
 ---
 - common_name: Miracle Berry
   picture: miracle_berry.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Synsepalum dulcificum
+  aka:
+  - Miracle fruit
+  - Miraculin berry
+  family: Sapotaceae
+  zone: 10-11
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  description: "Synsepalum dulcificum is the small glossy shrub whose red berries
+    make lemons taste like candy for an hour—miraculin messes with sweet receptors,
+    not sugar content. Party trick first, plant second.\n\nNorth Florida / subtropical:
+    Container culture or greenhouse north of 10b; brief chill can defoliate young
+    plants. Likes humidity and hates salt wind.\n\nSun and water: Part sun to bright
+    shade in hot climates; acidic, organic, well-drained soil. Even moisture; no wet
+    feet.\n\nPropagation: Fresh seed; air-layering; grafted selections for compact
+    habit."
+  purpose: |-
+    Sensory oddity shrub:
+
+    - Edible: Berries for the flavor prank—diabetics should still read labels on actual sugar.
+    - Ornamental: Neat evergreen leaves where winter allows.
   companions:
-  - NEEDS_DATA
+  - Papaya
+  - Guava
+  - Jaboticaba
   avoid:
-  - NEEDS_DATA
+  - Freezing winds on container plants
+  - Heavy alkaline soil
   pests:
-  - NEEDS_DATA
+  - scale insects
+  - mealybugs
+  growth_habit: Slow evergreen shrub to about 6–15 feet
+  data_quality_score: 0.8
   # Image attribution: MiracleFruitFarm / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

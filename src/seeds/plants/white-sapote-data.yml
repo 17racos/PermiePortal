@@ -1,27 +1,50 @@
 ---
 - common_name: White Sapote
   picture: white_sapote.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Casimiroa edulis
+  aka:
+  - Mexican apple
+  - Zapote blanco
+  family: Rutaceae
+  zone: "9-11"
+  ideal_temp_min: 55
+  ideal_temp_max: 90
+  min_temp: 22
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Shade Provider
+  - Wildlife Attractor
+  description: "Casimiroa edulis is the creamy-textured fruit tree that tricks people
+    into thinking custard grew on branches. Evergreen-ish in warm climates, with
+    hand-shaped compound leaves and fruit quality that swings hard by seedling genetics
+    — named grafted varieties are the non-lottery path. North Florida: possible in
+    protected 9b/10a with frost planning; younger wood is the drama queen.\n\n🌞💧
+    Sun and Water Requirements:\n- Full sun for reliable fruiting.\n- Deep, well-drained
+    soil; consistent water reduces fruit drop tantrums.\n- Mulch to stabilize root
+    zone temps.\n\n✂️🌱 Methods to Propagate:\n- Seeds: easy but variable fruit —
+    fine for rootstock experiments.\n- Grafting: align dreams with reality.\n\n🧺
+    When to Harvest:\n- When skin lightens/yellows (type-dependent) and fruit softens
+    — ripens off-tree like a polite avocado cousin."
+  purpose: |-
+    White sapote fills the 'subtropical dessert tree' niche with less acid drama than
+    citrus cousins. Use it for shade and calories where freezes are rare or managed;
+    accept that squirrels will conduct quality control.
   companions:
-  - NEEDS_DATA
+  - Guava
+  - Banana
+  - Papaya
   avoid:
-  - NEEDS_DATA
+  - Open low spots that radiate frost onto new flushes
+  - Chronic waterlogging — roots rot, dreams follow
   pests:
-  - NEEDS_DATA
-  # Image attribution: Forest &amp; Kim Starr / Wikimedia Commons / CC BY 3.0
+  - Scale Insects
+  - Caribbean Fruit Fly
+  - Aphids
+  - Caterpillars
+  # Image attribution: Forest & Kim Starr / Wikimedia Commons / CC BY 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

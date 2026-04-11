@@ -1,27 +1,58 @@
 ---
 - common_name: Creeping Rosemary
-  picture: creeping_rosemary.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Salvia rosmarinus 'Prostratus'
+  aka:
+  - Prostrate rosemary
+  - Rosmarinus officinalis 'Prostratus' (legacy name)
+  family: Lamiaceae
+  zone: "8-11"
+  ideal_temp_min: 50
+  ideal_temp_max: 85
+  min_temp: 18
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Ground Cover
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Pollinator
+  - Border Plant
+  - Pest Management
+  description: |-
+    Creeping rosemary is the same resinous kitchen herb as upright types, except it crawls along slopes and walls like it is late for something. Tiny blue flowers pull pollinators; stems root where they touch soil if you are not paying attention.
+
+    North Florida / subtropical: Often survives open ground in 9a/b with drainage; cold snaps test microclimate—berm, gravel mulch, south face. Wet cool spells invite root rots.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun mandatory for density and flavor oils; shade makes leggy sad sprigs.
+    - Lean, well-drained soil; drought-tolerant once established—deep soak, then dry.
+
+    ✂️ Methods to Propagate:
+    - Semi-hardwood cuttings in warm weather; strip lower leaves, use gritty mix.
+    - Layer stems pinned to soil until roots hold.
+
+    🌾 Harvest notes:
+    - Clip sprigs year-round in mild climates; flavor peaks on new growth before heavy bloom if you are picky.
+  purpose: |-
+    - Edible: Leaves for cooking—same rules as upright rosemary.
+    - Medicinal: Traditional uses mirror rosemary—reality-check with real references.
+    - Pollinator: Small flowers feed bees when you allow bloom.
+    - Border Plant: Spills over walls and retaining blocks with intent.
+    - Pest Management: Strong scent may confuse some insects—keep expectations human.
   companions:
-  - NEEDS_DATA
+  - Lavender
+  - Sage
+  - Thyme
   avoid:
-  - NEEDS_DATA
+  - Heavy wet clay and poor drainage
+  - Deep shade (leggy, flavorless, sad)
   pests:
-  - NEEDS_DATA
+  - Spider Mites
+  - Aphids
+  - Whiteflies
   # Image attribution: No image found
   # Image source: none
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,52 @@
 ---
 - common_name: Kenaf
   picture: kenaf.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  scientific_name: Hibiscus cannabinus
+  aka:
+  - Deccan hemp
+  - Java jute
+  family: Malvaceae
+  zone: "6-12"
+  ideal_temp_min: 65
+  ideal_temp_max: 100
+  min_temp: 32
+  max_temp: 110
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Fiber
+  - Cover Crop
+  - Animal Fodder
+  - Green Manure
+  description: "Kenaf is a monster malvaceous annual that grows like it is trying
+    to outrun climate guilt. Tall stems, big palmate leaves, and bast fiber historically
+    used like jute. In North Florida treat it as a warm-season biomass crop: long day
+    heat, fertile soil, and irrigation through dry spells stack tonnage. It is not
+    a subtle backyard accent unless your backyard is measured in acres.\n\n \U0001F31E\U0001F4A7
+    Sun and Water Requirements:\n- Full sun.\n- Rich, well-drained soil with steady
+    moisture during explosive growth.\n- Heavy feeders — compost and mulch are cheaper
+    than regret.\n\n✂️\U0001FAD8 Methods to Propagate:\n- Direct sow after soil is
+    warm.\n- Start indoors in short seasons to gain height.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E
+    When to Harvest:\n- For fiber: harvest at early bloom before stems lignify too
+    hard.\n- For forage/biomass: cut earlier for quality, later for volume."
+  purpose: |-
+    Kenaf is industrial biomass you can grow without pretending it is subtle:
+
+    - Fiber: Bast fiber for cordage, paper pulp experiments, and mulch strips.
+    - Cover Crop: Rapid canopy smothers weeds when managed.
+    - Animal Fodder: Young growth can feed livestock contexts where appropriate.
+    - Green Manure: Chop and drop or compost huge tonnage.
   companions:
-  - NEEDS_DATA
+  - Pigeon Pea
+  - Sunflower
+  - Buckwheat
   avoid:
-  - NEEDS_DATA
+  - Cold wet soil at sowing — seeds rot, dreams die
   pests:
-  - NEEDS_DATA
+  - Japanese Beetles
+  - Aphids
+  - Whiteflies
   # Image attribution: (c) Wynand Uys, some rights reserved (CC BY), uploaded by Wynand Uys
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

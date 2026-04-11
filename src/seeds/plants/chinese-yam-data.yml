@@ -1,27 +1,48 @@
 ---
 - common_name: Chinese Yam
-  picture: chinese_yam.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Dioscorea polystachya
+  aka:
+  - Cinnamon vine
+  - Mountain yam (East Asia)
+  family: Dioscoreaceae
+  zone: 5-9
+  ideal_temp_min: 55
+  ideal_temp_max: 85
+  min_temp: -10
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Vine
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ground Cover
+  description: "Dioscorea polystachya is the twining yam with tiny edible bulbils
+    (“air potatoes”) and larger underground tubers—nutty when cooked, invasive where
+    laws say so. Florida and several states side-eye it; check before planting.\n\n
+    North Florida / subtropical: Vigorous in humid summers; dies back in winter while
+    tubers persist. Can smother small trees if ignored—trellis or harvest guilt.\n\n
+    Sun and water: Full sun to part shade; fertile soil, steady moisture in growth
+    season. Tubers enlarge over years.\n\nPropagation: Bulbils, tuber pieces, or
+    seed (less common in gardens)—assume everything wants to spread."
+  purpose: |-
+    Calories with legal homework:
+
+    - Edible: Tubers and small aerial bulbils when properly identified and cooked.
+    - Ground Cover: Aggressive leaf canopy—manage or regret.
   companions:
-  - NEEDS_DATA
+  - Comfrey
+  - Sunflower
+  - Pawpaw
   avoid:
-  - NEEDS_DATA
+  - Planting where regional law lists it
+  - Letting vines girdle young trees
   pests:
-  - NEEDS_DATA
+  - nematodes
+  - aphids
+  growth_habit: Herbaceous twining perennial vine from underground tuber
+  data_quality_score: 0.8
   # Image attribution: James H. Miller, USDA Forest Service, Bugwood.org / Wikimedia Commons / CC BY 3.0 us
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,54 @@
 ---
 - common_name: Mugwort
   picture: mugwort.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Artemisia vulgaris
+  aka:
+  - Common mugwort
+  - Cronewort
+  family: Asteraceae
+  zone: "3-9"
+  ideal_temp_min: 45
+  ideal_temp_max: 85
+  min_temp: -30
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Medicinal
+  - Pest Management
+  - Dynamic Accumulator
+  - Wildlife Attractor
+  description: "Mugwort is the bitter aromatic perennial your garden will regret
+    if you underestimate rhizomes. Tall, silvery-green leaves, inconspicuous flowers,
+    and a talent for marching through mulch. Traditional medicine and dreaming folklore
+    follow it around — potency is real, allergies happen, and pregnant folks should
+    steer clear. In North Florida it grows vigorously in cool season and can look rough
+    in summer heat without partial shade and moisture.\n\n \U0001F31E\U0001F4A7 Sun
+    and Water Requirements:\n- Full sun to part shade in hot climates.\n- Average
+    to moist soil; tolerates poor soils better than pampered divas.\n- Contain rhizomes
+    or plan on editing patches forever.\n\n✂️\U0001FAD8 Methods to Propagate:\n- Rhizome
+    division — easiest and most dangerous for spread.\n- Seeds: wind-dispersed; deadhead
+    if you fear the neighborhood.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E When
+    to Harvest:\n- Aerial parts before flowering for drying.\n- Use reputable ID;
+    wormwood relatives punish cocky foragers."
+  purpose: |-
+    Mugwort is powerful medicine and powerful weed energy:
+
+    - Medicinal: Bitter aromatic herb with long traditional use (learn contraindications).
+    - Pest Management: Strong scent can confuse some pests in polycultures — not magic smoke.
+    - Dynamic Accumulator: Mines and cycles minerals in chop-and-drop systems when managed.
+    - Wildlife Attractor: Supports pollinators on inconspicuous flowers.
   companions:
-  - NEEDS_DATA
+  - Yarrow
+  - Comfrey
+  - Elderberry
   avoid:
-  - NEEDS_DATA
+  - Small raised beds without rhizome barriers
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Leafhoppers
+  - Powdery Mildew
   # Image attribution: Robert Flogaus-Faust / Wikimedia Commons / CC BY 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

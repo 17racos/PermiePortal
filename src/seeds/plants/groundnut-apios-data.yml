@@ -1,27 +1,48 @@
 ---
-- common_name: Groundnut Apios
-  picture: groundnut_apios.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+- common_name: Groundnut
+  picture: groundnut.jpg
+  scientific_name: Apios americana
+  aka:
+  - Hopniss
+  - Indian potato
+  family: Fabaceae
+  zone: 3-9
+  ideal_temp_min: 55
+  ideal_temp_max: 85
+  min_temp: -35
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Vine
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Nitrogen Fixer
+  - Wildlife Attractor
+  description: "Groundnut (Apios—not peanut) is the native legume vine with edible
+    tubers and beans if you cook them like a responsible primate. Twining stems, showy
+    burgundy pea flowers, and a permaculture darling for eastern food forests.\n\nNorth
+    Florida / subtropical: Northern half of the state aligns with its range better than
+    deep tropical south; still triable with shade and moisture management.\n\nSun and
+    water: Full sun to light shade. Moist, rich soils produce heavier tubers; drought
+    slows the party.\n\nPropagation: Tubers, rhizome divisions, or scarified seed—harvest
+    on a multi-year schedule so stands persist."
+  purpose: |-
+    Perennial protein and starch in native-ish guilds, nitrogen input via rhizobia,
+    and pollinator support from pea-family flowers.
   companions:
-  - NEEDS_DATA
+  - Elderberry
+  - Sunchoke
+  - Wetland sedges
   avoid:
-  - NEEDS_DATA
+  - Bone-dry sand without irrigation
+  - Harvesting every tuber every year until nothing returns
   pests:
-  - NEEDS_DATA
-  # Image attribution: No image found
-  # Image source: none
+  - japanese beetles
+  - aphids
+  - leafhoppers
+  growth_habit: Herbaceous perennial twining vine from rhizomatous tubers
+  data_quality_score: 0.8
+  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
+  # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,50 @@
 ---
 - common_name: Jamelao
   picture: jamelao.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Syzygium cumini
+  aka:
+  - Java plum
+  - Jambolan
+  - Portuguese: jamelão
+  family: Myrtaceae
+  zone: 9b-11
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 24
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  description: "Syzygium cumini is the tropical myrtle that stains sidewalks purple—
+    glossy leaves, fragrant cream flowers, dark astringent fruit that goes from ‘spit
+    it out’ to ‘jam material’ as it ripens.\n\nNorth Florida / subtropical: Fruiting
+    in 9b+ with young-tree protection from hard freezes; thrives in heat and humidity.
+    Can self-sow in frost-free pockets—mind your local invasive lists.\n\nSun and
+    water: Full sun for heavy fruiting; tolerates some shade when young. Deep watering
+    in dry spells improves fruit size; mulch to protect surface roots.\n\nPropagation:
+    Seed (comes mostly true); air-layering and grafting for known fruit quality."
+  purpose: |-
+    Backyard jam tree with dye-grade fingers:
+
+    - Edible: Ripe fruit, vinegar, wine experiments—tannins keep you honest.
+    - Wildlife Attractor: Birds spread seeds enthusiastically.
+    - Ornamental: Handsome dense canopy when trained.
   companions:
-  - NEEDS_DATA
+  - Guava
+  - Pitomba
+  - Starfruit
   avoid:
-  - NEEDS_DATA
+  - Planting where escaped seedlings violate local rules
+  - Waterlogged heavy clay without slope relief
   pests:
-  - NEEDS_DATA
+  - caribbean fruit fly
+  - scale insects
+  growth_habit: Evergreen tree to 50+ feet in ideal climates
+  data_quality_score: 0.8
   # Image attribution: কামরুল ইসলাম শাহীন / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

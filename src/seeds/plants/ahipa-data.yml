@@ -1,27 +1,53 @@
 ---
 - common_name: Ahipa
-  picture: ahipa.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  picture: ""
+  scientific_name: Pachyrhizus ahipa
+  aka:
+  - Andean yam bean
+  - Ajipa
+  family: Fabaceae
+  zone: 9-11
+  ideal_temp_min: 65
+  ideal_temp_max: 85
+  min_temp: 40
+  max_temp: 95
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Vine
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Nitrogen Fixer
+  - Green Manure
+  description: |-
+    Ahipa is the lesser-hyped Pachyrhizus cousin: bushy, short-day, and grown for starchy roots and edible beans in some landraces — with the usual legume caveat that raw beans can be toxic stupidity if you skip cooking. It fixes nitrogen while pretending to be a root crop, which is exactly the kind of multitasking permaculture likes. Treat it as a warm-season annual outside the true tropics.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for tuber fill; half-day sun yields disappointment and excuses.
+    - Loose, deep soil for root expansion; steady moisture, no constant swamp.
+    - Frost ends the season; plan harvest before first freeze.
+
+    ✂️ Methods to Propagate:
+    - Seeds: sow after soil warms; in short-season areas start indoors.
+    - Tubers: replant crown pieces in frost-free climates where tradition supports it.
+  purpose: |-
+    Ahipa is a niche Andean starch legume for patient growers:
+
+    - Edible: Tubers and properly prepared seeds only — verify landrace and toxicity notes before menu planning.
+    - Nitrogen Fixer: Nodules feed the bed for the next crop.
+    - Green Manure: Chopped biomass can feed soil when you are not chasing roots.
   companions:
-  - NEEDS_DATA
+  - Corn
+  - Amaranth
+  - Squash
   avoid:
-  - NEEDS_DATA
+  - Heavy clay pans that deform tubers
+  - Eating undercooked seeds
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Rootknot nematodes
+  - Bean leaf beetle
   # Image attribution: Tracey Slotta @ USDA-NRCS PLANTS Database / Wikimedia Commons / Public domain
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

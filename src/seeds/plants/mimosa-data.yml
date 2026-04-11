@@ -1,27 +1,50 @@
 ---
 - common_name: Mimosa
   picture: mimosa.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
+  scientific_name: Albizia julibrissin
+  aka:
+  - Silk tree
+  - Pink siris
+  family: Fabaceae
+  zone: "7-10"
+  ideal_temp_min: 60
+  ideal_temp_max: 95
   min_temp: 0
-  max_temp: 0
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Nitrogen Fixer
+  - Shade Provider
+  - Wildlife Attractor
+  - Ornamental
+  description: "Silk tree ‘mimosa’ is the pretty invasive your county extension loves
+    to scold. Ferny leaves, pink powder-puff flowers, and a talent for seeding into
+    roadsides and disturbed sand. It fixes nitrogen and feeds pollinators — also outcompetes
+    natives in many southeastern sites. In North Florida, treat it as a design ethics
+    pop quiz, not a default canopy tree.\n\n \U0001F31E\U0001F4A7 Sun and Water Requirements:\n-
+    Full sun for reliable bloom and fast growth.\n- Drought-tolerant once established;
+    laughs at thin soils.\n- Avoid planting near fragile natural areas or conservation
+    buffers.\n\n✂️\U0001FAD8 Methods to Propagate:\n- Seeds: Scarify/soak; germinates
+    eagerly — which is the problem.\n- Root suckers from established trees.\n- Not
+    recommended to spread intentionally in invasion-prone regions.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E
+    When to Harvest:\n- Not a food focus; seedpods are ornamental, not dinner."
+  purpose: |-
+    Documented with eyes open — not an endorsement where it escapes:
+
+    - Nitrogen Fixer: Rhizobial symbiosis on disturbed ground.
+    - Shade Provider: Fast, light canopy.
+    - Wildlife Attractor: Bees visit flowers; seeds feed some birds.
+    - Ornamental: Aesthetic appeal is why it spread in the first place.
   companions:
-  - NEEDS_DATA
+  - None documented
   avoid:
-  - NEEDS_DATA
+  - Natural areas, parks, and anywhere seedlings can hitchhike
   pests:
-  - NEEDS_DATA
+  - Japanese Beetles
+  - Scale Insects
+  - Borers
   # Image attribution: Didier Descouens / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

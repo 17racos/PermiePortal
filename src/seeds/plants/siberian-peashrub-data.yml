@@ -1,27 +1,56 @@
 ---
 - common_name: Siberian Peashrub
   picture: siberian_peashrub.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Caragana arborescens
+  aka:
+  - Siberian pea tree
+  - Caragana
+  family: Fabaceae
+  zone: 2-8
+  ideal_temp_min: 55
+  ideal_temp_max: 80
+  min_temp: -40
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Nitrogen Fixer
+  - Animal Fodder
+  - Windbreaker
+  - Wildlife Attractor
+  - Erosion Control
+  description: |-
+    Siberian peashrub is the overachieving legume hedge from cold steppes that laughs at winters your citrus pretends not to hear about. Fine leaves, yellow pea flowers, small pods edible in moderation when young (do your homework—moderation is the keyword). In North Florida it grows as a tough, drought-tolerant shrub or small tree—useful windbreak biomass, not a tropical eye candy plant.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for dense growth and best flowering.
+    - Tolerates poor and alkaline soils; drought-tolerant once established—do not drown it in lawn irrigation guilt.
+
+    ✂️ Methods to Propagate:
+    - Seeds: scarify and soak; direct sow or start in deep pots—taproot does not love cramped trays.
+    - Hardwood cuttings possible but seeds are the usual route for volume.
+
+    🌾 Harvest notes:
+    - Young pods and seeds are used cautiously in survival/forage contexts—verify preparation and portion with reliable references.
+  purpose: |-
+    - Nitrogen Fixer: Feeds the guild while pretending to be “just a hedge.”
+    - Animal Fodder: Browse and pods for poultry and livestock in integrated systems—again, moderation and ID matter.
+    - Windbreaker: Fine-textured hedge rows for poultry runs and field edges.
+    - Wildlife Attractor: Flowers for pollinators; cover for small birds at the edge of systems.
+    - Erosion Control: Deep roots on slopes and disturbed ground.
   companions:
-  - NEEDS_DATA
+  - Elderberry
+  - Seaberry
+  - Fruit trees that want a windbreak buddy
   avoid:
-  - NEEDS_DATA
+  - Deep shade that turns it sparse and whiny
+  - Wet feet in compacted clay sumps
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Spider Mites
+  - Japanese Beetles
   # Image attribution: A. Barra / Wikimedia Commons / CC BY 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

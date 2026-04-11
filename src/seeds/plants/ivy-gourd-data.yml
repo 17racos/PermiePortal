@@ -1,27 +1,49 @@
 ---
 - common_name: Ivy Gourd
   picture: ivy_gourd.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Coccinia grandis
+  aka:
+  - Scarlet gourd
+  - Tindora
+  family: Cucurbitaceae
+  zone: "9-11"
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 32
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Vine
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ground Cover
+  - Wildlife Attractor
+  description: "Coccinia grandis is the tropical cucurbit vine that climbs like it
+    is paid by the vertical inch and fruits like a cherry tomato that went gourd.
+    Florida reality: regulated invasive in much of the state — birds spread seeds,
+    vines mantle trees, and land managers develop opinions about your life choices.
+    Only grow with containment you can defend ethically and legally.\n\n🌞💧 Sun
+    and Water Requirements:\n- Full sun for best fruit load.\n- Fertile, well-drained
+    soil with steady moisture during growth.\n- Strong trellis or you will hate yourself.\n\n✂️🌱
+    Methods to Propagate:\n- Cuttings root readily — which is also why escapes happen.\n-
+    Seeds from ripe fruit; label lines to reduce surprise genetics.\n\n🧺 When to
+    Harvest:\n- Green fruit for crunchy cooking; red soft fruit for sweeter uses
+    — harvest often or the vine sets seed and the ecosystem sends invoices."
+  purpose: |-
+    Ivy gourd is calories and chaos in one package. In a responsible system it is a
+    fenced subtropical vegetable; in the wild it is another argument for reading
+    regional invasive lists before planting something 'because YouTube said so.'
   companions:
-  - NEEDS_DATA
+  - Pigeon Pea
+  - Lemongrass
+  - Sweet Potato
   avoid:
-  - NEEDS_DATA
+  - Letting fruit fall outside the fence
+  - Weak trellis near trees you value
   pests:
-  - NEEDS_DATA
+  - Pickleworm
+  - Melonworm
+  - Squash Vine Borer
   # Image attribution: no rights reserved, uploaded by 葉子
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

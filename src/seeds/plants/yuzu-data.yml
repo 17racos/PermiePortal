@@ -1,27 +1,51 @@
 ---
 - common_name: Yuzu
   picture: yuzu.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Citrus junos
+  aka:
+  - Japanese citron
+  family: Rutaceae
+  zone: "8-10"
+  ideal_temp_min: 45
+  ideal_temp_max: 92
+  min_temp: 10
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Ornamental
+  description: |-
+    Yuzu is the cold-hardier citrus eccentric — knobby fruit, fierce aromatics, and a fan club among chefs who like marmalade with philosophy. Not sweet juice box citrus; peel and juice are the point. North Florida still gets freeze quizzes; site on south slopes, mulch roots, and accept occasional wood dieback without identity crisis.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for flowering and oil-rich peel.
+    - Well-drained, fertile, slightly acidic soil; consistent moisture but not wet feet in winter cold.
+    - Wind protection reduces desiccation during Arctic selfie fronts.
+
+    ✂️ Methods to Propagate:
+    - Budding and grafting onto compatible rootstocks — commercial norm.
+    - Seeds: heterozygous offspring; fine for rootstock experiments, not clone fidelity.
+  purpose: |-
+    Yuzu is culinary citrus for gardeners who read frost maps:
+
+    - Edible: Zest, juice, and preserves; Korean yuja tea energy without the flight.
+    - Medicinal: Traditional cold-season preparations — modern claims need receipts.
+    - Ornamental: Fragrant flowers and curious fruit justify patio space.
   companions:
-  - NEEDS_DATA
+  - Comfrey
+  - Clover
+  - Nasturtium
   avoid:
-  - NEEDS_DATA
+  - Ignoring HLB / psyllid context in commercial citrus zones
+  - Low frost pockets with poor air drainage
   pests:
-  - NEEDS_DATA
+  - Asian Citrus Psyllid
+  - Citrus Leafminer
+  - Scale Insects
   # Image attribution: (c) Molly Ann, all rights reserved, uploaded by Molly Ann
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

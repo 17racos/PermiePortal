@@ -1,27 +1,50 @@
 ---
 - common_name: Epazote
   picture: epazote.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Dysphania ambrosioides
+  aka:
+  - Mexican tea
+  - Wormseed (old common name)
+  family: Amaranthaceae
+  zone: "8-11"
+  ideal_temp_min: 55
+  ideal_temp_max: 95
+  min_temp: 25
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Pest Management
+  description: "Epazote is the pungent herb beans tolerate and gringos underestimate.
+    Jagged leaves, weedy enthusiasm, and chemistry you should not treat like parsley.
+    Traditional bean-pot herb; also historically used against intestinal uninvited
+    guests — potency means respect the dose. In North Florida it self-seeds through
+    warm seasons and sulks in hard frost unless protected. Sun, moderate fertility,
+    and drainage keep oils strong.\n\n \U0001F31E\U0001F4A7 Sun and Water Requirements:\n-
+    Full sun for strongest flavor.\n- Average soil; tolerates poor ground better than
+    snob herbs.\n- Moderate moisture; avoid constant soggy stagnation.\n\n✂️\U0001FAD8
+    Methods to Propagate:\n- Seeds: abundant; easy.\n- Transplant volunteers.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E
+    When to Harvest:\n- Pinch young leaves for cooking; flavor intensifies with age.\n-
+    Pregnant people should avoid medicinal experimentation — this plant is not casual."
+  purpose: |-
+    Epazote is culinary chemistry with weed vigor:
+
+    - Edible: Pot herb for beans, soups, and salsas in small amounts.
+    - Medicinal: Traditional anthelmintic uses — modern caution required.
+    - Pest Management: Strong scent may mask crops in polycultures; not a licensed pesticide.
   companions:
-  - NEEDS_DATA
+  - Green Bean
+  - Tomato
+  - Potato
   avoid:
-  - NEEDS_DATA
+  - Overwatered heavy clay without sun
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Leafhoppers
+  - Whiteflies
   # Image attribution: (c) J. Richard Abbott, some rights reserved (CC BY-NC), uploaded by J. Richard Abbott
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

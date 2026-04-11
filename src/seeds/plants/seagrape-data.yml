@@ -1,27 +1,54 @@
 ---
 - common_name: Seagrape
   picture: seagrape.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Coccoloba uvifera
+  aka:
+  - Baygrape
+  - Sea grape
+  family: Polygonaceae
+  zone: 10-11
+  ideal_temp_min: 70
+  ideal_temp_max: 90
+  min_temp: 28
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Erosion Control
+  - Wildlife Attractor
+  - Windbreaker
+  description: |-
+    Seagrape is the coastal shrub with round leaves the size of salad plates and fruit clusters that look like micro-grapes—astringent fresh, friendlier in jelly and wine after you respect the seed. It stabilizes dunes and laughs at salt spray; inland North Florida lacks the maritime vibe it prefers, though warm pockets try. Dioecious: plant both sexes for fruit, or enjoy the foliage architecture solo.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun on coast; tolerates some shade inland with less fruit.
+    - Sandy, well-drained soils; salt-tolerant—do not drown roots in lawn bowls.
+
+    ✂️ Methods to Propagate:
+    - Seeds: clean and sow warm; germination moderate.
+    - Hardwood cuttings used in restoration nursery practice.
+
+    🌾 Harvest notes:
+    - Fruit darkens when ripe; process for jam—expect tannin without sugar.
+  purpose: |-
+    - Edible: Jellies and beverages where fruit is available—spit seeds like a civilized mammal.
+    - Erosion Control: Roots and sprawling habit on dunes and coastal cuts.
+    - Wildlife Attractor: Birds on fruit; pollinators on flowers.
+    - Windbreaker: Broad leaves knock wind near shore plantings.
   companions:
-  - NEEDS_DATA
+  - Saw Palmetto
+  - Muhly Grass
+  - Yucca
   avoid:
-  - NEEDS_DATA
+  - Deep freeze inland sites without protection
+  - Heavy clay with poor drainage away from coast
   pests:
-  - NEEDS_DATA
+  - Scale Insects
+  - Whiteflies
+  - Aphids
   # Image attribution: Henslow / Wikimedia Commons / Public domain
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

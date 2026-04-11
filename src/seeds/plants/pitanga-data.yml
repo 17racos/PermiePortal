@@ -1,27 +1,51 @@
 ---
 - common_name: Pitanga
   picture: pitanga.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Eugenia uniflora
+  aka:
+  - Surinam cherry
+  - Brazilian cherry
+  family: Myrtaceae
+  zone: "9-11"
+  ideal_temp_min: 55
+  ideal_temp_max: 95
+  min_temp: 22
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  - Border Plant
+  description: "Eugenia uniflora is the aromatic myrtle relative that fruits like
+    a hedge cherry and smells like resin party when you crush leaves. Ripening fruit
+    runs orange to deep red/black; flavor is love-it-or-side-eye depending on genetics
+    and ripeness. Tougher than many tropicals — a favorite for Florida food hedges
+    if you manage its enthusiasm where it is listed problematic.\n\n🌞💧 Sun and
+    Water Requirements:\n- Full sun for dense growth and better fruit.\n- Tolerates
+    a range of soils but prefers reasonable drainage.\n- Drought-tolerant once established
+    compared with true rainforest divas.\n\n✂️🌱 Methods to Propagate:\n- Seeds germinate
+    readily; variability is the tax.\n- Cuttings and air-layering for cloning a tasty
+    parent.\n\n🧺 When to Harvest:\n- Fully ripe dark fruit for best eating; birds
+    will remind you if you slack."
+  purpose: |-
+    Pitanga is a subtropical hedge that pays rent in fruit — great windbreak texture,
+    bird buffet, and jam experiments. Check regional invasive guidance before planting
+    near sensitive natural areas; enthusiasm varies by state and island.
   companions:
-  - NEEDS_DATA
+  - Guava
+  - Jaboticaba
+  - Calamondin
   avoid:
-  - NEEDS_DATA
+  - Planting where listed invasive without containment plan
+  - Expecting supermarket cherry flavor — manage expectations, not the plant
   pests:
-  - NEEDS_DATA
+  - Caribbean Fruit Fly
+  - Scale Insects
+  - Aphids
   # Image attribution: B. Navez / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

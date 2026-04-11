@@ -1,27 +1,49 @@
 ---
 - common_name: Neem
   picture: neem.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Azadirachta indica
+  aka:
+  - Indian Lilac
+  - Nimtree
+  family: Meliaceae
+  zone: "9-12"
+  ideal_temp_min: 65
+  ideal_temp_max: 100
+  min_temp: 30
+  max_temp: 115
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Medicinal
+  - Pest Management
+  - Shade Provider
+  - Windbreaker
+  description: "Neem is a fast tropical evergreen tree with compound leaves, sweet-scented
+    flowers, and olive-like drupes whose oil powers organic sprays and traditional
+    medicine. It is not a subtle chemical factory—azadirachtin makes insects rethink
+    their life choices.\n\nNorth Florida: marginal; young trees freeze-kill; older
+    specimens sometimes resprout after light freezes in 9b microclimates. South Florida
+    onward it becomes a serious shade and windbreak tree.\n\nSun and water: Full sun;
+    deep soil with good drainage; drought-tolerant once established; young trees need
+    consistent moisture to outrun pests.\n\nPropagation: Seeds (fresh, short-lived);
+    root suckers; grafted selections for uniform chemistry in commercial plantings."
+  purpose: |-
+    Pharmacy tree, spray ingredient source, and broad canopy for understory guilds
+    in frost-free sites. Check local regulations—some areas restrict neem because
+    it can self-sow in warm climates.
   companions:
-  - NEEDS_DATA
+  - Moringa
+  - Pigeon Pea
+  - Lemongrass
+  - Turmeric
   avoid:
-  - NEEDS_DATA
+  - Waterlogged clay
   pests:
-  - NEEDS_DATA
+  - Scale Insects
+  - Whiteflies
+  - Aphids
+  - Mealybugs
   # Image attribution: (c) Karen, some rights reserved (CC BY-NC-SA)
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,57 @@
 ---
 - common_name: Glasswort
   picture: glasswort.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Salicornia spp.
+  aka:
+  - Pickleweed
+  - Marsh samphire
+  - Sea asparagus
+  family: Amaranthaceae (Chenopodioideae)
+  zone: "5-11"
+  ideal_temp_min: 55
+  ideal_temp_max: 90
+  min_temp: 10
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Aquatic
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ground Cover
+  - Wildlife Attractor
+  - Soil Improvement
+  description: "Glasswort is a jointed, succulent halophyte you find in salt marsh
+    and brackish edges — the kind of plant that laughs while your lawn grass throws
+    a tantrum in saline soil. Young tips are salty-crisp and edible raw or pickled;
+    older stems get woody. In North Florida / Gulf Coast contexts it is a niche edible
+    for coastal food systems, not a row-crop fantasy.\n\n \U0001F31E\U0001F4A7 Sun
+    and Water Requirements:\n- Full sun; needs high light to stay compact.\n- Wet
+    to moist, poorly drained salty or brackish soils; do not try to drought-stress
+    it like a Mediterranean herb.\n- Tolerates periodic inundation; hates drying out
+    in hot wind without salt-marsh humidity.\n\n✂️\U0001FAD8 Methods to Propagate:\n-
+    Seeds: Sow in spring in damp, salty growing media; germination can be slow and
+    irregular.\n- Tip cuttings: Root in humid conditions for quick clonal increase.\n-
+    Transplant small clumps from permitted collection sites only — check local coastal
+    harvesting rules.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E When to Harvest:\n-
+    Snip tender tips in spring and early summer before stems lignify.\n- Harvest
+    from clean sites only; salt marsh can hide runoff issues you do not want on the
+    plate."
+  purpose: |-
+    Glasswort fits salty-edge permaculture, not generic backyard beds:
+
+    - Edible: Salty, mineral-rich tips for pickles and garnish.
+    - Ground Cover: Low, dense cover on wet saline margins.
+    - Wildlife Attractor: Habitat and forage value in coastal ecosystems.
+    - Soil Improvement: Thrives where “normal” plants fail, signaling saline/wet niches.
   companions:
-  - NEEDS_DATA
+  - Seagrape
+  - Sea Purslane
+  - Sea Plantain
   avoid:
-  - NEEDS_DATA
+  - Dry xeric companions that need sharp drainage
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Caterpillars
   # Image attribution: (c) tangatawhenua, some rights reserved (CC BY-NC), uploaded by tangatawhenua
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

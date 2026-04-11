@@ -1,27 +1,53 @@
 ---
 - common_name: Sugar Apple
   picture: sugar_apple.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Annona squamosa
+  aka:
+  - Sweetsop
+  - Anón
+  family: Annonaceae
+  zone: 10-11
+  ideal_temp_min: 70
+  ideal_temp_max: 90
+  min_temp: 28
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Shade Provider
+  - Ornamental
+  description: "Sugar apple is the lumpy green custard bomb of the annona clan —
+    sweeter and more segmented than its relatives, with a perfume that follows you
+    indoors. Small tree, often semi-deciduous in cool snaps. North Florida: coastal
+    10a/b only for in-ground success; inland trials need frost fabric, microclimate,
+    and low expectations.\n\n☀️💧 Sun and Water:\n- Full sun once established; young
+    trees benefit from partial shade.\n- Regular deep watering in dry spells; hates
+    waterlogging — mound in heavy soils.\n\n✂️ Propagation:\n- Seeds variable; grafting
+    and air-layering used for known cultivars.\n- Prune for structure and airflow;
+    dense twiggy growth invites fungal leaf drama.\n\nFruit splits when overripe;
+    ants approve."
+  purpose: |-
+    Dessert tree for the patient subtropical:
+
+    - Edible: Fresh pulp, smoothies, ice creams; seeds are not food.
+    - Wildlife Attractor: Pollinators on flowers; squirrels dream about your harvest.
+    - Shade Provider: Open canopy for understory herbs and smaller fruit.
+    - Ornamental: Fruits look like green artichokes from a parallel universe.
   companions:
-  - NEEDS_DATA
+  - Papaya
+  - Banana
+  - Soursop
   avoid:
-  - NEEDS_DATA
+  - Open frost pockets in 9a
   pests:
-  - NEEDS_DATA
+  - Caribbean Fruit Fly
+  - Scale Insects
+  - Mealybugs
+  growth_habit: Small tree
+  data_quality_score: 0.74
   # Image attribution: Unknown / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

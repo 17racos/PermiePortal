@@ -1,27 +1,54 @@
 ---
 - common_name: Bitter Orange
   picture: bitter_orange.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Citrus × aurantium
+  aka:
+  - Seville orange
+  - Sour orange
+  family: Rutaceae
+  zone: 9-11
+  ideal_temp_min: 55
+  ideal_temp_max: 95
+  min_temp: 22
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Ornamental
+  - Wildlife Attractor
+  description: |-
+    Bitter orange is the citrus your marmalade dreams are built on — too sour for polite juice, perfect for candied peel and existential cooking. Thorny and tough, it has escaped and naturalized in places that now regret casual planting. In North Florida it is marginal outside protected 9b pockets; young trees freeze, older wood can return from below if rootstock cooperates. Citrus greening territory means management reality, not Pinterest.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for flower and fruit density.
+    - Well-drained, slightly acidic soil; consistent moisture but not soggy roots.
+    - Wind protection reduces leaf miner tears cosmetically, not politically.
+
+    ✂️ Methods to Propagate:
+    - Budding and grafting onto selected rootstocks — commercial path.
+    - Seeds: grow for rootstock or curiosity; fruit quality diverges wildly.
+  purpose: |-
+    Bitter orange is utility citrus with hedgerow attitude:
+
+    - Edible: Marmalade, liqueurs, and traditional bitter preparations.
+    - Medicinal: Peel and flower waters show up in herbal traditions — verify safety and sourcing.
+    - Ornamental: Fragrant flowers and glossy evergreen leaves.
+    - Wildlife Attractor: Flowers feed pollinators; fruit feeds wildlife if you surrender some.
   companions:
-  - NEEDS_DATA
+  - Comfrey
+  - Clover
+  - Nasturtium
   avoid:
-  - NEEDS_DATA
+  - Planting in known citrus greening quarantine fantasy
+  - Overhead irrigation that fuels fungal pity parties
   pests:
-  - NEEDS_DATA
+  - Asian Citrus Psyllid
+  - Citrus Leafminer
+  - Scale insects
   # Image attribution: (c) Ulf Swenson, some rights reserved (CC BY-NC), uploaded by Ulf Swenson
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

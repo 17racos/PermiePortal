@@ -1,27 +1,48 @@
 ---
 - common_name: Tulsi
   picture: tulsi.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Ocimum tenuiflorum
+  aka:
+  - Holy basil
+  - Sacred basil
+  family: Lamiaceae
+  zone: 10-11
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 32
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Medicinal
+  - Edible
+  - Pollinator
+  - Pest Management
+  description: "Tulsi is the basil Hindu kitchens and Ayurvedic shelves agree on—clove-pepper
+    aroma, fuzzy stems, terminal flower spikes the bees treat like a buffet. Several
+    forms exist (Rama, Krishna, Kapoor types); all want heat and sun like they are billing
+    it to Florida.\n\nNorth Florida / subtropical: Perennial in frost-free pockets;
+    everywhere else grow as a warm-season annual or overwinter cuttings on a windowsill
+    like a civilized mammal.\n\nSun and water: Full sun, well-drained fertile soil.
+    Consistent moisture; do not drown crowns.\n\nPropagation: Seed in warm soil; softwood
+    cuttings root fast in summer; tip pinching delays bloom and stretches leaf harvest."
+  purpose: |-
+    Tea and culinary herb, medicinal landscape plant, and pollinator support. Strong
+    scent can confuse some pest searches—use as a companion, not a magic shield.
   companions:
-  - NEEDS_DATA
+  - Tomatoes
+  - Peppers
+  - Other basils
   avoid:
-  - NEEDS_DATA
+  - Shady boggy corners
+  - Hard frost without protection
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) 小铖/Smalltown, some rights reserved (CC BY-NC), uploaded by 小铖/Smalltown
+  - aphids
+  - whiteflies
+  - japanese beetles
+  growth_habit: Aromatic shrubby mint relative, multistemmed
+  data_quality_score: 0.76
+  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

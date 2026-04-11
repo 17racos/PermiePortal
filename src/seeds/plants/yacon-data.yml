@@ -1,27 +1,51 @@
 ---
 - common_name: Yacon
   picture: yacon.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Smallanthus sonchifolius
+  aka:
+  - Peruvian ground apple
+  family: Asteraceae
+  zone: "7-11"
+  ideal_temp_min: 50
+  ideal_temp_max: 85
+  min_temp: 25
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Mulcher
+  - Dynamic Accumulator
+  description: |-
+    Yacon is the sunflower relative that stashes inulin in crunchy tubers — sweet on the tongue, polite on the glycemic gossip if you believe the brochures. Top growth dies with frost; underground crowns come back where winters are mild. North Florida: mulch crowns, hedge bets on freezes.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to light afternoon shade in brutal heat.
+    - Steady moisture during tuber swell; drought makes woody, sullen roots.
+    - Deep loose soil; compaction fights tuber expansion like bureaucracy.
+
+    ✂️ Methods to Propagate:
+    - Rhizome crowns: divide dormant storage organs before spring growth.
+    - Stem cuttings: possible in warm humid conditions — slower than crown division.
+  purpose: |-
+    Yacon is crunch and biomass without potato monoculture cosplay:
+
+    - Edible: Raw or cooked tubers; inulin ferments guts — pace yourself socially.
+    - Mulcher: Tall leafy stems chop-and-drop into beds after harvest.
+    - Dynamic Accumulator: Mines deep with robust root system when soil allows.
   companions:
-  - NEEDS_DATA
+  - Comfrey
+  - Beans
+  - Nasturtium
   avoid:
-  - NEEDS_DATA
+  - Harvesting all crowns — leave propagules or buy again like a tourist
+  - Waterlogged winter soil on frozen crowns
   pests:
-  - NEEDS_DATA
+  - Slugs
+  - Rootknot Nematodes
+  - Aphids
   # Image attribution: (c) Forest and Kim Starr, some rights reserved (CC BY)
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,53 @@
 ---
 - common_name: Partridge Pea
   picture: partridge_pea.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
+  scientific_name: Chamaecrista fasciculata
+  aka:
+  - Sleeping plant
+  - Sensitive pea
+  family: Fabaceae
+  zone: 3-9
+  ideal_temp_min: 65
+  ideal_temp_max: 90
   min_temp: 0
-  max_temp: 0
-  perennial: true
+  max_temp: 100
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Nitrogen Fixer
+  - Wildlife Attractor
+  - Soil Improvement
+  - Ground Cover
+  description: |-
+    Partridge pea is a native annual legume with feathery leaves, yellow flowers freckled with red, and pods that rattle like tiny maracas. It colonizes disturbed sand and roadsides across the Southeast—including North Florida—fixing nitrogen while feeding bees and caterpillars. Not a lawn monoculture plant; think pollinator strips, food forest edges, and “stop mowing this sandhill” experiments.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun; blooms thin out fast in shade.
+    - Sandy, well-drained soils preferred; drought-tolerant once seedlings establish—classic Florida sandhill attitude.
+
+    ✂️ Methods to Propagate:
+    - Seeds: scarify or winter-sow; self-sows freely where happy—manage if you do not want a yellow takeover.
+    - Direct sow after last frost when soil warms.
+
+    🌾 Harvest notes:
+    - Ecological harvest: seed for next year’s strips; not a primary human food crop in most gardens.
+  purpose: |-
+    - Nitrogen Fixer: Fast cover that feeds the next succession without asking for a fertilizer sermon.
+    - Wildlife Attractor: Pollen and nectar for native bees; host plant relationships for certain insects—learn your local lists.
+    - Soil Improvement: Biomass and nodulation on poor ground.
+    - Ground Cover: Temporary cover on disturbed zones while slower perennials establish.
   companions:
-  - NEEDS_DATA
+  - Blazing star
+  - Native grasses
+  - Wild indigo
   avoid:
-  - NEEDS_DATA
+  - Heavy irrigated turf where it will be out-competed and bored
+  - Dense shade under evergreen monocultures
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Caterpillars
+  - Japanese Beetles
   # Image attribution: Crazytwoknobs / Wikimedia Commons / CC BY 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,50 @@
 ---
 - common_name: Monky Muskmelon
-  picture: monky_muskmelon.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  picture: ""
+  scientific_name: Cucumis melo (Reticulatus Group)
+  aka:
+  - Muskmelon
+  - Netted Melon
+  family: Cucurbitaceae
+  zone: "4-11"
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 105
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Vine
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Pollinator
+  - Ground Cover
+  description: "Yes, the common name is spelled like a typo—roll with it. This is
+    classic netted muskmelon / cantaloupe-type **Cucumis melo**: trailing vines, yellow
+    flowers, fragrant fruit with reticulated rind and orange musky flesh when you pick
+    a good cultivar.\n\nNorth Florida: spring and fall windows beat midsummer fungal
+    fiestas; use trellis or mulch to keep fruit off wet soil. Downy mildew arrives
+    like a season ticket holder.\n\nSun and water: Full sun; fertile, well-drained
+    soil; consistent moisture during fruit set—drought gives you bitter, small melons
+    and personal regret.\n\nPropagation: Direct seed after soil hits ~70°F; transplants
+    for head starts. Save seed only from open-pollinated types if you enjoy genetic
+    roulette."
+  purpose: |-
+    Vertical or sprawled summer calories; bee activity all morning; living mulch if
+    you manage pathways. Melons reward arrogance with failure—humility and airflow
+    work better.
   companions:
-  - NEEDS_DATA
+  - Corn
+  - Beans
+  - Nasturtium
+  - Radish
   avoid:
-  - NEEDS_DATA
+  - Wet foliage all night
+  - Shade
   pests:
-  - NEEDS_DATA
+  - Pickleworm
+  - Melonworm
+  - Squash Vine Borer
+  - Aphids
   # Image attribution: No image found
   # Image source: none
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

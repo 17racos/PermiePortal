@@ -1,27 +1,53 @@
 ---
 - common_name: Queensland Arrowroot
-  picture: queensland_arrowroot.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Canna indica
+  aka:
+  - Edible canna
+  - Achira (do not confuse with Canna edulis naming mess)
+  family: Cannaceae
+  zone: "8-12"
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 25
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Mulcher
+  - Wildlife Attractor
+  - Ornamental
+  description: "Queensland arrowroot is the starchy-rhizome side of ornamental cannas
+    — big leaves, tropical drama, and underground calories if you select edible types.
+    In North Florida it is a summer beast that dies back in cold winters unless mulched
+    heavily or lifted. Full sun, rich soil, and steady moisture build rhizome bulk faster
+    than wishful thinking.\n\n \U0001F31E\U0001F4A7 Sun and Water Requirements:\n-
+    Full sun for best starch yields.\n- Consistent moisture; tolerates wet margins
+    better than desert herbs.\n- Heavy feeding: compost, mulch, and occasional fertility
+    without synthetic theater.\n\n✂️\U0001FAD8 Methods to Propagate:\n- Rhizome division
+    at spring warm-up.\n- Offsets from clumps; each eye can grow.\n- Seeds are variable;
+    clones are safer for food.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E When to
+    Harvest:\n- Dig rhizomes after tops frost-kill or when growth slows in cool weather.\n-
+    Peel/clean and process like other starches; cooking required."
+  purpose: |-
+    Queensland arrowroot is subtropical calorie mulch:
+
+    - Edible: Starchy rhizomes for flour, boiled uses, and experiments.
+    - Mulcher: Huge leaves for chop-and-drop around fruit trees.
+    - Wildlife Attractor: Showy flowers bring hummingbirds and pollinators.
+    - Ornamental: Passes as landscape while quietly feeding you.
   companions:
-  - NEEDS_DATA
+  - Banana
+  - Papaya
+  - Sweet Potato
   avoid:
-  - NEEDS_DATA
+  - Bone-dry sand without irrigation
   pests:
-  - NEEDS_DATA
+  - Caterpillars
+  - Japanese Beetles
+  - Snails
   # Image attribution: No image found
   # Image source: none
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

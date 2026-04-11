@@ -1,27 +1,48 @@
 ---
 - common_name: Murici
   picture: murici.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Byrsonima crassifolia
+  aka:
+  - Nance
+  - Craboo
+  - Changunga
+  family: Malpighiaceae
+  zone: 10-11
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 30
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  description: |-
+    Murici (nance) is the little yellow cherry that ferments in buckets, perfumes the yard when flowering, and laughs at drought once established. Flavor is polarizing—like cheese had an argument with a flower.
+
+    North Florida / subtropical: True tropical lean; warmest coastal pockets only for in-ground permanence. Everyone else keeps it mobile or admits defeat gracefully.
+
+    Sun and water: Full sun for heaviest flowering and fruit. Tolerates poor, sandy soils; appreciates deep occasional watering when fruiting in dry spells.
+
+    Propagation: Seeds (variable juvenility); grafted selections for known fruit quality where available.
+  purpose: |-
+    Fermented beverages, jams, and regional sweets; bird food whether you harvest or not; hardy small tree for dry tropical home orchards.
   companions:
-  - NEEDS_DATA
+  - Papaya
+  - Moringa
+  - Drought-tolerant understory herbs
   avoid:
-  - NEEDS_DATA
+  - Waterlogged clay
+  - Hard freezes
   pests:
-  - NEEDS_DATA
+  - scale insects
+  - caribbean fruit fly
+  - aphids
+  growth_habit: Shrubby tree; rough bark; clusters of small yellow fruit
+  data_quality_score: 0.75
   # Image attribution: (c) Glen Gitsham, some rights reserved (CC BY-NC), uploaded by Glen Gitsham
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

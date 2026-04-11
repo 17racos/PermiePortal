@@ -1,27 +1,52 @@
 ---
 - common_name: Spilanthes
   picture: spilanthes.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Acmella oleracea
+  aka:
+  - Toothache plant
+  - Buzz buttons
+  family: Asteraceae
+  zone: "9-11"
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 32
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Ground Cover
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  description: |-
+    Spilanthes is the flower that slaps your mouth awake — tingling, salivating, dentist cosplay without insurance forms. Low spreading habit, odd yellow button blooms, and a tropical attitude that makes North Florida a seasonal empire or a greenhouse joke depending on winter.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to light shade; more sun = tighter growth and more flowers.
+    - Steady moisture; not a desert mystic — wilts dramatically to teach humility.
+    - Rich, composty, well-drained soil.
+
+    ✂️ Methods to Propagate:
+    - Seeds: sow warm; light-dependent germination — surface sow or barely cover.
+    - Cuttings: easy in humid warmth; overwinter mother plants indoors in cold zones.
+  purpose: |-
+    Spilanthes is sensory medicine and garnish chaos:
+
+    - Edible: Flowers and leaves for salads and novelty cocktails — warn guests first.
+    - Medicinal: Traditional oral-numbing uses — not a substitute for dentistry, obviously.
+    - Wildlife Attractor: Strange flowers still pull small pollinators and curiosity.
   companions:
-  - NEEDS_DATA
+  - Basil
+  - Lemongrass
+  - Peppers
   avoid:
-  - NEEDS_DATA
+  - Letting pots dry to crisp during bloom
+  - Feeding to unsuspecting in-laws without consent
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Whiteflies
+  - Spider Mites
   # Image attribution: (c) brandik, some rights reserved (CC BY-NC), uploaded by brandik
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

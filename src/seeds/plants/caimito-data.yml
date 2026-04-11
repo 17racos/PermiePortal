@@ -1,27 +1,51 @@
 ---
 - common_name: Caimito
   picture: caimito.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Chrysophyllum cainito
+  aka:
+  - Star apple
+  - Milk fruit
+  family: Sapotaceae
+  zone: "10-11"
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 28
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Shade Provider
+  - Wildlife Attractor
+  description: "Chrysophyllum cainito is tropical dessert architecture: glossy leaves
+    with bronze undersides, latex milky sap, and fruit that splits into a star-shaped
+    interior when you behave and cut it horizontally. Truly tender when young; mature
+    trees tolerate brief chills better but this is still a south-of-the-line gamble
+    for North Florida except in protected 10a microclimates.\n\n🌞💧 Sun and Water
+    Requirements:\n- Full sun for best fruiting once established.\n- Deep, fertile,
+    well-drained soil; steady moisture during fruit development.\n- Wind protection
+    while young — snapping leaders is not on-brand.\n\n✂️🌱 Methods to Propagate:\n-
+    Seeds: viable fresh seed; juvenility is long — brace yourself.\n- Grafting selected
+    cultivars: the adult-in-the-room option.\n- Air-layering works on known good trees.\n\n🧺
+    When to Harvest:\n- When color matures (purple or green types) and flesh yields
+    slightly — overripe goes mushy fast."
+  purpose: |-
+    Star apple is canopy candy for frost-lite sites: deep shade, gorgeous foliage,
+    and fruit that rewards patience. Use it as an overstory anchor in tropical lean
+    food forests, not as your only winter-calorie plan.
   companions:
-  - NEEDS_DATA
+  - Banana
+  - Papaya
+  - Guava
   avoid:
-  - NEEDS_DATA
+  - Exposed frost bowls on young trees
+  - Waterlogged heavy clay without drainage fixes
   pests:
-  - NEEDS_DATA
+  - Scale Insects
+  - Mealybugs
+  - Caribbean Fruit Fly
+  - Anthracnose
   # Image attribution: Didier Descouens / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

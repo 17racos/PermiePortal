@@ -1,27 +1,45 @@
 ---
 - common_name: Tree Spinach
   picture: tree_spinach.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Cnidoscolus aconitifolius
+  aka:
+  - Chaya
+  - Mayan spinach
+  family: Euphorbiaceae
+  zone: 9-11
+  ideal_temp_min: 60
+  ideal_temp_max: 92
+  min_temp: 30
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Mulcher
+  - Animal Fodder
+  description: |-
+    Tree spinach (chaya) is the shrubby leaf crop that demands respect: cyanogenic compounds mean you cook leaves like an adult—no raw salad cosplay. Hardy for a euphorb; still not a houseplant for toddlers.
+
+    North Florida / subtropical: Dies back in hard frost; mulch crowns or keep backup cuttings. Warm coastal 9b can work with microclimate humility.
+
+    Sun and water: Full sun to part shade. Drought-tolerant once established but yields more with deep occasional watering in fast-draining soil.
+
+    Propagation: Hardwood cuttings (easy); keep planting stock protected until rooted.
+  purpose: |-
+    Cooked leafy green for warm climates; chop-and-drop biomass; livestock fodder where processing matches species knowledge.
   companions:
-  - NEEDS_DATA
+  - Nitrogen-fixing shrubs
+  - Sweet potato
   avoid:
-  - NEEDS_DATA
+  - Eating raw leaves
+  - Sap in eyes or open cuts (euphorb drama)
   pests:
-  - NEEDS_DATA
+  - aphids
+  - caterpillars
+  - scale insects
+  growth_habit: Large leafy shrub; milky sap; fast regrowth after harvest
+  data_quality_score: 0.75
   # Image attribution: Tortie tude / Wikimedia Commons / CC0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

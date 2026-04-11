@@ -1,27 +1,47 @@
 ---
 - common_name: Bilimbi
-  picture: bilimbi.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Averrhoa bilimbi
+  aka:
+  - Cucumber tree
+  - Tree sorrel
+  - Belimbing asam
+  family: Oxalidaceae
+  zone: 10-11
+  ideal_temp_min: 72
+  ideal_temp_max: 92
+  min_temp: 40
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  description: |-
+    Bilimbi is the sour, waxy cousin of carambola on a short tree that fruits from the trunk and branches like it is showing off. Crisp green pickles, fiery sambals, and acid for fish all come off one cranky tropical tree. It is not a beginner frost plant.
+
+    North Florida / subtropical: Treat it like zone denial unless you have greenhouse ambitions or a very protected 10a microclimate. One rude winter and you are explaining yourself to the plant.
+
+    Sun and water: Full sun for heaviest flowering and fruit. Deep, even moisture in rich, well-drained soil; backs off on water in cool weather. Mulch the root zone; hates standing water.
+
+    Propagation: Seeds (variable offspring, fresh seed best); air-layering or grafting onto related stock if you are chasing known fruit quality.
+  purpose: |-
+    Acid fruit and pickles for cuisines that like slap-in-the-face tartness; small shade element in frost-free food forests; nectar when flowering for generalist pollinators.
   companions:
-  - NEEDS_DATA
+  - Papaya
+  - Banana
+  - Nitrogen-fixing ground covers
   avoid:
-  - NEEDS_DATA
+  - Hard freezes
+  - Waterlogged soil
   pests:
-  - NEEDS_DATA
+  - scale insects
+  - whiteflies
+  - aphids
+  growth_habit: Small to medium evergreen tree; heavy cropper in humid tropics
+  data_quality_score: 0.75
   # Image attribution: Sugeesh / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

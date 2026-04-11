@@ -1,27 +1,54 @@
 ---
 - common_name: Sabal Palm
   picture: sabal_palm.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Sabal palmetto
+  aka:
+  - Cabbage palm
+  - Florida state tree
+  family: Arecaceae
+  zone: "8-11"
+  ideal_temp_min: 55
+  ideal_temp_max: 95
+  min_temp: 15
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Canopy
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Wildlife Attractor
+  - Erosion Control
+  - Windbreaker
+  - Edible
+  description: "Sabal palmetto is the icon that says 'you are definitely in the
+    Southeast.' Slow, tough, hurricane-flexible, and deeply wired into coastal and
+    inland ecosystems. The terminal bud was historically eaten as 'swamp cabbage'
+    — harvesting kills the tree, so treat that as history-class trivia, not lunch
+    planning. North Florida: native backbone species for pine savanna, hammocks,
+    and food forest edges.\n\n🌞💧 Sun and Water Requirements:\n- Full sun to part
+    shade once established.\n- Tolerates wet feet and droughty sand better than most
+    ornamentals pretending to be low-maintenance.\n- Transplant 'sabal minors' carefully;
+    large specimens hate root disturbance.\n\n✂️🌱 Methods to Propagate:\n- Seeds:
+    slow but straightforward; clean flesh, warm stratification optional, patience mandatory.\n-
+    Transplant nursery-grown specimens for landscape speed.\n\n🧺 When to Harvest:\n-
+    Do not harvest the heart unless you dislike the tree. Use fallen boots / fronds
+    for mulch and habitat."
+  purpose: |-
+    Sabal palm is structure, storm resilience, and native street cred. It shades
+    understory, feeds pollinators with flowers, and hosts a food web including the
+    palmetto weevil — plan for that drama on stressed or damaged palms.
   companions:
-  - NEEDS_DATA
+  - Saw Palmetto
+  - Beautyberry
+  - Muscadine
+  - Yucca
   avoid:
-  - NEEDS_DATA
+  - Wounding trunks with string trimmers — weevil invitation letters
+  - Expecting fast shade — this is a long game
   pests:
-  - NEEDS_DATA
+  - Palmetto Weevil
+  - Scale Insects
+  - Borers
   # Image attribution: Unknown / Wikimedia Commons / CC BY 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

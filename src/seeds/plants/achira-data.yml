@@ -1,27 +1,52 @@
 ---
 - common_name: Achira
   picture: achira.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Canna indica
+  aka:
+  - Indian shot
+  - Queensland arrowroot (regional common-name chaos — verify cultivar use)
+  family: Cannaceae
+  zone: "7-11"
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 15
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Mulcher
+  - Animal Fodder
+  description: "Canna indica is the starchy-rhizome side of the canna world: big
+    paddle leaves, flashy flowers if you select for them, and underground storage
+    that has fed humans in multiple continents when people stopped treating cannas
+    as only HOA filler. North Florida: grows as a returning perennial in many sites;
+    mulch crowns after hard freezes.\n\n🌞💧 Sun and Water Requirements:\n- Full sun
+    to light shade; more sun equals more rhizome if the water holds.\n- Loves moisture
+    and fertility — think pond edges, swales, or heavily mulched beds.\n- Not a
+    desert plant unless you enjoy disappointment.\n\n✂️🌱 Methods to Propagate:\n-
+    Division of rhizomes in spring is the practical highway.\n- Seeds are hard-coated;
+    nick/scarify if you insist on the seed route.\n\n🧺 When to Harvest:\n- Dig rhizomes
+    after tops die back or slow in cool weather; cook thoroughly — research cultivar
+    suitability because ornamental cannas are not all dinner."
+  purpose: |-
+    Achira is subtropical calories that look like landscaping. Use it in wet, fertile
+    pockets for biomass, rhizome trials, and chop-and-drop mulch — after confirming
+    you are working with food-selected material, not random patio canna pot luck.
   companions:
-  - NEEDS_DATA
+  - Banana
+  - Taro
+  - Sweet Potato
   avoid:
-  - NEEDS_DATA
+  - Assuming every canna at a big-box store is food-grade
+  - Bone-dry raised beds with no irrigation
   pests:
-  - NEEDS_DATA
+  - Caterpillars
+  - Japanese Beetles
+  - Aphids
   # Image attribution: (c) Forest_13, some rights reserved (CC BY-NC), uploaded by Forest_13
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

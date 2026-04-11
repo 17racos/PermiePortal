@@ -1,27 +1,45 @@
 ---
-- common_name: Tucuma Palm
+- common_name: Tucumã Palm
   picture: tucuma_palm.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Astrocaryum vulgare
+  aka:
+  - Awara
+  - Coyol palm
+  family: Arecaceae
+  zone: 10-11
+  ideal_temp_min: 72
+  ideal_temp_max: 92
+  min_temp: 32
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Fiber
+  - Wildlife Attractor
+  description: "Tucumã is the Amazon palm that armored up—spiny petioles, solid attitude,
+    and orange mesocarp pulp around a hard nut people still bother to process for oil
+    and regional foods. Not a barefoot backyard palm unless you enjoy blood offerings.\n\nNorth
+    Florida / subtropical: Outdoor culture is for collectors in the warmest frost-free
+    microclimates; spines + cold sensitivity = niche hobby.\n\nSun and water: Full
+    sun in humid tropics with deep soil moisture. Young plants appreciate partial shade.\n\nPropagation:
+    Fresh seed; growth is slow early, then trunks assert themselves with prejudice."
+  purpose: |-
+    Pulp and oil palm for humid lowlands, craft fiber from spines and leaf bases where
+    traditional skills exist, and serious tropical aesthetics.
   companions:
-  - NEEDS_DATA
+  - Other Amazonian fruits
+  - Canopy trees for juvenile shade
   avoid:
-  - NEEDS_DATA
+  - High-traffic paths
+  - Pet and toddler zones
   pests:
-  - NEEDS_DATA
-  # Image attribution: No image found
-  # Image source: none
+  - scale insects
+  - palmetto weevil
+  - borers
+  growth_habit: Solitary spiny palm of Amazonian forests and secondary growth
+  data_quality_score: 0.68
+  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
+  # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,49 @@
 ---
 - common_name: Arrowroot
   picture: arrowroot.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Maranta arundinacea
+  aka:
+  - Bermuda arrowroot
+  family: Marantaceae
+  zone: "10-12"
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 35
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ground Cover
+  - Mulcher
+  description: "True arrowroot is a shade-tolerant tropical perennial that produces
+    rhizomes valued for clear, bland starch — thickener without the cornstarch industrial
+    aftertaste. It wants heat, humidity, and protection from frost. In North Florida,
+    grow as a pampered perennial in frost-free microclimates or lift rhizomes; it is
+    not a cactus cosplay.\n\n \U0001F31E\U0001F4A7 Sun and Water Requirements:\n- Part
+    shade to dappled light; harsh midday sun bleaches leaves.\n- Consistently moist,
+    rich, well-drained soil.\n- Mulch to mimic forest floor stability.\n\n✂️\U0001FAD8
+    Methods to Propagate:\n- Rhizome division at warm soil temperatures.\n- Offsets
+    from clumps.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E When to Harvest:\n-
+    Dig rhizomes when plants are mature and dormant from cold stress.\n- Process into
+    starch with clean water discipline — this is kitchen chemistry, not instant rice."
+  purpose: |-
+    Arrowroot is understory starch for humid systems:
+
+    - Edible: Rhizome starch for sauces and baking.
+    - Ground Cover: Low leafy layer in partial shade guilds.
+    - Mulcher: Leaf litter feeds soil in wet-tropical style beds.
   companions:
-  - NEEDS_DATA
+  - Banana
+  - Cacao
+  - Ginger
   avoid:
-  - NEEDS_DATA
+  - Full-sun sand ovens without irrigation
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Mealybugs
+  - Root Rot Fungus
   # Image attribution: Alexis López Hernández / Wikimedia Commons / CC BY 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

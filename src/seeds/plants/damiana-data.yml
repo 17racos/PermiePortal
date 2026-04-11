@@ -1,27 +1,48 @@
 ---
 - common_name: Damiana
   picture: damiana.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Turnera diffusa
+  aka:
+  - Hierba de la pastora
+  family: Passifloraceae
+  zone: 9-11
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 22
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Medicinal
+  - Pollinator
+  - Drought Tolerant
+  - Wildlife Attractor
+  description: "Damiana is the wiry aromatic shrub from dry subtropical scrub—small
+    serrated leaves, yellow flowers that look cheerful about surviving bad soil, and
+    a long folk history as a tea herb and alleged mood tonic (your mileage and ethics
+    may vary).\n\nNorth Florida / subtropical: Happy in 9b+ sandy yards with drainage;
+    hates wet feet in winter. Coastal dryness is fine; inland bog is not.\n\nSun and
+    water: Full sun for dense growth and oils. Low to moderate water once established;
+    behaves like it read the xeriscape pamphlet.\n\nPropagation: Semi-hardwood cuttings,
+    seed in warm conditions; light scarification can help stubborn seed."
+  purpose: |-
+    Tea and tincture herb, bee plant, and tough border shrub for dry guilds. Good
+    for “stop watering that corner” energy.
   companions:
-  - NEEDS_DATA
+  - Agave
+  - Mesquite-class legumes
+  - Other drought shrubs
   avoid:
-  - NEEDS_DATA
+  - Heavy clay with summer monsoon + no slope
+  - Deep shade
   pests:
-  - NEEDS_DATA
-  # Image attribution: Unknown / Wikimedia Commons / CC BY-SA 3.0
-  # Image source: wikimedia
+  - aphids
+  - whiteflies
+  - spider mites
+  growth_habit: Multi-stemmed aromatic subshrub
+  data_quality_score: 0.74
+  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
+  # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,53 @@
 ---
 - common_name: Chicory
-  picture: chicory.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Cichorium intybus
+  aka:
+  - Blue Sailors
+  - Coffeeweed
+  family: Asteraceae
+  zone: 3-10
+  ideal_temp_min: 45
+  ideal_temp_max: 85
+  min_temp: -20
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Dynamic Accumulator
+  - Pollinator
+  - Ground Cover
+  description: "Chicory is the roadside blue daisy that coffee adulterers and
+    Belgian endive fans share a species with — different selections, same tough
+    taproot swagger. Roasted root makes a bitter brew; forcing blanched chicons is
+    advanced kitchen cosplay. North Florida: grows as biennial/perennial rosette
+    with tall bloom spikes in year two; reseeds freely if you let sky-blue flowers
+    set seed.\n\n☀️💧 Sun and Water:\n- Full sun for tight rosettes; tolerates poor
+    soil that makes lettuce cry.\n- Drought-tolerant once established; overwatering
+    in heavy clay rots crowns.\n\n✂️ Propagation:\n- Seed in spring or fall; self-sows
+    where happy.\n- Root cuttings from selected varieties for endive forcing clones.\n\n
+    Weed or crop depends on whether you invited it."
+  purpose: |-
+    Bitter backbone of forage and foraging:
+
+    - Edible: Leaves, forced chicons, roasted root beverage.
+    - Dynamic Accumulator: Deep taproot mines minerals for chop-and-drop if managed.
+    - Pollinator: Summer flowers feed bees when many ornamentals are done bragging.
+    - Ground Cover: Basal rosette occupies space between taller perennials early season.
   companions:
-  - NEEDS_DATA
+  - Dandelion
+  - Plantain
+  - Clover
   avoid:
-  - NEEDS_DATA
+  - Constantly wet heavy clay without slope
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Slugs
+  growth_habit: Biennial or short-lived perennial
+  data_quality_score: 0.75
   # Image attribution: Alvesgaspar / Wikimedia Commons / CC BY 2.5
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,52 @@
 ---
 - common_name: Ramps
   picture: ramps.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Allium tricoccum
+  aka:
+  - Wild leek
+  - Spring onion (regional)
+  family: Amaryllidaceae
+  zone: 3-8
+  ideal_temp_min: 35
+  ideal_temp_max: 70
+  min_temp: -35
+  max_temp: 85
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  description: |-
+    Ramps are the Appalachian spring onion that launched a thousand overharvest horror stories. Leaves and bulbs taste like garlic met a leek at a folk festival. They want rich, moist hardwood duff, cool winters, and ethical harvest — take leaves or thin patches, not whole populations for restaurant clout. North Florida is south of prime range; only try if you can mimic cool, shady, limestone-y forest floor without delusion.
+
+    ☀️💧 Sun and Water Requirements:
+    - Dappled shade to full shade under deciduous canopy; summer sun cooks them.
+    - Consistent soil moisture resembling a sponge, not a swamp.
+    - Cool soil: heavy mulch of leaves, avoid hot dry banks.
+
+    ✂️ Methods to Propagate:
+    - Seeds: sow fresh; slow germination — shade beds, keep moist 1–2 years realistically.
+    - Bulb offsets: transplant small bulbs from thinned patches you legally own or grew.
+  purpose: |-
+    Ramps are a niche forest crop for patient foragers:
+
+    - Edible: Leaves and bulbs in spring dishes; strong flavor — pace yourself.
+    - Medicinal: Garlic-family folklore uses — not a license to ignore medicine.
+    - Wildlife Attractor: Flowers feed pollinators where colonies remain healthy.
   companions:
-  - NEEDS_DATA
+  - Trout lily
+  - Bloodroot
+  - Spicebush
   avoid:
-  - NEEDS_DATA
+  - Full-sun sand hills
+  - Overharvest from wild public land
   pests:
-  - NEEDS_DATA
+  - Slugs
+  - Thrips
+  - Root Rot Fungus
   # Image attribution: (c) J. Kevin England, all rights reserved, uploaded by J. Kevin England
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

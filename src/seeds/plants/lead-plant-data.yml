@@ -1,27 +1,55 @@
 ---
 - common_name: Lead Plant
   picture: lead_plant.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Amorpha canescens
+  aka:
+  - Prairie shoestring
+  - Buffalo bellows (folk)
+  family: Fabaceae
+  zone: 2-9
+  ideal_temp_min: 40
+  ideal_temp_max: 90
+  min_temp: -40
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Nitrogen Fixer
+  - Wildlife Attractor
+  - Erosion Control
+  - Mulcher
+  - Ornamental
+  description: |-
+    Lead plant is a silvery prairie shrub that fixes nitrogen without asking for applause. Purple flower spikes read "native insect disco" in June. Name is about leaf color, not heavy-metal soil — though it handles tough, dry soils like a champ. In North Florida it is more a sandhill / open-edge experiment than default understory; match it to full sun and drainage, not bog life.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for compact form and flowers; leggy in shade.
+    - Dry to medium moisture; excellent drought tolerance once established.
+    - Well-drained sandy or rocky soils preferred; hates wet feet.
+
+    ✂️ Methods to Propagate:
+    - Seeds: scarify and stratify for reliable germination; direct sow in prepared beds.
+    - Cuttings: semi-hardwood in summer with rooting hormone and humidity.
+  purpose: |-
+    Lead plant is a workhorse legume shrub for lean sites:
+
+    - Nitrogen Fixer: Feeds guild neighbors on poor ground.
+    - Wildlife Attractor: Flowers for pollinators; seeds for birds.
+    - Erosion Control: Deep roots stabilize slopes and disturbed prairie patches.
+    - Mulcher: Fine leaf drop builds mulch over time.
+    - Ornamental: Silver foliage contrasts darker greens.
   companions:
-  - NEEDS_DATA
+  - Little bluestem
+  - Purple coneflower
+  - Coreopsis
   avoid:
-  - NEEDS_DATA
+  - Chronic irrigation and clay puddles
+  - Deep shade
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Japanese beetles
+  - Powdery Mildew
   # Image attribution: Phil King / Wikimedia Commons / CC BY 2.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

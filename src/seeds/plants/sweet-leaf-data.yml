@@ -1,27 +1,48 @@
 ---
 - common_name: Sweet Leaf
   picture: sweet_leaf.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Stevia rebaudiana
+  aka:
+  - Stevia
+  - Candy leaf
+  - Sweet herb of Paraguay
+  family: Asteraceae
+  zone: 9-11
+  ideal_temp_min: 60
+  ideal_temp_max: 90
+  min_temp: 28
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  description: "Stevia rebaudiana is the small aster-family herb whose leaves taste
+    sweet without sugar—glycosides do the trick, bitterness shows up if you overdo
+    concentration or harvest late.\n\nNorth Florida / subtropical: Grow as tender
+    perennial with mulch in 9b+; colder pockets treat as annual or overwinter cuttings
+    indoors. Intense summer rain can beat up leaves—give drainage.\n\nSun and water:
+    Full sun to light afternoon shade in brutal heat; light fertile soil, steady moisture,
+    never soggy.\n\nPropagation: Soft cuttings root easily; seed germination is moody
+    and variable."
+  purpose: |-
+    Sugar skeptic’s patio plant:
+
+    - Edible: Fresh leaf nibble or dried for tea—extract chemistry at your own risk.
+    - Medicinal: Traditional use; modern diabetes claims need doctors, not vibes.
   companions:
-  - NEEDS_DATA
+  - Thai Basil
+  - Mint
+  - Lemongrass
   avoid:
-  - NEEDS_DATA
+  - Hard freezes on unmulched crowns
+  - Letting soil stay wet and cold
   pests:
-  - NEEDS_DATA
+  - aphids
+  - whiteflies
+  growth_habit: Upright tender perennial herb to about 2–3 feet
+  data_quality_score: 0.8
   # Image attribution: Cliff / Wikimedia Commons / CC BY 2.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

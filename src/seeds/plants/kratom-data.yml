@@ -1,27 +1,44 @@
 ---
 - common_name: Kratom
   picture: kratom.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Mitragyna speciosa
+  aka:
+  - Kratom tree
+  - Biak-biak (regional)
+  family: Rubiaceae
+  zone: 11-12
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 40
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Medicinal
+  - Mulcher
+  description: |-
+    Kratom is a fast-growing tropical tree in the coffee family with a legal and cultural profile that varies by jurisdiction—check local law before you treat your yard like a pharmacopeia. Botanically it wants heat, humidity, and zero frost delusions.
+
+    North Florida / subtropical: Outdoor year-round is mostly a zone 11+ fantasy; greenhouse or seasonal patio plant is the realistic script for most of the peninsula.
+
+    Sun and water: Bright light to partial sun when young; protect from desiccating wind. Rich, moist, well-drained soil with steady humidity during growth.
+
+    Propagation: Fresh seed (viability drops quickly); cuttings with bottom heat in protected conditions.
+  purpose: |-
+    Documented traditional use in parts of Southeast Asia; in permaculture contexts abroad sometimes grown as fast chop-and-drop biomass where legal. Not a casual landscape novelty where regulation or neighbor drama applies.
   companions:
-  - NEEDS_DATA
+  - Nitrogen-fixing trees (where climate matches)
+  - Shade-tolerant understory herbs (in controlled plantings)
   avoid:
-  - NEEDS_DATA
+  - Planting where prohibited
+  - Overwatering in cool, dark corners (root rot invites itself)
   pests:
-  - NEEDS_DATA
+  - scale insects
+  - aphids
+  - caterpillars
+  growth_habit: Tall tropical tree in optimal climate; smaller in containers
+  data_quality_score: 0.7
   # Image attribution: Uomo vitruviano / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

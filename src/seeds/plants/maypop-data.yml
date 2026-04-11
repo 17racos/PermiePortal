@@ -1,27 +1,50 @@
 ---
 - common_name: Maypop
   picture: maypop.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Passiflora incarnata
+  aka:
+  - Purple passionflower
+  - Wild apricot
+  family: Passifloraceae
+  zone: 5-9
+  ideal_temp_min: 60
+  ideal_temp_max: 90
+  min_temp: -10
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Vine
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Pollinator
+  - Wildlife Attractor
+  description: "Maypop is the native Southeast passionflower that dies back to the
+    roots like a responsible perennial, then erupts into intricate lavender flowers
+    and greenish edible fruit that pop when you step on them—hence the name, and hence
+    childhood memories.\n\nNorth Florida / subtropical: Right at home—edge plant, fence
+    cover, butterfly magnet (Gulf fritillary will use it hard). Expect defoliation some
+    years; the vine usually laughs it off.\n\nSun and water: Full sun to light shade.
+    Average moisture; tolerates drought once established but fruits better with steady
+    water.\n\nPropagation: Seeds, hardwood cuttings, or digging dormant root suckers
+    with permission on your own land."
+  purpose: |-
+    Native fruit and flower vine, calming tea herb from aerial parts (classic use),
+    and caterpillar cafeteria—plan extra plants if you want both butterflies and fruit.
   companions:
-  - NEEDS_DATA
+  - Elderberry
+  - Sunflowers
+  - Native grasses
   avoid:
-  - NEEDS_DATA
+  - Tiny trellises with ambition issues
+  - Spraying every caterpillar you see
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Alex Abair, some rights reserved (CC BY), uploaded by Alex Abair
+  - caterpillars
+  - aphids
+  - spider mites
+  growth_habit: Herbaceous perennial vine, dies back in winter
+  data_quality_score: 0.82
+  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,52 @@
 ---
 - common_name: Stinging Nettle
   picture: stinging_nettle.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Urtica dioica
+  aka:
+  - Common nettle
+  - Stinger
+  family: Urticaceae
+  zone: "3-10"
+  ideal_temp_min: 45
+  ideal_temp_max: 75
+  min_temp: -30
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Dynamic Accumulator
+  - Animal Fodder
+  - Mulcher
+  description: "Urtica dioica is nature's spicy spinach: nutrient-dense leaves and
+    shoots if you cook or dry them, and microscopic hypodermic hairs if you brush
+    them wrong. Loves rich, disturbed, moist soils — ditches, barnyards, and the edge
+    of your compost pile all qualify. North Florida: treat as a cool-season champion
+    that may sulk in the dead of summer without shade and moisture.\n\n🌞💧 Sun and
+    Water Requirements:\n- Part sun to light shade in hot climates; tolerates more
+    sun where summers are mild.\n- Consistent moisture; classic riparian / fertile
+    bottomland energy.\n- Nitrogen-happy soil — think compost, not sand starvation.\n\n✂️🌱
+    Methods to Propagate:\n- Root divisions in cool weather relocate clumps fast.\n-
+    Seeds: tiny; surface sow or lightly cover in moist flats.\n- It self-sows where
+    happy; contain if your HOA has opinions.\n\n🧺 When to Harvest:\n- Young tops
+    before flowering, with gloves; blanch, steam, or dry to neutralize the sting."
+  purpose: |-
+    Nettle feeds you, teas you, and feeds soil biology when chopped and dropped. It
+    also teaches respect. Stack it on wet, fertile edges where it can mine minerals
+    without hijacking your main paths.
   companions:
-  - NEEDS_DATA
+  - Comfrey
+  - Mint
+  - Elderberry
   avoid:
-  - NEEDS_DATA
+  - Planting where kids, pets, or barefoot permies traffic daily
+  - Bone-dry shadeless sand — it will ghost you
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Caterpillars
+  - Spider Mites
   # Image attribution: Charles J. Sharp / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

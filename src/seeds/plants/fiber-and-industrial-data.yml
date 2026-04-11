@@ -1,27 +1,54 @@
 ---
-- common_name: # ── FIBER AND INDUSTRIAL ────────────────────────────────────────
+- common_name: Fiber and Industrial
   picture: fiber_and_industrial.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Various spp.
+  aka:
+  - Utility crops cluster
+  family: Various
+  zone: "4-12"
+  ideal_temp_min: 40
+  ideal_temp_max: 100
+  min_temp: -20
+  max_temp: 115
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Animal Fodder
+  - Mulcher
+  - Erosion Control
+  - Edible
+  description: |-
+    Fiber and industrial plants are the ones green influencers skip because Instagram hates coveralls — **kenaf**, **hemp** (where legal), **sisal**, **henequen**, **cotton**, **flax**, **ramie**, and oil crops that double as lubricants and soaps. In permaculture they are biomass, rope, mulch, and sometimes animal feed, not just craft-fair lanyards.
+
+    ☀️💧 Sun and Water Requirements:
+    - Most fiber giants want full sun and serious square footage — shade makes weak stems.
+    - Water ranges from dryland agaves to thirsty bast fibers — read the actual species sheet.
+    - Soil: deep tilth helps root crops and bast quality; compaction yields sad string.
+
+    ✂️ Methods to Propagate:
+    - Species-specific — seeds for annual bast fibers, pups for agaves, rhizomes for some canes.
+    - Processing is the hidden labor: retting, decortication, and drying are not "low maintenance," they are honest work.
+  purpose: |-
+    Fiber and industrial species earn space when markets or homestead crafts are real:
+
+    - Animal Fodder: Many fiber crops produce leafy biomass or seed meals as by-products.
+    - Mulcher: Spent stalks and bagasse return carbon to beds and compost.
+    - Erosion Control: Deep-rooted perennials stabilize ground while you grow string.
+    - Edible: Secondary yields (oil, syrup, emergency calories) exist on several industrial species — never assume without ID.
   companions:
-  - NEEDS_DATA
+  - Nitrogen-fixing shrubs
+  - Comfrey
+  - Pollinator strips
   avoid:
-  - NEEDS_DATA
+  - Growing restricted species where law and HOA intersect badly
+  - Underestimating processing labor — romance dies at the retting tub
   pests:
-  - NEEDS_DATA
+  - Armyworms
+  - Japanese Beetles
+  - Rootknot Nematodes
   # Image attribution: TSgt Christina Styer / Wikimedia Commons / Public domain
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,49 @@
 ---
 - common_name: Valerian
   picture: valerian.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Valeriana officinalis
+  aka:
+  - Garden heliotrope
+  - All-heal (folk name soup — verify before marketing)
+  family: Caprifoliaceae
+  zone: "4-9"
+  ideal_temp_min: 45
+  ideal_temp_max: 75
+  min_temp: -30
+  max_temp: 90
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Medicinal
+  - Pollinator
+  - Wildlife Attractor
+  description: "Valeriana officinalis is the sleepy-time herb that smells like feet
+    to some humans and like perfume to cats — biology has jokes. Tall summer flower
+    wands pull pollinators; roots are the traditional medicinal bit people argue about
+    online. Likes sun in cool climates, afternoon shade where summers roast. North
+    Florida: treat as a cool-season happy / heat-stressed diva unless you give moisture
+    and shade.\n\n🌞💧 Sun and Water Requirements:\n- Full sun in mild summers; part
+    shade in hot humid subtropics.\n- Rich, moist, well-drained soil — not a swamp,
+    not a desert.\n- Heavy mulch keeps roots from cooking.\n\n✂️🌱 Methods to Propagate:\n-
+    Seeds: light-dependent germination; surface sow.\n- Division in spring or fall
+    for faster stands.\n\n🧺 When to Harvest:\n- Roots after multiple years and dormancy
+    — legal and medical homework is on you; this is botany, not a prescription."
+  purpose: |-
+    Valerian is insect support with medicinal folklore attached. Plant it where you
+    want vertical flower spikes and are fine with cats staging unauthorized rituals
+    around the bed.
   companions:
-  - NEEDS_DATA
+  - Echinacea
+  - Yarrow
+  - Lemon Balm
   avoid:
-  - NEEDS_DATA
+  - Letting it dry to crispy between waterings in peak heat
+  - Promising specific medical outcomes — regulators and skeptics both exist
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Slugs
+  - Spider Mites
   # Image attribution: Ivar Leidus / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

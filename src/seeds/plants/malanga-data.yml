@@ -1,27 +1,53 @@
 ---
 - common_name: Malanga
   picture: malanga.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Xanthosoma sagittifolium
+  aka:
+  - Yautia
+  - Tannia (regional overlap)
+  family: Araceae
+  zone: "9-11"
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Mulcher
+  - Dynamic Accumulator
+  description: |-
+    Malanga is the elephant-ear starch crop that actually pays rent: big bold leaves, starchy corms and cormels, and a tropical look that survives North Florida summers if winter does not mock you. Cook it — raw calcium oxalate means your throat is not the test lab.
+
+    ☀️💧 Sun and Water Requirements:
+    - Part sun to full sun with steady soil moisture; leaves scorch if drought-stressed.
+    - Rich, organic, well-drained but moist soil — think "jungle ditch with dignity."
+    - Mulch hard; corms resent drying during active growth.
+
+    ✂️ Methods to Propagate:
+    - Cormels: detach and plant when soil warms, eyes up like a potato cosplay.
+    - Division: split mature clumps at dormancy or early spring in warm zones.
+    - Tissue culture exists commercially — backyard rarely needs the lab cosplay.
+  purpose: |-
+    Malanga is calorie architecture for humid food forests:
+
+    - Edible: Starchy corms and cormels as boiled, fried, or mashed staples after proper cooking.
+    - Mulcher: Huge leaves rot into weed suppression and organic matter.
+    - Dynamic Accumulator: Mines and cycles nutrients in biomass if you chop-and-drop responsibly.
   companions:
-  - NEEDS_DATA
+  - Banana
+  - Papaya
+  - Sweet potato
   avoid:
-  - NEEDS_DATA
+  - Eating raw corms or leaves
+  - Bone-dry sand without irrigation or mulch
   pests:
-  - NEEDS_DATA
+  - Rootknot Nematodes
+  - Aphids
+  - Caterpillars
   # Image attribution: (c) Kuan-Chieh (Chuck) Hung, some rights reserved (CC BY-NC-SA), uploaded by Kuan-Chieh (Chuck) Hung
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,52 @@
 ---
 - common_name: Acerola Cherry
   picture: acerola_cherry.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Malpighia emarginata
+  aka:
+  - Barbados cherry
+  - West Indian cherry
+  family: Malpighiaceae
+  zone: "9-11"
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 25
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  - Ornamental
+  description: "Acerola is a vitamin C grenade disguised as a cherry-like drupe. Shrubby,
+    everbearing in warm climates, and willing to fruit in containers if you coddle
+    roots. North Florida coastal 9b can work with frost cloth discipline; inland
+    freezes reset the scoreboard. Likes sun, hates waterlogging, rewards mulch and occasional
+    mineral feed without synthetic fairy dust.\n\n \U0001F31E\U0001F4A7 Sun and Water
+    Requirements:\n- Full sun for heaviest fruiting.\n- Regular moisture; sensitive
+    to drought during bloom and fruit set.\n- Well-drained, slightly acidic soil typical
+    of Florida sand amended with organic matter.\n\n✂️\U0001FAD8 Methods to Propagate:\n-
+    Seeds; variable offspring.\n- Cuttings and grafting for selected types.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E
+    When to Harvest:\n- Pick fully colored, slightly soft fruit for fresh eating.\n-
+    Overripe fruits drop fast — beat the ants."
+  purpose: |-
+    Acerola is a hedge fruit with chemistry:
+
+    - Edible: Tart-sweet fruit for juice, freezer stash, and ferments.
+    - Medicinal: Historically valued for vitamin C content — still fruit, not a pill ad.
+    - Wildlife Attractor: Flowers and fruit bring insects and birds.
+    - Ornamental: Pretty pink flowers between fruit flushes.
   companions:
-  - NEEDS_DATA
+  - Citrus
+  - Pineapple
+  - Papaya
   avoid:
-  - NEEDS_DATA
+  - Heavy wet clay and frost pockets
   pests:
-  - NEEDS_DATA
+  - Caribbean Fruit Fly
+  - Scale Insects
+  - Aphids
   # Image attribution: Dinesh Valke from Thane, India / Wikimedia Commons / CC BY-SA 2.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

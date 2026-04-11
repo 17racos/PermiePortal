@@ -1,27 +1,57 @@
 ---
 - common_name: Elderflower
   picture: elderflower.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Sambucus nigra
+  aka:
+  - European Elder
+  - Black Elder
+  family: Adoxaceae
+  zone: 4-9
+  ideal_temp_min: 45
+  ideal_temp_max: 85
+  min_temp: -30
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  - Border Plant
+  - Mulcher
+  description: "Elder is a fast-suckering shrub or small tree famous for foamy
+    white flower clusters that smell like summer sneaked into a beehive. Berries
+    and flowers are edible only with correct prep — raw green berries and bark are
+    not snack food. In North Florida, native American elder (often treated as
+    Sambucus canadensis) behaves similarly; this entry centers the common European
+    type many cultivars derive from.\n\n☀️💧 Sun and Water:\n- Full sun to part shade;
+    more sun usually means heavier bloom.\n- Likes steady moisture but tolerates
+    average garden soils; mulch keeps roots cool in Panhandle heat.\n\n✂️ Propagation:\n-
+    Hardwood cuttings in dormancy root readily.\n- Root suckers can be dug and
+    transplanted.\n- Seed needs stratification and patience; named varieties are
+    cloned.\n\nPermieBro note: plant where you can mow or chop suckers, or you will
+    invent new curse words."
+  purpose: |-
+    Elder is a workhorse edge plant:
+
+    - Edible: Flowers for cordials and fritters; ripe cooked berries for syrup and wine.
+    - Medicinal: Traditional cold/flu teas from flowers; modern evidence is mixed — be sane.
+    - Wildlife Attractor: Insects mob the bloom; birds raid berries if you share.
+    - Border Plant: Informal hedge or back-row shrub in a guild.
+    - Mulcher: Vigorous growth chops and drops for biomass.
   companions:
-  - NEEDS_DATA
+  - Comfrey
+  - Yarrow
+  - Gooseberry
   avoid:
-  - NEEDS_DATA
+  - Shallow dry baked sand with zero irrigation establishment period
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Powdery Mildew
+  - Borers
+  growth_habit: Shrub
+  data_quality_score: 0.75
   # Image attribution: Repina Tatyana / Wikimedia Commons / CC BY 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

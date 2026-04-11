@@ -1,27 +1,50 @@
 ---
 - common_name: Sheep Sorrel
   picture: sheep_sorrel.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Rumex acetosella
+  aka:
+  - Field sorrel
+  - Red sorrel
+  family: Polygonaceae
+  zone: "3-9"
+  ideal_temp_min: 40
+  ideal_temp_max: 80
+  min_temp: -35
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Ground Cover
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Dynamic Accumulator
+  - Ground Cover
+  description: "Rumex acetosella is the tangy little dock relative that colonizes
+    acidic, lean, disturbed ground while larger plants are still writing business plans.
+    Leaves pack oxalic acid zing — nice in moderation in salads or soups, less nice
+    if you mainline pounds daily. North Florida: common in sandy, worn pastures and
+    garden edges.\n\n🌞💧 Sun and Water Requirements:\n- Full sun to part shade.\n-
+    Tolerates drought once established; thrives where grass pretends it is too hard.\n-
+    Acidic soils are its love language.\n\n✂️🌱 Methods to Propagate:\n- Seeds: abundant;
+    surface or shallow sow.\n- Root fragments resprout — think before rototilling
+    a patch you dislike.\n\n🧺 When to Harvest:\n- Young leaves; smaller plants before
+    flowering for milder flavor."
+  purpose: |-
+    Sheep sorrel is a sour ground-layer weed or intentional herb, depending on your
+    ego. It holds soil, feeds pollinators on inconspicuous flowers, and reminds you
+    that 'invasive' and 'useful' sometimes share an address — manage spread in beds
+    you care about.
   companions:
-  - NEEDS_DATA
+  - Yarrow
+  - Dutch Clover
+  - Plantain
   avoid:
-  - NEEDS_DATA
+  - Bulk diets for oxalate-sensitive people or livestock
+  - Letting it smother tiny seedlings you actually wanted
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Leafhoppers
+  - Slugs
   # Image attribution: (c) Agnieszka Kwiecień, Nova, some rights reserved (CC BY-SA)
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

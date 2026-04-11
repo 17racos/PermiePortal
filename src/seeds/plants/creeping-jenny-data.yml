@@ -1,27 +1,52 @@
 ---
 - common_name: Creeping Jenny
   picture: creeping_jenny.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Lysimachia nummularia
+  aka:
+  - Moneywort
+  - Herb Twopence
+  family: Primulaceae
+  zone: "4-9"
+  ideal_temp_min: 55
+  ideal_temp_max: 80
+  min_temp: -30
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Ground Cover
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ground Cover
+  - Ornamental
+  - Erosion Control
+  - Wildlife Attractor
+  description: "Creeping Jenny is a low, mat-forming perennial with round, bright
+    green to golden leaves and small yellow cup-shaped flowers in late spring and
+    summer. It roots at nodes and can spread aggressively in moist, fertile spots—fine
+    for a contained bog edge or pot splash zone, less funny if it escapes into your
+    whole yard.\n\nIn North Florida it often behaves as a lush winter–spring ground
+    cover and can melt back in brutal heat unless it has steady moisture and some
+    afternoon shade.\n\nSun and water: Part sun to full sun in cool climates; in
+    the subtropics, morning sun and afternoon shade keeps the foliage from frying.
+    Likes consistently moist to wet soil; tolerates brief dry spells once established
+    but looks trashy if you drought-stress it.\n\nPropagation: Divide mats any time;
+    soft stem cuttings root in water or damp mix in days; pieces with nodes reroot
+    if accidentally (or deliberately) scattered."
+  purpose: |-
+    Dense living mulch along pond margins, paths, or shady wet pockets. Holds soil
+    on slopes where turf is a bad joke. Flowers feed small pollinators. Treat it like
+    a pet eel: pretty, useful, and capable of taking over the tank if you stop paying
+    attention.
   companions:
-  - NEEDS_DATA
+  - Cattail
+  - Papyrus
+  - Water Iris
+  - Rush
   avoid:
-  - NEEDS_DATA
+  - Drought-loving Mediterranean herbs
   pests:
-  - NEEDS_DATA
+  - Slugs
+  - Snails
+  - Aphids
   # Image attribution: (c) miroslavamalovcova, some rights reserved (CC BY-NC)
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

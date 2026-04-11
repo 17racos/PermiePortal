@@ -1,27 +1,49 @@
 ---
 - common_name: Pitomba
   picture: pitomba.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Eugenia luschnathiana
+  aka:
+  - Pitanga-da-praia (regional)
+  - Brazilian pitomba
+  family: Myrtaceae
+  zone: 9b-11
+  ideal_temp_min: 55
+  ideal_temp_max: 95
+  min_temp: 26
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  description: "Eugenia luschnathiana is a compact Brazilian myrtle with orange,
+    apricot-sweet fruit and a growth habit polite enough for smaller yards—if you have
+    the winter warmth.\n\nNorth Florida / subtropical: Best in 9b+ with protection
+    for young plants; flowers and young growth are frost-tender. Likes humidity with
+    drainage.\n\nSun and water: Full sun for fruiting; rich acidic soil and mulch.
+    Deep watering in dry spells improves fruit size.\n\nPropagation: Seeds (variable);
+    grafting for known selections."
+  purpose: |-
+    Backyard apricot illusion:
+
+    - Edible: Fresh fruit, jellies, and experiments.
+    - Ornamental: Dense glossy foliage.
+    - Wildlife Attractor: Fruit for birds; flowers for pollinators.
   companions:
-  - NEEDS_DATA
+  - Jaboticaba
+  - Cambuca
+  - Guava
   avoid:
-  - NEEDS_DATA
+  - Alkaline rock piles without organic matter
+  - Salt exposure unless screened
   pests:
-  - NEEDS_DATA
+  - caribbean fruit fly
+  - scale insects
+  growth_habit: Small evergreen tree or large shrub
+  data_quality_score: 0.8
   # Image attribution: Photo by David J. Stang / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,50 @@
 ---
 - common_name: Breadfruit
-  picture: breadfruit.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Artocarpus altilis
+  aka:
+  - Ulu (Pacific)
+  - Kuru (regional names vary)
+  family: Moraceae
+  zone: 10-11
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 40
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Canopy
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Mulcher
+  - Animal Fodder
+  description: "Artocarpus altilis is the Pacific starch tree—huge lobed leaves,
+    milky sap, and green fruits that roast or fry like potato’s overachieving cousin.
+    Seedless cultivars exist; seeded forms blur into breadnut.\n\nNorth Florida /
+    subtropical: Not a serious outdoor crop until true frost-free tropics—low 40s °F
+    damages growth. Greenhouse or brave microclimate only on the peninsula margins.\n\n
+    Sun and water: Full sun; deep fertile soil with steady moisture in growth season.
+    Wind protection while young.\n\nPropagation: Root cuttings, suckers, or grafted
+    clones—seedlings are a long game."
+  purpose: |-
+    Carbohydrate canopy for the humid brave:
+
+    - Edible: Immature fruit as vegetable; mature roasted or processed.
+    - Mulcher: Enormous leaves for chop-and-drop if you have the space.
+    - Animal Fodder: Excess fruit and leaves used in tropical systems.
   companions:
-  - NEEDS_DATA
+  - Banana
+  - Taro
+  - Coconut Tree
   avoid:
-  - NEEDS_DATA
+  - Any expectation of fruit after hard freezes
+  - Drought on sandy sites without irrigation
   pests:
-  - NEEDS_DATA
+  - caribbean fruit fly
+  - scale insects
+  growth_habit: Large evergreen tree to 50–85 feet in ideal climates
+  data_quality_score: 0.8
   # Image attribution: Hans Hillewaert / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

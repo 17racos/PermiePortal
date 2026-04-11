@@ -1,27 +1,53 @@
 ---
 - common_name: Lemon Verbena
   picture: lemon_verbena.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Aloysia citrodora
+  aka:
+  - Lemon beebrush
+  family: Verbenaceae
+  zone: 8-11
+  ideal_temp_min: 45
+  ideal_temp_max: 92
+  min_temp: 15
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Ornamental
+  - Pollinator
+  description: |-
+    Lemon verbena is the tea plant that smells like honest lemonade without the sugar guilt. Deciduous in cooler winters, it often dies to the ground in North Florida freezes and returns from the crown if mulch behaved. Container culture lets you drag dignity indoors when polar nonsense arrives. Leaves dry beautifully; fresh leaves bruise into syrups and cordials.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for essential oil intensity; leggy shade plants are sad sticks.
+    - Well-drained, fertile soil; consistent moisture in containers, drier between waterings only if media is fast.
+    - Prune hard in spring to reshape after winter dieback.
+
+    ✂️ Methods to Propagate:
+    - Softwood cuttings in warm months under humidity — reliable clone path.
+    - Seeds: uncommon and variable; cuttings win.
+  purpose: |-
+    Lemon verbena is aromatherapy you can actually drink (within reason):
+
+    - Edible: Teas, syrups, desserts — potent; a little leaf goes far.
+    - Medicinal: Calming teas in herbal traditions — not a drug replacement.
+    - Ornamental: Fine leaves and lemon scent on patio edges.
+    - Pollinator: Small flowers attract beneficial insects when allowed.
   companions:
-  - NEEDS_DATA
+  - Rosemary
+  - Sage
+  - Citrus
   avoid:
-  - NEEDS_DATA
+  - Wet winter pots without drainage
+  - Letting woody stems get congested without air flow
   pests:
-  - NEEDS_DATA
+  - Whitefly
+  - Aphids
+  - Spider mites
   # Image attribution: H. Zell / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

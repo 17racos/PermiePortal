@@ -1,27 +1,50 @@
 ---
 - common_name: Starfruit
   picture: starfruit.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Averrhoa carambola
+  aka:
+  - Carambola
+  family: Oxalidaceae
+  zone: "10-11"
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 30
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  description: |-
+    Starfruit is the waxy yellow geometry teacher — five-ribbed slices for garnish clout, juice that ranges from sweet cultivars to "who hurt you" tart. Frost is the villain; North Florida is marginal outside protected 10b microclimates. Oxalate content is real; kidney issues mean hard pass, not gentle suggestion.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for heaviest fruiting; some afternoon shade acceptable in brutal heat.
+    - Rich, well-drained soil with steady moisture during fruit swell.
+    - Wind-sensitive young wood; mulch and stake without coddling delusions.
+
+    ✂️ Methods to Propagate:
+    - Grafting named cultivars for flavor predictability — seeds are chaos fruit.
+    - Air layering and cuttings used in tropics for clonal propagation.
+  purpose: |-
+    Starfruit is patio glam with juice:
+
+    - Edible: Fresh slices, juices, and pickles on sweet selections; verify cultivar and oxalate context.
+    - Ornamental: Feathery compound leaves and fruit on branches photograph well — admit it.
+    - Wildlife Attractor: Flowers draw pollinators; dropped fruit feeds local opportunists.
   companions:
-  - NEEDS_DATA
+  - Banana
+  - Papaya
+  - Lemongrass
   avoid:
-  - NEEDS_DATA
+  - Planting for people who should limit dietary oxalate
+  - Open 9a frost bowls without protection
   pests:
-  - NEEDS_DATA
+  - Caribbean Fruit Fly
+  - Scale Insects
+  - Thrips
   # Image attribution: SMasters / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

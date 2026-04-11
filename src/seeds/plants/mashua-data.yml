@@ -1,27 +1,55 @@
 ---
 - common_name: Mashua
   picture: mashua.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Tropaeolum tuberosum
+  aka:
+  - Añu
+  - Cubio
+  family: Tropaeolaceae
+  zone: 8-11
+  ideal_temp_min: 50
+  ideal_temp_max: 80
+  min_temp: 25
+  max_temp: 90
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Vine
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ground Cover
+  - Ornamental
+  - Wildlife Attractor
+  description: "Mashua is an Andean nasturtium relative that climbs like it owes
+    money and forms underground tubers that look like alien fingerling potatoes.
+    Leaves and flowers are edible in small amounts like garden nasturtiums; tubers
+    have a sharp, peppery kick that mellows with cooking. In North Florida treat
+    it as a cool-season crop: grow through fall/winter/spring, lift tubers before
+    deep heat or rot risk.\n\n☀️💧 Sun and Water:\n- Full sun in cool months; part
+    afternoon shade when temperatures climb.\n- Even moisture, excellent drainage;
+    tubers rot in soggy clay.\n\n✂️ Propagation:\n- Plant tubers after last frost
+    danger (or start early under protection).\n- Save smallest tubers for seed
+    stock; vines can layer where they touch soil.\n\nNot a beginner calorie staple
+    — flavor is loud — but it is a conversation piece that actually yields."
+  purpose: |-
+    Mashua fills niche vertical-and-root niches:
+
+    - Edible: Tubers, leaves, and flowers with peppery chemistry — respect quantities.
+    - Ground Cover: Dense leaf canopy smothers weeds until frost.
+    - Ornamental: Orange nasturtium blooms read decorative if you are shy about Andean carbs.
+    - Wildlife Attractor: Pollinators visit flowers; you visit tubers first.
   companions:
-  - NEEDS_DATA
+  - Corn
+  - Beans
+  - Yacon
   avoid:
-  - NEEDS_DATA
+  - Summer swamp beds
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Caterpillars
+  - Slugs
+  growth_habit: Herbaceous vine
+  data_quality_score: 0.7
   # Image attribution: (c) David F. Belmonte, some rights reserved (CC BY), uploaded by David F. Belmonte
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

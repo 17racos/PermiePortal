@@ -1,27 +1,48 @@
 ---
 - common_name: Cattley Guava
-  picture: cattley_guava.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Psidium cattleianum
+  aka:
+  - Strawberry guava
+  - Cherry guava
+  family: Myrtaceae
+  zone: "9-12"
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 25
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  description: "Cattley guava is the adorable fruit shrub that eats Florida hammocks
+    if you blink. Sweet, aromatic berries make killer jelly; birds make new infestations.
+    It is regulated or targeted for control in parts of the state — treat existing
+    plants as a management job, not a flex. Sun, heat, and sandy soil are easy mode;
+    drought tolerance is real once established.\n\n \U0001F31E\U0001F4A7 Sun and Water
+    Requirements:\n- Full sun for maximum fruit.\n- Moderate water; tolerates short
+    droughts when mulched.\n- Well-drained acid-to-neutral soils typical of coastal
+    Florida.\n\n✂️\U0001FAD8 Methods to Propagate:\n- Seeds via fruit — please do
+    not spread.\n- Cuttings and air-layering for controlled clones where legal.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E
+    When to Harvest:\n- Pick when deep maroon and aromatic.\n- Remove fallen fruit
+    if you are serious about seed control."
+  purpose: |-
+    Cattley guava is high-flavor fruit with invasive receipts:
+
+    - Edible: Fresh fruit, jams, and ferments.
+    - Wildlife Attractor: Birds and insects — seed dispersal risk.
+    - Ornamental: Pretty bark and fruit for people who read labels too late.
   companions:
-  - NEEDS_DATA
+  - None documented
   avoid:
-  - NEEDS_DATA
+  - Wildlands interfaces and conservation parcels
   pests:
-  - NEEDS_DATA
+  - Caribbean Fruit Fly
+  - Scale Insects
+  - Whiteflies
   # Image attribution: Forest &amp; Kim Starr / Wikimedia Commons / CC BY 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

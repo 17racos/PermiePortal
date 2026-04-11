@@ -1,27 +1,51 @@
 ---
-- common_name: # ── CANOPY TREES ─────────────────────────────────────────────────
+- common_name: Canopy Trees
   picture: canopy_trees.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Various spp.
+  aka:
+  - Overstory
+  - High Canopy Layer
+  family: Various
+  zone: "4-12"
+  ideal_temp_min: 40
+  ideal_temp_max: 95
+  min_temp: -40
+  max_temp: 115
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Canopy
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Shade Provider
+  - Windbreaker
+  - Wildlife Attractor
+  - Timber
+  description: "This is a design-layer cheat code, not one species. **Canopy trees**
+    are the tall, long-term framework—oaks, pecans, mulberries, mangos, pines, sugar
+    maples, depending on climate—whose crowns catch sun first and set the microclimate
+    for everything below.\n\nIn a North Florida / subtropical food forest you might
+    stack **live oak**, **pecan**, **longleaf pine**, **sugarberry**, or **tropical
+    fruit** overstory depending on soil, fire history, and how much frost you get.
+    The job is the same: shade, wind reduction, vertical structure, and habitat.\n\nSun
+    and water: Full sun for the crown; roots need deep, uncompacted soil with reasonable
+    drainage. Irrigation is for establishment—mature canopy species should not need
+    a soaker hose life support plan.\n\nPropagation: N/A for the abstract layer—pick
+    real species entries for seed, grafting, or transplant details. Here you are
+    planning spacing, not germinating a concept tree."
+  purpose: |-
+    Sets light levels for understory fruit, shrubs, and ground covers; houses birds
+    and epiphytes; buffers wind for tender plants. Skip this layer and your food
+    forest is just a sunny vegetable lot with delusions.
   companions:
-  - NEEDS_DATA
+  - Pawpaw
+  - Elderberry
+  - Beautyberry
+  - Muscadine
   avoid:
-  - NEEDS_DATA
+  - Planting spindly understory directly under aggressive surface roots without plan
   pests:
-  - NEEDS_DATA
+  - Borers
+  - Scale Insects
+  - Caterpillars
   # Image attribution: Dietmar Rabich / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

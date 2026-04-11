@@ -1,27 +1,54 @@
 ---
 - common_name: Lemon Eucalyptus
   picture: lemon_eucalyptus.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Corymbia citriodora
+  aka:
+  - Lemon-scented gum
+  - Eucalyptus citriodora (former name)
+  family: Myrtaceae
+  zone: 9-11
+  ideal_temp_min: 55
+  ideal_temp_max: 95
+  min_temp: 22
+  max_temp: 115
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Medicinal
+  - Windbreaker
+  - Mulcher
+  - Wildlife Attractor
+  - Ornamental
+  description: |-
+    Lemon eucalyptus is a fast Australian gum that smells like someone hid a lemon drop in the canopy. Essential oil from leaves powers citronella-type products; the tree itself is a skyscraper with opinions about fire ecology — not a cute patio pot forever. In North Florida young trees are frost-tender; mature specimens tolerate brief cold better but are not a substitute for a parka.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun; open sky or forget serious height.
+    - Tolerates poor soils once established; young trees want consistent moisture to outrun stress.
+    - Avoid chronic waterlogging; roots hate suffocation.
+
+    ✂️ Methods to Propagate:
+    - Seeds: sow fine seed on surface; do not bury deeply; warmth speeds germination.
+    - Cuttings: possible for some clones but variable; seed lines are more common for home growers.
+  purpose: |-
+    Lemon eucalyptus is structure and chemistry in one package:
+
+    - Medicinal / aromatic: Leaf oil used commercially; home distillation is a rabbit hole — research safety.
+    - Windbreaker: Tall crown cuts wind on exposed sites.
+    - Mulcher: Bark and leaf drop feeds understory if you manage fire risk and placement.
+    - Wildlife Attractor: Flowers feed pollinators when present.
+    - Ornamental: Smooth trunk and scent make it a statement tree where size is appropriate.
   companions:
-  - NEEDS_DATA
+  - Understory shrubs that tolerate leaf litter
+  - Native grasses away from fire-prone interfaces
   avoid:
-  - NEEDS_DATA
+  - Planting under power lines unless you enjoy angry letters
+  - Fire-prone wildland edges without management plan
   pests:
-  - NEEDS_DATA
+  - Borers
+  - Scale insects
+  - Leafhoppers
   # Image attribution: (c) Dean Nicolle, some rights reserved (CC BY-NC), uploaded by Dean Nicolle
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

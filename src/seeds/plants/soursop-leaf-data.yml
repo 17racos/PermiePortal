@@ -1,27 +1,51 @@
 ---
 - common_name: Soursop Leaf
-  picture: soursop_leaf.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Annona muricata
+  aka:
+  - Graviola leaf (common trade name)
+  - Guanabana (Spanish fruit name — same tree)
+  family: Annonaceae
+  zone: "10-11"
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 30
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Medicinal
+  - Edible
+  - Mulcher
+  - Wildlife Attractor
+  description: "Annona muricata leaves get their own entry because humans love tea,
+    tincture lore, and chop-and-drop mulch from the same tree that makes soursop fruit.
+    Large, glossy, alternate leaves on a tropical tree that hates hard frost. North
+    Florida: greenhouse or heroic microclimate; outdoor year-round is mostly a south
+    Florida conversation.\n\n🌞💧 Sun and Water Requirements:\n- Full sun once established
+    in true tropical plantings.\n- Deep, fertile, well-drained soil with steady moisture.\n-
+    Wind protection for young trees.\n\n✂️🌱 Methods to Propagate:\n- Seeds from fresh
+    fruit; long road to fruiting.\n- Grafting selected cultivars for fruit quality.\n\n🧺
+    When to Harvest:\n- Mature healthy leaves for drying/tea experiments — research
+    safety and drug interactions yourself; this is not medical advice, it is leaf
+    logistics."
+  purpose: |-
+    Soursop leaf is biomass plus cultural medicine stories attached to a serious tropical
+    fruit tree. In permaculture terms: mulch, shade, and habitat stack with the same
+    plant that feeds fruit flies your dessert if you slack on harvest timing.
   companions:
-  - NEEDS_DATA
+  - Banana
+  - Papaya
+  - Guava
   avoid:
-  - NEEDS_DATA
+  - Marketing cures without doing homework and ethics
+  - Exposed frost for young flushes
   pests:
-  - NEEDS_DATA
+  - Caribbean Fruit Fly
+  - Scale Insects
+  - Mealybugs
+  - Caterpillars
   # Image attribution: No image found
   # Image source: none
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

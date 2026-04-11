@@ -1,27 +1,49 @@
 ---
 - common_name: Wild Passionfruit
   picture: wild_passionfruit.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Passiflora foetida
+  aka:
+  - Stinking passionflower
+  family: Passifloraceae
+  zone: 9-11
+  ideal_temp_min: 65
+  ideal_temp_max: 92
+  min_temp: 22
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Vine
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Ground Cover
+  - Medicinal
+  description: "Wild passionfruit is the frilly invasive-adjacent Passiflora of roadsides
+    and dunes—sticky hairs, bracts that look like origami gone feral, and marble-sized
+    fruit that range from pleasantly tart to “why did I trust a meme.” Check local status:
+    it is a problem plant in some Pacific islands and managed areas.\n\nNorth Florida
+    / subtropical: Present in parts of the peninsula; behaves as a perennial vine where
+    frosts are light. Gulf fritillary caterpillar buffet—same tradeoff as maypop.\n\nSun
+    and water: Full sun for flowers and fruit. Drought-tolerant once established; laughs
+    at sandy soil.\n\nPropagation: Seeds spread by wildlife; cuttings root readily—do
+    not help it escape your fence if regulations say no."
+  purpose: |-
+    Native-range-adjacent wild fruit where appropriate, caterpillar host plant, and
+    living mulch on fences—ethics scale slides with invasiveness in your county.
   companions:
-  - NEEDS_DATA
+  - Maypop
+  - Native grasses
+  - Coastal scrub species
   avoid:
-  - NEEDS_DATA
+  - Releasing near preserves where listed
+  - Letting it smother saplings you actually like
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Victor W Fazio III, some rights reserved (CC BY-NC), uploaded by Victor W Fazio III
+  - caterpillars
+  - aphids
+  - whiteflies
+  growth_habit: Sprawling perennial vine with sticky hairs and bracts
+  data_quality_score: 0.7
+  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

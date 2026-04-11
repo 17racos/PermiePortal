@@ -1,27 +1,50 @@
 ---
 - common_name: Softstem Bulrush
   picture: softstem_bulrush.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Schoenoplectus tabernaemontani
+  aka:
+  - Soft-stem bulrush
+  - Great bulrush (name soup — verify local keys)
+  family: Cyperaceae
+  zone: "4-11"
+  ideal_temp_min: 45
+  ideal_temp_max: 90
+  min_temp: -30
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Aquatic
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Erosion Control
+  - Wildlife Attractor
+  - Water Purifier
+  description: "Schoenoplectus tabernaemontani is the classic upright wetland sedge
+    that softens pond edges and gives dragonflies something to posture on. Round stems
+    (triangular would be a different drama), clumping habit, handles fluctuating water
+    depths better than most ornamental grasses pretending to like wet feet. North
+    Florida: native-friendly choice for swales, retention basins, and rain gardens
+    with honest moisture.\n\n🌞💧 Sun and Water Requirements:\n- Full sun to light
+    shade.\n- Saturated soils to shallow standing water — this is not a rock garden
+    flex.\n- Tolerates brackish edges in some sites; check ecotype.\n\n✂️🌱 Methods
+    to Propagate:\n- Division of clumps during cool seasons.\n- Rhizome sections with
+    buds.\n\n🧺 When to Harvest:\n- Ecological use — leave standing stems for overwintering
+    insects unless you have a maintenance plan that replaces that habitat."
+  purpose: |-
+    Softstem bulrush is living infrastructure: slows edge erosion, filters water, and
+    hosts wildlife without asking for a patentable 'bioswale module.' Stack with other
+    emergent natives for layered wetland function.
   companions:
-  - NEEDS_DATA
+  - Pickerelweed
+  - Cattail
+  - Blue Flag Iris
   avoid:
-  - NEEDS_DATA
+  - Dry berms that only flood once a decade
+  - Chemical warfare on adjacent lawns washing into the planting
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Mealybugs
+  - Snails
   # Image attribution: (c) Mike, all rights reserved, uploaded by Mike
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

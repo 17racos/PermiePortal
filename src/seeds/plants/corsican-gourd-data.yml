@@ -1,27 +1,52 @@
 ---
 - common_name: Corsican Gourd
   picture: corsican_gourd.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  scientific_name: Lagenaria siceraria
+  aka:
+  - Bottle gourd (Corsican type)
+  - Hard-shelled gourd
+  family: Cucurbitaceae
+  zone: 3-11
+  ideal_temp_min: 70
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 100
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Vine
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Fiber
+  description: "‘Corsican’ is a Lagenaria siceraria landrace selected for warty,
+    ornamental, often huge fruits—same species as smooth bottle gourds, different
+    drama. Young fruit can be eaten like summer squash; most growers chase the fully
+    cured shell for crafts and absurd table centerpieces.\n\nNorth Florida / subtropical:
+    Sow after soil warms; long frost-free season helps fruits size and shells harden
+    before cold. Humidity invites the usual cucurbit leaf fungi—trellis for airflow
+    and cleaner fruit.\n\nSun and water: Full sun, fertile well-drained soil, steady
+    moisture while vines run and fruit swells; ease off as shells cure on the vine.\n\n
+    Propagation: Direct-sow or transplant carefully; fragile roots hate rough handling.
+    Strong trellis or you will triage mud-rot gourds."
+  purpose: |-
+    Vertical annual biomass, food while young, craft stock when old:
+
+    - Edible: Tender immature fruit in the kitchen.
+    - Ornamental: Sculptural fruits that outshine your minimalist phase.
+    - Fiber: Cured shells for containers, birdhouses, and percussion regrets.
   companions:
-  - NEEDS_DATA
+  - Corn
+  - Beans
+  - Nasturtium
   avoid:
-  - NEEDS_DATA
+  - Wet stagnant air around foliage
+  - Planting only cucurbits in the same spot year after year
   pests:
-  - NEEDS_DATA
+  - squash vine borer
+  - pickleworm
+  - Powdery Mildew
+  growth_habit: Rampant annual vine with tendrils
+  data_quality_score: 0.8
   # Image attribution: Henry G. Gilbert Nursery and Seed Trade Catalog Collection.; Miss Mary E. Martin (Firm); Miss Mary E. Martin (Firm) / Wikimedia Commons / Public domain
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

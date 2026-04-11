@@ -1,27 +1,47 @@
 ---
 - common_name: Citron
   picture: citron.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Citrus medica
+  aka:
+  - Etrog
+  - Cedrat
+  family: Rutaceae
+  zone: 9-11
+  ideal_temp_min: 60
+  ideal_temp_max: 90
+  min_temp: 24
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Medicinal
+  description: |-
+    Citron is the thick-rinded citrus ancestor that cares more about zest and pith than juice. Religious, culinary, and candied-peel traditions all want a piece; greening and psyllid politics want a piece of you.
+
+    North Florida / subtropical: Same citrus reality as the rest of the genus—9a is negotiation, microclimate helps, pot-and-shelter is honesty. Check local guidance on citrus pests and diseases before you commit yard space.
+
+    Sun and water: Full sun for dense rind and oil glands. Deep, infrequent watering in well-drained soil; avoid mulch volcanoes against the trunk.
+
+    Propagation: Budded or grafted onto compatible rootstock for trueness and soil adaptation; seedlings are a lottery.
+  purpose: |-
+    Candied peel, aromatic zest, preserved fruit in syrup; cultural and ceremonial use where applicable; evergreen ornamental structure where citrus is still viable.
   companions:
-  - NEEDS_DATA
+  - Comfrey
+  - Nitrogen-fixing ground covers
+  - Other citrus (with shared pest awareness)
   avoid:
-  - NEEDS_DATA
+  - Poor drainage
+  - Lawn herbicide drift
   pests:
-  - NEEDS_DATA
+  - asian citrus psyllid
+  - citrus leafminer
+  - scale insects
+  growth_habit: Open shrubby citrus with large, fragrant fruit
+  data_quality_score: 0.75
   # Image attribution: (c) Valentin Hamon, some rights reserved (CC BY-NC), uploaded by Valentin Hamon
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

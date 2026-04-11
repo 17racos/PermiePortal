@@ -1,27 +1,54 @@
 ---
 - common_name: Sour Orange
   picture: sour_orange.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Citrus × aurantium
+  aka:
+  - Seville orange
+  - Bitter orange
+  family: Rutaceae
+  zone: "9-11"
+  ideal_temp_min: 55
+  ideal_temp_max: 95
+  min_temp: 22
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  - Windbreaker
+  description: |-
+    Sour orange is Citrus × aurantium wearing its working-class name tag — thorny, aromatic, and historically the rootstock and marmalade backbone of the humid South. Naturalized in places that now side-eye it. North Florida: marginal in 9a without protection; citrus greening and psyllid politics are the real HOA.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for fruit and flower density.
+    - Well-drained, slightly acidic soil; consistent moisture but not saturated roots.
+    - Windbreak reduces cosmetic leaf miner damage; does not cure industry-scale disease.
+
+    ✂️ Methods to Propagate:
+    - Budding and grafting onto selected rootstocks — how the trade does it.
+    - Seeds: variable offspring; useful for rootstock experiments and hedgerow chaos.
+  purpose: |-
+    Sour orange is hedgerow utility citrus:
+
+    - Edible: Marmalade, liqueurs, and bitter culinary traditions — respect the acid.
+    - Medicinal: Peel and flower uses in herbal lineages — verify safety and sourcing.
+    - Wildlife Attractor: Flowers for pollinators; fruit for wildlife if you surrender some.
+    - Windbreaker: Dense, thorny growth can armor microclimates — also armor your arms while pruning.
   companions:
-  - NEEDS_DATA
+  - Comfrey
+  - Clover
+  - Nasturtium
   avoid:
-  - NEEDS_DATA
+  - Planting as naive "easy citrus" without regional disease context
+  - Heavy wet feet in winter cold
   pests:
-  - NEEDS_DATA
+  - Asian Citrus Psyllid
+  - Citrus Leafminer
+  - Citrus Greening
   # Image attribution: (c) Ulf Swenson, some rights reserved (CC BY-NC), uploaded by Ulf Swenson
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

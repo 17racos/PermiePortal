@@ -1,27 +1,53 @@
 ---
 - common_name: Walter Viburnum
   picture: walter_viburnum.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Viburnum obovatum
+  aka:
+  - Small-leaf viburnum
+  - Walter’s viburnum
+  family: Adoxaceae
+  zone: "8-10"
+  ideal_temp_min: 45
+  ideal_temp_max: 95
+  min_temp: 10
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Wildlife Attractor
+  - Border Plant
+  - Erosion Control
+  - Ornamental
+  description: "Walter viburnum is a Florida-native workhorse shrub — neat evergreen
+    leaves, spring flowers that do not beg for applause, and berries that wildlife
+    actually eat. It handles sun to part shade and the kind of sandy acid soils North
+    and Central Florida specialize in. Perfect for hedges, wetland edges, and food-forest
+    structure that is not another invasive hedge lottery ticket.\n\n \U0001F31E\U0001F4A7
+    Sun and Water Requirements:\n- Full sun to part shade; denser in sun.\n- Moderate
+    moisture; tolerates brief wet feet better than desert shrubs.\n- Acidic, organic
+    sandy loam is ideal; mulch to cool roots.\n\n✂️\U0001FAD8 Methods to Propagate:\n-
+    Softwood cuttings in humidity.\n- Seeds: double dormancy can be annoying — scarify/stratify
+    protocols help.\n- Transplant small liners from reputable native nurseries.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E
+    When to Harvest:\n- For the birds — leave berries unless you are trialing jelly
+    from known-clean sites."
+  purpose: |-
+    Walter viburnum is native structure with ecological receipts:
+
+    - Wildlife Attractor: Flowers and fruits support insects and birds.
+    - Border Plant: Shearable hedge or loose natural screen.
+    - Erosion Control: Fibrous roots stabilize sandy banks.
+    - Ornamental: Evergreen presence without pretension.
   companions:
-  - NEEDS_DATA
+  - Beautyberry
+  - Elderberry
+  - Blueberry
   avoid:
-  - NEEDS_DATA
+  - High-pH limestone soils without amendment and monitoring
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Scale Insects
+  - Powdery Mildew
   # Image attribution: (c) Mary Keim, some rights reserved (CC BY-NC-SA)
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

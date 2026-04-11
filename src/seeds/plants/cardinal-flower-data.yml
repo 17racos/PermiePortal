@@ -1,27 +1,47 @@
 ---
 - common_name: Cardinal Flower
   picture: cardinal_flower.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Lobelia cardinalis
+  aka:
+  - Red lobelia
+  family: Campanulaceae
+  zone: 3-9
+  ideal_temp_min: 55
+  ideal_temp_max: 85
+  min_temp: -30
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Aquatic
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Wildlife Attractor
+  - Ornamental
+  description: "Cardinal flower is the hummingbird magnet of wet ditches—scarlet spikes,
+    lance leaves, and a love language written in milliliters of nectar per minute. Short-lived
+    as individual plants in some settings but seeds in like it owes you rent.\n\nNorth
+    Florida / subtropical: Native in northern counties; central/south populations exist
+    in appropriate wetlands. Give it moisture and some midday shade inland.\n\nSun and
+    water: Sun to part shade. Consistent soil moisture—pond edge, rain garden, or soaker
+    zone. Mulch keeps roots cool.\n\nPropagation: Seeds (tiny, surface sow); division
+    of basal rosettes in cool seasons."
+  purpose: |-
+    Hummingbird and butterfly support, riparian beauty, and rain-garden architecture
+    where standing water is not mandatory but wet feet are.
   companions:
-  - NEEDS_DATA
+  - Pickerelweed
+  - Swamp milkweed
+  - Joe Pye weed
   avoid:
-  - NEEDS_DATA
+  - Dry berms
+  - Deep shade that prevents bloom
   pests:
-  - NEEDS_DATA
-  # Image attribution: Denis Barthel / Wikimedia Commons / CC BY-SA 4.0
-  # Image source: wikimedia
+  - aphids
+  - slugs
+  - snails
+  growth_habit: Upright short-lived perennial forb; often self-sows in wet sites
+  data_quality_score: 0.8
+  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
+  # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

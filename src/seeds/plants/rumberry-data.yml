@@ -1,27 +1,54 @@
 ---
 - common_name: Rumberry
-  picture: rumberry.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Myrciaria floribunda
+  aka:
+  - Guavaberry relative
+  - Rumberry tree
+  family: Myrtaceae
+  zone: 10-11
+  ideal_temp_min: 65
+  ideal_temp_max: 88
+  min_temp: 32
+  max_temp: 98
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  - Mulcher
+  description: |-
+    Rumberry is a small Myrtaceae tree of Caribbean and adjacent lowland tropics, kin to the guava tribe vibes without the big-box hype. It fruits small berries used locally for jams, wines, and "stop asking if it is a blueberry" energy. North Florida coastal gardeners: this is a frost-tender novelty for protected courtyards or the bravest 10a microclimate, not a hedge for lazy landscapers.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for best flowering and fruit; young plants appreciate partial shade while roots establish.
+    - Moist, rich, well-drained soil; regular water in dry spells, no standing anaerobic soup.
+    - Brief cool snaps tolerated better than hard freeze; protect when frost threatens.
+
+    ✂️ Methods to Propagate:
+    - Seeds: sow fresh; viability drops if seed dries excessively.
+    - Cuttings: semi-hardwood cuttings under humidity dome in warm season.
+  purpose: |-
+    Rumberry is a niche edible for humid subtropical food forests:
+
+    - Edible: Small aromatic berries for processing where palatability matches local selections.
+    - Wildlife Attractor: Flowers and fruit feed insects and birds.
+    - Ornamental: Fine-textured foliage and modest stature suit layered design.
+    - Mulcher: Litter contributes to understory mulch banks.
   companions:
-  - NEEDS_DATA
+  - Papaya
+  - Banana
+  - Nitrogen-fixing shrubs
   avoid:
-  - NEEDS_DATA
+  - Exposed salt spray without acclimation
+  - Prolonged waterlogging
   pests:
-  - NEEDS_DATA
+  - Scale insects
+  - Caribbean Fruit Fly
+  - Aphids
   # Image attribution: Vmatosc / Wikimedia Commons / Public domain
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,54 @@
 ---
 - common_name: Giant Bulrush
   picture: giant_bulrush.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Schoenoplectus californicus
+  aka:
+  - California bulrush
+  - Tule (regional)
+  family: Cyperaceae
+  zone: "5-11"
+  ideal_temp_min: 45
+  ideal_temp_max: 95
+  min_temp: -10
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Aquatic
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Water Purifier
+  - Wildlife Attractor
+  - Mulcher
+  - Erosion Control
+  description: |-
+    Giant bulrush is the vertical wetland wallpaper — tall triangular stems, rhizomatous expansion, and a work ethic for stabilizing pond margins. Not the edible headline like duck potato; more the structure and filtration crew. In North Florida it belongs in restoration and intentional wetland cells, not dry berms.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun in shallow water or saturated soils along edges.
+    - Tolerates seasonal flooding and some brackish influence depending on ecotype.
+    - Rhizomes spread — contain with liners or design for expansion.
+
+    ✂️ Methods to Propagate:
+    - Rhizome division: transplant chunks with roots in warm wet weather.
+    - Seeds: available for restoration; establishment slower than vegetative plugs.
+  purpose: |-
+    Giant bulrush is wetland engineering:
+
+    - Water Purifier: Dense roots trap sediment and take up nutrients from stormwater drama.
+    - Wildlife Attractor: Cover for birds, amphibians, and insects at the water interface.
+    - Mulcher: Dead stems compost into marsh detritus pathways.
+    - Erosion Control: Rhizome mats armor shorelines against wave and wake nonsense.
   companions:
-  - NEEDS_DATA
+  - Duck potato
+  - Pickerelweed
+  - Cattail
   avoid:
-  - NEEDS_DATA
+  - Planting in dry perennial beds without irrigation amnesia therapy
+  - Small lined ponds if you hate aggressive rhizomes
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Mites
+  - Armyworms
   # Image attribution: (c) Smithsonian Institution, National Museum of Natural History, Department of Botany, some rights reserved (CC BY-NC-SA)
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

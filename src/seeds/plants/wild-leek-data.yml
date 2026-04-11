@@ -1,27 +1,49 @@
 ---
 - common_name: Wild Leek
   picture: wild_leek.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Allium tricoccum
+  aka:
+  - Ramps
+  - Spring onion
+  family: Amaryllidaceae
+  zone: 3-8
+  ideal_temp_min: 45
+  ideal_temp_max: 75
+  min_temp: -40
+  max_temp: 85
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Medicinal
+  description: "Wild leek—ramps—is the Appalachian spring onion that launched a thousand
+    overharvest threads. Broad smooth leaves, burgundy stems, pungent bulbs, and a life
+    cycle that wants rich woodland soil and patience.\n\nNorth Florida / subtropical:
+    Not a native here; coolest north counties might trial shaded moist pockets, but this
+    is really an eastern deciduous forest plant. Do not cosplay as a forager in public
+    parks—grow your own patch or buy from growers who propagate.\n\nSun and water: Dappled
+    shade to part sun; rich, moist, well-drained humus. Summer dormancy—respect the
+    disappearing act.\n\nPropagation: Seed (slow), division of offsets from cultivated
+    patches, or transplant nursery-grown bulbs ethically sourced."
+  purpose: |-
+    Seasonal wild onion crop for home woodland gardens, pollinator value from umbels
+    if you let some flower, and a humility lesson in sustainable harvest limits.
   companions:
-  - NEEDS_DATA
+  - Trout lily
+  - Mayapple
+  - Other spring ephemerals
   avoid:
-  - NEEDS_DATA
+  - Full-sun baking
+  - Summer irrigation that rots dormant bulbs
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Douglas Goldman, some rights reserved (CC BY-SA), uploaded by Douglas Goldman
+  - onion thrips
+  - slugs
+  - vegetable leafminer
+  growth_habit: Clumping perennial bulb geophyte with two broad leaves
+  data_quality_score: 0.76
+  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

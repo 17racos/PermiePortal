@@ -1,27 +1,54 @@
 ---
 - common_name: Cherimoya
-  picture: cherimoya.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Annona cherimola
+  aka:
+  - Custard Apple
+  - Ice Cream Fruit
+  family: Annonaceae
+  zone: "10-11"
+  ideal_temp_min: 65
+  ideal_temp_max: 85
+  min_temp: 28
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Shade Provider
+  - Wildlife Attractor
+  description: "Cherimoya is a smallish deciduous-to-semi-evergreen annonaceous
+    tree with hand-sized, scaly green fruit and sweet, custardy flesh that tastes like
+    someone crossed a pear with a pineapple and a hug. Hand pollination is often
+    required outside its native Andean window because natural pollinators can be lazy
+    tourists.\n\nNorth Florida is marginal—occasional fruit in the warmest pockets,
+    more reliable from South Florida into the true tropics. Young trees are frost-tender;
+    established specimens tolerate brief cool dips better than hype suggests, but not
+    a real freeze party.\n\nSun and water: Full sun once established; partial shade
+    acceptable inland in blazing heat. Deep, fertile, well-drained soil; consistent
+    moisture during fruit swell; reduce overwatering in cool wet winters.\n\nPropagation:
+    Grafted trees for known cultivars; seedlings for rootstocks and gambling; cuttings
+    and air layering possible but fussier. Plant two genetically different trees or
+    learn to paint pollen with a brush like a caffeinated bee."
+  purpose: |-
+    High-value dessert fruit in a frost-protected food forest. Summer shade for
+    understory guilds once the canopy builds. If you skip pollination homework, you
+    get a handsome foliage plant that owes you fruit.
   companions:
-  - NEEDS_DATA
+  - Papaya
+  - Banana
+  - Ice Cream Bean
+  - Cacao
   avoid:
-  - NEEDS_DATA
+  - Flooded soil
+  - Wind-exposed hilltops
   pests:
-  - NEEDS_DATA
+  - Scale Insects
+  - Mealybugs
+  - Aphids
+  - Caribbean Fruit Fly
   # Image attribution: Willow Coville / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

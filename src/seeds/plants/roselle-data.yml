@@ -1,27 +1,52 @@
 ---
 - common_name: Roselle
   picture: roselle.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  scientific_name: Hibiscus sabdariffa
+  aka:
+  - Florida cranberry
+  - Sorrel (Caribbean)
+  family: Malvaceae
+  zone: "8-11"
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 28
+  max_temp: 105
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  description: |-
+    Roselle is hibiscus that files taxes as a vegetable: tart calyces for tea and jam, edible leaves if you are not boring, and a clock that screams annual once frost finds North Florida. Plant after soil warms — cool roots make a sulk factory.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for thick stems and heavy calyx production.
+    - Even moisture; drought shrinks calyx size and your winter pantry dreams.
+    - Well-drained fertile soil; responds to compost without corporate fertilizer poetry.
+
+    ✂️ Methods to Propagate:
+    - Seeds: direct sow warm soil or start indoors 4–6 weeks before last frost.
+    - Cuttings: take semi-hardwood in warm months — roots with humidity, not hope alone.
+  purpose: |-
+    Roselle is seasonal tartness with pollinator traffic:
+
+    - Edible: Calyces for tea, syrup, and jelly; young leaves in cooked greens rotations.
+    - Medicinal: Traditional uses for tea blends — do your own homework on claims and dosing.
+    - Wildlife Attractor: Hibiscus flowers attract bees and generalist pollinators all summer.
   companions:
-  - NEEDS_DATA
+  - Okra
+  - Peppers
+  - Basil
   avoid:
-  - NEEDS_DATA
+  - Planting too early in cool wet soil
+  - Expecting perennial life where hard frost exists
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Whiteflies
+  - Japanese Beetles
   # Image attribution: Mokkie / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

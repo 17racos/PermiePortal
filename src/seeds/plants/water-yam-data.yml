@@ -1,27 +1,48 @@
 ---
 - common_name: Water Yam
   picture: water_yam.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Dioscorea alata
+  aka:
+  - Winged yam
+  - Purple yam (regional names vary)
+  family: Dioscoreaceae
+  zone: 8-11
+  ideal_temp_min: 70
+  ideal_temp_max: 92
+  min_temp: 25
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Vine
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ground Cover
+  - Mulcher
+  description: "Water yam is the winged-stem Dioscorea that climbs trellises, trees,
+    and homeowner patience—massive tubers possible where the frost-free season is long
+    enough. In Florida some forms are regulated or problematic; verify local rules before
+    you plant your yard into a liability.\n\nNorth Florida / subtropical: Long-vined
+    types need a serious frost-free window; harvest before freeze damages vines. Shorter-cycle
+    selections help 8b/9a.\n\nSun and water: Full sun for yield. Deep, loose soil with
+    steady moisture during growth; dry-down before harvest reduces rots.\n\nPropagation:
+    Headsetts (bulbils), tuber pieces with buds, or vine cuttings for some lines—label
+    everything so you remember which experiment is which."
+  purpose: |-
+    Calorie-dense tuber for humid subtropical systems where legal, vertical biomass
+    production, and mulch drop when frost kills vines.
   companions:
-  - NEEDS_DATA
+  - Strong trellis trees
+  - Nitrogen companions at the base
+  - Nothing fragile the vine can smother
   avoid:
-  - NEEDS_DATA
+  - Planting invasive forms where prohibited
+  - Weak trellising
   pests:
-  - NEEDS_DATA
-  # Image attribution: Andikan Efiok Eduok / Wikimedia Commons / CC BY-SA 4.0
-  # Image source: wikimedia
+  - nematodes
+  - rootknot nematodes
+  growth_habit: Herbaceous perennial twining vine with annual stems from tuber
+  data_quality_score: 0.72
+  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
+  # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

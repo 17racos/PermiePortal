@@ -987,3 +987,263 @@ Pests in queue:  0
 Done — Sat Apr 11 03:40:01 PM UTC 2026
 
 Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sat Apr 11 04:00:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch mode
+   Plants: up to 20 from queue_plants.txt
+   Pests:  up to 10 from queue_pests.txt
+
+  ℹ️  Both queues are empty.
+  Add plant names to: /home/dracos/apps/permieportal/queue_plants.txt
+  Add pest names to:  /home/dracos/apps/permieportal/queue_pests.txt
+
+Done — Sat Apr 11 04:00:01 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sat Apr 11 04:20:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch mode
+   Plants: up to 20 from queue_plants.txt
+   Pests:  up to 10 from queue_pests.txt
+
+  ℹ️  Both queues are empty.
+  Add plant names to: /home/dracos/apps/permieportal/queue_plants.txt
+  Add pest names to:  /home/dracos/apps/permieportal/queue_pests.txt
+
+Done — Sat Apr 11 04:20:01 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sat Apr 11 04:40:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  18
+
+
+📅 Daily batch (20 plants / 10 pests)
+  Plants: 0, Pests: 10
+
+==================================================
+🐛 10 pests
+==================================================
+
+🐛 Root Rot Fungus
+  🔍 Root Rot Fungus... ⚠️  no image found
+  ⏭️  Skipping Root Rot Fungus — already exists
+
+🐛 Squash Bug
+  🔍 Squash Bug... ✅ Wikimedia
+    ⏭️  image exists
+  ⏭️  Skipping Squash Bug — already exists
+
+🐛 Azalea Caterpillar
+  🔍 Azalea Caterpillar... ✅ Wikimedia
+    ⏭️  image exists
+  ⏭️  Skipping Azalea Caterpillar — already exists
+
+🐛 Bamboo Mite
+  🔍 Bamboo Mite... ✅ iNaturalist
+    ⏭️  image exists
+  ⏭️  Skipping Bamboo Mite — already exists
+
+🐛 Banana Weevil
+  🔍 Banana Weevil... ✅ Wikimedia
+    ⏭️  image exists
+  ⏭️  Skipping Banana Weevil — already exists
+
+🐛 Locust Borer
+  🔍 Locust Borer... ✅ Wikimedia
+    ⏭️  image exists
+  ⏭️  Skipping Locust Borer — already exists
+
+🐛 Locust Leaf Miner
+  🔍 Locust Leaf Miner... ✅ iNaturalist
+    ⏭️  image exists
+  ⏭️  Skipping Locust Leaf Miner — already exists
+
+🐛 Leaf Spot
+  🔍 Leaf Spot... ✅ Wikimedia
+    ⏭️  image exists
+  ⏭️  Skipping Leaf Spot — already exists
+
+🐛 Heart Rot
+  🔍 Heart Rot... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+  ⏭️  Skipping Heart Rot — already exists
+
+🐛 Cocoa Pod Borer
+  🔍 Cocoa Pod Borer... ✅ iNaturalist
+    ⏭️  image exists
+  ⏭️  Skipping Cocoa Pod Borer — already exists
+
+==================================================
+✅ 0 processed
+==================================================
+
+📋 0 prompt file(s) in review/
+   0 plants + 252 pest fields need enrichment
+   Start: review/cursor_enrich_1_of_0.md
+   Run one Agent session per file — sequential, not parallel
+
+  📋 8 pests still in queue
+
+Done — Sat Apr 11 04:40:16 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sat Apr 11 05:00:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  6
+
+
+📅 Daily batch (20 plants / 10 pests)
+  Plants: 0, Pests: 6
+
+==================================================
+🐛 6 pests
+==================================================
+
+🐛 Colorado Potato Beetle
+  🔍 Colorado Potato Beetle... ✅ iNaturalist
+    ⏭️  image exists
+  ⏭️  Skipping Colorado Potato Beetle — already exists
+
+🐛 Potato Scab
+  🔍 Potato Scab... ✅ iNaturalist
+    ⏭️  image exists
+  ⏭️  Skipping Potato Scab — already exists
+
+🐛 Late Blight
+  🔍 Late Blight... ✅ Wikimedia
+    ⏭️  image exists
+  ⏭️  Skipping Late Blight — already exists
+
+🐛 Rhubarb Curculio
+  🔍 Rhubarb Curculio... ✅ iNaturalist
+    ⏭️  image exists
+  ⏭️  Skipping Rhubarb Curculio — already exists
+
+🐛 Rice Water Weevil
+  🔍 Rice Water Weevil... ✅ iNaturalist
+    ⏭️  image exists
+  ⏭️  Skipping Rice Water Weevil — already exists
+
+🐛 Rice Blast Fungus
+  🔍 Rice Blast Fungus... ⚠️  no image found
+  ⏭️  Skipping Rice Blast Fungus — already exists
+
+==================================================
+✅ 0 processed
+==================================================
+
+📋 0 prompt file(s) in review/
+   0 plants + 522 pest fields need enrichment
+   Start: review/cursor_enrich_1_of_0.md
+   Run one Agent session per file — sequential, not parallel
+
+
+Done — Sat Apr 11 05:00:15 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sat Apr 11 05:20:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  3
+
+
+📅 Daily batch (20 plants / 10 pests)
+  Plants: 0, Pests: 3
+
+==================================================
+🐛 3 pests
+==================================================
+
+🐛 Reniform Nematode
+  🔍 Reniform Nematode... ✅ Wikimedia
+    ⏭️  image exists
+    📝 queued
+
+🐛 Sunflower Moth
+  🔍 Sunflower Moth... ✅ Wikimedia
+    ⏭️  image exists
+    📝 queued
+
+🐛 Walnut Husk Fly
+  🔍 Walnut Husk Fly... ✅ iNaturalist
+    ⏭️  image exists
+    📝 queued
+
+  ✅ Appended 3 pest stubs
+
+==================================================
+✅ 3 processed
+==================================================
+
+📋 0 prompt file(s) in review/
+   0 plants + 729 pest fields need enrichment
+   Start: review/cursor_enrich_1_of_0.md
+   Run one Agent session per file — sequential, not parallel
+
+
+Done — Sat Apr 11 05:20:05 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sat Apr 11 05:40:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+
+📋 0 prompt file(s) in review/
+   0 plants + 459 pest fields need enrichment
+   Start: review/cursor_enrich_1_of_0.md
+   Run one Agent session per file — sequential, not parallel
+
+
+Done — Sat Apr 11 05:40:01 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md

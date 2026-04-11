@@ -1,27 +1,54 @@
 ---
 - common_name: Southern Magnolia
   picture: southern_magnolia.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
+  scientific_name: Magnolia grandiflora
+  aka:
+  - Bull bay
+  family: Magnoliaceae
+  zone: "7-10"
+  ideal_temp_min: 45
+  ideal_temp_max: 95
   min_temp: 0
-  max_temp: 0
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Canopy
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Wildlife Attractor
+  - Shade Provider
+  - Windbreaker
+  - Ornamental
+  description: |-
+    Southern magnolia is glossy evergreen ego with lemon-cream flowers and a leaf-drop habit that refuses minimalism. Native to the Southeast, it reads "estate driveway" but works as heat-season shade and bird cover in food forests if you accept litter.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to part shade; denser in sun, thinner in shade — pick your aesthetic tax.
+    - Moist, acidic, organic-rich soil preferred; tolerates clay if drainage exists.
+    - Drought-tolerant when established but looks richer with summer water.
+
+    ✂️ Methods to Propagate:
+    - Seeds: stratify; slow road to treehood, good for cheap experiments.
+    - Cuttings: semi-hardwood with auxin and humidity for patient propagators.
+    - Grafting and air layering used for named cultivars with predictable form.
+  purpose: |-
+    Southern magnolia is regional architecture:
+
+    - Wildlife Attractor: Seeds feed mammals and birds; thick cover for nesting.
+    - Shade Provider: Evergreen canopy for understory shade lovers in hot humid years.
+    - Windbreaker: Broad leaves and stiff wood buffer gusts on edges.
+    - Ornamental: Flowers and foliage sell the romance — admit it.
   companions:
-  - NEEDS_DATA
+  - Beautyberry
+  - Ferns
+  - Muscadine
   avoid:
-  - NEEDS_DATA
+  - Planting under eaves where heavy branches and leaves clog gutters without mercy
+  - Expecting tidy lawns beneath without rake labor
   pests:
-  - NEEDS_DATA
+  - Scale Insects
+  - Japanese Beetles
+  - Caterpillars
   # Image attribution: DavetheMage / Wikimedia Commons / CC BY 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,55 @@
 ---
 - common_name: Hyacinth Bean
   picture: hyacinth_bean.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Lablab purpureus
+  aka:
+  - Lablab bean
+  - Australian pea
+  family: Fabaceae
+  zone: 9-11
+  ideal_temp_min: 65
+  ideal_temp_max: 92
+  min_temp: 32
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Vine
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Nitrogen Fixer
+  - Animal Fodder
+  - Ornamental
+  - Pollinator
+  description: |-
+    Hyacinth bean is the purple-flowered vine that makes fences look goth and edible at the same time — if you cook the right cultivar stage because raw dry seeds are not a prank worth trying. In frost-free climates it is a short-lived perennial vine; in North Florida treat it as a long annual unless winter is mild and you mulch the crown. Heat lover; sulks in cold soil.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for flowers and pods.
+    - Fertile, well-drained soil with steady moisture during climb and pod fill.
+    - Strong trellis; this is not a polite pea tendril — it has plans.
+
+    ✂️ Methods to Propagate:
+    - Seeds: nick and soak; direct sow after soil warms or start indoors for head start.
+    - Save seed only from known food-grade lines — ornament types can be decorative lies.
+  purpose: |-
+    Hyacinth bean stacks beauty and protein where it is warm enough:
+
+    - Edible: Young pods and leaves in some cultures; mature seeds only with proper preparation knowledge.
+    - Nitrogen Fixer: Feeds the trellis guild.
+    - Animal Fodder: Forage varieties exist for livestock systems.
+    - Ornamental: Purple foliage cultivars for vertical drama.
+    - Pollinator: Flowers attract bees in late season.
   companions:
-  - NEEDS_DATA
+  - Corn
+  - Squash
+  - Sweet potato
   avoid:
-  - NEEDS_DATA
+  - Eating unknown ornamental cultivar seeds raw
+  - Shady, cold microsites
   pests:
-  - NEEDS_DATA
+  - Bean leaf beetle
+  - Aphids
+  - Japanese beetles
   # Image attribution: no rights reserved, uploaded by 葉子
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

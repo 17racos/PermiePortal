@@ -1,27 +1,53 @@
 ---
 - common_name: Arrowhead
   picture: arrowhead.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Sagittaria latifolia
+  aka:
+  - Duck potato
+  - Wapato
+  family: Alismataceae
+  zone: 5-11
+  ideal_temp_min: 50
+  ideal_temp_max: 92
+  min_temp: -25
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Aquatic
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Water Purifier
+  description: |-
+    Common arrowhead is the pond plant with leaves shaped like the tip jar sign and tubers ducks would vote for. Edible use is real but water quality is the sermon — only forage from clean systems you would actually swim in on a brave day. In North Florida it handles hot summers in shallow water and dies back in winter while rhizomes wait.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to light shade at pond edges.
+    - Shallow water a few inches to a foot or saturated mud; tolerates fluctuation.
+    - Fertile muck increases tuber size; poor sites yield decorative leaves only.
+
+    ✂️ Methods to Propagate:
+    - Rhizome/tuber division during dormancy or early spring.
+    - Seeds: sow on wet mud; keep flooded lightly as seedlings establish.
+  purpose: |-
+    Arrowhead is native food-aquatic for honest ponds:
+
+    - Edible: Tubers historically harvested; ID must be certain and water clean.
+    - Wildlife Attractor: Ducks, turtles, and insects use the stand.
+    - Water Purifier: Roots stabilize sediment in shallow edges.
   companions:
-  - NEEDS_DATA
+  - Cattail
+  - Pickerelweed
+  - Softstem bulrush
   avoid:
-  - NEEDS_DATA
+  - Confusing with toxic look-alikes without solid ID skills
+  - Harvest from polluted urban retention ponds
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Snails
+  - Caterpillars
   # Image attribution: (c) Susan Elliott, some rights reserved (CC BY-NC), uploaded by Susan Elliott
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

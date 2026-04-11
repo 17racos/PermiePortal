@@ -1,27 +1,53 @@
 ---
 - common_name: Cinnamon Basil
-  picture: cinnamon_basil.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  picture: ""
+  scientific_name: "Ocimum basilicum 'Cinnamon'"
+  aka:
+  - Mexican Spice Basil
+  family: Lamiaceae
+  zone: 9-11
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 100
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Pollinator
+  - Pest Management
+  - Ornamental
+  description: "Cinnamon basil is a sweet basil cultivar with purple stems and a
+    warm spicy note that whispers cinnamon without being dessert. Standard culinary
+    basil life cycle: heat-loving annual in most of the U.S., possible short-lived
+    perennial in frost-free Florida if you do not let it flower into exhaustion.
+    North Florida: plant after frost, harvest aggressively, let a few spikes bloom
+    for pollinators if you can spare the leaf quality dip.\n\n☀️💧 Sun and Water:\n-
+    Full sun and warm nights; sulks below 50°F.\n- Even moisture; avoid wet feet;
+    mulch reduces splash-borne disease.\n\n✂️ Propagation:\n- Seed each season for
+    volume; clones from cuttings keep flavor true.\n- Pinch tips for bushiness;
+    flower spikes are bee candy.\n\nPairs with tomatoes like sarcasm pairs with
+    committee meetings."
+  purpose: |-
+    Aromatic edge in the herb guild:
+
+    - Edible: Fruit salads, teas, syrups, Southeast Asian and Latin dishes.
+    - Pollinator: Small flowers feed beneficial insects when allowed to open.
+    - Pest Management: Scent masks crop cues in mixed beds (not magic, just helpful chaos).
+    - Ornamental: Purple stems sell it at plant swaps.
   companions:
-  - NEEDS_DATA
+  - Tomato
+  - Pepper
+  - Marigold
   avoid:
-  - NEEDS_DATA
+  - Cold wet soil at transplant
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Japanese Beetles
+  - Whiteflies
+  growth_habit: Annual
+  data_quality_score: 0.75
   # Image attribution: No image found
   # Image source: none
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

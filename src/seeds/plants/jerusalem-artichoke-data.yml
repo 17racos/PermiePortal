@@ -1,27 +1,56 @@
 ---
 - common_name: Jerusalem Artichoke
   picture: jerusalem_artichoke.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Helianthus tuberosus
+  aka:
+  - Sunchoke
+  - Earth apple
+  family: Asteraceae
+  zone: 3-9
+  ideal_temp_min: 50
+  ideal_temp_max: 85
+  min_temp: -30
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Animal Fodder
+  - Mulcher
+  - Wildlife Attractor
+  - Dynamic Accumulator
+  description: |-
+    Jerusalem artichoke is the sunflower that went underground and invented fart jokes. Tubers are inulin-rich — great for diabetics on paper, chaotic for dinner parties if portions are naive. It spreads from overlooked tuber bits; treat it like bamboo's polite cousin that still invades if you ignore boundaries. North Florida grows it fine; harvest in cool months for firmer texture.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for tall stems and heavy tuber set.
+    - Average to rich soil; steady moisture during growth, drier at harvest if soil allows.
+    - Confine to beds or barrels if you fear eternal volunteers.
+
+    ✂️ Methods to Propagate:
+    - Tubers: replant golf-ball-sized pieces in spring after last frost.
+    - Crowns: moving clumps resets spread when neighbors complain.
+  purpose: |-
+    Sunchokes are starchy perennials for the brave:
+
+    - Edible: Roasted, pickled, or soup — start small to test gut politics.
+    - Animal Fodder: Pigs historically earned their keep cleaning patches.
+    - Mulcher: Tall tops chop-and-drop generously each fall.
+    - Wildlife Attractor: Late flowers feed pollinators when goldenrod feels mainstream.
+    - Dynamic Accumulator: Mines nutrients with robust roots — chop and drop responsibly.
   companions:
-  - NEEDS_DATA
+  - Beans
+  - Corn
+  - Comfrey
   avoid:
-  - NEEDS_DATA
+  - Unbounded planting in manicured yards
+  - Serving huge portions to guests without warning
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Powdery Mildew
+  - Root Rot Fungus
   # Image attribution: (c) Eduard Garin, some rights reserved (CC BY-NC), uploaded by Eduard Garin
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

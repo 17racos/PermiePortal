@@ -1,27 +1,53 @@
 ---
 - common_name: Perennial Basil
-  picture: perennial_basil.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Ocimum gratissimum
+  aka:
+  - African basil
+  - Clove basil
+  family: Lamiaceae
+  zone: "9-11"
+  ideal_temp_min: 55
+  ideal_temp_max: 95
+  min_temp: 28
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  description: |-
+    Perennial basil here means the clove-scented shrubby Ocimum that survives where sweet basil goes to compost — woody base, strong aroma, bee traffic. North Florida: often root-hardy in 9b with mulch; top freezes, crown sometimes laughs and resprouts. Not the same as sterile 'African Blue' pots on Pinterest.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for dense oils; part shade tolerable but stretches stems.
+    - Well-drained fertile soil; drought-tolerant once established but basil-class flavor needs moisture.
+    - Avoid boggy winter pots — roots rot when cold meets sogginess.
+
+    ✂️ Methods to Propagate:
+    - Cuttings: root softwood to semi-hardwood in warm months under humidity.
+    - Seeds: start warm; variability in scent intensity — cull boring seedlings.
+    - Division: split older crowns in spring when actively pushing.
+  purpose: |-
+    Perennial basil is spice hedge reality:
+
+    - Edible: Leaves in cooked dishes and teas; stronger than Genovese — taste before you batch pesto for guests.
+    - Medicinal: Traditional uses across cultures — verify claims, respect potency.
+    - Wildlife Attractor: Flowers pull pollinators when you let it bloom strategically.
   companions:
-  - NEEDS_DATA
+  - Tomatoes
+  - Peppers
+  - Roselle
   avoid:
-  - NEEDS_DATA
+  - Hard freeze on unmulched container plants
+  - Confusing with true annual basils for timing and pruning
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Whiteflies
+  - Japanese Beetles
   # Image attribution: Internet Archive Book Images / Wikimedia Commons / No restrictions
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

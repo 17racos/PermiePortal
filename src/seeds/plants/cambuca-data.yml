@@ -1,27 +1,50 @@
 ---
 - common_name: Cambuca
   picture: cambuca.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Campomanesia phaea
+  aka:
+  - Cambuci
+  - Brazilian cherry relative
+  family: Myrtaceae
+  zone: 9b-11
+  ideal_temp_min: 55
+  ideal_temp_max: 90
+  min_temp: 26
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  description: "Campomanesia phaea is a slow Brazilian myrtle with dark aromatic
+    leaves and yellow aromatic fruit that taste like pineapple had a fling with guava—
+    soft pulp, big seeds, and a cult following among rare-fruit people.\n\nNorth
+    Florida / subtropical: Best in protected 9b+ microclimates; young plants need
+    frost care. Likes humidity but wants drainage—classic myrtle paradox.\n\nSun and
+    water: Full sun to part shade; rich acidic soil preferred. Regular deep watering
+    in dry spells; mulch to keep roots cool.\n\nPropagation: Seeds (variable, slow);
+    grafting onto related rootstocks for serious orchards."
+  purpose: |-
+    Specialty fruit tree for patient collectors:
+
+    - Edible: Fresh eating and experimental preserves—seeds are chatty.
+    - Ornamental: Glossy foliage and scruffy charm.
+    - Wildlife Attractor: Fruit for birds you may be racing to harvest.
   companions:
-  - NEEDS_DATA
+  - Jaboticaba
+  - Pitomba
+  - Guava
   avoid:
-  - NEEDS_DATA
+  - Alkaline dry rock without organic matter
+  - Exposed salt spray unless proven clones say otherwise
   pests:
-  - NEEDS_DATA
+  - scale insects
+  - caribbean fruit fly
+  growth_habit: Small tree or large shrub, slow growing
+  data_quality_score: 0.8
   # Image attribution: (c) Anderson Rabello Pereira, all rights reserved, uploaded by Anderson Rabello Pereira
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

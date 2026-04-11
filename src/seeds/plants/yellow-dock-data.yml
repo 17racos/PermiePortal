@@ -1,27 +1,49 @@
 ---
 - common_name: Yellow Dock
   picture: yellow_dock.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Rumex crispus
+  aka:
+  - Curly Dock
+  - Garden Patience
+  family: Polygonaceae
+  zone: "4-9"
+  ideal_temp_min: 45
+  ideal_temp_max: 85
+  min_temp: -30
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Dynamic Accumulator
+  - Wildlife Attractor
+  description: "Yellow dock is a robust perennial weed with wavy-edged leaves,
+    tall rust-colored seed spikes, and a taproot that laughs at your hoe. Young leaves
+    are edible when cooked (oxalates—do not mainline raw salads). Roots are the classic
+    bitter alterative of herbalism; seeds feed birds and your socks.\n\nIt shows up
+    in compacted, disturbed, or slightly acidic soils across North Florida pastures
+    and garden edges. You can fight it or employ it—either way it has opinions.\n\nSun
+    and water: Full sun to part shade; tolerates poor fertility and seasonal wet/dry.
+    Moderate moisture is fine; it is not an aquatic.\n\nPropagation: Seeds by the
+    million; root fragments resprout; transplant young rosettes in wet season if you
+    insist on domesticating a feral accountant."
+  purpose: |-
+    Dynamic accumulator and compaction probe; edible/medicinal herb for people who
+    read oxalate warnings; wildlife seed source. In a manicured lawn it is the villain;
+    in a polyculture alley it is free biomass.
   companions:
-  - NEEDS_DATA
+  - Comfrey
+  - Dandelion
+  - Plantain
+  - Yarrow
   avoid:
-  - NEEDS_DATA
+  - Low-fertility sand without any organic matter
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Japanese Beetles
+  - Flea Beetles
   # Image attribution: Retama / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

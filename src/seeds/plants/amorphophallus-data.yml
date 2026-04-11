@@ -1,27 +1,50 @@
 ---
 - common_name: Amorphophallus
   picture: amorphophallus.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Amorphophallus paeoniifolius
+  aka:
+  - Elephant foot yam
+  - Whitespot giant arum
+  family: Araceae
+  zone: "9-12"
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 40
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Mulcher
+  description: "This genus is famous for corpse-flower stunts, but elephant foot yam
+    is also a serious tropical staple corm. A single umbrella leaf on a mottled petiole,
+    then dormancy while the underground corm swells. In North Florida you are playing
+    annual-ish games unless you protect from hard frost and rot. Propagation is corm
+    division and offsets; seeds are for botanists with patience.\n\n \U0001F31E\U0001F4A7
+    Sun and Water Requirements:\n- Part shade to dappled sun; harsh sun can scorch
+    juvenile leaves.\n- Warm-season moisture; dry off corms in dormancy to reduce rot.\n-
+    Rich, well-drained soil — wet cold is the enemy.\n\n✂️\U0001FAD8 Methods to Propagate:\n-
+    Corm division when dormant in warm soil.\n- Bulbils when present on some species.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E
+    When to Harvest:\n- Dig main corm after tops senesce; peel and cook thoroughly.\n-
+    Never eat raw aroids — calcium oxalate wants a word."
+  purpose: |-
+    Amorphophallus is starchy drama underground:
+
+    - Edible: Large corms where cultivars are food-type (always cook).
+    - Ornamental: Spectacular foliage; flowers are olfactory warfare.
+    - Mulcher: Huge leaves chop-and-drop into tropical guilds.
   companions:
-  - NEEDS_DATA
+  - Banana
+  - Taro
+  - Ginger
   avoid:
-  - NEEDS_DATA
+  - Cold wet winter beds
   pests:
-  - NEEDS_DATA
+  - Nematodes
+  - Root Rot Fungus
+  - Aphids
   # Image attribution: Aleph500Adam / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

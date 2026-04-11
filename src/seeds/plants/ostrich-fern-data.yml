@@ -1,27 +1,51 @@
 ---
 - common_name: Ostrich Fern
   picture: ostrich_fern.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Matteuccia struthiopteris
+  aka:
+  - Fiddlehead Fern
+  - Shuttlecock Fern
+  family: Onocleaceae
+  zone: "3-7"
+  ideal_temp_min: 40
+  ideal_temp_max: 75
+  min_temp: -40
+  max_temp: 90
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Erosion Control
+  - Wildlife Attractor
+  description: "Ostrich fern forms big, vase-shaped clumps of bright green sterile
+    fronds with edible \"fiddleheads\" in spring—**only** harvest species you have
+    positively identified; some ferns are not brunch. The brown fertile fronds persist
+    like little woody flags after the green blades die back.\n\nIt wants cold winters
+    and cool, moist soils; subtropical North Florida is south of its happy place
+    unless you simulate mountain creek conditions and accept marginal performance.\n\nSun
+    and water: Part to full shade; rich, moist, slightly acidic soil with steady
+    humus. Never let a clump dry to dust in summer if you want lush crowns.\n\nPropagation:
+    Division of crowns in early spring; spores (slow, specialist fun); transplant
+    rhizome sections with buds. Fiddlehead patches are long-term investments, not
+    instant noodles."
+  purpose: |-
+    Spring edible where tradition and ID skills exist; lush shade ground layer in
+    temperate food forests; streambank stabilization in appropriate climates. If you
+    are in steamy Florida lowlands, this fern may sulk while native wetland ferns party.
   companions:
-  - NEEDS_DATA
+  - Wild Ginger
+  - Trout Lily
+  - Solomon Seal
+  - Marsh Marigold
   avoid:
-  - NEEDS_DATA
+  - Blazing full sun
+  - Dry sand
   pests:
-  - NEEDS_DATA
+  - Slugs
+  - Snails
+  - Japanese Beetles
   # Image attribution: (c) Kari Pihlaviita, some rights reserved (CC BY-NC)
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

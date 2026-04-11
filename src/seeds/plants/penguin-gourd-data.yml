@@ -1,27 +1,50 @@
 ---
 - common_name: Penguin Gourd
-  picture: penguin_gourd.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  picture: ""
+  scientific_name: Lagenaria siceraria
+  aka:
+  - Ornamental bottle gourd
+  - Penguin-shaped gourd (cultivar group)
+  family: Cucurbitaceae
+  zone: 3-11
+  ideal_temp_min: 70
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 100
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Vine
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ornamental
+  - Edible
+  - Fiber
+  description: "Penguin gourds are Lagenaria siceraria selections bred for silly upright
+    fruits that look like a kindergarten art project—same species as bottle gourds,
+    different silhouette. Young fruit is edible like summer squash; most people grow
+    them for crafts, birdhouses, and porch comedy.\n\nNorth Florida / subtropical:
+    Long frost-free window helps fruits fully size and shells cure hard before cold.
+    Trellis for cleaner fruit and fewer soil-borne scars.\n\nSun and water: Full sun,
+    fertile soil, even moisture while growing; back off water as fruits mature for
+    curing.\n\nPropagation: Direct-sow warm soil or careful transplant; fragile roots."
+  purpose: |-
+    Annual vertical whimsy with a backup meal plan:
+
+    - Ornamental: Shapes that outcompete your minimalist décor.
+    - Edible: Immature fruits if you harvest before they become props.
+    - Fiber: Cured shells for crafts once the HOA stops looking.
   companions:
-  - NEEDS_DATA
+  - Corn
+  - Beans
+  - Marigold
   avoid:
-  - NEEDS_DATA
+  - Overhead irrigation on humid nights without airflow
+  - Shading out shorter neighbors without warning
   pests:
-  - NEEDS_DATA
+  - squash vine borer
+  - pickleworm
+  - striped cucumber beetle
+  growth_habit: Annual vine; fruit shape depends on cultivar
+  data_quality_score: 0.8
   # Image attribution: No image found
   # Image source: none
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

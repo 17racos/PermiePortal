@@ -1,27 +1,53 @@
 ---
 - common_name: Goat's Rue
   picture: goats_rue.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Galega officinalis
+  aka:
+  - Professor-weed
+  - French lilac
+  family: Fabaceae
+  zone: 4-8
+  ideal_temp_min: 55
+  ideal_temp_max: 78
+  min_temp: -30
+  max_temp: 90
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Nitrogen Fixer
+  - Medicinal
+  - Wildlife Attractor
+  - Animal Fodder
+  description: |-
+    Goat's rue is a tall perennial legume with bluish flowers and a résumé that includes “livestock poison if mishandled” and “historical galactagogue folklore.” It fixes nitrogen with rhizobia suited to the genus—not a generic bean inoculant guess. Several regions list it as invasive weed; North Florida heat can stress it compared to cooler strongholds. Grow as a managed hedgerow experiment, not a salad bar.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to light shade; best vigor in cooler summers.
+    - Moist, fertile, well-drained soils; tolerates wetter spots better than drought deserts.
+
+    ✂️ Methods to Propagate:
+    - Seeds: scarify and soak; germination improves with treatment.
+    - Division in spring for known lines.
+
+    🌾 Harvest notes:
+    - Not a casual harvest crop—toxicity profile means hands-off unless you are following expert guidance for specific prepared uses.
+  purpose: |-
+    - Nitrogen Fixer: Deep roots and nodules for biomass banks in cool, moist sites.
+    - Medicinal: Historical herbal interest—modern use belongs with trained practitioners.
+    - Wildlife Attractor: Flowers for pollinators in climates where it behaves politely.
+    - Animal Fodder: Some traditions use controlled hay timing—species and dose matter; default is caution.
   companions:
-  - NEEDS_DATA
+  - Fruit trees
+  - Willow
+  - Wet meadow forbs
   avoid:
-  - NEEDS_DATA
+  - Pastures with naive grazers and no management
+  - Letting seed spread where listed as invasive
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Whiteflies
+  - Root Rot Fungus
   # Image attribution: Richard Avery / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,51 @@
 ---
 - common_name: Tea Tree
   picture: tea_tree.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Melaleuca alternifolia
+  aka:
+  - Narrow-leaved paperbark
+  - Tea tree (oil commerce name — not Camellia sinensis)
+  family: Myrtaceae
+  zone: "8-11"
+  ideal_temp_min: 50
+  ideal_temp_max: 90
+  min_temp: 22
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Medicinal
+  - Wildlife Attractor
+  - Windbreaker
+  description: "Melaleuca alternifolia is the Australian paperbark shrub behind commercial
+    'tea tree oil' — pungent foliage, papery bark, bottlebrushy flowers that pollinators
+    audit. Not the tea cup species (that is Camellia sinensis, different homework).
+    North Florida: possible in warm pockets; young plants dislike hard freezes. Do
+    not confuse with invasive melaleuca stories from other species — still, respect
+    wetland planting ethics.\n\n🌞💧 Sun and Water Requirements:\n- Full sun.\n-
+    Well-drained soil; tolerates seasonal moisture but not permanent anaerobic swamp
+    pots without appropriate species selection.\n- Moderate water during establishment.\n\n✂️🌱
+    Methods to Propagate:\n- Seeds: fine, need light and warmth.\n- Cuttings for cloning
+    preferred chemotypes if you are doing oil trials.\n\n🧺 When to Harvest:\n- Prune
+    leafy tips for distillation experiments where legal and safe — PPE and chemistry
+    respect matter more than Instagram."
+  purpose: |-
+    Tea tree is aromatic windbreak and pollinator snack bar material with essential-oil
+    culture attached. Plant it where drainage is honest and you will not confuse it
+    with true tea or with Florida's invasive melaleuca nightmares from other taxa.
   companions:
-  - NEEDS_DATA
+  - Guava
+  - Yarrow
+  - Lemongrass
   avoid:
-  - NEEDS_DATA
+  - Waterlogged heavy clay without mound planting
+  - Sloppy essential-oil bro science without safety homework
   pests:
-  - NEEDS_DATA
+  - Scale Insects
+  - Thrips
+  - Whiteflies
   # Image attribution: (c) sydneydawg2006, some rights reserved (CC BY-NC-ND)
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

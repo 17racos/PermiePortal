@@ -1,27 +1,47 @@
 ---
 - common_name: Clary Sage
-  picture: clary_sage.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  picture: ""
+  scientific_name: Salvia sclarea
+  aka:
+  - Clary
+  - Muscatel sage
+  family: Lamiaceae
+  zone: 5-9
+  ideal_temp_min: 45
+  ideal_temp_max: 85
+  min_temp: -10
+  max_temp: 95
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Medicinal
+  - Ornamental
+  - Wildlife Attractor
+  - Edible
+  description: |-
+    Clary sage is the biennial mint-relative with big fuzzy leaves and showy pink-white flower towers that smell like someone mixed tea with perfume. Distillation crowd loves it; tidy lawn crowd does not.
+
+    North Florida / subtropical: Often grown as a cool-season biennial—summer heat can make it ratty unless given afternoon shade and airflow.
+
+    Sun and water: Full sun in cool climates; part afternoon shade in hot ones. Well-drained, average fertility; drought-tolerant once established but looks richer with occasional deep water.
+
+    Propagation: Seeds sown in fall or early spring; barely cover seed; thinning prevents mildew parties.
+  purpose: |-
+    Aromatic distillation and herbal traditions; pollinator magnet on tall spikes; large structural foliage in cottagey borders.
   companions:
-  - NEEDS_DATA
+  - Lavender
+  - Yarrow
+  - Ornamental grasses
   avoid:
-  - NEEDS_DATA
+  - Humid stagnant corners (fungal leaf drama)
+  - Overfertilizing soft growth that flops
   pests:
-  - NEEDS_DATA
+  - aphids
+  - spider mites
+  - whiteflies
+  growth_habit: Biennial or short-lived perennial; rosette first year, tall bloom second
+  data_quality_score: 0.75
   # Image attribution: H. Zell / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

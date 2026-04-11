@@ -1,27 +1,55 @@
 ---
 - common_name: Dasheen
   picture: dasheen.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Colocasia esculenta
+  aka:
+  - Taro
+  - Eddoe (regional usage varies)
+  family: Araceae
+  zone: 8-11
+  ideal_temp_min: 65
+  ideal_temp_max: 92
+  min_temp: 35
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Root
+  - Aquatic
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Aquatic
+  - Erosion Control
+  - Mulcher
+  description: |-
+    Dasheen is the starchy aroid corm crop behind poi dreams and calcium oxalate lectures. Raw tissue irritates — cook it like an adult. It loves heat, humidity, and wet feet options from boggy edges to well-watered beds. In North Florida treat as perennial with heavy winter mulch in marginal years; freezes set tops back but established corms often return if rot does not win first.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to light shade; intense afternoon sun wants extra water.
+    - Consistently moist soil; pond margins or irrigation ditches are classic.
+    - Rich organic matter; fertility shows up in leaf size and corm yield.
+
+    ✂️ Methods to Propagate:
+    - Offshoots: separate keiki-like pups from parent clumps in warm season.
+    - Corm sections: traditional propagation where sanitation is strict to avoid rot.
+  purpose: |-
+    Dasheen is calories from wet ground without pretending to be wheat:
+
+    - Edible: Corms and properly prepared leaves in cultures that know the recipes.
+    - Aquatic: Sedges-and-bogs aesthetics with actual food output.
+    - Erosion Control: Roots stabilize muddy margins where aesthetics matter.
+    - Mulcher: Large leaves chop-and-drop into wet guilds.
   companions:
-  - NEEDS_DATA
+  - Kangkong
+  - Lemongrass
+  - Rice paddy herbs
   avoid:
-  - NEEDS_DATA
+  - Bone-dry sand without irrigation
+  - Eating raw corms to "test" edibility
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Root Rot Fungus
+  - Spider mites
   # Image attribution: (c) Jie-Hao Ou, some rights reserved (CC BY), uploaded by Jie-Hao Ou
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

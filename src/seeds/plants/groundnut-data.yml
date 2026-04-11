@@ -1,27 +1,57 @@
 ---
 - common_name: Groundnut
   picture: groundnut.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Apios americana
+  aka:
+  - Hopniss
+  - Indian potato
+  - America’s original tuber crop
+  family: Fabaceae
+  zone: "3-9"
+  ideal_temp_min: 55
+  ideal_temp_max: 90
+  min_temp: -30
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Vine
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Nitrogen Fixer
+  - Wildlife Attractor
+  - Ground Cover
+  description: "Groundnut is a twining legume that buries protein-rich tubers like
+    a buried snack stash for people who read ethnobotany for fun. Not the peanut —
+    this is Apios americana, eastern North America’s perennial starch-and-nitrogen
+    combo. In North Florida it grows vigorously in warm seasons; give it vertical
+    structure or it will audition as a ground-eating kraken.\n\n \U0001F31E\U0001F4A7
+    Sun and Water Requirements:\n- Full sun to light shade; more sun usually means
+    more tubers.\n- Consistent moisture during tuber fill; tolerates wetter soils
+    than many beans.\n- Rich, organic loam rewards you; starvation yields folklore-level
+    disappointment.\n\n✂️\U0001FAD8 Methods to Propagate:\n- Tubers: Plant dormant
+    tubers in spring like mini-potatoes.\n- Rhizome divisions from established patches.\n-
+    Seeds: Slow; stratification helps; clones are faster food security.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E
+    When to Harvest:\n- Dig tubers after frost kills vines or in late fall once vines
+    yellow.\n- Start eating small tubers; large ones can stay fibrous — breeding lines
+    differ."
+  purpose: |-
+    Groundnut is a native perennial staple legume:
+
+    - Edible: Tubers and edible beans when cooked properly.
+    - Nitrogen Fixer: Feeds the guild while climbing.
+    - Wildlife Attractor: Flowers attract pollinators; foliage hosts specialists.
+    - Ground Cover: Dense summer leaf layer when allowed to sprawl.
   companions:
-  - NEEDS_DATA
+  - Green Bean
+  - Sunflower
+  - Elderberry
   avoid:
-  - NEEDS_DATA
+  - Tiny pots and zero trellis — chaos follows
   pests:
-  - NEEDS_DATA
+  - Japanese Beetles
+  - Aphids
+  - Nematodes
   # Image attribution: Ibn Dagara / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

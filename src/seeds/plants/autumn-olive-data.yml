@@ -1,27 +1,51 @@
 ---
 - common_name: Autumn Olive
-  picture: autumn_olive.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Elaeagnus umbellata
+  aka:
+  - Autumn Elaeagnus
+  - Japanese Silverberry
+  family: Elaeagnaceae
+  zone: "4-9"
+  ideal_temp_min: 45
+  ideal_temp_max: 90
+  min_temp: -25
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Nitrogen Fixer
+  - Wildlife Attractor
+  - Windbreaker
+  description: "Autumn olive is a fast, thorny shrub with silvery-scaly leaves,
+    fragrant spring flowers, and speckled red berries that birds broadcast everywhere.
+    It fixes nitrogen via actinorhizal roots and laughs at poor soil—which is exactly
+    why it became an invasive nightmare across much of eastern North America.\n\nNorth
+    Florida: present and spreading in disturbed edges; do not plant new specimens if
+    you respect nearby natural areas. If you inherited one, heavy fruit removal and
+    replacement with native **Elaeagnus** relatives (where appropriate) is the adult
+    move.\n\nSun and water: Full sun to light shade; tolerant of drought and sand
+    once established; avoid planting in wetlands you care about.\n\nPropagation:
+    Seed (bird-dispersed—please do not help); hardwood cuttings; suckers. Again: this
+    profile exists for ID and legacy sites, not as a planting recommendation."
+  purpose: |-
+    Legacy N-fixing hedge on old homesteads; controversial forage/wildlife shrub;
+    ecological liability in many regions. The permie take: exploit the biomass if
+    it is already there, kill the seed rain, and stop romanticizing thuggish shrubs.
   companions:
-  - NEEDS_DATA
+  - Black Locust
+  - Seaberry
+  - Goumi
   avoid:
-  - NEEDS_DATA
+  - Natural areas
+  - Bird flight paths into preserves
   pests:
-  - NEEDS_DATA
+  - Japanese Beetles
+  - Scale Insects
+  - Aphids
+  - Borers
   # Image attribution: KENPEI / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

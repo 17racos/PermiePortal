@@ -1,27 +1,49 @@
 ---
 - common_name: Cinnamon Vine
   picture: cinnamon_vine.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Dioscorea polystachya
+  aka:
+  - Chinese Yam
+  - Mountain Yam
+  family: Dioscoreaceae
+  zone: 5-11
+  ideal_temp_min: 55
+  ideal_temp_max: 85
+  min_temp: -20
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Vine
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ground Cover
+  - Wildlife Attractor
+  description: "Cinnamon vine is Dioscorea polystachya — air potato-ish bulbils on
+    twining stems and long underground tubers with a faint cinnamon smell when
+    bruised. It is edible and also listed invasive in parts of the eastern U.S.
+    because it smothers edges. North Florida: treat as a managed crop in defined
+    beds, harvest bulbils before they escape, and never help it invade natural areas.\n\n
+    ☀️💧 Sun and Water:\n- Sun to part shade; tolerates poor soils that challenge
+    fussier crops.\n- Moderate water; dormant winter tubers dislike constant bog.\n\n
+    ✂️ Propagation:\n- Plant bulbils or tuber pieces in spring.\n- Heavy harvest
+    reduces spread potential.\n\nPermie ethics: productivity without ecosystem vandalism
+    — contain, monitor, eat your responsibilities."
+  purpose: |-
+    Controversial calories:
+
+    - Edible: Tubers and small bulbils used like yams after ID confirmation.
+    - Ground Cover: Dense summer vine shades soil — for good or ill.
+    - Wildlife Attractor: Inconspicuous flowers; ecology impact is mostly competitive.
   companions:
-  - NEEDS_DATA
+  - None documented
   avoid:
-  - NEEDS_DATA
+  - Planting near unmanaged woods or waterways
   pests:
-  - NEEDS_DATA
+  - Nematodes
+  - Aphids
+  growth_habit: Herbaceous twining vine
+  data_quality_score: 0.65
   # Image attribution: James H. Miller, USDA Forest Service, Bugwood.org / Wikimedia Commons / CC BY 3.0 us
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

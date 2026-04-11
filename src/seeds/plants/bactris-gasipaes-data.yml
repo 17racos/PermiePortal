@@ -1,27 +1,56 @@
 ---
 - common_name: Bactris Gasipaes
   picture: bactris_gasipaes.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Bactris gasipaes
+  aka:
+  - Peach palm
+  - Pupunha
+  - Chontaduro
+  family: Arecaceae
+  zone: 10-11
+  ideal_temp_min: 70
+  ideal_temp_max: 90
+  min_temp: 30
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Animal Fodder
+  - Mulcher
+  - Windbreaker
+  - Wildlife Attractor
+  description: |-
+    Same beast as “peach palm,” Latin-first label edition: clustering palm from humid lowlands, spiny juvenile trunks, starchy fruit you boil before pretending it is a snack apple. North Florida is the skeptical zone—heat and humidity yes, sustained cold no. Greenhouse tourists and brave coastal 10b growers only, unless you enjoy replacing palms like socks.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to light shade once established; juveniles like some shade in peak heat.
+    - Rich, organic, well-drained but moisture-retentive soil; do not drought-stress during fruit fill.
+
+    ✂️ Methods to Propagate:
+    - Seeds: clean, sow fresh warm; germination slow—start many seeds if you are impatient.
+    - Offshoots on some forms; division when crowns are big enough for gloves and therapy.
+
+    🌾 Harvest notes:
+    - Fruit is processed by boiling or fermenting traditions—raw quality is not the point.
+  purpose: |-
+    - Edible: Boiled fruit and palm heart where ethics, law, and rotation allow.
+    - Animal Fodder: Traditional use of boiled fruit and by-products for stock.
+    - Mulcher: Fronds chop-and-drop into humid guilds.
+    - Windbreaker: Clumping barrier in tropical systems.
+    - Wildlife Attractor: Ripening fruit feeds birds and mammals where management permits.
   companions:
-  - NEEDS_DATA
+  - Banana
+  - Cacao
+  - Inga
   avoid:
-  - NEEDS_DATA
+  - Cold, dry winds inland
+  - Stagnant anaerobic muck
   pests:
-  - NEEDS_DATA
+  - Scale Insects
+  - Mealybugs
+  - Palmetto Weevil
   # Image attribution: (c) jorgebrito, some rights reserved (CC BY-NC), uploaded by jorgebrito
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

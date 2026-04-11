@@ -1,27 +1,53 @@
 ---
 - common_name: Mamey Sapote
   picture: mamey_sapote.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Pouteria sapota
+  aka:
+  - Mamey
+  - Zapote mamey
+  family: Sapotaceae
+  zone: 10-11
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 28
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  - Mulcher
+  description: |-
+    Mamey sapote is the tropical fruit that feels like sweet potato met avocado and went on vacation. Large seeds mean choking hazards and landscaping hazards if you are barefoot and unwise. Tree is handsome evergreen energy in true tropics; North Florida is mostly "greenhouse celebrity" unless you are coastal 10b and feeling lucky with frost fabric budgets.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun once established; young trees appreciate light shade during establishment heat.
+    - Deep, fertile, well-drained soil; consistent moisture without chronic root rot soup.
+    - Wind protection reduces leaf tatter on young plants.
+
+    ✂️ Methods to Propagate:
+    - Seeds: large seeds fresh-sown warm; variable seedling quality.
+    - Grafting: preferred for known superior fruit lines.
+  purpose: |-
+    Mamey is dessert timber for frost-free sites:
+
+    - Edible: Rich pulp for smoothies, ice creams, and honest gluttony.
+    - Ornamental: Bold foliage and tropical presence.
+    - Wildlife Attractor: Fruit feeds mammals and birds where allowed to ripen.
+    - Mulcher: Leaf litter builds understory organic matter.
   companions:
-  - NEEDS_DATA
+  - Banana
+  - Ice cream bean
+  - Nitrogen-fixing ground covers
   avoid:
-  - NEEDS_DATA
+  - Marginal freeze zones without protection budget
+  - Waterlogged clay that rots taproots
   pests:
-  - NEEDS_DATA
+  - Scale insects
+  - Caribbean Fruit Fly
+  - Aphids
   # Image attribution: Photo by David J. Stang / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

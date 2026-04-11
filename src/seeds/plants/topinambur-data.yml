@@ -1,27 +1,50 @@
 ---
 - common_name: Topinambur
   picture: topinambur.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Helianthus tuberosus
+  aka:
+  - Jerusalem artichoke
+  - Sunchoke
+  - Earth apple
+  family: Asteraceae
+  zone: 3-9
+  ideal_temp_min: 50
+  ideal_temp_max: 85
+  min_temp: -30
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Animal Fodder
+  - Mulcher
+  - Wildlife Attractor
+  - Dynamic Accumulator
+  description: |-
+    Topinambur is the European name for the same sunflower-tuber chaos North Americans call sunchoke—inulin, flatulence jokes, and volunteer tubers hiding like landmines. Same plant, different passport stamp.
+
+    North Florida / subtropical: Grows vigorously; harvest in cooler months for firmer texture. Confine if your yard has boundary issues.
+
+    Sun and water: Full sun for tall stems and heavy tubers. Steady moisture during growth; well-drained soil reduces rot angst.
+
+    Propagation: Tubers left in soil (inevitable); replant golf-ball pieces in spring; moving clumps resets spread when diplomacy fails.
+  purpose: |-
+    Starchy perennial vegetable; pig forage historically; tall chop-and-drop biomass; late pollinator support—socially engineer portion sizes for dinner guests.
   companions:
-  - NEEDS_DATA
+  - Beans
+  - Corn
+  - Comfrey
   avoid:
-  - NEEDS_DATA
+  - Unbounded beds next to neighbor fences
+  - Serving huge portions without gastrointestinal disclosure
   pests:
-  - NEEDS_DATA
+  - aphids
+  - Powdery Mildew
+  - Root Rot Fungus
+  growth_habit: Tall herbaceous perennial sunflower with underground tubers
+  data_quality_score: 0.8
   # Image attribution: (c) Eduard Garin, some rights reserved (CC BY-NC), uploaded by Eduard Garin
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,27 +1,49 @@
 ---
 - common_name: Jicama
   picture: jicama.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
+  scientific_name: Pachyrhizus erosus
+  aka:
+  - Mexican yam bean
+  - Singkamas
+  family: Fabaceae
+  zone: 9-11
+  ideal_temp_min: 70
+  ideal_temp_max: 90
   min_temp: 0
-  max_temp: 0
-  perennial: true
+  max_temp: 105
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Vine
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Nitrogen Fixer
+  - Ground Cover
+  description: "Jicama is the crunchy root that wants to be an apple but is secretly
+    a legume vine. You eat the swollen root; you do not snack the seeds or pods like
+    edamame unless you enjoy rotenone-era bad decisions—those parts are toxic.\n\nNorth
+    Florida / subtropical: Treat as a long warm-season annual. Plant after soil warms;
+    harvest before hard frost. Daylength varieties exist; short-day types tuberize
+    when you need them in our latitude if you pick the right cultivar.\n\nSun and water:
+    Full sun, loose deep soil for chunky roots. Regular water during vine growth; ease
+    up near harvest to reduce splitting.\n\nPropagation: Soak seed overnight; direct
+    sow or transplant carefully—roots hate disturbance once they decide to swell."
+  purpose: |-
+    Crisp raw vegetable, living mulch while vines run, and nitrogen partnership if
+    you let nodules form (balance that with harvest goals).
   companions:
-  - NEEDS_DATA
+  - Corn
+  - Beans
+  - Sunflowers
   avoid:
-  - NEEDS_DATA
+  - Heavy wet clay that splits tubers
+  - Late planting that runs out of heat
   pests:
-  - NEEDS_DATA
-  # Image attribution: Francisco Manuel Blanco (O.S.A.) / Wikimedia Commons / Public domain
-  # Image source: wikimedia
+  - bean leaf beetle
+  - aphids
+  - rootknot nematodes
+  growth_habit: Twining annual legume vine with edible storage root
+  data_quality_score: 0.78
+  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
+  # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

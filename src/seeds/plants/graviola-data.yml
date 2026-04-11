@@ -1,27 +1,53 @@
 ---
 - common_name: Graviola
   picture: graviola.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Annona muricata
+  aka:
+  - Soursop
+  - Guanábana
+  family: Annonaceae
+  zone: "10-11"
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 30
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  - Shade Provider
+  description: |-
+    Graviola is soursop under its passport name — spiny green football fruit, custard pulp with pineapple-strawberry propaganda, and a tropical tree that sulks at any whisper of frost. North Florida outdoor culture is denial outside deep 10b pockets; greenhouse gang stays winning.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun once established; young trees appreciate partial shade in scorch microclimates.
+    - Deep, fertile, well-drained soil with steady moisture; hates drought during fruit set.
+    - Wind protection for large soft leaves; mulch to feed soil microbiome without lecture.
+
+    ✂️ Methods to Propagate:
+    - Seeds: plant fresh; variable juvenility — commercial clones grafted for quality.
+    - Grafting selected cultivars for yield and flavor consistency.
+  purpose: |-
+    Graviola is canopy dessert and shade where winter behaves:
+
+    - Edible: Fresh pulp, juices, and ice creams on ripe fruit — seeds are not crunch goals.
+    - Medicinal: Heavy internet miracle branding — separate tradition from FDA fantasies.
+    - Wildlife Attractor: Flowers attract beetles and other pollinators in annona style; fruit feeds frugivores if shared.
+    - Shade Provider: Open canopy for understory guilds in humid tropics.
   companions:
-  - NEEDS_DATA
+  - Papaya
+  - Banana
+  - Inga
   avoid:
-  - NEEDS_DATA
+  - Exposed frost pockets and salt spray
+  - Waterlogged heavy clay without berm drainage
   pests:
-  - NEEDS_DATA
+  - Caribbean Fruit Fly
+  - Scale Insects
+  - Mealybugs
   # Image attribution: (c) MADLSS, some rights reserved (CC BY-NC), uploaded by MADLSS
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

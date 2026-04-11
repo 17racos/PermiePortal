@@ -1,27 +1,47 @@
 ---
 - common_name: Mayhaw
   picture: mayhaw.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Crataegus opaca
+  aka:
+  - Riverflat hawthorn
+  - May haw
+  family: Rosaceae
+  zone: 7-10
+  ideal_temp_min: 40
+  ideal_temp_max: 88
+  min_temp: -5
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  description: |-
+    Mayhaw is the southern hawthorn that parties in wet woods and coughs up jelly so tart it makes grocery jam feel like lying. Thorns, white spring flowers, red fall fruit—classic permaculture “work for your sugar.”
+
+    North Florida / subtropical: Native along swamp margins and low ground; plant where summer humidity and wet feet are features, not bugs.
+
+    Sun and water: Full sun to part shade. Tolerates periodic inundation; fruiting improves with sun and steady soil moisture during spring growth.
+
+    Propagation: Seeds (double dormancy—slow); grafting selected cultivars onto seedling hawthorn roots for known jelly performance.
+  purpose: |-
+    Regional jelly and wine traditions; wildlife food from haws; spring nectar for pollinators; thorny habitat structure for birds that like drama.
   companions:
-  - NEEDS_DATA
+  - Elderberry
+  - Buttonbush
+  - Native iris
   avoid:
-  - NEEDS_DATA
+  - Bone-dry berms
+  - Fire blight-prone sites without cultivar selection (risk varies)
   pests:
-  - NEEDS_DATA
+  - fire blight
+  - aphids
+  - scale insects
+  growth_habit: Small tree to large shrub; thorny; often multi-trunked in wet sites
+  data_quality_score: 0.75
   # Image attribution: Laura Clark / Wikimedia Commons / CC BY 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

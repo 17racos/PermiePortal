@@ -1,27 +1,49 @@
 ---
 - common_name: Malabar Chestnut
   picture: malabar_chestnut.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Pachira aquatica
+  aka:
+  - Money tree (houseplant clones)
+  - Guiana chestnut
+  - Saba nut
+  family: Malvaceae
+  zone: 10-11
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 28
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  description: "Pachira aquatica is the wetland giant that became a braided office
+    mascot—palmate leaves, huge night-blooming flowers, woody pods stuffed with edible
+    nuts when you have a real tree, not a desk bonsai.\n\nNorth Florida / subtropical:
+    True outdoor success is mostly 10+; 9b is stunt-and-cover theater. Loves summer
+    wet feet if drainage exists below; hates salt.\n\nSun and water: Full sun to part
+    shade; rich soil. Heavy drinker in growth season if not in natural swales.\n\n
+    Propagation: Seed from fresh nuts; large cuttings in humid heat."
+  purpose: |-
+    Swamp-edge calorie tree for the brave:
+
+    - Edible: Roasted nuts; young leaves and flowers used in some regions.
+    - Ornamental: Tropical silhouette where winter allows.
+    - Wildlife Attractor: Large flowers draw night pollinators; fruits feed frugivores.
   companions:
-  - NEEDS_DATA
+  - Taro
+  - Banana
+  - Canna Lily
   avoid:
-  - NEEDS_DATA
+  - Prolonged freeze without protection
+  - Salt wind without screening
   pests:
-  - NEEDS_DATA
+  - scale insects
+  - mealybugs
+  growth_habit: Broad-canopy tree to 50+ feet in native range
+  data_quality_score: 0.8
   # Image attribution: Hans Hillewaert, edited by Muhammad Mahdi Karim / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

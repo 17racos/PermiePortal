@@ -1,27 +1,55 @@
 ---
 - common_name: Prairie Turnip
   picture: prairie_turnip.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Pediomelum esculentum
+  aka:
+  - Tipsin
+  - Prairie potato
+  - Breadroot scurf pea
+  family: Fabaceae
+  zone: 3-8
+  ideal_temp_min: 55
+  ideal_temp_max: 85
+  min_temp: -30
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Root
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Nitrogen Fixer
+  - Wildlife Attractor
+  - Soil Improvement
+  description: |-
+    Prairie turnip is a Great Plains legume with a starchy taproot that fed humans long before grocery aisles—blue-purple flowers, silvery leaves, and a root that does not appreciate rushed harvest. It is slow from seed; wild harvest has ethics and ID requirements. North Florida is outside its native heartland; treat trials as experimental unless you are deliberately mimicking prairie drainage and sun.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun; open grassland vibes.
+    - Well-drained, often calcareous or sandy soils; drought-tolerant once established—wet winter clay is rude.
+
+    ✂️ Methods to Propagate:
+    - Seeds: scarify and stratify protocols improve germination—research landrace notes.
+    - Careful division rare; seed is standard.
+
+    🌾 Harvest notes:
+    - Roots after several years of growth in suitable climates; overharvesting wild stands is how traditions end—grow your own.
+  purpose: |-
+    - Edible: Traditional cooked starch food after proper identification and preparation.
+    - Nitrogen Fixer: Nodules on prairie soils—pair with appropriate rhizobia in garden tests.
+    - Wildlife Attractor: Flowers for native bees in range.
+    - Soil Improvement: Deep root architecture on dry sites.
   companions:
-  - NEEDS_DATA
+  - Native grasses
+  - Echinacea
+  - Leadplant
   avoid:
-  - NEEDS_DATA
+  - Humid shade and irrigation addiction
+  - Confusing with unrelated roots in the wild
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Japanese Beetles
+  - Rootknot Nematodes
   # Image attribution: Unknown authorUnknown author / Wikimedia Commons / Public domain
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

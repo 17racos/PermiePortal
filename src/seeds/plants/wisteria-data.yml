@@ -1,27 +1,57 @@
 ---
 - common_name: Wisteria
   picture: wisteria.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Wisteria spp.
+  aka:
+  - American Wisteria
+  - Chinese Wisteria
+  - Japanese Wisteria
+  family: Fabaceae
+  zone: "5-9"
+  ideal_temp_min: 45
+  ideal_temp_max: 85
+  min_temp: -10
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Vine
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ornamental
+  - Nitrogen Fixer
+  - Wildlife Attractor
+  - Shade Provider
+  description: "Wisterias are twining leguminous vines famous for long racemes of
+    fragrant pea-flowers and for yanking down shoddy pergolas. **Wisteria frutescens**
+    (American wisteria) is the polite native option for much of the Southeast: slower,
+    less thuggish, still gorgeous. **W. sinensis** and **W. floribunda** are the
+    classic Asian species—stunning, heavy, and invasive in many areas if you let
+    them fruit and seed.\n\nNorth Florida / subtropical note: heat is not the problem;
+    mismatched chill or poor pruning is. Give a stout arbor, train a single trunk if
+    you want tree-form drama, and do not plant under eaves or power lines unless you
+    enjoy expensive regrets.\n\nSun and water: Full sun for best bloom. Deep, fertile,
+    well-drained soil; consistent moisture while young, somewhat drought-tolerant on
+    big roots. Avoid soggy roots—Phytophthora does not send thank-you notes.\n\nPropagation:
+    Seed (slow, variable, risky for invasiveness on Asian spp.); layering; grafting
+    named cultivars; softwood cuttings under mist. American wisteria from cuttings
+    or reputable natives nursery is the permie-bro move."
+  purpose: |-
+    Overstory vine on strong trellis or mature trees (use judgment—do not strangle
+    young plantings). Fixes atmospheric nitrogen once nodulated. Massive spring
+    pollinator draw. If you pick the wrong species and ignore maintenance, you have
+    installed a woody python.
   companions:
-  - NEEDS_DATA
+  - Grape
+  - Hardy Kiwi
+  - Maypop
+  - Rose
   avoid:
-  - NEEDS_DATA
+  - Weak trellis
+  - Small fragile trees
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Scale Insects
+  - Japanese Beetles
+  - Caterpillars
   # Image attribution: Roger Culos / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

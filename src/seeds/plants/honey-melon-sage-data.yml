@@ -1,27 +1,53 @@
 ---
 - common_name: Honey Melon Sage
-  picture: honey_melon_sage.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  picture: ""
+  scientific_name: Salvia elegans
+  aka:
+  - Pineapple Sage
+  family: Lamiaceae
+  zone: 8-11
+  ideal_temp_min: 55
+  ideal_temp_max: 90
+  min_temp: 20
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Pollinator
+  - Ornamental
+  - Wildlife Attractor
+  description: "Honey Melon Sage is a market name for pineapple-scented Salvia
+    elegans selections — same species pool as classic pineapple sage. Scarlet late-
+    season tubes are hummingbird crack. Leaves smell like fruit salad and work in
+    tea, syrups, and aggressive potpourri. In North Florida it often dies back in
+    winter and returns from roots around 9a/b; mulch the crown after frost.\n\n☀️💧
+    Sun and Water:\n- Full sun for best bloom and compact habit; part shade tolerable
+    but stretches stems.\n- Average water; drought-tolerant once established but
+    sulks in bone-dry pots.\n\n✂️ Propagation:\n- Softwood cuttings in spring/summer
+    root easily.\n- Divisions of clumps in early spring.\n\nName game: if the tag
+    says honey melon and it smells like pineapple, you are not hallucinating — nurseries
+    love adjectives."
+  purpose: |-
+    Late-season color when everything else looks tired:
+
+    - Edible: Leaves and flowers for tea and desserts; flavor is strong — taste first.
+    - Pollinator: Tubular red flowers target hummingbirds and long-tongued insects.
+    - Ornamental: Red flower spikes read tropical even when the thermometer disagrees.
+    - Wildlife Attractor: Hummingbird magnet; your feeder can take a vacation.
   companions:
-  - NEEDS_DATA
+  - Mexican Bush Sage
+  - Lantana
+  - Fennel
   avoid:
-  - NEEDS_DATA
+  - Dark bog corners
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Whiteflies
+  - Spider Mites
+  growth_habit: Herbaceous perennial
+  data_quality_score: 0.72
   # Image attribution: No image found
   # Image source: none
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

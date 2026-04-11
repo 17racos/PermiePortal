@@ -1,27 +1,53 @@
 ---
 - common_name: Sea Plantain
   picture: sea_plantain.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Plantago maritima
+  aka:
+  - Goose tongue
+  - Seaside plantain
+  family: Plantaginaceae
+  zone: 3-9
+  ideal_temp_min: 40
+  ideal_temp_max: 75
+  min_temp: -30
+  max_temp: 90
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Ground Cover
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Erosion Control
+  - Wildlife Attractor
+  description: |-
+    Sea plantain is the coastal cousin of the plantains your lawn hates — same genus, salt on its boots, better PR. Young leaves are a salty-green nibble; older leaves teach you about fiber. It hugs brackish margins, shell middens, and dunes where lesser herbs cry. In North Florida it is a legit native-adjacent forage along Gulf and Atlantic edges if you ID carefully and skip polluted wrack lines.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun typical of coastal exposure.
+    - Tolerates salt spray and periodic inundation; needs drainage between tides in garden mimic beds.
+    - Freshwater garden culture: lean, gritty soil; do not over-fertilize into lush slug bait.
+
+    ✂️ Methods to Propagate:
+    - Seeds: cold stratify or direct sow in cool season; keep moist until established.
+    - Division: split tight crowns in cool weather for quick clumps.
+  purpose: |-
+    Sea plantain earns its spot on the edge:
+
+    - Edible: Young leaves raw or cooked; harvest ethics: rotate patches, do not strip public dunes.
+    - Medicinal: Plantain-family topical use shows up in folk practice — research before pretending you are a clinic.
+    - Erosion Control: Fibrous roots stabilize sandy, salty soils.
+    - Wildlife Attractor: Flowers feed small pollinators in lean habitats.
   companions:
-  - NEEDS_DATA
+  - Saltwort
+  - Sea purslane
+  - Beach sunflower
   avoid:
-  - NEEDS_DATA
+  - Heavy shade and boggy freshwater that rots crowns
+  - Harvest from contaminated runoff zones
   pests:
-  - NEEDS_DATA
+  - Slugs
+  - Aphids
   # Image attribution: Cwmhiraeth / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

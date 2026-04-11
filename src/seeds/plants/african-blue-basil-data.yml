@@ -1,27 +1,47 @@
 ---
 - common_name: African Blue Basil
   picture: african_blue_basil.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Ocimum basilicum × Ocimum kilimandscharicum
+  aka:
+  - African blue basil
+  family: Lamiaceae
+  zone: 9-11
+  ideal_temp_min: 65
+  ideal_temp_max: 92
+  min_temp: 32
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Pollinator
+  - Pest Management
+  - Ornamental
+  description: "African blue basil is the sterile hybrid that flowers until the bees
+    need traffic control—camphor-clove scent, purple stems, and none of that bolt-to-seed
+    anxiety because the plant is mostly living in the perpetual bloom timeline.\n\nNorth
+    Florida / subtropical: Tender perennial; often overwinters in 9b with mulch and dry
+    spells; pots come indoors when polar nonsense threatens.\n\nSun and water: Full sun
+    for dense color; afternoon shade inland reduces leaf scorch. Even moisture; good
+    drainage.\n\nPropagation: Cuttings—seeds are not the plan on sterile types. Share
+    with neighbors like a bee lobbyist."
+  purpose: |-
+    Constant pollinator forage, edible leaves for bold pestos, and landscape filler
+    that actually earns its water bill.
   companions:
-  - NEEDS_DATA
+  - Tomatoes
+  - Peppers
+  - Eggplant
   avoid:
-  - NEEDS_DATA
+  - Hard frost without cover
+  - Overfertilizer soft growth that aphids love
   pests:
-  - NEEDS_DATA
-  # Image attribution: No image found
-  # Image source: none
+  - aphids
+  - whiteflies
+  - spider mites
+  growth_habit: Bushy hybrid basil, often grown as tender perennial
+  data_quality_score: 0.78
+  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
+  # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

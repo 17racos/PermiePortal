@@ -1,27 +1,52 @@
 ---
 - common_name: Canistel
   picture: canistel.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Pouteria campechiana
+  aka:
+  - Egg fruit
+  - Yellow sapote
+  family: Sapotaceae
+  zone: "10-11"
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 30
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Shade Provider
+  description: |-
+    Canistel is the egg-yolk fruit: sweet, mealy, and deeply tropical — not a crisp apple moment. Small evergreen tree, latex in the sap like its sapote cousins. In North Florida it is a gamble outside the warmest 10b pockets and greenhouse ego; one hard freeze on young wood ends the season's optimism.
+
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for flowering and fruit set once established.
+    - Deep, rich, well-drained soil; steady moisture in growth, less when cool.
+    - Wind break helps young trees; salt not its favorite neighbor.
+
+    ✂️ Methods to Propagate:
+    - Seeds: fresh seed germinates erratically but works for backyard trials.
+    - Grafting onto related sapote rootstocks is the commercial reliability path.
+    - Air layering: possible on mature branches with patience and humidity.
+  purpose: |-
+    Canistel earns its space where frost is rare:
+
+    - Edible: Ripe flesh fresh or in custards; treat unripe fruit like a hard no.
+    - Wildlife Attractor: Flowers and fruit feed pollinators and fruit-eaters if you share.
+    - Shade Provider: Modest canopy for understory herbs in a frost-free stack.
   companions:
-  - NEEDS_DATA
+  - Banana
+  - Papaya
+  - Comfrey
   avoid:
-  - NEEDS_DATA
+  - Low, frost pockets without protection
+  - Waterlogged clay without drainage fixes
   pests:
-  - NEEDS_DATA
+  - Scale Insects
+  - Caribbean Fruit Fly
+  - Mealybugs
   # Image attribution: Hans B. at Dutch Wikipedia / Wikimedia Commons / Public domain
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment
