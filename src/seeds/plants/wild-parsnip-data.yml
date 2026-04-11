@@ -35,9 +35,16 @@
     - Wildlife Attractor: Insects use the flowers; tradeoffs vs. human safety.
     - Border Plant: Only in low-traffic, signed, managed contexts if at all.
     - Dynamic Accumulator: Deep taproot mines subsoil — useful conceptually, risky practically.
-  companions: []
+  companions:
+  - Yarrow
+  - Dill
+  - Milkweed
+  - Sunflower
+  - Crimson Clover
   avoid:
   - Skin contact with sap in sun
+  - Celery
+  - Parsley
   pests:
   - Parsnip Canker
   - Carrot Rust Fly
