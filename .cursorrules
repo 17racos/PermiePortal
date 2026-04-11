@@ -1,6 +1,46 @@
-Voice: Dark satire, Heyoka, anti-greenwashing. No corporate speak.
-Tech: Astro + Tailwind only. Content in MDX with frontmatter {title, date, summary, tags, slug}.
-Structure: pages — /, /articles, /projects, /shop, /about. Lists paginate at 12 per page, newest-first.
-Constraints: no heavy client JS; images live in /public; semantic HTML; high contrast.
+# PermiePortal — Cursor Rules
 
+## Project
+Astro 4 static site. No React. No SSR. TypeScript.
+Voice: Dark satire, Heyoka archetype, anti-greenwashing. No corporate speak.
+Tagline energy: "Burn the grasshole."
 
+## Stack
+- Frontend: Astro + Tailwind + vanilla JS
+- Fonts: Bebas Neue (headers), Instrument Serif (body), Space Mono (labels/mono)
+- Colors: --soil #0f0d0a, --lime #8fb83a, --rust #c4551a, --ash #b8b0a0, --paper #ede8dc
+- Data: Static JSON in src/data/ (plants.json, pests.json, relationships.json)
+- Seeds: YAML files in src/seeds/plants/ and src/seeds/pests/
+
+## Data Workflow
+Never edit src/data/*.json directly.
+Always edit YAML in src/seeds/, then run: ./sync.sh
+The converter (convert_permie_data.py) rebuilds all JSON and copies to src/data/.
+
+## Plant YAML structure
+See src/seeds/plants/moringa-data.yml as the canonical example.
+Required fields: common_name, picture, scientific_name, family, zone,
+ideal_temp_min, ideal_temp_max, min_temp, max_temp, perennial,
+layers, plant_function, description, companions, avoid, pests
+
+## Pest YAML structure  
+See src/seeds/pests/pests-data.yml — all pests live in one file as a YAML array.
+Required fields: name, slug, picture, scientific_name, description,
+characteristics, control_methods (object with keys: organic_sprays,
+biological_controls, cultural_practices, mechanical_physical, preventive_methods),
+natural_enemies (array)
+
+## Pest name matching
+Pest references in plant YAML must match pest slugs exactly.
+Run ./sync.sh --check to validate before committing.
+
+## Image locations
+Plant images: public/assets/plants/{filename}.jpg
+Pest images: public/assets/pests/{filename}.jpg
+
+## Do not
+- Edit src/data/*.json directly
+- Use React components
+- Add client-side JS frameworks
+- Change the color palette
+- Use corporate or greenwash language

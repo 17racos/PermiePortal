@@ -1,0 +1,55 @@
+---
+- common_name: Rice
+  picture: rice.jpg
+  scientific_name: Oryza sativa
+  aka:
+  - Asian rice
+  family: Poaceae
+  zone: 9-11
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 50
+  max_temp: 104
+  perennial: false
+  layers:
+  - Herbaceous
+  plant_function:
+  - Edible
+  - Wildlife Attractor
+  - Mulcher
+  - Erosion Control
+  - Animal Fodder
+  - Water Purifier
+  - Ground Cover
+  description: "Rice (Oryza sativa) is an annual grass species widely cultivated for
+    its edible grains. The plant typically grows to heights between 1 and 2 meters,
+    featuring erect stems with smooth surfaces and long, lanceolate leaves. The inflorescence
+    is a terminal panicle bearing numerous small spikelets, each containing a single
+    floret. The fruit is a caryopsis, commonly known as a rice grain.\n\n\U0001F31E\U0001F4A7
+    Sun and Water Requirements:\nRice thrives in full sun and requires abundant water,
+    often grown in flooded fields known as paddies. Consistent moisture is crucial
+    throughout its growth cycle.\n\n✂️\U0001FAD8 Methods to Propagate:\nPropagation
+    is primarily through direct sowing of seeds or transplanting seedlings. Seeds
+    are sown in nurseries and later transplanted to paddies.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E
+    When to Harvest:\nHarvest occurs when grains turn golden brown and reach full
+    maturity, typically 3 to 6 months after planting, depending on the variety."
+  purpose: |-
+    - **Edible**: Rice grains are a staple food for over half of the world's population, providing essential carbohydrates and nutrients.
+    - **Wildlife Attractor**: Rice fields offer habitats for various aquatic organisms, birds, and beneficial insects, enhancing biodiversity.
+    - **Mulcher**: Post-harvest rice straw can be used as mulch to suppress weeds, retain soil moisture, and improve soil health.
+    - **Erosion Control**: Dense planting in paddies helps stabilize soil and prevent erosion, especially in flood-prone areas.
+    - **Animal Fodder**: Rice bran and straw serve as feed for livestock, offering a valuable resource in integrated farming systems.
+    - **Water Purifier**: Rice paddies can act as natural filters, improving water quality by trapping sediments and absorbing nutrients.
+    - **Ground Cover**: The extensive root system and canopy cover help protect soil from direct sunlight and reduce evaporation.
+  companions:
+  - Azolla
+  - Fish
+  - Duck
+  avoid:
+  - None
+  pests:
+  - Rice Water Weevil
+  - Stem Borer
+  - Rice Blast Fungus
+  growth_habit: Tree
+  data_quality_score: 0.8
