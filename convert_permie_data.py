@@ -136,12 +136,22 @@ def process_pest(data):
 
 def build_relationships(plants, pests):
     pest_by_slug = {p['slug']: p for p in pests}
+    all_slugs = frozenset(pest_by_slug.keys())
 
     pest_lookup = {}
     for p in pests:
-        for key in [p['slug'], p['name'].lower(), slugify(p['name']),
-                    p['slug'] + 's', p['slug'].rstrip('s')]:
-            pest_lookup[key] = p['slug']
+        slug = p['slug']
+        keys = [
+            slug,
+            p['name'].lower(),
+            slugify(p['name']),
+            slug.rstrip('s'),
+        ]
+        # Avoid alias "slug+s" stealing another pest's canonical slug (e.g. fungus-gnat + s → fungus-gnats).
+        if (slug + 's') not in all_slugs:
+            keys.append(slug + 's')
+        for key in keys:
+            pest_lookup[key] = slug
 
     relationships = []
     pest_to_plants = defaultdict(list)

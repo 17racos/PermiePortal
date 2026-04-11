@@ -243,7 +243,13 @@
     "pests": [
       "Stink Bug",
       "Squash Vine Borer",
-      "Banded Cucumber Beetle"
+      "Banded Cucumber Beetle",
+      "Beet Armyworm",
+      "Southern Armyworm",
+      "Silverleaf Whitefly",
+      "Greenhouse Whitefly",
+      "Bacterial Leaf Spot",
+      "Southern Green Stink Bug"
     ]
   },
   {
@@ -1247,7 +1253,9 @@
       "Apple Maggot",
       "Aphids",
       "Fire Blight",
-      "Powdery Mildew"
+      "Powdery Mildew",
+      "Cytospora Canker",
+      "Alternaria Leaf Spot"
     ]
   },
   {
@@ -2172,7 +2180,10 @@
       "Whiteflies",
       "Japanese Beetles",
       "Spider Mites",
-      "Iguana"
+      "Iguana",
+      "Fungus Gnats",
+      "Whitefly",
+      "Gray Mold"
     ]
   },
   {
@@ -2210,7 +2221,11 @@
     "avoid": [
       "None"
     ],
-    "pests": []
+    "pests": [
+      "Scale Insects",
+      "Aphids",
+      "Whiteflies"
+    ]
   },
   {
     "slug": "bee-bush",
@@ -2245,7 +2260,10 @@
     "avoid": [
       "None specified"
     ],
-    "pests": []
+    "pests": [
+      "Aphids",
+      "Scale Insects"
+    ]
   },
   {
     "slug": "bee-balm",
@@ -2591,7 +2609,9 @@
     "pests": [
       "Caribbean Fruit Fly",
       "Aphids",
-      "Whiteflies"
+      "Whiteflies",
+      "Lubber Grasshopper",
+      "Beet Armyworm"
     ]
   },
   {
@@ -2836,7 +2856,8 @@
     "pests": [
       "Locust Borer",
       "Locust Leaf Miner",
-      "Heart Rot"
+      "Heart Rot",
+      "Twig Girdlers"
     ]
   },
   {
@@ -2870,7 +2891,10 @@
     "avoid": [
       "None"
     ],
-    "pests": []
+    "pests": [
+      "Aphids",
+      "Mites"
+    ]
   },
   {
     "slug": "blue-agave",
@@ -3129,12 +3153,13 @@
       "Tomato"
     ],
     "pests": [
-      "Cabbage Worms",
-      "Aphids",
-      "Flea Beetles",
-      "Slugs",
       "Root Rot",
-      "Iguana"
+      "Iguana",
+      "Cabbage Root Fly",
+      "Diamondback Moth",
+      "Imported Cabbageworm",
+      "Cross-striped Cabbageworm",
+      "Swede Midge"
     ]
   },
   {
@@ -3388,9 +3413,16 @@
       "Tomato"
     ],
     "pests": [
-      "Cabbage Worms",
-      "Aphids",
-      "Flea Beetles"
+      "Cabbage Root Fly",
+      "Cabbage White Butterflies",
+      "Diamondback Moth",
+      "Imported Cabbageworm",
+      "Cross-striped Cabbageworm",
+      "Swede Midge",
+      "Harlequin Bug",
+      "Alternaria Leaf Spot",
+      "Bacterial Leaf Spot",
+      "Whitefly"
     ]
   },
   {
@@ -4517,10 +4549,12 @@
     ],
     "pests": [
       "Carrot Fly",
-      "Aphids",
       "Wireworm",
-      "Cutworms",
-      "Iguana"
+      "Iguana",
+      "Carrot Weevil",
+      "Alternaria Leaf Spot",
+      "Cercospora Leaf Spot",
+      "Serpentine Leafminer"
     ]
   },
   {
@@ -4771,10 +4805,10 @@
       "Corn"
     ],
     "pests": [
-      "Aphids",
-      "Slugs",
       "Caterpillars",
-      "Fusarium Wilt"
+      "Fusarium Wilt",
+      "Serpentine Leafminer",
+      "Alternaria Leaf Spot"
     ]
   },
   {
@@ -5119,7 +5153,10 @@
     "avoid": [
       "None"
     ],
-    "pests": []
+    "pests": [
+      "Aphids",
+      "Flea Beetles"
+    ]
   },
   {
     "slug": "chickasaw-plum",
@@ -5160,7 +5197,8 @@
     "pests": [
       "Japanese Beetles",
       "Borers",
-      "Caterpillars"
+      "Caterpillars",
+      "Cytospora Canker"
     ]
   },
   {
@@ -5240,7 +5278,9 @@
     "pests": [
       "Cutworms",
       "Aphids",
-      "Borers"
+      "Borers",
+      "Kudzu Bug",
+      "Soybean Looper"
     ]
   },
   {
@@ -5411,7 +5451,9 @@
     "pests": [
       "Palmetto Weevil",
       "Scale Insects",
-      "Mealybugs"
+      "Mealybugs",
+      "Spiraling Whitefly",
+      "Rugose Spiraling Whitefly"
     ]
   },
   {
@@ -5492,7 +5534,7 @@
     ],
     "pests": [
       "Aphids",
-      "Fungus Gnat",
+      "Fungus Gnats",
       "Nematodes"
     ]
   },
@@ -5947,7 +5989,10 @@
     "pests": [
       "Coconut Mite",
       "Rhinoceros Beetle",
-      "Red Palm Weevil"
+      "Red Palm Weevil",
+      "Rugose Spiraling Whitefly",
+      "Spiraling Whitefly",
+      "Diaprepes Root Weevil"
     ]
   },
   {
@@ -6112,7 +6157,11 @@
     "avoid": [
       "None documented"
     ],
-    "pests": []
+    "pests": [
+      "Aphids",
+      "Caterpillars",
+      "Spider Mites"
+    ]
   },
   {
     "slug": "cordyceps-host",
@@ -6146,7 +6195,7 @@
       "Open-field cultivation fantasies"
     ],
     "pests": [
-      "Fungus Gnat",
+      "Fungus Gnats",
       "Mites"
     ]
   },
@@ -6923,7 +6972,10 @@
     "avoid": [
       "None"
     ],
-    "pests": []
+    "pests": [
+      "Aphids",
+      "Slugs"
+    ]
   },
   {
     "slug": "darrow-blueberry",
@@ -7304,7 +7356,10 @@
     "avoid": [
       "Watermeal"
     ],
-    "pests": []
+    "pests": [
+      "Shore Fly",
+      "Aphids"
+    ]
   },
   {
     "slug": "dutch-clover",
@@ -8129,7 +8184,8 @@
       "Fig Beetle",
       "Mealybugs",
       "Rootknot Nematodes",
-      "Root Rot"
+      "Root Rot",
+      "Cuban Laurel Thrips"
     ]
   },
   {
@@ -8167,9 +8223,9 @@
       "asian citrus psyllid denialism"
     ],
     "pests": [
-      "Asian Citrus Psyllid",
-      "Citrus Leafminer",
-      "Scale Insects"
+      "Citrus Rust Mite",
+      "Texas Citrus Mite",
+      "Citrus Whitefly"
     ]
   },
   {
@@ -8253,7 +8309,10 @@
     "avoid": [
       "None noted"
     ],
-    "pests": []
+    "pests": [
+      "Aphids",
+      "Whiteflies"
+    ]
   },
   {
     "slug": "flax",
@@ -8464,7 +8523,8 @@
       "Onion Thrips",
       "Root Rot",
       "Nematodes",
-      "White Rot"
+      "White Rot",
+      "Leek Moth"
     ]
   },
   {
@@ -8762,7 +8822,12 @@
     "pests": [
       "Aphids",
       "Spider Mites",
-      "Leafhoppers"
+      "Leafhoppers",
+      "Tomato Hornworms",
+      "Tobacco Budworm",
+      "Broad Mite",
+      "Rust Mite",
+      "Silverleaf Whitefly"
     ]
   },
   {
@@ -8972,7 +9037,11 @@
     "pests": [
       "Aphids",
       "Flea Beetles",
-      "Cutworms"
+      "Cutworms",
+      "Kudzu Bug",
+      "Soybean Looper",
+      "Velvetbean Caterpillar",
+      "Southern Green Stink Bug"
     ]
   },
   {
@@ -9060,7 +9129,10 @@
       "Leafhoppers",
       "Japanese Beetles",
       "Aphids",
-      "Nematodes"
+      "Nematodes",
+      "Kudzu Bug",
+      "Soybean Looper",
+      "Velvetbean Caterpillar"
     ]
   },
   {
@@ -9106,7 +9178,10 @@
       "Leafhoppers",
       "Japanese Beetles",
       "Aphids",
-      "Nematodes"
+      "Nematodes",
+      "Kudzu Bug",
+      "Soybean Looper",
+      "Velvetbean Caterpillar"
     ]
   },
   {
@@ -9993,7 +10068,10 @@
     "pests": [
       "Aphids",
       "Slugs",
-      "Snails"
+      "Snails",
+      "Fungus Gnats",
+      "Shore Fly",
+      "Gray Mold"
     ]
   },
   {
@@ -10659,7 +10737,10 @@
     "pests": [
       "Citrus Leafminer",
       "Asian Citrus Psyllid",
-      "Scale Insects"
+      "Scale Insects",
+      "Citrus Rust Mite",
+      "Longtailed Mealybug",
+      "Citrus Whitefly"
     ]
   },
   {
@@ -10702,11 +10783,17 @@
       "Strawberry"
     ],
     "pests": [
-      "Cabbage Worms",
-      "Aphids",
-      "Flea Beetles",
       "Cabbage Looper",
-      "Iguana"
+      "Iguana",
+      "Cabbage Root Fly",
+      "Cabbage White Butterflies",
+      "Diamondback Moth",
+      "Imported Cabbageworm",
+      "Cross-striped Cabbageworm",
+      "Swede Midge",
+      "Harlequin Bug",
+      "Alternaria Leaf Spot",
+      "Cercospora Leaf Spot"
     ]
   },
   {
@@ -10794,7 +10881,10 @@
     "avoid": [
       "None reported"
     ],
-    "pests": []
+    "pests": [
+      "Aphids",
+      "Caterpillars"
+    ]
   },
   {
     "slug": "kava",
@@ -11435,11 +11525,20 @@
       "Walnut"
     ],
     "pests": [
-      "Aphids",
       "Scale Insects",
       "Citrus Leafminer",
       "Citrus Red Mite",
-      "Whiteflies"
+      "Whiteflies",
+      "Brown Citrus Aphid",
+      "Citrus Rust Mite",
+      "Citrus Whitefly",
+      "Longtailed Mealybug",
+      "Texas Citrus Mite",
+      "Citrus Root Weevil",
+      "Diaprepes Root Weevil",
+      "Sooty Mold",
+      "Phytophthora Root Rot",
+      "Alternaria Leaf Spot"
     ]
   },
   {
@@ -11618,11 +11717,17 @@
       "Walnut"
     ],
     "pests": [
-      "Aphids",
       "Scale Insects",
       "Citrus Leafminer",
       "Citrus Red Mite",
-      "Whiteflies"
+      "Whiteflies",
+      "Brown Citrus Aphid",
+      "Citrus Rust Mite",
+      "Citrus Whitefly",
+      "Longtailed Mealybug",
+      "Texas Citrus Mite",
+      "Citrus Root Weevil",
+      "Sooty Mold"
     ]
   },
   {
@@ -11660,7 +11765,7 @@
       "None documented"
     ],
     "pests": [
-      "Fungus Gnat",
+      "Fungus Gnats",
       "Slugs"
     ]
   },
@@ -13111,7 +13216,8 @@
     "pests": [
       "Spider Mites",
       "Mealybugs",
-      "Scale Insects"
+      "Scale Insects",
+      "Fungus Gnat"
     ]
   },
   {
@@ -13319,7 +13425,10 @@
     "avoid": [
       "None"
     ],
-    "pests": []
+    "pests": [
+      "Aphids",
+      "Mites"
+    ]
   },
   {
     "slug": "mulberry-tree",
@@ -13492,7 +13601,7 @@
       "None documented"
     ],
     "pests": [
-      "Fungus Gnat",
+      "Fungus Gnats",
       "Slugs",
       "Borers"
     ]
@@ -13668,10 +13777,10 @@
     ],
     "pests": [
       "Borers",
-      "Aphids",
       "Oriental Fruit Moth",
       "Leaf Curl",
-      "Brown Rot"
+      "Brown Rot",
+      "Cytospora Canker"
     ]
   },
   {
@@ -14024,7 +14133,8 @@
     "pests": [
       "Onion Fly",
       "Thrips",
-      "Nematodes"
+      "Nematodes",
+      "Leek Moth"
     ]
   },
   {
@@ -14203,7 +14313,7 @@
       "None documented"
     ],
     "pests": [
-      "Fungus Gnat",
+      "Fungus Gnats",
       "Slugs"
     ]
   },
@@ -14373,10 +14483,9 @@
       "Lettuce"
     ],
     "pests": [
-      "Aphids",
-      "Armyworms",
       "Carrot Rust Fly",
-      "Iguana"
+      "Iguana",
+      "Carrot Weevil"
     ]
   },
   {
@@ -14419,8 +14528,9 @@
     "pests": [
       "Parsnip Canker",
       "Carrot Fly",
-      "Aphids",
-      "Cabbage Root Maggots"
+      "Cabbage Root Maggots",
+      "Carrot Weevil",
+      "Alternaria Leaf Spot"
     ]
   },
   {
@@ -14766,8 +14876,9 @@
     "pests": [
       "Codling Moth",
       "Pear Psylla",
-      "Aphids",
-      "Fire Blight"
+      "Fire Blight",
+      "Cytospora Canker",
+      "Gray Mold"
     ]
   },
   {
@@ -14814,7 +14925,9 @@
       "Hickory Shuckworm",
       "Aphids",
       "Powdery Mildew",
-      "Pecan Scab"
+      "Pecan Scab",
+      "Twig Girdlers",
+      "Cytospora Canker"
     ]
   },
   {
@@ -14978,7 +15091,10 @@
     "avoid": [
       "None"
     ],
-    "pests": []
+    "pests": [
+      "Aphids",
+      "Rootknot Nematodes"
+    ]
   },
   {
     "slug": "persimmon-tree",
@@ -15901,9 +16017,21 @@
     ],
     "pests": [
       "Colorado Potato Beetle",
-      "Aphids",
       "Potato Scab",
-      "Late Blight"
+      "Late Blight",
+      "Alternaria Leaf Spot",
+      "Bacterial Leaf Spot",
+      "Tomato Hornworms",
+      "Tobacco Budworm",
+      "Greenhouse Whitefly",
+      "Silverleaf Whitefly",
+      "Banded Winged Whitefly",
+      "Whitefly",
+      "Serpentine Leafminer",
+      "Southern Armyworm",
+      "Southern Green Stink Bug",
+      "Phytophthora Root Rot",
+      "Fungus Gnats"
     ]
   },
   {
@@ -16156,7 +16284,9 @@
     "pests": [
       "Flea Beetles",
       "Cabbage Root Maggots",
-      "Aphids"
+      "Aphids",
+      "Cabbage Root Fly",
+      "Cabbage White Butterflies"
     ]
   },
   {
@@ -16331,7 +16461,10 @@
       "Japanese Beetles",
       "Spider Mites",
       "Borers",
-      "Aphids"
+      "Aphids",
+      "Raspberry Beetle",
+      "Gray Mold",
+      "Phytophthora Root Rot"
     ]
   },
   {
@@ -16371,7 +16504,10 @@
     "avoid": [
       "Livestock (due to toxicity)"
     ],
-    "pests": []
+    "pests": [
+      "Aphids",
+      "Caterpillars"
+    ]
   },
   {
     "slug": "red-button-ginger",
@@ -17138,7 +17274,9 @@
     "pests": [
       "Palmetto Weevil",
       "Scale Insects",
-      "Borers"
+      "Borers",
+      "Rugose Spiraling Whitefly",
+      "Spiraling Whitefly"
     ]
   },
   {
@@ -17389,7 +17527,10 @@
     "avoid": [
       "None specified"
     ],
-    "pests": []
+    "pests": [
+      "Scale Insects",
+      "Palmetto Weevil"
+    ]
   },
   {
     "slug": "scorpion-weed",
@@ -17468,7 +17609,11 @@
     "avoid": [
       "Shady trees"
     ],
-    "pests": []
+    "pests": [
+      "Aphids",
+      "Scale Insects",
+      "Powdery Mildew"
+    ]
   },
   {
     "slug": "sea-plantain",
@@ -17680,7 +17825,11 @@
       "Melonworm",
       "Banded Cucumber Beetle",
       "Powdery Mildew",
-      "Aphids"
+      "Aphids",
+      "Beet Armyworm",
+      "Southern Armyworm",
+      "Silverleaf Whitefly",
+      "Southern Green Stink Bug"
     ]
   },
   {
@@ -17893,7 +18042,7 @@
     ],
     "pests": [
       "Borers",
-      "Fungus Gnat"
+      "Fungus Gnats"
     ]
   },
   {
@@ -18060,7 +18209,10 @@
     "avoid": [
       "None known"
     ],
-    "pests": []
+    "pests": [
+      "Aphids",
+      "Caterpillars"
+    ]
   },
   {
     "slug": "simpson-stopper",
@@ -18143,7 +18295,11 @@
     "avoid": [
       "Native Plants (to prevent competition and displacement)"
     ],
-    "pests": []
+    "pests": [
+      "Aphids",
+      "Whiteflies",
+      "Spider Mites"
+    ]
   },
   {
     "slug": "sisal",
@@ -18476,7 +18632,13 @@
     "pests": [
       "Asian Citrus Psyllid",
       "Citrus Leafminer",
-      "Citrus Greening"
+      "Citrus Greening",
+      "Brown Citrus Aphid",
+      "Citrus Rust Mite",
+      "Citrus Whitefly",
+      "Citrus Root Weevil",
+      "Diaprepes Root Weevil",
+      "Sooty Mold"
     ]
   },
   {
@@ -18981,7 +19143,14 @@
       "Aphids",
       "Spider Mites",
       "Japanese Beetles",
-      "Iguana"
+      "Iguana",
+      "Gray Mold",
+      "Phytophthora Root Rot",
+      "Pythium Root Rot",
+      "Alternaria Leaf Spot",
+      "Cercospora Leaf Spot",
+      "Broad Mite",
+      "Cyclamen Mite"
     ]
   },
   {
@@ -19192,7 +19361,7 @@
     ],
     "pests": [
       "Aphids",
-      "Fungus Gnat"
+      "Fungus Gnats"
     ]
   },
   {
@@ -19567,8 +19736,11 @@
     "pests": [
       "Sweet Potato Weevil",
       "Wireworm",
-      "Aphids",
-      "Iguana"
+      "Iguana",
+      "Beet Armyworm",
+      "Southern Armyworm",
+      "Velvetbean Caterpillar",
+      "Whitefly"
     ]
   },
   {
@@ -20377,7 +20549,7 @@
       "None documented"
     ],
     "pests": [
-      "Fungus Gnat"
+      "Fungus Gnats"
     ]
   },
   {
@@ -20620,7 +20792,10 @@
     "avoid": [
       "None reported"
     ],
-    "pests": []
+    "pests": [
+      "Aphids",
+      "Armyworms"
+    ]
   },
   {
     "slug": "vietnamese-coriander",
@@ -20995,7 +21170,7 @@
     ],
     "pests": [
       "Aphids",
-      "Fungus Gnat"
+      "Fungus Gnats"
     ]
   },
   {
@@ -22237,7 +22412,7 @@
     ],
     "pests": [
       "Slugs",
-      "Fungus Gnat"
+      "Fungus Gnats"
     ]
   },
   {
