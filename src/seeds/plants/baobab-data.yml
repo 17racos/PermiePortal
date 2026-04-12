@@ -1,65 +1,112 @@
 ---
 - common_name: Baobab
- picture: baobab.jpg
- scientific_name: Adansonia digitata
- aka:
- - African baobab
- - Monkey-bread tree
- family: Malvaceae
- zone: 10b-11
- ideal_temp_min: 70
- ideal_temp_max: 100
- min_temp: 30
- max_temp: 115
- perennial: true
- layers:
- - Tree
- plant_function:
- - Edible
- - Medicinal
- - Wildlife Attractor
- - Shade Provider
- - Water Retention
- - Ornamental
- description: |-
- The African baobab (Adansonia digitata) is one of the iconic massive-trunked trees of dry savannas, famous for water-storing wood, palmately compound leaves, large white night-opening flowers pollinated by bats and moths, and long woody pods filled with sour, vitamin C–rich pulp around seeds. Mature specimens are landscape-scale architecture decades in the making. Dry-season discipline matches its African rhythm; wet-season humidity is fine if soil drains and roots breathe.
-
- ☀️💧 Sun and Water Requirements:
- - Full sun for strong form and flowering once established.
- - Deep, sandy-loam, well-drained soil; young trees want regular water, mature trees tolerate pronounced dry spells—never drown the caudex mentality of the root zone.
-
- ✂️ Methods to Propagate:
- - Seeds: nick or soak, sow warm; protect seedlings from snails and overwatering in humid Florida nights.
- - Grafting of known fruiting forms where available—decades are long to wait on a dud phenotype.
-
- 🌾 Harvest / Best Use Timing:
- - Harvest pods when woody and dry on the tree; pulp separates for drinks, sauces, and fermented experiments.
- - Young leaves are used as a pot herb in some traditions—moderation and sourcing clarity beat influencer trends.
- purpose: |-
- Baobab is a canopy monument with food and folklore attached.
-
- - Edible: Pulp and leaves enter regional diets; seeds yield oil in artisan chains—plan processing, not fantasy yields on a patio pot.
- - Medicinal: Global trade already commodified baobab powder—verify quality and ethics before rebranding yourself as a shaman.
- - Wildlife Attractor: Flowers target nocturnal pollinators; fruit feeds mammals and birds in native ranges.
- - Shade Provider: Eventually casts deep shade—understory guild must tolerate root competition.
- - Water Retention: Trunk architecture stores moisture through drought—design site access so compaction does not insult roots.
- - Ornamental: Instantly reads as “we are not in Ohio”—scale and liability match the vibe.
- companions:
- - Pigeon Pea — fast legume edge that fixes nitrogen without pretending to share the baobab’s century timeline.
- - Lemongrass — aromatic perimeter that tolerates sun and occasional shade at the drip line.
- - Sweet Potato — living soil cover outside the critical root zone if you herd the vines away from trunk flare.
- cautions:
- - None documented
- pests:
- - Scale Insects
- - Aphids
- - Mealybugs
- practitioner_notes: |-
- Leafless dry-season dormancy is normal—do not panic-water a resting adult trunk into rot.
- Seed coat is hard—nick or soak in warm water before sowing or germination waits months.
- Young plants years are shrub-sized in pots—caudex swelling accelerates once roots hit open ground.
- growth_habit: Massive deciduous malvaceous tree; bottle-shaped trunk in age; palmately compound leaves; large nocturnal flowers
- data_quality_score: 0.75
- # Image attribution: Diego Delso / Wikimedia Commons / CC BY-SA 4.0
- # Image source: wikimedia
- # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  picture: baobab.jpg
+  scientific_name: Adansonia digitata
+  aka:
+    - African baobab
+    - Monkey-bread tree
+  family: Malvaceae
+  zone: "10b-11"
+  ideal_temp_min: 70
+  ideal_temp_max: 100
+  min_temp: 30
+  max_temp: 115
+  perennial: true
+  layers:
+    - Tree
+  plant_function:
+    - Edible
+    - Medicinal
+    - Wildlife Attractor
+    - Shade Provider
+    - Water Retention
+    - Ornamental
+  description: |-
+    The African baobab (Adansonia digitata) is one of the iconic massive-trunked trees of dry savannas, famous for water-storing wood, palmately compound leaves, large white night-opening flowers pollinated by bats and moths, and long woody pods filled with sour, vitamin C–rich pulp around seeds. Mature specimens are landscape-scale architecture decades in the making. Dry-season discipline matches its African rhythm; wet-season humidity is fine if soil drains and roots breathe.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for strong form and flowering once established.
+    - Deep, sandy-loam, well-drained soil; young trees want regular water, mature trees tolerate pronounced dry spells—never drown the caudex mentality of the root zone.
+    
+    ✂️ Methods to Propagate:
+    - Seeds: nick or soak, sow warm; protect seedlings from snails and overwatering in humid Florida nights.
+    - Grafting of known fruiting forms where available—decades are long to wait on a dud phenotype.
+    
+    🌾 Harvest / Best Use Timing:
+    - Harvest pods when woody and dry on the tree; pulp separates for drinks, sauces, and fermented experiments.
+    - Young leaves are used as a pot herb in some traditions—moderation and sourcing clarity beat influencer trends.
+    purpose: |-
+    Baobab is a canopy monument with food and folklore attached.
+    
+    - Edible: Pulp and leaves enter regional diets; seeds yield oil in artisan chains—plan processing, not fantasy yields on a patio pot.
+    - Medicinal: Global trade already commodified baobab powder—verify quality and ethics before rebranding yourself as a shaman.
+    - Wildlife Attractor: Flowers target nocturnal pollinators; fruit feeds mammals and birds in native ranges.
+    - Shade Provider: Eventually casts deep shade—understory guild must tolerate root competition.
+    - Water Retention: Trunk architecture stores moisture through drought—design site access so compaction does not insult roots.
+    - Ornamental: Instantly reads as “we are not in Ohio”—scale and liability match the vibe.
+    companions:
+    - Pigeon Pea — fast legume edge that fixes nitrogen without pretending to share the baobab’s century timeline.
+    - Lemongrass — aromatic perimeter that tolerates sun and occasional shade at the drip line.
+    - Sweet Potato — living soil cover outside the critical root zone if you herd the vines away from trunk flare.
+    cautions:
+    - None documented
+    pests:
+    - Scale Insects
+    - Aphids
+    - Mealybugs
+    practitioner_notes: |-
+    Leafless dry-season dormancy is normal—do not panic-water a resting adult trunk into rot.
+    Seed coat is hard—nick or soak in warm water before sowing or germination waits months.
+    Young plants years are shrub-sized in pots—caudex swelling accelerates once roots hit open ground.
+    growth_habit: Massive deciduous malvaceous tree; bottle-shaped trunk in age; palmately compound leaves; large nocturnal flowers
+    data_quality_score: 0.75
+    # Image attribution: Diego Delso / Wikimedia Commons / CC BY-SA 4.0
+    # Image source: wikimedia
+    # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  purpose: |-
+    Baobab is a canopy monument with food and folklore attached.
+    
+    - Edible: Pulp and leaves enter regional diets; seeds yield oil in artisan chains—plan processing, not fantasy yields on a patio pot.
+    - Medicinal: Global trade already commodified baobab powder—verify quality and ethics before rebranding yourself as a shaman.
+    - Wildlife Attractor: Flowers target nocturnal pollinators; fruit feeds mammals and birds in native ranges.
+    - Shade Provider: Eventually casts deep shade—understory guild must tolerate root competition.
+    - Water Retention: Trunk architecture stores moisture through drought—design site access so compaction does not insult roots.
+    - Ornamental: Instantly reads as “we are not in Ohio”—scale and liability match the vibe.
+    companions:
+    - Pigeon Pea — fast legume edge that fixes nitrogen without pretending to share the baobab’s century timeline.
+    - Lemongrass — aromatic perimeter that tolerates sun and occasional shade at the drip line.
+    - Sweet Potato — living soil cover outside the critical root zone if you herd the vines away from trunk flare.
+    cautions:
+    - None documented
+    pests:
+    - Scale Insects
+    - Aphids
+    - Mealybugs
+    practitioner_notes: |-
+    Leafless dry-season dormancy is normal—do not panic-water a resting adult trunk into rot.
+    Seed coat is hard—nick or soak in warm water before sowing or germination waits months.
+    Young plants years are shrub-sized in pots—caudex swelling accelerates once roots hit open ground.
+    growth_habit: Massive deciduous malvaceous tree; bottle-shaped trunk in age; palmately compound leaves; large nocturnal flowers
+    data_quality_score: 0.75
+    # Image attribution: Diego Delso / Wikimedia Commons / CC BY-SA 4.0
+    # Image source: wikimedia
+    # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  companions:
+    - Pigeon Pea — fast legume edge that fixes nitrogen without pretending to share the baobab’s century timeline.
+    - Lemongrass — aromatic perimeter that tolerates sun and occasional shade at the drip line.
+    - Sweet Potato — living soil cover outside the critical root zone if you herd the vines away from trunk flare.
+  cautions:
+    - None documented
+  pests:
+    - Scale Insects
+    - Aphids
+    - Mealybugs
+  practitioner_notes: |-
+    Leafless dry-season dormancy is normal—do not panic-water a resting adult trunk into rot.
+    Seed coat is hard—nick or soak in warm water before sowing or germination waits months.
+    Young plants years are shrub-sized in pots—caudex swelling accelerates once roots hit open ground.
+    growth_habit: Massive deciduous malvaceous tree; bottle-shaped trunk in age; palmately compound leaves; large nocturnal flowers
+    data_quality_score: 0.75
+    # Image attribution: Diego Delso / Wikimedia Commons / CC BY-SA 4.0
+    # Image source: wikimedia
+    # AUTO-GENERATED STUB — requires Cursor Agent enrichment

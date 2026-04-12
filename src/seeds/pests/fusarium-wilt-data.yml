@@ -1,0 +1,25 @@
+---
+- name: Fusarium Wilt
+  slug: fusarium-wilt
+  picture: fusarium_wilt.jpg
+  scientific_name: Fusarium oxysporum
+  description: 'Soilborne vascular wilt: the host-specific formae speciales of F. oxysporum plug xylem, causing one-sided
+    yellowing, wilting despite moist soil, and brown streaks in stems. Tomatoes, melons, bananas, and many ornamentals each
+    have their own pathotype.'
+  characteristics: Wilting progresses from lower leaves upward; cut stems show brown vascular ring; roots may look fine early.
+    Confirmed diagnosis often needs lab isolation since other wilts mimic symptoms.
+  control_methods:
+    organic_sprays: No spray cures infected plants—soil drenches with Trichoderma spp. or Bacillus-based biocontrol products
+      may suppress spore loads when used preventively on clean ground.
+    biological_controls: Nonpathogenic Fusarium strains, mycorrhizae, and competitive Trichoderma in planting mixes can reduce
+      infection incidence on transplants.
+    cultural_practices: Use resistant cultivars where available; long rotations away from susceptible hosts; avoid moving
+      field soil onto sterile mix; sanitize tools and stakes; improve drainage.
+    mechanical_physical: Soil solarization in hot climates; steaming propagation beds; destroy infected plants including root
+      balls—do not compost.
+    preventive_methods: Start with certified seed and clean transplants; test irrigation water; avoid ammoniacal nitrogen
+      sources that some studies link to worse Fusarium on certain crops.
+  natural_enemies:
+  - Trichoderma harzianum
+  - Bacillus subtilis
+  - Nonpathogenic Fusarium
