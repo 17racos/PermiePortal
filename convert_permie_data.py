@@ -107,6 +107,22 @@ def process_plant(data, source_file):
     }
 
 
+def normalize_affected_plants_yaml(raw):
+    """Parse affected_plants from pest YAML: list of {slug, name} dicts."""
+    if not raw:
+        return []
+    out = []
+    for item in raw:
+        if not isinstance(item, dict):
+            continue
+        s = (item.get('slug') or '').strip()
+        if not s:
+            continue
+        n = (item.get('name') or s).strip()
+        out.append({"slug": s, "name": n})
+    return out
+
+
 def process_pest(data):
     if not isinstance(data, dict):
         return None
@@ -125,6 +141,8 @@ def process_pest(data):
     if isinstance(enemies, str):
         enemies = [e.strip() for e in enemies.split(',')]
 
+    yaml_affected = normalize_affected_plants_yaml(data.get('affected_plants'))
+
     return {
         "slug": slug,
         "name": name,
@@ -135,6 +153,7 @@ def process_pest(data):
         "control_methods": control_methods,
         "natural_enemies": [str(e).strip() for e in enemies if e],
         "affected_plants": [],
+        "_yaml_affected_plants": yaml_affected,
     }
 
 
@@ -187,7 +206,20 @@ def build_relationships(plants, pests):
                 )
 
     for pest in pests:
-        pest['affected_plants'] = pest_to_plants.get(pest['slug'], [])
+        from_plants = pest_to_plants.get(pest['slug'], [])
+        yaml_extra = pest.pop('_yaml_affected_plants', []) or []
+        seen = set()
+        merged = []
+        for item in from_plants + yaml_extra:
+            ps = item.get('slug')
+            if not ps or ps in seen:
+                continue
+            seen.add(ps)
+            merged.append({
+                "slug": ps,
+                "name": item.get('name') or ps,
+            })
+        pest['affected_plants'] = merged
 
     return relationships, warnings
 

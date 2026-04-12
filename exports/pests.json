@@ -1204,10 +1204,6 @@
         "name": "Groundnut"
       },
       {
-        "slug": "groundnut",
-        "name": "Groundnut"
-      },
-      {
         "slug": "groundplum-milkvetch",
         "name": "Groundplum Milkvetch"
       },
@@ -3186,7 +3182,12 @@
       "Parasitic Wasps (Hymenoptera)",
       "Ground Beetles (Carabidae)"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "asparagus",
+        "name": "Asparagus"
+      }
+    ]
   },
   {
     "slug": "azalea-caterpillar",
@@ -3269,7 +3270,24 @@
       "Vespid Wasps (Vespidae)",
       "Insectivorous Birds"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "southern-red-cedar",
+        "name": "Southern Red Cedar"
+      },
+      {
+        "slug": "atlantic-white-cedar",
+        "name": "Atlantic White Cedar"
+      },
+      {
+        "slug": "bald-cypress",
+        "name": "Bald Cypress"
+      },
+      {
+        "slug": "bluejack-oak",
+        "name": "Bluejack Oak"
+      }
+    ]
   },
   {
     "slug": "bamboo-mite",
@@ -3403,7 +3421,28 @@
       "Syrphid Fly Larvae (Syrphidae)",
       "Lacewing larvae (Chrysopidae)"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "fava-bean",
+        "name": "Fava Bean"
+      },
+      {
+        "slug": "green-bean",
+        "name": "Green Bean"
+      },
+      {
+        "slug": "malabar-spinach",
+        "name": "Malabar Spinach"
+      },
+      {
+        "slug": "sunflower",
+        "name": "Sunflower"
+      },
+      {
+        "slug": "dutch-clover",
+        "name": "Dutch Clover"
+      }
+    ]
   },
   {
     "slug": "bean-leaf-beetle",
@@ -3566,7 +3605,20 @@
       "Orb-weaver and Crab Spiders",
       "Syrphid Fly Larvae (Syrphidae)"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "chickasaw-blackberry",
+        "name": "Chickasaw Blackberry"
+      },
+      {
+        "slug": "sand-blackberry",
+        "name": "Sand Blackberry"
+      },
+      {
+        "slug": "raspberry",
+        "name": "Raspberry"
+      }
+    ]
   },
   {
     "slug": "blueberry-maggot",
@@ -3645,10 +3697,6 @@
       {
         "slug": "allegheny-serviceberry",
         "name": "Allegheny Serviceberry"
-      },
-      {
-        "slug": "almond-tree",
-        "name": "Almond Tree"
       },
       {
         "slug": "almond-tree",
@@ -3964,7 +4012,20 @@
       "Insectivorous Birds",
       "Assassin Bugs (Reduviidae)"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "chalk-maple",
+        "name": "Chalk Maple"
+      },
+      {
+        "slug": "florida-maple",
+        "name": "Florida Maple"
+      },
+      {
+        "slug": "apple",
+        "name": "Apple"
+      }
+    ]
   },
   {
     "slug": "broad-mite",
@@ -4051,7 +4112,36 @@
       "Assassin Bugs (Reduviidae)",
       "Insectivorous Birds"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "apple",
+        "name": "Apple"
+      },
+      {
+        "slug": "pear-tree",
+        "name": "Pear Tree"
+      },
+      {
+        "slug": "green-bean",
+        "name": "Green Bean"
+      },
+      {
+        "slug": "potato",
+        "name": "Potato"
+      },
+      {
+        "slug": "blueberry",
+        "name": "Blueberry"
+      },
+      {
+        "slug": "pecan-tree",
+        "name": "Pecan Tree"
+      },
+      {
+        "slug": "walnut-tree",
+        "name": "Walnut Tree"
+      }
+    ]
   },
   {
     "slug": "brown-rot",
@@ -4103,7 +4193,24 @@
       "Syrphid Fly Larvae (Syrphidae)",
       "Lacewing larvae (Chrysopidae)"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "broccoli",
+        "name": "Broccoli"
+      },
+      {
+        "slug": "kale",
+        "name": "Kale"
+      },
+      {
+        "slug": "bok-choy",
+        "name": "Bok Choy"
+      },
+      {
+        "slug": "wild-mustard-greens",
+        "name": "Wild Mustard Greens"
+      }
+    ]
   },
   {
     "slug": "cabbage-looper",
@@ -5262,7 +5369,20 @@
       "Insectivorous Birds",
       "Ants (Formicidae)"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "sand-cherry",
+        "name": "Sand Cherry"
+      },
+      {
+        "slug": "american-plum",
+        "name": "American Plum"
+      },
+      {
+        "slug": "wild-plum",
+        "name": "Wild Plum"
+      }
+    ]
   },
   {
     "slug": "citrus-canker",
@@ -5589,7 +5709,24 @@
       "Spiders",
       "Insectivorous Insects"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "dutch-clover",
+        "name": "Dutch Clover"
+      },
+      {
+        "slug": "crimson-clover",
+        "name": "Crimson Clover"
+      },
+      {
+        "slug": "strawberry",
+        "name": "Strawberry"
+      },
+      {
+        "slug": "iceberg-lettuce",
+        "name": "Iceberg Lettuce"
+      }
+    ]
   },
   {
     "slug": "clover-weevils",
@@ -6241,7 +6378,24 @@
       "Toads and Frogs (Anura)",
       "Centipedes (Chilopoda)"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "strawberry",
+        "name": "Strawberry"
+      },
+      {
+        "slug": "basil",
+        "name": "Basil"
+      },
+      {
+        "slug": "marigold",
+        "name": "Marigold"
+      },
+      {
+        "slug": "iceberg-lettuce",
+        "name": "Iceberg Lettuce"
+      }
+    ]
   },
   {
     "slug": "eastern-tent-caterpillar",
@@ -6263,7 +6417,24 @@
       "Braconid Wasps",
       "Insectivorous Birds"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "apple",
+        "name": "Apple"
+      },
+      {
+        "slug": "pear-tree",
+        "name": "Pear Tree"
+      },
+      {
+        "slug": "wild-crabapple",
+        "name": "Wild Crabapple"
+      },
+      {
+        "slug": "prairie-crabapple",
+        "name": "Prairie Crabapple"
+      }
+    ]
   },
   {
     "slug": "fall-armyworm",
@@ -6332,7 +6503,28 @@
       "Braconid Wasps",
       "Insectivorous Birds"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "bluejack-oak",
+        "name": "Bluejack Oak"
+      },
+      {
+        "slug": "walnut-tree",
+        "name": "Walnut Tree"
+      },
+      {
+        "slug": "pecan-tree",
+        "name": "Pecan Tree"
+      },
+      {
+        "slug": "american-persimmon",
+        "name": "American Persimmon"
+      },
+      {
+        "slug": "mulberry-tree",
+        "name": "Mulberry Tree"
+      }
+    ]
   },
   {
     "slug": "fig-beetle",
@@ -6380,7 +6572,28 @@
       "Fungal and Microsporidian Pathogens",
       "Competing Ant Species"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "strawberry",
+        "name": "Strawberry"
+      },
+      {
+        "slug": "potato",
+        "name": "Potato"
+      },
+      {
+        "slug": "blueberry",
+        "name": "Blueberry"
+      },
+      {
+        "slug": "lemon-tree",
+        "name": "Lemon Tree"
+      },
+      {
+        "slug": "lime-tree",
+        "name": "Lime Tree"
+      }
+    ]
   },
   {
     "slug": "fire-blight",
@@ -6637,7 +6850,24 @@
       "Stratiolaelaps scimitus",
       "Dalotia coriaria"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "basil",
+        "name": "Basil"
+      },
+      {
+        "slug": "strawberry",
+        "name": "Strawberry"
+      },
+      {
+        "slug": "iceberg-lettuce",
+        "name": "Iceberg Lettuce"
+      },
+      {
+        "slug": "celery",
+        "name": "Celery"
+      }
+    ]
   },
   {
     "slug": "fungus-gnats",
@@ -7004,7 +7234,24 @@
       "Insectivorous Birds",
       "Assassin Bugs (Reduviidae)"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "riverbank-grape",
+        "name": "Riverbank Grape"
+      },
+      {
+        "slug": "mustang-grape",
+        "name": "Mustang Grape"
+      },
+      {
+        "slug": "blueberry",
+        "name": "Blueberry"
+      },
+      {
+        "slug": "raspberry",
+        "name": "Raspberry"
+      }
+    ]
   },
   {
     "slug": "heart-rot",
@@ -7513,10 +7760,6 @@
       {
         "slug": "green-headed-coneflower",
         "name": "Green Headed Coneflower"
-      },
-      {
-        "slug": "groundnut",
-        "name": "Groundnut"
       },
       {
         "slug": "groundnut",
@@ -8535,7 +8778,24 @@
       "Woodpeckers (Picidae)",
       "Entomopathogenic Nematodes"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "nectarine-tree",
+        "name": "Nectarine Tree"
+      },
+      {
+        "slug": "almond-tree",
+        "name": "Almond Tree"
+      },
+      {
+        "slug": "american-plum",
+        "name": "American Plum"
+      },
+      {
+        "slug": "chickasaw-plum",
+        "name": "Chickasaw Plum"
+      }
+    ]
   },
   {
     "slug": "lettuce-aphid",
@@ -8557,7 +8817,20 @@
       "Syrphid Fly Larvae (Syrphidae)",
       "Minute Pirate Bugs (Orius spp.)"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "iceberg-lettuce",
+        "name": "Iceberg Lettuce"
+      },
+      {
+        "slug": "miners-lettuce",
+        "name": "Miner's Lettuce"
+      },
+      {
+        "slug": "western-miners-lettuce",
+        "name": "Western miner's lettuce"
+      }
+    ]
   },
   {
     "slug": "locust-borer",
@@ -9846,7 +10119,24 @@
       "Ichneumonid Wasps",
       "Lacewing larvae (Chrysopidae)"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "nectarine-tree",
+        "name": "Nectarine Tree"
+      },
+      {
+        "slug": "almond-tree",
+        "name": "Almond Tree"
+      },
+      {
+        "slug": "american-plum",
+        "name": "American Plum"
+      },
+      {
+        "slug": "chickasaw-plum",
+        "name": "Chickasaw Plum"
+      }
+    ]
   },
   {
     "slug": "peachtree-borer",
@@ -9868,7 +10158,24 @@
       "Woodpeckers (Picidae)",
       "Entomopathogenic Nematodes"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "nectarine-tree",
+        "name": "Nectarine Tree"
+      },
+      {
+        "slug": "almond-tree",
+        "name": "Almond Tree"
+      },
+      {
+        "slug": "american-plum",
+        "name": "American Plum"
+      },
+      {
+        "slug": "chickasaw-plum",
+        "name": "Chickasaw Plum"
+      }
+    ]
   },
   {
     "slug": "pear-psylla",
@@ -9976,7 +10283,20 @@
       "Orb-weaver Spiders",
       "Ground Beetles (Carabidae)"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "chiltepin-pepper",
+        "name": "Chiltepin Pepper"
+      },
+      {
+        "slug": "ground-cherry",
+        "name": "Ground Cherry"
+      },
+      {
+        "slug": "pepino-melon",
+        "name": "Pepino Melon"
+      }
+    ]
   },
   {
     "slug": "persimmon-borer",
@@ -10181,7 +10501,28 @@
       "Toads and Frogs (Anura)",
       "Ants (Formicidae)"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "apple",
+        "name": "Apple"
+      },
+      {
+        "slug": "pear-tree",
+        "name": "Pear Tree"
+      },
+      {
+        "slug": "american-plum",
+        "name": "American Plum"
+      },
+      {
+        "slug": "chickasaw-plum",
+        "name": "Chickasaw Plum"
+      },
+      {
+        "slug": "wild-plum",
+        "name": "Wild Plum"
+      }
+    ]
   },
   {
     "slug": "pomegranate-butterfly",
@@ -10756,7 +11097,20 @@
       "Braconid Wasps",
       "Crab Spiders (Thomisidae)"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "raspberry",
+        "name": "Raspberry"
+      },
+      {
+        "slug": "chickasaw-blackberry",
+        "name": "Chickasaw Blackberry"
+      },
+      {
+        "slug": "sand-blackberry",
+        "name": "Sand Blackberry"
+      }
+    ]
   },
   {
     "slug": "red-palm-weevil",
@@ -10966,7 +11320,24 @@
       "Soil Predatory Mites (Hypoaspis spp.)",
       "Ground Beetles (Carabidae)"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "carrot",
+        "name": "Carrot"
+      },
+      {
+        "slug": "parsnip",
+        "name": "Parsnip"
+      },
+      {
+        "slug": "iceberg-lettuce",
+        "name": "Iceberg Lettuce"
+      },
+      {
+        "slug": "hemp",
+        "name": "Hemp"
+      }
+    ]
   },
   {
     "slug": "root-rot",
@@ -11344,7 +11715,20 @@
       "Ground Beetles (Carabidae)",
       "Parasitic Wasps (Hymenoptera)"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "carolina-rose",
+        "name": "Carolina Rose"
+      },
+      {
+        "slug": "pasture-rose",
+        "name": "Pasture Rose"
+      },
+      {
+        "slug": "climbing-prairie-rose",
+        "name": "Climbing Prairie Rose"
+      }
+    ]
   },
   {
     "slug": "rugose-spiraling-whitefly",
@@ -14853,7 +15237,28 @@
       "Insectivorous Birds",
       "Egg Parasitoids (under evaluation in North America)"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "riverbank-grape",
+        "name": "Riverbank Grape"
+      },
+      {
+        "slug": "mustang-grape",
+        "name": "Mustang Grape"
+      },
+      {
+        "slug": "apple",
+        "name": "Apple"
+      },
+      {
+        "slug": "walnut-tree",
+        "name": "Walnut Tree"
+      },
+      {
+        "slug": "bluejack-oak",
+        "name": "Bluejack Oak"
+      }
+    ]
   },
   {
     "slug": "squash-bug",
@@ -14875,7 +15280,24 @@
       "Ground Beetles (Carabidae)",
       "Orb-weaver Spiders"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "acorn-squash",
+        "name": "Acorn Squash"
+      },
+      {
+        "slug": "seminole-pumpkin",
+        "name": "Seminole Pumpkin"
+      },
+      {
+        "slug": "bitter-melon",
+        "name": "Bitter Melon"
+      },
+      {
+        "slug": "cucamelon",
+        "name": "Cucamelon"
+      }
+    ]
   },
   {
     "slug": "squash-vine-borer",
@@ -15021,7 +15443,20 @@
       "Ants (Formicidae)",
       "Insectivorous Birds"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "strawberry",
+        "name": "Strawberry"
+      },
+      {
+        "slug": "blueberry",
+        "name": "Blueberry"
+      },
+      {
+        "slug": "azalea",
+        "name": "Azalea"
+      }
+    ]
   },
   {
     "slug": "striped-cucumber-beetle",
@@ -15200,7 +15635,24 @@
       "Braconid Wasps",
       "Insectivorous Birds"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "apple",
+        "name": "Apple"
+      },
+      {
+        "slug": "pear-tree",
+        "name": "Pear Tree"
+      },
+      {
+        "slug": "bluejack-oak",
+        "name": "Bluejack Oak"
+      },
+      {
+        "slug": "wild-crabapple",
+        "name": "Wild Crabapple"
+      }
+    ]
   },
   {
     "slug": "texas-citrus-mite",
@@ -15534,7 +15986,24 @@
       "Beauveria bassiana",
       "Ground Beetles (Carabidae)"
     ],
-    "affected_plants": []
+    "affected_plants": [
+      {
+        "slug": "strawberry",
+        "name": "Strawberry"
+      },
+      {
+        "slug": "blueberry",
+        "name": "Blueberry"
+      },
+      {
+        "slug": "rhododendron",
+        "name": "Rhododendron"
+      },
+      {
+        "slug": "azalea",
+        "name": "Azalea"
+      }
+    ]
   },
   {
     "slug": "walnut-husk-fly",
