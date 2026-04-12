@@ -4,20 +4,14 @@ import BaseLayout from '../components/layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { entrySlug } from '../lib/content';
 
-const PAGE_SIZE = 12;
-const entries = (await getCollection('articles'))
+const all = (await getCollection('articles'))
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 
-const totalPages = Math.max(1, Math.ceil(entries.length / PAGE_SIZE));
-const currentPage = Math.min(
-  Math.max(parseInt(Astro.url.searchParams.get('page') || '1', 10), 1),
-  totalPages
-);
-const start = (currentPage - 1) * PAGE_SIZE;
-const pageItems = entries.slice(start, start + PAGE_SIZE);
+const satire = all.filter(a => a.data.tags?.includes('satire'));
+const guides = all.filter(a => !a.data.tags?.includes('satire'));
 ---
 
-<BaseLayout title="Articles">
+<BaseLayout title="Articles — PermiePortal">
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Serif:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
 
@@ -28,168 +22,106 @@ const pageItems = entries.slice(start, start + PAGE_SIZE);
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    background: var(--soil); color: var(--paper);
-    font-family: 'Instrument Serif', Georgia, serif;
-    min-height: 100vh;
-  }
+  body { background: var(--soil); color: var(--paper); font-family: 'Instrument Serif', Georgia, serif; overflow-x: hidden; }
 
-  .nav {
-    display: flex; justify-content: space-between; align-items: center;
-    padding: 1.5rem 2rem;
-    border-bottom: 1px solid rgba(139,184,58,0.2);
-  }
-  .nav-logo {
-    font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem;
-    letter-spacing: 0.08em; color: var(--lime); text-decoration: none;
-  }
+  /* NAV */
+  .nav { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 2rem; border-bottom: 1px solid rgba(139,184,58,0.2); }
+  .nav-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; letter-spacing: 0.08em; color: var(--lime); text-decoration: none; }
   .nav-links { display: flex; gap: 2rem; list-style: none; }
-  .nav-links a {
-    font-family: 'Space Mono', monospace; font-size: 0.72rem;
-    text-transform: uppercase; letter-spacing: 0.12em;
-    color: var(--ash); text-decoration: none; transition: color 0.2s;
-  }
-  .nav-links a:hover, .nav-links a[aria-current] { color: var(--lime); }
+  .nav-links a { font-family: 'Space Mono', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ash); text-decoration: none; transition: color 0.2s; }
+  .nav-links a:hover { color: var(--lime); }
 
+  /* PAGE HEADER */
   .page-header {
-    padding: 3rem 2rem 2rem;
+    padding: 4rem 2rem 3rem;
     border-bottom: 1px solid rgba(139,184,58,0.15);
-    display: grid; grid-template-columns: 1fr auto;
-    align-items: end; gap: 2rem;
-  }
-
-  .page-eyebrow {
-    font-family: 'Space Mono', monospace; font-size: 0.65rem;
-    letter-spacing: 0.2em; text-transform: uppercase;
-    color: var(--lime); margin-bottom: 0.75rem;
-    display: flex; align-items: center; gap: 0.75rem;
-  }
-  .page-eyebrow::before { content: ''; width: 2rem; height: 1px; background: var(--lime); }
-
-  .page-title {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: clamp(3rem, 6vw, 5rem);
-    line-height: 1; letter-spacing: 0.02em; color: var(--paper);
-  }
-
-  .page-sub {
-    font-style: italic; font-size: 1rem;
-    color: var(--ash); margin-top: 0.5rem;
-  }
-
-  .page-count {
-    font-family: 'Space Mono', monospace; font-size: 0.7rem;
-    color: var(--ash); text-align: right;
-  }
-  .page-count span {
-    display: block; font-family: 'Bebas Neue', sans-serif;
-    font-size: 3rem; color: var(--lime); line-height: 1;
-  }
-
-  .grid-wrap { padding: 2rem; }
-
-  .articles-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 1px;
-    background: rgba(139,184,58,0.08);
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: end;
   }
+  .page-eyebrow { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--straw); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.75rem; }
+  .page-eyebrow::before { content: ''; width: 2rem; height: 1px; background: var(--straw); }
+  .page-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(4rem, 8vw, 7rem); line-height: 0.9; letter-spacing: 0.02em; color: var(--paper); }
+  .page-title em { color: var(--rust); font-style: normal; }
+  .page-desc { font-size: 1.1rem; line-height: 1.75; color: var(--ash); }
+  .page-desc strong { color: var(--paper); }
 
+  /* SECTION HEADERS */
+  .section-header {
+    padding: 3rem 2rem 1.5rem;
+    display: flex;
+    align-items: baseline;
+    gap: 1.5rem;
+    border-bottom: 1px solid rgba(139,184,58,0.08);
+  }
+  .section-number { font-family: 'Bebas Neue', sans-serif; font-size: 4rem; line-height: 1; opacity: 0.12; color: var(--lime); }
+  .section-info {}
+  .section-label { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 0.3rem; }
+  .section-label.rot { color: var(--rust); }
+  .section-label.field { color: var(--lime); }
+  .section-name { font-family: 'Bebas Neue', sans-serif; font-size: 2.5rem; letter-spacing: 0.03em; color: var(--paper); }
+  .section-tagline { font-size: 0.9rem; color: var(--ash); font-style: italic; margin-top: 0.2rem; }
+
+  /* ARTICLE GRID */
+  .article-grid { padding: 2rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1.5rem; }
+
+  /* ARTICLE CARDS */
   .article-card {
+    display: block; text-decoration: none;
     background: var(--bark);
-    padding: 2rem;
-    text-decoration: none;
-    display: block;
-    transition: background 0.2s;
+    border: 1px solid rgba(139,184,58,0.12);
+    padding: 1.75rem;
+    transition: all 0.25s;
     position: relative;
     overflow: hidden;
   }
-
-  .article-card::after {
+  .article-card::before {
     content: '';
     position: absolute; bottom: 0; left: 0;
-    width: 100%; height: 2px; background: var(--lime);
+    width: 100%; height: 2px;
     transform: scaleX(0); transform-origin: left;
-    transition: transform 0.25s;
+    transition: transform 0.3s;
   }
+  .article-card.rot { border-color: rgba(196,85,26,0.15); }
+  .article-card.rot::before { background: var(--rust); }
+  .article-card.rot:hover { background: rgba(122,59,30,0.15); border-color: rgba(196,85,26,0.3); }
+  .article-card.field::before { background: var(--lime); }
+  .article-card.field:hover { background: rgba(42,61,31,0.3); border-color: rgba(139,184,58,0.3); }
+  .article-card:hover::before { transform: scaleX(1); }
 
-  .article-card:hover { background: rgba(42,61,31,0.4); }
-  .article-card:hover::after { transform: scaleX(1); }
+  .card-meta { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.75rem; }
+  .card-meta.rot { color: var(--rust); opacity: 0.8; }
+  .card-meta.field { color: var(--lime); opacity: 0.7; }
+  .card-meta::before { content: ''; width: 1.5rem; height: 1px; }
+  .card-meta.rot::before { background: var(--rust); }
+  .card-meta.field::before { background: var(--lime); }
 
-  .card-date {
-    font-family: 'Space Mono', monospace; font-size: 0.62rem;
-    letter-spacing: 0.1em; text-transform: uppercase;
-    color: var(--straw); margin-bottom: 0.75rem;
-  }
+  .card-title { font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem; letter-spacing: 0.03em; color: var(--paper); margin-bottom: 0.75rem; line-height: 1.1; }
+  .card-summary { font-size: 0.9rem; line-height: 1.65; color: var(--ash); margin-bottom: 1.25rem; }
+  .card-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+  .card-tag { font-family: 'Space Mono', monospace; font-size: 0.58rem; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.15rem 0.55rem; border: 1px solid rgba(139,184,58,0.2); color: var(--ash); }
+  .card-tag.satire-tag { border-color: rgba(196,85,26,0.25); color: var(--rust); opacity: 0.8; }
 
-  .card-title {
-    font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem;
-    letter-spacing: 0.03em; line-height: 1.1;
-    color: var(--paper); margin-bottom: 0.75rem;
-  }
+  .card-read { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; margin-top: 1.25rem; display: flex; align-items: center; gap: 0.4rem; }
+  .card-read.rot { color: var(--rust); }
+  .card-read.field { color: var(--lime); }
+  .card-read::after { content: '→'; transition: transform 0.2s; }
+  .article-card:hover .card-read::after { transform: translateX(4px); }
 
-  .card-summary {
-    font-size: 0.95rem; line-height: 1.65;
-    color: var(--ash); margin-bottom: 1rem;
-  }
+  /* EMPTY STATE */
+  .empty { padding: 3rem 2rem; font-family: 'Space Mono', monospace; font-size: 0.8rem; color: var(--ash); font-style: italic; }
 
-  .card-tags {
-    display: flex; flex-wrap: wrap; gap: 0.4rem;
-  }
-
-  .card-tag {
-    font-family: 'Space Mono', monospace; font-size: 0.58rem;
-    letter-spacing: 0.08em; text-transform: uppercase;
-    padding: 0.2rem 0.6rem;
-    background: rgba(42,61,31,0.5);
-    border: 1px solid rgba(74,124,53,0.35);
-    color: var(--lime);
-  }
-
-  .card-tag.satire {
-    background: rgba(122,59,30,0.3);
-    border-color: rgba(196,85,26,0.4);
-    color: var(--straw);
-  }
-
-  .pagination {
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 2rem;
-    border-top: 1px solid rgba(139,184,58,0.1);
-    font-family: 'Space Mono', monospace; font-size: 0.7rem;
-  }
-
-  .page-btn {
-    letter-spacing: 0.1em; text-transform: uppercase;
-    padding: 0.6rem 1.2rem;
-    border: 1px solid rgba(139,184,58,0.25);
-    color: var(--lime); text-decoration: none;
-    transition: all 0.2s;
-  }
-  .page-btn:hover { border-color: var(--lime); background: rgba(139,184,58,0.08); }
-  .page-btn.disabled { opacity: 0.3; pointer-events: none; }
-
-  .page-info { color: var(--ash); }
-
-  .footer {
-    padding: 2rem 4rem;
-    border-top: 1px solid rgba(139,184,58,0.15);
-    display: flex; justify-content: space-between; align-items: center;
-    margin-top: 2rem;
-  }
-  .footer-logo {
-    font-family: 'Bebas Neue', sans-serif; font-size: 1.2rem;
-    color: var(--lime); letter-spacing: 0.08em;
-  }
-  .footer-copy {
-    font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--ash);
-  }
+  /* FOOTER */
+  .footer { padding: 2rem 4rem; border-top: 1px solid rgba(139,184,58,0.15); display: flex; justify-content: space-between; align-items: center; margin-top: 2rem; }
+  .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.2rem; color: var(--lime); letter-spacing: 0.08em; }
+  .footer-copy { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--ash); }
 
   @media (max-width: 768px) {
-    .page-header { grid-template-columns: 1fr; }
-    .articles-grid { grid-template-columns: 1fr; }
+    .page-header { grid-template-columns: 1fr; gap: 1.5rem; padding: 2.5rem 1.5rem; }
+    .article-grid { grid-template-columns: 1fr; padding: 1.5rem; }
     .nav-links { gap: 1rem; }
-    .footer { flex-direction: column; gap: 1rem; padding: 2rem 1.5rem; }
+    .footer { flex-direction: column; gap: 1rem; text-align: center; padding: 2rem 1.5rem; }
   }
 </style>
 
@@ -198,7 +130,7 @@ const pageItems = entries.slice(start, start + PAGE_SIZE);
   <ul class="nav-links">
     <li><a href="/plants">Plants</a></li>
     <li><a href="/pests">Pests</a></li>
-    <li><a href="/articles" aria-current="true">Articles</a></li>
+    <li><a href="/articles">Articles</a></li>
     <li><a href="/projects">Projects</a></li>
     <li><a href="/about">About</a></li>
   </ul>
@@ -206,60 +138,88 @@ const pageItems = entries.slice(start, start + PAGE_SIZE);
 
 <div class="page-header">
   <div>
-    <p class="page-eyebrow">Satire & Guides</p>
-    <h1 class="page-title">Field Notes</h1>
-    <p class="page-sub">Dark truths, bad botany jokes, and actual useful information.</p>
+    <p class="page-eyebrow">Field Notes & Rotten Articles</p>
+    <h1 class="page-title">Read<br>Something<br><em>Useful.</em></h1>
   </div>
-  <div class="page-count">
-    <span>{entries.length}</span>
-    articles
+  <div>
+    <p class="page-desc">
+      Two kinds of content. <strong>Field Notes</strong> — practical guides, plant deep-dives,
+      and soil science worth knowing. <strong>Rotten Articles</strong> — satire sharp enough
+      to leave a mark. Both aim at the same target: the gap between what we're told and what's
+      actually happening in the dirt.
+    </p>
   </div>
 </div>
 
-<div class="grid-wrap">
-  <div class="articles-grid" id="main">
-    {pageItems.map((a) => {
-      const href = `/articles/${entrySlug(a)}`;
-      const isSatire = a.data.tags?.includes('satire');
-      return (
-        <a href={href} class="article-card">
-          <div class="card-date">
-            {new Date(a.data.date).toLocaleDateString('en-US', {
-              year: 'numeric', month: 'long', day: 'numeric'
-            })}
+<!-- ROTTEN ARTICLES -->
+{satire.length > 0 && (
+  <div>
+    <div class="section-header">
+      <div class="section-number">01</div>
+      <div class="section-info">
+        <div class="section-label rot">Satire / Dark Humor</div>
+        <div class="section-name">Rotten Articles</div>
+        <div class="section-tagline">Truth dressed up as comedy. The joke is always on the system.</div>
+      </div>
+    </div>
+    <div class="article-grid">
+      {satire.map(a => (
+        <a href={`/articles/${entrySlug(a)}`} class="article-card rot">
+          <div class="card-meta rot">
+            {new Date(a.data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
           </div>
           <div class="card-title">{a.data.title}</div>
           <p class="card-summary">{a.data.summary}</p>
-          {a.data.tags && a.data.tags.length > 0 && (
-            <div class="card-tags">
-              {a.data.tags.map((tag: string) => (
-                <span class={`card-tag ${tag === 'satire' ? 'satire' : ''}`}>{tag}</span>
-              ))}
-            </div>
-          )}
+          <div class="card-tags">
+            {(a.data.tags || []).map((t: string) => (
+              <span class={`card-tag ${t === 'satire' ? 'satire-tag' : ''}`}>{t}</span>
+            ))}
+          </div>
+          <div class="card-read rot">Read it</div>
         </a>
-      );
-    })}
+      ))}
+    </div>
   </div>
-</div>
+)}
 
-{totalPages > 1 && (
-  <nav class="pagination" aria-label="Pagination">
-    <a
-      href={`?page=${currentPage - 1}`}
-      class={`page-btn ${currentPage === 1 ? 'disabled' : ''}`}
-    >← Previous</a>
-    <span class="page-info">Page {currentPage} of {totalPages}</span>
-    <a
-      href={`?page=${currentPage + 1}`}
-      class={`page-btn ${currentPage === totalPages ? 'disabled' : ''}`}
-    >Next →</a>
-  </nav>
+<!-- FIELD NOTES -->
+{guides.length > 0 && (
+  <div>
+    <div class="section-header">
+      <div class="section-number">02</div>
+      <div class="section-info">
+        <div class="section-label field">Guides / Deep Dives</div>
+        <div class="section-name">Field Notes</div>
+        <div class="section-tagline">Practical knowledge from people who actually grow things.</div>
+      </div>
+    </div>
+    <div class="article-grid">
+      {guides.map(a => (
+        <a href={`/articles/${entrySlug(a)}`} class="article-card field">
+          <div class="card-meta field">
+            {new Date(a.data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+          </div>
+          <div class="card-title">{a.data.title}</div>
+          <p class="card-summary">{a.data.summary}</p>
+          <div class="card-tags">
+            {(a.data.tags || []).map((t: string) => (
+              <span class="card-tag">{t}</span>
+            ))}
+          </div>
+          <div class="card-read field">Read it</div>
+        </a>
+      ))}
+    </div>
+  </div>
+)}
+
+{satire.length === 0 && guides.length === 0 && (
+  <p class="empty">No articles yet. Check back soon.</p>
 )}
 
 <footer class="footer">
   <div class="footer-logo">PermiePortal</div>
-  <div class="footer-copy">© {new Date().getFullYear()} — Built in a food forest in Yulee, FL</div>
+  <div class="footer-copy">© {new Date().getFullYear()} PermiePortal</div>
 </footer>
 
 </BaseLayout>

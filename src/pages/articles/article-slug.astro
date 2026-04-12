@@ -13,12 +13,13 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 const data = entry.data;
 
-const formattedDate = new Date(data.date).toLocaleDateString('en-US', {
+const isSatire = data.tags?.includes('satire');
+const dateStr = new Date(data.date).toLocaleDateString('en-US', {
   year: 'numeric', month: 'long', day: 'numeric'
 });
 ---
 
-<BaseLayout title={data.title}>
+<BaseLayout title={`${data.title} — PermiePortal`}>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Serif:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
 
@@ -29,232 +30,188 @@ const formattedDate = new Date(data.date).toLocaleDateString('en-US', {
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    background: var(--soil); color: var(--paper);
-    font-family: 'Instrument Serif', Georgia, serif;
-  }
+  body { background: var(--soil); color: var(--paper); font-family: 'Instrument Serif', Georgia, serif; }
 
-  .nav {
-    display: flex; justify-content: space-between; align-items: center;
-    padding: 1.5rem 2rem;
-    border-bottom: 1px solid rgba(139,184,58,0.2);
-  }
-  .nav-logo {
-    font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem;
-    letter-spacing: 0.08em; color: var(--lime); text-decoration: none;
-  }
+  /* NAV */
+  .nav { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 2rem; border-bottom: 1px solid rgba(139,184,58,0.2); }
+  .nav-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; letter-spacing: 0.08em; color: var(--lime); text-decoration: none; }
   .nav-links { display: flex; gap: 2rem; list-style: none; }
-  .nav-links a {
-    font-family: 'Space Mono', monospace; font-size: 0.72rem;
-    text-transform: uppercase; letter-spacing: 0.12em;
-    color: var(--ash); text-decoration: none; transition: color 0.2s;
-  }
+  .nav-links a { font-family: 'Space Mono', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ash); text-decoration: none; transition: color 0.2s; }
   .nav-links a:hover { color: var(--lime); }
 
-  .breadcrumb {
-    padding: 1rem 2rem;
-    font-family: 'Space Mono', monospace; font-size: 0.65rem;
-    letter-spacing: 0.1em; text-transform: uppercase;
-    color: var(--ash); border-bottom: 1px solid rgba(139,184,58,0.1);
-  }
+  /* BREADCRUMB */
+  .breadcrumb { padding: 1rem 2rem; font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ash); border-bottom: 1px solid rgba(139,184,58,0.1); }
   .breadcrumb a { color: var(--lime); text-decoration: none; }
   .breadcrumb a:hover { text-decoration: underline; }
+  .breadcrumb-sep { opacity: 0.4; margin: 0 0.4rem; }
 
   /* ARTICLE HEADER */
   .article-header {
-    max-width: 760px;
+    max-width: 800px;
     margin: 0 auto;
-    padding: 3rem 2rem 2rem;
+    padding: 4rem 2rem 3rem;
     border-bottom: 1px solid rgba(139,184,58,0.1);
   }
 
   .article-eyebrow {
     font-family: 'Space Mono', monospace; font-size: 0.65rem;
     letter-spacing: 0.2em; text-transform: uppercase;
-    color: var(--straw); margin-bottom: 1rem;
-    display: flex; align-items: center; gap: 0.75rem;
+    margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.75rem;
   }
-  .article-eyebrow::before { content: ''; width: 2rem; height: 1px; background: var(--straw); }
+  .article-eyebrow.rot { color: var(--rust); }
+  .article-eyebrow.rot::before { content: ''; width: 2rem; height: 1px; background: var(--rust); }
+  .article-eyebrow.field { color: var(--lime); }
+  .article-eyebrow.field::before { content: ''; width: 2rem; height: 1px; background: var(--lime); }
 
   .article-title {
     font-family: 'Bebas Neue', sans-serif;
     font-size: clamp(2.5rem, 6vw, 5rem);
     line-height: 0.95; letter-spacing: 0.02em;
-    color: var(--paper); margin-bottom: 1.25rem;
+    color: var(--paper); margin-bottom: 1.5rem;
   }
 
   .article-summary {
-    font-size: 1.15rem; line-height: 1.65;
+    font-size: 1.15rem; line-height: 1.7;
     color: var(--ash); font-style: italic;
     margin-bottom: 1.5rem;
-    border-left: 2px solid var(--lime);
     padding-left: 1rem;
+    border-left: 2px solid rgba(139,184,58,0.3);
   }
 
   .article-meta {
-    display: flex; align-items: center; gap: 1.5rem;
-    flex-wrap: wrap;
+    display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;
   }
-
   .article-date {
     font-family: 'Space Mono', monospace; font-size: 0.68rem;
-    letter-spacing: 0.1em; text-transform: uppercase;
-    color: var(--ash);
+    color: var(--ash); letter-spacing: 0.08em;
   }
-
-  .article-tags {
-    display: flex; gap: 0.4rem; flex-wrap: wrap;
-  }
-
+  .article-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; }
   .article-tag {
-    font-family: 'Space Mono', monospace; font-size: 0.6rem;
-    letter-spacing: 0.08em; text-transform: uppercase;
-    padding: 0.2rem 0.6rem;
-    background: rgba(42,61,31,0.5);
-    border: 1px solid rgba(74,124,53,0.35);
-    color: var(--lime);
+    font-family: 'Space Mono', monospace; font-size: 0.58rem;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    padding: 0.15rem 0.55rem;
+    border: 1px solid rgba(139,184,58,0.2); color: var(--ash);
   }
+  .article-tag.satire-tag { border-color: rgba(196,85,26,0.3); color: var(--rust); }
 
-  .article-tag.satire {
-    background: rgba(122,59,30,0.3);
-    border-color: rgba(196,85,26,0.4);
-    color: var(--straw);
-  }
-
-  /* ARTICLE PROSE */
+  /* ARTICLE BODY */
   .article-body {
-    max-width: 760px;
+    max-width: 800px;
     margin: 0 auto;
-    padding: 3rem 2rem 4rem;
+    padding: 3rem 2rem 5rem;
   }
 
-  /* Prose styles — scoped to article-body */
+  /* Prose styles for MDX content */
+  .article-body :global(h1),
+  .article-body :global(h2),
+  .article-body :global(h3),
+  .article-body :global(h4) {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.03em;
+    color: var(--paper);
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+  }
+
+  .article-body :global(h1) { font-size: 2.8rem; }
+  .article-body :global(h2) { font-size: 2.2rem; }
+  .article-body :global(h3) { font-size: 1.8rem; }
+
   .article-body :global(p) {
-    font-size: 1.1rem;
-    line-height: 1.85;
-    color: var(--ash);
-    margin-bottom: 1.5rem;
+    font-size: 1.1rem; line-height: 1.85;
+    color: var(--ash); margin-bottom: 1.5rem;
   }
 
-  .article-body :global(h2) {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 2rem; letter-spacing: 0.03em;
-    color: var(--paper); margin: 3rem 0 1rem;
-    border-bottom: 1px solid rgba(139,184,58,0.15);
-    padding-bottom: 0.5rem;
-  }
-
-  .article-body :global(h3) {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.4rem; letter-spacing: 0.03em;
-    color: var(--paper); margin: 2rem 0 0.75rem;
-  }
-
-  .article-body :global(strong) {
-    color: var(--paper); font-weight: 600;
-  }
-
-  .article-body :global(em) {
-    color: var(--paper); font-style: italic;
-  }
+  .article-body :global(strong) { color: var(--paper); font-weight: normal; }
+  .article-body :global(em) { color: var(--straw); font-style: italic; }
 
   .article-body :global(a) {
     color: var(--lime); text-decoration: underline;
-    text-underline-offset: 3px;
+    text-decoration-color: rgba(139,184,58,0.4);
+    transition: text-decoration-color 0.2s;
   }
-  .article-body :global(a:hover) { color: var(--paper); }
+  .article-body :global(a:hover) { text-decoration-color: var(--lime); }
 
   .article-body :global(ul),
   .article-body :global(ol) {
-    padding-left: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin: 1.5rem 0 1.5rem 1.5rem;
+    color: var(--ash);
   }
-
   .article-body :global(li) {
     font-size: 1.05rem; line-height: 1.75;
-    color: var(--ash); margin-bottom: 0.4rem;
+    margin-bottom: 0.5rem;
   }
 
   .article-body :global(blockquote) {
-    border-left: 3px solid var(--lime);
     margin: 2rem 0;
-    padding: 1rem 1.5rem;
-    background: rgba(42,61,31,0.2);
-  }
-
-  .article-body :global(blockquote p) {
+    padding: 1.25rem 1.5rem;
+    border-left: 3px solid var(--straw);
+    background: rgba(28,24,18,0.6);
     font-style: italic;
     color: var(--paper);
-    margin-bottom: 0;
   }
+  .article-body :global(blockquote p) { margin-bottom: 0; color: var(--paper); }
 
   .article-body :global(hr) {
     border: none;
-    border-top: 1px solid rgba(139,184,58,0.2);
+    border-top: 1px solid rgba(139,184,58,0.15);
     margin: 3rem 0;
   }
 
   .article-body :global(img) {
-    width: 100%;
-    height: auto;
+    width: 100%; height: auto;
     display: block;
     margin: 2rem 0;
-    border: 1px solid rgba(139,184,58,0.15);
-    opacity: 0.9;
+    opacity: 0.85;
   }
 
   .article-body :global(code) {
     font-family: 'Space Mono', monospace;
     font-size: 0.85em;
-    background: rgba(42,61,31,0.4);
-    padding: 0.15em 0.4em;
+    background: rgba(28,24,18,0.8);
+    padding: 0.1em 0.4em;
     color: var(--lime);
   }
 
   .article-body :global(pre) {
-    background: var(--bark);
+    background: rgba(28,24,18,0.9);
     border: 1px solid rgba(139,184,58,0.15);
     padding: 1.5rem;
     overflow-x: auto;
-    margin-bottom: 1.5rem;
+    margin: 2rem 0;
   }
-
   .article-body :global(pre code) {
-    background: none;
-    padding: 0;
-    font-size: 0.85rem;
-    color: var(--lime);
+    background: none; padding: 0;
+    font-size: 0.85rem; line-height: 1.6;
   }
 
-  /* Back link */
+  /* BACK LINK */
+  .back-link-wrap {
+    max-width: 800px; margin: 0 auto;
+    padding: 0 2rem 3rem;
+  }
   .back-link {
-    display: inline-flex; align-items: center; gap: 0.5rem;
     font-family: 'Space Mono', monospace; font-size: 0.7rem;
     letter-spacing: 0.1em; text-transform: uppercase;
     color: var(--lime); text-decoration: none;
-    padding: 2rem 2rem 0;
-    transition: gap 0.2s; max-width: 760px; margin: 0 auto; display: block;
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    transition: gap 0.2s;
   }
   .back-link:hover { gap: 0.75rem; }
+  .back-link::before { content: '←'; }
 
-  .footer {
-    padding: 2rem 4rem;
-    border-top: 1px solid rgba(139,184,58,0.15);
-    display: flex; justify-content: space-between; align-items: center;
-    margin-top: 2rem;
-  }
-  .footer-logo {
-    font-family: 'Bebas Neue', sans-serif; font-size: 1.2rem;
-    color: var(--lime); letter-spacing: 0.08em;
-  }
-  .footer-copy {
-    font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--ash);
-  }
+  /* FOOTER */
+  .footer { padding: 2rem 4rem; border-top: 1px solid rgba(139,184,58,0.15); display: flex; justify-content: space-between; align-items: center; }
+  .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.2rem; color: var(--lime); letter-spacing: 0.08em; }
+  .footer-copy { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--ash); }
 
   @media (max-width: 768px) {
+    .article-header { padding: 2.5rem 1.5rem 2rem; }
+    .article-body { padding: 2rem 1.5rem 4rem; }
+    .back-link-wrap { padding: 0 1.5rem 2rem; }
     .nav-links { gap: 1rem; }
-    .article-header, .article-body { padding-left: 1.25rem; padding-right: 1.25rem; }
-    .footer { flex-direction: column; gap: 1rem; padding: 2rem 1.5rem; }
+    .footer { flex-direction: column; gap: 1rem; text-align: center; padding: 2rem 1.5rem; }
   }
 </style>
 
@@ -270,34 +227,38 @@ const formattedDate = new Date(data.date).toLocaleDateString('en-US', {
 </nav>
 
 <div class="breadcrumb">
-  <a href="/articles">← Articles</a> / {data.title}
+  <a href="/articles">← Articles</a>
+  <span class="breadcrumb-sep">/</span>
+  {isSatire ? 'Rotten Articles' : 'Field Notes'}
 </div>
 
 <div class="article-header">
-  <p class="article-eyebrow">Field Notes</p>
+  <p class={`article-eyebrow ${isSatire ? 'rot' : 'field'}`}>
+    {isSatire ? 'Rotten Articles — Satire' : 'Field Notes — Guide'}
+  </p>
   <h1 class="article-title">{data.title}</h1>
-  {data.summary && (
-    <p class="article-summary">{data.summary}</p>
-  )}
+  {data.summary && <p class="article-summary">{data.summary}</p>}
   <div class="article-meta">
-    <span class="article-date">{formattedDate}</span>
-    {data.tags && data.tags.length > 0 && (
-      <div class="article-tags">
-        {data.tags.map((tag: string) => (
-          <span class={`article-tag ${tag === 'satire' ? 'satire' : ''}`}>{tag}</span>
-        ))}
-      </div>
-    )}
+    <span class="article-date">{dateStr}</span>
+    <div class="article-tags">
+      {(data.tags || []).map((t: string) => (
+        <span class={`article-tag ${t === 'satire' ? 'satire-tag' : ''}`}>{t}</span>
+      ))}
+    </div>
   </div>
 </div>
 
-<div class="article-body" id="main">
+<div class="article-body">
   <Content />
+</div>
+
+<div class="back-link-wrap">
+  <a href="/articles" class="back-link">Back to Articles</a>
 </div>
 
 <footer class="footer">
   <div class="footer-logo">PermiePortal</div>
-  <div class="footer-copy">© {new Date().getFullYear()} — Built in a food forest in Yulee, FL</div>
+  <div class="footer-copy">© {new Date().getFullYear()} PermiePortal</div>
 </footer>
 
 </BaseLayout>
