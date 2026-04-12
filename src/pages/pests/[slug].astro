@@ -31,12 +31,12 @@ const nameQuery = encodeURIComponent(pest.name);
 
 // Taxon search page — shows species info + representative photos
 const iNatTaxonUrl = sciQuery
-  ? `https://www.inaturalist.org/taxa/search?q=${sciQuery}`
-  : `https://www.inaturalist.org/taxa/search?q=${nameQuery}`;
+  ? `https://www.inaturalist.org/search?q=${sciQuery}`
+  : `https://www.inaturalist.org/search?q=${nameQuery}`;
 
 // Observations — real field photos from actual growers
 const iNatObsUrl = sciQuery
-  ? `https://www.inaturalist.org/observations?taxon_name=${sciQuery}&order_by=votes`
+  ? `https://www.inaturalist.org/observations?q=${nameQuery}&order_by=votes`
   : `https://www.inaturalist.org/observations?q=${nameQuery}&order_by=votes`;
 
 // Disease pests — link to UF/IFAS which has the best subtropical disease photos
@@ -45,8 +45,8 @@ const isDisease = ['greening', 'blight', 'rot', 'mold', 'mildew', 'canker',
                    'anthracnose', 'pythium', 'phytophthora'].some(d =>
   pest.slug.includes(d) || pest.name.toLowerCase().includes(d)
 );
-const ifasUrl = `https://edis.ifas.ufl.edu/search?term=${nameQuery}`;
-const bugwoodUrl = `https://www.forestryimages.org/search/action.cfm?q=${nameQuery}`;
+const ifasUrl = `https://edis.ifas.ufl.edu/search?q=${nameQuery}`;
+const bugwoodUrl = `https://www.bugwood.org/search/?q=${nameQuery}`;
 ---
 
 <BaseLayout title={pest.name}>
