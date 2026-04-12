@@ -4,6 +4,8 @@
 Astro 4 static site. No React. No SSR. TypeScript.
 Voice: Dark satire, Heyoka archetype, anti-greenwashing. No corporate speak.
 Tagline energy: "Burn the grasshole."
+Audience: All of the Americas — North, Central, South America and the Caribbean.
+Spanish version planned — write descriptions that translate cleanly, avoid idioms and regional slang.
 
 ## Stack
 - Frontend: Astro + Tailwind + vanilla JS
@@ -12,45 +14,167 @@ Tagline energy: "Burn the grasshole."
 - Data: Static JSON in src/data/ (plants.json, pests.json, relationships.json)
 - Seeds: YAML files in src/seeds/plants/ and src/seeds/pests/
 
+## Geographic Context
+- Audience covers all USDA zones 3-13 across the Americas
+- Do NOT hyper-localize descriptions to one region or state
+- Do NOT write "North Florida", "South Florida", or any single-state framing
+- Climate references should be universal: use "temperate", "subtropical", "tropical"
+  and "wet season / dry season" rather than "spring / fall" where relevant
+- Each plant's zone: field communicates its range — trust it, don't repeat it
+  in the description unless there is specific regional context worth noting
+- Where a plant has strong regional significance, note it naturally:
+  "widely grown throughout the Caribbean and Gulf Coast"
+- Temperatures in Fahrenheit with Celsius in parentheses: "32°F (0°C)"
+- If a plant thrives in a specific zone band, say so plainly:
+  "best suited to zones 9-13" not "great for Florida growers"
+
 ## Data Workflow
 Never edit src/data/*.json directly.
 Always edit YAML in src/seeds/, then run: ./sync.sh
 The converter (convert_permie_data.py) rebuilds all JSON and copies to src/data/.
+After every Agent enrichment session run: python3 validate.py --summary
+Fix all issues before running ./sync.sh
 
-## Plant YAML structure
-See src/seeds/plants/moringa-data.yml as the canonical example.
-Required fields: common_name, picture, scientific_name, family, zone,
-ideal_temp_min, ideal_temp_max, min_temp, max_temp, perennial,
-layers, plant_function, description, companions, avoid, pests
+## Plant YAML Quality Standards
+Every plant entry MUST meet these minimums before being considered complete.
+Use src/seeds/plants/moringa-data.yml as the reference for quality and structure.
 
-## Pest YAML structure  
-See src/seeds/pests/pests-data.yml — all pests live in one file as a YAML array.
-Required fields: name, slug, picture, scientific_name, description,
-characteristics, control_methods (object with keys: organic_sprays,
-biological_controls, cultural_practices, mechanical_physical, preventive_methods),
-natural_enemies (array)
+### description field (minimum 400 characters):
+Must include ALL of these sections in this order:
 
-## Pest name matching
-Pest references in plant YAML must match pest slugs exactly.
-Run ./sync.sh --check to validate before committing.
+1. Opening paragraph:
+   - What the plant is (growth form, family context)
+   - Origin / native range
+   - Appearance and mature size
+   - Why it matters in a permaculture or food system context
 
-## Image locations
-Plant images: public/assets/plants/{filename}.jpg
-Pest images: public/assets/pests/{filename}.jpg
+2. ☀️💧 Sun and Water Requirements:
+   - Sun preference (full sun / partial shade / shade tolerant)
+   - Water needs (drought tolerant / moderate / moisture-loving)
+   - Soil preference
+   - Any notable climate tolerances or sensitivities
 
-## Do not
-- Edit src/data/*.json directly
-- Use React components
-- Add client-side JS frameworks
-- Change the color palette
-- Use corporate or greenwash language
+3. ✂️ Propagation:
+   - At least 2 methods with timing
+   - Germination time or establishment notes where relevant
 
-## Critical — Pest Field Rules
-When filling in the pests: field in plant YAML files:
+4. 🌾 Harvest / Best Use Timing:
+   - For edible/medicinal: when and how to harvest
+   - For functional plants: when the plant delivers its primary value
+   - Any processing or preservation notes
+
+DO NOT write region-specific framing like "great for Florida food forests."
+Write universally: "thrives in humid subtropical to tropical climates, zones 9-12."
+
+### purpose field:
+- Must explain each plant_function item in 1-2 sentences
+- Not just a list — explain HOW it serves that function in a permaculture system
+- Example: "Nitrogen Fixer: Root nodules host Rhizobium bacteria that convert
+  atmospheric N₂ into plant-available nitrates, feeding neighboring plants
+  via root exudates and leaf drop."
+
+### companions field:
+- Minimum 3 companions with documented functional relationships
+- Use specific species names — NOT categories like "nitrogen-fixing plants",
+  "legumes", "fruit trees", "herbs", "ground covers", or "tropical plants"
+- Include WHY they companion: what functional benefit the pairing provides
+- Example: "Moringa — fast-growing canopy provides dappled shade in dry season,
+  leaf drop feeds soil biology"
+
+### avoid field:
+- List actual antagonistic plant species, not growing conditions
+- Growing conditions (shade, wet soil, frost) belong in the description
+- "None documented" is acceptable if genuinely true for that species
+- Example of WRONG entry: "Avoid heavy clay soils" — this is a condition
+- Example of RIGHT entry: "Black Walnut — produces juglone which inhibits growth"
+
+### plant_function field:
+- Minimum 3 functions for any cultivated/useful plant
+- Use only these established values (exact spelling required):
+  Edible, Medicinal, Nitrogen Fixer, Dynamic Accumulator, Mulcher,
+  Pollinator, Wildlife Attractor, Erosion Control, Animal Fodder,
+  Windbreaker, Border Plant, Pest Management, Ground Cover,
+  Shade Provider, Water Retention, Fiber, Biomass, Aquatic, Ornamental, Dye Plant
+
+### pests field:
 - ONLY use pest names that exist verbatim in src/seeds/pests/pests-data.yml
-- Before writing any pest name, grep src/seeds/pests/pests-data.yml to confirm it exists
-- If a plant has no significant pests, use an empty list: pests: []
-- NEVER invent descriptive slugs like "root-rot-in-poorly-drained-soil"
-- NEVER use "None", "None significant", "None documented" — use empty list instead
-- NEVER add animals like "ducks" or "fish" as pests
-- Run ./sync.sh --check after enriching each batch to catch errors immediately
+- Before writing ANY pest name, run:
+  grep -i "pest name here" src/seeds/pests/pests-data.yml
+  If it does not appear, do not use it.
+- Minimum 2 pests for any cultivated plant
+- Use empty list pests: [] only for genuinely pest-resistant specialist plants
+  (carnivorous plants, aquatic plants, highly toxic species)
+- NEVER use: "None", "None significant", "None documented", "NEEDS_DATA"
+- NEVER add animals (deer, rabbits, iguanas, ducks, fish) unless they have
+  a pest profile in pests-data.yml
+- NEVER invent descriptive slugs: "root-rot-in-poorly-drained-soil" is WRONG
+
+## Pest YAML Quality Standards
+
+### control_methods:
+- ALL five keys required:
+  organic_sprays, biological_controls, cultural_practices,
+  mechanical_physical, preventive_methods
+- Each value minimum 50 characters — no one-liners
+- Organic controls ONLY — no synthetic pesticides, ever, under any circumstances
+
+### natural_enemies:
+- Minimum 2 real predators, parasitoids, or antagonistic organisms
+- Specific genus or species names preferred over "beneficial insects"
+- For fungal/disease pests: Trichoderma, Bacillus subtilis etc. are valid
+
+### affected_plants:
+- Populated automatically by sync.sh from plant YAML pests: fields
+- NEVER edit affected_plants manually in pests-data.yml
+
+## Critical Pest Field Rules
+These rules exist because Agent errors here create hundreds of broken
+relationship links that require manual cleanup. Follow them exactly.
+
+1. grep before you write — confirm every pest name exists in pests-data.yml
+2. Use the display name exactly as it appears in pests-data.yml
+3. If a pest you want to reference does not exist, leave it out entirely
+   Do NOT add it anyway and hope it gets created later
+4. Run ./sync.sh --check after every batch — zero warnings is the target
+5. If ./sync.sh --check shows warnings, fix them before moving to the next batch
+
+## Validation
+After every Agent enrichment session, run BEFORE syncing:
+```
+python3 validate.py --summary
+```
+
+Auto-fix safe issues:
+```
+python3 validate.py --fix --since 2h
+```
+
+Check only recently modified files:
+```
+python3 validate.py --since 2h
+```
+
+Full quality audit:
+```
+python3 -c "
+import json
+plants = json.load(open('src/data/plants.json'))
+thin = [
+    (p['common_name'], len(p.get('description','')), len(p.get('companions',[])))
+    for p in plants
+    if len(p.get('description','')) < 400 or len(p.get('companions',[])) < 3
+]
+print(f'Plants needing improvement: {len(thin)}')
+for name, dlen, clen in sorted(thin)[:20]:
+    print(f'  {name}: desc={dlen}chars companions={clen}')
+"
+```
+
+## Workflow Order — Never Skip Steps
+1. Agent enriches batch
+2. python3 validate.py --since 2h   ← catch problems immediately
+3. python3 validate.py --fix --since 2h  ← auto-fix safe issues
+4. ./sync.sh --check   ← must show 0 warnings
+5. ./sync.sh   ← rebuild JSON
+6. git add -A && git commit
+7. Move to next batch

@@ -1307,3 +1307,1859 @@ Pests in queue:  0
 Done — Sat Apr 11 06:40:01 PM UTC 2026
 
 Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sat Apr 11 07:00:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sat Apr 11 07:00:01 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sat Apr 11 07:20:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sat Apr 11 07:20:01 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sat Apr 11 07:40:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sat Apr 11 07:40:01 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sat Apr 11 08:00:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sat Apr 11 08:00:01 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sat Apr 11 08:20:01 PM UTC 2026
+==========================================
+Plants in queue: 208
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+  ⚠️  Rejected 74 invalid entries from queue_plants.txt:
+    ✗ '🌿 Shrubs & Bushes'
+    ✗ 'Wolfberry (non-goji variety)'
+    ✗ 'Seaberry (different cultivar set)'
+    ✗ '🌱 Nitrogen Fixers & Soil Builders'
+    ✗ 'False Indigo (Amorpha fruticosa)'
+    ✗ 'Sunn Hemp (different strain)'
+    ✗ 'Hedysarum (Sainfoin)'
+    ✗ 'Bush Clover (Lespedeza)'
+    ✗ 'Hairy Vetch (distinct from listed clovers)'
+    ✗ 'Red Sandalwood (nitrogen-fixing tree)'
+    ... and 64 more
+  Plants: 20, Pests: 0
+
+==================================================
+🌱 20 plants
+==================================================
+
+🌱 Baobab
+  🔍 Baobab... ✅ Wikimedia
+    💾 baobab.jpg
+    📝 baobab-data.yml
+
+🌱 Monkey Puzzle Tree
+  🔍 Monkey Puzzle Tree... ✅ Wikimedia
+    💾 monkey_puzzle_tree.jpg
+    📝 monkey-puzzle-tree-data.yml
+
+🌱 African Locust Bean
+  🔍 African Locust Bean... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 african-locust-bean-data.yml
+
+🌱 Desert Date
+  🔍 Desert Date... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 desert-date-data.yml
+
+🌱 Indian Almond
+  🔍 Indian Almond... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 indian-almond-data.yml
+
+🌱 Candle Nut Tree
+  🔍 Candle Nut Tree... ✅ Wikimedia
+    💾 candle_nut_tree.jpg
+    📝 candle-nut-tree-data.yml
+
+🌱 Kapok Tree
+  🔍 Kapok Tree... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 kapok-tree-data.yml
+
+🌱 Black Mulga
+  🔍 Black Mulga... ⚠️  no image found
+    📝 black-mulga-data.yml
+
+🌱 Carob Tree
+  🔍 Carob Tree... ✅ Wikimedia
+    💾 carob_tree.jpg
+    📝 carob-tree-data.yml
+
+🌱 Tamarisk
+  🔍 Tamarisk... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 tamarisk-data.yml
+
+🌱 Silk Oak
+  🔍 Silk Oak... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 silk-oak-data.yml
+
+🌱 Yellowhorn Tree
+  🔍 Yellowhorn Tree... ⚠️  no image found
+    📝 yellowhorn-tree-data.yml
+
+🌱 Desert Ironwood
+  🔍 Desert Ironwood... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 desert-ironwood-data.yml
+
+🌱 Chiltepin Pepper Tree
+  🔍 Chiltepin Pepper Tree... ⚠️  no image found
+    📝 chiltepin-pepper-tree-data.yml
+
+🌱 Mountain Soursop
+  🔍 Mountain Soursop... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 mountain-soursop-data.yml
+
+🌱 Illawarra Plum
+  🔍 Illawarra Plum... ✅ iNaturalist
+    💾 illawarra_plum.jpg
+    📝 illawarra-plum-data.yml
+
+🌱 Peanut Butter Fruit Tree
+  🔍 Peanut Butter Fruit Tree... ⚠️  no image found
+    📝 peanut-butter-fruit-tree-data.yml
+
+🌱 Wild Olive
+  🔍 Wild Olive... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 wild-olive-data.yml
+
+🌱 African Breadfruit
+  🔍 African Breadfruit... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 african-breadfruit-data.yml
+
+🌱 Ceylon Gooseberry Tree
+  🔍 Ceylon Gooseberry Tree... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 ceylon-gooseberry-tree-data.yml
+
+==================================================
+✅ 20 processed
+==================================================
+
+📋 1 prompt file(s) in review/
+   20 plants + 0 pest fields need enrichment
+   Start: review/cursor_enrich_1_of_1.md
+   Run one Agent session per file — sequential, not parallel
+
+  📋 114 plants still in queue
+
+Done — Sat Apr 11 08:20:37 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sat Apr 11 08:40:01 PM UTC 2026
+==========================================
+Plants in queue: 114
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+  Plants: 20, Pests: 0
+
+==================================================
+🌱 20 plants
+==================================================
+
+🌱 Goumi Berry
+  🔍 Goumi Berry... ⚠️  no image found
+    📝 goumi-berry-data.yml
+
+🌱 Silverberry
+  🔍 Silverberry... ✅ Wikimedia
+    💾 silverberry.jpg
+    📝 silverberry-data.yml
+
+🌱 Buffalo Berry
+  🔍 Buffalo Berry... ✅ Wikimedia
+    💾 buffalo_berry.jpg
+    📝 buffalo-berry-data.yml
+
+🌱 Autumnberry
+  🔍 Autumnberry... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 autumnberry-data.yml
+
+🌱 Coralberry
+  🔍 Coralberry... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 coralberry-data.yml
+
+🌱 Snowberry
+  🔍 Snowberry... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 snowberry-data.yml
+
+🌱 Wax Myrtle
+  🔍 Wax Myrtle... ✅ Wikimedia
+    💾 wax_myrtle.jpg
+    📝 wax-myrtle-data.yml
+
+🌱 Sweet Gale
+  🔍 Sweet Gale... ✅ Wikimedia
+    💾 sweet_gale.jpg
+    📝 sweet-gale-data.yml
+
+🌱 Rock Rose
+  🔍 Rock Rose... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 rock-rose-data.yml
+
+🌱 Cistus
+  🔍 Cistus... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 cistus-data.yml
+
+🌱 Desert Hackberry
+  🔍 Desert Hackberry... ✅ iNaturalist
+    💾 desert_hackberry.jpg
+    📝 desert-hackberry-data.yml
+
+🌱 Texas Persimmon
+  🔍 Texas Persimmon... ✅ Wikimedia
+    💾 texas_persimmon.jpg
+    📝 texas-persimmon-data.yml
+
+🌱 Evergreen Huckleberry
+  🔍 Evergreen Huckleberry... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 evergreen-huckleberry-data.yml
+
+🌱 Oregon Grape
+  🔍 Oregon Grape... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 oregon-grape-data.yml
+
+🌱 Salal
+  🔍 Salal... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 salal-data.yml
+
+🌱 Coffee Senna
+  🔍 Coffee Senna... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 coffee-senna-data.yml
+
+🌱 Cassia alata
+  🔍 Cassia alata... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 cassia-alata-data.yml
+
+🌱 Indigofera tinctoria
+  🔍 Indigofera tinctoria... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 indigofera-tinctoria-data.yml
+
+🌱 Illinois Bundleflower
+  🔍 Illinois Bundleflower... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 illinois-bundleflower-data.yml
+
+🌱 Prairie Acacia
+  🔍 Prairie Acacia... ✅ Wikimedia
+    💾 prairie_acacia.jpg
+    📝 prairie-acacia-data.yml
+
+==================================================
+✅ 20 processed
+==================================================
+
+📋 2 prompt file(s) in review/
+   40 plants + 0 pest fields need enrichment
+   Start: review/cursor_enrich_1_of_2.md
+   Run one Agent session per file — sequential, not parallel
+
+  📋 94 plants still in queue
+
+Done — Sat Apr 11 08:40:39 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sat Apr 11 09:00:01 PM UTC 2026
+==========================================
+Plants in queue: 94
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+  Plants: 20, Pests: 0
+
+==================================================
+🌱 20 plants
+==================================================
+
+🌱 Tick Trefoil
+  🔍 Tick Trefoil... ✅ Wikimedia
+    💾 tick_trefoil.jpg
+    📝 tick-trefoil-data.yml
+
+🌱 Partridge Acacia
+  🔍 Partridge Acacia... ⚠️  no image found
+    📝 partridge-acacia-data.yml
+
+🌱 Sesbania grandiflora
+  🔍 Sesbania grandiflora... ✅ Wikimedia
+    💾 sesbania_grandiflora.jpg
+    📝 sesbania-grandiflora-data.yml
+
+🌱 Tephrosia vogelii
+  🔍 Tephrosia vogelii... ✅ Wikimedia
+    💾 tephrosia_vogelii.jpg
+    📝 tephrosia-vogelii-data.yml
+
+🌱 Black Medic
+  🔍 Black Medic... ✅ Wikimedia
+    💾 black_medic.jpg
+    📝 black-medic-data.yml
+
+🌱 Crown Vetch
+  🔍 Crown Vetch... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 crown-vetch-data.yml
+
+🌱 Yellow Sweet Clover
+  🔍 Yellow Sweet Clover... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 yellow-sweet-clover-data.yml
+
+🌱 Albizia lebbeck
+  🔍 Albizia lebbeck... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 albizia-lebbeck-data.yml
+
+🌱 Pigeonwood
+  🔍 Pigeonwood... ✅ Wikimedia
+    💾 pigeonwood.jpg
+    📝 pigeonwood-data.yml
+
+🌱 New Jersey Tea
+  🔍 New Jersey Tea... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 new-jersey-tea-data.yml
+
+🌱 Bladder Senna
+  🔍 Bladder Senna... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 bladder-senna-data.yml
+
+🌱 Good King Henry
+  🔍 Good King Henry... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 good-king-henry-data.yml
+
+🌱 Sea Kale
+  🔍 Sea Kale... ✅ Wikimedia
+    💾 sea_kale.jpg
+    📝 sea-kale-data.yml
+
+🌱 Skirret
+  🔍 Skirret... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 skirret-data.yml
+
+🌱 Turkish Rocket
+  🔍 Turkish Rocket... ✅ iNaturalist
+    💾 turkish_rocket.jpg
+    📝 turkish-rocket-data.yml
+
+🌱 Caucasian Spinach
+  🔍 Caucasian Spinach... ⚠️  no image found
+    📝 caucasian-spinach-data.yml
+
+🌱 Sweet Coltsfoot
+  🔍 Sweet Coltsfoot... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 sweet-coltsfoot-data.yml
+
+🌱 Miner's Lettuce
+  🔍 Miner's Lettuce... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 miners-lettuce-data.yml
+
+🌱 Claytonea perfoliata
+  🔍 Claytonea perfoliata... ⚠️  no image found
+    📝 claytonea-perfoliata-data.yml
+
+🌱 Wild Mustard Greens
+  🔍 Wild Mustard Greens... ⚠️  no image found
+    📝 wild-mustard-greens-data.yml
+
+==================================================
+✅ 20 processed
+==================================================
+
+📋 2 prompt file(s) in review/
+   60 plants + 0 pest fields need enrichment
+   Start: review/cursor_enrich_1_of_2.md
+   Run one Agent session per file — sequential, not parallel
+
+  📋 74 plants still in queue
+
+Done — Sat Apr 11 09:00:38 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sat Apr 11 09:20:01 PM UTC 2026
+==========================================
+Plants in queue: 74
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+  Plants: 20, Pests: 0
+
+==================================================
+🌱 20 plants
+==================================================
+
+🌱 Hop Shoots
+  🔍 Hop Shoots... ⚠️  no image found
+    📝 hop-shoots-data.yml
+
+🌱 Perennial Leek
+  🔍 Perennial Leek... ⚠️  no image found
+    📝 perennial-leek-data.yml
+
+🌱 Walking Onion
+  🔍 Walking Onion... ✅ Wikimedia
+    💾 walking_onion.jpg
+    📝 walking-onion-data.yml
+
+🌱 Arrowleaf Balsamroot
+  🔍 Arrowleaf Balsamroot... ✅ Wikimedia
+    💾 arrowleaf_balsamroot.jpg
+    📝 arrowleaf-balsamroot-data.yml
+
+🌱 Prairie Potato
+  🔍 Prairie Potato... ⚠️  no image found
+    📝 prairie-potato-data.yml
+
+🌱 Yam Daisy
+  🔍 Yam Daisy... ✅ iNaturalist
+    💾 yam_daisy.jpg
+    📝 yam-daisy-data.yml
+
+🌱 Desert Yam
+  🔍 Desert Yam... ⚠️  no image found
+    📝 desert-yam-data.yml
+
+🌱 Wild Sweet Potato
+  🔍 Wild Sweet Potato... ✅ Wikimedia
+    💾 wild_sweet_potato.jpg
+    📝 wild-sweet-potato-data.yml
+
+🌱 Earth Chestnut
+  🔍 Earth Chestnut... ✅ Wikimedia
+    💾 earth_chestnut.jpg
+    📝 earth-chestnut-data.yml
+
+🌱 Cassabanana root systems
+  🔍 Cassabanana root systems... ⚠️  no image found
+    📝 cassabanana-root-systems-data.yml
+
+🌱 Sweet Cassava variants
+  🔍 Sweet Cassava variants... ⚠️  no image found
+    📝 sweet-cassava-variants-data.yml
+
+🌱 Tuberous Nasturtium
+  🔍 Tuberous Nasturtium... ✅ Wikimedia
+    💾 tuberous_nasturtium.jpg
+    📝 tuberous-nasturtium-data.yml
+
+🌱 Boneset
+  🔍 Boneset... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 boneset-data.yml
+
+🌱 Blue Vervain
+  🔍 Blue Vervain... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 blue-vervain-data.yml
+
+🌱 Elecampane
+  🔍 Elecampane... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 elecampane-data.yml
+
+🌱 Horehound
+  🔍 Horehound... ✅ Wikimedia
+    💾 horehound.jpg
+    📝 horehound-data.yml
+
+🌱 Lobelia inflata
+  🔍 Lobelia inflata... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 lobelia-inflata-data.yml
+
+🌱 Yerba Santa
+  🔍 Yerba Santa... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 yerba-santa-data.yml
+
+🌱 Gravel Root
+  🔍 Gravel Root... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 gravel-root-data.yml
+
+🌱 Betony
+  🔍 Betony... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 betony-data.yml
+
+==================================================
+✅ 20 processed
+==================================================
+
+📋 3 prompt file(s) in review/
+   80 plants + 0 pest fields need enrichment
+   Start: review/cursor_enrich_1_of_3.md
+   Run one Agent session per file — sequential, not parallel
+
+  📋 54 plants still in queue
+
+Done — Sat Apr 11 09:20:41 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sat Apr 11 09:40:01 PM UTC 2026
+==========================================
+Plants in queue: 54
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+  Plants: 20, Pests: 0
+
+==================================================
+🌱 20 plants
+==================================================
+
+🌱 Agrimony
+  🔍 Agrimony... ✅ Wikimedia
+    💾 agrimony.jpg
+    📝 agrimony-data.yml
+
+🌱 Sweet Woodruff
+  🔍 Sweet Woodruff... ✅ Wikimedia
+    💾 sweet_woodruff.jpg
+    📝 sweet-woodruff-data.yml
+
+🌱 Meadowsweet
+  🔍 Meadowsweet... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 meadowsweet-data.yml
+
+🌱 Tansy
+  🔍 Tansy... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 tansy-data.yml
+
+🌱 Costmary
+  🔍 Costmary... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 costmary-data.yml
+
+🌱 Hyssop officinalis
+  🔍 Hyssop officinalis... ✅ Wikimedia
+    💾 hyssop_officinalis.jpg
+    📝 hyssop-officinalis-data.yml
+
+🌱 Blanket Flower
+  🔍 Blanket Flower... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 blanket-flower-data.yml
+
+🌱 Coreopsis
+  🔍 Coreopsis... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 coreopsis-data.yml
+
+🌱 Gaura
+  🔍 Gaura... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 gaura-data.yml
+
+🌱 Verbena bonariensis
+  🔍 Verbena bonariensis... ✅ Wikimedia
+    💾 verbena_bonariensis.jpg
+    📝 verbena-bonariensis-data.yml
+
+🌱 California Poppy
+  🔍 California Poppy... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 california-poppy-data.yml
+
+🌱 Black-eyed Susan
+  🔍 Black-eyed Susan... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 black-eyed-susan-data.yml
+
+🌱 Sunrose
+  🔍 Sunrose... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 sunrose-data.yml
+
+🌱 Globe Thistle
+  🔍 Globe Thistle... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 globe-thistle-data.yml
+
+🌱 Milk Vetch
+  🔍 Milk Vetch... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 milk-vetch-data.yml
+
+🌱 Tickseed Sunflower
+  🔍 Tickseed Sunflower... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 tickseed-sunflower-data.yml
+
+🌱 Blue Flax
+  🔍 Blue Flax... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 blue-flax-data.yml
+
+🌱 Fireweed
+  🔍 Fireweed... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 fireweed-data.yml
+
+🌱 Sweet Alyssum
+  🔍 Sweet Alyssum... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 sweet-alyssum-data.yml
+
+🌱 Frogfruit
+  🔍 Frogfruit... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 frogfruit-data.yml
+
+==================================================
+✅ 20 processed
+==================================================
+
+📋 4 prompt file(s) in review/
+   100 plants + 0 pest fields need enrichment
+   Start: review/cursor_enrich_1_of_4.md
+   Run one Agent session per file — sequential, not parallel
+
+  📋 34 plants still in queue
+
+Done — Sat Apr 11 09:40:30 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sat Apr 11 10:00:01 PM UTC 2026
+==========================================
+Plants in queue: 34
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+  Plants: 20, Pests: 0
+
+==================================================
+🌱 20 plants
+==================================================
+
+🌱 Creeping Raspberry
+  🔍 Creeping Raspberry... ✅ iNaturalist
+    💾 creeping_raspberry.jpg
+    📝 creeping-raspberry-data.yml
+
+🌱 Beach Strawberry
+  🔍 Beach Strawberry... ✅ Wikimedia
+    💾 beach_strawberry.jpg
+    📝 beach-strawberry-data.yml
+
+🌱 Green and Gold
+  🔍 Green and Gold... ✅ Wikimedia
+    💾 green_and_gold.jpg
+    📝 green-and-gold-data.yml
+
+🌱 Partridgeberry
+  🔍 Partridgeberry... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 partridgeberry-data.yml
+
+🌱 Kinnikinnick
+  🔍 Kinnikinnick... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 kinnikinnick-data.yml
+
+🌱 Mazus
+  🔍 Mazus... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 mazus-data.yml
+
+🌱 Blue Star Creeper
+  🔍 Blue Star Creeper... ✅ Wikimedia
+    💾 blue_star_creeper.jpg
+    📝 blue-star-creeper-data.yml
+
+🌱 Corsican Stonecrop
+  🔍 Corsican Stonecrop... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 corsican-stonecrop-data.yml
+
+🌱 Carpet Bugle
+  🔍 Carpet Bugle... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 carpet-bugle-data.yml
+
+🌱 Creeping Phlox
+  🔍 Creeping Phlox... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 creeping-phlox-data.yml
+
+🌱 Bearberry
+  🔍 Bearberry... ✅ Wikimedia
+    💾 bearberry.jpg
+    📝 bearberry-data.yml
+
+🌱 Twinflower
+  🔍 Twinflower... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 twinflower-data.yml
+
+🌱 Arrow Arum
+  🔍 Arrow Arum... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 arrow-arum-data.yml
+
+🌱 Marsh Marigold
+  🔍 Marsh Marigold... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 marsh-marigold-data.yml
+
+🌱 Sweet Flag
+  🔍 Sweet Flag... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 sweet-flag-data.yml
+
+🌱 Bog Bean
+  🔍 Bog Bean... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 bog-bean-data.yml
+
+🌱 Marsh Hibiscus
+  🔍 Marsh Hibiscus... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 marsh-hibiscus-data.yml
+
+🌱 Swamp Milkweed
+  🔍 Swamp Milkweed... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 swamp-milkweed-data.yml
+
+🌱 Blue Pickerelweed
+  🔍 Blue Pickerelweed... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 blue-pickerelweed-data.yml
+
+🌱 Marsh Pennywort
+  🔍 Marsh Pennywort... ✅ Wikimedia
+    💾 marsh_pennywort.jpg
+    📝 marsh-pennywort-data.yml
+
+==================================================
+✅ 20 processed
+==================================================
+
+📋 4 prompt file(s) in review/
+   120 plants + 0 pest fields need enrichment
+   Start: review/cursor_enrich_1_of_4.md
+   Run one Agent session per file — sequential, not parallel
+
+  📋 14 plants still in queue
+
+Done — Sat Apr 11 10:00:32 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sat Apr 11 10:20:01 PM UTC 2026
+==========================================
+Plants in queue: 14
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+  Plants: 14, Pests: 0
+
+==================================================
+🌱 14 plants
+==================================================
+
+🌱 Saltbush
+  🔍 Saltbush... ✅ Wikimedia
+    💾 saltbush.jpg
+    📝 saltbush-data.yml
+
+🌱 Desert Marigold
+  🔍 Desert Marigold... ✅ iNaturalist
+    💾 desert_marigold.jpg
+    📝 desert-marigold-data.yml
+
+🌱 Chiltepin Pepper
+  🔍 Chiltepin Pepper... ✅ Wikimedia
+    💾 chiltepin_pepper.jpg
+    📝 chiltepin-pepper-data.yml
+
+🌱 Jojoba
+  🔍 Jojoba... ✅ Wikimedia
+    💾 jojoba.jpg
+    📝 jojoba-data.yml
+
+🌱 Guayule
+  🔍 Guayule... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 guayule-data.yml
+
+🌱 Palo Verde
+  🔍 Palo Verde... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 palo-verde-data.yml
+
+🌱 Desert Willow
+  🔍 Desert Willow... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 desert-willow-data.yml
+
+🌱 Sand Cherry
+  🔍 Sand Cherry... ✅ Wikimedia
+    💾 sand_cherry.jpg
+    📝 sand-cherry-data.yml
+
+🌱 Coastal Rosemary
+  🔍 Coastal Rosemary... ✅ Wikimedia
+    💾 coastal_rosemary.jpg
+    📝 coastal-rosemary-data.yml
+
+🌱 Saltgrass
+  🔍 Saltgrass... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 saltgrass-data.yml
+
+🌱 Mangrove Bean
+  🔍 Mangrove Bean... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 mangrove-bean-data.yml
+
+🌱 Nipa Palm
+  🔍 Nipa Palm... ✅ Wikimedia
+    💾 nipa_palm.jpg
+    📝 nipa-palm-data.yml
+
+🌱 Screw Pine
+  🔍 Screw Pine... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 screw-pine-data.yml
+
+🌱 Pandanus
+  🔍 Pandanus... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 pandanus-data.yml
+
+==================================================
+✅ 14 processed
+==================================================
+
+📋 5 prompt file(s) in review/
+   134 plants + 0 pest fields need enrichment
+   Start: review/cursor_enrich_1_of_5.md
+   Run one Agent session per file — sequential, not parallel
+
+
+Done — Sat Apr 11 10:20:36 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sat Apr 11 10:40:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+
+📋 5 prompt file(s) in review/
+   134 plants + 0 pest fields need enrichment
+   Start: review/cursor_enrich_1_of_5.md
+   Run one Agent session per file — sequential, not parallel
+
+
+Done — Sat Apr 11 10:40:01 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sat Apr 11 11:00:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+
+📋 5 prompt file(s) in review/
+   134 plants + 0 pest fields need enrichment
+   Start: review/cursor_enrich_1_of_5.md
+   Run one Agent session per file — sequential, not parallel
+
+
+Done — Sat Apr 11 11:00:01 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sat Apr 11 11:20:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+
+📋 5 prompt file(s) in review/
+   134 plants + 0 pest fields need enrichment
+   Start: review/cursor_enrich_1_of_5.md
+   Run one Agent session per file — sequential, not parallel
+
+
+Done — Sat Apr 11 11:20:04 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sat Apr 11 11:40:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+
+📋 5 prompt file(s) in review/
+   134 plants + 0 pest fields need enrichment
+   Start: review/cursor_enrich_1_of_5.md
+   Run one Agent session per file — sequential, not parallel
+
+
+Done — Sat Apr 11 11:40:01 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 12:00:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 12:00:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 12:20:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 12:20:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 12:40:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 12:40:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 01:00:02 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 01:00:02 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 01:20:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 01:20:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 01:40:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 01:40:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 02:00:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 02:00:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 02:20:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 02:20:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 02:40:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 02:40:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 03:00:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 03:00:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 03:20:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 03:20:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 03:40:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 03:40:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 04:00:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 04:00:02 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 04:20:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 04:20:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 04:40:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 04:40:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 05:00:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 05:00:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 05:20:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 05:20:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 05:40:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 05:40:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 06:00:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 06:00:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 06:20:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 06:20:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 06:40:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 06:40:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 07:00:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 07:00:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 07:20:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 07:20:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 07:40:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 07:40:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 08:00:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 08:00:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 08:20:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 08:20:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 08:40:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 08:40:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 09:00:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 09:00:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 09:20:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 09:20:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 09:40:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 09:40:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 10:00:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 10:00:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 10:20:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 10:20:02 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 10:40:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 10:40:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 11:00:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 11:00:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 11:20:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 11:20:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 11:40:01 AM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 11:40:01 AM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 12:00:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 12:00:01 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 12:20:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 12:20:01 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 12:40:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 12:40:01 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 01:00:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+
+  ℹ️  Queues empty.
+  ✅ All seeds fully enriched — no NEEDS_DATA found
+
+Done — Sun Apr 12 01:00:01 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md

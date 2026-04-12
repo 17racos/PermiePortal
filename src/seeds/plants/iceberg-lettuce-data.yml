@@ -16,6 +16,7 @@
   plant_function:
   - Edible
   - Ground Cover
+  - Biomass
   description: "Iceberg lettuce is an annual vegetable known for its crisp, pale green
     leaves forming dense, cabbage-like heads. Each head typically measures 15-23 cm
     (6-9 inches) in diameter. Introduced in 1894, it remains popular for its mild
@@ -35,7 +36,8 @@
     in the morning before the day warms up."
   purpose: |-
     - **Edible**: Provides a crunchy texture and mild flavor, ideal for salads, sandwiches, and garnishes.
-    - **Ground Cover**: Dense planting can help suppress weeds and protect soil from erosion.
+    - **Ground Cover**: Dense heads and tight spacing shade soil, slowing weeds and reducing splash on neighboring crops.
+    - **Biomass**: Trimmings, thinnings, and post-harvest residue feed compost or worm bins, closing the loop in intensive vegetable beds.
   companions:
   - Carrot
   - Radish
@@ -51,5 +53,5 @@
   - Fungus Gnats
   - Shore Fly
   - Gray Mold
-  growth_habit: Tree
+  growth_habit: Annual heading lettuce; compact rosette forming a dense crisp head
   data_quality_score: 0.8
