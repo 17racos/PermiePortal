@@ -38,7 +38,7 @@ PEST_IMAGES  = PROJECT / "public/assets/pests"
 QUEUE_PLANTS = PROJECT / "queue_plants.txt"
 QUEUE_PESTS  = PROJECT / "queue_pests.txt"
 REVIEW_DIR   = PROJECT / "review"
-DAILY_PLANTS = 999
+DAILY_PLANTS = 20
 DAILY_PESTS  = 999
 PROMPT_CHUNK = 20
 # ─────────────────────────────────────────────────────────────────────────────
@@ -126,13 +126,28 @@ def download_image(url, dest_path, dry_run=False):
     if dry_run:
         print(f"    [DRY RUN] Would download: {url}")
         return True
+    # Convert Wikimedia full-res URLs to 800px thumbnails to avoid 429 rate limits
+    if 'upload.wikimedia.org' in url:
+        m = re.search(
+            r'(upload\.wikimedia\.org/wikipedia/commons/)([a-f0-9]/[a-f0-9]{2}/)(.*\.(?:jpg|jpeg|png|webp))',
+            url, re.IGNORECASE
+        )
+        if m:
+            url = f"https://{m.group(1)}thumb/{m.group(2)}{m.group(3)}/800px-{m.group(3)}"
     try:
         req = urllib.request.Request(
-            url, headers={'User-Agent': 'PermiePortal/2.0 (permieportal.com)'}
+            url, headers={
+                'User-Agent': 'PermiePortal/2.0 (permieportal.com)',
+                'Accept': 'image/jpeg,image/png,image/*',
+            }
         )
         with urllib.request.urlopen(req, timeout=15) as resp:
+            data = resp.read()
+            if len(data) < 5000:
+                print(f"    ⚠️  Download too small ({len(data)} bytes), skipping")
+                return False
             dest_path.parent.mkdir(parents=True, exist_ok=True)
-            dest_path.write_bytes(resp.read())
+            dest_path.write_bytes(data)
         return True
     except Exception as e:
         print(f"    ⚠️  Download failed: {e}")
@@ -178,6 +193,7 @@ def wikimedia_image(query):
                 meta.get('Artist', {}).get('value', 'Unknown')
             ).strip()
             return url, f"{artist} / Wikimedia Commons / {license_short}"
+    time.sleep(0.5)  # be polite to Wikimedia
     return None, None
 
 

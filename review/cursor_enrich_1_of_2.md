@@ -1,7 +1,7 @@
-# PermiePortal — Enrichment Batch 1 of 1
+# PermiePortal — Enrichment Batch 1 of 2
 
 > **Agent mode only.** ONE session at a time.
-> This batch: 18 plants. Total remaining: 18 plants + 0 pest fields.
+> This batch: 20 plants. Total remaining: 35 plants + 0 pest fields.
 
 ---
 
@@ -53,22 +53,24 @@ NEVER: None, NEEDS_DATA, or animals without pest profiles
 
 - `src/seeds/plants/bald-cypress-data.yml` (11 fields)
 - `src/seeds/plants/blue-palmetto-data.yml` (11 fields)
+- `src/seeds/plants/blue-wild-indigo-data.yml` (11 fields)
 - `src/seeds/plants/cabbage-palm-data.yml` (11 fields)
+- `src/seeds/plants/coastalplain-honeycombhead-data.yml` (11 fields)
 - `src/seeds/plants/coconut-palm-data.yml` (11 fields)
 - `src/seeds/plants/coontie-palm-data.yml` (11 fields)
+- `src/seeds/plants/dense-blazingstar-data.yml` (11 fields)
 - `src/seeds/plants/dwarf-palmetto-data.yml` (11 fields)
+- `src/seeds/plants/eastern-columbine-data.yml` (11 fields)
+- `src/seeds/plants/florida-paintbrush-data.yml` (11 fields)
 - `src/seeds/plants/florida-thatch-palm-data.yml` (11 fields)
+- `src/seeds/plants/gopher-tortoise-burrow-plants-data.yml` (11 fields)
 - `src/seeds/plants/key-thatch-palm-data.yml` (11 fields)
+- `src/seeds/plants/leavenworths-tickseed-data.yml` (11 fields)
 - `src/seeds/plants/loblolly-pine-data.yml` (11 fields)
 - `src/seeds/plants/longleaf-pine-data.yml` (11 fields)
-- `src/seeds/plants/pond-pine-data.yml` (11 fields)
-- `src/seeds/plants/ribbon-palm-data.yml` (11 fields)
-- `src/seeds/plants/royal-palm-data.yml` (11 fields)
-- `src/seeds/plants/sago-palm-data.yml` (11 fields)
-- `src/seeds/plants/sand-pine-data.yml` (11 fields)
-- `src/seeds/plants/scrub-palmetto-data.yml` (11 fields)
-- `src/seeds/plants/slash-pine-data.yml` (11 fields)
-- `src/seeds/plants/spruce-pine-data.yml` (11 fields)
+- `src/seeds/plants/pale-purple-coneflower-data.yml` (11 fields)
+- `src/seeds/plants/pineland-croton-data.yml` (11 fields)
+- `src/seeds/plants/pineland-heather-data.yml` (11 fields)
 ---
 
 ## When Done
@@ -78,12 +80,9 @@ python3 validate.py --since 2h
 python3 validate.py --fix --since 2h
 ./sync.sh --check
 ./sync.sh
-rm review/cursor_enrich_1_of_1.md
+rm review/cursor_enrich_1_of_2.md
 ```
 
 Zero warnings required before the next batch.
 
-✅ Final batch — commit:
-```bash
-git add -A && git commit -m 'enrichment complete'
-```
+Next: `cursor_enrich_2_of_2.md`
