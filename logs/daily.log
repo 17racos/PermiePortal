@@ -3841,3 +3841,28 @@ Pests in queue:  0
 Done — Sun Apr 12 08:20:43 PM UTC 2026
 
 Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 08:40:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 999 pests)
+
+  ℹ️  Queues empty.
+
+📋 11 prompt file(s) in review/
+   211 plants + 0 pest fields need enrichment
+   Start: review/cursor_enrich_1_of_11.md
+   Sequential only — one Agent session per file
+
+
+Done — Sun Apr 12 08:40:01 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md

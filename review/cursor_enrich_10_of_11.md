@@ -1,7 +1,7 @@
-# PermiePortal — Enrichment Batch 2 of 2
+# PermiePortal — Enrichment Batch 10 of 11
 
 > **Agent mode only.** ONE session at a time.
-> This batch: 15 plants. Total remaining: 35 plants + 0 pest fields.
+> This batch: 20 plants. Total remaining: 211 plants + 0 pest fields.
 
 ---
 
@@ -51,21 +51,26 @@ NEVER: None, NEEDS_DATA, or animals without pest profiles
 
 ## Plants to Enrich
 
-- `src/seeds/plants/plains-wild-indigo-data.yml` (11 fields)
-- `src/seeds/plants/pond-pine-data.yml` (11 fields)
-- `src/seeds/plants/prairie-blazingstar-data.yml` (11 fields)
-- `src/seeds/plants/prairie-coneflower-data.yml` (11 fields)
-- `src/seeds/plants/ribbon-palm-data.yml` (11 fields)
-- `src/seeds/plants/royal-palm-data.yml` (11 fields)
-- `src/seeds/plants/sago-palm-data.yml` (11 fields)
-- `src/seeds/plants/sand-pine-data.yml` (11 fields)
-- `src/seeds/plants/scrub-palmetto-data.yml` (11 fields)
-- `src/seeds/plants/slash-pine-data.yml` (11 fields)
-- `src/seeds/plants/spruce-pine-data.yml` (11 fields)
+- `src/seeds/plants/switchgrass-data.yml` (11 fields)
+- `src/seeds/plants/syzygium-australe-data.yml` (11 fields)
+- `src/seeds/plants/syzygium-luehmannii-data.yml` (11 fields)
+- `src/seeds/plants/syzygium-smithii-data.yml` (11 fields)
+- `src/seeds/plants/tahitian-noni-data.yml` (11 fields)
+- `src/seeds/plants/tarap-data.yml` (11 fields)
+- `src/seeds/plants/thin-leaved-coneflower-data.yml` (11 fields)
+- `src/seeds/plants/thorny-buffaloberry-data.yml` (11 fields)
+- `src/seeds/plants/tropical-almond-data.yml` (11 fields)
+- `src/seeds/plants/virginia-rose-data.yml` (11 fields)
+- `src/seeds/plants/virginia-spiderwort-data.yml` (11 fields)
+- `src/seeds/plants/virginia-stonecrop-data.yml` (11 fields)
+- `src/seeds/plants/wax-apple-data.yml` (11 fields)
+- `src/seeds/plants/weeping-lovegrass-data.yml` (11 fields)
+- `src/seeds/plants/western-soapberry-data.yml` (11 fields)
 - `src/seeds/plants/white-wild-indigo-data.yml` (11 fields)
+- `src/seeds/plants/wild-bergamot-data.yml` (11 fields)
+- `src/seeds/plants/wild-blue-phlox-data.yml` (11 fields)
 - `src/seeds/plants/wild-columbine-data.yml` (11 fields)
-- `src/seeds/plants/yellow-coneflower-data.yml` (11 fields)
-- `src/seeds/plants/zamia-integrifolia-data.yml` (11 fields)
+- `src/seeds/plants/wild-crabapple-data.yml` (11 fields)
 ---
 
 ## When Done
@@ -75,12 +80,9 @@ python3 validate.py --since 2h
 python3 validate.py --fix --since 2h
 ./sync.sh --check
 ./sync.sh
-rm review/cursor_enrich_2_of_2.md
+rm review/cursor_enrich_10_of_11.md
 ```
 
 Zero warnings required before the next batch.
 
-✅ Final batch — commit:
-```bash
-git add -A && git commit -m 'enrichment complete'
-```
+Next: `cursor_enrich_11_of_11.md`

@@ -1,7 +1,7 @@
-# PermiePortal — Enrichment Batch 1 of 2
+# PermiePortal — Enrichment Batch 7 of 11
 
 > **Agent mode only.** ONE session at a time.
-> This batch: 20 plants. Total remaining: 35 plants + 0 pest fields.
+> This batch: 20 plants. Total remaining: 211 plants + 0 pest fields.
 
 ---
 
@@ -51,26 +51,26 @@ NEVER: None, NEEDS_DATA, or animals without pest profiles
 
 ## Plants to Enrich
 
-- `src/seeds/plants/bald-cypress-data.yml` (11 fields)
-- `src/seeds/plants/blue-palmetto-data.yml` (11 fields)
-- `src/seeds/plants/blue-wild-indigo-data.yml` (11 fields)
-- `src/seeds/plants/cabbage-palm-data.yml` (11 fields)
-- `src/seeds/plants/coastalplain-honeycombhead-data.yml` (11 fields)
-- `src/seeds/plants/coconut-palm-data.yml` (11 fields)
-- `src/seeds/plants/coontie-palm-data.yml` (11 fields)
-- `src/seeds/plants/dense-blazingstar-data.yml` (11 fields)
-- `src/seeds/plants/dwarf-palmetto-data.yml` (11 fields)
-- `src/seeds/plants/eastern-columbine-data.yml` (11 fields)
-- `src/seeds/plants/florida-paintbrush-data.yml` (11 fields)
-- `src/seeds/plants/florida-thatch-palm-data.yml` (11 fields)
-- `src/seeds/plants/gopher-tortoise-burrow-plants-data.yml` (11 fields)
-- `src/seeds/plants/key-thatch-palm-data.yml` (11 fields)
-- `src/seeds/plants/leavenworths-tickseed-data.yml` (11 fields)
-- `src/seeds/plants/loblolly-pine-data.yml` (11 fields)
-- `src/seeds/plants/longleaf-pine-data.yml` (11 fields)
-- `src/seeds/plants/pale-purple-coneflower-data.yml` (11 fields)
+- `src/seeds/plants/pear-hawthorn-data.yml` (11 fields)
+- `src/seeds/plants/persian-lilac-data.yml` (11 fields)
 - `src/seeds/plants/pineland-croton-data.yml` (11 fields)
 - `src/seeds/plants/pineland-heather-data.yml` (11 fields)
+- `src/seeds/plants/plains-wild-indigo-data.yml` (11 fields)
+- `src/seeds/plants/pond-pine-data.yml` (11 fields)
+- `src/seeds/plants/prairie-blazingstar-data.yml` (11 fields)
+- `src/seeds/plants/prairie-coneflower-data.yml` (11 fields)
+- `src/seeds/plants/prairie-cordgrass-data.yml` (11 fields)
+- `src/seeds/plants/prairie-crabapple-data.yml` (11 fields)
+- `src/seeds/plants/prairie-phlox-data.yml` (11 fields)
+- `src/seeds/plants/prairie-wild-petunia-data.yml` (11 fields)
+- `src/seeds/plants/purple-chokeberry-data.yml` (11 fields)
+- `src/seeds/plants/purple-lovegrass-data.yml` (11 fields)
+- `src/seeds/plants/red-chokeberry-data.yml` (11 fields)
+- `src/seeds/plants/red-elderberry-data.yml` (11 fields)
+- `src/seeds/plants/red-mombin-data.yml` (11 fields)
+- `src/seeds/plants/ribbon-palm-data.yml` (11 fields)
+- `src/seeds/plants/riberry-data.yml` (11 fields)
+- `src/seeds/plants/rock-cotoneaster-data.yml` (11 fields)
 ---
 
 ## When Done
@@ -80,9 +80,9 @@ python3 validate.py --since 2h
 python3 validate.py --fix --since 2h
 ./sync.sh --check
 ./sync.sh
-rm review/cursor_enrich_1_of_2.md
+rm review/cursor_enrich_7_of_11.md
 ```
 
 Zero warnings required before the next batch.
 
-Next: `cursor_enrich_2_of_2.md`
+Next: `cursor_enrich_8_of_11.md`
