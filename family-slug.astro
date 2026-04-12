@@ -1,0 +1,216 @@
+---
+// src/pages/plants/family/[family].astro
+import BaseLayout from '../../../components/layouts/BaseLayout.astro';
+import plantsData from '../../../data/plants.json';
+
+export function getStaticPaths() {
+  const familyMap: Record<string, any[]> = {};
+  for (const plant of plantsData) {
+    const f = plant.family;
+    if (!f || f === 'NEEDS_DATA') continue;
+    const slug = f.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    if (!familyMap[slug]) familyMap[slug] = [];
+    familyMap[slug].push(plant);
+  }
+  return Object.entries(familyMap).map(([slug, plants]) => ({
+    params: { family: slug },
+    props: { plants, familyName: plants[0].family }
+  }));
+}
+
+const { plants, familyName } = Astro.props;
+const familySlug = Astro.params.family;
+
+// Sort plants by common name
+const sorted = [...plants].sort((a, b) => a.common_name.localeCompare(b.common_name));
+
+// Collect all functions across family
+const allFunctions: Record<string, number> = {};
+for (const p of plants) {
+  for (const f of (p.plant_function || [])) {
+    allFunctions[f] = (allFunctions[f] || 0) + 1;
+  }
+}
+const topFunctions = Object.entries(allFunctions)
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 6);
+
+// Collect all layers
+const allLayers: Record<string, number> = {};
+for (const p of plants) {
+  for (const l of (p.layers || [])) {
+    allLayers[l] = (allLayers[l] || 0) + 1;
+  }
+}
+const topLayers = Object.entries(allLayers).sort((a, b) => b[1] - a[1]);
+
+// Zone range
+const zones = plants.flatMap(p => {
+  const z = String(p.zone || '');
+  const m = z.match(/(\d+)/g);
+  return m ? m.map(Number) : [];
+}).filter(Boolean);
+const minZone = zones.length ? Math.min(...zones) : null;
+const maxZone = zones.length ? Math.max(...zones) : null;
+
+const FAMILY_NOTES: Record<string, {note: string, wiki: string}> = {
+  'Fabaceae': { note: 'The legume family. Most members fix atmospheric nitrogen through root nodules with Rhizobium bacteria. Essential in every food forest guild as living fertilizer.', wiki: 'Fabaceae' },
+  'Asteraceae': { note: 'The daisy family. Composite flowers are pollinator magnets. Many are dynamic accumulators with deep taproots that mine subsoil minerals.', wiki: 'Asteraceae' },
+  'Lamiaceae': { note: 'The mint family. Volatile aromatic oils in leaves confuse pest navigation and attract beneficial insects. Most prefer well-drained soil and full sun.', wiki: 'Lamiaceae' },
+  'Rosaceae': { note: 'The rose family. Includes virtually all temperate tree fruits and cane berries. Members often share pest pressure — monitor for fire blight and aphids across the family.', wiki: 'Rosaceae' },
+  'Myrtaceae': { note: 'The myrtle family. Tropical and subtropical fruit trees with aromatic leaves. Includes guava, feijoa, jaboticaba, and eucalyptus. Often edible flowers.', wiki: 'Myrtaceae' },
+  'Solanaceae': { note: 'The nightshade family. Contains alkaloids in leaves and stems. Fruits of tomato, pepper, and eggplant are edible; green parts generally toxic. Rotate out of beds every 3-4 years.', wiki: 'Solanaceae' },
+  'Brassicaceae': { note: 'The mustard family. Glucosinolates deter generalist pests but attract specialist insects. Heavy nitrogen feeders. Club root persists in soil for 20 years — rotate strictly.', wiki: 'Brassicaceae' },
+  'Cucurbitaceae': { note: 'The gourd family. Vining crops with high water and nutrient demands. Squash bugs, cucumber beetles, and vine borers target all family members. Intercrop with nasturtium and catnip.', wiki: 'Cucurbitaceae' },
+  'Apiaceae': { note: 'The carrot family. Umbelliferous flower clusters are landing pads for parasitoid wasps. Let some bolt every year — the flowers pay pest management dividends for months.', wiki: 'Apiaceae' },
+  'Rutaceae': { note: 'The citrus family. Volatile oils, high vitamin C, essential oils. Most need free-draining soil and don\'t tolerate wet feet. Watch for shared citrus pest pressure across the family.', wiki: 'Rutaceae' },
+  'Ericaceae': { note: 'The heath family. Acid-loving. Need pH 4.5-5.5 and ericoid mycorrhizal fungi — don\'t lime their beds. Blueberries, cranberries, and huckleberries reward patience.', wiki: 'Ericaceae' },
+  'Poaceae': { note: 'The grass family. Includes all grains, bamboo, sugarcane, and lemongrass. Wind-pollinated. Deep fibrous roots build soil organic matter. Many are excellent chop-and-drop plants.', wiki: 'Poaceae' },
+};
+---
+
+<BaseLayout title={`${familyName} — Plant Family — PermiePortal`}>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Serif:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+  :root {
+    --soil: #0f0d0a; --bark: #1c1812; --moss: #2a3d1f;
+    --leaf: #4a7c35; --lime: #8fb83a; --straw: #d4a843;
+    --ash: #b8b0a0; --paper: #ede8dc; --rot: #7a3b1e; --rust: #c4551a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--soil); color: var(--paper); font-family: 'Instrument Serif', Georgia, serif; }
+  .nav { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 2rem; border-bottom: 1px solid rgba(139,184,58,0.2); }
+  .nav-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; letter-spacing: 0.08em; color: var(--lime); text-decoration: none; }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a { font-family: 'Space Mono', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ash); text-decoration: none; transition: color 0.2s; }
+  .nav-links a:hover { color: var(--lime); }
+  .breadcrumb { padding: 1rem 2rem; font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ash); border-bottom: 1px solid rgba(139,184,58,0.1); }
+  .breadcrumb a { color: var(--lime); text-decoration: none; }
+
+  .hero { padding: 3rem 2rem 2.5rem; border-bottom: 1px solid rgba(139,184,58,0.15); display: grid; grid-template-columns: 1fr auto; gap: 3rem; align-items: start; }
+  .hero-eyebrow { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--straw); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.75rem; }
+  .hero-eyebrow::before { content: ''; width: 2rem; height: 1px; background: var(--straw); }
+  .hero-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(3rem, 8vw, 7rem); line-height: 0.92; color: var(--paper); margin-bottom: 0.5rem; }
+  .hero-count { font-family: 'Space Mono', monospace; font-size: 0.7rem; color: var(--lime); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.25rem; }
+  .hero-note { font-size: 1.05rem; line-height: 1.75; color: var(--ash); max-width: 560px; }
+
+  .stats-panel { background: rgba(28,24,18,0.8); border: 1px solid rgba(139,184,58,0.2); padding: 1.5rem; min-width: 220px; }
+  .stats-panel::before { content: '// FAMILY DATA'; font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.15em; color: var(--lime); opacity: 0.7; display: block; margin-bottom: 1.25rem; }
+  .stat-row { margin-bottom: 1rem; border-left: 2px solid var(--moss); padding-left: 0.75rem; }
+  .stat-label { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ash); margin-bottom: 0.2rem; }
+  .stat-value { font-family: 'Bebas Neue', sans-serif; font-size: 1.3rem; color: var(--lime); line-height: 1.1; }
+
+  .section { padding: 2.5rem 2rem; border-bottom: 1px solid rgba(139,184,58,0.1); }
+  .section-label { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--straw); margin-bottom: 1rem; }
+
+  .function-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .function-tag { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.3rem 0.8rem; background: rgba(42,61,31,0.5); border: 1px solid rgba(74,124,53,0.4); color: var(--lime); }
+  .function-count { opacity: 0.6; font-size: 0.55rem; margin-left: 0.3rem; }
+
+  .plants-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.5rem; }
+  .plant-card { display: block; text-decoration: none; padding: 0.75rem 1rem; background: var(--bark); border: 1px solid rgba(139,184,58,0.12); transition: all 0.2s; }
+  .plant-card:hover { border-color: rgba(139,184,58,0.35); background: rgba(42,61,31,0.25); }
+  .plant-name { font-family: 'Space Mono', monospace; font-size: 0.72rem; color: var(--paper); letter-spacing: 0.04em; margin-bottom: 0.2rem; }
+  .plant-sci { font-style: italic; font-size: 0.72rem; color: var(--ash); opacity: 0.7; }
+
+  .wiki-link { display: inline-flex; align-items: center; gap: 0.4rem; font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--lime); text-decoration: none; padding: 0.4rem 0.9rem; border: 1px solid rgba(139,184,58,0.3); margin-top: 1rem; transition: all 0.2s; }
+  .wiki-link:hover { border-color: var(--lime); background: rgba(139,184,58,0.08); }
+  .wiki-link::after { content: '↗'; font-size: 0.6rem; }
+
+  .footer { padding: 2rem 4rem; border-top: 1px solid rgba(139,184,58,0.15); display: flex; justify-content: space-between; align-items: center; margin-top: 2rem; }
+  .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.2rem; color: var(--lime); letter-spacing: 0.08em; }
+  .footer-copy { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--ash); }
+
+  @media (max-width: 768px) {
+    .hero { grid-template-columns: 1fr; gap: 2rem; }
+    .plants-grid { grid-template-columns: 1fr 1fr; }
+    .nav-links { gap: 1rem; }
+    .footer { flex-direction: column; gap: 1rem; padding: 2rem 1.5rem; }
+  }
+</style>
+
+<nav class="nav">
+  <a href="/" class="nav-logo">PermiePortal</a>
+  <ul class="nav-links">
+    <li><a href="/plants">Plants</a></li>
+    <li><a href="/pests">Pests</a></li>
+    <li><a href="/articles">Articles</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
+</nav>
+
+<div class="breadcrumb">
+  <a href="/plants">Plants</a> / <a href="/plants/families">Families</a> / {familyName}
+</div>
+
+<div class="hero">
+  <div>
+    <p class="hero-eyebrow">Plant Family</p>
+    <h1 class="hero-title">{familyName}</h1>
+    <p class="hero-count">{plants.length} plant{plants.length !== 1 ? 's' : ''} in database</p>
+    {FAMILY_NOTES[familyName] ? (
+      <p class="hero-note">{FAMILY_NOTES[familyName].note}</p>
+    ) : (
+      <p class="hero-note">Browse all {plants.length} {familyName} plants in the PermiePortal database.</p>
+    )}
+    {FAMILY_NOTES[familyName] && (
+      <a href={`https://en.wikipedia.org/wiki/${FAMILY_NOTES[familyName].wiki}`}
+         target="_blank" rel="noopener" class="wiki-link">
+        Wikipedia — {familyName}
+      </a>
+    )}
+  </div>
+
+  <div class="stats-panel">
+    <div class="stat-row">
+      <div class="stat-label">Plants in Database</div>
+      <div class="stat-value">{plants.length}</div>
+    </div>
+    {minZone && maxZone && (
+      <div class="stat-row">
+        <div class="stat-label">Zone Range</div>
+        <div class="stat-value">{minZone}–{maxZone}</div>
+      </div>
+    )}
+    {topLayers.slice(0,3).map(([layer, count]) => (
+      <div class="stat-row">
+        <div class="stat-label">{layer}</div>
+        <div class="stat-value">{count} plants</div>
+      </div>
+    ))}
+  </div>
+</div>
+
+{topFunctions.length > 0 && (
+  <div class="section">
+    <p class="section-label">Common Functions in This Family</p>
+    <div class="function-tags">
+      {topFunctions.map(([fn, count]) => (
+        <span class="function-tag">
+          {fn}<span class="function-count">×{count}</span>
+        </span>
+      ))}
+    </div>
+  </div>
+)}
+
+<div class="section">
+  <p class="section-label">All {familyName} Plants — {plants.length} total</p>
+  <div class="plants-grid">
+    {sorted.map(plant => (
+      <a href={`/plants/${plant.slug}`} class="plant-card">
+        <div class="plant-name">{plant.common_name}</div>
+        {plant.scientific_name && plant.scientific_name !== 'NEEDS_DATA' && (
+          <div class="plant-sci">{plant.scientific_name}</div>
+        )}
+      </a>
+    ))}
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-logo">PermiePortal</div>
+  <div class="footer-copy">© {new Date().getFullYear()} PermiePortal</div>
+</footer>
+
+</BaseLayout>

@@ -1,0 +1,139 @@
+---
+// src/pages/plants/families.astro
+import BaseLayout from '../../components/layouts/BaseLayout.astro';
+import plantsData from '../../data/plants.json';
+
+// Build family counts
+const familyMap: Record<string, {count: number, slug: string, plants: any[]}> = {};
+for (const plant of plantsData) {
+  const f = plant.family;
+  if (!f || f === 'NEEDS_DATA') continue;
+  const slug = f.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+  if (!familyMap[f]) familyMap[f] = { count: 0, slug, plants: [] };
+  familyMap[f].count++;
+  if (familyMap[f].plants.length < 3) familyMap[f].plants.push(plant);
+}
+
+const families = Object.entries(familyMap)
+  .sort((a, b) => b[1].count - a[1].count);
+
+// Key family notes
+const FAMILY_NOTES: Record<string, string> = {
+  'Fabaceae': 'Nitrogen fixers. The legume family includes beans, peas, clovers, and most N-fixing trees. Nodulating roots feed the whole guild.',
+  'Asteraceae': 'Daisy family. Dynamic accumulators and pollinator magnets. Includes sunflowers, echinacea, calendula, and most tap-rooted mineral miners.',
+  'Lamiaceae': 'Mint family. Aromatic oils confuse pest navigation. Drought-tolerant, bee-loved, and useful in almost every guild as a pest deterrent.',
+  'Rosaceae': 'Rose family. Almost every temperate fruit: apples, pears, plums, cherries, raspberries, strawberries. Watch for shared pests across family members.',
+  'Myrtaceae': 'Myrtle family. Tropical and subtropical fruits — feijoa, guava, jaboticaba, lilly pilly. Aromatic leaves, often edible flowers.',
+  'Solanaceae': 'Nightshade family. Tomatoes, peppers, eggplant, potatoes. Heavy feeders, alkaloid producers. Rotate with non-solanums to break pest cycles.',
+  'Brassicaceae': 'Mustard family. Glucosinolates deter pests but attract specialists. Rotate religiously — club root and cabbage worms follow the family.',
+  'Cucurbitaceae': 'Gourd family. Vining heavy feeders. Squash bugs, cucumber beetles, and vine borers target the whole family. Rotate and intercrop.',
+  'Poaceae': 'Grass family. Includes all grains, sugarcane, bamboo, and lemongrass. Mostly wind-pollinated, deep-rooted, excellent soil builders.',
+  'Arecaceae': 'Palm family. Tropical and subtropical canopy layer. Long-lived, wind-resistant, many yield edible fruit, hearts, and sap.',
+  'Apiaceae': 'Carrot family. Umbelliferous flowers are parasitoid wasp magnets. Includes dill, fennel, cilantro, parsley — essential for pest management guilds.',
+  'Rutaceae': 'Citrus family. All citrus, rue, curry leaf. Volatile oils, vitamin C, essential guild members in subtropical food forests.',
+  'Ericaceae': 'Heath family. Acid-loving berries — blueberries, cranberries, huckleberries. Need low pH, mycorrhizal partnerships, and patient establishment.',
+  'Malvaceae': 'Mallow family. Includes hibiscus, okra, cacao, cotton, moringa relatives. Deep taproots, mucilaginous properties, many medicinal uses.',
+  'Araceae': 'Arum family. Taro, elephant ear, jack-in-the-pulpit. Calcium oxalate in most species — process before eating. Excellent shade-layer plants.',
+};
+---
+
+<BaseLayout title="Plant Families — PermiePortal">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Serif:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+  :root {
+    --soil: #0f0d0a; --bark: #1c1812; --moss: #2a3d1f;
+    --leaf: #4a7c35; --lime: #8fb83a; --straw: #d4a843;
+    --ash: #b8b0a0; --paper: #ede8dc; --rot: #7a3b1e; --rust: #c4551a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--soil); color: var(--paper); font-family: 'Instrument Serif', Georgia, serif; }
+  .nav { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 2rem; border-bottom: 1px solid rgba(139,184,58,0.2); }
+  .nav-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; letter-spacing: 0.08em; color: var(--lime); text-decoration: none; }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a { font-family: 'Space Mono', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ash); text-decoration: none; transition: color 0.2s; }
+  .nav-links a:hover { color: var(--lime); }
+  .breadcrumb { padding: 1rem 2rem; font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ash); border-bottom: 1px solid rgba(139,184,58,0.1); }
+  .breadcrumb a { color: var(--lime); text-decoration: none; }
+
+  .page-header { padding: 3rem 2rem 2rem; border-bottom: 1px solid rgba(139,184,58,0.15); }
+  .page-eyebrow { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--straw); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.75rem; }
+  .page-eyebrow::before { content: ''; width: 2rem; height: 1px; background: var(--straw); }
+  .page-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(3rem, 7vw, 6rem); line-height: 0.95; color: var(--paper); margin-bottom: 1rem; }
+  .page-desc { font-size: 1rem; color: var(--ash); max-width: 600px; line-height: 1.7; }
+
+  .families-grid { padding: 2rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1rem; max-width: 1400px; }
+
+  .family-card { display: block; text-decoration: none; background: var(--bark); border: 1px solid rgba(139,184,58,0.12); padding: 1.5rem; transition: all 0.25s; position: relative; overflow: hidden; }
+  .family-card::after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 2px; background: var(--lime); transform: scaleX(0); transform-origin: left; transition: transform 0.3s; }
+  .family-card:hover { border-color: rgba(139,184,58,0.3); background: rgba(42,61,31,0.2); }
+  .family-card:hover::after { transform: scaleX(1); }
+
+  .family-name { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; letter-spacing: 0.03em; color: var(--paper); margin-bottom: 0.25rem; }
+  .family-count { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--lime); opacity: 0.8; margin-bottom: 0.75rem; }
+  .family-note { font-size: 0.85rem; line-height: 1.6; color: var(--ash); margin-bottom: 1rem; }
+  .family-examples { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+  .family-example { font-family: 'Space Mono', monospace; font-size: 0.58rem; padding: 0.15rem 0.5rem; border: 1px solid rgba(139,184,58,0.2); color: var(--ash); text-transform: uppercase; letter-spacing: 0.05em; }
+  .family-arrow { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--lime); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 1rem; display: flex; align-items: center; gap: 0.4rem; }
+  .family-arrow::after { content: '→'; transition: transform 0.2s; }
+  .family-card:hover .family-arrow::after { transform: translateX(4px); }
+
+  .footer { padding: 2rem 4rem; border-top: 1px solid rgba(139,184,58,0.15); display: flex; justify-content: space-between; align-items: center; margin-top: 2rem; }
+  .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.2rem; color: var(--lime); letter-spacing: 0.08em; }
+  .footer-copy { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--ash); }
+
+  @media (max-width: 768px) {
+    .families-grid { grid-template-columns: 1fr; padding: 1.5rem; }
+    .nav-links { gap: 1rem; }
+    .footer { flex-direction: column; gap: 1rem; padding: 2rem 1.5rem; }
+  }
+</style>
+
+<nav class="nav">
+  <a href="/" class="nav-logo">PermiePortal</a>
+  <ul class="nav-links">
+    <li><a href="/plants">Plants</a></li>
+    <li><a href="/pests">Pests</a></li>
+    <li><a href="/articles">Articles</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
+</nav>
+
+<div class="breadcrumb">
+  <a href="/plants">← Plants</a> / Families
+</div>
+
+<div class="page-header">
+  <p class="page-eyebrow">Botanical Taxonomy</p>
+  <h1 class="page-title">Plant Families</h1>
+  <p class="page-desc">
+    {families.length} families across {plantsData.length} plants. 
+    Family membership predicts growth habits, pest pressure, companion relationships, and soil needs 
+    better than almost any other single data point.
+  </p>
+</div>
+
+<div class="families-grid">
+  {families.map(([name, data]) => (
+    <a href={`/plants/family/${data.slug}`} class="family-card">
+      <div class="family-name">{name}</div>
+      <div class="family-count">{data.count} plant{data.count !== 1 ? 's' : ''} in database</div>
+      {FAMILY_NOTES[name] && (
+        <p class="family-note">{FAMILY_NOTES[name]}</p>
+      )}
+      <div class="family-examples">
+        {data.plants.map((p: any) => (
+          <span class="family-example">{p.common_name}</span>
+        ))}
+        {data.count > 3 && <span class="family-example">+{data.count - 3} more</span>}
+      </div>
+      <div class="family-arrow">Browse family</div>
+    </a>
+  ))}
+</div>
+
+<footer class="footer">
+  <div class="footer-logo">PermiePortal</div>
+  <div class="footer-copy">© {new Date().getFullYear()} PermiePortal</div>
+</footer>
+
+</BaseLayout>
