@@ -23,30 +23,22 @@ const controlSectionLabels: Record<string, string> = {
 
 const imagePath = pest.picture ? `/assets/pests/${pest.picture}` : null;
 
-// iNaturalist URLs — taxon page for ID, observations for field photos
-const sciQuery = pest.scientific_name && pest.scientific_name !== 'NEEDS_DATA'
-  ? encodeURIComponent(pest.scientific_name)
-  : null;
-const nameQuery = encodeURIComponent(pest.name);
+const sciName = pest.scientific_name && pest.scientific_name !== 'NEEDS_DATA'
+  ? pest.scientific_name : pest.name;
+const nameQuery  = encodeURIComponent(pest.name);
+const taxonQuery = encodeURIComponent(sciName);
 
-// Taxon search page — shows species info + representative photos
-const iNatTaxonUrl = sciQuery
-  ? `https://www.inaturalist.org/search?q=${sciQuery}`
-  : `https://www.inaturalist.org/search?q=${nameQuery}`;
+// iNaturalist — taxon_name= accepts scientific names, common names, synonyms
+const iNatObsUrl    = `https://www.inaturalist.org/observations?place_id=any&taxon_name=${taxonQuery}`;
+const iNatSpeciesUrl = `https://www.inaturalist.org/taxa/search?q=${taxonQuery}`;
+const wikipediaUrl   = `https://en.wikipedia.org/wiki/${encodeURIComponent(sciName.replace(/ /g, '_'))}`;
 
-// Observations — real field photos from actual growers
-const iNatObsUrl = sciQuery
-  ? `https://www.inaturalist.org/observations?q=${nameQuery}&order_by=votes`
-  : `https://www.inaturalist.org/observations?q=${nameQuery}&order_by=votes`;
-
-// Disease pests — link to UF/IFAS which has the best subtropical disease photos
 const isDisease = ['greening', 'blight', 'rot', 'mold', 'mildew', 'canker',
                    'virus', 'fungus', 'bacterial', 'alternaria', 'cercospora',
                    'anthracnose', 'pythium', 'phytophthora'].some(d =>
   pest.slug.includes(d) || pest.name.toLowerCase().includes(d)
 );
 const ifasUrl = `https://edis.ifas.ufl.edu/search?q=${nameQuery}`;
-const bugwoodUrl = `https://www.bugwood.org/search/?q=${nameQuery}`;
 ---
 
 <BaseLayout title={pest.name}>
@@ -174,11 +166,11 @@ const bugwoodUrl = `https://www.bugwood.org/search/?q=${nameQuery}`;
     </div>
   )}
   <div class="id-links">
-    <a href={iNatTaxonUrl} target="_blank" rel="noopener" class="id-link">
-      iNaturalist Species
-    </a>
     <a href={iNatObsUrl} target="_blank" rel="noopener" class="id-link">
-      Field Observations
+      iNat Photos
+    </a>
+    <a href={iNatSpeciesUrl} target="_blank" rel="noopener" class="id-link">
+      iNat Species
     </a>
   </div>
 </div>
@@ -222,17 +214,18 @@ const bugwoodUrl = `https://www.bugwood.org/search/?q=${nameQuery}`;
           <a href={iNatObsUrl} target="_blank" rel="noopener" class="photo-link primary">
             <span class="arrow">↗</span> iNaturalist Observations
           </a>
-          <a href={iNatTaxonUrl} target="_blank" rel="noopener" class="photo-link">
-            <span class="arrow">↗</span> iNaturalist Species Page
+          <a href={iNatSpeciesUrl} target="_blank" rel="noopener" class="photo-link">
+            <span class="arrow">↗</span> iNaturalist Species
+          </a>
+          <a href={wikipediaUrl} target="_blank" rel="noopener" class="photo-link">
+            <span class="arrow">↗</span> Wikipedia
           </a>
           {isDisease && (
             <a href={ifasUrl} target="_blank" rel="noopener" class="photo-link">
               <span class="arrow">↗</span> UF/IFAS Extension
             </a>
           )}
-          <a href={bugwoodUrl} target="_blank" rel="noopener" class="photo-link">
-            <span class="arrow">↗</span> Bugwood Image Database
-          </a>
+
         </div>
       </div>
     </div>
