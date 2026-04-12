@@ -9,7 +9,7 @@
   zone: 3-8
   ideal_temp_min: 60°F (15°C)
   ideal_temp_max: 70°F (21°C)
-  min_temp: "-40°F (-40°C)"
+  min_temp: -40°F (-40°C)
   max_temp: 85°F (29°C)
   perennial: true
   layers:
@@ -23,28 +23,32 @@
   - Wildlife Attractor
   - Erosion Control
   - Ornamental
-  description: Lupines are herbaceous perennials known for their tall, spiky flower
-    clusters that come in a variety of colors, including blue, purple, pink, and white.
-    They typically grow between 0.3 to 1.5 meters (1 to 5 feet) in height, with some
-    species reaching up to 6 meters (20 feet). The plants have deeply divided, palmate
-    leaves and produce seed pods after flowering. They thrive in cooler climates and
-    prefer well-drained, sandy soils. Lupines are also known for their nitrogen-fixing
-    ability, enriching the soil in which they grow. Propagation is commonly done through
-    seeds, which should be scarified before planting. Harvesting of seeds occurs in
-    late summer when the pods turn brown and begin to split.
+  description: 'Lupines are herbaceous perennials known for their tall, spiky flower clusters that come in a variety of colors,
+    including blue, purple, pink, and white. They typically grow between 0.3 to 1.5 meters (1 to 5 feet) in height, with some
+    species reaching up to 6 meters (20 feet). The plants have deeply divided, palmate leaves and produce seed pods after
+    flowering. They thrive in cooler climates and prefer well-drained, sandy soils. Lupines are also known for their nitrogen-fixing
+    ability, enriching the soil in which they grow. Propagation is commonly done through seeds, which should be scarified
+    before planting. Harvesting of seeds occurs in late summer when the pods turn brown and begin to split.
 
-    ☀️💧 Sun and Water Requirements —
-    Full sun to bright partial shade; hot-summer climates benefit from afternoon shade.
-    Well-drained, sandy or gravelly loam with slightly acidic pH suits most species;
-    avoid waterlogged clay that rots deep taproots. Moderate moisture during establishment
-    and flowering; established plants tolerate short dry spells but not standing water.
-  purpose: |-
-    - **Edible:** Certain species, particularly the Sweet Lupine varieties, produce seeds that are consumed as lupin beans, a traditional snack in Mediterranean cuisine. However, many wild lupines contain toxic alkaloids and should not be consumed without proper processing.
-    - **Nitrogen Fixer:** Lupines have symbiotic relationships with soil bacteria that fix atmospheric nitrogen, improving soil fertility for surrounding plants.
+    ☀️💧 Sun and Water Requirements — Full sun to bright partial shade; hot-summer climates benefit from afternoon shade. Well-drained,
+    sandy or gravelly loam with slightly acidic pH suits most species; avoid waterlogged clay that rots deep taproots. Moderate
+    moisture during establishment and flowering; established plants tolerate short dry spells but not standing water.'
+  purpose: '- **Edible:** Certain species, particularly the Sweet Lupine varieties, produce seeds that are consumed as lupin
+    beans, a traditional snack in Mediterranean cuisine. However, many wild lupines contain toxic alkaloids and should not
+    be consumed without proper processing.
+
+    - **Nitrogen Fixer:** Lupines have symbiotic relationships with soil bacteria that fix atmospheric nitrogen, improving
+    soil fertility for surrounding plants.
+
     - **Pollinator:** The vibrant flowers attract bees, butterflies, and hummingbirds, enhancing pollination in the area.
-    - **Wildlife Attractor:** Beyond pollinators, lupines provide habitat and food for various insects and animals, contributing to local biodiversity.
-    - **Erosion Control:** Their deep root systems help stabilize soil, making them useful in preventing erosion on slopes and disturbed sites.
-    - **Ornamental:** With their striking floral displays, lupines are popular in gardens and landscapes for aesthetic purposes.
+
+    - **Wildlife Attractor:** Beyond pollinators, lupines provide habitat and food for various insects and animals, contributing
+    to local biodiversity.
+
+    - **Erosion Control:** Their deep root systems help stabilize soil, making them useful in preventing erosion on slopes
+    and disturbed sites.
+
+    - **Ornamental:** With their striking floral displays, lupines are popular in gardens and landscapes for aesthetic purposes.'
   companions:
   - Yarrow
   - Coneflower
@@ -54,12 +58,42 @@
   - Potato
   pests:
   - Aphids
+  - Banded Cucumber Beetle
+  - Bean Aphid
+  - Bean Leaf Beetle
+  - Bean Weevil
+  - Brown Marmorated Stink Bug
+  - Corn Earworm
+  - Cowpea Curculio
+  - Fall Armyworm
+  - Fusarium Wilt
+  - Ganoderma Butt Rot
+  - Harlequin Ladybird
+  - Kudzu Bug
+  - Locust Borer
+  - Locust Leaf Miner
+  - Lubber Grasshopper
+  - Pea Moth
+  - Pea Weevil
+  - Pythium Root Rot
+  - Reniform Nematode
+  - Root Aphid
   - Slugs
   - Snails
-  practitioner_notes: |-
-    Harvest texture changes faster than color—nip one sample before you commit the whole row to a pick date.
+  - Soybean Looper
+  - Spittlebugs
+  - Spotted Cucumber Beetle
+  - Stink Bug
+  - Striped Cucumber Beetle
+  - Velvetbean Caterpillar
+  - White Rot
+  practitioner_notes: 'Harvest texture changes faster than color—nip one sample before you commit the whole row to a pick
+    date.
+
     Inoculate with the correct rhizobia group—wrong packet gives pretty leaves and empty nodules.
+
     Cluster patches three feet or wider—tiny one-offs get ignored by bees cruising for volume.
-    Watch the plant’s own signals first—catalog zone numbers do not replace your site’s microclimate truth.
+
+    Watch the plant’s own signals first—catalog zone numbers do not replace your site’s microclimate truth.'
   growth_habit: Tree
   data_quality_score: 0.8

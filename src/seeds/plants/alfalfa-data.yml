@@ -8,7 +8,7 @@
   zone: 3-10
   ideal_temp_min: 65°F (18°C)
   ideal_temp_max: 85°F (29°C)
-  min_temp: "-15°F (-26°C)"
+  min_temp: -15°F (-26°C)
   max_temp: 95°F (35°C)
   perennial: true
   layers:
@@ -21,34 +21,44 @@
   - Soil Improvement
   - Erosion Control
   - Pollinator
-  description: "Alfalfa, also known as lucerne, is a perennial flowering plant in
-    the legume family. It typically grows up to 1 meter (3.3 feet) in height and has
-    a deep root system that can extend more than 15 meters (49 feet) to access groundwater.
-    The plant has trifoliate leaves with obovate leaflets and clusters of small purple
-    flowers. It is highly valued for its nutritional content and is widely cultivated
-    as forage for livestock. Alfalfa thrives in well-drained soils with a neutral
-    pH and requires full sun for optimal growth. It is drought-tolerant due to its
-    extensive root system and can improve soil fertility through nitrogen fixation.\n\n✂️\U0001FAD8
-    **Methods to Propagate:**\nAlfalfa is commonly propagated through seeds. The seeds
-    should be inoculated with Rhizobium bacteria to ensure effective nitrogen fixation.
-    Sowing is typically done in the spring or fall, depending on the climate, at a
-    depth of about 1 centimeter (0.4 inches). A firm seedbed and adequate soil moisture
-    are essential for successful germination.\n\n\U0001F31E\U0001F4A7 **Sun and Water
-    Requirements:**\nAlfalfa requires full sun exposure to thrive. It prefers well-drained
-    soils and is tolerant of drought conditions once established, thanks to its deep
-    root system. However, during establishment, consistent moisture is crucial to
-    ensure proper root development.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E
-    **When to Harvest:**\nThe optimal time to harvest alfalfa is at the early bloom
-    stage, which balances yield and nutritional quality. Multiple cuttings can be
-    made throughout the growing season, typically every 28 to 35 days, depending on
-    growth conditions."
-  purpose: |-
-    - **Edible:** Alfalfa sprouts are consumed by humans in salads and sandwiches, providing vitamins and minerals.
-    - **Nitrogen Fixer:** Through symbiosis with Rhizobium bacteria, alfalfa enriches soil nitrogen content, benefiting subsequent crops.
+  description: 'Alfalfa, also known as lucerne, is a perennial flowering plant in the legume family. It typically grows up
+    to 1 meter (3.3 feet) in height and has a deep root system that can extend more than 15 meters (49 feet) to access groundwater.
+    The plant has trifoliate leaves with obovate leaflets and clusters of small purple flowers. It is highly valued for its
+    nutritional content and is widely cultivated as forage for livestock. Alfalfa thrives in well-drained soils with a neutral
+    pH and requires full sun for optimal growth. It is drought-tolerant due to its extensive root system and can improve soil
+    fertility through nitrogen fixation.
+
+
+    ✂️🫘 **Methods to Propagate:**
+
+    Alfalfa is commonly propagated through seeds. The seeds should be inoculated with Rhizobium bacteria to ensure effective
+    nitrogen fixation. Sowing is typically done in the spring or fall, depending on the climate, at a depth of about 1 centimeter
+    (0.4 inches). A firm seedbed and adequate soil moisture are essential for successful germination.
+
+
+    🌞💧 **Sun and Water Requirements:**
+
+    Alfalfa requires full sun exposure to thrive. It prefers well-drained soils and is tolerant of drought conditions once
+    established, thanks to its deep root system. However, during establishment, consistent moisture is crucial to ensure proper
+    root development.
+
+
+    🧑‍🌾👩‍🌾 **When to Harvest:**
+
+    The optimal time to harvest alfalfa is at the early bloom stage, which balances yield and nutritional quality. Multiple
+    cuttings can be made throughout the growing season, typically every 28 to 35 days, depending on growth conditions.'
+  purpose: '- **Edible:** Alfalfa sprouts are consumed by humans in salads and sandwiches, providing vitamins and minerals.
+
+    - **Nitrogen Fixer:** Through symbiosis with Rhizobium bacteria, alfalfa enriches soil nitrogen content, benefiting subsequent
+    crops.
+
     - **Animal Fodder:** It serves as high-quality forage for livestock, offering high protein content and digestibility.
+
     - **Soil Improvement:** The deep root system enhances soil structure and organic matter content.
+
     - **Erosion Control:** Its extensive roots help stabilize soil, preventing erosion.
-    - **Pollinator:** The flowers attract bees and other pollinators, supporting biodiversity.
+
+    - **Pollinator:** The flowers attract bees and other pollinators, supporting biodiversity.'
   companions:
   - Corn
   - Oats
@@ -58,10 +68,39 @@
   - Garlic
   pests:
   - Aphids
+  - Banded Cucumber Beetle
+  - Bean Aphid
+  - Bean Leaf Beetle
+  - Bean Weevil
+  - Brown Marmorated Stink Bug
   - Clover Weevils
-  practitioner_notes: |-
-    Autotoxic exudates make re-seeding into old alfalfa stands unreliable—rotate away or break soil biology with other crops.
+  - Corn Earworm
+  - Cowpea Curculio
+  - Fall Armyworm
+  - Fusarium Wilt
+  - Ganoderma Butt Rot
+  - Harlequin Ladybird
+  - Kudzu Bug
+  - Locust Borer
+  - Locust Leaf Miner
+  - Lubber Grasshopper
+  - Pea Moth
+  - Pea Weevil
+  - Pythium Root Rot
+  - Reniform Nematode
+  - Root Aphid
+  - Soybean Looper
+  - Spittlebugs
+  - Spotted Cucumber Beetle
+  - Stink Bug
+  - Striped Cucumber Beetle
+  - Velvetbean Caterpillar
+  - White Rot
+  practitioner_notes: 'Autotoxic exudates make re-seeding into old alfalfa stands unreliable—rotate away or break soil biology
+    with other crops.
+
     Rhizobium inoculant matched to Medicago improves first-year fixation more than generic legume mix.
-    Soil pH roughly 6.5–7.5 keeps nutrient access honest; acidic sand fights establishment.
+
+    Soil pH roughly 6.5–7.5 keeps nutrient access honest; acidic sand fights establishment.'
   growth_habit: Tree
   data_quality_score: 0.8
