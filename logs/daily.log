@@ -3503,3 +3503,193 @@ Pests in queue:  0
 Done — Sun Apr 12 06:40:01 PM UTC 2026
 
 Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 07:00:01 PM UTC 2026
+==========================================
+Plants in queue: 200
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 10 pests)
+  ⚠️  Rejected 37 invalid entries from queue_plants.txt:
+    ✗ 'White Mulberry (wild type)'
+    ✗ 'Toothache Tree (wild type)'
+    ✗ 'Bald Cypress (wild type)'
+    ✗ 'Red Cedar (Eastern Juniper)'
+    ✗ 'Beggar’s Ticks'
+    ✗ 'Water Pennywort'
+    ✗ 'Tomatillo (wild type)'
+    ✗ 'Tropical Soda Apple (controlled use)'
+    ✗ 'Roselle (wild type variant)'
+    ✗ 'Kenaf (wild type)'
+    ... and 27 more
+  Plants: 20, Pests: 0
+
+==================================================
+🌱 20 plants
+==================================================
+
+🌱 American Beauty Plum
+  🔍 American Beauty Plum... ⚠️  no image found
+    📝 american-beauty-plum-data.yml
+
+🌱 Flatwoods Plum
+  🔍 Flatwoods Plum... ✅ iNaturalist
+    💾 flatwoods_plum.jpg
+    📝 flatwoods-plum-data.yml
+
+🌱 Chickasaw Blackberry
+  🔍 Chickasaw Blackberry... ⚠️  no image found
+    📝 chickasaw-blackberry-data.yml
+
+🌱 Sand Blackberry
+  🔍 Sand Blackberry... ✅ iNaturalist
+    💾 sand_blackberry.jpg
+    📝 sand-blackberry-data.yml
+
+🌱 Dewberry
+  🔍 Dewberry... ✅ Wikimedia
+    💾 dewberry.jpg
+    📝 dewberry-data.yml
+
+🌱 Southern Dewberry
+  🔍 Southern Dewberry... ✅ Wikimedia
+    💾 southern_dewberry.jpg
+    📝 southern-dewberry-data.yml
+
+🌱 American Black Currant
+  🔍 American Black Currant... ✅ Wikimedia
+    💾 american_black_currant.jpg
+    📝 american-black-currant-data.yml
+
+🌱 Golden Currant
+  🔍 Golden Currant... ✅ Wikimedia
+    💾 golden_currant.jpg
+    📝 golden-currant-data.yml
+
+🌱 Florida Willow
+  🔍 Florida Willow... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 florida-willow-data.yml
+
+🌱 Sand Live Oak
+  🔍 Sand Live Oak... ✅ Wikimedia
+    💾 sand_live_oak.jpg
+    📝 sand-live-oak-data.yml
+
+🌱 Bluejack Oak
+  🔍 Bluejack Oak... ✅ iNaturalist
+    💾 bluejack_oak.jpg
+    📝 bluejack-oak-data.yml
+
+🌱 Turkey Oak
+  🔍 Turkey Oak... ✅ Wikimedia
+    💾 turkey_oak.jpg
+    📝 turkey-oak-data.yml
+
+🌱 Myrtle Oak
+  🔍 Myrtle Oak... ✅ iNaturalist
+    💾 myrtle_oak.jpg
+    📝 myrtle-oak-data.yml
+
+🌱 Dwarf Live Oak
+  🔍 Dwarf Live Oak... ✅ iNaturalist
+    💾 dwarf_live_oak.jpg
+    📝 dwarf-live-oak-data.yml
+
+🌱 Florida Maple
+  🔍 Florida Maple... ✅ Wikimedia
+    💾 florida_maple.jpg
+    📝 florida-maple-data.yml
+
+🌱 Chalk Maple
+  🔍 Chalk Maple... ✅ Wikimedia
+    💾 chalk_maple.jpg
+    📝 chalk-maple-data.yml
+
+🌱 Red Mulberry
+  🔍 Red Mulberry... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 red-mulberry-data.yml
+
+🌱 Sugar Hackberry
+  🔍 Sugar Hackberry... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests (f061ab2)
+    📝 sugar-hackberry-data.yml
+
+🌱 Southern Hackberry
+  🔍 Southern Hackberry... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 southern-hackberry-data.yml
+
+🌱 Hercules Club
+  🔍 Hercules Club... ✅ Wikimedia
+    ⚠️  Download failed: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+    📝 hercules-club-data.yml
+
+==================================================
+✅ 20 processed
+==================================================
+
+📋 1 prompt file(s) in review/
+   20 plants + 0 pest fields need enrichment
+   Start: review/cursor_enrich_1_of_1.md
+   Sequential only — one Agent session per file
+
+  📋 143 plants still in queue
+
+Done — Sun Apr 12 07:01:10 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 07:20:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 999 pests)
+
+  ℹ️  Queues empty.
+
+📋 9 prompt file(s) in review/
+   163 plants + 0 pest fields need enrichment
+   Start: review/cursor_enrich_1_of_9.md
+   Sequential only — one Agent session per file
+
+
+Done — Sun Apr 12 07:20:01 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
+
+==========================================
+PermiePortal Daily Run — Sun Apr 12 07:40:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+
+📅 Daily batch (20 plants / 999 pests)
+
+  ℹ️  Queues empty.
+
+📋 7 prompt file(s) in review/
+   125 plants + 0 pest fields need enrichment
+   Start: review/cursor_enrich_1_of_7.md
+   Sequential only — one Agent session per file
+
+
+Done — Sun Apr 12 07:40:01 PM UTC 2026
+
+Next step: open Cursor Agent and paste review/cursor_agent_prompt.md
