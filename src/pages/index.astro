@@ -12,18 +12,36 @@ const featuredPlant = plantsData[Math.floor(Math.random() * plantsData.length)];
 
 // Ticker messages — voice: dark, specific, earned
 const tickerMessages = [
-  "Your grass is a monoculture. Your monoculture is a buffet. Your buffet has a pest problem.",
-  `${plantCount} plants that fix nitrogen, feed people, and don't need a landscaper.`,
-  "Neem oil is not a personality. It's a starting point.",
+  // DATABASE VOICE
+  `${plantCount} plants documented. Zero of them are grass.`,
   `${pestCount} pests. Every single one has a natural enemy. Use it.`,
-  "The soil food web has been running longer than any government. It knows what it's doing.",
-  "Companion planting isn't magic. It's just paying attention.",
-  "If your yard needs chemicals to survive, your yard is the problem.",
+  "Neem oil is not a personality. It's a starting point.",
   "Compost is just time doing what fertilizer pretends to.",
-  "Every monoculture is a pest buffet with better signage.",
-  "The food forest doesn't care about your HOA. Neither do we.",
-  "Roundup is not a solution. It's a surrender.",
   "Information should be free. That's why this exists.",
+  // PERMIEBRO BLEEDING THROUGH
+  "Your lawn costs more to maintain than it will ever produce. That is the point.",
+  "The grass is fine. The $1,400 a year in water, fertilizer, and pesticides keeping it alive is the problem.",
+  "Every time you mow you are literally paying to own nothing.",
+  "Lawns were invented so you could look rich. You are not rich. You are mowing.",
+  "Your grass is aesthetic poverty with a Scotts account.",
+  // ARTICLE CALLBACKS
+  "Lake Huron is crystal clear. That's the bad news.",
+  "Genghis Khan rewilded a continent. Nobody gave him a grant.",
+  "The Khan didn't virtue-signal. He delivered. Horrifyingly, but still.",
+  "Ted's lawn is a chemical experiment with your neighborhood's water table.",
+  "The mower is the apex predator of Saturday mornings and personal finance.",
+  // THE CON
+  "The lawn industrial complex sells you a problem and the solution. Twice a year.",
+  "Weeds: free, drought-tolerant, pollinator habitat. Grass: $80/month and a back problem.",
+  "Your HOA is enforcing an aesthetic invented by 17th century English aristocrats. You are not aristocracy.",
+  "Prince Andrew probably loves your well-kept lawn. Think about that.",
+  "Grass subsidies exist. Food subsidies don't. This is not an accident.",
+  // SYSTEMS THINKING
+  "We subsidize the crops that make us sick and charge for the ones that don't. The math is intentional.",
+  "The VA has a 6-month waitlist. A dandelion will fix your nitrogen problem today.",
+  "Your yard could feed a family. Instead it feeds a mower payment.",
+  "Every grasshole is a food forest that hasn't happened yet.",
+  "The soil food web has been running longer than any government. It knows what it's doing.",
 ];
 ---
 
@@ -95,7 +113,7 @@ const tickerMessages = [
 
   /* TICKER */
   .rant-bar { background: var(--moss); padding: 0.75rem 0; overflow: hidden; border-top: 1px solid rgba(139,184,58,0.2); border-bottom: 1px solid rgba(139,184,58,0.2); position: relative; z-index: 5; }
-  .rant-track { display: flex; width: max-content; animation: ticker 60s linear infinite; }
+  .rant-track { display: flex; width: max-content; animation: ticker 90s linear infinite; }
   .rant-track:hover { animation-play-state: paused; cursor: default; }
   .rant-segment { display: flex; align-items: center; white-space: nowrap; }
   .rant-item { font-family: 'Space Mono', monospace; font-size: 0.75rem; color: var(--lime); letter-spacing: 0.04em; padding: 0 2rem; }
@@ -319,17 +337,7 @@ const tickerMessages = [
   </div>
 </section>
 
-<section class="ask-strip">
-  <div>
-    <div class="ask-label">Coming Soon</div>
-    <div class="ask-headline">Ask PermieBro</div>
-    <p class="ask-sub">
-      An AI that knows your zone, your pests, your soil, and won't recommend a synthetic pesticide.
-      Trained on this database. Opinionated by design.
-    </p>
-  </div>
-  <a href="/about" class="btn-primary">Learn more</a>
-</section>
+
 
 <footer class="footer">
   <div class="footer-logo">PermiePortal</div>

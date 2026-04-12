@@ -505,11 +505,17 @@ def process_pests(names, dry_run=False):
                 print(f"    📝 queued")
         time.sleep(0.5)
     if new_stubs and not dry_run:
-        with open(PESTS_FILE, 'a', encoding='utf-8') as f:
-            f.write('\n')
-            for stub in new_stubs:
-                f.write(stub)
-        print(f"\n  ✅ Appended {len(new_stubs)} pest stubs")
+        written = 0
+        for stub in new_stubs:
+            # Extract slug from stub content
+            import re as _re
+            slug_m = _re.search(r'slug:\s*["']?([\w-]+)', stub)
+            if slug_m:
+                slug = slug_m.group(1)
+                dest = SEEDS_PESTS / f"{slug}-data.yml"
+                dest.write_text(stub, encoding='utf-8')
+                written += 1
+        print(f"\n  ✅ Created {written} individual pest files")
     return processed
 
 
