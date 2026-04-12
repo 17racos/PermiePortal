@@ -1,28 +1,46 @@
 ---
 - common_name: Scrub Cherry
   picture: scrub_cherry.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Eugenia foetida
+  aka:
+  - Spanish Stopper
+  - Boxleaf Stopper
+  family: Myrtaceae
+  zone: 10b-11
+  ideal_temp_min: 50
+  ideal_temp_max: 95
+  min_temp: 26
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Wildlife Attractor
+  - Border Plant
+  - Ornamental
+  - Erosion Control
+  description: "Scrub cherry (Eugenia foetida) is an evergreen myrtle shrub to small tree of Caribbean and subtropical coastal scrub, with small opposite leaves, inconspicuous flowers, and dark berries valued by birds. Plants typically reach 6–15 feet (1.8–4.5 m), often multi-stemmed and tolerant of salt spray, drought, and limestone. It belongs in coastal buffers, wildlife hedges, and xeric subtropical borders where maintenance budgets are honest.\n\n☀️💧 Sun and Water Requirements:\nFull sun to partial shade; densest growth in strong light. Well-drained sandy or rocky soils suit it; tolerates brackish exposure and seasonal drought once established. Mulch young plants; avoid chronic waterlogging.\n\n✂️ Propagation:\nSow fresh seed; semi-hardwood cuttings root under humidity. Prune for hedge shape or clearance; open interior occasionally for airflow in humid spells.\n\n🌾 Harvest / Best Use Timing:\nBerries are primarily wildlife food—human use is uncommon. Leave fruit for birds during migration windows. Growth flushes follow warm wet periods."
+  purpose: |-
+    - Wildlife Attractor: Berries feed birds; dense foliage provides cover in scrub ecosystems.
+    - Border Plant: Tolerates shearing for screens along paths and coastal lots.
+    - Ornamental: Small leaves read as fine texture against coarse tropical neighbors.
+    - Erosion Control: Roots stabilize sandy cuts in coastal exposures.
   companions:
-  - NEEDS_DATA
+  - Wax Myrtle — nitrogen-fixing shrub neighbor sharing coastal humidity and sun
+  - Scrub Palmetto — shared scrub guild with contrasting fan leaves
+  - Beautyberry — purple fruit contrast at similar heights inland from salt spray
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Name collision—“scrub cherry” labels shift; this entry uses Eugenia foetida per coastal horticulture usage
+  - Heavy clay inland without drainage — rot during wet cool spells
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Reiner Richter, some rights reserved (CC BY-NC-SA), uploaded by Reiner Richter
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Aphids
+  - Whiteflies
+  practitioner_notes: |-
+    Common names wander—Eugenia foetida is the scientific anchor; verify keys if your tag says “stopper” instead.
+    Salt spray tests leaves—seedlings need windbreaks until lignin matures.
+    Small leaves mean small shade—do not promise hammock shade from a single shrub.
+    Scale and sooty mold partner with ants—wash and recruit predators before oil spritz theater.
+  growth_habit: Evergreen coastal scrub shrub-tree; small leaves; bird berries; salt-tolerant
+  data_quality_score: 0.76

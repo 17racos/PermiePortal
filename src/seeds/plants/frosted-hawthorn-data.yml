@@ -1,28 +1,45 @@
 ---
 - common_name: Frosted Hawthorn
   picture: frosted_hawthorn.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Crataegus pruinosa
+  aka:
+  - Waxy-fruited hawthorn
+  - Frosted thorn
+  family: Rosaceae
+  zone: 4-8
+  ideal_temp_min: 45
+  ideal_temp_max: 80
+  min_temp: -30
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Erosion Control
+  - Border Plant
+  description: "Frosted hawthorn (Crataegus pruinosa) is a deciduous rosaceous tree or large shrub of eastern North American wood margins, thickets, and old fields, named for the waxy bloom that makes ripe haws look frosted. Height often ranges 15–25 feet (4.5–7.5 m) with a thorny framework and white spring blossoms. It is a wildlife hedgerow workhorse and a modest fruit crop for jelly makers who enjoy tart chemistry.\n\n☀️💧 Sun and Water Requirements:\nFull sun to light shade; more sun improves flowering and fruit set if moisture exists. Adaptable soils if drainage is reasonable; tolerates alkaline substrates in some genotypes. Mulch the root zone to reduce grass competition while young.\n\n✂️ Propagation:\nSow seed after warm-cold stratification cycles typical for Crataegus. Graft or bud selected fruit lines for predictable quality. Prune in late winter for open structure; avoid heavy summer topping that invites weak regrowth.\n\n🌾 Harvest / Best Use Timing:\nCollect haws after the waxy bloom dulls and fruit softens slightly for processing. Taste before committing buckets—astringency varies. Leave clusters for birds if your preservation bandwidth is already full."
+  purpose: |-
+    - Edible: Haws process into jelly, syrup, and ferments where sugar and acid are balanced with skill.
+    - Wildlife Attractor: Flowers and fruit feed insects and birds through the growing season.
+    - Erosion Control: Thorny, deep-rooted habit stabilizes disturbed edges animals shortcut through.
+    - Border Plant: Defines fencerows and property lines with honest deterrent thorns.
   companions:
-  - NEEDS_DATA
+  - American Plum — earlier bloom and fruit in the same hedgerow sequence
+  - Serviceberry — staggered fruiting for wildlife calories and human snacking
+  - Elderberry — fast-growing shrub layer with complementary flowers at the row edge
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Fire Blight — watch for shepherd’s crook dieback in humid springs; prune with clean tools
+  - Thorns — puncture hazard during pruning; wear eye protection and slow down
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Étienne Léveillé-Bourret, some rights reserved (CC BY), uploaded by Étienne Léveillé-Bourret
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Apple Maggot
+  - Fire Blight
+  practitioner_notes: |-
+    Crataegus keys reward hand lenses—arguing from bark alone is a hobby for poets.
+    Waxy bloom is a fingerprint; it rubs off with handling—harvest gently for photos.
+    Cedar rust stories vary by region—know your local alternate hosts before designing orchards.
+    Jelly clarity improves with patience and cheesecloth, not with brute force squeezing.
+  growth_habit: Thorny deciduous small tree; white flowers; waxy red haws; eastern thickets and edges
+  data_quality_score: 0.76

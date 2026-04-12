@@ -1,28 +1,67 @@
 ---
 - common_name: Blue Palmetto
   picture: blue_palmetto.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Sabal minor
+  aka:
+  - Dwarf Palmetto
+  - Bush Palmetto
+  family: Arecaceae
+  zone: 7-11
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 5
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ornamental
+  - Wildlife Attractor
+  - Border Plant
+  - Shade Provider
+  - Mulcher
+  description: "Blue palmetto commonly denotes dwarf palmetto (Sabal minor), a trunkless
+    or short-trunk palm of moist forests and floodplains across the southeastern United
+    States into Mexico and the Caribbean, with bluish-green fan leaves on long petioles.
+    Clumps spread slowly via seed and sometimes short rhizomes, typically 5–10 feet
+    (1.5–3 m) tall above ground stems when present. It is a structural understory palm
+    for humid subtropical to tropical food forests, rain gardens, and shaded margins
+    where winter lows occasionally dip near 5°F (-15°C) on protected sites.\n\n☀️💧
+    Sun and Water Requirements:\nPart shade to full sun depending on moisture; coastal
+    full sun works with irrigation. Prefers consistently moist, organic soils but tolerates
+    short dry spells once established with mulch. Protect from desiccating wind on marginally
+    cold sites; mulch crowns after hard freezes in zone-pushing plantings.\n\n✂️ Propagation:\n
+    Sow fresh seed in warm, humid media; germination is slow but steady. Transplant
+    young offsets carefully—palms resent crushed root initiation zones. Remove only dead
+    fronds; green leaves feed the plant through photosynthesis no matter your aesthetic
+    impatience.\n\n🌾 Harvest / Best Use Timing:\nLandscape and habitat value dominate;
+    some traditions use palm hearts only at unsustainable cost—do not casually strip
+    wild stands. If collecting fallen fronds for mulch or craft, take dry material without
+    peeling living crowns."
+  purpose: |-
+    - Ornamental: Fan palms add honest tropical structure without importing obviously mismatched species.
+    - Wildlife Attractor: Fruits feed wildlife; fronds shelter small fauna in understory layers.
+    - Border Plant: Clumping habit defines wet edges and transitions between lawn delusions and forest.
+    - Shade Provider: Broad leaves cast dappled shade for shade-tolerant herbs and young trees.
+    - Mulcher: Persistent leaf litter builds acid-leaning organic matter on site.
   companions:
-  - NEEDS_DATA
+  - Elderberry — shares moist edge ecology; elder gives height while palmetto holds the floor
+  - Wild Ginger — shade groundcover tolerates palm litter and root competition in humid sites
+  - Yarrow — sunny front edge of palm clumps handles drier stripe where water drains away
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Cold-dry winter winds — leaf tip burn on exposed marginally hardy plantings
   pests:
-  - NEEDS_DATA
-  # Image attribution: Mmcknight4 / Wikimedia Commons / Public domain
-  # Image source: wikimedia
+  - Scale Insects
+  - Palmetto Weevil
+  - Aphids
+  practitioner_notes: |-
+    Check regional names—Sabal taxonomy invites cocktail arguments; growth habit matters more than bar trivia.
+    Do not prune living fronds for tidy fever—starving the crown is slow murder with good intentions.
+    Seeds germinate erratically; patience beats daily excavation checks.
+    Wet feet tolerance is not anoxic mud tolerance—still aim for some soil oxygen between floods.
+  growth_habit: Small fan palm; often subterranean or short trunk; bluish fan leaves
+  data_quality_score: 0.82
+  # Image attribution: (c) Wendy Feltham, some rights reserved (CC BY-NC), uploaded by Wendy Feltham
+  # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

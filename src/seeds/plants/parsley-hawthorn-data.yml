@@ -1,28 +1,46 @@
 ---
 - common_name: Parsley Hawthorn
   picture: parsley_hawthorn.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Crataegus marshallii
+  aka:
+  - Parsleyleaf Hawthorn
+  - Marshall Hawthorn
+  family: Rosaceae
+  zone: 5-9
+  ideal_temp_min: 35
+  ideal_temp_max: 95
+  min_temp: -15
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Wildlife Attractor
+  - Erosion Control
+  - Border Plant
+  - Edible
+  description: "Parsley hawthorn (Crataegus marshallii) is a small native hawthorn of southeastern North American wood margins, named for deeply cut leaves that resemble parsley and for showy white spring flowers followed by red pomes. Plants typically grow 10–20 feet (3–6 m), often multi-stemmed, with thorns that reward honest pruning gloves. It fits permaculture hedgerows for early pollinator support, bird food, and slope stabilization where partial shade and decent drainage exist.\n\n☀️💧 Sun and Water Requirements:\nFull sun to bright partial shade; best flowering with morning sun and afternoon relief in hot climates. Moist, well-drained loams mimic woodland edges; tolerates occasional dry spells once established but not desert baking without mulch. Avoid standing water over roots.\n\n✂️ Propagation:\nSow stratified seed after 90–120 days cold-moist; seedlings vary. Take hardwood cuttings in dormancy with hormone and humidity. Prune crossing branches after bloom to improve airflow and reduce leaf-spot drama.\n\n🌾 Harvest / Best Use Timing:\nFruit is small and seedy—traditionally used for jellies where sugar and patience exist. Harvest pomes when fully colored and slightly soft; process quickly. Leave some fruit for migrating birds if hedgerow ecology matters."
+  purpose: |-
+    - Wildlife Attractor: Spring flowers feed bees; fruit feeds birds and mammals along migration corridors.
+    - Erosion Control: Fibrous roots stabilize disturbed banks and terrace transitions.
+    - Border Plant: Thorny structure defines livestock lanes and property edges when maintained.
+    - Edible: Fruit supports preserves and experimental ferments where processing traditions are respected.
   companions:
-  - NEEDS_DATA
+  - Serviceberry — earlier bloom and fruit in the same edge guild without identical pest timing
+  - Wild Plum — thicket-forming neighbor extending fruit succession for wildlife
+  - Beautyberry — late-season color and bird food at the shrub layer below hawthorn canopy
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Fire Blight — prune out strikes during dry weather and sanitize tools between cuts
+  - Thorns — plan paths and ladder placement before the tree disagrees with your jeans
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) skelico, some rights reserved (CC BY), uploaded by skelico
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Fire Blight
+  - Japanese Beetles
+  - Aphids
+  practitioner_notes: |-
+    Crataegus IDs argue in keys—this entry uses Crataegus marshallii for parsley hawthorn; verify with regional floras.
+    Double-flower ornamentals nearby can confuse hawthorn pollination timing—keep natives grouped for cleaner genetics.
+    Cedar-apple rust life cycles exist—separate Rosaceae from alternate hosts when designing disease-quiet guilds.
+    Jelly yield is humble—scale sugar and time to realistic fruit volume, not Instagram buckets.
+  growth_habit: Small deciduous tree or large shrub; deeply lobed leaves; white flowers; red pomes
+  data_quality_score: 0.79

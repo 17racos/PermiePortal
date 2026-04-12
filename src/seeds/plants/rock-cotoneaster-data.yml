@@ -1,28 +1,46 @@
 ---
 - common_name: Rock Cotoneaster
   picture: rock_cotoneaster.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Cotoneaster horizontalis
+  aka:
+  - Herringbone Cotoneaster
+  - Wall Spray
+  family: Rosaceae
+  zone: 5-8
+  ideal_temp_min: 30
+  ideal_temp_max: 90
+  min_temp: -25
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Ground Cover
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Erosion Control
+  - Wildlife Attractor
+  - Ornamental
+  - Border Plant
+  description: "Rock cotoneaster (Cotoneaster horizontalis) is a low, wide-spreading deciduous shrub from western China, famous for herringbone branch architecture, small pink spring flowers, and bright red berries that persist into winter for birds. Plants hug walls and slopes at roughly 2–3 feet (60–90 cm) tall but much wider, rooting where stems touch ground. It excels on terraces, rock gardens, and any sunny edge that needs soil stitching without bamboo energy.\n\n☀️💧 Sun and Water Requirements:\nFull sun for best flowering and fruit color; partial shade reduces berry display. Well-drained, average soils suit it; tolerates alkaline rubble and poor slopes once established. Drought-tolerant after rooting; avoid wet clay that promotes fire blight anxiety.\n\n✂️ Propagation:\nLayer stems in early spring; sever rooted pieces the following year. Sow seed after stratification for diversity, not clones. Prune to guide horizontal planes along walls; remove inward twigs to improve airflow.\n\n🌾 Harvest / Best Use Timing:\nBerries are primarily wildlife food—human use is uncommon and not the design goal here. Leave fruit for winter birds. Spring bloom timing follows local frost exit near 28°F (-2°C) in cold climates."
+  purpose: |-
+    - Erosion Control: Herringbone stems root along slopes and wall toes, binding shallow soil.
+    - Wildlife Attractor: Flowers feed pollinators; berries feed birds when left standing.
+    - Ornamental: Branch pattern reads as living masonry on walls and stone steps.
+    - Border Plant: Low height defines edges without shading neighboring beds.
   companions:
-  - NEEDS_DATA
+  - Creeping Thyme — mat neighbor at the toe of walls sharing sun and sharp drainage
+  - Lavender — aromatic sun lover at the drier upper edge of the same terrace
+  - Serviceberry — small tree backdrop providing vertical structure above low cotoneaster planes
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Invasive risk in some regions—check local lists before mass planting near natural areas
+  - Fire Blight — prune strikes in dry weather on susceptible rosaceous neighbors; improve airflow
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Rebecca Hill, some rights reserved (CC BY-NC), uploaded by Rebecca Hill
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Fire Blight
+  - Aphids
+  - Spider Mites
+  practitioner_notes: |-
+    Herringbone pattern is the ID handshake—if branches look random, verify species before labeling walls.
+    Invasive status varies by county—permie ethics include reading the local weed council minutes.
+    Berries are bird payroll—do not expect human pie unless you enjoy astringent plot twists.
+    Wall planting needs drainage, not mortar suffocation—leave weep paths for honest water exit.
+  growth_habit: Low spreading deciduous shrub; herringbone branches; red winter berries; sun and well-drained slopes
+  data_quality_score: 0.79

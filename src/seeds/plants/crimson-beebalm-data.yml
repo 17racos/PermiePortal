@@ -1,28 +1,48 @@
 ---
 - common_name: Crimson Beebalm
   picture: crimson_beebalm.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Monarda didyma
+  aka:
+  - Scarlet beebalm
+  - Oswego tea
+  - Bergamot
+  family: Lamiaceae
+  zone: 4-9
+  ideal_temp_min: 55
+  ideal_temp_max: 80
+  min_temp: -30
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Pollinator
+  - Wildlife Attractor
+  - Ornamental
+  description: "Crimson beebalm (Monarda didyma) is an upright mint-family perennial of moist woods and stream edges in eastern North America, bearing shaggy scarlet heads that read like fireworks for hummingbirds. Plants typically reach 2–4 feet (0.6–1.2 m) in bloom, spreading by shallow rhizomes into generous clumps. Leaves are aromatic when crushed; the species is a backbone plant for rain gardens, meadow margins, and pollinator strips in temperate to warm-summer climates.\n\n☀️💧 Sun and Water Requirements:\nFull sun to light shade; afternoon shade reduces stress where summers are long and hot. Likes rich, moisture-retentive but not stagnant soil; mulch helps even moisture through dry spells. Airflow matters—dense humid pockets invite foliar mildew that makes the plant look punished.\n\n✂️ Propagation:\nDivide crowded clumps in cool wet-season weather or early growth flushes; replant divisions promptly so roots do not desiccate. Sow seed outdoors after chill stratification or start indoors before last frost for first-year blooms in short-season sites. Soft tip cuttings root in humid shade if you want clones of a mildew-resistant selection.\n\n🌾 Harvest / Best Use Timing:\nPick leaves and flowers at peak bloom for tea or drying; flavor is brightest before heavy senescence. For wildlife-first plantings, leave spent heads until finches finish if your aesthetic allows. Cut back hard after flowering to refresh basal growth where mildew appeared."
+  purpose: |-
+    - Edible: Aromatic leaves and flowers flavor teas and syrups when harvested clean and identified correctly.
+    - Medicinal: Traditional soothing teas target minor digestive and cold-season comfort uses—verify local guidance.
+    - Pollinator: Tubular red flowers align with hummingbird bills and long-tongued bees in summer.
+    - Wildlife Attractor: Seeds and structure feed small birds when stands are left partially standing.
+    - Ornamental: Bold color and vertical mint-family form anchor wet-border designs without pretending to be shy.
   companions:
-  - NEEDS_DATA
+  - Wild Bergamot — overlapping pollinators with staggered bloom and genetic diversity in the mint bed
+  - Echinacea — contrasting flower form draws complementary pollinators at the same height band
+  - Switchgrass — upright matrix holds moisture and provides winter structure behind softer herbaceous clumps
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Powdery Mildew — susceptible selections look terrible in stagnant humid corners without airflow
+  - Aggressive rhizomes — can elbow neighbors in tiny beds without an edge or periodic division
   pests:
-  - NEEDS_DATA
-  # Image attribution: Dorian Scharp / Wikimedia Commons / CC BY 3.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Powdery Mildew
+  - Spider Mites
+  - Aphids
+  practitioner_notes: |-
+    Breeders sell mildew-resistant lines—worth the money if your summers are soup.
+    Thin stems in spring if clumps are too dense; sun into the crown beats fungicide theater.
+    Hummingbirds treat red Monarda like a gas station—plant in drifts, not lonely singles.
+    Deer sometimes ignore the mint smell—have a backup plan if your herd did not read the brochure.
+  growth_habit: Upright rhizomatous perennial; square stems; aromatic leaves; showy terminal flower heads
+  data_quality_score: 0.81

@@ -1,28 +1,45 @@
 ---
 - common_name: Eastern Columbine
   picture: eastern_columbine.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Aquilegia canadensis
+  aka:
+  - Wild columbine
+  - Red columbine
+  - Canadian columbine
+  family: Ranunculaceae
+  zone: 3-8
+  ideal_temp_min: 45
+  ideal_temp_max: 75
+  min_temp: -40
+  max_temp: 90
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Wildlife Attractor
+  - Ornamental
+  - Medicinal
+  description: "Eastern columbine (Aquilegia canadensis) is a short-lived perennial of woodland edges, cliffs, and lean rocky soils in eastern North America, famous for nodding red and yellow spurred flowers adapted to hummingbirds and long-tongued insects. Mature height is usually 1–2 feet (0.3–0.6 m) in bloom with delicate blue-green compound leaves. It self-sows politely in gravel and rude in rich beds, making it ideal for naturalistic plantings and shaded rain gardens with drainage.\n\n☀️💧 Sun and Water Requirements:\nPart shade to dappled sun in most climates; cooler regions tolerate more sun if soil moisture exists. Well-drained soils are essential—columbines rot in soggy clay that pretends to be a rain garden. Mulch lightly with compost, not buried stems.\n\n✂️ Propagation:\nSow fresh seed outdoors; self-sown volunteers often outperform fussed-over trays. Divide mature clumps sparingly—taproots resent disturbance. Collect seed when capsules split if you want controlled placement next season.\n\n🌾 Harvest / Best Use Timing:\nEnjoy flowers in situ; cutting sparingly for small arrangements is fine if you leave plenty for pollinators. Deadhead if you dislike volunteers; stop deadheading if you want a drifting population. Replace aging plants every few years—this species is not immortal, just enthusiastic."
+  purpose: |-
+    - Pollinator: Tubular red flowers align with hummingbird bills and specialist long-tongued bees.
+    - Wildlife Attractor: Seeds feed small birds when capsules mature if cleanup is delayed.
+    - Ornamental: Airy foliage and pendant blooms soften rock walls and woodland margins.
+    - Medicinal: Historical Native uses exist—modern self-medication without expertise is a bad hobby.
   companions:
-  - NEEDS_DATA
+  - Blue Wild Indigo — deeper roots and contrasting bloom color without shading low columbine crowns
+  - Wild Blue Phlox — low spring color layer that shares partial shade without smothering crowns
+  - Serviceberry — small tree dappled shade that matches natural edge communities
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Leaf miners — cosmetic damage on leaves; rarely kills plants but offends tidy gardeners
+  - Wet heavy soil — crown rot ends the show before self-seeding can compensate
   pests:
-  - NEEDS_DATA
-  # Image attribution: Photo by and (c)2007 Derek Ramsey (Ram-Man) / Wikimedia Commons / GFDL 1.2
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Serpentine Leafminer
+  - Aphids
+  practitioner_notes: |-
+    Self-sowing is a feature until it is a weed—edit seedlings early if paths matter.
+    Hybrids with garden columbines muddy local gene pools—keep natives away from flashy neighbors.
+    Drought tolerance appears after roots find rock crevices—babies need kinder moisture.
+    Hummingbirds do not read cultivar tags; red tubes are the actual invitation.
+  growth_habit: Short-lived herbaceous perennial; nodding spurred flowers; woodland edge and rocky soils
+  data_quality_score: 0.79

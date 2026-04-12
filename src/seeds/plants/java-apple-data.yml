@@ -1,28 +1,44 @@
 ---
 - common_name: Java Apple
   picture: java_apple.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Syzygium samarangense
+  aka:
+  - Wax jambu
+  - Semarang rose-apple
+  family: Myrtaceae
+  zone: 10-12
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 30
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  - Shade Provider
+  description: "Java apple (Syzygium samarangense) is a tropical myrtle-family tree bearing bell-shaped, often waxy fruits in red to pale green, with crunchy, mild, watery flesh valued for fresh eating and salads in humid Asia and the Americas tropics. Trees commonly reach 25–40 feet (7.5–12 m) unless kept smaller by pruning. White to pink flowers are showy; new leaves are often reddish. It suits backyard orchards where fruit flies are managed and frost is absent.\n\n☀️💧 Sun and Water Requirements:\nFull sun for best flowering and fruiting; partial shade works in hottest deserts with humidity. Rich, well-drained soils with steady irrigation in dry seasons; mulch buffers roots from heat. Wind protection reduces fruit scuffing.\n\n✂️ Propagation:\nAir-layering and grafting preserve elite selections; seedling variability is real. Prune after major harvest waves to size-manage. Remove water sprouts that steal structure from scaffold limbs.\n\n🌾 Harvest / Best Use Timing:\nPick when color peaks and fruit feels firm-crisp; overripe apples go mushy fast in heat. Net clusters if birds and flies schedule parties without inviting you. Flowers can flush multiple times per year in warm climates."
+  purpose: |-
+    - Edible: Crisp mild fruit extends tropical fruit salads and pickles without heavy sweetness.
+    - Ornamental: Fluffy flowers and colorful fruit make honest yard candy in humid climates.
+    - Wildlife Attractor: Flowers and fruit engage birds and insects where management allows sharing.
+    - Shade Provider: Dense crown gives understory shade for herbs and young trees.
   companions:
-  - NEEDS_DATA
+  - Wax Apple — related Syzygium with overlapping culture and staggered fruit types
+  - Carambola — complementary tropical canopy height and fruiting rhythm in mixed rows
+  - Lemongrass — herbaceous drip-line marker with distinct harvest timing
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Frost — young growth burns near 30°F (-1°C); protect on marginal sites
+  - Fruit flies — sanitation and harvest timing matter more than denial
   pests:
-  - NEEDS_DATA
-  # Image attribution: Filo gèn' / Wikimedia Commons / CC BY-SA 4.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Caribbean Fruit Fly
+  - Scale Insects
+  practitioner_notes: |-
+    Crunch is the selling point—if it is mealy, you waited or picked wrong.
+    Bell shape is the ID handshake—do not confuse with malay apple’s oblong drama.
+    Heavy rain splits fruit—forecast matters more than your optimism.
+    Psyllids love tender flush—water blast before declaring chemical war.
+  growth_habit: Tropical evergreen tree; bell-shaped waxy fruit; fluffy flowers; humid lowlands
+  data_quality_score: 0.81

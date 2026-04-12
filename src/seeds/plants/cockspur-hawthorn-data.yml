@@ -1,28 +1,63 @@
 ---
 - common_name: Cockspur Hawthorn
   picture: cockspur_hawthorn.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Crataegus crus-galli
+  aka:
+  - Cockspur Thorn
+  family: Rosaceae
+  zone: 4-8
+  ideal_temp_min: 55
+  ideal_temp_max: 75
+  min_temp: -30
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Windbreaker
+  - Border Plant
+  - Ornamental
+  description: "Cockspur hawthorn (Crataegus crus-galli) is a native North American
+    hawthorn of thickets, pastures, and woodland edges, armed with long thorns and bearing
+    white spring blossoms followed by red to maroon haws. It typically forms a broad
+    crown 20–30 feet (6–9 m) tall with glossy, often nearly evergreen leaves in mild
+    winters. In hedgerows it is a livestock barrier and wildlife pantry—plan access
+    routes before the thorns write policy.\n\n☀️💧 Sun and Water Requirements:\nFull
+    sun to light partial shade; more sun improves flowering and fruiting. Tolerates
+    drought and poor soils once established; occasional deep watering helps young transplants.
+    Avoid planting in low pockets that stay saturated for weeks without oxygen.\n\n
+    ✂️ Propagation:\nSow seed after warm-cold stratification typical for Crataegus;
+    chip hard seed coats to reduce wait time. Hardwood cuttings are possible but slow;
+    graft selected fruit lines if you chase specific haw traits.\n\n🌾 Harvest / Best
+    Use Timing:\nCollect haws when fully colored and slightly soft for jellies; tannins
+    vary by timing and clone. Prune in late winter to remove crossing branches and improve
+    light inside the crown—wear armor."
+  purpose: |-
+    - Edible: Fruit processes into jelly and syrup where sugar balances tannic structure.
+    - Wildlife Attractor: Flowers feed pollinators; haws feed birds through lean months.
+    - Windbreaker: Dense, thorny canopy slows wind along fencelines and field margins.
+    - Border Plant: Natural barrier for livestock and casual foot traffic alike.
+    - Ornamental: Glossy foliage and showy thorns beat fake security signs for honesty.
   companions:
-  - NEEDS_DATA
+  - American Plum — Prunus neighbor extends fruit succession and edge habitat structure
+  - Wild Bergamot — increases beneficial insect traffic during hawthorn bloom
+  - Black Elderberry — taller shrub layer adds late-summer berries without identical thorn architecture
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Fire Blight — warm wet springs can move bacterial blossom blight through rosaceous flowers
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Andrew Braun, some rights reserved (CC BY-NC), uploaded by Andrew Braun
+  - Japanese Beetles
+  - Borers
+  - Scale Insects
+  practitioner_notes: |-
+    Thorns are spear-grade—use leather and long tools; tetanus boosters are cheaper than regret.
+    Evergreen tendency in mild winters can change pruning visibility—mark cuts before leaves hide stubs.
+    Haw flavor is a species-and-clone conversation—taste small test batches before industrial jamming.
+    Cedar rust alliances exist in some regions—scout leaves in wet springs, not after defoliation memes.
+  growth_habit: Thorny hawthorn; glossy leaves; white flowers; red-maroon haws
+  data_quality_score: 0.8
+  # Image attribution: (c) Wendy Feltham, some rights reserved (CC BY-NC), uploaded by Wendy Feltham
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

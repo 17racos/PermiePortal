@@ -1,28 +1,45 @@
 ---
 - common_name: Golden Apple
   picture: golden_apple.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Spondias dulcis
+  aka:
+  - Ambarella
+  - June plum
+  - Kedondong (regional)
+  family: Anacardiaceae
+  zone: 9b-12
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 28
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Shade Provider
+  - Wildlife Attractor
+  - Windbreaker
+  description: "Golden apple (Spondias dulcis), commonly called ambarella or June plum in many markets, is a fast-growing tropical tree from Melanesia through Southeast Asia, now widely planted in the humid tropics and subtropics for crisp-tart fruit used green in pickles and ripe in juices. Trees often reach 30–50 feet (9–15 m) unless coppiced or kept in containers. It fills the hungry gap between mangos with a fruit that doubles as vegetable when immature.\n\n☀️💧 Sun and Water Requirements:\nFull sun for best fruiting; partial shade acceptable for juvenile establishment. Deep, fertile, well-drained soils with steady moisture in the warm season; reduce watering when growth slows in cooler months. Shelter from desiccating wind on dry-season margins.\n\n✂️ Propagation:\nSow fresh seed; polyembryonic seedlings can yield variable fruit—graft known cultivars for quality control. Air-layering and grafting are common in commercial propagation. Tip-prune young trees to encourage low branching for harvest reach.\n\n🌾 Harvest / Best Use Timing:\nPick green fruit for crunchy salads and pickles; allow yellowing for sweeter fresh eating and juice. Expect heavy fruit drop—site pathways outside the splat zone. Net or bag if fruit flies audit your neighborhood."
+  purpose: |-
+    - Edible: Green and ripe stages diversify kitchen use from savory to sweet without planting a second species.
+    - Shade Provider: Broad canopy shelters understory in humid tropical food forests.
+    - Wildlife Attractor: Flowers and fruit engage birds and insects where that aligns with management goals.
+    - Windbreaker: Flexible branching helps blunt steady trade winds on exposed lots.
   companions:
-  - NEEDS_DATA
+  - Banana — quick biomass and partial shade during early years before ambarella canopy expands
+  - Papaya — fast fruiting neighbor that uses vertical space differently at the row edge
+  - Lemongrass — herbaceous perimeter that marks irrigation and harvest lanes
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Related to mango and cashew family chemistry — sensitive individuals should research sap and fruit handling
+  - Frost — young trees burn below roughly 28°F (-2°C); protect or containerize on margins
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Timothy Nicewander, all rights reserved, uploaded by Timothy Nicewander
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Caribbean Fruit Fly
+  - Scale Insects
+  practitioner_notes: |-
+    Fruit flies treat golden apple like a festival—sanitize drops and harvest on schedule.
+    Grafted trees pay rent faster than seed lottery—know your source.
+    Green crunch is the culinary superpower—do not wait for mango sweetness that never arrives.
+    Coppice for leaf and manageable height if you prefer tools over ladders.
+  growth_habit: Fast tropical tree; pinnate leaves; oval green-yellow fruit; humid lowland adapted
+  data_quality_score: 0.82

@@ -1,28 +1,45 @@
 ---
 - common_name: Sea Almond
   picture: sea_almond.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Terminalia catappa
+  aka:
+  - Tropical Almond
+  - Indian Almond
+  family: Combretaceae
+  zone: 10b-12
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 28
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Shade Provider
+  - Windbreaker
+  - Ornamental
+  description: "Sea almond (Terminalia catappa) is a large tropical tree widely planted along tropical coasts for horizontal branches, glossy leaves that color before abscission, and almond-flavored seeds inside fibrous drupes. Heights of 40–60 feet (12–18 m) are common, casting broad shade on beaches and village commons. Seeds are eaten roasted where traditions exist; the tree also stabilizes sandy shores and tolerates salt spray better than many broadleaf species.\n\n☀️💧 Sun and Water Requirements:\nFull sun for dense crown and reliable fruiting on mature trees. Sandy, well-drained soils near coasts match native ecology; tolerates seasonal drought once established with deep roots. Irrigation during establishment speeds growth inland; avoid waterlogging.\n\n✂️ Propagation:\nSow fresh seed; germination is rapid in warm humid conditions. Transplant when young—large specimens resent root disturbance. Prune for clearance under wide limbs; avoid topping.\n\n🌾 Harvest / Best Use Timing:\nCollect fallen fruits when husks dry; crack seeds for roasting per vetted methods. Leaf drop is seasonal in many climates—plan paths accordingly. Peak growth tracks year-round warmth in true tropics."
+  purpose: |-
+    - Edible: Kernel inside the seed coat provides roasted snack where processing removes fibrous husk safely.
+    - Shade Provider: Wide crown shelters beaches, markets, and understory nurseries.
+    - Windbreaker: Grouped trees blunt coastal winds and salt spray for interior plantings.
+    - Ornamental: Red fall-like leaf color before drop adds tropical drama without maple imports.
   companions:
-  - NEEDS_DATA
+  - Coconut Palm — complementary coastal canopy architecture with different leaf texture
+  - Lemongrass — perimeter herb along maintenance paths with volatile oils
+  - Papaya — fast fruiting neighbor using vertical space under open coastal canopies during establishment
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Falling fruits and large leaves—site away from glass skylights and parked cars
+  - Seed processing — sharp tools and patience required; fibers are not dental floss
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Michael Davidson, some rights reserved (CC BY-NC), uploaded by Michael Davidson
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Aphids
+  - Spider Mites
+  practitioner_notes: |-
+    Terminalia catappa is the scientific receipt—common names travel faster than taxonomy at beach nurseries.
+    Leaf drop seasons are messy—mulch paths or sweep like you mean it.
+    Coastal salt spray bronzes young leaves—rinse occasionally if aesthetics matter more than ecology.
+    Roasted kernel flavor rewards work—raw husk gnawing is for squirrels, not dentists.
+  growth_habit: Large coastal tropical tree; tiered branches; seasonal leaf color; salt-tolerant
+  data_quality_score: 0.79

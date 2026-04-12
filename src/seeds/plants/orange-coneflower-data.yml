@@ -1,28 +1,45 @@
 ---
 - common_name: Orange Coneflower
   picture: orange_coneflower.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Rudbeckia fulgida
+  aka:
+  - Black-Eyed Susan
+  - Rudbeckia
+  family: Asteraceae
+  zone: 3-9
+  ideal_temp_min: 45
+  ideal_temp_max: 90
+  min_temp: -30
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Wildlife Attractor
+  - Ornamental
+  - Border Plant
+  description: "Orange coneflower (Rudbeckia fulgida) is a durable perennial sunflower relative of eastern and central North American meadows, bearing golden orange rays around a dark central cone through the warm months. Plants typically reach 2–3 feet (60–90 cm), spreading into dense clumps that laugh at mediocre soil if drainage exists. It is a workhorse in pollinator strips, rain-garden berms, and any sunny border that needs color without coddling.\n\n☀️💧 Sun and Water Requirements:\nFull sun for strongest stems and richest color; light shade yields fewer flowers. Average to moist, well-drained soils are ideal; tolerates short drought once established but benefits from deep watering during heat waves. Avoid standing water over crowns in humid weather.\n\n✂️ Propagation:\nDivide clumps in spring or fall; pieces establish quickly in warm soil. Sow seed outdoors in fall or cold-stratify 30 days for spring trays. Cut back dead stems in late winter if you dislike the tufted look, or leave them for finch seed.\n\n🌾 Harvest / Best Use Timing:\nCut long stems for bouquets when rays are fully open and cones firm. Leave late heads for birds and winter structure. Deadheading extends bloom but reduces self-sowing—choose your philosophy."
+  purpose: |-
+    - Pollinator: Composite heads feed bees, beetles, and butterflies with accessible nectar and pollen during peak warmth.
+    - Wildlife Attractor: Finches and other seed eaters work mature cones; stems shelter overwintering insects if left standing.
+    - Ornamental: Reliable orange-yellow color in native-inspired designs without annual replanting theater.
+    - Border Plant: Clumping habit defines edges along paths, signs, and vegetable beds without shading crops.
   companions:
-  - NEEDS_DATA
+  - Little Bluestem — warm-season grass scaffold contrasting flower color and texture
+  - Prairie Coneflower — complementary Asteraceae neighbor extending bloom sequence in the same bed
+  - Wild Bergamot — aromatic forb sharing pollinators while differing in flower shape and height
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Overwatering + poor air — leaf spots invite gossip; thin nearby competitors
+  - Name collision—many “black-eyed Susans” exist; this entry is Rudbeckia fulgida complex
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Kai Yan,  Joseph Wong, some rights reserved (CC BY-NC-SA)
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Japanese Beetles
+  - Powdery Mildew
+  practitioner_notes: |-
+    “Fulgid” means flashy—if your plant is shy, check sunlight before blaming genetics.
+    Japanese beetles skeletonize bragging rights—hand-pick at beer-thirty or deploy traps thoughtfully.
+    Leave some seed heads—goldfinches treat them like vending machines.
+    Wet feet in heavy clay is not a personality quirk—raise the bed or pick a different Rudbeckia site.
+  growth_habit: Clumping perennial; orange rays; dark cone; meadow and border adapted
+  data_quality_score: 0.8

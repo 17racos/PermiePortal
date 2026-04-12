@@ -1,28 +1,64 @@
 ---
 - common_name: Cabbage Palm
   picture: cabbage_palm.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Sabal palmetto
+  aka:
+  - Sabal Palm
+  family: Arecaceae
+  zone: 8-11
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 10
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  - Windbreaker
+  - Mulcher
+  description: "Cabbage palm (Sabal palmetto) is the iconic fan palm of subtropical
+    coasts and lowlands, forming a single trunk topped with large costapalmate leaves
+    and heavy sprays of black fruit. Heights of 30–50 feet (9–15 m) are common in open
+    settings; boots of old leaf bases linger on trunks until they shed. Young hearts
+    were historically eaten as survival food at unsustainable harvest cost—modern landscapes
+    value the species for canopy structure, storm resilience, and wildlife food, not
+    heart-of-palm fads on wild trees.\n\n☀️💧 Sun and Water Requirements:\nFull sun to
+    light partial shade; establishment faster with irrigation in dry districts. Tolerates
+    sandy, salty air and periodic inundation; still needs drainage for long-term root
+    health. Mulch young trunks to reduce weed competition; avoid piling mulch against
+    the growing point.\n\n✂️ Propagation:\nSow seed in warm, humid conditions; germination
+    is slow but reliable with patience. Transplant young palms with as much root ball
+    as logistics allow. Remove only dead fronds; green fronds are still feeding the crown.\n\n
+    🌾 Harvest / Best Use Timing:\nDo not harvest terminal buds from landscape or wild
+    palms—killing the meristem ends the tree. Collect fallen fruit for wildlife feeding
+    stations or seed propagation where ethical. Schedule professional trimming only when
+    dead material creates hazard, not for cosmetic anxiety."
+  purpose: |-
+    - Edible: Fruit pulp and seeds are minor human food; hearts are not ethical harvest on specimen trees.
+    - Wildlife Attractor: Fruit feeds birds, mammals, and insects across subtropical food webs.
+    - Ornamental: Silhouette reads as honest regional identity better than non-adapted exotics.
+    - Windbreaker: Flexible fronds shed wind in storms better than rigid broadleaf trees pretending otherwise.
+    - Mulcher: Persistent frond drop feeds fire-adapted and mesic soils depending on site.
   companions:
-  - NEEDS_DATA
+  - Blue Palmetto — smaller Sabal for layered palm understory in large moist plantings
+  - Elderberry — quick shrub layer at palm margins shares moist soils without matching final height
+  - Lemongrass — clumping herb handles sun at the dripline where mowing is awkward
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Improper 'hurricane cuts' — removing green fronds weakens palms and invites pests
   pests:
-  - NEEDS_DATA
-  # Image attribution: Mmcknight4 / Wikimedia Commons / Public domain
-  # Image source: wikimedia
+  - Palmetto Weevil
+  - Scale Insects
+  - Aphids
+  practitioner_notes: |-
+    Palms are not trees anatomically—loppers cannot fix nutrient deficiencies dressed as pruning.
+    Weevil hits stressed transplants first—keep establishment watering consistent, not heroic then absent.
+    Seed takes months to emerge; warmth and humidity beat cold garage experiments.
+    Boots shed on their schedule; forcing them off damages trunk tissue and invites disease cosplay.
+  growth_habit: Single-trunk fan palm; large costapalmate leaves; black fruit clusters
+  data_quality_score: 0.83
+  # Image attribution: (c) Wendy Feltham, some rights reserved (CC BY-NC), uploaded by Wendy Feltham
+  # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,28 +1,45 @@
 ---
 - common_name: Thin-leaved Coneflower
   picture: thin_leaved_coneflower.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Rudbeckia triloba
+  aka:
+  - Three-Lobed Coneflower
+  - Brown-Eyed Susan
+  family: Asteraceae
+  zone: 3-10
+  ideal_temp_min: 40
+  ideal_temp_max: 100
+  min_temp: -25
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Wildlife Attractor
+  - Ornamental
+  - Biomass
+  description: "Thin-leaved coneflower (Rudbeckia triloba) is a short-lived perennial or biennial of North American prairies and disturbed ground, with small yellow rays, dark central cones, and deeply lobed leaves on branched stems often 2–5 feet (60–150 cm). It self-sows enthusiastically into sunny gaps, feeding pollinators during mid-to-late summer. Treat it as a dynamic meadow element—not a static foundation shrub.\n\n☀️💧 Sun and Water Requirements:\nFull sun for densest bloom; light shade reduces flower count. Average to slightly moist, well-drained soils suit it; tolerates poor soils and short drought once established. Mulch lightly; avoid waterlogging.\n\n✂️ Propagation:\nSow seed outdoors in fall or cold-stratify for spring trays. Allow self-sowing where volunteers are welcome; deadhead near paths if pavers matter.\n\n🌾 Harvest / Best Use Timing:\nCut flowers when rays are fresh for short bouquets. Leave seed heads for finches. Peak bloom tracks mid-to-late warm season heat."
+  purpose: |-
+    - Pollinator: Numerous small heads provide sustained nectar and pollen for bees and butterflies.
+    - Wildlife Attractor: Seeds feed birds; stems may host beneficial insects if left standing.
+    - Ornamental: Airy habit softens formal borders when allowed to drift.
+    - Biomass: Fast growth contributes organic matter in early-succession plantings.
   companions:
-  - NEEDS_DATA
+  - Little Bluestem — warm-season grass matrix sharing sun and lean soils
+  - Orange Coneflower — complementary Rudbeckia neighbor with larger flower heads
+  - Wild Bergamot — aromatic forb extending pollinator hours with different floral architecture
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Self-sowing — can overwhelm tiny formal beds without editing
+  - Short-lived individuals—plan reseeding or succession species
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Rob Curtis, some rights reserved (CC BY-NC-SA), uploaded by Rob Curtis
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Japanese Beetles
+  - Powdery Mildew
+  practitioner_notes: |-
+    Triloba means three lobes—leaves rat out imposters faster than flower photos.
+    Self-seeders are democracy—edit ruthlessly near walkways, relax in meadows.
+    Goldfinches treat seed heads like vending machines—choose tidy or bird-fed, not both.
+    Short life is a feature—succession beats fertilizer denial in dynamic plantings.
+  growth_habit: Short-lived perennial; branched stems; small yellow coneflowers; prairies and roadsides
+  data_quality_score: 0.8

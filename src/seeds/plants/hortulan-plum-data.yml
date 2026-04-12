@@ -1,28 +1,45 @@
 ---
 - common_name: Hortulan Plum
   picture: hortulan_plum.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Prunus hortulana
+  aka:
+  - Hortulan plum tree
+  - Wild goose plum
+  family: Rosaceae
+  zone: 5-9
+  ideal_temp_min: 45
+  ideal_temp_max: 85
+  min_temp: -25
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Erosion Control
+  - Border Plant
+  description: "Hortulan plum (Prunus hortulana) is a wild or feral-type plum of central North American uplands and stream edges, forming small trees or thicket-forming shrubs with white spring flowers and red to yellow dotted fruit reported as pleasantly sweet when ripe. Heights often reach 15–20 feet (4.5–6 m). It is a rose-family hedge component for wildlife and foragers who tolerate thorns and variability.\n\n☀️💧 Sun and Water Requirements:\nFull sun for best flowering and fruit; edge light woodland contexts still fruit with reduced density. Adaptable soils if drainage is reasonable; tolerates periodic moisture near streams. Mulch young plants to reduce grass competition at the trunk.\n\n✂️ Propagation:\nSow pits after stratification; seedlings vary—graft named selections if you find them. Root suckers can expand thickets—remove or transplant if space is finite. Prune in late winter for open structure and reduced disease pressure.\n\n🌾 Harvest / Best Use Timing:\nPick fruit when fully colored and slightly soft—taste before bucket commitment. Process quickly for jam or wine; fruit can ferment on the ground if ignored. Leave some for wildlife if your pantry ethics allow."
+  purpose: |-
+    - Edible: Wild-type plums diversify preserves and small-scale fruit trials where variability is acceptable.
+    - Wildlife Attractor: Flowers and fruit feed insects and birds through the season.
+    - Erosion Control: Thicket habit stabilizes disturbed banks and field margins.
+    - Border Plant: Thorny stems define fencerows honestly.
   companions:
-  - NEEDS_DATA
+  - American Plum — complementary Prunus neighbor extending bloom and fruit timing in thickets
+  - Elderberry — fast shrub layer with different chemistry at the hedgerow edge
+  - Serviceberry — earlier fruit for wildlife and staggered bloom for pollinators
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Black Walnut — juglone-sensitive plums may struggle under walnut drip lines; site accordingly
+  - Fire Blight — rosaceous risk in humid springs; prune strikes with sanitation
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Solomon Gamboa, all rights reserved, uploaded by Solomon Gamboa
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Japanese Beetles
+  - Scale Insects
+  practitioner_notes: |-
+    Wild plums are a genetic lottery—mark heavy producers and propagate those stories, not myths.
+    Thorns punish casual picking—buckets and gloves beat bandages.
+    Fruit dots are a field mark—learn them before you debate at the forager meetup.
+    Suckering is a feature for hedges, a bug for tiny yards—choose your war.
+  growth_habit: Thorny deciduous small tree or thicket; white flowers; red-yellow sweet plums; central US native
+  data_quality_score: 0.78

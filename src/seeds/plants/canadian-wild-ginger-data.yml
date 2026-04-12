@@ -1,28 +1,63 @@
 ---
 - common_name: Canadian Wild Ginger
   picture: canadian_wild_ginger.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Asarum canadense
+  aka:
+  - Snakeroot
+  family: Aristolochiaceae
+  zone: 3-7
+  ideal_temp_min: 55
+  ideal_temp_max: 72
+  min_temp: -35
+  max_temp: 90
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Ground Cover
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ground Cover
+  - Ornamental
+  - Wildlife Attractor
+  - Mulcher
+  - Medicinal
+  description: "Canadian wild ginger (Asarum canadense) is a low rhizomatous perennial
+    of eastern North American deciduous forests, with fuzzy heart-shaped leaves hugging
+    the ground and odd maroon flowers hidden at the base in spring. It spreads into
+    glossy carpets under shade, rarely exceeding 6 inches (15 cm) tall. In food forests
+    it is a native ground layer for sugar maple–beech–oak moods, feeding early pollinators
+    that know where to look while outcompeting bare soil under shrubs.\n\n☀️💧 Sun and
+    Water Requirements:\nFull to partial shade; direct midday sun burns leaves. Likes
+    moist, humus-rich, well-drained soils typical of woodland edges; tolerates dry
+    shade once established but grows slower. Mulch with leaf mold to mimic forest floor;
+    avoid standing water around rhizomes.\n\n✂️ Propagation:\nDivide rhizomes in early
+    spring as shoots emerge; keep pieces with buds and roots. Sow fresh seed after brief
+    warm-cold cycles following regional practice. Transplant plugs under established
+    canopy to reduce shock.\n\n🌾 Harvest / Best Use Timing:\nNot a bulk crop; traditional
+    uses exist but modern safety guidance varies—research before any ingestion. For
+    ecology, enjoy flowers at soil level with a hand lens and leave rhizomes to spread
+    quietly."
+  purpose: |-
+    - Ground Cover: Dense leaves exclude weeds in shady strips where grass gives up.
+    - Ornamental: Glossy foliage beats mulch deserts under trees without English ivy delusions.
+    - Wildlife Attractor: Flowers target ground-level pollinators early in the growing season.
+    - Mulcher: Leaves recycle into humus in place when left to decay naturally.
+    - Medicinal: Historical herbal references exist; modern use demands expert identification and safety review.
   companions:
-  - NEEDS_DATA
+  - Bloodroot — spring ephemerals share deciduous shade timing before canopy closure
+  - Ostrich Fern — taller fronds contrast low ginger mats in moist woodland gardens
+  - Maidenhair Fern — delicate texture pairing for shaded, humid microsites
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Confusion with unrelated plants named wild ginger — botanical ID matters before any use
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Susan Elliott, some rights reserved (CC BY-NC), uploaded by Susan Elliott
+  - Slugs
+  - Snails
+  - Aphids
+  practitioner_notes: |-
+    Flowers hide at ground level—if you never see blooms, you are not looking low enough.
+    Transplant in cool wet weather; dry sun shock turns leaves to potato chips fast.
+    Spread is polite, not instant—mulch gaps the first year while rhizomes map the territory.
+    Deer may sample; dense patches often persist through light browsing pressure.
+  growth_habit: Rhizomatous shade groundcover; heart-shaped leaves; basal maroon flowers
+  data_quality_score: 0.82
+  # Image attribution: (c) Wendy Feltham, some rights reserved (CC BY-NC), uploaded by Wendy Feltham
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,28 +1,64 @@
 ---
 - common_name: Blue Grama
   picture: blue_grama.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Bouteloua gracilis
+  aka:
+  - Mosquito Grass
+  family: Poaceae
+  zone: 3-10
+  ideal_temp_min: 60
+  ideal_temp_max: 90
+  min_temp: -35
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ground Cover
+  - Animal Fodder
+  - Erosion Control
+  - Ornamental
+  - Wildlife Attractor
+  description: "Blue grama (Bouteloua gracilis) is a warm-season bunchgrass of shortgrass
+    prairie and dry foothills from central Canada to Mexico, famous for eyebrow-shaped
+    one-sided seed heads that hover above fine blue-green blades. It typically grows
+    6–20 inches (15–50 cm) depending on rainfall, forming dense tufts that outcompete
+    weeds once established. In permaculture it is a low-input lawn alternative, path
+    edge stabilizer, and forage component that respects water budgets better than cool-season
+    turf cosplay.\n\n☀️💧 Sun and Water Requirements:\nFull sun; shade weakens stands
+    and invites weed takeover. Extremely drought-tolerant with deep roots after establishment;
+    occasional deep watering speeds establishment the first year. Tolerates alkaline,
+    rocky, and lean soils; hates prolonged waterlogging without air.\n\n✂️ Propagation:\n
+    Sow seed in warm soil after frost risk; keep weed pressure down while seedlings are
+    tiny. Divide dormant bunches in early spring for landscape plugs. Use local ecotype
+    seed when restoring rainfall patterns matched to your site.\n\n🌾 Harvest / Best Use
+    Timing:\nFor grazing, rotate before severe defoliation during drought—warm-season
+    grasses recover from crown reserves when rain returns. For seed harvest, collect
+    when spikelets dry and detach; ornamental mowing can wait until after winter interest
+    if you like the seed-flag aesthetic."
+  purpose: |-
+    - Ground Cover: Bunches knit into low meadows that need no weekly mowing religion.
+    - Animal Fodder: Palatable warm-season forage when rotation timing protects crown reserves.
+    - Erosion Control: Fibrous roots stabilize slopes and disturbed soil in dry climates.
+    - Ornamental: Seed heads add graphic lines to xeriscape designs that still function ecologically.
+    - Wildlife Attractor: Seeds feed birds and small mammals; structure shelters insects at ground level.
   companions:
-  - NEEDS_DATA
+  - Little Bluestem — taller warm-season neighbor adds vertical contrast in mixed prairie mixes
+  - Pale Purple Coneflower — forb partner pulls pollinators through grass-dominated plantings
+  - Yarrow — low forb handles dry edges beside grama without irrigation blackmail
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Heavy shade — thins to moss and disappointment unless you redesign for shade-tolerant species
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Matt Berger, some rights reserved (CC BY), uploaded by Matt Berger
+  - Grasshopper
+  - Armyworms
+  - Aphids
+  practitioner_notes: |-
+    First-year blue grama looks sparse—second year it remembers it is a prairie specialist.
+    Overwatering plus fertility invites cheatgrass vibes from weeds; lean soil is often friendlier.
+    Seed heads catch dew and look like floating eyebrows—mow after winter if neighbors fear whimsy.
+    Local genotype beats generic bags for monsoon vs continental rainfall timing.
+  growth_habit: Warm-season bunchgrass; one-sided seed spikes; dry prairie and steppe specialist
+  data_quality_score: 0.86
+  # Image attribution: (c) Wendy Feltham, some rights reserved (CC BY-NC), uploaded by Wendy Feltham
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

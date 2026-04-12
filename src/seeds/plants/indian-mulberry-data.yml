@@ -1,28 +1,46 @@
 ---
 - common_name: Indian Mulberry
   picture: indian_mulberry.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Morinda citrifolia
+  aka:
+  - Noni
+  - Great morinda
+  - Cheese fruit
+  family: Rubiaceae
+  zone: 10-12
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 32
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  - Dynamic Accumulator
+  description: "Indian mulberry (Morinda citrifolia), widely known as noni, is a tropical evergreen tree or large shrub of coastal lowlands and disturbed sites across the Pacific and Indian Ocean regions, bearing large glossy leaves, small white flowers, and pungent compound fruit that ripens to translucent yellow-white. Heights of 10–20 feet (3–6 m) are common in cultivation. It is a polarizing food-medicine plant: respected in many island traditions, abused by supplement hype elsewhere.\n\n☀️💧 Sun and Water Requirements:\nFull sun for reliable fruiting; tolerates light shade with reduced yield. Well-drained soils; surprisingly tolerant of poor, salty, or rocky sites once established—noni is opportunistic, not delicate. Irrigation during establishment speeds growth; mature trees tolerate short dry spells in humid air.\n\n✂️ Propagation:\nSow seed fresh; older seed loses viability. Cuttings and air-layering clone productive individuals. Prune for harvest reach and airflow; dense twig mats invite scale parties.\n\n🌾 Harvest / Best Use Timing:\nHarvest fruit when translucent and soft for traditional juices and ferments—odor is part of the package. Pick regularly to reduce fruit fly buildup in humid sites. Flowers appear repeatedly in warm climates; staggered fruit follows."
+  purpose: |-
+    - Edible: Fruit enters traditional ferments and beverages where acquired taste is cultural, not a defect.
+    - Medicinal: Long history across Pacific traditions—separate evidence from pyramid-scheme storytelling.
+    - Wildlife Attractor: Fruit feeds birds and insects where planted outside its native range with care.
+    - Dynamic Accumulator: Large leaves and fast growth cycle biomass back into soil when managed.
   companions:
-  - NEEDS_DATA
+  - Banana — quick herbaceous biomass and partial shade for young noni in tropical polycultures
+  - Papaya — fast fruiting neighbor using vertical space differently along the row edge
+  - Lemongrass — perimeter grass that marks irrigation lines and tolerates heat cycles
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Strong odor of ripe fruit — site downwind of outdoor dining if guests are scent-sensitive
+  - Potential weediness in some oceanic climates — monitor volunteers near natural areas
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) ytw, some rights reserved (CC BY-NC), uploaded by ytw
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Mealybugs
+  practitioner_notes: |-
+    “Cheese fruit” is not marketing—it is a warning label for the uninitiated nose.
+    Seedlings fruit sooner than many trees—plan harvest containers before embarrassment arrives.
+    Ants farm scale on noni like it is a franchise—break the mutualism with targeted hygiene.
+    If your climate cannot sustain papaya, noni is probably fantasy in the ground.
+  growth_habit: Evergreen tropical tree; large leaves; small white flowers; pungent multi-lobed fruit
+  data_quality_score: 0.8

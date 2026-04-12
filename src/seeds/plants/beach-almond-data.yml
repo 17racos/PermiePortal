@@ -1,28 +1,65 @@
 ---
 - common_name: Beach Almond
   picture: beach_almond.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Terminalia catappa
+  aka:
+  - Tropical Almond
+  - Sea Almond
+  family: Combretaceae
+  zone: 10b-12
+  ideal_temp_min: 70
+  ideal_temp_max: 90
+  min_temp: 30
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Shade Provider
+  - Windbreaker
+  - Ornamental
+  - Wildlife Attractor
+  description: "Beach almond (Terminalia catappa) is a large, spreading tropical tree
+    of coastal strand and lowland areas in many warm regions, valued for dense horizontal
+    tiers of glossy leaves that color bronze-red before dropping, and for fibrous fruit
+    kernels eaten roasted or incorporated into snacks. Heights of 40–60 feet (12–18
+    m) are common with a broad crown that casts deep shade; roots are strong enough for
+    coastal wind. In food forests near shorelines it is a salt-tolerant canopy anchor—plan
+    understory for shade, not sun-loving vegetables, once the crown matures.\n\n☀️💧
+    Sun and Water Requirements:\nFull sun for symmetrical crowns; tolerates coastal
+    exposure and sandy soils. Young trees need steady moisture to establish deep roots;
+    mature specimens endure seasonal dry spells but fruit better with occasional deep
+    irrigation. Avoid planting where litter drop will clog critical drainage structures
+    you refuse to maintain.\n\n✂️ Propagation:\nSow fresh seed; viability drops if
+    kernels dry too long. Air-layering works on mature limbs in humid weather. Select
+    local coastal ecotypes when possible for salt and wind performance.\n\n🌾 Harvest
+    / Best Use Timing:\nCollect fallen fruit when husks color and begin to dry; crack
+    shells to roast kernels. Leaves drop seasonally—use as mulch or compost feedstock.
+    Prune for clearance along paths and structures before low branches become head hazards."
+  purpose: |-
+    - Edible: Kernels roast like snack nuts; verify preparation guidance for your cultivar and region.
+    - Shade Provider: Wide crown cools yards, livestock pens, and understory spice plantings.
+    - Windbreaker: Coastal plantings buffer trade winds that shred lesser trees.
+    - Ornamental: Tiered branching and red fall foliage beat ornamental grass hype on hot sites.
+    - Wildlife Attractor: Flowers and fruit feed birds and insects where trees are part of local food webs.
   companions:
-  - NEEDS_DATA
+  - Lemongrass — tough clumping herb handles root competition at the dripline in tropical yards
+  - Papaya — soft-stemmed undercanopy uses early light until Terminalia spreads wide
+  - Turmeric — shade-tolerant rhizomes along the north side with deep mulch
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Surface roots and litter — sidewalks and shallow utilities may argue with mature trees
   pests:
-  - NEEDS_DATA
+  - Scale Insects
+  - Caterpillars
+  - Aphids
+  practitioner_notes: |-
+    Leaf drop is a seasonal mulch delivery service—rake only if you enjoy sweating for landfill fuel.
+    Salt spray tolerance is good, not magical—seedlings still want protection the first year.
+    Kernels vary in bitterness; taste-test roasted samples before scaling up gifts.
+    Wide crown needs real spacing; do not park it three feet from eaves unless you love gutter archaeology.
+  growth_habit: Large spreading tropical tree; tiered branches; seasonal red leaf drop
+  data_quality_score: 0.8
   # Image attribution: (c) Michael Davidson, some rights reserved (CC BY-NC), uploaded by Michael Davidson
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

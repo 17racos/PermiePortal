@@ -1,28 +1,44 @@
 ---
-- common_name: Sweet Black-eyed Susan
+- common_name: Sweet Black Eyed Susan
   picture: sweet_black_eyed_susan.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Rudbeckia subtomentosa
+  aka:
+  - Sweet Coneflower
+  family: Asteraceae
+  zone: 3-9
+  ideal_temp_min: 40
+  ideal_temp_max: 95
+  min_temp: -25
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Wildlife Attractor
+  - Ornamental
+  - Border Plant
+  description: "Sweet black-eyed Susan (Rudbeckia subtomentosa) is a perennial of central and eastern North American prairies and open woods, with fragrant leaves, yellow ray flowers, and a dark central cone on stems often 3–5 feet (0.9–1.5 m). It tolerates partial shade and average moisture better than many dry-land rudbeckias, making it useful at meadow edges and along paths where foot traffic demands resilience.\n\n☀️💧 Sun and Water Requirements:\nFull sun to light partial shade; best flowering with good light. Average, well-drained soils suit it; tolerates clay if drainage is not stagnant. Mulch to keep roots cool; water during establishment and drought.\n\n✂️ Propagation:\nDivide clumps in spring; sow seed with cold stratification or direct-sow in fall. Cut back in late winter if tidy gardens matter.\n\n🌾 Harvest / Best Use Timing:\nCut flowers when rays are fully open for bouquets. Leave seed heads for finches. Peak bloom tracks mid-to-late warm season."
+  purpose: |-
+    - Pollinator: Composite heads feed bees and butterflies during mid-summer peaks.
+    - Wildlife Attractor: Seeds feed birds; stems shelter insects if left standing.
+    - Ornamental: Fragrance and yellow color upgrade partial-shade borders beyond plain mulch.
+    - Border Plant: Upright habit defines paths without shrub bulk.
   companions:
-  - NEEDS_DATA
+  - Wild Bergamot — aromatic forb neighbor sharing pollinators with contrasting bloom shape
+  - Little Bluestem — warm-season grass matrix in sunnier sections of the same bed
+  - Milkweed — complementary forb for pollinator strips at similar heights
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Powdery Mildew — improve airflow if crowns are overcrowded
+  - Wet shade — leggy growth with fewer flowers despite polite silence
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Eric Hunt, all rights reserved, uploaded by Eric Hunt
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Japanese Beetles
+  - Powdery Mildew
+  practitioner_notes: |-
+    Fragrance is the quiet feature—rub a leaf before dismissing it as “just another yellow daisy.”
+    Shade tolerance has limits—deep woodland gloom still yields lanky disappointment.
+    Goldfinches shred seed heads—decide tidy versus bird payroll per row.
+    Name collision with other “Susans”—Rudbeckia subtomentosa is the sweet coneflower anchor here.
+  growth_habit: Upright perennial; fragrant foliage; yellow coneflowers; prairie edges and partial shade
+  data_quality_score: 0.8

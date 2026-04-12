@@ -1,28 +1,44 @@
 ---
 - common_name: Loblolly Pine
   picture: loblolly_pine.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Pinus taeda
+  aka:
+  - Southern pine
+  - Arkansas pine
+  family: Pinaceae
+  zone: 6-9
+  ideal_temp_min: 55
+  ideal_temp_max: 95
+  min_temp: -5
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Windbreaker
+  - Wildlife Attractor
+  - Mulcher
+  - Biomass
+  description: "Loblolly pine (Pinus taeda) is a fast-growing southern yellow pine of humid temperate to subtropical lowlands and uplands in the southeastern United States, forming tall straight trunks with long needles in bundles of three and large cones. Heights of 60–100 feet (18–30 m) are common in open stands. It is a timber and windbreak staple, a mulch factory, and a reminder that pine savanna ecology wants fire literacy, not leaf-blower supremacy.\n\n☀️💧 Sun and Water Requirements:\nFull sun; shade weakens form and timber potential. Adaptable acidic soils from sand to clay if drainage is not permanently stagnant; tolerates moist sites better than many pines. Young trees need weed control; mature trees cast dense shade and acidify litter.\n\n✂️ Propagation:\nSow fresh seed; nursery bareroot seedlings are standard for plantations. Prune for clear trunk length if timber is the goal; leave lower branches if wildlife ladders matter more. Thin dense stands on schedules that match landowner objectives.\n\n🌾 Harvest / Best Use Timing:\nTimber harvest is decades-scale—plan before planting. For homesteads, collect needles for mulch and acid mulch beds ethically without stripping living crowns. Pine straw harvest is a business—do not cosplay it on wild public land."
+  purpose: |-
+    - Windbreaker: Dense stands blunt steady winds along fields and buildings in warm humid climates.
+    - Wildlife Attractor: Seeds, cover, and snag habitat support birds and mammals in forest mosaics.
+    - Mulcher: Needle drop acidifies and mulches understory—design companions that enjoy that chemistry.
+    - Biomass: Wood and straw products anchor farm forestry where markets or on-farm use exist.
   companions:
-  - NEEDS_DATA
+  - Longleaf Pine — savanna associate where fire-managed ecosystems are a real commitment, not a hashtag
+  - Little Bluestem — warm-season grass ground layer in open pine savanna plantings
+  - Florida Paintbrush — native forb adding pollinator value in sunny pine openings
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Ice storms — brittle young branches in some ice events; site and thin for resilience
+  - Dense shade — excludes sun-loving crops under mature stands without planning
   pests:
-  - NEEDS_DATA
-  # Image attribution: PumpkinSky / Wikimedia Commons / CC BY-SA 4.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Borers
+  - Scale Insects
+  practitioner_notes: |-
+    Needles in bundles of three—count before you argue with lookalike pines.
+    Fire ecology is not optional in natural systems—learn local burn windows or partner with experts.
+    Pine straw rake economics are real; soil biology under duff matters more than bagging aesthetics.
+    Root diseases follow compaction and poor drainage—fix water, not just blame beetles.
+  growth_habit: Fast tall yellow pine; needles in threes; large cones; humid southeastern lowlands
+  data_quality_score: 0.8

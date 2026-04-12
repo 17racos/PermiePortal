@@ -1,28 +1,44 @@
 ---
 - common_name: Virginia Spiderwort
   picture: virginia_spiderwort.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Tradescantia virginiana
+  aka:
+  - Spiderwort
+  family: Commelinaceae
+  zone: 4-9
+  ideal_temp_min: 40
+  ideal_temp_max: 90
+  min_temp: -30
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Ground Cover
+  - Edible
+  - Ornamental
+  description: "Virginia spiderwort (Tradescantia virginiana) is the same species many files label simply “spiderwort”—a clump-forming perennial with blue-violet three-petaled flowers opening fresh each morning. Plants reach 1–2 feet (30–60 cm) in meadows and open woods. This duplicate entry exists for searchers using the regional common name.\n\n☀️💧 Sun and Water Requirements:\nFull sun to light shade; afternoon shade slows petal melt in heat. Average to moist, well-drained soils suit it; avoid stagnant wet crowns.\n\n✂️ Propagation:\nDivide clumps in spring; sow seed in fall. Deadhead near paths if volunteers annoy pavers.\n\n🌾 Harvest / Best Use Timing:\nEdible young shoots only with certain ID and clean sites. Peak bloom tracks late spring into summer warmth."
+  purpose: |-
+    - Pollinator: Morning flowers feed small bees during succession bloom.
+    - Ground Cover: Clumps fill sunny gaps between taller forbs.
+    - Edible: Mild shoots in clean sites where ethics and ID align.
+    - Ornamental: Blue flowers soften formal borders without turf cosplay.
   companions:
-  - NEEDS_DATA
+  - Spiderwort — duplicate Tradescantia virginiana record; same species, different slug
+  - Wild Bergamot — aromatic neighbor extending pollinator hours
+  - Little Bluestem — warm-season grass matrix sharing drainage
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Duplicate listing with “Spiderwort” entry—Tradescantia virginiana is the taxon
+  - Wet stagnant soil — crown rot
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) cricketgreen, some rights reserved (CC BY-NC), uploaded by cricketgreen
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Spider Mites
+  - Slugs
+  practitioner_notes: |-
+    Two database cards, one species—pick a favorite filename and stop debating mirrors.
+    Flowers melt by noon—photograph early or accept ephemeral philosophy.
+    Sap threads are the genus handshake—kids love it; upholstery does not.
+    Deer sometimes browse—protect new clumps if local herds lack table manners.
+  growth_habit: Clumping perennial; blue three-petaled flowers; meadows and open woods
+  data_quality_score: 0.78

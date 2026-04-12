@@ -1,28 +1,46 @@
 ---
 - common_name: Munson Plum
   picture: munson_plum.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Prunus munsoniana
+  aka:
+  - Wild Goose Plum
+  - Munson Wild Plum
+  family: Rosaceae
+  zone: 5-9
+  ideal_temp_min: 40
+  ideal_temp_max: 90
+  min_temp: -20
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Border Plant
+  - Erosion Control
+  description: "Munson plum (Prunus munsoniana) is a North American wild plum complex member—often thicket-forming—valued for small tart fruit, spring bloom, and wildlife cover on slopes and fence lines. Plants behave as large shrubs to small trees around 8–15 feet (2.5–4.5 m), spreading by suckers into bird-friendly thickets when soil disturbance allows. In temperate permaculture it fills early-succession edges, stabilizes cuts, and supplies jam-grade fruit without pretending to be a supermarket hybrid.\n\n☀️💧 Sun and Water Requirements:\nFull sun for best flowering and fruit; tolerates light shade with reduced yield. Adapted to a range of soils if drainage is honest; occasional deep watering speeds establishment on dry banks. Mulch to reduce grass competition while suckers expand the thicket by design.\n\n✂️ Propagation:\nDig suckers with some root in dormancy and transplant immediately. Stratify seed 90–120 days cold-moist, then sow in spring. Thin interior stems after fruiting to reduce fungal lodging and improve air movement.\n\n🌾 Harvest / Best Use Timing:\nPick when fruit softens and color shifts fully—often mid-to-late warm season depending on latitude. Process quickly into jams, shrubs, or ferments; thin skins do not imply long storage. Leave some fruit for birds if thicket ecology is part of the design."
+  purpose: |-
+    - Edible: Small plums reward cooks who like acidity and pectin more than fist-sized sweetness.
+    - Wildlife Attractor: Flowers feed early pollinators; fruit feeds birds that also plant future thickets for free.
+    - Border Plant: Suckering habit defines fencelines and livestock lanes when containment is planned.
+    - Erosion Control: Fibrous roots bind disturbed banks better than bare mulch alone.
   companions:
-  - NEEDS_DATA
+  - Raspberry — bramble layer uses thicket edge light without competing at the same root depth
+  - Serviceberry — earlier fruiting small tree at the thicket margin for staggered wildlife and human harvests
+  - Wild Plum — related Prunus neighbor extending bloom and fruit timing across the hedgerow
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Black Walnut — juglone-sensitive plums may sulk within the drip line; site outside the chemical jurisdiction
+  - Livestock — pits and cyanogenic tissues are not appropriate browse snacks
   pests:
-  - NEEDS_DATA
-  # Image attribution: No image found
-  # Image source: none
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Oriental Fruit Moth
+  - Japanese Beetles
+  - Aphids
+  practitioner_notes: |-
+    Wild-plum names blur in nurseries—this entry targets Prunus munsoniana; compare flower and fruit details to local naturalized plums.
+    Suckers are a feature if you want a thicket; lawn lovers should pick a different plant or mow aggressively.
+    Plum curculio scars are crescent moon autographs—pick up drops to break their vacation schedule.
+    Fire blight risk rises in prolonged warm rain—open the center canopy before the clouds stack receipts.
+  growth_habit: Suckering deciduous shrub to small tree; white spring flowers; small red-yellow plums
+  data_quality_score: 0.79

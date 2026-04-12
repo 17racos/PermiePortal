@@ -1,28 +1,45 @@
 ---
 - common_name: Red Elderberry
   picture: red_elderberry.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Sambucus racemosa
+  aka:
+  - Red-Berried Elder
+  - Stinking Elder
+  family: Adoxaceae
+  zone: 3-7
+  ideal_temp_min: 35
+  ideal_temp_max: 80
+  min_temp: -40
+  max_temp: 90
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Wildlife Attractor
+  - Border Plant
+  - Mulcher
+  - Medicinal
+  description: "Red elderberry (Sambucus racemosa) is a deciduous shrub of northern and montane North American forests and edges, recognized for conical cream flower clusters and bright red fruit borne in upright arrays rather than flat umbels. Plants typically reach 6–12 feet (1.8–3.5 m), often colonizing openings with suckers. It is primarily a wildlife and habitat shrub—human edible use is culturally specific and legally sensitive; default to bird food and landscape function unless trained tradition says otherwise.\n\n☀️💧 Sun and Water Requirements:\nFull sun to partial shade; best flowering with morning sun and afternoon relief in hot climates. Moist, fertile, well-drained soils suit it; tolerates cold winters where range overlaps. Mulch to maintain even soil moisture; avoid drought baking on sandy cuts without irrigation.\n\n✂️ Propagation:\nSow stratified seed; divide suckers in early spring. Hardwood cuttings root in humid cold frames. Prune old canes after fruiting to renew growth and reduce overcrowding.\n\n🌾 Harvest / Best Use Timing:\nIf harvesting for any use, follow vetted regional guidance—many populations treat red elder chemistry seriously. For wildlife design, leave fruit clusters through bird migration windows. Bloom peaks in late spring after hard frost risk near 28°F (-2°C) passes in cold climates."
+  purpose: |-
+    - Wildlife Attractor: Early flowers feed pollinators; red fruit feeds birds where planting goals include habitat.
+    - Border Plant: Suckering thickets define edges and screens in cool-climate hedgerows.
+    - Mulcher: Leaf drop feeds soil fungi along woodland margins and fence lines.
+    - Medicinal: Some traditions use plant parts under expert guidance—verify law, ethics, and ID before acting.
   companions:
-  - NEEDS_DATA
+  - Serviceberry — earlier bloom and different fruit color in the same edge guild
+  - Highbush Cranberry — moist-margin shrub neighbor extending seasonal structure
+  - Wild Columbine — spring forb at the shrub skirt before canopy leaf-out deepens shade
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Toxicity and preparation sensitivity—do not improvise human consumption from generic internet recipes
+  - Suckering — expands into paths without edging or mowing buffers
   pests:
-  - NEEDS_DATA
-  # Image attribution: no rights reserved, uploaded by neotrigonia
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Spider Mites
+  - Powdery Mildew
+  practitioner_notes: |-
+    Red elder is not a black-elder photocopy—flower and fruit architecture differ; verify ID before any use story.
+    Aphids and ants love fresh growth—water blast buys time for predators.
+    Fruit is a bird magnet—site away from vehicle paint if droppings offend your detailing religion.
+    Latin subspecies vary by region—local floras beat continental guesswork.
+  growth_habit: Suckering deciduous shrub; cream pyramidal flower clusters; bright red fruit; cool forests and edges
+  data_quality_score: 0.78

@@ -1,28 +1,44 @@
 ---
 - common_name: Florida Paintbrush
   picture: florida_paintbrush.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Carphephorus corymbosus
+  aka:
+  - Coastalplain chaffhead
+  - Coastal plain chaffhead
+  family: Asteraceae
+  zone: 8-11
+  ideal_temp_min: 65
+  ideal_temp_max: 92
+  min_temp: 15
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Wildlife Attractor
+  - Ornamental
+  - Erosion Control
+  description: "Florida paintbrush (Carphephorus corymbosus) is a robust herbaceous perennial of sandy pine flatwoods, scrubby edges, and ruderal openings in the southeastern United States, crowned in late warm season by flat-topped clusters of bright pink to lavender disc florets that pull butterflies from across the county. Stems often reach 2–4 feet (0.6–1.2 m) when blooming, with alternate leaves and a slightly hairy texture that reads honest, not manicured. It is a flagship forb for native meadow mixes in humid subtropical climates where irrigation is optional and drainage is not negotiable.\n\n☀️💧 Sun and Water Requirements:\nFull sun to very light shade; shade quickly reduces flowering. Dry to mesic, well-drained sandy soils match natural sites; tolerates drought after establishment but not chronic bogging. Avoid heavy clay unless you enjoy watching asteraceous optimism drown.\n\n✂️ Propagation:\nSow seed in fall where winters provide natural stratification, or cold-stratify before spring sowing. Divide basal rosettes during cool moist weather; keep roots damp until replanted. First-year plants are modest—design for second-year drama.\n\n🌾 Harvest / Best Use Timing:\nLeave inflorescences standing for late pollinators and winter structure; cut back in late winter before new growth if tidy edges matter. Collect ripe seed heads for propagation projects once achenes mature—expect fluff and patience."
+  purpose: |-
+    - Pollinator: Dense disc flowers offer late-season nectar when many landscapes are visually tired.
+    - Wildlife Attractor: Butterflies and other insects concentrate on showy heads in open sun.
+    - Ornamental: Strong vertical accent and saturated color without resorting to thirsty annuals.
+    - Erosion Control: Deep roots in sandy systems help stabilize disturbed openings after fire or clearing.
   companions:
-  - NEEDS_DATA
+  - Little Bluestem — warm-season matrix grass sharing sun and dry feet in savanna-style beds
+  - Dense Blazingstar — complementary late-season forb height without overlapping flower form exactly
+  - Bee Balm — moisture-needy edge species placed where irrigation concentrates, not on the dry crest
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Wet clay — chronic root suffocation; choose wet-prairie species instead of sandhill cosplay
+  - Overfertilization — lush floppy growth with fewer flowers and more aphid social clubs
   pests:
-  - NEEDS_DATA
-  # Image attribution: Bob Peterson from North Palm Beach, Florida, Planet Earth! / Wikimedia Commons / CC BY-SA 2.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Japanese Beetles
+  practitioner_notes: |-
+    Native range is southeastern coastal plain—respect ecotype when sourcing seed for restoration purity.
+    Fall color in flowers beats spring hype; plan pollinator calendars around the back half of the year.
+    Do not confuse with unrelated paintbrush genera out west—the Latin name is the adult in the room.
+    Sandy soil is a feature here; mulch with coarse organics, not moisture-locking plastic culture.
+  growth_habit: Upright perennial forb; terminal corymb of pink-purple disc flowers; sandhill and flatwoods
+  data_quality_score: 0.8

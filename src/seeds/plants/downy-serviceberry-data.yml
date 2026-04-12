@@ -1,28 +1,46 @@
 ---
 - common_name: Downy Serviceberry
   picture: downy_serviceberry.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Amelanchier arborea
+  aka:
+  - Juneberry
+  - Shadbush
+  - Sarvis
+  family: Rosaceae
+  zone: 4-9
+  ideal_temp_min: 45
+  ideal_temp_max: 80
+  min_temp: -30
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  - Erosion Control
+  description: "Downy serviceberry (Amelanchier arborea) is a small native tree or multistem shrub of eastern North American wood edges, young forests, and slopes, showing early white flowers and red to purple pome fruit ripening as summer heat builds. Young stems and new leaves are softly hairy—hence downy—while mature height often lands near 15–25 feet (4.5–7.5 m). It is a bridge species between ornamental spring display and quiet edible landscaping for birds and patient humans.\n\n☀️💧 Sun and Water Requirements:\nFull sun to light woodland edge; more sun improves flowering and fruit set if soil moisture holds. Prefers well-drained, humus-rich soils; tolerates rocky slopes better than stagnant clay pans. Mulch root zones to buffer temperature swings and reduce grass competition.\n\n✂️ Propagation:\nSow seed after cold stratification; germination can be slow but steady. Softwood cuttings under mist work for clonal selections. Transplant small seedlings in cool moist weather; larger specimens sulk without irrigation support.\n\n🌾 Harvest / Best Use Timing:\nPick fruit when fully colored and slightly soft—flavor improves a few days after color change if birds permit. Flowers are short-lived but critical for early pollinators—avoid spraying during bloom. Prune for open vase shape in late winter to reduce twig blight pressure in humid climates."
+  purpose: |-
+    - Edible: Berries are sweet when fully ripe and usable fresh, baked, or dried where harvest beats birds.
+    - Wildlife Attractor: Early nectar and later fruit stitch seasonal hunger gaps for insects and birds.
+    - Ornamental: Delicate spring bloom and clean summer foliage suit small yards and edge plantings.
+    - Erosion Control: Fibrous roots stabilize slopes and disturbed transitions into woodland.
   companions:
-  - NEEDS_DATA
+  - Wild Columbine — understory herbaceous layer with shared early pollinator service
+  - Echinacea — sunny edge companion extending insect resources into summer
+  - American Plum — complementary fencerow fruiting sequence and similar rose-family care
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Fire Blight and other twig diseases — humid springs on congested growth invite dieback; prune for airflow
+  - Cedar rust complexes — some regions link rosaceous hosts with alternate hosts; manage strategically
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Bonnie Kinder, some rights reserved (CC BY-NC), uploaded by Bonnie Kinder
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Japanese Beetles
+  - Aphids
+  practitioner_notes: |-
+    Serviceberry taxonomy is a personality test—local keys beat internet certainty contests.
+    Netting is honesty; birds read ripe fruit calendars better than most humans.
+    Fruit quality varies by individual; mark heavy producers after a few seasons of notes.
+    Multistem forms fruit lower—train early if you want ladder-free harvests.
+  growth_habit: Small deciduous tree or shrub; early white flowers; red-purple berries; downy young growth
+  data_quality_score: 0.8

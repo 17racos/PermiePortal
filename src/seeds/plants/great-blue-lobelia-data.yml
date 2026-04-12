@@ -1,28 +1,43 @@
 ---
 - common_name: Great Blue Lobelia
   picture: great_blue_lobelia.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Lobelia siphilitica
+  aka:
+  - Blue cardinal flower
+  family: Campanulaceae
+  zone: 3-9
+  ideal_temp_min: 55
+  ideal_temp_max: 85
+  min_temp: -30
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Wildlife Attractor
+  - Ornamental
+  - Water Retention
+  description: "Great blue lobelia (Lobelia siphilitica) is a moisture-loving perennial of streambanks, seeps, and rain garden bottoms in eastern and central North America, producing upright spikes of intense blue tubular flowers in late summer. Height is commonly 2–3 feet (0.6–1 m) with lance-shaped leaves. It pairs with cardinal flower for red-blue drama and belongs anywhere sun hits wet soil without apology.\n\n☀️💧 Sun and Water Requirements:\nFull sun to light shade; afternoon shade reduces stress where heat and humidity stack. Consistently moist, organic soils are ideal; tolerates brief inundation in swales. Do not maroon it on a dry berm and expect loyalty.\n\n✂️ Propagation:\nSow seed on moist surface; tiny seedlings need gentle handling. Divide clumps in early spring before rapid growth. Self-sows where happy—edit volunteers early if design is strict.\n\n🌾 Harvest / Best Use Timing:\nLeave flowers for hummingbirds and bees; cut a few stems for short-lived bouquets if guilt permits. Seed capsules scatter fine seed—collect intentionally for sharing. Cut back frost-killed stems in late winter to tidy without harming crowns."
+  purpose: |-
+    - Pollinator: Tubular blue flowers serve bees and hummingbirds during late-season nectar gaps.
+    - Wildlife Attractor: Stems and seeds support small wildlife interactions in wetland edges.
+    - Ornamental: Saturated color in moist beds without resorting to thirsty annual imports.
+    - Water Retention: Thrives in designed swales that slow and polish runoff on site.
   companions:
-  - NEEDS_DATA
+  - Dense Blazingstar — drier upper swale forb placed upslope where moisture is less constant
+  - Switchgrass — matrix grass stabilizing banks while lobelia holds the wet toe
+  - Bee Balm — mint-family neighbor sharing pollinators if mildew-resistant selections are chosen
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Toxic if eaten in quantity — contains lobeline-related chemistry; not a salad ingredient
+  - Drought — foliage collapses quickly without soil moisture; wrong plant for xeric virtue signaling
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Annette Seidenglanz, some rights reserved (CC BY-NC), uploaded by Annette Seidenglanz
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Slugs
+  practitioner_notes: |-
+    Pairs visually with red Lobelia cardinalis—hummingbirds approve the color scheme.
+    Moisture is the entire personality; sand gardens need a different cast.
+    Self-seeding can drift upstream in water features—edit before it becomes a coup.
+    Short-lived in dry shade—listen to the plant’s passive-aggressive wilting.
+  growth_habit: Upright moist-soil perennial; blue tubular flowers on terminal spikes; rain garden classic
+  data_quality_score: 0.8

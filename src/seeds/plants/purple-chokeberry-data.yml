@@ -1,28 +1,45 @@
 ---
 - common_name: Purple Chokeberry
   picture: purple_chokeberry.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Aronia prunifolia
+  aka:
+  - Purple-Fruited Chokeberry
+  - Photinia prunifolia
+  family: Rosaceae
+  zone: 3-8
+  ideal_temp_min: 35
+  ideal_temp_max: 90
+  min_temp: -35
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Border Plant
+  - Ornamental
+  description: "Purple chokeberry (Aronia prunifolia) is a deciduous shrub of eastern North American wetlands and moist thickets, bearing white spring flowers, glossy summer leaves, and dark purple to black astringent berries prized for juices and jellies after processing. Plants typically reach 6–10 feet (1.8–3 m), often suckering into bird-friendly colonies. It belongs in rain-garden backs, hedgerows, and any moist border where native fruit chemistry meets human patience.\n\n☀️💧 Sun and Water Requirements:\nFull sun to light partial shade; best fruit color in sun with adequate moisture. Prefers moist, acidic, well-drained soils; tolerates seasonal wet feet better than many fruit shrubs. Mulch with organic matter; avoid drought baking on sandy sites without irrigation.\n\n✂️ Propagation:\nSow stratified seed; suckers transplant in early spring. Softwood cuttings root under humidity. Prune out old canes after several years to renew fruiting wood and reduce crowding.\n\n🌾 Harvest / Best Use Timing:\nPick berries when fully dark and slightly soft; process into juice with sugar balance—raw handfuls punish casual tasters. Leave some fruit for birds if hedgerow ethics matter. Peak ripeness follows late warm-season heat, not a single calendar week."
+  purpose: |-
+    - Edible: Anthocyanin-rich fruit supports juices, syrups, and jellies where astringency is cooked, not crunched.
+    - Wildlife Attractor: Flowers feed pollinators; fruit feeds birds after frost softens tannins.
+    - Border Plant: Suckering habit defines moist edges and screens when contained by design.
+    - Ornamental: Fall color and dark fruit add structure to native shrub borders.
   companions:
-  - NEEDS_DATA
+  - Serviceberry — earlier fruiting small tree at the drier margin of the same guild
+  - Highbush Cranberry — moist-site viburnum neighbor extending winter fruit interest
+  - Marsh Blazingstar — upright forb contrast in moist sun without root competition for the shrub canopy
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Astringent raw fruit — not a kid’s trail snack without processing education
+  - Suckering — expands into mowed turf if edges are unguarded
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Misha Zitser, all rights reserved, uploaded by Misha Zitser
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Japanese Beetles
+  - Powdery Mildew
+  practitioner_notes: |-
+    Taxonomy shifted names—Aronia prunifolia is the purple chokeberry; compare keys if your tag says Photinia.
+    Juice extraction rewards steam bags and patience—cheesecloth alone tests friendships.
+    Birds arrive after frost sweetens berries—net only if regulations and ethics allow.
+    Acidic mulch keeps leaves happy—lime-heavy lawns uphill may shift pH stories downstream.
+  growth_habit: Suckering deciduous shrub; white spring flowers; dark purple fruit; moist thickets
+  data_quality_score: 0.8

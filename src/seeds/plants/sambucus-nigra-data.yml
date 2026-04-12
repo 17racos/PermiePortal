@@ -1,28 +1,46 @@
 ---
 - common_name: Sambucus nigra
   picture: sambucus_nigra.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Sambucus nigra
+  aka:
+  - European Elder
+  - Black Elder
+  family: Adoxaceae
+  zone: 5-9
+  ideal_temp_min: 35
+  ideal_temp_max: 85
+  min_temp: -25
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  - Mulcher
+  description: "European elder (Sambucus nigra) is a fast-growing deciduous shrub to small tree widely cultivated for flat white flower umbels and clusters of dark purple-black berries used in syrups, wines, and preserves where processing traditions are respected. Named cultivars vary in vigor, leaf color, and fruit chemistry; wild-type seedlings are a lottery. Plants often reach 8–15 feet (2.5–4.5 m) and spread by suckers into hedgerows that birds endorse.\n\n☀️💧 Sun and Water Requirements:\nFull sun to partial shade; heaviest flowering and fruiting with strong light. Fertile, moist, well-drained soils are ideal; tolerates heavy soils if drainage moves. Mulch to reduce grass competition; deep watering during establishment speeds early growth.\n\n✂️ Propagation:\nHardwood cuttings in dormancy root readily under humidity. Sow stratified seed for diversity, not named clones. Prune out old, weak canes after fruiting to renew productive wood.\n\n🌾 Harvest / Best Use Timing:\nPick flowers when umbels are fully open and fragrant—dry or process quickly. Berries when fully colored and soft—cook or ferment per vetted recipes; raw green tissues are not trail snacks. Peak bloom follows local spring warmth after hard frost risk near 24°F (-4°C) in cold climates."
+  purpose: |-
+    - Edible: Flowers and ripe berries anchor classic preserves where sugar and acid are balanced intentionally.
+    - Medicinal: Traditional immune-support uses exist—verify guidance and contraindications before improvising.
+    - Wildlife Attractor: Flowers feed pollinators; fruit feeds birds when sharing is planned.
+    - Mulcher: Leaf drop feeds soil fungi along hedgerows and poultry paddock edges.
   companions:
-  - NEEDS_DATA
+  - Black Elderberry — overlapping elder ecology in North American sites where both names appear in commerce
+  - Chives — low allium edge that tolerates sun along driplines without competing for canopy
+  - Comfrey — deep-rooted mulch plant outside the immediate crown zone for chop-and-drop cycles
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Cyanogenic and irritant tissues in unripe fruit and bark—research processing before marketing
+  - Suckering — expands into paths without edging or mowing buffers
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Rison Thumboor, some rights reserved (CC BY-SA)
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Spider Mites
+  - Powdery Mildew
+  practitioner_notes: |-
+    Latin binomial matches common name here—this is the European elder Sambucus nigra; compare to American elders if your climate demands natives-only politics.
+    Aphids farm honeydew—ants RSVP; wash foliage and recruit predators before oil spritz theater.
+    Cultivar berries beat seedling roulette for predictable kitchen outcomes.
+    Overhead irrigation + tight crowns = mildew postcards—open structure beats panic sprays.
+  growth_habit: Fast multi-stem elder; white umbels; dark berries; temperate hedgerows and orchards
+  data_quality_score: 0.8

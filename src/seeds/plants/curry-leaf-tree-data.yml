@@ -1,28 +1,47 @@
 ---
 - common_name: Curry Leaf Tree
   picture: curry_leaf_tree.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Murraya koenigii
+  aka:
+  - Curry leaf plant
+  - Kari patta
+  - Sweet neem
+  family: Rutaceae
+  zone: 9-12
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 30
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Ornamental
+  - Wildlife Attractor
+  description: "Curry leaf tree (Murraya koenigii) is a multi-stemmed tropical to subtropical shrub or small tree from South and Southeast Asia, famous for aromatic compound leaves used as a fresh seasoning. In frost-free climates it reaches roughly 10–20 feet (3–6 m) unless kept smaller by pruning. White fragrant flowers yield small dark berries that are not the culinary focus—leaves are the crop that earns it space near kitchens and herb gardens.\n\n☀️💧 Sun and Water Requirements:\nFull sun for dense aromatic foliage; light shade acceptable in hottest deserts if humidity exists. Rich, well-drained soil with steady moisture during warm growth periods; reduce water when nights cool and growth slows. Protect from drying wind on marginally cold sites.\n\n✂️ Propagation:\nSow fresh seed warm; viability drops quickly with age—old packets are decoration. Root semi-hardwood cuttings under humidity in warm weather for clones of high-oil selections. Air-layering works on older stems if you want a instant small tree.\n\n🌾 Harvest / Best Use Timing:\nPick young leaflets for brightest flavor; frequent tipping keeps plants bushy and within reach. Flowers are pleasant but removing some inflorescences can redirect energy to leaves on small specimens. Freeze or dry leaves carefully—quality drops if they stew in plastic."
+  purpose: |-
+    - Edible: Fresh leaves carry the true curry-leaf aroma that seeds labeled “curry” never learned.
+    - Medicinal: Traditional digestive and metabolic support uses appear across Asian materia medica—context matters.
+    - Ornamental: Pinnate glossy foliage and fragrant flowers suit subtropical courtyards.
+    - Wildlife Attractor: Flowers draw generalized pollinators where the species is not invasive.
   companions:
-  - NEEDS_DATA
+  - Moringa — fast leafy neighbor that tolerates similar heat cycles without root trench warfare
+  - Lemongrass — shared culinary bed with distinct harvest timing and complementary scents
+  - Banana — dappled understory while young; move curry leaf into sun as canopy rises if needed
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Frost — foliage burns below roughly 30°F (-1°C); container culture for marginal zones
+  - Invasive potential — confirm local assessments before planting near natural areas in oceanic climates
   pests:
-  - NEEDS_DATA
-  # Image attribution: no rights reserved, uploaded by 葉子
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Whiteflies
+  - Aphids
+  practitioner_notes: |-
+    True curry leaf is not curry powder—if someone argues, hand them a blind sniff test.
+    Berries stain and seed freely—clip inflorescences on patio plants if volunteers annoy you.
+    Iron chlorosis on high-pH water is common; chelate thoughtfully, not randomly.
+    Wood is soft; prune for structure before stems get long and wobbly.
+  growth_habit: Multi-stemmed Rutaceae shrub to small tree; pinnate aromatic leaves; tropical/subtropical
+  data_quality_score: 0.83

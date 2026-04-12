@@ -1,28 +1,42 @@
 ---
 - common_name: Fragrant Waterlily
   picture: fragrant_waterlily.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Nymphaea odorata
+  aka:
+  - American white waterlily
+  - Sweet-scented waterlily
+  family: Nymphaeaceae
+  zone: 4-11
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: -30
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Aquatic
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  - Water Retention
+  description: "Fragrant waterlily (Nymphaea odorata) is a classic floating-leaved aquatic perennial of still or slow fresh water across much of North America into the tropics, with round leaves and white (sometimes pink-tinged) flowers that open by day and carry a sweet scent. Plants root in submerged rhizomes in muck or sand below roughly 1–6 feet (0.3–1.8 m) of water depending on clarity and culture. It cools pond surfaces, provides fish refuge, and asks only that you respect the difference between garden pond and stormwater sump.\n\n☀️💧 Sun and Water Requirements:\nFull sun for reliable flowering; too much tree shade reduces buds. Clean, calm freshwater with stable depth; tolerates seasonal level changes if rhizomes remain submerged or anchored in saturated bed. Avoid chlorinated pools—this is a living pond plant, not a vinyl accessory.\n\n✂️ Propagation:\nDivide rhizomes in spring as growth resumes; anchor divisions in aquatic planting media with weights until roots grip. Sow seed in very warm shallow water if you have patience for variability. Control spread in small vessels by annual division before the pot becomes a rhizome sausage.\n\n🌾 Harvest / Best Use Timing:\nEdible uses exist in some traditions—verify safe preparation and local advisories before experimenting. For habitat ponds, leave flowers and leaves to support aquatic insects and tadpoles. Remove yellowing leaves at the crown line to reduce rot in tiny water features."
+  purpose: |-
+    - Edible: Some cultures use rhizomes or other parts with careful processing—treat as specialist knowledge, not a dare.
+    - Wildlife Attractor: Floating leaves and flowers structure habitat for invertebrates, amphibians, and fish fry.
+    - Ornamental: Classic pond aesthetic that beats dyed mulch for actual ecosystem function.
+    - Water Retention: Leaf cover reduces surface heating and evaporation drama on small water bodies.
   companions:
-  - NEEDS_DATA
+  - Pickerelweed — emergent spikes complement floating pads at pond margins without shading the whole surface
+  - Duckweed — tiny floating layer for nutrient polish in balanced systems not choked by inputs
+  - Cattail — vertical emergent contrast at the shallow edge; manage spread so lilies keep open water
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests:
-  - NEEDS_DATA
-  # Image attribution: (c) lvconrad1977, some rights reserved (CC BY-NC), uploaded by lvconrad1977
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Illegal to plant in some natural water bodies — invasive policies vary; never dump aquarium plants wild
+  - Stagnant nutrient soup — blooms algae and suffocates roots; design circulation and source control first
+  pests: []
+  practitioner_notes: |-
+    Pot-bound lilies flower less—divide like you mean it every few years.
+    Koi are not collaborators—they are salad bars; rock cages exist for a reason.
+    Depth and clarity set the photic budget; deeper murky water means fewer flowers, more philosophy.
+    White flowers can be pink forms—botanizing beats arguing with seed packets.
+  growth_habit: Rhizomatous aquatic perennial; floating round leaves; day-blooming fragrant flowers
+  data_quality_score: 0.81

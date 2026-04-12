@@ -1,28 +1,45 @@
 ---
 - common_name: Marsh Blazingstar
   picture: marsh_blazingstar.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Liatris spicata
+  aka:
+  - Dense Blazing Star
+  - Gayfeather
+  family: Asteraceae
+  zone: 3-9
+  ideal_temp_min: 55
+  ideal_temp_max: 85
+  min_temp: -40
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Wildlife Attractor
+  - Ornamental
+  - Erosion Control
+  description: "Marsh blazingstar (Liatris spicata) is a hardy herbaceous perennial from eastern North American moist prairies and meadow edges, bearing tall spikes of purple-magenta disk florets that open from the top downward—a visual cue pollinators learn fast. Plants typically reach 2–4 feet (0.6–1.2 m) with narrow grass-like basal leaves and wiry stems that stay upright without staking in sun. In permaculture and restoration beds it functions as a late-season nectar factory when many early flowers have quit, and its deep roots help hold soil on slopes that stay damp but not stagnant.\n\n☀️💧 Sun and Water Requirements:\nFull sun for the strongest stems and heaviest bloom; light shade reduces flower count. Prefers consistently moist, well-drained soils—think rain garden margins, not sealed clay sumps. Tolerates short dry spells once established but sulks through prolonged drought without occasional deep watering. Mulch lightly to buffer soil temperature; avoid standing water over crowns in warm humid spells.\n\n✂️ Propagation:\nSow ripe seed in fall outdoors for natural cold stratification, or cold-moist stratify 8–10 weeks and sow under gentle warmth in late winter. Divide mature clumps in early spring before new growth accelerates, replanting crowns at the same depth. Offsets from corms can be separated carefully every few years to refresh vigor.\n\n🌾 Harvest / Best Use Timing:\nCut flowering stems for long-lasting dried arrangements when the upper half of each spike has opened and color holds. Leave late stems standing for winter structure and bird seed if aesthetics allow. For seed collection, wait until heads brown and fluff begins to release—gather before wind beats you to it on exposed sites."
+  purpose: |-
+    - Pollinator: Late-season tubular disk flowers supply concentrated nectar for bees, butterflies, and skippers when floral calendars thin out.
+    - Wildlife Attractor: Finches and other seed eaters use mature heads; dense plantings create cover at the herb layer.
+    - Ornamental: Vertical purple wands add rhythm in moist meadow mixes and rain-garden back rows without pretending to be turf.
+    - Erosion Control: Fibrous root mass binds moist slope soils while allowing infiltration better than bare mulch.
   companions:
-  - NEEDS_DATA
+  - Swamp Milkweed — shared moist-sun niche with complementary flower shapes for monarch pipeline habitat
+  - Joe Pye Weed — taller backdrop and staggered bloom times in wet-season color blocks
+  - Little Bluestem — warm-season grass matrix that contrasts texture while tolerating similar open sun
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Wet feet in stagnant anaerobic muck — crown rot invites drama; improve percolation or raise crowns slightly
+  - Deep shade — lanky stems and few flowers despite polite silence about the disappointment
   pests:
-  - NEEDS_DATA
-  # Image attribution: no rights reserved, uploaded by Dale Knox
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Japanese Beetles
+  - Powdery Mildew
+  practitioner_notes: |-
+    Name collision alert—other Liatris species share “blazing star”; this entry is Liatris spicata, the moist-soil workhorse.
+    Top-down bloom is a field ID giveaway—watch the color march down the spike like a slow fuse.
+    Deer sometimes browse young spikes—protect first-year plantings if local herds treat your bed as a salad bar.
+    Droughty sand without irrigation yields shorter life—match the plant to the rain garden, not the rock garden fantasy.
+  growth_habit: Upright clumping perennial; corm-like base; tall purple spikes; moist prairie and meadow margins
+  data_quality_score: 0.82

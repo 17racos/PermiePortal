@@ -1,28 +1,44 @@
 ---
 - common_name: Purple Lovegrass
   picture: purple_lovegrass.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Eragrostis spectabilis
+  aka:
+  - Tumble Grass
+  family: Poaceae
+  zone: 5-10
+  ideal_temp_min: 40
+  ideal_temp_max: 100
+  min_temp: -25
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ornamental
+  - Erosion Control
+  - Ground Cover
+  - Wildlife Attractor
+  description: "Purple lovegrass (Eragrostis spectabilis) is a short-lived to perennial bunchgrass of eastern North American dry roadsides, glades, and prairie edges, famous for airy panicles that blush reddish purple in late summer and catch backlight like smoke. Clumps reach 1–2 feet (30–60 cm), seeding gently into gravel and sunny gaps. It is a staple for green roofs, hellstrips, and meadow matrices that need fine texture without bamboo ambition.\n\n☀️💧 Sun and Water Requirements:\nFull sun for strongest color and flowering; shade yields green anonymity. Lean, well-drained soils are ideal; tolerates drought and occasional salt splash along paths. Avoid wet clay that rots crowns; water only to establish.\n\n✂️ Propagation:\nSow seed in fall or early spring; lightly cover—germination improves with warmth. Divide small clumps in spring if you must; plants often perform better from seed in lean sites. Cut back seed heads before they tumble into neighbor’s perfection if needed.\n\n🌾 Harvest / Best Use Timing:\nCut inflorescences for dried arrangements when color peaks but before shattering. Leave some seed for ground-feeding birds. Peak display tracks late-summer heat and shortening days, not imported holiday schedules."
+  purpose: |-
+    - Ornamental: Purple haze inflorescences add motion and color to dry garden designs.
+    - Erosion Control: Fibrous roots stabilize disturbed, well-drained cuts and terrace toes.
+    - Ground Cover: Fine texture fills gaps between larger forbs without forming monoculture sod.
+    - Wildlife Attractor: Seeds feed small birds; clumps shelter insects at ground level.
   companions:
-  - NEEDS_DATA
+  - Little Bluestem — taller warm-season grass sharing drought ethics with contrasting inflorescence scale
+  - Prairie Coneflower — complementary forbs adding bold flower forms above fine grass texture
+  - Wild Bergamot — aromatic forb neighbor with mid-summer bloom overlapping grass color peaks
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Self-sowing in gravel — delightful or deplorable depending on driveway politics
+  - Short-lived in rich irrigated beds—lean soil extends lifespan and color honesty
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Sara Rall, some rights reserved (CC BY-NC), uploaded by Sara Rall
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Spider Mites
+  - Japanese Beetles
+  practitioner_notes: |-
+    Backlight is the secret sauce—plant where late sun can set the panicles on fire, metaphorically.
+    Rich irrigation grows lush green and fewer purple fireworks—starve it gently for drama.
+    Tumble seeds roll like lazy inventors—sweep paths or accept crack gardens.
+    Short life in pampered beds is a feature—reseeding beats fertilizer therapy.
+  growth_habit: Bunching warm-season grass; purple-red airy panicles; dry sunny sites and roadsides
+  data_quality_score: 0.81

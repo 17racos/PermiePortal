@@ -1,28 +1,64 @@
 ---
 - common_name: Bilimbi Tree
   picture: bilimbi_tree.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Averrhoa bilimbi
+  aka:
+  - Cucumber Tree
+  - Tree Sorrel
+  family: Oxalidaceae
+  zone: 10-12
+  ideal_temp_min: 70
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Ornamental
+  - Shade Provider
+  - Pollinator
+  description: "Bilimbi (Averrhoa bilimbi) is a small tropical tree closely related
+    to star fruit, bearing extremely sour, cucumber-shaped fruits used pickled, cooked,
+    and in beverages across humid tropical kitchens. It typically reaches 15–33 feet
+    (5–10 m) with a short trunk, many spreading branches, and pinnate leaves; flowers
+    and fruit arise directly from trunks and older wood. The species suits home orchards
+    and spice gardens where acid is an ingredient, not an insult.\n\n☀️💧 Sun and Water
+    Requirements:\nFull sun drives flowering and heavy fruiting; partial shade reduces
+    yield. Likes steady moisture in well-drained, fertile soils; drought during fruit
+    set causes drop. Protect from prolonged cold below about 32°F (0°C); light frosts
+    damage young growth quickly.\n\n✂️ Propagation:\nSow seeds fresh for volunteer trials;
+    vegetative propagation maintains known sourness levels. Air-layer fruitful branches
+    during warm, humid months. Container culture works in marginal zones if moved during
+    cold spells—still a chore, not a cheat code.\n\n🌾 Harvest / Best Use Timing:\nPick
+    fruit green for pickles and curries, or allow slight yellowing for different uses—flavor
+    remains aggressively tart. Harvest frequently; heavy loads can stress brittle wood.
+    Prune to open the center and reduce wind breakage on overloaded limbs."
+  purpose: |-
+    - Edible: Extreme acidity brightens pickles, sambals, and drinks where sugar balances the slap.
+    - Medicinal: Fruit and flower appear in folk preparations where legality and expertise apply.
+    - Ornamental: Rambling habit and cauliflorous fruiting look like nature’s opinion on minimalism.
+    - Shade Provider: Modest canopy shades understory herbs during wet season growth.
+    - Pollinator: Small flowers on old wood feed generalist pollinators during warm months.
   companions:
-  - NEEDS_DATA
+  - Lemongrass — aromatic edge planting tolerates tropical heat and marks paths under low branches
+  - Papaya — uses vertical light differently; bilimbi stays shorter and wider in many sites
+  - Turmeric — rhizomes along the shaded north flank with mulch and drainage
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Brittle wood — long fruit clusters weigh down limbs; prune for structure before storms volunteer
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Scale Insects
+  - Whiteflies
+  practitioner_notes: |-
+    Acid level is not subtle—taste before scaling recipes written for mild lemons.
+    Cauliflorous fruiting means trunk scratches; harvest baskets beat shirt pockets.
+    Star fruit relatives share some pests; rotate monitoring, not just hope.
+    Container trees need faithful watering; vacation drought turns leaves into yellow confetti.
+  growth_habit: Small tropical tree; pinnate leaves; very sour bilimbi fruit on old wood
+  data_quality_score: 0.8
   # Image attribution: Sugeesh / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

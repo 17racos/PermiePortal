@@ -1,28 +1,46 @@
 ---
 - common_name: Riberry
   picture: riberry.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Syzygium luehmannii
+  aka:
+  - Lilly Pilly
+  - Small-Leaved Lilly Pilly
+  family: Myrtaceae
+  zone: 10-11
+  ideal_temp_min: 55
+  ideal_temp_max: 90
+  min_temp: 28
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  - Border Plant
+  description: "Riberry (Syzygium luehmannii) is an Australian rainforest margin tree or large shrub, farmed for small, crimson, slightly pear-shaped fruit with clove-cinnamon aromatics that anchor jams, sauces, and boutique beverages. Plants typically reach 20–40 feet (6–12 m) in humid subtropical climates, with glossy leaves and flaky bark that peels like tired wallpaper in humid air. In warm-climate permaculture it is a hedge candidate, bird feeder, and conversation fruit for growers bored with bland berries.\n\n☀️💧 Sun and Water Requirements:\nFull sun to bright partial shade; young plants appreciate afternoon shade in hot districts. Rich, well-drained soils with steady moisture through the warm wet season and irrigation in dry spells support fruit sizing. Mulch to buffer roots; wind protection reduces leaf tatter on exposed ridges.\n\n✂️ Propagation:\nSow fresh seed; viability drops quickly—plant promptly. Graft or air-layer selections with superior fruit chemistry. Prune hedges after fruiting flushes to keep screens dense without interior dieback.\n\n🌾 Harvest / Best Use Timing:\nPick when color deepens and aroma peaks—flavor improves off-tree within a day for some recipes. Process quickly into sauces or ferments; thin skin bruises if tossed. Peak loads track local warm wet periods rather than temperate calendars."
+  purpose: |-
+    - Edible: Tart-aromatic fruit diversifies sauces, jellies, and beverages where spice notes are desired.
+    - Wildlife Attractor: Flowers feed bees; fruit feeds birds where sharing is acceptable.
+    - Ornamental: Flaky bark and glossy foliage justify placement even before fruit sets.
+    - Border Plant: Responds to hedging for screens along paths and poultry paddocks.
   companions:
-  - NEEDS_DATA
+  - Syzygium australe — related lilly pilly with staggered fruit personality for extended harvest windows
+  - Carambola Tree — contrasting canopy height and fruit geometry in a myrtle-rich guild
+  - Lemongrass — perimeter herb along driplines marking irrigation and scent boundaries
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Duplicate taxon also listed as Syzygium luehmannii under another filename—search noise, not a second species
+  - Pests of myrtle family—watch scale and sooty mold partnerships after ant highways appear
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Swampy, all rights reserved, uploaded by Swampy
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Aphids
+  - Caribbean Fruit Fly
+  practitioner_notes: |-
+    This database also holds a separate Syzygium luehmannii record—same species, different URL slug; pick one card for your field notes.
+    Spice notes in fruit reward gentle sugar—heavy-handed jam recipes erase the reason you grew it.
+    Hedge shears create dense shells—open the top occasionally so inner leaves see light.
+    Fruit flies follow ground drops—sanitize like a professional or accept larvae lottery.
+  growth_habit: Evergreen myrtle tree-shrub; crimson aromatic fruit; humid subtropical margins
+  data_quality_score: 0.78

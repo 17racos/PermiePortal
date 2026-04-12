@@ -1,28 +1,44 @@
 ---
 - common_name: Hairy Wild Petunia
   picture: hairy_wild_petunia.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Ruellia humilis
+  aka:
+  - Prairie petunia
+  - Fringeleaf wild petunia
+  family: Acanthaceae
+  zone: 4-9
+  ideal_temp_min: 55
+  ideal_temp_max: 90
+  min_temp: -25
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Ornamental
+  - Ground Cover
+  - Wildlife Attractor
+  description: "Hairy wild petunia (Ruellia humilis) is a low herbaceous perennial of dry prairies, glades, and open sandy soils in central North America, bearing funnel-shaped lavender flowers on hairy foliage from late spring into summer. Height is usually under 1 foot (0.3 m) with a spreading habit. It is a drought-tough forb for rock gardens, green roof trays with depth, and meadow mixes where irrigation is optional.\n\n☀️💧 Sun and Water Requirements:\nFull sun for best bloom; light shade reduces flowers. Well-drained, often lean soils; tolerates drought after establishment. Wet clay is a slow-motion breakup letter.\n\n✂️ Propagation:\nSow seed on surface with light press-in; do not bury deeply. Divide small clumps in spring. Expect self-sowing where happy—edit volunteers if paths matter.\n\n🌾 Harvest / Best Use Timing:\nEnjoy flowers in situ; cut sparingly for short arrangements. Leave some seed capsules for finches if your cleanup can wait. Cut back frost-killed stems in late winter."
+  purpose: |-
+    - Pollinator: Tubular flowers attract long-tongued bees and other pollinators in early summer.
+    - Ornamental: Soft lavender blooms on hairy leaves give prairie authenticity without tall chaos.
+    - Ground Cover: Low spread fills gaps between grasses and stones in dry beds.
+    - Wildlife Attractor: Seeds and structure support small wildlife interactions in open habitats.
   companions:
-  - NEEDS_DATA
+  - Little Bluestem — warm-season matrix grass sharing sun and dry feet
+  - Hairy Grama — complementary low height band with different texture in xeric mixes
+  - Yarrow — shallow-rooted insectary neighbor at the bed edge
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Overwatering and rich compost — lanky growth with fewer flowers
+  - Wet shade — rot and disappearance disguised as “mysterious failure”
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Alain Le Hérissé, some rights reserved (CC BY-NC), uploaded by Alain Le Hérissé
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Spider Mites
+  practitioner_notes: |-
+    Not a bedding petunia—do not feed it like a hungry annual.
+    Hairs are sunscreen; they also collect dew—photograph early if you want sparkle.
+    Self-seeding is polite compared to true thugs—still, edit paths early.
+    Lavender tubes read delicate; the root system reads stubborn—trust the latter.
+  growth_habit: Low perennial forb; hairy leaves; lavender funnel flowers; dry prairie and glades
+  data_quality_score: 0.8

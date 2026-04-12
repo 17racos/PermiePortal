@@ -1,28 +1,45 @@
 ---
 - common_name: Spiderwort
   picture: spiderwort.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Tradescantia virginiana
+  aka:
+  - Virginia Spiderwort
+  - Bluejacket
+  family: Commelinaceae
+  zone: 4-9
+  ideal_temp_min: 40
+  ideal_temp_max: 90
+  min_temp: -30
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Ground Cover
+  - Edible
+  - Ornamental
+  description: "Spiderwort (Tradescantia virginiana) is a clump-forming perennial of eastern North American meadows and open woods, with arching leaves and three-petaled blue-violet flowers that open fresh each morning for weeks. Plants reach 1–2 feet (30–60 cm), self-sowing politely in gardens that tolerate a little chaos. Young shoots are mild edibles where ID and spray history are clean.\n\n☀️💧 Sun and Water Requirements:\nFull sun to light shade; afternoon shade reduces petal melt speed in hot climates. Average to moist, well-drained soils suit it; tolerates clay if drainage moves. Mulch to buffer roots; avoid stagnant water over crowns.\n\n✂️ Propagation:\nDivide clumps in spring; sow seed outdoors in fall. Deadhead near paths if volunteers annoy pavers.\n\n🌾 Harvest / Best Use Timing:\nGather young leaves and flowers in cool mornings for salads—verify ID. Cut back floppy stems after heavy bloom to refresh foliage. Peak bloom tracks late spring into summer warmth."
+  purpose: |-
+    - Pollinator: Morning flowers feed small bees when many doubles offer theater only.
+    - Ground Cover: Clumps fill sunny gaps between taller forbs.
+    - Edible: Mild shoots diversify wild salads on clean sites.
+    - Ornamental: Blue flowers and grassy leaves soften formal borders without turf lies.
   companions:
-  - NEEDS_DATA
+  - Wild Bergamot — aromatic neighbor extending pollinator service into afternoon
+  - Little Bluestem — warm-season grass matrix sharing sun and drainage
+  - Milkweed — complementary forb for pollinator strips at taller height
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Wet stagnant soil — crown rot invites replacement shopping
+  - Invasive relatives exist—keep native species distinct from wandering houseplant tradescantias
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) María Eugenia Mendiola González, some rights reserved (CC BY-NC-SA), uploaded by María Eugenia Mendiola González
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Spider Mites
+  - Slugs
+  practitioner_notes: |-
+    Flowers dissolve by noon—plan photos before coffee, not after lunch.
+    Sap threads are the genus party trick—kids love it; dry cleaning bills do not.
+    Self-sowing is polite until it is not—deadhead walkways if order matters.
+    Deer sometimes browse—protect new clumps if local herds lack manners.
+  growth_habit: Clumping perennial; blue three-petaled flowers; meadow and open woodland
+  data_quality_score: 0.8

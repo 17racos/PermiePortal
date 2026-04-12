@@ -1,28 +1,66 @@
 ---
 - common_name: Bearberry Cotoneaster
   picture: bearberry_cotoneaster.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Cotoneaster dammeri
+  aka:
+  - Bearberry Cotoneaster (horticultural name)
+  - Cotoneaster 'Lowfast' (common trade selection)
+  family: Rosaceae
+  zone: 5-8
+  ideal_temp_min: 55
+  ideal_temp_max: 75
+  min_temp: -25
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Ground Cover
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ground Cover
+  - Ornamental
+  - Wildlife Attractor
+  - Erosion Control
+  - Border Plant
+  description: "Bearberry cotoneaster (Cotoneaster dammeri) is a low, creeping evergreen
+    shrub widely used as a ground cover on slopes, walls, and urban hellstrips where
+    mowing is a religion you reject. Small white spring flowers yield bright red berries
+    that persist into winter for birds; stems root where they touch soil, knitting banks.
+    Height typically stays under 12–18 inches (30–45 cm) with spreads much wider over
+    time. In permaculture it stabilizes sun-baked slopes and provides winter bird food—check
+    regional invasive guidance because some cotoneasters seed aggressively where climates
+    match.\n\n☀️💧 Sun and Water Requirements:\nFull sun to light partial shade; dense
+    dry shade thins coverage. Tolerates drought once established; prefers well-drained
+    soil and sulks in constantly soggy clay. Mulch during establishment reduces weed
+    pressure until stems mesh.\n\n✂️ Propagation:\nLayer stems by pinning to soil in
+    spring; sever rooted pieces the following season. Semi-hardwood cuttings in summer
+    root with humidity cover. Divide large mats carefully in early spring before sap
+    runs hard.\n\n🌾 Harvest / Best Use Timing:\nBerries are bird food first; human use
+    is limited and often bland or mealy—plan for wildlife value. Prune back edges that
+    climb walls or swallow paths; renewal prune every few years if centers thin out."
+  purpose: |-
+    - Ground Cover: Evergreen mat excludes weeds on slopes where turf fails without constant irrigation.
+    - Ornamental: Flowers, fruit, and glossy leaves give three-season structure without flower-bed neurosis.
+    - Wildlife Attractor: Berries feed birds in lean months when insect protein dips.
+    - Erosion Control: Stem rooting and dense foliage slow rain impact on exposed soil.
+    - Border Plant: Defines bed edges and holds mulch uphill of paths on graded sites.
   companions:
-  - NEEDS_DATA
+  - Creeping Thyme — fills micro-gaps between stones while cotoneaster handles broader mats
+  - Yarrow — upright blooms contrast low evergreen cover and share sun/dry conditions
+  - Little Bluestem — vertical warm-season grass adds height behind low cotoneaster fronts
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Regional invasiveness — some areas restrict seeding cotoneasters; verify local guidance before mass planting
+  - Fire Blight — rosaceous bacterial disease can hit during warm wet springs on susceptible stock
   pests:
-  - NEEDS_DATA
+  - Fire Blight
+  - Aphids
+  - Scale Insects
+  practitioner_notes: |-
+    Berries vary by clone—birds do not care about your aesthetic color chart.
+    Mulch under new plantings beats bare soil bake; stems root faster into cool humus.
+    Deer may browse tender tips; established mats are often ignored in favor of salad-tier plants.
+    If centers die, lift and relay rooted front stems—cotoneaster repairs like a patchwork quilt.
+  growth_habit: Low evergreen ground-cover shrub; white flowers; persistent red berries
+  data_quality_score: 0.79
   # Image attribution: (c) Marta, some rights reserved (CC BY-NC), uploaded by Marta
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

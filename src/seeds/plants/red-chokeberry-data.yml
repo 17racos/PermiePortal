@@ -1,28 +1,45 @@
 ---
 - common_name: Red Chokeberry
   picture: red_chokeberry.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Aronia arbutifolia
+  aka:
+  - Red Aronia
+  - Photinia pyrifolia
+  family: Rosaceae
+  zone: 4-9
+  ideal_temp_min: 35
+  ideal_temp_max: 90
+  min_temp: -30
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Erosion Control
+  - Ornamental
+  description: "Red chokeberry (Aronia arbutifolia) is a multi-stemmed deciduous shrub of eastern North American wetlands and moist woods, bearing white spring flower clusters, glossy summer foliage, bright red persistent fruit, and strong red fall color. Heights of 6–10 feet (1.8–3 m) are common with suckering colonies along pond margins and rain-garden berms. Fruit is tart and astringent raw but valuable for juices and preserves where sugar and processing meet respectfully.\n\n☀️💧 Sun and Water Requirements:\nFull sun to partial shade; best fruiting and fall color in sun with steady moisture. Tolerates wet soils better than many fruit shrubs if drainage moves; also handles average beds with mulch and irrigation during drought. Acidic to neutral soils suit it; chlorosis appears on alkaline sites without organic matter.\n\n✂️ Propagation:\nSow stratified seed; divide suckers in early spring. Softwood cuttings root under mist. Renewal-prune old canes after several years to keep fruiting wood young and airflow honest.\n\n🌾 Harvest / Best Use Timing:\nPick berries when fully red and slightly soft; process quickly into juice or jelly. Frost often improves palatability for wildlife—decide who gets the second wave. Peak human harvest tracks late warm-season ripening."
+  purpose: |-
+    - Edible: Anthocyanin-rich fruit supports juices and preserves after cooking tames astringency.
+    - Wildlife Attractor: Flowers feed pollinators; fruit feeds birds, especially after cold sweetens tannins.
+    - Erosion Control: Suckering roots stabilize moist banks and swale sides.
+    - Ornamental: Fall red foliage and fruit double the garden receipt without extra purchases.
   companions:
-  - NEEDS_DATA
+  - Highbush Cranberry — moist-site neighbor extending winter fruit and bird interest
+  - Serviceberry — earlier fruit at the slightly drier margin of the guild
+  - Marsh Blazingstar — upright forb in moist sun below open shrub canopies
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Raw fruit punch—tannins punish unprepared tasters
+  - Suckering into paths—edge with intent or mow a buffer
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Laura Clark, some rights reserved (CC BY), uploaded by Laura Clark
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Japanese Beetles
+  - Powdery Mildew
+  practitioner_notes: |-
+    Aronia vs Photinia labels argue in older books—Aronia arbutifolia is the current chokeberry anchor for this shrub.
+    Juice yield rewards steam extraction—hand squeezing is a wrist tax, not a business model.
+    Fall color competes with maples—site where backlight can read both leaves and fruit.
+    Bird netting ethics vary—share rows or defend rows, but decide before peak ripeness drama.
+  growth_habit: Suckering deciduous shrub; red fruit; red fall color; moist soils and rain gardens
+  data_quality_score: 0.81

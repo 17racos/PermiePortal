@@ -1,28 +1,44 @@
 ---
 - common_name: Elderberry Wine
   picture: elderberry_wine.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Sambucus nigra
+  aka:
+  - Black elder 'Elderberry Wine'
+  - Ornamental elder
+  family: Adoxaceae
+  zone: 4-8
+  ideal_temp_min: 50
+  ideal_temp_max: 80
+  min_temp: -25
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  - Border Plant
+  description: "Elderberry Wine is a dark-leafed cultivar group of European black elder (Sambucus nigra) selected for deeply cut purple foliage and pink flower clusters, valued in temperate ornamental borders before fruit ripens to glossy black berries. Shrubs often reach 6–10 feet (1.8–3 m) unless renewed by hard pruning. While primarily landscape theater, ripe cooked berries follow the same food-safety rules as other elders—raw berries upset stomachs and bad processing writes memorable evenings.\n\n☀️💧 Sun and Water Requirements:\nFull sun for richest foliage color; too much shade shifts leaves greener and reduces flower impact. Moist, fertile, well-drained soils mirror productive elder culture; drought turns leaf edges crisp during heat waves. Mulch root zones to buffer temperature and reduce weed string trimmer wounds at the base.\n\n✂️ Propagation:\nHardwood cuttings taken in dormancy root readily in cool humid media. Softwood cuttings in late spring can clone a known plant if humidity is managed. Seed from cultivars does not come true—vegetative propagation preserves leaf form.\n\n🌾 Harvest / Best Use Timing:\nPick flower umbels at full bloom for cordials where local law and sensitivity allow—leave plenty for pollinators. Harvest berries only fully ripe and process with established recipes; uncooked consumption is a bad idea regardless of influencer confidence. Rejuvenate older wood every few years to keep foliage vibrant near eye level."
+  purpose: |-
+    - Edible: Flowers and ripe processed berries extend elder products into ornamental beds with known cultivar traits.
+    - Ornamental: Dark dissected leaves provide long-season color contrast against green neighbors.
+    - Wildlife Attractor: Flowers feed insects; berries feed birds if you share the crop.
+    - Border Plant: Upright habit defines edges and backs mixed shrub borders in temperate climates.
   companions:
-  - NEEDS_DATA
+  - Elderberry — wild-type or fruit-forward elders pollinize and extend harvest timing in mixed hedges
+  - Yarrow — shallow-rooted insectary front edge that tolerates sun at shrub toes
+  - Echinacea — complementary summer blooms without root competition at elder depths
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Raw berries and other green parts — contain compounds that cause illness until properly processed
+  - Fire Blight — watch rosaceous-adjacent disease complexes in humid springs on stressed growth
   pests:
-  - NEEDS_DATA
-  # Image attribution: No image found
-  # Image source: none
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Japanese Beetles
+  practitioner_notes: |-
+    Cultivar names wander—buy from nurseries that attach photos, not just poetry.
+    Heavy bloom can weigh stems—thin old wood before the plant performs a trust fall.
+    Birds will audit your harvest schedule—netting is diplomacy, not greed.
+    Purple leaves scorch in desert sun—this is a temperate drama queen, not a Mojave hero.
+  growth_habit: Deciduous multistem shrub; dark cut leaves; large pink flower clusters; black berries when ripe
+  data_quality_score: 0.77

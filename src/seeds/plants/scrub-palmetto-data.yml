@@ -1,28 +1,45 @@
 ---
 - common_name: Scrub Palmetto
   picture: scrub_palmetto.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Sabal etonia
+  aka:
+  - Scrub Palmetto Palm
+  family: Arecaceae
+  zone: 8b-11
+  ideal_temp_min: 45
+  ideal_temp_max: 95
+  min_temp: 15
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ornamental
+  - Wildlife Attractor
+  - Erosion Control
+  - Border Plant
+  description: "Scrub palmetto (Sabal etonia) is a fan palm of deep sandy scrub, usually with an underground or short aboveground trunk and costapalmate leaves silvery underneath. It is smaller and more clumping in habit than many landscape sabals, fitting dry, acidic sites where irrigation is absent. Use it in fire-adapted scrub restorations, xeric borders, and wildlife plantings where palmetto structure beats turf theater.\n\n☀️💧 Sun and Water Requirements:\nFull sun for compact form and best silver leaf display; shade stretches petioles. Extremely well-drained sandy, acidic soils are native truth; tolerates drought once established. Avoid heavy clay and chronic irrigation.\n\n✂️ Propagation:\nSow fresh seed in warm, humid conditions; germination is slow. Transplant young palms with minimal root disturbance. Remove only fully brown fronds.\n\n🌾 Harvest / Best Use Timing:\nPrimarily ecological and ornamental—seeds feed wildlife where permitted. Growth flushes follow warm wet periods."
+  purpose: |-
+    - Ornamental: Silver leaf undersides add light to scrub and xeric designs.
+    - Wildlife Attractor: Fruits and cover support birds, reptiles, and insects in scrub ecosystems.
+    - Erosion Control: Fibrous roots bind deep sand on cuts and dunes.
+    - Border Plant: Low stature defines edges without shading entire yards.
   companions:
-  - NEEDS_DATA
+  - Sand Pine — overstory pine in classic scrub mosaic where both belong ecologically
+  - Pineland Heather — ericaceous shrub neighbor on the same sand sheet with contrasting texture
+  - Beautyberry — color contrast at scrub margins with more organic litter
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Fire ecology — scrub systems may expect periodic fire; follow regulations and safety training
+  - Wet clay — chronic sulk and rot away from sand honesty
   pests:
-  - NEEDS_DATA
-  # Image attribution: Ted Bodner, Southern Weed Science Society, United States / Wikimedia Commons / CC BY 3.0 us
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Palmetto Weevil
+  - Aphids
+  practitioner_notes: |-
+    Sabal etonia stays lower than many landscape palms—if you want telephone-pole height, buy a different Sabal.
+    Silver undersides need sun angle—plant where light can read the leaf, not just the petiole.
+    Palmetto weevil headlines exist—monitor crown soundness after stress events.
+    “Scrub” is soil truth—imported topsoil often kills the romance.
+  growth_habit: Small fan palm; subterranean or short trunk; silver leaf undersides; deep sand scrub
+  data_quality_score: 0.78

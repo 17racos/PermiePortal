@@ -1,28 +1,44 @@
 ---
 - common_name: Shining Coneflower
   picture: shining_coneflower.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Rudbeckia nitida
+  aka:
+  - Shiny Coneflower
+  family: Asteraceae
+  zone: 4-9
+  ideal_temp_min: 40
+  ideal_temp_max: 95
+  min_temp: -25
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Wildlife Attractor
+  - Ornamental
+  - Erosion Control
+  description: "Shining coneflower (Rudbeckia nitida) is a robust perennial of moist prairies and wet meadows, with glossy leaves and bright yellow ray flowers around a tall greenish central cone on stems reaching 3–6 feet (0.9–1.8 m). It tolerates clay and seasonal wetness better than many dry-land rudbeckias, making it valuable in rain gardens, pond margins, and sunny swales. Late-season bloom feeds pollinators when earlier flowers retire.\n\n☀️💧 Sun and Water Requirements:\nFull sun for stiff stems and dense bloom; light shade reduces flower count. Moist to average soils suit it; tolerates short dry downs once established but looks freshest with steady moisture. Mulch to keep roots cool; avoid stagnant water over crowns in humid heat.\n\n✂️ Propagation:\nDivide clumps in spring; sow seed with cold stratification or direct-sow in fall. Cut back dead stems in late winter if tidy gardens matter.\n\n🌾 Harvest / Best Use Timing:\nCut flowers when rays are fully open for bouquets. Leave seed heads for finches. Peak bloom tracks late warm season."
+  purpose: |-
+    - Pollinator: Composite heads supply nectar and pollen to bees and butterflies in late summer.
+    - Wildlife Attractor: Seeds feed birds; stems shelter insects if left standing.
+    - Ornamental: Glossy foliage elevates wetland garden aesthetics beyond plain reed clichés.
+    - Erosion Control: Fibrous roots stabilize moist banks and swale sides.
   companions:
-  - NEEDS_DATA
+  - Swamp Milkweed — milkweed neighbor for monarch habitat in moist sun
+  - Marsh Blazingstar — complementary purple verticals in wet meadow mixes
+  - Switchgrass — warm-season grass matrix sharing moisture and sun
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Droughty sand without irrigation — smaller plants and fewer flowers
+  - Overcrowding — mildew risk if air cannot move between dense stems
   pests:
-  - NEEDS_DATA
-  # Image attribution: No image found
-  # Image source: none
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Japanese Beetles
+  - Powdery Mildew
+  practitioner_notes: |-
+    Glossy leaves are the ID flex—if leaves are dull, verify species before labeling wet meadow tours.
+    Wet feet tolerance is real—dry xeric berms are still the wrong religion.
+    Goldfinches shred seed heads—choose tidy or bird-fed, not both, per row.
+    Taller than many rudbeckias—site at the back of borders unless you enjoy hiding shorter plants.
+  growth_habit: Tall moist-soil perennial; glossy leaves; yellow coneflowers; rain gardens
+  data_quality_score: 0.8

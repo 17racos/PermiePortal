@@ -1,28 +1,67 @@
 ---
 - common_name: Bengal Quince
   picture: bengal_quince.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Limonia acidissima
+  aka:
+  - Wood Apple
+  - Elephant Apple
+  family: Rutaceae
+  zone: 10-11
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 30
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  - Shade Provider
+  - Ornamental
+  description: "Bengal quince here refers to wood apple or elephant apple (Limonia
+    acidissima), a thorny deciduous tree of South and Southeast Asia bearing hard-shelled,
+    aromatic fruit with sticky brown pulp used in drinks, chutneys, and traditional
+    medicine where appropriate. It is taxonomically separate from bael (Aegle marmelos)
+    despite overlapping common names in older literature. Trees can reach 30–50 feet
+    (9–15 m) with compound leaves and a rough, fissured trunk; the canopy is relatively
+    open, allowing some undergrowth during wet season growth pulses.\n\n☀️💧 Sun and
+    Water Requirements:\nFull sun for flowering and fruiting; tolerates hot lowland
+    climates with a pronounced dry season. Prefers deep, well-drained soils; drought-deciduous
+    behavior is normal where irrigation is absent. Young plants need protection from
+    hard frost; mature trees handle brief cool spells in marginal subtropical sites
+    better than tropical understory herbs.\n\n✂️ Propagation:\nSow fresh seed; germination
+    can be slow and irregular—scarify carefully following regional practice. Budding
+    onto seedling rootstocks captures superior pulp types. Air-layer selected limbs
+    during warm, humid weather for clonal copies.\n\n🌾 Harvest / Best Use Timing:\n
+    Fruit is typically used when mature but still firm for processing; pulp is scooped,
+    strained, and sweetened. Fallen fruit ferments fast—collect on a schedule, not
+    when you remember after three coffee refills."
+  purpose: |-
+    - Edible: Pulp becomes beverages and preserves after straining fibers and balancing sugar-acid.
+    - Medicinal: Plant parts appear in traditional systems where legal and trained use applies.
+    - Wildlife Attractor: Flowers and ripe fruit engage insects, birds, and mammals in native ranges.
+    - Shade Provider: Open canopy gives partial shade for understory herbs and livestock loafing areas.
+    - Ornamental: Rugged bark and bold foliage suit large tropical home landscapes with space.
   companions:
-  - NEEDS_DATA
+  - Turmeric — shade-tolerant rhizome crop along the north edge with heavy mulch
+  - Lemongrass — aromatic clump marks paths outside the thorny dripline
+  - Papaya — uses light gaps while wood apple slowly expands its scaffold
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Thorns — young branches are sharply armed; plan pruning access and paths before trees mature
+  - Name confusion — do not assume this is bael (Aegle marmelos); recipes and rootstocks differ
   pests:
-  - NEEDS_DATA
+  - Citrus Leafminer
+  - Scale Insects
+  - Aphids
+  practitioner_notes: |-
+    Shell hardness is personal protective equipment territory—kitchen mallets are not optional whimsy.
+    Pulp aroma divides rooms; process outdoors if housemates vote against fermented perfume.
+    Seedlings vary in pulp quality; graft if you want predictable kitchen outcomes.
+    Dry-season leaf drop is often survival strategy—check cambium before declaring the tree deceased.
+  growth_habit: Thorny deciduous Rutaceae tree; aromatic hard fruit; open canopy
+  data_quality_score: 0.76
   # Image attribution: (c) Justas Ašmantas, all rights reserved, uploaded by Justas Ašmantas
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

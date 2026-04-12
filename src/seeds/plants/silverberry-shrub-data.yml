@@ -1,28 +1,45 @@
 ---
 - common_name: Silverberry Shrub
   picture: silverberry_shrub.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Elaeagnus commutata
+  aka:
+  - Wolf Willow
+  - Silver Buffaloberry
+  family: Elaeagnaceae
+  zone: 2-7
+  ideal_temp_min: 30
+  ideal_temp_max: 85
+  min_temp: -45
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Nitrogen Fixer
+  - Wildlife Attractor
+  - Border Plant
+  - Erosion Control
+  description: "Silverberry (Elaeagnus commutata) is a cold-hardy actinorhizal shrub of northern North American prairies and riverbanks, bearing silvery-scaly leaves, fragrant pale flowers, and red speckled berries that feed birds. Plants reach 6–12 feet (1.8–3.5 m), often thicket-forming on lean soils where other shrubs sulk. It improves fertility on tough sites while demanding respect for suckering ambition.\n\n☀️💧 Sun and Water Requirements:\nFull sun for densest silver foliage and heaviest fruiting. Tolerates poor, sandy, and alkaline soils; prefers consistent moisture but withstands cold dry winters. Avoid waterlogged clay without percolation.\n\n✂️ Propagation:\nSow stratified seed; hardwood cuttings with hormone. Remove excess suckers if maintaining a single-clump aesthetic.\n\n🌾 Harvest / Best Use Timing:\nBerries are primarily wildlife food—human use is limited and culturally specific. Leave fruit for birds through late summer and fall. Growth peaks during warm months with long days."
+  purpose: |-
+    - Nitrogen Fixer: Actinorhizal roots enrich lean soils for neighbors when prunings return as mulch.
+    - Wildlife Attractor: Flowers feed pollinators; fruit feeds birds in northern hedgerows.
+    - Border Plant: Thickets define windbreaks and livestock lanes in cold climates.
+    - Erosion Control: Roots stabilize riverbanks and disturbed cuts.
   companions:
-  - NEEDS_DATA
+  - Wild Plum — thicket neighbor extending fruit succession for wildlife
+  - Raspberry — bramble layer at sunnier thicket edges
+  - Serviceberry — earlier soft fruit at slightly less extreme sites along the margin
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Suckering — expands without invitations unless edged or mowed
+  - Allelopathy near delicate herbs—give space or accept casualties
   pests:
-  - NEEDS_DATA
-  # Image attribution: No image found
-  # Image source: none
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Aphids
+  - Spider Mites
+  practitioner_notes: |-
+    Silver scales reduce transpiration—drought posture is chemistry, not attitude.
+    Wolf willow name confuses willow seekers—Elaeagnus commutata is the scientific receipt.
+    Birds spread seed—plant away from fragile native remnants if hybridization or invasion is a local concern.
+    Fixation works best in lean soil—bagged nitrogen is insulting to actinorhizae.
+  growth_habit: Cold-hardy actinorhizal shrub; silvery leaves; red speckled bird berries
+  data_quality_score: 0.8

@@ -1,28 +1,44 @@
 ---
 - common_name: Malay Apple
   picture: malay_apple.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Syzygium malaccense
+  aka:
+  - Mountain apple
+  - Otaheite apple (regional)
+  family: Myrtaceae
+  zone: 10-12
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 30
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  - Shade Provider
+  description: "Malay apple (Syzygium malaccense) is a tropical myrtle-family tree of humid lowlands, bearing large glossy leaves, puffy red-to-white flowers, and oblong, bell-shaped fruit often red or white with crisp, mild, watery flesh. Heights of 30–60 feet (9–18 m) occur in open growth. It is a backyard fruit and shade tree in equatorial and humid subtropical climates where fruit flies are managed and frost is absent.\n\n☀️💧 Sun and Water Requirements:\nFull sun for flowering and fruiting; young trees tolerate partial shade. Deep, fertile, well-drained soils with steady moisture in the warm season; mulch buffers heat at roots. Wind protection reduces fruit bruising.\n\n✂️ Propagation:\nAir-layering and grafting preserve quality; seedlings vary. Prune for strong scaffold branches and reachable fruit. Remove inward-crossing wood after harvest cycles.\n\n🌾 Harvest / Best Use Timing:\nPick when color deepens and fruit yields slightly to gentle pressure; flavor is mild—season with realistic expectations. Process or refrigerate quickly in heat. Expect multiple flowering peaks per year in warm climates."
+  purpose: |-
+    - Edible: Fresh fruit and light preserves where mild crunch and floral aroma are appreciated.
+    - Ornamental: Showy flowers and colorful fruit justify space in humid tropical home landscapes.
+    - Wildlife Attractor: Flowers and fruit engage birds and insects where sharing is intentional.
+    - Shade Provider: Broad crown shelters understory crops in polycultures.
   companions:
-  - NEEDS_DATA
+  - Java Apple — related Syzygium with complementary fruit shape and staggered harvest potential
+  - Wax Apple — Myrtaceae neighbor sharing cultural needs at safe spacing for light
+  - Banana — fast biomass understory during early establishment years
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Frost — damages young growth near 30°F (-1°C); protect on marginal sites
+  - Fruit flies — sanitation and harvest discipline matter more than denial
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Felix, some rights reserved (CC BY-NC), uploaded by Felix
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Caribbean Fruit Fly
+  - Scale Insects
+  practitioner_notes: |-
+    “Mountain apple” names collide—Latin keeps the kitchen aligned with the tree.
+    Mild flavor is a feature for some palates—do not expect mango sugar bombs.
+    Puffy flowers photograph like cotton candy—bees treat them like business hours.
+    Wide crown + power lines = future comedy—site with adult spacing math.
+  growth_habit: Large tropical Myrtaceae tree; showy flowers; oblong mild fruit; humid lowlands
+  data_quality_score: 0.8

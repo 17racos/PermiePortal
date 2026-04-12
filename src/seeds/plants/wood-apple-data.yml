@@ -1,28 +1,45 @@
 ---
 - common_name: Wood Apple
   picture: wood_apple.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Aegle marmelos
+  aka:
+  - Bael Fruit
+  - Bengal Quince
+  family: Rutaceae
+  zone: 10b-12
+  ideal_temp_min: 60
+  ideal_temp_max: 110
+  min_temp: 28
+  max_temp: 120
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Shade Provider
+  - Wildlife Attractor
+  description: "Wood apple (Aegle marmelos) is a thorny deciduous tree from South and Southeast Asia, widely cultivated in tropical lowlands for hard-shelled aromatic fruit with fibrous pulp used in drinks, jams, and traditional medicine where preparation knowledge exists. Trees reach 30–40 feet (9–12 m), with trifoliate leaves and a crooked trunk that laughs at symmetry. Heat and seasonal dryness shape its rhythm more than temperate calendars.\n\n☀️💧 Sun and Water Requirements:\nFull sun for reliable flowering and fruiting; young plants accept partial shade. Deep, well-drained soils with deep irrigation in dry seasons support fruit sizing. Drought-tolerant once established but yields drop without honest moisture through flowering and fruit swell.\n\n✂️ Propagation:\nGraft known cultivars; seedlings vary in pulp quality and acid balance. Prune thorns carefully for orchard access—eyes and tires are not negotiable.\n\n🌾 Harvest / Best Use Timing:\nCollect fruit when shell color shifts and aroma peaks—crack shells with tools, not molars. Process pulp quickly; fermentation waits for no one. Peak harvest tracks tropical heat and local wet-dry patterns."
+  purpose: |-
+    - Edible: Pulp supports traditional beverages and preserves where sugar and spice balance fiber.
+    - Medicinal: Long history in herbal systems—verify safety and regulations before marketing cures.
+    - Shade Provider: Thorny canopy shelters understory in hot climates.
+    - Wildlife Attractor: Flowers and fruit engage pollinators and fruit bats where ranges overlap.
   companions:
-  - NEEDS_DATA
+  - Mango — complementary tropical tree with staggered fruiting workload in diversified orchards
+  - Lemongrass — perimeter herb along driplines with volatile oils
+  - Pomegranate Tree — smaller tree neighbor tolerating heat at the orchard edge
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Thorns — plan paths, ladders, and tire insurance
+  - Strong medicinal reputation invites reckless dosing—respect tradition and toxicology
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Justas Ašmantas, all rights reserved, uploaded by Justas Ašmantas
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Aphids
+  - Spider Mites
+  practitioner_notes: |-
+    Shell hardness is a dare—tools win; teeth lose every negotiation.
+    “Bael” and “wood apple” share Aegle marmelos—marketing dialects, not species splits.
+    Seedling pulp varies—graft if you bottle for strangers; keep seedlings if you like plot twists.
+    Overhead irrigation + tight canopy = fungal pen pals—open structure beats panic sprays.
+  growth_habit: Thorny tropical rutaceous tree; hard-shelled aromatic fruit; lowland heat adapted
+  data_quality_score: 0.77

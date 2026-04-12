@@ -1,28 +1,44 @@
 ---
 - common_name: Little Bluestem
   picture: little_bluestem.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Schizachyrium scoparium
+  aka:
+  - Beard grass
+  - Blue stem
+  family: Poaceae
+  zone: 3-10
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: -35
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Erosion Control
+  - Wildlife Attractor
+  - Ornamental
+  - Animal Fodder
+  description: "Little bluestem (Schizachyrium scoparium) is a warm-season bunchgrass of North American prairies, roadsides, and open woods, valued for blue-green summer foliage shifting to copper, burgundy, and seed heads that catch winter light. Clumps typically reach 2–4 feet (0.6–1.2 m). It is a matrix species for meadow restoration, rain garden berms, and ornamental plantings where turf would be a hydrological lie.\n\n☀️💧 Sun and Water Requirements:\nFull sun for color and upright habit; too much shade yields lax stems. Well-drained soils from sand to clay if not waterlogged; excellent drought tolerance after establishment. Avoid chronic irrigation designed for bluegrass cosplay.\n\n✂️ Propagation:\nSow seed shallow in warm soil; weed control year one determines success. Divide dormant crowns in early spring. Burn or mow on ecologically informed schedules—not random buzz cuts.\n\n🌾 Harvest / Best Use Timing:\nFor grazing, follow warm-season utilization guidance. For gardens, leave standing for winter structure; cut back before spring growth. Collect seed when ripe for local genotype mixes."
+  purpose: |-
+    - Erosion Control: Fibrous roots stabilize slopes and berms in sunny plantings.
+    - Wildlife Attractor: Seeds and cover support birds and insects in prairie patches.
+    - Ornamental: Seasonal color shifts beat dyed mulch for honest winter interest.
+    - Animal Fodder: Useful warm-season forage when grazed with recovery periods.
   companions:
-  - NEEDS_DATA
+  - Indiangrass — taller warm-season neighbor for vertical layering in prairie mixes
+  - Dense Blazingstar — forb spikes interplanted for pollinator structure
+  - Echinacea — taprooted forb companion adding summer pollinator structure in sunny prairie mixes
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Wet winter clay — some mortality; improve drainage or choose wet-prairie species
+  - Heavy shade — color and flowering collapse; pick sedges for dark sites
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Pablo L Ruiz, all rights reserved, uploaded by Pablo L Ruiz
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Grasshopper
+  - Armyworms
+  practitioner_notes: |-
+    Cultivars vary in color drama—buy in fall when pigments show their truth.
+    First-year plants whisper; third-year plants shout—plan scale accordingly.
+    Seed fluff travels—editing volunteers is cheaper than lawsuits with neighbors.
+    Prairie without fire or substitute mowing becomes woody succession—choose your maintenance religion.
+  growth_habit: Warm-season bunchgrass; blue summer foliage; copper winter color; prairie matrix
+  data_quality_score: 0.83

@@ -1,28 +1,44 @@
 ---
 - common_name: White Wild Indigo
   picture: white_wild_indigo.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Baptisia alba
+  aka:
+  - White False Indigo
+  family: Fabaceae
+  zone: 4-9
+  ideal_temp_min: 40
+  ideal_temp_max: 90
+  min_temp: -25
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Nitrogen Fixer
+  - Pollinator
+  - Ornamental
+  - Erosion Control
+  description: "White wild indigo (Baptisia alba) is a long-lived legume perennial of southeastern North American prairies and open woods, with blue-green trifoliate leaves and tall spikes of white pea flowers in late spring. Plants reach 3–4 feet (0.9–1.2 m), forming shrub-like clumps with deep taproots. It fixes nitrogen slowly but steadily—patience beats bagged urea for lean-soil ethics.\n\n☀️💧 Sun and Water Requirements:\nFull sun for strongest flowering and nodule activity; shade reduces bloom. Well-drained, average to lean soils suit it; wet clay rots crowns. Water deeply during establishment only.\n\n✂️ Propagation:\nSow scarified seed with cold stratification; division is difficult—prefer fresh seed for large areas. Cut back dead stems in late winter if tidy gardens matter.\n\n🌾 Harvest / Best Use Timing:\nLeave seed pods for ornamental rattles and bird interest. Peak bloom follows late-spring warmth after frost risk near 28°F (-2°C) declines."
+  purpose: |-
+    - Nitrogen Fixer: Rhizobia nodules enrich soil when tops are cut and dropped or decompose in place.
+    - Pollinator: Pea flowers feed bumblebees during a focused late-spring window.
+    - Ornamental: White spires add vertical rhythm in native borders.
+    - Erosion Control: Deep roots stabilize sunny slopes once established.
   companions:
-  - NEEDS_DATA
+  - Little Bluestem — warm-season grass matrix sharing sun and drainage
+  - Orange Coneflower — yellow forb contrast after indigo bloom fades
+  - Milkweed — complementary pollinator forb with different bloom timing
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Transplanting large clumps—taproot sulk is legendary
+  - Overwatering + heavy soil — crown rot invites replacement shopping
   pests:
-  - NEEDS_DATA
-  # Image attribution: Photo by and (c)2007 Derek Ramsey (Ram-Man) / Wikimedia Commons / GFDL 1.2
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Japanese Beetles
+  - Spider Mites
+  practitioner_notes: |-
+    First-year sleep, second-year creep—taprooted legumes hate rush culture.
+    White spikes photograph best against dark green neighbors—design contrast intentionally.
+    Seed pods rattle like honest percussion—leave some for kids, birds, and winter ears.
+    Weevils sometimes drill seeds—float-test if you need high germination rates.
+  growth_habit: Long-lived legume perennial; white pea flower spikes; lean sunny soils
+  data_quality_score: 0.82

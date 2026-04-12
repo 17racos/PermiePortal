@@ -1,28 +1,66 @@
 ---
 - common_name: Ambarella
   picture: ambarella.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Spondias dulcis
+  aka:
+  - June Plum
+  - Golden Apple
+  - Kedondong
+  family: Anacardiaceae
+  zone: 10-12
+  ideal_temp_min: 70
+  ideal_temp_max: 90
+  min_temp: 30
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Shade Provider
+  - Mulcher
+  - Wildlife Attractor
+  - Windbreaker
+  description: "Ambarella (Spondias dulcis) is a fast-growing tropical to subtropical
+    tree widely planted across humid lowland regions for crisp green fruit used pickled,
+    stewed, or sliced with salt and chile. It commonly reaches 30–45 feet (9–14 m)
+    in cultivation with a rounded crown of pinnate leaves and terminal clusters of
+    small white flowers. The species fits warm-climate home orchards and multistory
+    food forests where a productive mid-canopy tree is needed before slower hardwoods
+    mature.\n\n☀️💧 Sun and Water Requirements:\nFull sun drives dense canopy and reliable
+    flowering; young plants appreciate light shade for the first dry season. Likes
+    deep, fertile, well-drained soil with steady moisture during push growth, then moderate
+    dryness between rains once established. Protect from prolonged cold below about
+    30°F (-1°C); foliage and young wood burn quickly in advective freezes.\n\n✂️ Propagation:\n
+    Sow fresh seed soon after cleaning; viability drops if seed desiccates. Air-layer
+    or graft selected fruit types to match market or kitchen expectations. Tip cuttings
+    root in humid shade during warm months on mature, healthy stock.\n\n🌾 Harvest /
+    Best Use Timing:\nPick fruit green and firm for crunchy use, or allow partial yellowing
+    for sweeter slices—texture changes fast once soft. Process pickles and sauces in
+    batches; ripe fruit does not ship like industrial mango logistics pretend."
+  purpose: |-
+    - Edible: Tart-crisp fruit supports fresh, pickled, and cooked uses through the warm season.
+    - Shade Provider: Open canopy casts shifting shade for understory herbs and soft-stemmed crops.
+    - Mulcher: Compound leaves drop abundantly, feeding soil fauna on the forest floor.
+    - Wildlife Attractor: Flowers and fallen fruit feed insects, birds, and other frugivores where allowed.
+    - Windbreaker: Multiple trees in a row buffer trade winds across coastal and island sites.
   companions:
-  - NEEDS_DATA
+  - Papaya — fast fruiting understorey catches light gaps without competing at ambarella root depth
+  - Banana — pseudostems recycle potassium-heavy mulch under the dripline of taller fruit trees
+  - Lemongrass — aromatic clump edge marks paths and tolerates root competition at the drip line
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Related species sensitivity — check skin contact if you react to other Anacardiaceae sap
   pests:
-  - NEEDS_DATA
+  - Caribbean Fruit Fly
+  - Oriental Fruit Fly
+  - Scale Insects
+  practitioner_notes: |-
+    Seedlings vary in fruit quality—graft known lines if you dislike fibrous lottery fruit.
+    Heavy cyclic leaf drop is feature not failure; rake less, mulch more.
+    Prune for a single leader early if you want walk-under clearance for harvest and mowing.
+    Iron chlorosis on high-pH irrigation water shows as yellow new leaves—address soil pH before spraying folklore.
+  growth_habit: Fast tropical fruit tree; pinnate leaves; green to yellow oval fruit
+  data_quality_score: 0.81
   # Image attribution: no rights reserved, uploaded by 葉子
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

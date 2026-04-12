@@ -1,28 +1,45 @@
 ---
 - common_name: Rose Myrtle
   picture: rose_myrtle.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Rhodomyrtus tomentosa
+  aka:
+  - Downy Myrtle
+  - Hill Gooseberry
+  family: Myrtaceae
+  zone: 9b-11
+  ideal_temp_min: 45
+  ideal_temp_max: 95
+  min_temp: 22
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  - Border Plant
+  description: "Rose myrtle (Rhodomyrtus tomentosa) is an evergreen shrub native to southern and eastern Asia, naturalized in parts of the humid subtropics and tropics, bearing aromatic leaves, pink-purple flowers, and dark edible berries about the size of large grapes. Plants typically reach 3–8 feet (0.9–2.4 m), forming dense mounds that tolerate pruning into hedges. Fruit flavor is sweet-tart with rose-guava perfume—valuable where myrtle rust policies still allow planting.\n\n☀️💧 Sun and Water Requirements:\nFull sun to bright partial shade; best fruiting in strong light. Rich, well-drained, slightly acidic soils mirror native sites; mulch with organic matter. Steady moisture through warm periods sizes fruit; short drought once established is tolerated but shows on leaf margins.\n\n✂️ Propagation:\nSow fresh seed; semi-hardwood cuttings root under humidity. Prune after harvest for hedge shape; open interior occasionally for airflow in rainy climates.\n\n🌾 Harvest / Best Use Timing:\nPick berries when fully dark and slightly soft; eat fresh or process into jellies and wines where tradition exists. Peak loads track warm wet seasons rather than temperate months. Net only if regulations and ethics allow—birds adore the crop."
+  purpose: |-
+    - Edible: Aromatic fruit diversifies warm-climate desserts and ferments where acidity balances sugar.
+    - Wildlife Attractor: Flowers feed bees; fruit feeds birds when sharing is intentional.
+    - Ornamental: Downy foliage and pink blooms justify shrub borders even in off-years.
+    - Border Plant: Responds to shearing for screens along paths and poultry paddocks.
   companions:
-  - NEEDS_DATA
+  - Wax Myrtle — related myrtle-family neighbor sharing pollinators at the shrub edge
+  - Beautyberry — purple fruit contrast later in the season at similar heights
+  - Lemongrass — perimeter herb marking irrigation lines with volatile oils
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Invasive or regulated in some regions—verify local laws and pathogen rules before planting
+  - Myrtle rust concerns exist in parts of the world—monitor foliage and follow extension guidance
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Shipher (士緯) Wu (吳), some rights reserved (CC BY-NC-SA)
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Aphids
+  - Spider Mites
+  practitioner_notes: |-
+    Common names smuggle this plant across borders—Rhodomyrtus tomentosa is the scientific receipt.
+    Rust policies move faster than shrubs—check county alerts before mass propagation for sale.
+    Fragrance in fruit peaks at full ripeness—early picks taste like impatience.
+    Hedge shears create dense shells—thin interiors after rainy spells to deny fungal apartments.
+  growth_habit: Evergreen aromatic shrub; pink flowers; dark edible berries; humid subtropical/tropical
+  data_quality_score: 0.76

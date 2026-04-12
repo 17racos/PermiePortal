@@ -1,28 +1,45 @@
 ---
 - common_name: Sago Palm
   picture: sago_palm.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Cycas revoluta
+  aka:
+  - King Sago
+  - Japanese Sago Palm
+  family: Cycadaceae
+  zone: 9-12
+  ideal_temp_min: 55
+  ideal_temp_max: 95
+  min_temp: 15
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ornamental
+  - Border Plant
+  - Shade Provider
+  - Wildlife Attractor
+  description: "Sago palm (Cycas revoluta) is a cycad, not a true palm, with a stout trunk or subterranean stem, stiff glossy fronds, and cones produced separately by male and female plants. It is native to southern Japan and widely planted in warm temperate to tropical landscapes for architectural foliage. Mature specimens can reach 6–10 feet (1.8–3 m) of visible trunk over decades. All parts contain toxic compounds—especially seeds—so design it as ornamental structure, not snack aisle.\n\n☀️💧 Sun and Water Requirements:\nFull sun along coasts; bright partial shade inland in hot climates prevents frond burn. Well-drained, gritty soils prevent root rot; drought-tolerant once established but looks freshest with deep occasional watering in dry seasons. Avoid chronically wet pots or heavy clay without drainage holes.\n\n✂️ Propagation:\nSow cleaned seed in warm, humid conditions—germination is slow. Remove offsets (“pups”) with sterile tools if cloning is desired. Prune only fully brown fronds; yellowing may be nutrient signal, not automatic excuse for scissors.\n\n🌾 Harvest / Best Use Timing:\nNot a food crop for casual harvest—seeds are dangerous without specialized traditional processing. Growth flushes appear in warm wet periods; expect one or two leaf crowns per year in ideal heat."
+  purpose: |-
+    - Ornamental: Sculptural fronds anchor xeric and tropical borders where palms are overused clichés.
+    - Border Plant: Low trunk forms define paths and entries without shading entire yards.
+    - Shade Provider: Juvenile rosettes cast ground-level shade for succulents and herbs.
+    - Wildlife Attractor: Cone structure engages specialist pollinators where compatible insects exist.
   companions:
-  - NEEDS_DATA
+  - Agave — sharp texture contrast in xeric beds sharing sun and drainage
+  - Lavender — drought-tolerant perimeter herb at the dripline where soil stays lean
+  - Rosemary — aromatic sun lover alongside cycads in Mediterranean-style plantings
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Toxic seeds and tissues—keep away from curious pets and unsupervised snack experiments
+  - Cold wet soil — root rot during cool rainy spells on poorly drained sites
   pests:
-  - NEEDS_DATA
-  # Image attribution: Roger Culos / Wikimedia Commons / CC BY-SA 3.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Aphids
+  - Spider Mites
+  practitioner_notes: |-
+    Cycads are older than your business plan—growth is measured in decades, not influencer weeks.
+    “Sago” starch stories belong to Metroxylon and traditional processing—not casual seed nibbling from Cycas.
+    Scale loves dusty fronds—wash and release predators before declaring oil war.
+    Pups appear at the base like awkward children—detach with care if you want clones, not injuries.
+  growth_habit: Cycad rosette or short trunk; stiff glossy fronds; warm temperate to tropical ornamental
+  data_quality_score: 0.8

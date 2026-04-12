@@ -1,28 +1,44 @@
 ---
 - common_name: Key Thatch Palm
   picture: key_thatch_palm.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Leucothrinax morrisii
+  aka:
+  - Brittle thatch palm
+  - Miami palm
+  family: Arecaceae
+  zone: 10b-12
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 30
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ornamental
+  - Wildlife Attractor
+  - Fiber
+  - Border Plant
+  description: "Key thatch palm (Leucothrinax morrisii), formerly placed in Thrinax, is a medium fan palm of coastal rock and sandy keys in subtropical islands, forming a slender trunk and green palmate leaves adapted to salt breeze. Heights often reach 15–25 feet (4.5–7.5 m). It suits coastal landscapes, parking islands, and tropical food-forest edges where drainage is sharp and frost visits are rare insults.\n\n☀️💧 Sun and Water Requirements:\nFull sun for compact habit; young plants tolerate light shade. Extremely well-drained, often calcareous soils; tolerates salt spray and short drought after establishment. Avoid chronically wet root pits inland.\n\n✂️ Propagation:\nSow fresh seed warm; germination is slow like most palms. Transplant young specimens with intact root balls. Remove only fully brown fronds—green leaves still feed the crown.\n\n🌾 Harvest / Best Use Timing:\nThatch use is specialized—avoid overharvest that stresses palms. Landscape peak is year-round structure; seasonal fruit drop may occur—site pathways outside the splat line. Inspect spear growth after cold events."
+  purpose: |-
+    - Ornamental: Clean fan crown signals coastal authenticity without coconut height requirements.
+    - Wildlife Attractor: Flowers and fruit engage localized wildlife where native ranges overlap.
+    - Fiber: Traditional thatch and crafts from selected leaves where sustainable rules exist.
+    - Border Plant: Defines edges along paths and dunes when massed with spacing forethought.
   companions:
-  - NEEDS_DATA
+  - Florida Thatch Palm — related palm architecture with overlapping coastal culture at safe spacing
+  - Coconut Palm — taller overstory for layered wind defense on exposed lots
+  - Seagrape — coastal shrub layer with complementary leaf texture near dune toes
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Hard frost — marginal outside tropical keys; protect juveniles during unusual cold
+  - Poor drainage inland — rot follows vanity plantings in clay saucers
   pests:
-  - NEEDS_DATA
-  # Image attribution: GR from Key Largo / Wikimedia Commons / Public domain
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Palmetto Weevil
+  practitioner_notes: |-
+    Taxonomy moved—tags may still say Thrinax; Latin updates faster than nursery stickers.
+    Calcareous rock is home; peat bogs are identity theft.
+    Weevil risk rises on stressed palms—fix culture before blaming beetles.
+    Salt spray is a friend; stagnant freshwater flood is not.
+  growth_habit: Medium coastal fan palm; slender trunk; salt-tolerant; tropical keys and limestone
+  data_quality_score: 0.76

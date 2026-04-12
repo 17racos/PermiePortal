@@ -1,28 +1,67 @@
 ---
 - common_name: Blue Elderberry
   picture: blue_elderberry.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Sambucus cerulea
+  aka:
+  - Blueberry Elder
+  - Mexican Elder (older literature)
+  family: Adoxaceae
+  zone: 5-10
+  ideal_temp_min: 55
+  ideal_temp_max: 80
+  min_temp: -20
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  - Erosion Control
+  - Mulcher
+  description: "Blue elderberry (Sambucus cerulea) is a rangy deciduous shrub or small
+    tree native to western North America and parts of Central America, bearing creamy
+    flower clusters and waxy blue berries beloved by birds and useful in kitchens
+    that respect cooking guidance. Plants commonly reach 10–18 feet (3–5.5 m) with
+    soft pithy stems and compound leaves; fruit ripens earlier than many woodland berries
+    in its range. It fits riparian buffers, hedgerows, and multistory edges where fast
+    biomass and wildlife food beat lawn purity.\n\n☀️💧 Sun and Water Requirements:\n
+    Full sun to partial shade; sunnier sites yield heavier fruit. Tolerates drought
+    once established but fruits better with occasional deep watering during dry spells.
+    Handles many soils if drainage is reasonable; stabilizes coarse banks when roots
+    lock into cracks.\n\n✂️ Propagation:\nHardwood cuttings in late winter root easily;
+    wild-collect only where ethical and legal. Sow stratified seed for diversity; clones
+    preserve known fruit traits. Renewal-prune old canes after fruiting cycles slow to
+    keep flowering wood young.\n\n🌾 Harvest / Best Use Timing:\nStrip blue berries
+    when waxy bloom dulls slightly and clusters release readily—cook per reliable regional
+    guidance. Flowers can be dried for teas where traditions support it. Leave a share
+    for birds that seed nearby thickets you will later claim you did not plan."
+  purpose: |-
+    - Edible: Berries process into cooked preparations where food-safety guidance is followed.
+    - Medicinal: Flowers and berries appear in western herbal traditions with appropriate training.
+    - Wildlife Attractor: Massive bird and insect traffic during bloom and fruiting peaks.
+    - Erosion Control: Fibrous roots and suckering habit armor disturbed banks and roadsides.
+    - Mulcher: Fast leaf drop feeds soil biology under informal screens.
   companions:
-  - NEEDS_DATA
+  - Serviceberry — earlier fruiting neighbor that overlaps pollinators without identical pest timing
+  - Yarrow — dry-edge forb tolerates elder roots at the thicket margin
+  - Raspberry — bramble layer uses fence lines while elder provides vertical structure
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Raw berry consumption without proper prep — same serious caution family as other elders
+  - Suckering spread — plan boundaries on small lots before the thicket votes to expand
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Matthew Zlatunich, some rights reserved (CC BY-NC), uploaded by Matthew Zlatunich
+  - Aphids
+  - Japanese Beetles
+  - Powdery Mildew
+  practitioner_notes: |-
+    Waxy bloom on berries is normal—do not polish it off like supermarket grapes.
+    Pithy stems mean hollow canes; prune out broken stubs that invite borers and rot drama.
+    Western populations vary—local ecotypes handle your rainfall better than mail-order romance.
+    Elder fires back with fast regrowth—respect the shrub’s pace when opening the canopy.
+  growth_habit: Deciduous rangy shrub; creamy flowers; powder-blue berries in clusters
+  data_quality_score: 0.83
+  # Image attribution: (c) Wendy Feltham, some rights reserved (CC BY-NC), uploaded by Wendy Feltham
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,28 +1,44 @@
 ---
 - common_name: Downy Myrtle
   picture: downy_myrtle.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Rhodomyrtus tomentosa
+  aka:
+  - Rose myrtle
+  - Hill gooseberry
+  family: Myrtaceae
+  zone: 9-13
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 25
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  - Border Plant
+  description: "Downy myrtle (Rhodomyrtus tomentosa) is an evergreen myrtle-family shrub of Asian and Pacific island forests, bearing opposite aromatic leaves softly hairy beneath and pink flowers followed by dark purple berries. Plants commonly reach 3–7 feet (1–2 m) in cultivation, sometimes taller without pruning. It is grown for ornamental fruit displays, hedges, and edible berries where the species is culturally established and legally permitted.\n\n☀️💧 Sun and Water Requirements:\nFull sun to bright part shade; dense shade reduces flowering and fruit. Prefers well-drained, humus-rich soils with steady moisture in the warm season and less in cool periods. Salt tolerance is moderate compared with true coastal mangrove specialists—do not confuse resilience with invulnerability.\n\n✂️ Propagation:\nSow cleaned seed warm after removing pulp; germination improves with freshness. Semi-hardwood cuttings root under humidity in warm weather for known fruiting clones. Tip-prune young plants to encourage branching before they stretch into lanky adolescence.\n\n🌾 Harvest / Best Use Timing:\nPick berries fully colored and soft for fresh eating or processing where local tradition supports safe use. Flowers attract pollinators—avoid blanket insecticides during bloom if fruit is the goal. Remove suckers at invasion-prone sites to limit spread into adjacent natural areas."
+  purpose: |-
+    - Edible: Ripe berries are eaten fresh or preserved in cuisines where the fruit is traditional.
+    - Ornamental: Pink blooms and dark fruit give long-season interest in humid subtropical and tropical gardens.
+    - Wildlife Attractor: Fruits feed birds; confirm this is desirable in your biome before planting.
+    - Border Plant: Resprouting habit can form dense screens where regulations allow.
   companions:
-  - NEEDS_DATA
+  - Wax Apple — overlapping Myrtaceae culture in humid food forests with staggered fruiting
+  - Java Apple — similar moisture needs and complementary canopy height in mixed shrub rows
+  - Lemongrass — front-edge herb with distinct harvest that avoids root competition at the crown
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Invasive or regulated in some regions — check local lists before planting near natural areas
+  - Fire-adapted resprouting — can dominate disturbed sites where prescribed fire or clearing repeats
   pests:
-  - NEEDS_DATA
-  # Image attribution: No image found
-  # Image source: none
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Mealybugs
+  practitioner_notes: |-
+    One species, many common names—arguments at the plant sale are optional.
+    Berries stain concrete and curiosity—harvest before barefoot season if you care.
+    Thrips love plush new growth; blast with water before you declare chemical war.
+    If your locality says do not plant, the ecology department is not negotiating.
+  growth_habit: Evergreen aromatic shrub; opposite leaves; pink flowers; purple berries; resprouts after disturbance
+  data_quality_score: 0.79

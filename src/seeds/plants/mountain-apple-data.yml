@@ -1,28 +1,46 @@
 ---
 - common_name: Mountain Apple
   picture: mountain_apple.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Syzygium malaccense
+  aka:
+  - Malay Apple
+  - Otaheite Apple
+  - Rose Apple
+  family: Myrtaceae
+  zone: 10b-12
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 30
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Shade Provider
+  - Wildlife Attractor
+  - Ornamental
+  description: "Mountain apple (Syzygium malaccense) is a tropical tree from Southeast Asia and Melanesia, widely planted in humid lowlands and island food forests for crimson new growth, fluffy flowers, and large bell-shaped fruit with crisp, mildly sweet white flesh. Trees often reach 40–60 feet (12–18 m) in protected sites, forming a rounded crown that shades understory crops. It is a classic backyard fruit along equatorial coasts and a reliable heat-lover that sulks when nights dip near freezing.\n\n☀️💧 Sun and Water Requirements:\nFull sun for dense flowering and fruiting; young trees accept light shade during establishment. Rich, well-drained soils with steady moisture through the warm wet season and irrigation in pronounced dry spells prevent fruit abortion. Wind-sheltered sites protect large leaves from tattering; salt spray is not its favorite neighbor.\n\n✂️ Propagation:\nAir-layer or graft selected cultivars; seeds yield variable fruit quality but are fine for rootstocks and experiments. Prune to a single leader initially, then open the crown for light on fruiting wood. Remove water sprouts after heavy rains to keep structure legible.\n\n🌾 Harvest / Best Use Timing:\nPick when color deepens and fruit yields slightly to gentle pressure—lines vary from white to deep red skins. Eat fresh quickly; thin skin bruises if handled like baseballs. Expect peak loads synchronized with local wet-season warmth rather than calendar holidays."
+  purpose: |-
+    - Edible: Fruit is eaten out of hand or sliced into salads where mild crunch is prized over intense sugar.
+    - Shade Provider: Broad crown shelters cacao, vanilla, or nursery tables during peak tropical insolation.
+    - Wildlife Attractor: Masses of stamens feed bees and flies; fruit feeds birds where sharing is acceptable.
+    - Ornamental: Flushes of red new leaves justify placement near sight lines even before fruit appears.
   companions:
-  - NEEDS_DATA
+  - Carambola Tree — overlapping tropical canopy guild with contrasting fruit shape and harvest timing
+  - Lemongrass — volatile perimeter planting marking irrigation emitters along the dripline
+  - Turmeric — rhizome understory on the shaded side where soil stays moist and weed pressure is mulched down
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Same species appears under multiple common names in trade—verify scion labels against this scientific ID
+  - Frost near 30°F (-1°C) scars young leaves—protect saplings on marginal subtropical sites
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Felix, some rights reserved (CC BY-NC), uploaded by Felix
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Caribbean Fruit Fly
+  - Scale Insects
+  - Aphids
+  practitioner_notes: |-
+    Syzygium malaccense is the same taxon many catalogs call Malay or Otaheite apple—market names multiply faster than graft tags.
+    Fruit flies RSVP to ground drops—sanitize fallen fruit or accept larval souvenirs.
+    Red leaf flushes are your billboard—if growth stalls, look at drainage before buying more fertilizer.
+    Heavy rain + tight mulch on the trunk invites collar drama—keep mulch doughnut, not volcano.
+  growth_habit: Large tropical myrtle tree; crimson flushes; bell-shaped fruit; humid lowland adapted
+  data_quality_score: 0.8

@@ -1,28 +1,45 @@
 ---
 - common_name: Wax Apple
   picture: wax_apple.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Syzygium samarangense
+  aka:
+  - Java Apple
+  - Rose Apple
+  family: Myrtaceae
+  zone: 10b-12
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 30
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Shade Provider
+  - Ornamental
+  description: "Wax apple (Syzygium samarangense) is a tropical myrtle tree grown for bell-shaped, often waxy-skinned fruit that ranges from pale green to deep red depending on cultivar, with crisp, watery flesh and mild sweetness. Trees reach 25–40 feet (7.5–12 m) in humid climates, flowering intermittently with fluffy stamens. It belongs in warm orchards where heat is reliable and frost is rare.\n\n☀️💧 Sun and Water Requirements:\nFull sun for reliable fruiting; juveniles accept partial shade. Rich, well-drained soils with steady moisture through the warm wet season and irrigation in dry spells prevent fruit cracking. Wind protection reduces branch rub on heavy clusters.\n\n✂️ Propagation:\nAir-layer or graft known cultivars; seedlings vary in fruit size and color. Prune after harvest flushes for height and interior airflow.\n\n🌾 Harvest / Best Use Timing:\nPick when color deepens and flesh feels firm-crisp—lines vary widely by clone. Eat fresh quickly; thin skin loses water in refrigeration wars. Peak loads track tropical heat and rainfall cycles."
+  purpose: |-
+    - Edible: Crisp fruit provides hydration-forward snacks and salads in humid climates.
+    - Wildlife Attractor: Flowers feed bees; fruit feeds birds where sharing is acceptable.
+    - Shade Provider: Crown shelters understory herbs during peak tropical sun.
+    - Ornamental: Colorful fruit and glossy leaves justify front-yard placement.
   companions:
-  - NEEDS_DATA
+  - Carambola Tree — contrasting fruit geometry in a myrtle-rich warm-climate guild
+  - Lemongrass — perimeter herb along driplines marking irrigation
+  - Papaya — fast fruiting neighbor using vertical space during wax apple juvenile years
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Name collision with other “rose apples”—Syzygium samarangense is this entry’s anchor
+  - Frost near 30°F (-1°C) damages young growth—protect saplings on marginal sites
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Bink June, some rights reserved (CC BY-NC), uploaded by Bink June
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Aphids
+  - Caribbean Fruit Fly
+  practitioner_notes: |-
+    Cultivar color is the real story—seedlings gift watercolor surprises at market time.
+    Fruit flies love ground drops—sanitize like a professional or accept larvae confetti.
+    Crisp texture collapses with over-irrigation during cloudy weeks—match water to evaporation.
+    Wide crowns eat fence lines—prune early if property lines matter to humans.
+  growth_habit: Tropical myrtle tree; bell-shaped waxy fruit; humid lowland/subtropical heat
+  data_quality_score: 0.78

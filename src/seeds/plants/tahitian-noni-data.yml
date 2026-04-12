@@ -1,28 +1,46 @@
 ---
 - common_name: Tahitian Noni
   picture: tahitian_noni.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Morinda citrifolia
+  aka:
+  - Morinda
+  - Indian Mulberry
+  family: Rubiaceae
+  zone: 10-12
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 32
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  - Mulcher
+  description: "Tahitian noni is a market name for selected Morinda citrifolia lines associated with Pacific cultivation and export juice chains, sharing the species’ evergreen habit, large leaves, and pungent soft fruit. Plants reach 10–20 feet (3–6 m) in cultivation, fruiting repeatedly in humid tropical climates. This entry duplicates taxonomy with other noni records—use practitioner notes to track cultivar claims versus seedling lottery.\n\n☀️💧 Sun and Water Requirements:\nFull sun for heaviest fruit set; partial shade for juvenile establishment. Well-drained, moderately fertile soils with deep watering through dry seasons prevent fruit drop. Mulch to buffer surface roots from heat.\n\n✂️ Propagation:\nClone known lines by rooted cuttings or air-layering; seedlings vary in fruit chemistry. Prune for clearance under fruiting wood.\n\n🌾 Harvest / Best Use Timing:\nHarvest soft fruit as it ripens—process quickly for juice or ferments per vetted methods. Peak production tracks heat and rainfall cycles."
+  purpose: |-
+    - Edible: Fruit enters ferments and juices where traditional processing is respected.
+    - Medicinal: Regional herbal uses exist—verify safety and legal claims before marketing.
+    - Wildlife Attractor: Flowers and fruit engage bats and birds in forest-garden contexts.
+    - Mulcher: Evergreen leaf drop feeds soil fungi along the drip line.
   companions:
-  - NEEDS_DATA
+  - Noni Fruit — duplicate species record under English common name; same taxon, different slug
+  - Papaya — fast vertical fruiting partner during noni establishment
+  - Turmeric — shade-tolerant rhizome along the outer dripline
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Duplicate Morinda citrifolia entries in this database—“Tahitian” is marketing, not a second species
+  - Strong aroma and potassium considerations for sensitive individuals—research before therapeutic cosplay
   pests:
-  - NEEDS_DATA
-  # Image attribution: Wilfredor / Wikimedia Commons / CC0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Aphids
+  - Whiteflies
+  practitioner_notes: |-
+    “Tahitian” on a label is a story—genetics still need proving; DNA beats postcard geography.
+    If you already grow “Noni Fruit,” you likely cloned the same species twice—billing clarity matters.
+    Whiteflies love soft new growth—blast dust and recruit predators before declaring chemical war.
+    Over-irrigation in cool cloudy weeks invites root complaints—match water to evaporation.
+  growth_habit: Evergreen fruiting shrub-tree; large leaves; soft aromatic fruit; humid tropics
+  data_quality_score: 0.74

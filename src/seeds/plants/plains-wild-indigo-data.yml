@@ -1,28 +1,45 @@
 ---
 - common_name: Plains Wild Indigo
   picture: plains_wild_indigo.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Baptisia bracteata
+  aka:
+  - Longbract Wild Indigo
+  - Cream Wild Indigo
+  family: Fabaceae
+  zone: 3-9
+  ideal_temp_min: 40
+  ideal_temp_max: 90
+  min_temp: -35
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Nitrogen Fixer
+  - Pollinator
+  - Erosion Control
+  - Ornamental
+  description: "Plains wild indigo (Baptisia bracteata) is a mounding legume perennial of central North American prairies and open woods, bearing cream to pale yellow pea flowers in late spring and blue-green trifoliate leaves on bushy plants about 1–2 feet (30–60 cm) tall, often wider than high. Deep taproots and rhizobia partnerships build soil under sunny borders without demanding irrigation. It suits meadow strips, gravel gardens, and any design tired of thirsty foundation shrubs.\n\n☀️💧 Sun and Water Requirements:\nFull sun for strongest bloom and nitrogen fixation; plants lean and flop in shade. Well-drained, average to lean soils mimic prairie truth; wet clay rots crowns. Drought-tolerant once established; water deeply only during prolonged dry heat in the first year.\n\n✂️ Propagation:\nSow scarified seed after cold-moist stratification for uniform germination. Divide carefully in early spring—large roots resent casual shovel violence. Avoid moving mature plants unless necessary; first-year sulking is normal.\n\n🌾 Harvest / Best Use Timing:\nLeave seed pods for ornamental rattles and bird interest, or collect ripe seed for restoration mixes. Cut back dead stems in late winter if tidy gardens matter; otherwise leave for insect nesting. Bloom peaks track local late-spring warmth, often after last frosts near 28°F (-2°C)."
+  purpose: |-
+    - Nitrogen Fixer: Rhizobia in root nodules feed the soil food web when plants are cut and dropped or decompose in place.
+    - Pollinator: Pea flowers supply nectar and pollen to native bees during a focused spring window.
+    - Erosion Control: Deep roots stabilize sloped meadow plantings and terrace toes.
+    - Ornamental: Mounding blue-green foliage reads as shrublets before flowers arrive.
   companions:
-  - NEEDS_DATA
+  - Little Bluestem — warm-season grass matrix sharing sun and drainage with complementary texture
+  - Prairie Coneflower — later-season forb neighbor extending color after indigo bloom fades
+  - Milkweed — complementary pollinator plant with different bloom time in the same strip
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Transplant shock — large taproots sulk; direct-seed or move young plants only
+  - Overwatering + heavy soil — crown rot invites replacement shopping
   pests:
-  - NEEDS_DATA
-  # Image attribution: Frank Mayfield / Wikimedia Commons / CC BY-SA 2.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Japanese Beetles
+  - Spider Mites
+  practitioner_notes: |-
+    Baptisia species hybridize where ranges overlap—source local ecotype seed if genetics matter to your restoration ethic.
+    First-year sleep, second-year creep—patience beats fertilizer panic with taprooted legumes.
+    Seed pods rattle like tiny percussion—leave some for kids, birds, and winter interest.
+    Weevils sometimes drill seeds—float-test or screen if you need high germination rates.
+  growth_habit: Low mounding legume perennial; cream pea flowers; deep-rooted prairie species
+  data_quality_score: 0.81

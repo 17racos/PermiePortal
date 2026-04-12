@@ -1,28 +1,45 @@
 ---
 - common_name: Southern Crabapple
   picture: southern_crabapple.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Malus angustifolia
+  aka:
+  - Narrowleaf Crabapple
+  family: Rosaceae
+  zone: 6-9
+  ideal_temp_min: 40
+  ideal_temp_max: 100
+  min_temp: -10
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Pollinator
+  - Border Plant
+  description: "Southern crabapple (Malus angustifolia) is a native thorny shrub to small tree of southeastern North American wood margins, bearing fragrant pink-white spring flowers and small yellow-green crabapples that hang into winter for wildlife. Heights of 10–25 feet (3–7.5 m) occur, often multi-stemmed with suckers. Fruit is tart for human preserves; birds treat it as winter currency.\n\n☀️💧 Sun and Water Requirements:\nFull sun to partial shade; best flowering with morning sun. Moist, well-drained soils suit it; tolerates periodic dry spells once established with mulch. Avoid waterlogging on heavy clay without grade work.\n\n✂️ Propagation:\nSow stratified seed; graft selections for landscape consistency. Prune for open centers to reduce scab and fire blight pressure.\n\n🌾 Harvest / Best Use Timing:\nPick crabapples when fully colored for jelly; leave some for birds. Bloom follows local spring warmth after frost risk near 28°F (-2°C) declines."
+  purpose: |-
+    - Edible: Tart fruit supports jellies and pectin sources where sugar balances acid.
+    - Wildlife Attractor: Flowers feed pollinators; fruit feeds birds through lean seasons.
+    - Pollinator: Spring bloom fills an early nectar window at forest edges.
+    - Border Plant: Thorns and suckers define hedgerows when managed.
   companions:
-  - NEEDS_DATA
+  - Wild Plum — thicket neighbor extending fruit succession
+  - Serviceberry — earlier soft fruit in the same guild
+  - Beautyberry — late color at the shrub layer below crabapple canopy
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Fire Blight — prune strikes in dry weather; sanitize tools
+  - Thorns — plan paths before planting lottery seedlings
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Richard Candler, some rights reserved (CC BY-NC), uploaded by Richard Candler
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Fire Blight
+  - Apple Maggot
+  - Japanese Beetles
+  practitioner_notes: |-
+    Narrow leaves are a field cue—if leaves look orchard-wide, verify species before tattooing labels.
+    Wildlife owns most fruit—human jelly batches should scale to realistic harvests.
+    Cedar-apple rust theater needs two hosts—design juniper distance intentionally.
+    Suckers expand—mow buffers or accept thicket diplomacy.
+  growth_habit: Thorny native crabapple; fragrant spring bloom; small persistent fruit
+  data_quality_score: 0.79

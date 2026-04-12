@@ -1,28 +1,45 @@
 ---
 - common_name: Prairie Blazingstar
   picture: prairie_blazingstar.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Liatris pycnostachya
+  aka:
+  - Prairie Gayfeather
+  - Dense Blazing Star
+  family: Asteraceae
+  zone: 3-9
+  ideal_temp_min: 45
+  ideal_temp_max: 90
+  min_temp: -35
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Wildlife Attractor
+  - Ornamental
+  - Erosion Control
+  description: "Prairie blazingstar (Liatris pycnostachya) is a tall meadow perennial of central North American prairies and moist low ground, carrying dense spikes of purple florets that open top-down along stems reaching 3–5 feet (0.9–1.5 m). Narrow leaves line the stalks, and fibrous roots anchor plants in loamy soils that swing between moist spring and summer dry downs. It is a staple in pollinator mixes, rain-garden backs, and any sunny border that wants vertical color without shrub bulk.\n\n☀️💧 Sun and Water Requirements:\nFull sun for stiff stems and dense flower spikes; shade causes leaning apologies. Moist, well-drained soils suit it best; tolerates average garden beds if watered during drought. Mulch to keep roots cool; avoid stagnant water over crowns in humid heat.\n\n✂️ Propagation:\nSow seed with cold-moist stratification or direct-sow in fall. Divide clumps in early spring before growth surges. Cut old stems in late winter if tidy gardens matter; otherwise leave for insect nesting.\n\n🌾 Harvest / Best Use Timing:\nCut flowering stems for dried arrangements when color holds along most of the spike. Leave some heads for goldfinches and structural winter interest. Bloom peaks track mid-to-late warm season heat and daylength, not a single holiday."
+  purpose: |-
+    - Pollinator: Dense floral tubes offer nectar to bees and butterflies during a focused late-season pulse.
+    - Wildlife Attractor: Seed heads feed finches; standing stems shelter beneficial insects if not mowed flat.
+    - Ornamental: Vertical purple wands add rhythm between grasses and shorter forbs.
+    - Erosion Control: Fibrous roots stabilize moist meadow soils on gentle slopes.
   companions:
-  - NEEDS_DATA
+  - Switchgrass — tall warm-season matrix grass contrasting texture and sharing sun
+  - Marsh Blazingstar — related Liatris with overlapping ecology for extended color blocks
+  - Wild Bergamot — aromatic forb neighbor with complementary flower shape for pollinators
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Wet clay without percolation — crown rot during warm humid spells
+  - Dry shade — thin spikes and existential flopping
   pests:
-  - NEEDS_DATA
-  # Image attribution: U.S. Fish and Wildlife Service - Midwest Region / Wikimedia Commons / Public domain
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Japanese Beetles
+  - Powdery Mildew
+  practitioner_notes: |-
+    Liatris species rhyme in catalogs—this entry is Liatris pycnostachya, the tall prairie form; compare spike density before buying mystery bags.
+    Goldfinches shred seed heads—decide between bouquets and bird buffets per row.
+    Japanese beetles lace leaves—hand-pick at dusk or deploy traps without luring the whole neighborhood.
+    Moisture-loving does not mean swamp—air must still move at the crown after summer storms.
+  growth_habit: Tall clumping perennial; dense purple spikes; moist prairie and meadow margins
+  data_quality_score: 0.81

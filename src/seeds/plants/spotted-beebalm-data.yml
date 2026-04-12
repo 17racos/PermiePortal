@@ -1,28 +1,45 @@
 ---
 - common_name: Spotted Beebalm
   picture: spotted_beebalm.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Monarda punctata
+  aka:
+  - Dotted Horsemint
+  - Spotted Horsemint
+  family: Lamiaceae
+  zone: 3-9
+  ideal_temp_min: 40
+  ideal_temp_max: 95
+  min_temp: -20
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Medicinal
+  - Wildlife Attractor
+  - Ornamental
+  description: "Spotted beebalm (Monarda punctata) is an aromatic perennial of eastern North American dry prairies, sandhills, and roadsides, bearing tiered whorls of creamy flowers speckled with purple spots and bracts that read like tiny pagodas. Plants reach 1–3 feet (30–90 cm), thriving in sun and lean soils where beebalm mildew would otherwise monologue. It is a powerhouse for native bees and wasps when mass-planted in restoration strips.\n\n☀️💧 Sun and Water Requirements:\nFull sun for densest flowering and strongest fragrance. Well-drained, sandy to gravelly soils are ideal; tolerates drought once established. Avoid heavy wet clay; mulch lightly without burying crowns.\n\n✂️ Propagation:\nSow seed outdoors in fall or cold-stratify 60 days. Divide clumps in spring. Cut back after seed set if spread is too chatty near paths.\n\n🌾 Harvest / Best Use Timing:\nHarvest aerial parts for teas and experiments when flowers are active—follow vetted guidance. Peak bloom tracks mid-to-late warm season heat."
+  purpose: |-
+    - Pollinator: Spotted flowers and oils attract specialist bees and wasps during mid-summer.
+    - Medicinal: Traditional uses exist for aromatic oils—verify safety before internal use.
+    - Wildlife Attractor: Dense flower tiers support diverse insects in lean-soil meadows.
+    - Ornamental: Architectural whorls add vertical rhythm to dry garden designs.
   companions:
-  - NEEDS_DATA
+  - Little Bluestem — warm-season grass matrix sharing sun and drainage
+  - Milkweed — forb neighbor for pollinator synergy without identical bloom shape
+  - Wild Bergamot — related Monarda neighbor with different flower architecture in the same bed
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Rich irrigation and tight spacing — mildew still possible despite drought heritage
+  - Strong aroma divides humans—site seating upwind or downwind deliberately
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Mark Kluge, some rights reserved (CC BY-NC), uploaded by Mark Kluge
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Spider Mites
+  - Japanese Beetles
+  practitioner_notes: |-
+    Dotted horsemint is the same species—common names multiply faster than pollinator counts.
+    Wasps are feature employees here—panic spraying deletes your workforce.
+    Lean soil is the contract—compost dumps invite lush leaves and fewer towers.
+    Photograph at side light—overhead noon erases the spots that make the plant famous.
+  growth_habit: Aromatic perennial; tiered spotted flower whorls; dry sandy prairies
+  data_quality_score: 0.81

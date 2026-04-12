@@ -1,28 +1,46 @@
 ---
 - common_name: Mexican Elderberry
   picture: mexican_elderberry.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Sambucus mexicana
+  aka:
+  - Mexican Elder
+  - Tapiro
+  family: Adoxaceae
+  zone: 6-10
+  ideal_temp_min: 45
+  ideal_temp_max: 90
+  min_temp: -5
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Mulcher
+  - Border Plant
+  description: "Mexican elderberry (Sambucus mexicana) is a fast-growing, often multi-stemmed large shrub to small tree native to Mexico and the southwestern United States, where it lines washes and terrace edges with pinnate leaves and flat white flower clusters followed by small dark berries. Heights of 10–20 feet (3–6 m) are common with moderate water and sun; plants spread by suckers where soil stays workable. In food systems it mirrors other elders—flowers and ripe berries have long kitchen histories where processing traditions are respected—while providing early-season insect resources and late bird food.\n\n☀️💧 Sun and Water Requirements:\nFull sun to bright partial shade; more sun tightens growth and improves flowering. Deep, fertile, well-drained soils are ideal; tolerates alkaline pockets and seasonal dryness once roots dive, but appreciates irrigation during prolonged drought in hot climates. Mulch to reduce evaporative stress; avoid chronic waterlogging that weakens roots.\n\n✂️ Propagation:\nHardwood cuttings taken in dormant season root under mist or humid cold frames. Sow cleaned seed after cold-moist stratification to improve uniformity. Remove excess suckers if you want a tree form; leave some if a wildlife thicket is the goal.\n\n🌾 Harvest / Best Use Timing:\nPick flower umbels when most buds have opened and fragrance peaks—dry or process the same day when possible. Berries are handled only when fully ripe and processed per trusted recipes; raw green berries and other green tissues are not snack food. Prune out old, weak canes after fruiting cycles to renew vigor."
+  purpose: |-
+    - Edible: Flowers and fully ripe berries enter syrups, ferments, and preserves where traditional preparation is followed—this is not improvised nibbling.
+    - Wildlife Attractor: Inflorescences feed diverse pollinators; fruit feeds birds that help disperse seed beyond fence lines.
+    - Mulcher: Leaf drop and fine twig litter build fungal soil food webs along hedgerows and terrace backs.
+    - Border Plant: Suckering habit can define edges, screens, and poultry paddock boundaries where containment is planned.
   companions:
-  - NEEDS_DATA
+  - Black Elderberry — overlapping elder ecology with staggered bloom if both are allowed in the same climate band
+  - Pomegranate Tree — understory-friendly in hot dry microclimates where elder gets afternoon shade relief
+  - Sunflower — fast seasonal color and insect traffic at the shrub edge without deep root competition
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Cyanogenic and irritant tissues in unripe fruit and bark—research processing before marketing to humans or livestock
+  - Suckering — spreads into paths if irrigation is generous and edging is lazy
   pests:
-  - NEEDS_DATA
-  # Image attribution: No image found
-  # Image source: none
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Spider Mites
+  - Powdery Mildew
+  practitioner_notes: |-
+    Elder taxonomy shifts in references—this entry uses Sambucus mexicana for the southwestern/Mexican complex; verify stock with your supplier’s label.
+    If aphids throw honeydew parties, look up for ants and down for sooty mold—water blast buys time while predators arrive.
+    Heavy nitrogen pushes lush leaves and fewer flowers—leaner fertility often smells sweeter to pollinators.
+    Fruit chemistry is not a dare—cook, ferment, or dehydrate through vetted recipes, not curiosity clicks.
+  growth_habit: Fast multi-stem shrub to small tree; compound leaves; white umbels; dark berries when ripe; suckering
+  data_quality_score: 0.8

@@ -1,28 +1,44 @@
 ---
 - common_name: Sand Cordgrass
   picture: sand_cordgrass.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Spartina bakeri
+  aka:
+  - Sand Cord Grass
+  family: Poaceae
+  zone: 7-11
+  ideal_temp_min: 45
+  ideal_temp_max: 95
+  min_temp: 10
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Erosion Control
+  - Wildlife Attractor
+  - Water Retention
+  - Biomass
+  description: "Sand cordgrass (Spartina bakeri) is a clumping perennial grass of freshwater and brackish wetlands in the southeastern United States, forming dense tussocks with narrow leaves and airy flowering panicles on stems often 3–5 feet (0.9–1.5 m). It roots in sandy, saturated soils along pond margins and swales, stabilizing banks where coarse texture meets seasonal water. Use it in constructed wetlands and shoreline buffers where local regulations approve the species.\n\n☀️💧 Sun and Water Requirements:\nFull sun for strongest growth; shade reduces tiller density. Moist to wet soils with sand or sandy peat match native sites; tolerates short dry downs between rains once established but not xeric berms. Avoid planting where Spartina species are restricted—verify coastal and wetland rules.\n\n✂️ Propagation:\nDivide large clumps during cool, moist weather; keep roots wet until replanted. Sow seed following wetland nursery protocols. Cut back dead material in late winter to renew appearance.\n\n🌾 Harvest / Best Use Timing:\nPrimarily functional—cut stems sparingly for mulch if permits and ecology allow. Leave standing growth for wildlife cover through winter. Peak biomass tracks warm wet months."
+  purpose: |-
+    - Erosion Control: Clumping roots stabilize sandy pond banks and biofilter berms.
+    - Wildlife Attractor: Cover for amphibians, wading birds, and insects along shallow water edges.
+    - Water Retention: Slows runoff and traps sediment in swales receiving stormwater.
+    - Biomass: Contributes organic matter to wetland accretion when managed sustainably.
   companions:
-  - NEEDS_DATA
+  - Pickerelweed — emergent forb neighbor at the water interface sharing sun
+  - Wax Myrtle — shrub at slightly drier elevations above cordgrass tussocks
+  - Cattail — robust emergent in deeper water zones beyond the sand cordgrass fringe
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Regulatory lists for Spartina vary—permits beat optimism in coastal plantings
+  - Dry upland beds — chlorosis and decline without honest moisture
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) David McCorquodale, some rights reserved (CC BY-NC), uploaded by David McCorquodale
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Spider Mites
+  - Japanese Beetles
+  practitioner_notes: |-
+    Clumping habit differs from rhizomatous cordgrasses—if it marches across the pond, you misidentified the clone.
+    Sand substrate plus moisture is the love language—clay bathtubs rot roots while you blame “bad luck.”
+    Wildlife uses tussock shadows—mowing like a lawn deletes amphibian real estate.
+    Check local native-plant sales—ecotype matters more than generic “wet grass” bags.
+  growth_habit: Clumping wetland grass; sandy saturated soils; panicles; pond and swale margins
+  data_quality_score: 0.77

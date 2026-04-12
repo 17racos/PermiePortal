@@ -1,28 +1,46 @@
 ---
 - common_name: Virginia Stonecrop
   picture: virginia_stonecrop.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Sedum ternatum
+  aka:
+  - Wild Stonecrop
+  - Woodland Stonecrop
+  family: Crassulaceae
+  zone: 3-9
+  ideal_temp_min: 35
+  ideal_temp_max: 85
+  min_temp: -30
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Ground Cover
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ground Cover
+  - Ornamental
+  - Erosion Control
+  - Pollinator
+  description: "Virginia stonecrop (Sedum ternatum) is a native eastern North American succulent groundcover for shade and partial sun, with whorled leaves and white starry flowers in late spring. It spreads by shallow rhizomes into mats along rocks, logs, and woodland edges without becoming a lawn. It tolerates dry shade better than many forbs once established.\n\n☀️💧 Sun and Water Requirements:\nPartial shade to light sun; afternoon sun in hot climates can scald leaves. Well-drained, humus-rich soils suit it; tolerates short drought once rooted. Avoid wet clay stagnation.\n\n✂️ Propagation:\nDivide mats in spring; take soft cuttings in early summer. Keep moist until rooted.\n\n🌾 Harvest / Best Use Timing:\nPrimarily ornamental—leave flowers for small pollinators. Peak bloom follows local late-spring warmth after frost risk near 32°F (0°C) declines."
+  purpose: |-
+    - Ground Cover: Mats fill shady gaps where turf refuses honest work.
+    - Ornamental: White flowers and succulent leaves soften rock gardens and log edges.
+    - Erosion Control: Shallow roots stabilize loose soil on shaded slopes.
+    - Pollinator: Small flowers feed native bees during a brief spring window.
   companions:
-  - NEEDS_DATA
+  - Wild Columbine — spring forb neighbor above low stonecrop mats
+  - Wild Ginger — shade groundcover pairing with different leaf texture
+  - Serviceberry — small tree dappling light over stonecrop colonies
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Hot baking sun — leaf scorch on exposed south slopes in warm climates
+  - Name overlap with “Wild Stonecrop” entry—Sedum ternatum is the taxon; verify duplicates
   pests:
-  - NEEDS_DATA
-  # Image attribution: Fritzflohrreynolds / Wikimedia Commons / CC BY-SA 3.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Spider Mites
+  - Slugs
+  practitioner_notes: |-
+    Sedum ternatum is the woodland stonecrop—do not confuse with sun-baked sedums from the impulse rack.
+    Dry shade tolerance emerges after establishment—babies still want moisture honesty.
+    Star flowers are modest—if you need billboard blooms, buy something loud on purpose.
+    Slugs love tender new growth—iron phosphate beats despair spirals in wet springs.
+  growth_habit: Rhizomatous succulent groundcover; white spring flowers; woodland shade
+  data_quality_score: 0.81

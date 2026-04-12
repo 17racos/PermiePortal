@@ -1,28 +1,46 @@
 ---
 - common_name: Prairie Wild Petunia
   picture: prairie_wild_petunia.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Ruellia humilis
+  aka:
+  - Wild Petunia
+  - Hairy Ruellia
+  family: Acanthaceae
+  zone: 4-9
+  ideal_temp_min: 40
+  ideal_temp_max: 95
+  min_temp: -25
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Ground Cover
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Ground Cover
+  - Ornamental
+  - Wildlife Attractor
+  description: "Prairie wild petunia (Ruellia humilis) is a low, spreading perennial of central North American dry prairies and glades, with lavender funnel flowers that last a day but repeat through warm months and hairy leaves that shrug at drought. Plants typically reach 6–18 inches (15–45 cm), rooting at nodes where stems touch soil. It is a quiet workhorse for dry rain-garden berms, rock gardens, and path edges that bake in summer.\n\n☀️💧 Sun and Water Requirements:\nFull sun for densest bloom; light shade acceptable in hot climates. Well-drained, lean to average soils mimic glade truth; wet clay rots crowns. Drought-tolerant once established; water deeply only during prolonged dry spells in the first year.\n\n✂️ Propagation:\nDivide clumps in spring; rooted layers transplant easily. Sow seed after last hard frost with surface press—germination warms with soil temperature above roughly 60°F (16°C). Cut back ragged stems after heavy bloom flushes to refresh foliage.\n\n🌾 Harvest / Best Use Timing:\nPrimarily ornamental—flowers are short-lived but produced in succession. Collect seed when capsules dry if expanding restoration patches. Peak bloom tracks heat waves through warm months, not imported holiday calendars."
+  purpose: |-
+    - Pollinator: Funnel flowers feed bees and occasional hummingbirds where tubular nectar is available.
+    - Ground Cover: Low mats fill sunny gaps without demanding irrigation entitlement.
+    - Ornamental: Lavender blooms contrast with grasses and silver forbs in dry designs.
+    - Wildlife Attractor: Succession blooming supports insects during mid-summer nectar gaps.
   companions:
-  - NEEDS_DATA
+  - Little Bluestem — drought-class grass matrix with contrasting vertical texture
+  - Prairie Coneflower — taller yellow neighbor without shading the low ruellia layer
+  - Milkweed — taller forb neighbor for pollinator strips without shading the low ruellia layer
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Overwatering and rich soil — sprawly growth with fewer flowers
+  - Confusion with cultivated petunias—verify hairy leaves and capsule shape before wild-food experiments
   pests:
-  - NEEDS_DATA
-  # Image attribution: No image found
-  # Image source: none
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Spider Mites
+  - Whiteflies
+  practitioner_notes: |-
+    Each flower lasts a day—plan for waves, not single-week fireworks.
+    Dry sites make better citizens than irrigated borders—respect the glade ancestry.
+    Self-seeds politely in gravel—embrace volunteers or deadhead before capsules pop.
+    Frost blackens tops—cut back after hard kills to tidy without harming crowns.
+  growth_habit: Low spreading perennial; lavender funnels; dry prairie and glade adapted
+  data_quality_score: 0.79

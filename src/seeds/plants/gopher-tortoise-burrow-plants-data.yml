@@ -1,28 +1,45 @@
 ---
 - common_name: Gopher Tortoise Burrow Plants
   picture: gopher_tortoise_burrow_plants.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Licania michauxii
+  aka:
+  - Gopher apple
+  - Gopher fruit
+  family: Chrysobalanaceae
+  zone: 8-10
+  ideal_temp_min: 60
+  ideal_temp_max: 92
+  min_temp: 10
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Ground Cover
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Wildlife Attractor
+  - Erosion Control
+  - Ground Cover
+  - Edible
+  description: "This entry uses gopher apple (Licania michauxii) as a flagship species for sandy scrub and longleaf pine ecosystems where gopher tortoises dig extensive burrows; the apron and mound host a community of grasses, legumes, and forbs that together form forage and structure for tortoises and neighbors. Gopher apple itself is a low, often evergreen shrub with leathery leaves and fruit wildlife—including tortoises—may use when available. Think in patches, not patio pots: restoration and ethical observation beat grabbing animals for selfies.\n\n☀️💧 Sun and Water Requirements:\nFull sun on deep, excessively drained sands typical of scrub and sandhill; partial shade appears at ecotones. Drought tolerance is high once established; irrigation should mimic summer wet pulses, not perpetual lawn neurosis. Never plant into compacted urban fill and pretend it is sandhill.\n\n✂️ Propagation:\nSow seed from cleaned fruit where regulations allow; germination can be slow. Protect young plants from rabbit and rodent browse with cages until stems lignify. Restore whole patches with diverse seed mixes appropriate to local genotype—single-species lawns help nobody here.\n\n🌾 Harvest / Best Use Timing:\nHuman harvest of gopher apple fruit is secondary to wildlife function—prioritize leaving food on aprons where tortoises are present. For restoration projects, collect seed ethically with permits when required. Monitor invasive exotics around burrows; manual removal beats broadcast herbicide drift into refugia."
+  purpose: |-
+    - Wildlife Attractor: Native forbs and shrubs on burrow aprons feed tortoises and associated species in fire-maintained systems.
+    - Erosion Control: Root mats stabilize sand around burrow mouths and paths animals reuse.
+    - Ground Cover: Low shrubs and grasses knit openings without shading entire microhabitats.
+    - Edible: Fruit has limited human use compared to wildlife value—context and ethics first.
   companions:
-  - NEEDS_DATA
+  - Sand Pine — overstory pine common in sandhill systems; manage fire ecology responsibly, not fearfully
+  - Florida Paintbrush — showy native forb that shares pollinators in open sandy ecotones
+  - Little Bluestem — warm-season grass matrix typical of groundcover around scrub openings
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Legally protected species and habitat — never harass tortoises or destroy active burrows; follow local wildlife law
+  - Fire exclusion — scrub turns to woods and burrow communities lose sun; plan prescribed fire with experts
   pests:
-  - NEEDS_DATA
-  # Image attribution: No image found
-  # Image source: none
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Aphids
+  practitioner_notes: |-
+    Burrow aprons are not decoration—they are grocery aisles; walk around, not through.
+    Gopher apple is slow; restoration timelines are measured in decades, not influencer cycles.
+    Invasive pasture grasses outcompete natives—convert lawns adjacent to conservation parcels with intent.
+    If you are not trained for fire, hire people who are—scrub management is not a YouTube afternoon.
+  growth_habit: Low evergreen scrub shrub; leathery leaves; fleshy fruit; sandhill and scrub associate species
+  data_quality_score: 0.73

@@ -1,28 +1,44 @@
 ---
 - common_name: Marang Fruit
   picture: marang_fruit.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Artocarpus odoratissimus
+  aka:
+  - Johey oak
+  - Madang (regional)
+  family: Moraceae
+  zone: 10-12
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 32
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Shade Provider
+  - Wildlife Attractor
+  - Mulcher
+  description: "Marang (Artocarpus odoratissimus) is a close relative of jackfruit and breadfruit, a large tropical tree of Borneo and nearby humid regions, bearing smaller, more aromatic compound fruits with soft sweet arils prized where the species is grown. Heights of 50–85 feet (15–25 m) occur in open conditions. Latex and fruiting habit echo jackfruit—plan space, tools, and cleanup before romantic planting.\n\n☀️💧 Sun and Water Requirements:\nFull sun for reliable fruiting; young trees tolerate partial shade during establishment. Deep, fertile, well-drained soils with steady moisture in the warm season; mulch buffers heat at surface roots. Wind protection reduces fruit and leaf damage on exposed sites.\n\n✂️ Propagation:\nGraft or air-layer known selections; seedlings vary in fruit quality. Prune for strong scaffolds capable of carrying heavy fruit loads. Remove inward branches that shade interior fruiting wood.\n\n🌾 Harvest / Best Use Timing:\nHarvest when aroma and color cues match local practice—marang ripens quickly and ferments fast in heat. Process arils soon after opening; latex sticks to knives and dignity. Expect seasonal flushes tied to rainfall and heat."
+  purpose: |-
+    - Edible: Sweet aromatic arils diversify tropical desserts and fresh eating for patient growers.
+    - Shade Provider: Large crown shelters understory in humid food forests.
+    - Wildlife Attractor: Flowers and fallen fruit engage wildlife where that aligns with management.
+    - Mulcher: Big leaves return biomass when cycled through chop-and-drop routines.
   companions:
-  - NEEDS_DATA
+  - Jakfruit — related Artocarpus with different fruit size class at safe spacing for light
+  - Banana — fast herbaceous biomass neighbor during marang establishment
+  - Lemongrass — perimeter herb marking irrigation without competing for canopy
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Falling fruit — kinetic hazard; site away from roofs and foot traffic
+  - Latex sensitivity — handle fruit and pruning with gloves and oiled tools
   pests:
-  - NEEDS_DATA
-  # Image attribution: No image found
-  # Image source: none
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Mealybugs
+  practitioner_notes: |-
+    Aroma is the ripeness clock—nose beats calendar in humid heat.
+    Smaller than jackfruit does not mean balcony-friendly—roots still want a planet.
+    Grafted trees reduce roulette—seedlings are a personality test.
+    Fruit flies RSVP to drops—ground hygiene is not optional performance art.
+  growth_habit: Large tropical Moraceae tree; aromatic compound fruit; humid equatorial lowlands
+  data_quality_score: 0.78

@@ -1,28 +1,65 @@
 ---
 - common_name: Big Bluestem
   picture: big_bluestem.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Andropogon gerardii
+  aka:
+  - Turkeyfoot
+  - Tallgrass prairie flagship grass
+  family: Poaceae
+  zone: 4-9
+  ideal_temp_min: 60
+  ideal_temp_max: 85
+  min_temp: -35
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Animal Fodder
+  - Biomass
+  - Erosion Control
+  - Wildlife Attractor
+  - Ornamental
+  description: "Big bluestem (Andropogon gerardii) is a warm-season bunchgrass of North
+    American tallgrass prairie, forming tall clumps with blue-green spring blades that
+    shift copper-red in autumn and seed heads shaped like a turkey’s foot. Culms commonly
+    reach 4–8 feet (1.2–2.4 m) in favorable moisture, shorter on dry ridges. It is
+    a backbone species for prairie restoration, pasture diversification, and ornamental
+    meadows that refuse to pretend Kentucky bluegrass is native.\n\n☀️💧 Sun and Water
+    Requirements:\nFull sun for strongest growth and flowering; shade weakens stems.
+    Tolerates drought and lean soils once deep roots develop; responds to occasional
+    summer rain or irrigation with rapid regrowth. Avoid chronic wet, compacted sites
+    that favor cool-season weeds over warm-season roots.\n\n✂️ Propagation:\nSow fresh
+    or cold-stratified seed in late spring when soil warms; establishment is slow the
+    first year, explosive the next. Divide dormant crowns in early spring for landscape
+    plugs. Use local ecotype seed when restoring genetics matched to rainfall and daylength.\n\n
+    🌾 Harvest / Best Use Timing:\nFor hay or silage, cut during early boot to early
+    bloom for quality; leave standing through winter for wildlife cover if forage is
+    not the priority. Burn or mow on restoration schedules appropriate to your region
+    and regulations—not random weekend boredom."
+  purpose: |-
+    - Animal Fodder: High-quality warm-season forage when rotation timing respects boot-stage nutrition.
+    - Biomass: Deep roots and tall shoots build soil carbon and mulch banks in prairie systems.
+    - Erosion Control: Fibrous roots stabilize slopes and disturbed ground during establishment years.
+    - Wildlife Attractor: Seeds and structure feed birds and insects; standing stems shelter overwintering fauna.
+    - Ornamental: Copper fall color and bold vertical form beat ornamental grass catalogs on honest sites.
   companions:
-  - NEEDS_DATA
+  - Switchgrass — complementary warm-season grass with different texture and timing in mixed meadows
+  - Pale Purple Coneflower — forb partner for pollinator support and contrasting bloom architecture
+  - Wild Bergamot — aromatic forb shares sun and handles competitive grass neighbors at margins
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Heavy nitrogen + frequent mowing — favors weedier competitors and can thin bluestem stands over time
   pests:
-  - NEEDS_DATA
+  - Armyworms
+  - Grasshopper
+  - Aphids
+  practitioner_notes: |-
+    First-year sleep, second-year creep, third-year leap—plan expectations before declaring failure.
+    Local ecotypes outperform pretty bag art from three climate zones away.
+    Standing winter stems are habitat; cutting everything to lawn height is ecological vandalism with good intentions.
+    Patch burn grazing beats uniform annihilation if you are mimicking prairie disturbance honestly.
+  growth_habit: Warm-season bunchgrass; tall culms; turkeyfoot seed heads; deep roots
+  data_quality_score: 0.85
   # Image attribution: (c) Kingsbrae Garden, some rights reserved (CC BY-NC-SA)
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

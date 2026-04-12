@@ -1,28 +1,42 @@
 ---
 - common_name: Nelumbo lutea
   picture: nelumbo_lutea.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Nelumbo lutea
+  aka:
+  - American Lotus
+  - Yellow Water Lotus
+  family: Nelumbonaceae
+  zone: 4-11
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: -30
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Aquatic
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Aquatic
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  description: "Nelumbo lutea is the American lotus, an aquatic perennial with emergent circular leaves and large yellow flowers rising above shallow ponds, lake margins, and constructed wetlands. Spreading rhizomes anchor in muck while leaf stalks reach several feet of air gap, creating shade and structure for fish and invertebrates. The species is prized for edible seeds and starchy rhizomes where harvest is legal and water quality is trusted, and for spectacle blooms that embarrass ornamental imposters.\n\n☀️💧 Sun and Water Requirements:\nFull sun for maximum flowering; shade reduces bud count quickly. Still, shallow freshwater with silty or sandy bottom—roughly 6–18 inches (15–45 cm) of water over rhizomes in warm months—is the basic contract. Do not dry rhizomes completely during active growth; winter dormancy tolerates drawdowns in cold climates when rhizomes remain submerged or insulated in mud.\n\n✂️ Propagation:\nDivide rhizomes in spring when water warms; anchor sections under mud with a stone until roots grab. Grow seedlings from scarified seed after soaking until sunk; expect years to first bloom. Container culture in lined ponds controls spread where naturalization is discouraged.\n\n🌾 Harvest / Best Use Timing:\nCollect ripe seeds from receptacles when they loosen—only from clean water. Rhizome harvest disturbs stands; rotate patches or limit to managed containers. Leave most biomass for wildlife and water quality unless permits and testing say otherwise."
+  purpose: |-
+    - Aquatic: Large floating and emergent leaves shade water, reduce algae pressure, and provide attachment for egg-laying insects.
+    - Edible: Seeds and rhizomes enter Indigenous and Asian foodways where water quality verification is non-negotiable.
+    - Ornamental: Yellow flowers and plate leaves anchor pond focal points in public and private water gardens.
+    - Wildlife Attractor: Flowers and seed heads support insects, ducks, and fish habitat structure in healthy water bodies.
   companions:
-  - NEEDS_DATA
+  - Pickerelweed — emergent neighbor at slightly shallower depth with complementary flowers for pollinators
+  - Cattail — edge species sharing wetland margins without identical rooting depth
+  - Duckweed — floating layer uses open water between lotus pads, feeding fish and poultry where managed
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests:
-  - NEEDS_DATA
-  # Image attribution: (c) liz west, some rights reserved (CC BY)
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Invasive potential in sensitive wetlands—check local regulations before introducing outside native range
+  - Water quality — edible use requires knowing what upstream landowners spray
+  pests: []
+  practitioner_notes: |-
+    Also sold as “American Lotus” in this database—Nelumbo lutea is the scientific anchor; common-name duplicates are search noise, not taxonomy errors.
+    Containers prevent rhizome coups d’état across the whole pond—lazy naturalizing becomes expensive diplomacy.
+    First-year seedlings sulk—bloom patience is measured in seasons, not influencer weeks.
+    Herbicide drift from adjacent turf ends the lotus fairytale—buffer with distance or diplomacy.
+  growth_habit: Rhizomatous aquatic perennial; large round leaves; yellow flowers; shallow freshwater emergent
+  data_quality_score: 0.83

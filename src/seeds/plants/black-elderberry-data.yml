@@ -1,28 +1,68 @@
 ---
 - common_name: Black Elderberry
   picture: black_elderberry.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Sambucus nigra
+  aka:
+  - European Elder
+  - Black Elder
+  family: Adoxaceae
+  zone: 4-7
+  ideal_temp_min: 55
+  ideal_temp_max: 75
+  min_temp: -25
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  - Border Plant
+  - Mulcher
+  description: "Black elderberry (Sambucus nigra) is a fast-growing deciduous shrub
+    to small tree from Europe and western Asia, widely cultivated for flower cordials,
+    berries used cooked in syrups and wines, and coarse wood for stakes. Pinnate leaves
+    and flat white cymes appear in early summer; ripe black berries hang in heavy clusters
+    on purple-black stems in forms like 'Haschberg'. Mature plants often reach 8–15
+    feet (2.5–4.5 m) depending on pruning. In cool-temperate food systems it is a high-yield
+    shrub wall for processing—not a raw-snack berry without proper preparation knowledge.\n\n
+    ☀️💧 Sun and Water Requirements:\nFull sun to light partial shade; more sun increases
+    bloom and berry load. Prefers rich, moist, well-drained soil with steady organic
+    matter; tolerates heavier soils better than droughty sand without irrigation. Mulch
+    preserves soil moisture during fruit swell; avoid root drowning in compacted low
+    spots.\n\n✂️ Propagation:\nHardwood cuttings taken in late winter root readily
+    under mist or in deep pots outdoors. Sow seed after stratification for diversity
+    trials; named cultivars are cloned. Hard-prune old wood in dormancy to renew fruiting
+    shoots and keep height manageable.\n\n🌾 Harvest / Best Use Timing:\nPick flower
+    umbels when most buds are open but before heavy browning. Harvest berries when clusters
+    turn glossy black and stems begin to bend—cook before consumption following trusted
+    food-safety guidance for your region."
+  purpose: |-
+    - Edible: Flowers and fully ripe cooked berries support cordials, jams, and syrups with documented prep.
+    - Medicinal: Traditional European herbal uses focus on flowers and berries where law and training allow.
+    - Wildlife Attractor: Flowers feed insects; berries feed birds—balance harvest share with ecology.
+    - Border Plant: Fast screens and informal hedges for wind and sight breaks on larger lots.
+    - Mulcher: Leaf litter builds humus quickly under dense plantings.
   companions:
-  - NEEDS_DATA
+  - Highbush Blueberry — shares acidic organic mulch culture at the sunny edge of elder thickets
+  - Wild Bergamot — aromatic forb increases pollinator traffic near elder bloom
+  - American Hazelnut — taller nut shrub uses vertical space without shading elder crowns flat
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Raw green berries and other plant parts — contain compounds that demand proper identification and preparation
+  - Toxic look-alikes exist globally — confirm ID with regional keys before any tasting theater
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Attila Oláh, some rights reserved (CC BY), uploaded by Attila Oláh
+  - Aphids
+  - Japanese Beetles
+  - Powdery Mildew
+  practitioner_notes: |-
+    Elderberry chemistry is not a meme—learn prep from reputable sources, not comment sections.
+    'Haschberg' and similar clones are production-minded; seedlings vary in vigor and berry density.
+    Birds announce ripeness—if you need a clean harvest window, net selected canes, not the whole watershed.
+    Coppice-prune on a rotation if you want reachable flowers without ladders and ego.
+  growth_habit: Fast deciduous shrub; flat white flower clusters; black berries on pithy stems
+  data_quality_score: 0.84
+  # Image attribution: (c) Wendy Feltham, some rights reserved (CC BY-NC), uploaded by Wendy Feltham
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

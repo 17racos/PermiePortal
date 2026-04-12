@@ -1,28 +1,46 @@
 ---
 - common_name: Finger Cherry
   picture: finger_cherry.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Syzygium australe
+  aka:
+  - Brush cherry
+  - Magenta lilly pilly
+  - Australian water pear
+  family: Myrtaceae
+  zone: 9-12
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 26
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  - Border Plant
+  description: "Finger cherry (Syzygium australe) is an Australian rainforest margin tree or large shrub widely planted in humid subtropical landscapes for glossy leaves, fluffy cream flowers, and magenta to red pear-shaped fruit nicknamed finger cherries in some markets. Cultivated specimens often reach 15–30 feet (4.5–9 m) but accept hedging. It is a Myrtaceae workhorse for edible hedgerows and windbreaks in frost-free climates where psyllid pressure is managed thoughtfully.\n\n☀️💧 Sun and Water Requirements:\nFull sun to bright part shade; dense shade reduces flowering and fruit. Rich, well-drained soils with steady moisture through warm growth periods; mulch conserves water and feeds surface roots. Protect young plants from drying wind and salt spray on exposed coastal lots.\n\n✂️ Propagation:\nSow fresh seed after cleaning; viability declines if seed desiccates. Semi-hardwood cuttings root under humidity for uniform hedge lines. Tip-prune young plants to encourage branching before they race for the sky.\n\n🌾 Harvest / Best Use Timing:\nPick fruit when color deepens and flesh yields slightly for fresh eating or preserves—flavor varies by selection. Clip hedges after main flowering if you prioritize form over maximum fruit. Monitor new flush for psyllid curling; early water blast beats panic spraying."
+  purpose: |-
+    - Edible: Fruit supports fresh eating and jam where selections are chosen for taste, not just hedge density.
+    - Ornamental: Glossy foliage and copper new growth read as polished landscape architecture.
+    - Wildlife Attractor: Flowers feed pollinators; fruit feeds birds where that aligns with planting goals.
+    - Border Plant: Tolerates clipping for formal or informal screens in humid subtropical climates.
   companions:
-  - NEEDS_DATA
+  - Lilly Pilly — related hedge species with overlapping pollinators and staggered fruit in mixed rows
+  - Brush Cherry — Myrtaceae neighbor that shares cultural needs without identical harvest timing
+  - Lemongrass — perimeter herb marking irrigation lines without competing for canopy space
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Hard frost — tissue damage below roughly 26°F (-3°C) on exposed sites; protect young plants
+  - Psyllid and scale pressure — humid coastal plantings need monitoring, not neglect dressed as organic virtue
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) ryanthughes, some rights reserved (CC BY-NC)
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Mealybugs
+  practitioner_notes: |-
+    Same species appears under many common names—taste fruit before you plant a mile of hedge.
+    Copper new growth is pretty; psyllids think it is a buffet—learn the difference early.
+    Fruit flies audition ripe fruit; harvest on schedule or accept compost with wings.
+    Lilly pilly is not a personality; it is a genus story—read the tag Latin twice.
+  growth_habit: Evergreen Myrtaceae tree or shrub; cream flowers; magenta fruit; hedge-tolerant in humid subtropics
+  data_quality_score: 0.8

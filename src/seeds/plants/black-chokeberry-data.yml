@@ -1,28 +1,64 @@
 ---
 - common_name: Black Chokeberry
   picture: black_chokeberry.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Aronia melanocarpa
+  aka:
+  - Aronia (trade name overlap)
+  - Chokeberry
+  family: Rosaceae
+  zone: 3-8
+  ideal_temp_min: 55
+  ideal_temp_max: 75
+  min_temp: -35
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  - Border Plant
+  - Mulcher
+  description: "Black chokeberry (Aronia melanocarpa) is a suckering North American
+    shrub cultivated for dense clusters of purple-black, astringent berries used in
+    juice, wine, and antioxidant-rich products, plus red fall foliage and white May
+    blossoms. Plants commonly reach 3–6 feet (0.9–1.8 m), forming thickets useful in
+    hedgerows, rain-garden margins, and multifunctional borders. Unlike sweet dessert
+    bushes, aronia tells the truth in the mouth—tannins first, sugar in the kitchen.\n\n
+    ☀️💧 Sun and Water Requirements:\nFull sun maximizes flowering, anthocyanins, and
+    yield; partial shade works but thins fruit. Tolerates wet, acidic soils better than
+    many fruit shrubs; still avoid permanently stagnant crowns. Organic mulch maintains
+    soil moisture and feeds the shallow root mat.\n\n✂️ Propagation:\nSoftwood cuttings
+    in early summer root under humidity. Divide suckers in spring with roots attached
+    for fast hedge extension. Seeds require cold stratification; clones preserve named
+    cultivar traits like larger berries or upright habit.\n\n🌾 Harvest / Best Use Timing:\n
+    Pick when berries are fully black, glossy, and detach with a gentle tug test on
+    sample clusters. Freeze before pressing for juice to improve yield. Renew pruning
+    by removing oldest canes after several years to keep production on vigorous wood."
+  purpose: |-
+    - Edible: Berries process into juice, jam, and wine where sugar and acid balance tannic structure.
+    - Wildlife Attractor: Flowers support pollinators; fruit feeds birds when human processors leave surplus.
+    - Ornamental: Fall red foliage and dark fruit clusters outperform purely decorative shrubs on tough sites.
+    - Border Plant: Dense habit defines edges, slows wind, and hides compost corners with dignity.
+    - Mulcher: Leaf drop feeds soil biology and recycles minerals within the hedge row.
   companions:
-  - NEEDS_DATA
+  - Highbush Blueberry — shared acidic mulch and irrigation culture with staggered harvest timing
+  - American Hazelnut — taller shrub uses vertical space above low chokeberry thickets
+  - Yarrow — dry-tolerant forb at the sunny front of rows increases beneficial insect traffic
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Apple — humid springs can share rosaceous disease pressure when canopies intertwine
   pests:
-  - NEEDS_DATA
+  - Japanese Beetles
+  - Aphids
+  - Powdery Mildew
+  practitioner_notes: |-
+    Cultivar choice matters—upright types hedge better than floppy seedlings from unnamed sources.
+    Juice extraction loves a freezer pre-step; fresh press yields can disappoint the impatient.
+    Astringency drops with processing, not with wishful thinking while chewing raw handfuls.
+    Two genotypes often improve fruit set where pollination looks shy—plant pairs, not loners.
+  growth_habit: Suckering deciduous shrub; white spring flowers; black astringent berries
+  data_quality_score: 0.84
   # Image attribution: (c) Greg Funka, some rights reserved (CC BY-NC), uploaded by Greg Funka
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

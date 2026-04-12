@@ -1,28 +1,66 @@
 ---
 - common_name: Breadnut Tree
   picture: breadnut_tree.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Brosimum alicastrum
+  aka:
+  - Ramón
+  - Maya Nut
+  family: Moraceae
+  zone: 10-12
+  ideal_temp_min: 70
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Animal Fodder
+  - Shade Provider
+  - Wildlife Attractor
+  - Mulcher
+  description: "Breadnut or ramón (Brosimum alicastrum) is a large tropical evergreen
+    tree from Mexico through Central America and the Caribbean, historically cultivated
+    for starchy seeds roasted or ground, edible young leaves, and fodder during dry
+    seasons. Mature specimens reach 80–115 feet (24–35 m) in forest settings with smooth
+    gray bark and milky latex like other Moraceae. In agroforestry it is a calorie-dense
+    canopy species that feeds people, livestock, and wildlife while producing deep shade
+    for understory crops—plan spacing before the crown owns the field.\n\n☀️💧 Sun and
+    Water Requirements:\nFull sun to partial shade depending on seed source; forest ecotypes
+    tolerate shade juveniles. Prefers deep, well-drained soils with steady moisture
+    during establishment; mature trees endure seasonal drought but fruit and leaf fodder
+    decline without rain. Frost sensitivity limits production to frost-free climates for
+    reliable yields.\n\n✂️ Propagation:\nSow fresh seed immediately; desiccation kills
+    viability quickly. Air-layer or graft superior nut lines once identified. Protect
+    young plants from grazing until stems lignify above browse height.\n\n🌾 Harvest
+    / Best Use Timing:\nCollect fallen ripe fruit and extract seeds for drying and roasting;
+    timing follows local wet–dry rhythm. Young leaves can be cut during fodder pinch
+    periods if management plans avoid stripping crowns. Prune for clearance only with
+    sharp tools and respect for latex mess."
+  purpose: |-
+    - Edible: Seeds provide starchy flour analogs after proper processing traditions.
+    - Animal Fodder: Leaves and fruit support integrated livestock during lean forage months.
+    - Shade Provider: Dense canopy cools understory for shade-tolerant perennial crops.
+    - Wildlife Attractor: Fruit feeds mammals and birds; tree supports diverse canopy life.
+    - Mulcher: Evergreen leaf drop feeds soil biology when left to decompose on site.
   companions:
-  - NEEDS_DATA
+  - Cacao — shade-tolerant understory crop under high tropical canopy where management allows
+  - Turmeric — rhizomes along partial-shade north flanks with mulch and drainage
+  - Lemongrass — perimeter herb handles competition at the dripline without climbing the trunk
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Milky latex — skin and eye irritation possible; gloves and eye protection beat bravado
   pests:
-  - NEEDS_DATA
+  - Scale Insects
+  - Mealybugs
+  - Aphids
+  practitioner_notes: |-
+    Seed viability is measured in days, not seasons—treat fresh seed like fish, not beans.
+    Germplasm varies by provenance; coastal vs interior forms differ in drought swagger.
+    Roasting smells amazing and attracts mammals—process indoors if coatis are on payroll.
+    Do not confuse with breadfruit lineage—different genus, different kitchen timelines.
+  growth_habit: Large tropical Moraceae tree; milky latex; starchy seeds from small fig-like fruit
+  data_quality_score: 0.79
   # Image attribution: Hans Hillewaert / Wikimedia Commons / CC BY-SA 3.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

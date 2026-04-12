@@ -1,28 +1,45 @@
 ---
 - common_name: Shaving Brush Tree
   picture: shaving_brush_tree.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Pseudobombax ellipticum
+  aka:
+  - Amapolla Tree
+  - Shaving Brush Flower Tree
+  family: Malvaceae
+  zone: 10b-12
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 28
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ornamental
+  - Wildlife Attractor
+  - Shade Provider
+  - Border Plant
+  description: "Shaving brush tree (Pseudobombax ellipticum) is a dry-season deciduous tropical tree famous for large pink flowers with hundreds of stamens that resemble barber brushes, opening on leafless branches after winter-thin canopies in seasonal climates. Trees reach 20–40 feet (6–12 m), often with a broad spreading crown and smooth pale bark. It is a spectacle plant for humid tropical and subtropical gardens where winter cool triggers leaf drop and spring heat triggers bloom.\n\n☀️💧 Sun and Water Requirements:\nFull sun for heaviest flowering; young trees accept partial shade. Well-drained, moderately fertile soils suit it; drought-tolerant during leafless periods once established. Water during leaf expansion and flowering to maximize bloom size; avoid waterlogging.\n\n✂️ Propagation:\nSow fresh seed in warm, humid conditions. Air-layer known bloomers for predictable flower form. Prune for clearance under wide branches; avoid topping.\n\n🌾 Harvest / Best Use Timing:\nPrimarily ornamental—flowers are short-lived but unforgettable. Growth and bloom track wet-dry seasonality rather than temperate months. Rake fallen petals if paths must stay pristine."
+  purpose: |-
+    - Ornamental: Dramatic flowers anchor tropical focal points and public garden selfies.
+    - Wildlife Attractor: Masses of stamens feed pollinators during a brief intense bloom window.
+    - Shade Provider: Broad crown shelters understory during wet-season leaf cover.
+    - Border Plant: Defines property corners where spectacle beats privacy slats.
   companions:
-  - NEEDS_DATA
+  - Carambola Tree — evergreen fruiting neighbor contrasting bloom timing and canopy texture
+  - Ginger — rhizome understory along driplines where irrigation is managed
+  - Lemongrass — perimeter herb marking walkways with volatile oils
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Frost — young growth damages near 30°F (-1°C); protect on marginal subtropical sites
+  - Brief leafless window — plan sight lines before planting in front of picture windows
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Juan Carlos Garcia Morales, all rights reserved, uploaded by Juan Carlos Garcia Morales
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Aphids
+  - Whiteflies
+  practitioner_notes: |-
+    Flowers outshine leaves—if you need year-round green wallpaper, this tree will humble you seasonally.
+    Dry-season dormancy is not death—neighbors may need education before they call a saw.
+    Heavy bloom draws beetles and bees—plan seating distance if sting anxiety lives in the household.
+    Wide roots deserve mulch donuts—pavement hugging invites sidewalk revenge.
+  growth_habit: Deciduous tropical tree; massive pink shaving-brush flowers; seasonal leaf drop
+  data_quality_score: 0.77

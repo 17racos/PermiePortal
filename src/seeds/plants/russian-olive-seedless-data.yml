@@ -1,28 +1,47 @@
 ---
 - common_name: Russian Olive Seedless
   picture: russian_olive_seedless.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Elaeagnus angustifolia
+  aka:
+  - Seedless Russian Olive
+  - Oleaster
+  family: Elaeagnaceae
+  zone: 3-8
+  ideal_temp_min: 35
+  ideal_temp_max: 100
+  min_temp: -40
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Nitrogen Fixer
+  - Windbreaker
+  - Wildlife Attractor
+  - Erosion Control
+  description: "Russian olive (Elaeagnus angustifolia) seedless selections are marketed for windbreak and ornamental silver foliage with reduced or absent viable seed, though local regulations may still treat the species as restricted because root suckers and garden escape remain possible. Plants reach 15–25 feet (4.5–7.5 m) as multi-stemmed trees with narrow silvery leaves, fragrant pale flowers, and tolerance for drought, salt, and alkaline soils. This entry exists for growers navigating nursery stock reality—verify legality and ecological ethics before planting at scale.\n\n☀️💧 Sun and Water Requirements:\nFull sun for densest silver leaf color and strongest form. Tolerates poor, sandy, and alkaline soils; drought-tolerant once established. Occasional deep watering speeds establishment; avoid waterlogging.\n\n✂️ Propagation:\nUsually purchased as grafted or selected clones—propagation may be regulated where the species is listed. Remove root suckers if maintaining a tree form; leave some if a wildlife thicket is intended and permitted.\n\n🌾 Harvest / Best Use Timing:\nSeedless clones reduce bird-spread fruit, yet flowering still occurs—monitor local policy updates. Prune after bloom if shaping windbreaks. Growth peaks during warm months with long days."
+  purpose: |-
+    - Nitrogen Fixer: Actinorhizal roots improve lean soils when biomass returns on-site.
+    - Windbreaker: Multiple stems blunt wind on exposed lots and livestock lanes.
+    - Wildlife Attractor: Flowers feed pollinators; any residual fruit may still engage birds—design honestly.
+    - Erosion Control: Roots stabilize disturbed, dry banks where little else establishes quickly.
   companions:
-  - NEEDS_DATA
+  - Honey Locust — complementary dappled shade and nitrogen-friendly alley cropping where regulations allow both
+  - Sea Buckthorn — another nitrogen-fixing shrub option for multi-layer windbreaks on tough sites
+  - Lavender — drought-tolerant understory at the dripline where silver foliage contrasts gray-green aromatics
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Invasive or restricted in many jurisdictions—check local law before planting, seedless marketing notwithstanding
+  - Suckering and garden escape—contain with mowing or edging where neighbors share fence lines
+  - Allelopathy and aggressive roots—avoid pairing with delicate herb gardens without barriers
   pests:
-  - NEEDS_DATA
-  # Image attribution: No image found
-  # Image source: none
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Aphids
+  - Spider Mites
+  practitioner_notes: |-
+    “Seedless” reduces bird vectors; it does not grant ecological innocence—read county weed lists like adults.
+    Silver leaves scream drought—overhead irrigation still invites scale parties if dust persists.
+    Fragrance during bloom divides households—site upwind of bedroom windows thoughtfully.
+    If law bans the species, this entry is documentation, not encouragement—compliance beats aesthetics.
+  growth_habit: Multi-stem silver-leaf tree; fragrant flowers; drought and alkaline tolerant; windbreak species
+  data_quality_score: 0.72

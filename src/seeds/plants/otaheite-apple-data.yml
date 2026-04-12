@@ -1,28 +1,46 @@
 ---
 - common_name: Otaheite Apple
   picture: otaheite_apple.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Syzygium malaccense
+  aka:
+  - Malay Apple
+  - Mountain Apple
+  - Jamaican Apple
+  family: Myrtaceae
+  zone: 10b-12
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 30
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Shade Provider
+  - Wildlife Attractor
+  - Ornamental
+  description: "Otaheite apple (Syzygium malaccense) is the island-market name for a tropical myrtle tree valued for bell-shaped, often crimson-blushed fruit with crisp white flesh and a mild, rose-apple sweetness. Trees reach 40–60 feet (12–18 m) in sheltered humid sites, flushing bronze-red new growth between showy flower bursts. It belongs in equatorial and humid subtropical home orchards where heat is reliable and frost is a rare headline, not a lifestyle.\n\n☀️💧 Sun and Water Requirements:\nFull sun for dense flowering and fruiting; partial shade acceptable for juveniles. Rich, well-drained soil with steady moisture in the warm wet season and irrigation during dry spells prevents fruit drop. Protect from strong salt winds; large leaves tatter when exposed.\n\n✂️ Propagation:\nAir-layer elite trees or graft onto seedling rootstocks for predictable fruit. Seeds grow quickly but vary in quality—fine for experiments, risky for commerce. Prune for a single trunk in windy sites, then open the crown for light on fruiting wood.\n\n🌾 Harvest / Best Use Timing:\nPick when skin colors deepen and flesh yields slightly—lines vary from white to deep wine-red. Eat fresh within days; thin skin bruises if tossed. Peak loads follow local heat and rainfall patterns rather than temperate calendars."
+  purpose: |-
+    - Edible: Fresh fruit offers hydration-forward snacks and salads where sugar bombs are not mandatory.
+    - Shade Provider: Wide crown shelters understory vanilla, cacao seedlings, or human hammocks.
+    - Wildlife Attractor: Masses of flowers feed bees and flies; fruit feeds birds where sharing is acceptable.
+    - Ornamental: Red leaf flushes justify front-yard placement even before fruit sets.
   companions:
-  - NEEDS_DATA
+  - Mountain Apple — same species under another common label; plant once, not twice, unless you enjoy duplicate driplines
+  - Carambola Tree — contrasting fruit geometry and harvest timing in a tropical canopy row
+  - Ginger — shade-tolerant rhizome along the eastern dripline where mulch stays deep
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Duplicate common names for Syzygium malaccense—this entry matches Mountain Apple and Malay Apple listings
+  - Frost near 30°F (-1°C) damages young growth—protect saplings on marginal sites
   pests:
-  - NEEDS_DATA
-  # Image attribution: Justinisaacs / Wikimedia Commons / CC BY-SA 3.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Caribbean Fruit Fly
+  - Scale Insects
+  - Aphids
+  practitioner_notes: |-
+    Otaheite vs Malay vs Mountain is marketing, not taxonomy—Syzygium malaccense is the boring answer that saves money.
+    If you plant two “different” trees and they look married, you cloned the same species twice—congratulations.
+    Fruit flies love ground drops—sanitize like you mean it or accept larvae confetti.
+    Red new leaves fade—if they never appear, check nitrogen humility versus actual starvation.
+  growth_habit: Large tropical tree; red leaf flushes; bell fruit; humid lowland/subtropical with heat
+  data_quality_score: 0.78

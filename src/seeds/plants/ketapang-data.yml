@@ -1,28 +1,45 @@
 ---
 - common_name: Ketapang
   picture: ketapang.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Terminalia catappa
+  aka:
+  - Tropical almond
+  - Sea almond
+  - Indian almond
+  family: Combretaceae
+  zone: 10-12
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 30
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Shade Provider
+  - Wildlife Attractor
+  - Erosion Control
+  description: "Ketapang (Terminalia catappa) is the Indonesian common name for tropical almond, a wide-crowned coastal tree of sandy shores and tropical lowlands, bearing large obovate leaves that redden before abscission and edible kernels inside fibrous drupes. Heights of 30–60 feet (9–18 m) are common. It is salt-tolerant shade for beaches, parking lots, and food-forest edges where falling fruit is planned for, not stepped on barefoot.\n\n☀️💧 Sun and Water Requirements:\nFull sun for dense crown and reliable fruiting; tolerates coastal exposure. Well-drained sandy to loamy soils; tolerates short drought in humid air once established. Irrigation speeds establishment inland away from sea breeze.\n\n✂️ Propagation:\nSow fresh seed; viability drops if kernels desiccate. Transplant when young—large specimens resent root disturbance. Prune for clearance along paths and roofs; wide lateral limbs need planning.\n\n🌾 Harvest / Best Use Timing:\nCollect fallen ripe fruit and extract kernels for roasting or eating where traditional preparation is known. Leaves make seasonal mulch—rake thoughtfully near pools. Expect heavy fruit drop seasonally—site accordingly."
+  purpose: |-
+    - Edible: Kernels provide snack and oil potential where processing removes fibrous husk honestly.
+    - Shade Provider: Broad umbrella crown cools people, livestock, and understory in tropics.
+    - Wildlife Attractor: Fruit feeds birds and mammals; flowers engage generalized pollinators.
+    - Erosion Control: Roots stabilize sandy coastal soils when massed on appropriate sites.
   companions:
-  - NEEDS_DATA
+  - Coconut Palm — taller coastal palm sharing salt breeze and staggered canopy height
+  - Wax Apple — Myrtaceae fruiting neighbor with different root depth at safe spacing inland from beach
+  - Banana — fast herbaceous biomass beneath young ketapang before crown expands
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Falling fruit on pathways — strike hazard for feet, pets, and windshields
+  - Invasive potential in some Pacific islands — check local weed risk before planting near native coasts
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Michael Davidson, some rights reserved (CC BY-NC), uploaded by Michael Davidson
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Caterpillars
+  practitioner_notes: |-
+    Leaf reddening is autumn cosplay in the tropics—tourists love it, gutters less so.
+    Kernels reward patience; husks punish hurry—tools and gloves, not teeth.
+    Coastal ecotypes tolerate salt; inland clay sulk without drainage work.
+    Do not park expensive paint under fruiting females without accepting speckle patina.
+  growth_habit: Large spreading coastal tree; deciduous reddening leaves; fibrous drupes with edible kernel
+  data_quality_score: 0.8

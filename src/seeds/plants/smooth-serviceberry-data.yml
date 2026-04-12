@@ -1,28 +1,45 @@
 ---
 - common_name: Smooth Serviceberry
   picture: smooth_serviceberry.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Amelanchier laevis
+  aka:
+  - Allegheny Serviceberry
+  family: Rosaceae
+  zone: 4-8
+  ideal_temp_min: 35
+  ideal_temp_max: 85
+  min_temp: -35
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Pollinator
+  - Ornamental
+  description: "Smooth serviceberry (Amelanchier laevis) is a small native tree of eastern North American woods edges, with smooth gray bark, white spring flowers, and sweet dark berries in early summer. It typically reaches 15–25 feet (4.5–7.5 m), often single-trunked compared with suckering relatives. Use it as an ornamental understory tree, early pollinator support, and bird food system where cedar-apple rust is managed.\n\n☀️💧 Sun and Water Requirements:\nFull sun to partial shade; best fruiting with strong light. Moist, well-drained, humus-rich soils suit it; tolerates rocky slopes once established. Mulch to keep roots cool; water during drought in early years.\n\n✂️ Propagation:\nSow stratified seed; graft named selections for landscape consistency. Prune for single-leader tree form or multi-stem as desired; open canopy improves airflow.\n\n🌾 Harvest / Best Use Timing:\nPick berries when dark and soft—process quickly. Bloom follows last hard frosts near 24°F (-4°C) in northern sites. Leave some fruit for birds if sharing matters."
+  purpose: |-
+    - Edible: Sweet berries support pies and jams where bird negotiations succeed.
+    - Wildlife Attractor: Flowers feed early pollinators; fruit feeds birds.
+    - Pollinator: Spring bloom fills a narrow nectar window at forest edges.
+    - Ornamental: Smooth bark and fall color add landscape value beyond fruit alone.
   companions:
-  - NEEDS_DATA
+  - Wild Columbine — spring forb beneath open canopy before deep shade arrives
+  - Serviceberry — related Amelanchier neighbor for staggered bloom if both are allowed
+  - Chives — low allium edge along driplines
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Cedar-apple rust — separate from alternate juniper hosts when disease pressure is high
+  - Birds — plan harvest timing or netting ethics
   pests:
-  - NEEDS_DATA
-  # Image attribution: No image found
-  # Image source: none
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Japanese Beetles
+  - Aphids
+  - Powdery Mildew
+  practitioner_notes: |-
+    Smooth bark is the namesake—rough-barked look-alikes are different Amelanchier gossip.
+    Single-trunk specimens read as trees—multi-stem clones read as large shrubs; choose at planting.
+    Berries darken fast—morning harvest beats afternoon starlings.
+    Rust is a postcard from junipers—design distance, not denial.
+  growth_habit: Small deciduous tree; smooth bark; white spring flowers; early-summer berries
+  data_quality_score: 0.81

@@ -1,7 +1,7 @@
-# PermiePortal — Enrichment Batch 5 of 11
+# PermiePortal — Enrichment Batch 3 of 3
 
 > **Agent mode only.** ONE session at a time.
-> This batch: 20 plants. Total remaining: 211 plants + 0 pest fields.
+> This batch: 12 plants. Total remaining: 52 plants + 0 pest fields.
 
 ---
 
@@ -51,26 +51,18 @@ NEVER: None, NEEDS_DATA, or animals without pest profiles
 
 ## Plants to Enrich
 
-- `src/seeds/plants/highbush-cranberry-data.yml` (11 fields)
-- `src/seeds/plants/hog-plum-data.yml` (11 fields)
-- `src/seeds/plants/hortulan-plum-data.yml` (11 fields)
-- `src/seeds/plants/indian-mulberry-data.yml` (11 fields)
-- `src/seeds/plants/indiangrass-data.yml` (11 fields)
-- `src/seeds/plants/jakfruit-data.yml` (11 fields)
-- `src/seeds/plants/java-apple-data.yml` (11 fields)
-- `src/seeds/plants/june-plum-data.yml` (11 fields)
-- `src/seeds/plants/kedondong-data.yml` (11 fields)
-- `src/seeds/plants/ketapang-data.yml` (11 fields)
-- `src/seeds/plants/key-thatch-palm-data.yml` (11 fields)
-- `src/seeds/plants/leavenworths-tickseed-data.yml` (11 fields)
-- `src/seeds/plants/lemon-beebalm-data.yml` (11 fields)
-- `src/seeds/plants/lilly-pilly-data.yml` (11 fields)
-- `src/seeds/plants/lingonberry-data.yml` (11 fields)
-- `src/seeds/plants/little-bluestem-data.yml` (11 fields)
-- `src/seeds/plants/little-brown-jug-data.yml` (11 fields)
-- `src/seeds/plants/loblolly-pine-data.yml` (11 fields)
-- `src/seeds/plants/longawn-muhly-data.yml` (11 fields)
-- `src/seeds/plants/longleaf-pine-data.yml` (11 fields)
+- `src/seeds/plants/wild-crabapple-data.yml` (10 fields)
+- `src/seeds/plants/wild-petunia-data.yml` (10 fields)
+- `src/seeds/plants/wild-plum-data.yml` (10 fields)
+- `src/seeds/plants/wild-stonecrop-data.yml` (10 fields)
+- `src/seeds/plants/wingleaf-soapberry-data.yml` (10 fields)
+- `src/seeds/plants/wiregrass-data.yml` (10 fields)
+- `src/seeds/plants/wood-apple-data.yml` (10 fields)
+- `src/seeds/plants/yellow-coneflower-data.yml` (10 fields)
+- `src/seeds/plants/yellow-mombin-data.yml` (10 fields)
+- `src/seeds/plants/yellow-waterlily-data.yml` (10 fields)
+- `src/seeds/plants/zamia-integrifolia-data.yml` (10 fields)
+- `src/seeds/plants/zigzag-spiderwort-data.yml` (10 fields)
 ---
 
 ## When Done
@@ -80,9 +72,12 @@ python3 validate.py --since 2h
 python3 validate.py --fix --since 2h
 ./sync.sh --check
 ./sync.sh
-rm review/cursor_enrich_5_of_11.md
+rm review/cursor_enrich_3_of_3.md
 ```
 
 Zero warnings required before the next batch.
 
-Next: `cursor_enrich_6_of_11.md`
+✅ Final batch — commit:
+```bash
+git add -A && git commit -m 'enrichment complete'
+```

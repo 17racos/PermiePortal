@@ -1,28 +1,45 @@
 ---
 - common_name: Pale Purple Coneflower
   picture: pale_purple_coneflower.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Echinacea pallida
+  aka:
+  - Prairie Coneflower
+  - Echinacea
+  family: Asteraceae
+  zone: 3-8
+  ideal_temp_min: 40
+  ideal_temp_max: 90
+  min_temp: -35
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Medicinal
+  - Wildlife Attractor
+  - Ornamental
+  description: "Pale purple coneflower (Echinacea pallida) is a taprooted prairie perennial with slender drooping ray petals around a spiny central cone, flowering earlier than many garden hybrids and feeding specialist bees adapted to its architecture. Plants reach 2–3 feet (60–90 cm), with narrow rough leaves and deep roots that scoff at short droughts once established. In restoration and permaculture borders it anchors dry-mesic strips, attracts long-tongued pollinators, and supplies roots for careful medicinal use where regulations and ethics align.\n\n☀️💧 Sun and Water Requirements:\nFull sun for strongest stems and upright cones; too much shade causes flopping apologies. Well-drained, lean to average soils mimic prairie truth; wet clay rots taproots. Water deeply during establishment, then back off—pampered plants invite lodging.\n\n✂️ Propagation:\nSow seed outdoors in fall for cold stratification or stratify 6–8 weeks moist-cold before spring sowing. Divide carefully; taproots resent rough handling—prefer fresh seed for large plantings. Deadhead if you dislike self-sowing volunteers.\n\n🌾 Harvest / Best Use Timing:\nFor medicine, roots are dug after several years of growth in fall or early spring per sustainable rotation—never strip wild stands. Flowers can be collected at full bloom for teas; seeds mature for birds if heads remain. Peak bloom leads many warm-season composites, filling the early pollinator gap."
+  purpose: |-
+    - Pollinator: Narrow tube of disk florets rewards long-tongued bees that ignore overbred doubles.
+    - Medicinal: Roots and aerial parts enter immune-support protocols where sustainable harvest and law permit.
+    - Wildlife Attractor: Goldfinches and other seed eaters work mature cones; stems shelter beneficial insects if left standing.
+    - Ornamental: Drooping petals read as “wild elegance” in meadow plantings and gravel gardens.
   companions:
-  - NEEDS_DATA
+  - Little Bluestem — warm-season matrix grass sharing dry sun and contrasting flower color
+  - Milkweed — complementary milkweed-family neighbor for monarch habitat without identical bloom time
+  - Wild Bergamot — aromatic forb extending pollinator service into later summer hours
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Overwatering and rich fertility — lanky stems that lodge after the first thunderstorm
+  - Do not dig threatened wild populations—buy nursery seed of documented origin
   pests:
-  - NEEDS_DATA
-  # Image attribution: SEWilco / Wikimedia Commons / CC BY-SA 3.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Japanese Beetles
+  - Powdery Mildew
+  practitioner_notes: |-
+    Drooping petals are a feature—if you want stiff mopheads, buy a different coneflower at the impulse rack.
+    Taproot species hate “casual” transplanting—plan position like you mean marriage, not speed dating.
+    Aster yellows turns cones green and weird—remove infected plants before phytoplasma spreads via leafhoppers.
+    Goldfinches will shred seed heads—decide whether bouquets or birds win each row.
+  growth_habit: Taprooted prairie perennial; narrow leaves; pale drooping rays; dry-mesic sun
+  data_quality_score: 0.82

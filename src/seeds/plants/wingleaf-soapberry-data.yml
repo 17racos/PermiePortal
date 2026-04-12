@@ -1,28 +1,45 @@
 ---
 - common_name: Wingleaf Soapberry
   picture: wingleaf_soapberry.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Sapindus drummondii
+  aka:
+  - Western Soapberry
+  family: Sapindaceae
+  zone: 7-10
+  ideal_temp_min: 40
+  ideal_temp_max: 100
+  min_temp: -5
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Wildlife Attractor
+  - Erosion Control
+  - Border Plant
+  - Ornamental
+  description: "Wingleaf soapberry is a common-name variant for Sapindus drummondii, the western soapberry of south-central North America, with compound leaves—often with winged rachis in some interpretations—and translucent yellow saponin-rich fruit. This duplicate entry matches the Western Soapberry record; scientific identity is identical. Use one database card for inventory; keep both for search coverage.\n\n☀️💧 Sun and Water Requirements:\nFull sun to partial shade on well-drained soils, including rocky limestone. Drought-tolerant once established; water to establish.\n\n✂️ Propagation:\nSow scarified seed; transplant young seedlings carefully.\n\n🌾 Harvest / Best Use Timing:\nSoap-berry demos only with vetted methods—avoid ingestion games. Wildlife uses fruit through warm-season ripening."
+  purpose: |-
+    - Wildlife Attractor: Fruit feeds birds adapted to saponin chemistry.
+    - Erosion Control: Stabilizes rocky slopes and terrace cuts.
+    - Border Plant: Defines dry woodland edges.
+    - Ornamental: Lacy compound foliage contrasts evergreens.
   companions:
-  - NEEDS_DATA
+  - Western Soapberry — duplicate Sapindus drummondii record under another common name
+  - Agave — succulent contrast on limestone edges
+  - Mexican Elderberry — moisture-gradient neighbor at wetter microsites
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Duplicate taxonomy with Western Soapberry—Sapindus drummondii is the anchor
+  - Saponin toxicity—no casual human snacking
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) luizpol, some rights reserved (CC BY-NC)
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Aphids
+  - Spider Mites
+  practitioner_notes: |-
+    If you already planted “Western Soapberry,” you cloned the same species—wingleaf is label noise, not biodiversity.
+    Limestone loyalty beats peat guilt—soil honesty saves replacement costs.
+    Foam demos need goggles—kids cheer until chemistry touches eyeballs.
+    Range maps beat nursery gossip—tags lie more than coordinates.
+  growth_habit: Soapberry tree-shrub; compound leaves; yellow fruit; limestone and dry woods
+  data_quality_score: 0.74

@@ -1,7 +1,7 @@
-# PermiePortal — Enrichment Batch 10 of 11
+# PermiePortal — Enrichment Batch 1 of 3
 
 > **Agent mode only.** ONE session at a time.
-> This batch: 20 plants. Total remaining: 211 plants + 0 pest fields.
+> This batch: 20 plants. Total remaining: 52 plants + 0 pest fields.
 
 ---
 
@@ -51,26 +51,26 @@ NEVER: None, NEEDS_DATA, or animals without pest profiles
 
 ## Plants to Enrich
 
-- `src/seeds/plants/switchgrass-data.yml` (11 fields)
-- `src/seeds/plants/syzygium-australe-data.yml` (11 fields)
-- `src/seeds/plants/syzygium-luehmannii-data.yml` (11 fields)
-- `src/seeds/plants/syzygium-smithii-data.yml` (11 fields)
-- `src/seeds/plants/tahitian-noni-data.yml` (11 fields)
-- `src/seeds/plants/tarap-data.yml` (11 fields)
-- `src/seeds/plants/thin-leaved-coneflower-data.yml` (11 fields)
-- `src/seeds/plants/thorny-buffaloberry-data.yml` (11 fields)
-- `src/seeds/plants/tropical-almond-data.yml` (11 fields)
-- `src/seeds/plants/virginia-rose-data.yml` (11 fields)
-- `src/seeds/plants/virginia-spiderwort-data.yml` (11 fields)
-- `src/seeds/plants/virginia-stonecrop-data.yml` (11 fields)
-- `src/seeds/plants/wax-apple-data.yml` (11 fields)
-- `src/seeds/plants/weeping-lovegrass-data.yml` (11 fields)
-- `src/seeds/plants/western-soapberry-data.yml` (11 fields)
-- `src/seeds/plants/white-wild-indigo-data.yml` (11 fields)
-- `src/seeds/plants/wild-bergamot-data.yml` (11 fields)
-- `src/seeds/plants/wild-blue-phlox-data.yml` (11 fields)
-- `src/seeds/plants/wild-columbine-data.yml` (11 fields)
-- `src/seeds/plants/wild-crabapple-data.yml` (11 fields)
+- `src/seeds/plants/serviceberry-data.yml` (10 fields)
+- `src/seeds/plants/shaving-brush-tree-data.yml` (10 fields)
+- `src/seeds/plants/shining-coneflower-data.yml` (10 fields)
+- `src/seeds/plants/sideoats-grama-data.yml` (10 fields)
+- `src/seeds/plants/silverberry-shrub-data.yml` (10 fields)
+- `src/seeds/plants/silverleaf-cotoneaster-data.yml` (10 fields)
+- `src/seeds/plants/slash-pine-data.yml` (10 fields)
+- `src/seeds/plants/smooth-serviceberry-data.yml` (10 fields)
+- `src/seeds/plants/soapberry-data.yml` (10 fields)
+- `src/seeds/plants/southern-crabapple-data.yml` (10 fields)
+- `src/seeds/plants/southern-hawthorn-data.yml` (10 fields)
+- `src/seeds/plants/spanish-plum-data.yml` (10 fields)
+- `src/seeds/plants/spiderwort-data.yml` (10 fields)
+- `src/seeds/plants/split-beard-bluestem-data.yml` (10 fields)
+- `src/seeds/plants/spotted-beebalm-data.yml` (10 fields)
+- `src/seeds/plants/spruce-pine-data.yml` (10 fields)
+- `src/seeds/plants/swamp-rose-data.yml` (10 fields)
+- `src/seeds/plants/sweet-autumn-olive-data.yml` (10 fields)
+- `src/seeds/plants/sweet-black-eyed-susan-data.yml` (10 fields)
+- `src/seeds/plants/sweet-crabapple-data.yml` (10 fields)
 ---
 
 ## When Done
@@ -80,9 +80,9 @@ python3 validate.py --since 2h
 python3 validate.py --fix --since 2h
 ./sync.sh --check
 ./sync.sh
-rm review/cursor_enrich_10_of_11.md
+rm review/cursor_enrich_1_of_3.md
 ```
 
 Zero warnings required before the next batch.
 
-Next: `cursor_enrich_11_of_11.md`
+Next: `cursor_enrich_2_of_3.md`

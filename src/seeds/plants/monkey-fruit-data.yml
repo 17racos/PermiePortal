@@ -1,28 +1,46 @@
 ---
 - common_name: Monkey Fruit
   picture: monkey_fruit.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Artocarpus lacucha
+  aka:
+  - Monkey Jack
+  - Barhar
+  - Lakoocha
+  family: Moraceae
+  zone: 10b-13
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 30
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Shade Provider
+  - Wildlife Attractor
+  - Mulcher
+  description: "Monkey fruit (Artocarpus lacucha) is a medium to large tropical tree in the jackfruit tribe, native to South and Southeast Asia and planted in humid lowland and foothill sites across the tropics where jack-type crops are valued. The fruit is rough-skinned, variable in size, and borne directly on trunk and branches like its better-known relatives; flavor profiles range from tangy to sweet depending on genotype and ripeness. Mature trees commonly reach 30–50 feet (9–15 m) with a dense crown useful for understory shade. In diversified warm-climate systems it extends the Artocarpus toolkit beyond breadfruit and jackfruit for growers tracking niche markets and home use.\n\n☀️💧 Sun and Water Requirements:\nFull sun for reliable fruiting once the canopy is established; young plants appreciate light shade during the hottest months. Deep, fertile, well-drained soils with steady moisture through the warm wet season and irrigation during pronounced dry spells prevent fruit drop and tip burn. Wind protection helps large leaves; salt spray tolerance is limited compared to coastal true mangrove specialists.\n\n✂️ Propagation:\nSeedlings are the common path for landrace material—plant fresh seed and plan years to first fruit. Graft known cultivars onto seedling rootstocks when local grafters work Moraceae. Prune for clearance under fruiting trunks and remove weak interior wood to improve airflow in humid climates.\n\n🌾 Harvest / Best Use Timing:\nHarvest timing is judged by color shift, aroma, and gentle yield to pressure—variability between seedlings is real, so label mother trees you like. Process quickly after picking; like other Artocarpus, waste piles draw fruit flies if left in the open kitchen. Peak production tracks heat and rainfall cycles rather than temperate calendar months."
+  purpose: |-
+    - Edible: Fruit pulp and selected preparations enter regional cuisines where acidity and texture are balanced with local recipes.
+    - Shade Provider: Broad crown shelters cacao, vanilla vines, or nursery tables during peak tropical sun.
+    - Wildlife Attractor: Flowers and ripe fruit engage bats, birds, and insects in forest-garden contexts—plan sharing or netting.
+    - Mulcher: Large leaves and spent fruit build rapid organic matter banks under the drip line when managed intentionally.
   companions:
-  - NEEDS_DATA
+  - Jackfruit — related canopy architecture with staggered fruiting personalities in a Moraceae row
+  - Carambola Tree — complementary canopy height and fruiting season contrast without identical pest timing
+  - Lemongrass — perimeter herb for walkway definition and volatile oils along the irrigation edge
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Frost and prolonged chill below roughly 30°F (-1°C) damage young growth—marginal sites need microclimate tricks
+  - Seedling variability — fruit quality roulette until grafted selections prove themselves
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Matt Reala, some rights reserved (CC BY-NC), uploaded by Matt Reala
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Caribbean Fruit Fly
+  - Aphids
+  practitioner_notes: |-
+    Common name “monkey fruit” floats across species—this entry is Artocarpus lacucha; note the scientific ID on your graft tag or seed passport.
+    Trunk-borne fruit needs headlamp discipline at harvest—helmets are cheaper than dental work.
+    Seedling juveniles sulk through transplant—minimize root disturbance and oversize the first hole.
+    Over-irrigation in cool cloudy weather invites root funk—match water to evaporation, not enthusiasm.
+  growth_habit: Tropical cauliflorous fruit tree; large leaves; rough syncarp; humid lowland/foothill adapted
+  data_quality_score: 0.78

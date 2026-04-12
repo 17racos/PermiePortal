@@ -1,28 +1,45 @@
 ---
 - common_name: Sand Bluestem
   picture: sand_bluestem.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Andropogon hallii
+  aka:
+  - Hall's Bluestem
+  - Sandhill Bluestem
+  family: Poaceae
+  zone: 4-9
+  ideal_temp_min: 40
+  ideal_temp_max: 100
+  min_temp: -30
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Erosion Control
+  - Wildlife Attractor
+  - Biomass
+  - Ornamental
+  description: "Sand bluestem (Andropogon hallii) is a warm-season bunchgrass of central North American sandhills and dry prairies, with blue-green summer foliage turning copper in fall and airy seed heads on stems often 3–5 feet (0.9–1.5 m). Deep roots exploit sandy soils where shallow-rooted competitors bake. It is a core species for restoration, erosion control on coarse slopes, and ornamental meadows that refuse irrigation guilt.\n\n☀️💧 Sun and Water Requirements:\nFull sun for upright stems and full inflorescences; shade reduces vigor. Well-drained sandy to loamy soils are ideal; tolerates drought and lean fertility once established. Avoid wet clay that rots crowns; water only to establish.\n\n✂️ Propagation:\nSow seed in warm soil after frost risk; lightly cover. Divide mature bunches carefully in spring if needed. Cut back old growth in late winter to clear space for new tillers.\n\n🌾 Harvest / Best Use Timing:\nCut seed stems for arrangements when color peaks; leave standing material for wildlife through winter if aesthetics allow. Peak growth tracks heat and summer rainfall patterns."
+  purpose: |-
+    - Erosion Control: Deep roots bind sandy cuts and dune toes better than annual cover crops alone.
+    - Wildlife Attractor: Seeds and cover support birds and insects in dry prairie reconstructions.
+    - Biomass: Tall growth supplies mulch carbon for sandy soil food webs when cut and dropped.
+    - Ornamental: Copper fall color and vertical lines upgrade xeric designs beyond gravel alone.
   companions:
-  - NEEDS_DATA
+  - Little Bluestem — related Andropogon neighbor with finer texture for layered prairie matrices
+  - Prairie Coneflower — forb contrast in color and form on the same dry bank
+  - Milkweed — forb neighbor for pollinator value alongside warm-season grasses
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Wet clay — rot and replacement shopping
+  - Rich irrigation — lanky growth with fewer copper fireworks
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Aidan Campos, some rights reserved (CC BY-NC), uploaded by Aidan Campos
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Spider Mites
+  - Japanese Beetles
+  practitioner_notes: |-
+    Andropogon hallii is the sandhill specialist—if your soil is heavy clay, admire it in photos, not your yard.
+    Fall color is the paycheck—do not mow the stand before the copper show unless fire codes demand it.
+    Seed dormancy varies—cold-moist stratification improves uniform germination in trays.
+    Bunchgrass gaps are habitat—fill with forbs, not turf insecurity.
+  growth_habit: Warm-season bunchgrass; blue-green foliage; copper fall; deep sandy soils
+  data_quality_score: 0.81

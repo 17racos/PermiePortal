@@ -1,28 +1,64 @@
 ---
 - common_name: Buffalo Plum
   picture: buffalo_plum.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Prunus besseyi
+  aka:
+  - Western Sand Cherry
+  - Rocky Mountain Plum (regional usage)
+  family: Rosaceae
+  zone: 3-6
+  ideal_temp_min: 55
+  ideal_temp_max: 75
+  min_temp: -40
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Border Plant
+  - Erosion Control
+  - Ornamental
+  description: "Buffalo plum commonly refers to western sand cherry (Prunus besseyi),
+    a suckering shrub of Great Plains sandhills and rocky soils bearing fragrant white
+    spring flowers and black edible cherries on a plant that often stays under 4–6 feet
+    (1.2–1.8 m). It spreads by roots into thickets stabilizing blowing sand and feeding
+    wildlife during harsh seasons. In cold, dry-temperate systems it is a pioneer fruiting
+    shrub for hedgerows and windbreak understories where irrigation is scarce and honesty
+    about flavor matters.\n\n☀️💧 Sun and Water Requirements:\nFull sun for best flowering
+    and fruit; tolerates wind exposure once established. Prefers sandy or gravelly well-drained
+    soils; tolerates drought better than pampered orchard hybrids. Occasional deep
+    watering during fruit swell improves size; mulch reduces moisture swing at the root
+    collar.\n\n✂️ Propagation:\nDig rooted suckers in early spring; softwood cuttings
+    in early summer root under humidity. Sow pits after stratification for breeding diversity.
+    Prune old stems to renew fruiting wood inside thickets.\n\n🌾 Harvest / Best Use Timing:\n
+    Pick cherries when black, soft, and fully colored—flavor is tart and true. Use in
+    jams, wines, or syrups; fresh eating is seed-forward. Net or accept bird share depending
+    on your ethics and pantry goals."
+  purpose: |-
+    - Edible: Small black cherries process into preserves where sugar balances acid.
+    - Wildlife Attractor: Flowers feed pollinators; fruit feeds birds and mammals across dry landscapes.
+    - Border Plant: Low thickets define windy edges without irrigation theater.
+    - Erosion Control: Roots knit sandy soils where conventional shrubs desiccate.
+    - Ornamental: Spring bloom and glossy foliage outperform gravel mulch alone.
   companions:
-  - NEEDS_DATA
+  - American Plum — taller Prunus neighbor extends fruit succession without identical height competition
+  - Yarrow — forb partner at thicket margins handles sun and lean soil beside suckering shrubs
+  - Raspberry — bramble uses fence lines beside plum thickets with airflow between fruiting layers
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Suckering into paths — plan barriers or mowing strips before thicket annexes the driveway
   pests:
-  - NEEDS_DATA
+  - Japanese Beetles
+  - Aphids
+  - Borers
+  practitioner_notes: |-
+    Common names wander—verify botanical ID before planting mile-long rows on a hunch.
+    Fruit is small; processing batches rewards patience and a good pitting playlist.
+    Cold hardiness is real; summer humidity sometimes triggers foliar issues—scout, do not panic-spray.
+    Birds read ripeness through wavelengths you lack—harvest early morning if you want odds.
+  growth_habit: Low suckering Prunus shrub; white flowers; black tart cherries
+  data_quality_score: 0.8
   # Image attribution: No image found
   # Image source: none
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,28 +1,45 @@
 ---
 - common_name: Royal Palm
   picture: royal_palm.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Roystonea regia
+  aka:
+  - Cuban Royal Palm
+  - Florida Royal Palm
+  family: Arecaceae
+  zone: 10b-12
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 28
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ornamental
+  - Shade Provider
+  - Windbreaker
+  - Wildlife Attractor
+  description: "Royal palm (Roystonea regia) is a towering pinnate-leaf palm of the Caribbean and parts of Central America, instantly recognized by a smooth green shaft, swollen mid-trunk profile on many individuals, and a crown of long feathery fronds. Heights of 50–80 feet (15–24 m) are common in ideal sites, making it an avenue and park icon. In tropical permaculture it supplies high shade, vertical structure, and that undeniable “we are not in Kansas” silhouette.\n\n☀️💧 Sun and Water Requirements:\nFull sun for straight trunks and full crowns; juveniles accept partial shade during establishment. Rich, well-drained soils with steady moisture through warm periods prevent nutrient deficiencies; drought shows on older fronds first. Avoid chronic salt spray on exposed beach lots without rinsing after storms.\n\n✂️ Propagation:\nSow fresh seed in warm humid conditions; germination is reliable but juveniles grow slowly at first. Transplant with root ball integrity—palms do not forgive bare-root experiments. Remove only dead fronds; never spike the green crown for aesthetics.\n\n🌾 Harvest / Best Use Timing:\nPrimarily ornamental—seeds are not a standard crop for beginners. Collect fallen fruit to reduce slippery hazards on paths. Growth flushes track year-round warmth in true tropics."
+  purpose: |-
+    - Ornamental: Tall straight trunks and feathery crowns define tropical avenues and focal points.
+    - Shade Provider: High canopy casts moving shade over understory herbs and outdoor work areas.
+    - Windbreaker: Grouped royals blunt steady winds along coasts when spaced with structural intent.
+    - Wildlife Attractor: Inflorescences engage pollinators; fruit feeds birds where permitted.
   companions:
-  - NEEDS_DATA
+  - Coconut Palm — complementary palm architecture in multi-height tropical windbreaks
+  - Banana — fast broadleaf neighbor using different canopy layers during royal palm juvenile years
+  - Lemongrass — perimeter herb along maintenance paths with volatile oils marking edges
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Falling fronds and fruit—site away from pedestrian skull zones and glass skylights
+  - Lightning attraction on open sites—tall isolated palms are not shy about storms
   pests:
-  - NEEDS_DATA
-  # Image attribution: Unknown / Wikimedia Commons / Public domain
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Palm Weevil
+  - Aphids
+  practitioner_notes: |-
+    Roystonea regia is the Cuban royal palm complex—verify provenance tags if conservation genetics matter to your planting.
+    Palm weevil headlines are real in some regions—monitor crown soundness and learn local scouting cues.
+    Green fronds feed the trunk—brown-tipping everything is how palms go hungry while looking “clean.”
+    Swollen midsections vary—do not assume your juvenile will mimic postcard trunks on a schedule.
+  growth_habit: Very tall pinnate palm; smooth green crownshaft; Caribbean and tropical urban icon
+  data_quality_score: 0.78

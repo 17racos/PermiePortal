@@ -1,28 +1,45 @@
 ---
 - common_name: Tropical Almond
   picture: tropical_almond.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Terminalia catappa
+  aka:
+  - Sea Almond
+  - Indian Almond
+  family: Combretaceae
+  zone: 10b-12
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 28
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Shade Provider
+  - Windbreaker
+  - Ornamental
+  description: "Tropical almond (Terminalia catappa) is the same species many coastal plantings call sea almond or Indian almond—a large tree with tiered branches, glossy leaves that color before abscission, and fibrous drupes containing edible kernels when roasted properly. Heights of 40–60 feet (12–18 m) are common along tropical shores. This duplicate listing exists for searchers using “tropical almond” language; see Sea Almond entry for parallel copy.\n\n☀️💧 Sun and Water Requirements:\nFull sun for dense crown and reliable fruiting near coasts. Sandy, well-drained soils with seasonal moisture suit it; tolerates salt spray better than many broadleaf trees. Irrigation speeds establishment inland.\n\n✂️ Propagation:\nSow fresh seed; transplant young trees with root integrity. Prune for clearance under wide limbs.\n\n🌾 Harvest / Best Use Timing:\nCollect fallen fruit when husks dry; process kernels with care—fibers are not dental floss. Leaf drop seasons can be messy—plan paths accordingly."
+  purpose: |-
+    - Edible: Roasted kernel provides snack where processing removes husk hazards.
+    - Shade Provider: Wide crown shelters beaches, markets, and understory nurseries.
+    - Windbreaker: Grouped trees blunt coastal winds.
+    - Ornamental: Seasonal leaf color before drop adds tropical landscape drama.
   companions:
-  - NEEDS_DATA
+  - Sea Almond — duplicate Terminalia catappa record under another common name; one tree, two database cards
+  - Coconut Palm — complementary coastal canopy architecture
+  - Lemongrass — perimeter herb along maintenance paths
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Falling fruit and leaves—site away from skylights and parked cars
+  - Duplicate taxonomy with Sea Almond entry—Terminalia catappa is the scientific anchor
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Michael Davidson, some rights reserved (CC BY-NC), uploaded by Michael Davidson
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Aphids
+  - Spider Mites
+  practitioner_notes: |-
+    If you already planted “Sea Almond,” you duplicated this species—bilingual labeling is not biodiversity.
+    Kernel roasting is work—raw ambition invites dental and GI storytelling.
+    Salt spray bronzes young leaves—rinse occasionally if aesthetics beat ecology on your scorecard.
+    Wide roots deserve mulch donuts—pavement volcanoes invite sidewalk revenge.
+  growth_habit: Large coastal tropical tree; seasonal leaf color; edible kernel in fibrous drupe
+  data_quality_score: 0.76

@@ -1,28 +1,45 @@
 ---
 - common_name: Sweet Autumn Olive
   picture: sweet_autumn_olive.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Elaeagnus umbellata
+  aka:
+  - Autumn Olive
+  - Japanese Silverberry
+  family: Elaeagnaceae
+  zone: 4-9
+  ideal_temp_min: 35
+  ideal_temp_max: 95
+  min_temp: -30
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Nitrogen Fixer
+  - Wildlife Attractor
+  - Windbreaker
+  - Erosion Control
+  description: "Autumn olive (Elaeagnus umbellata) is a fast-growing actinorhizal shrub from East Asia, widely naturalized in parts of North America, with silvery leaves, fragrant spring flowers, and red speckled berries ripening in fall. It tolerates poor soils and drought, which made it a historic windbreak plant—and also an invasive problem in many regions. This entry documents the plant for sites where planting is legal and ethically reviewed; prefer native alternatives when conservation goals demand.\n\n☀️💧 Sun and Water Requirements:\nFull sun for heaviest fruiting and silver leaf color. Lean to average, well-drained soils suit it; drought-tolerant once established. Avoid waterlogging; mulch to reduce competition during establishment.\n\n✂️ Propagation:\nOften regulated—verify law before propagating. If legal, hardwood cuttings root readily. Remove root suckers to reduce spread where containment matters.\n\n🌾 Harvest / Best Use Timing:\nBerries are tart and seedy—jams and fruit leathers appear in foraging literature where harvesting is permitted. Peak fruit tracks early autumn cooling after warm summers."
+  purpose: |-
+    - Nitrogen Fixer: Actinorhizal roots enrich degraded soils when management prevents escape.
+    - Wildlife Attractor: Fruit feeds birds—also aiding seed spread, the ecological double-edged sword.
+    - Windbreaker: Fast growth blunts wind on tough sites when natives are unavailable or establishing slowly.
+    - Erosion Control: Roots stabilize cuts on poor soils—paired with monitoring for spread.
   companions:
-  - NEEDS_DATA
+  - Honey Locust — complementary fast tree in controlled windbreaks where regulations allow
+  - Sea Buckthorn — alternative fruiting shrub for growers phasing out Elaeagnus where climate fits
+  - Raspberry — bramble edge that tolerates sun at the dripline without matching invasive risk profile
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Invasive or banned in many regions—check local law and land manager rules before planting
+  - Birds spread seed—avoid near high-value natural areas
   pests:
-  - NEEDS_DATA
-  # Image attribution: No image found
-  # Image source: none
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Aphids
+  - Spider Mites
+  practitioner_notes: |-
+    If your county lists autumn olive as a noxious weed, this entry is documentation—not an invitation to host a berry festival.
+    Silver leaves look tough—scale still parties if dust and drought stack stress.
+    Nitrogen fixation rewards lean soil—bagged urea insults the symbiosis and helps weeds.
+    Removal beats denial on sensitive sites—cut-stump and follow-up regrowth patrol beats hope.
+  growth_habit: Fast actinorhizal shrub; silvery leaves; red speckled fall fruit; disturbed soils
+  data_quality_score: 0.7

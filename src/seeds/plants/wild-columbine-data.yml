@@ -1,28 +1,44 @@
 ---
 - common_name: Wild Columbine
   picture: wild_columbine.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Aquilegia canadensis
+  aka:
+  - Eastern Red Columbine
+  family: Ranunculaceae
+  zone: 3-8
+  ideal_temp_min: 35
+  ideal_temp_max: 85
+  min_temp: -35
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Ornamental
+  - Wildlife Attractor
+  - Ground Cover
+  description: "Wild columbine (Aquilegia canadensis) is a short-lived perennial of eastern North American wood margins and cliffs, with red and yellow nodding flowers adapted to hummingbirds and long-tongued bees. Plants reach 1–2 feet (30–60 cm), self-sowing into rocky, well-drained pockets. It thrives in dappled shade and lean soils where irrigation is modest.\n\n☀️💧 Sun and Water Requirements:\nPartial shade to light sun; afternoon shade reduces scorch in hot climates. Well-drained, humus-rich soils suit it; tolerates rocky slopes. Avoid wet clay; mulch lightly.\n\n✂️ Propagation:\nSow seed outdoors in fall; allow self-sowing where volunteers are welcome. Divide carefully—taproot resents shovel violence.\n\n🌾 Harvest / Best Use Timing:\nLeave flowers for pollinators; collect seed when capsules split if expanding patches ethically. Peak bloom tracks local spring warmth."
+  purpose: |-
+    - Pollinator: Spurred flowers target hummingbirds and specialist bees during spring nectar gaps.
+    - Ornamental: Red-yellow blooms add drama to shade borders without tropical imports.
+    - Wildlife Attractor: Seeds feed small birds; foliage hosts columbine duskywing where ranges overlap.
+    - Ground Cover: Basal rosettes fill rocky pockets without turf lies.
   companions:
-  - NEEDS_DATA
+  - Wild Blue Phlox — spring shade neighbor with blue flowers contrasting columbine reds
+  - Virginia Stonecrop — succulent groundcover at the toe of rocky slopes sharing lean soils
+  - Serviceberry — small tree providing dappled canopy above columbine colonies
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Leaf miners cosmetic damage—tolerate or remove leaves; avoid panic sprays on pollinator plants
+  - Short-lived individuals—plan self-sowing or succession
   pests:
-  - NEEDS_DATA
-  # Image attribution: Photo by and (c)2007 Derek Ramsey (Ram-Man) / Wikimedia Commons / GFDL 1.2
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Spider Mites
+  - Japanese Beetles
+  practitioner_notes: |-
+    Hummingbirds treat red spurs like vending machines—plant where you can watch without glass glare.
+    Self-sowing is the retirement plan—deadhead only where volunteers annoy pavers.
+    Rocky soil is love language—imported topsoil often kills the romance.
+    Columbine duskywing is a badge—if caterpillars appear, you built habitat, not failure.
+  growth_habit: Short-lived perennial; red-yellow spurred flowers; woodland rock margins
+  data_quality_score: 0.83

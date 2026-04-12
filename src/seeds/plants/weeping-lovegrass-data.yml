@@ -1,28 +1,44 @@
 ---
 - common_name: Weeping Lovegrass
   picture: weeping_lovegrass.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Eragrostis curvula
+  aka:
+  - African Lovegrass
+  family: Poaceae
+  zone: 6-11
+  ideal_temp_min: 45
+  ideal_temp_max: 105
+  min_temp: -5
+  max_temp: 115
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Erosion Control
+  - Ornamental
+  - Biomass
+  - Border Plant
+  description: "Weeping lovegrass (Eragrostis curvula) is a warm-season bunchgrass from southern Africa, widely planted for erosion control and fine-textured ornamental borders, forming dense fountains of narrow leaves and airy panicles on plants about 2–3 feet (60–90 cm) tall. It tolerates heat, drought, and poor soils once established. Check regional invasive lists—some areas classify lovegrasses as problematic.\n\n☀️💧 Sun and Water Requirements:\nFull sun for upright fountains; shade yields thin patches. Well-drained sandy to loamy soils suit it; drought-tolerant after establishment. Water deeply to establish; avoid waterlogging.\n\n✂️ Propagation:\nSow seed in warm soil; divide bunches in spring. Cut back in late winter before new growth.\n\n🌾 Harvest / Best Use Timing:\nPrimarily functional and ornamental—seed can spread; manage seedheads near natural areas. Peak growth follows summer heat."
+  purpose: |-
+    - Erosion Control: Fibrous roots stabilize disturbed slopes and roadsides quickly.
+    - Ornamental: Weeping habit softens hardscapes and gravel gardens.
+    - Biomass: Supplies fine mulch residue when cut and dropped in controlled plantings.
+    - Border Plant: Defines edges along paths and utilities in hot climates.
   companions:
-  - NEEDS_DATA
+  - Purple Lovegrass — smaller Eragrostis cousin with contrasting purple haze seed heads
+  - Sand Lovegrass — related genus neighbor in dry meadow mixes
+  - Prairie Coneflower — forb verticals rising above low lovegrass mounds
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Invasive risk in some regions—verify local weed council opinions before mass seeding
+  - Self-seeding near wildlands—edit volunteers aggressively
   pests:
-  - NEEDS_DATA
-  # Image attribution: No image found
-  # Image source: none
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Spider Mites
+  - Japanese Beetles
+  practitioner_notes: |-
+    Fine texture reads luxury—coarse neighbors bully it without spacing honesty.
+    Invasive chatter is zip-code specific—read your county list before debating strangers online.
+    Shearing into meatballs defeats the weeping gesture—prune with intent, not anxiety.
+    Drought posture is real—overhead sprinklers still invite mites if dust persists.
+  growth_habit: Warm-season weeping bunchgrass; fine leaves; airy panicles; hot dry sites
+  data_quality_score: 0.76

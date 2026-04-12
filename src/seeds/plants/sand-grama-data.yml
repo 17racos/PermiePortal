@@ -1,28 +1,44 @@
 ---
 - common_name: Sand Grama
   picture: sand_grama.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Bouteloua chondrosioides
+  aka:
+  - Sprucetop Grama
+  family: Poaceae
+  zone: 5-10
+  ideal_temp_min: 45
+  ideal_temp_max: 105
+  min_temp: -20
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Erosion Control
+  - Ground Cover
+  - Wildlife Attractor
+  - Ornamental
+  description: "Sand grama (Bouteloua chondrosioides) is a warm-season bunchgrass of southwestern North American grasslands and desert grasslands, bearing comb-like inflorescences on wiry stems usually 1–2 feet (30–60 cm) tall. It thrives in sandy, well-drained soils with lean fertility and rewards growers who stop fertilizing like it is corn. Use it in xeric meadows, green roofs, and any border that wants fine texture without sprinkler entitlement.\n\n☀️💧 Sun and Water Requirements:\nFull sun for flowering and drought resilience; shade yields sparse plants. Sandy, well-drained soils are ideal; tolerates alkaline conditions. Water deeply only to establish; prolonged irrigation invites weeds that outcompete lean-grass ethics.\n\n✂️ Propagation:\nSow seed in warm soil after frost risk. Divide small bunches in spring if needed. Cut back old growth in late winter for tidy designs.\n\n🌾 Harvest / Best Use Timing:\nCollect seed when comb inflorescences dry—use for restoration mixes. Leave standing material for ground-feeding birds where aesthetics allow. Peak growth follows summer heat and monsoon moisture patterns."
+  purpose: |-
+    - Erosion Control: Fibrous roots bind sandy slopes and terrace cuts in arid climates.
+    - Ground Cover: Fine texture fills gaps between larger succulents and forbs.
+    - Wildlife Attractor: Seeds feed birds; clumps shelter insects at soil level.
+    - Ornamental: Comb seed heads add graphic lines to xeric designs.
   companions:
-  - NEEDS_DATA
+  - Agave — succulent structural neighbor sharing sun and sharp drainage
+  - Purple Lovegrass — fine grass contrast with purple haze inflorescences at similar heights
+  - Prairie Coneflower — forb color verticals above low grama mounds
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Heavy clay and wet feet — decline while you buy replacement toys
+  - Overfertilization — weeds win the beauty contest
   pests:
-  - NEEDS_DATA
-  # Image attribution: No image found
-  # Image source: none
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Spider Mites
+  - Japanese Beetles
+  practitioner_notes: |-
+    Bouteloua names tangle at nurseries—this entry is Bouteloua chondrosioides for sand grama; compare inflorescence combs before arguing.
+    Monsoon timing drives growth—irrigation schedules should mimic storms, not office calendars.
+    Comb heads photograph best at backlight—midday flat light makes everyone look tired.
+    Lean soil is a feature—dumping compost defeats the plant’s whole personality.
+  growth_habit: Warm-season bunchgrass; comb inflorescences; sandy dry grasslands
+  data_quality_score: 0.79

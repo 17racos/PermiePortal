@@ -1,28 +1,44 @@
 ---
 - common_name: Jakfruit
   picture: jakfruit.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Artocarpus heterophyllus
+  aka:
+  - Jackfruit
+  - Jack tree
+  family: Moraceae
+  zone: 10-12
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 32
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Shade Provider
+  - Mulcher
+  - Animal Fodder
+  description: "Jakfruit (Artocarpus heterophyllus) is a large evergreen to briefly deciduous tree of South and Southeast Asian origin, widely planted in humid tropics for enormous compound fruits that can exceed human patience and kitchen counter space. Trees often reach 30–70 feet (9–21 m) with glossy leaves and sticky latex. It is a staple carbohydrate and fruit crop in tropical food forests where heat is reliable and frost is mythology.\n\n☀️💧 Sun and Water Requirements:\nFull sun for heavy fruiting; young trees tolerate light shade during establishment. Deep, fertile, well-drained soils with steady moisture in the warm season; tolerates short dry spells in humid air with mulch. Protect from desiccating wind on young plants.\n\n✂️ Propagation:\nGraft known cultivars for fruit quality; seedlings vary wildly. Air-layering and budding are common in the tropics. Prune for strong scaffold branches—heavy fruit punishes weak crotches.\n\n🌾 Harvest / Best Use Timing:\nHarvest when odor and color shift per cultivar cues; unripe fruit cooks as vegetable, ripe fruit as dessert chaos. Sap sticks to tools and pride—oil blades and gloves. Process quickly in heat to avoid fermentation surprises."
+  purpose: |-
+    - Edible: Immature and mature stages diversify meals from curries to sweets on one tree.
+    - Shade Provider: Broad canopy shelters understory in humid tropical polycultures.
+    - Mulcher: Large leaves build biomass for chop-and-drop when cycled responsibly.
+    - Animal Fodder: Seeds and surplus pulp can feed livestock where local practice supports safe use.
   companions:
-  - NEEDS_DATA
+  - Banana — fast biomass neighbor during jackfruit establishment years
+  - Papaya — early fruiting gap-filler before jack canopy closes the sky
+  - Lemongrass — perimeter herb marking irrigation without competing for crown space
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Falling fruit — serious kinetic hazard; site away from roofs and naive pathways
+  - Latex sensitivity — sap irritates skin and tools; plan cleanup like an adult
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Brieuc Fertard, some rights reserved (CC BY-NC-ND), uploaded by Brieuc Fertard
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Mealybugs
+  practitioner_notes: |-
+    Fruit weight tests branches and marriages—thin young fruit for training years.
+    Jackfruit chips are a religion; ripe pods are another—know your cultivar’s destiny.
+    Rats climb for immature fruit—trunk guards beat wishful thinking.
+    Container culture is bonsai comedy—roots want continents, not patios.
+  growth_habit: Large tropical Moraceae tree; huge syncarp fruit; glossy leaves; humid lowland adapted
+  data_quality_score: 0.84

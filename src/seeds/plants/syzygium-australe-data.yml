@@ -1,28 +1,46 @@
 ---
 - common_name: Syzygium australe
   picture: syzygium_australe.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Syzygium australe
+  aka:
+  - Brush Cherry
+  - Lilly Pilly
+  family: Myrtaceae
+  zone: 9-11
+  ideal_temp_min: 50
+  ideal_temp_max: 95
+  min_temp: 26
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Border Plant
+  - Ornamental
+  description: "Syzygium australe is an Australian rainforest margin tree or hedge plant, widely sold as brush cherry or lilly pilly, with glossy leaves, fluffy white flowers, and crisp pink to magenta fruit used in jams and sauces where acidity is balanced. Plants reach 15–40 feet (4.5–12 m) depending on cultivar and pruning. It responds well to shearing for screens while still feeding birds when fruit is allowed to ripen.\n\n☀️💧 Sun and Water Requirements:\nFull sun to bright partial shade; best fruiting in strong light with steady moisture. Rich, well-drained soils suit it; mulch to buffer roots in heat. Wind protection reduces leaf tatter; short drought once established is tolerated with tip burn honesty.\n\n✂️ Propagation:\nSow fresh seed; semi-hardwood cuttings for hedge clones. Prune hedges after flowering waves to maintain density without interior dieback.\n\n🌾 Harvest / Best Use Timing:\nPick fruit when color deepens and flesh yields slightly—process quickly into sauces or ferments. Peak loads track warm wet periods rather than temperate calendars."
+  purpose: |-
+    - Edible: Fruit supports jams and beverages where sugar balances natural tartness.
+    - Wildlife Attractor: Flowers feed bees; fruit feeds birds when sharing is intentional.
+    - Border Plant: Tolerates shearing into formal or informal screens.
+    - Ornamental: New growth flushes add color to subtropical hedgerows.
   companions:
-  - NEEDS_DATA
+  - Syzygium smithii — related lilly pilly with different texture for staggered hedge layers
+  - Lemongrass — perimeter herb marking irrigation lines along driplines
+  - Carambola Tree — taller fruiting neighbor contrasting canopy height in mixed guilds
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Myrtle rust policies vary—monitor foliage and follow regional extension guidance
+  - Psyllid damage on some clones—choose resistant cultivars where available
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Reiner Richter, some rights reserved (CC BY-NC-SA), uploaded by Reiner Richter
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Aphids
+  - Whiteflies
+  practitioner_notes: |-
+    Latin-first common name matches the file—this is the brush cherry complex Syzygium australe.
+    Hedge shears create dense shells—thin interiors after rainy spells to deny fungal apartments.
+    Fruit flies follow ground drops—sanitize like a professional or accept larvae lottery.
+    Psyllid pockmarks are a cultivar conversation—research before mass planting a hedge army.
+  growth_habit: Evergreen myrtle tree-shrub; hedge-friendly; edible pink-magenta fruit
+  data_quality_score: 0.78

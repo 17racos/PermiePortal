@@ -1,28 +1,67 @@
 ---
 - common_name: Allegheny Stonecrop
   picture: allegheny_stonecrop.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Hylotelephium telephioides
+  aka:
+  - Allegheny Live-forever
+  - Orpine
+  family: Crassulaceae
+  zone: 3-8
+  ideal_temp_min: 60
+  ideal_temp_max: 80
+  min_temp: -35
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Ground Cover
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ground Cover
+  - Ornamental
+  - Pollinator
+  - Erosion Control
+  - Dynamic Accumulator
+  description: "Allegheny stonecrop (Hylotelephium telephioides) is a hardy succulent
+    perennial of rocky eastern North American outcrops, forming clumps of blue-green,
+    toothed leaves and broad flat heads of pale pink to white flowers that pull late-season
+    pollinators. Plants typically stay under 18 inches (45 cm) in flower with a slowly
+    spreading base—useful on lean soil where thirsty ground covers throw tantrums.
+    In permaculture it is a low-input filler for sun-baked edges, green roofs, and
+    stonework where organic matter accumulates slowly but steadily.\n\n☀️💧 Sun and
+    Water Requirements:\nFull sun to light partial shade; dense shade stretches stems
+    and reduces flowering. Extremely drought-tolerant once rooted; prefers gritty,
+    well-drained soil and tolerates poor, shallow substrates. Winter wet on heavy
+    clay without slope or amendment can rot crowns—add gravel or plant higher.\n\n
+    ✂️ Propagation:\nDivide clumps in spring as new shoots emerge or after flowering
+    in early fall while soil remains warm. Detach rosette offsets with a bit of stem
+    and root; pot briefly if the bed is not ready. Stem-tip cuttings taken in summer
+    root quickly in sharp sand under bright indirect light.\n\n🌾 Harvest / Best Use
+    Timing:\nNot a primary food crop for most systems—value is ecological and visual.
+    If experimenting with edible uses, research species-specific guidance first; focus
+    harvest timing on leaving plenty for pollinators during peak bloom."
+  purpose: |-
+    - Ground Cover: Succulent mats cover bare mineral soil where conventional covers cook or rot.
+    - Ornamental: Late flowers and fleshy foliage add texture to rock gardens and dry borders.
+    - Pollinator: Flat flower clusters offer accessible nectar for bees and flies in late season.
+    - Erosion Control: Roots knit shallowly into crevices, slowing wash on slopes and wall bases.
+    - Dynamic Accumulator: Captures nutrients from dust and thin soil pockets into leaf tissue that recycles on drop.
   companions:
-  - NEEDS_DATA
+  - Yarrow — matches dry sun and brings complementary umbels without shading stonecrop flat
+  - Little Bluestem — warm-season grass adds vertical contrast and shares lean-soil honesty
+  - Creeping Thyme — low aromatic mat fills micro-niches between stones while stonecrop handles taller nooks
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Over-irrigation on clay — winter-saturated crowns rot while labels still say drought tolerant
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Mealybugs
+  - Slugs
+  practitioner_notes: |-
+    If stems flop, the site is probably too rich and too wet—stonecrop prefers neglect with drainage.
+    Deer occasionally browse tender spring growth; rough texture usually wins later in the year.
+    Flowers age to copper seedheads—leave them if you like winter structure and bird perches.
+    Divide before the center dies out; old mats hollow like a donut without occasional surgery.
+  growth_habit: Clumping succulent perennial; cymes of small starry flowers; dry rocky niches
+  data_quality_score: 0.8
   # Image attribution: (c) Tiffany Moldenhauer, some rights reserved (CC BY-NC), uploaded by Tiffany Moldenhauer
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

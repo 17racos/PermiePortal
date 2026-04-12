@@ -1,28 +1,41 @@
 ---
-- common_name: Yellow Waterlily
+- common_name: Yellow Water Lily
   picture: yellow_waterlily.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Nymphaea mexicana
+  aka:
+  - Yellow Pond Lily
+  family: Nymphaeaceae
+  zone: 8-12
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 15
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Aquatic
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Aquatic
+  - Ornamental
+  - Wildlife Attractor
+  - Edible
+  description: "Yellow water lily (Nymphaea mexicana) is a tropical to subtropical aquatic perennial with floating round leaves and bright yellow flowers held above the water on long peduncles. Plants spread by rhizomes through shallow ponds and constructed water gardens, providing shade that moderates algae and cover for fish and invertebrates. Some cultures use plant parts in traditional foods—verify safety, water quality, and regulations before harvesting.\n\n☀️💧 Sun and Water Requirements:\nFull sun for maximum flowering; too much shade reduces bud count. Still, shallow freshwater over rich bottom muck—typically 6–24 inches (15–60 cm) of water above rhizomes in warm months—is the basic contract. Avoid moving water so fast it tears leaves; avoid saltwater.\n\n✂️ Propagation:\nDivide rhizomes when water warms; anchor sections in containers for controlled ponds. Sow seed only where local rules allow collection and sale.\n\n🌾 Harvest / Best Use Timing:\nOrnamental use is primary—edible traditions vary by culture and must be researched carefully. Peak bloom tracks heat and long days in tropical and subtropical climates."
+  purpose: |-
+    - Aquatic: Floating leaves shade water, reduce algae pressure, and provide attachment for eggs.
+    - Ornamental: Yellow flowers anchor pond focal points in warm-climate gardens.
+    - Wildlife Attractor: Flowers feed pollinators; pads shelter small aquatic fauna.
+    - Edible: Some traditions use plant parts—only with vetted preparation and clean water.
   companions:
-  - NEEDS_DATA
+  - Pickerelweed — emergent neighbor at pond margins sharing freshwater sun
+  - Duckweed — floating layer in open water between lily pads where managed for poultry or fish
+  - Cattail — edge species at the wetland interface beyond deeper lily zones
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests:
-  - NEEDS_DATA
-  # Image attribution: (c) thubbbell, some rights reserved (CC BY-NC)
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Invasive potential in sensitive wetlands—check regulations before introducing outside native range
+  - Water quality — edible use requires knowing what upstream landowners apply
+  pests: []
+  practitioner_notes: |-
+    Species names shift in commerce—this entry uses Nymphaea mexicana for a common yellow tropical lily; verify flowers and rhizome habit against nursery tags.
+    Containers prevent lily coups across the whole pond—lazy naturalizing becomes expensive diplomacy.
+    Fish love shade—leaves beat algae in honest water-garden accounting.
+    Herbicide drift from adjacent turf ends the lily fairytale—buffer with distance or diplomacy.
+  growth_habit: Rhizomatous aquatic; floating leaves; yellow flowers; warm ponds
+  data_quality_score: 0.78

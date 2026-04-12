@@ -1,28 +1,68 @@
 ---
 - common_name: Cloudberry
   picture: cloudberry.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Rubus chamaemorus
+  aka:
+  - Bakeapple
+  - Arctic Raspberry
+  family: Rosaceae
+  zone: 2-7
+  ideal_temp_min: 45
+  ideal_temp_max: 65
+  min_temp: -40
+  max_temp: 80
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Ground Cover
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Ground Cover
+  - Ornamental
+  - Erosion Control
+  description: "Cloudberry (Rubus chamaemorus) is a circumboreal rhizomatous bramble
+    of sphagnum bogs, fens, and wet tundra edges, producing single white flowers on
+    dioecious or functionally dioecious plants and amber to red aggregate fruit prized
+    where jams and sauces tradition still exists. Leaves are crinkled and maple-like;
+    height is low, usually under 12 inches (30 cm) excluding flower stalks. In cool,
+    acidic, high-water-table sites it is a delicacy crop and wildlife food—not a row-crop
+    berry for hot, dry backyards without serious habitat mimicry.\n\n☀️💧 Sun and Water
+    Requirements:\nFull sun in boreal climates; partial shade where heat spikes occur
+    at the southern edge of range. Requires consistently moist, acidic organic soils
+    resembling bog conditions; drainage must still allow oxygen between waterings in
+    constructed beds. Warm, dry summers stress plants; afternoon shade and mulch help
+    marginally hardy plantings.\n\n✂️ Propagation:\nDivide rhizomes in early spring
+    with buds attached; keep both sexes if fruit is the goal. Sow seed after cold stratification
+    for breeding—seedlings take years to fruit. Peat-sand beds with steady moisture mimic
+    natural rooting zones better than average garden loam.\n\n🌾 Harvest / Best Use Timing:\n
+    Pick berries when color fully shifts toward amber-orange and they detach willingly;
+    flavor is tart-apricot. Process quickly into jam or freeze; fresh shelf life is
+    short. Leave a percentage for wildlife where harvest ethics include rent payment."
+  purpose: |-
+    - Edible: Fruit makes prized preserves where plants receive the bog-like conditions they demand.
+    - Wildlife Attractor: Flowers and fruit feed insects, birds, and mammals across boreal food webs.
+    - Ground Cover: Low rhizomes knit acid peat gardens and constructed bog filters.
+    - Ornamental: Crinkled foliage and bright fruit add honest texture to specialized beds.
+    - Erosion Control: Rhizomes stabilize saturated organic soils where turf rots theatrically.
   companions:
-  - NEEDS_DATA
+  - Highbush Cranberry — shares acidic, moist cold-climate edge plantings with staggered fruit timing
+  - Leatherleaf Fern — evergreen texture in boggy margins without shading cloudberries flat
+  - Cinnamon Fern — tall fronds provide dappled shade at the warm edge of the range
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Both sexes needed — plant male and female clones if fruit is the objective on dioecious lines
+  - Warm, dry summer sites — failure is habitat mismatch, not personal worth
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) vladimir_korotkov, some rights reserved (CC BY-NC), uploaded by vladimir_korotkov
+  - Japanese Beetles
+  - Aphids
+  - Spider Mites
+  practitioner_notes: |-
+    Dioecious reality means one plant rarely fruits—order labeled sexes or accept ornithology-only yields.
+    Constructed bog beds need living sphagnum or peat ethics you can defend to your watershed.
+    Southern-range heat makes berries shy; afternoon shade and misting help only so much.
+    Picking on public land may be regulated—permits beat confiscation stories.
+  growth_habit: Low rhizomatous Rubus of bogs; maple-like leaves; amber-orange berries
+  data_quality_score: 0.8
+  # Image attribution: (c) Wendy Feltham, some rights reserved (CC BY-NC), uploaded by Wendy Feltham
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

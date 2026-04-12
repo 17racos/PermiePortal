@@ -1,28 +1,65 @@
 ---
 - common_name: Cannonball Tree
   picture: cannonball_tree.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Couroupita guianensis
+  aka:
+  - Ayahuma
+  family: Lecythidaceae
+  zone: 10b-12
+  ideal_temp_min: 72
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ornamental
+  - Wildlife Attractor
+  - Shade Provider
+  - Mulcher
+  - Medicinal
+  description: "Cannonball tree (Couroupita guianensis) is a large tropical tree of
+    northern South America and parts of Central America and the Caribbean, famous
+    for spherical woody fruits resembling cannonballs and fragrant flowers borne on
+    trunk and branches (cauliflory). It reaches 80–115 feet (24–35 m) in forest openings
+    with a spreading crown. In botanic gardens and spacious tropical landscapes it is
+    a spectacle and bat-pollination case study—not a tree for tiny lots or people who
+    park cars under anything that drops multi-pound spheres.\n\n☀️💧 Sun and Water Requirements:\n
+    Full sun for flowering; young trees appreciate wind protection. Prefers deep, fertile,
+    well-drained soils with steady moisture in the warm season. Drought during establishment
+    stunts growth; mature trees tolerate short dry periods with leaf shed. Frost near
+    32°F (0°C) damages soft growth.\n\n✂️ Propagation:\nSow fresh seed; viability drops
+    if seed dries too long. Provide heat and humidity for germination. Prune for clearance
+    under fruiting zones; wear hard hats where fruits mature overhead—physics does not
+    negotiate.\n\n🌾 Harvest / Best Use Timing:\nFruits are not human snacks; value
+    is ecological and ornamental. Traditional medicinal references exist—follow trained
+    guidance, not tourism blogs. Remove fallen fruit from paths to prevent ankle disputes
+    with gravity."
+  purpose: |-
+    - Ornamental: Flowers and fruits are dramatic landscape features in suitable climates and space.
+    - Wildlife Attractor: Bats and other pollinators service night-fragrant flowers; fruits engage large animals where native.
+    - Shade Provider: Broad canopy cools understory in humid tropical sites.
+    - Mulcher: Heavy leaf and bract drop feeds soil fauna when left on site.
+    - Medicinal: Plant parts appear in traditional systems where legality and expertise apply.
   companions:
-  - NEEDS_DATA
+  - Lemongrass — perimeter clump marks safe walking zones away from falling fruit
+  - Turmeric — shade-tolerant herb layer along northern margins with mulch
+  - Papaya — uses vertical light differently in early succession before cannonball crowns expand
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Falling fruit hazard — plant away from paths, vehicles, and fragile egos
+  - Sap and plant chemistry — handle unknown tissues with respect and gloves
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Laura Gómez Devia, all rights reserved, uploaded by Laura Gómez Devia
+  - Scale Insects
+  - Mealybugs
+  - Aphids
+  practitioner_notes: |-
+    Flowers smell incredible at night—neighbors may ask what died; explain bat business calmly.
+    Fruit impact energy exceeds coconut memes in small yards—site like you mean it.
+    Seedlings want humidity, not your desk—greenhouse conditions beat windowsill martyrdom.
+    Cauliflory means blooms on old wood—do not skin-trunk prune for fashion.
+  growth_habit: Huge tropical tree; cauliflorous flowers; large spherical woody fruit
+  data_quality_score: 0.76
+  # Image attribution: (c) Wendy Feltham, some rights reserved (CC BY-NC), uploaded by Wendy Feltham
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

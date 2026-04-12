@@ -1,28 +1,45 @@
 ---
 - common_name: Pear Hawthorn
   picture: pear_hawthorn.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Crataegus calpodendron
+  aka:
+  - Pear-Fruited Hawthorn
+  family: Rosaceae
+  zone: 5-8
+  ideal_temp_min: 35
+  ideal_temp_max: 90
+  min_temp: -25
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Wildlife Attractor
+  - Edible
+  - Erosion Control
+  - Border Plant
+  description: "Pear hawthorn (Crataegus calpodendron) is a North American hawthorn of woodland openings, recognized for larger, pear-shaped yellow to bronzy fruit and the usual white spring flower clusters of the genus. It grows as a large shrub or small tree roughly 15–25 feet (4.5–7.5 m), with thorny architecture that rewards honest pruning plans. In hedgerow design it extends the hawthorn toolkit for bird food and early nectar beyond tiny pome species.\n\n☀️💧 Sun and Water Requirements:\nFull sun to partial shade; best fruiting with strong light. Moist, well-drained loam mimics woodland edge; tolerates seasonal dryness once established with mulch. Avoid compacted swales that stay soggy through warm weather.\n\n✂️ Propagation:\nStratify seed 90–120 days cold-moist before spring sowing. Graft or bud known selections if you find superior fruit. Prune for an open vase shape to reduce leaf wetness duration after rains.\n\n🌾 Harvest / Best Use Timing:\nCollect fruit when color shifts fully and flesh yields slightly—haw pomes vary in astringency. Process into jellies or experimental ferments; do not expect pear-crisp texture despite the common name. Leave some fruit for wildlife queues."
+  purpose: |-
+    - Wildlife Attractor: Flowers support early-season pollinators; fruit feeds birds through cold months when left standing.
+    - Edible: Larger pomes improve jelly yield compared with many tiny-fruited hawthorns.
+    - Erosion Control: Root system stabilizes cuts and terrace toes in partial shade.
+    - Border Plant: Thorns and dense branching define property lines when maintained.
   companions:
-  - NEEDS_DATA
+  - Serviceberry — earlier bloom and softer fruit in the same edge guild
+  - Wild Plum — thicket neighbor extending successional fruit for wildlife
+  - Beautyberry — late color and bird food beneath hawthorn canopy edges
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Fire Blight — prune strikes during dry weather; sanitize tools between cuts
+  - Hawthorn species hybridize—plant named stock if genetic purity matters to your conservation ethic
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Georgia Judith, all rights reserved, uploaded by Georgia Judith
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Fire Blight
+  - Japanese Beetles
+  - Aphids
+  practitioner_notes: |-
+    Crataegus taxonomy is a personality test—this entry uses Crataegus calpodendron for pear hawthorn; confirm with regional keys.
+    Fruit astringency is real—sugar and time are not optional in the pot.
+    Cedar-apple rust theater needs two hosts—design Rosaceae away from alternate junipers when possible.
+    Thorns punish casual pruning—wear gloves that mean it.
+  growth_habit: Thorny deciduous small tree; white flower clusters; large yellow-brown pomes
+  data_quality_score: 0.77

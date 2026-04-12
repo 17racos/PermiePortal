@@ -1,28 +1,45 @@
 ---
 - common_name: Panama Candle Tree
   picture: panama_candle_tree.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Parmentiera cereifera
+  aka:
+  - Candle Tree
+  - Guajilote
+  family: Bignoniaceae
+  zone: 10b-13
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 30
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Shade Provider
+  - Wildlife Attractor
+  description: "Panama candle tree (Parmentiera cereifera) is a slow-growing tropical tree famous for cauliflorous, cucumber-shaped green fruits that hang like tapered candles from trunk and older branches. Native to Central America, it reaches 20–40 feet (6–12 m) in cultivation, with compound leaves and a narrow crown useful in tight lots. The crisp fruit is eaten raw or pickled where traditions exist, and the tree doubles as a conversation piece in humid lowland food forests.\n\n☀️💧 Sun and Water Requirements:\nFull sun after establishment; young plants appreciate light shade during the hottest months. Rich, well-drained soils with steady moisture through the warm wet season and irrigation in dry spells support fruit sizing. Wind protection helps large leaflets; avoid salt spray and chronically waterlogged roots.\n\n✂️ Propagation:\nSow fresh seed; germination improves with warmth and humidity. Graft or air-layer selections with superior fruit quality. Prune for clearance along walkways where dangling fruit could head-butt humans.\n\n🌾 Harvest / Best Use Timing:\nPick fruits when firm-green for crunchy use; timing is read from size and gloss rather than calendar months. Process pickles quickly; thin skin loses water in refrigeration wars. Peak production follows heat and rainfall cycles typical of tropical lowlands."
+  purpose: |-
+    - Edible: Crisp green fruits add novelty to salads and pickles where acidity balances the cucumber vibe.
+    - Ornamental: Cauliflorous habit and pendant fruits steal attention in botanical and home landscapes.
+    - Shade Provider: Open crown gives dappled shade for understory herbs during juvenile years.
+    - Wildlife Attractor: Flowers engage pollinators; fallen fruit feeds ground fauna if sanitation is relaxed.
   companions:
-  - NEEDS_DATA
+  - Cacao — shade-tolerant understory tree appreciating broken light from a narrow high crown
+  - Papaya — fast fruiting neighbor using vertical space while the candle tree slowly raises its crown
+  - Ginger — rhizome groundcover along the dripline where irrigation is already managed
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Frost — young growth burns near 32°F (0°C); not a marginal-subtropical gamble without protection
+  - Falling fruit — site away from vehicle glass and human foreheads
   pests:
-  - NEEDS_DATA
-  # Image attribution: No image found
-  # Image source: none
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Aphids
+  - Whiteflies
+  practitioner_notes: |-
+    Cauliflorous fruit looks fake to newcomers—label photos or accept endless “is that plastic?” questions.
+    Slow juvenile phase tests patience—mulch and mycorrhizae beat nitrogen tantrums.
+    Pickle recipes vary by village—test pH and salt like a scientist, not a meme.
+    Narrow crown fits urban lots—roots still deserve mulch, not pavement hugging.
+  growth_habit: Slow tropical tree; compound leaves; elongated green cauliflorous fruit
+  data_quality_score: 0.77

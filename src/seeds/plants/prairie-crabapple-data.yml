@@ -1,28 +1,45 @@
 ---
 - common_name: Prairie Crabapple
   picture: prairie_crabapple.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Malus ioensis
+  aka:
+  - Iowa Crab
+  - Wild Sweet Crabapple
+  family: Rosaceae
+  zone: 4-8
+  ideal_temp_min: 35
+  ideal_temp_max: 90
+  min_temp: -35
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Pollinator
+  - Border Plant
+  description: "Prairie crabapple (Malus ioensis) is a small native tree of central North American prairies and savannas, famous for fragrant pink spring blossoms and small yellow-green fruit that hangs into winter for birds. Heights of 15–25 feet (4.5–7.5 m) are typical, often with a broad crown and occasional thorns on wild forms. It is a hardy rootstock candidate, hedgerow anchor, and pollinizer for orchard apples where cross-compatibility is confirmed.\n\n☀️💧 Sun and Water Requirements:\nFull sun for best flowering and fruiting; tolerates light shade with fewer blooms. Average to moist, well-drained soils suit it; tolerates clay if drainage is not stagnant. Mulch to reduce grass competition while young; deep watering speeds establishment in dry years.\n\n✂️ Propagation:\nSow stratified seed; seedlings vary in thorniness and fruit quality. Graft cultivars onto seedling roots for predictable ornament or fruit. Prune for an open vase shape to improve airflow and reduce scab pressure.\n\n🌾 Harvest / Best Use Timing:\nFruit is small and tart—jelly, pectin, and wildlife food are honest uses. Pick after color ripens and before complete bird depredation if humans want a share. Bloom timing tracks local spring warmth after hard freezes near 24°F (-4°C) risk passes."
+  purpose: |-
+    - Edible: Fruit supports jellies and ferments where sugar and acid balance are planned, not hoped for.
+    - Wildlife Attractor: Flowers feed early pollinators; fruit feeds birds through lean seasons.
+    - Pollinator: Profuse bloom provides pollen and nectar in savanna restoration blocks.
+    - Border Plant: Small stature suits fencelines and windbreak understory without shading entire fields.
   companions:
-  - NEEDS_DATA
+  - Wild Plum — thicket neighbor extending fruit succession and pollinizer overlap
+  - Serviceberry — earlier bloom sequence in the same edge guild
+  - Pale Purple Coneflower — forb layer beneath open canopy where light still reaches ground
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Fire Blight — prune strikes in dry weather; sanitize tools between cuts
+  - Thorny wild forms — plan paths before planting seedling lottery surprises
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Ron Chang (curated by Cat Chang), some rights reserved (CC BY-NC), uploaded by Ron Chang (curated by Cat Chang)
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Fire Blight
+  - Apple Maggot
+  - Japanese Beetles
+  practitioner_notes: |-
+    Orchard apple pollination overlap varies—test fruit set before betting the farm on a single pollinizer row.
+    Birds own the fruit ledger—net only if your ethics and regulations allow, otherwise cook small batches.
+    Cedar-apple rust needs two hosts—separate new plantings from alternate junipers when disease pressure is high.
+    Thorny seedlings defend themselves—train leaders young or wear gloves that mean it.
+  growth_habit: Small deciduous tree; fragrant pink bloom; small persistent crabapples; savanna and prairie edge
+  data_quality_score: 0.81

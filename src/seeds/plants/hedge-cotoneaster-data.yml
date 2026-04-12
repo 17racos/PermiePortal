@@ -1,28 +1,44 @@
 ---
 - common_name: Hedge Cotoneaster
   picture: hedge_cotoneaster.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Cotoneaster lucidus
+  aka:
+  - Shiny cotoneaster
+  - Peking cotoneaster
+  family: Rosaceae
+  zone: 5-8
+  ideal_temp_min: 45
+  ideal_temp_max: 85
+  min_temp: -25
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ornamental
+  - Wildlife Attractor
+  - Border Plant
+  - Erosion Control
+  description: "Hedge cotoneaster (Cotoneaster lucidus) is an upright deciduous to semi-evergreen shrub from East Asia, widely used in temperate hedges for glossy dark green leaves, small pink-white flowers, and persistent red berries into winter. Plants commonly reach 6–10 feet (1.8–3 m) if unpruned. It tolerates clipping and provides dense structure for wind buffering and wildlife snacks where the species is not listed as problematic.\n\n☀️💧 Sun and Water Requirements:\nFull sun for best fruiting and compact habit; partial shade works but reduces berries. Average, well-drained soils; tolerates urban conditions once established. Avoid waterlogged sites that invite root rots masked as sudden death.\n\n✂️ Propagation:\nSemi-hardwood cuttings root under mist in summer. Sow seed after stratification if experimenting with seedlings—cultivars should be cloned. Shear formally or rejuvenate old hedges with staged hard pruning in late winter.\n\n🌾 Harvest / Best Use Timing:\nBerries persist for winter interest and bird food—delay heavy shearing until after wildlife use if possible. Flowers are modest; fruit is the winter paycheck. Prune crossing branches inside hedges to maintain airflow."
+  purpose: |-
+    - Ornamental: Glossy foliage and red winter berries give structure when deciduous neighbors are naked.
+    - Wildlife Attractor: Fruit feeds birds; flowers support pollinators in late warm season.
+    - Border Plant: Shearable habit defines property lines and screens without solid walls.
+    - Erosion Control: Fibrous roots stabilize slopes when planted in masses on well-drained soils.
   companions:
-  - NEEDS_DATA
+  - Lavender — sun-loving front edge with contrasting texture along informal hedge faces
+  - Rosemary — drought-tolerant accent at corners where drainage is sharp
+  - Yarrow — shallow insectary layer along the hedge toe that tolerates sun and occasional drought
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Invasive in some regions — verify local weed lists before mass planting near natural areas
+  - Fire Blight — rosaceous risk in humid climates; prune out strikes with clean tools
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Eugene Lobachov, all rights reserved, uploaded by Eugene Lobachov
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Fire Blight
+  - Scale Insects
+  practitioner_notes: |-
+    Hedge aesthetics require scheduling—neglect turns formal geometry into abstract regret.
+    Birds plant seedlings in walls and gutters—edit volunteers before masonry cracks argue back.
+    Gloss reads clean; spider mites read fine print on dusty leaves—wash foliage occasionally.
+    If your locality bans Cotoneaster, obey—the nursery discount is not worth the ecology invoice.
+  growth_habit: Upright shrub; glossy leaves; small flowers; persistent red berries; hedge tolerant
+  data_quality_score: 0.77

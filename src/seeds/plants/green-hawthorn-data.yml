@@ -1,28 +1,45 @@
 ---
 - common_name: Green Hawthorn
   picture: green_hawthorn.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Crataegus viridis
+  aka:
+  - Southern thorn
+  - Winterberry hawthorn
+  family: Rosaceae
+  zone: 5-9
+  ideal_temp_min: 50
+  ideal_temp_max: 90
+  min_temp: -15
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Erosion Control
+  - Border Plant
+  description: "Green hawthorn (Crataegus viridis) is a deciduous rosaceous tree or large shrub of southeastern and eastern North American lowlands, river margins, and old fields, bearing glossy green leaves, white spring blossoms, and red to orange haws. Heights of 20–35 feet (6–10.5 m) are common in open conditions. It is a thorny, wildlife-friendly edge species for hedgerows and restoration mixes in humid temperate to subtropical climates.\n\n☀️💧 Sun and Water Requirements:\nFull sun to light shade; more sun improves flowering and fruit. Tolerates moist soils and periodic inundation better than many hawthorns, yet still needs oxygenated root zones between flood pulses. Mulch young trees to reduce competition from turf.\n\n✂️ Propagation:\nSow seed following standard Crataegus stratification protocols. Field-collect local ecotypes for restoration fidelity. Prune for open vase shape to improve airflow in humid climates.\n\n🌾 Harvest / Best Use Timing:\nCollect haws when fully colored for jelly experiments—flavor varies by genotype. Leave fruit for migrating birds when your pantry is full. Inspect thorny branches before reaching—blood donations are optional."
+  purpose: |-
+    - Edible: Haws process like other hawthorns where sugar and acid are respected.
+    - Wildlife Attractor: Flowers and fruit support insects and birds across seasons.
+    - Erosion Control: Roots stabilize banks and wet edges prone to animal shortcuts.
+    - Border Plant: Thorns create honest boundaries along fencerows.
   companions:
-  - NEEDS_DATA
+  - American Plum — rosaceous partner with earlier bloom in the same hedgerow rhythm
+  - Elderberry — fast shrub layer with complementary flowers without identical pest timing
+  - Serviceberry — adds earlier fruit for wildlife and staggered bloom for pollinators
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Fire Blight — monitor for blighted tips in humid springs; prune with sanitation
+  - Wet feet without flow — stagnant anaerobic muck still kills roots despite “moisture loving” tags
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Matt Tomlinson, some rights reserved (CC BY-NC), uploaded by Matt Tomlinson
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Fire Blight
+  - Scale Insects
+  practitioner_notes: |-
+    “Green” refers to winter foliage behavior in some discussions—verify ID with local keys.
+    Thorns punish casual pruning—plan cuts, then execute with gloves.
+    Haw jelly clarity rewards patience; cheesecloth is cheaper than regret.
+    Local ecotype seed beats generic bags for wildlife timing fidelity.
+  growth_habit: Thorny deciduous tree; glossy leaves; red-orange haws; moist woods and edges
+  data_quality_score: 0.77

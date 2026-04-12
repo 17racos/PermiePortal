@@ -1,28 +1,45 @@
 ---
 - common_name: Rough Blazingstar
   picture: rough_blazingstar.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Liatris aspera
+  aka:
+  - Tall Gayfeather
+  - Button Blazing Star
+  family: Asteraceae
+  zone: 3-8
+  ideal_temp_min: 40
+  ideal_temp_max: 95
+  min_temp: -35
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Wildlife Attractor
+  - Ornamental
+  - Erosion Control
+  description: "Rough blazingstar (Liatris aspera) is a taprooted prairie perennial of central and eastern North America, with stiff, rough leaves and tall spikes of purple florets opening top-down in late summer. Plants reach 2–4 feet (60–120 cm), often on dry slopes and sandy soils where less rugged forbs surrender. It is a monarch-supporting landscape companion when combined with milkweeds, and a vertical accent in meadow mixes that refuse irrigation.\n\n☀️💧 Sun and Water Requirements:\nFull sun for upright stems and dense spikes; shade invites leaning and fewer flowers. Dry to average, well-drained soils are native truth; tolerates drought once established. Avoid wet clay that rots taproots; mulch lightly without burying crowns.\n\n✂️ Propagation:\nSow seed with cold-moist stratification or direct-sow in fall. Division is difficult due to taproot—prefer seed for large areas. Cut old stems in late winter if tidy gardens matter; otherwise leave for insects.\n\n🌾 Harvest / Best Use Timing:\nCut flowering stems for dried arrangements when color holds along the spike. Leave seed heads for finches. Bloom peaks in late warm season when many early flowers have retired."
+  purpose: |-
+    - Pollinator: Late-season nectar supports bees and butterflies during a critical energy window.
+    - Wildlife Attractor: Seeds feed birds; standing stems shelter beneficial insects if not mowed flat.
+    - Ornamental: Tall purple wands add rhythm between grasses and shorter forbs.
+    - Erosion Control: Taproot anchors dry, disturbed slopes better than shallow annuals.
   companions:
-  - NEEDS_DATA
+  - Little Bluestem — drought-class grass matrix sharing sun and drainage
+  - Milkweed — complementary forb for monarch habitat with earlier-season host needs
+  - Prairie Blazingstar — related Liatris extending color blocks across staggered bloom times
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Wet clay and irrigation addiction—taproot species rot while you blame genetics
+  - Rough leaves irritate bare arms—long sleeves beat dramatic bandaging later
   pests:
-  - NEEDS_DATA
-  # Image attribution: Francisco Emilio Roldán Velasco / Wikimedia Commons / CC BY 4.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Japanese Beetles
+  - Powdery Mildew
+  practitioner_notes: |-
+    Leaf texture is sandpapery honesty—if it feels smooth, you probably grabbed the wrong Liatris.
+    Goldfinches shred seed heads—decide bouquets versus bird payroll before peak fluff.
+    Taprooted plants hate casual transplanting—direct seed or move babies only.
+    Late bloom fills the nectar gap—pair with early forbs so pollinators never ghost your yard.
+  growth_habit: Taprooted perennial; rough leaves; tall purple spikes; dry prairie and savanna
+  data_quality_score: 0.81

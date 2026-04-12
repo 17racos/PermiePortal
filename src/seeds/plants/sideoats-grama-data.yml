@@ -1,28 +1,44 @@
 ---
 - common_name: Sideoats Grama
   picture: sideoats_grama.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Bouteloua curtipendula
+  aka:
+  - Side-Oats Grama
+  family: Poaceae
+  zone: 4-9
+  ideal_temp_min: 40
+  ideal_temp_max: 100
+  min_temp: -30
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Erosion Control
+  - Wildlife Attractor
+  - Ornamental
+  - Biomass
+  description: "Sideoats grama (Bouteloua curtipendula) is a warm-season bunchgrass of North American prairies and rocky slopes, famous for oat-like spikelets hanging to one side of arching stems, usually 1–3 feet (30–90 cm) tall. It thrives in sun and lean soils, providing high-quality native forage and ornamental finesse in meadow mixes. Deep roots tolerate drought once established, while aerial seed stalks catch light like copper jewelry.\n\n☀️💧 Sun and Water Requirements:\nFull sun for flowering and upright habit; shade reduces seed production. Well-drained, average to lean soils suit it; tolerates alkaline rocky sites. Water to establish; avoid chronic irrigation that invites weeds.\n\n✂️ Propagation:\nSow seed in warm soil after frost risk. Divide bunches in spring if needed. Cut back old growth in late winter.\n\n🌾 Harvest / Best Use Timing:\nCollect seed when spikelets dry tan for restoration mixes. Leave standing for birds through winter if allowed. Peak growth follows summer heat."
+  purpose: |-
+    - Erosion Control: Fibrous roots stabilize rocky slopes and terrace cuts in sunny exposures.
+    - Wildlife Attractor: Seeds feed birds; foliage supports skipper butterflies and other insects.
+    - Ornamental: Pendant spikelets add graphic detail to prairie-inspired borders.
+    - Biomass: Contributes fine-textured mulch residue when cut and dropped in place.
   companions:
-  - NEEDS_DATA
+  - Little Bluestem — complementary warm-season grass texture in mixed prairie matrices
+  - Prairie Coneflower — forb neighbor with bold flowers above low grama clumps
+  - Milkweed — pollinator forb pairing for monarch habitat strips
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Wet clay — poor performance and rot compared with sandier brethren
+  - Overfertilization — weeds outcompete lean-grass philosophy
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) psweet, some rights reserved (CC BY-SA), uploaded by psweet
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Spider Mites
+  - Japanese Beetles
+  practitioner_notes: |-
+    One-sided inflorescences are the handshake ID—symmetrical imposters belong to different grasses.
+    Skipper larvae use grasses—mowing everything flat deletes their internship program.
+    Seed shatters fast—collect early if you need clean harvest for sale or sowing.
+    Lean soil is a covenant—compost dumps turn the plant into a weed hotel.
+  growth_habit: Warm-season bunchgrass; pendant spikelets; dry to average prairies
+  data_quality_score: 0.83

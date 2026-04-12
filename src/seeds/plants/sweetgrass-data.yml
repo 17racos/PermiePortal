@@ -1,28 +1,45 @@
 ---
 - common_name: Sweetgrass
   picture: sweetgrass.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Hierochloe odorata
+  aka:
+  - Holy Grass
+  - Vanilla Grass
+  family: Poaceae
+  zone: 3-9
+  ideal_temp_min: 35
+  ideal_temp_max: 80
+  min_temp: -40
+  max_temp: 90
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ornamental
+  - Medicinal
+  - Ground Cover
+  - Border Plant
+  description: "Sweetgrass (Hierochloe odorata) is a cool-season perennial grass of northern North American wetlands and moist meadows, spreading by rhizomes into aromatic mats traditionally braided and dried for ceremony and craft. Leaves emit a vanilla-like scent when crushed or dried. It prefers moist, sunny to partly sunny sites and asks for respect as a culturally significant plant—harvest ethically and legally.\n\n☀️💧 Sun and Water Requirements:\nFull sun to light partial shade; moist soils with steady moisture through the growing season suit it best. Tolerates short dry spells once established but declines on drought berms without irrigation. Avoid stagnant, anaerobic muck; improve percolation or raise crowns slightly.\n\n✂️ Propagation:\nDivide rhizomes in early spring; keep moist until rooted. Sow seed with cold-moist stratification for uniform germination.\n\n🌾 Harvest / Best Use Timing:\nHarvest leaves for braiding when aromatic oils peak—follow Indigenous protocols and local regulations where applicable. Never harvest from fragile public stands without permission. Growth peaks in cool, moist periods of the year."
+  purpose: |-
+    - Ornamental: Fine-textured, fragrant mats soften pond margins and rain-garden edges.
+    - Medicinal: Aromatic compounds appear in traditional uses—verify guidance and ethics before use.
+    - Ground Cover: Rhizomes fill moist sunny gaps without turf pretense.
+    - Border Plant: Defines cultural and sensory garden rooms when sited with intent.
   companions:
-  - NEEDS_DATA
+  - Swamp Milkweed — milkweed neighbor in moist pollinator strips
+  - Marsh Blazingstar — upright forb contrast above low sweetgrass mats
+  - Wild Bergamot — aromatic forb neighbor extending pollinator hours
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Cultural significance—avoid treating as mere “craft supply” without community context
+  - Rhizome spread—edge beds or accept expansion into paths
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Nuno Veríssimo P., some rights reserved (CC BY-NC-SA), uploaded by Nuno Veríssimo P.
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Spider Mites
+  - Japanese Beetles
+  practitioner_notes: |-
+    Vanilla scent is real—rub ethically harvested leaves, not strangers’ braids.
+    Moisture honesty matters—xeric rock gardens convert sweetgrass into brown statistics.
+    Taxonomic names shift—Hierochloe odorata remains the common literature anchor for northern sweetgrass.
+    Harvest permission beats Instagram clout—ask before picking on land you do not steward.
+  growth_habit: Rhizomatous aromatic grass; moist meadows; cultural and ceremonial significance
+  data_quality_score: 0.78

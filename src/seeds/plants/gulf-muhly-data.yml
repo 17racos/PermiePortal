@@ -1,28 +1,44 @@
 ---
 - common_name: Gulf Muhly
   picture: gulf_muhly.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
+  scientific_name: Muhlenbergia capillaris
+  aka:
+  - Hairgrass
+  - Pink muhly grass
+  family: Poaceae
+  zone: 6-11
+  ideal_temp_min: 65
+  ideal_temp_max: 95
   min_temp: 0
-  max_temp: 0
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ornamental
+  - Erosion Control
+  - Wildlife Attractor
+  - Border Plant
+  description: "Gulf muhly (Muhlenbergia capillaris) is a warm-season bunchgrass of coastal plain prairies, roadsides, and open pine woodlands in the southeastern United States, famous for airy pink-purple inflorescences that backlight beautifully in autumn sun. Clumps typically reach 2–3 feet (0.6–1 m) with clouds of flowers rising higher. It is a low-input ornamental grass for sunny, well-drained beds and mass plantings in humid subtropical to warm-temperate climates.\n\n☀️💧 Sun and Water Requirements:\nFull sun for strongest flowering and fall color; too much shade yields green fluff without the blush. Well-drained sandy to loamy soils; tolerates drought after establishment but benefits from occasional deep watering in prolonged dry spells. Avoid constantly wet clay that rots crown tissue.\n\n✂️ Propagation:\nDivide dormant clumps in early spring before new growth accelerates. Sow seed in warm soil; seedlings take time to reach blooming size. Cut back old foliage in late winter before new shoots emerge.\n\n🌾 Harvest / Best Use Timing:\nOrnamental peak is autumn bloom—plan photography and tours then. Leave standing through winter for structure; cut back before spring flush if neatness matters. Collect seed ethically from restoration-appropriate sources when expanding mixes."
+  purpose: |-
+    - Ornamental: Pink cloud inflorescences provide high-impact seasonal drama without irrigation addiction.
+    - Erosion Control: Fibrous roots stabilize sandy slopes and bed edges in open sun.
+    - Wildlife Attractor: Seeds and cover support small wildlife in meadow contexts.
+    - Border Plant: Defines edges along paths and parking islands when massed.
   companions:
-  - NEEDS_DATA
+  - Hairawn Muhly — fine-textured coastal cousin for layered grass masses with staggered flowering
+  - Little Bluestem — warm-season matrix neighbor sharing sun and dry feet on upper swale slopes
+  - Dense Blazingstar — forb verticals that flower among grasses without demanding lawn care
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Heavy wet clay — winter crown rot appears as mysterious disappearance
+  - Deep shade — you get a grass, not a fireworks show
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Lauren McLaurin, some rights reserved (CC BY), uploaded by Lauren McLaurin
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Armyworms
+  - Fall Armyworm
+  practitioner_notes: |-
+    Backlight is the secret sauce—plant where low sun can ignite the inflorescence.
+    Massing reads as intentional; singletons read as forgotten accidents.
+    First-year plants are polite; year three throws the party.
+    Do not confuse with unrelated pink grasses in big-box bags—Latin names keep you honest.
+  growth_habit: Warm-season bunchgrass; pink-purple airy panicles; sandy sun; coastal plain native
+  data_quality_score: 0.83

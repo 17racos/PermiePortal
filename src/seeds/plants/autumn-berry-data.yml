@@ -1,28 +1,66 @@
 ---
 - common_name: Autumn Berry
   picture: autumn_berry.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Elaeagnus umbellata
+  aka:
+  - Autumn Olive (same species, alternate common name)
+  - Japanese Silverberry
+  family: Elaeagnaceae
+  zone: 4-9
+  ideal_temp_min: 50
+  ideal_temp_max: 85
+  min_temp: -25
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Nitrogen Fixer
+  - Wildlife Attractor
+  - Windbreaker
+  - Animal Fodder
+  description: "Autumn berry is the fruiting face of autumn olive (Elaeagnus umbellata),
+    a fast, thorny nitrogen-fixing shrub with silvery leaves, sweet spring scent, and
+    speckled red berries high in lycopene. It spreads aggressively in many temperate
+    regions via bird-dropped seed and suckers, outcompeting native shrubs on disturbed
+    ground. This profile is for identification and legacy-site management—not a planting
+    endorsement where the species is invasive. If you already have it, harvest and
+    disturbance strategy matter more than Instagram recipes.\n\n☀️💧 Sun and Water Requirements:\n
+    Full sun to light shade; tolerates drought, sand, and lean soil once actinorhizal
+    roots establish. Avoid encouraging new plantings near natural areas, wetlands, or
+    conservation corridors. Over-fertility speeds rank growth and heavy fruit loads
+    that amplify seed rain.\n\n✂️ Propagation:\nTechnically hardwood cuttings and suckers
+    root easily—which is why it became a problem. Do not distribute seed or cuttings
+    in regions where the species is regulated. On managed sites, remove fruiting wood
+    after harvest if local guidance recommends reducing spread pressure.\n\n🌾 Harvest
+    / Best Use Timing:\nPick berries when fully red-speckled and slightly soft; they
+    are tart raw and shine in jams, fruit leathers, and fermented experiments. Strip
+    plants you are phasing out before birds move seed into fence lines and neighbor drama."
+  purpose: |-
+    - Edible: Berries process into high-acid preserves where harvest does not increase regional spread.
+    - Nitrogen Fixer: Actinorhizal roots add nitrogen to associated soil on sites where the plant already exists.
+    - Wildlife Attractor: Flowers feed insects; fruit feeds birds—understand that feeding includes seed dispersal.
+    - Windbreaker: Dense twiggy habit slows wind along old hedgerows and field edges.
+    - Animal Fodder: Fruit and browse can feed poultry or livestock in systems already managing the plant.
   companions:
-  - NEEDS_DATA
+  - Goumi — related Elaeagnus relative sometimes used where non-invasive options are chosen instead
+  - Raspberry — legacy polyculture edge in old homesteads; manage both for bramble airflow
+  - Sunflower — tall annual marks rows during conversion plantings without pretending autumn berry is innocent
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Regional invasive regulation — check local lists before moving plants, seed, or soil with root fragments
+  - Conservation land edges — fruiting shrubs seed into adjacent native communities with bird assistance
   pests:
-  - NEEDS_DATA
+  - Japanese Beetles
+  - Scale Insects
+  - Aphids
+  practitioner_notes: |-
+    Fruit removal is population control, not just pantry filling—every berry left is a lobbying packet for birds.
+    Lycopene content is real; ecological cost is also real—keep both facts in the same sentence.
+    Sweetness spikes after light frost in some climates; flavor still will not excuse new introductions.
+    Thorns reward casual pruning; gloves are cheaper than tetanus paperwork.
+  growth_habit: Fast thorny actinorhizal shrub; silvery leaves; red speckled berries
+  data_quality_score: 0.74
   # Image attribution: No image found
   # Image source: none
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

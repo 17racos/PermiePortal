@@ -1,28 +1,44 @@
 ---
 - common_name: Elliott's Bluestem
   picture: elliotts_bluestem.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Andropogon gyrans
+  aka:
+  - Elliott bluestem
+  - Breakaway grass
+  family: Poaceae
+  zone: 5-9
+  ideal_temp_min: 60
+  ideal_temp_max: 90
+  min_temp: -15
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Wildlife Attractor
+  - Erosion Control
+  - Biomass
+  - Ornamental
+  description: "Elliott's bluestem (Andropogon gyrans) is a warm-season bunchgrass of dry woodlands, sandhills, and open pine savannas in the southeastern United States, named for stems that shed spikelets in a way that suggests mechanical drama. Clumps reach about 2–4 feet (0.6–1.2 m) with bluish summer foliage turning copper in autumn. It belongs in native meadow mixes, restoration blocks, and low-input ornamental plantings where little bluestem cousins need a regional teammate.\n\n☀️💧 Sun and Water Requirements:\nFull sun for flowering and fall color; open canopy pine shade matches natural ecology. Well-drained, often sandy or gravelly soils; tolerates drought after establishment and sulks in wet clay that suffocates warm-season grass crowns. Avoid irrigation schedules designed for turf monocultures.\n\n✂️ Propagation:\nSow seed in warm soil after frost risk; establishment requires weed control the first season. Divide dormant crowns in early growth before heat; keep roots moist during transplant. Burn or mow according to local ecological guidance—some sites benefit from periodic renewal.\n\n🌾 Harvest / Best Use Timing:\nFor restoration, collect seed when spikelets mature and disperse naturally if timing aligns with project goals. For gardens, leave standing through winter for structure and insect habitat; cut back before new spring growth. Do not overgraze young stands if integrating livestock—roots need recovery time."
+  purpose: |-
+    - Wildlife Attractor: Seeds and cover support birds and insects in fire-adapted and open-canopy habitats.
+    - Erosion Control: Fibrous roots stabilize sandy slopes where shallow-rooted annuals wash away.
+    - Biomass: Seasonal growth returns carbon when mowed or burned on appropriate rotations.
+    - Ornamental: Copper fall color and airy inflorescences add texture next to forbs and pines.
   companions:
-  - NEEDS_DATA
+  - Little Bluestem — complementary warm-season grass matrix with overlapping cultural needs
+  - Indiangrass — taller neighbor for vertical layering in savanna-inspired mixes
+  - Dense Blazingstar — forb spikes that flower among grasses without demanding lawn care
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Wet heavy clay — winter wet rots crowns; amend drainage or choose different species
+  - Shrub encroachment without fire or mowing — grasses lose light in abandoned savanna cosplay
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Jay Horn, some rights reserved (CC BY), uploaded by Jay Horn
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Armyworms
+  - Fall Armyworm
+  practitioner_notes: |-
+    Specific epithet gyrans hints at mobile spikelets—seed collection is timing, not brute force.
+    Pine shade is habitat, not failure—full sun inland differs from under longleaf canopies.
+    First-year plants look shy; second year they remember they are grasses.
+    Do not confuse with old Andropogon ellottii literature tags—check current nomenclature on your seed bag.
+  growth_habit: Warm-season bunchgrass; bluish foliage; copper fall color; dry savanna and sandhill adapted
+  data_quality_score: 0.74

@@ -1,28 +1,66 @@
 ---
 - common_name: American Lotus
   picture: american_lotus.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Nelumbo lutea
+  aka:
+  - Yellow Lotus
+  - Water Chinquapin
+  family: Nelumbonaceae
+  zone: 4-11
+  ideal_temp_min: 70
+  ideal_temp_max: 90
+  min_temp: 10
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Aquatic
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Aquatic
+  - Wildlife Attractor
+  - Ornamental
+  - Shade Provider
+  description: "American lotus (Nelumbo lutea) is a native perennial aquatic of still,
+    shallow water bodies across warm-temperate to subtropical North America, famous for
+    broad floating leaves, fragrant pale yellow flowers, and edible seeds and young
+    rhizome tips used in traditional cuisines. Plants spread by rhizomes in muck or
+    silty bottoms and can cover large areas where depth stays roughly 6–24 inches (15–60
+    cm) over a stable substrate. In designed systems it is a centerpiece species for
+    pond edges, constructed wetlands, and wildlife pools—provided you respect its talent
+    for expansion.\n\n☀️💧 Sun and Water Requirements:\nFull sun for strongest flowering
+    and seed set; shade weakens bloom. Requires standing or very slow-moving fresh water;
+    tolerates seasonal water-level shifts if rhizomes remain submerged or damp during
+    growth. Heavy pollution or chronic herbicide drift kills the honest way first.\n\n
+    ✂️ Propagation:\nDivide dormant rhizome sections in early spring before new growth
+    hardens, keeping each piece with growing tips. Sow scarified seed into warm shallow
+    water after frost risk in the zone; seedlings root down into pond muck. Containerize
+    in large submerged tubs if you need to limit spread in small ponds.\n\n🌾 Harvest
+    / Best Use Timing:\nGather young leaves, stems, or rhizome tips only where law and
+    land ethics allow; regulations vary widely. Collect ripe seeds from receptacles
+    when they loosen—dry and parch before cracking. Stop harvest if local populations
+    are protected or stressed."
+  purpose: |-
+    - Edible: Seeds and young tissues are food where harvest is legal, sustainable, and culturally appropriate.
+    - Aquatic: Occupies the deep-emergent niche, cycling nutrients and stabilizing soft sediments with rhizomes.
+    - Wildlife Attractor: Flowers and seeds support insects, waterfowl, and other wetland fauna.
+    - Ornamental: Huge leaves and dramatic blooms turn ponds into living architecture without plastic liners pretending to be nature.
+    - Shade Provider: Expanding leaf pads shade water, moderating algae swings in small basins.
   companions:
-  - NEEDS_DATA
+  - Pickerelweed — emergent forb intergrades at slightly shallower shelf without matching lotus spread speed
+  - Duck Potato — tuberous emergent shares sunlit margins and diversifies edible edges where managed
+  - Cattail — classic rhizomatous neighbor in naturalistic wetlands; plan boundaries if both are vigorous
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests:
-  - NEEDS_DATA
+  - Small lined ponds — rhizomes can clog pumps and outgrow tubs without annual thinning
+  - Invasive listing checks — some regions regulate ornamental lotus relatives; verify local rules
+  pests: []
+  practitioner_notes: |-
+    One happy plant becomes a meadow—use bottom barriers or annual rhizome surgery on ornamental ponds.
+    Seeds stay viable for centuries in mud; compost deadheads if you dislike volunteer sociology.
+    Fertilizer runoff into natural water is not permaculture—it is nutrient pollution with a smug label.
+    Winter dormancy is normal; do not panic-prune submerged yellow leaves in autumn.
+  growth_habit: Rhizomatous aquatic perennial; floating leaves; yellow flowers above water
+  data_quality_score: 0.79
   # Image attribution: (c) liz west, some rights reserved (CC BY)
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

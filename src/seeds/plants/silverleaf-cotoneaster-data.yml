@@ -1,28 +1,44 @@
 ---
 - common_name: Silverleaf Cotoneaster
   picture: silverleaf_cotoneaster.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Cotoneaster pannosus
+  aka:
+  - Silver Cotoneaster
+  family: Rosaceae
+  zone: 6-9
+  ideal_temp_min: 30
+  ideal_temp_max: 95
+  min_temp: -15
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Erosion Control
+  - Wildlife Attractor
+  - Ornamental
+  - Border Plant
+  description: "Silverleaf cotoneaster (Cotoneaster pannosus) is an evergreen to semi-evergreen shrub from western China, valued for small silvery leaves, white spring flowers, and red berries that persist for birds. Plants reach 6–10 feet (1.8–3 m), arching and often used on slopes for soil holding. Check local invasive lists before mass planting—some regions regulate cotoneasters.\n\n☀️💧 Sun and Water Requirements:\nFull sun for densest foliage and best fruiting; partial shade reduces berry display. Well-drained average soils suit it; tolerates drought once established. Avoid wet feet; mulch to buffer roots.\n\n✂️ Propagation:\nSemi-hardwood cuttings in summer with humidity. Sow stratified seed for diversity. Prune after fruiting to shape and open interiors.\n\n🌾 Harvest / Best Use Timing:\nBerries are wildlife food—leave standing through winter for birds. Spring bloom timing follows local frost exit."
+  purpose: |-
+    - Erosion Control: Arching stems root along slopes, binding shallow soil.
+    - Wildlife Attractor: Flowers feed pollinators; berries feed birds when permitted.
+    - Ornamental: Silver foliage contrasts dark green neighbors in sunny borders.
+    - Border Plant: Medium height screens paths and utilities without wall aesthetics.
   companions:
-  - NEEDS_DATA
+  - Lavender — drought-tolerant aromatic neighbor at the dripline
+  - Rock Cotoneaster — lower horizontal cotoneaster for layered texture on slopes
+  - Rosemary — sun-loving aromatic edge along paths
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Invasive risk in some regions—verify local regulations before landscape-scale planting
+  - Fire Blight — prune strikes in dry weather on susceptible rosaceous neighbors
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) James Bailey, some rights reserved (CC BY-NC), uploaded by James Bailey
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Fire Blight
+  - Aphids
+  - Spider Mites
+  practitioner_notes: |-
+    Invasive chatter is regional—read your county weed list before debating strangers on forums.
+    Silver leaves read drought—overhead sprinklers still invite scale if dust persists.
+    Berries are bird payroll—if you need a sterile look, this shrub disagrees.
+    Shear lightly—dense shells hide dieback until wind exposes skeletons.
+  growth_habit: Arching evergreen shrub; silver leaves; red berries; sunny slopes
+  data_quality_score: 0.77

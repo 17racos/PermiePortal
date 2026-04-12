@@ -1,28 +1,45 @@
 ---
 - common_name: Wild Blue Phlox
   picture: wild_blue_phlox.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Phlox divaricata
+  aka:
+  - Woodland Phlox
+  family: Polemoniaceae
+  zone: 3-9
+  ideal_temp_min: 35
+  ideal_temp_max: 85
+  min_temp: -30
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
+  - Ground Cover
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Ground Cover
+  - Ornamental
+  - Wildlife Attractor
+  description: "Wild blue phlox (Phlox divaricata) is a woodland perennial of eastern North America, spreading into loose mats with semi-evergreen leaves and fragrant lavender-blue flowers in spring. Plants stay under roughly 1 foot (30 cm) tall, rooting at nodes where stems touch soil. It belongs under deciduous trees, along paths, and anywhere dry shade needs honest flowers without hosta monoculture.\n\n☀️💧 Sun and Water Requirements:\nPartial shade to light sun; morning sun with afternoon shade works in hot climates. Moist, humus-rich, well-drained soils suit it; tolerates dry shade once established with mulch. Avoid wet clay stagnation.\n\n✂️ Propagation:\nDivide mats after flowering; sow seed with cold stratification. Keep transplants moist until rooted.\n\n🌾 Harvest / Best Use Timing:\nPrimarily ornamental—leave flowers for early pollinators. Peak bloom follows local spring warmth after frost risk near 28°F (-2°C) declines."
+  purpose: |-
+    - Pollinator: Tubular flowers feed early bees and butterflies when canopy is still opening.
+    - Ground Cover: Loose mats fill shady gaps without aggressive takeover.
+    - Ornamental: Blue color softens woodland edges and rain-garden shade pockets.
+    - Wildlife Attractor: Early nectar supports woodland pollinator networks.
   companions:
-  - NEEDS_DATA
+  - Wild Columbine — spring forb neighbor with contrasting flower shape at similar heights
+  - Wild Ginger — shade groundcover pairing with different texture under trees
+  - Serviceberry — small tree dappling light above phlox colonies
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Hot dry sun — scorched leaves and existential sulking
+  - Powdery Mildew — improve airflow if mats become too dense
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Emily Speelman, some rights reserved (CC BY-NC), uploaded by Emily Speelman
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Spider Mites
+  - Powdery Mildew
+  practitioner_notes: |-
+    Fragrance is the woodland handshake—if it smells like nothing, verify species before selling tours.
+    Dry shade works after establishment—babies still want moisture honesty the first year.
+    Self-sowing is polite until pavers complain—edit near walkways.
+    Deer sometimes browse—protect new mats if local herds lack table manners.
+  growth_habit: Woodland phlox; loose mats; fragrant blue spring flowers; shade to partial sun
+  data_quality_score: 0.82

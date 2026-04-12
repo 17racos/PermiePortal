@@ -1,28 +1,64 @@
 ---
 - common_name: Carambola Tree
   picture: carambola_tree.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Averrhoa carambola
+  aka:
+  - Star Fruit
+  family: Oxalidaceae
+  zone: 9b-12
+  ideal_temp_min: 70
+  ideal_temp_max: 90
+  min_temp: 30
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ornamental
+  - Shade Provider
+  - Wildlife Attractor
+  - Pollinator
+  description: "Carambola or star fruit (Averrhoa carambola) is a small evergreen
+    to semi-deciduous tropical tree grown for crisp, ribbed yellow fruit that slices
+    into stars, with flavor ranging from tart to sweet depending on cultivar and ripeness.
+    It typically reaches 20–35 feet (6–10.5 m) with a rounded crown and compound leaves
+    sensitive to wind desiccation. In humid subtropical and tropical home orchards it
+    is a high-visual crop—plan for oxalate sensitivity in diets and for fruit drop if
+    you park beneath the canopy.\n\n☀️💧 Sun and Water Requirements:\nFull sun for
+    heaviest flowering and fruiting; young trees benefit from wind protection. Prefers
+    deep, fertile, well-drained soils with steady moisture during fruit expansion; drought
+    during sizing causes fruit split and drop. Protect from frost; damage begins not
+    far below 32°F (0°C) on tender growth.\n\n✂️ Propagation:\nGraft named cultivars
+    for sugar balance and productivity; seedlings vary wildly. Air-layer proven limbs
+    in warm, humid weather. Prune to open the center for light and air—dense twig clouds
+    invite sap feeders.\n\n🌾 Harvest / Best Use Timing:\nPick when ribs yellow and
+    fruit yields slightly—green fruit stays tart for cooking; overripe fruit loses texture
+    fast. Slice crosswise for the star gimmick; process extras into dehydrator sheets
+    before fruit flies charter a convention."
+  purpose: |-
+    - Edible: Fruit eaten fresh or cooked; sweetness depends on cultivar and ripeness stage.
+    - Ornamental: Symmetrical form and glossy foliage suit edible landscaping in frost-free climates.
+    - Shade Provider: Modest canopy shades understory herbs during wet season push growth.
+    - Wildlife Attractor: Flowers and ripe fruit engage insects and frugivores where allowed.
+    - Pollinator: Clusters of small flowers draw generalist pollinators during warm months.
   companions:
-  - NEEDS_DATA
+  - Lemongrass — clumping edge herb tolerates tropical sun at the dripline
+  - Papaya — uses early vertical light differently while carambola develops scaffold
+  - Turmeric — rhizomes on partial-shade flank with mulch where irrigation is consistent
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Kidney risk for oxalate-sensitive individuals — medical guidance overrides foodie hype
   pests:
-  - NEEDS_DATA
-  # Image attribution: YummyComel / Wikimedia Commons / CC0
-  # Image source: wikimedia
+  - Caribbean Fruit Fly
+  - Scale Insects
+  - Aphids
+  practitioner_notes: |-
+    Sweet cultivars exist—seedling fruit can punish you for optimism.
+    Wind-torn leaves look like disease; fix exposure before spraying folklore fungicides.
+    Fruit fly monitoring beats surprise maggot arcs—clean drops weekly in hot weather.
+    Container culture in marginal zones is a commitment, not a weekend whim—winter moves get old.
+  growth_habit: Small tropical tree; compound leaves; yellow ridged star fruit
+  data_quality_score: 0.82
+  # Image attribution: (c) Wendy Feltham, some rights reserved (CC BY-NC), uploaded by Wendy Feltham
+  # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

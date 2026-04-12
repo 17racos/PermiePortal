@@ -1,28 +1,43 @@
 ---
 - common_name: Hairy Grama
   picture: hairy_grama.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Bouteloua hirsuta
+  aka:
+  - Hairy grama grass
+  family: Poaceae
+  zone: 5-9
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: -20
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Animal Fodder
+  - Erosion Control
+  - Wildlife Attractor
+  - Ornamental
+  description: "Hairy grama (Bouteloua hirsuta) is a warm-season shortgrass of dry prairies, rocky slopes, and open woodlands from central North America into Mexico, recognizable by comb-like spikes and hairy lemmas that give the species its common name. Plants form low tufts often under 1 foot (0.3 m) with flowering stems reaching slightly higher. It belongs in xeric meadow mixes, green roofs with depth, and restoration seedings where water is honest scarcity, not temporary inconvenience.\n\n☀️💧 Sun and Water Requirements:\nFull sun; shade quickly thins stands. Well-drained, often calcareous or sandy soils; excellent drought tolerance after establishment. Avoid irrigation schedules designed for bluegrass cosplay.\n\n✂️ Propagation:\nSow seed in warm soil after frost risk; keep seed shallow. Divide small clumps in spring if you must increase known material. Control early weeds aggressively—shortgrass seedlings are not competitive celebrities.\n\n🌾 Harvest / Best Use Timing:\nFor grazing systems, follow local range guidelines for warm-season utilization and recovery. For gardens, enjoy summer flowering combs and leave seed for birds into fall. Mow or burn per ecological plan—random scalp mowing is not a management strategy."
+  purpose: |-
+    - Animal Fodder: Palatable warm-season forage on dry range when grazed with recovery periods.
+    - Erosion Control: Dense fibrous roots stabilize thin soils on slopes and disturbed openings.
+    - Wildlife Attractor: Seeds feed ground-foraging birds and small mammals in prairie patches.
+    - Ornamental: Unique inflorescence form adds texture in xeric ornamental beds.
   companions:
-  - NEEDS_DATA
+  - Little Bluestem — taller warm-season matrix grass sharing dry prairie culture
+  - Hairy Wild Petunia — low forb layer adding flower color at similar height without shade stress
+  - Yarrow — shallow insectary neighbor along meadow edges with drought tolerance
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Wet clay — root rot and winterkill; choose switchgrass if soil stays soggy
+  - Heavy thatch buildup — occasional fire or mowing may be needed in dense stands per local guidance
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Robby Deans, some rights reserved (CC BY-NC), uploaded by Robby Deans
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Armyworms
+  - Grasshopper
+  practitioner_notes: |-
+    Comb spikes look like tiny eyelashes—get close before you yawn at “another grass.”
+    Bouteloua seedlings are shy; year one weed control is the real crop.
+    Calcareous soils are a friend here; acid peat is a personality clash.
+    Pair with little bluestem for two-height warm-season choreography.
+  growth_habit: Low warm-season bunchgrass; comb-like spikes; dry prairie and rocky soils
+  data_quality_score: 0.76

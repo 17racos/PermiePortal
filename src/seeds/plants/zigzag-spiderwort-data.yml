@@ -1,28 +1,44 @@
 ---
 - common_name: Zigzag Spiderwort
   picture: zigzag_spiderwort.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Tradescantia subaspera
+  aka:
+  - Wideleaf Spiderwort
+  family: Commelinaceae
+  zone: 5-9
+  ideal_temp_min: 40
+  ideal_temp_max: 90
+  min_temp: -25
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Ground Cover
+  - Ornamental
+  - Wildlife Attractor
+  description: "Zigzag spiderwort (Tradescantia subaspera) is a woodland perennial of eastern North America, with broader leaves than many tradescantias and stems that zigzag between nodes, bearing three-petaled blue-violet flowers opening fresh each morning. Plants reach 1–2 feet (30–60 cm), spreading into loose colonies in partial shade with steady moisture. It suits native shade borders and rain-garden shoulders where turf is a bad joke.\n\n☀️💧 Sun and Water Requirements:\nPartial shade to light sun; afternoon shade reduces petal melt in heat. Moist, humus-rich, well-drained soils suit it; tolerates short dry spells once established with mulch. Avoid stagnant water over crowns.\n\n✂️ Propagation:\nDivide clumps in spring; sow seed outdoors in fall.\n\n🌾 Harvest / Best Use Timing:\nPrimarily ornamental—flowers feed pollinators in late spring to summer. Deadhead near paths if spread is too chatty."
+  purpose: |-
+    - Pollinator: Morning flowers feed small bees in shaded gardens often ignored by sun-only designs.
+    - Ground Cover: Loose colonies fill woodland edges without bamboo ambition.
+    - Ornamental: Zigzag stems add kinetic line work to shade plantings.
+    - Wildlife Attractor: Supports insects in layered forest-garden understories.
   companions:
-  - NEEDS_DATA
+  - Wild Ginger — shade groundcover neighbor with contrasting leaf shape
+  - Wild Blue Phlox — spring blue flowers contrasting spiderwort purples at similar heights
+  - Serviceberry — small tree dappling light above understory colonies
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Deep shade — fewer flowers despite polite silence about disappointment
+  - Confusion with other Tradescantia species—verify leaf width and stem zigzag before eating experiments
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Jason Hollinger, some rights reserved (CC BY)
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Spider Mites
+  - Slugs
+  practitioner_notes: |-
+    Zigzag stems are the field ID party trick—straight-stemmed imposters need new names.
+    Broader leaves read bolder than Ohio spiderwort cousins—carry a ruler to nursery debates.
+    Morning flowers melt by noon—photograph early or accept ephemeral philosophy.
+    Slugs love tender growth—iron phosphate beats despair in wet springs.
+  growth_habit: Woodland tradescantia; zigzag stems; blue three-petaled flowers; moist shade
+  data_quality_score: 0.81

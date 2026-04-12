@@ -1,28 +1,44 @@
 ---
 - common_name: Wiregrass
   picture: wiregrass.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Aristida stricta
+  aka:
+  - Pineywoods Threeawn
+  family: Poaceae
+  zone: 7-10
+  ideal_temp_min: 45
+  ideal_temp_max: 100
+  min_temp: 10
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Erosion Control
+  - Wildlife Attractor
+  - Ornamental
+  - Biomass
+  description: "Wiregrass (Aristida stricta) is a warm-season bunchgrass of southeastern North American pine savannas and sandhills, forming dense tufts of wiry leaves and tall three-awn seed heads that catch light. It is a keystone species in fire-maintained longleaf systems, providing fine fuel and structure for wildlife. Heights of 2–4 feet (60–120 cm) are typical; roots dive deep on sand.\n\n☀️💧 Sun and Water Requirements:\nFull sun; shade reduces vigor. Deep, well-drained sandy soils are native truth; tolerates drought once established. Avoid heavy clay and chronic irrigation.\n\n✂️ Propagation:\nSow seed in warm soil; establish from local ecotype sources for restoration integrity. Burn management follows regulations—never freestyle fire without training.\n\n🌾 Harvest / Best Use Timing:\nPrimarily ecological—seed for restoration; leave standing for wildlife cover. Peak growth follows warm wet periods."
+  purpose: |-
+    - Erosion Control: Fibrous roots bind deep sand on savanna restoration sites.
+    - Wildlife Attractor: Structure for ground-nesting species and insect communities in pine systems.
+    - Ornamental: Fine texture and awns add authenticity to native savanna gardens.
+    - Biomass: Contributes fine fuels in prescribed fire regimes where legally applied.
   companions:
-  - NEEDS_DATA
+  - Longleaf Pine — overstory pine in classic wiregrass savanna where both belong ecologically
+  - Little Bluestem — complementary warm-season grass texture in mixed ground layers
+  - Milkweed — forb neighbor for pollinator strips at savanna edges
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Fire ecology — growth assumes periodic burn in many natural systems; follow laws and safety
+  - Wrong soil — clay makes wiregrass a short tragic play
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Samuel Brinker, some rights reserved (CC BY-NC), uploaded by Samuel Brinker
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Spider Mites
+  - Japanese Beetles
+  practitioner_notes: |-
+    Three awns are the ID handshake—if awns are missing, you grabbed a different Aristida chapter.
+    Fire is a tool, not a vibe—permits and weather math beat backyard arson cosplay.
+    Ecotype matters—buy local seed for restoration, not generic “southern mix” mystery bags.
+    Livestock mouths hate awns—fence accordingly or accept vet stories.
+  growth_habit: Warm-season sandhill grass; three-awn seed heads; longleaf savanna ground layer
+  data_quality_score: 0.8

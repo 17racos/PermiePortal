@@ -1,28 +1,43 @@
 ---
 - common_name: Florida Gamagrass
   picture: florida_gamagrass.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Tripsacum floridanum
+  aka:
+  - Florida gamagrass
+  family: Poaceae
+  zone: 8b-11
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 15
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Wildlife Attractor
+  - Erosion Control
+  - Biomass
+  - Ornamental
+  description: "Florida gamagrass (Tripsacum floridanum) is a warm-season perennial grass endemic to the southeastern United States coastal plain, forming dense clumps in moist pinelands, prairies, and roadsides with wide leaves and tall flowering stems. Heights often reach 4–6 feet (1.2–1.8 m) when happy. It is a native alternative for bioswales, restoration mixes, and ornamental grass plantings in humid subtropical climates where generic turf pretends to belong.\n\n☀️💧 Sun and Water Requirements:\nFull sun for strongest flowering; light pine shade matches natural savanna contexts. Moist, sandy to loamy soils with good aeration; tolerates short wet periods but not deep stagnant water over crowns long term. Drought hardens plants but reduces stature—irrigate young clumps through the first dry season.\n\n✂️ Propagation:\nDivide large dormant crowns and replant promptly with steady moisture. Direct seed in prepared beds after soil warms; weed control in year one determines success more than fertilizer theater. Avoid burying crowns deeper than they grew previously.\n\n🌾 Harvest / Best Use Timing:\nFor restoration, time seed collection to local phenology; ripening varies with summer rainfall. For landscapes, cut old stems in late winter before new growth to reduce pest shelter near patios. Leave some stands uncut where wildlife cover is a design goal."
+  purpose: |-
+    - Wildlife Attractor: Cover and seed resources for birds and insects in native grassland fragments.
+    - Erosion Control: Clumping roots stabilize moist slopes and swale bottoms in sandy soils.
+    - Biomass: Returns organic matter when mowed or burned following appropriate ecological guidance.
+    - Ornamental: Bold leaves and tall inflorescences read as native architecture in rain gardens.
   companions:
-  - NEEDS_DATA
+  - Little Bluestem — drier upper swale companion while Florida gamagrass holds the wetter toe
+  - Dense Blazingstar — forb spikes for pollinators interplanted in meadow mixes on sunny sites
+  - Muhly Grass — fine-textured contrast in ornamental plantings with overlapping warm-season growth
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Invasion of small beds without editing — clumps widen; plan spacing or expect periodic division
+  - Dry inland deserts — not a xeriscape mascot despite southern latitude on the tag
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Marie Studer, some rights reserved (CC BY), uploaded by Marie Studer
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Fall Armyworm
+  - Armyworms
+  practitioner_notes: |-
+    Endemic status is a responsibility—source local ecotype seed when projects target genetics honestly.
+    Clumps suppress weeds once established; year one is still a knife fight with crabgrass cosplay.
+    Tall seed heads catch dew and mosquitoes—site paths with forethought, not optimism.
+    Tripsacum hybridizes where ranges overlap—document parentage if you play breeder in shared habitats.
+  growth_habit: Warm-season clumping grass; wide leaves; moist southeastern coastal plain endemic
+  data_quality_score: 0.79

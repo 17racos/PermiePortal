@@ -1,28 +1,64 @@
 ---
 - common_name: Cempedak
   picture: cempedak.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Artocarpus integer
+  aka:
+  - Champedak
+  family: Moraceae
+  zone: 10-12
+  ideal_temp_min: 72
+  ideal_temp_max: 90
+  min_temp: 32
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Animal Fodder
+  - Shade Provider
+  - Mulcher
+  - Wildlife Attractor
+  description: "Cempedak (Artocarpus integer) is a Southeast Asian relative of jackfruit,
+    producing smaller, aromatic syncarps with soft, sweet to savory arils eaten fresh,
+    fried, or cooked in regional cuisines, often with stronger scent than jackfruit
+    at peak ripeness. Trees reach 50–80 feet (15–24 m) with glossy leaves and milky
+    latex; fruit hangs from short stems on trunks and branches. In humid tropical food
+    forests it is a calorie canopy—site it where neighbors cannot complain about perfume
+    they did not vote for.\n\n☀️💧 Sun and Water Requirements:\nFull sun for reliable
+    fruiting; wind protection reduces torn leaves on young trees. Deep, fertile, well-drained
+    soil with steady moisture during fruit expansion yields best aril quality. Drought
+    during sizing causes drop; waterlogged clay rots roots without berming or drainage
+    work.\n\n✂️ Propagation:\nBud or graft selected cultivars onto seedling rootstocks;
+    seedlings vary in flesh color and odor intensity. Air-layer fruitful branches during
+    warm, humid months. Prune for clearance and light penetration—dense inner twigs
+    invite sap feeders.\n\n🌾 Harvest / Best Use Timing:\nCut fruit when aroma builds
+    and rind yields slightly—timing is learned by nose and thumb, not calendar influencers.
+    Oil hands and knives against latex; process outdoors if household noses are sensitive."
+  purpose: |-
+    - Edible: Arils and fritters anchor tropical calorie harvests where cultivars match your palate.
+    - Animal Fodder: Culled fruit and seeds can feed livestock systems that already manage waste heat and smell.
+    - Shade Provider: Broad canopy cools understory for shade-tolerant perennials.
+    - Mulcher: Large leaves drop steadily, feeding soil biology when left in place.
+    - Wildlife Attractor: Flowers and fallen fruit engage insects and vertebrates in native ranges.
   companions:
-  - NEEDS_DATA
+  - Jackfruit — related Artocarpus with staggered fruit types when both are managed for light
+  - Turmeric — rhizomes tolerate partial shade on the north flank with mulch
+  - Lemongrass — marks paths and tolerates root competition at the dripline
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Strong odor at ripeness — siting near bedroom windows invites regret
+  - Latex — stains and sticks; plan tools and clothes accordingly
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Ahmad Fuad Morad, some rights reserved (CC BY-NC-SA)
+  - Scale Insects
+  - Mealybugs
+  - Aphids
+  practitioner_notes: |-
+    Odor is data about ripeness—neighbors may disagree on what the data means.
+    Grafted trees beat seedling roulette for flesh color and fiber content.
+    Inner shade pruning matters; unopened jack-type fruit needs light cues from a sane canopy.
+    Rats love fallen fruit—cleanup is pest management dressed as housekeeping.
+  growth_habit: Large tropical Moraceae tree; very large scented syncarps; milky latex
+  data_quality_score: 0.79
+  # Image attribution: (c) Wendy Feltham, some rights reserved (CC BY-NC), uploaded by Wendy Feltham
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

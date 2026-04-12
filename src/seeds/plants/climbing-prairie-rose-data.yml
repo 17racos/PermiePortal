@@ -1,28 +1,63 @@
 ---
 - common_name: Climbing Prairie Rose
   picture: climbing_prairie_rose.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Rosa setigera
+  aka:
+  - Prairie Climbing Rose
+  family: Rosaceae
+  zone: 5-9
+  ideal_temp_min: 60
+  ideal_temp_max: 85
+  min_temp: -25
+  max_temp: 100
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Vine
+  - Shrub
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Wildlife Attractor
+  - Ornamental
+  - Border Plant
+  - Erosion Control
+  - Medicinal
+  description: "Climbing prairie rose (Rosa setigera) is a native North American rose
+    that behaves as a scrambling shrub or short climber, using curved prickles to lean
+    on neighbors and reach 6–15 feet (1.8–4.5 m) in height or spread. Fragrant pink
+    flowers appear in summer clusters followed by red hips. It suits sunny fencerows,
+    trellises, and meadow edges where you want vertical structure without importing Asian
+    climbing hybrids that pretend ecology is optional.\n\n☀️💧 Sun and Water Requirements:\n
+    Full sun to light partial shade; flowering and hip production are strongest with
+    ample light. Tolerates average soils; prefers well-drained ground but handles occasional
+    moisture swings once established. Mulch base to reduce competition while canes
+    elongate.\n\n✂️ Propagation:\nHardwood cuttings in late winter; semi-hardwood in
+    summer with humidity. Layer low canes to soil in spring and detach rooted pieces
+    the following year. Sow stratified seed for diversity breeding.\n\n🌾 Harvest / Best
+    Use Timing:\nCollect hips when fully colored and slightly soft for tea or jelly
+    traditions; remove seeds carefully. Prune out old unproductive wood after several
+    years to renew flowering shoots—thick gloves, not bravado."
+  purpose: |-
+    - Wildlife Attractor: Flowers feed pollinators; hips feed birds and mammals into winter.
+    - Ornamental: Climbing habit adds vertical bloom without high-input hybrid tea maintenance.
+    - Border Plant: Thorns and density slow casual trespass along fencelines.
+    - Erosion Control: Arching canes root where they touch soil, stabilizing loose edges.
+    - Medicinal: Hips appear in traditional preparations where safety training applies.
   companions:
-  - NEEDS_DATA
+  - Wild Bergamot — long-blooming forb pulls pollinators to rose flowers at the thicket edge
+  - Little Bluestem — warm-season grass holds the ground plane under climbing canes
+  - Carolina Rose — lower rose layer overlaps bloom periods without identical growth form
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Rose Rosette Disease — monitor for witches’ broom and remove infected plants per regional guidance
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Dan Mullen, some rights reserved (CC BY-NC-ND)
+  - Japanese Beetles
+  - Aphids
+  - Powdery Mildew
+  practitioner_notes: |-
+    Needs a scaffold—trellis, fence, or patient shrubs—or it becomes a sideways tumbleweed with thorns.
+    Fragrant singles beat doubled petals for insect access; biodiversity is not a cosmetic flaw.
+    Hip size stays modest; flavor concentrates if you stop comparing to supermarket fruit.
+    Prune crossing canes in dormancy to keep airflow and reduce foliar drama.
+  growth_habit: Scrambling native rose; clusters of pink flowers; red hips; curved prickles
+  data_quality_score: 0.82
+  # Image attribution: (c) Wendy Feltham, some rights reserved (CC BY-NC), uploaded by Wendy Feltham
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

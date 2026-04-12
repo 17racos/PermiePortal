@@ -1,28 +1,44 @@
 ---
 - common_name: Dense Blazingstar
   picture: dense_blazingstar.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Liatris spicata
+  aka:
+  - Gayfeather
+  - Prairie blazing star
+  family: Asteraceae
+  zone: 3-9
+  ideal_temp_min: 55
+  ideal_temp_max: 85
+  min_temp: -35
+  max_temp: 95
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Pollinator
+  - Wildlife Attractor
+  - Ornamental
+  - Erosion Control
+  description: "Dense blazingstar (Liatris spicata) is a hardy prairie perennial famous for tall spikes of purple-pink florets opening top-down along a vertical wand, a flag for monarchs and other pollinators in mid to late summer. Plants typically reach 2–4 feet (0.6–1.2 m) from corms, with grass-like basal leaves. It belongs in rain garden bottoms, meadow mixes, and sunny borders across temperate North America cultivation.\n\n☀️💧 Sun and Water Requirements:\nFull sun for stiff stems; shade invites flop and reduced flowering. Tolerates moist soils better than many Liatris species—useful in swales—yet still demands drainage between inundation events. Drought after establishment is acceptable on deeper soils.\n\n✂️ Propagation:\nDivide corm-like bases in early spring before shoots elongate; replant at original depth. Sow seed outdoors with winter chill or stratify artificially; seedlings take a few years to reach blooming size. Avoid frequent disturbance once clumps are performing—Liatris resents tourist shovels.\n\n🌾 Harvest / Best Use Timing:\nCut a few spikes for dried arrangements at peak color; leave the majority for insects migrating through. Seeds mature into fluffy heads finches enjoy if you delay cleanup. Mark locations in fall—dormant corms are easy to spear with spring enthusiasm."
+  purpose: |-
+    - Pollinator: Nectar-rich spikes align with mid/late-summer insect flights including specialist bees.
+    - Wildlife Attractor: Seeds feed songbirds when flower heads age into winter silhouettes.
+    - Ornamental: Vertical rhythm breaks the horizontal shout of grasses and flat daisies.
+    - Erosion Control: Fibrous roots stabilize moist sunny banks when planted in masses.
   companions:
-  - NEEDS_DATA
+  - Switchgrass — structural matrix and complementary warm-season texture behind vertical spikes
+  - Little Bluestem — contrasting color and shared prairie culture without root smothering
+  - Echinacea — overlapping bloom window widens pollinator service at the same height
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Wet winter dormancy on compacted clay — corms rot if water sits on frozen ground
+  - Overfertilized rich beds — tall weak stems that lodge during summer storms
   pests:
-  - NEEDS_DATA
-  # Image attribution: Fritzflohrreynolds / Wikimedia Commons / CC BY-SA 3.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Aphids
+  - Japanese Beetles
+  practitioner_notes: |-
+    Flowers open like a zipper from the top—if the tip browns, the show still walks downward.
+    Mycorrhizae matter in lean soils; skip the miracle salt shakes and plant deep communities instead.
+    Markers save friendships—unlabeled dormant corms die to “weeding.”
+    Dense spikes read best in groups of seven or more—lonely wands look like antennae.
+  growth_habit: Upright perennial from corm; grass-like leaves; tall purple-pink flower spikes; moist-prairie adapted
+  data_quality_score: 0.8

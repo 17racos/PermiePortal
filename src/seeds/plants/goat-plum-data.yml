@@ -1,28 +1,45 @@
 ---
 - common_name: Goat Plum
   picture: goat_plum.jpg
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Terminalia ferdinandiana
+  aka:
+  - Kakadu plum
+  - Billygoat plum
+  - Gubinge
+  family: Combretaceae
+  zone: 10-12
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 30
+  max_temp: 110
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  - Shade Provider
+  description: "Goat plum (Terminalia ferdinandiana), widely known as Kakadu plum, is a semi-deciduous tree of northern Australian savannas and monsoon margins, bearing oval leaves, cream flower spikes, and pale green to yellow fruit famous for extreme vitamin C content. Cultivated specimens often reach 15–40 feet (4.5–12 m) with a spreading crown. It belongs in tropical dry-season/wet-season food systems where heat is reliable and frost is a rumor.\n\n☀️💧 Sun and Water Requirements:\nFull sun for flowering and heavy fruiting; young plants appreciate partial shade during establishment in blazing sites. Deep sandy to loamy soils with good drainage; tolerates seasonal moisture swings typical of monsoon climates. Avoid waterlogged heavy clay that suffocates roots during wet periods.\n\n✂️ Propagation:\nSow fresh seed soon after cleaning; desiccated seed loses viability quickly. Select parent trees with known fruit quality if establishing orchards. Prune for a single leader in cyclone-prone regions to reduce wind sail.\n\n🌾 Harvest / Best Use Timing:\nCommercial harvest timing follows local Indigenous protocols and fruit softening cues—respect cultural knowledge where it leads. Process fruit soon after picking for products that depend on vitamin stability. Protect young bark from machinery and livestock that treat trunks as scratching posts."
+  purpose: |-
+    - Edible: Fruit underpins bushfoods industry products and home preserves where processing matches the chemistry.
+    - Medicinal: Traditional antiseptic and soothing uses exist—modern claims need evidence, not marketing vapor.
+    - Wildlife Attractor: Flowers and fruit engage birds and mammals in native ranges where planting is appropriate.
+    - Shade Provider: Spreading crown shelters understory crops in tropical polycultures.
   companions:
-  - NEEDS_DATA
+  - Moringa — complementary fast leaf crop with different root depth along orchard rows
+  - Banana — herbaceous biomass and partial shade for juvenile trees in mixed tropical systems
+  - Lemongrass — perimeter grass marker that tolerates heat cycles along drip lines
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Frost — not a subtropical poseur; cold snaps damage expanding shoots
+  - Biopiracy ethics — commercial use intersects Indigenous knowledge; partner fairly, not extractively
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) Dr. Ryne D. Rutherford, some rights reserved (CC BY-NC), uploaded by Dr. Ryne D. Rutherford
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  - Scale Insects
+  - Caterpillars
+  practitioner_notes: |-
+    Vitamin C numbers are real; your backyard tree may still vary—test batches, not ego.
+    Fruit astringency bites when underripe—wait for local ripeness cues, not impatience.
+    Cyclone country needs sturdy training; tall weak forks are future firewood.
+    Seed freshness beats mail-order mystery—network with ethical nurseries near origin.
+  growth_habit: Semi-deciduous tropical tree; cream spikes; pale fruit; monsoon savanna adapted
+  data_quality_score: 0.79
