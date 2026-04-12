@@ -215,14 +215,14 @@ def inaturalist_image(query):
 
 def get_best_image(name, mode='plant', dry_run=False):
     print(f"  🔍 {name}...", end=' ', flush=True)
-    url, attr = wikimedia_image(name)
-    if url:
-        print("✅ Wikimedia")
-        return url, attr, 'wikimedia'
     url, attr = inaturalist_image(name)
     if url:
         print("✅ iNaturalist")
         return url, attr, 'inaturalist'
+    url, attr = wikimedia_image(name)
+    if url:
+        print("✅ Wikimedia")
+        return url, attr, 'wikimedia'
     print("⚠️  no image found")
     return None, None, None
 
