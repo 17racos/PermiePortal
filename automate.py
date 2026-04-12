@@ -38,7 +38,7 @@ PEST_IMAGES  = PROJECT / "public/assets/pests"
 QUEUE_PLANTS = PROJECT / "queue_plants.txt"
 QUEUE_PESTS  = PROJECT / "queue_pests.txt"
 REVIEW_DIR   = PROJECT / "review"
-DAILY_PLANTS = 20
+DAILY_PLANTS = 999
 DAILY_PESTS  = 999
 PROMPT_CHUNK = 20
 # ─────────────────────────────────────────────────────────────────────────────
