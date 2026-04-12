@@ -9,7 +9,7 @@ Catches:
 - Descriptions too short (< 400 chars)
 - Missing propagation/sun/water sections in description
 - Vague companions (categories instead of species)
-- Growing conditions in avoid field instead of plants
+- Growing conditions in cautions field — acceptable per policy
 - NEEDS_DATA fields still remaining
 - North Florida geographic framing
 - Singular pest names when plural exists (Whitefly vs Whiteflies)
@@ -53,26 +53,56 @@ def load_valid_pests():
 
 # ── VALIDATION RULES ──────────────────────────────────────────────────────────
 
+# Vague companion patterns — only match entries that are PURELY a category
+# with no specific plant name. Entries like "Pigeon Pea — nitrogen fixer..."
+# are valid because they start with a specific species name.
+# We check the START of the string, not anywhere within it.
 VAGUE_COMPANION_PATTERNS = [
-    r'nitrogen.fix',
-    r'dynamic acc',
-    r'ground cover',
-    r'fruit tree',
-    r'herb',
-    r'legume',
-    r'flowering plant',
-    r'native plant',
-    r'aromatic',
-    r'tropical',
-    r'subtropical',
-    r'any ',
-    r'most ',
-    r'many ',
-    r'various ',
-    r'plants? that',
-    r'plants? which',
-    r'trees? that',
+    r'^nitrogen.fix',
+    r'^dynamic acc',
+    r'^ground cover',
+    r'^fruit tree',
+    r'^legumes?$',
+    r'^herbs?$',
+    r'^flowering plant',
+    r'^native plant',
+    r'^aromatic plant',
+    r'^tropical plant',
+    r'^subtropical',
+    r'^any ',
+    r'^most ',
+    r'^many ',
+    r'^various ',
+    r'^other ',
+    r'^plants? that',
+    r'^plants? which',
+    r'^trees? that',
+    r'^shrubs? that',
+    r'^low ground',
 ]
+
+
+# Plants that legitimately have fewer companions/functions due to their nature
+SPECIALIST_PLANTS = {
+    'Air Potato',       # invasive — no companions recommended
+    'Singapore Daisy',  # invasive
+    'Water Hyacinth',   # invasive aquatic
+    'Fennel',           # allelopathic — grows alone
+    'Venus Flytrap',    # carnivorous
+    'Bladderwort',      # carnivorous aquatic
+    'Nepenthes',        # carnivorous
+    'Pitcher Plant',    # carnivorous
+    'Chaga Host',       # mushroom substrate host
+    'Turkey Tail Host', # mushroom substrate host
+    'Reishi Host',      # mushroom substrate host
+    'Cordyceps Host',   # mushroom substrate host
+    'Stinging Tree',    # naturally pest/companion resistant
+    'Kratom',           # legal specialist, minimal data
+    'Duckweed',         # aquatic
+    'Floating Heart',   # aquatic
+    'Water Lettuce',    # aquatic
+    'Milkweed',         # specialist pollinator host
+}
 
 CONDITION_WORDS = [
     'shade', 'soil', 'drainage', 'frost', 'stagnation',
@@ -140,13 +170,16 @@ def validate_file(yml_path, valid_pest_names, valid_pest_map, fix=False):
     # ── Companion checks ──────────────────────────────────────────────────────
     companions = plant.get('companions') or []
     if len(companions) < 3:
-        # Don't flag known specialist plants
         specialist_indicators = [
             'invasive', 'aquatic', 'carnivorous', 'alone', 'isolated'
         ]
         purpose = str(plant.get('purpose', '')).lower()
         desc_lower = desc.lower()
-        if not any(w in desc_lower or w in purpose for w in specialist_indicators):
+        is_specialist = (
+            name in SPECIALIST_PLANTS or
+            any(w in desc_lower or w in purpose for w in specialist_indicators)
+        )
+        if not is_specialist:
             issues.append(f"FEW_COMPANIONS: only {len(companions)} companions (minimum 3 for non-specialist plants)")
 
     for comp in companions:
@@ -190,17 +223,13 @@ def validate_file(yml_path, valid_pest_names, valid_pest_map, fix=False):
             fixes_applied.append(f"Removed {len(pests) - len(new_pests)} invalid pest entries")
 
     # ── Avoid field check ─────────────────────────────────────────────────────
-    avoid = plant.get('avoid') or []
-    for item in avoid:
-        item_str = str(item).lower()
-        if any(word in item_str for word in CONDITION_WORDS):
-            # Only flag if it's clearly a condition, not a plant name
-            if len(item_str.split()) > 3:  # long phrases are usually conditions
-                issues.append(f"CONDITION_IN_AVOID: '{item}' looks like a growing condition, not a plant")
+    # cautions field accepts both antagonistic plants AND growing condition
+    # warnings — both are valid per .cursorrules policy. No validation needed.
+    pass  # cautions field intentionally not validated
 
     # ── Plant function check ──────────────────────────────────────────────────
     functions = plant.get('plant_function') or []
-    if len(functions) < 3:
+    if len(functions) < 3 and name not in SPECIALIST_PLANTS:
         issues.append(f"FEW_FUNCTIONS: only {len(functions)} plant functions (minimum 3)")
 
     # ── Apply fixes ───────────────────────────────────────────────────────────

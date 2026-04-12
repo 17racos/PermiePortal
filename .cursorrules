@@ -81,7 +81,7 @@ Write universally: "thrives in humid subtropical to tropical climates, zones 9-1
 - Example: "Moringa — fast-growing canopy provides dappled shade in dry season,
   leaf drop feeds soil biology"
 
-### avoid field:
+### cautions field:
 - List actual antagonistic plant species, not growing conditions
 - Growing conditions (shade, wet soil, frost) belong in the description
 - "None documented" is acceptable if genuinely true for that species
@@ -178,3 +178,23 @@ for name, dlen, clen in sorted(thin)[:20]:
 5. ./sync.sh   ← rebuild JSON
 6. git add -A && git commit
 7. Move to next batch
+
+## practitioner_notes field
+Short, punchy, genuinely useful facts that don't fit in description or purpose.
+Target: 2-5 bullet points or short sentences. Each one should be something
+a grower would tell another grower standing in the field.
+
+Good examples:
+- Specific numbers: "Leaves contain 7x the vitamin C of oranges"
+- Counterintuitive facts: "Coppice hard to keep harvest reachable — tall trees waste the leaves"
+- Warnings: "All parts toxic raw except ripe berries and flowers"
+- Propagation tricks: "Seeds viable for only 1 year — fresh is everything"
+- Ecological roles: "One of the few plants that feeds both hummingbirds AND hawkmoths"
+- Processing notes: "Dry seeds before grinding — wet seeds turn rancid within days"
+
+Bad examples:
+- Repeating what's in description or purpose
+- Generic statements like "this plant is very useful"
+- Regional framing like "great for Florida growers"
+
+Write as short declarative sentences. No corporate language. No padding.

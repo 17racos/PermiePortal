@@ -18,10 +18,30 @@ const plantPests = pestsData.filter(pest =>
 );
 
 const companions = plant.companions || [];
-const avoid = plant.avoid || [];
 
-// Check if image file exists path
+// Filter out empty/placeholder cautions
+const cautions = (plant.cautions || []).filter((c: string) =>
+  c && !['none documented', 'none', 'none significant', 'none noted'].includes(
+    c.toLowerCase().trim()
+  )
+);
+
 const imagePath = plant.picture ? `/assets/plants/${plant.picture}` : null;
+
+// Practitioner notes — split into individual facts
+const practitionerFacts = plant.practitioner_notes
+  ? plant.practitioner_notes
+      .split('\n')
+      .map((l: string) => l.trim())
+      .filter((l: string) => l.length > 0 && l.toLowerCase() !== 'needs_data')
+  : [];
+
+// Purpose — split into lines, separating intro from bullet points
+const purposeRaw = plant.purpose || '';
+const purposeLines = purposeRaw
+  .split('\n')
+  .map((l: string) => l.trim())
+  .filter((l: string) => l.length > 0);
 ---
 
 <BaseLayout title={plant.common_name}>
@@ -35,256 +55,82 @@ const imagePath = plant.picture ? `/assets/plants/${plant.picture}` : null;
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    background: var(--soil); color: var(--paper);
-    font-family: 'Instrument Serif', Georgia, serif;
-  }
+  body { background: var(--soil); color: var(--paper); font-family: 'Instrument Serif', Georgia, serif; }
 
-  .nav {
-    display: flex; justify-content: space-between; align-items: center;
-    padding: 1.5rem 2rem;
-    border-bottom: 1px solid rgba(139,184,58,0.2);
-  }
-  .nav-logo {
-    font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem;
-    letter-spacing: 0.08em; color: var(--lime); text-decoration: none;
-  }
+  /* NAV */
+  .nav { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 2rem; border-bottom: 1px solid rgba(139,184,58,0.2); }
+  .nav-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; letter-spacing: 0.08em; color: var(--lime); text-decoration: none; }
   .nav-links { display: flex; gap: 2rem; list-style: none; }
-  .nav-links a {
-    font-family: 'Space Mono', monospace; font-size: 0.72rem;
-    text-transform: uppercase; letter-spacing: 0.12em;
-    color: var(--ash); text-decoration: none; transition: color 0.2s;
-  }
+  .nav-links a { font-family: 'Space Mono', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ash); text-decoration: none; transition: color 0.2s; }
   .nav-links a:hover { color: var(--lime); }
 
-  .breadcrumb {
-    padding: 1rem 2rem;
-    font-family: 'Space Mono', monospace; font-size: 0.65rem;
-    letter-spacing: 0.1em; text-transform: uppercase;
-    color: var(--ash);
-    border-bottom: 1px solid rgba(139,184,58,0.1);
-  }
+  /* BREADCRUMB */
+  .breadcrumb { padding: 1rem 2rem; font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ash); border-bottom: 1px solid rgba(139,184,58,0.1); }
   .breadcrumb a { color: var(--lime); text-decoration: none; }
   .breadcrumb a:hover { text-decoration: underline; }
 
-  /* ── HERO IMAGE ── */
-  .hero-image-wrap {
-    position: relative;
-    width: 100%;
-    height: clamp(280px, 40vw, 480px);
-    overflow: hidden;
-    border-bottom: 1px solid rgba(139,184,58,0.15);
-  }
+  /* HERO IMAGE */
+  .hero-image-wrap { position: relative; width: 100%; height: clamp(280px, 40vw, 480px); overflow: hidden; border-bottom: 1px solid rgba(139,184,58,0.15); }
+  .hero-image { width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0.85; }
+  .hero-image-placeholder { width: 100%; height: 100%; background: linear-gradient(135deg, var(--moss) 0%, var(--bark) 100%); display: flex; align-items: center; justify-content: center; }
+  .hero-image-placeholder span { font-family: 'Bebas Neue', sans-serif; font-size: 1rem; letter-spacing: 0.2em; color: rgba(139,184,58,0.3); text-transform: uppercase; }
+  .hero-image-wrap::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 50%; background: linear-gradient(to top, rgba(15,13,10,0.9) 0%, transparent 100%); pointer-events: none; }
 
-  .hero-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    opacity: 0.85;
-  }
+  /* HERO TEXT */
+  .hero { padding: 2.5rem 2rem 2rem; border-bottom: 1px solid rgba(139,184,58,0.15); display: grid; grid-template-columns: 1fr auto; gap: 3rem; align-items: start; }
+  .plant-layer { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--leaf); margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.75rem; }
+  .plant-layer::before { content: ''; width: 2rem; height: 1px; background: var(--leaf); }
+  .plant-name { font-family: 'Bebas Neue', sans-serif; font-size: clamp(3rem, 6vw, 5.5rem); line-height: 0.95; letter-spacing: 0.02em; color: var(--paper); margin-bottom: 0.5rem; }
+  .plant-sci { font-style: italic; font-size: 1.1rem; color: var(--ash); margin-bottom: 1rem; }
+  .plant-aka { font-family: 'Space Mono', monospace; font-size: 0.7rem; color: var(--ash); margin-bottom: 1.5rem; }
+  .plant-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.5rem; }
+  .tag { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.08em; padding: 0.2rem 0.7rem; background: rgba(42,61,31,0.6); border: 1px solid rgba(74,124,53,0.4); color: var(--lime); text-transform: uppercase; }
+  .tag.layer { background: rgba(122,59,30,0.3); border-color: rgba(196,85,26,0.4); color: var(--straw); }
 
-  .hero-image-placeholder {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, var(--moss) 0%, var(--bark) 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  /* CLIMATE PANEL */
+  .climate-panel { background: rgba(28,24,18,0.8); border: 1px solid rgba(139,184,58,0.2); padding: 1.5rem; min-width: 200px; }
+  .climate-panel::before { content: '// CLIMATE DATA'; font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.15em; color: var(--lime); opacity: 0.7; display: block; margin-bottom: 1.25rem; }
+  .climate-row { margin-bottom: 1rem; border-left: 2px solid var(--moss); padding-left: 0.75rem; }
+  .climate-label { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ash); margin-bottom: 0.2rem; }
+  .climate-value { font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem; color: var(--lime); line-height: 1; }
 
-  .hero-image-placeholder span {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1rem;
-    letter-spacing: 0.2em;
-    color: rgba(139,184,58,0.3);
-    text-transform: uppercase;
-  }
-
-  /* Gradient overlay on image for text legibility */
-  .hero-image-wrap::after {
-    content: '';
-    position: absolute;
-    bottom: 0; left: 0; right: 0;
-    height: 50%;
-    background: linear-gradient(to top, rgba(15,13,10,0.9) 0%, transparent 100%);
-    pointer-events: none;
-  }
-
-  /* ── HERO TEXT ── */
-  .hero {
-    padding: 2.5rem 2rem 2rem;
-    border-bottom: 1px solid rgba(139,184,58,0.15);
-    display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 3rem;
-    align-items: start;
-  }
-
-  .plant-layer {
-    font-family: 'Space Mono', monospace; font-size: 0.65rem;
-    letter-spacing: 0.15em; text-transform: uppercase;
-    color: var(--leaf); margin-bottom: 0.75rem;
-    display: flex; align-items: center; gap: 0.75rem;
-  }
-  .plant-layer::before {
-    content: ''; width: 2rem; height: 1px; background: var(--leaf);
-  }
-
-  .plant-name {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: clamp(3rem, 6vw, 5.5rem);
-    line-height: 0.95; letter-spacing: 0.02em; color: var(--paper);
-    margin-bottom: 0.5rem;
-  }
-
-  .plant-sci {
-    font-style: italic; font-size: 1.1rem;
-    color: var(--ash); margin-bottom: 1rem;
-  }
-
-  .plant-aka {
-    font-family: 'Space Mono', monospace; font-size: 0.7rem;
-    color: var(--ash); margin-bottom: 1.5rem;
-  }
-
-  .plant-tags {
-    display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.5rem;
-  }
-
-  .tag {
-    font-family: 'Space Mono', monospace; font-size: 0.6rem;
-    letter-spacing: 0.08em; padding: 0.2rem 0.7rem;
-    background: rgba(42,61,31,0.6);
-    border: 1px solid rgba(74,124,53,0.4);
-    color: var(--lime); text-transform: uppercase;
-  }
-
-  .tag.layer {
-    background: rgba(122,59,30,0.3);
-    border-color: rgba(196,85,26,0.4);
-    color: var(--straw);
-  }
-
-  .climate-panel {
-    background: rgba(28,24,18,0.8);
-    border: 1px solid rgba(139,184,58,0.2);
-    padding: 1.5rem; min-width: 200px;
-  }
-
-  .climate-panel::before {
-    content: '// CLIMATE DATA';
-    font-family: 'Space Mono', monospace; font-size: 0.6rem;
-    letter-spacing: 0.15em; color: var(--lime); opacity: 0.7;
-    display: block; margin-bottom: 1.25rem;
-  }
-
-  .climate-row {
-    margin-bottom: 1rem;
-    border-left: 2px solid var(--moss);
-    padding-left: 0.75rem;
-  }
-
-  .climate-label {
-    font-family: 'Space Mono', monospace; font-size: 0.6rem;
-    letter-spacing: 0.1em; text-transform: uppercase;
-    color: var(--ash); margin-bottom: 0.2rem;
-  }
-
-  .climate-value {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.4rem; color: var(--lime); line-height: 1;
-  }
-
+  /* SECTIONS */
   .content { max-width: 1200px; margin: 0 auto; }
+  .section { padding: 2.5rem 2rem; border-bottom: 1px solid rgba(139,184,58,0.1); }
+  .section-label { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--straw); margin-bottom: 1rem; }
+  .section-title { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; letter-spacing: 0.03em; color: var(--paper); margin-bottom: 1rem; }
 
-  .section {
-    padding: 2.5rem 2rem;
-    border-bottom: 1px solid rgba(139,184,58,0.1);
-  }
+  /* ABOUT */
+  .description { font-size: 1.05rem; line-height: 1.8; color: var(--ash); white-space: pre-wrap; }
 
-  .section-label {
-    font-family: 'Space Mono', monospace; font-size: 0.65rem;
-    letter-spacing: 0.2em; text-transform: uppercase;
-    color: var(--straw); margin-bottom: 1rem;
-  }
+  /* PERMACULTURE FUNCTIONS */
+  .purpose-intro { font-size: 1rem; color: var(--ash); margin-bottom: 1rem; font-style: italic; line-height: 1.6; }
+  .purpose-list { list-style: none; display: flex; flex-direction: column; gap: 0.45rem; padding: 0; }
+  .purpose-list li { font-size: 0.95rem; line-height: 1.7; color: var(--ash); padding: 0.4rem 0.75rem 0.4rem 1rem; border-left: 2px solid var(--moss); }
+  .purpose-list li strong { color: var(--paper); }
 
-  .section-title {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.8rem; letter-spacing: 0.03em;
-    color: var(--paper); margin-bottom: 1rem;
-  }
+  /* PRACTITIONER NOTES */
+  .practitioner-list { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; padding: 0; }
+  .practitioner-list li { padding: 0.65rem 1rem 0.65rem 1.25rem; border-left: 2px solid var(--lime); background: rgba(28,24,18,0.6); font-size: 1rem; line-height: 1.65; color: var(--paper); }
+  .practitioner-list li::before { content: '→ '; color: var(--lime); font-family: 'Space Mono', monospace; font-size: 0.75rem; }
 
-  .description {
-    font-size: 1.05rem; line-height: 1.8;
-    color: var(--ash); white-space: pre-wrap;
-  }
+  /* COMPANIONS */
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+  .companion-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+  .companion-list li { font-family: 'Space Mono', monospace; font-size: 0.78rem; padding: 0.4rem 0.75rem; background: rgba(42,61,31,0.4); border-left: 2px solid var(--leaf); color: var(--paper); }
+  .cautions-list li { background: rgba(122,59,30,0.2); border-left-color: var(--rust); }
 
-  .two-col {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-  }
+  /* PEST CARDS */
+  .pest-card { display: block; text-decoration: none; background: var(--bark); border: 1px solid rgba(139,184,58,0.15); padding: 1rem 1.25rem; transition: all 0.2s; margin-bottom: 0.5rem; }
+  .pest-card:hover { border-color: rgba(196,85,26,0.5); background: rgba(122,59,30,0.15); }
+  .pest-card-name { font-family: 'Bebas Neue', sans-serif; font-size: 1.2rem; color: var(--paper); margin-bottom: 0.25rem; }
+  .pest-card-sci { font-style: italic; font-size: 0.8rem; color: var(--ash); }
+  .empty-state { font-family: 'Space Mono', monospace; font-size: 0.78rem; color: var(--ash); font-style: italic; padding: 1rem 0; }
 
-  .companion-list {
-    list-style: none;
-    display: flex; flex-direction: column; gap: 0.4rem;
-  }
-
-  .companion-list li {
-    font-family: 'Space Mono', monospace; font-size: 0.78rem;
-    padding: 0.4rem 0.75rem;
-    background: rgba(42,61,31,0.4);
-    border-left: 2px solid var(--leaf);
-    color: var(--paper);
-  }
-
-  .avoid-list li {
-    background: rgba(122,59,30,0.2);
-    border-left-color: var(--rust);
-  }
-
-  .pest-card {
-    display: block; text-decoration: none;
-    background: var(--bark);
-    border: 1px solid rgba(139,184,58,0.15);
-    padding: 1rem 1.25rem;
-    transition: all 0.2s;
-    margin-bottom: 0.5rem;
-  }
-
-  .pest-card:hover {
-    border-color: rgba(196,85,26,0.5);
-    background: rgba(122,59,30,0.15);
-  }
-
-  .pest-card-name {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.2rem; color: var(--paper); margin-bottom: 0.25rem;
-  }
-
-  .pest-card-sci {
-    font-style: italic; font-size: 0.8rem; color: var(--ash);
-  }
-
-  .empty-state {
-    font-family: 'Space Mono', monospace; font-size: 0.78rem;
-    color: var(--ash); font-style: italic; padding: 1rem 0;
-  }
-
-  .footer {
-    padding: 2rem 4rem;
-    border-top: 1px solid rgba(139,184,58,0.15);
-    display: flex; justify-content: space-between; align-items: center;
-    margin-top: 2rem;
-  }
-  .footer-logo {
-    font-family: 'Bebas Neue', sans-serif; font-size: 1.2rem;
-    color: var(--lime); letter-spacing: 0.08em;
-  }
-  .footer-copy {
-    font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--ash);
-  }
+  /* FOOTER */
+  .footer { padding: 2rem 4rem; border-top: 1px solid rgba(139,184,58,0.15); display: flex; justify-content: space-between; align-items: center; margin-top: 2rem; }
+  .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.2rem; color: var(--lime); letter-spacing: 0.08em; }
+  .footer-copy { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--ash); }
 
   @media (max-width: 768px) {
     .hero { grid-template-columns: 1fr; gap: 2rem; }
@@ -310,15 +156,9 @@ const imagePath = plant.picture ? `/assets/plants/${plant.picture}` : null;
   <a href="/plants">← Plants</a> / {plant.common_name}
 </div>
 
-<!-- HERO IMAGE — full width, edge to edge -->
 <div class="hero-image-wrap">
   {imagePath ? (
-    <img
-      class="hero-image"
-      src={imagePath}
-      alt={plant.common_name}
-      loading="eager"
-    />
+    <img class="hero-image" src={imagePath} alt={plant.common_name} loading="eager" />
   ) : (
     <div class="hero-image-placeholder">
       <span>{plant.common_name}</span>
@@ -326,24 +166,15 @@ const imagePath = plant.picture ? `/assets/plants/${plant.picture}` : null;
   )}
 </div>
 
-<!-- HERO TEXT -->
 <div class="hero">
   <div>
     <p class="plant-layer">{plant.layers?.[0] || 'Plant'}</p>
     <h1 class="plant-name">{plant.common_name}</h1>
-    {plant.scientific_name && (
-      <p class="plant-sci">{plant.scientific_name}</p>
-    )}
-    {plant.aka?.length > 0 && (
-      <p class="plant-aka">Also known as: {plant.aka.join(', ')}</p>
-    )}
+    {plant.scientific_name && <p class="plant-sci">{plant.scientific_name}</p>}
+    {plant.aka?.length > 0 && <p class="plant-aka">Also known as: {plant.aka.join(', ')}</p>}
     <div class="plant-tags">
-      {(plant.layers || []).map((l: string) => (
-        <span class="tag layer">{l}</span>
-      ))}
-      {(plant.plant_function || []).map((fn: string) => (
-        <span class="tag">{fn}</span>
-      ))}
+      {(plant.layers || []).map((l: string) => <span class="tag layer">{l}</span>)}
+      {(plant.plant_function || []).map((fn: string) => <span class="tag">{fn}</span>)}
     </div>
   </div>
 
@@ -376,6 +207,8 @@ const imagePath = plant.picture ? `/assets/plants/${plant.picture}` : null;
 </div>
 
 <div class="content">
+
+  <!-- ABOUT -->
   {plant.description && (
     <div class="section">
       <p class="section-label">About</p>
@@ -383,7 +216,41 @@ const imagePath = plant.picture ? `/assets/plants/${plant.picture}` : null;
     </div>
   )}
 
-  {(companions.length > 0 || avoid.length > 0) && (
+  <!-- PERMACULTURE FUNCTIONS -->
+  {purposeLines.length > 0 && (
+    <div class="section">
+      <p class="section-label">Permaculture Functions</p>
+      <ul class="purpose-list">
+        {purposeLines.map((line: string) => {
+          const isIntro = !line.startsWith('-') && !line.startsWith('•') && line.endsWith(':');
+          if (isIntro) return <p class="purpose-intro">{line}</p>;
+          const clean = line.replace(/^[-•]\s*/, '');
+          if (!clean) return null;
+          // Bold the function name before the colon
+          const colonIdx = clean.indexOf(':');
+          if (colonIdx > 0) {
+            const funcName = clean.slice(0, colonIdx);
+            const funcDesc = clean.slice(colonIdx + 1).trim();
+            return <li><strong>{funcName}:</strong> {funcDesc}</li>;
+          }
+          return <li>{clean}</li>;
+        })}
+      </ul>
+    </div>
+  )}
+
+  <!-- PRACTITIONER NOTES -->
+  {practitionerFacts.length > 0 && (
+    <div class="section">
+      <p class="section-label">Practitioner Notes</p>
+      <ul class="practitioner-list">
+        {practitionerFacts.map((fact: string) => <li>{fact}</li>)}
+      </ul>
+    </div>
+  )}
+
+  <!-- COMPANION PLANTING -->
+  {(companions.length > 0 || cautions.length > 0) && (
     <div class="section">
       <p class="section-label">Companion Planting</p>
       <div class="two-col">
@@ -397,20 +264,19 @@ const imagePath = plant.picture ? `/assets/plants/${plant.picture}` : null;
             <p class="empty-state">No companion data yet.</p>
           )}
         </div>
-        <div>
-          <div class="section-title">Keep Away From</div>
-          {avoid.length > 0 ? (
-            <ul class="companion-list avoid-list">
-              {avoid.map((a: string) => <li>{a}</li>)}
+        {cautions.length > 0 && (
+          <div>
+            <div class="section-title">Cautions</div>
+            <ul class="companion-list cautions-list">
+              {cautions.map((a: string) => <li>{a}</li>)}
             </ul>
-          ) : (
-            <p class="empty-state">No antagonist data yet.</p>
-          )}
-        </div>
+          </div>
+        )}
       </div>
     </div>
   )}
 
+  <!-- PEST PRESSURE -->
   {plantPests.length > 0 && (
     <div class="section">
       <p class="section-label">Pest Pressure</p>
@@ -418,13 +284,12 @@ const imagePath = plant.picture ? `/assets/plants/${plant.picture}` : null;
       {plantPests.map(pest => (
         <a href={`/pests/${pest.slug}`} class="pest-card">
           <div class="pest-card-name">{pest.name}</div>
-          {pest.scientific_name && (
-            <div class="pest-card-sci">{pest.scientific_name}</div>
-          )}
+          {pest.scientific_name && <div class="pest-card-sci">{pest.scientific_name}</div>}
         </a>
       ))}
     </div>
   )}
+
 </div>
 
 <footer class="footer">

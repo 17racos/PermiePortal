@@ -96,8 +96,11 @@ def process_plant(data, source_file):
         "plant_function": norm_list(data.get('plant_function', [])),
         "description": clean_string(data.get('description', '')),
         "purpose": clean_string(data.get('purpose', '')),
+        "practitioner_notes": clean_string(data.get('practitioner_notes', '')),
+        "practitioner_notes": clean_string(data.get('practitioner_notes', '')),
+        "practitioner_notes": clean_string(data.get('practitioner_notes', '')),
         "companions": norm_list(data.get('companions', [])),
-        "avoid": norm_list(data.get('avoid', [])),
+        "cautions": norm_list(data.get('cautions', [])),
         "pest_slugs": pest_slugs,
         "_source": source_file,
     }

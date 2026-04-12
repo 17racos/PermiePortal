@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-PermiePortal Plant & Pest Automation v3
+PermiePortal Plant & Pest Automation v4
 ========================================
-Fixes in v3:
-- Validates names before processing (rejects headers/comments/section labels)
-- Cursor Agent prompts scan ALL seeds for NEEDS_DATA, not just current batch
-- Chunks prompts into batches of 30 for sequential Agent sessions
-- Deduplication check before creating any stub
-- --prompt-only flag to regenerate prompts without processing anything
+Changes in v4:
+- Americas-wide geographic framing (zones 3-13)
+- Cursor prompts include validate.py mandatory workflow
+- Prompt files include rm cleanup instruction for Agent
+- Temperatures: Fahrenheit with Celsius in parentheses
+- cautions field in stubs (not avoid)
 
 Usage:
   python3 automate.py plants "Chaya" "Lemon Verbena"
@@ -40,7 +40,7 @@ QUEUE_PESTS  = PROJECT / "queue_pests.txt"
 REVIEW_DIR   = PROJECT / "review"
 DAILY_PLANTS = 20
 DAILY_PESTS  = 10
-PROMPT_CHUNK = 30
+PROMPT_CHUNK = 20
 # ─────────────────────────────────────────────────────────────────────────────
 
 
@@ -233,8 +233,9 @@ PLANT_STUB = '''---
   purpose: "NEEDS_DATA"
   companions:
   - NEEDS_DATA
-  avoid:
+  cautions:
   - NEEDS_DATA
+  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
   pests:
   - NEEDS_DATA
   # Image attribution: {attribution}
@@ -307,7 +308,6 @@ def generate_pest_stub(name, attribution, source):
 # ── CURSOR PROMPT GENERATOR ──────────────────────────────────────────────────
 
 def scan_all_needs_data():
-    """Scan ALL seed files for NEEDS_DATA. Returns (plant_list, pest_count)."""
     needs = []
     if SEEDS_PLANTS.exists():
         for yml in sorted(SEEDS_PLANTS.glob("*.yml")):
@@ -329,13 +329,8 @@ def scan_all_needs_data():
 
 
 def write_cursor_prompts():
-    """
-    Always scans ALL seeds. Writes chunked prompt files.
-    Deletes stale prompts from previous runs first.
-    """
     REVIEW_DIR.mkdir(exist_ok=True)
 
-    # Clean up old prompt files
     for f in REVIEW_DIR.glob("cursor_enrich_*.md"):
         f.unlink()
 
@@ -351,27 +346,45 @@ def write_cursor_prompts():
 
     prompt_files = []
     for i, chunk in enumerate(chunks, 1):
-        prompt_path = REVIEW_DIR / f"cursor_enrich_{i}_of_{num_chunks}.md"
+        filename = f"cursor_enrich_{i}_of_{num_chunks}.md"
+        prompt_path = REVIEW_DIR / filename
 
         lines = [
-            f"# PermiePortal Cursor Agent — Batch {i} of {num_chunks}\n\n",
-            f"> **Use Agent mode** (not chat). "
-            f"This batch: {len(chunk)} plants. "
+            f"# PermiePortal — Enrichment Batch {i} of {num_chunks}\n\n",
+            "> **Agent mode only.** ONE session at a time.\n",
+            f"> This batch: {len(chunk)} plants. ",
             f"Total remaining: {total_plants} plants + {pest_needs} pest fields.\n\n",
             "---\n\n",
-            "## Instructions\n\n",
-            "Replace every `NEEDS_DATA` value with accurate botanical data.\n"
-            "**Do NOT modify fields that already have real data.**\n\n",
-            "**Reference file:** `src/seeds/plants/moringa-data.yml`\n\n",
-            "**Rules:**\n",
-            "- Temperatures in Fahrenheit\n",
-            "- Zones as strings e.g. `\"9-11\"`\n",
-            "- `layers` values: Tree, Shrub, Herbaceous, Vine, Ground Cover, Root, Aquatic, Canopy\n",
-            "- `plant_function`: match values from existing seed files\n",
-            "- `pests`: must exactly match slugs in `src/seeds/pests/pests-data.yml`\n",
-            "- Description must include propagation methods and sun/water requirements\n",
-            "- North Florida / subtropical context where relevant\n",
-            "- No corporate language\n\n",
+            "## Reference\n\n",
+            "Use `src/seeds/plants/moringa-data.yml` as the quality standard.\n\n",
+            "---\n\n",
+            "## Geographic Context\n\n",
+            "**Audience: All of the Americas — zones 3–13**\n",
+            "- Do NOT write 'North Florida' or any single state/region framing\n",
+            "- Use universal climate language: 'temperate', 'subtropical', 'tropical'\n",
+            "- Use 'wet season / dry season' not 'spring / fall' where relevant\n",
+            "- Temperatures: Fahrenheit with Celsius in parentheses — 32°F (0°C)\n\n",
+            "---\n\n",
+            "## Standards\n\n",
+            "**description** (min 400 chars):\n",
+            "1. What the plant is, origin, appearance, mature size\n",
+            "2. ☀️💧 Sun and Water Requirements\n",
+            "3. ✂️ Propagation (2+ methods with timing)\n",
+            "4. 🌾 Harvest / Best Use Timing\n\n",
+            "**purpose** — explain HOW each function works in a permaculture system\n\n",
+            "**companions** — min 3 specific species with reason WHY\n",
+            "NOT categories like 'nitrogen-fixing plants' or 'legumes'\n\n",
+            "**cautions** — antagonistic plants OR growing condition warnings (both valid)\n",
+            "'None documented' acceptable if genuinely true\n\n",
+            "**plant_function** — min 3 from:\n",
+            "Edible, Medicinal, Nitrogen Fixer, Dynamic Accumulator, Mulcher,\n",
+            "Pollinator, Wildlife Attractor, Erosion Control, Animal Fodder,\n",
+            "Windbreaker, Border Plant, Pest Management, Ground Cover,\n",
+            "Shade Provider, Water Retention, Fiber, Biomass, Aquatic, Ornamental\n\n",
+            "**pests** — ONLY names verbatim from `src/seeds/pests/pests-data.yml`\n",
+            "grep to confirm before adding. Min 2 cultivated plants. [] for specialists.\n",
+            "NEVER: None, NEEDS_DATA, or animals without pest profiles\n\n",
+            "---\n\n",
             "## Plants to Enrich\n\n",
         ]
 
@@ -382,24 +395,28 @@ def write_cursor_prompts():
             lines.append(f"\n## Pests to Enrich\n\n")
             lines.append(
                 f"`src/seeds/pests/pests-data.yml` — {pest_needs} NEEDS_DATA fields\n\n"
-                "Find entries with `NEEDS_DATA` and replace with accurate data.\n\n"
-                "**Pest rules:**\n"
-                "- Organic controls ONLY — no synthetic pesticides\n"
-                "- `control_methods` keys: organic_sprays, biological_controls, "
-                "cultural_practices, mechanical_physical, preventive_methods\n"
-                "- `natural_enemies`: real predators/parasites only\n"
-                "- Descriptions should help ID the pest in the field\n\n"
+                "Find every entry with NEEDS_DATA and replace with accurate data.\n\n"
+                "Pest rules:\n"
+                "- Organic controls ONLY — no synthetic pesticides ever\n"
+                "- control_methods: organic_sprays, biological_controls,\n"
+                "  cultural_practices, mechanical_physical, preventive_methods\n"
+                "- natural_enemies: real predators/parasitoids only\n\n"
             )
 
-        lines.append("\n## When Done\n\n```bash\n./sync.sh --check\n```\n")
-        lines.append("Fix warnings, then:\n```bash\n./sync.sh\n```\n")
+        lines.append("---\n\n## When Done\n\n```bash\n")
+        lines.append("python3 validate.py --since 2h\n")
+        lines.append("python3 validate.py --fix --since 2h\n")
+        lines.append("./sync.sh --check\n")
+        lines.append("./sync.sh\n")
+        lines.append(f"rm review/{filename}\n")
+        lines.append("```\n\n")
+        lines.append("Zero warnings required before the next batch.\n\n")
 
         if i < num_chunks:
-            lines.append(
-                f"\nNext: open `cursor_enrich_{i+1}_of_{num_chunks}.md`\n"
-            )
+            lines.append(f"Next: `cursor_enrich_{i+1}_of_{num_chunks}.md`\n")
         else:
-            lines.append("\n✅ Final batch complete!\n")
+            lines.append("✅ Final batch — commit:\n")
+            lines.append("```bash\ngit add -A && git commit -m 'enrichment complete'\n```\n")
 
         prompt_path.write_text(''.join(lines))
         prompt_files.append(prompt_path)
@@ -407,7 +424,7 @@ def write_cursor_prompts():
     print(f"\n📋 {num_chunks} prompt file(s) in review/")
     print(f"   {total_plants} plants + {pest_needs} pest fields need enrichment")
     print(f"   Start: review/cursor_enrich_1_of_{num_chunks}.md")
-    print(f"   Run one Agent session per file — sequential, not parallel\n")
+    print(f"   Sequential only — one Agent session per file\n")
 
     return prompt_files
 
@@ -494,7 +511,7 @@ def load_queue(filepath, limit):
 # ── MAIN ─────────────────────────────────────────────────────────────────────
 
 def main():
-    parser = argparse.ArgumentParser(description='PermiePortal Automation v3')
+    parser = argparse.ArgumentParser(description='PermiePortal Automation v4')
     parser.add_argument('mode', nargs='?', choices=['plants', 'pests'])
     parser.add_argument('names', nargs='*')
     parser.add_argument('--file', '-f')

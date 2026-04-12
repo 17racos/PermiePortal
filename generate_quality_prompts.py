@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
-Generate quality enrichment prompts for the 35 plants needing real improvement.
+PermiePortal — Quality Enrichment Prompt Generator
+====================================================
+Generates Cursor Agent prompts for plants below quality threshold.
 Run from project root: python3 generate_quality_prompts.py
 """
 
@@ -32,143 +34,169 @@ needs_work = sorted(
 REVIEW = Path("review")
 REVIEW.mkdir(exist_ok=True)
 
-# Clean up old quality prompts
 for f in REVIEW.glob("quality_enrichment_*.md"):
     f.unlink()
 
-CHUNK = 12  # smaller chunks = better Agent quality
+if not needs_work:
+    print("✅ All plants meet quality threshold — nothing to generate")
+    exit(0)
+
+CHUNK = 12
 chunks = [needs_work[i:i+CHUNK] for i in range(0, len(needs_work), CHUNK)]
 
-HEADER = """# Plant Quality Enrichment — Batch {i} of {total}
+HEADER = """\
+# Plant Quality Enrichment — Batch {i} of {total}
 
-> **Agent mode only.** Improve existing entries to match Moringa quality.
-> Do NOT create new files. Only edit the listed YAML files.
+> **Agent mode only.** ONE session at a time.
+> Improve existing entries only — do NOT create new files.
 
 ---
 
 ## Reference Standard
 
-Open `src/seeds/plants/moringa-data.yml` — this is the quality bar.
-Every plant you improve should reach this level of detail.
+Open `src/seeds/plants/moringa-data.yml` — every plant should reach this quality level.
+
+---
 
 ## Geographic Context
 
-**Florida and Puerto Rico (zones 8b–13)**
-- Do NOT say "North Florida" — say "Florida and Puerto Rico" or "subtropical/tropical"
-- Puerto Rico: year-round tropical, dry season Dec–Apr, wet season May–Nov
-- Florida: humid subtropical, brief cool winters in zones 8b–9, fully tropical in 10–11
-- Many plants thrive year-round in PR that go dormant in FL — note both where relevant
+**Audience: All of the Americas — zones 3–13**
+- Do NOT write 'North Florida', 'South Florida', or any single state/region framing
+- Use universal climate language: 'temperate', 'subtropical', 'tropical'
+- Use 'wet season / dry season' not 'spring / fall' where relevant
+- Trust the zone: field to communicate range — don't repeat it unless adding context
+- Where regional context adds value: "common throughout the Caribbean and Gulf Coast"
+- Temperatures: Fahrenheit with Celsius in parentheses — 32°F (0°C)
+- Spanish version planned — write descriptions that translate cleanly, avoid idioms
+
+---
 
 ## Quality Standards
 
-### description (minimum 400 characters, structured):
+### description (minimum 400 characters, all four sections required)
+
 ```
-[Plant name] is a [growth habit] native to [origin]. [Appearance, mature size].
-[Ecological role / traditional use / why it matters].
+[Plant name] is a [growth form] native to [origin]. [Appearance, mature size].
+[Why it matters in a permaculture or food system context].
 
 ☀️💧 Sun and Water Requirements:
-- [Sun preference]
-- [Water needs, drought/flood tolerance]
-- [Soil preferences]
+- Sun: [full sun / partial shade / shade tolerant]
+- Water: [drought tolerant / moderate / moisture-loving]
+- Soil: [preferences and tolerances]
 
 ✂️ Propagation:
 - [Method 1 with timing]
 - [Method 2 with timing]
-- [Method 3 if applicable]
 
 🌾 Harvest / Best Use Timing:
-- [When and how to harvest or use]
+- [When and how to harvest, or when the plant delivers its primary value]
 ```
 
-### purpose (explain HOW each function works):
-Not just a list — explain the permaculture role. Example:
-- Nitrogen Fixer: Root nodules host Rhizobium bacteria that convert atmospheric N₂ into plant-available nitrates, feeding neighboring plants via root exudates and leaf drop.
+### purpose
+Explain HOW each plant_function works in a permaculture system — not just a list.
+Example: "Nitrogen Fixer: Root nodules host Rhizobium bacteria that fix atmospheric
+N₂ into plant-available nitrates, feeding neighboring plants via root exudates."
 
-### companions (minimum 3 specific species):
-- Use actual species names, not categories like "nitrogen-fixing plants"
-- Include WHY they companion (e.g., "Moringa — provides dappled shade in dry season")
+### companions (minimum 3 specific species)
+- Actual species names — NOT categories like 'nitrogen-fixing plants', 'legumes',
+  'fruit trees', 'herbs', 'ground covers', or 'tropical plants'
+- Include WHY: what functional benefit the pairing provides
 
-### plant_function (minimum 3):
-Valid values (use exact spelling):
+### cautions
+- Antagonistic plants OR specific growing condition warnings — both valid
+- PermieBro voice encouraged: be specific and direct
+- 'None documented' acceptable if genuinely true
+
+### plant_function (minimum 3, exact values only)
 Edible, Medicinal, Nitrogen Fixer, Dynamic Accumulator, Mulcher,
 Pollinator, Wildlife Attractor, Erosion Control, Animal Fodder,
 Windbreaker, Border Plant, Pest Management, Ground Cover, Shade Provider,
-Water Retention, Fiber, Dye Plant, Biomass, Aquatic, Ornamental
+Water Retention, Fiber, Biomass, Aquatic, Ornamental, Dye Plant
 
-### pests:
-- Must exactly match names in `src/seeds/pests/pests-data.yml`
-- Grep to confirm before adding
-- Minimum 2 for any cultivated plant
+### pests
+- ONLY names verbatim from `src/seeds/pests/pests-data.yml`
+- grep to confirm before adding: `grep -i "name" src/seeds/pests/pests-data.yml`
+- Minimum 2 for cultivated plants — pests: [] for specialist plants only
+- NEVER: None, None documented, NEEDS_DATA, or animals without pest profiles
 
 ---
 
-## Plants to Improve
+## Mandatory Workflow After Each Batch
+
+```bash
+python3 validate.py --since 2h
+python3 validate.py --fix --since 2h
+./sync.sh --check
+./sync.sh
+rm review/{filename}
+```
+
+Zero warnings required before moving to the next batch.
+
+---
+
+## Plants to Improve ({count} plants)
 
 """
 
-FOOTER = """
+FOOTER = """\
+
 ---
 
 ## When Done
 
 ```bash
+python3 validate.py --since 2h
+python3 validate.py --fix --since 2h
 ./sync.sh --check
-```
-
-Fix any warnings about pest names, then:
-
-```bash
 ./sync.sh
+rm review/{filename}
 ```
 
 {next_batch}
 """
 
 for i, chunk in enumerate(chunks, 1):
-    path = REVIEW / f"quality_enrichment_{i}_of_{len(chunks)}.md"
-    
-    lines = [HEADER.format(i=i, total=len(chunks))]
-    
+    filename = f"quality_enrichment_{i}_of_{len(chunks)}.md"
+    path = REVIEW / filename
+
+    lines = [HEADER.format(i=i, total=len(chunks), count=len(chunk), filename=filename)]
+
     for p in chunk:
         slug = p['slug']
         dlen = len(p.get('description', ''))
         clen = len(p.get('companions', []))
         flen = len(p.get('plant_function', []))
-        
+
         issues = []
         if dlen < 400:
             issues.append(f"description only {dlen} chars — needs full structured entry")
         if clen < 3:
-            issues.append(f"only {clen} companions — needs 3+ specific species")
+            issues.append(f"only {clen} companions — needs 3+ specific named species")
         if flen < 3:
             issues.append(f"only {flen} functions — needs 3+ permaculture roles")
-        
+
         lines.append(f"### {p['common_name']}\n")
         lines.append(f"File: `src/seeds/plants/{slug}-data.yml`\n\n")
         lines.append("Issues:\n")
         for issue in issues:
             lines.append(f"- {issue}\n")
         lines.append("\n")
-    
+
     if i < len(chunks):
-        next_batch = f"Then open `quality_enrichment_{i+1}_of_{len(chunks)}.md` for the next batch."
+        next_batch = f"Then open `quality_enrichment_{i+1}_of_{len(chunks)}.md`"
     else:
-        next_batch = "✅ All batches complete! Run `./sync.sh` to rebuild the full database."
-    
-    lines.append(FOOTER.format(next_batch=next_batch))
+        next_batch = "✅ Final batch — commit when complete:\n```bash\ngit add -A && git commit -m 'quality enrichment complete'\n```"
+
+    lines.append(FOOTER.format(filename=filename, next_batch=next_batch))
     path.write_text(''.join(lines))
 
 print(f"✅ Generated {len(chunks)} quality enrichment prompts in review/")
-print(f"   {len(needs_work)} plants to improve across {len(chunks)} Agent sessions")
-print(f"   Chunk size: {CHUNK} plants per session")
+print(f"   {len(needs_work)} plants to improve, {CHUNK} per Agent session")
 print()
-print("Files written:")
-for i in range(1, len(chunks)+1):
+for i in range(1, len(chunks) + 1):
     chunk = needs_work[(i-1)*CHUNK:i*CHUNK]
     print(f"  quality_enrichment_{i}_of_{len(chunks)}.md — {len(chunk)} plants")
 print()
-print("Run Agent sessions sequentially:")
-print("  1. Open review/quality_enrichment_1_of_N.md in Cursor Agent")
-print("  2. Let it complete")
-print("  3. Run ./sync.sh --check")
-print("  4. Move to next batch")
+print("Start: open review/quality_enrichment_1_of_N.md in Cursor Agent")
+print("Run sequentially — one session per file, validate between each")
