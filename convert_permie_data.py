@@ -20,7 +20,8 @@ from collections import Counter, defaultdict
 # ── CONFIG ───────────────────────────────────────────────────────────────────
 PROJECT     = Path.home() / "apps/permieportal"
 SEEDS_DIR   = PROJECT / "src/seeds/plants"
-PESTS_FILE  = PROJECT / "src/seeds/pests/pests-data.yml"
+PESTS_FILE  = PROJECT / "src/seeds/pests/pests-data.yml"  # legacy
+PESTS_DIR   = PROJECT / "src/seeds/pests"
 OUTPUT_DIR  = PROJECT / "exports"
 ASTRO_DATA  = PROJECT / "src/data"
 # ─────────────────────────────────────────────────────────────────────────────
@@ -238,8 +239,17 @@ def main():
 
     # Load pests
     print("\n🐛 Loading pest YAML...")
-    raw_pests = load_yaml_safe(PESTS_FILE)
-    pests = [p for p in (process_pest(i) for i in (raw_pests or [])) if p]
+    pests = []
+    _SKIP = {"pests-data.yml", "pests-data.yml.bak"}
+    for _pf in sorted(PESTS_DIR.glob("*-data.yml")):
+        if _pf.name in _SKIP:
+            continue
+        _raw = load_yaml_safe(_pf)
+        if _raw:
+            for _item in (_raw if isinstance(_raw, list) else [_raw]):
+                _p = process_pest(_item)
+                if _p:
+                    pests.append(_p)
     print(f"  ✅ {len(pests)} pests loaded")
 
     # Build relationships
