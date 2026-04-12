@@ -5,6 +5,7 @@ const base = z.object({
   date: z.coerce.date().default(new Date()),
   summary: z.string().max(300),
   tags: z.array(z.string()).default([]),
+  image: z.string().optional(),
   // slug is optional; we’ll compute a fallback from title when rendering
   slug: z.string().optional(),
 });

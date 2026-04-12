@@ -48,15 +48,8 @@ const guides = all.filter(a => !a.data.tags?.includes('satire'));
   .page-desc strong { color: var(--paper); }
 
   /* SECTION HEADERS */
-  .section-header {
-    padding: 3rem 2rem 1.5rem;
-    display: flex;
-    align-items: baseline;
-    gap: 1.5rem;
-    border-bottom: 1px solid rgba(139,184,58,0.08);
-  }
+  .section-header { padding: 3rem 2rem 1.5rem; display: flex; align-items: baseline; gap: 1.5rem; border-bottom: 1px solid rgba(139,184,58,0.08); }
   .section-number { font-family: 'Bebas Neue', sans-serif; font-size: 4rem; line-height: 1; opacity: 0.12; color: var(--lime); }
-  .section-info {}
   .section-label { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 0.3rem; }
   .section-label.rot { color: var(--rust); }
   .section-label.field { color: var(--lime); }
@@ -71,12 +64,11 @@ const guides = all.filter(a => !a.data.tags?.includes('satire'));
     display: block; text-decoration: none;
     background: var(--bark);
     border: 1px solid rgba(139,184,58,0.12);
-    padding: 1.75rem;
     transition: all 0.25s;
     position: relative;
     overflow: hidden;
   }
-  .article-card::before {
+  .article-card::after {
     content: '';
     position: absolute; bottom: 0; left: 0;
     width: 100%; height: 2px;
@@ -84,33 +76,59 @@ const guides = all.filter(a => !a.data.tags?.includes('satire'));
     transition: transform 0.3s;
   }
   .article-card.rot { border-color: rgba(196,85,26,0.15); }
-  .article-card.rot::before { background: var(--rust); }
-  .article-card.rot:hover { background: rgba(122,59,30,0.15); border-color: rgba(196,85,26,0.3); }
-  .article-card.field::before { background: var(--lime); }
-  .article-card.field:hover { background: rgba(42,61,31,0.3); border-color: rgba(139,184,58,0.3); }
-  .article-card:hover::before { transform: scaleX(1); }
+  .article-card.rot::after { background: var(--rust); }
+  .article-card.rot:hover { background: rgba(122,59,30,0.1); border-color: rgba(196,85,26,0.3); }
+  .article-card.field::after { background: var(--lime); }
+  .article-card.field:hover { background: rgba(42,61,31,0.2); border-color: rgba(139,184,58,0.3); }
+  .article-card:hover::after { transform: scaleX(1); }
 
+  /* CARD IMAGE */
+  .card-image-wrap {
+    width: 100%; height: 200px;
+    overflow: hidden;
+    position: relative;
+  }
+  .card-image {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    display: block;
+    opacity: 0.75;
+    transition: opacity 0.3s, transform 0.4s;
+  }
+  .article-card:hover .card-image { opacity: 0.9; transform: scale(1.03); }
+  .card-image-placeholder {
+    width: 100%; height: 100%;
+    background: linear-gradient(135deg, rgba(42,61,31,0.6) 0%, var(--bark) 100%);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .card-image-placeholder span {
+    font-family: 'Space Mono', monospace; font-size: 0.6rem;
+    letter-spacing: 0.2em; text-transform: uppercase;
+    color: rgba(139,184,58,0.3);
+  }
+  /* Rot articles get a darker image tint */
+  .article-card.rot .card-image { filter: sepia(20%) saturate(80%); }
+  .article-card.rot .card-image-placeholder {
+    background: linear-gradient(135deg, rgba(122,59,30,0.4) 0%, var(--bark) 100%);
+  }
+
+  /* CARD BODY */
+  .card-body { padding: 1.5rem; }
   .card-meta { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.75rem; }
   .card-meta.rot { color: var(--rust); opacity: 0.8; }
   .card-meta.field { color: var(--lime); opacity: 0.7; }
-  .card-meta::before { content: ''; width: 1.5rem; height: 1px; }
-  .card-meta.rot::before { background: var(--rust); }
-  .card-meta.field::before { background: var(--lime); }
 
-  .card-title { font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem; letter-spacing: 0.03em; color: var(--paper); margin-bottom: 0.75rem; line-height: 1.1; }
-  .card-summary { font-size: 0.9rem; line-height: 1.65; color: var(--ash); margin-bottom: 1.25rem; }
-  .card-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+  .card-title { font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; letter-spacing: 0.03em; color: var(--paper); margin-bottom: 0.65rem; line-height: 1.1; }
+  .card-summary { font-size: 0.88rem; line-height: 1.65; color: var(--ash); margin-bottom: 1.1rem; }
+  .card-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 1rem; }
   .card-tag { font-family: 'Space Mono', monospace; font-size: 0.58rem; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.15rem 0.55rem; border: 1px solid rgba(139,184,58,0.2); color: var(--ash); }
   .card-tag.satire-tag { border-color: rgba(196,85,26,0.25); color: var(--rust); opacity: 0.8; }
 
-  .card-read { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; margin-top: 1.25rem; display: flex; align-items: center; gap: 0.4rem; }
+  .card-read { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; display: inline-flex; align-items: center; gap: 0.4rem; }
   .card-read.rot { color: var(--rust); }
   .card-read.field { color: var(--lime); }
   .card-read::after { content: '→'; transition: transform 0.2s; }
   .article-card:hover .card-read::after { transform: translateX(4px); }
-
-  /* EMPTY STATE */
-  .empty { padding: 3rem 2rem; font-family: 'Space Mono', monospace; font-size: 0.8rem; color: var(--ash); font-style: italic; }
 
   /* FOOTER */
   .footer { padding: 2rem 4rem; border-top: 1px solid rgba(139,184,58,0.15); display: flex; justify-content: space-between; align-items: center; margin-top: 2rem; }
@@ -131,7 +149,6 @@ const guides = all.filter(a => !a.data.tags?.includes('satire'));
     <li><a href="/plants">Plants</a></li>
     <li><a href="/pests">Pests</a></li>
     <li><a href="/articles">Articles</a></li>
-    <li><a href="/projects">Projects</a></li>
     <li><a href="/about">About</a></li>
   </ul>
 </nav>
@@ -165,17 +182,26 @@ const guides = all.filter(a => !a.data.tags?.includes('satire'));
     <div class="article-grid">
       {satire.map(a => (
         <a href={`/articles/${entrySlug(a)}`} class="article-card rot">
-          <div class="card-meta rot">
-            {new Date(a.data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+          <div class="card-image-wrap">
+            {a.data.image ? (
+              <img class="card-image" src={a.data.image} alt={a.data.title} loading="lazy" />
+            ) : (
+              <div class="card-image-placeholder"><span>Rotten Articles</span></div>
+            )}
           </div>
-          <div class="card-title">{a.data.title}</div>
-          <p class="card-summary">{a.data.summary}</p>
-          <div class="card-tags">
-            {(a.data.tags || []).map((t: string) => (
-              <span class={`card-tag ${t === 'satire' ? 'satire-tag' : ''}`}>{t}</span>
-            ))}
+          <div class="card-body">
+            <div class="card-meta rot">
+              {new Date(a.data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+            </div>
+            <div class="card-title">{a.data.title}</div>
+            <p class="card-summary">{a.data.summary}</p>
+            <div class="card-tags">
+              {(a.data.tags || []).map((t: string) => (
+                <span class={`card-tag ${t === 'satire' ? 'satire-tag' : ''}`}>{t}</span>
+              ))}
+            </div>
+            <span class="card-read rot">Read it</span>
           </div>
-          <div class="card-read rot">Read it</div>
         </a>
       ))}
     </div>
@@ -196,25 +222,30 @@ const guides = all.filter(a => !a.data.tags?.includes('satire'));
     <div class="article-grid">
       {guides.map(a => (
         <a href={`/articles/${entrySlug(a)}`} class="article-card field">
-          <div class="card-meta field">
-            {new Date(a.data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+          <div class="card-image-wrap">
+            {a.data.image ? (
+              <img class="card-image" src={a.data.image} alt={a.data.title} loading="lazy" />
+            ) : (
+              <div class="card-image-placeholder"><span>Field Notes</span></div>
+            )}
           </div>
-          <div class="card-title">{a.data.title}</div>
-          <p class="card-summary">{a.data.summary}</p>
-          <div class="card-tags">
-            {(a.data.tags || []).map((t: string) => (
-              <span class="card-tag">{t}</span>
-            ))}
+          <div class="card-body">
+            <div class="card-meta field">
+              {new Date(a.data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+            </div>
+            <div class="card-title">{a.data.title}</div>
+            <p class="card-summary">{a.data.summary}</p>
+            <div class="card-tags">
+              {(a.data.tags || []).map((t: string) => (
+                <span class="card-tag">{t}</span>
+              ))}
+            </div>
+            <span class="card-read field">Read it</span>
           </div>
-          <div class="card-read field">Read it</div>
         </a>
       ))}
     </div>
   </div>
-)}
-
-{satire.length === 0 && guides.length === 0 && (
-  <p class="empty">No articles yet. Check back soon.</p>
 )}
 
 <footer class="footer">
