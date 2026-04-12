@@ -23,20 +23,41 @@ const controlSectionLabels: Record<string, string> = {
 
 const imagePath = pest.picture ? `/assets/pests/${pest.picture}` : null;
 
-const sciName = pest.scientific_name && pest.scientific_name !== 'NEEDS_DATA'
-  ? pest.scientific_name : pest.name;
-const nameQuery  = encodeURIComponent(pest.name);
-const taxonQuery = encodeURIComponent(sciName);
+// Use common name for all external links — more reliable than scientific names
+const nameQuery = encodeURIComponent(pest.name);
 
-// iNaturalist — taxon_name= accepts scientific names, common names, synonyms
-const iNatObsUrl    = `https://www.inaturalist.org/observations?place_id=any&taxon_name=${taxonQuery}`;
-const iNatSpeciesUrl = `https://www.inaturalist.org/taxa/search?q=${taxonQuery}`;
-const wikipediaUrl   = `https://en.wikipedia.org/wiki/${encodeURIComponent(sciName.replace(/ /g, '_'))}`;
+// iNaturalist: taxon_name= accepts common names, scientific names, and synonyms
+const iNatObsUrl     = `https://www.inaturalist.org/observations?place_id=any&taxon_name=${nameQuery}`;
+const iNatSpeciesUrl = `https://www.inaturalist.org/taxa/search?q=${nameQuery}`;
+const wikipediaUrl   = (() => {
+  // Wikipedia uses Title_Case_With_Lowercase_After_First: "Apple_scab" not "Apple_Scab"
+  const words = pest.name.split(' ');
+  const titled = words[0].charAt(0).toUpperCase() + words[0].slice(1).toLowerCase();
+  const rest = words.slice(1).map((w: string) => w.toLowerCase()).join('_');
+  const wikiName = rest ? titled + '_' + rest : titled;
+  return `https://en.wikipedia.org/wiki/${encodeURIComponent(wikiName)}`;
+})();
 
-const isDisease = ['greening', 'blight', 'rot', 'mold', 'mildew', 'canker',
-                   'virus', 'fungus', 'bacterial', 'alternaria', 'cercospora',
-                   'anthracnose', 'pythium', 'phytophthora'].some(d =>
-  pest.slug.includes(d) || pest.name.toLowerCase().includes(d)
+// Disease/fungal pests — show UF/IFAS which has best subtropical disease content
+// Uses word-level matching to avoid flagging "Carrot Rust Fly" as a disease
+const pestNameLower = pest.name.toLowerCase();
+const isDisease = (
+  /\bgreening\b/.test(pestNameLower) ||
+  /\bblight\b/.test(pestNameLower) ||
+  /\brot\b/.test(pestNameLower) ||
+  /\bmold\b/.test(pestNameLower) ||
+  /\bmildew\b/.test(pestNameLower) ||
+  /\bcanker\b/.test(pestNameLower) ||
+  /\bvirus\b/.test(pestNameLower) ||
+  /\bwilt\b/.test(pestNameLower) ||
+  /\bscab\b/.test(pestNameLower) ||
+  /\banthraco/.test(pestNameLower) ||
+  /\balternaria\b/.test(pestNameLower) ||
+  /\bcercospora\b/.test(pestNameLower) ||
+  /\bpythium\b/.test(pestNameLower) ||
+  /\bphytophthora\b/.test(pestNameLower) ||
+  /\bganoderma\b/.test(pestNameLower) ||
+  /\bblast\b/.test(pestNameLower)
 );
 const ifasUrl = `https://edis.ifas.ufl.edu/search?q=${nameQuery}`;
 ---
@@ -73,7 +94,7 @@ const ifasUrl = `https://edis.ifas.ufl.edu/search?q=${nameQuery}`;
   .hero-image-placeholder span { font-family: 'Bebas Neue', sans-serif; font-size: 1rem; letter-spacing: 0.2em; color: rgba(196,85,26,0.3); text-transform: uppercase; }
   .hero-image-wrap::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 50%; background: linear-gradient(to top, rgba(15,13,10,0.95) 0%, transparent 100%); pointer-events: none; }
 
-  /* Quick ID links overlaid on image */
+  /* Quick ID links on image */
   .id-links { position: absolute; bottom: 1.25rem; right: 1.5rem; display: flex; gap: 0.5rem; z-index: 2; }
   .id-link { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.3rem 0.7rem; background: rgba(15,13,10,0.85); border: 1px solid rgba(196,85,26,0.4); color: var(--rust); text-decoration: none; transition: all 0.2s; }
   .id-link:hover { border-color: var(--rust); color: var(--paper); background: rgba(122,59,30,0.5); }
@@ -94,12 +115,10 @@ const ifasUrl = `https://edis.ifas.ufl.edu/search?q=${nameQuery}`;
   .section { padding: 2.5rem 2rem; border-bottom: 1px solid rgba(139,184,58,0.1); }
   .section-label { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--straw); margin-bottom: 1rem; }
   .section-title { font-family: 'Bebas Neue', sans-serif; font-size: 2rem; letter-spacing: 0.03em; color: var(--paper); margin-bottom: 1.25rem; }
-
-  /* IDENTIFICATION */
   .description { font-size: 1.05rem; line-height: 1.8; color: var(--ash); }
   .characteristics { font-size: 1rem; line-height: 1.75; color: var(--ash); margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid rgba(139,184,58,0.1); }
 
-  /* PHOTO LINKS */
+  /* PHOTO STRIP */
   .photo-strip { margin-top: 1.5rem; padding: 1.25rem 1.5rem; background: rgba(28,24,18,0.7); border: 1px solid rgba(196,85,26,0.15); }
   .photo-strip-label { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ash); opacity: 0.8; margin-bottom: 0.85rem; }
   .photo-strip-links { display: flex; flex-wrap: wrap; gap: 0.6rem; }
@@ -156,7 +175,6 @@ const ifasUrl = `https://edis.ifas.ufl.edu/search?q=${nameQuery}`;
   <a href="/pests">← Pests</a> / {pest.name}
 </div>
 
-<!-- HERO IMAGE -->
 <div class="hero-image-wrap">
   {imagePath ? (
     <img class="hero-image" src={imagePath} alt={`${pest.name} identification`} loading="eager" />
@@ -166,16 +184,11 @@ const ifasUrl = `https://edis.ifas.ufl.edu/search?q=${nameQuery}`;
     </div>
   )}
   <div class="id-links">
-    <a href={iNatObsUrl} target="_blank" rel="noopener" class="id-link">
-      iNat Photos
-    </a>
-    <a href={iNatSpeciesUrl} target="_blank" rel="noopener" class="id-link">
-      iNat Species
-    </a>
+    <a href={iNatObsUrl} target="_blank" rel="noopener" class="id-link">iNat Photos</a>
+    <a href={iNatSpeciesUrl} target="_blank" rel="noopener" class="id-link">iNat Species</a>
   </div>
 </div>
 
-<!-- HERO TEXT -->
 <div class="hero">
   <p class="pest-eyebrow">Organic Control Profile</p>
   <h1 class="pest-name">{pest.name}</h1>
@@ -200,14 +213,12 @@ const ifasUrl = `https://edis.ifas.ufl.edu/search?q=${nameQuery}`;
 
 <div class="content">
 
-  <!-- IDENTIFICATION -->
   {(pest.description || pest.characteristics) && (
     <div class="section">
       <p class="section-label">Field Identification</p>
       {pest.description && <p class="description">{pest.description}</p>}
       {pest.characteristics && <p class="characteristics">{pest.characteristics}</p>}
 
-      <!-- PHOTO LINKS -->
       <div class="photo-strip">
         <div class="photo-strip-label">More identification photos — verified field observations</div>
         <div class="photo-strip-links">
@@ -225,13 +236,11 @@ const ifasUrl = `https://edis.ifas.ufl.edu/search?q=${nameQuery}`;
               <span class="arrow">↗</span> UF/IFAS Extension
             </a>
           )}
-
         </div>
       </div>
     </div>
   )}
 
-  <!-- CONTROL METHODS -->
   {pest.control_methods && Object.keys(pest.control_methods).length > 0 && (
     <div class="section">
       <p class="section-label">How to Deal With It</p>
@@ -249,7 +258,6 @@ const ifasUrl = `https://edis.ifas.ufl.edu/search?q=${nameQuery}`;
     </div>
   )}
 
-  <!-- NATURAL ENEMIES -->
   {pest.natural_enemies && pest.natural_enemies.length > 0 && (
     <div class="section">
       <p class="section-label">Let Nature Handle It</p>
@@ -262,7 +270,6 @@ const ifasUrl = `https://edis.ifas.ufl.edu/search?q=${nameQuery}`;
     </div>
   )}
 
-  <!-- AFFECTED PLANTS -->
   {pest.affected_plants && pest.affected_plants.length > 0 && (
     <div class="section">
       <p class="section-label">Threat Map</p>
