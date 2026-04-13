@@ -1,80 +1,64 @@
 ---
-// src/pages/about.astro
+import BaseLayout from '../components/layouts/BaseLayout.astro';
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About — PermiePortal</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Serif:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
-  <style>
-    :root {
-      --soil: #0f0d0a; --bark: #1c1812; --moss: #2a3d1f;
-      --leaf: #4a7c35; --lime: #8fb83a; --straw: #d4a843;
-      --ash: #b8b0a0; --paper: #ede8dc; --rot: #7a3b1e; --rust: #c4551a;
-    }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { background: var(--soil); color: var(--paper); font-family: 'Instrument Serif', Georgia, serif; }
-    .nav { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 2rem; border-bottom: 1px solid rgba(139,184,58,0.2); }
-    .nav-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; letter-spacing: 0.08em; color: var(--lime); text-decoration: none; }
-    .nav-links { display: flex; gap: 2rem; list-style: none; }
-    .nav-links a { font-family: 'Space Mono', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ash); text-decoration: none; transition: color 0.2s; }
-    .nav-links a:hover { color: var(--lime); }
+<BaseLayout title="About — PermiePortal">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Serif:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+  :root {
+    --soil: #0f0d0a; --bark: #1c1812; --moss: #2a3d1f;
+    --leaf: #4a7c35; --lime: #8fb83a; --straw: #d4a843;
+    --ash: #b8b0a0; --paper: #ede8dc; --rot: #7a3b1e; --rust: #c4551a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--soil); color: var(--paper); font-family: 'Instrument Serif', Georgia, serif; }
+  .nav { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 2rem; border-bottom: 1px solid rgba(139,184,58,0.2); }
+  .nav-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; letter-spacing: 0.08em; color: var(--lime); text-decoration: none; }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a { font-family: 'Space Mono', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ash); text-decoration: none; transition: color 0.2s; }
+  .nav-links a:hover { color: var(--lime); }
 
-    .hero {
-      max-width: 860px; margin: 0 auto;
-      padding: 5rem 2rem 3rem;
-      border-bottom: 1px solid rgba(139,184,58,0.15);
-    }
-    .hero-eyebrow { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--straw); margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.75rem; }
-    .hero-eyebrow::before { content: ''; width: 2rem; height: 1px; background: var(--straw); }
-    .hero-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(4rem, 10vw, 9rem); line-height: 0.88; letter-spacing: 0.02em; color: var(--paper); margin-bottom: 2rem; }
-    .hero-title em { color: var(--lime); font-style: normal; display: block; }
+  .hero { padding: 5rem 2rem 3rem; border-bottom: 1px solid rgba(139,184,58,0.15); max-width: 900px; margin: 0 auto; }
+  .hero-eyebrow { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--straw); margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.75rem; }
+  .hero-eyebrow::before { content: ''; width: 2rem; height: 1px; background: var(--straw); }
+  .hero-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(4rem, 10vw, 9rem); line-height: 0.88; letter-spacing: 0.02em; color: var(--paper); }
+  .hero-title em { color: var(--lime); font-style: normal; display: block; }
 
-    .body { max-width: 680px; margin: 0 auto; padding: 3.5rem 2rem 5rem; }
+  .body { max-width: 680px; margin: 0 auto; padding: 4rem 2rem 5rem; }
+  .lead { font-size: 1.25rem; line-height: 1.8; color: var(--paper); margin-bottom: 2.5rem; font-style: italic; border-left: 3px solid var(--lime); padding-left: 1.25rem; }
+  .body p { font-size: 1.1rem; line-height: 1.85; color: var(--ash); margin-bottom: 1.75rem; }
+  .body p strong { color: var(--paper); font-weight: normal; }
+  .body p em { color: var(--straw); font-style: italic; }
+  hr { border: none; border-top: 1px solid rgba(139,184,58,0.15); margin: 3rem 0; }
 
-    .lead { font-size: 1.25rem; line-height: 1.8; color: var(--paper); margin-bottom: 2.5rem; }
+  .identity { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: rgba(139,184,58,0.15); margin: 3rem 0; }
+  .identity-item { background: var(--bark); padding: 1.5rem; }
+  .identity-role { font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem; letter-spacing: 0.03em; color: var(--lime); margin-bottom: 0.4rem; }
+  .identity-desc { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--ash); line-height: 1.5; letter-spacing: 0.04em; }
 
-    .body p { font-size: 1.1rem; line-height: 1.85; color: var(--ash); margin-bottom: 1.75rem; }
-    .body p strong { color: var(--paper); font-weight: normal; }
-    .body p em { color: var(--straw); font-style: italic; }
+  .closing-line { font-family: 'Bebas Neue', sans-serif; font-size: clamp(1.8rem, 4vw, 3rem); line-height: 1.1; color: var(--paper); margin: 2.5rem 0 2rem; }
+  .closing-line em { color: var(--lime); font-style: normal; }
 
-    .divider { border: none; border-top: 1px solid rgba(139,184,58,0.15); margin: 3rem 0; }
+  .cta-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 2.5rem; }
+  .btn { font-family: 'Space Mono', monospace; font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.75rem 1.5rem; text-decoration: none; transition: all 0.2s; display: inline-flex; align-items: center; gap: 0.5rem; }
+  .btn-primary { background: var(--lime); color: var(--soil); font-weight: 700; }
+  .btn-primary:hover { background: var(--straw); }
+  .btn-secondary { border: 1px solid rgba(139,184,58,0.4); color: var(--lime); }
+  .btn-secondary:hover { border-color: var(--lime); background: rgba(139,184,58,0.08); }
+  .btn::after { content: '→'; }
 
-    .closing {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: clamp(1.8rem, 4vw, 3rem);
-      line-height: 1.1;
-      letter-spacing: 0.03em;
-      color: var(--paper);
-      margin-bottom: 2rem;
-    }
-    .closing em { color: var(--lime); font-style: normal; }
+  .footer { padding: 2rem 4rem; border-top: 1px solid rgba(139,184,58,0.15); display: flex; justify-content: space-between; align-items: center; }
+  .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.2rem; color: var(--lime); letter-spacing: 0.08em; }
+  .footer-copy { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--ash); }
 
-    .cta-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 2.5rem; }
-    .btn { font-family: 'Space Mono', monospace; font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.75rem 1.5rem; text-decoration: none; transition: all 0.2s; display: inline-flex; align-items: center; gap: 0.5rem; }
-    .btn-primary { background: var(--lime); color: var(--soil); }
-    .btn-primary:hover { background: var(--paper); }
-    .btn-secondary { border: 1px solid rgba(139,184,58,0.4); color: var(--lime); }
-    .btn-secondary:hover { border-color: var(--lime); background: rgba(139,184,58,0.08); }
-    .btn::after { content: '→'; }
-
-    .footer { padding: 2rem 4rem; border-top: 1px solid rgba(139,184,58,0.15); display: flex; justify-content: space-between; align-items: center; margin-top: 2rem; }
-    .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.2rem; color: var(--lime); letter-spacing: 0.08em; }
-    .footer-copy { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--ash); }
-
-    @media (max-width: 768px) {
-      .nav-links { gap: 1rem; }
-      .hero { padding: 3rem 1.5rem 2rem; }
-      .body { padding: 2.5rem 1.5rem 4rem; }
-      .footer { flex-direction: column; gap: 1rem; padding: 2rem 1.5rem; text-align: center; }
-      .cta-row { flex-direction: column; }
-    }
-  </style>
-</head>
-<body>
+  @media (max-width: 768px) {
+    .nav-links { gap: 1rem; }
+    .hero { padding: 3rem 1.5rem 2rem; }
+    .body { padding: 2.5rem 1.5rem 4rem; }
+    .identity { grid-template-columns: 1fr; }
+    .footer { flex-direction: column; gap: 1rem; padding: 2rem 1.5rem; text-align: center; }
+    .cta-row { flex-direction: column; }
+  }
+</style>
 
 <nav class="nav">
   <a href="/" class="nav-logo">PermiePortal</a>
@@ -97,62 +81,66 @@
   <p class="lead">
     This started as a plant filter. I needed to know what would actually grow,
     what would fix nitrogen, and what could handle pests without turning my yard
-    into a chemical experiment.
+    into a chemical experiment. From there, it grew.
   </p>
 
   <p>
-    From there, it grew. Some of this comes from direct experience — building out
-    a food forest in Yulee, Florida. Some of it comes from research, pattern
-    recognition, and connecting dots across different climates and systems.
-    Not every plant here has been personally tested, and that's intentional.
-    This isn't just about one yard.
+    Some of this comes from direct experience — building out a food forest in Yulee, Florida.
+    Some of it comes from research, pattern recognition, and connecting dots across different
+    climates and systems. Not every plant here has been personally tested, and that's intentional.
+    <strong>This isn't just about one yard.</strong>
   </p>
 
   <p>
-    <strong>Information should be free and widely available. No exceptions.</strong>
+    Information should be free and widely available. No exceptions.
   </p>
 
   <p>
     This isn't for me — it's for the person in zone 7 trying to feed their family,
-    the grower in Puerto Rico making it work without a safety net, the beginner
-    staring at a dying lawn and realizing… maybe it was never supposed to be
-    grass in the first place.
+    the grower in Puerto Rico making it work without a safety net, the beginner staring
+    at a dying lawn and realizing… <em>maybe it was never supposed to be grass in the first place.</em>
   </p>
 
-  <hr class="divider" />
+  <hr />
 
   <p>
     Most environmental content either sells guilt or sells products.
-    PermiePortal does neither. It just shows you the system — and lets you decide
-    what feels broken.
+    PermiePortal does neither. It just shows you the system — and lets you decide what feels broken.
   </p>
 
   <p>
-    Sometimes the truth doesn't land head-on. Sometimes you have to twist it,
-    exaggerate it, laugh at it — and suddenly you can't unsee it. That's what
-    the <em>Rotten Articles</em> section is. Satire as a delivery system.
-    Soil science as the payload.
+    Sometimes the truth doesn't land head-on. Sometimes you have to twist it, exaggerate it,
+    laugh at it — and suddenly you can't unsee it. That's what the Rotten Articles section is.
+    <strong>Satire as a delivery system. Soil science as the payload.</strong>
   </p>
 
   <p>
-    Different uniforms, same pattern: someone upstream made a decision that made
-    sense on paper, and someone downstream paid for it in soil, or blood, or both.
-    PermiePortal is what happens when you get tired of waiting for upstream to
-    figure it out.
+    Different uniforms, same pattern: someone upstream made a decision that made sense on paper,
+    and someone downstream paid for it in soil, or blood, or both.
+    PermiePortal is what happens when you get tired of waiting for upstream to figure it out.
   </p>
 
-  <hr class="divider" />
+  <hr />
 
-  <div class="closing">
-    Navy Corpsman.<br>
-    Sysadmin.<br>
-    <em>Syntropic agroforestry obsessive.</em>
+  <div class="identity">
+    <div class="identity-item">
+      <div class="identity-role">Navy Corpsman</div>
+      <div class="identity-desc">You learn fast when the system failing has real consequences.</div>
+    </div>
+    <div class="identity-item">
+      <div class="identity-role">Sysadmin</div>
+      <div class="identity-desc">If it breaks, you fix it. If it keeps breaking, you rebuild it right.</div>
+    </div>
+    <div class="identity-item">
+      <div class="identity-role">Agroforestry</div>
+      <div class="identity-desc">Syntropic systems. Perennial food. No lawn. Not ever.</div>
+    </div>
   </div>
 
-  <p>
-    The thread connecting all three is simple: if the system is broken,
-    you build a better one.
-  </p>
+  <div class="closing-line">
+    If the system is broken,<br>
+    <em>build a better one.</em>
+  </div>
 
   <div class="cta-row">
     <a href="/plants" class="btn btn-primary">Browse the Plants</a>
@@ -165,5 +153,4 @@
   <div class="footer-copy">© {new Date().getFullYear()} PermiePortal</div>
 </footer>
 
-</body>
-</html>
+</BaseLayout>
