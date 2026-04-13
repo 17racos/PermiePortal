@@ -1,0 +1,52 @@
+daemon off;
+worker_processes auto;
+
+events {
+  use epoll;
+  accept_mutex on;
+  worker_connections <%= ENV["NGINX_WORKER_CONNECTIONS"] || 1024 %>;
+}
+
+http {
+  gzip on;
+  gzip_comp_level 2;
+  gzip_min_length 512;
+  gzip_proxied any;
+  gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
+
+  server_tokens off;
+
+  log_format l2met 'measure#nginx.service=$request_time path=$request_uri';
+  access_log logs/nginx/access.log l2met;
+  error_log logs/nginx/error.log;
+
+  include mime.types;
+  default_type application/octet-stream;
+  sendfile on;
+
+  server {
+    listen <%= ENV["PORT"] %>;
+    server_name _;
+    keepalive_timeout 5;
+    root /app/dist;
+    index index.html;
+
+    # Clean URLs
+    location / {
+      try_files $uri $uri/index.html $uri.html =404;
+    }
+
+    # Assets — long cache
+    location /assets/ {
+      expires 1y;
+      add_header Cache-Control "public, immutable";
+    }
+
+    # HTTPS redirect
+    if ($http_x_forwarded_proto != "https") {
+      return 301 https://$host$request_uri;
+    }
+
+    error_page 404 /404.html;
+  }
+}
