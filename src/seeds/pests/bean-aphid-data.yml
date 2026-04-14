@@ -14,201 +14,45 @@
     fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
     Matching visible pests with fresh plant damage confirms active infestation.
   control_methods:
-    organic_sprays: Insecticidal soap or horticultural oil knocks down exposed colonies with complete coverage, especially
-      leaf undersides; repeat every few days while migrations continue. Neem-based products can reduce feeding and reproduction.
-      Avoid spraying open flowers visited by pollinators; apply in early morning or evening and spot-treat hotspots when possible.
-    biological_controls: Lady beetles (Coccinellidae), syrphid fly larvae (Syrphidae), lacewings (Chrysopidae), and parasitic
-      wasps such as Aphidius spp. and Aphelinus spp. attack bean aphid. Preserve flowering strips and avoid tank-mixing soaps
-      or oils on the same day as releasing purchased beneficials.
-    cultural_practices: Avoid over-fertilizing with soluble nitrogen that produces soft, aphid-magnet growth. Intercrop with
-      less favored species to slow colony spread; remove nearby weed reservoirs (lamb’s-quarters, dock, mustards) that host
-      early flights. Harvest or clip heavily infested tips on leafy greens to set back colonies before seed staging.
-    mechanical_physical: A strong water rinse dislodges colonies from sturdy plants; repeat every 2–3 days on beans and beet
-      greens. Sticky traps monitor winged arrivals in high tunnels and greenhouse starts without replacing biocontrol.
-    preventive_methods: Scout undersides of terminal leaves twice weekly during cool, humid weather. Use reflective mulches
-      early in season where labels allow to confuse incoming alates. Rotate legume blocks in market gardens so successive
-      lush stands do not line up with peak migrations.
-  affected_plants:
-  - slug: fava-bean
-    name: Fava Bean
-  - slug: green-bean
-    name: Green Bean
-  - slug: malabar-spinach
-    name: Malabar Spinach
-  - slug: sunflower
-    name: Sunflower
-  - slug: dutch-clover
-    name: Dutch Clover
-  - slug: acacia
-    name: Acacia
-  - slug: african-locust-bean
-    name: African Locust Bean
-  - slug: ahipa
-    name: Ahipa
-  - slug: albizia-lebbeck
-    name: Albizia lebbeck
-  - slug: alfalfa
-    name: Alfalfa
-  - slug: asparagus-bean
-    name: Asparagus Bean
-  - slug: baptisia
-    name: Baptisia
-  - slug: bay-bean
-    name: Bay Bean
-  - slug: beach-bean
-    name: Beach Bean
-  - slug: black-medic
-    name: Black Medic
-  - slug: black-mulga
-    name: Black Mulga
-  - slug: black-locust
-    name: Black Locust
-  - slug: bladder-senna
-    name: Bladder Senna
-  - slug: blue-wild-indigo
-    name: Blue Wild Indigo
-  - slug: carob-tree
-    name: Carob Tree
-  - slug: cassia-alata
-    name: Cassia alata
-  - slug: catclaw-sensitive-briar
-    name: Catclaw Sensitive Briar
-  - slug: chickpea
-    name: Chickpea
-  - slug: chilean-pea
-    name: Chilean Pea
-  - slug: coffee-senna
-    name: Coffee Senna
-  - slug: coffeeweed
-    name: Coffeeweed
-  - slug: coral-bean
-    name: Coral Bean
-  - slug: crimson-clover
-    name: Crimson Clover
-  - slug: crown-vetch
-    name: Crown Vetch
-  - slug: desert-ironwood
-    name: Desert Ironwood
-  - slug: earth-chestnut
-    name: Earth Chestnut
-  - slug: false-indigo
-    name: False Indigo
-  - slug: florida-leadplant
-    name: Florida Leadplant
-  - slug: goats-rue
-    name: Goat's Rue
-  - slug: groundnut
-    name: Groundnut
-  - slug: groundplum-milkvetch
-    name: Groundplum Milkvetch
-  - slug: hairy-indigo
-    name: Hairy Indigo
-  - slug: honey-locust
-    name: Honey Locust
-  - slug: hopniss
-    name: Hopniss
-  - slug: hyacinth-bean
-    name: Hyacinth Bean
-  - slug: ice-cream-bean-tree
-    name: Ice Cream Bean Tree
-  - slug: illinois-bundleflower
-    name: Illinois Bundleflower
-  - slug: indigofera-tinctoria
-    name: Indigofera tinctoria
-  - slug: jatoba
-    name: Jatoba
-  - slug: jicama
-    name: Jicama
-  - slug: lablab-bean
-    name: Lablab Bean
-  - slug: lead-plant
-    name: Lead Plant
-  - slug: leucaena
-    name: Leucaena
-  - slug: lupine
-    name: Lupine
-  - slug: mangrove-bean
-    name: Mangrove Bean
-  - slug: milk-vetch
-    name: Milk Vetch
-  - slug: mimosa
-    name: Mimosa
-  - slug: mung-bean
-    name: Mung Bean
-  - slug: palo-verde
-    name: Palo Verde
-  - slug: partridge-acacia
-    name: Partridge Acacia
-  - slug: partridge-cassia
-    name: Partridge Cassia
-  - slug: partridge-pea
-    name: Partridge Pea
-  - slug: pea
-    name: Pea
-  - slug: perennial-peanut
-    name: Perennial Peanut
-  - slug: pigeon-pea
-    name: Pigeon Pea
-  - slug: plains-wild-indigo
-    name: Plains Wild Indigo
-  - slug: powderpuff-mimosa
-    name: Powderpuff Mimosa
-  - slug: prairie-acacia
-    name: Prairie Acacia
-  - slug: prairie-potato
-    name: Prairie Potato
-  - slug: prairie-turnip
-    name: Prairie Turnip
-  - slug: rattlebox
-    name: Rattlebox
-  - slug: sensitive-briar
-    name: Sensitive Briar
-  - slug: sensitive-plant
-    name: Sensitive Plant
-  - slug: sesbania
-    name: Sesbania
-  - slug: sesbania-grandiflora
-    name: Sesbania grandiflora
-  - slug: showy-partridge-pea
-    name: Showy Partridge Pea
-  - slug: siberian-peashrub
-    name: Siberian Peashrub
-  - slug: siberian-pea-shrub
-    name: Siberian Pea Shrub
-  - slug: sicklepod
-    name: Sicklepod
-  - slug: snow-pea
-    name: Snow Pea
-  - slug: sun-hemp
-    name: Sun Hemp
-  - slug: sunshine-mimosa
-    name: Sunshine Mimosa
-  - slug: tagasaste
-    name: Tagasaste
-  - slug: tephrosia-vogelii
-    name: Tephrosia vogelii
-  - slug: tick-trefoil
-    name: Tick Trefoil
-  - slug: trailing-mimosa
-    name: Trailing Mimosa
-  - slug: tree-medick
-    name: Tree Medick
-  - slug: white-wild-indigo
-    name: White Wild Indigo
-  - slug: wild-indigo-bush
-    name: Wild Indigo Bush
-  - slug: wild-indigo
-    name: Wild Indigo
-  - slug: wild-senna
-    name: Wild Senna
-  - slug: winged-bean
-    name: Winged Bean
-  - slug: wisteria
-    name: Wisteria
-  - slug: yam-bean
-    name: Yam Bean
-  - slug: yellow-sweet-clover
-    name: Yellow Sweet Clover
+    biological_controls: >-
+      Lady beetles, syrphid fly larvae, lacewing larvae, and parasitic wasps
+      (Aphidius spp., Aphelinus spp.) are already present in most gardens and
+      attack bean aphid actively. Do nothing for 2-3 days after first spotting
+      bean aphids -- natural enemies are likely already responding. Spraying
+      anything, even water, can kill arriving predators and make the problem worse.
+      Plant dill, fennel, and sweet alyssum nearby to sustain parasitoid wasp
+      populations. Bean aphids are born pregnant and a colony can double in 4-5
+      days in warm weather -- if predators are not present and the colony is on
+      new growth, act immediately.
+    preventive_methods: >-
+      Bean aphids are shiny black and cluster densely on new shoot tips, stem
+      joints, and the undersides of young leaves -- easy to spot and confirm.
+      They favor soft succulent growth caused by excess nitrogen -- overfeeding
+      with fertilizer produces an aphid buffet. Winged forms disperse in warm
+      weather and colonize new plants. Check bean plants weekly from transplant
+      through pod fill. Ants farming aphid colonies protect them from predators
+      and signal an established infestation that needs intervention.
+    cultural_practices: >-
+      Remove and bag heavily infested shoot tips -- this removes the colony
+      center and the ants tending it before they disperse. Avoid excess nitrogen
+      which produces the soft growth bean aphids prefer. Manage ant access with
+      sticky trunk barriers on climbing beans and standard barriers on bush types.
+      Interplant with garlic, chives, and strong-smelling herbs at bed edges to
+      confuse aphid navigation. Remove nearby weed reservoirs -- lambsquarters,
+      dock, and mustards host early aphid flights that later colonize beans.
+    mechanical_physical: >-
+      A strong water spray dislodges colonies from new growth -- bean stems are
+      sturdy enough to handle this. Repeat every 2-3 days for 2 weeks. Clip and
+      bag heavily infested shoot tips rather than trying to spray individual insects
+      off crowded stems. Sticky yellow traps monitor winged aphid movement into
+      the planting.
+    organic_sprays: >-
+      Insecticidal soap (1-2 teaspoons castile soap per quart water) kills aphids
+      on direct contact -- coat stem joints and leaf undersides thoroughly where
+      colonies cluster. Reapply every 3 days while migrations continue. Apply at
+      dusk to protect beneficial insects. Neem oil disrupts reproduction and deters
+      new arrivals. Avoid spraying open bean flowers where pollinators are active -- 
+      spray in early morning or evening only.
   natural_enemies:
   - Aphidius spp. (Braconidae)
   - Lady Beetles (Coccinellidae)

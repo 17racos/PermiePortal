@@ -5901,3 +5901,48 @@ Pests in queue:  0
     slug_m = _re.search(r'slug:\s*["']?([\w-]+)', stub)
                                      ^
 SyntaxError: closing parenthesis ']' does not match opening parenthesis '('
+
+==========================================
+PermiePortal Daily Run — Tue Apr 14 05:20:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+  File "/home/dracos/apps/permieportal/automate.py", line 512
+    slug_m = _re.search(r'slug:\s*["']?([\w-]+)', stub)
+                                     ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '('
+
+==========================================
+PermiePortal Daily Run — Tue Apr 14 05:40:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+  File "/home/dracos/apps/permieportal/automate.py", line 512
+    slug_m = _re.search(r'slug:\s*["']?([\w-]+)', stub)
+                                     ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '('
+
+==========================================
+PermiePortal Daily Run — Tue Apr 14 06:00:01 PM UTC 2026
+==========================================
+./daily.sh: line 21: [: 0
+0: integer expression expected
+Plants in queue: 0
+0
+Pests in queue:  0
+0
+
+  File "/home/dracos/apps/permieportal/automate.py", line 512
+    slug_m = _re.search(r'slug:\s*["']?([\w-]+)', stub)
+                                     ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '('
