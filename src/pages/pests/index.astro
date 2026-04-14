@@ -273,8 +273,6 @@ const pests = pestsData.sort((a, b) => a.name.localeCompare(b.name));
         href={`/pests/${pest.slug}`}
         class="pest-card"
         data-name={pest.name.toLowerCase()}
-        data-sci={pest.scientific_name?.toLowerCase() || ''}
-        data-sci={pest.scientific_name?.toLowerCase() || ''}
       >
         {pest.picture
           ? <img class="card-img" src={`/assets/pests/${pest.picture}`} alt={pest.name} loading="lazy" />
