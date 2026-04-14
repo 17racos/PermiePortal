@@ -331,13 +331,22 @@ const pests = pestsData.sort((a, b) => a.name.localeCompare(b.name));
   observer.observe(sentinel);
 
   function applyFilters(term = '') {
-    let matched = 0;
     const isSearching = term.length > 0;
+    let shown = 0;
+    let matched = 0;
     allCards.forEach(card => {
-      const match = !term ||
-        card.dataset.name!.includes(term);
-      if (match) matched++;
-      card.classList.toggle('hidden', !match || (!isSearching && matched > visibleCount));
+      const match = !term || card.dataset.name!.includes(term);
+      if (match) {
+        matched++;
+        if (isSearching || shown < visibleCount) {
+          card.classList.remove('hidden');
+          shown++;
+        } else {
+          card.classList.add('hidden');
+        }
+      } else {
+        card.classList.add('hidden');
+      }
     });
     noResults.style.display = matched === 0 ? 'block' : 'none';
   }
