@@ -14,148 +14,46 @@
     Check around wounds, blossoms, and moist plant debris where egg-laying is common. Cut open
     suspect tissue: live maggots or fresh tunnels are the clearest field confirmation.
   control_methods:
-    organic_sprays: Spinosad or kaolin clay applied to fruit surfaces beginning at straw color through harvest can deter oviposition
-      when coverage is maintained; reapply after rain per label. Some growers use neem in rotation for repellency—always check
-      crop and PHI statements for cherry. Combine sprays with sanitation because no organic spray replaces picking up drops.
-    biological_controls: Ants, birds, and ground beetles consume fallen larvae and pupae in soil; parasitic wasps attack pupae
-      weakly compared to sanitation. Chickens or ducks under supervised orchard runs can reduce ground-stage survival where
-      food safety rules allow.
-    cultural_practices: Remove and destroy infested and fallen fruit at least twice weekly during ripening—this breaks the
-      life cycle more reliably than any spray. Prune for open canopy to improve spray deposition and expose fruit to bird
-      predation. Mow or mulch drops in U-pick operations to deny larvae easy soil entry.
-    mechanical_physical: Fine mesh netting entire dwarf trees after pollination excludes flies if edges are buried or clipped.
-      Red sticky spheres plus ammonium bait traps monitor timing; mass trapping helps only at small scale. Solarize shallow
-      pupation zones in nursery blocks with clear plastic between seasons where feasible.
-    preventive_methods: Hang monitoring traps from petal fall to track first catches; log growing degree days if local extension
-      models exist. Coordinate with neighbors—untended feral trees are fly reservoirs. Document hot rows for earlier net deployment
-      next year.
-  affected_plants:
-  - slug: sand-cherry
-    name: Sand Cherry
-  - slug: american-plum
-    name: American Plum
-  - slug: wild-plum
-    name: Wild Plum
-  - slug: agrimony
-    name: Agrimony
-  - slug: allegheny-serviceberry
-    name: Allegheny Serviceberry
-  - slug: almond-tree
-    name: Almond Tree
-  - slug: american-beauty-plum
-    name: American Beauty Plum
-  - slug: american-hawthorn
-    name: American Hawthorn
-  - slug: apple
-    name: Apple
-  - slug: aronia
-    name: Aronia
-  - slug: beach-strawberry
-    name: Beach Strawberry
-  - slug: bearberry-cotoneaster
-    name: Bearberry Cotoneaster
-  - slug: black-chokeberry
-    name: Black Chokeberry
-  - slug: buffalo-plum
-    name: Buffalo Plum
-  - slug: carolina-rose
-    name: Carolina Rose
-  - slug: chickasaw-blackberry
-    name: Chickasaw Blackberry
-  - slug: chickasaw-plum
-    name: Chickasaw Plum
-  - slug: chokeberry
-    name: Chokeberry
-  - slug: climbing-prairie-rose
-    name: Climbing Prairie Rose
-  - slug: cloudberry
-    name: Cloudberry
-  - slug: cockspur-hawthorn
-    name: Cockspur Hawthorn
-  - slug: creeping-raspberry
-    name: Creeping Raspberry
-  - slug: dewberry
-    name: Dewberry
-  - slug: dotted-hawthorn
-    name: Dotted Hawthorn
-  - slug: downy-serviceberry
-    name: Downy Serviceberry
-  - slug: flatwoods-plum
-    name: Flatwoods Plum
-  - slug: frosted-hawthorn
-    name: Frosted Hawthorn
-  - slug: green-hawthorn
-    name: Green Hawthorn
-  - slug: green-apple-tree
-    name: Green Apple Tree
-  - slug: hedge-cotoneaster
-    name: Hedge Cotoneaster
-  - slug: hortulan-plum
-    name: Hortulan Plum
-  - slug: loquat
-    name: Loquat
-  - slug: many-flowered-cotoneaster
-    name: Many Flowered Cotoneaster
-  - slug: mayhaw
-    name: Mayhaw
-  - slug: meadowsweet
-    name: Meadowsweet
-  - slug: munson-plum
-    name: Munson Plum
-  - slug: nectarine-tree
-    name: Nectarine Tree
-  - slug: parsley-hawthorn
-    name: Parsley Hawthorn
-  - slug: pasture-rose
-    name: Pasture Rose
-  - slug: pear-hawthorn
-    name: Pear Hawthorn
-  - slug: pear-tree
-    name: Pear Tree
-  - slug: pineapple-pear
-    name: Pineapple Pear
-  - slug: prairie-crabapple
-    name: Prairie Crabapple
-  - slug: purple-chokeberry
-    name: Purple Chokeberry
-  - slug: raspberry
-    name: Raspberry
-  - slug: red-chokeberry
-    name: Red Chokeberry
-  - slug: red-apple-tree
-    name: Red Apple Tree
-  - slug: rock-cotoneaster
-    name: Rock Cotoneaster
-  - slug: roundleaf-serviceberry
-    name: Roundleaf Serviceberry
-  - slug: running-serviceberry
-    name: Running Serviceberry
-  - slug: sand-blackberry
-    name: Sand Blackberry
-  - slug: saskatoon-berry
-    name: Saskatoon Berry
-  - slug: serviceberry
-    name: Serviceberry
-  - slug: silverleaf-cotoneaster
-    name: Silverleaf Cotoneaster
-  - slug: smooth-serviceberry
-    name: Smooth Serviceberry
-  - slug: southern-crabapple
-    name: Southern Crabapple
-  - slug: southern-dewberry
-    name: Southern Dewberry
-  - slug: southern-hawthorn
-    name: Southern Hawthorn
-  - slug: strawberry
-    name: Strawberry
-  - slug: swamp-rose
-    name: Swamp Rose
-  - slug: sweet-crabapple
-    name: Sweet Crabapple
-  - slug: virginia-rose
-    name: Virginia Rose
-  - slug: wild-crabapple
-    name: Wild Crabapple
+    biological_controls: >-
+      Ground beetles, birds, and ants consume cherry fruit fly larvae and pupae
+      in soil under trees — maintain permanent diverse groundcover to support
+      these predators year-round. Parasitic wasps provide weak control compared
+      to sanitation but contribute to overall population pressure. Chickens or
+      ducks allowed supervised orchard access consume larvae in fallen fruit
+      where food safety regulations permit. Steinernema feltiae nematodes applied
+      to soil under tree drip lines target pupating larvae.
+    preventive_methods: >-
+      Cherry fruit fly adults emerge in late spring and lay single eggs under
+      the skin of developing cherries — the entry hole is invisible and larvae
+      are found only when fruit is cut. Red sticky sphere traps baited with
+      ammonium acetate and cherry volatile monitor adult emergence — first
+      catch indicates egg-laying has begun and protection must be in place.
+      Harvest promptly when fruit reaches maturity — overripe cherries are
+      far more attractive to laying females and larvae develop faster in
+      warm fruit.
+    cultural_practices: >-
+      Collect and destroy all fallen and infested fruit every 2-3 days during
+      ripening season — this breaks the cycle more reliably than any spray.
+      Mow or mulch dropped fruit to prevent larvae from reaching soil to pupate.
+      Prune for open canopy to improve spray coverage and expose fruit to bird
+      predation. Fine netting over entire dwarf trees after pollination is
+      complete is the most reliableor small plantings.
+    mechanical_physical: >-
+      Fine mesh netting over entire dwarf trees after pollination excludes
+      adult flies from laying eggs if edges are buried or secured. Red sticky
+      sphere traps plus ammonium bait at 1 per tree both monitor populations
+      and provide mass trapping at small scale. Individual fruit removal and
+      disposal at first sign of infestation. Solarize shallow soil under trees
+      in summer to kill pupae.
+    organic_sprays: >-
+      Spinosad applied to foliage starting at first adult catch and reapplied
+      every 7 days through harvest kills adults feeding on leaves before they
+      can lay eggs — the most effective organic spray timing. Kaolin clay on
+      fruit surfaces deters females from landing to lay eggs — apply every
+      7-10 days starting before adults emerge, more frequently after rain.
+      Neem oil in rotation with kaolin provides additional deterrence. No
+      spray reaches larvae already inside fruit — all treatments must be
+      applied before egg-laying begins.
   natural_enemies:
   - Parasitic Wasps (Braconidae)
   - Ground Beetles (Carabidae)
