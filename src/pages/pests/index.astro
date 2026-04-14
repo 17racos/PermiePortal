@@ -355,7 +355,6 @@ const pests = pestsData.sort((a, b) => a.name.localeCompare(b.name));
 
   search?.addEventListener('input', e => {
     currentTerm = (e.target as HTMLInputElement).value.toLowerCase().trim();
-    visibleCount = 60;
     applyFilters(currentTerm);
   });
 
