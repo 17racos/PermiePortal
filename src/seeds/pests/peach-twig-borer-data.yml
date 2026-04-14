@@ -14,16 +14,145 @@
     fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
     Matching visible pests with fresh plant damage confirms active infestation.
   control_methods:
-    biological_controls: >-
-      Pause for 48 hours after first detection and scout for local helpers before spraying: lady beetle larvae, lacewings, minute pirate bugs, predatory mites, and parasitoid wasps often arrive quickly when nectar plants are nearby. Build that support system with dill, fennel, alyssum, cilantro, and yarrow around the bed edges so beneficials stay on site. Avoid buying bulk beneficial insects unless monitoring shows a true gap, because many purchased releases disperse fast and rarely match local timing.
-    preventive_methods: >-
-      Peach Twig Borer pressure rises fastest on stressed plants with dense, humid canopies and frequent flushes of soft growth from overfeeding nitrogen. Keep fertility moderate, inspect new growth and leaf undersides weekly, and act when you see the first cluster instead of waiting for visible plant decline. Early warning signs include stippling, curled tips, sticky residue, frass, webbing, eggs, or small feeding scars around tender tissue.
-    cultural_practices: >-
-      Break the life cycle by removing heavily infested plant parts first, then reduce shelter with better spacing, strategic pruning, and cleanup of weeds or crop residue that can host carryover stages. Use companion strips such as garlic, chives, basil, marigold, nasturtium, or calendula to disrupt host-finding and concentrate pests where scouting is easier. Recheck in 3-4 days, because many warm-weather pest cycles can go from egg to reproducing adult in about a week.
-    mechanical_physical: >-
-      Start with a strong water spray on leaf undersides or stems to dislodge soft-bodied stages, and hand-remove egg masses, rolled leaves, or bored tissue into soapy water. Add yellow or blue sticky cards at canopy height to track adult flights and verify whether pressure is dropping. If counts keep rising after two mechanical passes in one week, escalate quickly rather than repeating labor that no longer changes population trend.
-    organic_sprays: >-
-      For contact control, mix insecticidal soap at 1-2 teaspoons pure castile soap per quart of water and spray directly on pests, especially undersides and hidden clusters. Neem oil can be layered as a growth regulator at about 1 tablespoon neem plus 1 teaspoon soap per quart, applied at dusk every 3-7 days based on pressure. These sprays are non-selective on soft-bodied insects, so avoid open flowers, avoid spraying when beneficials are active, and expect suppression through repeated coverage rather than instant eradication.
+    organic_sprays: Bacillus thuringiensis kurstaki or aizawai applied during egg hatch and small larval windows on flagged
+      shoots can be effective if thorough. Spinosad follows stone-fruit labels where available for lepidopteran larvae. Timing
+      beats material choice—use degree-day models or pheromone trap biofix if offered locally.
+    biological_controls: Trichogramma spp. egg parasitoids are used in some integrated programs; braconid and ichneumonid
+      wasps attack larvae. Ants climbing trees to tend other insects can disrupt parasitism—manage honeydew producers nearby.
+    cultural_practices: Prune and destroy flagged shoots during spring and early summer before larvae move to fruit. Remove
+      wild Prunus near orchards that harbor flights. Thin fruit clusters to reduce tight pockets where larvae hide from sprays
+      and predators.
+    mechanical_physical: Snap wilted tips below the tunnel and burn or solarize in sealed bags—feasible on backyard trees
+      and small plots. Fine netting on dwarf trees is impractical at scale but helps demonstration plantings.
+    preventive_methods: Hang pheromone traps for monitoring, not magic control. Record first catch dates yearly. Combine trap
+      data with shoot walks every 10–14 days during rapid growth.
+  affected_plants:
+  - slug: nectarine-tree
+    name: Nectarine Tree
+  - slug: almond-tree
+    name: Almond Tree
+  - slug: american-plum
+    name: American Plum
+  - slug: chickasaw-plum
+    name: Chickasaw Plum
+  - slug: agrimony
+    name: Agrimony
+  - slug: allegheny-serviceberry
+    name: Allegheny Serviceberry
+  - slug: american-beauty-plum
+    name: American Beauty Plum
+  - slug: american-hawthorn
+    name: American Hawthorn
+  - slug: apple
+    name: Apple
+  - slug: aronia
+    name: Aronia
+  - slug: beach-strawberry
+    name: Beach Strawberry
+  - slug: bearberry-cotoneaster
+    name: Bearberry Cotoneaster
+  - slug: black-chokeberry
+    name: Black Chokeberry
+  - slug: buffalo-plum
+    name: Buffalo Plum
+  - slug: carolina-rose
+    name: Carolina Rose
+  - slug: chickasaw-blackberry
+    name: Chickasaw Blackberry
+  - slug: chokeberry
+    name: Chokeberry
+  - slug: climbing-prairie-rose
+    name: Climbing Prairie Rose
+  - slug: cloudberry
+    name: Cloudberry
+  - slug: cockspur-hawthorn
+    name: Cockspur Hawthorn
+  - slug: creeping-raspberry
+    name: Creeping Raspberry
+  - slug: dewberry
+    name: Dewberry
+  - slug: dotted-hawthorn
+    name: Dotted Hawthorn
+  - slug: downy-serviceberry
+    name: Downy Serviceberry
+  - slug: flatwoods-plum
+    name: Flatwoods Plum
+  - slug: frosted-hawthorn
+    name: Frosted Hawthorn
+  - slug: green-hawthorn
+    name: Green Hawthorn
+  - slug: green-apple-tree
+    name: Green Apple Tree
+  - slug: hedge-cotoneaster
+    name: Hedge Cotoneaster
+  - slug: hortulan-plum
+    name: Hortulan Plum
+  - slug: loquat
+    name: Loquat
+  - slug: many-flowered-cotoneaster
+    name: Many Flowered Cotoneaster
+  - slug: mayhaw
+    name: Mayhaw
+  - slug: meadowsweet
+    name: Meadowsweet
+  - slug: munson-plum
+    name: Munson Plum
+  - slug: parsley-hawthorn
+    name: Parsley Hawthorn
+  - slug: pasture-rose
+    name: Pasture Rose
+  - slug: pear-hawthorn
+    name: Pear Hawthorn
+  - slug: pear-tree
+    name: Pear Tree
+  - slug: pineapple-pear
+    name: Pineapple Pear
+  - slug: prairie-crabapple
+    name: Prairie Crabapple
+  - slug: purple-chokeberry
+    name: Purple Chokeberry
+  - slug: raspberry
+    name: Raspberry
+  - slug: red-chokeberry
+    name: Red Chokeberry
+  - slug: red-apple-tree
+    name: Red Apple Tree
+  - slug: rock-cotoneaster
+    name: Rock Cotoneaster
+  - slug: roundleaf-serviceberry
+    name: Roundleaf Serviceberry
+  - slug: running-serviceberry
+    name: Running Serviceberry
+  - slug: sand-blackberry
+    name: Sand Blackberry
+  - slug: sand-cherry
+    name: Sand Cherry
+  - slug: saskatoon-berry
+    name: Saskatoon Berry
+  - slug: serviceberry
+    name: Serviceberry
+  - slug: silverleaf-cotoneaster
+    name: Silverleaf Cotoneaster
+  - slug: smooth-serviceberry
+    name: Smooth Serviceberry
+  - slug: southern-crabapple
+    name: Southern Crabapple
+  - slug: southern-dewberry
+    name: Southern Dewberry
+  - slug: southern-hawthorn
+    name: Southern Hawthorn
+  - slug: strawberry
+    name: Strawberry
+  - slug: swamp-rose
+    name: Swamp Rose
+  - slug: sweet-crabapple
+    name: Sweet Crabapple
+  - slug: virginia-rose
+    name: Virginia Rose
+  - slug: wild-crabapple
+    name: Wild Crabapple
+  - slug: wild-plum
+    name: Wild Plum
   natural_enemies:
   - Trichogramma spp.
   - Braconid Wasps
