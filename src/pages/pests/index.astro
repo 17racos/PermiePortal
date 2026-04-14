@@ -312,51 +312,20 @@ const pests = pestsData.sort((a, b) => a.name.localeCompare(b.name));
   const allCards = Array.from(grid.querySelectorAll('.pest-card')) as HTMLElement[];
   const noResults = document.getElementById('no-results')!;
 
-  let visibleCount = 60;
-
-  // Sentinel triggers loading more on scroll
-  const sentinel = document.createElement('div');
-  sentinel.id = 'load-sentinel';
-  sentinel.style.height = '1px';
-  grid.after(sentinel);
-
-  const observer = new IntersectionObserver(entries => {
-    if (entries[0].isIntersecting) {
-      visibleCount += 60;
-      applyFilters();
-    }
-  }, { rootMargin: '300px' });
-  observer.observe(sentinel);
-
   function applyFilters(term = '') {
-    const isSearching = term.length > 0;
-    let shown = 0;
     let matched = 0;
     allCards.forEach(card => {
       const match = !term || card.dataset.name!.includes(term);
-      if (match) {
-        matched++;
-        if (isSearching || shown < visibleCount) {
-          card.classList.remove('hidden');
-          shown++;
-        } else {
-          card.classList.add('hidden');
-        }
-      } else {
-        card.classList.add('hidden');
-      }
+      card.classList.toggle('hidden', !match);
+      if (match) matched++;
     });
     noResults.style.display = matched === 0 ? 'block' : 'none';
   }
 
-  let currentTerm = '';
-
   search?.addEventListener('input', e => {
-    currentTerm = (e.target as HTMLInputElement).value.toLowerCase().trim();
-    applyFilters(currentTerm);
+    const term = (e.target as HTMLInputElement).value.toLowerCase().trim();
+    applyFilters(term);
   });
-
-  applyFilters();
 </script>
 
 </BaseLayout>
