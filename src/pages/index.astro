@@ -110,6 +110,7 @@ const tickerMessages = [
   .featured-sci { font-style: italic; font-size: 0.85rem; color: var(--ash); margin-bottom: 0.75rem; }
   .featured-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
   .tag { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.08em; padding: 0.2rem 0.6rem; background: rgba(42,61,31,0.6); border: 1px solid rgba(74,124,53,0.4); color: var(--lime); text-transform: uppercase; }
+  .featured-img { width: 100%; height: 140px; object-fit: cover; display: block; opacity: 0.85; margin-bottom: 1rem; }
 
   /* TICKER */
   .rant-bar { background: var(--moss); padding: 0.75rem 0; overflow: hidden; border-top: 1px solid rgba(139,184,58,0.2); border-bottom: 1px solid rgba(139,184,58,0.2); position: relative; z-index: 5; }
@@ -226,6 +227,9 @@ const tickerMessages = [
     <div class="featured-plant">
       <div class="featured-label">▸ Random Plant</div>
       <a href={`/plants/${featuredPlant.slug}`} style="text-decoration:none">
+        {featuredPlant.picture && (
+          <img class="featured-img" src={`/assets/plants/${featuredPlant.picture}`} alt={featuredPlant.common_name} loading="lazy" />
+        )}
         <div class="featured-name">{featuredPlant.common_name}</div>
         <div class="featured-sci">{featuredPlant.scientific_name}</div>
         <div class="featured-tags">
