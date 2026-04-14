@@ -7773,6 +7773,700 @@
     ]
   },
   {
+    "slug": "brown-marmorated-stink-bug",
+    "name": "Brown Marmorated Stink Bug",
+    "scientific_name": "Halyomorpha halys",
+    "picture": "brown_marmorated_stink_bug.jpg",
+    "description": "If new growth is curling, yellowing, sticky, or chewed, brown marmorated stink bug may already be on the plant. This pest often builds quietly, then damage appears all at once. Feeding stress weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is much easier than fighting a full population surge later.",
+    "characteristics": "Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages. Matching visible pests with fresh plant damage confirms active infestation.",
+    "control_methods": {
+      "biological_controls": "Native egg parasitoid wasps (Trissolcus spp.) attack brown marmorated stink bug eggs and are establishing naturally across the US following the pest's spread. An introduced parasitoid, Trissolcus japonicus, has been released in some regions as a biocontrol agent. Do not spray broad-spectrum pesticides during egg-laying windows — you will kill the parasitoid wasps that are your best long-term defense. Assassin bugs, spiders, and birds prey on nymphs. Diverse flowering plants at garden edges support these predators throughout the season.",
+      "preventive_methods": "BMSB is a true bug that pierces fruit and injects enzymes causing cat-facing and corky spots — damage appears inside fruit before the surface shows it. Monitor with pheromone traps from late spring; rising trap catches signal spray or exclusion timing. Harvest tree fruits promptly when ripe — delayed harvest accumulates stink bug injury. They aggregate on warm south-facing walls in fall before overwintering — seal homes in September before flights begin.",
+      "cultural_practices": "Perimeter trap crops of sunflower, sorghum, or millet concentrate bugs away from high-value plants — destroy or mow trap strips after peak aggregation. Harvest ripe fruit immediately rather than leaving it on the plant. Keep weedy hosts managed along field edges — dock, multiflora rose, and tree of heaven are preferred BMSB hosts. Interplant with strongly scented herbs — garlic, catnip, and lavender at bed edges have some deterrent effect on stink bugs. Shake adults and nymphs into a wide bucket of soapy water during cool mornings when they are sluggish. Fine exclusion netting over individual fruit trees or high tunnel vents reduces egg-laying significantly during peak season. For homes, seal all gaps, cracks, and window frames before fall flights in September. Sticky monitoring traps help time management without replacing hands-on scouting on fruit.",
+      "organic_sprays": "Kaolin clay on fruit and foliage deters feeding and egg-laying — apply every 7 days and after rain, coating all fruit surfaces. Pyrethrin provides quick knockdown but degrades in hours and harms all insects — use only at dusk as a last resort. Neem oil deters feeding when applied consistently but has limited effect on adults already present. Insecticidal soap kills nymphs but bounces off adults. Accept that no spray fully controls BMSB — exclusion and trap cropping are more reliable than chemical management."
+    },
+    "natural_enemies": [
+      "Trissolcus spp. (Platygastridae)",
+      "Arachnid Predators (Spiders)",
+      "Assassin Bugs (Reduviidae)",
+      "Insectivorous Birds"
+    ],
+    "affected_plants": [
+      {
+        "slug": "acacia",
+        "name": "Acacia"
+      },
+      {
+        "slug": "african-locust-bean",
+        "name": "African Locust Bean"
+      },
+      {
+        "slug": "agrimony",
+        "name": "Agrimony"
+      },
+      {
+        "slug": "ahipa",
+        "name": "Ahipa"
+      },
+      {
+        "slug": "albizia-lebbeck",
+        "name": "Albizia lebbeck"
+      },
+      {
+        "slug": "alfalfa",
+        "name": "Alfalfa"
+      },
+      {
+        "slug": "allegheny-serviceberry",
+        "name": "Allegheny Serviceberry"
+      },
+      {
+        "slug": "almond-tree",
+        "name": "Almond Tree"
+      },
+      {
+        "slug": "american-beauty-plum",
+        "name": "American Beauty Plum"
+      },
+      {
+        "slug": "american-hawthorn",
+        "name": "American Hawthorn"
+      },
+      {
+        "slug": "american-plum",
+        "name": "American Plum"
+      },
+      {
+        "slug": "angels-trumpet",
+        "name": "Angel's Trumpet"
+      },
+      {
+        "slug": "apple",
+        "name": "Apple"
+      },
+      {
+        "slug": "aronia",
+        "name": "Aronia"
+      },
+      {
+        "slug": "ashwagandha",
+        "name": "Ashwagandha"
+      },
+      {
+        "slug": "asparagus-bean",
+        "name": "Asparagus Bean"
+      },
+      {
+        "slug": "baptisia",
+        "name": "Baptisia"
+      },
+      {
+        "slug": "bay-bean",
+        "name": "Bay Bean"
+      },
+      {
+        "slug": "beach-bean",
+        "name": "Beach Bean"
+      },
+      {
+        "slug": "beach-strawberry",
+        "name": "Beach Strawberry"
+      },
+      {
+        "slug": "bearberry-cotoneaster",
+        "name": "Bearberry Cotoneaster"
+      },
+      {
+        "slug": "black-chokeberry",
+        "name": "Black Chokeberry"
+      },
+      {
+        "slug": "black-medic",
+        "name": "Black Medic"
+      },
+      {
+        "slug": "black-mulga",
+        "name": "Black Mulga"
+      },
+      {
+        "slug": "black-locust",
+        "name": "Black Locust"
+      },
+      {
+        "slug": "bladder-senna",
+        "name": "Bladder Senna"
+      },
+      {
+        "slug": "blue-wild-indigo",
+        "name": "Blue Wild Indigo"
+      },
+      {
+        "slug": "buffalo-bur",
+        "name": "Buffalo Bur"
+      },
+      {
+        "slug": "buffalo-plum",
+        "name": "Buffalo Plum"
+      },
+      {
+        "slug": "carob-tree",
+        "name": "Carob Tree"
+      },
+      {
+        "slug": "carolina-rose",
+        "name": "Carolina Rose"
+      },
+      {
+        "slug": "cassia-alata",
+        "name": "Cassia alata"
+      },
+      {
+        "slug": "catclaw-sensitive-briar",
+        "name": "Catclaw Sensitive Briar"
+      },
+      {
+        "slug": "chickasaw-blackberry",
+        "name": "Chickasaw Blackberry"
+      },
+      {
+        "slug": "chickasaw-plum",
+        "name": "Chickasaw Plum"
+      },
+      {
+        "slug": "chickpea",
+        "name": "Chickpea"
+      },
+      {
+        "slug": "chilean-pea",
+        "name": "Chilean Pea"
+      },
+      {
+        "slug": "chiltepin-pepper",
+        "name": "Chiltepin Pepper"
+      },
+      {
+        "slug": "chiltepin-pepper-tree",
+        "name": "Chiltepin Pepper Tree"
+      },
+      {
+        "slug": "chinese-lantern",
+        "name": "Chinese Lantern"
+      },
+      {
+        "slug": "chokeberry",
+        "name": "Chokeberry"
+      },
+      {
+        "slug": "climbing-prairie-rose",
+        "name": "Climbing Prairie Rose"
+      },
+      {
+        "slug": "cloudberry",
+        "name": "Cloudberry"
+      },
+      {
+        "slug": "coastal-groundcherry",
+        "name": "Coastal Groundcherry"
+      },
+      {
+        "slug": "cockspur-hawthorn",
+        "name": "Cockspur Hawthorn"
+      },
+      {
+        "slug": "coffee-senna",
+        "name": "Coffee Senna"
+      },
+      {
+        "slug": "coffeeweed",
+        "name": "Coffeeweed"
+      },
+      {
+        "slug": "coral-bean",
+        "name": "Coral Bean"
+      },
+      {
+        "slug": "creeping-raspberry",
+        "name": "Creeping Raspberry"
+      },
+      {
+        "slug": "crimson-clover",
+        "name": "Crimson Clover"
+      },
+      {
+        "slug": "crown-vetch",
+        "name": "Crown Vetch"
+      },
+      {
+        "slug": "desert-ironwood",
+        "name": "Desert Ironwood"
+      },
+      {
+        "slug": "devils-trumpet",
+        "name": "Devil's Trumpet"
+      },
+      {
+        "slug": "dewberry",
+        "name": "Dewberry"
+      },
+      {
+        "slug": "dotted-hawthorn",
+        "name": "Dotted Hawthorn"
+      },
+      {
+        "slug": "downy-serviceberry",
+        "name": "Downy Serviceberry"
+      },
+      {
+        "slug": "dutch-clover",
+        "name": "Dutch Clover"
+      },
+      {
+        "slug": "earth-chestnut",
+        "name": "Earth Chestnut"
+      },
+      {
+        "slug": "false-indigo",
+        "name": "False Indigo"
+      },
+      {
+        "slug": "fava-bean",
+        "name": "Fava Bean"
+      },
+      {
+        "slug": "flatwoods-plum",
+        "name": "Flatwoods Plum"
+      },
+      {
+        "slug": "florida-leadplant",
+        "name": "Florida Leadplant"
+      },
+      {
+        "slug": "frosted-hawthorn",
+        "name": "Frosted Hawthorn"
+      },
+      {
+        "slug": "garden-huckleberry",
+        "name": "Garden Huckleberry"
+      },
+      {
+        "slug": "goats-rue",
+        "name": "Goat's Rue"
+      },
+      {
+        "slug": "goji-berry",
+        "name": "Goji Berry"
+      },
+      {
+        "slug": "green-bean",
+        "name": "Green Bean"
+      },
+      {
+        "slug": "green-hawthorn",
+        "name": "Green Hawthorn"
+      },
+      {
+        "slug": "green-apple-tree",
+        "name": "Green Apple Tree"
+      },
+      {
+        "slug": "ground-cherry",
+        "name": "Ground Cherry"
+      },
+      {
+        "slug": "groundnut",
+        "name": "Groundnut"
+      },
+      {
+        "slug": "groundplum-milkvetch",
+        "name": "Groundplum Milkvetch"
+      },
+      {
+        "slug": "hairy-indigo",
+        "name": "Hairy Indigo"
+      },
+      {
+        "slug": "hedge-cotoneaster",
+        "name": "Hedge Cotoneaster"
+      },
+      {
+        "slug": "honey-locust",
+        "name": "Honey Locust"
+      },
+      {
+        "slug": "hopniss",
+        "name": "Hopniss"
+      },
+      {
+        "slug": "horse-nettle",
+        "name": "Horse Nettle"
+      },
+      {
+        "slug": "hortulan-plum",
+        "name": "Hortulan Plum"
+      },
+      {
+        "slug": "hyacinth-bean",
+        "name": "Hyacinth Bean"
+      },
+      {
+        "slug": "ice-cream-bean-tree",
+        "name": "Ice Cream Bean Tree"
+      },
+      {
+        "slug": "illinois-bundleflower",
+        "name": "Illinois Bundleflower"
+      },
+      {
+        "slug": "indigofera-tinctoria",
+        "name": "Indigofera tinctoria"
+      },
+      {
+        "slug": "jatoba",
+        "name": "Jatoba"
+      },
+      {
+        "slug": "jicama",
+        "name": "Jicama"
+      },
+      {
+        "slug": "lablab-bean",
+        "name": "Lablab Bean"
+      },
+      {
+        "slug": "lead-plant",
+        "name": "Lead Plant"
+      },
+      {
+        "slug": "leucaena",
+        "name": "Leucaena"
+      },
+      {
+        "slug": "loquat",
+        "name": "Loquat"
+      },
+      {
+        "slug": "lupine",
+        "name": "Lupine"
+      },
+      {
+        "slug": "mangrove-bean",
+        "name": "Mangrove Bean"
+      },
+      {
+        "slug": "many-flowered-cotoneaster",
+        "name": "Many Flowered Cotoneaster"
+      },
+      {
+        "slug": "mayhaw",
+        "name": "Mayhaw"
+      },
+      {
+        "slug": "meadowsweet",
+        "name": "Meadowsweet"
+      },
+      {
+        "slug": "milk-vetch",
+        "name": "Milk Vetch"
+      },
+      {
+        "slug": "mimosa",
+        "name": "Mimosa"
+      },
+      {
+        "slug": "mung-bean",
+        "name": "Mung Bean"
+      },
+      {
+        "slug": "munson-plum",
+        "name": "Munson Plum"
+      },
+      {
+        "slug": "nectarine-tree",
+        "name": "Nectarine Tree"
+      },
+      {
+        "slug": "palo-verde",
+        "name": "Palo Verde"
+      },
+      {
+        "slug": "parsley-hawthorn",
+        "name": "Parsley Hawthorn"
+      },
+      {
+        "slug": "partridge-acacia",
+        "name": "Partridge Acacia"
+      },
+      {
+        "slug": "partridge-cassia",
+        "name": "Partridge Cassia"
+      },
+      {
+        "slug": "partridge-pea",
+        "name": "Partridge Pea"
+      },
+      {
+        "slug": "pasture-rose",
+        "name": "Pasture Rose"
+      },
+      {
+        "slug": "pea",
+        "name": "Pea"
+      },
+      {
+        "slug": "pear-hawthorn",
+        "name": "Pear Hawthorn"
+      },
+      {
+        "slug": "pear-tree",
+        "name": "Pear Tree"
+      },
+      {
+        "slug": "pepino-melon",
+        "name": "Pepino Melon"
+      },
+      {
+        "slug": "perennial-peanut",
+        "name": "Perennial Peanut"
+      },
+      {
+        "slug": "pigeon-pea",
+        "name": "Pigeon Pea"
+      },
+      {
+        "slug": "pineapple-pear",
+        "name": "Pineapple Pear"
+      },
+      {
+        "slug": "plains-wild-indigo",
+        "name": "Plains Wild Indigo"
+      },
+      {
+        "slug": "potato",
+        "name": "Potato"
+      },
+      {
+        "slug": "powderpuff-mimosa",
+        "name": "Powderpuff Mimosa"
+      },
+      {
+        "slug": "prairie-acacia",
+        "name": "Prairie Acacia"
+      },
+      {
+        "slug": "prairie-crabapple",
+        "name": "Prairie Crabapple"
+      },
+      {
+        "slug": "prairie-potato",
+        "name": "Prairie Potato"
+      },
+      {
+        "slug": "prairie-turnip",
+        "name": "Prairie Turnip"
+      },
+      {
+        "slug": "purple-chokeberry",
+        "name": "Purple Chokeberry"
+      },
+      {
+        "slug": "raspberry",
+        "name": "Raspberry"
+      },
+      {
+        "slug": "rattlebox",
+        "name": "Rattlebox"
+      },
+      {
+        "slug": "red-chokeberry",
+        "name": "Red Chokeberry"
+      },
+      {
+        "slug": "red-apple-tree",
+        "name": "Red Apple Tree"
+      },
+      {
+        "slug": "rock-cotoneaster",
+        "name": "Rock Cotoneaster"
+      },
+      {
+        "slug": "roundleaf-serviceberry",
+        "name": "Roundleaf Serviceberry"
+      },
+      {
+        "slug": "running-serviceberry",
+        "name": "Running Serviceberry"
+      },
+      {
+        "slug": "sand-blackberry",
+        "name": "Sand Blackberry"
+      },
+      {
+        "slug": "sand-cherry",
+        "name": "Sand Cherry"
+      },
+      {
+        "slug": "saskatoon-berry",
+        "name": "Saskatoon Berry"
+      },
+      {
+        "slug": "scarlet-eggplant",
+        "name": "Scarlet Eggplant"
+      },
+      {
+        "slug": "sensitive-briar",
+        "name": "Sensitive Briar"
+      },
+      {
+        "slug": "sensitive-plant",
+        "name": "Sensitive Plant"
+      },
+      {
+        "slug": "serviceberry",
+        "name": "Serviceberry"
+      },
+      {
+        "slug": "sesbania",
+        "name": "Sesbania"
+      },
+      {
+        "slug": "sesbania-grandiflora",
+        "name": "Sesbania grandiflora"
+      },
+      {
+        "slug": "showy-partridge-pea",
+        "name": "Showy Partridge Pea"
+      },
+      {
+        "slug": "siberian-peashrub",
+        "name": "Siberian Peashrub"
+      },
+      {
+        "slug": "siberian-pea-shrub",
+        "name": "Siberian Pea Shrub"
+      },
+      {
+        "slug": "sicklepod",
+        "name": "Sicklepod"
+      },
+      {
+        "slug": "silverleaf-cotoneaster",
+        "name": "Silverleaf Cotoneaster"
+      },
+      {
+        "slug": "smooth-serviceberry",
+        "name": "Smooth Serviceberry"
+      },
+      {
+        "slug": "snow-pea",
+        "name": "Snow Pea"
+      },
+      {
+        "slug": "southern-crabapple",
+        "name": "Southern Crabapple"
+      },
+      {
+        "slug": "southern-dewberry",
+        "name": "Southern Dewberry"
+      },
+      {
+        "slug": "southern-hawthorn",
+        "name": "Southern Hawthorn"
+      },
+      {
+        "slug": "strawberry",
+        "name": "Strawberry"
+      },
+      {
+        "slug": "sun-hemp",
+        "name": "Sun Hemp"
+      },
+      {
+        "slug": "sunshine-mimosa",
+        "name": "Sunshine Mimosa"
+      },
+      {
+        "slug": "swamp-rose",
+        "name": "Swamp Rose"
+      },
+      {
+        "slug": "sweet-crabapple",
+        "name": "Sweet Crabapple"
+      },
+      {
+        "slug": "tagasaste",
+        "name": "Tagasaste"
+      },
+      {
+        "slug": "tephrosia-vogelii",
+        "name": "Tephrosia vogelii"
+      },
+      {
+        "slug": "tick-trefoil",
+        "name": "Tick Trefoil"
+      },
+      {
+        "slug": "trailing-mimosa",
+        "name": "Trailing Mimosa"
+      },
+      {
+        "slug": "tree-medick",
+        "name": "Tree Medick"
+      },
+      {
+        "slug": "virginia-rose",
+        "name": "Virginia Rose"
+      },
+      {
+        "slug": "white-wild-indigo",
+        "name": "White Wild Indigo"
+      },
+      {
+        "slug": "wild-crabapple",
+        "name": "Wild Crabapple"
+      },
+      {
+        "slug": "wild-eggplant",
+        "name": "Wild Eggplant"
+      },
+      {
+        "slug": "wild-indigo-bush",
+        "name": "Wild Indigo Bush"
+      },
+      {
+        "slug": "wild-indigo",
+        "name": "Wild Indigo"
+      },
+      {
+        "slug": "wild-plum",
+        "name": "Wild Plum"
+      },
+      {
+        "slug": "wild-senna",
+        "name": "Wild Senna"
+      },
+      {
+        "slug": "winged-bean",
+        "name": "Winged Bean"
+      },
+      {
+        "slug": "wisteria",
+        "name": "Wisteria"
+      },
+      {
+        "slug": "wonderberry",
+        "name": "Wonderberry"
+      },
+      {
+        "slug": "yam-bean",
+        "name": "Yam Bean"
+      },
+      {
+        "slug": "yellow-sweet-clover",
+        "name": "Yellow Sweet Clover"
+      }
+    ]
+  },
+  {
     "slug": "brown-rot",
     "name": "Brown Rot",
     "scientific_name": "Monilinia fructicola",
@@ -15121,6 +15815,544 @@
     ]
   },
   {
+    "slug": "fusarium-wilt",
+    "name": "Fusarium Wilt",
+    "scientific_name": "Fusarium oxysporum",
+    "picture": "fusarium_wilt.jpg",
+    "description": "If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, fusarium wilt may already be active. This problem often starts small, then spreads across healthy tissue before most growers realize how serious it is. Warmth, moisture, and crowded foliage usually speed it up. Treat early, because waiting even a few days can turn a manageable infection into major crop loss.",
+    "characteristics": "Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a strong clue. When separate spots begin merging into larger dead patches, the disease is advancing quickly.",
+    "control_methods": {
+      "biological_controls": "Trichoderma harzianum and T. viride are soil fungi that actively suppress Fusarium by competing for space and nutrients and producing antifungal compounds. Apply as a root drench or incorporate into transplant holes — available commercially. Bacillus subtilis strains (Serenade, RootShield) colonize root surfaces and produce antibiotics that inhibit Fusarium germination. Apply preventively — these products cannot cure an infected plant but significantly reduce infection rates on healthy ones. Mycorrhizal inoculants on transplants strengthen root systems and make plants more resistant to Fusarium infection.",
+      "preventive_methods": "Fusarium wilt lives in soil as spores for 20+ years — once a bed is infested there is no practical way to eliminate it. Prevention is everything. Use certified disease-free seed and transplants. Rotate susceptible crops (tomato, basil, banana, melon) on minimum 4-year cycles. Fusarium enters through wounds and natural root openings — minimize root damage at transplant. Soil pH below 6.5 and high ammonium nitrogen favor Fusarium — maintain pH 6.5-7.0 and use nitrate nitrogen sources.",
+      "cultural_practices": "Resistant varieties are the single most effective management tool where available — look for F1, F2, or F3 resistance ratings on tomato seed packets. Remove infected plants immediately including the root ball and discard in trash — do not compost. Sanitize tools and stakes between plants with 10% bleach solution. Improve drainage — waterlogged soil dramatically increases Fusarium infection rates. Grafting susceptible varieties onto resistant rootstocks is standard in commercial tomato and melon production.",
+      "mechanical_physical": "Soil solarization — clear plastic over moist soil for 4-6 weeks in summer — reduces Fusarium spore loads in the top 6 inches of soil where it is hottest. Effective in Florida and other high-sun climates. Steam treatment of greenhouse beds and propagation mix eliminates Fusarium before planting. Destroy infected plants and root balls completely — do not leave them in the field or compost pile.",
+      "organic_sprays": "No spray cures a Fusarium-infected plant — once vascular tissue is colonized the plant will die. Soil drenches with Trichoderma or Bacillus products used preventively on clean ground reduce infection rates. Copper sulfate soil drench has some suppressive effect on Fusarium propagules but is not a reliable cure. Focus all chemical effort on prevention before planting, not treatment after symptoms appear."
+    },
+    "natural_enemies": [
+      "Trichoderma harzianum",
+      "Bacillus subtilis",
+      "Nonpathogenic Fusarium"
+    ],
+    "affected_plants": [
+      {
+        "slug": "acacia",
+        "name": "Acacia"
+      },
+      {
+        "slug": "acorn-squash",
+        "name": "Acorn Squash"
+      },
+      {
+        "slug": "african-locust-bean",
+        "name": "African Locust Bean"
+      },
+      {
+        "slug": "ahipa",
+        "name": "Ahipa"
+      },
+      {
+        "slug": "albizia-lebbeck",
+        "name": "Albizia lebbeck"
+      },
+      {
+        "slug": "alfalfa",
+        "name": "Alfalfa"
+      },
+      {
+        "slug": "angels-trumpet",
+        "name": "Angel's Trumpet"
+      },
+      {
+        "slug": "angled-loofah",
+        "name": "Angled Loofah"
+      },
+      {
+        "slug": "apple-gourd",
+        "name": "Apple Gourd"
+      },
+      {
+        "slug": "ashwagandha",
+        "name": "Ashwagandha"
+      },
+      {
+        "slug": "asparagus-bean",
+        "name": "Asparagus Bean"
+      },
+      {
+        "slug": "baptisia",
+        "name": "Baptisia"
+      },
+      {
+        "slug": "bay-bean",
+        "name": "Bay Bean"
+      },
+      {
+        "slug": "beach-bean",
+        "name": "Beach Bean"
+      },
+      {
+        "slug": "birdhouse-gourd",
+        "name": "Birdhouse Gourd"
+      },
+      {
+        "slug": "bitter-melon",
+        "name": "Bitter Melon"
+      },
+      {
+        "slug": "black-medic",
+        "name": "Black Medic"
+      },
+      {
+        "slug": "black-mulga",
+        "name": "Black Mulga"
+      },
+      {
+        "slug": "black-locust",
+        "name": "Black Locust"
+      },
+      {
+        "slug": "bladder-senna",
+        "name": "Bladder Senna"
+      },
+      {
+        "slug": "blue-wild-indigo",
+        "name": "Blue Wild Indigo"
+      },
+      {
+        "slug": "bottle-gourd",
+        "name": "Bottle Gourd"
+      },
+      {
+        "slug": "buffalo-bur",
+        "name": "Buffalo Bur"
+      },
+      {
+        "slug": "buffalo-gourd",
+        "name": "Buffalo Gourd"
+      },
+      {
+        "slug": "bushel-gourd",
+        "name": "Bushel Gourd"
+      },
+      {
+        "slug": "calabaza",
+        "name": "Calabaza"
+      },
+      {
+        "slug": "carob-tree",
+        "name": "Carob Tree"
+      },
+      {
+        "slug": "cassabanana-root-systems",
+        "name": "Cassabanana root systems"
+      },
+      {
+        "slug": "cassia-alata",
+        "name": "Cassia alata"
+      },
+      {
+        "slug": "catclaw-sensitive-briar",
+        "name": "Catclaw Sensitive Briar"
+      },
+      {
+        "slug": "caveman-club-gourd",
+        "name": "Caveman Club Gourd"
+      },
+      {
+        "slug": "celery",
+        "name": "Celery"
+      },
+      {
+        "slug": "chayote",
+        "name": "Chayote"
+      },
+      {
+        "slug": "chickpea",
+        "name": "Chickpea"
+      },
+      {
+        "slug": "chilean-pea",
+        "name": "Chilean Pea"
+      },
+      {
+        "slug": "chiltepin-pepper",
+        "name": "Chiltepin Pepper"
+      },
+      {
+        "slug": "chiltepin-pepper-tree",
+        "name": "Chiltepin Pepper Tree"
+      },
+      {
+        "slug": "chinese-lantern",
+        "name": "Chinese Lantern"
+      },
+      {
+        "slug": "coastal-groundcherry",
+        "name": "Coastal Groundcherry"
+      },
+      {
+        "slug": "coccinia",
+        "name": "Coccinia"
+      },
+      {
+        "slug": "coffee-senna",
+        "name": "Coffee Senna"
+      },
+      {
+        "slug": "coffeeweed",
+        "name": "Coffeeweed"
+      },
+      {
+        "slug": "coral-bean",
+        "name": "Coral Bean"
+      },
+      {
+        "slug": "corsican-gourd",
+        "name": "Corsican Gourd"
+      },
+      {
+        "slug": "crimson-clover",
+        "name": "Crimson Clover"
+      },
+      {
+        "slug": "crown-vetch",
+        "name": "Crown Vetch"
+      },
+      {
+        "slug": "cucamelon",
+        "name": "Cucamelon"
+      },
+      {
+        "slug": "desert-ironwood",
+        "name": "Desert Ironwood"
+      },
+      {
+        "slug": "devils-trumpet",
+        "name": "Devil's Trumpet"
+      },
+      {
+        "slug": "dinosaur-gourd",
+        "name": "Dinosaur Gourd"
+      },
+      {
+        "slug": "dutch-clover",
+        "name": "Dutch Clover"
+      },
+      {
+        "slug": "earth-chestnut",
+        "name": "Earth Chestnut"
+      },
+      {
+        "slug": "false-indigo",
+        "name": "False Indigo"
+      },
+      {
+        "slug": "fava-bean",
+        "name": "Fava Bean"
+      },
+      {
+        "slug": "florida-leadplant",
+        "name": "Florida Leadplant"
+      },
+      {
+        "slug": "garden-huckleberry",
+        "name": "Garden Huckleberry"
+      },
+      {
+        "slug": "goats-rue",
+        "name": "Goat's Rue"
+      },
+      {
+        "slug": "goji-berry",
+        "name": "Goji Berry"
+      },
+      {
+        "slug": "green-bean",
+        "name": "Green Bean"
+      },
+      {
+        "slug": "ground-cherry",
+        "name": "Ground Cherry"
+      },
+      {
+        "slug": "groundnut",
+        "name": "Groundnut"
+      },
+      {
+        "slug": "groundplum-milkvetch",
+        "name": "Groundplum Milkvetch"
+      },
+      {
+        "slug": "hairy-indigo",
+        "name": "Hairy Indigo"
+      },
+      {
+        "slug": "honey-locust",
+        "name": "Honey Locust"
+      },
+      {
+        "slug": "hopniss",
+        "name": "Hopniss"
+      },
+      {
+        "slug": "horse-nettle",
+        "name": "Horse Nettle"
+      },
+      {
+        "slug": "hyacinth-bean",
+        "name": "Hyacinth Bean"
+      },
+      {
+        "slug": "ice-cream-bean-tree",
+        "name": "Ice Cream Bean Tree"
+      },
+      {
+        "slug": "illinois-bundleflower",
+        "name": "Illinois Bundleflower"
+      },
+      {
+        "slug": "indigofera-tinctoria",
+        "name": "Indigofera tinctoria"
+      },
+      {
+        "slug": "ivy-gourd",
+        "name": "Ivy Gourd"
+      },
+      {
+        "slug": "jatoba",
+        "name": "Jatoba"
+      },
+      {
+        "slug": "jicama",
+        "name": "Jicama"
+      },
+      {
+        "slug": "lablab-bean",
+        "name": "Lablab Bean"
+      },
+      {
+        "slug": "lead-plant",
+        "name": "Lead Plant"
+      },
+      {
+        "slug": "leucaena",
+        "name": "Leucaena"
+      },
+      {
+        "slug": "luffa",
+        "name": "Luffa"
+      },
+      {
+        "slug": "lupine",
+        "name": "Lupine"
+      },
+      {
+        "slug": "mangrove-bean",
+        "name": "Mangrove Bean"
+      },
+      {
+        "slug": "milk-vetch",
+        "name": "Milk Vetch"
+      },
+      {
+        "slug": "mimosa",
+        "name": "Mimosa"
+      },
+      {
+        "slug": "monky-muskmelon",
+        "name": "Monky Muskmelon"
+      },
+      {
+        "slug": "mung-bean",
+        "name": "Mung Bean"
+      },
+      {
+        "slug": "palo-verde",
+        "name": "Palo Verde"
+      },
+      {
+        "slug": "partridge-acacia",
+        "name": "Partridge Acacia"
+      },
+      {
+        "slug": "partridge-cassia",
+        "name": "Partridge Cassia"
+      },
+      {
+        "slug": "partridge-pea",
+        "name": "Partridge Pea"
+      },
+      {
+        "slug": "pea",
+        "name": "Pea"
+      },
+      {
+        "slug": "penguin-gourd",
+        "name": "Penguin Gourd"
+      },
+      {
+        "slug": "pepino-melon",
+        "name": "Pepino Melon"
+      },
+      {
+        "slug": "perennial-peanut",
+        "name": "Perennial Peanut"
+      },
+      {
+        "slug": "pigeon-pea",
+        "name": "Pigeon Pea"
+      },
+      {
+        "slug": "plains-wild-indigo",
+        "name": "Plains Wild Indigo"
+      },
+      {
+        "slug": "potato",
+        "name": "Potato"
+      },
+      {
+        "slug": "powderpuff-mimosa",
+        "name": "Powderpuff Mimosa"
+      },
+      {
+        "slug": "prairie-acacia",
+        "name": "Prairie Acacia"
+      },
+      {
+        "slug": "prairie-potato",
+        "name": "Prairie Potato"
+      },
+      {
+        "slug": "prairie-turnip",
+        "name": "Prairie Turnip"
+      },
+      {
+        "slug": "rattlebox",
+        "name": "Rattlebox"
+      },
+      {
+        "slug": "scarlet-eggplant",
+        "name": "Scarlet Eggplant"
+      },
+      {
+        "slug": "seminole-pumpkin",
+        "name": "Seminole Pumpkin"
+      },
+      {
+        "slug": "sensitive-briar",
+        "name": "Sensitive Briar"
+      },
+      {
+        "slug": "sensitive-plant",
+        "name": "Sensitive Plant"
+      },
+      {
+        "slug": "sesbania",
+        "name": "Sesbania"
+      },
+      {
+        "slug": "sesbania-grandiflora",
+        "name": "Sesbania grandiflora"
+      },
+      {
+        "slug": "showy-partridge-pea",
+        "name": "Showy Partridge Pea"
+      },
+      {
+        "slug": "siberian-peashrub",
+        "name": "Siberian Peashrub"
+      },
+      {
+        "slug": "siberian-pea-shrub",
+        "name": "Siberian Pea Shrub"
+      },
+      {
+        "slug": "sicklepod",
+        "name": "Sicklepod"
+      },
+      {
+        "slug": "snake-gourd",
+        "name": "Snake Gourd"
+      },
+      {
+        "slug": "snow-pea",
+        "name": "Snow Pea"
+      },
+      {
+        "slug": "sun-hemp",
+        "name": "Sun Hemp"
+      },
+      {
+        "slug": "sunshine-mimosa",
+        "name": "Sunshine Mimosa"
+      },
+      {
+        "slug": "tagasaste",
+        "name": "Tagasaste"
+      },
+      {
+        "slug": "tephrosia-vogelii",
+        "name": "Tephrosia vogelii"
+      },
+      {
+        "slug": "tick-trefoil",
+        "name": "Tick Trefoil"
+      },
+      {
+        "slug": "trailing-mimosa",
+        "name": "Trailing Mimosa"
+      },
+      {
+        "slug": "tree-medick",
+        "name": "Tree Medick"
+      },
+      {
+        "slug": "wax-gourd",
+        "name": "Wax Gourd"
+      },
+      {
+        "slug": "white-wild-indigo",
+        "name": "White Wild Indigo"
+      },
+      {
+        "slug": "wild-eggplant",
+        "name": "Wild Eggplant"
+      },
+      {
+        "slug": "wild-indigo-bush",
+        "name": "Wild Indigo Bush"
+      },
+      {
+        "slug": "wild-indigo",
+        "name": "Wild Indigo"
+      },
+      {
+        "slug": "wild-senna",
+        "name": "Wild Senna"
+      },
+      {
+        "slug": "winged-bean",
+        "name": "Winged Bean"
+      },
+      {
+        "slug": "wisteria",
+        "name": "Wisteria"
+      },
+      {
+        "slug": "wonderberry",
+        "name": "Wonderberry"
+      },
+      {
+        "slug": "yam-bean",
+        "name": "Yam Bean"
+      },
+      {
+        "slug": "yellow-sweet-clover",
+        "name": "Yellow Sweet Clover"
+      }
+    ]
+  },
+  {
     "slug": "gall-mite",
     "name": "Gall Mite",
     "scientific_name": "Eriophyidae",
@@ -19483,6 +20715,447 @@
       {
         "slug": "yuzu",
         "name": "Yuzu"
+      }
+    ]
+  },
+  {
+    "slug": "leaf-spot",
+    "name": "Leaf Spot",
+    "scientific_name": "Multiple species (e.g., Cercospora, Septoria, Alternaria)",
+    "picture": "leaf_spot.jpg",
+    "description": "If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, leaf spot may already be active. This problem often starts small, then spreads across healthy tissue before most growers realize how serious it is. Warmth, moisture, and crowded foliage usually speed it up. Treat early, because waiting even a few days can turn a manageable infection into major crop loss.",
+    "characteristics": "Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a strong clue. When separate spots begin merging into larger dead patches, the disease is advancing quickly.",
+    "control_methods": {
+      "biological_controls": "Bacillus subtilis colonizes leaf surfaces and produces antifungal compounds that suppress a broad range of leaf spot pathogens — apply preventively as a foliar spray every 7-14 days during wet weather. Trichoderma products as soil drenches support root health and reduce systemic stress that makes plants more susceptible to foliar disease. A diverse phyllosphere microbial community naturally suppresses leaf spot — avoid broad-spectrum copper sprays that sterilize leaf surfaces and eliminate beneficial competing microbes.",
+      "preventive_methods": "Leaf spot pathogens spread by rain splash and overhead irrigation — water at the soil line only, never on foliage. Mulch under plants prevents soil splash onto lower leaves. Most leaf spot fungi overwinter in infected crop debris — remove and destroy all plant material at season end rather than composting. Spores need wet leaf surfaces for 4-12 hours to germinate — evening irrigation that leaves foliage wet overnight is the single biggest risk factor. Scout after rainstorms when conditions are ideal for infection.",
+      "cultural_practices": "Widen plant spacing for air circulation — leaves dry faster after rain and irrigation. Prune lower leaves that touch soil where splash inoculum originates. Rotate susceptible crops on 3-4 year cycles — most leaf spot pathogens are host-specific and die out in soil without a host plant. Choose resistant Strip the lowest tier of infected leaves immediately at first sign to slow upward spread.",
+      "mechanical_physical": "Remove and bag infected leaves — do not compost. Sanitize pruning tools between plants with 70% isopropyl alcohol when cutting through infected tissue. This is especially important for bacterial leaf spot which spreads on dirty tools. Copper-impregnated row covers have some fungistatic effect for high-value crops in research settings.",
+      "organic_sprays": "Copper fungicides on a protectant schedule during wet periods are the most effective organic spray — apply before infection rather than after symptoms appear. Copper has a 7-10 day residual and must be reapplied after rain. Sulfur fungicide works on many fungal leaf spots but not bacterial ones — identify your pathogen before spraying. Neem oil has some preventive efficacy. Potassium bicarbonate raises leaf surface pH and kills fungal spores on contact. Rotate materials to prevent resistance — no single spray manages all leaf spot pathogens."
+    },
+    "natural_enemies": [
+      "Antagonistic Bacteria",
+      "Hyperparasitic Fungi"
+    ],
+    "affected_plants": [
+      {
+        "slug": "acorn-squash",
+        "name": "Acorn Squash"
+      },
+      {
+        "slug": "agrimony",
+        "name": "Agrimony"
+      },
+      {
+        "slug": "allegheny-serviceberry",
+        "name": "Allegheny Serviceberry"
+      },
+      {
+        "slug": "almond-tree",
+        "name": "Almond Tree"
+      },
+      {
+        "slug": "american-beauty-plum",
+        "name": "American Beauty Plum"
+      },
+      {
+        "slug": "american-hawthorn",
+        "name": "American Hawthorn"
+      },
+      {
+        "slug": "american-plum",
+        "name": "American Plum"
+      },
+      {
+        "slug": "angels-trumpet",
+        "name": "Angel's Trumpet"
+      },
+      {
+        "slug": "angled-loofah",
+        "name": "Angled Loofah"
+      },
+      {
+        "slug": "apple-gourd",
+        "name": "Apple Gourd"
+      },
+      {
+        "slug": "apple",
+        "name": "Apple"
+      },
+      {
+        "slug": "aronia",
+        "name": "Aronia"
+      },
+      {
+        "slug": "ashwagandha",
+        "name": "Ashwagandha"
+      },
+      {
+        "slug": "beach-strawberry",
+        "name": "Beach Strawberry"
+      },
+      {
+        "slug": "bearberry-cotoneaster",
+        "name": "Bearberry Cotoneaster"
+      },
+      {
+        "slug": "bird-of-paradise",
+        "name": "Bird of Paradise"
+      },
+      {
+        "slug": "birdhouse-gourd",
+        "name": "Birdhouse Gourd"
+      },
+      {
+        "slug": "bitter-melon",
+        "name": "Bitter Melon"
+      },
+      {
+        "slug": "black-chokeberry",
+        "name": "Black Chokeberry"
+      },
+      {
+        "slug": "bottle-gourd",
+        "name": "Bottle Gourd"
+      },
+      {
+        "slug": "buffalo-bur",
+        "name": "Buffalo Bur"
+      },
+      {
+        "slug": "buffalo-gourd",
+        "name": "Buffalo Gourd"
+      },
+      {
+        "slug": "buffalo-plum",
+        "name": "Buffalo Plum"
+      },
+      {
+        "slug": "bushel-gourd",
+        "name": "Bushel Gourd"
+      },
+      {
+        "slug": "calabaza",
+        "name": "Calabaza"
+      },
+      {
+        "slug": "carolina-rose",
+        "name": "Carolina Rose"
+      },
+      {
+        "slug": "cassabanana-root-systems",
+        "name": "Cassabanana root systems"
+      },
+      {
+        "slug": "caveman-club-gourd",
+        "name": "Caveman Club Gourd"
+      },
+      {
+        "slug": "chayote",
+        "name": "Chayote"
+      },
+      {
+        "slug": "chickasaw-blackberry",
+        "name": "Chickasaw Blackberry"
+      },
+      {
+        "slug": "chickasaw-plum",
+        "name": "Chickasaw Plum"
+      },
+      {
+        "slug": "chiltepin-pepper",
+        "name": "Chiltepin Pepper"
+      },
+      {
+        "slug": "chiltepin-pepper-tree",
+        "name": "Chiltepin Pepper Tree"
+      },
+      {
+        "slug": "chinese-lantern",
+        "name": "Chinese Lantern"
+      },
+      {
+        "slug": "chokeberry",
+        "name": "Chokeberry"
+      },
+      {
+        "slug": "climbing-prairie-rose",
+        "name": "Climbing Prairie Rose"
+      },
+      {
+        "slug": "cloudberry",
+        "name": "Cloudberry"
+      },
+      {
+        "slug": "coastal-groundcherry",
+        "name": "Coastal Groundcherry"
+      },
+      {
+        "slug": "coccinia",
+        "name": "Coccinia"
+      },
+      {
+        "slug": "cockspur-hawthorn",
+        "name": "Cockspur Hawthorn"
+      },
+      {
+        "slug": "corsican-gourd",
+        "name": "Corsican Gourd"
+      },
+      {
+        "slug": "creeping-raspberry",
+        "name": "Creeping Raspberry"
+      },
+      {
+        "slug": "cucamelon",
+        "name": "Cucamelon"
+      },
+      {
+        "slug": "devils-trumpet",
+        "name": "Devil's Trumpet"
+      },
+      {
+        "slug": "dewberry",
+        "name": "Dewberry"
+      },
+      {
+        "slug": "dinosaur-gourd",
+        "name": "Dinosaur Gourd"
+      },
+      {
+        "slug": "dotted-hawthorn",
+        "name": "Dotted Hawthorn"
+      },
+      {
+        "slug": "downy-serviceberry",
+        "name": "Downy Serviceberry"
+      },
+      {
+        "slug": "flatwoods-plum",
+        "name": "Flatwoods Plum"
+      },
+      {
+        "slug": "frosted-hawthorn",
+        "name": "Frosted Hawthorn"
+      },
+      {
+        "slug": "garden-huckleberry",
+        "name": "Garden Huckleberry"
+      },
+      {
+        "slug": "goji-berry",
+        "name": "Goji Berry"
+      },
+      {
+        "slug": "green-hawthorn",
+        "name": "Green Hawthorn"
+      },
+      {
+        "slug": "green-apple-tree",
+        "name": "Green Apple Tree"
+      },
+      {
+        "slug": "ground-cherry",
+        "name": "Ground Cherry"
+      },
+      {
+        "slug": "hedge-cotoneaster",
+        "name": "Hedge Cotoneaster"
+      },
+      {
+        "slug": "horse-nettle",
+        "name": "Horse Nettle"
+      },
+      {
+        "slug": "hortulan-plum",
+        "name": "Hortulan Plum"
+      },
+      {
+        "slug": "ivy-gourd",
+        "name": "Ivy Gourd"
+      },
+      {
+        "slug": "loquat",
+        "name": "Loquat"
+      },
+      {
+        "slug": "luffa",
+        "name": "Luffa"
+      },
+      {
+        "slug": "many-flowered-cotoneaster",
+        "name": "Many Flowered Cotoneaster"
+      },
+      {
+        "slug": "mayhaw",
+        "name": "Mayhaw"
+      },
+      {
+        "slug": "meadowsweet",
+        "name": "Meadowsweet"
+      },
+      {
+        "slug": "monky-muskmelon",
+        "name": "Monky Muskmelon"
+      },
+      {
+        "slug": "munson-plum",
+        "name": "Munson Plum"
+      },
+      {
+        "slug": "nectarine-tree",
+        "name": "Nectarine Tree"
+      },
+      {
+        "slug": "parsley-hawthorn",
+        "name": "Parsley Hawthorn"
+      },
+      {
+        "slug": "pasture-rose",
+        "name": "Pasture Rose"
+      },
+      {
+        "slug": "pear-hawthorn",
+        "name": "Pear Hawthorn"
+      },
+      {
+        "slug": "pear-tree",
+        "name": "Pear Tree"
+      },
+      {
+        "slug": "penguin-gourd",
+        "name": "Penguin Gourd"
+      },
+      {
+        "slug": "pepino-melon",
+        "name": "Pepino Melon"
+      },
+      {
+        "slug": "pineapple-pear",
+        "name": "Pineapple Pear"
+      },
+      {
+        "slug": "potato",
+        "name": "Potato"
+      },
+      {
+        "slug": "prairie-crabapple",
+        "name": "Prairie Crabapple"
+      },
+      {
+        "slug": "purple-chokeberry",
+        "name": "Purple Chokeberry"
+      },
+      {
+        "slug": "raspberry",
+        "name": "Raspberry"
+      },
+      {
+        "slug": "red-chokeberry",
+        "name": "Red Chokeberry"
+      },
+      {
+        "slug": "red-apple-tree",
+        "name": "Red Apple Tree"
+      },
+      {
+        "slug": "rock-cotoneaster",
+        "name": "Rock Cotoneaster"
+      },
+      {
+        "slug": "roundleaf-serviceberry",
+        "name": "Roundleaf Serviceberry"
+      },
+      {
+        "slug": "running-serviceberry",
+        "name": "Running Serviceberry"
+      },
+      {
+        "slug": "sand-blackberry",
+        "name": "Sand Blackberry"
+      },
+      {
+        "slug": "sand-cherry",
+        "name": "Sand Cherry"
+      },
+      {
+        "slug": "saskatoon-berry",
+        "name": "Saskatoon Berry"
+      },
+      {
+        "slug": "scarlet-eggplant",
+        "name": "Scarlet Eggplant"
+      },
+      {
+        "slug": "seminole-pumpkin",
+        "name": "Seminole Pumpkin"
+      },
+      {
+        "slug": "serviceberry",
+        "name": "Serviceberry"
+      },
+      {
+        "slug": "silverleaf-cotoneaster",
+        "name": "Silverleaf Cotoneaster"
+      },
+      {
+        "slug": "smooth-serviceberry",
+        "name": "Smooth Serviceberry"
+      },
+      {
+        "slug": "snake-gourd",
+        "name": "Snake Gourd"
+      },
+      {
+        "slug": "southern-crabapple",
+        "name": "Southern Crabapple"
+      },
+      {
+        "slug": "southern-dewberry",
+        "name": "Southern Dewberry"
+      },
+      {
+        "slug": "southern-hawthorn",
+        "name": "Southern Hawthorn"
+      },
+      {
+        "slug": "strawberry",
+        "name": "Strawberry"
+      },
+      {
+        "slug": "swamp-dogwood",
+        "name": "Swamp Dogwood"
+      },
+      {
+        "slug": "swamp-rose",
+        "name": "Swamp Rose"
+      },
+      {
+        "slug": "sweet-crabapple",
+        "name": "Sweet Crabapple"
+      },
+      {
+        "slug": "virginia-rose",
+        "name": "Virginia Rose"
+      },
+      {
+        "slug": "wax-gourd",
+        "name": "Wax Gourd"
+      },
+      {
+        "slug": "wild-crabapple",
+        "name": "Wild Crabapple"
+      },
+      {
+        "slug": "wild-eggplant",
+        "name": "Wild Eggplant"
+      },
+      {
+        "slug": "wild-plum",
+        "name": "Wild Plum"
+      },
+      {
+        "slug": "wonderberry",
+        "name": "Wonderberry"
       }
     ]
   },
