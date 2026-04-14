@@ -162,6 +162,25 @@ const tickerMessages = [
   .footer-copy { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--ash); letter-spacing: 0.08em; }
 
   /* ANIMATIONS */
+  /* START HERE */
+  .start-here { padding: 5rem 4rem; background: var(--soil); border-top: 1px solid rgba(139,184,58,0.15); border-bottom: 1px solid rgba(139,184,58,0.15); }
+  .start-here-inner { max-width: 1200px; margin: 0 auto; }
+  .start-here-header { margin-bottom: 3rem; }
+  .start-eyebrow { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--lime); margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.75rem; }
+  .start-eyebrow::before { content: ''; width: 2rem; height: 1px; background: var(--lime); display: inline-block; }
+  .start-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(2.5rem, 5vw, 4rem); color: var(--paper); letter-spacing: 0.02em; line-height: 1; margin-bottom: 0.75rem; }
+  .start-sub { font-family: 'Instrument Serif', serif; font-style: italic; color: var(--ash); font-size: 1.1rem; }
+  .start-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1px; background: rgba(139,184,58,0.1); border: 1px solid rgba(139,184,58,0.1); }
+  .start-card { display: flex; align-items: center; gap: 1.5rem; padding: 1.5rem 2rem; background: var(--bark); text-decoration: none; transition: background 0.2s; }
+  .start-card:hover { background: rgba(42,61,31,0.5); }
+  .start-card-number { font-family: 'Bebas Neue', sans-serif; font-size: 2.5rem; color: rgba(139,184,58,0.2); line-height: 1; min-width: 3rem; }
+  .start-card-content { flex: 1; }
+  .start-card-title { font-family: 'Space Mono', monospace; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--paper); margin-bottom: 0.4rem; }
+  .start-card-desc { font-family: 'Instrument Serif', serif; font-style: italic; font-size: 0.95rem; color: var(--ash); line-height: 1.4; }
+  .start-card-arrow { font-size: 1.2rem; color: var(--lime); opacity: 0.4; transition: opacity 0.2s, transform 0.2s; }
+  .start-card:hover .start-card-arrow { opacity: 1; transform: translateX(4px); }
+  @media (max-width: 768px) { .start-here { padding: 3rem 1.5rem; } .start-cards { grid-template-columns: 1fr; } }
+
   @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
   .hero-eyebrow { animation: fadeUp 0.6s ease both; }
   .hero-headline { animation: fadeUp 0.6s 0.1s ease both; }
@@ -289,6 +308,58 @@ const tickerMessages = [
     <span class="pillar-link">Start the damage</span>
   </a>
 </div>
+
+<section class="start-here">
+  <div class="start-here-inner">
+    <div class="start-here-header">
+      <p class="start-eyebrow">New here?</p>
+      <h2 class="start-title">Start Here</h2>
+      <p class="start-sub">No jargon. No gatekeeping. Just the path in.</p>
+    </div>
+    <div class="start-cards">
+      <a href="/plants/families" class="start-card">
+        <div class="start-card-number">01</div>
+        <div class="start-card-content">
+          <div class="start-card-title">Plant Families</div>
+          <div class="start-card-desc">Why plants that think alike grow alike. The fastest shortcut in permaculture.</div>
+        </div>
+        <span class="start-card-arrow">→</span>
+      </a>
+      <a href="/articles/soil-science-and-microbial-biodiversity" class="start-card">
+        <div class="start-card-number">02</div>
+        <div class="start-card-content">
+          <div class="start-card-title">Soil Science</div>
+          <div class="start-card-desc">The real work happens underground. Everything else is just observation.</div>
+        </div>
+        <span class="start-card-arrow">→</span>
+      </a>
+      <a href="/articles/unlocking-natures-blueprint-bill-mollison" class="start-card">
+        <div class="start-card-number">03</div>
+        <div class="start-card-content">
+          <div class="start-card-title">Nature's Blueprint</div>
+          <div class="start-card-desc">Bill Mollison figured it out. Here's the version that fits on one page.</div>
+        </div>
+        <span class="start-card-arrow">→</span>
+      </a>
+      <a href="/pests" class="start-card">
+        <div class="start-card-number">04</div>
+        <div class="start-card-content">
+          <div class="start-card-title">Something Is Eating My Plants</div>
+          <div class="start-card-desc">{pestCount} pests. Every one has a natural enemy. Use it.</div>
+        </div>
+        <span class="start-card-arrow">→</span>
+      </a>
+      <a href="/plants" class="start-card">
+        <div class="start-card-number">05</div>
+        <div class="start-card-content">
+          <div class="start-card-title">Browse {plantCount} Plants</div>
+          <div class="start-card-desc">Edible, medicinal, functional. Zero of them are grass.</div>
+        </div>
+        <span class="start-card-arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
 
 <section class="manifesto">
   <div class="manifesto-left">
