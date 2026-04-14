@@ -83,18 +83,89 @@ const familyPests = Object.entries(pestCounts)
   }));
 
 const FAMILY_NOTES: Record<string, {note: string, wiki: string}> = {
-  'Fabaceae': { note: 'The legume family. Most members fix atmospheric nitrogen through root nodules with Rhizobium bacteria. Essential in every food forest guild as living fertilizer.', wiki: 'Fabaceae' },
-  'Asteraceae': { note: 'The daisy family. Composite flowers are pollinator magnets. Many are dynamic accumulators with deep taproots that mine subsoil minerals.', wiki: 'Asteraceae' },
-  'Lamiaceae': { note: 'The mint family. Volatile aromatic oils in leaves confuse pest navigation and attract beneficial insects. Most prefer well-drained soil and full sun.', wiki: 'Lamiaceae' },
-  'Rosaceae': { note: 'The rose family. Includes virtually all temperate tree fruits and cane berries. Members often share pest pressure — monitor for fire blight and aphids across the family.', wiki: 'Rosaceae' },
-  'Myrtaceae': { note: 'The myrtle family. Tropical and subtropical fruit trees with aromatic leaves. Includes guava, feijoa, jaboticaba, and eucalyptus. Often edible flowers.', wiki: 'Myrtaceae' },
-  'Solanaceae': { note: 'The nightshade family. Contains alkaloids in leaves and stems. Fruits of tomato, pepper, and eggplant are edible; green parts generally toxic. Rotate out of beds every 3-4 years.', wiki: 'Solanaceae' },
-  'Brassicaceae': { note: 'The mustard family. Glucosinolates deter generalist pests but attract specialist insects. Heavy nitrogen feeders. Club root persists in soil for 20 years — rotate strictly.', wiki: 'Brassicaceae' },
-  'Cucurbitaceae': { note: 'The gourd family. Vining crops with high water and nutrient demands. Squash bugs, cucumber beetles, and vine borers target all family members. Intercrop with nasturtium and catnip.', wiki: 'Cucurbitaceae' },
-  'Apiaceae': { note: 'The carrot family. Umbelliferous flower clusters are landing pads for parasitoid wasps. Let some bolt every year — the flowers pay pest management dividends for months.', wiki: 'Apiaceae' },
-  'Rutaceae': { note: 'The citrus family. Volatile oils, high vitamin C, essential oils. Most need free-draining soil and don\'t tolerate wet feet. Watch for shared citrus pest pressure across the family.', wiki: 'Rutaceae' },
-  'Ericaceae': { note: 'The heath family. Acid-loving. Need pH 4.5-5.5 and ericoid mycorrhizal fungi — don\'t lime their beds. Blueberries, cranberries, and huckleberries reward patience.', wiki: 'Ericaceae' },
-  'Poaceae': { note: 'The grass family. Includes all grains, bamboo, sugarcane, and lemongrass. Wind-pollinated. Deep fibrous roots build soil organic matter. Many are excellent chop-and-drop plants.', wiki: 'Poaceae' },
+  'Fabaceae': {
+    note: `The nitrogen-fixing backbone of every food forest guild. Plant at least one Fabaceae member per guild — they feed everything around them for free via Rhizobium root nodules. Woody members like pigeon pea and black locust are best chopped to the ground annually; leave the roots to decompose and release nitrogen in place. Avoid planting alliums nearby — sulfur compounds suppress the Rhizobium bacteria legumes depend on. Beans and peas are the easiest seeds to save — self-pollinating before flowers open, so varieties stay true with no isolation needed.`,
+    wiki: 'Fabaceae'
+  },
+  'Asteraceae': {
+    note: `Dynamic accumulator powerhouse. Deep taproots on dandelion, chicory, and elecampane mine calcium, potassium, and iron from subsoil that shallow-rooted plants cannot reach — chop and drop as living fertilizer. Composite flower heads are the most efficient landing structure for parasitoid wasps and hoverflies; a single bolted plant provides weeks of pest management support. Plant in guild edges and disturbed areas. Yarrow specifically accumulates copper, a micronutrient most soils lack.`,
+    wiki: 'Asteraceae'
+  },
+  'Lamiaceae': {
+    note: `The pest deterrence layer of any guild. Volatile aromatic oils confuse the chemical navigation of aphids, whitefly, and cabbage moths — plant at guild edges, not tucked away in the center. Square stems and opposite leaves are the forager's ID shortcut; if it smells aromatic and has a square stem, you're almost certainly in a safe, useful family. Most members prefer well-drained soil and will rot in wet feet. Drought-tolerant once established — ideal for dry guild edges where irrigation does not reach.`,
+    wiki: 'Lamiaceae'
+  },
+  'Rosaceae': {
+    note: `The temperate fruit family — but also the family with the heaviest shared pest pressure in the database. Fire blight, codling moth, brown rot, and plum curculio all move freely between members, so clustering Rosaceae species amplifies pest problems. Diversify with Elaeagnaceae nitrogen fixers like goumi as understory companions — they fix nitrogen and do not share Rosaceae pest pressure. Alliums planted beneath fruit trees suppress fungal disease at the root zone. Most cross freely — seed saving requires isolation.`,
+    wiki: 'Rosaceae'
+  },
+  'Myrtaceae': {
+    note: `The subtropical food forest workhorse. Guava, feijoa, jaboticaba, lilly pilly, and surinam cherry — aromatic leaves, edible flowers on many species, generally lower pest pressure than Rosaceae equivalents. Jaboticaba is uniquely productive: fruit grows directly on the trunk, so mature trees yield heavily in a small footprint. Feijoa is one of the most cold-hardy subtropical fruits — worth pushing into zone 8 with protection. Most members tolerate poor soils once established but need consistent moisture during establishment.`,
+    wiki: 'Myrtaceae'
+  },
+  'Solanaceae': {
+    note: `Productive but demanding — rotate out of beds every 3-4 years minimum or disease pressure compounds fast. Late blight, fusarium wilt, and bacterial speck all persist in soil and target the whole family. Tomatoes are largely self-pollinating and easy to save seed from; peppers cross more readily and need distance isolation. Alliums and basil are classic companions — alliums suppress fungal disease, basil deters thrips. Green parts of all family members contain solanine alkaloids — do not compost green tomato or potato waste in systems with livestock access.`,
+    wiki: 'Solanaceae'
+  },
+  'Brassicaceae': {
+    note: `Heavy nitrogen feeders — always follow a Fabaceae year in rotation and they will use every bit of what legumes left. Club root is the family nemesis: a soil pathogen that persists 20 years and targets the entire family, so strict rotation is non-negotiable. Glucosinolates deter generalist pests but actively attract specialist insects like cabbage loopers — separate brassica beds in time and space rather than scattering through guilds. The entire family crosses freely including with wild mustard, making seed saving almost impossible without isolation.`,
+    wiki: 'Brassicaceae'
+  },
+  'Cucurbitaceae': {
+    note: `Vining ground covers that suppress weeds and retain moisture — useful in the ground layer of food forests if you have the space. Squash bugs, cucumber beetles, and vine borers target every family member, so intercrop with nasturtium and catnip at the perimeter. Varieties cross freely within species — summer squash crosses with summer squash but not winter squash — isolate by half a mile or stagger plantings for seed saving. Heavy feeders: plant over compost trenches or last year's compost pile for best results.`,
+    wiki: 'Cucurbitaceae'
+  },
+  'Apiaceae': {
+    note: `The most important family for biological pest control — flat-topped umbel flowers are landing pads for parasitoid wasps, hoverflies, and lacewings that control aphids and caterpillars. Let at least one plant per season bolt and flower. Warning for foragers: this family contains both edibles and deadly species — poison hemlock looks similar to wild carrot at certain growth stages. Never eat an Apiaceae plant you have not positively identified. Deep taproots break soil compaction — useful after heavy-feeding crops.`,
+    wiki: 'Apiaceae'
+  },
+  'Rutaceae': {
+    note: `All citrus belongs here and they share pest pressure completely — Asian citrus psyllid, citrus greening, and rust mite spread freely across the family. An infestation on one tree is a threat to every citrus on the property. Most need free-draining soil and will not tolerate wet feet — raised mounds extend their range in heavy soils. Aromatic volatile oils in leaves deter many generalist pests; citrus peel and leaf mulch around vulnerable plants has real deterrent effect. Kumquat is the most cold-hardy member.`,
+    wiki: 'Rutaceae'
+  },
+  'Ericaceae': {
+    note: `Acid-lovers that need pH 4.5-5.5 — do not lime their beds, ever. They partner with ericoid mycorrhizal fungi different from what most garden plants use, so standard mycorrhizal inoculants will not help. Use pine needle or oak leaf mulch to maintain acidity over time. Blueberries need cross-pollination from a different variety for best yields — plant at least two cultivars. Slow to establish but long-lived and low-maintenance once settled — think decades, not seasons.`,
+    wiki: 'Ericaceae'
+  },
+  'Poaceae': {
+    note: `The most biomass-productive family in the database. Bamboo, elephant grass, and vetiver generate more chop-and-drop material per square foot than almost anything else. Deep fibrous root systems build soil organic matter rapidly and prevent erosion — vetiver is used worldwide for slope stabilization. Wind-pollinated, so they contribute nothing to insect forage — balance with flowering plants. Running bamboo varieties need root barriers or aggressive management; clumping types are safer for most systems.`,
+    wiki: 'Poaceae'
+  },
+  'Malvaceae': {
+    note: `Deep taproots break compaction and accumulate minerals — hollyhock, marshmallow, and okra all have edible, medicinal, or soil-building value. Cacao, kenaf, and hibiscus belong here. Many are dynamic accumulators high in calcium and potassium — chop and drop adds real mineral value. Okra is one of the most heat and drought tolerant food crops, producing through summer when most vegetables stall. Most family members attract bumblebees specifically — the flower structure requires buzz pollination that honeybees often cannot perform.`,
+    wiki: 'Malvaceae'
+  },
+  'Araceae': {
+    note: `Tropical shade-layer specialists — taro, elephant ear, and dasheen thrive in wet or heavily shaded conditions where other food crops fail. Most contain calcium oxalate crystals that cause irritation if eaten raw — always cook thoroughly and do not let livestock graze freely. Taro is one of the most productive calories-per-square-foot crops in tropical and subtropical zones. Large leaves make excellent mulch and chop-and-drop material. Many spread aggressively in wet conditions — site carefully near waterways.`,
+    wiki: 'Araceae'
+  },
+  'Arecaceae': {
+    note: `The true canopy layer for tropical and subtropical food forests — long-lived, wind-resistant, yielding fruit, hearts, sap, and fiber across decades with minimal inputs. Saw palmetto is a southeastern US wildlife keystone, medicinal, and fire-adapted. Peach palm produces starchy protein-rich fruit and edible hearts from offshoots without killing the main plant. Most palms are single-stemmed and die if the growing tip is damaged — site carefully away from falling hazards. Coconut needs zone 10+ reliably; everything else in this family is more forgiving.`,
+    wiki: 'Arecaceae'
+  },
+};
+
+const familyWikiSlug = familyName.replace(/\s+/g, '_');
+const familyOverviewNote = (() => {
+  const topFunction = topFunctions[0]?.[0];
+  const topLayer = topLayers[0]?.[0];
+  const zoneBand = minZone && maxZone ? `zones ${minZone}-${maxZone}` : 'your local zone band';
+  const pestSummary = familyPests.length > 0
+    ? `${familyPests.length} recurring pests in this family`
+    : 'lower shared pest pressure in this family';
+  const roleSummary = topFunction
+    ? `Use its strongest role (${topFunction}) intentionally`
+    : 'Use mixed-function species to spread risk';
+  const structureSummary = topLayer
+    ? `Anchor it in the ${topLayer} layer and pair with unrelated support species in other layers`
+    : 'Distribute it across layers instead of clustering one growth form';
+
+  return `${familyName} in this database spans ${zoneBand} with ${plants.length} species, so design it as a guild component instead of a monoculture block. ${roleSummary} and manage spacing for airflow because there are ${pestSummary}. ${structureSummary}; if you save seed from multiple cultivars, isolate flowering plants to reduce accidental crosses within the family.`;
+})();
+
+const activeFamilyNote = FAMILY_NOTES[familyName] || {
+  note: familyOverviewNote,
+  wiki: familyWikiSlug,
 };
 ---
 
@@ -196,17 +267,11 @@ const FAMILY_NOTES: Record<string, {note: string, wiki: string}> = {
     <p class="hero-eyebrow">Plant Family</p>
     <h1 class="hero-title">{familyName}</h1>
     <p class="hero-count">{plants.length} plant{plants.length !== 1 ? 's' : ''} in database</p>
-    {FAMILY_NOTES[familyName] ? (
-      <p class="hero-note">{FAMILY_NOTES[familyName].note}</p>
-    ) : (
-      <p class="hero-note">Browse all {plants.length} {familyName} plants in the PermiePortal database.</p>
-    )}
-    {FAMILY_NOTES[familyName] && (
-      <a href={`https://en.wikipedia.org/wiki/${FAMILY_NOTES[familyName].wiki}`}
-         target="_blank" rel="noopener" class="wiki-link">
-        Wikipedia — {familyName}
-      </a>
-    )}
+    <p class="hero-note">{activeFamilyNote.note}</p>
+    <a href={`https://en.wikipedia.org/wiki/${activeFamilyNote.wiki}`}
+       target="_blank" rel="noopener" class="wiki-link">
+      Wikipedia — {familyName}
+    </a>
   </div>
 
   <div class="stats-panel">
