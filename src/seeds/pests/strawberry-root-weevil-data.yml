@@ -16,191 +16,43 @@
     C-shape. Fresh chew marks plus snout beetles or C-shaped grubs confirm active weevil
     pressure.
   control_methods:
-    organic_sprays: Entomopathogenic nematodes (Steinernema spp. and Heterorhabditis spp.) applied as drench or through drip
-      when soil temperature and moisture match product labels can kill larvae in root zones. Repeat applications are often
-      needed in sandy, fast-draining beds.
-    biological_controls: Ground beetles, ants, and birds consume adults and some larvae; fungal pathogens occasionally suppress
-      weevils in moist soils. Keep flowering groundcovers in drive rows to support generalist predators without letting tall
-      weeds shade berries.
-    cultural_practices: Rotate strawberry fields to new ground on a planned cycle; avoid bringing infested soil on tools.
-      Clean plasticulture between seasons; solarize shallow beds where feasible. Flame or mow old foliage after renovation
-      to reduce adult cover, timing to avoid crown damage.
-    mechanical_physical: Shake night-feeding adults from canopy edges into soapy trays—feasible on small farms. Fine mesh
-      fencing buried a few inches may slow walking adults entering clean blocks; combine with nematodes because fencing alone
-      rarely stops established populations.
-    preventive_methods: Scout leaf notching weekly after fruit set; sticky bands on legs or posts catch some walkers. Flag
-      weak patches for nematode passes before renovation. Inspect nursery plugs for notched leaves at planting.
-  affected_plants:
-  - slug: strawberry
-    name: Strawberry
-  - slug: blueberry
-    name: Blueberry
-  - slug: azalea
-    name: Azalea
-  - slug: agrimony
-    name: Agrimony
-  - slug: allegheny-serviceberry
-    name: Allegheny Serviceberry
-  - slug: almond-tree
-    name: Almond Tree
-  - slug: american-beauty-plum
-    name: American Beauty Plum
-  - slug: american-hawthorn
-    name: American Hawthorn
-  - slug: american-plum
-    name: American Plum
-  - slug: apple
-    name: Apple
-  - slug: aronia
-    name: Aronia
-  - slug: beach-strawberry
-    name: Beach Strawberry
-  - slug: bearberry-cotoneaster
-    name: Bearberry Cotoneaster
-  - slug: black-chokeberry
-    name: Black Chokeberry
-  - slug: buffalo-plum
-    name: Buffalo Plum
-  - slug: carolina-rose
-    name: Carolina Rose
-  - slug: chickasaw-blackberry
-    name: Chickasaw Blackberry
-  - slug: chickasaw-plum
-    name: Chickasaw Plum
-  - slug: chokeberry
-    name: Chokeberry
-  - slug: climbing-prairie-rose
-    name: Climbing Prairie Rose
-  - slug: cloudberry
-    name: Cloudberry
-  - slug: cockspur-hawthorn
-    name: Cockspur Hawthorn
-  - slug: creeping-raspberry
-    name: Creeping Raspberry
-  - slug: dewberry
-    name: Dewberry
-  - slug: dotted-hawthorn
-    name: Dotted Hawthorn
-  - slug: downy-serviceberry
-    name: Downy Serviceberry
-  - slug: flatwoods-plum
-    name: Flatwoods Plum
-  - slug: frosted-hawthorn
-    name: Frosted Hawthorn
-  - slug: green-hawthorn
-    name: Green Hawthorn
-  - slug: green-apple-tree
-    name: Green Apple Tree
-  - slug: hedge-cotoneaster
-    name: Hedge Cotoneaster
-  - slug: hortulan-plum
-    name: Hortulan Plum
-  - slug: loquat
-    name: Loquat
-  - slug: many-flowered-cotoneaster
-    name: Many Flowered Cotoneaster
-  - slug: mayhaw
-    name: Mayhaw
-  - slug: meadowsweet
-    name: Meadowsweet
-  - slug: munson-plum
-    name: Munson Plum
-  - slug: nectarine-tree
-    name: Nectarine Tree
-  - slug: parsley-hawthorn
-    name: Parsley Hawthorn
-  - slug: pasture-rose
-    name: Pasture Rose
-  - slug: pear-hawthorn
-    name: Pear Hawthorn
-  - slug: pear-tree
-    name: Pear Tree
-  - slug: pineapple-pear
-    name: Pineapple Pear
-  - slug: prairie-crabapple
-    name: Prairie Crabapple
-  - slug: purple-chokeberry
-    name: Purple Chokeberry
-  - slug: raspberry
-    name: Raspberry
-  - slug: red-chokeberry
-    name: Red Chokeberry
-  - slug: red-apple-tree
-    name: Red Apple Tree
-  - slug: rock-cotoneaster
-    name: Rock Cotoneaster
-  - slug: roundleaf-serviceberry
-    name: Roundleaf Serviceberry
-  - slug: running-serviceberry
-    name: Running Serviceberry
-  - slug: sand-blackberry
-    name: Sand Blackberry
-  - slug: sand-cherry
-    name: Sand Cherry
-  - slug: saskatoon-berry
-    name: Saskatoon Berry
-  - slug: serviceberry
-    name: Serviceberry
-  - slug: silverleaf-cotoneaster
-    name: Silverleaf Cotoneaster
-  - slug: smooth-serviceberry
-    name: Smooth Serviceberry
-  - slug: southern-crabapple
-    name: Southern Crabapple
-  - slug: southern-dewberry
-    name: Southern Dewberry
-  - slug: southern-hawthorn
-    name: Southern Hawthorn
-  - slug: swamp-rose
-    name: Swamp Rose
-  - slug: sweet-crabapple
-    name: Sweet Crabapple
-  - slug: virginia-rose
-    name: Virginia Rose
-  - slug: wild-crabapple
-    name: Wild Crabapple
-  - slug: wild-plum
-    name: Wild Plum
-  - slug: bearberry
-    name: Bearberry
-  - slug: blue-ridge-blueberry
-    name: Blue Ridge Blueberry
-  - slug: cranberry
-    name: Cranberry
-  - slug: crowberry
-    name: Crowberry
-  - slug: darrow-blueberry
-    name: Darrow Blueberry
-  - slug: deerberry
-    name: Deerberry
-  - slug: dwarf-huckleberry
-    name: Dwarf Huckleberry
-  - slug: elliott-blueberry
-    name: Elliott Blueberry
-  - slug: evergreen-huckleberry
-    name: Evergreen Huckleberry
-  - slug: fetterbush
-    name: Fetterbush
-  - slug: highbush-blueberry
-    name: Highbush Blueberry
-  - slug: kinnikinnick
-    name: Kinnikinnick
-  - slug: lingonberry
-    name: Lingonberry
-  - slug: lowbush-cranberry
-    name: Lowbush Cranberry
-  - slug: madrone
-    name: Madrone
-  - slug: pineland-heather
-    name: Pineland Heather
-  - slug: rhododendron
-    name: Rhododendron
-  - slug: salal
-    name: Salal
-  - slug: shiny-blueberry
-    name: Shiny Blueberry
-  - slug: sparkleberry
-    name: Sparkleberry
+    biological_controls: >-
+      Steinernema feltiae and Heterorhabditis bacteriophora nematodes applied as soil
+      drenches are the most effective biological control for strawberry root weevil
+      larvae in root zones -- apply when soil is moist and above 50F (10C). Repeat
+      every 6-8 weeks during the growing season in sandy fast-draining soils that
+      require more frequent application. Ground beetles and ants consume adults and
+      larvae in soil. Beauveria bassiana fungal products suppress larvae in moist
+      soil conditions. Maintain diverse flowering groundcovers in drive rows to support
+      generalist predators.
+    preventive_methods: >-
+      Strawberry root weevil adults notch leaf margins in characteristic smooth
+      scalloped cuts -- the sign is neat curved notches along leaf edges appearing
+      overnight. Adults are flightless and must walk to new plants, making rotation
+      to clean ground highly effective. Larvae feed on roots underground causing plants
+      to wilt and decline without obvious above-ground cause -- dig declining plants
+      and check for C-shaped white grubs in the root zone. Inspect all new transplants
+      for adults and root grubs before planting.
+    cultural_practices: >-
+      Rotate strawberry beds to new ground on a planned 2-3 year cycle -- adults
+      are flightless and cannot easily colonize new sites far from the previous planting.
+      Avoid bringing infested soil on tools between clean and infested areas. Solarize
+      vacated beds during summer to kill larvae and pupae before the next planting.
+      Flame or mow old foliage after renovation timing to avoid crown damage -- this
+      removes adult cover and egg-laying sites.
+    mechanical_physical: >-
+      Place boards or burlap near infested plantings overnight -- flightless adults
+      shelter under them and can be collected and destroyed in the morning. Sticky
+      barriers on low bed frames and raised bed walls prevent adult movement between
+      beds. Harvest all ripe fruit promptly -- overripe fruit on the ground provides
+      feeding sites that concentrate adults for easier removal.
+    organic_sprays: >-
+      Entomopathogenic nematodes (Steinernema spp., Heterorhabditis spp.) as soil
+      drench are the primary organic treatment -- saturate the root zone thoroughly
+      and keep moist for 2 weeks after application. Repeat applications are needed
+      in sandy soils. Pyrethrin at dusk targets adults feeding on foliage -- apply
+      at least twice weekly during peak adult emergence. Beauveria bassiana soil
+      drench for larvae where labeled and soil moisture favors fungal activity.
   natural_enemies:
   - Entomopathogenic Nematodes
   - Ground Beetles (Carabidae)
