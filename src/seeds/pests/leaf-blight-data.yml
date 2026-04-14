@@ -16,16 +16,45 @@
     strong clue. When separate spots begin merging into larger dead patches, the disease is
     advancing quickly.
   control_methods:
-    preventive_methods: Ensure proper spacing and pruning to improve air circulation and reduce leaf wetness. Avoid excessive
-      nitrogen fertilization which can promote lush, vulnerable growth.
-    biological_controls: Utilize antagonistic microbes and beneficial fungi that inhibit pathogen growth. These natural competitors
-      help suppress the spread of the disease.
-    cultural_practices: Remove and destroy infected leaves, practice crop rotation, and use resistant varieties where possible
-      to limit disease establishment.
-    mechanical_physical: Prune heavily infected parts and dispose of them properly to reduce inoculum sources. Implement physical
-      barriers if necessary during high-risk periods.
-    organic_sprays: Apply organic fungicides such as neem oil, copper-based sprays, or bicarbonate solutions early in the
-      infection cycle to curb disease progression.
+    biological_controls: >-
+      Bacillus subtilis and B. amyloliquefaciens colonize leaf surfaces and produce
+      antifungal and antibacterial compounds that suppress leaf blight pathogens -- 
+      apply preventively as foliar sprays every 7-14 days during wet weather. Trichoderma
+      as a soil drench supports root health and reduces systemic stress that makes plants
+      more susceptible to foliar disease. A diverse phyllosphere microbial community
+      naturally suppresses blight -- avoid sterilizing copper sprays that eliminate
+      competing beneficial organisms on leaf surfaces.
+    preventive_methods: >-
+      Leaf blight covers several distinct diseases -- identify whether you are dealing
+      with a fungal blight (Alternaria, Phytophthora, Botrytis) or bacterial blight
+      (Pseudomonas, Xanthomonas) because controls differ. Fungal blights spread by
+      rain splash and require wet leaves to infect. Bacterial blights spread faster
+      in warm wet weather and through wounds. In both cases, water at the soil line
+      only -- never overhead irrigation. Mulch under plants prevents soil splash
+      onto lower leaves. Scout after rainstorms when infection conditions peak.
+    cultural_practices: >-
+      Remove and bag infected leaves and plant parts immediately -- never compost
+      as blight pathogens survive in plant debris and reinfect the following season.
+      Widen plant spacing for air circulation -- leaves that dry quickly after rain
+      or irrigation are far less susceptible. Prune lower leaves that touch soil where
+      splash inoculum originates. Rotate susceptible crops on 3-4 year cycles. Choose
+      resistant varieties where available -- modern breeding has produced blight-resistant
+      tomatoes, potatoes, and many other crops.
+    mechanical_physical: >-
+      Remove infected leaves at first sign and bag immediately -- blight spreads by
+      airborne spores or rain splash and removing infected material reduces inoculum.
+      Sanitize pruning tools between plants with 70% isopropyl alcohol when cutting
+      through infected tissue. This is especially important for bacterial blights which
+      spread rapidly on dirty tools.
+    organic_sprays: >-
+      Copper fungicides on a protectant schedule during wet periods are the most
+      effective organic spray for both fungal and bacterial blights -- apply before
+      infection rather than after symptoms appear. Copper has 7-10 day residual and
+      must be reapplied after rain. Bacillus subtilis (Serenade) provides biological
+      suppression and can be rotated with copper to reduce resistance risk and copper
+      accumulation in soil. Neem oil has some preventive efficacy against fungal blights.
+      Potassium bicarbonate kills fungal spores on contact -- most effective as a
+      curative spray on early infections.
   natural_enemies:
   - Antagonistic Fungi
   - Beneficial Bacteria

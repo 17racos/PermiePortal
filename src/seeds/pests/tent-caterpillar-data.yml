@@ -14,164 +14,43 @@
     Look at dusk or early morning when many species feed more actively. Fresh chewing plus live
     larvae or droppings on lower leaves confirms an active caterpillar outbreak.
   control_methods:
-    organic_sprays: Bacillus thuringiensis kurstaki on small larvae feeding outside tight silk gives strong control with low
-      non-target risk. Neem or spinosad follows labeled hosts where Bt is insufficient on late instars. Spot applications
-      to tents and adjacent foliage beat whole-forest sprays.
-    biological_controls: Tachinid flies and ichneumonid wasps parasitize larvae; cuckoos and other birds rip colonies apart.
-      Leaving low-level tents on wild hosts can reservoir parasitoids that later help orchards—balance aesthetics with biocontrol
-      banking on diversified farms.
-    cultural_practices: Prune winter egg masses on young trees during dormancy. Avoid planting single-species windbreaks of
-      highly favored hosts without planning for cyclical outbreaks. Accept light defoliation on mature shade trees when safety
-      is not an issue.
-    mechanical_physical: Remove tents on reachable limbs into soapy water in early morning when larvae cluster inside. For
-      high-value nursery stock, this hand work is cheaper than repeat sprays.
-    preventive_methods: Map tents each spring; some fence lines predictably reignite. Walk orchards during bloom lull to catch
-      colonies while larvae are still small for Bt.
-  affected_plants:
-  - slug: apple
-    name: Apple
-  - slug: pear-tree
-    name: Pear Tree
-  - slug: bluejack-oak
-    name: Bluejack Oak
-  - slug: wild-crabapple
-    name: Wild Crabapple
-  - slug: agrimony
-    name: Agrimony
-  - slug: allegheny-serviceberry
-    name: Allegheny Serviceberry
-  - slug: almond-tree
-    name: Almond Tree
-  - slug: american-beauty-plum
-    name: American Beauty Plum
-  - slug: american-hawthorn
-    name: American Hawthorn
-  - slug: american-plum
-    name: American Plum
-  - slug: aronia
-    name: Aronia
-  - slug: beach-strawberry
-    name: Beach Strawberry
-  - slug: bearberry-cotoneaster
-    name: Bearberry Cotoneaster
-  - slug: black-chokeberry
-    name: Black Chokeberry
-  - slug: buffalo-plum
-    name: Buffalo Plum
-  - slug: carolina-rose
-    name: Carolina Rose
-  - slug: chickasaw-blackberry
-    name: Chickasaw Blackberry
-  - slug: chickasaw-plum
-    name: Chickasaw Plum
-  - slug: chokeberry
-    name: Chokeberry
-  - slug: climbing-prairie-rose
-    name: Climbing Prairie Rose
-  - slug: cloudberry
-    name: Cloudberry
-  - slug: cockspur-hawthorn
-    name: Cockspur Hawthorn
-  - slug: creeping-raspberry
-    name: Creeping Raspberry
-  - slug: dewberry
-    name: Dewberry
-  - slug: dotted-hawthorn
-    name: Dotted Hawthorn
-  - slug: downy-serviceberry
-    name: Downy Serviceberry
-  - slug: flatwoods-plum
-    name: Flatwoods Plum
-  - slug: frosted-hawthorn
-    name: Frosted Hawthorn
-  - slug: green-hawthorn
-    name: Green Hawthorn
-  - slug: green-apple-tree
-    name: Green Apple Tree
-  - slug: hedge-cotoneaster
-    name: Hedge Cotoneaster
-  - slug: hortulan-plum
-    name: Hortulan Plum
-  - slug: loquat
-    name: Loquat
-  - slug: many-flowered-cotoneaster
-    name: Many Flowered Cotoneaster
-  - slug: mayhaw
-    name: Mayhaw
-  - slug: meadowsweet
-    name: Meadowsweet
-  - slug: munson-plum
-    name: Munson Plum
-  - slug: nectarine-tree
-    name: Nectarine Tree
-  - slug: parsley-hawthorn
-    name: Parsley Hawthorn
-  - slug: pasture-rose
-    name: Pasture Rose
-  - slug: pear-hawthorn
-    name: Pear Hawthorn
-  - slug: pineapple-pear
-    name: Pineapple Pear
-  - slug: prairie-crabapple
-    name: Prairie Crabapple
-  - slug: purple-chokeberry
-    name: Purple Chokeberry
-  - slug: raspberry
-    name: Raspberry
-  - slug: red-chokeberry
-    name: Red Chokeberry
-  - slug: red-apple-tree
-    name: Red Apple Tree
-  - slug: rock-cotoneaster
-    name: Rock Cotoneaster
-  - slug: roundleaf-serviceberry
-    name: Roundleaf Serviceberry
-  - slug: running-serviceberry
-    name: Running Serviceberry
-  - slug: sand-blackberry
-    name: Sand Blackberry
-  - slug: sand-cherry
-    name: Sand Cherry
-  - slug: saskatoon-berry
-    name: Saskatoon Berry
-  - slug: serviceberry
-    name: Serviceberry
-  - slug: silverleaf-cotoneaster
-    name: Silverleaf Cotoneaster
-  - slug: smooth-serviceberry
-    name: Smooth Serviceberry
-  - slug: southern-crabapple
-    name: Southern Crabapple
-  - slug: southern-dewberry
-    name: Southern Dewberry
-  - slug: southern-hawthorn
-    name: Southern Hawthorn
-  - slug: strawberry
-    name: Strawberry
-  - slug: swamp-rose
-    name: Swamp Rose
-  - slug: sweet-crabapple
-    name: Sweet Crabapple
-  - slug: virginia-rose
-    name: Virginia Rose
-  - slug: wild-plum
-    name: Wild Plum
-  - slug: allegheny-chinquapin
-    name: Allegheny Chinquapin
-  - slug: bush-chinquapin
-    name: Bush Chinquapin
-  - slug: dwarf-chestnut
-    name: Dwarf Chestnut
-  - slug: dwarf-live-oak
-    name: Dwarf Live Oak
-  - slug: golden-chinquapin
-    name: Golden Chinquapin
-  - slug: myrtle-oak
-    name: Myrtle Oak
-  - slug: sand-live-oak
-    name: Sand Live Oak
-  - slug: turkey-oak
-    name: Turkey Oak
+    biological_controls: >-
+      Tachinid flies and ichneumonid wasps parasitize tent caterpillar larvae -- 
+      they are already present in most landscapes and provide significant suppression
+      in undisturbed areas. Cuckoos, orioles, and other birds rip tent colonies open
+      and consume larvae actively -- habitat for these species near orchards and
+      gardens provides real population pressure. Leaving low-level tents on wild host
+      trees at field edges provides a reservoir of parasitoids that move into orchards.
+      Bacillus thuringiensis kurstaki specifically kills tent caterpillar larvae that
+      eat treated foliage without harming parasitoid wasps.
+    preventive_methods: >-
+      Tent caterpillars build distinctive silken tents in branch crotches in early
+      spring -- unlike fall webworm which builds tents at branch tips, tent caterpillar
+      tents are at crotches and forks. Eggs overwinter as shiny brown masses around
+      small twigs -- a single egg mass contains 150-350 eggs wrapped in a foam-like
+      cover. Removing egg masses during dormant season (fall through early spring) is
+      the highest-return preventive activity. Scout preferred hosts -- wild cherry,
+      apple, and crabapple -- in winter for egg masses.
+    cultural_practices: >-
+      Prune out egg masses during winter dormancy on young trees and orchard trees -- 
+      each mass removed eliminates up to 350 larvae. Mature established trees tolerate
+      tent caterpillar defoliation and refoliate within weeks -- young trees and
+      those already stressed need protection. Accept some webbing on wild host trees
+      at property edges as parasitoid reservoirs. Avoid planting large monocultures
+      of highly favored hosts like wild cherry without planning for cyclical outbreaks.
+    mechanical_physical: >-
+      Remove tents on reachable limbs in early morning when larvae are clustered
+      inside for warmth -- drop into soapy water. A pole with a rough surface
+      (wrapped with burlap) can twist and remove high tents. Pruning out egg masses
+      in winter from young trees is faster and more cost-effective than spray programs
+      on small plantings.
+    organic_sprays: >-
+      Bt kurstaki on small larvae feeding outside tight silk gives strong targeted
+      control -- apply in the evening coating all foliage thoroughly. Spot applications
+      to tents and adjacent foliage are more effective than whole-tree sprays. Apply
+      before larvae are half-grown for best results. Spinosad for larger larvae where
+      Bt timing was missed. Neem oil deters adult egg-laying when applied to preferred
+      host trees in late summer during moth flight.
   natural_enemies:
   - Tachinid Flies (Tachinidae)
   - Ichneumonid Wasps

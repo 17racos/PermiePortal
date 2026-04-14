@@ -14,176 +14,44 @@
     Look at dusk or early morning when many species feed more actively. Fresh chewing plus live
     larvae or droppings on lower leaves confirms an active caterpillar outbreak.
   control_methods:
-    organic_sprays: Bacillus thuringiensis kurstaki targets small larvae feeding outside dense silk; penetrate the web enough
-      to wet foliage inside. Neem or spinosad can follow labeled rates for caterpillars on ornamentals and some fruit trees.
-      Spot-treat individual webs rather than blanket-spraying entire orchards to protect late-season pollinators.
-    biological_controls: Parasitic wasps (Ichneumonidae, Braconidae) and tachinid flies attack larvae; birds rip webs open.
-      Maintaining understory habitat supports these enemies in shelterbelts and urban trees where repeated non-selective sprays
-      are uncommon.
-    cultural_practices: Accept light defoliation on mature landscape trees when webs are few—trees tolerate one cosmetic episode.
-      In nurseries, isolate heavily webbed liners. Avoid unnecessary nitrogen flushes late in the season that push succulent
-      tissue when moth flights peak.
-    mechanical_physical: Prune out accessible webs into a bucket of soapy water—effective on yard trees and reachable orchard
-      limbs. For high branches, use a pole pruner on small webs before larvae grow large. Power washing webs is messy and
-      often unnecessary compared with pruning.
-    preventive_methods: Map trees that hosted webs each fall; inspect those first next season. In high-value blocks, walk
-      outer rows weekly during late summer. Teach crews to distinguish fall webworm from tent caterpillar webs for correct
-      timing with Bt.
-  affected_plants:
-  - slug: bluejack-oak
-    name: Bluejack Oak
-  - slug: walnut-tree
-    name: Walnut Tree
-  - slug: pecan-tree
-    name: Pecan Tree
-  - slug: american-persimmon
-    name: American Persimmon
-  - slug: mulberry-tree
-    name: Mulberry Tree
-  - slug: agrimony
-    name: Agrimony
-  - slug: allegheny-serviceberry
-    name: Allegheny Serviceberry
-  - slug: almond-tree
-    name: Almond Tree
-  - slug: american-beauty-plum
-    name: American Beauty Plum
-  - slug: american-hawthorn
-    name: American Hawthorn
-  - slug: american-plum
-    name: American Plum
-  - slug: apple
-    name: Apple
-  - slug: aronia
-    name: Aronia
-  - slug: beach-strawberry
-    name: Beach Strawberry
-  - slug: bearberry-cotoneaster
-    name: Bearberry Cotoneaster
-  - slug: black-chokeberry
-    name: Black Chokeberry
-  - slug: buffalo-plum
-    name: Buffalo Plum
-  - slug: carolina-rose
-    name: Carolina Rose
-  - slug: chickasaw-blackberry
-    name: Chickasaw Blackberry
-  - slug: chickasaw-plum
-    name: Chickasaw Plum
-  - slug: chokeberry
-    name: Chokeberry
-  - slug: climbing-prairie-rose
-    name: Climbing Prairie Rose
-  - slug: cloudberry
-    name: Cloudberry
-  - slug: cockspur-hawthorn
-    name: Cockspur Hawthorn
-  - slug: creeping-raspberry
-    name: Creeping Raspberry
-  - slug: dewberry
-    name: Dewberry
-  - slug: dotted-hawthorn
-    name: Dotted Hawthorn
-  - slug: downy-serviceberry
-    name: Downy Serviceberry
-  - slug: flatwoods-plum
-    name: Flatwoods Plum
-  - slug: frosted-hawthorn
-    name: Frosted Hawthorn
-  - slug: green-hawthorn
-    name: Green Hawthorn
-  - slug: green-apple-tree
-    name: Green Apple Tree
-  - slug: hedge-cotoneaster
-    name: Hedge Cotoneaster
-  - slug: hortulan-plum
-    name: Hortulan Plum
-  - slug: loquat
-    name: Loquat
-  - slug: many-flowered-cotoneaster
-    name: Many Flowered Cotoneaster
-  - slug: mayhaw
-    name: Mayhaw
-  - slug: meadowsweet
-    name: Meadowsweet
-  - slug: munson-plum
-    name: Munson Plum
-  - slug: nectarine-tree
-    name: Nectarine Tree
-  - slug: parsley-hawthorn
-    name: Parsley Hawthorn
-  - slug: pasture-rose
-    name: Pasture Rose
-  - slug: pear-hawthorn
-    name: Pear Hawthorn
-  - slug: pear-tree
-    name: Pear Tree
-  - slug: pineapple-pear
-    name: Pineapple Pear
-  - slug: prairie-crabapple
-    name: Prairie Crabapple
-  - slug: purple-chokeberry
-    name: Purple Chokeberry
-  - slug: raspberry
-    name: Raspberry
-  - slug: red-chokeberry
-    name: Red Chokeberry
-  - slug: red-apple-tree
-    name: Red Apple Tree
-  - slug: rock-cotoneaster
-    name: Rock Cotoneaster
-  - slug: roundleaf-serviceberry
-    name: Roundleaf Serviceberry
-  - slug: running-serviceberry
-    name: Running Serviceberry
-  - slug: sand-blackberry
-    name: Sand Blackberry
-  - slug: sand-cherry
-    name: Sand Cherry
-  - slug: saskatoon-berry
-    name: Saskatoon Berry
-  - slug: serviceberry
-    name: Serviceberry
-  - slug: silverleaf-cotoneaster
-    name: Silverleaf Cotoneaster
-  - slug: smooth-serviceberry
-    name: Smooth Serviceberry
-  - slug: southern-crabapple
-    name: Southern Crabapple
-  - slug: southern-dewberry
-    name: Southern Dewberry
-  - slug: southern-hawthorn
-    name: Southern Hawthorn
-  - slug: strawberry
-    name: Strawberry
-  - slug: swamp-rose
-    name: Swamp Rose
-  - slug: sweet-crabapple
-    name: Sweet Crabapple
-  - slug: virginia-rose
-    name: Virginia Rose
-  - slug: wild-crabapple
-    name: Wild Crabapple
-  - slug: wild-plum
-    name: Wild Plum
-  - slug: allegheny-chinquapin
-    name: Allegheny Chinquapin
-  - slug: bush-chinquapin
-    name: Bush Chinquapin
-  - slug: dwarf-chestnut
-    name: Dwarf Chestnut
-  - slug: dwarf-live-oak
-    name: Dwarf Live Oak
-  - slug: golden-chinquapin
-    name: Golden Chinquapin
-  - slug: myrtle-oak
-    name: Myrtle Oak
-  - slug: sand-live-oak
-    name: Sand Live Oak
-  - slug: turkey-oak
-    name: Turkey Oak
-  - slug: scrub-hickory
-    name: Scrub Hickory
+    biological_controls: >-
+      Ichneumonid and braconid parasitoid wasps and tachinid flies attack fall
+      webworm larvae inside the web -- they are already present in most areas
+      and provide significant suppression in undisturbed landscapes. Birds -- 
+      especially yellow-billed cuckoos and mockingbirds -- rip webs open and
+      consume larvae actively. Maintaining diverse understory habitat and reducing
+      broad-spectrum sprays allows these enemies to build up. Bacillus thuringiensis
+      kurstaki (Bt) is highly targeted -- it kills caterpillars that eat treated
+      foliage and nothing else, preserving all parasitoids working inside webs.
+    preventive_methods: >-
+      Fall webworm builds silken webs at branch tips from midsummer through fall -- 
+      the large gauzy tents enclosing leaves and twigs are unmistakable. A mature
+      tree tolerates one or two webbing episodes without lasting harm -- fall
+      webworm is largely a cosmetic problem on established landscape trees. Young
+      trees and nursery stock are more vulnerable. The key window for control is
+      small webs early in the season before larvae grow large and the web expands.
+      Act when webs are softball-sized, not when they cover entire branch ends.
+    cultural_practices: >-
+      Accept light webbing on mature landscape trees when webs are few -- the
+      tree will recover and the parasitoid wasps reservoired in the colony will
+      help protect other plants. In orchards and nurseries, lower tolerance is
+      appropriate. Remove winter egg masses from bark on young trees during dormancy
+      to reduce the following season population. Avoid late-season nitrogen fertilization
+      that pushes succulent new growth when moth flights peak.
+    mechanical_physical: >-
+      Prune out accessible webs into a bucket of soapy water -- the most effective
+      control for yard trees. Do it in early morning when larvae are clustered inside
+      the web for warmth. Cut the supporting branch several inches below the web base.
+      For high branches, a pole pruner reaches small webs before larvae grow large
+      enough to disperse. Do not burn webs on the tree -- this damages bark and
+      spreads larvae that drop to escape.
+    organic_sprays: >-
+      Bt kurstaki sprayed inside and around small webs targets larvae feeding on
+      treated foliage -- penetrate the web enough to wet foliage inside. Apply
+      in the evening when larvae are active. Spot-treat individual webs rather than
+      blanket-spraying entire trees to protect parasitoid wasps working inside colonies.
+      Spinosad as a follow-up for larger larvae. Neem oil on ornamentals deters adult
+      egg-laying when applied to foliage before webs appear.
   natural_enemies:
   - Tachinid Flies (Tachinidae)
   - Ichneumonid Wasps
