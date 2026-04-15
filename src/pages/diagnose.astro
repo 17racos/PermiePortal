@@ -202,12 +202,17 @@ const allSymptoms = Object.keys(SYMPTOM_LABELS);
 
     // Sort by score desc then name
     scored.sort(function(a, b) {
+      var aFull = a.score === selected.length ? 1 : 0;
+      var bFull = b.score === selected.length ? 1 : 0;
+      if (bFull !== aFull) return bFull - aFull;
       if (b.score !== a.score) return b.score - a.score;
+      return (b.pest.affected_plants || []).length - (a.pest.affected_plants || []).length;
       return a.pest.name.localeCompare(b.pest.name);
     });
 
-    var top = scored.slice(0, 12);
-    header.textContent = scored.length + ' possible pest' + (scored.length !== 1 ? 's' : '') + ' matching ' + selected.length + ' symptom' + (selected.length !== 1 ? 's' : '');
+    var top = scored.slice(0, 24);
+    var fullMatches = scored.filter(function(x) { return x.score === selected.length; }).length;
+    header.textContent = fullMatches + ' exact match' + (fullMatches !== 1 ? 'es' : '') + ', ' + scored.length + ' total -- showing top ' + Math.min(scored.length, 24);
 
     if (top.length === 0) {
       grid.innerHTML = '<div class="empty-state"><div class="empty-state-title">No ferent symptoms</div></div>';
