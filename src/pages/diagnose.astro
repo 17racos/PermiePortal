@@ -222,13 +222,7 @@ const allSymptoms = Object.keys(SYMPTOM_LABELS);
     // Combine -- exact first then partial
     var top = exactMatches.concat(partialMatches).slice(0, 24);
 
-    if (selected.length === 1) {
-      header.textContent = exactMatches.length + ' pest' + (exactMatches.length !== 1 ? 's' : '') + ' match this symptom';
-    } else if (exactMatches.length > 0) {
-      header.textContent = exactMatches.length + ' exact match' + (exactMatches.length !== 1 ? 'es' : '') + ' + ' + Math.min(partialMatches.length, 24 - exactMatches.length) + ' partial';
-    } else {
-      header.textContent = 'No exact matches -- showing ' + Math.min(partialMatches.length, 24) + ' partial matches';
-    }
+    header.textContent = exactMatches.length + ' pest' + (exactMatches.length !== 1 ? 's' : '') + ' match all ' + (selected.length > 1 ? selected.length + ' symptoms' : 'symptom');
 
     if (top.length === 0) {
       grid.innerHTML = '<div class="empty-state"><div class="empty-state-title">No matches found</div><div class="empty-state-sub">Try different symptoms</div></div>';
