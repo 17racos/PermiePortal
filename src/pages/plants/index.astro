@@ -85,6 +85,10 @@ const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].sort();
   }
 
   .zone-label { margin-left: 1rem; }
+  .zone-input { font-family: 'Space Mono', monospace; font-size: 0.72rem; background: transparent; border: 1px solid rgba(139,184,58,0.25); color: var(--paper); padding: 0.45rem 0.75rem; width: 70px; letter-spacing: 0.05em; }
+  .zone-input::placeholder { color: var(--ash); opacity: 0.5; }
+  .zone-input:focus { outline: none; border-color: var(--lime); }
+  .zone-input::-webkit-inner-spin-button, .zone-input::-webkit-outer-spin-button { -webkit-appearance: none; }
   .filter-label {
     font-family: 'Space Mono', monospace; font-size: 0.65rem;
     letter-spacing: 0.12em; text-transform: uppercase; color: var(--ash);
@@ -301,10 +305,15 @@ const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].sort();
     <button class="filter-btn" data-filter="layer" data-value={layer}>{layer}</button>
   ))}
   <span class="filter-label zone-label">Zone:</span>
-  <button class="filter-btn zone-btn active" data-filter="zone" data-value="all">All</button>
-  {['3','4','5','6','7','8','9','10','11','12'].map(z => (
-    <button class="filter-btn zone-btn" data-filter="zone" data-value={z}>{z}</button>
-  ))}
+  <input
+    type="number"
+    class="zone-input"
+    id="zone-input"
+    placeholder="e.g. 9"
+    min="1"
+    max="13"
+    autocomplete="off"
+  />
   <div class="search-wrap">
     <input
       type="search"
@@ -427,16 +436,16 @@ const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].sort();
         visibleCount = 60;
         applyFilters();
       }
-      if (btn.dataset.filter === 'zone') {
-        filterBtns.forEach(b => { if (b.dataset.filter === 'zone') b.classList.remove('active'); });
-        btn.classList.add('active');
-        activeZone = btn.dataset.value!;
-        visibleCount = 60;
-        applyFilters();
-      }
+
     });
   });
 
+  const zoneInput = document.getElementById('zone-input') as HTMLInputElement;
+  zoneInput?.addEventListener('input', e => {
+    activeZone = (e.target as HTMLInputElement).value.trim() || 'all';
+    visibleCount = 60;
+    applyFilters();
+  });
   applyFilters();
 </script>
 
