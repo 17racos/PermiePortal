@@ -84,6 +84,7 @@ const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].sort();
     display: flex; gap: 1rem; flex-wrap: wrap; align-items: center;
   }
 
+  .zone-label { margin-left: 1rem; }
   .filter-label {
     font-family: 'Space Mono', monospace; font-size: 0.65rem;
     letter-spacing: 0.12em; text-transform: uppercase; color: var(--ash);
@@ -299,6 +300,11 @@ const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].sort();
   {allLayers.map(layer => (
     <button class="filter-btn" data-filter="layer" data-value={layer}>{layer}</button>
   ))}
+  <span class="filter-label zone-label">Zone:</span>
+  <button class="filter-btn zone-btn active" data-filter="zone" data-value="all">All</button>
+  {['3','4','5','6','7','8','9','10','11','12'].map(z => (
+    <button class="filter-btn zone-btn" data-filter="zone" data-value={z}>{z}</button>
+  ))}
   <div class="search-wrap">
     <input
       type="search"
@@ -320,6 +326,7 @@ const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].sort();
         data-sci={plant.scientific_name?.toLowerCase() || ''}
         data-layer={(plant.layers || []).join(' ').toLowerCase()}
         data-function={(plant.plant_function || []).join(' ').toLowerCase()}
+        data-zone={plant.zone || ''}
       >
         {plant.picture
           ? <img class="card-img" src={`/assets/plants/${plant.picture}`} alt={plant.common_name} loading="lazy" />
@@ -361,6 +368,7 @@ const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].sort();
   const filterBtns = document.querySelectorAll('.filter-btn') as NodeListOf<HTMLButtonElement>;
 
   let activeLayer = 'all';
+  let activeZone = 'all';
   let searchTerm = '';
   let visibleCount = 60;
 
@@ -386,7 +394,18 @@ const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].sort();
         card.dataset.sci!.includes(searchTerm);
       const layerMatch = activeLayer === 'all' ||
         card.dataset.layer!.includes(activeLayer.toLowerCase());
-      const fits = nameMatch && layerMatch;
+      const zoneMatch = activeZone === 'all' || (() => {
+        const z = card.dataset.zone || '';
+        if (!z) return false;
+        // Parse range like "7-11" or "9-11" or "10b-11"
+        const clean = z.replace(/[ab]/g, '');
+        const parts = clean.split('-');
+        const min = parseInt(parts[0]);
+        const max = parseInt(parts[parts.length - 1]);
+        const target = parseInt(activeZone);
+        return !isNaN(min) && !isNaN(max) && target >= min && target <= max;
+      })();
+      const fits = nameMatch && layerMatch && zoneMatch;
       if (fits) matched++;
       card.classList.toggle('hidden', !fits || matched > visibleCount);
     });
@@ -405,6 +424,13 @@ const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].sort();
         filterBtns.forEach(b => { if (b.dataset.filter === 'layer') b.classList.remove('active'); });
         btn.classList.add('active');
         activeLayer = btn.dataset.value!;
+        visibleCount = 60;
+        applyFilters();
+      }
+      if (btn.dataset.filter === 'zone') {
+        filterBtns.forEach(b => { if (b.dataset.filter === 'zone') b.classList.remove('active'); });
+        btn.classList.add('active');
+        activeZone = btn.dataset.value!;
         visibleCount = 60;
         applyFilters();
       }
