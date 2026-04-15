@@ -181,6 +181,22 @@ const tickerMessages = [
   .start-card:hover .start-card-arrow { opacity: 1; transform: translateX(4px); }
   @media (max-width: 768px) { .start-here { padding: 3rem 1.5rem; } .start-cards { grid-template-columns: 1fr; } }
 
+  /* RANDOM PLANT SECTION */
+  .random-plant-section { padding: 4rem 4rem; background: var(--bark); border-top: 1px solid rgba(139,184,58,0.15); border-bottom: 1px solid rgba(139,184,58,0.15); }
+  .random-plant-inner { max-width: 1200px; margin: 0 auto; }
+  .random-eyebrow { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--lime); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.75rem; }
+  .random-eyebrow::before { content: ''; width: 2rem; height: 1px; background: var(--lime); display: inline-block; }
+  .random-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(2rem, 4vw, 3rem); color: var(--paper); letter-spacing: 0.02em; margin-bottom: 1.5rem; }
+  .random-card { max-width: 480px; }
+  .random-card-link { display: flex; gap: 1.5rem; text-decoration: none; align-items: flex-start; }
+  .random-img { width: 140px; height: 140px; object-fit: cover; border: 1px solid rgba(139,184,58,0.2); flex-shrink: 0; }
+  .random-card-body { flex: 1; }
+  .random-label { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--lime); margin-bottom: 0.5rem; }
+  .random-name { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; color: var(--paper); line-height: 1; margin-bottom: 0.25rem; letter-spacing: 0.02em; }
+  .random-sci { font-style: italic; font-size: 0.9rem; color: var(--ash); margin-bottom: 0.75rem; }
+  .random-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  @media (max-width: 768px) { .random-plant-section { padding: 3rem 1.5rem; } .random-card-link { flex-direction: column; } .random-img { width: 100%; height: 200px; } }
+
   @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
   .hero-eyebrow { animation: fadeUp 0.6s ease both; }
   .hero-headline { animation: fadeUp 0.6s 0.1s ease both; }
@@ -243,24 +259,7 @@ const tickerMessages = [
         <div class="stat-label">Organic Pest Profiles</div>
       </div>
     </div>
-    <div class="featured-plant">
-      <div class="featured-label">▸ Random Plant</div>
-      <a href={`/plants/${featuredPlant.slug}`} style="text-decoration:none">
-        {featuredPlant.picture && (
-          <img class="featured-img" src={`/assets/plants/${featuredPlant.picture}`} alt={featuredPlant.common_name} loading="lazy" />
-        )}
-        <div class="featured-name">{featuredPlant.common_name}</div>
-        <div class="featured-sci">{featuredPlant.scientific_name}</div>
-        <div class="featured-tags">
-          {featuredPlant.plant_function?.slice(0, 3).map((fn: string) => (
-            <span class="tag">{fn}</span>
-          ))}
-          {featuredPlant.layers?.slice(0, 1).map((l: string) => (
-            <span class="tag">{l}</span>
-          ))}
-        </div>
-      </a>
-    </div>
+
   </div>
 </section>
 
@@ -331,6 +330,33 @@ const tickerMessages = [
 </section>
 
 
+
+<section class="random-plant-section">
+  <div class="random-plant-inner">
+    <p class="random-eyebrow">Not sure where to start?</p>
+    <h2 class="random-title">Meet a Random Plant</h2>
+    <div class="random-card">
+      <a href={`/plants/${featuredPlant.slug}`} class="random-card-link">
+        {featuredPlant.picture && (
+          <img class="random-img" src={`/assets/plants/${featuredPlant.picture}`} alt={featuredPlant.common_name} loading="lazy" />
+        )}
+        <div class="random-card-body">
+          <div class="random-label">▸ Random Plant</div>
+          <div class="random-name">{featuredPlant.common_name}</div>
+          <div class="random-sci">{featuredPlant.scientific_name}</div>
+          <div class="random-tags">
+            {featuredPlant.plant_function?.slice(0, 3).map((fn: string) => (
+              <span class="tag">{fn}</span>
+            ))}
+            {featuredPlant.layers?.slice(0, 1).map((l: string) => (
+              <span class="tag">{l}</span>
+            ))}
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
 
 <section class="manifesto">
   <div class="manifesto-left">
