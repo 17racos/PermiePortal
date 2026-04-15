@@ -1,10 +1,11 @@
 ---
-- common_name: Chaga Host
+- common_name: Chaga
   picture: chaga.webp
   scientific_name: Inonotus obliquus
   aka:
   - Birch Conk
   - Cinder Conk
+  - Clinker Polypore
   family: Hymenochaetaceae
   zone: 2-7
   ideal_temp_min: 40
@@ -13,40 +14,65 @@
   max_temp: 85
   perennial: true
   layers:
-  - Tree
+  - Fungal
   plant_function:
+  - Edible
   - Medicinal
   - Mulcher
-  description: "Chaga is the cracked charcoal canker on birch bark — not a mushroom
-    in the cap-and-stem sense but a sterile conk stage of Inonotus obliquus. It wants
-    cold-climate birch forests; subtropical and tropical Americas is mostly the wrong movie. If you are
-    here, you are either planning travel, mail-order tea, or experimenting up north.
-    Harvesting from live public trees is a jerk move; sustainable practice matters
-    because slow-growing conks tempt greed.\n\n☀️💧 Sun and Water:\n- Natural range
-    tied to birch in cool, humid continental climates.\n- No honest outdoor substitute
-    on local palms; manage expectations.\n- Cultivation research exists but is not
-    backyard trivial.\n\n✂️ Propagation:\n- Essentially not a home propagation crop
-    in the subtropics; buy from reputable growers if you want the tea arc."
+  description: "Chaga is not a mushroom in the cap-and-stem sense — it is a sterile
+    conk stage of Inonotus obliquus, erupting from birch bark as a cracked, charcoal-black
+    mass with an orange-brown interior. It belongs to cold-climate birch forests
+    and has no honest outdoor analog in subtropical Florida. If you are reading this
+    in Jacksonville, you are planning a sourcing strategy, not a planting calendar.
+    Wild harvest ethics matter here: slow-growing conks are easily overharvested,
+    and stripping live public trees is bad form in any zip code.\n\n☀️💧 Sun and
+    Water:\n- Native range is cool, humid continental climates tied to paper and
+    yellow birch.\n- No subtropical substitute; river birch in FL will not produce
+    meaningful conks.\n- Indoor cultivation research exists but is not backyard-accessible.\n\n✂️
+    Propagation:\n- Not a home propagation crop in the subtropics.\n- Source from
+    reputable northern foragers or certified growers if you want the tea.\n- Inoculation
+    of birch logs exists experimentally but requires years of colonization."
   purpose: |-
-    Chaga host entries exist so nobody plants river birch in Gainesville expecting
-    a conk:
+    Chaga is a cold-climate medicinal with deep traditional roots in Siberian and
+    northern European folk medicine:
 
-    - Medicinal: Traditional northern use; subtropical FL is not the production
-      zone.
-    - Mulcher: In its native range it is part of birch forest decay ecology.
+    - Edible: Prepared as a long-simmered decoction or tea; not eaten as a food
+      mushroom in the conventional sense.
+    - Medicinal: Traditional use for immune support; modern research is active but
+      overhyped in supplement marketing — read primary sources.
+    - Mulcher: In native range it is part of birch forest decay ecology; conks
+      signal internal rot, not a bonus crop on healthy stock.
+  substrate:
+  - Birch (primary)
+  - Alder
+  - Elm (rarely)
+  mycelium_type: Parasitic / white rot
+  fruiting_season: Perennial conk; harvest traditionally after hard freeze, late
+    fall through winter
+  cultivation_difficulty: Not recommended for subtropical cultivation
+  spawn_type: Outdoor only — natural inoculation or experimental log colonization
+    in northern climates
   companions:
   - Birch
   - Alder
   cautions:
-  - None documented
+  - Not suitable for subtropical or tropical cultivation
+  - Repeated conk harvesting from live trees accelerates host decline
   pests:
   - Borers
   practitioner_notes: |-
-    Chaga is tree stress signal, not a bonus crop on healthy stock—repeated harvesting wounds cambium and speeds decline.
-    Confirm birch bark and sterile charcoal conk morphology before any use—mis-ID with other dark conks is not worth the tea trend.
-    Leave some conks if you forage—complete stripping removes inoculum other wildlife and mycologists track.
-    Winter harvest after several hard freezes is traditional timing—soft summer tissue bruises and spoils fast.
-  growth_habit: Parasitic canker on birch and related hosts (northern)
-  data_quality_score: 0.68
+    Chaga is a tree stress signal, not a bonus crop — a conk on a live birch means
+    internal rot is already underway; harvest ethically and sparingly.
+    Confirm charcoal-black exterior and orange-brown interior before use — other
+    dark conks exist and misidentification is not worth the trend.
+    Winter harvest after hard freezes is traditional; summer tissue is soft and
+    spoils quickly.
+    Leave a portion of any conk you find — complete removal strips inoculum and
+    collapses local patch recovery.
+    Source from certified northern foragers if you are in Florida; mail-order is
+    the honest path here.
+  growth_habit: Parasitic canker on birch and related hosts; cold northern climates
+    only
+  data_quality_score: 0.78
   # Image attribution: No image found
   # Image source: none

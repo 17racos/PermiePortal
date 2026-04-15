@@ -171,6 +171,10 @@ const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].sort();
     color: var(--leaf); margin-bottom: 0.5rem;
   }
 
+  .card-layer[data-layer="fungal"] {
+    color: var(--straw);
+  }
+
   .card-name {
     font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem;
     letter-spacing: 0.03em; color: var(--paper);
@@ -343,7 +347,7 @@ const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].sort();
           : <div style="width:100%;height:160px;background:var(--moss);opacity:0.4;" />
         }
         <div class="card-body">
-          <div class="card-layer">{plant.layers?.[0] || 'Plant'}</div>
+          <div class="card-layer" data-layer={(plant.layers?.[0] || 'plant').toLowerCase()}>{plant.layers?.[0] || 'Plant'}</div>
           <div class="card-name">{plant.common_name}</div>
           {plant.scientific_name && (
             <div class="card-sci">{plant.scientific_name}</div>

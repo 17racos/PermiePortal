@@ -1,54 +1,86 @@
 ---
-- common_name: Reishi Host
+- common_name: Reishi
   picture: reishi.webp
-  scientific_name: Ganoderma sessile (eastern U.S. lacquered bracket; complex)
+  scientific_name: Ganoderma sessile
   aka:
-  - Lingzhi (traditional)
+  - Lingzhi
   - Varnish Shelf
+  - Artist's Conk (related species)
   family: Ganodermataceae
   zone: 6-11
   ideal_temp_min: 55
-  ideal_temp_max: 80
+  ideal_temp_max: 85
   min_temp: 10
   max_temp: 100
   perennial: true
   layers:
-  - Tree
+  - Fungal
   plant_function:
   - Medicinal
   - Mulcher
-  description: "Eastern reishi-type brackets are lacquered shelves on hardwoods and
-    roots — glossy cap, woody texture, perennial growth zones. Taxonomy is a moving
-    target; \"Ganoderma lucidum\" on American yard trees is often not what Asian
-    commerce sells. In subtropical and tropical Americas they appear on stressed oaks and other hardwoods;
-    the tree is usually telling you something about roots or heart rot. Harvest
-    ethics include not killing your grandmother's live oak for tea clout.\n\n☀️💧
-    Sun and Water:\n- Natural on trunks and stumps; partial shade typical.\n- Outdoor
-    cultivation uses buried logs or stumps in shade with long timelines.\n- Humidity
-    helps conk formation; dry yards produce sad little coasters.\n\n✂️ Propagation:\n-
-    Commercial kits and sawdust blocks for controlled production.\n- Landscape
-    inoculation is slow and site-specific — research strain and host."
+  description: "Eastern reishi is a lacquered bracket fungus on hardwoods and root
+    crowns — glossy, kidney-shaped, woody, with a distinctive red-to-orange varnished
+    cap. Taxonomy is genuinely messy: the Ganoderma lucidum sold in Asian commerce
+    is likely a different species than what grows on American oaks and maples; G.
+    sessile is the common eastern U.S. lacquered bracket. In subtropical Florida
+    they appear on stressed oaks, sweetgums, and other hardwoods — the tree is usually
+    signaling root rot or internal decay when a bracket shows up. Outdoor log cultivation
+    in shade with buried or stump-inoculated blocks is viable but slow. Sawdust blocks
+    indoors produce antler-form fruiting bodies in high-CO₂ conditions, classic
+    caps in fresh air — both are usable.\n\n☀️💧 Sun and Water:\n- Natural fruiting
+    on trunks and stumps in partial shade.\n- Outdoor cultivation uses buried hardwood
+    logs or stumps; long timelines (6-18 months before first flush).\n- Humidity
+    helps conk formation; dry Florida summers require irrigation pulses on outdoor
+    substrate.\n\n✂️ Propagation:\n- Sawdust blocks or supplemented hardwood substrate
+    for indoor production.\n- Outdoor burial of colonized logs or stump inoculation
+    for landscape integration.\n- Research strain-to-host match; not all Ganoderma
+    strains perform equally on all substrates."
   purpose: |-
-    Reishi hosts are medicine-tree drama in bracket form:
+    Reishi is a medicinal bracket fungus with deep traditional use in East Asian
+    medicine and a growing but often over-marketed Western supplement profile:
 
-    - Medicinal: Deep traditional roots; modern marketing frequently overshoots
-      the evidence.
-    - Mulcher: White-rot fungus recycling woody tissue whether you steep it or not.
+    - Medicinal: Traditional use for immune modulation and longevity is centuries
+      old; modern triterpenoid and beta-glucan research is substantive — the evidence
+      is real, the label claims frequently are not.
+    - Mulcher: White-rot fungus recycling woody tissue into the carbon cycle regardless
+      of whether you steep it or not.
+  substrate:
+  - Oak (primary outdoor)
+  - Maple
+  - Sweetgum
+  - Plum and other hardwood fruit trees
+  - Supplemented hardwood sawdust (indoor)
+  mycelium_type: White rot; saprobic and weakly parasitic on stressed hardwoods
+  fruiting_season: Late spring through fall outdoors in Florida; year-round indoors
+    with temperature management
+  cultivation_difficulty: Intermediate — sawdust blocks are manageable; outdoor
+    log cultivation requires patience and humidity management
+  spawn_type: Sawdust spawn or plug spawn for logs; grain spawn to supplemented
+    sawdust for indoor blocks
   companions:
   - Oak
   - Maple
-  - Hemlock
+  - Sweetgum
   cautions:
-  - None documented
+  - Ganoderma on a live landscape oak usually means root or trunk decay — consult
+    an arborist before the tree becomes a liability
+  - Do not harvest grandmother's oak for tea clout
   pests:
   - Borers
   - Root Rot
   practitioner_notes: |-
-    Dry aerial parts fast with airflow, not slow plastic bags—mold reads as ‘aged’ only in marketing copy.
-    Sharp tools and clean cuts beat torn stems; disease spores love frayed tissue more than rhetoric.
-    Weigh small test batches before scaling tinctures—solvent ratio mistakes are expensive at gallon ambition.
-    Notebook one weird year—weather anomalies repeat; memory lies, scribbles do not.
-  growth_habit: Perennial bracket on hardwoods and stumps
-  data_quality_score: 0.71
+    Antler forms in high CO₂, classic caps in fresh air — both are valid; shape
+    tells you about airflow, not potency.
+    Dry harvested conks quickly with strong airflow; slow drying in bags or humid
+    corners produces mold that looks like aging only in marketing copy.
+    Outdoor log inoculation is a 6-18 month patience exercise — inoculate fresh
+    logs in late winter, expect first flushes the following year or later.
+    A lacquered bracket on a live landscape tree is a decay signal; photograph it,
+    note the tree's structural condition, and do not pretend the fungus is decorating
+    a healthy sentinel.
+    Strain selection matters more than substrate perfection — buy from suppliers
+    who document fruiting performance, not just tradition.
+  growth_habit: Perennial lacquered bracket on hardwoods and root crowns
+  data_quality_score: 0.79
   # Image attribution: No image found
   # Image source: none

@@ -1,10 +1,11 @@
 ---
-- common_name: Wine Cap Substrate
+- common_name: Wine Cap
   picture: wine_cap.webp
   scientific_name: Stropharia rugosoannulata
   aka:
   - Garden Giant
   - King Stropharia
+  - Burgundy Mushroom
   family: Strophariaceae
   zone: 5-11
   ideal_temp_min: 50
@@ -13,43 +14,77 @@
   max_temp: 90
   perennial: true
   layers:
-  - Ground Cover
+  - Fungal
   plant_function:
   - Edible
   - Mulcher
   - Soil Improvement
-  description: "Wine caps are the extroverts of wood-chip beds — big burgundy caps,
-    a ring on the stipe, and a habit of running through straw, chips, and garden
-    paths like they pay rent. subtropical and tropical Americas works if you keep the bed moist through
-    dry weeks and replenish woody mulch as it breaks down. They are not a magic
-    slug eraser, but they are a legitimate outdoor protein crop that turns cardboard
-    aesthetics into dinner. Pair with woody debris under fruit trees; avoid eating
-    anything you have not keyed out.\n\n☀️💧 Sun and Water:\n- Part shade to dappled
-    sun; mulch caps soil temperature.\n- Steady moisture during colonization; deep
-    occasional soak beats constant sprinkle if drainage is good.\n- Fresh hardwood
-    chips and straw layers; anaerobic pits smell bad and grow regrets.\n\n✂️ Propagation:\n-
-    Spawn into fresh chip/straw beds; top-dress yearly with new woody material.\n-
-    Move bits of colonized substrate to new beds when active."
+  description: "Wine caps are the extroverts of the food forest floor — big burgundy-to-wine-red
+    caps, a skirt-like ring on the stipe, and a habit of threading through wood
+    chip paths and straw beds like they own the place. They are one of the most
+    beginner-friendly outdoor mushrooms for Florida growers: they tolerate heat
+    better than most temperate species, colonize fresh hardwood chips aggressively,
+    and fruit reliably after late summer and fall rain events when beds are established.
+    Placed under fruit trees they turn cardboard and chip aesthetics into a low-input
+    protein crop while the mycelium stitches the soil underneath. Identify before
+    you eat — young wine caps are distinctive, but gilled-mushroom ID discipline
+    still applies.\n\n☀️💧 Sun and Water:\n- Part shade to dappled sun; full afternoon
+    sun desiccates surface chips and kills fruiting.\n- Consistent moisture during
+    colonization; deep occasional soak beats constant light sprinkle if drainage
+    is good.\n- Fresh hardwood chips and straw layers; avoid bark nuggets and
+    anaerobic pits — both smell wrong and grow the wrong things.\n\n✂️ Propagation:\n-
+    Spawn into fresh hardwood chip or straw beds; top-dress yearly with new woody
+    material to sustain the patch.\n- Move handfuls of actively colonized white
+    substrate to new bed areas to extend coverage.\n- Patches become self-sustaining
+    under regularly refreshed mulch."
   purpose: |-
-    Wine cap substrate is path and guild mulch that happens to taste good:
+    Wine cap is mulch-bed infrastructure that produces food while improving the
+    soil underneath fruit trees and in garden paths:
 
-    - Edible: Choice when identified correctly; cook thoroughly like any wild mushroom.
-    - Mulcher: Accelerates breakdown of woody debris in place.
-    - Soil Improvement: Mycelium stitches organic matter into living soil.
+    - Edible: Choice edible with a mild, nutty flavor; cook thoroughly as with
+      any wild mushroom and confirm ID before the first harvest.
+    - Mulcher: Accelerates breakdown of woody debris in place; colonized chip beds
+      decompose faster and feed soil biology more efficiently than unchipped mulch.
+    - Soil Improvement: Mycelium physically stitches organic matter together and
+      exudes compounds that support bacterial and fungal communities in the root zone.
+  substrate:
+  - Fresh hardwood chips (primary — oak, sweetgum, fruit tree trimmings)
+  - Wheat straw
+  - Mixed straw and chip layers
+  - Cardboard as base layer under chips
+  mycelium_type: Saprobic; white rot on lignocellulosic material
+  fruiting_season: Fall through spring in Florida; peaks October through March
+    after rain events; summer heat slows fruiting but mycelium persists
+  cultivation_difficulty: Beginner — one of the most forgiving outdoor cultivation
+    species for subtropical climates
+  spawn_type: Chip bed spawn (grain or sawdust spawn mixed into fresh chips); colonized
+    substrate transfer for patch expansion
   companions:
   - Apple
   - Mulberry
+  - Fig
   - Comfrey
+  - Any fruit tree guild with chip mulch
   cautions:
-  - None documented
+  - Confirm wine-red to burgundy cap, white gills, and skirt ring before harvest;
+    do not eat any gilled mushroom without a full ID
   pests:
   - Slugs
   - Fungus Gnats
   practitioner_notes: |-
-    Fresh wood chips beat bark nuggets—size and moisture uniformity beats brand hype.
-    Spawn run likes cool—not frozen—basements beat hot sheds.
-    Identify before sautéing—only proceed when cap, gills, and ring match references.
-  growth_habit: Saprobic mushroom on woody mulch beds
-  data_quality_score: 0.78
+    Fresh hardwood chips beat bark nuggets and wood pellets — size uniformity,
+    moisture retention, and colonization speed all improve with proper chip material;
+    fresh-cut tree service chips are often free and ideal.
+    Top-dress beds every 6-12 months with new chips to sustain the patch; once
+    the existing substrate is fully digested, fruiting drops off and mycelium moves on.
+    Young buttons are best eating — as caps flatten and open, flavor sharpens and
+    shelf life shortens rapidly.
+    Moving colonized substrate is the fastest way to expand; a shovel of white,
+    rhizomorphic mycelium spread into a new bed gets a head start on contaminants.
+    Summer heat does not kill the patch — it just pauses fruiting; keep moisture
+    up and the mycelium will be ready when temperatures drop in fall.
+  growth_habit: Saprobic mushroom fruiting from wood chip and straw beds in partial
+    shade
+  data_quality_score: 0.85
   # Image attribution: No image found
   # Image source: none

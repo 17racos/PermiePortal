@@ -1,10 +1,10 @@
 ---
-- common_name: Cordyceps Host
+- common_name: Cordyceps
   picture: cordyceps.webp
   scientific_name: Cordyceps militaris
   aka:
-  - Orange Caterpillar Fungus (wild habit)
-  - Cultivated Cordyceps (grain/rice substrates)
+  - Orange Caterpillar Fungus
+  - Scarlet Club Fungus
   family: Cordycipitaceae
   zone: 5-11
   ideal_temp_min: 60
@@ -13,41 +13,65 @@
   max_temp: 85
   perennial: false
   layers:
-  - Herbaceous
+  - Fungal
   plant_function:
   - Edible
   - Medicinal
-  description: "Cordyceps is the poster child for weird fungal life cycles — wild
-    forms parasitize insects; cultivated Cordyceps militaris runs on sterile grain,
-    rice, or sawdust formulas in filtered-air rooms, not on your basil. subtropical and tropical Americas
-    outdoor \"hosts\" are not a beginner project unless you enjoy mold cosplay. If
-    you want fruiting bodies, buy cultures from people who know sterile technique
-    and expect lab-or-closet energy, not a back-porch trellis.\n\n☀️💧 Sun and Water:\n-
-    Indoor: indirect light or dark colonization phase depending on stage; follow
-    strain instructions.\n- High humidity for pinning, then dial back to reduce bacterial
-    slime.\n- Clean air and hygiene matter more than moon phases.\n\n✂️ Propagation:\n-
-    Liquid culture or agar to grain to fruiting substrate — not division like a
-    daylily.\n- Do not import wild insect mummies; that is how you get regrets."
+  description: "Cordyceps militaris is the cultivated species — not the cinematic
+    zombie-ant fungus (that is Ophiocordyceps unilateralis), though the genus earns
+    its reputation for strange life cycles. Wild C. militaris parasitizes moth and
+    butterfly pupae; cultivated production skips the insect entirely and runs on
+    sterile grain or rice substrate in filtered-air grow rooms. This is not a back-porch
+    trellis crop. Subtropical outdoor cultivation is not viable for consistent fruiting
+    bodies; if you want the orange clubs, buy cultures from experienced labs and
+    expect closet-to-tent energy, not garden bed simplicity.\n\n☀️💧 Sun and Water:\n-
+    Indoor cultivation: dark or indirect light during colonization, then introduce
+    diffuse light to trigger pinning.\n- High humidity (85-95%) for pinning; reduce
+    slightly during fruiting to limit bacterial contamination.\n- Fresh air exchange
+    is critical — CO₂ accumulation stalls clubs and encourages aborts.\n\n✂️ Propagation:\n-
+    Liquid culture or agar to grain spawn to fruiting substrate (rice, grain, or
+    silkworm pupae in commercial operations).\n- Do not attempt to transfer wild
+    insect mummies — contamination risk is high and results are not worth the cost."
   purpose: |-
-    Cordyceps host is really \"Cordyceps workflow\" — minus the Instagram mysticism:
+    Cordyceps is a specialty indoor cultivation project with genuine medicinal
+    interest if you separate tradition from supplement marketing:
 
-    - Edible: Cultivated militaris is used like other gourmet mushrooms when grown
-      cleanly.
-    - Medicinal: Wild hype exceeds most people's evidence folder; cultivated material
-      is at least consistent.
+    - Edible: Cultivated militaris produces fruiting bodies used in cooking; flavor
+      is mild and earthy.
+    - Medicinal: Traditional Tibetan and Chinese use is real; modern adaptogen claims
+      vary widely in quality — read clinical studies, not label copy.
+  substrate:
+  - Sterilized grain (brown rice, millet, wheat)
+  - Silkworm pupae (commercial operations)
+  - Sawdust/rice bran blend (advanced)
+  mycelium_type: Entomopathogenic parasite in nature; saprobic on sterilized grain
+    in cultivation
+  fruiting_season: Indoor year-round with controlled environment; 60-90 day grow
+    cycles
+  cultivation_difficulty: Advanced — requires sterile technique and environmental
+    controls
+  spawn_type: Liquid culture or grain spawn; agar transfers for genetics preservation
   companions:
   - None documented
   cautions:
-  - Open-field cultivation fantasies
+  - Open-air cultivation is not viable — contamination rates will be near 100%
+  - Do not confuse with Ophiocordyceps species; taxonomy has shifted significantly
   pests:
   - Fungus Gnats
   - Mites
   practitioner_notes: |-
-    Sterility is the whole job—open-air rice jars grow colorful mold, not commerce-grade fruiting bodies.
-    Larvae or grain spawn timing drives morphology—rushing pinning before full colonization yields stunted clubs.
-    CO₂ and humidity swing triggers pinning in tents—log parameters or you cannot repeat good flushes.
-    Gnat larvae chew mycelium in wet substrate—yellow sticky cards plus top-dry cycles beat drowning pots in kindness.
-  growth_habit: Entomopathogenic in nature; cultivated on sterile substrates
-  data_quality_score: 0.72
+    Sterility is the entire job — every shortcut in prep shows up as Trichoderma
+    or bacterial slime within a week.
+    Full grain colonization before fruiting conditions is non-negotiable; rushing
+    to pinning stage yields stunted, aborted clubs.
+    CO₂ management is the most common failure point in tents — fresh air exchange
+    beats humidity obsession every time.
+    Log fruiting parameters from every batch; small environmental variables compound
+    across cycles and you cannot fix what you did not track.
+    Yellow sticky cards plus top-dry substrate cycles beat drowning your jars in
+    misdirected kindness when gnats appear.
+  growth_habit: Entomopathogenic in nature; cultivated on sterilized grain substrates
+    indoors
+  data_quality_score: 0.77
   # Image attribution: No image found
   # Image source: none

@@ -1,10 +1,11 @@
 ---
-- common_name: Maitake Host
+- common_name: Maitake
   picture: maitake.webp
   scientific_name: Grifola frondosa
   aka:
   - Hen of the Woods
   - Sheep's Head
+  - Dancing Mushroom
   family: Meripilaceae
   zone: 4-9
   ideal_temp_min: 50
@@ -13,44 +14,72 @@
   max_temp: 90
   perennial: true
   layers:
-  - Tree
+  - Fungal
   plant_function:
   - Edible
   - Medicinal
   - Mulcher
-  description: "Maitake forms rosettes of overlapping caps at the base of living or
-    dying hardwoods — oaks are the headline host. It is a cool-weather fruiter that
-    shows up when nights drop; subtropical and tropical Americas gets fewer classic flushes than the
-    Appalachians, but oak-rich sites still produce after wet-cool snaps. Outdoor
-    cultivation attempts use buried stem butts or inoculated substrates at tree
-    bases; success is part science, part bribery to the mycelium gods. Wild harvest
-    demands rock-solid ID.\n\n☀️💧 Sun and Water:\n- Root-zone shade at tree bases;
-    mulch to buffer soil moisture.\n- Seasonal rains drive flushes; irrigation cannot
-    fully fake a cold autumn.\n- Avoid compacted, anaerobic soil around host roots.\n\n✂️
-✂️ Propagation:
-\n- Outdoor patches from commercial kits or stem-butt transfers
-      (experimental).\n- Protect colonized zones from foot traffic and mower abuse."
+  description: "Maitake forms overlapping rosettes of fan-shaped caps at the base
+    of living or dying hardwoods — oaks are the headline host, though beech and
+    maple also work. It is a cool-weather fruiter that shows up when nights drop
+    into the 50s; subtropical Florida gets fewer reliable flushes than the Appalachians
+    but oak-rich sites with wet-cool fall snaps do produce. The same tree may fruit
+    at its base year after year if left undisturbed. Outdoor cultivation attempts
+    use buried inoculated stem butts or commercial outdoor kits; success is real
+    but slower and less predictable than shiitake on logs. Wild harvest requires
+    confident ID — several base-fruiting polypores share the habitat.\n\n☀️💧 Sun
+    and Water:\n- Root-zone shade at tree bases; deep mulch buffers soil moisture
+    and moderates temperature.\n- Seasonal fall rains drive flushes; irrigation
+    pulses can help but cannot fully replace cool-night triggers.\n- Avoid soil
+    compaction around host tree roots — foot traffic and mowers are enemies.\n\n✂️
+    Propagation:\n- Outdoor patches from commercial kits or colonized stem-butt
+    transfers at oak bases.\n- Protect colonized zones from disturbance; mycelium
+    takes 1-3 years to establish before reliable fruiting."
   purpose: |-
-    Maitake host entries anchor oak-centered fungal yields:
+    Maitake anchors oak-centered fungal yields in temperate and mild-subtropical
+    food forest designs:
 
-    - Edible: Choice when fresh and confidently identified.
-    - Medicinal: Heavily marketed; keep your wallet and your skepticism aligned.
-    - Mulcher: Saprophytic/parasitic activity recycles woody root-zone carbon.
+    - Edible: Choice edible when fresh and confidently identified; earthy, rich
+      flavor that holds up to high heat.
+    - Medicinal: Beta-glucan research is genuinely interesting; commercial extract
+      quality varies wildly — keep expectations calibrated.
+    - Mulcher: Saprotrophic and weakly parasitic activity recycles woody root-zone
+      carbon back into the soil food web.
+  substrate:
+  - Oak (primary; living base and dead root zone)
+  - Beech
+  - Maple
+  - Elm
+  mycelium_type: White rot; weakly parasitic on stressed hardwoods
+  fruiting_season: Fall — after first cool nights and sustained rain; October through
+    December in Florida on good years
+  cultivation_difficulty: Intermediate to advanced outdoors; controlled indoor
+    cultivation is feasible but substrate requirements are demanding
+  spawn_type: Outdoor stem-butt or buried block inoculation; grain spawn for indoor
+    supplemented sawdust blocks
   companions:
   - Oak
   - Beech
   - Maple
   cautions:
-  - None documented
+  - Confirm ID carefully — other base-fruiting polypores share hardwood habitats
   pests:
   - Borers
   - Slugs
   practitioner_notes: |-
-    Overfertilized fast growth dilutes flavor and invites sap feeders—lean soil often tastes more like itself.
-    Weigh small test batches before scaling tinctures—solvent ratio mistakes are expensive at gallon ambition.
-    Sharp tools and clean cuts beat torn stems; disease spores love frayed tissue more than rhetoric.
-    Morning picks hold turgor; afternoon heat steals shelf life even if the cooler feels honest.
-  growth_habit: Polypore rosettes at hardwood bases
-  data_quality_score: 0.74
+    The same tree base that fruited last October will fruit again — mark locations
+    and check after the first sustained cool rain of fall rather than hoping to
+    stumble onto them.
+    Morning harvest holds moisture and texture; afternoon heat after a cool night
+    steals shelf life fast — bring a cooler if you are hiking to a spot.
+    Outdoor cultivation patches need 1-3 years before expecting reliable flushes;
+    do not disturb the colonized zone and do not mow over the root zone.
+    Indoor blocks require long colonization runs and cool fruiting triggers that
+    Florida kitchens do not naturally provide — a temperature-controlled space is
+    not optional here.
+    Trim base cleanly; leave the attached mycelial mat in place — it is the perennial
+    structure that drives future flushes.
+  growth_habit: Polypore rosettes at hardwood bases; perennial mycelium in root zone
+  data_quality_score: 0.80
   # Image attribution: No image found
   # Image source: none

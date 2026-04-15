@@ -9137,49 +9137,6 @@
     ]
   },
   {
-    "slug": "canopy-trees",
-    "common_name": "Canopy Trees",
-    "scientific_name": "Various spp.",
-    "aka": [
-      "Overstory",
-      "High Canopy Layer"
-    ],
-    "family": "Various",
-    "picture": "canopy_trees.webp",
-    "zone": "4-12",
-    "ideal_temp_min": 40,
-    "ideal_temp_max": 95,
-    "min_temp": -40,
-    "max_temp": 115,
-    "perennial": true,
-    "layers": [
-      "Canopy"
-    ],
-    "plant_function": [
-      "Shade Provider",
-      "Windbreaker",
-      "Wildlife Attractor",
-      "Timber"
-    ],
-    "description": "This is a design-layer cheat code, not one species. **Canopy trees** are the tall, long-term framework—oaks, pecans, mulberries, mangos, pines, sugar maples, depending on climate—whose crowns catch sun first and set the microclimate for everything below. In practice you might stack live oak, pecan, longleaf pine, sugarberry, or tropical fruit overstory depending on soil, fire history, and frost regime. The job is the same: shade, wind reduction, vertical structure, and habitat.\n\n☀️💧 Sun and Water Requirements:\n\nFull sun for the crown; roots need deep, uncompacted soil with reasonable drainage.\nIrrigation is for establishment—mature canopy species should not need a soaker hose life support plan.\n\n✂️ Propagation:\n\nN/A for the abstract layer—pick real species entries for seed, grafting, or transplant details. Here you are planning spacing, not germinating a concept tree.\n\n🌾 Harvest / Best Use Timing:\n\nN/A at the layer level—timber, mast, and fruit harvest follow each real species profile you plant.",
-    "purpose": "- Shade Provider: Sets light levels for understory fruit, shrubs, and ground covers.\n- Windbreaker: Buffers wind for tender plants and stabilizes field microclimate.\n- Wildlife Attractor: Houses birds, epiphytes, and canopy-linked habitat.\n- Timber: Supplies long-rotation wood where species and ethics match the plan—skip this layer and the system reads like a sunny vegetable lot with delusions.",
-    "practitioner_notes": "Mix species and ages so one pest or storm does not flatten the whole upper story—monoculture canopies are brittle design.\nMulch to the dripline, not against bark volcanoes—stem rot from “helpful” piles kills faster than borers some years.\nScaffold pruning on young trees beats storm surgery on mature ones—wide crotch angles now save chainsaw drama later.\nLearn each species’ root footprint before placing water lines and septic—what looks cute at five gallons becomes infrastructure at forty years.",
-    "companions": [
-      "Pawpaw",
-      "Elderberry",
-      "Beautyberry",
-      "Muscadine"
-    ],
-    "cautions": [
-      "Planting spindly understory directly under aggressive surface roots without plan"
-    ],
-    "pests": [
-      "Borers",
-      "Scale Insects",
-      "Caterpillars"
-    ]
-  },
-  {
     "slug": "carambola",
     "common_name": "Carambola",
     "scientific_name": "Averrhoa carambola",
@@ -10468,12 +10425,13 @@
     ]
   },
   {
-    "slug": "chaga-host",
-    "common_name": "Chaga Host",
+    "slug": "chaga",
+    "common_name": "Chaga",
     "scientific_name": "Inonotus obliquus",
     "aka": [
       "Birch Conk",
-      "Cinder Conk"
+      "Cinder Conk",
+      "Clinker Polypore"
     ],
     "family": "Hymenochaetaceae",
     "picture": "chaga.webp",
@@ -10484,21 +10442,23 @@
     "max_temp": 85,
     "perennial": true,
     "layers": [
-      "Tree"
+      "Fungal"
     ],
     "plant_function": [
+      "Edible",
       "Medicinal",
       "Mulcher"
     ],
-    "description": "Chaga is the cracked charcoal canker on birch bark — not a mushroom in the cap-and-stem sense but a sterile conk stage of Inonotus obliquus. It wants cold-climate birch forests; subtropical and tropical Americas is mostly the wrong movie. If you are here, you are either planning travel, mail-order tea, or experimenting up north. Harvesting from live public trees is a jerk move; sustainable practice matters because slow-growing conks tempt greed.\n\n☀️💧 Sun and Water:\n- Natural range tied to birch in cool, humid continental climates.\n- No honest outdoor substitute on local palms; manage expectations.\n- Cultivation research exists but is not backyard trivial.\n\n✂️ Propagation:\n- Essentially not a home propagation crop in the subtropics; buy from reputable growers if you want the tea arc.",
-    "purpose": "Chaga host entries exist so nobody plants river birch in Gainesville expecting\na conk:\n\n- Medicinal: Traditional northern use; subtropical FL is not the production\n  zone.\n- Mulcher: In its native range it is part of birch forest decay ecology.",
-    "practitioner_notes": "Chaga is tree stress signal, not a bonus crop on healthy stock—repeated harvesting wounds cambium and speeds decline.\nConfirm birch bark and sterile charcoal conk morphology before any use—mis-ID with other dark conks is not worth the tea trend.\nLeave some conks if you forage—complete stripping removes inoculum other wildlife and mycologists track.\nWinter harvest after several hard freezes is traditional timing—soft summer tissue bruises and spoils fast.",
+    "description": "Chaga is not a mushroom in the cap-and-stem sense — it is a sterile conk stage of Inonotus obliquus, erupting from birch bark as a cracked, charcoal-black mass with an orange-brown interior. It belongs to cold-climate birch forests and has no honest outdoor analog in subtropical Florida. If you are reading this in Jacksonville, you are planning a sourcing strategy, not a planting calendar. Wild harvest ethics matter here: slow-growing conks are easily overharvested, and stripping live public trees is bad form in any zip code.\n\n☀️💧 Sun and Water:\n- Native range is cool, humid continental climates tied to paper and yellow birch.\n- No subtropical substitute; river birch in FL will not produce meaningful conks.\n- Indoor cultivation research exists but is not backyard-accessible.\n\n✂️ Propagation:\n- Not a home propagation crop in the subtropics.\n- Source from reputable northern foragers or certified growers if you want the tea.\n- Inoculation of birch logs exists experimentally but requires years of colonization.",
+    "purpose": "Chaga is a cold-climate medicinal with deep traditional roots in Siberian and\nnorthern European folk medicine:\n\n- Edible: Prepared as a long-simmered decoction or tea; not eaten as a food\n  mushroom in the conventional sense.\n- Medicinal: Traditional use for immune support; modern research is active but\n  overhyped in supplement marketing — read primary sources.\n- Mulcher: In native range it is part of birch forest decay ecology; conks\n  signal internal rot, not a bonus crop on healthy stock.",
+    "practitioner_notes": "Chaga is a tree stress signal, not a bonus crop — a conk on a live birch means\ninternal rot is already underway; harvest ethically and sparingly.\nConfirm charcoal-black exterior and orange-brown interior before use — other\ndark conks exist and misidentification is not worth the trend.\nWinter harvest after hard freezes is traditional; summer tissue is soft and\nspoils quickly.\nLeave a portion of any conk you find — complete removal strips inoculum and\ncollapses local patch recovery.\nSource from certified northern foragers if you are in Florida; mail-order is\nthe honest path here.",
     "companions": [
       "Birch",
       "Alder"
     ],
     "cautions": [
-      "None documented"
+      "Not suitable for subtropical or tropical cultivation",
+      "Repeated conk harvesting from live trees accelerates host decline"
     ],
     "pests": [
       "Borers"
@@ -10999,15 +10959,16 @@
     ]
   },
   {
-    "slug": "chicken-of-the-woods-host",
-    "common_name": "Chicken of the Woods Host",
+    "slug": "chicken-of-the-woods",
+    "common_name": "Chicken of the Woods",
     "scientific_name": "Laetiporus sulphureus (species complex)",
     "aka": [
       "Sulphur Shelf",
-      "Chicken Mushroom"
+      "Chicken Mushroom",
+      "Crab of the Woods"
     ],
     "family": "Fomitopsidaceae",
-    "picture": "chicken_of_the_woods_host.webp",
+    "picture": "chicken_of_the_woods.webp",
     "zone": "4-11",
     "ideal_temp_min": 55,
     "ideal_temp_max": 80,
@@ -11015,23 +10976,25 @@
     "max_temp": 95,
     "perennial": true,
     "layers": [
-      "Tree"
+      "Fungal"
     ],
     "plant_function": [
       "Edible",
       "Mulcher",
       "Wildlife Attractor"
     ],
-    "description": "Chicken of the woods is the traffic-cone bracket fungus — overlapping shelves, often orange to yellow, growing on living or dead hardwoods (and sometimes other hosts depending on genetics and who's splitting species this decade). subtropical and tropical Americas has flushes after wet periods; always confirm host, age of specimen, and local look-alikes. Some people react badly even to \"safe\" species — first small taste still applies. The host tree is often already stressed; do not pretend the fungus is decorating a healthy sentinel.\n\n☀️💧 Sun and Water:\n- Natural fruiting on trunks and large limbs; partial sun to shade.\n- Rain cycles trigger growth; cannot be micro-managed like a tomato.\n- Keep vulnerable landscape trees pruned for structure if brackets signal internal decay.\n\n✂️ Propagation:\n- Mostly wild observation; cultivation on stumps or logs is experimental hobby territory.\n- Respect property and park rules before harvesting.",
-    "purpose": "Chicken of the woods hosts are living decay signals that sometimes feed you:\n\n- Edible: Popular when young, tender, and verified; cook thoroughly.\n- Mulcher: White-rot speeds wood recycling in the canopy.\n- Wildlife Attractor: Shelves feed insects and the things that eat them.",
-    "practitioner_notes": "Harvest young sulfur shelves with moist pores—dry chalky layers are past prime for the table.\nAvoid conifers and eucalyptus—Laetiporus on wrong hosts correlates with GI misery in many foragers’ logs.\nLeave older brackets to sporulate—strip-mining every log ends local patches faster than they rebuild.\nSofter wood hosts rot faster after heavy harvest—take half, photograph location, revisit next season instead of clearing the tree.",
+    "description": "Chicken of the woods is the traffic-cone bracket — overlapping shelves in electric orange and sulfur yellow fruiting from trunks and large limbs of hardwoods and occasionally conifers. It is one of the most visually distinctive edible fungi in North America; a confident ID is achievable even for beginners when the specimen is fresh and the host is confirmed. Florida has its own Laetiporus complex species (L. gilbertsonii and others) on oaks and other hosts; taxonomy in this group is still being resolved, but the practical harvest rules are the same. The host tree is often already stressed or dying when brackets appear; brackets signal internal decay, not decoration of a healthy tree. Some people react poorly even to properly prepared specimens — the 'small taste first' rule is not optional here.\n\n☀️💧 Sun and Water:\n- Natural fruiting on trunks and large limbs in sun to partial shade.\n- Rain cycles trigger growth; does not respond to micro-managed irrigation like a garden vegetable.\n- Cannot be reliably cultivated outdoors; wild observation and ethical harvest is the primary relationship.\n\n✂️ Propagation:\n- Stump or log inoculation with plug spawn is experimental and inconsistent — this is primarily a wild-harvest species.\n- Respect property rules and park regulations before harvesting from public lands.",
+    "purpose": "Chicken of the woods turns visible wood decay into a striking, unmistakable\nedible harvest:\n\n- Edible: Popular when young and tender with moist pore surface; texture\n  genuinely resembles cooked chicken; cook thoroughly and confirm host species\n  and individual reaction before committing to a large meal.\n- Mulcher: White-rot activity accelerates wood recycling in the canopy and\n  on fallen timber.\n- Wildlife Attractor: Bracket shelves feed insects, beetles, and the birds\n  that follow them.",
+    "practitioner_notes": "Harvest young brackets with moist, supple pore surfaces — the sulfur-yellow\nedge zone is the prize; dry, chalky, or crumbling margins are past their table\nprime and often bitter.\nConfirm host species before harvesting; oak and cherry are safe track records,\nconifers and eucalyptus are not — the tree tells you as much as the fungus.\nCook thoroughly every time; this species has a higher rate of reaction than\nmost common edibles even when properly prepared; small first tasting is not\novercaution.\nOlder brackets continue to sporulate and feed the ecosystem — strip-mining\nevery visible shelf ends local populations faster than they recover; take the\nyoung growth and leave the rest.\nA bracket at the base or on a limb of a live tree signals internal decay;\nphotograph the tree and monitor structural integrity rather than treating the\nfind as unrelated good luck.",
     "companions": [
       "Oak",
       "Cherry",
       "Willow"
     ],
     "cautions": [
-      "None documented"
+      "Avoid specimens on conifers, eucalyptus, or black locust — associated with GI reactions in a meaningful subset of foragers",
+      "Always cook thoroughly; raw consumption causes reactions even in tolerant individuals",
+      "First taste test applies even if you have eaten it before — individual responses vary by specimen, host, and preparation"
     ],
     "pests": [
       "Borers",
@@ -13256,12 +13219,12 @@
     ]
   },
   {
-    "slug": "cordyceps-host",
-    "common_name": "Cordyceps Host",
+    "slug": "cordyceps",
+    "common_name": "Cordyceps",
     "scientific_name": "Cordyceps militaris",
     "aka": [
-      "Orange Caterpillar Fungus (wild habit)",
-      "Cultivated Cordyceps (grain/rice substrates)"
+      "Orange Caterpillar Fungus",
+      "Scarlet Club Fungus"
     ],
     "family": "Cordycipitaceae",
     "picture": "cordyceps.webp",
@@ -13272,20 +13235,21 @@
     "max_temp": 85,
     "perennial": false,
     "layers": [
-      "Herbaceous"
+      "Fungal"
     ],
     "plant_function": [
       "Edible",
       "Medicinal"
     ],
-    "description": "Cordyceps is the poster child for weird fungal life cycles — wild forms parasitize insects; cultivated Cordyceps militaris runs on sterile grain, rice, or sawdust formulas in filtered-air rooms, not on your basil. subtropical and tropical Americas outdoor \"hosts\" are not a beginner project unless you enjoy mold cosplay. If you want fruiting bodies, buy cultures from people who know sterile technique and expect lab-or-closet energy, not a back-porch trellis.\n\n☀️💧 Sun and Water:\n- Indoor: indirect light or dark colonization phase depending on stage; follow strain instructions.\n- High humidity for pinning, then dial back to reduce bacterial slime.\n- Clean air and hygiene matter more than moon phases.\n\n✂️ Propagation:\n- Liquid culture or agar to grain to fruiting substrate — not division like a daylily.\n- Do not import wild insect mummies; that is how you get regrets.",
-    "purpose": "Cordyceps host is really \\\"Cordyceps workflow\\\" — minus the Instagram mysticism:\n\n- Edible: Cultivated militaris is used like other gourmet mushrooms when grown\n  cleanly.\n- Medicinal: Wild hype exceeds most people's evidence folder; cultivated material\n  is at least consistent.",
-    "practitioner_notes": "Sterility is the whole job—open-air rice jars grow colorful mold, not commerce-grade fruiting bodies.\nLarvae or grain spawn timing drives morphology—rushing pinning before full colonization yields stunted clubs.\nCO₂ and humidity swing triggers pinning in tents—log parameters or you cannot repeat good flushes.\nGnat larvae chew mycelium in wet substrate—yellow sticky cards plus top-dry cycles beat drowning pots in kindness.",
+    "description": "Cordyceps militaris is the cultivated species — not the cinematic zombie-ant fungus (that is Ophiocordyceps unilateralis), though the genus earns its reputation for strange life cycles. Wild C. militaris parasitizes moth and butterfly pupae; cultivated production skips the insect entirely and runs on sterile grain or rice substrate in filtered-air grow rooms. This is not a back-porch trellis crop. Subtropical outdoor cultivation is not viable for consistent fruiting bodies; if you want the orange clubs, buy cultures from experienced labs and expect closet-to-tent energy, not garden bed simplicity.\n\n☀️💧 Sun and Water:\n- Indoor cultivation: dark or indirect light during colonization, then introduce diffuse light to trigger pinning.\n- High humidity (85-95%) for pinning; reduce slightly during fruiting to limit bacterial contamination.\n- Fresh air exchange is critical — CO₂ accumulation stalls clubs and encourages aborts.\n\n✂️ Propagation:\n- Liquid culture or agar to grain spawn to fruiting substrate (rice, grain, or silkworm pupae in commercial operations).\n- Do not attempt to transfer wild insect mummies — contamination risk is high and results are not worth the cost.",
+    "purpose": "Cordyceps is a specialty indoor cultivation project with genuine medicinal\ninterest if you separate tradition from supplement marketing:\n\n- Edible: Cultivated militaris produces fruiting bodies used in cooking; flavor\n  is mild and earthy.\n- Medicinal: Traditional Tibetan and Chinese use is real; modern adaptogen claims\n  vary widely in quality — read clinical studies, not label copy.",
+    "practitioner_notes": "Sterility is the entire job — every shortcut in prep shows up as Trichoderma\nor bacterial slime within a week.\nFull grain colonization before fruiting conditions is non-negotiable; rushing\nto pinning stage yields stunted, aborted clubs.\nCO₂ management is the most common failure point in tents — fresh air exchange\nbeats humidity obsession every time.\nLog fruiting parameters from every batch; small environmental variables compound\nacross cycles and you cannot fix what you did not track.\nYellow sticky cards plus top-dry substrate cycles beat drowning your jars in\nmisdirected kindness when gnats appear.",
     "companions": [
       "None documented"
     ],
     "cautions": [
-      "Open-field cultivation fantasies"
+      "Open-air cultivation is not viable — contamination rates will be near 100%",
+      "Do not confuse with Ophiocordyceps species; taxonomy has shifted significantly"
     ],
     "pests": [
       "Fungus Gnats",
@@ -16244,49 +16208,6 @@
       "Red Palm Weevil",
       "Rhinoceros Beetle",
       "Scale Insects"
-    ]
-  },
-  {
-    "slug": "dynamic-accumulators",
-    "common_name": "Dynamic accumulators",
-    "scientific_name": "Various species (guild concept)",
-    "aka": [
-      "Nutrient miners",
-      "Chop-and-drop specialists"
-    ],
-    "family": "Various",
-    "picture": "dynamic_accumulators.webp",
-    "zone": "3-11",
-    "ideal_temp_min": 45,
-    "ideal_temp_max": 85,
-    "min_temp": -35,
-    "max_temp": 105,
-    "perennial": true,
-    "layers": [
-      "Herbaceous"
-    ],
-    "plant_function": [
-      "Dynamic Accumulator",
-      "Mulcher",
-      "Soil Improvement",
-      "Green Manure",
-      "Animal Fodder"
-    ],
-    "description": "This is not one plant flexing a Latin name — it is a guild idea: deep-rooted or fast-cycling species that pull minerals from subsoil or parent material and return them as leaf litter, tea, or compost. Classic examples include comfrey, yarrow, dandelion, and dock; your actual lineup depends on zone, ethics, and whether you are okay with aggressive spreaders. In humid food forests, pair accumulators with fruit trees and mulch circles, not with naive “set and forget” optimism.\n\n☀️💧 Sun and Water Requirements:\n\nVaries by species; most accumulators want full sun to partial shade.\nDeep moisture helps comfrey-class miners; taprooted weeds laugh at occasional drought once established.\nAvoid waterlogging-prone species on flat, saturated sites during long humid rainy spells unless the planting is elevated or drained.\n\n✂️ Propagation:\n\nSpecies-specific: root cuttings, seed, division — see each plant’s file (e.g. Comfrey).\nDesign move: plant downslope of fruit trees and cycle clippings uphill as mulch.\n\n🌾 Harvest / Best Use Timing:\n\nCut leafy biomass before flowering for maximum mulch quality (species-dependent).\nNever treat toxic species as feed without positive ID.",
-    "purpose": "- Dynamic Accumulator: Concentrates nutrients for redistribution via mulch/compost instead of buying bagged miracles.\n- Mulcher: Supplies regular biomass for soil cover.\n- Soil Improvement: Feeds fungi and bacteria through litter inputs.\n- Green Manure: Can be grown as seasonal biomass crops.\n- Animal Fodder: Some species (e.g. comfrey) are livestock supplements where appropriate.",
-    "practitioner_notes": "Watch the plant’s own signals first—catalog zone numbers do not replace your site’s microclimate truth.\nSoil smell and root color tell more than gadget overload—dig a small hole twice a season.\nSharp tools and clean cuts beat torn stems; disease spores love frayed tissue more than rhetoric.\nNotebook one weird year—weather anomalies repeat; memory lies, scribbles do not.",
-    "companions": [
-      "Apple",
-      "Pear",
-      "Citrus",
-      "Banana"
-    ],
-    "cautions": [
-      "Invasive species lists for your county"
-    ],
-    "pests": [
-      "Aphids",
-      "Slugs"
     ]
   },
   {
@@ -25747,12 +25668,13 @@
     ]
   },
   {
-    "slug": "lions-mane-host",
-    "common_name": "Lion's Mane Host",
+    "slug": "lions-mane",
+    "common_name": "Lion's Mane",
     "scientific_name": "Hericium erinaceus",
     "aka": [
       "Pom Pom Mushroom",
-      "Bearded Tooth"
+      "Bearded Tooth",
+      "Monkey Head Mushroom"
     ],
     "family": "Hericiaceae",
     "picture": "lions_mane.webp",
@@ -25763,16 +25685,16 @@
     "max_temp": 90,
     "perennial": true,
     "layers": [
-      "Tree"
+      "Fungal"
     ],
     "plant_function": [
       "Edible",
       "Medicinal",
       "Mulcher"
     ],
-    "description": "Lion's mane fruits as cascading white teeth from hardwood wounds and logs — beech and maple are classic, oak happens. It is also a flagship indoor kit mushroom, which is how most subtropical growers meet it. subtropical and tropical Americas outdoor finds are real but not guaranteed; log inoculation in shade mimics the cool, humid pockets it likes. Brain-health influencer posts are optional; delicious crab-substitute sautés are mandatory if you like fungi.\n\n☀️💧 Sun and Water:\n- Shade stacks and forest edge; avoid desiccating wind tunnels.\n- Logs need moisture retention without rot soup; vertical leaning helps drainage.\n- Indoor grows: watch CO2 and humidity; fresh air exchange beats slimy stagnation.\n\n✂️ Propagation:\n- Sawdust spawn or plug spawn into hardwood logs; wax holes.\n- Kit bags for fast indoor cycles; save genetics on clean agar if you are that person.",
-    "purpose": "Lion's mane hosts bridge gourmet plates and downed hardwood:\n\n- Edible: Texture and flavor win even if you skip the podcast claims.\n- Medicinal: Modern hype train; traditional East Asian use is real, extrapolation\n  is a contact sport.\n- Mulcher: White-rot work on deadwood in the system.",
-    "practitioner_notes": "Blanch or process within hours if you are freezing—enzymes keep chewing while paperwork waits.\nLabel jars with plant part and date the day you seal—future you is not psychic.\nNotebook one weird year—weather anomalies repeat; memory lies, scribbles do not.\nWeigh small test batches before scaling tinctures—solvent ratio mistakes are expensive at gallon ambition.",
+    "description": "Lion's mane fruits as a cascading mass of white spines from hardwood wounds, dead trunks, and log ends — beech and oak are classic hosts, maple works too. The fruiting body looks like nothing else in the forest; misidentification risk is very low, which makes it a good species for careful beginners. In subtropical Florida, outdoor log inoculation works in shaded, humid microclimates — north-facing lean-tos and canopy shade are your allies. Indoor kit grows are how most Florida growers meet this species and they are genuinely beginner-friendly. Brain health marketing is louder than the evidence, but the flavor — crab-like, meaty, sweet — needs no advertising.\n\n☀️💧 Sun and Water:\n- Shade stacks and forest edge; protect from desiccating wind and afternoon sun.\n- Logs need consistent moisture retention without waterlogging; vertical stacking improves drainage.\n- Indoor: high humidity (85-95%) at pinning, strong fresh air exchange to prevent long spiny teeth from balling up into blobs.\n\n✂️ Propagation:\n- Sawdust or plug spawn into fresh-cut hardwood logs; seal holes with cheese wax.\n- Supplemented sawdust blocks for indoor production.\n- Save clean genetics on agar if you find an exceptional wild strain.",
+    "purpose": "Lion's mane is one of the most distinctive edible fungi for home cultivation\nand wild harvest:\n\n- Edible: Flavor and texture are genuinely excellent — shreds like crab or\n  lobster when sautéed in butter; no hype required.\n- Medicinal: East Asian traditional use is real; modern NGF (nerve growth factor)\n  research is promising but early — keep claims honest.\n- Mulcher: White-rot saprobe accelerates deadwood breakdown in the system.",
+    "practitioner_notes": "Fresh air exchange is the most common failure point indoors — CO₂ buildup\ncauses the teeth to cluster into dense blobs instead of long cascading spines;\nfan intervals matter more than misting schedules.\nHarvest before yellowing — once tips go gold the flavor sharpens toward bitter\nand shelf life collapses quickly.\nOutdoor logs need shade that actual forecasts deliver, not shade you planned\nfor — move stacks if summer kills moisture retention.\nFirst-flush fruiting bodies are usually largest; subsequent flushes from the\nsame log taper in size but not necessarily flavor.\nSauté dry on high heat before adding fat — water release is substantial and\na wet pan steams instead of sears.",
     "companions": [
       "Beech",
       "Maple",
@@ -26689,12 +26611,13 @@
     ]
   },
   {
-    "slug": "maitake-host",
-    "common_name": "Maitake Host",
+    "slug": "maitake",
+    "common_name": "Maitake",
     "scientific_name": "Grifola frondosa",
     "aka": [
       "Hen of the Woods",
-      "Sheep's Head"
+      "Sheep's Head",
+      "Dancing Mushroom"
     ],
     "family": "Meripilaceae",
     "picture": "maitake.webp",
@@ -26705,23 +26628,23 @@
     "max_temp": 90,
     "perennial": true,
     "layers": [
-      "Tree"
+      "Fungal"
     ],
     "plant_function": [
       "Edible",
       "Medicinal",
       "Mulcher"
     ],
-    "description": "Maitake forms rosettes of overlapping caps at the base of living or dying hardwoods — oaks are the headline host. It is a cool-weather fruiter that shows up when nights drop; subtropical and tropical Americas gets fewer classic flushes than the Appalachians, but oak-rich sites still produce after wet-cool snaps. Outdoor cultivation attempts use buried stem butts or inoculated substrates at tree bases; success is part science, part bribery to the mycelium gods. Wild harvest demands rock-solid ID.\n\n☀️💧 Sun and Water:\n- Root-zone shade at tree bases; mulch to buffer soil moisture.\n- Seasonal rains drive flushes; irrigation cannot fully fake a cold autumn.\n- Avoid compacted, anaerobic soil around host roots.\n\n✂️ ✂️ Propagation: \n- Outdoor patches from commercial kits or stem-butt transfers (experimental).\n- Protect colonized zones from foot traffic and mower abuse.",
-    "purpose": "Maitake host entries anchor oak-centered fungal yields:\n\n- Edible: Choice when fresh and confidently identified.\n- Medicinal: Heavily marketed; keep your wallet and your skepticism aligned.\n- Mulcher: Saprophytic/parasitic activity recycles woody root-zone carbon.",
-    "practitioner_notes": "Overfertilized fast growth dilutes flavor and invites sap feeders—lean soil often tastes more like itself.\nWeigh small test batches before scaling tinctures—solvent ratio mistakes are expensive at gallon ambition.\nSharp tools and clean cuts beat torn stems; disease spores love frayed tissue more than rhetoric.\nMorning picks hold turgor; afternoon heat steals shelf life even if the cooler feels honest.",
+    "description": "Maitake forms overlapping rosettes of fan-shaped caps at the base of living or dying hardwoods — oaks are the headline host, though beech and maple also work. It is a cool-weather fruiter that shows up when nights drop into the 50s; subtropical Florida gets fewer reliable flushes than the Appalachians but oak-rich sites with wet-cool fall snaps do produce. The same tree may fruit at its base year after year if left undisturbed. Outdoor cultivation attempts use buried inoculated stem butts or commercial outdoor kits; success is real but slower and less predictable than shiitake on logs. Wild harvest requires confident ID — several base-fruiting polypores share the habitat.\n\n☀️💧 Sun and Water:\n- Root-zone shade at tree bases; deep mulch buffers soil moisture and moderates temperature.\n- Seasonal fall rains drive flushes; irrigation pulses can help but cannot fully replace cool-night triggers.\n- Avoid soil compaction around host tree roots — foot traffic and mowers are enemies.\n\n✂️ Propagation:\n- Outdoor patches from commercial kits or colonized stem-butt transfers at oak bases.\n- Protect colonized zones from disturbance; mycelium takes 1-3 years to establish before reliable fruiting.",
+    "purpose": "Maitake anchors oak-centered fungal yields in temperate and mild-subtropical\nfood forest designs:\n\n- Edible: Choice edible when fresh and confidently identified; earthy, rich\n  flavor that holds up to high heat.\n- Medicinal: Beta-glucan research is genuinely interesting; commercial extract\n  quality varies wildly — keep expectations calibrated.\n- Mulcher: Saprotrophic and weakly parasitic activity recycles woody root-zone\n  carbon back into the soil food web.",
+    "practitioner_notes": "The same tree base that fruited last October will fruit again — mark locations\nand check after the first sustained cool rain of fall rather than hoping to\nstumble onto them.\nMorning harvest holds moisture and texture; afternoon heat after a cool night\nsteals shelf life fast — bring a cooler if you are hiking to a spot.\nOutdoor cultivation patches need 1-3 years before expecting reliable flushes;\ndo not disturb the colonized zone and do not mow over the root zone.\nIndoor blocks require long colonization runs and cool fruiting triggers that\nFlorida kitchens do not naturally provide — a temperature-controlled space is\nnot optional here.\nTrim base cleanly; leave the attached mycelial mat in place — it is the perennial\nstructure that drives future flushes.",
     "companions": [
       "Oak",
       "Beech",
       "Maple"
     ],
     "cautions": [
-      "None documented"
+      "Confirm ID carefully — other base-fruiting polypores share hardwood habitats"
     ],
     "pests": [
       "Borers",
@@ -29412,49 +29335,6 @@
     ]
   },
   {
-    "slug": "mushroom-hosts",
-    "common_name": "Mushroom Hosts",
-    "scientific_name": "Agaricomycetes (wood-decay fungi on diverse substrates)",
-    "aka": [
-      "Log Culture",
-      "Stump Garden"
-    ],
-    "family": "Fungi (multiple families on hardwood and softwood)",
-    "picture": "mushroom_hosts.webp",
-    "zone": "8-11",
-    "ideal_temp_min": 50,
-    "ideal_temp_max": 75,
-    "min_temp": 20,
-    "max_temp": 95,
-    "perennial": true,
-    "layers": [
-      "Tree",
-      "Shrub"
-    ],
-    "plant_function": [
-      "Edible",
-      "Medicinal",
-      "Mulcher",
-      "Soil Improvement"
-    ],
-    "description": "This is not one species — it is the cheat sheet for where gourmet wood-decay fungi meet your food forest. Living trees, thinned trunks, stumps, hugelkultur bones, and hardwood chips are all fungal real estate; the trick is matching species to substrate and moisture. subtropical and tropical Americas's long warm season can speed colonization but also dry logs — shade, mulch skirts, and irrigation pulses beat crispy mycelium. Identify every fruit before you sauté; the PermieBro move is certainty, not bravado.\n\n☀️💧 Sun and Water:\n- Fruiting blocks and logs: indirect light or dappled shade; avoid baking afternoon sun on small stacks.\n- Substrate should stay moist like a wrung sponge, never anaerobic soup.\n- Airflow matters — stale pockets invite molds you did not invite.\n\n✂️ Propagation:\n- Plug spawn or sawdust spawn into fresh hardwood logs; wax holes.\n- Chip beds: layer woody mulch, inoculate, keep moist through colonization.\n- Stumps: drill-and-fill or natural colonization from nearby sources.",
-    "purpose": "Mushroom hosts turn wood and waste carbon into food and living soil:\n\n- Edible: Many choice species on logs, stumps, and chips once colonized.\n- Medicinal: Species-dependent; research the actual fungus, not the Pinterest\n  thumbnail.\n- Mulcher: Mycelium pre-digests lignin and feeds the soil food web.\n- Soil Improvement: Hyphal networks and spent substrate build structure and\n  biology.",
-    "practitioner_notes": "Substrate moisture bands matter more than hype—learn squeeze-test, not forum lore.\nPasteurization vs sterilization picks your competitor set—straw vs supplemented sawdust rules differ.\nSpores concentrate in still air—use a mask when drilling big fruiting blocks indoors.",
-    "companions": [
-      "Oak",
-      "Sweetgum",
-      "Elm"
-    ],
-    "cautions": [
-      "None documented"
-    ],
-    "pests": [
-      "Fungus Gnats",
-      "Slugs",
-      "Borers"
-    ]
-  },
-  {
     "slug": "mustang-grape",
     "common_name": "Mustang Grape",
     "scientific_name": "Vitis mustangensis",
@@ -30833,12 +30713,13 @@
     ]
   },
   {
-    "slug": "oyster-mushroom-host",
-    "common_name": "Oyster Mushroom Host",
+    "slug": "oyster-mushroom",
+    "common_name": "Oyster Mushroom",
     "scientific_name": "Pleurotus ostreatus",
     "aka": [
       "Pearl Oyster",
-      "Tree Oyster"
+      "Tree Oyster",
+      "Hiratake (Japanese)"
     ],
     "family": "Pleurotaceae",
     "picture": "oyster_mushroom.webp",
@@ -30849,7 +30730,7 @@
     "max_temp": 90,
     "perennial": true,
     "layers": [
-      "Tree"
+      "Fungal"
     ],
     "plant_function": [
       "Edible",
@@ -30857,16 +30738,16 @@
       "Mulcher",
       "Soil Improvement"
     ],
-    "description": "Oysters are the beginner's handshake with log culture — they grow on many hardwoods, colonize fast, and forgive a little clumsy technique. In subtropical and tropical Americas pick fresh-cut, living hardwood (oak, sweetgum, poplar types) and keep stacks off the ground on pallets or rails. Wet season humidity helps; dry season needs soaking pulses. They also run on straw and coffee grounds in buckets if you want urban mycopunk. Still: identify the flush; look-alikes exist in the wild.\n\n☀️💧 Sun and Water:\n- Shade to bright shade; avoid all-day sun on thin logs.\n- Soak or sprinkle logs to trigger fruiting; let them drain fully.\n- Bark intact slows drying; vertical or lean-to stacks balance moisture and air.\n\n✂️ ✂️ Propagation: \n- Plug, sawdust, or totem inoculation into green wood.\n- After harvest, rest logs; rotate soaking to time flushes with weather.",
-    "purpose": "Oyster mushroom hosts turn thinnings into meals:\n\n- Edible: Reliable outdoor crop on suitable hardwoods.\n- Medicinal: Popular in supplement hype; separate tradition from marketing.\n- Mulcher: Spent logs become hugel and pathway fill.\n- Soil Improvement: Mycelium exits the log into surrounding organic matter.",
-    "practitioner_notes": "Blanch or process within hours if you are freezing—enzymes keep chewing while paperwork waits.\nWeigh small test batches before scaling tinctures—solvent ratio mistakes are expensive at gallon ambition.\nSoil smell and root color tell more than gadget overload—dig a small hole twice a season.\nOverfertilized fast growth dilutes flavor and invites sap feeders—lean soil often tastes more like itself.",
+    "description": "Oyster mushrooms are the beginner's handshake with log culture — they colonize fast, tolerate a wider range of substrates than almost any other cultivated species, and forgive clumsy technique better than shiitake or lion's mane. In subtropical Florida, fresh-cut hardwoods (oak, sweetgum, alder, poplar-type species) inoculated with plug or sawdust spawn and kept in shade will produce within 6-12 months. They also run on straw, coffee grounds, cardboard, and supplemented sawdust blocks — the most substrate-flexible edible species for urban and small-scale growing. Multiple Pleurotus species exist (pink oyster P. djamor handles Florida heat better than standard P. ostreatus); match species to season. Wild flushes from dead hardwoods after rain are common and identifiable with care — gilled mushroom ID discipline still applies.\n\n☀️💧 Sun and Water:\n- Shade to bright shade on logs; thin logs in direct afternoon sun dry out and abort flushes.\n- Soak or sprinkle logs to trigger fruiting in dry periods; allow full drainage between soaks.\n- Bark-intact logs slow drying; vertical or lean-to stacking balances moisture and airflow.\n\n✂️ Propagation:\n- Plug, sawdust, or totem-style inoculation into green wood.\n- Grain to sawdust blocks for indoor or sheltered production.\n- After harvest, rest logs 4-8 weeks before re-soaking; rotate through a batch to stagger flushes.",
+    "purpose": "Oyster mushrooms turn hardwood thinnings, straw, and spent coffee into reliable\nprotein with almost no input:\n\n- Edible: One of the most widely cultivated mushrooms globally; mild flavor,\n  versatile kitchen use, and forgiving growing conditions make this the best\n  starting species for new cultivators.\n- Medicinal: Lovastatin content and beta-glucan research is real; the supplement\n  marketing gets well ahead of dose and bioavailability evidence — eat them\n  as food and let that be enough.\n- Mulcher: Spent logs and substrate break down and feed soil carbon after the\n  production cycle ends.\n- Soil Improvement: Mycelium exits the log into surrounding organic matter;\n  paths inoculated with spent substrate improve over time.",
+    "practitioner_notes": "Pink oyster (Pleurotus djamor) is the Florida summer species — standard P.\nostreatus sulks and aborts above 75°F; switch species, not technique.\nHarvest before caps fully flatten and edges begin to wave — velvety cap texture\nand firm, white gills are the window; past it, flavor sharpens and the caps\ndrop spores aggressively.\nSpore dumps from mature caps are white and heavy; harvest before this stage\nor you will be cleaning everything in a 10-foot radius.\nSoak trigger on outdoor logs: 12 hours submerged or equivalent sustained rain;\nexpect pins within 5-7 days in the right temperature range — if nothing pins\nin 10 days the log may need more rest or warmer weather.\nSpent blocks and logs are not waste — break them into paths, hugel fill, or\ncompost; the mycelium keeps working after the production cycle ends.",
     "companions": [
       "Oak",
       "Elm",
       "Alder"
     ],
     "cautions": [
-      "None documented"
+      "Confirm identity before harvest — wild Pleurotus is distinctive but a few tough, pale bracket fungi share hardwood habitat"
     ],
     "pests": [
       "Fungus Gnats",
@@ -35890,42 +35771,43 @@
     ]
   },
   {
-    "slug": "reishi-host",
-    "common_name": "Reishi Host",
-    "scientific_name": "Ganoderma sessile (eastern U.S. lacquered bracket; complex)",
+    "slug": "reishi",
+    "common_name": "Reishi",
+    "scientific_name": "Ganoderma sessile",
     "aka": [
-      "Lingzhi (traditional)",
-      "Varnish Shelf"
+      "Lingzhi",
+      "Varnish Shelf",
+      "Artist's Conk (related species)"
     ],
     "family": "Ganodermataceae",
     "picture": "reishi.webp",
     "zone": "6-11",
     "ideal_temp_min": 55,
-    "ideal_temp_max": 80,
+    "ideal_temp_max": 85,
     "min_temp": 10,
     "max_temp": 100,
     "perennial": true,
     "layers": [
-      "Tree"
+      "Fungal"
     ],
     "plant_function": [
       "Medicinal",
       "Mulcher"
     ],
-    "description": "Eastern reishi-type brackets are lacquered shelves on hardwoods and roots — glossy cap, woody texture, perennial growth zones. Taxonomy is a moving target; \"Ganoderma lucidum\" on American yard trees is often not what Asian commerce sells. In subtropical and tropical Americas they appear on stressed oaks and other hardwoods; the tree is usually telling you something about roots or heart rot. Harvest ethics include not killing your grandmother's live oak for tea clout.\n\n☀️💧 Sun and Water:\n- Natural on trunks and stumps; partial shade typical.\n- Outdoor cultivation uses buried logs or stumps in shade with long timelines.\n- Humidity helps conk formation; dry yards produce sad little coasters.\n\n✂️ Propagation:\n- Commercial kits and sawdust blocks for controlled production.\n- Landscape inoculation is slow and site-specific — research strain and host.",
-    "purpose": "Reishi hosts are medicine-tree drama in bracket form:\n\n- Medicinal: Deep traditional roots; modern marketing frequently overshoots\n  the evidence.\n- Mulcher: White-rot fungus recycling woody tissue whether you steep it or not.",
-    "practitioner_notes": "Dry aerial parts fast with airflow, not slow plastic bags—mold reads as ‘aged’ only in marketing copy.\nSharp tools and clean cuts beat torn stems; disease spores love frayed tissue more than rhetoric.\nWeigh small test batches before scaling tinctures—solvent ratio mistakes are expensive at gallon ambition.\nNotebook one weird year—weather anomalies repeat; memory lies, scribbles do not.",
+    "description": "Eastern reishi is a lacquered bracket fungus on hardwoods and root crowns — glossy, kidney-shaped, woody, with a distinctive red-to-orange varnished cap. Taxonomy is genuinely messy: the Ganoderma lucidum sold in Asian commerce is likely a different species than what grows on American oaks and maples; G. sessile is the common eastern U.S. lacquered bracket. In subtropical Florida they appear on stressed oaks, sweetgums, and other hardwoods — the tree is usually signaling root rot or internal decay when a bracket shows up. Outdoor log cultivation in shade with buried or stump-inoculated blocks is viable but slow. Sawdust blocks indoors produce antler-form fruiting bodies in high-CO₂ conditions, classic caps in fresh air — both are usable.\n\n☀️💧 Sun and Water:\n- Natural fruiting on trunks and stumps in partial shade.\n- Outdoor cultivation uses buried hardwood logs or stumps; long timelines (6-18 months before first flush).\n- Humidity helps conk formation; dry Florida summers require irrigation pulses on outdoor substrate.\n\n✂️ Propagation:\n- Sawdust blocks or supplemented hardwood substrate for indoor production.\n- Outdoor burial of colonized logs or stump inoculation for landscape integration.\n- Research strain-to-host match; not all Ganoderma strains perform equally on all substrates.",
+    "purpose": "Reishi is a medicinal bracket fungus with deep traditional use in East Asian\nmedicine and a growing but often over-marketed Western supplement profile:\n\n- Medicinal: Traditional use for immune modulation and longevity is centuries\n  old; modern triterpenoid and beta-glucan research is substantive — the evidence\n  is real, the label claims frequently are not.\n- Mulcher: White-rot fungus recycling woody tissue into the carbon cycle regardless\n  of whether you steep it or not.",
+    "practitioner_notes": "Antler forms in high CO₂, classic caps in fresh air — both are valid; shape\ntells you about airflow, not potency.\nDry harvested conks quickly with strong airflow; slow drying in bags or humid\ncorners produces mold that looks like aging only in marketing copy.\nOutdoor log inoculation is a 6-18 month patience exercise — inoculate fresh\nlogs in late winter, expect first flushes the following year or later.\nA lacquered bracket on a live landscape tree is a decay signal; photograph it,\nnote the tree's structural condition, and do not pretend the fungus is decorating\na healthy sentinel.\nStrain selection matters more than substrate perfection — buy from suppliers\nwho document fruiting performance, not just tradition.",
     "companions": [
       "Oak",
       "Maple",
-      "Hemlock"
+      "Sweetgum"
     ],
     "cautions": [
-      "None documented"
+      "Ganoderma on a live landscape oak usually means root or trunk decay — consult an arborist before the tree becomes a liability",
+      "Do not harvest grandmother's oak for tea clout"
     ],
     "pests": [
-      "Borers",
-      "Root Rot"
+      "Borers"
     ]
   },
   {
@@ -39911,12 +39793,13 @@
     ]
   },
   {
-    "slug": "shiitake-oak",
-    "common_name": "Shiitake Oak",
+    "slug": "shiitake",
+    "common_name": "Shiitake",
     "scientific_name": "Lentinula edodes",
     "aka": [
       "Shii Take (Japanese)",
-      "Oak Shiitake"
+      "Black Forest Mushroom",
+      "Chinese Black Mushroom"
     ],
     "family": "Omphalotaceae",
     "picture": "shiitake.webp",
@@ -39927,24 +39810,24 @@
     "max_temp": 95,
     "perennial": true,
     "layers": [
-      "Tree"
+      "Fungal"
     ],
     "plant_function": [
       "Edible",
       "Medicinal",
-      "Timber",
       "Mulcher"
     ],
-    "description": "Shiitake and oak are the classic marriage — dense wood, slow decay, years of flushes if you keep the marriage counseling (soak schedules) consistent. subtropical and tropical Americas oaks and sweetgum-class hardwoods work when logs are fresh and bark is sound. Warm winters can shorten storage life of logs; prioritize shade, airflow, and off-ground stacking. Strains differ: some like it hotter, some sulk; buy spawn matched to your climate ego.\n\n☀️💧 Sun and Water:\n- Full shade under canopy or north-facing lean-to.\n- Shock-soak or long rain to initiate pinning; never leave logs waterlogged for weeks.\n- End-sealing or waxing big cuts reduces cracking in sun-baked yards.\n\n✂️ Propagation:\n- Drill-and-fill with sawdust or plug spawn on green hardwood.\n- Force fruiting on a subset of logs while others rest.",
-    "purpose": "Shiitake oak turns low-grade thinnings into a long-season protein trickle:\n\n- Edible: One of the most recognized cultivated mushrooms worldwide.\n- Medicinal: Long traditional use; modern claims need the side-eye they deserve.\n- Timber: The tree still yields wood while thinnings feed the myco stack.\n- Mulcher: Spent logs feed soil carbon when retired.",
-    "practitioner_notes": "Harvest texture changes faster than color—nip one sample before you commit the whole row to a pick date.\nDry aerial parts fast with airflow, not slow plastic bags—mold reads as ‘aged’ only in marketing copy.\nWatch the plant’s own signals first—catalog zone numbers do not replace your site’s microclimate truth.\nBlanch or process within hours if you are freezing—enzymes keep chewing while paperwork waits.",
+    "description": "Shiitake on logs is the entry point for serious food forest fungal production — dense hardwood, slow colonization, years of flushes if you manage the soak schedule and keep logs in honest shade. In subtropical Florida, live oaks, water oaks, and sweetgum all work when logs are cut fresh with bark intact. Warm winters shorten log storage life; shade, airflow, and off-ground stacking on pallets or rails are not optional aesthetics, they are the production system. Strain selection matters: warm-weather strains (WW designations) handle Florida summers significantly better than standard temperate strains, which sulk and abort above 80°F. The flavor of a log-grown shiitake — earthy, rich, slightly smoky when dried — has no indoor bag equivalent.\n\n☀️💧 Sun and Water:\n- Deep shade under canopy or north-facing lean-to; afternoon sun on thin Florida logs is a death sentence.\n- Shock-soaking (12-24 hr submersion) or heavy sustained rain triggers pinning; do not leave logs waterlogged for extended periods.\n- End-sealing or waxing cut ends reduces cracking in dry seasons.\n\n✂️ Propagation:\n- Drill-and-fill with sawdust or plug spawn into freshly cut green hardwood (within a few weeks of cutting).\n- Cycle logs: soak a subset while others rest; stagger inoculation dates to distribute flushes across the season.",
+    "purpose": "Shiitake turns low-grade hardwood thinnings into one of the most recognized\nedible mushrooms in the world:\n\n- Edible: Consistent, reliable, and deeply flavorful; fresh or dried, one\n  of the most versatile gourmet mushrooms in the kitchen.\n- Medicinal: Traditional East Asian use for immune support; lentinan research\n  is among the most substantive in medicinal mushroom science — the marketing\n  still gets ahead of the data, but the foundation is real.\n- Mulcher: Spent logs after several seasons of production transition into\n  hugel fill, path material, and soil carbon.",
+    "practitioner_notes": "Strain selection is the most important single decision for Florida growers —\nwarm-weather strains (WW strains from suppliers like Field & Forest or Fungi\nPerfecti) handle the heat that kills standard temperate strains; buy for your\nclimate, not the catalog photo.\nShock-soaking triggers flushes — submerge logs for 12-24 hours in cold water,\nthen stand upright in a humid shaded area; most logs flush within 7-10 days.\nHarvest by texture and veil: pick when the veil under the cap is still intact\nor just beginning to tear; fully open flat caps are past peak flavor and shelf\nlife drops sharply.\nDry at low heat (95-105°F) with strong airflow rather than dehydrating hot and\nfast — slow drying concentrates flavor and produces the glossy dried shiitake\nthat rehydrates cleanly.\nLog production runs 3-5 years; stagger inoculation across multiple seasons\nso you always have logs in different production stages and never face a gap year.",
     "companions": [
       "Oak",
       "Hickory",
       "Sweetgum"
     ],
     "cautions": [
-      "None documented"
+      "None documented for properly prepared specimens",
+      "Rare shiitake dermatitis reaction exists from raw or undercooked consumption — cook thoroughly"
     ],
     "pests": [
       "Borers",
@@ -46012,12 +45895,13 @@
     ]
   },
   {
-    "slug": "turkey-tail-host",
-    "common_name": "Turkey Tail Host",
+    "slug": "turkey-tail",
+    "common_name": "Turkey Tail",
     "scientific_name": "Trametes versicolor",
     "aka": [
       "Many-Zoned Polypore",
-      "Coriolus versicolor (synonym in older books)"
+      "Coriolus versicolor (older synonym)",
+      "Yunzhi (Chinese)"
     ],
     "family": "Polyporaceae",
     "picture": "turkey_tail.webp",
@@ -46028,23 +45912,23 @@
     "max_temp": 100,
     "perennial": true,
     "layers": [
-      "Tree"
+      "Fungal"
     ],
     "plant_function": [
       "Medicinal",
       "Mulcher",
       "Soil Improvement"
     ],
-    "description": "Turkey tail is the rainbow paper fan on dead sticks — thin, flexible brackets with concentric zones. It is everywhere there is rotting hardwood, including subtropical and tropical Americas's humid woodlands. Not a big edible texture winner (tough), but a famous decoction mushroom; quality and adulteration in commerce are their own rabbit hole. Ecologically it is a workhorse decomposer prepping carbon for soil life.\n\n☀️💧 Sun and Water:\n- Naturally on shaded logs, stumps, and branches.\n- Moisture from environment; outdoor cultivation uses inoculated logs like other polypores.\n- Good airflow reduces mold competitors on thin brackets.\n\n✂️ Propagation:\n- Plug logs or bury inoculated blocks near woody debris pathways.\n- Species ID matters — Trametes versicolor has a smooth pore surface when young; verify with a key.",
-    "purpose": "Turkey tail hosts are decomposition infrastructure with a tea habit:\n\n- Medicinal: Long traditional use; modern extracts vary wildly in honesty.\n- Mulcher: Breaks lignin and prepares woody carbon for humus.\n- Soil Improvement: Feeds the belowground network as wood softens.",
-    "practitioner_notes": "Label jars with plant part and date the day you seal—future you is not psychic.\nSoil smell and root color tell more than gadget overload—dig a small hole twice a season.\nDry aerial parts fast with airflow, not slow plastic bags—mold reads as ‘aged’ only in marketing copy.\nWeigh small test batches before scaling tinctures—solvent ratio mistakes are expensive at gallon ambition.",
+    "description": "Turkey tail is the rainbow paper fan you have definitely already seen on a dead log — thin, flexible, leathery brackets with concentric color zones ranging from cream to rust to dark brown, always with a white pore surface underneath. It is one of the most common wood-decay fungi in the world and thrives in Florida's humid woodlands on any dead hardwood it can find. Not a standout edible texture-wise (tough and papery), but it is among the most researched medicinal mushrooms — PSK (krestin) and PSP extracts from Trametes versicolor have been studied in cancer adjunct therapy in Asia for decades. Ecologically it punches above its weight as a lignin breaker, preparing woody carbon for the soil food web.\n\n☀️💧 Sun and Water:\n- Naturally on shaded logs, stumps, fallen branches, and forest edge debris.\n- Outdoor log cultivation uses plug or sawdust spawn like other polypores; moisture from environment and rain.\n- Good airflow matters — competing molds colonize thin brackets faster than thick species if stagnant air and excess moisture combine.\n\n✂️ Propagation:\n- Plug or sawdust spawn into fresh-cut hardwood logs; inoculate within a few weeks of cutting.\n- Bury inoculated blocks near woody debris pathways for naturalized patches.\n- Locally collected wild specimens can be cloned to agar if you want regional genetics.",
+    "purpose": "Turkey tail is decomposition infrastructure that doubles as a medicinal\nharvest and soil-building tool:\n\n- Medicinal: PSK and PSP polysaccharide research is among the most substantive\n  of any medicinal mushroom — still read primary sources; commercial extract\n  quality varies wildly.\n- Mulcher: Aggressive white-rot breaks lignin and prepares woody carbon for\n  humus formation faster than most competitors.\n- Soil Improvement: Hyphal networks extend into surrounding organic matter,\n  feeding the soil food web as wood softens.",
+    "practitioner_notes": "Identification key: flip the bracket and look for the pore surface — true turkey\ntail has tiny white pores; Stereum and other false turkey tails have a smooth\nunderside and are not the same thing.\nWild harvest is viable in Florida year-round but post-flush specimens are\nbest — fresh, actively growing brackets with white pore surfaces; old bleached\nones have lost most of what you wanted.\nDry quickly at low heat or with strong airflow after harvest; moisture in storage\nis where quality goes to die.\nLog inoculation in shade plus natural debris piles in the food forest is the\nlow-effort path — this species wants to grow here; your main job is not to\nobstruct it.\nCommercial extract quality is inconsistent; if sourcing for medicinal use,\nlook for hot-water or dual extraction and verified species — not \"mushroom\nblend\" blends that are mostly myceliated grain.",
     "companions": [
       "Oak",
       "Sweetgum",
       "Willow"
     ],
     "cautions": [
-      "None documented"
+      "Confirm smooth white pore surface when young — several look-alikes exist; Stereum spp. and false turkey tails lack pores entirely"
     ],
     "pests": [
       "Fungus Gnats"
@@ -49871,12 +49755,13 @@
     ]
   },
   {
-    "slug": "wine-cap-substrate",
-    "common_name": "Wine Cap Substrate",
+    "slug": "wine-cap",
+    "common_name": "Wine Cap",
     "scientific_name": "Stropharia rugosoannulata",
     "aka": [
       "Garden Giant",
-      "King Stropharia"
+      "King Stropharia",
+      "Burgundy Mushroom"
     ],
     "family": "Strophariaceae",
     "picture": "wine_cap.webp",
@@ -49887,23 +49772,25 @@
     "max_temp": 90,
     "perennial": true,
     "layers": [
-      "Ground Cover"
+      "Fungal"
     ],
     "plant_function": [
       "Edible",
       "Mulcher",
       "Soil Improvement"
     ],
-    "description": "Wine caps are the extroverts of wood-chip beds — big burgundy caps, a ring on the stipe, and a habit of running through straw, chips, and garden paths like they pay rent. subtropical and tropical Americas works if you keep the bed moist through dry weeks and replenish woody mulch as it breaks down. They are not a magic slug eraser, but they are a legitimate outdoor protein crop that turns cardboard aesthetics into dinner. Pair with woody debris under fruit trees; avoid eating anything you have not keyed out.\n\n☀️💧 Sun and Water:\n- Part shade to dappled sun; mulch caps soil temperature.\n- Steady moisture during colonization; deep occasional soak beats constant sprinkle if drainage is good.\n- Fresh hardwood chips and straw layers; anaerobic pits smell bad and grow regrets.\n\n✂️ Propagation:\n- Spawn into fresh chip/straw beds; top-dress yearly with new woody material.\n- Move bits of colonized substrate to new beds when active.",
-    "purpose": "Wine cap substrate is path and guild mulch that happens to taste good:\n\n- Edible: Choice when identified correctly; cook thoroughly like any wild mushroom.\n- Mulcher: Accelerates breakdown of woody debris in place.\n- Soil Improvement: Mycelium stitches organic matter into living soil.",
-    "practitioner_notes": "Fresh wood chips beat bark nuggets—size and moisture uniformity beats brand hype.\nSpawn run likes cool—not frozen—basements beat hot sheds.\nIdentify before sautéing—only proceed when cap, gills, and ring match references.",
+    "description": "Wine caps are the extroverts of the food forest floor — big burgundy-to-wine-red caps, a skirt-like ring on the stipe, and a habit of threading through wood chip paths and straw beds like they own the place. They are one of the most beginner-friendly outdoor mushrooms for Florida growers: they tolerate heat better than most temperate species, colonize fresh hardwood chips aggressively, and fruit reliably after late summer and fall rain events when beds are established. Placed under fruit trees they turn cardboard and chip aesthetics into a low-input protein crop while the mycelium stitches the soil underneath. Identify before you eat — young wine caps are distinctive, but gilled-mushroom ID discipline still applies.\n\n☀️💧 Sun and Water:\n- Part shade to dappled sun; full afternoon sun desiccates surface chips and kills fruiting.\n- Consistent moisture during colonization; deep occasional soak beats constant light sprinkle if drainage is good.\n- Fresh hardwood chips and straw layers; avoid bark nuggets and anaerobic pits — both smell wrong and grow the wrong things.\n\n✂️ Propagation:\n- Spawn into fresh hardwood chip or straw beds; top-dress yearly with new woody material to sustain the patch.\n- Move handfuls of actively colonized white substrate to new bed areas to extend coverage.\n- Patches become self-sustaining under regularly refreshed mulch.",
+    "purpose": "Wine cap is mulch-bed infrastructure that produces food while improving the\nsoil underneath fruit trees and in garden paths:\n\n- Edible: Choice edible with a mild, nutty flavor; cook thoroughly as with\n  any wild mushroom and confirm ID before the first harvest.\n- Mulcher: Accelerates breakdown of woody debris in place; colonized chip beds\n  decompose faster and feed soil biology more efficiently than unchipped mulch.\n- Soil Improvement: Mycelium physically stitches organic matter together and\n  exudes compounds that support bacterial and fungal communities in the root zone.",
+    "practitioner_notes": "Fresh hardwood chips beat bark nuggets and wood pellets — size uniformity,\nmoisture retention, and colonization speed all improve with proper chip material;\nfresh-cut tree service chips are often free and ideal.\nTop-dress beds every 6-12 months with new chips to sustain the patch; once\nthe existing substrate is fully digested, fruiting drops off and mycelium moves on.\nYoung buttons are best eating — as caps flatten and open, flavor sharpens and\nshelf life shortens rapidly.\nMoving colonized substrate is the fastest way to expand; a shovel of white,\nrhizomorphic mycelium spread into a new bed gets a head start on contaminants.\nSummer heat does not kill the patch — it just pauses fruiting; keep moisture\nup and the mycelium will be ready when temperatures drop in fall.",
     "companions": [
       "Apple",
       "Mulberry",
-      "Comfrey"
+      "Fig",
+      "Comfrey",
+      "Any fruit tree guild with chip mulch"
     ],
     "cautions": [
-      "None documented"
+      "Confirm wine-red to burgundy cap, white gills, and skirt ring before harvest; do not eat any gilled mushroom without a full ID"
     ],
     "pests": [
       "Slugs",

@@ -1,10 +1,11 @@
 ---
-- common_name: Lion's Mane Host
+- common_name: Lion's Mane
   picture: lions_mane.webp
   scientific_name: Hericium erinaceus
   aka:
   - Pom Pom Mushroom
   - Bearded Tooth
+  - Monkey Head Mushroom
   family: Hericiaceae
   zone: 4-9
   ideal_temp_min: 50
@@ -13,29 +14,49 @@
   max_temp: 90
   perennial: true
   layers:
-  - Tree
+  - Fungal
   plant_function:
   - Edible
   - Medicinal
   - Mulcher
-  description: "Lion's mane fruits as cascading white teeth from hardwood wounds
-    and logs — beech and maple are classic, oak happens. It is also a flagship indoor
-    kit mushroom, which is how most subtropical growers meet it. subtropical and tropical Americas outdoor
-    finds are real but not guaranteed; log inoculation in shade mimics the cool,
-    humid pockets it likes. Brain-health influencer posts are optional; delicious
-    crab-substitute sautés are mandatory if you like fungi.\n\n☀️💧 Sun and Water:\n-
-    Shade stacks and forest edge; avoid desiccating wind tunnels.\n- Logs need moisture
-    retention without rot soup; vertical leaning helps drainage.\n- Indoor grows:
-    watch CO2 and humidity; fresh air exchange beats slimy stagnation.\n\n✂️ Propagation:\n-
-    Sawdust spawn or plug spawn into hardwood logs; wax holes.\n- Kit bags for fast
-    indoor cycles; save genetics on clean agar if you are that person."
+  description: "Lion's mane fruits as a cascading mass of white spines from hardwood
+    wounds, dead trunks, and log ends — beech and oak are classic hosts, maple
+    works too. The fruiting body looks like nothing else in the forest; misidentification
+    risk is very low, which makes it a good species for careful beginners. In subtropical
+    Florida, outdoor log inoculation works in shaded, humid microclimates — north-facing
+    lean-tos and canopy shade are your allies. Indoor kit grows are how most Florida
+    growers meet this species and they are genuinely beginner-friendly. Brain health
+    marketing is louder than the evidence, but the flavor — crab-like, meaty, sweet
+    — needs no advertising.\n\n☀️💧 Sun and Water:\n- Shade stacks and forest edge;
+    protect from desiccating wind and afternoon sun.\n- Logs need consistent moisture
+    retention without waterlogging; vertical stacking improves drainage.\n- Indoor:
+    high humidity (85-95%) at pinning, strong fresh air exchange to prevent long
+    spiny teeth from balling up into blobs.\n\n✂️ Propagation:\n- Sawdust or plug
+    spawn into fresh-cut hardwood logs; seal holes with cheese wax.\n- Supplemented
+    sawdust blocks for indoor production.\n- Save clean genetics on agar if you find
+    an exceptional wild strain."
   purpose: |-
-    Lion's mane hosts bridge gourmet plates and downed hardwood:
+    Lion's mane is one of the most distinctive edible fungi for home cultivation
+    and wild harvest:
 
-    - Edible: Texture and flavor win even if you skip the podcast claims.
-    - Medicinal: Modern hype train; traditional East Asian use is real, extrapolation
-      is a contact sport.
-    - Mulcher: White-rot work on deadwood in the system.
+    - Edible: Flavor and texture are genuinely excellent — shreds like crab or
+      lobster when sautéed in butter; no hype required.
+    - Medicinal: East Asian traditional use is real; modern NGF (nerve growth factor)
+      research is promising but early — keep claims honest.
+    - Mulcher: White-rot saprobe accelerates deadwood breakdown in the system.
+  substrate:
+  - Oak (primary outdoor)
+  - Beech (primary outdoor)
+  - Maple
+  - Supplemented hardwood sawdust (indoor)
+  - Sterilized straw/hardwood blend (indoor)
+  mycelium_type: White rot saprobe
+  fruiting_season: Fall through early spring outdoors; year-round indoors with
+    temperature control
+  cultivation_difficulty: Beginner to intermediate — kits are very forgiving; log
+    inoculation requires shade management in subtropical climates
+  spawn_type: Plug spawn or sawdust spawn for logs; grain or sawdust spawn for indoor
+    blocks; liquid culture for cloning
   companions:
   - Beech
   - Maple
@@ -46,11 +67,18 @@
   - Fungus Gnats
   - Slugs
   practitioner_notes: |-
-    Blanch or process within hours if you are freezing—enzymes keep chewing while paperwork waits.
-    Label jars with plant part and date the day you seal—future you is not psychic.
-    Notebook one weird year—weather anomalies repeat; memory lies, scribbles do not.
-    Weigh small test batches before scaling tinctures—solvent ratio mistakes are expensive at gallon ambition.
-  growth_habit: Toothed saprobic fungus on hardwood
-  data_quality_score: 0.79
+    Fresh air exchange is the most common failure point indoors — CO₂ buildup
+    causes the teeth to cluster into dense blobs instead of long cascading spines;
+    fan intervals matter more than misting schedules.
+    Harvest before yellowing — once tips go gold the flavor sharpens toward bitter
+    and shelf life collapses quickly.
+    Outdoor logs need shade that actual forecasts deliver, not shade you planned
+    for — move stacks if summer kills moisture retention.
+    First-flush fruiting bodies are usually largest; subsequent flushes from the
+    same log taper in size but not necessarily flavor.
+    Sauté dry on high heat before adding fat — water release is substantial and
+    a wet pan steams instead of sears.
+  growth_habit: Toothed saprobic fungus on hardwood wounds and logs
+  data_quality_score: 0.84
   # Image attribution: No image found
   # Image source: none

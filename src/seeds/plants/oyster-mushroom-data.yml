@@ -1,10 +1,11 @@
 ---
-- common_name: Oyster Mushroom Host
+- common_name: Oyster Mushroom
   picture: oyster_mushroom.webp
   scientific_name: Pleurotus ostreatus
   aka:
   - Pearl Oyster
   - Tree Oyster
+  - Hiratake (Japanese)
   family: Pleurotaceae
   zone: 5-12
   ideal_temp_min: 55
@@ -13,45 +14,85 @@
   max_temp: 90
   perennial: true
   layers:
-  - Tree
+  - Fungal
   plant_function:
   - Edible
   - Medicinal
   - Mulcher
   - Soil Improvement
-  description: "Oysters are the beginner's handshake with log culture — they grow
-    on many hardwoods, colonize fast, and forgive a little clumsy technique. In subtropical and tropical Americas pick fresh-cut, living hardwood (oak, sweetgum, poplar types) and keep
-    stacks off the ground on pallets or rails. Wet season humidity helps; dry season
-    needs soaking pulses. They also run on straw and coffee grounds in buckets if
-    you want urban mycopunk. Still: identify the flush; look-alikes exist in the
-    wild.\n\n☀️💧 Sun and Water:\n- Shade to bright shade; avoid all-day sun on thin
-    logs.\n- Soak or sprinkle logs to trigger fruiting; let them drain fully.\n-
-    Bark intact slows drying; vertical or lean-to stacks balance moisture and air.\n\n✂️
-✂️ Propagation:
-\n- Plug, sawdust, or totem inoculation into green wood.\n- After
-    harvest, rest logs; rotate soaking to time flushes with weather."
+  description: "Oyster mushrooms are the beginner's handshake with log culture —
+    they colonize fast, tolerate a wider range of substrates than almost any other
+    cultivated species, and forgive clumsy technique better than shiitake or lion's
+    mane. In subtropical Florida, fresh-cut hardwoods (oak, sweetgum, alder, poplar-type
+    species) inoculated with plug or sawdust spawn and kept in shade will produce
+    within 6-12 months. They also run on straw, coffee grounds, cardboard, and
+    supplemented sawdust blocks — the most substrate-flexible edible species for
+    urban and small-scale growing. Multiple Pleurotus species exist (pink oyster P.
+    djamor handles Florida heat better than standard P. ostreatus); match species
+    to season. Wild flushes from dead hardwoods after rain are common and identifiable
+    with care — gilled mushroom ID discipline still applies.\n\n☀️💧 Sun and Water:\n-
+    Shade to bright shade on logs; thin logs in direct afternoon sun dry out and
+    abort flushes.\n- Soak or sprinkle logs to trigger fruiting in dry periods;
+    allow full drainage between soaks.\n- Bark-intact logs slow drying; vertical
+    or lean-to stacking balances moisture and airflow.\n\n✂️ Propagation:\n- Plug,
+    sawdust, or totem-style inoculation into green wood.\n- Grain to sawdust blocks
+    for indoor or sheltered production.\n- After harvest, rest logs 4-8 weeks before
+    re-soaking; rotate through a batch to stagger flushes."
   purpose: |-
-    Oyster mushroom hosts turn thinnings into meals:
+    Oyster mushrooms turn hardwood thinnings, straw, and spent coffee into reliable
+    protein with almost no input:
 
-    - Edible: Reliable outdoor crop on suitable hardwoods.
-    - Medicinal: Popular in supplement hype; separate tradition from marketing.
-    - Mulcher: Spent logs become hugel and pathway fill.
-    - Soil Improvement: Mycelium exits the log into surrounding organic matter.
+    - Edible: One of the most widely cultivated mushrooms globally; mild flavor,
+      versatile kitchen use, and forgiving growing conditions make this the best
+      starting species for new cultivators.
+    - Medicinal: Lovastatin content and beta-glucan research is real; the supplement
+      marketing gets well ahead of dose and bioavailability evidence — eat them
+      as food and let that be enough.
+    - Mulcher: Spent logs and substrate break down and feed soil carbon after the
+      production cycle ends.
+    - Soil Improvement: Mycelium exits the log into surrounding organic matter;
+      paths inoculated with spent substrate improve over time.
+  substrate:
+  - Oak (primary outdoor log culture)
+  - Sweetgum
+  - Alder
+  - Elm
+  - Wheat straw (indoor/sheltered production)
+  - Hardwood sawdust with wheat bran supplement (indoor blocks)
+  - Coffee grounds (supplemental or small-batch production)
+  mycelium_type: White rot saprobe; very wide lignocellulosic substrate tolerance
+  fruiting_season: Fall through spring on standard P. ostreatus in Florida; pink
+    oyster (P. djamor) extends production through summer heat; year-round possible
+    with species rotation
+  cultivation_difficulty: Beginner — the most forgiving cultivated species for
+    first-time log or block growers
+  spawn_type: Plug spawn or sawdust spawn for logs; grain spawn to supplemented
+    sawdust for indoor blocks; straw column spawn for outdoor low-tech production
   companions:
   - Oak
   - Elm
   - Alder
   cautions:
-  - None documented
+  - Confirm identity before harvest — wild Pleurotus is distinctive but a few
+    tough, pale bracket fungi share hardwood habitat
   pests:
   - Fungus Gnats
   - Slugs
   practitioner_notes: |-
-    Blanch or process within hours if you are freezing—enzymes keep chewing while paperwork waits.
-    Weigh small test batches before scaling tinctures—solvent ratio mistakes are expensive at gallon ambition.
-    Soil smell and root color tell more than gadget overload—dig a small hole twice a season.
-    Overfertilized fast growth dilutes flavor and invites sap feeders—lean soil often tastes more like itself.
-  growth_habit: White-rot fungus on hardwood logs and lignocellulosic substrates
-  data_quality_score: 0.8
+    Pink oyster (Pleurotus djamor) is the Florida summer species — standard P.
+    ostreatus sulks and aborts above 75°F; switch species, not technique.
+    Harvest before caps fully flatten and edges begin to wave — velvety cap texture
+    and firm, white gills are the window; past it, flavor sharpens and the caps
+    drop spores aggressively.
+    Spore dumps from mature caps are white and heavy; harvest before this stage
+    or you will be cleaning everything in a 10-foot radius.
+    Soak trigger on outdoor logs: 12 hours submerged or equivalent sustained rain;
+    expect pins within 5-7 days in the right temperature range — if nothing pins
+    in 10 days the log may need more rest or warmer weather.
+    Spent blocks and logs are not waste — break them into paths, hugel fill, or
+    compost; the mycelium keeps working after the production cycle ends.
+  growth_habit: White-rot saprobe on hardwood logs, stumps, and lignocellulosic
+    substrates; cluster fruiting on log ends and sides
+  data_quality_score: 0.86
   # Image attribution: No image found
   # Image source: none

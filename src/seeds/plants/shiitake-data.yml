@@ -1,10 +1,11 @@
 ---
-- common_name: Shiitake Oak
+- common_name: Shiitake
   picture: shiitake.webp
   scientific_name: Lentinula edodes
   aka:
   - Shii Take (Japanese)
-  - Oak Shiitake
+  - Black Forest Mushroom
+  - Chinese Black Mushroom
   family: Omphalotaceae
   zone: 6-11
   ideal_temp_min: 50
@@ -13,45 +14,79 @@
   max_temp: 95
   perennial: true
   layers:
-  - Tree
+  - Fungal
   plant_function:
   - Edible
   - Medicinal
-  - Timber
   - Mulcher
-  description: "Shiitake and oak are the classic marriage — dense wood, slow decay,
-    years of flushes if you keep the marriage counseling (soak schedules) consistent.
-    subtropical and tropical Americas oaks and sweetgum-class hardwoods work when logs are fresh and
-    bark is sound. Warm winters can shorten storage life of logs; prioritize shade,
-    airflow, and off-ground stacking. Strains differ: some like it hotter, some sulk;
-    buy spawn matched to your climate ego.\n\n☀️💧 Sun and Water:\n- Full shade under
-    canopy or north-facing lean-to.\n- Shock-soak or long rain to initiate pinning;
-    never leave logs waterlogged for weeks.\n- End-sealing or waxing big cuts reduces
-    cracking in sun-baked yards.\n\n✂️ Propagation:\n- Drill-and-fill with sawdust
-    or plug spawn on green hardwood.\n- Force fruiting on a subset of logs while
-    others rest."
+  description: "Shiitake on logs is the entry point for serious food forest fungal
+    production — dense hardwood, slow colonization, years of flushes if you manage
+    the soak schedule and keep logs in honest shade. In subtropical Florida, live
+    oaks, water oaks, and sweetgum all work when logs are cut fresh with bark intact.
+    Warm winters shorten log storage life; shade, airflow, and off-ground stacking
+    on pallets or rails are not optional aesthetics, they are the production system.
+    Strain selection matters: warm-weather strains (WW designations) handle Florida
+    summers significantly better than standard temperate strains, which sulk and
+    abort above 80°F. The flavor of a log-grown shiitake — earthy, rich, slightly
+    smoky when dried — has no indoor bag equivalent.\n\n☀️💧 Sun and Water:\n- Deep
+    shade under canopy or north-facing lean-to; afternoon sun on thin Florida logs
+    is a death sentence.\n- Shock-soaking (12-24 hr submersion) or heavy sustained
+    rain triggers pinning; do not leave logs waterlogged for extended periods.\n-
+    End-sealing or waxing cut ends reduces cracking in dry seasons.\n\n✂️ Propagation:\n-
+    Drill-and-fill with sawdust or plug spawn into freshly cut green hardwood (within
+    a few weeks of cutting).\n- Cycle logs: soak a subset while others rest; stagger
+    inoculation dates to distribute flushes across the season."
   purpose: |-
-    Shiitake oak turns low-grade thinnings into a long-season protein trickle:
+    Shiitake turns low-grade hardwood thinnings into one of the most recognized
+    edible mushrooms in the world:
 
-    - Edible: One of the most recognized cultivated mushrooms worldwide.
-    - Medicinal: Long traditional use; modern claims need the side-eye they deserve.
-    - Timber: The tree still yields wood while thinnings feed the myco stack.
-    - Mulcher: Spent logs feed soil carbon when retired.
+    - Edible: Consistent, reliable, and deeply flavorful; fresh or dried, one
+      of the most versatile gourmet mushrooms in the kitchen.
+    - Medicinal: Traditional East Asian use for immune support; lentinan research
+      is among the most substantive in medicinal mushroom science — the marketing
+      still gets ahead of the data, but the foundation is real.
+    - Mulcher: Spent logs after several seasons of production transition into
+      hugel fill, path material, and soil carbon.
+  substrate:
+  - Oak (primary — white, red, water, live oak all viable)
+  - Sweetgum
+  - Hickory
+  - Alder
+  - Most dense, tannic hardwoods; avoid soft woods and conifers
+  mycelium_type: White rot saprobe
+  fruiting_season: Fall through spring in Florida; warm-weather strains extend
+    production into summer; peak flushes October through April
+  cultivation_difficulty: Beginner to intermediate — log inoculation is well-documented
+    and forgiving; strain selection for subtropical climate is the critical variable
+  spawn_type: Plug spawn or sawdust spawn for logs; grain or supplemented sawdust
+    for indoor blocks; warm-weather (WW) strains recommended for Florida
   companions:
   - Oak
   - Hickory
   - Sweetgum
   cautions:
-  - None documented
+  - None documented for properly prepared specimens
+  - Rare shiitake dermatitis reaction exists from raw or undercooked consumption
+    — cook thoroughly
   pests:
   - Borers
   - Fungus Gnats
   practitioner_notes: |-
-    Harvest texture changes faster than color—nip one sample before you commit the whole row to a pick date.
-    Dry aerial parts fast with airflow, not slow plastic bags—mold reads as ‘aged’ only in marketing copy.
-    Watch the plant’s own signals first—catalog zone numbers do not replace your site’s microclimate truth.
-    Blanch or process within hours if you are freezing—enzymes keep chewing while paperwork waits.
-  growth_habit: White-rot mushroom on hardwood logs
-  data_quality_score: 0.82
+    Strain selection is the most important single decision for Florida growers —
+    warm-weather strains (WW strains from suppliers like Field & Forest or Fungi
+    Perfecti) handle the heat that kills standard temperate strains; buy for your
+    climate, not the catalog photo.
+    Shock-soaking triggers flushes — submerge logs for 12-24 hours in cold water,
+    then stand upright in a humid shaded area; most logs flush within 7-10 days.
+    Harvest by texture and veil: pick when the veil under the cap is still intact
+    or just beginning to tear; fully open flat caps are past peak flavor and shelf
+    life drops sharply.
+    Dry at low heat (95-105°F) with strong airflow rather than dehydrating hot and
+    fast — slow drying concentrates flavor and produces the glossy dried shiitake
+    that rehydrates cleanly.
+    Log production runs 3-5 years; stagger inoculation across multiple seasons
+    so you always have logs in different production stages and never face a gap year.
+  growth_habit: White-rot saprobe on hardwood logs; log cultivation primary method
+  data_quality_score: 0.87
   # Image attribution: No image found
   # Image source: none
