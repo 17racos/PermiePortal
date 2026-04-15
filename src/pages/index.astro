@@ -264,50 +264,7 @@ const tickerMessages = [
   </div>
 </section>
 
-<!-- TICKER — duplicated for seamless loop -->
-<div class="rant-bar" aria-hidden="true">
-  <div class="rant-track">
-    {[...tickerMessages, ...tickerMessages].map((msg, i) => (
-      <span class="rant-segment">
-        <span class="rant-dot">⬤</span>
-        <span class="rant-item">{msg}</span>
-      </span>
-    ))}
-  </div>
-</div>
 
-<div class="pillars">
-  <a href="/plants" class="pillar">
-    <div class="pillar-number">01</div>
-    <span class="pillar-icon">🌱</span>
-    <div class="pillar-title">Plant Something Useful</div>
-    <p class="pillar-desc">
-      {plantCount} plants with zones, functions, companions, pest relationships,
-      and propagation. Actual field data, not stock photos with captions.
-    </p>
-    <span class="pillar-link">Browse the database</span>
-  </a>
-  <a href="/pests" class="pillar">
-    <div class="pillar-number">02</div>
-    <span class="pillar-icon">🐛</span>
-    <div class="pillar-title">Something's Eating Your Garden</div>
-    <p class="pillar-desc">
-      {pestCount} organic pest profiles. Natural enemies, biological controls,
-      companion deterrents. No Roundup. Not ever.
-    </p>
-    <span class="pillar-link">Find the culprit</span>
-  </a>
-  <a href="/articles" class="pillar">
-    <div class="pillar-number">03</div>
-    <span class="pillar-icon">🔥</span>
-    <div class="pillar-title">Read Something That'll Stick</div>
-    <p class="pillar-desc">
-      Field notes and satire that permanently ruins your tolerance for greenwashing,
-      chemical agriculture, and Ted's HOA newsletter.
-    </p>
-    <span class="pillar-link">Start the damage</span>
-  </a>
-</div>
 
 <section class="start-here">
   <div class="start-here-inner">
@@ -352,14 +309,27 @@ const tickerMessages = [
       <a href="/plants" class="start-card">
         <div class="start-card-number">05</div>
         <div class="start-card-content">
-          <div class="start-card-title">Browse {plantCount} Plants</div>
-          <div class="start-card-desc">Edible, medicinal, functional. Zero of them are grass.</div>
+          <div class="start-card-title">Plant Something Useful</div>
+          <div class="start-card-desc">{plantCount} plants. Edible, medicinal, functional. Zero of them are grass.</div>
         </div>
         <span class="start-card-arrow">→</span>
       </a>
     </div>
   </div>
 </section>
+
+<!-- TICKER — duplicated for seamless loop -->
+<div class="rant-bar" aria-hidden="true">
+  <div class="rant-track">
+    {[...tickerMessages, ...tickerMessages].map((msg, i) => (
+      <span class="rant-segment">
+        <span class="rant-dot">⬤</span>
+        <span class="rant-item">{msg}</span>
+      </span>
+    ))}
+  </div>
+</div>
+
 
 <section class="manifesto">
   <div class="manifesto-left">
