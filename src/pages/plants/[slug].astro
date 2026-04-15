@@ -45,7 +45,10 @@ const purposeLines = purposeRaw
   .filter((l: string) => l.length > 0);
 ---
 
-<BaseLayout title={plant.common_name}>
+<BaseLayout
+  title={`${plant.common_name} — Permaculture Plant Profile`}
+  description={`${plant.common_name} (${plant.scientific_name || 'permaculture plant'}) — zones, functions, companions, pest relationships, and organic growing notes. Free field data from PermiePortal.`}
+>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Serif:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
 

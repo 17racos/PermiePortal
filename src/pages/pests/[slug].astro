@@ -62,7 +62,10 @@ const isDisease = (
 const ifasUrl = `https://edis.ifas.ufl.edu/search?q=${nameQuery}`;
 ---
 
-<BaseLayout title={pest.name}>
+<BaseLayout
+  title={`${pest.name} — Organic Control Guide`}
+  description={`How to identify and organically control ${pest.name}. Biological controls, natural enemies, cultural practices, and organic sprays. Free pest profile from PermiePortal.`}
+>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Serif:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
 
