@@ -249,24 +249,25 @@ const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].sort();
     .grid-wrap { padding: 0.5rem; }
 
     .plants-grid {
-      grid-template-columns: repeat(3, 1fr);
-      gap: 2px;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 4px;
       background: transparent;
     }
 
     .plant-card::after { display: none; }
 
-    .card-img { height: 110px; }
+    .card-img { height: 140px; }
 
-    .card-body { padding: 0.35rem 0.25rem 0.5rem; }
+    .card-body { padding: 0.5rem 0.4rem 0.6rem; }
 
     .card-layer,
     .card-sci,
-    .card-zone,
-    .card-tags { display: none; }
+    .card-zone { display: none; }
+    .card-tags { display: flex; flex-wrap: wrap; gap: 0.25rem; margin-top: 0.3rem; }
+    .card-tag { font-size: 0.5rem; padding: 0.15rem 0.4rem; }
 
     .card-name {
-      font-size: 0.6rem;
+      font-size: 0.7rem;
       letter-spacing: 0.01em;
       line-height: 1.2;
       white-space: nowrap;
