@@ -1,22 +1,57 @@
 ---
 - common_name: Stokes Aster
-  slug: stokes-aster
-  scientific_name: Stokesia laevis
-  family: Asteraceae
   picture: stokes_aster.jpg
+  scientific_name: Stokesia laevis
+  aka:
+  - Stokes' aster
+  - Cornflower aster
+  family: Asteraceae
   zone: 5-9
-  layers: [Herbaceous]
-  plant_function: [Pollinator Support, Wildlife, Ornamental]
-  growth_rate: Moderate
-  mature_height: 1-2 ft
-  sun: Full Sun to Part Shade
-  water: Low to Moderate
-  soil: Well-drained, Sandy
-  propagation: [Seed, Division]
-  companions: [Coreopsis, Lemon Balm, Society Garlic]
-  description: >-
-    Native perennial wildflower with showy lavender-blue aster flowers spring
-    throe of the best native perennials for Florida pollinator
-    gardens. Exceptionally drought-tolerant in sandy soil. Long bloom period.
-    Deer-resistant. Excellent for attracting native bees and butterflies to
-    the food forest understory.
+  ideal_temp_min: 45
+  ideal_temp_max: 90
+  min_temp: 0
+  max_temp: 100
+  perennial: true
+  layers:
+  - Herbaceous
+  plant_function:
+  - Pollinator
+  - Wildlife Attractor
+  - Ornamental
+  - Border Plant
+  - Ground Cover
+  description: "Stokes aster (Stokesia laevis) is a low perennial wildflower of southeastern pine savannas and sandy soils,
+    bearing large lavender-blue ray flowers that read ‘aster’ without the late-fall timing of many symphyotrichums. Rosettes
+    of basal leaves push flowering stems in warm months, feeding native bees and butterflies with accessible pollen and nectar
+    when massed. It tolerates heat and drought once established, making it a honest front-border plant for pollinator beds
+    and dry rain gardens.\n\n☀️💧 Sun and Water Requirements:\n- Full sun to light shade; bloom declines in dim corners.\n-
+    Well-drained sandy or sandy-loam soils; hates standing water.\n- Moderate moisture improves flower size; drought shrinks
+    but rarely kills mature clumps.\n\n✂️ Propagation:\n- Divide basal clumps in early spring as new growth appears.\n- Root
+    cuttings from basal offsets under humidity.\n- Seeds germinate warm; selections are often divided to preserve flower form.\n\n🌾
+    Harvest / Best Use Timing:\n- Cut flowers for bouquets at early open for longest vase life.\n- Leave late blooms if seed
+    feeding finches fits your site ethos.\n- Refresh tired clumps by division every few years to keep centers from going bald."
+  purpose: |-
+    Stokes aster serves multiple functions in a permaculture system:
+
+    - Pollinator: Broad ray flowers suit native bees and butterflies in sunny beds.
+    - Wildlife Attractor: Seeds feed birds when heads mature if cleanup is not obsessive.
+    - Ornamental: Showy flowers earn front-row placement along paths and patio edges.
+    - Border Plant: Mounded habit defines bed edges without shading neighbors.
+    - Ground Cover: Basal rosettes occupy space between taller perennials when massed.
+  companions:
+  - Coreopsis — yellow daisy contrast with overlapping pollinator clientele and similar sun demands.
+  - Lemon Balm — mint-family neighbor for herb spirals; give space so melissa does not annex the bed.
+  - Society Garlic — clumping onion relative that repels some mammal browse and tolerates dry edges.
+  cautions:
+  - None documented
+  pests:
+  - Aphids
+  - Powdery Mildew
+  - Spider Mites
+  practitioner_notes: |-
+    Wet feet kills faster than drought—raise beds in heavy soils before you blame genetics.
+    Deer resistance is regional—test with a small patch before you landscape an airport.
+    Divide before centers go woody and flowerless—prevention beats rescue pruning.
+    Label cultivars when sharing divisions—color drift annoys plant swaps.
+  growth_habit: Herbaceous perennial; basal rosette with upright flowering stems
+  data_quality_score: 0.82

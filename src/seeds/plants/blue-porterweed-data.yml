@@ -1,22 +1,58 @@
 ---
 - common_name: Blue Porterweed
-  slug: blue-porterweed
-  scientific_name: Stachytarpheta jamaicensis
-  family: Verbenaceae
   picture: blue_porterweed.jpg
+  scientific_name: Stachytarpheta jamaicensis
+  aka:
+  - Jamaica vervain
+  - Blue rat's tail
+  family: Verbenaceae
   zone: 9-11
-  layers: [Herbaceous, Groundcover]
-  plant_function: [Pollinator Support, Wildlife, Medicinal]
-  growth_rate: Fast
-  mature_height: 2-4 ft
-  sun: Full Sun
-  water: Low
-  soil: Sandy, Well-drained
-  propagation: [Seed, Cuttings]
-  companions: [Firebush, Beautyberry, Tithonia]
-  description: >-
-    Florida native groundcover with spikes of small blue-purple flowers that
-    attract butterflies — especially long-tailed skippers and gulf fritillaries
-    — virtually year-round. Hummingbirds also visit regularly. Extremely
-    low-maintenance once established in sandy Florida soil. Self-seeds freely.
-    Essential pollinator plant for Zone 9-11 food forests.
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 28
+  max_temp: 105
+  perennial: true
+  layers:
+  - Ground Cover
+  plant_function:
+  - Pollinator
+  - Wildlife Attractor
+  - Medicinal
+  - Ground Cover
+  - Border Plant
+  description: "Blue porterweed (Stachytarpheta jamaicensis) is a low, spreading perennial of sandy coastal and disturbed
+    ground in the subtropics and tropics, carrying slender spikes of small blue-purple flowers that keep visiting butterflies
+    honest almost year-round in frost-free sites. It fills sunny gaps where turf pretends to be ecology, rooting easily from
+    cuttings and self-seeding where winters stay mild. Traditional medicine uses enter local practice—verify identity and
+    contraindications before you brew for guests.\n\n☀️💧 Sun and Water Requirements:\n- Full sun for tight growth and continuous
+    bloom; shade stretches stems and reduces flowers.\n- Tolerates drought once established; looks fresher with occasional
+    deep watering in sand.\n- Well-drained soil; tolerates poor fertility but not chronic bog.\n\n✂️ Propagation:\n- Cuttings
+    root readily in warm, humid seasons.\n- Seeds self-sow; thin volunteers to prevent monoculture boredom.\n- Hard cutback
+    after frost risk to refresh woody bases.\n\n🌾 Harvest / Best Use Timing:\n- If harvesting for documented herbal traditions,
+    collect flowering tops in morning dryness and dry with airflow.\n- Leave abundant bloom for skippers and hummingbirds if
+    your goal is habitat, not jars.\n- Deadhead only if local rules demand tidiness over seeds."
+  purpose: |-
+    Blue porterweed serves multiple functions in a permaculture system:
+
+    - Pollinator: Small tubular flowers feed skippers, bees, and hummingbirds on a long calendar.
+    - Wildlife Attractor: Insects and birds treat dense patches as fuel stops along sunny edges.
+    - Medicinal: Regional herbal use exists—species ID and safety research come before influencer doses.
+    - Ground Cover: Spreading habit suppresses bare sand and reduces weed pressure in sunny beds.
+    - Border Plant: Front-of-bed color along paths where height must stay polite.
+  companions:
+  - Firebush — red tubular flowers for hummingbirds layered behind low porterweed carpets.
+  - Beautyberry — purple fruit and loose habit contrast ground-hugging verbenaceous texture.
+  - Tithonia — tall annual sunflower relative for vertical pollinator pull above porterweed’s low plane.
+  cautions:
+  - None documented
+  pests:
+  - Aphids
+  - Spider Mites
+  - Whiteflies
+  practitioner_notes: |-
+    Confirm native vs look-alikes before you plant near conservation land—names drift across regions.
+    Self-seed can annoy tidy neighbors—edge mow where policy demands compromise.
+    Drought tolerance does not mean zero water forever—first season still needs honesty.
+    If leaves yellow in wet sand, roots may be drowning—feel soil before you fertilize feelings.
+  growth_habit: Low spreading perennial; woody base with herbaceous stems
+  data_quality_score: 0.82

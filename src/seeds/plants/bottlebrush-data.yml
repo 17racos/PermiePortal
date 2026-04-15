@@ -1,22 +1,58 @@
 ---
 - common_name: Bottlebrush
-  slug: bottlebrush
-  scientific_name: Callistemon citrinus
-  family: Myrtaceae
   picture: bottlebrush.jpg
+  scientific_name: Callistemon citrinus
+  aka:
+  - Crimson bottlebrush
+  - Lemon bottlebrush
+  family: Myrtaceae
   zone: 8-11
-  layers: [Shrub]
-  plant_function: [Pollinator Support, Wildlife, Windbreak]
-  growth_rate: Moderate
-  mature_height: 6-15 ft
-  sun: Full Sun
-  water: Low to Moderate
-  soil: Adaptable
-  propagation: [Seed, Cuttings]
-  companions: [Firebush, Beautyberry, Lemongrass]
-  description: >-
-    Evergreen shrub with distinctive cylindrical red flower spikes that
-    attract hummingbirds and butterflies in large numbers. Extremely
-    drought-tolerant once established. Florida-friendly landscape plant that
-    earns its keep as a pollinator magnet. Blooms spring and fall. Low
-    maintenance and long-lived.
+  ideal_temp_min: 55
+  ideal_temp_max: 95
+  min_temp: 15
+  max_temp: 110
+  perennial: true
+  layers:
+  - Shrub
+  plant_function:
+  - Pollinator
+  - Wildlife Attractor
+  - Windbreaker
+  - Ornamental
+  - Erosion Control
+  description: "Bottlebrush (Callistemon citrinus) is an evergreen Australian shrub with aromatic leaves and cylindrical
+    crimson flower spikes that read like bottle brushes dipped in paint. It flowers heavily in warm months and again in flushes
+    where winters stay mild, pulling hummingbirds, bees, and butterflies into a predictable nectar schedule. Tough once established,
+    it tolerates heat, sandy soils, and periodic drought—useful on sunny margins, wildlife corridors, and wind-softening rows
+    where irrigation is not a religion.\n\n☀️💧 Sun and Water Requirements:\n- Full sun for dense flowers; shade stretches
+    stems and dulls bloom.\n- Well-drained soil; tolerates lean ground once roots run deep.\n- Young plants need steady moisture;
+    mature plants endure dry spells better than pampered ones.\n\n✂️ Propagation:\n- Semi-hardwood cuttings root under humidity
+    in warm seasons.\n- Seeds are fine for species experiments; named forms are cloned.\n- Light pruning after bloom keeps
+    compact habit and renews flowering wood.\n\n🌾 Harvest / Best Use Timing:\n- If harvesting for craft or dye experiments,
+    pick spikes at peak color before brownout.\n- Leave plenty for pollinators—this plant earns its keep in nectar, not just
+    aesthetics.\n- Rake spent flowers if mulch pests become a conversation under the canopy."
+  purpose: |-
+    Bottlebrush serves multiple functions in a permaculture system:
+
+    - Pollinator: Nectar-rich spikes feed hummingbirds and bees during hot-season bloom windows.
+    - Wildlife Attractor: Dense branching shelters small birds; flowers support diverse insects.
+    - Windbreaker: Repeated shrubs soften wind along fences and livestock edges when spaced as a row, not a lonely dot.
+    - Ornamental: Bold color earns placement along paths where people actually look up from phones.
+    - Erosion Control: Fibrous roots stabilize sandy banks once established.
+  companions:
+  - Firebush — overlapping hummingbird clientele with a different flower architecture for staggered bloom.
+  - Beautyberry — purple fruit contrast and loose habit that reads well behind tighter bottlebrush forms.
+  - Lemongrass — clumping edge that marks irrigation lines and tolerates heat without stealing crown space.
+  cautions:
+  - None documented
+  pests:
+  - Aphids
+  - Scale Insects
+  - Spider Mites
+  practitioner_notes: |-
+    Root rot follows chronic wet feet—sand is not permission to drown it daily.
+    Heavy seed in some callistemon relatives—confirm species behavior on your site before promising ‘tidy.’
+    If leaves look chlorotic on high pH, iron is a suspect, not a personality flaw.
+    Prune for air, not pom-poms—interior dieback loves dense meatball cuts.
+  growth_habit: Evergreen shrub; can be trained to a small tree form
+  data_quality_score: 0.82

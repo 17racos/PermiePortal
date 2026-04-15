@@ -1,21 +1,66 @@
 ---
 - common_name: Tangelo
-  slug: tangelo
-  scientific_name: Citrus x tangelo
-  family: Rutaceae
   picture: tangelo.jpg
+  scientific_name: Citrus × tangelo
+  aka:
+  - Minneola
+  - Honeybell (trade name)
+  family: Rutaceae
   zone: 9-11
-  layers: [Canopy]
-  plant_function: [Edible]
-  growth_rate: Moderate
-  mature_height: 10-20 ft
-  sun: Full Sun
-  water: Moderate
-  soil: Well-drained
-  propagation: [Grafting]
-  companions: [Lemongrass, Comfrey, Fennel]
-  description: >-
-    Hybrid of tangerine and grapefruit or pomelo. Minneola tangelo is the most
-    common variety with distinctive knobby neck and rich sweet-tart flavor.
-    Easy to peel, nearly seedless. Florida favorite ripening December through
-    February.
+  ideal_temp_min: 60
+  ideal_temp_max: 90
+  min_temp: 25
+  max_temp: 105
+  perennial: true
+  layers:
+  - Canopy
+  plant_function:
+  - Edible
+  - Medicinal
+  - Pollinator
+  - Wildlife Attractor
+  - Ornamental
+  description: "Tangelo (Citrus × tangelo) is a mandarin–grapefruit class hybrid grown for large, easy-peel fruit with sweet–tart
+    juice and a memorable neck on classic ‘Minneola’ types. Evergreen trees resemble other mid-sized citrus: glossy foliage,
+    fragrant blooms, and heavy spring bee traffic. It shines in humid subtropical home orchards where winter color breaks line
+    up with holiday harvest windows and kitchen demand for something louder than a plain sweet orange.\n\n☀️💧 Sun and Water
+    Requirements:\n- Full sun for size, sugar, and peel texture; shaded sides yield lopsided flavor.\n- Even moisture in
+    well-drained soil; avoid chronic wet feet that invite root rot.\n- Protect blooms and young fruit from hard freezes; thin
+    rinds can scar in wind if canopies are open.\n\n✂️ Propagation:\n- Grafted nursery trees preserve hybrid traits and precocity.\n-
+    Seeds are unreliable for matching known hybrids—treat seedlings as experiments.\n- Topwork only with compatible citrus stock
+    and clean cuts.\n\n🌾 Harvest / Best Use Timing:\n- Pick when flavor peaks; some types hold on-tree quality for a window,
+    not forever.\n- Clip stems to reduce peel tears that invite decay.\n- Juice soon after harvest; aromatics fade faster than
+    acid in storage."
+  purpose: |-
+    Tangelo serves multiple functions in a permaculture system:
+
+    - Edible: Fresh segments, juice, and marmalade with bold sweet–tart character.
+    - Medicinal: Vitamin C and citrus bioactives show up in everyday use—respect medication–citrus questions with your clinician.
+    - Pollinator: Flowers add to orchard bloom density for bees and syrphids.
+    - Wildlife Attractor: Fruit can feed birds at the canopy edge if sharing is part of the design.
+    - Ornamental: Large colorful fruit hangs like ornaments when trees face paths and patios.
+  companions:
+  - Comfrey — chop-and-drop mulch outside the trunk circle to feed soil without burying the root flare.
+  - Lemongrass — scented heat-tolerant edge that pairs with citrus-heavy cooking.
+  - Fennel — insectary plant; keep it from shading young citrus if it gets ambitious.
+  cautions:
+  - Walnut
+  pests:
+  - Asian Citrus Psyllid
+  - Brown Citrus Aphid
+  - Citrus Canker
+  - Citrus Greening
+  - Citrus Leafminer
+  - Citrus Mealybug
+  - Citrus Red Mite
+  - Citrus Root Weevil
+  - Citrus Rust Mite
+  - Citrus Whitefly
+  - Texas Citrus Mite
+  practitioner_notes: |-
+    Necked fruit shapes vary—genetics and pollination write the silhouette, not your intentions.
+    Thin heavy sets so remaining fruit sizes with honesty.
+    Wind scar is cosmetic unless you are selling peel photos.
+    If flavor dulls mid-season, check irrigation before you buy micronutrient theater tickets.
+  growth_habit: Evergreen citrus tree; size depends on rootstock and pruning
+  data_quality_score: 0.82

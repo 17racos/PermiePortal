@@ -1,22 +1,59 @@
 ---
 - common_name: Muscadine Grape
-  slug: muscadine-grape
-  scientific_name: Vitis rotundifolia
-  family: Vitaceae
   picture: muscadine_grape.jpg
+  scientific_name: Vitis rotundifolia
+  aka:
+  - Scuppernong (bronze types)
+  - Southern fox grape
+  family: Vitaceae
   zone: 6-10
-  layers: [Climber]
-  plant_function: [Edible, Medicinal, Wildlife]
-  growth_rate: Fast
-  mature_height: 20-100 ft (vine)
-  sun: Full Sun
-  water: Low to Moderate
-  soil: Well-drained, Sandy
-  propagation: [Cuttings, Layering]
-  companions: [Comfrey, Elderberry, Tithonia]
-  description: >-
-    Native North American grape perfectly adapted to the humid Southeast. Far
-    more disease-resistant than European grapes in Florida. Produces large
-    thick-skinned grapes with rich musky flavor. Bronze and black varieties
-    available. Extremely productive once established. Also the source of
-    resveratrol research.
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 0
+  max_temp: 105
+  perennial: true
+  layers:
+  - Vine
+  plant_function:
+  - Edible
+  - Wildlife Attractor
+  - Shade Provider
+  - Pollinator
+  description: "Muscadine grape (Vitis rotundifolia) is a high-climbing native North American grape of humid southeastern
+    wood edges, sandhills, and fencerows, bearing thick-skinned berries in bronze (‘Scuppernong’ types) or dark tones with
+    intense musky flavor. Unlike many European wine grapes, it tolerates heat, humidity, and disease pressure that would shred
+    thin-skinned vinifera in the same site—making it a honest pergola crop for fresh eating, juice, jelly, and country wine.
+    Vines become heavy with age; plan trellis beef from day one.\n\n☀️💧 Sun and Water Requirements:\n- Full sun for heaviest
+    clusters; partial shade fruits lighter but can work on marginal edges.\n- Deep, well-drained sandy to loamy soils reward
+    rooting; young vines need steady moisture, mature vines endure dry spells better than pampered ones.\n- Good air movement
+    reduces foliar disease; humid summers punish crowded canopies.\n\n✂️ Propagation:\n- Hardwood cuttings in dormancy are
+    practical for cloning known females and self-fertile selections.\n- Layering low canes in spring roots ramblers where posts
+    are scarce.\n- Seeds are variable and slow—clonal methods keep harvest timelines honest.\n\n🌾 Harvest / Best Use Timing:\n-
+    Pick when berries soften and color fully; unripe muscadines punish your teeth and your reputation.\n- Cook for jelly and
+    syrup; fresh eating is an acquired joy—skins are tough.\n- Prune in winter to limit weight on wires and to renew fruiting
+    wood."
+  purpose: |-
+    Muscadine grape serves multiple functions in a permaculture system:
+
+    - Edible: Fresh fruit for those who like bold flavor; jelly, juice, and wine after heat and sugar.
+    - Wildlife Attractor: Fruit feeds birds and mammals; dense growth shelters songbirds if you allow some chaos.
+    - Shade Provider: Overhead vines cool patios, livestock pens, and west walls when trained on sturdy structures.
+    - Pollinator: Small flowers support native bees and wasps in the canopy edge guild.
+  companions:
+  - Elderberry — fruiting shrub edge that tolerates similar sunny, messy hedgerow culture without demanding the same trellis.
+  - Comfrey — mineral mulch cuts at the row base to feed soil life where mower strips fail ethics.
+  - Tithonia — tall annual flower draws pollinators alongside late-summer fruit scouting walks.
+  cautions:
+  - None documented
+  pests:
+  - Japanese Beetles
+  - Powdery Mildew
+  - Scale Insects
+  - Spotted Lanternfly
+  practitioner_notes: |-
+    Self-fertile vs female vines is not a trivia question—pollination plans decide empty clusters.
+    Winter pruning is structural, not cosmetic; summer weight tests your posts before your philosophy.
+    Bronze vs black is flavor politics—label jars if you ferment blends.
+    Bird netting beats rage-posting about mockingbirds—pick a policy and own it.
+  growth_habit: Woody deciduous vine; climbs by tendrils; heavy fruit loads on mature wood
+  data_quality_score: 0.82

@@ -1,21 +1,67 @@
 ---
 - common_name: Blood Orange
-  slug: blood-orange
-  scientific_name: Citrus sinensis
-  family: Rutaceae
   picture: blood_orange.jpg
+  scientific_name: Citrus sinensis
+  aka:
+  - Moro orange (cultivar group)
+  - Anthocyanin orange
+  family: Rutaceae
   zone: 9-11
-  layers: [Canopy]
-  plant_function: [Edible, Medicinal]
-  growth_rate: Moderate
-  mature_height: 10-20 ft
-  sun: Full Sun
-  water: Moderate
-  soil: Well-drained
-  propagation: [Grafting]
-  companions: [Lemongrass, Comfrey, Fennel]
-  description: >-
-    Orange with distinctive red-pigmented flesh from anthocyanins. Best color
-    development requires cool nights. In Florida color is less intense than
-    in Mediterranean climates but flavor is excellent. Moro and Tarocco are
-    popular varieties.
+  ideal_temp_min: 60
+  ideal_temp_max: 88
+  min_temp: 25
+  max_temp: 105
+  perennial: true
+  layers:
+  - Canopy
+  plant_function:
+  - Edible
+  - Medicinal
+  - Pollinator
+  - Wildlife Attractor
+  - Ornamental
+  description: "Blood orange is a pigmented sweet orange (Citrus sinensis) group whose flesh and sometimes rind blush red
+    from anthocyanins when cool nights and genetics align. Trees match standard sweet orange habit—evergreen, rounded crowns,
+    fragrant blooms—while fruit brings berry-like notes and visual drama to fresh eating and marmalade. In humid subtropical
+    climates, color may be milder than in Mediterranean cycles, but flavor can still be excellent if you pick on taste, not
+    Instagram saturation.\n\n☀️💧 Sun and Water Requirements:\n- Full sun for sugar development and rind color cues.\n- Consistent
+    irrigation with sharp drainage; wet feet invite root rot and nutrient collapse.\n- Cool night temperature swings improve
+    blush where winters actually cool; in steady tropical heat, manage expectations on red intensity.\n\n✂️ Propagation:\n-
+    Budded or grafted trees on modern rootstocks keep size and disease traits predictable.\n- Seeds are a genetic dice roll
+    and delay fruiting—fine for experiments, not for planned harvests.\n- Topwork older frames only with compatible stock and
+    clean technique.\n\n🌾 Harvest / Best Use Timing:\n- Sample across the canopy; blood oranges can color unevenly on one
+    tree.\n- Juice soon after picking for brightest flavor; segments dehydrate fast in dry refrigerators.\n- Marmalade loves
+    the bitter edge in peel—balance sugar with honesty, not hope."
+  purpose: |-
+    Blood orange serves multiple functions in a permaculture system:
+
+    - Edible: Fresh segments, juice, and marmalade with complex acid–sweet balance.
+    - Medicinal: Vitamin C and polyphenols show up in food–medicine use—respect drug–citrus interactions.
+    - Pollinator: Spring flowers feed bees when paired with other orchard species for staggered nectar.
+    - Wildlife Attractor: Sparrows and mockingbirds may audit fruit—netting is a policy choice, not a personality attack.
+    - Ornamental: Blushed rind and foliage shine in edible landscaping where trees are visible from paths.
+  companions:
+  - Comfrey — mineral mulch factory at the drip line; keep the crown open for air and light.
+  - Lemongrass — scented edge planting that tolerates heat and marks irrigation end-stops.
+  - Fennel — insectary plant that pulls beneficials; keep it from owning the whole understory unless you like chaos.
+  cautions:
+  - Walnut
+  pests:
+  - Asian Citrus Psyllid
+  - Brown Citrus Aphid
+  - Citrus Canker
+  - Citrus Greening
+  - Citrus Leafminer
+  - Citrus Mealybug
+  - Citrus Red Mite
+  - Citrus Root Weevil
+  - Citrus Rust Mite
+  - Citrus Whitefly
+  - Texas Citrus Mite
+  practitioner_notes: |-
+    Color is a mood ring—taste decides pick day, not blush depth alone.
+    Alternate bearing shows up—track bloom, not your mood board.
+    If juice ferments weirdly fast, sanitation and temperature beat superstition.
+    Leaf miners scribble on leaves; decide if cosmetic damage earns sprays or patience.
+  growth_habit: Evergreen sweet orange type; rounded crown typical in open plantings
+  data_quality_score: 0.82

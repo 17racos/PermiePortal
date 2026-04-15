@@ -1,22 +1,58 @@
 ---
 - common_name: Edible Cactus
-  slug: opuntia
-  scientific_name: Opuntia ficus-indica
-  family: Cactaceae
   picture: opuntia.jpg
+  scientific_name: Opuntia ficus-indica
+  aka:
+  - Prickly pear
+  - Nopal
+  family: Cactaceae
   zone: 8-11
-  layers: [Shrub]
-  plant_function: [Edible, Medicinal, Wildlife, Windbreak]
-  growth_rate: Fast
-  mature_height: 6-15 ft
-  sun: Full Sun
-  water: Very Low
-  soil: Sandy, Well-drained
-  propagation: [Cuttings]
-  companions: [Agave, Aloe, Moringa]
-  description: >-
-    Prickly pear cactus with flat paddle-shaped pads (nopales) and fruit (tunas)
-    both edible. Pads harvested young and cooked as a vegetable — mucilaginous
-    texture, used extensively in Mexican cuisine. Fruit sweet when ripe. Extremely
-    drought-tolerant. Useful as a living barrier. Remove spines before eating.
-    One of the most productive edible plants per unit of water used.
+  ideal_temp_min: 65
+  ideal_temp_max: 100
+  min_temp: 10
+  max_temp: 115
+  perennial: true
+  layers:
+  - Shrub
+  plant_function:
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  - Windbreaker
+  - Erosion Control
+  description: "Edible cactus (Opuntia ficus-indica) is a shrubby, pad-forming cactus grown across warm climates for young
+    cladodes (nopales) cooked as a vegetable and for sweet fruits (tunas) when fully ripe. Thick pads store water, spines defend
+    tissue, and yellow flowers give way to colorful fruit in long-season sites. It excels where rainfall is unreliable and soil
+    is lean—living fence, erosion stitch on slopes, and heat-beating food when prepared with respect for glochids.\n\n☀️💧 Sun
+    and Water Requirements:\n- Full sun for sweet fruit and compact pads; etiolated growth in shade invites rot.\n- Extremely
+    drought-tolerant once established; young plants need occasional watering to root before you walk away for summer.\n- Perfect
+    drainage is non-negotiable; winter wet on cold roots rots crowns.\n\n✂️ Propagation:\n- Detach pads and let callus a week
+    before planting in dry media.\n- Seeds work but add variability and years to fruit.\n- Clone known heavy-fruiting selections
+    if your site is marginal.\n\n🌾 Harvest / Best Use Timing:\n- Harvest young pads when still flexible; scrape glochids
+    and peel before cooking.\n- Pick fruit when deep-colored, slightly soft, and honest about glochid risk—gloves, not optimism.\n-
+    Process quickly; tunas do not improve in a hot car."
+  purpose: |-
+    Edible cactus serves multiple functions in a permaculture system:
+
+    - Edible: Nopales and fruit anchor dry-climate calories with low irrigation once established.
+    - Medicinal: Traditional use spans food–medicine boundaries—research processing and species before you meme it.
+    - Wildlife Attractor: Flowers feed bees; fruit feeds birds and mammals where sharing is policy.
+    - Windbreaker: Padded hedges slow wind along fences and livestock lines if spines match your ethics.
+    - Erosion Control: Shallow, fibrous rooting helps hold coarse slopes where other plants rot or fry.
+  companions:
+  - Agave — sharp drainage partners sharing desert aesthetics without sharing the same pest calendar exactly.
+  - Aloe — similar water honesty in rock gardens and sunny edges.
+  - Moringa — fast leafy canopy nearby can shade young cactus if you manage drop timing—do not smother pads with dark mulch.
+  cautions:
+  - None documented
+  pests:
+  - Aphids
+  - Scale Insects
+  - Spider Mites
+  practitioner_notes: |-
+    Glochids are invisible until they are not—torch hairs off pads if tradition matches your fire policy.
+    Weedy Opuntia spreads where birds plant it—harvest fruit before the neighborhood becomes a pincushion.
+    Cold + wet is the villain—grit under crowns beats sympathy posts.
+    Nopal slime is real—grill or blanch before you judge texture forever.
+  growth_habit: Shrubby pad-forming cactus; can reach small-tree stature with age
+  data_quality_score: 0.82

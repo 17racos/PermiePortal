@@ -1,20 +1,67 @@
 ---
 - common_name: Navel Orange
-  slug: navel-orange
-  scientific_name: Citrus sinensis
-  family: Rutaceae
   picture: navel_orange.jpg
+  scientific_name: Citrus sinensis
+  aka:
+  - Washington navel (classic cultivar)
+  - Seedless eating orange
+  family: Rutaceae
   zone: 9-11
-  layers: [Canopy]
-  plant_function: [Edible, Medicinal]
-  growth_rate: Moderate
-  mature_height: 10-20 ft
-  sun: Full Sun
-  water: Moderate
-  soil: Well-drained
-  propagation: [Grafting]
-  companions: [Lemongrass, Comfrey, Nasturtium]
-  description: >-
-    Seedless easy-peeling orange named for the secondary fruit at the blossom
-    end. Excellent fresh eating quality. Washington navel is the standard variety.
-    Produces best in California but grows well in Florida with proper care.
+  ideal_temp_min: 60
+  ideal_temp_max: 88
+  min_temp: 25
+  max_temp: 105
+  perennial: true
+  layers:
+  - Canopy
+  plant_function:
+  - Edible
+  - Medicinal
+  - Pollinator
+  - Wildlife Attractor
+  - Border Plant
+  description: "Navel orange is a seedless (or nearly seedless) sweet orange (Citrus sinensis) selection famous for easy-peeling
+    fruit and a secondary ‘navel’ at the blossom end. Evergreen trees carry glossy foliage and heavy spring fragrance, producing
+    table-quality oranges where heat units and irrigation line up in humid subtropical orchards. It is a household staple
+    because fresh-eating quality is high and kitchen waste is minimal compared with seedy types.\n\n☀️💧 Sun and Water Requirements:\n-
+    Full sun drives sugar and peel thickness appropriate to handling.\n- Deep, infrequent watering once established; short
+    pulses that only wet the top few inches train shallow roots and invite stress.\n- Protect blooms and young fruit from advective
+    freezes; mature wood tolerates brief dips better than flowers.\n\n✂️ Propagation:\n- Commercial trees are grafted clones
+    so the navel trait stays stable.\n- Seeds do not reproduce true navel morphology—do not plant grocery seeds for this
+    goal.\n- Topworking can convert an older sweet orange scaffold if compatibility and sanitation are respected.\n\n🌾 Harvest
+    / Best Use Timing:\n- Pick when sugar/acid tastes right; navels do not improve off-tree like some pears.\n- Clip stems
+    to avoid torn peel entries for decay organisms.\n- Juice promptly if you freeze; navels can turn bitter in storage compared
+    with juicing oranges—taste small batches first."
+  purpose: |-
+    Navel orange serves multiple functions in a permaculture system:
+
+    - Edible: Out-of-hand fruit, segments in salads, and quick juice for immediate drinking.
+    - Medicinal: Vitamin C and citrus flavonoids show up in everyday food–medicine—mind interactions with certain prescriptions.
+    - Pollinator: Fragrant flowers overlap with other orchard species for pollinator forage density.
+    - Wildlife Attractor: Fruit drops feed birds if you allow seasonal losses.
+    - Border Plant: Works as a yard tree or orchard row where spacing matches equipment and shade plans.
+  companions:
+  - Comfrey — chop-and-drop mulch bank outside the immediate trunk circle.
+  - Nasturtium — trap and table crop at the orchard skirt for aphid diversion.
+  - Marigold — bright insectary ground cover that pairs with citrus guild aesthetics.
+  cautions:
+  - Walnut
+  pests:
+  - Asian Citrus Psyllid
+  - Brown Citrus Aphid
+  - Citrus Canker
+  - Citrus Greening
+  - Citrus Leafminer
+  - Citrus Mealybug
+  - Citrus Red Mite
+  - Citrus Root Weevil
+  - Citrus Rust Mite
+  - Citrus Whitefly
+  - Texas Citrus Mite
+  practitioner_notes: |-
+    Peel thickness varies by season—thin skins bruise faster at peak sugar.
+    Navels can granulate in hot, dry finishes; water honesty beats panic foliar feeds.
+    If the ‘navel’ grows weird on young fruit, that is biology, not a moral failing.
+    Store fruit with ventilation; plastic bags invite mold parties.
+  growth_habit: Evergreen broadleaf tree; rounded crown typical under full sun
+  data_quality_score: 0.82

@@ -1,20 +1,67 @@
 ---
 - common_name: Persian Lime
-  slug: persian-lime
-  scientific_name: Citrus x latifolia
-  family: Rutaceae
   picture: persian_lime.jpg
+  scientific_name: Citrus × latifolia
+  aka:
+  - Tahiti Lime
+  - Bearss Lime
+  family: Rutaceae
   zone: 9-11
-  layers: [Shrub]
-  plant_function: [Edible, Medicinal]
-  growth_rate: Moderate
-  mature_height: 10-15 ft
-  sun: Full Sun
-  water: Moderate
-  soil: Well-drained
-  propagation: [Grafting]
-  companions: [Lemongrass, Comfrey, Nasturtium]
-  description: >-
-    Seedless thornless lime widely grown commercially and in home gardens.
-    More cold-hardy than Key lime. Produces year-round in Florida. The
-    standard supermarket lime — easier to grow than Key lime.
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 25
+  max_temp: 105
+  perennial: true
+  layers:
+  - Canopy
+  plant_function:
+  - Edible
+  - Medicinal
+  - Pollinator
+  - Wildlife Attractor
+  - Border Plant
+  description: "Persian lime (Citrus × latifolia) is a thornless, typically seedless lime hybrid grown worldwide for consistent
+    fruit size, thick rind, and reliable bearing in humid subtropical orchards and backyard rows. Trees run taller than many
+    key lime selections but share the glossy evergreen look and heavy spring bloom that perfumes an entire yard. It is the
+    workhorse lime in markets because the fruit ships and juices with fewer seed surprises than seedy types.\n\n☀️💧 Sun and
+    Water Requirements:\n- Full sun for dense canopies and productive wood; interior shading reduces fruiting twigs.\n- Even
+    soil moisture with excellent drainage—classic citrus rhythm of deep, less frequent water once roots establish.\n- Tolerates
+    brief cold slightly better than key lime in many sites, but flowering wood still burns when advective freezes line up with
+    bloom.\n\n✂️ Propagation:\n- Grafted nursery trees are the norm for thornless habit and seedless fruit expression.\n-
+    Vegetative cloning keeps the hybrid traits; seedlings wander genetically.\n- Topworking an older citrus frame is possible
+    for skilled grafters with compatible stock.\n\n🌾 Harvest / Best Use Timing:\n- Pick green for classic lime punch; allow
+    slight yellowing if you want softer acid for some drinks.\n- Clip with pruners to avoid torn peel openings for decay.\n-
+    Juice freezes in cubes; zest first because the freezer steals perfume faster than acid."
+  purpose: |-
+    Persian lime serves multiple functions in a permaculture system:
+
+    - Edible: Bar-grade juice, zest, and candied peel for year-round acid without dairy-industry sweeteners.
+    - Medicinal: Vitamin C and citrus bioactives show up in teas and tonics—check interactions if you are on steady meds.
+    - Pollinator: Bloom stacks with other citrus and early herbs for bee flights in warm months.
+    - Wildlife Attractor: Fallen fruit feeds ground birds if policy allows.
+    - Border Plant: Orchard-scale spacing or patio tree form when pruned for walkable skirts.
+  companions:
+  - Comfrey — chop-and-drop outside the trunk zone to feed fungi without suffocating feeder roots.
+  - Nasturtium — aphid magnet at the row edge; edible flowers for salads while scouts watch pressure.
+  - Marigold — bright ground-level indicator plantings that pair with citrus guild aesthetics and insect observation.
+  cautions:
+  - Walnut
+  pests:
+  - Asian Citrus Psyllid
+  - Brown Citrus Aphid
+  - Citrus Canker
+  - Citrus Greening
+  - Citrus Leafminer
+  - Citrus Mealybug
+  - Citrus Red Mite
+  - Citrus Root Weevil
+  - Citrus Rust Mite
+  - Citrus Whitefly
+  - Texas Citrus Mite
+  practitioner_notes: |-
+    Seedless does not mean pestless—scout the undersides like you mean it.
+    Heavy crops bend limbs; summer thinning saves winter breakage.
+    If rinds look rough but leaves look fine, mites may be doing cosmetic work without asking permission.
+    Rotate harvest tests across canopy quadrants—sun exposure rewrites Brix on the same tree.
+  growth_habit: Evergreen broadleaf tree; rounded crown, often thornless in commerce
+  data_quality_score: 0.82

@@ -1,21 +1,59 @@
 ---
 - common_name: Yerba Mate
-  slug: yerba-mate
-  scientific_name: Ilex paraguariensis
-  family: Aquifoliaceae
   picture: yerba_mate.jpg
+  scientific_name: Ilex paraguariensis
+  aka:
+  - Mate
+  - Paraguayan holly
+  family: Aquifoliaceae
   zone: 9-11
-  layers: [Shrub, Canopy]
-  plant_function: [Edible, Medicinal, Stimulant]
-  growth_rate: Moderate
-  mature_height: 15-50 ft
-  sun: Part Shade to Full Sun
-  water: Moderate
-  soil: Acidic, Well-drained
-  propagation: [Seed, Cuttings]
-  companions: [Elderberry, Moringa, Banana]
-  description: >-
-    South American holly whose leaves are dried and brewed into mate tea. High
-    in caffeine, theobromine, and antioxidants. Grows well in humid subtropical
-    climates. In Florida prefers part shade and acidic sandy soil. Can take
-    years to establish but becomes a productive perennial shrub.
+  ideal_temp_min: 55
+  ideal_temp_max: 85
+  min_temp: 15
+  max_temp: 100
+  perennial: true
+  layers:
+  - Tree
+  plant_function:
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  - Shade Provider
+  - Border Plant
+  description: "Yerba mate (Ilex paraguariensis) is an evergreen tree to large shrub of Atlantic forests in South America,
+    grown for dried leaves brewed into mate—a caffeinated, theobromine-carrying drink with deep cultural roots far beyond ‘trend
+    tea.’ Leaves are leathery, lightly toothed, and harvestable once plants size up; young plants look like polite holly cousins
+    until trunks thicken. In humid subtropical sites it appreciates acidic, well-drained soil, dappled to full sun transitions,
+    and honest air movement to reduce foliar funk.\n\n☀️💧 Sun and Water Requirements:\n- Young plants often favor partial shade;
+    mature trees accept more sun where roots can explore moisture.\n- Consistent moisture without swamp conditions; mulch keeps
+    roots cool in heat.\n- Protect from hard freezes when young; mature specimens tolerate brief dips better with site protection.\n\n✂️
+    Propagation:\n- Seeds need fresh sowing and patience—germination can be slow and variable.\n- Cuttings from semi-hardwood
+    can clone known selections when humidity is managed.\n- Air-layering works for backyard propagation of proven trees.\n\n🌾
+    Harvest / Best Use Timing:\n- Harvest leaves on a rotation that leaves enough canopy for recovery—this is a tree crop,
+    not basil.\n- Dry with airflow to prevent mold; mate flavor depends on clean fermentation and drying steps if you go traditional.\n-
+    Store dried leaf like tea: airtight, dark, away from spice-cabinet chaos."
+  purpose: |-
+    Yerba mate serves multiple functions in a permaculture system:
+
+    - Edible: Leaf tea with caffeine and theobromine—social drink or solo ritual depending on your kitchen politics.
+    - Medicinal: Traditional stimulant and focus plant—respect caffeine sensitivity and medication overlap.
+    - Wildlife Attractor: Holly-family flowers and structure support insects and birds in diverse plantings.
+    - Shade Provider: Establishes canopy for understory guilds in warm, humid designs where evergreens earn their space.
+    - Border Plant: Works as a managed row or yard tree where spacing matches long-term trunk diameter reality.
+  companions:
+  - Banana — fast herbaceous shade and leaf litter while mate is young; manage banana vigor so it does not smother the holly.
+  - Moringa — seasonal light partner if coppiced responsibly; avoid permanent shade wars.
+  - Elderberry — edge shrub with different bloom timing; shares hedgerow culture without sharing pests one-to-one.
+  cautions:
+  - None documented
+  pests:
+  - Aphids
+  - Scale Insects
+  - Spider Mites
+  practitioner_notes: |-
+    First years are patience school—do not measure success like annuals.
+    Leaf harvest is a budget—percent of canopy, not ‘whatever fits the basket.’
+    If chlorosis shows on alkaline soils, acidity is not a vibe—it is chemistry.
+    Drying mold ruins batches faster than weak flavor—airflow is non-negotiable.
+  growth_habit: Evergreen tree to large shrub; dense branching when tip-pruned for leaf
+  data_quality_score: 0.82

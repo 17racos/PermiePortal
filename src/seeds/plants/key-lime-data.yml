@@ -1,20 +1,69 @@
 ---
 - common_name: Key Lime
-  slug: key-lime
-  scientific_name: Citrus aurantiifolia
-  family: Rutaceae
   picture: key_lime.jpg
+  scientific_name: Citrus aurantiifolia
+  aka:
+  - Mexican Lime
+  - West Indian Lime
+  family: Rutaceae
   zone: 9-11
-  layers: [Shrub]
-  plant_function: [Edible, Medicinal]
-  growth_rate: Moderate
-  mature_height: 6-13 ft
-  sun: Full Sun
-  water: Moderate
-  soil: Well-drained
-  propagation: [Grafting, Seed]
-  companions: [Lemongrass, Comfrey, Basil]
-  description: >-
-    Small thorny citrus producing highly aromatic tart limes. Famous in Florida
-    Keys cuisine. More cold-sensitive than Persian lime. Prolific producer in
-    Zone 10-11, worth protecting in Zone 9.
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 28
+  max_temp: 105
+  perennial: true
+  layers:
+  - Canopy
+  plant_function:
+  - Edible
+  - Medicinal
+  - Pollinator
+  - Wildlife Attractor
+  - Border Plant
+  description: "Key lime (Citrus aurantiifolia) is a smaller, often thorny evergreen citrus with intensely aromatic thin-skinned
+    fruit prized for pie, drinks, and bright acidity in cooking. Native to Southeast Asia and spread through humid subtropical
+    and tropical coasts, it behaves like a compact orchard tree in warm zones and a protected patio plant where winter chill
+    nibbles margins. The juice is sharply acidic with floral perfume that survives heating better than many sweet oranges,
+    which is why it anchors classic dessert recipes.\n\n☀️💧 Sun and Water Requirements:\n- Full sun for flowering and fruit
+    set; weak light yields leafy trees that talk a big lime game with few fruit.\n- Steady moisture in well-drained soil;
+    soggy roots invite Phytophthora drama while bone-dry swings split fruit.\n- More frost-sensitive than many commercial
+    limes; site near thermal mass or cover on the coldest nights at the edge of its range.\n\n✂️ Propagation:\n- Grafting onto
+    compatible rootstocks is the practical route for known fruit quality and tree size.\n- Seeds sprout readily but add years
+    and variability—fine for rootstock experiments, not for predictable pie timelines.\n- Air-layering works for cloning
+    a proven backyard tree when you already have one worth repeating.\n\n🌾 Harvest / Best Use Timing:\n- Pick when fruit lightens
+    slightly and yields a little—over-green fruit is harsh; over-yellow can be seedy and less punchy.\n- Harvest before heavy
+    freeze events if marginal; frozen juice sacks still work for cooking but fresh zest hates frost.\n- Store short-term
+    on the counter; zest before refrigeration dulls aromatics faster than the juice sours."
+  purpose: |-
+    Key lime serves multiple functions in a permaculture system:
+
+    - Edible: Juice, zest, and preserved lime in salt or sugar for year-round flavor without fake green dye.
+    - Medicinal: Vitamin C and aromatic oils show up in traditional teas and tonics—respect medication interactions with citrus.
+    - Pollinator: Fragrant flowers stack nectar with other citrus blooms for bee forage windows.
+    - Wildlife Attractor: Fruit feeds birds and possums if your ethics include sharing.
+    - Border Plant: Sized for smaller yards and courtyard orchards when pruned for structure, not shade denial.
+  companions:
+  - Basil — understory herb that likes the same bright light and rewards quick harvests between citrus flushes.
+  - Comfrey — mineral-rich mulch cuttings that stay outside the immediate trunk circle.
+  - Lemongrass — clumping grass edge that marks guild boundaries and pairs culturally with lime-heavy cuisines.
+  cautions:
+  - Walnut
+  pests:
+  - Asian Citrus Psyllid
+  - Brown Citrus Aphid
+  - Citrus Canker
+  - Citrus Greening
+  - Citrus Leafminer
+  - Citrus Mealybug
+  - Citrus Red Mite
+  - Citrus Root Weevil
+  - Citrus Rust Mite
+  - Citrus Whitefly
+  - Texas Citrus Mite
+  practitioner_notes: |-
+    Thorny twigs punish casual pruning—wear gloves and respect the tree’s personal space.
+    Alternate bearing happens—track bloom load, not just last year’s guilt.
+    Thinning clusters after fruit set sizes remaining limes for reliable kitchen math.
+    If leaves yellow with green veins, split deficiency from waterlogging before you buy micronutrient jewelry.
+  growth_habit: Small evergreen tree; often thorny twigs when juvenile
+  data_quality_score: 0.82
