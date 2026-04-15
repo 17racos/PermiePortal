@@ -234,13 +234,7 @@ const ifasUrl = `https://edis.ifas.ufl.edu/search?q=${nameQuery}`;
         <div class="symptom-strip">
           <span class="symptom-strip-label">Symptoms to look for:</span>
           {pest.symptoms.map((sym: string) => (
-            
-              href={`/diagnose#${sym}`}
-              class="symptom-tag"
-              onclick={`event.preventDefault(); window.location='/diagnose?s=${sym}'`}
-            >
-              {sym.replace(/-/g, ' ')}
-            </a>
+            <span class="symptom-tag">{sym.replace(/-/g, ' ')}</span>
           ))}
           <p class="diagnose-hint">Not sure what you have? <a href="/diagnose">Use the symptom diagnosis tool →</a></p>
         </div>
