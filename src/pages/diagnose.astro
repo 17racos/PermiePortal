@@ -199,9 +199,17 @@ const allSymptoms = Object.keys(SYMPTOM_LABELS);
       return { pest: p, matches: matches, score: matches.length };
     });
 
-    // Split into exact and partial
+    // Dynamic threshold -- require more matches as you select more symptoms
+    // 1 symptom: show all matches
+    // 2 symptoms: show pests matching at least 1
+    // 3+ symptoms: show pests matching at least half (rounded up)
+    var minScore = selected.length <= 2
+      ? 1
+      : Math.ceil(selected.length * 0.6);
+
+    // Split into exact and partial (above threshold)
     var exactMatches = scored.filter(function(x) { return x.score === selected.length; });
-    var partialMatches = scored.filter(function(x) { return x.score > 0 && x.score < selected.length; });
+    var partialMatches = scored.filter(function(x) { return x.score >= minScore && x.score < selected.length; });
 
     // Sort each by affected plant count
     function byImpact(a, b) {
