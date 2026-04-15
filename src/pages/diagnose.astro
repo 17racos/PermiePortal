@@ -76,18 +76,18 @@ const allSymptoms = Object.keys(SYMPTOM_LABELS);
   .results-header { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ash); margin-bottom: 1.5rem; min-height: 1.2rem; }
   .results-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
 
-  .pest-card { display: block; text-decoration: none; background: var(--bark); border: 1px solid rgba(196,85,26,0.15); transition: all 0.2s; }
-  .pest-card:hover { border-color: rgba(196,85,26,0.4); background: rgba(122,59,30,0.1); }
-  .pest-card-img { width: 100%; height: 160px; object-fit: cover; opacity: 0.8; }
-  .pest-card-img-placeholder { width: 100%; height: 160px; background: linear-gradient(135deg, rgba(122,59,30,0.4), var(--bark)); display: flex; align-items: center; justify-content: center; }
-  .pest-card-body { padding: 1rem; }
-  .pest-card-name { font-family: 'Bebas Neue', sans-serif; font-size: 1.3rem; letter-spacing: 0.03em; color: var(--paper); margin-bottom: 0.4rem; }
-  .pest-card-sci { font-style: italic; font-size: 0.8rem; color: var(--ash); margin-bottom: 0.6rem; }
-  .pest-card-symptoms { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-bottom: 0.75rem; }
-  .pest-symptom-tag { font-family: 'Space Mono', monospace; font-size: 0.55rem; letter-spacing: 0.05em; padding: 0.2rem 0.5rem; background: rgba(196,85,26,0.15); border: 1px solid rgba(196,85,26,0.25); color: var(--rust); }
-  .pest-symptom-tag.matched { background: rgba(42,61,31,0.4); border-color: rgba(139,184,58,0.4); color: var(--lime); }
-  .pest-card-link { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--rust); }
-  .match-score { font-family: 'Bebas Neue', sans-serif; font-size: 1rem; color: var(--lime); float: right; }
+  :global(.pest-card) { display: block; text-decoration: none; background: var(--bark); border: 1px solid rgba(196,85,26,0.15); transition: all 0.2s; }
+  :global(.pest-card:hover) { border-color: rgba(196,85,26,0.4); background: rgba(122,59,30,0.1); }
+  :global(.pest-card-img) { width: 100%; height: 160px; object-fit: cover; opacity: 0.8; }
+  :global(.pest-card-img-placeholder) { width: 100%; height: 160px; background: linear-gradient(135deg, rgba(122,59,30,0.4), var(--bark)); display: flex; align-items: center; justify-content: center; }
+  :global(.pest-card-body) { padding: 1rem; }
+  :global(.pest-card-name) { font-family: 'Bebas Neue', sans-serif; font-size: 1.3rem; letter-spacing: 0.03em; color: var(--paper); margin-bottom: 0.4rem; }
+  :global(.pest-card-sci) { font-style: italic; font-size: 0.8rem; color: var(--ash); margin-bottom: 0.6rem; }
+  :global(.pest-card-symptoms) { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-bottom: 0.75rem; }
+  :global(.pest-symptom-tag) { font-family: 'Space Mono', monospace; font-size: 0.55rem; letter-spacing: 0.05em; padding: 0.2rem 0.5rem; background: rgba(196,85,26,0.15); border: 1px solid rgba(196,85,26,0.25); color: var(--rust); }
+  :global(.pest-symptom-tag.matched) { background: rgba(42,61,31,0.4); border-color: rgba(139,184,58,0.4); color: var(--lime); }
+  :global(.pest-card-link) { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--rust); }
+  :global(.match-score) { font-family: 'Bebas Neue', sans-serif; font-size: 1rem; color: var(--lime); float: right; }
 
   .empty-state { grid-column: 1 / -1; padding: 4rem 2rem; text-align: center; border: 1px dashed rgba(139,184,58,0.2); }
   .empty-state-title { font-family: 'Bebas Neue', sans-serif; font-size: 2rem; color: var(--ash); margin-bottom: 0.5rem; }
