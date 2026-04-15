@@ -192,64 +192,43 @@ const allSymptoms = Object.keys(SYMPTOM_LABELS);
       return;
     }
 
-    // Score every pest
-    var scored = pests.map(function(p) {
+    // STRICT AND filter -- pest must have ALL selected symptoms
+    var matched = pests.filter(function(p) {
       var pestSymptoms = p.symptoms || [];
-      var matches = selected.filter(function(s) { return pestSymptoms.indexOf(s) !== -1; });
-      return { pest: p, matches: matches, score: matches.length };
+      return selected.every(function(s) {
+        return pestSymptoms.indexOf(s) !== -1;
+      });
     });
 
-    // Dynamic threshold -- require more matches as you select more symptoms
-    // 1 symptom: show all matches
-    // 2 symptoms: show pests matching at least 1
-    // 3+ symptoms: show pests matching at least half (rounded up)
-    var minScore = selected.length <= 2
-      ? 1
-      : Math.ceil(selected.length * 0.6);
+    // Sort by affected plant count descending
+    matched.sort(function(a, b) {
+      return (b.affected_plants || []).length - (a.affected_plants || []).length;
+    });
 
-    // Split into exact and partial (above threshold)
-    var exactMatches = scored.filter(function(x) { return x.score === selected.length; });
-    var partialMatches = scored.filter(function(x) { return x.score >= minScore && x.score < selected.length; });
+    var top = matched.slice(0, 24);
 
-    // Sort each by affected plant count
-    function byImpact(a, b) {
-      if (b.score !== a.score) return b.score - a.score;
-      return (b.pest.affected_plants || []).length - (a.pest.affected_plants || []).length;
-    }
-    exactMatches.sort(byImpact);
-    partialMatches.sort(byImpact);
-
-    // Combine -- exact first then partial
-    var top = exactMatches.concat(partialMatches).slice(0, 24);
-
-    header.textContent = exactMatches.length + ' pest' + (exactMatches.length !== 1 ? 's' : '') + ' match all ' + (selected.length > 1 ? selected.length + ' symptoms' : 'symptom');
+    header.textContent = matched.length + ' pest' + (matched.length !== 1 ? 's' : '') + ' match' + (matched.length === 1 ? 'es' : '') + ' all ' + selected.length + ' symptom' + (selected.length !== 1 ? 's' : '');
 
     if (top.length === 0) {
-      grid.innerHTML = '<div class="empty-state"><div class="empty-state-title">No matches found</div><div class="empty-state-sub">Try different symptoms</div></div>';
+      grid.innerHTML = '<div class="empty-state"><div class="empty-state-title">No matches found</div><div class="empty-state-sub">Try removing a symptom or selecting a different combination</div></div>';
       return;
     }
 
-    grid.innerHTML = top.map(function(item) {
-      var p = item.pest;
-      var isExact = item.score === selected.length;
+    grid.innerHTML = top.map(function(p) {
+      var pestSymptoms = p.symptoms || [];
       var imgHtml = p.picture
         ? '<img class="pest-card-img" src="/assets/pests/' + p.picture + '" alt="' + p.name + '" loading="lazy" />'
         : '<div class="pest-card-img-placeholder"><span style="font-family:monospace;font-size:0.6rem;color:rgba(196,85,26,0.3);text-transform:uppercase">' + p.name + '</span></div>';
 
-      var sympTags = (p.symptoms || []).map(function(s) {
-        var isMatch = item.matches.indexOf(s) !== -1;
+      var sympTags = pestSymptoms.map(function(s) {
+        var isMatch = selected.indexOf(s) !== -1;
         var label = s.replace(/-/g, ' ');
         return '<span class="pest-symptom-tag' + (isMatch ? ' matched' : '') + '">' + label + '</span>';
       }).join('');
 
-      var matchBadge = isExact
-        ? '<span style="font-family:monospace;font-size:0.55rem;background:rgba(42,61,31,0.6);border:1px solid rgba(139,184,58,0.4);color:var(--lime);padding:0.15rem 0.5rem;float:right">EXACT</span>'
-        : '<span style="font-family:monospace;font-size:0.55rem;color:var(--ash);float:right">' + item.score + '/' + selected.length + '</span>';
-
       return '<a href="/pests/' + p.slug + '" class="pest-card">'
         + imgHtml
         + '<div class="pest-card-body">'
-        + matchBadge
         + '<div class="pest-card-name">' + p.name + '</div>'
         + '<div class="pest-card-sci">' + (p.scientific_name || '') + '</div>'
         + '<div class="pest-card-symptoms">' + sympTags + '</div>'
