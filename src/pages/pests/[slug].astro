@@ -123,6 +123,13 @@ const ifasUrl = `https://edis.ifas.ufl.edu/search?q=${nameQuery}`;
   .section-title { font-family: 'Bebas Neue', sans-serif; font-size: 2rem; letter-spacing: 0.03em; color: var(--paper); margin-bottom: 1.25rem; }
   .description { font-size: 1.05rem; line-height: 1.8; color: var(--ash); }
   .characteristics { font-size: 1rem; line-height: 1.75; color: var(--ash); margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid rgba(139,184,58,0.1); }
+  .symptom-strip { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid rgba(139,184,58,0.1); }
+  .symptom-strip-label { font-family: 'Space Mono', monospace; font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ash); opacity: 0.6; width: 100%; margin-bottom: 0.25rem; }
+  .symptom-tag { font-family: 'Space Mono', monospace; font-size: 0.58rem; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.2rem 0.6rem; background: rgba(196,85,26,0.12); border: 1px solid rgba(196,85,26,0.25); color: var(--rust); text-decoration: none; transition: all 0.2s; }
+  .symptom-tag:hover { background: rgba(196,85,26,0.25); border-color: var(--rust); color: var(--paper); }
+  .diagnose-hint { margin-top: 1rem; font-family: 'Space Mono', monospace; font-size: 0.62rem; letter-spacing: 0.08em; color: var(--ash); }
+  .diagnose-hint a { color: var(--lime); text-decoration: none; }
+  .diagnose-hint a:hover { text-decoration: underline; }
 
   /* PHOTO STRIP */
   .photo-strip { margin-top: 1.5rem; padding: 1.25rem 1.5rem; background: rgba(28,24,18,0.7); border: 1px solid rgba(196,85,26,0.15); }
@@ -222,6 +229,22 @@ const ifasUrl = `https://edis.ifas.ufl.edu/search?q=${nameQuery}`;
       <p class="section-label">Field Identification</p>
       {pest.description && <p class="description">{pest.description}</p>}
       {pest.characteristics && <p class="characteristics">{pest.characteristics}</p>}
+
+      {pest.symptoms && pest.symptoms.length > 0 && (
+        <div class="symptom-strip">
+          <span class="symptom-strip-label">Symptoms to look for:</span>
+          {pest.symptoms.map((sym: string) => (
+            
+              href={`/diagnose#${sym}`}
+              class="symptom-tag"
+              onclick={`event.preventDefault(); window.location='/diagnose?s=${sym}'`}
+            >
+              {sym.replace(/-/g, ' ')}
+            </a>
+          ))}
+          <p class="diagnose-hint">Not sure what you have? <a href="/diagnose">Use the symptom diagnosis tool →</a></p>
+        </div>
+      )}
 
       <div class="photo-strip">
         <div class="photo-strip-label">More identification photos — verified field observations</div>
