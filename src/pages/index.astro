@@ -266,6 +266,18 @@ const tickerMessages = [
 
 
 
+<!-- TICKER — duplicated for seamless loop -->
+<div class="rant-bar" aria-hidden="true">
+  <div class="rant-track">
+    {[...tickerMessages, ...tickerMessages].map((msg, i) => (
+      <span class="rant-segment">
+        <span class="rant-dot">⬤</span>
+        <span class="rant-item">{msg}</span>
+      </span>
+    ))}
+  </div>
+</div>
+
 <section class="start-here">
   <div class="start-here-inner">
     <div class="start-here-header">
@@ -318,17 +330,6 @@ const tickerMessages = [
   </div>
 </section>
 
-<!-- TICKER — duplicated for seamless loop -->
-<div class="rant-bar" aria-hidden="true">
-  <div class="rant-track">
-    {[...tickerMessages, ...tickerMessages].map((msg, i) => (
-      <span class="rant-segment">
-        <span class="rant-dot">⬤</span>
-        <span class="rant-item">{msg}</span>
-      </span>
-    ))}
-  </div>
-</div>
 
 
 <section class="manifesto">
