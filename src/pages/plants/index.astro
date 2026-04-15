@@ -85,6 +85,8 @@ const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].sort();
   }
 
   .zone-label { margin-left: 1rem; }
+  .clear-btn { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.45rem 1rem; background: transparent; border: 1px solid rgba(196,85,26,0.4); color: var(--rust); cursor: pointer; transition: all 0.2s; margin-left: auto; flex-shrink: 0; }
+  .clear-btn:hover { border-color: var(--rust); background: rgba(122,59,30,0.2); }
   .zone-input { font-family: 'Space Mono', monospace; font-size: 0.72rem; background: transparent; border: 1px solid rgba(139,184,58,0.25); color: var(--paper); padding: 0.45rem 0.75rem; width: 70px; letter-spacing: 0.05em; }
   .zone-input::placeholder { color: var(--ash); opacity: 0.5; }
   .zone-input:focus { outline: none; border-color: var(--lime); }
@@ -284,9 +286,8 @@ const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].sort();
 <nav class="nav">
   <a href="/" class="nav-logo">PermiePortal</a>
   <ul class="nav-links">
-    <li><a href="/plants" aria-current="true">Plants</a></li>
+    <li><a href="/plants">Plants</a></li>
     <li><a href="/pests">Pests</a></li>
-    <li><a href="/plants/families">Plant Families</a></li>
     <li><a href="/articles">Articles</a></li>
     <li><a href="/about">About</a></li>
   </ul>
@@ -328,6 +329,7 @@ const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].sort();
       autocomplete="off"
     />
   </div>
+  <button class="clear-btn" id="clear-filters" style="display:none">✕ Clear</button>
 </div>
 
 <div class="grid-wrap">
@@ -426,11 +428,7 @@ const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].sort();
     noResults.style.display = matched === 0 ? 'block' : 'none';
   }
 
-  search?.addEventListener('input', e => {
-    searchTerm = (e.target as HTMLInputElement).value.toLowerCase().trim();
-    visibleCount = 60;
-    applyFilters();
-  });
+
 
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -446,11 +444,41 @@ const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].sort();
   });
 
   const zoneInput = document.getElementById('zone-input') as HTMLInputElement;
+  const clearBtn = document.getElementById('clear-filters') as HTMLButtonElement;
+
+  function updateClearBtn() {
+    const active = activeLayer !== 'all' || activeZone !== 'all' || searchTerm !== '';
+    if (clearBtn) clearBtn.style.display = active ? 'block' : 'none';
+  }
+
   zoneInput?.addEventListener('input', e => {
     activeZone = (e.target as HTMLInputElement).value.trim() || 'all';
     visibleCount = 60;
     applyFilters();
+    updateClearBtn();
   });
+
+  search?.addEventListener('input', e => {
+    searchTerm = (e.target as HTMLInputElement).value.toLowerCase().trim();
+    visibleCount = 60;
+    applyFilters();
+    updateClearBtn();
+  });
+
+  clearBtn?.addEventListener('click', () => {
+    activeLayer = 'all';
+    activeZone = 'all';
+    searchTerm = '';
+    visibleCount = 60;
+    if (search) search.value = '';
+    if (zoneInput) zoneInput.value = '';
+    filterBtns.forEach(b => {
+      if (b.dataset.filter === 'layer') b.classList.toggle('active', b.dataset.value === 'all');
+    });
+    applyFilters();
+    updateClearBtn();
+  });
+
   applyFilters();
 </script>
 

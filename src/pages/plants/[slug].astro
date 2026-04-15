@@ -62,7 +62,7 @@ const purposeLines = purposeRaw
   body { background: var(--soil); color: var(--paper); font-family: 'Instrument Serif', Georgia, serif; }
 
   /* NAV */
-  .nav { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 2rem; border-bottom: 1px solid rgba(139,184,58,0.2); }
+  .nav { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 2rem; border-bottom: 1px solid rgba(139,184,58,0.2); position: sticky; top: 0; z-index: 100; background: rgba(15,13,10,0.97); backdrop-filter: blur(8px); }
   .nav-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; letter-spacing: 0.08em; color: var(--lime); text-decoration: none; }
   .nav-links { display: flex; gap: 2rem; list-style: none; }
   .nav-links a { font-family: 'Space Mono', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ash); text-decoration: none; transition: color 0.2s; }
@@ -155,7 +155,6 @@ const purposeLines = purposeRaw
   <ul class="nav-links">
     <li><a href="/plants">Plants</a></li>
     <li><a href="/pests">Pests</a></li>
-    <li><a href="/plants/families">Plant Families</a></li>
     <li><a href="/articles">Articles</a></li>
     <li><a href="/about">About</a></li>
   </ul>
