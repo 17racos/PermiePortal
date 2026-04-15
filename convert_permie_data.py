@@ -152,6 +152,7 @@ def process_pest(data):
         "characteristics": clean_string(data.get('characteristics', '')),
         "control_methods": control_methods,
         "natural_enemies": [str(e).strip() for e in enemies if e],
+        "symptoms": [str(s).strip() for s in (data.get('symptoms') or []) if s],
         "affected_plants": [],
         "_yaml_affected_plants": yaml_affected,
     }
