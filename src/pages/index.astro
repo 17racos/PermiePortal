@@ -359,49 +359,66 @@ const tickerMessages = [
         </div>
       </a>
     </div>
-    <button class="random-btn" id="random-plant-btn" onclick="nextRandomPlant()">
+    <button class="random-btn" id="random-plant-btn" >
       <span>↻</span> Show me another
     </button>
   </div>
 </section>
 
-<script define:vars={{ plantsData: plantsData.map(p => ({ slug: p.slug, name: p.common_name, sci: p.scientific_name, pic: p.picture, functions: p.plant_function?.slice(0,3) || [], layers: p.layers?.slice(0,1) || [] })) }}>
+<script define:vars={{ plants: plantsData.map(p => ({ slug: p.slug, name: p.common_name, sci: p.scientific_name, pic: p.picture, functions: (p.plant_function || []).slice(0,3), layers: (p.layers || []).slice(0,1) })) }}>
+(function() {
   let lastIndex = -1;
 
   function nextRandomPlant() {
     let idx;
-    do { idx = Math.floor(Math.random() * plantsData.length); } while (idx === lastIndex);
+    do { idx = Math.floor(Math.random() * plants.length); } while (idx === lastIndex);
     lastIndex = idx;
-    const p = plantsData[idx];
+    const p = plants[idx];
 
     const link = document.getElementById('random-plant-link');
     const img = document.getElementById('random-plant-img');
     const name = document.getElementById('random-plant-name');
     const sci = document.getElementById('random-plant-sci');
     const tags = document.getElementById('random-plant-tags');
-
-    link.href = '/plants/' + p.slug;
-    if (img) {
-      img.src = p.pic ? '/assets/plants/' + p.pic : '';
-      img.alt = p.name;
-      img.style.display = p.pic ? 'block' : 'none';
-    }
-    name.textContent = p.name;
-    sci.textContent = p.sci || '';
-    tags.innerHTML = [...p.functions, ...p.layers]
-      .map(t => '<span class="tag">' + t + '</span>')
-      .join('');
-
-    // Fade animation
     const card = document.getElementById('random-plant-card');
+
+    if (!link) return;
+
+    // Fade out
+    card.style.transition = 'opacity 0.15s ease, transform 0.15s ease';
     card.style.opacity = '0';
-    card.style.transform = 'translateY(8px)';
-    setTimeout(() => {
+    card.style.transform = 'translateY(6px)';
+
+    setTimeout(function() {
+      link.href = '/plants/' + p.slug;
+      if (img) {
+        if (p.pic) {
+          img.src = '/assets/plants/' + p.pic;
+          img.alt = p.name;
+          img.style.display = 'block';
+        } else {
+          img.style.display = 'none';
+        }
+      }
+      if (name) name.textContent = p.name;
+      if (sci) sci.textContent = p.sci || '';
+      if (tags) {
+        tags.innerHTML = [...p.functions, ...p.layers]
+          .map(function(t) { return '<span class="tag">' + t + '</span>'; })
+          .join('');
+      }
+      // Fade in
       card.style.transition = 'opacity 0.25s ease, transform 0.25s ease';
       card.style.opacity = '1';
       card.style.transform = 'translateY(0)';
-    }, 50);
+    }, 150);
   }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const btn = document.getElementById('random-plant-btn');
+    if (btn) btn.addEventListener('click', nextRandomPlant);
+  });
+})();
 </script>
 
 <section class="manifesto">
