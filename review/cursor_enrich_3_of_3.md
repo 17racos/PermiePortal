@@ -1,7 +1,7 @@
 # PermiePortal — Enrichment Batch 3 of 3
 
 > **Agent mode only.** ONE session at a time.
-> This batch: 19 plants. Total remaining: 59 plants + 243 pest fields.
+> This batch: 11 plants. Total remaining: 51 plants + 243 pest fields.
 
 ---
 
@@ -51,25 +51,17 @@ NEVER: None, NEEDS_DATA, or animals without pest profiles
 
 ## Plants to Enrich
 
-- `src/seeds/plants/strawberry-tree-data.yml` (11 fields)
-- `src/seeds/plants/subterranean-clover-data.yml` (11 fields)
-- `src/seeds/plants/summer-savory-data.yml` (11 fields)
-- `src/seeds/plants/sunn-hemp-data.yml` (11 fields)
-- `src/seeds/plants/sweet-corn-data.yml` (11 fields)
-- `src/seeds/plants/swiss-chard-data.yml` (11 fields)
-- `src/seeds/plants/tomato-data.yml` (11 fields)
-- `src/seeds/plants/toyon-data.yml` (11 fields)
-- `src/seeds/plants/turmeric-ginger-data.yml` (11 fields)
-- `src/seeds/plants/turnip-data.yml` (11 fields)
-- `src/seeds/plants/velvet-bean-data.yml` (11 fields)
-- `src/seeds/plants/water-mimosa-data.yml` (11 fields)
-- `src/seeds/plants/watermelon-data.yml` (11 fields)
-- `src/seeds/plants/wheat-data.yml` (11 fields)
-- `src/seeds/plants/white-clover-data.yml` (11 fields)
-- `src/seeds/plants/winter-rye-data.yml` (11 fields)
-- `src/seeds/plants/winter-savory-data.yml` (11 fields)
-- `src/seeds/plants/winter-squash-data.yml` (11 fields)
-- `src/seeds/plants/zucchini-data.yml` (11 fields)
+- `src/seeds/plants/turmeric-ginger-data.yml` (10 fields)
+- `src/seeds/plants/turnip-data.yml` (10 fields)
+- `src/seeds/plants/velvet-bean-data.yml` (10 fields)
+- `src/seeds/plants/water-mimosa-data.yml` (10 fields)
+- `src/seeds/plants/watermelon-data.yml` (10 fields)
+- `src/seeds/plants/wheat-data.yml` (10 fields)
+- `src/seeds/plants/white-clover-data.yml` (10 fields)
+- `src/seeds/plants/winter-rye-data.yml` (10 fields)
+- `src/seeds/plants/winter-savory-data.yml` (10 fields)
+- `src/seeds/plants/winter-squash-data.yml` (10 fields)
+- `src/seeds/plants/zucchini-data.yml` (10 fields)
 
 ## Pests to Enrich (0 files, 243 fields)
 

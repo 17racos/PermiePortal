@@ -1,7 +1,7 @@
 # PermiePortal — Enrichment Batch 2 of 3
 
 > **Agent mode only.** ONE session at a time.
-> This batch: 20 plants. Total remaining: 59 plants + 243 pest fields.
+> This batch: 20 plants. Total remaining: 51 plants + 243 pest fields.
 
 ---
 
@@ -51,26 +51,26 @@ NEVER: None, NEEDS_DATA, or animals without pest profiles
 
 ## Plants to Enrich
 
-- `src/seeds/plants/leek-data.yml` (11 fields)
-- `src/seeds/plants/lemon-thyme-data.yml` (11 fields)
-- `src/seeds/plants/lettuce-data.yml` (11 fields)
-- `src/seeds/plants/mandarin-data.yml` (11 fields)
-- `src/seeds/plants/medlar-data.yml` (11 fields)
-- `src/seeds/plants/mexican-sunflower-data.yml` (11 fields)
-- `src/seeds/plants/mustard-greens-data.yml` (11 fields)
-- `src/seeds/plants/oat-data.yml` (11 fields)
-- `src/seeds/plants/oilseed-radish-data.yml` (11 fields)
-- `src/seeds/plants/okra-data.yml` (11 fields)
-- `src/seeds/plants/olive-tree-data.yml` (11 fields)
-- `src/seeds/plants/pumpkin-data.yml` (11 fields)
-- `src/seeds/plants/quince-data.yml` (11 fields)
-- `src/seeds/plants/quinoa-data.yml` (11 fields)
-- `src/seeds/plants/red-clover-data.yml` (11 fields)
-- `src/seeds/plants/redcurrant-data.yml` (11 fields)
-- `src/seeds/plants/savory-data.yml` (11 fields)
-- `src/seeds/plants/shallot-data.yml` (11 fields)
-- `src/seeds/plants/sorghum-data.yml` (11 fields)
-- `src/seeds/plants/spinach-data.yml` (11 fields)
+- `src/seeds/plants/oilseed-radish-data.yml` (10 fields)
+- `src/seeds/plants/okra-data.yml` (10 fields)
+- `src/seeds/plants/olive-tree-data.yml` (10 fields)
+- `src/seeds/plants/pumpkin-data.yml` (10 fields)
+- `src/seeds/plants/quince-data.yml` (10 fields)
+- `src/seeds/plants/quinoa-data.yml` (10 fields)
+- `src/seeds/plants/red-clover-data.yml` (10 fields)
+- `src/seeds/plants/redcurrant-data.yml` (10 fields)
+- `src/seeds/plants/savory-data.yml` (10 fields)
+- `src/seeds/plants/shallot-data.yml` (10 fields)
+- `src/seeds/plants/sorghum-data.yml` (10 fields)
+- `src/seeds/plants/spinach-data.yml` (10 fields)
+- `src/seeds/plants/strawberry-tree-data.yml` (10 fields)
+- `src/seeds/plants/subterranean-clover-data.yml` (10 fields)
+- `src/seeds/plants/summer-savory-data.yml` (10 fields)
+- `src/seeds/plants/sunn-hemp-data.yml` (10 fields)
+- `src/seeds/plants/sweet-corn-data.yml` (10 fields)
+- `src/seeds/plants/swiss-chard-data.yml` (10 fields)
+- `src/seeds/plants/tomato-data.yml` (10 fields)
+- `src/seeds/plants/toyon-data.yml` (10 fields)
 ---
 
 ## When Done

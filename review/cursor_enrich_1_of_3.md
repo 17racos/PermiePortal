@@ -1,7 +1,7 @@
 # PermiePortal — Enrichment Batch 1 of 3
 
 > **Agent mode only.** ONE session at a time.
-> This batch: 20 plants. Total remaining: 59 plants + 243 pest fields.
+> This batch: 20 plants. Total remaining: 51 plants + 243 pest fields.
 
 ---
 
@@ -51,26 +51,26 @@ NEVER: None, NEEDS_DATA, or animals without pest profiles
 
 ## Plants to Enrich
 
-- `src/seeds/plants/celery-root-data.yml` (11 fields)
-- `src/seeds/plants/chervil-data.yml` (11 fields)
-- `src/seeds/plants/cilantro-data.yml` (11 fields)
-- `src/seeds/plants/clementine-data.yml` (11 fields)
-- `src/seeds/plants/cornelian-cherry-data.yml` (11 fields)
-- `src/seeds/plants/crimson-clover-data.yml` (11 fields)
-- `src/seeds/plants/crotalaria-data.yml` (11 fields)
-- `src/seeds/plants/cucumber-data.yml` (11 fields)
-- `src/seeds/plants/currant-data.yml` (11 fields)
-- `src/seeds/plants/curry-plant-data.yml` (11 fields)
-- `src/seeds/plants/daikon-radish-data.yml` (11 fields)
-- `src/seeds/plants/dragon-fruit-data.yml` (11 fields)
-- `src/seeds/plants/eggplant-data.yml` (11 fields)
-- `src/seeds/plants/feverfew-data.yml` (11 fields)
-- `src/seeds/plants/florida-betony-data.yml` (11 fields)
-- `src/seeds/plants/hairy-vetch-data.yml` (11 fields)
-- `src/seeds/plants/hawthorn-data.yml` (11 fields)
-- `src/seeds/plants/hummingbird-sage-data.yml` (11 fields)
-- `src/seeds/plants/jackbean-data.yml` (11 fields)
-- `src/seeds/plants/kiwi-data.yml` (11 fields)
+- `src/seeds/plants/currant-data.yml` (10 fields)
+- `src/seeds/plants/curry-plant-data.yml` (10 fields)
+- `src/seeds/plants/daikon-radish-data.yml` (10 fields)
+- `src/seeds/plants/dragon-fruit-data.yml` (10 fields)
+- `src/seeds/plants/eggplant-data.yml` (10 fields)
+- `src/seeds/plants/feverfew-data.yml` (10 fields)
+- `src/seeds/plants/florida-betony-data.yml` (10 fields)
+- `src/seeds/plants/hairy-vetch-data.yml` (10 fields)
+- `src/seeds/plants/hawthorn-data.yml` (10 fields)
+- `src/seeds/plants/hummingbird-sage-data.yml` (10 fields)
+- `src/seeds/plants/jackbean-data.yml` (10 fields)
+- `src/seeds/plants/kiwi-data.yml` (10 fields)
+- `src/seeds/plants/leek-data.yml` (10 fields)
+- `src/seeds/plants/lemon-thyme-data.yml` (10 fields)
+- `src/seeds/plants/lettuce-data.yml` (10 fields)
+- `src/seeds/plants/mandarin-data.yml` (10 fields)
+- `src/seeds/plants/medlar-data.yml` (10 fields)
+- `src/seeds/plants/mexican-sunflower-data.yml` (10 fields)
+- `src/seeds/plants/mustard-greens-data.yml` (10 fields)
+- `src/seeds/plants/oat-data.yml` (10 fields)
 ---
 
 ## When Done
