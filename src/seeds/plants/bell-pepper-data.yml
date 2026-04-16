@@ -1,28 +1,60 @@
 ---
 - common_name: Bell Pepper
   picture: bell_pepper.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Capsicum annuum
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Solanaceae
+  zone: 9-11
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Pollinator
+  - Wildlife Attractor
+  description: |-
+    Bell pepper (Capsicum annuum) is a warm-season fruiting plant grown for thick-fleshed peppers eaten fresh, cooked, or preserved. Originating in the Americas, it forms sturdy, branching plants that typically reach about 45–90 cm (18–35 in) tall. In permaculture, bell peppers earn their keep twice: fruits feed people, while flowers support pollinators and the plant’s leafy biomass can be composted as carbon-rich matter.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun; flowering and fruit set drop fast when light is limited.
+    - Water regularly during growth; keep soil evenly moist but never waterlogged.
+    - Prefers fertile, well-drained loam amended with compost.
+    - Cold is the enemy: growth stalls when nights drop near 50°F (10°C).
+    
+    ✂️ Propagation:
+    - Seeds: start indoors 8–10 weeks before transplanting; germination commonly takes 7–21 days at warm temperatures.
+    - Transplants: move seedlings outdoors after danger of frost and when soil is consistently warm (often above ~60°F / 16°C).
+    - Optional: start a second sowing 2–3 weeks later to spread harvest risk across weather swings.
+    
+    🌾 Harvest / Best Use Timing:
+    - Harvest when fruits reach full size; pick green for crispness or let them ripen toward yellow/red for sweetness.
+    - Cut peppers with a short stem to avoid tearing vines.
+    - Roast, sauté, dehydrate, or pickle for storage; freeze chopped pieces after blanching.
+  purpose: |-
+    Edible: The fruits provide reliable calories and flavor, turning summer into stored food via roasting, drying, and pickling.
+    Medicinal: Bell peppers supply vitamin-rich compounds; they support an everyday dietary rhythm centered on plant nutrition.
+    Pollinator: Flowers produce nectar that draws bees and other beneficial insects, helping nearby fruit set.
+    Wildlife Attractor: Fruit and flower resources feed a wider range of garden life while you harvest.
   companions:
-  - NEEDS_DATA
+  - Basil (Ocimum basilicum) — aromatic foliage helps mask pepper scent and supplies pollinator-friendly blooms.
+  - Marigold (Tagetes patula) — dense, nectar-rich flowers pull beneficial insects into the bed.
+  - Chives (Allium schoenoprasum) — strong scent “confuses the menu” for many common garden sap-feeders.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Frost and cold soil stunt growth; wait for warm nights before transplanting.
+  practitioner_notes: |-
+    Don’t overwater to “help” stressed peppers—water balance beats pity.
+    Harvest often; regular picking keeps plants producing instead of sulking into seed mode.
+    Mulch helps: steady soil moisture prevents the fruit-from-hell problem of rot and cracking.
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Whiteflies
+  - Spider Mites
+  - Root Rot
   # Image attribution: (c) bigdannyb, some rights reserved (CC BY-NC), uploaded by bigdannyb
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

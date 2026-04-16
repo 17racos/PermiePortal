@@ -1,28 +1,60 @@
 ---
 - common_name: Black Pepper Vine
   picture: black_pepper_vine.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Piper nigrum
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Piperaceae
+  zone: 10-12
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Vine
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Shade Provider
+  - Wildlife Attractor
+  description: |-
+    Black pepper vine (Piper nigrum) is a warm-climate climbing perennial that grows with support, producing peppercorns in tiers along the vine. It is native to tropical wet regions of South and Southeast Asia, where humid forests give it bright shade and stable moisture. In permaculture, it turns a living trellis into both food and a long-lived aromatic canopy connection, with leaves contributing biomass and the vine moderating harsh sun below.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Partial shade to filtered light; full sun without moisture stresses the vine.
+    - Needs consistently moist conditions during active growth; drought reduces yields.
+    - Prefers fertile, well-drained soil rich in organic matter and leaf litter.
+    - Avoid cold snaps and frost; growth slows when temperatures drop.
+    
+    ✂️ Propagation:
+    - Seeds: soak and sow in warm starter mix; germination commonly takes 3–8 weeks in steady warmth.
+    - Cuttings: take stem cuttings with nodes and root under humidity; plan on 6–10 weeks to establish.
+    - Layering: pin a flexible vine into moist soil until it forms roots.
+    
+    🌾 Harvest / Best Use Timing:
+    - Harvest pepper when berries shift from green to red; pick in rounds as clusters ripen unevenly.
+    - Dry peppercorns in airflow until fully dry, then grind as needed.
+    - Light pruning after harvest redirects growth up the trellis.
+  purpose: |-
+    Edible: Peppercorns become a shelf-stable spice, letting canopy productivity translate into kitchen output.
+    Medicinal: Aromatic compounds are used in traditional preparations, adding value as a “kitchen herb” layer.
+    Shade Provider: The climbing canopy shades soil and reduces evaporation under trellised systems.
+    Wildlife Attractor: Flowers and vine cover increase habitat and feeding opportunities for beneficial insects.
   companions:
-  - NEEDS_DATA
+  - Coffee (Coffea arabica) — shares warm, shaded understory needs and benefits from coordinated moisture management.
+  - Ginger (Zingiber officinale) — understory companion that likes warm, humid soil and uses leaf litter as mulch.
+  - Banana (Musa acuminata) — provides vertical structure and leaf biomass that supports a humid microclimate edge.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Vulnerable to frost and prolonged cold; plan for protection or warm-wall trellises in cool climates.
+  practitioner_notes: |-
+    Train the vine early on a real trellis—guiding from day one beats “fixing later.”
+    Don’t chase perfect pepper size; steady moisture during flowering is what pays.
+    Prune after harvest to keep fruiting clusters reachable.
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Spider Mites
+  - Scale Insects
+  - Borers
   # Image attribution: Nick Allen / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

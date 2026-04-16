@@ -1,28 +1,65 @@
 ---
 - common_name: Arbutus
   picture: arbutus.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Arbutus unedo
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Ericaceae
+  zone: 7-10
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  - Border Plant
+  description: |-
+    Arbutus (Arbutus unedo), often called the strawberry tree, is an evergreen small tree
+    native to the Mediterranean region and nearby western parts of Eurasia. It typically forms
+    a rounded crown and reaches roughly 5–10 m (16–33 ft) tall, with leathery, dark leaves
+    and clusters of urn-shaped flowers. Later you can find the same plant carrying strawberry-like
+    fruits, which makes it a permaculture win: one sturdy woody “column” provides food for wildlife,
+    long-lasting structure, and year-round cover while it works the soil with deep, persistent roots.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to partial shade; flowering improves in brighter sites.
+    - Moderate watering while establishing, then reduce inputs as it proves itself.
+    - Prefers acidic, well-drained soil; it dislikes soggy, heavy wet beds.
+    - Tolerates brief cool weather, but prolonged freezes below about 32°F (0°C) can reduce flowering.
+    
+    ✂️ Propagation:
+    - Seeds: collect ripe fruit, clean seeds, then cold-stratify for 8–12 weeks; germination can take 1–3 months.
+    - Semi-hardwood cuttings: take in summer, root in a humid, airy medium, and plan on 6–10 weeks to establish.
+    - Layering: bend a low branch and keep it touching moist soil for several months to form roots.
+    
+    🌾 Harvest / Best Use Timing:
+    - Pick fruits when fully ripe (deep red), typically late fall into winter depending on climate.
+    - Eat fresh or turn into jam and fruit paste; because fruits ripen unevenly, harvest in rounds.
+    - Flowers also matter: if you harvest fruit, leave some clusters for pollinators and browsing birds.
+  purpose: |-
+    Edible: The fruits add late-season sweetness and can be processed into preserves, extending the food calendar.
+    Wildlife Attractor: Flowers provide nectar and the fruit provides calories for birds and beneficial insects across seasons.
+    Ornamental: Evergreen structure plus seasonal blooms makes a living “frame” that holds a food forest together visually.
+    Border Plant: Dense foliage and a relatively compact form work along edges where you want privacy and year-round habitat.
   companions:
-  - NEEDS_DATA
+  - Blueberry (Vaccinium corymbosum) — shares acidic-soil needs and boosts understory biodiversity.
+  - Heather (Calluna vulgaris) — forms an understory that reduces erosion and weed pressure under the tree.
+  - Rosemary (Salvia rosmarinus) — drought-tolerant companion that matches well-drained, sun-forward beds.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Avoid alkaline, limestone-heavy soils; poor drainage and high pH both stress arbutus and invite decline.
+  practitioner_notes: |-
+    Leave some fruit for wildlife; the birds do not respect harvest schedules.
+    When soil stays wet, arbutus sulks fast—improve drainage instead of adding more “love.”
+    Fruit ripens unevenly; harvest in rounds so you’re not eating half-hearted berries.
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Scale Insects
+  - Borers
+  - Root Rot
   # Image attribution: (c) Christina Fryle, some rights reserved (CC BY-NC), uploaded by Christina Fryle
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

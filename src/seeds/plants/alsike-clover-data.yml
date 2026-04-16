@@ -1,28 +1,70 @@
 ---
 - common_name: Alsike Clover
   picture: alsike_clover.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Trifolium hybridum
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Fabaceae
+  zone: 4-8
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Nitrogen Fixer
+  - Mulcher
+  - Ground Cover
+  - Animal Fodder
+  description: |-
+    Alsike clover (Trifolium hybridum) is a perennial legume that forms a low, spreading mat
+    of soft foliage and short flower heads, native to Europe and adapted across temperate
+    grasslands and hay fields. It typically reaches about 20–60 cm (8–24 in) tall,
+    making it useful as a living mulch in food systems. In permaculture, it turns
+    “weeds that want to be soil” into nitrogen-rich biomass, covers bare ground during
+    cool seasons, and feeds pollinators and grazing animals when managed as forage.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to partial shade; it flowers best with consistent light.
+    - Moderate water for establishment; once rooted it tolerates short dry spells.
+    - Prefers well-drained loamy to sandy soils, but can handle moist edges better than many clovers.
+    - Avoid long waterlogged stretches to reduce crown decline.
+    
+    ✂️ Propagation:
+    - Seeds: surface-sow in early spring or early fall after soil warms to around 50°F (10°C); germination
+      is often 5–10 days with steady moisture.
+    - Seedlings/transplant: start in trays, then transplant once seedlings are sturdy (about 4–6 weeks).
+    - Division: dig and split dense patches in cool seasons; replant immediately and keep evenly moist for 1–2 weeks.
+    
+    🌾 Harvest / Best Use Timing:
+    - For forage: mow or cut when plants are 20–30 cm (8–12 in) tall and before bloom for best quality.
+    - For cover-crop mulch: cut or scythe shortly before seeds set, then leave residue as chop-and-drop.
+    - If you want seed, let stands flower and set pods; dry cut material in airflow and store cool and dry.
+  purpose: |-
+    Nitrogen Fixer: Root nodules host nitrogen-converting microbes, so mowing residue feeds neighboring plants
+    with plant-available nitrogen through leaf drop and decomposing stolons.
+    Mulcher: Frequent cutting produces frequent, carbon-rich biomass that protects soil from heat,
+    erosion, and weed takeovers.
+    Ground Cover: The low canopy shades the surface, reduces evaporation, and improves infiltration by
+    keeping soil biology active.
+    Animal Fodder: Leaves and tops can be grazed or cut for feed, turning cultivated pasture into a
+    nutrient cycle back into compost and manure.
   companions:
-  - NEEDS_DATA
+  - Comfrey (Symphytum officinale) — deep roots mine minerals while alsike clover supplies nitrogen to the topsoil via clover residue.
+  - Garlic (Allium sativum) — cool-season growth pairs well in rotations; clover mulch suppresses weeds around garlic rows.
+  - Oats (Avena sativa) — cereal cover works with clover in mixed or sequential plantings to keep ground covered and improve soil structure.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Long-term waterlogging can thin stands; replant after crown decline.
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Spittlebugs
+  - Root Rot
+  - Slugs
+  practitioner_notes: |-
+    Cut high enough to protect crowns, then feed the soil with the cuttings.
+    For fast starts, keep seedbeds evenly moist until cotyledons appear.
+    Thin, bare patches usually mean poor drainage or heat stress—fix the soil, not the plants.
   # Image attribution: (c) Gabriel Somarriba, all rights reserved, uploaded by Gabriel Somarriba
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

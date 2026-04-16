@@ -1,28 +1,60 @@
 ---
 - common_name: Carolina Willow
   picture: carolina_willow.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Salix caroliniana
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Salicaceae
+  zone: 5-9
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Erosion Control
+  - Water Retention
+  - Shade Provider
+  - Animal Fodder
+  description: |-
+    Carolina willow (Salix caroliniana) is a fast-growing woody tree/shrub native to moist areas across eastern North America. It forms flexible branches, spreads by rooting at the edges, and is built for wet ground where many plants fail. In permaculture, it’s a repair tool: strong roots stabilize banks and slopes, dense growth creates cooling shade, and fast leaf biomass becomes chop-and-drop mulch that keeps soil life humming.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to partial shade; growth accelerates with bright light.
+    - Water-loving: performs best with consistently moist soil and can tolerate flooded edges.
+    - Prefers deep, fertile, well-aerated soils; avoid long dry spells once established.
+    - Handles wet seasons well; don’t plant where you only get occasional water.
+    
+    ✂️ Propagation:
+    - Cuttings: take dormant or semi-dormant cuttings and root them in moist media; roots often establish in 4–8 weeks.
+    - Suckers/layering: bend low shoots toward wet soil and keep contact until they root (often 2–3 months).
+    - Seeds: use cleaned seed quickly and sow after cold stratification; germination timing depends on temperature stability.
+    
+    🌾 Harvest / Best Use Timing:
+    - Coppice for poles: cut for woven/woodwork in 1–3 years after establishment, then repeat on a rotation.
+    - Use leaves and small prunings as fodder or compost input whenever pruning happens.
+    - Harvest in cool parts of the day; avoid heavy cutting during extreme stress.
+  purpose: |-
+    Erosion Control: Rapid root establishment holds soil in place during rain and improves bank structure.
+    Water Retention: Woody canopies and roots slow runoff, increasing infiltration and reducing dry-season cracking.
+    Shade Provider: Dense foliage lowers understory temperatures and moderates evaporation.
+    Animal Fodder: Leaves and young twigs provide quick, renewable biomass for grazing-style systems where appropriate.
   companions:
-  - NEEDS_DATA
+  - Comfrey (Symphytum officinale) — chop-and-drop complements willow biomass and pairs well in moist edge guilds.
+  - Cattail (Typha latifolia) — wetland neighbor that fits the same water rhythm and helps stabilize saturated margins.
+  - Elderberry (Sambucus canadensis) — understory shrub layer that shares moisture needs and builds layered habitat.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Rooting can push into drains, sidewalks, and foundations; keep a separation zone.
+  practitioner_notes: |-
+    Plant willow where water actually happens; in dry uplands it becomes maintenance, not a tool.
+    Coppice in rotation so you always have young, leafy regrowth for mulch and fodder-style inputs.
+    Expect roots to explore—set a clear “this bed is for willow” boundary before it teaches itself geography.
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Borers
+  - Root Rot
+  - Slugs
   # Image attribution: (c) Mary Keim, some rights reserved (CC BY-NC-SA)
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

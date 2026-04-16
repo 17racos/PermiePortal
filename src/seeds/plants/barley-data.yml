@@ -1,28 +1,60 @@
 ---
 - common_name: Barley
   picture: barley.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Hordeum vulgare
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Poaceae
+  zone: 3-7
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Animal Fodder
+  - Biomass
+  - Erosion Control
+  description: |-
+    Barley (Hordeum vulgare) is a cool-season cereal grain grown for its edible kernels and its tough, carbon-rich straw. It is native to the Fertile Crescent region and related areas in Southwest Asia, and it now thrives across temperate climates worldwide. Plants typically grow about 60–120 cm (24–47 in) tall and form upright heads that fill a field with grain and residue. In permaculture, barley is a “two-for-one” tool: food and fodder up top, mulch and soil armor below, plus a rotation partner that keeps bare ground from turning into erosion training.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for best yields; partial shade reduces head weight.
+    - Moderate water during germination and early growth, then taper as plants mature.
+    - Prefers fertile, well-drained loam; heavy wet soil increases seedling losses.
+    - Handles cool weather well, but hates heat spikes during flowering and grain fill.
+    
+    ✂️ Propagation:
+    - Seeds (spring sow): direct-seed after soil warms to roughly 45–55°F (7–13°C); germination commonly occurs in 4–7 days.
+    - Seeds (fall/winter cover): sow before winter for an overwintering cover crop in mild-winter climates; expect spring regrowth and green biomass.
+    - Sow thick for mulch: you’ll get faster ground coverage and better weed suppression.
+    
+    🌾 Harvest / Best Use Timing:
+    - Grain: harvest when heads are mature and kernels are dry to hard (often late spring to early summer).
+    - Straw/mulch: cut straw when grain is in the dough stage so residues still break down well.
+    - Green fodder: for fresh biomass, cut young barley about 30–45 days after sowing.
+  purpose: |-
+    Edible: Grain can be milled into flour or used for malt, turning a small plot into calories you can store.
+    Animal Fodder: Straw and grain screenings feed livestock and also become compost inputs after manure processing.
+    Biomass: Stubble and straw decompose into mulch, feeding soil organisms and improving water infiltration.
+    Erosion Control: The dense root and canopy cover protect soil from wind and heavy rain, especially during cool-season gaps.
   companions:
-  - NEEDS_DATA
+  - Comfrey (Symphytum officinale) — deep roots bring minerals up; chopped comfrey complements barley straw as a nitrogen/carbon balance.
+  - Pea (Pisum sativum) — pairs in rotation windows; peas add nitrogen to reduce barley’s fertilizer hunger.
+  - Potato (Solanum tuberosum) — barley straw can become a weed-smothering mulch before potato planting.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Avoid continuous planting of cereal crops; rotation helps reduce buildup of grass diseases and residue-borne pests.
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Caterpillars
+  - Root Rot
+  - Borers
+  practitioner_notes: |-
+    Sow when nights are still cool; heat stress during flowering is the grain’s real enemy.
+    Cut for mulch before stalks go fully woody—your future compost will thank you.
+    Thick stands outcompete weeds better than careful staring ever will.
   # Image attribution: (c) Динасафина, some rights reserved (CC BY-NC), uploaded by Динасафина
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

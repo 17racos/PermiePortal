@@ -1,28 +1,60 @@
 ---
 - common_name: Beet
   picture: beet.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Beta vulgaris subsp. vulgaris
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Amaranthaceae
+  zone: 4-9
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Ground Cover
+  - Mulcher
+  description: |-
+    Beet (Beta vulgaris subsp. vulgaris) is a cool-season root crop grown for its swollen edible taproot and tender leafy greens. It is native to coastal parts of Europe and the Mediterranean basin, and it has been cultivated for centuries as both a vegetable and a soil-improving garden worker. Typical root sizes range from golf-ball to fist scale depending on variety, while foliage forms a low mat that suppresses weeds. In permaculture systems, beets bring edible nutrition, add organic matter when you chop the tops, and help you keep the soil surface active instead of bare.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to partial shade; more light supports sweeter roots and faster growth.
+    - Consistent moisture matters: uneven watering can make roots tough or woody.
+    - Prefers loose, fertile, well-drained soil with plenty of compost; avoid compacted beds.
+    - Tolerates cool weather, but severe frost can damage tender growth.
+    
+    ✂️ Propagation:
+    - Seeds: direct-sow outdoors when soil warms to about 45–60°F (7–16°C); germination often occurs in 5–10 days.
+    - Start-and-transplant: start in trays and transplant early while seedlings are small, using intact root balls to reduce stress; keep evenly moist.
+    - Thin plants early so the developing root has space (crowding is how you get sad, knotted roots).
+    
+    🌾 Harvest / Best Use Timing:
+    - Greens: harvest young leaves as soon as they’re usable, cutting outer leaves first.
+    - Roots: harvest when roots reach desired size (often 50–70 days after sowing).
+    - Store by removing greens, keeping roots cool and slightly humid; cook, roast, or pickle for longer keeping.
+  purpose: |-
+    Edible: Roots provide a sweet, earthy base for cooked meals, while greens add fast, leafy nutrition.
+    Medicinal: Beets contain antioxidant compounds such as betalains; regular use supports heart-health style dietary patterns.
+    Ground Cover: Low foliage shades soil, reduces evaporation, and limits weed germination.
+    Mulcher: Chop beet tops for compost or direct bed mulch, returning nutrients and organic matter.
   companions:
-  - NEEDS_DATA
+  - Dill (Anethum graveolens) — flowers attract beneficial insects while dill’s aroma helps distract some pest traffic.
+  - Onion (Allium cepa) — strong scent “confuses the menu,” and both crop well in the same cool-season window.
+  - Lettuce (Lactuca sativa) — similar moisture needs and shallow root habits let you stage harvests together without heavy competition.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Letting soil swing from wet to dry can make roots fibrous; keep moisture steady, especially as roots swell.
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Slugs
+  - Root Rot
+  - Caterpillars
+  practitioner_notes: |-
+    Keep tops coming: cutting greens often improves overall plant vigor and delays leaf decline.
+    Thinning is not optional—crowded beets turn into tangled roots and bitter impatience.
+    Roast whole; peel after cooling for easier handling and better caramel notes.
   # Image attribution: (c) Wynand Uys, some rights reserved (CC BY), uploaded by Wynand Uys
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,28 +1,60 @@
 ---
 - common_name: Celery Root
   picture: celery_root.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Apium graveolens var. rapaceum
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Apiaceae
+  zone: 4-8
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Water Retention
+  - Border Plant
+  description: |-
+    Celery root (Apium graveolens var. rapaceum), also called celeriac, is a cool-season vegetable grown for its knobby, flavorful swollen root. It forms tight leaf rosettes above ground and thick, edible “roots” underground, typically reaching 15–25 cm (6–10 in) across. Native to the Mediterranean region, it matters in permaculture because it extends harvests with reliable storage food while turning otherwise tough bed space into a soil-cover crop with strong organics.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to partial shade; brighter light supports stronger growth, but too much heat can trigger bolting.
+    - Keep soil evenly moist, especially as roots size up; drought makes texture fibrous.
+    - Prefers rich, loose soil with compost; avoid compacted ground.
+    - Tolerates cool nights, but hard freezes can damage young plants.
+    
+    ✂️ Propagation:
+    - Seeds: start indoors 8–10 weeks before transplanting; germination can take 10–20 days (use consistent warmth and moisture).
+    - Seedlings/transplant: transplant after cold risk passes and plants are sturdy (often when they have several true leaves); water in well.
+    - Optional thinning: thin early rosettes to give each plant room for root expansion.
+    
+    🌾 Harvest / Best Use Timing:
+    - Harvest celeriac when roots are firm and reach desired size, typically 80–110 days after sowing depending on variety.
+    - Cut roots off at the crown; store cool and humid to keep them from drying out.
+    - Use leaves as well: harvest selectively and compost what you don’t eat.
+  purpose: |-
+    Edible: The swollen roots store well and provide a versatile base for soups, roasts, and fermented foods.
+    Medicinal: Celery-like compounds support traditional herbal use; in a permaculture system, that makes it a functional “kitchen medicine” crop.
+    Water Retention: The dense rosette shading helps moderate soil evaporation in cool seasons, keeping root-zone moisture more stable.
+    Border Plant: Its upright leaf mass can define bed edges while still delivering an edible harvest.
   companions:
-  - NEEDS_DATA
+  - Leek (Allium ampeloprasum) — similar cool-season rhythm and helps diversify bed structure without heavy competition.
+  - Carrot (Daucus carota) — staged harvesting in the same season keeps beds useful and supports soil life with varied root profiles.
+  - Thyme (Thymus vulgaris) — aromatic ground-level companion that supports pollinators and keeps the border from going bare.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Hot weather can cause bolting or rough texture; provide partial shade during heat waves.
+  practitioner_notes: |-
+    Don’t let celeriac “dry out and then recover.” That swing is how you get stringy roots.
+    Keep soil gently loosened around developing roots; compaction turns into deformities.
+    Harvest early leaves sparingly; the crown needs steady energy to grow the root.
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Slugs
+  - Root Rot
+  - Caterpillars
   # Image attribution: (c) Christian Schwarz, some rights reserved (CC BY-NC), uploaded by Christian Schwarz
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

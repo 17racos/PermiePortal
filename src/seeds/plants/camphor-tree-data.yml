@@ -1,28 +1,60 @@
 ---
 - common_name: Camphor Tree
   picture: camphor_tree.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Cinnamomum camphora
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Lauraceae
+  zone: 8-11
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Ornamental
+  - Shade Provider
+  - Windbreaker
+  - Pest Management
+  description: |-
+    Camphor tree (Cinnamomum camphora) is an evergreen tree from East Asia with aromatic leaves and wood that release a strong camphor scent when crushed. It can grow into a substantial canopy tree, often 15–30 m (50–98 ft) tall depending on climate and management. In permaculture, it earns the “structure” role: it shades understory crops, slows wind, and contributes fragrant leaf litter that supports soil life while you build a long-lived canopy system.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to partial shade; brighter sites generally mean denser foliage.
+    - Moderate watering during establishment, then it tolerates dry spells once rooted.
+    - Prefers well-drained soil; prolonged waterlogging stresses roots.
+    - Cold sensitivity appears as leaf damage; protect young trees during harsh freezes.
+    
+    ✂️ Propagation:
+    - Seeds: use fresh seed when possible, warm-sow first, then use stratification if germination is slow; expect weeks to a few months.
+    - Cuttings: semi-hardwood cuttings root under humidity in warm seasons, usually taking a couple of months.
+    - Transplanting: where available, plant rooted seedlings/suckers to get canopy structure faster.
+    
+    🌾 Harvest / Best Use Timing:
+    - Harvest leaves during routine pruning and use them as mulch; refresh leaf litter to keep soil covered.
+    - Harvest aromatic material in small batches for better scent retention and easier drying.
+    - Use trimmed wood as dry-stacking feedstock for paths, trellises, or small wood chips.
+  purpose: |-
+    Ornamental: Evergreen form and aromatic foliage create long-term visual structure in food forests.
+    Shade Provider: The canopy reduces heat and evaporation, helping moisture-sensitive understory crops hold steady.
+    Windbreaker: Dense growth buffers garden edges, reducing wind burn on tender plants.
+    Pest Management: Aromatic compounds can disrupt some pest host-finding around the tree while you manage the rest through diversity.
   companions:
-  - NEEDS_DATA
+  - Sweet Potato (Ipomoea batatas) — tolerates warm understory conditions and benefits from camphor litter mulch.
+  - Ginger (Zingiber officinale) — likes humus-rich shade; leaf-litter mulch keeps moisture even.
+  - Lemon Balm (Melissa officinalis) — aromatic understory companion that supports flexible harvesting around shade.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Keep leaf-litter from smothering seedlings; rake back and re-mulch after plants establish.
+  practitioner_notes: |-
+    Crushed leaves smell strong—work with intention, then compost or mulch once you’ve used the aromatic material.
+    Plant where you want shade for years, not months; young camphor trees resent root disturbance.
+    Prune to shape, not to “thin for fun”—heavy cuts invite stress and leaf drop.
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Scale Insects
+  - Borers
+  - Root Rot
   # Image attribution: (c) Greg Tasney, some rights reserved (CC BY-SA), uploaded by Greg Tasney
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

@@ -1,17 +1,7 @@
-# PermiePortal — Enrichment Batch 1 of 4
-
-## YOUR TASK
-You are Cursor Agent in Agent mode. Your job is to:
-1. Open each YAML file listed under "Plants to Enrich" below
-2. Replace every `NEEDS_DATA` field with accurate botanical data
-3. Follow the standards exactly as written
-4. Run the validation commands in "When Done"
-5. Delete this file when done
-
-Do NOT ask clarifying questions. Start editing immediately.
+# PermiePortal — Enrichment Batch 2 of 3
 
 > **Agent mode only.** ONE session at a time.
-> This batch: 20 plants. Total remaining: 71 plants + 243 pest fields.
+> This batch: 20 plants. Total remaining: 59 plants + 243 pest fields.
 
 ---
 
@@ -61,26 +51,26 @@ NEVER: None, NEEDS_DATA, or animals without pest profiles
 
 ## Plants to Enrich
 
-- `src/seeds/plants/alsike-clover-data.yml` (11 fields)
-- `src/seeds/plants/arbutus-data.yml` (11 fields)
-- `src/seeds/plants/barley-data.yml` (11 fields)
-- `src/seeds/plants/beet-data.yml` (11 fields)
-- `src/seeds/plants/bell-pepper-data.yml` (11 fields)
-- `src/seeds/plants/black-pepper-vine-data.yml` (11 fields)
-- `src/seeds/plants/blackcurrant-data.yml` (11 fields)
-- `src/seeds/plants/blue-mistflower-data.yml` (11 fields)
-- `src/seeds/plants/borage-officinalis-data.yml` (11 fields)
-- `src/seeds/plants/camphor-tree-data.yml` (11 fields)
-- `src/seeds/plants/cantaloupe-data.yml` (11 fields)
-- `src/seeds/plants/carolina-willow-data.yml` (11 fields)
-- `src/seeds/plants/celery-root-data.yml` (11 fields)
-- `src/seeds/plants/chervil-data.yml` (11 fields)
-- `src/seeds/plants/cilantro-data.yml` (11 fields)
-- `src/seeds/plants/clementine-data.yml` (11 fields)
-- `src/seeds/plants/cornelian-cherry-data.yml` (11 fields)
-- `src/seeds/plants/crimson-clover-data.yml` (11 fields)
-- `src/seeds/plants/crotalaria-data.yml` (11 fields)
-- `src/seeds/plants/cucumber-data.yml` (11 fields)
+- `src/seeds/plants/leek-data.yml` (11 fields)
+- `src/seeds/plants/lemon-thyme-data.yml` (11 fields)
+- `src/seeds/plants/lettuce-data.yml` (11 fields)
+- `src/seeds/plants/mandarin-data.yml` (11 fields)
+- `src/seeds/plants/medlar-data.yml` (11 fields)
+- `src/seeds/plants/mexican-sunflower-data.yml` (11 fields)
+- `src/seeds/plants/mustard-greens-data.yml` (11 fields)
+- `src/seeds/plants/oat-data.yml` (11 fields)
+- `src/seeds/plants/oilseed-radish-data.yml` (11 fields)
+- `src/seeds/plants/okra-data.yml` (11 fields)
+- `src/seeds/plants/olive-tree-data.yml` (11 fields)
+- `src/seeds/plants/pumpkin-data.yml` (11 fields)
+- `src/seeds/plants/quince-data.yml` (11 fields)
+- `src/seeds/plants/quinoa-data.yml` (11 fields)
+- `src/seeds/plants/red-clover-data.yml` (11 fields)
+- `src/seeds/plants/redcurrant-data.yml` (11 fields)
+- `src/seeds/plants/savory-data.yml` (11 fields)
+- `src/seeds/plants/shallot-data.yml` (11 fields)
+- `src/seeds/plants/sorghum-data.yml` (11 fields)
+- `src/seeds/plants/spinach-data.yml` (11 fields)
 ---
 
 ## When Done
@@ -90,9 +80,9 @@ python3 validate.py --since 2h
 python3 validate.py --fix --since 2h
 ./sync.sh --check
 ./sync.sh
-rm review/cursor_enrich_1_of_4.md
+rm review/cursor_enrich_2_of_3.md
 ```
 
 Zero warnings required before the next batch.
 
-Next: `cursor_enrich_2_of_4.md`
+Next: `cursor_enrich_3_of_3.md`
