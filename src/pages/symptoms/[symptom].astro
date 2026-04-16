@@ -1,0 +1,205 @@
+---
+import BaseLayout from '../../components/layouts/BaseLayout.astro';
+import pestsData from '../../data/pests.json';
+
+export function getStaticPaths() {
+  const symptoms = [
+    'holes-in-leaves', 'yellowing-leaves', 'wilting', 'sticky-residue',
+    'white-powder', 'leaf-spots', 'curling-leaves', 'webbing', 'chewed-stems',
+    'stem-damage', 'root-damage', 'fruit-damage', 'black-coating',
+    'distorted-growth', 'tunneling', 'galls', 'dropping-leaves',
+    'silvery-streaking', 'brown-edges', 'die-back', 'sooty-deposits',
+    'slime-trails', 'skeletonized-leaves', 'bark-damage', 'crown-damage',
+  ];
+  return symptoms.map(symptom => ({ params: { symptom } }));
+}
+
+const SYMPTOM_LABELS: Record<string, string> = {
+  'holes-in-leaves':    'Holes in Leaves',
+  'yellowing-leaves':   'Yellowing Leaves',
+  'wilting':            'Wilting',
+  'sticky-residue':     'Sticky Residue',
+  'white-powder':       'White Powder on Leaves',
+  'leaf-spots':         'Leaf Spots',
+  'curling-leaves':     'Curling Leaves',
+  'webbing':            'Webbing on Plants',
+  'chewed-stems':       'Chewed Stems',
+  'stem-damage':        'Stem Damage',
+  'root-damage':        'Root Damage',
+  'fruit-damage':       'Fruit Damage',
+  'black-coating':      'Black Coating on Leaves',
+  'distorted-growth':   'Distorted Growth',
+  'tunneling':          'Tunneling in Wood or Stems',
+  'galls':              'Galls on Plants',
+  'dropping-leaves':    'Dropping Leaves',
+  'silvery-streaking':  'Silvery Streaking',
+  'brown-edges':        'Brown Leaf Edges',
+  'die-back':           'Die-Back',
+  'sooty-deposits':     'Sooty Deposits',
+  'slime-trails':       'Slime Trails',
+  'skeletonized-leaves':'Skeletonized Leaves',
+  'bark-damage':        'Bark Damage',
+  'crown-damage':       'Crown Damage',
+};
+
+const SYMPTOM_DESC: Record<string, string> = {
+  'holes-in-leaves':    'Something is chewing through your leaves. Here are the most likely culprits — sorted by how many plants they affect.',
+  'yellowing-leaves':   'Yellow leaves can signal pests, disease, or deficiency. These are the pest-related causes most likely to be responsible.',
+  'wilting':            'Wilting that isn\'t from drought is usually a root or vascular problem caused by pests or disease.',
+  'sticky-residue':     'Sticky honeydew on leaves means sap-sucking insects are feeding above. Check for these pests first.',
+  'white-powder':       'A white powdery coating on leaves is almost always fungal. One main culprit dominates.',
+  'leaf-spots':         'Spots on leaves indicate fungal, bacterial, or viral infection. These pests and diseases are most commonly responsible.',
+  'curling-leaves':     'Leaves that curl are usually responding to sap-sucking insects or viral infection.',
+  'webbing':            'Fine webbing between leaves or on stems means mites or insects are present.',
+  'chewed-stems':       'Stems chewed at or near the soil line point to specific caterpillars and beetles.',
+  'stem-damage':        'Lesions, cankers, or wounds on stems indicate disease or boring insects.',
+  'root-damage':        'Root damage causes slow decline. These pests work underground and are often missed until damage is severe.',
+  'fruit-damage':       'Scarred, tunneled, or dropping fruit has specific pest causes depending on the plant.',
+  'black-coating':      'Black coating is usually sooty mold growing on honeydew left by sap-sucking insects.',
+  'distorted-growth':   'Twisted or cupped new growth is a classic sign of sap-sucking insects or viral infection.',
+  'tunneling':          'Galleries in wood, stems, or leaves are made by specific boring insects.',
+  'galls':              'Abnormal growths on leaves or stems are caused by specific insects or mites.',
+  'dropping-leaves':    'Premature leaf drop before season end indicates stress from these pests or diseases.',
+  'silvery-streaking':  'Silver or bronze streaking on leaf surfaces is caused by mites or thrips rasping the surface.',
+  'brown-edges':        'Crispy brown leaf margins indicate mite feeding, nutrient issues, or environmental stress.',
+  'die-back':           'Branches dying from the tip back indicate boring insects, disease, or vascular damage.',
+  'sooty-deposits':     'Black sooty deposits on leaves or fruit indicate fungal growth over insect honeydew.',
+  'slime-trails':       'Silvery slime trails mean slugs or snails are active, usually feeding at night.',
+  'skeletonized-leaves':'Only leaf veins remaining means caterpillars or beetles have eaten all the leaf tissue.',
+  'bark-damage':        'Bark stripped or bored into by insects causes vascular damage that can kill branches.',
+  'crown-damage':       'Damage at the base where stem meets roots is serious and often fatal if untreated.',
+};
+
+const { symptom } = Astro.params;
+const label = SYMPTOM_LABELS[symptom] || symptom.replace(/-/g, ' ');
+const desc = SYMPTOM_DESC[symptom] || '';
+
+const matchingPests = pestsData
+  .filter(p => (p.symptoms || []).includes(symptom))
+  .sort((a, b) => (b.affected_plants?.length || 0) - (a.affected_plants?.length || 0));
+
+const otherSymptoms = Object.keys(SYMPTOM_LABELS).filter(s => s !== symptom).slice(0, 8);
+---
+<BaseLayout
+  title={`${label} — What Pest Causes This? | PermiePortal`}
+  description={`${matchingPests.length} pests cause ${label.toLowerCase()} in gardens. Identify the culprit and find organic controls. ${desc}`}
+>
+<style>
+  :root {
+    --soil: #0f0d0a; --bark: #1c1812; --moss: #2a3d1f;
+    --leaf: #4a7c35; --lime: #8fb83a; --straw: #d4a843;
+    --ash: #b8b0a0; --paper: #ede8dc; --rot: #7a3b1e; --rust: #c4551a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--soil); color: var(--paper); font-family: 'Instrument Serif', Georgia, serif; }
+  .nav { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 2rem; border-bottom: 1px solid rgba(139,184,58,0.2); position: sticky; top: 0; z-index: 100; background: rgba(15,13,10,0.97); backdrop-filter: blur(8px); }
+  .nav-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; letter-spacing: 0.08em; color: var(--lime); text-decoration: none; }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a { font-family: 'Space Mono', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ash); text-decoration: none; transition: color 0.2s; }
+  .nav-links a:hover { color: var(--lime); }
+  .breadcrumb { padding: 1rem 2rem; font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ash); border-bottom: 1px solid rgba(139,184,58,0.1); }
+  .breadcrumb a { color: var(--lime); text-decoration: none; }
+  .page-header { padding: 3rem 2rem 2rem; border-bottom: 1px solid rgba(196,85,26,0.15); }
+  .page-eyebrow { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--rust); margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.75rem; }
+  .page-eyebrow::before { content: ''; width: 2rem; height: 1px; background: var(--rust); }
+  .page-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(2.5rem, 6vw, 5rem); line-height: 0.95; color: var(--paper); margin-bottom: 0.75rem; }
+  .page-desc { font-size: 1rem; color: var(--ash); max-width: 650px; line-height: 1.75; margin-bottom: 1.5rem; }
+  .diagnose-link { display: inline-flex; align-items: center; gap: 0.5rem; font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--lime); text-decoration: none; border: 1px solid rgba(139,184,58,0.3); padding: 0.5rem 1rem; transition: all 0.2s; }
+  .diagnose-link:hover { background: rgba(139,184,58,0.1); border-color: var(--lime); }
+  .pest-count-badge { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--ash); margin-left: 1rem; }
+  .pests-section { padding: 2rem; max-width: 1200px; margin: 0 auto; }
+  .pests-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
+  .pest-card { display: block; text-decoration: none; background: var(--bark); border: 1px solid rgba(196,85,26,0.15); transition: all 0.2s; overflow: hidden; }
+  .pest-card:hover { border-color: rgba(196,85,26,0.4); background: rgba(122,59,30,0.1); }
+  .pest-card-img { width: 100%; height: 140px; object-fit: cover; opacity: 0.8; }
+  .pest-card-img-placeholder { width: 100%; height: 140px; background: linear-gradient(135deg, rgba(122,59,30,0.4), var(--bark)); display: flex; align-items: center; justify-content: center; }
+  .pest-card-body { padding: 1rem; }
+  .pest-card-name { font-family: 'Bebas Neue', sans-serif; font-size: 1.2rem; letter-spacing: 0.03em; color: var(--paper); margin-bottom: 0.3rem; }
+  .pest-card-sci { font-style: italic; font-size: 0.78rem; color: var(--ash); margin-bottom: 0.6rem; }
+  .pest-card-desc { font-size: 0.82rem; color: var(--ash); line-height: 1.5; margin-bottom: 0.75rem; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .pest-card-plants { font-family: 'Space Mono', monospace; font-size: 0.58rem; color: var(--ash); opacity: 0.6; margin-bottom: 0.5rem; }
+  .pest-card-link { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--rust); }
+  .other-symptoms { padding: 2rem; border-top: 1px solid rgba(139,184,58,0.1); max-width: 1200px; margin: 0 auto; }
+  .other-symptoms-label { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--straw); margin-bottom: 1rem; }
+  .other-symptoms-list { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .other-symptom-tag { font-family: 'Space Mono', monospace; font-size: 0.62rem; letter-spacing: 0.06em; padding: 0.3rem 0.75rem; background: rgba(28,24,18,0.6); border: 1px solid rgba(139,184,58,0.15); color: var(--ash); text-decoration: none; transition: all 0.2s; text-transform: uppercase; }
+  .other-symptom-tag:hover { border-color: rgba(139,184,58,0.4); color: var(--lime); }
+  .footer { padding: 2rem 4rem; border-top: 1px solid rgba(139,184,58,0.15); display: flex; justify-content: space-between; align-items: center; margin-top: 2rem; }
+  .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.2rem; color: var(--lime); letter-spacing: 0.08em; }
+  .footer-copy { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--ash); }
+  @media (max-width: 768px) {
+    .nav-links { gap: 1rem; }
+    .pests-grid { grid-template-columns: 1fr 1fr; }
+    .pests-section { padding: 1.25rem; }
+    .footer { flex-direction: column; gap: 1rem; padding: 1.5rem; }
+  }
+</style>
+
+<nav class="nav">
+  <a href="/" class="nav-logo">PermiePortal</a>
+  <ul class="nav-links">
+    <li><a href="/plants">Plants</a></li>
+    <li><a href="/pests">Pests</a></li>
+    <li><a href="/diagnose">Diagnose</a></li>
+    <li><a href="/articles">Articles</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
+</nav>
+
+<main>
+<div class="breadcrumb">
+  <a href="/">Home</a> / <a href="/symptoms">Symptoms</a> / {label}
+</div>
+
+<div class="page-header">
+  <p class="page-eyebrow">Plant Symptom Guide</p>
+  <h1 class="page-title">{label}</h1>
+  <p class="page-desc">{desc}</p>
+  <a href="/diagnose" class="diagnose-link">
+    ← Narrow down with multiple symptoms
+  </a>
+  <span class="pest-count-badge">{matchingPests.length} possible cause{matchingPests.length !== 1 ? 's' : ''}</span>
+</div>
+
+<div class="pests-section">
+  <div class="pests-grid">
+    {matchingPests.map(pest => (
+      <a href={`/pests/${pest`} class="pest-card">
+        {pest.picture
+          ? <img class="pest-card-img" src={`/assets/pests/${pest.picture}`} alt={`${pest.name} identification`} loading="lazy" />
+          : <div class="pest-card-img-placeholder"><span style="font-family:monospace;font-size:0.6rem;color:rgba(196,85,26,0.3);text-transform:uppercase">{pest.name}</span></div>
+        }
+        <div class="pest-card-body">
+          <div class="pest-card-name">{pest.name}</div>
+          {pest.scientific_name && <div class="pest-card-sci">{pest.scientific_name}</div>}
+          {pest.description && <p class="pest-card-desc">{pest.description}</p>}
+          {pest.affected_plants && pest.affected_plants.length > 0 && (
+            <div class="pest-card-plants">
+              Affects {pest.affected_plants.length} plant{pest.affected_plants.length !== 1 ? 's' : ''} including {pest.affected_plants.slice(0,3).map((p: any) => p.name).join(', ')}
+            </div>
+          )}
+          <span class="pest-card-link">View organic controls →</span>
+        </div>
+      </a>
+    ))}
+  </div>
+</div>
+
+<div class="other-symptoms">
+  <p class="other-symptoms-label">Browse other symptoms</p>
+  <div class="other-symptoms-list">
+    {otherSymptoms.map(sym => (
+      <a href={`/symptoms/${sym}`} class="other-symptom-tag">
+        {SYMPTOM_LABELS[sym]}
+      </a>
+    ))}
+    <a href="/symptoms" class="other-symptom-tag">All symptoms →</a>
+  </div>
+</div>
+</main>
+
+<footer class="footer">
+  <div class="footer-logo">PermiePortal</div>
+  <div class="footer-copy">© {new Date().getFullYear()} PermiePortal</div>
+</footer>
+</BaseLayout>
