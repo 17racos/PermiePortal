@@ -374,6 +374,9 @@ def write_cursor_prompts():
 
     total_plants = len(needs)
     chunks = [needs[i:i+PROMPT_CHUNK] for i in range(0, len(needs), PROMPT_CHUNK)]
+    # Always create at least one chunk for pest-only enrichment runs
+    if not chunks and pest_needs > 0:
+        chunks = [[]]  # empty plant chunk so pest section gets written
     num_chunks = len(chunks)
 
     prompt_files = []
