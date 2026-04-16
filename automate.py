@@ -265,14 +265,17 @@ PEST_STUB = '''- name: "{name}"
   scientific_name: "NEEDS_DATA"
   description: "NEEDS_DATA — Cursor Agent will enrich this entry."
   characteristics: "NEEDS_DATA"
+  symptoms:
+  - NEEDS_DATA
   control_methods:
-    organic_sprays: "NEEDS_DATA"
     biological_controls: "NEEDS_DATA"
+    preventive_methods: "NEEDS_DATA"
     cultural_practices: "NEEDS_DATA"
     mechanical_physical: "NEEDS_DATA"
-    preventive_methods: "NEEDS_DATA"
+    organic_sprays: "NEEDS_DATA"
   natural_enemies:
   - NEEDS_DATA
+  affected_plants: []
   # Image attribution: {attribution}
   # Image source: {source}
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment
