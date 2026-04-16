@@ -16,5 +16,7 @@ export default new Map([
 ["src/content/articles/turmeric-the-golden-spice.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fturmeric-the-golden-spice.mdx&astroContentModuleFlag=true")],
 ["src/content/articles/unlocking-natures-blueprint-bill-mollison.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Funlocking-natures-blueprint-bill-mollison.mdx&astroContentModuleFlag=true")],
 ["src/content/articles/vermicomposting-guide.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fvermicomposting-guide.mdx&astroContentModuleFlag=true")],
-["src/content/articles/we-saved-the-lake-by-killing-it.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fwe-saved-the-lake-by-killing-it.mdx&astroContentModuleFlag=true")]]);
+["src/content/articles/we-saved-the-lake-by-killing-it.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fwe-saved-the-lake-by-killing-it.mdx&astroContentModuleFlag=true")],
+["src/content/articles/fertilizer-vs-soil.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Ffertilizer-vs-soil.mdx&astroContentModuleFlag=true")],
+["src/content/articles/produce-your-own-fertility.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fproduce-your-own-fertility.mdx&astroContentModuleFlag=true")]]);
 		
