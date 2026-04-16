@@ -1,5 +1,15 @@
 # PermiePortal — Enrichment Batch 3 of 4
 
+## YOUR TASK
+You are Cursor Agent in Agent mode. Your job is to:
+1. Open each YAML file listed under "Plants to Enrich" below
+2. Replace every `NEEDS_DATA` field with accurate botanical data
+3. Follow the standards exactly as written
+4. Run the validation commands in "When Done"
+5. Delete this file when done
+
+Do NOT ask clarifying questions. Start editing immediately.
+
 > **Agent mode only.** ONE session at a time.
 > This batch: 20 plants. Total remaining: 71 plants + 243 pest fields.
 
