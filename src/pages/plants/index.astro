@@ -3,7 +3,7 @@
 import BaseLayout from '../../components/layouts/BaseLayout.astro';
 import plantsData from '../../data/plants.json';
 
-const plants = plantsData.filter((p: any) => !p.layers?.includes('NEEDS_DATA')).sort((a: any, b: any) => a.common_name.localeCompare(b.common_name));
+const plants = plantsData.sort((a: any, b: any) => a.common_name.localeCompare(b.common_name));
 
 const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].filter(l => l !== 'NEEDS_DATA').sort();
 ---
