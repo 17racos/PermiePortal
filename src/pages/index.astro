@@ -38,6 +38,15 @@ const tickerMessages = [
   "Grass subsidies exist. Food subsidies don't. This is not an accident.",
   // SYSTEMS THINKING
   "We subsidize the crops that make us sick and charge for the ones that don't. The math is intentional.",
+  // NEW ADDITIONS
+  "1000 plants documented. Zero of them require a lawn mower.",
+  "247 pest profiles. Every one has a biological solution that predates Monsanto.",
+  "Duckweed doubles its biomass every 48 hours. We spray herbicide on it. Make it make sense.",
+  "Your soil has more living organisms per teaspoon than there are people on Earth. Feed them.",
+  "A food forest requires less maintenance than a lawn after year three. The first three years are just spite.",
+  "Companion planting isn't mysticism. It's chemistry that predates Dow Chemical by ten thousand years.",
+  "The diagnose tool exists because 'what's eating my plant' shouldn't require a PhD or a pesticide rep.",
+  "Permaculture is not aesthetic. It is the audacity to make land work for you instead of against you.",
   "The VA has a 6-month waitlist. A dandelion will fix your nitrogen problem today.",
   "Your yard could feed a family. Instead it feeds a mower payment.",
   "Every grasshole is a food forest that hasn't happened yet.",
@@ -115,7 +124,7 @@ const tickerMessages = [
 
   /* TICKER */
   .rant-bar { background: var(--moss); padding: 0.75rem 0; overflow: hidden; border-top: 1px solid rgba(139,184,58,0.2); border-bottom: 1px solid rgba(139,184,58,0.2); position: relative; z-index: 5; }
-  .rant-track { display: flex; width: max-content; animation: ticker 90s linear infinite; }
+  .rant-track { display: flex; width: max-content; animation: ticker 140s linear infinite; }
   .rant-track:hover { animation-play-state: paused; cursor: default; }
   .rant-segment { display: flex; align-items: center; white-space: nowrap; }
   .rant-item { font-family: 'Space Mono', monospace; font-size: 0.75rem; color: var(--lime); letter-spacing: 0.04em; padding: 0 2rem; }
@@ -234,6 +243,18 @@ const tickerMessages = [
   </ul>
 </nav>
 
+<div class="rant-bar" aria-hidden="true">
+  <div class="rant-track">
+    {[...tickerMessages, ...tickerMessages].map((msg, i) => (
+      <span class="rant-segment">
+        <span class="rant-dot">⬤</span>
+        <span class="rant-item">{msg}</span>
+      </span>
+    ))}
+  </div>
+</div>
+
+
 <section class="hero">
   <div class="hero-text">
     <p class="hero-eyebrow">Permaculture. Unfiltered.</p>
@@ -268,17 +289,6 @@ const tickerMessages = [
 
 
 <!-- TICKER — duplicated for seamless loop -->
-<div class="rant-bar" aria-hidden="true">
-  <div class="rant-track">
-    {[...tickerMessages, ...tickerMessages].map((msg, i) => (
-      <span class="rant-segment">
-        <span class="rant-dot">⬤</span>
-        <span class="rant-item">{msg}</span>
-      </span>
-    ))}
-  </div>
-</div>
-
 <section class="start-here">
   <div class="start-here-inner">
     <div class="start-here-header">
