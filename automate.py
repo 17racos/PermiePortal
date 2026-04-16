@@ -333,18 +333,31 @@ def scan_all_needs_data():
             if '_archived' in str(yml):
                 continue
             try:
-                content = yml.read_text(encoding='utf-8')
-                count = content.count('NEEDS_DATA')
+                text = yml.read_text(encoding='utf-8')
+                count = text.count('NEEDS_DATA')
                 if count > 0:
                     needs.append((yml.name, count))
             except Exception:
                 continue
 
     pest_count = 0
+    pest_files = []
+    if SEEDS_PESTS.exists():
+        for yml in sorted(SEEDS_PESTS.glob("*-data.yml")):
+            if yml.name in ('pests-data.yml', 'pests-data.yml.bak'):
+                continue
+            try:
+                text = yml.read_text(encoding='utf-8')
+                count = text.count('NEEDS_DATA')
+                if count > 0:
+                    pest_count += count
+                    pest_files.append((yml.name, count))
+            except Exception:
+                continue
     if PESTS_FILE.exists():
-        pest_count = PESTS_FILE.read_text(encoding='utf-8').count('NEEDS_DATA')
+        pest_count += PESTS_FILE.read_text(encoding='utf-8').count('NEEDS_DATA')
 
-    return sorted(needs, key=lambda x: x[1], reverse=True), pest_count
+    return sorted(needs, key=lambda x: x[1], reverse=True), pest_count, pest_files
 
 
 def write_cursor_prompts():
