@@ -603,6 +603,8 @@ def main():
             if fpath.exists():
                 raw = [l.strip() for l in fpath.read_text().splitlines()]
                 names += raw
+                # Clear the queue file after reading so names aren't reprocessed
+                fpath.write_text('')
             else:
                 print(f"❌ File not found: {args.file}")
                 return
