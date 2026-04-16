@@ -1,7 +1,7 @@
-# PermiePortal — Enrichment Batch 2 of 2
+# PermiePortal — Enrichment Batch 1 of 1
 
 > **Agent mode only.** ONE session at a time.
-> This batch: 3 plants. Total remaining: 23 plants + 243 pest fields.
+> This batch: 0 plants. Total remaining: 0 plants + 243 pest fields.
 
 ---
 
@@ -51,9 +51,6 @@ NEVER: None, NEEDS_DATA, or animals without pest profiles
 
 ## Plants to Enrich
 
-- `src/seeds/plants/vietnamese-mint-data.yml` (11 fields)
-- `src/seeds/plants/water-hickory-data.yml` (11 fields)
-- `src/seeds/plants/wild-rice-data.yml` (11 fields)
 
 ## Pests to Enrich (0 files, 243 fields)
 
@@ -86,7 +83,7 @@ python3 validate.py --since 2h
 python3 validate.py --fix --since 2h
 ./sync.sh --check
 ./sync.sh
-rm review/cursor_enrich_2_of_2.md
+rm review/cursor_enrich_1_of_1.md
 ```
 
 Zero warnings required before the next batch.
