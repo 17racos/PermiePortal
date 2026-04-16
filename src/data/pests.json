@@ -86,7 +86,8 @@
       "wilting",
       "die-back",
       "bark-damage",
-      "crown-damage"
+      "crown-damage",
+      "tunneling"
     ],
     "affected_plants": []
   },
@@ -3720,7 +3721,8 @@
       "yellowing-leaves",
       "die-back",
       "distorted-growth",
-      "dropping-leaves"
+      "dropping-leaves",
+      "sticky-residue"
     ],
     "affected_plants": []
   },
@@ -4295,7 +4297,8 @@
       "wilting",
       "die-back",
       "stem-damage",
-      "crown-damage"
+      "crown-damage",
+      "root-damage"
     ],
     "affected_plants": []
   },
@@ -5761,7 +5764,8 @@
       "die-back",
       "bark-damage",
       "wilting",
-      "dropping-leaves"
+      "dropping-leaves",
+      "tunneling"
     ],
     "affected_plants": []
   },
@@ -6965,7 +6969,8 @@
       "wilting",
       "die-back",
       "chewed-stems",
-      "crown-damage"
+      "crown-damage",
+      "root-damage"
     ],
     "affected_plants": []
   },
@@ -9234,7 +9239,8 @@
       "root-damage",
       "wilting",
       "crown-damage",
-      "distorted-growth"
+      "distorted-growth",
+      "webbing"
     ],
     "affected_plants": []
   },
@@ -9690,7 +9696,8 @@
       "brown-edges",
       "distorted-growth",
       "fruit-damage",
-      "wilting"
+      "wilting",
+      "yellowing-leaves"
     ],
     "affected_plants": []
   },
@@ -21790,7 +21797,8 @@
       "wilting",
       "die-back",
       "root-damage",
-      "crown-damage"
+      "crown-damage",
+      "tunneling"
     ],
     "affected_plants": []
   },
@@ -22957,7 +22965,8 @@
       "brown-edges",
       "wilting",
       "dropping-leaves",
-      "die-back"
+      "die-back",
+      "yellowing-leaves"
     ],
     "affected_plants": []
   },
@@ -34045,7 +34054,8 @@
       "wilting",
       "yellowing-leaves",
       "root-damage",
-      "distorted-growth"
+      "distorted-growth",
+      "sticky-residue"
     ],
     "affected_plants": [
       {
@@ -35058,10 +35068,6 @@
         "name": "Ashwagandha"
       },
       {
-        "slug": "black-ginger",
-        "name": "Black Ginger"
-      },
-      {
         "slug": "black-medic",
         "name": "Black Medic"
       },
@@ -35517,7 +35523,8 @@
       "silvery-streaking",
       "distorted-growth",
       "yellowing-leaves",
-      "wilting"
+      "wilting",
+      "webbing"
     ],
     "affected_plants": []
   },
@@ -37565,7 +37572,8 @@
       "wilting",
       "die-back",
       "bark-damage",
-      "crown-damage"
+      "crown-damage",
+      "tunneling"
     ],
     "affected_plants": []
   },
@@ -43875,7 +43883,8 @@
       "brown-edges",
       "fruit-damage",
       "bark-damage",
-      "wilting"
+      "wilting",
+      "yellowing-leaves"
     ],
     "affected_plants": []
   },
@@ -45065,7 +45074,8 @@
       "die-back",
       "wilting",
       "bark-damage",
-      "chewed-stems"
+      "chewed-stems",
+      "tunneling"
     ],
     "affected_plants": []
   },
@@ -46321,7 +46331,8 @@
       "die-back",
       "yellowing-leaves",
       "fruit-damage",
-      "bark-damage"
+      "bark-damage",
+      "sticky-residue"
     ],
     "affected_plants": []
   },
