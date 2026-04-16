@@ -1,19 +1,50 @@
 - name: "Green iguana"
   slug: "green-iguana"
   picture: "green_iguana.webp"
-  scientific_name: "NEEDS_DATA"
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  characteristics: "NEEDS_DATA"
+  scientific_name: "Iguana iguana"
+  description: >-
+    Green iguanas are large herbivorous lizards that clip tender shoots, flowers, and fruit during the day, leaving ragged
+    browsing where insects would make smaller holes. Invasive populations damage food gardens, young orchard trees, and
+    nursery stock in tropical and subtropical lowlands and warm urban heat islands. They also dig burrows that undermine
+    banks, seawalls, and root zones. Management combines exclusion, population reduction where regulations allow, and
+    habitat changes that make your site less attractive than the neighbor's hibiscus hedge.
+  characteristics: >-
+    Adults are unmistakable -- long tail, dewlap, often green to gray-green, excellent climbers and swimmers. Look for
+    cleanly clipped buds on roses and hibiscus, stripped bean leaves, and pellets of droppings on walls or pool decks.
+    Burrow holes are wider than rabbit holes and often under structures. Juveniles are bright green and far more arboreal,
+    which makes them harder to notice until damage appears.
   symptoms:
-  - NEEDS_DATA
+  - chewed-stems
+  - bark-damage
+  - fruit-damage
+  - wilting
   control_methods:
-    biological_controls: "NEEDS_DATA"
-    preventive_methods: "NEEDS_DATA"
-    cultural_practices: "NEEDS_DATA"
-    mechanical_physical: "NEEDS_DATA"
-    organic_sprays: "NEEDS_DATA"
+    biological_controls: >-
+      Hawks, owls, and large snakes occasionally take juveniles, but predation rarely keeps pace with reproductive output
+      in areas without a full native predator suite. Dogs deter feeding in a zone but do not replace fencing. Do not
+      introduce non-native predators -- that trade creates worse ecological debt. Where agencies promote humane removal,
+      coordinate with local rules instead of improvising.
+    preventive_methods: >-
+      Harvest fruit promptly and pick up windfalls that concentrate visits. Reduce dense stands of preferred soft-leaved
+      ornamentals along property lines if design allows. Ponds and canals act as movement corridors -- expect more pressure
+      on lots adjacent to water. Screen greenhouse vents with sturdy mesh where iguanas enter propagation areas.
+    cultural_practices: >-
+      Plant tougher-leaved species and strong aromatics on vulnerable perimeters -- iguanas often avoid citrus, rosemary,
+      and other resinous plants compared with hibiscus and tender greens. Sacrifice beds of preferred species can pull
+      feeding away from vegetable rows. Fill known burrows with gravel after confirming no animals are trapped inside,
+      following humane wildlife guidance for your jurisdiction.
+    mechanical_physical: >-
+      Metal tree collars or sheet metal guards block climbing to low branches while young trees harden off. Buried hardware
+      cloth aprons stop digging under fences -- angle outward six inches. Large cage traps with fruit bait work for repeat
+      offenders when legal. Motion-activated sprinklers provide short-term startle value if moved often.
+    organic_sprays: >-
+      Garlic and hot pepper repellent sprays on foliage reduce feeding until rain washes them off. Neem makes some leaves
+      less palatable. Predator urine products vary in efficacy. Sprays help protect a few prized plants but will not stop
+      a determined adult population -- pair them with fencing and population management where permitted.
   natural_enemies:
-  - NEEDS_DATA
+  - Hawks
+  - Owls
+  - Large Snakes
   affected_plants: []
   # Image attribution: (c) Rainer Hungershausen, some rights reserved (CC BY-NC-ND)
   # Image source: inaturalist

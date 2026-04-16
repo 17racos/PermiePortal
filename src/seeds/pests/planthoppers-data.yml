@@ -1,19 +1,45 @@
 - name: "Planthoppers"
   slug: "planthoppers"
   picture: "planthoppers.webp"
-  scientific_name: "NEEDS_DATA"
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  characteristics: "NEEDS_DATA"
+  scientific_name: "Fulgoroidea and related Auchenorrhyncha"
+  description: >-
+    Planthoppers are sap-feeding hemipterans that include many shapes from moths-like planthoppers to wedge-shaped rice
+    pests. Dense populations cause hopperburn, stunt growth, and vector plant pathogens on some crops. Honeydew supports
+    sooty mold when species excrete it. They explode after mild winters, continuous cropping, or excessive nitrogen that
+    favors rapid nymph development across tropical to temperate rice, pasture, and orchard systems.
+  characteristics: >-
+    Adults jump or fly short distances when disturbed, unlike slower mealybugs. Nymphs sometimes coat stems in waxy floc
+    on certain species. Beat cane into a tray to count adults. Compare with leafhoppers by body profile and wing posture
+    in field guides for your region.
   symptoms:
-  - NEEDS_DATA
+  - yellowing-leaves
+  - wilting
+  - sticky-residue
+  - sooty-deposits
   control_methods:
-    biological_controls: "NEEDS_DATA"
-    preventive_methods: "NEEDS_DATA"
-    cultural_practices: "NEEDS_DATA"
-    mechanical_physical: "NEEDS_DATA"
-    organic_sprays: "NEEDS_DATA"
+    biological_controls: >-
+      Egg parasitoids in Mymaridae and Scelionidae attack planthopper eggs when present in rice and pasture research plots.
+      Spiders and predatory mirids consume nymphs. Dryinid wasps parasitize adults in some systems. Preserve hedgerow flowers
+      and reduce broad-spectrum sprays during nymph peaks so biocontrol can respond.
+    preventive_methods: >-
+      Avoid excessive nitrogen that produces ultra-soft tissue planthoppers colonize fastest. Rotate flooded rice with
+      dry periods where water management allows disease and pest cycles to break. Use resistant cultivars where breeding
+      programs have released material for your pathosystem. Screen greenhouse vents to exclude adults on propagation crops.
+    cultural_practices: >-
+      Remove volunteer hosts and ratoon growth that bridges generations. Manage weeds inside ditches adjacent to fields
+      when extension links them to planthopper movement. Lower seeding rates in some rice systems reduce humidity in canopy
+      microclimates -- follow local agronomy.
+    mechanical_physical: >-
+      Vacuum is not practical at field scale but light traps help monitor flights near high tunnels. For small orchards,
+      banding sticky traps on trunks catches some dispersing adults depending on species behavior.
+    organic_sprays: >-
+      Neem and Beauveria products suppress nymphs when coverage reaches leaf sheaths and bases. Soaps work on exposed
+      nymphs with thorough wetting. Bt products are not the primary planthopper tool -- verify labels. Rotate modes of
+      action where resistance is documented for your crop.
   natural_enemies:
-  - NEEDS_DATA
+  - Parasitic Wasps
+  - Spiders
+  - Predatory Beetles
   affected_plants: []
   # Image attribution: (c) Vijay Anand Ismavel, some rights reserved (CC BY-NC-SA)
   # Image source: inaturalist

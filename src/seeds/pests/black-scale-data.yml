@@ -1,20 +1,54 @@
 - name: "Black scale"
   slug: "black-scale"
   picture: "black_scale.webp"
-  scientific_name: "NEEDS_DATA"
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  characteristics: "NEEDS_DATA"
+  scientific_name: "Saissetia oleae"
+  description: >-
+    Black scale is a hemipteran soft scale that clamps onto twigs and leaf veins and withdraws phloem sap for
+    long periods. Heavy infestations weaken shoots, reduce fruit size on olives and citrus relatives, and support
+    sooty mold from honeydew. Populations surge when ants protect scales from predators or when dusty roadside
+    trees lack beneficial wash from rain. It is widespread in Mediterranean, subtropical, and mild temperate
+    climates wherever hosts are grown.
+  characteristics: >-
+    Mature females are domed, dark brown to black, and noticeably convex compared with many other soft scales.
+    Crawlers are tiny yellow-orange motile stages that settle along leaf midribs and new growth. Flip leaves to
+    compare with other hemipterans -- aphids move when prodded, armored scales have separable covers. Sticky cards
+    near canopy help time crawler sprays if you use them.
   symptoms:
-  - NEEDS_DATA
+  - yellowing-leaves
+  - sooty-deposits
+  - sticky-residue
+  - die-back
   control_methods:
-    biological_controls: "NEEDS_DATA"
-    preventive_methods: "NEEDS_DATA"
-    cultural_practices: "NEEDS_DATA"
-    mechanical_physical: "NEEDS_DATA"
-    organic_sprays: "NEEDS_DATA"
+    biological_controls: >-
+      Metaphycus and Scutellista spp. parasitoids are classic black scale enemies in olive and citrus systems.
+      Lady beetles such as Chilocorus spp. feed on crawlers and small immatures. Lacewing larvae scrape soft
+      stages from bark. Preserve low-growing flowering plants in orchard alleys for adult parasitoid nutrition.
+      Ant control often matters as much as any single predator release.
+    preventive_methods: >-
+      Inspect nursery trees and reject material with encrusted twigs. Avoid dust buildup on foliage from unpaved
+      roads by planting buffer rows or rinsing canopies periodically where water rules allow. Do not apply foliar
+      nitrogen foliar feeds during crawler peaks unless agronomy requires it. Maintain steady irrigation so stress
+      does not stack with sap removal.
+    cultural_practices: >-
+      Prune interior water sprouts that harbor dense scale colonies and improve spray coverage. Wash honeydew-coated
+      leaves with plain water in early morning to reduce mold and improve photosynthesis short term. Replace chronic
+      hedge species with less susceptible selections when design allows. Manage Argentine ant supercolonies along
+      trunks with physical barriers where baits are inappropriate.
+    mechanical_physical: >-
+      Scrub small trees with soft brushes and soapy water during winter when populations are exposed on smooth bark.
+      Power wash at gentle angles on tolerant species to dislodge adults before crawlers emerge. Band trunks with
+      horticultural fabric barriers plus sticky compound to block ant access, refreshing sticky before it cakes
+      with debris.
+    organic_sprays: >-
+      Horticultural oil timed to crawler emergence smothers settled crawlers before wax thickens. Insecticidal soap
+      works on tender flush where complete coverage is achievable. Repeat applications at label intervals because
+      contact products miss sheltered scales under bark plates. Rotate oil and soap weeks apart rather than mixing
+      unknown concoctions that can phytotoxic leaves.
   natural_enemies:
-  - NEEDS_DATA
+  - Parasitic Wasps
+  - Ladybugs
+  - Lacewings
   affected_plants: []
-  # Image attribution: (c) sea-kangaroo, some rights reserved (CC BY-NC-ND), uploaded by sea-kangaroo
+  # Image attribution: (c) Donald Hobern, some rights reserved (CC BY), uploaded by Donald Hobern
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

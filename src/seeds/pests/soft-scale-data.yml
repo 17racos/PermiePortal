@@ -1,19 +1,43 @@
 - name: "Soft scale"
   slug: "soft-scale"
   picture: "soft_scale.webp"
-  scientific_name: "NEEDS_DATA"
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  characteristics: "NEEDS_DATA"
+  scientific_name: "Coccidae"
+  description: >-
+    Soft scales are hemipterans with covers fused to the body, often producing copious honeydew and sooty mold. They weaken
+    twigs, reduce fruit size, and attract ants that disrupt biocontrol. Genera include Coccus, Pulvinaria, and Saissetia
+    on diverse woody plants from temperate ornamentals to subtropical fruit. Chronic infestations follow dusty foliage,
+    ant tending, and predator-killing spray programs.
+  characteristics: >-
+    Flip leaves: soft scales look hemispherical or oval and excrete sticky honeydew when active. Armored scales have
+    separable covers and usually less honeydew from the scale itself. Use a lens to see crawler stages along veins.
+    Track crawler flights with double-sided tape on twigs during warm months.
   symptoms:
-  - NEEDS_DATA
+  - sticky-residue
+  - sooty-deposits
+  - yellowing-leaves
+  - die-back
   control_methods:
-    biological_controls: "NEEDS_DATA"
-    preventive_methods: "NEEDS_DATA"
-    cultural_practices: "NEEDS_DATA"
-    mechanical_physical: "NEEDS_DATA"
-    organic_sprays: "NEEDS_DATA"
+    biological_controls: >-
+      Metaphycus and Coccophagus parasitoids attack many soft scale species in citrus and landscapes. Lady beetles and
+      lacewing larvae consume crawlers. Release programs are optional -- most home success comes from oil timing, pruning,
+      and ant barriers. Preserve flowering groundcovers for adult parasitoid food.
+    preventive_methods: >-
+      Inspect nursery stock and reject heavily infested liners. Rinse dust from canopies periodically. Avoid calendar
+      sprays for other pests that crash beneficials. Manage Argentine ants on trunks with sticky barriers or labeled baits
+      where appropriate.
+    cultural_practices: >-
+      Prune out the worst water sprouts harboring colonies. Open dense canopies for spray penetration if treatment is
+      needed. Replace hedge species that chronically harbor scales when design permits.
+    mechanical_physical: >-
+      Scrub small specimens with soapy water and soft brushes. Power rinse at gentle settings on tolerant bark. Band
+      trunks to exclude ants while predators work.
+    organic_sprays: >-
+      Horticultural oil during crawler windows smothers exposed stages. Insecticidal soap on smooth leaves reaches crawlers
+      when coverage is thorough. Neem suppresses feeding on a schedule. Test sensitive cultivars for oil burn in heat.
   natural_enemies:
-  - NEEDS_DATA
+  - Parasitic Wasps
+  - Ladybugs
+  - Lacewings
   affected_plants: []
   # Image attribution: (c) Clarence Holmes, all rights reserved
   # Image source: inaturalist

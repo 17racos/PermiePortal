@@ -1,19 +1,51 @@
 - name: "Chafer grubs"
   slug: "chafer-grubs"
   picture: "chafer_grubs.webp"
-  scientific_name: "NEEDS_DATA"
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  characteristics: "NEEDS_DATA"
+  scientific_name: "Scarabaeidae (Melolonthinae, Rutelinae, Cetoniinae)"
+  description: >-
+    Chafer grubs are creamy white scarab larvae with brown heads and legs arranged in a C-shape, living in soil
+    and feeding on roots. Turf browns in irregular patches that lift like loose carpet when grubs sever stolons.
+    Adult chafers are often nocturnal beetles seen around porch lights during emergence flights. Damage peaks in
+    warm months across temperate lawns, pastures, and vegetable beds with high organic matter.
+  characteristics: >-
+    Dig a square foot at the edge of a dead patch and count grubs -- thresholds vary by grass type and irrigation.
+    Chafer species differ in raster pattern on the tail end, which specialists use for ID. Birds pecking holes
+    in turf is a secondary sign of high grub loads. Distinguish from billbugs by the presence of obvious thoracic legs
+    and the C-shaped body compared with legless billbug larvae inside stems.
   symptoms:
-  - NEEDS_DATA
+  - wilting
+  - die-back
+  - root-damage
+  - crown-damage
   control_methods:
-    biological_controls: "NEEDS_DATA"
-    preventive_methods: "NEEDS_DATA"
-    cultural_practices: "NEEDS_DATA"
-    mechanical_physical: "NEEDS_DATA"
-    organic_sprays: "NEEDS_DATA"
+    biological_controls: >-
+      Heterorhabditis bacteriophora nematodes infect white grubs in warm soil when irrigated in immediately after
+      application. Beauveria bassiana and Metarhizium anisopliae products are labeled for scarabs in some regions.
+      Ants and ground beetles eat eggs and small larvae at the soil surface. Avoid calendar sprays that kill
+      beneficials before you confirm grub density crosses action thresholds.
+    preventive_methods: >-
+      Endophytic turf grasses reduce feeding damage for some chafer species -- buy certified seed. Avoid excessive
+      irrigation during adult flight if extension maps show your area is at risk for outbreak years. Rotate ground
+      covers in landscape beds if grubs recur under the same woody plants. Clean up fallen fruit that attracts
+      egg-laying adults near beds.
+    cultural_practices: >-
+      Aerate compacted lawns so roots recover faster after partial root pruning by grubs. Raise mowing height to
+      increase rooting depth and tolerate more feeding before visual browning. Overseed thin areas in fall with
+      competitive grass blends. In vegetable gardens, till fall beds where rotation allows to expose larvae to birds,
+      balancing erosion and organic matter goals for your site.
+    mechanical_physical: >-
+      Solarizing a small future garden bed before planting reduces grub counts but kills soil life broadly -- use
+      when renovating. Hand picking grubs while preparing planting holes is slow but free. For potted plants,
+      sift old mix through hardware cloth and refresh media if grubs appear.
+    organic_sprays: >-
+      Entomopathogenic nematodes are the primary organic intervention with consistent research support when applied
+      correctly. Neem soil drenches have variable efficacy on scarabs and may affect non-target soil insects.
+      Pyrethrin drenches are not universally organic-certified -- check labels. Focus timing on early instar grubs
+      for any product class.
   natural_enemies:
-  - NEEDS_DATA
+  - Ground Beetles
+  - Nematodes
+  - Ants
   affected_plants: []
   # Image attribution: No image found
   # Image source: none

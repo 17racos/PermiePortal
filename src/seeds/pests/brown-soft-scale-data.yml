@@ -1,20 +1,50 @@
 - name: "Brown soft scale"
   slug: "brown-soft-scale"
   picture: "brown_soft_scale.webp"
-  scientific_name: "NEEDS_DATA"
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  characteristics: "NEEDS_DATA"
+  scientific_name: "Coccus hesperidum"
+  description: >-
+    Brown soft scale is a common greenhouse and landscape soft scale with a flexible brown oval cover fused to
+    the insect body. It excretes honeydew that grows sooty mold and attracts ants. Feeding weakens houseplants,
+    citrus, and many broadleaf ornamentals. Outbreaks often follow systemic stress, dusty foliage, or repeated
+    broad-spectrum sprays that remove predators.
+  characteristics: >-
+    Adults look like tiny brown helmets stuck to veins on the underside of leaves and along stems. Unlike armored
+    scales, the body is soft when probed gently with a pin. Honeydew droplets on leaves or pots below are a strong
+    clue. Crawlers are pale yellow and mobile for a short window -- use a hand lens and side lighting to see movement.
   symptoms:
-  - NEEDS_DATA
+  - sticky-residue
+  - sooty-deposits
+  - yellowing-leaves
+  - distorted-growth
   control_methods:
-    biological_controls: "NEEDS_DATA"
-    preventive_methods: "NEEDS_DATA"
-    cultural_practices: "NEEDS_DATA"
-    mechanical_physical: "NEEDS_DATA"
-    organic_sprays: "NEEDS_DATA"
+    biological_controls: >-
+      Metaphycus helvolus and other encyrtid wasps parasitize brown soft scale in commercial citrus and interiorscape
+      settings. Lady beetles such as Cryptolaemus montrouzieri target mealybugs but also eat soft scales when present.
+      Lacewings and predatory mirid bugs contribute in diverse plantings. Release biocontrol agents only after
+      ant barriers are addressed or releases may fail.
+    preventive_methods: >-
+      Quarantine new houseplants two meters from the collection for a fortnight while inspecting undersides weekly.
+      Rinse dust from foliage in dry climates so predators can walk surfaces. Avoid overfeeding soluble fertilizer
+      on already infested plants, which increases honeydew volume. Inspect cut flowers and holiday greenery that
+      sit near susceptible plants.
+    cultural_practices: >-
+      Prune the most heavily encrusted stems on shrubs to reduce density. Improve air movement in greenhouses with
+      fans and spacing. Swap to subirrigation for bench crops to reduce humidity on leaf undersides if design allows.
+      Remove badly infested specimens when renovation is cheaper than repeated treatments.
+    mechanical_physical: >-
+      Wipe leaves with diluted castile soap on a soft cloth for small collections -- support the leaf from below
+      to avoid tearing. Shower sturdy plants with lukewarm water weekly until honeydew stops. For outdoor trees,
+      trunk banding against ants raises biocontrol success more than another random soap spray.
+    organic_sprays: >-
+      Insecticidal soap plus thorough coverage knocks crawlers and small nymphs. Horticultural oil at summer
+      rates labeled for your plant kills settled stages when temperatures stay within label limits. Neem oil
+      disrupts molting when applied on schedule -- avoid spraying open flowers visited by pollinators. Always test
+      a branch first because some cultivars oil-burn easily.
   natural_enemies:
-  - NEEDS_DATA
+  - Parasitic Wasps
+  - Ladybugs
+  - Lacewings
   affected_plants: []
-  # Image attribution: (c) Rob Curtis, some rights reserved (CC BY-NC-SA), uploaded by Rob Curtis
+  # Image attribution: (c) gbohne, some rights reserved (CC BY-SA), uploaded by gbohne
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

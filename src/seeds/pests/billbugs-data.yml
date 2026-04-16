@@ -1,20 +1,54 @@
 - name: "Billbugs"
   slug: "billbugs"
   picture: "billbugs.webp"
-  scientific_name: "NEEDS_DATA"
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  characteristics: "NEEDS_DATA"
+  scientific_name: "Sphenophorus spp."
+  description: >-
+    Billbugs are weevils whose legless grubs tunnel inside grass stems and crowns, causing scattered dead patches
+    that resemble drought or pet urine spots. Adults notch leaf blades with their snouts in spring before laying
+    eggs in sheaths. Damage peaks in warm months when larvae hollow stolons. They occur on turf and some pasture
+    grasses across much of North America and similar temperate grass regions.
+  characteristics: >-
+    Pull stems from the edge of a dead patch and split them lengthwise to find sawdust-like frass and creamy
+    C-shaped grubs without legs. Adult billbugs are dark gray to black weevils about the size of a grain of rice
+    and walk slowly when disturbed. Billbug injury is more localized than chinch bug feeding and lacks the
+    purple-yellow margin pattern chinch sometimes shows. Soap flushes can bring larvae to the surface for counting.
   symptoms:
-  - NEEDS_DATA
+  - wilting
+  - die-back
+  - chewed-stems
+  - crown-damage
   control_methods:
-    biological_controls: "NEEDS_DATA"
-    preventive_methods: "NEEDS_DATA"
-    cultural_practices: "NEEDS_DATA"
-    mechanical_physical: "NEEDS_DATA"
-    organic_sprays: "NEEDS_DATA"
+    biological_controls: >-
+      Ground beetles (Carabidae) and rove beetles consume billbug adults and larvae at soil level. Parasitic
+      wasps attack billbug larvae in some regions, though levels fluctuate year to year. Endophytic turf grasses
+      containing fungal symbionts deter feeding by some billbug species -- choose certified seed with appropriate
+      endophyte viability. Avoid broad-spectrum lawn insecticides that crash predator populations before you confirm
+      billbugs are the actual problem.
+    preventive_methods: >-
+      Overseed thin areas in fall so turf density excludes egg-laying females from reaching crowns easily. Avoid
+      excessive nitrogen in early spring that pushes lush growth billbugs prefer. Irrigate deeply but less often
+      to encourage deep roots that tolerate localized crown injury. Rotate renovation plans if one cultivar
+      chronically fails while neighbors on different grass types stay green.
+    cultural_practices: >-
+      Raise mowing height during peak adult activity so crowns are less exposed to heat stress on top of injury.
+      Aerate compacted soils so roots recover faster after grub feeding. Topdress thin spots with thin compost layers
+      after overseeding to improve germination. Remove excessive thatch that harbors moist microsites larvae favor.
+    mechanical_physical: >-
+      Solarizing small lawn patches can reduce grub loads before reseeding, though it kills turf too. Hand picking
+      adults from sidewalks at night with a flashlight is oddly effective on tiny lawns. Vacuuming adults off
+      patios after a flight event is a niche tactic but reduces local egg load. For new sod, inspect the underside
+      for notched leaves before installation.
+    organic_sprays: >-
+      Entomopathogenic nematodes (Steinernema and Heterorhabditis spp.) applied when soil is warm and moist can
+      infect billbug larvae -- follow label rates and irrigate immediately after application. Beauveria bassiana
+      soil drenches help in some trials when repeated. Neem-based products have mixed evidence on weevil larvae
+      inside stems but may deter adults when applied to foliage before egg laying. Always verify product labels
+      for turf use in your jurisdiction.
   natural_enemies:
-  - NEEDS_DATA
+  - Ground Beetles
+  - Parasitic Wasps
+  - Predatory Beetles
   affected_plants: []
-  # Image attribution: (c) justinscioli, all rights reserved, uploaded by justinscioli
+  # Image attribution: (c) gbohne, some rights reserved (CC BY-SA), uploaded by gbohne
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

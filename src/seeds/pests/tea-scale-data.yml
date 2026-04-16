@@ -1,19 +1,44 @@
 - name: "Tea scale"
   slug: "tea-scale"
   picture: "tea_scale.webp"
-  scientific_name: "NEEDS_DATA"
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  characteristics: "NEEDS_DATA"
+  scientific_name: "Fiorinia theae"
+  description: >-
+    Tea scale is a small armored scale that infests the underside of camellia, holly, and many other evergreen leaves,
+    causing yellow speckling visible from above and premature leaf drop when heavy. Males are narrow and white; females
+    are darker and broader under cover. It thrives in humid subtropical to warm temperate landscapes and greenhouse collections.
+  characteristics: >-
+    Inspect leaf undersides with a lens -- the scale covers look flat and varied in color by sex and age. Distinguish from
+    false oleander scale and other diaspidids using extension keys for your host. Crawlers move to fresh flush in warm
+    months -- use tape traps on twigs to time oil applications.
   symptoms:
-  - NEEDS_DATA
+  - yellowing-leaves
+  - dropping-leaves
+  - sticky-residue
+  - die-back
   control_methods:
-    biological_controls: "NEEDS_DATA"
-    preventive_methods: "NEEDS_DATA"
-    cultural_practices: "NEEDS_DATA"
-    mechanical_physical: "NEEDS_DATA"
-    organic_sprays: "NEEDS_DATA"
+    biological_controls: >-
+      Aphytis parasitoids attack tea scale in some regions when ant tending is low. Lady beetles such as Chilocorus feed on
+      crawlers. Preserve flowering shrubs nearby for adult parasitoid nutrition. Avoid broad-spectrum sprays during crawler
+      peaks.
+    preventive_methods: >-
+      Inspect nursery camellias before purchase. Rinse dust from leaves periodically so predators can walk surfaces. Manage
+      ants on trunks with barriers or labeled baits where appropriate. Do not over-fertilize into ultra-succulent flush during
+      known crawler windows.
+    cultural_practices: >-
+      Prune interior branches to improve spray penetration if treatment is necessary. Remove the most infested lower canopy
+      on specimen plants to lower reinoculation. Replace chronically infested cultivars with less susceptible selections when
+      collectors allow tradeoffs.
+    mechanical_physical: >-
+      Scrub small plants with soft brushes and soapy water on cool mornings. Power rinse at gentle settings on waxy leaves
+      only if your cultivar tolerates it -- test first.
+    organic_sprays: >-
+      Horticultural oil timed to crawlers is the standard organic approach on many labels. Narrow-range summer oils need
+      temperature windows. Insecticidal soap helps when coverage reaches undersides completely. Rotate oil and soap weeks
+      apart rather than stacking unknown mixes.
   natural_enemies:
-  - NEEDS_DATA
+  - Parasitic Wasps
+  - Ladybugs
+  - Lacewings
   affected_plants: []
   # Image attribution: (c) Vitaly Charny, some rights reserved (CC BY-NC), uploaded by Vitaly Charny
   # Image source: inaturalist

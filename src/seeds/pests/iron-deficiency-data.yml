@@ -1,19 +1,49 @@
 - name: "Iron deficiency"
   slug: "iron-deficiency"
   picture: "iron_deficiency.webp"
-  scientific_name: "NEEDS_DATA"
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  characteristics: "NEEDS_DATA"
+  scientific_name: "Physiological disorder (Fe)"
+  description: >-
+    Iron deficiency shows as interveinal chlorosis on newest leaves while veins stay greener and older foliage looks
+    relatively normal. It is common in high-pH soils where iron is insoluble, in waterlogged roots, and in containers
+    with alkaline irrigation water. The plant is not always short of iron in the site -- uptake can be blocked by cold
+    soil, root damage, or competing ions. Fixing the underlying cause beats endless foliar greening sprays.
+  characteristics: >-
+    Compare with magnesium deficiency, which shows on older leaves as interveinal yellowing with a different pattern.
+    Test irrigation water alkalinity if pots on concrete patios show chronic chlorosis. Root inspection for rot, girdling,
+    or nematode lesions explains many cases where soil tests say iron is present. Tissue analysis of new leaves confirms
+    low iron when lab methods match your crop.
   symptoms:
-  - NEEDS_DATA
+  - yellowing-leaves
+  - distorted-growth
+  - wilting
+  - brown-edges
   control_methods:
-    biological_controls: "NEEDS_DATA"
-    preventive_methods: "NEEDS_DATA"
-    cultural_practices: "NEEDS_DATA"
-    mechanical_physical: "NEEDS_DATA"
-    organic_sprays: "NEEDS_DATA"
+    biological_controls: >-
+      Healthy mycorrhizae and humic acids from compost improve iron chelation in acidic organic soils. Siderophore-producing
+      bacteria make iron more available in the rhizosphere under some conditions. These effects are gradual and work best
+      when pH and drainage are already reasonable. They do not override pH 8 water on acid-loving plants in pots.
+    preventive_methods: >-
+      Acidify root zones only when soil tests and crop requirements justify it -- sulfur or suitable amendments per extension
+      tables. For chlorotic blueberries on alkaline native soil, grow in raised beds of peat-leaning mixes or choose
+      tolerant cultivars. Chelated iron drenches help containers when label matches your pH range. Fix drainage before
+      chasing micronutrients on yellow wet roots.
+    cultural_practices: >-
+      Avoid excessive phosphate fertilization that can tie up micronutrients on sensitive species in some soils. Mulch
+      to moderate soil temperature so spring roots access iron sooner. For trees with stem girdling roots, air spade
+      remediation restores uptake more than foliar iron ever will.
+    mechanical_physical: >-
+      Aerate compacted lawns with interveinal chlorosis on high-pH soils after addressing drainage. Remove plastic burlap
+      and wire from root balls at planting so roots can explore amended backfill. Rinse salt spray from coastal hedge leaves
+      with plain water when permitted.
+    organic_sprays: >-
+      Chelated iron foliar sprays (Fe-EDDHA where needed for high pH) green up new growth within days but do not fix pH.
+      Ferrous sulfate sprays stain concrete and clothing -- mask nearby surfaces. Compost tea is inconsistent as an iron
+      source -- prefer known chelates when deficiency is confirmed. Repeat applications are needed until underlying cause
+      is corrected.
   natural_enemies:
-  - NEEDS_DATA
+  - Beneficial Fungi
+  - Competitive Microbes
+  - Antagonistic Bacteria
   affected_plants: []
   # Image attribution: I.Sáček, senior / Wikimedia Commons / CC0
   # Image source: wikimedia

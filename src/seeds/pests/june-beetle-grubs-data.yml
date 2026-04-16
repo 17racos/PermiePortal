@@ -1,19 +1,45 @@
 - name: "June beetle grubs"
   slug: "june-beetle-grubs"
   picture: "june_beetle_grubs.webp"
-  scientific_name: "NEEDS_DATA"
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  characteristics: "NEEDS_DATA"
+  scientific_name: "Phyllophaga spp."
+  description: >-
+    June beetle grubs are large white scarab larvae with brown heads and three pairs of thoracic legs, arranged in a
+    loose C in soil. They feed on grass roots, row crop roots, and sometimes tubers, causing irregular brown turf patches
+    and stand thinning. Adults are chunky brown beetles that bump porch lights in late spring and early summer across
+    much of North America. Damage is worst where adults lay eggs in moist turf near lights and irrigated lawns.
+  characteristics: >-
+    Open sod and count grubs per square foot at the margin of dead patches -- thresholds vary by grass species and maintenance
+    level. Raster pattern on the terminal segment helps separate Phyllophaga from masked chafer grubs. Birds pecking
+    holes signal high populations. Distinguish from crane fly leatherjackets by the obvious head capsule and legs on scarabs.
   symptoms:
-  - NEEDS_DATA
+  - wilting
+  - die-back
+  - root-damage
+  - crown-damage
   control_methods:
-    biological_controls: "NEEDS_DATA"
-    preventive_methods: "NEEDS_DATA"
-    cultural_practices: "NEEDS_DATA"
-    mechanical_physical: "NEEDS_DATA"
-    organic_sprays: "NEEDS_DATA"
+    biological_controls: >-
+      Heterorhabditis bacteriophora nematodes infect white grubs in warm moist soil when applied at label rates with
+      immediate irrigation. Metarhizium anisopliae products are labeled in some regions for scarabs. Ground beetles and
+      ants prey on eggs. Avoid prophylactic lawn sprays that remove predators before scouting confirms grub density.
+    preventive_methods: >-
+      Turn off excessive outdoor lighting during peak adult flight to reduce egg laying on nearby turf. Maintain moderate
+      nitrogen so grass recovers from partial root pruning. Overseed thin areas in fall to close canopy gaps. Rotate ground
+      covers in landscape beds if grubs persist under the same shrubs year after year.
+    cultural_practices: >-
+      Raise mowing height during summer stress to increase rooting volume. Core aerate compacted lawns so water infiltrates
+      instead of puddling. For vegetable gardens, delay planting sensitive crops until you have tilled or solarized known
+      hot spots when rotation allows.
+    mechanical_physical: >-
+      Solarize future garden beds during renovation windows. Hand pick grubs when preparing planting holes in small beds.
+      Roll back sod strips on localized infestations and let birds work, then reseat sod after grub removal if feasible.
+    organic_sprays: >-
+      Nematode applications remain the backbone of organic grub control with good timing. Neem soil drenches show variable
+      lab results. Pyrethrin-based lawn products may exist for rescue treatments but check organic certification and
+      non-target impacts. Always irrigate after nematode application so carriers reach the root zone.
   natural_enemies:
-  - NEEDS_DATA
+  - Nematodes
+  - Ground Beetles
+  - Birds
   affected_plants: []
   # Image attribution: No image found
   # Image source: none

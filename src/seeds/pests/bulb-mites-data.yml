@@ -1,20 +1,52 @@
 - name: "Bulb mites"
   slug: "bulb-mites"
   picture: "bulb_mites.webp"
-  scientific_name: "NEEDS_DATA"
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  characteristics: "NEEDS_DATA"
+  scientific_name: "Rhizoglyphus spp."
+  description: >-
+    Bulb mites are microscopic acarids that feed on stored bulbs, garlic cloves, onion sets, and sometimes roots
+    in the field. Infested planting stock feels spongy, sprouts weakly, or rots from secondary fungi. Damage is
+    easy to blame on basal rot or poor drainage until you see fine brown dust at the base of scales. They spread
+    on contaminated soil, culls, and shared harvest bins.
+  characteristics: >-
+    Use at least 10x magnification on suspect tissue: bulb mites are shiny, slow-moving ovals compared with
+    faster two-spotted spider mites on foliage. Look at the basal plate of garlic and onion where mites cluster
+    in moist pockets. A foul fermentation smell sometimes accompanies heavy mite loads. Send samples to a diagnostic
+    lab if you need species-level ID for regulatory reasons.
   symptoms:
-  - NEEDS_DATA
+  - root-damage
+  - wilting
+  - crown-damage
+  - distorted-growth
   control_methods:
-    biological_controls: "NEEDS_DATA"
-    preventive_methods: "NEEDS_DATA"
-    cultural_practices: "NEEDS_DATA"
-    mechanical_physical: "NEEDS_DATA"
-    organic_sprays: "NEEDS_DATA"
+    biological_controls: >-
+      Hypoaspis miles (Stratiolaelaps scimitus) soil predatory mites consume small acarids in potting media when
+      introduced at label rates. Some Steinernema nematode species reduce mite loads in stored bulb research trials.
+      Maintaining diverse soil mesofauna through reduced tillage and organic matter supports general mite predators
+      outdoors. Biologicals work best when humidity and temperature match label ranges at application time.
+    preventive_methods: >-
+      Cure garlic and onions thoroughly before storage and keep humidity moderate in cellars. Do not replant
+      obviously sunken or brown-scaled cloves. Rotate alliums on a multi-year schedule in vegetable beds. Clean
+      harvest tools and sorting tables with hot soapy water between lots.
+    cultural_practices: >-
+      Hot water treatment of bulbs is used professionally for some crops -- follow crop-specific extension recipes
+      because wrong temperature-time pairs cook the bulb. Solarize small beds before replanting if history is bad.
+      Avoid over-irrigation in heavy soil that keeps basal tissue wet for weeks. Cull borderline bulbs instead of
+      planting them to save a few cents.
+    mechanical_physical: >-
+      Screen potting mixes that sat open in damp sheds before repotting lilies. Discard the outermost scales on
+      lightly infested garlic if the core is firm and plant only the clean center. For small seed garlic lots,
+      peel to single cloves and inspect each. Freeze is not a standard homeowner fix and can kill viability, so
+      prefer heat treatments from trusted guides.
+    organic_sprays: >-
+      Sulfur and some horticultural oils help on foliage mites but do not reach mites deep inside bulb scales well.
+      Focus on clean stock and soil predators for true bulb mite issues. Essential oil drenches are inconsistent
+      and may harm germination -- avoid home chemistry experiments on your only seed garlic. If you export or sell
+      bulbs, follow phytosanitary rules rather than improvising sprays.
   natural_enemies:
-  - NEEDS_DATA
+  - Predatory Mites
+  - Nematodes
+  - Predatory Beetles
   affected_plants: []
-  # Image attribution: Currie Brothers Company.; Henry G. Gilbert Nursery and Seed Trade Catalog Collection. / Wikimedia Commons / Public domain
-  # Image source: wikimedia
+  # Image attribution: (c) Gilles San Martin, some rights reserved (CC BY-SA), uploaded by Gilles San Martin
+  # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

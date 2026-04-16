@@ -1,19 +1,46 @@
 - name: "Southern chinch bug"
   slug: "southern-chinch-bug"
   picture: "southern_chinch_bug.webp"
-  scientific_name: "NEEDS_DATA"
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  characteristics: "NEEDS_DATA"
+  scientific_name: "Blissus insularis"
+  description: >-
+    Southern chinch bug is a specialist pest of St. Augustinegrass that pierces stolons and injects enzymes, causing
+    yellowing patches that expand in full sun during hot dry weather. Thatch gives nymphs a humid refuge while outer
+    leaves look droughty. It is a major turf issue in humid subtropical lawns and commercial sod across the Gulf and
+    Atlantic coastal plains wherever this grass is grown.
+  characteristics: >-
+    Part stolons near the soil line to see early red nymphs with a pale band across the abdomen and darker later instars.
+    Soap flush forces nymphs to the surface for counting. Damage begins along pavement edges, tree driplines, and south
+    slopes first. Compare with generic chinch bugs on other grasses -- host and regional distribution differ.
   symptoms:
-  - NEEDS_DATA
+  - yellowing-leaves
+  - wilting
+  - brown-edges
+  - die-back
   control_methods:
-    biological_controls: "NEEDS_DATA"
-    preventive_methods: "NEEDS_DATA"
-    cultural_practices: "NEEDS_DATA"
-    mechanical_physical: "NEEDS_DATA"
-    organic_sprays: "NEEDS_DATA"
+    biological_controls: >-
+      Beauveria bassiana applications can infect nymphs when humidity after spray stays adequate for spore germination.
+      Minute pirate bugs and big-eyed bugs (Geocoris spp.) consume nymphs in unsprayed lawns. Egg parasitoids help in research
+      plots when diverse vegetation supports their populations. Avoid broad-spectrum pyrethroid perimeter sprays that remove
+      predators while chinch rebounds in thatch.
+    preventive_methods: >-
+      Manage thatch with proper mowing height, sensible nitrogen, and occasional vertical mowing or dethatching when turf
+      tolerates it. Irrigate deeply and less often to encourage deep roots that tolerate localized feeding. Choose improved
+      St. Augustine cultivars with documented chinch tolerance where sod farms supply them.
+    cultural_practices: >-
+      Raise mowing height during summer stress. Spot-check hot spots weekly from late spring through early fall. Remove
+      woody debris piles that create dry edges against irrigated turf. Do not spread clippings from infested lawns onto
+      clean sites during active outbreaks.
+    mechanical_physical: >-
+      For small lawns, vigorous watering can dislodge nymphs briefly and reduce heat stress while other tactics work.
+      Resod badly damaged areas only after you commit to thatch management or new sod will fail the same way.
+    organic_sprays: >-
+      Soaps labeled for turf use kill nymphs on contact when spray reaches the crown zone. Neem and essential oil products
+      show variable field results -- test patches first. Repeat applications are usually needed because contact materials
+      miss insects deep in thatch. Follow label temperature guidance to avoid phytotoxicity on stressed grass.
   natural_enemies:
-  - NEEDS_DATA
+  - Minute Pirate Bugs
+  - Parasitic Wasps
+  - Ground Beetles
   affected_plants: []
   # Image attribution: (c) Mike Quinn, San Marcos, some rights reserved (CC BY-NC), uploaded by Mike Quinn, San Marcos
   # Image source: inaturalist

@@ -1,19 +1,45 @@
 - name: "Nutrient burn"
   slug: "nutrient-burn"
   picture: "nutrient_burn.webp"
-  scientific_name: "NEEDS_DATA"
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  characteristics: "NEEDS_DATA"
+  scientific_name: "Physiological disorder (salt / fertilizer injury)"
+  description: >-
+    Nutrient burn appears as browned leaf tips and margins, sometimes with darkening along the rim of affected leaves,
+    after heavy fertilizer application, foliar feed in heat, or rising salts in irrigation water. Container plants show
+    it first as white crust on media and marginal necrosis. It stacks with drought stress and wind, so the margin pattern
+    alone is not proof without reviewing recent inputs and electrical conductivity.
+  characteristics: >-
+    Map whether damage is oldest leaves first (classic salt accumulation) or uniform after a single drench event. Measure
+    runoff EC from pots with a handheld meter when available. Compare with disease lesions that expand as spots with halos.
+    Check drip emitters for double-feeding mistakes after crew changes.
   symptoms:
-  - NEEDS_DATA
+  - brown-edges
+  - wilting
+  - yellowing-leaves
+  - dropping-leaves
   control_methods:
-    biological_controls: "NEEDS_DATA"
-    preventive_methods: "NEEDS_DATA"
-    cultural_practices: "NEEDS_DATA"
-    mechanical_physical: "NEEDS_DATA"
-    organic_sprays: "NEEDS_DATA"
+    biological_controls: >-
+      Diverse soil biology can buffer mild salinity swings in ground beds over seasons as organic matter cycles. Mycorrhizae
+      improve root efficiency so lower fertilizer rates still meet demand. These are long games -- they do not undo a
+      quart of liquid feed poured on a 6-inch pot by mistake.
+    preventive_methods: >-
+      Follow label rates and measure by weight, not glugs. Avoid foliar feeding when air temperature exceeds label limits
+      or when stomates are closing in midday sun. Use clean irrigation water -- shallow wells near coasts can carry sodium.
+      Leach containers periodically until drainage EC drops when monitoring shows climb.
+    cultural_practices: >-
+      Flush salts downward in ground beds with deep irrigation cycles where drainage allows and water policy permits. Split
+      smaller doses weekly instead of single heavy monthly dumps on sandy media. Mulch pots to reduce evaporation that
+      concentrates salts at the surface.
+    mechanical_physical: >-
+      Scrape salt crust from container surfaces and discard. Replace the top few inches of badly salted potting mix and
+      repot into fresh media for high-value plants. Rinse foliage splashed with fertilizer concentrate.
+    organic_sprays: >-
+      There is no spray cure for salt burn -- stop inputs and leach. Humic products may marginally complex ions but should
+      not delay leaching. Gypsum helps specific sodium problems in soil chemistry cases, not generic tip burn in a pot
+      from overfeeding kelp. Reset with water management before adding more products.
   natural_enemies:
-  - NEEDS_DATA
+  - Beneficial Fungi
+  - Competitive Microbes
+  - Antagonistic Bacteria
   affected_plants: []
   # Image attribution: USFWS Mountain-Prairie / Wikimedia Commons / Public domain
   # Image source: wikimedia

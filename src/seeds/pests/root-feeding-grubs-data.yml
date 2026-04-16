@@ -1,19 +1,45 @@
-- name: "Root-feeding grubs"
+- name: "Root feeding grubs"
   slug: "root-feeding-grubs"
   picture: "root_feeding_grubs.webp"
-  scientific_name: "NEEDS_DATA"
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  characteristics: "NEEDS_DATA"
+  scientific_name: "Scarabaeidae larvae (multiple genera)"
+  description: >-
+    Root feeding grubs is a catch-all for white C-shaped scarab larvae that chew fibrous roots of turf, vegetables,
+    nursery liners, and young trees. Damage shows as wilting in heat, thinned stands, and easily lifted sod. Genera
+    include Phyllophaga, Cyclocephala, Popillia, and many regional scarabs. Adults may be May beetles, June beetles, or
+    chafers depending on latitude and habitat.
+  characteristics: >-
+    Dig at the interface of green and dead turf and identify leg count, raster pattern, and body size. Compare with
+    crane fly leatherjackets and with wireworms, which are elongate click beetle larvae. Birds pecking divots strongly
+    suggests high grub counts. Threshold tables differ for home lawn versus sports turf -- use local extension guidance.
   symptoms:
-  - NEEDS_DATA
+  - wilting
+  - root-damage
+  - crown-damage
+  - die-back
   control_methods:
-    biological_controls: "NEEDS_DATA"
-    preventive_methods: "NEEDS_DATA"
-    cultural_practices: "NEEDS_DATA"
-    mechanical_physical: "NEEDS_DATA"
-    organic_sprays: "NEEDS_DATA"
+    biological_controls: >-
+      Heterorhabditis bacteriophora nematodes infect many white grub species when soil is warm and irrigation follows
+      application. Metarhizium anisopliae products are labeled in some regions. Ground beetles and ants prey on eggs.
+      Milky spore (Paenibacillus popilliae) is specific to Japanese beetle in parts of its range -- do not expect it to
+      control unrelated scarabs.
+    preventive_methods: >-
+      Reduce outdoor lighting during adult flights if your species is light-attracted. Maintain moderate fertility and
+      overseed thin turf. Rotate vegetable beds away from chronic hot spots. Inspect balled stock for grub loads before
+      planting orchards.
+    cultural_practices: >-
+      Raise mowing height and aerate compacted soils. For new sod, ask suppliers about history and scout early. Vegetable
+      growers can delay planting sensitive crops until after tilling exposes grubs to birds.
+    mechanical_physical: >-
+      Solarize future beds during renovation. Hand pick when preparing small holes. Roll back sod locally, remove grubs,
+      and reseat after verification.
+    organic_sprays: >-
+      Nematodes remain the primary organic rescue with best evidence. Neem drenches vary by species response. Avoid
+      prophylactic organophosphate-class thinking in organic systems -- scout first. Repeat nematode applications across
+      instar windows when labels allow.
   natural_enemies:
-  - NEEDS_DATA
+  - Nematodes
+  - Ground Beetles
+  - Birds
   affected_plants: []
   # Image attribution: No image found
   # Image source: none

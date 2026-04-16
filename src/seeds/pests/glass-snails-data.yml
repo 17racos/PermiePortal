@@ -1,19 +1,47 @@
 - name: "Glass snails"
   slug: "glass-snails"
   picture: "glass_snails.webp"
-  scientific_name: "NEEDS_DATA"
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  characteristics: "NEEDS_DATA"
+  scientific_name: "Oxychilus spp. and related genera"
+  description: >-
+    Glass snails are small glassy-shelled land snails that feed at night on seedlings, mushrooms, and decaying matter,
+    sometimes rasping holes in tender leaves and fruit touching the ground. They favor cool humid microclimates under mulch,
+    pots, and boards. In greenhouses and moist subtropical to temperate gardens they climb stems after rain and leave
+    slime trails that confuse diagnosis with slugs.
+  characteristics: >-
+    Look for a thin translucent shell coiled flatly compared with many slugs which lack an external shell. Shine a light
+    after dusk along bed edges to see movement. Slime trails are narrower than large banana slugs. Check under flats,
+    stones, and irrigation emitters where humidity stays high all day.
   symptoms:
-  - NEEDS_DATA
+  - slime-trails
+  - holes-in-leaves
+  - fruit-damage
+  - skeletonized-leaves
   control_methods:
-    biological_controls: "NEEDS_DATA"
-    preventive_methods: "NEEDS_DATA"
-    cultural_practices: "NEEDS_DATA"
-    mechanical_physical: "NEEDS_DATA"
-    organic_sprays: "NEEDS_DATA"
+    biological_controls: >-
+      Ground beetles, rove beetles, and centipedes eat small snails and eggs in soil litter. Nematodes labeled for mollusks
+      are used professionally in some countries -- availability varies. Encourage songbirds near food production only when
+      food safety rules allow natural foraging. Reduce ant tending of honeydew-producing insects indirectly helps because
+      ant wars can disturb snail predators less than you might think, but clean canopies still matter.
+    preventive_methods: >-
+      Water in the morning so beds surface-dry before night feeding. Remove boards, debris, and unused pots that create
+      all-day refugia. Copper tape barriers on bench legs and raised beds deliver a mild repellent film when kept shiny.
+      Quarantine new plants from wet nurseries with visible snails.
+    cultural_practices: >-
+      Hand collect during evening walks two nights in a row after rain -- population drops noticeably on small sites.
+      Diatomaceous earth bands around seedlings abrade soft bodies when dry -- reapply after irrigation. Beer traps catch
+      some individuals but also attract from neighbors' yards, so place sparingly at problem corners only.
+    mechanical_physical: >-
+      Hunt under mulch with a trowel after overhead watering forces movement. For seed flats, elevate on mesh benches with
+      legs in moats of soapy water where design allows. Crushed eggshells help marginally -- do not rely on them alone on
+      high-value starts.
+    organic_sprays: >-
+      Iron phosphate bait labeled for organic use kills snails that consume pellets -- apply sparingly away from waterways
+      and non-target feeding animals. Coffee grounds and salt damage soil and are poor substitutes. Never use salt near plants.
+      Neem on foliage targets chewing insects more than snails; focus bait and moisture management for glass snails.
   natural_enemies:
-  - NEEDS_DATA
+  - Ground Beetles
+  - Nematodes
+  - Birds
   affected_plants: []
   # Image attribution: (c) Grahame, some rights reserved (CC BY-NC-ND), uploaded by Grahame
   # Image source: inaturalist

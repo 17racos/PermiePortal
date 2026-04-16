@@ -1,19 +1,46 @@
 - name: "Potassium deficiency"
   slug: "potassium-deficiency"
   picture: "potassium_deficiency.webp"
-  scientific_name: "NEEDS_DATA"
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  characteristics: "NEEDS_DATA"
+  scientific_name: "Physiological disorder (K)"
+  description: >-
+    Potassium deficiency shows as marginal and interveinal chlorosis on older leaves first, progressing to scorch and
+    cupping in some species. Fruit may ripen unevenly, vines may show weak stems, and legume nodules work poorly when
+    potassium is critically low alongside other stresses. Sandy soils, heavy fruit loads, and leaching rains all strip
+    potassium. Magnesium and calcium interactions can mimic symptoms, so pattern plus testing beats guessing.
+  characteristics: >-
+    Compare old-leaf pattern with nitrogen, which often yellows the whole plant more uniformly in early stages. Tissue
+    tests of recently mature leaves are definitive. Check petiole sap meters where calibrated for your crop. Rule out
+    mites and gas injury that also bronze leaf surfaces.
   symptoms:
-  - NEEDS_DATA
+  - yellowing-leaves
+  - brown-edges
+  - wilting
+  - fruit-damage
   control_methods:
-    biological_controls: "NEEDS_DATA"
-    preventive_methods: "NEEDS_DATA"
-    cultural_practices: "NEEDS_DATA"
-    mechanical_physical: "NEEDS_DATA"
-    organic_sprays: "NEEDS_DATA"
+    biological_controls: >-
+      Wood ash and plant residues return potassium slowly through decomposition cycles. Soil biology regulates release
+      timing from mineral and organic pools. These pathways stabilize long-term fertility but rarely correct acute deficiency
+      during peak fruit load without targeted amendments.
+    preventive_methods: >-
+      Soil test and apply sulfate or muriate of potash forms appropriate to your salinity and chloride sensitivity.
+      In organic systems, use langbeinite or potassium sulfate per certifier guidance. Mulch and cover crops recycle
+      potassium from deep horizons on some sites. Balance irrigation leaching with scheduled replacement doses on sandy
+      soils.
+    cultural_practices: >-
+      Return crop residues where disease rules allow, because stalks contain significant potassium. Avoid one-sided high
+      calcium liming without retesting cations. For containers, use complete fertilizers during flowering and fruiting,
+      not bloom-only formulas missing potassium forever.
+    mechanical_physical: >-
+      Incorporate granular potassium sources before planting root crops that demand high K. For perennial orchards,
+      broadcast in the drip zone and lightly incorporate where erosion risk is controlled.
+    organic_sprays: >-
+      Potassium sulfate foliar sprays can supplement soil programs on high-value fruit when tissue tests lag -- follow
+      label crop lists. Kelp products provide modest potassium and trace elements but are not precision tools for severe
+      deficiency. Do not foliar-feed in heat that causes salt burn on margins you are trying to heal.
   natural_enemies:
-  - NEEDS_DATA
+  - Beneficial Fungi
+  - Competitive Microbes
+  - Antagonistic Bacteria
   affected_plants: []
   # Image attribution: Alandmanson / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia

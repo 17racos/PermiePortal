@@ -1,20 +1,53 @@
 - name: "Calcium deficiency"
   slug: "calcium-deficiency"
   picture: "calcium_deficiency.webp"
-  scientific_name: "NEEDS_DATA"
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  characteristics: "NEEDS_DATA"
+  scientific_name: "Physiological disorder (Ca)"
+  description: >-
+    Calcium deficiency shows as new tissue damage while older leaves still look relatively normal because calcium
+    is not mobile inside the plant. Classic signs include blossom end rot on fruiting crops, blackened young leaf
+    margins, and distorted root tips. It is often triggered by uneven soil moisture even when soil tests show
+    adequate calcium, because uptake is passive with transpiration flow. Hot dry spells and fast growth flushes
+    make symptoms appear overnight.
+  characteristics: >-
+    Inspect the youngest leaves and the blossom end of the first fruit set on tomatoes and peppers for water-soaked
+    lesions that turn leathery. On brassicas, internal tip burn appears before outer leaves flag. Tissue tests
+    compared with healthy plants confirm low calcium in new growth. Rule out insect damage and spray burn by
+    checking pattern symmetry and timing relative to fertilizer or pesticide events.
   symptoms:
-  - NEEDS_DATA
+  - brown-edges
+  - distorted-growth
+  - fruit-damage
+  - wilting
   control_methods:
-    biological_controls: "NEEDS_DATA"
-    preventive_methods: "NEEDS_DATA"
-    cultural_practices: "NEEDS_DATA"
-    mechanical_physical: "NEEDS_DATA"
-    organic_sprays: "NEEDS_DATA"
+    biological_controls: >-
+      Mycorrhizae and diverse soil biology improve root exploration for calcium already present in many soils.
+      Compost additions feed microbes that regulate nutrient availability cycles. Bioavailable calcium from finely
+      ground mineral amendments releases slowly with biological weathering. None of these replace irrigation
+      management when the real limiter is drought-stopped uptake.
+    preventive_methods: >-
+      Mulch soil to buffer moisture swings and reduce blossom end rot incidence in fruiting crops. Avoid extreme
+      ammonium nitrogen ratios that can antagonize calcium uptake on sensitive cultivars. Lime acid soils according
+      to soil test recommendations, because low pH reduces calcium availability even if calcium exists on the report.
+      For containers, use complete mineral fertilizers rather than only high-potassium bloom formulas during fruit set.
+    cultural_practices: >-
+      Irrigate on a steady schedule in fast-draining media instead of oscillating between bone dry and saturated.
+      Avoid root pruning from aggressive cultivation near drip lines of established plants. Foliar calcium sprays
+      buffer symptoms on new fruit when applied before lesions appear -- they do not fix rotted tissue already formed.
+      Ventilate greenhouses on bright days so transpiration keeps calcium moving to meristems.
+    mechanical_physical: >-
+      Staking and pruning tomatoes to moderate leaf area during the first fruit load can reduce extreme transpiration
+      imbalances on overloaded plants. Shade cloth during heat spikes lowers water stress enough to prevent tip burn
+      in some lettuce systems. Row cover that overheats tunnels should be opened promptly in morning.
+    organic_sprays: >-
+      Foliar calcium chloride or calcium nitrate solutions are used commercially -- organic certifiers vary by
+      product and jurisdiction, so read labels. Kelp and fish emulsion provide some calcium but are not precision
+      tools for acute deficiency. Gypsum supplies calcium without raising pH on many alkaline western soils when sodium
+      is not the issue -- confirm with a soil test before repeating applications.
   natural_enemies:
-  - NEEDS_DATA
+  - Beneficial Fungi
+  - Competitive Microbes
+  - Antagonistic Bacteria
   affected_plants: []
-  # Image attribution: Zemxer / Wikimedia Commons / CC BY-SA 4.0
+  # Image attribution: Scot Nelson / Wikimedia Commons / CC0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

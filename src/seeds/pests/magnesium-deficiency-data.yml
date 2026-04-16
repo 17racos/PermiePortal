@@ -1,19 +1,48 @@
 - name: "Magnesium deficiency"
   slug: "magnesium-deficiency"
   picture: "magnesium_deficiency.webp"
-  scientific_name: "NEEDS_DATA"
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  characteristics: "NEEDS_DATA"
+  scientific_name: "Physiological disorder (Mg)"
+  description: >-
+    Magnesium deficiency appears as interveinal chlorosis on older leaves first because magnesium is mobile in the plant
+    and the canopy remobilizes it to new growth under shortage. Corn shows classic streaked leaves; apples show basal
+    leaf drop patterns that differ from nitrogen shortage. Sandy leached soils, heavy potassium fertilization without
+    magnesium balance, and very acid soils contribute. It is common in intensively cropped sandy fields and in container
+    mixes fed one-sided bloom formulas.
+  characteristics: >-
+    Confirm by comparing old versus new leaves -- nitrogen lack is more uniform yellowing including young leaves in many
+    crops. Tissue tests of recently mature leaves clarify. Rule out mite stippling and virus mosaics with a lens and
+    pattern mapping. Check irrigation water and fertilizer grade for long-term K dominance without Mg.
   symptoms:
-  - NEEDS_DATA
+  - yellowing-leaves
+  - brown-edges
+  - dropping-leaves
+  - wilting
   control_methods:
-    biological_controls: "NEEDS_DATA"
-    preventive_methods: "NEEDS_DATA"
-    cultural_practices: "NEEDS_DATA"
-    mechanical_physical: "NEEDS_DATA"
-    organic_sprays: "NEEDS_DATA"
+    biological_controls: >-
+      Organic matter and diverse soil biology improve cation exchange capacity so magnesium is held against leaching.
+      Composts derived from plant residues supply magnesium slowly. Mycorrhizae expand root access in low-input systems.
+      These supports work alongside correcting pH and fertilizer balance rather than replacing them.
+    preventive_methods: >-
+      Apply dolomitic lime only when pH and magnesium tests together justify it -- calcitic lime will not add magnesium.
+      Use sulfate or chelated magnesium fertilizers per soil test recommendations for high-value crops. In containers,
+      switch to complete fertilizers with micronutrient packages during heavy fruiting. Avoid chronic over-application
+      of potassium chloride without monitoring secondary cations.
+    cultural_practices: >-
+      Mulch to reduce drought stress that makes chlorosis look worse than soil tests imply. Leach containers if electrical
+      conductivity climbs from salt buildup. Rotate heavy feeders with cover crops that recycle cations when appropriate
+      for your rotation goals.
+    mechanical_physical: >-
+      Crush and incorporate coarse rock dusts only when particle size and soil chemistry match extension guidance --
+      they are slow. Surface applications of Epsom salt (magnesium sulfate) can be foliar or soil per crop guides for
+      quick rescue on acute cases with confirmed deficiency.
+    organic_sprays: >-
+      Epsom salt foliar sprays (1-2 tablespoons per gallon is a common starting point for many crops) green older leaves
+      within days when deficiency is real -- test on a branch first. Soil drenches of magnesium sulfate last longer than
+      foliar for perennials. Do not apply blindly every week without tissue confirmation or you risk skewing soil chemistry.
   natural_enemies:
-  - NEEDS_DATA
+  - Beneficial Fungi
+  - Competitive Microbes
+  - Antagonistic Bacteria
   affected_plants: []
   # Image attribution: Alandmanson / Wikimedia Commons / CC BY 4.0
   # Image source: wikimedia
