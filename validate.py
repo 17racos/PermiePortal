@@ -35,20 +35,35 @@ PESTS_FILE   = PROJECT / "src/seeds/pests/pests-data.yml"
 # ── LOAD VALID PEST NAMES ─────────────────────────────────────────────────────
 
 def load_valid_pests():
-    if not PESTS_FILE.exists():
-        return set(), {}
-    try:
-        data = yaml.safe_load(PESTS_FILE.read_text(encoding='utf-8'))
-        # Map: display name (lower) -> canonical display name
-        valid = {}
-        for p in (data or []):
-            name = p.get('name', '')
-            if name:
-                valid[name.lower()] = name
-        return set(valid.keys()), valid
-    except Exception as e:
-        print(f"⚠️  Could not load pests file: {e}")
-        return set(), {}
+    valid = {}
+
+    # Load legacy monolithic file if it exists
+    if PESTS_FILE.exists():
+        try:
+            data = yaml.safe_load(PESTS_FILE.read_text(encoding='utf-8'))
+            for p in (data or []):
+                name = p.get('name', '')
+                if name:
+                    valid[name.lower()] = name
+        except Exception as e:
+            print(f"⚠️  Could not load pests file: {e}")
+
+    # Load individual pest YAML files
+    seeds_pests = PESTS_FILE.parent
+    if seeds_pests.exists():
+        for yml in sorted(seeds_pests.glob("*-data.yml")):
+            if yml.name in ('pests-data.yml', 'pests-data.yml.bak'):
+                continue
+            try:
+                data = yaml.safe_load(yml.read_text(encoding='utf-8'))
+                if data and isinstance(data, list):
+                    name = data[0].get('name', '')
+                    if name:
+                        valid[name.lower()] = name
+            except Exception:
+                continue
+
+    return set(valid.keys()), valid
 
 
 # ── VALIDATION RULES ──────────────────────────────────────────────────────────
