@@ -353,7 +353,7 @@ def write_cursor_prompts():
     for f in REVIEW_DIR.glob("cursor_enrich_*.md"):
         f.unlink()
 
-    needs, pest_needs = scan_all_needs_data()
+    needs, pest_needs, pest_files = scan_all_needs_data()
 
     if not needs and pest_needs == 0:
         print("  ✅ All seeds fully enriched — no NEEDS_DATA found")
@@ -411,16 +411,28 @@ def write_cursor_prompts():
             lines.append(f"- `src/seeds/plants/{fname}` ({count} fields)\n")
 
         if i == num_chunks and pest_needs > 0:
-            lines.append(f"\n## Pests to Enrich\n\n")
+            lines.append(f"\n## Pests to Enrich ({len(pest_files)} files, {pest_needs} fields)\n\n")
             lines.append(
-                f"`src/seeds/pests/pests-data.yml` — {pest_needs} NEEDS_DATA fields\n\n"
-                "Find every entry with NEEDS_DATA and replace with accurate data.\n\n"
-                "Pest rules:\n"
-                "- Organic controls ONLY — no synthetic pesticides ever\n"
-                "- control_methods: organic_sprays, biological_controls,\n"
-                "  cultural_practices, mechanical_physical, preventive_methods\n"
+                "Use `src/seeds/pests/aphids-data.yml` as the gold standard reference.\n\n"
+                "**Voice:** Lifecycle-aware, actionable, accessible. No generic slop.\n\n"
+                "**Required fields for each pest:**\n"
+                "- description: 2-3 sentences, what it is and first sign of damage\n"
+                "- characteristics: what to look for, how to confirm identity\n"
+                "- symptoms: 2-5 tags from: holes-in-leaves, yellowing-leaves, wilting,\n"
+                "  sticky-residue, white-powder, leaf-spots, curling-leaves, webbing,\n"
+                "  chewed-stems, stem-damage, root-damage, fruit-damage, black-coating,\n"
+                "  distorted-growth, tunneling, galls, dropping-leaves, silvery-streaking,\n"
+                "  brown-edges, die-back, sooty-deposits, slime-trails, skeletonized-leaves,\n"
+                "  bark-damage, crown-damage\n"
+                "- control_methods: biological_controls, preventive_methods,\n"
+                "  cultural_practices, mechanical_physical, organic_sprays\n"
+                "  Each section min 4 sentences. Use ' -- ' not em dashes.\n"
                 "- natural_enemies: real predators/parasitoids only\n\n"
+                "**Files to enrich:**\n"
             )
+            for pest_fname, pest_count in pest_files:
+                lines.append(f"- `src/seeds/pests/{pest_fname}` ({pest_count} fields)\n")
+            lines.append("\n")
 
         lines.append("---\n\n## When Done\n\n```bash\n")
         lines.append("python3 validate.py --since 2h\n")
@@ -512,7 +524,7 @@ def process_pests(names, dry_run=False):
         for stub in new_stubs:
             # Extract slug from stub content
             import re as _re
-            slug_m = _re.search(r'slug:\s*["']?([\w-]+)', stub)
+            slug_m = _re.search(r'slug:\s*["\']?([\w-]+)', stub)
             if slug_m:
                 slug = slug_m.group(1)
                 dest = SEEDS_PESTS / f"{slug}-data.yml"
