@@ -1,24 +1,55 @@
 ---
 - common_name: Kiwi
   picture: kiwi.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Actinidia deliciosa
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Actinidiaceae
+  zone: 7-10
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Vine
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Pollinator
+  - Wildlife Attractor
+  description: |-
+    Kiwi (Actinidia deliciosa) is a vigorous deciduous climbing vine grown for its fuzzy fruit and strong trellis habit. It is native to Asia and is now widely cultivated in temperate and warm temperate climates. Plants can reach 4–8 m (13–26 ft) on support, producing white flowers in spring and the familiar green-gold fruit in late season. In permaculture, it matters because it converts vertical space into edible harvest and creates a living canopy that cools understory crops.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for best fruit set; partial shade is tolerated but reduces yields.
+    - Water consistently during flowering and fruit sizing; drought can shrink fruit.
+    - Prefers deep, fertile, well-drained soil; avoid waterlogged roots.
+    - Protect young vines from cold snaps and windy exposure.
+    
+    ✂️ Propagation:
+    - Seeds: cold-stratify and expect variable fruit traits; germination may take weeks to months.
+    - Cuttings: take semi-hardwood cuttings in warm season and root under humidity.
+    - Grafting: commonly used to match fruit quality and pollination strategy.
+    
+    🌾 Harvest / Best Use Timing:
+    - Harvest fruit when it softens slightly and aroma is strong (it finishes ripening after picking).
+    - Pick in rounds since ripeness can vary across the trellis.
+    - Store cool for short-term use; longer storage keeps fruit firmer, then ripens off-vine.
+  purpose: |-
+    Edible: Fruit supplies a concentrated seasonal harvest, turning a trellis into real calories.
+    Pollinator: Spring blossoms offer nectar and pollen for bees and other insects, supporting pollination for nearby crops.
+    Wildlife Attractor: Fruit and flower resources extend food availability for wildlife and beneficial insects.
   companions:
-  - NEEDS_DATA
+  - Comfrey (Symphytum officinale) — deep roots and chop-and-drop mulch help keep vine feeding consistent.
+  - Garlic (Allium sativum) — helps diversify smells around the trellis and supports rotation scheduling.
+  - Crimson Clover (Trifolium incarnatum) — cool-season ground cover that adds organic matter while you wait on fruiting.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests: []
+  - Kiwi vines need appropriate male/female planting for fruiting (or reliable pollination partners).
+  practitioner_notes: |-
+    Mulch the root zone and keep it cool; kiwis hate thirsty roots.
+    Prune for airflow—vines that stay damp invite disease rather than “more growth.”
+    Ripeness is smell + gentle give, not just color.
+  pests:
+  - Aphids
+  - Scale Insects
+  - Spider Mites
+  - Root Rot

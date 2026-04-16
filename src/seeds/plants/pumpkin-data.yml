@@ -1,24 +1,56 @@
 ---
 - common_name: Pumpkin
   picture: pumpkin.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Cucurbita pepo
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Cucurbitaceae
+  zone: 3-9
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Ground Cover
+  - Water Retention
+  description: |-
+    Pumpkin (Cucurbita pepo) is a warm-season creeping vine grown for its edible fruit and thick, storage-friendly flesh. It originates from North America and has been widely cultivated across the Americas for centuries, producing large leaves and sprawling, tendril-guided growth. In permaculture, pumpkins matter because their rapid cover shades soil, reduces evaporation, and creates a dense living mulch that helps suppress weeds while you harvest food that stores well through the off-season. Mature plants commonly sprawl several meters, with fruits ranging widely by variety.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun; vines flower and set fruit much better with long bright days.
+    - Water regularly while plants establish and fruit sizes; drought can reduce yield.
+    - Prefers fertile, well-drained soil amended with compost.
+    - Avoid waterlogged patches; soggy ground invites rot in vines and fruits.
+    
+    ✂️ Propagation:
+    - Seeds (direct sow): sow after soil warms and frost danger passes; germination often takes 5–10 days.
+    - Start and transplant: start indoors in warm conditions if your season is short; transplant carefully with intact root systems.
+    - Relay sow: plant additional seeds in small batches to spread harvest and reduce weather risk.
+    
+    🌾 Harvest / Best Use Timing:
+    - Harvest when fruit rind hardens and stem dries/cures; pick carefully to avoid skin damage.
+    - Cure harvested pumpkins in warm, dry airflow if needed so they store better.
+    - Use flesh for roasting, soups, pies, and freezing; keep seeds for roasting and oil extraction.
+  purpose: |-
+    Edible: Fruit provides a large, shelf-stable food output that supports year-round nutrition.
+    Ground Cover: Vine canopy suppresses weeds and shades soil surface to reduce evaporation.
+    Water Retention: Broad leaves and dense cover slow drying and reduce direct soil exposure during dry spells.
   companions:
-  - NEEDS_DATA
+  - Corn (Zea mays) — corn stalks provide vertical structure; pumpkin spreads below for living mulch.
+  - Nasturtium (Tropaeolum majus) — trailing flowers attract beneficial insects and occupy space without harsh competition.
+  - Marigold (Tagetes patula) — helps draw beneficial insects and gives you a visible monitor bed for pest activity.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests: []
+  - Keep fruit off wet soil with straw or boards; fruit rot steals harvest fast.
+  - Powdery mildew risk rises with poor airflow—avoid crowding vines.
+  practitioner_notes: |-
+    Pick fruit often by touch: when skin resists fingernail and stems dry, it’s ready.
+    Thin early for a few strong vines; you’ll get better fruit size than too many weak ones.
+    Don’t let vines wander into places you can’t water/harvest—you’ll regret it at 5th harvest week.
+  pests:
+  - Aphids
+  - Caterpillars
+  - Spider Mites
+  - Root Rot

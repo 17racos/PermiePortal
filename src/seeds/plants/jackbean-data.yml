@@ -1,24 +1,55 @@
 ---
 - common_name: Jackbean
   picture: jackbean.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Canavalia ensiformis
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Fabaceae
+  zone: 9-12
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Vine
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Nitrogen Fixer
+  - Animal Fodder
+  - Mulcher
+  description: |-
+    Jackbean (Canavalia ensiformis) is a warm-season legume grown for its ability to quickly build biomass, fix nitrogen, and produce large seeds used in food systems and as a fodder resource when properly processed. It forms twining vines with leathery leaves and produces long pods that hold seeds big enough to make you pay attention. In permaculture, it matters because it turns hungry soil time into living soil work: ground cover, nitrogen input, and harvestable biomass for mulch or feed cycles.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun; growth needs heat to really sprint.
+    - Water moderately during establishment; once established it tolerates typical warm-season dry spells.
+    - Prefers well-drained soil and does poorly in cold, wet ground.
+    - Avoid frost; cold stalls growth and can kill young vines.
+    
+    ✂️ Propagation:
+    - Seeds: soak seeds 12–24 hours to speed emergence; then direct-sow after soil warms.
+    - Seeds (spacing): plant thickly if your goal is ground cover, thinner if you want seed/pod production.
+    - Optional: re-sow after mowing to keep cover consistent through the season.
+    
+    🌾 Harvest / Best Use Timing:
+    - Pods: harvest green pods for forage-style uses when they’re still tender.
+    - Seeds: harvest mature seeds when pods dry; process thoroughly before eating (never assume raw is safe).
+    - Biomass: cut vines for mulch when you’re ready to switch beds; residues decompose into soil carbon.
+  purpose: |-
+    Nitrogen Fixer: Root nodules host nitrogen-fixing microbes, enriching soil nitrogen after biomass decomposition.
+    Animal Fodder: Vines and processed seeds provide a renewable feed input for warm-season cycles.
+    Mulcher: Fast leaf and vine production creates quick surface cover that protects soil and reduces weed pressure.
   companions:
-  - NEEDS_DATA
+  - Corn (Zea mays) — warm-season canopy partner that supports vertical structure and rotation timing.
+  - Sunflower (Helianthus annuus) — tall companion adds biomass and helps keep the ground shaded.
+  - Garlic (Allium sativum) — aromatic bulb helps diversify bed scent and rotation in mixed plots.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests: []
+  - Raw seeds can be toxic; process thoroughly before any food use and keep out of reach of pets/livestock.
+  practitioner_notes: |-
+    Soak seeds: it’s the difference between “it’s growing” and “it’s contemplating soil.”
+    For mulch, cut before vines toughen; early residues break down faster.
+    If frost arrives, switch to a warmer cover crop next cycle.
+  pests:
+  - Aphids
+  - Caterpillars
+  - Borers
+  - Root Rot

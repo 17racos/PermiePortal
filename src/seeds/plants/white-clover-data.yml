@@ -1,24 +1,55 @@
 ---
 - common_name: White Clover
   picture: white_clover.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Trifolium repens
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Fabaceae
+  zone: 3-9
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Nitrogen Fixer
+  - Mulcher
+  - Pollinator
+  description: |-
+    White clover (Trifolium repens) is a creeping perennial legume grown as a living mulch, pasture component, and cover crop. It is native to Europe and western Asia and forms low mats with trifoliate leaves and white flower heads. Plants typically spread widely and can reach about 10–25 cm (4–10 in) tall in grazed or mowed systems. In permaculture, it matters because white clover fixes nitrogen through root nodules, supplies frequent leaf biomass when you mow, and supports pollinators with accessible blooms in cool seasons.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to partial shade; it performs best with enough light to bloom.
+    - Moderate water for establishment; once rooted it tolerates typical rainfall patterns.
+    - Prefers well-drained, fertile soils and benefits from compost inputs.
+    - Avoid long waterlogged periods that thin stands and weaken roots.
+    
+    ✂️ Propagation:
+    - Seeds (spring sow): direct-sow and keep soil evenly moist; germination often occurs within 5–10 days.
+    - Seeds (overseeding): overseed into existing grass/groundcover for thicker living mulch.
+    - Division: split established patches in cool seasons and replant with consistent moisture.
+    
+    🌾 Harvest / Best Use Timing:
+    - For mulch: mow/cut frequently at a height that keeps crowns protected; residues can be chop-and-dropped.
+    - For pollinators: allow some blooms and avoid mowing everything at once.
+    - For seed: let some stands flower fully and mature seed heads before collecting.
+  purpose: |-
+    Nitrogen Fixer: Root nodules host nitrogen-fixing microbes that enrich soil nitrogen as clover biomass decomposes.
+    Mulcher: Frequent cutting provides steady residue that covers soil, suppresses weeds, and improves infiltration.
+    Pollinator: Flower heads produce nectar/pollen that sustain bees and beneficial insects during cool-season gaps.
   companions:
-  - NEEDS_DATA
+  - Comfrey (Symphytum officinale) — pairs well as a taller chop-and-drop partner, cycling nutrients between clover and deeper roots.
+  - Garlic (Allium sativum) — rotation partner; clover ground cover helps keep moisture steady while garlic follows in cycles.
+  - Oats (Avena sativa) — cereal cover complements clover by producing thicker mulch layers for bed transitions.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests: []
+  - Stand thinning often signals poor drainage or mowing too low.
+  practitioner_notes: |-
+    Don’t mow “to the carpet”; protect crowns to keep clover coming back.
+    Overseed thin patches instead of replanting everything.
+    White clover improves pasture and garden beds when you treat it as a cycle, not a one-time plant.
+  pests:
+  - Aphids
+  - Spittlebugs
+  - Slugs
+  - Root Rot

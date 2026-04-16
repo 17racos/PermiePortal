@@ -1,24 +1,54 @@
 ---
 - common_name: Curry Plant
   picture: curry_plant.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Murraya koenigii
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Rutaceae
+  zone: 9-12
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  description: |-
+    Curry plant (Murraya koenigii) is an evergreen aromatic shrub native to tropical regions of Asia, grown for its glossy compound leaves with a distinct curry-like fragrance. It typically forms a bushy canopy and can be kept as a medium-height shrub in managed gardens, with new leaf flushes throughout warm seasons. In permaculture, it’s valuable because it turns a living shrub into a continuous kitchen harvest, while its flowers contribute nectar support and its leaf litter helps keep the understory fed.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to partial shade; shade slows growth but reduces heat stress.
+    - Water moderately during active growth; once established it tolerates short dry breaks.
+    - Prefers well-drained soil with organic matter; waterlogged beds invite root problems.
+    - Protect from frost; cold can defoliate or kill young growth.
+    
+    ✂️ Propagation:
+    - Seeds: sow fresh when possible; germination may be slow and can take weeks to a couple of months.
+    - Cuttings: take semi-hardwood cuttings in warm seasons; root under humidity for best success.
+    - Layering: air-layer or mound-layer low branches to produce rooted plants without losing the parent.
+    
+    🌾 Harvest / Best Use Timing:
+    - Harvest leaves as needed once the plant is established; take mainly from outer growth to encourage branching.
+    - For best flavor, pick young leaves and use quickly or dry gently for storage.
+    - Avoid stripping all foliage at once; curry plant needs leaves to keep producing.
+  purpose: |-
+    Edible: Leaves deliver ongoing flavor harvests, turning warm-season leaf growth into reliable kitchen outputs.
+    Medicinal: Traditional use centers on aromatic phytochemicals; in a permaculture system this adds a functional herbal layer.
+    Wildlife Attractor: Flowers provide nectar and help maintain beneficial insect activity around your food beds.
   companions:
-  - NEEDS_DATA
+  - Ginger (Zingiber officinale) — likes warm, humus-rich conditions; curry plant leaf litter helps keep soil biology active.
+  - Garlic (Allium sativum) — strong scent and rotation timing help disrupt pest pressure in nearby kitchen herb plantings.
+  - Marigold (Tagetes patula) — pulls beneficial insects while you manage sap-feeder pests by observation.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests: []
+  - Avoid planting where winter freezes repeatedly damage young growth; cold-stressed plants become pest magnets.
+  practitioner_notes: |-
+    Pick leaves often; it encourages fresh shoots more reliably than occasional big “harvest day” events.
+    Keep drainage honest—curry plant tolerates warmth, not swamp.
+  pests:
+  - Aphids
+  - Spider Mites
+  - Whiteflies
+  - Root Rot

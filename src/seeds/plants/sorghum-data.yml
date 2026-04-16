@@ -1,24 +1,55 @@
 ---
 - common_name: Sorghum
   picture: sorghum.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Sorghum bicolor
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Poaceae
+  zone: 6-11
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Animal Fodder
+  - Erosion Control
+  description: |-
+    Sorghum (Sorghum bicolor) is a warm-season cereal grown for grain, forage, and sturdy biomass. It is native to Africa and now thrives in many warm temperate and subtropical regions, especially where heat and drought are routine. Plants typically reach 1–3 m (3–10 ft) tall with strong stems and flowering heads that dry into seed. In permaculture, sorghum matters because it provides reliable calories and feed while acting like living armor: dense stems and roots protect soil from wind and rain, and residues become compost and mulch inputs.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun; growth depends on bright, warm conditions.
+    - Moderate water for establishment; sorghum tolerates drought better than many grains.
+    - Prefers well-drained soil; avoid prolonged waterlogging.
+    - Heat during flowering is usually manageable if soil moisture isn’t extreme.
+    
+    ✂️ Propagation:
+    - Seeds (direct sow): sow after soil warms; germination commonly occurs within 4–10 days.
+    - Thin for spacing if you want better head/seed development.
+    - Relay sow: stagger plantings for harvest spread and to keep ground covered.
+    
+    🌾 Harvest / Best Use Timing:
+    - Grain: harvest when heads are dry and seeds hard.
+    - Forage: cut green growth at appropriate stage for fresh or dried feed.
+    - Biomass/mulch: cut after seed set or earlier for green material depending on your plan.
+  purpose: |-
+    Edible: Grain provides storage-friendly food calories for rotation cycles.
+    Animal Fodder: Stems and grain feed livestock or become compost after manure processing.
+    Erosion Control: Dense growth shields soil and roots improve infiltration and stability.
   companions:
-  - NEEDS_DATA
+  - Soybean (Glycine max) — warm-season pairing lets you balance grain output with nitrogen input when managed in rotation.
+  - Sunflower (Helianthus annuus) — tall companion helps shade ground and creates a diverse canopy structure.
+  - Corn (Zea mays) — shared warm timing and canopy layering creates a stable, weed-suppressing mix.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests: []
+  - Avoid planting repeatedly in the same spot; grain pests and diseases build with continuous cereal culture.
+  practitioner_notes: |-
+    Cut for green feed before stems get woody if you want better palatability.
+    For grain, let heads truly dry—harvesting too early increases spoilage.
+    Relay sow so bare ground doesn’t become your weed invitation.
+  pests:
+  - Aphids
+  - Caterpillars
+  - Japanese Beetles
+  - Root Rot

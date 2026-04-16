@@ -1,24 +1,54 @@
 ---
 - common_name: Shallot
   picture: shallot.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Allium cepa var. aggregatum
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Amaryllidaceae
+  zone: 3-9
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Pest Management
+  - Medicinal
+  description: |-
+    Shallot (Allium cepa var. aggregatum) is an allium grown for its mild, multi-clove bulbs and flavorful greens. It is native to parts of Europe and Asia and is widely cultivated as a cool-season vegetable that stores well. Plants typically reach about 25–45 cm (10–18 in) tall with clustered bulbs underground. In permaculture, shallots matter because they provide reliable edible harvests while their strong allium scent helps confuse some pest movement and supports rotation diversity—an underrated system-level advantage.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for best bulb development; partial shade reduces size.
+    - Moderate water during establishment and leaf growth; avoid waterlogging.
+    - Prefers fertile, well-drained soil amended with compost.
+    - Heat spikes can reduce bulb quality; mulch helps stabilize moisture.
+    
+    ✂️ Propagation:
+    - Sets/cloves: plant separated cloves (or shallot “seed” bulbs) in cool soil; germination typically occurs in 1–2 weeks.
+    - Seeds: start indoors and transplant, but it can take longer to reach good bulb size.
+    - Division: keep the healthiest bulbs for the next season’s sets.
+    
+    🌾 Harvest / Best Use Timing:
+    - Harvest when tops start to yellow and fall over; cure bulbs in airflow.
+    - Use fresh greens early, then harvest bulbs when fully formed.
+    - Store cool and dry for later cooking.
+  purpose: |-
+    Edible: Bulbs and greens provide high-use kitchen flavor with good storage performance.
+    Pest Management: Allium volatiles can disrupt host-finding for some pests and improve rotation planning in diverse beds.
+    Medicinal: Traditional allium preparations support supportive dietary use patterns; in permaculture it’s an on-site herb-crop.
   companions:
-  - NEEDS_DATA
+  - Carrot (Daucus carota) — rotation partner that uses different soil depth while sharing cool-season scheduling.
+  - Lettuce (Lactuca sativa) — understory cool-season pairing; lettuce uses space under shallots without heavy competition.
+  - Garlic (Allium sativum) — same care and rotation logic; aromatic bed guild helps you monitor pests together.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests: []
+  - Avoid persistent wetness; alliums rot when soil stays soggy.
+  practitioner_notes: |-
+    Harvest timing is about tops falling over, not a calendar superstition.
+    Thin crowded seedlings early for bigger bulbs instead of sad mini-cloves.
+    Cure in airflow to prevent storage mold.
+  pests:
+  - Aphids
+  - Slugs
+  - Root Rot

@@ -1,24 +1,55 @@
 ---
 - common_name: Oat
   picture: oat.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Avena sativa
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Poaceae
+  zone: 3-7
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Animal Fodder
+  - Mulcher
+  - Erosion Control
+  description: |-
+    Oat (Avena sativa) is a cool-season cereal grown for grain, straw, and fast ground coverage as a cover crop. It forms upright stems topped with oat heads and creates a dense mat of biomass that can be chopped, grazed, or left to decompose. In permaculture, it matters because it turns short cool-season windows into soil protection and nutrient cycling: the canopy shields the ground, residues feed soil life, and rotations with legumes keep fertility managed instead of purchased.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for best growth; light shade reduces biomass and stand density.
+    - Moderate water during germination and early development; once established it tolerates typical cool-season rainfall.
+    - Prefers well-drained soil with compost and steady organic matter.
+    - Avoid long waterlogged periods that invite root and crown problems.
+    
+    ✂️ Propagation:
+    - Seeds (spring sow): direct-seed after soil is workable; germination often occurs in 4–7 days.
+    - Seeds (fall cover): sow before winter to establish green cover; expect regrowth in spring.
+    - Sow thick if your goal is ground coverage; thin if you want grain.
+    
+    🌾 Harvest / Best Use Timing:
+    - Grain: harvest when heads are mature and kernels are dry and hard.
+    - Straw/mulch: cut or mow when plants are mature but before full senescence to keep residues breakdown-friendly.
+    - Green fodder: harvest young growth for fresh feed-style use when appropriate.
+  purpose: |-
+    Animal Fodder: Provides warm-season-like feeding inputs in cool windows when other forages are scarce.
+    Mulcher: Straw and biomass decompose into mulch, helping soil retain moisture and build organic matter.
+    Erosion Control: Dense cover reduces runoff impact and protects soil structure during rain events.
   companions:
-  - NEEDS_DATA
+  - Crimson Clover (Trifolium incarnatum) — adds nitrogen to pair with oat’s carbon-heavy straw residues.
+  - Radish (Raphanus sativus) — roots help loosen soil so residues break down with better aeration.
+  - Garlic (Allium sativum) — supports rotation timing in beds and helps diversify bed scent in mixed plots.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests: []
+  - Rotate oats with non-grasses; continuous cereal planting increases disease and pest buildup.
+  practitioner_notes: |-
+    If you want real mulch, cut at a sensible stage—straw that’s too mature breaks down slowly.
+    Thick stands close the ground fast and beat weeds better than careful weeding.
+    Don’t “feed the grasshole” by leaving bare soil gaps; let oats do the covering job.
+  pests:
+  - Aphids
+  - Caterpillars
+  - Borers
+  - Root Rot

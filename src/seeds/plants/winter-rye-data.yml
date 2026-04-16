@@ -1,24 +1,54 @@
 ---
 - common_name: Winter Rye
   picture: winter_rye.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Secale cereale
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Poaceae
+  zone: 3-7
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Mulcher
+  - Erosion Control
+  - Animal Fodder
+  description: |-
+    Winter rye (Secale cereale) is a cool-season grain cover crop grown for dense ground coverage, straw mulch, and forage-style feed in some systems. It is native to Europe and western Asia and adapts well to cold winters compared with many other cereals. Plants typically grow 60–150 cm (24–59 in) tall with upright stems and long grain heads. In permaculture, winter rye matters because it keeps soil covered during off-season gaps, protects against erosion, and provides bulky residues that improve soil structure after decomposition.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for the best coverage; partial shade slows stand density.
+    - Moderate water during germination and early growth; reduce as plants mature.
+    - Prefers well-drained soil with compost; avoid persistent wetness.
+    - Tolerates cold; hard freezes are less harmful once plants are established.
+    
+    ✂️ Propagation:
+    - Seeds (fall sow): direct-seed in autumn for overwintering cover; germination often occurs within 3–8 days.
+    - Seeds (spring sow): possible where winters are too harsh, but coverage may be shorter.
+    - Thick seeding: helps ground coverage and weed suppression.
+    
+    🌾 Harvest / Best Use Timing:
+    - Cover crop: cut/terminate in spring before it becomes too mature or re-seeds aggressively.
+    - Mulch: leave residues on the surface for chop-and-drop or shallow laydown.
+    - For forage: cut green growth at the right stage if your system supports feed use.
+  purpose: |-
+    Mulcher: Rye straw becomes carbon-rich residue that protects soil and feeds decomposers.
+    Erosion Control: Dense winter coverage reduces wind and rain erosion during soil exposure periods.
+    Animal Fodder: Green growth and straw can feed livestock or become compost inputs after feeding cycles.
   companions:
-  - NEEDS_DATA
+  - Crimson Clover (Trifolium incarnatum) — nitrogen-fixing companion improves rye’s nitrogen balance and speeds residue breakdown.
+  - Garlic (Allium sativum) — rotation partner; rye cover helps suppress weeds before garlic planting.
+  - Comfrey (Symphytum officinale) — deeper mineral cycling supports mixed fertility build-up in bed edges.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests: []
+  - Avoid planting rye continuously in the same spot; cereal pests and diseases can accumulate.
+  practitioner_notes: |-
+    Terminate before maturity if you don’t want volunteers.
+    Dense stands beat weeds; thin stands are just expensive bare soil with a haircut.
+    Use residues quickly for faster composting if you need a quicker transition.
+  pests:
+  - Aphids
+  - Caterpillars
+  - Root Rot

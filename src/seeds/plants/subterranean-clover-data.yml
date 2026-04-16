@@ -1,24 +1,55 @@
 ---
 - common_name: Subterranean Clover
   picture: subterranean_clover.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Trifolium subterraneum
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Fabaceae
+  zone: 7-10
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Nitrogen Fixer
+  - Ground Cover
+  - Mulcher
+  description: |-
+    Subterranean clover (Trifolium subterraneum) is a self-seeding annual or short-lived perennial clover known for its ground-level flower heads and seed development that can occur near/under the soil surface. It is native to the Mediterranean region and is widely grown as a cool-season cover crop. Plants typically grow 10–30 cm (4–12 in) tall with a spreading habit that forms a dense mat when conditions are right. In permaculture, it matters because it turns seasonal “bare ground time” into nitrogen-rich living cover and thick mulch residue, improving soil structure and helping suppress weeds.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for strongest growth and ground cover density.
+    - Moderate water for germination and establishment; once established it tolerates typical cool-season rain.
+    - Prefers well-drained soil; waterlogged sites reduce vigor.
+    - In hot climates, manage with summer ground cover or mulch to protect soil biology.
+    
+    ✂️ Propagation:
+    - Seeds (autumn sow): direct-sow; germination often takes 4–10 days with consistent moisture.
+    - Seeds (managed stand): overseed into existing beds for renewed cover without full replanting.
+    - Re-seeding management: allow a portion to set viable seed where you want next season’s cover.
+    
+    🌾 Harvest / Best Use Timing:
+    - For mulch/green manure: cut or mow during active growth before seed heads fully mature.
+    - Leave residues on the surface as chop-and-drop to feed soil life.
+    - If you want more seed: allow plants to complete their cycle and manage spread.
+  purpose: |-
+    Nitrogen Fixer: Root nodules host nitrogen-fixing microbes, converting atmospheric nitrogen into plant-available forms that enrich the soil after decomposition.
+    Ground Cover: Spreading canopy reduces evaporation and blocks light for weed seedlings.
+    Mulcher: The quick, leafy growth produces cover residue that stabilizes beds and improves infiltration.
   companions:
-  - NEEDS_DATA
+  - Oats (Avena sativa) — cereal companion provides additional biomass and balances clover’s nitrogen-rich residues.
+  - Garlic (Allium sativum) — rotation partner; clover cover suppresses weeds until garlic demand peaks.
+  - Comfrey (Symphytum officinale) — deep root mineral support plus mulch layers complement the surface-cover role.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests: []
+  - Manage seed production if you need clean bed transitions; clover can volunteer heavily.
+  practitioner_notes: |-
+    Sow thick enough to close the ground fast; thin stands invite weeds.
+    Cut at the green peak for better mulch breakdown instead of woody residues.
+    Don’t chase perfection—consistent cover is the win.
+  pests:
+  - Aphids
+  - Spittlebugs
+  - Caterpillars
+  - Root Rot

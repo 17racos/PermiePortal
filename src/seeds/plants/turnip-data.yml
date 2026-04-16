@@ -1,24 +1,55 @@
 ---
 - common_name: Turnip
   picture: turnip.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Brassica rapa subsp. rapa
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Brassicaceae
+  zone: 3-9
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Erosion Control
+  description: |-
+    Turnip (Brassica rapa subsp. rapa) is a cool-season root crop grown for its swollen, edible taproot and its leafy greens. Native to Europe and western Asia, turnips are widely cultivated across temperate gardens because they tolerate cool weather and deliver fast harvests. Plants typically reach 20–45 cm (8–18 in) tall depending on variety, with roots ranging from golf-ball to larger sizes. In permaculture, turnips matter because their roots improve soil texture, their greens provide quick nutrition, and the crop’s fast life cycle helps keep beds covered between longer-season plants.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to partial shade; more light generally improves growth.
+    - Keep soil consistently moist while roots are sizing up; drought can make roots woody.
+    - Prefers loose, well-drained soil with compost.
+    - Avoid waterlogged ground which invites root diseases.
+    
+    ✂️ Propagation:
+    - Seeds (direct sow): sow in cool weather; germination commonly occurs in 3–7 days.
+    - Thinning: thin early so roots have space to expand.
+    - Succession sow: repeat every 2–3 weeks for continuous greens and root harvests.
+    
+    🌾 Harvest / Best Use Timing:
+    - Harvest greens anytime they’re tender; cut outer leaves first for continued production.
+    - Harvest roots when they reach desired size and firmness, often 40–70 days after sowing.
+    - Store roots cool and slightly humid; cook to mellow flavor as needed.
+  purpose: |-
+    Edible: Roots and greens provide quick, varied nutrition that fits cool-season permaculture schedules.
+    Medicinal: Brassica phytochemicals support traditional herbal/dietary use patterns, and in permaculture this becomes an on-site kitchen remedy crop.
+    Erosion Control: Rapid ground coverage and active root growth protect soil during transitional cool seasons.
   companions:
-  - NEEDS_DATA
+  - Lettuce (Lactuca sativa) — shares cool-season scheduling and helps shade soil with leafy cover.
+  - Garlic (Allium sativum) — rotation partner that diversifies odors and supports integrated pest observation.
+  - Radish (Raphanus sativus) — quick roots loosen soil and complement turnip’s deeper taproot profile.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests: []
+  - Avoid brassica monoculture; rotate to reduce pest/disease carryover.
+  practitioner_notes: |-
+    Harvest roots before they get too big—overgrown roots turn tough.
+    Keep moisture steady for sweet, tender roots.
+    Thin early; crowded seedlings become deformed roots.
+  pests:
+  - Aphids
+  - Caterpillars
+  - Slugs
+  - Root Rot

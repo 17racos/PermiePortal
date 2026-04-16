@@ -1,24 +1,54 @@
 ---
 - common_name: Savory
   picture: savory.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Satureja montana
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Lamiaceae
+  zone: 5-9
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Pollinator
+  description: |-
+    Savory (Satureja montana) is a perennial culinary herb grown for its aromatic leaves used to flavor beans, lentils, and soups. It is native to the Mediterranean region and forms a low, woody-based shrub with small pink-white flowers. Plants typically reach 20–60 cm (8–24 in) tall and spread gently with pruning. In permaculture, savory matters because it provides a steady, front-edge harvest and its flowers support pollinators, turning kitchen-herb beds into insect-active zones.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for the most aromatic leaves; partial shade is tolerated but reduces intensity.
+    - Water lightly while establishing; once rooted it tolerates drought.
+    - Prefers well-drained, sandy or rocky soil with moderate fertility.
+    - Avoid heavy, waterlogged soil that promotes crown rot.
+    
+    ✂️ Propagation:
+    - Cuttings: take softwood or semi-hardwood cuttings in warm months; root under humidity (often 4–8 weeks).
+    - Seeds: direct-sow or start indoors; germination can be uneven and may take several weeks with steady moisture.
+    - Division: split clumps in spring for a quick true-to-type start.
+    
+    🌾 Harvest / Best Use Timing:
+    - Harvest leaves frequently once plants are established; pinch tips to encourage branching.
+    - Harvest flowers for teas or infused oils during bloom.
+    - Dry leaves in airflow for storage; keep away from humidity to preserve aroma.
+  purpose: |-
+    Edible: Leaves add consistent flavor harvests that extend your ability to cook from garden inputs.
+    Medicinal: Aromatic leaf chemistry supports traditional tea-style preparations; in a permaculture system that adds on-site “first response” herb supply.
+    Pollinator: Small flowers provide nectar and help maintain beneficial insect presence around food beds.
   companions:
-  - NEEDS_DATA
+  - Rosemary (Salvia rosmarinus) — both prefer sun and drainage and share pollinator-friendly aromatic guild roles.
+  - Thyme (Thymus vulgaris) — low, dense ground cover stabilizes soil and extends herb harvest continuity.
+  - Marigold (Tagetes patula) — adds nectar and visible pest monitoring in the same warm-season bed edges.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests: []
+  - Avoid heavy, waterlogged soil; crown rot is the main long-term failure mode.
+  practitioner_notes: |-
+    Don’t overwater; drought stress is often just enough to keep oils/aroma concentrated.
+    Pinch tips for growth you can actually harvest, not tall woody regrets.
+    In humid climates, raised beds and airflow beat “good intentions.”
+  pests:
+  - Aphids
+  - Spider Mites
+  - Root Rot

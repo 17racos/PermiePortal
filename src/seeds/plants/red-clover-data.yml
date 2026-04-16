@@ -1,24 +1,55 @@
 ---
 - common_name: Red Clover
   picture: red_clover.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Trifolium pratense
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Fabaceae
+  zone: 3-7
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Nitrogen Fixer
+  - Mulcher
+  - Pollinator
+  description: |-
+    Red clover (Trifolium pratense) is a perennial forage and cover crop prized for its dense foliage and long-lasting pink-purple flower heads. It is native to Europe and western Asia and has become widely cultivated in temperate regions for soil improvement and pollinator support. Plants typically grow about 30–90 cm (12–35 in) tall and spread by both reseeding and root growth. In permaculture, red clover matters because it fixes nitrogen through root nodules, provides quick mulch biomass when cut, and extends nectar availability for beneficial insects during parts of the season when many flowering plants slow down.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to partial shade; it flowers best with more light.
+    - Moderate water for establishment; once established it tolerates typical cool-season rainfall.
+    - Prefers well-drained loamy soil rich in organic matter.
+    - Avoid persistently waterlogged beds; crowns can decline.
+    
+    ✂️ Propagation:
+    - Seeds (spring sow): direct-seed or start indoors; germination often happens in 5–10 days with steady moisture.
+    - Seeds (late summer/early fall): sow to establish before winter for stronger first-year growth.
+    - Division: split mature patches in cool seasons and replant quickly for best success.
+    
+    🌾 Harvest / Best Use Timing:
+    - For mulch: mow or cut frequently during active growth; leave residues on the surface for chop-and-drop.
+    - For pollinators: allow some patches to bloom; manage mowing height to keep flowers accessible.
+    - For forage: cut at early bloom for better balance between yield and nutrition.
+  purpose: |-
+    Nitrogen Fixer: Root nodules host nitrogen-fixing microbes, converting atmospheric nitrogen into forms plants and soil life can use.
+    Mulcher: Repeated cutting converts clover into decomposing residue that feeds microbial activity and improves soil structure.
+    Pollinator: Flower heads provide nectar and pollen, supporting beneficial insects that also help pollinate nearby food crops.
   companions:
-  - NEEDS_DATA
+  - Oats (Avena sativa) — cereal cover pairs well with clover’s nitrogen and adds thicker biomass for residue layering.
+  - Comfrey (Symphytum officinale) — deep roots complement clover’s shallow soil zone and the combined mulch supports a richer soil system.
+  - Garlic (Allium sativum) — rotation partner; clover residues help keep soil covered while garlic fills the next crop window.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests: []
+  - Red clover can thin out over time; reseed or manage stands in cycles.
+  practitioner_notes: |-
+    Cut often if you want thick mulch; mowing reduces tough, slow-to-breakdown stems.
+    Keep soil covered between cuts; bare dirt is where weed seeds cash in.
+    If it turns leggy, you’re probably mowing too tall or letting it shade itself.
+  pests:
+  - Aphids
+  - Spittlebugs
+  - Caterpillars
+  - Root Rot

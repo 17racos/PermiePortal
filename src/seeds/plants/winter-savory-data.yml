@@ -1,24 +1,54 @@
 ---
 - common_name: Winter Savory
   picture: winter_savory.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Satureja montana
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Lamiaceae
+  zone: 5-9
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Pollinator
+  description: |-
+    Winter savory (Satureja montana) is a hardy perennial herb grown for its peppery, savory flavor used in cooking and for its aromatic value in garden systems. Native to the Mediterranean region, it forms a low, woody-based shrub with small flowers that attract pollinators. Plants typically reach 20–50 cm (8–20 in) tall and spread in a manageable mound. In permaculture, winter savory matters because it gives you an aromatic, edible herb harvest from a durable perennial bed edge, and its flowers support beneficial insects that also help around your food crops.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun is best; partial shade reduces aroma intensity.
+    - Water lightly during establishment; once rooted it handles drought well.
+    - Prefers well-drained soil and dislikes wet winters.
+    - Avoid heavy, waterlogged ground; crown rot is the common failure.
+    
+    ✂️ Propagation:
+    - Cuttings: take semi-hardwood cuttings in warm months and root under humidity (often 4–8 weeks).
+    - Seeds: direct-sow or start indoors; germination can take several weeks with steady moisture.
+    - Division: split in spring for faster, uniform plants.
+    
+    🌾 Harvest / Best Use Timing:
+    - Harvest leaves frequently by pinching tips for branching.
+    - Harvest flowers during bloom for teas/infusions.
+    - Dry leaves in airflow and store cool for flavor retention.
+  purpose: |-
+    Edible: Provides repeated herb harvest that extends cooking inputs without replanting each season.
+    Medicinal: Aromatic leaf preparations support traditional herbal use; in permaculture it’s an on-site “kitchen medicine” crop.
+    Pollinator: Flowers supply nectar to beneficial insects, reinforcing a healthier plant community around food beds.
   companions:
-  - NEEDS_DATA
+  - Rosemary (Salvia rosmarinus) — shared sun/drainage needs and aromatic guild cohesion.
+  - Thyme (Thymus vulgaris) — low groundcover reduces evaporation and keeps the border edible.
+  - Marigold (Tagetes patula) — adds nectar and visual monitoring for pest activity.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests: []
+  - Avoid waterlogged soil; raised beds and airflow matter in humid climates.
+  practitioner_notes: |-
+    Trim gently to keep growth compact and harvestable.
+    Don’t overfertilize; the leaf oils respond to stress and sun.
+    If flavor fades, it’s usually too much shade or too much wet.
+  pests:
+  - Aphids
+  - Spider Mites
+  - Root Rot

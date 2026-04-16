@@ -1,24 +1,55 @@
 ---
 - common_name: Zucchini
   picture: zucchini.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Cucurbita pepo (zucchini)
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Cucurbitaceae
+  zone: 5-10
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Pollinator
+  description: |-
+    Zucchini (Cucurbita pepo) is a warm-season summer squash grown for tender, fast-harvest fruits picked before seeds get fully hard. It is native to the Americas and is widely cultivated across temperate and warm climates for quick edible returns throughout summer. Plants typically grow as bushy or semi-vining forms reaching about 60–120 cm (2–4 ft) tall depending on variety, with large leaves that spread shade across the bed. In permaculture, zucchini matters because it produces reliable edible biomass quickly and its flowers help keep pollinator activity strong while the canopy shades soil and reduces evaporation.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for strong flowering and consistent fruit set; partial shade reduces yield.
+    - Water consistently while plants grow; drought makes fruit smaller and more bitter.
+    - Prefers fertile, well-drained soil enriched with compost.
+    - Avoid waterlogged areas; soggy soil increases rot and disease.
+    
+    ✂️ Propagation:
+    - Seeds (direct sow): sow after soil warms; germination often occurs in 5–10 days.
+    - Start indoors: transplant after warm conditions are stable if your season is short.
+    - Succession sow: small repeated plantings keep harvest going longer.
+    
+    🌾 Harvest / Best Use Timing:
+    - Harvest fruits young and tender; pick frequently (often every 1–3 days in peak season).
+    - Cut fruit with a short stem to avoid damaging vines.
+    - Cook or preserve: sauté, roast, grill; store short-term in the fridge or freeze sliced pieces.
+  purpose: |-
+    Edible: Fast fruiting provides a high-output summer harvest that supports fresh meals and freezing.
+    Medicinal: Traditional use centers on diet and supportive green/pulp preparations; in permaculture this is an on-site “food medicine” option.
+    Pollinator: Male/female squash flowers provide nectar that supports pollinator activity needed across the summer garden.
   companions:
-  - NEEDS_DATA
+  - Basil (Ocimum basilicum) — shares warm-season timing and adds aromatic support in kitchen beds.
+  - Marigold (Tagetes patula) — nectar and visible monitoring for pest pressure in squash patches.
+  - Garlic (Allium sativum) — scent helps diversify crop profile and supports rotation discipline.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests: []
+  - Don’t let fruits sit too long; oversized zucchini becomes fibrous and reduces future flowering.
+  practitioner_notes: |-
+    Harvest by size and tenderness, not hope.
+    Mulch early: soil splash is how rot finds you.
+    If flowers fail to become fruit, check watering stability and pollination activity.
+  pests:
+  - Aphids
+  - Caterpillars
+  - Spider Mites
+  - Root Rot

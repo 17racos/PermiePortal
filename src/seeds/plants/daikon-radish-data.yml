@@ -1,24 +1,55 @@
 ---
 - common_name: Daikon Radish
   picture: daikon_radish.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Raphanus sativus var. longipinnatus
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Brassicaceae
+  zone: 3-9
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Erosion Control
+  description: |-
+    Daikon radish (Raphanus sativus var. longipinnatus) is a cool-season root crop grown for its long, crisp taproot and peppery leaves. It originates in East Asia and is widely cultivated across temperate climates for fresh eating, stir-fries, and pickling. Plants typically form a rosette of foliage and a root that can reach 30–60 cm (12–24 in) depending on variety. In permaculture, it earns its keep by punching into compacted soil, feeding the food chain with edible biomass, and improving bed structure when harvested and composted.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for best root development; partial shade slows growth.
+    - Keep soil evenly moist; drought stresses roots and makes them woody.
+    - Prefers loose, deep, well-drained soil with compost; remove stones that deform roots.
+    - Cool weather is the friend; heat can shorten roots and trigger bolting.
+    
+    ✂️ Propagation:
+    - Seeds (direct sow): sow in rows after soil cools to workable temperatures; germination often occurs in 3–7 days.
+    - Succession sow: repeat every 2–3 weeks in mild weather for staggered harvest.
+    - Thinning: thin to final spacing early so roots have room to expand.
+    
+    🌾 Harvest / Best Use Timing:
+    - Harvest when roots reach usable diameter and length; many varieties mature in 50–70 days.
+    - For greens: cut outer leaves earlier and let the plant keep leaf-producing until you pull the root.
+    - Store cool; keep slightly humid so roots don’t shrivel.
+  purpose: |-
+    Edible: Roots and leaves provide fast, storage-friendly food that fits neatly into cool-season cycles.
+    Medicinal: The pungent compounds are used in traditional digestive and respiratory-style remedies; in permaculture they add a “kitchen medicine” harvest.
+    Erosion Control: Taproots help break compaction and keep soil aggregated; harvested residue adds organic matter that protects soil between crops.
   companions:
-  - NEEDS_DATA
+  - Lettuce (Lactuca sativa) — shared cool-season timing and similar soil moisture needs let you stagger harvests.
+  - Pea (Pisum sativum) — fixes nitrogen into the bed while radish roots help loosen the same soil profile.
+  - Garlic (Allium sativum) — aromatic bulbs pair well in rotations and help diversify the pest landscape.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests: []
+  - Avoid planting during hot spells; heat increases bolting and rough texture.
+  practitioner_notes: |-
+    Seed depth matters: shallow sowing can tip roots, deep sowing can slow emergence.
+    Don’t transplant daikon—root disturbance turns into forked, sad carrots-with-attitude.
+    Harvest before extreme heat makes the root fibrous; flavor is time-dependent chemistry.
+  pests:
+  - Aphids
+  - Slugs
+  - Caterpillars
+  - Root Rot

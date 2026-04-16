@@ -1,24 +1,55 @@
 ---
 - common_name: Lettuce
   picture: lettuce.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Lactuca sativa
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Asteraceae
+  zone: 3-9
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Pollinator
+  - Ground Cover
+  description: |-
+    Lettuce (Lactuca sativa) is a cool-season leafy crop grown for crisp greens eaten fresh and for its ability to keep producing when the weather stays reasonable. It forms low rosettes or loose heads depending on variety, and plants typically reach 15–30 cm (6–12 in) tall. In permaculture, it matters because it turns short-season space into repeatable harvests and its quick leaf cover helps reduce bare-soil evaporation and soil temperature swings for the next crop.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to partial shade; partial shade reduces bolting and bitterness in warm spells.
+    - Keep moisture consistent; drying triggers bitterness and speeds flowering.
+    - Prefers fertile, well-drained soil amended with compost.
+    - Avoid wet, stagnant beds; root stress invites rot.
+    
+    ✂️ Propagation:
+    - Seeds: direct-sow in cool weather; germination often takes 2–7 days depending on temperature.
+    - Succession sowing: repeat every 1–2 weeks to spread harvest and reduce “all-at-once” disappointment.
+    - Thinning: thin early so plants form usable heads instead of crowded leaf pile regret.
+    
+    🌾 Harvest / Best Use Timing:
+    - Harvest leaves young using cut-and-come-again, or harvest heads when they reach desired size.
+    - Pick in the cool part of the day for best texture.
+    - When bolts, let some flower for pollinator support and seed harvest if needed.
+  purpose: |-
+    Edible: Leaves provide fast nutrition and frequent harvest cycles that fit easily into permaculture beds.
+    Pollinator: When allowed to flower, lettuce supports beneficial insects with accessible nectar and pollen.
+    Ground Cover: Fast leaf cover shades soil, suppresses weeds, and moderates evaporation so beds stay usable longer.
   companions:
-  - NEEDS_DATA
+  - Carrot (Daucus carota) — staggered root/leaf layering keeps space productive and improves bed structure.
+  - Radish (Raphanus sativus) — quick rooting loosens and creates a rotation rhythm that complements lettuce’s fast harvest.
+  - Garlic (Allium sativum) — strong aroma disrupts pest travel paths around cool-season greens.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests: []
+  - Bolting in heat is normal; use shade cloth or shift sowing windows to cool periods.
+  practitioner_notes: |-
+    Water doesn’t “fix” heat; it just keeps leaves from giving up while the sun does what sun does.
+    Harvest often—lettuce that sits becomes bitter and seed-hungry.
+  pests:
+  - Aphids
+  - Slugs
+  - Caterpillars
+  - Root Rot
+  - Spider Mites

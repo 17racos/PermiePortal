@@ -1,24 +1,54 @@
 ---
 - common_name: Leek
   picture: leek.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Allium porrum
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Amaryllidaceae
+  zone: 3-9
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Pest Management
+  description: |-
+    Leek (Allium porrum) is a cool-season allium grown for its thick, tender leaf bases that form the edible “white” portion and flavorful greens. It is native to Europe and has become a staple across temperate vegetable gardens. In permaculture, leeks matter because they give you a reliable harvest from cool-season beds while their strong scent helps confuse pest movement and improves crop rotation diversity. Plants typically reach about 30–60 cm (12–24 in) tall.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun to partial shade; more light supports sturdy growth.
+    - Water moderately and consistently during establishment; drought can stunt leaf development.
+    - Prefers fertile, well-drained soil with compost; standing water increases rot risk.
+    - Protect from extreme heat that pushes bolting.
+    
+    ✂️ Propagation:
+    - Seeds: start indoors and transplant, or direct-sow in cool periods; germination often takes about 7–14 days.
+    - Thin seedlings early so each plant can build a thick base.
+    - Succession sow every few weeks in suitable weather to spread harvest.
+    
+    🌾 Harvest / Best Use Timing:
+    - Harvest when bases are thick enough for eating, typically 60–120 days from sowing depending on variety.
+    - Pull gently and replant nothing—leeks hate root disturbance once settled.
+    - Store cool and humid for short-term use, or cook promptly.
+  purpose: |-
+    Edible: The leaves and tender bases provide consistent nutrition and flavor through cool-season harvest windows.
+    Medicinal: Traditional allium use supports supportive dietary patterns; in permaculture this turns into on-site “kitchen medicine” harvest.
+    Pest Management: Strong aroma can help mask other crop scents and reduce how easily certain pests locate hosts during mixed plantings.
   companions:
-  - NEEDS_DATA
+  - Carrot (Daucus carota) — rotates bed profiles between root crops and alliums while keeping cool-season soil productive.
+  - Lettuce (Lactuca sativa) — uses partial shade/space and shares cool-season timing for easier bed management.
+  - Garlic (Allium sativum) — same family rotation benefits and similar care simplifies scheduling.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests: []
+  - Avoid waterlogged soil; leek rot is not a motivational poster.
+  practitioner_notes: |-
+    Keep beds weeded early; leeks grow slowly at first and weeds steal light and nutrients.
+    If plants bolt, your weather got too hot—shift sowing windows next cycle.
+  pests:
+  - Aphids
+  - Slugs
+  - Caterpillars
+  - Root Rot

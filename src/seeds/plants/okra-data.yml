@@ -1,24 +1,58 @@
 ---
 - common_name: Okra
   picture: okra.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Abelmoschus esculentus
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Malvaceae
+  zone: 9-11
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Pollinator
+  - Wildlife Attractor
+  description: |-
+    Okra (Abelmoschus esculentus) is a warm-season crop grown for its edible seed pods and tender leaves. It forms a sturdy, upright plant with large hibiscus-like flowers, typically 1–2 m (3–6 ft) tall depending on variety and growing conditions. Originating in tropical Africa and widely cultivated across warm regions worldwide, okra matters in permaculture because it turns heat into food while also producing blossoms that keep pollinators active during the hottest stretch of the season. Its deep roots and dense foliage can also help shade soil and slow evaporation when you plant it well.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun is required for strong flowering and pod production; shade reduces yield.
+    - Water regularly while plants grow; drought makes pods tough and reduces harvest volume.
+    - Prefers fertile, well-drained soil with compost; waterlogged beds invite root disease.
+    - Handles humid subtropical conditions better than many temperate vegetables when soil drains well.
+    
+    ✂️ Propagation:
+    - Seeds (direct sow): sow after nights are warm; germination often takes 5–10 days.
+    - Seeds (pre-soak): soak overnight to speed emergence where growth feels slow.
+    - Succession: sow small batches every 2–3 weeks to keep pods coming longer.
+    
+    🌾 Harvest / Best Use Timing:
+    - Harvest pods young and tender (often around 5–10 cm / 2–4 in), cutting frequently to encourage more flowering.
+    - Use a sharp knife and don’t tear stems; injured plants slow down.
+    - Pods can be cooked fresh, pickled, or dried for later thickening in stews.
+  purpose: |-
+    Edible: Frequent pod harvest delivers reliable warm-season meals and improves your food storage options via drying and pickling.
+    Medicinal: Traditional uses emphasize supportive herbal preparations; in permaculture, that makes okra a practical kitchen-medication crop.
+    Pollinator: Bright hibiscus-type flowers feed bees and beneficial insects when many beds are heat-stressed.
+    Wildlife Attractor: Flower and seed resources help sustain beneficial garden life and improve system resilience around your food crops.
   companions:
-  - NEEDS_DATA
+  - Basil (Ocimum basilicum) — aromatic leaves pair well with warm season okra beds and add fast harvest from the same schedule.
+  - Marigold (Tagetes patula) — nectar-rich blooms draw beneficial insects and help you monitor pest changes.
+  - Garlic (Allium sativum) — strong scent helps diversify crop odors and supports rotation timing in mixed plantings.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests: []
+  - Avoid cold snaps; okra is heat-dependent and will stall or die after frost.
+  - Don’t overwater in heavy soils; root problems show up as yellowing and slow growth.
+  practitioner_notes: |-
+    Pick pods often—if you wait, the plant shifts energy to mature seeds instead of more pods.
+    Mulch early to keep moisture even; wet/dry swings make pod texture miserable.
+    If flowers drop, it’s usually heat + water mismatch, not “bad luck.”
+  pests:
+  - Aphids
+  - Spider Mites
+  - Caterpillars
+  - Root Rot

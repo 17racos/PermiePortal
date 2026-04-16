@@ -1,24 +1,54 @@
 ---
 - common_name: Summer Savory
   picture: summer_savory.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Satureja hortensis
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Lamiaceae
+  zone: 5-9
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Pollinator
+  description: |-
+    Summer savory (Satureja hortensis) is an aromatic annual herb grown for its peppery flavor and its usefulness in cooking and teas. It is native to the Mediterranean region and adapts well to warm climates where you want fast harvest herbs with minimal fuss. Plants typically reach about 30–60 cm (12–24 in) tall with leafy, upright stems and small flowers. In permaculture, summer savory matters because it gives frequent kitchen harvests while its blooms support pollinators and beneficial insects in the same bed where you grow food.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun for best aroma; partial shade is tolerable but reduces vigor.
+    - Water lightly while establishing; once rooted it tolerates drought.
+    - Prefers well-drained, sandy or loamy soil with moderate fertility.
+    - Avoid waterlogged ground to prevent root stress.
+    
+    ✂️ Propagation:
+    - Seeds (direct sow): sow after soil warms; germination often occurs in 7–14 days.
+    - Seeds (start indoors): start 4–6 weeks early for a head start; transplant carefully.
+    - Cuttings (optional): you can root soft tips in warm, humid conditions, though seeds are easiest.
+    
+    🌾 Harvest / Best Use Timing:
+    - Harvest leaves regularly once plants are established; pinch tips to encourage branching.
+    - Harvest flowers when they open if you want the pollinator angle or infused teas.
+    - Dry leaves quickly in airflow for storage; slow drying invites mold.
+  purpose: |-
+    Edible: Leaves provide repeatable flavor harvests that reduce kitchen reliance on store-bought dried herbs.
+    Medicinal: Aromatic leaf chemistry supports traditional tea-style uses; in permaculture it becomes an on-site remedy option.
+    Pollinator: Flowering maintains nectar supply for bees and beneficial insects during active harvest periods.
   companions:
-  - NEEDS_DATA
+  - Rosemary (Salvia rosmarinus) — similar sun and drainage needs; both benefit from dry bed edges.
+  - Marigold (Tagetes patula) — nectar blooms pull beneficial insects into herb guilds.
+  - Thyme (Thymus vulgaris) — layered herb aroma supports consistent pollinator presence across the front edge.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests: []
+  - Avoid overwatering; soggy soil is the fastest path to root decline.
+  practitioner_notes: |-
+    Pinch regularly—“leggy” usually means you didn’t prune, not that the plant failed.
+    Harvest early morning for the most aromatic leaves.
+    Dry in airflow, not sealed humidity traps.
+  pests:
+  - Aphids
+  - Spider Mites
+  - Root Rot

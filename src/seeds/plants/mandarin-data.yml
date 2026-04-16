@@ -1,24 +1,56 @@
 ---
 - common_name: Mandarin
   picture: mandarin.webp
-  scientific_name: "NEEDS_DATA"
+  scientific_name: Citrus reticulata
   aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
+  family: Rutaceae
+  zone: 9-11
   ideal_temp_min: 0
   ideal_temp_max: 0
   min_temp: 0
   max_temp: 0
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  - Shade Provider
+  description: |-
+    Mandarin (Citrus reticulata) is an evergreen citrus tree grown for sweet, easy-to-peel fruit and glossy foliage. It typically forms a rounded canopy about 3–6 m (10–20 ft) tall in managed landscapes, producing fragrant flowers and then fruit that ripens in warm seasons depending on cultivar. In permaculture, it matters because you get regular, vitamin-rich calories from a woody structure plant, plus nectar for pollinators and an aromatic canopy that cools the understory.
+    
+    ☀️💧 Sun and Water Requirements:
+    - Full sun is best for flowering and fruit set; shade reduces yield.
+    - Water consistently through bloom and early fruit sizing; avoid long drought swings during that window.
+    - Prefers deep, well-drained soil amended with compost; waterlogged roots cause trouble.
+    - Protect from frost; cold damage can knock fruit trees off schedule.
+    
+    ✂️ Propagation:
+    - Grafting/budding: the standard method for producing reliable fruit; do it on compatible citrus rootstock.
+    - Seeds: can germinate, but fruit quality and timing can vary widely.
+    - Layering or cuttings may root in ideal conditions but are less common than grafting.
+    
+    🌾 Harvest / Best Use Timing:
+    - Harvest when fruit is fully colored and tastes sweet; pick in rounds because ripeness can vary.
+    - Store cool for short-term eating or juice; zest stores well for cooking and baking.
+    - Use peels for aromatic household inputs after composting or proper use in recipes.
+  purpose: |-
+    Edible: Fruit provides a dependable, seasonal calorie harvest and supports food preservation.
+    Medicinal: Citrus peel and fruit components offer traditional, functional kitchen inputs for daily wellness routines.
+    Wildlife Attractor: Blossoms supply nectar and attract pollinators, strengthening fruiting performance in a mixed garden.
+    Shade Provider: Canopy mass reduces heat and evaporation under the tree, making understory crops more stable.
   companions:
-  - NEEDS_DATA
+  - Rosemary (Salvia rosmarinus) — aromatic understory that matches citrus sun and helps reduce bare soil.
+  - Marigold (Tagetes patula) — nectar flowers bring beneficial insects and add visible monitoring.
+  - Garlic (Allium sativum) — helps diversify the bed scent and rotation pattern around fruit trees.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
-  pests: []
+  - Protect from frost; cold-stunned trees often become pest targets.
+  practitioner_notes: |-
+    Mulch the root zone but keep mulch a bit away from the trunk to prevent rot.
+    Consistent irrigation during bloom improves fruit set more than “panic watering.”
+  pests:
+  - Aphids
+  - Scale Insects
+  - Whiteflies
+  - Borers
