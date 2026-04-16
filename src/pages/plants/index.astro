@@ -5,7 +5,7 @@ import plantsData from '../../data/plants.json';
 
 const plants = plantsData.sort((a, b) => a.common_name.localeCompare(b.common_name));
 
-const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].sort();
+const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].filter(l => l !== 'NEEDS_DATA').sort();
 ---
 
 <BaseLayout title="Plant Database">
