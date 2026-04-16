@@ -192,14 +192,15 @@ const allSymptoms = Object.keys(SYMPTOM_LABELS);
   function toggleSymptom(btn) {
     var sym = btn.dataset.symptom;
     var idx = selected.indexOf(sym);
+    var checkEl = document.getElementById('check-' + sym);
     if (idx === -1) {
       selected.push(sym);
       btn.classList.add('selected');
-      document.getElementById('check-' + sym).textContent = 'v';
+      if (checkEl) checkEl.textContent = 'v';
     } else {
       selected.splice(idx, 1);
       btn.classList.remove('selected');
-      document.getElementById('check-' + sym).textContent = '';
+      if (checkEl) checkEl.textContent = '';
     }
     var clearBtn = document.getElementById('clear-btn');
     if (clearBtn) clearBtn.style.display = selected.length > 0 ? 'block' : 'none';
@@ -210,22 +211,34 @@ const allSymptoms = Object.keys(SYMPTOM_LABELS);
     selected = [];
     document.querySelectorAll('.symptom-btn').forEach(function(btn) {
       btn.classList.remove('selected');
-      document.getElementById('check-' + btn.dataset.symptom).textContent = '';
+      var checkEl = document.getElementById('check-' + btn.dataset.symptom);
+      if (checkEl) checkEl.textContent = '';
     });
+    var clearBtn = document.getElementById('clear-btn');
+    if (clearBtn) clearBtn.style.display = 'none';
     render();
+  }
+
+  function toggleMore(btn) {
+    var moreGrid = document.getElementById('symptom-grid-more');
+    if (!moreGrid) return;
+    var isHidden = moreGrid.style.display === 'none';
+    moreGrid.style.display = isHidden ? 'flex' : 'none';
+    btn.textContent = isHidden ? 'Show fewer symptoms' : 'More symptoms';
   }
 
   function render() {
     var header = document.getElementById('results-header');
     var grid = document.getElementById('results-grid');
+    if (!header || !grid) return;
 
     if (selected.length === 0) {
-      header.textContent = 'Select symptoms to identify likely pests';
-      grid.innerHTML = '<div class="empty-state"><div class="empty-state-title">What do you see?</div><div class="empty-state-sub">Start with the most obvious thing — holes, yellowing, sticky residue, webbing. Pick one and we'll show you likely culprits immediately.</div></div>';
+      header.textContent = 'Select a symptom to see likely pests';
+      grid.innerHTML = '<div class="empty-state"><div class="empty-state-title">What do you see?</div><div class="empty-state-sub">Start with the most obvious thing. Pick one symptom and we will show you likely culprits immediately.</div></div>';
       return;
     }
 
-    // STRICT AND filter -- pest must have ALL selected symptoms
+    // Strict AND -- pest must have ALL selected symptoms
     var matched = pests.filter(function(p) {
       var pestSymptoms = p.symptoms || [];
       return selected.every(function(s) {
@@ -233,22 +246,22 @@ const allSymptoms = Object.keys(SYMPTOM_LABELS);
       });
     });
 
-    // Sort by affected plant count descending
+    // Sort by affected plant count
     matched.sort(function(a, b) {
       return (b.affected_plants || []).length - (a.affected_plants || []).length;
     });
 
     var top = matched.slice(0, 24);
-
     header.textContent = matched.length + ' pest' + (matched.length !== 1 ? 's' : '') + ' match' + (matched.length === 1 ? 'es' : '') + ' all ' + selected.length + ' symptom' + (selected.length !== 1 ? 's' : '');
 
     if (top.length === 0) {
-      grid.innerHTML = '<div class="empty-state"><div class="empty-state-title">No matches found</div><div class="empty-state-sub">Try removing a symptom or selecting a different combination</div></div>';
+      grid.innerHTML = '<div class="empty-state"><div class="empty-state-title">No matches found</div><div class="empty-state-sub">Try removing a symptom or selecting a different combination.</div></div>';
       return;
     }
 
     grid.innerHTML = top.map(function(p) {
       var pestSymptoms = p.symptoms || [];
+
       var imgHtml = p.picture
         ? '<img class="pest-card-img" src="/assets/pests/' + p.picture + '" alt="' + p.name + '" loading="lazy" />'
         : '<div class="pest-card-img-placeholder"><span style="font-family:monospace;font-size:0.6rem;color:rgba(196,85,26,0.3);text-transform:uppercase">' + p.name + '</span></div>';
@@ -259,20 +272,23 @@ const allSymptoms = Object.keys(SYMPTOM_LABELS);
         return '<span class="pest-symptom-tag' + (isMatch ? ' matched' : '') + '">' + label + '</span>';
       }).join('');
 
-      // Confidence score
-      var totalSymptoms = (p.symptoms || []).length;
-      var matchRatio = selected.length > 0 ? (selected.length / Math.max(selected.length, totalSymptoms)) : 0;
-      var confidence = selected.length === 1 ? '' :
-        matchRatio >= 0.8 ? '<span class="confidence high">High match</span>' :
-        matchRatio >= 0.5 ? '<span class="confidence med">Likely match</span>' :
-        '<span class="confidence low">Possible match</span>';
+      // Confidence label
+      var confidence = '';
+      if (selected.length > 1) {
+        var ratio = selected.length / Math.max(pestSymptoms.length, selected.length);
+        confidence = ratio >= 0.8
+          ? '<span class="confidence high">High match</span>'
+          : ratio >= 0.5
+          ? '<span class="confidence med">Likely match</span>'
+          : '<span class="confidence low">Possible match</span>';
+      }
 
-      // Affected plants preview
+      // Plant preview
       var plantPreview = '';
       if (p.affected_plants && p.affected_plants.length > 0) {
-        var plantNames = p.affected_plants.slice(0, 3).map(function(pl) { return pl.name; }).join(', ');
+        var names = p.affected_plants.slice(0, 3).map(function(pl) { return pl.name; }).join(', ');
         var more = p.affected_plants.length > 3 ? ' +' + (p.affected_plants.length - 3) + ' more' : '';
-        plantPreview = '<div class="pest-card-plants">Common on: ' + plantNames + more + '</div>';
+        plantPreview = '<div class="pest-card-plants">Common on: ' + names + more + '</div>';
       }
 
       return '<a href="/pests/' + p.slug + '" class="pest-card">'
@@ -289,16 +305,11 @@ const allSymptoms = Object.keys(SYMPTOM_LABELS);
     }).join('');
   }
 
-  function toggleMore(btn) {
-    var moreGrid = document.getElementById('symptom-grid-more');
-    var isHidden = moreGrid.style.display === 'none';
-    moreGrid.style.display = isHidden ? 'flex' : 'none';
-    btn.textContent = isHidden ? '↑ Show fewer symptoms' : '↓ More symptoms';
-  }
-
   window.toggleSymptom = toggleSymptom;
   window.clearAll = clearAll;
   window.toggleMore = toggleMore;
+
+  document.addEventListener('DOMContentLoaded', function() { render(); });
 })();
 </script>
 
