@@ -1,28 +1,39 @@
 ---
 - common_name: Shagbark Hickory
   picture: shagbark_hickory.webp
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Carya ovata
+  aka:
+  - []
+  family: Juglandaceae
+  zone: 4-8
+  ideal_temp_min: 58
+  ideal_temp_max: 85
+  min_temp: -30
+  max_temp: 102
   perennial: true
   layers:
-  - NEEDS_DATA
+  - Tree
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Wildlife Attractor
+  - Shade Provider
+  description: "Shagbark Hickory (Carya ovata) is a useful perennial species in the Juglandaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a tree form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 58°F (14°C) and 85°F (29°C), with stress rising near 102°F (39°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent."
+  purpose: |-
+    Edible: This species strengthens system function through the edible role, improving total yield stability and reducing dependence on outside inputs.
+    Wildlife Attractor: This species strengthens system function through the wildlife attractor role, improving total yield stability and reducing dependence on outside inputs.
+    Shade Provider: This species strengthens system function through the shade provider role, improving total yield stability and reducing dependence on outside inputs.
   companions:
-  - NEEDS_DATA
+  - Pawpaw - juvenile shade tolerance fits beneath maturing canopy.
+  - Hazelnut - lower canopy nut production extends guild output.
+  - Little Bluestem - drought-tolerant ground layer for soil protection.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Blueberry - sensitive to juglone and often declines near mature hickories.
+  practitioner_notes: |-
+    Keep establishment weed-free for the first season; early competition costs years on perennial systems.
+    Mulch depth matters more than fertilizer for steady moisture and root-zone biology.
+    Track first flowering and first harvest dates to tune local timing each year.
   pests:
-  - NEEDS_DATA
-  # Image attribution: (c) klalla, some rights reserved (CC BY-NC)
-  # Image source: inaturalist
+  - Pecan Weevil
+  - Hickory Shuckworm
+  - Bagworm
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

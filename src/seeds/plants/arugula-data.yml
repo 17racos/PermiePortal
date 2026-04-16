@@ -1,28 +1,59 @@
 ---
 - common_name: Arugula
   picture: arugula.webp
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
+  scientific_name: Eruca vesicaria
+  aka:
+  - Rocket
+  - Roquette
+  family: Brassicaceae
+  zone: 3-11
+  ideal_temp_min: 45
+  ideal_temp_max: 75
+  min_temp: 25
+  max_temp: 90
+  perennial: false
   layers:
-  - NEEDS_DATA
+  - Herbaceous
   plant_function:
-  - NEEDS_DATA
-  description: "NEEDS_DATA — Cursor Agent will enrich this entry."
-  purpose: "NEEDS_DATA"
+  - Edible
+  - Pollinator
+  - Ground Cover
+  description: "Arugula (Eruca vesicaria) is a fast-growing leafy annual in the mustard
+    family, native to the Mediterranean and long cultivated across temperate and subtropical
+    food systems. Plants form low rosettes 8-18 inches tall with deeply lobed leaves
+    and spicy flavor, then send up flower stalks with cream-white blooms. In permaculture
+    beds it earns its space as a quick turnover green, early nectar source, and living
+    cover between slower crops.\n\n☀️💧 Sun and Water Requirements:\nArugula performs
+    best in full sun to light partial shade. It prefers evenly moist, well-drained
+    loam rich in organic matter and bolts fast in prolonged heat or drought stress.
+    Mulch helps hold moisture and keep leaf flavor mild. It tolerates light frost
+    down to about 25°F (-4°C) but declines in sustained heat above 90°F (32°C).\n\n✂️
+    Propagation:\nDirect sow seed every 2-3 weeks during cool periods for steady harvests;
+    germination usually takes 4-8 days. It can also be started in modules and transplanted
+    at 2-3 true leaves for tighter spacing control. Volunteer reseeding is common
+    if a few plants are allowed to flower and set seed.\n\n🌾 Harvest / Best Use Timing:\nCut
+    outer leaves once plants reach 4-6 inches tall, usually 20-30 days from sowing.
+    For bunch harvest, cut whole rosettes before bolting. Flowers are edible and
+    useful in salads, and mature seed can be saved or used as a pungent spice."
+  purpose: |-
+    Edible: Leaves, flowers, and young seed pods provide peppery fresh flavor when many warm-season greens fail in cool weather.
+    Pollinator: Flowering plants feed small bees and beneficial flies during shoulder seasons when nectar is limited.
+    Ground Cover: Dense sowings shade soil, reduce splash erosion, and suppress early weed flushes between larger crops.
   companions:
-  - NEEDS_DATA
+  - Tomato - late-season canopy gives afternoon shade that slows bolting in warm spells.
+  - Carrot - arugula fills bare soil quickly while carrot roots occupy deeper layers.
+  - Onion - upright onion leaves share space efficiently and their scent can confuse some chewing pests.
   cautions:
-  - NEEDS_DATA
-  practitioner_notes: "NEEDS_DATA — unique facts, real-world observations, surprising uses"
+  - Fennel - can suppress nearby annuals through strong root-zone competition and allelopathic effects.
+  practitioner_notes: |-
+    Harvest at dawn for the mildest bite; afternoon heat concentrates pungency fast.
+    Succession sowing beats one big planting unless you want a single seed crop.
+    Young flower buds cook like tiny broccoli raab and reduce self-seeding pressure.
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Flea Beetles
+  - Cabbage Worms
+  - Slugs
   # Image attribution: (c) Ron Frumkin, some rights reserved (CC BY-NC), uploaded by Ron Frumkin
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment

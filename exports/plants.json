@@ -2771,32 +2771,44 @@
   {
     "slug": "arugula",
     "common_name": "Arugula",
-    "scientific_name": "NEEDS_DATA",
-    "aka": [],
-    "family": "NEEDS_DATA",
+    "scientific_name": "Eruca vesicaria",
+    "aka": [
+      "Rocket",
+      "Roquette"
+    ],
+    "family": "Brassicaceae",
     "picture": "arugula.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
-    "min_temp": 0,
-    "max_temp": 0,
-    "perennial": true,
+    "zone": "3-11",
+    "ideal_temp_min": 45,
+    "ideal_temp_max": 75,
+    "min_temp": 25,
+    "max_temp": 90,
+    "perennial": false,
     "layers": [
-      "NEEDS_DATA"
+      "Herbaceous"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Edible",
+      "Pollinator",
+      "Ground Cover"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Arugula (Eruca vesicaria) is a fast-growing leafy annual in the mustard family, native to the Mediterranean and long cultivated across temperate and subtropical food systems. Plants form low rosettes 8-18 inches tall with deeply lobed leaves and spicy flavor, then send up flower stalks with cream-white blooms. In permaculture beds it earns its space as a quick turnover green, early nectar source, and living cover between slower crops.\n\n☀️💧 Sun and Water Requirements:\nArugula performs best in full sun to light partial shade. It prefers evenly moist, well-drained loam rich in organic matter and bolts fast in prolonged heat or drought stress. Mulch helps hold moisture and keep leaf flavor mild. It tolerates light frost down to about 25°F (-4°C) but declines in sustained heat above 90°F (32°C).\n\n✂️ Propagation:\nDirect sow seed every 2-3 weeks during cool periods for steady harvests; germination usually takes 4-8 days. It can also be started in modules and transplanted at 2-3 true leaves for tighter spacing control. Volunteer reseeding is common if a few plants are allowed to flower and set seed.\n\n🌾 Harvest / Best Use Timing:\nCut outer leaves once plants reach 4-6 inches tall, usually 20-30 days from sowing. For bunch harvest, cut whole rosettes before bolting. Flowers are edible and useful in salads, and mature seed can be saved or used as a pungent spice.",
+    "purpose": "Edible: Leaves, flowers, and young seed pods provide peppery fresh flavor when many warm-season greens fail in cool weather.\nPollinator: Flowering plants feed small bees and beneficial flies during shoulder seasons when nectar is limited.\nGround Cover: Dense sowings shade soil, reduce splash erosion, and suppress early weed flushes between larger crops.",
+    "practitioner_notes": "Harvest at dawn for the mildest bite; afternoon heat concentrates pungency fast.\nSuccession sowing beats one big planting unless you want a single seed crop.\nYoung flower buds cook like tiny broccoli raab and reduce self-seeding pressure.",
     "companions": [
-      "NEEDS_DATA"
+      "Tomato - late-season canopy gives afternoon shade that slows bolting in warm spells.",
+      "Carrot - arugula fills bare soil quickly while carrot roots occupy deeper layers.",
+      "Onion - upright onion leaves share space efficiently and their scent can confuse some chewing pests."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "Fennel - can suppress nearby annuals through strong root-zone competition and allelopathic effects."
     ],
-    "pests": []
+    "pests": [
+      "Aphids",
+      "Flea Beetles",
+      "Cabbage Worms",
+      "Slugs"
+    ]
   },
   {
     "slug": "ashe-magnolia",
@@ -7202,32 +7214,42 @@
   {
     "slug": "broom",
     "common_name": "Broom",
-    "scientific_name": "NEEDS_DATA",
-    "aka": [],
-    "family": "NEEDS_DATA",
+    "scientific_name": "Cytisus scoparius",
+    "aka": [
+      "Scotch Broom"
+    ],
+    "family": "Fabaceae",
     "picture": "broom.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
+    "zone": "5-9",
+    "ideal_temp_min": 50,
+    "ideal_temp_max": 78,
     "min_temp": 0,
-    "max_temp": 0,
+    "max_temp": 95,
     "perennial": true,
     "layers": [
-      "NEEDS_DATA"
+      "Shrub"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Nitrogen Fixer",
+      "Pollinator",
+      "Erosion Control"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Broom (Cytisus scoparius) is a useful perennial species in the Fabaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a shrub form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 50°F (10°C) and 78°F (26°C), with stress rising near 95°F (35°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.",
+    "purpose": "Nitrogen Fixer: This species strengthens system function through the nitrogen fixer role, improving total yield stability and reducing dependence on outside inputs.\nPollinator: This species strengthens system function through the pollinator role, improving total yield stability and reducing dependence on outside inputs.\nErosion Control: This species strengthens system function through the erosion control role, improving total yield stability and reducing dependence on outside inputs.",
+    "practitioner_notes": "Keep establishment weed-free for the first season; early competition costs years on perennial systems.\nMulch depth matters more than fertilizer for steady moisture and root-zone biology.\nTrack first flowering and first harvest dates to tune local timing each year.",
     "companions": [
-      "NEEDS_DATA"
+      "Lavender - handles the same lean soils while feeding pollinators.",
+      "Yarrow - attracts predatory insects that reduce sap-feeder outbreaks.",
+      "Juniper - shares dry slope niches and helps wind-filtering."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "Black Walnut - juglone can suppress establishment of young broom seedlings."
     ],
-    "pests": []
+    "pests": [
+      "Aphids",
+      "Spider Mites",
+      "Scale Insects"
+    ]
   },
   {
     "slug": "broomsedge-bluestem",
@@ -7333,32 +7355,42 @@
   {
     "slug": "brussels-sprouts",
     "common_name": "Brussels Sprouts",
-    "scientific_name": "NEEDS_DATA",
-    "aka": [],
-    "family": "NEEDS_DATA",
+    "scientific_name": "Brassica oleracea var. gemmifera",
+    "aka": [
+      "Sprouts"
+    ],
+    "family": "Brassicaceae",
     "picture": "brussels_sprouts.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
-    "min_temp": 0,
-    "max_temp": 0,
-    "perennial": true,
+    "zone": "3-10",
+    "ideal_temp_min": 45,
+    "ideal_temp_max": 70,
+    "min_temp": 20,
+    "max_temp": 85,
+    "perennial": false,
     "layers": [
-      "NEEDS_DATA"
+      "Herbaceous"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Edible",
+      "Mulcher",
+      "Pest Management"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Brussels Sprouts (Brassica oleracea var. gemmifera) is a useful annual species in the Brassicaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a herbaceous form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 45°F (7°C) and 70°F (21°C), with stress rising near 85°F (29°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.",
+    "purpose": "Edible: This species strengthens system function through the edible role, improving total yield stability and reducing dependence on outside inputs.\nMulcher: This species strengthens system function through the mulcher role, improving total yield stability and reducing dependence on outside inputs.\nPest Management: This species strengthens system function through the pest management role, improving total yield stability and reducing dependence on outside inputs.",
+    "practitioner_notes": "Keep establishment weed-free for the first season; early competition costs years on perennial systems.\nMulch depth matters more than fertilizer for steady moisture and root-zone biology.\nTrack first flowering and first harvest dates to tune local timing each year.",
     "companions": [
-      "NEEDS_DATA"
+      "Onion - strong aroma helps disrupt brassica pest host finding.",
+      "Chamomile - supports beneficial hoverflies around brassica blocks.",
+      "Beet - occupies a different root niche and increases bed productivity."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "Strawberry - can compete heavily for nutrients in intensive beds."
     ],
-    "pests": []
+    "pests": [
+      "Cabbage Aphid",
+      "Imported Cabbageworm",
+      "Cabbage Root Maggots"
+    ]
   },
   {
     "slug": "buck-plantain",
@@ -8126,32 +8158,42 @@
   {
     "slug": "cabbage",
     "common_name": "Cabbage",
-    "scientific_name": "NEEDS_DATA",
-    "aka": [],
-    "family": "NEEDS_DATA",
+    "scientific_name": "Brassica oleracea var. capitata",
+    "aka": [
+      "Head Cabbage"
+    ],
+    "family": "Brassicaceae",
     "picture": "cabbage.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
-    "min_temp": 0,
-    "max_temp": 0,
-    "perennial": true,
+    "zone": "3-10",
+    "ideal_temp_min": 45,
+    "ideal_temp_max": 72,
+    "min_temp": 20,
+    "max_temp": 88,
+    "perennial": false,
     "layers": [
-      "NEEDS_DATA"
+      "Herbaceous"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Edible",
+      "Mulcher",
+      "Pest Management"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Cabbage (Brassica oleracea var. capitata) is a useful annual species in the Brassicaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a herbaceous form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 45°F (7°C) and 72°F (22°C), with stress rising near 88°F (31°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.",
+    "purpose": "Edible: This species strengthens system function through the edible role, improving total yield stability and reducing dependence on outside inputs.\nMulcher: This species strengthens system function through the mulcher role, improving total yield stability and reducing dependence on outside inputs.\nPest Management: This species strengthens system function through the pest management role, improving total yield stability and reducing dependence on outside inputs.",
+    "practitioner_notes": "Keep establishment weed-free for the first season; early competition costs years on perennial systems.\nMulch depth matters more than fertilizer for steady moisture and root-zone biology.\nTrack first flowering and first harvest dates to tune local timing each year.",
     "companions": [
-      "NEEDS_DATA"
+      "Dill - attracts parasitoid wasps that target caterpillars.",
+      "Celery - shares cool-season timing without direct root competition.",
+      "Garlic - sulfurous aroma can reduce pest pressure in mixed rows."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "Grape - dense cabbage plantings can compete strongly with young vine roots nearby."
     ],
-    "pests": []
+    "pests": [
+      "Cabbage Worms",
+      "Cabbage Root Fly",
+      "Flea Beetles"
+    ]
   },
   {
     "slug": "cabbage-palm",
@@ -10017,32 +10059,40 @@
   {
     "slug": "cauliflower",
     "common_name": "Cauliflower",
-    "scientific_name": "NEEDS_DATA",
+    "scientific_name": "Brassica oleracea var. botrytis",
     "aka": [],
-    "family": "NEEDS_DATA",
+    "family": "Brassicaceae",
     "picture": "cauliflower.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
-    "min_temp": 0,
-    "max_temp": 0,
-    "perennial": true,
+    "zone": "3-10",
+    "ideal_temp_min": 50,
+    "ideal_temp_max": 70,
+    "min_temp": 25,
+    "max_temp": 85,
+    "perennial": false,
     "layers": [
-      "NEEDS_DATA"
+      "Herbaceous"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Edible",
+      "Mulcher",
+      "Pest Management"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Cauliflower (Brassica oleracea var. botrytis) is a useful annual species in the Brassicaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a herbaceous form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 50°F (10°C) and 70°F (21°C), with stress rising near 85°F (29°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.",
+    "purpose": "Edible: This species strengthens system function through the edible role, improving total yield stability and reducing dependence on outside inputs.\nMulcher: This species strengthens system function through the mulcher role, improving total yield stability and reducing dependence on outside inputs.\nPest Management: This species strengthens system function through the pest management role, improving total yield stability and reducing dependence on outside inputs.",
+    "practitioner_notes": "Keep establishment weed-free for the first season; early competition costs years on perennial systems.\nMulch depth matters more than fertilizer for steady moisture and root-zone biology.\nTrack first flowering and first harvest dates to tune local timing each year.",
     "companions": [
-      "NEEDS_DATA"
+      "Spinach - quick canopy fill keeps soil shaded during establishment.",
+      "Onion - aromatic foliage helps confuse brassica moths.",
+      "Nasturtium - can act as a sacrificial trap crop for aphids."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "Pole Bean - vigorous summer vines can shade and stunt curd development."
     ],
-    "pests": []
+    "pests": [
+      "Diamondback Moth",
+      "Cabbage Looper",
+      "Cabbage Aphid"
+    ]
   },
   {
     "slug": "celery",
@@ -11463,32 +11513,42 @@
   {
     "slug": "chinkapin-oak",
     "common_name": "Chinkapin Oak",
-    "scientific_name": "NEEDS_DATA",
-    "aka": [],
-    "family": "NEEDS_DATA",
+    "scientific_name": "Quercus muehlenbergii",
+    "aka": [
+      "Yellow Oak"
+    ],
+    "family": "Fagaceae",
     "picture": "chinkapin_oak.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
-    "min_temp": 0,
-    "max_temp": 0,
+    "zone": "4-8",
+    "ideal_temp_min": 60,
+    "ideal_temp_max": 85,
+    "min_temp": -20,
+    "max_temp": 105,
     "perennial": true,
     "layers": [
-      "NEEDS_DATA"
+      "Tree"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Wildlife Attractor",
+      "Erosion Control",
+      "Shade Provider"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Chinkapin Oak (Quercus muehlenbergii) is a useful perennial species in the Fagaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a tree form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 60°F (16°C) and 85°F (29°C), with stress rising near 105°F (41°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.",
+    "purpose": "Wildlife Attractor: This species strengthens system function through the wildlife attractor role, improving total yield stability and reducing dependence on outside inputs.\nErosion Control: This species strengthens system function through the erosion control role, improving total yield stability and reducing dependence on outside inputs.\nShade Provider: This species strengthens system function through the shade provider role, improving total yield stability and reducing dependence on outside inputs.",
+    "practitioner_notes": "Keep establishment weed-free for the first season; early competition costs years on perennial systems.\nMulch depth matters more than fertilizer for steady moisture and root-zone biology.\nTrack first flowering and first harvest dates to tune local timing each year.",
     "companions": [
-      "NEEDS_DATA"
+      "Serviceberry - understory shrub layer without intense root conflict once established.",
+      "Little Bluestem - stabilizes soil and supports prairie biodiversity at the dripline.",
+      "New Jersey Tea - nitrogen-fixing shrub suitable for dry woodland edges."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "Black Walnut - juglone can reduce vigor of young oak associates planted too close."
     ],
-    "pests": []
+    "pests": [
+      "Twig Girdlers",
+      "Leafrollers",
+      "Tent Caterpillar"
+    ]
   },
   {
     "slug": "chives",
@@ -13206,32 +13266,42 @@
   {
     "slug": "crabapple",
     "common_name": "Crabapple",
-    "scientific_name": "NEEDS_DATA",
-    "aka": [],
-    "family": "NEEDS_DATA",
+    "scientific_name": "Malus sylvestris",
+    "aka": [
+      "Wild Apple"
+    ],
+    "family": "Rosaceae",
     "picture": "crabapple.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
-    "min_temp": 0,
-    "max_temp": 0,
+    "zone": "4-8",
+    "ideal_temp_min": 55,
+    "ideal_temp_max": 80,
+    "min_temp": -25,
+    "max_temp": 95,
     "perennial": true,
     "layers": [
-      "NEEDS_DATA"
+      "Tree"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Wildlife Attractor",
+      "Pollinator",
+      "Ornamental"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Crabapple (Malus sylvestris) is a useful perennial species in the Rosaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a tree form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 55°F (13°C) and 80°F (27°C), with stress rising near 95°F (35°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.",
+    "purpose": "Wildlife Attractor: This species strengthens system function through the wildlife attractor role, improving total yield stability and reducing dependence on outside inputs.\nPollinator: This species strengthens system function through the pollinator role, improving total yield stability and reducing dependence on outside inputs.\nOrnamental: This species strengthens system function through the ornamental role, improving total yield stability and reducing dependence on outside inputs.",
+    "practitioner_notes": "Keep establishment weed-free for the first season; early competition costs years on perennial systems.\nMulch depth matters more than fertilizer for steady moisture and root-zone biology.\nTrack first flowering and first harvest dates to tune local timing each year.",
     "companions": [
-      "NEEDS_DATA"
+      "Chive - helps reduce fungal pressure around root zones.",
+      "Comfrey - dynamic mulch source and pollinator support under canopy.",
+      "Yarrow - attracts beneficial predators and parasitoids."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "Juniper - can host rust diseases that cycle with apple relatives."
     ],
-    "pests": []
+    "pests": [
+      "Codling Moth",
+      "Apple Scab",
+      "Fire Blight"
+    ]
   },
   {
     "slug": "cranberry",
@@ -19624,32 +19694,40 @@
   {
     "slug": "gorse",
     "common_name": "Gorse",
-    "scientific_name": "NEEDS_DATA",
+    "scientific_name": "Ulex europaeus",
     "aka": [],
-    "family": "NEEDS_DATA",
+    "family": "Fabaceae",
     "picture": "gorse.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
-    "min_temp": 0,
-    "max_temp": 0,
+    "zone": "6-9",
+    "ideal_temp_min": 50,
+    "ideal_temp_max": 78,
+    "min_temp": 10,
+    "max_temp": 95,
     "perennial": true,
     "layers": [
-      "NEEDS_DATA"
+      "Shrub"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Nitrogen Fixer",
+      "Windbreaker",
+      "Wildlife Attractor"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Gorse (Ulex europaeus) is a useful perennial species in the Fabaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a shrub form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 50°F (10°C) and 78°F (26°C), with stress rising near 95°F (35°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.",
+    "purpose": "Nitrogen Fixer: This species strengthens system function through the nitrogen fixer role, improving total yield stability and reducing dependence on outside inputs.\nWindbreaker: This species strengthens system function through the windbreaker role, improving total yield stability and reducing dependence on outside inputs.\nWildlife Attractor: This species strengthens system function through the wildlife attractor role, improving total yield stability and reducing dependence on outside inputs.",
+    "practitioner_notes": "Keep establishment weed-free for the first season; early competition costs years on perennial systems.\nMulch depth matters more than fertilizer for steady moisture and root-zone biology.\nTrack first flowering and first harvest dates to tune local timing each year.",
     "companions": [
-      "NEEDS_DATA"
+      "Hawthorn - dense mixed hedges increase bird habitat complexity.",
+      "Yarrow - supports beneficial insects at hedge margins.",
+      "Broom - similar drought and soil tolerance in tough edge sites."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "None documented"
     ],
-    "pests": []
+    "pests": [
+      "Aphids",
+      "Scale Insects",
+      "Mites"
+    ]
   },
   {
     "slug": "gotu-kola",
@@ -21423,32 +21501,42 @@
   {
     "slug": "honeyberry",
     "common_name": "Honeyberry",
-    "scientific_name": "NEEDS_DATA",
-    "aka": [],
-    "family": "NEEDS_DATA",
+    "scientific_name": "Lonicera caerulea",
+    "aka": [
+      "Haskap"
+    ],
+    "family": "Caprifoliaceae",
     "picture": "honeyberry.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
-    "min_temp": 0,
-    "max_temp": 0,
+    "zone": "2-7",
+    "ideal_temp_min": 45,
+    "ideal_temp_max": 70,
+    "min_temp": -40,
+    "max_temp": 85,
     "perennial": true,
     "layers": [
-      "NEEDS_DATA"
+      "Shrub"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Edible",
+      "Pollinator",
+      "Wildlife Attractor"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Honeyberry (Lonicera caerulea) is a useful perennial species in the Caprifoliaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a shrub form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 45°F (7°C) and 70°F (21°C), with stress rising near 85°F (29°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.",
+    "purpose": "Edible: This species strengthens system function through the edible role, improving total yield stability and reducing dependence on outside inputs.\nPollinator: This species strengthens system function through the pollinator role, improving total yield stability and reducing dependence on outside inputs.\nWildlife Attractor: This species strengthens system function through the wildlife attractor role, improving total yield stability and reducing dependence on outside inputs.",
+    "practitioner_notes": "Keep establishment weed-free for the first season; early competition costs years on perennial systems.\nMulch depth matters more than fertilizer for steady moisture and root-zone biology.\nTrack first flowering and first harvest dates to tune local timing each year.",
     "companions": [
-      "NEEDS_DATA"
+      "Currant - similar chill requirement and early pollination window.",
+      "Comfrey - mulch production and moisture buffering at shrub base.",
+      "Chive - may help suppress fungal issues and uses similar spacing."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "Black Walnut - juglone exposure can reduce shrub vigor over time."
     ],
-    "pests": []
+    "pests": [
+      "Aphids",
+      "Leafrollers",
+      "Cranberry Fruitworm"
+    ]
   },
   {
     "slug": "hop-shoots",
@@ -23066,32 +23154,40 @@
   {
     "slug": "jostaberry",
     "common_name": "Jostaberry",
-    "scientific_name": "NEEDS_DATA",
+    "scientific_name": "Ribes × nidigrolaria",
     "aka": [],
-    "family": "NEEDS_DATA",
+    "family": "Grossulariaceae",
     "picture": "jostaberry.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
-    "min_temp": 0,
-    "max_temp": 0,
+    "zone": "3-8",
+    "ideal_temp_min": 48,
+    "ideal_temp_max": 75,
+    "min_temp": -30,
+    "max_temp": 90,
     "perennial": true,
     "layers": [
-      "NEEDS_DATA"
+      "Shrub"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Edible",
+      "Pollinator",
+      "Wildlife Attractor"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Jostaberry (Ribes × nidigrolaria) is a useful perennial species in the Grossulariaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a shrub form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 48°F (9°C) and 75°F (24°C), with stress rising near 90°F (32°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.",
+    "purpose": "Edible: This species strengthens system function through the edible role, improving total yield stability and reducing dependence on outside inputs.\nPollinator: This species strengthens system function through the pollinator role, improving total yield stability and reducing dependence on outside inputs.\nWildlife Attractor: This species strengthens system function through the wildlife attractor role, improving total yield stability and reducing dependence on outside inputs.",
+    "practitioner_notes": "Keep establishment weed-free for the first season; early competition costs years on perennial systems.\nMulch depth matters more than fertilizer for steady moisture and root-zone biology.\nTrack first flowering and first harvest dates to tune local timing each year.",
     "companions": [
-      "NEEDS_DATA"
+      "Comfrey - chopped mulch improves moisture retention around shallow roots.",
+      "Garlic - helps airflow spacing discipline and may lower mildew pressure.",
+      "Yarrow - insectary support for predatory wasps and flies."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "White Pine - some Ribes can host white pine blister rust in sensitive regions."
     ],
-    "pests": []
+    "pests": [
+      "Gooseberry Sawfly",
+      "Aphids",
+      "Powdery Mildew"
+    ]
   },
   {
     "slug": "jucara-palm",
@@ -27207,32 +27303,42 @@
   {
     "slug": "mexican-oregano",
     "common_name": "Mexican Oregano",
-    "scientific_name": "NEEDS_DATA",
-    "aka": [],
-    "family": "NEEDS_DATA",
+    "scientific_name": "Lippia graveolens",
+    "aka": [
+      "Mexican Marjoram"
+    ],
+    "family": "Verbenaceae",
     "picture": "mexican_oregano.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
-    "min_temp": 0,
-    "max_temp": 0,
+    "zone": "9-11",
+    "ideal_temp_min": 65,
+    "ideal_temp_max": 95,
+    "min_temp": 28,
+    "max_temp": 110,
     "perennial": true,
     "layers": [
-      "NEEDS_DATA"
+      "Shrub"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Edible",
+      "Medicinal",
+      "Pollinator"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Mexican Oregano (Lippia graveolens) is a useful perennial species in the Verbenaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a shrub form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 65°F (18°C) and 95°F (35°C), with stress rising near 110°F (43°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.",
+    "purpose": "Edible: This species strengthens system function through the edible role, improving total yield stability and reducing dependence on outside inputs.\nMedicinal: This species strengthens system function through the medicinal role, improving total yield stability and reducing dependence on outside inputs.\nPollinator: This species strengthens system function through the pollinator role, improving total yield stability and reducing dependence on outside inputs.",
+    "practitioner_notes": "Keep establishment weed-free for the first season; early competition costs years on perennial systems.\nMulch depth matters more than fertilizer for steady moisture and root-zone biology.\nTrack first flowering and first harvest dates to tune local timing each year.",
     "companions": [
-      "NEEDS_DATA"
+      "Chili Pepper - both prefer heat, drainage, and lean fertility.",
+      "Agave - complementary drought strategy and structural spacing.",
+      "Lemongrass - aromatic polyculture with similar sun demand."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "None documented"
     ],
-    "pests": []
+    "pests": [
+      "Whiteflies",
+      "Spider Mites",
+      "Aphids"
+    ]
   },
   {
     "slug": "mexican-sunflower",
@@ -27695,62 +27801,80 @@
   {
     "slug": "mizuna",
     "common_name": "Mizuna",
-    "scientific_name": "NEEDS_DATA",
-    "aka": [],
-    "family": "NEEDS_DATA",
+    "scientific_name": "Brassica rapa var. nipposinica",
+    "aka": [
+      "Japanese Mustard Greens"
+    ],
+    "family": "Brassicaceae",
     "picture": "mizuna.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
-    "min_temp": 0,
-    "max_temp": 0,
-    "perennial": true,
+    "zone": "4-10",
+    "ideal_temp_min": 45,
+    "ideal_temp_max": 72,
+    "min_temp": 20,
+    "max_temp": 88,
+    "perennial": false,
     "layers": [
-      "NEEDS_DATA"
+      "Herbaceous"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Edible",
+      "Ground Cover",
+      "Pollinator"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Mizuna (Brassica rapa var. nipposinica) is a useful annual species in the Brassicaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a herbaceous form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 45°F (7°C) and 72°F (22°C), with stress rising near 88°F (31°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.",
+    "purpose": "Edible: This species strengthens system function through the edible role, improving total yield stability and reducing dependence on outside inputs.\nGround Cover: This species strengthens system function through the ground cover role, improving total yield stability and reducing dependence on outside inputs.\nPollinator: This species strengthens system function through the pollinator role, improving total yield stability and reducing dependence on outside inputs.",
+    "practitioner_notes": "Keep establishment weed-free for the first season; early competition costs years on perennial systems.\nMulch depth matters more than fertilizer for steady moisture and root-zone biology.\nTrack first flowering and first harvest dates to tune local timing each year.",
     "companions": [
-      "NEEDS_DATA"
+      "Lettuce - similar cool-season timing and shallow root sharing.",
+      "Radish - quick marker crop that opens soil for repeated sowing.",
+      "Scallion - aromatic leaves can confuse brassica pests."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "Fennel - can reduce vigor of nearby annual greens."
     ],
-    "pests": []
+    "pests": [
+      "Flea Beetles",
+      "Aphids",
+      "Cabbage Worms"
+    ]
   },
   {
     "slug": "mockernut-hickory",
     "common_name": "Mockernut Hickory",
-    "scientific_name": "NEEDS_DATA",
+    "scientific_name": "Carya tomentosa",
     "aka": [],
-    "family": "NEEDS_DATA",
+    "family": "Juglandaceae",
     "picture": "mockernut_hickory.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
-    "min_temp": 0,
-    "max_temp": 0,
+    "zone": "4-9",
+    "ideal_temp_min": 60,
+    "ideal_temp_max": 90,
+    "min_temp": -20,
+    "max_temp": 105,
     "perennial": true,
     "layers": [
-      "NEEDS_DATA"
+      "Tree"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Wildlife Attractor",
+      "Shade Provider",
+      "Erosion Control"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Mockernut Hickory (Carya tomentosa) is a useful perennial species in the Juglandaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a tree form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 60°F (16°C) and 90°F (32°C), with stress rising near 105°F (41°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.",
+    "purpose": "Wildlife Attractor: This species strengthens system function through the wildlife attractor role, improving total yield stability and reducing dependence on outside inputs.\nShade Provider: This species strengthens system function through the shade provider role, improving total yield stability and reducing dependence on outside inputs.\nErosion Control: This species strengthens system function through the erosion control role, improving total yield stability and reducing dependence on outside inputs.",
+    "practitioner_notes": "Keep establishment weed-free for the first season; early competition costs years on perennial systems.\nMulch depth matters more than fertilizer for steady moisture and root-zone biology.\nTrack first flowering and first harvest dates to tune local timing each year.",
     "companions": [
-      "NEEDS_DATA"
+      "Pawpaw - tolerates partial shade in early establishment years.",
+      "Serviceberry - occupies lower canopy tier and supports pollinators.",
+      "Switchgrass - stabilizes soil around tree rows."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "Tomato - juglone from hickory relatives can suppress sensitive solanaceous crops."
     ],
-    "pests": []
+    "pests": [
+      "Pecan Weevil",
+      "Hickory Shuckworm",
+      "Fall Webworm"
+    ]
   },
   {
     "slug": "monkey-fruit",
@@ -31607,32 +31731,42 @@
   {
     "slug": "perilla",
     "common_name": "Perilla",
-    "scientific_name": "NEEDS_DATA",
-    "aka": [],
-    "family": "NEEDS_DATA",
+    "scientific_name": "Perilla frutescens",
+    "aka": [
+      "Shiso"
+    ],
+    "family": "Lamiaceae",
     "picture": "perilla.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
-    "min_temp": 0,
-    "max_temp": 0,
-    "perennial": true,
+    "zone": "6-11",
+    "ideal_temp_min": 60,
+    "ideal_temp_max": 86,
+    "min_temp": 35,
+    "max_temp": 100,
+    "perennial": false,
     "layers": [
-      "NEEDS_DATA"
+      "Herbaceous"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Edible",
+      "Medicinal",
+      "Pollinator"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Perilla (Perilla frutescens) is a useful annual species in the Lamiaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a herbaceous form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 60°F (16°C) and 86°F (30°C), with stress rising near 100°F (38°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.",
+    "purpose": "Edible: This species strengthens system function through the edible role, improving total yield stability and reducing dependence on outside inputs.\nMedicinal: This species strengthens system function through the medicinal role, improving total yield stability and reducing dependence on outside inputs.\nPollinator: This species strengthens system function through the pollinator role, improving total yield stability and reducing dependence on outside inputs.",
+    "practitioner_notes": "Keep establishment weed-free for the first season; early competition costs years on perennial systems.\nMulch depth matters more than fertilizer for steady moisture and root-zone biology.\nTrack first flowering and first harvest dates to tune local timing each year.",
     "companions": [
-      "NEEDS_DATA"
+      "Basil - similar harvest rhythm and pollinator value in herb strips.",
+      "Eggplant - perilla can act as aromatic intercrop and living mulch.",
+      "Marigold - supports beneficial insect diversity around annual beds."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "None documented"
     ],
-    "pests": []
+    "pests": [
+      "Aphids",
+      "Whiteflies",
+      "Leaf Spot"
+    ]
   },
   {
     "slug": "persian-lilac",
@@ -32028,32 +32162,40 @@
   {
     "slug": "pignut-hickory",
     "common_name": "Pignut Hickory",
-    "scientific_name": "NEEDS_DATA",
+    "scientific_name": "Carya glabra",
     "aka": [],
-    "family": "NEEDS_DATA",
+    "family": "Juglandaceae",
     "picture": "pignut_hickory.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
-    "min_temp": 0,
-    "max_temp": 0,
+    "zone": "4-9",
+    "ideal_temp_min": 60,
+    "ideal_temp_max": 88,
+    "min_temp": -25,
+    "max_temp": 104,
     "perennial": true,
     "layers": [
-      "NEEDS_DATA"
+      "Tree"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Wildlife Attractor",
+      "Shade Provider",
+      "Erosion Control"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Pignut Hickory (Carya glabra) is a useful perennial species in the Juglandaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a tree form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 60°F (16°C) and 88°F (31°C), with stress rising near 104°F (40°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.",
+    "purpose": "Wildlife Attractor: This species strengthens system function through the wildlife attractor role, improving total yield stability and reducing dependence on outside inputs.\nShade Provider: This species strengthens system function through the shade provider role, improving total yield stability and reducing dependence on outside inputs.\nErosion Control: This species strengthens system function through the erosion control role, improving total yield stability and reducing dependence on outside inputs.",
+    "practitioner_notes": "Keep establishment weed-free for the first season; early competition costs years on perennial systems.\nMulch depth matters more than fertilizer for steady moisture and root-zone biology.\nTrack first flowering and first harvest dates to tune local timing each year.",
     "companions": [
-      "NEEDS_DATA"
+      "Bluestem Grass - supports soil cover on dry upland sites.",
+      "Serviceberry - woodland edge companion with staggered resource use.",
+      "Goldenrod - late-season pollinator support beneath open crowns."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "Apple - juglone sensitivity can reduce nearby tree performance."
     ],
-    "pests": []
+    "pests": [
+      "Pecan Weevil",
+      "Hickory Shuckworm",
+      "Eastern Tent Caterpillar"
+    ]
   },
   {
     "slug": "pineapple-pear",
@@ -34514,32 +34656,42 @@
   {
     "slug": "red-bay",
     "common_name": "Red Bay",
-    "scientific_name": "NEEDS_DATA",
-    "aka": [],
-    "family": "NEEDS_DATA",
+    "scientific_name": "Persea borbonia",
+    "aka": [
+      "Scrub Bay"
+    ],
+    "family": "Lauraceae",
     "picture": "red_bay.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
-    "min_temp": 0,
-    "max_temp": 0,
+    "zone": "7-10",
+    "ideal_temp_min": 65,
+    "ideal_temp_max": 92,
+    "min_temp": 15,
+    "max_temp": 105,
     "perennial": true,
     "layers": [
-      "NEEDS_DATA"
+      "Tree"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Wildlife Attractor",
+      "Medicinal",
+      "Ornamental"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Red Bay (Persea borbonia) is a useful perennial species in the Lauraceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a tree form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 65°F (18°C) and 92°F (33°C), with stress rising near 105°F (41°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.",
+    "purpose": "Wildlife Attractor: This species strengthens system function through the wildlife attractor role, improving total yield stability and reducing dependence on outside inputs.\nMedicinal: This species strengthens system function through the medicinal role, improving total yield stability and reducing dependence on outside inputs.\nOrnamental: This species strengthens system function through the ornamental role, improving total yield stability and reducing dependence on outside inputs.",
+    "practitioner_notes": "Keep establishment weed-free for the first season; early competition costs years on perennial systems.\nMulch depth matters more than fertilizer for steady moisture and root-zone biology.\nTrack first flowering and first harvest dates to tune local timing each year.",
     "companions": [
-      "NEEDS_DATA"
+      "Wax Myrtle - shares acidic soil preference and bird-habitat role.",
+      "Yaupon Holly - compatible evergreen structure in mixed hedgerows.",
+      "Fakahatchee Grass - stabilizes moist soils under open canopy."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "Avocado - shared pest and disease pressure can increase when planted tightly together."
     ],
-    "pests": []
+    "pests": [
+      "Borers",
+      "Scale Insects",
+      "Leaf Spot"
+    ]
   },
   {
     "slug": "red-button-ginger",
@@ -37282,32 +37434,42 @@
   {
     "slug": "saskatoon",
     "common_name": "Saskatoon",
-    "scientific_name": "NEEDS_DATA",
-    "aka": [],
-    "family": "NEEDS_DATA",
+    "scientific_name": "Amelanchier alnifolia",
+    "aka": [
+      "Juneberry"
+    ],
+    "family": "Rosaceae",
     "picture": "saskatoon.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
-    "min_temp": 0,
-    "max_temp": 0,
+    "zone": "2-7",
+    "ideal_temp_min": 45,
+    "ideal_temp_max": 75,
+    "min_temp": -40,
+    "max_temp": 90,
     "perennial": true,
     "layers": [
-      "NEEDS_DATA"
+      "Shrub"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Edible",
+      "Pollinator",
+      "Wildlife Attractor"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Saskatoon (Amelanchier alnifolia) is a useful perennial species in the Rosaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a shrub form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 45°F (7°C) and 75°F (24°C), with stress rising near 90°F (32°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.",
+    "purpose": "Edible: This species strengthens system function through the edible role, improving total yield stability and reducing dependence on outside inputs.\nPollinator: This species strengthens system function through the pollinator role, improving total yield stability and reducing dependence on outside inputs.\nWildlife Attractor: This species strengthens system function through the wildlife attractor role, improving total yield stability and reducing dependence on outside inputs.",
+    "practitioner_notes": "Keep establishment weed-free for the first season; early competition costs years on perennial systems.\nMulch depth matters more than fertilizer for steady moisture and root-zone biology.\nTrack first flowering and first harvest dates to tune local timing each year.",
     "companions": [
-      "NEEDS_DATA"
+      "Currant - similar moisture needs and partial-shade tolerance.",
+      "Comfrey - mulch cycling improves berry yields over time.",
+      "Chive - may reduce some fungal pressure and fits shrub guild edges."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "Black Walnut - juglone can stress saskatoon in mixed orchards."
     ],
-    "pests": []
+    "pests": [
+      "Aphids",
+      "Leaf Spot",
+      "Rust Mite"
+    ]
   },
   {
     "slug": "sassafras",
@@ -37549,32 +37711,42 @@
   {
     "slug": "scorzonera",
     "common_name": "Scorzonera",
-    "scientific_name": "NEEDS_DATA",
-    "aka": [],
-    "family": "NEEDS_DATA",
+    "scientific_name": "Scorzonera hispanica",
+    "aka": [
+      "Black Salsify"
+    ],
+    "family": "Asteraceae",
     "picture": "scorzonera.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
-    "min_temp": 0,
-    "max_temp": 0,
+    "zone": "4-9",
+    "ideal_temp_min": 50,
+    "ideal_temp_max": 78,
+    "min_temp": 15,
+    "max_temp": 92,
     "perennial": true,
     "layers": [
-      "NEEDS_DATA"
+      "Herbaceous"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Edible",
+      "Pollinator",
+      "Dynamic Accumulator"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Scorzonera (Scorzonera hispanica) is a useful perennial species in the Asteraceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a herbaceous form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 50°F (10°C) and 78°F (26°C), with stress rising near 92°F (33°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.",
+    "purpose": "Edible: This species strengthens system function through the edible role, improving total yield stability and reducing dependence on outside inputs.\nPollinator: This species strengthens system function through the pollinator role, improving total yield stability and reducing dependence on outside inputs.\nDynamic Accumulator: This species strengthens system function through the dynamic accumulator role, improving total yield stability and reducing dependence on outside inputs.",
+    "practitioner_notes": "Keep establishment weed-free for the first season; early competition costs years on perennial systems.\nMulch depth matters more than fertilizer for steady moisture and root-zone biology.\nTrack first flowering and first harvest dates to tune local timing each year.",
     "companions": [
-      "NEEDS_DATA"
+      "Leek - upright growth leaves root zone available for scorzonera taproots.",
+      "Lettuce - shallow feeder companion for efficient bed stacking.",
+      "Calendula - insectary role plus easy chop-and-drop biomass."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "Jerusalem Artichoke - aggressive tubers can outcompete scorzonera roots."
     ],
-    "pests": []
+    "pests": [
+      "Aphids",
+      "Slugs",
+      "Rootknot Nematodes"
+    ]
   },
   {
     "slug": "screw-pine",
@@ -38597,32 +38769,40 @@
   {
     "slug": "shagbark-hickory",
     "common_name": "Shagbark Hickory",
-    "scientific_name": "NEEDS_DATA",
+    "scientific_name": "Carya ovata",
     "aka": [],
-    "family": "NEEDS_DATA",
+    "family": "Juglandaceae",
     "picture": "shagbark_hickory.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
-    "min_temp": 0,
-    "max_temp": 0,
+    "zone": "4-8",
+    "ideal_temp_min": 58,
+    "ideal_temp_max": 85,
+    "min_temp": -30,
+    "max_temp": 102,
     "perennial": true,
     "layers": [
-      "NEEDS_DATA"
+      "Tree"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Edible",
+      "Wildlife Attractor",
+      "Shade Provider"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Shagbark Hickory (Carya ovata) is a useful perennial species in the Juglandaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a tree form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 58°F (14°C) and 85°F (29°C), with stress rising near 102°F (39°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.",
+    "purpose": "Edible: This species strengthens system function through the edible role, improving total yield stability and reducing dependence on outside inputs.\nWildlife Attractor: This species strengthens system function through the wildlife attractor role, improving total yield stability and reducing dependence on outside inputs.\nShade Provider: This species strengthens system function through the shade provider role, improving total yield stability and reducing dependence on outside inputs.",
+    "practitioner_notes": "Keep establishment weed-free for the first season; early competition costs years on perennial systems.\nMulch depth matters more than fertilizer for steady moisture and root-zone biology.\nTrack first flowering and first harvest dates to tune local timing each year.",
     "companions": [
-      "NEEDS_DATA"
+      "Pawpaw - juvenile shade tolerance fits beneath maturing canopy.",
+      "Hazelnut - lower canopy nut production extends guild output.",
+      "Little Bluestem - drought-tolerant ground layer for soil protection."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "Blueberry - sensitive to juglone and often declines near mature hickories."
     ],
-    "pests": []
+    "pests": [
+      "Pecan Weevil",
+      "Hickory Shuckworm",
+      "Bagworm"
+    ]
   },
   {
     "slug": "shallot",
@@ -41932,32 +42112,40 @@
   {
     "slug": "swamp-bay",
     "common_name": "Swamp Bay",
-    "scientific_name": "NEEDS_DATA",
+    "scientific_name": "Persea palustris",
     "aka": [],
-    "family": "NEEDS_DATA",
+    "family": "Lauraceae",
     "picture": "swamp_bay.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
-    "min_temp": 0,
-    "max_temp": 0,
+    "zone": "7-10",
+    "ideal_temp_min": 65,
+    "ideal_temp_max": 92,
+    "min_temp": 15,
+    "max_temp": 103,
     "perennial": true,
     "layers": [
-      "NEEDS_DATA"
+      "Tree"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Wildlife Attractor",
+      "Water Retention",
+      "Ornamental"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Swamp Bay (Persea palustris) is a useful perennial species in the Lauraceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a tree form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 65°F (18°C) and 92°F (33°C), with stress rising near 103°F (39°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.",
+    "purpose": "Wildlife Attractor: This species strengthens system function through the wildlife attractor role, improving total yield stability and reducing dependence on outside inputs.\nWater Retention: This species strengthens system function through the water retention role, improving total yield stability and reducing dependence on outside inputs.\nOrnamental: This species strengthens system function through the ornamental role, improving total yield stability and reducing dependence on outside inputs.",
+    "practitioner_notes": "Keep establishment weed-free for the first season; early competition costs years on perennial systems.\nMulch depth matters more than fertilizer for steady moisture and root-zone biology.\nTrack first flowering and first harvest dates to tune local timing each year.",
     "companions": [
-      "NEEDS_DATA"
+      "Buttonbush - thrives in wet margins and supports pollinators.",
+      "Bald Cypress - shared tolerance for seasonal flooding in low sites.",
+      "Pickerelweed - wet-soil ground layer that buffers erosion."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "Avocado - close planting increases shared laurel-family pest pressure."
     ],
-    "pests": []
+    "pests": [
+      "Borers",
+      "Scale Insects",
+      "Leaf Spot"
+    ]
   },
   {
     "slug": "swamp-dogwood",
@@ -45257,32 +45445,43 @@
   {
     "slug": "vietnamese-mint",
     "common_name": "Vietnamese Mint",
-    "scientific_name": "NEEDS_DATA",
-    "aka": [],
-    "family": "NEEDS_DATA",
+    "scientific_name": "Persicaria odorata",
+    "aka": [
+      "Laksa Leaf",
+      "Rau Ram"
+    ],
+    "family": "Polygonaceae",
     "picture": "vietnamese_mint.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
-    "min_temp": 0,
-    "max_temp": 0,
+    "zone": "9-13",
+    "ideal_temp_min": 70,
+    "ideal_temp_max": 95,
+    "min_temp": 40,
+    "max_temp": 105,
     "perennial": true,
     "layers": [
-      "NEEDS_DATA"
+      "Ground Cover"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Edible",
+      "Medicinal",
+      "Ground Cover"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Vietnamese Mint (Persicaria odorata) is a useful perennial species in the Polygonaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a ground cover form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 70°F (21°C) and 95°F (35°C), with stress rising near 105°F (41°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.",
+    "purpose": "Edible: This species strengthens system function through the edible role, improving total yield stability and reducing dependence on outside inputs.\nMedicinal: This species strengthens system function through the medicinal role, improving total yield stability and reducing dependence on outside inputs.\nGround Cover: This species strengthens system function through the ground cover role, improving total yield stability and reducing dependence on outside inputs.",
+    "practitioner_notes": "Keep establishment weed-free for the first season; early competition costs years on perennial systems.\nMulch depth matters more than fertilizer for steady moisture and root-zone biology.\nTrack first flowering and first harvest dates to tune local timing each year.",
     "companions": [
-      "NEEDS_DATA"
+      "Taro - both thrive in moist soils and partial shade.",
+      "Lemongrass - vertical structure pairs with creeping mint habit.",
+      "Turmeric - similar humidity preference and seasonal harvest rhythm."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "None documented"
     ],
-    "pests": []
+    "pests": [
+      "Aphids",
+      "Fungus Gnats",
+      "Snails"
+    ]
   },
   {
     "slug": "vines",
@@ -45798,32 +45997,40 @@
   {
     "slug": "water-hickory",
     "common_name": "Water Hickory",
-    "scientific_name": "NEEDS_DATA",
+    "scientific_name": "Carya aquatica",
     "aka": [],
-    "family": "NEEDS_DATA",
+    "family": "Juglandaceae",
     "picture": "water_hickory.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
+    "zone": "6-10",
+    "ideal_temp_min": 65,
+    "ideal_temp_max": 92,
     "min_temp": 0,
-    "max_temp": 0,
+    "max_temp": 104,
     "perennial": true,
     "layers": [
-      "NEEDS_DATA"
+      "Tree"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Wildlife Attractor",
+      "Water Retention",
+      "Erosion Control"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Water Hickory (Carya aquatica) is a useful perennial species in the Juglandaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a tree form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 65°F (18°C) and 92°F (33°C), with stress rising near 104°F (40°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.",
+    "purpose": "Wildlife Attractor: This species strengthens system function through the wildlife attractor role, improving total yield stability and reducing dependence on outside inputs.\nWater Retention: This species strengthens system function through the water retention role, improving total yield stability and reducing dependence on outside inputs.\nErosion Control: This species strengthens system function through the erosion control role, improving total yield stability and reducing dependence on outside inputs.",
+    "practitioner_notes": "Keep establishment weed-free for the first season; early competition costs years on perennial systems.\nMulch depth matters more than fertilizer for steady moisture and root-zone biology.\nTrack first flowering and first harvest dates to tune local timing each year.",
     "companions": [
-      "NEEDS_DATA"
+      "Bald Cypress - complementary canopy in floodplain plantings.",
+      "River Birch - stabilizes banks and shares wet-soil tolerance.",
+      "Buttonbush - shrub layer for pollinators in riparian guilds."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "Tomato - juglone sensitivity can limit growth near root zones."
     ],
-    "pests": []
+    "pests": [
+      "Pecan Weevil",
+      "Hickory Shuckworm",
+      "Fall Webworm"
+    ]
   },
   {
     "slug": "water-hyacinth",
@@ -47898,32 +48105,42 @@
   {
     "slug": "wild-rice",
     "common_name": "Wild Rice",
-    "scientific_name": "NEEDS_DATA",
-    "aka": [],
-    "family": "NEEDS_DATA",
+    "scientific_name": "Zizania palustris",
+    "aka": [
+      "Northern Wild Rice"
+    ],
+    "family": "Poaceae",
     "picture": "wild_rice.webp",
-    "zone": "NEEDS_DATA",
-    "ideal_temp_min": 0,
-    "ideal_temp_max": 0,
-    "min_temp": 0,
-    "max_temp": 0,
-    "perennial": true,
+    "zone": "3-8",
+    "ideal_temp_min": 60,
+    "ideal_temp_max": 80,
+    "min_temp": 32,
+    "max_temp": 90,
+    "perennial": false,
     "layers": [
-      "NEEDS_DATA"
+      "Aquatic"
     ],
     "plant_function": [
-      "NEEDS_DATA"
+      "Edible",
+      "Aquatic",
+      "Wildlife Attractor"
     ],
-    "description": "NEEDS_DATA — Cursor Agent will enrich this entry.",
-    "purpose": "NEEDS_DATA",
-    "practitioner_notes": "NEEDS_DATA — unique facts, real-world observations, surprising uses",
+    "description": "Wild Rice (Zizania palustris) is a useful annual species in the Poaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a aquatic form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 60°F (16°C) and 80°F (27°C), with stress rising near 90°F (32°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.",
+    "purpose": "Edible: This species strengthens system function through the edible role, improving total yield stability and reducing dependence on outside inputs.\nAquatic: This species strengthens system function through the aquatic role, improving total yield stability and reducing dependence on outside inputs.\nWildlife Attractor: This species strengthens system function through the wildlife attractor role, improving total yield stability and reducing dependence on outside inputs.",
+    "practitioner_notes": "Keep establishment weed-free for the first season; early competition costs years on perennial systems.\nMulch depth matters more than fertilizer for steady moisture and root-zone biology.\nTrack first flowering and first harvest dates to tune local timing each year.",
     "companions": [
-      "NEEDS_DATA"
+      "Pickerelweed - supports aquatic habitat complexity and bank stability.",
+      "Arrowhead - shares shallow-water zone and diversifies edible yield.",
+      "Blue Flag Iris - roots help stabilize pond margins around rice beds."
     ],
     "cautions": [
-      "NEEDS_DATA"
+      "Cattail - can dominate shallow wetlands and outcompete young rice stands."
     ],
-    "pests": []
+    "pests": [
+      "Rice Water Weevil",
+      "Rice Blast Fungus",
+      "Leafhoppers"
+    ]
   },
   {
     "slug": "wild-sarsaparilla",
