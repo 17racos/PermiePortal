@@ -1,7 +1,7 @@
-# PermiePortal — Enrichment Batch 1 of 1
+# PermiePortal — Enrichment Batch 3 of 4
 
 > **Agent mode only.** ONE session at a time.
-> This batch: 0 plants. Total remaining: 0 plants + 243 pest fields.
+> This batch: 20 plants. Total remaining: 69 plants + 243 pest fields.
 
 ---
 
@@ -51,29 +51,26 @@ NEVER: None, NEEDS_DATA, or animals without pest profiles
 
 ## Plants to Enrich
 
-
-## Pests to Enrich (0 files, 243 fields)
-
-Use `src/seeds/pests/aphids-data.yml` as the gold standard reference.
-
-**Voice:** Lifecycle-aware, actionable, accessible. No generic slop.
-
-**Required fields for each pest:**
-- description: 2-3 sentences, what it is and first sign of damage
-- characteristics: what to look for, how to confirm identity
-- symptoms: 2-5 tags from: holes-in-leaves, yellowing-leaves, wilting,
-  sticky-residue, white-powder, leaf-spots, curling-leaves, webbing,
-  chewed-stems, stem-damage, root-damage, fruit-damage, black-coating,
-  distorted-growth, tunneling, galls, dropping-leaves, silvery-streaking,
-  brown-edges, die-back, sooty-deposits, slime-trails, skeletonized-leaves,
-  bark-damage, crown-damage
-- control_methods: biological_controls, preventive_methods,
-  cultural_practices, mechanical_physical, organic_sprays
-  Each section min 4 sentences. Use ' -- ' not em dashes.
-- natural_enemies: real predators/parasitoids only
-
-**Files to enrich:**
-
+- `src/seeds/plants/oilseed-radish-data.yml` (11 fields)
+- `src/seeds/plants/okra-data.yml` (11 fields)
+- `src/seeds/plants/olive-tree-data.yml` (11 fields)
+- `src/seeds/plants/pumpkin-data.yml` (11 fields)
+- `src/seeds/plants/quince-data.yml` (11 fields)
+- `src/seeds/plants/quinoa-data.yml` (11 fields)
+- `src/seeds/plants/red-clover-data.yml` (11 fields)
+- `src/seeds/plants/redcurrant-data.yml` (11 fields)
+- `src/seeds/plants/savory-data.yml` (11 fields)
+- `src/seeds/plants/shallot-data.yml` (11 fields)
+- `src/seeds/plants/sorghum-data.yml` (11 fields)
+- `src/seeds/plants/spinach-data.yml` (11 fields)
+- `src/seeds/plants/strawberry-tree-data.yml` (11 fields)
+- `src/seeds/plants/subterranean-clover-data.yml` (11 fields)
+- `src/seeds/plants/summer-savory-data.yml` (11 fields)
+- `src/seeds/plants/sunn-hemp-data.yml` (11 fields)
+- `src/seeds/plants/sweet-corn-data.yml` (11 fields)
+- `src/seeds/plants/swiss-chard-data.yml` (11 fields)
+- `src/seeds/plants/tomato-data.yml` (11 fields)
+- `src/seeds/plants/toyon-data.yml` (11 fields)
 ---
 
 ## When Done
@@ -83,12 +80,9 @@ python3 validate.py --since 2h
 python3 validate.py --fix --since 2h
 ./sync.sh --check
 ./sync.sh
-rm review/cursor_enrich_1_of_1.md
+rm review/cursor_enrich_3_of_4.md
 ```
 
 Zero warnings required before the next batch.
 
-✅ Final batch — commit:
-```bash
-git add -A && git commit -m 'enrichment complete'
-```
+Next: `cursor_enrich_4_of_4.md`
