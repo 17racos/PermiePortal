@@ -50,8 +50,6 @@ const tickerMessages = [
   description="1000+ permaculture plants, 200 organic pest profiles, food forest guides, and unfiltered satire about why your lawn is the problem. Built in a food forest in Yulee, FL."
 >
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Serif:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
-
   :root {
     --soil: #0f0d0a; --bark: #1c1812; --moss: #2a3d1f;
     --leaf: #4a7c35; --lime: #8fb83a; --straw: #d4a843;
@@ -353,7 +351,7 @@ const tickerMessages = [
     <div class="random-card" id="random-plant-card">
       <a href={`/plants/${featuredPlant.slug}`} class="random-card-link" id="random-plant-link">
         {featuredPlant.picture && (
-          <img class="random-img" id="random-plant-img" src={`/assets/plants/${featuredPlant.picture}`} alt={featuredPlant.common_name} loading="lazy" />
+          <img class="random-img" id="random-plant-img" src={`/assets/plants/${featuredPlant.picture}`} alt={featuredPlant.common_name} width="140" height="140" loading="eager" />
         )}
         <div class="random-card-body">
           <div class="random-label">▸ Random Plant</div>

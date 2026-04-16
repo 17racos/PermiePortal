@@ -10,8 +10,6 @@ const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].filter(l => 
 
 <BaseLayout title="Plant Database">
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Serif:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
-
   :root {
     --soil: #0f0d0a; --bark: #1c1812; --moss: #2a3d1f;
     --leaf: #4a7c35; --lime: #8fb83a; --straw: #d4a843;
@@ -294,6 +292,7 @@ const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].filter(l => 
   </ul>
 </nav>
 
+<main>
 <div class="page-header">
   <div>
     <p class="page-eyebrow">Field Database</p>
@@ -372,6 +371,7 @@ const allLayers = [...new Set(plants.flatMap(p => p.layers || []))].filter(l => 
   </div>
 </div>
 
+</main>
 <footer class="footer">
   <div class="footer-logo">PermiePortal</div>
   <div class="footer-copy">© {new Date().getFullYear()} — Built in a food forest in Yulee, FL</div>
