@@ -60,7 +60,7 @@ INVALID_PATTERNS = [
     r'Focus$',
     r'^(Canopy Trees|Shrubs|Herbaceous|Vines|Ground Covers|Roots|'
     r'Nitrogen Fix|Dynamic Acc|Pollinator|Mushroom|Fiber|Medicinal|'
-    r'Rare Tropical|Native|Subtropical|Water|Understud|Industrial)',
+    r'Rare Tropical|Native|Subtropical|Water Plants|Water Aquatic|Understud|Industrial)',
 ]
 
 VALID_NAME_RE = re.compile(r"^[A-Z][a-zA-Z\s\-\'\.]{1,49}$")

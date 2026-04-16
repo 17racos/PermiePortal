@@ -1,7 +1,7 @@
 # PermiePortal — Enrichment Batch 2 of 4
 
 > **Agent mode only.** ONE session at a time.
-> This batch: 20 plants. Total remaining: 69 plants + 243 pest fields.
+> This batch: 20 plants. Total remaining: 71 plants + 243 pest fields.
 
 ---
 

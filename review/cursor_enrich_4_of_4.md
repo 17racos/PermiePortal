@@ -1,7 +1,7 @@
 # PermiePortal — Enrichment Batch 4 of 4
 
 > **Agent mode only.** ONE session at a time.
-> This batch: 9 plants. Total remaining: 69 plants + 243 pest fields.
+> This batch: 11 plants. Total remaining: 71 plants + 243 pest fields.
 
 ---
 
@@ -54,6 +54,8 @@ NEVER: None, NEEDS_DATA, or animals without pest profiles
 - `src/seeds/plants/turmeric-ginger-data.yml` (11 fields)
 - `src/seeds/plants/turnip-data.yml` (11 fields)
 - `src/seeds/plants/velvet-bean-data.yml` (11 fields)
+- `src/seeds/plants/water-mimosa-data.yml` (11 fields)
+- `src/seeds/plants/watermelon-data.yml` (11 fields)
 - `src/seeds/plants/wheat-data.yml` (11 fields)
 - `src/seeds/plants/white-clover-data.yml` (11 fields)
 - `src/seeds/plants/winter-rye-data.yml` (11 fields)
