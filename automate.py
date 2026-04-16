@@ -107,7 +107,7 @@ def slugify(text):
 
 
 def picture_name(name):
-    return slugify(name).replace('-', '_') + '.jpg'
+    return slugify(name).replace('-', '_') + '.webp'
 
 
 def fetch_json(url, timeout=10):
@@ -147,7 +147,20 @@ def download_image(url, dest_path, dry_run=False):
                 print(f"    ⚠️  Download too small ({len(data)} bytes), skipping")
                 return False
             dest_path.parent.mkdir(parents=True, exist_ok=True)
-            dest_path.write_bytes(data)
+            # Convert to WebP on save
+            try:
+                from PIL import Image
+                import io
+                img = Image.open(io.BytesIO(data))
+                if img.mode in ("RGBA", "P"):
+                    img = img.convert("RGB")
+                if img.width > 1200:
+                    ratio = 1200 / img.width
+                    img = img.resize((1200, int(img.height * ratio)), Image.LANCZOS)
+                webp_path = dest_path.with_suffix('.webp')
+                img.save(webp_path, "WEBP", quality=82)
+            except Exception:
+                dest_path.write_bytes(data)
         return True
     except Exception as e:
         print(f"    ⚠️  Download failed: {e}")
