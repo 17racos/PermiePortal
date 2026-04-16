@@ -17,8 +17,10 @@
   - Fungal
   plant_function:
   - Edible
+  - Decomposer
+  - Soil Builder
   - Mulcher
-  - Soil Improvement
+  - Ground Cover
   description: "Wine caps are the extroverts of the food forest floor — big burgundy-to-wine-red
     caps, a skirt-like ring on the stipe, and a habit of threading through wood
     chip paths and straw beds like they own the place. They are one of the most
@@ -60,11 +62,10 @@
   spawn_type: Chip bed spawn (grain or sawdust spawn mixed into fresh chips); colonized
     substrate transfer for patch expansion
   companions:
-  - Apple
-  - Mulberry
-  - Fig
-  - Comfrey
-  - Any fruit tree guild with chip mulch
+  - Apple -- fruit tree guild host; wine cap thrives in wood chip mulch under fruit trees
+  - Comfrey -- chop-and-drop mulch feeds the wood chip substrate wine cap colonizes
+  - Mulberry -- fast-growing tree producing abundant wood chip substrate when pruned
+  - Fig -- Mediterranean guild companion; shares well-drained mulched beds
   cautions:
   - Confirm wine-red to burgundy cap, white gills, and skirt ring before harvest;
     do not eat any gilled mushroom without a full ID

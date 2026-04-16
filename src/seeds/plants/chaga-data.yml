@@ -18,7 +18,9 @@
   plant_function:
   - Edible
   - Medicinal
-  - Mulcher
+  - Soil Builder
+  - Decomposer
+  - Biomass
   description: "Chaga is not a mushroom in the cap-and-stem sense — it is a sterile
     conk stage of Inonotus obliquus, erupting from birch bark as a cracked, charcoal-black
     mass with an orange-brown interior. It belongs to cold-climate birch forests
@@ -53,8 +55,9 @@
   spawn_type: Outdoor only — natural inoculation or experimental log colonization
     in northern climates
   companions:
-  - Birch
-  - Alder
+  - Birch -- primary host tree; Chaga parasitizes Betula species almost exclusively in the wild
+  - Alder -- secondary host in some northern regions; same Betulaceae family
+  - Comfrey -- dynamic accumulator planted near host trees feeds the surrounding soil biology
   cautions:
   - Not suitable for subtropical or tropical cultivation
   - Repeated conk harvesting from live trees accelerates host decline

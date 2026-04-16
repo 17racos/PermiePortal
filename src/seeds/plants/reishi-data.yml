@@ -17,7 +17,9 @@
   - Fungal
   plant_function:
   - Medicinal
-  - Mulcher
+  - Decomposer
+  - Soil Builder
+  - Biomass
   description: "Eastern reishi is a lacquered bracket fungus on hardwoods and root
     crowns — glossy, kidney-shaped, woody, with a distinctive red-to-orange varnished
     cap. Taxonomy is genuinely messy: the Ganoderma lucidum sold in Asian commerce
@@ -58,9 +60,9 @@
   spawn_type: Sawdust spawn or plug spawn for logs; grain spawn to supplemented
     sawdust for indoor blocks
   companions:
-  - Oak
-  - Maple
-  - Sweetgum
+  - Oak -- primary hardwood host; Ganoderma grows on living and dead Quercus roots and stumps
+  - Maple -- common secondary host in temperate food forests
+  - Sweetgum -- southeastern US host tree; grows at base of stressed or dying specimens
   cautions:
   - Ganoderma on a live landscape oak usually means root or trunk decay — consult
     an arborist before the tree becomes a liability

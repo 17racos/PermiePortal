@@ -15,8 +15,10 @@
   layers:
   - Fungal
   plant_function:
-  - Edible
   - Medicinal
+  - Pest Management
+  - Soil Builder
+  - Decomposer
   description: "Cordyceps militaris is the cultivated species — not the cinematic
     zombie-ant fungus (that is Ophiocordyceps unilateralis), though the genus earns
     its reputation for strange life cycles. Wild C. militaris parasitizes moth and
@@ -52,7 +54,9 @@
     controls
   spawn_type: Liquid culture or grain spawn; agar transfers for genetics preservation
   companions:
-  - None documented
+  - Ophiocordyceps host insects -- parasitizes specific insect larvae in forest soil
+  - Oak -- forest floor habitat where host insects pupate
+  - Pine -- conifer duff provides the moist habitat for host arthropod lifecycles
   cautions:
   - Open-air cultivation is not viable — contamination rates will be near 100%
   - Do not confuse with Ophiocordyceps species; taxonomy has shifted significantly
