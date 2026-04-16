@@ -113,11 +113,43 @@ const allSymptoms = Object.keys(SYMPTOM_LABELS);
   .footer-copy { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--ash); }
 
   @media (max-width: 768px) {
-    .diagnose-wrap { grid-template-columns: 1fr; }
+    /* Nav */
+    .nav { padding: 1rem 1.25rem; }
+    .nav-logo { font-size: 1.4rem; }
+    .nav-links { gap: 0.75rem; }
+    .nav-links a { font-size: 0.62rem; }
+
+    /* Header */
+    .page-header { padding: 2rem 1.25rem 1.5rem; }
+    .page-title { font-size: 2.8rem; }
+    .page-sub { font-size: 0.95rem; }
+
+    /* Layout -- stack picker above results */
+    .diagnose-wrap { grid-template-columns: 1fr; padding: 1rem; gap: 1rem; }
+
+    /* Picker -- horizontal scrollable grid on mobile */
     .picker { position: static; }
-    .symptom-grid { display: grid; grid-template-columns: 1fr 1fr; }
-    .nav-links { gap: 1rem; }
-    .footer { flex-direction: column; gap: 1rem; padding: 2rem 1.5rem; }
+    .picker-label { font-size: 0.6rem; margin-bottom: 0.75rem; }
+    .picker-section-label { font-size: 0.55rem; }
+    .symptom-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.35rem; }
+    .symptom-btn { font-size: 0.62rem; padding: 0.5rem 0.65rem; }
+    .show-more-btn { font-size: 0.58rem; padding: 0.5rem; }
+    .clear-btn { font-size: 0.58rem; padding: 0.5rem; }
+
+    /* Results */
+    .results-header { font-size: 0.6rem; }
+    .results-grid { grid-template-columns: 1fr; }
+    :global(.pest-card-img) { height: 180px; }
+    :global(.pest-card-name) { font-size: 1.1rem; }
+
+    /* Footer */
+    .footer { flex-direction: column; gap: 1rem; padding: 1.5rem 1.25rem; text-align: center; }
+  }
+
+  @media (max-width: 480px) {
+    .page-title { font-size: 2.2rem; }
+    .symptom-grid { grid-template-columns: 1fr; }
+    .nav-links li:nth-child(n+4) { display: none; }
   }
 </style>
 
