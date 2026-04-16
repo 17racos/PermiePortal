@@ -47,7 +47,7 @@ const purposeLines = purposeRaw
 
 <BaseLayout
   title={`${plant.common_name} — Permaculture Plant Profile`}
-  description={`${plant.common_name} (${plant.scientific_name || 'permaculture plant'}) — zones, functions, companions, pest relationships, and organic growing notes. Free field data from PermiePortal.`}
+  description={`${plant.common_name}${plant.aka?.length ? ' (' + plant.aka.slice(0,3).join(', ') + ')' : ''} — zones, functions, companions, pest relationships, and organic growing notes. Free permaculture plant data from PermiePortal.`}
 >
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Serif:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
@@ -89,7 +89,9 @@ const purposeLines = purposeRaw
   .plant-layer::before { content: ''; width: 2rem; height: 1px; background: var(--leaf); }
   .plant-name { font-family: 'Bebas Neue', sans-serif; font-size: clamp(3rem, 6vw, 5.5rem); line-height: 0.95; letter-spacing: 0.02em; color: var(--paper); margin-bottom: 0.5rem; }
   .plant-sci { font-style: italic; font-size: 1.1rem; color: var(--ash); margin-bottom: 1rem; }
-  .plant-aka { font-family: 'Space Mono', monospace; font-size: 0.7rem; color: var(--ash); margin-bottom: 1.5rem; }
+  .plant-aka-wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem; margin-bottom: 1.25rem; }
+  .plant-aka-label { font-family: 'Space Mono', monospace; font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ash); opacity: 0.6; margin-right: 0.25rem; }
+  .plant-aka-tag { font-family: 'Space Mono', monospace; font-size: 0.58rem; letter-spacing: 0.04em; padding: 0.15rem 0.5rem; background: rgba(212,168,67,0.1); border: 1px solid rgba(212,168,67,0.2); color: var(--straw); }
   .plant-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.5rem; }
   .tag { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.08em; padding: 0.2rem 0.7rem; background: rgba(42,61,31,0.6); border: 1px solid rgba(74,124,53,0.4); color: var(--lime); text-transform: uppercase; }
   .tag.layer { background: rgba(122,59,30,0.3); border-color: rgba(196,85,26,0.4); color: var(--straw); }
@@ -181,7 +183,14 @@ const purposeLines = purposeRaw
     <p class="plant-layer">{plant.layers?.[0] || 'Plant'}</p>
     <h1 class="plant-name">{plant.common_name}</h1>
     {plant.scientific_name && <p class="plant-sci">{plant.scientific_name}</p>}
-    {plant.aka?.length > 0 && <p class="plant-aka">Also known as: {plant.aka.join(', ')}</p>}
+    {plant.aka?.length > 0 && (
+      <div class="plant-aka-wrap">
+        <span class="plant-aka-label">Also known as:</span>
+        {plant.aka.map((name: string) => (
+          <span class="plant-aka-tag">{name}</span>
+        ))}
+      </div>
+    )}
     <div class="plant-tags">
       {(plant.layers || []).map((l: string) => <span class="tag layer">{l}</span>)}
       {plant.family && familySlug && (
