@@ -164,7 +164,7 @@ const otherSymptoms = Object.keys(SYMPTOM_LABELS).filter(s => s !== symptom).sli
 <div class="pests-section">
   <div class="pests-grid">
     {matchingPests.map(pest => (
-      <a href={`/pests/${pest`} class="pest-card">
+      <a href={`/pests/${pest.slug}`} class="pest-card">
         {pest.picture
           ? <img class="pest-card-img" src={`/assets/pests/${pest.picture}`} alt={`${pest.name} identification`} loading="lazy" />
           : <div class="pest-card-img-placeholder"><span style="font-family:monospace;font-size:0.6rem;color:rgba(196,85,26,0.3);text-transform:uppercase">{pest.name}</span></div>
