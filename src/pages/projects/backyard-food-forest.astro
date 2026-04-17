@@ -1,5 +1,9 @@
 ---
 import BaseLayout from '../../components/layouts/BaseLayout.astro';
+import { readFileSync } from 'fs';
+
+const _self = readFileSync('src/pages/projects/backyard-food-forest.astro', 'utf8');
+const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
 ---
 <BaseLayout
   title="Backyard Food Forest — Yulee FL Suburban Permaculture Case Study | PermiePortal"
@@ -164,7 +168,7 @@ import BaseLayout from '../../components/layouts/BaseLayout.astro';
     <div class="stat-label">Species planted</div>
   </div>
   <div class="stat">
-    <div class="stat-number">81</div>
+    <div class="stat-number">{photoCount}</div>
     <div class="stat-label">Photos on this page</div>
   </div>
   <div class="stat">
@@ -202,39 +206,6 @@ import BaseLayout from '../../components/layouts/BaseLayout.astro';
   </div>
 </div>
 
-<div class="section">
-  <p class="section-label">Peak Season</p>
-  <h2 class="section-title">November 2025</h2>
-  <p class="section-body">The system at full growth heading into winter.</p>
-  <div class="photo-grid">
-    <div class="photo-item">
-      <img src="/media/food-forest/17-sep-nov-2025/20251104_122413.webp" alt="Left view November 2025" loading="lazy" />
-      <div class="photo-caption">November 2025 — Left view. Bananas, Lemon tree, Shampoo Ginger, Salvia, with Mimosa grass fixing nitrogen.</div>
-    </div>
-    <div class="photo-item">
-      <img src="/media/food-forest/17-sep-nov-2025/20251104_122407.webp" alt="Right view November 2025" loading="lazy" />
-      <div class="photo-caption">November 2025 — Right view. You can see the banana grove on the right with a Pigeon pea in the middle and Elderberry bushes on either side. Additionally turmeric in front and some more Mimosa grass. Barley visible in the back of the grove is a lone Tithonia.</div>
-    </div>
-    <div class="photo-item">
-      <img src="/media/food-forest/17-sep-nov-2025/20251104_122206.webp" alt="Central view November 2025" loading="lazy" />
-      <div class="photo-caption">November 2025 — Central view.</div>
-    </div>
-  </div>
-  <div class="photo-grid" style="margin-top:2px">
-    <div class="photo-item">
-      <img src="/media/food-forest/17-sep-nov-2025/20251104_122329.webp" alt="Back row November 2025" loading="lazy" />
-      <div class="photo-caption">November 2025 — Back row Turmeric rows off to the right with a view of the Tithonia rows I use for chop and drop fertilizer. The left is Rootbeer Plant.</div>
-    </div>
-        <div class="photo-item">
-      <img src="/media/food-forest/17-sep-nov-2025/20251104_122247.webp" alt="Back row November 2025" loading="lazy" />
-      <div class="photo-caption">November 2025 — Back row from the other side. A better view of the Tithonia row also intermixed with some comfrey. The Lemongrass on the right with The original Tithonia in front.</div>
-    </div>
-    <div class="photo-item">
-      <img src="/media/food-forest/18-april-2026/20260414_185038.webp" alt="Current lanai April 2026" loading="lazy" />
-      <div class="photo-caption">April 2026 — Current lanai. Rose bush, Bottle Brush, Coral Honeysuckle, Cooking herb assortment and Chinese Lantern and Salvia (Right side)</div>
-    </div>
-  </div>
-</div>
 
 <!-- BREAKING GROUND -->
 <div class="section">
