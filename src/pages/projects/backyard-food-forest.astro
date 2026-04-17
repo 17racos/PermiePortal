@@ -388,7 +388,7 @@ import BaseLayout from '../../components/layouts/BaseLayout.astro';
   <div class="lightbox-caption" id="lightbox-caption"></div>
 </div>
 
-<script>
+<script is:inline>
   const lightbox = document.getElementById('lightbox');
   const lbImg = document.getElementById('lightbox-img');
   const lbCaption = document.getElementById('lightbox-caption');
@@ -396,6 +396,7 @@ import BaseLayout from '../../components/layouts/BaseLayout.astro';
   const lbPrev = document.getElementById('lightbox-prev');
   const lbNext = document.getElementById('lightbox-next');
 
+  document.addEventListener('DOMContentLoaded', function() {
   // Collect all photo-item images
   const items = Array.from(document.querySelectorAll('.photo-item img, .ba-img'));
   let current = 0;
@@ -436,6 +437,7 @@ import BaseLayout from '../../components/layouts/BaseLayout.astro';
     if (e.key === 'ArrowLeft') prev();
     if (e.key === 'ArrowRight') next();
   });
+  }); // end DOMContentLoaded
 </script>
 
 </BaseLayout>
