@@ -15,7 +15,7 @@ export async function GET(context) {
   return rss({
     title: 'PermiePortal — Articles',
     description: 'Rotten ideas and field-tested hacks.',
-    site: context.site || 'https://permieportal.example',
+    site: context.site || 'https://www.permieportal.com',
     items,
   });
 }
