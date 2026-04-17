@@ -1,0 +1,327 @@
+---
+import BaseLayout from '../../components/layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Backyard Food Forest — Yulee FL Suburban Permaculture Case Study | PermiePortal"
+  description="Converting a suburban Yulee, FL lawn into a productive food forest. Started July 2023. 229 photos documenting 3 years of transformation from bare lawn to closed canopy food system."
+>
+<style>
+  :root {
+    --soil: #0f0d0a; --bark: #1c1812; --moss: #2a3d1f;
+    --leaf: #4a7c35; --lime: #8fb83a; --straw: #d4a843;
+    --ash: #b8b0a0; --paper: #ede8dc; --rot: #7a3b1e; --rust: #c4551a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--soil); color: var(--paper); font-family: 'Instrument Serif', Georgia, serif; }
+  .nav { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 2rem; border-bottom: 1px solid rgba(139,184,58,0.2); position: sticky; top: 0; z-index: 100; background: rgba(15,13,10,0.97); backdrop-filter: blur(8px); }
+  .nav-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; letter-spacing: 0.08em; color: var(--lime); text-decoration: none; }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a { font-family: 'Space Mono', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ash); text-decoration: none; transition: color 0.2s; }
+  .nav-links a:hover { color: var(--lime); }
+  .breadcrumb { padding: 1rem 2rem; font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ash); border-bottom: 1px solid rgba(139,184,58,0.1); }
+  .breadcrumb a { color: var(--lime); text-decoration: none; }
+
+  /* HERO */
+  .project-hero { display: grid; grid-template-columns: 1fr 1fr; min-height: 70vh; }
+  .hero-img { width: 100%; height: 100%; object-fit: cover; opacity: 0.85; }
+  .hero-content { padding: 4rem 3rem; display: flex; flex-direction: column; justify-content: center; background: var(--bark); border-left: 1px solid rgba(139,184,58,0.15); }
+  .hero-eyebrow { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--rust); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.75rem; }
+  .hero-eyebrow::before { content: ''; width: 2rem; height: 1px; background: var(--rust); }
+  .hero-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(3rem, 5vw, 5rem); line-height: 0.95; color: var(--paper); margin-bottom: 1rem; }
+  .hero-title em { color: var(--lime); font-style: normal; }
+  .hero-meta { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.08em; color: var(--ash); margin-bottom: 1.5rem; display: flex; flex-direction: column; gap: 0.4rem; }
+  .hero-desc { font-size: 1rem; line-height: 1.75; color: var(--ash); font-style: italic; }
+
+  /* STATS BAR */
+  .stats-bar { display: grid; grid-template-columns: repeat(4, 1fr); border-bottom: 1px solid rgba(139,184,58,0.15); }
+  .stat { padding: 2rem; border-right: 1px solid rgba(139,184,58,0.1); text-align: center; }
+  .stat:last-child { border-right: none; }
+  .stat-number { font-family: 'Bebas Neue', sans-serif; font-size: 2.5rem; color: var(--lime); line-height: 1; }
+  .stat-label { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ash); margin-top: 0.4rem; }
+
+  /* SECTIONS */
+  .section { padding: 4rem 2rem; border-bottom: 1px solid rgba(139,184,58,0.1); max-width: 1200px; margin: 0 auto; }
+  .section-label { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--straw); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.75rem; }
+  .section-label::before { content: ''; width: 2rem; height: 1px; background: var(--straw); }
+  .section-title { font-family: 'Bebas Neue', sans-serif; font-size: 2.5rem; color: var(--paper); margin-bottom: 1rem; }
+  .section-body { font-size: 1rem; line-height: 1.8; color: var(--ash); max-width: 720px; margin-bottom: 2rem; }
+
+  /* BEFORE/AFTER */
+  .ba-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; margin-bottom: 2rem; }
+  .ba-side { position: relative; }
+  .ba-img { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; }
+  .ba-label { position: absolute; bottom: 0; left: 0; right: 0; padding: 0.75rem 1rem; background: linear-gradient(to top, rgba(15,13,10,0.9), transparent); font-family: 'Space Mono', monospace; font-size: 0.62rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--paper); }
+  .ba-label.after { color: var(--lime); }
+
+  /* PHOTO GRID */
+  .photo-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; margin: 1.5rem 0; }
+  .photo-grid.two-col { grid-template-columns: 1fr 1fr; }
+  .photo-item { position: relative; overflow: hidden; }
+  .photo-item img { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; transition: opacity 0.3s; }
+  .photo-item:hover img { opacity: 0.85; }
+  .photo-caption { padding: 0.6rem 0.75rem; background: var(--bark); font-family: 'Space Mono', monospace; font-size: 0.58rem; letter-spacing: 0.04em; color: var(--ash); line-height: 1.4; }
+
+  /* SPECIES LIST */
+  .species-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+  .species-group { background: var(--bark); border: 1px solid rgba(139,184,58,0.12); padding: 1.25rem; }
+  .species-group-title { font-family: 'Space Mono', monospace; font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--lime); margin-bottom: 0.75rem; }
+  .species-list { font-size: 0.88rem; color: var(--ash); line-height: 1.9; }
+
+  /* TIMELINE */
+  .timeline { margin: 1.5rem 0; }
+  .timeline-item { display: grid; grid-template-columns: 140px 1fr; gap: 1.5rem; padding: 1.25rem 0; border-bottom: 1px solid rgba(139,184,58,0.08); }
+  .timeline-date { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--straw); padding-top: 0.2rem; }
+  .timeline-content { font-size: 0.92rem; color: var(--ash); line-height: 1.65; }
+  .timeline-content strong { color: var(--paper); font-style: normal; }
+
+  /* HONEST SECTION */
+  .honest-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; margin: 1.5rem 0; }
+  .honest-card { padding: 1.5rem; border: 1px solid rgba(139,184,58,0.12); background: var(--bark); }
+  .honest-card-title { font-family: 'Space Mono', monospace; font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.75rem; }
+  .honest-card-title.win { color: var(--lime); }
+  .honest-card-title.fail { color: var(--rust); }
+  .honest-card-title.would { color: var(--straw); }
+  .honest-card-body { font-size: 0.9rem; color: var(--ash); line-height: 1.7; }
+
+  .footer { padding: 2rem 4rem; border-top: 1px solid rgba(139,184,58,0.15); display: flex; justify-content: space-between; align-items: center; margin-top: 2rem; }
+  .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.2rem; color: var(--lime); letter-spacing: 0.08em; }
+  .footer-copy { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--ash); }
+
+  @media (max-width: 768px) {
+    .project-hero { grid-template-columns: 1fr; }
+    .project-hero .hero-img-wrap { height: 50vw; overflow: hidden; }
+    .hero-content { padding: 2rem 1.5rem; }
+    .stats-bar { grid-template-columns: 1fr 1fr; }
+    .ba-grid { grid-template-columns: 1fr; }
+    .photo-grid { grid-template-columns: 1fr 1fr; }
+    .honest-grid { grid-template-columns: 1fr; }
+    .timeline-item { grid-template-columns: 1fr; gap: 0.25rem; }
+    .section { padding: 2.5rem 1.25rem; }
+    .nav-links { gap: 1rem; }
+    .nav-links a { font-size: 0.62rem; }
+    .footer { flex-direction: column; gap: 1rem; padding: 1.5rem; }
+  }
+</style>
+
+<nav class="nav">
+  <a href="/" class="nav-logo">PermiePortal</a>
+  <ul class="nav-links">
+    <li><a href="/plants">Plants</a></li>
+    <li><a href="/pests">Pests</a></li>
+    <li><a href="/diagnose">Diagnose</a></li>
+    <li><a href="/articles">Articles</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
+</nav>
+
+<div class="breadcrumb">
+  <a href="/">Home</a> / <a href="/projects">Projects</a> / Backyard Food Forest
+</div>
+
+<main>
+
+<!-- HERO -->
+<div class="project-hero">
+  <div class="hero-img-wrap">
+    <img class="hero-img" src="/media/food-forest/18-april-2026/20260417_094512.webp" alt="Backyard food forest Yulee FL April 2026" loading="eager" />
+  </div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Case Study — Yulee, FL</p>
+    <h1 class="hero-title">Backyard<br><em>Food Forest</em></h1>
+    <div class="hero-meta">
+      <span>📍 Yulee, FL — Zone 9b</span>
+      <span>📅 Started July 2023</span>
+      <span>📐 ~2,800 sq ft suburban backyard</span>
+      <span>🌿 Year 3 — Active</span>
+    </div>
+    <p class="hero-desc">Converting a standard Florida lawn into a productive perennial food system. Documented monthly from bare lawn through closed canopy. No irrigation. No synthetic inputs. Just time and observation.</p>
+  </div>
+</div>
+
+<!-- STATS -->
+<div class="stats-bar">
+  <div class="stat">
+    <div class="stat-number">2,800</div>
+    <div class="stat-label">Sq ft converted</div>
+  </div>
+  <div class="stat">
+    <div class="stat-number">40+</div>
+    <div class="stat-label">Species planted</div>
+  </div>
+  <div class="stat">
+    <div class="stat-number">229</div>
+    <div class="stat-label">Photos documented</div>
+  </div>
+  <div   <div class="stat-number">~18mo</div>
+    <div class="stat-label">To low maintenance</div>
+  </div>
+</div>
+
+<!-- BEFORE / AFTER -->
+<div class="section">
+  <p class="section-label">The Transformation</p>
+  <h2 class="section-title">Before & After</h2>
+  <p class="section-body">Same backyard. Same perspective. 3 years apart. The lawn is gone. The system feeds itself.</p>
+
+  <div class="ba-grid">
+    <div class="ba-side">
+      <img class="ba-img" src="/media/food-forest/00-before/20230428_183125.webp" alt="Bare lawn before food forest April 2023" loading="lazy" />
+      <div class="ba-label">April 2023 — Before</div>
+    </div>
+    <div class="ba-side">
+      <img class="ba-img" src="/media/food-forest/18-april-2026/20260417_094512.webp" alt="Food forest April 2026" loading="lazy" />
+      <div class="ba-label after">April 2026 — Year 3</div>
+    </div>
+  </div>
+
+  <div class="photo-grid two-col">
+    <div class="photo-item">
+      <img src="/media/food-forest/18-april-2026/20260417_094523.webp" alt="Food forest left side April 2026" loading="lazy" />
+      <div class="photo-caption">April 2026 — Left side. Banana canopy established. Understory dense.</div>
+    </div>
+    <div class="photo-item">
+      <img src="/media/food-forest/18-april-2026/20260414_184327.webp" alt="Food forest right side April 2026" loading="lazy" />
+      <div class="photo-caption">April 2026 — Right side. Shrub layer filling in below elderberry and moringa.</div>
+    </div>
+  </div>
+</div>
+
+<!-- BREAKING GROUND -->
+<div class="section">
+  <p class="section-label">How It Started</p>
+  <h2 class="section-title">Breaking Ground</h2>
+  <p class="section-body">Sheet mulching started July 8, 2023. Cardboard over grass, wood chips on top, plants in the same day. No tilling. No soil removal. The lawn dies underneath and feeds the system as it breaks down.</p>
+
+  <div class="photo-grid">
+    <div class="photo-item">
+      <img src="/media/food-forest/01-july-2023/20230708_162107.webp" alt="First plants July 8 2023" loading="lazy" />
+      <div class="photo-caption">July 8, 2023 — First plants in ground. Back row: banana, moringa, elderberry, pigeon pea.</div>
+    </div>
+    <div class="photo-item">
+      <img src="/media/food-forest/01-july-2023/20230709_124859.webp" alt="Back row view July 9 2023" loading="lazy" />
+      <div class="photo-caption">July 9, 2023 — Back row view. Canopy layer plants small but in the ground.</div>
+    </div>
+    <div class="photo-item">
+      <img src="/media/food-forest/01-july-2023/20230729_115043.webp" alt="Sheet mulch linking beds July 2023" loading="lazy" />
+      <div class="photo-caption">July 29, 2023 — Sheet mulch linking all beds. Lawn officially retired.</div>
+    </div>
+  </div>
+</div>
+
+<!-- CURRENT STATE -->
+<div class="section">
+  <p class="section-label">Current — April 2026</p>
+  <h2 class="section-title">Year 3 State of the System</h2>
+  <p class="section-body">Spring flush after a mild winter. The canopy closed in year 2. The understory is dense enough to suppress weeds without intervention. The back row is 12-15ft. The system requires roughly 2-3 hours of maintenance per month.</p>
+
+  <div class="photo-grid">
+    <div class="photo-item">
+      <img src="/media/food-forest/18-april-2026/20260414_184949.webp" alt="Back row April 2026" loading="lazy" />
+      <div class="photo-caption">April 2026 — Back row. Banana pups, moringa pruned hard in winter, elderberry in flower.</div>
+    </div>
+    <div class="photo-item">
+      <img src="/media/food-forest/18-april-2026/20260417_094547.webp" alt="Side yard April 2026" loading="lazy" />
+      <div class="photo-caption">April 2026 — Side yard. Lemongrass border, katuk, longevity spinach understory.</div>
+    </div>
+    <div class="photo-item">
+      <img src="/media/food-forest/16-may-2025/20250507_080101.webp" alt="Lanai May 2025" loading="lazy" />
+      <div class="photo-caption">May 2025 — Lanai. Container annuals replaced with productive perennials.</div>
+    </div>
+  </div>
+</div>
+
+<!-- TIMELINE -->
+<div class="section">
+  <p class="section-label">The Record</p>
+  <h2 class="section-title">Monthly Timeline</h2>
+  <p class="section-body">229 photos across 3 years. The full record of what happened, when, and why.</p>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-date">Jul–Aug 2023</div>
+      <div class="timeline-content"><strong>Establishment.</strong> Sheet mulching, first plants, back row installed. Lost several plants to July heat before roots established.</div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-date">Sep–Dec 2023</div>
+      <div class="timeline-content"><strong>First growth season.</strong> Survivors taking off. Pigeon pea exploding. Elderberry hit 4ft by December. Moringa growing 6 inches a week.</div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-date">Feb–Jul 2024</div>
+      <div class="timeline-content"><strong>Canopy closing.</strong> Banana throwing pups. Chop-and-drop cycle beginning. Understory planting started. First harvests — turmeric, ginger, greens.</div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-date">Aug–Dec 2024</div>
+      <div class="timeline-content"><strong>System self-mulching.</strong> Stopped buying wood chips. Tithonia and pigeon pea producing enough biomass. Worm bins at full capacity.</div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-date">Jan–May 2025</div>
+      <div class="timeline-content"><strong>Mild winter, spring explosion.</strong> Elderberry at 12ft. First fig harvest. Loquat loaded. Banana producing year-round. Maintenance down to 2-3hrs/month.</div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-date">Sep–Nov 2025</div>
+      <div class="timeline-content"><strong>Peak season documentation.</strong> Best photos of the system at full canopy. Back row 12-15ft. Ground layer dense. Zero bare soil visible.</div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-date">Apr 2026</div>
+      <div class="timeline-content"><strong>Spring 2026.</strong> Post-winter flush. System entering year 4. Adding new species to fill remaining gaps.</div>
+    </div>
+  </div>
+</div>
+
+<!-- SPECIES -->
+<div class="section">
+  <p class="section-label">What's Growing</p>
+  <h2 class="section-title">Species List</h2>
+
+  <div class="species-grid">
+    <div class="species-group">
+      <div class="species-group-title">Canopy</div>
+      <div class="species-list">Banana<br>Moringa<br>Elderberry<br>Mulberry<br>Fig<br>Loquat</div>
+    </div>
+    <div class="species-group">
+      <div class="species-group-title">Shrub Layer</div>
+      <div class="species-list">Pigeon Pea<br>Katuk<br>Beautyberry<br>Firebush<br>Tithonia<br>Comfrey</div>
+    </div>
+    <div class="species-group">
+      <div class="species-group-title">Herbaceous</div>
+      <div class="species-list">Turmeric<br>Galangal<br>Ginger<br>Lemongrass<br>Holy Basil<br>Longevity Spinach</div>
+    </div>
+    <div class="species-group">
+      <div class="species-group-title">Ground Cover</div>
+      <div class="species-list">Perennial Peanut<br>Okinawa Spinach<br>Sweet Potato<br>Comfrey<br>Creeping Thyme</div>
+    </div>
+    <div class="species-group">
+      <div class="species-group-title">Vines</div>
+      <div class="species-list">Passionflower<br>Coral Honeysuckle<br>Muscadine Grape</div>
+    </div>
+    <div class="species-group">
+      <div class="species-group-title">Support</div>
+      <div class="species-list">3 worm bins<br>Compost system<br>Rainwater collection</div>
+    </di<div class="section">
+  <p class="section-label">The Honest Part</p>
+  <h2 class="section-title">What Actually Happened</h2>
+
+  <div class="honest-grid">
+    <div class="honest-card">
+      <div class="honest-card-title win">✓ Worked better than expected</div>
+      <div class="honest-card-body">Moringa. Pigeon pea as a nitrogen source. Sheet mulching directly over grass with no removal. Tithonia for biomass. Worm bins accelerating everything.</div>
+    </div>
+    <div class="honest-card">
+      <div class="honest-card-title fail">✗ Failed or struggled</div>
+      <div class="honest-card-body">Anything that needed consistent moisture in the first summer before roots established. Lost several plants to 2023 heat. Annuals need more attention than perennials deserve.</div>
+    </div>
+    <div class="honest-card">
+      <div class="honest-card-title would">→ What I'd do differently</div>
+      <div class="honest-card-body">Start with more comfrey earlier. The biomass production pays dividends faster than almost anything else. Plant denser in year one — bare soil is the enemy.</div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-logo">PermiePortal</div>
+  <div class="footer-copy">© {new Date().getFullYear()} — Built in a food forest in Yulee, FL</div>
+</footer>
+
+</BaseLayout>
