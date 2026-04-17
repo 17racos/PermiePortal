@@ -1,35 +1,101 @@
 ---
 import BaseLayout from '../components/layouts/BaseLayout.astro';
-import Navbar from '../components/Navbar.astro';
-import Footer from '../components/Footer.astro';
-import ProjectCard from '../components/ProjectCard.astro';
-import { getCollection } from 'astro:content';
-const PAGE_SIZE = 12;
-const entries = (await getCollection('projects')).sort((a,b)=> b.data.date.getTime()-a.data.date.getTime());
-const totalPages = Math.max(1, Math.ceil(entries.length / PAGE_SIZE));
-const currentPage = Math.min(Math.max(parseInt(Astro.url.searchParams.get('page') || '1', 10), 1), totalPages);
-const start = (currentPage - 1) * PAGE_SIZE;
-const pageItems = entries.slice(start, start + PAGE_SIZE);
 ---
-<BaseLayout title="Projects">
-<header><Navbar /></header>
-<main id="main">
-  <h1 class="sr-only">Projects</h1>
-  <section class="mt-8" aria-labelledby="projects-list">
-    <h2 id="projects-list" class="text-2xl font-bold">Projects</h2>
-    <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      {pageItems.map((p) => (
-        <ProjectCard title={p.data.title} summary={p.data.summary} date={p.data.date.toISOString()} tags={p.data.tags} href={`/projects/${p.slug}`} />
-      ))}
+<BaseLayout
+  title="Projects — Field Experiments & Documented Systems | PermiePortal"
+  description="Real permaculture projects documented with photos, data, and honest results. Backyard food forest in Yulee FL, and more."
+>
+<style>
+  :root {
+    --soil: #0f0d0a; --bark: #1c1812; --moss: #2a3d1f;
+    --leaf: #4a7c35; --lime: #8fb83a; --straw: #d4a843;
+    --ash: #b8b0a0; --paper: #ede8dc; --rot: #7a3b1e; --rust: #c4551a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--soil); color: var(--paper); font-family: 'Instrument Serif', Georgia, serif; }
+  .nav { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 2rem; border-bottom: 1px solid rgba(139,184,58,0.2); position: sticky; top: 0; z-index: 100; background: rgba(15,13,10,0.97); backdrop-filter: blur(8px); }
+  .nav-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; letter-spacing: 0.08em; color: var(--lime); text-decoration: none; }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a { font-family: 'Space Mono', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ash); text-decoration: none; transition: color 0.2s; }
+  .nav-links a:hover { color: var(--lime); }
+  .page-header { padding: 4rem 2rem 3rem; border-bottom: 1px solid rgba(139,184,58,0.15); }
+  .page-eyebrow { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--rust); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.75rem; }
+  .page-eyebrow::before { content: ''; width: 2rem; height: 1px; background: var(--rust); }
+  .page-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(3rem, 7vw, 6rem); line-height: 0.92; color: var(--paper); margin-bottom: 1rem; }
+  .page-title em { color: var(--lime); font-style: normal; }
+  .page-sub { font-size: 1.1rem; color: var(--ash); max-width: 600px; line-height: 1.7; font-style: italic; }
+  .projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap: 1px; background: rgba(139,184,58,0.08); padding: 2rem; max-width: 1200px; margin: 0 auto; }
+  .project-card { display: block; text-decoration: none; background: var(--bark); overflow: hidden; transition: all 0.2s; border: 1px solid rgba(139,184,58,0.1); }
+  .project-card:hover { border-color: rgba(139,184,58,0.3); }
+  .project-card:hover .project-img { opacity: 1; transform: scale(1.02); }
+  .project-img-wrap { overflow: hidden; aspect-ratio: 16/9; }
+  .project-img { width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: all 0.4s; display: block; }
+  .project-body { padding: 1.75rem; }
+  .project-meta { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--lime); margin-bottom: 0.75rem; }
+  .project-title { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; letter-spacing: 0.03em; color: var(--paper); margin-bottom: 0.6rem; line-height: 1.1; }
+  .project-summary { font-size: 0.92rem; line-height: 1.7; color: var(--ash); margin-bottom: 1.25rem; font-style: italic; }
+  .project-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 1rem; }
+  .project-tag { font-family: 'Space Mono', monospace; font-size: 0.58rem; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.15rem 0.55rem; border: 1px solid rgba(139,184,58,0.2); color: var(--ash); }
+  .project-link { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--lime); }
+  .coming-soon { padding: 4rem 2rem; text-align: center; max-width: 600px; margin: 0 auto; }
+  .coming-soon-title { font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; color: var(--ash); margin-bottom: 0.5rem; }
+  .coming-soon-desc { font-size: 0.9rem; color: var(--ash); opacity: 0.5; font-style: italic; }
+  .footer { padding: 2rem 4rem; border-top: 1px solid rgba(139,184,58,0.15); display: flex; justify-content: space-between; align-items: center; margin-top: 4rem; }
+  .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.2rem; color: var(--lime); letter-spacing: 0.08em; }
+  .footer-copy { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--ash); }
+  @media (max-width: 768px) {
+    .projects-grid { grid-template-columns: 1fr; padding: 1rem; }
+    .nav-links { gap: 1rem; }
+    .footer { flex-direction: column; gap: 1rem; padding: 1.5rem; }
+  }
+</style>
+
+<nav class="nav">
+  <a href="/" class="nav-logo">PermiePortal</a>
+  <ul class="nav-links">
+    <li><a href="/plants">Plants</a></li>
+    <li><a href="/pests">Pests</a></li>
+    <li><a href="/diagnose">Diagnose</a></li>
+    <li><a href="/articles">Articles</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
+</nav>
+
+<main>
+<div class="page-header">
+  <p class="page-eyebrow">Field Experiments</p>
+  <h1 class="page-title">Projects &<br><em>Case Studies</em></h1>
+  <p class="page-sub">Real systems, real results, honest accounting. No curated highlight reels — just what happened and why it matters.</p>
+</div>
+
+<div class="projects-grid">
+  <a href="/projects/backyard-food-forest" class="project-card">
+    <div class="project-img-wrap">
+      <img class="project-img" src="/media/food-forest/18-april-2026/20260417_094512.webp" alt="Backyard food forest Yulee FL" loading="lazy" />
     </div>
-    <nav class="mt-8 flex items-center justify-between" aria-label="Pagination">
-      <a aria-disabled={currentPage === 1} class={`px-3 py-2 rounded border ${currentPage === 1 ? 'opacity-50 pointer-events-none' : ''}`} href={`?page=${currentPage - 1}`}>Previous</a>
-      <p class="text-sm">Page {currentPage} of {totalPages}</p>
-      <a aria-disabled={currentPage === totalPages} class={`px-3 py-2 rounded border ${currentPage === totalPages ? 'opacity-50 pointer-events-none' : ''}`} href={`?page=${currentPage + 1}`}>Next</a>
-    </nav>
-  </section>
+    <div class="project-body">
+      <div class="project-meta">Started July 2023 — Active — Yulee, FL</div>
+      <div class="project-title">Backyard Food Forest</div>
+      <p class="project-summary">Converting a suburban Florida lawn into a productive perennial food system. 229 photos. 3 years. Bare lawn to closed canopy.</p>
+      <div class="project-tags">
+        <span class="project-tag">Food Forest</span>
+        <span class="project-tag">Florida</span>
+        <span class="project-tag">Zone 9b</span>
+        <span class="project-tag">Case Study</span>
+      </div>
+      <span class="project-link">View project →</span>
+    </div>
+  </a>
+</div>
+
+<div class="coming-soon">
+  <div class="coming-soon-title">More projects in progress</div>
+  <div class="coming-soon-desc">Wayfinders Wilds land acquisition, chitosan production experiments, aquaponics system.</div>
+</div>
 </main>
-<Footer />
+
+<footer class="footer">
+  <div class="footer-logo">PermiePortal</div>
+  <div class="footer-copy">© {new Date().getFullYear()} PermiePortal</div>
+</footer>
 </BaseLayout>
-
-
