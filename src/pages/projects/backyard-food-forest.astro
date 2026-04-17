@@ -103,6 +103,8 @@ import BaseLayout from '../../components/layouts/BaseLayout.astro';
   }
   /* LIGHTBOX */
   .photo-item { cursor: zoom-in; }
+  .photo-item img { cursor: zoom-in; pointer-events: auto; }
+  .ba-img { cursor: zoom-in; pointer-events: auto; }
   .lightbox { display: none; position: fixed; inset: 0; z-index: 1000; background: rgba(10,8,6,0.96); align-items: center; justify-content: center; padding: 2rem; }
   .lightbox.active { display: flex; }
   .lightbox-img { max-width: 100%; max-height: 90vh; object-fit: contain; box-shadow: 0 0 60px rgba(0,0,0,0.8); }
