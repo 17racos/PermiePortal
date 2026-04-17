@@ -1,8 +1,8 @@
 
 export default new Map([
 ["src/content/articles/duckweed-analysis.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fduckweed-analysis.mdx&astroContentModuleFlag=true")],
-["src/content/articles/duckweed-nature-submitted-a-patch.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fduckweed-nature-submitted-a-patch.mdx&astroContentModuleFlag=true")],
 ["src/content/articles/fertilizer-vs-soil.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Ffertilizer-vs-soil.mdx&astroContentModuleFlag=true")],
+["src/content/articles/duckweed-nature-submitted-a-patch.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fduckweed-nature-submitted-a-patch.mdx&astroContentModuleFlag=true")],
 ["src/content/articles/garbage-patch-prime-real-estate.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fgarbage-patch-prime-real-estate.mdx&astroContentModuleFlag=true")],
 ["src/content/articles/historys-greatest-environmentalist.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fhistorys-greatest-environmentalist.mdx&astroContentModuleFlag=true")],
 ["src/content/articles/how-to-make-a-worm-bin.mdx", () => import("astro:content-layer-deferred-module?astro%3Acontent-layer-deferred-module=&fileName=src%2Fcontent%2Farticles%2Fhow-to-make-a-worm-bin.mdx&astroContentModuleFlag=true")],
