@@ -1,16 +1,17 @@
 ---
 - common_name: Passionflower
   picture: passionflower.webp
-  scientific_name: Passiflora incarnata
+  scientific_name: Passiflora edulis
   aka:
-  - Maypop
-  - Wild Passionflower
+  - Passion Fruit
+  - Purple Passion Fruit
+  - Granadilla
   family: Passifloraceae
-  zone: 5-9
+  zone: 9-11
   ideal_temp_min: 55
-  ideal_temp_max: 90
-  min_temp: -15
-  max_temp: 100
+  ideal_temp_max: 95
+  min_temp: 28
+  max_temp: 105
   perennial: true
   layers:
   - Vine
@@ -20,43 +21,51 @@
   - Pollinator
   - Wildlife Attractor
   - Ornamental
-  description: "Passiflora incarnata is the Southeast’s native passionflower —
-    maypop — roots hardy, tops freeze back, fruit pops when ripe with loud childhood
-    memories. Exotic edulis-type passionfruit is a different species for frost-free
-    areas; this entry centers the wild Florida-friendly vine. subtropical and tropical Americas: full
-    sun, trellis or shrub to climb, expect gulf fritillary caterpillars to strip
-    leaves seasonally — buy extra plants or share.\n\n☀️💧 Sun and Water:\n- Full
-    sun for flowers and fruit; tolerates part shade with fewer blooms.\n- Average
-    moisture; drought-tolerant once established but fruits better with steady water.\n\n
-    ✂️ Propagation:\n- Seeds: scarify/nick and soak; variable germination.\n-
-    Layering and division of spreading roots.\n\nTea tradition exists; drug-dose
-    claims belong in peer review, not your group chat."
+  description: "Passiflora edulis is the tropical passion fruit vine — the one
+    producing the wrinkled purple or yellow fruit sold in markets worldwide. Native
+    to southern Brazil, Paraguay, and northern Argentina, it climbs aggressively
+    by tendrils to 15–20 ft (4.5–6m) and flowers prolifically in warm climates.
+    The intricate white and purple flowers are among the most structurally complex
+    in the plant kingdom and attract bees, wasps, and hummingbirds. Fruit ripens
+    when it drops or the skin wrinkles — tart, aromatic pulp with edible seeds.\n\n
+    ☀️💧 Sun and Water:\n- Full sun required for flowering and fruiting; part shade
+    reduces yield significantly.\n- Regular moisture during establishment and flowering;
+    drought-tolerant once established but consistent irrigation improves fruit set.\n\n
+    ✂️ Propagation:\n- Seeds: fresh seed germinates readily; older seed benefits
+    from scarification and 24-hour soak.\n- Cuttings: semi-hardwood cuttings root
+    easily in warm humid conditions — faster to fruit than seed.\n- Layering works
+    well where stems touch moist soil.\n\n🌾 Harvest / Best Use Timing:\n- Fruit
+    is ripe when it falls naturally or skin wrinkles and turns deep purple.\n- Pick
+    daily during peak season — fruit left on ground deteriorates quickly.\n- Pulp
+    and seeds eaten fresh, juiced, or used in desserts and drinks."
   purpose: |-
-    Native vine that multitasks:
+    Productive tropical vine for warm climates:
 
-    - Edible: Ripe maypops; floral parts used sparingly in traditional teas — research first.
-    - Medicinal: Traditional calming use; check interactions like any herb.
-    - Pollinator: Wildflowers feed bees; foliage feeds gulf fritillary larvae.
-    - Wildlife Attractor: Insects and birds queue for the drama.
-    - Ornamental: Alien-fringe flowers beat bland fence paint.
+    - Edible: Tart aromatic pulp eaten fresh or juiced; seeds edible; flowers edible raw.
+    - Medicinal: Traditional use as mild sedative and anxiolytic; leaves used in herbal preparations — research interactions before use.
+    - Pollinator: Complex flowers require buzz pollination; specialist bee magnet.
+    - Wildlife Attractor: Flowers feed bees and hummingbirds; foliage hosts Gulf Fritillary and Zebra Longwing butterfly larvae.
+    - Ornamental: Extraordinary flower structure makes it a conversation plant on any trellis or fence.
   companions:
-  - Elderflower
-  - Beautyberry
-  - Coneflower
+  - Banana
+  - Comfrey
+  - Lemongrass
   cautions:
-  - Spraying every caterpillar because butterflies exist
+  - Frost sensitive — hard freeze kills the vine; roots may not survive below 28°F (-2°C)
+  - Aggressive grower — can overtake small shrubs if not managed
+  - Not the same as Maypop (Passiflora incarnata) which is cold-hardy to zone 5
   pests:
   - Aphids
   - Whiteflies
   - Spider Mites
-  - caterpillars
+  - Caterpillars
   practitioner_notes: |-
-    Morning picks hold turgor; afternoon heat steals shelf life even if the cooler feels honest.
-    Dry aerial parts fast with airflow, not slow plastic bags—mold reads as ‘aged’ only in marketing copy.
-    Cluster patches three feet or wider—tiny one-offs get ignored by bees cruising for volume.
-    Watch the plant’s own signals first—catalog zone numbers do not replace your site’s microclimate truth.
-  growth_habit: Herbaceous vine
-  data_quality_score: 0.8
+    Plant on a sturdy trellis from day one — a cattle panel or heavy wire works better than PVC in wind.
+    Gulf Fritillary and Zebra Longwing butterflies will use it as a host plant; this is a feature not a bug.
+    In zone 9b expect die-back in cold winters — the roots often survive and resprout in spring.
+    Two plants cross-pollinate better than one for fruit set.
+    Fruit drops when ripe — check daily during peak season or you will find it on the ground half eaten.
+  growth_habit: Woody perennial vine
+  data_quality_score: 0.9
   # Image attribution: PumpkinSky / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
