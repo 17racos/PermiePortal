@@ -1,58 +1,50 @@
----
-- common_name: Cattail
-  picture: cattail.webp
-  scientific_name: Typha latifolia
-  aka:
-  - Broadleaf cattail
-  - Bulrush (colloquial confusion)
-  family: Typhaceae
-  zone: 3-10
-  ideal_temp_min: 40
-  ideal_temp_max: 90
-  min_temp: -40
-  max_temp: 100
-  perennial: true
-  layers:
-  - Herbaceous
-  - Aquatic
-  - Root
-  plant_function:
-  - Edible
-  - Water Purifier
-  - Wildlife Attractor
-  - Mulcher
-  description: |-
-    Cattail is the swamp multitool: edible shoots, pollen pancakes if you are ambitious, and dense rhizomes that stabilize muck while filtering water like a grumpy intern. In subtropical and tropical Americas it dominates ditches, pond margins, and anywhere society forgot drainage. Harvest only from clean water — cattails are not a heavy-metal detox strategy, they are a sponge.
+common_name: Cattail
+picture: cattail.webp
+scientific_name: Typha latifolia
+aka:
+- Broadleaf cattail
+- Bulrush (colloquial confusion)
+family: Typhaceae
+zone: 3-10
+ideal_temp_min: 40
+ideal_temp_max: 90
+min_temp: -40
+max_temp: 100
+perennial: true
+layers:
+- Herbaceous
+- Aquatic
+- Root
+plant_function:
+- Edible
+- Water Purifier
+- Wildlife Attractor
+- Mulcher
+description: |-
+  Cattail is the swamp multitool: edible shoots, pollen pancakes if you are ambitious, and dense rhizomes that stabilize muck while filtering water like a grumpy intern. In subtropical and tropical Americas it dominates ditches, pond margins, and anywhere society forgot drainage. Harvest only from clean water — cattails are not a heavy-metal detox strategy, they are a sponge.
 
-    ☀️💧 Sun and Water Requirements:
-    - Full sun in shallow water or saturated margins; tolerates seasonal drawdowns.
-    - Mucky, anaerobic soils are home; not a xeriscape flex.
-    - Spreads by rhizome — contain with liners or accept wetland empire.
+  ☀️💧 Sun and Water Requirements:
+  - Full sun in shallow water or saturated margins; tolerates seasonal drawdowns.
+  - Mucky, anaerobic soils are home; not a xeriscape flex.
+  - Spreads by rhizome — contain with liners or accept wetland empire.
 
-    ✂️ Methods to Propagate:
-    - Rhizome division: move chunks in dormancy or early growth with mud attached.
-    - Seeds: fluffy parachutes travel; sow in wet mud for experiments.
-  purpose: |-
-    Edible: spring shoots, summer pollen, and starchy rhizomes become food only after ID checks and harvest from clean water because heavy metals concentrate in tissues from dirty ditches.
-    Water Purifier: floating-leaf stands trap silt and uptake dissolved nutrients in their rhizosphere so suspended solids drop -- managers still harvest biomass to export phosphorus instead of expecting endless sorption.
-    Wildlife Attractor: dense stems hide red-winged blackbirds, rails, and amphibians while seeds fluff feeds finches after heads brown in late fall marshes.
-    Mulcher: senesced leaves collapse into anaerobic muck that feeds detritivores and builds peat edges when cut material is rolled back into the wetland instead of bagging every stem.
-  companions:
-  - Pickerelweed
-  - Duck potato
-  - Water lily
-  cautions:
-  - Harvest from roadside ditches with mystery runoff
-  - Small ornamental ponds without containment if you dislike monoculture
-  pests:
-  - Aphids
-  - Caterpillars
-  - Snails
-  practitioner_notes: |-
-    Young spring shoots peel like leeks—only collect from clean water you would swim in, not drainage ditches with mystery sheen.
-    Rhizomes travel—liner barriers or annual harvest edges keep a pond from becoming a cattail monoculture.
-    Pollen season is brief—catch yellow dust in bags on dry mornings if you bake with it; wet days wash yield away.
-    Dense stands shelter mosquito larvae if water stagnates—open pockets or minnows keep the balance honest.
-  # Image attribution: (c) Arthur Chapman, some rights reserved (CC BY-NC-SA)
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  ✂️ Methods to Propagate:
+  - Rhizome division: move chunks in dormancy or early growth with mud attached.
+  - Seeds: fluffy parachutes travel; sow in wet mud for experiments.
+purpose: |-
+  Edible: spring shoots, summer pollen, and starchy rhizomes become food only after ID checks and harvest from clean water because heavy metals concentrate in tissues from dirty ditches.
+  Water Purifier: floating-leaf stands trap silt and uptake dissolved nutrients in their rhizosphere so suspended solids drop -- managers still harvest biomass to export phosphorus instead of expecting endless sorption.
+  Wildlife Attractor: dense stems hide red-winged blackbirds, rails, and amphibians while seeds fluff feeds finches after heads brown in late fall marshes.
+  Mulcher: senesced leaves collapse into anaerobic muck that feeds detritivores and builds peat edges when cut material is rolled back into the wetland instead of bagging every stem.
+companions:
+- Pickerelweed
+- Duck potato
+- Water lily
+cautions:
+- Harvest from roadside ditches with mystery runoff
+- Small ornamental ponds without containment if you dislike monoculture
+pests:
+- Aphids
+- Snails
+animal_pressure:
+- Caterpillars

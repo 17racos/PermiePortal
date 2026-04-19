@@ -1,79 +1,60 @@
----
-- common_name: Sand Cordgrass
-  picture: sand_cordgrass.webp
-  scientific_name: Spartina bakeri
-  aka:
-  - Sand Cord Grass
-  family: Poaceae
-  zone: 7-11
-  ideal_temp_min: 45
-  ideal_temp_max: 95
-  min_temp: 10
-  max_temp: 105
-  perennial: true
-  layers:
-  - Herbaceous
-  plant_function:
-  - Erosion Control
-  - Wildlife Attractor
-  - Water Retention
-  - Biomass
-  description: 'Sand cordgrass (Spartina bakeri) is a clumping perennial grass of freshwater and brackish wetlands in the
-    southeastern United States, forming dense tussocks with narrow leaves and airy flowering panicles on stems often 3–5 feet
-    (0.9–1.5 m). It roots in sandy, saturated soils along pond margins and swales, stabilizing banks where coarse texture
-    meets seasonal water. Use it in constructed wetlands and shoreline buffers where local regulations approve the species.
+common_name: Sand Cordgrass
+picture: sand_cordgrass.webp
+scientific_name: Spartina bakeri
+aka:
+- Sand Cord Grass
+family: Poaceae
+zone: 7-11
+ideal_temp_min: 45
+ideal_temp_max: 95
+min_temp: 10
+max_temp: 105
+perennial: true
+layers:
+- Herbaceous
+plant_function:
+- Erosion Control
+- Wildlife Attractor
+- Water Retention
+- Biomass
+description: |-
+  Sand cordgrass (Spartina bakeri) is a clumping perennial grass of freshwater and brackish wetlands in the southeastern United States, forming dense tussocks with narrow leaves and airy flowering panicles on stems often 3–5 feet (0.9–1.5 m). It roots in sandy, saturated soils along pond margins and swales, stabilizing banks where coarse texture meets seasonal water. Use it in constructed wetlands and shoreline buffers where local regulations approve the species.
 
+  ☀️💧 Sun and Water Requirements:
+  Full sun for strongest growth; shade reduces tiller density. Moist to wet soils with sand or sandy peat match native sites; tolerates short dry downs between rains once established but not xeric berms. Avoid planting where Spartina species are restricted—verify coastal and wetland rules.
 
-    ☀️💧 Sun and Water Requirements:
+  ✂️ Propagation:
+  Divide large clumps during cool, moist weather; keep roots wet until replanted. Sow seed following wetland nursery protocols. Cut back dead material in late winter to renew appearance.
 
-    Full sun for strongest growth; shade reduces tiller density. Moist to wet soils with sand or sandy peat match native sites;
-    tolerates short dry downs between rains once established but not xeric berms. Avoid planting where Spartina species are
-    restricted—verify coastal and wetland rules.
-
-
-    ✂️ Propagation:
-
-    Divide large clumps during cool, moist weather; keep roots wet until replanted. Sow seed following wetland nursery protocols.
-    Cut back dead material in late winter to renew appearance.
-
-
-    🌾 Harvest / Best Use Timing:
-
-    Primarily functional—cut stems sparingly for mulch if permits and ecology allow. Leave standing growth for wildlife cover
-    through winter. Peak biomass tracks warm wet months.'
-  purpose: |-
-    Erosion Control: Spartina bakeri tussocks knit saturated sandy peat along pond lips and biofilter cells where wavelets undercut bare soil.
-    Wildlife Attractor: Dense upright blades hide frogs, juvenile fish, and wading birds stalking shallow margins through warm wet months.
-    Water Retention: Fibrous roots and trapped fines raise micro-berms so storm pulses spread instead of slicing new channels across sandy swales.
-    Biomass: Dead culms fold into anaerobic muck to build organic lift when cuts stay modest and permits match local wetland rules.
-  companions:
-  - Pickerelweed — emergent forb neighbor at the water interface sharing sun
-  - Wax Myrtle — shrub at slightly drier elevations above cordgrass tussocks
-  - Cattail — robust emergent in deeper water zones beyond the sand cordgrass fringe
-  cautions:
-  - Regulatory lists for Spartina vary—permits beat optimism in coastal plantings
-  - Dry upland beds — chlorosis and decline without honest moisture
-  pests:
-  - Aphids
-  - Armyworms
-  - Bamboo Mite
-  - Corn Earworm
-  - Fall Armyworm
-  - Japanese Beetles
-  - Leaf Blight
-  - Lubber Grasshopper
-  - Rice Blast Fungus
-  - Rice Water Weevil
-  - Spider Mites
-  - Spittlebugs
-  - Wireworm
-  practitioner_notes: 'Clumping habit differs from rhizomatous cordgrasses—if it marches across the pond, you misidentified
-    the clone.
-
-    Sand substrate plus moisture is the love language—clay bathtubs rot roots while you blame “bad luck.”
-
-    Wildlife uses tussock shadows—mowing like a lawn deletes amphibian real estate.
-
-    Check local native-plant sales—ecotype matters more than generic “wet grass” bags.'
-  growth_habit: Clumping wetland grass; sandy saturated soils; panicles; pond and swale margins
-  data_quality_score: 0.77
+  🌾 Harvest / Best Use Timing:
+  Primarily functional—cut stems sparingly for mulch if permits and ecology allow. Leave standing growth for wildlife cover through winter. Peak biomass tracks warm wet months.
+purpose: |-
+  Erosion Control: Spartina bakeri tussocks knit saturated sandy peat along pond lips and biofilter cells where wavelets undercut bare soil.
+  Wildlife Attractor: Dense upright blades hide frogs, juvenile fish, and wading birds stalking shallow margins through warm wet months.
+  Water Retention: Fibrous roots and trapped fines raise micro-berms so storm pulses spread instead of slicing new channels across sandy swales.
+  Biomass: Dead culms fold into anaerobic muck to build organic lift when cuts stay modest and permits match local wetland rules.
+companions:
+- Pickerelweed — emergent forb neighbor at the water interface sharing sun
+- Wax Myrtle — shrub at slightly drier elevations above cordgrass tussocks
+- Cattail — robust emergent in deeper water zones beyond the sand cordgrass fringe
+cautions:
+- Regulatory lists for Spartina vary—permits beat optimism in coastal plantings
+- Dry upland beds — chlorosis and decline without honest moisture
+pests:
+- Aphids
+- Armyworms
+- Bamboo Mite
+- Corn Earworm
+- Fall Armyworm
+- Japanese Beetles
+- Lubber Grasshopper
+- Rice Blast Fungus
+- Rice Water Weevil
+- Spider Mites
+- Spittlebugs
+- Wireworm
+growth_habit: Clumping wetland grass; sandy saturated soils; panicles; pond and swale
+  margins
+data_quality_score: 0.77
+diseases:
+- Leaf Blight

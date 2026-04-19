@@ -1,117 +1,88 @@
----
-- common_name: Acorn Squash
-  picture: acorn_squash.webp
-  scientific_name: Cucurbita pepo var. turbinata
-  aka:
-  - Pepper Squash
-  - Des Moines Squash
-  family: Cucurbitaceae
-  zone: 3-10
-  ideal_temp_min: 70°F
-  ideal_temp_max: 90°F
-  min_temp: 32°F
-  max_temp: 95°F
-  perennial: false
-  layers:
-  - Herbaceous
-  plant_function:
-  - Edible
-  - Ground Cover
-  - Animal Fodder
-  description: 'Acorn squash is a variety of winter squash recognized for its distinctive ribbed exterior and acorn-like shape.
-    The most common cultivars exhibit dark green skin, occasionally accented with patches of orange or yellow, and encase
-    sweet, tender, yellow-orange flesh. Typically weighing between 1 to 2 pounds (0.45 to 0.9 kilograms) and measuring approximately
-    10 to 18 centimeters (4 to 7 inches) in length, acorn squash is a versatile addition to various culinary dishes.
+common_name: Acorn Squash
+picture: acorn_squash.webp
+scientific_name: Cucurbita pepo var. turbinata
+aka:
+- Pepper Squash
+- Des Moines Squash
+family: Cucurbitaceae
+zone: 3-10
+ideal_temp_min: 70°F
+ideal_temp_max: 90°F
+min_temp: 32°F
+max_temp: 95°F
+perennial: false
+layers:
+- Herbaceous
+plant_function:
+- Edible
+- Ground Cover
+- Animal Fodder
+description: |-
+  Acorn squash is a variety of winter squash recognized for its distinctive ribbed exterior and acorn-like shape. The most common cultivars exhibit dark green skin, occasionally accented with patches of orange or yellow, and encase sweet, tender, yellow-orange flesh. Typically weighing between 1 to 2 pounds (0.45 to 0.9 kilograms) and measuring approximately 10 to 18 centimeters (4 to 7 inches) in length, acorn squash is a versatile addition to various culinary dishes.
 
+  🌞💧 Sun and Water Requirements:
+  Acorn squash thrives in full sun, necessitating at least 6 to 8 hours of direct sunlight daily. The plants prefer well-draining soil rich in organic matter, with a slightly acidic to neutral pH ranging from 5.5 to 6.8. Consistent moisture is crucial; however, overwatering should be avoided to prevent root rot. Deep watering once per week is recommended, ensuring the soil remains moist but not waterlogged.
 
-    🌞💧 Sun and Water Requirements:
+  ✂️🫘 Methods to Propagate:
+  Propagation of acorn squash is achieved through seeds. For optimal germination:
+  1. Direct Sowing: After the last frost, when soil temperatures consistently reach at least 15.5°C (60°F), sow seeds directly into the garden. Plant seeds 2.5 centimeters (1 inch) deep in mounds or hills, spacing each hill about 1.8 meters (6 feet) apart to accommodate the sprawling vines. Place 5 to 6 seeds per hill, thinning to the strongest 2 or 3 seedlings once established.
+  2. Indoor Starting: In regions with shorter growing seasons, start seeds indoors approximately 2 to 4 weeks before the last expected frost. Use biodegradable pots to minimize root disturbance during transplanting. Once seedlings have developed true leaves and the danger of frost has passed, transplant them outdoors, maintaining the recommended spacing.
 
-    Acorn squash thrives in full sun, necessitating at least 6 to 8 hours of direct sunlight daily. The plants prefer well-draining
-    soil rich in organic matter, with a slightly acidic to neutral pH ranging from 5.5 to 6.8. Consistent moisture is crucial;
-    however, overwatering should be avoided to prevent root rot. Deep watering once per week is recommended, ensuring the
-    soil remains moist but not waterlogged.
-
-
-    ✂️🫘 Methods to Propagate:
-
-    Propagation of acorn squash is achieved through seeds. For optimal germination:
-
-    1. Direct Sowing: After the last frost, when soil temperatures consistently reach at least 15.5°C (60°F), sow seeds directly
-    into the garden. Plant seeds 2.5 centimeters (1 inch) deep in mounds or hills, spacing each hill about 1.8 meters (6 feet)
-    apart to accommodate the sprawling vines. Place 5 to 6 seeds per hill, thinning to the strongest 2 or 3 seedlings once
-    established.
-
-    2. Indoor Starting: In regions with shorter growing seasons, start seeds indoors approximately 2 to 4 weeks before the
-    last expected frost. Use biodegradable pots to minimize root disturbance during transplanting. Once seedlings have developed
-    true leaves and the danger of frost has passed, transplant them outdoors, maintaining the recommended spacing.
-
-
-    🧑‍🌾👩‍🌾 When to Harvest:
-
-    Acorn squash reaches maturity approximately 80 to 100 days after planting. Indicators for harvesting include:
-
-    - The rind hardens and resists puncture from a fingernail.
-
-    - The skin attains a deep, uniform color.
-
-    - The stem begins to dry and turn brown.
-
-    Harvest the squash before the first hard frost by cutting the fruit from the vine, leaving a short stem attached to prolong
-    storage life. Curing the harvested squash in a warm, dry location for 7 to 10 days can enhance its storage longevity.'
-  purpose: |-
-    Edible: Cucurbita pepo var. turbinata fruits pick when the dull rind resists a thumbnail and the stem corks brown -- roasted halves stay sweet-nutty for winter storage, unlike thin-skinned summer squash that turn watery once they oversize.
-    Ground Cover: Vines sprawl between corn hills or melon tunnels, shading soil, slowing evaporation, and hiding beneficial cricket habitat where bare dirt would crust after irrigation sets.
-    Animal Fodder: Culls, split fruit, and trimmed vines go to pigs and poultry as seasonal calorie dumps after the human harvest pass -- seeds add protein if birds and mammals tolerate cucurbit skins without choke risk.
-  companions:
-  - Corn
-  - Bean
-  - Radish
-  cautions:
-  - Potato
-  pests:
-  - Bacterial Leaf Spot
-  - Banded Cucumber Beetle
-  - Beet Armyworm
-  - Broad Mite
-  - Fusarium Wilt
-  - Greenhouse Whitefly
-  - Leaf Spot
-  - Melonworm
-  - Papaya Ringspot Virus
-  - Pickleworm
-  - Pythium Root Rot
-  - Reniform Nematode
-  - Shore Fly
-  - Silverleaf Whitefly
-  - Southern Armyworm
-  - Southern Green Stink Bug
-  - Spotted Cucumber Beetle
-  - Squash Bug
-  - Squash Vine Borer
-  - Stink Bug
-  - Striped Cucumber Beetle
-  - White Grubs
-  - June Beetle Grubs
-  - Chafer Grubs
-  - Root Feeding Grubs
-  - Sod Webworms
-  - Billbugs
-  - Planthoppers
-  - Leaf-Footed Bugs
-  - Root Aphid
-  - Cutworm Larvae
-  - Bacterial Wilt
-  - Sunscald
-  - Magnesium Deficiency
-  - Nitrogen Deficiency
-  - Potassium Deficiency
-  - Nutrient Burn
-  - Treehoppers
-  practitioner_notes: 'Cure harvested fruit at about 80°F (27°C) for a week with good airflow before long storage—the skin
-    should sound hollow when tapped.
-
-    Leave 1 inch (2.5 cm) of stem on the fruit; broken stems invite rot in the cellar.
-
-    One or two strong vines per hill reduces powdery mildew tangles compared with six weak starts.'
-  growth_habit: Tree
-  data_quality_score: 0.8
+  🧑‍🌾👩‍🌾 When to Harvest:
+  Acorn squash reaches maturity approximately 80 to 100 days after planting. Indicators for harvesting include:
+  - The rind hardens and resists puncture from a fingernail.
+  - The skin attains a deep, uniform color.
+  - The stem begins to dry and turn brown.
+  Harvest the squash before the first hard frost by cutting the fruit from the vine, leaving a short stem attached to prolong storage life. Curing the harvested squash in a warm, dry location for 7 to 10 days can enhance its storage longevity.
+purpose: |-
+  Edible: Cucurbita pepo var. turbinata fruits pick when the dull rind resists a thumbnail and the stem corks brown -- roasted halves stay sweet-nutty for winter storage, unlike thin-skinned summer squash that turn watery once they oversize.
+  Ground Cover: Vines sprawl between corn hills or melon tunnels, shading soil, slowing evaporation, and hiding beneficial cricket habitat where bare dirt would crust after irrigation sets.
+  Animal Fodder: Culls, split fruit, and trimmed vines go to pigs and poultry as seasonal calorie dumps after the human harvest pass -- seeds add protein if birds and mammals tolerate cucurbit skins without choke risk.
+companions:
+- Corn
+- Bean
+- Radish
+cautions:
+- Potato
+pests:
+- Banded Cucumber Beetle
+- Beet Armyworm
+- Broad Mite
+- Greenhouse Whitefly
+- Melonworm
+- Pickleworm
+- Reniform Nematode
+- Shore Fly
+- Silverleaf Whitefly
+- Southern Armyworm
+- Southern Green Stink Bug
+- Squash Bug
+- Squash Vine Borer
+- Stink Bug
+- Striped Cucumber Beetle
+- White Grubs
+- June Beetle Grubs
+- Chafer Grubs
+- Root Feeding Grubs
+- Sod Webworms
+- Billbugs
+- Planthoppers
+- Leaf-Footed Bugs
+- Root Aphid
+- Cutworm Larvae
+- Nutrient Burn
+- Treehoppers
+growth_habit: Tree
+data_quality_score: 0.8
+diseases:
+- Bacterial Leaf Spot
+- Fusarium Wilt
+- Leaf Spot
+- Papaya Ringspot Virus
+- Pythium Root Rot
+- Spotted Cucumber Beetle
+- Bacterial Wilt
+- Sunscald
+- Magnesium Deficiency
+- Nitrogen Deficiency
+- Potassium Deficiency

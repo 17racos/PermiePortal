@@ -1,106 +1,89 @@
----
-- common_name: Black Medic
-  picture: black_medic.webp
-  scientific_name: Medicago lupulina
-  aka:
-  - Hop clover
-  - Nonesuch
-  family: Fabaceae
-  zone: 3-8
-  ideal_temp_min: 55
-  ideal_temp_max: 85
-  min_temp: -20
-  max_temp: 100
-  perennial: true
-  layers:
-  - Herbaceous
-  - Ground Cover
-  plant_function:
-  - Nitrogen Fixer
-  - Ground Cover
-  - Animal Fodder
-  - Pollinator
-  - Biomass
-  description: 'Black medic (Medicago lupulina) is a low, trailing annual or short-lived perennial legume found in lawns,
-    paths, and disturbed ground worldwide. Trifoliate leaves resemble clover, yellow pea flowers cluster into small globes,
-    and pods form tight black coils that stick in shoelaces—plants typically sprawl under roughly 6–12 inches unless competing
-    for light.
+common_name: Black Medic
+picture: black_medic.webp
+scientific_name: Medicago lupulina
+aka:
+- Hop clover
+- Nonesuch
+family: Fabaceae
+zone: 3-8
+ideal_temp_min: 55
+ideal_temp_max: 85
+min_temp: -20
+max_temp: 100
+perennial: true
+layers:
+- Herbaceous
+- Ground Cover
+plant_function:
+- Nitrogen Fixer
+- Ground Cover
+- Animal Fodder
+- Pollinator
+- Biomass
+description: |-
+  Black medic (Medicago lupulina) is a low, trailing annual or short-lived perennial legume found in lawns, paths, and disturbed ground worldwide. Trifoliate leaves resemble clover, yellow pea flowers cluster into small globes, and pods form tight black coils that stick in shoelaces—plants typically sprawl under roughly 6–12 inches unless competing for light.
 
+  subtropical and tropical Americas know it as a warm-season weed ally or cover crop on poor soil—humid summers do not faze it if drainage exists; winter cool in subtropical and tropical Americas slows but rarely erases it. Respect its seed bank: once present, it whispers “management,” not “one-time pull.”
 
-    subtropical and tropical Americas know it as a warm-season weed ally or cover crop on poor soil—humid summers do not faze
-    it if drainage exists; winter cool in subtropical and tropical Americas slows but rarely erases it. Respect its seed bank:
-    once present, it whispers “management,” not “one-time pull.”
+  ☀️💧 Sun and Water Requirements:
+  - Full sun to light shade; dense shade weakens flowering and nitrogen payoff.
+  - Tolerates poor, compacted soil—classic pioneer—still benefits from not being underwatered into dust in Puerto Rico’s dry season if you want cover.
 
+  ✂️ Methods to Propagate:
+  - Seeds: scarify lightly, sow in warm soil; it will often self-sow if you simply stop mowing and pay attention.
+  - Transplant young volunteers in wet season to fill bare patches—free biology beats seed packets.
 
-    ☀️💧 Sun and Water Requirements:
-
-    - Full sun to light shade; dense shade weakens flowering and nitrogen payoff.
-
-    - Tolerates poor, compacted soil—classic pioneer—still benefits from not being underwatered into dust in Puerto Rico’s
-    dry season if you want cover.
-
-
-    ✂️ Methods to Propagate:
-
-    - Seeds: scarify lightly, sow in warm soil; it will often self-sow if you simply stop mowing and pay attention.
-
-    - Transplant young volunteers in wet season to fill bare patches—free biology beats seed packets.
-
-
-    🌾 Harvest / Best Use Timing:
-
-    - For green manure, mow or crimp before heavy seed set if you want less future volunteering—late flowering is the decision
-    point.
-
-    - For poultry forage, allow patches to flower for insect traffic, then graze or cut-and-carry before stems lignify.'
-  purpose: |-
-    Nitrogen Fixer: Medicago lupulina nodules fix nitrogen on compacted paths and orchard alleys where turf thins -- mow before black coil pods mature if you want less future shoe-lace seed bank.
-    Ground Cover: Trailing trifoliate mats tile low-traffic edges and reduce splash onto tomato leaves -- tolerates poor soil better than pampered clover mixes on beaten dog paths.
-    Animal Fodder: Soft leaves accept poultry grazing rotations when mixed with taller forage -- pure medic monocrops invite boring nutrition, so rotate birds weekly.
-    Pollinator: Tiny yellow globes feed small halictid bees in summer heat -- delay mower one week on sacrifice strips if pollinator rent matters more than stripe aesthetics.
-    Biomass: Quick topsoil green manure breaks down in weeks, not months -- pair with straw when folding into beds so carbon-nitrogen math stays honest in compost.
-  companions:
-  - Dutch Clover — complementary legume layer with different height and persistence; shared pollinators.
-  - Plantain — deep-taproot nutrient pump in the same disturbed niche without chemical feud documented here.
-  - Dandelion — early-season resource for pollinators alongside medic’s summer yellow; both outrage lawn purists equally.
-  cautions:
-  - None documented
-  pests:
-  - Aphids
-  - Banded Cucumber Beetle
-  - Bean Aphid
-  - Bean Leaf Beetle
-  - Bean Weevil
-  - Brown Marmorated Stink Bug
-  - Corn Earworm
-  - Cowpea Curculio
-  - Fall Armyworm
-  - Fusarium Wilt
-  - Ganoderma Butt Rot
-  - Harlequin Ladybird
-  - Kudzu Bug
-  - Leafhoppers
-  - Locust Borer
-  - Locust Leaf Miner
-  - Lubber Grasshopper
-  - Pea Moth
-  - Pea Weevil
-  - Pythium Root Rot
-  - Reniform Nematode
-  - Root Aphid
-  - Rootknot Nematodes
-  - Soybean Looper
-  - Spittlebugs
-  - Spotted Cucumber Beetle
-  - Stink Bug
-  - Striped Cucumber Beetle
-  - Velvetbean Caterpillar
-  - White Rot
-  practitioner_notes: 'Black seed pods are the field ID giveaway—yellow hop clover keeps tan pods if you confuse the two at
-    speed.
-
-    Fixes nitrogen low to the ground—useful under-seeder in orchards if you accept occasional turf texture.
-
-    Mowing before pod set prevents decade-long soil seed bank surprises in lawn conversions.'
-  growth_habit: Low spreading annual to short-lived perennial legume; yellow pea flowers; coiled black pods
-  data_quality_score: 0.75
+  🌾 Harvest / Best Use Timing:
+  - For green manure, mow or crimp before heavy seed set if you want less future volunteering—late flowering is the decision point.
+  - For poultry forage, allow patches to flower for insect traffic, then graze or cut-and-carry before stems lignify.
+purpose: |-
+  Nitrogen Fixer: Medicago lupulina nodules fix nitrogen on compacted paths and orchard alleys where turf thins -- mow before black coil pods mature if you want less future shoe-lace seed bank.
+  Ground Cover: Trailing trifoliate mats tile low-traffic edges and reduce splash onto tomato leaves -- tolerates poor soil better than pampered clover mixes on beaten dog paths.
+  Animal Fodder: Soft leaves accept poultry grazing rotations when mixed with taller forage -- pure medic monocrops invite boring nutrition, so rotate birds weekly.
+  Pollinator: Tiny yellow globes feed small halictid bees in summer heat -- delay mower one week on sacrifice strips if pollinator rent matters more than stripe aesthetics.
+  Biomass: Quick topsoil green manure breaks down in weeks, not months -- pair with straw when folding into beds so carbon-nitrogen math stays honest in compost.
+companions:
+- Dutch Clover — complementary legume layer with different height and persistence;
+  shared pollinators.
+- Plantain — deep-taproot nutrient pump in the same disturbed niche without chemical
+  feud documented here.
+- Dandelion — early-season resource for pollinators alongside medic’s summer yellow;
+  both outrage lawn purists equally.
+cautions:
+- None documented
+pests:
+- Aphids
+- Banded Cucumber Beetle
+- Bean Aphid
+- Bean Leaf Beetle
+- Bean Weevil
+- Corn Earworm
+- Cowpea Curculio
+- Fall Armyworm
+- Kudzu Bug
+- Leafhoppers
+- Locust Borer
+- Locust Leaf Miner
+- Lubber Grasshopper
+- Pea Moth
+- Pea Weevil
+- Reniform Nematode
+- Root Aphid
+- Rootknot Nematodes
+- Soybean Looper
+- Spittlebugs
+- Stink Bug
+- Striped Cucumber Beetle
+growth_habit: Low spreading annual to short-lived perennial legume; yellow pea flowers;
+  coiled black pods
+data_quality_score: 0.75
+diseases:
+- Fusarium Wilt
+- Ganoderma Butt Rot
+- Pythium Root Rot
+- Spotted Cucumber Beetle
+- White Rot
+animal_pressure:
+- Brown Marmorated Stink Bug
+- Harlequin Ladybird
+- Velvetbean Caterpillar

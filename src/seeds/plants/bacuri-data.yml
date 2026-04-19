@@ -1,52 +1,54 @@
----
-- common_name: Bacuri
-  picture: bacuri.webp
-  scientific_name: Platonia insignis
-  aka:
-  - Pacuri
-  - Maniballi
-  family: Calophyllaceae
-  zone: 10-11
-  ideal_temp_min: 72
-  ideal_temp_max: 90
-  min_temp: 30
-  max_temp: 105
-  perennial: true
-  layers:
-  - Tree
-  plant_function:
-  - Edible
-  - Timber
-  - Wildlife Attractor
-  description: "Bacuri is a hefty Amazonian forest tree with thick-skinned brown fruit
-    and aromatic pulp that shows up in local sweets and beverages where marketing departments
-    have not yet flattened the story. Tall canopy component—not a balcony plant unless
-    your balcony is unreasonable.\n\nEssentially not a
-    9a crop. This is for collectors in true tropical lowland or greenhouse estates.
-    If you are reading this in humid subtropical regions, enjoy the wiki rabbit hole and move on.\n\n☀️💧 Sun and Water Requirements:\n\nFull sun when mature; young trees appreciate partial shade in savanna
-    transition.\nDeep, fertile, well-drained acidic soils; consistent rainfall pattern.\n\n✂️ Propagation:\n\nFresh seeds; long taproot makes later transplant touchy—plan final location or use
-    deep containers.\n\n🌾 Harvest / Best Use Timing:\n\nCollect thick-rinded fruit when mature for sweets and beverages; processing demands a stout knife and respect for latex."
-  purpose: |-
-    Edible: Platonia insignis thick-rinded brown fruit yields aromatic sweet-sour pulp for Brazilian sweets and beverages after you win the knife fight with latex -- plan processing days, not five-minute snacks.
-    Timber: Dense yellow-brown wood serves local construction and tool stock where rotations respect slow tropical growth -- export ethics still matter; do not cosplay sustainable harvest on paper only.
-    Wildlife Attractor: Massive canopy flowers and fallen fruit feed monkeys, parrots, and beetles in Amazonian systems -- heavy fruit also dents anything parked under loading branches.
-  companions:
-  - Cupuacu
-  - Ice Cream Bean Tree
-  - Understory shade-tolerant crops
-  cautions:
-  - Calcareous water without organic buffering
-  - Marginal chill without protection
-  pests:
-  - scale insects
-  - borers
-  - caterpillars
-  practitioner_notes: |-
-    Thick rind needs a stout knife and leverage—kitchen paring knives exit the chat.
-    Latex can irritate skin; gloves when handling cut rind and wash tools before sticky sets.
-    Heavy fruit drops from height—do not park vehicles or seating under loading branches.
-  growth_habit: Large tropical canopy tree
-  data_quality_score: 0.68
-  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+common_name: Bacuri
+picture: bacuri.webp
+scientific_name: Platonia insignis
+aka:
+- Pacuri
+- Maniballi
+family: Calophyllaceae
+zone: 10-11
+ideal_temp_min: 72
+ideal_temp_max: 90
+min_temp: 30
+max_temp: 105
+perennial: true
+layers:
+- Tree
+plant_function:
+- Edible
+- Timber
+- Wildlife Attractor
+description: |-
+  Bacuri is a hefty Amazonian forest tree with thick-skinned brown fruit and aromatic pulp that shows up in local sweets and beverages where marketing departments have not yet flattened the story. Tall canopy component—not a balcony plant unless your balcony is unreasonable.
+
+  Essentially not a 9a crop. This is for collectors in true tropical lowland or greenhouse estates. If you are reading this in humid subtropical regions, enjoy the wiki rabbit hole and move on.
+
+  ☀️💧 Sun and Water Requirements:
+
+  Full sun when mature; young trees appreciate partial shade in savanna transition.
+  Deep, fertile, well-drained acidic soils; consistent rainfall pattern.
+
+  ✂️ Propagation:
+
+  Fresh seeds; long taproot makes later transplant touchy—plan final location or use deep containers.
+
+  🌾 Harvest / Best Use Timing:
+
+  Collect thick-rinded fruit when mature for sweets and beverages; processing demands a stout knife and respect for latex.
+purpose: |-
+  Edible: Platonia insignis thick-rinded brown fruit yields aromatic sweet-sour pulp for Brazilian sweets and beverages after you win the knife fight with latex -- plan processing days, not five-minute snacks.
+  Timber: Dense yellow-brown wood serves local construction and tool stock where rotations respect slow tropical growth -- export ethics still matter; do not cosplay sustainable harvest on paper only.
+  Wildlife Attractor: Massive canopy flowers and fallen fruit feed monkeys, parrots, and beetles in Amazonian systems -- heavy fruit also dents anything parked under loading branches.
+companions:
+- Cupuacu
+- Ice Cream Bean Tree
+- Understory shade-tolerant crops
+cautions:
+- Calcareous water without organic buffering
+- Marginal chill without protection
+pests:
+- scale insects
+- borers
+growth_habit: Large tropical canopy tree
+data_quality_score: 0.68
+animal_pressure:
+- caterpillars

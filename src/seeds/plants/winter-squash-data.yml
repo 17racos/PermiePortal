@@ -1,55 +1,54 @@
----
-- common_name: Winter Squash
-  picture: winter_squash.webp
-  scientific_name: Cucurbita maxima
-  aka: []
-  family: Cucurbitaceae
-  zone: 3-9
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
-  layers:
-  - Herbaceous
-  plant_function:
-  - Edible
-  - Ground Cover
-  - Water Retention
-  description: |-
-    Winter squash (Cucurbita maxima) is a warm-season vine grown for its thick-rinded, storage-friendly fruits harvested at full maturity. It is native to the Americas and now thrives across temperate-to-subtropical gardens where warm seasons are long enough. Plants sprawl with large leaves and tendrils and typically reach a few meters in spread depending on spacing and training. In permaculture, winter squash matters because it produces serious off-season calories and its dense canopy shades soil, moderates evaporation, and reduces weed pressure while you wait for longer crop cycles to finish.
-    
-    ☀️💧 Sun and Water Requirements:
-    - Full sun for strong vine growth and fruit maturation.
-    - Water consistently as vines establish and fruits size up; drought reduces fruit quality.
-    - Prefers fertile, well-drained soil amended with compost.
-    - Avoid waterlogged soil to reduce vine/fruit rot.
-    
-    ✂️ Propagation:
-    - Seeds (direct sow): sow after soil warms and frost risk passes; germination often occurs in 5–10 days.
-    - Start indoors: transplant carefully when seedlings are sturdy if your season is short.
-    - Relay sow: plant in small batches to spread harvest risk.
-    
-    🌾 Harvest / Best Use Timing:
-    - Harvest when rind is hard and stems are dry/corky; then cure in warm, dry airflow.
-    - Store in a cool, dry place for months.
-    - Use flesh for roasting, soups, pies, and freezing.
-  purpose: |-
-    Edible: Cucurbita maxima hubbards and kabochas store six months in cool dry air -- thick rinds need full-season heat to mature.
-    Ground Cover: 6 m vines smother beds with prickly hairs -- mulch paths or train vines to avoid grass invasion.
-    Water Retention: Huge pubescent leaves shade soil and cut evaporation from fruit skins -- still need even water during fruit swell to avoid blossom-end rot.
-  companions:
-  - Corn (Zea mays) — vertical structure at edges and strong canopy layering.
-  - Nasturtium (Tropaeolum majus) — beneficial insect attraction in the same warm-season patch.
-  - Marigold (Tagetes patula) — nectar and pest monitoring visibility in the bed edge zone.
-  cautions:
-  - Keep fruit off wet soil to avoid rot.
-  practitioner_notes: |-
-    Cure before storage: dry airflow prevents mold and improves keeping quality.
-    Thin early so vines aren’t weak; weak vines produce weak fruit.
-    Don’t crowd vines—airflow keeps disease down.
-  pests:
-  - Aphids
-  - Caterpillars
-  - Spider Mites
-  - Root Rot
+common_name: Winter Squash
+picture: winter_squash.webp
+scientific_name: Cucurbita maxima
+aka: []
+family: Cucurbitaceae
+zone: 3-9
+ideal_temp_min: 0
+ideal_temp_max: 0
+min_temp: 0
+max_temp: 0
+perennial: true
+layers:
+- Herbaceous
+plant_function:
+- Edible
+- Ground Cover
+- Water Retention
+description: |-
+  Winter squash (Cucurbita maxima) is a warm-season vine grown for its thick-rinded, storage-friendly fruits harvested at full maturity. It is native to the Americas and now thrives across temperate-to-subtropical gardens where warm seasons are long enough. Plants sprawl with large leaves and tendrils and typically reach a few meters in spread depending on spacing and training. In permaculture, winter squash matters because it produces serious off-season calories and its dense canopy shades soil, moderates evaporation, and reduces weed pressure while you wait for longer crop cycles to finish.
+
+  ☀️💧 Sun and Water Requirements:
+  - Full sun for strong vine growth and fruit maturation.
+  - Water consistently as vines establish and fruits size up; drought reduces fruit quality.
+  - Prefers fertile, well-drained soil amended with compost.
+  - Avoid waterlogged soil to reduce vine/fruit rot.
+
+  ✂️ Propagation:
+  - Seeds (direct sow): sow after soil warms and frost risk passes; germination often occurs in 5–10 days.
+  - Start indoors: transplant carefully when seedlings are sturdy if your season is short.
+  - Relay sow: plant in small batches to spread harvest risk.
+
+  🌾 Harvest / Best Use Timing:
+  - Harvest when rind is hard and stems are dry/corky; then cure in warm, dry airflow.
+  - Store in a cool, dry place for months.
+  - Use flesh for roasting, soups, pies, and freezing.
+purpose: |-
+  Edible: Cucurbita maxima hubbards and kabochas store six months in cool dry air -- thick rinds need full-season heat to mature.
+  Ground Cover: 6 m vines smother beds with prickly hairs -- mulch paths or train vines to avoid grass invasion.
+  Water Retention: Huge pubescent leaves shade soil and cut evaporation from fruit skins -- still need even water during fruit swell to avoid blossom-end rot.
+companions:
+- Corn (Zea mays) — vertical structure at edges and strong canopy layering.
+- Nasturtium (Tropaeolum majus) — beneficial insect attraction in the same warm-season
+  patch.
+- Marigold (Tagetes patula) — nectar and pest monitoring visibility in the bed edge
+  zone.
+cautions:
+- Keep fruit off wet soil to avoid rot.
+pests:
+- Aphids
+- Spider Mites
+diseases:
+- Root Rot
+animal_pressure:
+- Caterpillars

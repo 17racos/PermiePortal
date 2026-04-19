@@ -1,64 +1,56 @@
----
-- common_name: Ramie
-  picture: ramie.webp
-  scientific_name: Boehmeria nivea
-  aka:
-  - China grass
-  - White ramie
-  family: Urticaceae
-  zone: 7-10
-  ideal_temp_min: 55
-  ideal_temp_max: 90
-  min_temp: 10
-  max_temp: 100
-  perennial: true
-  layers:
-  - Herbaceous
-  - Shrub
-  plant_function:
-  - Fiber
-  - Mulcher
-  - Dynamic Accumulator
-  description: |-
-    Ramie (Boehmeria nivea) is a long-lived, clumping perennial in the nettle family, grown for lustrous bast fiber and prodigious leafy biomass. Plants form upright stems from rhizomes, often 1–2.5 m tall in a long season, with bold toothed leaves that read “industrial hemp’s elegant cousin.” It is native to eastern Asia and has been cultivated for millennia for textiles and cordage.
+common_name: Ramie
+picture: ramie.webp
+scientific_name: Boehmeria nivea
+aka:
+- China grass
+- White ramie
+family: Urticaceae
+zone: 7-10
+ideal_temp_min: 55
+ideal_temp_max: 90
+min_temp: 10
+max_temp: 100
+perennial: true
+layers:
+- Herbaceous
+- Shrub
+plant_function:
+- Fiber
+- Mulcher
+- Dynamic Accumulator
+description: |-
+  Ramie (Boehmeria nivea) is a long-lived, clumping perennial in the nettle family, grown for lustrous bast fiber and prodigious leafy biomass. Plants form upright stems from rhizomes, often 1–2.5 m tall in a long season, with bold toothed leaves that read “industrial hemp’s elegant cousin.” It is native to eastern Asia and has been cultivated for millennia for textiles and cordage.
 
-    In subtropical and tropical Americas, ramie behaves like a subtropical workhorse: it can resprout after light frost if crowns stay well drained, but waterlogged winter soil invites crown rot. Humid summers suit rapid growth; intense drought shrinks stems and coarsens fiber.
+  In subtropical and tropical Americas, ramie behaves like a subtropical workhorse: it can resprout after light frost if crowns stay well drained, but waterlogged winter soil invites crown rot. Humid summers suit rapid growth; intense drought shrinks stems and coarsens fiber.
 
-    ☀️💧 Sun and Water Requirements:
-    - Full sun to light shade; more sun generally yields taller, stronger stems.
-    - Rich, moist, well-drained soil; consistent moisture during the growing season gives softer bark for stripping. Drought stress reduces yield and leaf quality.
-    - Rhizomes spread—contain the clump or plan islands so it does not annex neighboring beds.
+  ☀️💧 Sun and Water Requirements:
+  - Full sun to light shade; more sun generally yields taller, stronger stems.
+  - Rich, moist, well-drained soil; consistent moisture during the growing season gives softer bark for stripping. Drought stress reduces yield and leaf quality.
+  - Rhizomes spread—contain the clump or plan islands so it does not annex neighboring beds.
 
-    ✂️ Propagation:
-    - Stem cuttings taken during active growth root readily in humid shade.
-    - Divide mature clumps in spring when new shoots emerge; replant divisions with compost.
-    - Rhizome sections with buds can establish new plants—site deliberately because they travel.
+  ✂️ Propagation:
+  - Stem cuttings taken during active growth root readily in humid shade.
+  - Divide mature clumps in spring when new shoots emerge; replant divisions with compost.
+  - Rhizome sections with buds can establish new plants—site deliberately because they travel.
 
-    🌾 Harvest / Best Use Timing:
-    - Harvest stems for fiber when lower leaves yellow but stems are still green and before lignification advances; timing varies by climate and cultivar.
-    - For mulch and chop-and-drop, cut leafy growth during peak vigor and lay as green manure away from crops sensitive to allelopathy until partly wilted.
-  purpose: |-
-    Fiber: Boehmeria nivea bast strips after decortication yield lustrous “China grass” yarn stronger wet than cotton for nets, fine shirts, and banknotes in historic mills -- expect alkali boiling and scraping labor machines still have not erased.
-    Mulcher: Multiple leafy harvests per season supply potassium-rich chop-and-drop under fruit trees when chipped fine enough to avoid matting -- wear gloves because leaf hairs irritate skin like nettle lite.
-    Dynamic Accumulator: Rhizomatous roots explore subsoil moisture lenses and return calcium and silica to surface litter after each cut -- contain clumps with buried barrier or island beds because rhizomes travel farther than optimistic labels admit.
-  companions:
-  - Pigeon Pea
-  - Comfrey
-  - Cassava
-  cautions:
-  - Waterlogged winter crowns
-  - Letting rhizomes colonize neighbor beds without consent
-  pests:
-  - Aphids
-  - Caterpillars
-  - Nematodes
-  practitioner_notes: |-
-    Soil smell and root color tell more than gadget overload—dig a small hole twice a season.
-    Sharp tools and clean cuts beat torn stems; disease spores love frayed tissue more than rhetoric.
-    Watch the plant’s own signals first—catalog zone numbers do not replace your site’s microclimate truth.
-    Notebook one weird year—weather anomalies repeat; memory lies, scribbles do not.
-  growth_habit: Upright herbaceous perennial; clumping; dies back in frost
-  data_quality_score: 0.75
-  # Image attribution: Dominicus Johannes Bergsma / Wikimedia Commons / CC BY-SA 4.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+  🌾 Harvest / Best Use Timing:
+  - Harvest stems for fiber when lower leaves yellow but stems are still green and before lignification advances; timing varies by climate and cultivar.
+  - For mulch and chop-and-drop, cut leafy growth during peak vigor and lay as green manure away from crops sensitive to allelopathy until partly wilted.
+purpose: |-
+  Fiber: Boehmeria nivea bast strips after decortication yield lustrous “China grass” yarn stronger wet than cotton for nets, fine shirts, and banknotes in historic mills -- expect alkali boiling and scraping labor machines still have not erased.
+  Mulcher: Multiple leafy harvests per season supply potassium-rich chop-and-drop under fruit trees when chipped fine enough to avoid matting -- wear gloves because leaf hairs irritate skin like nettle lite.
+  Dynamic Accumulator: Rhizomatous roots explore subsoil moisture lenses and return calcium and silica to surface litter after each cut -- contain clumps with buried barrier or island beds because rhizomes travel farther than optimistic labels admit.
+companions:
+- Pigeon Pea
+- Comfrey
+- Cassava
+cautions:
+- Waterlogged winter crowns
+- Letting rhizomes colonize neighbor beds without consent
+pests:
+- Aphids
+- Nematodes
+growth_habit: Upright herbaceous perennial; clumping; dies back in frost
+data_quality_score: 0.75
+animal_pressure:
+- Caterpillars

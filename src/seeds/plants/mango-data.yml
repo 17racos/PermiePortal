@@ -1,67 +1,61 @@
----
-- common_name: Mango
-  picture: mango.webp
-  scientific_name: Mangifera indica
-  aka:
-  - None
-  family: Anacardiaceae
-  zone: 10-11
-  ideal_temp_min: 70°F
-  ideal_temp_max: 85°F
-  min_temp: 40°F
-  max_temp: 100°F
-  perennial: true
-  layers:
-  - Canopy
-  plant_function:
-  - Edible
-  - Medicinal
-  - Wildlife Attractor
-  - Windbreaker
-  - Border Plant
-  description: "Mango is a large, evergreen tree native to South Asia, capable of
-    reaching heights of 15-30 meters (50-100 feet). It has a dense canopy of glossy,
-    dark green leaves and produces fragrant, small white flowers. The fruit is a fleshy
-    drupe, varying in size and color, with a sweet, juicy, orange-yellow flesh surrounding
-    a large seed.\n\n\U0001F31E\U0001F4A7 Sun and Water Requirements:\nMango trees
-    prefer full sun and well-drained, slightly acidic to neutral soils rich in organic
-    matter. They are drought-tolerant once established but benefit from regular watering
-    during dry periods.\n\n✂️\U0001FAD8 Methods to Propagate:\nPropagation is typically
-    through grafting to ensure desirable fruit characteristics. Seed propagation is
-    possible but may not produce true-to-type fruit. Grafting involves joining a scion
-    from a desired variety onto a rootstock.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E
-    When to Harvest:\nHarvesting occurs when fruits mature and develop full coloration,
-    usually in late spring to summer. Mature fruits emit a sweet fragrance and yield
-    slightly to gentle pressure."
-  purpose: |-
-    Edible: Mangifera indica fruits range from fiberless dessert types to tangy green pickles -- eat ripe fruit when shoulders fill and aroma peaks; sap and peel oils can blister skin on sensitive people during harvest.
-    Medicinal: Bark, leaves, and kernel starches enter Ayurvedic protocols for digestion and skin -- food uses are safe at culinary doses; medicinal concentrates belong with trained practitioners.
-    Wildlife Attractor: Bats and nocturnal moths pollinize panicles while ripe fruit feeds fruit bats and parrots -- bag panicles or harvest early if wildlife losses outpace kitchen gains.
-    Windbreaker: Wide-spreading crown and leathery leaves blunt steady trade winds across paddocks -- prune for open vase shape so interior fruiting wood still gets light.
-    Border Plant: Long-lived trunks mark property lines in frost-free regions -- space for equipment because buttressed roots lift pavement when planners underestimate mature spread.
-  companions:
-  - Pigeon Pea
-  - Citrus
-  - Papaya
-  cautions:
-  - None specified
-  pests:
-  - Mango Seed Weevil
-  - Anthracnose
-  - Mealybugs
-  - Iguana
-  - Armored Scale
-  - Soft Scale
-  - Black Scale
-  - Brown Soft Scale
-  - Cottony Cushion Scale
-  - Florida Wax Scale
-  - Oleander Scale
-  - Ambrosia Beetles
-  - Shot Hole Borers
-  practitioner_notes: |-
-    Fruit set often needs dry cool bloom—rainy flowering washes pollen before bees clock in.
-    Sap on skin can cause dermatitis—trim flowering panicles with sleeves and quick soap.
-    Alternate bearing responds to thinning young fruit on heavy years—spread load across wood.
-  growth_habit: Tree
-  data_quality_score: 0.8
+common_name: Mango
+picture: mango.webp
+scientific_name: Mangifera indica
+aka:
+- None
+family: Anacardiaceae
+zone: 10-11
+ideal_temp_min: 70°F
+ideal_temp_max: 85°F
+min_temp: 40°F
+max_temp: 100°F
+perennial: true
+layers:
+- Canopy
+plant_function:
+- Edible
+- Medicinal
+- Wildlife Attractor
+- Windbreaker
+- Border Plant
+description: |-
+  Mango is a large, evergreen tree native to South Asia, capable of reaching heights of 15-30 meters (50-100 feet). It has a dense canopy of glossy, dark green leaves and produces fragrant, small white flowers. The fruit is a fleshy drupe, varying in size and color, with a sweet, juicy, orange-yellow flesh surrounding a large seed.
+
+  🌞💧 Sun and Water Requirements:
+  Mango trees prefer full sun and well-drained, slightly acidic to neutral soils rich in organic matter. They are drought-tolerant once established but benefit from regular watering during dry periods.
+
+  ✂️🫘 Methods to Propagate:
+  Propagation is typically through grafting to ensure desirable fruit characteristics. Seed propagation is possible but may not produce true-to-type fruit. Grafting involves joining a scion from a desired variety onto a rootstock.
+
+  🧑‍🌾👩‍🌾 When to Harvest:
+  Harvesting occurs when fruits mature and develop full coloration, usually in late spring to summer. Mature fruits emit a sweet fragrance and yield slightly to gentle pressure.
+purpose: |-
+  Edible: Mangifera indica fruits range from fiberless dessert types to tangy green pickles -- eat ripe fruit when shoulders fill and aroma peaks; sap and peel oils can blister skin on sensitive people during harvest.
+  Medicinal: Bark, leaves, and kernel starches enter Ayurvedic protocols for digestion and skin -- food uses are safe at culinary doses; medicinal concentrates belong with trained practitioners.
+  Wildlife Attractor: Bats and nocturnal moths pollinize panicles while ripe fruit feeds fruit bats and parrots -- bag panicles or harvest early if wildlife losses outpace kitchen gains.
+  Windbreaker: Wide-spreading crown and leathery leaves blunt steady trade winds across paddocks -- prune for open vase shape so interior fruiting wood still gets light.
+  Border Plant: Long-lived trunks mark property lines in frost-free regions -- space for equipment because buttressed roots lift pavement when planners underestimate mature spread.
+companions:
+- Pigeon Pea
+- Citrus
+- Papaya
+cautions:
+- None specified
+pests:
+- Mango Seed Weevil
+- Mealybugs
+- Armored Scale
+- Soft Scale
+- Black Scale
+- Brown Soft Scale
+- Cottony Cushion Scale
+- Florida Wax Scale
+- Oleander Scale
+- Ambrosia Beetles
+- Shot Hole Borers
+growth_habit: Tree
+data_quality_score: 0.8
+diseases:
+- Anthracnose
+animal_pressure:
+- Iguana

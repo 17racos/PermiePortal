@@ -1,104 +1,105 @@
----
-- common_name: Apple
-  picture: apple.webp
-  scientific_name: Malus domestica
-  aka:
-  - Malus
-  family: Rosaceae
-  zone: 3-9
-  ideal_temp_min: 32
-  ideal_temp_max: 85
-  min_temp: -40
-  max_temp: 100
-  perennial: true
-  layers:
-  - Canopy
-  - Sub-Canopy
-  plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
-  - Mulcher
-  - Dynamic Accumulator
-  - Erosion Control
-  - Border Plant
-  description: "The Apple Tree (Malus domestica) is a deciduous fruit tree that produces a variety of apples used for fresh\
-    \ eating, cider-making, and cooking. It typically grows between 3–9 meters (10–30 feet) tall, depending on the rootstock\
-    \ and cultivar.\n\nApple trees thrive in temperate climates with cold winters for proper dormancy. They require cross-pollination\
-    \ from compatible varieties for fruit production. The trees bloom in early spring with fragrant white to pink flowers,\
-    \ attracting bees and other pollinators. The fruit ripens in late summer to fall, with a wide range of flavors, colors,\
-    \ and textures depending on the cultivar. Proper pruning enhances airflow, reduces disease risk, and improves fruit quality.\n\
-    \n \U0001F31E\U0001F4A7 Sun and Water Requirements:\n- Prefers full sun for optimal fruiting.\n- Requires well-drained,\
-    \ loamy soil rich in organic matter.\n- Moderate water needs; deep watering during dry periods promotes strong root growth.\n\
-    \n✂️\U0001FAD8 Methods to Propagate:\n- Grafting: The most common method, ensuring desired fruit traits.\n- Seeds: Can\
-    \ be grown from seed but results in unpredictable fruit characteristics.\n- Cuttings: Hardwood cuttings can root, but\
-    \ success rates vary.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E When to Harvest:\n- Harvest times vary by cultivar,\
-    \ typically between late summer and fall.\n- Fruit is ready when it detaches easily from the branch with a slight twist.\n\
-    - Store apples in a cool, dry place to extend shelf life."
-  purpose: |-
-    Edible: Malus domestica cultivars span sharp cider bittersweets to crisp dessert apples depending on scion choice -- rootstock controls final height, so match understory guilds to dwarfing versus standard vigor.
-    Medicinal: Slow-fermented apple cider vinegar carries acetobacter acids and fruit minerals used in folk bitters and oxymels -- use labeled culinary process, not half-sealed jars of mystery juice on the counter.
-    Pollinator: Five-petaled white to pink cymes open in cool spring windows, feeding orchard mason bees and honeybees before canopy closure -- mismatched bloom times between varieties explain empty bins more often than soil tests.
-    Wildlife Attractor: June drop and windfalls feed wasps, butterflies, and deer at the orchard edge -- leave a sacrificial strip if you want bird and insect traffic without pretending humans win every fruit.
-    Mulcher: Deciduous leaves fall into guild rows where comfrey and clover catch them, feeding fungal decomposition that matches apple's own feeder roots -- rake only where mats smother young perennials.
-    Dynamic Accumulator: Deep fibrous roots mine potassium and calcium from subsoil and move it into leaf tissue that returns when you chop prunings fine -- pair with comfrey for stacked mineral cycling at different depths.
-    Erosion Control: Orchard grass alleys and fibrous root mats slow sheet flow on sloped sites compared with bare cultivation -- keyline design still beats wishful thinking on steep ground.
-    Border Plant: Hedgerow-trained apples mark field edges with spring bloom and winter silhouette -- fire blight bacteria love warm wet blossoms, so open vase pruning is structural disease management, not vanity.
-  companions:
-  - Comfrey
-  - Nasturtium
-  - Clover
-  - Garlic
-  - Chive
-  cautions:
-  - Walnut
-  - Tomato
-  pests:
-  - Alternaria Leaf Spot
-  - Aphids
-  - Apple Maggot
-  - Apple Scab
-  - Bagworm
-  - Blackberry Psyllid
-  - Brown Marmorated Stink Bug
-  - Brown Rot
-  - Cherry Fruit Fly
-  - Codling Moth
-  - Cyclamen Mite
-  - Cytospora Canker
-  - Eastern Tent Caterpillar
-  - Fall Webworm
-  - Fire Blight
-  - Gall Mite
-  - Harlequin Ladybird
-  - Leaf Blight
-  - Leaf Spot
-  - Lesser Peachtree Borer
-  - Oriental Fruit Fly
-  - Oriental Fruit Moth
-  - Peach Twig Borer
-  - Peachtree Borer
-  - Pear Psylla
-  - Plum Curculio
-  - Powdery Mildew
-  - Raspberry Beetle
-  - Raspberry Cane Borer
-  - Rose Slug
-  - Rust Mite
-  - Sparganothis Fruitworm
-  - Spittlebugs
-  - Spotted Lanternfly
-  - Stink Bug
-  - Strawberry Root Weevil
-  - Tent Caterpillar
-  - Twig Girdlers
-  - Vine Weevil
-  practitioner_notes: 'Chill-hour mismatch is silent failure—low-chill varieties on wrong rootstock bloom thin or abort fruit
-    in warm winters.
+common_name: Apple
+picture: apple.webp
+scientific_name: Malus domestica
+aka:
+- Malus
+family: Rosaceae
+zone: 3-9
+ideal_temp_min: 32
+ideal_temp_max: 85
+min_temp: -40
+max_temp: 100
+perennial: true
+layers:
+- Canopy
+- Sub-Canopy
+plant_function:
+- Edible
+- Medicinal
+- Pollinator
+- Wildlife Attractor
+- Mulcher
+- Dynamic Accumulator
+- Erosion Control
+- Border Plant
+description: |-
+  The Apple Tree (Malus domestica) is a deciduous fruit tree that produces a variety of apples used for fresh eating, cider-making, and cooking. It typically grows between 3–9 meters (10–30 feet) tall, depending on the rootstock and cultivar.
 
-    Fruiting spurs are short knobby twigs—do not mistake them for dead wood and strip them during zealous pruning.
+  Apple trees thrive in temperate climates with cold winters for proper dormancy. They require cross-pollination from compatible varieties for fruit production. The trees bloom in early spring with fragrant white to pink flowers, attracting bees and other pollinators. The fruit ripens in late summer to fall, with a wide range of flavors, colors, and textures depending on the cultivar. Proper pruning enhances airflow, reduces disease risk, and improves fruit quality.
 
-    Mature apples store longest at about 32°F (0°C) with high humidity—warmer kitchens shorten cellar life fast.'
-  growth_habit: Tree
-  data_quality_score: 0.8
+   🌞💧 Sun and Water Requirements:
+  - Prefers full sun for optimal fruiting.
+  - Requires well-drained, loamy soil rich in organic matter.
+  - Moderate water needs; deep watering during dry periods promotes strong root growth.
+
+  ✂️🫘 Methods to Propagate:
+  - Grafting: The most common method, ensuring desired fruit traits.
+  - Seeds: Can be grown from seed but results in unpredictable fruit characteristics.
+  - Cuttings: Hardwood cuttings can root, but success rates vary.
+
+  🧑‍🌾👩‍🌾 When to Harvest:
+  - Harvest times vary by cultivar, typically between late summer and fall.
+  - Fruit is ready when it detaches easily from the branch with a slight twist.
+  - Store apples in a cool, dry place to extend shelf life.
+purpose: |-
+  Edible: Malus domestica cultivars span sharp cider bittersweets to crisp dessert apples depending on scion choice -- rootstock controls final height, so match understory guilds to dwarfing versus standard vigor.
+  Medicinal: Slow-fermented apple cider vinegar carries acetobacter acids and fruit minerals used in folk bitters and oxymels -- use labeled culinary process, not half-sealed jars of mystery juice on the counter.
+  Pollinator: Five-petaled white to pink cymes open in cool spring windows, feeding orchard mason bees and honeybees before canopy closure -- mismatched bloom times between varieties explain empty bins more often than soil tests.
+  Wildlife Attractor: June drop and windfalls feed wasps, butterflies, and deer at the orchard edge -- leave a sacrificial strip if you want bird and insect traffic without pretending humans win every fruit.
+  Mulcher: Deciduous leaves fall into guild rows where comfrey and clover catch them, feeding fungal decomposition that matches apple's own feeder roots -- rake only where mats smother young perennials.
+  Dynamic Accumulator: Deep fibrous roots mine potassium and calcium from subsoil and move it into leaf tissue that returns when you chop prunings fine -- pair with comfrey for stacked mineral cycling at different depths.
+  Erosion Control: Orchard grass alleys and fibrous root mats slow sheet flow on sloped sites compared with bare cultivation -- keyline design still beats wishful thinking on steep ground.
+  Border Plant: Hedgerow-trained apples mark field edges with spring bloom and winter silhouette -- fire blight bacteria love warm wet blossoms, so open vase pruning is structural disease management, not vanity.
+companions:
+- Comfrey
+- Nasturtium
+- Clover
+- Garlic
+- Chive
+cautions:
+- Walnut
+- Tomato
+pests:
+- Aphids
+- Apple Maggot
+- Apple Scab
+- Bagworm
+- Blackberry Psyllid
+- Cherry Fruit Fly
+- Codling Moth
+- Cyclamen Mite
+- Fall Webworm
+- Lesser Peachtree Borer
+- Oriental Fruit Fly
+- Oriental Fruit Moth
+- Peach Twig Borer
+- Peachtree Borer
+- Pear Psylla
+- Plum Curculio
+- Raspberry Beetle
+- Raspberry Cane Borer
+- Rose Slug
+- Sparganothis Fruitworm
+- Spittlebugs
+- Stink Bug
+- Strawberry Root Weevil
+- Twig Girdlers
+- Vine Weevil
+growth_habit: Tree
+data_quality_score: 0.8
+diseases:
+- Alternaria Leaf Spot
+- Brown Rot
+- Cytospora Canker
+- Fire Blight
+- Gall Mite
+- Leaf Blight
+- Leaf Spot
+- Powdery Mildew
+- Rust Mite
+- Spotted Lanternfly
+animal_pressure:
+- Brown Marmorated Stink Bug
+- Eastern Tent Caterpillar
+- Harlequin Ladybird
+- Tent Caterpillar

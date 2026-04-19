@@ -1,83 +1,65 @@
----
-- common_name: Turkey Tail
-  picture: turkey_tail.webp
-  scientific_name: Trametes versicolor
-  aka:
-  - Many-Zoned Polypore
-  - Coriolus versicolor (older synonym)
-  - Yunzhi (Chinese)
-  family: Polyporaceae
-  zone: 3-11
-  ideal_temp_min: 50
-  ideal_temp_max: 80
-  min_temp: -40
-  max_temp: 100
-  perennial: true
-  layers:
-  - Fungal
-  plant_function:
-  - Medicinal
-  - Mulcher
-  - Soil Improvement
-  description: |-
-    Turkey tail is the rainbow paper fan you have definitely already seen on a dead log — thin, flexible, leathery brackets with concentric color zones ranging from cream to rust to dark brown, always with a white pore surface underneath. It is one of the most common wood-decay fungi in the world and thrives in Florida's humid woodlands on any dead hardwood it can find. Not a standout edible texture-wise (tough and papery), but it is among the most researched medicinal mushrooms — PSK (krestin) and PSP extracts from Trametes versicolor have been studied in cancer adjunct therapy in Asia for decades. Ecologically it punches above its weight as a lignin breaker, preparing woody carbon for the soil food web.
-    
-    ☀️💧 Sun and Water:
-    - Naturally on shaded logs, stumps, fallen branches, and forest edge debris.
-    - Outdoor log cultivation uses plug or sawdust spawn like other polypores; moisture from environment and rain.
-    - Good airflow matters — competing molds colonize thin brackets faster than thick species if stagnant air and excess moisture combine.
-    
-    ✂️ Propagation:
-    - Plug or sawdust spawn into fresh-cut hardwood logs; inoculate within a few weeks of cutting.
-    - Bury inoculated blocks near woody debris pathways for naturalized patches.
-    - Locally collected wild specimens can be cloned to agar if you want regional genetics.
-    
-    🌾 Harvest / Best Use Timing:
-    - Harvest mature brackets when still flexible -- chalky dry conks are past prime for tea quality.
-    - Slice ribbons and air-dry with fan flow; finish crisp before jar sealing.
-    - Long low simmers extract polysaccharide body; label batches with wood host and date.
-  purpose: |-
-    Medicinal: Trametes versicolor is the source species for PSK and PSP extracts studied alongside conventional cancer care in Asia -- verify fruiting-body ID, extraction method, and lab quality before betting health on capsules.
-    Mulcher: Thin, zonate brackets reduce hardwood logs to spongy pulp -- lignin-first white rot turns slash piles into inoculated sponge for the next fungal wave.
-    Soil Improvement: Hyphae leak organic acids and sugars into adjacent leaf litter -- worm and springtail populations spike as wood transitions to humus-coated crumbs.
-  substrate:
-  - Oak (primary)
-  - Sweetgum
-  - Willow
-  - Alder
-  - Most dead hardwoods; very wide host range
-  mycelium_type: White rot saprobe
-  fruiting_season: Year-round in Florida on suitable substrate; peaks in fall and
-    spring after rain events
-  cultivation_difficulty: Beginner — one of the easiest polypores to establish
-    on logs; also colonizes naturally in food forest settings
-  spawn_type: Plug spawn or sawdust spawn for logs; natural colonization frequently
-    occurs without inoculation on dead hardwood
-  companions:
-  - Oak
-  - Sweetgum
-  - Willow
-  cautions:
-  - Confirm smooth white pore surface when young — several look-alikes exist;
-    Stereum spp. and false turkey tails lack pores entirely
-  pests:
-  - Fungus Gnats
-  practitioner_notes: |-
-    Identification key: flip the bracket and look for the pore surface — true turkey
-    tail has tiny white pores; Stereum and other false turkey tails have a smooth
-    underside and are not the same thing.
-    Wild harvest is viable in Florida year-round but post-flush specimens are
-    best — fresh, actively growing brackets with white pore surfaces; old bleached
-    ones have lost most of what you wanted.
-    Dry quickly at low heat or with strong airflow after harvest; moisture in storage
-    is where quality goes to die.
-    Log inoculation in shade plus natural debris piles in the food forest is the
-    low-effort path — this species wants to grow here; your main job is not to
-    obstruct it.
-    Commercial extract quality is inconsistent; if sourcing for medicinal use,
-    look for hot-water or dual extraction and verified species — not "mushroom
-    blend" blends that are mostly myceliated grain.
-  growth_habit: Thin shelving polypore on dead and dying hardwood; wide host range
-  data_quality_score: 0.83
-  # Image attribution: No image found
-  # Image source: none
+common_name: Turkey Tail
+picture: turkey_tail.webp
+scientific_name: Trametes versicolor
+aka:
+- Many-Zoned Polypore
+- Coriolus versicolor (older synonym)
+- Yunzhi (Chinese)
+family: Polyporaceae
+zone: 3-11
+ideal_temp_min: 50
+ideal_temp_max: 80
+min_temp: -40
+max_temp: 100
+perennial: true
+layers:
+- Fungal
+plant_function:
+- Medicinal
+- Mulcher
+- Soil Improvement
+description: |-
+  Turkey tail is the rainbow paper fan you have definitely already seen on a dead log — thin, flexible, leathery brackets with concentric color zones ranging from cream to rust to dark brown, always with a white pore surface underneath. It is one of the most common wood-decay fungi in the world and thrives in Florida's humid woodlands on any dead hardwood it can find. Not a standout edible texture-wise (tough and papery), but it is among the most researched medicinal mushrooms — PSK (krestin) and PSP extracts from Trametes versicolor have been studied in cancer adjunct therapy in Asia for decades. Ecologically it punches above its weight as a lignin breaker, preparing woody carbon for the soil food web.
+
+  ☀️💧 Sun and Water:
+  - Naturally on shaded logs, stumps, fallen branches, and forest edge debris.
+  - Outdoor log cultivation uses plug or sawdust spawn like other polypores; moisture from environment and rain.
+  - Good airflow matters — competing molds colonize thin brackets faster than thick species if stagnant air and excess moisture combine.
+
+  ✂️ Propagation:
+  - Plug or sawdust spawn into fresh-cut hardwood logs; inoculate within a few weeks of cutting.
+  - Bury inoculated blocks near woody debris pathways for naturalized patches.
+  - Locally collected wild specimens can be cloned to agar if you want regional genetics.
+
+  🌾 Harvest / Best Use Timing:
+  - Harvest mature brackets when still flexible -- chalky dry conks are past prime for tea quality.
+  - Slice ribbons and air-dry with fan flow; finish crisp before jar sealing.
+  - Long low simmers extract polysaccharide body; label batches with wood host and date.
+purpose: |-
+  Medicinal: Trametes versicolor is the source species for PSK and PSP extracts studied alongside conventional cancer care in Asia -- verify fruiting-body ID, extraction method, and lab quality before betting health on capsules.
+  Mulcher: Thin, zonate brackets reduce hardwood logs to spongy pulp -- lignin-first white rot turns slash piles into inoculated sponge for the next fungal wave.
+  Soil Improvement: Hyphae leak organic acids and sugars into adjacent leaf litter -- worm and springtail populations spike as wood transitions to humus-coated crumbs.
+substrate:
+- Oak (primary)
+- Sweetgum
+- Willow
+- Alder
+- Most dead hardwoods; very wide host range
+mycelium_type: White rot saprobe
+fruiting_season: Year-round in Florida on suitable substrate; peaks in fall and spring
+  after rain events
+cultivation_difficulty: Beginner — one of the easiest polypores to establish on logs;
+  also colonizes naturally in food forest settings
+spawn_type: Plug spawn or sawdust spawn for logs; natural colonization frequently
+  occurs without inoculation on dead hardwood
+companions:
+- Oak
+- Sweetgum
+- Willow
+cautions:
+- Confirm smooth white pore surface when young — several look-alikes exist; Stereum
+  spp. and false turkey tails lack pores entirely
+pests:
+- Fungus Gnats
+growth_habit: Thin shelving polypore on dead and dying hardwood; wide host range
+data_quality_score: 0.83

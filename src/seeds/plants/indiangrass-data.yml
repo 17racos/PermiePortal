@@ -1,76 +1,59 @@
----
-- common_name: Indiangrass
-  picture: indiangrass.webp
-  scientific_name: Sorghastrum nutans
-  aka:
-  - Yellow indiangrass
-  - Indian grass
-  family: Poaceae
-  zone: 4-9
-  ideal_temp_min: 60
-  ideal_temp_max: 95
-  min_temp: -25
-  max_temp: 105
-  perennial: true
-  layers:
-  - Herbaceous
-  plant_function:
-  - Animal Fodder
-  - Erosion Control
-  - Wildlife Attractor
-  - Biomass
-  description: 'Indiangrass (Sorghastrum nutans) is a tall warm-season bunchgrass of North American prairies and open oak
-    savannas, famous for golden plume-like panicles in late summer and blue-green foliage with a distinctive ligule like a
-    rifle sight. Clumps reach 4–7 feet (1.2–2.1 m) in rich moist sites, shorter on dry slopes. It anchors restoration mixes,
-    meadow gardens, and livestock rotations where deep-rooted natives beat annual erosion theater.
+common_name: Indiangrass
+picture: indiangrass.webp
+scientific_name: Sorghastrum nutans
+aka:
+- Yellow indiangrass
+- Indian grass
+family: Poaceae
+zone: 4-9
+ideal_temp_min: 60
+ideal_temp_max: 95
+min_temp: -25
+max_temp: 105
+perennial: true
+layers:
+- Herbaceous
+plant_function:
+- Animal Fodder
+- Erosion Control
+- Wildlife Attractor
+- Biomass
+description: |-
+  Indiangrass (Sorghastrum nutans) is a tall warm-season bunchgrass of North American prairies and open oak savannas, famous for golden plume-like panicles in late summer and blue-green foliage with a distinctive ligule like a rifle sight. Clumps reach 4–7 feet (1.2–2.1 m) in rich moist sites, shorter on dry slopes. It anchors restoration mixes, meadow gardens, and livestock rotations where deep-rooted natives beat annual erosion theater.
 
+  ☀️💧 Sun and Water Requirements:
+  Full sun for flowering; open pine shade matches savanna ecology. Adaptable from dry uplands to mesic lowlands if drainage exists between rains. Over-irrigation on clay invites lodging; match water to soil texture.
 
-    ☀️💧 Sun and Water Requirements:
+  ✂️ Propagation:
+  Sow seed shallow in warm soil; weed control year one is the real crop. Divide dormant crowns in early spring. Burn or mow on schedules aligned with local ecological guidance—not random scalp dates.
 
-    Full sun for flowering; open pine shade matches savanna ecology. Adaptable from dry uplands to mesic lowlands if drainage
-    exists between rains. Over-irrigation on clay invites lodging; match water to soil texture.
-
-
-    ✂️ Propagation:
-
-    Sow seed shallow in warm soil; weed control year one is the real crop. Divide dormant crowns in early spring. Burn or
-    mow on schedules aligned with local ecological guidance—not random scalp dates.
-
-
-    🌾 Harvest / Best Use Timing:
-
-    For hay or grazing, follow forage timing rules for warm-season grasses. For gardens, leave winter stems for structure;
-    cut back before spring green-up. Collect seed when awns mature if expanding restoration plots.'
-  purpose: |-
-    Animal Fodder: Sorghastrum nutans hits peak nutritive value in early boot stage before lignin spikes -- graze rotationally or cut hay then allow rest so basal buds rebuild before frost.
-    Erosion Control: Deep fibrous roots anchor streambanks and highway cuts where shallow annuals wash away -- pair with switchgrass for two-height stabilization on sunny slopes.
-    Wildlife Attractor: Tall stems give nesting cover for grassland birds while golden awned seed feeds sparrows and buntings -- leave winter standing crop for structure before burning per local ecological guidance.
-    Biomass: Six-foot seasonal growth supplies high-carbon residue for compost piles or prescribed fire fuel -- chip or burn on rotation so thatch does not smother crowns in humid climates.
-  companions:
-  - Little Bluestem — complementary warm-season matrix at slightly shorter height
-  - Switchgrass — taller or co-tall neighbor for layered prairie structure
-  - Dense Blazingstar — forb spikes flowering among grasses without lawn inputs
-  cautions:
-  - Heavy shade — plants stretch and flower poorly; choose sedges for dark corners
-  - Wet stagnant clay — winter crown issues; improve drainage or pick wet-prairie species
-  pests:
-  - Armyworms
-  - Bamboo Mite
-  - Corn Earworm
-  - Fall Armyworm
-  - Grasshopper
-  - Leaf Blight
-  - Lubber Grasshopper
-  - Rice Blast Fungus
-  - Rice Water Weevil
-  - Spittlebugs
-  - Wireworm
-  practitioner_notes: 'Rifle-sight ligule is the field ID party trick—learn it once, use it forever.
-
-    First-year seedlings are polite; mature clumps are architecture.
-
-    Pair with big bluestem only if you enjoy arguing about height at dusk.
-
-    Prairie reconstruction is a decade sport—calendar accordingly.'
-  growth_habit: Tall warm-season bunchgrass; golden plume panicles; prairie and savanna matrix species
-  data_quality_score: 0.82
+  🌾 Harvest / Best Use Timing:
+  For hay or grazing, follow forage timing rules for warm-season grasses. For gardens, leave winter stems for structure; cut back before spring green-up. Collect seed when awns mature if expanding restoration plots.
+purpose: |-
+  Animal Fodder: Sorghastrum nutans hits peak nutritive value in early boot stage before lignin spikes -- graze rotationally or cut hay then allow rest so basal buds rebuild before frost.
+  Erosion Control: Deep fibrous roots anchor streambanks and highway cuts where shallow annuals wash away -- pair with switchgrass for two-height stabilization on sunny slopes.
+  Wildlife Attractor: Tall stems give nesting cover for grassland birds while golden awned seed feeds sparrows and buntings -- leave winter standing crop for structure before burning per local ecological guidance.
+  Biomass: Six-foot seasonal growth supplies high-carbon residue for compost piles or prescribed fire fuel -- chip or burn on rotation so thatch does not smother crowns in humid climates.
+companions:
+- Little Bluestem — complementary warm-season matrix at slightly shorter height
+- Switchgrass — taller or co-tall neighbor for layered prairie structure
+- Dense Blazingstar — forb spikes flowering among grasses without lawn inputs
+cautions:
+- Heavy shade — plants stretch and flower poorly; choose sedges for dark corners
+- Wet stagnant clay — winter crown issues; improve drainage or pick wet-prairie species
+pests:
+- Armyworms
+- Bamboo Mite
+- Corn Earworm
+- Fall Armyworm
+- Grasshopper
+- Lubber Grasshopper
+- Rice Blast Fungus
+- Rice Water Weevil
+- Spittlebugs
+- Wireworm
+growth_habit: Tall warm-season bunchgrass; golden plume panicles; prairie and savanna
+  matrix species
+data_quality_score: 0.82
+diseases:
+- Leaf Blight

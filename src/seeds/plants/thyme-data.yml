@@ -1,69 +1,67 @@
----
-- common_name: Thyme
-  picture: thyme.webp
-  scientific_name: Thymus vulgaris
-  aka:
-  - Common Thyme
-  - Garden Thyme
-  family: Lamiaceae
-  zone: 4-9
-  ideal_temp_min: 60
-  ideal_temp_max: 75
-  min_temp: -30
-  max_temp: 95
-  perennial: true
-  layers:
-  - Herbaceous
-  - Ground Cover
-  plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
-  - Mulcher
-  - Dynamic Accumulator
-  - Border Plant
-  - Pest Management
-  description: "Thyme is a low-growing, aromatic perennial herb with woody stems and
-    small, fragrant leaves. It thrives in well-drained soil and full sun, making it
-    an excellent choice for borders, rock gardens, and companion planting. The plant
-    produces small purple or pink flowers that attract pollinators such as bees and
-    butterflies.\n\nThis hardy herb is drought-tolerant and adapts well to poor soils,
-    making it a low-maintenance addition to gardens. Thyme has antimicrobial properties
-    and is commonly used in culinary dishes, herbal teas, and natural medicine.\n\n
-    \U0001F31E\U0001F4A7 Sun and Water Requirements:\n- Prefers full sun (6-8 hours
-    of direct sunlight daily).\n- Thrives in dry, well-drained sandy or loamy soil.\n-
-    Drought-tolerant; requires minimal watering once established.\n\n✂️\U0001FAD8
-    Methods to Propagate:\n- **Seeds**: Sow indoors in early spring or direct sow
-    after the last frost.\n- **Cuttings**: Take softwood cuttings in spring and root
-    in moist soil.\n- **Division**: Separate mature plants in early spring or fall.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E
-    When to Harvest:\n- Harvest leaves throughout the growing season.\n- Best flavor
-    is achieved just before flowering.\n- Cut stems and dry them for long-term storage."
-  purpose: |-
-    Edible: Thymus vulgaris narrow leaves harvested before noon carry peak thymol oil for roast vegetables and syrups tied to Provençal drying racks.
-    Medicinal: Thymol shows documented antimicrobial activity in lab assays -- translate lab mic values to human doses with clinicians before marketing cure stories.
-    Pollinator: Pink-lipped flowers hug stems in early summer for short-tongued bees walking thyme carpets between pavers.
-    Wildlife Attractor: Nectar sustains parasitic wasps hunting caterpillars along herb spirals dense enough to read green from orbit.
-    Mulcher: Sheared clippings dry into thyme-smelling mulch that suppresses slug traffic on strawberry hills.
-    Dynamic Accumulator: Fibrous roots mine calcium into sun-stressed foliage -- sweep trimmings into compost ahead of brassica beds.
-    Border Plant: Woody mats edge stone paths where mower strips would scalp shallow crowns.
-    Pest Management: Volatile plumes confuse cabbage moths scouting brassica rows when thyme bands stay wide enough to release scent plumes.
-  companions:
-  - Cabbage
-  - Tomatoes
-  - Strawberries
-  - Eggplant
-  - Roses
-  cautions:
-  - Onions
-  pests:
-  - Aphids
-  - Spider Mites
-  - Whiteflies
-  practitioner_notes: |-
-    Overfertilized fast growth dilutes flavor and invites sap feeders—lean soil often tastes more like itself.
-    Label jars with plant part and date the day you seal—future you is not psychic.
-    Deadhead for repeat bloom if the species responds; leave late heads if birds or beneficials need seed.
-    Sharp tools and clean cuts beat torn stems; disease spores love frayed tissue more than rhetoric.
-  growth_habit: Tree
-  data_quality_score: 0.8
+common_name: Thyme
+picture: thyme.webp
+scientific_name: Thymus vulgaris
+aka:
+- Common Thyme
+- Garden Thyme
+family: Lamiaceae
+zone: 4-9
+ideal_temp_min: 60
+ideal_temp_max: 75
+min_temp: -30
+max_temp: 95
+perennial: true
+layers:
+- Herbaceous
+- Ground Cover
+plant_function:
+- Edible
+- Medicinal
+- Pollinator
+- Wildlife Attractor
+- Mulcher
+- Dynamic Accumulator
+- Border Plant
+- Pest Management
+description: |-
+  Thyme is a low-growing, aromatic perennial herb with woody stems and small, fragrant leaves. It thrives in well-drained soil and full sun, making it an excellent choice for borders, rock gardens, and companion planting. The plant produces small purple or pink flowers that attract pollinators such as bees and butterflies.
+
+  This hardy herb is drought-tolerant and adapts well to poor soils, making it a low-maintenance addition to gardens. Thyme has antimicrobial properties and is commonly used in culinary dishes, herbal teas, and natural medicine.
+
+   🌞💧 Sun and Water Requirements:
+  - Prefers full sun (6-8 hours of direct sunlight daily).
+  - Thrives in dry, well-drained sandy or loamy soil.
+  - Drought-tolerant; requires minimal watering once established.
+
+  ✂️🫘 Methods to Propagate:
+  - **Seeds**: Sow indoors in early spring or direct sow after the last frost.
+  - **Cuttings**: Take softwood cuttings in spring and root in moist soil.
+  - **Division**: Separate mature plants in early spring or fall.
+
+  🧑‍🌾👩‍🌾 When to Harvest:
+  - Harvest leaves throughout the growing season.
+  - Best flavor is achieved just before flowering.
+  - Cut stems and dry them for long-term storage.
+purpose: |-
+  Edible: Thymus vulgaris narrow leaves harvested before noon carry peak thymol oil for roast vegetables and syrups tied to Provençal drying racks.
+  Medicinal: Thymol shows documented antimicrobial activity in lab assays -- translate lab mic values to human doses with clinicians before marketing cure stories.
+  Pollinator: Pink-lipped flowers hug stems in early summer for short-tongued bees walking thyme carpets between pavers.
+  Wildlife Attractor: Nectar sustains parasitic wasps hunting caterpillars along herb spirals dense enough to read green from orbit.
+  Mulcher: Sheared clippings dry into thyme-smelling mulch that suppresses slug traffic on strawberry hills.
+  Dynamic Accumulator: Fibrous roots mine calcium into sun-stressed foliage -- sweep trimmings into compost ahead of brassica beds.
+  Border Plant: Woody mats edge stone paths where mower strips would scalp shallow crowns.
+  Pest Management: Volatile plumes confuse cabbage moths scouting brassica rows when thyme bands stay wide enough to release scent plumes.
+companions:
+- Cabbage
+- Tomatoes
+- Strawberries
+- Eggplant
+- Roses
+cautions:
+- Onions
+pests:
+- Aphids
+- Spider Mites
+- Whiteflies
+growth_habit: Tree
+data_quality_score: 0.8

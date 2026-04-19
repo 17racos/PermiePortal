@@ -1,83 +1,81 @@
----
-- common_name: Carrot
-  picture: carrot.webp
-  scientific_name: Daucus carota subsp. sativus
-  aka:
-  - Wild Carrot (Daucus carota)
-  - Queen Anne's Lace (wild ancestor)
-  family: Apiaceae
-  zone: 3-10
-  ideal_temp_min: 45
-  ideal_temp_max: 75
-  min_temp: 20
-  max_temp: 95
-  perennial: false
-  layers:
-  - Root
-  plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
-  - Dynamic Accumulator
-  - Border Plant
-  description: "Carrot (Daucus carota subsp. sativus) is a biennial root vegetable grown for its edible taproot. It develops\
-    \ long, cylindrical roots in shades of orange, purple, red, yellow, and white, depending on the variety. The plant has\
-    \ feathery green foliage and produces clusters of small white flowers in its second year if not harvested.\n\nCarrots\
-    \ prefer loose, sandy, or loamy soil free of rocks to encourage straight root development. They are a cool-season crop\
-    \ that grows best in mild temperatures and requires consistent moisture for optimal growth. \n\n \U0001F31E\U0001F4A7\
-    \ Sun and Water Requirements:\n- Prefers full sun but tolerates partial shade.\n- Requires well-drained, loose, sandy\
-    \ or loamy soil.\n- Needs consistent watering to prevent cracking and encourage even growth.\n\n✂️\U0001FAD8 Methods to\
-    \ Propagate:\n- Seeds: Direct sow outdoors 2–4 weeks before the last frost in spring.\n- Succession Planting: Sow every\
-    \ 2–3 weeks for a continuous harvest.\n- Regrowing: Carrot tops can regrow greens in water but will not produce a new\
-    \ root.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E When to Harvest:\n- Roots are ready for harvest 60–80 days after\
-    \ planting.\n- Harvest when roots reach the desired size, typically 15–20 cm (6–8 inches) in length.\n- Leave some plants\
-    \ in the ground to overwinter for seed production the following year."
-  purpose: |-
-    Edible: taproots size for crunch storage while feathery tops flavor broths when young -- second-year umbels mean roots toughen once bolting begins.
-    Medicinal: roots concentrate carotenoids and sugars that underpin folk liver and vision teas even though clinical claims still need measured diets, not juice hype alone.
-    Pollinator: flat white umbels open in year two to feed tiny solitary bees, parasitoid wasps, and syrphid flies if a few roots are left to bolt on purpose.
-    Wildlife Attractor: seeds mature into dry schizocarps that finches and sparrows glean while umbel architecture shelters predatory insects above carrot rows.
-    Dynamic Accumulator: deep orange roots mine loose beds for potassium and phosphorus that move into tops when plants are chopped at senescence instead of hauling whole roots away every time.
-    Border Plant: rows edge onion and lettuce beds with a low feathery skirt that marks bed lines while staying short enough not to shade neighboring crops.
-  companions:
-  - Onion
-  - Garlic
-  - Lettuce
-  - Tomato
-  - Chive
-  cautions:
-  - Dill
-  - Fennel
-  pests:
-  - Alternaria Leaf Spot
-  - Carrot Fly
-  - Carrot Rust Fly
-  - Carrot Weevil
-  - Celery Leaf Miner
-  - Cercospora Leaf Spot
-  - Dill Worms
-  - Iguana
-  - Parsnip Canker
-  - Serpentine Leafminer
-  - Swallowtail Caterpillar
-  - Wireworm
-  - aphids
-  - Mole Crickets
-  - Crane Fly Larvae
-  - White Grubs
-  - June Beetle Grubs
-  - Chafer Grubs
-  - Root Feeding Grubs
-  - Root Aphid
-  - Cutworm Larvae
-  practitioner_notes: 'Carrot fly smells wounded foliage—thin at dusk, not midday, and avoid fresh manure before sowing if
-    root splits attract them.
-
-    Stone-free beds prevent forked roots; heavy clay without organic depth grows stunted pencils, not market carrots.
-
-    Bare soil over winter invites wireworm drama—cover crop or tarp before spring root crops in problem fields.
-
-    Overdense stands need ruthless thinning—crowding grows hairy roots and invites leaf blights that start at soil splash.'
-  growth_habit: Tree
-  data_quality_score: 0.8
+common_name: Carrot
+picture: carrot.webp
+scientific_name: Daucus carota subsp. sativus
+aka:
+- Wild Carrot (Daucus carota)
+- Queen Anne's Lace (wild ancestor)
+family: Apiaceae
+zone: 3-10
+ideal_temp_min: 45
+ideal_temp_max: 75
+min_temp: 20
+max_temp: 95
+perennial: false
+layers:
+- Root
+plant_function:
+- Edible
+- Medicinal
+- Pollinator
+- Wildlife Attractor
+- Dynamic Accumulator
+- Border Plant
+description: "Carrot (Daucus carota subsp. sativus) is a biennial root vegetable grown\
+  \ for its edible taproot. It develops long, cylindrical roots in shades of orange,\
+  \ purple, red, yellow, and white, depending on the variety. The plant has feathery\
+  \ green foliage and produces clusters of small white flowers in its second year\
+  \ if not harvested.\n\nCarrots prefer loose, sandy, or loamy soil free of rocks\
+  \ to encourage straight root development. They are a cool-season crop that grows\
+  \ best in mild temperatures and requires consistent moisture for optimal growth.\
+  \ \n\n \U0001F31E\U0001F4A7 Sun and Water Requirements:\n- Prefers full sun but\
+  \ tolerates partial shade.\n- Requires well-drained, loose, sandy or loamy soil.\n\
+  - Needs consistent watering to prevent cracking and encourage even growth.\n\n✂️\U0001FAD8\
+  \ Methods to Propagate:\n- Seeds: Direct sow outdoors 2–4 weeks before the last\
+  \ frost in spring.\n- Succession Planting: Sow every 2–3 weeks for a continuous\
+  \ harvest.\n- Regrowing: Carrot tops can regrow greens in water but will not produce\
+  \ a new root.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E When to Harvest:\n-\
+  \ Roots are ready for harvest 60–80 days after planting.\n- Harvest when roots reach\
+  \ the desired size, typically 15–20 cm (6–8 inches) in length.\n- Leave some plants\
+  \ in the ground to overwinter for seed production the following year."
+purpose: |-
+  Edible: taproots size for crunch storage while feathery tops flavor broths when young -- second-year umbels mean roots toughen once bolting begins.
+  Medicinal: roots concentrate carotenoids and sugars that underpin folk liver and vision teas even though clinical claims still need measured diets, not juice hype alone.
+  Pollinator: flat white umbels open in year two to feed tiny solitary bees, parasitoid wasps, and syrphid flies if a few roots are left to bolt on purpose.
+  Wildlife Attractor: seeds mature into dry schizocarps that finches and sparrows glean while umbel architecture shelters predatory insects above carrot rows.
+  Dynamic Accumulator: deep orange roots mine loose beds for potassium and phosphorus that move into tops when plants are chopped at senescence instead of hauling whole roots away every time.
+  Border Plant: rows edge onion and lettuce beds with a low feathery skirt that marks bed lines while staying short enough not to shade neighboring crops.
+companions:
+- Onion
+- Garlic
+- Lettuce
+- Tomato
+- Chive
+cautions:
+- Dill
+- Fennel
+pests:
+- Celery Leaf Miner
+- Dill Worms
+- Serpentine Leafminer
+- Wireworm
+- aphids
+- Crane Fly Larvae
+- White Grubs
+- June Beetle Grubs
+- Chafer Grubs
+- Root Feeding Grubs
+- Root Aphid
+- Cutworm Larvae
+growth_habit: Tree
+data_quality_score: 0.8
+diseases:
+- Alternaria Leaf Spot
+- Carrot Fly
+- Carrot Rust Fly
+- Carrot Weevil
+- Cercospora Leaf Spot
+- Parsnip Canker
+animal_pressure:
+- Iguana
+- Swallowtail Caterpillar
+- Mole Crickets

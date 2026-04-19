@@ -1,78 +1,59 @@
----
-- common_name: Watercress
-  picture: watercress.webp
-  scientific_name: Nasturtium officinale
-  aka:
-  - Yellowcress
-  family: Brassicaceae
-  zone: 6-9
-  ideal_temp_min: 50
-  ideal_temp_max: 60
-  min_temp: 32
-  max_temp: 85
-  perennial: true
-  layers:
-  - Herbaceous
-  - Aquatic
-  plant_function:
-  - Edible
-  - Medicinal
-  - Water Purifier
-  - Ground Cover
-  description: 'Watercress (*Nasturtium officinale*) is a fast-growing, aquatic or semi-aquatic perennial herb native to Europe
-    and Asia. It typically grows up to 60 cm (24 inches) in length, with hollow, branching stems that float in water or sprawl
-    over moist ground. The leaves are pinnately compound with oval to egg-shaped leaflets, and it produces small, white flowers
-    in clusters. Known for its peppery, tangy flavor, watercress is one of the oldest known leaf vegetables consumed by humans.
+common_name: Watercress
+picture: watercress.webp
+scientific_name: Nasturtium officinale
+aka:
+- Yellowcress
+family: Brassicaceae
+zone: 6-9
+ideal_temp_min: 50
+ideal_temp_max: 60
+min_temp: 32
+max_temp: 85
+perennial: true
+layers:
+- Herbaceous
+- Aquatic
+plant_function:
+- Edible
+- Medicinal
+- Water Purifier
+- Ground Cover
+description: |-
+  Watercress (*Nasturtium officinale*) is a fast-growing, aquatic or semi-aquatic perennial herb native to Europe and Asia. It typically grows up to 60 cm (24 inches) in length, with hollow, branching stems that float in water or sprawl over moist ground. The leaves are pinnately compound with oval to egg-shaped leaflets, and it produces small, white flowers in clusters. Known for its peppery, tangy flavor, watercress is one of the oldest known leaf vegetables consumed by humans.
 
+  🌞💧 Sun and Water Requirements:
+  Watercress thrives in full sun to partial shade and requires constant moisture, often growing in shallow water or damp soil. It prefers slightly alkaline water conditions and is well-suited to hydroponic cultivation. :contentReference[oaicite:0]{index=0}
 
-    🌞💧 Sun and Water Requirements:
+  ✂️🫘 Methods to Propagate:
+  Watercress can be propagated through seeds or cuttings. Seeds should be sown in moist soil or directly in water, while cuttings can root easily when placed in water or wet soil.
 
-    Watercress thrives in full sun to partial shade and requires constant moisture, often growing in shallow water or damp
-    soil. It prefers slightly alkaline water conditions and is well-suited to hydroponic cultivation. :contentReference[oaicite:0]{index=0}
-
-
-    ✂️🫘 Methods to Propagate:
-
-    Watercress can be propagated through seeds or cuttings. Seeds should be sown in moist soil or directly in water, while
-    cuttings can root easily when placed in water or wet soil.
-
-
-    🧑‍🌾👩‍🌾 When to Harvest:
-
-    Harvest young shoots and leaves regularly to encourage bushier growth. Continuous harvesting is possible due to its rapid
-    growth rate.'
-  purpose: |-
-    Edible: Nasturtium officinale hollow stems stay peppery in cold flow -- eat raw only from tested clean water; liver fluke risk is about upstream sheep, not your dressing recipe.
-    Medicinal: Glucosinolates and vitamin C underpin traditional spring tonic use -- go easy if you are on blood thinners or thyroid meds; brassica chemistry is not decorative.
-    Water Purifier: Floating mats strip nitrate and phosphate from eutrophic ditches -- harvest aggressively to export nutrients; stagnant warm pockets still need flow for oxygen.
-    Ground Cover: Roots anchor gravel in springheads -- fibrous mats armor seeps against winter scouring better than bare cobble.
-  companions:
-  - Mint
-  - Chives
-  - Parsley
-  cautions:
-  - Brassicas
-  pests:
-  - Aphids
-  - Cabbage Aphid
-  - Cabbage Looper
-  - Cabbage Root Fly
-  - Cabbage Root Maggots
-  - Cabbage Worms
-  - Cross-striped Cabbageworm
-  - Diamondback Moth
-  - Flea Beetles
-  - Harlequin Bug
-  - Imported Cabbageworm
-  - Snails
-  - Swede Midge
-  - Whiteflies
-  practitioner_notes: 'Blanch or process within hours if you are freezing—enzymes keep chewing while paperwork waits.
-
-    Label jars with plant part and date the day you seal—future you is not psychic.
-
-    Foot traffic after establishment only—early walks tear stems and invite weeds in the wounds.
-
-    Notebook one weird year—weather anomalies repeat; memory lies, scribbles do not.'
-  growth_habit: Tree
-  data_quality_score: 0.8
+  🧑‍🌾👩‍🌾 When to Harvest:
+  Harvest young shoots and leaves regularly to encourage bushier growth. Continuous harvesting is possible due to its rapid growth rate.
+purpose: |-
+  Edible: Nasturtium officinale hollow stems stay peppery in cold flow -- eat raw only from tested clean water; liver fluke risk is about upstream sheep, not your dressing recipe.
+  Medicinal: Glucosinolates and vitamin C underpin traditional spring tonic use -- go easy if you are on blood thinners or thyroid meds; brassica chemistry is not decorative.
+  Water Purifier: Floating mats strip nitrate and phosphate from eutrophic ditches -- harvest aggressively to export nutrients; stagnant warm pockets still need flow for oxygen.
+  Ground Cover: Roots anchor gravel in springheads -- fibrous mats armor seeps against winter scouring better than bare cobble.
+companions:
+- Mint
+- Chives
+- Parsley
+cautions:
+- Brassicas
+pests:
+- Aphids
+- Cabbage Aphid
+- Cabbage Looper
+- Cabbage Root Fly
+- Cabbage Root Maggots
+- Cabbage Worms
+- Cross-striped Cabbageworm
+- Diamondback Moth
+- Flea Beetles
+- Harlequin Bug
+- Imported Cabbageworm
+- Snails
+- Swede Midge
+- Whiteflies
+growth_habit: Tree
+data_quality_score: 0.8

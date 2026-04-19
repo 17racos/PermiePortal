@@ -1,63 +1,52 @@
----
-- common_name: Goldenseal
-  picture: goldenseal.webp
-  scientific_name: Hydrastis canadensis
-  aka:
-  - Yellowroot
-  - Orangeroot
-  family: Ranunculaceae
-  zone: 4-8
-  ideal_temp_min: 45
-  ideal_temp_max: 78
-  min_temp: -30
-  max_temp: 95
-  perennial: true
-  layers:
-  - Herbaceous
-  - Ground Cover
-  plant_function:
-  - Medicinal
-  - Wildlife Attractor
-  - Ground Cover
-  - Erosion Control
-  description: "Goldenseal (Hydrastis canadensis) is a rare herbaceous perennial of
-    rich eastern North American hardwood forests, with palmately lobed leaves, small
-    white flowers, and bright yellow rhizomes that made it famous in herbal commerce—and
-    tragically overharvested in the wild. Cultivation under shade cloth or forest farming
-    is the ethical path; wild digging is increasingly regulated and ecologically obscene.
-    It prefers cool, moist, humus-rich soils and dappled shade, behaving like a spring
-    ephemeral mood in a summer body.\n\n☀️💧 Sun and Water Requirements:\nDappled shade
-    to full shade; avoid midday sun that scorches leaves. Requires consistently moist,
-    well-drained, high-organic soils; drought causes rapid collapse. Winter chilling
-    suits temperate climates; heat spikes above roughly 90°F (32°C) stress plants without
-    mulch and humidity. Never plant in dry berms or roof drip lines that flash-flood
-    then desiccate.\n\n✂️ Propagation:\nRhizome division in early spring or fall with
-    buds and fibrous roots attached.\nSeeds require cold-moist stratification and patience;
-    germination can take two seasons.\n\n🌾 Harvest / Best Use Timing:\nIf cultivating
-    for medicine, harvest rhizomes after several years of growth—check local laws and
-    organic certification rules. For conservation plantings, do not harvest; let populations
-    build seed and rhizome mass."
-  purpose: |-
-    Medicinal: Hydrastis canadensis rhizome is standardized to berberine and hydrastine for mucosal astringent formulas -- CITES-style pressure on wild populations means nursery-cultivated or forest-farmed root only; harvest timing after five to seven years of shade growth follows state rules where sales exist.
-    Wildlife Attractor: Small white apetalous spring flowers sit under maples before canopy closes, visited by small flies and early bees -- ripe red fruit arils feed ants and rodents that disperse seed short distances in humus if you leave colonies undisturbed.
-    Ground Cover: Palmately lobed leaves expand after bloodroot senesces, tiling twelve-inch (30 cm) height under sugar maple drip lines -- never competes with turf aesthetics because it needs constant moisture and dappled shade.
-    Erosion Control: Yellow rhizomes creep horizontally under leaf litter, binding colluvial slopes in rich coves where spring seeps keep soil saturated -- expansion is inches per year, so it stabilizes without turning into a monoculture blanket overnight.
-  companions:
-  - Black Cohosh — shares rich mesic shade and supports diverse medicinal understory guilds
-  - Bloodroot — spring ephemeral contrast with later-emerging Hydrastis leaves
-  - Wild Ginger — low evergreen-ish ground layer that does not smother goldenseal crowns
-  cautions:
-  - Wild harvest legality — many jurisdictions restrict digging; cultivate from legal nursery stock only
-  pests:
-  - Slugs
-  - Snails
-  practitioner_notes: |-
-    If someone offers "cheap wild dug" roots, you are funding extinction math—walk away loudly.
-    Yellow rhizome color is loud ID; leaves alone confuse beginners with other lobed plants—verify twice.
-    It is not a patio pot novelty without shade and moisture discipline—expect corpse cosplay otherwise.
-    Forest farming beats closet grow ops for ethics; humidity and airflow still matter indoors.
-  growth_habit: Shade perennial; palmately lobed leaves; yellow rhizomes; rich forest soils
-  data_quality_score: 0.84
-  # Image attribution: Franz Eugen Köhler, Köhler's Medizinal-Pflanzen / Wikimedia Commons / Public domain
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+common_name: Goldenseal
+picture: goldenseal.webp
+scientific_name: Hydrastis canadensis
+aka:
+- Yellowroot
+- Orangeroot
+family: Ranunculaceae
+zone: 4-8
+ideal_temp_min: 45
+ideal_temp_max: 78
+min_temp: -30
+max_temp: 95
+perennial: true
+layers:
+- Herbaceous
+- Ground Cover
+plant_function:
+- Medicinal
+- Wildlife Attractor
+- Ground Cover
+- Erosion Control
+description: |-
+  Goldenseal (Hydrastis canadensis) is a rare herbaceous perennial of rich eastern North American hardwood forests, with palmately lobed leaves, small white flowers, and bright yellow rhizomes that made it famous in herbal commerce—and tragically overharvested in the wild. Cultivation under shade cloth or forest farming is the ethical path; wild digging is increasingly regulated and ecologically obscene. It prefers cool, moist, humus-rich soils and dappled shade, behaving like a spring ephemeral mood in a summer body.
+
+  ☀️💧 Sun and Water Requirements:
+  Dappled shade to full shade; avoid midday sun that scorches leaves. Requires consistently moist, well-drained, high-organic soils; drought causes rapid collapse. Winter chilling suits temperate climates; heat spikes above roughly 90°F (32°C) stress plants without mulch and humidity. Never plant in dry berms or roof drip lines that flash-flood then desiccate.
+
+  ✂️ Propagation:
+  Rhizome division in early spring or fall with buds and fibrous roots attached.
+  Seeds require cold-moist stratification and patience; germination can take two seasons.
+
+  🌾 Harvest / Best Use Timing:
+  If cultivating for medicine, harvest rhizomes after several years of growth—check local laws and organic certification rules. For conservation plantings, do not harvest; let populations build seed and rhizome mass.
+purpose: |-
+  Medicinal: Hydrastis canadensis rhizome is standardized to berberine and hydrastine for mucosal astringent formulas -- CITES-style pressure on wild populations means nursery-cultivated or forest-farmed root only; harvest timing after five to seven years of shade growth follows state rules where sales exist.
+  Wildlife Attractor: Small white apetalous spring flowers sit under maples before canopy closes, visited by small flies and early bees -- ripe red fruit arils feed ants and rodents that disperse seed short distances in humus if you leave colonies undisturbed.
+  Ground Cover: Palmately lobed leaves expand after bloodroot senesces, tiling twelve-inch (30 cm) height under sugar maple drip lines -- never competes with turf aesthetics because it needs constant moisture and dappled shade.
+  Erosion Control: Yellow rhizomes creep horizontally under leaf litter, binding colluvial slopes in rich coves where spring seeps keep soil saturated -- expansion is inches per year, so it stabilizes without turning into a monoculture blanket overnight.
+companions:
+- Black Cohosh — shares rich mesic shade and supports diverse medicinal understory
+  guilds
+- Bloodroot — spring ephemeral contrast with later-emerging Hydrastis leaves
+- Wild Ginger — low evergreen-ish ground layer that does not smother goldenseal crowns
+cautions:
+- Wild harvest legality — many jurisdictions restrict digging; cultivate from legal
+  nursery stock only
+pests:
+- Slugs
+- Snails
+growth_habit: Shade perennial; palmately lobed leaves; yellow rhizomes; rich forest
+  soils
+data_quality_score: 0.84

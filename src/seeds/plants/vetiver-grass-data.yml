@@ -1,85 +1,70 @@
----
-- common_name: Vetiver Grass
-  picture: vetiver_grass.webp
-  scientific_name: Chrysopogon zizanioides
-  aka:
-  - Khus Grass
-  family: Poaceae
-  zone: 8-11
-  ideal_temp_min: 65
-  ideal_temp_max: 95
-  min_temp: 5
-  max_temp: 131
-  perennial: true
-  layers:
-  - Herbaceous
-  plant_function:
-  - Erosion Control
-  - Mulcher
-  - Dynamic Accumulator
-  - Windbreaker
-  - Animal Fodder
-  - Pest Management
-  - Water Purifier
-  description: 'Vetiver Grass (Chrysopogon zizanioides) is a fast-growing, clump-forming perennial grass native to India.
-    It can grow up to about 5 feet (1.5 m) tall with a dense, fibrous root system that can extend over 10 feet (3 m) deep,
-    making it highly effective for erosion control. Unlike many grasses, it does not run by rhizomes but stays in a tight
-    clump, limiting invasive spread.
+common_name: Vetiver Grass
+picture: vetiver_grass.webp
+scientific_name: Chrysopogon zizanioides
+aka:
+- Khus Grass
+family: Poaceae
+zone: 8-11
+ideal_temp_min: 65
+ideal_temp_max: 95
+min_temp: 5
+max_temp: 131
+perennial: true
+layers:
+- Herbaceous
+plant_function:
+- Erosion Control
+- Mulcher
+- Dynamic Accumulator
+- Windbreaker
+- Animal Fodder
+- Pest Management
+- Water Purifier
+description: |-
+  Vetiver Grass (Chrysopogon zizanioides) is a fast-growing, clump-forming perennial grass native to India. It can grow up to about 5 feet (1.5 m) tall with a dense, fibrous root system that can extend over 10 feet (3 m) deep, making it highly effective for erosion control. Unlike many grasses, it does not run by rhizomes but stays in a tight clump, limiting invasive spread.
 
+  ☀️💧 Sun and Water Requirements:
 
-    ☀️💧 Sun and Water Requirements:
+  Full sun; tolerates poor and degraded soils when drainage stays honest.
+  Drought-resistant once established but benefits from regular watering during early growth.
 
+  ✂️ Propagation:
 
-    Full sun; tolerates poor and degraded soils when drainage stays honest.
+  Primarily root divisions; seeds are often sterile.
+  Plant at the start of the rainy season for fastest establishment.
 
-    Drought-resistant once established but benefits from regular watering during early growth.
+  🌾 Harvest / Best Use Timing:
 
-
-    ✂️ Propagation:
-
-
-    Primarily root divisions; seeds are often sterile.
-
-    Plant at the start of the rainy season for fastest establishment.
-
-
-    🌾 Harvest / Best Use Timing:
-
-
-    Cut for mulch or fodder several times per year when stands reach about 3–5 feet (about 1–1.5 m).'
-  purpose: |-
-    Erosion Control: Chrysopogon zizanioides forms non-running clumps with 3 m roots that knit lateritic slopes -- staple contour hedges across humid tropics without bamboo's wanderlust.
-    Mulcher: Silvery leaves yield multiple cuts yearly for mulch rings -- high silica slows decay, matching trees that want lasting cover.
-    Dynamic Accumulator: Deep roots mine potassium, magnesium, and trace metals from subsoil -- leaf ash returns those salts to hungry annuals on degraded ground.
-    Windbreaker: Tight row plantings filter trade winds across citrus and banana rows -- height is modest but porosity knocks gusts without full shade.
-    Animal Fodder: Young leaf splits palatable to cattle when protein still beats cardboard -- mature blades toughen fast; cut on rotation like hybrid napier.
-    Pest Management: Vetiver oil from roots repels termites in traditional granary protection -- field-scale claims need local verification.
-    Water Purifier: Filter strips of vetiver polish farm runoff and trap silt before water reaches canals -- roots tolerate short anaerobic pulses better than most grasses.
-  companions:
-  - Banana
-  - Citrus
-  - Papaya
-  - Bamboo
-  - Sugarcane
-  cautions:
-  - None reported
-  pests:
-  - Aphids
-  - Armyworms
-  - Bamboo Mite
-  - Corn Earworm
-  - Fall Armyworm
-  - Leaf Blight
-  - Lubber Grasshopper
-  - Rice Blast Fungus
-  - Rice Water Weevil
-  - Spittlebugs
-  - Wireworm
-  - Chinch Bugs
-  practitioner_notes: 'Hedge rows stop erosion on slopes—depth matters more than height.
-
-    Deep roots resist pulling—use machinery or accept permanent clumps.
-
-    Aromatic roots are distillation crop—harvest after several warm years.'
-  growth_habit: Tree
-  data_quality_score: 0.8
+  Cut for mulch or fodder several times per year when stands reach about 3–5 feet (about 1–1.5 m).
+purpose: |-
+  Erosion Control: Chrysopogon zizanioides forms non-running clumps with 3 m roots that knit lateritic slopes -- staple contour hedges across humid tropics without bamboo's wanderlust.
+  Mulcher: Silvery leaves yield multiple cuts yearly for mulch rings -- high silica slows decay, matching trees that want lasting cover.
+  Dynamic Accumulator: Deep roots mine potassium, magnesium, and trace metals from subsoil -- leaf ash returns those salts to hungry annuals on degraded ground.
+  Windbreaker: Tight row plantings filter trade winds across citrus and banana rows -- height is modest but porosity knocks gusts without full shade.
+  Animal Fodder: Young leaf splits palatable to cattle when protein still beats cardboard -- mature blades toughen fast; cut on rotation like hybrid napier.
+  Pest Management: Vetiver oil from roots repels termites in traditional granary protection -- field-scale claims need local verification.
+  Water Purifier: Filter strips of vetiver polish farm runoff and trap silt before water reaches canals -- roots tolerate short anaerobic pulses better than most grasses.
+companions:
+- Banana
+- Citrus
+- Papaya
+- Bamboo
+- Sugarcane
+cautions:
+- None reported
+pests:
+- Aphids
+- Armyworms
+- Bamboo Mite
+- Corn Earworm
+- Fall Armyworm
+- Lubber Grasshopper
+- Rice Blast Fungus
+- Rice Water Weevil
+- Spittlebugs
+- Wireworm
+- Chinch Bugs
+growth_habit: Tree
+data_quality_score: 0.8
+diseases:
+- Leaf Blight

@@ -1,51 +1,46 @@
----
-- common_name: Air Potato
-  picture: air_potato.webp
-  scientific_name: Dioscorea bulbifera
-  aka:
-  - Air yam
-  - Potato yam (do not confuse with food-security fantasy)
-  family: Dioscoreaceae
-  zone: 9-11
-  ideal_temp_min: 65
-  ideal_temp_max: 92
-  min_temp: 28
-  max_temp: 105
-  perennial: true
-  layers:
-  - Vine
-  plant_function:
-  - Ground Cover
-  description: |-
-    Air potato is the poster yam for “just because it is edible somewhere does not mean you should unleash it.” In Florida it is a regulated invasive that smothers canopy; the aerial bulbils travel like gossip. This entry is documentation, not encouragement.
-    
-    Already a known ecosystem problem in parts of the state. If you are researching control, assume any bulbil you drop is a lawsuit against the forest.
-    
-    Sun and water: Rampant in sun to partial shade with summer moisture; tolerates seasonal dry-down once established—that is part of why it wins.
-    ✂️ Propagation:
-    Unfortunately extremely easy from bulbils and tubers—which is exactly why land managers lose sleep. Do not propagate for permaculture cosplay where it is illegal or unethical.
-    
-    🌾 Harvest / Best Use Timing:
-    - In invaded range, timing is about removing bulbils before they drop -- not extending harvest season.
-    - Where law and ecology intersect, bag and dispose per local invasive guidance instead of compost fantasies.
-    - If you study processing in cultures where this yam is native, treat lineage and toxicity data as mandatory reading -- not a weekend forage thread.
-  purpose: |-
-    Ground Cover: Dioscorea bulbifera vines layer heart-shaped leaves over shrubs and canopy edges while marble aerial bulbils clone new plants wherever they fall -- in invaded subtropical range that same mat smothers natives, so managers prioritize stripping bulbils before drop season instead of treating the vine as a permaculture hero crop.
-  companions:
-  - None recommended in invasion zones
-  cautions:
-  - Planting where prohibited or ecologically reckless
-  - Confusing it with benign ornamental vines
-  pests:
-  - flea beetles
-  - aphids
-  - mites
-  practitioner_notes: |-
-    In invaded range, treat every fallen bulbil as a new infestation—pickup beats repeated control seasons.
-    Vines grow far from visible tubers; clearing canopy without digging the donor root leaves a time bomb.
-    Some lineages are bitter or toxic raw—do not forage-ID this vine casually for dinner experiments.
-  growth_habit: Deciduous twining vine; forms underground tubers and aerial bulbils
-  data_quality_score: 0.75
-  # Image attribution: Vengolis / Wikimedia Commons / CC BY-SA 4.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+common_name: Air Potato
+picture: air_potato.webp
+scientific_name: Dioscorea bulbifera
+aka:
+- Air yam
+- Potato yam (do not confuse with food-security fantasy)
+family: Dioscoreaceae
+zone: 9-11
+ideal_temp_min: 65
+ideal_temp_max: 92
+min_temp: 28
+max_temp: 105
+perennial: true
+layers:
+- Vine
+plant_function:
+- Ground Cover
+description: |-
+  Air potato is the poster yam for “just because it is edible somewhere does not mean you should unleash it.” In Florida it is a regulated invasive that smothers canopy; the aerial bulbils travel like gossip. This entry is documentation, not encouragement.
+
+  Already a known ecosystem problem in parts of the state. If you are researching control, assume any bulbil you drop is a lawsuit against the forest.
+
+  Sun and water: Rampant in sun to partial shade with summer moisture; tolerates seasonal dry-down once established—that is part of why it wins.
+  ✂️ Propagation:
+  Unfortunately extremely easy from bulbils and tubers—which is exactly why land managers lose sleep. Do not propagate for permaculture cosplay where it is illegal or unethical.
+
+  🌾 Harvest / Best Use Timing:
+  - In invaded range, timing is about removing bulbils before they drop -- not extending harvest season.
+  - Where law and ecology intersect, bag and dispose per local invasive guidance instead of compost fantasies.
+  - If you study processing in cultures where this yam is native, treat lineage and toxicity data as mandatory reading -- not a weekend forage thread.
+purpose: 'Ground Cover: Dioscorea bulbifera vines layer heart-shaped leaves over shrubs
+  and canopy edges while marble aerial bulbils clone new plants wherever they fall
+  -- in invaded subtropical range that same mat smothers natives, so managers prioritize
+  stripping bulbils before drop season instead of treating the vine as a permaculture
+  hero crop.'
+companions:
+- None recommended in invasion zones
+cautions:
+- Planting where prohibited or ecologically reckless
+- Confusing it with benign ornamental vines
+pests:
+- flea beetles
+- aphids
+- mites
+growth_habit: Deciduous twining vine; forms underground tubers and aerial bulbils
+data_quality_score: 0.75

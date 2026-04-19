@@ -1,87 +1,73 @@
----
-- common_name: Wonderberry
-  picture: wonderberry.webp
-  scientific_name: Solanum retroflexum
-  aka:
-  - Sunberry
-  - Garden huckleberry (ambiguous marketing name)
-  family: Solanaceae
-  zone: 3-9
-  ideal_temp_min: 55
-  ideal_temp_max: 90
-  min_temp: -5
-  max_temp: 100
-  perennial: false
-  layers:
-  - Herbaceous
-  plant_function:
-  - Edible
-  - Ornamental
-  - Wildlife Attractor
-  description: 'Wonderberry (Solanum retroflexum) is a fast-growing annual nightshade developed for garden use, producing
-    clusters of small dark berries on branching plants in warm summers. It sits in the tangled taxonomy of black nightshade
-    relatives—treat every seed source as a distinct genotype until proven otherwise. In permaculture it is a novelty berry
-    for jam trials and insectary rows, not a staple calorie crop.
+common_name: Wonderberry
+picture: wonderberry.webp
+scientific_name: Solanum retroflexum
+aka:
+- Sunberry
+- Garden huckleberry (ambiguous marketing name)
+family: Solanaceae
+zone: 3-9
+ideal_temp_min: 55
+ideal_temp_max: 90
+min_temp: -5
+max_temp: 100
+perennial: false
+layers:
+- Herbaceous
+plant_function:
+- Edible
+- Ornamental
+- Wildlife Attractor
+description: |-
+  Wonderberry (Solanum retroflexum) is a fast-growing annual nightshade developed for garden use, producing clusters of small dark berries on branching plants in warm summers. It sits in the tangled taxonomy of black nightshade relatives—treat every seed source as a distinct genotype until proven otherwise. In permaculture it is a novelty berry for jam trials and insectary rows, not a staple calorie crop.
 
+  ☀️💧 Sun and Water Requirements:
+  Full sun for sweetest fruit set; light shade reduces yields. Rich, moist, well-drained garden soils accelerate growth; drought during flowering collapses fruit loads. Even watering prevents blossom end issues common in nightshades.
 
-    ☀️💧 Sun and Water Requirements:
+  ✂️ Propagation:
+  Start seed indoors 6–8 weeks before last frost or direct-sow after soil warms. Transplant carefully; young stems break. Stake or cage if laden with fruit in windy sites.
 
-    Full sun for sweetest fruit set; light shade reduces yields. Rich, moist, well-drained garden soils accelerate growth;
-    drought during flowering collapses fruit loads. Even watering prevents blossom end issues common in nightshades.
-
-
-    ✂️ Propagation:
-
-    Start seed indoors 6–8 weeks before last frost or direct-sow after soil warms. Transplant carefully; young stems break.
-    Stake or cage if laden with fruit in windy sites.
-
-
-    🌾 Harvest / Best Use Timing:
-
-    Pick berries fully ripe, soft, and uniformly dark for cooked jams or pies; heat is traditional. Taste-test small amounts
-    from your specific plants before scaling recipes. Frost ends the season—harvest or cover if a late cold snap threatens.'
-  purpose: |-
-    Edible: Solanum retroflexum black berries need heat and sugar in jam -- solanine risk in green fruit; genotype lines differ; taste-test cooked samples before scaling batches.
-    Ornamental: Nightshade shrublets with tiny white flowers and glossy berries read curious in annual beds -- not a backbone hedge.
-    Wildlife Attractor: Generalist bees work flowers; catbirds strip ripe clusters -- net if human jam beats bird charity.
-  companions:
-  - Tomato — shared solanaceous bed culture; both want rich soil and consistent moisture
-  - Basil — aromatic intercrop folklore in vegetable gardens; handles different rooting depth
-  - Nasturtium — trap crop and ground splash shield at soil line for nightshade rows
-  cautions:
-  - Nightshade chemistry variability — verify edibility for your seed source; green berries are not food
-  - Self-sowing — remove unwanted volunteers before they fruit if escapes are a concern
-  pests:
-  - Andean Potato Weevil
-  - Aphids
-  - Broad Mite
-  - Brown Marmorated Stink Bug
-  - Colorado Potato Beetle
-  - Corn Earworm
-  - Cyclamen Mite
-  - Flea Beetles
-  - Fusarium Wilt
-  - Greenhouse Whitefly
-  - Late Blight
-  - Leaf Curl
-  - Leaf Spot
-  - Pepper Weevil
-  - Potato Scab
-  - Pythium Root Rot
-  - Reniform Nematode
-  - Root Aphid
-  - Shore Fly
-  - Spotted Cucumber Beetle
-  - Stink Bug
-  - Tobacco Budworm
-  - Tomato Hornworms
-  - Wireworm
-  practitioner_notes: 'Marketing names outrun taxonomy; treat wonderberry like a lab partner—verify, then trust.
-
-    If jam tastes bitter, your patience was better spent on a known blueberry patch.
-
-    Colorado potato beetle thinks solanaceous diversity is a buffet—scout early.
-
-    Birds will audit your harvest schedule; net or share.'
-  growth_habit: Branching annual nightshade; clusters of small dark berries; warm garden soils
-  data_quality_score: 0.82
+  🌾 Harvest / Best Use Timing:
+  Pick berries fully ripe, soft, and uniformly dark for cooked jams or pies; heat is traditional. Taste-test small amounts from your specific plants before scaling recipes. Frost ends the season—harvest or cover if a late cold snap threatens.
+purpose: |-
+  Edible: Solanum retroflexum black berries need heat and sugar in jam -- solanine risk in green fruit; genotype lines differ; taste-test cooked samples before scaling batches.
+  Ornamental: Nightshade shrublets with tiny white flowers and glossy berries read curious in annual beds -- not a backbone hedge.
+  Wildlife Attractor: Generalist bees work flowers; catbirds strip ripe clusters -- net if human jam beats bird charity.
+companions:
+- Tomato — shared solanaceous bed culture; both want rich soil and consistent moisture
+- Basil — aromatic intercrop folklore in vegetable gardens; handles different rooting
+  depth
+- Nasturtium — trap crop and ground splash shield at soil line for nightshade rows
+cautions:
+- Nightshade chemistry variability — verify edibility for your seed source; green
+  berries are not food
+- Self-sowing — remove unwanted volunteers before they fruit if escapes are a concern
+pests:
+- Andean Potato Weevil
+- Aphids
+- Broad Mite
+- Colorado Potato Beetle
+- Corn Earworm
+- Cyclamen Mite
+- Flea Beetles
+- Greenhouse Whitefly
+- Leaf Curl
+- Pepper Weevil
+- Potato Scab
+- Reniform Nematode
+- Root Aphid
+- Shore Fly
+- Stink Bug
+- Tobacco Budworm
+- Tomato Hornworms
+- Wireworm
+growth_habit: Branching annual nightshade; clusters of small dark berries; warm garden
+  soils
+data_quality_score: 0.82
+diseases:
+- Fusarium Wilt
+- Late Blight
+- Leaf Spot
+- Pythium Root Rot
+- Spotted Cucumber Beetle
+animal_pressure:
+- Brown Marmorated Stink Bug

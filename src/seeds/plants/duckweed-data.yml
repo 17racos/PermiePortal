@@ -1,59 +1,47 @@
----
-- common_name: Duckweed
-  picture: duckweed.webp
-  scientific_name: Lemna minor
-  aka:
-  - Lesser Duckweed
-  - Lemna cyclostasa
-  - Lemna minima
-  family: Araceae
-  zone: 4-10
-  ideal_temp_min: 63
-  ideal_temp_max: 79
-  min_temp: 32
-  max_temp: 95
-  perennial: true
-  layers:
-  - Aquatic
-  plant_function:
-  - Edible
-  - Animal Fodder
-  - Water Purifier
-  - Biofuel
-  description: "Duckweed (*Lemna minor*) is a free-floating aquatic perennial known
-    for its rapid growth and small size. Each plant consists of a single, flat, oval-shaped
-    frond approximately 1.5 to 3.5 millimeters in length, making it one of the smallest
-    flowering plants. The fronds float on the surface of still or slow-moving freshwater
-    bodies, with fine roots hanging beneath. Duckweed thrives in nutrient-rich waters
-    and can form dense, green mats that cover the water's surface.\n\n\U0001F31E\U0001F4A7
-    Sun and Water Requirements:\nDuckweed prefers full sun exposure but can tolerate
-    partial shade. It grows best in calm, nutrient-rich waters with a neutral pH.
-    Optimal water temperatures range between 17°C and 26°C (63°F to 79°F).\n\n✂️\U0001FAD8
-    Methods to Propagate:\nPropagation primarily occurs vegetatively, with new fronds
-    budding off from parent plants. To cultivate duckweed, introduce a small number
-    of fronds to a nutrient-rich, still water body. Ensure adequate sunlight and monitor
-    nutrient levels to promote rapid growth.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E
-    When to Harvest:\nDuckweed can be harvested year-round in suitable climates. In
-    temperate regions, growth slows during cooler months. Harvest by skimming the
-    floating mats from the water's surface, ensuring some fronds remain to sustain
-    the population."
-  purpose: |-
-    Edible: Lemna minor fronds concentrate protein when skimmed and dried -- Asian cuisines use tiny duckweed as vegetable protein; rinse and process thoughtfully.
-    Animal Fodder: Rapid biomass supports fish, poultry, and livestock ponds as high-protein surface feed when heavy metals and pathogens are ruled out.
-    Water Purifier: Floating mats strip dissolved nitrogen and phosphorus from eutrophic ponds -- harvest regularly or mats crash oxygen when they senesce.
-    Biofuel: Starch-rich fronds are feedstock candidates for biogas digesters and ethanol pilots where farm-scale handling exists.
-  companions:
-  - Water Lily
-  - Cattail
-  cautions:
-  - Watermeal
-  pests:
-  - Shore Fly
-  - Aphids
-  practitioner_notes: |-
-    Morning picks hold turgor; afternoon heat steals shelf life even if the cooler feels honest.
-    Sharp tools and clean cuts beat torn stems; disease spores love frayed tissue more than rhetoric.
-    Overfertilized fast growth dilutes flavor and invites sap feeders—lean soil often tastes more like itself.
-    Watch the plant’s own signals first—catalog zone numbers do not replace your site’s microclimate truth.
-  growth_habit: Tree
-  data_quality_score: 0.8
+common_name: Duckweed
+picture: duckweed.webp
+scientific_name: Lemna minor
+aka:
+- Lesser Duckweed
+- Lemna cyclostasa
+- Lemna minima
+family: Araceae
+zone: 4-10
+ideal_temp_min: 63
+ideal_temp_max: 79
+min_temp: 32
+max_temp: 95
+perennial: true
+layers:
+- Aquatic
+plant_function:
+- Edible
+- Animal Fodder
+- Water Purifier
+- Biofuel
+description: |-
+  Duckweed (*Lemna minor*) is a free-floating aquatic perennial known for its rapid growth and small size. Each plant consists of a single, flat, oval-shaped frond approximately 1.5 to 3.5 millimeters in length, making it one of the smallest flowering plants. The fronds float on the surface of still or slow-moving freshwater bodies, with fine roots hanging beneath. Duckweed thrives in nutrient-rich waters and can form dense, green mats that cover the water's surface.
+
+  🌞💧 Sun and Water Requirements:
+  Duckweed prefers full sun exposure but can tolerate partial shade. It grows best in calm, nutrient-rich waters with a neutral pH. Optimal water temperatures range between 17°C and 26°C (63°F to 79°F).
+
+  ✂️🫘 Methods to Propagate:
+  Propagation primarily occurs vegetatively, with new fronds budding off from parent plants. To cultivate duckweed, introduce a small number of fronds to a nutrient-rich, still water body. Ensure adequate sunlight and monitor nutrient levels to promote rapid growth.
+
+  🧑‍🌾👩‍🌾 When to Harvest:
+  Duckweed can be harvested year-round in suitable climates. In temperate regions, growth slows during cooler months. Harvest by skimming the floating mats from the water's surface, ensuring some fronds remain to sustain the population.
+purpose: |-
+  Edible: Lemna minor fronds concentrate protein when skimmed and dried -- Asian cuisines use tiny duckweed as vegetable protein; rinse and process thoughtfully.
+  Animal Fodder: Rapid biomass supports fish, poultry, and livestock ponds as high-protein surface feed when heavy metals and pathogens are ruled out.
+  Water Purifier: Floating mats strip dissolved nitrogen and phosphorus from eutrophic ponds -- harvest regularly or mats crash oxygen when they senesce.
+  Biofuel: Starch-rich fronds are feedstock candidates for biogas digesters and ethanol pilots where farm-scale handling exists.
+companions:
+- Water Lily
+- Cattail
+cautions:
+- Watermeal
+pests:
+- Shore Fly
+- Aphids
+growth_habit: Tree
+data_quality_score: 0.8

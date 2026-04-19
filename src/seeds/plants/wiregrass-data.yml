@@ -1,76 +1,61 @@
----
-- common_name: Wiregrass
-  picture: wiregrass.webp
-  scientific_name: Aristida stricta
-  aka:
-  - Pineywoods Threeawn
-  family: Poaceae
-  zone: 7-10
-  ideal_temp_min: 45
-  ideal_temp_max: 100
-  min_temp: 10
-  max_temp: 110
-  perennial: true
-  layers:
-  - Herbaceous
-  plant_function:
-  - Erosion Control
-  - Wildlife Attractor
-  - Ornamental
-  - Biomass
-  description: 'Wiregrass (Aristida stricta) is a warm-season bunchgrass of southeastern North American pine savannas and
-    sandhills, forming dense tufts of wiry leaves and tall three-awn seed heads that catch light. It is a keystone species
-    in fire-maintained longleaf systems, providing fine fuel and structure for wildlife. Heights of 2–4 feet (60–120 cm) are
-    typical; roots dive deep on sand.
+common_name: Wiregrass
+picture: wiregrass.webp
+scientific_name: Aristida stricta
+aka:
+- Pineywoods Threeawn
+family: Poaceae
+zone: 7-10
+ideal_temp_min: 45
+ideal_temp_max: 100
+min_temp: 10
+max_temp: 110
+perennial: true
+layers:
+- Herbaceous
+plant_function:
+- Erosion Control
+- Wildlife Attractor
+- Ornamental
+- Biomass
+description: |-
+  Wiregrass (Aristida stricta) is a warm-season bunchgrass of southeastern North American pine savannas and sandhills, forming dense tufts of wiry leaves and tall three-awn seed heads that catch light. It is a keystone species in fire-maintained longleaf systems, providing fine fuel and structure for wildlife. Heights of 2–4 feet (60–120 cm) are typical; roots dive deep on sand.
 
+  ☀️💧 Sun and Water Requirements:
+  Full sun; shade reduces vigor. Deep, well-drained sandy soils are native truth; tolerates drought once established. Avoid heavy clay and chronic irrigation.
 
-    ☀️💧 Sun and Water Requirements:
+  ✂️ Propagation:
+  Sow seed in warm soil; establish from local ecotype sources for restoration integrity. Burn management follows regulations—never freestyle fire without training.
 
-    Full sun; shade reduces vigor. Deep, well-drained sandy soils are native truth; tolerates drought once established. Avoid
-    heavy clay and chronic irrigation.
-
-
-    ✂️ Propagation:
-
-    Sow seed in warm soil; establish from local ecotype sources for restoration integrity. Burn management follows regulations—never
-    freestyle fire without training.
-
-
-    🌾 Harvest / Best Use Timing:
-
-    Primarily ecological—seed for restoration; leave standing for wildlife cover. Peak growth follows warm wet periods.'
-  purpose: |-
-    Erosion Control: Aristida stricta bunchgrass roots lock deep sandhills -- keystone ground cover under longleaf pine where fire returns on schedule.
-    Wildlife Attractor: Gopher tortoise and Bachman’s sparrow habitat depends on open wiregrass prairie -- structure for ground-nesting species when burns keep brush out.
-    Ornamental: Three-awn seed heads catch light like copper wire -- authentic longleaf understory texture in native gardens.
-    Biomass: Fine fuel loads carry cool prescribed fire -- legal burn plans only; unburned wiregrass thickets still beat bare sand.
-  companions:
-  - Longleaf Pine — overstory pine in classic wiregrass savanna where both belong ecologically
-  - Little Bluestem — complementary warm-season grass texture in mixed ground layers
-  - Milkweed — forb neighbor for pollinator strips at savanna edges
-  cautions:
-  - Fire ecology — growth assumes periodic burn in many natural systems; follow laws and safety
-  - Wrong soil — clay makes wiregrass a short tragic play
-  pests:
-  - Aphids
-  - Armyworms
-  - Bamboo Mite
-  - Corn Earworm
-  - Fall Armyworm
-  - Japanese Beetles
-  - Leaf Blight
-  - Lubber Grasshopper
-  - Rice Blast Fungus
-  - Rice Water Weevil
-  - Spider Mites
-  - Spittlebugs
-  - Wireworm
-  practitioner_notes: 'Three awns are the ID handshake—if awns are missing, you grabbed a different Aristida chapter.
-
-    Fire is a tool, not a vibe—permits and weather math beat backyard arson cosplay.
-
-    Ecotype matters—buy local seed for restoration, not generic “southern mix” mystery bags.
-
-    Livestock mouths hate awns—fence accordingly or accept vet stories.'
-  growth_habit: Warm-season sandhill grass; three-awn seed heads; longleaf savanna ground layer
-  data_quality_score: 0.8
+  🌾 Harvest / Best Use Timing:
+  Primarily ecological—seed for restoration; leave standing for wildlife cover. Peak growth follows warm wet periods.
+purpose: |-
+  Erosion Control: Aristida stricta bunchgrass roots lock deep sandhills -- keystone ground cover under longleaf pine where fire returns on schedule.
+  Wildlife Attractor: Gopher tortoise and Bachman’s sparrow habitat depends on open wiregrass prairie -- structure for ground-nesting species when burns keep brush out.
+  Ornamental: Three-awn seed heads catch light like copper wire -- authentic longleaf understory texture in native gardens.
+  Biomass: Fine fuel loads carry cool prescribed fire -- legal burn plans only; unburned wiregrass thickets still beat bare sand.
+companions:
+- Longleaf Pine — overstory pine in classic wiregrass savanna where both belong ecologically
+- Little Bluestem — complementary warm-season grass texture in mixed ground layers
+- Milkweed — forb neighbor for pollinator strips at savanna edges
+cautions:
+- Fire ecology — growth assumes periodic burn in many natural systems; follow laws
+  and safety
+- Wrong soil — clay makes wiregrass a short tragic play
+pests:
+- Aphids
+- Armyworms
+- Bamboo Mite
+- Corn Earworm
+- Fall Armyworm
+- Japanese Beetles
+- Lubber Grasshopper
+- Rice Blast Fungus
+- Rice Water Weevil
+- Spider Mites
+- Spittlebugs
+- Wireworm
+growth_habit: Warm-season sandhill grass; three-awn seed heads; longleaf savanna ground
+  layer
+data_quality_score: 0.8
+diseases:
+- Leaf Blight

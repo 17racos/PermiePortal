@@ -1,75 +1,57 @@
----
-- common_name: Beach Morning Glory
-  picture: beach_morning_glory.webp
-  scientific_name: Ipomoea pes-caprae
-  aka:
-  - Railroad vine
-  - Goat's foot
-  - Railroad Vine
-  - Goat's Foot Creeper
-  - Bay Hops
-  family: Convolvulaceae
-  zone: 10-12
-  ideal_temp_min: 65
-  ideal_temp_max: 95
-  min_temp: 32
-  max_temp: 110
-  perennial: true
-  layers:
-  - Ground Cover
-  - Vine
-  plant_function:
-  - Erosion Control
-  - Ground Cover
-  - Ornamental
-  - Wildlife Attractor
-  description: 'Beach morning glory (Ipomoea pes-caprae) is a pantropical perennial vine of upper beaches and frontal dunes,
-    famous for running many meters along sand with succulent, bilobed leaves shaped like a goat’s hoof and large pink-purple
-    trumpet flowers that open in morning sun. It is a primary sand-binding species in Caribbean, Gulf, Atlantic, and Pacific
-    tropical coasts, tolerating salt spray, heat, and periodic burial. The plant rarely climbs tall supports, instead forming
-    a low green ribbon behind the high-tide line.
+common_name: Beach Morning Glory
+picture: beach_morning_glory.webp
+scientific_name: Ipomoea pes-caprae
+aka:
+- Railroad vine
+- Goat's foot
+- Railroad Vine
+- Goat's Foot Creeper
+- Bay Hops
+family: Convolvulaceae
+zone: 10-12
+ideal_temp_min: 65
+ideal_temp_max: 95
+min_temp: 32
+max_temp: 110
+perennial: true
+layers:
+- Ground Cover
+- Vine
+plant_function:
+- Erosion Control
+- Ground Cover
+- Ornamental
+- Wildlife Attractor
+description: |-
+  Beach morning glory (Ipomoea pes-caprae) is a pantropical perennial vine of upper beaches and frontal dunes, famous for running many meters along sand with succulent, bilobed leaves shaped like a goat’s hoof and large pink-purple trumpet flowers that open in morning sun. It is a primary sand-binding species in Caribbean, Gulf, Atlantic, and Pacific tropical coasts, tolerating salt spray, heat, and periodic burial. The plant rarely climbs tall supports, instead forming a low green ribbon behind the high-tide line.
 
+  ☀️💧 Sun and Water Requirements:
+  Full sun; requires excellent drainage and tolerates drought between coastal rains. Salt aerosols are normal; rinse is provided by storms. Inland use demands lean sand mixes and strict avoidance of overwatering; cold wet soils rot stems in marginal winters near 32°F (0°C).
 
-    ☀️💧 Sun and Water Requirements:
+  ✂️ Propagation:
+  Root sections of stem with nodes buried in warm sand; keep moist until anchored. Sow seed after soaking overnight; transplant small plugs into restoration fabric if crabs are abundant. Avoid importing beach material across regions where this species is regulated.
 
-    Full sun; requires excellent drainage and tolerates drought between coastal rains. Salt aerosols are normal; rinse is
-    provided by storms. Inland use demands lean sand mixes and strict avoidance of overwatering; cold wet soils rot stems
-    in marginal winters near 32°F (0°C).
-
-
-    ✂️ Propagation:
-
-    Root sections of stem with nodes buried in warm sand; keep moist until anchored. Sow seed after soaking overnight; transplant
-    small plugs into restoration fabric if crabs are abundant. Avoid importing beach material across regions where this species
-    is regulated.
-
-
-    🌾 Harvest / Best Use Timing:
-
-    Not a standard food crop in modern gardens—historical uses exist but require expert knowledge. For restoration, trim to
-    encourage lateral fill before storm season; remove smothered sections after wrack deposits if mats lift and dry.'
-  purpose: |-
-    Erosion Control: Ipomoea pes-caprae bilobed leaves and long runners root at nodes to knit foredunes against northeaster scarping -- burial by storm sand often survives if growing tips stay connected to moist sand below.
-    Ground Cover: Low ribbon of succulent foliage catches windblown wrack fines that feed the next successional band -- inland pots need lean mix and drought honesty or stems rot from kindness.
-    Ornamental: Morning pink-purple trumpets open fresh on goat-hoof leaves for photos before noon fade -- not the fence-climbing sweet potato mistake if you sourced true coastal ecotype.
-    Wildlife Attractor: Nectar feeds hawkmoths and native bees while mats shelter beach wolf spiders and hatchling routes where foot traffic is actually controlled.
-  companions:
-  - Sea Oats — classic pairing on dunes; morning glory lower, grasses higher on the slope
-  - Bay Bean — legume neighbor that adds nitrogen to shared sandy substrate
-  - Cocoplum — shrubby island between beach vine and inland plantings in subtropical designs
-  cautions:
-  - Frost — dies back to roots or kills outright where freezes are hard or prolonged
-  - Smothering adjacent delicate natives — steer runners with sand trenching or trim
-  pests:
-  - Caterpillars
-  - Leafhoppers
-  - Sweet Potato Weevil
-  practitioner_notes: 'If it climbs your fence, you probably bought the wrong Ipomoea—beach form wants sand, not latticework.
-
-    Burial by storm sand is often survivable; wait before declaring mortality.
-
-    Flowers fade by afternoon—plan photos for morning walks, not sunset guilt.
-
-    Cuttings desiccate in minutes in trade-wind sun; wrap in moist cloth when moving between sites.'
-  growth_habit: Prostrate perennial vine; bilobed leaves; large pink-purple funnelform flowers
-  data_quality_score: 0.85
+  🌾 Harvest / Best Use Timing:
+  Not a standard food crop in modern gardens—historical uses exist but require expert knowledge. For restoration, trim to encourage lateral fill before storm season; remove smothered sections after wrack deposits if mats lift and dry.
+purpose: |-
+  Erosion Control: Ipomoea pes-caprae bilobed leaves and long runners root at nodes to knit foredunes against northeaster scarping -- burial by storm sand often survives if growing tips stay connected to moist sand below.
+  Ground Cover: Low ribbon of succulent foliage catches windblown wrack fines that feed the next successional band -- inland pots need lean mix and drought honesty or stems rot from kindness.
+  Ornamental: Morning pink-purple trumpets open fresh on goat-hoof leaves for photos before noon fade -- not the fence-climbing sweet potato mistake if you sourced true coastal ecotype.
+  Wildlife Attractor: Nectar feeds hawkmoths and native bees while mats shelter beach wolf spiders and hatchling routes where foot traffic is actually controlled.
+companions:
+- Sea Oats — classic pairing on dunes; morning glory lower, grasses higher on the
+  slope
+- Bay Bean — legume neighbor that adds nitrogen to shared sandy substrate
+- Cocoplum — shrubby island between beach vine and inland plantings in subtropical
+  designs
+cautions:
+- Frost — dies back to roots or kills outright where freezes are hard or prolonged
+- Smothering adjacent delicate natives — steer runners with sand trenching or trim
+pests:
+- Leafhoppers
+- Sweet Potato Weevil
+growth_habit: Prostrate perennial vine; bilobed leaves; large pink-purple funnelform
+  flowers
+data_quality_score: 0.85
+animal_pressure:
+- Caterpillars

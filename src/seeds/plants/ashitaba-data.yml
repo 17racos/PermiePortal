@@ -1,79 +1,61 @@
----
-- common_name: Ashitaba
-  picture: ashitaba.webp
-  scientific_name: Angelica keiskei
-  aka:
-  - Tomorrow leaf
-  - Japanese angelica
-  family: Apiaceae
-  zone: 9-11
-  ideal_temp_min: 55
-  ideal_temp_max: 80
-  min_temp: 28
-  max_temp: 95
-  perennial: true
-  layers:
-  - Herbaceous
-  plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Ornamental
-  description: 'Ashitaba (Angelica keiskei) is a long-lived Japanese perennial umbellifer with thick celery-ish stems and
-    glossy compound leaves; the common name nods to basal sprouting after cutting—"tomorrow leaf" folklore meets a plant that
-    actually resprouts if the crown stays healthy. Mature clumps reach roughly 3–4 feet in humid shade gardens and throw umbels
-    of small white flowers when allowed to bloom. Flavor is bitter-green; treat medicinal chatter online with the skepticism
-    it earns.
+common_name: Ashitaba
+picture: ashitaba.webp
+scientific_name: Angelica keiskei
+aka:
+- Tomorrow leaf
+- Japanese angelica
+family: Apiaceae
+zone: 9-11
+ideal_temp_min: 55
+ideal_temp_max: 80
+min_temp: 28
+max_temp: 95
+perennial: true
+layers:
+- Herbaceous
+plant_function:
+- Edible
+- Medicinal
+- Pollinator
+- Ornamental
+description: |-
+  Ashitaba (Angelica keiskei) is a long-lived Japanese perennial umbellifer with thick celery-ish stems and glossy compound leaves; the common name nods to basal sprouting after cutting—"tomorrow leaf" folklore meets a plant that actually resprouts if the crown stays healthy. Mature clumps reach roughly 3–4 feet in humid shade gardens and throw umbels of small white flowers when allowed to bloom. Flavor is bitter-green; treat medicinal chatter online with the skepticism it earns.
 
+  ☀️💧 Sun and Water Requirements:
+  - Part sun to bright shade in subtropical and tropical Americas; avoid blasting midday sun on shallow roots.
+  - Rich, moist, well-drained soil; steady humidity suits subtropical and tropical porches—never let containers dry to dust.
+  - Heavy mulch cools the root crown through humid summers and cuts splash-borne rot drama.
 
-    ☀️💧 Sun and Water Requirements:
+  ✂️ Propagation:
+  - Fresh seed (viability drops fast—sow soon after receipt) in warm, humid media.
+  - Crown division in warm wet weather; keep each piece rooted and shaded until new growth firms up.
 
-    - Part sun to bright shade in subtropical and tropical Americas; avoid blasting midday sun on shallow roots.
-
-    - Rich, moist, well-drained soil; steady humidity suits subtropical and tropical porches—never let containers dry to dust.
-
-    - Heavy mulch cools the root crown through humid summers and cuts splash-borne rot drama.
-
-
-    ✂️ Propagation:
-
-    - Fresh seed (viability drops fast—sow soon after receipt) in warm, humid media.
-
-    - Crown division in warm wet weather; keep each piece rooted and shaded until new growth firms up.
-
-
-    🌾 Harvest / Best Use Timing:
-
-    - Snip young leaves and tender stem tips for small culinary trials—positive Apiaceae ID first, always.
-
-    - If saving seed, let a few stems flower for pollinators, then collect when umbels brown and dry.'
-  purpose: |-
-    Edible: Angelica keiskei young stems and leaves taste bitter-green in small quantities in Japanese mountain cookery -- Apiaceae ID is mandatory before salad experiments because deadly look-alikes share roadsides.
-    Medicinal: Dried leaf and root preparations appear in East Asian materia medica for metabolic and circulatory protocols -- chalcones in yellow crown shoots drew supplement marketing; dose with vetted references, not forum stacks.
-    Pollinator: White compound umbels feed small bees, tachinid flies, and parasitoid wasps when you allow second-year bloom instead of endless tip harvest -- shade cloth slows bolting if you need leaves through long-day heat.
-    Ornamental: Thick glossy celery-like stems and bold pinnate leaves read as architectural shade-tropical filler beside ginger and turmeric pots -- heavy mulch keeps the crown cool where humidity spikes.
-  companions:
-  - Ginger
-  - Turmeric
-  - Elderflower
-  cautions:
-  - Blazing all-day sun and drought
-  - Confusing with toxic umbellifers—learn sterile keys
-  pests:
-  - Aphids
-  - Carrot Fly
-  - Carrot Rust Fly
-  - Carrot Weevil
-  - Celery Leaf Miner
-  - Dill Worms
-  - Leafhoppers
-  - Parsnip Canker
-  - Swallowtail Caterpillar
-  practitioner_notes: 'Harvest outer mature leaves; the yellow-green “tomorrow leaf” shoots at the crown are the signature
-    pick.
-
-    Cut-and-come-again beats stripping the whole crown—center growth fuels the next flush.
-
-    Plants run to flower in long-day heat—shade cloth or succession sowing keeps leaf production steadier.'
-  growth_habit: Clumping perennial herb to 3–4 feet
-  data_quality_score: 0.8
+  🌾 Harvest / Best Use Timing:
+  - Snip young leaves and tender stem tips for small culinary trials—positive Apiaceae ID first, always.
+  - If saving seed, let a few stems flower for pollinators, then collect when umbels brown and dry.
+purpose: |-
+  Edible: Angelica keiskei young stems and leaves taste bitter-green in small quantities in Japanese mountain cookery -- Apiaceae ID is mandatory before salad experiments because deadly look-alikes share roadsides.
+  Medicinal: Dried leaf and root preparations appear in East Asian materia medica for metabolic and circulatory protocols -- chalcones in yellow crown shoots drew supplement marketing; dose with vetted references, not forum stacks.
+  Pollinator: White compound umbels feed small bees, tachinid flies, and parasitoid wasps when you allow second-year bloom instead of endless tip harvest -- shade cloth slows bolting if you need leaves through long-day heat.
+  Ornamental: Thick glossy celery-like stems and bold pinnate leaves read as architectural shade-tropical filler beside ginger and turmeric pots -- heavy mulch keeps the crown cool where humidity spikes.
+companions:
+- Ginger
+- Turmeric
+- Elderflower
+cautions:
+- Blazing all-day sun and drought
+- Confusing with toxic umbellifers—learn sterile keys
+pests:
+- Aphids
+- Celery Leaf Miner
+- Dill Worms
+- Leafhoppers
+growth_habit: Clumping perennial herb to 3–4 feet
+data_quality_score: 0.8
+diseases:
+- Carrot Fly
+- Carrot Rust Fly
+- Carrot Weevil
+- Parsnip Canker
+animal_pressure:
+- Swallowtail Caterpillar

@@ -1,76 +1,57 @@
----
-- common_name: Rhododendron
-  picture: rhododendron.webp
-  scientific_name: Rhododendron ponticum
-  aka:
-  - Azalea
-  family: Ericaceae
-  zone: 4-9
-  ideal_temp_min: 60
-  ideal_temp_max: 75
-  min_temp: -25
-  max_temp: 95
-  perennial: true
-  layers:
-  - Shrub
-  plant_function:
-  - Ornamental
-  - Pollinator
-  - Wildlife Attractor
-  - Erosion Control
-  description: 'Rhododendrons are a diverse genus of woody plants ranging from low-growing ground covers to tall trees. They
-    are known for their large clusters of brightly colored flowers, which bloom from late winter through early summer, depending
-    on the species. The leaves are typically evergreen, varying in size and shape, and may have a leathery texture. Rhododendrons
-    prefer acidic, well-drained soils rich in organic matter and thrive in partial shade environments. Their extensive root
-    systems make them effective for erosion control on slopes and hillsides.
+common_name: Rhododendron
+picture: rhododendron.webp
+scientific_name: Rhododendron ponticum
+aka:
+- Azalea
+family: Ericaceae
+zone: 4-9
+ideal_temp_min: 60
+ideal_temp_max: 75
+min_temp: -25
+max_temp: 95
+perennial: true
+layers:
+- Shrub
+plant_function:
+- Ornamental
+- Pollinator
+- Wildlife Attractor
+- Erosion Control
+description: |-
+  Rhododendrons are a diverse genus of woody plants ranging from low-growing ground covers to tall trees. They are known for their large clusters of brightly colored flowers, which bloom from late winter through early summer, depending on the species. The leaves are typically evergreen, varying in size and shape, and may have a leathery texture. Rhododendrons prefer acidic, well-drained soils rich in organic matter and thrive in partial shade environments. Their extensive root systems make them effective for erosion control on slopes and hillsides.
 
+  🌞💧 **Sun and Water Requirements:**
+  Rhododendrons thrive in partial shade, receiving filtered sunlight or morning sun with afternoon shade. They require consistent moisture, preferring well-drained, acidic soils rich in organic matter. Mulching helps retain soil moisture and regulate soil temperature.
 
-    🌞💧 **Sun and Water Requirements:**
+  ✂️🫘 **Methods to Propagate:**
+  Propagation is typically done through stem cuttings, layering, or seed. Stem cuttings are taken in late summer, while layering can be done in early spring. Seed propagation is less common due to variability in offspring.
 
-    Rhododendrons thrive in partial shade, receiving filtered sunlight or morning sun with afternoon shade. They require consistent
-    moisture, preferring well-drained, acidic soils rich in organic matter. Mulching helps retain soil moisture and regulate
-    soil temperature.
-
-
-    ✂️🫘 **Methods to Propagate:**
-
-    Propagation is typically done through stem cuttings, layering, or seed. Stem cuttings are taken in late summer, while
-    layering can be done in early spring. Seed propagation is less common due to variability in offspring.
-
-
-    🧑‍🌾👩‍🌾 **When to Harvest:**
-
-    As ornamental plants, rhododendrons are not harvested. Pruning is done after flowering to maintain shape and remove spent
-    blooms.'
-  purpose: |-
-    Ornamental: Rhododendron trusses of pink-to-purple trumpets hang over leathery evergreen leaves on acid woodland berms -- Kurume-type dwarfs suit containers while native R. calendulaceum flames Appalachian ridges in May.
-    Pollinator: Sticky stigma and copious nectar reward bumblebee buzz-pollination on large-flowered hybrids -- single forms feed insects; double “roseum” types often offer theater without pollen paychecks.
-    Wildlife Attractor: Dense twigging shelters winter wrens and towhees from hawks; toxic leaves deter mammal browse so nests stay less molested than on soft-deciduous shrubs -- still plan spacing for airflow against lace bugs.
-    Erosion Control: Fibrous shallow roots knit mulch on shaded cuts where turf would slide -- pair with rotted oak leaf mold, not alkaline topsoil, or chlorosis paints the whole slope yellow by August.
-  companions:
-  - Fern
-  - Hosta
-  - Azalea
-  - Dogwood
-  - Camellia
-  cautions:
-  - None
-  pests:
-  - Azalea Caterpillar
-  - Blueberry Maggot
-  - Caterpillars
-  - Cranberry Fruitworm
-  - Cranberry Tipworm
-  - Root Rot
-  - Sparganothis Fruitworm
-  - Strawberry Root Weevil
-  - Vine Weevil
-  practitioner_notes: 'Morning photos for ID are useless if you only look at dusk—check midday nectar presentation too.
-
-    Sharp tools and clean cuts beat torn stems; disease spores love frayed tissue more than rhetoric.
-
-    Cluster patches three feet or wider—tiny one-offs get ignored by bees cruising for volume.
-
-    Soil smell and root color tell more than gadget overload—dig a small hole twice a season.'
-  growth_habit: Tree
-  data_quality_score: 0.8
+  🧑‍🌾👩‍🌾 **When to Harvest:**
+  As ornamental plants, rhododendrons are not harvested. Pruning is done after flowering to maintain shape and remove spent blooms.
+purpose: |-
+  Ornamental: Rhododendron trusses of pink-to-purple trumpets hang over leathery evergreen leaves on acid woodland berms -- Kurume-type dwarfs suit containers while native R. calendulaceum flames Appalachian ridges in May.
+  Pollinator: Sticky stigma and copious nectar reward bumblebee buzz-pollination on large-flowered hybrids -- single forms feed insects; double “roseum” types often offer theater without pollen paychecks.
+  Wildlife Attractor: Dense twigging shelters winter wrens and towhees from hawks; toxic leaves deter mammal browse so nests stay less molested than on soft-deciduous shrubs -- still plan spacing for airflow against lace bugs.
+  Erosion Control: Fibrous shallow roots knit mulch on shaded cuts where turf would slide -- pair with rotted oak leaf mold, not alkaline topsoil, or chlorosis paints the whole slope yellow by August.
+companions:
+- Fern
+- Hosta
+- Azalea
+- Dogwood
+- Camellia
+cautions:
+- None
+pests:
+- Blueberry Maggot
+- Cranberry Fruitworm
+- Cranberry Tipworm
+- Sparganothis Fruitworm
+- Strawberry Root Weevil
+- Vine Weevil
+growth_habit: Tree
+data_quality_score: 0.8
+diseases:
+- Root Rot
+animal_pressure:
+- Azalea Caterpillar
+- Caterpillars

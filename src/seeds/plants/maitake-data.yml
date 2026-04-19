@@ -1,79 +1,63 @@
----
-- common_name: Maitake
-  picture: maitake.webp
-  scientific_name: Grifola frondosa
-  aka:
-  - Hen of the Woods
-  - Sheep's Head
-  - Dancing Mushroom
-  family: Meripilaceae
-  zone: 4-9
-  ideal_temp_min: 50
-  ideal_temp_max: 70
-  min_temp: -30
-  max_temp: 90
-  perennial: true
-  layers:
-  - Fungal
-  plant_function:
-  - Edible
-  - Medicinal
-  - Mulcher
-  description: |-
-    Maitake forms overlapping rosettes of fan-shaped caps at the base of living or dying hardwoods — oaks are the headline host, though beech and maple also work. It is a cool-weather fruiter that shows up when nights drop into the 50s; subtropical Florida gets fewer reliable flushes than the Appalachians but oak-rich sites with wet-cool fall snaps do produce. The same tree may fruit at its base year after year if left undisturbed. Outdoor cultivation attempts use buried inoculated stem butts or commercial outdoor kits; success is real but slower and less predictable than shiitake on logs. Wild harvest requires confident ID — several base-fruiting polypores share the habitat.
-    
-    ☀️💧 Sun and Water:
-    - Root-zone shade at tree bases; deep mulch buffers soil moisture and moderates temperature.
-    - Seasonal fall rains drive flushes; irrigation pulses can help but cannot fully replace cool-night triggers.
-    - Avoid soil compaction around host tree roots — foot traffic and mowers are enemies.
-    
-    ✂️ Propagation:
-    - Outdoor patches from commercial kits or colonized stem-butt transfers at oak bases.
-    - Protect colonized zones from disturbance; mycelium takes 1-3 years to establish before reliable fruiting.
-    
-    🌾 Harvest / Best Use Timing:
-    - Flush Maitake before caps flatten and spores dust -- younger tissue holds better flavor for most logs and beds.
-    - Twist or cut at base; second flushes often follow if humidity stays honest.
-    - Refrigerate in paper bags and use within days; saute or pickle rather than letting slimy regret arrive.
-  purpose: |-
-    Edible: Grifola frondosa rosettes at oak bases sauté to firm, earthy meat with chicken-broth depth -- confirm ID against Meripilus and other large polypores before you fry a look-alike.
-    Medicinal: Hot-water extracts concentrate beta-glucans studied for immune modulation -- supplement quality swings by brand, so align expectations with lab assays, not label adjectives.
-    Mulcher: White-rot mycelium decomposes lignin in root collars and buried roots, returning coarse woody carbon to fungal food webs -- protect the patch from compaction so flushes repeat at the same tree base.
-  substrate:
-  - Oak (primary; living base and dead root zone)
-  - Beech
-  - Maple
-  - Elm
-  mycelium_type: White rot; weakly parasitic on stressed hardwoods
-  fruiting_season: Fall — after first cool nights and sustained rain; October through
-    December in Florida on good years
-  cultivation_difficulty: Intermediate to advanced outdoors; controlled indoor
-    cultivation is feasible but substrate requirements are demanding
-  spawn_type: Outdoor stem-butt or buried block inoculation; grain spawn for indoor
-    supplemented sawdust blocks
-  companions:
-  - Oak
-  - Beech
-  - Maple
-  cautions:
-  - Confirm ID carefully — other base-fruiting polypores share hardwood habitats
-  pests:
-  - Borers
-  - Slugs
-  practitioner_notes: |-
-    The same tree base that fruited last October will fruit again — mark locations
-    and check after the first sustained cool rain of fall rather than hoping to
-    stumble onto them.
-    Morning harvest holds moisture and texture; afternoon heat after a cool night
-    steals shelf life fast — bring a cooler if you are hiking to a spot.
-    Outdoor cultivation patches need 1-3 years before expecting reliable flushes;
-    do not disturb the colonized zone and do not mow over the root zone.
-    Indoor blocks require long colonization runs and cool fruiting triggers that
-    Florida kitchens do not naturally provide — a temperature-controlled space is
-    not optional here.
-    Trim base cleanly; leave the attached mycelial mat in place — it is the perennial
-    structure that drives future flushes.
-  growth_habit: Polypore rosettes at hardwood bases; perennial mycelium in root zone
-  data_quality_score: 0.80
-  # Image attribution: No image found
-  # Image source: none
+common_name: Maitake
+picture: maitake.webp
+scientific_name: Grifola frondosa
+aka:
+- Hen of the Woods
+- Sheep's Head
+- Dancing Mushroom
+family: Meripilaceae
+zone: 4-9
+ideal_temp_min: 50
+ideal_temp_max: 70
+min_temp: -30
+max_temp: 90
+perennial: true
+layers:
+- Fungal
+plant_function:
+- Edible
+- Medicinal
+- Mulcher
+description: |-
+  Maitake forms overlapping rosettes of fan-shaped caps at the base of living or dying hardwoods — oaks are the headline host, though beech and maple also work. It is a cool-weather fruiter that shows up when nights drop into the 50s; subtropical Florida gets fewer reliable flushes than the Appalachians but oak-rich sites with wet-cool fall snaps do produce. The same tree may fruit at its base year after year if left undisturbed. Outdoor cultivation attempts use buried inoculated stem butts or commercial outdoor kits; success is real but slower and less predictable than shiitake on logs. Wild harvest requires confident ID — several base-fruiting polypores share the habitat.
+
+  ☀️💧 Sun and Water:
+  - Root-zone shade at tree bases; deep mulch buffers soil moisture and moderates temperature.
+  - Seasonal fall rains drive flushes; irrigation pulses can help but cannot fully replace cool-night triggers.
+  - Avoid soil compaction around host tree roots — foot traffic and mowers are enemies.
+
+  ✂️ Propagation:
+  - Outdoor patches from commercial kits or colonized stem-butt transfers at oak bases.
+  - Protect colonized zones from disturbance; mycelium takes 1-3 years to establish before reliable fruiting.
+
+  🌾 Harvest / Best Use Timing:
+  - Flush Maitake before caps flatten and spores dust -- younger tissue holds better flavor for most logs and beds.
+  - Twist or cut at base; second flushes often follow if humidity stays honest.
+  - Refrigerate in paper bags and use within days; saute or pickle rather than letting slimy regret arrive.
+purpose: |-
+  Edible: Grifola frondosa rosettes at oak bases sauté to firm, earthy meat with chicken-broth depth -- confirm ID against Meripilus and other large polypores before you fry a look-alike.
+  Medicinal: Hot-water extracts concentrate beta-glucans studied for immune modulation -- supplement quality swings by brand, so align expectations with lab assays, not label adjectives.
+  Mulcher: White-rot mycelium decomposes lignin in root collars and buried roots, returning coarse woody carbon to fungal food webs -- protect the patch from compaction so flushes repeat at the same tree base.
+substrate:
+- Oak (primary; living base and dead root zone)
+- Beech
+- Maple
+- Elm
+mycelium_type: White rot; weakly parasitic on stressed hardwoods
+fruiting_season: Fall — after first cool nights and sustained rain; October through
+  December in Florida on good years
+cultivation_difficulty: Intermediate to advanced outdoors; controlled indoor cultivation
+  is feasible but substrate requirements are demanding
+spawn_type: Outdoor stem-butt or buried block inoculation; grain spawn for indoor
+  supplemented sawdust blocks
+companions:
+- Oak
+- Beech
+- Maple
+cautions:
+- Confirm ID carefully — other base-fruiting polypores share hardwood habitats
+pests:
+- Borers
+- Slugs
+growth_habit: Polypore rosettes at hardwood bases; perennial mycelium in root zone
+data_quality_score: 0.8

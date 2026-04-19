@@ -1,78 +1,56 @@
----
-- common_name: Yellowhorn Tree
-  picture: yellowhorn_tree.webp
-  scientific_name: Xanthoceras sorbifolium
-  aka:
-  - Shiny Leaf Yellowhorn
-  - Chinese Flowering Chestnut
-  family: Sapindaceae
-  zone: 4-8
-  ideal_temp_min: 35
-  ideal_temp_max: 85
-  min_temp: -25
-  max_temp: 100
-  perennial: true
-  layers:
-  - Tree
-  plant_function:
-  - Edible
-  - Ornamental
-  - Wildlife Attractor
-  - Windbreaker
-  description: 'Yellowhorn (Xanthoceras sorbifolium) is a deciduous Chinese tree reaching 5–8 m (16–26 ft), valued for showy
-    panicles of white flowers with yellow eyes and edible seeds inside leathery capsules once roasted or processed. Compound
-    leaves resemble mountain ash, giving a tidy orchard aesthetic. It requires winter chill to flower reliably—low-chill subtropical
-    and tropical Americas lowlands are poor matches except in upland microclimates or as a curiosity that may grow leafy but
-    shy to bloom.
+common_name: Yellowhorn Tree
+picture: yellowhorn_tree.webp
+scientific_name: Xanthoceras sorbifolium
+aka:
+- Shiny Leaf Yellowhorn
+- Chinese Flowering Chestnut
+family: Sapindaceae
+zone: 4-8
+ideal_temp_min: 35
+ideal_temp_max: 85
+min_temp: -25
+max_temp: 100
+perennial: true
+layers:
+- Tree
+plant_function:
+- Edible
+- Ornamental
+- Wildlife Attractor
+- Windbreaker
+description: |-
+  Yellowhorn (Xanthoceras sorbifolium) is a deciduous Chinese tree reaching 5–8 m (16–26 ft), valued for showy panicles of white flowers with yellow eyes and edible seeds inside leathery capsules once roasted or processed. Compound leaves resemble mountain ash, giving a tidy orchard aesthetic. It requires winter chill to flower reliably—low-chill subtropical and tropical Americas lowlands are poor matches except in upland microclimates or as a curiosity that may grow leafy but shy to bloom.
 
+  ☀️💧 Sun and Water Requirements:
+  - Full sun for flowering and fruit set.
+  - Deep, fertile, well-drained soil; tolerates alkaline conditions better than many nut crops.
+  - Regular moisture during establishment; somewhat drought-tolerant when older but not a desert specialist.
 
-    ☀️💧 Sun and Water Requirements:
+  ✂️ Methods to Propagate:
+  - Stratify seeds 8–12 weeks cold-moist; sow in deep pots to accommodate taproot.
+  - Graft improved selections onto seedling understocks for predictable nut quality.
+  - Take summer budding or whip grafts in active growth with clean cambium contact.
 
-    - Full sun for flowering and fruit set.
-
-    - Deep, fertile, well-drained soil; tolerates alkaline conditions better than many nut crops.
-
-    - Regular moisture during establishment; somewhat drought-tolerant when older but not a desert specialist.
-
-
-    ✂️ Methods to Propagate:
-
-    - Stratify seeds 8–12 weeks cold-moist; sow in deep pots to accommodate taproot.
-
-    - Graft improved selections onto seedling understocks for predictable nut quality.
-
-    - Take summer budding or whip grafts in active growth with clean cambium contact.
-
-
-    🌾 Harvest / Best Use Timing:
-
-    - Collect capsules when they begin to split; dry and extract seeds before storage pests arrive.
-
-    - Roast or process seeds before eating—raw quality varies and preparation traditions matter.
-
-    - Prune for central leader structure while young to prevent weak angles.'
-  purpose: |-
-    Edible: Xanthoceras sorbifolium leathery pods hold kernels like small chestnuts -- roast or grind; raw quality is meh and astringent.
-    Ornamental: White panicles with yellow throats cover bare branches in late spring -- compound ash-like leaves stay tidy all summer.
-    Wildlife Attractor: Insect crowds mob inflorescences in chill-hour climates -- birds crack capsules when seeds mature.
-    Windbreaker: Rounded 8 m crown softens north-wind across orchard rows -- needs cold winters to flower; low-chill sites get leaves without nuts.
-  companions:
-  - Goumi Berry
-  - Sea Buckthorn
-  - Comfrey
-  cautions:
-  - None documented
-  pests:
-  - Aphids
-  - Boxelder Bug
-  - Scale Insects
-  - Spotted Lanternfly
-  practitioner_notes: 'Morning picks hold turgor; afternoon heat steals shelf life even if the cooler feels honest.
-
-    Soil smell and root color tell more than gadget overload—dig a small hole twice a season.
-
-    Blanch or process within hours if you are freezing—enzymes keep chewing while paperwork waits.
-
-    Watch the plant’s own signals first—catalog zone numbers do not replace your site’s microclimate truth.'
-  growth_habit: Small deciduous tree
-  data_quality_score: 0.75
+  🌾 Harvest / Best Use Timing:
+  - Collect capsules when they begin to split; dry and extract seeds before storage pests arrive.
+  - Roast or process seeds before eating—raw quality varies and preparation traditions matter.
+  - Prune for central leader structure while young to prevent weak angles.
+purpose: |-
+  Edible: Xanthoceras sorbifolium leathery pods hold kernels like small chestnuts -- roast or grind; raw quality is meh and astringent.
+  Ornamental: White panicles with yellow throats cover bare branches in late spring -- compound ash-like leaves stay tidy all summer.
+  Wildlife Attractor: Insect crowds mob inflorescences in chill-hour climates -- birds crack capsules when seeds mature.
+  Windbreaker: Rounded 8 m crown softens north-wind across orchard rows -- needs cold winters to flower; low-chill sites get leaves without nuts.
+companions:
+- Goumi Berry
+- Sea Buckthorn
+- Comfrey
+cautions:
+- None documented
+pests:
+- Aphids
+- Boxelder Bug
+- Scale Insects
+growth_habit: Small deciduous tree
+data_quality_score: 0.75
+diseases:
+- Spotted Lanternfly

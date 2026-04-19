@@ -1,80 +1,60 @@
----
-- common_name: Gotu Kola
-  picture: gotu_kola.webp
-  scientific_name: Centella asiatica
-  aka:
-  - Indian Pennywort
-  - Asiatic Pennywort
-  - Spadeleaf
-  family: Apiaceae
-  zone: 8-11
-  ideal_temp_min: 72
-  ideal_temp_max: 90
-  min_temp: 32
-  max_temp: 100
-  perennial: true
-  layers:
-  - Ground Cover
-  plant_function:
-  - Edible
-  - Medicinal
-  - Ground Cover
-  description: 'Gotu kola is a low, creeping perennial herb with kidney-shaped leaves on thin stems that roots freely at nodes—classic
-    moist-shade groundcover energy. It is widely used as a mild salad green and in traditional herbal systems; PermieBro translation:
-    respect the plant, do not turn it into a wellness grift. In subtropical subtropical and tropical Americas it runs year-round
-    in protected, damp spots; hard freezes can brown it, but it often rebounds from the roots.
+common_name: Gotu Kola
+picture: gotu_kola.webp
+scientific_name: Centella asiatica
+aka:
+- Indian Pennywort
+- Asiatic Pennywort
+- Spadeleaf
+family: Apiaceae
+zone: 8-11
+ideal_temp_min: 72
+ideal_temp_max: 90
+min_temp: 32
+max_temp: 100
+perennial: true
+layers:
+- Ground Cover
+plant_function:
+- Edible
+- Medicinal
+- Ground Cover
+description: |-
+  Gotu kola is a low, creeping perennial herb with kidney-shaped leaves on thin stems that roots freely at nodes—classic moist-shade groundcover energy. It is widely used as a mild salad green and in traditional herbal systems; PermieBro translation: respect the plant, do not turn it into a wellness grift. In subtropical subtropical and tropical Americas it runs year-round in protected, damp spots; hard freezes can brown it, but it often rebounds from the roots.
 
+  🌞💧 Sun and Water Requirements:
+  - Part shade to dappled sun; tolerates more sun if soil stays consistently moist.
+  - Likes steady moisture and humus—think bog-adjacent, not swamp-in-a-pot. Good drainage still matters to avoid anaerobic funk.
+  - Container culture works if you refuse to let it dry out.
 
-    🌞💧 Sun and Water Requirements:
+  ✂️🌱 Methods to Propagate:
+  - Division: tear a mat apart; any piece with stem nodes contacts soil and roots.
+  - Stem cuttings laid on moist medium root in days.
+  - Seed is possible but slow and uneven; vegetative propagation is what people actually do.
 
-    - Part shade to dappled sun; tolerates more sun if soil stays consistently moist.
-
-    - Likes steady moisture and humus—think bog-adjacent, not swamp-in-a-pot. Good drainage still matters to avoid anaerobic
-    funk.
-
-    - Container culture works if you refuse to let it dry out.
-
-
-    ✂️🌱 Methods to Propagate:
-
-    - Division: tear a mat apart; any piece with stem nodes contacts soil and roots.
-
-    - Stem cuttings laid on moist medium root in days.
-
-    - Seed is possible but slow and uneven; vegetative propagation is what people actually do.
-
-
-    🧑‍🌾 When to Harvest:
-
-    - Snip young leaves and short stems anytime; frequent harvest keeps growth tender. Avoid harvesting from questionable
-    roadside sites—heavy metals and dog traffic are not seasoning.'
-  purpose: |-
-    Edible: Centella asiatica leaves and short stems are mild, slightly bitter salad greens and soup herbs -- harvest young tips from clean, uncontaminated beds, not roadsides where heavy metals ride along as unwanted seasoning.
-    Medicinal: Traditional Asian systems use the herb for skin repair and cognitive support teas -- modern trials focus on triterpenoids in the leaves; check drug interactions and pregnancy cautions before internal use.
-    Ground Cover: Creeping stems root at nodes to form a dense, weed-suppressing mat under shrubs or taro -- it needs steady moisture and tolerates foot traffic poorly, so place it where humans will not shortcut paths through the patch.
-  companions:
-  - Taro
-  - Sweet Potato
-  - Lemongrass
-  cautions:
-  - None documented
-  pests:
-  - Aphids
-  - Carrot Fly
-  - Carrot Rust Fly
-  - Carrot Weevil
-  - Celery Leaf Miner
-  - Dill Worms
-  - Parsnip Canker
-  - Slugs
-  - Snails
-  - Swallowtail Caterpillar
-  practitioner_notes: 'Blanch or process within hours if you are freezing—enzymes keep chewing while paperwork waits.
-
-    Harvest flowering tops at first full open for many mint-family herbs; past-brown is mulch grade.
-
-    Edge containment beats regret—runners respect metal or deep trench more than promises.
-
-    Notebook one weird year—weather anomalies repeat; memory lies, scribbles do not.'
-  growth_habit: Tree
-  data_quality_score: 0.8
+  🧑‍🌾 When to Harvest:
+  - Snip young leaves and short stems anytime; frequent harvest keeps growth tender. Avoid harvesting from questionable roadside sites—heavy metals and dog traffic are not seasoning.
+purpose: |-
+  Edible: Centella asiatica leaves and short stems are mild, slightly bitter salad greens and soup herbs -- harvest young tips from clean, uncontaminated beds, not roadsides where heavy metals ride along as unwanted seasoning.
+  Medicinal: Traditional Asian systems use the herb for skin repair and cognitive support teas -- modern trials focus on triterpenoids in the leaves; check drug interactions and pregnancy cautions before internal use.
+  Ground Cover: Creeping stems root at nodes to form a dense, weed-suppressing mat under shrubs or taro -- it needs steady moisture and tolerates foot traffic poorly, so place it where humans will not shortcut paths through the patch.
+companions:
+- Taro
+- Sweet Potato
+- Lemongrass
+cautions:
+- None documented
+pests:
+- Aphids
+- Celery Leaf Miner
+- Dill Worms
+- Slugs
+- Snails
+growth_habit: Tree
+data_quality_score: 0.8
+diseases:
+- Carrot Fly
+- Carrot Rust Fly
+- Carrot Weevil
+- Parsnip Canker
+animal_pressure:
+- Swallowtail Caterpillar

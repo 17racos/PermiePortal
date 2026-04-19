@@ -1,99 +1,84 @@
----
-- common_name: Sicklepod
-  picture: sicklepod.webp
-  scientific_name: Senna obtusifolia
-  aka:
-  - Chinese senna
-  - Coffee weed
-  family: Fabaceae
-  zone: 8-12
-  ideal_temp_min: 65
-  ideal_temp_max: 98
-  min_temp: 20
-  max_temp: 110
-  perennial: false
-  layers:
-  - Herbaceous
-  plant_function:
-  - Nitrogen Fixer
-  - Wildlife Attractor
-  - Dynamic Accumulator
-  - Biomass
-  description: 'Sicklepod (Senna obtusifolia) is a warm-climate annual or short-lived legume native to the Americas but widely
-    naturalized across tropical and subtropical regions, famous for sickle-shaped pods and weedy fields. Yellow flowers give
-    way to pods that shatter seed aggressively. In permaculture discourse it is often a cautionary tale: useful for biomass
-    and insect traffic in controlled contexts, a headache where seed banks already exist.
+common_name: Sicklepod
+picture: sicklepod.webp
+scientific_name: Senna obtusifolia
+aka:
+- Chinese senna
+- Coffee weed
+family: Fabaceae
+zone: 8-12
+ideal_temp_min: 65
+ideal_temp_max: 98
+min_temp: 20
+max_temp: 110
+perennial: false
+layers:
+- Herbaceous
+plant_function:
+- Nitrogen Fixer
+- Wildlife Attractor
+- Dynamic Accumulator
+- Biomass
+description: |-
+  Sicklepod (Senna obtusifolia) is a warm-climate annual or short-lived legume native to the Americas but widely naturalized across tropical and subtropical regions, famous for sickle-shaped pods and weedy fields. Yellow flowers give way to pods that shatter seed aggressively. In permaculture discourse it is often a cautionary tale: useful for biomass and insect traffic in controlled contexts, a headache where seed banks already exist.
 
+  ☀️💧 Sun and Water Requirements:
+  - Full sun; shade weakens pods and reduces competitiveness.
+  - Drought tolerant in warm months once established; germination needs moisture.
+  - Disturbed, often poor soils; thrives where crops were stressed and bare soil invited pioneers.
 
-    ☀️💧 Sun and Water Requirements:
+  ✂️ Propagation:
+  - Seeds scarify and sow warm; do not spread where local law lists it as invasive.
+  - Remove plants before pods mature if managing an accidental infestation.
+  - Do not compost mature pods unless your pile reliably hits pathogen-kill heat—seeds survive smugly.
 
-    - Full sun; shade weakens pods and reduces competitiveness.
-
-    - Drought tolerant in warm months once established; germination needs moisture.
-
-    - Disturbed, often poor soils; thrives where crops were stressed and bare soil invited pioneers.
-
-
-    ✂️ Propagation:
-
-    - Seeds scarify and sow warm; do not spread where local law lists it as invasive.
-
-    - Remove plants before pods mature if managing an accidental infestation.
-
-    - Do not compost mature pods unless your pile reliably hits pathogen-kill heat—seeds survive smugly.
-
-
-    🌾 Harvest / Best Use Timing:
-
-    - For biomass trials, cut before seed set and mulch or compost hot.
-
-    - Seeds are used in some traditional systems with expert guidance—toxicity and regulation vary by region.
-
-    - Document location and disposal if pulling on conservation land—seed banks persist for years.'
-  purpose: |-
-    Nitrogen Fixer: Senna obtusifolia nodulates during one hot wet season -- cut before sickle pods brown if you want biomass without burying next year in seeds.
-    Wildlife Attractor: Sulphur butterflies oviposit on compound leaves while small bees work yellow cassia blossoms along ditch banks.
-    Dynamic Accumulator: Rapacious canopy mines fertility from disturbed cotton fields into leaf tissue -- compost green chop before woody lignin locks nutrients away.
-    Biomass: Shoulder-high stands produce heavy summer slash for mulch if you tarp suppress seed banks afterward on farm edges that already fight senna drift.
-  companions:
-  - Velvetleaf — another disturbance-era annual that signals the same weedy field chemistry
-  - Sunflower — tall crop neighbor historically found in mixed warm-season field edges
-  - Spanish Needles — bidens-class annual that shares roadsides; study together to sharpen weed ID
-  cautions:
-  - Aggressive self-seeder and listed invasive in many jurisdictions—do not introduce casually
-  pests:
-  - Aphids
-  - Banded Cucumber Beetle
-  - Bean Aphid
-  - Bean Leaf Beetle
-  - Bean Weevil
-  - Brown Marmorated Stink Bug
-  - Corn Earworm
-  - Cowpea Curculio
-  - Fall Armyworm
-  - Fusarium Wilt
-  - Ganoderma Butt Rot
-  - Harlequin Ladybird
-  - Kudzu Bug
-  - Locust Borer
-  - Locust Leaf Miner
-  - Lubber Grasshopper
-  - Pea Moth
-  - Pea Weevil
-  - Pythium Root Rot
-  - Reniform Nematode
-  - Root Aphid
-  - Soybean Looper
-  - Spittlebugs
-  - Spotted Cucumber Beetle
-  - Stink Bug
-  - Striped Cucumber Beetle
-  - Velvetbean Caterpillar
-  - White Rot
-  practitioner_notes: '“Pretty yellow flowers” is how counties lose sleep—learn local weed lists before romanticizing pods.
-
-    Pods laugh at polite weeding once ripe; timing beats heroics.
-
-    If it appears uninvited, solarize or mow on schedule—wishful thinking is not an IPM strategy.'
-  growth_habit: Upright branching annual legume with yellow flowers and long curved pods
-  data_quality_score: 0.7
+  🌾 Harvest / Best Use Timing:
+  - For biomass trials, cut before seed set and mulch or compost hot.
+  - Seeds are used in some traditional systems with expert guidance—toxicity and regulation vary by region.
+  - Document location and disposal if pulling on conservation land—seed banks persist for years.
+purpose: |-
+  Nitrogen Fixer: Senna obtusifolia nodulates during one hot wet season -- cut before sickle pods brown if you want biomass without burying next year in seeds.
+  Wildlife Attractor: Sulphur butterflies oviposit on compound leaves while small bees work yellow cassia blossoms along ditch banks.
+  Dynamic Accumulator: Rapacious canopy mines fertility from disturbed cotton fields into leaf tissue -- compost green chop before woody lignin locks nutrients away.
+  Biomass: Shoulder-high stands produce heavy summer slash for mulch if you tarp suppress seed banks afterward on farm edges that already fight senna drift.
+companions:
+- Velvetleaf — another disturbance-era annual that signals the same weedy field chemistry
+- Sunflower — tall crop neighbor historically found in mixed warm-season field edges
+- Spanish Needles — bidens-class annual that shares roadsides; study together to sharpen
+  weed ID
+cautions:
+- Aggressive self-seeder and listed invasive in many jurisdictions—do not introduce
+  casually
+pests:
+- Aphids
+- Banded Cucumber Beetle
+- Bean Aphid
+- Bean Leaf Beetle
+- Bean Weevil
+- Corn Earworm
+- Cowpea Curculio
+- Fall Armyworm
+- Kudzu Bug
+- Locust Borer
+- Locust Leaf Miner
+- Lubber Grasshopper
+- Pea Moth
+- Pea Weevil
+- Reniform Nematode
+- Root Aphid
+- Soybean Looper
+- Spittlebugs
+- Stink Bug
+- Striped Cucumber Beetle
+growth_habit: Upright branching annual legume with yellow flowers and long curved
+  pods
+data_quality_score: 0.7
+diseases:
+- Fusarium Wilt
+- Ganoderma Butt Rot
+- Pythium Root Rot
+- Spotted Cucumber Beetle
+- White Rot
+animal_pressure:
+- Brown Marmorated Stink Bug
+- Harlequin Ladybird
+- Velvetbean Caterpillar

@@ -1,114 +1,91 @@
----
-- common_name: Potato
-  picture: potato.webp
-  scientific_name: Solanum tuberosum
-  aka:
-  - Irish Potato
-  - White Potato
-  family: Solanaceae
-  zone: 3-10
-  ideal_temp_min: 60
-  ideal_temp_max: 70
-  min_temp: 28
-  max_temp: 90
-  perennial: false
-  layers:
-  - Herbaceous
-  plant_function:
-  - Edible
-  - Animal Fodder
-  - Ground Cover
-  description: 'The potato (*Solanum tuberosum*) is a herbaceous annual plant cultivated for its edible tubers. It typically
-    grows up to 60 centimeters (24 inches) tall, featuring compound green leaves with multiple leaflets. The plant produces
-    star-shaped flowers that can be white, pink, or purple, leading to the development of small, green, inedible berries.
-    The edible part, the tuber, forms underground on stolons extending from the main stem. Potatoes thrive in cool seasons
-    and are sensitive to extreme temperatures.
+common_name: Potato
+picture: potato.webp
+scientific_name: Solanum tuberosum
+aka:
+- Irish Potato
+- White Potato
+family: Solanaceae
+zone: 3-10
+ideal_temp_min: 60
+ideal_temp_max: 70
+min_temp: 28
+max_temp: 90
+perennial: false
+layers:
+- Herbaceous
+plant_function:
+- Edible
+- Animal Fodder
+- Ground Cover
+description: |-
+  The potato (*Solanum tuberosum*) is a herbaceous annual plant cultivated for its edible tubers. It typically grows up to 60 centimeters (24 inches) tall, featuring compound green leaves with multiple leaflets. The plant produces star-shaped flowers that can be white, pink, or purple, leading to the development of small, green, inedible berries. The edible part, the tuber, forms underground on stolons extending from the main stem. Potatoes thrive in cool seasons and are sensitive to extreme temperatures.
 
+  ✂️🫘 Methods to Propagate:
+  Potatoes are commonly propagated using seed tubers or "seed potatoes." Cut healthy, certified disease-free tubers into pieces, each containing at least one "eye" or bud. Allow the cut pieces to air-dry for a day to form a protective layer over the cut surface before planting. Plant the pieces 10-15 centimeters (4-6 inches) deep in well-drained soil, spaced about 30 centimeters (12 inches) apart, with rows 60-90 centimeters (24-36 inches) apart.
 
-    ✂️🫘 Methods to Propagate:
+  🌞💧 Sun and Water Requirements:
+  Potatoes require full sun, needing at least 6 to 8 hours of direct sunlight daily. They prefer well-drained, fertile soil with a slightly acidic pH between 5.8 and 6.5. Consistent moisture is crucial, especially during tuber formation, but avoid waterlogged conditions to prevent rot. Mulching helps retain soil moisture and regulate soil temperature.
 
-    Potatoes are commonly propagated using seed tubers or "seed potatoes." Cut healthy, certified disease-free tubers into
-    pieces, each containing at least one "eye" or bud. Allow the cut pieces to air-dry for a day to form a protective layer
-    over the cut surface before planting. Plant the pieces 10-15 centimeters (4-6 inches) deep in well-drained soil, spaced
-    about 30 centimeters (12 inches) apart, with rows 60-90 centimeters (24-36 inches) apart.
-
-
-    🌞💧 Sun and Water Requirements:
-
-    Potatoes require full sun, needing at least 6 to 8 hours of direct sunlight daily. They prefer well-drained, fertile soil
-    with a slightly acidic pH between 5.8 and 6.5. Consistent moisture is crucial, especially during tuber formation, but
-    avoid waterlogged conditions to prevent rot. Mulching helps retain soil moisture and regulate soil temperature.
-
-
-    🧑‍🌾👩‍🌾 When to Harvest:
-
-    Harvesting time depends on the desired potato size and variety. For new potatoes, harvest when plants begin to flower,
-    approximately 60-90 days after planting. For mature potatoes, wait until the foliage has died back, about 90-120 days
-    after planting. Gently dig around the plant to lift the tubers, taking care not to damage them. Allow harvested potatoes
-    to cure in a cool, dark, and well-ventilated area for about two weeks to toughen the skin for storage.'
-  purpose: |-
-    Edible: Solanum tuberosum starchy tubers on stolons deliver chips, mashes, and cellar-stored staples when hilled soil stays loose -- cut seed pieces with two eyes and cure cuts before planting to reduce rot in cool spring soil.
-    Animal Fodder: Boiled culls and sorted smalls feed pigs and dairy cows while vine tops enter silage mixes after heat wilting to reduce solanine loads -- never feed greened sun-exposed tubers because glycoalkaloid spikes are real.
-    Ground Cover: Fast-closing canopies between hilled rows shade soil, capillary wick evaporation, and suppress late-germinating weeds until canopy senescence -- timing matters: senesce tops before harvest so skins set.
-  companions:
-  - Beans
-  - Cabbage
-  - Corn
-  - Marigold
-  cautions:
-  - Tomato
-  - Eggplant
-  - Pepper
-  pests:
-  - Alternaria Leaf Spot
-  - Andean Potato Weevil
-  - Bacterial Leaf Spot
-  - Banded Winged Whitefly
-  - Broad Mite
-  - Brown Marmorated Stink Bug
-  - Colorado Potato Beetle
-  - Corn Earworm
-  - Cyclamen Mite
-  - Flea Beetles
-  - Fungus Gnats
-  - Fusarium Wilt
-  - Greenhouse Whitefly
-  - Late Blight
-  - Leaf Curl
-  - Leaf Spot
-  - Pepper Weevil
-  - Phytophthora Root Rot
-  - Potato Scab
-  - Pythium Root Rot
-  - Reniform Nematode
-  - Root Aphid
-  - Serpentine Leafminer
-  - Shore Fly
-  - Silverleaf Whitefly
-  - Southern Armyworm
-  - Southern Green Stink Bug
-  - Spotted Cucumber Beetle
-  - Stink Bug
-  - Tobacco Budworm
-  - Tomato Hornworms
-  - Whitefly
-  - Wireworm
-  - Mole Crickets
-  - Crane Fly Larvae
-  - White Grubs
-  - June Beetle Grubs
-  - Chafer Grubs
-  - Root Feeding Grubs
-  - Cutworm Larvae
-  - Bacterial Wilt
-  - Magnesium Deficiency
-  - Potassium Deficiency
-  practitioner_notes: 'Morning picks hold turgor; afternoon heat steals shelf life even if the cooler feels honest.
-
-    Foot traffic after establishment only—early walks tear stems and invite weeds in the wounds.
-
-    Soil smell and root color tell more than gadget overload—dig a small hole twice a season.
-
-    Shear ragged mats after heat waves; two weeks of ugly beats six months of thatch rot.'
-  growth_habit: Tree
-  data_quality_score: 0.8
+  🧑‍🌾👩‍🌾 When to Harvest:
+  Harvesting time depends on the desired potato size and variety. For new potatoes, harvest when plants begin to flower, approximately 60-90 days after planting. For mature potatoes, wait until the foliage has died back, about 90-120 days after planting. Gently dig around the plant to lift the tubers, taking care not to damage them. Allow harvested potatoes to cure in a cool, dark, and well-ventilated area for about two weeks to toughen the skin for storage.
+purpose: |-
+  Edible: Solanum tuberosum starchy tubers on stolons deliver chips, mashes, and cellar-stored staples when hilled soil stays loose -- cut seed pieces with two eyes and cure cuts before planting to reduce rot in cool spring soil.
+  Animal Fodder: Boiled culls and sorted smalls feed pigs and dairy cows while vine tops enter silage mixes after heat wilting to reduce solanine loads -- never feed greened sun-exposed tubers because glycoalkaloid spikes are real.
+  Ground Cover: Fast-closing canopies between hilled rows shade soil, capillary wick evaporation, and suppress late-germinating weeds until canopy senescence -- timing matters: senesce tops before harvest so skins set.
+companions:
+- Beans
+- Cabbage
+- Corn
+- Marigold
+cautions:
+- Tomato
+- Eggplant
+- Pepper
+pests:
+- Andean Potato Weevil
+- Banded Winged Whitefly
+- Broad Mite
+- Colorado Potato Beetle
+- Corn Earworm
+- Cyclamen Mite
+- Flea Beetles
+- Fungus Gnats
+- Greenhouse Whitefly
+- Leaf Curl
+- Pepper Weevil
+- Potato Scab
+- Reniform Nematode
+- Root Aphid
+- Serpentine Leafminer
+- Shore Fly
+- Silverleaf Whitefly
+- Southern Armyworm
+- Southern Green Stink Bug
+- Stink Bug
+- Tobacco Budworm
+- Tomato Hornworms
+- Whitefly
+- Wireworm
+- Crane Fly Larvae
+- White Grubs
+- June Beetle Grubs
+- Chafer Grubs
+- Root Feeding Grubs
+- Cutworm Larvae
+growth_habit: Tree
+data_quality_score: 0.8
+diseases:
+- Alternaria Leaf Spot
+- Bacterial Leaf Spot
+- Fusarium Wilt
+- Late Blight
+- Leaf Spot
+- Phytophthora Root Rot
+- Pythium Root Rot
+- Spotted Cucumber Beetle
+- Bacterial Wilt
+- Magnesium Deficiency
+- Potassium Deficiency
+animal_pressure:
+- Brown Marmorated Stink Bug
+- Mole Crickets

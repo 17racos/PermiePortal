@@ -1,73 +1,55 @@
----
-- common_name: Iceberg Lettuce
-  picture: iceberg_lettuce.webp
-  scientific_name: Lactuca sativa var. capitata
-  aka:
-  - Crisphead Lettuce
-  family: Asteraceae
-  zone: 2-11
-  ideal_temp_min: 60
-  ideal_temp_max: 70
-  min_temp: 32
-  max_temp: 80
-  perennial: false
-  layers:
-  - Ground Cover
-  plant_function:
-  - Edible
-  - Ground Cover
-  - Biomass
-  description: 'Iceberg lettuce is an annual vegetable known for its crisp, pale green leaves forming dense, cabbage-like
-    heads. Each head typically measures 15-23 cm (6-9 inches) in diameter. Introduced in 1894, it remains popular for its
-    mild flavor and crunchy texture. While not as nutrient-dense as darker leafy greens, it provides hydration and a satisfying
-    crunch to salads and sandwiches. Iceberg lettuce thrives in cooler temperatures and may bolt or fail to form tight heads
-    in warmer climates.
+common_name: Iceberg Lettuce
+picture: iceberg_lettuce.webp
+scientific_name: Lactuca sativa var. capitata
+aka:
+- Crisphead Lettuce
+family: Asteraceae
+zone: 2-11
+ideal_temp_min: 60
+ideal_temp_max: 70
+min_temp: 32
+max_temp: 80
+perennial: false
+layers:
+- Ground Cover
+plant_function:
+- Edible
+- Ground Cover
+- Biomass
+description: |-
+  Iceberg lettuce is an annual vegetable known for its crisp, pale green leaves forming dense, cabbage-like heads. Each head typically measures 15-23 cm (6-9 inches) in diameter. Introduced in 1894, it remains popular for its mild flavor and crunchy texture. While not as nutrient-dense as darker leafy greens, it provides hydration and a satisfying crunch to salads and sandwiches. Iceberg lettuce thrives in cooler temperatures and may bolt or fail to form tight heads in warmer climates.
 
+  🌞💧 Sun and Water Requirements:
+  Prefers full sun exposure but can tolerate partial shade, especially in warmer regions. Requires consistent moisture; soil should be kept evenly moist but not waterlogged. Mulching helps retain soil moisture and maintain cooler soil temperatures.
 
-    🌞💧 Sun and Water Requirements:
+  ✂️🫘 Methods to Propagate:
+  Primarily grown from seeds. Sow seeds directly into the garden 1/8 inch deep as soon as the soil can be worked in early spring or late summer for a fall crop. Thin seedlings to 30 cm (12 inches) apart to allow room for head development.
 
-    Prefers full sun exposure but can tolerate partial shade, especially in warmer regions. Requires consistent moisture;
-    soil should be kept evenly moist but not waterlogged. Mulching helps retain soil moisture and maintain cooler soil temperatures.
-
-
-    ✂️🫘 Methods to Propagate:
-
-    Primarily grown from seeds. Sow seeds directly into the garden 1/8 inch deep as soon as the soil can be worked in early
-    spring or late summer for a fall crop. Thin seedlings to 30 cm (12 inches) apart to allow room for head development.
-
-
-    🧑‍🌾👩‍🌾 When to Harvest:
-
-    Harvest when heads are firm and reach full size, typically 70-80 days after planting. Cut the head at the base with a
-    sharp knife. For best flavor and texture, harvest in the morning before the day warms up.'
-  purpose: |-
-    Edible: Lactuca sativa var. capitata forms dense pale heads with high water crunch -- slice for sandwiches and wedge salads at peak firmness before outer leaves yellow and bitterness sneaks in.
-    Ground Cover: Tight head spacing shades inter-row soil in irrigated lettuce blocks -- it suppresses some germinating weeds and cuts soil splash onto neighboring leaves when mulch is thin.
-    Biomass: Outer wrapper leaves, thinnings, and post-harvest cores feed compost or vermicompost bins -- juicy tissue breaks down fast, so balance with browns to avoid anaerobic slime in the pile.
-  companions:
-  - Carrot
-  - Radish
-  - Cucumber
-  cautions:
-  - Cabbage
-  - Broccoli
-  - Cauliflower
-  pests:
-  - Aphids
-  - Banded Winged Whitefly
-  - Fungus Gnats
-  - Gray Mold
-  - Greenhouse Whitefly
-  - Lettuce Aphid
-  - Lubber Grasshopper
-  - Root Aphid
-  - Shore Fly
-  - Slugs
-  - Snails
-  practitioner_notes: 'Heads split after heavy rain plus heat—harvest early rather than chase perfect size.
-
-    Cool soil germinates; soil over 80°F (27°C) gives patchy emergence without shade cloth.
-
-    Outer wrapper leaves protect heart—strip damaged outers, sell or eat the crisp center.'
-  growth_habit: Annual heading lettuce; compact rosette forming a dense crisp head
-  data_quality_score: 0.8
+  🧑‍🌾👩‍🌾 When to Harvest:
+  Harvest when heads are firm and reach full size, typically 70-80 days after planting. Cut the head at the base with a sharp knife. For best flavor and texture, harvest in the morning before the day warms up.
+purpose: |-
+  Edible: Lactuca sativa var. capitata forms dense pale heads with high water crunch -- slice for sandwiches and wedge salads at peak firmness before outer leaves yellow and bitterness sneaks in.
+  Ground Cover: Tight head spacing shades inter-row soil in irrigated lettuce blocks -- it suppresses some germinating weeds and cuts soil splash onto neighboring leaves when mulch is thin.
+  Biomass: Outer wrapper leaves, thinnings, and post-harvest cores feed compost or vermicompost bins -- juicy tissue breaks down fast, so balance with browns to avoid anaerobic slime in the pile.
+companions:
+- Carrot
+- Radish
+- Cucumber
+cautions:
+- Cabbage
+- Broccoli
+- Cauliflower
+pests:
+- Aphids
+- Banded Winged Whitefly
+- Fungus Gnats
+- Gray Mold
+- Greenhouse Whitefly
+- Lettuce Aphid
+- Lubber Grasshopper
+- Root Aphid
+- Shore Fly
+- Slugs
+- Snails
+growth_habit: Annual heading lettuce; compact rosette forming a dense crisp head
+data_quality_score: 0.8

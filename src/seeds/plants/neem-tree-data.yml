@@ -1,47 +1,56 @@
----
-- common_name: Neem Tree
-  picture: neem_tree.webp
-  scientific_name: Azadirachta indica
-  aka:
-  - Indian Lilac
-  - Nimtree
-  - Neem
-  - Margosa
-  family: Meliaceae
-  zone: 10-12
-  ideal_temp_min: 65
-  ideal_temp_max: 105
-  min_temp: 32
-  max_temp: 115
-  perennial: true
-  layers:
-  - Tree
-  plant_function:
-  - Medicinal
-  - Shade Provider
-  - Pest Management
-  - Biomass
-  description: "Neem (Azadirachta indica) is a fast-growing broadleaf evergreen tree from South Asia, naturalized across dry tropics and subtropics for deep shade, drought endurance, and bitter chemistry that underpins organic sprays and traditional medicine. Mature specimens often reach 50–70 feet (15–21 m) with a wide, rounded crown and compound leaves that smell sharply when crushed. In warm-climate permaculture it supplies leaf mulch for pest-confusing teas, high shade for understory crops, and biomass for chop-and-drop cycles where neighbors tolerate the scent.\n\n☀️💧 Sun and Water Requirements:\nFull sun for strongest form and heaviest leaf production; tolerates harsh heat once roots are established. Thrives in well-drained soils from sandy to rocky; tolerates seasonal drought but grows faster with deep irrigation in dry seasons. Sensitive to waterlogging; avoid planting in compacted swales without drainage fixes.\n\n✂️ Propagation:\nSow fresh seed promptly; viability declines within weeks in hot climates. Root cuttings and stump coppice in favorable sites for rapid biomass. Prune for clearance along paths and to keep leaf harvest reachable without ladders forever.\n\n🌾 Harvest / Best Use Timing:\nCollect young tender leaves for extracts and mulches during active growth flushes. Seeds yield oil where processing equipment exists—handle only with training. Expect peak leaf chemistry and growth during long days with heat above roughly 70°F (21°C)."
-  purpose: |-
-    Medicinal: Bitter Azadirachta indica leaves, bark, and cold-pressed seed oil supply azadirachtin-rich materia medica in Ayurvedic and village pharmacy lines -- legal status and concentration vary by country; keep human and livestock dosing inside trained guidance, not garage chemistry.
-    Shade Provider: Broad 15–21 m evergreen crown throws deep dry-season shade over chicken runs, nursery tables, and outdoor kitchens where thin-leafed legumes would crisp -- plan crown lift early so paths stay passable as width expands.
-    Pest Management: Neem-seed kernel extracts and fermented leaf teas interrupt molting in soft-bodied insects when rotated with other modes of action -- test dilution on a few leaves first because heavy sprays can phototox delicate seedlings.
-    Biomass: Fast leaf flushes during long hot days feed compost windrows, alley-crop mulch, and biointensive chop-and-drop under fruit trees -- compost fresh leaves before tucking sensitive salad beds against the drip line because allelopathic residues linger in raw mulch.
-  companions:
-  - Moringa — complementary fast biomass tree with different chemistry and leaf texture in a multi-story windbreak
-  - Lemongrass — perimeter aromatic grass tolerating heat along the neem dripline without root trenching the tree
-  - Pigeon Pea — drought-tolerant understory legume fixing nitrogen outside the deepest shade core
-  cautions:
-  - Allelopathy and bitter residues—avoid planting delicate salad beds directly in fresh neem mulch without composting first
-  - Frost—young trees burn near 32°F (0°C); protect on marginal sites
-  pests:
-  - Scale Insects
-  - Aphids
-  - Whiteflies
-  practitioner_notes: |-
-    Neem oil in the bottle and neem shade in the yard are cousins, not twins—spray recipes follow label math, not vibes.
-    Seed viability is a countdown timer in heat—plant fresh or store like you mean it.
-    Overhead neem leaf tea on delicate seedlings can stunt—test on a sacrificial row first.
-    Wide crowns eat fence lines—prune early if property lines matter to humans more than to roots.
-  growth_habit: Fast tropical/subtropical evergreen tree; compound leaves; drought-tolerant; bitter aromatic tissues
-  data_quality_score: 0.82
+common_name: Neem Tree
+picture: neem_tree.webp
+scientific_name: Azadirachta indica
+aka:
+- Indian Lilac
+- Nimtree
+- Neem
+- Margosa
+family: Meliaceae
+zone: 10-12
+ideal_temp_min: 65
+ideal_temp_max: 105
+min_temp: 32
+max_temp: 115
+perennial: true
+layers:
+- Tree
+plant_function:
+- Medicinal
+- Shade Provider
+- Pest Management
+- Biomass
+description: |-
+  Neem (Azadirachta indica) is a fast-growing broadleaf evergreen tree from South Asia, naturalized across dry tropics and subtropics for deep shade, drought endurance, and bitter chemistry that underpins organic sprays and traditional medicine. Mature specimens often reach 50–70 feet (15–21 m) with a wide, rounded crown and compound leaves that smell sharply when crushed. In warm-climate permaculture it supplies leaf mulch for pest-confusing teas, high shade for understory crops, and biomass for chop-and-drop cycles where neighbors tolerate the scent.
+
+  ☀️💧 Sun and Water Requirements:
+  Full sun for strongest form and heaviest leaf production; tolerates harsh heat once roots are established. Thrives in well-drained soils from sandy to rocky; tolerates seasonal drought but grows faster with deep irrigation in dry seasons. Sensitive to waterlogging; avoid planting in compacted swales without drainage fixes.
+
+  ✂️ Propagation:
+  Sow fresh seed promptly; viability declines within weeks in hot climates. Root cuttings and stump coppice in favorable sites for rapid biomass. Prune for clearance along paths and to keep leaf harvest reachable without ladders forever.
+
+  🌾 Harvest / Best Use Timing:
+  Collect young tender leaves for extracts and mulches during active growth flushes. Seeds yield oil where processing equipment exists—handle only with training. Expect peak leaf chemistry and growth during long days with heat above roughly 70°F (21°C).
+purpose: |-
+  Medicinal: Bitter Azadirachta indica leaves, bark, and cold-pressed seed oil supply azadirachtin-rich materia medica in Ayurvedic and village pharmacy lines -- legal status and concentration vary by country; keep human and livestock dosing inside trained guidance, not garage chemistry.
+  Shade Provider: Broad 15–21 m evergreen crown throws deep dry-season shade over chicken runs, nursery tables, and outdoor kitchens where thin-leafed legumes would crisp -- plan crown lift early so paths stay passable as width expands.
+  Pest Management: Neem-seed kernel extracts and fermented leaf teas interrupt molting in soft-bodied insects when rotated with other modes of action -- test dilution on a few leaves first because heavy sprays can phototox delicate seedlings.
+  Biomass: Fast leaf flushes during long hot days feed compost windrows, alley-crop mulch, and biointensive chop-and-drop under fruit trees -- compost fresh leaves before tucking sensitive salad beds against the drip line because allelopathic residues linger in raw mulch.
+companions:
+- Moringa — complementary fast biomass tree with different chemistry and leaf texture
+  in a multi-story windbreak
+- Lemongrass — perimeter aromatic grass tolerating heat along the neem dripline without
+  root trenching the tree
+- Pigeon Pea — drought-tolerant understory legume fixing nitrogen outside the deepest
+  shade core
+cautions:
+- Allelopathy and bitter residues—avoid planting delicate salad beds directly in fresh
+  neem mulch without composting first
+- Frost—young trees burn near 32°F (0°C); protect on marginal sites
+pests:
+- Scale Insects
+- Aphids
+- Whiteflies
+growth_habit: Fast tropical/subtropical evergreen tree; compound leaves; drought-tolerant;
+  bitter aromatic tissues
+data_quality_score: 0.82

@@ -1,72 +1,66 @@
----
-- common_name: Citron
-  picture: citron.webp
-  scientific_name: Citrus medica
-  aka:
-  - Etrog
-  - Cedrat
-  family: Rutaceae
-  zone: 9-11
-  ideal_temp_min: 60
-  ideal_temp_max: 90
-  min_temp: 24
-  max_temp: 105
-  perennial: true
-  layers:
-  - Tree
-  - Shrub
-  plant_function:
-  - Edible
-  - Ornamental
-  - Medicinal
-  description: |-
-    Citron is the thick-rinded citrus ancestor that cares more about zest and pith than juice. Religious, culinary, and candied-peel traditions all want a piece; greening and psyllid politics want a piece of you.
-    
-    Same citrus reality as the rest of the genus—9a is negotiation, microclimate helps, pot-and-shelter is honesty. Check local guidance on citrus pests and diseases before you commit yard space.
-    
-    Sun and water: Full sun for dense rind and oil glands. Deep, infrequent watering in well-drained soil; avoid mulch volcanoes against the trunk.
-    ✂️ Propagation:
-    Budded or grafted onto compatible rootstock for trueness and soil adaptation; seedlings are a lottery.
-    
-    🌾 Harvest / Best Use Timing:
-    - Pick Citron fruit when sugar-acid balance peaks for your use -- marmalade wants different timing than fresh slices.
-    - Color is a hint, not a contract; sample one fruit from each sector of the canopy.
-    - Store fresh citrus cool and dry; zest freezes well if you strip peel before shrivel sets in.
-  purpose: |-
-    Edible: Massive fragrant rind and pith are the crop; candy peels, salt-preserve wedges, and zest for arak and sweets while the juice sacs stay modest.
-    Ornamental: Big warty yellow fruits hang for months on open, thorny scaffolding that reads like living sculpture in a frost-free courtyard.
-    Medicinal: Etrog traditions and old Mediterranean herbals assign ritual and digestive roles to peel oil and albedo; modern use still hinges on clean fruit and peel hygiene.
-  companions:
-  - Comfrey
-  - Perennial Peanut
-  - Lemon Tree
-  cautions:
-  - Poor drainage
-  - Lawn herbicide drift
-  pests:
-  - Broad Mite
-  - Brown Citrus Aphid
-  - Citrus Canker
-  - Citrus Greening
-  - Citrus Mealybug
-  - Citrus Red Mite
-  - Citrus Root Weevil
-  - Citrus Rust Mite
-  - Citrus Whitefly
-  - Leaf Curl
-  - Oriental Fruit Fly
-  - Rust Mite
-  - Swallowtail Caterpillar
-  - Texas Citrus Mite
-  - asian citrus psyllid
-  - citrus leafminer
-  - scale insects
-  practitioner_notes: 'Pith is thick—zest and candy peel projects beat expecting a juice jug like thin-skinned lemons.
+common_name: Citron
+picture: citron.webp
+scientific_name: Citrus medica
+aka:
+- Etrog
+- Cedrat
+family: Rutaceae
+zone: 9-11
+ideal_temp_min: 60
+ideal_temp_max: 90
+min_temp: 24
+max_temp: 105
+perennial: true
+layers:
+- Tree
+- Shrub
+plant_function:
+- Edible
+- Ornamental
+- Medicinal
+description: |-
+  Citron is the thick-rinded citrus ancestor that cares more about zest and pith than juice. Religious, culinary, and candied-peel traditions all want a piece; greening and psyllid politics want a piece of you.
 
-    Fruit hangs months looking decorative—support branches or props when loads split crotches.
+  Same citrus reality as the rest of the genus—9a is negotiation, microclimate helps, pot-and-shelter is honesty. Check local guidance on citrus pests and diseases before you commit yard space.
 
-    Psyllid rules still apply—screen new trees, know quarantine maps, do not casually swap budwood.
+  Sun and water: Full sun for dense rind and oil glands. Deep, infrequent watering in well-drained soil; avoid mulch volcanoes against the trunk.
+  ✂️ Propagation:
+  Budded or grafted onto compatible rootstock for trueness and soil adaptation; seedlings are a lottery.
 
-    Scale hides on older wood—annual wash plus predator release timing beats waiting for sooty mold rain.'
-  growth_habit: Open shrubby citrus with large, fragrant fruit
-  data_quality_score: 0.75
+  🌾 Harvest / Best Use Timing:
+  - Pick Citron fruit when sugar-acid balance peaks for your use -- marmalade wants different timing than fresh slices.
+  - Color is a hint, not a contract; sample one fruit from each sector of the canopy.
+  - Store fresh citrus cool and dry; zest freezes well if you strip peel before shrivel sets in.
+purpose: |-
+  Edible: Massive fragrant rind and pith are the crop; candy peels, salt-preserve wedges, and zest for arak and sweets while the juice sacs stay modest.
+  Ornamental: Big warty yellow fruits hang for months on open, thorny scaffolding that reads like living sculpture in a frost-free courtyard.
+  Medicinal: Etrog traditions and old Mediterranean herbals assign ritual and digestive roles to peel oil and albedo; modern use still hinges on clean fruit and peel hygiene.
+companions:
+- Comfrey
+- Perennial Peanut
+- Lemon Tree
+cautions:
+- Poor drainage
+- Lawn herbicide drift
+pests:
+- Broad Mite
+- Brown Citrus Aphid
+- Citrus Greening
+- Citrus Mealybug
+- Citrus Red Mite
+- Citrus Root Weevil
+- Citrus Whitefly
+- Leaf Curl
+- Oriental Fruit Fly
+- Texas Citrus Mite
+- asian citrus psyllid
+- citrus leafminer
+- scale insects
+growth_habit: Open shrubby citrus with large, fragrant fruit
+data_quality_score: 0.75
+diseases:
+- Citrus Canker
+- Citrus Rust Mite
+- Rust Mite
+animal_pressure:
+- Swallowtail Caterpillar

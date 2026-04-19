@@ -1,55 +1,60 @@
----
-- common_name: Mustard Greens
-  picture: mustard_greens.webp
-  scientific_name: Brassica juncea
-  aka: []
-  family: Brassicaceae
-  zone: 3-9
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
-  layers:
-  - Herbaceous
-  plant_function:
-  - Edible
-  - Medicinal
-  - Pest Management
-  description: |-
-    Mustard greens (Brassica juncea) are leafy brassicas grown for peppery-tasting leaves used in salads, sautés, and quick cooked dishes. They form rosettes of textured leaves and can be harvested young for tender flavor. In permaculture, they matter because they add fast nutrition while also functioning as a pest-aware crop in brassica rotations, giving you an opportunity to manage insect cycles instead of blindly feeding them. Plants commonly reach 20–60 cm (8–24 in) depending on variety and harvest style.
-    
-    ☀️💧 Sun and Water Requirements:
-    - Full sun for fastest leaf growth; partial shade helps slow bolting.
-    - Water consistently; drying makes leaves harsher and triggers earlier flowering.
-    - Prefers fertile, well-drained soil amended with compost.
-    - Avoid waterlogged beds that invite rot and disease.
-    
-    ✂️ Propagation:
-    - Seeds: direct-sow in cool weather; germination often takes 4–7 days when moisture is steady.
-    - Succession sow: repeat every 1–2 weeks to keep harvest continuous and avoid one big bolting panic.
-    - Thin early so plants have room for leaf expansion instead of skinny competition.
-    
-    🌾 Harvest / Best Use Timing:
-    - Harvest leaves when young and tender; cut outer leaves for a “cut-and-come-again” cycle.
-    - For milder flavor, harvest earlier and keep soil moisture even.
-    - When plants bolt, you can still harvest tender flower shoots or switch to a warm-season crop.
-  purpose: |-
-    Edible: Brassica juncea rosettes give peppery cut-and-come-again leaves for salads, stir-fries, and Southern-style long braises -- harvest outer leaves young for milder heat; drought or delayed picking flips flavor toward horseradish honesty fast.
-    Medicinal: Glucosinolate-rich foliage supplies the kitchen-pharmacy tradition of warming mustard plasters and foot baths for congestion -- topical use only on intact skin; internal medicinal claims belong with trained practitioners, not blog confidence.
-    Pest Management: Pungent volatiles and biofumigant potential from macerated green biomass are used ahead of nematode-sensitive crops when incorporated immediately -- as a living row plant the scent disrupts some herbivore host-finding when interplanted with less aromatic lines.
-  companions:
-  - Lettuce (Lactuca sativa) — shares cool-season timing and benefits from similar bed moisture management.
-  - Garlic (Allium sativum) — helps diversify bed scent and supports rotation planning around brassicas.
-  - Pea (Pisum sativum) — adds nitrogen input and improves bed structure after harvest windows.
-  cautions:
-  - Bolting happens in heat; use shade or succession sowing to avoid “pepper confetti” bitterness.
-  practitioner_notes: |-
-    Keep leaves evenly moist for a sweeter, less harsh bite.
-    If you want tender growth, harvest frequently—big delays make leaves tough.
-    Don’t grow brassicas back-to-back; rotate so pests don’t get a free ride.
-  pests:
-  - Aphids
-  - Slugs
-  - Caterpillars
-  - Root Rot
+common_name: Mustard Greens
+picture: mustard_greens.webp
+scientific_name: Brassica juncea
+aka: []
+family: Brassicaceae
+zone: 3-9
+ideal_temp_min: 0
+ideal_temp_max: 0
+min_temp: 0
+max_temp: 0
+perennial: true
+layers:
+- Herbaceous
+plant_function:
+- Edible
+- Medicinal
+- Pest Management
+description: |-
+  Mustard greens (Brassica juncea) are leafy brassicas grown for peppery-tasting leaves used in salads, sautés, and quick cooked dishes. They form rosettes of textured leaves and can be harvested young for tender flavor. In permaculture, they matter because they add fast nutrition while also functioning as a pest-aware crop in brassica rotations, giving you an opportunity to manage insect cycles instead of blindly feeding them. Plants commonly reach 20–60 cm (8–24 in) depending on variety and harvest style.
+
+  ☀️💧 Sun and Water Requirements:
+  - Full sun for fastest leaf growth; partial shade helps slow bolting.
+  - Water consistently; drying makes leaves harsher and triggers earlier flowering.
+  - Prefers fertile, well-drained soil amended with compost.
+  - Avoid waterlogged beds that invite rot and disease.
+
+  ✂️ Propagation:
+  - Seeds: direct-sow in cool weather; germination often takes 4–7 days when moisture is steady.
+  - Succession sow: repeat every 1–2 weeks to keep harvest continuous and avoid one big bolting panic.
+  - Thin early so plants have room for leaf expansion instead of skinny competition.
+
+  🌾 Harvest / Best Use Timing:
+  - Harvest leaves when young and tender; cut outer leaves for a “cut-and-come-again” cycle.
+  - For milder flavor, harvest earlier and keep soil moisture even.
+  - When plants bolt, you can still harvest tender flower shoots or switch to a warm-season crop.
+purpose: |-
+  Edible: Brassica juncea rosettes give peppery cut-and-come-again leaves for salads, stir-fries, and Southern-style long braises -- harvest outer leaves young for milder heat; drought or delayed picking flips flavor toward horseradish honesty fast.
+  Medicinal: Glucosinolate-rich foliage supplies the kitchen-pharmacy tradition of warming mustard plasters and foot baths for congestion -- topical use only on intact skin; internal medicinal claims belong with trained practitioners, not blog confidence.
+  Pest Management: Pungent volatiles and biofumigant potential from macerated green biomass are used ahead of nematode-sensitive crops when incorporated immediately -- as a living row plant the scent disrupts some herbivore host-finding when interplanted with less aromatic lines.
+companions:
+- Lettuce (Lactuca sativa) — shares cool-season timing and benefits from similar bed
+  moisture management.
+- Garlic (Allium sativum) — helps diversify bed scent and supports rotation planning
+  around brassicas.
+- Pea (Pisum sativum) — adds nitrogen input and improves bed structure after harvest
+  windows.
+cautions:
+- Bolting happens in heat; use shade or succession sowing to avoid “pepper confetti”
+  bitterness.
+pests:
+- Aphids
+- Slugs
+field_observations: |-
+  Keep leaves evenly moist for a sweeter, less harsh bite.
+  If you want tender growth, harvest frequently—big delays make leaves tough.
+  Don’t grow brassicas back-to-back; rotate so pests don’t get a free ride.
+diseases:
+- Root Rot
+animal_pressure:
+- Caterpillars

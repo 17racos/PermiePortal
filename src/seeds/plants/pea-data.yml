@@ -1,101 +1,82 @@
----
-- common_name: Pea
-  picture: pea.webp
-  scientific_name: Pisum sativum
-  aka:
-  - Garden Pea
-  - Green Pea
-  family: Fabaceae
-  zone: 2-11
-  ideal_temp_min: 55
-  ideal_temp_max: 70
-  min_temp: 20
-  max_temp: 85
-  perennial: false
-  layers:
-  - Herbaceous
-  plant_function:
-  - Edible
-  - Nitrogen Fixer
-  - Ground Cover
-  description: 'Peas (*Pisum sativum*) are annual, cool-season legumes known for their climbing habit, utilizing tendrils
-    to support themselves on trellises or other structures. They produce white, pink, or purple flowers that develop into
-    pods containing multiple seeds. Peas thrive in full sun and well-drained, loamy soil with a pH between 6 and 7.5. They
-    prefer consistent moisture but are sensitive to waterlogged conditions.
+common_name: Pea
+picture: pea.webp
+scientific_name: Pisum sativum
+aka:
+- Garden Pea
+- Green Pea
+family: Fabaceae
+zone: 2-11
+ideal_temp_min: 55
+ideal_temp_max: 70
+min_temp: 20
+max_temp: 85
+perennial: false
+layers:
+- Herbaceous
+plant_function:
+- Edible
+- Nitrogen Fixer
+- Ground Cover
+description: |-
+  Peas (*Pisum sativum*) are annual, cool-season legumes known for their climbing habit, utilizing tendrils to support themselves on trellises or other structures. They produce white, pink, or purple flowers that develop into pods containing multiple seeds. Peas thrive in full sun and well-drained, loamy soil with a pH between 6 and 7.5. They prefer consistent moisture but are sensitive to waterlogged conditions.
 
+  ✂️🫘 Methods to Propagate:
+  - **Direct Seeding:** Sow seeds directly into the soil as soon as it is workable in early spring, approximately 2.5 cm deep and 5 cm apart. In regions with mild winters, a fall planting is also possible.
 
-    ✂️🫘 Methods to Propagate:
+  🌞💧 Sun and Water Requirements:
+  - **Sun:** Full sun (at least 6-8 hours of direct sunlight daily).
+  - **Water:** Regular watering to maintain consistent soil moisture, avoiding waterlogged conditions.
 
-    - **Direct Seeding:** Sow seeds directly into the soil as soon as it is workable in early spring, approximately 2.5 cm
-    deep and 5 cm apart. In regions with mild winters, a fall planting is also possible.
-
-
-    🌞💧 Sun and Water Requirements:
-
-    - **Sun:** Full sun (at least 6-8 hours of direct sunlight daily).
-
-    - **Water:** Regular watering to maintain consistent soil moisture, avoiding waterlogged conditions.
-
-
-    🧑‍🌾👩‍🌾 When to Harvest:
-
-    - Harvest edible-pod varieties when pods are young and tender, before seeds fully develop.
-
-    - For shelling peas, pick when pods are plump, but seeds are still tender.
-
-    - Regular harvesting encourages continued production.'
-  purpose: |-
-    Edible: Pisum sativum snaps, snows, and shelling types give sweet pods and starchy seeds for spring stir-fries, dal, and freezer bags -- pick sugars before starches flip in hot weather; blanch seconds for reliable texture.
-    Nitrogen Fixer: Rhizobium leguminosarum bv. viciae nodulates cool roots, leaving nodules that rot into nitrate for the following brassica or corn row -- inoculate new ground and avoid waterlogging that turns nodules into mush.
-    Ground Cover: Tendril-climbing vines and bushy dwarfs shade row soil by early summer, smothering chickweed between trellis posts -- underplant with radish markers that finish before pea canopy closes.
-  companions:
-  - Carrot
-  - Radish
-  - Cucumber
-  - Turnip
-  - Corn
-  cautions:
-  - Onion
-  - Garlic
-  - Leek
-  pests:
-  - Aphids
-  - Banded Cucumber Beetle
-  - Bean Aphid
-  - Bean Leaf Beetle
-  - Bean Weevil
-  - Brown Marmorated Stink Bug
-  - Corn Earworm
-  - Cowpea Curculio
-  - Cutworms
-  - Fall Armyworm
-  - Fusarium Wilt
-  - Ganoderma Butt Rot
-  - Harlequin Ladybird
-  - Kudzu Bug
-  - Locust Borer
-  - Locust Leaf Miner
-  - Lubber Grasshopper
-  - Pea Moth
-  - Pea Weevil
-  - Pythium Root Rot
-  - Reniform Nematode
-  - Root Aphid
-  - Root Rot
-  - Soybean Looper
-  - Spittlebugs
-  - Spotted Cucumber Beetle
-  - Stink Bug
-  - Striped Cucumber Beetle
-  - Velvetbean Caterpillar
-  - White Rot
-  practitioner_notes: 'Overfertilized fast growth dilutes flavor and invites sap feeders—lean soil often tastes more like
-    itself.
-
-    Do not yank test nodules off every root—sacrifice one plant, not the whole stand’s recovery.
-
-    Shear ragged mats after heat waves; two weeks of ugly beats six months of thatch rot.
-
-    Notebook one weird year—weather anomalies repeat; memory lies, scribbles do not.'
-  growth_habit: Tree
-  data_quality_score: 0.8
+  🧑‍🌾👩‍🌾 When to Harvest:
+  - Harvest edible-pod varieties when pods are young and tender, before seeds fully develop.
+  - For shelling peas, pick when pods are plump, but seeds are still tender.
+  - Regular harvesting encourages continued production.
+purpose: |-
+  Edible: Pisum sativum snaps, snows, and shelling types give sweet pods and starchy seeds for spring stir-fries, dal, and freezer bags -- pick sugars before starches flip in hot weather; blanch seconds for reliable texture.
+  Nitrogen Fixer: Rhizobium leguminosarum bv. viciae nodulates cool roots, leaving nodules that rot into nitrate for the following brassica or corn row -- inoculate new ground and avoid waterlogging that turns nodules into mush.
+  Ground Cover: Tendril-climbing vines and bushy dwarfs shade row soil by early summer, smothering chickweed between trellis posts -- underplant with radish markers that finish before pea canopy closes.
+companions:
+- Carrot
+- Radish
+- Cucumber
+- Turnip
+- Corn
+cautions:
+- Onion
+- Garlic
+- Leek
+pests:
+- Aphids
+- Banded Cucumber Beetle
+- Bean Aphid
+- Bean Leaf Beetle
+- Bean Weevil
+- Corn Earworm
+- Cowpea Curculio
+- Cutworms
+- Fall Armyworm
+- Kudzu Bug
+- Locust Borer
+- Locust Leaf Miner
+- Lubber Grasshopper
+- Pea Moth
+- Pea Weevil
+- Reniform Nematode
+- Root Aphid
+- Soybean Looper
+- Spittlebugs
+- Stink Bug
+- Striped Cucumber Beetle
+growth_habit: Tree
+data_quality_score: 0.8
+diseases:
+- Fusarium Wilt
+- Ganoderma Butt Rot
+- Pythium Root Rot
+- Root Rot
+- Spotted Cucumber Beetle
+- White Rot
+animal_pressure:
+- Brown Marmorated Stink Bug
+- Harlequin Ladybird
+- Velvetbean Caterpillar

@@ -1,67 +1,56 @@
----
-- common_name: Allegheny Stonecrop
-  picture: allegheny_stonecrop.webp
-  scientific_name: Hylotelephium telephioides
-  aka:
-  - Allegheny Live-forever
-  - Orpine
-  family: Crassulaceae
-  zone: 3-8
-  ideal_temp_min: 60
-  ideal_temp_max: 80
-  min_temp: -35
-  max_temp: 95
-  perennial: true
-  layers:
-  - Herbaceous
-  - Ground Cover
-  plant_function:
-  - Ground Cover
-  - Ornamental
-  - Pollinator
-  - Erosion Control
-  - Dynamic Accumulator
-  description: "Allegheny stonecrop (Hylotelephium telephioides) is a hardy succulent
-    perennial of rocky eastern North American outcrops, forming clumps of blue-green,
-    toothed leaves and broad flat heads of pale pink to white flowers that pull late-season
-    pollinators. Plants typically stay under 18 inches (45 cm) in flower with a slowly
-    spreading base—useful on lean soil where thirsty ground covers throw tantrums.
-    In permaculture it is a low-input filler for sun-baked edges, green roofs, and
-    stonework where organic matter accumulates slowly but steadily.\n\n☀️💧 Sun and
-    Water Requirements:\nFull sun to light partial shade; dense shade stretches stems
-    and reduces flowering. Extremely drought-tolerant once rooted; prefers gritty,
-    well-drained soil and tolerates poor, shallow substrates. Winter wet on heavy
-    clay without slope or amendment can rot crowns—add gravel or plant higher.\n\n
-    ✂️ Propagation:\nDivide clumps in spring as new shoots emerge or after flowering
-    in early fall while soil remains warm. Detach rosette offsets with a bit of stem
-    and root; pot briefly if the bed is not ready. Stem-tip cuttings taken in summer
-    root quickly in sharp sand under bright indirect light.\n\n🌾 Harvest / Best Use
-    Timing:\nNot a primary food crop for most systems—value is ecological and visual.
-    If experimenting with edible uses, research species-specific guidance first; focus
-    harvest timing on leaving plenty for pollinators during peak bloom."
-  purpose: |-
-    Ground Cover: Hylotelephium telephioides rosettes tile thin soil on ledges and green roofs where thirsty turf cooks -- winter wet on heavy clay still rots crowns, so gravel collars beat sympathy watering.
-    Ornamental: Blue-green toothed leaves and broad pink-white cymes give late-season structure after spring bulbs fade -- copper seedheads linger into winter if you skip deadheading for bird perches.
-    Pollinator: Flat nectar platforms stay open late when goldenrod crowds fade, feeding small bees and syrphid flies that need easy landing pads on cool afternoons.
-    Erosion Control: Fibrous roots grip rock chips and wall bases where rain would otherwise strip fines -- pair with structural stone, not pure mud, so freeze-thaw does not pop whole mats loose.
-    Dynamic Accumulator: Succulent leaves capture wind-blown dust and trace minerals from thin pockets, recycling them when frost knocks foliage into the crevice soil below.
-  companions:
-  - Yarrow — matches dry sun and brings complementary umbels without shading stonecrop flat
-  - Little Bluestem — warm-season grass adds vertical contrast and shares lean-soil honesty
-  - Creeping Thyme — low aromatic mat fills micro-niches between stones while stonecrop handles taller nooks
-  cautions:
-  - Over-irrigation on clay — winter-saturated crowns rot while labels still say drought tolerant
-  pests:
-  - Aphids
-  - Mealybugs
-  - Slugs
-  practitioner_notes: |-
-    If stems flop, the site is probably too rich and too wet—stonecrop prefers neglect with drainage.
-    Deer occasionally browse tender spring growth; rough texture usually wins later in the year.
-    Flowers age to copper seedheads—leave them if you like winter structure and bird perches.
-    Divide before the center dies out; old mats hollow like a donut without occasional surgery.
-  growth_habit: Clumping succulent perennial; cymes of small starry flowers; dry rocky niches
-  data_quality_score: 0.8
-  # Image attribution: (c) Tiffany Moldenhauer, some rights reserved (CC BY-NC), uploaded by Tiffany Moldenhauer
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+common_name: Allegheny Stonecrop
+picture: allegheny_stonecrop.webp
+scientific_name: Hylotelephium telephioides
+aka:
+- Allegheny Live-forever
+- Orpine
+family: Crassulaceae
+zone: 3-8
+ideal_temp_min: 60
+ideal_temp_max: 80
+min_temp: -35
+max_temp: 95
+perennial: true
+layers:
+- Herbaceous
+- Ground Cover
+plant_function:
+- Ground Cover
+- Ornamental
+- Pollinator
+- Erosion Control
+- Dynamic Accumulator
+description: |-
+  Allegheny stonecrop (Hylotelephium telephioides) is a hardy succulent perennial of rocky eastern North American outcrops, forming clumps of blue-green, toothed leaves and broad flat heads of pale pink to white flowers that pull late-season pollinators. Plants typically stay under 18 inches (45 cm) in flower with a slowly spreading base—useful on lean soil where thirsty ground covers throw tantrums. In permaculture it is a low-input filler for sun-baked edges, green roofs, and stonework where organic matter accumulates slowly but steadily.
+
+  ☀️💧 Sun and Water Requirements:
+  Full sun to light partial shade; dense shade stretches stems and reduces flowering. Extremely drought-tolerant once rooted; prefers gritty, well-drained soil and tolerates poor, shallow substrates. Winter wet on heavy clay without slope or amendment can rot crowns—add gravel or plant higher.
+
+   ✂️ Propagation:
+  Divide clumps in spring as new shoots emerge or after flowering in early fall while soil remains warm. Detach rosette offsets with a bit of stem and root; pot briefly if the bed is not ready. Stem-tip cuttings taken in summer root quickly in sharp sand under bright indirect light.
+
+  🌾 Harvest / Best Use Timing:
+  Not a primary food crop for most systems—value is ecological and visual. If experimenting with edible uses, research species-specific guidance first; focus harvest timing on leaving plenty for pollinators during peak bloom.
+purpose: |-
+  Ground Cover: Hylotelephium telephioides rosettes tile thin soil on ledges and green roofs where thirsty turf cooks -- winter wet on heavy clay still rots crowns, so gravel collars beat sympathy watering.
+  Ornamental: Blue-green toothed leaves and broad pink-white cymes give late-season structure after spring bulbs fade -- copper seedheads linger into winter if you skip deadheading for bird perches.
+  Pollinator: Flat nectar platforms stay open late when goldenrod crowds fade, feeding small bees and syrphid flies that need easy landing pads on cool afternoons.
+  Erosion Control: Fibrous roots grip rock chips and wall bases where rain would otherwise strip fines -- pair with structural stone, not pure mud, so freeze-thaw does not pop whole mats loose.
+  Dynamic Accumulator: Succulent leaves capture wind-blown dust and trace minerals from thin pockets, recycling them when frost knocks foliage into the crevice soil below.
+companions:
+- Yarrow — matches dry sun and brings complementary umbels without shading stonecrop
+  flat
+- Little Bluestem — warm-season grass adds vertical contrast and shares lean-soil
+  honesty
+- Creeping Thyme — low aromatic mat fills micro-niches between stones while stonecrop
+  handles taller nooks
+cautions:
+- Over-irrigation on clay — winter-saturated crowns rot while labels still say drought
+  tolerant
+pests:
+- Aphids
+- Mealybugs
+- Slugs
+growth_habit: Clumping succulent perennial; cymes of small starry flowers; dry rocky
+  niches
+data_quality_score: 0.8

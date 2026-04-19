@@ -1,67 +1,63 @@
----
-- common_name: Sweet Cicely
-  picture: sweet_cicely.webp
-  scientific_name: Myrrhis odorata
-  aka:
-  - Garden Myrrh
-  - Spanish Chervil
-  family: Apiaceae
-  zone: 4-9
-  ideal_temp_min: 40
-  ideal_temp_max: 72
-  min_temp: -20
-  max_temp: 88
-  perennial: true
-  layers:
-  - Herbaceous
-  plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
-  - Border Plant
-  description: |-
-    Sweet cicely is a big, soft Apiaceae perennial with ferny leaves, a gentle anise scent, and umbels of white flowers that read "Victorian cottage meets bear buffet." Leaves, unripe seeds, and roots have been used like sweet seasoning — reduces sugar need in fruit dishes say the old herbals. It prefers cool, moist summers; subtropical and tropical Americas is marginal, so plant in dappled shade with rich soil and realistic expectations.
-    
-    ☀️💧 Sun and Water:
-    - Light shade to half-day sun in hot climates.
-    - Steady moisture; mulch to keep roots cool.
-    - Deep, humus-rich loam.
-    
-    ✂️ Propagation:
-    - Fresh seed (germination drops as seed ages).
-    - Division in early spring or fall.
-    
-    🌾 Harvest / Best Use Timing:
-    - Snip tender Sweet Cicely growth in cool mornings for best texture -- heat-stressed leaves taste like their day job.
-    - Flowers at full color for peak volatiles; seeds when pods rattle but before they self-sow across paths.
-    - Dry herbs in thin layers; deep piles steam themselves into compost.
-  purpose: |-
-    Edible: Myrrhis odorata young foliage and immature seeds taste like licorice candy -- harvest before umbels brown if you want kitchen sugar reduction without stevia bitterness.
-    Medicinal: Seed and root cordials anchored European digestive bitters -- verify pregnancy status before medicinal syrups because apiaceous chemistry varies by plant part.
-    Pollinator: Giant white umbels broadcast pollen to short-tongued flies and solitary bees along cool woodland edges.
-    Wildlife Attractor: Hoverfly clouds keep aphids nervous while caterpillars of swallowtails chew nearby forbs in the same guild.
-    Border Plant: Chest-high frothy sprays back shady paths without blocking borrowed views the way evergreen shrubs would.
-  companions:
-  - Angelica
-  - Lovage
-  - Mint
-  cautions:
-  - Hot, dry exposed beds
-  pests:
-  - Aphids
-  - Carrot Fly
-  - Carrot Rust Fly
-  - Carrot Weevil
-  - Celery Leaf Miner
-  - Dill Worms
-  - Parsley Worms
-  - Parsnip Canker
-  - Swallowtail Caterpillar
-  practitioner_notes: 'Anise-scented seeds ripen green-brown—collect before full drop if you want spice.
+common_name: Sweet Cicely
+picture: sweet_cicely.webp
+scientific_name: Myrrhis odorata
+aka:
+- Garden Myrrh
+- Spanish Chervil
+family: Apiaceae
+zone: 4-9
+ideal_temp_min: 40
+ideal_temp_max: 72
+min_temp: -20
+max_temp: 88
+perennial: true
+layers:
+- Herbaceous
+plant_function:
+- Edible
+- Medicinal
+- Pollinator
+- Wildlife Attractor
+- Border Plant
+description: |-
+  Sweet cicely is a big, soft Apiaceae perennial with ferny leaves, a gentle anise scent, and umbels of white flowers that read "Victorian cottage meets bear buffet." Leaves, unripe seeds, and roots have been used like sweet seasoning — reduces sugar need in fruit dishes say the old herbals. It prefers cool, moist summers; subtropical and tropical Americas is marginal, so plant in dappled shade with rich soil and realistic expectations.
 
-    Shade-tolerant perennial herb—sun makes it shorter and faster to flower.
+  ☀️💧 Sun and Water:
+  - Light shade to half-day sun in hot climates.
+  - Steady moisture; mulch to keep roots cool.
+  - Deep, humus-rich loam.
 
-    Taproot resents transplant—direct sow where you want it long term.'
-  growth_habit: Upright perennial forb
-  data_quality_score: 0.74
+  ✂️ Propagation:
+  - Fresh seed (germination drops as seed ages).
+  - Division in early spring or fall.
+
+  🌾 Harvest / Best Use Timing:
+  - Snip tender Sweet Cicely growth in cool mornings for best texture -- heat-stressed leaves taste like their day job.
+  - Flowers at full color for peak volatiles; seeds when pods rattle but before they self-sow across paths.
+  - Dry herbs in thin layers; deep piles steam themselves into compost.
+purpose: |-
+  Edible: Myrrhis odorata young foliage and immature seeds taste like licorice candy -- harvest before umbels brown if you want kitchen sugar reduction without stevia bitterness.
+  Medicinal: Seed and root cordials anchored European digestive bitters -- verify pregnancy status before medicinal syrups because apiaceous chemistry varies by plant part.
+  Pollinator: Giant white umbels broadcast pollen to short-tongued flies and solitary bees along cool woodland edges.
+  Wildlife Attractor: Hoverfly clouds keep aphids nervous while caterpillars of swallowtails chew nearby forbs in the same guild.
+  Border Plant: Chest-high frothy sprays back shady paths without blocking borrowed views the way evergreen shrubs would.
+companions:
+- Angelica
+- Lovage
+- Mint
+cautions:
+- Hot, dry exposed beds
+pests:
+- Aphids
+- Celery Leaf Miner
+- Dill Worms
+- Parsley Worms
+growth_habit: Upright perennial forb
+data_quality_score: 0.74
+diseases:
+- Carrot Fly
+- Carrot Rust Fly
+- Carrot Weevil
+- Parsnip Canker
+animal_pressure:
+- Swallowtail Caterpillar

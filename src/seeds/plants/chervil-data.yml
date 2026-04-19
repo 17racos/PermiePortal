@@ -1,58 +1,56 @@
----
-- common_name: Chervil
-  picture: chervil.webp
-  scientific_name: Anthriscus cerefolium
-  aka: []
-  family: Apiaceae
-  zone: 3-7
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
-  layers:
-  - Herbaceous
-  plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  description: |-
-    Chervil (Anthriscus cerefolium) is a cool-season annual herb with delicate, fern-like leaves and small white umbels of flowers. It’s native to Europe and western Asia and typically reaches 30–60 cm (12–24 in) tall. In permaculture, it earns its place as a “season extender” herb: it produces tender greens when many summer crops are too stressed, and it contributes nectar and flowering structure for beneficial insects.
-    
-    ☀️💧 Sun and Water Requirements:
-    - Partial shade is ideal; full sun works in cool seasons but can trigger early bolting.
-    - Keep soil consistently moist for tender leaves; drought makes the plant fibrous.
-    - Prefers rich, well-drained garden soil with compost and steady fertility.
-    - Protect from harsh freezes if young transplants are exposed.
-    
-    ✂️ Propagation:
-    - Seeds: direct-sow in early spring or in fall; germination commonly takes 10–20 days with even moisture.
-    - Seeds (succession): sow small batches every 2–3 weeks to spread harvest.
-    - Transplant (optional): start indoors, then transplant with minimal root disturbance once seedlings are sturdy.
-    
-    🌾 Harvest / Best Use Timing:
-    - Harvest leaves regularly once plants reach 15–25 cm (6–10 in); cut often to encourage fresh growth.
-    - Use leaves fresh for salads or lightly cooked; flavor is best when the plant is young.
-    - Allow some plants to flower if you want pollinator benefit and seed later.
-  purpose: |-
-    Edible: Delicate anise-scented leaves for cool-season salads and fines herbes before heat turns them stringy.
-    Medicinal: Apiaceous volatile oils show up in old European herbals as a mild digestive bitter and topical wash for irritated skin.
-    Pollinator: Small white umbels open in waves and supply nectar to tiny bees and syrphid flies when many summer vegetables are not in bloom.
-  companions:
-  - Lettuce (Lactuca sativa) — shared cool-season timing and similar moisture needs make bed management easier.
-  - Radish (Raphanus sativus) — quick roots loosen soil and create room so chervil doesn’t have to compete with slow space-hoggers.
-  - Garlic (Allium sativum) — strong aroma and rotation timing reduce pest pressure in cool herb beds.
-  cautions:
-  - Chervil bolts in heat; shade and succession sowing keep you from harvesting “just flowers.”
-  practitioner_notes: |-
-    If the plant starts stretching, cut it back and re-sow nearby—chervil hates being forced to flower early.
-    Water in the morning so foliage dries; wet leaves attract trouble.
-    Harvest with scissors: clean cuts keep leaves looking usable longer.
-  pests:
-  - Aphids
-  - Slugs
-  - Caterpillars
-  - Root Rot
-  # Image attribution: (c) Valentin Hamon, some rights reserved (CC BY-NC), uploaded by Valentin Hamon
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+common_name: Chervil
+picture: chervil.webp
+scientific_name: Anthriscus cerefolium
+aka: []
+family: Apiaceae
+zone: 3-7
+ideal_temp_min: 0
+ideal_temp_max: 0
+min_temp: 0
+max_temp: 0
+perennial: true
+layers:
+- Herbaceous
+plant_function:
+- Edible
+- Medicinal
+- Pollinator
+description: |-
+  Chervil (Anthriscus cerefolium) is a cool-season annual herb with delicate, fern-like leaves and small white umbels of flowers. It’s native to Europe and western Asia and typically reaches 30–60 cm (12–24 in) tall. In permaculture, it earns its place as a “season extender” herb: it produces tender greens when many summer crops are too stressed, and it contributes nectar and flowering structure for beneficial insects.
+
+  ☀️💧 Sun and Water Requirements:
+  - Partial shade is ideal; full sun works in cool seasons but can trigger early bolting.
+  - Keep soil consistently moist for tender leaves; drought makes the plant fibrous.
+  - Prefers rich, well-drained garden soil with compost and steady fertility.
+  - Protect from harsh freezes if young transplants are exposed.
+
+  ✂️ Propagation:
+  - Seeds: direct-sow in early spring or in fall; germination commonly takes 10–20 days with even moisture.
+  - Seeds (succession): sow small batches every 2–3 weeks to spread harvest.
+  - Transplant (optional): start indoors, then transplant with minimal root disturbance once seedlings are sturdy.
+
+  🌾 Harvest / Best Use Timing:
+  - Harvest leaves regularly once plants reach 15–25 cm (6–10 in); cut often to encourage fresh growth.
+  - Use leaves fresh for salads or lightly cooked; flavor is best when the plant is young.
+  - Allow some plants to flower if you want pollinator benefit and seed later.
+purpose: |-
+  Edible: Delicate anise-scented leaves for cool-season salads and fines herbes before heat turns them stringy.
+  Medicinal: Apiaceous volatile oils show up in old European herbals as a mild digestive bitter and topical wash for irritated skin.
+  Pollinator: Small white umbels open in waves and supply nectar to tiny bees and syrphid flies when many summer vegetables are not in bloom.
+companions:
+- Lettuce (Lactuca sativa) — shared cool-season timing and similar moisture needs
+  make bed management easier.
+- Radish (Raphanus sativus) — quick roots loosen soil and create room so chervil doesn’t
+  have to compete with slow space-hoggers.
+- Garlic (Allium sativum) — strong aroma and rotation timing reduce pest pressure
+  in cool herb beds.
+cautions:
+- Chervil bolts in heat; shade and succession sowing keep you from harvesting “just
+  flowers.”
+pests:
+- Aphids
+- Slugs
+diseases:
+- Root Rot
+animal_pressure:
+- Caterpillars

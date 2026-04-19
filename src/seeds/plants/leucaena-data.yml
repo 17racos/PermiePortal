@@ -1,95 +1,79 @@
----
-- common_name: Leucaena
-  picture: leucaena.webp
-  scientific_name: Leucaena leucocephala
-  aka:
-  - Lead tree
-  - White popinac
-  - Ipil-ipil
-  family: Fabaceae
-  zone: 10-11
-  ideal_temp_min: 70
-  ideal_temp_max: 95
-  min_temp: 28
-  max_temp: 105
-  perennial: true
-  layers:
-  - Tree
-  plant_function:
-  - Nitrogen Fixer
-  - Animal Fodder
-  - Mulcher
-  - Windbreaker
-  description: 'Leucaena is a fast legume tree that grows like it owes money—fine bipinnate leaves, creamy flowers, flat pods.
-    It fixes nitrogen, feeds ruminants in managed systems, and contains mimosine, which is toxic to non-ruminants and requires
-    real forage science, not backyard cowboy cosplay. In Florida it is invasive in parts of the south; subtropical and tropical
-    Americas frosts check it more but ethics of planting still matter.
+common_name: Leucaena
+picture: leucaena.webp
+scientific_name: Leucaena leucocephala
+aka:
+- Lead tree
+- White popinac
+- Ipil-ipil
+family: Fabaceae
+zone: 10-11
+ideal_temp_min: 70
+ideal_temp_max: 95
+min_temp: 28
+max_temp: 105
+perennial: true
+layers:
+- Tree
+plant_function:
+- Nitrogen Fixer
+- Animal Fodder
+- Mulcher
+- Windbreaker
+description: |-
+  Leucaena is a fast legume tree that grows like it owes money—fine bipinnate leaves, creamy flowers, flat pods. It fixes nitrogen, feeds ruminants in managed systems, and contains mimosine, which is toxic to non-ruminants and requires real forage science, not backyard cowboy cosplay. In Florida it is invasive in parts of the south; subtropical and tropical Americas frosts check it more but ethics of planting still matter.
 
+  ☀️💧 Sun and Water Requirements:
+  - Full sun; lanky and disappointing in shade.
+  - Tolerates poor soils but fruits and biomass ramp with deep moisture access—avoid stagnant wet root zones.
 
-    ☀️💧 Sun and Water Requirements:
+  ✂️ Methods to Propagate:
+  - Seeds: hot-water soak or scarify; germinates fast in warm wet media.
+  - Cuttings possible for some lines; seed is the norm at scale.
 
-    - Full sun; lanky and disappointing in shade.
-
-    - Tolerates poor soils but fruits and biomass ramp with deep moisture access—avoid stagnant wet root zones.
-
-
-    ✂️ Methods to Propagate:
-
-    - Seeds: hot-water soak or scarify; germinates fast in warm wet media.
-
-    - Cuttings possible for some lines; seed is the norm at scale.
-
-
-    🌾 Harvest notes:
-
-    - For fodder systems, follow rotational grazing and variety guidance—this is livestock nutrition, not a meme.'
-  purpose: |-
-    Nitrogen Fixer: Leucaena leucocephala fixes atmospheric nitrogen through rhizobia while producing huge volumes of bipinnate leaf litter -- coppice on rotation so fixed N enters soil without letting seed pods colonize fence lines.
-    Animal Fodder: Leaves run 20-25 percent crude protein for cattle and goats accustomed to mimosine -- never feed to horses or single-stomached pets because toxicity is documented, not anecdotal.
-    Mulcher: Six-month regrowth after cutting yields soft green mulch for banana circles -- chip stems before lignin stiffens so material breaks down instead of tying up nitrogen on the surface.
-    Windbreaker: Fast upright form knits into shelterbelts across trade-wind farms -- verify regional invasive status before planting because seeds move downstream into natural areas.
-  companions:
-  - Banana
-  - Papaya
-  - Cassava
-  cautions:
-  - Horse pastures (mimosine risk)
-  - Planting where regional lists flag it as invasive
-  pests:
-  - Aphids
-  - Banded Cucumber Beetle
-  - Bean Aphid
-  - Bean Leaf Beetle
-  - Bean Weevil
-  - Brown Marmorated Stink Bug
-  - Corn Earworm
-  - Cowpea Curculio
-  - Fall Armyworm
-  - Fusarium Wilt
-  - Ganoderma Butt Rot
-  - Harlequin Ladybird
-  - Kudzu Bug
-  - Locust Borer
-  - Locust Leaf Miner
-  - Lubber Grasshopper
-  - Pea Moth
-  - Pea Weevil
-  - Pythium Root Rot
-  - Reniform Nematode
-  - Root Aphid
-  - Root Rot
-  - Scale Insects
-  - Soybean Looper
-  - Spittlebugs
-  - Spotted Cucumber Beetle
-  - Stink Bug
-  - Striped Cucumber Beetle
-  - Velvetbean Caterpillar
-  - White Rot
-  practitioner_notes: 'Chop-and-drop timing matters: green mulch feeds soil; woody brown mulch ties up surface nitrogen briefly.
-
-    Soil smell and root color tell more than gadget overload—dig a small hole twice a season.
-
-    Watch the plant’s own signals first—catalog zone numbers do not replace your site’s microclimate truth.
-
-    Inoculate with the correct rhizobia group—wrong packet gives pretty leaves and empty nodules.'
+  🌾 Harvest notes:
+  - For fodder systems, follow rotational grazing and variety guidance—this is livestock nutrition, not a meme.
+purpose: |-
+  Nitrogen Fixer: Leucaena leucocephala fixes atmospheric nitrogen through rhizobia while producing huge volumes of bipinnate leaf litter -- coppice on rotation so fixed N enters soil without letting seed pods colonize fence lines.
+  Animal Fodder: Leaves run 20-25 percent crude protein for cattle and goats accustomed to mimosine -- never feed to horses or single-stomached pets because toxicity is documented, not anecdotal.
+  Mulcher: Six-month regrowth after cutting yields soft green mulch for banana circles -- chip stems before lignin stiffens so material breaks down instead of tying up nitrogen on the surface.
+  Windbreaker: Fast upright form knits into shelterbelts across trade-wind farms -- verify regional invasive status before planting because seeds move downstream into natural areas.
+companions:
+- Banana
+- Papaya
+- Cassava
+cautions:
+- Horse pastures (mimosine risk)
+- Planting where regional lists flag it as invasive
+pests:
+- Aphids
+- Banded Cucumber Beetle
+- Bean Aphid
+- Bean Leaf Beetle
+- Bean Weevil
+- Corn Earworm
+- Cowpea Curculio
+- Fall Armyworm
+- Kudzu Bug
+- Locust Borer
+- Locust Leaf Miner
+- Lubber Grasshopper
+- Pea Moth
+- Pea Weevil
+- Reniform Nematode
+- Root Aphid
+- Scale Insects
+- Soybean Looper
+- Spittlebugs
+- Stink Bug
+- Striped Cucumber Beetle
+diseases:
+- Fusarium Wilt
+- Ganoderma Butt Rot
+- Pythium Root Rot
+- Root Rot
+- Spotted Cucumber Beetle
+- White Rot
+animal_pressure:
+- Brown Marmorated Stink Bug
+- Harlequin Ladybird
+- Velvetbean Caterpillar

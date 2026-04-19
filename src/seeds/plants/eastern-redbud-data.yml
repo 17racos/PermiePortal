@@ -1,59 +1,61 @@
----
-- common_name: Eastern Redbud
-  picture: eastern_redbud.webp
-  scientific_name: Cercis canadensis
-  aka:
-  - Judas tree (name shared with related species)
-  - American redbud
-  family: Fabaceae
-  zone: 4-9
-  ideal_temp_min: 45
-  ideal_temp_max: 85
-  min_temp: -25
-  max_temp: 100
-  perennial: true
-  layers:
-  - Tree
-  plant_function:
-  - Edible
-  - Pollinator
-  - Wildlife Attractor
-  - Nitrogen Fixer
-  - Border Plant
-  description: "Eastern redbud (Cercis canadensis) is a small native deciduous tree of eastern North American wood margins
-    and riparian edges, famous for magenta-pink flowers studding bare branches in early spring before heart-shaped leaves expand.
-    Flowers are edible and pleasantly sweet-tart in salads; young pods pickle like tiny beans in some traditions. As a legume-family
-    tree it can participate in soil-biology partnerships that matter in successional plantings—pair it with canopy species that
-    respect its light needs.\n\n☀️💧 Sun and Water Requirements:\n- Full sun to partial shade; blooms heaviest with good light
-    while tolerating woodland edge conditions.\n- Moist, well-drained soils are ideal; tolerates short drought once established
-    but not swamp life.\n- Protect from dessicating winds on hot sites; mulch reduces root zone whiplash.\n\n✂️ Propagation:\n-
-    Scarified seed after cold stratification improves germination reliability.\n- Root cuttings and suckers can expand clones
-    where parents already thrive.\n- Grafted cultivars exist for color and form—match rootstock to regional disease pressures.\n\n🌾
-    Harvest / Best Use Timing:\n- Pick flowers at peak open for salads and fritters; harvest modestly to leave pollinator
-    rewards.\n- Young pods for pickles before strings toughen—taste-test a pod before you commit buckets.\n- Seeds mature
-    late; clean and store dry if you breed or share."
-  purpose: |-
-    Edible: Cercis canadensis flowers are sweet-tart in salads and fritters; young pods pickle like tiny beans before strings toughen -- harvest modestly and ID carefully.
-    Pollinator: Magenta blooms on bare wood feed early bees when canopy trees are still dormant -- critical nectar bridge in eastern woodlands.
-    Wildlife Attractor: Later pods and small seeds feed finches and small mammals along forest margins.
-    Nitrogen Fixer: Fabaceae rhizobia on roots add biologically available nitrogen to mulch layers -- not a row-crop substitute alone, but useful in diverse edges.
-    Border Plant: Small stature fits courtyards, understory slots, and fence lines beneath taller hardwoods.
-  companions:
-  - Pawpaw — shade-tolerant fruiting understory that wakes later; timing reduces direct competition for early light.
-  - Comfrey — mineral mulch cuts at the drip line without shading the crown for long.
-  - Elderberry — fast shrub edge for wildlife structure; shares hedgerow aesthetics without identical pest calendars.
-  cautions:
-  - Walnut
-  pests:
-  - Aphids
-  - Borers
-  - Caterpillars
-  - Leafhoppers
-  - Ambrosia Beetles
-  practitioner_notes: |-
-    Cultivar flowers can be darker than wild types—taste before you cater a wedding.
-    Heart-leaf lookalikes exist—confirm Cercis before you teach foraging classes.
-    Short tree does not mean short roots—give it space from pavement and pipes.
-    Spring frosts after bloom are mood events, not management failures—record dates, not drama.
-  growth_habit: Small deciduous tree; often multi-trunk; rounded crown
-  data_quality_score: 0.82
+common_name: Eastern Redbud
+picture: eastern_redbud.webp
+scientific_name: Cercis canadensis
+aka:
+- Judas tree (name shared with related species)
+- American redbud
+family: Fabaceae
+zone: 4-9
+ideal_temp_min: 45
+ideal_temp_max: 85
+min_temp: -25
+max_temp: 100
+perennial: true
+layers:
+- Tree
+plant_function:
+- Edible
+- Pollinator
+- Wildlife Attractor
+- Nitrogen Fixer
+- Border Plant
+description: |-
+  Eastern redbud (Cercis canadensis) is a small native deciduous tree of eastern North American wood margins and riparian edges, famous for magenta-pink flowers studding bare branches in early spring before heart-shaped leaves expand. Flowers are edible and pleasantly sweet-tart in salads; young pods pickle like tiny beans in some traditions. As a legume-family tree it can participate in soil-biology partnerships that matter in successional plantings—pair it with canopy species that respect its light needs.
+
+  ☀️💧 Sun and Water Requirements:
+  - Full sun to partial shade; blooms heaviest with good light while tolerating woodland edge conditions.
+  - Moist, well-drained soils are ideal; tolerates short drought once established but not swamp life.
+  - Protect from dessicating winds on hot sites; mulch reduces root zone whiplash.
+
+  ✂️ Propagation:
+  - Scarified seed after cold stratification improves germination reliability.
+  - Root cuttings and suckers can expand clones where parents already thrive.
+  - Grafted cultivars exist for color and form—match rootstock to regional disease pressures.
+
+  🌾 Harvest / Best Use Timing:
+  - Pick flowers at peak open for salads and fritters; harvest modestly to leave pollinator rewards.
+  - Young pods for pickles before strings toughen—taste-test a pod before you commit buckets.
+  - Seeds mature late; clean and store dry if you breed or share.
+purpose: |-
+  Edible: Cercis canadensis flowers are sweet-tart in salads and fritters; young pods pickle like tiny beans before strings toughen -- harvest modestly and ID carefully.
+  Pollinator: Magenta blooms on bare wood feed early bees when canopy trees are still dormant -- critical nectar bridge in eastern woodlands.
+  Wildlife Attractor: Later pods and small seeds feed finches and small mammals along forest margins.
+  Nitrogen Fixer: Fabaceae rhizobia on roots add biologically available nitrogen to mulch layers -- not a row-crop substitute alone, but useful in diverse edges.
+  Border Plant: Small stature fits courtyards, understory slots, and fence lines beneath taller hardwoods.
+companions:
+- Pawpaw — shade-tolerant fruiting understory that wakes later; timing reduces direct
+  competition for early light.
+- Comfrey — mineral mulch cuts at the drip line without shading the crown for long.
+- Elderberry — fast shrub edge for wildlife structure; shares hedgerow aesthetics
+  without identical pest calendars.
+cautions:
+- Walnut
+pests:
+- Aphids
+- Borers
+- Leafhoppers
+- Ambrosia Beetles
+growth_habit: Small deciduous tree; often multi-trunk; rounded crown
+data_quality_score: 0.82
+animal_pressure:
+- Caterpillars

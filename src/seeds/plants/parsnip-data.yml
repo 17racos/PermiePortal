@@ -1,62 +1,65 @@
----
-- common_name: Parsnip
-  picture: parsnip.webp
-  scientific_name: Pastinaca sativa
-  aka:
-  - Wild Parsnip
-  family: Apiaceae
-  zone: 2-9
-  ideal_temp_min: 45
-  ideal_temp_max: 85
-  min_temp: 0
-  max_temp: 100
-  perennial: false
-  layers:
-  - Herbaceous
-  plant_function:
-  - Edible
-  - Dynamic Accumulator
-  - Erosion Control
-  - Wildlife Attractor
-  description: "Parsnip (Pastinaca sativa) is a biennial root vegetable grown as an annual for its sweet, nutty-flavored,\
-    \ cream-colored taproot. It thrives in cool climates and develops the best flavor after exposure to frost. The plant grows\
-    \ tall with umbel-like yellow flowers in its second year, attracting pollinators and beneficial insects.\n\n \U0001F31E\
-    \U0001F4A7 Sun and Water Requirements:\n- Prefers full sun but tolerates partial shade.\n- Requires consistently moist,\
-    \ well-drained soil.\n- Deep watering is beneficial to encourage long root growth.\n\n✂️\U0001FAD8 Methods to Propagate:\n\
-    - Direct seeding: Sow seeds directly in the garden as they do not transplant well.\n- Pre-soaking: Soaking seeds overnight\
-    \ can improve germination.\n- Succession planting: Plant every few weeks for an extended harvest.\n\n\U0001F9D1‍\U0001F33E\
-    \U0001F469‍\U0001F33E When to Harvest:\n- Roots are ready for harvest 120-180 days after planting.\n- Flavor improves\
-    \ after exposure to frost; best harvested late fall to winter.\n- Can be left in the ground and dug up as needed through\
-    \ winter."
-  purpose: |-
-    Edible: Cream Pastinaca sativa taproots sweeten after light frost converts starches, roasting into nutty wedges or mashing like potato analogs -- peel deeply around crown to remove furanocoumarin-rich green shoulders that cause phytophotodermatitis on sunny harvest days.
-    Dynamic Accumulator: Deep biennial roots lift subsoil potassium and phosphorus into rosette leaves that can be cut pre-bolting for mulch -- compost tops before umbels form if you want to avoid wild carrot hybrid pollen drift.
-    Erosion Control: First-year taproots drill channels through plow pans while rosette leaves armor bare winter beds -- follow with shallow-rooted greens that use the opened pore space next season.
-    Wildlife Attractor: Second-year yellow umbels feed parasitoid wasps, hoverflies, and minute pirate bugs during early summer aphid peaks -- leave a few bolted plants at field ends as insectary towers if you already harvested kitchen roots.
-  companions:
-  - Onion
-  - Garlic
-  - Carrot
-  - Tomato
-  - Radish
-  cautions:
-  - Lettuce
-  - Celery
-  pests:
-  - Alternaria Leaf Spot
-  - Cabbage Root Maggots
-  - Carrot Fly
-  - Carrot Rust Fly
-  - Carrot Weevil
-  - Celery Leaf Miner
-  - Dill Worms
-  - Parsnip Canker
-  - Swallowtail Caterpillar
-  - aphids
-  practitioner_notes: 'First-year roots only—bolted second-year umbels mean woody core, not dinner.
+common_name: Parsnip
+picture: parsnip.webp
+scientific_name: Pastinaca sativa
+aka:
+- Wild Parsnip
+family: Apiaceae
+zone: 2-9
+ideal_temp_min: 45
+ideal_temp_max: 85
+min_temp: 0
+max_temp: 100
+perennial: false
+layers:
+- Herbaceous
+plant_function:
+- Edible
+- Dynamic Accumulator
+- Erosion Control
+- Wildlife Attractor
+description: |-
+  Parsnip (Pastinaca sativa) is a biennial root vegetable grown as an annual for its sweet, nutty-flavored, cream-colored taproot. It thrives in cool climates and develops the best flavor after exposure to frost. The plant grows tall with umbel-like yellow flowers in its second year, attracting pollinators and beneficial insects.
 
-    Germination needs steady moisture for two weeks—burlap or light mulch prevents crust.
+   🌞💧 Sun and Water Requirements:
+  - Prefers full sun but tolerates partial shade.
+  - Requires consistently moist, well-drained soil.
+  - Deep watering is beneficial to encourage long root growth.
 
-    Skin furanocoumarin plus sun equals rash—harvest gloved on bright days.'
-  growth_habit: Tree
-  data_quality_score: 0.8
+  ✂️🫘 Methods to Propagate:
+  - Direct seeding: Sow seeds directly in the garden as they do not transplant well.
+  - Pre-soaking: Soaking seeds overnight can improve germination.
+  - Succession planting: Plant every few weeks for an extended harvest.
+
+  🧑‍🌾👩‍🌾 When to Harvest:
+  - Roots are ready for harvest 120-180 days after planting.
+  - Flavor improves after exposure to frost; best harvested late fall to winter.
+  - Can be left in the ground and dug up as needed through winter.
+purpose: |-
+  Edible: Cream Pastinaca sativa taproots sweeten after light frost converts starches, roasting into nutty wedges or mashing like potato analogs -- peel deeply around crown to remove furanocoumarin-rich green shoulders that cause phytophotodermatitis on sunny harvest days.
+  Dynamic Accumulator: Deep biennial roots lift subsoil potassium and phosphorus into rosette leaves that can be cut pre-bolting for mulch -- compost tops before umbels form if you want to avoid wild carrot hybrid pollen drift.
+  Erosion Control: First-year taproots drill channels through plow pans while rosette leaves armor bare winter beds -- follow with shallow-rooted greens that use the opened pore space next season.
+  Wildlife Attractor: Second-year yellow umbels feed parasitoid wasps, hoverflies, and minute pirate bugs during early summer aphid peaks -- leave a few bolted plants at field ends as insectary towers if you already harvested kitchen roots.
+companions:
+- Onion
+- Garlic
+- Carrot
+- Tomato
+- Radish
+cautions:
+- Lettuce
+- Celery
+pests:
+- Cabbage Root Maggots
+- Celery Leaf Miner
+- Dill Worms
+- aphids
+growth_habit: Tree
+data_quality_score: 0.8
+diseases:
+- Alternaria Leaf Spot
+- Carrot Fly
+- Carrot Rust Fly
+- Carrot Weevil
+- Parsnip Canker
+animal_pressure:
+- Swallowtail Caterpillar

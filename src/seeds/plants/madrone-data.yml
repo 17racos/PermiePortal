@@ -1,65 +1,59 @@
----
-- common_name: Madrone
-  picture: madrone.webp
-  scientific_name: Arbutus menziesii
-  aka:
-  - Pacific madrone
-  - Arbutus tree
-  family: Ericaceae
-  zone: 7-9
-  ideal_temp_min: 40
-  ideal_temp_max: 85
-  min_temp: 0
-  max_temp: 110
-  perennial: true
-  layers:
-  - Tree
-  - Sub-Canopy
-  plant_function:
-  - Wildlife Attractor
-  - Erosion Control
-  - Ornamental
-  - Shade Provider
-  description: "Madrone (Arbutus menziesii) is an iconic evergreen tree of Pacific coastal woodlands from British Columbia\
-    \ into California and Mexico, famous for peeling cinnamon bark, leathery leaves, and red berries that feed birds and bears.\
-    \ It is a mycorrhizal prima donna: transplanting large specimens often fails, and irrigation overkill kills roots that\
-    \ expect summer drought after marine fog lifts. For West Coast permaculture it is canopy jewelry on rocky slopes—shade,\
-    \ wildlife mast, and a reminder that some natives reject pampering.\n\n☀️\U0001F4A7 Sun and Water Requirements:\n Full\
-    \ sun to partial shade; established trees tolerate dry Mediterranean summer patterns with cool root runs. Requires excellent\
-    \ drainage; hates lawn sprinklers hitting trunks daily. Neutral to slightly acidic soils suit it; avoid heavy compaction\
-    \ and grade changes over root zones. Heat waves inland demand established roots; young trees need attentive but infrequent\
-    \ deep watering.\n\n✂️ Propagation:\nSow fresh seed; germination can be slow and irregular.\nNursery liners are safer\
-    \ than mature transplant fantasies—buy small and site once.\n\n\U0001F33E Harvest / Best Use Timing:\n Berries are mealy\
-    \ human snacks but valuable wildlife food—leave them. Prune only for clearance; bark peels naturally and should not be\
-    \ carved for social media."
-  purpose: |-
-    Wildlife Attractor: Arbutus menziesii red-orange berries feed varied thrushes and small mammals while spring urn flowers supply nectar to native bees -- leave fruit on the tree if wildlife pantry beats human curiosity.
-    Erosion Control: Shallow, wide-spreading roots grip thin soil over bedrock on coastal bluffs -- avoid grade changes and irrigation donuts that suffocate roots accustomed to summer drought.
-    Ornamental: Cinnamon peeling bark on muscular trunks reads like West Coast jewelry -- site once from small liners because mature specimens hate transplanting and irrigation overload.
-    Shade Provider: Open, round crown casts light shade for salal, bulbs, and drought bulbs -- match companions to dry summer shade, not lawn sprinkler culture against the trunk.
-  companions:
-  - Douglas Fir — conifer overstory common in Pacific mosaic forests with madrone gaps
-  - Oregon White Oak — deciduous oak contrast with evergreen Arbutus in valley savannas
-  - Salal — ericaceous ground cover shares mycorrhizal aesthetics under partial shade
-  cautions:
-  - Sudden Oak Death (Phytophthora ramorum) and related phytophthoras threaten Arbutus in parts of its range—sanitize tools
-    and source clean nursery stock
-  pests:
-  - Azalea Caterpillar
-  - Blueberry Maggot
-  - Borers
-  - Cranberry Fruitworm
-  - Cranberry Tipworm
-  - Scale Insects
-  - Sparganothis Fruitworm
-  - Strawberry Root Weevil
-  - Vine Weevil
-  practitioner_notes: 'Transplanting big trees is how optimism dies—start small or start over.
+common_name: Madrone
+picture: madrone.webp
+scientific_name: Arbutus menziesii
+aka:
+- Pacific madrone
+- Arbutus tree
+family: Ericaceae
+zone: 7-9
+ideal_temp_min: 40
+ideal_temp_max: 85
+min_temp: 0
+max_temp: 110
+perennial: true
+layers:
+- Tree
+- Sub-Canopy
+plant_function:
+- Wildlife Attractor
+- Erosion Control
+- Ornamental
+- Shade Provider
+description: |-
+  Madrone (Arbutus menziesii) is an iconic evergreen tree of Pacific coastal woodlands from British Columbia into California and Mexico, famous for peeling cinnamon bark, leathery leaves, and red berries that feed birds and bears. It is a mycorrhizal prima donna: transplanting large specimens often fails, and irrigation overkill kills roots that expect summer drought after marine fog lifts. For West Coast permaculture it is canopy jewelry on rocky slopes—shade, wildlife mast, and a reminder that some natives reject pampering.
 
-    Bark peels on schedule; graffiti carvers earn bad karma measured in cambium tears.
+  ☀️💧 Sun and Water Requirements:
+   Full sun to partial shade; established trees tolerate dry Mediterranean summer patterns with cool root runs. Requires excellent drainage; hates lawn sprinklers hitting trunks daily. Neutral to slightly acidic soils suit it; avoid heavy compaction and grade changes over root zones. Heat waves inland demand established roots; young trees need attentive but infrequent deep watering.
 
-    Lawn sprinklers plus madrone equals a multi-year breakup letter from the roots.
+  ✂️ Propagation:
+  Sow fresh seed; germination can be slow and irregular.
+  Nursery liners are safer than mature transplant fantasies—buy small and site once.
 
-    Berries taste like homework—wildlife disagree, and their vote counts.'
-  growth_habit: Evergreen Pacific tree; exfoliating red bark; red berries; dry-summer adaptation
-  data_quality_score: 0.86
+  🌾 Harvest / Best Use Timing:
+   Berries are mealy human snacks but valuable wildlife food—leave them. Prune only for clearance; bark peels naturally and should not be carved for social media.
+purpose: |-
+  Wildlife Attractor: Arbutus menziesii red-orange berries feed varied thrushes and small mammals while spring urn flowers supply nectar to native bees -- leave fruit on the tree if wildlife pantry beats human curiosity.
+  Erosion Control: Shallow, wide-spreading roots grip thin soil over bedrock on coastal bluffs -- avoid grade changes and irrigation donuts that suffocate roots accustomed to summer drought.
+  Ornamental: Cinnamon peeling bark on muscular trunks reads like West Coast jewelry -- site once from small liners because mature specimens hate transplanting and irrigation overload.
+  Shade Provider: Open, round crown casts light shade for salal, bulbs, and drought bulbs -- match companions to dry summer shade, not lawn sprinkler culture against the trunk.
+companions:
+- Douglas Fir — conifer overstory common in Pacific mosaic forests with madrone gaps
+- Oregon White Oak — deciduous oak contrast with evergreen Arbutus in valley savannas
+- Salal — ericaceous ground cover shares mycorrhizal aesthetics under partial shade
+cautions:
+- Sudden Oak Death (Phytophthora ramorum) and related phytophthoras threaten Arbutus
+  in parts of its range—sanitize tools and source clean nursery stock
+pests:
+- Blueberry Maggot
+- Borers
+- Cranberry Fruitworm
+- Cranberry Tipworm
+- Scale Insects
+- Sparganothis Fruitworm
+- Strawberry Root Weevil
+- Vine Weevil
+growth_habit: Evergreen Pacific tree; exfoliating red bark; red berries; dry-summer
+  adaptation
+data_quality_score: 0.86
+animal_pressure:
+- Azalea Caterpillar

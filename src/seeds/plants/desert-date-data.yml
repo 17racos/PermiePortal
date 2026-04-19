@@ -1,62 +1,49 @@
----
-- common_name: Desert Date
-  picture: desert_date.webp
-  scientific_name: Balanites aegyptiaca
-  aka:
-  - Soapberry tree
-  - Thron tree (thorn tree)
-  family: Zygophyllaceae
-  zone: 10-12
-  ideal_temp_min: 65
-  ideal_temp_max: 105
-  min_temp: 28
-  max_temp: 115
-  perennial: true
-  layers:
-  - Tree
-  plant_function:
-  - Edible
-  - Animal Fodder
-  - Erosion Control
-  - Windbreaker
-  description: "Desert date (*Balanites aegyptiaca*) is a slow-growing, extremely
-    drought-tolerant tree from arid regions of Africa and parts of the Middle East,
-    armed with spines and bearing narrow, compound-looking branchlets. Mature height
-    is often 3–10 m depending on moisture; the yellow-green drupes are used in some
-    traditions after careful processing while other plant parts can be toxic—**treat
-    all use as advanced homework, not casual foraging**. In subtropical and tropical Americas
-    it suits frost-free, rain-shadow microclimates, rockeries, and xeric demonstration
-    plantings; it will rot in lawn sprinklers and heavy clay.\n\n☀️💧 **Sun and Water
-    Requirements:**\nFull sun. Deep, very well-drained soil; essentially dry-season
-    survival once established. Water deeply but rarely during establishment only.\n\n✂️
-    **Methods to Propagate:**\n- **Seeds:** Soak or scarify hard seeds; sow in warm,
-    fast-draining mix and keep lightly moist until germination.\n- **Transplants:**
-    Move young taprooted seedlings carefully into final positions to minimize disturbance.\n\n🌾
-    **When to Harvest / Best Use Timing:**\nFruit handling belongs to knowledgeable
-    processors only. For landscape use, prune for clearance around thorns in the cool
-    morning and disinfect tools—spines are not decorative jokes."
-  purpose: |-
-    Edible: Balanites aegyptiaca yellow-green drupes enter traditional diets only after knowledgeable processing -- alkaloids and saponins make raw use dangerous; research before any kitchen trial.
-    Animal Fodder: Thorny branchlets and fruit pulp have supported drought livestock abroad -- work with a veterinarian where toxicity varies by population.
-    Erosion Control: Deep taproot and sparse canopy reduce rain splash on rocky arid soils where few trees persist.
-    Windbreaker: Multi-stem, spiny frames blunt hot dry winds along xeric lanes and livestock corridors.
-  companions:
-  - Mesquite
-  - Palo verde
-  - Agave
-  - Prickly pear
-  cautions:
-  - None documented
-  pests:
-  - Scale Insects
-  - Borers
-  practitioner_notes: |-
-    Harvest texture changes faster than color—nip one sample before you commit the whole row to a pick date.
-    Watch the plant’s own signals first—catalog zone numbers do not replace your site’s microclimate truth.
-    Overfertilized fast growth dilutes flavor and invites sap feeders—lean soil often tastes more like itself.
-    Soil smell and root color tell more than gadget overload—dig a small hole twice a season.
-  growth_habit: Tree
-  data_quality_score: 0.76
-  # Image attribution: Roger Culos / Wikimedia Commons / CC BY-SA 3.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+common_name: Desert Date
+picture: desert_date.webp
+scientific_name: Balanites aegyptiaca
+aka:
+- Soapberry tree
+- Thron tree (thorn tree)
+family: Zygophyllaceae
+zone: 10-12
+ideal_temp_min: 65
+ideal_temp_max: 105
+min_temp: 28
+max_temp: 115
+perennial: true
+layers:
+- Tree
+plant_function:
+- Edible
+- Animal Fodder
+- Erosion Control
+- Windbreaker
+description: |-
+  Desert date (*Balanites aegyptiaca*) is a slow-growing, extremely drought-tolerant tree from arid regions of Africa and parts of the Middle East, armed with spines and bearing narrow, compound-looking branchlets. Mature height is often 3–10 m depending on moisture; the yellow-green drupes are used in some traditions after careful processing while other plant parts can be toxic—**treat all use as advanced homework, not casual foraging**. In subtropical and tropical Americas it suits frost-free, rain-shadow microclimates, rockeries, and xeric demonstration plantings; it will rot in lawn sprinklers and heavy clay.
+
+  ☀️💧 **Sun and Water Requirements:**
+  Full sun. Deep, very well-drained soil; essentially dry-season survival once established. Water deeply but rarely during establishment only.
+
+  ✂️ **Methods to Propagate:**
+  - **Seeds:** Soak or scarify hard seeds; sow in warm, fast-draining mix and keep lightly moist until germination.
+  - **Transplants:** Move young taprooted seedlings carefully into final positions to minimize disturbance.
+
+  🌾 **When to Harvest / Best Use Timing:**
+  Fruit handling belongs to knowledgeable processors only. For landscape use, prune for clearance around thorns in the cool morning and disinfect tools—spines are not decorative jokes.
+purpose: |-
+  Edible: Balanites aegyptiaca yellow-green drupes enter traditional diets only after knowledgeable processing -- alkaloids and saponins make raw use dangerous; research before any kitchen trial.
+  Animal Fodder: Thorny branchlets and fruit pulp have supported drought livestock abroad -- work with a veterinarian where toxicity varies by population.
+  Erosion Control: Deep taproot and sparse canopy reduce rain splash on rocky arid soils where few trees persist.
+  Windbreaker: Multi-stem, spiny frames blunt hot dry winds along xeric lanes and livestock corridors.
+companions:
+- Mesquite
+- Palo verde
+- Agave
+- Prickly pear
+cautions:
+- None documented
+pests:
+- Scale Insects
+- Borers
+growth_habit: Tree
+data_quality_score: 0.76

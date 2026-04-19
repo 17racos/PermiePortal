@@ -1,60 +1,52 @@
----
-- common_name: Caucasian Spinach
-  picture: caucasian_spinach.webp
-  scientific_name: Hablitzia tamnoides
-  aka:
-  - Caucasian Mountain Spinach
-  - Nordic Spinach
-  family: Amaranthaceae
-  zone: 4-8
-  ideal_temp_min: 50
-  ideal_temp_max: 78
-  min_temp: -35
-  max_temp: 90
-  perennial: true
-  layers:
-  - Vine
-  - Herbaceous
-  plant_function:
-  - Edible
-  - Shade Provider
-  - Wildlife Attractor
-  - Ground Cover
-  description: "Caucasian spinach (Hablitzia tamnoides) is a long-lived edible vine
-    from the Caucasus, climbing 2–3 m (6–10 feet) or more by twining stems and bearing
-    heart-shaped leaves with a mild spinach flavor, plus small greenish flowers in
-    airy panicles. It emerges very early in spring from a crown and can form a lush
-    curtain on partial-shade supports.\n\n🌞💧 Sun and Water Requirements:\n- Partial
-    shade to light shade in warm climates; tolerates morning sun with steady moisture.\n-
-    Rich, humusy, well-drained soil; likes even moisture but not bogging. In Florida
-    and Puerto Rico, treat it as a cool microclimate experiment—highland shade, misty
-    courtyards, or winter-dormant pots moved out of summer inferno—lowland tropical
-    heat often causes summer dormancy or decline.\n- Mulch crown to keep roots cool.\n\n✂️
-    Methods to Propagate:\n- Seeds: Sow in cool conditions; germination can be slow
-    and irregular—start many.\n- Division: Split crowns in early spring before vines
-    elongate; keep divisions watered.\n\n🌾 Harvest / Best Use Timing:\n- Pick young
-    leaves and shoot tips in spring and early summer; flavor can toughen and flower
-    stalks appear in midseason. Repeated tipping encourages bushier growth."
-  purpose: |-
-    Edible: twining stems yield mild heart-shaped leaves and shoot tips for salads weeks before heat makes true spinach bolt in cool-temperate forest gardens.
-    Shade Provider: climbs trellis on north or east walls to cast a humid green curtain that cools livestock pens and shade-house aisles during bright summers.
-    Wildlife Attractor: airy panicles of small greenish flowers feed tiny pollinators along semi-shady edges where the vine meets comfrey and fruit-tree driplines.
-    Ground Cover: lower stems layer against mulch to mantle root zones of apples and shrubs when training wires keep growth off trunks while still shading weeds.
-  companions:
-  - Apple
-  - Comfrey
-  - Ostrich Fern
-  cautions:
-  - None documented
-  pests:
-  - Slugs
-  - Aphids
-  practitioner_notes: |-
-    First edible leaves appear while nights still bite—protect early shoots from slugs with cups or evening patrol.
-    Summer heat triggers dormancy aboveground—roots survive; do not waterlogged them hoping for midsummer salad.
-    Trellis north or east of taller crops—late-summer shade extends leaf season without baking the crown.
-    Aphids cluster on tender tips—pinch tips for kitchen and pest control in one motion during flush weeks.
-  growth_habit: Herbaceous perennial vine; early-spring flush; summer dormancy possible in heat
-  data_quality_score: 0.74
-  # Image attribution: No image found
-  # Image source: none
+common_name: Caucasian Spinach
+picture: caucasian_spinach.webp
+scientific_name: Hablitzia tamnoides
+aka:
+- Caucasian Mountain Spinach
+- Nordic Spinach
+family: Amaranthaceae
+zone: 4-8
+ideal_temp_min: 50
+ideal_temp_max: 78
+min_temp: -35
+max_temp: 90
+perennial: true
+layers:
+- Vine
+- Herbaceous
+plant_function:
+- Edible
+- Shade Provider
+- Wildlife Attractor
+- Ground Cover
+description: |-
+  Caucasian spinach (Hablitzia tamnoides) is a long-lived edible vine from the Caucasus, climbing 2–3 m (6–10 feet) or more by twining stems and bearing heart-shaped leaves with a mild spinach flavor, plus small greenish flowers in airy panicles. It emerges very early in spring from a crown and can form a lush curtain on partial-shade supports.
+
+  🌞💧 Sun and Water Requirements:
+  - Partial shade to light shade in warm climates; tolerates morning sun with steady moisture.
+  - Rich, humusy, well-drained soil; likes even moisture but not bogging. In Florida and Puerto Rico, treat it as a cool microclimate experiment—highland shade, misty courtyards, or winter-dormant pots moved out of summer inferno—lowland tropical heat often causes summer dormancy or decline.
+  - Mulch crown to keep roots cool.
+
+  ✂️ Methods to Propagate:
+  - Seeds: Sow in cool conditions; germination can be slow and irregular—start many.
+  - Division: Split crowns in early spring before vines elongate; keep divisions watered.
+
+  🌾 Harvest / Best Use Timing:
+  - Pick young leaves and shoot tips in spring and early summer; flavor can toughen and flower stalks appear in midseason. Repeated tipping encourages bushier growth.
+purpose: |-
+  Edible: twining stems yield mild heart-shaped leaves and shoot tips for salads weeks before heat makes true spinach bolt in cool-temperate forest gardens.
+  Shade Provider: climbs trellis on north or east walls to cast a humid green curtain that cools livestock pens and shade-house aisles during bright summers.
+  Wildlife Attractor: airy panicles of small greenish flowers feed tiny pollinators along semi-shady edges where the vine meets comfrey and fruit-tree driplines.
+  Ground Cover: lower stems layer against mulch to mantle root zones of apples and shrubs when training wires keep growth off trunks while still shading weeds.
+companions:
+- Apple
+- Comfrey
+- Ostrich Fern
+cautions:
+- None documented
+pests:
+- Slugs
+- Aphids
+growth_habit: Herbaceous perennial vine; early-spring flush; summer dormancy possible
+  in heat
+data_quality_score: 0.74

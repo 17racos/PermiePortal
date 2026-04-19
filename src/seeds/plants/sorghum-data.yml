@@ -1,55 +1,56 @@
----
-- common_name: Sorghum
-  picture: sorghum.webp
-  scientific_name: Sorghum bicolor
-  aka: []
-  family: Poaceae
-  zone: 6-11
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
-  layers:
-  - Herbaceous
-  plant_function:
-  - Edible
-  - Animal Fodder
-  - Erosion Control
-  description: |-
-    Sorghum (Sorghum bicolor) is a warm-season cereal grown for grain, forage, and sturdy biomass. It is native to Africa and now thrives in many warm temperate and subtropical regions, especially where heat and drought are routine. Plants typically reach 1–3 m (3–10 ft) tall with strong stems and flowering heads that dry into seed. In permaculture, sorghum matters because it provides reliable calories and feed while acting like living armor: dense stems and roots protect soil from wind and rain, and residues become compost and mulch inputs.
-    
-    ☀️💧 Sun and Water Requirements:
-    - Full sun; growth depends on bright, warm conditions.
-    - Moderate water for establishment; sorghum tolerates drought better than many grains.
-    - Prefers well-drained soil; avoid prolonged waterlogging.
-    - Heat during flowering is usually manageable if soil moisture isn’t extreme.
-    
-    ✂️ Propagation:
-    - Seeds (direct sow): sow after soil warms; germination commonly occurs within 4–10 days.
-    - Thin for spacing if you want better head/seed development.
-    - Relay sow: stagger plantings for harvest spread and to keep ground covered.
-    
-    🌾 Harvest / Best Use Timing:
-    - Grain: harvest when heads are dry and seeds hard.
-    - Forage: cut green growth at appropriate stage for fresh or dried feed.
-    - Biomass/mulch: cut after seed set or earlier for green material depending on your plan.
-  purpose: |-
-    Edible: Sorghum bicolor white and red grain grinds into gluten-free flours, popped snacks, and beer malts that keep in dry storage when moisture stays below 14 percent in the bin.
-    Animal Fodder: Sweet-stem types cut for silage while still juicy -- match prussic acid protocols on frosted forage before turning cattle in.
-    Erosion Control: C4 tillers close canopy fast on summer fallow so monsoon rains meet living roots instead of bare subsoil.
-  companions:
-  - Soybean (Glycine max) — warm-season pairing lets you balance grain output with nitrogen input when managed in rotation.
-  - Sunflower (Helianthus annuus) — tall companion helps shade ground and creates a diverse canopy structure.
-  - Corn (Zea mays) — shared warm timing and canopy layering creates a stable, weed-suppressing mix.
-  cautions:
-  - Avoid planting repeatedly in the same spot; grain pests and diseases build with continuous cereal culture.
-  practitioner_notes: |-
-    Cut for green feed before stems get woody if you want better palatability.
-    For grain, let heads truly dry—harvesting too early increases spoilage.
-    Relay sow so bare ground doesn’t become your weed invitation.
-  pests:
-  - Aphids
-  - Caterpillars
-  - Japanese Beetles
-  - Root Rot
+common_name: Sorghum
+picture: sorghum.webp
+scientific_name: Sorghum bicolor
+aka: []
+family: Poaceae
+zone: 6-11
+ideal_temp_min: 0
+ideal_temp_max: 0
+min_temp: 0
+max_temp: 0
+perennial: true
+layers:
+- Herbaceous
+plant_function:
+- Edible
+- Animal Fodder
+- Erosion Control
+description: |-
+  Sorghum (Sorghum bicolor) is a warm-season cereal grown for grain, forage, and sturdy biomass. It is native to Africa and now thrives in many warm temperate and subtropical regions, especially where heat and drought are routine. Plants typically reach 1–3 m (3–10 ft) tall with strong stems and flowering heads that dry into seed. In permaculture, sorghum matters because it provides reliable calories and feed while acting like living armor: dense stems and roots protect soil from wind and rain, and residues become compost and mulch inputs.
+
+  ☀️💧 Sun and Water Requirements:
+  - Full sun; growth depends on bright, warm conditions.
+  - Moderate water for establishment; sorghum tolerates drought better than many grains.
+  - Prefers well-drained soil; avoid prolonged waterlogging.
+  - Heat during flowering is usually manageable if soil moisture isn’t extreme.
+
+  ✂️ Propagation:
+  - Seeds (direct sow): sow after soil warms; germination commonly occurs within 4–10 days.
+  - Thin for spacing if you want better head/seed development.
+  - Relay sow: stagger plantings for harvest spread and to keep ground covered.
+
+  🌾 Harvest / Best Use Timing:
+  - Grain: harvest when heads are dry and seeds hard.
+  - Forage: cut green growth at appropriate stage for fresh or dried feed.
+  - Biomass/mulch: cut after seed set or earlier for green material depending on your plan.
+purpose: |-
+  Edible: Sorghum bicolor white and red grain grinds into gluten-free flours, popped snacks, and beer malts that keep in dry storage when moisture stays below 14 percent in the bin.
+  Animal Fodder: Sweet-stem types cut for silage while still juicy -- match prussic acid protocols on frosted forage before turning cattle in.
+  Erosion Control: C4 tillers close canopy fast on summer fallow so monsoon rains meet living roots instead of bare subsoil.
+companions:
+- Soybean (Glycine max) — warm-season pairing lets you balance grain output with nitrogen
+  input when managed in rotation.
+- Sunflower (Helianthus annuus) — tall companion helps shade ground and creates a
+  diverse canopy structure.
+- Corn (Zea mays) — shared warm timing and canopy layering creates a stable, weed-suppressing
+  mix.
+cautions:
+- Avoid planting repeatedly in the same spot; grain pests and diseases build with
+  continuous cereal culture.
+pests:
+- Aphids
+- Japanese Beetles
+diseases:
+- Root Rot
+animal_pressure:
+- Caterpillars

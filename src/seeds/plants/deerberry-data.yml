@@ -1,65 +1,58 @@
----
-- common_name: Deerberry
-  picture: deerberry.webp
-  scientific_name: Vaccinium stamineum
-  aka:
-  - Squaw huckleberry
-  - Gooseberry blueberry
-  family: Ericaceae
-  zone: 4-9
-  ideal_temp_min: 40
-  ideal_temp_max: 85
-  min_temp: -25
-  max_temp: 100
-  perennial: true
-  layers:
-  - Shrub
-  - Sub-Canopy
-  plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Border Plant
-  - Pollinator
-  description: "Deerberry (Vaccinium stamineum) is an open, deciduous blueberry relative of acidic woodlands and savanna edges,\
-    \ recognizable by long, exserted stamens that make flowers look starry and brush-like. It ranges widely in eastern North\
-    \ America, forming airy shrubs with small, dark berries that are tart and seedy but edible when fully ripe. In permaculture\
-    \ it fills the niche between ornamental blueberry rows and wild thickets—less commercial yield, more resilience on poor\
-    \ acid sands where rhizosphere honesty beats irrigation theater.\n\n☀️\U0001F4A7 Sun and Water Requirements:\nFull sun\
-    \ to partial shade; fruiting improves with more light if soil stays acidic. Needs moist, well-drained, organic-acid soils\
-    \ typical of ericaceous plants; chlorosis on alkaline ground is a billboard for wrong pH. Drought tolerance is modest\
-    \ compared with sandhill oaks—mulch and avoid root baking.\n\n ✂️ Propagation:\nSoftwood cuttings under mist in late spring\
-    \ can root for clones of known fruit quality.\nSeeds require cold-moist stratification and patience; seedlings vary in\
-    \ vigor and flavor.\n\n\U0001F33E Harvest / Best Use Timing:\nPick berries when fully colored, soft, and detaching easily;\
-    \ underripe fruit is astringent. Use for jams with other fruit, small-batch ferments, or wildlife share agreements. Prune\
-    \ old stems after winter to renew growth on multi-stemmed plants."
-  purpose: |-
-    Edible: Vaccinium stamineum berries stay tart and seedy -- combine with sweeter fruit for jam when fully soft and black.
-    Wildlife Attractor: Open airy shrubs expose flowers and fruit to diverse bees, butterflies, and fruit-eating birds along savanna edges.
-    Border Plant: Fine branching and modest height texture transitions between forest interior and open field without a solid wall.
-    Pollinator: Flowers with long-exserted stamens offer accessible pollen to small native bees on warm spring days.
-  companions:
-  - Highbush Blueberry — shared acidic mulch regime and complementary fruiting times
-  - Mountain Laurel — evergreen structure and similar soil chemistry in part shade guilds
-  - Pine — needle mulch maintains acidity; dappled light suits understory Vaccinium
-  cautions:
-  - Black Walnut — juglone and dry competition stress ericaceous roots; keep Vaccinium outside the drip line
-  pests:
-  - Azalea Caterpillar
-  - Blueberry Maggot
-  - Cranberry Fruitworm
-  - Cranberry Tipworm
-  - Japanese Beetles
-  - Sparganothis Fruitworm
-  - Strawberry Root Weevil
-  - Vine Weevil
-  - Spider Mites
-  practitioner_notes: 'The flowers look like they forgot to tuck their stamens—use that as a field ID before you argue with
-    look-alikes.
+common_name: Deerberry
+picture: deerberry.webp
+scientific_name: Vaccinium stamineum
+aka:
+- Squaw huckleberry
+- Gooseberry blueberry
+family: Ericaceae
+zone: 4-9
+ideal_temp_min: 40
+ideal_temp_max: 85
+min_temp: -25
+max_temp: 100
+perennial: true
+layers:
+- Shrub
+- Sub-Canopy
+plant_function:
+- Edible
+- Wildlife Attractor
+- Border Plant
+- Pollinator
+description: |-
+  Deerberry (Vaccinium stamineum) is an open, deciduous blueberry relative of acidic woodlands and savanna edges, recognizable by long, exserted stamens that make flowers look starry and brush-like. It ranges widely in eastern North America, forming airy shrubs with small, dark berries that are tart and seedy but edible when fully ripe. In permaculture it fills the niche between ornamental blueberry rows and wild thickets—less commercial yield, more resilience on poor acid sands where rhizosphere honesty beats irrigation theater.
 
-    Berries are honest about being small; do not promise u-pick revenue without a magnifying glass.
+  ☀️💧 Sun and Water Requirements:
+  Full sun to partial shade; fruiting improves with more light if soil stays acidic. Needs moist, well-drained, organic-acid soils typical of ericaceous plants; chlorosis on alkaline ground is a billboard for wrong pH. Drought tolerance is modest compared with sandhill oaks—mulch and avoid root baking.
 
-    Chlorotic leaves on limestone soils are not a fertilizer ad—they are a pH confession.
+   ✂️ Propagation:
+  Softwood cuttings under mist in late spring can root for clones of known fruit quality.
+  Seeds require cold-moist stratification and patience; seedlings vary in vigor and flavor.
 
-    Birds already wrote the harvest schedule; netting is diplomacy, not greed.'
-  growth_habit: Deciduous open shrub; small tart berries; long-exserted stamens in bloom
-  data_quality_score: 0.84
+  🌾 Harvest / Best Use Timing:
+  Pick berries when fully colored, soft, and detaching easily; underripe fruit is astringent. Use for jams with other fruit, small-batch ferments, or wildlife share agreements. Prune old stems after winter to renew growth on multi-stemmed plants.
+purpose: |-
+  Edible: Vaccinium stamineum berries stay tart and seedy -- combine with sweeter fruit for jam when fully soft and black.
+  Wildlife Attractor: Open airy shrubs expose flowers and fruit to diverse bees, butterflies, and fruit-eating birds along savanna edges.
+  Border Plant: Fine branching and modest height texture transitions between forest interior and open field without a solid wall.
+  Pollinator: Flowers with long-exserted stamens offer accessible pollen to small native bees on warm spring days.
+companions:
+- Highbush Blueberry — shared acidic mulch regime and complementary fruiting times
+- Mountain Laurel — evergreen structure and similar soil chemistry in part shade guilds
+- Pine — needle mulch maintains acidity; dappled light suits understory Vaccinium
+cautions:
+- Black Walnut — juglone and dry competition stress ericaceous roots; keep Vaccinium
+  outside the drip line
+pests:
+- Blueberry Maggot
+- Cranberry Fruitworm
+- Cranberry Tipworm
+- Japanese Beetles
+- Sparganothis Fruitworm
+- Strawberry Root Weevil
+- Vine Weevil
+- Spider Mites
+growth_habit: Deciduous open shrub; small tart berries; long-exserted stamens in bloom
+data_quality_score: 0.84
+animal_pressure:
+- Azalea Caterpillar

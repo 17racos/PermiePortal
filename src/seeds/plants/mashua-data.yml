@@ -1,67 +1,59 @@
----
-- common_name: Mashua
-  picture: mashua.webp
-  scientific_name: Tropaeolum tuberosum
-  aka:
-  - Añu
-  - Cubio
-  - Tuberous Nasturtium
-  - Anu
-  - Isaño
-  family: Tropaeolaceae
-  zone: 8-11
-  ideal_temp_min: 50
-  ideal_temp_max: 80
-  min_temp: 25
-  max_temp: 90
-  perennial: true
-  layers:
-  - Vine
-  - Root
-  plant_function:
-  - Edible
-  - Ground Cover
-  - Ornamental
-  - Wildlife Attractor
-  description: |-
-    Mashua is an Andean nasturtium relative that climbs like it owes money and forms underground tubers that look like alien fingerling potatoes. Leaves and flowers are edible in small amounts like garden nasturtiums; tubers have a sharp, peppery kick that mellows with cooking. In subtropical and tropical Americas treat it as a cool-season crop: grow through fall/winter/spring, lift tubers before deep heat or rot risk.
-    
-    ☀️💧 Sun and Water:
-    - Full sun in cool months; part afternoon shade when temperatures climb.
-    - Even moisture, excellent drainage; tubers rot in soggy clay.
-    
-    ✂️ Propagation:
-    - Plant tubers after last frost danger (or start early under protection).
-    - Save smallest tubers for seed stock; vines can layer where they touch soil.
-    
-    Not a beginner calorie staple — flavor is loud — but it is a conversation piece that actually yields.
-    
-    🌾 Harvest / Best Use Timing:
-    - Mashua: dig tubers or roots after tops senesce or frost signals storage shift -- curing a few days at 50-60°F (10-16°C) sweetens some starches.
-    - Loosen soil wide first -- snapped necks invite rot in storage.
-    - Brush-dry before long storage; plastic totes without airflow grow penicillin cosplay.
-  purpose: |-
-    Edible: Tropaeolum tuberosum forms peppery tubers after cool-season growth -- boil or roast to mellow isothiocyanate bite; leaves and flowers are edible like garden nasturtiums but still deserve moderation.
-    Ground Cover: Twining stems and peltate leaves smother warm-season weeds along trellises until frost -- site with sun and airflow to limit aphid buildup on soft tips.
-    Ornamental: Scarlet-orange nasturtium blooms climb cornstalks in classic Andean stacks -- looks decorative while quietly banking calories underground.
-    Wildlife Attractor: Long-spurred flowers feed bumblebees climbing the vine -- harvest tubers before rodents discover the cache at soil line.
-  companions:
-  - Corn
-  - Beans
-  - Yacon
-  cautions:
-  - Summer swamp beds
-  pests:
-  - Aphids
-  - Caterpillars
-  - Slugs
-  practitioner_notes: |-
-    Blanch or process within hours if you are freezing—enzymes keep chewing while paperwork waits.
-    Shear ragged mats after heat waves; two weeks of ugly beats six months of thatch rot.
-    Sharp tools and clean cuts beat torn stems; disease spores love frayed tissue more than rhetoric.
-    Morning picks hold turgor; afternoon heat steals shelf life even if the cooler feels honest.
-  growth_habit: Herbaceous vine
-  data_quality_score: 0.7
-  # Image attribution: (c) David F. Belmonte, some rights reserved (CC BY), uploaded by David F. Belmonte
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+common_name: Mashua
+picture: mashua.webp
+scientific_name: Tropaeolum tuberosum
+aka:
+- Añu
+- Cubio
+- Tuberous Nasturtium
+- Anu
+- Isaño
+family: Tropaeolaceae
+zone: 8-11
+ideal_temp_min: 50
+ideal_temp_max: 80
+min_temp: 25
+max_temp: 90
+perennial: true
+layers:
+- Vine
+- Root
+plant_function:
+- Edible
+- Ground Cover
+- Ornamental
+- Wildlife Attractor
+description: |-
+  Mashua is an Andean nasturtium relative that climbs like it owes money and forms underground tubers that look like alien fingerling potatoes. Leaves and flowers are edible in small amounts like garden nasturtiums; tubers have a sharp, peppery kick that mellows with cooking. In subtropical and tropical Americas treat it as a cool-season crop: grow through fall/winter/spring, lift tubers before deep heat or rot risk.
+
+  ☀️💧 Sun and Water:
+  - Full sun in cool months; part afternoon shade when temperatures climb.
+  - Even moisture, excellent drainage; tubers rot in soggy clay.
+
+  ✂️ Propagation:
+  - Plant tubers after last frost danger (or start early under protection).
+  - Save smallest tubers for seed stock; vines can layer where they touch soil.
+
+  Not a beginner calorie staple — flavor is loud — but it is a conversation piece that actually yields.
+
+  🌾 Harvest / Best Use Timing:
+  - Mashua: dig tubers or roots after tops senesce or frost signals storage shift -- curing a few days at 50-60°F (10-16°C) sweetens some starches.
+  - Loosen soil wide first -- snapped necks invite rot in storage.
+  - Brush-dry before long storage; plastic totes without airflow grow penicillin cosplay.
+purpose: |-
+  Edible: Tropaeolum tuberosum forms peppery tubers after cool-season growth -- boil or roast to mellow isothiocyanate bite; leaves and flowers are edible like garden nasturtiums but still deserve moderation.
+  Ground Cover: Twining stems and peltate leaves smother warm-season weeds along trellises until frost -- site with sun and airflow to limit aphid buildup on soft tips.
+  Ornamental: Scarlet-orange nasturtium blooms climb cornstalks in classic Andean stacks -- looks decorative while quietly banking calories underground.
+  Wildlife Attractor: Long-spurred flowers feed bumblebees climbing the vine -- harvest tubers before rodents discover the cache at soil line.
+companions:
+- Corn
+- Beans
+- Yacon
+cautions:
+- Summer swamp beds
+pests:
+- Aphids
+- Slugs
+growth_habit: Herbaceous vine
+data_quality_score: 0.7
+animal_pressure:
+- Caterpillars

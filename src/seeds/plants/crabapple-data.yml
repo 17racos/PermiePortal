@@ -1,39 +1,44 @@
----
-- common_name: Crabapple
-  picture: crabapple.webp
-  scientific_name: Malus sylvestris
-  aka:
-  - Wild Apple
-  family: Rosaceae
-  zone: 4-8
-  ideal_temp_min: 55
-  ideal_temp_max: 80
-  min_temp: -25
-  max_temp: 95
-  perennial: true
-  layers:
-  - Tree
-  plant_function:
-  - Wildlife Attractor
-  - Pollinator
-  - Ornamental
-  description: "Crabapple (Malus sylvestris) is a useful perennial species in the Rosaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a tree form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.\n\n☀️💧 Sun and Water Requirements:\nBest performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 55°F (13°C) and 80°F (27°C), with stress rising near 95°F (35°C).\n\n✂️ Propagation:\nDirect seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.\n\n🌾 Harvest / Best Use Timing:\nHarvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent."
-  purpose: |-
-    Wildlife Attractor: Small astringent apples feed deer, raccoons, and cider-fermenting humans while thorny twigs shelter nesting songbirds.
-    Pollinator: Masses of pink-white Malus blossoms offer heavy pollen and nectar loads to orchard bees during a concentrated spring flight.
-    Ornamental: Weeping and upright crab forms give spring flower foam and winter fruit persistence that street-tree selections chase.
-  companions:
-  - Chive - helps reduce fungal pressure around root zones.
-  - Comfrey - dynamic mulch source and pollinator support under canopy.
-  - Yarrow - attracts beneficial predators and parasitoids.
-  cautions:
-  - Juniper - can host rust diseases that cycle with apple relatives.
-  practitioner_notes: |-
-    Keep establishment weed-free for the first season; early competition costs years on perennial systems.
-    Mulch depth matters more than fertilizer for steady moisture and root-zone biology.
-    Track first flowering and first harvest dates to tune local timing each year.
-  pests:
-  - Codling Moth
-  - Apple Scab
-  - Fire Blight
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+common_name: Crabapple
+picture: crabapple.webp
+scientific_name: Malus sylvestris
+aka:
+- Wild Apple
+family: Rosaceae
+zone: 4-8
+ideal_temp_min: 55
+ideal_temp_max: 80
+min_temp: -25
+max_temp: 95
+perennial: true
+layers:
+- Tree
+plant_function:
+- Wildlife Attractor
+- Pollinator
+- Ornamental
+description: |-
+  Crabapple (Malus sylvestris) is a useful perennial species in the Rosaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a tree form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.
+
+  ☀️💧 Sun and Water Requirements:
+  Best performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 55°F (13°C) and 80°F (27°C), with stress rising near 95°F (35°C).
+
+  ✂️ Propagation:
+  Direct seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.
+
+  🌾 Harvest / Best Use Timing:
+  Harvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.
+purpose: |-
+  Wildlife Attractor: Small astringent apples feed deer, raccoons, and cider-fermenting humans while thorny twigs shelter nesting songbirds.
+  Pollinator: Masses of pink-white Malus blossoms offer heavy pollen and nectar loads to orchard bees during a concentrated spring flight.
+  Ornamental: Weeping and upright crab forms give spring flower foam and winter fruit persistence that street-tree selections chase.
+companions:
+- Chive - helps reduce fungal pressure around root zones.
+- Comfrey - dynamic mulch source and pollinator support under canopy.
+- Yarrow - attracts beneficial predators and parasitoids.
+cautions:
+- Juniper - can host rust diseases that cycle with apple relatives.
+pests:
+- Codling Moth
+- Apple Scab
+diseases:
+- Fire Blight

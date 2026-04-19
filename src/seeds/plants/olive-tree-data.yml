@@ -1,57 +1,56 @@
----
-- common_name: Olive Tree
-  picture: olive_tree.webp
-  scientific_name: Olea europaea
-  aka: []
-  family: Oleaceae
-  zone: 8-10
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
-  layers:
-  - Tree
-  plant_function:
-  - Edible
-  - Medicinal
-  - Shade Provider
-  - Ornamental
-  description: |-
-    Olive tree (Olea europaea) is an evergreen tree native to the Mediterranean basin, known for silvery leaves, fragrant spring flowers, and fruit that is processed into edible olives and oil. Managed trees typically reach 5–15 m (16–49 ft) depending on cultivar and pruning. In permaculture, olives matter because they turn a long-lived woody structure into food, biomass, and microclimate: the canopy shades understory crops, leaf litter feeds soil life, and prunings become useful mulch while the tree tolerates dry seasons when established.
-    
-    ☀️💧 Sun and Water Requirements:
-    - Full sun is essential for best flowering and fruit set.
-    - Water deeply during establishment; once established, it tolerates dry spells well.
-    - Prefers well-drained soil; waterlogged ground increases root decline.
-    - Frost sensitivity varies by cultivar; cold snaps can reduce yields.
-    
-    ✂️ Propagation:
-    - Grafting/budding: most reliable for fruiting cultivars.
-    - Cuttings: semi-hardwood cuttings can root under humidity, often with variable success.
-    - Seeds: germination is possible but results may not match fruit quality without grafting.
-    
-    🌾 Harvest / Best Use Timing:
-    - Harvest olives when fruit reaches the desired color and oil stage for your intended use.
-    - Olives are typically brined/processed rather than eaten fresh; fermentation/preserving follows traditional recipes.
-    - Prune after harvest to shape the canopy and encourage productive wood.
-  purpose: |-
-    Edible: Olea europaea drupes brine into table olives or cold-press into high-oleic oil once fruit reaches veraison color and oil accumulation for your cultivar -- pick by hand or rake nets to avoid bruise entry points for olive knot and fruit fly larvae.
-    Medicinal: Extra-virgin oil and leaf extracts supply hydroxytyrosol and oleuropein studied for vascular and inflammatory endpoints -- treat culinary doses as food medicine, not concentrated capsule swaps, especially alongside anticoagulant pharmacy schedules.
-    Shade Provider: Silvery evergreen canopy cools poultry yards, outdoor kitchens, and understory lavender rows through Mediterranean-dry summers -- skirt-prune for air movement so peacock spot does not party in stagnant interiors.
-    Ornamental: Twisting trunks on gnarled specimens and pewter undersides of lanceolate leaves read as structural evergreen architecture in courtyards -- fruiting cultivars still drop stain-prone drupes, so plan paving color accordingly.
-  companions:
-  - Lavender (Lavandula angustifolia) — thrives in similar sun and drainage; helps keep the understory aromatic and pollinator-friendly.
-  - Rosemary (Salvia rosmarinus) — drought-tolerant companion that fits Mediterranean-like orchard floors.
-  - Thyme (Thymus vulgaris) — low groundcover reduces evaporation and suppresses weeds under sunny edges.
-  cautions:
-  - Avoid waterlogged soil; root health is the main long-term constraint for olives.
-  practitioner_notes: |-
-    Healthy soil drainage matters more than “more love.”
-    Light, regular harvesting/proper pruning keeps trees productive instead of alternating years.
-    Use leaf litter as mulch; it stabilizes orchard floor moisture.
-  pests:
-  - Scale Insects
-  - Aphids
-  - Borers
-  - Root Rot
+common_name: Olive Tree
+picture: olive_tree.webp
+scientific_name: Olea europaea
+aka: []
+family: Oleaceae
+zone: 8-10
+ideal_temp_min: 0
+ideal_temp_max: 0
+min_temp: 0
+max_temp: 0
+perennial: true
+layers:
+- Tree
+plant_function:
+- Edible
+- Medicinal
+- Shade Provider
+- Ornamental
+description: |-
+  Olive tree (Olea europaea) is an evergreen tree native to the Mediterranean basin, known for silvery leaves, fragrant spring flowers, and fruit that is processed into edible olives and oil. Managed trees typically reach 5–15 m (16–49 ft) depending on cultivar and pruning. In permaculture, olives matter because they turn a long-lived woody structure into food, biomass, and microclimate: the canopy shades understory crops, leaf litter feeds soil life, and prunings become useful mulch while the tree tolerates dry seasons when established.
+
+  ☀️💧 Sun and Water Requirements:
+  - Full sun is essential for best flowering and fruit set.
+  - Water deeply during establishment; once established, it tolerates dry spells well.
+  - Prefers well-drained soil; waterlogged ground increases root decline.
+  - Frost sensitivity varies by cultivar; cold snaps can reduce yields.
+
+  ✂️ Propagation:
+  - Grafting/budding: most reliable for fruiting cultivars.
+  - Cuttings: semi-hardwood cuttings can root under humidity, often with variable success.
+  - Seeds: germination is possible but results may not match fruit quality without grafting.
+
+  🌾 Harvest / Best Use Timing:
+  - Harvest olives when fruit reaches the desired color and oil stage for your intended use.
+  - Olives are typically brined/processed rather than eaten fresh; fermentation/preserving follows traditional recipes.
+  - Prune after harvest to shape the canopy and encourage productive wood.
+purpose: |-
+  Edible: Olea europaea drupes brine into table olives or cold-press into high-oleic oil once fruit reaches veraison color and oil accumulation for your cultivar -- pick by hand or rake nets to avoid bruise entry points for olive knot and fruit fly larvae.
+  Medicinal: Extra-virgin oil and leaf extracts supply hydroxytyrosol and oleuropein studied for vascular and inflammatory endpoints -- treat culinary doses as food medicine, not concentrated capsule swaps, especially alongside anticoagulant pharmacy schedules.
+  Shade Provider: Silvery evergreen canopy cools poultry yards, outdoor kitchens, and understory lavender rows through Mediterranean-dry summers -- skirt-prune for air movement so peacock spot does not party in stagnant interiors.
+  Ornamental: Twisting trunks on gnarled specimens and pewter undersides of lanceolate leaves read as structural evergreen architecture in courtyards -- fruiting cultivars still drop stain-prone drupes, so plan paving color accordingly.
+companions:
+- Lavender (Lavandula angustifolia) — thrives in similar sun and drainage; helps keep
+  the understory aromatic and pollinator-friendly.
+- Rosemary (Salvia rosmarinus) — drought-tolerant companion that fits Mediterranean-like
+  orchard floors.
+- Thyme (Thymus vulgaris) — low groundcover reduces evaporation and suppresses weeds
+  under sunny edges.
+cautions:
+- Avoid waterlogged soil; root health is the main long-term constraint for olives.
+pests:
+- Scale Insects
+- Aphids
+- Borers
+diseases:
+- Root Rot

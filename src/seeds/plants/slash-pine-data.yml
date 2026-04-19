@@ -1,71 +1,54 @@
----
-- common_name: Slash Pine
-  picture: slash_pine.webp
-  scientific_name: Pinus elliottii
-  aka:
-  - Southern Pine
-  - Yellow Pine
-  family: Pinaceae
-  zone: 7-11
-  ideal_temp_min: 45
-  ideal_temp_max: 100
-  min_temp: 10
-  max_temp: 110
-  perennial: true
-  layers:
-  - Tree
-  plant_function:
-  - Windbreaker
-  - Wildlife Attractor
-  - Biomass
-  - Erosion Control
-  description: 'Slash pine (Pinus elliottii) is a fast-growing southern pine of flatwoods and commercial plantations, with
-    long needles in bundles of two or three and tall straight trunks when given sun and moisture. Heights exceed 80 feet (24
-    m) in favorable sites, producing timber, pine straw, and habitat structure for wildlife. Ecotypes vary—coastal vs interior
-    forms differ in salt and frost tolerance.
+common_name: Slash Pine
+picture: slash_pine.webp
+scientific_name: Pinus elliottii
+aka:
+- Southern Pine
+- Yellow Pine
+family: Pinaceae
+zone: 7-11
+ideal_temp_min: 45
+ideal_temp_max: 100
+min_temp: 10
+max_temp: 110
+perennial: true
+layers:
+- Tree
+plant_function:
+- Windbreaker
+- Wildlife Attractor
+- Biomass
+- Erosion Control
+description: |-
+  Slash pine (Pinus elliottii) is a fast-growing southern pine of flatwoods and commercial plantations, with long needles in bundles of two or three and tall straight trunks when given sun and moisture. Heights exceed 80 feet (24 m) in favorable sites, producing timber, pine straw, and habitat structure for wildlife. Ecotypes vary—coastal vs interior forms differ in salt and frost tolerance.
 
+  ☀️💧 Sun and Water Requirements:
+  Full sun for straight growth and dense crowns. Moist, acidic, well-drained sandy soils are classic; tolerates seasonal water tables in flatwoods. Drought-stressed trees invite bark beetles—irrigate young plantations during establishment droughts.
 
-    ☀️💧 Sun and Water Requirements:
+  ✂️ Propagation:
+  Sow seed from selected orchards for timber traits. Plant bareroot seedlings in winter dormancy in warm climates. Prune only for clearance; never top mature pines.
 
-    Full sun for straight growth and dense crowns. Moist, acidic, well-drained sandy soils are classic; tolerates seasonal
-    water tables in flatwoods. Drought-stressed trees invite bark beetles—irrigate young plantations during establishment
-    droughts.
-
-
-    ✂️ Propagation:
-
-    Sow seed from selected orchards for timber traits. Plant bareroot seedlings in winter dormancy in warm climates. Prune
-    only for clearance; never top mature pines.
-
-
-    🌾 Harvest / Best Use Timing:
-
-    Pine straw raking should sustain soil organic matter—avoid stripping crowns. Timber harvest follows forestry plans, not
-    impulse weekends. Growth peaks during long warm seasons with adequate rainfall.'
-  purpose: |-
-    Windbreaker: Pinus elliottii plantations on contour blunt hurricane trades across coastal vegetable pads when rows stay thinned enough to avoid beetle chaos.
-    Wildlife Attractor: Winged cones feed fox squirrels while long needles shelter wintering passerines inside open pine savanna restoration plots.
-    Biomass: Resinous small-diameter thinnings chip cleanly into mulch or hog-fuel boilers when pulp markets buy low-grade stems.
-    Erosion Control: Tap-rooted pulp rotations anchor Lakeland sands where cotton strips subsurface bare after one drought cycle.
-  companions:
-  - Longleaf Pine — complementary pine neighbor in multi-species savanna restoration where both belong
-  - Wax Myrtle — shrub layer at pine woodland margins
-  - Sweetgrass — moist-ground grass associate in cultural and restoration plantings where appropriate
-  cautions:
-  - Bark beetles during drought—maintain tree vigor and spacing
-  - Fire and machinery — resinous forests demand respect for ignition sources
-  pests:
-  - Aphids
-  - Bagworm
-  - Scale Insects
-  - Spider Mites
-  - Bark Beetles
-  practitioner_notes: 'Pinus elliottii varieties differ—coastal stock tolerates salt better than interior lottery seedlings.
-
-    Fast growth is a loan—thin stands on schedule or wind and beetles collect interest.
-
-    Pine straw income has ethics—rake the floor, not the crown, if you want trees next decade.
-
-    Flatwoods ecology includes fire—learn regulations before lighting yard hero fantasies.'
-  growth_habit: Fast southern yellow pine; long needles; timber and straw production; flatwoods
-  data_quality_score: 0.79
+  🌾 Harvest / Best Use Timing:
+  Pine straw raking should sustain soil organic matter—avoid stripping crowns. Timber harvest follows forestry plans, not impulse weekends. Growth peaks during long warm seasons with adequate rainfall.
+purpose: |-
+  Windbreaker: Pinus elliottii plantations on contour blunt hurricane trades across coastal vegetable pads when rows stay thinned enough to avoid beetle chaos.
+  Wildlife Attractor: Winged cones feed fox squirrels while long needles shelter wintering passerines inside open pine savanna restoration plots.
+  Biomass: Resinous small-diameter thinnings chip cleanly into mulch or hog-fuel boilers when pulp markets buy low-grade stems.
+  Erosion Control: Tap-rooted pulp rotations anchor Lakeland sands where cotton strips subsurface bare after one drought cycle.
+companions:
+- Longleaf Pine — complementary pine neighbor in multi-species savanna restoration
+  where both belong
+- Wax Myrtle — shrub layer at pine woodland margins
+- Sweetgrass — moist-ground grass associate in cultural and restoration plantings
+  where appropriate
+cautions:
+- Bark beetles during drought—maintain tree vigor and spacing
+- Fire and machinery — resinous forests demand respect for ignition sources
+pests:
+- Aphids
+- Bagworm
+- Scale Insects
+- Spider Mites
+- Bark Beetles
+growth_habit: Fast southern yellow pine; long needles; timber and straw production;
+  flatwoods
+data_quality_score: 0.79

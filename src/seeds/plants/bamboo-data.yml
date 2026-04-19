@@ -1,91 +1,70 @@
----
-- common_name: Bamboo
-  picture: bamboo.webp
-  scientific_name: Bambusoideae
-  aka:
-  - Giant Grass
-  family: Poaceae
-  zone: 5-10
-  ideal_temp_min: 65
-  ideal_temp_max: 95
-  min_temp: -20
-  max_temp: 100
-  perennial: true
-  layers:
-  - Canopy
-  - Sub-Canopy
-  plant_function:
-  - Edible
-  - Medicinal
-  - Wildlife Attractor
-  - Erosion Control
-  - Windbreaker
-  - Border Plant
-  - Ground Cover
-  - Biofuel
-  description: 'Bamboo is a diverse group of perennial evergreen plants in the grass family Poaceae. Characterized by their
-    woody, hollow stems known as culms, bamboos can vary significantly in size, from small ground covers to towering giants
-    reaching over 30 meters (98 feet) in height. Notably, certain bamboo species are among the fastest-growing plants on Earth,
-    with recorded growth rates of up to 91 centimeters (36 inches) in a single day. Bamboo thrives in a range of climates,
-    predominantly in zones 5 through 10. It prefers full sun to partial shade and requires moderate water, with well-draining
-    soil to prevent root rot. Unique among grasses, bamboo''s extensive rhizome network allows it to stabilize soil effectively,
-    making it valuable for erosion control.
+common_name: Bamboo
+picture: bamboo.webp
+scientific_name: Bambusoideae
+aka:
+- Giant Grass
+family: Poaceae
+zone: 5-10
+ideal_temp_min: 65
+ideal_temp_max: 95
+min_temp: -20
+max_temp: 100
+perennial: true
+layers:
+- Canopy
+- Sub-Canopy
+plant_function:
+- Edible
+- Medicinal
+- Wildlife Attractor
+- Erosion Control
+- Windbreaker
+- Border Plant
+- Ground Cover
+- Biofuel
+description: |-
+  Bamboo is a diverse group of perennial evergreen plants in the grass family Poaceae. Characterized by their woody, hollow stems known as culms, bamboos can vary significantly in size, from small ground covers to towering giants reaching over 30 meters (98 feet) in height. Notably, certain bamboo species are among the fastest-growing plants on Earth, with recorded growth rates of up to 91 centimeters (36 inches) in a single day. Bamboo thrives in a range of climates, predominantly in zones 5 through 10. It prefers full sun to partial shade and requires moderate water, with well-draining soil to prevent root rot. Unique among grasses, bamboo's extensive rhizome network allows it to stabilize soil effectively, making it valuable for erosion control.
 
+  ✂️🫘 Methods to Propagate:
+  Bamboo primarily propagates through division of rhizomes. The best time to divide bamboo is during the early spring before the shooting season begins. Carefully dig up a section of the clump, ensuring it has at least two culms and a healthy portion of the rhizome system. Replant immediately at the same depth in prepared soil.
 
-    ✂️🫘 Methods to Propagate:
+  🌞💧 Sun and Water Requirements:
+  Bamboo flourishes in full sun but can tolerate partial shade. It requires consistent moisture, especially during the growing season, but it's crucial to avoid waterlogged conditions. Mulching around the base helps retain soil moisture and regulate temperature.
 
-    Bamboo primarily propagates through division of rhizomes. The best time to divide bamboo is during the early spring before
-    the shooting season begins. Carefully dig up a section of the clump, ensuring it has at least two culms and a healthy
-    portion of the rhizome system. Replant immediately at the same depth in prepared soil.
-
-
-    🌞💧 Sun and Water Requirements:
-
-    Bamboo flourishes in full sun but can tolerate partial shade. It requires consistent moisture, especially during the growing
-    season, but it''s crucial to avoid waterlogged conditions. Mulching around the base helps retain soil moisture and regulate
-    temperature.
-
-
-    🧑‍🌾👩‍🌾 When to Harvest:
-
-    Harvesting bamboo culms is best done during the cooler months when the plant''s growth has slowed, typically in late autumn
-    to early winter. Select culms that are at least three years old for optimal strength and durability.'
-  purpose: |-
-    Edible: Phyllostachys and Bambusa shoots emerge spring spears that blanch sweet after boiling off cyanogenic taxiphyllin in two waters -- ID species first because bitterness and toxin load vary wildly across genera.
-    Medicinal: Tabasheer silica exudate and leaf decoctions show up in East Asian formulas for cooling inflammation -- modern evidence is thin; treat culinary shoot use separately from concentrated extract experiments.
-    Wildlife Attractor: Clumping and running groves shelter songbirds, snakes, and beneficial spiders where understory stays open -- monoculture bamboo deserts still happen if you skip canopy gaps for light.
-    Erosion Control: Rhizome mats knit road cuts and pond toes once culms leaf out -- 60-76 cm vertical barriers are mandatory on running types or the grove visits the neighbor's foundation uninvited.
-    Windbreaker: 10-15 m culms flex in gusts instead of snapping like brittle pines, slowing wind across citrus blocks -- ice loads on leafy clumps still split canes, so species match to ice risk.
-    Border Plant: Dense wall of green culms replaces privacy fencing where ordinances allow -- trench new plantings with root-pruning schedule or accept bamboo lawyering later.
-    Ground Cover: Sasa and Pleioblastus dwarf bamboos tile shade paths where mowers fear stairs -- rhizomes surf mulch; edge twice yearly or they swallow stepping stones.
-    Biofuel: Three-year-old culms chip into charcoal retorts and rocket-stove fuel faster than oak cordwood renews -- ash returns potassium to guild beds if you spread cooled char thoughtfully.
-  companions:
-  - Fern
-  - Hostas
-  - Hydrangea
-  cautions:
-  - Tomato
-  - Pepper
-  pests:
-  - Aphids
-  - Armyworms
-  - Bamboo Mite
-  - Corn Earworm
-  - Fall Armyworm
-  - Leaf Blight
-  - Lubber Grasshopper
-  - Mealybugs
-  - Rice Blast Fungus
-  - Rice Water Weevil
-  - Spittlebugs
-  - Wireworm
-  - Chinch Bugs
-  - Southern Chinch Bug
-  - Planthoppers
-  practitioner_notes: 'Running types need 24–30 inch (60–76 cm) deep rhizome barrier or they will visit the neighbor’s foundation.
-
-    New shoots are calorie food in some cultures—ID the species before stir-fry experiments; bitterness varies.
-
-    Culm harvest timing is species-specific—too early walls are soft, too late wood is tool-grade hard.'
-  growth_habit: Tree
-  data_quality_score: 0.8
+  🧑‍🌾👩‍🌾 When to Harvest:
+  Harvesting bamboo culms is best done during the cooler months when the plant's growth has slowed, typically in late autumn to early winter. Select culms that are at least three years old for optimal strength and durability.
+purpose: |-
+  Edible: Phyllostachys and Bambusa shoots emerge spring spears that blanch sweet after boiling off cyanogenic taxiphyllin in two waters -- ID species first because bitterness and toxin load vary wildly across genera.
+  Medicinal: Tabasheer silica exudate and leaf decoctions show up in East Asian formulas for cooling inflammation -- modern evidence is thin; treat culinary shoot use separately from concentrated extract experiments.
+  Wildlife Attractor: Clumping and running groves shelter songbirds, snakes, and beneficial spiders where understory stays open -- monoculture bamboo deserts still happen if you skip canopy gaps for light.
+  Erosion Control: Rhizome mats knit road cuts and pond toes once culms leaf out -- 60-76 cm vertical barriers are mandatory on running types or the grove visits the neighbor's foundation uninvited.
+  Windbreaker: 10-15 m culms flex in gusts instead of snapping like brittle pines, slowing wind across citrus blocks -- ice loads on leafy clumps still split canes, so species match to ice risk.
+  Border Plant: Dense wall of green culms replaces privacy fencing where ordinances allow -- trench new plantings with root-pruning schedule or accept bamboo lawyering later.
+  Ground Cover: Sasa and Pleioblastus dwarf bamboos tile shade paths where mowers fear stairs -- rhizomes surf mulch; edge twice yearly or they swallow stepping stones.
+  Biofuel: Three-year-old culms chip into charcoal retorts and rocket-stove fuel faster than oak cordwood renews -- ash returns potassium to guild beds if you spread cooled char thoughtfully.
+companions:
+- Fern
+- Hostas
+- Hydrangea
+cautions:
+- Tomato
+- Pepper
+pests:
+- Aphids
+- Armyworms
+- Bamboo Mite
+- Corn Earworm
+- Fall Armyworm
+- Lubber Grasshopper
+- Mealybugs
+- Rice Blast Fungus
+- Rice Water Weevil
+- Spittlebugs
+- Wireworm
+- Chinch Bugs
+- Southern Chinch Bug
+- Planthoppers
+growth_habit: Tree
+data_quality_score: 0.8
+diseases:
+- Leaf Blight

@@ -1,78 +1,58 @@
----
-- common_name: Walnut Tree
-  picture: walnut_tree.webp
-  scientific_name: Juglans regia
-  aka:
-  - Persian Walnut
-  - English Walnut
-  - Carpathian Walnut
-  family: Juglandaceae
-  zone: 4-9
-  ideal_temp_min: 45
-  ideal_temp_max: 85
-  min_temp: -30
-  max_temp: 100
-  perennial: true
-  layers:
-  - Canopy
-  plant_function:
-  - Edible
-  - Medicinal
-  - Wildlife Attractor
-  - Timber
-  description: 'The Walnut Tree is a fast-growing deciduous tree that can reach up to 30 meters (98 feet) in height with a
-    broad canopy spanning approximately 18 meters (59 feet). It is light-demanding and thrives in full sun. The tree produces
-    large, compound leaves that emit a lemon or lime scent when crushed. Both male and female flowers are present on the same
-    tree, with pollination occurring via wind. The fruit, commonly known as a walnut, is encased in a green husk that matures
-    and splits to reveal the hard-shelled nut inside.
+common_name: Walnut Tree
+picture: walnut_tree.webp
+scientific_name: Juglans regia
+aka:
+- Persian Walnut
+- English Walnut
+- Carpathian Walnut
+family: Juglandaceae
+zone: 4-9
+ideal_temp_min: 45
+ideal_temp_max: 85
+min_temp: -30
+max_temp: 100
+perennial: true
+layers:
+- Canopy
+plant_function:
+- Edible
+- Medicinal
+- Wildlife Attractor
+- Timber
+description: |-
+  The Walnut Tree is a fast-growing deciduous tree that can reach up to 30 meters (98 feet) in height with a broad canopy spanning approximately 18 meters (59 feet). It is light-demanding and thrives in full sun. The tree produces large, compound leaves that emit a lemon or lime scent when crushed. Both male and female flowers are present on the same tree, with pollination occurring via wind. The fruit, commonly known as a walnut, is encased in a green husk that matures and splits to reveal the hard-shelled nut inside.
 
+  🌞💧 Sun and Water Requirements:
+  Prefers full sun and well-drained, fertile soil with a pH between 6 and 7. While young trees benefit from regular watering, mature trees are relatively drought-tolerant. Avoid overwatering to prevent root diseases.
 
-    🌞💧 Sun and Water Requirements:
+  ✂️🫘 Methods to Propagate:
+  Walnuts can be propagated from seeds or grafted cultivars. Seeds should be stratified by exposing them to cold temperatures before planting. Grafted trees often bear fruit earlier than seed-grown trees.
 
-    Prefers full sun and well-drained, fertile soil with a pH between 6 and 7. While young trees benefit from regular watering,
-    mature trees are relatively drought-tolerant. Avoid overwatering to prevent root diseases.
-
-
-    ✂️🫘 Methods to Propagate:
-
-    Walnuts can be propagated from seeds or grafted cultivars. Seeds should be stratified by exposing them to cold temperatures
-    before planting. Grafted trees often bear fruit earlier than seed-grown trees.
-
-
-    🧑‍🌾👩‍🌾 When to Harvest:
-
-    Harvest walnuts in late autumn when the green husks begin to split. Collect fallen nuts promptly to prevent spoilage.
-    After harvesting, remove the husks and allow the nuts to dry before storage.'
-  purpose: |-
-    Edible: Juglans regia walnuts sweeten after drying -- thin-shelled Carpathian types crack easier than wild black walnuts; cure before storage to avoid mold rancidity.
-    Medicinal: Leaf teas show up in European herbalism for skin and lymph support -- juglone toxicity is real; do not confuse livestock dosage with human tea strength.
-    Wildlife Attractor: Squirrels plant more trees than you will; mast years feed jays and rodents -- accept volunteer seedlings or mow them.
-    Timber: Straight grafted trunks yield light cabinet hardwood -- plan decades, not weekend projects; nuts plus veneer logs rarely optimize on the same pruning schedule.
-  companions:
-  - Pawpaw
-  - Persimmon
-  - Mulberry
-  - Black Raspberry
-  cautions:
-  - Apple
-  - Tomato
-  - Potato
-  - Pine
-  pests:
-  - Aphids
-  - Codling Moth
-  - Fall Webworm
-  - Hickory Shuckworm
-  - Pecan Scab
-  - Pecan Weevil
-  - Scale Insects
-  - Walnut Husk Fly
-  practitioner_notes: 'Morning picks hold turgor; afternoon heat steals shelf life even if the cooler feels honest.
-
-    Label jars with plant part and date the day you seal—future you is not psychic.
-
-    Notebook one weird year—weather anomalies repeat; memory lies, scribbles do not.
-
-    Blanch or process within hours if you are freezing—enzymes keep chewing while paperwork waits.'
-  growth_habit: Tree
-  data_quality_score: 0.8
+  🧑‍🌾👩‍🌾 When to Harvest:
+  Harvest walnuts in late autumn when the green husks begin to split. Collect fallen nuts promptly to prevent spoilage. After harvesting, remove the husks and allow the nuts to dry before storage.
+purpose: |-
+  Edible: Juglans regia walnuts sweeten after drying -- thin-shelled Carpathian types crack easier than wild black walnuts; cure before storage to avoid mold rancidity.
+  Medicinal: Leaf teas show up in European herbalism for skin and lymph support -- juglone toxicity is real; do not confuse livestock dosage with human tea strength.
+  Wildlife Attractor: Squirrels plant more trees than you will; mast years feed jays and rodents -- accept volunteer seedlings or mow them.
+  Timber: Straight grafted trunks yield light cabinet hardwood -- plan decades, not weekend projects; nuts plus veneer logs rarely optimize on the same pruning schedule.
+companions:
+- Pawpaw
+- Persimmon
+- Mulberry
+- Black Raspberry
+cautions:
+- Apple
+- Tomato
+- Potato
+- Pine
+pests:
+- Aphids
+- Codling Moth
+- Fall Webworm
+- Hickory Shuckworm
+- Pecan Scab
+- Pecan Weevil
+- Scale Insects
+- Walnut Husk Fly
+growth_habit: Tree
+data_quality_score: 0.8

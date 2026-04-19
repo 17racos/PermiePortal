@@ -1,64 +1,57 @@
----
-- common_name: Alder
-  picture: alder.webp
-  scientific_name: Alnus serrulata
-  aka:
-  - Hazel alder
-  - Tag alder
-  - Smooth alder
-  family: Betulaceae
-  zone: 4-9
-  ideal_temp_min: 35
-  ideal_temp_max: 92
-  min_temp: -30
-  max_temp: 105
-  perennial: true
-  layers:
-  - Tree
-  - Shrub
-  plant_function:
-  - Nitrogen Fixer
-  - Wildlife Attractor
-  - Erosion Control
-  - Mulcher
-  - Water Purifier
-  description: |-
-    Alder here is the Eastern riparian workhorse Alnus serrulata — a nitrogen-fixing birch relative that laughs at wet feet while feeding streambanks. Catkins look like fuzzy earrings; roots partner with Frankia bacteria so you can stop pretending only legumes fix N. In subtropical and tropical Americas it lines seeps, pond edges, and stormwater cuts where "ornamental turf" would drown or lie. Other Alnus species exist; match site to native range.
-    
-    ☀️💧 Sun and Water Requirements:
-    - Full sun to light shade along wet edges.
-    - Saturated to moist soils; tolerates seasonal flooding better than drought.
-    - Not for dry sandhill unless you enjoy watching sticks die.
-    
-    ✂️ Methods to Propagate:
-    - Seeds: needs moisture stratification; sow in wet media.
-    - Hardwood cuttings: treated cuttings in humid conditions for some species; seed easier for serrulata in restoration contexts.
-    
-    🌾 Harvest / Best Use Timing:
-    - For biomass and coppice, cut dormant season in temperate climates; avoid heavy sap-run windows if bark tears easily on your site.
-    - Catkins feed early pollinators -- leave uncut blocks in rotation.
-    - If tapping for dye experiments, mark trees and take modest volumes so crowns recover.
-  purpose: |-
-    Nitrogen Fixer: Alnus serrulata fixes atmospheric nitrogen with Frankia actinobacteria on roots, not rhizobia packets meant for beans -- young stems and catkin litter feed early successional willows, elderberries, and wetland forbs along seeps.
-    Wildlife Attractor: Woody cones and catkins supply winter seeds for finches while dangling male catkins shed pollen when few other riparian trees are awake -- expect noisy finch flocks on ice-coated branches in cold snaps.
-    Erosion Control: Fibrous roots and suckering stems knit saturated ditch banks and pond margins where sheet flow would otherwise carve gullies -- plant bands along the contour, not single lonely specimens on dry berms.
-    Mulcher: Thin deciduous leaves drop into slow water where they feed aquatic invertebrates instead of smothering upland beds -- rake only where mats threaten intake screens, not everywhere aesthetics whine.
-    Water Purifier: Dense riparian strips intercept nitrate-laden runoff before it reaches open water -- roots and associated microbes pull nitrogen into woody tissue that you later harvest in coppice cycles if nutrient budgets demand it.
-  companions:
-  - Willow
-  - Elderberry
-  - Swamp sunflower
-  cautions:
-  - Roof drip lines on dry berms
-  - Planting as a street tree under power lines without space
-  pests:
-  - Aphids
-  - Caterpillars
-  - Japanese beetles
-  practitioner_notes: |-
-    Fixes nitrogen via Frankia actinobacteria, not rhizobial inoculant packets meant for beans and peas.
-    Bare-root seedlings desiccate in minutes on a breezy day—plant mud-to-mud if possible.
-    Catkins drop early-season pollen when many fruit species are still dormant—useful insect wake-up food along wet edges.
-  # Image attribution: Radomianin / Wikimedia Commons / CC BY-SA 4.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+common_name: Alder
+picture: alder.webp
+scientific_name: Alnus serrulata
+aka:
+- Hazel alder
+- Tag alder
+- Smooth alder
+family: Betulaceae
+zone: 4-9
+ideal_temp_min: 35
+ideal_temp_max: 92
+min_temp: -30
+max_temp: 105
+perennial: true
+layers:
+- Tree
+- Shrub
+plant_function:
+- Nitrogen Fixer
+- Wildlife Attractor
+- Erosion Control
+- Mulcher
+- Water Purifier
+description: |-
+  Alder here is the Eastern riparian workhorse Alnus serrulata — a nitrogen-fixing birch relative that laughs at wet feet while feeding streambanks. Catkins look like fuzzy earrings; roots partner with Frankia bacteria so you can stop pretending only legumes fix N. In subtropical and tropical Americas it lines seeps, pond edges, and stormwater cuts where "ornamental turf" would drown or lie. Other Alnus species exist; match site to native range.
+
+  ☀️💧 Sun and Water Requirements:
+  - Full sun to light shade along wet edges.
+  - Saturated to moist soils; tolerates seasonal flooding better than drought.
+  - Not for dry sandhill unless you enjoy watching sticks die.
+
+  ✂️ Methods to Propagate:
+  - Seeds: needs moisture stratification; sow in wet media.
+  - Hardwood cuttings: treated cuttings in humid conditions for some species; seed easier for serrulata in restoration contexts.
+
+  🌾 Harvest / Best Use Timing:
+  - For biomass and coppice, cut dormant season in temperate climates; avoid heavy sap-run windows if bark tears easily on your site.
+  - Catkins feed early pollinators -- leave uncut blocks in rotation.
+  - If tapping for dye experiments, mark trees and take modest volumes so crowns recover.
+purpose: |-
+  Nitrogen Fixer: Alnus serrulata fixes atmospheric nitrogen with Frankia actinobacteria on roots, not rhizobia packets meant for beans -- young stems and catkin litter feed early successional willows, elderberries, and wetland forbs along seeps.
+  Wildlife Attractor: Woody cones and catkins supply winter seeds for finches while dangling male catkins shed pollen when few other riparian trees are awake -- expect noisy finch flocks on ice-coated branches in cold snaps.
+  Erosion Control: Fibrous roots and suckering stems knit saturated ditch banks and pond margins where sheet flow would otherwise carve gullies -- plant bands along the contour, not single lonely specimens on dry berms.
+  Mulcher: Thin deciduous leaves drop into slow water where they feed aquatic invertebrates instead of smothering upland beds -- rake only where mats threaten intake screens, not everywhere aesthetics whine.
+  Water Purifier: Dense riparian strips intercept nitrate-laden runoff before it reaches open water -- roots and associated microbes pull nitrogen into woody tissue that you later harvest in coppice cycles if nutrient budgets demand it.
+companions:
+- Willow
+- Elderberry
+- Swamp sunflower
+cautions:
+- Roof drip lines on dry berms
+- Planting as a street tree under power lines without space
+pests:
+- Aphids
+- Japanese beetles
+animal_pressure:
+- Caterpillars

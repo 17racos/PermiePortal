@@ -1,60 +1,51 @@
----
-- common_name: Bog Bean
-  picture: bog_bean.webp
-  scientific_name: Menyanthes trifoliata
-  aka:
-  - Buckbean
-  - Marsh Trefoil
-  family: Menyanthaceae
-  zone: 3-8
-  ideal_temp_min: 45
-  ideal_temp_max: 72
-  min_temp: -40
-  max_temp: 85
-  perennial: true
-  layers:
-  - Aquatic
-  - Herbaceous
-  plant_function:
-  - Aquatic
-  - Wildlife Attractor
-  - Pollinator
-  - Water Retention
-  description: "Bog bean (Menyanthes trifoliata) is a circumboreal aquatic perennial
-    with creeping rhizomes, glossy trifoliate leaves that rise above the water, and
-    clusters of fuzzy white-to-pink flowers with fringed petals. In cold, acidic bogs
-    and pond margins it forms expanding mats; foliage typically reaches 15–45 cm (6–18
-    inches) above the surface.\n\n🌞💧 Sun and Water Requirements:\n- Full sun to
-    light shade; flowers best with good light.\n- Requires cool, oxygenated shallow
-    water or saturated peat—classic bog-garden species. In subtropical and tropical Americas
-    it is a specialty plant for highland ponds, shaded spring runs, or artificially
-    cooled demonstration pools; lowland tropical heat often limits long-term success.\n-
-    Never allow rhizomes to dry; avoid hot, stagnant, anaerobic muck.\n\n✂️ Methods
-    to Propagate:\n- Division: Slice rhizomes in late winter while dormant in cool
-    climates; anchor pieces in aquatic baskets with acidic mix.\n- Seeds: Sow on
-    wet sphagnum surface; germination is slow and benefits from cold stratification.\n\n🌾
-    Harvest / Best Use Timing:\n- Do not wild-harvest sensitive bog species; in garden
-    settings, thin excess rhizomes in cool months to manage spread and share divisions."
-  purpose: |-
-    Aquatic: Menyanthes trifoliata rhizomes creep through cool, oxygenated shallows, linking open water to sedge mats with emergent trifoliate leaves held above the surface film.
-    Wildlife Attractor: Dragonflies perch on stiff flower stalks while ducks probe floating roots for invertebrates in boreal ponds where the species is native.
-    Pollinator: Fringed white-pink bells open early in bog gardens, giving fly pollinators a sugar source while willows are still in catkin.
-    Water Retention: Dense rhizome sod cushions wave action on peat lips, slowing peat slumping when water levels bounce between spring snowmelt and summer drawdown.
-  companions:
-  - Marsh Marigold
-  - Watercress
-  - Cattail
-  cautions:
-  - None documented
-  pests:
-  - Aphids
-  - Snails
-  practitioner_notes: |-
-    Needs cool, moving, oxygenated water—stagnant tropical tubs cook rhizomes even if the label said “bog plant.”
-    Divide on a cool cloudy day; sun-wind desiccation on exposed rhizome cuts kills pieces you meant to share.
-    Flowers open sequentially up the stalk—photograph early or you will only catch fuzzy brown leftovers.
-    Snails rasp holes in floating leaves—handpick at dusk or add predator fish where ethics and regulations allow.
-  growth_habit: Rhizomatous aquatic perennial; trifoliate emergent leaves
-  data_quality_score: 0.72
-  # Image attribution: Kenneth  Allen / Wikimedia Commons / CC BY-SA 2.0
-  # Image source: wikimedia
+common_name: Bog Bean
+picture: bog_bean.webp
+scientific_name: Menyanthes trifoliata
+aka:
+- Buckbean
+- Marsh Trefoil
+family: Menyanthaceae
+zone: 3-8
+ideal_temp_min: 45
+ideal_temp_max: 72
+min_temp: -40
+max_temp: 85
+perennial: true
+layers:
+- Aquatic
+- Herbaceous
+plant_function:
+- Aquatic
+- Wildlife Attractor
+- Pollinator
+- Water Retention
+description: |-
+  Bog bean (Menyanthes trifoliata) is a circumboreal aquatic perennial with creeping rhizomes, glossy trifoliate leaves that rise above the water, and clusters of fuzzy white-to-pink flowers with fringed petals. In cold, acidic bogs and pond margins it forms expanding mats; foliage typically reaches 15–45 cm (6–18 inches) above the surface.
+
+  🌞💧 Sun and Water Requirements:
+  - Full sun to light shade; flowers best with good light.
+  - Requires cool, oxygenated shallow water or saturated peat—classic bog-garden species. In subtropical and tropical Americas it is a specialty plant for highland ponds, shaded spring runs, or artificially cooled demonstration pools; lowland tropical heat often limits long-term success.
+  - Never allow rhizomes to dry; avoid hot, stagnant, anaerobic muck.
+
+  ✂️ Methods to Propagate:
+  - Division: Slice rhizomes in late winter while dormant in cool climates; anchor pieces in aquatic baskets with acidic mix.
+  - Seeds: Sow on wet sphagnum surface; germination is slow and benefits from cold stratification.
+
+  🌾 Harvest / Best Use Timing:
+  - Do not wild-harvest sensitive bog species; in garden settings, thin excess rhizomes in cool months to manage spread and share divisions.
+purpose: |-
+  Aquatic: Menyanthes trifoliata rhizomes creep through cool, oxygenated shallows, linking open water to sedge mats with emergent trifoliate leaves held above the surface film.
+  Wildlife Attractor: Dragonflies perch on stiff flower stalks while ducks probe floating roots for invertebrates in boreal ponds where the species is native.
+  Pollinator: Fringed white-pink bells open early in bog gardens, giving fly pollinators a sugar source while willows are still in catkin.
+  Water Retention: Dense rhizome sod cushions wave action on peat lips, slowing peat slumping when water levels bounce between spring snowmelt and summer drawdown.
+companions:
+- Marsh Marigold
+- Watercress
+- Cattail
+cautions:
+- None documented
+pests:
+- Aphids
+- Snails
+growth_habit: Rhizomatous aquatic perennial; trifoliate emergent leaves
+data_quality_score: 0.72

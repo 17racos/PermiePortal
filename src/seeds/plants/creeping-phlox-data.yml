@@ -1,61 +1,51 @@
----
-- common_name: Creeping Phlox
-  picture: creeping_phlox.webp
-  scientific_name: Phlox subulata
-  aka:
-  - Moss phlox
-  - Mountain phlox
-  family: Polemoniaceae
-  zone: 3-9
-  ideal_temp_min: 45
-  ideal_temp_max: 85
-  min_temp: -35
-  max_temp: 95
-  perennial: true
-  layers:
-  - Ground Cover
-  plant_function:
-  - Ornamental
-  - Pollinator
-  - Ground Cover
-  - Erosion Control
-  description: "Creeping phlox (*Phlox subulata*) is a mat-forming evergreen perennial
-    famous for spring sheets of five-petaled flowers in pink, purple, blue, or white.
-    Needle-like leaves pack tightly on stems that root as they spread, typically staying
-    under 15 cm tall but covering wide areas over time. Native to eastern North American
-    rocky slopes, it wants sharp drainage. In subtropical and tropical Americas it is best on
-    berms, rock gardens, or containers—humid, wet pockets invite mildew unless
-    air moves freely and soil dries between rains.\n\n☀️💧 **Sun and Water Requirements:**\nFull
-    sun for heaviest bloom; very light shade only where heat is extreme. Lean, gritty,
-    well-drained soil; water during establishment, then occasional deep drinks during
-    drought. Avoid overhead irrigation late in the day.\n\n✂️ **Methods to Propagate:**\n-
-    **Soft tip cuttings:** Take non-flowering shoots in early summer; root under humidity.\n-
-    **Division:** Lift and split rooted mats after flowering, replanting pieces immediately.\n\n🌾
-    **Best Use Timing:**\nShear spent flowers lightly to tidy mats. Major trim after
-    bloom if centers become woody—replace with rooted edge pieces for renewal."
-  purpose: |-
-    Ornamental: Phlox subulata paints slopes and rock gardens with spring sheets of five-petaled pink, purple, blue, or white flowers -- mats stay under 15 cm but spread wide on gritty, well-drained ground.
-    Pollinator: Early bloom feeds bees when many woody plants are still leafing out -- open flowers offer accessible nectar on south-facing banks.
-    Ground Cover: Evergreen needle-like stems root as they spread, knitting dense mats that exclude many weeds on lean soil too harsh for turf.
-    Erosion Control: Interwoven stems and fibrous roots slow rain splash on berms, terrace faces, and thin-soil inclines.
-  companions:
-  - Creeping thyme
-  - Sedum
-  - Dianthus
-  - Candytuft
-  cautions:
-  - None documented
-  pests:
-  - Powdery Mildew
-  - Spider Mites
-  - Aphids
-  practitioner_notes: |-
-    Shear after spring bloom by one-third—tightens mats and reduces summer mildew pockets in humid air.
-    Plant on slopes for sharp drainage—flat clay holds splash moisture and rots crowns during warm rains.
-    Evergreen needles catch debris—gentle rake or blow in late winter so light reaches basal buds.
-    Aphids cluster on tender bloom stems—blast before flowers open if ants are farming them up stems.
-  growth_habit: Ground Cover
-  data_quality_score: 0.8
-  # Image attribution: Frantisek horak / Wikimedia Commons / CC BY-SA 4.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+common_name: Creeping Phlox
+picture: creeping_phlox.webp
+scientific_name: Phlox subulata
+aka:
+- Moss phlox
+- Mountain phlox
+family: Polemoniaceae
+zone: 3-9
+ideal_temp_min: 45
+ideal_temp_max: 85
+min_temp: -35
+max_temp: 95
+perennial: true
+layers:
+- Ground Cover
+plant_function:
+- Ornamental
+- Pollinator
+- Ground Cover
+- Erosion Control
+description: |-
+  Creeping phlox (*Phlox subulata*) is a mat-forming evergreen perennial famous for spring sheets of five-petaled flowers in pink, purple, blue, or white. Needle-like leaves pack tightly on stems that root as they spread, typically staying under 15 cm tall but covering wide areas over time. Native to eastern North American rocky slopes, it wants sharp drainage. In subtropical and tropical Americas it is best on berms, rock gardens, or containers—humid, wet pockets invite mildew unless air moves freely and soil dries between rains.
+
+  ☀️💧 **Sun and Water Requirements:**
+  Full sun for heaviest bloom; very light shade only where heat is extreme. Lean, gritty, well-drained soil; water during establishment, then occasional deep drinks during drought. Avoid overhead irrigation late in the day.
+
+  ✂️ **Methods to Propagate:**
+  - **Soft tip cuttings:** Take non-flowering shoots in early summer; root under humidity.
+  - **Division:** Lift and split rooted mats after flowering, replanting pieces immediately.
+
+  🌾 **Best Use Timing:**
+  Shear spent flowers lightly to tidy mats. Major trim after bloom if centers become woody—replace with rooted edge pieces for renewal.
+purpose: |-
+  Ornamental: Phlox subulata paints slopes and rock gardens with spring sheets of five-petaled pink, purple, blue, or white flowers -- mats stay under 15 cm but spread wide on gritty, well-drained ground.
+  Pollinator: Early bloom feeds bees when many woody plants are still leafing out -- open flowers offer accessible nectar on south-facing banks.
+  Ground Cover: Evergreen needle-like stems root as they spread, knitting dense mats that exclude many weeds on lean soil too harsh for turf.
+  Erosion Control: Interwoven stems and fibrous roots slow rain splash on berms, terrace faces, and thin-soil inclines.
+companions:
+- Creeping thyme
+- Sedum
+- Dianthus
+- Candytuft
+cautions:
+- None documented
+pests:
+- Spider Mites
+- Aphids
+growth_habit: Ground Cover
+data_quality_score: 0.8
+diseases:
+- Powdery Mildew

@@ -1,60 +1,58 @@
----
-- common_name: Broadleaf Plantain
-  picture: broadleaf_plantain.webp
-  scientific_name: Plantago major
-  aka:
-  - White man's footprint
-  - Greater plantain
-  - Plantain
-  - Common Plantain
-  - Greater Plantain
-  family: Plantaginaceae
-  zone: 3-10
-  ideal_temp_min: 50
-  ideal_temp_max: 85
-  min_temp: -30
-  max_temp: 100
-  perennial: true
-  layers:
-  - Herbaceous
-  - Ground Cover
-  plant_function:
-  - Edible
-  - Medicinal
-  - Dynamic Accumulator
-  - Ground Cover
-  description: "Plantago major is the rosette that colonized sidewalks worldwide—low,
-    ribbed leaves, stringy leaf veins you peel like nature’s dental floss, and flower
-    spikes bees occasionally bother with. Young leaves are mild cooked; older ones
-    need the ‘desperation greens’ mindset.\n\nThrives
-    in cool wet seasons and irrigated lawn dystopia; slows in deep drought but usually
-    rebounds. Not shade-phobic.\n\n☀️💧 Sun and Water Requirements:\n\nFull sun to part shade; tolerates
-    compaction and mediocre soil—hence the footprint nickname.\nLikes consistent moisture
-    but survives dry spells as a sad but alive rosette.\n\n✂️ Propagation:\n\nSelf-sows freely;
-    dig and transplant rosettes; root pieces can resprout—plan accordingly if you
-    wanted it ‘contained.’\n\n🌾 Harvest / Best Use Timing:\n\nGather young leaves for mild greens; older leaves need the desperation-greens mindset; seeds usable within reason."
-  purpose: |-
-    Edible: Young Plantago major leaves cook tender when harvested before flowering; mature ribs stay stringy even after stewing -- psyllium-grade seed harvest needs patience rubbing dry spikes over a screen.
-    Medicinal: Chewed leaf poultice uses mucilage to soothe insect stings and nettle rash in the field -- internal use of seed husks for bulk laxative effect is documented; separate spit poultice hygiene from capsule products bought dry.
-    Dynamic Accumulator: Roadside rosettes concentrate zinc and potassium in leaf ash tests -- chop before seed rain if you do not want mineral-rich biomass volunteering across the whole path.
-    Ground Cover: Low rosettes tolerate foot compaction where turfgrass would demand irrigation -- fills gaps between stepping stones yet lifts easily where you need bare soil again for transplants.
-  companions:
-  - Comfrey
-  - Yarrow
-  - Clover
-  cautions:
-  - Mistaking narrow-leaved plantain (P. lanceolata) if you wanted this exact species
-  - Letting it dominate tiny formal beds without a plan
-  pests:
-  - slugs
-  - snails
-  practitioner_notes: |-
-    Chew a clean leaf into pulp for field poultice on stings—the mucilage is the active texture, not magic marketing.
-    Roots follow compaction and hoofprints—where plantain thrives dense, your soil begs for aeration or less foot traffic.
-    Seed stays viable in soil for years—mulch after pulling if you are trying to shrink a path infestation without glyphosate cosplay.
-    Young leaves are mild; mid-summer sun turns older blades stringy—harvest after rain for salad-grade tenderness.
-  growth_habit: Basal-rosette perennial herb
-  data_quality_score: 0.8
-  # Image attribution: Robert Flogaus-Faust / Wikimedia Commons / CC BY 4.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+common_name: Broadleaf Plantain
+picture: broadleaf_plantain.webp
+scientific_name: Plantago major
+aka:
+- White man's footprint
+- Greater plantain
+- Plantain
+- Common Plantain
+- Greater Plantain
+family: Plantaginaceae
+zone: 3-10
+ideal_temp_min: 50
+ideal_temp_max: 85
+min_temp: -30
+max_temp: 100
+perennial: true
+layers:
+- Herbaceous
+- Ground Cover
+plant_function:
+- Edible
+- Medicinal
+- Dynamic Accumulator
+- Ground Cover
+description: |-
+  Plantago major is the rosette that colonized sidewalks worldwide—low, ribbed leaves, stringy leaf veins you peel like nature’s dental floss, and flower spikes bees occasionally bother with. Young leaves are mild cooked; older ones need the ‘desperation greens’ mindset.
+
+  Thrives in cool wet seasons and irrigated lawn dystopia; slows in deep drought but usually rebounds. Not shade-phobic.
+
+  ☀️💧 Sun and Water Requirements:
+
+  Full sun to part shade; tolerates compaction and mediocre soil—hence the footprint nickname.
+  Likes consistent moisture but survives dry spells as a sad but alive rosette.
+
+  ✂️ Propagation:
+
+  Self-sows freely; dig and transplant rosettes; root pieces can resprout—plan accordingly if you wanted it ‘contained.’
+
+  🌾 Harvest / Best Use Timing:
+
+  Gather young leaves for mild greens; older leaves need the desperation-greens mindset; seeds usable within reason.
+purpose: |-
+  Edible: Young Plantago major leaves cook tender when harvested before flowering; mature ribs stay stringy even after stewing -- psyllium-grade seed harvest needs patience rubbing dry spikes over a screen.
+  Medicinal: Chewed leaf poultice uses mucilage to soothe insect stings and nettle rash in the field -- internal use of seed husks for bulk laxative effect is documented; separate spit poultice hygiene from capsule products bought dry.
+  Dynamic Accumulator: Roadside rosettes concentrate zinc and potassium in leaf ash tests -- chop before seed rain if you do not want mineral-rich biomass volunteering across the whole path.
+  Ground Cover: Low rosettes tolerate foot compaction where turfgrass would demand irrigation -- fills gaps between stepping stones yet lifts easily where you need bare soil again for transplants.
+companions:
+- Comfrey
+- Yarrow
+- Clover
+cautions:
+- Mistaking narrow-leaved plantain (P. lanceolata) if you wanted this exact species
+- Letting it dominate tiny formal beds without a plan
+pests:
+- slugs
+- snails
+growth_habit: Basal-rosette perennial herb
+data_quality_score: 0.8

@@ -1,77 +1,59 @@
----
-- common_name: Salal
-  picture: salal.webp
-  scientific_name: Gaultheria shallon
-  aka:
-  - Shallon
-  - Oregon Wintergreen
-  family: Ericaceae
-  zone: 7-9
-  ideal_temp_min: 35
-  ideal_temp_max: 75
-  min_temp: 0
-  max_temp: 90
-  perennial: true
-  layers:
-  - Shrub
-  - Ground Cover
-  plant_function:
-  - Edible
-  - Ground Cover
-  - Wildlife Attractor
-  - Erosion Control
-  description: 'Salal (Gaultheria shallon) is a Pacific Northwest evergreen shrub forming thickets of leathery, oval, alternate
-    leaves on arching stems; small white to pink urn-shaped flowers yield dark purple edible berries. In the wild it ranges
-    from ground-hugging mats in sun to 3–5 foot thickets in shade, spreading by rhizomes into extensive colonies under conifers
-    and oaks.
+common_name: Salal
+picture: salal.webp
+scientific_name: Gaultheria shallon
+aka:
+- Shallon
+- Oregon Wintergreen
+family: Ericaceae
+zone: 7-9
+ideal_temp_min: 35
+ideal_temp_max: 75
+min_temp: 0
+max_temp: 90
+perennial: true
+layers:
+- Shrub
+- Ground Cover
+plant_function:
+- Edible
+- Ground Cover
+- Wildlife Attractor
+- Erosion Control
+description: |-
+  Salal (Gaultheria shallon) is a Pacific Northwest evergreen shrub forming thickets of leathery, oval, alternate leaves on arching stems; small white to pink urn-shaped flowers yield dark purple edible berries. In the wild it ranges from ground-hugging mats in sun to 3–5 foot thickets in shade, spreading by rhizomes into extensive colonies under conifers and oaks.
 
+  ☀️💧 Sun and Water Requirements:
+  - Part shade to full shade in hot climates; cool, humid air mimics its native coast. Morning sun with afternoon shade works in milder subtropical microclimates.
+  - Likes evenly moist, acidic, organic-rich soil with good mulch; in subtropical and tropical Americas lowland heat it is marginal—treat as a specialty plant in shaded, misted courtyards or cool high-elevation-style beds, not as a bulk groundcover.
 
-    ☀️💧 Sun and Water Requirements:
+  ✂️ Methods to Propagate:
+  - Rhizome division: lift and separate rooted sections in cool wet weather, keeping roots moist.
+  - Seeds: cold stratify, surface-sow in acidic mix; slow but useful for breeding diversity.
 
-    - Part shade to full shade in hot climates; cool, humid air mimics its native coast. Morning sun with afternoon shade
-    works in milder subtropical microclimates.
-
-    - Likes evenly moist, acidic, organic-rich soil with good mulch; in subtropical and tropical Americas lowland heat it
-    is marginal—treat as a specialty plant in shaded, misted courtyards or cool high-elevation-style beds, not as a bulk groundcover.
-
-
-    ✂️ Methods to Propagate:
-
-    - Rhizome division: lift and separate rooted sections in cool wet weather, keeping roots moist.
-
-    - Seeds: cold stratify, surface-sow in acidic mix; slow but useful for breeding diversity.
-
-
-    🌾 When to Harvest:
-
-    - Berries ripen dark and slightly soft in late summer to fall where climate allows; leaves are used decoratively year-round.
-    Harvest leaves selectively so colonies regenerate.'
-  purpose: |-
-    Edible: Gaultheria shallon purple berries ripen late summer to fall with sweet-tart pop and mealy texture that jam and wine forgive; glossy evergreen sprays pass for florist-grade cut material if you rotate harvest canes.
-    Ground Cover: Rhizomes wander into weed-suppressing mats under conifer drip lines where turf dies from acidity and shade.
-    Wildlife Attractor: Urn-shaped blooms feed native bees in cool maritime air while thickets give cover for ground-foraging birds that take the berries you miss.
-    Erosion Control: Interlaced stems knit duff and mineral soil on damp cut banks and shaded road edges where sheet flow would otherwise peel the slope.
-  companions:
-  - Evergreen Huckleberry
-  - Oregon Grape
-  - Maidenhair Fern
-  cautions:
-  - None documented
-  pests:
-  - Aphids
-  - Azalea Caterpillar
-  - Blueberry Maggot
-  - Cranberry Fruitworm
-  - Cranberry Tipworm
-  - Sparganothis Fruitworm
-  - Spider Mites
-  - Strawberry Root Weevil
-  - Thrips
-  - Vine Weevil
-  practitioner_notes: 'Leathery leaves last in bouquets—strip lower half before vase water.
-
-    Berries are mealy fresh—jams and wines hide texture sins.
-
-    Rhizomes spread in acid mulch—edge barriers along paths if you want lines crisp.'
-  growth_habit: Rhizomatous evergreen shrub; leathery leaves; purple edible berries
-  data_quality_score: 0.72
+  🌾 When to Harvest:
+  - Berries ripen dark and slightly soft in late summer to fall where climate allows; leaves are used decoratively year-round. Harvest leaves selectively so colonies regenerate.
+purpose: |-
+  Edible: Gaultheria shallon purple berries ripen late summer to fall with sweet-tart pop and mealy texture that jam and wine forgive; glossy evergreen sprays pass for florist-grade cut material if you rotate harvest canes.
+  Ground Cover: Rhizomes wander into weed-suppressing mats under conifer drip lines where turf dies from acidity and shade.
+  Wildlife Attractor: Urn-shaped blooms feed native bees in cool maritime air while thickets give cover for ground-foraging birds that take the berries you miss.
+  Erosion Control: Interlaced stems knit duff and mineral soil on damp cut banks and shaded road edges where sheet flow would otherwise peel the slope.
+companions:
+- Evergreen Huckleberry
+- Oregon Grape
+- Maidenhair Fern
+cautions:
+- None documented
+pests:
+- Aphids
+- Blueberry Maggot
+- Cranberry Fruitworm
+- Cranberry Tipworm
+- Sparganothis Fruitworm
+- Spider Mites
+- Strawberry Root Weevil
+- Thrips
+- Vine Weevil
+growth_habit: Rhizomatous evergreen shrub; leathery leaves; purple edible berries
+data_quality_score: 0.72
+animal_pressure:
+- Azalea Caterpillar

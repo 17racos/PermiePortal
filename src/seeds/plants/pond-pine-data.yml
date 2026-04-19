@@ -1,73 +1,55 @@
----
-- common_name: Pond Pine
-  picture: pond_pine.webp
-  scientific_name: Pinus serotina
-  aka:
-  - Marsh Pine
-  - Pocosin Pine
-  family: Pinaceae
-  zone: 6-9
-  ideal_temp_min: 35
-  ideal_temp_max: 95
-  min_temp: -5
-  max_temp: 105
-  perennial: true
-  layers:
-  - Tree
-  plant_function:
-  - Wildlife Attractor
-  - Erosion Control
-  - Windbreaker
-  - Biomass
-  description: 'Pond pine (Pinus serotina) is a southeastern North American pine of wet savannas, pocosins, and pond margins,
-    recognized for a somewhat irregular crown, long needles in bundles of three, and serotinous cones that open after fire
-    or strong heat. Trees commonly reach 40–70 feet (12–21 m) on acidic, peaty, or sandy soils that stay moist but not permanently
-    stagnant. In restoration and windbreak work it tolerates conditions that dry-site pines refuse, while supplying resinous
-    habitat structure.
+common_name: Pond Pine
+picture: pond_pine.webp
+scientific_name: Pinus serotina
+aka:
+- Marsh Pine
+- Pocosin Pine
+family: Pinaceae
+zone: 6-9
+ideal_temp_min: 35
+ideal_temp_max: 95
+min_temp: -5
+max_temp: 105
+perennial: true
+layers:
+- Tree
+plant_function:
+- Wildlife Attractor
+- Erosion Control
+- Windbreaker
+- Biomass
+description: |-
+  Pond pine (Pinus serotina) is a southeastern North American pine of wet savannas, pocosins, and pond margins, recognized for a somewhat irregular crown, long needles in bundles of three, and serotinous cones that open after fire or strong heat. Trees commonly reach 40–70 feet (12–21 m) on acidic, peaty, or sandy soils that stay moist but not permanently stagnant. In restoration and windbreak work it tolerates conditions that dry-site pines refuse, while supplying resinous habitat structure.
 
+  ☀️💧 Sun and Water Requirements:
+  Full sun for straight growth; crowded shade yields thin, leaning adolescents. Moist, acidic soils are home ground—peaty sand, sandy loam, or seasonally wet flats. Tolerates short dry spells once established but not desert conditions; avoid saline exposure.
 
-    ☀️💧 Sun and Water Requirements:
+  ✂️ Propagation:
+  Sow fresh seed; some cones need heat cues for release—research local seed handling. Transplant bareroot stock during cool, moist weather. Prune only for clearance or storm repair; pines do not forgive topping.
 
-    Full sun for straight growth; crowded shade yields thin, leaning adolescents. Moist, acidic soils are home ground—peaty
-    sand, sandy loam, or seasonally wet flats. Tolerates short dry spells once established but not desert conditions; avoid
-    saline exposure.
-
-
-    ✂️ Propagation:
-
-    Sow fresh seed; some cones need heat cues for release—research local seed handling. Transplant bareroot stock during cool,
-    moist weather. Prune only for clearance or storm repair; pines do not forgive topping.
-
-
-    🌾 Harvest / Best Use Timing:
-
-    Pine straw mulch is harvested sustainably from lower needle drop—do not strip living crowns. Timber rotations belong to
-    forestry plans, not impulse weekends. Cone and seed collection for restoration should follow ethical permits and population
-    health.'
-  purpose: |-
-    Wildlife Attractor: Pinus serotina serotinous cones open after fire cues to shed winged seeds for red crossbills and small rodents; bark beetles draw woodpecker guilds -- plan burn windows with regulation honesty, not surprise neighborhood smoke.
-    Erosion Control: Taproots and wide lateral plates bind peaty pond margins and Carolina bay sand where summer wetness would slump other conifers -- tolerates short dry spells once established but not coastal salt spray.
-    Windbreaker: Irregular crowns in staggered rows trim steady humid-plain winds across blueberry barrens and strawberry plastic -- spacing wider than loblolly avoids complete light loss on cash crops.
-    Biomass: Resinous needle drop and thinned lower branches chip into acidic mulch for ericaceous beds and hugel toes -- high lignin fraction rots slower than maple litter, building long-carbon sponge in wet ground.
-  companions:
-  - Longleaf Pine — complementary pine neighbor where fire-managed systems include multiple canopy heights
-  - Sweetgrass — moist-ground grass matrix at the wetland margin below pine drip lines
-  - Wax Myrtle — nitrogen-fixing shrub layer at the ecotone between pine and more open wet ground
-  cautions:
-  - Fire ecology — serotinous cones expect periodic burn; understand local regulations before romanticizing flames
-  - Alkaline soils and coastal salt — chronic stress and needle chlorosis without amendment or different species choice
-  pests:
-  - Aphids
-  - Bagworm
-  - Scale Insects
-  - Spider Mites
-  practitioner_notes: 'Pinus serotina wants moisture honesty—if your site is truly xeric, choose a different pine and spare
-    yourself the pine funeral.
-
-    Serotiny means cones sit closed until heat—explain that to neighbors before controlled burns or neighborly panic.
-
-    Needle bundles of three separate it from some look-alikes—count before you tattoo the Latin on a sign.
-
-    Pine straw harvest is a haircut, not a scalping—leave canopy needles to feed the tree that grew them.'
-  growth_habit: Moist-site pine; needles in threes; irregular crown; serotinous cones; acidic soils
-  data_quality_score: 0.8
+  🌾 Harvest / Best Use Timing:
+  Pine straw mulch is harvested sustainably from lower needle drop—do not strip living crowns. Timber rotations belong to forestry plans, not impulse weekends. Cone and seed collection for restoration should follow ethical permits and population health.
+purpose: |-
+  Wildlife Attractor: Pinus serotina serotinous cones open after fire cues to shed winged seeds for red crossbills and small rodents; bark beetles draw woodpecker guilds -- plan burn windows with regulation honesty, not surprise neighborhood smoke.
+  Erosion Control: Taproots and wide lateral plates bind peaty pond margins and Carolina bay sand where summer wetness would slump other conifers -- tolerates short dry spells once established but not coastal salt spray.
+  Windbreaker: Irregular crowns in staggered rows trim steady humid-plain winds across blueberry barrens and strawberry plastic -- spacing wider than loblolly avoids complete light loss on cash crops.
+  Biomass: Resinous needle drop and thinned lower branches chip into acidic mulch for ericaceous beds and hugel toes -- high lignin fraction rots slower than maple litter, building long-carbon sponge in wet ground.
+companions:
+- Longleaf Pine — complementary pine neighbor where fire-managed systems include multiple
+  canopy heights
+- Sweetgrass — moist-ground grass matrix at the wetland margin below pine drip lines
+- Wax Myrtle — nitrogen-fixing shrub layer at the ecotone between pine and more open
+  wet ground
+cautions:
+- Fire ecology — serotinous cones expect periodic burn; understand local regulations
+  before romanticizing flames
+- Alkaline soils and coastal salt — chronic stress and needle chlorosis without amendment
+  or different species choice
+pests:
+- Aphids
+- Bagworm
+- Scale Insects
+- Spider Mites
+growth_habit: Moist-site pine; needles in threes; irregular crown; serotinous cones;
+  acidic soils
+data_quality_score: 0.8

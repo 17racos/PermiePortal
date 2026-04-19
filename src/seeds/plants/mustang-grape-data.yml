@@ -1,74 +1,54 @@
----
-- common_name: Mustang Grape
-  picture: mustang_grape.webp
-  scientific_name: Vitis mustangensis
-  aka:
-  - Mustang grapevine
-  family: Vitaceae
-  zone: 6-10
-  ideal_temp_min: 60
-  ideal_temp_max: 95
-  min_temp: 0
-  max_temp: 105
-  perennial: true
-  layers:
-  - Vine
-  plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Shade Provider
-  description: 'Mustang grape (Vitis mustangensis) is a high-climbing deciduous vine native to the south-central United States
-    and adjacent northeastern Mexico, common in woodland margins and sandy soils. Leaves are thick, often slightly white beneath,
-    and fruit clusters bear small dark berries with a tart, musky flavor that cooks into jelly better than it eats out of
-    hand. It is a resilient native grape for trellises, living pergolas, and wildlife corridors where European wine grapes
-    struggle with humidity and disease.
+common_name: Mustang Grape
+picture: mustang_grape.webp
+scientific_name: Vitis mustangensis
+aka:
+- Mustang grapevine
+family: Vitaceae
+zone: 6-10
+ideal_temp_min: 60
+ideal_temp_max: 95
+min_temp: 0
+max_temp: 105
+perennial: true
+layers:
+- Vine
+plant_function:
+- Edible
+- Wildlife Attractor
+- Shade Provider
+description: |-
+  Mustang grape (Vitis mustangensis) is a high-climbing deciduous vine native to the south-central United States and adjacent northeastern Mexico, common in woodland margins and sandy soils. Leaves are thick, often slightly white beneath, and fruit clusters bear small dark berries with a tart, musky flavor that cooks into jelly better than it eats out of hand. It is a resilient native grape for trellises, living pergolas, and wildlife corridors where European wine grapes struggle with humidity and disease.
 
+  ☀️💧 Sun and Water Requirements:
+  - Full sun for heaviest fruiting; tolerates partial shade with fewer clusters.
+  - Drought tolerant once established in deep sand; young vines need regular water.
+  - Well-drained to sandy-loam soils; tolerates poor rocky ground if roots can run.
 
-    ☀️💧 Sun and Water Requirements:
+  ✂️ Propagation:
+  - Hardwood cuttings taken in dormancy, callus in moist medium, pot before spring flush.
+  - Layering low canes to soil in early spring; sever when rooted.
+  - Seeds require cold-moist stratification and years to fruit—clonal methods are practical.
 
-    - Full sun for heaviest fruiting; tolerates partial shade with fewer clusters.
-
-    - Drought tolerant once established in deep sand; young vines need regular water.
-
-    - Well-drained to sandy-loam soils; tolerates poor rocky ground if roots can run.
-
-
-    ✂️ Propagation:
-
-    - Hardwood cuttings taken in dormancy, callus in moist medium, pot before spring flush.
-
-    - Layering low canes to soil in early spring; sever when rooted.
-
-    - Seeds require cold-moist stratification and years to fruit—clonal methods are practical.
-
-
-    🌾 Harvest / Best Use Timing:
-
-    - Pick fruit when fully colored and slightly soft, usually mid to late summer into early autumn by climate.
-
-    - Heat with sugar and strain for jelly, syrup, or wild-ferment experiments—skins are tannic.
-
-    - Prune in winter to limit weight on supports and improve air circulation.'
-  purpose: |-
-    Edible: Small Vitis mustangensis berries stay musky-tannic raw but juice into intense jellies, shrubs, and country wines after heat, sugar, and straining -- pick fully colored, slightly soft clusters mid-to-late warm season before birds take the tax.
-    Wildlife Attractor: Dark fruit feeds foxes, raccoons, and songbirds; tangled deciduous canopy gives catbirds and cardinals nesting cover along humid woodland margins -- expect heavy wildlife tax unless you net choice clusters.
-    Shade Provider: Thick summer leaf wall on pergolas, arbors, or livestock lanes cuts west-wall heat load and afternoon glare -- winter dormancy returns light, so pair with evergreen understory where year-round shade is mandatory.
-  companions:
-  - Sand Live Oak — sturdy limbs support heavy vine weight along fencerows
-  - Southern Red Cedar — rough bark accepts tendrils where posts are scarce
-  - Roughleaf Dogwood — shrubby edge lifts fruiting wood toward light
-  cautions:
-  - None documented
-  pests:
-  - Japanese Beetles
-  - Powdery Mildew
-  - Scale Insects
-  - Spotted Lanternfly
-  practitioner_notes: 'Jelly makers learn fast that “edible fresh” and “edible honest” differ—cooking tames the wild tannin
-    choir.
-
-    Winter pruning is non-negotiable on pergolas; summer weight snaps lumber like cheap ethics.
-
-    Label jars “mustang” if other grapes grow nearby—ferment surprises belong in stories, not pantries.'
-  growth_habit: Woody deciduous vine climbing tens of feet with shreddy bark on old stems
-  data_quality_score: 0.78
+  🌾 Harvest / Best Use Timing:
+  - Pick fruit when fully colored and slightly soft, usually mid to late summer into early autumn by climate.
+  - Heat with sugar and strain for jelly, syrup, or wild-ferment experiments—skins are tannic.
+  - Prune in winter to limit weight on supports and improve air circulation.
+purpose: |-
+  Edible: Small Vitis mustangensis berries stay musky-tannic raw but juice into intense jellies, shrubs, and country wines after heat, sugar, and straining -- pick fully colored, slightly soft clusters mid-to-late warm season before birds take the tax.
+  Wildlife Attractor: Dark fruit feeds foxes, raccoons, and songbirds; tangled deciduous canopy gives catbirds and cardinals nesting cover along humid woodland margins -- expect heavy wildlife tax unless you net choice clusters.
+  Shade Provider: Thick summer leaf wall on pergolas, arbors, or livestock lanes cuts west-wall heat load and afternoon glare -- winter dormancy returns light, so pair with evergreen understory where year-round shade is mandatory.
+companions:
+- Sand Live Oak — sturdy limbs support heavy vine weight along fencerows
+- Southern Red Cedar — rough bark accepts tendrils where posts are scarce
+- Roughleaf Dogwood — shrubby edge lifts fruiting wood toward light
+cautions:
+- None documented
+pests:
+- Japanese Beetles
+- Scale Insects
+growth_habit: Woody deciduous vine climbing tens of feet with shreddy bark on old
+  stems
+data_quality_score: 0.78
+diseases:
+- Powdery Mildew
+- Spotted Lanternfly

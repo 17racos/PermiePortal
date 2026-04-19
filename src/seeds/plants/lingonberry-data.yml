@@ -1,75 +1,59 @@
----
-- common_name: Lingonberry
-  picture: lingonberry.webp
-  scientific_name: Vaccinium vitis-idaea
-  aka:
-  - Cowberry
-  - Lowbush cranberry (regional)
-  family: Ericaceae
-  zone: 2-7
-  ideal_temp_min: 40
-  ideal_temp_max: 70
-  min_temp: -40
-  max_temp: 85
-  perennial: true
-  layers:
-  - Shrub
-  - Ground Cover
-  plant_function:
-  - Edible
-  - Ground Cover
-  - Wildlife Attractor
-  - Ornamental
-  description: 'Lingonberry (Vaccinium vitis-idaea) is a low evergreen subshrub of cold boreal and montane heaths, forming
-    mats with leathery leaves, pale bell flowers, and tart red berries famous in Nordic kitchens. Height is usually under
-    1 foot (0.3 m) with creeping stems. It suits acidic edible groundcovers, rock gardens in cool climates, and container
-    culture where pH and drainage are controlled honestly.
+common_name: Lingonberry
+picture: lingonberry.webp
+scientific_name: Vaccinium vitis-idaea
+aka:
+- Cowberry
+- Lowbush cranberry (regional)
+family: Ericaceae
+zone: 2-7
+ideal_temp_min: 40
+ideal_temp_max: 70
+min_temp: -40
+max_temp: 85
+perennial: true
+layers:
+- Shrub
+- Ground Cover
+plant_function:
+- Edible
+- Ground Cover
+- Wildlife Attractor
+- Ornamental
+description: |-
+  Lingonberry (Vaccinium vitis-idaea) is a low evergreen subshrub of cold boreal and montane heaths, forming mats with leathery leaves, pale bell flowers, and tart red berries famous in Nordic kitchens. Height is usually under 1 foot (0.3 m) with creeping stems. It suits acidic edible groundcovers, rock gardens in cool climates, and container culture where pH and drainage are controlled honestly.
 
+  ☀️💧 Sun and Water Requirements:
+  Full sun in cool summers; partial shade where heat spikes. Moist, acidic, well-drained organic soils; tolerates short dry periods in cool air but not droughty heat. Avoid lime and alkaline water that chloroses Ericaceae into yellow ghosts.
 
-    ☀️💧 Sun and Water Requirements:
+  ✂️ Propagation:
+  Layer low stems onto moist peat-sand; hold until rooted. Sow seed after cold stratification; slow but possible. Divide small clumps in early spring with minimal root disturbance.
 
-    Full sun in cool summers; partial shade where heat spikes. Moist, acidic, well-drained organic soils; tolerates short
-    dry periods in cool air but not droughty heat. Avoid lime and alkaline water that chloroses Ericaceae into yellow ghosts.
-
-
-    ✂️ Propagation:
-
-    Layer low stems onto moist peat-sand; hold until rooted. Sow seed after cold stratification; slow but possible. Divide
-    small clumps in early spring with minimal root disturbance.
-
-
-    🌾 Harvest / Best Use Timing:
-
-    Berries ripen late in the short season; flavor improves after frost in many sites. Pick for sauce, jam, or drying—birds
-    compete, so schedule honestly. Prune old wood lightly after harvest to renew vigor.'
-  purpose: |-
-    Edible: Vaccinium vitis-idaea holds tart red berries into winter after frost sweetens acids -- simmer into Swedish-style sauces or dry slowly because water content is low compared with highbush blueberries.
-    Ground Cover: Creeping stems form evergreen mats under ericaceous shrubs -- acidic pH and pine duff matter more than irrigation schedules; alkaline water chloroses leaves fast.
-    Wildlife Attractor: Lingon feeds grouse, thrushes, and small mammals across boreal floors -- net or pick early if human pantry goals conflict with migrating flocks.
-    Ornamental: Waxy leaves and persistent fruit read jewel-like against snow -- use in rock gardens where sun stays cool enough to prevent summer scorch on southern aspects.
-  companions:
-  - Lowbush Cranberry — related Ericaceous fruiting neighbor with overlapping pH needs
-  - Yarrow — insectary forb at the sunnier edge without shading the mat
-  - Highbush Cranberry — taller viburnum layer outside the acidic mat for vertical structure
-  cautions:
-  - Heat and humidity — often struggles south of its comfort band no matter how much you cheer
-  - High pH water — chronic iron chlorosis; fix water or choose different crops
-  pests:
-  - Aphids
-  - Azalea Caterpillar
-  - Blueberry Maggot
-  - Cranberry Fruitworm
-  - Cranberry Tipworm
-  - Sparganothis Fruitworm
-  - Spider Mites
-  - Strawberry Root Weevil
-  - Vine Weevil
-  practitioner_notes: 'Two sexes on some clones—yield improves with partners; solo mats sulk quietly.
-
-    Berries are tart truth—sugar in the pot, not denial in the mouth.
-
-    Peat ethics matter—mimic structure with local coarse organics when possible.
-
-    Container lingon is a chemistry lab—test pH like you mean it.'
-  growth_habit: Low evergreen Ericaceous subshrub; red tart berries; cold heath and woodland soils
-  data_quality_score: 0.82
+  🌾 Harvest / Best Use Timing:
+  Berries ripen late in the short season; flavor improves after frost in many sites. Pick for sauce, jam, or drying—birds compete, so schedule honestly. Prune old wood lightly after harvest to renew vigor.
+purpose: |-
+  Edible: Vaccinium vitis-idaea holds tart red berries into winter after frost sweetens acids -- simmer into Swedish-style sauces or dry slowly because water content is low compared with highbush blueberries.
+  Ground Cover: Creeping stems form evergreen mats under ericaceous shrubs -- acidic pH and pine duff matter more than irrigation schedules; alkaline water chloroses leaves fast.
+  Wildlife Attractor: Lingon feeds grouse, thrushes, and small mammals across boreal floors -- net or pick early if human pantry goals conflict with migrating flocks.
+  Ornamental: Waxy leaves and persistent fruit read jewel-like against snow -- use in rock gardens where sun stays cool enough to prevent summer scorch on southern aspects.
+companions:
+- Lowbush Cranberry — related Ericaceous fruiting neighbor with overlapping pH needs
+- Yarrow — insectary forb at the sunnier edge without shading the mat
+- Highbush Cranberry — taller viburnum layer outside the acidic mat for vertical structure
+cautions:
+- Heat and humidity — often struggles south of its comfort band no matter how much
+  you cheer
+- High pH water — chronic iron chlorosis; fix water or choose different crops
+pests:
+- Aphids
+- Blueberry Maggot
+- Cranberry Fruitworm
+- Cranberry Tipworm
+- Sparganothis Fruitworm
+- Spider Mites
+- Strawberry Root Weevil
+- Vine Weevil
+growth_habit: Low evergreen Ericaceous subshrub; red tart berries; cold heath and
+  woodland soils
+data_quality_score: 0.82
+animal_pressure:
+- Azalea Caterpillar

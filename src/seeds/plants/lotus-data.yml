@@ -1,53 +1,56 @@
----
-- common_name: Lotus
-  picture: lotus.webp
-  scientific_name: Nelumbo nucifera
-  aka:
-  - Sacred lotus
-  - Asian lotus
-  family: Nelumbonaceae
-  zone: 4-11
-  ideal_temp_min: 75
-  ideal_temp_max: 95
-  min_temp: -20
-  max_temp: 105
-  perennial: true
-  layers:
-  - Aquatic
-  plant_function:
-  - Edible
-  - Ornamental
-  - Water Purifier
-  - Wildlife Attractor
-  description: "Lotus is the poster child for emergent aquatics—huge peltate leaves,
-    flowers that look like they hired a stylist, and rhizomes humans have eaten for millennia
-    when prepared correctly. Nelumbo lutea is the yellow American cousin; nucifera is
-    the pink/white cultigen complex most people picture.\n\nPick hardy cultivars for outdoor ponds in 8b/9a; tropical types need winter protection
-    or greenhouse tubs. Deep water over rhizomes reduces temperature swings.\n\n☀️💧 Sun and Water Requirements:\n\nFull sun for bloom.\nShallow to moderate depth over rich mud; calm water—lotus
-    hates chop like a bad hair day.\n\n✂️ Propagation:\n\nDivision of rhizome sections with
-    growing tips; seed scarification and patience for the botanically stubborn.\n\n🌾 Harvest / Best Use Timing:\n\nDig rhizomes and gather seeds when traditional processing steps are understood; young stems only with positive ID and kitchen knowledge."
-  purpose: |-
-    Edible: Nelumbo nucifera rhizomes starch like potatoes when cooked through, while seeds need scarification and roasting knowledge -- young stems enter Asian stir-fry only with positive ID and clean water.
-    Ornamental: Peltate leaves and pink-white flowers taller than the waterline read temple formal -- site in wide tubs so rhizomes cannot crack concrete liners from inside.
-    Water Purifier: Rapid growth locks nitrogen and phosphorus into leaf and rhizome tissue -- harvest biomass or you trade algae blooms for lotus monoculture.
-    Wildlife Attractor: Flowers feed beetles and bees while pads give perch for dragonflies -- fish balance matters; koi without rock barriers shred fresh rhizome tips.
-  companions:
-  - Duck potato
-  - Pickerelweed
-  - Fish that balance algae—not koi demolition crews
-  cautions:
-  - Koi without rock protection for rhizomes
-  - Moving water that prevents leaf emergence
-  pests:
-  - aphids
-  - caterpillars
-  - Snails
-  practitioner_notes: |-
-    Seeds stay viable centuries—scarify or file the coat before warm water soak.
-    Tubers break if bent—harvest mud-to-mud in cool weather for kitchen use.
-    Leaves repel water; oil films from sunscreen or diesel on ponds wreck the effect and stress plants.
-  growth_habit: Rhizomatous aquatic perennial with emergent leaves and flowers
-  data_quality_score: 0.76
-  # Image attribution: (c) Joey Santore, some rights reserved (CC BY-NC), uploaded by Joey Santore
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+common_name: Lotus
+picture: lotus.webp
+scientific_name: Nelumbo nucifera
+aka:
+- Sacred lotus
+- Asian lotus
+family: Nelumbonaceae
+zone: 4-11
+ideal_temp_min: 75
+ideal_temp_max: 95
+min_temp: -20
+max_temp: 105
+perennial: true
+layers:
+- Aquatic
+plant_function:
+- Edible
+- Ornamental
+- Water Purifier
+- Wildlife Attractor
+description: |-
+  Lotus is the poster child for emergent aquatics—huge peltate leaves, flowers that look like they hired a stylist, and rhizomes humans have eaten for millennia when prepared correctly. Nelumbo lutea is the yellow American cousin; nucifera is the pink/white cultigen complex most people picture.
+
+  Pick hardy cultivars for outdoor ponds in 8b/9a; tropical types need winter protection or greenhouse tubs. Deep water over rhizomes reduces temperature swings.
+
+  ☀️💧 Sun and Water Requirements:
+
+  Full sun for bloom.
+  Shallow to moderate depth over rich mud; calm water—lotus hates chop like a bad hair day.
+
+  ✂️ Propagation:
+
+  Division of rhizome sections with growing tips; seed scarification and patience for the botanically stubborn.
+
+  🌾 Harvest / Best Use Timing:
+
+  Dig rhizomes and gather seeds when traditional processing steps are understood; young stems only with positive ID and kitchen knowledge.
+purpose: |-
+  Edible: Nelumbo nucifera rhizomes starch like potatoes when cooked through, while seeds need scarification and roasting knowledge -- young stems enter Asian stir-fry only with positive ID and clean water.
+  Ornamental: Peltate leaves and pink-white flowers taller than the waterline read temple formal -- site in wide tubs so rhizomes cannot crack concrete liners from inside.
+  Water Purifier: Rapid growth locks nitrogen and phosphorus into leaf and rhizome tissue -- harvest biomass or you trade algae blooms for lotus monoculture.
+  Wildlife Attractor: Flowers feed beetles and bees while pads give perch for dragonflies -- fish balance matters; koi without rock barriers shred fresh rhizome tips.
+companions:
+- Duck potato
+- Pickerelweed
+- Fish that balance algae—not koi demolition crews
+cautions:
+- Koi without rock protection for rhizomes
+- Moving water that prevents leaf emergence
+pests:
+- aphids
+- Snails
+growth_habit: Rhizomatous aquatic perennial with emergent leaves and flowers
+data_quality_score: 0.76
+animal_pressure:
+- caterpillars

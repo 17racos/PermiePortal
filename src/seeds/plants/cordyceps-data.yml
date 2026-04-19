@@ -1,79 +1,63 @@
----
-- common_name: Cordyceps
-  picture: cordyceps.webp
-  scientific_name: Cordyceps militaris
-  aka:
-  - Orange Caterpillar Fungus
-  - Scarlet Club Fungus
-  family: Cordycipitaceae
-  zone: 5-11
-  ideal_temp_min: 60
-  ideal_temp_max: 75
-  min_temp: 40
-  max_temp: 85
-  perennial: false
-  layers:
-  - Fungal
-  plant_function:
-  - Medicinal
-  - Pest Management
-  - Soil Builder
-  - Decomposer
-  description: |-
-    Cordyceps militaris is the cultivated species — not the cinematic zombie-ant fungus (that is Ophiocordyceps unilateralis), though the genus earns its reputation for strange life cycles. Wild C. militaris parasitizes moth and butterfly pupae; cultivated production skips the insect entirely and runs on sterile grain or rice substrate in filtered-air grow rooms. This is not a back-porch trellis crop. Subtropical outdoor cultivation is not viable for consistent fruiting bodies; if you want the orange clubs, buy cultures from experienced labs and expect closet-to-tent energy, not garden bed simplicity.
-    
-    ☀️💧 Sun and Water:
-    - Indoor cultivation: dark or indirect light during colonization, then introduce diffuse light to trigger pinning.
-    - High humidity (85-95%) for pinning; reduce slightly during fruiting to limit bacterial contamination.
-    - Fresh air exchange is critical — CO₂ accumulation stalls clubs and encourages aborts.
-    
-    ✂️ Propagation:
-    - Liquid culture or agar to grain spawn to fruiting substrate (rice, grain, or silkworm pupae in commercial operations).
-    - Do not attempt to transfer wild insect mummies — contamination risk is high and results are not worth the cost.
-    
-    🌾 Harvest / Best Use Timing:
-    - Wild cordyceps timing is a high-elevation specialist story -- ethical sourcing beats backyard fantasies in most Americas sites.
-    - Lab-cultured mycelium products follow processor guidance, not field calendars.
-    - If experimenting with insect-host models, containment and identification discipline come before marketing copy.
-  purpose: |-
-    Medicinal: Dried stromata enter East Asian materia medica as a lung and kidney tonic; lab-cultured Cordyceps militaris is what most supplement bottles actually contain.
-    Pest Management: Wild mycelium parasitizes pupating moths and beetles, trimming insect populations in forest duff without any garden spraying.
-    Soil Builder: Spent sterile grain blocks inoculated with Cordyceps compost into high-carbon substrate for mushroom beds once fruiting is finished.
-    Decomposer: White mycelium finishes digesting insect tissue and cereal media, returning amino acids and chitin back to the compost microfauna web.
-  substrate:
-  - Sterilized grain (brown rice, millet, wheat)
-  - Silkworm pupae (commercial operations)
-  - Sawdust/rice bran blend (advanced)
-  mycelium_type: Entomopathogenic parasite in nature; saprobic on sterilized grain
-    in cultivation
-  fruiting_season: Indoor year-round with controlled environment; 60-90 day grow
-    cycles
-  cultivation_difficulty: Advanced — requires sterile technique and environmental
-    controls
-  spawn_type: Liquid culture or grain spawn; agar transfers for genetics preservation
-  companions:
-  - Ophiocordyceps host insects -- parasitizes specific insect larvae in forest soil
-  - Oak -- forest floor habitat where host insects pupate
-  - Pine -- conifer duff provides the moist habitat for host arthropod lifecycles
-  cautions:
-  - Open-air cultivation is not viable — contamination rates will be near 100%
-  - Do not confuse with Ophiocordyceps species; taxonomy has shifted significantly
-  pests:
-  - Fungus Gnats
-  - Mites
-  practitioner_notes: |-
-    Sterility is the entire job — every shortcut in prep shows up as Trichoderma
-    or bacterial slime within a week.
-    Full grain colonization before fruiting conditions is non-negotiable; rushing
-    to pinning stage yields stunted, aborted clubs.
-    CO₂ management is the most common failure point in tents — fresh air exchange
-    beats humidity obsession every time.
-    Log fruiting parameters from every batch; small environmental variables compound
-    across cycles and you cannot fix what you did not track.
-    Yellow sticky cards plus top-dry substrate cycles beat drowning your jars in
-    misdirected kindness when gnats appear.
-  growth_habit: Entomopathogenic in nature; cultivated on sterilized grain substrates
-    indoors
-  data_quality_score: 0.77
-  # Image attribution: No image found
-  # Image source: none
+common_name: Cordyceps
+picture: cordyceps.webp
+scientific_name: Cordyceps militaris
+aka:
+- Orange Caterpillar Fungus
+- Scarlet Club Fungus
+family: Cordycipitaceae
+zone: 5-11
+ideal_temp_min: 60
+ideal_temp_max: 75
+min_temp: 40
+max_temp: 85
+perennial: false
+layers:
+- Fungal
+plant_function:
+- Medicinal
+- Pest Management
+- Soil Builder
+- Decomposer
+description: |-
+  Cordyceps militaris is the cultivated species — not the cinematic zombie-ant fungus (that is Ophiocordyceps unilateralis), though the genus earns its reputation for strange life cycles. Wild C. militaris parasitizes moth and butterfly pupae; cultivated production skips the insect entirely and runs on sterile grain or rice substrate in filtered-air grow rooms. This is not a back-porch trellis crop. Subtropical outdoor cultivation is not viable for consistent fruiting bodies; if you want the orange clubs, buy cultures from experienced labs and expect closet-to-tent energy, not garden bed simplicity.
+
+  ☀️💧 Sun and Water:
+  - Indoor cultivation: dark or indirect light during colonization, then introduce diffuse light to trigger pinning.
+  - High humidity (85-95%) for pinning; reduce slightly during fruiting to limit bacterial contamination.
+  - Fresh air exchange is critical — CO₂ accumulation stalls clubs and encourages aborts.
+
+  ✂️ Propagation:
+  - Liquid culture or agar to grain spawn to fruiting substrate (rice, grain, or silkworm pupae in commercial operations).
+  - Do not attempt to transfer wild insect mummies — contamination risk is high and results are not worth the cost.
+
+  🌾 Harvest / Best Use Timing:
+  - Wild cordyceps timing is a high-elevation specialist story -- ethical sourcing beats backyard fantasies in most Americas sites.
+  - Lab-cultured mycelium products follow processor guidance, not field calendars.
+  - If experimenting with insect-host models, containment and identification discipline come before marketing copy.
+purpose: |-
+  Medicinal: Dried stromata enter East Asian materia medica as a lung and kidney tonic; lab-cultured Cordyceps militaris is what most supplement bottles actually contain.
+  Pest Management: Wild mycelium parasitizes pupating moths and beetles, trimming insect populations in forest duff without any garden spraying.
+  Soil Builder: Spent sterile grain blocks inoculated with Cordyceps compost into high-carbon substrate for mushroom beds once fruiting is finished.
+  Decomposer: White mycelium finishes digesting insect tissue and cereal media, returning amino acids and chitin back to the compost microfauna web.
+substrate:
+- Sterilized grain (brown rice, millet, wheat)
+- Silkworm pupae (commercial operations)
+- Sawdust/rice bran blend (advanced)
+mycelium_type: Entomopathogenic parasite in nature; saprobic on sterilized grain in
+  cultivation
+fruiting_season: Indoor year-round with controlled environment; 60-90 day grow cycles
+cultivation_difficulty: Advanced — requires sterile technique and environmental controls
+spawn_type: Liquid culture or grain spawn; agar transfers for genetics preservation
+companions:
+- Ophiocordyceps host insects -- parasitizes specific insect larvae in forest soil
+- Oak -- forest floor habitat where host insects pupate
+- Pine -- conifer duff provides the moist habitat for host arthropod lifecycles
+cautions:
+- Open-air cultivation is not viable — contamination rates will be near 100%
+- Do not confuse with Ophiocordyceps species; taxonomy has shifted significantly
+pests:
+- Fungus Gnats
+- Mites
+growth_habit: Entomopathogenic in nature; cultivated on sterilized grain substrates
+  indoors
+data_quality_score: 0.77

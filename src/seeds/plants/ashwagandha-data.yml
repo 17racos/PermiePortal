@@ -1,91 +1,75 @@
----
-- common_name: Ashwagandha
-  picture: ashwagandha.webp
-  scientific_name: Withania somnifera
-  aka:
-  - Indian Ginseng
-  - Winter Cherry
-  family: Solanaceae
-  zone: 9-12
-  ideal_temp_min: 65
-  ideal_temp_max: 85
-  min_temp: 50
-  max_temp: 100
-  perennial: true
-  layers:
-  - Herbaceous
-  plant_function:
-  - Medicinal
-  - Wildlife Attractor
-  - Erosion Control
-  - Dynamic Accumulator
-  description: 'Ashwagandha is a small, woody shrub native to India, the Middle East, and parts of Africa. It grows up to
-    1.5 meters (5 feet) tall, featuring elliptical green leaves and small, bell-shaped yellow flowers that develop into red
-    berry-like fruits. The plant is highly valued in Ayurvedic medicine for its adaptogenic properties, which help the body
-    manage stress. It prefers warm, arid climates with well-drained soil and thrives in poor, sandy soils.
+common_name: Ashwagandha
+picture: ashwagandha.webp
+scientific_name: Withania somnifera
+aka:
+- Indian Ginseng
+- Winter Cherry
+family: Solanaceae
+zone: 9-12
+ideal_temp_min: 65
+ideal_temp_max: 85
+min_temp: 50
+max_temp: 100
+perennial: true
+layers:
+- Herbaceous
+plant_function:
+- Medicinal
+- Wildlife Attractor
+- Erosion Control
+- Dynamic Accumulator
+description: |-
+  Ashwagandha is a small, woody shrub native to India, the Middle East, and parts of Africa. It grows up to 1.5 meters (5 feet) tall, featuring elliptical green leaves and small, bell-shaped yellow flowers that develop into red berry-like fruits. The plant is highly valued in Ayurvedic medicine for its adaptogenic properties, which help the body manage stress. It prefers warm, arid climates with well-drained soil and thrives in poor, sandy soils.
 
+  🌞💧 Sun and Water Requirements:
+  Ashwagandha requires full sun and prefers dry to moderately moist conditions. It is drought-tolerant once established and does not require frequent watering. Overwatering can lead to root rot.
 
-    🌞💧 Sun and Water Requirements:
+  ✂️🫘 Methods to Propagate:
+  Ashwagandha is propagated through seeds. Sow seeds directly into well-drained soil after the last frost when temperatures remain above 20°C (68°F). Germination occurs in 2–3 weeks. Transplant seedlings once they are strong enough to handle.
 
-    Ashwagandha requires full sun and prefers dry to moderately moist conditions. It is drought-tolerant once established
-    and does not require frequent watering. Overwatering can lead to root rot.
-
-
-    ✂️🫘 Methods to Propagate:
-
-    Ashwagandha is propagated through seeds. Sow seeds directly into well-drained soil after the last frost when temperatures
-    remain above 20°C (68°F). Germination occurs in 2–3 weeks. Transplant seedlings once they are strong enough to handle.
-
-
-    🧑‍🌾👩‍🌾 When to Harvest:
-
-    The roots are harvested in late fall or early winter, around 150-180 days after planting, once the foliage starts to dry
-    and die back. Dig carefully to extract the long, tuberous roots without damage.'
-  purpose: |-
-    Medicinal: Withania somnifera root is the Ayurvedic adaptogen standard, with human trials on cortisol and sleep latency using standardized extracts -- whole-root powder potency swings by age and drought; pregnancy and thyroid medication interactions are documented deal-breakers.
-    Wildlife Attractor: Small greenish-yellow bells hide under leaves yet still supply pollen to small bees in dry-season mornings when showier beds are dormant -- red berries feed birds; treat them as wildlife calories, not casual human dessert without a vetted recipe.
-    Erosion Control: Lignified crown and long tapering root wedge into coarse sand or gravel berms where shallow-rooted annuals wash out -- survives lean monsoon bursts that rot tomatoes in the same row.
-    Dynamic Accumulator: Drought-hardened leaves concentrate potassium and nitrate in tissue by senescence -- cutting frost-killed tops onto mulch rings returns that ash-weight chemistry to the surface above sleeping roots for the next wet cycle.
-  companions:
-  - Basil
-  - Marigold
-  - Holy Basil
-  cautions:
-  - Tomato
-  - Eggplant
-  - Potato
-  pests:
-  - Andean Potato Weevil
-  - Broad Mite
-  - Brown Marmorated Stink Bug
-  - Colorado Potato Beetle
-  - Corn Earworm
-  - Cyclamen Mite
-  - Flea Beetles
-  - Fusarium Wilt
-  - Greenhouse Whitefly
-  - Late Blight
-  - Leaf Curl
-  - Leaf Spot
-  - Leafhoppers
-  - Pepper Weevil
-  - Potato Scab
-  - Pythium Root Rot
-  - Reniform Nematode
-  - Root Aphid
-  - Rootknot Nematodes
-  - Shore Fly
-  - Spotted Cucumber Beetle
-  - Stink Bug
-  - Tobacco Budworm
-  - Tomato Hornworms
-  - Whiteflies
-  - Wireworm
-  practitioner_notes: 'Roots for traditional use are usually dug after one to two growing seasons—older plants turn woody
-    with less uniform roots.
-
-    Red berries are showy bird food; do not assume they are human snacks without documented preparation.
-
-    Drought stress increases alkaloid edge in leaves—irrigate if you want milder leaf trials, not crispy drama.'
-  growth_habit: Tree
-  data_quality_score: 0.8
+  🧑‍🌾👩‍🌾 When to Harvest:
+  The roots are harvested in late fall or early winter, around 150-180 days after planting, once the foliage starts to dry and die back. Dig carefully to extract the long, tuberous roots without damage.
+purpose: |-
+  Medicinal: Withania somnifera root is the Ayurvedic adaptogen standard, with human trials on cortisol and sleep latency using standardized extracts -- whole-root powder potency swings by age and drought; pregnancy and thyroid medication interactions are documented deal-breakers.
+  Wildlife Attractor: Small greenish-yellow bells hide under leaves yet still supply pollen to small bees in dry-season mornings when showier beds are dormant -- red berries feed birds; treat them as wildlife calories, not casual human dessert without a vetted recipe.
+  Erosion Control: Lignified crown and long tapering root wedge into coarse sand or gravel berms where shallow-rooted annuals wash out -- survives lean monsoon bursts that rot tomatoes in the same row.
+  Dynamic Accumulator: Drought-hardened leaves concentrate potassium and nitrate in tissue by senescence -- cutting frost-killed tops onto mulch rings returns that ash-weight chemistry to the surface above sleeping roots for the next wet cycle.
+companions:
+- Basil
+- Marigold
+- Holy Basil
+cautions:
+- Tomato
+- Eggplant
+- Potato
+pests:
+- Andean Potato Weevil
+- Broad Mite
+- Colorado Potato Beetle
+- Corn Earworm
+- Cyclamen Mite
+- Flea Beetles
+- Greenhouse Whitefly
+- Leaf Curl
+- Leafhoppers
+- Pepper Weevil
+- Potato Scab
+- Reniform Nematode
+- Root Aphid
+- Rootknot Nematodes
+- Shore Fly
+- Stink Bug
+- Tobacco Budworm
+- Tomato Hornworms
+- Whiteflies
+- Wireworm
+growth_habit: Tree
+data_quality_score: 0.8
+diseases:
+- Fusarium Wilt
+- Late Blight
+- Leaf Spot
+- Pythium Root Rot
+- Spotted Cucumber Beetle
+animal_pressure:
+- Brown Marmorated Stink Bug

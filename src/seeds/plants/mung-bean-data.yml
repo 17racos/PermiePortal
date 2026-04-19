@@ -1,93 +1,75 @@
----
-- common_name: Mung Bean
-  picture: mung_bean.webp
-  scientific_name: Vigna radiata
-  aka:
-  - Green Gram
-  - Golden Gram
-  family: Fabaceae
-  zone: 6-13
-  ideal_temp_min: 65
-  ideal_temp_max: 85
-  min_temp: 50
-  max_temp: 95
-  perennial: false
-  layers:
-  - Herbaceous
-  plant_function:
-  - Edible
-  - Nitrogen Fixer
-  - Ground Cover
-  description: 'Mung bean (*Vigna radiata*), also known as green gram, is an annual vine with yellow flowers and fuzzy brown
-    pods. It reaches heights between 15–125 cm (6–49 inches). The plant has a well-developed root system with numerous slender
-    lateral roots bearing nodules that facilitate nitrogen fixation. Stems are highly branched, sometimes twining at the tips,
-    and can be purple or green when young, maturing to grayish-yellow or brown. Leaves are ovate, measuring 6–12 cm in length
-    and 5–10 cm in width. The plant produces racemes with yellow flowers, leading to elongated cylindrical pods containing
-    12–14 seeds each. These seeds vary in color—green, yellow, brown, or blue—and can be either cylindrical or spherical in
-    shape.
+common_name: Mung Bean
+picture: mung_bean.webp
+scientific_name: Vigna radiata
+aka:
+- Green Gram
+- Golden Gram
+family: Fabaceae
+zone: 6-13
+ideal_temp_min: 65
+ideal_temp_max: 85
+min_temp: 50
+max_temp: 95
+perennial: false
+layers:
+- Herbaceous
+plant_function:
+- Edible
+- Nitrogen Fixer
+- Ground Cover
+description: |-
+  Mung bean (*Vigna radiata*), also known as green gram, is an annual vine with yellow flowers and fuzzy brown pods. It reaches heights between 15–125 cm (6–49 inches). The plant has a well-developed root system with numerous slender lateral roots bearing nodules that facilitate nitrogen fixation. Stems are highly branched, sometimes twining at the tips, and can be purple or green when young, maturing to grayish-yellow or brown. Leaves are ovate, measuring 6–12 cm in length and 5–10 cm in width. The plant produces racemes with yellow flowers, leading to elongated cylindrical pods containing 12–14 seeds each. These seeds vary in color—green, yellow, brown, or blue—and can be either cylindrical or spherical in shape.
 
+  🌞💧 **Sun and Water Requirements:**
+  Mung beans thrive in full sun and require well-drained soil with consistent moisture. They are drought-tolerant but perform best with regular watering, especially during flowering and pod development.
 
-    🌞💧 **Sun and Water Requirements:**
+  ✂️🫘 **Methods to Propagate:**
+  Propagation is primarily through direct seeding. Sow seeds 2.5–5 cm deep in warm soil after the last frost. Germination occurs within 4–5 days under optimal conditions.
 
-    Mung beans thrive in full sun and require well-drained soil with consistent moisture. They are drought-tolerant but perform
-    best with regular watering, especially during flowering and pod development.
-
-
-    ✂️🫘 **Methods to Propagate:**
-
-    Propagation is primarily through direct seeding. Sow seeds 2.5–5 cm deep in warm soil after the last frost. Germination
-    occurs within 4–5 days under optimal conditions.
-
-
-    🧑‍🌾👩‍🌾 **When to Harvest:**
-
-    Harvest occurs approximately 60–70 days after planting. Pods are ready when they turn brown and dry. For sprout production,
-    seeds can be harvested earlier and germinated indoors.'
-  purpose: |-
-    Edible: Small green Vigna radiata seeds cook quickly as dal, noodle sprouts, and sweet Asian pastes while yellow-seeded lines suit flour and confection -- pods mature unevenly in about 60–70 warm days, so pick dry brown cylinders before shatter drops seed in the row.
-    Nitrogen Fixer: Cowpea-group rhizobia nodulate the branched root system, leaving residual nitrate for the following cereal or solanum crop when vines are incorporated green -- inoculate with the correct strain on new ground so nodules fill instead of staying empty ornaments.
-    Ground Cover: Low-branching annual vines with trifoliate leaves shade soil between summer vegetables, smothering late-germinating weeds once rows close -- best after soil stays above 65°F (18°C) so seed rots do not erase the stand.
-  companions:
-  - Corn
-  - Cucumber
-  - Eggplant
-  cautions:
-  - Onion
-  - Garlic
-  pests:
-  - Aphids
-  - Banded Cucumber Beetle
-  - Bean Aphid
-  - Bean Leaf Beetle
-  - Bean Weevil
-  - Brown Marmorated Stink Bug
-  - Corn Earworm
-  - Cowpea Curculio
-  - Fall Armyworm
-  - Fusarium Wilt
-  - Ganoderma Butt Rot
-  - Harlequin Ladybird
-  - Kudzu Bug
-  - Leafhoppers
-  - Locust Borer
-  - Locust Leaf Miner
-  - Lubber Grasshopper
-  - Pea Moth
-  - Pea Weevil
-  - Pythium Root Rot
-  - Reniform Nematode
-  - Root Aphid
-  - Soybean Looper
-  - Spittlebugs
-  - Spotted Cucumber Beetle
-  - Stink Bug
-  - Striped Cucumber Beetle
-  - Velvetbean Caterpillar
-  - White Rot
-  practitioner_notes: 'Sprouting for food needs clean water changes—stagnant jars grow bacteria, not crunch.
-
-    Pods mature unevenly—pick dry brown pods every few days or they shatter.
-
-    Heat-loving; cool soil rots seed—wait until soil stays above 65°F (18°C).'
-  growth_habit: Tree
-  data_quality_score: 0.8
+  🧑‍🌾👩‍🌾 **When to Harvest:**
+  Harvest occurs approximately 60–70 days after planting. Pods are ready when they turn brown and dry. For sprout production, seeds can be harvested earlier and germinated indoors.
+purpose: |-
+  Edible: Small green Vigna radiata seeds cook quickly as dal, noodle sprouts, and sweet Asian pastes while yellow-seeded lines suit flour and confection -- pods mature unevenly in about 60–70 warm days, so pick dry brown cylinders before shatter drops seed in the row.
+  Nitrogen Fixer: Cowpea-group rhizobia nodulate the branched root system, leaving residual nitrate for the following cereal or solanum crop when vines are incorporated green -- inoculate with the correct strain on new ground so nodules fill instead of staying empty ornaments.
+  Ground Cover: Low-branching annual vines with trifoliate leaves shade soil between summer vegetables, smothering late-germinating weeds once rows close -- best after soil stays above 65°F (18°C) so seed rots do not erase the stand.
+companions:
+- Corn
+- Cucumber
+- Eggplant
+cautions:
+- Onion
+- Garlic
+pests:
+- Aphids
+- Banded Cucumber Beetle
+- Bean Aphid
+- Bean Leaf Beetle
+- Bean Weevil
+- Corn Earworm
+- Cowpea Curculio
+- Fall Armyworm
+- Kudzu Bug
+- Leafhoppers
+- Locust Borer
+- Locust Leaf Miner
+- Lubber Grasshopper
+- Pea Moth
+- Pea Weevil
+- Reniform Nematode
+- Root Aphid
+- Soybean Looper
+- Spittlebugs
+- Stink Bug
+- Striped Cucumber Beetle
+growth_habit: Tree
+data_quality_score: 0.8
+diseases:
+- Fusarium Wilt
+- Ganoderma Butt Rot
+- Pythium Root Rot
+- Spotted Cucumber Beetle
+- White Rot
+animal_pressure:
+- Brown Marmorated Stink Bug
+- Harlequin Ladybird
+- Velvetbean Caterpillar

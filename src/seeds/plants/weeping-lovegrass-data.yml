@@ -1,75 +1,60 @@
----
-- common_name: Weeping Lovegrass
-  picture: weeping_lovegrass.webp
-  scientific_name: Eragrostis curvula
-  aka:
-  - African Lovegrass
-  family: Poaceae
-  zone: 6-11
-  ideal_temp_min: 45
-  ideal_temp_max: 105
-  min_temp: -5
-  max_temp: 115
-  perennial: true
-  layers:
-  - Herbaceous
-  plant_function:
-  - Erosion Control
-  - Ornamental
-  - Biomass
-  - Border Plant
-  description: 'Weeping lovegrass (Eragrostis curvula) is a warm-season bunchgrass from southern Africa, widely planted for
-    erosion control and fine-textured ornamental borders, forming dense fountains of narrow leaves and airy panicles on plants
-    about 2–3 feet (60–90 cm) tall. It tolerates heat, drought, and poor soils once established. Check regional invasive lists—some
-    areas classify lovegrasses as problematic.
+common_name: Weeping Lovegrass
+picture: weeping_lovegrass.webp
+scientific_name: Eragrostis curvula
+aka:
+- African Lovegrass
+family: Poaceae
+zone: 6-11
+ideal_temp_min: 45
+ideal_temp_max: 105
+min_temp: -5
+max_temp: 115
+perennial: true
+layers:
+- Herbaceous
+plant_function:
+- Erosion Control
+- Ornamental
+- Biomass
+- Border Plant
+description: |-
+  Weeping lovegrass (Eragrostis curvula) is a warm-season bunchgrass from southern Africa, widely planted for erosion control and fine-textured ornamental borders, forming dense fountains of narrow leaves and airy panicles on plants about 2–3 feet (60–90 cm) tall. It tolerates heat, drought, and poor soils once established. Check regional invasive lists—some areas classify lovegrasses as problematic.
 
+  ☀️💧 Sun and Water Requirements:
+  Full sun for upright fountains; shade yields thin patches. Well-drained sandy to loamy soils suit it; drought-tolerant after establishment. Water deeply to establish; avoid waterlogging.
 
-    ☀️💧 Sun and Water Requirements:
+  ✂️ Propagation:
+  Sow seed in warm soil; divide bunches in spring. Cut back in late winter before new growth.
 
-    Full sun for upright fountains; shade yields thin patches. Well-drained sandy to loamy soils suit it; drought-tolerant
-    after establishment. Water deeply to establish; avoid waterlogging.
-
-
-    ✂️ Propagation:
-
-    Sow seed in warm soil; divide bunches in spring. Cut back in late winter before new growth.
-
-
-    🌾 Harvest / Best Use Timing:
-
-    Primarily functional and ornamental—seed can spread; manage seedheads near natural areas. Peak growth follows summer heat.'
-  purpose: |-
-    Erosion Control: Eragrostis curvula fibrous roots lock road cuts and sandy embankments before perennials establish -- check county lists because African ecotypes seed aggressively in some deserts.
-    Ornamental: Fine-textured fountains to 90 cm catch backlight on seed panicles -- reads upscale xeric border until neighbors call it invasive.
-    Biomass: Sheared tops make airy straw for thin mulch layers -- high silica means slower rot than legume clippings.
-    Border Plant: Clumping habit stays put without rhizome wander -- line gravel paths where running grasses would colonize beds.
-  companions:
-  - Purple Lovegrass — smaller Eragrostis cousin with contrasting purple haze seed heads
-  - Sand Lovegrass — related genus neighbor in dry meadow mixes
-  - Prairie Coneflower — forb verticals rising above low lovegrass mounds
-  cautions:
-  - Invasive risk in some regions—verify local weed council opinions before mass seeding
-  - Self-seeding near wildlands—edit volunteers aggressively
-  pests:
-  - Aphids
-  - Armyworms
-  - Bamboo Mite
-  - Corn Earworm
-  - Fall Armyworm
-  - Japanese Beetles
-  - Leaf Blight
-  - Lubber Grasshopper
-  - Rice Blast Fungus
-  - Rice Water Weevil
-  - Spider Mites
-  - Spittlebugs
-  - Wireworm
-  practitioner_notes: 'Fine texture reads luxury—coarse neighbors bully it without spacing honesty.
-
-    Invasive chatter is zip-code specific—read your county list before debating strangers online.
-
-    Shearing into meatballs defeats the weeping gesture—prune with intent, not anxiety.
-
-    Drought posture is real—overhead sprinklers still invite mites if dust persists.'
-  growth_habit: Warm-season weeping bunchgrass; fine leaves; airy panicles; hot dry sites
-  data_quality_score: 0.76
+  🌾 Harvest / Best Use Timing:
+  Primarily functional and ornamental—seed can spread; manage seedheads near natural areas. Peak growth follows summer heat.
+purpose: |-
+  Erosion Control: Eragrostis curvula fibrous roots lock road cuts and sandy embankments before perennials establish -- check county lists because African ecotypes seed aggressively in some deserts.
+  Ornamental: Fine-textured fountains to 90 cm catch backlight on seed panicles -- reads upscale xeric border until neighbors call it invasive.
+  Biomass: Sheared tops make airy straw for thin mulch layers -- high silica means slower rot than legume clippings.
+  Border Plant: Clumping habit stays put without rhizome wander -- line gravel paths where running grasses would colonize beds.
+companions:
+- Purple Lovegrass — smaller Eragrostis cousin with contrasting purple haze seed heads
+- Sand Lovegrass — related genus neighbor in dry meadow mixes
+- Prairie Coneflower — forb verticals rising above low lovegrass mounds
+cautions:
+- Invasive risk in some regions—verify local weed council opinions before mass seeding
+- Self-seeding near wildlands—edit volunteers aggressively
+pests:
+- Aphids
+- Armyworms
+- Bamboo Mite
+- Corn Earworm
+- Fall Armyworm
+- Japanese Beetles
+- Lubber Grasshopper
+- Rice Blast Fungus
+- Rice Water Weevil
+- Spider Mites
+- Spittlebugs
+- Wireworm
+growth_habit: Warm-season weeping bunchgrass; fine leaves; airy panicles; hot dry
+  sites
+data_quality_score: 0.76
+diseases:
+- Leaf Blight

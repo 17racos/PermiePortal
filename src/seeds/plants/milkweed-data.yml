@@ -1,56 +1,50 @@
----
-- common_name: Milkweed
-  picture: milkweed.webp
-  scientific_name: Asclepias spp.
-  aka:
-  - Butterfly Weed
-  - Silkweed
-  family: Apocynaceae
-  zone: 3-9
-  ideal_temp_min: 65
-  ideal_temp_max: 85
-  min_temp: -30
-  max_temp: 100
-  perennial: true
-  layers:
-  - Ground Cover
-  - Shrub
-  plant_function:
-  - Edible
-  - Medicinal
-  - Wildlife Attractor
-  - Erosion Control
-  description: "Milkweed is a perennial plant native to North America, known for its
-    clusters of pink to lavender-colored flowers that bloom in midsummer. The plants
-    can vary in height, typically ranging from 2 to 6 feet (0.6-1.8 m). They
-    have broad, lance-shaped leaves and produce seed pods filled with silky-haired
-    seeds.\n\n☀️💧 Sun and Water Requirements:\n\nMilkweeds generally
-    prefer full sun and well-drained soils. Species like Butterfly Milkweed (Asclepias
-    tuberosa) are drought-tolerant, while Swamp Milkweed (Asclepias incarnata) thrives
-    in moist to wet soils.\n\n✂️ Propagation:\n\nPropagation can
-    be done through seeds or root cuttings. Seeds often require cold stratification
-    to germinate effectively. Planting should be done in the fall or after a period
-    of cold treatment.\n\n🌾 Harvest / Best Use Timing:\n\nFor
-    medicinal or edible uses, harvest young shoots or flower buds before they fully
-    open. Ensure proper identification and preparation, as some parts can be toxic
-    if not handled correctly."
-  purpose: |-
-    Edible: Asclepias spp. young shoots, buds, and silks enter regional recipes only after blanching and repeated water changes -- cardiac glycosides mean species ID and kitchen literacy are mandatory.
-    Medicinal: Milky latex and roots appear in traditional wart and respiratory protocols -- toxicity overlaps with medicine, so match species references before self-experimenting.
-    Wildlife Attractor: Foliage feeds monarch and queen larvae while umbels feed bees, wasps, and flies -- plant patches, not singles, so caterpillars do not starve the only stem.
-    Erosion Control: Deep rhizomes and fibrous roots knit disturbed banks and ditch sides -- pair moist-site species with wet feet, drought species with sharp drainage.
-  companions:
-  - Coneflower
-  - Blazing Star
-  cautions:
-  - None specified
-  pests:
-  - Aphids
-  - Japanese Beetles
-  practitioner_notes: |-
-    Morning picks hold turgor; afternoon heat steals shelf life even if the cooler feels honest.
-    Weigh small test batches before scaling tinctures—solvent ratio mistakes are expensive at gallon ambition.
-    Soil smell and root color tell more than gadget overload—dig a small hole twice a season.
-    Harvest flowering tops at first full open for many mint-family herbs; past-brown is mulch grade.
-  growth_habit: Tree
-  data_quality_score: 0.8
+common_name: Milkweed
+picture: milkweed.webp
+scientific_name: Asclepias spp.
+aka:
+- Butterfly Weed
+- Silkweed
+family: Apocynaceae
+zone: 3-9
+ideal_temp_min: 65
+ideal_temp_max: 85
+min_temp: -30
+max_temp: 100
+perennial: true
+layers:
+- Ground Cover
+- Shrub
+plant_function:
+- Edible
+- Medicinal
+- Wildlife Attractor
+- Erosion Control
+description: |-
+  Milkweed is a perennial plant native to North America, known for its clusters of pink to lavender-colored flowers that bloom in midsummer. The plants can vary in height, typically ranging from 2 to 6 feet (0.6-1.8 m). They have broad, lance-shaped leaves and produce seed pods filled with silky-haired seeds.
+
+  ☀️💧 Sun and Water Requirements:
+
+  Milkweeds generally prefer full sun and well-drained soils. Species like Butterfly Milkweed (Asclepias tuberosa) are drought-tolerant, while Swamp Milkweed (Asclepias incarnata) thrives in moist to wet soils.
+
+  ✂️ Propagation:
+
+  Propagation can be done through seeds or root cuttings. Seeds often require cold stratification to germinate effectively. Planting should be done in the fall or after a period of cold treatment.
+
+  🌾 Harvest / Best Use Timing:
+
+  For medicinal or edible uses, harvest young shoots or flower buds before they fully open. Ensure proper identification and preparation, as some parts can be toxic if not handled correctly.
+purpose: |-
+  Edible: Asclepias spp. young shoots, buds, and silks enter regional recipes only after blanching and repeated water changes -- cardiac glycosides mean species ID and kitchen literacy are mandatory.
+  Medicinal: Milky latex and roots appear in traditional wart and respiratory protocols -- toxicity overlaps with medicine, so match species references before self-experimenting.
+  Wildlife Attractor: Foliage feeds monarch and queen larvae while umbels feed bees, wasps, and flies -- plant patches, not singles, so caterpillars do not starve the only stem.
+  Erosion Control: Deep rhizomes and fibrous roots knit disturbed banks and ditch sides -- pair moist-site species with wet feet, drought species with sharp drainage.
+companions:
+- Coneflower
+- Blazing Star
+cautions:
+- None specified
+pests:
+- Aphids
+- Japanese Beetles
+growth_habit: Tree
+data_quality_score: 0.8

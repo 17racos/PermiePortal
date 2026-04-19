@@ -1,73 +1,57 @@
----
-- common_name: Açaí Palm
-  picture: acai_palm.webp
-  scientific_name: Euterpe oleracea
-  aka:
-  - Assai palm
-  family: Arecaceae
-  zone: 10-11
-  ideal_temp_min: 72
-  ideal_temp_max: 90
-  min_temp: 32
-  max_temp: 105
-  perennial: true
-  layers:
-  - Tree
-  plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Mulcher
-  description: 'Açaí is the multi-stemmed palm behind the purple smoothie bowl industrial complex—slender trunks, pinnate
-    leaves, and fruit borne in hanging clusters that want heat, humidity, and shade when young. Marginal at best outdoors;
-    coastal tropical and subtropical zones triers with canopy shade and winter protection experiments exist. Everyone else:
-    greenhouse or vacation.
+common_name: Açaí Palm
+picture: acai_palm.webp
+scientific_name: Euterpe oleracea
+aka:
+- Assai palm
+family: Arecaceae
+zone: 10-11
+ideal_temp_min: 72
+ideal_temp_max: 90
+min_temp: 32
+max_temp: 105
+perennial: true
+layers:
+- Tree
+plant_function:
+- Edible
+- Wildlife Attractor
+- Mulcher
+description: |-
+  Açaí is the multi-stemmed palm behind the purple smoothie bowl industrial complex—slender trunks, pinnate leaves, and fruit borne in hanging clusters that want heat, humidity, and shade when young. Marginal at best outdoors; coastal tropical and subtropical zones triers with canopy shade and winter protection experiments exist. Everyone else: greenhouse or vacation.
 
+  ☀️💧 Sun and Water Requirements:
 
-    ☀️💧 Sun and Water Requirements:
+  Part shade for juveniles; more sun with age in humid air.
+  Consistent soil moisture; intolerant of drought once pushing new spears.
 
+  ✂️ Propagation:
 
-    Part shade for juveniles; more sun with age in humid air.
+  Fresh seed.
+  Clumping habit from multiple stems—division is not a casual weekend trick on big specimens.
 
-    Consistent soil moisture; intolerant of drought once pushing new spears.
+  🌾 Harvest / Best Use Timing:
 
-
-    ✂️ Propagation:
-
-
-    Fresh seed.
-
-    Clumping habit from multiple stems—division is not a casual weekend trick on big specimens.
-
-
-    🌾 Harvest / Best Use Timing:
-
-
-    Process fruit pulp soon after harvest; quality drops fast once picked, especially on hot days. Palm-heart harvest kills
-    that stem—plan accordingly (sustainability debates apply).'
-  purpose: |-
-    Edible: Euterpe oleracea clusters yield fatty purple pulp for same-day processing into bowls and beverages while palm-heart harvest removes one entire stem from the clump -- plan which trunks you sacrifice because that stem does not regrow.
-    Wildlife Attractor: Pendant infructescences in Amazonian-style humidity feed fruit bats, parrots, and insects that evolved with clustering palms -- leave lower heads in wilder margins if you want honest frugivore traffic beyond the smoothie economy.
-    Mulcher: Evergreen pinnate fronds shed steadily in wet heat, building a thick acidic litter mat that cools soil for cacao seedlings, turmeric, and other shade guild members tucked under the outer drip line.
-  companions:
-  - Theobroma cacao
-  - Turmeric
-  - Ice Cream Bean Tree
-  cautions:
-  - Dry cold winds
-  - Open exposed 9a fields
-  pests:
-  - Coconut Mite
-  - Ganoderma Butt Rot
-  - Heart Rot
-  - Palm Weevil
-  - Rhinoceros Beetle
-  - palmetto weevil
-  - red palm weevil
-  - scale insects
-  practitioner_notes: 'Multiple slender stems form a clump—plan spacing for crown spread, not single-trunk orchard math.
-
-    Harvest quality drops fast after picking; process pulp the same day on hot days when possible.
-
-    Palm-heart harvest kills that stem—treat heart harvest as a serious food decision, not casual pruning.'
-  growth_habit: Clustering palm of lowland humid tropics
-  data_quality_score: 0.72
+  Process fruit pulp soon after harvest; quality drops fast once picked, especially on hot days. Palm-heart harvest kills that stem—plan accordingly (sustainability debates apply).
+purpose: |-
+  Edible: Euterpe oleracea clusters yield fatty purple pulp for same-day processing into bowls and beverages while palm-heart harvest removes one entire stem from the clump -- plan which trunks you sacrifice because that stem does not regrow.
+  Wildlife Attractor: Pendant infructescences in Amazonian-style humidity feed fruit bats, parrots, and insects that evolved with clustering palms -- leave lower heads in wilder margins if you want honest frugivore traffic beyond the smoothie economy.
+  Mulcher: Evergreen pinnate fronds shed steadily in wet heat, building a thick acidic litter mat that cools soil for cacao seedlings, turmeric, and other shade guild members tucked under the outer drip line.
+companions:
+- Theobroma cacao
+- Turmeric
+- Ice Cream Bean Tree
+cautions:
+- Dry cold winds
+- Open exposed 9a fields
+pests:
+- Coconut Mite
+- Palm Weevil
+- Rhinoceros Beetle
+- palmetto weevil
+- red palm weevil
+- scale insects
+growth_habit: Clustering palm of lowland humid tropics
+data_quality_score: 0.72
+diseases:
+- Ganoderma Butt Rot
+- Heart Rot

@@ -1,54 +1,47 @@
----
-- common_name: Water Lettuce
-  picture: water_lettuce.webp
-  scientific_name: Pistia stratiotes
-  aka:
-  - Water cabbage
-  - Nile cabbage
-  family: Araceae
-  zone: 9-11
-  ideal_temp_min: 65
-  ideal_temp_max: 95
-  min_temp: 35
-  max_temp: 105
-  perennial: true
-  layers:
-  - Aquatic
-  plant_function:
-  - Water Purifier
-  - Animal Fodder
-  description: |-
-    Water lettuce is the floating rosette that multiplies like a group chat gone feral. In Florida it is an aggressive aquatic weed in open waters—containment is ethics, not aesthetics.
-    
-    Only keep in closed systems (tubs, pools, lined ponds) where escape is impossible. Do not “gift” extras to local waterways.
-    
-    Sun and water: Full sun to part shade on still, nutrient-rich water. Roots hang in the water column stripping nutrients—great in a drum, catastrophic in a spring run.
-    ✂️ Propagation:
-    Daughter rosettes on stolons—absurdly easy; your job is saying no to release.
-    
-    🌾 Harvest / Best Use Timing:
-    - For Water Lettuce, value timing follows ecology -- thin or skim when biomass blocks flow or outcompetes natives per local guidance.
-    - Floating mats: work cool mornings so fragments do not drift downstream and colonize new sins.
-    - Compost hot active piles after any removal so wet tissues do not restart the invasion from your own yard.
-  purpose: |-
-    Water Purifier: Pistia stratiotes rosettes dangle feathery roots that strip ammonia and phosphates from stock tanks -- shade suppresses algae in closed loops; any escape down storm drains is why states ban outdoor possession.
-    Animal Fodder: Ducks graze leaves where law allows -- verify water quality first; plants grown in nutrient-heavy wastewater concentrate whatever dissolved in that soup.
-  companions:
-  - Azolla (contained)
-  - Duckweed (contained)
-  cautions:
-  - Open waterways
-  - Any setup where flood can float plants to public water
-  pests:
-  - aphids
-  - caterpillars
-  - snails
-  practitioner_notes: |-
-    Covers suppress mosquito larvae when intact—gaps at edges become nursery pools.
-    Rosettes duplicate from offsets—thin weekly in small ponds.
-    Illegal to possess in some states—verify regulations before mail-order.
-  growth_habit: Free-floating aquatic rosette; stoloniferous mat former
-  data_quality_score: 0.75
-  # Image attribution: (c) amywainwright, some rights reserved (CC BY-NC)
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+common_name: Water Lettuce
+picture: water_lettuce.webp
+scientific_name: Pistia stratiotes
+aka:
+- Water cabbage
+- Nile cabbage
+family: Araceae
+zone: 9-11
+ideal_temp_min: 65
+ideal_temp_max: 95
+min_temp: 35
+max_temp: 105
+perennial: true
+layers:
+- Aquatic
+plant_function:
+- Water Purifier
+- Animal Fodder
+description: |-
+  Water lettuce is the floating rosette that multiplies like a group chat gone feral. In Florida it is an aggressive aquatic weed in open waters—containment is ethics, not aesthetics.
+
+  Only keep in closed systems (tubs, pools, lined ponds) where escape is impossible. Do not “gift” extras to local waterways.
+
+  Sun and water: Full sun to part shade on still, nutrient-rich water. Roots hang in the water column stripping nutrients—great in a drum, catastrophic in a spring run.
+  ✂️ Propagation:
+  Daughter rosettes on stolons—absurdly easy; your job is saying no to release.
+
+  🌾 Harvest / Best Use Timing:
+  - For Water Lettuce, value timing follows ecology -- thin or skim when biomass blocks flow or outcompetes natives per local guidance.
+  - Floating mats: work cool mornings so fragments do not drift downstream and colonize new sins.
+  - Compost hot active piles after any removal so wet tissues do not restart the invasion from your own yard.
+purpose: |-
+  Water Purifier: Pistia stratiotes rosettes dangle feathery roots that strip ammonia and phosphates from stock tanks -- shade suppresses algae in closed loops; any escape down storm drains is why states ban outdoor possession.
+  Animal Fodder: Ducks graze leaves where law allows -- verify water quality first; plants grown in nutrient-heavy wastewater concentrate whatever dissolved in that soup.
+companions:
+- Azolla (contained)
+- Duckweed (contained)
+cautions:
+- Open waterways
+- Any setup where flood can float plants to public water
+pests:
+- aphids
+- snails
+growth_habit: Free-floating aquatic rosette; stoloniferous mat former
+data_quality_score: 0.75
+animal_pressure:
+- caterpillars

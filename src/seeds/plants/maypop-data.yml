@@ -1,59 +1,60 @@
----
-- common_name: Maypop
-  picture: maypop.webp
-  scientific_name: Passiflora incarnata
-  aka:
-  - Purple Passionflower
-  - Wild apricot
-  - Wild Passionvine
-  - Wild Passion Vine
-  family: Passifloraceae
-  zone: 5-9
-  ideal_temp_min: 60
-  ideal_temp_max: 90
-  min_temp: -10
-  max_temp: 105
-  perennial: true
-  layers:
-  - Vine
-  - Herbaceous
-  plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
-  description: "Maypop is the native Southeast passionflower that dies back to the
-    roots like a responsible perennial, then erupts into intricate lavender flowers
-    and greenish edible fruit that pop when you step on them—hence the name, and hence
-    childhood memories.\n\nRight at home—edge plant, fence
-    cover, butterfly magnet (Gulf fritillary will use it hard). Expect defoliation some
-    years; the vine usually laughs it off.\n\n☀️💧 Sun and Water Requirements:\n\nFull sun to light shade.\nAverage moisture; tolerates drought once established but fruits better with steady
-    water.\n\n✂️ Propagation:\n\nSeeds, hardwood cuttings, or digging dormant root suckers
-    with permission on your own land.\n\n🌾 Harvest / Best Use Timing:\n\nPick maypops when they yield slightly and aroma peaks; leave some for caterpillar cycles if you are sharing the vine."
-  purpose: |-
-    Edible: Passiflora incarnata yields aromatic pulp in leathery green fruit when fully yielding -- eat sparingly; aerial parts also steep into calming tea where law and dosing education align.
-    Medicinal: Flavonoids and harmala alkaloids in leaves and vines enter traditional nervine protocols -- sedation interactions are real, so research contraindications before mixing with prescriptions or alcohol.
-    Pollinator: Lavender fringed corona and elevated anthers feed large carpenter bees that buzz the flower release pollen -- intricate morphology rewards specialists, not casual fly-bys.
-    Wildlife Attractor: Gulf fritillary larvae strip leaves some summers -- plant extra vines or accept defoliation if butterfly completion matters more than pristine foliage.
-  companions:
-  - Elderberry
-  - Sunflowers
-  - Native grasses
-  cautions:
-  - Tiny trellises with ambition issues
-  - Spraying every caterpillar you see
-  pests:
-  - caterpillars
-  - aphids
-  - spider mites
-  - whiteflies
-  practitioner_notes: |-
-    Morning picks hold turgor; afternoon heat steals shelf life even if the cooler feels honest.
-    Weigh small test batches before scaling tinctures—solvent ratio mistakes are expensive at gallon ambition.
-    Cluster patches three feet or wider—tiny one-offs get ignored by bees cruising for volume.
-    Notebook one weird year—weather anomalies repeat; memory lies, scribbles do not.
-  growth_habit: Herbaceous perennial vine, dies back in winter
-  data_quality_score: 0.82
-  # Image attribution: (c) Reuven Martin, some rights reserved (CC BY-NC), uploaded by Reuven Martin
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+common_name: Maypop
+picture: maypop.webp
+scientific_name: Passiflora incarnata
+aka:
+- Purple Passionflower
+- Wild apricot
+- Wild Passionvine
+- Wild Passion Vine
+family: Passifloraceae
+zone: 5-9
+ideal_temp_min: 60
+ideal_temp_max: 90
+min_temp: -10
+max_temp: 105
+perennial: true
+layers:
+- Vine
+- Herbaceous
+plant_function:
+- Edible
+- Medicinal
+- Pollinator
+- Wildlife Attractor
+description: |-
+  Maypop is the native Southeast passionflower that dies back to the roots like a responsible perennial, then erupts into intricate lavender flowers and greenish edible fruit that pop when you step on them—hence the name, and hence childhood memories.
+
+  Right at home—edge plant, fence cover, butterfly magnet (Gulf fritillary will use it hard). Expect defoliation some years; the vine usually laughs it off.
+
+  ☀️💧 Sun and Water Requirements:
+
+  Full sun to light shade.
+  Average moisture; tolerates drought once established but fruits better with steady water.
+
+  ✂️ Propagation:
+
+  Seeds, hardwood cuttings, or digging dormant root suckers with permission on your own land.
+
+  🌾 Harvest / Best Use Timing:
+
+  Pick maypops when they yield slightly and aroma peaks; leave some for caterpillar cycles if you are sharing the vine.
+purpose: |-
+  Edible: Passiflora incarnata yields aromatic pulp in leathery green fruit when fully yielding -- eat sparingly; aerial parts also steep into calming tea where law and dosing education align.
+  Medicinal: Flavonoids and harmala alkaloids in leaves and vines enter traditional nervine protocols -- sedation interactions are real, so research contraindications before mixing with prescriptions or alcohol.
+  Pollinator: Lavender fringed corona and elevated anthers feed large carpenter bees that buzz the flower release pollen -- intricate morphology rewards specialists, not casual fly-bys.
+  Wildlife Attractor: Gulf fritillary larvae strip leaves some summers -- plant extra vines or accept defoliation if butterfly completion matters more than pristine foliage.
+companions:
+- Elderberry
+- Sunflowers
+- Native grasses
+cautions:
+- Tiny trellises with ambition issues
+- Spraying every caterpillar you see
+pests:
+- aphids
+- spider mites
+- whiteflies
+growth_habit: Herbaceous perennial vine, dies back in winter
+data_quality_score: 0.82
+animal_pressure:
+- caterpillars

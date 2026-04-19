@@ -1,79 +1,59 @@
----
-- common_name: Wormwood
-  picture: wormwood.webp
-  scientific_name: Artemisia absinthium
-  aka:
-  - Absinthium
-  - Grand Wormwood
-  family: Asteraceae
-  zone: 4-9
-  ideal_temp_min: 60
-  ideal_temp_max: 75
-  min_temp: -30
-  max_temp: 100
-  perennial: true
-  layers:
-  - Shrub
-  plant_function:
-  - Medicinal
-  - Pest Management
-  - Border Plant
-  - Wildlife Attractor
-  description: 'Wormwood (*Artemisia absinthium*) is a hardy, woody-based perennial known for its finely divided, aromatic
-    silver-gray foliage. The plant typically grows to a height of 0.6 to 1.2 meters (2 to 4 feet) and spreads about 0.6 meters
-    (2 feet) wide. Its small, yellowish, tubular flowers appear in dense, leafy, drooping panicles at the stem tips during
-    summer, though they are considered insignificant compared to its striking foliage. The leaves are deeply lobed, covered
-    with fine, silky hairs, and emit a strong sage-like scent when crushed. Wormwood thrives in well-drained soils and is
-    drought-tolerant once established.
+common_name: Wormwood
+picture: wormwood.webp
+scientific_name: Artemisia absinthium
+aka:
+- Absinthium
+- Grand Wormwood
+family: Asteraceae
+zone: 4-9
+ideal_temp_min: 60
+ideal_temp_max: 75
+min_temp: -30
+max_temp: 100
+perennial: true
+layers:
+- Shrub
+plant_function:
+- Medicinal
+- Pest Management
+- Border Plant
+- Wildlife Attractor
+description: |-
+  Wormwood (*Artemisia absinthium*) is a hardy, woody-based perennial known for its finely divided, aromatic silver-gray foliage. The plant typically grows to a height of 0.6 to 1.2 meters (2 to 4 feet) and spreads about 0.6 meters (2 feet) wide. Its small, yellowish, tubular flowers appear in dense, leafy, drooping panicles at the stem tips during summer, though they are considered insignificant compared to its striking foliage. The leaves are deeply lobed, covered with fine, silky hairs, and emit a strong sage-like scent when crushed. Wormwood thrives in well-drained soils and is drought-tolerant once established.
 
+  🌞💧 **Sun and Water Requirements:**
+  Prefers full sun exposure for optimal growth but can tolerate partial shade. Requires well-drained soils and is drought-tolerant once established. Overwatering or poor drainage can lead to root rot.
 
-    🌞💧 **Sun and Water Requirements:**
+  ✂️🫘 **Methods to Propagate:**
+  Propagation is commonly achieved through seed sowing in spring or by division of established clumps in early spring or fall. Semi-hardwood cuttings can also be taken in late summer.
 
-    Prefers full sun exposure for optimal growth but can tolerate partial shade. Requires well-drained soils and is drought-tolerant
-    once established. Overwatering or poor drainage can lead to root rot.
-
-
-    ✂️🫘 **Methods to Propagate:**
-
-    Propagation is commonly achieved through seed sowing in spring or by division of established clumps in early spring or
-    fall. Semi-hardwood cuttings can also be taken in late summer.
-
-
-    🧑‍🌾👩‍🌾 **When to Harvest:**
-
-    Harvest the aerial parts during the flowering period in summer when the concentration of active compounds is highest.
-    Dry the harvested material in a well-ventilated area away from direct sunlight.'
-  purpose: |-
-    Medicinal: Artemisia absinthium flowering tops supply absinthin and thujone bitters once central to absinthe spirits and to historic anthelmintic pharmacy -- neurotoxicity and lowered seizure threshold are documented; modern absinthe dilutes wormwood to trace levels for a reason.
-    Pest Management: Volatile mono- and sesquiterpenes from crushed leaf repel clothes moths in stored wool and reduce carrot rust fly oviposition in published companion-planting trials -- spray decoctions go rancid fast; living hedge effect is strongest in still, hot air.
-    Border Plant: Silvery dissected foliage reads as a cool neutral band against hot-colored zinnias or tithonia -- woody crown stays knee height in lean soil so it does not shade low thyme carpets behind it.
-    Wildlife Attractor: Tiny yellow disc flowers feed minute pollen-collecting flies and parasitoid wasps in August when showier beds are past peak -- leave one unmowed block if you want lacewing egg-laying sites on hairy lower foliage.
-  companions:
-  - Carrot
-  - Onion
-  - Leek
-  - Sage
-  - Rosemary
-  cautions:
-  - Fennel
-  - Beans
-  - Peas
-  - Plants requiring pollination
-  pests:
-  - Aphids
-  - Banded Winged Whitefly
-  - Greenhouse Whitefly
-  - Lettuce Aphid
-  - Lubber Grasshopper
-  - Root Aphid
-  - Root Rot
-  - Spider Mites
-  practitioner_notes: 'Weigh small test batches before scaling tinctures—solvent ratio mistakes are expensive at gallon ambition.
-
-    Sharp tools and clean cuts beat torn stems; disease spores love frayed tissue more than rhetoric.
-
-    Dry aerial parts fast with airflow, not slow plastic bags—mold reads as ‘aged’ only in marketing copy.
-
-    Soil smell and root color tell more than gadget overload—dig a small hole twice a season.'
-  growth_habit: Tree
-  data_quality_score: 0.8
+  🧑‍🌾👩‍🌾 **When to Harvest:**
+  Harvest the aerial parts during the flowering period in summer when the concentration of active compounds is highest. Dry the harvested material in a well-ventilated area away from direct sunlight.
+purpose: |-
+  Medicinal: Artemisia absinthium flowering tops supply absinthin and thujone bitters once central to absinthe spirits and to historic anthelmintic pharmacy -- neurotoxicity and lowered seizure threshold are documented; modern absinthe dilutes wormwood to trace levels for a reason.
+  Pest Management: Volatile mono- and sesquiterpenes from crushed leaf repel clothes moths in stored wool and reduce carrot rust fly oviposition in published companion-planting trials -- spray decoctions go rancid fast; living hedge effect is strongest in still, hot air.
+  Border Plant: Silvery dissected foliage reads as a cool neutral band against hot-colored zinnias or tithonia -- woody crown stays knee height in lean soil so it does not shade low thyme carpets behind it.
+  Wildlife Attractor: Tiny yellow disc flowers feed minute pollen-collecting flies and parasitoid wasps in August when showier beds are past peak -- leave one unmowed block if you want lacewing egg-laying sites on hairy lower foliage.
+companions:
+- Carrot
+- Onion
+- Leek
+- Sage
+- Rosemary
+cautions:
+- Fennel
+- Beans
+- Peas
+- Plants requiring pollination
+pests:
+- Aphids
+- Banded Winged Whitefly
+- Greenhouse Whitefly
+- Lettuce Aphid
+- Lubber Grasshopper
+- Root Aphid
+- Spider Mites
+growth_habit: Tree
+data_quality_score: 0.8
+diseases:
+- Root Rot

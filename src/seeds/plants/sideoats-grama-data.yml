@@ -1,76 +1,59 @@
----
-- common_name: Sideoats Grama
-  picture: sideoats_grama.webp
-  scientific_name: Bouteloua curtipendula
-  aka:
-  - Side-Oats Grama
-  family: Poaceae
-  zone: 4-9
-  ideal_temp_min: 40
-  ideal_temp_max: 100
-  min_temp: -30
-  max_temp: 110
-  perennial: true
-  layers:
-  - Herbaceous
-  plant_function:
-  - Erosion Control
-  - Wildlife Attractor
-  - Ornamental
-  - Biomass
-  description: 'Sideoats grama (Bouteloua curtipendula) is a warm-season bunchgrass of North American prairies and rocky slopes,
-    famous for oat-like spikelets hanging to one side of arching stems, usually 1–3 feet (30–90 cm) tall. It thrives in sun
-    and lean soils, providing high-quality native forage and ornamental finesse in meadow mixes. Deep roots tolerate drought
-    once established, while aerial seed stalks catch light like copper jewelry.
+common_name: Sideoats Grama
+picture: sideoats_grama.webp
+scientific_name: Bouteloua curtipendula
+aka:
+- Side-Oats Grama
+family: Poaceae
+zone: 4-9
+ideal_temp_min: 40
+ideal_temp_max: 100
+min_temp: -30
+max_temp: 110
+perennial: true
+layers:
+- Herbaceous
+plant_function:
+- Erosion Control
+- Wildlife Attractor
+- Ornamental
+- Biomass
+description: |-
+  Sideoats grama (Bouteloua curtipendula) is a warm-season bunchgrass of North American prairies and rocky slopes, famous for oat-like spikelets hanging to one side of arching stems, usually 1–3 feet (30–90 cm) tall. It thrives in sun and lean soils, providing high-quality native forage and ornamental finesse in meadow mixes. Deep roots tolerate drought once established, while aerial seed stalks catch light like copper jewelry.
 
+  ☀️💧 Sun and Water Requirements:
+  Full sun for flowering and upright habit; shade reduces seed production. Well-drained, average to lean soils suit it; tolerates alkaline rocky sites. Water to establish; avoid chronic irrigation that invites weeds.
 
-    ☀️💧 Sun and Water Requirements:
+  ✂️ Propagation:
+  Sow seed in warm soil after frost risk. Divide bunches in spring if needed. Cut back old growth in late winter.
 
-    Full sun for flowering and upright habit; shade reduces seed production. Well-drained, average to lean soils suit it;
-    tolerates alkaline rocky sites. Water to establish; avoid chronic irrigation that invites weeds.
-
-
-    ✂️ Propagation:
-
-    Sow seed in warm soil after frost risk. Divide bunches in spring if needed. Cut back old growth in late winter.
-
-
-    🌾 Harvest / Best Use Timing:
-
-    Collect seed when spikelets dry tan for restoration mixes. Leave standing for birds through winter if allowed. Peak growth
-    follows summer heat.'
-  purpose: |-
-    Erosion Control: Bouteloua curtipendula crowns bind shale cuts and prairie berms where shallow-rooted annual covers wash away after one thunderstorm.
-    Wildlife Attractor: Seeds dangle like earrings for sparrows while larval skippers chew leaf bases inside humid clumps.
-    Ornamental: Pendant spikelets flash copper against bluestem mixes when backlight hits midsummer prairie plantings.
-    Biomass: Straw-colored tops fold into nitrogen-light mulch after seed drop for growers who leave standing hay through winter for structure.
-  companions:
-  - Little Bluestem — complementary warm-season grass texture in mixed prairie matrices
-  - Prairie Coneflower — forb neighbor with bold flowers above low grama clumps
-  - Milkweed — pollinator forb pairing for monarch habitat strips
-  cautions:
-  - Wet clay — poor performance and rot compared with sandier brethren
-  - Overfertilization — weeds outcompete lean-grass philosophy
-  pests:
-  - Aphids
-  - Armyworms
-  - Bamboo Mite
-  - Corn Earworm
-  - Fall Armyworm
-  - Japanese Beetles
-  - Leaf Blight
-  - Lubber Grasshopper
-  - Rice Blast Fungus
-  - Rice Water Weevil
-  - Spider Mites
-  - Spittlebugs
-  - Wireworm
-  practitioner_notes: 'One-sided inflorescences are the handshake ID—symmetrical imposters belong to different grasses.
-
-    Skipper larvae use grasses—mowing everything flat deletes their internship program.
-
-    Seed shatters fast—collect early if you need clean harvest for sale or sowing.
-
-    Lean soil is a covenant—compost dumps turn the plant into a weed hotel.'
-  growth_habit: Warm-season bunchgrass; pendant spikelets; dry to average prairies
-  data_quality_score: 0.83
+  🌾 Harvest / Best Use Timing:
+  Collect seed when spikelets dry tan for restoration mixes. Leave standing for birds through winter if allowed. Peak growth follows summer heat.
+purpose: |-
+  Erosion Control: Bouteloua curtipendula crowns bind shale cuts and prairie berms where shallow-rooted annual covers wash away after one thunderstorm.
+  Wildlife Attractor: Seeds dangle like earrings for sparrows while larval skippers chew leaf bases inside humid clumps.
+  Ornamental: Pendant spikelets flash copper against bluestem mixes when backlight hits midsummer prairie plantings.
+  Biomass: Straw-colored tops fold into nitrogen-light mulch after seed drop for growers who leave standing hay through winter for structure.
+companions:
+- Little Bluestem — complementary warm-season grass texture in mixed prairie matrices
+- Prairie Coneflower — forb neighbor with bold flowers above low grama clumps
+- Milkweed — pollinator forb pairing for monarch habitat strips
+cautions:
+- Wet clay — poor performance and rot compared with sandier brethren
+- Overfertilization — weeds outcompete lean-grass philosophy
+pests:
+- Aphids
+- Armyworms
+- Bamboo Mite
+- Corn Earworm
+- Fall Armyworm
+- Japanese Beetles
+- Lubber Grasshopper
+- Rice Blast Fungus
+- Rice Water Weevil
+- Spider Mites
+- Spittlebugs
+- Wireworm
+growth_habit: Warm-season bunchgrass; pendant spikelets; dry to average prairies
+data_quality_score: 0.83
+diseases:
+- Leaf Blight

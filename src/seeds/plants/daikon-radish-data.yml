@@ -1,55 +1,59 @@
----
-- common_name: Daikon Radish
-  picture: daikon_radish.webp
-  scientific_name: Raphanus sativus var. longipinnatus
-  aka: []
-  family: Brassicaceae
-  zone: 3-9
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
-  perennial: true
-  layers:
-  - Herbaceous
-  plant_function:
-  - Edible
-  - Medicinal
-  - Erosion Control
-  description: |-
-    Daikon radish (Raphanus sativus var. longipinnatus) is a cool-season root crop grown for its long, crisp taproot and peppery leaves. It originates in East Asia and is widely cultivated across temperate climates for fresh eating, stir-fries, and pickling. Plants typically form a rosette of foliage and a root that can reach 30–60 cm (12–24 in) depending on variety. In permaculture, it earns its keep by punching into compacted soil, feeding the food chain with edible biomass, and improving bed structure when harvested and composted.
-    
-    ☀️💧 Sun and Water Requirements:
-    - Full sun for best root development; partial shade slows growth.
-    - Keep soil evenly moist; drought stresses roots and makes them woody.
-    - Prefers loose, deep, well-drained soil with compost; remove stones that deform roots.
-    - Cool weather is the friend; heat can shorten roots and trigger bolting.
-    
-    ✂️ Propagation:
-    - Seeds (direct sow): sow in rows after soil cools to workable temperatures; germination often occurs in 3–7 days.
-    - Succession sow: repeat every 2–3 weeks in mild weather for staggered harvest.
-    - Thinning: thin to final spacing early so roots have room to expand.
-    
-    🌾 Harvest / Best Use Timing:
-    - Harvest when roots reach usable diameter and length; many varieties mature in 50–70 days.
-    - For greens: cut outer leaves earlier and let the plant keep leaf-producing until you pull the root.
-    - Store cool; keep slightly humid so roots don’t shrivel.
-  purpose: |-
-    Edible: Long white roots slice to translucent disks for pickle and stir-fry; tops bolt to peppery greens if heat arrives -- harvest before internal corking shows as pithy halos on the cut face.
-    Medicinal: Isothiocyanates from crushed root appear in folk formulas for sluggish digestion -- keep medicinal talk to kitchen-tea scale unless you map dose against thyroid meds or ulcer risk with a clinician.
-    Erosion Control: Eighteen-inch (45 cm) taproots bore through plow pans so the next crop’s roots follow the old channel -- winter-killed tissue leaves vertical pores that catch rainfall instead of letting it sheet across the bed crown.
-  companions:
-  - Lettuce (Lactuca sativa) — shared cool-season timing and similar soil moisture needs let you stagger harvests.
-  - Pea (Pisum sativum) — fixes nitrogen into the bed while radish roots help loosen the same soil profile.
-  - Garlic (Allium sativum) — aromatic bulbs pair well in rotations and help diversify the pest landscape.
-  cautions:
-  - Avoid planting during hot spells; heat increases bolting and rough texture.
-  practitioner_notes: |-
-    Seed depth matters: shallow sowing can tip roots, deep sowing can slow emergence.
-    Don’t transplant daikon—root disturbance turns into forked, sad carrots-with-attitude.
-    Harvest before extreme heat makes the root fibrous; flavor is time-dependent chemistry.
-  pests:
-  - Aphids
-  - Slugs
-  - Caterpillars
-  - Root Rot
+common_name: Daikon Radish
+picture: daikon_radish.webp
+scientific_name: Raphanus sativus var. longipinnatus
+aka: []
+family: Brassicaceae
+zone: 3-9
+ideal_temp_min: 0
+ideal_temp_max: 0
+min_temp: 0
+max_temp: 0
+perennial: true
+layers:
+- Herbaceous
+plant_function:
+- Edible
+- Medicinal
+- Erosion Control
+description: |-
+  Daikon radish (Raphanus sativus var. longipinnatus) is a cool-season root crop grown for its long, crisp taproot and peppery leaves. It originates in East Asia and is widely cultivated across temperate climates for fresh eating, stir-fries, and pickling. Plants typically form a rosette of foliage and a root that can reach 30–60 cm (12–24 in) depending on variety. In permaculture, it earns its keep by punching into compacted soil, feeding the food chain with edible biomass, and improving bed structure when harvested and composted.
+
+  ☀️💧 Sun and Water Requirements:
+  - Full sun for best root development; partial shade slows growth.
+  - Keep soil evenly moist; drought stresses roots and makes them woody.
+  - Prefers loose, deep, well-drained soil with compost; remove stones that deform roots.
+  - Cool weather is the friend; heat can shorten roots and trigger bolting.
+
+  ✂️ Propagation:
+  - Seeds (direct sow): sow in rows after soil cools to workable temperatures; germination often occurs in 3–7 days.
+  - Succession sow: repeat every 2–3 weeks in mild weather for staggered harvest.
+  - Thinning: thin to final spacing early so roots have room to expand.
+
+  🌾 Harvest / Best Use Timing:
+  - Harvest when roots reach usable diameter and length; many varieties mature in 50–70 days.
+  - For greens: cut outer leaves earlier and let the plant keep leaf-producing until you pull the root.
+  - Store cool; keep slightly humid so roots don’t shrivel.
+purpose: |-
+  Edible: Long white roots slice to translucent disks for pickle and stir-fry; tops bolt to peppery greens if heat arrives -- harvest before internal corking shows as pithy halos on the cut face.
+  Medicinal: Isothiocyanates from crushed root appear in folk formulas for sluggish digestion -- keep medicinal talk to kitchen-tea scale unless you map dose against thyroid meds or ulcer risk with a clinician.
+  Erosion Control: Eighteen-inch (45 cm) taproots bore through plow pans so the next crop’s roots follow the old channel -- winter-killed tissue leaves vertical pores that catch rainfall instead of letting it sheet across the bed crown.
+companions:
+- Lettuce (Lactuca sativa) — shared cool-season timing and similar soil moisture needs
+  let you stagger harvests.
+- Pea (Pisum sativum) — fixes nitrogen into the bed while radish roots help loosen
+  the same soil profile.
+- Garlic (Allium sativum) — aromatic bulbs pair well in rotations and help diversify
+  the pest landscape.
+cautions:
+- Avoid planting during hot spells; heat increases bolting and rough texture.
+pests:
+- Aphids
+- Slugs
+field_observations: |-
+  Seed depth matters: shallow sowing can tip roots, deep sowing can slow emergence.
+  Don’t transplant daikon—root disturbance turns into forked, sad carrots-with-attitude.
+  Harvest before extreme heat makes the root fibrous; flavor is time-dependent chemistry.
+diseases:
+- Root Rot
+animal_pressure:
+- Caterpillars

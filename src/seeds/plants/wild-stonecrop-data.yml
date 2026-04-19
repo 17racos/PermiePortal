@@ -1,47 +1,51 @@
----
-- common_name: Wild Stonecrop
-  picture: wild_stonecrop.webp
-  scientific_name: Sedum ternatum
-  aka:
-  - Woodland Stonecrop
-  - Virginia Stonecrop
-  - Woods Stonecrop
-  family: Crassulaceae
-  zone: 3-9
-  ideal_temp_min: 35
-  ideal_temp_max: 85
-  min_temp: -30
-  max_temp: 95
-  perennial: true
-  layers:
-  - Ground Cover
-  - Herbaceous
-  plant_function:
-  - Ground Cover
-  - Ornamental
-  - Erosion Control
-  - Pollinator
-  description: "Wild stonecrop (Sedum ternatum) is the same species listed as Virginia stonecrop in this database—a native eastern North American succulent groundcover for shade and partial sun, with whorled leaves and white starry flowers in late spring. Mats spread along rocks and logs, tolerating dry shade once established. Duplicate entries exist only to catch different common-name searches.\n\n☀️💧 Sun and Water Requirements:\nPartial shade to light sun; hot afternoon sun scorches leaves. Well-drained, humus-rich soils suit it; avoid wet clay stagnation.\n\n✂️ Propagation:\nDivide mats in spring; soft cuttings root easily.\n\n🌾 Harvest / Best Use Timing:\nOrnamental and ecological—peak bloom follows late-spring warmth."
-  purpose: |-
-    Ground Cover: Sedum ternatum mats creep along mossy rocks in whorls of three -- evergreen where winters are mild; dies back cleanly in cold zones.
-    Ornamental: White star flowers in late spring hover above succulent carpets -- texture beats color for woodland crevice designs.
-    Erosion Control: Roots anchor thin soil on shaded slopes -- survives dry shade after establishment if mulch mimics forest duff.
-    Pollinator: Small bees work the brief bloom -- window is short; design for foliage if pollinator credit is the goal.
-  companions:
-  - Virginia Stonecrop — duplicate Sedum ternatum record; same species, different slug
-  - Wild Columbine — spring forb neighbor above stonecrop mats
-  - Wild Ginger — shade groundcover pairing with contrasting leaf form
-  cautions:
-  - Duplicate listing with Virginia Stonecrop—Sedum ternatum is the taxon
-  - Baking sun — leaf scorch on exposed slopes
-  pests:
-  - Aphids
-  - Spider Mites
-  - Slugs
-  practitioner_notes: |-
-    Two cards, one succulent—pick a favorite filename and stop arguing with mirrors.
-    Dry shade works after establishment—babies still want moisture the first season.
-    Slugs love tender growth—iron phosphate beats despair in wet springs.
-    Star flowers are modest—design for texture, not billboard color.
-  growth_habit: Rhizomatous succulent groundcover; white spring stars; woodland shade
-  data_quality_score: 0.8
+common_name: Wild Stonecrop
+picture: wild_stonecrop.webp
+scientific_name: Sedum ternatum
+aka:
+- Woodland Stonecrop
+- Virginia Stonecrop
+- Woods Stonecrop
+family: Crassulaceae
+zone: 3-9
+ideal_temp_min: 35
+ideal_temp_max: 85
+min_temp: -30
+max_temp: 95
+perennial: true
+layers:
+- Ground Cover
+- Herbaceous
+plant_function:
+- Ground Cover
+- Ornamental
+- Erosion Control
+- Pollinator
+description: |-
+  Wild stonecrop (Sedum ternatum) is the same species listed as Virginia stonecrop in this database—a native eastern North American succulent groundcover for shade and partial sun, with whorled leaves and white starry flowers in late spring. Mats spread along rocks and logs, tolerating dry shade once established. Duplicate entries exist only to catch different common-name searches.
+
+  ☀️💧 Sun and Water Requirements:
+  Partial shade to light sun; hot afternoon sun scorches leaves. Well-drained, humus-rich soils suit it; avoid wet clay stagnation.
+
+  ✂️ Propagation:
+  Divide mats in spring; soft cuttings root easily.
+
+  🌾 Harvest / Best Use Timing:
+  Ornamental and ecological—peak bloom follows late-spring warmth.
+purpose: |-
+  Ground Cover: Sedum ternatum mats creep along mossy rocks in whorls of three -- evergreen where winters are mild; dies back cleanly in cold zones.
+  Ornamental: White star flowers in late spring hover above succulent carpets -- texture beats color for woodland crevice designs.
+  Erosion Control: Roots anchor thin soil on shaded slopes -- survives dry shade after establishment if mulch mimics forest duff.
+  Pollinator: Small bees work the brief bloom -- window is short; design for foliage if pollinator credit is the goal.
+companions:
+- Virginia Stonecrop — duplicate Sedum ternatum record; same species, different slug
+- Wild Columbine — spring forb neighbor above stonecrop mats
+- Wild Ginger — shade groundcover pairing with contrasting leaf form
+cautions:
+- Duplicate listing with Virginia Stonecrop—Sedum ternatum is the taxon
+- Baking sun — leaf scorch on exposed slopes
+pests:
+- Aphids
+- Spider Mites
+- Slugs
+growth_habit: Rhizomatous succulent groundcover; white spring stars; woodland shade
+data_quality_score: 0.8

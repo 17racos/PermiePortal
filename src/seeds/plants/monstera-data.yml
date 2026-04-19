@@ -1,66 +1,49 @@
----
-- common_name: Monstera
-  picture: monstera.webp
-  scientific_name: Monstera deliciosa
-  aka:
-  - Swiss Cheese Plant
-  - Split-Leaf Philodendron
-  - Windowleaf
-  family: Araceae
-  zone: 10-12
-  ideal_temp_min: 65
-  ideal_temp_max: 85
-  min_temp: 50
-  max_temp: 95
-  perennial: true
-  layers:
-  - Vine
-  - Sub-Canopy
-  plant_function:
-  - Edible
-  - Ornamental
-  - Air Purifier
-  description: "Monstera deliciosa is a tropical evergreen vine native to the rainforests
-    of southern Mexico and Central America. It is renowned for its large, glossy,
-    heart-shaped leaves that develop distinctive splits and holes, known as fenestrations,
-    as they mature. In its natural habitat, Monstera can climb up to 20 meters (approximately
-    65 feet) using its aerial roots to anchor onto trees. When cultivated indoors,
-    it typically reaches heights of 1.8 to 2.4 meters (6 to 8 feet). The plant produces
-    an inflorescence with a cream-white spathe and a spadix, leading to an elongated
-    fruit that is edible when ripe, offering a flavor reminiscent of a blend between
-    pineapple and jackfruit. However, unripe fruits contain calcium oxalate crystals,
-    which can cause irritation if consumed.\n\n\U0001F31E\U0001F4A7 Sun and Water
-    Requirements:\nMonstera thrives in bright, indirect light but can tolerate lower
-    light conditions. Direct sunlight can scorch its leaves. It prefers well-draining
-    soil and should be watered when the top 2.5 to 5 centimeters (1 to 2 inches) of
-    soil are dry. Overwatering can lead to root rot, so ensuring proper drainage is
-    essential.\n\n✂️\U0001FAD8 Methods to Propagate:\nPropagation is commonly done
-    through stem cuttings. Select a stem with at least one node and aerial root, cut
-    it cleanly, and place it in water or moist soil until roots develop. Air layering
-    is another effective method, where a section of the stem is encouraged to root
-    while still attached to the parent plant.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E
-    When to Harvest:\nIn its native tropical habitat, Monstera deliciosa produces
-    fruit that takes about a year to mature. The fruit is ready to harvest when the
-    scales begin to lift and emit a strong, sweet aroma. Caution is advised, as consuming
-    unripe fruit can cause irritation due to the presence of calcium oxalate crystals."
-  purpose: |-
-    Edible: The scaly infructescence called “Mexican breadfruit” ripens only after hexagonal scales loosen and the pulp beneath smells sweetly of pineapple-banana -- unripe fruit packs irritating oxalate raphides, so wait for the aromatic flex test before tasting.
-    Ornamental: Huge fenestrated Monstera deliciosa leaves on climbing stems read as instant jungle architecture on moss poles, courtyard walls, or bright lobbies -- juvenile entire leaves differ from mature split panels, which is half the collector sport.
-    Air Purifier: Broad leaf surface area and steady transpiration in bright rooms increase humidity and capture dust that would otherwise hang in HVAC drafts -- realistic expectation is comfort microclimate and particulate trapping, not a miracle VOC vacuum in one pot.
-  companions:
-  - Philodendron
-  - Pothos
-  - Fern
-  cautions:
-  - Direct Sunlight
-  pests:
-  - Spider Mites
-  - Mealybugs
-  - Scale Insects
-  - Fungus Gnat
-  practitioner_notes: |-
-    Unripe fruit with shell still tight is oxalate trouble—wait until scales lift and aroma shows.
-    Indoor aerial roots want moss pole or bark—bare drywall is not a substitute.
-    Variegated clones root slower—patience beats overwatering yellow cuts.
-  growth_habit: Tree
-  data_quality_score: 0.8
+common_name: Monstera
+picture: monstera.webp
+scientific_name: Monstera deliciosa
+aka:
+- Swiss Cheese Plant
+- Split-Leaf Philodendron
+- Windowleaf
+family: Araceae
+zone: 10-12
+ideal_temp_min: 65
+ideal_temp_max: 85
+min_temp: 50
+max_temp: 95
+perennial: true
+layers:
+- Vine
+- Sub-Canopy
+plant_function:
+- Edible
+- Ornamental
+- Air Purifier
+description: |-
+  Monstera deliciosa is a tropical evergreen vine native to the rainforests of southern Mexico and Central America. It is renowned for its large, glossy, heart-shaped leaves that develop distinctive splits and holes, known as fenestrations, as they mature. In its natural habitat, Monstera can climb up to 20 meters (approximately 65 feet) using its aerial roots to anchor onto trees. When cultivated indoors, it typically reaches heights of 1.8 to 2.4 meters (6 to 8 feet). The plant produces an inflorescence with a cream-white spathe and a spadix, leading to an elongated fruit that is edible when ripe, offering a flavor reminiscent of a blend between pineapple and jackfruit. However, unripe fruits contain calcium oxalate crystals, which can cause irritation if consumed.
+
+  🌞💧 Sun and Water Requirements:
+  Monstera thrives in bright, indirect light but can tolerate lower light conditions. Direct sunlight can scorch its leaves. It prefers well-draining soil and should be watered when the top 2.5 to 5 centimeters (1 to 2 inches) of soil are dry. Overwatering can lead to root rot, so ensuring proper drainage is essential.
+
+  ✂️🫘 Methods to Propagate:
+  Propagation is commonly done through stem cuttings. Select a stem with at least one node and aerial root, cut it cleanly, and place it in water or moist soil until roots develop. Air layering is another effective method, where a section of the stem is encouraged to root while still attached to the parent plant.
+
+  🧑‍🌾👩‍🌾 When to Harvest:
+  In its native tropical habitat, Monstera deliciosa produces fruit that takes about a year to mature. The fruit is ready to harvest when the scales begin to lift and emit a strong, sweet aroma. Caution is advised, as consuming unripe fruit can cause irritation due to the presence of calcium oxalate crystals.
+purpose: |-
+  Edible: The scaly infructescence called “Mexican breadfruit” ripens only after hexagonal scales loosen and the pulp beneath smells sweetly of pineapple-banana -- unripe fruit packs irritating oxalate raphides, so wait for the aromatic flex test before tasting.
+  Ornamental: Huge fenestrated Monstera deliciosa leaves on climbing stems read as instant jungle architecture on moss poles, courtyard walls, or bright lobbies -- juvenile entire leaves differ from mature split panels, which is half the collector sport.
+  Air Purifier: Broad leaf surface area and steady transpiration in bright rooms increase humidity and capture dust that would otherwise hang in HVAC drafts -- realistic expectation is comfort microclimate and particulate trapping, not a miracle VOC vacuum in one pot.
+companions:
+- Philodendron
+- Pothos
+- Fern
+cautions:
+- Direct Sunlight
+pests:
+- Spider Mites
+- Mealybugs
+- Scale Insects
+- Fungus Gnat
+growth_habit: Tree
+data_quality_score: 0.8

@@ -1,62 +1,54 @@
----
-- common_name: Southern Magnolia
-  picture: southern_magnolia.webp
-  scientific_name: Magnolia grandiflora
-  aka:
-  - Bull bay
-  family: Magnoliaceae
-  zone: "7-10"
-  ideal_temp_min: 45
-  ideal_temp_max: 95
-  min_temp: 0
-  max_temp: 105
-  perennial: true
-  layers:
-  - Tree
-  - Canopy
-  plant_function:
-  - Wildlife Attractor
-  - Shade Provider
-  - Windbreaker
-  - Ornamental
-  description: |-
-    Southern magnolia is glossy evergreen ego with lemon-cream flowers and a leaf-drop habit that refuses minimalism. Native to the Southeast, it reads "estate driveway" but works as heat-season shade and bird cover in food forests if you accept litter.
-    
-    ☀️💧 Sun and Water Requirements:
-    - Full sun to part shade; denser in sun, thinner in shade — pick your aesthetic tax.
-    - Moist, acidic, organic-rich soil preferred; tolerates clay if drainage exists.
-    - Drought-tolerant when established but looks richer with summer water.
-    
-    ✂️ Methods to Propagate:
-    - Seeds: stratify; slow road to treehood, good for cheap experiments.
-    - Cuttings: semi-hardwood with auxin and humidity for patient propagators.
-    - Grafting and air layering used for named cultivars with predictable form.
-    
-    🌾 Harvest / Best Use Timing:
-    - Pick mature cones when follicles open and scarlet seeds show -- air-dry seeds briefly before sowing or cold storage experiments.
-    - Floral parts are ornamental use primarily -- fragrance peaks on freshly opened blooms.
-    - Leaf drop is mulch timing -- rake into beds if scale insects are not part of the bundle.
-  purpose: |-
-    Wildlife Attractor: Magnolia grandiflora cone-like follicles shed bright red arils that squirrels cache while dense evergreen limbs hide swallow nests along pasture edges.
-    Shade Provider: Leathery leaves reflect Gulf humidity while casting year-round shade for camellias and understory tea shrubs that fry in open sun.
-    Windbreaker: Low wide limbs flex in hurricane gusts yet stay foliated enough to blunt wind across citrus blocks and tunnel houses.
-    Ornamental: Copper-backed foliage and lemon-vanilla plate blooms anchor estate entries where soil drainage matches the romance.
-  companions:
-  - Beautyberry
-  - Ferns
-  - Muscadine
-  cautions:
-  - Planting under eaves where heavy branches and leaves clog gutters without mercy
-  - Expecting tidy lawns beneath without rake labor
-  pests:
-  - Scale Insects
-  - Japanese Beetles
-  - Caterpillars
-  practitioner_notes: |-
-    Watch the plant’s own signals first—catalog zone numbers do not replace your site’s microclimate truth.
-    Sharp tools and clean cuts beat torn stems; disease spores love frayed tissue more than rhetoric.
-    Soil smell and root color tell more than gadget overload—dig a small hole twice a season.
-    Notebook one weird year—weather anomalies repeat; memory lies, scribbles do not.
-  # Image attribution: DavetheMage / Wikimedia Commons / CC BY 3.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+common_name: Southern Magnolia
+picture: southern_magnolia.webp
+scientific_name: Magnolia grandiflora
+aka:
+- Bull bay
+family: Magnoliaceae
+zone: 7-10
+ideal_temp_min: 45
+ideal_temp_max: 95
+min_temp: 0
+max_temp: 105
+perennial: true
+layers:
+- Tree
+- Canopy
+plant_function:
+- Wildlife Attractor
+- Shade Provider
+- Windbreaker
+- Ornamental
+description: |-
+  Southern magnolia is glossy evergreen ego with lemon-cream flowers and a leaf-drop habit that refuses minimalism. Native to the Southeast, it reads "estate driveway" but works as heat-season shade and bird cover in food forests if you accept litter.
+
+  ☀️💧 Sun and Water Requirements:
+  - Full sun to part shade; denser in sun, thinner in shade — pick your aesthetic tax.
+  - Moist, acidic, organic-rich soil preferred; tolerates clay if drainage exists.
+  - Drought-tolerant when established but looks richer with summer water.
+
+  ✂️ Methods to Propagate:
+  - Seeds: stratify; slow road to treehood, good for cheap experiments.
+  - Cuttings: semi-hardwood with auxin and humidity for patient propagators.
+  - Grafting and air layering used for named cultivars with predictable form.
+
+  🌾 Harvest / Best Use Timing:
+  - Pick mature cones when follicles open and scarlet seeds show -- air-dry seeds briefly before sowing or cold storage experiments.
+  - Floral parts are ornamental use primarily -- fragrance peaks on freshly opened blooms.
+  - Leaf drop is mulch timing -- rake into beds if scale insects are not part of the bundle.
+purpose: |-
+  Wildlife Attractor: Magnolia grandiflora cone-like follicles shed bright red arils that squirrels cache while dense evergreen limbs hide swallow nests along pasture edges.
+  Shade Provider: Leathery leaves reflect Gulf humidity while casting year-round shade for camellias and understory tea shrubs that fry in open sun.
+  Windbreaker: Low wide limbs flex in hurricane gusts yet stay foliated enough to blunt wind across citrus blocks and tunnel houses.
+  Ornamental: Copper-backed foliage and lemon-vanilla plate blooms anchor estate entries where soil drainage matches the romance.
+companions:
+- Beautyberry
+- Ferns
+- Muscadine
+cautions:
+- Planting under eaves where heavy branches and leaves clog gutters without mercy
+- Expecting tidy lawns beneath without rake labor
+pests:
+- Scale Insects
+- Japanese Beetles
+animal_pressure:
+- Caterpillars

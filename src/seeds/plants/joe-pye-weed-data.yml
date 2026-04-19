@@ -1,75 +1,56 @@
----
-- common_name: Joe Pye Weed
-  picture: joe_pye_weed.webp
-  scientific_name: Eutrochium purpureum
-  aka:
-  - Sweet Joe Pye Weed
-  - Gravel Root
-  - Kidney Root
-  - Gravel Weed
-  family: Asteraceae
-  zone: 4-9
-  ideal_temp_min: 65
-  ideal_temp_max: 75
-  min_temp: -30
-  max_temp: 95
-  perennial: true
-  layers:
-  - Sub-Canopy
-  plant_function:
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
-  - Border Plant
-  description: 'Joe Pye Weed is a robust, herbaceous perennial native to eastern and central North America. It typically grows
-    between 1.5 to 2.4 meters (5 to 8 feet) tall and about 1.2 meters (4 feet) wide. The plant features upright, sturdy stems
-    that are often green with purple spots or entirely purple. Leaves are arranged in whorls of three to five per node, each
-    up to 30 centimeters (12 inches) long with a slightly wrinkled texture. In mid to late summer, it produces large, domed
-    clusters of tiny, fragrant, mauve or pink-purple flowers that are highly attractive to butterflies and other pollinators.
+common_name: Joe Pye Weed
+picture: joe_pye_weed.webp
+scientific_name: Eutrochium purpureum
+aka:
+- Sweet Joe Pye Weed
+- Gravel Root
+- Kidney Root
+- Gravel Weed
+family: Asteraceae
+zone: 4-9
+ideal_temp_min: 65
+ideal_temp_max: 75
+min_temp: -30
+max_temp: 95
+perennial: true
+layers:
+- Sub-Canopy
+plant_function:
+- Medicinal
+- Pollinator
+- Wildlife Attractor
+- Border Plant
+description: |-
+  Joe Pye Weed is a robust, herbaceous perennial native to eastern and central North America. It typically grows between 1.5 to 2.4 meters (5 to 8 feet) tall and about 1.2 meters (4 feet) wide. The plant features upright, sturdy stems that are often green with purple spots or entirely purple. Leaves are arranged in whorls of three to five per node, each up to 30 centimeters (12 inches) long with a slightly wrinkled texture. In mid to late summer, it produces large, domed clusters of tiny, fragrant, mauve or pink-purple flowers that are highly attractive to butterflies and other pollinators.
 
+  🌞💧 Sun and Water Requirements:
+  Joe Pye Weed thrives in full sun to partial shade and prefers moist, well-drained soils. It is commonly found in natural habitats like moist meadows, woodland edges, and stream banks, indicating its preference for consistently moist conditions.
 
-    🌞💧 Sun and Water Requirements:
+  ✂️🫘 Methods to Propagate:
+  Propagation can be achieved through seed sowing or division. Seeds require cold stratification and should be sown in the fall or early spring. Division is best done in early spring or late fall by separating clumps and replanting them immediately.
 
-    Joe Pye Weed thrives in full sun to partial shade and prefers moist, well-drained soils. It is commonly found in natural
-    habitats like moist meadows, woodland edges, and stream banks, indicating its preference for consistently moist conditions.
-
-
-    ✂️🫘 Methods to Propagate:
-
-    Propagation can be achieved through seed sowing or division. Seeds require cold stratification and should be sown in the
-    fall or early spring. Division is best done in early spring or late fall by separating clumps and replanting them immediately.
-
-
-    🧑‍🌾👩‍🌾 When to Harvest:
-
-    For medicinal purposes, roots are typically harvested in the fall after the plant has flowered. Aerial parts can be collected
-    during the flowering period for use in teas and tinctures.'
-  purpose: |-
-    Medicinal: Eutrochium purpureum root and flowering tops enter traditional protocols for urinary gravel and fevers -- harvest roots after hard frost when energy sinks, and dry aerial parts at peak bloom for tinctures with practitioner oversight.
-    Pollinator: Domed mauve inflorescences drip nectar for swallowtails, monarchs, and long-tongued bees in late summer -- site in masses so pollinators find volume, not singleton stems lost in lawn.
-    Wildlife Attractor: Eupatorium specialists and generalist moth larvae chew foliage -- accept some ragged leaves if moth completion is part of your wet-meadow restoration goal.
-    Border Plant: Six- to eight-foot stems form a soft purple wall at the back of rain gardens -- pair with shorter sedges in front so scale reads intentional, not weedy.
-  companions:
-  - Aster
-  - Goldenrod
-  - Black-eyed Susan
-  - Coneflower
-  cautions:
-  - None specified
-  pests:
-  - Aphids
-  - Banded Winged Whitefly
-  - Greenhouse Whitefly
-  - Lettuce Aphid
-  - Lubber Grasshopper
-  - Powdery Mildew
-  - Root Aphid
-  practitioner_notes: 'Label jars with plant part and date the day you seal—future you is not psychic.
-
-    Cluster patches three feet or wider—tiny one-offs get ignored by bees cruising for volume.
-
-    Sharp tools and clean cuts beat torn stems; disease spores love frayed tissue more than rhetoric.
-
-    Dry aerial parts fast with airflow, not slow plastic bags—mold reads as ‘aged’ only in marketing copy.'
-  growth_habit: Tree
-  data_quality_score: 0.8
+  🧑‍🌾👩‍🌾 When to Harvest:
+  For medicinal purposes, roots are typically harvested in the fall after the plant has flowered. Aerial parts can be collected during the flowering period for use in teas and tinctures.
+purpose: |-
+  Medicinal: Eutrochium purpureum root and flowering tops enter traditional protocols for urinary gravel and fevers -- harvest roots after hard frost when energy sinks, and dry aerial parts at peak bloom for tinctures with practitioner oversight.
+  Pollinator: Domed mauve inflorescences drip nectar for swallowtails, monarchs, and long-tongued bees in late summer -- site in masses so pollinators find volume, not singleton stems lost in lawn.
+  Wildlife Attractor: Eupatorium specialists and generalist moth larvae chew foliage -- accept some ragged leaves if moth completion is part of your wet-meadow restoration goal.
+  Border Plant: Six- to eight-foot stems form a soft purple wall at the back of rain gardens -- pair with shorter sedges in front so scale reads intentional, not weedy.
+companions:
+- Aster
+- Goldenrod
+- Black-eyed Susan
+- Coneflower
+cautions:
+- None specified
+pests:
+- Aphids
+- Banded Winged Whitefly
+- Greenhouse Whitefly
+- Lettuce Aphid
+- Lubber Grasshopper
+- Root Aphid
+growth_habit: Tree
+data_quality_score: 0.8
+diseases:
+- Powdery Mildew

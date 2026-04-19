@@ -1,70 +1,49 @@
----
-- common_name: Peanut Tree
-  picture: peanut_tree.webp
-  scientific_name: Sterculia quadrifida
-  aka:
-  - Red-fruited Kurrajong
-  - Kuman
-  family: Malvaceae
-  zone: 10-12
-  ideal_temp_min: 70°F (21°C)
-  ideal_temp_max: 90°F (32°C)
-  min_temp: 50°F (10°C)
-  max_temp: 100°F (38°C)
-  perennial: true
-  layers:
-  - Sub-Canopy
-  - Shrub
-  plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Ornamental
-  description: 'The Peanut Tree, native to Australia, is a small to medium-sized tree reaching heights of 10 to 20 meters
-    (33 to 66 feet). It is known for its distinctive bright red, woody fruit that splits open to reveal black seeds encased
-    in a thin, edible, peanut-flavored aril. The tree has glossy green leaves and produces small, inconspicuous flowers. It
-    prefers well-drained soils and can tolerate a range of soil types, including sandy and loamy soils. The Peanut Tree is
-    drought-tolerant once established and can be grown in tropical and subtropical climates.
+common_name: Peanut Tree
+picture: peanut_tree.webp
+scientific_name: Sterculia quadrifida
+aka:
+- Red-fruited Kurrajong
+- Kuman
+family: Malvaceae
+zone: 10-12
+ideal_temp_min: 70°F (21°C)
+ideal_temp_max: 90°F (32°C)
+min_temp: 50°F (10°C)
+max_temp: 100°F (38°C)
+perennial: true
+layers:
+- Sub-Canopy
+- Shrub
+plant_function:
+- Edible
+- Wildlife Attractor
+- Ornamental
+description: |-
+  The Peanut Tree, native to Australia, is a small to medium-sized tree reaching heights of 10 to 20 meters (33 to 66 feet). It is known for its distinctive bright red, woody fruit that splits open to reveal black seeds encased in a thin, edible, peanut-flavored aril. The tree has glossy green leaves and produces small, inconspicuous flowers. It prefers well-drained soils and can tolerate a range of soil types, including sandy and loamy soils. The Peanut Tree is drought-tolerant once established and can be grown in tropical and subtropical climates.
 
+  ✂️🫘 **Methods to Propagate:**
+  Propagation is typically done through seeds. Fresh seeds have higher germination rates and should be sown in well-draining soil. Soaking seeds in water overnight before planting can improve germination success. Seedlings should be protected from frost and strong winds during the early stages of growth.
 
-    ✂️🫘 **Methods to Propagate:**
+  🌞💧 **Sun and Water Requirements:**
+  The Peanut Tree thrives in full sun but can tolerate partial shade. It prefers well-drained soils and is drought-tolerant once established. Regular watering is essential during the establishment phase to ensure healthy growth.
 
-    Propagation is typically done through seeds. Fresh seeds have higher germination rates and should be sown in well-draining
-    soil. Soaking seeds in water overnight before planting can improve germination success. Seedlings should be protected
-    from frost and strong winds during the early stages of growth.
-
-
-    🌞💧 **Sun and Water Requirements:**
-
-    The Peanut Tree thrives in full sun but can tolerate partial shade. It prefers well-drained soils and is drought-tolerant
-    once established. Regular watering is essential during the establishment phase to ensure healthy growth.
-
-
-    🧑‍🌾👩‍🌾 **When to Harvest:**
-
-    The fruits are typically harvested when they turn bright red and begin to split open, revealing the seeds inside. This
-    usually occurs in late summer to early autumn. The edible arils can be consumed fresh once extracted from the fruit.'
-  purpose: |-
-    Edible: Sterculia quadrifida woody follicles split to expose black seeds wrapped in thin arils that taste nutty raw or better roasted like peanuts -- arils are small; harvest is finger work, not combine logistics.
-    Wildlife Attractor: Brilliant red dehiscent pods flag finches, parrots, and fruit bats across Australian savanna gardens -- expect seed rain and volunteers if you let every follicle pop before pickup.
-    Ornamental: Large alternate leaves and scarlet fruit clusters read as subtropical accent even when you never taste the aril -- drought-tolerant once established on sandy soils with honest drainage.
-  companions:
-  - Acacia
-  - Eucalyptus
-  - Grevillea
-  cautions:
-  - None reported
-  pests:
-  - Banded Winged Whitefly
-  - Caterpillars
-  - Cocoa Pod Borer
-  - Scale Insects
-  practitioner_notes: 'Harvest texture changes faster than color—nip one sample before you commit the whole row to a pick
-    date.
-
-    Soil smell and root color tell more than gadget overload—dig a small hole twice a season.
-
-    Blanch or process within hours if you are freezing—enzymes keep chewing while paperwork waits.
-
-    Notebook one weird year—weather anomalies repeat; memory lies, scribbles do not.'
-  growth_habit: Tree
-  data_quality_score: 0.8
+  🧑‍🌾👩‍🌾 **When to Harvest:**
+  The fruits are typically harvested when they turn bright red and begin to split open, revealing the seeds inside. This usually occurs in late summer to early autumn. The edible arils can be consumed fresh once extracted from the fruit.
+purpose: |-
+  Edible: Sterculia quadrifida woody follicles split to expose black seeds wrapped in thin arils that taste nutty raw or better roasted like peanuts -- arils are small; harvest is finger work, not combine logistics.
+  Wildlife Attractor: Brilliant red dehiscent pods flag finches, parrots, and fruit bats across Australian savanna gardens -- expect seed rain and volunteers if you let every follicle pop before pickup.
+  Ornamental: Large alternate leaves and scarlet fruit clusters read as subtropical accent even when you never taste the aril -- drought-tolerant once established on sandy soils with honest drainage.
+companions:
+- Acacia
+- Eucalyptus
+- Grevillea
+cautions:
+- None reported
+pests:
+- Banded Winged Whitefly
+- Cocoa Pod Borer
+- Scale Insects
+growth_habit: Tree
+data_quality_score: 0.8
+animal_pressure:
+- Caterpillars

@@ -1,71 +1,54 @@
----
-- common_name: Caesarweed
-  picture: caesarweed.webp
-  scientific_name: Urena lobata
-  aka:
-  - Congo jute
-  family: Malvaceae
-  zone: 8-12
-  ideal_temp_min: 55
-  ideal_temp_max: 95
-  min_temp: 25
-  max_temp: 110
-  perennial: false
-  layers:
-  - Herbaceous
-  plant_function:
-  - Fiber
-  - Biomass
-  - Dynamic Accumulator
-  - Animal Fodder
-  description: 'Caesarweed (Urena lobata) is a fast-growing malvaceous weed or fiber crop of tropical and subtropical regions
-    worldwide, naturalized in parts of the Americas on roadsides, pastures, and disturbed ground. Plants are bushy annuals
-    or short-lived perennials roughly 3–6 feet (1–2 m) with pinkish flowers and dry burr-like fruits that cling to clothing
-    and livestock. It has industrial fiber history in some countries; in permaculture contexts treat it as a biomass or disturbance
-    indicator, not a default polyculture partner.
+common_name: Caesarweed
+picture: caesarweed.webp
+scientific_name: Urena lobata
+aka:
+- Congo jute
+family: Malvaceae
+zone: 8-12
+ideal_temp_min: 55
+ideal_temp_max: 95
+min_temp: 25
+max_temp: 110
+perennial: false
+layers:
+- Herbaceous
+plant_function:
+- Fiber
+- Biomass
+- Dynamic Accumulator
+- Animal Fodder
+description: |-
+  Caesarweed (Urena lobata) is a fast-growing malvaceous weed or fiber crop of tropical and subtropical regions worldwide, naturalized in parts of the Americas on roadsides, pastures, and disturbed ground. Plants are bushy annuals or short-lived perennials roughly 3–6 feet (1–2 m) with pinkish flowers and dry burr-like fruits that cling to clothing and livestock. It has industrial fiber history in some countries; in permaculture contexts treat it as a biomass or disturbance indicator, not a default polyculture partner.
 
+  ☀️💧 Sun and Water Requirements:
+  Full sun; tolerates poor soils and seasonal drought once established. Responds strongly to fertility and moisture—irrigated ditch banks can explode into impenetrable thickets. Avoid introducing where regional biosecurity lists flag it.
 
-    ☀️💧 Sun and Water Requirements:
+  ✂️ Propagation:
+  Usually arrives by seed on equipment, animals, or flood debris. If researching fiber lines, direct-sow warm soil after last frost in frost pockets. Remove plants before burr set to reduce seedbank pressure.
 
-    Full sun; tolerates poor soils and seasonal drought once established. Responds strongly to fertility and moisture—irrigated
-    ditch banks can explode into impenetrable thickets. Avoid introducing where regional biosecurity lists flag it.
-
-
-    ✂️ Propagation:
-
-    Usually arrives by seed on equipment, animals, or flood debris. If researching fiber lines, direct-sow warm soil after
-    last frost in frost pockets. Remove plants before burr set to reduce seedbank pressure.
-
-
-    🌾 Harvest / Best Use Timing:
-
-    Fiber harvest requires retting knowledge beyond casual gardening—most growers focus on control. For biomass, cut before
-    mature burrs form; compost hot if seeds are present. Repeat cuts through the wet season to exhaust root reserves on annual
-    forms.'
-  purpose: |-
-    Fiber: stem bast yields malvaceous fiber for cordage and rough textiles after retting and scraping steps that differ from casual garden composting.
-    Biomass: grows fast enough on roadsides and pastures to cut whole plants into compost when stems are still soft and before burrs mature.
-    Dynamic Accumulator: mines disturbed ground quickly, moving nutrients into leafy stems that can be chipped off-site after a chop cycle instead of letting seedbanks thicken.
-    Animal Fodder: Livestock sometimes graze young Urena lobata before stems stiffen -- mature plants turn woody and bristly, so fodder value is a narrow early-season window.
-  companions:
-  - Elderberry — both colonize disturbed edges; elder provides structure while you manage caesarweed seed rain
-  - Dogfennel — tall aromatic forb matrix on similar waste ground (management, not romance)
-  - Guinea Grass — competitive warm-season grass can suppress annual malvaceous weeds with repeated mowing timing
-  cautions:
-  - Invasive potential — listed or problematic in parts of the subtropical United States and Caribbean basin
-  - Burr hitchhiking — spreads on livestock, clothing, and machinery
-  - Skin irritation — some people react to malvaceous hairs; gloves for heavy pulling
-  pests:
-  - Aphids
-  - Banded Winged Whitefly
-  - Cocoa Pod Borer
-  - Japanese Beetles
-  practitioner_notes: 'If your pants look like Velcro after a walk, check fruit type—caesarweed burrs are a lifestyle.
-
-    “Fiber crop” is true globally and labor-heavy locally; do not confuse potential with your weekend schedule.
-
-    Cutting after burr set is how you sponsor next year’s population—timing beats enthusiasm.
-
-    Flood-deposited seed lines reveal water flow better than most engineering sketches.'
-  growth_habit: Upright malvaceous annual to short-lived perennial; pink flowers; burr fruits
-  data_quality_score: 0.75
+  🌾 Harvest / Best Use Timing:
+  Fiber harvest requires retting knowledge beyond casual gardening—most growers focus on control. For biomass, cut before mature burrs form; compost hot if seeds are present. Repeat cuts through the wet season to exhaust root reserves on annual forms.
+purpose: |-
+  Fiber: stem bast yields malvaceous fiber for cordage and rough textiles after retting and scraping steps that differ from casual garden composting.
+  Biomass: grows fast enough on roadsides and pastures to cut whole plants into compost when stems are still soft and before burrs mature.
+  Dynamic Accumulator: mines disturbed ground quickly, moving nutrients into leafy stems that can be chipped off-site after a chop cycle instead of letting seedbanks thicken.
+  Animal Fodder: Livestock sometimes graze young Urena lobata before stems stiffen -- mature plants turn woody and bristly, so fodder value is a narrow early-season window.
+companions:
+- Elderberry — both colonize disturbed edges; elder provides structure while you manage
+  caesarweed seed rain
+- Dogfennel — tall aromatic forb matrix on similar waste ground (management, not romance)
+- Guinea Grass — competitive warm-season grass can suppress annual malvaceous weeds
+  with repeated mowing timing
+cautions:
+- Invasive potential — listed or problematic in parts of the subtropical United States
+  and Caribbean basin
+- Burr hitchhiking — spreads on livestock, clothing, and machinery
+- Skin irritation — some people react to malvaceous hairs; gloves for heavy pulling
+pests:
+- Aphids
+- Banded Winged Whitefly
+- Cocoa Pod Borer
+- Japanese Beetles
+growth_habit: Upright malvaceous annual to short-lived perennial; pink flowers; burr
+  fruits
+data_quality_score: 0.75

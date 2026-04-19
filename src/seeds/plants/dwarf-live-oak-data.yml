@@ -1,60 +1,56 @@
----
-- common_name: Dwarf Live Oak
-  picture: dwarf_live_oak.webp
-  scientific_name: Quercus minima
-  aka:
-  - Runner oak
-  family: Fagaceae
-  zone: 7-10
-  ideal_temp_min: 45
-  ideal_temp_max: 95
-  min_temp: 5
-  max_temp: 108
-  perennial: true
-  layers:
-  - Shrub
-  - Ground Cover
-  plant_function:
-  - Wildlife Attractor
-  - Erosion Control
-  - Mulcher
-  - Border Plant
-  description: "Dwarf live oak (Quercus minima) is an evergreen, rhizomatous oak that behaves like a woody ground cover, rarely\
-    \ rising above knee height but spreading into extensive clones in sandy pine savannas and dry oak scrub around the Gulf\
-    \ and Atlantic coastal plains. It is not a bonsai mistake—genetics keep it low while it still makes acorns for wildlife\
-    \ honest enough to bend down. Use it in restoration, fire-adapted landscaping, and food forests where you want oak ecology\
-    \ without shading out every understory dream.\n\n☀️\U0001F4A7 Sun and Water Requirements:\nFull sun; tolerates droughty,\
-    \ infertile sands once established. Poor fit for heavy clay or chronically irrigated lawn islands. Needs excellent drainage;\
-    \ seasonal wet is tolerated briefly but constant saturation rots roots. Hardy into light freezes typical of zones 7–10\
-    \ coastal interiors; extreme cold snaps damage foliage.\n\n ✂️ Propagation:\nTransplant rooted rhizome sections during\
-    \ cool, moist weather with minimal root disturbance.\nAcorns can be sown fresh; seedlings may vary in vigor and clonal\
-    \ tendency.\n\n\U0001F33E Harvest / Best Use Timing:\nAcorns mature in fall; wildlife harvest is the main yield. For restoration,\
-    \ collect local ecotype seed. Prune only to reduce encroachment on paths—natural spread is the point."
-  purpose: |-
-    Wildlife Attractor: Quercus minima still sets acorns near ground level for quail, jays, and small mammals across evergreen scrub clones.
-    Erosion Control: Rhizomatous runners and dense foliage armor deep sand on coastal ridges against sheet erosion.
-    Mulcher: Small evergreen oak leaves acidify duff slowly -- feeds mycorrhizal webs under wiregrass and palmetto neighbors.
-    Border Plant: Knee-high oak mats define savanna and scrub edges without closing a tall canopy.
-  companions:
-  - Wiregrass — classic longleaf ground layer partner; carries fire-ready structure where prescribed fire is used
-  - Turkey Oak — taller oak matrix above dwarf clones on sandhill sites
-  - Bluestem — warm-season grasses interdigitate with oak runners in mosaic plantings
-  cautions:
-  - Prescribed fire and mowing require knowledge—treatments that work in savanna restoration can terrify suburban turf expectations
-  pests:
-  - Borers
-  - Fall Webworm
-  - Gall Mite
-  - Scale Insects
-  - Tent Caterpillar
-  - Twig Girdlers
-  practitioner_notes: 'If it is "too short to be an oak," you are looking at the right plant—height is not the only oak resume
-    line.
+common_name: Dwarf Live Oak
+picture: dwarf_live_oak.webp
+scientific_name: Quercus minima
+aka:
+- Runner oak
+family: Fagaceae
+zone: 7-10
+ideal_temp_min: 45
+ideal_temp_max: 95
+min_temp: 5
+max_temp: 108
+perennial: true
+layers:
+- Shrub
+- Ground Cover
+plant_function:
+- Wildlife Attractor
+- Erosion Control
+- Mulcher
+- Border Plant
+description: |-
+  Dwarf live oak (Quercus minima) is an evergreen, rhizomatous oak that behaves like a woody ground cover, rarely rising above knee height but spreading into extensive clones in sandy pine savannas and dry oak scrub around the Gulf and Atlantic coastal plains. It is not a bonsai mistake—genetics keep it low while it still makes acorns for wildlife honest enough to bend down. Use it in restoration, fire-adapted landscaping, and food forests where you want oak ecology without shading out every understory dream.
 
-    Clonal patches can be ancient; calling them shrubs misses the timeline.
+  ☀️💧 Sun and Water Requirements:
+  Full sun; tolerates droughty, infertile sands once established. Poor fit for heavy clay or chronically irrigated lawn islands. Needs excellent drainage; seasonal wet is tolerated briefly but constant saturation rots roots. Hardy into light freezes typical of zones 7–10 coastal interiors; extreme cold snaps damage foliage.
 
-    Acorns sit near ground level—quail math likes that more than human back math.
+   ✂️ Propagation:
+  Transplant rooted rhizome sections during cool, moist weather with minimal root disturbance.
+  Acorns can be sown fresh; seedlings may vary in vigor and clonal tendency.
 
-    Do not expect instant empire; rhizomes teach calendar humility.'
-  growth_habit: Evergreen rhizomatous oak; low mats; small acorns; sandhill affinity
-  data_quality_score: 0.85
+  🌾 Harvest / Best Use Timing:
+  Acorns mature in fall; wildlife harvest is the main yield. For restoration, collect local ecotype seed. Prune only to reduce encroachment on paths—natural spread is the point.
+purpose: |-
+  Wildlife Attractor: Quercus minima still sets acorns near ground level for quail, jays, and small mammals across evergreen scrub clones.
+  Erosion Control: Rhizomatous runners and dense foliage armor deep sand on coastal ridges against sheet erosion.
+  Mulcher: Small evergreen oak leaves acidify duff slowly -- feeds mycorrhizal webs under wiregrass and palmetto neighbors.
+  Border Plant: Knee-high oak mats define savanna and scrub edges without closing a tall canopy.
+companions:
+- Wiregrass — classic longleaf ground layer partner; carries fire-ready structure
+  where prescribed fire is used
+- Turkey Oak — taller oak matrix above dwarf clones on sandhill sites
+- Bluestem — warm-season grasses interdigitate with oak runners in mosaic plantings
+cautions:
+- Prescribed fire and mowing require knowledge—treatments that work in savanna restoration
+  can terrify suburban turf expectations
+pests:
+- Borers
+- Fall Webworm
+- Scale Insects
+- Twig Girdlers
+growth_habit: Evergreen rhizomatous oak; low mats; small acorns; sandhill affinity
+data_quality_score: 0.85
+diseases:
+- Gall Mite
+animal_pressure:
+- Tent Caterpillar

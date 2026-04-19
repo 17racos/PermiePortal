@@ -1,90 +1,76 @@
----
-- common_name: Lupine
-  picture: lupine.webp
-  scientific_name: Lupinus spp.
-  aka:
-  - Bluebonnet
-  - Wolf's-bane
-  family: Fabaceae
-  zone: 3-8
-  ideal_temp_min: 60°F (15°C)
-  ideal_temp_max: 70°F (21°C)
-  min_temp: -40°F (-40°C)
-  max_temp: 85°F (29°C)
-  perennial: true
-  layers:
-  - Sub-Canopy
-  - Shrub
-  - Ground Cover
-  plant_function:
-  - Edible
-  - Nitrogen Fixer
-  - Pollinator
-  - Wildlife Attractor
-  - Erosion Control
-  - Ornamental
-  description: 'Lupines are herbaceous perennials known for their tall, spiky flower clusters that come in a variety of colors,
-    including blue, purple, pink, and white. They typically grow between 0.3 to 1.5 meters (1 to 5 feet) in height, with some
-    species reaching up to 6 meters (20 feet). The plants have deeply divided, palmate leaves and produce seed pods after
-    flowering. They thrive in cooler climates and prefer well-drained, sandy soils. Lupines are also known for their nitrogen-fixing
-    ability, enriching the soil in which they grow. Propagation is commonly done through seeds, which should be scarified
-    before planting. Harvesting of seeds occurs in late summer when the pods turn brown and begin to split.
-
-    ☀️💧 Sun and Water Requirements — Full sun to bright partial shade; hot-summer climates benefit from afternoon shade. Well-drained,
-    sandy or gravelly loam with slightly acidic pH suits most species; avoid waterlogged clay that rots deep taproots. Moderate
-    moisture during establishment and flowering; established plants tolerate short dry spells but not standing water.'
-  purpose: |-
-    Edible: Sweet Lupinus selections produce debittered lupin beans after long soaking and boiling -- wild-collected species often carry bitter quinolizidine alkaloids that demand lab-grade processing, not campfire roasting.
-    Nitrogen Fixer: Bradyrhizobium nodules on lupine roots fix nitrogen in poor sand -- follow with non-legume crops that mine the bank left in residues after you slash spent stalks.
-    Pollinator: Pea-like flower whorls feed bumblebee queens and hummingbirds along mountain meadows -- bloom early in cool climates when other forbs are still dormant underground.
-    Wildlife Attractor: Lupine foliage hosts specialist blue butterflies where ranges overlap -- accept some chewed leaves if complete insect life cycles matter on your land.
-    Erosion Control: Deep taproots anchor road cuts and ski-slope restoration mixes -- choose regional ecotypes so bloom timing matches local pollinator flights.
-    Ornamental: Spires of blue to magenta flowers read alpine-clean in borders -- provide sharp drainage; wet winter clay rots crowns overnight.
-  companions:
-  - Yarrow
-  - Coneflower
-  - Black-eyed Susan
-  cautions:
-  - Carrot
-  - Potato
-  pests:
-  - Aphids
-  - Banded Cucumber Beetle
-  - Bean Aphid
-  - Bean Leaf Beetle
-  - Bean Weevil
-  - Brown Marmorated Stink Bug
-  - Corn Earworm
-  - Cowpea Curculio
-  - Fall Armyworm
-  - Fusarium Wilt
-  - Ganoderma Butt Rot
-  - Harlequin Ladybird
-  - Kudzu Bug
-  - Locust Borer
-  - Locust Leaf Miner
-  - Lubber Grasshopper
-  - Pea Moth
-  - Pea Weevil
-  - Pythium Root Rot
-  - Reniform Nematode
-  - Root Aphid
-  - Slugs
-  - Snails
-  - Soybean Looper
-  - Spittlebugs
-  - Spotted Cucumber Beetle
-  - Stink Bug
-  - Striped Cucumber Beetle
-  - Velvetbean Caterpillar
-  - White Rot
-  practitioner_notes: 'Harvest texture changes faster than color—nip one sample before you commit the whole row to a pick
-    date.
-
-    Inoculate with the correct rhizobia group—wrong packet gives pretty leaves and empty nodules.
-
-    Cluster patches three feet or wider—tiny one-offs get ignored by bees cruising for volume.
-
-    Watch the plant’s own signals first—catalog zone numbers do not replace your site’s microclimate truth.'
-  growth_habit: Tree
-  data_quality_score: 0.8
+common_name: Lupine
+picture: lupine.webp
+scientific_name: Lupinus spp.
+aka:
+- Bluebonnet
+- Wolf's-bane
+family: Fabaceae
+zone: 3-8
+ideal_temp_min: 60°F (15°C)
+ideal_temp_max: 70°F (21°C)
+min_temp: -40°F (-40°C)
+max_temp: 85°F (29°C)
+perennial: true
+layers:
+- Sub-Canopy
+- Shrub
+- Ground Cover
+plant_function:
+- Edible
+- Nitrogen Fixer
+- Pollinator
+- Wildlife Attractor
+- Erosion Control
+- Ornamental
+description: |-
+  Lupines are herbaceous perennials known for their tall, spiky flower clusters that come in a variety of colors, including blue, purple, pink, and white. They typically grow between 0.3 to 1.5 meters (1 to 5 feet) in height, with some species reaching up to 6 meters (20 feet). The plants have deeply divided, palmate leaves and produce seed pods after flowering. They thrive in cooler climates and prefer well-drained, sandy soils. Lupines are also known for their nitrogen-fixing ability, enriching the soil in which they grow. Propagation is commonly done through seeds, which should be scarified before planting. Harvesting of seeds occurs in late summer when the pods turn brown and begin to split.
+  ☀️💧 Sun and Water Requirements — Full sun to bright partial shade; hot-summer climates benefit from afternoon shade. Well-drained, sandy or gravelly loam with slightly acidic pH suits most species; avoid waterlogged clay that rots deep taproots. Moderate moisture during establishment and flowering; established plants tolerate short dry spells but not standing water.
+purpose: |-
+  Edible: Sweet Lupinus selections produce debittered lupin beans after long soaking and boiling -- wild-collected species often carry bitter quinolizidine alkaloids that demand lab-grade processing, not campfire roasting.
+  Nitrogen Fixer: Bradyrhizobium nodules on lupine roots fix nitrogen in poor sand -- follow with non-legume crops that mine the bank left in residues after you slash spent stalks.
+  Pollinator: Pea-like flower whorls feed bumblebee queens and hummingbirds along mountain meadows -- bloom early in cool climates when other forbs are still dormant underground.
+  Wildlife Attractor: Lupine foliage hosts specialist blue butterflies where ranges overlap -- accept some chewed leaves if complete insect life cycles matter on your land.
+  Erosion Control: Deep taproots anchor road cuts and ski-slope restoration mixes -- choose regional ecotypes so bloom timing matches local pollinator flights.
+  Ornamental: Spires of blue to magenta flowers read alpine-clean in borders -- provide sharp drainage; wet winter clay rots crowns overnight.
+companions:
+- Yarrow
+- Coneflower
+- Black-eyed Susan
+cautions:
+- Carrot
+- Potato
+pests:
+- Aphids
+- Banded Cucumber Beetle
+- Bean Aphid
+- Bean Leaf Beetle
+- Bean Weevil
+- Corn Earworm
+- Cowpea Curculio
+- Fall Armyworm
+- Kudzu Bug
+- Locust Borer
+- Locust Leaf Miner
+- Lubber Grasshopper
+- Pea Moth
+- Pea Weevil
+- Reniform Nematode
+- Root Aphid
+- Slugs
+- Snails
+- Soybean Looper
+- Spittlebugs
+- Stink Bug
+- Striped Cucumber Beetle
+growth_habit: Tree
+data_quality_score: 0.8
+diseases:
+- Fusarium Wilt
+- Ganoderma Butt Rot
+- Pythium Root Rot
+- Spotted Cucumber Beetle
+- White Rot
+animal_pressure:
+- Brown Marmorated Stink Bug
+- Harlequin Ladybird
+- Velvetbean Caterpillar

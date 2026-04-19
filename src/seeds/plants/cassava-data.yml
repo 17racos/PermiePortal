@@ -1,58 +1,52 @@
----
-- common_name: Cassava
-  picture: cassava.webp
-  scientific_name: Manihot esculenta
-  aka:
-  - Manioc
-  - Yuca
-  - Tapioca plant
-  - Sweet Cassava
-  family: Euphorbiaceae
-  zone: 8-12
-  ideal_temp_min: 68
-  ideal_temp_max: 90
-  min_temp: 50
-  max_temp: 104
-  perennial: true
-  layers:
-  - Shrub
-  plant_function:
-  - Edible
-  - Animal Fodder
-  - Erosion Control
-  - Biofuel
-  description: "Cassava is a shrubby perennial that can reach heights of 6 to 8 feet
-    (1.8 to 2.4 meters), characterized by smooth, erect stems and large, palmate leaves
-    with dark green coloration and reddish veins. The plant produces starchy, tuberous
-    roots that are a staple food in many tropical regions. While primarily grown for
-    its edible roots, cassava also offers ornamental value due to its lush foliage.\n\n\U0001F31E\U0001F4A7
-    **Sun and Water Requirements:**\n- **Sun:** Prefers full sun but can tolerate
-    partial shade.\n- **Water:** Requires well-drained soil and is drought-tolerant
-    once established; however, consistent moisture promotes optimal growth.\n\n✂️\U0001FAD8
-    **Methods to Propagate:**\n- **Stem Cuttings:** Plant 2- to 3-inch (5- to 7.5-centimeter)
-    sections of mature stems directly into the soil during the warm season.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E
-    **When to Harvest:**\n- **Roots:** Typically harvested 8 to 12 months after planting,
-    when they reach a desirable size.\n- **Leaves:** Can be harvested periodically
-    for use as a leafy green, ensuring some foliage remains for plant health."
-  purpose: |-
-    Edible: tuberous roots boil into staple starches and tapioca after cyanogenic glucoside processing while young leaves cook as protein greens only where varieties and boil times are verified safe.
-    Animal Fodder: chipped roots and wilted leaves enter pig and poultry rations on small farms after proper drying or fermenting steps that drop cyanide below toxic thresholds for each species.
-    Erosion Control: fibrous root mats knit sloping tropical fields within months of planting, slowing sheet erosion on red clays when rows follow contour and residues stay on site.
-    Biofuel: high-starch roots feed ethanol fermenters and biogas digesters in tropical pilot plants where washwater acidity is managed so neighboring streams are not sacrificed for yield.
-  companions:
-  - Corn
-  - Beans
-  - Peanuts
-  cautions:
-  - Sweet Potato
-  pests:
-  - Cassava Mealybug
-  - Cassava Green Mite
-  - Whiteflies
-  practitioner_notes: |-
-    Bitter types need specific processing to drop cyanogenic compounds—sweet types are milder but not a license to skip homework.
-    Propagate from mature wood cuttings with obvious leaf scars—pencil-thick stakes root faster than toothpick twigs.
-    Mite damage shows bronze stipple on upper leaves—release predatory mites early at first stipple, not at bronze paper stage.
-    Harvest roots after leaves yellow or before heavy frost—frozen tubers turn to mush in storage.
-  growth_habit: Tree
-  data_quality_score: 0.8
+common_name: Cassava
+picture: cassava.webp
+scientific_name: Manihot esculenta
+aka:
+- Manioc
+- Yuca
+- Tapioca plant
+- Sweet Cassava
+family: Euphorbiaceae
+zone: 8-12
+ideal_temp_min: 68
+ideal_temp_max: 90
+min_temp: 50
+max_temp: 104
+perennial: true
+layers:
+- Shrub
+plant_function:
+- Edible
+- Animal Fodder
+- Erosion Control
+- Biofuel
+description: |-
+  Cassava is a shrubby perennial that can reach heights of 6 to 8 feet (1.8 to 2.4 meters), characterized by smooth, erect stems and large, palmate leaves with dark green coloration and reddish veins. The plant produces starchy, tuberous roots that are a staple food in many tropical regions. While primarily grown for its edible roots, cassava also offers ornamental value due to its lush foliage.
+
+  🌞💧 **Sun and Water Requirements:**
+  - **Sun:** Prefers full sun but can tolerate partial shade.
+  - **Water:** Requires well-drained soil and is drought-tolerant once established; however, consistent moisture promotes optimal growth.
+
+  ✂️🫘 **Methods to Propagate:**
+  - **Stem Cuttings:** Plant 2- to 3-inch (5- to 7.5-centimeter) sections of mature stems directly into the soil during the warm season.
+
+  🧑‍🌾👩‍🌾 **When to Harvest:**
+  - **Roots:** Typically harvested 8 to 12 months after planting, when they reach a desirable size.
+  - **Leaves:** Can be harvested periodically for use as a leafy green, ensuring some foliage remains for plant health.
+purpose: |-
+  Edible: tuberous roots boil into staple starches and tapioca after cyanogenic glucoside processing while young leaves cook as protein greens only where varieties and boil times are verified safe.
+  Animal Fodder: chipped roots and wilted leaves enter pig and poultry rations on small farms after proper drying or fermenting steps that drop cyanide below toxic thresholds for each species.
+  Erosion Control: fibrous root mats knit sloping tropical fields within months of planting, slowing sheet erosion on red clays when rows follow contour and residues stay on site.
+  Biofuel: high-starch roots feed ethanol fermenters and biogas digesters in tropical pilot plants where washwater acidity is managed so neighboring streams are not sacrificed for yield.
+companions:
+- Corn
+- Beans
+- Peanuts
+cautions:
+- Sweet Potato
+pests:
+- Cassava Mealybug
+- Cassava Green Mite
+- Whiteflies
+growth_habit: Tree
+data_quality_score: 0.8

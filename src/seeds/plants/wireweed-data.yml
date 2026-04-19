@@ -1,66 +1,50 @@
----
-- common_name: Wireweed
-  picture: wireweed.webp
-  scientific_name: Polygonum aviculare
-  aka:
-  - Prostrate knotweed
-  - Doorweed
-  family: Polygonaceae
-  zone: 3-10
-  ideal_temp_min: 45
-  ideal_temp_max: 90
-  min_temp: -35
-  max_temp: 105
-  perennial: false
-  layers:
-  - Ground Cover
-  plant_function:
-  - Edible
-  - Ground Cover
-  - Dynamic Accumulator
-  description: 'Wireweed (Polygonum aviculare) is a prostrate annual knotweed of compacted paths, crop edges, and disturbed
-    ground worldwide, including agricultural regions across the Americas. Thin wiry stems with tiny leaves and papery sheaths
-    form resilient mats that tolerate foot traffic and poor soil. It is better known as a tenacious weed than a crop, yet
-    young tips have minor traditional food use where contamination is absent.
+common_name: Wireweed
+picture: wireweed.webp
+scientific_name: Polygonum aviculare
+aka:
+- Prostrate knotweed
+- Doorweed
+family: Polygonaceae
+zone: 3-10
+ideal_temp_min: 45
+ideal_temp_max: 90
+min_temp: -35
+max_temp: 105
+perennial: false
+layers:
+- Ground Cover
+plant_function:
+- Edible
+- Ground Cover
+- Dynamic Accumulator
+description: |-
+  Wireweed (Polygonum aviculare) is a prostrate annual knotweed of compacted paths, crop edges, and disturbed ground worldwide, including agricultural regions across the Americas. Thin wiry stems with tiny leaves and papery sheaths form resilient mats that tolerate foot traffic and poor soil. It is better known as a tenacious weed than a crop, yet young tips have minor traditional food use where contamination is absent.
 
+  ☀️💧 Sun and Water Requirements:
+  Full sun to part shade; thrives in compacted, droughty microsites where other plants surrender. Tolerates brief flooding along paths after storms. Fertile irrigated beds increase growth rate—usually the opposite of what gardeners want.
 
-    ☀️💧 Sun and Water Requirements:
+  ✂️ Propagation:
+  Self-sows abundantly; seeds survive soil disturbance cycles. Mechanical cultivation fragments rarely help—plants reroot from nodes. Mulch and reduce compaction for long-term suppression.
 
-    Full sun to part shade; thrives in compacted, droughty microsites where other plants surrender. Tolerates brief flooding
-    along paths after storms. Fertile irrigated beds increase growth rate—usually the opposite of what gardeners want.
-
-
-    ✂️ Propagation:
-
-    Self-sows abundantly; seeds survive soil disturbance cycles. Mechanical cultivation fragments rarely help—plants reroot
-    from nodes. Mulch and reduce compaction for long-term suppression.
-
-
-    🌾 Harvest / Best Use Timing:
-
-    If exploring edible tips, collect only from clean, unsprayed sites early in growth; wash thoroughly. Stop harvesting once
-    stems toughen. For management, pull or hoe before seed set to reduce the soil seed bank.'
-  purpose: |-
-    Edible: Polygonum aviculare young tips taste mild-sour in salads -- tiny harvest from clean ground; oxalic tang limits volume.
-    Ground Cover: Prostrate mats hug compacted path edges where turf dies -- tells you soil is compacted; fix compaction, not just pull weeds.
-    Dynamic Accumulator: Scavenges N from foot-traffic zones into wiry stems -- compost pulled plants before seeds mature or you bank future headaches.
-  companions:
-  - White Clover — low legume matrix can outcompete knotweed gaps in lawn conversion projects with proper mowing height
-  - Ryegrass — quick cover crop to stabilize disturbed soil while perennial sod establishes
-  - Buckwheat — smother crop in rotation; shades and outcompetes early-season knotweed in vegetable fallows
-  cautions:
-  - Agricultural weed — seed bank persistence; prevent seed set in production fields
-  - Pesticide residues — do not forage from sprayed rights-of-way
-  pests:
-  - Flea Beetles
-  - Leafhoppers
-  - Rhubarb Curculio
-  practitioner_notes: 'It is the plant version of “this meeting could have been an email”—low stature, high persistence.
-
-    Compaction is its love language; aerate and feed soil biology if you want it to break up.
-
-    Fighting it with bare cultivation midseason is how you farm seeds for next year.
-
-    If you eat it, earn it—clean site, confident ID, zero romance with roadside dust.'
-  growth_habit: Prostrate annual knotweed; wiry stems; tiny leaves; compacted disturbed ground
-  data_quality_score: 0.82
+  🌾 Harvest / Best Use Timing:
+  If exploring edible tips, collect only from clean, unsprayed sites early in growth; wash thoroughly. Stop harvesting once stems toughen. For management, pull or hoe before seed set to reduce the soil seed bank.
+purpose: |-
+  Edible: Polygonum aviculare young tips taste mild-sour in salads -- tiny harvest from clean ground; oxalic tang limits volume.
+  Ground Cover: Prostrate mats hug compacted path edges where turf dies -- tells you soil is compacted; fix compaction, not just pull weeds.
+  Dynamic Accumulator: Scavenges N from foot-traffic zones into wiry stems -- compost pulled plants before seeds mature or you bank future headaches.
+companions:
+- White Clover — low legume matrix can outcompete knotweed gaps in lawn conversion
+  projects with proper mowing height
+- Ryegrass — quick cover crop to stabilize disturbed soil while perennial sod establishes
+- Buckwheat — smother crop in rotation; shades and outcompetes early-season knotweed
+  in vegetable fallows
+cautions:
+- Agricultural weed — seed bank persistence; prevent seed set in production fields
+- Pesticide residues — do not forage from sprayed rights-of-way
+pests:
+- Flea Beetles
+- Leafhoppers
+- Rhubarb Curculio
+growth_habit: Prostrate annual knotweed; wiry stems; tiny leaves; compacted disturbed
+  ground
+data_quality_score: 0.82

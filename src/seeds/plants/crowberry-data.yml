@@ -1,77 +1,59 @@
----
-- common_name: Crowberry
-  picture: crowberry.webp
-  scientific_name: Empetrum nigrum
-  aka:
-  - Black crowberry
-  - Curlewberry
-  family: Ericaceae
-  zone: 2-7
-  ideal_temp_min: 40
-  ideal_temp_max: 70
-  min_temp: -40
-  max_temp: 85
-  perennial: true
-  layers:
-  - Shrub
-  - Ground Cover
-  plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Ground Cover
-  - Erosion Control
-  description: 'Crowberry (Empetrum nigrum) is a low, needle-leaved evergreen subshrub of cold bogs, heaths, and windswept
-    barrens across northern regions and high elevations, forming mats studded with small glossy black berries. Height is usually
-    under 1 foot (0.3 m) with creeping stems that root at nodes. The fruit is mildly sweet-tart and historically important
-    where other fruits are scarce; ecologically it is ground-hugging armor against wind and thin soil.
+common_name: Crowberry
+picture: crowberry.webp
+scientific_name: Empetrum nigrum
+aka:
+- Black crowberry
+- Curlewberry
+family: Ericaceae
+zone: 2-7
+ideal_temp_min: 40
+ideal_temp_max: 70
+min_temp: -40
+max_temp: 85
+perennial: true
+layers:
+- Shrub
+- Ground Cover
+plant_function:
+- Edible
+- Wildlife Attractor
+- Ground Cover
+- Erosion Control
+description: |-
+  Crowberry (Empetrum nigrum) is a low, needle-leaved evergreen subshrub of cold bogs, heaths, and windswept barrens across northern regions and high elevations, forming mats studded with small glossy black berries. Height is usually under 1 foot (0.3 m) with creeping stems that root at nodes. The fruit is mildly sweet-tart and historically important where other fruits are scarce; ecologically it is ground-hugging armor against wind and thin soil.
 
+  ☀️💧 Sun and Water Requirements:
+  Full sun in cool climates; partial shade acceptable where summer heat spikes. Prefers acidic, organic soils that stay moist but not sewage-soggy; tolerates droughty rock once established in its comfort band. Avoid lime-heavy beds that erase Ericaceae chemistry.
 
-    ☀️💧 Sun and Water Requirements:
+  ✂️ Propagation:
+  Layer low stems onto moist peat-sand; hold with stones until roots anchor. Sow seed after cold stratification; germination is slow and irregular, matching the plant’s personality. Softwood cuttings under mist can work for named selections if you have them.
 
-    Full sun in cool climates; partial shade acceptable where summer heat spikes. Prefers acidic, organic soils that stay
-    moist but not sewage-soggy; tolerates droughty rock once established in its comfort band. Avoid lime-heavy beds that erase
-    Ericaceae chemistry.
-
-
-    ✂️ Propagation:
-
-    Layer low stems onto moist peat-sand; hold with stones until roots anchor. Sow seed after cold stratification; germination
-    is slow and irregular, matching the plant’s personality. Softwood cuttings under mist can work for named selections if
-    you have them.
-
-
-    🌾 Harvest / Best Use Timing:
-
-    Berries ripen late in the short season; taste improves after frost in many sites. Pick by hand along the mat; expect modest
-    yields that reward patience, not capitalism. Leave some fruit for ground-foraging birds that evolved with these systems.'
-  purpose: |-
-    Edible: Empetrum nigrum glossy black berries are mild sweet-tart -- pick late in the short season; flavor often improves after frost in cold sites.
-    Wildlife Attractor: Ground-foraging birds and small mammals take fruit when other sugar is under snow -- leave clusters on the mat for guild partners.
-    Ground Cover: Needle-leaved evergreen stems creep and root, tiling acidic bogs and exposed barrens where height stays under a foot.
-    Erosion Control: Dense mats hold thin organic layers over rock on windswept slopes and coastal heaths.
-  companions:
-  - Lingonberry — shared acidity and similar cultural needs in Ericaceous beds
-  - Lowbush Cranberry — complementary fruiting times and bog-culture synergy
-  - Yarrow — shallow roots and insectary flowers at the edge without shading the mat
-  cautions:
-  - Hot humid summers — often declines outside its native chill band no matter how much you cheer
-  - High pH soils — chlorosis and slow death; fix the bed or pick another plant
-  pests:
-  - Aphids
-  - Azalea Caterpillar
-  - Blueberry Maggot
-  - Cranberry Fruitworm
-  - Cranberry Tipworm
-  - Sparganothis Fruitworm
-  - Spider Mites
-  - Strawberry Root Weevil
-  - Vine Weevil
-  practitioner_notes: 'Berries look like punctuation on a carpet—harvest kneeling, not sprinting.
-
-    Two sexes exist in many populations; single clones yield little without partners nearby.
-
-    Peat use has ethics; mimic structure with local coarse organics when you can.
-
-    Taste tests vary by population; some are resinous until fully ripe—wait for the shrug to become a nod.'
-  growth_habit: Low mat-forming evergreen subshrub; needle leaves; black berries; cold-climate specialist
-  data_quality_score: 0.77
+  🌾 Harvest / Best Use Timing:
+  Berries ripen late in the short season; taste improves after frost in many sites. Pick by hand along the mat; expect modest yields that reward patience, not capitalism. Leave some fruit for ground-foraging birds that evolved with these systems.
+purpose: |-
+  Edible: Empetrum nigrum glossy black berries are mild sweet-tart -- pick late in the short season; flavor often improves after frost in cold sites.
+  Wildlife Attractor: Ground-foraging birds and small mammals take fruit when other sugar is under snow -- leave clusters on the mat for guild partners.
+  Ground Cover: Needle-leaved evergreen stems creep and root, tiling acidic bogs and exposed barrens where height stays under a foot.
+  Erosion Control: Dense mats hold thin organic layers over rock on windswept slopes and coastal heaths.
+companions:
+- Lingonberry — shared acidity and similar cultural needs in Ericaceous beds
+- Lowbush Cranberry — complementary fruiting times and bog-culture synergy
+- Yarrow — shallow roots and insectary flowers at the edge without shading the mat
+cautions:
+- Hot humid summers — often declines outside its native chill band no matter how much
+  you cheer
+- High pH soils — chlorosis and slow death; fix the bed or pick another plant
+pests:
+- Aphids
+- Blueberry Maggot
+- Cranberry Fruitworm
+- Cranberry Tipworm
+- Sparganothis Fruitworm
+- Spider Mites
+- Strawberry Root Weevil
+- Vine Weevil
+growth_habit: Low mat-forming evergreen subshrub; needle leaves; black berries; cold-climate
+  specialist
+data_quality_score: 0.77
+animal_pressure:
+- Azalea Caterpillar

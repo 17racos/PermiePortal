@@ -1,91 +1,74 @@
----
-- common_name: Pomelo
-  picture: pomelo.webp
-  scientific_name: Citrus maxima
-  aka:
-  - Shaddock
-  - Pummelo
-  family: Rutaceae
-  zone: 9-11
-  ideal_temp_min: 60
-  ideal_temp_max: 90
-  min_temp: 28
-  max_temp: 105
-  perennial: true
-  layers:
-  - Tree
-  plant_function:
-  - Edible
-  - Ornamental
-  - Wildlife Attractor
-  - Shade Provider
-  description: 'Pomelo is the thick-rinded ancestor of modern grapefruit, bearing huge, mild to sweet segments under a peel
-    you could use as body armor. Trees are big, evergreen, and long-lived in frost-free sites with good drainage.
+common_name: Pomelo
+picture: pomelo.webp
+scientific_name: Citrus maxima
+aka:
+- Shaddock
+- Pummelo
+family: Rutaceae
+zone: 9-11
+ideal_temp_min: 60
+ideal_temp_max: 90
+min_temp: 28
+max_temp: 105
+perennial: true
+layers:
+- Tree
+plant_function:
+- Edible
+- Ornamental
+- Wildlife Attractor
+- Shade Provider
+description: |-
+  Pomelo is the thick-rinded ancestor of modern grapefruit, bearing huge, mild to sweet segments under a peel you could use as body armor. Trees are big, evergreen, and long-lived in frost-free sites with good drainage.
 
+  Coastal and warm microclimates can push the envelope with cold-hardy rootstocks and protection, but this is still a citrus—greening, canker, and assorted psyllid drama are part of the package now. Plant only if you accept the maintenance and regulatory reality.
 
-    Coastal and warm microclimates can push the envelope with cold-hardy rootstocks and protection, but this is still a citrus—greening,
-    canker, and assorted psyllid drama are part of the package now. Plant only if you accept the maintenance and regulatory
-    reality.
+  ☀️💧 Sun and Water Requirements:
 
+  Full sun.
+  Deep watering on well-drained soil; less frequent but thorough beats daily sips.
+  Mulch wide, keep mulch off the trunk, and do not let it sit in a bathtub of irrigation.
 
-    ☀️💧 Sun and Water Requirements:
+  ✂️ Propagation:
 
+  Commercial trees are grafted onto selected rootstocks.
+  Seedlings are fun experiments but take years and may not match parent fruit.
+  Air layering and budding are nursery skills—home growers usually buy a tested tree.
 
-    Full sun.
+  🌾 Harvest / Best Use Timing:
 
-    Deep watering on well-drained soil; less frequent but thorough beats daily sips.
-
-    Mulch wide, keep mulch off the trunk, and do not let it sit in a bathtub of irrigation.
-
-
-    ✂️ Propagation:
-
-
-    Commercial trees are grafted onto selected rootstocks.
-
-    Seedlings are fun experiments but take years and may not match parent fruit.
-
-    Air layering and budding are nursery skills—home growers usually buy a tested tree.
-
-
-    🌾 Harvest / Best Use Timing:
-
-
-    Pick heavy fruit when rind yields color and internal segments sweeten—thick peel buys shipping time in warm-climate yards.'
-  purpose: |-
-    Edible: Citrus maxima segments stay mild and crisp under thick peel that travels better than grapefruit -- peel pith makes candied strips; juice lacks the bitter neohesperidosides that dominate some grapefruit hybrids.
-    Ornamental: Huge glossy canopy and fragrant white flowers sell the tree as a subtropical estate anchor -- accept Asian citrus psyllid scouting as part of the aesthetic package in endemic regions.
-    Wildlife Attractor: Heavy spring nectar draws honeybees; ripe giants feed fruit bats and rodents when drops hit mulch -- sanitation rhythm decides whether you run a wildlife diner or a wasp festival.
-    Shade Provider: 5–15 m rounded crown throws high dappled shade for understory pigeon pea, turmeric, or outdoor kitchens once scaffold lifts -- still thin interiors for greening disease management in humid coasts.
-  companions:
-  - Comfrey
-  - Pigeon Pea
-  - Cranberry Hibiscus
-  - Sweet Potato
-  cautions:
-  - Waterlogged soil
-  - Lawn right against trunk
-  pests:
-  - Aphids
-  - Asian Citrus Psyllid
-  - Broad Mite
-  - Brown Citrus Aphid
-  - Citrus Canker
-  - Citrus Greening
-  - Citrus Leafminer
-  - Citrus Mealybug
-  - Citrus Red Mite
-  - Citrus Root Weevil
-  - Citrus Rust Mite
-  - Citrus Whitefly
-  - Leaf Curl
-  - Oriental Fruit Fly
-  - Rust Mite
-  - Scale Insects
-  - Swallowtail Caterpillar
-  - Texas Citrus Mite
-  practitioner_notes: 'Rind is thick—zest before peeling if marmalade is the goal.
-
-    Hang time builds sugar—early picks are huge but still sour.
-
-    Thorns on some seedlings—topwork for orchard ergonomics.'
+  Pick heavy fruit when rind yields color and internal segments sweeten—thick peel buys shipping time in warm-climate yards.
+purpose: |-
+  Edible: Citrus maxima segments stay mild and crisp under thick peel that travels better than grapefruit -- peel pith makes candied strips; juice lacks the bitter neohesperidosides that dominate some grapefruit hybrids.
+  Ornamental: Huge glossy canopy and fragrant white flowers sell the tree as a subtropical estate anchor -- accept Asian citrus psyllid scouting as part of the aesthetic package in endemic regions.
+  Wildlife Attractor: Heavy spring nectar draws honeybees; ripe giants feed fruit bats and rodents when drops hit mulch -- sanitation rhythm decides whether you run a wildlife diner or a wasp festival.
+  Shade Provider: 5–15 m rounded crown throws high dappled shade for understory pigeon pea, turmeric, or outdoor kitchens once scaffold lifts -- still thin interiors for greening disease management in humid coasts.
+companions:
+- Comfrey
+- Pigeon Pea
+- Cranberry Hibiscus
+- Sweet Potato
+cautions:
+- Waterlogged soil
+- Lawn right against trunk
+pests:
+- Aphids
+- Asian Citrus Psyllid
+- Broad Mite
+- Brown Citrus Aphid
+- Citrus Greening
+- Citrus Leafminer
+- Citrus Mealybug
+- Citrus Red Mite
+- Citrus Root Weevil
+- Citrus Whitefly
+- Leaf Curl
+- Oriental Fruit Fly
+- Scale Insects
+- Texas Citrus Mite
+diseases:
+- Citrus Canker
+- Citrus Rust Mite
+- Rust Mite
+animal_pressure:
+- Swallowtail Caterpillar

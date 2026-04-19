@@ -1,92 +1,71 @@
----
-- common_name: Seminole Pumpkin
-  picture: seminole_pumpkin.webp
-  scientific_name: Cucurbita moschata
-  aka:
-  - Florida Seminole Pumpkin
-  - Calabaza
-  family: Cucurbitaceae
-  zone: 8-11
-  ideal_temp_min: 70
-  ideal_temp_max: 92
-  min_temp: 40
-  max_temp: 100
-  perennial: true
-  layers:
-  - Vine
-  plant_function:
-  - Edible
-  - Ground Cover
-  - Animal Fodder
-  description: 'Seminole pumpkin is a heat-loving Cucurbita moschata landrace tied to Florida Indigenous agriculture—tough
-    vines, hard-shelled fruit, and a reputation for shrugging off humidity that makes northern pumpkins sulk. Fruit is typically
-    round to squat, tan or green-striped, with sweet orange flesh used like winter squash or calabaza. In subtropical and
-    tropical Americas it behaves like a very long-season annual unless winter is mild; farther south old vines can persist
-    and resprout, which is why it is often called perennial pumpkin country lore.
+common_name: Seminole Pumpkin
+picture: seminole_pumpkin.webp
+scientific_name: Cucurbita moschata
+aka:
+- Florida Seminole Pumpkin
+- Calabaza
+family: Cucurbitaceae
+zone: 8-11
+ideal_temp_min: 70
+ideal_temp_max: 92
+min_temp: 40
+max_temp: 100
+perennial: true
+layers:
+- Vine
+plant_function:
+- Edible
+- Ground Cover
+- Animal Fodder
+description: |-
+  Seminole pumpkin is a heat-loving Cucurbita moschata landrace tied to Florida Indigenous agriculture—tough vines, hard-shelled fruit, and a reputation for shrugging off humidity that makes northern pumpkins sulk. Fruit is typically round to squat, tan or green-striped, with sweet orange flesh used like winter squash or calabaza. In subtropical and tropical Americas it behaves like a very long-season annual unless winter is mild; farther south old vines can persist and resprout, which is why it is often called perennial pumpkin country lore.
 
+  🌞💧 Sun and Water Requirements:
+  - Full sun (6–8+ hours) for strong vines and fruit set.
+  - Rich, well-drained soil; heavy feeders—compost or aged manure helps.
+  - Steady moisture while fruiting; avoid wet foliage overnight where powdery mildew thrives. Cut water slightly as fruit nears maturity for storage quality.
 
-    🌞💧 Sun and Water Requirements:
+  ✂️🌱 Methods to Propagate:
+  - Seed: Direct-sow after soil warms (~60°F+); in subtropical and tropical Americas many growers start indoors 2–3 weeks before last frost to beat the clock.
+  - Save seed from fully ripe fruit; this is a landrace—select from your best plants if you want local adaptation.
+  - Not a cutting crop; propagation is by seed only.
 
-    - Full sun (6–8+ hours) for strong vines and fruit set.
-
-    - Rich, well-drained soil; heavy feeders—compost or aged manure helps.
-
-    - Steady moisture while fruiting; avoid wet foliage overnight where powdery mildew thrives. Cut water slightly as fruit
-    nears maturity for storage quality.
-
-
-    ✂️🌱 Methods to Propagate:
-
-    - Seed: Direct-sow after soil warms (~60°F+); in subtropical and tropical Americas many growers start indoors 2–3 weeks
-    before last frost to beat the clock.
-
-    - Save seed from fully ripe fruit; this is a landrace—select from your best plants if you want local adaptation.
-
-    - Not a cutting crop; propagation is by seed only.
-
-
-    🧑‍🌾 When to Harvest:
-
-    - When the stem corks and the rind resists a fingernail—before hard frost if you are on the cool edge of its range. Cure
-    in warm dry air like other moschatas.'
-  purpose: |-
-    Edible: Cucurbita moschata Seminole strains yield hard-rind fruit with dense orange flesh that hangs on the vine through humid heat -- roast wedges or puree into soups after seeds toast for snacks.
-    Ground Cover: Rampant vines tile orchard floors and arbor tops so weeds lose light beneath humid subtropical polycultures.
-    Animal Fodder: Older leaves and blemished squash roll into pig and poultry paddocks where landowners already track nightshade alkaloid limits.
-  companions:
-  - Corn
-  - Bean
-  - Nasturtium
-  - Marigold
-  cautions:
-  - Potato
-  pests:
-  - Aphids
-  - Banded Cucumber Beetle
-  - Beet Armyworm
-  - Broad Mite
-  - Fusarium Wilt
-  - Greenhouse Whitefly
-  - Leaf Spot
-  - Melonworm
-  - Papaya Ringspot Virus
-  - Pickleworm
-  - Powdery Mildew
-  - Pythium Root Rot
-  - Reniform Nematode
-  - Shore Fly
-  - Silverleaf Whitefly
-  - Southern Armyworm
-  - Southern Green Stink Bug
-  - Spotted Cucumber Beetle
-  - Squash Bug
-  - Squash Vine Borer
-  - Striped Cucumber Beetle
-  - Bacterial Wilt
-  practitioner_notes: 'Vines run extreme lengths—give territory or expect smothered neighbors.
-
-    Hard rind stores months in dry shade—check monthly for rodent tooth art.
-
-    Downy mildew hits old leaves first—plant second successions for fall fruit.'
-  growth_habit: Tree
-  data_quality_score: 0.8
+  🧑‍🌾 When to Harvest:
+  - When the stem corks and the rind resists a fingernail—before hard frost if you are on the cool edge of its range. Cure in warm dry air like other moschatas.
+purpose: |-
+  Edible: Cucurbita moschata Seminole strains yield hard-rind fruit with dense orange flesh that hangs on the vine through humid heat -- roast wedges or puree into soups after seeds toast for snacks.
+  Ground Cover: Rampant vines tile orchard floors and arbor tops so weeds lose light beneath humid subtropical polycultures.
+  Animal Fodder: Older leaves and blemished squash roll into pig and poultry paddocks where landowners already track nightshade alkaloid limits.
+companions:
+- Corn
+- Bean
+- Nasturtium
+- Marigold
+cautions:
+- Potato
+pests:
+- Aphids
+- Banded Cucumber Beetle
+- Beet Armyworm
+- Broad Mite
+- Greenhouse Whitefly
+- Melonworm
+- Pickleworm
+- Reniform Nematode
+- Shore Fly
+- Silverleaf Whitefly
+- Southern Armyworm
+- Southern Green Stink Bug
+- Squash Bug
+- Squash Vine Borer
+- Striped Cucumber Beetle
+growth_habit: Tree
+data_quality_score: 0.8
+diseases:
+- Fusarium Wilt
+- Leaf Spot
+- Papaya Ringspot Virus
+- Powdery Mildew
+- Pythium Root Rot
+- Spotted Cucumber Beetle
+- Bacterial Wilt

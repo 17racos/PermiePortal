@@ -1,77 +1,56 @@
----
-- common_name: Perennial Leek
-  picture: perennial_leek.webp
-  scientific_name: Allium ampeloprasum
-  aka:
-  - Babington Leek
-  - Broadleaf Wild Leek
-  family: Amaryllidaceae
-  zone: 6-10
-  ideal_temp_min: 45
-  ideal_temp_max: 80
-  min_temp: 0
-  max_temp: 95
-  perennial: true
-  layers:
-  - Herbaceous
-  - Ground Cover
-  plant_function:
-  - Edible
-  - Ground Cover
-  - Pest Management
-  - Pollinator
-  description: 'Perennial leek refers to perennial forms of Allium ampeloprasum, including the Babington-type clones valued
-    in permaculture for returning year after year without replanting. Plants form clumps of strap-like blue-green leaves from
-    a swelling base and may produce a tall round flower head of pink-purple florets if allowed to bolt; height is often 2–4
-    feet when flowering, shorter as a leafy clump.
+common_name: Perennial Leek
+picture: perennial_leek.webp
+scientific_name: Allium ampeloprasum
+aka:
+- Babington Leek
+- Broadleaf Wild Leek
+family: Amaryllidaceae
+zone: 6-10
+ideal_temp_min: 45
+ideal_temp_max: 80
+min_temp: 0
+max_temp: 95
+perennial: true
+layers:
+- Herbaceous
+- Ground Cover
+plant_function:
+- Edible
+- Ground Cover
+- Pest Management
+- Pollinator
+description: |-
+  Perennial leek refers to perennial forms of Allium ampeloprasum, including the Babington-type clones valued in permaculture for returning year after year without replanting. Plants form clumps of strap-like blue-green leaves from a swelling base and may produce a tall round flower head of pink-purple florets if allowed to bolt; height is often 2–4 feet when flowering, shorter as a leafy clump.
 
+  ☀️💧 Sun and Water Requirements:
+  - Full sun to partial shade; afternoon shade reduces stress during subtropical and tropical Americas heat waves.
+  - Consistent moisture but never waterlogged; rich, organic, well-drained soil mimics its preferred hedgerow niche and prevents bulb rot in humid wet seasons.
 
-    ☀️💧 Sun and Water Requirements:
+  ✂️ Methods to Propagate:
+  - Offsets: divide clumps in late cool season or early wet season when growth resumes; replant offsets immediately and water in.
+  - Bulbils: some perennial strains produce aerial bulbils on the flower stalk—collect when firm and sow or tuck into soil like miniature bulbs.
 
-    - Full sun to partial shade; afternoon shade reduces stress during subtropical and tropical Americas heat waves.
-
-    - Consistent moisture but never waterlogged; rich, organic, well-drained soil mimics its preferred hedgerow niche and
-    prevents bulb rot in humid wet seasons.
-
-
-    ✂️ Methods to Propagate:
-
-    - Offsets: divide clumps in late cool season or early wet season when growth resumes; replant offsets immediately and
-    water in.
-
-    - Bulbils: some perennial strains produce aerial bulbils on the flower stalk—collect when firm and sow or tuck into soil
-    like miniature bulbs.
-
-
-    🌾 When to Harvest:
-
-    - Cut outer leaves continuously like a clumping leek; milder when young. For a thicker “stem,” blanch by hilling with
-    mulch. In the subtropical/tropical year-round growing period, harvest lightly so the clump keeps regenerating.'
-  purpose: |-
-    Edible: Allium ampeloprasum perennial clones supply year-round green onion cuts and mild leek-flavored stems from expanding basal clumps -- dig side offsets when centers go woody; flower scapes are edible stir-fry snaps if you catch them young.
-    Ground Cover: Blue-green strap leaves shade orchard mulch under apple and pear skirts, outcompeting annual weeds where mower access is lazy -- avoid planting inside juglone drip lines where onions still sulk.
-    Pest Management: Allyl-sulfide emissions mask carrot-rust fly and some cabbage-moth cues when bands edge vulnerable rows -- rotate placement because allium root flies still find monoculture traps if you never move clumps.
-    Pollinator: Tall pink-purple globes feed bumble queens and honeybees in early summer dearth -- leave a few flowering stalks if seedless lines still set bulbils you want to share, otherwise snap scapes for bigger basal swell.
-  companions:
-  - Apple
-  - Carrot
-  - Strawberry
-  cautions:
-  - Green Bean
-  - Pea
-  pests:
-  - Leek Moth
-  - Nematodes
-  - Onion Fly
-  - Onion Maggot
-  - Onion Thrips
-  - White Rot
-  practitioner_notes: 'Blanch or process within hours if you are freezing—enzymes keep chewing while paperwork waits.
-
-    Morning photos for ID are useless if you only look at dusk—check midday nectar presentation too.
-
-    Foot traffic after establishment only—early walks tear stems and invite weeds in the wounds.
-
-    Sharp tools and clean cuts beat torn stems; disease spores love frayed tissue more than rhetoric.'
-  growth_habit: Clumping perennial allium; strap leaves; optional tall flowering umbel
-  data_quality_score: 0.75
+  🌾 When to Harvest:
+  - Cut outer leaves continuously like a clumping leek; milder when young. For a thicker “stem,” blanch by hilling with mulch. In the subtropical/tropical year-round growing period, harvest lightly so the clump keeps regenerating.
+purpose: |-
+  Edible: Allium ampeloprasum perennial clones supply year-round green onion cuts and mild leek-flavored stems from expanding basal clumps -- dig side offsets when centers go woody; flower scapes are edible stir-fry snaps if you catch them young.
+  Ground Cover: Blue-green strap leaves shade orchard mulch under apple and pear skirts, outcompeting annual weeds where mower access is lazy -- avoid planting inside juglone drip lines where onions still sulk.
+  Pest Management: Allyl-sulfide emissions mask carrot-rust fly and some cabbage-moth cues when bands edge vulnerable rows -- rotate placement because allium root flies still find monoculture traps if you never move clumps.
+  Pollinator: Tall pink-purple globes feed bumble queens and honeybees in early summer dearth -- leave a few flowering stalks if seedless lines still set bulbils you want to share, otherwise snap scapes for bigger basal swell.
+companions:
+- Apple
+- Carrot
+- Strawberry
+cautions:
+- Green Bean
+- Pea
+pests:
+- Leek Moth
+- Nematodes
+- Onion Fly
+- Onion Maggot
+- Onion Thrips
+growth_habit: Clumping perennial allium; strap leaves; optional tall flowering umbel
+data_quality_score: 0.75
+diseases:
+- White Rot

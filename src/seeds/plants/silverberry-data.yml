@@ -1,64 +1,54 @@
----
-- common_name: Silverberry
-  picture: silverberry.webp
-  scientific_name: Elaeagnus commutata
-  aka:
-  - Wolf Willow
-  - American Silverberry
-  - Silverberry Shrub
-  family: Elaeagnaceae
-  zone: 2-7
-  ideal_temp_min: 35
-  ideal_temp_max: 85
-  min_temp: -45
-  max_temp: 95
-  perennial: true
-  layers:
-  - Shrub
-  plant_function:
-  - Edible
-  - Nitrogen Fixer
-  - Wildlife Attractor
-  - Windbreaker
-  - Erosion Control
-  description: "Silverberry (Elaeagnus commutata) is a cold-hardy deciduous to semi-evergreen
-    shrub of North American prairies and open woods, bearing silvery-scaly leaves,
-    fragrant pale flowers in spring, and dry, mealy red-speckled drupes enjoyed by
-    wildlife. It typically forms thickets 3–10 feet tall from rhizomes, fixing nitrogen
-    with actinorhizal root symbionts unlike legumes.\n\n☀️💧 Sun and Water Requirements:\n-
-    Full sun for dense growth and heaviest fruiting; tolerates wind.\n- Drought-tolerant
-    once established in well-drained soil; in subtropical and tropical Americas this species
-    is primarily suited to rare cool upland microclimates or trials—heat and humidity
-    often favor thorny evergreen Elaeagnus instead, so treat silverberry as a continental
-    design plant unless you can mimic dry-cool nights.\n\n✂️ Methods to Propagate:\n-
-    Seeds: stratify drupes, clean seed, sow in cool conditions; germination can be slow.\n-
-    Hardwood cuttings: take in dormant season, use rooting hormone, keep humid until
-    callus forms.\n\n🌾 When to Harvest:\n- Fruit is mealy and astringent fresh but
-    usable dried or processed; pick when fully silvery-red and softening. Thin old
-    stems after fruiting to renew vigor."
-  purpose: |-
-    Edible: Elaeagnus commutata mealy red-speckled drupes need drying or leaching before sweet notes emerge -- treat like olive curing schedules, not grab-and-go trail snacks.
-    Nitrogen Fixer: Frankia nodules on roots feed silver-leafed suckers that expand across alkaline prairie berms without urea subsidies.
-    Wildlife Attractor: Early tubular flowers offer nectar before apple bloom while fatty seeds ride through waxwing flocks in autumn.
-    Windbreaker: Rhizomatous thickets planted on contour blunt chinook gusts across shelterbelt polycultures north of true tree rows.
-    Erosion Control: Fibrous mats lock road-cut gravel and mine spoil where topsoil trucks never arrived.
-  companions:
-  - Buffalo Grass
-  - Yarrow
-  - Black Locust
-  cautions:
-  - None documented
-  pests:
-  - Aphids
-  - Scale Insects
-  - Japanese Beetles
-  practitioner_notes: |-
-    Morning picks hold turgor; afternoon heat steals shelf life even if the cooler feels honest.
-    Inoculate with the correct rhizobia group—wrong packet gives pretty leaves and empty nodules.
-    Watch the plant’s own signals first—catalog zone numbers do not replace your site’s microclimate truth.
-    Overfertilized fast growth dilutes flavor and invites sap feeders—lean soil often tastes more like itself.
-  growth_habit: Rhizomatous nitrogen-fixing shrub; silvery leaves; mealy red-speckled fruit
-  data_quality_score: 0.75
-  # Image attribution: KENPEI / Wikimedia Commons / CC BY-SA 3.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+common_name: Silverberry
+picture: silverberry.webp
+scientific_name: Elaeagnus commutata
+aka:
+- Wolf Willow
+- American Silverberry
+- Silverberry Shrub
+family: Elaeagnaceae
+zone: 2-7
+ideal_temp_min: 35
+ideal_temp_max: 85
+min_temp: -45
+max_temp: 95
+perennial: true
+layers:
+- Shrub
+plant_function:
+- Edible
+- Nitrogen Fixer
+- Wildlife Attractor
+- Windbreaker
+- Erosion Control
+description: |-
+  Silverberry (Elaeagnus commutata) is a cold-hardy deciduous to semi-evergreen shrub of North American prairies and open woods, bearing silvery-scaly leaves, fragrant pale flowers in spring, and dry, mealy red-speckled drupes enjoyed by wildlife. It typically forms thickets 3–10 feet tall from rhizomes, fixing nitrogen with actinorhizal root symbionts unlike legumes.
+
+  ☀️💧 Sun and Water Requirements:
+  - Full sun for dense growth and heaviest fruiting; tolerates wind.
+  - Drought-tolerant once established in well-drained soil; in subtropical and tropical Americas this species is primarily suited to rare cool upland microclimates or trials—heat and humidity often favor thorny evergreen Elaeagnus instead, so treat silverberry as a continental design plant unless you can mimic dry-cool nights.
+
+  ✂️ Methods to Propagate:
+  - Seeds: stratify drupes, clean seed, sow in cool conditions; germination can be slow.
+  - Hardwood cuttings: take in dormant season, use rooting hormone, keep humid until callus forms.
+
+  🌾 When to Harvest:
+  - Fruit is mealy and astringent fresh but usable dried or processed; pick when fully silvery-red and softening. Thin old stems after fruiting to renew vigor.
+purpose: |-
+  Edible: Elaeagnus commutata mealy red-speckled drupes need drying or leaching before sweet notes emerge -- treat like olive curing schedules, not grab-and-go trail snacks.
+  Nitrogen Fixer: Frankia nodules on roots feed silver-leafed suckers that expand across alkaline prairie berms without urea subsidies.
+  Wildlife Attractor: Early tubular flowers offer nectar before apple bloom while fatty seeds ride through waxwing flocks in autumn.
+  Windbreaker: Rhizomatous thickets planted on contour blunt chinook gusts across shelterbelt polycultures north of true tree rows.
+  Erosion Control: Fibrous mats lock road-cut gravel and mine spoil where topsoil trucks never arrived.
+companions:
+- Buffalo Grass
+- Yarrow
+- Black Locust
+cautions:
+- None documented
+pests:
+- Aphids
+- Scale Insects
+- Japanese Beetles
+growth_habit: Rhizomatous nitrogen-fixing shrub; silvery leaves; mealy red-speckled
+  fruit
+data_quality_score: 0.75

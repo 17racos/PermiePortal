@@ -1,79 +1,62 @@
----
-- common_name: Sand Bluestem
-  picture: sand_bluestem.webp
-  scientific_name: Andropogon hallii
-  aka:
-  - Hall's Bluestem
-  - Sandhill Bluestem
-  family: Poaceae
-  zone: 4-9
-  ideal_temp_min: 40
-  ideal_temp_max: 100
-  min_temp: -30
-  max_temp: 110
-  perennial: true
-  layers:
-  - Herbaceous
-  plant_function:
-  - Erosion Control
-  - Wildlife Attractor
-  - Biomass
-  - Ornamental
-  description: 'Sand bluestem (Andropogon hallii) is a warm-season bunchgrass of central North American sandhills and dry
-    prairies, with blue-green summer foliage turning copper in fall and airy seed heads on stems often 3–5 feet (0.9–1.5 m).
-    Deep roots exploit sandy soils where shallow-rooted competitors bake. It is a core species for restoration, erosion control
-    on coarse slopes, and ornamental meadows that refuse irrigation guilt.
+common_name: Sand Bluestem
+picture: sand_bluestem.webp
+scientific_name: Andropogon hallii
+aka:
+- Hall's Bluestem
+- Sandhill Bluestem
+family: Poaceae
+zone: 4-9
+ideal_temp_min: 40
+ideal_temp_max: 100
+min_temp: -30
+max_temp: 110
+perennial: true
+layers:
+- Herbaceous
+plant_function:
+- Erosion Control
+- Wildlife Attractor
+- Biomass
+- Ornamental
+description: |-
+  Sand bluestem (Andropogon hallii) is a warm-season bunchgrass of central North American sandhills and dry prairies, with blue-green summer foliage turning copper in fall and airy seed heads on stems often 3–5 feet (0.9–1.5 m). Deep roots exploit sandy soils where shallow-rooted competitors bake. It is a core species for restoration, erosion control on coarse slopes, and ornamental meadows that refuse irrigation guilt.
 
+  ☀️💧 Sun and Water Requirements:
+  Full sun for upright stems and full inflorescences; shade reduces vigor. Well-drained sandy to loamy soils are ideal; tolerates drought and lean fertility once established. Avoid wet clay that rots crowns; water only to establish.
 
-    ☀️💧 Sun and Water Requirements:
+  ✂️ Propagation:
+  Sow seed in warm soil after frost risk; lightly cover. Divide mature bunches carefully in spring if needed. Cut back old growth in late winter to clear space for new tillers.
 
-    Full sun for upright stems and full inflorescences; shade reduces vigor. Well-drained sandy to loamy soils are ideal;
-    tolerates drought and lean fertility once established. Avoid wet clay that rots crowns; water only to establish.
-
-
-    ✂️ Propagation:
-
-    Sow seed in warm soil after frost risk; lightly cover. Divide mature bunches carefully in spring if needed. Cut back old
-    growth in late winter to clear space for new tillers.
-
-
-    🌾 Harvest / Best Use Timing:
-
-    Cut seed stems for arrangements when color peaks; leave standing material for wildlife through winter if aesthetics allow.
-    Peak growth tracks heat and summer rainfall patterns.'
-  purpose: |-
-    Erosion Control: Andropogon hallii sends roots deep into loose sand so bunch crowns lock dune toes and terrace cuts where shallow annuals wash out after one thunder cell.
-    Wildlife Attractor: Late-season airy seed heads feed songbirds while stiff stems shelter overwintering insects in reconstructed prairie mixes.
-    Biomass: Copper-colored standing stems chop into coarse mulch that feeds fungal chains on carbon-poor coastal sands when timed after seed drop.
-    Ornamental: Blue-green summer foliage flips copper in cool nights before florists harvest stems for upright texture in dry meadow designs.
-  companions:
-  - Little Bluestem — related Andropogon neighbor with finer texture for layered prairie matrices
-  - Prairie Coneflower — forb contrast in color and form on the same dry bank
-  - Milkweed — forb neighbor for pollinator value alongside warm-season grasses
-  cautions:
-  - Wet clay — rot and replacement shopping
-  - Rich irrigation — lanky growth with fewer copper fireworks
-  pests:
-  - Aphids
-  - Armyworms
-  - Bamboo Mite
-  - Corn Earworm
-  - Fall Armyworm
-  - Japanese Beetles
-  - Leaf Blight
-  - Lubber Grasshopper
-  - Rice Blast Fungus
-  - Rice Water Weevil
-  - Spider Mites
-  - Spittlebugs
-  - Wireworm
-  practitioner_notes: 'Andropogon hallii is the sandhill specialist—if your soil is heavy clay, admire it in photos, not your
-    yard.
-
-    Fall color is the paycheck—do not mow the stand before the copper show unless fire codes demand it.
-
-    Seed dormancy varies—cold-moist stratification improves uniform germination in trays.
-
-    Bunchgrass gaps are habitat—fill with forbs, not turf insecurity.'
-  growth_habit: Warm-season bunchgrass; blue-green foliage; copper fall; deep sandy soils
-  data_quality_score: 0.81
+  🌾 Harvest / Best Use Timing:
+  Cut seed stems for arrangements when color peaks; leave standing material for wildlife through winter if aesthetics allow. Peak growth tracks heat and summer rainfall patterns.
+purpose: |-
+  Erosion Control: Andropogon hallii sends roots deep into loose sand so bunch crowns lock dune toes and terrace cuts where shallow annuals wash out after one thunder cell.
+  Wildlife Attractor: Late-season airy seed heads feed songbirds while stiff stems shelter overwintering insects in reconstructed prairie mixes.
+  Biomass: Copper-colored standing stems chop into coarse mulch that feeds fungal chains on carbon-poor coastal sands when timed after seed drop.
+  Ornamental: Blue-green summer foliage flips copper in cool nights before florists harvest stems for upright texture in dry meadow designs.
+companions:
+- Little Bluestem — related Andropogon neighbor with finer texture for layered prairie
+  matrices
+- Prairie Coneflower — forb contrast in color and form on the same dry bank
+- Milkweed — forb neighbor for pollinator value alongside warm-season grasses
+cautions:
+- Wet clay — rot and replacement shopping
+- Rich irrigation — lanky growth with fewer copper fireworks
+pests:
+- Aphids
+- Armyworms
+- Bamboo Mite
+- Corn Earworm
+- Fall Armyworm
+- Japanese Beetles
+- Lubber Grasshopper
+- Rice Blast Fungus
+- Rice Water Weevil
+- Spider Mites
+- Spittlebugs
+- Wireworm
+growth_habit: Warm-season bunchgrass; blue-green foliage; copper fall; deep sandy
+  soils
+data_quality_score: 0.81
+diseases:
+- Leaf Blight
