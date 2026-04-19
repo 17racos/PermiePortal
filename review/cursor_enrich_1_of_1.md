@@ -1,7 +1,7 @@
 # PermiePortal — Enrichment Batch 1 of 1
 
 > **Agent mode only.** ONE session at a time.
-> This batch: 0 plants. Total remaining: 0 plants + 243 pest fields.
+> This batch: 1 plants. Total remaining: 1 plants + 243 pest fields.
 
 ---
 
@@ -51,6 +51,7 @@ NEVER: None, NEEDS_DATA, or animals without pest profiles
 
 ## Plants to Enrich
 
+- `src/seeds/plants/peach-tree-data.yml` (11 fields)
 
 ## Pests to Enrich (0 files, 243 fields)
 
