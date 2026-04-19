@@ -290,7 +290,7 @@ const purposeLines = purposeRaw
   )}
 
   <!-- PEST PRESSURE -->
-  {(plantPestList.length > 0 || plantDiseases.length > 0 || plantAnimals.length > 0) && (
+  {(plantPestList.length > 0 || plantDiseases.length > 0 || plantAnimals.length > 0 || plantPests.length > 0) && (
     <div class="section">
       <p class="section-label">Threats &amp; Pressure</p>
 
@@ -305,6 +305,18 @@ const purposeLines = purposeRaw
                 : <li>{p}</li>;
             })}
           </ul>
+        </div>
+      )}
+
+      {plantPests.length > 0 && (
+        <div class="threat-group">
+          <div class="threat-group-title">📋 Full Pest Profiles</div>
+          {plantPests.map((pest: any) => (
+            <a href={`/pests/${pest.slug}`} class="pest-card">
+              <div class="pest-card-name">{pest.name}</div>
+              {pest.scientific_name && <div class="pest-card-sci">{pest.scientific_name}</div>}
+            </a>
+          ))}
         </div>
       )}
 
