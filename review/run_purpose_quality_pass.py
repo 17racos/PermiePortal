@@ -5,6 +5,7 @@ Only modifies text between `purpose:` and `companions:`. Skips files that alread
 """
 from __future__ import annotations
 
+import os
 import re
 import sys
 from pathlib import Path
@@ -28,6 +29,28 @@ def flatten_description(desc) -> str:
     return t.strip()
 
 
+def desc_for_mining(desc_raw) -> str:
+    """Opening / ecology paragraph only -- avoids pulling propagation or harvest bullets."""
+    if not isinstance(desc_raw, str):
+        return ""
+    t = desc_raw.replace("\r\n", "\n")
+    for cut in (
+        "\n\n☀️",
+        "\n☀️",
+        "\n\n✂️",
+        "\n✂️",
+        "\n\n🌾",
+        "\n🌾",
+        "Sun and Water Requirements",
+        "Methods to Propagate",
+        "When to Harvest",
+        "Harvest / Best Use Timing",
+    ):
+        if cut in t:
+            t = t.split(cut, 1)[0]
+    return flatten_description(t)
+
+
 def no_em_dash(s: str) -> str:
     return (
         s.replace("\u2014", " -- ")
@@ -40,8 +63,19 @@ def mine_sentence(desc: str, keywords: tuple[str, ...], max_len: int = 320) -> s
     if not desc:
         return None
     chunks = re.split(r"(?<=[.!?])\s+", desc)
+    skip_substrings = (
+        "propagation:",
+        "harvest /",
+        "when to harvest",
+        "sun and water",
+        "✂️",
+        "🌾",
+        "☀️",
+    )
     for ch in chunks:
         low = ch.lower()
+        if any(s in low for s in skip_substrings):
+            continue
         if any(k.lower() in low for k in keywords):
             one = re.sub(r"\s+", " ", ch).strip()
             if len(one) < 25:
@@ -112,7 +146,9 @@ def closing_for(fn: str) -> str:
 
 def opening_for(fn: str, name: str, sci: str, desc: str) -> str:
     """First clause before ' -- '."""
-    d = desc
+    d = desc_for_mining(desc) if len(desc) > 400 else flatten_description(desc)
+    if len(d) < 40:
+        d = flatten_description(desc)
     m = None
     if fn == "Edible":
         m = mine_sentence(d, ("harvest", "fruit", "berry", "leaf", "root", "seed", "pod", "nut", "eat", "culinar", "cook", "salad", "grain", "tuber"))
@@ -153,7 +189,7 @@ def opening_for(fn: str, name: str, sci: str, desc: str) -> str:
         m = mine_sentence(d, ("bird", "mammal", "wildlife", "fruit", "seed", "habitat", "cover"))
         if m:
             return f"Wildlife shows up for calories and cover: {m}"
-        return f"{name} adds berries, mast, or insect biomass that songbirds and beneficial mammals cue on in hedgerows"
+        return f"{name} layers flowers, seeds, or thicket shelter so beneficial insects and small vertebrates find steady forage along hedgerows"
     if fn == "Windbreaker":
         m = mine_sentence(d, ("wind", "shelter", "hedge", "fence", "tall", "canopy"))
         if m:
@@ -228,12 +264,18 @@ def elaboration_line(fn: str, name: str, sci: str, desc: str, variant: int) -> s
         op = f"{name} earns its keep on this axis through site-specific management described in your notes -- not through wishful thinking"
         cl = closing_for(fn)
     elif v == 1:
-        op = mine_sentence(desc, ("avoid", "not", "illegal", "warn", "toxic", "caution", "control", "remove", "invasive")) or (
+        op = mine_sentence(
+            desc_for_mining(desc),
+            ("avoid", "not", "illegal", "warn", "toxic", "caution", "control", "remove", "invasive"),
+        ) or (
             f"Management reality for {name} matters as much as yield -- timing, disposal, and local rules decide whether the plant helps or hijacks the system"
         )
         cl = "keeps your design honest about edge cases instead of smuggling them into neighbor ecosystems"
     else:
-        op = mine_sentence(desc, ("sun", "water", "soil", "shade", "drain", "humid", "dry", "frost")) or (
+        op = mine_sentence(
+            desc_for_mining(desc),
+            ("sun", "water", "soil", "shade", "drain", "humid", "dry", "frost"),
+        ) or (
             f"{name} responds sharply to moisture, light, and temperature swings -- match spacing and mulch to the microclimate you measured, not the catalog fantasy"
         )
         cl = "reduces rescue irrigation and replanting drama once establishment rules are actually followed"
@@ -241,19 +283,19 @@ def elaboration_line(fn: str, name: str, sci: str, desc: str, variant: int) -> s
 
 
 def build_purpose(name: str, sci: str, desc_raw: str, funcs: list[str]) -> str:
-    desc = flatten_description(desc_raw)
+    desc = desc_raw if isinstance(desc_raw, str) else ""
     if not sci:
         sci = "sp."
     lines: list[str] = []
     for fn in funcs:
-        op = opening_for(fn, name, sci, desc)
+        op = opening_for(fn, name, sci, desc or "")
         cl = closing_for(fn)
         line = no_em_dash(f"{fn}: {op} -- {cl}")
         lines.append(line)
     extra = 0
     while len(lines) < 3 and funcs:
         fn = funcs[min(extra, len(funcs) - 1)]
-        lines.append(elaboration_line(fn, name, sci, desc, extra))
+        lines.append(elaboration_line(fn, name, sci, desc or "", extra))
         extra += 1
     return "\n".join(lines) + "\n"
 
@@ -271,7 +313,9 @@ def replace_purpose_region(full: str, new_body: str) -> str:
     prefix = head[:idx].rstrip("\n")
     indented = []
     for ln in new_body.strip("\n").split("\n"):
-        indented.append(("    " + ln) if ln.strip() else "")
+        if not ln.strip():
+            continue
+        indented.append("    " + ln)
     # Preserve a newline before purpose: (splitting at idx drops the \n before purpose)
     block = prefix + "\n  purpose: |-\n" + "\n".join(indented) + "\n"
     return block + marker + tail
@@ -285,6 +329,7 @@ def iter_plant_files():
 
 
 def main() -> int:
+    force = os.environ.get("PURPOSE_PASS_FORCE") == "1"
     updated = 0
     skipped = 0
     errors: list[str] = []
@@ -304,7 +349,7 @@ def main() -> int:
         if path.name in SKIP_PURPOSE_AUTOGEN:
             skipped += 1
             continue
-        if already_good(purpose, funcs):
+        if not force and already_good(purpose, funcs):
             skipped += 1
             continue
         name = entry.get("common_name") or path.stem.replace("-data", "").replace("-", " ").title()
