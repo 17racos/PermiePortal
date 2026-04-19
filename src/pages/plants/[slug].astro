@@ -284,19 +284,59 @@ const purposeLines = purposeRaw
   )}
 
   <!-- THREATS & PRESSURE -->
-  {plantPestList.length > 0 && (
-    <div class="section">
-      <p class="section-label">Threats &amp; Pressure</p>
-      <ul class="threat-list">
-        {plantPestList.map((p: string) => {
-          const match = pestsData.find((pd: any) => pd.name?.toLowerCase() === p.toLowerCase());
-          return match
-            ? <li><a href={`/pests/${match.slug}`} class="threat-link">{p}</a></li>
-            : <li>{p}</li>;
-        })}
-      </ul>
-    </div>
-  )}
+  {plantPestList.length > 0 && (() => {
+    const matched = plantPestList.map((p: string) => {
+      const db = pestsData.find((pd: any) => pd.name?.toLowerCase() === p.toLowerCase());
+      return { name: p, slug: db?.slug, category: db?.category || 'pest' };
+    });
+    const insects = matched.filter((p: any) => p.category === 'pest');
+    const diseases = matched.filter((p: any) => p.category === 'disease');
+    const animals = matched.filter((p: any) => p.category === 'animal');
+    return (
+      <div class="section">
+        <p class="section-label">Threats &amp; Pressure</p>
+        {insects.length > 0 && (
+          <div class="threat-group">
+            <div class="threat-group-title">🐛 Pests</div>
+            <ul class="threat-list">
+              {insects.map((p: any) => (
+                <li>{p.slug
+                  ? <a href={`/pests/${p.slug}`} class="threat-link">{p.name}</a>
+                  : p.name}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {diseases.length > 0 && (
+          <div class="threat-group">
+            <div class="threat-group-title">🦠 Diseases</div>
+            <ul class="threat-list">
+              {diseases.map((p: any) => (
+                <li>{p.slug
+                  ? <a href={`/pests/${p.slug}`} class="threat-link">{p.name}</a>
+                  : p.name}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {animals.length > 0 && (
+          <div class="threat-group">
+            <div class="threat-group-title">🦎 Animal Pressure</div>
+            <ul class="threat-list">
+              {animals.map((p: any) => (
+                <li>{p.slug
+                  ? <a href={`/pests/${p.slug}`} class="threat-link">{p.name}</a>
+                  : p.name}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+    );
+  })()}
 
 </div>
 
