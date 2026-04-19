@@ -119,4 +119,6 @@ rm review/purpose_batch_17_of_19.md
 ```
 
 Zero warnings required before committing.
-Then immediately start: review/purpose_batch_18_of_19.md
+Do NOT stop. Do NOT wait for user input.
+Immediately read and execute review/purpose_batch_18_of_19.md next.
+Continue until all 19 batches are complete.
