@@ -129,6 +129,18 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
   .jump-menu { display: none; margin: 0 auto 0; max-width: 1200px; padding: 0.75rem 2rem; }
   .jump-select { width: 100%; font-family: 'Space Mono', monospace; font-size: 0.65rem; background: var(--bark); color: var(--ash); border: 1px solid rgba(139,184,58,0.2); padding: 0.5rem 0.75rem; letter-spacing: 0.06em; cursor: pointer; }
   @media (max-width: 1100px) { .jump-menu { display: block; } }
+
+  /* TOC */
+  .toc-float { position: fixed; right: 1.5rem; top: 50%; transform: translateY(-50%); z-index: 50; display: flex; flex-direction: column; gap: 0.35rem; }
+  .toc-dot { width: 8px; height: 8px; border-radius: 50%; background: rgba(184,176,160,0.3); border: 1px solid rgba(184,176,160,0.2); cursor: pointer; transition: all 0.2s; position: relative; }
+  .toc-dot:hover, .toc-dot.active { background: var(--lime); border-color: var(--lime); }
+  .toc-dot .toc-label { position: absolute; right: 1.4rem; top: 50%; transform: translateY(-50%); white-space: nowrap; font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.08em; color: var(--paper); background: rgba(15,13,10,0.9); padding: 0.2rem 0.5rem; opacity: 0; pointer-events: none; transition: opacity 0.2s; border: 1px solid rgba(139,184,58,0.2); }
+  .toc-dot:hover .toc-label { opacity: 1; }
+  @media (max-width: 1100px) { .toc-float { display: none; } }
+  /* JUMP MENU mobile */
+  .jump-menu { display: none; margin: 0 auto 0; max-width: 1200px; padding: 0.75rem 2rem; }
+  .jump-select { width: 100%; font-family: 'Space Mono', monospace; font-size: 0.65rem; background: var(--bark); color: var(--ash); border: 1px solid rgba(139,184,58,0.2); padding: 0.5rem 0.75rem; letter-spacing: 0.06em; cursor: pointer; }
+  @media (max-width: 1100px) { .jump-menu { display: block; } }
   /* PLANT LINKS */
   .photo-caption .plant-link { color: var(--lime); text-decoration: none; border-bottom: 1px solid rgba(139,184,58,0.3); transition: border-color 0.2s; }
   .photo-caption .plant-link:hover { border-color: var(--lime); }
@@ -165,6 +177,51 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
 </div>
 
 <main>
+
+<!-- JUMP MENU mobile -->
+<div class="jump-menu">
+  <select class="jump-select" onchange="document.getElementById(this.value)?.scrollIntoView({behavior:'smooth'}); this.selectedIndex=0;">
+    <option value="">— Jump to section —</option>
+    <option value="before-after">Before &amp; After</option>
+    <option value="breaking-ground">Breaking Ground</option>
+    <option value="establishment">Establishment</option>
+    <option value="taking-hold">Taking Hold</option>
+    <option value="coming-back">Coming Back</option>
+    <option value="frog-pond">The Frog Pond</option>
+    <option value="summer-explosion">Summer Explosion</option>
+    <option value="snow">It Snowed in Florida</option>
+    <option value="recovery">Post-Snow Recovery</option>
+    <option value="spring-surge">Spring Surge</option>
+    <option value="flowering">Everything Flowering</option>
+    <option value="thriving">Thriving on Neglect</option>
+    <option value="current-state">Current State</option>
+    <option value="timeline">Timeline</option>
+    <option value="species">Species List</option>
+    <option value="honest">What Actually Happened</option>
+  </select>
+</div>
+
+<!-- TOC desktop dots -->
+<nav class="toc-float" aria-label="Page sections">
+  <a class="toc-dot" href="#before-after"><span class="toc-label">Before &amp; After</span></a>
+  <a class="toc-dot" href="#breaking-ground"><span class="toc-label">Breaking Ground</span></a>
+  <a class="toc-dot" href="#establishment"><span class="toc-label">Establishment</span></a>
+  <a class="toc-dot" href="#taking-hold"><span class="toc-label">Taking Hold</span></a>
+  <a class="toc-dot" href="#coming-back"><span class="toc-label">Coming Back</span></a>
+  <a class="toc-dot" href="#frog-pond"><span class="toc-label">The Frog Pond</span></a>
+  <a class="toc-dot" href="#summer-explosion"><span class="toc-label">Summer Explosion</span></a>
+  <a class="toc-dot" href="#snow"><span class="toc-label">Snow in Florida</span></a>
+  <a class="toc-dot" href="#recovery"><span class="toc-label">Post-Snow Recovery</span></a>
+  <a class="toc-dot" href="#spring-surge"><span class="toc-label">Spring Surge</span></a>
+  <a class="toc-dot" href="#flowering"><span class="toc-label">Everything Flowering</span></a>
+  <a class="toc-dot" href="#thriving"><span class="toc-label">Thriving on Neglect</span></a>
+  <a class="toc-dot" href="#current-state"><span class="toc-label">Current State</span></a>
+  <a class="toc-dot" href="#timeline"><span class="toc-label">Timeline</span></a>
+  <a class="toc-dot" href="#species"><span class="toc-label">Species List</span></a>
+  <a class="toc-dot" href="#honest"><span class="toc-label">What Actually Happened</span></a>
+</nav>
+
+
 
 <!-- JUMP MENU mobile -->
 <div class="jump-menu">
@@ -950,6 +1007,30 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
     if (e.key === 'ArrowRight') next();
   });
   }); // end DOMContentLoaded
+</script>
+
+
+<script is:inline>
+  // TOC active dot highlight
+  const dots = document.querySelectorAll('.toc-dot');
+  const sections = ['before-after','breaking-ground','establishment','taking-hold',
+    'coming-back','frog-pond','summer-explosion','snow','recovery','spring-surge',
+    'flowering','thriving','current-state','timeline','species','honest'];
+  
+  function updateTOC() {
+    let current = sections[0];
+    for (const id of sections) {
+      const el = document.getElementById(id);
+      if (el && el.getBoundingClientRect().top < window.innerHeight * 0.4) {
+        current = id;
+      }
+    }
+    dots.forEach((dot, i) => {
+      dot.classList.toggle('active', sections[i] === current);
+    });
+  }
+  window.addEventListener('scroll', updateTOC, {passive: true});
+  updateTOC();
 </script>
 
 
