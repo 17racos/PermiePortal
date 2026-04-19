@@ -116,7 +116,7 @@ def closing_for(fn: str) -> str:
         "Mulcher": "turns fast leaf/stem turnover into mulch that feeds soil life and buffers moisture swings in mixed beds",
         "Animal Fodder": "cuts purchased feed pressure when offered fresh, wilted, or ensiled alongside your main forage plan",
         "Pollinator": "keeps nectar and pollen online through the heat when weaker flowers quit, stabilizing yields on adjacent crops",
-        "Wildlife Attractor": "adds berries, seeds, cover, or insects so birds and beneficials treat your site like habitat, not a parking lot",
+        "Wildlife Attractor": "feeds insect and bird guilds so edges read as habitat instead of tidy monoculture voids",
         "Windbreaker": "slows desiccating wind at edges and livestock lanes so understory crops keep turgor and transpiration sane",
         "Erosion Control": "binds slopes, banks, and disturbed cuts where bare soil would otherwise sheet during hard rains",
         "Shade Provider": "creates understory microclimate for shade-tolerant herbs and roots while cutting moisture loss below",
@@ -317,7 +317,8 @@ def replace_purpose_region(full: str, new_body: str) -> str:
             continue
         indented.append("    " + ln)
     # Preserve a newline before purpose: (splitting at idx drops the \n before purpose)
-    block = prefix + "\n  purpose: |-\n" + "\n".join(indented) + "\n"
+    # Single newline before companions: (avoid blank line inside purpose block tail)
+    block = prefix + "\n  purpose: |-\n" + "\n".join(indented)
     return block + marker + tail
 
 
