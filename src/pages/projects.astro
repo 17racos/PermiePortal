@@ -14,11 +14,6 @@ import BaseLayout from '../components/layouts/BaseLayout.astro';
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: var(--soil); color: var(--paper); font-family: 'Instrument Serif', Georgia, serif; }
-  .nav { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 2rem; border-bottom: 1px solid rgba(139,184,58,0.2); position: sticky; top: 0; z-index: 100; background: rgba(15,13,10,0.97); backdrop-filter: blur(8px); }
-  .nav-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; letter-spacing: 0.08em; color: var(--lime); text-decoration: none; }
-  .nav-links { display: flex; gap: 2rem; list-style: none; }
-  .nav-links a { font-family: 'Space Mono', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ash); text-decoration: none; transition: color 0.2s; }
-  .nav-links a:hover { color: var(--lime); }
   .page-header { padding: 4rem 2rem 3rem; border-bottom: 1px solid rgba(139,184,58,0.15); }
   .page-eyebrow { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--rust); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.75rem; }
   .page-eyebrow::before { content: ''; width: 2rem; height: 1px; background: var(--rust); }
@@ -46,7 +41,6 @@ import BaseLayout from '../components/layouts/BaseLayout.astro';
   .footer-copy { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--ash); }
   @media (max-width: 768px) {
     .projects-grid { grid-template-columns: 1fr; padding: 1rem; }
-    .nav-links { gap: 1rem; }
     .footer { flex-direction: column; gap: 1rem; padding: 1.5rem; }
   }
 </style>
@@ -63,7 +57,7 @@ import BaseLayout from '../components/layouts/BaseLayout.astro';
 <div class="projects-grid">
   <a href="/projects/backyard-food-forest" class="project-card">
     <div class="project-img-wrap">
-      <img class="project-img" src="/media/food-forest/18-april-2026/20260417_094512.webp" alt="Backyard food forest Yulee FL" loading="lazy" />
+      <img class="project-img" src="/media/food-forest/18-april-2026/20260417_094512.webp" srcset="/media/food-forest/18-april-2026/20260417_094512_m.webp 600w, /media/food-forest/18-april-2026/20260417_094512.webp 1200w" sizes="(max-width: 600px) 600px, 1200px" alt="Backyard food forest Yulee FL" loading="eager" />
     </div>
     <div class="project-body">
       <div class="project-meta">Started July 2023 — Active — Yulee, FL</div>
@@ -78,11 +72,6 @@ import BaseLayout from '../components/layouts/BaseLayout.astro';
       <span class="project-link">View project →</span>
     </div>
   </a>
-</div>
-
-<div class="coming-soon">
-  <div class="coming-soon-title">More projects in progress</div>
-  <div class="coming-soon-desc">Wayfinders Wilds land acquisition, chitosan production experiments, aquaponics system.</div>
 </div>
 </main>
 
