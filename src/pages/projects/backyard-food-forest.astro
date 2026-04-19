@@ -939,12 +939,19 @@ document.addEventListener('DOMContentLoaded', function() {
   const jumpMenu = document.querySelector('.jump-menu');
   if (jumpMenu) {
     const navHeight = document.querySelector('.nav')?.offsetHeight || 48;
-    let menuTop = jumpMenu.getBoundingClientRect().top + window.scrollY;
+    // Get menu position after page renders
+    let menuBottom = 0;
+    function initSticky() {
+      menuBottom = jumpMenu.getBoundingClientRect().bottom + window.scrollY;
+    }
     function checkSticky() {
-      jumpMenu.classList.toggle('is-stuck', window.scrollY > menuTop - navHeight);
+      const stuck = window.scrollY + navHeight >= menuBottom;
+      jumpMenu.classList.toggle('is-stuck', stuck);
     }
     window.addEventListener('scroll', checkSticky, {passive: true});
-    checkSticky();
+    // Init after fonts/images settle
+    setTimeout(initSticky, 500);
+    setTimeout(checkSticky, 500);
   }
 
 });
