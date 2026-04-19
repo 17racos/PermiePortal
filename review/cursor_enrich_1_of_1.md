@@ -29,7 +29,23 @@ Use `src/seeds/plants/moringa-data.yml` as the quality standard.
 3. ✂️ Propagation (2+ methods with timing)
 4. 🌾 Harvest / Best Use Timing
 
-**purpose** — explain HOW each function works in a permaculture system
+**purpose** — gold standard format (match moringa-data.yml exactly):
+
+Format: one function per line, no bullets, no dashes:
+  purpose: |-
+    Edible: [what part, how used, harvest timing -- specific facts]
+    Medicinal: [what use, what part, any cautions]
+    Nitrogen Fixer: [mechanism, interplanting advice]
+
+Rules:
+- Use ' -- ' (space dash dash space) NOT em dashes
+- Every line must contain facts specific to THIS plant
+- Minimum 3 functions, most plants 5-8
+- Match the plant_function list -- every function listed must appear
+- DO NOT write: generic phrases like 'improves soil fertility'
+  without saying HOW this plant does it specifically
+- DO NOT write: 'serves multiple functions in a permaculture system'
+- DO NOT use bullet points or leading dashes
 
 **companions** — min 3 specific species with reason WHY
 NOT categories like 'nitrogen-fixing plants' or 'legumes'
