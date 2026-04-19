@@ -187,6 +187,29 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
   </select>
 </div>
 
+<!-- JUMP MENU mobile -->
+<div class="jump-menu">
+  <select class="jump-select" onchange="document.getElementById(this.value)?.scrollIntoView({behavior:'smooth'}); this.selectedIndex=0;">
+    <option value="">— Jump to section —</option>
+    <option value="before-after">Before &amp; After (Apr 2023 vs 2026)</option>
+    <option value="breaking-ground">Breaking Ground (Jul 2023)</option>
+    <option value="establishment">Establishment (Aug–Sep 2023)</option>
+    <option value="taking-hold">Taking Hold (Oct–Dec 2023)</option>
+    <option value="coming-back">Coming Back (Feb–Mar 2024)</option>
+    <option value="frog-pond">The Frog Pond (Apr–May 2024)</option>
+    <option value="summer-explosion">Summer Explosion (Jul–Sep 2024)</option>
+    <option value="snow">Snow in Florida (Jan 2025)</option>
+    <option value="recovery">Post-Snow Recovery (Mar–Apr 2025)</option>
+    <option value="spring-surge">Spring Surge (Late Apr 2025)</option>
+    <option value="flowering">Everything Flowering (May 2025)</option>
+    <option value="thriving">Thriving on Neglect (Nov 2025)</option>
+    <option value="current-state">Current State (Apr 2026)</option>
+    <option value="timeline">Timeline</option>
+    <option value="species">Species List</option>
+    <option value="honest">What Actually Happened</option>
+  </select>
+</div>
+
 <main>
 
 <!-- JUMP MENU mobile -->
