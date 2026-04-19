@@ -308,17 +308,7 @@ const purposeLines = purposeRaw
         </div>
       )}
 
-      {plantPests.length > 0 && (
-        <div class="threat-group">
-          <div class="threat-group-title">📋 Full Pest Profiles</div>
-          {plantPests.map((pest: any) => (
-            <a href={`/pests/${pest.slug}`} class="pest-card">
-              <div class="pest-card-name">{pest.name}</div>
-              {pest.scientific_name && <div class="pest-card-sci">{pest.scientific_name}</div>}
-            </a>
-          ))}
-        </div>
-      )}
+
 
       {plantDiseases.length > 0 && (
         <div class="threat-group">
