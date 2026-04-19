@@ -1,4 +1,5 @@
 ---
+import Navbar from '../../components/Navbar.astro';
 import BaseLayout from '../../components/layouts/BaseLayout.astro';
 import pestsData from '../../data/pests.json';
 
@@ -135,17 +136,7 @@ const otherSymptoms = Object.keys(SYMPTOM_LABELS).filter(s => s !== symptom).sli
   }
 </style>
 
-<nav class="nav">
-  <a href="/" class="nav-logo">PermiePortal</a>
-  <ul class="nav-links">
-    <li><a href="/plants">Plants</a></li>
-    <li><a href="/pests">Pests</a></li>
-    <li><a href="/diagnose">Diagnose</a></li>
-    <li><a href="/articles">Articles</a></li>
-    <li><a href="/projects">Projects</a></li>
-    <li><a href="/about">About</a></li>
-  </ul>
-</nav>
+<Navbar />
 
 <main>
 <div class="breadcrumb">

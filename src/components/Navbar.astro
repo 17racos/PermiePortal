@@ -1,18 +1,87 @@
 ---
 const links = [
+  { href: '/plants', text: 'Plants' },
+  { href: '/pests', text: 'Pests' },
+  { href: '/diagnose', text: 'Diagnose' },
   { href: '/articles', text: 'Articles' },
   { href: '/projects', text: 'Projects' },
   { href: '/about', text: 'About' },
 ];
+const current = Astro.url.pathname;
 ---
-<nav class="border-b border-border" aria-label="Primary">
-  <div class="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
-    <a href="/" class="font-bold tracking-tight text-xl">PermiePortal</a>
-    <ul class="flex gap-6 text-sm">
-      {links.map((l) => (
-        <li><a class="hover:text-accent focus-ring" href={l.href}>{l.text}</a></li>
-      ))}
-    </ul>
-  </div>
-  <a class="sr-only" href="#main">Skip to content</a>
+<nav class="pp-nav">
+  <a href="/" class="pp-nav-logo">PermiePortal</a>
+  <ul class="pp-nav-links">
+    {links.map(l => (
+      <li>
+        <a href={l.href} class={current.startsWith(l.href) ? 'pp-nav-link active' : 'pp-nav-link'}>
+          {l.text}
+        </a>
+      </li>
+    ))}
+  </ul>
 </nav>
+
+<style>
+  .pp-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid rgba(139,184,58,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(15,13,10,0.97);
+    backdrop-filter: blur(8px);
+    gap: 0.5rem;
+  }
+  .pp-nav-logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 0.08em;
+    color: #8fb83a;
+    text-decoration: none;
+    flex-shrink: 0;
+  }
+  .pp-nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .pp-nav-link {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #b8b0a0;
+    text-decoration: none;
+    padding: 0.3rem 0.6rem;
+    border: 1px solid transparent;
+    transition: color 0.2s, border-color 0.2s;
+    white-space: nowrap;
+  }
+  .pp-nav-link:hover,
+  .pp-nav-link.active {
+    color: #8fb83a;
+    border-color: rgba(139,184,58,0.3);
+  }
+
+  @media (max-width: 600px) {
+    .pp-nav {
+      padding: 0.75rem 1rem;
+    }
+    .pp-nav-logo {
+      font-size: 1.5rem;
+    }
+    .pp-nav-link {
+      font-size: 0.62rem;
+      padding: 0.25rem 0.4rem;
+      letter-spacing: 0.06em;
+    }
+  }
+</style>
