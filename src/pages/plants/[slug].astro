@@ -38,8 +38,6 @@ const fieldObsFacts = plant.field_observations
       .filter((l: string) => l.length > 0 && l.toLowerCase() !== 'needs_data')
   : [];
 const plantPestList: string[] = Array.isArray(plant.pests) ? plant.pests : [];
-const plantDiseases: string[] = Array.isArray(plant.diseases) ? plant.diseases : [];
-const plantAnimals: string[] = Array.isArray(plant.animal_pressure) ? plant.animal_pressure : [];
 
 // Purpose — split into lines, separating intro from bullet points
 const purposeRaw = plant.purpose || '';
@@ -289,45 +287,28 @@ const purposeLines = purposeRaw
     </div>
   )}
 
-  <!-- PEST PRESSURE -->
-  {(plantPestList.length > 0 || plantDiseases.length > 0 || plantAnimals.length > 0 || plantPests.length > 0) && (
+  <!-- THREATS & PRESSURE -->
+  {(plantPestList.length > 0 || plantPests.length > 0) && (
     <div class="section">
       <p class="section-label">Threats &amp; Pressure</p>
-
-      {plantPestList.length > 0 && (
-        <div class="threat-group">
-          <div class="threat-group-title">🐛 Pests</div>
-          <ul class="threat-list">
-            {plantPestList.map((p: string) => {
-              const match = pestsData.find((pd: any) => pd.name?.toLowerCase() === p.toLowerCase());
-              return match
-                ? <li><a href={`/pests/${match.slug}`} class="threat-link">{p}</a></li>
-                : <li>{p}</li>;
-            })}
-          </ul>
+      <ul class="threat-list">
+        {plantPestList.map((p: string) => {
+          const match = pestsData.find((pd: any) => pd.name?.toLowerCase() === p.toLowerCase());
+          return match
+            ? <li><a href={`/pests/${match.slug}`} class="threat-link">{p}</a></li>
+            : <li>{p}</li>;
+        })}
+      </ul>
+      {plantPests.length > 0 && (
+        <div style="margin-top:1.5rem;">
+          {plantPests.map((pest: any) => (
+            <a href={`/pests/${pest.slug}`} class="pest-card">
+              <div class="pest-card-name">{pest.name}</div>
+              {pest.scientific_name && <div class="pest-card-sci">{pest.scientific_name}</div>}
+            </a>
+          ))}
         </div>
       )}
-
-
-
-      {plantDiseases.length > 0 && (
-        <div class="threat-group">
-          <div class="threat-group-title">🦠 Diseases</div>
-          <ul class="threat-list">
-            {plantDiseases.map((d: string) => <li>{d}</li>)}
-          </ul>
-        </div>
-      )}
-
-      {plantAnimals.length > 0 && (
-        <div class="threat-group">
-          <div class="threat-group-title">🦎 Animal Pressure</div>
-          <ul class="threat-list">
-            {plantAnimals.map((a: string) => <li>{a}</li>)}
-          </ul>
-        </div>
-      )}
-
     </div>
   )}
 
