@@ -143,7 +143,7 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
   @media (max-width: 900px) { .toc-float { display: none; } }
   /* JUMP MENU mobile */
   .jump-menu { display: none; padding: 0.6rem 1.25rem; border-bottom: 1px solid rgba(139,184,58,0.1); background: rgba(28,24,18,0.97); z-index: 90; }
-  .jump-menu.is-stuck { position: fixed; top: 48px; left: 0; right: 0; backdrop-filter: blur(8px); box-shadow: 0 2px 8px rgba(0,0,0,0.4); }
+  .jump-menu.is-stuck { position: fixed; top: var(--nav-height, 48px); left: 0; right: 0; backdrop-filter: blur(8px); box-shadow: 0 2px 8px rgba(0,0,0,0.4); }
   .jump-select { width: 100%; font-family: 'Space Mono', monospace; font-size: 0.65rem; background: var(--bark); color: var(--ash); border: 1px solid rgba(139,184,58,0.2); padding: 0.5rem 0.75rem; letter-spacing: 0.06em; cursor: pointer; }
   @media (max-width: 900px) { .jump-menu { display: block; } }
 
@@ -935,23 +935,36 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('scroll', updateTOC, {passive: true});
   updateTOC();
 
-  // STICKY JUMP MENU
+  // STICKY JUMP MENU -- use placeholder div approach (most reliable)
   const jumpMenu = document.querySelector('.jump-menu');
   if (jumpMenu) {
-    const navHeight = document.querySelector('.nav')?.offsetHeight || 48;
-    // Get menu position after page renders
-    let menuBottom = 0;
-    function initSticky() {
-      menuBottom = jumpMenu.getBoundingClientRect().bottom + window.scrollY;
-    }
+    // Create a placeholder that holds space when menu goes fixed
+    const placeholder = document.createElement('div');
+    placeholder.style.display = 'none';
+    jumpMenu.parentNode.insertBefore(placeholder, jumpMenu.nextSibling);
+
+    const nav = document.querySelector('.nav');
+
     function checkSticky() {
-      const stuck = window.scrollY + navHeight >= menuBottom;
-      jumpMenu.classList.toggle('is-stuck', stuck);
+      const navBottom = nav ? nav.getBoundingClientRect().bottom : 48;
+      const menuRect = jumpMenu.classList.contains('is-stuck')
+        ? placeholder.getBoundingClientRect()
+        : jumpMenu.getBoundingClientRect();
+
+      if (!jumpMenu.classList.contains('is-stuck') && menuRect.top <= navBottom) {
+        // Stick it
+        placeholder.style.height = jumpMenu.offsetHeight + 'px';
+        placeholder.style.display = 'block';
+        jumpMenu.classList.add('is-stuck');
+      } else if (jumpMenu.classList.contains('is-stuck') && window.scrollY <= placeholder.getBoundingClientRect().top + window.scrollY - nav.offsetHeight) {
+        // Unstick it
+        jumpMenu.classList.remove('is-stuck');
+        placeholder.style.display = 'none';
+      }
     }
     window.addEventListener('scroll', checkSticky, {passive: true});
-    // Init after fonts/images settle
-    setTimeout(initSticky, 500);
-    setTimeout(checkSticky, 500);
+    window.addEventListener('resize', checkSticky, {passive: true});
+    checkSticky();
   }
 
 });
