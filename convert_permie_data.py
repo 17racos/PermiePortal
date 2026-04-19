@@ -97,12 +97,12 @@ def process_plant(data, source_file):
         "plant_function": norm_list(data.get('plant_function', [])),
         "description": clean_string(data.get('description', '')),
         "purpose": clean_string(data.get('purpose', '')),
-        "practitioner_notes": clean_string(data.get('practitioner_notes', '')),
-        "practitioner_notes": clean_string(data.get('practitioner_notes', '')),
-        "practitioner_notes": clean_string(data.get('practitioner_notes', '')),
+        "field_observations": clean_string(data.get('field_observations', '')),
         "companions": norm_list(data.get('companions', [])),
         "cautions": norm_list(data.get('cautions', [])),
+        "growth_habit": data.get('growth_habit', ''),
         "pest_slugs": pest_slugs,
+        "_raw_pests": norm_list(data.get('pests', [])),
         "_source": source_file,
     }
 
@@ -301,8 +301,13 @@ def main():
 
     # Clean up internals, add display names back
     for plant in plants:
-        plant['pests'] = [r['pest_name'] for r in relationships
-                          if r['plant_slug'] == plant['slug']]
+        rel_pests = [r['pest_name'] for r in relationships
+                     if r['plant_slug'] == plant['slug']]
+        raw_pests = plant.pop('_raw_pests', [])
+        # Merge: relationship pests + any seed pests not already covered
+        rel_lower = {p.lower() for p in rel_pests}
+        extra = [p for p in raw_pests if p.lower() not in rel_lower]
+        plant['pests'] = rel_pests + extra
         plant.pop('pest_slugs', None)
         plant.pop('_source', None)
 
