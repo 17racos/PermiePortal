@@ -1,101 +1,99 @@
----
-- name: Cocoa Pod Borer
-  slug: cocoa-pod-borer
-  picture: cocoa_pod_borer.webp
-  scientific_name: Conopomorpha cramerella
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, cocoa pod borer may already be on
-    the plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - tunneling
-  - stem-damage
-  - wilting
-  - die-back
-  - bark-damage
-  control_methods:
-    biological_controls: >-
-      Trichogramma wasps parasitize moth eggs on pod surfaces when releases match local flights
-      -- order shipments timed to regional models and release in the evening onto dry pods.
-      In some agroforestry systems, Azteca ant colonies defend cacao pods from boring larvae;
-      that relationship is context-specific and not a houseplant you import. Generalist birds
-      and wasps pick off adult moths at dusk. If ants also tend aphids, weigh the trade before
-      you encourage them.
-    preventive_methods: >-
-      Adult moths lay eggs on young pods -- coordinate area-wide pheromone monitoring so the
-      whole valley knows when flights peak. Remove mummified pods and black-pod debris before
-      larvae move into soil; inoculum stacks on the ground. Quarantine pods from blocks with
-      unknown spray history before you mix harvests for export. Train harvesters to flag pods
-      with fresh pinholes before larvae tunnel to the placenta.
-    cultural_practices: >-
-      Harvest ripe pods every two weeks or faster during heavy flights so larvae do not
-      complete development inside marketable chocolate. Shade management changes microclimate --
-      cooler, humid shade can slow moth activity but can favor black pod fungi; balance pod
-      hygiene with canopy density. Prune branches that hang pods in stagnant air pockets. After
-      outbreaks, strip remaining pods in outbreak zones and burn or bury deep per local rules.
-    mechanical_physical: >-
-      Pod stripping removes infested pods before larvae exit -- labor-intensive but direct in
-      small farms. Baited pheromone traps monitor male flights; they do not clear a farm alone.
-      Fine mesh sleeves on high-value scaffold branches exclude moths in research trials; scale
-      matters. Some growers use clean knives and gloves between trees to avoid moving eggs on
-      tools.
-    organic_sprays: >-
-      Bacillus thuringiensis aizawai and spinosad must contact larvae on pod surfaces or flowers
-      before larvae bore -- add spreader and spray to wet the whole pod. Neem rotations help in
-      low-input blocks when export residue rules allow. Reapply after rain; tropical downpours
-      strip sprays fast. Always follow buyer maximum residue limits; organic certification is not
-      the same as EU import limits. Time sprays to egg hatch, not random Mondays.
-  natural_enemies:
-  - Trichogramma spp.
-  - Ants (species-dependent)
-  affected_plants:
-  - slug: baobab
-    name: Baobab
-  - slug: cacao
-    name: Cacao
-  - slug: caesarweed
-    name: Caesarweed
-  - slug: cranberry-hibiscus
-    name: Cranberry Hibiscus
-  - slug: cupuacu
-    name: Cupuacu
-  - slug: edible-hibiscus
-    name: Edible Hibiscus
-  - slug: egyptian-spinach
-    name: Egyptian Spinach
-  - slug: indian-mallow
-    name: Indian Mallow
-  - slug: jute
-    name: Jute
-  - slug: kapok-tree
-    name: Kapok Tree
-  - slug: kenaf
-    name: Kenaf
-  - slug: malabar-chestnut
-    name: Malabar Chestnut
-  - slug: marsh-hibiscus
-    name: Marsh Hibiscus
-  - slug: marsh-mallow
-    name: Marsh Mallow
-  - slug: money-tree
-    name: Money Tree
-  - slug: peanut-tree
-    name: Peanut Tree
-  - slug: roselle
-    name: Roselle
-  - slug: roselle-hibiscus
-    name: Roselle Hibiscus
-  - slug: shaving-brush-tree
-    name: Shaving Brush Tree
-  - slug: sida
-    name: Sida
-  - slug: sunset-muskmallow
-    name: Sunset Muskmallow
-  - slug: velvetleaf
-    name: Velvetleaf
+name: Cocoa Pod Borer
+slug: cocoa-pod-borer
+picture: cocoa_pod_borer.webp
+scientific_name: Conopomorpha cramerella
+description: If new growth is curling, yellowing, sticky, or chewed, cocoa pod borer
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- tunneling
+- stem-damage
+- wilting
+- die-back
+- bark-damage
+control_methods:
+  biological_controls: Trichogramma wasps parasitize moth eggs on pod surfaces when
+    releases match local flights -- order shipments timed to regional models and release
+    in the evening onto dry pods. In some agroforestry systems, Azteca ant colonies
+    defend cacao pods from boring larvae; that relationship is context-specific and
+    not a houseplant you import. Generalist birds and wasps pick off adult moths at
+    dusk. If ants also tend aphids, weigh the trade before you encourage them.
+  preventive_methods: Adult moths lay eggs on young pods -- coordinate area-wide pheromone
+    monitoring so the whole valley knows when flights peak. Remove mummified pods
+    and black-pod debris before larvae move into soil; inoculum stacks on the ground.
+    Quarantine pods from blocks with unknown spray history before you mix harvests
+    for export. Train harvesters to flag pods with fresh pinholes before larvae tunnel
+    to the placenta.
+  cultural_practices: Harvest ripe pods every two weeks or faster during heavy flights
+    so larvae do not complete development inside marketable chocolate. Shade management
+    changes microclimate -- cooler, humid shade can slow moth activity but can favor
+    black pod fungi; balance pod hygiene with canopy density. Prune branches that
+    hang pods in stagnant air pockets. After outbreaks, strip remaining pods in outbreak
+    zones and burn or bury deep per local rules.
+  mechanical_physical: Pod stripping removes infested pods before larvae exit -- labor-intensive
+    but direct in small farms. Baited pheromone traps monitor male flights; they do
+    not clear a farm alone. Fine mesh sleeves on high-value scaffold branches exclude
+    moths in research trials; scale matters. Some growers use clean knives and gloves
+    between trees to avoid moving eggs on tools.
+  organic_sprays: Bacillus thuringiensis aizawai and spinosad must contact larvae
+    on pod surfaces or flowers before larvae bore -- add spreader and spray to wet
+    the whole pod. Neem rotations help in low-input blocks when export residue rules
+    allow. Reapply after rain; tropical downpours strip sprays fast. Always follow
+    buyer maximum residue limits; organic certification is not the same as EU import
+    limits. Time sprays to egg hatch, not random Mondays.
+natural_enemies:
+- Trichogramma spp.
+- Ants (species-dependent)
+affected_plants:
+- slug: baobab
+  name: Baobab
+- slug: cacao
+  name: Cacao
+- slug: caesarweed
+  name: Caesarweed
+- slug: cranberry-hibiscus
+  name: Cranberry Hibiscus
+- slug: cupuacu
+  name: Cupuacu
+- slug: edible-hibiscus
+  name: Edible Hibiscus
+- slug: egyptian-spinach
+  name: Egyptian Spinach
+- slug: indian-mallow
+  name: Indian Mallow
+- slug: jute
+  name: Jute
+- slug: kapok-tree
+  name: Kapok Tree
+- slug: kenaf
+  name: Kenaf
+- slug: malabar-chestnut
+  name: Malabar Chestnut
+- slug: marsh-hibiscus
+  name: Marsh Hibiscus
+- slug: marsh-mallow
+  name: Marsh Mallow
+- slug: money-tree
+  name: Money Tree
+- slug: peanut-tree
+  name: Peanut Tree
+- slug: roselle
+  name: Roselle
+- slug: roselle-hibiscus
+  name: Roselle Hibiscus
+- slug: shaving-brush-tree
+  name: Shaving Brush Tree
+- slug: sida
+  name: Sida
+- slug: sunset-muskmallow
+  name: Sunset Muskmallow
+- slug: velvetleaf
+  name: Velvetleaf
+category: pest

@@ -1,58 +1,56 @@
----
-- name: Persimmon Psylla
-  slug: persimmon-psylla
-  picture: persimmon_psylla.webp
-  scientific_name: Cacopsylla persimmonica
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, persimmon psylla may already be on
-    the plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - sticky-residue
-  - curling-leaves
-  - yellowing-leaves
-  - distorted-growth
-  control_methods:
-    biological_controls: >-
-      Lady beetles, lacewing larvae, minute pirate bugs, and parasitic wasps attack persimmon
-      psylla nymphs when honeydew draws them in -- skip broad pyrethrin during early nymph waves
-      or you farm psylla alone. Syrphid larvae cruise sooty mold lanes. Support predators with
-      flowering understory plants that bloom when persimmons are still bare twigs.
-    preventive_methods: >-
-      Adults move to swelling buds in spring -- scout weekly from silver tip until leaves
-      harden. Flip leaves before honeydew drips; sticky mess means you are late. Flag trees that
-      were coated last year; walk those first. Do not import nursery stock with tight curls
-      without quarantine.
-    cultural_practices: >-
-      Prune out heavily infested water sprouts and crowded interior branches so sprays or
-      predators reach leaf undersides. Remove suckers that act as eternal soft tissue. Open the
-      canopy so inner leaves dry after dew. Avoid heavy nitrogen that pushes endless flushes;
-      each flush is a new Psylla nursery.
-    mechanical_physical: >-
-      Yellow sticky cards in the canopy catch adults for monitoring; they are not total control.
-      Fine mesh sleeves on young scaffold branches are rare but possible on small trees. A stiff
-      water blast dislodges young nymphs before they settle into honeydew cups.
-    organic_sprays: >-
-      Insecticidal soap and neem target soft nymphs on contact -- add spreader and cover leaf
-      undersides. Spray when crawlers move onto fresh leaves; adults under bark laugh at soap.
-      Kaolin clay repels ovipositing adults if you keep uniform film. Spray at dusk to spare bees
-      on open flowers. Reapply after rain.
-  natural_enemies:
-  - Ladybugs
-  - Lacewings
-  - Parasitic Wasps
-  affected_plants:
-  - slug: american-persimmon
-    name: American Persimmon
-  - slug: black-sapote
-    name: Black Sapote
-  - slug: persimmon-tree
-    name: Persimmon Tree
-  - slug: texas-persimmon
-    name: Texas Persimmon
+name: Persimmon Psylla
+slug: persimmon-psylla
+picture: persimmon_psylla.webp
+scientific_name: Cacopsylla persimmonica
+description: If new growth is curling, yellowing, sticky, or chewed, persimmon psylla
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- sticky-residue
+- curling-leaves
+- yellowing-leaves
+- distorted-growth
+control_methods:
+  biological_controls: Lady beetles, lacewing larvae, minute pirate bugs, and parasitic
+    wasps attack persimmon psylla nymphs when honeydew draws them in -- skip broad
+    pyrethrin during early nymph waves or you farm psylla alone. Syrphid larvae cruise
+    sooty mold lanes. Support predators with flowering understory plants that bloom
+    when persimmons are still bare twigs.
+  preventive_methods: Adults move to swelling buds in spring -- scout weekly from
+    silver tip until leaves harden. Flip leaves before honeydew drips; sticky mess
+    means you are late. Flag trees that were coated last year; walk those first. Do
+    not import nursery stock with tight curls without quarantine.
+  cultural_practices: Prune out heavily infested water sprouts and crowded interior
+    branches so sprays or predators reach leaf undersides. Remove suckers that act
+    as eternal soft tissue. Open the canopy so inner leaves dry after dew. Avoid heavy
+    nitrogen that pushes endless flushes; each flush is a new Psylla nursery.
+  mechanical_physical: Yellow sticky cards in the canopy catch adults for monitoring;
+    they are not total control. Fine mesh sleeves on young scaffold branches are rare
+    but possible on small trees. A stiff water blast dislodges young nymphs before
+    they settle into honeydew cups.
+  organic_sprays: Insecticidal soap and neem target soft nymphs on contact -- add
+    spreader and cover leaf undersides. Spray when crawlers move onto fresh leaves;
+    adults under bark laugh at soap. Kaolin clay repels ovipositing adults if you
+    keep uniform film. Spray at dusk to spare bees on open flowers. Reapply after
+    rain.
+natural_enemies:
+- Ladybugs
+- Lacewings
+- Parasitic Wasps
+affected_plants:
+- slug: american-persimmon
+  name: American Persimmon
+- slug: black-sapote
+  name: Black Sapote
+- slug: persimmon-tree
+  name: Persimmon Tree
+- slug: texas-persimmon
+  name: Texas Persimmon
+category: pest

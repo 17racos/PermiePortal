@@ -1,65 +1,59 @@
----
-- name: Vine Weevil
-  slug: vine-weevil
-  picture: vine_weevil.webp
-  scientific_name: Otiorhynchus sulcatus
-  description: >-
-    If plants are wilting, notching at the edges, or fruit and roots show hidden feeding damage,
-    vine weevil may be the cause. Adults chew above ground while larvae often feed out of sight
-    inside soil, stems, or fruit. Damage builds quietly, then plants crash fast when roots are
-    heavily hit. Act early so a small weevil problem does not become a season-long infestation.
-  characteristics: >-
-    Look for small beetles with a hard body and a distinct snout, usually active at dawn, dusk,
-    or night. Check for crescent-shaped leaf notches, punctures in fruit, or tiny entry holes
-    near stems. In soil or damaged tissue, larvae are often pale, legless, and curved in a
-    C-shape. Fresh chew marks plus snout beetles or C-shaped grubs confirm active weevil
-    pressure.
-  symptoms:
-  - root-damage
-  - wilting
-  - chewed-stems
-  - holes-in-leaves
-  control_methods:
-    biological_controls: >-
-      Steinernema kraussei nematodes are specifically adapted to cool soil temperatures
-      (above 41F/5C) making them ideal for early spring and fall applications when
-      vine weevil larvae are most active. Heterorhabditis bacteriophora works in warmer
-      soil above 59F (15C). Apply as a drench to moist growing media thoroughly and
-      keep moist for 2 weeks. Beauveria bassiana as a soil drench supplements nematode
-      programs. Rotate nematode species seasonally -- S. kraussei in cool periods,
-      H. bacteriophora in warm periods.
-    preventive_methods: >-
-      Vine weevil adults notch leaf margins in a characteristic scalloped pattern -- 
-      the unmistakable sign is smooth U-shaped notches along leaf edges appearing
-      overnight. Adults feed at night and hide in soil or pot rims during the day.
-      Larvae do the most serious damage underground, destroying roots until plants
-      suddenly collapse. Inspect all incoming container plants carefully -- vine weevil
-      spreads almost exclusively on infested nursery stock. Quarantine new batches for
-      2 weeks before mixing with existing plants.
-    cultural_practices: >-
-      Raise container plants on gravel or mesh benches to reduce adult hiding spots
-      directly under pots. Empty and refresh heavily infested potting media rather
-      than repeatedly treating -- larvae can reach high densities in container roots.
-      Inspect container roots when repotting -- C-shaped white grubs in the root zone
-      are vine weevil larvae. Remove and destroy them manually before repotting into
-      fresh sterile media.
-    mechanical_physical: >-
-      Place boards, burlap, or damp newspaper near infested plants overnight -- adults
-      shelter under them and can be collected and destroyed in the morning. Hand-pick
-      adults at night with a headlamp -- slow but satisfying for backyard berry patches.
-      Sticky barriers on pot rims or bench legs prevent adults from climbing. For
-      backyard shrubs and strawberries, a sheet under the plant and vigorous shaking
-      at night collects adults.
-    organic_sprays: >-
-      Entomopathogenic nematodes as media or soil drench are the primary organic
-      treatment for larvae -- S. kraussei for cool conditions, H. bacteriophora for
-      warm. Surface pyrethrin or insecticidal soap at dusk targets adults feeding on
-      foliage -- apply at least twice weekly during peak adult emergence in late spring
-      and again in late summer. Beauveria bassiana soil drench for larvae where labeled.
-      No spray reaches larvae effectively once they are established in root zones -- 
-      nematodes are the only option that works underground.
-  natural_enemies:
-  - Steinernema kraussei
-  - Heterorhabditis bacteriophora
-  - Beauveria bassiana
-  - Ground Beetles (Carabidae)
+name: Vine Weevil
+slug: vine-weevil
+picture: vine_weevil.webp
+scientific_name: Otiorhynchus sulcatus
+description: If plants are wilting, notching at the edges, or fruit and roots show
+  hidden feeding damage, vine weevil may be the cause. Adults chew above ground while
+  larvae often feed out of sight inside soil, stems, or fruit. Damage builds quietly,
+  then plants crash fast when roots are heavily hit. Act early so a small weevil problem
+  does not become a season-long infestation.
+characteristics: Look for small beetles with a hard body and a distinct snout, usually
+  active at dawn, dusk, or night. Check for crescent-shaped leaf notches, punctures
+  in fruit, or tiny entry holes near stems. In soil or damaged tissue, larvae are
+  often pale, legless, and curved in a C-shape. Fresh chew marks plus snout beetles
+  or C-shaped grubs confirm active weevil pressure.
+symptoms:
+- root-damage
+- wilting
+- chewed-stems
+- holes-in-leaves
+control_methods:
+  biological_controls: Steinernema kraussei nematodes are specifically adapted to
+    cool soil temperatures (above 41F/5C) making them ideal for early spring and fall
+    applications when vine weevil larvae are most active. Heterorhabditis bacteriophora
+    works in warmer soil above 59F (15C). Apply as a drench to moist growing media
+    thoroughly and keep moist for 2 weeks. Beauveria bassiana as a soil drench supplements
+    nematode programs. Rotate nematode species seasonally -- S. kraussei in cool periods,
+    H. bacteriophora in warm periods.
+  preventive_methods: Vine weevil adults notch leaf margins in a characteristic scalloped
+    pattern --  the unmistakable sign is smooth U-shaped notches along leaf edges
+    appearing overnight. Adults feed at night and hide in soil or pot rims during
+    the day. Larvae do the most serious damage underground, destroying roots until
+    plants suddenly collapse. Inspect all incoming container plants carefully -- vine
+    weevil spreads almost exclusively on infested nursery stock. Quarantine new batches
+    for 2 weeks before mixing with existing plants.
+  cultural_practices: Raise container plants on gravel or mesh benches to reduce adult
+    hiding spots directly under pots. Empty and refresh heavily infested potting media
+    rather than repeatedly treating -- larvae can reach high densities in container
+    roots. Inspect container roots when repotting -- C-shaped white grubs in the root
+    zone are vine weevil larvae. Remove and destroy them manually before repotting
+    into fresh sterile media.
+  mechanical_physical: Place boards, burlap, or damp newspaper near infested plants
+    overnight -- adults shelter under them and can be collected and destroyed in the
+    morning. Hand-pick adults at night with a headlamp -- slow but satisfying for
+    backyard berry patches. Sticky barriers on pot rims or bench legs prevent adults
+    from climbing. For backyard shrubs and strawberries, a sheet under the plant and
+    vigorous shaking at night collects adults.
+  organic_sprays: Entomopathogenic nematodes as media or soil drench are the primary
+    organic treatment for larvae -- S. kraussei for cool conditions, H. bacteriophora
+    for warm. Surface pyrethrin or insecticidal soap at dusk targets adults feeding
+    on foliage -- apply at least twice weekly during peak adult emergence in late
+    spring and again in late summer. Beauveria bassiana soil drench for larvae where
+    labeled. No spray reaches larvae effectively once they are established in root
+    zones --  nematodes are the only option that works underground.
+natural_enemies:
+- Steinernema kraussei
+- Heterorhabditis bacteriophora
+- Beauveria bassiana
+- Ground Beetles (Carabidae)
+category: pest

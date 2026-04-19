@@ -1,68 +1,61 @@
----
-- name: Borers
-  slug: borers
-  picture: borers.webp
-  scientific_name: Various (e.g., Cerambycidae, Sesiidae)
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, borers may already be on the plant.
-    This pest often builds quietly, then damage appears all at once. Feeding stress weakens
-    growth, reduces yield, and opens the door to secondary disease. Early cleanup is much easier
-    than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - tunneling
-  - stem-damage
-  - wilting
-  - die-back
-  - bark-damage
-  control_methods:
-    biological_controls: >-
-      Parasitic wasps (Spathius, Doryctobracon, and others) are the primary
-      natural enemies of wood-boring larvae — they detect larvae through bark
-      by vibration and smell. Support them with diverse flowering plants at
-      field edges. Woodpeckers excavate borers from trunks — their feeding
-      holes in bark indicate active predation. Beneficial nematodes (Steinernema
-      carpocapsae) injected into borer entry holes reach larvae that no spray
-      can contact — one of the most effective organic treatments for active
-      infestations. Healthy trees with strong resin flow naturally repel and
-      kill borer eggs and young larvae — plant health is genuine biological defense.
-    preventive_methods: >-
-      Borers target stressed trees first — drought stress, mechanical wounds,
-      compacted roots, and nutrient deficiency all make trees more susceptible.
-      A healthy tree in living soil actively repels most borer species with
-      resin and chemical defenses. Protect trunks from mechanical wounds —
-      string trimmer damage at the base is the most common borer entry point.
-      Adult beetles and moths lay eggs in bark crevices during specific flight
-      windows — tree wraps and white latex paint on trunks deter egg-laying
-      by reducing bark temperature. Learn the flight window for borers in your
-      area and apply preventive treatments before adults are active.
-    cultural_practices: >-
-      Remove and destroy infested wood — do not chip it for mulch as larvae
-      inside complete development and emerge as adults. Prune infested branches
-      6 inches below the lowest entry hole. Improve soil health with compost
-      and mulch — trees in healthy living soil resist borers significantly
-      better than trees in compacted or depleted soil. Keep trees properly
-      irrigated during drought — stressed trees emit volatile compounds that
-      actively attract boring beetles.
-    mechanical_physical: >-
-      Wire probing into fresh borer holes kills larvae mechanically — insert
-      flexible wire and push through the tunnel to destroy the larva. Sticky
-      trunk bands catch adult beetles climbing to lay eggs. Scraping egg masses
-      from bark before hatching prevents establishment. For squash vine borers
-      specifically, slitting the vine lengthwise to extract the larva and
-      mounding soil over the wound allows vines to re-root and survive.
-    organic_sprays: >-
-      Beneficial nematodes (Steinernema carpocapsae) mixed with water and
-      injected into entry holes are the most effective organic treatment for
-      active borer infestations — nematodes seek larvae in tunnels where no
-      spray reaches. Kaolin clay painted on trunks and major branches before
-      adult flight season physically deters egg-laying. Neem oil on bark
-      surfaces disrupts adult feeding and egg-laying behavior.
-  natural_enemies:
-  - Parasitic Wasps
-  - Birds
-  - Beneficial Beetles
+name: Borers
+slug: borers
+picture: borers.webp
+scientific_name: Various (e.g., Cerambycidae, Sesiidae)
+description: If new growth is curling, yellowing, sticky, or chewed, borers may already
+  be on the plant. This pest often builds quietly, then damage appears all at once.
+  Feeding stress weakens growth, reduces yield, and opens the door to secondary disease.
+  Early cleanup is much easier than fighting a full population surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- tunneling
+- stem-damage
+- wilting
+- die-back
+- bark-damage
+control_methods:
+  biological_controls: Parasitic wasps (Spathius, Doryctobracon, and others) are the
+    primary natural enemies of wood-boring larvae — they detect larvae through bark
+    by vibration and smell. Support them with diverse flowering plants at field edges.
+    Woodpeckers excavate borers from trunks — their feeding holes in bark indicate
+    active predation. Beneficial nematodes (Steinernema carpocapsae) injected into
+    borer entry holes reach larvae that no spray can contact — one of the most effective
+    organic treatments for active infestations. Healthy trees with strong resin flow
+    naturally repel and kill borer eggs and young larvae — plant health is genuine
+    biological defense.
+  preventive_methods: Borers target stressed trees first — drought stress, mechanical
+    wounds, compacted roots, and nutrient deficiency all make trees more susceptible.
+    A healthy tree in living soil actively repels most borer species with resin and
+    chemical defenses. Protect trunks from mechanical wounds — string trimmer damage
+    at the base is the most common borer entry point. Adult beetles and moths lay
+    eggs in bark crevices during specific flight windows — tree wraps and white latex
+    paint on trunks deter egg-laying by reducing bark temperature. Learn the flight
+    window for borers in your area and apply preventive treatments before adults are
+    active.
+  cultural_practices: Remove and destroy infested wood — do not chip it for mulch
+    as larvae inside complete development and emerge as adults. Prune infested branches
+    6 inches below the lowest entry hole. Improve soil health with compost and mulch
+    — trees in healthy living soil resist borers significantly better than trees in
+    compacted or depleted soil. Keep trees properly irrigated during drought — stressed
+    trees emit volatile compounds that actively attract boring beetles.
+  mechanical_physical: Wire probing into fresh borer holes kills larvae mechanically
+    — insert flexible wire and push through the tunnel to destroy the larva. Sticky
+    trunk bands catch adult beetles climbing to lay eggs. Scraping egg masses from
+    bark before hatching prevents establishment. For squash vine borers specifically,
+    slitting the vine lengthwise to extract the larva and mounding soil over the wound
+    allows vines to re-root and survive.
+  organic_sprays: Beneficial nematodes (Steinernema carpocapsae) mixed with water
+    and injected into entry holes are the most effective organic treatment for active
+    borer infestations — nematodes seek larvae in tunnels where no spray reaches.
+    Kaolin clay painted on trunks and major branches before adult flight season physically
+    deters egg-laying. Neem oil on bark surfaces disrupts adult feeding and egg-laying
+    behavior.
+natural_enemies:
+- Parasitic Wasps
+- Birds
+- Beneficial Beetles
+category: pest

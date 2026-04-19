@@ -1,192 +1,191 @@
----
-- name: Lesser Peachtree Borer
-  slug: lesser-peachtree-borer
-  picture: lesser_peachtree_borer.webp
-  scientific_name: Synanthedon pictipes
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, lesser peachtree borer may already
-    be on the plant. This pest often builds quietly, then damage appears all at once. Feeding
-    stress weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup
-    is much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - tunneling
-  - stem-damage
-  - wilting
-  - die-back
-  - bark-damage
-  control_methods:
-    biological_controls: >-
-      Braconid and ichneumonid wasps sometimes parasitize clearwing larvae tunneling under bark,
-      especially where orchards keep flowering ground covers for adult food. Woodpeckers and
-      flickers hear larvae and drill neat holes -- alarming to see, but often better than silent
-      tunneling to the cambium. Nematodes are not predators; they are a separate tactic below.
-      If you spray pyrethrin on trunks all summer, you will kill parasitoids that could have
-      helped the next generation. Leave a few low-risk flowering rows unsprayed during flight
-      peaks as refuges.
-    preventive_methods: >-
-      Adults are wasp-mimic moths that lay eggs on sun-warmed bark from late spring through
-      summer -- walk orchards every two weeks and feel for gum balls, sawdust tubes, and bark
-      cracks with fresh frass. Map chronic trees and prioritize white latex paint on trunks,
-      guards, and irrigation fixes that stop bark wounds. Train pickers to notice sawdust on
-      fruit bins or leaves; summer is easier to see holes than spring. If a tree shows new holes
-      every year, schedule removal wood during dormancy before scaffold integrity fails.
-    cultural_practices: >-
-      Sunscald and mechanical wounds are neon signs for egg-laying -- paint trunks pale or use
-      rigid guards on young stone fruit and pears where labels allow. Never let string trimmers
-      scuff bark at soil line; mulch lightly instead of bare scalping. Prune in dry forecasts so
-      cuts seal quickly, and remove stubs that die back slowly. Chip infested wood on site;
-      dragging it across the farm spreads larvae stuck under bark flakes. In backyard plantings,
-      keep grass back from trunks with hand clearance, not repeated mower kisses.
-    mechanical_physical: >-
-      Run a flexible wire into fresh galleries to mash larvae when tunnels are still shallow --
-      backyard trees repay the time, big blocks rarely do. Commercially, pheromone traps baited
-      for lesser peachtree borer catch males and tell you when flights peak; mark the calendar for
-      nematode drenches or trunk-directed sprays your certifier allows. Some growers nail corrugated
-      cardboard bands to trunks for pupation sites, then remove and burn bands -- check regional
-      guidance so you do not trap beneficials you need. For a single prized tree, wrap trunk
-      sections with fine mesh during flight if feasible without girdling growth.
-    organic_sprays: >-
-      Entomopathogenic nematodes (Steinernema and Heterorhabditis species) swim into wet galleries
-      after irrigation and kill larvae if soil temperature stays in the product window -- apply
-      right after peak flight when fresh entries ooze. Repeat when suppliers say; nematodes dry
-      out in bone-hot bark. Surround kaolin slurry on trunks can deter egg-laying if you rebuild
-      after rain and overhead irrigation. Some organic programs allow trunk sprays of certain oils
-      or botanicals at narrow timings; match label to crop and life stage. Nematodes fail in dry
-      galleries -- water the zone, then apply, then keep humidity up for forty-eight hours.
-  affected_plants:
-  - slug: nectarine-tree
-    name: Nectarine Tree
-  - slug: almond-tree
-    name: Almond Tree
-  - slug: american-plum
-    name: American Plum
-  - slug: chickasaw-plum
-    name: Chickasaw Plum
-  - slug: agrimony
-    name: Agrimony
-  - slug: allegheny-serviceberry
-    name: Allegheny Serviceberry
-  - slug: american-beauty-plum
-    name: American Beauty Plum
-  - slug: american-hawthorn
-    name: American Hawthorn
-  - slug: apple
-    name: Apple
-  - slug: aronia
-    name: Aronia
-  - slug: beach-strawberry
-    name: Beach Strawberry
-  - slug: bearberry-cotoneaster
-    name: Bearberry Cotoneaster
-  - slug: black-chokeberry
-    name: Black Chokeberry
-  - slug: buffalo-plum
-    name: Buffalo Plum
-  - slug: carolina-rose
-    name: Carolina Rose
-  - slug: chickasaw-blackberry
-    name: Chickasaw Blackberry
-  - slug: chokeberry
-    name: Chokeberry
-  - slug: climbing-prairie-rose
-    name: Climbing Prairie Rose
-  - slug: cloudberry
-    name: Cloudberry
-  - slug: cockspur-hawthorn
-    name: Cockspur Hawthorn
-  - slug: creeping-raspberry
-    name: Creeping Raspberry
-  - slug: dewberry
-    name: Dewberry
-  - slug: dotted-hawthorn
-    name: Dotted Hawthorn
-  - slug: downy-serviceberry
-    name: Downy Serviceberry
-  - slug: flatwoods-plum
-    name: Flatwoods Plum
-  - slug: frosted-hawthorn
-    name: Frosted Hawthorn
-  - slug: green-hawthorn
-    name: Green Hawthorn
-  - slug: green-apple-tree
-    name: Green Apple Tree
-  - slug: hedge-cotoneaster
-    name: Hedge Cotoneaster
-  - slug: hortulan-plum
-    name: Hortulan Plum
-  - slug: loquat
-    name: Loquat
-  - slug: many-flowered-cotoneaster
-    name: Many Flowered Cotoneaster
-  - slug: mayhaw
-    name: Mayhaw
-  - slug: meadowsweet
-    name: Meadowsweet
-  - slug: munson-plum
-    name: Munson Plum
-  - slug: parsley-hawthorn
-    name: Parsley Hawthorn
-  - slug: pasture-rose
-    name: Pasture Rose
-  - slug: pear-hawthorn
-    name: Pear Hawthorn
-  - slug: pear-tree
-    name: Pear Tree
-  - slug: pineapple-pear
-    name: Pineapple Pear
-  - slug: prairie-crabapple
-    name: Prairie Crabapple
-  - slug: purple-chokeberry
-    name: Purple Chokeberry
-  - slug: raspberry
-    name: Raspberry
-  - slug: red-chokeberry
-    name: Red Chokeberry
-  - slug: red-apple-tree
-    name: Red Apple Tree
-  - slug: rock-cotoneaster
-    name: Rock Cotoneaster
-  - slug: roundleaf-serviceberry
-    name: Roundleaf Serviceberry
-  - slug: running-serviceberry
-    name: Running Serviceberry
-  - slug: sand-blackberry
-    name: Sand Blackberry
-  - slug: sand-cherry
-    name: Sand Cherry
-  - slug: saskatoon-berry
-    name: Saskatoon Berry
-  - slug: serviceberry
-    name: Serviceberry
-  - slug: silverleaf-cotoneaster
-    name: Silverleaf Cotoneaster
-  - slug: smooth-serviceberry
-    name: Smooth Serviceberry
-  - slug: southern-crabapple
-    name: Southern Crabapple
-  - slug: southern-dewberry
-    name: Southern Dewberry
-  - slug: southern-hawthorn
-    name: Southern Hawthorn
-  - slug: strawberry
-    name: Strawberry
-  - slug: swamp-rose
-    name: Swamp Rose
-  - slug: sweet-crabapple
-    name: Sweet Crabapple
-  - slug: virginia-rose
-    name: Virginia Rose
-  - slug: wild-crabapple
-    name: Wild Crabapple
-  - slug: wild-plum
-    name: Wild Plum
-  natural_enemies:
-  - Braconid Wasps
-  - Ichneumonid Wasps
-  - Woodpeckers (Picidae)
-  - Entomopathogenic Nematodes
+name: Lesser Peachtree Borer
+slug: lesser-peachtree-borer
+picture: lesser_peachtree_borer.webp
+scientific_name: Synanthedon pictipes
+description: If new growth is curling, yellowing, sticky, or chewed, lesser peachtree
+  borer may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- tunneling
+- stem-damage
+- wilting
+- die-back
+- bark-damage
+control_methods:
+  biological_controls: Braconid and ichneumonid wasps sometimes parasitize clearwing
+    larvae tunneling under bark, especially where orchards keep flowering ground covers
+    for adult food. Woodpeckers and flickers hear larvae and drill neat holes -- alarming
+    to see, but often better than silent tunneling to the cambium. Nematodes are not
+    predators; they are a separate tactic below. If you spray pyrethrin on trunks
+    all summer, you will kill parasitoids that could have helped the next generation.
+    Leave a few low-risk flowering rows unsprayed during flight peaks as refuges.
+  preventive_methods: Adults are wasp-mimic moths that lay eggs on sun-warmed bark
+    from late spring through summer -- walk orchards every two weeks and feel for
+    gum balls, sawdust tubes, and bark cracks with fresh frass. Map chronic trees
+    and prioritize white latex paint on trunks, guards, and irrigation fixes that
+    stop bark wounds. Train pickers to notice sawdust on fruit bins or leaves; summer
+    is easier to see holes than spring. If a tree shows new holes every year, schedule
+    removal wood during dormancy before scaffold integrity fails.
+  cultural_practices: Sunscald and mechanical wounds are neon signs for egg-laying
+    -- paint trunks pale or use rigid guards on young stone fruit and pears where
+    labels allow. Never let string trimmers scuff bark at soil line; mulch lightly
+    instead of bare scalping. Prune in dry forecasts so cuts seal quickly, and remove
+    stubs that die back slowly. Chip infested wood on site; dragging it across the
+    farm spreads larvae stuck under bark flakes. In backyard plantings, keep grass
+    back from trunks with hand clearance, not repeated mower kisses.
+  mechanical_physical: Run a flexible wire into fresh galleries to mash larvae when
+    tunnels are still shallow -- backyard trees repay the time, big blocks rarely
+    do. Commercially, pheromone traps baited for lesser peachtree borer catch males
+    and tell you when flights peak; mark the calendar for nematode drenches or trunk-directed
+    sprays your certifier allows. Some growers nail corrugated cardboard bands to
+    trunks for pupation sites, then remove and burn bands -- check regional guidance
+    so you do not trap beneficials you need. For a single prized tree, wrap trunk
+    sections with fine mesh during flight if feasible without girdling growth.
+  organic_sprays: Entomopathogenic nematodes (Steinernema and Heterorhabditis species)
+    swim into wet galleries after irrigation and kill larvae if soil temperature stays
+    in the product window -- apply right after peak flight when fresh entries ooze.
+    Repeat when suppliers say; nematodes dry out in bone-hot bark. Surround kaolin
+    slurry on trunks can deter egg-laying if you rebuild after rain and overhead irrigation.
+    Some organic programs allow trunk sprays of certain oils or botanicals at narrow
+    timings; match label to crop and life stage. Nematodes fail in dry galleries --
+    water the zone, then apply, then keep humidity up for forty-eight hours.
+affected_plants:
+- slug: nectarine-tree
+  name: Nectarine Tree
+- slug: almond-tree
+  name: Almond Tree
+- slug: american-plum
+  name: American Plum
+- slug: chickasaw-plum
+  name: Chickasaw Plum
+- slug: agrimony
+  name: Agrimony
+- slug: allegheny-serviceberry
+  name: Allegheny Serviceberry
+- slug: american-beauty-plum
+  name: American Beauty Plum
+- slug: american-hawthorn
+  name: American Hawthorn
+- slug: apple
+  name: Apple
+- slug: aronia
+  name: Aronia
+- slug: beach-strawberry
+  name: Beach Strawberry
+- slug: bearberry-cotoneaster
+  name: Bearberry Cotoneaster
+- slug: black-chokeberry
+  name: Black Chokeberry
+- slug: buffalo-plum
+  name: Buffalo Plum
+- slug: carolina-rose
+  name: Carolina Rose
+- slug: chickasaw-blackberry
+  name: Chickasaw Blackberry
+- slug: chokeberry
+  name: Chokeberry
+- slug: climbing-prairie-rose
+  name: Climbing Prairie Rose
+- slug: cloudberry
+  name: Cloudberry
+- slug: cockspur-hawthorn
+  name: Cockspur Hawthorn
+- slug: creeping-raspberry
+  name: Creeping Raspberry
+- slug: dewberry
+  name: Dewberry
+- slug: dotted-hawthorn
+  name: Dotted Hawthorn
+- slug: downy-serviceberry
+  name: Downy Serviceberry
+- slug: flatwoods-plum
+  name: Flatwoods Plum
+- slug: frosted-hawthorn
+  name: Frosted Hawthorn
+- slug: green-hawthorn
+  name: Green Hawthorn
+- slug: green-apple-tree
+  name: Green Apple Tree
+- slug: hedge-cotoneaster
+  name: Hedge Cotoneaster
+- slug: hortulan-plum
+  name: Hortulan Plum
+- slug: loquat
+  name: Loquat
+- slug: many-flowered-cotoneaster
+  name: Many Flowered Cotoneaster
+- slug: mayhaw
+  name: Mayhaw
+- slug: meadowsweet
+  name: Meadowsweet
+- slug: munson-plum
+  name: Munson Plum
+- slug: parsley-hawthorn
+  name: Parsley Hawthorn
+- slug: pasture-rose
+  name: Pasture Rose
+- slug: pear-hawthorn
+  name: Pear Hawthorn
+- slug: pear-tree
+  name: Pear Tree
+- slug: pineapple-pear
+  name: Pineapple Pear
+- slug: prairie-crabapple
+  name: Prairie Crabapple
+- slug: purple-chokeberry
+  name: Purple Chokeberry
+- slug: raspberry
+  name: Raspberry
+- slug: red-chokeberry
+  name: Red Chokeberry
+- slug: red-apple-tree
+  name: Red Apple Tree
+- slug: rock-cotoneaster
+  name: Rock Cotoneaster
+- slug: roundleaf-serviceberry
+  name: Roundleaf Serviceberry
+- slug: running-serviceberry
+  name: Running Serviceberry
+- slug: sand-blackberry
+  name: Sand Blackberry
+- slug: sand-cherry
+  name: Sand Cherry
+- slug: saskatoon-berry
+  name: Saskatoon Berry
+- slug: serviceberry
+  name: Serviceberry
+- slug: silverleaf-cotoneaster
+  name: Silverleaf Cotoneaster
+- slug: smooth-serviceberry
+  name: Smooth Serviceberry
+- slug: southern-crabapple
+  name: Southern Crabapple
+- slug: southern-dewberry
+  name: Southern Dewberry
+- slug: southern-hawthorn
+  name: Southern Hawthorn
+- slug: strawberry
+  name: Strawberry
+- slug: swamp-rose
+  name: Swamp Rose
+- slug: sweet-crabapple
+  name: Sweet Crabapple
+- slug: virginia-rose
+  name: Virginia Rose
+- slug: wild-crabapple
+  name: Wild Crabapple
+- slug: wild-plum
+  name: Wild Plum
+natural_enemies:
+- Braconid Wasps
+- Ichneumonid Wasps
+- Woodpeckers (Picidae)
+- Entomopathogenic Nematodes
+category: pest

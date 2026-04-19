@@ -1,101 +1,99 @@
----
-- name: Cranberry Tipworm
-  slug: cranberry-tipworm
-  picture: cranberry_tipworm.webp
-  scientific_name: Dasineura oxycoccana
-  description: >-
-    If leaves look shredded overnight or fruit has fresh chew holes, cranberry tipworm may be
-    feeding right now. These larvae can eat fast and strip a healthy plant in a short window.
-    Young stages are easy to miss, then damage suddenly explodes as they grow. Catch them early
-    to avoid severe defoliation and contaminated harvests.
-  characteristics: >-
-    Check leaf undersides, growing tips, and stem junctions for eggs, frass pellets, and feeding
-    scars. Larvae vary in color, but most have a soft segmented body and blend into foliage.
-    Look at dusk or early morning when many species feed more actively. Fresh chewing plus live
-    larvae or droppings on lower leaves confirms an active caterpillar outbreak.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - skeletonized-leaves
-  control_methods:
-    biological_controls: >-
-      Platygastrid wasps and other micro-hymenoptera parasitize cranberry tipworm larvae inside
-      galls when humidity stays high enough for adult wasps to search. Lacewing larvae and minute
-      pirate bugs eat eggs and tiny larvae when tips are still open. Predators fail if oil or
-      pyrethrin sprays blanket uprights during early gall formation -- you kill the wasps before
-      they find the midge. Leave modest wetland buffers so native parasitoids can move between
-      beds.
-    preventive_methods: >-
-      Adult midges are short-lived and fly weakly -- sticky cards in uprights catch enough for
-      trend lines, not population control. Scout weekly during shoot elongation in beds that
-      blackened last year; early hits show as hooked tips before galls harden. Flag problem
-      acres on a map so you walk them first next spring. Coordinate with neighbors on flood
-      timing; isolated hot beds often sit next to unmanaged edges.
-    cultural_practices: >-
-      Avoid nitrogen spikes that push endless succulent tips -- each flush is a new egg-laying
-      runway. After severe damage, prune or mow vines only where bed management plans allow
-      restoration; reset growth carefully so you do not trade tipworm for root rot. Improve
-      drainage so blackened tips do not also rot from fungal follow-up. In organic bogs, sync
-      any spray window with bee-safe rules during bloom; oils risk phytotoxicity on open flowers.
-    mechanical_physical: >-
-      Commercial cranberry flooding can drown larvae in tips when water managers follow extension
-      recipes for depth and duration -- do not improvise on commercial systems without a plan.
-      Home gardens may pinch early damaged tips into soapy water when only a few vines show
-      hooks. Sanding or ice management in winter indirectly affects other pests more than midges;
-      focus on scouting and growth management for tipworm specifically.
-    organic_sprays: >-
-      Neem and spinosad target adults and very young larvae when timing hits adult emergence --
-      harder than spraying caterpillars because adults live only a few days. Oils on bloom can
-      hurt bees and fruit set; shift to evening and avoid open flowers unless labels allow.
-      Repeat after rain; short adult life means mistimed sprays miss the whole flight. Combine
-      sprays with trap counts so you are not calendar spraying into empty air.
-  natural_enemies:
-  - Platygastrid Wasps
-  - Minute Pirate Bugs
-  - Lacewings
-  affected_plants:
-  - slug: azalea
-    name: Azalea
-  - slug: bearberry
-    name: Bearberry
-  - slug: blue-ridge-blueberry
-    name: Blue Ridge Blueberry
-  - slug: blueberry
-    name: Blueberry
-  - slug: cranberry
-    name: Cranberry
-  - slug: crowberry
-    name: Crowberry
-  - slug: darrow-blueberry
-    name: Darrow Blueberry
-  - slug: deerberry
-    name: Deerberry
-  - slug: dwarf-huckleberry
-    name: Dwarf Huckleberry
-  - slug: elliott-blueberry
-    name: Elliott Blueberry
-  - slug: evergreen-huckleberry
-    name: Evergreen Huckleberry
-  - slug: fetterbush
-    name: Fetterbush
-  - slug: highbush-blueberry
-    name: Highbush Blueberry
-  - slug: kinnikinnick
-    name: Kinnikinnick
-  - slug: lingonberry
-    name: Lingonberry
-  - slug: lowbush-cranberry
-    name: Lowbush Cranberry
-  - slug: madrone
-    name: Madrone
-  - slug: pineland-heather
-    name: Pineland Heather
-  - slug: rhododendron
-    name: Rhododendron
-  - slug: salal
-    name: Salal
-  - slug: shiny-blueberry
-    name: Shiny Blueberry
-  - slug: sparkleberry
-    name: Sparkleberry
+name: Cranberry Tipworm
+slug: cranberry-tipworm
+picture: cranberry_tipworm.webp
+scientific_name: Dasineura oxycoccana
+description: If leaves look shredded overnight or fruit has fresh chew holes, cranberry
+  tipworm may be feeding right now. These larvae can eat fast and strip a healthy
+  plant in a short window. Young stages are easy to miss, then damage suddenly explodes
+  as they grow. Catch them early to avoid severe defoliation and contaminated harvests.
+characteristics: Check leaf undersides, growing tips, and stem junctions for eggs,
+  frass pellets, and feeding scars. Larvae vary in color, but most have a soft segmented
+  body and blend into foliage. Look at dusk or early morning when many species feed
+  more actively. Fresh chewing plus live larvae or droppings on lower leaves confirms
+  an active caterpillar outbreak.
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- skeletonized-leaves
+control_methods:
+  biological_controls: Platygastrid wasps and other micro-hymenoptera parasitize cranberry
+    tipworm larvae inside galls when humidity stays high enough for adult wasps to
+    search. Lacewing larvae and minute pirate bugs eat eggs and tiny larvae when tips
+    are still open. Predators fail if oil or pyrethrin sprays blanket uprights during
+    early gall formation -- you kill the wasps before they find the midge. Leave modest
+    wetland buffers so native parasitoids can move between beds.
+  preventive_methods: Adult midges are short-lived and fly weakly -- sticky cards
+    in uprights catch enough for trend lines, not population control. Scout weekly
+    during shoot elongation in beds that blackened last year; early hits show as hooked
+    tips before galls harden. Flag problem acres on a map so you walk them first next
+    spring. Coordinate with neighbors on flood timing; isolated hot beds often sit
+    next to unmanaged edges.
+  cultural_practices: Avoid nitrogen spikes that push endless succulent tips -- each
+    flush is a new egg-laying runway. After severe damage, prune or mow vines only
+    where bed management plans allow restoration; reset growth carefully so you do
+    not trade tipworm for root rot. Improve drainage so blackened tips do not also
+    rot from fungal follow-up. In organic bogs, sync any spray window with bee-safe
+    rules during bloom; oils risk phytotoxicity on open flowers.
+  mechanical_physical: Commercial cranberry flooding can drown larvae in tips when
+    water managers follow extension recipes for depth and duration -- do not improvise
+    on commercial systems without a plan. Home gardens may pinch early damaged tips
+    into soapy water when only a few vines show hooks. Sanding or ice management in
+    winter indirectly affects other pests more than midges; focus on scouting and
+    growth management for tipworm specifically.
+  organic_sprays: Neem and spinosad target adults and very young larvae when timing
+    hits adult emergence -- harder than spraying caterpillars because adults live
+    only a few days. Oils on bloom can hurt bees and fruit set; shift to evening and
+    avoid open flowers unless labels allow. Repeat after rain; short adult life means
+    mistimed sprays miss the whole flight. Combine sprays with trap counts so you
+    are not calendar spraying into empty air.
+natural_enemies:
+- Platygastrid Wasps
+- Minute Pirate Bugs
+- Lacewings
+affected_plants:
+- slug: azalea
+  name: Azalea
+- slug: bearberry
+  name: Bearberry
+- slug: blue-ridge-blueberry
+  name: Blue Ridge Blueberry
+- slug: blueberry
+  name: Blueberry
+- slug: cranberry
+  name: Cranberry
+- slug: crowberry
+  name: Crowberry
+- slug: darrow-blueberry
+  name: Darrow Blueberry
+- slug: deerberry
+  name: Deerberry
+- slug: dwarf-huckleberry
+  name: Dwarf Huckleberry
+- slug: elliott-blueberry
+  name: Elliott Blueberry
+- slug: evergreen-huckleberry
+  name: Evergreen Huckleberry
+- slug: fetterbush
+  name: Fetterbush
+- slug: highbush-blueberry
+  name: Highbush Blueberry
+- slug: kinnikinnick
+  name: Kinnikinnick
+- slug: lingonberry
+  name: Lingonberry
+- slug: lowbush-cranberry
+  name: Lowbush Cranberry
+- slug: madrone
+  name: Madrone
+- slug: pineland-heather
+  name: Pineland Heather
+- slug: rhododendron
+  name: Rhododendron
+- slug: salal
+  name: Salal
+- slug: shiny-blueberry
+  name: Shiny Blueberry
+- slug: sparkleberry
+  name: Sparkleberry
+category: pest

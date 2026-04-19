@@ -1,65 +1,58 @@
----
-- name: Strawberry Root Weevil
-  slug: strawberry-root-weevil
-  picture: strawberry_root_weevil.webp
-  scientific_name: Otiorhynchus ovatus
-  description: >-
-    If plants are wilting, notching at the edges, or fruit and roots show hidden feeding damage,
-    strawberry root weevil may be the cause. Adults chew above ground while larvae often feed
-    out of sight inside soil, stems, or fruit. Damage builds quietly, then plants crash fast
-    when roots are heavily hit. Act early so a small weevil problem does not become a season-
-    long infestation.
-  characteristics: >-
-    Look for small beetles with a hard body and a distinct snout, usually active at dawn, dusk,
-    or night. Check for crescent-shaped leaf notches, punctures in fruit, or tiny entry holes
-    near stems. In soil or damaged tissue, larvae are often pale, legless, and curved in a
-    C-shape. Fresh chew marks plus snout beetles or C-shaped grubs confirm active weevil
-    pressure.
-  symptoms:
-  - root-damage
-  - wilting
-  - chewed-stems
-  - holes-in-leaves
-  control_methods:
-    biological_controls: >-
-      Steinernema feltiae and Heterorhabditis bacteriophora nematodes applied as soil
-      drenches are the most effective biological control for strawberry root weevil
-      larvae in root zones -- apply when soil is moist and above 50F (10C). Repeat
-      every 6-8 weeks during the growing season in sandy fast-draining soils that
-      require more frequent application. Ground beetles and ants consume adults and
-      larvae in soil. Beauveria bassiana fungal products suppress larvae in moist
-      soil conditions. Maintain diverse flowering groundcovers in drive rows to support
-      generalist predators.
-    preventive_methods: >-
-      Strawberry root weevil adults notch leaf margins in characteristic smooth
-      scalloped cuts -- the sign is neat curved notches along leaf edges appearing
-      overnight. Adults are flightless and must walk to new plants, making rotation
-      to clean ground highly effective. Larvae feed on roots underground causing plants
-      to wilt and decline without obvious above-ground cause -- dig declining plants
-      and check for C-shaped white grubs in the root zone. Inspect all new transplants
-      for adults and root grubs before planting.
-    cultural_practices: >-
-      Rotate strawberry beds to new ground on a planned 2-3 year cycle -- adults
-      are flightless and cannot easily colonize new sites far from the previous planting.
-      Avoid bringing infested soil on tools between clean and infested areas. Solarize
-      vacated beds during summer to kill larvae and pupae before the next planting.
-      Flame or mow old foliage after renovation timing to avoid crown damage -- this
-      removes adult cover and egg-laying sites.
-    mechanical_physical: >-
-      Place boards or burlap near infested plantings overnight -- flightless adults
-      shelter under them and can be collected and destroyed in the morning. Sticky
-      barriers on low bed frames and raised bed walls prevent adult movement between
-      beds. Harvest all ripe fruit promptly -- overripe fruit on the ground provides
-      feeding sites that concentrate adults for easier removal.
-    organic_sprays: >-
-      Entomopathogenic nematodes (Steinernema spp., Heterorhabditis spp.) as soil
-      drench are the primary organic treatment -- saturate the root zone thoroughly
-      and keep moist for 2 weeks after application. Repeat applications are needed
-      in sandy soils. Pyrethrin at dusk targets adults feeding on foliage -- apply
-      at least twice weekly during peak adult emergence. Beauveria bassiana soil
-      drench for larvae where labeled and soil moisture favors fungal activity.
-  natural_enemies:
-  - Entomopathogenic Nematodes
-  - Ground Beetles (Carabidae)
-  - Ants (Formicidae)
-  - Insectivorous Birds
+name: Strawberry Root Weevil
+slug: strawberry-root-weevil
+picture: strawberry_root_weevil.webp
+scientific_name: Otiorhynchus ovatus
+description: If plants are wilting, notching at the edges, or fruit and roots show
+  hidden feeding damage, strawberry root weevil may be the cause. Adults chew above
+  ground while larvae often feed out of sight inside soil, stems, or fruit. Damage
+  builds quietly, then plants crash fast when roots are heavily hit. Act early so
+  a small weevil problem does not become a season- long infestation.
+characteristics: Look for small beetles with a hard body and a distinct snout, usually
+  active at dawn, dusk, or night. Check for crescent-shaped leaf notches, punctures
+  in fruit, or tiny entry holes near stems. In soil or damaged tissue, larvae are
+  often pale, legless, and curved in a C-shape. Fresh chew marks plus snout beetles
+  or C-shaped grubs confirm active weevil pressure.
+symptoms:
+- root-damage
+- wilting
+- chewed-stems
+- holes-in-leaves
+control_methods:
+  biological_controls: Steinernema feltiae and Heterorhabditis bacteriophora nematodes
+    applied as soil drenches are the most effective biological control for strawberry
+    root weevil larvae in root zones -- apply when soil is moist and above 50F (10C).
+    Repeat every 6-8 weeks during the growing season in sandy fast-draining soils
+    that require more frequent application. Ground beetles and ants consume adults
+    and larvae in soil. Beauveria bassiana fungal products suppress larvae in moist
+    soil conditions. Maintain diverse flowering groundcovers in drive rows to support
+    generalist predators.
+  preventive_methods: Strawberry root weevil adults notch leaf margins in characteristic
+    smooth scalloped cuts -- the sign is neat curved notches along leaf edges appearing
+    overnight. Adults are flightless and must walk to new plants, making rotation
+    to clean ground highly effective. Larvae feed on roots underground causing plants
+    to wilt and decline without obvious above-ground cause -- dig declining plants
+    and check for C-shaped white grubs in the root zone. Inspect all new transplants
+    for adults and root grubs before planting.
+  cultural_practices: Rotate strawberry beds to new ground on a planned 2-3 year cycle
+    -- adults are flightless and cannot easily colonize new sites far from the previous
+    planting. Avoid bringing infested soil on tools between clean and infested areas.
+    Solarize vacated beds during summer to kill larvae and pupae before the next planting.
+    Flame or mow old foliage after renovation timing to avoid crown damage -- this
+    removes adult cover and egg-laying sites.
+  mechanical_physical: Place boards or burlap near infested plantings overnight --
+    flightless adults shelter under them and can be collected and destroyed in the
+    morning. Sticky barriers on low bed frames and raised bed walls prevent adult
+    movement between beds. Harvest all ripe fruit promptly -- overripe fruit on the
+    ground provides feeding sites that concentrate adults for easier removal.
+  organic_sprays: Entomopathogenic nematodes (Steinernema spp., Heterorhabditis spp.)
+    as soil drench are the primary organic treatment -- saturate the root zone thoroughly
+    and keep moist for 2 weeks after application. Repeat applications are needed in
+    sandy soils. Pyrethrin at dusk targets adults feeding on foliage -- apply at least
+    twice weekly during peak adult emergence. Beauveria bassiana soil drench for larvae
+    where labeled and soil moisture favors fungal activity.
+natural_enemies:
+- Entomopathogenic Nematodes
+- Ground Beetles (Carabidae)
+- Ants (Formicidae)
+- Insectivorous Birds
+category: pest

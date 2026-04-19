@@ -1,71 +1,64 @@
----
-- name: Rootknot Nematodes
-  slug: rootknot-nematodes
-  picture: root_knot_nematodes.webp
-  scientific_name: Meloidogyne spp.
-  description: >-
-    If plants stay stunted, yellow, and thirsty even with good care, rootknot nematodes may be
-    attacking below ground. These microscopic pests damage roots, so the top growth declines
-    before the cause is obvious. Yield drops and wilting worsen in heat because damaged roots
-    cannot keep up. Once populations build in soil, control gets harder, so early detection is
-    critical.
-  characteristics: >-
-    Gently lift a struggling plant and inspect roots for knots, lesions, branching distortion,
-    or weak root mass. Affected plants often appear in patches rather than uniformly across the
-    bed. Symptoms can mimic nutrient stress, but damaged roots with poor feeder growth are a key
-    clue. Lab or microscope confirmation is best, but root injury patterns strongly indicate
-    nematode pressure.
-  symptoms:
-  - galls
-  - root-damage
-  - wilting
-  - yellowing-leaves
-  - distorted-growth
-  control_methods:
-    biological_controls: >-
-      Pasteuria penetrans is a bacterial parasite that specifically attacks root-knot
-      nematodes -- it occurs naturally in many soils and increases over time when
-      nematode populations are high. Trichoderma and Bacillus subtilis as soil
-      amendments improve overall root health and competitive exclusion. Beneficial
-      nematodes (Steinernema feltiae) do not directly attack root-knot nematodes but
-      improve overall soil biology. The most important biological investment is building
-      diverse active soil biology -- soils with high organic matter and diverse
-      microbial communities suppress root-knot nematodes significantly better than
-      depleted soils. Mycorrhizal inoculants help roots tolerate nematode feeding.
-    preventive_methods: >-
-      Root-knot nematodes cause distinctive galls (knots) on roots -- dig up a
-      struggling plant and check the roots. Healthy roots are smooth and white.
-      Nematode-infested roots have round marble-like swellings along them. Plants
-      above ground look drought-stressed despite adequate water because the damaged
-      roots cannot absorb moisture effectively. Sandy soils are worst -- nematodes
-      move freely through sand. Use certified nematode-free transplants. Never move
-      soil from infested areas to clean beds. Nematode populations build rapidly on
-      susceptible crops planted in the same spot year after year.
-    cultural_practices: >-
-      Crop rotation with non-host crops for 2-3 seasons is the most effective
-      long-term management -- corn, onions, garlic, and small grains do not support
-      root-knot nematode reproduction. French marigolds (Tagetes patula) planted
-      densely and turned into the soil as a green manure produce compounds that kill
-      root-knot nematodes -- one of the most effective organic nematode suppressants
-      available. Incorporate large amounts of organic matter -- compost, cover crops,
-      and mulch build the diverse soil biology that suppresses nematodes. Remove and
-      destroy infected plant roots immediately.
-    mechanical_physical: >-
-      Soil solarization (clear plastic over moist soil for 6-8 weeks in summer) kills
-      root-knot nematodes in the top 6-8 inches where most feeding occurs -- highly
-      effective in Florida and other hot climates with strong summer sun. Raised beds
-      with fresh sterilized growing media provide a nematode-free start. Physical
-      barriers of landscape fabric under raised beds prevent nematode migration from
-      surrounding soil into clean beds.
-    organic_sprays: >-
-      Neem cake (the pressed residue after neem oil extraction) incorporated into
-      soil releases compounds toxic to nematodes -- apply at 200-400 lbs per acre
-      or equivalent for garden beds. Liquid neem oil as a soil drench has some
-      nematicidal activity. Mustard seed meal incorporated into soil releases
-      isothiocyanates that kill nematodes -- biofumigation. Chitosan soil drench
-      stimulates plant immune response and reduces nematode reproduction. French
-      marigold extract as a soil drench shows consistent results in research trials.
-  natural_enemies:
-  - Beneficial Nematodes
-  - Soil Microbes
-  - Predatory Fungi
+name: Rootknot Nematodes
+slug: rootknot-nematodes
+picture: root_knot_nematodes.webp
+scientific_name: Meloidogyne spp.
+description: If plants stay stunted, yellow, and thirsty even with good care, rootknot
+  nematodes may be attacking below ground. These microscopic pests damage roots, so
+  the top growth declines before the cause is obvious. Yield drops and wilting worsen
+  in heat because damaged roots cannot keep up. Once populations build in soil, control
+  gets harder, so early detection is critical.
+characteristics: Gently lift a struggling plant and inspect roots for knots, lesions,
+  branching distortion, or weak root mass. Affected plants often appear in patches
+  rather than uniformly across the bed. Symptoms can mimic nutrient stress, but damaged
+  roots with poor feeder growth are a key clue. Lab or microscope confirmation is
+  best, but root injury patterns strongly indicate nematode pressure.
+symptoms:
+- galls
+- root-damage
+- wilting
+- yellowing-leaves
+- distorted-growth
+control_methods:
+  biological_controls: Pasteuria penetrans is a bacterial parasite that specifically
+    attacks root-knot nematodes -- it occurs naturally in many soils and increases
+    over time when nematode populations are high. Trichoderma and Bacillus subtilis
+    as soil amendments improve overall root health and competitive exclusion. Beneficial
+    nematodes (Steinernema feltiae) do not directly attack root-knot nematodes but
+    improve overall soil biology. The most important biological investment is building
+    diverse active soil biology -- soils with high organic matter and diverse microbial
+    communities suppress root-knot nematodes significantly better than depleted soils.
+    Mycorrhizal inoculants help roots tolerate nematode feeding.
+  preventive_methods: Root-knot nematodes cause distinctive galls (knots) on roots
+    -- dig up a struggling plant and check the roots. Healthy roots are smooth and
+    white. Nematode-infested roots have round marble-like swellings along them. Plants
+    above ground look drought-stressed despite adequate water because the damaged
+    roots cannot absorb moisture effectively. Sandy soils are worst -- nematodes move
+    freely through sand. Use certified nematode-free transplants. Never move soil
+    from infested areas to clean beds. Nematode populations build rapidly on susceptible
+    crops planted in the same spot year after year.
+  cultural_practices: Crop rotation with non-host crops for 2-3 seasons is the most
+    effective long-term management -- corn, onions, garlic, and small grains do not
+    support root-knot nematode reproduction. French marigolds (Tagetes patula) planted
+    densely and turned into the soil as a green manure produce compounds that kill
+    root-knot nematodes -- one of the most effective organic nematode suppressants
+    available. Incorporate large amounts of organic matter -- compost, cover crops,
+    and mulch build the diverse soil biology that suppresses nematodes. Remove and
+    destroy infected plant roots immediately.
+  mechanical_physical: Soil solarization (clear plastic over moist soil for 6-8 weeks
+    in summer) kills root-knot nematodes in the top 6-8 inches where most feeding
+    occurs -- highly effective in Florida and other hot climates with strong summer
+    sun. Raised beds with fresh sterilized growing media provide a nematode-free start.
+    Physical barriers of landscape fabric under raised beds prevent nematode migration
+    from surrounding soil into clean beds.
+  organic_sprays: Neem cake (the pressed residue after neem oil extraction) incorporated
+    into soil releases compounds toxic to nematodes -- apply at 200-400 lbs per acre
+    or equivalent for garden beds. Liquid neem oil as a soil drench has some nematicidal
+    activity. Mustard seed meal incorporated into soil releases isothiocyanates that
+    kill nematodes -- biofumigation. Chitosan soil drench stimulates plant immune
+    response and reduces nematode reproduction. French marigold extract as a soil
+    drench shows consistent results in research trials.
+natural_enemies:
+- Beneficial Nematodes
+- Soil Microbes
+- Predatory Fungi
+category: pest

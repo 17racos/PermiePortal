@@ -1,237 +1,232 @@
----
-- name: Velvetbean Caterpillar
-  slug: velvetbean-caterpillar
-  picture: velvetbean_caterpillar.webp
-  scientific_name: Anticarsia gemmatalis
-  description: >-
-    If leaves look shredded overnight or fruit has fresh chew holes, velvetbean caterpillar may
-    be feeding right now. These larvae can eat fast and strip a healthy plant in a short window.
-    Young stages are easy to miss, then damage suddenly explodes as they grow. Catch them early
-    to avoid severe defoliation and contaminated harvests.
-  characteristics: >-
-    Check leaf undersides, growing tips, and stem junctions for eggs, frass pellets, and feeding
-    scars. Larvae vary in color, but most have a soft segmented body and blend into foliage.
-    Look at dusk or early morning when many species feed more actively. Fresh chewing plus live
-    larvae or droppings on lower leaves confirms an active caterpillar outbreak.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - skeletonized-leaves
-  control_methods:
-    biological_controls: >-
-      Anticarsia gemmatalis nucleopolyhedrovirus (AgNPV) is the most important natural
-      control of velvetbean caterpillar -- it crashes large outbreaks naturally when
-      populations are dense. Collapsing, black-colored, hanging larvae are NPV-infected.
-      Leave infected larvae on plants -- they liquefy and the virus spreads to healthy
-      larvae feeding nearby. AgNPV is commercially available in Brazil and increasingly
-      elsewhere as a biological insecticide. Braconid and ichneumonid wasps parasitize
-      larvae. Support all beneficials with dill, fennel, and diverse flowering plants
-      at field edges.
-    preventive_methods: >-
-      Velvetbean caterpillar is a migratory pest -- populations arrive from southern
-      areas and build through multiple generations on beans and legumes in summer and
-      fall. Young larvae feed in groups on leaf undersides before dispersing as they
-      grow. Scout leaf undersides weekly during pod fill -- egg masses and early
-      instar groups are easy to find and destroy before populations explode. Monitor
-      with blacklight traps for adult moth activity to time intensive scouting.
-    cultural_practices: >-
-      Maintain diverse floral resources at bed and field edges to support the parasitoid
-      wasp community that tracks velvetbean caterpillar outbreaks. Destroy crop residues
-      after harvest. For garden-scale plantings, hand-picking egg masses and young larval
-      groups is the most cost-effective control. Avoid planting late-season double-cropped
-      beans directly adjacent to finishing infested crops -- caterpillars move between
-      plantings.
-    mechanical_physical: >-
-      Hand-pick egg masses and young larval clusters from leaf undersides -- at garden
-      scale this eliminates populations before they disperse. Eggs are laid in masses
-      on leaf undersides and young larvae feed in tight groups making early removal
-      efficient. At large scale, biology is more reliable than mechanical controls.
-    organic_sprays: >-
-      Bt kurstaki or aizawai on small larvae is highly effective -- apply in the
-      evening coating leaf undersides where larvae feed. Spinosad where thresholds
-      justify intervention and beneficials have been considered. AgNPV where commercially
-      available is the most ecologically sound spray option -- it spreads through
-      the population naturally after application. Neem oil deters egg-laying and
-      disrupts larval development.
-  natural_enemies:
-  - Anticarsia gemmatalis nucleopolyhedrovirus
-  - Braconid wasps
-  - Predatory bugs
-  affected_plants:
-  - slug: acacia
-    name: Acacia
-  - slug: african-locust-bean
-    name: African Locust Bean
-  - slug: ahipa
-    name: Ahipa
-  - slug: albizia-lebbeck
-    name: Albizia lebbeck
-  - slug: alfalfa
-    name: Alfalfa
-  - slug: asparagus-bean
-    name: Asparagus Bean
-  - slug: baptisia
-    name: Baptisia
-  - slug: bay-bean
-    name: Bay Bean
-  - slug: beach-bean
-    name: Beach Bean
-  - slug: black-medic
-    name: Black Medic
-  - slug: black-mulga
-    name: Black Mulga
-  - slug: black-locust
-    name: Black Locust
-  - slug: bladder-senna
-    name: Bladder Senna
-  - slug: blue-wild-indigo
-    name: Blue Wild Indigo
-  - slug: carob-tree
-    name: Carob Tree
-  - slug: cassia-alata
-    name: Cassia alata
-  - slug: catclaw-sensitive-briar
-    name: Catclaw Sensitive Briar
-  - slug: chickpea
-    name: Chickpea
-  - slug: chilean-pea
-    name: Chilean Pea
-  - slug: coffee-senna
-    name: Coffee Senna
-  - slug: coffeeweed
-    name: Coffeeweed
-  - slug: coral-bean
-    name: Coral Bean
-  - slug: crimson-clover
-    name: Crimson Clover
-  - slug: crown-vetch
-    name: Crown Vetch
-  - slug: desert-ironwood
-    name: Desert Ironwood
-  - slug: dutch-clover
-    name: Dutch Clover
-  - slug: earth-chestnut
-    name: Earth Chestnut
-  - slug: false-indigo
-    name: False Indigo
-  - slug: fava-bean
-    name: Fava Bean
-  - slug: florida-leadplant
-    name: Florida Leadplant
-  - slug: goats-rue
-    name: Goat's Rue
-  - slug: green-bean
-    name: Green Bean
-  - slug: groundnut
-    name: Groundnut
-  - slug: groundplum-milkvetch
-    name: Groundplum Milkvetch
-  - slug: hairy-indigo
-    name: Hairy Indigo
-  - slug: honey-locust
-    name: Honey Locust
-  - slug: hopniss
-    name: Hopniss
-  - slug: hyacinth-bean
-    name: Hyacinth Bean
-  - slug: ice-cream-bean-tree
-    name: Ice Cream Bean Tree
-  - slug: illinois-bundleflower
-    name: Illinois Bundleflower
-  - slug: indigofera-tinctoria
-    name: Indigofera tinctoria
-  - slug: jatoba
-    name: Jatoba
-  - slug: jicama
-    name: Jicama
-  - slug: lablab-bean
-    name: Lablab Bean
-  - slug: lead-plant
-    name: Lead Plant
-  - slug: leucaena
-    name: Leucaena
-  - slug: lupine
-    name: Lupine
-  - slug: mangrove-bean
-    name: Mangrove Bean
-  - slug: milk-vetch
-    name: Milk Vetch
-  - slug: mimosa
-    name: Mimosa
-  - slug: mung-bean
-    name: Mung Bean
-  - slug: palo-verde
-    name: Palo Verde
-  - slug: partridge-acacia
-    name: Partridge Acacia
-  - slug: partridge-cassia
-    name: Partridge Cassia
-  - slug: partridge-pea
-    name: Partridge Pea
-  - slug: pea
-    name: Pea
-  - slug: perennial-peanut
-    name: Perennial Peanut
-  - slug: pigeon-pea
-    name: Pigeon Pea
-  - slug: plains-wild-indigo
-    name: Plains Wild Indigo
-  - slug: powderpuff-mimosa
-    name: Powderpuff Mimosa
-  - slug: prairie-acacia
-    name: Prairie Acacia
-  - slug: prairie-potato
-    name: Prairie Potato
-  - slug: prairie-turnip
-    name: Prairie Turnip
-  - slug: rattlebox
-    name: Rattlebox
-  - slug: sensitive-briar
-    name: Sensitive Briar
-  - slug: sensitive-plant
-    name: Sensitive Plant
-  - slug: sesbania
-    name: Sesbania
-  - slug: sesbania-grandiflora
-    name: Sesbania grandiflora
-  - slug: showy-partridge-pea
-    name: Showy Partridge Pea
-  - slug: siberian-peashrub
-    name: Siberian Peashrub
-  - slug: siberian-pea-shrub
-    name: Siberian Pea Shrub
-  - slug: sicklepod
-    name: Sicklepod
-  - slug: snow-pea
-    name: Snow Pea
-  - slug: sun-hemp
-    name: Sun Hemp
-  - slug: sunshine-mimosa
-    name: Sunshine Mimosa
-  - slug: tagasaste
-    name: Tagasaste
-  - slug: tephrosia-vogelii
-    name: Tephrosia vogelii
-  - slug: tick-trefoil
-    name: Tick Trefoil
-  - slug: trailing-mimosa
-    name: Trailing Mimosa
-  - slug: tree-medick
-    name: Tree Medick
-  - slug: white-wild-indigo
-    name: White Wild Indigo
-  - slug: wild-indigo-bush
-    name: Wild Indigo Bush
-  - slug: wild-indigo
-    name: Wild Indigo
-  - slug: wild-senna
-    name: Wild Senna
-  - slug: winged-bean
-    name: Winged Bean
-  - slug: wisteria
-    name: Wisteria
-  - slug: yam-bean
-    name: Yam Bean
-  - slug: yellow-sweet-clover
-    name: Yellow Sweet Clover
+name: Velvetbean Caterpillar
+slug: velvetbean-caterpillar
+picture: velvetbean_caterpillar.webp
+scientific_name: Anticarsia gemmatalis
+description: If leaves look shredded overnight or fruit has fresh chew holes, velvetbean
+  caterpillar may be feeding right now. These larvae can eat fast and strip a healthy
+  plant in a short window. Young stages are easy to miss, then damage suddenly explodes
+  as they grow. Catch them early to avoid severe defoliation and contaminated harvests.
+characteristics: Check leaf undersides, growing tips, and stem junctions for eggs,
+  frass pellets, and feeding scars. Larvae vary in color, but most have a soft segmented
+  body and blend into foliage. Look at dusk or early morning when many species feed
+  more actively. Fresh chewing plus live larvae or droppings on lower leaves confirms
+  an active caterpillar outbreak.
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- skeletonized-leaves
+control_methods:
+  biological_controls: Anticarsia gemmatalis nucleopolyhedrovirus (AgNPV) is the most
+    important natural control of velvetbean caterpillar -- it crashes large outbreaks
+    naturally when populations are dense. Collapsing, black-colored, hanging larvae
+    are NPV-infected. Leave infected larvae on plants -- they liquefy and the virus
+    spreads to healthy larvae feeding nearby. AgNPV is commercially available in Brazil
+    and increasingly elsewhere as a biological insecticide. Braconid and ichneumonid
+    wasps parasitize larvae. Support all beneficials with dill, fennel, and diverse
+    flowering plants at field edges.
+  preventive_methods: Velvetbean caterpillar is a migratory pest -- populations arrive
+    from southern areas and build through multiple generations on beans and legumes
+    in summer and fall. Young larvae feed in groups on leaf undersides before dispersing
+    as they grow. Scout leaf undersides weekly during pod fill -- egg masses and early
+    instar groups are easy to find and destroy before populations explode. Monitor
+    with blacklight traps for adult moth activity to time intensive scouting.
+  cultural_practices: Maintain diverse floral resources at bed and field edges to
+    support the parasitoid wasp community that tracks velvetbean caterpillar outbreaks.
+    Destroy crop residues after harvest. For garden-scale plantings, hand-picking
+    egg masses and young larval groups is the most cost-effective control. Avoid planting
+    late-season double-cropped beans directly adjacent to finishing infested crops
+    -- caterpillars move between plantings.
+  mechanical_physical: Hand-pick egg masses and young larval clusters from leaf undersides
+    -- at garden scale this eliminates populations before they disperse. Eggs are
+    laid in masses on leaf undersides and young larvae feed in tight groups making
+    early removal efficient. At large scale, biology is more reliable than mechanical
+    controls.
+  organic_sprays: Bt kurstaki or aizawai on small larvae is highly effective -- apply
+    in the evening coating leaf undersides where larvae feed. Spinosad where thresholds
+    justify intervention and beneficials have been considered. AgNPV where commercially
+    available is the most ecologically sound spray option -- it spreads through the
+    population naturally after application. Neem oil deters egg-laying and disrupts
+    larval development.
+natural_enemies:
+- Anticarsia gemmatalis nucleopolyhedrovirus
+- Braconid wasps
+- Predatory bugs
+affected_plants:
+- slug: acacia
+  name: Acacia
+- slug: african-locust-bean
+  name: African Locust Bean
+- slug: ahipa
+  name: Ahipa
+- slug: albizia-lebbeck
+  name: Albizia lebbeck
+- slug: alfalfa
+  name: Alfalfa
+- slug: asparagus-bean
+  name: Asparagus Bean
+- slug: baptisia
+  name: Baptisia
+- slug: bay-bean
+  name: Bay Bean
+- slug: beach-bean
+  name: Beach Bean
+- slug: black-medic
+  name: Black Medic
+- slug: black-mulga
+  name: Black Mulga
+- slug: black-locust
+  name: Black Locust
+- slug: bladder-senna
+  name: Bladder Senna
+- slug: blue-wild-indigo
+  name: Blue Wild Indigo
+- slug: carob-tree
+  name: Carob Tree
+- slug: cassia-alata
+  name: Cassia alata
+- slug: catclaw-sensitive-briar
+  name: Catclaw Sensitive Briar
+- slug: chickpea
+  name: Chickpea
+- slug: chilean-pea
+  name: Chilean Pea
+- slug: coffee-senna
+  name: Coffee Senna
+- slug: coffeeweed
+  name: Coffeeweed
+- slug: coral-bean
+  name: Coral Bean
+- slug: crimson-clover
+  name: Crimson Clover
+- slug: crown-vetch
+  name: Crown Vetch
+- slug: desert-ironwood
+  name: Desert Ironwood
+- slug: dutch-clover
+  name: Dutch Clover
+- slug: earth-chestnut
+  name: Earth Chestnut
+- slug: false-indigo
+  name: False Indigo
+- slug: fava-bean
+  name: Fava Bean
+- slug: florida-leadplant
+  name: Florida Leadplant
+- slug: goats-rue
+  name: Goat's Rue
+- slug: green-bean
+  name: Green Bean
+- slug: groundnut
+  name: Groundnut
+- slug: groundplum-milkvetch
+  name: Groundplum Milkvetch
+- slug: hairy-indigo
+  name: Hairy Indigo
+- slug: honey-locust
+  name: Honey Locust
+- slug: hopniss
+  name: Hopniss
+- slug: hyacinth-bean
+  name: Hyacinth Bean
+- slug: ice-cream-bean-tree
+  name: Ice Cream Bean Tree
+- slug: illinois-bundleflower
+  name: Illinois Bundleflower
+- slug: indigofera-tinctoria
+  name: Indigofera tinctoria
+- slug: jatoba
+  name: Jatoba
+- slug: jicama
+  name: Jicama
+- slug: lablab-bean
+  name: Lablab Bean
+- slug: lead-plant
+  name: Lead Plant
+- slug: leucaena
+  name: Leucaena
+- slug: lupine
+  name: Lupine
+- slug: mangrove-bean
+  name: Mangrove Bean
+- slug: milk-vetch
+  name: Milk Vetch
+- slug: mimosa
+  name: Mimosa
+- slug: mung-bean
+  name: Mung Bean
+- slug: palo-verde
+  name: Palo Verde
+- slug: partridge-acacia
+  name: Partridge Acacia
+- slug: partridge-cassia
+  name: Partridge Cassia
+- slug: partridge-pea
+  name: Partridge Pea
+- slug: pea
+  name: Pea
+- slug: perennial-peanut
+  name: Perennial Peanut
+- slug: pigeon-pea
+  name: Pigeon Pea
+- slug: plains-wild-indigo
+  name: Plains Wild Indigo
+- slug: powderpuff-mimosa
+  name: Powderpuff Mimosa
+- slug: prairie-acacia
+  name: Prairie Acacia
+- slug: prairie-potato
+  name: Prairie Potato
+- slug: prairie-turnip
+  name: Prairie Turnip
+- slug: rattlebox
+  name: Rattlebox
+- slug: sensitive-briar
+  name: Sensitive Briar
+- slug: sensitive-plant
+  name: Sensitive Plant
+- slug: sesbania
+  name: Sesbania
+- slug: sesbania-grandiflora
+  name: Sesbania grandiflora
+- slug: showy-partridge-pea
+  name: Showy Partridge Pea
+- slug: siberian-peashrub
+  name: Siberian Peashrub
+- slug: siberian-pea-shrub
+  name: Siberian Pea Shrub
+- slug: sicklepod
+  name: Sicklepod
+- slug: snow-pea
+  name: Snow Pea
+- slug: sun-hemp
+  name: Sun Hemp
+- slug: sunshine-mimosa
+  name: Sunshine Mimosa
+- slug: tagasaste
+  name: Tagasaste
+- slug: tephrosia-vogelii
+  name: Tephrosia vogelii
+- slug: tick-trefoil
+  name: Tick Trefoil
+- slug: trailing-mimosa
+  name: Trailing Mimosa
+- slug: tree-medick
+  name: Tree Medick
+- slug: white-wild-indigo
+  name: White Wild Indigo
+- slug: wild-indigo-bush
+  name: Wild Indigo Bush
+- slug: wild-indigo
+  name: Wild Indigo
+- slug: wild-senna
+  name: Wild Senna
+- slug: winged-bean
+  name: Winged Bean
+- slug: wisteria
+  name: Wisteria
+- slug: yam-bean
+  name: Yam Bean
+- slug: yellow-sweet-clover
+  name: Yellow Sweet Clover
+category: pest

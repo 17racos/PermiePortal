@@ -1,139 +1,138 @@
----
-- name: Shore Fly
-  slug: shore-fly
-  picture: shore_fly.webp
-  scientific_name: Scatella stagnalis
-  description: >-
-    If leaves show trails, fruit turns soft, or roots collapse from inside, shore fly may
-    already be feeding. The larval stage does most of the damage, often hidden where you cannot
-    see it at first glance. By the time yellowing or rot appears, feeding may be well underway.
-    Move quickly when symptoms begin to prevent another wave of eggs and larvae.
-  characteristics: >-
-    Watch for tiny eggs near plant tissue, pale legless larvae inside mines or fruit, and sudden
-    soft spots or tunnels. Adults are usually small flies that hover or dart when disturbed.
-    Check around wounds, blossoms, and moist plant debris where egg-laying is common. Cut open
-    suspect tissue: live maggots or fresh tunnels are the clearest field confirmation.
-  symptoms:
-  - wilting
-  - root-damage
-  - yellowing-leaves
-  - dropping-leaves
-  control_methods:
-    biological_controls: >-
-      Dalotia coriaria rove beetles hunt shore fly larvae in algae on wet floors and inside
-      propagation trays -- they are small, fast, and worth buying for chronic greenhouses.
-      Hypoaspis miles and similar soil mites feed on larvae and pupae in the top layer of wet
-      media. Nematodes that target fungus gnat larvae sometimes help shore fly if you apply to
-      saturated plugs and keep humidity high. These tools fail if you keep pressure-washing the
-      predators away daily; biocontrol needs a stable habitat.
-    preventive_methods: >-
-      Shore flies breed in thin films of algae and bacteria on constantly wet mats, buckets, and
-      hose tracks -- dry the problem before you buy anything else. Sterilize reused trays with
-      labeled cleaners, not just a quick rinse. Fix drips and level benches so water does not
-      pool under pots. Keep hose ends off the floor and coil them on hooks. When starting a new
-      house, inspect incoming plugs for adult flies before you unload a truck into a clean room.
-    cultural_practices: >-
-      Let bench tops surface-dry between irrigations; capillary mats that are always wet are fly
-      factories. Improve drainage so saucers and channels do not hold soup. Pressure-wash algae
-      off walkways monthly during warm months; algae is food and nursery for larvae. Avoid bottom
-      heat that keeps root zones steaming without moving air -- combine heat with gentle fan
-      movement so leaves dry. In propagation, avoid over-fertilizing algae with slow leaks from
-      fertilizer injectors into puddles.
-    mechanical_physical: >-
-      Yellow sticky cards placed just above the crop canopy catch adults flying in the first
-      inches of air -- use them to count trends, not as total control. In enclosed houses, a shop
-      vac with a crevice tool removes adults from walls and glass during peak emergence before
-      they lay eggs. Squeegee standing water off floors after every watering shift. For small
-      grows, hand-wipe algae lines along bench edges where larvae actually live.
-    organic_sprays: >-
-      Insecticidal soap or neem directed into flying adults is a weak backup; adults die fast but
-      new ones hatch from algae you did not dry. Bacillus thuringiensis israelensis drenches
-      target larvae in water where labels allow; they are not for random dry foliage. Apply BTI to
-      standing reservoirs, algae gutters, or recirculating mats per label -- not as a perfume on
-      leaves. Rotate with drying and predators so you do not select soap-tolerant flies while
-      drowning in algae.
-  natural_enemies:
-  - Dalotia coriaria
-  - Stratiolaelaps scimitus
-  - Rove Beetles
-  affected_plants:
-  - slug: angels-trumpet
-    name: Angel's Trumpet
-  - slug: ashwagandha
-    name: Ashwagandha
-  - slug: buffalo-bur
-    name: Buffalo Bur
-  - slug: chiltepin-pepper
-    name: Chiltepin Pepper
-  - slug: chiltepin-pepper-tree
-    name: Chiltepin Pepper Tree
-  - slug: chinese-lantern
-    name: Chinese Lantern
-  - slug: coastal-groundcherry
-    name: Coastal Groundcherry
-  - slug: devils-trumpet
-    name: Devil's Trumpet
-  - slug: garden-huckleberry
-    name: Garden Huckleberry
-  - slug: goji-berry
-    name: Goji Berry
-  - slug: ground-cherry
-    name: Ground Cherry
-  - slug: horse-nettle
-    name: Horse Nettle
-  - slug: pepino-melon
-    name: Pepino Melon
-  - slug: potato
-    name: Potato
-  - slug: scarlet-eggplant
-    name: Scarlet Eggplant
-  - slug: wild-eggplant
-    name: Wild Eggplant
-  - slug: wonderberry
-    name: Wonderberry
-  - slug: acorn-squash
-    name: Acorn Squash
-  - slug: angled-loofah
-    name: Angled Loofah
-  - slug: apple-gourd
-    name: Apple Gourd
-  - slug: birdhouse-gourd
-    name: Birdhouse Gourd
-  - slug: bitter-melon
-    name: Bitter Melon
-  - slug: bottle-gourd
-    name: Bottle Gourd
-  - slug: buffalo-gourd
-    name: Buffalo Gourd
-  - slug: bushel-gourd
-    name: Bushel Gourd
-  - slug: calabaza
-    name: Calabaza
-  - slug: cassabanana-root-systems
-    name: Cassabanana root systems
-  - slug: caveman-club-gourd
-    name: Caveman Club Gourd
-  - slug: chayote
-    name: Chayote
-  - slug: coccinia
-    name: Coccinia
-  - slug: corsican-gourd
-    name: Corsican Gourd
-  - slug: cucamelon
-    name: Cucamelon
-  - slug: dinosaur-gourd
-    name: Dinosaur Gourd
-  - slug: ivy-gourd
-    name: Ivy Gourd
-  - slug: luffa
-    name: Luffa
-  - slug: monky-muskmelon
-    name: Monky Muskmelon
-  - slug: penguin-gourd
-    name: Penguin Gourd
-  - slug: seminole-pumpkin
-    name: Seminole Pumpkin
-  - slug: snake-gourd
-    name: Snake Gourd
-  - slug: wax-gourd
-    name: Wax Gourd
+name: Shore Fly
+slug: shore-fly
+picture: shore_fly.webp
+scientific_name: Scatella stagnalis
+description: If leaves show trails, fruit turns soft, or roots collapse from inside,
+  shore fly may already be feeding. The larval stage does most of the damage, often
+  hidden where you cannot see it at first glance. By the time yellowing or rot appears,
+  feeding may be well underway. Move quickly when symptoms begin to prevent another
+  wave of eggs and larvae.
+characteristics: 'Watch for tiny eggs near plant tissue, pale legless larvae inside
+  mines or fruit, and sudden soft spots or tunnels. Adults are usually small flies
+  that hover or dart when disturbed. Check around wounds, blossoms, and moist plant
+  debris where egg-laying is common. Cut open suspect tissue: live maggots or fresh
+  tunnels are the clearest field confirmation.'
+symptoms:
+- wilting
+- root-damage
+- yellowing-leaves
+- dropping-leaves
+control_methods:
+  biological_controls: Dalotia coriaria rove beetles hunt shore fly larvae in algae
+    on wet floors and inside propagation trays -- they are small, fast, and worth
+    buying for chronic greenhouses. Hypoaspis miles and similar soil mites feed on
+    larvae and pupae in the top layer of wet media. Nematodes that target fungus gnat
+    larvae sometimes help shore fly if you apply to saturated plugs and keep humidity
+    high. These tools fail if you keep pressure-washing the predators away daily;
+    biocontrol needs a stable habitat.
+  preventive_methods: Shore flies breed in thin films of algae and bacteria on constantly
+    wet mats, buckets, and hose tracks -- dry the problem before you buy anything
+    else. Sterilize reused trays with labeled cleaners, not just a quick rinse. Fix
+    drips and level benches so water does not pool under pots. Keep hose ends off
+    the floor and coil them on hooks. When starting a new house, inspect incoming
+    plugs for adult flies before you unload a truck into a clean room.
+  cultural_practices: Let bench tops surface-dry between irrigations; capillary mats
+    that are always wet are fly factories. Improve drainage so saucers and channels
+    do not hold soup. Pressure-wash algae off walkways monthly during warm months;
+    algae is food and nursery for larvae. Avoid bottom heat that keeps root zones
+    steaming without moving air -- combine heat with gentle fan movement so leaves
+    dry. In propagation, avoid over-fertilizing algae with slow leaks from fertilizer
+    injectors into puddles.
+  mechanical_physical: Yellow sticky cards placed just above the crop canopy catch
+    adults flying in the first inches of air -- use them to count trends, not as total
+    control. In enclosed houses, a shop vac with a crevice tool removes adults from
+    walls and glass during peak emergence before they lay eggs. Squeegee standing
+    water off floors after every watering shift. For small grows, hand-wipe algae
+    lines along bench edges where larvae actually live.
+  organic_sprays: Insecticidal soap or neem directed into flying adults is a weak
+    backup; adults die fast but new ones hatch from algae you did not dry. Bacillus
+    thuringiensis israelensis drenches target larvae in water where labels allow;
+    they are not for random dry foliage. Apply BTI to standing reservoirs, algae gutters,
+    or recirculating mats per label -- not as a perfume on leaves. Rotate with drying
+    and predators so you do not select soap-tolerant flies while drowning in algae.
+natural_enemies:
+- Dalotia coriaria
+- Stratiolaelaps scimitus
+- Rove Beetles
+affected_plants:
+- slug: angels-trumpet
+  name: Angel's Trumpet
+- slug: ashwagandha
+  name: Ashwagandha
+- slug: buffalo-bur
+  name: Buffalo Bur
+- slug: chiltepin-pepper
+  name: Chiltepin Pepper
+- slug: chiltepin-pepper-tree
+  name: Chiltepin Pepper Tree
+- slug: chinese-lantern
+  name: Chinese Lantern
+- slug: coastal-groundcherry
+  name: Coastal Groundcherry
+- slug: devils-trumpet
+  name: Devil's Trumpet
+- slug: garden-huckleberry
+  name: Garden Huckleberry
+- slug: goji-berry
+  name: Goji Berry
+- slug: ground-cherry
+  name: Ground Cherry
+- slug: horse-nettle
+  name: Horse Nettle
+- slug: pepino-melon
+  name: Pepino Melon
+- slug: potato
+  name: Potato
+- slug: scarlet-eggplant
+  name: Scarlet Eggplant
+- slug: wild-eggplant
+  name: Wild Eggplant
+- slug: wonderberry
+  name: Wonderberry
+- slug: acorn-squash
+  name: Acorn Squash
+- slug: angled-loofah
+  name: Angled Loofah
+- slug: apple-gourd
+  name: Apple Gourd
+- slug: birdhouse-gourd
+  name: Birdhouse Gourd
+- slug: bitter-melon
+  name: Bitter Melon
+- slug: bottle-gourd
+  name: Bottle Gourd
+- slug: buffalo-gourd
+  name: Buffalo Gourd
+- slug: bushel-gourd
+  name: Bushel Gourd
+- slug: calabaza
+  name: Calabaza
+- slug: cassabanana-root-systems
+  name: Cassabanana root systems
+- slug: caveman-club-gourd
+  name: Caveman Club Gourd
+- slug: chayote
+  name: Chayote
+- slug: coccinia
+  name: Coccinia
+- slug: corsican-gourd
+  name: Corsican Gourd
+- slug: cucamelon
+  name: Cucamelon
+- slug: dinosaur-gourd
+  name: Dinosaur Gourd
+- slug: ivy-gourd
+  name: Ivy Gourd
+- slug: luffa
+  name: Luffa
+- slug: monky-muskmelon
+  name: Monky Muskmelon
+- slug: penguin-gourd
+  name: Penguin Gourd
+- slug: seminole-pumpkin
+  name: Seminole Pumpkin
+- slug: snake-gourd
+  name: Snake Gourd
+- slug: wax-gourd
+  name: Wax Gourd
+category: pest

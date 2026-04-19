@@ -1,469 +1,464 @@
----
-- name: Lubber Grasshopper
-  slug: lubber-grasshopper
-  picture: lubber_grasshopper.webp
-  scientific_name: Romalea microptera
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, lubber grasshopper may already be on
-    the plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - holes-in-leaves
-  - skeletonized-leaves
-  - chewed-stems
-  - fruit-damage
-  control_methods:
-    biological_controls: >-
-      Lubber grasshoppers are chemically defended — they sequester toxins from plants
-      they eat and most predators avoid them. Birds that eat them (loggerhead shrikes,
-      some raptors) have adapted to the toxins. Tachinid flies parasitize lubbers and
-      are the most effective natural control — support them with flowering herbs like
-      dill and fennel. No commercial biological control is available for lubbers.
-      Long-term population management depends on disrupting egg-laying habitat more
-      than predators.
-    preventive_methods: >-
-      Lubbers overwinter as eggs in dry, sunny, sandy soil — the same open areas where
-      adults congregate in fall. Nymphs hatch in spring as tight black-and-yellow bands
-      clustered in one spot before dispersing. Finding and destroying these nymph clusters
-      in spring is the single most effective control — a dozen small nymphs is far
-      easier to manage than a dozen 3-inch adults. Scout weedy margins, roadsides, and
-      dry open ground in March-April in Florida and the Gulf Coast states.
-    cultural_practices: >-
-      Young nymphs are vulnerable and localized — concentrate effort in spring when
-      they are still clustered. Adults are large, slow, and hard to kill with sprays
-      due to their chemical defense and thick cuticle. Dense planting and ground cover
-      makes gardens less attractive as egg-laying habitat. Lubbers prefer open sunny
-      areas — a food forest with dense canopy and understory is genuinely less
-      attractive than a lawn or open bed.
-    mechanical_physical: >-
-      Hand-picking or stomping with gloved hands is the most reliable control for
-      adults — drop into soapy water. A smooth metal or fine mesh fence extending
-      12 inches above ground stops them from entering beds since lubbers are poor
-      jumpers despite their size. For nymph clusters, a propane torch on egg masses
-      in soil is effective where safe. Vacuuming dense aggregations works on small
-      garden scale.
-    organic_sprays: >-
-      Sprays are largely ineffective on adults due to chemical defenses and thick
-      cuticle. Target young nymphs only — spinosad applied to small black nymphs
-      before they reach 1 inch works reasonably well. Neem has minimal effect on
-      lubbers at any stage. Accept that adults require physical removal and focus
-      spray effort entirely on spring nymph management when it can actually work.
-  natural_enemies:
-  - Tachinid Flies
-  - Birds
-  - Mammals
-  affected_plants:
-  - slug: bamboo
-    name: Bamboo
-  - slug: big-bluestem
-    name: Big Bluestem
-  - slug: blue-grama
-    name: Blue Grama
-  - slug: broomsedge-bluestem
-    name: Broomsedge Bluestem
-  - slug: buffalo-grass
-    name: Buffalo Grass
-  - slug: eastern-gamagrass
-    name: Eastern Gamagrass
-  - slug: elephant-grass
-    name: Elephant Grass
-  - slug: elliotts-bluestem
-    name: Elliott's Bluestem
-  - slug: fever-grass
-    name: Fever Grass
-  - slug: florida-gamagrass
-    name: Florida Gamagrass
-  - slug: gulf-muhly
-    name: Gulf Muhly
-  - slug: hairawn-muhly
-    name: Hairawn Muhly
-  - slug: hairy-grama
-    name: Hairy Grama
-  - slug: indiangrass
-    name: Indiangrass
-  - slug: lemongrass
-    name: Lemongrass
-  - slug: little-bluestem
-    name: Little Bluestem
-  - slug: longawn-muhly
-    name: Longawn Muhly
-  - slug: millet
-    name: Millet
-  - slug: muhly-grass
-    name: Muhly Grass
-  - slug: prairie-cordgrass
-    name: Prairie Cordgrass
-  - slug: purple-lovegrass
-    name: Purple Lovegrass
-  - slug: rice
-    name: Rice
-  - slug: saltgrass
-    name: Saltgrass
-  - slug: saltmeadow-cordgrass
-    name: Saltmeadow Cordgrass
-  - slug: sand-bluestem
-    name: Sand Bluestem
-  - slug: sand-cordgrass
-    name: Sand Cordgrass
-  - slug: sand-grama
-    name: Sand Grama
-  - slug: sand-lovegrass
-    name: Sand Lovegrass
-  - slug: sideoats-grama
-    name: Sideoats Grama
-  - slug: split-beard-bluestem
-    name: Split Beard Bluestem
-  - slug: sweetgrass
-    name: Sweetgrass
-  - slug: switchgrass
-    name: Switchgrass
-  - slug: vetiver-grass
-    name: Vetiver Grass
-  - slug: weeping-lovegrass
-    name: Weeping Lovegrass
-  - slug: wiregrass
-    name: Wiregrass
-  - slug: arrowleaf-balsamroot
-    name: Arrowleaf Balsamroot
-  - slug: artemisia
-    name: Artemisia
-  - slug: black-eyed-susan
-    name: Black-eyed Susan
-  - slug: blanket-flower
-    name: Blanket Flower
-  - slug: boneset
-    name: Boneset
-  - slug: burdock
-    name: Burdock
-  - slug: calendula
-    name: Calendula
-  - slug: camphor-weed
-    name: Camphor Weed
-  - slug: celtuce
-    name: Celtuce
-  - slug: chamomile
-    name: Chamomile
-  - slug: chicory
-    name: Chicory
-  - slug: clasping-coneflower
-    name: Clasping Coneflower
-  - slug: climbing-aster
-    name: Climbing Aster
-  - slug: coastalplain-honeycombhead
-    name: Coastalplain Honeycombhead
-  - slug: coreopsis
-    name: Coreopsis
-  - slug: costmary
-    name: Costmary
-  - slug: dandelion
-    name: Dandelion
-  - slug: dense-blazingstar
-    name: Dense Blazingstar
-  - slug: desert-marigold
-    name: Desert Marigold
-  - slug: dogfennel
-    name: Dogfennel
-  - slug: eastern-blazingstar
-    name: Eastern Blazingstar
-  - slug: echinacea
-    name: Echinacea
-  - slug: elecampane
-    name: Elecampane
-  - slug: elephantopus
-    name: Elephantopus
-  - slug: fever-few
-    name: Fever Few
-  - slug: florida-paintbrush
-    name: Florida Paintbrush
-  - slug: florida-tasselflower
-    name: Florida Tasselflower
-  - slug: globe-thistle
-    name: Globe Thistle
-  - slug: goldenmane-tickseed
-    name: Goldenmane Tickseed
-  - slug: gravel-root
-    name: Gravel Root
-  - slug: green-and-gold
-    name: Green and Gold
-  - slug: green-headed-coneflower
-    name: Green Headed Coneflower
-  - slug: groundsel-tree
-    name: Groundsel Tree
-  - slug: guayule
-    name: Guayule
-  - slug: gynura
-    name: Gynura
-  - slug: hairy-beggarsticks
-    name: Hairy Beggarsticks
-  - slug: huacatay
-    name: Huacatay
-  - slug: iceberg-lettuce
-    name: Iceberg Lettuce
-  - slug: jerusalem-artichoke
-    name: Jerusalem Artichoke
-  - slug: joe-pye-weed
-    name: Joe Pye Weed
-  - slug: lanceleaf-coreopsis
-    name: Lanceleaf Coreopsis
-  - slug: leavenworths-tickseed
-    name: Leavenworth's Tickseed
-  - slug: longevity-spinach
-    name: Longevity Spinach
-  - slug: marigold
-    name: Marigold
-  - slug: marsh-blazingstar
-    name: Marsh Blazingstar
-  - slug: mexican-tarragon
-    name: Mexican Tarragon
-  - slug: mugwort
-    name: Mugwort
-  - slug: narrowleaf-sunflower
-    name: Narrowleaf Sunflower
-  - slug: okinawa-spinach
-    name: Okinawa Spinach
-  - slug: orange-coneflower
-    name: Orange Coneflower
-  - slug: pale-purple-coneflower
-    name: Pale Purple Coneflower
-  - slug: prairie-blazingstar
-    name: Prairie Blazingstar
-  - slug: prairie-coneflower
-    name: Prairie Coneflower
-  - slug: rough-blazingstar
-    name: Rough Blazingstar
-  - slug: saltmarsh-aster
-    name: Saltmarsh Aster
-  - slug: sea-oxeye-daisy
-    name: Sea Oxeye Daisy
-  - slug: shining-coneflower
-    name: Shining Coneflower
-  - slug: singapore-daisy
-    name: Singapore Daisy
-  - slug: spanish-needles
-    name: Spanish Needles
-  - slug: spilanthes
-    name: Spilanthes
-  - slug: sunchoke
-    name: Sunchoke
-  - slug: sunflower
-    name: Sunflower
-  - slug: swamp-sunflower
-    name: Swamp Sunflower
-  - slug: sweet-black-eyed-susan
-    name: Sweet Black Eyed Susan
-  - slug: sweet-coltsfoot
-    name: Sweet Coltsfoot
-  - slug: sweet-leaf
-    name: Sweet Leaf
-  - slug: tansy
-    name: Tansy
-  - slug: tarragon
-    name: Tarragon
-  - slug: thin-leaved-coneflower
-    name: Thin-leaved Coneflower
-  - slug: tickseed-coreopsis
-    name: Tickseed Coreopsis
-  - slug: tickseed-sunflower
-    name: Tickseed Sunflower
-  - slug: tithonia
-    name: Tithonia
-  - slug: toothache-plant
-    name: Toothache Plant
-  - slug: topinambur
-    name: Topinambur
-  - slug: wild-tarragon
-    name: Wild Tarragon
-  - slug: woodland-sunflower
-    name: Woodland Sunflower
-  - slug: wormwood
-    name: Wormwood
-  - slug: yacon
-    name: Yacon
-  - slug: yam-daisy
-    name: Yam Daisy
-  - slug: yarrow
-    name: Yarrow
-  - slug: yellow-coneflower
-    name: Yellow Coneflower
-  - slug: acacia
-    name: Acacia
-  - slug: african-locust-bean
-    name: African Locust Bean
-  - slug: ahipa
-    name: Ahipa
-  - slug: albizia-lebbeck
-    name: Albizia lebbeck
-  - slug: alfalfa
-    name: Alfalfa
-  - slug: asparagus-bean
-    name: Asparagus Bean
-  - slug: baptisia
-    name: Baptisia
-  - slug: bay-bean
-    name: Bay Bean
-  - slug: beach-bean
-    name: Beach Bean
-  - slug: black-medic
-    name: Black Medic
-  - slug: black-mulga
-    name: Black Mulga
-  - slug: black-locust
-    name: Black Locust
-  - slug: bladder-senna
-    name: Bladder Senna
-  - slug: blue-wild-indigo
-    name: Blue Wild Indigo
-  - slug: carob-tree
-    name: Carob Tree
-  - slug: cassia-alata
-    name: Cassia alata
-  - slug: catclaw-sensitive-briar
-    name: Catclaw Sensitive Briar
-  - slug: chickpea
-    name: Chickpea
-  - slug: chilean-pea
-    name: Chilean Pea
-  - slug: coffee-senna
-    name: Coffee Senna
-  - slug: coffeeweed
-    name: Coffeeweed
-  - slug: coral-bean
-    name: Coral Bean
-  - slug: crimson-clover
-    name: Crimson Clover
-  - slug: crown-vetch
-    name: Crown Vetch
-  - slug: desert-ironwood
-    name: Desert Ironwood
-  - slug: dutch-clover
-    name: Dutch Clover
-  - slug: earth-chestnut
-    name: Earth Chestnut
-  - slug: false-indigo
-    name: False Indigo
-  - slug: fava-bean
-    name: Fava Bean
-  - slug: florida-leadplant
-    name: Florida Leadplant
-  - slug: goats-rue
-    name: Goat's Rue
-  - slug: green-bean
-    name: Green Bean
-  - slug: groundnut
-    name: Groundnut
-  - slug: groundplum-milkvetch
-    name: Groundplum Milkvetch
-  - slug: hairy-indigo
-    name: Hairy Indigo
-  - slug: honey-locust
-    name: Honey Locust
-  - slug: hopniss
-    name: Hopniss
-  - slug: hyacinth-bean
-    name: Hyacinth Bean
-  - slug: ice-cream-bean-tree
-    name: Ice Cream Bean Tree
-  - slug: illinois-bundleflower
-    name: Illinois Bundleflower
-  - slug: indigofera-tinctoria
-    name: Indigofera tinctoria
-  - slug: jatoba
-    name: Jatoba
-  - slug: jicama
-    name: Jicama
-  - slug: lablab-bean
-    name: Lablab Bean
-  - slug: lead-plant
-    name: Lead Plant
-  - slug: leucaena
-    name: Leucaena
-  - slug: lupine
-    name: Lupine
-  - slug: mangrove-bean
-    name: Mangrove Bean
-  - slug: milk-vetch
-    name: Milk Vetch
-  - slug: mimosa
-    name: Mimosa
-  - slug: mung-bean
-    name: Mung Bean
-  - slug: palo-verde
-    name: Palo Verde
-  - slug: partridge-acacia
-    name: Partridge Acacia
-  - slug: partridge-cassia
-    name: Partridge Cassia
-  - slug: partridge-pea
-    name: Partridge Pea
-  - slug: pea
-    name: Pea
-  - slug: perennial-peanut
-    name: Perennial Peanut
-  - slug: pigeon-pea
-    name: Pigeon Pea
-  - slug: plains-wild-indigo
-    name: Plains Wild Indigo
-  - slug: powderpuff-mimosa
-    name: Powderpuff Mimosa
-  - slug: prairie-acacia
-    name: Prairie Acacia
-  - slug: prairie-potato
-    name: Prairie Potato
-  - slug: prairie-turnip
-    name: Prairie Turnip
-  - slug: rattlebox
-    name: Rattlebox
-  - slug: sensitive-briar
-    name: Sensitive Briar
-  - slug: sensitive-plant
-    name: Sensitive Plant
-  - slug: sesbania
-    name: Sesbania
-  - slug: sesbania-grandiflora
-    name: Sesbania grandiflora
-  - slug: showy-partridge-pea
-    name: Showy Partridge Pea
-  - slug: siberian-peashrub
-    name: Siberian Peashrub
-  - slug: siberian-pea-shrub
-    name: Siberian Pea Shrub
-  - slug: sicklepod
-    name: Sicklepod
-  - slug: snow-pea
-    name: Snow Pea
-  - slug: sun-hemp
-    name: Sun Hemp
-  - slug: sunshine-mimosa
-    name: Sunshine Mimosa
-  - slug: tagasaste
-    name: Tagasaste
-  - slug: tephrosia-vogelii
-    name: Tephrosia vogelii
-  - slug: tick-trefoil
-    name: Tick Trefoil
-  - slug: trailing-mimosa
-    name: Trailing Mimosa
-  - slug: tree-medick
-    name: Tree Medick
-  - slug: white-wild-indigo
-    name: White Wild Indigo
-  - slug: wild-indigo-bush
-    name: Wild Indigo Bush
-  - slug: wild-indigo
-    name: Wild Indigo
-  - slug: wild-senna
-    name: Wild Senna
-  - slug: winged-bean
-    name: Winged Bean
-  - slug: wisteria
-    name: Wisteria
-  - slug: yam-bean
-    name: Yam Bean
-  - slug: yellow-sweet-clover
-    name: Yellow Sweet Clover
+name: Lubber Grasshopper
+slug: lubber-grasshopper
+picture: lubber_grasshopper.webp
+scientific_name: Romalea microptera
+description: If new growth is curling, yellowing, sticky, or chewed, lubber grasshopper
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- holes-in-leaves
+- skeletonized-leaves
+- chewed-stems
+- fruit-damage
+control_methods:
+  biological_controls: Lubber grasshoppers are chemically defended — they sequester
+    toxins from plants they eat and most predators avoid them. Birds that eat them
+    (loggerhead shrikes, some raptors) have adapted to the toxins. Tachinid flies
+    parasitize lubbers and are the most effective natural control — support them with
+    flowering herbs like dill and fennel. No commercial biological control is available
+    for lubbers. Long-term population management depends on disrupting egg-laying
+    habitat more than predators.
+  preventive_methods: Lubbers overwinter as eggs in dry, sunny, sandy soil — the same
+    open areas where adults congregate in fall. Nymphs hatch in spring as tight black-and-yellow
+    bands clustered in one spot before dispersing. Finding and destroying these nymph
+    clusters in spring is the single most effective control — a dozen small nymphs
+    is far easier to manage than a dozen 3-inch adults. Scout weedy margins, roadsides,
+    and dry open ground in March-April in Florida and the Gulf Coast states.
+  cultural_practices: Young nymphs are vulnerable and localized — concentrate effort
+    in spring when they are still clustered. Adults are large, slow, and hard to kill
+    with sprays due to their chemical defense and thick cuticle. Dense planting and
+    ground cover makes gardens less attractive as egg-laying habitat. Lubbers prefer
+    open sunny areas — a food forest with dense canopy and understory is genuinely
+    less attractive than a lawn or open bed.
+  mechanical_physical: Hand-picking or stomping with gloved hands is the most reliable
+    control for adults — drop into soapy water. A smooth metal or fine mesh fence
+    extending 12 inches above ground stops them from entering beds since lubbers are
+    poor jumpers despite their size. For nymph clusters, a propane torch on egg masses
+    in soil is effective where safe. Vacuuming dense aggregations works on small garden
+    scale.
+  organic_sprays: Sprays are largely ineffective on adults due to chemical defenses
+    and thick cuticle. Target young nymphs only — spinosad applied to small black
+    nymphs before they reach 1 inch works reasonably well. Neem has minimal effect
+    on lubbers at any stage. Accept that adults require physical removal and focus
+    spray effort entirely on spring nymph management when it can actually work.
+natural_enemies:
+- Tachinid Flies
+- Birds
+- Mammals
+affected_plants:
+- slug: bamboo
+  name: Bamboo
+- slug: big-bluestem
+  name: Big Bluestem
+- slug: blue-grama
+  name: Blue Grama
+- slug: broomsedge-bluestem
+  name: Broomsedge Bluestem
+- slug: buffalo-grass
+  name: Buffalo Grass
+- slug: eastern-gamagrass
+  name: Eastern Gamagrass
+- slug: elephant-grass
+  name: Elephant Grass
+- slug: elliotts-bluestem
+  name: Elliott's Bluestem
+- slug: fever-grass
+  name: Fever Grass
+- slug: florida-gamagrass
+  name: Florida Gamagrass
+- slug: gulf-muhly
+  name: Gulf Muhly
+- slug: hairawn-muhly
+  name: Hairawn Muhly
+- slug: hairy-grama
+  name: Hairy Grama
+- slug: indiangrass
+  name: Indiangrass
+- slug: lemongrass
+  name: Lemongrass
+- slug: little-bluestem
+  name: Little Bluestem
+- slug: longawn-muhly
+  name: Longawn Muhly
+- slug: millet
+  name: Millet
+- slug: muhly-grass
+  name: Muhly Grass
+- slug: prairie-cordgrass
+  name: Prairie Cordgrass
+- slug: purple-lovegrass
+  name: Purple Lovegrass
+- slug: rice
+  name: Rice
+- slug: saltgrass
+  name: Saltgrass
+- slug: saltmeadow-cordgrass
+  name: Saltmeadow Cordgrass
+- slug: sand-bluestem
+  name: Sand Bluestem
+- slug: sand-cordgrass
+  name: Sand Cordgrass
+- slug: sand-grama
+  name: Sand Grama
+- slug: sand-lovegrass
+  name: Sand Lovegrass
+- slug: sideoats-grama
+  name: Sideoats Grama
+- slug: split-beard-bluestem
+  name: Split Beard Bluestem
+- slug: sweetgrass
+  name: Sweetgrass
+- slug: switchgrass
+  name: Switchgrass
+- slug: vetiver-grass
+  name: Vetiver Grass
+- slug: weeping-lovegrass
+  name: Weeping Lovegrass
+- slug: wiregrass
+  name: Wiregrass
+- slug: arrowleaf-balsamroot
+  name: Arrowleaf Balsamroot
+- slug: artemisia
+  name: Artemisia
+- slug: black-eyed-susan
+  name: Black-eyed Susan
+- slug: blanket-flower
+  name: Blanket Flower
+- slug: boneset
+  name: Boneset
+- slug: burdock
+  name: Burdock
+- slug: calendula
+  name: Calendula
+- slug: camphor-weed
+  name: Camphor Weed
+- slug: celtuce
+  name: Celtuce
+- slug: chamomile
+  name: Chamomile
+- slug: chicory
+  name: Chicory
+- slug: clasping-coneflower
+  name: Clasping Coneflower
+- slug: climbing-aster
+  name: Climbing Aster
+- slug: coastalplain-honeycombhead
+  name: Coastalplain Honeycombhead
+- slug: coreopsis
+  name: Coreopsis
+- slug: costmary
+  name: Costmary
+- slug: dandelion
+  name: Dandelion
+- slug: dense-blazingstar
+  name: Dense Blazingstar
+- slug: desert-marigold
+  name: Desert Marigold
+- slug: dogfennel
+  name: Dogfennel
+- slug: eastern-blazingstar
+  name: Eastern Blazingstar
+- slug: echinacea
+  name: Echinacea
+- slug: elecampane
+  name: Elecampane
+- slug: elephantopus
+  name: Elephantopus
+- slug: fever-few
+  name: Fever Few
+- slug: florida-paintbrush
+  name: Florida Paintbrush
+- slug: florida-tasselflower
+  name: Florida Tasselflower
+- slug: globe-thistle
+  name: Globe Thistle
+- slug: goldenmane-tickseed
+  name: Goldenmane Tickseed
+- slug: gravel-root
+  name: Gravel Root
+- slug: green-and-gold
+  name: Green and Gold
+- slug: green-headed-coneflower
+  name: Green Headed Coneflower
+- slug: groundsel-tree
+  name: Groundsel Tree
+- slug: guayule
+  name: Guayule
+- slug: gynura
+  name: Gynura
+- slug: hairy-beggarsticks
+  name: Hairy Beggarsticks
+- slug: huacatay
+  name: Huacatay
+- slug: iceberg-lettuce
+  name: Iceberg Lettuce
+- slug: jerusalem-artichoke
+  name: Jerusalem Artichoke
+- slug: joe-pye-weed
+  name: Joe Pye Weed
+- slug: lanceleaf-coreopsis
+  name: Lanceleaf Coreopsis
+- slug: leavenworths-tickseed
+  name: Leavenworth's Tickseed
+- slug: longevity-spinach
+  name: Longevity Spinach
+- slug: marigold
+  name: Marigold
+- slug: marsh-blazingstar
+  name: Marsh Blazingstar
+- slug: mexican-tarragon
+  name: Mexican Tarragon
+- slug: mugwort
+  name: Mugwort
+- slug: narrowleaf-sunflower
+  name: Narrowleaf Sunflower
+- slug: okinawa-spinach
+  name: Okinawa Spinach
+- slug: orange-coneflower
+  name: Orange Coneflower
+- slug: pale-purple-coneflower
+  name: Pale Purple Coneflower
+- slug: prairie-blazingstar
+  name: Prairie Blazingstar
+- slug: prairie-coneflower
+  name: Prairie Coneflower
+- slug: rough-blazingstar
+  name: Rough Blazingstar
+- slug: saltmarsh-aster
+  name: Saltmarsh Aster
+- slug: sea-oxeye-daisy
+  name: Sea Oxeye Daisy
+- slug: shining-coneflower
+  name: Shining Coneflower
+- slug: singapore-daisy
+  name: Singapore Daisy
+- slug: spanish-needles
+  name: Spanish Needles
+- slug: spilanthes
+  name: Spilanthes
+- slug: sunchoke
+  name: Sunchoke
+- slug: sunflower
+  name: Sunflower
+- slug: swamp-sunflower
+  name: Swamp Sunflower
+- slug: sweet-black-eyed-susan
+  name: Sweet Black Eyed Susan
+- slug: sweet-coltsfoot
+  name: Sweet Coltsfoot
+- slug: sweet-leaf
+  name: Sweet Leaf
+- slug: tansy
+  name: Tansy
+- slug: tarragon
+  name: Tarragon
+- slug: thin-leaved-coneflower
+  name: Thin-leaved Coneflower
+- slug: tickseed-coreopsis
+  name: Tickseed Coreopsis
+- slug: tickseed-sunflower
+  name: Tickseed Sunflower
+- slug: tithonia
+  name: Tithonia
+- slug: toothache-plant
+  name: Toothache Plant
+- slug: topinambur
+  name: Topinambur
+- slug: wild-tarragon
+  name: Wild Tarragon
+- slug: woodland-sunflower
+  name: Woodland Sunflower
+- slug: wormwood
+  name: Wormwood
+- slug: yacon
+  name: Yacon
+- slug: yam-daisy
+  name: Yam Daisy
+- slug: yarrow
+  name: Yarrow
+- slug: yellow-coneflower
+  name: Yellow Coneflower
+- slug: acacia
+  name: Acacia
+- slug: african-locust-bean
+  name: African Locust Bean
+- slug: ahipa
+  name: Ahipa
+- slug: albizia-lebbeck
+  name: Albizia lebbeck
+- slug: alfalfa
+  name: Alfalfa
+- slug: asparagus-bean
+  name: Asparagus Bean
+- slug: baptisia
+  name: Baptisia
+- slug: bay-bean
+  name: Bay Bean
+- slug: beach-bean
+  name: Beach Bean
+- slug: black-medic
+  name: Black Medic
+- slug: black-mulga
+  name: Black Mulga
+- slug: black-locust
+  name: Black Locust
+- slug: bladder-senna
+  name: Bladder Senna
+- slug: blue-wild-indigo
+  name: Blue Wild Indigo
+- slug: carob-tree
+  name: Carob Tree
+- slug: cassia-alata
+  name: Cassia alata
+- slug: catclaw-sensitive-briar
+  name: Catclaw Sensitive Briar
+- slug: chickpea
+  name: Chickpea
+- slug: chilean-pea
+  name: Chilean Pea
+- slug: coffee-senna
+  name: Coffee Senna
+- slug: coffeeweed
+  name: Coffeeweed
+- slug: coral-bean
+  name: Coral Bean
+- slug: crimson-clover
+  name: Crimson Clover
+- slug: crown-vetch
+  name: Crown Vetch
+- slug: desert-ironwood
+  name: Desert Ironwood
+- slug: dutch-clover
+  name: Dutch Clover
+- slug: earth-chestnut
+  name: Earth Chestnut
+- slug: false-indigo
+  name: False Indigo
+- slug: fava-bean
+  name: Fava Bean
+- slug: florida-leadplant
+  name: Florida Leadplant
+- slug: goats-rue
+  name: Goat's Rue
+- slug: green-bean
+  name: Green Bean
+- slug: groundnut
+  name: Groundnut
+- slug: groundplum-milkvetch
+  name: Groundplum Milkvetch
+- slug: hairy-indigo
+  name: Hairy Indigo
+- slug: honey-locust
+  name: Honey Locust
+- slug: hopniss
+  name: Hopniss
+- slug: hyacinth-bean
+  name: Hyacinth Bean
+- slug: ice-cream-bean-tree
+  name: Ice Cream Bean Tree
+- slug: illinois-bundleflower
+  name: Illinois Bundleflower
+- slug: indigofera-tinctoria
+  name: Indigofera tinctoria
+- slug: jatoba
+  name: Jatoba
+- slug: jicama
+  name: Jicama
+- slug: lablab-bean
+  name: Lablab Bean
+- slug: lead-plant
+  name: Lead Plant
+- slug: leucaena
+  name: Leucaena
+- slug: lupine
+  name: Lupine
+- slug: mangrove-bean
+  name: Mangrove Bean
+- slug: milk-vetch
+  name: Milk Vetch
+- slug: mimosa
+  name: Mimosa
+- slug: mung-bean
+  name: Mung Bean
+- slug: palo-verde
+  name: Palo Verde
+- slug: partridge-acacia
+  name: Partridge Acacia
+- slug: partridge-cassia
+  name: Partridge Cassia
+- slug: partridge-pea
+  name: Partridge Pea
+- slug: pea
+  name: Pea
+- slug: perennial-peanut
+  name: Perennial Peanut
+- slug: pigeon-pea
+  name: Pigeon Pea
+- slug: plains-wild-indigo
+  name: Plains Wild Indigo
+- slug: powderpuff-mimosa
+  name: Powderpuff Mimosa
+- slug: prairie-acacia
+  name: Prairie Acacia
+- slug: prairie-potato
+  name: Prairie Potato
+- slug: prairie-turnip
+  name: Prairie Turnip
+- slug: rattlebox
+  name: Rattlebox
+- slug: sensitive-briar
+  name: Sensitive Briar
+- slug: sensitive-plant
+  name: Sensitive Plant
+- slug: sesbania
+  name: Sesbania
+- slug: sesbania-grandiflora
+  name: Sesbania grandiflora
+- slug: showy-partridge-pea
+  name: Showy Partridge Pea
+- slug: siberian-peashrub
+  name: Siberian Peashrub
+- slug: siberian-pea-shrub
+  name: Siberian Pea Shrub
+- slug: sicklepod
+  name: Sicklepod
+- slug: snow-pea
+  name: Snow Pea
+- slug: sun-hemp
+  name: Sun Hemp
+- slug: sunshine-mimosa
+  name: Sunshine Mimosa
+- slug: tagasaste
+  name: Tagasaste
+- slug: tephrosia-vogelii
+  name: Tephrosia vogelii
+- slug: tick-trefoil
+  name: Tick Trefoil
+- slug: trailing-mimosa
+  name: Trailing Mimosa
+- slug: tree-medick
+  name: Tree Medick
+- slug: white-wild-indigo
+  name: White Wild Indigo
+- slug: wild-indigo-bush
+  name: Wild Indigo Bush
+- slug: wild-indigo
+  name: Wild Indigo
+- slug: wild-senna
+  name: Wild Senna
+- slug: winged-bean
+  name: Winged Bean
+- slug: wisteria
+  name: Wisteria
+- slug: yam-bean
+  name: Yam Bean
+- slug: yellow-sweet-clover
+  name: Yellow Sweet Clover
+category: pest

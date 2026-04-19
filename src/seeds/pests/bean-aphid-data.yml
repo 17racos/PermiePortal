@@ -1,65 +1,58 @@
----
-- name: Bean Aphid
-  slug: bean-aphid
-  picture: bean_aphid.webp
-  scientific_name: Aphis fabae
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, bean aphid may already be on the
-    plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - sticky-residue
-  - curling-leaves
-  - yellowing-leaves
-  - distorted-growth
-  control_methods:
-    biological_controls: >-
-      Lady beetles, syrphid fly larvae, lacewing larvae, and parasitic wasps
-      (Aphidius spp., Aphelinus spp.) are already present in most gardens and
-      attack bean aphid actively. Do nothing for 2-3 days after first spotting
-      bean aphids -- natural enemies are likely already responding. Spraying
-      anything, even water, can kill arriving predators and make the problem worse.
-      Plant dill, fennel, and sweet alyssum nearby to sustain parasitoid wasp
-      populations. Bean aphids are born pregnant and a colony can double in 4-5
-      days in warm weather -- if predators are not present and the colony is on
-      new growth, act immediately.
-    preventive_methods: >-
-      Bean aphids are shiny black and cluster densely on new shoot tips, stem
-      joints, and the undersides of young leaves -- easy to spot and confirm.
-      They favor soft succulent growth caused by excess nitrogen -- overfeeding
-      with fertilizer produces an aphid buffet. Winged forms disperse in warm
-      weather and colonize new plants. Check bean plants weekly from transplant
-      through pod fill. Ants farming aphid colonies protect them from predators
-      and signal an established infestation that needs intervention.
-    cultural_practices: >-
-      Remove and bag heavily infested shoot tips -- this removes the colony
-      center and the ants tending it before they disperse. Avoid excess nitrogen
-      which produces the soft growth bean aphids prefer. Manage ant access with
-      sticky trunk barriers on climbing beans and standard barriers on bush types.
-      Interplant with garlic, chives, and strong-smelling herbs at bed edges to
-      confuse aphid navigation. Remove nearby weed reservoirs -- lambsquarters,
-      dock, and mustards host early aphid flights that later colonize beans.
-    mechanical_physical: >-
-      A strong water spray dislodges colonies from new growth -- bean stems are
-      sturdy enough to handle this. Repeat every 2-3 days for 2 weeks. Clip and
-      bag heavily infested shoot tips rather than trying to spray individual insects
-      off crowded stems. Sticky yellow traps monitor winged aphid movement into
-      the planting.
-    organic_sprays: >-
-      Insecticidal soap (1-2 teaspoons castile soap per quart water) kills aphids
-      on direct contact -- coat stem joints and leaf undersides thoroughly where
-      colonies cluster. Reapply every 3 days while migrations continue. Apply at
-      dusk to protect beneficial insects. Neem oil disrupts reproduction and deters
-      new arrivals. Avoid spraying open bean flowers where pollinators are active -- 
-      spray in early morning or evening only.
-  natural_enemies:
-  - Aphidius spp. (Braconidae)
-  - Lady Beetles (Coccinellidae)
-  - Syrphid Fly Larvae (Syrphidae)
-  - Lacewing larvae (Chrysopidae)
+name: Bean Aphid
+slug: bean-aphid
+picture: bean_aphid.webp
+scientific_name: Aphis fabae
+description: If new growth is curling, yellowing, sticky, or chewed, bean aphid may
+  already be on the plant. This pest often builds quietly, then damage appears all
+  at once. Feeding stress weakens growth, reduces yield, and opens the door to secondary
+  disease. Early cleanup is much easier than fighting a full population surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- sticky-residue
+- curling-leaves
+- yellowing-leaves
+- distorted-growth
+control_methods:
+  biological_controls: Lady beetles, syrphid fly larvae, lacewing larvae, and parasitic
+    wasps (Aphidius spp., Aphelinus spp.) are already present in most gardens and
+    attack bean aphid actively. Do nothing for 2-3 days after first spotting bean
+    aphids -- natural enemies are likely already responding. Spraying anything, even
+    water, can kill arriving predators and make the problem worse. Plant dill, fennel,
+    and sweet alyssum nearby to sustain parasitoid wasp populations. Bean aphids are
+    born pregnant and a colony can double in 4-5 days in warm weather -- if predators
+    are not present and the colony is on new growth, act immediately.
+  preventive_methods: Bean aphids are shiny black and cluster densely on new shoot
+    tips, stem joints, and the undersides of young leaves -- easy to spot and confirm.
+    They favor soft succulent growth caused by excess nitrogen -- overfeeding with
+    fertilizer produces an aphid buffet. Winged forms disperse in warm weather and
+    colonize new plants. Check bean plants weekly from transplant through pod fill.
+    Ants farming aphid colonies protect them from predators and signal an established
+    infestation that needs intervention.
+  cultural_practices: Remove and bag heavily infested shoot tips -- this removes the
+    colony center and the ants tending it before they disperse. Avoid excess nitrogen
+    which produces the soft growth bean aphids prefer. Manage ant access with sticky
+    trunk barriers on climbing beans and standard barriers on bush types. Interplant
+    with garlic, chives, and strong-smelling herbs at bed edges to confuse aphid navigation.
+    Remove nearby weed reservoirs -- lambsquarters, dock, and mustards host early
+    aphid flights that later colonize beans.
+  mechanical_physical: A strong water spray dislodges colonies from new growth --
+    bean stems are sturdy enough to handle this. Repeat every 2-3 days for 2 weeks.
+    Clip and bag heavily infested shoot tips rather than trying to spray individual
+    insects off crowded stems. Sticky yellow traps monitor winged aphid movement into
+    the planting.
+  organic_sprays: Insecticidal soap (1-2 teaspoons castile soap per quart water) kills
+    aphids on direct contact -- coat stem joints and leaf undersides thoroughly where
+    colonies cluster. Reapply every 3 days while migrations continue. Apply at dusk
+    to protect beneficial insects. Neem oil disrupts reproduction and deters new arrivals.
+    Avoid spraying open bean flowers where pollinators are active --  spray in early
+    morning or evening only.
+natural_enemies:
+- Aphidius spp. (Braconidae)
+- Lady Beetles (Coccinellidae)
+- Syrphid Fly Larvae (Syrphidae)
+- Lacewing larvae (Chrysopidae)
+category: pest

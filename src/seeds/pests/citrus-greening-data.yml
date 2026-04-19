@@ -1,121 +1,111 @@
----
-- name: Citrus Greening
-  slug: citrus-greening
-  picture: citrus_greening.webp
-  scientific_name: Candidatus Liberibacter asiaticus
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, citrus greening may
-    already be active. This problem often starts small, then spreads across healthy tissue
-    before most growers realize how serious it is. Warmth, moisture, and crowded foliage usually
-    speed it up. Treat early, because waiting even a few days can turn a manageable infection
-    into major crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - yellowing-leaves
-  - distorted-growth
-  - dropping-leaves
-  - die-back
-  control_methods:
-    biological_controls: >-
-      Tamarixia radiata is a parasitic wasp that specifically attacks Asian
-      citrus psyllid nymphs — it has been released in Florida and California
-      as part of government biocontrol programs and is establishing in many
-      areas. Do not spray broad-spectrum insecticides during psyllid flush
-      periods — you will kill Tamarixia and other beneficial insects that
-      provide long-term suppression. Lacewings, lady beetles, and minute pirate
-      bugs eat psyllid eggs and nymphs. Support these by maintaining diverse
-      flowering plants near citrus. There is no biological control for the
-      greening bacteria itself — all biological effort must focus on suppressing
-      the psyllid vector.
-    preventive_methods: >-
-      Citrus greening (HLB — Huanglongbing) has no cure. Once a tree is infected
-      it will decline and die, though it may produce fruit for years. The only
-      strategy is preventing infection by controlling the Asian citrus psyllid
-      vector. Psyllids lay eggs exclusively on new flush growth — the tender
-      pink-yellow new growth that citrus produces periodically. Scout every
-      flush emergence for psyllid eggs (yellow elongated eggs standing upright
-      on new leaves) and nymphs (yellow-orange flat disk-shaped insects with
-      waxy tubes). Only plant certified disease-free budwood and trees from
-      licensed nurseries.
-    cultural_practices: >-
-      Coordinate psyllid management with neighbors — citrus greening spreads
-      at a neighborhood scale and one unmanaged tree undermines everyone nearby.
-      Remove infected trees when required by regulation or when they are no
-      longer productive — infected trees are permanent psyllid and disease
-      reservoirs. Manage flush timing with controlled irrigation and fertilization
-      — trees that flush synchronously present a narrower window for psyllid
-      management. Remove volunteer citrus seedlings which are unmanaged psyllid
-      hosts. Report suspected citrus greening symptoms to your state department
-      of agriculture immediately.
-    mechanical_physical: >-
-      Screen houses physically exclude psyllids for high-value young trees and
-      nursery stock — the only complete mechanical exclusion available. Yellow
-      and blue sticky traps monitor psyllid adult movement into the planting.
-      Reflective mulch under trees disorients psyllids landing olated small plantings, fine mesh row covers during flush periods
-      prevent psyllid access to the new growth where eggs are laid.
-    organic_sprays: >-
-      Kaolin clay applied to new flush growth before and during psyllid flight
-      creates a physical barrier that deters egg-laying on tender leaves —
-      apply every 5-7 days during flush periods. Neem oil on new growth disrupts
-      psyllid feeding and egg-laying behavior. Insecticidal soap kills nymphs
-      on direct contact — coat new flush growth thoroughly. Copper, neem, or
-      soap sprays must be timed to new growth flushes — there is no point
-      spraying between flushes when psyllids are not reproducing. These sprays
-      manage psyllid populations but cannot cure trees already infected with
-      the greening bacteria.
-  natural_enemies:
-  - Tamarixia radiata
-  - Diaphorencyrtus aligarhensis
-  - Lady Beetles
-  affected_plants:
-  - slug: bael-fruit
-    name: Bael Fruit
-  - slug: bengal-quince
-    name: Bengal Quince
-  - slug: bitter-orange
-    name: Bitter Orange
-  - slug: buddha-hand
-    name: Buddha Hand
-  - slug: calamondin
-    name: Calamondin
-  - slug: citron
-    name: Citron
-  - slug: curry-leaf-tree
-    name: Curry Leaf Tree
-  - slug: finger-lime
-    name: Finger Lime
-  - slug: hercules-club
-    name: Hercules Club
-  - slug: kaffir-lime
-    name: Kaffir Lime
-  - slug: kumquat
-    name: Kumquat
-  - slug: lemon-tree
-    name: Lemon Tree
-  - slug: lime-tree
-    name: Lime Tree
-  - slug: pomelo
-    name: Pomelo
-  - slug: prickly-ash
-    name: Prickly Ash
-  - slug: rangpur-lime
-    name: Rangpur Lime
-  - slug: rue
-    name: Rue
-  - slug: sour-orange
-    name: Sour Orange
-  - slug: tangerine
-    name: Tangerine
-  - slug: white-sapote
-    name: White Sapote
-  - slug: wild-lime
-    name: Wild Lime
-  - slug: wood-apple
-    name: Wood Apple
-  - slug: yuzu
-    name: Yuzu
+name: Citrus Greening
+slug: citrus-greening
+picture: citrus_greening.webp
+scientific_name: Candidatus Liberibacter asiaticus
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  citrus greening may already be active. This problem often starts small, then spreads
+  across healthy tissue before most growers realize how serious it is. Warmth, moisture,
+  and crowded foliage usually speed it up. Treat early, because waiting even a few
+  days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- yellowing-leaves
+- distorted-growth
+- dropping-leaves
+- die-back
+control_methods:
+  biological_controls: Tamarixia radiata is a parasitic wasp that specifically attacks
+    Asian citrus psyllid nymphs — it has been released in Florida and California as
+    part of government biocontrol programs and is establishing in many areas. Do not
+    spray broad-spectrum insecticides during psyllid flush periods — you will kill
+    Tamarixia and other beneficial insects that provide long-term suppression. Lacewings,
+    lady beetles, and minute pirate bugs eat psyllid eggs and nymphs. Support these
+    by maintaining diverse flowering plants near citrus. There is no biological control
+    for the greening bacteria itself — all biological effort must focus on suppressing
+    the psyllid vector.
+  preventive_methods: Citrus greening (HLB — Huanglongbing) has no cure. Once a tree
+    is infected it will decline and die, though it may produce fruit for years. The
+    only strategy is preventing infection by controlling the Asian citrus psyllid
+    vector. Psyllids lay eggs exclusively on new flush growth — the tender pink-yellow
+    new growth that citrus produces periodically. Scout every flush emergence for
+    psyllid eggs (yellow elongated eggs standing upright on new leaves) and nymphs
+    (yellow-orange flat disk-shaped insects with waxy tubes). Only plant certified
+    disease-free budwood and trees from licensed nurseries.
+  cultural_practices: Coordinate psyllid management with neighbors — citrus greening
+    spreads at a neighborhood scale and one unmanaged tree undermines everyone nearby.
+    Remove infected trees when required by regulation or when they are no longer productive
+    — infected trees are permanent psyllid and disease reservoirs. Manage flush timing
+    with controlled irrigation and fertilization — trees that flush synchronously
+    present a narrower window for psyllid management. Remove volunteer citrus seedlings
+    which are unmanaged psyllid hosts. Report suspected citrus greening symptoms to
+    your state department of agriculture immediately.
+  mechanical_physical: Screen houses physically exclude psyllids for high-value young
+    trees and nursery stock — the only complete mechanical exclusion available. Yellow
+    and blue sticky traps monitor psyllid adult movement into the planting. Reflective
+    mulch under trees disorients psyllids landing olated small plantings, fine mesh
+    row covers during flush periods prevent psyllid access to the new growth where
+    eggs are laid.
+  organic_sprays: Kaolin clay applied to new flush growth before and during psyllid
+    flight creates a physical barrier that deters egg-laying on tender leaves — apply
+    every 5-7 days during flush periods. Neem oil on new growth disrupts psyllid feeding
+    and egg-laying behavior. Insecticidal soap kills nymphs on direct contact — coat
+    new flush growth thoroughly. Copper, neem, or soap sprays must be timed to new
+    growth flushes — there is no point spraying between flushes when psyllids are
+    not reproducing. These sprays manage psyllid populations but cannot cure trees
+    already infected with the greening bacteria.
+natural_enemies:
+- Tamarixia radiata
+- Diaphorencyrtus aligarhensis
+- Lady Beetles
+affected_plants:
+- slug: bael-fruit
+  name: Bael Fruit
+- slug: bengal-quince
+  name: Bengal Quince
+- slug: bitter-orange
+  name: Bitter Orange
+- slug: buddha-hand
+  name: Buddha Hand
+- slug: calamondin
+  name: Calamondin
+- slug: citron
+  name: Citron
+- slug: curry-leaf-tree
+  name: Curry Leaf Tree
+- slug: finger-lime
+  name: Finger Lime
+- slug: hercules-club
+  name: Hercules Club
+- slug: kaffir-lime
+  name: Kaffir Lime
+- slug: kumquat
+  name: Kumquat
+- slug: lemon-tree
+  name: Lemon Tree
+- slug: lime-tree
+  name: Lime Tree
+- slug: pomelo
+  name: Pomelo
+- slug: prickly-ash
+  name: Prickly Ash
+- slug: rangpur-lime
+  name: Rangpur Lime
+- slug: rue
+  name: Rue
+- slug: sour-orange
+  name: Sour Orange
+- slug: tangerine
+  name: Tangerine
+- slug: white-sapote
+  name: White Sapote
+- slug: wild-lime
+  name: Wild Lime
+- slug: wood-apple
+  name: Wood Apple
+- slug: yuzu
+  name: Yuzu
+category: disease

@@ -1,66 +1,58 @@
----
-- name: Bagworm
-  slug: bagworm
-  picture: bagworm.webp
-  scientific_name: Thyridopteryx ephemeraeformis
-  description: >-
-    If leaves look shredded overnight or fruit has fresh chew holes, bagworm may be feeding
-    right now. These larvae can eat fast and strip a healthy plant in a short window. Young
-    stages are easy to miss, then damage suddenly explodes as they grow. Catch them early to
-    avoid severe defoliation and contaminated harvests.
-  characteristics: >-
-    Check leaf undersides, growing tips, and stem junctions for eggs, frass pellets, and feeding
-    scars. Larvae vary in color, but most have a soft segmented body and blend into foliage.
-    Look at dusk or early morning when many species feed more actively. Fresh chewing plus live
-    larvae or droppings on lower leaves confirms an active caterpillar outbreak.
-  symptoms:
-  - skeletonized-leaves
-  - chewed-stems
-  - dropping-leaves
-  - wilting
-  - holes-in-leaves
-  control_methods:
-    biological_controls: >-
-      Ichneumonid and braconid parasitoid wasps attack bagworm larvae inside their
-      cases -- they are already present in most areas. Birds -- especially chickadees
-      and nuthatches -- and paper wasps rip open bags and consume larvae. Diverse
-      understory plantings and reduced broad-spectrum spraying allows these enemies
-      to build up over seasons. Bacillus thuringiensis kurstaki specifically kills
-      bagworm larvae that eat treated foliage without harming parasitoid wasps working
-      on the same trees.
-    preventive_methods: >-
-      Bagworms build cone-shaped bags of silk covered with plant debris and carry
-      them while feeding -- easy to miss because they look like part of the tree.
-      By midsummer bags are 1-2 inches long and larvae are fully grown. The best
-      management window is early -- small larvae in May and June are vulnerable
-      to Bt and hand removal. Large bags in August contain larvae nearly done feeding
-      and Bt is no longer effective. Winter bags contain up to 1000 eggs each -- 
-      hand-removing bags in fall and winter is the highest-return activity for the
-      following season.
-    cultural_practices: >-
-      Avoid shearing conifers into dense rounded shapes -- tight interiors hide
-      bags from birds and predators and reduce spray penetration. Open tree structures
-      improve both predator access and spray coverage. Do not move nursery stock with
-      bags attached -- bags contain viable eggs that establish new populations.
-      Replace chronically defoliated specimen trees when damage accumulates over
-      multiple years.
-    mechanical_physical: >-
-      Hand-pick and destroy bags from late fall through spring before egg hatch
-      in May -- this is the most effective control for yard trees. Each bag removed
-      eliminates up to 1000 eggs. Drop into soapy water or seal in bags for disposal.
-      On reachable limbs this is faster than spraying. For high branches use a pole
-      pruner. Early summer hand removal of small bags before larvae are half-grown
-      is also effective.
-    organic_sprays: >-
-      Bt kurstaki applied thoroughly into the canopy when larvae are young (May
-      through early June, bags under half-inch) is the most effective spray timing -- 
-      larvae must eat treated foliage so thorough coverage of all branch surfaces
-      is essential. Apply in the evening. Once bags reach 1 inch larvae are nearly
-      done feeding and Bt has minimal impact. Spinosad for late instars where Bt
-      timing was missed. Dormant horticultural oil in late winter smothers eggs
-      inside overwintering bags on some host species.
-  natural_enemies:
-  - Ichneumonid Wasps
-  - Braconid Wasps
-  - Vespid Wasps (Vespidae)
-  - Insectivorous Birds
+name: Bagworm
+slug: bagworm
+picture: bagworm.webp
+scientific_name: Thyridopteryx ephemeraeformis
+description: If leaves look shredded overnight or fruit has fresh chew holes, bagworm
+  may be feeding right now. These larvae can eat fast and strip a healthy plant in
+  a short window. Young stages are easy to miss, then damage suddenly explodes as
+  they grow. Catch them early to avoid severe defoliation and contaminated harvests.
+characteristics: Check leaf undersides, growing tips, and stem junctions for eggs,
+  frass pellets, and feeding scars. Larvae vary in color, but most have a soft segmented
+  body and blend into foliage. Look at dusk or early morning when many species feed
+  more actively. Fresh chewing plus live larvae or droppings on lower leaves confirms
+  an active caterpillar outbreak.
+symptoms:
+- skeletonized-leaves
+- chewed-stems
+- dropping-leaves
+- wilting
+- holes-in-leaves
+control_methods:
+  biological_controls: Ichneumonid and braconid parasitoid wasps attack bagworm larvae
+    inside their cases -- they are already present in most areas. Birds -- especially
+    chickadees and nuthatches -- and paper wasps rip open bags and consume larvae.
+    Diverse understory plantings and reduced broad-spectrum spraying allows these
+    enemies to build up over seasons. Bacillus thuringiensis kurstaki specifically
+    kills bagworm larvae that eat treated foliage without harming parasitoid wasps
+    working on the same trees.
+  preventive_methods: Bagworms build cone-shaped bags of silk covered with plant debris
+    and carry them while feeding -- easy to miss because they look like part of the
+    tree. By midsummer bags are 1-2 inches long and larvae are fully grown. The best
+    management window is early -- small larvae in May and June are vulnerable to Bt
+    and hand removal. Large bags in August contain larvae nearly done feeding and
+    Bt is no longer effective. Winter bags contain up to 1000 eggs each --  hand-removing
+    bags in fall and winter is the highest-return activity for the following season.
+  cultural_practices: Avoid shearing conifers into dense rounded shapes -- tight interiors
+    hide bags from birds and predators and reduce spray penetration. Open tree structures
+    improve both predator access and spray coverage. Do not move nursery stock with
+    bags attached -- bags contain viable eggs that establish new populations. Replace
+    chronically defoliated specimen trees when damage accumulates over multiple years.
+  mechanical_physical: Hand-pick and destroy bags from late fall through spring before
+    egg hatch in May -- this is the most effective control for yard trees. Each bag
+    removed eliminates up to 1000 eggs. Drop into soapy water or seal in bags for
+    disposal. On reachable limbs this is faster than spraying. For high branches use
+    a pole pruner. Early summer hand removal of small bags before larvae are half-grown
+    is also effective.
+  organic_sprays: Bt kurstaki applied thoroughly into the canopy when larvae are young
+    (May through early June, bags under half-inch) is the most effective spray timing
+    --  larvae must eat treated foliage so thorough coverage of all branch surfaces
+    is essential. Apply in the evening. Once bags reach 1 inch larvae are nearly done
+    feeding and Bt has minimal impact. Spinosad for late instars where Bt timing was
+    missed. Dormant horticultural oil in late winter smothers eggs inside overwintering
+    bags on some host species.
+natural_enemies:
+- Ichneumonid Wasps
+- Braconid Wasps
+- Vespid Wasps (Vespidae)
+- Insectivorous Birds
+category: pest

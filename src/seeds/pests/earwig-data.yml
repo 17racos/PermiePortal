@@ -1,65 +1,58 @@
----
-- name: Earwig
-  slug: earwig
-  picture: earwig.webp
-  scientific_name: Forficula auricularia
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, earwig may already be on the plant.
-    This pest often builds quietly, then damage appears all at once. Feeding stress weakens
-    growth, reduces yield, and opens the door to secondary disease. Early cleanup is much easier
-    than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - wilting
-  control_methods:
-    biological_controls: >-
-      Earwigs are actually beneficial in many situations -- they eat aphids, insect
-      eggs, and decaying organic matter voraciously. Before treating, confirm that
-      earwigs are causing the damage you see. Ragged holes in flowers and soft fruit
-      with earwigs present overnight are genuine damage. Earwigs in the garden during
-      the day are usually scavenging, not feeding on plants. Toads, ground beetles,
-      centipedes, and birds eat earwigs. Tachinid flies parasitize adults in some
-      regions. Diverse habitat with permanent ground cover supports these predators
-      year-round.
-    preventive_methods: >-
-      Earwigs are nocturnal and hide during the day in dark moist crevices -- under
-      boards, in mulch, in rolled leaves, and in flower petals. They feed at night on
-      soft plant tissue, decaying matter, and other insects. The characteristic damage
-      is ragged holes in leaves, petals, and soft fruit that appear overnight. Reduce
-      hiding spots near vulnerable plants -- remove boards, dense mulch against stems,
-      and debris. Pull mulch back from plant bases and tighten up garden housekeeping
-      in problem areas.
-    cultural_practices: >-
-      Trap earwigs with damp newspaper rolls, corrugated cardboard, or boards placed
-      near affected plants overnight -- collect and destroy in the morning. Beer
-      traps (shallow containers sunk to soil level) drown earwigs attracted by fermentation.
-      Reduce excessive mulch against plant stems while maintaining mulch in paths where
-      earwigs are less damaging. Tie up strawberry clusters and use clean straw lifts
-      to keep fruit off damp soil where earwigs shelter.
-    mechanical_physical: >-
-      Trap-and-destroy is the most effective control -- damp newspaper rolls or
-      corrugated cardboard left near affected plants overnight collect large numbers
-      of earwigs sheltering during the day. Check and destroy every morning during
-      peak season. Diatomaceous earth applied as a dry band around plant stems damages
-      earwig cuticle when they cross it -- must be reapplied after rain. Petroleum
-      jelly or sticky barriers on pot rims prevent climbing.
-    organic_sprays: >-
-      Insecticidal soap or spinosad applied at night directly to earwigs feeding on
-      plants provides quick knockdown -- treating after dark when earwigs are active
-      gives far better contact than daytime applications. Diatomaceous earth dusted
-      on and around crown zones and under foliage abrades the cuticle on contact -- 
-      effective when dry, loses effectiveness when wet. Neem oil on susceptible flowers
-      and fruit surfaces deters feeding. Consider tolerance before spraying -- earwigs
-      eat large numbers of aphids and should not be eliminated from the garden.
-  natural_enemies:
-  - Tachinid Flies (Tachinidae)
-  - Ground Beetles (Carabidae)
-  - Toads and Frogs (Anura)
-  - Centipedes (Chilopoda)
+name: Earwig
+slug: earwig
+picture: earwig.webp
+scientific_name: Forficula auricularia
+description: If new growth is curling, yellowing, sticky, or chewed, earwig may already
+  be on the plant. This pest often builds quietly, then damage appears all at once.
+  Feeding stress weakens growth, reduces yield, and opens the door to secondary disease.
+  Early cleanup is much easier than fighting a full population surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- wilting
+control_methods:
+  biological_controls: Earwigs are actually beneficial in many situations -- they
+    eat aphids, insect eggs, and decaying organic matter voraciously. Before treating,
+    confirm that earwigs are causing the damage you see. Ragged holes in flowers and
+    soft fruit with earwigs present overnight are genuine damage. Earwigs in the garden
+    during the day are usually scavenging, not feeding on plants. Toads, ground beetles,
+    centipedes, and birds eat earwigs. Tachinid flies parasitize adults in some regions.
+    Diverse habitat with permanent ground cover supports these predators year-round.
+  preventive_methods: Earwigs are nocturnal and hide during the day in dark moist
+    crevices -- under boards, in mulch, in rolled leaves, and in flower petals. They
+    feed at night on soft plant tissue, decaying matter, and other insects. The characteristic
+    damage is ragged holes in leaves, petals, and soft fruit that appear overnight.
+    Reduce hiding spots near vulnerable plants -- remove boards, dense mulch against
+    stems, and debris. Pull mulch back from plant bases and tighten up garden housekeeping
+    in problem areas.
+  cultural_practices: Trap earwigs with damp newspaper rolls, corrugated cardboard,
+    or boards placed near affected plants overnight -- collect and destroy in the
+    morning. Beer traps (shallow containers sunk to soil level) drown earwigs attracted
+    by fermentation. Reduce excessive mulch against plant stems while maintaining
+    mulch in paths where earwigs are less damaging. Tie up strawberry clusters and
+    use clean straw lifts to keep fruit off damp soil where earwigs shelter.
+  mechanical_physical: Trap-and-destroy is the most effective control -- damp newspaper
+    rolls or corrugated cardboard left near affected plants overnight collect large
+    numbers of earwigs sheltering during the day. Check and destroy every morning
+    during peak season. Diatomaceous earth applied as a dry band around plant stems
+    damages earwig cuticle when they cross it -- must be reapplied after rain. Petroleum
+    jelly or sticky barriers on pot rims prevent climbing.
+  organic_sprays: Insecticidal soap or spinosad applied at night directly to earwigs
+    feeding on plants provides quick knockdown -- treating after dark when earwigs
+    are active gives far better contact than daytime applications. Diatomaceous earth
+    dusted on and around crown zones and under foliage abrades the cuticle on contact
+    --  effective when dry, loses effectiveness when wet. Neem oil on susceptible
+    flowers and fruit surfaces deters feeding. Consider tolerance before spraying
+    -- earwigs eat large numbers of aphids and should not be eliminated from the garden.
+natural_enemies:
+- Tachinid Flies (Tachinidae)
+- Ground Beetles (Carabidae)
+- Toads and Frogs (Anura)
+- Centipedes (Chilopoda)
+category: pest

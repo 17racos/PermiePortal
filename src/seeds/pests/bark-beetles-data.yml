@@ -1,52 +1,54 @@
-- name: "Bark beetles"
-  slug: "bark-beetles"
-  picture: "bark_beetles.webp"
-  scientific_name: "Curculionidae (Scolytinae)"
-  description: >-
-    Bark beetles are small cylindrical weevils that breed in phloem beneath bark of conifers and many hardwoods.
-    Outbreaks follow drought, windthrow, or dense stocking that weakens trees. First symptoms include fading
-    crown color, fine reddish boring dust in bark plates, and pitch tubes on conifers where resin pushes beetles out.
-    They are a forestry and orchard-edge concern from cool temperate mountains to subtropical pine plantings.
-  characteristics: >-
-    Look for shotgun patterns of emergence holes and check whether bark slips easily from sapwood in patches.
-    On conifers, pitch tubes may be white or pink when trees still defend themselves, or absent when trees are
-    too stressed to resin flow. Peel bark carefully on a sample limb to see meandering larval galleries stained blue-gray
-    on some species. Flight varies by species and temperature; regional extension bulletins give local timing.
-  symptoms:
-  - die-back
-  - bark-damage
-  - wilting
-  - dropping-leaves
-  - tunneling
-  control_methods:
-    biological_controls: >-
-      Clerid beetles and trogid beetles prey on scolytines in forest ecosystems. Woodpeckers excavate brood
-      chambers and reduce emerging adults. Nematodes that parasitize beetles occur naturally but are not a dial
-      you can turn up instantly in a yard. Long-term resilience comes from mixed-age stands and retaining some
-      dead wood for predator habitat while removing hazard trees near structures.
-    preventive_methods: >-
-      Thin overstocked plantings before drought so remaining trees have root space and soil moisture. Water
-      valuable specimens during prolonged dry spells where irrigation is appropriate and permitted. Avoid injuring
-      bark with equipment. Do not stack green conifer slash against living windbreaks during beetle flight season.
-    cultural_practices: >-
-      Sanitize by debarking, chipping, or solarizing infested logs before the next generation completes. If local
-      rules allow burning, that is an effective kill for small volumes. For ornamental pines, improve soil health
-      and reduce root compaction from construction. Replace monoculture windbreaks with mixed species so one beetle
-      event does not flatten an entire row.
-    mechanical_physical: >-
-      Cut and wrap high-value logs in thick plastic sheeting to solar-heat interior galleries when extension guides
-      recommend that method for your species. Debarking small pieces by hand removes brood habitat. Trap trees baited
-      by professionals are a forestry tool, not a homeowner default, but monitoring traps help time sanitation cuts.
-    organic_sprays: >-
-      Trunk sprays of certain botanical or pyrethrin-based products are used professionally in some systems at
-      precise timing and may be restricted. Home landscapes rarely benefit from repeated broad-spectrum trunk sprays
-      that harm non-target insects. For a few cherished trees, consult a certified arborist about labeled options
-      versus removal when structure is compromised.
-  natural_enemies:
-  - Predatory Beetles
-  - Woodpeckers
-  - Parasitic Wasps
-  affected_plants: []
-  # Image attribution: (c) Denis Doucet, some rights reserved (CC BY-NC), uploaded by Denis Doucet
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+name: Bark beetles
+slug: bark-beetles
+picture: bark_beetles.webp
+scientific_name: Curculionidae (Scolytinae)
+description: Bark beetles are small cylindrical weevils that breed in phloem beneath
+  bark of conifers and many hardwoods. Outbreaks follow drought, windthrow, or dense
+  stocking that weakens trees. First symptoms include fading crown color, fine reddish
+  boring dust in bark plates, and pitch tubes on conifers where resin pushes beetles
+  out. They are a forestry and orchard-edge concern from cool temperate mountains
+  to subtropical pine plantings.
+characteristics: Look for shotgun patterns of emergence holes and check whether bark
+  slips easily from sapwood in patches. On conifers, pitch tubes may be white or pink
+  when trees still defend themselves, or absent when trees are too stressed to resin
+  flow. Peel bark carefully on a sample limb to see meandering larval galleries stained
+  blue-gray on some species. Flight varies by species and temperature; regional extension
+  bulletins give local timing.
+symptoms:
+- die-back
+- bark-damage
+- wilting
+- dropping-leaves
+- tunneling
+control_methods:
+  biological_controls: Clerid beetles and trogid beetles prey on scolytines in forest
+    ecosystems. Woodpeckers excavate brood chambers and reduce emerging adults. Nematodes
+    that parasitize beetles occur naturally but are not a dial you can turn up instantly
+    in a yard. Long-term resilience comes from mixed-age stands and retaining some
+    dead wood for predator habitat while removing hazard trees near structures.
+  preventive_methods: Thin overstocked plantings before drought so remaining trees
+    have root space and soil moisture. Water valuable specimens during prolonged dry
+    spells where irrigation is appropriate and permitted. Avoid injuring bark with
+    equipment. Do not stack green conifer slash against living windbreaks during beetle
+    flight season.
+  cultural_practices: Sanitize by debarking, chipping, or solarizing infested logs
+    before the next generation completes. If local rules allow burning, that is an
+    effective kill for small volumes. For ornamental pines, improve soil health and
+    reduce root compaction from construction. Replace monoculture windbreaks with
+    mixed species so one beetle event does not flatten an entire row.
+  mechanical_physical: Cut and wrap high-value logs in thick plastic sheeting to solar-heat
+    interior galleries when extension guides recommend that method for your species.
+    Debarking small pieces by hand removes brood habitat. Trap trees baited by professionals
+    are a forestry tool, not a homeowner default, but monitoring traps help time sanitation
+    cuts.
+  organic_sprays: Trunk sprays of certain botanical or pyrethrin-based products are
+    used professionally in some systems at precise timing and may be restricted. Home
+    landscapes rarely benefit from repeated broad-spectrum trunk sprays that harm
+    non-target insects. For a few cherished trees, consult a certified arborist about
+    labeled options versus removal when structure is compromised.
+natural_enemies:
+- Predatory Beetles
+- Woodpeckers
+- Parasitic Wasps
+affected_plants: []
+category: pest

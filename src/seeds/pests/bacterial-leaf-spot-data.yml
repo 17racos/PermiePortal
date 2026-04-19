@@ -1,63 +1,56 @@
----
-- name: Bacterial Leaf Spot
-  slug: bacterial-leaf-spot
-  picture: bacterial_leaf_spot.webp
-  scientific_name: Xanthomonas spp.
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, bacterial leaf spot
-    may already be active. This problem often starts small, then spreads across healthy tissue
-    before most growers realize how serious it is. Warmth, moisture, and crowded foliage usually
-    speed it up. Treat early, because waiting even a few days can turn a manageable infection
-    into major crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - leaf-spots
-  - yellowing-leaves
-  - dropping-leaves
-  - wilting
-  control_methods:
-    biological_controls: >-
-      Bacillus subtilis (Serenade) and B. amyloliquefaciens colonize leaf surfaces
-      and suppress bacterial leaf spot pathogens through competitive exclusion and
-      antibiotic production -- apply preventively every 7-10 days during wet weather.
-      These must be applied before infection to be effective. Pseudomonas fluorescens
-      as a foliar spray competes with bacterial pathogens on leaf surfaces. A diverse
-      and healthy phyllosphere microbial community naturally suppresses bacterial leaf
-      spot -- avoid sterilizing copper sprays during leaf expansion that eliminate
-      these beneficial competing bacteria.
-    preventive_methods: >-
-      Bacterial leaf spot causes angular water-soaked lesions on leaves bounded by
-      leaf veins -- this angular shape is the key diagnostic feature. On tomatoes
-      and peppers it also causes raised scab-like spots on fruit. The bacteria spread
-      by rain splash, overhead irrigation, and contaminated tools. They enter through
-      stomata and wounds. Once established in a planting no spray reliably eradicates
-      it -- prevention is everything. Purchase certified disease-free transplants.
-      Disinfect pruning tools between plants with 70% isopropyl alcohol.
-    cultural_practices: >-
-      Avoid working in the garden when plants are wet -- bacterial leaf spot spreads
-      rapidly on wet hands and tools. Use drip irrigation exclusively -- overhead
-      irrigation is the primary spread pathway. Stake and prune for maximum airflow
-      so leaves dry quickly after rain. Rotate susceptible crops (tomatoes, peppers,
-      cucumbers) on 3-4 year cycles -- bacterial leaf spot overwinters in crop
-      debris. Remove and bag infected plant material immediately, never compost.
-    mechanical_physical: >-
-      Avoid high-pressure sprays that create wounds on leaves -- wounds are primary
-      entry points for bacterial leaf spot. Use one-way harvest paths through plantings
-      to reduce movement through wet canopies. Remove lower infected leaves promptly
-      to reduce splash inoculum from soil to upper leaves.
-    organic_sprays: >-
-      Copper-based bactericides applied on a 7-10 day preventive schedule during
-      wet weather are the most effective organic spray -- copper must be on leaf
-      surfaces before infection occurs. Apply before rain events when possible. Copper
-      has limited efficacy once infection is established. Bacillus subtilis as a
-      rotation partner reduces resistance risk and copper accumulation in soil.
-      Apply at dusk or early morning. Reapply after heavy rain.
-  natural_enemies:
-  - Bacillus subtilis
-  - Pseudomonas fluorescens
-  - Competitive Epiphytes
+name: Bacterial Leaf Spot
+slug: bacterial-leaf-spot
+picture: bacterial_leaf_spot.webp
+scientific_name: Xanthomonas spp.
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  bacterial leaf spot may already be active. This problem often starts small, then
+  spreads across healthy tissue before most growers realize how serious it is. Warmth,
+  moisture, and crowded foliage usually speed it up. Treat early, because waiting
+  even a few days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- leaf-spots
+- yellowing-leaves
+- dropping-leaves
+- wilting
+control_methods:
+  biological_controls: Bacillus subtilis (Serenade) and B. amyloliquefaciens colonize
+    leaf surfaces and suppress bacterial leaf spot pathogens through competitive exclusion
+    and antibiotic production -- apply preventively every 7-10 days during wet weather.
+    These must be applied before infection to be effective. Pseudomonas fluorescens
+    as a foliar spray competes with bacterial pathogens on leaf surfaces. A diverse
+    and healthy phyllosphere microbial community naturally suppresses bacterial leaf
+    spot -- avoid sterilizing copper sprays during leaf expansion that eliminate these
+    beneficial competing bacteria.
+  preventive_methods: Bacterial leaf spot causes angular water-soaked lesions on leaves
+    bounded by leaf veins -- this angular shape is the key diagnostic feature. On
+    tomatoes and peppers it also causes raised scab-like spots on fruit. The bacteria
+    spread by rain splash, overhead irrigation, and contaminated tools. They enter
+    through stomata and wounds. Once established in a planting no spray reliably eradicates
+    it -- prevention is everything. Purchase certified disease-free transplants. Disinfect
+    pruning tools between plants with 70% isopropyl alcohol.
+  cultural_practices: Avoid working in the garden when plants are wet -- bacterial
+    leaf spot spreads rapidly on wet hands and tools. Use drip irrigation exclusively
+    -- overhead irrigation is the primary spread pathway. Stake and prune for maximum
+    airflow so leaves dry quickly after rain. Rotate susceptible crops (tomatoes,
+    peppers, cucumbers) on 3-4 year cycles -- bacterial leaf spot overwinters in crop
+    debris. Remove and bag infected plant material immediately, never compost.
+  mechanical_physical: Avoid high-pressure sprays that create wounds on leaves --
+    wounds are primary entry points for bacterial leaf spot. Use one-way harvest paths
+    through plantings to reduce movement through wet canopies. Remove lower infected
+    leaves promptly to reduce splash inoculum from soil to upper leaves.
+  organic_sprays: Copper-based bactericides applied on a 7-10 day preventive schedule
+    during wet weather are the most effective organic spray -- copper must be on leaf
+    surfaces before infection occurs. Apply before rain events when possible. Copper
+    has limited efficacy once infection is established. Bacillus subtilis as a rotation
+    partner reduces resistance risk and copper accumulation in soil. Apply at dusk
+    or early morning. Reapply after heavy rain.
+natural_enemies:
+- Bacillus subtilis
+- Pseudomonas fluorescens
+- Competitive Epiphytes
+category: disease

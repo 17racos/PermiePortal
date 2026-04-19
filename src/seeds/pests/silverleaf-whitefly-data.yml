@@ -1,48 +1,48 @@
----
-- name: Silverleaf Whitefly
-  slug: silverleaf-whitefly
-  picture: silverleaf_whitefly.webp
-  scientific_name: Bemisia tabaci
-  description: >-
-    If leaves show trails, fruit turns soft, or roots collapse from inside, silverleaf whitefly
-    may already be feeding. The larval stage does most of the damage, often hidden where you
-    cannot see it at first glance. By the time yellowing or rot appears, feeding may be well
-    underway. Move quickly when symptoms begin to prevent another wave of eggs and larvae.
-  characteristics: >-
-    Watch for tiny eggs near plant tissue, pale legless larvae inside mines or fruit, and sudden
-    soft spots or tunnels. Adults are usually small flies that hover or dart when disturbed.
-    Check around wounds, blossoms, and moist plant debris where egg-laying is common. Cut open
-    suspect tissue: live maggots or fresh tunnels are the clearest field confirmation.
-  symptoms:
-  - sticky-residue
-  - yellowing-leaves
-  - curling-leaves
-  - sooty-deposits
-  control_methods:
-    biological_controls: >-
-      Encarsia formosa and Eretmocerus wasps parasitize silverleaf whitefly nymphs in greenhouses;
-      Delphastus catalinae beetles eat eggs and crawlers fast. Lacewings supplement when humidity
-      stays high. Release schedules matter -- buying wasps while you fog pyrethrin weekly wastes
-      money. Outdoors, conserve locals by spot-treating hotspots, not whole yards.
-    preventive_methods: >-
-      Inspect propagation material aggressively; rogue virus-susceptible plants showing early
-      symptoms before they spread plant viruses through whitefly saliva. Quarantine new color breaks
-      in tomatoes and cucurbits. Screen intakes; adults ride wind through doors.
-    cultural_practices: >-
-      Remove lower leaves that harbor nymphs and virus reservoirs. Reflective mulches repel some
-      adults in vegetable rows when edges stay buried. Avoid excess nitrogen that pushes soft
-      growth whiteflies love. Sanitize tools between infected and clean rows in greenhouses.
-    mechanical_physical: >-
-      Vacuum adults from greenhouse crops in evenings when they rest on leaves -- fast, cheap,
-      no residue. Sticky cards at canopy height track trends; rising counts mean biological or
-      spot spray windows. Power-wash walkways so adults do not crawl between bays.
-    organic_sprays: >-
-      Soaps, oils, neem, and Beauveria bassiana labeled for whiteflies contact nymphs and adults
-      -- rotate modes so you do not select resistant populations in one season. Spot-treat
-      hotspots to preserve parasitoids in neighboring plants. Spray at dusk; avoid hot sun with
-      oils. Reapply after irrigation washes product away.
-  natural_enemies:
-  - Encarsia formosa
-  - Eretmocerus spp.
-  - Delphastus catalinae
-  - Lacewings
+name: Silverleaf Whitefly
+slug: silverleaf-whitefly
+picture: silverleaf_whitefly.webp
+scientific_name: Bemisia tabaci
+description: If leaves show trails, fruit turns soft, or roots collapse from inside,
+  silverleaf whitefly may already be feeding. The larval stage does most of the damage,
+  often hidden where you cannot see it at first glance. By the time yellowing or rot
+  appears, feeding may be well underway. Move quickly when symptoms begin to prevent
+  another wave of eggs and larvae.
+characteristics: 'Watch for tiny eggs near plant tissue, pale legless larvae inside
+  mines or fruit, and sudden soft spots or tunnels. Adults are usually small flies
+  that hover or dart when disturbed. Check around wounds, blossoms, and moist plant
+  debris where egg-laying is common. Cut open suspect tissue: live maggots or fresh
+  tunnels are the clearest field confirmation.'
+symptoms:
+- sticky-residue
+- yellowing-leaves
+- curling-leaves
+- sooty-deposits
+control_methods:
+  biological_controls: Encarsia formosa and Eretmocerus wasps parasitize silverleaf
+    whitefly nymphs in greenhouses; Delphastus catalinae beetles eat eggs and crawlers
+    fast. Lacewings supplement when humidity stays high. Release schedules matter
+    -- buying wasps while you fog pyrethrin weekly wastes money. Outdoors, conserve
+    locals by spot-treating hotspots, not whole yards.
+  preventive_methods: Inspect propagation material aggressively; rogue virus-susceptible
+    plants showing early symptoms before they spread plant viruses through whitefly
+    saliva. Quarantine new color breaks in tomatoes and cucurbits. Screen intakes;
+    adults ride wind through doors.
+  cultural_practices: Remove lower leaves that harbor nymphs and virus reservoirs.
+    Reflective mulches repel some adults in vegetable rows when edges stay buried.
+    Avoid excess nitrogen that pushes soft growth whiteflies love. Sanitize tools
+    between infected and clean rows in greenhouses.
+  mechanical_physical: Vacuum adults from greenhouse crops in evenings when they rest
+    on leaves -- fast, cheap, no residue. Sticky cards at canopy height track trends;
+    rising counts mean biological or spot spray windows. Power-wash walkways so adults
+    do not crawl between bays.
+  organic_sprays: Soaps, oils, neem, and Beauveria bassiana labeled for whiteflies
+    contact nymphs and adults -- rotate modes so you do not select resistant populations
+    in one season. Spot-treat hotspots to preserve parasitoids in neighboring plants.
+    Spray at dusk; avoid hot sun with oils. Reapply after irrigation washes product
+    away.
+natural_enemies:
+- Encarsia formosa
+- Eretmocerus spp.
+- Delphastus catalinae
+- Lacewings
+category: pest

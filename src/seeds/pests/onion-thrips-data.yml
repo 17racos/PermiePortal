@@ -1,68 +1,66 @@
----
-- name: Onion Thrips
-  slug: onion-thrips
-  picture: onion_thrips.webp
-  scientific_name: Thrips tabaci
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, onion thrips may already be on the
-    plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - silvery-streaking
-  - distorted-growth
-  - brown-edges
-  - dropping-leaves
-  control_methods:
-    biological_controls: >-
-      Minute pirate bugs and lacewing larvae hunt onion thrips on leaves when humidity stays high
-      enough and sprays do not kill them daily. Parasitic wasps attack thrips in some systems;
-      results swing with species. Predatory mites help in tunnels more than open fields. Buying
-      predators works only if you stop broad-spectrum sprays long enough for them to eat -- a
-      calendar pyrethrin program buys dead predators and live thrips.
-    preventive_methods: >-
-      Inspect seedlings and leaf bases weekly with a hand lens -- silvery streaks show up before
-      populations explode. Blue or yellow sticky cards at canopy height track flights in tunnels.
-      Rotate Allium blocks so thrips do not meet continuous hosts. Remove crop residue that holds
-      pupae in soil; clean high tunnels between successions.
-    cultural_practices: >-
-      Reflective silver mulch disorients thrips moving into rows in bright sun -- pair with
-      irrigation so mulch does not blow away. Avoid excess nitrogen that pushes ultra-succulent
-      leaves; thrips rasp softer tissue faster. Keep soil moisture even; drought-stressed onions
-      show damage sooner. In dry climates, overhead irrigation briefly suppresses adults; balance
-      with disease scouting.
-    mechanical_physical: >-
-      Fine mesh netting over hoops stops thrips on young transplants when every seam seals.
-      Sticky traps monitor; they rarely control alone. A stiff water blast dislodges thrips before
-      they tuck into leaf axils -- repeat every few days during flare-ups.
-    organic_sprays: >-
-      Insecticidal soap, neem, and horticultural oils contact thrips on leaf surfaces -- spray
-      to drip, especially leaf bases and scapes. Repeat on short intervals while generations
-      overlap. Spray at dusk to reduce sunburn and to spare daytime hunters. Rotate modes of
-      action in greenhouses to slow resistance.
-  natural_enemies:
-  - Minute Pirate Bugs
-  - Lacewings
-  - Parasitic Wasps
-  affected_plants:
-  - slug: chives
-    name: Chives
-  - slug: garlic
-    name: Garlic
-  - slug: onion
-    name: Onion
-  - slug: perennial-leek
-    name: Perennial Leek
-  - slug: ramps
-    name: Ramps
-  - slug: society-garlic
-    name: Society Garlic
-  - slug: walking-onion
-    name: Walking Onion
-  - slug: wild-leek
-    name: Wild Leek
+name: Onion Thrips
+slug: onion-thrips
+picture: onion_thrips.webp
+scientific_name: Thrips tabaci
+description: If new growth is curling, yellowing, sticky, or chewed, onion thrips
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- silvery-streaking
+- distorted-growth
+- brown-edges
+- dropping-leaves
+control_methods:
+  biological_controls: Minute pirate bugs and lacewing larvae hunt onion thrips on
+    leaves when humidity stays high enough and sprays do not kill them daily. Parasitic
+    wasps attack thrips in some systems; results swing with species. Predatory mites
+    help in tunnels more than open fields. Buying predators works only if you stop
+    broad-spectrum sprays long enough for them to eat -- a calendar pyrethrin program
+    buys dead predators and live thrips.
+  preventive_methods: Inspect seedlings and leaf bases weekly with a hand lens --
+    silvery streaks show up before populations explode. Blue or yellow sticky cards
+    at canopy height track flights in tunnels. Rotate Allium blocks so thrips do not
+    meet continuous hosts. Remove crop residue that holds pupae in soil; clean high
+    tunnels between successions.
+  cultural_practices: Reflective silver mulch disorients thrips moving into rows in
+    bright sun -- pair with irrigation so mulch does not blow away. Avoid excess nitrogen
+    that pushes ultra-succulent leaves; thrips rasp softer tissue faster. Keep soil
+    moisture even; drought-stressed onions show damage sooner. In dry climates, overhead
+    irrigation briefly suppresses adults; balance with disease scouting.
+  mechanical_physical: Fine mesh netting over hoops stops thrips on young transplants
+    when every seam seals. Sticky traps monitor; they rarely control alone. A stiff
+    water blast dislodges thrips before they tuck into leaf axils -- repeat every
+    few days during flare-ups.
+  organic_sprays: Insecticidal soap, neem, and horticultural oils contact thrips on
+    leaf surfaces -- spray to drip, especially leaf bases and scapes. Repeat on short
+    intervals while generations overlap. Spray at dusk to reduce sunburn and to spare
+    daytime hunters. Rotate modes of action in greenhouses to slow resistance.
+natural_enemies:
+- Minute Pirate Bugs
+- Lacewings
+- Parasitic Wasps
+affected_plants:
+- slug: chives
+  name: Chives
+- slug: garlic
+  name: Garlic
+- slug: onion
+  name: Onion
+- slug: perennial-leek
+  name: Perennial Leek
+- slug: ramps
+  name: Ramps
+- slug: society-garlic
+  name: Society Garlic
+- slug: walking-onion
+  name: Walking Onion
+- slug: wild-leek
+  name: Wild Leek
+category: pest

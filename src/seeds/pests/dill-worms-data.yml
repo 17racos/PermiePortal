@@ -1,112 +1,109 @@
----
-- name: Dill Worms
-  slug: dill-worms
-  picture: dill_worms.webp
-  scientific_name: Lepidoptera larva
-  description: >-
-    If leaves look shredded overnight or fruit has fresh chew holes, dill worms may be feeding
-    right now. These larvae can eat fast and strip a healthy plant in a short window. Young
-    stages are easy to miss, then damage suddenly explodes as they grow. Catch them early to
-    avoid severe defoliation and contaminated harvests.
-  characteristics: >-
-    Check leaf undersides, growing tips, and stem junctions for eggs, frass pellets, and feeding
-    scars. Larvae vary in color, but most have a soft segmented body and blend into foliage.
-    Look at dusk or early morning when many species feed more actively. Fresh chewing plus live
-    larvae or droppings on lower leaves confirms an active caterpillar outbreak.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - skeletonized-leaves
-  control_methods:
-    biological_controls: >-
-      Parasitic wasps lay eggs on or inside swallowtail and other caterpillar larvae, turning
-      them into mummies or clusters of silk cocoons -- leave those cats alone if you want free
-      control. Birds and assassin bugs pick off larger larvae on outer umbels. If you see tiny
-      wasps hovering near dill flowers, do not fog the row with soap; you are killing the help.
-      Diverse flowering plants nearby feed adult parasitoids when dill is still small.
-    preventive_methods: >-
-      Inspect dill, fennel, and parsley from the moment umbels form -- butterflies lay round eggs
-      on leaf tips you can crush with a finger. Check undersides at dawn when adults are less
-      active. Decide if you want zero holes for market herbs or shared butterflies for seed saving;
-      mixed goals confuse spraying. If you grow for seed, tolerate some feeding on sacrificial
-      plants. Flag rows that showed heavy larvae last year and scout those first next spring.
-    cultural_practices: >-
-      Plant extra dill or fennel along a fence as a trap crop so egg layers find it before your
-      kitchen row. Rotate locations so pupae in soil do not meet the same umbel next year in tiny
-      gardens; big fields move blocks farther. Avoid ultra-lush nitrogen that pushes soft growth
-      every two weeks; it makes damage look worse and attracts more egg layers. Interplant with
-      tomatoes or other non-hosts for visual diversity, not magic repellence -- diversity mainly
-      helps predators move in.
-    mechanical_physical: >-
-      Hand-pick larvae in early instars when they sit on top of leaves and drop into soapy water.
-      Floating row covers over seedling dill block adults until you remove covers for pollination
-      or harvest -- bury edges so moths cannot crawl under. For small pots, move plants under
-      cover during peak butterfly flights. Clip an entire umbel with eggs if you catch it before
-      hatch.
-    organic_sprays: >-
-      Bacillus thuringiensis kurstaki works on feeding caterpillars that ingest treated leaf --
-      spot-spray individuals you cannot relocate, not the whole butterfly garden. Insecticidal
-      soap kills soft larvae on contact but also kills syrphid eggs and parasitized larvae. Neem
-      can reduce feeding if applied before larvae get huge; cover both leaf surfaces. Spray at
-      dusk when bees are not on dill flowers. If the goal is habitat, skip sprays and use picking
-      and row cover.
-  natural_enemies:
-  - Parasitic Wasps
-  - Predatory Beetles
-  - Birds
-  affected_plants:
-  - slug: alexanders
-    name: Alexanders
-  - slug: angelica
-    name: Angelica
-  - slug: arracacha
-    name: Arracacha
-  - slug: ashitaba
-    name: Ashitaba
-  - slug: carrot
-    name: Carrot
-  - slug: celery
-    name: Celery
-  - slug: culantro
-    name: Culantro
-  - slug: dill
-    name: Dill
-  - slug: dollarweed
-    name: Dollarweed
-  - slug: fennel
-    name: Fennel
-  - slug: gotu-kola
-    name: Gotu Kola
-  - slug: lovage
-    name: Lovage
-  - slug: parsley
-    name: Parsley
-  - slug: parsnip
-    name: Parsnip
-  - slug: rattlesnake-master
-    name: Rattlesnake Master
-  - slug: skirret
-    name: Skirret
-  - slug: sweet-cicely
-    name: Sweet Cicely
-  - slug: wild-anise
-    name: Wild Anise
-  - slug: wild-caraway
-    name: Wild Caraway
-  - slug: wild-carrot
-    name: Wild Carrot
-  - slug: wild-celery
-    name: Wild Celery
-  - slug: wild-chervil
-    name: Wild Chervil
-  - slug: wild-coriander
-    name: Wild Coriander
-  - slug: wild-cumin
-    name: Wild Cumin
-  - slug: wild-dill
-    name: Wild Dill
-  - slug: wild-fennel
-    name: Wild Fennel
-  - slug: wild-parsnip
-    name: Wild Parsnip
+name: Dill Worms
+slug: dill-worms
+picture: dill_worms.webp
+scientific_name: Lepidoptera larva
+description: If leaves look shredded overnight or fruit has fresh chew holes, dill
+  worms may be feeding right now. These larvae can eat fast and strip a healthy plant
+  in a short window. Young stages are easy to miss, then damage suddenly explodes
+  as they grow. Catch them early to avoid severe defoliation and contaminated harvests.
+characteristics: Check leaf undersides, growing tips, and stem junctions for eggs,
+  frass pellets, and feeding scars. Larvae vary in color, but most have a soft segmented
+  body and blend into foliage. Look at dusk or early morning when many species feed
+  more actively. Fresh chewing plus live larvae or droppings on lower leaves confirms
+  an active caterpillar outbreak.
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- skeletonized-leaves
+control_methods:
+  biological_controls: Parasitic wasps lay eggs on or inside swallowtail and other
+    caterpillar larvae, turning them into mummies or clusters of silk cocoons -- leave
+    those cats alone if you want free control. Birds and assassin bugs pick off larger
+    larvae on outer umbels. If you see tiny wasps hovering near dill flowers, do not
+    fog the row with soap; you are killing the help. Diverse flowering plants nearby
+    feed adult parasitoids when dill is still small.
+  preventive_methods: Inspect dill, fennel, and parsley from the moment umbels form
+    -- butterflies lay round eggs on leaf tips you can crush with a finger. Check
+    undersides at dawn when adults are less active. Decide if you want zero holes
+    for market herbs or shared butterflies for seed saving; mixed goals confuse spraying.
+    If you grow for seed, tolerate some feeding on sacrificial plants. Flag rows that
+    showed heavy larvae last year and scout those first next spring.
+  cultural_practices: Plant extra dill or fennel along a fence as a trap crop so egg
+    layers find it before your kitchen row. Rotate locations so pupae in soil do not
+    meet the same umbel next year in tiny gardens; big fields move blocks farther.
+    Avoid ultra-lush nitrogen that pushes soft growth every two weeks; it makes damage
+    look worse and attracts more egg layers. Interplant with tomatoes or other non-hosts
+    for visual diversity, not magic repellence -- diversity mainly helps predators
+    move in.
+  mechanical_physical: Hand-pick larvae in early instars when they sit on top of leaves
+    and drop into soapy water. Floating row covers over seedling dill block adults
+    until you remove covers for pollination or harvest -- bury edges so moths cannot
+    crawl under. For small pots, move plants under cover during peak butterfly flights.
+    Clip an entire umbel with eggs if you catch it before hatch.
+  organic_sprays: Bacillus thuringiensis kurstaki works on feeding caterpillars that
+    ingest treated leaf -- spot-spray individuals you cannot relocate, not the whole
+    butterfly garden. Insecticidal soap kills soft larvae on contact but also kills
+    syrphid eggs and parasitized larvae. Neem can reduce feeding if applied before
+    larvae get huge; cover both leaf surfaces. Spray at dusk when bees are not on
+    dill flowers. If the goal is habitat, skip sprays and use picking and row cover.
+natural_enemies:
+- Parasitic Wasps
+- Predatory Beetles
+- Birds
+affected_plants:
+- slug: alexanders
+  name: Alexanders
+- slug: angelica
+  name: Angelica
+- slug: arracacha
+  name: Arracacha
+- slug: ashitaba
+  name: Ashitaba
+- slug: carrot
+  name: Carrot
+- slug: celery
+  name: Celery
+- slug: culantro
+  name: Culantro
+- slug: dill
+  name: Dill
+- slug: dollarweed
+  name: Dollarweed
+- slug: fennel
+  name: Fennel
+- slug: gotu-kola
+  name: Gotu Kola
+- slug: lovage
+  name: Lovage
+- slug: parsley
+  name: Parsley
+- slug: parsnip
+  name: Parsnip
+- slug: rattlesnake-master
+  name: Rattlesnake Master
+- slug: skirret
+  name: Skirret
+- slug: sweet-cicely
+  name: Sweet Cicely
+- slug: wild-anise
+  name: Wild Anise
+- slug: wild-caraway
+  name: Wild Caraway
+- slug: wild-carrot
+  name: Wild Carrot
+- slug: wild-celery
+  name: Wild Celery
+- slug: wild-chervil
+  name: Wild Chervil
+- slug: wild-coriander
+  name: Wild Coriander
+- slug: wild-cumin
+  name: Wild Cumin
+- slug: wild-dill
+  name: Wild Dill
+- slug: wild-fennel
+  name: Wild Fennel
+- slug: wild-parsnip
+  name: Wild Parsnip
+category: pest

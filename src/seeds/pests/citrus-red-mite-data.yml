@@ -1,105 +1,101 @@
----
-- name: Citrus Red Mite
-  slug: citrus-red-mite
-  picture: citrus_red_mite.webp
-  scientific_name: Panonychus citri
-  description: >-
-    If leaves look dusty, speckled, bronzed, or curled without obvious chewing, citrus red mite
-    is a likely suspect. Mites are tiny but can multiply fast, especially during heat and dry
-    air. Plants lose vigor as feeding drains cell contents from leaves and tender growth. Early
-    action matters, because heavy infestations can spread through a bed in days.
-  characteristics: >-
-    Use a hand lens and check leaf undersides first, especially near veins and new growth. Look
-    for pinprick stippling, fine webbing in some species, and tiny moving dots that range from
-    pale to red or brown. Tap a leaf over white paper; moving specks suggest active mites.
-    Stippled leaves plus mites or eggs clustered under foliage confirms the diagnosis.
-  symptoms:
-  - yellowing-leaves
-  - webbing
-  - silvery-streaking
-  - brown-edges
-  control_methods:
-    biological_controls: >-
-      Predatory mites -- Euseius tularensis, Galendromus helveolus -- are the
-      primary natural enemies of citrus red mite and are already present in most
-      citrus plantings. Sixspotted thrips and small lady beetles also contribute.
-      Preserve these beneficials by avoiding pyrethroids and broad-spectrum pesticides.
-      Never mix oil and sulfur close together -- the combination is severely phytotoxic
-      to citrus and kills predatory mites. Monitor pest-to-predator ratios before
-      spraying -- if predatory mites are present in good numbers, let biology work.
-    preventive_methods: >-
-      Citrus red mite causes silvery stippling on leaves and defoliation in severe
-      infestations. Monitor with a hand lens weekly during hot months, focusing on
-      interior canopy leaves where populations establish first. Drought stress
-      dramatically increases red mite susceptibility -- consistent irrigation is
-      the most effective prevention. Dust on orchard roads suppresses predatory mite
-      populations. Treat only when monitoring shows population levels crossing
-      established thresholds, not on calendar autopilot.
-    cultural_practices: >-
-      Adequate irrigation during drought is the most impactful cultural practice.
-      Reduce dust in the orchard environment. Selective pruning improves air circulation
-      and spray penetration. Avoid excessive nitrogen fertilization which extends the
-      period of tender new growth that supports mite surges.
-    mechanical_physical: >-
-      High-volume water washing of foliage temporarily dislodges mites on small
-      backyard trees -- repeat every 3-5 days for meaningful suppression. Genuinely
-      effective for container citrus and small home plantings. No practical mechanical
-      control for larger plantings -- invest in monitoring and biological control instead.
-    organic_sprays: >-
-      Horticultural oil (summer weight, narrow-range) applied with thorough coverage
-      is the primary organic spray -- apply when temperatures are below 90F (32C)
-      and above freezing. Never mix horticultural oil and sulfur on citrus. Insecticidal
-      soap for light infestations on small trees -- coat undersides of leaves
-      thoroughly. Monitor pest-to-predator ratios 5 days after treatment -- if
-      predatory mites are recovering, let biology finish the job.
-  natural_enemies:
-  - Euseius tularensis
-  - Stethorus picipes
-  - Scolothrips sexmaculatus
-  affected_plants:
-  - slug: bael-fruit
-    name: Bael Fruit
-  - slug: bengal-quince
-    name: Bengal Quince
-  - slug: bitter-orange
-    name: Bitter Orange
-  - slug: buddha-hand
-    name: Buddha Hand
-  - slug: calamondin
-    name: Calamondin
-  - slug: citron
-    name: Citron
-  - slug: curry-leaf-tree
-    name: Curry Leaf Tree
-  - slug: finger-lime
-    name: Finger Lime
-  - slug: hercules-club
-    name: Hercules Club
-  - slug: kaffir-lime
-    name: Kaffir Lime
-  - slug: kumquat
-    name: Kumquat
-  - slug: lemon-tree
-    name: Lemon Tree
-  - slug: lime-tree
-    name: Lime Tree
-  - slug: pomelo
-    name: Pomelo
-  - slug: prickly-ash
-    name: Prickly Ash
-  - slug: rangpur-lime
-    name: Rangpur Lime
-  - slug: rue
-    name: Rue
-  - slug: sour-orange
-    name: Sour Orange
-  - slug: tangerine
-    name: Tangerine
-  - slug: white-sapote
-    name: White Sapote
-  - slug: wild-lime
-    name: Wild Lime
-  - slug: wood-apple
-    name: Wood Apple
-  - slug: yuzu
-    name: Yuzu
+name: Citrus Red Mite
+slug: citrus-red-mite
+picture: citrus_red_mite.webp
+scientific_name: Panonychus citri
+description: If leaves look dusty, speckled, bronzed, or curled without obvious chewing,
+  citrus red mite is a likely suspect. Mites are tiny but can multiply fast, especially
+  during heat and dry air. Plants lose vigor as feeding drains cell contents from
+  leaves and tender growth. Early action matters, because heavy infestations can spread
+  through a bed in days.
+characteristics: Use a hand lens and check leaf undersides first, especially near
+  veins and new growth. Look for pinprick stippling, fine webbing in some species,
+  and tiny moving dots that range from pale to red or brown. Tap a leaf over white
+  paper; moving specks suggest active mites. Stippled leaves plus mites or eggs clustered
+  under foliage confirms the diagnosis.
+symptoms:
+- yellowing-leaves
+- webbing
+- silvery-streaking
+- brown-edges
+control_methods:
+  biological_controls: Predatory mites -- Euseius tularensis, Galendromus helveolus
+    -- are the primary natural enemies of citrus red mite and are already present
+    in most citrus plantings. Sixspotted thrips and small lady beetles also contribute.
+    Preserve these beneficials by avoiding pyrethroids and broad-spectrum pesticides.
+    Never mix oil and sulfur close together -- the combination is severely phytotoxic
+    to citrus and kills predatory mites. Monitor pest-to-predator ratios before spraying
+    -- if predatory mites are present in good numbers, let biology work.
+  preventive_methods: Citrus red mite causes silvery stippling on leaves and defoliation
+    in severe infestations. Monitor with a hand lens weekly during hot months, focusing
+    on interior canopy leaves where populations establish first. Drought stress dramatically
+    increases red mite susceptibility -- consistent irrigation is the most effective
+    prevention. Dust on orchard roads suppresses predatory mite populations. Treat
+    only when monitoring shows population levels crossing established thresholds,
+    not on calendar autopilot.
+  cultural_practices: Adequate irrigation during drought is the most impactful cultural
+    practice. Reduce dust in the orchard environment. Selective pruning improves air
+    circulation and spray penetration. Avoid excessive nitrogen fertilization which
+    extends the period of tender new growth that supports mite surges.
+  mechanical_physical: High-volume water washing of foliage temporarily dislodges
+    mites on small backyard trees -- repeat every 3-5 days for meaningful suppression.
+    Genuinely effective for container citrus and small home plantings. No practical
+    mechanical control for larger plantings -- invest in monitoring and biological
+    control instead.
+  organic_sprays: Horticultural oil (summer weight, narrow-range) applied with thorough
+    coverage is the primary organic spray -- apply when temperatures are below 90F
+    (32C) and above freezing. Never mix horticultural oil and sulfur on citrus. Insecticidal
+    soap for light infestations on small trees -- coat undersides of leaves thoroughly.
+    Monitor pest-to-predator ratios 5 days after treatment -- if predatory mites are
+    recovering, let biology finish the job.
+natural_enemies:
+- Euseius tularensis
+- Stethorus picipes
+- Scolothrips sexmaculatus
+affected_plants:
+- slug: bael-fruit
+  name: Bael Fruit
+- slug: bengal-quince
+  name: Bengal Quince
+- slug: bitter-orange
+  name: Bitter Orange
+- slug: buddha-hand
+  name: Buddha Hand
+- slug: calamondin
+  name: Calamondin
+- slug: citron
+  name: Citron
+- slug: curry-leaf-tree
+  name: Curry Leaf Tree
+- slug: finger-lime
+  name: Finger Lime
+- slug: hercules-club
+  name: Hercules Club
+- slug: kaffir-lime
+  name: Kaffir Lime
+- slug: kumquat
+  name: Kumquat
+- slug: lemon-tree
+  name: Lemon Tree
+- slug: lime-tree
+  name: Lime Tree
+- slug: pomelo
+  name: Pomelo
+- slug: prickly-ash
+  name: Prickly Ash
+- slug: rangpur-lime
+  name: Rangpur Lime
+- slug: rue
+  name: Rue
+- slug: sour-orange
+  name: Sour Orange
+- slug: tangerine
+  name: Tangerine
+- slug: white-sapote
+  name: White Sapote
+- slug: wild-lime
+  name: Wild Lime
+- slug: wood-apple
+  name: Wood Apple
+- slug: yuzu
+  name: Yuzu
+category: pest

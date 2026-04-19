@@ -1,46 +1,45 @@
-- name: "Sod webworms"
-  slug: "sod-webworms"
-  picture: "sod_webworms.webp"
-  scientific_name: "Crambidae (Parapediasia, Crambus, and related genera)"
-  description: >-
-    Sod webworms are grass-feeding caterpillars that live in silk-lined tunnels at the soil surface and clip blades at night.
-    Irregular brown patches expand in warm weather and can merge across lawns and roughs. Adult moths flutter low at dusk
-    dropping eggs on turf. They occur wherever cool- and warm-season grasses are maintained from temperate suburbs to
-    subtropical golf edges.
-  characteristics: >-
-    Part grass near thatch and look for greenish caterpillars with dark heads and sparse hairs, up to roughly an inch long
-    when mature. Frass pellets and silk tubes at the base confirm sod webworm versus chinch bug or billbug injury. Soap
-    flush brings larvae up for counting. Compare with armyworm which lacks the dense silk tunnel habit.
-  symptoms:
-  - wilting
-  - die-back
-  - chewed-stems
-  - crown-damage
-  control_methods:
-    biological_controls: >-
-      Bacillus thuringiensis kurstaki works on small caterpillars when they ingest treated leaf tissue -- apply in evening
-      and irrigate lightly if label allows. Beneficial nematodes infect caterpillars in moist thatch when species match
-      label lists. Birds, ground beetles, and spiders reduce populations. Avoid prophylactic pyrethroid lawns that remove
-      allies.
-    preventive_methods: >-
-      Endophytic turf grasses reduce damage on supporting cultivars -- buy certified seed. Avoid excessive thatch with
-      proper mowing and occasional dethatching. Reduce night lighting near turf during moth flight if practical. Overseed
-      thin areas so larvae have fewer easy crowns to reach.
-    cultural_practices: >-
-      Raise mowing height during outbreaks to maintain photosynthetic area. Core aerate compacted soils. Spot-check south
-      slopes and along pavement where heat stacks stress on top of feeding.
-    mechanical_physical: >-
-      For tiny lawns, soapy water flushes plus hand removal lowers numbers enough to skip sprays. Solarize renovation
-      patches before reseeding when history is severe.
-    organic_sprays: >-
-      Bt is the first-line organic material for small larvae. Spinosad is labeled for many turf caterpillars where organic
-      certification allows -- follow bee cautions if clover is flowering. Neem has supplemental suppression on some
-      caterpillars. Repeat applications because thatch shields larvae from single passes.
-  natural_enemies:
-  - Parasitic Wasps
-  - Ground Beetles
-  - Birds
-  affected_plants: []
-  # Image attribution: No image found
-  # Image source: none
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+name: Sod webworms
+slug: sod-webworms
+picture: sod_webworms.webp
+scientific_name: Crambidae (Parapediasia, Crambus, and related genera)
+description: Sod webworms are grass-feeding caterpillars that live in silk-lined tunnels
+  at the soil surface and clip blades at night. Irregular brown patches expand in
+  warm weather and can merge across lawns and roughs. Adult moths flutter low at dusk
+  dropping eggs on turf. They occur wherever cool- and warm-season grasses are maintained
+  from temperate suburbs to subtropical golf edges.
+characteristics: Part grass near thatch and look for greenish caterpillars with dark
+  heads and sparse hairs, up to roughly an inch long when mature. Frass pellets and
+  silk tubes at the base confirm sod webworm versus chinch bug or billbug injury.
+  Soap flush brings larvae up for counting. Compare with armyworm which lacks the
+  dense silk tunnel habit.
+symptoms:
+- wilting
+- die-back
+- chewed-stems
+- crown-damage
+control_methods:
+  biological_controls: Bacillus thuringiensis kurstaki works on small caterpillars
+    when they ingest treated leaf tissue -- apply in evening and irrigate lightly
+    if label allows. Beneficial nematodes infect caterpillars in moist thatch when
+    species match label lists. Birds, ground beetles, and spiders reduce populations.
+    Avoid prophylactic pyrethroid lawns that remove allies.
+  preventive_methods: Endophytic turf grasses reduce damage on supporting cultivars
+    -- buy certified seed. Avoid excessive thatch with proper mowing and occasional
+    dethatching. Reduce night lighting near turf during moth flight if practical.
+    Overseed thin areas so larvae have fewer easy crowns to reach.
+  cultural_practices: Raise mowing height during outbreaks to maintain photosynthetic
+    area. Core aerate compacted soils. Spot-check south slopes and along pavement
+    where heat stacks stress on top of feeding.
+  mechanical_physical: For tiny lawns, soapy water flushes plus hand removal lowers
+    numbers enough to skip sprays. Solarize renovation patches before reseeding when
+    history is severe.
+  organic_sprays: Bt is the first-line organic material for small larvae. Spinosad
+    is labeled for many turf caterpillars where organic certification allows -- follow
+    bee cautions if clover is flowering. Neem has supplemental suppression on some
+    caterpillars. Repeat applications because thatch shields larvae from single passes.
+natural_enemies:
+- Parasitic Wasps
+- Ground Beetles
+- Birds
+affected_plants: []
+category: pest

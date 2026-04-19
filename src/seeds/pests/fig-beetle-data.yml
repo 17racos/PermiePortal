@@ -1,84 +1,82 @@
----
-- name: Fig Beetle
-  slug: fig-beetle
-  picture: fig_beetle.webp
-  scientific_name: Cotinis mutabilis
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, fig beetle may already be on the
-    plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - holes-in-leaves
-  - skeletonized-leaves
-  - chewed-stems
-  - wilting
-  control_methods:
-    biological_controls: >-
-      Adult Cotinis mutabilis fig beetles are big, slow targets for robber flies, birds, and
-      toads when they blunder into open spaces. White grubs live in compost and soil; skunks and
-      moles dig lawns hunting them -- accept some lawn archaeology as the price of free
-      predation. Spiders snag beetles in flight near fruit. These helpers do not stop a full
-      flight if fermenting fruit perfumes the whole block.
-    preventive_methods: >-
-      Sanitation breaks the party -- no forgotten fruit, no fermentation perfume calling every
-      scarab in the zip code. Pick daily during peak ripeness; remove windfalls before noon heat.
-      Keep compost piles and grass clippings away from fruiting trees; grubs often live under
-      those piles and adults emerge next to your best figs. Flag trees that dropped last year;
-      larvae may complete in soil nearby.
-    cultural_practices: >-
-      Harvest figs as they soften and split; overripe fruit draws adults from kilometers away.
-      Remove split fruit and bird-pecked berries the same hour. In diversified yards, isolate
-      mulberry and other soft fruit so they do not synchronize beetle parties. After harvest,
-      rake mulch under trees so pupae have fewer moist pockets.
-    mechanical_physical: >-
-      Floating row covers over dwarf figs or small berry patches exclude adults until you remove
-      covers for harvest -- bury edges. Hand-collect adults in evening when they feed on ripe
-      fruit; knock them into soapy water. For a few trees, hang sticky traps high in canopy
-      only as monitoring; they catch some adults but also non-targets if overused.
-    organic_sprays: >-
-      Kaolin clay on fruit clusters before ripening reduces landing; rebuild after rain. Neem
-      or pyrethrin work as spot treatments on heavy clusters -- avoid blanketing entire flowering
-      hedges. Pyrethrin kills pollinators and minute pirate bugs; use only at dusk on calm
-      evenings. Nothing beats picking fruit on time; sprays are backup for backyard emergencies,
-      not a replacement for buckets.
-  natural_enemies:
-  - Birds
-  - Toads
-  - Robber Flies
-  affected_plants:
-  - slug: african-breadfruit
-    name: African Breadfruit
-  - slug: artocarpus-species
-    name: Artocarpus species
-  - slug: breadfruit
-    name: Breadfruit
-  - slug: breadnut-tree
-    name: Breadnut Tree
-  - slug: cempedak
-    name: Cempedak
-  - slug: fig
-    name: Fig
-  - slug: jackfruit
-    name: Jackfruit
-  - slug: jakfruit
-    name: Jakfruit
-  - slug: kwai-muk
-    name: Kwai Muk
-  - slug: marang
-    name: Marang
-  - slug: marang-fruit
-    name: Marang Fruit
-  - slug: monkey-fruit
-    name: Monkey Fruit
-  - slug: mulberry-tree
-    name: Mulberry Tree
-  - slug: red-mulberry
-    name: Red Mulberry
-  - slug: tarap
-    name: Tarap
+name: Fig Beetle
+slug: fig-beetle
+picture: fig_beetle.webp
+scientific_name: Cotinis mutabilis
+description: If new growth is curling, yellowing, sticky, or chewed, fig beetle may
+  already be on the plant. This pest often builds quietly, then damage appears all
+  at once. Feeding stress weakens growth, reduces yield, and opens the door to secondary
+  disease. Early cleanup is much easier than fighting a full population surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- holes-in-leaves
+- skeletonized-leaves
+- chewed-stems
+- wilting
+control_methods:
+  biological_controls: Adult Cotinis mutabilis fig beetles are big, slow targets for
+    robber flies, birds, and toads when they blunder into open spaces. White grubs
+    live in compost and soil; skunks and moles dig lawns hunting them -- accept some
+    lawn archaeology as the price of free predation. Spiders snag beetles in flight
+    near fruit. These helpers do not stop a full flight if fermenting fruit perfumes
+    the whole block.
+  preventive_methods: Sanitation breaks the party -- no forgotten fruit, no fermentation
+    perfume calling every scarab in the zip code. Pick daily during peak ripeness;
+    remove windfalls before noon heat. Keep compost piles and grass clippings away
+    from fruiting trees; grubs often live under those piles and adults emerge next
+    to your best figs. Flag trees that dropped last year; larvae may complete in soil
+    nearby.
+  cultural_practices: Harvest figs as they soften and split; overripe fruit draws
+    adults from kilometers away. Remove split fruit and bird-pecked berries the same
+    hour. In diversified yards, isolate mulberry and other soft fruit so they do not
+    synchronize beetle parties. After harvest, rake mulch under trees so pupae have
+    fewer moist pockets.
+  mechanical_physical: Floating row covers over dwarf figs or small berry patches
+    exclude adults until you remove covers for harvest -- bury edges. Hand-collect
+    adults in evening when they feed on ripe fruit; knock them into soapy water. For
+    a few trees, hang sticky traps high in canopy only as monitoring; they catch some
+    adults but also non-targets if overused.
+  organic_sprays: Kaolin clay on fruit clusters before ripening reduces landing; rebuild
+    after rain. Neem or pyrethrin work as spot treatments on heavy clusters -- avoid
+    blanketing entire flowering hedges. Pyrethrin kills pollinators and minute pirate
+    bugs; use only at dusk on calm evenings. Nothing beats picking fruit on time;
+    sprays are backup for backyard emergencies, not a replacement for buckets.
+natural_enemies:
+- Birds
+- Toads
+- Robber Flies
+affected_plants:
+- slug: african-breadfruit
+  name: African Breadfruit
+- slug: artocarpus-species
+  name: Artocarpus species
+- slug: breadfruit
+  name: Breadfruit
+- slug: breadnut-tree
+  name: Breadnut Tree
+- slug: cempedak
+  name: Cempedak
+- slug: fig
+  name: Fig
+- slug: jackfruit
+  name: Jackfruit
+- slug: jakfruit
+  name: Jakfruit
+- slug: kwai-muk
+  name: Kwai Muk
+- slug: marang
+  name: Marang
+- slug: marang-fruit
+  name: Marang Fruit
+- slug: monkey-fruit
+  name: Monkey Fruit
+- slug: mulberry-tree
+  name: Mulberry Tree
+- slug: red-mulberry
+  name: Red Mulberry
+- slug: tarap
+  name: Tarap
+category: pest

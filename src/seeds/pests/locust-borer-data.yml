@@ -1,240 +1,235 @@
----
-- name: Locust Borer
-  slug: locust-borer
-  picture: locust_borer.webp
-  scientific_name: Megacyllene robiniae
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, locust borer may already be on the
-    plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - tunneling
-  - stem-damage
-  - wilting
-  - die-back
-  - bark-damage
-  control_methods:
-    biological_controls: >-
-      Woodpeckers are the most effective natural control of locust borer larvae -- 
-      their excavating holes in black locust trunks indicate both active infestation
-      and active predation. Parasitoid wasps attack smaller cerambycid larvae. Maintain
-      diverse habitat supporting insectivorous birds and woodpeckers near locust
-      plantings. Healthy vigorous black locust trees with adequate moisture and nutrients
-      resist borer attack significantly better than stressed trees -- plant health
-      is the most important biological defense. Mulch and avoid compaction around
-      root zones.
-    preventive_methods: >-
-      Locust borer adults are striking yellow and black long-horned beetles that feed
-      on goldenrod flowers in late summer before laying eggs in black locust bark.
-      The first sign of infestation is sawdust-like frass at the base of the tree and
-      in bark crevices. Adult beetles emerge in August and September -- this is the
-      window for any preventive treatment. Stressed and wounded trees attract far more
-      egg-laying females than vigorous trees. Avoid wounding trunks and maintain tree
-      vigor with consistent irrigation and organic mulch.
-    cultural_practices: >-
-      Keep black locust trees vigorous with proper irrigation, organic mulch (not
-      volcano mulch against the trunk), and minimal soil compaction -- stressed trees
-      are dramatically more susceptible. Do not plant black locust as a specimen tree
-      where limb failure could damage property -- heavy borer infestations weaken
-      structural integrity. Prune and remove badly infested deadwood before adult
-      emergence in August to prevent new generations. Diversify plantings rather than
-      large pure stands of black locust.
-    mechanical_physical: >-
-      Remove and chip badly infested trunks and major limbs before adult emergence
-      in August -- larvae inside complete development and emerge unless the wood is
-      destroyed. Avoid wounding trunks with equipment -- fresh wounds attract
-      egg-laying females immediately. Wire probing into fresh galleries kills larvae
-      mechanically on accessible young trees.
-    organic_sprays: >-
-      Neem oil or kaolin clay applied to trunk bark during adult activity (August
-      through September) deters female beetles from laying eggs in bark. Applications
-      must be on bark surfaces before adults arrive -- no spray reaches larvae inside
-      galleries. Pyrethrin on trunks at adult emergence provides some knockdown of
-      adults before egg-laying but degrades rapidly. No spray substitutes for keeping
-      trees healthy and removing severely infested wood.
-  natural_enemies:
-  - Woodpeckers
-  - Parasitic Wasps (Cerambycidae associates)
-  affected_plants:
-  - slug: acacia
-    name: Acacia
-  - slug: african-locust-bean
-    name: African Locust Bean
-  - slug: ahipa
-    name: Ahipa
-  - slug: albizia-lebbeck
-    name: Albizia lebbeck
-  - slug: alfalfa
-    name: Alfalfa
-  - slug: asparagus-bean
-    name: Asparagus Bean
-  - slug: baptisia
-    name: Baptisia
-  - slug: bay-bean
-    name: Bay Bean
-  - slug: beach-bean
-    name: Beach Bean
-  - slug: black-medic
-    name: Black Medic
-  - slug: black-mulga
-    name: Black Mulga
-  - slug: black-locust
-    name: Black Locust
-  - slug: bladder-senna
-    name: Bladder Senna
-  - slug: blue-wild-indigo
-    name: Blue Wild Indigo
-  - slug: carob-tree
-    name: Carob Tree
-  - slug: cassia-alata
-    name: Cassia alata
-  - slug: catclaw-sensitive-briar
-    name: Catclaw Sensitive Briar
-  - slug: chickpea
-    name: Chickpea
-  - slug: chilean-pea
-    name: Chilean Pea
-  - slug: coffee-senna
-    name: Coffee Senna
-  - slug: coffeeweed
-    name: Coffeeweed
-  - slug: coral-bean
-    name: Coral Bean
-  - slug: crimson-clover
-    name: Crimson Clover
-  - slug: crown-vetch
-    name: Crown Vetch
-  - slug: desert-ironwood
-    name: Desert Ironwood
-  - slug: dutch-clover
-    name: Dutch Clover
-  - slug: earth-chestnut
-    name: Earth Chestnut
-  - slug: false-indigo
-    name: False Indigo
-  - slug: fava-bean
-    name: Fava Bean
-  - slug: florida-leadplant
-    name: Florida Leadplant
-  - slug: goats-rue
-    name: Goat's Rue
-  - slug: green-bean
-    name: Green Bean
-  - slug: groundnut
-    name: Groundnut
-  - slug: groundplum-milkvetch
-    name: Groundplum Milkvetch
-  - slug: hairy-indigo
-    name: Hairy Indigo
-  - slug: honey-locust
-    name: Honey Locust
-  - slug: hopniss
-    name: Hopniss
-  - slug: hyacinth-bean
-    name: Hyacinth Bean
-  - slug: ice-cream-bean-tree
-    name: Ice Cream Bean Tree
-  - slug: illinois-bundleflower
-    name: Illinois Bundleflower
-  - slug: indigofera-tinctoria
-    name: Indigofera tinctoria
-  - slug: jatoba
-    name: Jatoba
-  - slug: jicama
-    name: Jicama
-  - slug: lablab-bean
-    name: Lablab Bean
-  - slug: lead-plant
-    name: Lead Plant
-  - slug: leucaena
-    name: Leucaena
-  - slug: lupine
-    name: Lupine
-  - slug: mangrove-bean
-    name: Mangrove Bean
-  - slug: milk-vetch
-    name: Milk Vetch
-  - slug: mimosa
-    name: Mimosa
-  - slug: mung-bean
-    name: Mung Bean
-  - slug: palo-verde
-    name: Palo Verde
-  - slug: partridge-acacia
-    name: Partridge Acacia
-  - slug: partridge-cassia
-    name: Partridge Cassia
-  - slug: partridge-pea
-    name: Partridge Pea
-  - slug: pea
-    name: Pea
-  - slug: perennial-peanut
-    name: Perennial Peanut
-  - slug: pigeon-pea
-    name: Pigeon Pea
-  - slug: plains-wild-indigo
-    name: Plains Wild Indigo
-  - slug: powderpuff-mimosa
-    name: Powderpuff Mimosa
-  - slug: prairie-acacia
-    name: Prairie Acacia
-  - slug: prairie-potato
-    name: Prairie Potato
-  - slug: prairie-turnip
-    name: Prairie Turnip
-  - slug: rattlebox
-    name: Rattlebox
-  - slug: sensitive-briar
-    name: Sensitive Briar
-  - slug: sensitive-plant
-    name: Sensitive Plant
-  - slug: sesbania
-    name: Sesbania
-  - slug: sesbania-grandiflora
-    name: Sesbania grandiflora
-  - slug: showy-partridge-pea
-    name: Showy Partridge Pea
-  - slug: siberian-peashrub
-    name: Siberian Peashrub
-  - slug: siberian-pea-shrub
-    name: Siberian Pea Shrub
-  - slug: sicklepod
-    name: Sicklepod
-  - slug: snow-pea
-    name: Snow Pea
-  - slug: sun-hemp
-    name: Sun Hemp
-  - slug: sunshine-mimosa
-    name: Sunshine Mimosa
-  - slug: tagasaste
-    name: Tagasaste
-  - slug: tephrosia-vogelii
-    name: Tephrosia vogelii
-  - slug: tick-trefoil
-    name: Tick Trefoil
-  - slug: trailing-mimosa
-    name: Trailing Mimosa
-  - slug: tree-medick
-    name: Tree Medick
-  - slug: white-wild-indigo
-    name: White Wild Indigo
-  - slug: wild-indigo-bush
-    name: Wild Indigo Bush
-  - slug: wild-indigo
-    name: Wild Indigo
-  - slug: wild-senna
-    name: Wild Senna
-  - slug: winged-bean
-    name: Winged Bean
-  - slug: wisteria
-    name: Wisteria
-  - slug: yam-bean
-    name: Yam Bean
-  - slug: yellow-sweet-clover
-    name: Yellow Sweet Clover
+name: Locust Borer
+slug: locust-borer
+picture: locust_borer.webp
+scientific_name: Megacyllene robiniae
+description: If new growth is curling, yellowing, sticky, or chewed, locust borer
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- tunneling
+- stem-damage
+- wilting
+- die-back
+- bark-damage
+control_methods:
+  biological_controls: Woodpeckers are the most effective natural control of locust
+    borer larvae --  their excavating holes in black locust trunks indicate both active
+    infestation and active predation. Parasitoid wasps attack smaller cerambycid larvae.
+    Maintain diverse habitat supporting insectivorous birds and woodpeckers near locust
+    plantings. Healthy vigorous black locust trees with adequate moisture and nutrients
+    resist borer attack significantly better than stressed trees -- plant health is
+    the most important biological defense. Mulch and avoid compaction around root
+    zones.
+  preventive_methods: Locust borer adults are striking yellow and black long-horned
+    beetles that feed on goldenrod flowers in late summer before laying eggs in black
+    locust bark. The first sign of infestation is sawdust-like frass at the base of
+    the tree and in bark crevices. Adult beetles emerge in August and September --
+    this is the window for any preventive treatment. Stressed and wounded trees attract
+    far more egg-laying females than vigorous trees. Avoid wounding trunks and maintain
+    tree vigor with consistent irrigation and organic mulch.
+  cultural_practices: Keep black locust trees vigorous with proper irrigation, organic
+    mulch (not volcano mulch against the trunk), and minimal soil compaction -- stressed
+    trees are dramatically more susceptible. Do not plant black locust as a specimen
+    tree where limb failure could damage property -- heavy borer infestations weaken
+    structural integrity. Prune and remove badly infested deadwood before adult emergence
+    in August to prevent new generations. Diversify plantings rather than large pure
+    stands of black locust.
+  mechanical_physical: Remove and chip badly infested trunks and major limbs before
+    adult emergence in August -- larvae inside complete development and emerge unless
+    the wood is destroyed. Avoid wounding trunks with equipment -- fresh wounds attract
+    egg-laying females immediately. Wire probing into fresh galleries kills larvae
+    mechanically on accessible young trees.
+  organic_sprays: Neem oil or kaolin clay applied to trunk bark during adult activity
+    (August through September) deters female beetles from laying eggs in bark. Applications
+    must be on bark surfaces before adults arrive -- no spray reaches larvae inside
+    galleries. Pyrethrin on trunks at adult emergence provides some knockdown of adults
+    before egg-laying but degrades rapidly. No spray substitutes for keeping trees
+    healthy and removing severely infested wood.
+natural_enemies:
+- Woodpeckers
+- Parasitic Wasps (Cerambycidae associates)
+affected_plants:
+- slug: acacia
+  name: Acacia
+- slug: african-locust-bean
+  name: African Locust Bean
+- slug: ahipa
+  name: Ahipa
+- slug: albizia-lebbeck
+  name: Albizia lebbeck
+- slug: alfalfa
+  name: Alfalfa
+- slug: asparagus-bean
+  name: Asparagus Bean
+- slug: baptisia
+  name: Baptisia
+- slug: bay-bean
+  name: Bay Bean
+- slug: beach-bean
+  name: Beach Bean
+- slug: black-medic
+  name: Black Medic
+- slug: black-mulga
+  name: Black Mulga
+- slug: black-locust
+  name: Black Locust
+- slug: bladder-senna
+  name: Bladder Senna
+- slug: blue-wild-indigo
+  name: Blue Wild Indigo
+- slug: carob-tree
+  name: Carob Tree
+- slug: cassia-alata
+  name: Cassia alata
+- slug: catclaw-sensitive-briar
+  name: Catclaw Sensitive Briar
+- slug: chickpea
+  name: Chickpea
+- slug: chilean-pea
+  name: Chilean Pea
+- slug: coffee-senna
+  name: Coffee Senna
+- slug: coffeeweed
+  name: Coffeeweed
+- slug: coral-bean
+  name: Coral Bean
+- slug: crimson-clover
+  name: Crimson Clover
+- slug: crown-vetch
+  name: Crown Vetch
+- slug: desert-ironwood
+  name: Desert Ironwood
+- slug: dutch-clover
+  name: Dutch Clover
+- slug: earth-chestnut
+  name: Earth Chestnut
+- slug: false-indigo
+  name: False Indigo
+- slug: fava-bean
+  name: Fava Bean
+- slug: florida-leadplant
+  name: Florida Leadplant
+- slug: goats-rue
+  name: Goat's Rue
+- slug: green-bean
+  name: Green Bean
+- slug: groundnut
+  name: Groundnut
+- slug: groundplum-milkvetch
+  name: Groundplum Milkvetch
+- slug: hairy-indigo
+  name: Hairy Indigo
+- slug: honey-locust
+  name: Honey Locust
+- slug: hopniss
+  name: Hopniss
+- slug: hyacinth-bean
+  name: Hyacinth Bean
+- slug: ice-cream-bean-tree
+  name: Ice Cream Bean Tree
+- slug: illinois-bundleflower
+  name: Illinois Bundleflower
+- slug: indigofera-tinctoria
+  name: Indigofera tinctoria
+- slug: jatoba
+  name: Jatoba
+- slug: jicama
+  name: Jicama
+- slug: lablab-bean
+  name: Lablab Bean
+- slug: lead-plant
+  name: Lead Plant
+- slug: leucaena
+  name: Leucaena
+- slug: lupine
+  name: Lupine
+- slug: mangrove-bean
+  name: Mangrove Bean
+- slug: milk-vetch
+  name: Milk Vetch
+- slug: mimosa
+  name: Mimosa
+- slug: mung-bean
+  name: Mung Bean
+- slug: palo-verde
+  name: Palo Verde
+- slug: partridge-acacia
+  name: Partridge Acacia
+- slug: partridge-cassia
+  name: Partridge Cassia
+- slug: partridge-pea
+  name: Partridge Pea
+- slug: pea
+  name: Pea
+- slug: perennial-peanut
+  name: Perennial Peanut
+- slug: pigeon-pea
+  name: Pigeon Pea
+- slug: plains-wild-indigo
+  name: Plains Wild Indigo
+- slug: powderpuff-mimosa
+  name: Powderpuff Mimosa
+- slug: prairie-acacia
+  name: Prairie Acacia
+- slug: prairie-potato
+  name: Prairie Potato
+- slug: prairie-turnip
+  name: Prairie Turnip
+- slug: rattlebox
+  name: Rattlebox
+- slug: sensitive-briar
+  name: Sensitive Briar
+- slug: sensitive-plant
+  name: Sensitive Plant
+- slug: sesbania
+  name: Sesbania
+- slug: sesbania-grandiflora
+  name: Sesbania grandiflora
+- slug: showy-partridge-pea
+  name: Showy Partridge Pea
+- slug: siberian-peashrub
+  name: Siberian Peashrub
+- slug: siberian-pea-shrub
+  name: Siberian Pea Shrub
+- slug: sicklepod
+  name: Sicklepod
+- slug: snow-pea
+  name: Snow Pea
+- slug: sun-hemp
+  name: Sun Hemp
+- slug: sunshine-mimosa
+  name: Sunshine Mimosa
+- slug: tagasaste
+  name: Tagasaste
+- slug: tephrosia-vogelii
+  name: Tephrosia vogelii
+- slug: tick-trefoil
+  name: Tick Trefoil
+- slug: trailing-mimosa
+  name: Trailing Mimosa
+- slug: tree-medick
+  name: Tree Medick
+- slug: white-wild-indigo
+  name: White Wild Indigo
+- slug: wild-indigo-bush
+  name: Wild Indigo Bush
+- slug: wild-indigo
+  name: Wild Indigo
+- slug: wild-senna
+  name: Wild Senna
+- slug: winged-bean
+  name: Winged Bean
+- slug: wisteria
+  name: Wisteria
+- slug: yam-bean
+  name: Yam Bean
+- slug: yellow-sweet-clover
+  name: Yellow Sweet Clover
+category: pest

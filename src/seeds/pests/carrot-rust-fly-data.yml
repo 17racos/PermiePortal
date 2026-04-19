@@ -1,111 +1,108 @@
----
-- name: Carrot Rust Fly
-  slug: carrot-rust-fly
-  picture: carrot_rust_fly.webp
-  scientific_name: Psila rosae
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, carrot rust fly may
-    already be active. This problem often starts small, then spreads across healthy tissue
-    before most growers realize how serious it is. Warmth, moisture, and crowded foliage usually
-    speed it up. Treat early, because waiting even a few days can turn a manageable infection
-    into major crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - yellowing-leaves
-  - wilting
-  - leaf-spots
-  - dropping-leaves
-  control_methods:
-    biological_controls: >-
-      Parasitic wasps attack carrot rust fly pupae in soil; ground beetles and rove beetles eat
-      eggs and young larvae near the surface. Birds probe rows after wilting appears. Nematodes
-      labeled for soil-dwelling larvae sometimes help in light soils when soil temperature fits
-      the product. All of this fails if floating row covers are missing and sprays run weekly --
-      conserve predators by using barriers first.
-    preventive_methods: >-
-      Adults are weak fliers that cruise low along rows -- they find carrots by smell. Rotate
-      Apiaceae beds yearly in gardens; use multi-year rotations on farms. Remove volunteer carrots
-      and flowering umbels that concentrate flies. Time planting to miss peak flight using local
-      extension charts. Fine mesh netting or row cover sealed at the edges beats hope. Sticky
-      cards at canopy height track flights; rising catches mean cover or spray windows, not luck.
-    cultural_practices: >-
-      Clear crop debris after harvest so pupae have fewer overwintering sites in old crowns.
-      Avoid excessive manure that pushes lush tops while roots stay tiny -- rust damage hides
-      until harvest. Deeply prepare soil so roots grow straight; forked roots give larvae more
-      entry pockets. In wet years, improve drainage; soggy carrots split and invite secondary rot
-      after maggot scarring.
-    mechanical_physical: >-
-      Floating row covers from sowing until near harvest exclude adults completely on home scales
-      when edges stay buried. For larger fields, fine mesh tunnels work if vents do not gape.
-      Sticky traps monitor, they rarely control alone. Heaping soil or sand around shoulders can
-      deter some egg-lay near crowns where that practice fits your system.
-    organic_sprays: >-
-      Spinosad or neem directed to soil surface and lower foliage during adult flight can deter
-      egg-laying -- apply before larvae tunnel. Insecticidal soap kills adults on contact if you
-      spray calm evenings when flies rest on leaves. Soil-applied biologicals must match label
-      crops. Rotate chemistries in greenhouses where flies breed year-round. Combine any spray
-      with row cover removal only when you accept risk.
-  natural_enemies:
-  - Parasitic Wasps
-  - Ground Beetles
-  - Insectivorous Birds
-  affected_plants:
-  - slug: alexanders
-    name: Alexanders
-  - slug: angelica
-    name: Angelica
-  - slug: arracacha
-    name: Arracacha
-  - slug: ashitaba
-    name: Ashitaba
-  - slug: carrot
-    name: Carrot
-  - slug: celery
-    name: Celery
-  - slug: culantro
-    name: Culantro
-  - slug: dill
-    name: Dill
-  - slug: dollarweed
-    name: Dollarweed
-  - slug: fennel
-    name: Fennel
-  - slug: gotu-kola
-    name: Gotu Kola
-  - slug: lovage
-    name: Lovage
-  - slug: parsley
-    name: Parsley
-  - slug: parsnip
-    name: Parsnip
-  - slug: rattlesnake-master
-    name: Rattlesnake Master
-  - slug: skirret
-    name: Skirret
-  - slug: sweet-cicely
-    name: Sweet Cicely
-  - slug: wild-anise
-    name: Wild Anise
-  - slug: wild-caraway
-    name: Wild Caraway
-  - slug: wild-carrot
-    name: Wild Carrot
-  - slug: wild-celery
-    name: Wild Celery
-  - slug: wild-chervil
-    name: Wild Chervil
-  - slug: wild-coriander
-    name: Wild Coriander
-  - slug: wild-cumin
-    name: Wild Cumin
-  - slug: wild-dill
-    name: Wild Dill
-  - slug: wild-fennel
-    name: Wild Fennel
-  - slug: wild-parsnip
-    name: Wild Parsnip
+name: Carrot Rust Fly
+slug: carrot-rust-fly
+picture: carrot_rust_fly.webp
+scientific_name: Psila rosae
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  carrot rust fly may already be active. This problem often starts small, then spreads
+  across healthy tissue before most growers realize how serious it is. Warmth, moisture,
+  and crowded foliage usually speed it up. Treat early, because waiting even a few
+  days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- yellowing-leaves
+- wilting
+- leaf-spots
+- dropping-leaves
+control_methods:
+  biological_controls: Parasitic wasps attack carrot rust fly pupae in soil; ground
+    beetles and rove beetles eat eggs and young larvae near the surface. Birds probe
+    rows after wilting appears. Nematodes labeled for soil-dwelling larvae sometimes
+    help in light soils when soil temperature fits the product. All of this fails
+    if floating row covers are missing and sprays run weekly -- conserve predators
+    by using barriers first.
+  preventive_methods: Adults are weak fliers that cruise low along rows -- they find
+    carrots by smell. Rotate Apiaceae beds yearly in gardens; use multi-year rotations
+    on farms. Remove volunteer carrots and flowering umbels that concentrate flies.
+    Time planting to miss peak flight using local extension charts. Fine mesh netting
+    or row cover sealed at the edges beats hope. Sticky cards at canopy height track
+    flights; rising catches mean cover or spray windows, not luck.
+  cultural_practices: Clear crop debris after harvest so pupae have fewer overwintering
+    sites in old crowns. Avoid excessive manure that pushes lush tops while roots
+    stay tiny -- rust damage hides until harvest. Deeply prepare soil so roots grow
+    straight; forked roots give larvae more entry pockets. In wet years, improve drainage;
+    soggy carrots split and invite secondary rot after maggot scarring.
+  mechanical_physical: Floating row covers from sowing until near harvest exclude
+    adults completely on home scales when edges stay buried. For larger fields, fine
+    mesh tunnels work if vents do not gape. Sticky traps monitor, they rarely control
+    alone. Heaping soil or sand around shoulders can deter some egg-lay near crowns
+    where that practice fits your system.
+  organic_sprays: Spinosad or neem directed to soil surface and lower foliage during
+    adult flight can deter egg-laying -- apply before larvae tunnel. Insecticidal
+    soap kills adults on contact if you spray calm evenings when flies rest on leaves.
+    Soil-applied biologicals must match label crops. Rotate chemistries in greenhouses
+    where flies breed year-round. Combine any spray with row cover removal only when
+    you accept risk.
+natural_enemies:
+- Parasitic Wasps
+- Ground Beetles
+- Insectivorous Birds
+affected_plants:
+- slug: alexanders
+  name: Alexanders
+- slug: angelica
+  name: Angelica
+- slug: arracacha
+  name: Arracacha
+- slug: ashitaba
+  name: Ashitaba
+- slug: carrot
+  name: Carrot
+- slug: celery
+  name: Celery
+- slug: culantro
+  name: Culantro
+- slug: dill
+  name: Dill
+- slug: dollarweed
+  name: Dollarweed
+- slug: fennel
+  name: Fennel
+- slug: gotu-kola
+  name: Gotu Kola
+- slug: lovage
+  name: Lovage
+- slug: parsley
+  name: Parsley
+- slug: parsnip
+  name: Parsnip
+- slug: rattlesnake-master
+  name: Rattlesnake Master
+- slug: skirret
+  name: Skirret
+- slug: sweet-cicely
+  name: Sweet Cicely
+- slug: wild-anise
+  name: Wild Anise
+- slug: wild-caraway
+  name: Wild Caraway
+- slug: wild-carrot
+  name: Wild Carrot
+- slug: wild-celery
+  name: Wild Celery
+- slug: wild-chervil
+  name: Wild Chervil
+- slug: wild-coriander
+  name: Wild Coriander
+- slug: wild-cumin
+  name: Wild Cumin
+- slug: wild-dill
+  name: Wild Dill
+- slug: wild-fennel
+  name: Wild Fennel
+- slug: wild-parsnip
+  name: Wild Parsnip
+category: pest

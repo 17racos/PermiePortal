@@ -1,63 +1,57 @@
----
-- name: Tent Caterpillar
-  slug: tent-caterpillar
-  picture: tent_caterpillar.webp
-  scientific_name: Malacosoma spp.
-  description: >-
-    If leaves look shredded overnight or fruit has fresh chew holes, tent caterpillar may be
-    feeding right now. These larvae can eat fast and strip a healthy plant in a short window.
-    Young stages are easy to miss, then damage suddenly explodes as they grow. Catch them early
-    to avoid severe defoliation and contaminated harvests.
-  characteristics: >-
-    Check leaf undersides, growing tips, and stem junctions for eggs, frass pellets, and feeding
-    scars. Larvae vary in color, but most have a soft segmented body and blend into foliage.
-    Look at dusk or early morning when many species feed more actively. Fresh chewing plus live
-    larvae or droppings on lower leaves confirms an active caterpillar outbreak.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - skeletonized-leaves
-  control_methods:
-    biological_controls: >-
-      Tachinid flies and ichneumonid wasps parasitize tent caterpillar larvae -- 
-      they are already present in most landscapes and provide significant suppression
-      in undisturbed areas. Cuckoos, orioles, and other birds rip tent colonies open
-      and consume larvae actively -- habitat for these species near orchards and
-      gardens provides real population pressure. Leaving low-level tents on wild host
-      trees at field edges provides a reservoir of parasitoids that move into orchards.
-      Bacillus thuringiensis kurstaki specifically kills tent caterpillar larvae that
-      eat treated foliage without harming parasitoid wasps.
-    preventive_methods: >-
-      Tent caterpillars build distinctive silken tents in branch crotches in early
-      spring -- unlike fall webworm which builds tents at branch tips, tent caterpillar
-      tents are at crotches and forks. Eggs overwinter as shiny brown masses around
-      small twigs -- a single egg mass contains 150-350 eggs wrapped in a foam-like
-      cover. Removing egg masses during dormant season (fall through early spring) is
-      the highest-return preventive activity. Scout preferred hosts -- wild cherry,
-      apple, and crabapple -- in winter for egg masses.
-    cultural_practices: >-
-      Prune out egg masses during winter dormancy on young trees and orchard trees -- 
-      each mass removed eliminates up to 350 larvae. Mature established trees tolerate
-      tent caterpillar defoliation and refoliate within weeks -- young trees and
-      those already stressed need protection. Accept some webbing on wild host trees
-      at property edges as parasitoid reservoirs. Avoid planting large monocultures
-      of highly favored hosts like wild cherry without planning for cyclical outbreaks.
-    mechanical_physical: >-
-      Remove tents on reachable limbs in early morning when larvae are clustered
-      inside for warmth -- drop into soapy water. A pole with a rough surface
-      (wrapped with burlap) can twist and remove high tents. Pruning out egg masses
-      in winter from young trees is faster and more cost-effective than spray programs
-      on small plantings.
-    organic_sprays: >-
-      Bt kurstaki on small larvae feeding outside tight silk gives strong targeted
-      control -- apply in the evening coating all foliage thoroughly. Spot applications
-      to tents and adjacent foliage are more effective than whole-tree sprays. Apply
-      before larvae are half-grown for best results. Spinosad for larger larvae where
-      Bt timing was missed. Neem oil deters adult egg-laying when applied to preferred
-      host trees in late summer during moth flight.
-  natural_enemies:
-  - Tachinid Flies (Tachinidae)
-  - Ichneumonid Wasps
-  - Braconid Wasps
-  - Insectivorous Birds
+name: Tent Caterpillar
+slug: tent-caterpillar
+picture: tent_caterpillar.webp
+scientific_name: Malacosoma spp.
+description: If leaves look shredded overnight or fruit has fresh chew holes, tent
+  caterpillar may be feeding right now. These larvae can eat fast and strip a healthy
+  plant in a short window. Young stages are easy to miss, then damage suddenly explodes
+  as they grow. Catch them early to avoid severe defoliation and contaminated harvests.
+characteristics: Check leaf undersides, growing tips, and stem junctions for eggs,
+  frass pellets, and feeding scars. Larvae vary in color, but most have a soft segmented
+  body and blend into foliage. Look at dusk or early morning when many species feed
+  more actively. Fresh chewing plus live larvae or droppings on lower leaves confirms
+  an active caterpillar outbreak.
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- skeletonized-leaves
+control_methods:
+  biological_controls: Tachinid flies and ichneumonid wasps parasitize tent caterpillar
+    larvae --  they are already present in most landscapes and provide significant
+    suppression in undisturbed areas. Cuckoos, orioles, and other birds rip tent colonies
+    open and consume larvae actively -- habitat for these species near orchards and
+    gardens provides real population pressure. Leaving low-level tents on wild host
+    trees at field edges provides a reservoir of parasitoids that move into orchards.
+    Bacillus thuringiensis kurstaki specifically kills tent caterpillar larvae that
+    eat treated foliage without harming parasitoid wasps.
+  preventive_methods: Tent caterpillars build distinctive silken tents in branch crotches
+    in early spring -- unlike fall webworm which builds tents at branch tips, tent
+    caterpillar tents are at crotches and forks. Eggs overwinter as shiny brown masses
+    around small twigs -- a single egg mass contains 150-350 eggs wrapped in a foam-like
+    cover. Removing egg masses during dormant season (fall through early spring) is
+    the highest-return preventive activity. Scout preferred hosts -- wild cherry,
+    apple, and crabapple -- in winter for egg masses.
+  cultural_practices: Prune out egg masses during winter dormancy on young trees and
+    orchard trees --  each mass removed eliminates up to 350 larvae. Mature established
+    trees tolerate tent caterpillar defoliation and refoliate within weeks -- young
+    trees and those already stressed need protection. Accept some webbing on wild
+    host trees at property edges as parasitoid reservoirs. Avoid planting large monocultures
+    of highly favored hosts like wild cherry without planning for cyclical outbreaks.
+  mechanical_physical: Remove tents on reachable limbs in early morning when larvae
+    are clustered inside for warmth -- drop into soapy water. A pole with a rough
+    surface (wrapped with burlap) can twist and remove high tents. Pruning out egg
+    masses in winter from young trees is faster and more cost-effective than spray
+    programs on small plantings.
+  organic_sprays: Bt kurstaki on small larvae feeding outside tight silk gives strong
+    targeted control -- apply in the evening coating all foliage thoroughly. Spot
+    applications to tents and adjacent foliage are more effective than whole-tree
+    sprays. Apply before larvae are half-grown for best results. Spinosad for larger
+    larvae where Bt timing was missed. Neem oil deters adult egg-laying when applied
+    to preferred host trees in late summer during moth flight.
+natural_enemies:
+- Tachinid Flies (Tachinidae)
+- Ichneumonid Wasps
+- Braconid Wasps
+- Insectivorous Birds
+category: pest

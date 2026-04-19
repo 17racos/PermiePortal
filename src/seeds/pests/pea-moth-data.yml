@@ -1,236 +1,231 @@
----
-- name: Pea Moth
-  slug: pea-moth
-  picture: pea_moth.webp
-  scientific_name: Cydia nigricana
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, pea moth may already be on the
-    plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - skeletonized-leaves
-  control_methods:
-    biological_controls: >-
-      Trichogramma egg parasitoids attack pea moth eggs before they hatch -- release
-      weekly during adult flight periods for best results. Generalist parasitoid wasps
-      attack larvae. Support beneficial insects with diverse flowering plants at plot
-      edges -- dill, fennel, and sweet alyssum sustain parasitoid wasp populations.
-      Early-maturing pea varieties escape the worst late-season pressure from second
-      generation moths. Diverse rotations and flowering habitat at field margins
-      maintain parasitoid communities that regulate pea moth populations over seasons.
-    preventive_methods: >-
-      Pea moth larvae tunnel into pods and feed on developing seeds -- infested
-      pods look normal until opened, revealing caterpillar frass and damaged seeds.
-      Adults are small brown moths that fly at dusk. Pheromone traps establish biofix
-      for timing spray applications accurately -- record first catch dates yearly
-      to build a local management calendar. Early-maturing varieties planted and
-      harvested before peak moth flight escape most damage.
-    cultural_practices: >-
-      Choose early-maturing cultivars that complete pod fill before peak moth flight
-      in your area. Destroy crop residues immediately after harvest -- larvae drop
-      from pods to pupate in soil under the crop. Avoid planting peas adjacent to
-      vetches and wild Pisum species that host pea moth populations. Wide rotation
-      away from legume family crops reduces local moth populations over seasons.
-    mechanical_physical: >-
-      Floating row covers until flowering exclude adult moths from laying eggs -- 
-      remove for pollination then replace, or hand-pollinate inside covers for complete
-      protection. Harvest promptly when pods are ready -- larvae complete development
-      faster in mature pods. Pheromone traps monitor adult flight and tell you exactly
-      when to apply sprays.
-    organic_sprays: >-
-      Bt kurstaki applied during egg hatch from pheromone trap biofix targets young
-      larvae before they enter pods -- once inside pods larvae are completely protected
-      from contact sprays. Coat all pod surfaces thoroughly. Apply in the evening.
-      Spinosad provides stronger activity and longer residual where Bt timing was missed.
-      Timing from pheromone trap biofix is more important than product choice -- 
-      the right spray at the right time outperforms the best product applied at the
-      wrong moment.
-  natural_enemies:
-  - Trichogramma spp.
-  - Braconid Wasps
-  affected_plants:
-  - slug: acacia
-    name: Acacia
-  - slug: african-locust-bean
-    name: African Locust Bean
-  - slug: ahipa
-    name: Ahipa
-  - slug: albizia-lebbeck
-    name: Albizia lebbeck
-  - slug: alfalfa
-    name: Alfalfa
-  - slug: asparagus-bean
-    name: Asparagus Bean
-  - slug: baptisia
-    name: Baptisia
-  - slug: bay-bean
-    name: Bay Bean
-  - slug: beach-bean
-    name: Beach Bean
-  - slug: black-medic
-    name: Black Medic
-  - slug: black-mulga
-    name: Black Mulga
-  - slug: black-locust
-    name: Black Locust
-  - slug: bladder-senna
-    name: Bladder Senna
-  - slug: blue-wild-indigo
-    name: Blue Wild Indigo
-  - slug: carob-tree
-    name: Carob Tree
-  - slug: cassia-alata
-    name: Cassia alata
-  - slug: catclaw-sensitive-briar
-    name: Catclaw Sensitive Briar
-  - slug: chickpea
-    name: Chickpea
-  - slug: chilean-pea
-    name: Chilean Pea
-  - slug: coffee-senna
-    name: Coffee Senna
-  - slug: coffeeweed
-    name: Coffeeweed
-  - slug: coral-bean
-    name: Coral Bean
-  - slug: crimson-clover
-    name: Crimson Clover
-  - slug: crown-vetch
-    name: Crown Vetch
-  - slug: desert-ironwood
-    name: Desert Ironwood
-  - slug: dutch-clover
-    name: Dutch Clover
-  - slug: earth-chestnut
-    name: Earth Chestnut
-  - slug: false-indigo
-    name: False Indigo
-  - slug: fava-bean
-    name: Fava Bean
-  - slug: florida-leadplant
-    name: Florida Leadplant
-  - slug: goats-rue
-    name: Goat's Rue
-  - slug: green-bean
-    name: Green Bean
-  - slug: groundnut
-    name: Groundnut
-  - slug: groundplum-milkvetch
-    name: Groundplum Milkvetch
-  - slug: hairy-indigo
-    name: Hairy Indigo
-  - slug: honey-locust
-    name: Honey Locust
-  - slug: hopniss
-    name: Hopniss
-  - slug: hyacinth-bean
-    name: Hyacinth Bean
-  - slug: ice-cream-bean-tree
-    name: Ice Cream Bean Tree
-  - slug: illinois-bundleflower
-    name: Illinois Bundleflower
-  - slug: indigofera-tinctoria
-    name: Indigofera tinctoria
-  - slug: jatoba
-    name: Jatoba
-  - slug: jicama
-    name: Jicama
-  - slug: lablab-bean
-    name: Lablab Bean
-  - slug: lead-plant
-    name: Lead Plant
-  - slug: leucaena
-    name: Leucaena
-  - slug: lupine
-    name: Lupine
-  - slug: mangrove-bean
-    name: Mangrove Bean
-  - slug: milk-vetch
-    name: Milk Vetch
-  - slug: mimosa
-    name: Mimosa
-  - slug: mung-bean
-    name: Mung Bean
-  - slug: palo-verde
-    name: Palo Verde
-  - slug: partridge-acacia
-    name: Partridge Acacia
-  - slug: partridge-cassia
-    name: Partridge Cassia
-  - slug: partridge-pea
-    name: Partridge Pea
-  - slug: pea
-    name: Pea
-  - slug: perennial-peanut
-    name: Perennial Peanut
-  - slug: pigeon-pea
-    name: Pigeon Pea
-  - slug: plains-wild-indigo
-    name: Plains Wild Indigo
-  - slug: powderpuff-mimosa
-    name: Powderpuff Mimosa
-  - slug: prairie-acacia
-    name: Prairie Acacia
-  - slug: prairie-potato
-    name: Prairie Potato
-  - slug: prairie-turnip
-    name: Prairie Turnip
-  - slug: rattlebox
-    name: Rattlebox
-  - slug: sensitive-briar
-    name: Sensitive Briar
-  - slug: sensitive-plant
-    name: Sensitive Plant
-  - slug: sesbania
-    name: Sesbania
-  - slug: sesbania-grandiflora
-    name: Sesbania grandiflora
-  - slug: showy-partridge-pea
-    name: Showy Partridge Pea
-  - slug: siberian-peashrub
-    name: Siberian Peashrub
-  - slug: siberian-pea-shrub
-    name: Siberian Pea Shrub
-  - slug: sicklepod
-    name: Sicklepod
-  - slug: snow-pea
-    name: Snow Pea
-  - slug: sun-hemp
-    name: Sun Hemp
-  - slug: sunshine-mimosa
-    name: Sunshine Mimosa
-  - slug: tagasaste
-    name: Tagasaste
-  - slug: tephrosia-vogelii
-    name: Tephrosia vogelii
-  - slug: tick-trefoil
-    name: Tick Trefoil
-  - slug: trailing-mimosa
-    name: Trailing Mimosa
-  - slug: tree-medick
-    name: Tree Medick
-  - slug: white-wild-indigo
-    name: White Wild Indigo
-  - slug: wild-indigo-bush
-    name: Wild Indigo Bush
-  - slug: wild-indigo
-    name: Wild Indigo
-  - slug: wild-senna
-    name: Wild Senna
-  - slug: winged-bean
-    name: Winged Bean
-  - slug: wisteria
-    name: Wisteria
-  - slug: yam-bean
-    name: Yam Bean
-  - slug: yellow-sweet-clover
-    name: Yellow Sweet Clover
+name: Pea Moth
+slug: pea-moth
+picture: pea_moth.webp
+scientific_name: Cydia nigricana
+description: If new growth is curling, yellowing, sticky, or chewed, pea moth may
+  already be on the plant. This pest often builds quietly, then damage appears all
+  at once. Feeding stress weakens growth, reduces yield, and opens the door to secondary
+  disease. Early cleanup is much easier than fighting a full population surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- skeletonized-leaves
+control_methods:
+  biological_controls: Trichogramma egg parasitoids attack pea moth eggs before they
+    hatch -- release weekly during adult flight periods for best results. Generalist
+    parasitoid wasps attack larvae. Support beneficial insects with diverse flowering
+    plants at plot edges -- dill, fennel, and sweet alyssum sustain parasitoid wasp
+    populations. Early-maturing pea varieties escape the worst late-season pressure
+    from second generation moths. Diverse rotations and flowering habitat at field
+    margins maintain parasitoid communities that regulate pea moth populations over
+    seasons.
+  preventive_methods: Pea moth larvae tunnel into pods and feed on developing seeds
+    -- infested pods look normal until opened, revealing caterpillar frass and damaged
+    seeds. Adults are small brown moths that fly at dusk. Pheromone traps establish
+    biofix for timing spray applications accurately -- record first catch dates yearly
+    to build a local management calendar. Early-maturing varieties planted and harvested
+    before peak moth flight escape most damage.
+  cultural_practices: Choose early-maturing cultivars that complete pod fill before
+    peak moth flight in your area. Destroy crop residues immediately after harvest
+    -- larvae drop from pods to pupate in soil under the crop. Avoid planting peas
+    adjacent to vetches and wild Pisum species that host pea moth populations. Wide
+    rotation away from legume family crops reduces local moth populations over seasons.
+  mechanical_physical: Floating row covers until flowering exclude adult moths from
+    laying eggs --  remove for pollination then replace, or hand-pollinate inside
+    covers for complete protection. Harvest promptly when pods are ready -- larvae
+    complete development faster in mature pods. Pheromone traps monitor adult flight
+    and tell you exactly when to apply sprays.
+  organic_sprays: Bt kurstaki applied during egg hatch from pheromone trap biofix
+    targets young larvae before they enter pods -- once inside pods larvae are completely
+    protected from contact sprays. Coat all pod surfaces thoroughly. Apply in the
+    evening. Spinosad provides stronger activity and longer residual where Bt timing
+    was missed. Timing from pheromone trap biofix is more important than product choice
+    --  the right spray at the right time outperforms the best product applied at
+    the wrong moment.
+natural_enemies:
+- Trichogramma spp.
+- Braconid Wasps
+affected_plants:
+- slug: acacia
+  name: Acacia
+- slug: african-locust-bean
+  name: African Locust Bean
+- slug: ahipa
+  name: Ahipa
+- slug: albizia-lebbeck
+  name: Albizia lebbeck
+- slug: alfalfa
+  name: Alfalfa
+- slug: asparagus-bean
+  name: Asparagus Bean
+- slug: baptisia
+  name: Baptisia
+- slug: bay-bean
+  name: Bay Bean
+- slug: beach-bean
+  name: Beach Bean
+- slug: black-medic
+  name: Black Medic
+- slug: black-mulga
+  name: Black Mulga
+- slug: black-locust
+  name: Black Locust
+- slug: bladder-senna
+  name: Bladder Senna
+- slug: blue-wild-indigo
+  name: Blue Wild Indigo
+- slug: carob-tree
+  name: Carob Tree
+- slug: cassia-alata
+  name: Cassia alata
+- slug: catclaw-sensitive-briar
+  name: Catclaw Sensitive Briar
+- slug: chickpea
+  name: Chickpea
+- slug: chilean-pea
+  name: Chilean Pea
+- slug: coffee-senna
+  name: Coffee Senna
+- slug: coffeeweed
+  name: Coffeeweed
+- slug: coral-bean
+  name: Coral Bean
+- slug: crimson-clover
+  name: Crimson Clover
+- slug: crown-vetch
+  name: Crown Vetch
+- slug: desert-ironwood
+  name: Desert Ironwood
+- slug: dutch-clover
+  name: Dutch Clover
+- slug: earth-chestnut
+  name: Earth Chestnut
+- slug: false-indigo
+  name: False Indigo
+- slug: fava-bean
+  name: Fava Bean
+- slug: florida-leadplant
+  name: Florida Leadplant
+- slug: goats-rue
+  name: Goat's Rue
+- slug: green-bean
+  name: Green Bean
+- slug: groundnut
+  name: Groundnut
+- slug: groundplum-milkvetch
+  name: Groundplum Milkvetch
+- slug: hairy-indigo
+  name: Hairy Indigo
+- slug: honey-locust
+  name: Honey Locust
+- slug: hopniss
+  name: Hopniss
+- slug: hyacinth-bean
+  name: Hyacinth Bean
+- slug: ice-cream-bean-tree
+  name: Ice Cream Bean Tree
+- slug: illinois-bundleflower
+  name: Illinois Bundleflower
+- slug: indigofera-tinctoria
+  name: Indigofera tinctoria
+- slug: jatoba
+  name: Jatoba
+- slug: jicama
+  name: Jicama
+- slug: lablab-bean
+  name: Lablab Bean
+- slug: lead-plant
+  name: Lead Plant
+- slug: leucaena
+  name: Leucaena
+- slug: lupine
+  name: Lupine
+- slug: mangrove-bean
+  name: Mangrove Bean
+- slug: milk-vetch
+  name: Milk Vetch
+- slug: mimosa
+  name: Mimosa
+- slug: mung-bean
+  name: Mung Bean
+- slug: palo-verde
+  name: Palo Verde
+- slug: partridge-acacia
+  name: Partridge Acacia
+- slug: partridge-cassia
+  name: Partridge Cassia
+- slug: partridge-pea
+  name: Partridge Pea
+- slug: pea
+  name: Pea
+- slug: perennial-peanut
+  name: Perennial Peanut
+- slug: pigeon-pea
+  name: Pigeon Pea
+- slug: plains-wild-indigo
+  name: Plains Wild Indigo
+- slug: powderpuff-mimosa
+  name: Powderpuff Mimosa
+- slug: prairie-acacia
+  name: Prairie Acacia
+- slug: prairie-potato
+  name: Prairie Potato
+- slug: prairie-turnip
+  name: Prairie Turnip
+- slug: rattlebox
+  name: Rattlebox
+- slug: sensitive-briar
+  name: Sensitive Briar
+- slug: sensitive-plant
+  name: Sensitive Plant
+- slug: sesbania
+  name: Sesbania
+- slug: sesbania-grandiflora
+  name: Sesbania grandiflora
+- slug: showy-partridge-pea
+  name: Showy Partridge Pea
+- slug: siberian-peashrub
+  name: Siberian Peashrub
+- slug: siberian-pea-shrub
+  name: Siberian Pea Shrub
+- slug: sicklepod
+  name: Sicklepod
+- slug: snow-pea
+  name: Snow Pea
+- slug: sun-hemp
+  name: Sun Hemp
+- slug: sunshine-mimosa
+  name: Sunshine Mimosa
+- slug: tagasaste
+  name: Tagasaste
+- slug: tephrosia-vogelii
+  name: Tephrosia vogelii
+- slug: tick-trefoil
+  name: Tick Trefoil
+- slug: trailing-mimosa
+  name: Trailing Mimosa
+- slug: tree-medick
+  name: Tree Medick
+- slug: white-wild-indigo
+  name: White Wild Indigo
+- slug: wild-indigo-bush
+  name: Wild Indigo Bush
+- slug: wild-indigo
+  name: Wild Indigo
+- slug: wild-senna
+  name: Wild Senna
+- slug: winged-bean
+  name: Winged Bean
+- slug: wisteria
+  name: Wisteria
+- slug: yam-bean
+  name: Yam Bean
+- slug: yellow-sweet-clover
+  name: Yellow Sweet Clover
+category: pest

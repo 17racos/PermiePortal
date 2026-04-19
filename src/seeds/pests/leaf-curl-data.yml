@@ -1,141 +1,137 @@
----
-- name: Leaf Curl
-  slug: leaf-curl
-  picture: leaf_curl.webp
-  scientific_name: Taphrina deformans
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, leaf curl may already
-    be active. This problem often starts small, then spreads across healthy tissue before most
-    growers realize how serious it is. Warmth, moisture, and crowded foliage usually speed it
-    up. Treat early, because waiting even a few days can turn a manageable infection into major
-    crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - distorted-growth
-  - leaf-spots
-  - curling-leaves
-  - dropping-leaves
-  control_methods:
-    biological_controls: >-
-      No insect or mite eats Taphrina leaf curl out of a peach tree -- this is a fungal pathogen,
-      not a bug buffet. Healthy soil food webs still matter because they support roots that handle
-      drought stress after infected leaves drop early. Compost teas and diverse understory plants
-      do not replace copper; they keep the tree from stacking other problems on top of curl.
-      Antagonistic microbes show up in research trials; in the backyard, assume they are helpers
-      after you handle sanitation and timing.
-    preventive_methods: >-
-      Spores overwinter on bark and bud scales, then infect young leaves as soon as buds open in
-      cool, wet springs -- the entire game is hitting that dormant window before pink bud. In wet
-      climates, mark your calendar on a rainy day in late winter to mix copper, not when petals
-      fall. Scout buds weekly from dormancy break; if long wet spells sit on the orchard, you may
-      need a follow-up label timing. Missing dormancy is how curl wins in maritime fruit country.
-    cultural_practices: >-
-      Plant resistant peach and nectarine cultivars where catalogs list proven field resistance --
-      rootstock alone rarely fixes curl. Avoid heavy nitrogen that pushes ultra-succulent spring
-      leaves; soft tissue is easier to colonize. Rake and remove infected leaf fall from under
-      trees if local rules allow; hot compost away from the canopy. Improve drainage so roots do
-      not sit in water while leaves fight fungus. Widen spacing or thin crowns so inner twigs dry
-      before nightfall.
-    mechanical_physical: >-
-      Prune out dead wood and crowded interior branches to let air move through the canopy --
-      drying leaves faster shortens infection windows. Remove severely infected shoots that
-      distort growth and harbor secondary spores. On small trees, strip the worst curled leaves
-      only if you catch them early; late in the season, focus on sanitation. Power-wash tools
-      between trees when you suspect bacterial canker alongside curl so you do not move wounds
-      around.
-    organic_sprays: >-
-      Fixed copper or Bordeaux mixture applied during dormancy and again at bud swell, before
-      green tissue shows, is the backbone of organic peach programs -- read the label for your
-      stone fruit and rate. Lime sulfur dormant sprays can suppress overwintering spores on bark
-      when labels allow; they smell terrible and work best as part of a plan, not alone. If wet
-      weather stretches into bloom, some labels allow limited copper timing -- never spray open
-      flowers if labels forbid it. Reapply after rain per label; copper washes off.
-  natural_enemies:
-  - Beneficial Microbes
-  - Soil Antagonistic Microbes
-  affected_plants:
-  - slug: angels-trumpet
-    name: Angel's Trumpet
-  - slug: ashwagandha
-    name: Ashwagandha
-  - slug: buffalo-bur
-    name: Buffalo Bur
-  - slug: chiltepin-pepper
-    name: Chiltepin Pepper
-  - slug: chiltepin-pepper-tree
-    name: Chiltepin Pepper Tree
-  - slug: chinese-lantern
-    name: Chinese Lantern
-  - slug: coastal-groundcherry
-    name: Coastal Groundcherry
-  - slug: devils-trumpet
-    name: Devil's Trumpet
-  - slug: garden-huckleberry
-    name: Garden Huckleberry
-  - slug: goji-berry
-    name: Goji Berry
-  - slug: ground-cherry
-    name: Ground Cherry
-  - slug: horse-nettle
-    name: Horse Nettle
-  - slug: pepino-melon
-    name: Pepino Melon
-  - slug: potato
-    name: Potato
-  - slug: scarlet-eggplant
-    name: Scarlet Eggplant
-  - slug: wild-eggplant
-    name: Wild Eggplant
-  - slug: wonderberry
-    name: Wonderberry
-  - slug: bael-fruit
-    name: Bael Fruit
-  - slug: bengal-quince
-    name: Bengal Quince
-  - slug: bitter-orange
-    name: Bitter Orange
-  - slug: buddha-hand
-    name: Buddha Hand
-  - slug: calamondin
-    name: Calamondin
-  - slug: citron
-    name: Citron
-  - slug: curry-leaf-tree
-    name: Curry Leaf Tree
-  - slug: finger-lime
-    name: Finger Lime
-  - slug: hercules-club
-    name: Hercules Club
-  - slug: kaffir-lime
-    name: Kaffir Lime
-  - slug: kumquat
-    name: Kumquat
-  - slug: lemon-tree
-    name: Lemon Tree
-  - slug: lime-tree
-    name: Lime Tree
-  - slug: pomelo
-    name: Pomelo
-  - slug: prickly-ash
-    name: Prickly Ash
-  - slug: rangpur-lime
-    name: Rangpur Lime
-  - slug: rue
-    name: Rue
-  - slug: sour-orange
-    name: Sour Orange
-  - slug: tangerine
-    name: Tangerine
-  - slug: white-sapote
-    name: White Sapote
-  - slug: wild-lime
-    name: Wild Lime
-  - slug: wood-apple
-    name: Wood Apple
-  - slug: yuzu
-    name: Yuzu
+name: Leaf Curl
+slug: leaf-curl
+picture: leaf_curl.webp
+scientific_name: Taphrina deformans
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  leaf curl may already be active. This problem often starts small, then spreads across
+  healthy tissue before most growers realize how serious it is. Warmth, moisture,
+  and crowded foliage usually speed it up. Treat early, because waiting even a few
+  days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- distorted-growth
+- leaf-spots
+- curling-leaves
+- dropping-leaves
+control_methods:
+  biological_controls: No insect or mite eats Taphrina leaf curl out of a peach tree
+    -- this is a fungal pathogen, not a bug buffet. Healthy soil food webs still matter
+    because they support roots that handle drought stress after infected leaves drop
+    early. Compost teas and diverse understory plants do not replace copper; they
+    keep the tree from stacking other problems on top of curl. Antagonistic microbes
+    show up in research trials; in the backyard, assume they are helpers after you
+    handle sanitation and timing.
+  preventive_methods: Spores overwinter on bark and bud scales, then infect young
+    leaves as soon as buds open in cool, wet springs -- the entire game is hitting
+    that dormant window before pink bud. In wet climates, mark your calendar on a
+    rainy day in late winter to mix copper, not when petals fall. Scout buds weekly
+    from dormancy break; if long wet spells sit on the orchard, you may need a follow-up
+    label timing. Missing dormancy is how curl wins in maritime fruit country.
+  cultural_practices: Plant resistant peach and nectarine cultivars where catalogs
+    list proven field resistance -- rootstock alone rarely fixes curl. Avoid heavy
+    nitrogen that pushes ultra-succulent spring leaves; soft tissue is easier to colonize.
+    Rake and remove infected leaf fall from under trees if local rules allow; hot
+    compost away from the canopy. Improve drainage so roots do not sit in water while
+    leaves fight fungus. Widen spacing or thin crowns so inner twigs dry before nightfall.
+  mechanical_physical: Prune out dead wood and crowded interior branches to let air
+    move through the canopy -- drying leaves faster shortens infection windows. Remove
+    severely infected shoots that distort growth and harbor secondary spores. On small
+    trees, strip the worst curled leaves only if you catch them early; late in the
+    season, focus on sanitation. Power-wash tools between trees when you suspect bacterial
+    canker alongside curl so you do not move wounds around.
+  organic_sprays: Fixed copper or Bordeaux mixture applied during dormancy and again
+    at bud swell, before green tissue shows, is the backbone of organic peach programs
+    -- read the label for your stone fruit and rate. Lime sulfur dormant sprays can
+    suppress overwintering spores on bark when labels allow; they smell terrible and
+    work best as part of a plan, not alone. If wet weather stretches into bloom, some
+    labels allow limited copper timing -- never spray open flowers if labels forbid
+    it. Reapply after rain per label; copper washes off.
+natural_enemies:
+- Beneficial Microbes
+- Soil Antagonistic Microbes
+affected_plants:
+- slug: angels-trumpet
+  name: Angel's Trumpet
+- slug: ashwagandha
+  name: Ashwagandha
+- slug: buffalo-bur
+  name: Buffalo Bur
+- slug: chiltepin-pepper
+  name: Chiltepin Pepper
+- slug: chiltepin-pepper-tree
+  name: Chiltepin Pepper Tree
+- slug: chinese-lantern
+  name: Chinese Lantern
+- slug: coastal-groundcherry
+  name: Coastal Groundcherry
+- slug: devils-trumpet
+  name: Devil's Trumpet
+- slug: garden-huckleberry
+  name: Garden Huckleberry
+- slug: goji-berry
+  name: Goji Berry
+- slug: ground-cherry
+  name: Ground Cherry
+- slug: horse-nettle
+  name: Horse Nettle
+- slug: pepino-melon
+  name: Pepino Melon
+- slug: potato
+  name: Potato
+- slug: scarlet-eggplant
+  name: Scarlet Eggplant
+- slug: wild-eggplant
+  name: Wild Eggplant
+- slug: wonderberry
+  name: Wonderberry
+- slug: bael-fruit
+  name: Bael Fruit
+- slug: bengal-quince
+  name: Bengal Quince
+- slug: bitter-orange
+  name: Bitter Orange
+- slug: buddha-hand
+  name: Buddha Hand
+- slug: calamondin
+  name: Calamondin
+- slug: citron
+  name: Citron
+- slug: curry-leaf-tree
+  name: Curry Leaf Tree
+- slug: finger-lime
+  name: Finger Lime
+- slug: hercules-club
+  name: Hercules Club
+- slug: kaffir-lime
+  name: Kaffir Lime
+- slug: kumquat
+  name: Kumquat
+- slug: lemon-tree
+  name: Lemon Tree
+- slug: lime-tree
+  name: Lime Tree
+- slug: pomelo
+  name: Pomelo
+- slug: prickly-ash
+  name: Prickly Ash
+- slug: rangpur-lime
+  name: Rangpur Lime
+- slug: rue
+  name: Rue
+- slug: sour-orange
+  name: Sour Orange
+- slug: tangerine
+  name: Tangerine
+- slug: white-sapote
+  name: White Sapote
+- slug: wild-lime
+  name: Wild Lime
+- slug: wood-apple
+  name: Wood Apple
+- slug: yuzu
+  name: Yuzu
+category: disease

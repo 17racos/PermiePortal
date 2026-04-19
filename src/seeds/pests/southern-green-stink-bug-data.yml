@@ -1,46 +1,45 @@
----
-- name: Southern Green Stink Bug
-  slug: southern-green-stink-bug
-  picture: southern_green_stink_bug.webp
-  scientific_name: Nezara viridula
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, southern green stink bug may already
-    be on the plant. This pest often builds quietly, then damage appears all at once. Feeding
-    stress weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup
-    is much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - fruit-damage
-  - wilting
-  - yellowing-leaves
-  - distorted-growth
-  control_methods:
-    biological_controls: >-
-      Trissolcus basalis and Telenomus wasps parasitize stink bug eggs -- you see dark, empty
-      egg clusters when they work. Assassin bugs and spiders pick off nymphs. Flowering strips feed
-      adult parasitoids when cash crops are still small. Broad-spectrum pyrethrin during egg weeks
-      kills parasitoids while bugs walk back from headlands.
-    preventive_methods: >-
-      Mow or manage weed hosts near fields before fruit set -- crucifers and legumes in ditches
-      stack adults before they move into cash crops. Use row covers on beans and solanums until
-      flowering if pollination allows. Scout early nymph clusters; late instars are armored.
-    cultural_practices: >-
-      Plant millet, buckwheat, or mustard trap crops ahead of cash crops and destroy or flame
-      trap rows when adults pile on -- late traps become nurseries. Rotate crops so overwintering
-      adults meet confusing rotations. Avoid excess nitrogen that masks injury until pods fail.
-    mechanical_physical: >-
-      Shake bushes into soapy water in early morning when adults are sluggish. Vacuum
-      aggregations on trap rows during cool hours. For backyard tomatoes, hand-pick nymphs while
-      they still cluster -- dull work, fast payoff.
-    organic_sprays: >-
-      Neem and soap target soft nymphs with full coverage -- adults shrug. Kaolin on fruit
-      reduces feeding if film stays even after wind. Spray at dusk to spare bees on open blooms.
-      Repeat every few days while generations overlap; stink bugs keep walking in from edges.
-  natural_enemies:
-  - Trissolcus basalis
-  - Telenomus spp.
-  - Assassin Bugs
+name: Southern Green Stink Bug
+slug: southern-green-stink-bug
+picture: southern_green_stink_bug.webp
+scientific_name: Nezara viridula
+description: If new growth is curling, yellowing, sticky, or chewed, southern green
+  stink bug may already be on the plant. This pest often builds quietly, then damage
+  appears all at once. Feeding stress weakens growth, reduces yield, and opens the
+  door to secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- fruit-damage
+- wilting
+- yellowing-leaves
+- distorted-growth
+control_methods:
+  biological_controls: Trissolcus basalis and Telenomus wasps parasitize stink bug
+    eggs -- you see dark, empty egg clusters when they work. Assassin bugs and spiders
+    pick off nymphs. Flowering strips feed adult parasitoids when cash crops are still
+    small. Broad-spectrum pyrethrin during egg weeks kills parasitoids while bugs
+    walk back from headlands.
+  preventive_methods: Mow or manage weed hosts near fields before fruit set -- crucifers
+    and legumes in ditches stack adults before they move into cash crops. Use row
+    covers on beans and solanums until flowering if pollination allows. Scout early
+    nymph clusters; late instars are armored.
+  cultural_practices: Plant millet, buckwheat, or mustard trap crops ahead of cash
+    crops and destroy or flame trap rows when adults pile on -- late traps become
+    nurseries. Rotate crops so overwintering adults meet confusing rotations. Avoid
+    excess nitrogen that masks injury until pods fail.
+  mechanical_physical: Shake bushes into soapy water in early morning when adults
+    are sluggish. Vacuum aggregations on trap rows during cool hours. For backyard
+    tomatoes, hand-pick nymphs while they still cluster -- dull work, fast payoff.
+  organic_sprays: Neem and soap target soft nymphs with full coverage -- adults shrug.
+    Kaolin on fruit reduces feeding if film stays even after wind. Spray at dusk to
+    spare bees on open blooms. Repeat every few days while generations overlap; stink
+    bugs keep walking in from edges.
+natural_enemies:
+- Trissolcus basalis
+- Telenomus spp.
+- Assassin Bugs
+category: pest

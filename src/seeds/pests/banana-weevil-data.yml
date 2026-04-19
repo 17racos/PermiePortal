@@ -1,56 +1,52 @@
----
-- name: Banana Weevil
-  slug: banana-weevil
-  picture: banana_weevil.webp
-  scientific_name: Cosmopolites sordidus
-  description: >-
-    If plants are wilting, notching at the edges, or fruit and roots show hidden feeding damage,
-    banana weevil may be the cause. Adults chew above ground while larvae often feed out of
-    sight inside soil, stems, or fruit. Damage builds quietly, then plants crash fast when roots
-    are heavily hit. Act early so a small weevil problem does not become a season-long
-    infestation.
-  characteristics: >-
-    Look for small beetles with a hard body and a distinct snout, usually active at dawn, dusk,
-    or night. Check for crescent-shaped leaf notches, punctures in fruit, or tiny entry holes
-    near stems. In soil or damaged tissue, larvae are often pale, legless, and curved in a
-    C-shape. Fresh chew marks plus snout beetles or C-shaped grubs confirm active weevil
-    pressure.
-  symptoms:
-  - chewed-stems
-  - stem-damage
-  - fruit-damage
-  - holes-in-leaves
-  - root-damage
-  control_methods:
-    biological_controls: >-
-      Beauveria bassiana formulations infect banana weevils when spores contact adults in moist
-      traps -- rotate with sanitation so you do not select resistant beetles. Ants and earwigs
-      scavenge eggs in mulch; poultry scratch at mats where local rules allow. Nematodes rarely
-      fix cryptic borers inside corms; focus on trapping adults and cleaning planting stock.
-    preventive_methods: >-
-      Start from certified tissue-culture plants; field-collected suckers often carry hidden
-      grubs. Isolate new mats one season before blending into clean blocks. Monitor pseudostem
-      traps monthly -- early numbers beat late mat collapse when corms turn to sawdust inside.
-      Map farms with history and inspect those mats first after storms.
-    cultural_practices: >-
-      At harvest, split pseudostems and remove old corms so larvae cannot finish generations
-      inside stumps. Solarize or hot-water treat sword suckers before replanting when protocols
-      exist. Fix drainage; puddle fields only where standing water otherwise invites rot worse
-      than weevils. Remove debris piles that shelter adults between mats.
-    mechanical_physical: >-
-      Pseudostem traps baited with fermenting fruit or pheromone where available catch adults
-      walking at night -- empty traps weekly. Chop and destroy infested material off-site under
-      biosecurity rules. For small plots, hand-remove adults at night with a headlamp and soapy
-      bucket.
-    organic_sprays: >-
-      Neem or pyrethrin drenches into traps or cut stumps knock down adults contacting bait --
-      rotate actives and respect label intervals. Focus spray on breeding sites, not canopy fogging
-      that kills everything except the grubs inside corms. Repeat after rain; many botanicals
-      wash fast.
-  natural_enemies:
-  - Ants
-  - Earwigs
-  - Ground Beetles
-  affected_plants:
-  - slug: banana
-    name: Banana
+name: Banana Weevil
+slug: banana-weevil
+picture: banana_weevil.webp
+scientific_name: Cosmopolites sordidus
+description: If plants are wilting, notching at the edges, or fruit and roots show
+  hidden feeding damage, banana weevil may be the cause. Adults chew above ground
+  while larvae often feed out of sight inside soil, stems, or fruit. Damage builds
+  quietly, then plants crash fast when roots are heavily hit. Act early so a small
+  weevil problem does not become a season-long infestation.
+characteristics: Look for small beetles with a hard body and a distinct snout, usually
+  active at dawn, dusk, or night. Check for crescent-shaped leaf notches, punctures
+  in fruit, or tiny entry holes near stems. In soil or damaged tissue, larvae are
+  often pale, legless, and curved in a C-shape. Fresh chew marks plus snout beetles
+  or C-shaped grubs confirm active weevil pressure.
+symptoms:
+- chewed-stems
+- stem-damage
+- fruit-damage
+- holes-in-leaves
+- root-damage
+control_methods:
+  biological_controls: Beauveria bassiana formulations infect banana weevils when
+    spores contact adults in moist traps -- rotate with sanitation so you do not select
+    resistant beetles. Ants and earwigs scavenge eggs in mulch; poultry scratch at
+    mats where local rules allow. Nematodes rarely fix cryptic borers inside corms;
+    focus on trapping adults and cleaning planting stock.
+  preventive_methods: Start from certified tissue-culture plants; field-collected
+    suckers often carry hidden grubs. Isolate new mats one season before blending
+    into clean blocks. Monitor pseudostem traps monthly -- early numbers beat late
+    mat collapse when corms turn to sawdust inside. Map farms with history and inspect
+    those mats first after storms.
+  cultural_practices: At harvest, split pseudostems and remove old corms so larvae
+    cannot finish generations inside stumps. Solarize or hot-water treat sword suckers
+    before replanting when protocols exist. Fix drainage; puddle fields only where
+    standing water otherwise invites rot worse than weevils. Remove debris piles that
+    shelter adults between mats.
+  mechanical_physical: Pseudostem traps baited with fermenting fruit or pheromone
+    where available catch adults walking at night -- empty traps weekly. Chop and
+    destroy infested material off-site under biosecurity rules. For small plots, hand-remove
+    adults at night with a headlamp and soapy bucket.
+  organic_sprays: Neem or pyrethrin drenches into traps or cut stumps knock down adults
+    contacting bait -- rotate actives and respect label intervals. Focus spray on
+    breeding sites, not canopy fogging that kills everything except the grubs inside
+    corms. Repeat after rain; many botanicals wash fast.
+natural_enemies:
+- Ants
+- Earwigs
+- Ground Beetles
+affected_plants:
+- slug: banana
+  name: Banana
+category: pest

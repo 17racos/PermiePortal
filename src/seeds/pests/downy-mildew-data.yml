@@ -1,62 +1,56 @@
----
-- name: Downy Mildew
-  slug: downy-mildew
-  picture: downy_mildew.webp
-  scientific_name: Peronosporaceae (oomycetes; host-specific species)
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, downy mildew may
-    already be active. This problem often starts small, then spreads across healthy tissue
-    before most growers realize how serious it is. Warmth, moisture, and crowded foliage usually
-    speed it up. Treat early, because waiting even a few days can turn a manageable infection
-    into major crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - leaf-spots
-  - yellowing-leaves
-  - wilting
-  - distorted-growth
-  control_methods:
-    biological_controls: >-
-      Bacillus subtilis and Trichoderma products applied preventively as foliar sprays
-      reduce downy mildew infection rates by competing with the pathogen on leaf surfaces.
-      Compost teas with diverse microbial communities have variable results but support
-      overall plant health and foliar biology. Phosphite-based products stimulate plant
-      immune responses to downy mildew -- check organic certification status before
-      use. Strong soil biology and mycorrhizal fungi support plant resilience and immune
-      response to infection.
-    preventive_methods: >-
-      Downy mildew is not a true fungus but an oomycete (water mold) related to late
-      blight. It spreads by airborne spores in cool wet conditions and by windblown
-      rain. The pale yellow angular spots on upper leaf surfaces and purple-gray fuzzy
-      growth on undersides are distinctive. It is host-specific -- cucumber downy
-      mildew only infects cucurbits, basil downy mildew only basil. Choose resistant
-      varieties wherever available -- breeders have developed excellent downy mildew
-      resistant cucumber, lettuce, basil, and spinach varieties.
-    cultural_practices: >-
-      Water at soil line only -- wet leaves are required for infection. Space plants
-      for maximum air circulation. Vertical trellising improves airflow through the
-      canopy. Remove infected leaves immediately and bag -- do not compost. Avoid
-      working in the garden when plants are wet as you can spread spores on hands and
-      tools. Destroy all crop debris at season end -- some downy mildew pathogens
-      overwinter in soil on plant debris.
-    mechanical_physical: >-
-      High tunnels with sides that vent effectively keep foliage dry and dramatically
-      reduce downy mildew pressure -- the most reliable structural protection for
-      susceptible crops. Row covers delay exposure on direct-seeded crops. Vertical
-      trellising improves air circulation significantly compared to sprawling crops.
-    organic_sprays: >-
-      Copper fungicides applied on a preventive schedule before wet weather are the
-      most effective organic spray -- apply before infection periods, not after
-      symptoms appear. Copper must be on leaf surfaces before spores land to be
-      effective. Reapply after rain. Phosphite products (check organic certification)
-      stimulate plant immune response and reduce infection rates. Potassium bicarbonate
-      kills spores on contact as a curative spray on early infections. Sulfur on some
-      crops. Rotate materials to prevent resistance buildup.
-  natural_enemies:
-  - Hyperparasitic Fungi
-  - Competitive Microbes
+name: Downy Mildew
+slug: downy-mildew
+picture: downy_mildew.webp
+scientific_name: Peronosporaceae (oomycetes; host-specific species)
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  downy mildew may already be active. This problem often starts small, then spreads
+  across healthy tissue before most growers realize how serious it is. Warmth, moisture,
+  and crowded foliage usually speed it up. Treat early, because waiting even a few
+  days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- leaf-spots
+- yellowing-leaves
+- wilting
+- distorted-growth
+control_methods:
+  biological_controls: Bacillus subtilis and Trichoderma products applied preventively
+    as foliar sprays reduce downy mildew infection rates by competing with the pathogen
+    on leaf surfaces. Compost teas with diverse microbial communities have variable
+    results but support overall plant health and foliar biology. Phosphite-based products
+    stimulate plant immune responses to downy mildew -- check organic certification
+    status before use. Strong soil biology and mycorrhizal fungi support plant resilience
+    and immune response to infection.
+  preventive_methods: Downy mildew is not a true fungus but an oomycete (water mold)
+    related to late blight. It spreads by airborne spores in cool wet conditions and
+    by windblown rain. The pale yellow angular spots on upper leaf surfaces and purple-gray
+    fuzzy growth on undersides are distinctive. It is host-specific -- cucumber downy
+    mildew only infects cucurbits, basil downy mildew only basil. Choose resistant
+    varieties wherever available -- breeders have developed excellent downy mildew
+    resistant cucumber, lettuce, basil, and spinach varieties.
+  cultural_practices: Water at soil line only -- wet leaves are required for infection.
+    Space plants for maximum air circulation. Vertical trellising improves airflow
+    through the canopy. Remove infected leaves immediately and bag -- do not compost.
+    Avoid working in the garden when plants are wet as you can spread spores on hands
+    and tools. Destroy all crop debris at season end -- some downy mildew pathogens
+    overwinter in soil on plant debris.
+  mechanical_physical: High tunnels with sides that vent effectively keep foliage
+    dry and dramatically reduce downy mildew pressure -- the most reliable structural
+    protection for susceptible crops. Row covers delay exposure on direct-seeded crops.
+    Vertical trellising improves air circulation significantly compared to sprawling
+    crops.
+  organic_sprays: Copper fungicides applied on a preventive schedule before wet weather
+    are the most effective organic spray -- apply before infection periods, not after
+    symptoms appear. Copper must be on leaf surfaces before spores land to be effective.
+    Reapply after rain. Phosphite products (check organic certification) stimulate
+    plant immune response and reduce infection rates. Potassium bicarbonate kills
+    spores on contact as a curative spray on early infections. Sulfur on some crops.
+    Rotate materials to prevent resistance buildup.
+natural_enemies:
+- Hyperparasitic Fungi
+- Competitive Microbes
+category: disease

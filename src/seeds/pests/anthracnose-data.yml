@@ -1,64 +1,58 @@
----
-- name: Anthracnose
-  slug: anthracnose
-  picture: anthracnose.webp
-  scientific_name: Colletotrichum spp.
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, anthracnose may
-    already be active. This problem often starts small, then spreads across healthy tissue
-    before most growers realize how serious it is. Warmth, moisture, and crowded foliage usually
-    speed it up. Treat early, because waiting even a few days can turn a manageable infection
-    into major crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - leaf-spots
-  - fruit-damage
-  - die-back
-  - wilting
-  control_methods:
-    biological_controls: >-
-      Bacillus subtilis and Trichoderma products as seed treatments and soil amendments
-      reduce anthracnose infection on beans and vegetables by competing with the pathogen
-      in the soil and rhizosphere. Pseudomonas fluorescens as a seed treatment suppresses
-      some anthracnose pathogens. A diverse and active phyllosphere microbial community
-      on leaf surfaces naturally competes with anthracnose spores. Avoid sterilizing
-      copper sprays that eliminate beneficial competing organisms on plant surfaces.
-    preventive_methods: >-
-      Anthracnose infects fruit, leaves, and stems causing dark sunken spots with
-      salmon-colored spore masses in wet weather -- the salmon or pink spore masses
-      in lesion centers are distinctive. It spreads primarily by rain splash and overhead
-      irrigation. Use certified disease-free seed -- anthracnose overwinters in infected
-      seed from infected plants. Rotate susceptible crops (beans, tomatoes, cucurbits,
-      strawberries) on 3-4 year cycles. Scout after rainstorms when infection conditions
-      peak.
-    cultural_practices: >-
-      Avoid working in the garden when plants are wet -- you spread anthracnose spores
-      on hands, tools, and clothing. Sanitize stakes, ties, and tools between plants
-      with 70% isopropyl alcohol. Mulch under plants prevents soil splash -- the
-      primary way anthracnose reaches foliage and fruit from infected soil. Widen plant
-      spacing and trellis where possible for air circulation and faster drying. Remove
-      and bag infected plant material immediately -- never compost anthracnose-infected
-      debris as the pathogen survives composting.
-    mechanical_physical: >-
-      Mulch under plants to prevent rain splash carrying spores from soil to foliage
-      and fruit -- one of the most effective physical interventions. Prune lower
-      branches on trees and shrubs to lift the canopy above the splash zone. Remove
-      infected fruit and leaves immediately and bag for disposal. Drip irrigation
-      rather than overhead completely eliminates the primary infection pathway.
-    organic_sprays: >-
-      Copper fungicides on a protectant schedule during wet periods are the most
-      effective organic spray -- apply before wet weather on a 7-10 day schedule.
-      Copper must be applied preventively before infection. Bacillus subtilis (Serenade)
-      as part of a rotation provides biological suppression. Sulfur has some efficacy
-      on anthracnose on certain crops. Neem oil has limited curative value but some
-      preventive effect when applied consistently. Rotate materials to prevent resistance
-      and reduce copper accumulation in soil.
-  natural_enemies:
-  - Trichoderma spp.
-  - Pseudomonas fluorescens
-  - Bacillus subtilis
+name: Anthracnose
+slug: anthracnose
+picture: anthracnose.webp
+scientific_name: Colletotrichum spp.
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  anthracnose may already be active. This problem often starts small, then spreads
+  across healthy tissue before most growers realize how serious it is. Warmth, moisture,
+  and crowded foliage usually speed it up. Treat early, because waiting even a few
+  days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- leaf-spots
+- fruit-damage
+- die-back
+- wilting
+control_methods:
+  biological_controls: Bacillus subtilis and Trichoderma products as seed treatments
+    and soil amendments reduce anthracnose infection on beans and vegetables by competing
+    with the pathogen in the soil and rhizosphere. Pseudomonas fluorescens as a seed
+    treatment suppresses some anthracnose pathogens. A diverse and active phyllosphere
+    microbial community on leaf surfaces naturally competes with anthracnose spores.
+    Avoid sterilizing copper sprays that eliminate beneficial competing organisms
+    on plant surfaces.
+  preventive_methods: Anthracnose infects fruit, leaves, and stems causing dark sunken
+    spots with salmon-colored spore masses in wet weather -- the salmon or pink spore
+    masses in lesion centers are distinctive. It spreads primarily by rain splash
+    and overhead irrigation. Use certified disease-free seed -- anthracnose overwinters
+    in infected seed from infected plants. Rotate susceptible crops (beans, tomatoes,
+    cucurbits, strawberries) on 3-4 year cycles. Scout after rainstorms when infection
+    conditions peak.
+  cultural_practices: Avoid working in the garden when plants are wet -- you spread
+    anthracnose spores on hands, tools, and clothing. Sanitize stakes, ties, and tools
+    between plants with 70% isopropyl alcohol. Mulch under plants prevents soil splash
+    -- the primary way anthracnose reaches foliage and fruit from infected soil. Widen
+    plant spacing and trellis where possible for air circulation and faster drying.
+    Remove and bag infected plant material immediately -- never compost anthracnose-infected
+    debris as the pathogen survives composting.
+  mechanical_physical: Mulch under plants to prevent rain splash carrying spores from
+    soil to foliage and fruit -- one of the most effective physical interventions.
+    Prune lower branches on trees and shrubs to lift the canopy above the splash zone.
+    Remove infected fruit and leaves immediately and bag for disposal. Drip irrigation
+    rather than overhead completely eliminates the primary infection pathway.
+  organic_sprays: Copper fungicides on a protectant schedule during wet periods are
+    the most effective organic spray -- apply before wet weather on a 7-10 day schedule.
+    Copper must be applied preventively before infection. Bacillus subtilis (Serenade)
+    as part of a rotation provides biological suppression. Sulfur has some efficacy
+    on anthracnose on certain crops. Neem oil has limited curative value but some
+    preventive effect when applied consistently. Rotate materials to prevent resistance
+    and reduce copper accumulation in soil.
+natural_enemies:
+- Trichoderma spp.
+- Pseudomonas fluorescens
+- Bacillus subtilis
+category: disease

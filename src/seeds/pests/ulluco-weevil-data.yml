@@ -1,58 +1,55 @@
----
-- name: Ulluco Weevil
-  slug: ulluco-weevil
-  picture: ulluco_weevil.webp
-  scientific_name: Premnotrypes latithorax
-  description: >-
-    If plants are wilting, notching at the edges, or fruit and roots show hidden feeding damage,
-    ulluco weevil may be the cause. Adults chew above ground while larvae often feed out of
-    sight inside soil, stems, or fruit. Damage builds quietly, then plants crash fast when roots
-    are heavily hit. Act early so a small weevil problem does not become a season-long
-    infestation.
-  characteristics: >-
-    Look for small beetles with a hard body and a distinct snout, usually active at dawn, dusk,
-    or night. Check for crescent-shaped leaf notches, punctures in fruit, or tiny entry holes
-    near stems. In soil or damaged tissue, larvae are often pale, legless, and curved in a
-    C-shape. Fresh chew marks plus snout beetles or C-shaped grubs confirm active weevil
-    pressure.
-  symptoms:
-  - chewed-stems
-  - stem-damage
-  - fruit-damage
-  - holes-in-leaves
-  - root-damage
-  control_methods:
-    biological_controls: >-
-      Entomopathogenic nematodes in moist beds after harvest incorporation attack pupae in soil
-      when soil temperature fits the product. Ground beetles and spiders hunt adults walking
-      mulch. Mulch-rich systems support general predators if you avoid nightly pyrethrin -- balance
-      moisture so nematodes survive, not so much that tubers rot.
-    preventive_methods: >-
-      Inspect imported Andean germplasm under quarantine; isolate new lines one season before
-      field release. Shake adults onto white sheets over foliage at dusk -- weevils drop when
-      startled. Map fields with history and walk those first each year. Clean seed tubers beat
-      mystery imports.
-    cultural_practices: >-
-      Rotate ulluco with non-host crops so overwintering adults meet bare soil. Use only clean
-      propagation material; cull infested tubers before storage. Harvest carefully to avoid
-      wounds that invite egg-lay. Sterilize tools between plots so you do not drag grubs on mud.
-    mechanical_physical: >-
-      Floating row covers on new plantings block adults until vines outgrow hoops -- bury edges.
-      Pitfall traps along bed edges catch walking weevils for monitoring. Solarize small nursery
-      beds in sunny sites if you can tarp for weeks before planting.
-    organic_sprays: >-
-      Neem and Beauveria bassiana target adults during evening activity when contact sprays hit
-      walking beetles. Soil drenches with approved microbial products may reach larvae near crowns
-      when labels and certifiers allow -- read restrictions. Repeat after rain; fungi need moisture
-      to infect. Combine with rotation; sprays rarely fix fields full of pupae.
-  natural_enemies:
-  - Ground Beetles (Carabidae)
-  - Entomopathogenic Nematodes
-  - Entomopathogenic Fungi
-  affected_plants:
-  - slug: malabar-spinach
-    name: Malabar Spinach
-  - slug: tropical-spinach
-    name: Tropical Spinach
-  - slug: ulluco
-    name: Ulluco
+name: Ulluco Weevil
+slug: ulluco-weevil
+picture: ulluco_weevil.webp
+scientific_name: Premnotrypes latithorax
+description: If plants are wilting, notching at the edges, or fruit and roots show
+  hidden feeding damage, ulluco weevil may be the cause. Adults chew above ground
+  while larvae often feed out of sight inside soil, stems, or fruit. Damage builds
+  quietly, then plants crash fast when roots are heavily hit. Act early so a small
+  weevil problem does not become a season-long infestation.
+characteristics: Look for small beetles with a hard body and a distinct snout, usually
+  active at dawn, dusk, or night. Check for crescent-shaped leaf notches, punctures
+  in fruit, or tiny entry holes near stems. In soil or damaged tissue, larvae are
+  often pale, legless, and curved in a C-shape. Fresh chew marks plus snout beetles
+  or C-shaped grubs confirm active weevil pressure.
+symptoms:
+- chewed-stems
+- stem-damage
+- fruit-damage
+- holes-in-leaves
+- root-damage
+control_methods:
+  biological_controls: Entomopathogenic nematodes in moist beds after harvest incorporation
+    attack pupae in soil when soil temperature fits the product. Ground beetles and
+    spiders hunt adults walking mulch. Mulch-rich systems support general predators
+    if you avoid nightly pyrethrin -- balance moisture so nematodes survive, not so
+    much that tubers rot.
+  preventive_methods: Inspect imported Andean germplasm under quarantine; isolate
+    new lines one season before field release. Shake adults onto white sheets over
+    foliage at dusk -- weevils drop when startled. Map fields with history and walk
+    those first each year. Clean seed tubers beat mystery imports.
+  cultural_practices: Rotate ulluco with non-host crops so overwintering adults meet
+    bare soil. Use only clean propagation material; cull infested tubers before storage.
+    Harvest carefully to avoid wounds that invite egg-lay. Sterilize tools between
+    plots so you do not drag grubs on mud.
+  mechanical_physical: Floating row covers on new plantings block adults until vines
+    outgrow hoops -- bury edges. Pitfall traps along bed edges catch walking weevils
+    for monitoring. Solarize small nursery beds in sunny sites if you can tarp for
+    weeks before planting.
+  organic_sprays: Neem and Beauveria bassiana target adults during evening activity
+    when contact sprays hit walking beetles. Soil drenches with approved microbial
+    products may reach larvae near crowns when labels and certifiers allow -- read
+    restrictions. Repeat after rain; fungi need moisture to infect. Combine with rotation;
+    sprays rarely fix fields full of pupae.
+natural_enemies:
+- Ground Beetles (Carabidae)
+- Entomopathogenic Nematodes
+- Entomopathogenic Fungi
+affected_plants:
+- slug: malabar-spinach
+  name: Malabar Spinach
+- slug: tropical-spinach
+  name: Tropical Spinach
+- slug: ulluco
+  name: Ulluco
+category: pest

@@ -1,66 +1,58 @@
----
-- name: Cherry Fruit Fly
-  slug: cherry-fruit-fly
-  picture: cherry_fruit_fly.webp
-  scientific_name: Rhagoletis cingulata
-  description: >-
-    If leaves show trails, fruit turns soft, or roots collapse from inside, cherry fruit fly may
-    already be feeding. The larval stage does most of the damage, often hidden where you cannot
-    see it at first glance. By the time yellowing or rot appears, feeding may be well underway.
-    Move quickly when symptoms begin to prevent another wave of eggs and larvae.
-  characteristics: >-
-    Watch for tiny eggs near plant tissue, pale legless larvae inside mines or fruit, and sudden
-    soft spots or tunnels. Adults are usually small flies that hover or dart when disturbed.
-    Check around wounds, blossoms, and moist plant debris where egg-laying is common. Cut open
-    suspect tissue: live maggots or fresh tunnels are the clearest field confirmation.
-  symptoms:
-  - fruit-damage
-  - wilting
-  - distorted-growth
-  - leaf-spots
-  control_methods:
-    biological_controls: >-
-      Ground beetles, birds, and ants consume cherry fruit fly larvae and pupae
-      in soil under trees — maintain permanent diverse groundcover to support
-      these predators year-round. Parasitic wasps provide weak control compared
-      to sanitation but contribute to overall population pressure. Chickens or
-      ducks allowed supervised orchard access consume larvae in fallen fruit
-      where food safety regulations permit. Steinernema feltiae nematodes applied
-      to soil under tree drip lines target pupating larvae.
-    preventive_methods: >-
-      Cherry fruit fly adults emerge in late spring and lay single eggs under
-      the skin of developing cherries — the entry hole is invisible and larvae
-      are found only when fruit is cut. Red sticky sphere traps baited with
-      ammonium acetate and cherry volatile monitor adult emergence — first
-      catch indicates egg-laying has begun and protection must be in place.
-      Harvest promptly when fruit reaches maturity — overripe cherries are
-      far more attractive to laying females and larvae develop faster in
-      warm fruit.
-    cultural_practices: >-
-      Collect and destroy all fallen and infested fruit every 2-3 days during
-      ripening season — this breaks the cycle more reliably than any spray.
-      Mow or mulch dropped fruit to prevent larvae from reaching soil to pupate.
-      Prune for open canopy to improve spray coverage and expose fruit to bird
-      predation. Fine netting over entire dwarf trees after pollination is
-      complete is the most reliableor small plantings.
-    mechanical_physical: >-
-      Fine mesh netting over entire dwarf trees after pollination excludes
-      adult flies from laying eggs if edges are buried or secured. Red sticky
-      sphere traps plus ammonium bait at 1 per tree both monitor populations
-      and provide mass trapping at small scale. Individual fruit removal and
-      disposal at first sign of infestation. Solarize shallow soil under trees
-      in summer to kill pupae.
-    organic_sprays: >-
-      Spinosad applied to foliage starting at first adult catch and reapplied
-      every 7 days through harvest kills adults feeding on leaves before they
-      can lay eggs — the most effective organic spray timing. Kaolin clay on
-      fruit surfaces deters females from landing to lay eggs — apply every
-      7-10 days starting before adults emerge, more frequently after rain.
-      Neem oil in rotation with kaolin provides additional deterrence. No
-      spray reaches larvae already inside fruit — all treatments must be
-      applied before egg-laying begins.
-  natural_enemies:
-  - Parasitic Wasps (Braconidae)
-  - Ground Beetles (Carabidae)
-  - Insectivorous Birds
-  - Ants (Formicidae)
+name: Cherry Fruit Fly
+slug: cherry-fruit-fly
+picture: cherry_fruit_fly.webp
+scientific_name: Rhagoletis cingulata
+description: If leaves show trails, fruit turns soft, or roots collapse from inside,
+  cherry fruit fly may already be feeding. The larval stage does most of the damage,
+  often hidden where you cannot see it at first glance. By the time yellowing or rot
+  appears, feeding may be well underway. Move quickly when symptoms begin to prevent
+  another wave of eggs and larvae.
+characteristics: 'Watch for tiny eggs near plant tissue, pale legless larvae inside
+  mines or fruit, and sudden soft spots or tunnels. Adults are usually small flies
+  that hover or dart when disturbed. Check around wounds, blossoms, and moist plant
+  debris where egg-laying is common. Cut open suspect tissue: live maggots or fresh
+  tunnels are the clearest field confirmation.'
+symptoms:
+- fruit-damage
+- wilting
+- distorted-growth
+- leaf-spots
+control_methods:
+  biological_controls: Ground beetles, birds, and ants consume cherry fruit fly larvae
+    and pupae in soil under trees — maintain permanent diverse groundcover to support
+    these predators year-round. Parasitic wasps provide weak control compared to sanitation
+    but contribute to overall population pressure. Chickens or ducks allowed supervised
+    orchard access consume larvae in fallen fruit where food safety regulations permit.
+    Steinernema feltiae nematodes applied to soil under tree drip lines target pupating
+    larvae.
+  preventive_methods: Cherry fruit fly adults emerge in late spring and lay single
+    eggs under the skin of developing cherries — the entry hole is invisible and larvae
+    are found only when fruit is cut. Red sticky sphere traps baited with ammonium
+    acetate and cherry volatile monitor adult emergence — first catch indicates egg-laying
+    has begun and protection must be in place. Harvest promptly when fruit reaches
+    maturity — overripe cherries are far more attractive to laying females and larvae
+    develop faster in warm fruit.
+  cultural_practices: Collect and destroy all fallen and infested fruit every 2-3
+    days during ripening season — this breaks the cycle more reliably than any spray.
+    Mow or mulch dropped fruit to prevent larvae from reaching soil to pupate. Prune
+    for open canopy to improve spray coverage and expose fruit to bird predation.
+    Fine netting over entire dwarf trees after pollination is complete is the most
+    reliableor small plantings.
+  mechanical_physical: Fine mesh netting over entire dwarf trees after pollination
+    excludes adult flies from laying eggs if edges are buried or secured. Red sticky
+    sphere traps plus ammonium bait at 1 per tree both monitor populations and provide
+    mass trapping at small scale. Individual fruit removal and disposal at first sign
+    of infestation. Solarize shallow soil under trees in summer to kill pupae.
+  organic_sprays: Spinosad applied to foliage starting at first adult catch and reapplied
+    every 7 days through harvest kills adults feeding on leaves before they can lay
+    eggs — the most effective organic spray timing. Kaolin clay on fruit surfaces
+    deters females from landing to lay eggs — apply every 7-10 days starting before
+    adults emerge, more frequently after rain. Neem oil in rotation with kaolin provides
+    additional deterrence. No spray reaches larvae already inside fruit — all treatments
+    must be applied before egg-laying begins.
+natural_enemies:
+- Parasitic Wasps (Braconidae)
+- Ground Beetles (Carabidae)
+- Insectivorous Birds
+- Ants (Formicidae)
+category: pest

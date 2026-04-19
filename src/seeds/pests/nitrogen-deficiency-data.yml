@@ -1,47 +1,45 @@
-- name: "Nitrogen deficiency"
-  slug: "nitrogen-deficiency"
-  picture: "nitrogen_deficiency.webp"
-  scientific_name: "Physiological disorder (N)"
-  description: >-
-    Nitrogen deficiency shows as overall pale yellow-green growth, often starting on older leaves because nitrogen is
-    mobile and the plant sacrifices lower canopy first. Stunting, thin stems, and lower protein in leafy crops follow.
-    Legumes with poor nodulation can look like nitrogen lack even when soil nitrogen exists. Excess rain leaches nitrate;
-    cold soil slows mineralization in organic systems.
-  characteristics: >-
-    Compare with sulfur deficiency, which hits young leaves differently in many species. Check roots for nodulation on
-    beans and peas. Review recent rainfall and irrigation leaching events. Chlorophyll meter or tissue nitrate tests
-    give faster answers than guessing from color alone on cultivars with naturally lighter foliage.
-  symptoms:
-  - yellowing-leaves
-  - wilting
-  - distorted-growth
-  - dropping-leaves
-  control_methods:
-    biological_controls: >-
-      Legume cover crops with effective Rhizobium inoculation fix atmospheric nitrogen for following crops. Living mulches
-      of clovers transfer nitrogen slowly through decomposition. Soil food webs mineralize organic nitrogen pools when
-      carbon-to-nitrogen ratios allow. These pathways take weeks to months -- they do not fix acute starvation on a starving
-      transplant overnight without amendments.
-    preventive_methods: >-
-      Soil test and follow crop-specific nitrogen budgets. Split applications on sandy soils prone to leaching. Inoculate
-      legume seed with fresh compatible rhizobia strains. Maintain organic matter so mineralization buffers mild shortages
-      between fertigation events.
-    cultural_practices: >-
-      Incorporate composted manure or plant-based compost before heavy feeders. Side-dress vegetables at fruit set when
-      symptoms or growth stage demand it. Avoid salinity buildup from repeated ammonium sources without leaching in arid
-      greenhouse zones.
-    mechanical_physical: >-
-      Mulch reduces nitrogen splash loss on slopes during storms. Stabilize rows against erosion that strips topsoil rich
-      in organic nitrogen. For containers, repot rootbound plants that cannot access fertilizer solution evenly.
-    organic_sprays: >-
-      Fish emulsion and liquid kelp provide quick green-up when soil drenched or foliar applied per label. Nitrate or
-      urea-based liquids allowed in your program can rescue acute cases -- still confirm deficiency first. Foliar urea on
-      tree crops is a specialist technique with burn risk -- follow extension rates.
-  natural_enemies:
-  - Beneficial Fungi
-  - Competitive Microbes
-  - Antagonistic Bacteria
-  affected_plants: []
-  # Image attribution: Unknown / Wikimedia Commons / CC BY-SA 3.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+name: Nitrogen deficiency
+slug: nitrogen-deficiency
+picture: nitrogen_deficiency.webp
+scientific_name: Physiological disorder (N)
+description: Nitrogen deficiency shows as overall pale yellow-green growth, often
+  starting on older leaves because nitrogen is mobile and the plant sacrifices lower
+  canopy first. Stunting, thin stems, and lower protein in leafy crops follow. Legumes
+  with poor nodulation can look like nitrogen lack even when soil nitrogen exists.
+  Excess rain leaches nitrate; cold soil slows mineralization in organic systems.
+characteristics: Compare with sulfur deficiency, which hits young leaves differently
+  in many species. Check roots for nodulation on beans and peas. Review recent rainfall
+  and irrigation leaching events. Chlorophyll meter or tissue nitrate tests give faster
+  answers than guessing from color alone on cultivars with naturally lighter foliage.
+symptoms:
+- yellowing-leaves
+- wilting
+- distorted-growth
+- dropping-leaves
+control_methods:
+  biological_controls: Legume cover crops with effective Rhizobium inoculation fix
+    atmospheric nitrogen for following crops. Living mulches of clovers transfer nitrogen
+    slowly through decomposition. Soil food webs mineralize organic nitrogen pools
+    when carbon-to-nitrogen ratios allow. These pathways take weeks to months -- they
+    do not fix acute starvation on a starving transplant overnight without amendments.
+  preventive_methods: Soil test and follow crop-specific nitrogen budgets. Split applications
+    on sandy soils prone to leaching. Inoculate legume seed with fresh compatible
+    rhizobia strains. Maintain organic matter so mineralization buffers mild shortages
+    between fertigation events.
+  cultural_practices: Incorporate composted manure or plant-based compost before heavy
+    feeders. Side-dress vegetables at fruit set when symptoms or growth stage demand
+    it. Avoid salinity buildup from repeated ammonium sources without leaching in
+    arid greenhouse zones.
+  mechanical_physical: Mulch reduces nitrogen splash loss on slopes during storms.
+    Stabilize rows against erosion that strips topsoil rich in organic nitrogen. For
+    containers, repot rootbound plants that cannot access fertilizer solution evenly.
+  organic_sprays: Fish emulsion and liquid kelp provide quick green-up when soil drenched
+    or foliar applied per label. Nitrate or urea-based liquids allowed in your program
+    can rescue acute cases -- still confirm deficiency first. Foliar urea on tree
+    crops is a specialist technique with burn risk -- follow extension rates.
+natural_enemies:
+- Beneficial Fungi
+- Competitive Microbes
+- Antagonistic Bacteria
+affected_plants: []
+category: disease

@@ -1,44 +1,43 @@
-- name: "Oleander scale"
-  slug: "oleander-scale"
-  picture: "oleander_scale.webp"
-  scientific_name: "Aspidiotus nerii"
-  description: >-
-    Oleander scale is a circular armored scale that infests oleander, citrus relatives, orchids, and many broadleaf
-    ornamentals. It sits flat on leaves and stems under a central cover, removing sap and causing yellow speckling,
-    die-back, and sooty mold if honeydew-producing partners are nearby. Outbreaks follow dusty foliage, ant tending,
-    or repeated sprays that remove parasitoids.
-  characteristics: >-
-    Use a lens: the cover is separate from the insect body underneath, unlike soft scales. Males are tiny winged forms
-    on some armored species but you mostly see round female covers. Look for concentric rings on the cover surface.
-    Crawler timing varies by climate -- use tape traps on stems during warm months.
-  symptoms:
-  - yellowing-leaves
-  - sticky-residue
-  - sooty-deposits
-  - die-back
-  control_methods:
-    biological_controls: >-
-      Aphytis and other parasitoids attack Aspidiotus on various hosts where ant interference is low. Lady beetle
-      Chilocorus stigma feeds on small scales. Preserve flowering insectaries. Release programs are situational -- home
-      gardens usually succeed faster with oil timing plus ant barriers than with purchased wasps.
-    preventive_methods: >-
-      Inspect nursery plants, especially orchids and conservatory specimens, before mixing collections. Rinse dust from
-      greenhouse leaves so predators hunt effectively. Avoid calendar pyrethroid drenches for unrelated pests.
-    cultural_practices: >-
-      Prune heavily infested canes on oleander and dispose off-site. Improve canopy airflow on dense shrubs. Replace
-      chronically infested hedge runs when design allows. Manage ants on trunks with sticky barriers where appropriate.
-    mechanical_physical: >-
-      Scrape scales off small orchid leaves with a soft plastic tool -- support the leaf from below. For larger shrubs,
-      power rinse at gentle settings tests on a branch first. Double-sided tape captures crawlers during hatch peaks.
-    organic_sprays: >-
-      Horticultural oil timed to crawler emergence is the backbone of armored scale control. Summer oil rates require
-      temperature windows on labels. Insecticidal soap helps on smooth leaves where coverage reaches crawlers. Rotate
-      weeks between oil and soap rather than stacking unknown mixes.
-  natural_enemies:
-  - Parasitic Wasps
-  - Ladybugs
-  - Predatory Beetles
-  affected_plants: []
-  # Image attribution: (c) Timothy Johnson, some rights reserved (CC BY-NC), uploaded by Timothy Johnson
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+name: Oleander scale
+slug: oleander-scale
+picture: oleander_scale.webp
+scientific_name: Aspidiotus nerii
+description: Oleander scale is a circular armored scale that infests oleander, citrus
+  relatives, orchids, and many broadleaf ornamentals. It sits flat on leaves and stems
+  under a central cover, removing sap and causing yellow speckling, die-back, and
+  sooty mold if honeydew-producing partners are nearby. Outbreaks follow dusty foliage,
+  ant tending, or repeated sprays that remove parasitoids.
+characteristics: 'Use a lens: the cover is separate from the insect body underneath,
+  unlike soft scales. Males are tiny winged forms on some armored species but you
+  mostly see round female covers. Look for concentric rings on the cover surface.
+  Crawler timing varies by climate -- use tape traps on stems during warm months.'
+symptoms:
+- yellowing-leaves
+- sticky-residue
+- sooty-deposits
+- die-back
+control_methods:
+  biological_controls: Aphytis and other parasitoids attack Aspidiotus on various
+    hosts where ant interference is low. Lady beetle Chilocorus stigma feeds on small
+    scales. Preserve flowering insectaries. Release programs are situational -- home
+    gardens usually succeed faster with oil timing plus ant barriers than with purchased
+    wasps.
+  preventive_methods: Inspect nursery plants, especially orchids and conservatory
+    specimens, before mixing collections. Rinse dust from greenhouse leaves so predators
+    hunt effectively. Avoid calendar pyrethroid drenches for unrelated pests.
+  cultural_practices: Prune heavily infested canes on oleander and dispose off-site.
+    Improve canopy airflow on dense shrubs. Replace chronically infested hedge runs
+    when design allows. Manage ants on trunks with sticky barriers where appropriate.
+  mechanical_physical: Scrape scales off small orchid leaves with a soft plastic tool
+    -- support the leaf from below. For larger shrubs, power rinse at gentle settings
+    tests on a branch first. Double-sided tape captures crawlers during hatch peaks.
+  organic_sprays: Horticultural oil timed to crawler emergence is the backbone of
+    armored scale control. Summer oil rates require temperature windows on labels.
+    Insecticidal soap helps on smooth leaves where coverage reaches crawlers. Rotate
+    weeks between oil and soap rather than stacking unknown mixes.
+natural_enemies:
+- Parasitic Wasps
+- Ladybugs
+- Predatory Beetles
+affected_plants: []
+category: pest

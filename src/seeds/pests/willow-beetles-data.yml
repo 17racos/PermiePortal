@@ -1,48 +1,47 @@
----
-- name: Willow Beetles
-  slug: willow-beetles
-  picture: willow_beetles.webp
-  scientific_name: Chrysomelidae
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, willow beetles may already be on the
-    plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - holes-in-leaves
-  - skeletonized-leaves
-  - chewed-stems
-  - wilting
-  control_methods:
-    biological_controls: >-
-      Birds, parasitic wasps, and predatory ground beetles eat willow leaf beetle larvae and
-      adults when larvae feed openly on leaves -- they fail once larvae tuck under rolled leaves.
-      Spiders snag adults along waterways. Avoid aerial pyrethrin over entire riparian strips;
-      you kill predators and beetles return on the next warm night.
-    preventive_methods: >-
-      Scout willows weekly from leaf-out for skeletonized patches and shiny adults on undersides
-      -- early colonies are easier than whole-tree defoliation. Flag trees that browned last
-      year; larvae often reinfest the same clones. Check nursery stock before planting riparian
-      buffers; beetles ride in on liners.
-    cultural_practices: >-
-      Prune and remove heavily infested branches when damage is still localized; chip or burn
-      debris per local rules. Rake dense leaf litter under specimen trees if it holds overwintering
-      adults in wet piles. Keep soil moisture even; drought-stressed willows show damage faster.
-    mechanical_physical: >-
-      Sticky traps on trunks catch some adults for monitoring; manual removal on small trees
-      means shaking branches over a sheet in cool mornings. For backyard willows, a hard water
-      blast knocks larvae off before they roll leaves -- repeat every few days during outbreaks.
-    organic_sprays: >-
-      Neem oil or insecticidal soap contacts larvae and adults on leaf surfaces -- spray
-      undersides thoroughly. Bacillus thuringiensis works on small beetle larvae that ingest it;
-      ID the species before assuming Bt. Spray at dusk to spare pollinators on catkins. Reapply
-      after rain; short residual means timing beats brand.
-  natural_enemies:
-  - Birds
-  - Parasitic Wasps
-  - Predatory Beetles
+name: Willow Beetles
+slug: willow-beetles
+picture: willow_beetles.webp
+scientific_name: Chrysomelidae
+description: If new growth is curling, yellowing, sticky, or chewed, willow beetles
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- holes-in-leaves
+- skeletonized-leaves
+- chewed-stems
+- wilting
+control_methods:
+  biological_controls: Birds, parasitic wasps, and predatory ground beetles eat willow
+    leaf beetle larvae and adults when larvae feed openly on leaves -- they fail once
+    larvae tuck under rolled leaves. Spiders snag adults along waterways. Avoid aerial
+    pyrethrin over entire riparian strips; you kill predators and beetles return on
+    the next warm night.
+  preventive_methods: Scout willows weekly from leaf-out for skeletonized patches
+    and shiny adults on undersides -- early colonies are easier than whole-tree defoliation.
+    Flag trees that browned last year; larvae often reinfest the same clones. Check
+    nursery stock before planting riparian buffers; beetles ride in on liners.
+  cultural_practices: Prune and remove heavily infested branches when damage is still
+    localized; chip or burn debris per local rules. Rake dense leaf litter under specimen
+    trees if it holds overwintering adults in wet piles. Keep soil moisture even;
+    drought-stressed willows show damage faster.
+  mechanical_physical: Sticky traps on trunks catch some adults for monitoring; manual
+    removal on small trees means shaking branches over a sheet in cool mornings. For
+    backyard willows, a hard water blast knocks larvae off before they roll leaves
+    -- repeat every few days during outbreaks.
+  organic_sprays: Neem oil or insecticidal soap contacts larvae and adults on leaf
+    surfaces -- spray undersides thoroughly. Bacillus thuringiensis works on small
+    beetle larvae that ingest it; ID the species before assuming Bt. Spray at dusk
+    to spare pollinators on catkins. Reapply after rain; short residual means timing
+    beats brand.
+natural_enemies:
+- Birds
+- Parasitic Wasps
+- Predatory Beetles
+category: pest

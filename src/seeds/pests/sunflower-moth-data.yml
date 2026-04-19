@@ -1,48 +1,47 @@
----
-- name: Sunflower Moth
-  slug: sunflower-moth
-  picture: sunflower_moth.webp
-  scientific_name: Homoeosoma electellum
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, sunflower moth may already be on the
-    plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - skeletonized-leaves
-  control_methods:
-    biological_controls: >-
-      Trichogramma releases at oviposition parasitize moth eggs on bracts when shipments match
-      flight -- coordinate with suppliers. Native braconid and ichneumonid wasps attack larvae
-      inside heads if night sprays stay selective. Avoid pyrethrin across headlands during peak
-      parasitism; you kill wasps and keep moths.
-    preventive_methods: >-
-      Regional pheromone traps show when flights spike -- scout five random heads per field at
-      R5 and R6 for frass and webbing at the back of heads. Flag fields with history; walk those
-      first. Coordinate with neighbors; moths do not respect fence lines.
-    cultural_practices: >-
-      Plant uniform stands so flowering synchronizes and spray windows stay short. Destroy crop
-      residue after harvest so pupae have fewer overwintering pockets. Rotate away from sunflower
-      where regional populations build on continuous acres. Avoid ultra-late plantings that hit
-      moth peaks with no beneficial buffer.
-    mechanical_physical: >-
-      At field scale, nothing beats timing sprays and harvest -- combine heads before excessive
-      webbing if weather threatens loss. Some growers flame or incorporate residue where fire
-      rules allow. Backyard sunflowers can be bagged if you enjoy sewing, not profit.
-    organic_sprays: >-
-      Bacillus thuringiensis kurstaki and spinosad target larvae while heads are still upright
-      enough for penetration -- timing is tighter than on flat crops. Add enough water volume and
-      nozzles to wet bracts behind heads. Reapply after rain. Once larvae web deep inside heads,
-      sprays fail; early timing beats late panic.
-  natural_enemies:
-  - Trichogramma spp.
-  - Braconid Wasps
-  - Ichneumonid Wasps
+name: Sunflower Moth
+slug: sunflower-moth
+picture: sunflower_moth.webp
+scientific_name: Homoeosoma electellum
+description: If new growth is curling, yellowing, sticky, or chewed, sunflower moth
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- skeletonized-leaves
+control_methods:
+  biological_controls: Trichogramma releases at oviposition parasitize moth eggs on
+    bracts when shipments match flight -- coordinate with suppliers. Native braconid
+    and ichneumonid wasps attack larvae inside heads if night sprays stay selective.
+    Avoid pyrethrin across headlands during peak parasitism; you kill wasps and keep
+    moths.
+  preventive_methods: Regional pheromone traps show when flights spike -- scout five
+    random heads per field at R5 and R6 for frass and webbing at the back of heads.
+    Flag fields with history; walk those first. Coordinate with neighbors; moths do
+    not respect fence lines.
+  cultural_practices: Plant uniform stands so flowering synchronizes and spray windows
+    stay short. Destroy crop residue after harvest so pupae have fewer overwintering
+    pockets. Rotate away from sunflower where regional populations build on continuous
+    acres. Avoid ultra-late plantings that hit moth peaks with no beneficial buffer.
+  mechanical_physical: At field scale, nothing beats timing sprays and harvest --
+    combine heads before excessive webbing if weather threatens loss. Some growers
+    flame or incorporate residue where fire rules allow. Backyard sunflowers can be
+    bagged if you enjoy sewing, not profit.
+  organic_sprays: Bacillus thuringiensis kurstaki and spinosad target larvae while
+    heads are still upright enough for penetration -- timing is tighter than on flat
+    crops. Add enough water volume and nozzles to wet bracts behind heads. Reapply
+    after rain. Once larvae web deep inside heads, sprays fail; early timing beats
+    late panic.
+natural_enemies:
+- Trichogramma spp.
+- Braconid Wasps
+- Ichneumonid Wasps
+category: pest

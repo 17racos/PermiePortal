@@ -1,99 +1,92 @@
----
-- name: Late Blight
-  slug: late-blight
-  picture: late_blight.webp
-  scientific_name: Phytophthora infestans
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, late blight may
-    already be active. This problem often starts small, then spreads across healthy tissue
-    before most growers realize how serious it is. Warmth, moisture, and crowded foliage usually
-    speed it up. Treat early, because waiting even a few days can turn a manageable infection
-    into major crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - wilting
-  - die-back
-  - leaf-spots
-  - brown-edges
-  - fruit-damage
-  control_methods:
-    biological_controls: >-
-      No biological control effectively manages late blight once an epidemic is
-      active. Compost teas and Bacillus subtilis provide marginal preventive
-      suppression when applied consistently before infection -- not rescue treatments.
-      The most important biological investment is in resistant varieties -- modern
-      potato and tomato breeding has produced cultivars with significant late blight
-      resistance that eliminate most management. Healthy soil biology and mycorrhizal
-      fungi support plant immune response and overall resilience.
-    preventive_methods: >-
-      Late blight spreads explosively in cool wet weather -- overnight infection can
-      destroy a planting in days once the pathogen arrives. Use certified disease-free
-      seed potatoes -- cull piles and infected volunteers are the primary local
-      inoculum source. Track regional late blight forecasting alerts -- many extension
-      services issue warnings when conditions favor outbreak. Start copper spray
-      programs before wet weather arrives, not after symptoms appear. Remove and bag
-      all infected plant material immediately -- never compost.
-    cultural_practices: >-
-      Choose resistant varieties wherever possible -- this is the single most
-      impactful decision for late blight management. Widen row spacing for air
-      circulation and trellis tomatoes to keep foliage dry. Avoid overhead irrigation.
-      Destroy all infected plants in sealed bags immediately when found -- one
-      infected plant in a wet period can spread to the whole planting in 3 days.
-      Eliminate volunteer solanaceous plants near the garden that carry the pathogen
-      between seasons.
-    mechanical_physical: >-
-      High tunnels with proper ventilation dramatically reduce late blight pressure
-      by keeping foliage dry -- the most reliable structural protection for
-      high-value tomato crops. Remove and bag infected plant parts immediately -- do
-      not drop infected material on the ground where spores splash to healthy plants.
-      For potato crops, earthing up reduces tuber infection even when foliage is affected.
-    organic_sprays: >-
-      Copper fungicides applied on a 5-7 day schedule during cool wet weather are the
-      most effective organic spray -- apply before infection periods, not after symptoms
-      appear. Copper has a protectant action only and must be on leaf surfaces before
-      spores land. Reapply after every rain. Bacillus subtilis (Serenade) as a preventive
-      foliar spray reduces infection rates when applied consistently every 5-7 days.
-      No spray cures infected tissue -- remove it and protect healthy plants.
-  natural_enemies:
-  - Hyperparasitic Fungi (soil-borne, limited foliar effect)
-  - Competitive Microbes in Mulch Systems
-  affected_plants:
-  - slug: angels-trumpet
-    name: Angel's Trumpet
-  - slug: ashwagandha
-    name: Ashwagandha
-  - slug: buffalo-bur
-    name: Buffalo Bur
-  - slug: chiltepin-pepper
-    name: Chiltepin Pepper
-  - slug: chiltepin-pepper-tree
-    name: Chiltepin Pepper Tree
-  - slug: chinese-lantern
-    name: Chinese Lantern
-  - slug: coastal-groundcherry
-    name: Coastal Groundcherry
-  - slug: devils-trumpet
-    name: Devil's Trumpet
-  - slug: garden-huckleberry
-    name: Garden Huckleberry
-  - slug: goji-berry
-    name: Goji Berry
-  - slug: ground-cherry
-    name: Ground Cherry
-  - slug: horse-nettle
-    name: Horse Nettle
-  - slug: pepino-melon
-    name: Pepino Melon
-  - slug: potato
-    name: Potato
-  - slug: scarlet-eggplant
-    name: Scarlet Eggplant
-  - slug: wild-eggplant
-    name: Wild Eggplant
-  - slug: wonderberry
-    name: Wonderberry
+name: Late Blight
+slug: late-blight
+picture: late_blight.webp
+scientific_name: Phytophthora infestans
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  late blight may already be active. This problem often starts small, then spreads
+  across healthy tissue before most growers realize how serious it is. Warmth, moisture,
+  and crowded foliage usually speed it up. Treat early, because waiting even a few
+  days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- wilting
+- die-back
+- leaf-spots
+- brown-edges
+- fruit-damage
+control_methods:
+  biological_controls: No biological control effectively manages late blight once
+    an epidemic is active. Compost teas and Bacillus subtilis provide marginal preventive
+    suppression when applied consistently before infection -- not rescue treatments.
+    The most important biological investment is in resistant varieties -- modern potato
+    and tomato breeding has produced cultivars with significant late blight resistance
+    that eliminate most management. Healthy soil biology and mycorrhizal fungi support
+    plant immune response and overall resilience.
+  preventive_methods: Late blight spreads explosively in cool wet weather -- overnight
+    infection can destroy a planting in days once the pathogen arrives. Use certified
+    disease-free seed potatoes -- cull piles and infected volunteers are the primary
+    local inoculum source. Track regional late blight forecasting alerts -- many extension
+    services issue warnings when conditions favor outbreak. Start copper spray programs
+    before wet weather arrives, not after symptoms appear. Remove and bag all infected
+    plant material immediately -- never compost.
+  cultural_practices: Choose resistant varieties wherever possible -- this is the
+    single most impactful decision for late blight management. Widen row spacing for
+    air circulation and trellis tomatoes to keep foliage dry. Avoid overhead irrigation.
+    Destroy all infected plants in sealed bags immediately when found -- one infected
+    plant in a wet period can spread to the whole planting in 3 days. Eliminate volunteer
+    solanaceous plants near the garden that carry the pathogen between seasons.
+  mechanical_physical: High tunnels with proper ventilation dramatically reduce late
+    blight pressure by keeping foliage dry -- the most reliable structural protection
+    for high-value tomato crops. Remove and bag infected plant parts immediately --
+    do not drop infected material on the ground where spores splash to healthy plants.
+    For potato crops, earthing up reduces tuber infection even when foliage is affected.
+  organic_sprays: Copper fungicides applied on a 5-7 day schedule during cool wet
+    weather are the most effective organic spray -- apply before infection periods,
+    not after symptoms appear. Copper has a protectant action only and must be on
+    leaf surfaces before spores land. Reapply after every rain. Bacillus subtilis
+    (Serenade) as a preventive foliar spray reduces infection rates when applied consistently
+    every 5-7 days. No spray cures infected tissue -- remove it and protect healthy
+    plants.
+natural_enemies:
+- Hyperparasitic Fungi (soil-borne, limited foliar effect)
+- Competitive Microbes in Mulch Systems
+affected_plants:
+- slug: angels-trumpet
+  name: Angel's Trumpet
+- slug: ashwagandha
+  name: Ashwagandha
+- slug: buffalo-bur
+  name: Buffalo Bur
+- slug: chiltepin-pepper
+  name: Chiltepin Pepper
+- slug: chiltepin-pepper-tree
+  name: Chiltepin Pepper Tree
+- slug: chinese-lantern
+  name: Chinese Lantern
+- slug: coastal-groundcherry
+  name: Coastal Groundcherry
+- slug: devils-trumpet
+  name: Devil's Trumpet
+- slug: garden-huckleberry
+  name: Garden Huckleberry
+- slug: goji-berry
+  name: Goji Berry
+- slug: ground-cherry
+  name: Ground Cherry
+- slug: horse-nettle
+  name: Horse Nettle
+- slug: pepino-melon
+  name: Pepino Melon
+- slug: potato
+  name: Potato
+- slug: scarlet-eggplant
+  name: Scarlet Eggplant
+- slug: wild-eggplant
+  name: Wild Eggplant
+- slug: wonderberry
+  name: Wonderberry
+category: disease

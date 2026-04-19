@@ -1,50 +1,53 @@
-- name: "Leaf scorch"
-  slug: "leaf-scorch"
-  picture: "leaf_scorch.webp"
-  scientific_name: "Physiological / pathological (multiple causes)"
-  description: >-
-    Leaf scorch is a pattern name for marginal or interveinal browning that advances inward while veins may stay greener
-    for a time. Causes include drought stress, root restriction, salt accumulation, trunk injury, vascular pathogens, and
-    rapid transpiration on hot windy days. Maples, oaks, and many urban trees show it first on the sunniest side of the
-    crown. Diagnosis requires checking soil moisture, roots, irrigation water salts, and recent site disturbance together.
-  characteristics: >-
-    Look whether symptoms are uniform around the crown or sectorial from root loss on one side. Compare with anthracnose,
-    which often follows veins differently and shows fruiting bodies under wet periods. Check emitters and mulch depth
-    for buried root flare. Laboratory tests confirm Xylella or other vascular pathogens where geography and hosts warrant.
-  symptoms:
-  - brown-edges
-  - wilting
-  - dropping-leaves
-  - die-back
-  - yellowing-leaves
-  control_methods:
-    biological_controls: >-
-      Where scorch ties to root rot complexes, building diverse soil biology with compost and mulch supports secondary
-      feeder root regeneration after drainage is fixed. Mycorrhizae help nutrient scavenging but do not replace water.
-      Beneficial antagonists like Trichoderma are tools for some root pathogens when used as part of an integrated plan.
-      None of these override chronic over-fertilization or salt-laden irrigation water.
-    preventive_methods: >-
-      Mulch outward from the root flare without piling on the stem. Irrigate deeply on a schedule matched to soil texture
-      instead of light daily sprinkles. Leach containers occasionally if soluble salts climb. Choose windbreaks or shade
-      cloth for young transplants during extreme heat events when establishment is fragile.
-    cultural_practices: >-
-      Decompact root zones with radial trenching or air spade methods where arborists recommend for girdling roots. Adjust
-      fertilizer programs after soil and foliar testing -- excess potassium or magnesium imbalances can mimic or worsen
-      scorch. Prune dead tips after stress ends to reduce secondary pest entry points. For street trees, advocate for
-      adequate soil volume at planting time because restricted roots cause chronic scorch.
-    mechanical_physical: >-
-      Remove plastic burlap and wire baskets from root balls at planting. Reroute foot traffic that compacts the dripline.
-      Repair irrigation leaks that keep one sector saturated while another dries. Whitewash thin bark if summer pruning
-      suddenly exposes wood to sunscald that pairs with leaf scorch symptoms.
-    organic_sprays: >-
-      Foliar sprays do not fix vascular limitation or salt toxicity in soil. Seaweed extracts and humates may buffer stress
-      marginally but are not substitutes for water management. If bacterial leaf scorch (Xylella) is confirmed, follow
-      regulatory guidance -- there is no home organic spray cure. Focus budget on irrigation auditing and soil correction.
-  natural_enemies:
-  - Beneficial Fungi
-  - Competitive Microbes
-  - Antagonistic Bacteria
-  affected_plants: []
-  # Image attribution: (c) Susan J. Hewitt, some rights reserved (CC BY-NC), uploaded by Susan J. Hewitt
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+name: Leaf scorch
+slug: leaf-scorch
+picture: leaf_scorch.webp
+scientific_name: Physiological / pathological (multiple causes)
+description: Leaf scorch is a pattern name for marginal or interveinal browning that
+  advances inward while veins may stay greener for a time. Causes include drought
+  stress, root restriction, salt accumulation, trunk injury, vascular pathogens, and
+  rapid transpiration on hot windy days. Maples, oaks, and many urban trees show it
+  first on the sunniest side of the crown. Diagnosis requires checking soil moisture,
+  roots, irrigation water salts, and recent site disturbance together.
+characteristics: Look whether symptoms are uniform around the crown or sectorial from
+  root loss on one side. Compare with anthracnose, which often follows veins differently
+  and shows fruiting bodies under wet periods. Check emitters and mulch depth for
+  buried root flare. Laboratory tests confirm Xylella or other vascular pathogens
+  where geography and hosts warrant.
+symptoms:
+- brown-edges
+- wilting
+- dropping-leaves
+- die-back
+- yellowing-leaves
+control_methods:
+  biological_controls: Where scorch ties to root rot complexes, building diverse soil
+    biology with compost and mulch supports secondary feeder root regeneration after
+    drainage is fixed. Mycorrhizae help nutrient scavenging but do not replace water.
+    Beneficial antagonists like Trichoderma are tools for some root pathogens when
+    used as part of an integrated plan. None of these override chronic over-fertilization
+    or salt-laden irrigation water.
+  preventive_methods: Mulch outward from the root flare without piling on the stem.
+    Irrigate deeply on a schedule matched to soil texture instead of light daily sprinkles.
+    Leach containers occasionally if soluble salts climb. Choose windbreaks or shade
+    cloth for young transplants during extreme heat events when establishment is fragile.
+  cultural_practices: Decompact root zones with radial trenching or air spade methods
+    where arborists recommend for girdling roots. Adjust fertilizer programs after
+    soil and foliar testing -- excess potassium or magnesium imbalances can mimic
+    or worsen scorch. Prune dead tips after stress ends to reduce secondary pest entry
+    points. For street trees, advocate for adequate soil volume at planting time because
+    restricted roots cause chronic scorch.
+  mechanical_physical: Remove plastic burlap and wire baskets from root balls at planting.
+    Reroute foot traffic that compacts the dripline. Repair irrigation leaks that
+    keep one sector saturated while another dries. Whitewash thin bark if summer pruning
+    suddenly exposes wood to sunscald that pairs with leaf scorch symptoms.
+  organic_sprays: Foliar sprays do not fix vascular limitation or salt toxicity in
+    soil. Seaweed extracts and humates may buffer stress marginally but are not substitutes
+    for water management. If bacterial leaf scorch (Xylella) is confirmed, follow
+    regulatory guidance -- there is no home organic spray cure. Focus budget on irrigation
+    auditing and soil correction.
+natural_enemies:
+- Beneficial Fungi
+- Competitive Microbes
+- Antagonistic Bacteria
+affected_plants: []
+category: disease

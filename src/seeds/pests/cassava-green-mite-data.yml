@@ -1,62 +1,59 @@
----
-- name: Cassava Green Mite
-  slug: cassava-green-mite
-  picture: broad_mite.webp
-  scientific_name: Mononychellus tanajoa
-  description: >-
-    If leaves look dusty, speckled, bronzed, or curled without obvious chewing, cassava green
-    mite is a likely suspect. Mites are tiny but can multiply fast, especially during heat and
-    dry air. Plants lose vigor as feeding drains cell contents from leaves and tender growth.
-    Early action matters, because heavy infestations can spread through a bed in days.
-  characteristics: >-
-    Use a hand lens and check leaf undersides first, especially near veins and new growth. Look
-    for pinprick stippling, fine webbing in some species, and tiny moving dots that range from
-    pale to red or brown. Tap a leaf over white paper; moving specks suggest active mites.
-    Stippled leaves plus mites or eggs clustered under foliage confirms the diagnosis.
-  symptoms:
-  - yellowing-leaves
-  - webbing
-  - silvery-streaking
-  - brown-edges
-  control_methods:
-    biological_controls: >-
-      Typhlodromalus aripo and other phytoseiid mites are released or banked in cassava programs
-      abroad -- establishment depends on humidity and freedom from broad sprays. Minute pirate
-      bugs and rove beetles contribute locally where dusty fields still support predators. Buy
-      predators only after you stop killing them weekly with sulfur; otherwise you donate money
-      to insectaries.
-    preventive_methods: >-
-      Scout the third leaf from the shoot apex weekly; early mites are cheaper to manage than
-      naked stems. Flag blocks that bronzed last year and walk them first. Quarantine imported
-      planting material; mites ride wind and clothing. Track dry seasons when dust lifts mites
-      into every canopy.
-    cultural_practices: >-
-      Irrigate to raise humidity in nurseries; spider mites hate moist boundary layers. Avoid
-      nitrogen dumps that push endless succulent leaves; each flush is a new mite nursery. Plant
-      windbreaks to cut dust that carries mites and abrades leaves. Keep soil moisture even;
-      drought-stressed cassava flags mites before it flags thirst.
-    mechanical_physical: >-
-      Overhead rinse in early morning on small plots -- cheap humidity bump before predators
-      arrive. A stiff jet on reachable plants knocks mites off; repeat every two to three days
-      during a flare. Combine rinsing with shade cloth in hot tunnels to cut desiccation.
-    organic_sprays: >-
-      Sulfur and horticultural oil work when temperature labels allow -- hot oil plus hot sun
-      equals burned foliage. Insecticidal soap needs thorough underside coverage; three light
-      passes beat one heroic soak that runs off. Rotate sulfur with soap or neem to slow
-      resistance. Spray at dusk to reduce phototoxicity.
-  natural_enemies:
-  - Typhlodromalus aripo
-  - Minute Pirate Bugs
-  affected_plants:
-  - slug: candle-nut-tree
-    name: Candle Nut Tree
-  - slug: cassava
-    name: Cassava
-  - slug: chaya
-    name: Chaya
-  - slug: pineland-croton
-    name: Pineland Croton
-  - slug: sweet-cassava-variants
-    name: Sweet Cassava variants
-  - slug: tree-spinach
-    name: Tree Spinach
+name: Cassava Green Mite
+slug: cassava-green-mite
+picture: broad_mite.webp
+scientific_name: Mononychellus tanajoa
+description: If leaves look dusty, speckled, bronzed, or curled without obvious chewing,
+  cassava green mite is a likely suspect. Mites are tiny but can multiply fast, especially
+  during heat and dry air. Plants lose vigor as feeding drains cell contents from
+  leaves and tender growth. Early action matters, because heavy infestations can spread
+  through a bed in days.
+characteristics: Use a hand lens and check leaf undersides first, especially near
+  veins and new growth. Look for pinprick stippling, fine webbing in some species,
+  and tiny moving dots that range from pale to red or brown. Tap a leaf over white
+  paper; moving specks suggest active mites. Stippled leaves plus mites or eggs clustered
+  under foliage confirms the diagnosis.
+symptoms:
+- yellowing-leaves
+- webbing
+- silvery-streaking
+- brown-edges
+control_methods:
+  biological_controls: Typhlodromalus aripo and other phytoseiid mites are released
+    or banked in cassava programs abroad -- establishment depends on humidity and
+    freedom from broad sprays. Minute pirate bugs and rove beetles contribute locally
+    where dusty fields still support predators. Buy predators only after you stop
+    killing them weekly with sulfur; otherwise you donate money to insectaries.
+  preventive_methods: Scout the third leaf from the shoot apex weekly; early mites
+    are cheaper to manage than naked stems. Flag blocks that bronzed last year and
+    walk them first. Quarantine imported planting material; mites ride wind and clothing.
+    Track dry seasons when dust lifts mites into every canopy.
+  cultural_practices: Irrigate to raise humidity in nurseries; spider mites hate moist
+    boundary layers. Avoid nitrogen dumps that push endless succulent leaves; each
+    flush is a new mite nursery. Plant windbreaks to cut dust that carries mites and
+    abrades leaves. Keep soil moisture even; drought-stressed cassava flags mites
+    before it flags thirst.
+  mechanical_physical: Overhead rinse in early morning on small plots -- cheap humidity
+    bump before predators arrive. A stiff jet on reachable plants knocks mites off;
+    repeat every two to three days during a flare. Combine rinsing with shade cloth
+    in hot tunnels to cut desiccation.
+  organic_sprays: Sulfur and horticultural oil work when temperature labels allow
+    -- hot oil plus hot sun equals burned foliage. Insecticidal soap needs thorough
+    underside coverage; three light passes beat one heroic soak that runs off. Rotate
+    sulfur with soap or neem to slow resistance. Spray at dusk to reduce phototoxicity.
+natural_enemies:
+- Typhlodromalus aripo
+- Minute Pirate Bugs
+affected_plants:
+- slug: candle-nut-tree
+  name: Candle Nut Tree
+- slug: cassava
+  name: Cassava
+- slug: chaya
+  name: Chaya
+- slug: pineland-croton
+  name: Pineland Croton
+- slug: sweet-cassava-variants
+  name: Sweet Cassava variants
+- slug: tree-spinach
+  name: Tree Spinach
+category: pest

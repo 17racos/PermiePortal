@@ -1,62 +1,56 @@
----
-- name: Harlequin Ladybird
-  slug: harlequin-ladybird
-  picture: harlequin_ladybird.webp
-  scientific_name: Harmonia axyridis
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, harlequin ladybird may already be on
-    the plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - yellowing-leaves
-  - distorted-growth
-  - dropping-leaves
-  - holes-in-leaves
-  control_methods:
-    biological_controls: >-
-      The harlequin ladybird (Harmonia axyridis) is itself a predator — it eats aphids,
-      scale, and other soft-bodied pests aggressively. The problem is it also outcompetes
-      and eats native ladybug species and contaminates grapes and wine with its defensive
-      chemical when harvested accidentally. Build habitat for diverse native predators —
-      lacewings, syrphid flies, native ladybugs, parasitic wasps — so aphid control
-      does not depend on Harmonia alone. Long-term landscape diversity reduces the
-      boom-bust aphid cycles that trigger explosive Harmonia reproduction.
-    preventive_methods: >-
-      Harlequin ladybirds aggregate in enormous numbers on south-facing warm walls,
-      window frames, and structures in fall before overwintering. Seal homes in September
-      before flights begin — caulk gaps, add fine mesh to vents, seal window frames.
-      In vineyards and berry patches, the real problem is accidental harvest contamination
-      — beetles concentrate on the ripest, most sugar-rich clusters. Monitor from
-      veraison onward and harvest promptly when sugar peaks rather than letting fruit
-      hang.
-    cultural_practices: >-
-      Harvest grapes and berries promptly when ripe — beetles concentrate on the
-      ripest clusters and contaminate harvest with their defensive secretion which
-      causes off-flavors in wine even at very low concentrations. Avoid leaving
-      damaged fruit in rows. In new vineyards, consider proximity to large overwintering
-      structures. Keep detailed records of which rows accumulate beetle pressure each
-      season — patterns repeat and allow targeted management.
-    mechanical_physical: >-
-      For indoor aggregations, use a shop vacuum with a soapy water tank to collect
-      masses without crushing beetles (crushing releases the defensive chemical that
-      stains and smells). Seal all entry points before fall flights. Row covers on
-      berry crops during beetle aggregation season reduce contamination risk. Fine
-      mesh on greenhouse vents prevents entry while maintaining airflow.
-    organic_sprays: >-
-      No spray is ap ladybird aggregations on structures —
-      vacuuming and exclusion are the only responsible approaches. On small fruit
-      plots before harvest, kaolin clay can reduce landing and probing on fruit
-      surfaces. Avoid insecticidal soap as a mass control tool — it kills native
-      beneficial insects sharing the same habitat. The goal is exclusion and harvest
-      timing, not chemical control.
-  natural_enemies:
-  - Parasitic Wasps (Dinocampus coccinellae)
-  - Pathogenic Fungi (Beauveria bassiana)
-  - Insectivorous Birds
-  - Assassin Bugs (Reduviidae)
+name: Harlequin Ladybird
+slug: harlequin-ladybird
+picture: harlequin_ladybird.webp
+scientific_name: Harmonia axyridis
+description: If new growth is curling, yellowing, sticky, or chewed, harlequin ladybird
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- yellowing-leaves
+- distorted-growth
+- dropping-leaves
+- holes-in-leaves
+control_methods:
+  biological_controls: The harlequin ladybird (Harmonia axyridis) is itself a predator
+    — it eats aphids, scale, and other soft-bodied pests aggressively. The problem
+    is it also outcompetes and eats native ladybug species and contaminates grapes
+    and wine with its defensive chemical when harvested accidentally. Build habitat
+    for diverse native predators — lacewings, syrphid flies, native ladybugs, parasitic
+    wasps — so aphid control does not depend on Harmonia alone. Long-term landscape
+    diversity reduces the boom-bust aphid cycles that trigger explosive Harmonia reproduction.
+  preventive_methods: Harlequin ladybirds aggregate in enormous numbers on south-facing
+    warm walls, window frames, and structures in fall before overwintering. Seal homes
+    in September before flights begin — caulk gaps, add fine mesh to vents, seal window
+    frames. In vineyards and berry patches, the real problem is accidental harvest
+    contamination — beetles concentrate on the ripest, most sugar-rich clusters. Monitor
+    from veraison onward and harvest promptly when sugar peaks rather than letting
+    fruit hang.
+  cultural_practices: Harvest grapes and berries promptly when ripe — beetles concentrate
+    on the ripest clusters and contaminate harvest with their defensive secretion
+    which causes off-flavors in wine even at very low concentrations. Avoid leaving
+    damaged fruit in rows. In new vineyards, consider proximity to large overwintering
+    structures. Keep detailed records of which rows accumulate beetle pressure each
+    season — patterns repeat and allow targeted management.
+  mechanical_physical: For indoor aggregations, use a shop vacuum with a soapy water
+    tank to collect masses without crushing beetles (crushing releases the defensive
+    chemical that stains and smells). Seal all entry points before fall flights. Row
+    covers on berry crops during beetle aggregation season reduce contamination risk.
+    Fine mesh on greenhouse vents prevents entry while maintaining airflow.
+  organic_sprays: No spray is ap ladybird aggregations on structures — vacuuming and
+    exclusion are the only responsible approaches. On small fruit plots before harvest,
+    kaolin clay can reduce landing and probing on fruit surfaces. Avoid insecticidal
+    soap as a mass control tool — it kills native beneficial insects sharing the same
+    habitat. The goal is exclusion and harvest timing, not chemical control.
+natural_enemies:
+- Parasitic Wasps (Dinocampus coccinellae)
+- Pathogenic Fungi (Beauveria bassiana)
+- Insectivorous Birds
+- Assassin Bugs (Reduviidae)
+category: pest

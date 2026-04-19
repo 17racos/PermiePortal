@@ -1,190 +1,185 @@
----
-- name: Oriental Fruit Moth
-  slug: oriental-fruit-moth
-  picture: oriental_fruit_moth.webp
-  scientific_name: Grapholita molesta
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, oriental fruit moth may already be
-    on the plant. This pest often builds quietly, then damage appears all at once. Feeding
-    stress weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup
-    is much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - skeletonized-leaves
-  control_methods:
-    biological_controls: >-
-      Trichogramma egg parasitoids attack oriental fruit moth eggs before they
-      hatch — release weekly during adult flight periods starting at biofix.
-      Macrocentrus ancylivorus and other braconid wasps parasitize larvae inside
-      shoots and fruit — support them with dill, fennel, and sweet alyssum at
-      orchard edges. Mating disruption pheromone dispensers confuse male moths
-      and prevent mating — highly effective at orchard scale and available for
-      home orchards. Maintain minimal insecticide use during bloom to preserve
-      parasitoid populations that provide season-long suppression.
-    preventive_methods: >-
-      Oriental fruit moth has 3-4 overlapping generations per season — early
-      generations attack shoot tips causing wilting flagged shoots, later
-      generations attack fruit causing entry wounds near the stem end. Pheromone
-      traps establish biofix (first consistent male catch) which starts the
-      degree-day accumulation model for timing interventions. Prune and destroy
-      flagged shoots during spring before larvae move to fruit — this removes
-      the population before it builds to fruit-damaging levels.
-    cultural_practices: >-
-      Remove wild plum and peach thickets near orchards — they harbor
-      overwintering populations that reinvade each season. Prune and destroy
-      flagged shoot tips as soon as wilting is noticed — cut 4-6 inches below
-      the entry hole. Corrugated cardboard trunk wraps trap overwintering larvae
-      seeking pupation sites — remove and destroy wraps in late winter. Pheromone
-      mating disruption works best at blocks of 5+ acres but is worth installing
-      in home orchards surrounded by wild Prunus hosts.
-    mechanical_physical: >-
-      Remove and destroy flagged shoot tips immediately when found — larvae
-      inside will move to fruit if not eliminated. Corrugated cardboard trunk
-      bands trap overwintering larvae. Individual fruit bagging after petal
-      fall excludes egg-laying completely for small plantings. Pheromone traps
-      monitor flight — hang at shoulder height in tree canopy, check weekly.
-    organic_sprays: >-
-      Bt kurstaki applied at egg hatch timing from degree-day models targets
-      young larvae before they tunnel into shoots and fruit — must contact larvae
-      before entry. Spinosad provides stronger activity and slightly longer
-      residual on stone fruits where labeled. Kaolin clay on young fruit deters
-      egg-laying — apply at petal fall and reapply after rain. Time all sprays
-      to degree-day models or pheromone trap catches rather than calendar dates.
-  natural_enemies:
-  - Macrocentrus ancylivorus
-  - Trichogramma spp.
-  - Predatory Beetles
-  affected_plants:
-  - slug: agrimony
-    name: Agrimony
-  - slug: allegheny-serviceberry
-    name: Allegheny Serviceberry
-  - slug: almond-tree
-    name: Almond Tree
-  - slug: american-beauty-plum
-    name: American Beauty Plum
-  - slug: american-hawthorn
-    name: American Hawthorn
-  - slug: american-plum
-    name: American Plum
-  - slug: apple
-    name: Apple
-  - slug: aronia
-    name: Aronia
-  - slug: beach-strawberry
-    name: Beach Strawberry
-  - slug: bearberry-cotoneaster
-    name: Bearberry Cotoneaster
-  - slug: black-chokeberry
-    name: Black Chokeberry
-  - slug: buffalo-plum
-    name: Buffalo Plum
-  - slug: carolina-rose
-    name: Carolina Rose
-  - slug: chickasaw-blackberry
-    name: Chickasaw Blackberry
-  - slug: chickasaw-plum
-    name: Chickasaw Plum
-  - slug: chokeberry
-    name: Chokeberry
-  - slug: climbing-prairie-rose
-    name: Climbing Prairie Rose
-  - slug: cloudberry
-    name: Cloudberry
-  - slug: cockspur-hawthorn
-    name: Cockspur Hawthorn
-  - slug: creeping-raspberry
-    name: Creeping Raspberry
-  - slug: dewberry
-    name: Dewberry
-  - slug: dotted-hawthorn
-    name: Dotted Hawthorn
-  - slug: downy-serviceberry
-    name: Downy Serviceberry
-  - slug: flatwoods-plum
-    name: Flatwoods Plum
-  - slug: frosted-hawthorn
-    name: Frosted Hawthorn
-  - slug: green-hawthorn
-    name: Green Hawthorn
-  - slug: green-apple-tree
-    name: Green Apple Tree
-  - slug: hedge-cotoneaster
-    name: Hedge Cotoneaster
-  - slug: hortulan-plum
-    name: Hortulan Plum
-  - slug: loquat
-    name: Loquat
-  - slug: many-flowered-cotoneaster
-    name: Many Flowered Cotoneaster
-  - slug: mayhaw
-    name: Mayhaw
-  - slug: meadowsweet
-    name: Meadowsweet
-  - slug: munson-plum
-    name: Munson Plum
-  - slug: nectarine-tree
-    name: Nectarine Tree
-  - slug: parsley-hawthorn
-    name: Parsley Hawthorn
-  - slug: pasture-rose
-    name: Pasture Rose
-  - slug: pear-hawthorn
-    name: Pear Hawthorn
-  - slug: pear-tree
-    name: Pear Tree
-  - slug: pineapple-pear
-    name: Pineapple Pear
-  - slug: prairie-crabapple
-    name: Prairie Crabapple
-  - slug: purple-chokeberry
-    name: Purple Chokeberry
-  - slug: raspberry
-    name: Raspberry
-  - slug: red-chokeberry
-    name: Red Chokeberry
-  - slug: red-apple-tree
-    name: Red Apple Tree
-  - slug: rock-cotoneaster
-    name: Rock Cotoneaster
-  - slug: roundleaf-serviceberry
-    name: Roundleaf Serviceberry
-  - slug: running-serviceberry
-    name: Running Serviceberry
-  - slug: sand-blackberry
-    name: Sand Blackberry
-  - slug: sand-cherry
-    name: Sand Cherry
-  - slug: saskatoon-berry
-    name: Saskatoon Berry
-  - slug: serviceberry
-    name: Serviceberry
-  - slug: silverleaf-cotoneaster
-    name: Silverleaf Cotoneaster
-  - slug: smooth-serviceberry
-    name: Smooth Serviceberry
-  - slug: southern-crabapple
-    name: Southern Crabapple
-  - slug: southern-dewberry
-    name: Southern Dewberry
-  - slug: southern-hawthorn
-    name: Southern Hawthorn
-  - slug: strawberry
-    name: Strawberry
-  - slug: swamp-rose
-    name: Swamp Rose
-  - slug: sweet-crabapple
-    name: Sweet Crabapple
-  - slug: virginia-rose
-    name: Virginia Rose
-  - slug: wild-crabapple
-    name: Wild Crabapple
-  - slug: wild-plum
-    name: Wild Plum
+name: Oriental Fruit Moth
+slug: oriental-fruit-moth
+picture: oriental_fruit_moth.webp
+scientific_name: Grapholita molesta
+description: If new growth is curling, yellowing, sticky, or chewed, oriental fruit
+  moth may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- skeletonized-leaves
+control_methods:
+  biological_controls: Trichogramma egg parasitoids attack oriental fruit moth eggs
+    before they hatch — release weekly during adult flight periods starting at biofix.
+    Macrocentrus ancylivorus and other braconid wasps parasitize larvae inside shoots
+    and fruit — support them with dill, fennel, and sweet alyssum at orchard edges.
+    Mating disruption pheromone dispensers confuse male moths and prevent mating —
+    highly effective at orchard scale and available for home orchards. Maintain minimal
+    insecticide use during bloom to preserve parasitoid populations that provide season-long
+    suppression.
+  preventive_methods: Oriental fruit moth has 3-4 overlapping generations per season
+    — early generations attack shoot tips causing wilting flagged shoots, later generations
+    attack fruit causing entry wounds near the stem end. Pheromone traps establish
+    biofix (first consistent male catch) which starts the degree-day accumulation
+    model for timing interventions. Prune and destroy flagged shoots during spring
+    before larvae move to fruit — this removes the population before it builds to
+    fruit-damaging levels.
+  cultural_practices: Remove wild plum and peach thickets near orchards — they harbor
+    overwintering populations that reinvade each season. Prune and destroy flagged
+    shoot tips as soon as wilting is noticed — cut 4-6 inches below the entry hole.
+    Corrugated cardboard trunk wraps trap overwintering larvae seeking pupation sites
+    — remove and destroy wraps in late winter. Pheromone mating disruption works best
+    at blocks of 5+ acres but is worth installing in home orchards surrounded by wild
+    Prunus hosts.
+  mechanical_physical: Remove and destroy flagged shoot tips immediately when found
+    — larvae inside will move to fruit if not eliminated. Corrugated cardboard trunk
+    bands trap overwintering larvae. Individual fruit bagging after petal fall excludes
+    egg-laying completely for small plantings. Pheromone traps monitor flight — hang
+    at shoulder height in tree canopy, check weekly.
+  organic_sprays: Bt kurstaki applied at egg hatch timing from degree-day models targets
+    young larvae before they tunnel into shoots and fruit — must contact larvae before
+    entry. Spinosad provides stronger activity and slightly longer residual on stone
+    fruits where labeled. Kaolin clay on young fruit deters egg-laying — apply at
+    petal fall and reapply after rain. Time all sprays to degree-day models or pheromone
+    trap catches rather than calendar dates.
+natural_enemies:
+- Macrocentrus ancylivorus
+- Trichogramma spp.
+- Predatory Beetles
+affected_plants:
+- slug: agrimony
+  name: Agrimony
+- slug: allegheny-serviceberry
+  name: Allegheny Serviceberry
+- slug: almond-tree
+  name: Almond Tree
+- slug: american-beauty-plum
+  name: American Beauty Plum
+- slug: american-hawthorn
+  name: American Hawthorn
+- slug: american-plum
+  name: American Plum
+- slug: apple
+  name: Apple
+- slug: aronia
+  name: Aronia
+- slug: beach-strawberry
+  name: Beach Strawberry
+- slug: bearberry-cotoneaster
+  name: Bearberry Cotoneaster
+- slug: black-chokeberry
+  name: Black Chokeberry
+- slug: buffalo-plum
+  name: Buffalo Plum
+- slug: carolina-rose
+  name: Carolina Rose
+- slug: chickasaw-blackberry
+  name: Chickasaw Blackberry
+- slug: chickasaw-plum
+  name: Chickasaw Plum
+- slug: chokeberry
+  name: Chokeberry
+- slug: climbing-prairie-rose
+  name: Climbing Prairie Rose
+- slug: cloudberry
+  name: Cloudberry
+- slug: cockspur-hawthorn
+  name: Cockspur Hawthorn
+- slug: creeping-raspberry
+  name: Creeping Raspberry
+- slug: dewberry
+  name: Dewberry
+- slug: dotted-hawthorn
+  name: Dotted Hawthorn
+- slug: downy-serviceberry
+  name: Downy Serviceberry
+- slug: flatwoods-plum
+  name: Flatwoods Plum
+- slug: frosted-hawthorn
+  name: Frosted Hawthorn
+- slug: green-hawthorn
+  name: Green Hawthorn
+- slug: green-apple-tree
+  name: Green Apple Tree
+- slug: hedge-cotoneaster
+  name: Hedge Cotoneaster
+- slug: hortulan-plum
+  name: Hortulan Plum
+- slug: loquat
+  name: Loquat
+- slug: many-flowered-cotoneaster
+  name: Many Flowered Cotoneaster
+- slug: mayhaw
+  name: Mayhaw
+- slug: meadowsweet
+  name: Meadowsweet
+- slug: munson-plum
+  name: Munson Plum
+- slug: nectarine-tree
+  name: Nectarine Tree
+- slug: parsley-hawthorn
+  name: Parsley Hawthorn
+- slug: pasture-rose
+  name: Pasture Rose
+- slug: pear-hawthorn
+  name: Pear Hawthorn
+- slug: pear-tree
+  name: Pear Tree
+- slug: pineapple-pear
+  name: Pineapple Pear
+- slug: prairie-crabapple
+  name: Prairie Crabapple
+- slug: purple-chokeberry
+  name: Purple Chokeberry
+- slug: raspberry
+  name: Raspberry
+- slug: red-chokeberry
+  name: Red Chokeberry
+- slug: red-apple-tree
+  name: Red Apple Tree
+- slug: rock-cotoneaster
+  name: Rock Cotoneaster
+- slug: roundleaf-serviceberry
+  name: Roundleaf Serviceberry
+- slug: running-serviceberry
+  name: Running Serviceberry
+- slug: sand-blackberry
+  name: Sand Blackberry
+- slug: sand-cherry
+  name: Sand Cherry
+- slug: saskatoon-berry
+  name: Saskatoon Berry
+- slug: serviceberry
+  name: Serviceberry
+- slug: silverleaf-cotoneaster
+  name: Silverleaf Cotoneaster
+- slug: smooth-serviceberry
+  name: Smooth Serviceberry
+- slug: southern-crabapple
+  name: Southern Crabapple
+- slug: southern-dewberry
+  name: Southern Dewberry
+- slug: southern-hawthorn
+  name: Southern Hawthorn
+- slug: strawberry
+  name: Strawberry
+- slug: swamp-rose
+  name: Swamp Rose
+- slug: sweet-crabapple
+  name: Sweet Crabapple
+- slug: virginia-rose
+  name: Virginia Rose
+- slug: wild-crabapple
+  name: Wild Crabapple
+- slug: wild-plum
+  name: Wild Plum
+category: pest

@@ -148,6 +148,7 @@ def process_pest(data):
         "name": name,
         "scientific_name": data.get('scientific_name', ''),
         "picture": data.get('picture', ''),
+        "category": data.get('category', 'pest'),
         "description": clean_string(data.get('description', '')),
         "characteristics": clean_string(data.get('characteristics', '')),
         "control_methods": control_methods,

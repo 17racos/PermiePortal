@@ -1,71 +1,67 @@
----
-- name: Asparagus Beetle
-  slug: asparagus-beetle
-  picture: asparagus_beetle.webp
-  scientific_name: Crioceris asparagi
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, asparagus beetle may already be on
-    the plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - holes-in-leaves
-  - skeletonized-leaves
-  - chewed-stems
-  - wilting
-  control_methods:
-    biological_controls: >-
-      Lady beetles, lacewing larvae, minute pirate bugs, and ground beetles eat asparagus beetle
-      eggs and larvae on ferns and spears. Tiny parasitic wasps attack eggs where diverse habitat
-      exists. Flowering insectaries beside the bed feed adult predators through the fern season.
-      Skip pyrethrin on a calendar if mummies or lacewing eggs are visible -- you farm beetles
-      alone afterward.
-    preventive_methods: >-
-      Scout weekly from first spear through full fern, focusing outer rows and windward edges.
-      Remove wild asparagus nearby that launches early flights into your bed. Track counts year
-      to year; populations explode when fern residue stays overwinter and the same crowns get
-      pushed for maximum spear count without recovery time. Flag fields that ran hot last season
-      for earlier walks next spring.
-    cultural_practices: >-
-      Snap spears at soil line during harvest to strip eggs before hatch. Mow or destroy old
-      ferns after frost where rules allow so adults have fewer overwintering sites. Avoid excess
-      nitrogen that pushes lush fern flushes; beetles skeletonize soft tissue fast. Irrigate
-      evenly so crowns stay productive without succulent waves. Replant new beds upslope from old,
-      infested blocks when possible.
-    mechanical_physical: >-
-      Hand-pick adults and larvae into soapy water on cool mornings -- beetles drop when startled.
-      Flick clustered adults into a wide-mouth jar. Light row covers over young crowns exclude
-      adults during flight if you open edges daily for harvest and reseal -- tedious but precise
-      on small plots.
-    organic_sprays: >-
-      Neem azadirachtin and spinosad suppress larvae on ferns and spears when coverage is
-      thorough -- add spreader on waxy fern needles. Insecticidal soap kills young larvae on
-      contact; repeat after rain. Pyrethrin knocks adults down briefly; spray at dusk when bees
-      are not on open flowers. Rotate materials so you do not flatten beneficials every week.
-  affected_plants:
-  - slug: asparagus
-    name: Asparagus
-  - slug: agave-americana
-    name: Agave Americana
-  - slug: agave
-    name: Agave
-  - slug: blue-agave
-    name: Blue Agave
-  - slug: century-plant
-    name: Century Plant
-  - slug: henequen
-    name: Henequen
-  - slug: ponytail-palm
-    name: Ponytail Palm
-  - slug: sisal
-    name: Sisal
-  natural_enemies:
-  - Lady Beetles (Coccinellidae)
-  - Lacewing larvae (Chrysopidae)
-  - Parasitic Wasps (Hymenoptera)
-  - Ground Beetles (Carabidae)
+name: Asparagus Beetle
+slug: asparagus-beetle
+picture: asparagus_beetle.webp
+scientific_name: Crioceris asparagi
+description: If new growth is curling, yellowing, sticky, or chewed, asparagus beetle
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- holes-in-leaves
+- skeletonized-leaves
+- chewed-stems
+- wilting
+control_methods:
+  biological_controls: Lady beetles, lacewing larvae, minute pirate bugs, and ground
+    beetles eat asparagus beetle eggs and larvae on ferns and spears. Tiny parasitic
+    wasps attack eggs where diverse habitat exists. Flowering insectaries beside the
+    bed feed adult predators through the fern season. Skip pyrethrin on a calendar
+    if mummies or lacewing eggs are visible -- you farm beetles alone afterward.
+  preventive_methods: Scout weekly from first spear through full fern, focusing outer
+    rows and windward edges. Remove wild asparagus nearby that launches early flights
+    into your bed. Track counts year to year; populations explode when fern residue
+    stays overwinter and the same crowns get pushed for maximum spear count without
+    recovery time. Flag fields that ran hot last season for earlier walks next spring.
+  cultural_practices: Snap spears at soil line during harvest to strip eggs before
+    hatch. Mow or destroy old ferns after frost where rules allow so adults have fewer
+    overwintering sites. Avoid excess nitrogen that pushes lush fern flushes; beetles
+    skeletonize soft tissue fast. Irrigate evenly so crowns stay productive without
+    succulent waves. Replant new beds upslope from old, infested blocks when possible.
+  mechanical_physical: Hand-pick adults and larvae into soapy water on cool mornings
+    -- beetles drop when startled. Flick clustered adults into a wide-mouth jar. Light
+    row covers over young crowns exclude adults during flight if you open edges daily
+    for harvest and reseal -- tedious but precise on small plots.
+  organic_sprays: Neem azadirachtin and spinosad suppress larvae on ferns and spears
+    when coverage is thorough -- add spreader on waxy fern needles. Insecticidal soap
+    kills young larvae on contact; repeat after rain. Pyrethrin knocks adults down
+    briefly; spray at dusk when bees are not on open flowers. Rotate materials so
+    you do not flatten beneficials every week.
+affected_plants:
+- slug: asparagus
+  name: Asparagus
+- slug: agave-americana
+  name: Agave Americana
+- slug: agave
+  name: Agave
+- slug: blue-agave
+  name: Blue Agave
+- slug: century-plant
+  name: Century Plant
+- slug: henequen
+  name: Henequen
+- slug: ponytail-palm
+  name: Ponytail Palm
+- slug: sisal
+  name: Sisal
+natural_enemies:
+- Lady Beetles (Coccinellidae)
+- Lacewing larvae (Chrysopidae)
+- Parasitic Wasps (Hymenoptera)
+- Ground Beetles (Carabidae)
+category: pest

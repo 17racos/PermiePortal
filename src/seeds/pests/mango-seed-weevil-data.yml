@@ -1,76 +1,72 @@
----
-- name: Mango Seed Weevil
-  slug: mango-seed-weevil
-  picture: mango_seed_weevil.webp
-  scientific_name: Sternochetus mangiferae
-  description: >-
-    If plants are wilting, notching at the edges, or fruit and roots show hidden feeding damage,
-    mango seed weevil may be the cause. Adults chew above ground while larvae often feed out of
-    sight inside soil, stems, or fruit. Damage builds quietly, then plants crash fast when roots
-    are heavily hit. Act early so a small weevil problem does not become a season-long
-    infestation.
-  characteristics: >-
-    Look for small beetles with a hard body and a distinct snout, usually active at dawn, dusk,
-    or night. Check for crescent-shaped leaf notches, punctures in fruit, or tiny entry holes
-    near stems. In soil or damaged tissue, larvae are often pale, legless, and curved in a
-    C-shape. Fresh chew marks plus snout beetles or C-shaped grubs confirm active weevil
-    pressure.
-  symptoms:
-  - chewed-stems
-  - stem-damage
-  - fruit-damage
-  - holes-in-leaves
-  - root-damage
-  control_methods:
-    biological_controls: >-
-      Ants sometimes harass adult weevils on trunks; predation is inconsistent. Parasitoid
-      releases exist in research programs overseas -- not a reliable mail-order for a backyard
-      tree. Birds pick adults occasionally. Realistic organic orchards lean on sanitation,
-      bagging, and spray timing rather than purchased parasites. Do not expect chickens to clear
-      a mango canopy.
-    preventive_methods: >-
-      Adults fly to new flush and young fruit -- do not move fruit or nursery stock out of
-      quarantine zones without legal clearance. Hot-water treatment protocols exist for
-      commercial export; they are not a weekend stove project for home fruit. Pheromone traps
-      where available track flights; rising catches mean tighten harvest and spray windows. Scout
-      pea-sized fruit for pinholes before larvae tunnel to the seed.
-    cultural_practices: >-
-      Remove fallen fruit weekly so larvae cannot complete in litter under trees. Destroy
-      infested fruit off-site or bury deep; compost piles near trunks become weevil nurseries.
-      Prune trees to heights workers can spray thoroughly -- missed tops leave survivors. Harvest
-      mature fruit promptly; late hanging fruit gives weevils extra oviposition weeks.
-    mechanical_physical: >-
-      Bagging clusters works where labor is affordable -- you exclude adults during egg-lay
-      windows. Pheromone traps monitor males; they rarely clear an orchard alone. For a few
-      backyard trees, nylon socks on clusters exclude some attacks if tied before egg flight.
-    organic_sprays: >-
-      Neem seed kernel extracts or azadirachtin timed to peak adult activity and flowering flush
-      reduce oviposition when coverage hits panicles and tiny fruit. Pyrethrum gives knockdown on
-      adults where labels allow; short residual means repeat after rain. Spray at dusk to spare
-      pollinators on open mango inflorescences. Cover all sides of inflorescences; weevils
-      attack what sprays miss.
-  natural_enemies:
-  - Parasitic Wasps
-  - Predatory Ants
-  - Carabid Beetles
-  affected_plants:
-  - slug: ambarella
-    name: Ambarella
-  - slug: barbados-plum
-    name: Barbados Plum
-  - slug: golden-apple
-    name: Golden Apple
-  - slug: hog-plum
-    name: Hog Plum
-  - slug: june-plum
-    name: June Plum
-  - slug: kedondong
-    name: Kedondong
-  - slug: mango
-    name: Mango
-  - slug: red-mombin
-    name: Red Mombin
-  - slug: spanish-plum
-    name: Spanish Plum
-  - slug: yellow-mombin
-    name: Yellow Mombin
+name: Mango Seed Weevil
+slug: mango-seed-weevil
+picture: mango_seed_weevil.webp
+scientific_name: Sternochetus mangiferae
+description: If plants are wilting, notching at the edges, or fruit and roots show
+  hidden feeding damage, mango seed weevil may be the cause. Adults chew above ground
+  while larvae often feed out of sight inside soil, stems, or fruit. Damage builds
+  quietly, then plants crash fast when roots are heavily hit. Act early so a small
+  weevil problem does not become a season-long infestation.
+characteristics: Look for small beetles with a hard body and a distinct snout, usually
+  active at dawn, dusk, or night. Check for crescent-shaped leaf notches, punctures
+  in fruit, or tiny entry holes near stems. In soil or damaged tissue, larvae are
+  often pale, legless, and curved in a C-shape. Fresh chew marks plus snout beetles
+  or C-shaped grubs confirm active weevil pressure.
+symptoms:
+- chewed-stems
+- stem-damage
+- fruit-damage
+- holes-in-leaves
+- root-damage
+control_methods:
+  biological_controls: Ants sometimes harass adult weevils on trunks; predation is
+    inconsistent. Parasitoid releases exist in research programs overseas -- not a
+    reliable mail-order for a backyard tree. Birds pick adults occasionally. Realistic
+    organic orchards lean on sanitation, bagging, and spray timing rather than purchased
+    parasites. Do not expect chickens to clear a mango canopy.
+  preventive_methods: Adults fly to new flush and young fruit -- do not move fruit
+    or nursery stock out of quarantine zones without legal clearance. Hot-water treatment
+    protocols exist for commercial export; they are not a weekend stove project for
+    home fruit. Pheromone traps where available track flights; rising catches mean
+    tighten harvest and spray windows. Scout pea-sized fruit for pinholes before larvae
+    tunnel to the seed.
+  cultural_practices: Remove fallen fruit weekly so larvae cannot complete in litter
+    under trees. Destroy infested fruit off-site or bury deep; compost piles near
+    trunks become weevil nurseries. Prune trees to heights workers can spray thoroughly
+    -- missed tops leave survivors. Harvest mature fruit promptly; late hanging fruit
+    gives weevils extra oviposition weeks.
+  mechanical_physical: Bagging clusters works where labor is affordable -- you exclude
+    adults during egg-lay windows. Pheromone traps monitor males; they rarely clear
+    an orchard alone. For a few backyard trees, nylon socks on clusters exclude some
+    attacks if tied before egg flight.
+  organic_sprays: Neem seed kernel extracts or azadirachtin timed to peak adult activity
+    and flowering flush reduce oviposition when coverage hits panicles and tiny fruit.
+    Pyrethrum gives knockdown on adults where labels allow; short residual means repeat
+    after rain. Spray at dusk to spare pollinators on open mango inflorescences. Cover
+    all sides of inflorescences; weevils attack what sprays miss.
+natural_enemies:
+- Parasitic Wasps
+- Predatory Ants
+- Carabid Beetles
+affected_plants:
+- slug: ambarella
+  name: Ambarella
+- slug: barbados-plum
+  name: Barbados Plum
+- slug: golden-apple
+  name: Golden Apple
+- slug: hog-plum
+  name: Hog Plum
+- slug: june-plum
+  name: June Plum
+- slug: kedondong
+  name: Kedondong
+- slug: mango
+  name: Mango
+- slug: red-mombin
+  name: Red Mombin
+- slug: spanish-plum
+  name: Spanish Plum
+- slug: yellow-mombin
+  name: Yellow Mombin
+category: pest

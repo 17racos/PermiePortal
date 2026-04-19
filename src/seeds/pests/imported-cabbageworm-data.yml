@@ -1,82 +1,78 @@
----
-- name: Imported Cabbageworm
-  slug: imported-cabbageworm
-  picture: imported_cabbageworm.webp
-  scientific_name: Pieris rapae
-  description: >-
-    If leaves look shredded overnight or fruit has fresh chew holes, imported cabbageworm may be
-    feeding right now. These larvae can eat fast and strip a healthy plant in a short window.
-    Young stages are easy to miss, then damage suddenly explodes as they grow. Catch them early
-    to avoid severe defoliation and contaminated harvests.
-  characteristics: >-
-    Check leaf undersides, growing tips, and stem junctions for eggs, frass pellets, and feeding
-    scars. Larvae vary in color, but most have a soft segmented body and blend into foliage.
-    Look at dusk or early morning when many species feed more actively. Fresh chewing plus live
-    larvae or droppings on lower leaves confirms an active caterpillar outbreak.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - skeletonized-leaves
-  control_methods:
-    biological_controls: >-
-      Cotesia glomerata and Cotesia rubecula are parasitic wasps that specifically
-      attack imported cabbageworm larvae and frequently collapse outbreaks naturally.
-      A parasitized larva develops a clump of wasp cocoons on its back -- leave
-      these larvae in place, they are doing more good dead than the parasitoids would
-      do if you destroyed them. Trichogramma egg parasitoids attack eggs before hatch.
-      Plant dill, fennel, and sweet alyssum to support these wasp communities. Birds
-      feed caterpillars to nestlings in large quantities -- habitat near the garden
-      provides continuous predation pressure.
-    preventive_methods: >-
-      The imported cabbageworm is the larva of the common white cabbage butterfly -- 
-      the small white butterfly in brassica beds is actively laying eggs. Single pale
-      yellow ribbed eggs on leaf undersides hatch in 3-7 days. Checking leaf undersides
-      weekly and crushing eggs is the highest-return preventive activity. Row covers
-      from transplant until heading completely exclude butterflies. One butterfly can
-      lay 200+ eggs in her lifetime -- population pressure builds rapidly without exclusion.
-    cultural_practices: >-
-      Red and purple brassica varieties are moderately less preferred for egg-laying.
-      Till brassica residues immediately after harvest to expose pupae. Time planting
-      gaps between brassica crops if local butterfly populations are high. Interplant
-      with thyme, sage, and rosemary at bed edges -- volatile aromatics confuse
-      butterfly navigation and support parasitoid wasps.
-    mechanical_physical: >-
-      Floating row covers exclude adult butterflies completely -- the single most
-      reliable control for small gardens. Smash eggs and hand-pick larvae on every
-      scouting pass. Check forming heads thoroughly -- larvae move to inner leaves
-      and are hidden until heading brassicas are cut and inner leaves are revealed.
-    organic_sprays: >-
-      Bt kurstaki while larvae are small -- apply in the evening coating all leaf
-      surfaces including undersides where young larvae feed. Reapply every 5-7 days
-      and after rain. Spinosad for larger larvae where Bt was missed. Leave parasitized
-      mummy larvae on plants -- they produce the wasps that protect your next planting.
-  natural_enemies:
-  - Cotesia glomerata
-  - Cotesia rubecula
-  - Birds
-  affected_plants:
-  - slug: bok-choy
-    name: Bok Choy
-  - slug: broccoli
-    name: Broccoli
-  - slug: daikon-radish
-    name: Daikon Radish
-  - slug: kale
-    name: Kale
-  - slug: radish
-    name: Radish
-  - slug: sea-kale
-    name: Sea Kale
-  - slug: sea-rocket
-    name: Sea Rocket
-  - slug: sweet-alyssum
-    name: Sweet Alyssum
-  - slug: tree-collard
-    name: Tree Collard
-  - slug: turkish-rocket
-    name: Turkish Rocket
-  - slug: watercress
-    name: Watercress
-  - slug: wild-mustard-greens
-    name: Wild Mustard Greens
+name: Imported Cabbageworm
+slug: imported-cabbageworm
+picture: imported_cabbageworm.webp
+scientific_name: Pieris rapae
+description: If leaves look shredded overnight or fruit has fresh chew holes, imported
+  cabbageworm may be feeding right now. These larvae can eat fast and strip a healthy
+  plant in a short window. Young stages are easy to miss, then damage suddenly explodes
+  as they grow. Catch them early to avoid severe defoliation and contaminated harvests.
+characteristics: Check leaf undersides, growing tips, and stem junctions for eggs,
+  frass pellets, and feeding scars. Larvae vary in color, but most have a soft segmented
+  body and blend into foliage. Look at dusk or early morning when many species feed
+  more actively. Fresh chewing plus live larvae or droppings on lower leaves confirms
+  an active caterpillar outbreak.
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- skeletonized-leaves
+control_methods:
+  biological_controls: Cotesia glomerata and Cotesia rubecula are parasitic wasps
+    that specifically attack imported cabbageworm larvae and frequently collapse outbreaks
+    naturally. A parasitized larva develops a clump of wasp cocoons on its back --
+    leave these larvae in place, they are doing more good dead than the parasitoids
+    would do if you destroyed them. Trichogramma egg parasitoids attack eggs before
+    hatch. Plant dill, fennel, and sweet alyssum to support these wasp communities.
+    Birds feed caterpillars to nestlings in large quantities -- habitat near the garden
+    provides continuous predation pressure.
+  preventive_methods: The imported cabbageworm is the larva of the common white cabbage
+    butterfly --  the small white butterfly in brassica beds is actively laying eggs.
+    Single pale yellow ribbed eggs on leaf undersides hatch in 3-7 days. Checking
+    leaf undersides weekly and crushing eggs is the highest-return preventive activity.
+    Row covers from transplant until heading completely exclude butterflies. One butterfly
+    can lay 200+ eggs in her lifetime -- population pressure builds rapidly without
+    exclusion.
+  cultural_practices: Red and purple brassica varieties are moderately less preferred
+    for egg-laying. Till brassica residues immediately after harvest to expose pupae.
+    Time planting gaps between brassica crops if local butterfly populations are high.
+    Interplant with thyme, sage, and rosemary at bed edges -- volatile aromatics confuse
+    butterfly navigation and support parasitoid wasps.
+  mechanical_physical: Floating row covers exclude adult butterflies completely --
+    the single most reliable control for small gardens. Smash eggs and hand-pick larvae
+    on every scouting pass. Check forming heads thoroughly -- larvae move to inner
+    leaves and are hidden until heading brassicas are cut and inner leaves are revealed.
+  organic_sprays: Bt kurstaki while larvae are small -- apply in the evening coating
+    all leaf surfaces including undersides where young larvae feed. Reapply every
+    5-7 days and after rain. Spinosad for larger larvae where Bt was missed. Leave
+    parasitized mummy larvae on plants -- they produce the wasps that protect your
+    next planting.
+natural_enemies:
+- Cotesia glomerata
+- Cotesia rubecula
+- Birds
+affected_plants:
+- slug: bok-choy
+  name: Bok Choy
+- slug: broccoli
+  name: Broccoli
+- slug: daikon-radish
+  name: Daikon Radish
+- slug: kale
+  name: Kale
+- slug: radish
+  name: Radish
+- slug: sea-kale
+  name: Sea Kale
+- slug: sea-rocket
+  name: Sea Rocket
+- slug: sweet-alyssum
+  name: Sweet Alyssum
+- slug: tree-collard
+  name: Tree Collard
+- slug: turkish-rocket
+  name: Turkish Rocket
+- slug: watercress
+  name: Watercress
+- slug: wild-mustard-greens
+  name: Wild Mustard Greens
+category: pest

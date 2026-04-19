@@ -1,129 +1,126 @@
----
-- name: Bamboo Mite
-  slug: bamboo-mite
-  picture: bamboo_mite.webp
-  scientific_name: Schizotetranychus longus
-  description: >-
-    If leaves look dusty, speckled, bronzed, or curled without obvious chewing, bamboo mite is a
-    likely suspect. Mites are tiny but can multiply fast, especially during heat and dry air.
-    Plants lose vigor as feeding drains cell contents from leaves and tender growth. Early
-    action matters, because heavy infestations can spread through a bed in days.
-  characteristics: >-
-    Use a hand lens and check leaf undersides first, especially near veins and new growth. Look
-    for pinprick stippling, fine webbing in some species, and tiny moving dots that range from
-    pale to red or brown. Tap a leaf over white paper; moving specks suggest active mites.
-    Stippled leaves plus mites or eggs clustered under foliage confirms the diagnosis.
-  symptoms:
-  - yellowing-leaves
-  - webbing
-  - silvery-streaking
-  - brown-edges
-  control_methods:
-    biological_controls: >-
-      Predatory mites such as Neoseiulus fallacis hunt spider mites on bamboo when humidity stays
-      above fifty percent and broad sprays do not wipe them weekly. Phytoseiulus persimilis works
-      best on warm, humid nights in enclosed courtyards; outdoor groves often rely on native
-      predators if you stop killing them. Minute pirate bugs patrol leaf folds once mites draw
-      honeydew. Release predators after a hard water knockdown so they meet fewer pesticides and
-      more prey per leaf.
-    preventive_methods: >-
-      Bamboo mites crawl in on new divisions and nursery pots -- quarantine every new plant in
-      bright shade for two weeks and scout the sheath fold with a lens before it joins a
-      collection. Early mites live where the leaf still rolls tight; late mites cover whole
-      culms. If you buy mail-order bamboo, open the box outside and rinse before it touches other
-      pots. Dry, dusty hedges along roads invite mites every drought; plan irrigation before
-      stippling covers the block.
-    cultural_practices: >-
-      Rinse foliage during dry spells -- mites explode when leaf surfaces are dusty and humidity
-      drops. Avoid dumping nitrogen that pushes ultra-soft new shoots every flush; succulent
-      tissue feeds faster mite cycles. Thin interior culms on clumping bamboo so air moves and
-      sprays or water reach both leaf sides. In pots, upsize containers before roots stress;
-      drought-stressed bamboo flags mites before it flags thirst. Mulch to even soil moisture,
-      not to keep leaves wet all night.
-    mechanical_physical: >-
-      A stiff jet of water aimed at leaf undersides dislodges mites and interrupts webbing --
-      repeat every two to three days for two weeks to crash a generation. Wipe heavy infestations
-      off specimen culms with a damp cloth before predators arrive; you are buying clean real
-      estate. For movable pots, lay them on their side and blast both sides of fans. Combine
-      water with humidity management; dry blasting alone fails in desert wind.
-    organic_sprays: >-
-      Horticultural oil or insecticidal soap with a spreader-sticker coats mites and eggs when you
-      fully wet leaf undersides -- unfurling shoots need extra attention. Spray at dusk to avoid
-      sunburn and to spare daytime hunters. Repeat on a short interval until new growth emerges
-      clean; one spray never fixes three generations. Neem can reduce egg laying if rotation
-      matters; still focus on coverage. Do not mix oil and drought stress in one week -- treat
-      when plants are not wilting.
-  natural_enemies:
-  - Predatory Mites (Phytoseiidae)
-  - Minute Pirate Bugs
-  affected_plants:
-  - slug: bamboo
-    name: Bamboo
-  - slug: big-bluestem
-    name: Big Bluestem
-  - slug: blue-grama
-    name: Blue Grama
-  - slug: broomsedge-bluestem
-    name: Broomsedge Bluestem
-  - slug: buffalo-grass
-    name: Buffalo Grass
-  - slug: eastern-gamagrass
-    name: Eastern Gamagrass
-  - slug: elephant-grass
-    name: Elephant Grass
-  - slug: elliotts-bluestem
-    name: Elliott's Bluestem
-  - slug: fever-grass
-    name: Fever Grass
-  - slug: florida-gamagrass
-    name: Florida Gamagrass
-  - slug: gulf-muhly
-    name: Gulf Muhly
-  - slug: hairawn-muhly
-    name: Hairawn Muhly
-  - slug: hairy-grama
-    name: Hairy Grama
-  - slug: indiangrass
-    name: Indiangrass
-  - slug: lemongrass
-    name: Lemongrass
-  - slug: little-bluestem
-    name: Little Bluestem
-  - slug: longawn-muhly
-    name: Longawn Muhly
-  - slug: millet
-    name: Millet
-  - slug: muhly-grass
-    name: Muhly Grass
-  - slug: prairie-cordgrass
-    name: Prairie Cordgrass
-  - slug: purple-lovegrass
-    name: Purple Lovegrass
-  - slug: rice
-    name: Rice
-  - slug: saltgrass
-    name: Saltgrass
-  - slug: saltmeadow-cordgrass
-    name: Saltmeadow Cordgrass
-  - slug: sand-bluestem
-    name: Sand Bluestem
-  - slug: sand-cordgrass
-    name: Sand Cordgrass
-  - slug: sand-grama
-    name: Sand Grama
-  - slug: sand-lovegrass
-    name: Sand Lovegrass
-  - slug: sideoats-grama
-    name: Sideoats Grama
-  - slug: split-beard-bluestem
-    name: Split Beard Bluestem
-  - slug: sweetgrass
-    name: Sweetgrass
-  - slug: switchgrass
-    name: Switchgrass
-  - slug: vetiver-grass
-    name: Vetiver Grass
-  - slug: weeping-lovegrass
-    name: Weeping Lovegrass
-  - slug: wiregrass
-    name: Wiregrass
+name: Bamboo Mite
+slug: bamboo-mite
+picture: bamboo_mite.webp
+scientific_name: Schizotetranychus longus
+description: If leaves look dusty, speckled, bronzed, or curled without obvious chewing,
+  bamboo mite is a likely suspect. Mites are tiny but can multiply fast, especially
+  during heat and dry air. Plants lose vigor as feeding drains cell contents from
+  leaves and tender growth. Early action matters, because heavy infestations can spread
+  through a bed in days.
+characteristics: Use a hand lens and check leaf undersides first, especially near
+  veins and new growth. Look for pinprick stippling, fine webbing in some species,
+  and tiny moving dots that range from pale to red or brown. Tap a leaf over white
+  paper; moving specks suggest active mites. Stippled leaves plus mites or eggs clustered
+  under foliage confirms the diagnosis.
+symptoms:
+- yellowing-leaves
+- webbing
+- silvery-streaking
+- brown-edges
+control_methods:
+  biological_controls: Predatory mites such as Neoseiulus fallacis hunt spider mites
+    on bamboo when humidity stays above fifty percent and broad sprays do not wipe
+    them weekly. Phytoseiulus persimilis works best on warm, humid nights in enclosed
+    courtyards; outdoor groves often rely on native predators if you stop killing
+    them. Minute pirate bugs patrol leaf folds once mites draw honeydew. Release predators
+    after a hard water knockdown so they meet fewer pesticides and more prey per leaf.
+  preventive_methods: Bamboo mites crawl in on new divisions and nursery pots -- quarantine
+    every new plant in bright shade for two weeks and scout the sheath fold with a
+    lens before it joins a collection. Early mites live where the leaf still rolls
+    tight; late mites cover whole culms. If you buy mail-order bamboo, open the box
+    outside and rinse before it touches other pots. Dry, dusty hedges along roads
+    invite mites every drought; plan irrigation before stippling covers the block.
+  cultural_practices: Rinse foliage during dry spells -- mites explode when leaf surfaces
+    are dusty and humidity drops. Avoid dumping nitrogen that pushes ultra-soft new
+    shoots every flush; succulent tissue feeds faster mite cycles. Thin interior culms
+    on clumping bamboo so air moves and sprays or water reach both leaf sides. In
+    pots, upsize containers before roots stress; drought-stressed bamboo flags mites
+    before it flags thirst. Mulch to even soil moisture, not to keep leaves wet all
+    night.
+  mechanical_physical: A stiff jet of water aimed at leaf undersides dislodges mites
+    and interrupts webbing -- repeat every two to three days for two weeks to crash
+    a generation. Wipe heavy infestations off specimen culms with a damp cloth before
+    predators arrive; you are buying clean real estate. For movable pots, lay them
+    on their side and blast both sides of fans. Combine water with humidity management;
+    dry blasting alone fails in desert wind.
+  organic_sprays: Horticultural oil or insecticidal soap with a spreader-sticker coats
+    mites and eggs when you fully wet leaf undersides -- unfurling shoots need extra
+    attention. Spray at dusk to avoid sunburn and to spare daytime hunters. Repeat
+    on a short interval until new growth emerges clean; one spray never fixes three
+    generations. Neem can reduce egg laying if rotation matters; still focus on coverage.
+    Do not mix oil and drought stress in one week -- treat when plants are not wilting.
+natural_enemies:
+- Predatory Mites (Phytoseiidae)
+- Minute Pirate Bugs
+affected_plants:
+- slug: bamboo
+  name: Bamboo
+- slug: big-bluestem
+  name: Big Bluestem
+- slug: blue-grama
+  name: Blue Grama
+- slug: broomsedge-bluestem
+  name: Broomsedge Bluestem
+- slug: buffalo-grass
+  name: Buffalo Grass
+- slug: eastern-gamagrass
+  name: Eastern Gamagrass
+- slug: elephant-grass
+  name: Elephant Grass
+- slug: elliotts-bluestem
+  name: Elliott's Bluestem
+- slug: fever-grass
+  name: Fever Grass
+- slug: florida-gamagrass
+  name: Florida Gamagrass
+- slug: gulf-muhly
+  name: Gulf Muhly
+- slug: hairawn-muhly
+  name: Hairawn Muhly
+- slug: hairy-grama
+  name: Hairy Grama
+- slug: indiangrass
+  name: Indiangrass
+- slug: lemongrass
+  name: Lemongrass
+- slug: little-bluestem
+  name: Little Bluestem
+- slug: longawn-muhly
+  name: Longawn Muhly
+- slug: millet
+  name: Millet
+- slug: muhly-grass
+  name: Muhly Grass
+- slug: prairie-cordgrass
+  name: Prairie Cordgrass
+- slug: purple-lovegrass
+  name: Purple Lovegrass
+- slug: rice
+  name: Rice
+- slug: saltgrass
+  name: Saltgrass
+- slug: saltmeadow-cordgrass
+  name: Saltmeadow Cordgrass
+- slug: sand-bluestem
+  name: Sand Bluestem
+- slug: sand-cordgrass
+  name: Sand Cordgrass
+- slug: sand-grama
+  name: Sand Grama
+- slug: sand-lovegrass
+  name: Sand Lovegrass
+- slug: sideoats-grama
+  name: Sideoats Grama
+- slug: split-beard-bluestem
+  name: Split Beard Bluestem
+- slug: sweetgrass
+  name: Sweetgrass
+- slug: switchgrass
+  name: Switchgrass
+- slug: vetiver-grass
+  name: Vetiver Grass
+- slug: weeping-lovegrass
+  name: Weeping Lovegrass
+- slug: wiregrass
+  name: Wiregrass
+category: pest

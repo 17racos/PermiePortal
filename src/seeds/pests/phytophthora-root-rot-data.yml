@@ -1,51 +1,49 @@
----
-- name: Phytophthora Root Rot
-  slug: phytophthora-root-rot
-  picture: phytophthora_root_rot.webp
-  scientific_name: Phytophthora spp.
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, phytophthora root rot
-    may already be active. This problem often starts small, then spreads across healthy tissue
-    before most growers realize how serious it is. Warmth, moisture, and crowded foliage usually
-    speed it up. Treat early, because waiting even a few days can turn a manageable infection
-    into major crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - wilting
-  - root-damage
-  - yellowing-leaves
-  - dropping-leaves
-  - crown-damage
-  control_methods:
-    biological_controls: >-
-      Trichoderma and Streptomyces products applied as soil drenches sometimes compete with
-      Phytophthora zoospores -- variable suppression, not a cure for soggy roots. Compost teas
-      show inconsistent results unless you track biology. Combine any microbial with drainage
-      work; otherwise you rearrange deck chairs while roots rot.
-    preventive_methods: >-
-      Buy certified clean nursery stock; reject plants with collar lesions or stunted roots.
-      Test irrigation water for contamination in high-value blocks; do not propagate from known-
-      positive fields. Map sick zones and avoid moving soil from them on tools and tires.
-    cultural_practices: >-
-      Plant on broad mounds or berms so crowns sit above the water table; redirect runoff away
-      from trunks. Use clean mulch kept back from bark collars; wet mulch against stems invites
-      infection. Graft susceptible scions onto tolerant rootstocks where programs exist. Avoid
-      over-irrigation; wet feet kill faster than Phytophthora alone on dry slopes.
-    mechanical_physical: >-
-      Carefully excavate soil from infected crowns, let tissue air-dry briefly where appropriate,
-      then replace with clean mulch -- pair with irrigation fixes or roots re-infect the same week.
-      Install French drains or surface swales in chronically wet yards before replanting.
-    organic_sprays: >-
-      Copper hydroxide on crowns of woody plants may protect some infections where labels allow.
-      Phosphorous acid (phosphite) trunk injections or foliar sprays trigger host defenses on
-      some crops -- follow organic certification rules and hire trained applicators for injection.
-      Sprays support trees with functioning roots; they do not rebuild mush.
-  natural_enemies:
-  - Trichoderma asperellum
-  - Streptomyces spp.
-  - Competitive Saprophytes
+name: Phytophthora Root Rot
+slug: phytophthora-root-rot
+picture: phytophthora_root_rot.webp
+scientific_name: Phytophthora spp.
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  phytophthora root rot may already be active. This problem often starts small, then
+  spreads across healthy tissue before most growers realize how serious it is. Warmth,
+  moisture, and crowded foliage usually speed it up. Treat early, because waiting
+  even a few days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- wilting
+- root-damage
+- yellowing-leaves
+- dropping-leaves
+- crown-damage
+control_methods:
+  biological_controls: Trichoderma and Streptomyces products applied as soil drenches
+    sometimes compete with Phytophthora zoospores -- variable suppression, not a cure
+    for soggy roots. Compost teas show inconsistent results unless you track biology.
+    Combine any microbial with drainage work; otherwise you rearrange deck chairs
+    while roots rot.
+  preventive_methods: Buy certified clean nursery stock; reject plants with collar
+    lesions or stunted roots. Test irrigation water for contamination in high-value
+    blocks; do not propagate from known- positive fields. Map sick zones and avoid
+    moving soil from them on tools and tires.
+  cultural_practices: Plant on broad mounds or berms so crowns sit above the water
+    table; redirect runoff away from trunks. Use clean mulch kept back from bark collars;
+    wet mulch against stems invites infection. Graft susceptible scions onto tolerant
+    rootstocks where programs exist. Avoid over-irrigation; wet feet kill faster than
+    Phytophthora alone on dry slopes.
+  mechanical_physical: Carefully excavate soil from infected crowns, let tissue air-dry
+    briefly where appropriate, then replace with clean mulch -- pair with irrigation
+    fixes or roots re-infect the same week. Install French drains or surface swales
+    in chronically wet yards before replanting.
+  organic_sprays: Copper hydroxide on crowns of woody plants may protect some infections
+    where labels allow. Phosphorous acid (phosphite) trunk injections or foliar sprays
+    trigger host defenses on some crops -- follow organic certification rules and
+    hire trained applicators for injection. Sprays support trees with functioning
+    roots; they do not rebuild mush.
+natural_enemies:
+- Trichoderma asperellum
+- Streptomyces spp.
+- Competitive Saprophytes
+category: disease

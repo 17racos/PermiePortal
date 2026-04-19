@@ -1,244 +1,245 @@
----
-- name: Cowpea Curculio
-  slug: cowpea-curculio
-  picture: cowpea_curculio.webp
-  scientific_name: Chalcodermus aeneus
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, cowpea curculio may already be on
-    the plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - chewed-stems
-  - stem-damage
-  - fruit-damage
-  - holes-in-leaves
-  control_methods:
-    biological_controls: >-
-      Field crickets, ants, and ground beetles eat small larvae and pupae when those stages sit
-      near the soil surface or on spilled pods -- that window is before the grub tunnels deep
-      into the seed. Once a larva is inside a developing pea, almost nothing can reach it without
-      destroying the pod, so biocontrol is really about trimming next year's adults. Leave
-      permanent mulch paths and avoid bare, baked soil so generalist predators have daytime
-      cover. Do not expect purchased beneficials to fix an active pod infestation -- they help
-      population pressure over seasons, not rescue a field already full of grubs in seeds.
-    preventive_methods: >-
-      Adults are hard-shelled weevils that fly and walk into legume patches to lay eggs on young
-      pods -- your job is to catch that flight before pods are everywhere. Sweep-net the canopy
-      every few days once flowers show, or watch for the first pinhole scars on young pods.
-      Avoid planting one long trickle of cowpeas that ripens from June through frost, because
-      that gives the pest a continuous buffet and overlapping generations. If you farm at
-      garden scale, plant a single tight window of the same maturity group so you can harvest
-      out and till or remove residue while numbers are still predictable.
-    cultural_practices: >-
-      Cowpea curculio completes part of its life cycle in crop residue and volunteer legumes,
-      so clean harvest matters more than heroic sprays. Pick shellies and snaps on a short
-      schedule so pods do not sit full-sized with grubs inside -- every day of delay is another
-      day larvae finish feeding. After the last pick, pull vines and hot-compost or bury residue
-      where soil loss is not a concern, and plow under volunteers before they flower. Rotate that
-      bed to a non-legume family for at least one year so emerging adults meet nothing they can
-      infest immediately. In market gardens, disk or tarp the ends of rows where pods were
-      dropped during picking.
-    mechanical_physical: >-
-      Floating row covers on bushy cowpeas block egg-laying adults from reaching young pods --
-      put covers on right after transplant or when seedlings are a few inches tall. Open covers
-      during bloom if you need bees, then accept some risk or hand-pollinate a few flowers under
-      cover and close them again. For small plots, pick pods every two to three days during peak
-      pod set so fewer eggs complete development inside seeds. Shake vines over a light-colored
-      sheet in early morning and crush any weevils you knock down before they fly. Combine covers
-      with tight harvest timing; mechanics fail if pods stay on the plant half-formed for weeks.
-    organic_sprays: >-
-      Neem and pyrethrin only work when they touch active adults and very young larvae before
-      they bore into seeds -- spray in early morning or dusk when weevils move on foliage and
-      flower clusters. Add enough water volume to wet the canopy, especially blooms and tiny pods,
-      because missed strips leave survivors that restart the curve. Repeat after hard rain
-      because these materials do not linger. Do not spray open flowers during heavy bee activity;
-      wait for a cool evening or spot-treat ends of rows. Kaolin clay on pods and stems can
-      discourage feeding and egg-laying if you rebuild the film after rain -- think of it as
-      whitewash armor, not a silver bullet.
-  natural_enemies:
-  - Field crickets
-  - Ants
-  - Ground beetles
-  affected_plants:
-  - slug: acacia
-    name: Acacia
-  - slug: african-locust-bean
-    name: African Locust Bean
-  - slug: ahipa
-    name: Ahipa
-  - slug: albizia-lebbeck
-    name: Albizia lebbeck
-  - slug: alfalfa
-    name: Alfalfa
-  - slug: asparagus-bean
-    name: Asparagus Bean
-  - slug: baptisia
-    name: Baptisia
-  - slug: bay-bean
-    name: Bay Bean
-  - slug: beach-bean
-    name: Beach Bean
-  - slug: black-medic
-    name: Black Medic
-  - slug: black-mulga
-    name: Black Mulga
-  - slug: black-locust
-    name: Black Locust
-  - slug: bladder-senna
-    name: Bladder Senna
-  - slug: blue-wild-indigo
-    name: Blue Wild Indigo
-  - slug: carob-tree
-    name: Carob Tree
-  - slug: cassia-alata
-    name: Cassia alata
-  - slug: catclaw-sensitive-briar
-    name: Catclaw Sensitive Briar
-  - slug: chickpea
-    name: Chickpea
-  - slug: chilean-pea
-    name: Chilean Pea
-  - slug: coffee-senna
-    name: Coffee Senna
-  - slug: coffeeweed
-    name: Coffeeweed
-  - slug: coral-bean
-    name: Coral Bean
-  - slug: crimson-clover
-    name: Crimson Clover
-  - slug: crown-vetch
-    name: Crown Vetch
-  - slug: desert-ironwood
-    name: Desert Ironwood
-  - slug: dutch-clover
-    name: Dutch Clover
-  - slug: earth-chestnut
-    name: Earth Chestnut
-  - slug: false-indigo
-    name: False Indigo
-  - slug: fava-bean
-    name: Fava Bean
-  - slug: florida-leadplant
-    name: Florida Leadplant
-  - slug: goats-rue
-    name: Goat's Rue
-  - slug: green-bean
-    name: Green Bean
-  - slug: groundnut
-    name: Groundnut
-  - slug: groundplum-milkvetch
-    name: Groundplum Milkvetch
-  - slug: hairy-indigo
-    name: Hairy Indigo
-  - slug: honey-locust
-    name: Honey Locust
-  - slug: hopniss
-    name: Hopniss
-  - slug: hyacinth-bean
-    name: Hyacinth Bean
-  - slug: ice-cream-bean-tree
-    name: Ice Cream Bean Tree
-  - slug: illinois-bundleflower
-    name: Illinois Bundleflower
-  - slug: indigofera-tinctoria
-    name: Indigofera tinctoria
-  - slug: jatoba
-    name: Jatoba
-  - slug: jicama
-    name: Jicama
-  - slug: lablab-bean
-    name: Lablab Bean
-  - slug: lead-plant
-    name: Lead Plant
-  - slug: leucaena
-    name: Leucaena
-  - slug: lupine
-    name: Lupine
-  - slug: mangrove-bean
-    name: Mangrove Bean
-  - slug: milk-vetch
-    name: Milk Vetch
-  - slug: mimosa
-    name: Mimosa
-  - slug: mung-bean
-    name: Mung Bean
-  - slug: palo-verde
-    name: Palo Verde
-  - slug: partridge-acacia
-    name: Partridge Acacia
-  - slug: partridge-cassia
-    name: Partridge Cassia
-  - slug: partridge-pea
-    name: Partridge Pea
-  - slug: pea
-    name: Pea
-  - slug: perennial-peanut
-    name: Perennial Peanut
-  - slug: pigeon-pea
-    name: Pigeon Pea
-  - slug: plains-wild-indigo
-    name: Plains Wild Indigo
-  - slug: powderpuff-mimosa
-    name: Powderpuff Mimosa
-  - slug: prairie-acacia
-    name: Prairie Acacia
-  - slug: prairie-potato
-    name: Prairie Potato
-  - slug: prairie-turnip
-    name: Prairie Turnip
-  - slug: rattlebox
-    name: Rattlebox
-  - slug: sensitive-briar
-    name: Sensitive Briar
-  - slug: sensitive-plant
-    name: Sensitive Plant
-  - slug: sesbania
-    name: Sesbania
-  - slug: sesbania-grandiflora
-    name: Sesbania grandiflora
-  - slug: showy-partridge-pea
-    name: Showy Partridge Pea
-  - slug: siberian-peashrub
-    name: Siberian Peashrub
-  - slug: siberian-pea-shrub
-    name: Siberian Pea Shrub
-  - slug: sicklepod
-    name: Sicklepod
-  - slug: snow-pea
-    name: Snow Pea
-  - slug: sun-hemp
-    name: Sun Hemp
-  - slug: sunshine-mimosa
-    name: Sunshine Mimosa
-  - slug: tagasaste
-    name: Tagasaste
-  - slug: tephrosia-vogelii
-    name: Tephrosia vogelii
-  - slug: tick-trefoil
-    name: Tick Trefoil
-  - slug: trailing-mimosa
-    name: Trailing Mimosa
-  - slug: tree-medick
-    name: Tree Medick
-  - slug: white-wild-indigo
-    name: White Wild Indigo
-  - slug: wild-indigo-bush
-    name: Wild Indigo Bush
-  - slug: wild-indigo
-    name: Wild Indigo
-  - slug: wild-senna
-    name: Wild Senna
-  - slug: winged-bean
-    name: Winged Bean
-  - slug: wisteria
-    name: Wisteria
-  - slug: yam-bean
-    name: Yam Bean
-  - slug: yellow-sweet-clover
-    name: Yellow Sweet Clover
+name: Cowpea Curculio
+slug: cowpea-curculio
+picture: cowpea_curculio.webp
+scientific_name: Chalcodermus aeneus
+description: If new growth is curling, yellowing, sticky, or chewed, cowpea curculio
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- chewed-stems
+- stem-damage
+- fruit-damage
+- holes-in-leaves
+control_methods:
+  biological_controls: Field crickets, ants, and ground beetles eat small larvae and
+    pupae when those stages sit near the soil surface or on spilled pods -- that window
+    is before the grub tunnels deep into the seed. Once a larva is inside a developing
+    pea, almost nothing can reach it without destroying the pod, so biocontrol is
+    really about trimming next year's adults. Leave permanent mulch paths and avoid
+    bare, baked soil so generalist predators have daytime cover. Do not expect purchased
+    beneficials to fix an active pod infestation -- they help population pressure
+    over seasons, not rescue a field already full of grubs in seeds.
+  preventive_methods: Adults are hard-shelled weevils that fly and walk into legume
+    patches to lay eggs on young pods -- your job is to catch that flight before pods
+    are everywhere. Sweep-net the canopy every few days once flowers show, or watch
+    for the first pinhole scars on young pods. Avoid planting one long trickle of
+    cowpeas that ripens from June through frost, because that gives the pest a continuous
+    buffet and overlapping generations. If you farm at garden scale, plant a single
+    tight window of the same maturity group so you can harvest out and till or remove
+    residue while numbers are still predictable.
+  cultural_practices: Cowpea curculio completes part of its life cycle in crop residue
+    and volunteer legumes, so clean harvest matters more than heroic sprays. Pick
+    shellies and snaps on a short schedule so pods do not sit full-sized with grubs
+    inside -- every day of delay is another day larvae finish feeding. After the last
+    pick, pull vines and hot-compost or bury residue where soil loss is not a concern,
+    and plow under volunteers before they flower. Rotate that bed to a non-legume
+    family for at least one year so emerging adults meet nothing they can infest immediately.
+    In market gardens, disk or tarp the ends of rows where pods were dropped during
+    picking.
+  mechanical_physical: Floating row covers on bushy cowpeas block egg-laying adults
+    from reaching young pods -- put covers on right after transplant or when seedlings
+    are a few inches tall. Open covers during bloom if you need bees, then accept
+    some risk or hand-pollinate a few flowers under cover and close them again. For
+    small plots, pick pods every two to three days during peak pod set so fewer eggs
+    complete development inside seeds. Shake vines over a light-colored sheet in early
+    morning and crush any weevils you knock down before they fly. Combine covers with
+    tight harvest timing; mechanics fail if pods stay on the plant half-formed for
+    weeks.
+  organic_sprays: Neem and pyrethrin only work when they touch active adults and very
+    young larvae before they bore into seeds -- spray in early morning or dusk when
+    weevils move on foliage and flower clusters. Add enough water volume to wet the
+    canopy, especially blooms and tiny pods, because missed strips leave survivors
+    that restart the curve. Repeat after hard rain because these materials do not
+    linger. Do not spray open flowers during heavy bee activity; wait for a cool evening
+    or spot-treat ends of rows. Kaolin clay on pods and stems can discourage feeding
+    and egg-laying if you rebuild the film after rain -- think of it as whitewash
+    armor, not a silver bullet.
+natural_enemies:
+- Field crickets
+- Ants
+- Ground beetles
+affected_plants:
+- slug: acacia
+  name: Acacia
+- slug: african-locust-bean
+  name: African Locust Bean
+- slug: ahipa
+  name: Ahipa
+- slug: albizia-lebbeck
+  name: Albizia lebbeck
+- slug: alfalfa
+  name: Alfalfa
+- slug: asparagus-bean
+  name: Asparagus Bean
+- slug: baptisia
+  name: Baptisia
+- slug: bay-bean
+  name: Bay Bean
+- slug: beach-bean
+  name: Beach Bean
+- slug: black-medic
+  name: Black Medic
+- slug: black-mulga
+  name: Black Mulga
+- slug: black-locust
+  name: Black Locust
+- slug: bladder-senna
+  name: Bladder Senna
+- slug: blue-wild-indigo
+  name: Blue Wild Indigo
+- slug: carob-tree
+  name: Carob Tree
+- slug: cassia-alata
+  name: Cassia alata
+- slug: catclaw-sensitive-briar
+  name: Catclaw Sensitive Briar
+- slug: chickpea
+  name: Chickpea
+- slug: chilean-pea
+  name: Chilean Pea
+- slug: coffee-senna
+  name: Coffee Senna
+- slug: coffeeweed
+  name: Coffeeweed
+- slug: coral-bean
+  name: Coral Bean
+- slug: crimson-clover
+  name: Crimson Clover
+- slug: crown-vetch
+  name: Crown Vetch
+- slug: desert-ironwood
+  name: Desert Ironwood
+- slug: dutch-clover
+  name: Dutch Clover
+- slug: earth-chestnut
+  name: Earth Chestnut
+- slug: false-indigo
+  name: False Indigo
+- slug: fava-bean
+  name: Fava Bean
+- slug: florida-leadplant
+  name: Florida Leadplant
+- slug: goats-rue
+  name: Goat's Rue
+- slug: green-bean
+  name: Green Bean
+- slug: groundnut
+  name: Groundnut
+- slug: groundplum-milkvetch
+  name: Groundplum Milkvetch
+- slug: hairy-indigo
+  name: Hairy Indigo
+- slug: honey-locust
+  name: Honey Locust
+- slug: hopniss
+  name: Hopniss
+- slug: hyacinth-bean
+  name: Hyacinth Bean
+- slug: ice-cream-bean-tree
+  name: Ice Cream Bean Tree
+- slug: illinois-bundleflower
+  name: Illinois Bundleflower
+- slug: indigofera-tinctoria
+  name: Indigofera tinctoria
+- slug: jatoba
+  name: Jatoba
+- slug: jicama
+  name: Jicama
+- slug: lablab-bean
+  name: Lablab Bean
+- slug: lead-plant
+  name: Lead Plant
+- slug: leucaena
+  name: Leucaena
+- slug: lupine
+  name: Lupine
+- slug: mangrove-bean
+  name: Mangrove Bean
+- slug: milk-vetch
+  name: Milk Vetch
+- slug: mimosa
+  name: Mimosa
+- slug: mung-bean
+  name: Mung Bean
+- slug: palo-verde
+  name: Palo Verde
+- slug: partridge-acacia
+  name: Partridge Acacia
+- slug: partridge-cassia
+  name: Partridge Cassia
+- slug: partridge-pea
+  name: Partridge Pea
+- slug: pea
+  name: Pea
+- slug: perennial-peanut
+  name: Perennial Peanut
+- slug: pigeon-pea
+  name: Pigeon Pea
+- slug: plains-wild-indigo
+  name: Plains Wild Indigo
+- slug: powderpuff-mimosa
+  name: Powderpuff Mimosa
+- slug: prairie-acacia
+  name: Prairie Acacia
+- slug: prairie-potato
+  name: Prairie Potato
+- slug: prairie-turnip
+  name: Prairie Turnip
+- slug: rattlebox
+  name: Rattlebox
+- slug: sensitive-briar
+  name: Sensitive Briar
+- slug: sensitive-plant
+  name: Sensitive Plant
+- slug: sesbania
+  name: Sesbania
+- slug: sesbania-grandiflora
+  name: Sesbania grandiflora
+- slug: showy-partridge-pea
+  name: Showy Partridge Pea
+- slug: siberian-peashrub
+  name: Siberian Peashrub
+- slug: siberian-pea-shrub
+  name: Siberian Pea Shrub
+- slug: sicklepod
+  name: Sicklepod
+- slug: snow-pea
+  name: Snow Pea
+- slug: sun-hemp
+  name: Sun Hemp
+- slug: sunshine-mimosa
+  name: Sunshine Mimosa
+- slug: tagasaste
+  name: Tagasaste
+- slug: tephrosia-vogelii
+  name: Tephrosia vogelii
+- slug: tick-trefoil
+  name: Tick Trefoil
+- slug: trailing-mimosa
+  name: Trailing Mimosa
+- slug: tree-medick
+  name: Tree Medick
+- slug: white-wild-indigo
+  name: White Wild Indigo
+- slug: wild-indigo-bush
+  name: Wild Indigo Bush
+- slug: wild-indigo
+  name: Wild Indigo
+- slug: wild-senna
+  name: Wild Senna
+- slug: winged-bean
+  name: Winged Bean
+- slug: wisteria
+  name: Wisteria
+- slug: yam-bean
+  name: Yam Bean
+- slug: yellow-sweet-clover
+  name: Yellow Sweet Clover
+category: pest

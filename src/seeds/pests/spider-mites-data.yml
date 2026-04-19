@@ -1,73 +1,68 @@
----
-- name: Spider Mites
-  slug: spider-mites
-  picture: spider_mites.webp
-  scientific_name: Tetranychidae
-  description: >-
-    If leaves look dusty, speckled, bronzed, or curled without obvious chewing, spider mites is
-    a likely suspect. Mites are tiny but can multiply fast, especially during heat and dry air.
-    Plants lose vigor as feeding drains cell contents from leaves and tender growth. Early
-    action matters, because heavy infestations can spread through a bed in days.
-  characteristics: >-
-    Use a hand lens and check leaf undersides first, especially near veins and new growth. Look
-    for pinprick stippling, fine webbing in some species, and tiny moving dots that range from
-    pale to red or brown. Tap a leaf over white paper; moving specks suggest active mites.
-    Stippled leaves plus mites or eggs clustered under foliage confirms the diagnosis.
-  symptoms:
-  - yellowing-leaves
-  - webbing
-  - silvery-streaking
-  - brown-edges
-  control_methods:
-    biological_controls: >-
-      Predatory mites (Phytoseiulus persimilis or Neoseiulus californicus) are the most
-      effective biological control for spider mites — unlike ladybugs, these can actually
-      be purchased and released successfully because they actively hunt mites on the same
-      leaf surfaces. Order from a reputable insectary and release immediately on arrival,
-      in the evening, directly onto infested leaves. They need humidity above 60% to
-      survive — mist the release area first. Ladybugs and lacewings eat mites too but
-      work too slowly for an active infestation. Long term, plant dill, fennel, and
-      coriander nearby to support predatory mite populations naturally.
-    preventive_methods: >-
-      Spider mites are a stress indicator — they explode on plants that are hot, dry, and
-      dusty. If you have mites, your plant is probably thirsty. Consistent soil moisture
-      is the single most effective prevention. Mites also hate humidity — a dry indoor
-      environment or a drought-stressed outdoor bed is an invitation. Overhead watering
-      or misting leaves suppresses populations. Dusty leaves are mite habitat — clean
-      leaf surfaces in dry conditions. Avoid broad-spectrum pesticides entirely: they kill
-      the predatory mites that keep spider mites in check, and populations rebound faster
-      and harder after chemical treatment.
-    cultural_practices: >-
-      Spider mites spread rapidly in hot, dry weather — populations can double every
-      3-5 days above 80F (27C). Check undersides of leaves weekly during summer heat.
-      Remove and bag heavily infested leaves immediately — do not compost them, mites
-      survive in compost. Interplant with Chinese chives, coriander, and dill which
-      harbor predatory mite populations. Keep beds mulched to retain moisture and
-      reduce the dry hot conditions mites prefer. Avoid monocultures — diverse plantings
-      slow the spread between plants.
-    mechanical_physical: >-
-      A strong jet of water aimed at leaf undersides is the first and most effective
-      mechanical control for spider mites — more so than for most other pests because
-      mites are lightweight and cannot easily reattach. Do it every 2-3 days for
-      2 weeks to break the egg-to-adult cycle (eggs hatch in 3 days in warm weather).
-      Do it in the morning so leaves dry before evening to avoid fungal issues.
-      For potted plants, take them outside and blast thoroughly including the pot
-      surface where mites shelter. This alone resolves light to moderate infestations
-      if done consistently.
-    organic_sprays: >-
-      Insecticidal soap is the most reliable spray — mix 1-2 teaspoons castile soap
-      per quart of water and coat leaf undersides thoroughly where mites live. It kills
-      by contact and stops working when dry, so coverage matters more than quantity.
-      Apply every 3 days for 2 weeks to catch newly hatched eggs. Neem oil disrupts
-      mite molting and egg laying — mix 1 tablespoon neem plus 1 teaspoon castile soap
-      per quart of warm water, apply weekly. In hot weather, spray at dusk only —
-      neem and soap applied in direct sun cause leaf burn. Rosemary oil and eucalyptus
-      oil sprays have real repellent effect on mites specifically and are worth adding
-      to the rotation. Skip garlic and hot pepper sprays — limited evidence they work
-      on mites and they irritate beneficial insects.
-  natural_enemies:
-  - Predatory Mites
-  - Ladybugs
-  - Lacewings
-  - Minute Pirate Bugs
-  - Insectivorous Birds
+name: Spider Mites
+slug: spider-mites
+picture: spider_mites.webp
+scientific_name: Tetranychidae
+description: If leaves look dusty, speckled, bronzed, or curled without obvious chewing,
+  spider mites is a likely suspect. Mites are tiny but can multiply fast, especially
+  during heat and dry air. Plants lose vigor as feeding drains cell contents from
+  leaves and tender growth. Early action matters, because heavy infestations can spread
+  through a bed in days.
+characteristics: Use a hand lens and check leaf undersides first, especially near
+  veins and new growth. Look for pinprick stippling, fine webbing in some species,
+  and tiny moving dots that range from pale to red or brown. Tap a leaf over white
+  paper; moving specks suggest active mites. Stippled leaves plus mites or eggs clustered
+  under foliage confirms the diagnosis.
+symptoms:
+- yellowing-leaves
+- webbing
+- silvery-streaking
+- brown-edges
+control_methods:
+  biological_controls: Predatory mites (Phytoseiulus persimilis or Neoseiulus californicus)
+    are the most effective biological control for spider mites — unlike ladybugs,
+    these can actually be purchased and released successfully because they actively
+    hunt mites on the same leaf surfaces. Order from a reputable insectary and release
+    immediately on arrival, in the evening, directly onto infested leaves. They need
+    humidity above 60% to survive — mist the release area first. Ladybugs and lacewings
+    eat mites too but work too slowly for an active infestation. Long term, plant
+    dill, fennel, and coriander nearby to support predatory mite populations naturally.
+  preventive_methods: 'Spider mites are a stress indicator — they explode on plants
+    that are hot, dry, and dusty. If you have mites, your plant is probably thirsty.
+    Consistent soil moisture is the single most effective prevention. Mites also hate
+    humidity — a dry indoor environment or a drought-stressed outdoor bed is an invitation.
+    Overhead watering or misting leaves suppresses populations. Dusty leaves are mite
+    habitat — clean leaf surfaces in dry conditions. Avoid broad-spectrum pesticides
+    entirely: they kill the predatory mites that keep spider mites in check, and populations
+    rebound faster and harder after chemical treatment.'
+  cultural_practices: Spider mites spread rapidly in hot, dry weather — populations
+    can double every 3-5 days above 80F (27C). Check undersides of leaves weekly during
+    summer heat. Remove and bag heavily infested leaves immediately — do not compost
+    them, mites survive in compost. Interplant with Chinese chives, coriander, and
+    dill which harbor predatory mite populations. Keep beds mulched to retain moisture
+    and reduce the dry hot conditions mites prefer. Avoid monocultures — diverse plantings
+    slow the spread between plants.
+  mechanical_physical: A strong jet of water aimed at leaf undersides is the first
+    and most effective mechanical control for spider mites — more so than for most
+    other pests because mites are lightweight and cannot easily reattach. Do it every
+    2-3 days for 2 weeks to break the egg-to-adult cycle (eggs hatch in 3 days in
+    warm weather). Do it in the morning so leaves dry before evening to avoid fungal
+    issues. For potted plants, take them outside and blast thoroughly including the
+    pot surface where mites shelter. This alone resolves light to moderate infestations
+    if done consistently.
+  organic_sprays: Insecticidal soap is the most reliable spray — mix 1-2 teaspoons
+    castile soap per quart of water and coat leaf undersides thoroughly where mites
+    live. It kills by contact and stops working when dry, so coverage matters more
+    than quantity. Apply every 3 days for 2 weeks to catch newly hatched eggs. Neem
+    oil disrupts mite molting and egg laying — mix 1 tablespoon neem plus 1 teaspoon
+    castile soap per quart of warm water, apply weekly. In hot weather, spray at dusk
+    only — neem and soap applied in direct sun cause leaf burn. Rosemary oil and eucalyptus
+    oil sprays have real repellent effect on mites specifically and are worth adding
+    to the rotation. Skip garlic and hot pepper sprays — limited evidence they work
+    on mites and they irritate beneficial insects.
+natural_enemies:
+- Predatory Mites
+- Ladybugs
+- Lacewings
+- Minute Pirate Bugs
+- Insectivorous Birds
+category: pest

@@ -1,65 +1,59 @@
----
-- name: Rose Slug
-  slug: rose-slug
-  picture: rose_slug.webp
-  scientific_name: Endelomyia aethiops
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, rose slug may already be on the
-    plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - yellowing-leaves
-  - wilting
-  - leaf-spots
-  - dropping-leaves
-  - skeletonized-leaves
-  - holes-in-leaves
-  control_methods:
-    biological_controls: >-
-      Birds -- especially robins and house sparrows -- and paper wasps consume
-      rose slug larvae actively. Small parasitic wasps attack sawfly larvae in some
-      regions. Mixed perennial borders with diverse bloom support generalist predators
-      that keep rose slug populations in check. Rose slugs have 2-3 generations per
-      year -- early season biological pressure on the first generation reduces the
-      second and third. Avoid broad-spectrum sprays that collapse the beneficial
-      insect community -- rose slugs rebound faster than their natural enemies
-      after chemical disturbance.
-    preventive_methods: >-
-      Rose slugs are the larvae of sawflies -- not true slugs. They are soft,
-      pale green, and slug-like in appearance, feeding on leaf undersides and causing
-      characteristic window-pane damage where the upper leaf surface remains intact
-      while the lower tissue is consumed. By the time the skeletonized upper surface
-      turns brown and papery the larvae may already be gone. Check leaf undersides
-      weekly from late spring through summer. Multiple generations mean pressure
-      continues throughout the growing season on roses.
-    cultural_practices: >-
-      Choose rugosa roses and other leathery-leaf types where they fit the design -- 
-      these tolerate light rose slug damage better than hybrid teas. Avoid overhead
-      irrigation that keeps leaf undersides wet and creates ideal feeding conditions
-      for larvae. Prune out heavily skeletonized canes on hybrid teas to stimulate
-      clean new growth. Diverse plantings around roses support the generalist predator
-      community that suppresses rose slug populations between spray applications.
-    mechanical_physical: >-
-      Rub larvae from leaf undersides with a gloved thumb -- quick and effective
-      for small plantings, kills larvae on contact. A forceful water spray from below
-      dislodges early instar larvae onto soil where ground beetles and birds collect
-      them. Check and repeat every 3-5 days during peak season since multiple
-      generations hatch continuously.
-    organic_sprays: >-
-      Insecticidal soap kills rose slug larvae on direct contact -- coat leaf
-      undersides thoroughly where larvae feed. Apply every 3-5 days while new hatch
-      appears. Spinosad provides stronger activity and longer residual -- apply
-      in the evening to minimize bee exposure. Neem oil reduces feeding when coverage
-      is thorough and deters adult sawfly egg-laying. Apply at dusk to reduce UV
-      breakdown and avoid pollinators on blooming rose varieties.
-  natural_enemies:
-  - Paper Wasps (Polistes spp.)
-  - Insectivorous Birds
-  - Ground Beetles (Carabidae)
-  - Parasitic Wasps (Hymenoptera)
+name: Rose Slug
+slug: rose-slug
+picture: rose_slug.webp
+scientific_name: Endelomyia aethiops
+description: If new growth is curling, yellowing, sticky, or chewed, rose slug may
+  already be on the plant. This pest often builds quietly, then damage appears all
+  at once. Feeding stress weakens growth, reduces yield, and opens the door to secondary
+  disease. Early cleanup is much easier than fighting a full population surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- yellowing-leaves
+- wilting
+- leaf-spots
+- dropping-leaves
+- skeletonized-leaves
+- holes-in-leaves
+control_methods:
+  biological_controls: Birds -- especially robins and house sparrows -- and paper
+    wasps consume rose slug larvae actively. Small parasitic wasps attack sawfly larvae
+    in some regions. Mixed perennial borders with diverse bloom support generalist
+    predators that keep rose slug populations in check. Rose slugs have 2-3 generations
+    per year -- early season biological pressure on the first generation reduces the
+    second and third. Avoid broad-spectrum sprays that collapse the beneficial insect
+    community -- rose slugs rebound faster than their natural enemies after chemical
+    disturbance.
+  preventive_methods: Rose slugs are the larvae of sawflies -- not true slugs. They
+    are soft, pale green, and slug-like in appearance, feeding on leaf undersides
+    and causing characteristic window-pane damage where the upper leaf surface remains
+    intact while the lower tissue is consumed. By the time the skeletonized upper
+    surface turns brown and papery the larvae may already be gone. Check leaf undersides
+    weekly from late spring through summer. Multiple generations mean pressure continues
+    throughout the growing season on roses.
+  cultural_practices: Choose rugosa roses and other leathery-leaf types where they
+    fit the design --  these tolerate light rose slug damage better than hybrid teas.
+    Avoid overhead irrigation that keeps leaf undersides wet and creates ideal feeding
+    conditions for larvae. Prune out heavily skeletonized canes on hybrid teas to
+    stimulate clean new growth. Diverse plantings around roses support the generalist
+    predator community that suppresses rose slug populations between spray applications.
+  mechanical_physical: Rub larvae from leaf undersides with a gloved thumb -- quick
+    and effective for small plantings, kills larvae on contact. A forceful water spray
+    from below dislodges early instar larvae onto soil where ground beetles and birds
+    collect them. Check and repeat every 3-5 days during peak season since multiple
+    generations hatch continuously.
+  organic_sprays: Insecticidal soap kills rose slug larvae on direct contact -- coat
+    leaf undersides thoroughly where larvae feed. Apply every 3-5 days while new hatch
+    appears. Spinosad provides stronger activity and longer residual -- apply in the
+    evening to minimize bee exposure. Neem oil reduces feeding when coverage is thorough
+    and deters adult sawfly egg-laying. Apply at dusk to reduce UV breakdown and avoid
+    pollinators on blooming rose varieties.
+natural_enemies:
+- Paper Wasps (Polistes spp.)
+- Insectivorous Birds
+- Ground Beetles (Carabidae)
+- Parasitic Wasps (Hymenoptera)
+category: pest

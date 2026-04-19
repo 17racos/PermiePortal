@@ -1,68 +1,62 @@
----
-- name: Root Aphid
-  slug: root-aphid
-  picture: root_aphid.webp
-  scientific_name: Pemphigus spp.
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, root aphid may already be on the
-    plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - sticky-residue
-  - curling-leaves
-  - yellowing-leaves
-  - distorted-growth
-  - root-damage
-  - wilting
-  control_methods:
-    biological_controls: >-
-      Entomopathogenic fungi — Beauveria bassiana and Metarhizium anisopliae — applied
-      as soil drenches can suppress root aphid populations where soil moisture and
-      temperature support fungal activity. These are available commercially and are
-      one of the few effective biological options for soil-dwelling pests. Predatory
-      mites (Hypoaspis miles) live in the top inch of soil and eat root aphid eggs
-      and young larvae — add to potting mix at transplant for ongoing prevention.
-      Ants actively farm root aphids underground just like foliar aphids — managing
-      ant access with sticky barriers on container rims or trunk wraps is essential
-      for biological control to work.
-    preventive_methods: >-
-      Root aphids are nearly invisible until plants collapse — by the time foliage
-      yellows and wilts despite good watering, the infestation is severe. Check
-      roots at repotting or when plants mysteriously decline: white cottony masses
-      on roots or tiny pale insects at the root zone are the tell. Winged forms
-      disperse in summer and land on soil to start new colonies. Never reuse
-      unsterilized potting mix from infested containers. Inspect all purchased
-      plug trays with a hand lens before mixing with existing stock.
-    cultural_practices: >-
-      Improve drainage — root aphids thrive in waterlogged anaerobic pockets where
-      roots are already stressed. Avoid overwatering, which both stresses roots and
-      creates ideal conditions for aphid colonies. Rotate tunnel and greenhouse crops
-      away from solanaceous and lettuce runs — root aphids build up in soil over
-      seasons. Solarize infested beds in summer: clear plastic over moist soil for
-      4-6 weeks reaches temperatures that kill eggs and colonies in the top 6 inches.
-    mechanical_physical: >-
-      For valuable container plants, submerge the entire root ball in warm soapy water
-      for 5-10 minutes as a rescue treatment — test on one plant first as some are
-      sensitive. This dislodges and kills surface colonies but may not reach deep
-      roots. Bare-rooting and washing roots under running water before repotting into
-      fresh sterile mix is the most thorough mechanical reset for container plants.
-      For in-ground infestations, light cultivation around plant crowns disrupts ant
-      tunnels that protect and transport root aphid colonies.
-    organic_sprays: >-
-      Insecticidal soap or neem oil drenched slowly through growing media reaches
-      root zone colonies — apply at half the normal dilution and water in thoroughly.
-      Repeat every 5-7 days for 3 weeks to catch hatching eggs. Avoid soaking dry
-      peat too fast as media shrinkage leaves untreated channels. Neem cake (the
-      byproduct of neem oil extraction) worked into soil at planting has preventive
-      nematicidal and insecticidal properties that persist for weeks.
-  natural_enemies:
-  - Beauveria bassiana
-  - Metarhizium spp.
-  - Soil Predatory Mites (Hypoaspis spp.)
-  - Ground Beetles (Carabidae)
+name: Root Aphid
+slug: root-aphid
+picture: root_aphid.webp
+scientific_name: Pemphigus spp.
+description: If new growth is curling, yellowing, sticky, or chewed, root aphid may
+  already be on the plant. This pest often builds quietly, then damage appears all
+  at once. Feeding stress weakens growth, reduces yield, and opens the door to secondary
+  disease. Early cleanup is much easier than fighting a full population surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- sticky-residue
+- curling-leaves
+- yellowing-leaves
+- distorted-growth
+- root-damage
+- wilting
+control_methods:
+  biological_controls: Entomopathogenic fungi — Beauveria bassiana and Metarhizium
+    anisopliae — applied as soil drenches can suppress root aphid populations where
+    soil moisture and temperature support fungal activity. These are available commercially
+    and are one of the few effective biological options for soil-dwelling pests. Predatory
+    mites (Hypoaspis miles) live in the top inch of soil and eat root aphid eggs and
+    young larvae — add to potting mix at transplant for ongoing prevention. Ants actively
+    farm root aphids underground just like foliar aphids — managing ant access with
+    sticky barriers on container rims or trunk wraps is essential for biological control
+    to work.
+  preventive_methods: 'Root aphids are nearly invisible until plants collapse — by
+    the time foliage yellows and wilts despite good watering, the infestation is severe.
+    Check roots at repotting or when plants mysteriously decline: white cottony masses
+    on roots or tiny pale insects at the root zone are the tell. Winged forms disperse
+    in summer and land on soil to start new colonies. Never reuse unsterilized potting
+    mix from infested containers. Inspect all purchased plug trays with a hand lens
+    before mixing with existing stock.'
+  cultural_practices: 'Improve drainage — root aphids thrive in waterlogged anaerobic
+    pockets where roots are already stressed. Avoid overwatering, which both stresses
+    roots and creates ideal conditions for aphid colonies. Rotate tunnel and greenhouse
+    crops away from solanaceous and lettuce runs — root aphids build up in soil over
+    seasons. Solarize infested beds in summer: clear plastic over moist soil for 4-6
+    weeks reaches temperatures that kill eggs and colonies in the top 6 inches.'
+  mechanical_physical: For valuable container plants, submerge the entire root ball
+    in warm soapy water for 5-10 minutes as a rescue treatment — test on one plant
+    first as some are sensitive. This dislodges and kills surface colonies but may
+    not reach deep roots. Bare-rooting and washing roots under running water before
+    repotting into fresh sterile mix is the most thorough mechanical reset for container
+    plants. For in-ground infestations, light cultivation around plant crowns disrupts
+    ant tunnels that protect and transport root aphid colonies.
+  organic_sprays: Insecticidal soap or neem oil drenched slowly through growing media
+    reaches root zone colonies — apply at half the normal dilution and water in thoroughly.
+    Repeat every 5-7 days for 3 weeks to catch hatching eggs. Avoid soaking dry peat
+    too fast as media shrinkage leaves untreated channels. Neem cake (the byproduct
+    of neem oil extraction) worked into soil at planting has preventive nematicidal
+    and insecticidal properties that persist for weeks.
+natural_enemies:
+- Beauveria bassiana
+- Metarhizium spp.
+- Soil Predatory Mites (Hypoaspis spp.)
+- Ground Beetles (Carabidae)
+category: pest

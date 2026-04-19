@@ -1,105 +1,100 @@
----
-- name: Citrus Root Weevil
-  slug: citrus-root-weevil
-  picture: citrus_root_weevil.webp
-  scientific_name: Pachnaeus litus
-  description: >-
-    If plants are wilting, notching at the edges, or fruit and roots show hidden feeding damage,
-    citrus root weevil may be the cause. Adults chew above ground while larvae often feed out of
-    sight inside soil, stems, or fruit. Damage builds quietly, then plants crash fast when roots
-    are heavily hit. Act early so a small weevil problem does not become a season-long
-    infestation.
-  characteristics: >-
-    Look for small beetles with a hard body and a distinct snout, usually active at dawn, dusk,
-    or night. Check for crescent-shaped leaf notches, punctures in fruit, or tiny entry holes
-    near stems. In soil or damaged tissue, larvae are often pale, legless, and curved in a
-    C-shape. Fresh chew marks plus snout beetles or C-shaped grubs confirm active weevil
-    pressure.
-  symptoms:
-  - root-damage
-  - wilting
-  - chewed-stems
-  - holes-in-leaves
-  control_methods:
-    biological_controls: >-
-      Entomopathogenic nematodes -- Heterorhabditis bacteriophora and Steinernema
-      riobrave -- applied under irrigation are the most effective organic biological
-      control for citrus root weevil larvae in soil. Apply when soil is moist and
-      above 60F (15C), saturating the root zone thoroughly. Repeat every 6-8 weeks
-      during warm months. Ground beetles and ants scavenge weevil eggs and young
-      larvae in soil -- permanent organic mulch supports ground beetle populations.
-    preventive_methods: >-
-      Adult citrus root weevils notch leaf margins in a characteristic scalloped
-      pattern -- this is the most visible sign of infestation. Adults feed at night
-      and hide in soil or leaf litter during the day. Larvae feed on roots underground
-      and cause the most serious damage -- plants decline mysteriously before adult
-      feeding is noticed. Inspect nursery stock carefully before planting. Monitor
-      notching on new flush weekly from spring through fall.
-    cultural_practices: >-
-      Maintain mulch depth of 3-4 inches under trees to support beneficial nematodes
-      and ground beetles -- but keep mulch away from trunk bases to prevent crown rot.
-      Remove excessive weed groundcovers that provide adult weevil habitat. Proper
-      irrigation maintains the soil moisture that beneficial nematodes need to survive
-      and move through soil toward larvae.
-    mechanical_physical: >-
-      Sticky trunk bands prevent wingless adult weevils from climbing to feed on new
-      flush -- apply in spring before adults emerge and check weekly. Shake adults
-      from small trees onto sheets in cool mornings when they are sluggish. Tree skirts
-      of hardware cloth buried at the drip line reduce adult movement into the root zone.
-    organic_sprays: >-
-      Beneficial nematodes (Heterorhabditis bacteriophora, Steinernema riobrave) applied
-      as a soil drench are the primary organic treatment -- saturate the root zone and
-      keep soil moist for 2 weeks after application. Apply in late spring and again in
-      late summer. Kaolin clay on foliage deters adult feeding and egg-laying. Beauveria
-      bassiana soil drench suppresses larvae where available and labeled.
-  natural_enemies:
-  - Heterorhabditis bacteriophora
-  - Steinernema riobrave
-  - Ground beetles
-  affected_plants:
-  - slug: bael-fruit
-    name: Bael Fruit
-  - slug: bengal-quince
-    name: Bengal Quince
-  - slug: bitter-orange
-    name: Bitter Orange
-  - slug: buddha-hand
-    name: Buddha Hand
-  - slug: calamondin
-    name: Calamondin
-  - slug: citron
-    name: Citron
-  - slug: curry-leaf-tree
-    name: Curry Leaf Tree
-  - slug: finger-lime
-    name: Finger Lime
-  - slug: hercules-club
-    name: Hercules Club
-  - slug: kaffir-lime
-    name: Kaffir Lime
-  - slug: kumquat
-    name: Kumquat
-  - slug: lemon-tree
-    name: Lemon Tree
-  - slug: lime-tree
-    name: Lime Tree
-  - slug: pomelo
-    name: Pomelo
-  - slug: prickly-ash
-    name: Prickly Ash
-  - slug: rangpur-lime
-    name: Rangpur Lime
-  - slug: rue
-    name: Rue
-  - slug: sour-orange
-    name: Sour Orange
-  - slug: tangerine
-    name: Tangerine
-  - slug: white-sapote
-    name: White Sapote
-  - slug: wild-lime
-    name: Wild Lime
-  - slug: wood-apple
-    name: Wood Apple
-  - slug: yuzu
-    name: Yuzu
+name: Citrus Root Weevil
+slug: citrus-root-weevil
+picture: citrus_root_weevil.webp
+scientific_name: Pachnaeus litus
+description: If plants are wilting, notching at the edges, or fruit and roots show
+  hidden feeding damage, citrus root weevil may be the cause. Adults chew above ground
+  while larvae often feed out of sight inside soil, stems, or fruit. Damage builds
+  quietly, then plants crash fast when roots are heavily hit. Act early so a small
+  weevil problem does not become a season-long infestation.
+characteristics: Look for small beetles with a hard body and a distinct snout, usually
+  active at dawn, dusk, or night. Check for crescent-shaped leaf notches, punctures
+  in fruit, or tiny entry holes near stems. In soil or damaged tissue, larvae are
+  often pale, legless, and curved in a C-shape. Fresh chew marks plus snout beetles
+  or C-shaped grubs confirm active weevil pressure.
+symptoms:
+- root-damage
+- wilting
+- chewed-stems
+- holes-in-leaves
+control_methods:
+  biological_controls: Entomopathogenic nematodes -- Heterorhabditis bacteriophora
+    and Steinernema riobrave -- applied under irrigation are the most effective organic
+    biological control for citrus root weevil larvae in soil. Apply when soil is moist
+    and above 60F (15C), saturating the root zone thoroughly. Repeat every 6-8 weeks
+    during warm months. Ground beetles and ants scavenge weevil eggs and young larvae
+    in soil -- permanent organic mulch supports ground beetle populations.
+  preventive_methods: Adult citrus root weevils notch leaf margins in a characteristic
+    scalloped pattern -- this is the most visible sign of infestation. Adults feed
+    at night and hide in soil or leaf litter during the day. Larvae feed on roots
+    underground and cause the most serious damage -- plants decline mysteriously before
+    adult feeding is noticed. Inspect nursery stock carefully before planting. Monitor
+    notching on new flush weekly from spring through fall.
+  cultural_practices: Maintain mulch depth of 3-4 inches under trees to support beneficial
+    nematodes and ground beetles -- but keep mulch away from trunk bases to prevent
+    crown rot. Remove excessive weed groundcovers that provide adult weevil habitat.
+    Proper irrigation maintains the soil moisture that beneficial nematodes need to
+    survive and move through soil toward larvae.
+  mechanical_physical: Sticky trunk bands prevent wingless adult weevils from climbing
+    to feed on new flush -- apply in spring before adults emerge and check weekly.
+    Shake adults from small trees onto sheets in cool mornings when they are sluggish.
+    Tree skirts of hardware cloth buried at the drip line reduce adult movement into
+    the root zone.
+  organic_sprays: Beneficial nematodes (Heterorhabditis bacteriophora, Steinernema
+    riobrave) applied as a soil drench are the primary organic treatment -- saturate
+    the root zone and keep soil moist for 2 weeks after application. Apply in late
+    spring and again in late summer. Kaolin clay on foliage deters adult feeding and
+    egg-laying. Beauveria bassiana soil drench suppresses larvae where available and
+    labeled.
+natural_enemies:
+- Heterorhabditis bacteriophora
+- Steinernema riobrave
+- Ground beetles
+affected_plants:
+- slug: bael-fruit
+  name: Bael Fruit
+- slug: bengal-quince
+  name: Bengal Quince
+- slug: bitter-orange
+  name: Bitter Orange
+- slug: buddha-hand
+  name: Buddha Hand
+- slug: calamondin
+  name: Calamondin
+- slug: citron
+  name: Citron
+- slug: curry-leaf-tree
+  name: Curry Leaf Tree
+- slug: finger-lime
+  name: Finger Lime
+- slug: hercules-club
+  name: Hercules Club
+- slug: kaffir-lime
+  name: Kaffir Lime
+- slug: kumquat
+  name: Kumquat
+- slug: lemon-tree
+  name: Lemon Tree
+- slug: lime-tree
+  name: Lime Tree
+- slug: pomelo
+  name: Pomelo
+- slug: prickly-ash
+  name: Prickly Ash
+- slug: rangpur-lime
+  name: Rangpur Lime
+- slug: rue
+  name: Rue
+- slug: sour-orange
+  name: Sour Orange
+- slug: tangerine
+  name: Tangerine
+- slug: white-sapote
+  name: White Sapote
+- slug: wild-lime
+  name: Wild Lime
+- slug: wood-apple
+  name: Wood Apple
+- slug: yuzu
+  name: Yuzu
+category: pest

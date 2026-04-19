@@ -1,100 +1,96 @@
----
-- name: Melonworm
-  slug: melonworm
-  picture: melonworm.webp
-  scientific_name: Diaphania hyalinata
-  description: >-
-    If leaves look shredded overnight or fruit has fresh chew holes, melonworm may be feeding
-    right now. These larvae can eat fast and strip a healthy plant in a short window. Young
-    stages are easy to miss, then damage suddenly explodes as they grow. Catch them early to
-    avoid severe defoliation and contaminated harvests.
-  characteristics: >-
-    Check leaf undersides, growing tips, and stem junctions for eggs, frass pellets, and feeding
-    scars. Larvae vary in color, but most have a soft segmented body and blend into foliage.
-    Look at dusk or early morning when many species feed more actively. Fresh chewing plus live
-    larvae or droppings on lower leaves confirms an active caterpillar outbreak.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - skeletonized-leaves
-  control_methods:
-    biological_controls: >-
-      Parasitic wasps attack melonworm eggs and young larvae on leaf undersides; braconids leave
-      white cocoons next to dying caterpillars. Assassin bugs and spiders pick off larvae crawling
-      between webbed leaves. If you see parasitized larvae, pause broad sprays for forty-eight
-      hours. Trichogramma releases help on commercial melons when timing matches flights -- not
-      magic on a single backyard hill without monitoring.
-    preventive_methods: >-
-      Melonworms and pickleworms share habits -- warm nights, multiple generations, eggs on leaf
-      undersides. Scout the newest growth twice weekly and look for tiny pale eggs before leaves
-      roll into tunnels. Remove field-edge pigweed and volunteer cucurbits that host early
-      flights. In tunnels, hang yellow sticky ribbons at door height to show when moths move in
-      from outside.
-    cultural_practices: >-
-      Avoid excess nitrogen that pushes huge dark leaves -- melonworms skeletonize foliage fast
-      when vines are pumped. Keep harvest on schedule so fruit does not sit rotting under leaves.
-      Strip old leaves that touch soil to cut humidity inside webs. Rotate cucurbit fields in big
-      farms; in backyards, remove vines promptly after harvest so pupae have fewer overwintering
-      pockets under plastic mulch.
-    mechanical_physical: >-
-      Hand-remove egg clusters and young larvae before they roll leaves -- wear gloves; frass
-      stains. Crush webbed terminals into soapy water when numbers are low. Row covers on young
-      vines block moths until flowering; plan pollination access. For a few plants, vacuum
-      larvae with a handheld crevice tool on cool mornings when they sit still.
-    organic_sprays: >-
-      Bacillus thuringiensis products work on small larvae eating treated tissue -- add spreader
-      and spray leaf undersides and inside silk webs. Spinosad helps when larvae web leaves tightly;
-      still hit young stages. Spray in evening to protect pollinators on open cucurbit flowers.
-      Reapply after heavy rain or overhead irrigation. Rotate Bt and spinosad in greenhouses to
-      slow resistance.
-  natural_enemies:
-  - Parasitic Wasps
-  - Predatory Beetles
-  affected_plants:
-  - slug: acorn-squash
-    name: Acorn Squash
-  - slug: angled-loofah
-    name: Angled Loofah
-  - slug: apple-gourd
-    name: Apple Gourd
-  - slug: birdhouse-gourd
-    name: Birdhouse Gourd
-  - slug: bitter-melon
-    name: Bitter Melon
-  - slug: bottle-gourd
-    name: Bottle Gourd
-  - slug: buffalo-gourd
-    name: Buffalo Gourd
-  - slug: bushel-gourd
-    name: Bushel Gourd
-  - slug: calabaza
-    name: Calabaza
-  - slug: cassabanana-root-systems
-    name: Cassabanana root systems
-  - slug: caveman-club-gourd
-    name: Caveman Club Gourd
-  - slug: chayote
-    name: Chayote
-  - slug: coccinia
-    name: Coccinia
-  - slug: corsican-gourd
-    name: Corsican Gourd
-  - slug: cucamelon
-    name: Cucamelon
-  - slug: dinosaur-gourd
-    name: Dinosaur Gourd
-  - slug: ivy-gourd
-    name: Ivy Gourd
-  - slug: luffa
-    name: Luffa
-  - slug: monky-muskmelon
-    name: Monky Muskmelon
-  - slug: penguin-gourd
-    name: Penguin Gourd
-  - slug: seminole-pumpkin
-    name: Seminole Pumpkin
-  - slug: snake-gourd
-    name: Snake Gourd
-  - slug: wax-gourd
-    name: Wax Gourd
+name: Melonworm
+slug: melonworm
+picture: melonworm.webp
+scientific_name: Diaphania hyalinata
+description: If leaves look shredded overnight or fruit has fresh chew holes, melonworm
+  may be feeding right now. These larvae can eat fast and strip a healthy plant in
+  a short window. Young stages are easy to miss, then damage suddenly explodes as
+  they grow. Catch them early to avoid severe defoliation and contaminated harvests.
+characteristics: Check leaf undersides, growing tips, and stem junctions for eggs,
+  frass pellets, and feeding scars. Larvae vary in color, but most have a soft segmented
+  body and blend into foliage. Look at dusk or early morning when many species feed
+  more actively. Fresh chewing plus live larvae or droppings on lower leaves confirms
+  an active caterpillar outbreak.
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- skeletonized-leaves
+control_methods:
+  biological_controls: Parasitic wasps attack melonworm eggs and young larvae on leaf
+    undersides; braconids leave white cocoons next to dying caterpillars. Assassin
+    bugs and spiders pick off larvae crawling between webbed leaves. If you see parasitized
+    larvae, pause broad sprays for forty-eight hours. Trichogramma releases help on
+    commercial melons when timing matches flights -- not magic on a single backyard
+    hill without monitoring.
+  preventive_methods: Melonworms and pickleworms share habits -- warm nights, multiple
+    generations, eggs on leaf undersides. Scout the newest growth twice weekly and
+    look for tiny pale eggs before leaves roll into tunnels. Remove field-edge pigweed
+    and volunteer cucurbits that host early flights. In tunnels, hang yellow sticky
+    ribbons at door height to show when moths move in from outside.
+  cultural_practices: Avoid excess nitrogen that pushes huge dark leaves -- melonworms
+    skeletonize foliage fast when vines are pumped. Keep harvest on schedule so fruit
+    does not sit rotting under leaves. Strip old leaves that touch soil to cut humidity
+    inside webs. Rotate cucurbit fields in big farms; in backyards, remove vines promptly
+    after harvest so pupae have fewer overwintering pockets under plastic mulch.
+  mechanical_physical: Hand-remove egg clusters and young larvae before they roll
+    leaves -- wear gloves; frass stains. Crush webbed terminals into soapy water when
+    numbers are low. Row covers on young vines block moths until flowering; plan pollination
+    access. For a few plants, vacuum larvae with a handheld crevice tool on cool mornings
+    when they sit still.
+  organic_sprays: Bacillus thuringiensis products work on small larvae eating treated
+    tissue -- add spreader and spray leaf undersides and inside silk webs. Spinosad
+    helps when larvae web leaves tightly; still hit young stages. Spray in evening
+    to protect pollinators on open cucurbit flowers. Reapply after heavy rain or overhead
+    irrigation. Rotate Bt and spinosad in greenhouses to slow resistance.
+natural_enemies:
+- Parasitic Wasps
+- Predatory Beetles
+affected_plants:
+- slug: acorn-squash
+  name: Acorn Squash
+- slug: angled-loofah
+  name: Angled Loofah
+- slug: apple-gourd
+  name: Apple Gourd
+- slug: birdhouse-gourd
+  name: Birdhouse Gourd
+- slug: bitter-melon
+  name: Bitter Melon
+- slug: bottle-gourd
+  name: Bottle Gourd
+- slug: buffalo-gourd
+  name: Buffalo Gourd
+- slug: bushel-gourd
+  name: Bushel Gourd
+- slug: calabaza
+  name: Calabaza
+- slug: cassabanana-root-systems
+  name: Cassabanana root systems
+- slug: caveman-club-gourd
+  name: Caveman Club Gourd
+- slug: chayote
+  name: Chayote
+- slug: coccinia
+  name: Coccinia
+- slug: corsican-gourd
+  name: Corsican Gourd
+- slug: cucamelon
+  name: Cucamelon
+- slug: dinosaur-gourd
+  name: Dinosaur Gourd
+- slug: ivy-gourd
+  name: Ivy Gourd
+- slug: luffa
+  name: Luffa
+- slug: monky-muskmelon
+  name: Monky Muskmelon
+- slug: penguin-gourd
+  name: Penguin Gourd
+- slug: seminole-pumpkin
+  name: Seminole Pumpkin
+- slug: snake-gourd
+  name: Snake Gourd
+- slug: wax-gourd
+  name: Wax Gourd
+category: pest

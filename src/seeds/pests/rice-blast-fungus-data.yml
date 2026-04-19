@@ -1,133 +1,129 @@
----
-- name: Rice Blast Fungus
-  slug: rice-blast-fungus
-  picture: rice_blast_fungus.webp
-  scientific_name: Magnaporthe oryzae
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, rice blast fungus may
-    already be active. This problem often starts small, then spreads across healthy tissue
-    before most growers realize how serious it is. Warmth, moisture, and crowded foliage usually
-    speed it up. Treat early, because waiting even a few days can turn a manageable infection
-    into major crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - leaf-spots
-  - wilting
-  - fruit-damage
-  - dropping-leaves
-  control_methods:
-    biological_controls: >-
-      Antagonistic bacteria such as Pseudomonas and Bacillus species applied as seed treatments or
-      foliar programs sometimes compete with blast spores for leaf space -- results vary with
-      strain, rate, and humidity. They are not a stand-in for genetics or nitrogen discipline.
-      Healthy soil microbes help roots take up silicon where available, which can toughen cell
-      walls; that is indirect support, not a movie hero. Skip miracle compost teas unless you
-      track batch quality; inconsistent biology wastes money and can clog sprayers.
-    preventive_methods: >-
-      Blast spores spread on wind and splash; new lesions pump spores within days in warm, wet
-      weather. Use certified seed and avoid saving seed from infected fields. Scout at tillering
-      and again at boot for diamond-shaped lesions with gray centers -- early detection buys time
-      to adjust nitrogen or water. Remove weeds that shade rows and keep dew on leaves until noon.
-      In home gardens, space plants so air moves; blast loves a tight, humid canopy.
-    cultural_practices: >-
-      Plant varieties with stacked resistance genes where seed catalogs are honest about field
-      performance -- resistance is the backbone of blast management. Split nitrogen carefully;
-      excessive N pushes soft, dark green tissue that blast colonizes fast. Destroy infected
-      stubble by incorporation or managed flooding where allowed so spores do not volunteer next
-      season. Avoid overlapping rice crops between neighbors; spores do not respect fence lines.
-      In upland systems, avoid light, frequent irrigation that keeps leaves wet all night.
-    mechanical_physical: >-
-      Alternate wetting and drying, the systematic irrigation of rice (SRI), or other intermittent
-      schemes reduces leaf wetness compared with constant deep flood -- but only where you truly
-      control water depth and timing. Raising and lowering water on a schedule beats random
-      guessing. In small plots, hand-thinning overcrowded hills improves airflow through the
-      canopy. Remove the first infected leaves only if disease is local; do not spread spores on
-      wet hands between plants.
-    organic_sprays: >-
-      Copper and sulfur have partial activity on leaf blast if you start before lesions merge;
-      they are weak against panicle blast once necks girdle -- there is no organic rescue at that
-      stage. Bacillus-based biofungicides and potassium silicate programs can strengthen cell
-      walls when combined with resistant varieties and nitrogen control. Spray on schedule before
-      rain events if labels allow. Rotate products so you do not build copper loads in soil on
-      tiny gardens. Accept that organic tools blunt the curve; they do not erase genetics or bad
-      weather.
-  natural_enemies:
-  - Antagonistic Bacteria
-  - Competitive Fungi in Residue
-  - Soil Antagonistic Microbes
-  affected_plants:
-  - slug: bamboo
-    name: Bamboo
-  - slug: big-bluestem
-    name: Big Bluestem
-  - slug: blue-grama
-    name: Blue Grama
-  - slug: broomsedge-bluestem
-    name: Broomsedge Bluestem
-  - slug: buffalo-grass
-    name: Buffalo Grass
-  - slug: eastern-gamagrass
-    name: Eastern Gamagrass
-  - slug: elephant-grass
-    name: Elephant Grass
-  - slug: elliotts-bluestem
-    name: Elliott's Bluestem
-  - slug: fever-grass
-    name: Fever Grass
-  - slug: florida-gamagrass
-    name: Florida Gamagrass
-  - slug: gulf-muhly
-    name: Gulf Muhly
-  - slug: hairawn-muhly
-    name: Hairawn Muhly
-  - slug: hairy-grama
-    name: Hairy Grama
-  - slug: indiangrass
-    name: Indiangrass
-  - slug: lemongrass
-    name: Lemongrass
-  - slug: little-bluestem
-    name: Little Bluestem
-  - slug: longawn-muhly
-    name: Longawn Muhly
-  - slug: millet
-    name: Millet
-  - slug: muhly-grass
-    name: Muhly Grass
-  - slug: prairie-cordgrass
-    name: Prairie Cordgrass
-  - slug: purple-lovegrass
-    name: Purple Lovegrass
-  - slug: rice
-    name: Rice
-  - slug: saltgrass
-    name: Saltgrass
-  - slug: saltmeadow-cordgrass
-    name: Saltmeadow Cordgrass
-  - slug: sand-bluestem
-    name: Sand Bluestem
-  - slug: sand-cordgrass
-    name: Sand Cordgrass
-  - slug: sand-grama
-    name: Sand Grama
-  - slug: sand-lovegrass
-    name: Sand Lovegrass
-  - slug: sideoats-grama
-    name: Sideoats Grama
-  - slug: split-beard-bluestem
-    name: Split Beard Bluestem
-  - slug: sweetgrass
-    name: Sweetgrass
-  - slug: switchgrass
-    name: Switchgrass
-  - slug: vetiver-grass
-    name: Vetiver Grass
-  - slug: weeping-lovegrass
-    name: Weeping Lovegrass
-  - slug: wiregrass
-    name: Wiregrass
+name: Rice Blast Fungus
+slug: rice-blast-fungus
+picture: rice_blast_fungus.webp
+scientific_name: Magnaporthe oryzae
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  rice blast fungus may already be active. This problem often starts small, then spreads
+  across healthy tissue before most growers realize how serious it is. Warmth, moisture,
+  and crowded foliage usually speed it up. Treat early, because waiting even a few
+  days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- leaf-spots
+- wilting
+- fruit-damage
+- dropping-leaves
+control_methods:
+  biological_controls: Antagonistic bacteria such as Pseudomonas and Bacillus species
+    applied as seed treatments or foliar programs sometimes compete with blast spores
+    for leaf space -- results vary with strain, rate, and humidity. They are not a
+    stand-in for genetics or nitrogen discipline. Healthy soil microbes help roots
+    take up silicon where available, which can toughen cell walls; that is indirect
+    support, not a movie hero. Skip miracle compost teas unless you track batch quality;
+    inconsistent biology wastes money and can clog sprayers.
+  preventive_methods: Blast spores spread on wind and splash; new lesions pump spores
+    within days in warm, wet weather. Use certified seed and avoid saving seed from
+    infected fields. Scout at tillering and again at boot for diamond-shaped lesions
+    with gray centers -- early detection buys time to adjust nitrogen or water. Remove
+    weeds that shade rows and keep dew on leaves until noon. In home gardens, space
+    plants so air moves; blast loves a tight, humid canopy.
+  cultural_practices: Plant varieties with stacked resistance genes where seed catalogs
+    are honest about field performance -- resistance is the backbone of blast management.
+    Split nitrogen carefully; excessive N pushes soft, dark green tissue that blast
+    colonizes fast. Destroy infected stubble by incorporation or managed flooding
+    where allowed so spores do not volunteer next season. Avoid overlapping rice crops
+    between neighbors; spores do not respect fence lines. In upland systems, avoid
+    light, frequent irrigation that keeps leaves wet all night.
+  mechanical_physical: Alternate wetting and drying, the systematic irrigation of
+    rice (SRI), or other intermittent schemes reduces leaf wetness compared with constant
+    deep flood -- but only where you truly control water depth and timing. Raising
+    and lowering water on a schedule beats random guessing. In small plots, hand-thinning
+    overcrowded hills improves airflow through the canopy. Remove the first infected
+    leaves only if disease is local; do not spread spores on wet hands between plants.
+  organic_sprays: Copper and sulfur have partial activity on leaf blast if you start
+    before lesions merge; they are weak against panicle blast once necks girdle --
+    there is no organic rescue at that stage. Bacillus-based biofungicides and potassium
+    silicate programs can strengthen cell walls when combined with resistant varieties
+    and nitrogen control. Spray on schedule before rain events if labels allow. Rotate
+    products so you do not build copper loads in soil on tiny gardens. Accept that
+    organic tools blunt the curve; they do not erase genetics or bad weather.
+natural_enemies:
+- Antagonistic Bacteria
+- Competitive Fungi in Residue
+- Soil Antagonistic Microbes
+affected_plants:
+- slug: bamboo
+  name: Bamboo
+- slug: big-bluestem
+  name: Big Bluestem
+- slug: blue-grama
+  name: Blue Grama
+- slug: broomsedge-bluestem
+  name: Broomsedge Bluestem
+- slug: buffalo-grass
+  name: Buffalo Grass
+- slug: eastern-gamagrass
+  name: Eastern Gamagrass
+- slug: elephant-grass
+  name: Elephant Grass
+- slug: elliotts-bluestem
+  name: Elliott's Bluestem
+- slug: fever-grass
+  name: Fever Grass
+- slug: florida-gamagrass
+  name: Florida Gamagrass
+- slug: gulf-muhly
+  name: Gulf Muhly
+- slug: hairawn-muhly
+  name: Hairawn Muhly
+- slug: hairy-grama
+  name: Hairy Grama
+- slug: indiangrass
+  name: Indiangrass
+- slug: lemongrass
+  name: Lemongrass
+- slug: little-bluestem
+  name: Little Bluestem
+- slug: longawn-muhly
+  name: Longawn Muhly
+- slug: millet
+  name: Millet
+- slug: muhly-grass
+  name: Muhly Grass
+- slug: prairie-cordgrass
+  name: Prairie Cordgrass
+- slug: purple-lovegrass
+  name: Purple Lovegrass
+- slug: rice
+  name: Rice
+- slug: saltgrass
+  name: Saltgrass
+- slug: saltmeadow-cordgrass
+  name: Saltmeadow Cordgrass
+- slug: sand-bluestem
+  name: Sand Bluestem
+- slug: sand-cordgrass
+  name: Sand Cordgrass
+- slug: sand-grama
+  name: Sand Grama
+- slug: sand-lovegrass
+  name: Sand Lovegrass
+- slug: sideoats-grama
+  name: Sideoats Grama
+- slug: split-beard-bluestem
+  name: Split Beard Bluestem
+- slug: sweetgrass
+  name: Sweetgrass
+- slug: switchgrass
+  name: Switchgrass
+- slug: vetiver-grass
+  name: Vetiver Grass
+- slug: weeping-lovegrass
+  name: Weeping Lovegrass
+- slug: wiregrass
+  name: Wiregrass
+category: disease

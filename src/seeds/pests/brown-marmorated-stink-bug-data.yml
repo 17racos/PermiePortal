@@ -1,62 +1,57 @@
----
-- name: Brown Marmorated Stink Bug
-  slug: brown-marmorated-stink-bug
-  picture: brown_marmorated_stink_bug.webp
-  scientific_name: Halyomorpha halys
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, brown marmorated stink bug may
-    already be on the plant. This pest often builds quietly, then damage appears all at once.
-    Feeding stress weakens growth, reduces yield, and opens the door to secondary disease. Early
-    cleanup is much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - fruit-damage
-  - wilting
-  - yellowing-leaves
-  - distorted-growth
-  control_methods:
-    biological_controls: >-
-      Native egg parasitoid wasps (Trissolcus spp.) attack brown marmorated stink bug
-      eggs and are establishing naturally across the US following the pest's spread.
-      An introduced parasitoid, Trissolcus japonicus, has been released in some regions
-      as a biocontrol agent. Do not spray broad-spectrum pesticides during egg-laying
-      windows — you will kill the parasitoid wasps that are your best long-term defense.
-      Assassin bugs, spiders, and birds prey on nymphs. Diverse flowering plants at
-      garden edges support these predators throughout the season.
-    preventive_methods: >-
-      BMSB is a true bug that pierces fruit and injects enzymes causing cat-facing and
-      corky spots — damage appears inside fruit before the surface shows it. Monitor
-      with pheromone traps from late spring; rising trap catches signal spray or
-      exclusion timing. Harvest tree fruits promptly when ripe — delayed harvest
-      accumulates stink bug injury. They aggregate on warm south-facing walls in fall
-      before overwintering — seal homes in September before flights begin.
-    cultural_practices: >-
-      Perimeter trap crops of sunflower, sorghum, or millet concentrate bugs away
-      from high-value plants — destroy or mow trap strips after peak aggregation.
-      Harvest ripe fruit immediately rather than leaving it on the plant. Keep weedy
-      hosts managed along field edges — dock, multiflora rose, and tree of heaven
-      are preferred BMSB hosts. Interplant with strongly scented herbs — garlic,
-      catnip, and lavender at bed edges have some deterrent effect on stink bugs.
-      Shake adults and nymphs into a wide bucket of soapy water during cool mornings
-      when they are sluggish. Fine exclusion netting over individual fruit trees or
-      high tunnel vents reduces egg-laying significantly during peak season. For
-      homes, seal all gaps, cracks, and window frames before fall flights in September.
-      Sticky monitoring traps help time management without replacing hands-on scouting
-      on fruit.
-    organic_sprays: >-
-      Kaolin clay on fruit and foliage deters feeding and egg-laying — apply every
-      7 days and after rain, coating all fruit surfaces. Pyrethrin provides quick
-      knockdown but degrades in hours and harms all insects — use only at dusk as
-      a last resort. Neem oil deters feeding when applied consistently but has limited
-      effect on adults already present. Insecticidal soap kills nymphs but bounces
-      off adults. Accept that no spray fully controls BMSB — exclusion and trap
-      cropping are more reliable than chemical management.
-  natural_enemies:
-  - Trissolcus spp. (Platygastridae)
-  - Arachnid Predators (Spiders)
-  - Assassin Bugs (Reduviidae)
-  - Insectivorous Birds
+name: Brown Marmorated Stink Bug
+slug: brown-marmorated-stink-bug
+picture: brown_marmorated_stink_bug.webp
+scientific_name: Halyomorpha halys
+description: If new growth is curling, yellowing, sticky, or chewed, brown marmorated
+  stink bug may already be on the plant. This pest often builds quietly, then damage
+  appears all at once. Feeding stress weakens growth, reduces yield, and opens the
+  door to secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- fruit-damage
+- wilting
+- yellowing-leaves
+- distorted-growth
+control_methods:
+  biological_controls: Native egg parasitoid wasps (Trissolcus spp.) attack brown
+    marmorated stink bug eggs and are establishing naturally across the US following
+    the pest's spread. An introduced parasitoid, Trissolcus japonicus, has been released
+    in some regions as a biocontrol agent. Do not spray broad-spectrum pesticides
+    during egg-laying windows — you will kill the parasitoid wasps that are your best
+    long-term defense. Assassin bugs, spiders, and birds prey on nymphs. Diverse flowering
+    plants at garden edges support these predators throughout the season.
+  preventive_methods: BMSB is a true bug that pierces fruit and injects enzymes causing
+    cat-facing and corky spots — damage appears inside fruit before the surface shows
+    it. Monitor with pheromone traps from late spring; rising trap catches signal
+    spray or exclusion timing. Harvest tree fruits promptly when ripe — delayed harvest
+    accumulates stink bug injury. They aggregate on warm south-facing walls in fall
+    before overwintering — seal homes in September before flights begin.
+  cultural_practices: Perimeter trap crops of sunflower, sorghum, or millet concentrate
+    bugs away from high-value plants — destroy or mow trap strips after peak aggregation.
+    Harvest ripe fruit immediately rather than leaving it on the plant. Keep weedy
+    hosts managed along field edges — dock, multiflora rose, and tree of heaven are
+    preferred BMSB hosts. Interplant with strongly scented herbs — garlic, catnip,
+    and lavender at bed edges have some deterrent effect on stink bugs. Shake adults
+    and nymphs into a wide bucket of soapy water during cool mornings when they are
+    sluggish. Fine exclusion netting over individual fruit trees or high tunnel vents
+    reduces egg-laying significantly during peak season. For homes, seal all gaps,
+    cracks, and window frames before fall flights in September. Sticky monitoring
+    traps help time management without replacing hands-on scouting on fruit.
+  organic_sprays: Kaolin clay on fruit and foliage deters feeding and egg-laying —
+    apply every 7 days and after rain, coating all fruit surfaces. Pyrethrin provides
+    quick knockdown but degrades in hours and harms all insects — use only at dusk
+    as a last resort. Neem oil deters feeding when applied consistently but has limited
+    effect on adults already present. Insecticidal soap kills nymphs but bounces off
+    adults. Accept that no spray fully controls BMSB — exclusion and trap cropping
+    are more reliable than chemical management.
+natural_enemies:
+- Trissolcus spp. (Platygastridae)
+- Arachnid Predators (Spiders)
+- Assassin Bugs (Reduviidae)
+- Insectivorous Birds
+category: pest

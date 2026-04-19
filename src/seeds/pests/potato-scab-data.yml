@@ -1,91 +1,87 @@
----
-- name: Potato Scab
-  slug: potato-scab
-  picture: potato_scab.webp
-  scientific_name: Streptomyces scabies
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, potato scab may
-    already be active. This problem often starts small, then spreads across healthy tissue
-    before most growers realize how serious it is. Warmth, moisture, and crowded foliage usually
-    speed it up. Treat early, because waiting even a few days can turn a manageable infection
-    into major crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - root-damage
-  - distorted-growth
-  - yellowing-leaves
-  - wilting
-  control_methods:
-    biological_controls: >-
-      Competitive soil bacteria and non-pathogenic Streptomyces products sometimes colonize
-      tuber skin ahead of scab bacteria when applied as in-furrow or soil treatments -- read
-      OMRI and trial results. Green manures of mustard or sudangrass release biofumigation
-      compounds when mowed and incorporated quickly; timing and biomass matter. Diverse rotations
-      build microbial communities that suppress scab slowly over years; one compost tea does not
-      replace pH and water discipline.
-    preventive_methods: >-
-      Streptomyces scabies infects young tuber skin during lenticel formation when soil is warm
-      and dry -- the critical window is tuber initiation, not harvest week. Use certified seed
-      potatoes and avoid planting in fields with high scab history. Lengthen rotation away from
-      potatoes, beets, and carrots that keep scab in soil. In dry springs, irrigate during knobby
-      tuber formation so lenticels do not crack from drought stress.
-    cultural_practices: >-
-      Keep soil pH near 5.2 to 5.5 for scab-sensitive varieties if the rest of your rotation
-      allows; lime-loving crops in the same bed fight this. Avoid fresh manure before potatoes;
-      use composted manure only. Choose scab-resistant cultivars for problem fields. Maintain
-      steady soil moisture -- wild swings between dust and mud crack lenticels and invite
-      infection.
-    mechanical_physical: >-
-      Add organic matter to buffer moisture swings, but avoid chunky unfinished material that
-      dries into clods around tubers. Tillage that leaves cloddy dry pockets around developing
-      tubers concentrates scab; aim for a fine, even seedbed. Stone separation helps market
-      quality but does not fix biology; still, smooth tubers show fewer deep scars.
-    organic_sprays: >-
-      No reliable foliar spray cures scab; damage is already done under the soil line. Soil
-      applications of competitive microbials show variable results -- match label rates to soil
-      temperature and organic matter. Some products are OMRI listed; efficacy still varies by
-      field. Focus budget on pH, water, rotation, and resistant varieties before buying exotic
-      brews.
-  natural_enemies:
-  - Antagonistic Streptomyces spp.
-  - Competitive Bacillus spp.
-  affected_plants:
-  - slug: angels-trumpet
-    name: Angel's Trumpet
-  - slug: ashwagandha
-    name: Ashwagandha
-  - slug: buffalo-bur
-    name: Buffalo Bur
-  - slug: chiltepin-pepper
-    name: Chiltepin Pepper
-  - slug: chiltepin-pepper-tree
-    name: Chiltepin Pepper Tree
-  - slug: chinese-lantern
-    name: Chinese Lantern
-  - slug: coastal-groundcherry
-    name: Coastal Groundcherry
-  - slug: devils-trumpet
-    name: Devil's Trumpet
-  - slug: garden-huckleberry
-    name: Garden Huckleberry
-  - slug: goji-berry
-    name: Goji Berry
-  - slug: ground-cherry
-    name: Ground Cherry
-  - slug: horse-nettle
-    name: Horse Nettle
-  - slug: pepino-melon
-    name: Pepino Melon
-  - slug: potato
-    name: Potato
-  - slug: scarlet-eggplant
-    name: Scarlet Eggplant
-  - slug: wild-eggplant
-    name: Wild Eggplant
-  - slug: wonderberry
-    name: Wonderberry
+name: Potato Scab
+slug: potato-scab
+picture: potato_scab.webp
+scientific_name: Streptomyces scabies
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  potato scab may already be active. This problem often starts small, then spreads
+  across healthy tissue before most growers realize how serious it is. Warmth, moisture,
+  and crowded foliage usually speed it up. Treat early, because waiting even a few
+  days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- root-damage
+- distorted-growth
+- yellowing-leaves
+- wilting
+control_methods:
+  biological_controls: Competitive soil bacteria and non-pathogenic Streptomyces products
+    sometimes colonize tuber skin ahead of scab bacteria when applied as in-furrow
+    or soil treatments -- read OMRI and trial results. Green manures of mustard or
+    sudangrass release biofumigation compounds when mowed and incorporated quickly;
+    timing and biomass matter. Diverse rotations build microbial communities that
+    suppress scab slowly over years; one compost tea does not replace pH and water
+    discipline.
+  preventive_methods: Streptomyces scabies infects young tuber skin during lenticel
+    formation when soil is warm and dry -- the critical window is tuber initiation,
+    not harvest week. Use certified seed potatoes and avoid planting in fields with
+    high scab history. Lengthen rotation away from potatoes, beets, and carrots that
+    keep scab in soil. In dry springs, irrigate during knobby tuber formation so lenticels
+    do not crack from drought stress.
+  cultural_practices: Keep soil pH near 5.2 to 5.5 for scab-sensitive varieties if
+    the rest of your rotation allows; lime-loving crops in the same bed fight this.
+    Avoid fresh manure before potatoes; use composted manure only. Choose scab-resistant
+    cultivars for problem fields. Maintain steady soil moisture -- wild swings between
+    dust and mud crack lenticels and invite infection.
+  mechanical_physical: Add organic matter to buffer moisture swings, but avoid chunky
+    unfinished material that dries into clods around tubers. Tillage that leaves cloddy
+    dry pockets around developing tubers concentrates scab; aim for a fine, even seedbed.
+    Stone separation helps market quality but does not fix biology; still, smooth
+    tubers show fewer deep scars.
+  organic_sprays: No reliable foliar spray cures scab; damage is already done under
+    the soil line. Soil applications of competitive microbials show variable results
+    -- match label rates to soil temperature and organic matter. Some products are
+    OMRI listed; efficacy still varies by field. Focus budget on pH, water, rotation,
+    and resistant varieties before buying exotic brews.
+natural_enemies:
+- Antagonistic Streptomyces spp.
+- Competitive Bacillus spp.
+affected_plants:
+- slug: angels-trumpet
+  name: Angel's Trumpet
+- slug: ashwagandha
+  name: Ashwagandha
+- slug: buffalo-bur
+  name: Buffalo Bur
+- slug: chiltepin-pepper
+  name: Chiltepin Pepper
+- slug: chiltepin-pepper-tree
+  name: Chiltepin Pepper Tree
+- slug: chinese-lantern
+  name: Chinese Lantern
+- slug: coastal-groundcherry
+  name: Coastal Groundcherry
+- slug: devils-trumpet
+  name: Devil's Trumpet
+- slug: garden-huckleberry
+  name: Garden Huckleberry
+- slug: goji-berry
+  name: Goji Berry
+- slug: ground-cherry
+  name: Ground Cherry
+- slug: horse-nettle
+  name: Horse Nettle
+- slug: pepino-melon
+  name: Pepino Melon
+- slug: potato
+  name: Potato
+- slug: scarlet-eggplant
+  name: Scarlet Eggplant
+- slug: wild-eggplant
+  name: Wild Eggplant
+- slug: wonderberry
+  name: Wonderberry
+category: disease

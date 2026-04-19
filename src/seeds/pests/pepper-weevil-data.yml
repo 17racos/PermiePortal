@@ -1,94 +1,91 @@
----
-- name: Pepper Weevil
-  slug: pepper-weevil
-  picture: pepper_weevil.webp
-  scientific_name: Anthonomus eugenii
-  description: >-
-    If plants are wilting, notching at the edges, or fruit and roots show hidden feeding damage,
-    pepper weevil may be the cause. Adults chew above ground while larvae often feed out of
-    sight inside soil, stems, or fruit. Damage builds quietly, then plants crash fast when roots
-    are heavily hit. Act early so a small weevil problem does not become a season-long
-    infestation.
-  characteristics: >-
-    Look for small beetles with a hard body and a distinct snout, usually active at dawn, dusk,
-    or night. Check for crescent-shaped leaf notches, punctures in fruit, or tiny entry holes
-    near stems. In soil or damaged tissue, larvae are often pale, legless, and curved in a
-    C-shape. Fresh chew marks plus snout beetles or C-shaped grubs confirm active weevil
-    pressure.
-  symptoms:
-  - chewed-stems
-  - stem-damage
-  - fruit-damage
-  - holes-in-leaves
-  - root-damage
-  control_methods:
-    biological_controls: >-
-      Minute pirate bugs, lacewing larvae, and spiders kill some adult weevils and larvae on
-      foliage, but pepper weevil explodes faster than generalists can eat once inside pods.
-      Parasitoids are scarce in North American fields. Put biocontrol budget into clean
-      transplants, perimeter weed removal, and avoiding broad-spectrum sprays that kill predators
-      while adults re-invade from the next field. If you import biocontrols, they are backup
-      after sanitation, not the star.
-    preventive_methods: >-
-      Hang pheromone-baited traps at field edges and near packing sheds -- zero tolerance
-      matters because one mated female can seed a whole house. Source transplants from certified
-      clean greenhouses; inspect trays before unload. Examine flowers and pin fruit with a hand
-      lens weekly during first fruit set for egg scars and exit holes. Flag fields adjacent to
-      last year's pepper debris; adults walk from memory.
-    cultural_practices: >-
-      Destroy cull fruit, aborted buds, and fallen peppers daily -- larvae complete inside
-      pods whether you harvest or not. Till finished rows promptly so pupae in soil do not wait
-      for next season. Remove nightshade weeds that host off-season reproduction along fence
-      lines. Rotate greenhouse houses to a non-host break between pepper crops when economics
-      allow; steam or sanitize floors between turns.
-    mechanical_physical: >-
-      Research farms vacuum adults from canopies on cool mornings; most farms still rely on
-      aggressive fruit removal and sealed exclusion netting on high tunnels. Netting works only
-      when sides bury to the ground and doors are airlocks. Hand-pick adults into soapy water
-      during small outbreaks on patio plants. Shake canes over a sheet at dawn before adults fly.
-    organic_sprays: >-
-      Pyrethrin and spinosad knock down adults when contact sprays cover the canopy and repeat
-      during peak flight -- verify labels for pepper crop and setting. Kaolin on foliage deters
-      feeding and oviposition if film stays even; rebuild after overhead irrigation. No organic
-      spray fixes eggs already inside pods; sprays pair with sanitation. Avoid spraying open
-      flowers when bees work unless labels allow narrow windows.
-  affected_plants:
-  - slug: chiltepin-pepper
-    name: Chiltepin Pepper
-  - slug: ground-cherry
-    name: Ground Cherry
-  - slug: pepino-melon
-    name: Pepino Melon
-  - slug: angels-trumpet
-    name: Angel's Trumpet
-  - slug: ashwagandha
-    name: Ashwagandha
-  - slug: buffalo-bur
-    name: Buffalo Bur
-  - slug: chiltepin-pepper-tree
-    name: Chiltepin Pepper Tree
-  - slug: chinese-lantern
-    name: Chinese Lantern
-  - slug: coastal-groundcherry
-    name: Coastal Groundcherry
-  - slug: devils-trumpet
-    name: Devil's Trumpet
-  - slug: garden-huckleberry
-    name: Garden Huckleberry
-  - slug: goji-berry
-    name: Goji Berry
-  - slug: horse-nettle
-    name: Horse Nettle
-  - slug: potato
-    name: Potato
-  - slug: scarlet-eggplant
-    name: Scarlet Eggplant
-  - slug: wild-eggplant
-    name: Wild Eggplant
-  - slug: wonderberry
-    name: Wonderberry
-  natural_enemies:
-  - Minute Pirate Bugs (Orius spp.)
-  - Lacewing larvae (Chrysopidae)
-  - Orb-weaver Spiders
-  - Ground Beetles (Carabidae)
+name: Pepper Weevil
+slug: pepper-weevil
+picture: pepper_weevil.webp
+scientific_name: Anthonomus eugenii
+description: If plants are wilting, notching at the edges, or fruit and roots show
+  hidden feeding damage, pepper weevil may be the cause. Adults chew above ground
+  while larvae often feed out of sight inside soil, stems, or fruit. Damage builds
+  quietly, then plants crash fast when roots are heavily hit. Act early so a small
+  weevil problem does not become a season-long infestation.
+characteristics: Look for small beetles with a hard body and a distinct snout, usually
+  active at dawn, dusk, or night. Check for crescent-shaped leaf notches, punctures
+  in fruit, or tiny entry holes near stems. In soil or damaged tissue, larvae are
+  often pale, legless, and curved in a C-shape. Fresh chew marks plus snout beetles
+  or C-shaped grubs confirm active weevil pressure.
+symptoms:
+- chewed-stems
+- stem-damage
+- fruit-damage
+- holes-in-leaves
+- root-damage
+control_methods:
+  biological_controls: Minute pirate bugs, lacewing larvae, and spiders kill some
+    adult weevils and larvae on foliage, but pepper weevil explodes faster than generalists
+    can eat once inside pods. Parasitoids are scarce in North American fields. Put
+    biocontrol budget into clean transplants, perimeter weed removal, and avoiding
+    broad-spectrum sprays that kill predators while adults re-invade from the next
+    field. If you import biocontrols, they are backup after sanitation, not the star.
+  preventive_methods: Hang pheromone-baited traps at field edges and near packing
+    sheds -- zero tolerance matters because one mated female can seed a whole house.
+    Source transplants from certified clean greenhouses; inspect trays before unload.
+    Examine flowers and pin fruit with a hand lens weekly during first fruit set for
+    egg scars and exit holes. Flag fields adjacent to last year's pepper debris; adults
+    walk from memory.
+  cultural_practices: Destroy cull fruit, aborted buds, and fallen peppers daily --
+    larvae complete inside pods whether you harvest or not. Till finished rows promptly
+    so pupae in soil do not wait for next season. Remove nightshade weeds that host
+    off-season reproduction along fence lines. Rotate greenhouse houses to a non-host
+    break between pepper crops when economics allow; steam or sanitize floors between
+    turns.
+  mechanical_physical: Research farms vacuum adults from canopies on cool mornings;
+    most farms still rely on aggressive fruit removal and sealed exclusion netting
+    on high tunnels. Netting works only when sides bury to the ground and doors are
+    airlocks. Hand-pick adults into soapy water during small outbreaks on patio plants.
+    Shake canes over a sheet at dawn before adults fly.
+  organic_sprays: Pyrethrin and spinosad knock down adults when contact sprays cover
+    the canopy and repeat during peak flight -- verify labels for pepper crop and
+    setting. Kaolin on foliage deters feeding and oviposition if film stays even;
+    rebuild after overhead irrigation. No organic spray fixes eggs already inside
+    pods; sprays pair with sanitation. Avoid spraying open flowers when bees work
+    unless labels allow narrow windows.
+affected_plants:
+- slug: chiltepin-pepper
+  name: Chiltepin Pepper
+- slug: ground-cherry
+  name: Ground Cherry
+- slug: pepino-melon
+  name: Pepino Melon
+- slug: angels-trumpet
+  name: Angel's Trumpet
+- slug: ashwagandha
+  name: Ashwagandha
+- slug: buffalo-bur
+  name: Buffalo Bur
+- slug: chiltepin-pepper-tree
+  name: Chiltepin Pepper Tree
+- slug: chinese-lantern
+  name: Chinese Lantern
+- slug: coastal-groundcherry
+  name: Coastal Groundcherry
+- slug: devils-trumpet
+  name: Devil's Trumpet
+- slug: garden-huckleberry
+  name: Garden Huckleberry
+- slug: goji-berry
+  name: Goji Berry
+- slug: horse-nettle
+  name: Horse Nettle
+- slug: potato
+  name: Potato
+- slug: scarlet-eggplant
+  name: Scarlet Eggplant
+- slug: wild-eggplant
+  name: Wild Eggplant
+- slug: wonderberry
+  name: Wonderberry
+natural_enemies:
+- Minute Pirate Bugs (Orius spp.)
+- Lacewing larvae (Chrysopidae)
+- Orb-weaver Spiders
+- Ground Beetles (Carabidae)
+category: pest

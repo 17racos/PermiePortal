@@ -1,118 +1,114 @@
----
-- name: Heart Rot
-  slug: heart-rot
-  picture: heart_rot.webp
-  scientific_name: Ganoderma zonatum (palms); other wood-decay basidiomycetes on trees
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, heart rot may already
-    be active. This problem often starts small, then spreads across healthy tissue before most
-    growers realize how serious it is. Warmth, moisture, and crowded foliage usually speed it
-    up. Treat early, because waiting even a few days can turn a manageable infection into major
-    crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - wilting
-  - root-damage
-  - yellowing-leaves
-  - dropping-leaves
-  - crown-damage
-  control_methods:
-    biological_controls: >-
-      Trichoderma and other competitive fungi show up in research as wound protectants sprayed
-      onto fresh cuts -- they may slow colonization if applied immediately, not five seasons late.
-      Soil drench biology does not pull white rot out of structural wood; it nudges soil balance
-      around healthy roots. Antagonistic microbes are a small piece next to sanitation and tree
-      mechanics. Do not buy a compost tea instead of calling an arborist when a trunk sounds
-      hollow.
-    preventive_methods: >-
-      Ganoderma and related basidiomycetes infect through roots and old wounds, then digest wood
-      from the inside -- the fruiting shelf appears after damage is done. Inspect palm and tree
-      bases after storms for fresh cracks or conks starting. Never plant a new palm directly over
-      old palm roots, stumps, or buried wood chips from infected trees; the fungus lives in
-      buried wood for years. Map removals on your property so you do not forget where inoculum
-      hides when you redesign the yard five years later.
-    cultural_practices: >-
-      Avoid mower and string-trimmer wounds at soil line; keep mulch back from trunks and palm
-      boots so tissue stays dry. Do not lion-tail palms or spike declining trunks for holiday
-      lights; every injury is a new infection court. Fix drainage so roots do not suffocate in
-      soup while fungi eat heartwood upstairs. Do not irrigate splash onto conks; you spread
-      spores across the landscape. In public spaces, rope off hazard zones before failure, not
-      after a branch lands on a car.
-    mechanical_physical: >-
-      Remove trees and palms that show structural decay, leaning, or hollow sounds when tapped --
-      heart rot is a safety problem first. Chip infested material under biosecurity rules; some
-      regions restrict movement of palm debris. Sterilize chains and saw bars between healthy and
-      suspect cuts so you do not inoculate the next job. Replace with species suited to site, not
-      the same vulnerable palm on the same diseased root pad. Cabling a rotted trunk only delays
-      the inevitable.
-    organic_sprays: >-
-      Copper, phosphite, and similar materials show up in debates about palm health support --
-      they do not rebuild hollow load-bearing wood. Labels may allow some applications to reduce
-      stress pathogens in living tissue; they are not a cure for advanced decay. If an arborist
-      says removal, believe them before the spray rep does. Focus budget on safe removal and
-      replanting with clean stock on fresh ground.
-  natural_enemies:
-  - Competitive Saprotrophic Fungi
-  - Trichoderma spp.
-  affected_plants:
-  - slug: açaí-palm
-    name: Açaí Palm
-  - slug: aguaje-palm
-    name: Aguaje Palm
-  - slug: bactris-gasipaes
-    name: Bactris Gasipaes
-  - slug: bismarck-palm
-    name: Bismarck Palm
-  - slug: blue-palmetto
-    name: Blue Palmetto
-  - slug: buriti-palm
-    name: Buriti Palm
-  - slug: butia-palm
-    name: Butia Palm
-  - slug: cabbage-palm
-    name: Cabbage Palm
-  - slug: chinese-fan-palm
-    name: Chinese Fan Palm
-  - slug: coconut-palm
-    name: Coconut Palm
-  - slug: coconut-tree
-    name: Coconut Tree
-  - slug: dwarf-palmetto
-    name: Dwarf Palmetto
-  - slug: florida-thatch-palm
-    name: Florida Thatch Palm
-  - slug: jelly-palm
-    name: Jelly Palm
-  - slug: jucara-palm
-    name: Jucara Palm
-  - slug: key-thatch-palm
-    name: Key Thatch Palm
-  - slug: needle-palm
-    name: Needle Palm
-  - slug: nipa-palm
-    name: Nipa Palm
-  - slug: palmetto-palm
-    name: Palmetto Palm
-  - slug: peach-palm
-    name: Peach Palm
-  - slug: pindo-palm
-    name: Pindo Palm
-  - slug: ribbon-palm
-    name: Ribbon Palm
-  - slug: royal-palm
-    name: Royal Palm
-  - slug: sabal-palm
-    name: Sabal Palm
-  - slug: saw-palmetto
-    name: Saw Palmetto
-  - slug: scrub-palmetto
-    name: Scrub Palmetto
-  - slug: tucumã-palm
-    name: Tucumã Palm
-  - slug: windmill-palm
-    name: Windmill Palm
+name: Heart Rot
+slug: heart-rot
+picture: heart_rot.webp
+scientific_name: Ganoderma zonatum (palms); other wood-decay basidiomycetes on trees
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  heart rot may already be active. This problem often starts small, then spreads across
+  healthy tissue before most growers realize how serious it is. Warmth, moisture,
+  and crowded foliage usually speed it up. Treat early, because waiting even a few
+  days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- wilting
+- root-damage
+- yellowing-leaves
+- dropping-leaves
+- crown-damage
+control_methods:
+  biological_controls: Trichoderma and other competitive fungi show up in research
+    as wound protectants sprayed onto fresh cuts -- they may slow colonization if
+    applied immediately, not five seasons late. Soil drench biology does not pull
+    white rot out of structural wood; it nudges soil balance around healthy roots.
+    Antagonistic microbes are a small piece next to sanitation and tree mechanics.
+    Do not buy a compost tea instead of calling an arborist when a trunk sounds hollow.
+  preventive_methods: Ganoderma and related basidiomycetes infect through roots and
+    old wounds, then digest wood from the inside -- the fruiting shelf appears after
+    damage is done. Inspect palm and tree bases after storms for fresh cracks or conks
+    starting. Never plant a new palm directly over old palm roots, stumps, or buried
+    wood chips from infected trees; the fungus lives in buried wood for years. Map
+    removals on your property so you do not forget where inoculum hides when you redesign
+    the yard five years later.
+  cultural_practices: Avoid mower and string-trimmer wounds at soil line; keep mulch
+    back from trunks and palm boots so tissue stays dry. Do not lion-tail palms or
+    spike declining trunks for holiday lights; every injury is a new infection court.
+    Fix drainage so roots do not suffocate in soup while fungi eat heartwood upstairs.
+    Do not irrigate splash onto conks; you spread spores across the landscape. In
+    public spaces, rope off hazard zones before failure, not after a branch lands
+    on a car.
+  mechanical_physical: Remove trees and palms that show structural decay, leaning,
+    or hollow sounds when tapped -- heart rot is a safety problem first. Chip infested
+    material under biosecurity rules; some regions restrict movement of palm debris.
+    Sterilize chains and saw bars between healthy and suspect cuts so you do not inoculate
+    the next job. Replace with species suited to site, not the same vulnerable palm
+    on the same diseased root pad. Cabling a rotted trunk only delays the inevitable.
+  organic_sprays: Copper, phosphite, and similar materials show up in debates about
+    palm health support -- they do not rebuild hollow load-bearing wood. Labels may
+    allow some applications to reduce stress pathogens in living tissue; they are
+    not a cure for advanced decay. If an arborist says removal, believe them before
+    the spray rep does. Focus budget on safe removal and replanting with clean stock
+    on fresh ground.
+natural_enemies:
+- Competitive Saprotrophic Fungi
+- Trichoderma spp.
+affected_plants:
+- slug: açaí-palm
+  name: Açaí Palm
+- slug: aguaje-palm
+  name: Aguaje Palm
+- slug: bactris-gasipaes
+  name: Bactris Gasipaes
+- slug: bismarck-palm
+  name: Bismarck Palm
+- slug: blue-palmetto
+  name: Blue Palmetto
+- slug: buriti-palm
+  name: Buriti Palm
+- slug: butia-palm
+  name: Butia Palm
+- slug: cabbage-palm
+  name: Cabbage Palm
+- slug: chinese-fan-palm
+  name: Chinese Fan Palm
+- slug: coconut-palm
+  name: Coconut Palm
+- slug: coconut-tree
+  name: Coconut Tree
+- slug: dwarf-palmetto
+  name: Dwarf Palmetto
+- slug: florida-thatch-palm
+  name: Florida Thatch Palm
+- slug: jelly-palm
+  name: Jelly Palm
+- slug: jucara-palm
+  name: Jucara Palm
+- slug: key-thatch-palm
+  name: Key Thatch Palm
+- slug: needle-palm
+  name: Needle Palm
+- slug: nipa-palm
+  name: Nipa Palm
+- slug: palmetto-palm
+  name: Palmetto Palm
+- slug: peach-palm
+  name: Peach Palm
+- slug: pindo-palm
+  name: Pindo Palm
+- slug: ribbon-palm
+  name: Ribbon Palm
+- slug: royal-palm
+  name: Royal Palm
+- slug: sabal-palm
+  name: Sabal Palm
+- slug: saw-palmetto
+  name: Saw Palmetto
+- slug: scrub-palmetto
+  name: Scrub Palmetto
+- slug: tucumã-palm
+  name: Tucumã Palm
+- slug: windmill-palm
+  name: Windmill Palm
+category: disease

@@ -1,56 +1,54 @@
----
-- name: Walnut Husk Fly
-  slug: walnut-husk-fly
-  picture: walnut_husk_fly.webp
-  scientific_name: Rhagoletis completa
-  description: >-
-    If leaves show trails, fruit turns soft, or roots collapse from inside, walnut husk fly may
-    already be feeding. The larval stage does most of the damage, often hidden where you cannot
-    see it at first glance. By the time yellowing or rot appears, feeding may be well underway.
-    Move quickly when symptoms begin to prevent another wave of eggs and larvae.
-  characteristics: >-
-    Watch for tiny eggs near plant tissue, pale legless larvae inside mines or fruit, and sudden
-    soft spots or tunnels. Adults are usually small flies that hover or dart when disturbed.
-    Check around wounds, blossoms, and moist plant debris where egg-laying is common. Cut open
-    suspect tissue: live maggots or fresh tunnels are the clearest field confirmation.
-  symptoms:
-  - fruit-damage
-  - wilting
-  - distorted-growth
-  - leaf-spots
-  control_methods:
-    biological_controls: >-
-      Parasitoids attack Rhagoletis flies modestly; robber flies and spiders pick off adults at
-      sap feeds. Birds learn to hunt flies near damaged husks. These helpers trim edges; they do
-      not fix orchards where every neighbor drops husks until winter. Skip pyrethrin during peak
-      parasitism or you farm flies alone next month.
-    preventive_methods: >-
-      Hang yellow sticky spheres baited with ammonium carbonate to mark biofix when adults first
-      move -- that date sets spinosad or kaolin windows. Treat only when catches cross regional
-      thresholds, not every Tuesday. Coordinate neighborhood sanitation; adults fly orchard to
-      orchard in summer.
-    cultural_practices: >-
-      Destroy fallen husks weekly so larvae cannot pupate under trees. Remove unmanaged wild
-      walnuts near edges if rules allow. Mow or rake under trees so husks do not sit in wet
-      thatch. After harvest, remove residue quickly; leftover husks are next year's fly factory.
-    mechanical_physical: >-
-      Sticky spheres and panels capture adults for monitoring and mass trapping when many traps
-      cover a block; one trap near the porch mostly rearranges flies. Shake trees after harvest
-      where permitted to drop stubborn husks. Fine mesh bags on individual nuts exclude flies on
-      backyard trees if labor allows.
-    organic_sprays: >-
-      Spinosad targets adults during the short pre-oviposition window; read labels for walnut
-      and timing. Kaolin clay repels landing flies if you rebuild film after rain -- organic
-      programs lean on obsessive timing, not calendar sprays. Reapply after irrigation or rain
-      washes kaolin off. Combine sprays with trap counts; empty sprays waste money and predators.
-  natural_enemies:
-  - Parasitic Wasps
-  - Robber Flies
-  - Spiders
-  affected_plants:
-  - slug: pecan-tree
-    name: Pecan Tree
-  - slug: scrub-hickory
-    name: Scrub Hickory
-  - slug: walnut-tree
-    name: Walnut Tree
+name: Walnut Husk Fly
+slug: walnut-husk-fly
+picture: walnut_husk_fly.webp
+scientific_name: Rhagoletis completa
+description: If leaves show trails, fruit turns soft, or roots collapse from inside,
+  walnut husk fly may already be feeding. The larval stage does most of the damage,
+  often hidden where you cannot see it at first glance. By the time yellowing or rot
+  appears, feeding may be well underway. Move quickly when symptoms begin to prevent
+  another wave of eggs and larvae.
+characteristics: 'Watch for tiny eggs near plant tissue, pale legless larvae inside
+  mines or fruit, and sudden soft spots or tunnels. Adults are usually small flies
+  that hover or dart when disturbed. Check around wounds, blossoms, and moist plant
+  debris where egg-laying is common. Cut open suspect tissue: live maggots or fresh
+  tunnels are the clearest field confirmation.'
+symptoms:
+- fruit-damage
+- wilting
+- distorted-growth
+- leaf-spots
+control_methods:
+  biological_controls: Parasitoids attack Rhagoletis flies modestly; robber flies
+    and spiders pick off adults at sap feeds. Birds learn to hunt flies near damaged
+    husks. These helpers trim edges; they do not fix orchards where every neighbor
+    drops husks until winter. Skip pyrethrin during peak parasitism or you farm flies
+    alone next month.
+  preventive_methods: Hang yellow sticky spheres baited with ammonium carbonate to
+    mark biofix when adults first move -- that date sets spinosad or kaolin windows.
+    Treat only when catches cross regional thresholds, not every Tuesday. Coordinate
+    neighborhood sanitation; adults fly orchard to orchard in summer.
+  cultural_practices: Destroy fallen husks weekly so larvae cannot pupate under trees.
+    Remove unmanaged wild walnuts near edges if rules allow. Mow or rake under trees
+    so husks do not sit in wet thatch. After harvest, remove residue quickly; leftover
+    husks are next year's fly factory.
+  mechanical_physical: Sticky spheres and panels capture adults for monitoring and
+    mass trapping when many traps cover a block; one trap near the porch mostly rearranges
+    flies. Shake trees after harvest where permitted to drop stubborn husks. Fine
+    mesh bags on individual nuts exclude flies on backyard trees if labor allows.
+  organic_sprays: Spinosad targets adults during the short pre-oviposition window;
+    read labels for walnut and timing. Kaolin clay repels landing flies if you rebuild
+    film after rain -- organic programs lean on obsessive timing, not calendar sprays.
+    Reapply after irrigation or rain washes kaolin off. Combine sprays with trap counts;
+    empty sprays waste money and predators.
+natural_enemies:
+- Parasitic Wasps
+- Robber Flies
+- Spiders
+affected_plants:
+- slug: pecan-tree
+  name: Pecan Tree
+- slug: scrub-hickory
+  name: Scrub Hickory
+- slug: walnut-tree
+  name: Walnut Tree
+category: pest

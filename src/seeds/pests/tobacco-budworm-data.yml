@@ -1,88 +1,84 @@
----
-- name: Tobacco Budworm
-  slug: tobacco-budworm
-  picture: tobacco_budworm.webp
-  scientific_name: Chloridea virescens
-  description: >-
-    If leaves look shredded overnight or fruit has fresh chew holes, tobacco budworm may be
-    feeding right now. These larvae can eat fast and strip a healthy plant in a short window.
-    Young stages are easy to miss, then damage suddenly explodes as they grow. Catch them early
-    to avoid severe defoliation and contaminated harvests.
-  characteristics: >-
-    Check leaf undersides, growing tips, and stem junctions for eggs, frass pellets, and feeding
-    scars. Larvae vary in color, but most have a soft segmented body and blend into foliage.
-    Look at dusk or early morning when many species feed more actively. Fresh chewing plus live
-    larvae or droppings on lower leaves confirms an active caterpillar outbreak.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - skeletonized-leaves
-  control_methods:
-    biological_controls: >-
-      Trichogramma wasps parasitize moth eggs on leaves when releases are timed to local flights.
-      Braconid wasps turn larvae into rice-grain mummies. Minute pirate bugs and lacewing larvae
-      attack tiny larvae before they tunnel into squares. These benefits vanish if you spray
-      pyrethrin on a calendar; rotate modes of action and scout before spraying. Flowering
-      insectaries between rows feed adult parasitoids when cotton or peppers are still small.
-    preventive_methods: >-
-      Scout terminals, flower buds, and small fruit for pinholes and frass twice weekly during
-      warm nights -- budworm larvae hide inside squares fast. Use blacklight or pheromone traps
-      where extension bulletins give thresholds for your crop. Flag fields that showed early
-      stings last year; moths remember good hosts. In high tunnels, screen vents before adults
-      migrate from outdoor crops.
-    cultural_practices: >-
-      Till or remove crop residue after harvest so pupae have fewer overwintering pockets in
-      vegetable fields. Avoid planting tomato after pepper after cotton in the same pocket
-      garden without a break -- you stack generations. Remove nightshade weeds that host larvae
-      between cash crops. Balance nitrogen; excessive leaf pushes endless hiding places.
-    mechanical_physical: >-
-      Hand-remove larvae on small plantings when you catch them outside buds -- drop into soapy
-      water. Row covers over transplants block adults until flowering; remove covers for
-      pollination or use self-fertile varieties. For a few patio peppers, nightly headlamp
-      patrols beat sprayers.
-    organic_sprays: >-
-      Bacillus thuringiensis kurstaki must be eaten by small larvae -- spray before they tunnel
-      into buds and squares. Spinosad reaches larvae feeding openly on leaf edges; it penetrates
-      slightly into rolled leaves. Timing beats potency once larvae shelter inside fruiting
-      structures. Spray at dusk to reduce bee exposure on open blooms. Reapply after rain; Bt
-      washes off fast.
-  natural_enemies:
-  - Trichogramma spp.
-  - Braconid wasps
-  - Predatory bugs
-  affected_plants:
-  - slug: angels-trumpet
-    name: Angel's Trumpet
-  - slug: ashwagandha
-    name: Ashwagandha
-  - slug: buffalo-bur
-    name: Buffalo Bur
-  - slug: chiltepin-pepper
-    name: Chiltepin Pepper
-  - slug: chiltepin-pepper-tree
-    name: Chiltepin Pepper Tree
-  - slug: chinese-lantern
-    name: Chinese Lantern
-  - slug: coastal-groundcherry
-    name: Coastal Groundcherry
-  - slug: devils-trumpet
-    name: Devil's Trumpet
-  - slug: garden-huckleberry
-    name: Garden Huckleberry
-  - slug: goji-berry
-    name: Goji Berry
-  - slug: ground-cherry
-    name: Ground Cherry
-  - slug: horse-nettle
-    name: Horse Nettle
-  - slug: pepino-melon
-    name: Pepino Melon
-  - slug: potato
-    name: Potato
-  - slug: scarlet-eggplant
-    name: Scarlet Eggplant
-  - slug: wild-eggplant
-    name: Wild Eggplant
-  - slug: wonderberry
-    name: Wonderberry
+name: Tobacco Budworm
+slug: tobacco-budworm
+picture: tobacco_budworm.webp
+scientific_name: Chloridea virescens
+description: If leaves look shredded overnight or fruit has fresh chew holes, tobacco
+  budworm may be feeding right now. These larvae can eat fast and strip a healthy
+  plant in a short window. Young stages are easy to miss, then damage suddenly explodes
+  as they grow. Catch them early to avoid severe defoliation and contaminated harvests.
+characteristics: Check leaf undersides, growing tips, and stem junctions for eggs,
+  frass pellets, and feeding scars. Larvae vary in color, but most have a soft segmented
+  body and blend into foliage. Look at dusk or early morning when many species feed
+  more actively. Fresh chewing plus live larvae or droppings on lower leaves confirms
+  an active caterpillar outbreak.
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- skeletonized-leaves
+control_methods:
+  biological_controls: Trichogramma wasps parasitize moth eggs on leaves when releases
+    are timed to local flights. Braconid wasps turn larvae into rice-grain mummies.
+    Minute pirate bugs and lacewing larvae attack tiny larvae before they tunnel into
+    squares. These benefits vanish if you spray pyrethrin on a calendar; rotate modes
+    of action and scout before spraying. Flowering insectaries between rows feed adult
+    parasitoids when cotton or peppers are still small.
+  preventive_methods: Scout terminals, flower buds, and small fruit for pinholes and
+    frass twice weekly during warm nights -- budworm larvae hide inside squares fast.
+    Use blacklight or pheromone traps where extension bulletins give thresholds for
+    your crop. Flag fields that showed early stings last year; moths remember good
+    hosts. In high tunnels, screen vents before adults migrate from outdoor crops.
+  cultural_practices: Till or remove crop residue after harvest so pupae have fewer
+    overwintering pockets in vegetable fields. Avoid planting tomato after pepper
+    after cotton in the same pocket garden without a break -- you stack generations.
+    Remove nightshade weeds that host larvae between cash crops. Balance nitrogen;
+    excessive leaf pushes endless hiding places.
+  mechanical_physical: Hand-remove larvae on small plantings when you catch them outside
+    buds -- drop into soapy water. Row covers over transplants block adults until
+    flowering; remove covers for pollination or use self-fertile varieties. For a
+    few patio peppers, nightly headlamp patrols beat sprayers.
+  organic_sprays: Bacillus thuringiensis kurstaki must be eaten by small larvae --
+    spray before they tunnel into buds and squares. Spinosad reaches larvae feeding
+    openly on leaf edges; it penetrates slightly into rolled leaves. Timing beats
+    potency once larvae shelter inside fruiting structures. Spray at dusk to reduce
+    bee exposure on open blooms. Reapply after rain; Bt washes off fast.
+natural_enemies:
+- Trichogramma spp.
+- Braconid wasps
+- Predatory bugs
+affected_plants:
+- slug: angels-trumpet
+  name: Angel's Trumpet
+- slug: ashwagandha
+  name: Ashwagandha
+- slug: buffalo-bur
+  name: Buffalo Bur
+- slug: chiltepin-pepper
+  name: Chiltepin Pepper
+- slug: chiltepin-pepper-tree
+  name: Chiltepin Pepper Tree
+- slug: chinese-lantern
+  name: Chinese Lantern
+- slug: coastal-groundcherry
+  name: Coastal Groundcherry
+- slug: devils-trumpet
+  name: Devil's Trumpet
+- slug: garden-huckleberry
+  name: Garden Huckleberry
+- slug: goji-berry
+  name: Goji Berry
+- slug: ground-cherry
+  name: Ground Cherry
+- slug: horse-nettle
+  name: Horse Nettle
+- slug: pepino-melon
+  name: Pepino Melon
+- slug: potato
+  name: Potato
+- slug: scarlet-eggplant
+  name: Scarlet Eggplant
+- slug: wild-eggplant
+  name: Wild Eggplant
+- slug: wonderberry
+  name: Wonderberry
+category: pest

@@ -1,44 +1,42 @@
----
-- name: Leek Moth
-  slug: leek-moth
-  picture: leek_moth.webp
-  scientific_name: Acrolepiopsis assectella
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, leek moth may already be on the
-    plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - skeletonized-leaves
-  control_methods:
-    biological_controls: >-
-      Parasitic wasps attack leek moth larvae inside leaves when sprays stay selective -- birds
-      pull larvae from exposed tips. Minute pirate bugs eat eggs before they hatch. If you
-      calendar pyrethrin weekly, you kill parasitoids while moths fly in from weedy edges.
-    preventive_methods: >-
-      Monitor allium crops from transplant -- look for window-pane feeding and frass in leaf
-      folds. Proper spacing helps sprays and predators reach inner leaves; sanitation matters more
-      than spacing alone. Flag fields with history; walk those rows first each spring.
-    cultural_practices: >-
-      Rotate alliums with non-host crops so pupae in soil meet something they cannot eat. Remove
-      crop debris promptly after harvest; larvae finish feeding in stalk bases. Destroy bolting
-      alliums that attract late flights. Avoid continuous allium blocks in the same pocket garden.
-    mechanical_physical: >-
-      Floating row covers on transplants block adults when edges seal -- remove when growth
-      demands or hand-pollinate seed crops. Hand-pick larvae into soapy water on small beds when
-      you catch mines early.
-    organic_sprays: >-
-      Bacillus thuringiensis kurstaki kills small larvae eating treated tissue -- add spreader and
-      hit inner leaf folds. Neem and insecticidal soap reduce feeding on exposed larvae. Spray
-      at dusk to spare bees on allium flowers if you let some bolt. Reapply after rain.
-  natural_enemies:
-  - Parasitic Wasps
-  - Insectivorous Birds
+name: Leek Moth
+slug: leek-moth
+picture: leek_moth.webp
+scientific_name: Acrolepiopsis assectella
+description: If new growth is curling, yellowing, sticky, or chewed, leek moth may
+  already be on the plant. This pest often builds quietly, then damage appears all
+  at once. Feeding stress weakens growth, reduces yield, and opens the door to secondary
+  disease. Early cleanup is much easier than fighting a full population surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- skeletonized-leaves
+control_methods:
+  biological_controls: Parasitic wasps attack leek moth larvae inside leaves when
+    sprays stay selective -- birds pull larvae from exposed tips. Minute pirate bugs
+    eat eggs before they hatch. If you calendar pyrethrin weekly, you kill parasitoids
+    while moths fly in from weedy edges.
+  preventive_methods: Monitor allium crops from transplant -- look for window-pane
+    feeding and frass in leaf folds. Proper spacing helps sprays and predators reach
+    inner leaves; sanitation matters more than spacing alone. Flag fields with history;
+    walk those rows first each spring.
+  cultural_practices: Rotate alliums with non-host crops so pupae in soil meet something
+    they cannot eat. Remove crop debris promptly after harvest; larvae finish feeding
+    in stalk bases. Destroy bolting alliums that attract late flights. Avoid continuous
+    allium blocks in the same pocket garden.
+  mechanical_physical: Floating row covers on transplants block adults when edges
+    seal -- remove when growth demands or hand-pollinate seed crops. Hand-pick larvae
+    into soapy water on small beds when you catch mines early.
+  organic_sprays: Bacillus thuringiensis kurstaki kills small larvae eating treated
+    tissue -- add spreader and hit inner leaf folds. Neem and insecticidal soap reduce
+    feeding on exposed larvae. Spray at dusk to spare bees on allium flowers if you
+    let some bolt. Reapply after rain.
+natural_enemies:
+- Parasitic Wasps
+- Insectivorous Birds
+category: pest

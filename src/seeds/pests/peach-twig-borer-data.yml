@@ -1,67 +1,58 @@
----
-- name: Peach Twig Borer
-  slug: peach-twig-borer
-  picture: peach_twig_borer.webp
-  scientific_name: Anarsia lineatella
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, peach twig borer may already be on
-    the plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - tunneling
-  - stem-damage
-  - wilting
-  - die-back
-  - bark-damage
-  control_methods:
-    biological_controls: >-
-      Trichogramma spp. egg parasitoids attack peach twig borer eggs — release
-      weekly during adult flight periods. Braconid and ichneumonid wasps
-      parasitize larvae inside shoots. Ants climbing trees disrupt parasitism
-      by protecting honeydew-producing pests that compete with parasitoids —
-      manage ant access with sticky trunk barriers. Support parasitoid wasps
-      with dill, fennel, and sweet alyssum at orchard edges. Diverse predatory
-      insect communities in orchards with minimal pesticide use suppress peach
-      twig borer populations naturally over seasons.
-    preventive_methods: >-
-      Peach twig borer overwinters as young larvae in bark crevices and hibernacula
-      on the trunk — these re causing wilted flagged shoot
-      tips, the most visible symptom. Later generations attack fruit near the
-      stem end. Pheromone traps establish biofix for degree-day spray timing.
-      Record first catch dates yearly — consistent biofix timing allows accurate
-      spray scheduling. Prune and destroy flagged shoot tips in spring before
-      larvae move to fruit.
-    cultural_practices: >-
-      Prune and destroy flagged shoot tips as soon as wilting is noticed — snap
-      off wilted tips 4-6 inches below the entry hole and bag for disposal.
-      Remove wild Prunus near orchards that harbor overwintering populations.
-      Thin fruit clusters to reduce protected pockets where larvae hide from
-      sprays and predators. Dormant season inspection and scraping of loose
-      bark removes overwintering hibernacula and significantly reduces spring
-      populations.
-    mechanical_physical: >-
-      Snap wilted flagged shoot tips well below the tunnel — larvae are still
-      inside and the removed shoot eliminates them. Feasible and highly effective
-      on backyard trees and small plots. Pheromone traps monitor adult flight
-      for spray timing. Dormant oil applied to all bark surfaces in late winter
-      smothers overwintering larvae in hibernacula — one of the most effective
-      and overlooked mechanical controls for peach twig borer.
-    organic_sprays: >-
-      Bt kurstaki or aizawai applied at egg hatch from degree-day models targets
-      young larvae on shoots before they tunnel in — must contact larvae before
-      entry. Spinosad follows stone-fruit spray labels and provides stronger
-      activity. Timing from pheromone trap biofix and degree-day models beats
-      any material choice — spraying at the right moment with a mediocre product
-      outperforms spraying at the wrong time with the best product. Apply at
-      dusk to minimize bee exposure.
-  natural_enemies:
-  - Trichogramma spp.
-  - Braconid Wasps
-  - Ichneumonid Wasps
-  - Lacewing larvae (Chrysopidae)
+name: Peach Twig Borer
+slug: peach-twig-borer
+picture: peach_twig_borer.webp
+scientific_name: Anarsia lineatella
+description: If new growth is curling, yellowing, sticky, or chewed, peach twig borer
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- tunneling
+- stem-damage
+- wilting
+- die-back
+- bark-damage
+control_methods:
+  biological_controls: Trichogramma spp. egg parasitoids attack peach twig borer eggs
+    — release weekly during adult flight periods. Braconid and ichneumonid wasps parasitize
+    larvae inside shoots. Ants climbing trees disrupt parasitism by protecting honeydew-producing
+    pests that compete with parasitoids — manage ant access with sticky trunk barriers.
+    Support parasitoid wasps with dill, fennel, and sweet alyssum at orchard edges.
+    Diverse predatory insect communities in orchards with minimal pesticide use suppress
+    peach twig borer populations naturally over seasons.
+  preventive_methods: Peach twig borer overwinters as young larvae in bark crevices
+    and hibernacula on the trunk — these re causing wilted flagged shoot tips, the
+    most visible symptom. Later generations attack fruit near the stem end. Pheromone
+    traps establish biofix for degree-day spray timing. Record first catch dates yearly
+    — consistent biofix timing allows accurate spray scheduling. Prune and destroy
+    flagged shoot tips in spring before larvae move to fruit.
+  cultural_practices: Prune and destroy flagged shoot tips as soon as wilting is noticed
+    — snap off wilted tips 4-6 inches below the entry hole and bag for disposal. Remove
+    wild Prunus near orchards that harbor overwintering populations. Thin fruit clusters
+    to reduce protected pockets where larvae hide from sprays and predators. Dormant
+    season inspection and scraping of loose bark removes overwintering hibernacula
+    and significantly reduces spring populations.
+  mechanical_physical: Snap wilted flagged shoot tips well below the tunnel — larvae
+    are still inside and the removed shoot eliminates them. Feasible and highly effective
+    on backyard trees and small plots. Pheromone traps monitor adult flight for spray
+    timing. Dormant oil applied to all bark surfaces in late winter smothers overwintering
+    larvae in hibernacula — one of the most effective and overlooked mechanical controls
+    for peach twig borer.
+  organic_sprays: Bt kurstaki or aizawai applied at egg hatch from degree-day models
+    targets young larvae on shoots before they tunnel in — must contact larvae before
+    entry. Spinosad follows stone-fruit spray labels and provides stronger activity.
+    Timing from pheromone trap biofix and degree-day models beats any material choice
+    — spraying at the right moment with a mediocre product outperforms spraying at
+    the wrong time with the best product. Apply at dusk to minimize bee exposure.
+natural_enemies:
+- Trichogramma spp.
+- Braconid Wasps
+- Ichneumonid Wasps
+- Lacewing larvae (Chrysopidae)
+category: pest

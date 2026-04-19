@@ -1,270 +1,263 @@
----
-- name: Banded Winged Whitefly
-  slug: banded-winged-whitefly
-  picture: whitefly.webp
-  scientific_name: Trialeurodes abutiloneus
-  description: >-
-    If leaves show trails, fruit turns soft, or roots collapse from inside, banded winged
-    whitefly may already be feeding. The larval stage does most of the damage, often hidden
-    where you cannot see it at first glance. By the time yellowing or rot appears, feeding may
-    be well underway. Move quickly when symptoms begin to prevent another wave of eggs and
-    larvae.
-  characteristics: >-
-    Watch for tiny eggs near plant tissue, pale legless larvae inside mines or fruit, and sudden
-    soft spots or tunnels. Adults are usually small flies that hover or dart when disturbed.
-    Check around wounds, blossoms, and moist plant debris where egg-laying is common. Cut open
-    suspect tissue: live maggots or fresh tunnels are the clearest field confirmation.
-  symptoms:
-  - sticky-residue
-  - yellowing-leaves
-  - curling-leaves
-  - sooty-deposits
-  control_methods:
-    biological_controls: >-
-      Encarsia and Eretmocerus parasitic wasps attack banded winged whitefly nymphs —
-      the same species used for greenhouse whitefly control. Support them with dill,
-      fennel, and sweet alyssum nearby. Lacewings, minute pirate bugs, and ladybug
-      larvae eat whitefly eggs and young nymphs. Preserve these beneficials by
-      avoiding broad-spectrum sprays and treating only hot spots rather than whole
-      plants. Beauveria bassiana fungal spray infects and kills nymphs in humid
-      conditions — effective complement to parasitoid releases.
-    preventive_methods: >-
-      Banded winged whitefly is primarily an outdoor pest that migrates from weedy
-      areas and alternate hosts along field edges. Mow weedy margins near the garden
-      to reduce local reservoirs. Yellow sticky cards at plant height are essential
-      monitoring tools — more than 10 adults per card per week signals a population
-      is building. Dusty plants along roads and paths attract whiteflies — leaf
-      dust interferes with natural enemy activity. Reflective mulch under susceptible
-      plants confuses adult whiteflies and reduces settling rates.
-    cultural_practices: >-
-      Remove heavily infested lower leaves and bag immediately — nymphs on removed
-      leaves will still develop into adults if composted. Avoid excess nitrogen
-      which produces the lush soft growth whiteflies prefer. Time new plantings to
-      avoid peak migration periods if patterns are known locally. Interplant basil
-      and strongly aromatic herbs near susceptible crops — volatile oils confuse
-      whitefly navigation.
-    mechanical_physical: >-
-      Yellow sticky cards at plant height trap large numbers of adults and serve
-      as early warning. High-pressure water jet dislodges adults and nymphs from
-      leaf undersides — repeat every 2-3 days during active infestation. A handheld
-      vacuum in early morning when adults are sluggish removes large numbers quickly.
-      Row covers before whitefly pressure builds prevent establishment entirely.
-    organic_sprays: >-
-      Insecticidal soap (1-2 teaspoons castile soap per quart water) kills nymphs
-      on contact — saturate leaf undersides where they cluster. Apply every 3 days
-      for 2 weeks. Neem oil disrupts development and reduces egg-laying — mix
-      1 tablespoon neem plus 1 quart warm water, weekly.
-      Apply sprays at dusk to protect beneficial insects. Rotate between soap and
-      neem to prevent resistance. Never spray open flowers.
-  natural_enemies:
-  - Encarsia spp.
-  - Eretmocerus spp.
-  - Green lacewings
-  - Minute pirate bugs
-  affected_plants:
-  - slug: baobab
-    name: Baobab
-  - slug: cacao
-    name: Cacao
-  - slug: caesarweed
-    name: Caesarweed
-  - slug: cranberry-hibiscus
-    name: Cranberry Hibiscus
-  - slug: cupuacu
-    name: Cupuacu
-  - slug: edible-hibiscus
-    name: Edible Hibiscus
-  - slug: egyptian-spinach
-    name: Egyptian Spinach
-  - slug: indian-mallow
-    name: Indian Mallow
-  - slug: jute
-    name: Jute
-  - slug: kapok-tree
-    name: Kapok Tree
-  - slug: kenaf
-    name: Kenaf
-  - slug: malabar-chestnut
-    name: Malabar Chestnut
-  - slug: marsh-hibiscus
-    name: Marsh Hibiscus
-  - slug: marsh-mallow
-    name: Marsh Mallow
-  - slug: money-tree
-    name: Money Tree
-  - slug: peanut-tree
-    name: Peanut Tree
-  - slug: roselle
-    name: Roselle
-  - slug: roselle-hibiscus
-    name: Roselle Hibiscus
-  - slug: shaving-brush-tree
-    name: Shaving Brush Tree
-  - slug: sida
-    name: Sida
-  - slug: sunset-muskmallow
-    name: Sunset Muskmallow
-  - slug: velvetleaf
-    name: Velvetleaf
-  - slug: arrowleaf-balsamroot
-    name: Arrowleaf Balsamroot
-  - slug: artemisia
-    name: Artemisia
-  - slug: black-eyed-susan
-    name: Black-eyed Susan
-  - slug: blanket-flower
-    name: Blanket Flower
-  - slug: boneset
-    name: Boneset
-  - slug: burdock
-    name: Burdock
-  - slug: calendula
-    name: Calendula
-  - slug: camphor-weed
-    name: Camphor Weed
-  - slug: celtuce
-    name: Celtuce
-  - slug: chamomile
-    name: Chamomile
-  - slug: chicory
-    name: Chicory
-  - slug: clasping-coneflower
-    name: Clasping Coneflower
-  - slug: climbing-aster
-    name: Climbing Aster
-  - slug: coastalplain-honeycombhead
-    name: Coastalplain Honeycombhead
-  - slug: coreopsis
-    name: Coreopsis
-  - slug: costmary
-    name: Costmary
-  - slug: dandelion
-    name: Dandelion
-  - slug: dense-blazingstar
-    name: Dense Blazingstar
-  - slug: desert-marigold
-    name: Desert Marigold
-  - slug: dogfennel
-    name: Dogfennel
-  - slug: eastern-blazingstar
-    name: Eastern Blazingstar
-  - slug: echinacea
-    name: Echinacea
-  - slug: elecampane
-    name: Elecampane
-  - slug: elephantopus
-    name: Elephantopus
-  - slug: fever-few
-    name: Fever Few
-  - slug: florida-paintbrush
-    name: Florida Paintbrush
-  - slug: florida-tasselflower
-    name: Florida Tasselflower
-  - slug: globe-thistle
-    name: Globe Thistle
-  - slug: goldenmane-tickseed
-    name: Goldenmane Tickseed
-  - slug: gravel-root
-    name: Gravel Root
-  - slug: green-and-gold
-    name: Green and Gold
-  - slug: green-headed-coneflower
-    name: Green Headed Coneflower
-  - slug: groundsel-tree
-    name: Groundsel Tree
-  - slug: guayule
-    name: Guayule
-  - slug: gynura
-    name: Gynura
-  - slug: hairy-beggarsticks
-    name: Hairy Beggarsticks
-  - slug: huacatay
-    name: Huacatay
-  - slug: iceberg-lettuce
-    name: Iceberg Lettuce
-  - slug: jerusalem-artichoke
-    name: Jerusalem Artichoke
-  - slug: joe-pye-weed
-    name: Joe Pye Weed
-  - slug: lanceleaf-coreopsis
-    name: Lanceleaf Coreopsis
-  - slug: leavenworths-tickseed
-    name: Leavenworth's Tickseed
-  - slug: longevity-spinach
-    name: Longevity Spinach
-  - slug: marigold
-    name: Marigold
-  - slug: marsh-blazingstar
-    name: Marsh Blazingstar
-  - slug: mexican-tarragon
-    name: Mexican Tarragon
-  - slug: mugwort
-    name: Mugwort
-  - slug: narrowleaf-sunflower
-    name: Narrowleaf Sunflower
-  - slug: okinawa-spinach
-    name: Okinawa Spinach
-  - slug: orange-coneflower
-    name: Orange Coneflower
-  - slug: pale-purple-coneflower
-    name: Pale Purple Coneflower
-  - slug: prairie-blazingstar
-    name: Prairie Blazingstar
-  - slug: prairie-coneflower
-    name: Prairie Coneflower
-  - slug: rough-blazingstar
-    name: Rough Blazingstar
-  - slug: saltmarsh-aster
-    name: Saltmarsh Aster
-  - slug: sea-oxeye-daisy
-    name: Sea Oxeye Daisy
-  - slug: shining-coneflower
-    name: Shining Coneflower
-  - slug: singapore-daisy
-    name: Singapore Daisy
-  - slug: spanish-needles
-    name: Spanish Needles
-  - slug: spilanthes
-    name: Spilanthes
-  - slug: sunchoke
-    name: Sunchoke
-  - slug: sunflower
-    name: Sunflower
-  - slug: swamp-sunflower
-    name: Swamp Sunflower
-  - slug: sweet-black-eyed-susan
-    name: Sweet Black Eyed Susan
-  - slug: sweet-coltsfoot
-    name: Sweet Coltsfoot
-  - slug: sweet-leaf
-    name: Sweet Leaf
-  - slug: tansy
-    name: Tansy
-  - slug: tarragon
-    name: Tarragon
-  - slug: thin-leaved-coneflower
-    name: Thin-leaved Coneflower
-  - slug: tickseed-coreopsis
-    name: Tickseed Coreopsis
-  - slug: tickseed-sunflower
-    name: Tickseed Sunflower
-  - slug: tithonia
-    name: Tithonia
-  - slug: toothache-plant
-    name: Toothache Plant
-  - slug: topinambur
-    name: Topinambur
-  - slug: wild-tarragon
-    name: Wild Tarragon
-  - slug: woodland-sunflower
-    name: Woodland Sunflower
-  - slug: wormwood
-    name: Wormwood
-  - slug: yacon
-    name: Yacon
-  - slug: yam-daisy
-    name: Yam Daisy
-  - slug: yarrow
-    name: Yarrow
-  - slug: yellow-coneflower
-    name: Yellow Coneflower
+name: Banded Winged Whitefly
+slug: banded-winged-whitefly
+picture: whitefly.webp
+scientific_name: Trialeurodes abutiloneus
+description: If leaves show trails, fruit turns soft, or roots collapse from inside,
+  banded winged whitefly may already be feeding. The larval stage does most of the
+  damage, often hidden where you cannot see it at first glance. By the time yellowing
+  or rot appears, feeding may be well underway. Move quickly when symptoms begin to
+  prevent another wave of eggs and larvae.
+characteristics: 'Watch for tiny eggs near plant tissue, pale legless larvae inside
+  mines or fruit, and sudden soft spots or tunnels. Adults are usually small flies
+  that hover or dart when disturbed. Check around wounds, blossoms, and moist plant
+  debris where egg-laying is common. Cut open suspect tissue: live maggots or fresh
+  tunnels are the clearest field confirmation.'
+symptoms:
+- sticky-residue
+- yellowing-leaves
+- curling-leaves
+- sooty-deposits
+control_methods:
+  biological_controls: Encarsia and Eretmocerus parasitic wasps attack banded winged
+    whitefly nymphs — the same species used for greenhouse whitefly control. Support
+    them with dill, fennel, and sweet alyssum nearby. Lacewings, minute pirate bugs,
+    and ladybug larvae eat whitefly eggs and young nymphs. Preserve these beneficials
+    by avoiding broad-spectrum sprays and treating only hot spots rather than whole
+    plants. Beauveria bassiana fungal spray infects and kills nymphs in humid conditions
+    — effective complement to parasitoid releases.
+  preventive_methods: Banded winged whitefly is primarily an outdoor pest that migrates
+    from weedy areas and alternate hosts along field edges. Mow weedy margins near
+    the garden to reduce local reservoirs. Yellow sticky cards at plant height are
+    essential monitoring tools — more than 10 adults per card per week signals a population
+    is building. Dusty plants along roads and paths attract whiteflies — leaf dust
+    interferes with natural enemy activity. Reflective mulch under susceptible plants
+    confuses adult whiteflies and reduces settling rates.
+  cultural_practices: Remove heavily infested lower leaves and bag immediately — nymphs
+    on removed leaves will still develop into adults if composted. Avoid excess nitrogen
+    which produces the lush soft growth whiteflies prefer. Time new plantings to avoid
+    peak migration periods if patterns are known locally. Interplant basil and strongly
+    aromatic herbs near susceptible crops — volatile oils confuse whitefly navigation.
+  mechanical_physical: Yellow sticky cards at plant height trap large numbers of adults
+    and serve as early warning. High-pressure water jet dislodges adults and nymphs
+    from leaf undersides — repeat every 2-3 days during active infestation. A handheld
+    vacuum in early morning when adults are sluggish removes large numbers quickly.
+    Row covers before whitefly pressure builds prevent establishment entirely.
+  organic_sprays: Insecticidal soap (1-2 teaspoons castile soap per quart water) kills
+    nymphs on contact — saturate leaf undersides where they cluster. Apply every 3
+    days for 2 weeks. Neem oil disrupts development and reduces egg-laying — mix 1
+    tablespoon neem plus 1 quart warm water, weekly. Apply sprays at dusk to protect
+    beneficial insects. Rotate between soap and neem to prevent resistance. Never
+    spray open flowers.
+natural_enemies:
+- Encarsia spp.
+- Eretmocerus spp.
+- Green lacewings
+- Minute pirate bugs
+affected_plants:
+- slug: baobab
+  name: Baobab
+- slug: cacao
+  name: Cacao
+- slug: caesarweed
+  name: Caesarweed
+- slug: cranberry-hibiscus
+  name: Cranberry Hibiscus
+- slug: cupuacu
+  name: Cupuacu
+- slug: edible-hibiscus
+  name: Edible Hibiscus
+- slug: egyptian-spinach
+  name: Egyptian Spinach
+- slug: indian-mallow
+  name: Indian Mallow
+- slug: jute
+  name: Jute
+- slug: kapok-tree
+  name: Kapok Tree
+- slug: kenaf
+  name: Kenaf
+- slug: malabar-chestnut
+  name: Malabar Chestnut
+- slug: marsh-hibiscus
+  name: Marsh Hibiscus
+- slug: marsh-mallow
+  name: Marsh Mallow
+- slug: money-tree
+  name: Money Tree
+- slug: peanut-tree
+  name: Peanut Tree
+- slug: roselle
+  name: Roselle
+- slug: roselle-hibiscus
+  name: Roselle Hibiscus
+- slug: shaving-brush-tree
+  name: Shaving Brush Tree
+- slug: sida
+  name: Sida
+- slug: sunset-muskmallow
+  name: Sunset Muskmallow
+- slug: velvetleaf
+  name: Velvetleaf
+- slug: arrowleaf-balsamroot
+  name: Arrowleaf Balsamroot
+- slug: artemisia
+  name: Artemisia
+- slug: black-eyed-susan
+  name: Black-eyed Susan
+- slug: blanket-flower
+  name: Blanket Flower
+- slug: boneset
+  name: Boneset
+- slug: burdock
+  name: Burdock
+- slug: calendula
+  name: Calendula
+- slug: camphor-weed
+  name: Camphor Weed
+- slug: celtuce
+  name: Celtuce
+- slug: chamomile
+  name: Chamomile
+- slug: chicory
+  name: Chicory
+- slug: clasping-coneflower
+  name: Clasping Coneflower
+- slug: climbing-aster
+  name: Climbing Aster
+- slug: coastalplain-honeycombhead
+  name: Coastalplain Honeycombhead
+- slug: coreopsis
+  name: Coreopsis
+- slug: costmary
+  name: Costmary
+- slug: dandelion
+  name: Dandelion
+- slug: dense-blazingstar
+  name: Dense Blazingstar
+- slug: desert-marigold
+  name: Desert Marigold
+- slug: dogfennel
+  name: Dogfennel
+- slug: eastern-blazingstar
+  name: Eastern Blazingstar
+- slug: echinacea
+  name: Echinacea
+- slug: elecampane
+  name: Elecampane
+- slug: elephantopus
+  name: Elephantopus
+- slug: fever-few
+  name: Fever Few
+- slug: florida-paintbrush
+  name: Florida Paintbrush
+- slug: florida-tasselflower
+  name: Florida Tasselflower
+- slug: globe-thistle
+  name: Globe Thistle
+- slug: goldenmane-tickseed
+  name: Goldenmane Tickseed
+- slug: gravel-root
+  name: Gravel Root
+- slug: green-and-gold
+  name: Green and Gold
+- slug: green-headed-coneflower
+  name: Green Headed Coneflower
+- slug: groundsel-tree
+  name: Groundsel Tree
+- slug: guayule
+  name: Guayule
+- slug: gynura
+  name: Gynura
+- slug: hairy-beggarsticks
+  name: Hairy Beggarsticks
+- slug: huacatay
+  name: Huacatay
+- slug: iceberg-lettuce
+  name: Iceberg Lettuce
+- slug: jerusalem-artichoke
+  name: Jerusalem Artichoke
+- slug: joe-pye-weed
+  name: Joe Pye Weed
+- slug: lanceleaf-coreopsis
+  name: Lanceleaf Coreopsis
+- slug: leavenworths-tickseed
+  name: Leavenworth's Tickseed
+- slug: longevity-spinach
+  name: Longevity Spinach
+- slug: marigold
+  name: Marigold
+- slug: marsh-blazingstar
+  name: Marsh Blazingstar
+- slug: mexican-tarragon
+  name: Mexican Tarragon
+- slug: mugwort
+  name: Mugwort
+- slug: narrowleaf-sunflower
+  name: Narrowleaf Sunflower
+- slug: okinawa-spinach
+  name: Okinawa Spinach
+- slug: orange-coneflower
+  name: Orange Coneflower
+- slug: pale-purple-coneflower
+  name: Pale Purple Coneflower
+- slug: prairie-blazingstar
+  name: Prairie Blazingstar
+- slug: prairie-coneflower
+  name: Prairie Coneflower
+- slug: rough-blazingstar
+  name: Rough Blazingstar
+- slug: saltmarsh-aster
+  name: Saltmarsh Aster
+- slug: sea-oxeye-daisy
+  name: Sea Oxeye Daisy
+- slug: shining-coneflower
+  name: Shining Coneflower
+- slug: singapore-daisy
+  name: Singapore Daisy
+- slug: spanish-needles
+  name: Spanish Needles
+- slug: spilanthes
+  name: Spilanthes
+- slug: sunchoke
+  name: Sunchoke
+- slug: sunflower
+  name: Sunflower
+- slug: swamp-sunflower
+  name: Swamp Sunflower
+- slug: sweet-black-eyed-susan
+  name: Sweet Black Eyed Susan
+- slug: sweet-coltsfoot
+  name: Sweet Coltsfoot
+- slug: sweet-leaf
+  name: Sweet Leaf
+- slug: tansy
+  name: Tansy
+- slug: tarragon
+  name: Tarragon
+- slug: thin-leaved-coneflower
+  name: Thin-leaved Coneflower
+- slug: tickseed-coreopsis
+  name: Tickseed Coreopsis
+- slug: tickseed-sunflower
+  name: Tickseed Sunflower
+- slug: tithonia
+  name: Tithonia
+- slug: toothache-plant
+  name: Toothache Plant
+- slug: topinambur
+  name: Topinambur
+- slug: wild-tarragon
+  name: Wild Tarragon
+- slug: woodland-sunflower
+  name: Woodland Sunflower
+- slug: wormwood
+  name: Wormwood
+- slug: yacon
+  name: Yacon
+- slug: yam-daisy
+  name: Yam Daisy
+- slug: yarrow
+  name: Yarrow
+- slug: yellow-coneflower
+  name: Yellow Coneflower
+category: pest

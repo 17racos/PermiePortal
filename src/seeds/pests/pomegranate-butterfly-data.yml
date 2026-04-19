@@ -1,54 +1,50 @@
----
-- name: Pomegranate Butterfly
-  slug: pomegranate-butterfly
-  picture: pomegranate_butterfly.webp
-  scientific_name: Hypolimnas bolina
-  description: >-
-    If leaves show trails, fruit turns soft, or roots collapse from inside, pomegranate
-    butterfly may already be feeding. The larval stage does most of the damage, often hidden
-    where you cannot see it at first glance. By the time yellowing or rot appears, feeding may
-    be well underway. Move quickly when symptoms begin to prevent another wave of eggs and
-    larvae.
-  characteristics: >-
-    Watch for tiny eggs near plant tissue, pale legless larvae inside mines or fruit, and sudden
-    soft spots or tunnels. Adults are usually small flies that hover or dart when disturbed.
-    Check around wounds, blossoms, and moist plant debris where egg-laying is common. Cut open
-    suspect tissue: live maggots or fresh tunnels are the clearest field confirmation.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - skeletonized-leaves
-  control_methods:
-    biological_controls: >-
-      Parasitic wasps attack caterpillar eggs and larvae on pomegranate leaves when diverse
-      habitat exists nearby -- skip pyrethrin during early egg waves or you kill the wasps first.
-      Birds and assassin bugs pick off larger larvae on outer branches. Spiders snag adults at
-      dusk. These predators help backyard trees more than monoculture blocks sprayed weekly.
-    preventive_methods: >-
-      Hypolimnas bolina adults lay eggs on tender leaves and fruit -- scout weekly from flush
-      through fruit set for egg clusters and fresh chew marks. Flag trees that
-      showed caterpillars last year; walk those canopies first. Quarantine new nursery trees
-      before they join the row.
-    cultural_practices: >-
-      Remove and bag heavily infested leaves and fruit when numbers are still local -- do not
-      drop them under the canopy. You cannot rotate a pomegranate orchard like a vegetable bed;
-      focus on sanitation and canopy openness. Avoid nitrogen waterfalls that push endless soft
-      flushes; each flush is new egg-lay surface.
-    mechanical_physical: >-
-      Row covers on dwarf pomegranates block egg-laying adults when frames seal -- remove during
-      bloom for pollination or hand-pollinate a few flowers. Hand-pick larvae into soapy water on
-      small trees; clip whole twigs with clusters if needed. Fine mesh fruit sleeves exclude
-      larvae on high-value fruit if labor allows.
-    organic_sprays: >-
-      Bacillus thuringiensis kurstaki works on small caterpillars eating treated leaf -- spray
-      before larvae bore into fruit. Neem and insecticidal soap reduce feeding on exposed larvae;
-      coverage must hit undersides. Spray at dusk to spare bees on open pomegranate blooms. Reapply
-      after rain; Bt washes off quickly.
-  natural_enemies:
-  - Parasitic Wasps
-  - Birds
-  - Predatory Insects
-  affected_plants:
-  - slug: pomegranate-tree
-    name: Pomegranate Tree
+name: Pomegranate Butterfly
+slug: pomegranate-butterfly
+picture: pomegranate_butterfly.webp
+scientific_name: Hypolimnas bolina
+description: If leaves show trails, fruit turns soft, or roots collapse from inside,
+  pomegranate butterfly may already be feeding. The larval stage does most of the
+  damage, often hidden where you cannot see it at first glance. By the time yellowing
+  or rot appears, feeding may be well underway. Move quickly when symptoms begin to
+  prevent another wave of eggs and larvae.
+characteristics: 'Watch for tiny eggs near plant tissue, pale legless larvae inside
+  mines or fruit, and sudden soft spots or tunnels. Adults are usually small flies
+  that hover or dart when disturbed. Check around wounds, blossoms, and moist plant
+  debris where egg-laying is common. Cut open suspect tissue: live maggots or fresh
+  tunnels are the clearest field confirmation.'
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- skeletonized-leaves
+control_methods:
+  biological_controls: Parasitic wasps attack caterpillar eggs and larvae on pomegranate
+    leaves when diverse habitat exists nearby -- skip pyrethrin during early egg waves
+    or you kill the wasps first. Birds and assassin bugs pick off larger larvae on
+    outer branches. Spiders snag adults at dusk. These predators help backyard trees
+    more than monoculture blocks sprayed weekly.
+  preventive_methods: Hypolimnas bolina adults lay eggs on tender leaves and fruit
+    -- scout weekly from flush through fruit set for egg clusters and fresh chew marks.
+    Flag trees that showed caterpillars last year; walk those canopies first. Quarantine
+    new nursery trees before they join the row.
+  cultural_practices: Remove and bag heavily infested leaves and fruit when numbers
+    are still local -- do not drop them under the canopy. You cannot rotate a pomegranate
+    orchard like a vegetable bed; focus on sanitation and canopy openness. Avoid nitrogen
+    waterfalls that push endless soft flushes; each flush is new egg-lay surface.
+  mechanical_physical: Row covers on dwarf pomegranates block egg-laying adults when
+    frames seal -- remove during bloom for pollination or hand-pollinate a few flowers.
+    Hand-pick larvae into soapy water on small trees; clip whole twigs with clusters
+    if needed. Fine mesh fruit sleeves exclude larvae on high-value fruit if labor
+    allows.
+  organic_sprays: Bacillus thuringiensis kurstaki works on small caterpillars eating
+    treated leaf -- spray before larvae bore into fruit. Neem and insecticidal soap
+    reduce feeding on exposed larvae; coverage must hit undersides. Spray at dusk
+    to spare bees on open pomegranate blooms. Reapply after rain; Bt washes off quickly.
+natural_enemies:
+- Parasitic Wasps
+- Birds
+- Predatory Insects
+affected_plants:
+- slug: pomegranate-tree
+  name: Pomegranate Tree
+category: pest

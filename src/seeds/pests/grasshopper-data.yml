@@ -1,64 +1,58 @@
----
-- name: Grasshopper
-  slug: grasshopper
-  picture: grasshopper.webp
-  scientific_name: Acrididae
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, grasshopper may already be on the
-    plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - holes-in-leaves
-  - skeletonized-leaves
-  - chewed-stems
-  - fruit-damage
-  control_methods:
-    biological_controls: >-
-      Nosema locustae is a naturally occurring protozoan parasite of grasshoppers
-      available as a biological bait (Semaspore, Nolo Bait) -- young hoppers that
-      eat treated bran become infected and die within weeks, and the pathogen spreads
-      through the population as infected hoppers are eaten by others. Apply in spring
-      when nymphs are young and small for best results. Blister beetle larvae eat
-      grasshopper egg pods in soil -- leave areas of bare compacted soil undisturbed
-      where blister beetles lay eggs. Robber flies, ground beetles, spiders, and birds
-      consume grasshoppers in diverse landscapes.
-    preventive_methods: >-
-      Grasshoppers lay eggs in dry undisturbed soil in late summer -- roadsides,
-      field margins, and weedy areas are primary egg-laying sites. Scout ditches and
-      roadsides for nymph bands in late spring before adults can fly. Nymphs are
-      wingless and localized -- a nymph band in one spot is far easier to manage
-      than dispersed flying adults. Tillage of egg-laying areas in fall and early
-      spring exposes egg pods to birds and desiccation. Row covers on seedlings provide
-      complete protection during peak grasshopper pressure.
-    cultural_practices: >-
-      Mow fallow strips and field margins to reduce the rank grass grasshoppers prefer
-      for egg-laying and early feeding. Trap crops of lush cereal grains or sunflowers
-      at field edges pull grasshoppers away from vegetables -- destroy or vacuum trap
-      crops when hoppers concentrate. Diverse plantings dilute grasshopper pressure
-      compared to monocultures of preferred hosts. Maintain irrigation -- healthy
-      plants tolerate grasshopper feeding better than stressed ones.
-    mechanical_physical: >-
-      Row covers provide complete protection for seedlings during peak grasshopper
-      flights -- the most reliable mechanical control. A handheld vacuum or net
-      captures adults and nymphs on small garden plantings -- mostly effective as
-      a satisfaction activity at garden scale. Barrier strips of tall dense plants
-      at garden edges slow adult movement into beds.
-    organic_sprays: >-
-      Nosema locustae bran bait scattered where nymphs are feeding is the most
-      ecologically sound option -- apply in spring when hoppers are young and
-      susceptible, effectiveness builds over weeks as the pathogen spreads. Beauveria
-      bassiana bran bait kills grasshoppers on contact and spreads through populations.
-      Neem oil (azadirachtin) disrupts hopper molting and reduces feeding on treated
-      plants. Pyrethrin provides quick knockdown but degrades in hours and harms all
-      insects -- last resort only at dusk for overwhelming infestations on high-value
-      crops.
-  natural_enemies:
-  - Robber Flies
-  - Ground Beetles
-  - Spiders
+name: Grasshopper
+slug: grasshopper
+picture: grasshopper.webp
+scientific_name: Acrididae
+description: If new growth is curling, yellowing, sticky, or chewed, grasshopper may
+  already be on the plant. This pest often builds quietly, then damage appears all
+  at once. Feeding stress weakens growth, reduces yield, and opens the door to secondary
+  disease. Early cleanup is much easier than fighting a full population surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- holes-in-leaves
+- skeletonized-leaves
+- chewed-stems
+- fruit-damage
+control_methods:
+  biological_controls: Nosema locustae is a naturally occurring protozoan parasite
+    of grasshoppers available as a biological bait (Semaspore, Nolo Bait) -- young
+    hoppers that eat treated bran become infected and die within weeks, and the pathogen
+    spreads through the population as infected hoppers are eaten by others. Apply
+    in spring when nymphs are young and small for best results. Blister beetle larvae
+    eat grasshopper egg pods in soil -- leave areas of bare compacted soil undisturbed
+    where blister beetles lay eggs. Robber flies, ground beetles, spiders, and birds
+    consume grasshoppers in diverse landscapes.
+  preventive_methods: Grasshoppers lay eggs in dry undisturbed soil in late summer
+    -- roadsides, field margins, and weedy areas are primary egg-laying sites. Scout
+    ditches and roadsides for nymph bands in late spring before adults can fly. Nymphs
+    are wingless and localized -- a nymph band in one spot is far easier to manage
+    than dispersed flying adults. Tillage of egg-laying areas in fall and early spring
+    exposes egg pods to birds and desiccation. Row covers on seedlings provide complete
+    protection during peak grasshopper pressure.
+  cultural_practices: Mow fallow strips and field margins to reduce the rank grass
+    grasshoppers prefer for egg-laying and early feeding. Trap crops of lush cereal
+    grains or sunflowers at field edges pull grasshoppers away from vegetables --
+    destroy or vacuum trap crops when hoppers concentrate. Diverse plantings dilute
+    grasshopper pressure compared to monocultures of preferred hosts. Maintain irrigation
+    -- healthy plants tolerate grasshopper feeding better than stressed ones.
+  mechanical_physical: Row covers provide complete protection for seedlings during
+    peak grasshopper flights -- the most reliable mechanical control. A handheld vacuum
+    or net captures adults and nymphs on small garden plantings -- mostly effective
+    as a satisfaction activity at garden scale. Barrier strips of tall dense plants
+    at garden edges slow adult movement into beds.
+  organic_sprays: Nosema locustae bran bait scattered where nymphs are feeding is
+    the most ecologically sound option -- apply in spring when hoppers are young and
+    susceptible, effectiveness builds over weeks as the pathogen spreads. Beauveria
+    bassiana bran bait kills grasshoppers on contact and spreads through populations.
+    Neem oil (azadirachtin) disrupts hopper molting and reduces feeding on treated
+    plants. Pyrethrin provides quick knockdown but degrades in hours and harms all
+    insects -- last resort only at dusk for overwhelming infestations on high-value
+    crops.
+natural_enemies:
+- Robber Flies
+- Ground Beetles
+- Spiders
+category: pest

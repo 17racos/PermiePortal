@@ -1,46 +1,47 @@
-- name: "Russet mites"
-  slug: "russet-mites"
-  picture: "russet_mites.webp"
-  scientific_name: "Eriophyidae (Aculops, Phyllocoptes, and related genera)"
-  description: >-
-    Russet mites are microscopic eriophyids that rasp epidermal cells, causing bronze or russeted leaves, stem corking,
-    and reduced photosynthesis on tomatoes, peppers, cannabis, citrus, and many other hosts. They hide along leaf midribs
-    and meristems where sprays miss. Hot dry weather speeds reproduction. Damage is often blamed on thrips or disease
-    until a lens or lab confirms mites.
-  characteristics: >-
-    Use at least 15x magnification and side lighting -- mites are elongate and yellow compared with round spider mites.
-    Look for folding or brittleness at growing points. Sticky cards rarely catch them well -- scout tissue directly.
-    Compare with broad mite damage which can look similar on some hosts but differs in microhabitat preference.
-  symptoms:
-  - silvery-streaking
-  - distorted-growth
-  - yellowing-leaves
-  - wilting
-  - webbing
-  control_methods:
-    biological_controls: >-
-      Amblyseius and Neoseiulus predatory mites consume eriophyids when humidity allows establishment in greenhouses.
-      Typhlodromalus pyri occurs on perennial hosts in orchards. Avoid incompatible sprays that kill predators while russet
-      mites rebound faster. Banker plants with grain mites support some predator systems in professional houses.
-    preventive_methods: >-
-      Quarantine new seedlings and inspect meristems under magnification. Screen vents with fine mesh where feasible.
-      Avoid carrying mites on clothing between infested and clean bays. Reduce dust that interferes with predator movement.
-    cultural_practices: >-
-      Remove and bag the most damaged terminal growth on small plants to lower starting population -- do not compost.
-      Lower nitrogen slightly if growth is ultra-succulent during outbreaks. Increase humidity briefly in greenhouses only
-      when disease risk from humidity is acceptable for your crop mix.
-    mechanical_physical: >-
-      High-pressure water rinse dislodges some mites from sturdy tomato plants when done daily for several days. For
-      houseplants, isolate and prune. Replace grossly infested mother stock in propagation instead of fighting forever.
-    organic_sprays: >-
-      Sulfur is effective on many eriophyids when temperatures stay below label maxima -- never combine sulfur with oil
-      within the label window. Horticultural oils at summer rates help on some hosts when coverage reaches folded leaves.
-      Neem and soap have mixed efficacy -- rotate and time applications before populations peak at meristems.
-  natural_enemies:
-  - Predatory Mites
-  - Minute Pirate Bugs
-  - Lacewings
-  affected_plants: []
-  # Image attribution: No image found
-  # Image source: none
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+name: Russet mites
+slug: russet-mites
+picture: russet_mites.webp
+scientific_name: Eriophyidae (Aculops, Phyllocoptes, and related genera)
+description: Russet mites are microscopic eriophyids that rasp epidermal cells, causing
+  bronze or russeted leaves, stem corking, and reduced photosynthesis on tomatoes,
+  peppers, cannabis, citrus, and many other hosts. They hide along leaf midribs and
+  meristems where sprays miss. Hot dry weather speeds reproduction. Damage is often
+  blamed on thrips or disease until a lens or lab confirms mites.
+characteristics: Use at least 15x magnification and side lighting -- mites are elongate
+  and yellow compared with round spider mites. Look for folding or brittleness at
+  growing points. Sticky cards rarely catch them well -- scout tissue directly. Compare
+  with broad mite damage which can look similar on some hosts but differs in microhabitat
+  preference.
+symptoms:
+- silvery-streaking
+- distorted-growth
+- yellowing-leaves
+- wilting
+- webbing
+control_methods:
+  biological_controls: Amblyseius and Neoseiulus predatory mites consume eriophyids
+    when humidity allows establishment in greenhouses. Typhlodromalus pyri occurs
+    on perennial hosts in orchards. Avoid incompatible sprays that kill predators
+    while russet mites rebound faster. Banker plants with grain mites support some
+    predator systems in professional houses.
+  preventive_methods: Quarantine new seedlings and inspect meristems under magnification.
+    Screen vents with fine mesh where feasible. Avoid carrying mites on clothing between
+    infested and clean bays. Reduce dust that interferes with predator movement.
+  cultural_practices: Remove and bag the most damaged terminal growth on small plants
+    to lower starting population -- do not compost. Lower nitrogen slightly if growth
+    is ultra-succulent during outbreaks. Increase humidity briefly in greenhouses
+    only when disease risk from humidity is acceptable for your crop mix.
+  mechanical_physical: High-pressure water rinse dislodges some mites from sturdy
+    tomato plants when done daily for several days. For houseplants, isolate and prune.
+    Replace grossly infested mother stock in propagation instead of fighting forever.
+  organic_sprays: Sulfur is effective on many eriophyids when temperatures stay below
+    label maxima -- never combine sulfur with oil within the label window. Horticultural
+    oils at summer rates help on some hosts when coverage reaches folded leaves. Neem
+    and soap have mixed efficacy -- rotate and time applications before populations
+    peak at meristems.
+natural_enemies:
+- Predatory Mites
+- Minute Pirate Bugs
+- Lacewings
+affected_plants: []
+category: pest

@@ -1,246 +1,245 @@
----
-- name: Bean Weevil
-  slug: bean-weevil
-  picture: bean_weevil.webp
-  scientific_name: Acanthoscelides obtectus
-  description: >-
-    If plants are wilting, notching at the edges, or fruit and roots show hidden feeding damage,
-    bean weevil may be the cause. Adults chew above ground while larvae often feed out of sight
-    inside soil, stems, or fruit. Damage builds quietly, then plants crash fast when roots are
-    heavily hit. Act early so a small weevil problem does not become a season-long infestation.
-  characteristics: >-
-    Look for small beetles with a hard body and a distinct snout, usually active at dawn, dusk,
-    or night. Check for crescent-shaped leaf notches, punctures in fruit, or tiny entry holes
-    near stems. In soil or damaged tissue, larvae are often pale, legless, and curved in a
-    C-shape. Fresh chew marks plus snout beetles or C-shaped grubs confirm active weevil
-    pressure.
-  symptoms:
-  - chewed-stems
-  - stem-damage
-  - fruit-damage
-  - holes-in-leaves
-  - root-damage
-  control_methods:
-    biological_controls: >-
-      Tiny parasitic wasps in the families Pteromalidae and Braconidae sometimes find larvae and
-      pupae inside stored seed, especially in warm, humid climates where the wasps stay active
-      year-round. They are not something you can reliably mail-order for a pantry, but they show
-      up when beans sit slightly too warm with enough moisture -- leave a window for that biology
-      before you assume every hole is a failure. Outdoors, generalist predators matter less than
-      indoors because the real damage is usually in the jar. If you open a bin and see wasp
-      exit holes smaller than the weevil's, that is biocontrol leaving evidence. Keep storage
-      cool so you favor wasps over weevil speed, or use cold to stop both.
-    preventive_methods: >-
-      Bean weevil often rides home in dirty seed or last year's beans mixed into new -- inspect
-      every batch and freeze suspect lots before they touch clean stock. Adults are short-lived
-      beetles that lay eggs on beans in storage, not on green pods, so the prevention story is
-      harvest hygiene and clean containers. Rotate field plots so overwintering adults near old
-      bean debris do not step straight into the next legume row. Vacuum shelves, sweep bins, and
-      sun-dry empty jars before refilling. One gravid female in a sealed jar can rebuild a full
-      infestation in a few weeks -- treat a dusty bin like a biohazard for beans.
-    cultural_practices: >-
-      Harvest dry beans at full maturity but before pods shatter and scatter infested seed across
-      the soil. Winnow outdoors, screen out fines, and discard anything that looks bored or
-      dusty. Never pour new beans into a bin that still holds old beans or fine fragments --
-      webbing hides eggs. For long storage, freeze dry beans at 0°F (-18°C) for at least seven
-      days to kill all stages inside the seed. After freezing, store in glass or metal with tight
-      lids, not porous sacks. Label dates and use oldest stock first so nothing sits forgotten for
-      years while pests multiply in the dark.
-    mechanical_physical: >-
-      Hermetic storage in truly airtight buckets with oxygen absorbers, or purpose-built grain
-      bags that seal, stops larvae from completing development because they need air like you do.
-      Test seals -- a lid that hisses when you open it is doing work. For small seed lots you can
-      solarize in sealed dark jars on hot days if local fire codes allow, watching that glass
-      does not crack from rapid temperature change. Shake suspect jars and listen for faint
-      rattling powder -- that is frass, not a maraca. Layer food-grade diatomaceous earth between
-      beans in a dry bin so adults crawling between kernels desiccate, but keep the bin dry or DE
-      cakes into useless mud.
-    organic_sprays: >-
-      Pyrethrin or spinosad on dry-down pods targets late-season adults while they still move on
-      plants before beans go into storage -- spray only if you see beetles in the field, not as
-      insurance. These are contact poisons with short life on leaf surfaces, so time sprays for
-      calm evenings and repeat after rain. Indoors, do not fog your pantry with pyrethrin around
-      food; use cold, vacuuming, and DE instead. If you must treat empty wooden bins, use labeled
-      empty-bin products and air them out completely before refilling. Remember sprays never fix
-      beans that already contain larvae -- fumigate with temperature and oxygen control, not
-      more chemistry in the jar.
-  natural_enemies:
-  - Parasitic Wasps (Pteromalidae)
-  - Parasitic Wasps (Braconidae)
-  affected_plants:
-  - slug: acacia
-    name: Acacia
-  - slug: african-locust-bean
-    name: African Locust Bean
-  - slug: ahipa
-    name: Ahipa
-  - slug: albizia-lebbeck
-    name: Albizia lebbeck
-  - slug: alfalfa
-    name: Alfalfa
-  - slug: asparagus-bean
-    name: Asparagus Bean
-  - slug: baptisia
-    name: Baptisia
-  - slug: bay-bean
-    name: Bay Bean
-  - slug: beach-bean
-    name: Beach Bean
-  - slug: black-medic
-    name: Black Medic
-  - slug: black-mulga
-    name: Black Mulga
-  - slug: black-locust
-    name: Black Locust
-  - slug: bladder-senna
-    name: Bladder Senna
-  - slug: blue-wild-indigo
-    name: Blue Wild Indigo
-  - slug: carob-tree
-    name: Carob Tree
-  - slug: cassia-alata
-    name: Cassia alata
-  - slug: catclaw-sensitive-briar
-    name: Catclaw Sensitive Briar
-  - slug: chickpea
-    name: Chickpea
-  - slug: chilean-pea
-    name: Chilean Pea
-  - slug: coffee-senna
-    name: Coffee Senna
-  - slug: coffeeweed
-    name: Coffeeweed
-  - slug: coral-bean
-    name: Coral Bean
-  - slug: crimson-clover
-    name: Crimson Clover
-  - slug: crown-vetch
-    name: Crown Vetch
-  - slug: desert-ironwood
-    name: Desert Ironwood
-  - slug: dutch-clover
-    name: Dutch Clover
-  - slug: earth-chestnut
-    name: Earth Chestnut
-  - slug: false-indigo
-    name: False Indigo
-  - slug: fava-bean
-    name: Fava Bean
-  - slug: florida-leadplant
-    name: Florida Leadplant
-  - slug: goats-rue
-    name: Goat's Rue
-  - slug: green-bean
-    name: Green Bean
-  - slug: groundnut
-    name: Groundnut
-  - slug: groundplum-milkvetch
-    name: Groundplum Milkvetch
-  - slug: hairy-indigo
-    name: Hairy Indigo
-  - slug: honey-locust
-    name: Honey Locust
-  - slug: hopniss
-    name: Hopniss
-  - slug: hyacinth-bean
-    name: Hyacinth Bean
-  - slug: ice-cream-bean-tree
-    name: Ice Cream Bean Tree
-  - slug: illinois-bundleflower
-    name: Illinois Bundleflower
-  - slug: indigofera-tinctoria
-    name: Indigofera tinctoria
-  - slug: jatoba
-    name: Jatoba
-  - slug: jicama
-    name: Jicama
-  - slug: lablab-bean
-    name: Lablab Bean
-  - slug: lead-plant
-    name: Lead Plant
-  - slug: leucaena
-    name: Leucaena
-  - slug: lupine
-    name: Lupine
-  - slug: mangrove-bean
-    name: Mangrove Bean
-  - slug: milk-vetch
-    name: Milk Vetch
-  - slug: mimosa
-    name: Mimosa
-  - slug: mung-bean
-    name: Mung Bean
-  - slug: palo-verde
-    name: Palo Verde
-  - slug: partridge-acacia
-    name: Partridge Acacia
-  - slug: partridge-cassia
-    name: Partridge Cassia
-  - slug: partridge-pea
-    name: Partridge Pea
-  - slug: pea
-    name: Pea
-  - slug: perennial-peanut
-    name: Perennial Peanut
-  - slug: pigeon-pea
-    name: Pigeon Pea
-  - slug: plains-wild-indigo
-    name: Plains Wild Indigo
-  - slug: powderpuff-mimosa
-    name: Powderpuff Mimosa
-  - slug: prairie-acacia
-    name: Prairie Acacia
-  - slug: prairie-potato
-    name: Prairie Potato
-  - slug: prairie-turnip
-    name: Prairie Turnip
-  - slug: rattlebox
-    name: Rattlebox
-  - slug: sensitive-briar
-    name: Sensitive Briar
-  - slug: sensitive-plant
-    name: Sensitive Plant
-  - slug: sesbania
-    name: Sesbania
-  - slug: sesbania-grandiflora
-    name: Sesbania grandiflora
-  - slug: showy-partridge-pea
-    name: Showy Partridge Pea
-  - slug: siberian-peashrub
-    name: Siberian Peashrub
-  - slug: siberian-pea-shrub
-    name: Siberian Pea Shrub
-  - slug: sicklepod
-    name: Sicklepod
-  - slug: snow-pea
-    name: Snow Pea
-  - slug: sun-hemp
-    name: Sun Hemp
-  - slug: sunshine-mimosa
-    name: Sunshine Mimosa
-  - slug: tagasaste
-    name: Tagasaste
-  - slug: tephrosia-vogelii
-    name: Tephrosia vogelii
-  - slug: tick-trefoil
-    name: Tick Trefoil
-  - slug: trailing-mimosa
-    name: Trailing Mimosa
-  - slug: tree-medick
-    name: Tree Medick
-  - slug: white-wild-indigo
-    name: White Wild Indigo
-  - slug: wild-indigo-bush
-    name: Wild Indigo Bush
-  - slug: wild-indigo
-    name: Wild Indigo
-  - slug: wild-senna
-    name: Wild Senna
-  - slug: winged-bean
-    name: Winged Bean
-  - slug: wisteria
-    name: Wisteria
-  - slug: yam-bean
-    name: Yam Bean
-  - slug: yellow-sweet-clover
-    name: Yellow Sweet Clover
+name: Bean Weevil
+slug: bean-weevil
+picture: bean_weevil.webp
+scientific_name: Acanthoscelides obtectus
+description: If plants are wilting, notching at the edges, or fruit and roots show
+  hidden feeding damage, bean weevil may be the cause. Adults chew above ground while
+  larvae often feed out of sight inside soil, stems, or fruit. Damage builds quietly,
+  then plants crash fast when roots are heavily hit. Act early so a small weevil problem
+  does not become a season-long infestation.
+characteristics: Look for small beetles with a hard body and a distinct snout, usually
+  active at dawn, dusk, or night. Check for crescent-shaped leaf notches, punctures
+  in fruit, or tiny entry holes near stems. In soil or damaged tissue, larvae are
+  often pale, legless, and curved in a C-shape. Fresh chew marks plus snout beetles
+  or C-shaped grubs confirm active weevil pressure.
+symptoms:
+- chewed-stems
+- stem-damage
+- fruit-damage
+- holes-in-leaves
+- root-damage
+control_methods:
+  biological_controls: Tiny parasitic wasps in the families Pteromalidae and Braconidae
+    sometimes find larvae and pupae inside stored seed, especially in warm, humid
+    climates where the wasps stay active year-round. They are not something you can
+    reliably mail-order for a pantry, but they show up when beans sit slightly too
+    warm with enough moisture -- leave a window for that biology before you assume
+    every hole is a failure. Outdoors, generalist predators matter less than indoors
+    because the real damage is usually in the jar. If you open a bin and see wasp
+    exit holes smaller than the weevil's, that is biocontrol leaving evidence. Keep
+    storage cool so you favor wasps over weevil speed, or use cold to stop both.
+  preventive_methods: Bean weevil often rides home in dirty seed or last year's beans
+    mixed into new -- inspect every batch and freeze suspect lots before they touch
+    clean stock. Adults are short-lived beetles that lay eggs on beans in storage,
+    not on green pods, so the prevention story is harvest hygiene and clean containers.
+    Rotate field plots so overwintering adults near old bean debris do not step straight
+    into the next legume row. Vacuum shelves, sweep bins, and sun-dry empty jars before
+    refilling. One gravid female in a sealed jar can rebuild a full infestation in
+    a few weeks -- treat a dusty bin like a biohazard for beans.
+  cultural_practices: Harvest dry beans at full maturity but before pods shatter and
+    scatter infested seed across the soil. Winnow outdoors, screen out fines, and
+    discard anything that looks bored or dusty. Never pour new beans into a bin that
+    still holds old beans or fine fragments -- webbing hides eggs. For long storage,
+    freeze dry beans at 0°F (-18°C) for at least seven days to kill all stages inside
+    the seed. After freezing, store in glass or metal with tight lids, not porous
+    sacks. Label dates and use oldest stock first so nothing sits forgotten for years
+    while pests multiply in the dark.
+  mechanical_physical: Hermetic storage in truly airtight buckets with oxygen absorbers,
+    or purpose-built grain bags that seal, stops larvae from completing development
+    because they need air like you do. Test seals -- a lid that hisses when you open
+    it is doing work. For small seed lots you can solarize in sealed dark jars on
+    hot days if local fire codes allow, watching that glass does not crack from rapid
+    temperature change. Shake suspect jars and listen for faint rattling powder --
+    that is frass, not a maraca. Layer food-grade diatomaceous earth between beans
+    in a dry bin so adults crawling between kernels desiccate, but keep the bin dry
+    or DE cakes into useless mud.
+  organic_sprays: Pyrethrin or spinosad on dry-down pods targets late-season adults
+    while they still move on plants before beans go into storage -- spray only if
+    you see beetles in the field, not as insurance. These are contact poisons with
+    short life on leaf surfaces, so time sprays for calm evenings and repeat after
+    rain. Indoors, do not fog your pantry with pyrethrin around food; use cold, vacuuming,
+    and DE instead. If you must treat empty wooden bins, use labeled empty-bin products
+    and air them out completely before refilling. Remember sprays never fix beans
+    that already contain larvae -- fumigate with temperature and oxygen control, not
+    more chemistry in the jar.
+natural_enemies:
+- Parasitic Wasps (Pteromalidae)
+- Parasitic Wasps (Braconidae)
+affected_plants:
+- slug: acacia
+  name: Acacia
+- slug: african-locust-bean
+  name: African Locust Bean
+- slug: ahipa
+  name: Ahipa
+- slug: albizia-lebbeck
+  name: Albizia lebbeck
+- slug: alfalfa
+  name: Alfalfa
+- slug: asparagus-bean
+  name: Asparagus Bean
+- slug: baptisia
+  name: Baptisia
+- slug: bay-bean
+  name: Bay Bean
+- slug: beach-bean
+  name: Beach Bean
+- slug: black-medic
+  name: Black Medic
+- slug: black-mulga
+  name: Black Mulga
+- slug: black-locust
+  name: Black Locust
+- slug: bladder-senna
+  name: Bladder Senna
+- slug: blue-wild-indigo
+  name: Blue Wild Indigo
+- slug: carob-tree
+  name: Carob Tree
+- slug: cassia-alata
+  name: Cassia alata
+- slug: catclaw-sensitive-briar
+  name: Catclaw Sensitive Briar
+- slug: chickpea
+  name: Chickpea
+- slug: chilean-pea
+  name: Chilean Pea
+- slug: coffee-senna
+  name: Coffee Senna
+- slug: coffeeweed
+  name: Coffeeweed
+- slug: coral-bean
+  name: Coral Bean
+- slug: crimson-clover
+  name: Crimson Clover
+- slug: crown-vetch
+  name: Crown Vetch
+- slug: desert-ironwood
+  name: Desert Ironwood
+- slug: dutch-clover
+  name: Dutch Clover
+- slug: earth-chestnut
+  name: Earth Chestnut
+- slug: false-indigo
+  name: False Indigo
+- slug: fava-bean
+  name: Fava Bean
+- slug: florida-leadplant
+  name: Florida Leadplant
+- slug: goats-rue
+  name: Goat's Rue
+- slug: green-bean
+  name: Green Bean
+- slug: groundnut
+  name: Groundnut
+- slug: groundplum-milkvetch
+  name: Groundplum Milkvetch
+- slug: hairy-indigo
+  name: Hairy Indigo
+- slug: honey-locust
+  name: Honey Locust
+- slug: hopniss
+  name: Hopniss
+- slug: hyacinth-bean
+  name: Hyacinth Bean
+- slug: ice-cream-bean-tree
+  name: Ice Cream Bean Tree
+- slug: illinois-bundleflower
+  name: Illinois Bundleflower
+- slug: indigofera-tinctoria
+  name: Indigofera tinctoria
+- slug: jatoba
+  name: Jatoba
+- slug: jicama
+  name: Jicama
+- slug: lablab-bean
+  name: Lablab Bean
+- slug: lead-plant
+  name: Lead Plant
+- slug: leucaena
+  name: Leucaena
+- slug: lupine
+  name: Lupine
+- slug: mangrove-bean
+  name: Mangrove Bean
+- slug: milk-vetch
+  name: Milk Vetch
+- slug: mimosa
+  name: Mimosa
+- slug: mung-bean
+  name: Mung Bean
+- slug: palo-verde
+  name: Palo Verde
+- slug: partridge-acacia
+  name: Partridge Acacia
+- slug: partridge-cassia
+  name: Partridge Cassia
+- slug: partridge-pea
+  name: Partridge Pea
+- slug: pea
+  name: Pea
+- slug: perennial-peanut
+  name: Perennial Peanut
+- slug: pigeon-pea
+  name: Pigeon Pea
+- slug: plains-wild-indigo
+  name: Plains Wild Indigo
+- slug: powderpuff-mimosa
+  name: Powderpuff Mimosa
+- slug: prairie-acacia
+  name: Prairie Acacia
+- slug: prairie-potato
+  name: Prairie Potato
+- slug: prairie-turnip
+  name: Prairie Turnip
+- slug: rattlebox
+  name: Rattlebox
+- slug: sensitive-briar
+  name: Sensitive Briar
+- slug: sensitive-plant
+  name: Sensitive Plant
+- slug: sesbania
+  name: Sesbania
+- slug: sesbania-grandiflora
+  name: Sesbania grandiflora
+- slug: showy-partridge-pea
+  name: Showy Partridge Pea
+- slug: siberian-peashrub
+  name: Siberian Peashrub
+- slug: siberian-pea-shrub
+  name: Siberian Pea Shrub
+- slug: sicklepod
+  name: Sicklepod
+- slug: snow-pea
+  name: Snow Pea
+- slug: sun-hemp
+  name: Sun Hemp
+- slug: sunshine-mimosa
+  name: Sunshine Mimosa
+- slug: tagasaste
+  name: Tagasaste
+- slug: tephrosia-vogelii
+  name: Tephrosia vogelii
+- slug: tick-trefoil
+  name: Tick Trefoil
+- slug: trailing-mimosa
+  name: Trailing Mimosa
+- slug: tree-medick
+  name: Tree Medick
+- slug: white-wild-indigo
+  name: White Wild Indigo
+- slug: wild-indigo-bush
+  name: Wild Indigo Bush
+- slug: wild-indigo
+  name: Wild Indigo
+- slug: wild-senna
+  name: Wild Senna
+- slug: winged-bean
+  name: Winged Bean
+- slug: wisteria
+  name: Wisteria
+- slug: yam-bean
+  name: Yam Bean
+- slug: yellow-sweet-clover
+  name: Yellow Sweet Clover
+category: pest

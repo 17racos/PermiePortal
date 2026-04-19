@@ -1,101 +1,99 @@
----
-- name: Cranberry Fruitworm
-  slug: cranberry-fruitworm
-  picture: cranberry_fruitworm.webp
-  scientific_name: Acrobasis vaccinii
-  description: >-
-    If leaves look shredded overnight or fruit has fresh chew holes, cranberry fruitworm may be
-    feeding right now. These larvae can eat fast and strip a healthy plant in a short window.
-    Young stages are easy to miss, then damage suddenly explodes as they grow. Catch them early
-    to avoid severe defoliation and contaminated harvests.
-  characteristics: >-
-    Check leaf undersides, growing tips, and stem junctions for eggs, frass pellets, and feeding
-    scars. Larvae vary in color, but most have a soft segmented body and blend into foliage.
-    Look at dusk or early morning when many species feed more actively. Fresh chewing plus live
-    larvae or droppings on lower leaves confirms an active caterpillar outbreak.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - skeletonized-leaves
-  control_methods:
-    biological_controls: >-
-      Trichogramma wasps parasitize fruitworm eggs when releases align with moth flight in IPM
-      bogs -- coordinate with insect suppliers and degree-day models. Braconid wasps attack
-      caterpillars on foliage before larvae web berries together. Ground beetles scavenge pupae
-      near the soil surface. Preserve these helpers by avoiding blanket pyrethrin during peak
-      parasitism windows and by leaving modest wild Vaccinium only where it does not touch your
-      crop edge with unmanaged larvae.
-    preventive_methods: >-
-      Hang species-specific pheromone traps to mark biofix when adults first fly -- that date
-      sets spray windows. Scout uprights for webbed tips and single berry entry holes before
-      larvae move into clusters; early holes are cheaper than late rot. Remove unmanaged wild
-      lowbush and huckleberry near bog edges if regulations allow; they harbor the same moth.
-      Coordinate area-wide sanitation so neighbors are not breeding moths upwind of your bloom.
-    cultural_practices: >-
-      Extended flood duration where water quality rules allow can drown overwintering larvae in
-      litter -- follow extension schedules, not guesses. Synchronize bee-safe spray timing with
-      bloom; early morning or evening applications reduce bee exposure if labels permit. Rotate
-      chemistries across years in integrated programs so you do not select spinosad-resistant
-      larvae. After harvest, remove debris from problem corners to lower larval carryover.
-    mechanical_physical: >-
-      Vacuuming adults at lights works in research trials and is impractical at field scale --
-      use it as a story, not a plan. Row covers are rare on commercial bogs but work on garden
-      beds if you can manage pollination. For small patches, hand-remove webbed tips before
-      larvae tie berries together. Fine mesh screens on high tunnels exclude moths if every
-      vent seals.
-    organic_sprays: >-
-      Bacillus thuringiensis kurstaki and spinosad target newly hatched larvae during early bloom
-      through petal fall while larvae still feed on exposed flowers and stems. Use enough water
-      volume to penetrate low, dense vines; air-induction nozzles help. Stop spraying open flowers
-      when bees work unless labels and bee rules allow specific windows. Reapply after heavy rain.
-      Bt stops working once larvae burrow into berries; timing beats potency.
-  natural_enemies:
-  - Trichogramma spp.
-  - Braconid Wasps
-  - Ground Beetles (Carabidae)
-  affected_plants:
-  - slug: azalea
-    name: Azalea
-  - slug: bearberry
-    name: Bearberry
-  - slug: blue-ridge-blueberry
-    name: Blue Ridge Blueberry
-  - slug: blueberry
-    name: Blueberry
-  - slug: cranberry
-    name: Cranberry
-  - slug: crowberry
-    name: Crowberry
-  - slug: darrow-blueberry
-    name: Darrow Blueberry
-  - slug: deerberry
-    name: Deerberry
-  - slug: dwarf-huckleberry
-    name: Dwarf Huckleberry
-  - slug: elliott-blueberry
-    name: Elliott Blueberry
-  - slug: evergreen-huckleberry
-    name: Evergreen Huckleberry
-  - slug: fetterbush
-    name: Fetterbush
-  - slug: highbush-blueberry
-    name: Highbush Blueberry
-  - slug: kinnikinnick
-    name: Kinnikinnick
-  - slug: lingonberry
-    name: Lingonberry
-  - slug: lowbush-cranberry
-    name: Lowbush Cranberry
-  - slug: madrone
-    name: Madrone
-  - slug: pineland-heather
-    name: Pineland Heather
-  - slug: rhododendron
-    name: Rhododendron
-  - slug: salal
-    name: Salal
-  - slug: shiny-blueberry
-    name: Shiny Blueberry
-  - slug: sparkleberry
-    name: Sparkleberry
+name: Cranberry Fruitworm
+slug: cranberry-fruitworm
+picture: cranberry_fruitworm.webp
+scientific_name: Acrobasis vaccinii
+description: If leaves look shredded overnight or fruit has fresh chew holes, cranberry
+  fruitworm may be feeding right now. These larvae can eat fast and strip a healthy
+  plant in a short window. Young stages are easy to miss, then damage suddenly explodes
+  as they grow. Catch them early to avoid severe defoliation and contaminated harvests.
+characteristics: Check leaf undersides, growing tips, and stem junctions for eggs,
+  frass pellets, and feeding scars. Larvae vary in color, but most have a soft segmented
+  body and blend into foliage. Look at dusk or early morning when many species feed
+  more actively. Fresh chewing plus live larvae or droppings on lower leaves confirms
+  an active caterpillar outbreak.
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- skeletonized-leaves
+control_methods:
+  biological_controls: Trichogramma wasps parasitize fruitworm eggs when releases
+    align with moth flight in IPM bogs -- coordinate with insect suppliers and degree-day
+    models. Braconid wasps attack caterpillars on foliage before larvae web berries
+    together. Ground beetles scavenge pupae near the soil surface. Preserve these
+    helpers by avoiding blanket pyrethrin during peak parasitism windows and by leaving
+    modest wild Vaccinium only where it does not touch your crop edge with unmanaged
+    larvae.
+  preventive_methods: Hang species-specific pheromone traps to mark biofix when adults
+    first fly -- that date sets spray windows. Scout uprights for webbed tips and
+    single berry entry holes before larvae move into clusters; early holes are cheaper
+    than late rot. Remove unmanaged wild lowbush and huckleberry near bog edges if
+    regulations allow; they harbor the same moth. Coordinate area-wide sanitation
+    so neighbors are not breeding moths upwind of your bloom.
+  cultural_practices: Extended flood duration where water quality rules allow can
+    drown overwintering larvae in litter -- follow extension schedules, not guesses.
+    Synchronize bee-safe spray timing with bloom; early morning or evening applications
+    reduce bee exposure if labels permit. Rotate chemistries across years in integrated
+    programs so you do not select spinosad-resistant larvae. After harvest, remove
+    debris from problem corners to lower larval carryover.
+  mechanical_physical: Vacuuming adults at lights works in research trials and is
+    impractical at field scale -- use it as a story, not a plan. Row covers are rare
+    on commercial bogs but work on garden beds if you can manage pollination. For
+    small patches, hand-remove webbed tips before larvae tie berries together. Fine
+    mesh screens on high tunnels exclude moths if every vent seals.
+  organic_sprays: Bacillus thuringiensis kurstaki and spinosad target newly hatched
+    larvae during early bloom through petal fall while larvae still feed on exposed
+    flowers and stems. Use enough water volume to penetrate low, dense vines; air-induction
+    nozzles help. Stop spraying open flowers when bees work unless labels and bee
+    rules allow specific windows. Reapply after heavy rain. Bt stops working once
+    larvae burrow into berries; timing beats potency.
+natural_enemies:
+- Trichogramma spp.
+- Braconid Wasps
+- Ground Beetles (Carabidae)
+affected_plants:
+- slug: azalea
+  name: Azalea
+- slug: bearberry
+  name: Bearberry
+- slug: blue-ridge-blueberry
+  name: Blue Ridge Blueberry
+- slug: blueberry
+  name: Blueberry
+- slug: cranberry
+  name: Cranberry
+- slug: crowberry
+  name: Crowberry
+- slug: darrow-blueberry
+  name: Darrow Blueberry
+- slug: deerberry
+  name: Deerberry
+- slug: dwarf-huckleberry
+  name: Dwarf Huckleberry
+- slug: elliott-blueberry
+  name: Elliott Blueberry
+- slug: evergreen-huckleberry
+  name: Evergreen Huckleberry
+- slug: fetterbush
+  name: Fetterbush
+- slug: highbush-blueberry
+  name: Highbush Blueberry
+- slug: kinnikinnick
+  name: Kinnikinnick
+- slug: lingonberry
+  name: Lingonberry
+- slug: lowbush-cranberry
+  name: Lowbush Cranberry
+- slug: madrone
+  name: Madrone
+- slug: pineland-heather
+  name: Pineland Heather
+- slug: rhododendron
+  name: Rhododendron
+- slug: salal
+  name: Salal
+- slug: shiny-blueberry
+  name: Shiny Blueberry
+- slug: sparkleberry
+  name: Sparkleberry
+category: pest

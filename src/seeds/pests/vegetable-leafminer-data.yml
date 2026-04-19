@@ -1,49 +1,45 @@
----
-- name: Vegetable Leafminer
-  slug: vegetable-leafminer
-  picture: vegetable_leafminer.webp
-  scientific_name: Liriomyza sativae
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, vegetable leafminer may already be
-    on the plant. This pest often builds quietly, then damage appears all at once. Feeding
-    stress weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup
-    is much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - tunneling
-  - distorted-growth
-  - leaf-spots
-  - dropping-leaves
-  control_methods:
-    biological_controls: >-
-      Diglyphus and Chrysonotomyia wasps parasitize leafminer larvae inside mines -- they show up
-      most in unsprayed plantings with flowering insectary strips. Minute pirate bugs eat eggs
-      before mines start. If you spray broad-spectrum soap every Monday, you kill parasitoids
-      while flies return on the next warm night.
-    preventive_methods: >-
-      Start with clean transplants from screened houses; rogue reservoir weeds in the aster
-      family and other agromyzid hosts along field edges. Yellow sticky cards at canopy height
-      track adult flights in greenhouses -- rising catches mean row cover or spinosad windows,
-      not hope.
-    cultural_practices: >-
-      Strip mined leaves on small plants while larvae are still inside -- bag debris. Rotate
-      away from susceptible hosts when market allows; flies do not care about your spreadsheet
-      unless you break their food chain. Avoid quick-release nitrogen that pushes soft, attractive
-      foliage every two weeks.
-    mechanical_physical: >-
-      Floating row cover excludes adults from seedling beds when edges seal. Yellow traps in
-      tunnels catch adults for mass trapping when many cards cover the house; one card near the
-      door mostly samples. Vacuum adults from glass walls on cool mornings before they lay.
-    organic_sprays: >-
-      Neem, insecticidal soap, and spinosad (where OMRI-listed) target adults and young mines --
-      spinosad penetrates leaf tissue enough to kill young larvae. Repeat on short intervals
-      while flights continue; cover leaf undersides where adults rest. Spray at dusk to spare
-      parasitoids hunting mines.
-  natural_enemies:
-  - Diglyphus spp.
-  - Chrysonotomyia spp.
-  - Green Lacewings
+name: Vegetable Leafminer
+slug: vegetable-leafminer
+picture: vegetable_leafminer.webp
+scientific_name: Liriomyza sativae
+description: If new growth is curling, yellowing, sticky, or chewed, vegetable leafminer
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- tunneling
+- distorted-growth
+- leaf-spots
+- dropping-leaves
+control_methods:
+  biological_controls: Diglyphus and Chrysonotomyia wasps parasitize leafminer larvae
+    inside mines -- they show up most in unsprayed plantings with flowering insectary
+    strips. Minute pirate bugs eat eggs before mines start. If you spray broad-spectrum
+    soap every Monday, you kill parasitoids while flies return on the next warm night.
+  preventive_methods: Start with clean transplants from screened houses; rogue reservoir
+    weeds in the aster family and other agromyzid hosts along field edges. Yellow
+    sticky cards at canopy height track adult flights in greenhouses -- rising catches
+    mean row cover or spinosad windows, not hope.
+  cultural_practices: Strip mined leaves on small plants while larvae are still inside
+    -- bag debris. Rotate away from susceptible hosts when market allows; flies do
+    not care about your spreadsheet unless you break their food chain. Avoid quick-release
+    nitrogen that pushes soft, attractive foliage every two weeks.
+  mechanical_physical: Floating row cover excludes adults from seedling beds when
+    edges seal. Yellow traps in tunnels catch adults for mass trapping when many cards
+    cover the house; one card near the door mostly samples. Vacuum adults from glass
+    walls on cool mornings before they lay.
+  organic_sprays: Neem, insecticidal soap, and spinosad (where OMRI-listed) target
+    adults and young mines -- spinosad penetrates leaf tissue enough to kill young
+    larvae. Repeat on short intervals while flights continue; cover leaf undersides
+    where adults rest. Spray at dusk to spare parasitoids hunting mines.
+natural_enemies:
+- Diglyphus spp.
+- Chrysonotomyia spp.
+- Green Lacewings
+category: pest

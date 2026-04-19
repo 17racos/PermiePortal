@@ -1,345 +1,339 @@
----
-- name: Corn Earworm
-  slug: corn-earworm
-  picture: corn_earworm.webp
-  scientific_name: Helicoverpa zea
-  description: >-
-    If leaves look shredded overnight or fruit has fresh chew holes, corn earworm may be feeding
-    right now. These larvae can eat fast and strip a healthy plant in a short window. Young
-    stages are easy to miss, then damage suddenly explodes as they grow. Catch them early to
-    avoid severe defoliation and contaminated harvests.
-  characteristics: >-
-    Check leaf undersides, growing tips, and stem junctions for eggs, frass pellets, and feeding
-    scars. Larvae vary in color, but most have a soft segmented body and blend into foliage.
-    Look at dusk or early morning when many species feed more actively. Fresh chewing plus live
-    larvae or droppings on lower leaves confirms an active caterpillar outbreak.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - skeletonized-leaves
-  control_methods:
-    biological_controls: >-
-      Trichogramma pretiosum egg parasitoid wasps attack corn earworm eggs before
-      they hatch — release weekly during silking at 50,000-200,000 per acre or
-      equivalent garden scale. These are available from insectaries and are one of
-      the most cost-effective biological controls for caterpillar pests. Tachinid
-      flies parasitize larvae. Support both by planting dill, fennel, and sweet
-      alyssum nearby. Predatory stink bugs (Podisus maculiventris) eat earworm
-      larvae — they are beneficial, distinguish them from pest stink bugs by their
-      pointed "shoulders" and predatory posture.
-    preventive_methods: >-
-      Corn earworm moths lay single eggs on corn silks — the larvae burrow down the
-      silk channel into the ear where no spray can reach them. The window to act is
-      narrow: from silk emergence to when larvae tunnel in (about 3-5 days). Pheromone
-      traps monitor moth flight — when catches peak, silk protection must begin
-      immediately. Tight-husked corn varieties provide some physical protection.
-      In the home garden, applying a few drops of mineral oil or vegetable oil to
-      the silk tip after pollination is complete blocks larval entry effectively.
-    cultural_practices: >-
-      Plant corn in a tight planting window rather than staggered plantings — extended
-      silk periods extend your exposure to multiple moth flights. Destroy crop residue
-      immediately after harvest — pupae overwinter in soil under corn debris.
-      Interplant with diverse flowering plants to support parasitoid populations.
-      Corn earworm also attacks tomatoes, peppers, and beans — monitor all these
-      plants when corn moths are flying.
-    mechanical_physical: >-
-      For home garden corn, apply mineral oil with a dropper to silk tips after
-      80% of silks have browned (indicating pollination is complete) — this blocks
-      larval entry without affecting pollination. Individual ear bags applied after
-      pollination physically exclude moths. Hand-pick larvae from tomatoes and
-      peppers where they bore into fruit — look for entry holes and frass at
-      the stem end.
-    organic_sprays: >-
-      Bacillus thuringiensis kurstaki (Bt) sprayed on silks every 2-3 days during
-      silk emergence kills newly hatched larvae before they tunnel in — this is the
-      critical window. Once larvae are inside the ear, no spray reaches them. Spinosad
-      provides stronger knockdown and slightly longer residual — apply at dusk to
-      minimize bee exposure. Neem oil deters egg-laying when applied to silks and
-      foliage but has minimal effect on larvae already tunneling.
-  natural_enemies:
-  - Trichogramma spp.
-  - Tachinid flies
-  - Predatory stink bugs
-  - Birds
-  affected_plants:
-  - slug: bamboo
-    name: Bamboo
-  - slug: big-bluestem
-    name: Big Bluestem
-  - slug: blue-grama
-    name: Blue Grama
-  - slug: broomsedge-bluestem
-    name: Broomsedge Bluestem
-  - slug: buffalo-grass
-    name: Buffalo Grass
-  - slug: eastern-gamagrass
-    name: Eastern Gamagrass
-  - slug: elephant-grass
-    name: Elephant Grass
-  - slug: elliotts-bluestem
-    name: Elliott's Bluestem
-  - slug: fever-grass
-    name: Fever Grass
-  - slug: florida-gamagrass
-    name: Florida Gamagrass
-  - slug: gulf-muhly
-    name: Gulf Muhly
-  - slug: hairawn-muhly
-    name: Hairawn Muhly
-  - slug: hairy-grama
-    name: Hairy Grama
-  - slug: indiangrass
-    name: Indiangrass
-  - slug: lemongrass
-    name: Lemongrass
-  - slug: little-bluestem
-    name: Little Bluestem
-  - slug: longawn-muhly
-    name: Longawn Muhly
-  - slug: millet
-    name: Millet
-  - slug: muhly-grass
-    name: Muhly Grass
-  - slug: prairie-cordgrass
-    name: Prairie Cordgrass
-  - slug: purple-lovegrass
-    name: Purple Lovegrass
-  - slug: rice
-    name: Rice
-  - slug: saltgrass
-    name: Saltgrass
-  - slug: saltmeadow-cordgrass
-    name: Saltmeadow Cordgrass
-  - slug: sand-bluestem
-    name: Sand Bluestem
-  - slug: sand-cordgrass
-    name: Sand Cordgrass
-  - slug: sand-grama
-    name: Sand Grama
-  - slug: sand-lovegrass
-    name: Sand Lovegrass
-  - slug: sideoats-grama
-    name: Sideoats Grama
-  - slug: split-beard-bluestem
-    name: Split Beard Bluestem
-  - slug: sweetgrass
-    name: Sweetgrass
-  - slug: switchgrass
-    name: Switchgrass
-  - slug: vetiver-grass
-    name: Vetiver Grass
-  - slug: weeping-lovegrass
-    name: Weeping Lovegrass
-  - slug: wiregrass
-    name: Wiregrass
-  - slug: angels-trumpet
-    name: Angel's Trumpet
-  - slug: ashwagandha
-    name: Ashwagandha
-  - slug: buffalo-bur
-    name: Buffalo Bur
-  - slug: chiltepin-pepper
-    name: Chiltepin Pepper
-  - slug: chiltepin-pepper-tree
-    name: Chiltepin Pepper Tree
-  - slug: chinese-lantern
-    name: Chinese Lantern
-  - slug: coastal-groundcherry
-    name: Coastal Groundcherry
-  - slug: devils-trumpet
-    name: Devil's Trumpet
-  - slug: garden-huckleberry
-    name: Garden Huckleberry
-  - slug: goji-berry
-    name: Goji Berry
-  - slug: ground-cherry
-    name: Ground Cherry
-  - slug: horse-nettle
-    name: Horse Nettle
-  - slug: pepino-melon
-    name: Pepino Melon
-  - slug: potato
-    name: Potato
-  - slug: scarlet-eggplant
-    name: Scarlet Eggplant
-  - slug: wild-eggplant
-    name: Wild Eggplant
-  - slug: wonderberry
-    name: Wonderberry
-  - slug: acacia
-    name: Acacia
-  - slug: african-locust-bean
-    name: African Locust Bean
-  - slug: ahipa
-    name: Ahipa
-  - slug: albizia-lebbeck
-    name: Albizia lebbeck
-  - slug: alfalfa
-    name: Alfalfa
-  - slug: asparagus-bean
-    name: Asparagus Bean
-  - slug: baptisia
-    name: Baptisia
-  - slug: bay-bean
-    name: Bay Bean
-  - slug: beach-bean
-    name: Beach Bean
-  - slug: black-medic
-    name: Black Medic
-  - slug: black-mulga
-    name: Black Mulga
-  - slug: black-locust
-    name: Black Locust
-  - slug: bladder-senna
-    name: Bladder Senna
-  - slug: blue-wild-indigo
-    name: Blue Wild Indigo
-  - slug: carob-tree
-    name: Carob Tree
-  - slug: cassia-alata
-    name: Cassia alata
-  - slug: catclaw-sensitive-briar
-    name: Catclaw Sensitive Briar
-  - slug: chickpea
-    name: Chickpea
-  - slug: chilean-pea
-    name: Chilean Pea
-  - slug: coffee-senna
-    name: Coffee Senna
-  - slug: coffeeweed
-    name: Coffeeweed
-  - slug: coral-bean
-    name: Coral Bean
-  - slug: crimson-clover
-    name: Crimson Clover
-  - slug: crown-vetch
-    name: Crown Vetch
-  - slug: desert-ironwood
-    name: Desert Ironwood
-  - slug: dutch-clover
-    name: Dutch Clover
-  - slug: earth-chestnut
-    name: Earth Chestnut
-  - slug: false-indigo
-    name: False Indigo
-  - slug: fava-bean
-    name: Fava Bean
-  - slug: florida-leadplant
-    name: Florida Leadplant
-  - slug: goats-rue
-    name: Goat's Rue
-  - slug: green-bean
-    name: Green Bean
-  - slug: groundnut
-    name: Groundnut
-  - slug: groundplum-milkvetch
-    name: Groundplum Milkvetch
-  - slug: hairy-indigo
-    name: Hairy Indigo
-  - slug: honey-locust
-    name: Honey Locust
-  - slug: hopniss
-    name: Hopniss
-  - slug: hyacinth-bean
-    name: Hyacinth Bean
-  - slug: ice-cream-bean-tree
-    name: Ice Cream Bean Tree
-  - slug: illinois-bundleflower
-    name: Illinois Bundleflower
-  - slug: indigofera-tinctoria
-    name: Indigofera tinctoria
-  - slug: jatoba
-    name: Jatoba
-  - slug: jicama
-    name: Jicama
-  - slug: lablab-bean
-    name: Lablab Bean
-  - slug: lead-plant
-    name: Lead Plant
-  - slug: leucaena
-    name: Leucaena
-  - slug: lupine
-    name: Lupine
-  - slug: mangrove-bean
-    name: Mangrove Bean
-  - slug: milk-vetch
-    name: Milk Vetch
-  - slug: mimosa
-    name: Mimosa
-  - slug: mung-bean
-    name: Mung Bean
-  - slug: palo-verde
-    name: Palo Verde
-  - slug: partridge-acacia
-    name: Partridge Acacia
-  - slug: partridge-cassia
-    name: Partridge Cassia
-  - slug: partridge-pea
-    name: Partridge Pea
-  - slug: pea
-    name: Pea
-  - slug: perennial-peanut
-    name: Perennial Peanut
-  - slug: pigeon-pea
-    name: Pigeon Pea
-  - slug: plains-wild-indigo
-    name: Plains Wild Indigo
-  - slug: powderpuff-mimosa
-    name: Powderpuff Mimosa
-  - slug: prairie-acacia
-    name: Prairie Acacia
-  - slug: prairie-potato
-    name: Prairie Potato
-  - slug: prairie-turnip
-    name: Prairie Turnip
-  - slug: rattlebox
-    name: Rattlebox
-  - slug: sensitive-briar
-    name: Sensitive Briar
-  - slug: sensitive-plant
-    name: Sensitive Plant
-  - slug: sesbania
-    name: Sesbania
-  - slug: sesbania-grandiflora
-    name: Sesbania grandiflora
-  - slug: showy-partridge-pea
-    name: Showy Partridge Pea
-  - slug: siberian-peashrub
-    name: Siberian Peashrub
-  - slug: siberian-pea-shrub
-    name: Siberian Pea Shrub
-  - slug: sicklepod
-    name: Sicklepod
-  - slug: snow-pea
-    name: Snow Pea
-  - slug: sun-hemp
-    name: Sun Hemp
-  - slug: sunshine-mimosa
-    name: Sunshine Mimosa
-  - slug: tagasaste
-    name: Tagasaste
-  - slug: tephrosia-vogelii
-    name: Tephrosia vogelii
-  - slug: tick-trefoil
-    name: Tick Trefoil
-  - slug: trailing-mimosa
-    name: Trailing Mimosa
-  - slug: tree-medick
-    name: Tree Medick
-  - slug: white-wild-indigo
-    name: White Wild Indigo
-  - slug: wild-indigo-bush
-    name: Wild Indigo Bush
-  - slug: wild-indigo
-    name: Wild Indigo
-  - slug: wild-senna
-    name: Wild Senna
-  - slug: winged-bean
-    name: Winged Bean
-  - slug: wisteria
-    name: Wisteria
-  - slug: yam-bean
-    name: Yam Bean
-  - slug: yellow-sweet-clover
-    name: Yellow Sweet Clover
+name: Corn Earworm
+slug: corn-earworm
+picture: corn_earworm.webp
+scientific_name: Helicoverpa zea
+description: If leaves look shredded overnight or fruit has fresh chew holes, corn
+  earworm may be feeding right now. These larvae can eat fast and strip a healthy
+  plant in a short window. Young stages are easy to miss, then damage suddenly explodes
+  as they grow. Catch them early to avoid severe defoliation and contaminated harvests.
+characteristics: Check leaf undersides, growing tips, and stem junctions for eggs,
+  frass pellets, and feeding scars. Larvae vary in color, but most have a soft segmented
+  body and blend into foliage. Look at dusk or early morning when many species feed
+  more actively. Fresh chewing plus live larvae or droppings on lower leaves confirms
+  an active caterpillar outbreak.
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- skeletonized-leaves
+control_methods:
+  biological_controls: Trichogramma pretiosum egg parasitoid wasps attack corn earworm
+    eggs before they hatch — release weekly during silking at 50,000-200,000 per acre
+    or equivalent garden scale. These are available from insectaries and are one of
+    the most cost-effective biological controls for caterpillar pests. Tachinid flies
+    parasitize larvae. Support both by planting dill, fennel, and sweet alyssum nearby.
+    Predatory stink bugs (Podisus maculiventris) eat earworm larvae — they are beneficial,
+    distinguish them from pest stink bugs by their pointed "shoulders" and predatory
+    posture.
+  preventive_methods: 'Corn earworm moths lay single eggs on corn silks — the larvae
+    burrow down the silk channel into the ear where no spray can reach them. The window
+    to act is narrow: from silk emergence to when larvae tunnel in (about 3-5 days).
+    Pheromone traps monitor moth flight — when catches peak, silk protection must
+    begin immediately. Tight-husked corn varieties provide some physical protection.
+    In the home garden, applying a few drops of mineral oil or vegetable oil to the
+    silk tip after pollination is complete blocks larval entry effectively.'
+  cultural_practices: Plant corn in a tight planting window rather than staggered
+    plantings — extended silk periods extend your exposure to multiple moth flights.
+    Destroy crop residue immediately after harvest — pupae overwinter in soil under
+    corn debris. Interplant with diverse flowering plants to support parasitoid populations.
+    Corn earworm also attacks tomatoes, peppers, and beans — monitor all these plants
+    when corn moths are flying.
+  mechanical_physical: For home garden corn, apply mineral oil with a dropper to silk
+    tips after 80% of silks have browned (indicating pollination is complete) — this
+    blocks larval entry without affecting pollination. Individual ear bags applied
+    after pollination physically exclude moths. Hand-pick larvae from tomatoes and
+    peppers where they bore into fruit — look for entry holes and frass at the stem
+    end.
+  organic_sprays: Bacillus thuringiensis kurstaki (Bt) sprayed on silks every 2-3
+    days during silk emergence kills newly hatched larvae before they tunnel in —
+    this is the critical window. Once larvae are inside the ear, no spray reaches
+    them. Spinosad provides stronger knockdown and slightly longer residual — apply
+    at dusk to minimize bee exposure. Neem oil deters egg-laying when applied to silks
+    and foliage but has minimal effect on larvae already tunneling.
+natural_enemies:
+- Trichogramma spp.
+- Tachinid flies
+- Predatory stink bugs
+- Birds
+affected_plants:
+- slug: bamboo
+  name: Bamboo
+- slug: big-bluestem
+  name: Big Bluestem
+- slug: blue-grama
+  name: Blue Grama
+- slug: broomsedge-bluestem
+  name: Broomsedge Bluestem
+- slug: buffalo-grass
+  name: Buffalo Grass
+- slug: eastern-gamagrass
+  name: Eastern Gamagrass
+- slug: elephant-grass
+  name: Elephant Grass
+- slug: elliotts-bluestem
+  name: Elliott's Bluestem
+- slug: fever-grass
+  name: Fever Grass
+- slug: florida-gamagrass
+  name: Florida Gamagrass
+- slug: gulf-muhly
+  name: Gulf Muhly
+- slug: hairawn-muhly
+  name: Hairawn Muhly
+- slug: hairy-grama
+  name: Hairy Grama
+- slug: indiangrass
+  name: Indiangrass
+- slug: lemongrass
+  name: Lemongrass
+- slug: little-bluestem
+  name: Little Bluestem
+- slug: longawn-muhly
+  name: Longawn Muhly
+- slug: millet
+  name: Millet
+- slug: muhly-grass
+  name: Muhly Grass
+- slug: prairie-cordgrass
+  name: Prairie Cordgrass
+- slug: purple-lovegrass
+  name: Purple Lovegrass
+- slug: rice
+  name: Rice
+- slug: saltgrass
+  name: Saltgrass
+- slug: saltmeadow-cordgrass
+  name: Saltmeadow Cordgrass
+- slug: sand-bluestem
+  name: Sand Bluestem
+- slug: sand-cordgrass
+  name: Sand Cordgrass
+- slug: sand-grama
+  name: Sand Grama
+- slug: sand-lovegrass
+  name: Sand Lovegrass
+- slug: sideoats-grama
+  name: Sideoats Grama
+- slug: split-beard-bluestem
+  name: Split Beard Bluestem
+- slug: sweetgrass
+  name: Sweetgrass
+- slug: switchgrass
+  name: Switchgrass
+- slug: vetiver-grass
+  name: Vetiver Grass
+- slug: weeping-lovegrass
+  name: Weeping Lovegrass
+- slug: wiregrass
+  name: Wiregrass
+- slug: angels-trumpet
+  name: Angel's Trumpet
+- slug: ashwagandha
+  name: Ashwagandha
+- slug: buffalo-bur
+  name: Buffalo Bur
+- slug: chiltepin-pepper
+  name: Chiltepin Pepper
+- slug: chiltepin-pepper-tree
+  name: Chiltepin Pepper Tree
+- slug: chinese-lantern
+  name: Chinese Lantern
+- slug: coastal-groundcherry
+  name: Coastal Groundcherry
+- slug: devils-trumpet
+  name: Devil's Trumpet
+- slug: garden-huckleberry
+  name: Garden Huckleberry
+- slug: goji-berry
+  name: Goji Berry
+- slug: ground-cherry
+  name: Ground Cherry
+- slug: horse-nettle
+  name: Horse Nettle
+- slug: pepino-melon
+  name: Pepino Melon
+- slug: potato
+  name: Potato
+- slug: scarlet-eggplant
+  name: Scarlet Eggplant
+- slug: wild-eggplant
+  name: Wild Eggplant
+- slug: wonderberry
+  name: Wonderberry
+- slug: acacia
+  name: Acacia
+- slug: african-locust-bean
+  name: African Locust Bean
+- slug: ahipa
+  name: Ahipa
+- slug: albizia-lebbeck
+  name: Albizia lebbeck
+- slug: alfalfa
+  name: Alfalfa
+- slug: asparagus-bean
+  name: Asparagus Bean
+- slug: baptisia
+  name: Baptisia
+- slug: bay-bean
+  name: Bay Bean
+- slug: beach-bean
+  name: Beach Bean
+- slug: black-medic
+  name: Black Medic
+- slug: black-mulga
+  name: Black Mulga
+- slug: black-locust
+  name: Black Locust
+- slug: bladder-senna
+  name: Bladder Senna
+- slug: blue-wild-indigo
+  name: Blue Wild Indigo
+- slug: carob-tree
+  name: Carob Tree
+- slug: cassia-alata
+  name: Cassia alata
+- slug: catclaw-sensitive-briar
+  name: Catclaw Sensitive Briar
+- slug: chickpea
+  name: Chickpea
+- slug: chilean-pea
+  name: Chilean Pea
+- slug: coffee-senna
+  name: Coffee Senna
+- slug: coffeeweed
+  name: Coffeeweed
+- slug: coral-bean
+  name: Coral Bean
+- slug: crimson-clover
+  name: Crimson Clover
+- slug: crown-vetch
+  name: Crown Vetch
+- slug: desert-ironwood
+  name: Desert Ironwood
+- slug: dutch-clover
+  name: Dutch Clover
+- slug: earth-chestnut
+  name: Earth Chestnut
+- slug: false-indigo
+  name: False Indigo
+- slug: fava-bean
+  name: Fava Bean
+- slug: florida-leadplant
+  name: Florida Leadplant
+- slug: goats-rue
+  name: Goat's Rue
+- slug: green-bean
+  name: Green Bean
+- slug: groundnut
+  name: Groundnut
+- slug: groundplum-milkvetch
+  name: Groundplum Milkvetch
+- slug: hairy-indigo
+  name: Hairy Indigo
+- slug: honey-locust
+  name: Honey Locust
+- slug: hopniss
+  name: Hopniss
+- slug: hyacinth-bean
+  name: Hyacinth Bean
+- slug: ice-cream-bean-tree
+  name: Ice Cream Bean Tree
+- slug: illinois-bundleflower
+  name: Illinois Bundleflower
+- slug: indigofera-tinctoria
+  name: Indigofera tinctoria
+- slug: jatoba
+  name: Jatoba
+- slug: jicama
+  name: Jicama
+- slug: lablab-bean
+  name: Lablab Bean
+- slug: lead-plant
+  name: Lead Plant
+- slug: leucaena
+  name: Leucaena
+- slug: lupine
+  name: Lupine
+- slug: mangrove-bean
+  name: Mangrove Bean
+- slug: milk-vetch
+  name: Milk Vetch
+- slug: mimosa
+  name: Mimosa
+- slug: mung-bean
+  name: Mung Bean
+- slug: palo-verde
+  name: Palo Verde
+- slug: partridge-acacia
+  name: Partridge Acacia
+- slug: partridge-cassia
+  name: Partridge Cassia
+- slug: partridge-pea
+  name: Partridge Pea
+- slug: pea
+  name: Pea
+- slug: perennial-peanut
+  name: Perennial Peanut
+- slug: pigeon-pea
+  name: Pigeon Pea
+- slug: plains-wild-indigo
+  name: Plains Wild Indigo
+- slug: powderpuff-mimosa
+  name: Powderpuff Mimosa
+- slug: prairie-acacia
+  name: Prairie Acacia
+- slug: prairie-potato
+  name: Prairie Potato
+- slug: prairie-turnip
+  name: Prairie Turnip
+- slug: rattlebox
+  name: Rattlebox
+- slug: sensitive-briar
+  name: Sensitive Briar
+- slug: sensitive-plant
+  name: Sensitive Plant
+- slug: sesbania
+  name: Sesbania
+- slug: sesbania-grandiflora
+  name: Sesbania grandiflora
+- slug: showy-partridge-pea
+  name: Showy Partridge Pea
+- slug: siberian-peashrub
+  name: Siberian Peashrub
+- slug: siberian-pea-shrub
+  name: Siberian Pea Shrub
+- slug: sicklepod
+  name: Sicklepod
+- slug: snow-pea
+  name: Snow Pea
+- slug: sun-hemp
+  name: Sun Hemp
+- slug: sunshine-mimosa
+  name: Sunshine Mimosa
+- slug: tagasaste
+  name: Tagasaste
+- slug: tephrosia-vogelii
+  name: Tephrosia vogelii
+- slug: tick-trefoil
+  name: Tick Trefoil
+- slug: trailing-mimosa
+  name: Trailing Mimosa
+- slug: tree-medick
+  name: Tree Medick
+- slug: white-wild-indigo
+  name: White Wild Indigo
+- slug: wild-indigo-bush
+  name: Wild Indigo Bush
+- slug: wild-indigo
+  name: Wild Indigo
+- slug: wild-senna
+  name: Wild Senna
+- slug: winged-bean
+  name: Winged Bean
+- slug: wisteria
+  name: Wisteria
+- slug: yam-bean
+  name: Yam Bean
+- slug: yellow-sweet-clover
+  name: Yellow Sweet Clover
+category: pest

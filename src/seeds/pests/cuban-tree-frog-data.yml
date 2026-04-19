@@ -1,51 +1,52 @@
-- name: "Cuban tree frog"
-  slug: "cuban-tree-frog"
-  picture: "cuban_tree_frog.webp"
-  scientific_name: "Osteopilus septentrionalis"
-  description: >-
-    Cuban tree frogs are large nocturnal hylids that climb walls, enter sheds, and colonize downspouts and nursery
-    houses. They eat native tree frogs and small vertebrates, and their skin secretions irritate mucous membranes.
-    In horticulture they are a nuisance around irrigation boxes, shade houses, and porch lights that concentrate insect prey.
-    Where they are invasive, management favors exclusion and humane removal following local wildlife rules.
-  characteristics: >-
-    Adults are variable gray to brown with enlarged toe pads and often red-orange flash color in the groin when stretched.
-    Their skin feels warty compared with many native tree frogs. Egg masses are long strings laid in any standing water,
-    including buckets and plant saucers. Listen for a loud, grating breeding chorus on warm wet nights.
-  symptoms:
-  - wilting
-  - crown-damage
-  - root-damage
-  - die-back
-  control_methods:
-    biological_controls: >-
-      Native snakes and raptors occasionally prey on small Cuban tree frogs, but predation rarely controls dense invasive
-      populations by itself. Competitor native tree frogs can be displaced, so protecting native habitat is part of
-      long-term biological balance. Do not relocate invasive frogs into new watersheds -- that spreads the problem
-      and may violate regulations.
-    preventive_methods: >-
-      Empty plant saucers, buckets, and tarps that hold water for more than a few days during breeding season. Turn off
-      decorative lights near production areas when safe to do so, because light columns concentrate flying insects that
-      feed frog numbers. Screen louver vents on pump houses and pack sheds with fine mesh. Inspect tropical foliage shipments
-      in greenhouse receiving bays for stowaways.
-    cultural_practices: >-
-      Keep brush piles and stacked pots away from packing areas where frogs hide by day. Train crews to close doors at
-      dusk in shade houses. Organize weekly walk-throughs after rain to remove frogs from critical food safety zones using
-      methods your jurisdiction approves. Document sightings if regional biologists track spread.
-    mechanical_physical: >-
-      Capture individuals with a clean gloved hand or a soft net and humanely euthanize only if local law allows that
-      approach on your property -- otherwise contact wildlife authorities for guidance. Apply lubricant barriers on
-      vertical posts where regulations permit professional products designed for that use case. Seal gaps under doors
-      with door sweeps.
-    organic_sprays: >-
-      There is no ethical foliar spray labeled for amphibian control in home gardens. Repellents marketed for vertebrates
-      vary by country and should not be improvised from household chemicals. Focus on water removal, light management,
-      and physical exclusion rather than bottles. If frogs enter potting benches, elevate sensitive seedlings on racks
-      with smooth legs that are harder to climb.
-  natural_enemies:
-  - Hawks
-  - Owls
-  - Large Snakes
-  affected_plants: []
-  # Image attribution: (c) copepodo, some rights reserved (CC BY-NC-ND)
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+name: Cuban tree frog
+slug: cuban-tree-frog
+picture: cuban_tree_frog.webp
+scientific_name: Osteopilus septentrionalis
+description: Cuban tree frogs are large nocturnal hylids that climb walls, enter sheds,
+  and colonize downspouts and nursery houses. They eat native tree frogs and small
+  vertebrates, and their skin secretions irritate mucous membranes. In horticulture
+  they are a nuisance around irrigation boxes, shade houses, and porch lights that
+  concentrate insect prey. Where they are invasive, management favors exclusion and
+  humane removal following local wildlife rules.
+characteristics: Adults are variable gray to brown with enlarged toe pads and often
+  red-orange flash color in the groin when stretched. Their skin feels warty compared
+  with many native tree frogs. Egg masses are long strings laid in any standing water,
+  including buckets and plant saucers. Listen for a loud, grating breeding chorus
+  on warm wet nights.
+symptoms:
+- wilting
+- crown-damage
+- root-damage
+- die-back
+control_methods:
+  biological_controls: Native snakes and raptors occasionally prey on small Cuban
+    tree frogs, but predation rarely controls dense invasive populations by itself.
+    Competitor native tree frogs can be displaced, so protecting native habitat is
+    part of long-term biological balance. Do not relocate invasive frogs into new
+    watersheds -- that spreads the problem and may violate regulations.
+  preventive_methods: Empty plant saucers, buckets, and tarps that hold water for
+    more than a few days during breeding season. Turn off decorative lights near production
+    areas when safe to do so, because light columns concentrate flying insects that
+    feed frog numbers. Screen louver vents on pump houses and pack sheds with fine
+    mesh. Inspect tropical foliage shipments in greenhouse receiving bays for stowaways.
+  cultural_practices: Keep brush piles and stacked pots away from packing areas where
+    frogs hide by day. Train crews to close doors at dusk in shade houses. Organize
+    weekly walk-throughs after rain to remove frogs from critical food safety zones
+    using methods your jurisdiction approves. Document sightings if regional biologists
+    track spread.
+  mechanical_physical: Capture individuals with a clean gloved hand or a soft net
+    and humanely euthanize only if local law allows that approach on your property
+    -- otherwise contact wildlife authorities for guidance. Apply lubricant barriers
+    on vertical posts where regulations permit professional products designed for
+    that use case. Seal gaps under doors with door sweeps.
+  organic_sprays: There is no ethical foliar spray labeled for amphibian control in
+    home gardens. Repellents marketed for vertebrates vary by country and should not
+    be improvised from household chemicals. Focus on water removal, light management,
+    and physical exclusion rather than bottles. If frogs enter potting benches, elevate
+    sensitive seedlings on racks with smooth legs that are harder to climb.
+natural_enemies:
+- Hawks
+- Owls
+- Large Snakes
+affected_plants: []
+category: animal

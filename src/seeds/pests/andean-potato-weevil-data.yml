@@ -1,94 +1,89 @@
----
-- name: Andean Potato Weevil
-  slug: andean-potato-weevil
-  picture: andean_potato_weevil.webp
-  scientific_name: Premnotrypes suturicallus
-  description: >-
-    If plants are wilting, notching at the edges, or fruit and roots show hidden feeding damage,
-    andean potato weevil may be the cause. Adults chew above ground while larvae often feed out
-    of sight inside soil, stems, or fruit. Damage builds quietly, then plants crash fast when
-    roots are heavily hit. Act early so a small weevil problem does not become a season-long
-    infestation.
-  characteristics: >-
-    Look for small beetles with a hard body and a distinct snout, usually active at dawn, dusk,
-    or night. Check for crescent-shaped leaf notches, punctures in fruit, or tiny entry holes
-    near stems. In soil or damaged tissue, larvae are often pale, legless, and curved in a
-    C-shape. Fresh chew marks plus snout beetles or C-shaped grubs confirm active weevil
-    pressure.
-  symptoms:
-  - chewed-stems
-  - stem-damage
-  - fruit-damage
-  - holes-in-leaves
-  - root-damage
-  control_methods:
-    biological_controls: >-
-      Entomopathogenic nematodes (Steinernema and Heterorhabditis species) infect larvae and
-      pupae in moist soil when soil temperature stays inside product ranges -- apply after
-      irrigation or rain. Ground beetles and field crickets scavenge eggs and weakened adults
-      near the soil surface. Beauveria bassiana and Metarhizium fungi infect adults and larvae
-      when spores stay moist on the insect body. Nematodes and fungi fail in dry, cold soil;
-      timing is everything.
-    preventive_methods: >-
-      Quarantine seed potatoes and cull any lot showing weevil emergence holes. Hang pheromone or
-      food-baited traps to map adult flights; spike counts mean harvest sanitation, not luck.
-      Destroy volunteer potatoes and nightshade weeds that bridge generations between seasons.
-      Map infested fields and plant non-hosts for a full year when possible; adults remember
-      coordinates.
-    cultural_practices: >-
-      Deep plowing or timely tillage buries adults and pupae under soil too cool for emergence
-      if timing matches local extension advice. Rotate out of Solanaceae so emerging adults
-      meet bare ground. Harvest tubers promptly and remove cull piles that act as larvae
-      condos. Solarize or flood fields in highland systems only where water and regulations allow.
-      Clean seed tubers reduce movement of hidden larvae.
-    mechanical_physical: >-
-      Trenches lined with vertical plastic sheeting block walking adults from migrating along
-      soil surface -- labor-heavy but used in Andean valleys. Hand-collect adults at peak flight
-      during cool mornings; they drop when startled. Sift soil from machinery tires before moving
-      between fields to avoid carrying pupae. Some farmers tarp infested lots under hot sun when
-      local rules allow.
-    organic_sprays: >-
-      Neem and botanical oils deter feeding adults when sprayed on foliage and soil contact
-      zones -- repeat after rain. Beauveria and Metarhizium products target adults and larvae
-      when humidity keeps spores viable; night applications help. Combine sprays with tillage;
-      chemistry alone rarely clears a field with heavy pupal banks. Always follow label
-      restrictions for food crops and export markets.
-  natural_enemies:
-  - Ground Beetles (Carabidae)
-  - Entomopathogenic Nematodes
-  - Entomopathogenic Fungi
-  affected_plants:
-  - slug: angels-trumpet
-    name: Angel's Trumpet
-  - slug: ashwagandha
-    name: Ashwagandha
-  - slug: buffalo-bur
-    name: Buffalo Bur
-  - slug: chiltepin-pepper
-    name: Chiltepin Pepper
-  - slug: chiltepin-pepper-tree
-    name: Chiltepin Pepper Tree
-  - slug: chinese-lantern
-    name: Chinese Lantern
-  - slug: coastal-groundcherry
-    name: Coastal Groundcherry
-  - slug: devils-trumpet
-    name: Devil's Trumpet
-  - slug: garden-huckleberry
-    name: Garden Huckleberry
-  - slug: goji-berry
-    name: Goji Berry
-  - slug: ground-cherry
-    name: Ground Cherry
-  - slug: horse-nettle
-    name: Horse Nettle
-  - slug: pepino-melon
-    name: Pepino Melon
-  - slug: potato
-    name: Potato
-  - slug: scarlet-eggplant
-    name: Scarlet Eggplant
-  - slug: wild-eggplant
-    name: Wild Eggplant
-  - slug: wonderberry
-    name: Wonderberry
+name: Andean Potato Weevil
+slug: andean-potato-weevil
+picture: andean_potato_weevil.webp
+scientific_name: Premnotrypes suturicallus
+description: If plants are wilting, notching at the edges, or fruit and roots show
+  hidden feeding damage, andean potato weevil may be the cause. Adults chew above
+  ground while larvae often feed out of sight inside soil, stems, or fruit. Damage
+  builds quietly, then plants crash fast when roots are heavily hit. Act early so
+  a small weevil problem does not become a season-long infestation.
+characteristics: Look for small beetles with a hard body and a distinct snout, usually
+  active at dawn, dusk, or night. Check for crescent-shaped leaf notches, punctures
+  in fruit, or tiny entry holes near stems. In soil or damaged tissue, larvae are
+  often pale, legless, and curved in a C-shape. Fresh chew marks plus snout beetles
+  or C-shaped grubs confirm active weevil pressure.
+symptoms:
+- chewed-stems
+- stem-damage
+- fruit-damage
+- holes-in-leaves
+- root-damage
+control_methods:
+  biological_controls: Entomopathogenic nematodes (Steinernema and Heterorhabditis
+    species) infect larvae and pupae in moist soil when soil temperature stays inside
+    product ranges -- apply after irrigation or rain. Ground beetles and field crickets
+    scavenge eggs and weakened adults near the soil surface. Beauveria bassiana and
+    Metarhizium fungi infect adults and larvae when spores stay moist on the insect
+    body. Nematodes and fungi fail in dry, cold soil; timing is everything.
+  preventive_methods: Quarantine seed potatoes and cull any lot showing weevil emergence
+    holes. Hang pheromone or food-baited traps to map adult flights; spike counts
+    mean harvest sanitation, not luck. Destroy volunteer potatoes and nightshade weeds
+    that bridge generations between seasons. Map infested fields and plant non-hosts
+    for a full year when possible; adults remember coordinates.
+  cultural_practices: Deep plowing or timely tillage buries adults and pupae under
+    soil too cool for emergence if timing matches local extension advice. Rotate out
+    of Solanaceae so emerging adults meet bare ground. Harvest tubers promptly and
+    remove cull piles that act as larvae condos. Solarize or flood fields in highland
+    systems only where water and regulations allow. Clean seed tubers reduce movement
+    of hidden larvae.
+  mechanical_physical: Trenches lined with vertical plastic sheeting block walking
+    adults from migrating along soil surface -- labor-heavy but used in Andean valleys.
+    Hand-collect adults at peak flight during cool mornings; they drop when startled.
+    Sift soil from machinery tires before moving between fields to avoid carrying
+    pupae. Some farmers tarp infested lots under hot sun when local rules allow.
+  organic_sprays: Neem and botanical oils deter feeding adults when sprayed on foliage
+    and soil contact zones -- repeat after rain. Beauveria and Metarhizium products
+    target adults and larvae when humidity keeps spores viable; night applications
+    help. Combine sprays with tillage; chemistry alone rarely clears a field with
+    heavy pupal banks. Always follow label restrictions for food crops and export
+    markets.
+natural_enemies:
+- Ground Beetles (Carabidae)
+- Entomopathogenic Nematodes
+- Entomopathogenic Fungi
+affected_plants:
+- slug: angels-trumpet
+  name: Angel's Trumpet
+- slug: ashwagandha
+  name: Ashwagandha
+- slug: buffalo-bur
+  name: Buffalo Bur
+- slug: chiltepin-pepper
+  name: Chiltepin Pepper
+- slug: chiltepin-pepper-tree
+  name: Chiltepin Pepper Tree
+- slug: chinese-lantern
+  name: Chinese Lantern
+- slug: coastal-groundcherry
+  name: Coastal Groundcherry
+- slug: devils-trumpet
+  name: Devil's Trumpet
+- slug: garden-huckleberry
+  name: Garden Huckleberry
+- slug: goji-berry
+  name: Goji Berry
+- slug: ground-cherry
+  name: Ground Cherry
+- slug: horse-nettle
+  name: Horse Nettle
+- slug: pepino-melon
+  name: Pepino Melon
+- slug: potato
+  name: Potato
+- slug: scarlet-eggplant
+  name: Scarlet Eggplant
+- slug: wild-eggplant
+  name: Wild Eggplant
+- slug: wonderberry
+  name: Wonderberry
+category: pest

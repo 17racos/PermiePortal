@@ -1,77 +1,76 @@
----
-- name: Swede Midge
-  slug: swede-midge
-  picture: swede_midge.webp
-  scientific_name: Contarinia nasturtii
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, swede midge may already be on the
-    plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - yellowing-leaves
-  - wilting
-  - leaf-spots
-  - dropping-leaves
-  control_methods:
-    biological_controls: >-
-      Tiny parasitic wasps attack swede midge larvae inside distorted growing points -- they show
-      up most in diversified farms with hedgerows, not as mail-order fixes for a single hoop
-      house. Ground beetles and rove beetles eat pupae in soil when pupation happens near the
-      surface. Minute pirate bugs eat exposed eggs before larvae tunnel. Broad insecticide sprays
-      during early flushes kill these helpers while midges return on the wind.
-    preventive_methods: >-
-      Adults are weak fliers that emerge from soil in overlapping generations -- scout the heart
-      of young plants for brown scarring and blind heads before heads form. Rotate brassica
-      blocks across the garden; avoid planting fall brassicas downwind of summer brassicas with
-      no break. Destroy crop residue promptly so pupae have fewer overwintering pockets. Fine
-      mesh netting over hoops stops adults if every seam seals.
-    cultural_practices: >-
-      Avoid continuous brassica plantings in the same bed year-round; midges bridge generations on
-      small leaves. Interplanting mustard as a trap crop only works if you kill the trap on
-      schedule; otherwise it becomes a nursery. Keep fertility even; stunted plants show damage
-      sooner because the growing point matters more. In wet seasons, improve drainage so plants
-      do not also rot while midges twist stems.
-    mechanical_physical: >-
-      Row covers on young transplants block adults during first flights -- remove at heading if
-      labels and pollination allow, or hand-pollinate seed crops. Remove and bag the earliest
-      distorted growing points on a few plants to lower local reproduction when numbers are low.
-      Solarizing soil helps only in hot climates with thin pest banks; pair with rotation.
-    organic_sprays: >-
-      Insecticidal soap and neem have limited reach inside distorted tissue -- apply at first
-      adult flight when eggs sit on open leaves, not after heads are blind. Spinosad on labeled
-      crops can help when coverage hits exposed larvae. Repeat after rain; short residual means
-      timing beats brand. Combine sprays with netting; sprays alone in windy fields waste money.
-  natural_enemies:
-  - Parasitic Wasps
-  - Predatory Insects
-  affected_plants:
-  - slug: bok-choy
-    name: Bok Choy
-  - slug: broccoli
-    name: Broccoli
-  - slug: daikon-radish
-    name: Daikon Radish
-  - slug: kale
-    name: Kale
-  - slug: radish
-    name: Radish
-  - slug: sea-kale
-    name: Sea Kale
-  - slug: sea-rocket
-    name: Sea Rocket
-  - slug: sweet-alyssum
-    name: Sweet Alyssum
-  - slug: tree-collard
-    name: Tree Collard
-  - slug: turkish-rocket
-    name: Turkish Rocket
-  - slug: watercress
-    name: Watercress
-  - slug: wild-mustard-greens
-    name: Wild Mustard Greens
+name: Swede Midge
+slug: swede-midge
+picture: swede_midge.webp
+scientific_name: Contarinia nasturtii
+description: If new growth is curling, yellowing, sticky, or chewed, swede midge may
+  already be on the plant. This pest often builds quietly, then damage appears all
+  at once. Feeding stress weakens growth, reduces yield, and opens the door to secondary
+  disease. Early cleanup is much easier than fighting a full population surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- yellowing-leaves
+- wilting
+- leaf-spots
+- dropping-leaves
+control_methods:
+  biological_controls: Tiny parasitic wasps attack swede midge larvae inside distorted
+    growing points -- they show up most in diversified farms with hedgerows, not as
+    mail-order fixes for a single hoop house. Ground beetles and rove beetles eat
+    pupae in soil when pupation happens near the surface. Minute pirate bugs eat exposed
+    eggs before larvae tunnel. Broad insecticide sprays during early flushes kill
+    these helpers while midges return on the wind.
+  preventive_methods: Adults are weak fliers that emerge from soil in overlapping
+    generations -- scout the heart of young plants for brown scarring and blind heads
+    before heads form. Rotate brassica blocks across the garden; avoid planting fall
+    brassicas downwind of summer brassicas with no break. Destroy crop residue promptly
+    so pupae have fewer overwintering pockets. Fine mesh netting over hoops stops
+    adults if every seam seals.
+  cultural_practices: Avoid continuous brassica plantings in the same bed year-round;
+    midges bridge generations on small leaves. Interplanting mustard as a trap crop
+    only works if you kill the trap on schedule; otherwise it becomes a nursery. Keep
+    fertility even; stunted plants show damage sooner because the growing point matters
+    more. In wet seasons, improve drainage so plants do not also rot while midges
+    twist stems.
+  mechanical_physical: Row covers on young transplants block adults during first flights
+    -- remove at heading if labels and pollination allow, or hand-pollinate seed crops.
+    Remove and bag the earliest distorted growing points on a few plants to lower
+    local reproduction when numbers are low. Solarizing soil helps only in hot climates
+    with thin pest banks; pair with rotation.
+  organic_sprays: Insecticidal soap and neem have limited reach inside distorted tissue
+    -- apply at first adult flight when eggs sit on open leaves, not after heads are
+    blind. Spinosad on labeled crops can help when coverage hits exposed larvae. Repeat
+    after rain; short residual means timing beats brand. Combine sprays with netting;
+    sprays alone in windy fields waste money.
+natural_enemies:
+- Parasitic Wasps
+- Predatory Insects
+affected_plants:
+- slug: bok-choy
+  name: Bok Choy
+- slug: broccoli
+  name: Broccoli
+- slug: daikon-radish
+  name: Daikon Radish
+- slug: kale
+  name: Kale
+- slug: radish
+  name: Radish
+- slug: sea-kale
+  name: Sea Kale
+- slug: sea-rocket
+  name: Sea Rocket
+- slug: sweet-alyssum
+  name: Sweet Alyssum
+- slug: tree-collard
+  name: Tree Collard
+- slug: turkish-rocket
+  name: Turkish Rocket
+- slug: watercress
+  name: Watercress
+- slug: wild-mustard-greens
+  name: Wild Mustard Greens
+category: pest

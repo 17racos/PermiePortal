@@ -1,66 +1,59 @@
----
-- name: Plum Curculio
-  slug: plum-curculio
-  picture: plum_curculio.webp
-  scientific_name: Conotrachelus nenuphar
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, plum curculio may already be on the
-    plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - chewed-stems
-  - stem-damage
-  - fruit-damage
-  - holes-in-leaves
-  control_methods:
-    biological_controls: >-
-      Ground beetles, birds, and toads consume plum curculio adults and larvae
-      on the orchard floor — encourage them with permanent diverse groundcover
-      between trees. Chickens allowed supervised access under trees can pick
-      larvae from fallen fruit effectively where food safety permits. Steinernema
-      carpocapsae nematodes applied to soil under trees target larvae that drop
-      to pupate — apply when soil is moist and above 60F (15C). The most
-      important biological strategy is maintaining habitat for ground-dwelling
-      predators that work the orchard floor continuously.
-    preventive_methods: >-
-      Plum curculio adults migrate from woodland edges into orchards at petal
-      fall and make distinctive crescent-shaped egg-laying cuts in young fruit.
-      Finding these cuts on fruit within the first 2-3 weeks after petal fall
-      is the diagnostic sign. Management must begin immediately at petal fall
-      before adults establish — delayed action allows egg-laying that cannot
-      be reversed. Remove and destroy all dropped fruit every 2-3 days during
-      curculio season — this starves larvae and dramatically reduces next year
-      adult population.
-    cultural_practices: >-
-      Daily or every-other-day collection and destruction of dropped fruit is
-      the single most important cultural practice — more impactful than any
-      spray. Mow or mulch under trees to expose fallen fruit and larvae to
-      predators. Prune for open canopy to improve spray coverage. Woodland
-      edges adjacent to orchards are the source of migrating adults — a buffer
-      of mowed grass between woods and orchard slows invasion.
-    mechanical_physical: >-
-      Shake adult curculios from dwarf trees onto ground cloths in cool mornings
-      when adults are sluggish — collect and destroy. Feasible for small plantings
-      and surprisingly effective. Kaolin clay particle film on fruit deters
-      feeding and egg-laying — apply before migration at petal fall and maintain
-      after rain. Individual fruit bagging excludes curculio completely for
-      small high-value plantings.
-    organic_sprays: >-
-      Kaolin clay (Surround) is the most effective organic spray for plum
-      curculio — begin applications at petal fall before adults arrive and
-      reapply every 7-10 days and after rain, coating all fruit surfaces and
-      stems thoroughly. Spinosad provides knockdown of adults during peak
-      migration — apply at dusk to minimize bee exposure. Pyrethrin provides
-      quick knockdown but degrades in hours — last resort only at dusk. No
-      spray substitutes for daily dropped fruit removal.
-  natural_enemies:
-  - Insectivorous Birds
-  - Ground Beetles (Carabidae)
-  - Toads and Frogs (Anura)
-  - Ants (Formicidae)
+name: Plum Curculio
+slug: plum-curculio
+picture: plum_curculio.webp
+scientific_name: Conotrachelus nenuphar
+description: If new growth is curling, yellowing, sticky, or chewed, plum curculio
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- chewed-stems
+- stem-damage
+- fruit-damage
+- holes-in-leaves
+control_methods:
+  biological_controls: Ground beetles, birds, and toads consume plum curculio adults
+    and larvae on the orchard floor — encourage them with permanent diverse groundcover
+    between trees. Chickens allowed supervised access under trees can pick larvae
+    from fallen fruit effectively where food safety permits. Steinernema carpocapsae
+    nematodes applied to soil under trees target larvae that drop to pupate — apply
+    when soil is moist and above 60F (15C). The most important biological strategy
+    is maintaining habitat for ground-dwelling predators that work the orchard floor
+    continuously.
+  preventive_methods: Plum curculio adults migrate from woodland edges into orchards
+    at petal fall and make distinctive crescent-shaped egg-laying cuts in young fruit.
+    Finding these cuts on fruit within the first 2-3 weeks after petal fall is the
+    diagnostic sign. Management must begin immediately at petal fall before adults
+    establish — delayed action allows egg-laying that cannot be reversed. Remove and
+    destroy all dropped fruit every 2-3 days during curculio season — this starves
+    larvae and dramatically reduces next year adult population.
+  cultural_practices: Daily or every-other-day collection and destruction of dropped
+    fruit is the single most important cultural practice — more impactful than any
+    spray. Mow or mulch under trees to expose fallen fruit and larvae to predators.
+    Prune for open canopy to improve spray coverage. Woodland edges adjacent to orchards
+    are the source of migrating adults — a buffer of mowed grass between woods and
+    orchard slows invasion.
+  mechanical_physical: Shake adult curculios from dwarf trees onto ground cloths in
+    cool mornings when adults are sluggish — collect and destroy. Feasible for small
+    plantings and surprisingly effective. Kaolin clay particle film on fruit deters
+    feeding and egg-laying — apply before migration at petal fall and maintain after
+    rain. Individual fruit bagging excludes curculio completely for small high-value
+    plantings.
+  organic_sprays: Kaolin clay (Surround) is the most effective organic spray for plum
+    curculio — begin applications at petal fall before adults arrive and reapply every
+    7-10 days and after rain, coating all fruit surfaces and stems thoroughly. Spinosad
+    provides knockdown of adults during peak migration — apply at dusk to minimize
+    bee exposure. Pyrethrin provides quick knockdown but degrades in hours — last
+    resort only at dusk. No spray substitutes for daily dropped fruit removal.
+natural_enemies:
+- Insectivorous Birds
+- Ground Beetles (Carabidae)
+- Toads and Frogs (Anura)
+- Ants (Formicidae)
+category: pest

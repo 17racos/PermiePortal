@@ -1,69 +1,62 @@
----
-- name: Mealybugs
-  slug: mealybugs
-  picture: mealybugs.webp
-  scientific_name: Pseudococcidae
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, mealybugs may already be on the
-    plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - sticky-residue
-  - yellowing-leaves
-  - distorted-growth
-  - sooty-deposits
-  control_methods:
-    biological_controls: >-
-      Cryptolaemus montrouzieri (the mealybug destroyer) is a small ladybug that
-      specifically eats mealybugs and can be purchased and released successfully —
-      one of the few commercially available beneficials that works reliably. Release
-      2-5 per infested plant in the evening, mist the plant first for humidity, and
-      do not spray anything for 3 weeks. Parasitic wasps in the Leptomastix and
-      Anagyrus genera also target mealybugs — attract them with dill, fennel, and
-      sweet alyssum flowers nearby. Like scale, ants protect mealybug colonies from
-      predators — managing ant access with sticky trunk barriers dramatically
-      improves natural control effectiveness.
-    preventive_methods: >-
-      Mealybugs spread almost exclusively through infested plant material — inspect
-      every new plant carefully, especially in leaf axils, root crowns, and where
-      leaves meet stems. They hide in protected crevices. Sticky white cottony masses
-      in leaf joints are the obvious sign, but check roots too — root mealybugs live
-      underground and are missed until the plant mysteriously declines. Mealybugs
-      thrive in warm, humid conditions with excess nitrogen — overfed plants in warm
-      greenhouses are highest risk. Quarantine all new plants for 2 weeks before
-      placing them near established plants.
-    cultural_practices: >-
-      Remove heavily infested plant parts immediately and bag them — mealybugs survive
-      composting and will re-infesarming mealybugs must
-      be controlled: sticky trunk barriers prevent ant access and allow natural predators
-      to reach mealybug colonies. Space plants for air circulation — crowded conditions
-      favor rapid spread. For potted plants, check root zones at repotting: root
-      mealybugs look like white cottony material on roots and require soil drench
-      treatment, not surface sprays.
-    mechanical_physical: >-
-      Rubbing alcohol on a cotton swab kills mealybugs on contact and penetrates the
-      waxy coating — the most precise tool for light infestations on houseplants or
-      in plant crevices where sprays cannot reach. Dab directly on each white cottony
-      mass. A strong water spray dislodges mobile crawlers before they settle. For
-      heavy infestations, physically removing and disposing of the most infested parts
-      before spraying improves spray effectiveness dramatically — sprays cannot
-      penetrate deep into thick mealybug colonies.
-    organic_sprays: >-
-      Rubbing alcohol diluted 1:1 with water as a spray dissolves the waxy coating
-      and kills mealybugs on contact — more effective than soap alone for this pest.
-      Test on a few leaves first, as some plants are alcohol-sensitive. Neem oil mixed
-      with castile soap (1 tablespoon neem plus 1 teaspoon soap per quart warm water)
-      disrupts mealybug hormone systems and prevents reproduction — apply every 7 days,
-      coating leaf undersides, stem joints, and all crevices thoroughly. Insecticidal
-      soap alone is less effective on mealybugs than on softer pests because the waxy
-      coating resists penetration. Always spray at dusk to avoid harming beneficials.
-  natural_enemies:
-  - Ladybugs
-  - Lacewings
-  - Parasitic Wasps
+name: Mealybugs
+slug: mealybugs
+picture: mealybugs.webp
+scientific_name: Pseudococcidae
+description: If new growth is curling, yellowing, sticky, or chewed, mealybugs may
+  already be on the plant. This pest often builds quietly, then damage appears all
+  at once. Feeding stress weakens growth, reduces yield, and opens the door to secondary
+  disease. Early cleanup is much easier than fighting a full population surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- sticky-residue
+- yellowing-leaves
+- distorted-growth
+- sooty-deposits
+control_methods:
+  biological_controls: Cryptolaemus montrouzieri (the mealybug destroyer) is a small
+    ladybug that specifically eats mealybugs and can be purchased and released successfully
+    — one of the few commercially available beneficials that works reliably. Release
+    2-5 per infested plant in the evening, mist the plant first for humidity, and
+    do not spray anything for 3 weeks. Parasitic wasps in the Leptomastix and Anagyrus
+    genera also target mealybugs — attract them with dill, fennel, and sweet alyssum
+    flowers nearby. Like scale, ants protect mealybug colonies from predators — managing
+    ant access with sticky trunk barriers dramatically improves natural control effectiveness.
+  preventive_methods: Mealybugs spread almost exclusively through infested plant material
+    — inspect every new plant carefully, especially in leaf axils, root crowns, and
+    where leaves meet stems. They hide in protected crevices. Sticky white cottony
+    masses in leaf joints are the obvious sign, but check roots too — root mealybugs
+    live underground and are missed until the plant mysteriously declines. Mealybugs
+    thrive in warm, humid conditions with excess nitrogen — overfed plants in warm
+    greenhouses are highest risk. Quarantine all new plants for 2 weeks before placing
+    them near established plants.
+  cultural_practices: 'Remove heavily infested plant parts immediately and bag them
+    — mealybugs survive composting and will re-infesarming mealybugs must be controlled:
+    sticky trunk barriers prevent ant access and allow natural predators to reach
+    mealybug colonies. Space plants for air circulation — crowded conditions favor
+    rapid spread. For potted plants, check root zones at repotting: root mealybugs
+    look like white cottony material on roots and require soil drench treatment, not
+    surface sprays.'
+  mechanical_physical: Rubbing alcohol on a cotton swab kills mealybugs on contact
+    and penetrates the waxy coating — the most precise tool for light infestations
+    on houseplants or in plant crevices where sprays cannot reach. Dab directly on
+    each white cottony mass. A strong water spray dislodges mobile crawlers before
+    they settle. For heavy infestations, physically removing and disposing of the
+    most infested parts before spraying improves spray effectiveness dramatically
+    — sprays cannot penetrate deep into thick mealybug colonies.
+  organic_sprays: Rubbing alcohol diluted 1:1 with water as a spray dissolves the
+    waxy coating and kills mealybugs on contact — more effective than soap alone for
+    this pest. Test on a few leaves first, as some plants are alcohol-sensitive. Neem
+    oil mixed with castile soap (1 tablespoon neem plus 1 teaspoon soap per quart
+    warm water) disrupts mealybug hormone systems and prevents reproduction — apply
+    every 7 days, coating leaf undersides, stem joints, and all crevices thoroughly.
+    Insecticidal soap alone is less effective on mealybugs than on softer pests because
+    the waxy coating resists penetration. Always spray at dusk to avoid harming beneficials.
+natural_enemies:
+- Ladybugs
+- Lacewings
+- Parasitic Wasps
+category: pest

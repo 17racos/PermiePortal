@@ -1,78 +1,76 @@
----
-- name: Cabbage Root Maggots
-  slug: cabbage-root-maggots
-  picture: cabbage_root_maggots.webp
-  scientific_name: Delia radicum
-  description: >-
-    If leaves show trails, fruit turns soft, or roots collapse from inside, cabbage root maggots
-    may already be feeding. The larval stage does most of the damage, often hidden where you
-    cannot see it at first glance. By the time yellowing or rot appears, feeding may be well
-    underway. Move quickly when symptoms begin to prevent another wave of eggs and larvae.
-  characteristics: >-
-    Watch for tiny eggs near plant tissue, pale legless larvae inside mines or fruit, and sudden
-    soft spots or tunnels. Adults are usually small flies that hover or dart when disturbed.
-    Check around wounds, blossoms, and moist plant debris where egg-laying is common. Cut open
-    suspect tissue: live maggots or fresh tunnels are the clearest field confirmation.
-  symptoms:
-  - root-damage
-  - wilting
-  - yellowing-leaves
-  - holes-in-leaves
-  control_methods:
-    biological_controls: >-
-      Parasitic nematodes labeled for soil-dwelling fly larvae can infect cabbage maggot larvae
-      when soil temperature and moisture match product windows -- apply right after transplant or
-      thinning injury. Ground beetles eat eggs near the soil surface. Microbial antagonists show
-      up in research trials; field results swing with organic matter and tillage. Nematodes fail
-      in dry sand or cold mud; read soil thermometers, not calendars.
-    preventive_methods: >-
-      Adult flies lay eggs at the stem base -- rotate brassica blocks yearly and remove old
-      residue so pupae have fewer overwintering sites. Tar paper or cardboard collars around stems
-      block egg-lay at ground line when installed dry and tight. Monitor fields at transplant;
-      first wilting flags maggot injury before heads form. Avoid planting fall brassicas straight
-      into spring brassica residue without a break.
-    cultural_practices: >-
-      Intercropping alone does not repel maggots; use rotation, collars, and timing instead.
-      Incorporate compost to improve soil tilth so roots grow straight; forked roots give larvae
-      more entry. Avoid fresh manure that draws flies; use finished compost. Keep soil moisture
-      even; drought cracks expose crowns.
-    mechanical_physical: >-
-      Floating row covers block adults when edges seal to soil before flight starts -- remove
-      when covers interfere with growth or use hoops tall enough for full season. Soil
-      solarization helps in hot climates if you can tarp fields weeks ahead; impractical in cool
-      maritime zones. Diatomaceous earth around stems abrades adults crawling to lay eggs if kept
-      dry.
-    organic_sprays: >-
-      Neem soil drenches or labeled biological nematicides sometimes suppress larvae when applied
-      at egg hatch -- results vary. Compost teas are inconsistent unless you know the biology;
-      test on a corner first. Spinosad targets adults on foliage in some programs; read labels.
-      Combine any spray with collars and sanitation; liquids alone rarely fix maggot pressure.
-  natural_enemies:
-  - Parasitic Nematodes
-  - Predatory Beetles
-  - Ground Beetles
-  affected_plants:
-  - slug: bok-choy
-    name: Bok Choy
-  - slug: broccoli
-    name: Broccoli
-  - slug: daikon-radish
-    name: Daikon Radish
-  - slug: kale
-    name: Kale
-  - slug: radish
-    name: Radish
-  - slug: sea-kale
-    name: Sea Kale
-  - slug: sea-rocket
-    name: Sea Rocket
-  - slug: sweet-alyssum
-    name: Sweet Alyssum
-  - slug: tree-collard
-    name: Tree Collard
-  - slug: turkish-rocket
-    name: Turkish Rocket
-  - slug: watercress
-    name: Watercress
-  - slug: wild-mustard-greens
-    name: Wild Mustard Greens
+name: Cabbage Root Maggots
+slug: cabbage-root-maggots
+picture: cabbage_root_maggots.webp
+scientific_name: Delia radicum
+description: If leaves show trails, fruit turns soft, or roots collapse from inside,
+  cabbage root maggots may already be feeding. The larval stage does most of the damage,
+  often hidden where you cannot see it at first glance. By the time yellowing or rot
+  appears, feeding may be well underway. Move quickly when symptoms begin to prevent
+  another wave of eggs and larvae.
+characteristics: 'Watch for tiny eggs near plant tissue, pale legless larvae inside
+  mines or fruit, and sudden soft spots or tunnels. Adults are usually small flies
+  that hover or dart when disturbed. Check around wounds, blossoms, and moist plant
+  debris where egg-laying is common. Cut open suspect tissue: live maggots or fresh
+  tunnels are the clearest field confirmation.'
+symptoms:
+- root-damage
+- wilting
+- yellowing-leaves
+- holes-in-leaves
+control_methods:
+  biological_controls: Parasitic nematodes labeled for soil-dwelling fly larvae can
+    infect cabbage maggot larvae when soil temperature and moisture match product
+    windows -- apply right after transplant or thinning injury. Ground beetles eat
+    eggs near the soil surface. Microbial antagonists show up in research trials;
+    field results swing with organic matter and tillage. Nematodes fail in dry sand
+    or cold mud; read soil thermometers, not calendars.
+  preventive_methods: Adult flies lay eggs at the stem base -- rotate brassica blocks
+    yearly and remove old residue so pupae have fewer overwintering sites. Tar paper
+    or cardboard collars around stems block egg-lay at ground line when installed
+    dry and tight. Monitor fields at transplant; first wilting flags maggot injury
+    before heads form. Avoid planting fall brassicas straight into spring brassica
+    residue without a break.
+  cultural_practices: Intercropping alone does not repel maggots; use rotation, collars,
+    and timing instead. Incorporate compost to improve soil tilth so roots grow straight;
+    forked roots give larvae more entry. Avoid fresh manure that draws flies; use
+    finished compost. Keep soil moisture even; drought cracks expose crowns.
+  mechanical_physical: Floating row covers block adults when edges seal to soil before
+    flight starts -- remove when covers interfere with growth or use hoops tall enough
+    for full season. Soil solarization helps in hot climates if you can tarp fields
+    weeks ahead; impractical in cool maritime zones. Diatomaceous earth around stems
+    abrades adults crawling to lay eggs if kept dry.
+  organic_sprays: Neem soil drenches or labeled biological nematicides sometimes suppress
+    larvae when applied at egg hatch -- results vary. Compost teas are inconsistent
+    unless you know the biology; test on a corner first. Spinosad targets adults on
+    foliage in some programs; read labels. Combine any spray with collars and sanitation;
+    liquids alone rarely fix maggot pressure.
+natural_enemies:
+- Parasitic Nematodes
+- Predatory Beetles
+- Ground Beetles
+affected_plants:
+- slug: bok-choy
+  name: Bok Choy
+- slug: broccoli
+  name: Broccoli
+- slug: daikon-radish
+  name: Daikon Radish
+- slug: kale
+  name: Kale
+- slug: radish
+  name: Radish
+- slug: sea-kale
+  name: Sea Kale
+- slug: sea-rocket
+  name: Sea Rocket
+- slug: sweet-alyssum
+  name: Sweet Alyssum
+- slug: tree-collard
+  name: Tree Collard
+- slug: turkish-rocket
+  name: Turkish Rocket
+- slug: watercress
+  name: Watercress
+- slug: wild-mustard-greens
+  name: Wild Mustard Greens
+category: pest

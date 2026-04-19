@@ -1,107 +1,103 @@
----
-- name: Citrus Mealybug
-  slug: citrus-mealybug
-  picture: citrus_mealybug.webp
-  scientific_name: Planococcus citri
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, citrus mealybug may already be on
-    the plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - sticky-residue
-  - yellowing-leaves
-  - distorted-growth
-  - sooty-deposits
-  control_methods:
-    biological_controls: >-
-      Cryptolaemus montrouzieri (the mealybug destroyer ladybug) is commercially
-      available and highly effective on citrus mealybug -- release 2-5 per infested
-      tree in the evening. Parasitoid wasps (Anagyrus pseudococci, Leptomastix
-      dactylopii) also provide significant control where ants are managed. Ants
-      protect mealybug colonies from all natural enemies in exchange for honeydew -- 
-      managing ant access is the most critical step to allow biological control to work.
-      Apply sticky trunk barriers to prevent ant access and watch mealybug populations
-      come under natural control within weeks.
-    preventive_methods: >-
-      Citrus mealybug spreads primarily on infested nursery stock and on ant activity
-      carrying crawlers between trees. Inspect all new trees before planting. Sticky
-      trunk barriers preventing ant access are the most important preventive measure -- 
-      ants protect mealybug from every natural enemy and without ants, populations
-      rarely reach damaging levels. Monitor for sticky honeydew on leaves and fruit
-      below infested areas and for white cottony masses in branch crotches.
-    cultural_practices: >-
-      Install and maintain sticky trunk barriers to exclude ants from the tree
-      canopy -- this single action dramatically reduces mealybug pressure by exposing
-      colonies to natural enemies. Prune crowded interior branches to improve spray
-      penetration and predator access. Remove heavily infested branches during dormant
-      season. Avoid excess nitrogen which produces the soft growth mealybugs prefer.
-    mechanical_physical: >-
-      Scrub localized colonies with a toothbrush or cotton swab dipped in 70% rubbing
-      alcohol -- kills mealybugs on contact and dissolves the waxy coating. Effective
-      for light infestations on accessible branches. A strong water spray dislodges
-      crawlers before they settle. Sticky trunk barriers preventing ant access are the
-      most impactful mechanical intervention.
-    organic_sprays: >-
-      Insecticidal soap plus neem oil combination applied with thorough coverage into
-      branch crotches and leaf axils where mealybugs cluster -- neem penetrates waxy
-      coating better than soap alone. Apply every 7-10 days for 3 weeks to catch
-      crawlers as they emerge. Rubbing alcohol diluted 1:1 with water kills mealybugs
-      on contact more effectively than soap on hard-to-reach colonies. Apply at dusk
-      to protect beneficial insects.
-  natural_enemies:
-  - Cryptolaemus montrouzieri
-  - Parasitic Wasps
-  - Lacewings
-  affected_plants:
-  - slug: bael-fruit
-    name: Bael Fruit
-  - slug: bengal-quince
-    name: Bengal Quince
-  - slug: bitter-orange
-    name: Bitter Orange
-  - slug: buddha-hand
-    name: Buddha Hand
-  - slug: calamondin
-    name: Calamondin
-  - slug: citron
-    name: Citron
-  - slug: curry-leaf-tree
-    name: Curry Leaf Tree
-  - slug: finger-lime
-    name: Finger Lime
-  - slug: hercules-club
-    name: Hercules Club
-  - slug: kaffir-lime
-    name: Kaffir Lime
-  - slug: kumquat
-    name: Kumquat
-  - slug: lemon-tree
-    name: Lemon Tree
-  - slug: lime-tree
-    name: Lime Tree
-  - slug: pomelo
-    name: Pomelo
-  - slug: prickly-ash
-    name: Prickly Ash
-  - slug: rangpur-lime
-    name: Rangpur Lime
-  - slug: rue
-    name: Rue
-  - slug: sour-orange
-    name: Sour Orange
-  - slug: tangerine
-    name: Tangerine
-  - slug: white-sapote
-    name: White Sapote
-  - slug: wild-lime
-    name: Wild Lime
-  - slug: wood-apple
-    name: Wood Apple
-  - slug: yuzu
-    name: Yuzu
+name: Citrus Mealybug
+slug: citrus-mealybug
+picture: citrus_mealybug.webp
+scientific_name: Planococcus citri
+description: If new growth is curling, yellowing, sticky, or chewed, citrus mealybug
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- sticky-residue
+- yellowing-leaves
+- distorted-growth
+- sooty-deposits
+control_methods:
+  biological_controls: Cryptolaemus montrouzieri (the mealybug destroyer ladybug)
+    is commercially available and highly effective on citrus mealybug -- release 2-5
+    per infested tree in the evening. Parasitoid wasps (Anagyrus pseudococci, Leptomastix
+    dactylopii) also provide significant control where ants are managed. Ants protect
+    mealybug colonies from all natural enemies in exchange for honeydew --  managing
+    ant access is the most critical step to allow biological control to work. Apply
+    sticky trunk barriers to prevent ant access and watch mealybug populations come
+    under natural control within weeks.
+  preventive_methods: Citrus mealybug spreads primarily on infested nursery stock
+    and on ant activity carrying crawlers between trees. Inspect all new trees before
+    planting. Sticky trunk barriers preventing ant access are the most important preventive
+    measure --  ants protect mealybug from every natural enemy and without ants, populations
+    rarely reach damaging levels. Monitor for sticky honeydew on leaves and fruit
+    below infested areas and for white cottony masses in branch crotches.
+  cultural_practices: Install and maintain sticky trunk barriers to exclude ants from
+    the tree canopy -- this single action dramatically reduces mealybug pressure by
+    exposing colonies to natural enemies. Prune crowded interior branches to improve
+    spray penetration and predator access. Remove heavily infested branches during
+    dormant season. Avoid excess nitrogen which produces the soft growth mealybugs
+    prefer.
+  mechanical_physical: Scrub localized colonies with a toothbrush or cotton swab dipped
+    in 70% rubbing alcohol -- kills mealybugs on contact and dissolves the waxy coating.
+    Effective for light infestations on accessible branches. A strong water spray
+    dislodges crawlers before they settle. Sticky trunk barriers preventing ant access
+    are the most impactful mechanical intervention.
+  organic_sprays: Insecticidal soap plus neem oil combination applied with thorough
+    coverage into branch crotches and leaf axils where mealybugs cluster -- neem penetrates
+    waxy coating better than soap alone. Apply every 7-10 days for 3 weeks to catch
+    crawlers as they emerge. Rubbing alcohol diluted 1:1 with water kills mealybugs
+    on contact more effectively than soap on hard-to-reach colonies. Apply at dusk
+    to protect beneficial insects.
+natural_enemies:
+- Cryptolaemus montrouzieri
+- Parasitic Wasps
+- Lacewings
+affected_plants:
+- slug: bael-fruit
+  name: Bael Fruit
+- slug: bengal-quince
+  name: Bengal Quince
+- slug: bitter-orange
+  name: Bitter Orange
+- slug: buddha-hand
+  name: Buddha Hand
+- slug: calamondin
+  name: Calamondin
+- slug: citron
+  name: Citron
+- slug: curry-leaf-tree
+  name: Curry Leaf Tree
+- slug: finger-lime
+  name: Finger Lime
+- slug: hercules-club
+  name: Hercules Club
+- slug: kaffir-lime
+  name: Kaffir Lime
+- slug: kumquat
+  name: Kumquat
+- slug: lemon-tree
+  name: Lemon Tree
+- slug: lime-tree
+  name: Lime Tree
+- slug: pomelo
+  name: Pomelo
+- slug: prickly-ash
+  name: Prickly Ash
+- slug: rangpur-lime
+  name: Rangpur Lime
+- slug: rue
+  name: Rue
+- slug: sour-orange
+  name: Sour Orange
+- slug: tangerine
+  name: Tangerine
+- slug: white-sapote
+  name: White Sapote
+- slug: wild-lime
+  name: Wild Lime
+- slug: wood-apple
+  name: Wood Apple
+- slug: yuzu
+  name: Yuzu
+category: pest

@@ -1,68 +1,67 @@
----
-- name: Onion Fly
-  slug: onion-fly
-  picture: onion_fly.webp
-  scientific_name: Delia antiqua
-  description: >-
-    If leaves show trails, fruit turns soft, or roots collapse from inside, onion fly may
-    already be feeding. The larval stage does most of the damage, often hidden where you cannot
-    see it at first glance. By the time yellowing or rot appears, feeding may be well underway.
-    Move quickly when symptoms begin to prevent another wave of eggs and larvae.
-  characteristics: >-
-    Watch for tiny eggs near plant tissue, pale legless larvae inside mines or fruit, and sudden
-    soft spots or tunnels. Adults are usually small flies that hover or dart when disturbed.
-    Check around wounds, blossoms, and moist plant debris where egg-laying is common. Cut open
-    suspect tissue: live maggots or fresh tunnels are the clearest field confirmation.
-  symptoms:
-  - root-damage
-  - wilting
-  - yellowing-leaves
-  - holes-in-leaves
-  control_methods:
-    biological_controls: >-
-      Rove beetles and ground beetles scavenge eggs and young maggots at the soil line. Parasitic
-      wasps such as Aphaereta species attack pupae in soil when diverse fields support them.
-      Steinernema feltiae nematodes infect larvae in moist soil when temperatures stay in range.
-      Nematodes and wasps starve if you spray pyrethrin weekly across bare dirt between rows.
-    preventive_methods: >-
-      Avoid fresh manure before allium beds; it attracts flies and holds moisture oddly. Use
-      clean sets and transplants from reputable sources. Scout stem bases for eggs in soil cracks
-      after rain -- first flags are often nothing, then sudden collapse. Map problem fields and
-      deep-plow residue only where erosion rules allow.
-    cultural_practices: >-
-      Rotate alliums on at least a three-year cycle in gardens; longer on organic farms with
-      history. Delay planting until soils warm so seedlings size up before peak fly windows.
-      Interplanting carrots does not hide onions from flies -- use rotation and covers instead.
-      Destroy culls and bolting onions that perfume the air for miles.
-    mechanical_physical: >-
-      Floating row covers sealed at soil line exclude females completely on home scales -- vent
-      on hot days so onions do not cook. Fine mesh over seedbeds until plants size up stops
-      early flights. Stem collars add insurance when combined with sanitation.
-    organic_sprays: >-
-      Spinosad or neem directed at the base of plants during egg-laying windows contact adults
-      resting low -- spray calm evenings. Insecticidal soap has limited reach below leaves;
-      focus spray on soil line and repeat after heavy rain per label. Soil drenches pair with
-      nematodes when labels allow. Combine any spray with row cover removal only when you accept
-      risk.
-  natural_enemies:
-  - Parasitic Wasps (Braconidae)
-  - Rove Beetles (Staphylinidae)
-  - Ground Beetles (Carabidae)
-  - Entomopathogenic Nematodes
-  affected_plants:
-  - slug: chives
-    name: Chives
-  - slug: garlic
-    name: Garlic
-  - slug: onion
-    name: Onion
-  - slug: perennial-leek
-    name: Perennial Leek
-  - slug: ramps
-    name: Ramps
-  - slug: society-garlic
-    name: Society Garlic
-  - slug: walking-onion
-    name: Walking Onion
-  - slug: wild-leek
-    name: Wild Leek
+name: Onion Fly
+slug: onion-fly
+picture: onion_fly.webp
+scientific_name: Delia antiqua
+description: If leaves show trails, fruit turns soft, or roots collapse from inside,
+  onion fly may already be feeding. The larval stage does most of the damage, often
+  hidden where you cannot see it at first glance. By the time yellowing or rot appears,
+  feeding may be well underway. Move quickly when symptoms begin to prevent another
+  wave of eggs and larvae.
+characteristics: 'Watch for tiny eggs near plant tissue, pale legless larvae inside
+  mines or fruit, and sudden soft spots or tunnels. Adults are usually small flies
+  that hover or dart when disturbed. Check around wounds, blossoms, and moist plant
+  debris where egg-laying is common. Cut open suspect tissue: live maggots or fresh
+  tunnels are the clearest field confirmation.'
+symptoms:
+- root-damage
+- wilting
+- yellowing-leaves
+- holes-in-leaves
+control_methods:
+  biological_controls: Rove beetles and ground beetles scavenge eggs and young maggots
+    at the soil line. Parasitic wasps such as Aphaereta species attack pupae in soil
+    when diverse fields support them. Steinernema feltiae nematodes infect larvae
+    in moist soil when temperatures stay in range. Nematodes and wasps starve if you
+    spray pyrethrin weekly across bare dirt between rows.
+  preventive_methods: Avoid fresh manure before allium beds; it attracts flies and
+    holds moisture oddly. Use clean sets and transplants from reputable sources. Scout
+    stem bases for eggs in soil cracks after rain -- first flags are often nothing,
+    then sudden collapse. Map problem fields and deep-plow residue only where erosion
+    rules allow.
+  cultural_practices: Rotate alliums on at least a three-year cycle in gardens; longer
+    on organic farms with history. Delay planting until soils warm so seedlings size
+    up before peak fly windows. Interplanting carrots does not hide onions from flies
+    -- use rotation and covers instead. Destroy culls and bolting onions that perfume
+    the air for miles.
+  mechanical_physical: Floating row covers sealed at soil line exclude females completely
+    on home scales -- vent on hot days so onions do not cook. Fine mesh over seedbeds
+    until plants size up stops early flights. Stem collars add insurance when combined
+    with sanitation.
+  organic_sprays: Spinosad or neem directed at the base of plants during egg-laying
+    windows contact adults resting low -- spray calm evenings. Insecticidal soap has
+    limited reach below leaves; focus spray on soil line and repeat after heavy rain
+    per label. Soil drenches pair with nematodes when labels allow. Combine any spray
+    with row cover removal only when you accept risk.
+natural_enemies:
+- Parasitic Wasps (Braconidae)
+- Rove Beetles (Staphylinidae)
+- Ground Beetles (Carabidae)
+- Entomopathogenic Nematodes
+affected_plants:
+- slug: chives
+  name: Chives
+- slug: garlic
+  name: Garlic
+- slug: onion
+  name: Onion
+- slug: perennial-leek
+  name: Perennial Leek
+- slug: ramps
+  name: Ramps
+- slug: society-garlic
+  name: Society Garlic
+- slug: walking-onion
+  name: Walking Onion
+- slug: wild-leek
+  name: Wild Leek
+category: pest

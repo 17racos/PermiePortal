@@ -1,194 +1,193 @@
----
-- name: Raspberry Cane Borer
-  slug: raspberry-cane-borer
-  picture: raspberry_cane_borer.webp
-  scientific_name: Oberea perspicillata
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, raspberry cane borer may already be
-    on the plant. This pest often builds quietly, then damage appears all at once. Feeding
-    stress weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup
-    is much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - tunneling
-  - stem-damage
-  - wilting
-  - die-back
-  - bark-damage
-  control_methods:
-    biological_controls: >-
-      Woodpeckers and small parasitic wasps sometimes probe soft galls and pull out longhorn
-      larvae, but only when galls stay thin enough to crack -- deep galls hide larvae from
-      everyone. Diverse hedgerows with blooming plants support generalist predators that intercept
-      adult beetles resting on leaves. Avoid torching every wild blackberry edge; some of those
-      thickets feed birds that also hunt your field. You cannot buy a reliable commercial
-      parasitoid for this pest at backyard scale -- habitat and sanitation do most of the
-      biological work.
-    preventive_methods: >-
-      Adults lay eggs on primocanes in late spring and early summer -- walk rows twice a month
-      from knee height to flowering and slide a hand up each new cane feeling for odd swellings or
-      a sudden change from smooth to lumpy. Flag canes with fresh punctures before galls harden.
-      Train pickers to speak up when a cane feels corky during harvest -- that is often the first
-      large-scale detection. Mark problem rows on a map so you cut those first next winter.
-      If regional trials list cultivars with tighter bark or less attraction, prioritize them
-      when you replant.
-    cultural_practices: >-
-      Cut infested canes at soil line as soon as you find galls in summer, or during dormancy if
-      you flagged them earlier -- larvae tunnel down, so low cuts remove the feeding stage.
-      Chip, burn, or hot-compost debris; do not lay whole galled canes in a loose brush pile near
-      the patch. Thin rows so scouts can see both sides of each cane without wrestling thorns.
-      After renovation, fertilize evenly; wildly soft, fast growth can make oviposition scars
-      harder to spot until it is too late. Manage wild Rubus along fence lines when those banks
-      act as uninterrupted beetle reservoirs touching your field.
-    mechanical_physical: >-
-      On a backyard hill, saw out galled sections and bag them immediately so adult beetles cannot
-      emerge inches from new primocanes. For larger bramble yards, mowing unmanaged Rubus outside
-      the planting reduces adult resting spots, balanced against erosion and wildlife goals.
-      Install T-posts and trellis wires so canes stand at angles you can inspect quickly -- flat
-      horizontal systems hide swellings on the underside. If you catch a cane with only a pinhole
-      and watery stain, cut six inches below the stain; waiting until the gall is walnut-sized
-      means the larva already bored toward the crown.
-    organic_sprays: >-
-      Insecticidal soap and neem can reach larvae only while they are shallow under the bark --
-      spray within days of the first swelling when entry holes still weep. Later, sprays mostly
-      waste money because the larva tunnels toward the pith. Spinosad or pyrethrin on young
-      canes may knock down adult beetles during flight if labels allow brambles, but timing is
-      tight and weather washes products fast. If you spray, coat the full cane from ground to
-      tip and repeat after rain. Treat sprays as backup to cutting -- the real fix is removing
-      galled wood before larvae pupate.
-  affected_plants:
-  - slug: raspberry
-    name: Raspberry
-  - slug: chickasaw-blackberry
-    name: Chickasaw Blackberry
-  - slug: sand-blackberry
-    name: Sand Blackberry
-  - slug: agrimony
-    name: Agrimony
-  - slug: allegheny-serviceberry
-    name: Allegheny Serviceberry
-  - slug: almond-tree
-    name: Almond Tree
-  - slug: american-beauty-plum
-    name: American Beauty Plum
-  - slug: american-hawthorn
-    name: American Hawthorn
-  - slug: american-plum
-    name: American Plum
-  - slug: apple
-    name: Apple
-  - slug: aronia
-    name: Aronia
-  - slug: beach-strawberry
-    name: Beach Strawberry
-  - slug: bearberry-cotoneaster
-    name: Bearberry Cotoneaster
-  - slug: black-chokeberry
-    name: Black Chokeberry
-  - slug: buffalo-plum
-    name: Buffalo Plum
-  - slug: carolina-rose
-    name: Carolina Rose
-  - slug: chickasaw-plum
-    name: Chickasaw Plum
-  - slug: chokeberry
-    name: Chokeberry
-  - slug: climbing-prairie-rose
-    name: Climbing Prairie Rose
-  - slug: cloudberry
-    name: Cloudberry
-  - slug: cockspur-hawthorn
-    name: Cockspur Hawthorn
-  - slug: creeping-raspberry
-    name: Creeping Raspberry
-  - slug: dewberry
-    name: Dewberry
-  - slug: dotted-hawthorn
-    name: Dotted Hawthorn
-  - slug: downy-serviceberry
-    name: Downy Serviceberry
-  - slug: flatwoods-plum
-    name: Flatwoods Plum
-  - slug: frosted-hawthorn
-    name: Frosted Hawthorn
-  - slug: green-hawthorn
-    name: Green Hawthorn
-  - slug: green-apple-tree
-    name: Green Apple Tree
-  - slug: hedge-cotoneaster
-    name: Hedge Cotoneaster
-  - slug: hortulan-plum
-    name: Hortulan Plum
-  - slug: loquat
-    name: Loquat
-  - slug: many-flowered-cotoneaster
-    name: Many Flowered Cotoneaster
-  - slug: mayhaw
-    name: Mayhaw
-  - slug: meadowsweet
-    name: Meadowsweet
-  - slug: munson-plum
-    name: Munson Plum
-  - slug: nectarine-tree
-    name: Nectarine Tree
-  - slug: parsley-hawthorn
-    name: Parsley Hawthorn
-  - slug: pasture-rose
-    name: Pasture Rose
-  - slug: pear-hawthorn
-    name: Pear Hawthorn
-  - slug: pear-tree
-    name: Pear Tree
-  - slug: pineapple-pear
-    name: Pineapple Pear
-  - slug: prairie-crabapple
-    name: Prairie Crabapple
-  - slug: purple-chokeberry
-    name: Purple Chokeberry
-  - slug: red-chokeberry
-    name: Red Chokeberry
-  - slug: red-apple-tree
-    name: Red Apple Tree
-  - slug: rock-cotoneaster
-    name: Rock Cotoneaster
-  - slug: roundleaf-serviceberry
-    name: Roundleaf Serviceberry
-  - slug: running-serviceberry
-    name: Running Serviceberry
-  - slug: sand-cherry
-    name: Sand Cherry
-  - slug: saskatoon-berry
-    name: Saskatoon Berry
-  - slug: serviceberry
-    name: Serviceberry
-  - slug: silverleaf-cotoneaster
-    name: Silverleaf Cotoneaster
-  - slug: smooth-serviceberry
-    name: Smooth Serviceberry
-  - slug: southern-crabapple
-    name: Southern Crabapple
-  - slug: southern-dewberry
-    name: Southern Dewberry
-  - slug: southern-hawthorn
-    name: Southern Hawthorn
-  - slug: strawberry
-    name: Strawberry
-  - slug: swamp-rose
-    name: Swamp Rose
-  - slug: sweet-crabapple
-    name: Sweet Crabapple
-  - slug: virginia-rose
-    name: Virginia Rose
-  - slug: wild-crabapple
-    name: Wild Crabapple
-  - slug: wild-plum
-    name: Wild Plum
-  natural_enemies:
-  - Woodpeckers (Picidae)
-  - Ichneumonid Wasps
-  - Braconid Wasps
-  - Crab Spiders (Thomisidae)
+name: Raspberry Cane Borer
+slug: raspberry-cane-borer
+picture: raspberry_cane_borer.webp
+scientific_name: Oberea perspicillata
+description: If new growth is curling, yellowing, sticky, or chewed, raspberry cane
+  borer may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- tunneling
+- stem-damage
+- wilting
+- die-back
+- bark-damage
+control_methods:
+  biological_controls: Woodpeckers and small parasitic wasps sometimes probe soft
+    galls and pull out longhorn larvae, but only when galls stay thin enough to crack
+    -- deep galls hide larvae from everyone. Diverse hedgerows with blooming plants
+    support generalist predators that intercept adult beetles resting on leaves. Avoid
+    torching every wild blackberry edge; some of those thickets feed birds that also
+    hunt your field. You cannot buy a reliable commercial parasitoid for this pest
+    at backyard scale -- habitat and sanitation do most of the biological work.
+  preventive_methods: Adults lay eggs on primocanes in late spring and early summer
+    -- walk rows twice a month from knee height to flowering and slide a hand up each
+    new cane feeling for odd swellings or a sudden change from smooth to lumpy. Flag
+    canes with fresh punctures before galls harden. Train pickers to speak up when
+    a cane feels corky during harvest -- that is often the first large-scale detection.
+    Mark problem rows on a map so you cut those first next winter. If regional trials
+    list cultivars with tighter bark or less attraction, prioritize them when you
+    replant.
+  cultural_practices: Cut infested canes at soil line as soon as you find galls in
+    summer, or during dormancy if you flagged them earlier -- larvae tunnel down,
+    so low cuts remove the feeding stage. Chip, burn, or hot-compost debris; do not
+    lay whole galled canes in a loose brush pile near the patch. Thin rows so scouts
+    can see both sides of each cane without wrestling thorns. After renovation, fertilize
+    evenly; wildly soft, fast growth can make oviposition scars harder to spot until
+    it is too late. Manage wild Rubus along fence lines when those banks act as uninterrupted
+    beetle reservoirs touching your field.
+  mechanical_physical: On a backyard hill, saw out galled sections and bag them immediately
+    so adult beetles cannot emerge inches from new primocanes. For larger bramble
+    yards, mowing unmanaged Rubus outside the planting reduces adult resting spots,
+    balanced against erosion and wildlife goals. Install T-posts and trellis wires
+    so canes stand at angles you can inspect quickly -- flat horizontal systems hide
+    swellings on the underside. If you catch a cane with only a pinhole and watery
+    stain, cut six inches below the stain; waiting until the gall is walnut-sized
+    means the larva already bored toward the crown.
+  organic_sprays: Insecticidal soap and neem can reach larvae only while they are
+    shallow under the bark -- spray within days of the first swelling when entry holes
+    still weep. Later, sprays mostly waste money because the larva tunnels toward
+    the pith. Spinosad or pyrethrin on young canes may knock down adult beetles during
+    flight if labels allow brambles, but timing is tight and weather washes products
+    fast. If you spray, coat the full cane from ground to tip and repeat after rain.
+    Treat sprays as backup to cutting -- the real fix is removing galled wood before
+    larvae pupate.
+affected_plants:
+- slug: raspberry
+  name: Raspberry
+- slug: chickasaw-blackberry
+  name: Chickasaw Blackberry
+- slug: sand-blackberry
+  name: Sand Blackberry
+- slug: agrimony
+  name: Agrimony
+- slug: allegheny-serviceberry
+  name: Allegheny Serviceberry
+- slug: almond-tree
+  name: Almond Tree
+- slug: american-beauty-plum
+  name: American Beauty Plum
+- slug: american-hawthorn
+  name: American Hawthorn
+- slug: american-plum
+  name: American Plum
+- slug: apple
+  name: Apple
+- slug: aronia
+  name: Aronia
+- slug: beach-strawberry
+  name: Beach Strawberry
+- slug: bearberry-cotoneaster
+  name: Bearberry Cotoneaster
+- slug: black-chokeberry
+  name: Black Chokeberry
+- slug: buffalo-plum
+  name: Buffalo Plum
+- slug: carolina-rose
+  name: Carolina Rose
+- slug: chickasaw-plum
+  name: Chickasaw Plum
+- slug: chokeberry
+  name: Chokeberry
+- slug: climbing-prairie-rose
+  name: Climbing Prairie Rose
+- slug: cloudberry
+  name: Cloudberry
+- slug: cockspur-hawthorn
+  name: Cockspur Hawthorn
+- slug: creeping-raspberry
+  name: Creeping Raspberry
+- slug: dewberry
+  name: Dewberry
+- slug: dotted-hawthorn
+  name: Dotted Hawthorn
+- slug: downy-serviceberry
+  name: Downy Serviceberry
+- slug: flatwoods-plum
+  name: Flatwoods Plum
+- slug: frosted-hawthorn
+  name: Frosted Hawthorn
+- slug: green-hawthorn
+  name: Green Hawthorn
+- slug: green-apple-tree
+  name: Green Apple Tree
+- slug: hedge-cotoneaster
+  name: Hedge Cotoneaster
+- slug: hortulan-plum
+  name: Hortulan Plum
+- slug: loquat
+  name: Loquat
+- slug: many-flowered-cotoneaster
+  name: Many Flowered Cotoneaster
+- slug: mayhaw
+  name: Mayhaw
+- slug: meadowsweet
+  name: Meadowsweet
+- slug: munson-plum
+  name: Munson Plum
+- slug: nectarine-tree
+  name: Nectarine Tree
+- slug: parsley-hawthorn
+  name: Parsley Hawthorn
+- slug: pasture-rose
+  name: Pasture Rose
+- slug: pear-hawthorn
+  name: Pear Hawthorn
+- slug: pear-tree
+  name: Pear Tree
+- slug: pineapple-pear
+  name: Pineapple Pear
+- slug: prairie-crabapple
+  name: Prairie Crabapple
+- slug: purple-chokeberry
+  name: Purple Chokeberry
+- slug: red-chokeberry
+  name: Red Chokeberry
+- slug: red-apple-tree
+  name: Red Apple Tree
+- slug: rock-cotoneaster
+  name: Rock Cotoneaster
+- slug: roundleaf-serviceberry
+  name: Roundleaf Serviceberry
+- slug: running-serviceberry
+  name: Running Serviceberry
+- slug: sand-cherry
+  name: Sand Cherry
+- slug: saskatoon-berry
+  name: Saskatoon Berry
+- slug: serviceberry
+  name: Serviceberry
+- slug: silverleaf-cotoneaster
+  name: Silverleaf Cotoneaster
+- slug: smooth-serviceberry
+  name: Smooth Serviceberry
+- slug: southern-crabapple
+  name: Southern Crabapple
+- slug: southern-dewberry
+  name: Southern Dewberry
+- slug: southern-hawthorn
+  name: Southern Hawthorn
+- slug: strawberry
+  name: Strawberry
+- slug: swamp-rose
+  name: Swamp Rose
+- slug: sweet-crabapple
+  name: Sweet Crabapple
+- slug: virginia-rose
+  name: Virginia Rose
+- slug: wild-crabapple
+  name: Wild Crabapple
+- slug: wild-plum
+  name: Wild Plum
+natural_enemies:
+- Woodpeckers (Picidae)
+- Ichneumonid Wasps
+- Braconid Wasps
+- Crab Spiders (Thomisidae)
+category: pest

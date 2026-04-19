@@ -1,75 +1,73 @@
----
-- name: Cross-striped Cabbageworm
-  slug: cross-striped-cabbageworm
-  picture: cross_striped_cabbageworm.webp
-  scientific_name: Evergestis rimosalis
-  description: >-
-    If leaves look shredded overnight or fruit has fresh chew holes, cross-striped cabbageworm
-    may be feeding right now. These larvae can eat fast and strip a healthy plant in a short
-    window. Young stages are easy to miss, then damage suddenly explodes as they grow. Catch
-    them early to avoid severe defoliation and contaminated harvests.
-  characteristics: >-
-    Check leaf undersides, growing tips, and stem junctions for eggs, frass pellets, and feeding
-    scars. Larvae vary in color, but most have a soft segmented body and blend into foliage.
-    Look at dusk or early morning when many species feed more actively. Fresh chewing plus live
-    larvae or droppings on lower leaves confirms an active caterpillar outbreak.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - skeletonized-leaves
-  control_methods:
-    biological_controls: >-
-      Ichneumonid and braconid wasps parasitize cross-striped cabbageworm larvae; you see cocoons
-      stuck to leaves or tiny white eggs on caterpillar skin. Ground beetles pull larvae off
-      leaves at night. Diverse field margins feed adult parasitoids -- mowing every border to bare
-      dirt removes their fuel. Skip broadcast pyrethrin during peak parasitism; you farm worms
-      alone afterward.
-    preventive_methods: >-
-      Moths lay eggs on leaf undersides -- scout seedlings for window-pane feeding and small
-      green larvae before they tunnel into heads. Check inner wrapper leaves on first cabbage
-      heads; larvae hide where sprays miss. Flag fields with history; walk those rows first each
-      spring. Use degree-day models if your extension publishes them for your region.
-    cultural_practices: >-
-      Rotate brassicas with unrelated crops so pupae in soil meet something they cannot eat.
-      Destroy brassica stumps after harvest; larvae finish feeding in stalk bases. Manage wild
-      mustard and shepherd's purse along edges; they host the same moth. Avoid back-to-back
-      collards without a soil break in small gardens.
-    mechanical_physical: >-
-      Floating row covers on transplants exclude moths until heads need space -- seal edges.
-      Night collection with UV light or headlamps on small plots removes larvae when numbers are
-      low. Shake plants over a sheet in cool mornings and stomp survivors.
-    organic_sprays: >-
-      Bacillus thuringiensis kurstaki kills small caterpillars that eat treated leaf -- spray
-      inner leaves and heart leaves thoroughly. Spinosad helps when larvae hide deeper; still
-      target young stages. Add spreader-sticker on waxy cabbages. Spray at dusk to spare bees on
-      open brassica flowers if you let some bolt for seed. Reapply after rain.
-  natural_enemies:
-  - Ichneumonid wasps
-  - Braconid wasps
-  - Predatory beetles
-  affected_plants:
-  - slug: bok-choy
-    name: Bok Choy
-  - slug: broccoli
-    name: Broccoli
-  - slug: daikon-radish
-    name: Daikon Radish
-  - slug: kale
-    name: Kale
-  - slug: radish
-    name: Radish
-  - slug: sea-kale
-    name: Sea Kale
-  - slug: sea-rocket
-    name: Sea Rocket
-  - slug: sweet-alyssum
-    name: Sweet Alyssum
-  - slug: tree-collard
-    name: Tree Collard
-  - slug: turkish-rocket
-    name: Turkish Rocket
-  - slug: watercress
-    name: Watercress
-  - slug: wild-mustard-greens
-    name: Wild Mustard Greens
+name: Cross-striped Cabbageworm
+slug: cross-striped-cabbageworm
+picture: cross_striped_cabbageworm.webp
+scientific_name: Evergestis rimosalis
+description: If leaves look shredded overnight or fruit has fresh chew holes, cross-striped
+  cabbageworm may be feeding right now. These larvae can eat fast and strip a healthy
+  plant in a short window. Young stages are easy to miss, then damage suddenly explodes
+  as they grow. Catch them early to avoid severe defoliation and contaminated harvests.
+characteristics: Check leaf undersides, growing tips, and stem junctions for eggs,
+  frass pellets, and feeding scars. Larvae vary in color, but most have a soft segmented
+  body and blend into foliage. Look at dusk or early morning when many species feed
+  more actively. Fresh chewing plus live larvae or droppings on lower leaves confirms
+  an active caterpillar outbreak.
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- skeletonized-leaves
+control_methods:
+  biological_controls: Ichneumonid and braconid wasps parasitize cross-striped cabbageworm
+    larvae; you see cocoons stuck to leaves or tiny white eggs on caterpillar skin.
+    Ground beetles pull larvae off leaves at night. Diverse field margins feed adult
+    parasitoids -- mowing every border to bare dirt removes their fuel. Skip broadcast
+    pyrethrin during peak parasitism; you farm worms alone afterward.
+  preventive_methods: Moths lay eggs on leaf undersides -- scout seedlings for window-pane
+    feeding and small green larvae before they tunnel into heads. Check inner wrapper
+    leaves on first cabbage heads; larvae hide where sprays miss. Flag fields with
+    history; walk those rows first each spring. Use degree-day models if your extension
+    publishes them for your region.
+  cultural_practices: Rotate brassicas with unrelated crops so pupae in soil meet
+    something they cannot eat. Destroy brassica stumps after harvest; larvae finish
+    feeding in stalk bases. Manage wild mustard and shepherd's purse along edges;
+    they host the same moth. Avoid back-to-back collards without a soil break in small
+    gardens.
+  mechanical_physical: Floating row covers on transplants exclude moths until heads
+    need space -- seal edges. Night collection with UV light or headlamps on small
+    plots removes larvae when numbers are low. Shake plants over a sheet in cool mornings
+    and stomp survivors.
+  organic_sprays: Bacillus thuringiensis kurstaki kills small caterpillars that eat
+    treated leaf -- spray inner leaves and heart leaves thoroughly. Spinosad helps
+    when larvae hide deeper; still target young stages. Add spreader-sticker on waxy
+    cabbages. Spray at dusk to spare bees on open brassica flowers if you let some
+    bolt for seed. Reapply after rain.
+natural_enemies:
+- Ichneumonid wasps
+- Braconid wasps
+- Predatory beetles
+affected_plants:
+- slug: bok-choy
+  name: Bok Choy
+- slug: broccoli
+  name: Broccoli
+- slug: daikon-radish
+  name: Daikon Radish
+- slug: kale
+  name: Kale
+- slug: radish
+  name: Radish
+- slug: sea-kale
+  name: Sea Kale
+- slug: sea-rocket
+  name: Sea Rocket
+- slug: sweet-alyssum
+  name: Sweet Alyssum
+- slug: tree-collard
+  name: Tree Collard
+- slug: turkish-rocket
+  name: Turkish Rocket
+- slug: watercress
+  name: Watercress
+- slug: wild-mustard-greens
+  name: Wild Mustard Greens
+category: pest

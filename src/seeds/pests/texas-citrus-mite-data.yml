@@ -1,105 +1,101 @@
----
-- name: Texas Citrus Mite
-  slug: texas-citrus-mite
-  picture: texas_citrus_mite.webp
-  scientific_name: Eutetranychus banksi
-  description: >-
-    If leaves look dusty, speckled, bronzed, or curled without obvious chewing, texas citrus
-    mite is a likely suspect. Mites are tiny but can multiply fast, especially during heat and
-    dry air. Plants lose vigor as feeding drains cell contents from leaves and tender growth.
-    Early action matters, because heavy infestations can spread through a bed in days.
-  characteristics: >-
-    Use a hand lens and check leaf undersides first, especially near veins and new growth. Look
-    for pinprick stippling, fine webbing in some species, and tiny moving dots that range from
-    pale to red or brown. Tap a leaf over white paper; moving specks suggest active mites.
-    Stippled leaves plus mites or eggs clustered under foliage confirms the diagnosis.
-  symptoms:
-  - yellowing-leaves
-  - webbing
-  - silvery-streaking
-  - brown-edges
-  control_methods:
-    biological_controls: >-
-      Predatory mites (Euseius spp., Galendromus helveolus) and minute pirate bugs
-      are the primary natural enemies of Texas citrus mite and are already present
-      in most citrus plantings. Delay spraying until monitoring shows rising pest-to-
-      predator ratios rather than treating on calendar. Avoid pyrethroids and broad-spectrum
-      pesticides that collapse predatory mite populations -- Texas citrus mite rebounds
-      faster and harder after chemical disturbance. Reducing dust on orchard roads
-      supports predatory mite populations.
-    preventive_methods: >-
-      Texas citrus mite causes stippling and silvering on upper leaf surfaces. Populations
-      build fastest during hot dry periods when predatory mites are also stressed. Scout
-      interior canopy leaves weekly during warm months -- mites establish in protected
-      interior locations before spreading to exterior foliage. Adequate irrigation is
-      the most impactful prevention -- drought stress both increases mite reproduction
-      and reduces plant tolerance of feeding damage.
-    cultural_practices: >-
-      Consistent irrigation throughout the season reduces Texas citrus mite pressure
-      more reliably than most spray programs. Reduce dust in the orchard by mowing
-      paths and roads. Avoid nitrogen flushes that prolong tender leaf availability.
-      Monitor pest and predator mite populations together -- a ratio of 5:1 or higher
-      pest to predator mites indicates intervention is needed; lower ratios mean let
-      biology work.
-    mechanical_physical: >-
-      Water washing of foliage on small backyard and container citrus temporarily reduces
-      mite numbers -- repeat every 3-5 days for meaningful suppression. No practical
-      mechanical control exists for larger plantings. A hand lens and white paper tap
-      test are the essential tools for mite management decisions.
-    organic_sprays: >-
-      Horticultural oil applied with thorough coverage is the primary organic spray -- 
-      apply when temperatures are below 90F (32C) and above freezing, avoiding stress
-      periods. Never mix horticultural oil and sulfur on citrus. Insecticidal soap for
-      light infestations on small trees. Monitor pest-to-predator ratios 5 days after
-      treatment -- if predatory mites are recovering, let biology finish the job.
-  natural_enemies:
-  - Euseius spp.
-  - Minute Pirate Bugs
-  - Predatory Mites
-  affected_plants:
-  - slug: bael-fruit
-    name: Bael Fruit
-  - slug: bengal-quince
-    name: Bengal Quince
-  - slug: bitter-orange
-    name: Bitter Orange
-  - slug: buddha-hand
-    name: Buddha Hand
-  - slug: calamondin
-    name: Calamondin
-  - slug: citron
-    name: Citron
-  - slug: curry-leaf-tree
-    name: Curry Leaf Tree
-  - slug: finger-lime
-    name: Finger Lime
-  - slug: hercules-club
-    name: Hercules Club
-  - slug: kaffir-lime
-    name: Kaffir Lime
-  - slug: kumquat
-    name: Kumquat
-  - slug: lemon-tree
-    name: Lemon Tree
-  - slug: lime-tree
-    name: Lime Tree
-  - slug: pomelo
-    name: Pomelo
-  - slug: prickly-ash
-    name: Prickly Ash
-  - slug: rangpur-lime
-    name: Rangpur Lime
-  - slug: rue
-    name: Rue
-  - slug: sour-orange
-    name: Sour Orange
-  - slug: tangerine
-    name: Tangerine
-  - slug: white-sapote
-    name: White Sapote
-  - slug: wild-lime
-    name: Wild Lime
-  - slug: wood-apple
-    name: Wood Apple
-  - slug: yuzu
-    name: Yuzu
+name: Texas Citrus Mite
+slug: texas-citrus-mite
+picture: texas_citrus_mite.webp
+scientific_name: Eutetranychus banksi
+description: If leaves look dusty, speckled, bronzed, or curled without obvious chewing,
+  texas citrus mite is a likely suspect. Mites are tiny but can multiply fast, especially
+  during heat and dry air. Plants lose vigor as feeding drains cell contents from
+  leaves and tender growth. Early action matters, because heavy infestations can spread
+  through a bed in days.
+characteristics: Use a hand lens and check leaf undersides first, especially near
+  veins and new growth. Look for pinprick stippling, fine webbing in some species,
+  and tiny moving dots that range from pale to red or brown. Tap a leaf over white
+  paper; moving specks suggest active mites. Stippled leaves plus mites or eggs clustered
+  under foliage confirms the diagnosis.
+symptoms:
+- yellowing-leaves
+- webbing
+- silvery-streaking
+- brown-edges
+control_methods:
+  biological_controls: Predatory mites (Euseius spp., Galendromus helveolus) and minute
+    pirate bugs are the primary natural enemies of Texas citrus mite and are already
+    present in most citrus plantings. Delay spraying until monitoring shows rising
+    pest-to- predator ratios rather than treating on calendar. Avoid pyrethroids and
+    broad-spectrum pesticides that collapse predatory mite populations -- Texas citrus
+    mite rebounds faster and harder after chemical disturbance. Reducing dust on orchard
+    roads supports predatory mite populations.
+  preventive_methods: Texas citrus mite causes stippling and silvering on upper leaf
+    surfaces. Populations build fastest during hot dry periods when predatory mites
+    are also stressed. Scout interior canopy leaves weekly during warm months -- mites
+    establish in protected interior locations before spreading to exterior foliage.
+    Adequate irrigation is the most impactful prevention -- drought stress both increases
+    mite reproduction and reduces plant tolerance of feeding damage.
+  cultural_practices: Consistent irrigation throughout the season reduces Texas citrus
+    mite pressure more reliably than most spray programs. Reduce dust in the orchard
+    by mowing paths and roads. Avoid nitrogen flushes that prolong tender leaf availability.
+    Monitor pest and predator mite populations together -- a ratio of 5:1 or higher
+    pest to predator mites indicates intervention is needed; lower ratios mean let
+    biology work.
+  mechanical_physical: Water washing of foliage on small backyard and container citrus
+    temporarily reduces mite numbers -- repeat every 3-5 days for meaningful suppression.
+    No practical mechanical control exists for larger plantings. A hand lens and white
+    paper tap test are the essential tools for mite management decisions.
+  organic_sprays: Horticultural oil applied with thorough coverage is the primary
+    organic spray --  apply when temperatures are below 90F (32C) and above freezing,
+    avoiding stress periods. Never mix horticultural oil and sulfur on citrus. Insecticidal
+    soap for light infestations on small trees. Monitor pest-to-predator ratios 5
+    days after treatment -- if predatory mites are recovering, let biology finish
+    the job.
+natural_enemies:
+- Euseius spp.
+- Minute Pirate Bugs
+- Predatory Mites
+affected_plants:
+- slug: bael-fruit
+  name: Bael Fruit
+- slug: bengal-quince
+  name: Bengal Quince
+- slug: bitter-orange
+  name: Bitter Orange
+- slug: buddha-hand
+  name: Buddha Hand
+- slug: calamondin
+  name: Calamondin
+- slug: citron
+  name: Citron
+- slug: curry-leaf-tree
+  name: Curry Leaf Tree
+- slug: finger-lime
+  name: Finger Lime
+- slug: hercules-club
+  name: Hercules Club
+- slug: kaffir-lime
+  name: Kaffir Lime
+- slug: kumquat
+  name: Kumquat
+- slug: lemon-tree
+  name: Lemon Tree
+- slug: lime-tree
+  name: Lime Tree
+- slug: pomelo
+  name: Pomelo
+- slug: prickly-ash
+  name: Prickly Ash
+- slug: rangpur-lime
+  name: Rangpur Lime
+- slug: rue
+  name: Rue
+- slug: sour-orange
+  name: Sour Orange
+- slug: tangerine
+  name: Tangerine
+- slug: white-sapote
+  name: White Sapote
+- slug: wild-lime
+  name: Wild Lime
+- slug: wood-apple
+  name: Wood Apple
+- slug: yuzu
+  name: Yuzu
+category: pest

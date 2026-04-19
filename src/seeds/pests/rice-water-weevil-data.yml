@@ -1,136 +1,133 @@
----
-- name: Rice Water Weevil
-  slug: rice-water-weevil
-  picture: rice_water_weevil.webp
-  scientific_name: Lissorhoptrus oryzophilus
-  description: >-
-    If plants are wilting, notching at the edges, or fruit and roots show hidden feeding damage,
-    rice water weevil may be the cause. Adults chew above ground while larvae often feed out of
-    sight inside soil, stems, or fruit. Damage builds quietly, then plants crash fast when roots
-    are heavily hit. Act early so a small weevil problem does not become a season-long
-    infestation.
-  characteristics: >-
-    Look for small beetles with a hard body and a distinct snout, usually active at dawn, dusk,
-    or night. Check for crescent-shaped leaf notches, punctures in fruit, or tiny entry holes
-    near stems. In soil or damaged tissue, larvae are often pale, legless, and curved in a
-    C-shape. Fresh chew marks plus snout beetles or C-shaped grubs confirm active weevil
-    pressure.
-  symptoms:
-  - holes-in-leaves
-  - wilting
-  - yellowing-leaves
-  - chewed-stems
-  - root-damage
-  control_methods:
-    biological_controls: >-
-      Beauveria bassiana and other entomopathogenic fungi can infect adult weevils and larvae
-      when humidity stays high and spores contact the insect -- results swing with weather and
-      formulation. Wolf spiders, ground beetles, and field crickets pick off adults and larvae
-      when rice meets upland margins; keep ditch banks from being sterile moonscapes if you want
-      that help. Mermithid nematodes show up in research against larvae; they are not a home-garden
-      product you pour from a shaker. Expect biocontrol to trim edges, not replace water timing.
-    preventive_methods: >-
-      Adults fly from overwintering sites into new rice when fields flood -- sweep nets and
-      floating traps along levees at establishment tell you when immigration spikes. Rotate
-      fields out of rice into soybeans, sorghum, or other non-hosts for a year so local adults
-      starve between paychecks. Destroy volunteer rice and weedy grasses that let weevils bridge
-      one season to the next. Map hot spots along tree lines and roads where adults first land;
-      scout those edges twice weekly during early flood.
-    cultural_practices: >-
-      Delay permanent flood until plants have a few leaves and can handle underwater feeding --
-      tiny seedlings are sitting ducks. Drill-seeded rice with delayed flood often outpaces
-      injury compared with water-seeded rice flooded too early. Keep seed evenly emerged so the
-      whole field is not split between huge and tiny plants; weevils concentrate on weak rows.
-      After harvest, incorporate stubble on schedule so adults have fewer places to hide near next
-      year's field. If you manage water, avoid yo-yo flooding that stresses plants while larvae
-      feed on roots.
-    mechanical_physical: >-
-      Sound levees stop stray water from carrying adults between fields and from ditch banks into
-      your crop. Some regions use brief flushing or altered water depth to move larvae -- that
-      is extension-specific and can affect water quality rules, so ask before you experiment.
-      In small plots, hand removal of weeds along edges removes resting sites for adults during
-      flight. Nothing beats a tight water schedule paired with scouting; hardware without timing
-      is theater.
-    organic_sprays: >-
-      Flooded rice limits organic options; neem or other botanicals may apply only in nursery
-      trays or aerobic systems under label and certifier rules -- never assume a garden product
-      can legally enter a paddy. If you use a labeled biological insecticide, time it to adult
-      flight and early larval establishment, not random calendar weeks. Most organic programs lean
-      on rotation, delayed flood, and resistant varieties instead of tank mixes. Check with your
-      certifier before treating any aquatic production.
-  natural_enemies:
-  - Wolf Spiders (Lycosidae)
-  - Ground Beetles (Carabidae)
-  - Spiders
-  - Entomopathogenic Fungi
-  affected_plants:
-  - slug: bamboo
-    name: Bamboo
-  - slug: big-bluestem
-    name: Big Bluestem
-  - slug: blue-grama
-    name: Blue Grama
-  - slug: broomsedge-bluestem
-    name: Broomsedge Bluestem
-  - slug: buffalo-grass
-    name: Buffalo Grass
-  - slug: eastern-gamagrass
-    name: Eastern Gamagrass
-  - slug: elephant-grass
-    name: Elephant Grass
-  - slug: elliotts-bluestem
-    name: Elliott's Bluestem
-  - slug: fever-grass
-    name: Fever Grass
-  - slug: florida-gamagrass
-    name: Florida Gamagrass
-  - slug: gulf-muhly
-    name: Gulf Muhly
-  - slug: hairawn-muhly
-    name: Hairawn Muhly
-  - slug: hairy-grama
-    name: Hairy Grama
-  - slug: indiangrass
-    name: Indiangrass
-  - slug: lemongrass
-    name: Lemongrass
-  - slug: little-bluestem
-    name: Little Bluestem
-  - slug: longawn-muhly
-    name: Longawn Muhly
-  - slug: millet
-    name: Millet
-  - slug: muhly-grass
-    name: Muhly Grass
-  - slug: prairie-cordgrass
-    name: Prairie Cordgrass
-  - slug: purple-lovegrass
-    name: Purple Lovegrass
-  - slug: rice
-    name: Rice
-  - slug: saltgrass
-    name: Saltgrass
-  - slug: saltmeadow-cordgrass
-    name: Saltmeadow Cordgrass
-  - slug: sand-bluestem
-    name: Sand Bluestem
-  - slug: sand-cordgrass
-    name: Sand Cordgrass
-  - slug: sand-grama
-    name: Sand Grama
-  - slug: sand-lovegrass
-    name: Sand Lovegrass
-  - slug: sideoats-grama
-    name: Sideoats Grama
-  - slug: split-beard-bluestem
-    name: Split Beard Bluestem
-  - slug: sweetgrass
-    name: Sweetgrass
-  - slug: switchgrass
-    name: Switchgrass
-  - slug: vetiver-grass
-    name: Vetiver Grass
-  - slug: weeping-lovegrass
-    name: Weeping Lovegrass
-  - slug: wiregrass
-    name: Wiregrass
+name: Rice Water Weevil
+slug: rice-water-weevil
+picture: rice_water_weevil.webp
+scientific_name: Lissorhoptrus oryzophilus
+description: If plants are wilting, notching at the edges, or fruit and roots show
+  hidden feeding damage, rice water weevil may be the cause. Adults chew above ground
+  while larvae often feed out of sight inside soil, stems, or fruit. Damage builds
+  quietly, then plants crash fast when roots are heavily hit. Act early so a small
+  weevil problem does not become a season-long infestation.
+characteristics: Look for small beetles with a hard body and a distinct snout, usually
+  active at dawn, dusk, or night. Check for crescent-shaped leaf notches, punctures
+  in fruit, or tiny entry holes near stems. In soil or damaged tissue, larvae are
+  often pale, legless, and curved in a C-shape. Fresh chew marks plus snout beetles
+  or C-shaped grubs confirm active weevil pressure.
+symptoms:
+- holes-in-leaves
+- wilting
+- yellowing-leaves
+- chewed-stems
+- root-damage
+control_methods:
+  biological_controls: Beauveria bassiana and other entomopathogenic fungi can infect
+    adult weevils and larvae when humidity stays high and spores contact the insect
+    -- results swing with weather and formulation. Wolf spiders, ground beetles, and
+    field crickets pick off adults and larvae when rice meets upland margins; keep
+    ditch banks from being sterile moonscapes if you want that help. Mermithid nematodes
+    show up in research against larvae; they are not a home-garden product you pour
+    from a shaker. Expect biocontrol to trim edges, not replace water timing.
+  preventive_methods: Adults fly from overwintering sites into new rice when fields
+    flood -- sweep nets and floating traps along levees at establishment tell you
+    when immigration spikes. Rotate fields out of rice into soybeans, sorghum, or
+    other non-hosts for a year so local adults starve between paychecks. Destroy volunteer
+    rice and weedy grasses that let weevils bridge one season to the next. Map hot
+    spots along tree lines and roads where adults first land; scout those edges twice
+    weekly during early flood.
+  cultural_practices: Delay permanent flood until plants have a few leaves and can
+    handle underwater feeding -- tiny seedlings are sitting ducks. Drill-seeded rice
+    with delayed flood often outpaces injury compared with water-seeded rice flooded
+    too early. Keep seed evenly emerged so the whole field is not split between huge
+    and tiny plants; weevils concentrate on weak rows. After harvest, incorporate
+    stubble on schedule so adults have fewer places to hide near next year's field.
+    If you manage water, avoid yo-yo flooding that stresses plants while larvae feed
+    on roots.
+  mechanical_physical: Sound levees stop stray water from carrying adults between
+    fields and from ditch banks into your crop. Some regions use brief flushing or
+    altered water depth to move larvae -- that is extension-specific and can affect
+    water quality rules, so ask before you experiment. In small plots, hand removal
+    of weeds along edges removes resting sites for adults during flight. Nothing beats
+    a tight water schedule paired with scouting; hardware without timing is theater.
+  organic_sprays: Flooded rice limits organic options; neem or other botanicals may
+    apply only in nursery trays or aerobic systems under label and certifier rules
+    -- never assume a garden product can legally enter a paddy. If you use a labeled
+    biological insecticide, time it to adult flight and early larval establishment,
+    not random calendar weeks. Most organic programs lean on rotation, delayed flood,
+    and resistant varieties instead of tank mixes. Check with your certifier before
+    treating any aquatic production.
+natural_enemies:
+- Wolf Spiders (Lycosidae)
+- Ground Beetles (Carabidae)
+- Spiders
+- Entomopathogenic Fungi
+affected_plants:
+- slug: bamboo
+  name: Bamboo
+- slug: big-bluestem
+  name: Big Bluestem
+- slug: blue-grama
+  name: Blue Grama
+- slug: broomsedge-bluestem
+  name: Broomsedge Bluestem
+- slug: buffalo-grass
+  name: Buffalo Grass
+- slug: eastern-gamagrass
+  name: Eastern Gamagrass
+- slug: elephant-grass
+  name: Elephant Grass
+- slug: elliotts-bluestem
+  name: Elliott's Bluestem
+- slug: fever-grass
+  name: Fever Grass
+- slug: florida-gamagrass
+  name: Florida Gamagrass
+- slug: gulf-muhly
+  name: Gulf Muhly
+- slug: hairawn-muhly
+  name: Hairawn Muhly
+- slug: hairy-grama
+  name: Hairy Grama
+- slug: indiangrass
+  name: Indiangrass
+- slug: lemongrass
+  name: Lemongrass
+- slug: little-bluestem
+  name: Little Bluestem
+- slug: longawn-muhly
+  name: Longawn Muhly
+- slug: millet
+  name: Millet
+- slug: muhly-grass
+  name: Muhly Grass
+- slug: prairie-cordgrass
+  name: Prairie Cordgrass
+- slug: purple-lovegrass
+  name: Purple Lovegrass
+- slug: rice
+  name: Rice
+- slug: saltgrass
+  name: Saltgrass
+- slug: saltmeadow-cordgrass
+  name: Saltmeadow Cordgrass
+- slug: sand-bluestem
+  name: Sand Bluestem
+- slug: sand-cordgrass
+  name: Sand Cordgrass
+- slug: sand-grama
+  name: Sand Grama
+- slug: sand-lovegrass
+  name: Sand Lovegrass
+- slug: sideoats-grama
+  name: Sideoats Grama
+- slug: split-beard-bluestem
+  name: Split Beard Bluestem
+- slug: sweetgrass
+  name: Sweetgrass
+- slug: switchgrass
+  name: Switchgrass
+- slug: vetiver-grass
+  name: Vetiver Grass
+- slug: weeping-lovegrass
+  name: Weeping Lovegrass
+- slug: wiregrass
+  name: Wiregrass
+category: pest

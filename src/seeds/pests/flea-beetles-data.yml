@@ -1,127 +1,119 @@
----
-- name: Flea Beetles
-  slug: flea-beetles
-  picture: flea_beetles.webp
-  scientific_name: Alticini
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, flea beetles may already be on the
-    plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - holes-in-leaves
-  - skeletonized-leaves
-  - chewed-stems
-  - wilting
-  control_methods:
-    biological_controls: >-
-      Ground beetles are the most important predator of flea beetle eggs and
-      larvae in soil — permanent mulch, undisturbed soil edges, and diverse
-      plantings support ground beetle populations year-round. Braconid wasps
-      parasitize larvae. Entomopathogenic nematodes (Steinernema carpocapsae)
-      applied to soil target larvae and pupae — apply in spring when soil
-      reaches 60F (15C). Flea beetles have many natural enemies but none fast
-      enough to manage an acute seedling infestation — biological control is
-      long-term population management, not emergency response. Keep diverse
-      habitat that supports predators before pressure peaks.
-    preventive_methods: >-
-      Flea beetles overwinter as adults in soil and leaf litter and emerge
-      hungry when soil warms in spring — seedlings are at maximum risk during
-      this window. The telltale sign is tiny round shot-holes in leaves with
-      no visible insect (they jump when disturbed). Transplant larger starts
-      rather than direct seeding — seedlings under 4 inches are most vulnerable.
-      Delay planting 2-3 weeks after soil warms to let the first generation
-      of overwintering adults disperse. Row covers installed before transplanting
-      completely exclude flea beetles during the critical establishment window.
-    cultural_practices: >-
-      Reflective silver mulch confuses flea beetles and reduces landing rates
-      significantly — one of the most effective and low-maintenance controls
-      available. Interplant with strongly aromatic herbs — basil, catnip, mint
-      — at bed edges to disrupt flea beetle navigation. Trap cropping with
-      radishes or mustard greens at bed edges draws flea beetles away from
-      target crops — destroy trap plants when heavily infested. Remove crop
-      debris promptly to eliminate overwintering habitat.   mechanical_physical: >-
-      Row covers from transplant until plants are established are the most
-      effective mechanical control — flea beetles cannot jump through fabric.
-      Remove covers once plants reach 6 inches. Yellow sticky traps monitor
-      adult populations. Diatomaceous earth dusted on leaves damages flea
-      beetle bodies on contact — must be reapplied after rain. For small beds,
-      a handheld vacuum in early morning when beetles are sluggish removes
-      large numbers quickly.
-    organic_sprays: >-
-      Kaolin clay on leaf surfaces is the most effective and bee-safe spray
-      option — apply every 7 days and after rain, coating new growth thoroughly.
-      Spinosad provides strong knockdown of adults — apply at dusk to minimize
-      bee exposure, reapply every 7-10 days. Neem oil disrupts flea beetle
-      feeding and egg-laying. Pyrethrin provides quick knockdown but degrades
-      in hours and harms all insects — use only at dusk as a last resort for
-      overwhelming seedling infestations.
-  natural_enemies:
-  - Ladybugs
-  - Lacewings
-  - Parasitic Wasps
-  - Ground Beetles
-  affected_plants:
-  - slug: bok-choy
-    name: Bok Choy
-  - slug: broccoli
-    name: Broccoli
-  - slug: daikon-radish
-    name: Daikon Radish
-  - slug: kale
-    name: Kale
-  - slug: radish
-    name: Radish
-  - slug: sea-kale
-    name: Sea Kale
-  - slug: sea-rocket
-    name: Sea Rocket
-  - slug: sweet-alyssum
-    name: Sweet Alyssum
-  - slug: tree-collard
-    name: Tree Collard
-  - slug: turkish-rocket
-    name: Turkish Rocket
-  - slug: watercress
-    name: Watercress
-  - slug: wild-mustard-greens
-    name: Wild Mustard Greens
-  - slug: angels-trumpet
-    name: Angel's Trumpet
-  - slug: ashwagandha
-    name: Ashwagandha
-  - slug: buffalo-bur
-    name: Buffalo Bur
-  - slug: chiltepin-pepper
-    name: Chiltepin Pepper
-  - slug: chiltepin-pepper-tree
-    name: Chiltepin Pepper Tree
-  - slug: chinese-lantern
-    name: Chinese Lantern
-  - slug: coastal-groundcherry
-    name: Coastal Groundcherry
-  - slug: devils-trumpet
-    name: Devil's Trumpet
-  - slug: garden-huckleberry
-    name: Garden Huckleberry
-  - slug: goji-berry
-    name: Goji Berry
-  - slug: ground-cherry
-    name: Ground Cherry
-  - slug: horse-nettle
-    name: Horse Nettle
-  - slug: pepino-melon
-    name: Pepino Melon
-  - slug: potato
-    name: Potato
-  - slug: scarlet-eggplant
-    name: Scarlet Eggplant
-  - slug: wild-eggplant
-    name: Wild Eggplant
-  - slug: wonderberry
-    name: Wonderberry
+name: Flea Beetles
+slug: flea-beetles
+picture: flea_beetles.webp
+scientific_name: Alticini
+description: If new growth is curling, yellowing, sticky, or chewed, flea beetles
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- holes-in-leaves
+- skeletonized-leaves
+- chewed-stems
+- wilting
+control_methods:
+  biological_controls: Ground beetles are the most important predator of flea beetle
+    eggs and larvae in soil — permanent mulch, undisturbed soil edges, and diverse
+    plantings support ground beetle populations year-round. Braconid wasps parasitize
+    larvae. Entomopathogenic nematodes (Steinernema carpocapsae) applied to soil target
+    larvae and pupae — apply in spring when soil reaches 60F (15C). Flea beetles have
+    many natural enemies but none fast enough to manage an acute seedling infestation
+    — biological control is long-term population management, not emergency response.
+    Keep diverse habitat that supports predators before pressure peaks.
+  preventive_methods: Flea beetles overwinter as adults in soil and leaf litter and
+    emerge hungry when soil warms in spring — seedlings are at maximum risk during
+    this window. The telltale sign is tiny round shot-holes in leaves with no visible
+    insect (they jump when disturbed). Transplant larger starts rather than direct
+    seeding — seedlings under 4 inches are most vulnerable. Delay planting 2-3 weeks
+    after soil warms to let the first generation of overwintering adults disperse.
+    Row covers installed before transplanting completely exclude flea beetles during
+    the critical establishment window.
+  cultural_practices: 'Reflective silver mulch confuses flea beetles and reduces landing
+    rates significantly — one of the most effective and low-maintenance controls available.
+    Interplant with strongly aromatic herbs — basil, catnip, mint — at bed edges to
+    disrupt flea beetle navigation. Trap cropping with radishes or mustard greens
+    at bed edges draws flea beetles away from target crops — destroy trap plants when
+    heavily infested. Remove crop debris promptly to eliminate overwintering habitat.   mechanical_physical:
+    >- Row covers from transplant until plants are established are the most effective
+    mechanical control — flea beetles cannot jump through fabric. Remove covers once
+    plants reach 6 inches. Yellow sticky traps monitor adult populations. Diatomaceous
+    earth dusted on leaves damages flea beetle bodies on contact — must be reapplied
+    after rain. For small beds, a handheld vacuum in early morning when beetles are
+    sluggish removes large numbers quickly.'
+  organic_sprays: Kaolin clay on leaf surfaces is the most effective and bee-safe
+    spray option — apply every 7 days and after rain, coating new growth thoroughly.
+    Spinosad provides strong knockdown of adults — apply at dusk to minimize bee exposure,
+    reapply every 7-10 days. Neem oil disrupts flea beetle feeding and egg-laying.
+    Pyrethrin provides quick knockdown but degrades in hours and harms all insects
+    — use only at dusk as a last resort for overwhelming seedling infestations.
+natural_enemies:
+- Ladybugs
+- Lacewings
+- Parasitic Wasps
+- Ground Beetles
+affected_plants:
+- slug: bok-choy
+  name: Bok Choy
+- slug: broccoli
+  name: Broccoli
+- slug: daikon-radish
+  name: Daikon Radish
+- slug: kale
+  name: Kale
+- slug: radish
+  name: Radish
+- slug: sea-kale
+  name: Sea Kale
+- slug: sea-rocket
+  name: Sea Rocket
+- slug: sweet-alyssum
+  name: Sweet Alyssum
+- slug: tree-collard
+  name: Tree Collard
+- slug: turkish-rocket
+  name: Turkish Rocket
+- slug: watercress
+  name: Watercress
+- slug: wild-mustard-greens
+  name: Wild Mustard Greens
+- slug: angels-trumpet
+  name: Angel's Trumpet
+- slug: ashwagandha
+  name: Ashwagandha
+- slug: buffalo-bur
+  name: Buffalo Bur
+- slug: chiltepin-pepper
+  name: Chiltepin Pepper
+- slug: chiltepin-pepper-tree
+  name: Chiltepin Pepper Tree
+- slug: chinese-lantern
+  name: Chinese Lantern
+- slug: coastal-groundcherry
+  name: Coastal Groundcherry
+- slug: devils-trumpet
+  name: Devil's Trumpet
+- slug: garden-huckleberry
+  name: Garden Huckleberry
+- slug: goji-berry
+  name: Goji Berry
+- slug: ground-cherry
+  name: Ground Cherry
+- slug: horse-nettle
+  name: Horse Nettle
+- slug: pepino-melon
+  name: Pepino Melon
+- slug: potato
+  name: Potato
+- slug: scarlet-eggplant
+  name: Scarlet Eggplant
+- slug: wild-eggplant
+  name: Wild Eggplant
+- slug: wonderberry
+  name: Wonderberry
+category: pest

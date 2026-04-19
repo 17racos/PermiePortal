@@ -1,103 +1,100 @@
----
-- name: Citrus Whitefly
-  slug: citrus-whitefly
-  picture: citrus_whitefly.webp
-  scientific_name: Dialeurodes citri
-  description: >-
-    If leaves show trails, fruit turns soft, or roots collapse from inside, citrus whitefly may
-    already be feeding. The larval stage does most of the damage, often hidden where you cannot
-    see it at first glance. By the time yellowing or rot appears, feeding may be well underway.
-    Move quickly when symptoms begin to prevent another wave of eggs and larvae.
-  characteristics: >-
-    Watch for tiny eggs near plant tissue, pale legless larvae inside mines or fruit, and sudden
-    soft spots or tunnels. Adults are usually small flies that hover or dart when disturbed.
-    Check around wounds, blossoms, and moist plant debris where egg-laying is common. Cut open
-    suspect tissue: live maggots or fresh tunnels are the clearest field confirmation.
-  symptoms:
-  - sticky-residue
-  - yellowing-leaves
-  - curling-leaves
-  - sooty-deposits
-  control_methods:
-    biological_controls: >-
-      Encarsia and Eretmocerus parasitoid wasps specifically attack citrus whitefly
-      nymphs -- they are already present in most outdoor citrus and provide significant
-      suppression when not disrupted. Delphastus catalinae is a small black beetle that
-      eats large numbers of whitefly eggs and nymphs -- preserve it by avoiding
-      broad-spectrum treatments. The most important biological practice is avoiding
-      insecticides that collapse these beneficial populations -- citrus whitefly rebounds
-      far faster than its natural enemies after chemical disturbance.
-    preventive_methods: >-
-      Citrus whitefly populations surge on dense crowded canopies with stagnant air
-      and excess nitrogen growth. Yellow sticky traps at canopy height monitor adult
-      presence -- more than 10 adults per trap per week signals a building population.
-      Avoid broad-spectrum sprays on citrus that destroy the parasitoid wasp complex
-      that normally keeps whitefly in check. Inspect new nursery trees before planting.
-    cultural_practices: >-
-      Prune dense interior branches to improve airflow and spray penetration -- citrus
-      whitefly thrives in humid stagnant canopy interiors. Remove heavily infested lower
-      leaves on young trees to reduce population. Avoid excess nitrogen fertilization.
-      Keep weeds near citrus mowed -- many weed species host whitefly populations
-      that move into trees.
-    mechanical_physical: >-
-      A strong water spray dislodges adults and nymphs from leaf undersides on small
-      backyard trees -- repeat every 2-3 days for meaningful suppression. Yellow sticky
-      traps at canopy height monitor and catch modest numbers of adults. For container
-      citrus, a handheld vacuum in early morning removes significant adult populations.
-    organic_sprays: >-
-      Insecticidal soap with thorough coverage of leaf undersides kills nymphs on
-      contact -- apply every 5-7 days for 3 weeks on a crawler schedule. Horticultural
-      oil smothers eggs and nymphs. Neem oil disrupts development and reduces egg-laying.
-      Apply all sprays at dusk to protect beneficial insects. Beauveria bassiana fungal
-      spray infects and kills nymphs in humid conditions above 70% relative humidity.
-  natural_enemies:
-  - Encarsia spp.
-  - Eretmocerus spp.
-  - Delphastus catalinae
-  affected_plants:
-  - slug: bael-fruit
-    name: Bael Fruit
-  - slug: bengal-quince
-    name: Bengal Quince
-  - slug: bitter-orange
-    name: Bitter Orange
-  - slug: buddha-hand
-    name: Buddha Hand
-  - slug: calamondin
-    name: Calamondin
-  - slug: citron
-    name: Citron
-  - slug: curry-leaf-tree
-    name: Curry Leaf Tree
-  - slug: finger-lime
-    name: Finger Lime
-  - slug: hercules-club
-    name: Hercules Club
-  - slug: kaffir-lime
-    name: Kaffir Lime
-  - slug: kumquat
-    name: Kumquat
-  - slug: lemon-tree
-    name: Lemon Tree
-  - slug: lime-tree
-    name: Lime Tree
-  - slug: pomelo
-    name: Pomelo
-  - slug: prickly-ash
-    name: Prickly Ash
-  - slug: rangpur-lime
-    name: Rangpur Lime
-  - slug: rue
-    name: Rue
-  - slug: sour-orange
-    name: Sour Orange
-  - slug: tangerine
-    name: Tangerine
-  - slug: white-sapote
-    name: White Sapote
-  - slug: wild-lime
-    name: Wild Lime
-  - slug: wood-apple
-    name: Wood Apple
-  - slug: yuzu
-    name: Yuzu
+name: Citrus Whitefly
+slug: citrus-whitefly
+picture: citrus_whitefly.webp
+scientific_name: Dialeurodes citri
+description: If leaves show trails, fruit turns soft, or roots collapse from inside,
+  citrus whitefly may already be feeding. The larval stage does most of the damage,
+  often hidden where you cannot see it at first glance. By the time yellowing or rot
+  appears, feeding may be well underway. Move quickly when symptoms begin to prevent
+  another wave of eggs and larvae.
+characteristics: 'Watch for tiny eggs near plant tissue, pale legless larvae inside
+  mines or fruit, and sudden soft spots or tunnels. Adults are usually small flies
+  that hover or dart when disturbed. Check around wounds, blossoms, and moist plant
+  debris where egg-laying is common. Cut open suspect tissue: live maggots or fresh
+  tunnels are the clearest field confirmation.'
+symptoms:
+- sticky-residue
+- yellowing-leaves
+- curling-leaves
+- sooty-deposits
+control_methods:
+  biological_controls: Encarsia and Eretmocerus parasitoid wasps specifically attack
+    citrus whitefly nymphs -- they are already present in most outdoor citrus and
+    provide significant suppression when not disrupted. Delphastus catalinae is a
+    small black beetle that eats large numbers of whitefly eggs and nymphs -- preserve
+    it by avoiding broad-spectrum treatments. The most important biological practice
+    is avoiding insecticides that collapse these beneficial populations -- citrus
+    whitefly rebounds far faster than its natural enemies after chemical disturbance.
+  preventive_methods: Citrus whitefly populations surge on dense crowded canopies
+    with stagnant air and excess nitrogen growth. Yellow sticky traps at canopy height
+    monitor adult presence -- more than 10 adults per trap per week signals a building
+    population. Avoid broad-spectrum sprays on citrus that destroy the parasitoid
+    wasp complex that normally keeps whitefly in check. Inspect new nursery trees
+    before planting.
+  cultural_practices: Prune dense interior branches to improve airflow and spray penetration
+    -- citrus whitefly thrives in humid stagnant canopy interiors. Remove heavily
+    infested lower leaves on young trees to reduce population. Avoid excess nitrogen
+    fertilization. Keep weeds near citrus mowed -- many weed species host whitefly
+    populations that move into trees.
+  mechanical_physical: A strong water spray dislodges adults and nymphs from leaf
+    undersides on small backyard trees -- repeat every 2-3 days for meaningful suppression.
+    Yellow sticky traps at canopy height monitor and catch modest numbers of adults.
+    For container citrus, a handheld vacuum in early morning removes significant adult
+    populations.
+  organic_sprays: Insecticidal soap with thorough coverage of leaf undersides kills
+    nymphs on contact -- apply every 5-7 days for 3 weeks on a crawler schedule. Horticultural
+    oil smothers eggs and nymphs. Neem oil disrupts development and reduces egg-laying.
+    Apply all sprays at dusk to protect beneficial insects. Beauveria bassiana fungal
+    spray infects and kills nymphs in humid conditions above 70% relative humidity.
+natural_enemies:
+- Encarsia spp.
+- Eretmocerus spp.
+- Delphastus catalinae
+affected_plants:
+- slug: bael-fruit
+  name: Bael Fruit
+- slug: bengal-quince
+  name: Bengal Quince
+- slug: bitter-orange
+  name: Bitter Orange
+- slug: buddha-hand
+  name: Buddha Hand
+- slug: calamondin
+  name: Calamondin
+- slug: citron
+  name: Citron
+- slug: curry-leaf-tree
+  name: Curry Leaf Tree
+- slug: finger-lime
+  name: Finger Lime
+- slug: hercules-club
+  name: Hercules Club
+- slug: kaffir-lime
+  name: Kaffir Lime
+- slug: kumquat
+  name: Kumquat
+- slug: lemon-tree
+  name: Lemon Tree
+- slug: lime-tree
+  name: Lime Tree
+- slug: pomelo
+  name: Pomelo
+- slug: prickly-ash
+  name: Prickly Ash
+- slug: rangpur-lime
+  name: Rangpur Lime
+- slug: rue
+  name: Rue
+- slug: sour-orange
+  name: Sour Orange
+- slug: tangerine
+  name: Tangerine
+- slug: white-sapote
+  name: White Sapote
+- slug: wild-lime
+  name: Wild Lime
+- slug: wood-apple
+  name: Wood Apple
+- slug: yuzu
+  name: Yuzu
+category: pest

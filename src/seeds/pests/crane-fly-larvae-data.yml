@@ -1,49 +1,52 @@
-- name: "Crane fly larvae"
-  slug: "crane-fly-larvae"
-  picture: "crane_fly_larvae.webp"
-  scientific_name: "Tipulidae"
-  description: >-
-    Crane fly larvae, often called leatherjackets in turf literature, are gray-brown legless maggots in soil that
-    chew grass crowns and roots. Damage resembles drought or cutworm injury but patches feel spongy underfoot and
-    pull up easily. Adults are long-legged flies that emerge in swarms during cool wet periods and do not feed as adults.
-    They are common in temperate lawns, pastures, and wet meadows across the Americas.
-  characteristics: >-
-    Peel back sod at the interface of green and dead turf to find larvae without obvious legs, tapered at both ends.
-    Compare with white grubs which have brown heads and C-shaped bodies with thoracic legs. Birds tearing turf is a
-    clue. Night lighting of adults near wetlands helps confirm species presence even when larvae are deep.
-  symptoms:
-  - wilting
-  - die-back
-  - crown-damage
-  - root-damage
-  control_methods:
-    biological_controls: >-
-      Starling flocks and other insectivorous birds reduce leatherjacket numbers where allowed to forage. Ground beetles
-      and rove beetles eat eggs and small larvae at the soil surface. Entomopathogenic nematodes (Steinernema spp.)
-      applied when soil is moist and warm can infect tipulid larvae -- follow label species notes because efficacy varies.
-      Avoid broad-spectrum lawn sprays that remove these allies.
-    preventive_methods: >-
-      Improve surface drainage so soils are not waterlogged for weeks, which favors egg survival in some species. Avoid
-      over-irrigating cool-season lawns in spring when adults are laying. Reduce outdoor lighting pointed at turf during
-      peak flight if local guidance links light to egg deposition on your species. Overseed thin areas in fall to
-      replace damaged crowns before winter.
-    cultural_practices: >-
-      Raise mowing height slightly to increase photosynthetic area while roots recover from feeding scars. Core aerate
-      compacted soils to help roots outgrow localized injury. Rotate vegetable beds away from chronically soggy corners
-      where leatherjackets concentrate. Topdress thin lawns with thin compost after aeration to speed recovery.
-    mechanical_physical: >-
-      Solarizing a small patch before reseeding kills larvae but also turf -- use during renovation. Hand sorting
-      garden soil for a new bed removes many larvae at planting time. For high-value sod, roll back strips and pick
-      larvae when infestations are localized.
-    organic_sprays: >-
-      Nematode applications are the main organic tool with replicated turf trials behind them. Neem soil drenches show
-      mixed results and can affect non-target soil fauna if overused. Soap drenches flush larvae to the surface for
-      identification more than for reliable kill. Always irrigate after nematode application so carriers reach the root zone.
-  natural_enemies:
-  - Ground Beetles
-  - Nematodes
-  - Birds
-  affected_plants: []
-  # Image attribution: nottsexminer / Wikimedia Commons / CC BY-SA 2.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+name: Crane fly larvae
+slug: crane-fly-larvae
+picture: crane_fly_larvae.webp
+scientific_name: Tipulidae
+description: Crane fly larvae, often called leatherjackets in turf literature, are
+  gray-brown legless maggots in soil that chew grass crowns and roots. Damage resembles
+  drought or cutworm injury but patches feel spongy underfoot and pull up easily.
+  Adults are long-legged flies that emerge in swarms during cool wet periods and do
+  not feed as adults. They are common in temperate lawns, pastures, and wet meadows
+  across the Americas.
+characteristics: Peel back sod at the interface of green and dead turf to find larvae
+  without obvious legs, tapered at both ends. Compare with white grubs which have
+  brown heads and C-shaped bodies with thoracic legs. Birds tearing turf is a clue.
+  Night lighting of adults near wetlands helps confirm species presence even when
+  larvae are deep.
+symptoms:
+- wilting
+- die-back
+- crown-damage
+- root-damage
+control_methods:
+  biological_controls: Starling flocks and other insectivorous birds reduce leatherjacket
+    numbers where allowed to forage. Ground beetles and rove beetles eat eggs and
+    small larvae at the soil surface. Entomopathogenic nematodes (Steinernema spp.)
+    applied when soil is moist and warm can infect tipulid larvae -- follow label
+    species notes because efficacy varies. Avoid broad-spectrum lawn sprays that remove
+    these allies.
+  preventive_methods: Improve surface drainage so soils are not waterlogged for weeks,
+    which favors egg survival in some species. Avoid over-irrigating cool-season lawns
+    in spring when adults are laying. Reduce outdoor lighting pointed at turf during
+    peak flight if local guidance links light to egg deposition on your species. Overseed
+    thin areas in fall to replace damaged crowns before winter.
+  cultural_practices: Raise mowing height slightly to increase photosynthetic area
+    while roots recover from feeding scars. Core aerate compacted soils to help roots
+    outgrow localized injury. Rotate vegetable beds away from chronically soggy corners
+    where leatherjackets concentrate. Topdress thin lawns with thin compost after
+    aeration to speed recovery.
+  mechanical_physical: Solarizing a small patch before reseeding kills larvae but
+    also turf -- use during renovation. Hand sorting garden soil for a new bed removes
+    many larvae at planting time. For high-value sod, roll back strips and pick larvae
+    when infestations are localized.
+  organic_sprays: Nematode applications are the main organic tool with replicated
+    turf trials behind them. Neem soil drenches show mixed results and can affect
+    non-target soil fauna if overused. Soap drenches flush larvae to the surface for
+    identification more than for reliable kill. Always irrigate after nematode application
+    so carriers reach the root zone.
+natural_enemies:
+- Ground Beetles
+- Nematodes
+- Birds
+affected_plants: []
+category: pest

@@ -1,194 +1,184 @@
----
-- name: Apple Scab
-  slug: apple-scab
-  picture: apple_scab.webp
-  scientific_name: Venturia inaequalis
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, apple scab may already
-    be active. This problem often starts small, then spreads across healthy tissue before most
-    growers realize how serious it is. Warmth, moisture, and crowded foliage usually speed it
-    up. Treat early, because waiting even a few days can turn a manageable infection into major
-    crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - leaf-spots
-  - fruit-damage
-  - dropping-leaves
-  - die-back
-  control_methods:
-    biological_controls: >-
-      Bacillus subtilis colonizes leaf surfaces and produces compounds that
-      suppress Venturia inaequalis spore germination — apply preventively
-      as part of a rotation during primary scab season. Ampelomyces quisqualis
-      is a hyperparasite of powdery mildew that may reduce associated pressure.
-      Healthy soil biology and mycorrhizal fungi support tree immune response
-      and overall resilience to scab infection. A diverse phyllosphere community
-      on leaf surfaces naturally suppresses scab — avoid sterilizing copper
-      sprays during leaf expansion that eliminate beneficial competing microbes.
-    preventive_methods: >-
-      Apple scab follows a precise seasonal calendar tied to temperature and
-      moisture. Primary infections occur from silver tip through June as
-      overwintering spores in fallen leaves release during rain events. The
-      Mills Table predicts infection periods from temperature and leaf wetness
-      duration — use it to target sprays at actual infection risk rather than
-      calendar timing. Resistant apple varieties (Liberty, Freedom, Pristine,
-      Enterprise) eliminate scab management entirely — the best long-term
-      solution for home orchards.
-    cultural_practices: >-
-      Collect and destroy fallen leaves in autumn — this is the most impactful
-      single management action as overwintering spores live in fallen leaf debris.
-      Shred fallen leaves with a mower to accelerate decomposition if collection
-      is impractical. Prune for open canopy — scab spreads in humid stagnant
-      air between crowded branches. Avoid overhead irrigation that wets leaves
-      for extended periods. Mulch under trees to prevent soil splash onto
-      lower leaves.
-    mechanical_physical: >-
-      Remove and destroy fallen leaves each autumn — bag or hot-compost (scab
-      spores survive normal cold composting). Urea sprayed on fallen leaves
-      in autumn accelerates decomposition and kills overwintering spores —
-      cheap and effective. Prune water sprouts and crossing branches that
-      create humid interior zones where scab spreads fastest.
-    organic_sprays: >-
-      Sulfur fungicide is the most reliable organic spray — apply on a 7-10
-      day schedule from silver tip through June, more frequently (every 5-7
-      days) during wet periods. Do not apply when temperatures exceed 90F
-      (32C). Lime sulfur at delayed dormant timing kills overwintering spores
-      on bark and buds. Copper at green tip through tight cluster provides
-      protectant coverage. Kaolin clay applied from half-inch green through
-      petal fall helps but is secondary to sulfur. Rotate materials to prevent
-      resistance buildup.
-  natural_enemies:
-  - Beneficial Microbes
-  - Competitive Fungi
-  affected_plants:
-  - slug: agrimony
-    name: Agrimony
-  - slug: allegheny-serviceberry
-    name: Allegheny Serviceberry
-  - slug: almond-tree
-    name: Almond Tree
-  - slug: american-beauty-plum
-    name: American Beauty Plum
-  - slug: american-hawthorn
-    name: American Hawthorn
-  - slug: american-plum
-    name: American Plum
-  - slug: apple
-    name: Apple
-  - slug: aronia
-    name: Aronia
-  - slug: beach-strawberry
-    name: Beach Strawberry
-  - slug: bearberry-cotoneaster
-    name: Bearberry Cotoneaster
-  - slug: black-chokeberry
-    name: Black Chokeberry
-  - slug: buffalo-plum
-    name: Buffalo Plum
-  - slug: carolina-rose
-    name: Carolina Rose
-  - slug: chickasaw-blackberry
-    name: Chickasaw Blackberry
-  - slug: chickasaw-plum
-    name: Chickasaw Plum
-  - slug: chokeberry
-    name: Chokeberry
-  - slug: climbing-prairie-rose
-    name: Climbing Prairie Rose
-  - slug: cloudberry
-    name: Cloudberry
-  - slug: cockspur-hawthorn
-    name: Cockspur Hawthorn
-  - slug: creeping-raspberry
-    name: Creeping Raspberry
-  - slug: dewberry
-    name: Dewberry
-  - slug: dotted-hawthorn
-    name: Dotted Hawthorn
-  - slug: downy-serviceberry
-    name: Downy Serviceberry
-  - slug: flatwoods-plum
-    name: Flatwoods Plum
-  - slug: frosted-hawthorn
-    name: Frosted Hawthorn
-  - slug: green-hawthorn
-    name: Green Hawthorn
-  - slug: green-apple-tree
-    name: Green Apple Tree
-  - slug: hedge-cotoneaster
-    name: Hedge Cotoneaster
-  - slug: hortulan-plum
-    name: Hortulan Plum
-  - slug: loquat
-    name: Loquat
-  - slug: many-flowered-cotoneaster
-    name: Many Flowered Cotoneaster
-  - slug: mayhaw
-    name: Mayhaw
-  - slug: meadowsweet
-    name: Meadowsweet
-  - slug: munson-plum
-    name: Munson Plum
-  - slug: nectarine-tree
-    name: Nectarine Tree
-  - slug: parsley-hawthorn
-    name: Parsley Hawthorn
-  - slug: pasture-rose
-    name: Pasture Rose
-  - slug: pear-hawthorn
-    name: Pear Hawthorn
-  - slug: pear-tree
-    name: Pear Tree
-  - slug: pineapple-pear
-    name: Pineapple Pear
-  - slug: prairie-crabapple
-    name: Prairie Crabapple
-  - slug: purple-chokeberry
-    name: Purple Chokeberry
-  - slug: raspberry
-    name: Raspberry
-  - slug: red-chokeberry
-    name: Red Chokeberry
-  - slug: red-apple-tree
-    name: Red Apple Tree
-  - slug: rock-cotoneaster
-    name: Rock Cotoneaster
-  - slug: roundleaf-serviceberry
-    name: Roundleaf Serviceberry
-  - slug: running-serviceberry
-    name: Running Serviceberry
-  - slug: sand-blackberry
-    name: Sand Blackberry
-  - slug: sand-cherry
-    name: Sand Cherry
-  - slug: saskatoon-berry
-    name: Saskatoon Berry
-  - slug: serviceberry
-    name: Serviceberry
-  - slug: silverleaf-cotoneaster
-    name: Silverleaf Cotoneaster
-  - slug: smooth-serviceberry
-    name: Smooth Serviceberry
-  - slug: southern-crabapple
-    name: Southern Crabapple
-  - slug: southern-dewberry
-    name: Southern Dewberry
-  - slug: southern-hawthorn
-    name: Southern Hawthorn
-  - slug: strawberry
-    name: Strawberry
-  - slug: swamp-rose
-    name: Swamp Rose
-  - slug: sweet-crabapple
-    name: Sweet Crabapple
-  - slug: virginia-rose
-    name: Virginia Rose
-  - slug: wild-crabapple
-    name: Wild Crabapple
-  - slug: wild-plum
-    name: Wild Plum
+name: Apple Scab
+slug: apple-scab
+picture: apple_scab.webp
+scientific_name: Venturia inaequalis
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  apple scab may already be active. This problem often starts small, then spreads
+  across healthy tissue before most growers realize how serious it is. Warmth, moisture,
+  and crowded foliage usually speed it up. Treat early, because waiting even a few
+  days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- leaf-spots
+- fruit-damage
+- dropping-leaves
+- die-back
+control_methods:
+  biological_controls: Bacillus subtilis colonizes leaf surfaces and produces compounds
+    that suppress Venturia inaequalis spore germination — apply preventively as part
+    of a rotation during primary scab season. Ampelomyces quisqualis is a hyperparasite
+    of powdery mildew that may reduce associated pressure. Healthy soil biology and
+    mycorrhizal fungi support tree immune response and overall resilience to scab
+    infection. A diverse phyllosphere community on leaf surfaces naturally suppresses
+    scab — avoid sterilizing copper sprays during leaf expansion that eliminate beneficial
+    competing microbes.
+  preventive_methods: Apple scab follows a precise seasonal calendar tied to temperature
+    and moisture. Primary infections occur from silver tip through June as overwintering
+    spores in fallen leaves release during rain events. The Mills Table predicts infection
+    periods from temperature and leaf wetness duration — use it to target sprays at
+    actual infection risk rather than calendar timing. Resistant apple varieties (Liberty,
+    Freedom, Pristine, Enterprise) eliminate scab management entirely — the best long-term
+    solution for home orchards.
+  cultural_practices: Collect and destroy fallen leaves in autumn — this is the most
+    impactful single management action as overwintering spores live in fallen leaf
+    debris. Shred fallen leaves with a mower to accelerate decomposition if collection
+    is impractical. Prune for open canopy — scab spreads in humid stagnant air between
+    crowded branches. Avoid overhead irrigation that wets leaves for extended periods.
+    Mulch under trees to prevent soil splash onto lower leaves.
+  mechanical_physical: Remove and destroy fallen leaves each autumn — bag or hot-compost
+    (scab spores survive normal cold composting). Urea sprayed on fallen leaves in
+    autumn accelerates decomposition and kills overwintering spores — cheap and effective.
+    Prune water sprouts and crossing branches that create humid interior zones where
+    scab spreads fastest.
+  organic_sprays: Sulfur fungicide is the most reliable organic spray — apply on a
+    7-10 day schedule from silver tip through June, more frequently (every 5-7 days)
+    during wet periods. Do not apply when temperatures exceed 90F (32C). Lime sulfur
+    at delayed dormant timing kills overwintering spores on bark and buds. Copper
+    at green tip through tight cluster provides protectant coverage. Kaolin clay applied
+    from half-inch green through petal fall helps but is secondary to sulfur. Rotate
+    materials to prevent resistance buildup.
+natural_enemies:
+- Beneficial Microbes
+- Competitive Fungi
+affected_plants:
+- slug: agrimony
+  name: Agrimony
+- slug: allegheny-serviceberry
+  name: Allegheny Serviceberry
+- slug: almond-tree
+  name: Almond Tree
+- slug: american-beauty-plum
+  name: American Beauty Plum
+- slug: american-hawthorn
+  name: American Hawthorn
+- slug: american-plum
+  name: American Plum
+- slug: apple
+  name: Apple
+- slug: aronia
+  name: Aronia
+- slug: beach-strawberry
+  name: Beach Strawberry
+- slug: bearberry-cotoneaster
+  name: Bearberry Cotoneaster
+- slug: black-chokeberry
+  name: Black Chokeberry
+- slug: buffalo-plum
+  name: Buffalo Plum
+- slug: carolina-rose
+  name: Carolina Rose
+- slug: chickasaw-blackberry
+  name: Chickasaw Blackberry
+- slug: chickasaw-plum
+  name: Chickasaw Plum
+- slug: chokeberry
+  name: Chokeberry
+- slug: climbing-prairie-rose
+  name: Climbing Prairie Rose
+- slug: cloudberry
+  name: Cloudberry
+- slug: cockspur-hawthorn
+  name: Cockspur Hawthorn
+- slug: creeping-raspberry
+  name: Creeping Raspberry
+- slug: dewberry
+  name: Dewberry
+- slug: dotted-hawthorn
+  name: Dotted Hawthorn
+- slug: downy-serviceberry
+  name: Downy Serviceberry
+- slug: flatwoods-plum
+  name: Flatwoods Plum
+- slug: frosted-hawthorn
+  name: Frosted Hawthorn
+- slug: green-hawthorn
+  name: Green Hawthorn
+- slug: green-apple-tree
+  name: Green Apple Tree
+- slug: hedge-cotoneaster
+  name: Hedge Cotoneaster
+- slug: hortulan-plum
+  name: Hortulan Plum
+- slug: loquat
+  name: Loquat
+- slug: many-flowered-cotoneaster
+  name: Many Flowered Cotoneaster
+- slug: mayhaw
+  name: Mayhaw
+- slug: meadowsweet
+  name: Meadowsweet
+- slug: munson-plum
+  name: Munson Plum
+- slug: nectarine-tree
+  name: Nectarine Tree
+- slug: parsley-hawthorn
+  name: Parsley Hawthorn
+- slug: pasture-rose
+  name: Pasture Rose
+- slug: pear-hawthorn
+  name: Pear Hawthorn
+- slug: pear-tree
+  name: Pear Tree
+- slug: pineapple-pear
+  name: Pineapple Pear
+- slug: prairie-crabapple
+  name: Prairie Crabapple
+- slug: purple-chokeberry
+  name: Purple Chokeberry
+- slug: raspberry
+  name: Raspberry
+- slug: red-chokeberry
+  name: Red Chokeberry
+- slug: red-apple-tree
+  name: Red Apple Tree
+- slug: rock-cotoneaster
+  name: Rock Cotoneaster
+- slug: roundleaf-serviceberry
+  name: Roundleaf Serviceberry
+- slug: running-serviceberry
+  name: Running Serviceberry
+- slug: sand-blackberry
+  name: Sand Blackberry
+- slug: sand-cherry
+  name: Sand Cherry
+- slug: saskatoon-berry
+  name: Saskatoon Berry
+- slug: serviceberry
+  name: Serviceberry
+- slug: silverleaf-cotoneaster
+  name: Silverleaf Cotoneaster
+- slug: smooth-serviceberry
+  name: Smooth Serviceberry
+- slug: southern-crabapple
+  name: Southern Crabapple
+- slug: southern-dewberry
+  name: Southern Dewberry
+- slug: southern-hawthorn
+  name: Southern Hawthorn
+- slug: strawberry
+  name: Strawberry
+- slug: swamp-rose
+  name: Swamp Rose
+- slug: sweet-crabapple
+  name: Sweet Crabapple
+- slug: virginia-rose
+  name: Virginia Rose
+- slug: wild-crabapple
+  name: Wild Crabapple
+- slug: wild-plum
+  name: Wild Plum
+category: disease

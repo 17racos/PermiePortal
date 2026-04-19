@@ -1,297 +1,289 @@
----
-- name: Ganoderma Butt Rot
-  slug: ganoderma-butt-rot
-  picture: ganoderma_butt_rot.webp
-  scientific_name: Ganoderma spp.
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, ganoderma butt rot may
-    already be active. This problem often starts small, then spreads across healthy tissue
-    before most growers realize how serious it is. Warmth, moisture, and crowded foliage usually
-    speed it up. Treat early, because waiting even a few days can turn a manageable infection
-    into major crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - wilting
-  - root-damage
-  - yellowing-leaves
-  - dropping-leaves
-  - crown-damage
-  control_methods:
-    biological_controls: >-
-      No effective biological control exists for Ganoderma butt rot — once the
-      fungus is established in a tree's root system and lower trunk, the colonization
-      is progressive and irreversible. Healthy soil food web with diverse competitive
-      saprophytic fungi may marginally slow spread in surrounding soil but cannot
-      save an infected tree. Focus entirely on prevention and protecting uninfected
-      trees from spore exposure.
-    preventive_methods: >-
-      Ganoderma enters through wounds, root injuries, and stressed root systems.
-      The single most important prevention is avoiding trunk wounds — never
-      hit trunks with string trimmers or mowers, never pile soil or mulch against
-      root flares, never injure surface roots with tillage. Stressed trees are
-      far more susceptible — maintain consistent moisture, avoid compaction over
-      root zones, and do not plant susceptible palms and trees on sites with poor
-      drainage. The conk (bracket mushroom) on the trunk means the tree is already
-      severely compromised internally.
-    cultural_practices: >-
-      Remove infected stumps and root balls completely — Ganoderma inoculum
-      persists in wood debris for years and infects new plantings through root
-      contact. Never chip infected wood for mulch. Sterilize chainsaws between
-      trees when working in infected areas. Plant resistant species in high-risk
-      sites — avoid replanting palms in the same hole where an infected palm was
-      removed. Keep dee locations as Ganoderma
-      spreads through root grafts to adjacent trees.
-    mechanical_physical: >-
-      Cable bracing is a temporary safety measure only — it does not stop fungal
-      progression. Arborists can excavate and air-dry lower trunks to assess
-      infection extent but this does not cure the tree. Once a conk appears,
-      the tree should be evaluated for removal risk by a certified arborist.
-      Remove infected trees before they become a hazard — Ganoderma weakens
-      structural roots, making trees prone to sudden failure in storms.
-    organic_sprays: >-
-      No spray cures Ganoderma butt rot. Phosphite-based products marketed for
-      Phytophthora have no proven efficacy on Ganoderma. Trunk injection of
-      biologicals has mixed and generally poor research support. Spend no money
-      on spray treatments for confirmed Ganoderma — invest instead in proper
-      removal, stump grinding below grade, and replanting with resistant species.
-  natural_enemies:
-  - Competitive Saprophytic Fungi
-  - Soil Antagonistic Microbes
-  affected_plants:
-  - slug: açaí-palm
-    name: Açaí Palm
-  - slug: aguaje-palm
-    name: Aguaje Palm
-  - slug: bactris-gasipaes
-    name: Bactris Gasipaes
-  - slug: bismarck-palm
-    name: Bismarck Palm
-  - slug: blue-palmetto
-    name: Blue Palmetto
-  - slug: buriti-palm
-    name: Buriti Palm
-  - slug: butia-palm
-    name: Butia Palm
-  - slug: cabbage-palm
-    name: Cabbage Palm
-  - slug: chinese-fan-palm
-    name: Chinese Fan Palm
-  - slug: coconut-palm
-    name: Coconut Palm
-  - slug: coconut-tree
-    name: Coconut Tree
-  - slug: dwarf-palmetto
-    name: Dwarf Palmetto
-  - slug: florida-thatch-palm
-    name: Florida Thatch Palm
-  - slug: jelly-palm
-    name: Jelly Palm
-  - slug: jucara-palm
-    name: Jucara Palm
-  - slug: key-thatch-palm
-    name: Key Thatch Palm
-  - slug: needle-palm
-    name: Needle Palm
-  - slug: nipa-palm
-    name: Nipa Palm
-  - slug: palmetto-palm
-    name: Palmetto Palm
-  - slug: peach-palm
-    name: Peach Palm
-  - slug: pindo-palm
-    name: Pindo Palm
-  - slug: ribbon-palm
-    name: Ribbon Palm
-  - slug: royal-palm
-    name: Royal Palm
-  - slug: sabal-palm
-    name: Sabal Palm
-  - slug: saw-palmetto
-    name: Saw Palmetto
-  - slug: scrub-palmetto
-    name: Scrub Palmetto
-  - slug: tucumã-palm
-    name: Tucumã Palm
-  - slug: windmill-palm
-    name: Windmill Palm
-  - slug: acacia
-    name: Acacia
-  - slug: african-locust-bean
-    name: African Locust Bean
-  - slug: ahipa
-    name: Ahipa
-  - slug: albizia-lebbeck
-    name: Albizia lebbeck
-  - slug: alfalfa
-    name: Alfalfa
-  - slug: asparagus-bean
-    name: Asparagus Bean
-  - slug: baptisia
-    name: Baptisia
-  - slug: bay-bean
-    name: Bay Bean
-  - slug: beach-bean
-    name: Beach Bean
-  - slug: black-medic
-    name: Black Medic
-  - slug: black-mulga
-    name: Black Mulga
-  - slug: black-locust
-    name: Black Locust
-  - slug: bladder-senna
-    name: Bladder Senna
-  - slug: blue-wild-indigo
-    name: Blue Wild Indigo
-  - slug: carob-tree
-    name: Carob Tree
-  - slug: cassia-alata
-    name: Cassia alata
-  - slug: catclaw-sensitive-briar
-    name: Catclaw Sensitive Briar
-  - slug: chickpea
-    name: Chickpea
-  - slug: chilean-pea
-    name: Chilean Pea
-  - slug: coffee-senna
-    name: Coffee Senna
-  - slug: coffeeweed
-    name: Coffeeweed
-  - slug: coral-bean
-    name: Coral Bean
-  - slug: crimson-clover
-    name: Crimson Clover
-  - slug: crown-vetch
-    name: Crown Vetch
-  - slug: desert-ironwood
-    name: Desert Ironwood
-  - slug: dutch-clover
-    name: Dutch Clover
-  - slug: earth-chestnut
-    name: Earth Chestnut
-  - slug: false-indigo
-    name: False Indigo
-  - slug: fava-bean
-    name: Fava Bean
-  - slug: florida-leadplant
-    name: Florida Leadplant
-  - slug: goats-rue
-    name: Goat's Rue
-  - slug: green-bean
-    name: Green Bean
-  - slug: groundnut
-    name: Groundnut
-  - slug: groundplum-milkvetch
-    name: Groundplum Milkvetch
-  - slug: hairy-indigo
-    name: Hairy Indigo
-  - slug: honey-locust
-    name: Honey Locust
-  - slug: hopniss
-    name: Hopniss
-  - slug: hyacinth-bean
-    name: Hyacinth Bean
-  - slug: ice-cream-bean-tree
-    name: Ice Cream Bean Tree
-  - slug: illinois-bundleflower
-    name: Illinois Bundleflower
-  - slug: indigofera-tinctoria
-    name: Indigofera tinctoria
-  - slug: jatoba
-    name: Jatoba
-  - slug: jicama
-    name: Jicama
-  - slug: lablab-bean
-    name: Lablab Bean
-  - slug: lead-plant
-    name: Lead Plant
-  - slug: leucaena
-    name: Leucaena
-  - slug: lupine
-    name: Lupine
-  - slug: mangrove-bean
-    name: Mangrove Bean
-  - slug: milk-vetch
-    name: Milk Vetch
-  - slug: mimosa
-    name: Mimosa
-  - slug: mung-bean
-    name: Mung Bean
-  - slug: palo-verde
-    name: Palo Verde
-  - slug: partridge-acacia
-    name: Partridge Acacia
-  - slug: partridge-cassia
-    name: Partridge Cassia
-  - slug: partridge-pea
-    name: Partridge Pea
-  - slug: pea
-    name: Pea
-  - slug: perennial-peanut
-    name: Perennial Peanut
-  - slug: pigeon-pea
-    name: Pigeon Pea
-  - slug: plains-wild-indigo
-    name: Plains Wild Indigo
-  - slug: powderpuff-mimosa
-    name: Powderpuff Mimosa
-  - slug: prairie-acacia
-    name: Prairie Acacia
-  - slug: prairie-potato
-    name: Prairie Potato
-  - slug: prairie-turnip
-    name: Prairie Turnip
-  - slug: rattlebox
-    name: Rattlebox
-  - slug: sensitive-briar
-    name: Sensitive Briar
-  - slug: sensitive-plant
-    name: Sensitive Plant
-  - slug: sesbania
-    name: Sesbania
-  - slug: sesbania-grandiflora
-    name: Sesbania grandiflora
-  - slug: showy-partridge-pea
-    name: Showy Partridge Pea
-  - slug: siberian-peashrub
-    name: Siberian Peashrub
-  - slug: siberian-pea-shrub
-    name: Siberian Pea Shrub
-  - slug: sicklepod
-    name: Sicklepod
-  - slug: snow-pea
-    name: Snow Pea
-  - slug: sun-hemp
-    name: Sun Hemp
-  - slug: sunshine-mimosa
-    name: Sunshine Mimosa
-  - slug: tagasaste
-    name: Tagasaste
-  - slug: tephrosia-vogelii
-    name: Tephrosia vogelii
-  - slug: tick-trefoil
-    name: Tick Trefoil
-  - slug: trailing-mimosa
-    name: Trailing Mimosa
-  - slug: tree-medick
-    name: Tree Medick
-  - slug: white-wild-indigo
-    name: White Wild Indigo
-  - slug: wild-indigo-bush
-    name: Wild Indigo Bush
-  - slug: wild-indigo
-    name: Wild Indigo
-  - slug: wild-senna
-    name: Wild Senna
-  - slug: winged-bean
-    name: Winged Bean
-  - slug: wisteria
-    name: Wisteria
-  - slug: yam-bean
-    name: Yam Bean
-  - slug: yellow-sweet-clover
-    name: Yellow Sweet Clover
+name: Ganoderma Butt Rot
+slug: ganoderma-butt-rot
+picture: ganoderma_butt_rot.webp
+scientific_name: Ganoderma spp.
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  ganoderma butt rot may already be active. This problem often starts small, then
+  spreads across healthy tissue before most growers realize how serious it is. Warmth,
+  moisture, and crowded foliage usually speed it up. Treat early, because waiting
+  even a few days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- wilting
+- root-damage
+- yellowing-leaves
+- dropping-leaves
+- crown-damage
+control_methods:
+  biological_controls: No effective biological control exists for Ganoderma butt rot
+    — once the fungus is established in a tree's root system and lower trunk, the
+    colonization is progressive and irreversible. Healthy soil food web with diverse
+    competitive saprophytic fungi may marginally slow spread in surrounding soil but
+    cannot save an infected tree. Focus entirely on prevention and protecting uninfected
+    trees from spore exposure.
+  preventive_methods: Ganoderma enters through wounds, root injuries, and stressed
+    root systems. The single most important prevention is avoiding trunk wounds —
+    never hit trunks with string trimmers or mowers, never pile soil or mulch against
+    root flares, never injure surface roots with tillage. Stressed trees are far more
+    susceptible — maintain consistent moisture, avoid compaction over root zones,
+    and do not plant susceptible palms and trees on sites with poor drainage. The
+    conk (bracket mushroom) on the trunk means the tree is already severely compromised
+    internally.
+  cultural_practices: Remove infected stumps and root balls completely — Ganoderma
+    inoculum persists in wood debris for years and infects new plantings through root
+    contact. Never chip infected wood for mulch. Sterilize chainsaws between trees
+    when working in infected areas. Plant resistant species in high-risk sites — avoid
+    replanting palms in the same hole where an infected palm was removed. Keep dee
+    locations as Ganoderma spreads through root grafts to adjacent trees.
+  mechanical_physical: Cable bracing is a temporary safety measure only — it does
+    not stop fungal progression. Arborists can excavate and air-dry lower trunks to
+    assess infection extent but this does not cure the tree. Once a conk appears,
+    the tree should be evaluated for removal risk by a certified arborist. Remove
+    infected trees before they become a hazard — Ganoderma weakens structural roots,
+    making trees prone to sudden failure in storms.
+  organic_sprays: No spray cures Ganoderma butt rot. Phosphite-based products marketed
+    for Phytophthora have no proven efficacy on Ganoderma. Trunk injection of biologicals
+    has mixed and generally poor research support. Spend no money on spray treatments
+    for confirmed Ganoderma — invest instead in proper removal, stump grinding below
+    grade, and replanting with resistant species.
+natural_enemies:
+- Competitive Saprophytic Fungi
+- Soil Antagonistic Microbes
+affected_plants:
+- slug: açaí-palm
+  name: Açaí Palm
+- slug: aguaje-palm
+  name: Aguaje Palm
+- slug: bactris-gasipaes
+  name: Bactris Gasipaes
+- slug: bismarck-palm
+  name: Bismarck Palm
+- slug: blue-palmetto
+  name: Blue Palmetto
+- slug: buriti-palm
+  name: Buriti Palm
+- slug: butia-palm
+  name: Butia Palm
+- slug: cabbage-palm
+  name: Cabbage Palm
+- slug: chinese-fan-palm
+  name: Chinese Fan Palm
+- slug: coconut-palm
+  name: Coconut Palm
+- slug: coconut-tree
+  name: Coconut Tree
+- slug: dwarf-palmetto
+  name: Dwarf Palmetto
+- slug: florida-thatch-palm
+  name: Florida Thatch Palm
+- slug: jelly-palm
+  name: Jelly Palm
+- slug: jucara-palm
+  name: Jucara Palm
+- slug: key-thatch-palm
+  name: Key Thatch Palm
+- slug: needle-palm
+  name: Needle Palm
+- slug: nipa-palm
+  name: Nipa Palm
+- slug: palmetto-palm
+  name: Palmetto Palm
+- slug: peach-palm
+  name: Peach Palm
+- slug: pindo-palm
+  name: Pindo Palm
+- slug: ribbon-palm
+  name: Ribbon Palm
+- slug: royal-palm
+  name: Royal Palm
+- slug: sabal-palm
+  name: Sabal Palm
+- slug: saw-palmetto
+  name: Saw Palmetto
+- slug: scrub-palmetto
+  name: Scrub Palmetto
+- slug: tucumã-palm
+  name: Tucumã Palm
+- slug: windmill-palm
+  name: Windmill Palm
+- slug: acacia
+  name: Acacia
+- slug: african-locust-bean
+  name: African Locust Bean
+- slug: ahipa
+  name: Ahipa
+- slug: albizia-lebbeck
+  name: Albizia lebbeck
+- slug: alfalfa
+  name: Alfalfa
+- slug: asparagus-bean
+  name: Asparagus Bean
+- slug: baptisia
+  name: Baptisia
+- slug: bay-bean
+  name: Bay Bean
+- slug: beach-bean
+  name: Beach Bean
+- slug: black-medic
+  name: Black Medic
+- slug: black-mulga
+  name: Black Mulga
+- slug: black-locust
+  name: Black Locust
+- slug: bladder-senna
+  name: Bladder Senna
+- slug: blue-wild-indigo
+  name: Blue Wild Indigo
+- slug: carob-tree
+  name: Carob Tree
+- slug: cassia-alata
+  name: Cassia alata
+- slug: catclaw-sensitive-briar
+  name: Catclaw Sensitive Briar
+- slug: chickpea
+  name: Chickpea
+- slug: chilean-pea
+  name: Chilean Pea
+- slug: coffee-senna
+  name: Coffee Senna
+- slug: coffeeweed
+  name: Coffeeweed
+- slug: coral-bean
+  name: Coral Bean
+- slug: crimson-clover
+  name: Crimson Clover
+- slug: crown-vetch
+  name: Crown Vetch
+- slug: desert-ironwood
+  name: Desert Ironwood
+- slug: dutch-clover
+  name: Dutch Clover
+- slug: earth-chestnut
+  name: Earth Chestnut
+- slug: false-indigo
+  name: False Indigo
+- slug: fava-bean
+  name: Fava Bean
+- slug: florida-leadplant
+  name: Florida Leadplant
+- slug: goats-rue
+  name: Goat's Rue
+- slug: green-bean
+  name: Green Bean
+- slug: groundnut
+  name: Groundnut
+- slug: groundplum-milkvetch
+  name: Groundplum Milkvetch
+- slug: hairy-indigo
+  name: Hairy Indigo
+- slug: honey-locust
+  name: Honey Locust
+- slug: hopniss
+  name: Hopniss
+- slug: hyacinth-bean
+  name: Hyacinth Bean
+- slug: ice-cream-bean-tree
+  name: Ice Cream Bean Tree
+- slug: illinois-bundleflower
+  name: Illinois Bundleflower
+- slug: indigofera-tinctoria
+  name: Indigofera tinctoria
+- slug: jatoba
+  name: Jatoba
+- slug: jicama
+  name: Jicama
+- slug: lablab-bean
+  name: Lablab Bean
+- slug: lead-plant
+  name: Lead Plant
+- slug: leucaena
+  name: Leucaena
+- slug: lupine
+  name: Lupine
+- slug: mangrove-bean
+  name: Mangrove Bean
+- slug: milk-vetch
+  name: Milk Vetch
+- slug: mimosa
+  name: Mimosa
+- slug: mung-bean
+  name: Mung Bean
+- slug: palo-verde
+  name: Palo Verde
+- slug: partridge-acacia
+  name: Partridge Acacia
+- slug: partridge-cassia
+  name: Partridge Cassia
+- slug: partridge-pea
+  name: Partridge Pea
+- slug: pea
+  name: Pea
+- slug: perennial-peanut
+  name: Perennial Peanut
+- slug: pigeon-pea
+  name: Pigeon Pea
+- slug: plains-wild-indigo
+  name: Plains Wild Indigo
+- slug: powderpuff-mimosa
+  name: Powderpuff Mimosa
+- slug: prairie-acacia
+  name: Prairie Acacia
+- slug: prairie-potato
+  name: Prairie Potato
+- slug: prairie-turnip
+  name: Prairie Turnip
+- slug: rattlebox
+  name: Rattlebox
+- slug: sensitive-briar
+  name: Sensitive Briar
+- slug: sensitive-plant
+  name: Sensitive Plant
+- slug: sesbania
+  name: Sesbania
+- slug: sesbania-grandiflora
+  name: Sesbania grandiflora
+- slug: showy-partridge-pea
+  name: Showy Partridge Pea
+- slug: siberian-peashrub
+  name: Siberian Peashrub
+- slug: siberian-pea-shrub
+  name: Siberian Pea Shrub
+- slug: sicklepod
+  name: Sicklepod
+- slug: snow-pea
+  name: Snow Pea
+- slug: sun-hemp
+  name: Sun Hemp
+- slug: sunshine-mimosa
+  name: Sunshine Mimosa
+- slug: tagasaste
+  name: Tagasaste
+- slug: tephrosia-vogelii
+  name: Tephrosia vogelii
+- slug: tick-trefoil
+  name: Tick Trefoil
+- slug: trailing-mimosa
+  name: Trailing Mimosa
+- slug: tree-medick
+  name: Tree Medick
+- slug: white-wild-indigo
+  name: White Wild Indigo
+- slug: wild-indigo-bush
+  name: Wild Indigo Bush
+- slug: wild-indigo
+  name: Wild Indigo
+- slug: wild-senna
+  name: Wild Senna
+- slug: winged-bean
+  name: Winged Bean
+- slug: wisteria
+  name: Wisteria
+- slug: yam-bean
+  name: Yam Bean
+- slug: yellow-sweet-clover
+  name: Yellow Sweet Clover
+category: disease

@@ -1,271 +1,262 @@
----
-- name: Leaf Spot
-  slug: leaf-spot
-  picture: leaf_spot.webp
-  scientific_name: Multiple species (e.g., Cercospora, Septoria, Alternaria)
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, leaf spot may already
-    be active. This problem often starts small, then spreads across healthy tissue before most
-    growers realize how serious it is. Warmth, moisture, and crowded foliage usually speed it
-    up. Treat early, because waiting even a few days can turn a manageable infection into major
-    crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - leaf-spots
-  - yellowing-leaves
-  - dropping-leaves
-  - wilting
-  control_methods:
-    biological_controls: >-
-      Bacillus subtilis colonizes leaf surfaces and produces antifungal compounds
-      that suppress a broad range of leaf spot pathogens — apply preventively
-      as a foliar spray every 7-14 days during wet weather. Trichoderma products
-      as soil drenches support root health and reduce systemic stress that makes
-      plants more susceptible to foliar disease. A diverse phyllosphere microbial
-      community naturally suppresses leaf spot — avoid broad-spectrum copper sprays
-      that sterilize leaf surfaces and eliminate beneficial competing microbes.
-    preventive_methods: >-
-      Leaf spot pathogens spread by rain splash and overhead irrigation — water
-      at the soil line only, never on foliage. Mulch under plants prevents soil
-      splash onto lower leaves. Most leaf spot fungi overwinter in infected crop
-      debris — remove and destroy all plant material at season end rather than
-      composting. Spores need wet leaf surfaces for 4-12 hours to germinate —
-      evening irrigation that leaves foliage wet overnight is the single biggest
-      risk factor. Scout after rainstorms when conditions are ideal for infection.
-    cultural_practices: >-
-      Widen plant spacing for air circulation — leaves dry faster after rain and
-      irrigation. Prune lower leaves that touch soil where splash inoculum originates.
-      Rotate susceptible crops on 3-4 year cycles — most leaf spot pathogens are
-      host-specific and die out in soil without a host plant. Choose resistant
-      Strip the lowest tier of infected leaves immediately
-      at first sign to slow upward spread.
-    mechanical_physical: >-
-      Remove and bag infected leaves — do not compost. Sanitize pruning tools
-      between plants with 70% isopropyl alcohol when cutting through infected
-      tissue. This is especially important for bacterial leaf spot which spreads
-      on dirty tools. Copper-impregnated row covers have some fungistatic effect
-      for high-value crops in research settings.
-    organic_sprays: >-
-      Copper fungicides on a protectant schedule during wet periods are the most
-      effective organic spray — apply before infection rather than after symptoms
-      appear. Copper has a 7-10 day residual and must be reapplied after rain.
-      Sulfur fungicide works on many fungal leaf spots but not bacterial ones —
-      identify your pathogen before spraying. Neem oil has some preventive efficacy.
-      Potassium bicarbonate raises leaf surface pH and kills fungal spores on
-      contact. Rotate materials to prevent resistance — no single spray manages
-      all leaf spot pathogens.
-  natural_enemies:
-  - Antagonistic Bacteria
-  - Hyperparasitic Fungi
-  affected_plants:
-  - slug: agrimony
-    name: Agrimony
-  - slug: allegheny-serviceberry
-    name: Allegheny Serviceberry
-  - slug: almond-tree
-    name: Almond Tree
-  - slug: american-beauty-plum
-    name: American Beauty Plum
-  - slug: american-hawthorn
-    name: American Hawthorn
-  - slug: american-plum
-    name: American Plum
-  - slug: apple
-    name: Apple
-  - slug: aronia
-    name: Aronia
-  - slug: beach-strawberry
-    name: Beach Strawberry
-  - slug: bearberry-cotoneaster
-    name: Bearberry Cotoneaster
-  - slug: black-chokeberry
-    name: Black Chokeberry
-  - slug: buffalo-plum
-    name: Buffalo Plum
-  - slug: carolina-rose
-    name: Carolina Rose
-  - slug: chickasaw-blackberry
-    name: Chickasaw Blackberry
-  - slug: chickasaw-plum
-    name: Chickasaw Plum
-  - slug: chokeberry
-    name: Chokeberry
-  - slug: climbing-prairie-rose
-    name: Climbing Prairie Rose
-  - slug: cloudberry
-    name: Cloudberry
-  - slug: cockspur-hawthorn
-    name: Cockspur Hawthorn
-  - slug: creeping-raspberry
-    name: Creeping Raspberry
-  - slug: dewberry
-    name: Dewberry
-  - slug: dotted-hawthorn
-    name: Dotted Hawthorn
-  - slug: downy-serviceberry
-    name: Downy Serviceberry
-  - slug: flatwoods-plum
-    name: Flatwoods Plum
-  - slug: frosted-hawthorn
-    name: Frosted Hawthorn
-  - slug: green-hawthorn
-    name: Green Hawthorn
-  - slug: green-apple-tree
-    name: Green Apple Tree
-  - slug: hedge-cotoneaster
-    name: Hedge Cotoneaster
-  - slug: hortulan-plum
-    name: Hortulan Plum
-  - slug: loquat
-    name: Loquat
-  - slug: many-flowered-cotoneaster
-    name: Many Flowered Cotoneaster
-  - slug: mayhaw
-    name: Mayhaw
-  - slug: meadowsweet
-    name: Meadowsweet
-  - slug: munson-plum
-    name: Munson Plum
-  - slug: nectarine-tree
-    name: Nectarine Tree
-  - slug: parsley-hawthorn
-    name: Parsley Hawthorn
-  - slug: pasture-rose
-    name: Pasture Rose
-  - slug: pear-hawthorn
-    name: Pear Hawthorn
-  - slug: pear-tree
-    name: Pear Tree
-  - slug: pineapple-pear
-    name: Pineapple Pear
-  - slug: prairie-crabapple
-    name: Prairie Crabapple
-  - slug: purple-chokeberry
-    name: Purple Chokeberry
-  - slug: raspberry
-    name: Raspberry
-  - slug: red-chokeberry
-    name: Red Chokeberry
-  - slug: red-apple-tree
-    name: Red Apple Tree
-  - slug: rock-cotoneaster
-    name: Rock Cotoneaster
-  - slug: roundleaf-serviceberry
-    name: Roundleaf Serviceberry
-  - slug: running-serviceberry
-    name: Running Serviceberry
-  - slug: sand-blackberry
-    name: Sand Blackberry
-  - slug: sand-cherry
-    name: Sand Cherry
-  - slug: saskatoon-berry
-    name: Saskatoon Berry
-  - slug: serviceberry
-    name: Serviceberry
-  - slug: silverleaf-cotoneaster
-    name: Silverleaf Cotoneaster
-  - slug: smooth-serviceberry
-    name: Smooth Serviceberry
-  - slug: southern-crabapple
-    name: Southern Crabapple
-  - slug: southern-dewberry
-    name: Southern Dewberry
-  - slug: southern-hawthorn
-    name: Southern Hawthorn
-  - slug: strawberry
-    name: Strawberry
-  - slug: swamp-rose
-    name: Swamp Rose
-  - slug: sweet-crabapple
-    name: Sweet Crabapple
-  - slug: virginia-rose
-    name: Virginia Rose
-  - slug: wild-crabapple
-    name: Wild Crabapple
-  - slug: wild-plum
-    name: Wild Plum
-  - slug: angels-trumpet
-    name: Angel's Trumpet
-  - slug: ashwagandha
-    name: Ashwagandha
-  - slug: buffalo-bur
-    name: Buffalo Bur
-  - slug: chiltepin-pepper
-    name: Chiltepin Pepper
-  - slug: chiltepin-pepper-tree
-    name: Chiltepin Pepper Tree
-  - slug: chinese-lantern
-    name: Chinese Lantern
-  - slug: coastal-groundcherry
-    name: Coastal Groundcherry
-  - slug: devils-trumpet
-    name: Devil's Trumpet
-  - slug: garden-huckleberry
-    name: Garden Huckleberry
-  - slug: goji-berry
-    name: Goji Berry
-  - slug: ground-cherry
-    name: Ground Cherry
-  - slug: horse-nettle
-    name: Horse Nettle
-  - slug: pepino-melon
-    name: Pepino Melon
-  - slug: potato
-    name: Potato
-  - slug: scarlet-eggplant
-    name: Scarlet Eggplant
-  - slug: wild-eggplant
-    name: Wild Eggplant
-  - slug: wonderberry
-    name: Wonderberry
-  - slug: acorn-squash
-    name: Acorn Squash
-  - slug: angled-loofah
-    name: Angled Loofah
-  - slug: apple-gourd
-    name: Apple Gourd
-  - slug: birdhouse-gourd
-    name: Birdhouse Gourd
-  - slug: bitter-melon
-    name: Bitter Melon
-  - slug: bottle-gourd
-    name: Bottle Gourd
-  - slug: buffalo-gourd
-    name: Buffalo Gourd
-  - slug: bushel-gourd
-    name: Bushel Gourd
-  - slug: calabaza
-    name: Calabaza
-  - slug: cassabanana-root-systems
-    name: Cassabanana root systems
-  - slug: caveman-club-gourd
-    name: Caveman Club Gourd
-  - slug: chayote
-    name: Chayote
-  - slug: coccinia
-    name: Coccinia
-  - slug: corsican-gourd
-    name: Corsican Gourd
-  - slug: cucamelon
-    name: Cucamelon
-  - slug: dinosaur-gourd
-    name: Dinosaur Gourd
-  - slug: ivy-gourd
-    name: Ivy Gourd
-  - slug: luffa
-    name: Luffa
-  - slug: monky-muskmelon
-    name: Monky Muskmelon
-  - slug: penguin-gourd
-    name: Penguin Gourd
-  - slug: seminole-pumpkin
-    name: Seminole Pumpkin
-  - slug: snake-gourd
-    name: Snake Gourd
-  - slug: wax-gourd
-    name: Wax Gourd
+name: Leaf Spot
+slug: leaf-spot
+picture: leaf_spot.webp
+scientific_name: Multiple species (e.g., Cercospora, Septoria, Alternaria)
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  leaf spot may already be active. This problem often starts small, then spreads across
+  healthy tissue before most growers realize how serious it is. Warmth, moisture,
+  and crowded foliage usually speed it up. Treat early, because waiting even a few
+  days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- leaf-spots
+- yellowing-leaves
+- dropping-leaves
+- wilting
+control_methods:
+  biological_controls: Bacillus subtilis colonizes leaf surfaces and produces antifungal
+    compounds that suppress a broad range of leaf spot pathogens — apply preventively
+    as a foliar spray every 7-14 days during wet weather. Trichoderma products as
+    soil drenches support root health and reduce systemic stress that makes plants
+    more susceptible to foliar disease. A diverse phyllosphere microbial community
+    naturally suppresses leaf spot — avoid broad-spectrum copper sprays that sterilize
+    leaf surfaces and eliminate beneficial competing microbes.
+  preventive_methods: Leaf spot pathogens spread by rain splash and overhead irrigation
+    — water at the soil line only, never on foliage. Mulch under plants prevents soil
+    splash onto lower leaves. Most leaf spot fungi overwinter in infected crop debris
+    — remove and destroy all plant material at season end rather than composting.
+    Spores need wet leaf surfaces for 4-12 hours to germinate — evening irrigation
+    that leaves foliage wet overnight is the single biggest risk factor. Scout after
+    rainstorms when conditions are ideal for infection.
+  cultural_practices: Widen plant spacing for air circulation — leaves dry faster
+    after rain and irrigation. Prune lower leaves that touch soil where splash inoculum
+    originates. Rotate susceptible crops on 3-4 year cycles — most leaf spot pathogens
+    are host-specific and die out in soil without a host plant. Choose resistant Strip
+    the lowest tier of infected leaves immediately at first sign to slow upward spread.
+  mechanical_physical: Remove and bag infected leaves — do not compost. Sanitize pruning
+    tools between plants with 70% isopropyl alcohol when cutting through infected
+    tissue. This is especially important for bacterial leaf spot which spreads on
+    dirty tools. Copper-impregnated row covers have some fungistatic effect for high-value
+    crops in research settings.
+  organic_sprays: Copper fungicides on a protectant schedule during wet periods are
+    the most effective organic spray — apply before infection rather than after symptoms
+    appear. Copper has a 7-10 day residual and must be reapplied after rain. Sulfur
+    fungicide works on many fungal leaf spots but not bacterial ones — identify your
+    pathogen before spraying. Neem oil has some preventive efficacy. Potassium bicarbonate
+    raises leaf surface pH and kills fungal spores on contact. Rotate materials to
+    prevent resistance — no single spray manages all leaf spot pathogens.
+natural_enemies:
+- Antagonistic Bacteria
+- Hyperparasitic Fungi
+affected_plants:
+- slug: agrimony
+  name: Agrimony
+- slug: allegheny-serviceberry
+  name: Allegheny Serviceberry
+- slug: almond-tree
+  name: Almond Tree
+- slug: american-beauty-plum
+  name: American Beauty Plum
+- slug: american-hawthorn
+  name: American Hawthorn
+- slug: american-plum
+  name: American Plum
+- slug: apple
+  name: Apple
+- slug: aronia
+  name: Aronia
+- slug: beach-strawberry
+  name: Beach Strawberry
+- slug: bearberry-cotoneaster
+  name: Bearberry Cotoneaster
+- slug: black-chokeberry
+  name: Black Chokeberry
+- slug: buffalo-plum
+  name: Buffalo Plum
+- slug: carolina-rose
+  name: Carolina Rose
+- slug: chickasaw-blackberry
+  name: Chickasaw Blackberry
+- slug: chickasaw-plum
+  name: Chickasaw Plum
+- slug: chokeberry
+  name: Chokeberry
+- slug: climbing-prairie-rose
+  name: Climbing Prairie Rose
+- slug: cloudberry
+  name: Cloudberry
+- slug: cockspur-hawthorn
+  name: Cockspur Hawthorn
+- slug: creeping-raspberry
+  name: Creeping Raspberry
+- slug: dewberry
+  name: Dewberry
+- slug: dotted-hawthorn
+  name: Dotted Hawthorn
+- slug: downy-serviceberry
+  name: Downy Serviceberry
+- slug: flatwoods-plum
+  name: Flatwoods Plum
+- slug: frosted-hawthorn
+  name: Frosted Hawthorn
+- slug: green-hawthorn
+  name: Green Hawthorn
+- slug: green-apple-tree
+  name: Green Apple Tree
+- slug: hedge-cotoneaster
+  name: Hedge Cotoneaster
+- slug: hortulan-plum
+  name: Hortulan Plum
+- slug: loquat
+  name: Loquat
+- slug: many-flowered-cotoneaster
+  name: Many Flowered Cotoneaster
+- slug: mayhaw
+  name: Mayhaw
+- slug: meadowsweet
+  name: Meadowsweet
+- slug: munson-plum
+  name: Munson Plum
+- slug: nectarine-tree
+  name: Nectarine Tree
+- slug: parsley-hawthorn
+  name: Parsley Hawthorn
+- slug: pasture-rose
+  name: Pasture Rose
+- slug: pear-hawthorn
+  name: Pear Hawthorn
+- slug: pear-tree
+  name: Pear Tree
+- slug: pineapple-pear
+  name: Pineapple Pear
+- slug: prairie-crabapple
+  name: Prairie Crabapple
+- slug: purple-chokeberry
+  name: Purple Chokeberry
+- slug: raspberry
+  name: Raspberry
+- slug: red-chokeberry
+  name: Red Chokeberry
+- slug: red-apple-tree
+  name: Red Apple Tree
+- slug: rock-cotoneaster
+  name: Rock Cotoneaster
+- slug: roundleaf-serviceberry
+  name: Roundleaf Serviceberry
+- slug: running-serviceberry
+  name: Running Serviceberry
+- slug: sand-blackberry
+  name: Sand Blackberry
+- slug: sand-cherry
+  name: Sand Cherry
+- slug: saskatoon-berry
+  name: Saskatoon Berry
+- slug: serviceberry
+  name: Serviceberry
+- slug: silverleaf-cotoneaster
+  name: Silverleaf Cotoneaster
+- slug: smooth-serviceberry
+  name: Smooth Serviceberry
+- slug: southern-crabapple
+  name: Southern Crabapple
+- slug: southern-dewberry
+  name: Southern Dewberry
+- slug: southern-hawthorn
+  name: Southern Hawthorn
+- slug: strawberry
+  name: Strawberry
+- slug: swamp-rose
+  name: Swamp Rose
+- slug: sweet-crabapple
+  name: Sweet Crabapple
+- slug: virginia-rose
+  name: Virginia Rose
+- slug: wild-crabapple
+  name: Wild Crabapple
+- slug: wild-plum
+  name: Wild Plum
+- slug: angels-trumpet
+  name: Angel's Trumpet
+- slug: ashwagandha
+  name: Ashwagandha
+- slug: buffalo-bur
+  name: Buffalo Bur
+- slug: chiltepin-pepper
+  name: Chiltepin Pepper
+- slug: chiltepin-pepper-tree
+  name: Chiltepin Pepper Tree
+- slug: chinese-lantern
+  name: Chinese Lantern
+- slug: coastal-groundcherry
+  name: Coastal Groundcherry
+- slug: devils-trumpet
+  name: Devil's Trumpet
+- slug: garden-huckleberry
+  name: Garden Huckleberry
+- slug: goji-berry
+  name: Goji Berry
+- slug: ground-cherry
+  name: Ground Cherry
+- slug: horse-nettle
+  name: Horse Nettle
+- slug: pepino-melon
+  name: Pepino Melon
+- slug: potato
+  name: Potato
+- slug: scarlet-eggplant
+  name: Scarlet Eggplant
+- slug: wild-eggplant
+  name: Wild Eggplant
+- slug: wonderberry
+  name: Wonderberry
+- slug: acorn-squash
+  name: Acorn Squash
+- slug: angled-loofah
+  name: Angled Loofah
+- slug: apple-gourd
+  name: Apple Gourd
+- slug: birdhouse-gourd
+  name: Birdhouse Gourd
+- slug: bitter-melon
+  name: Bitter Melon
+- slug: bottle-gourd
+  name: Bottle Gourd
+- slug: buffalo-gourd
+  name: Buffalo Gourd
+- slug: bushel-gourd
+  name: Bushel Gourd
+- slug: calabaza
+  name: Calabaza
+- slug: cassabanana-root-systems
+  name: Cassabanana root systems
+- slug: caveman-club-gourd
+  name: Caveman Club Gourd
+- slug: chayote
+  name: Chayote
+- slug: coccinia
+  name: Coccinia
+- slug: corsican-gourd
+  name: Corsican Gourd
+- slug: cucamelon
+  name: Cucamelon
+- slug: dinosaur-gourd
+  name: Dinosaur Gourd
+- slug: ivy-gourd
+  name: Ivy Gourd
+- slug: luffa
+  name: Luffa
+- slug: monky-muskmelon
+  name: Monky Muskmelon
+- slug: penguin-gourd
+  name: Penguin Gourd
+- slug: seminole-pumpkin
+  name: Seminole Pumpkin
+- slug: snake-gourd
+  name: Snake Gourd
+- slug: wax-gourd
+  name: Wax Gourd
+category: disease

@@ -1,48 +1,47 @@
-- name: "Cottony cushion scale"
-  slug: "cottony-cushion-scale"
-  picture: "cottony_cushion_scale.webp"
-  scientific_name: "Icerya purchasi"
-  description: >-
-    Cottony cushion scale is a large fluted scale insect famous for collapsing citrus before the vedalia beetle
-    rescue in classical biocontrol history. Females lay long white egg masses that look like cotton strips on twigs.
-    Feeding removes sap, weakens branches, and supports sooty mold. It still appears on citrus, roses, and many
-    ornamentals wherever mild winters allow buildup.
-  characteristics: >-
-    Look for the fuzzy white ovisac along leaf midribs and bark crevices -- it is diagnostic compared with mealybugs
-    that wander more. Adults are reddish underneath the wax. Crawlers settle along veins; use tape traps to time sprays.
-    Ants may tend the scale for honeydew, which reduces predator effectiveness until ant routes are blocked.
-  symptoms:
-  - sticky-residue
-  - sooty-deposits
-  - yellowing-leaves
-  - die-back
-  control_methods:
-    biological_controls: >-
-      Rodolia cardinalis, the vedalia beetle, remains a primary predator in many citrus districts. Cryptochaetum
-      iceryae fly parasitizes this scale in coastal climates. Purchasing and releasing vedalia is sometimes available
-      to professionals -- home success depends on matching climate and avoiding sprays that kill beetles. Preserve
-      uncut flowering groundcovers in orchard rows for adult beetle nectar.
-    preventive_methods: >-
-      Inspect nursery citrus and roses for ovisacs before planting. Avoid dust on leaves that interferes with predator
-      movement. Do not apply broad-spectrum insecticides during crawler peaks. Manage Argentine ants on trunks with
-      barriers or labeled baits where regulations allow.
-    cultural_practices: >-
-      Prune out heavily encrusted water sprouts to lower local reproduction. Rinse canopies with plain water after
-      dusty wind events. Replace chronically infested hedge species when design permits. In greenhouses, isolate new
-      batches of plants for two weeks while scouting undersides.
-    mechanical_physical: >-
-      Scrape ovisacs off small trees with a plastic card during winter when populations are localized. Power wash
-      at gentle settings on tolerant bark to dislodge egg masses before crawlers hatch. Double-sided tape on stems
-      captures crawlers during emergence windows when refreshed.
-    organic_sprays: >-
-      Horticultural oil timed to crawlers smothers exposed stages before heavy wax forms. Insecticidal soap works on
-      tender rose canes where coverage is thorough. Neem can suppress crawlers but repeat applications are needed.
-      Always test a limb first on thin-barked species because oil plus heat causes burn.
-  natural_enemies:
-  - Ladybugs
-  - Parasitic Wasps
-  - Lacewings
-  affected_plants: []
-  # Image attribution: (c) Horacio Aguilar, some rights reserved (CC BY-NC), uploaded by Horacio Aguilar
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+name: Cottony cushion scale
+slug: cottony-cushion-scale
+picture: cottony_cushion_scale.webp
+scientific_name: Icerya purchasi
+description: Cottony cushion scale is a large fluted scale insect famous for collapsing
+  citrus before the vedalia beetle rescue in classical biocontrol history. Females
+  lay long white egg masses that look like cotton strips on twigs. Feeding removes
+  sap, weakens branches, and supports sooty mold. It still appears on citrus, roses,
+  and many ornamentals wherever mild winters allow buildup.
+characteristics: Look for the fuzzy white ovisac along leaf midribs and bark crevices
+  -- it is diagnostic compared with mealybugs that wander more. Adults are reddish
+  underneath the wax. Crawlers settle along veins; use tape traps to time sprays.
+  Ants may tend the scale for honeydew, which reduces predator effectiveness until
+  ant routes are blocked.
+symptoms:
+- sticky-residue
+- sooty-deposits
+- yellowing-leaves
+- die-back
+control_methods:
+  biological_controls: Rodolia cardinalis, the vedalia beetle, remains a primary predator
+    in many citrus districts. Cryptochaetum iceryae fly parasitizes this scale in
+    coastal climates. Purchasing and releasing vedalia is sometimes available to professionals
+    -- home success depends on matching climate and avoiding sprays that kill beetles.
+    Preserve uncut flowering groundcovers in orchard rows for adult beetle nectar.
+  preventive_methods: Inspect nursery citrus and roses for ovisacs before planting.
+    Avoid dust on leaves that interferes with predator movement. Do not apply broad-spectrum
+    insecticides during crawler peaks. Manage Argentine ants on trunks with barriers
+    or labeled baits where regulations allow.
+  cultural_practices: Prune out heavily encrusted water sprouts to lower local reproduction.
+    Rinse canopies with plain water after dusty wind events. Replace chronically infested
+    hedge species when design permits. In greenhouses, isolate new batches of plants
+    for two weeks while scouting undersides.
+  mechanical_physical: Scrape ovisacs off small trees with a plastic card during winter
+    when populations are localized. Power wash at gentle settings on tolerant bark
+    to dislodge egg masses before crawlers hatch. Double-sided tape on stems captures
+    crawlers during emergence windows when refreshed.
+  organic_sprays: Horticultural oil timed to crawlers smothers exposed stages before
+    heavy wax forms. Insecticidal soap works on tender rose canes where coverage is
+    thorough. Neem can suppress crawlers but repeat applications are needed. Always
+    test a limb first on thin-barked species because oil plus heat causes burn.
+natural_enemies:
+- Ladybugs
+- Parasitic Wasps
+- Lacewings
+affected_plants: []
+category: pest

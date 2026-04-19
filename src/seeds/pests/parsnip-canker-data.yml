@@ -1,115 +1,111 @@
----
-- name: Parsnip Canker
-  slug: parsnip-canker
-  picture: parsnip_canker.webp
-  scientific_name: Sclerotinia sclerotiorum
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, parsnip canker may
-    already be active. This problem often starts small, then spreads across healthy tissue
-    before most growers realize how serious it is. Warmth, moisture, and crowded foliage usually
-    speed it up. Treat early, because waiting even a few days can turn a manageable infection
-    into major crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - root-damage
-  - wilting
-  - yellowing-leaves
-  - distorted-growth
-  control_methods:
-    biological_controls: >-
-      Soil microbes that compete with root canker fungi are part of long-term soil health, not a
-      jar you open on Tuesday. Trichoderma and Bacillus products applied as seed treatments or
-      early root drenches sometimes reduce root colonization in trials -- results vary with soil
-      temperature and organic matter. Compost additions feed the whole web, including organisms
-      that antagonize weak pathogens. Do not expect purchased bacteria to fix heavy, wet clay
-      without drainage work; biology rides on physics.
-    preventive_methods: >-
-      Canker fungi infect young roots and crowns through wounds in cool, wet soil -- the highest
-      risk window is long wet spells right after thinning. Rotate parsnips and related Apiaceae
-      on a three- to four-year schedule in gardens; longer in commercial blocks if disease
-      appeared. Choose seed from reputable sources with hot-water or fungicide-treated seed where
-      legal and appropriate. Lime acid soils to pH 6.5-7.0 if tests show chronic low pH; some
-      cankers thrive in acid, soggy pockets.
-    cultural_practices: >-
-      Improve drainage before planting; raised beds or broad ridges keep roots from sitting in
-      cold soup. Avoid over-thick sowings that force late, painful thinning wounds in wet
-      weather. Space rows so air moves; dense canopies stay wet until noon. Remove infected roots
-      at harvest and burn or bury deep away from the Apiaceae bed; do not compost diseased roots
-      in small cold piles. Clean soil from roots before moving between fields; mud carries
-      inoculum.
-    mechanical_physical: >-
-      Sterilize tools between plants when you cut or pull infected roots in wet soil -- simple
-      bleach or alcohol dips reduce how much inoculum you drag down the row. Use physical barriers
-      like plastic mulch in wet years to keep soil from splashing onto crowns during rain. Remove
-      crop debris promptly after harvest so overwintering structures have less host tissue.
-      Hand-pull weeds instead of aggressive hoeing near crowns when roots are swelling.
-    organic_sprays: >-
-      Copper-based fungicides applied as a soil-directed spray at planting or at first thinning
-      may reduce some canker pathogens -- read labels for Apiaceae crops in your region. Neem and
-      other botanicals show limited root penetration; they help on foliage issues, not deep crown
-      rot. Biological fungicides work best as prevention paired with drainage and rotation;
-      they do not resurrect mushy roots. Stop spraying if rain will wash product into waterways
-      against label rules.
-  natural_enemies:
-  - Beneficial Fungi
-  - Antagonistic Bacteria
-  affected_plants:
-  - slug: alexanders
-    name: Alexanders
-  - slug: angelica
-    name: Angelica
-  - slug: arracacha
-    name: Arracacha
-  - slug: ashitaba
-    name: Ashitaba
-  - slug: carrot
-    name: Carrot
-  - slug: celery
-    name: Celery
-  - slug: culantro
-    name: Culantro
-  - slug: dill
-    name: Dill
-  - slug: dollarweed
-    name: Dollarweed
-  - slug: fennel
-    name: Fennel
-  - slug: gotu-kola
-    name: Gotu Kola
-  - slug: lovage
-    name: Lovage
-  - slug: parsley
-    name: Parsley
-  - slug: parsnip
-    name: Parsnip
-  - slug: rattlesnake-master
-    name: Rattlesnake Master
-  - slug: skirret
-    name: Skirret
-  - slug: sweet-cicely
-    name: Sweet Cicely
-  - slug: wild-anise
-    name: Wild Anise
-  - slug: wild-caraway
-    name: Wild Caraway
-  - slug: wild-carrot
-    name: Wild Carrot
-  - slug: wild-celery
-    name: Wild Celery
-  - slug: wild-chervil
-    name: Wild Chervil
-  - slug: wild-coriander
-    name: Wild Coriander
-  - slug: wild-cumin
-    name: Wild Cumin
-  - slug: wild-dill
-    name: Wild Dill
-  - slug: wild-fennel
-    name: Wild Fennel
-  - slug: wild-parsnip
-    name: Wild Parsnip
+name: Parsnip Canker
+slug: parsnip-canker
+picture: parsnip_canker.webp
+scientific_name: Sclerotinia sclerotiorum
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  parsnip canker may already be active. This problem often starts small, then spreads
+  across healthy tissue before most growers realize how serious it is. Warmth, moisture,
+  and crowded foliage usually speed it up. Treat early, because waiting even a few
+  days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- root-damage
+- wilting
+- yellowing-leaves
+- distorted-growth
+control_methods:
+  biological_controls: Soil microbes that compete with root canker fungi are part
+    of long-term soil health, not a jar you open on Tuesday. Trichoderma and Bacillus
+    products applied as seed treatments or early root drenches sometimes reduce root
+    colonization in trials -- results vary with soil temperature and organic matter.
+    Compost additions feed the whole web, including organisms that antagonize weak
+    pathogens. Do not expect purchased bacteria to fix heavy, wet clay without drainage
+    work; biology rides on physics.
+  preventive_methods: Canker fungi infect young roots and crowns through wounds in
+    cool, wet soil -- the highest risk window is long wet spells right after thinning.
+    Rotate parsnips and related Apiaceae on a three- to four-year schedule in gardens;
+    longer in commercial blocks if disease appeared. Choose seed from reputable sources
+    with hot-water or fungicide-treated seed where legal and appropriate. Lime acid
+    soils to pH 6.5-7.0 if tests show chronic low pH; some cankers thrive in acid,
+    soggy pockets.
+  cultural_practices: Improve drainage before planting; raised beds or broad ridges
+    keep roots from sitting in cold soup. Avoid over-thick sowings that force late,
+    painful thinning wounds in wet weather. Space rows so air moves; dense canopies
+    stay wet until noon. Remove infected roots at harvest and burn or bury deep away
+    from the Apiaceae bed; do not compost diseased roots in small cold piles. Clean
+    soil from roots before moving between fields; mud carries inoculum.
+  mechanical_physical: Sterilize tools between plants when you cut or pull infected
+    roots in wet soil -- simple bleach or alcohol dips reduce how much inoculum you
+    drag down the row. Use physical barriers like plastic mulch in wet years to keep
+    soil from splashing onto crowns during rain. Remove crop debris promptly after
+    harvest so overwintering structures have less host tissue. Hand-pull weeds instead
+    of aggressive hoeing near crowns when roots are swelling.
+  organic_sprays: Copper-based fungicides applied as a soil-directed spray at planting
+    or at first thinning may reduce some canker pathogens -- read labels for Apiaceae
+    crops in your region. Neem and other botanicals show limited root penetration;
+    they help on foliage issues, not deep crown rot. Biological fungicides work best
+    as prevention paired with drainage and rotation; they do not resurrect mushy roots.
+    Stop spraying if rain will wash product into waterways against label rules.
+natural_enemies:
+- Beneficial Fungi
+- Antagonistic Bacteria
+affected_plants:
+- slug: alexanders
+  name: Alexanders
+- slug: angelica
+  name: Angelica
+- slug: arracacha
+  name: Arracacha
+- slug: ashitaba
+  name: Ashitaba
+- slug: carrot
+  name: Carrot
+- slug: celery
+  name: Celery
+- slug: culantro
+  name: Culantro
+- slug: dill
+  name: Dill
+- slug: dollarweed
+  name: Dollarweed
+- slug: fennel
+  name: Fennel
+- slug: gotu-kola
+  name: Gotu Kola
+- slug: lovage
+  name: Lovage
+- slug: parsley
+  name: Parsley
+- slug: parsnip
+  name: Parsnip
+- slug: rattlesnake-master
+  name: Rattlesnake Master
+- slug: skirret
+  name: Skirret
+- slug: sweet-cicely
+  name: Sweet Cicely
+- slug: wild-anise
+  name: Wild Anise
+- slug: wild-caraway
+  name: Wild Caraway
+- slug: wild-carrot
+  name: Wild Carrot
+- slug: wild-celery
+  name: Wild Celery
+- slug: wild-chervil
+  name: Wild Chervil
+- slug: wild-coriander
+  name: Wild Coriander
+- slug: wild-cumin
+  name: Wild Cumin
+- slug: wild-dill
+  name: Wild Dill
+- slug: wild-fennel
+  name: Wild Fennel
+- slug: wild-parsnip
+  name: Wild Parsnip
+category: disease

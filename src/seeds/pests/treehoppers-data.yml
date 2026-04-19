@@ -1,41 +1,40 @@
-- name: "Treehoppers"
-  slug: "treehoppers"
-  picture: "treehoppers.webp"
-  scientific_name: "Membracidae"
-  description: >-
-    Treehoppers are bizarrely shaped hemipterans that often sit motionless on stems, sometimes in maternal groups guarding
-    egg masses. They pierce phloem and excrete honeydew that grows sooty mold. Most species are minor alone, but dense
-    aggregations can stress young shoots on legumes, orchard trees, and ornamentals from tropical to temperate climates.
-  characteristics: >-
-    Adults have a helmet-like pronotum that can mimic thorns -- use a lens to see the beak and wing pads. Nymphs cluster
-    around females on some species. Ants often tend treehoppers for honeydew, which should clue you to look up the stem.
-    Beat branches over a tray to confirm density.
-  symptoms:
-  - sticky-residue
-  - sooty-deposits
-  - distorted-growth
-  - wilting
-  control_methods:
-    biological_controls: >-
-      Parasitoids attack treehopper eggs and nymphs in diverse systems. Spiders and assassin bugs prey on exposed stages.
-      Reducing ant tending improves predator access. Avoid killing all wasps indiscriminately -- many are parasitoids.
-    preventive_methods: >-
-      Inspect nursery liners for ant highways and hopper clusters before planting. Avoid excessive nitrogen flushes that
-      favor huge nymph cohorts. Manage dust on roadside plantings so predators remain effective.
-    cultural_practices: >-
-      Prune out localized aggregations on small shrubs. Wash honeydew-coated leaves with plain water in morning. Replace
-      chronically ant-tended hedge species when design allows.
-    mechanical_physical: >-
-      For houseplants, wipe stems with soapy cloth to remove clusters. High-pressure water knocks nymphs off sturdy outdoor
-      shoots when repeated a few days apart.
-    organic_sprays: >-
-      Insecticidal soap and horticultural oil work on exposed nymphs with thorough coverage. Neem suppresses feeding on
-      a schedule. Spray at dusk to reduce beneficial contact. Avoid open flowers when bees are working.
-  natural_enemies:
-  - Parasitic Wasps
-  - Assassin Bugs
-  - Spiders
-  affected_plants: []
-  # Image attribution: (c) Brian Gooding, all rights reserved, uploaded by Brian Gooding
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+name: Treehoppers
+slug: treehoppers
+picture: treehoppers.webp
+scientific_name: Membracidae
+description: Treehoppers are bizarrely shaped hemipterans that often sit motionless
+  on stems, sometimes in maternal groups guarding egg masses. They pierce phloem and
+  excrete honeydew that grows sooty mold. Most species are minor alone, but dense
+  aggregations can stress young shoots on legumes, orchard trees, and ornamentals
+  from tropical to temperate climates.
+characteristics: Adults have a helmet-like pronotum that can mimic thorns -- use a
+  lens to see the beak and wing pads. Nymphs cluster around females on some species.
+  Ants often tend treehoppers for honeydew, which should clue you to look up the stem.
+  Beat branches over a tray to confirm density.
+symptoms:
+- sticky-residue
+- sooty-deposits
+- distorted-growth
+- wilting
+control_methods:
+  biological_controls: Parasitoids attack treehopper eggs and nymphs in diverse systems.
+    Spiders and assassin bugs prey on exposed stages. Reducing ant tending improves
+    predator access. Avoid killing all wasps indiscriminately -- many are parasitoids.
+  preventive_methods: Inspect nursery liners for ant highways and hopper clusters
+    before planting. Avoid excessive nitrogen flushes that favor huge nymph cohorts.
+    Manage dust on roadside plantings so predators remain effective.
+  cultural_practices: Prune out localized aggregations on small shrubs. Wash honeydew-coated
+    leaves with plain water in morning. Replace chronically ant-tended hedge species
+    when design allows.
+  mechanical_physical: For houseplants, wipe stems with soapy cloth to remove clusters.
+    High-pressure water knocks nymphs off sturdy outdoor shoots when repeated a few
+    days apart.
+  organic_sprays: Insecticidal soap and horticultural oil work on exposed nymphs with
+    thorough coverage. Neem suppresses feeding on a schedule. Spray at dusk to reduce
+    beneficial contact. Avoid open flowers when bees are working.
+natural_enemies:
+- Parasitic Wasps
+- Assassin Bugs
+- Spiders
+affected_plants: []
+category: pest

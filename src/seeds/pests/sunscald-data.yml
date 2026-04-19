@@ -1,47 +1,49 @@
-- name: "Sunscald"
-  slug: "sunscald"
-  picture: "sunscald.webp"
-  scientific_name: "Physiological injury (solar radiation / heat)"
-  description: >-
-    Sunscald is tissue death on fruit, leaves, or bark caused by intense solar radiation, especially after sudden exposure
-    of previously shaded surfaces. Apples and peppers show bleached or papery patches; young tree bark can crack on the
-    southwest side. It spikes after heat waves, reflective mulches, or aggressive summer pruning that removes protective
-    canopy. It is abiotic -- no insecticide fixes radiation physics.
-  characteristics: >-
-    Check whether damage faces the afternoon sun and follows a sharp line between shaded and exposed tissue. Compare with
-    disease lesions that often show sporulation or irregular margins. On trunks, look for southwest orientation and link
-    events to recent pruning or transplanting that removed shade. Fruit damage is usually on the upper shoulder facing sky.
-  symptoms:
-  - brown-edges
-  - fruit-damage
-  - bark-damage
-  - wilting
-  - yellowing-leaves
-  control_methods:
-    biological_controls: >-
-      Healthy bark microbiome recovers faster after mild sunscald when cambium is not fully killed. Vigor from good root
-      systems supports callus formation. These are indirect -- they do not replace shade or paint when cambium is cooking.
-    preventive_methods: >-
-      Whitewash or use tree guards on thin-barked species after planting or sudden exposure. Shade cloth over high-value
-      fruit during heat spikes reduces shoulder burn. Avoid laying reflective silver mulch up to stems of peppers and
-      tomatoes without stem shields. Harden transplants gradually instead of moving from dense shade to full sun in one day.
-    cultural_practices: >-
-      Prune conservatively in summer when removing large limbs would expose vertical bark to new sun angles. Train fruit
-      clusters so apples do not press against hot metal stakes. Orient rows where crop-specific guides suggest lower
-      afternoon exposure if your site allows.
-    mechanical_physical: >-
-      Use paper trunk wraps in winter-sunscald zones on young trees -- remove in spring before girdling insects hide under
-      them. Move container plants a few feet into dappled shade during record heat if feasible. Row cover with hoops can
-      diffuse light on tender transplants.
-    organic_sprays: >-
-      Kaolin clay particle films on fruit reflect sunlight and reduce sunscald on some crops when applied before heat events
-      per label. Calcium sprays do not fix sunscald. Do not rely on foliar oils during heat -- they can increase damage.
-      Focus on physical shading and orientation first.
-  natural_enemies:
-  - Beneficial Fungi
-  - Competitive Microbes
-  - Antagonistic Bacteria
-  affected_plants: []
-  # Image attribution: No image found
-  # Image source: none
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+name: Sunscald
+slug: sunscald
+picture: sunscald.webp
+scientific_name: Physiological injury (solar radiation / heat)
+description: Sunscald is tissue death on fruit, leaves, or bark caused by intense
+  solar radiation, especially after sudden exposure of previously shaded surfaces.
+  Apples and peppers show bleached or papery patches; young tree bark can crack on
+  the southwest side. It spikes after heat waves, reflective mulches, or aggressive
+  summer pruning that removes protective canopy. It is abiotic -- no insecticide fixes
+  radiation physics.
+characteristics: Check whether damage faces the afternoon sun and follows a sharp
+  line between shaded and exposed tissue. Compare with disease lesions that often
+  show sporulation or irregular margins. On trunks, look for southwest orientation
+  and link events to recent pruning or transplanting that removed shade. Fruit damage
+  is usually on the upper shoulder facing sky.
+symptoms:
+- brown-edges
+- fruit-damage
+- bark-damage
+- wilting
+- yellowing-leaves
+control_methods:
+  biological_controls: Healthy bark microbiome recovers faster after mild sunscald
+    when cambium is not fully killed. Vigor from good root systems supports callus
+    formation. These are indirect -- they do not replace shade or paint when cambium
+    is cooking.
+  preventive_methods: Whitewash or use tree guards on thin-barked species after planting
+    or sudden exposure. Shade cloth over high-value fruit during heat spikes reduces
+    shoulder burn. Avoid laying reflective silver mulch up to stems of peppers and
+    tomatoes without stem shields. Harden transplants gradually instead of moving
+    from dense shade to full sun in one day.
+  cultural_practices: Prune conservatively in summer when removing large limbs would
+    expose vertical bark to new sun angles. Train fruit clusters so apples do not
+    press against hot metal stakes. Orient rows where crop-specific guides suggest
+    lower afternoon exposure if your site allows.
+  mechanical_physical: Use paper trunk wraps in winter-sunscald zones on young trees
+    -- remove in spring before girdling insects hide under them. Move container plants
+    a few feet into dappled shade during record heat if feasible. Row cover with hoops
+    can diffuse light on tender transplants.
+  organic_sprays: Kaolin clay particle films on fruit reflect sunlight and reduce
+    sunscald on some crops when applied before heat events per label. Calcium sprays
+    do not fix sunscald. Do not rely on foliar oils during heat -- they can increase
+    damage. Focus on physical shading and orientation first.
+natural_enemies:
+- Beneficial Fungi
+- Competitive Microbes
+- Antagonistic Bacteria
+affected_plants: []
+category: disease

@@ -1,47 +1,46 @@
-- name: "Lace bugs"
-  slug: "lace-bugs"
-  picture: "lace_bugs.webp"
-  scientific_name: "Tingidae"
-  description: >-
-    Lace bugs are small sap-feeding hemipterans with lacy patterned wings that live and feed on the underside of leaves.
-    Their frass appears as dark varnish specks and heavy feeding causes bronzing or bleaching visible from above before
-    leaves drop. Azalea, sycamore, oak, and many ornamentals host specialist species across temperate to subtropical
-    climates. Hot dry weather speeds damage because plants cannot replace lost sap fast enough.
-  characteristics: >-
-    Turn leaves and use a lens: adults are flattened with ornate wings; nymphs are spiny and darker. Sticky excrement
-    dots on the lower surface are diagnostic compared with spider mite stippling alone. Beat branches over white paper
-    to dislodge adults. Separate from whitefly by the lack of a powdery wing cloud when disturbed.
-  symptoms:
-  - yellowing-leaves
-  - brown-edges
-  - dropping-leaves
-  - sticky-residue
-  control_methods:
-    biological_controls: >-
-      Lace bugs have parasitoids including mymarid wasps that attack eggs in some systems. Minute pirate bugs and lacewing
-      larvae feed on nymphs when they can reach them. Avoid broad-spectrum sprays during summer peaks so predators persist.
-      Preserve nearby flowering plants for adult beneficials.
-    preventive_methods: >-
-      Choose resistant cultivars where breeding programs exist for your host plant. Avoid planting highly susceptible
-      species in reflected heat next to paving. Rinse dust from foliage periodically so predators can move and hunt.
-      Inspect nursery stock leaf undersides before purchase.
-    cultural_practices: >-
-      Prune interior water sprouts to improve spray coverage if you must treat. Remove the most damaged flushes on small
-      shrubs to reduce nymph density. Mulch root zones to reduce drought stress stacked on top of sap removal. Do not
-      over-fertilize with quick nitrogen during heavy infestations.
-    mechanical_physical: >-
-      A strong water rinse knocks nymphs off leaves on sturdy plants -- repeat every few days during outbreaks. For houseplants,
-      shower the entire plant focusing undersides. Vacuum is overkill but hand crushing adults on a few specimen leaves
-      works on tiny patios.
-    organic_sprays: >-
-      Insecticidal soap and horticultural oil work on exposed nymphs when coverage is thorough on leaf undersides. Neem
-      suppresses feeding when used on schedule. Spray at dusk to reduce beneficial insect contact. Test oil on sensitive
-      cultivars first because lace bug hosts include many thin-leaved ornamentals.
-  natural_enemies:
-  - Parasitic Wasps
-  - Minute Pirate Bugs
-  - Lacewings
-  affected_plants: []
-  # Image attribution: (c) Katja Schulz, some rights reserved (CC BY)
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+name: Lace bugs
+slug: lace-bugs
+picture: lace_bugs.webp
+scientific_name: Tingidae
+description: Lace bugs are small sap-feeding hemipterans with lacy patterned wings
+  that live and feed on the underside of leaves. Their frass appears as dark varnish
+  specks and heavy feeding causes bronzing or bleaching visible from above before
+  leaves drop. Azalea, sycamore, oak, and many ornamentals host specialist species
+  across temperate to subtropical climates. Hot dry weather speeds damage because
+  plants cannot replace lost sap fast enough.
+characteristics: 'Turn leaves and use a lens: adults are flattened with ornate wings;
+  nymphs are spiny and darker. Sticky excrement dots on the lower surface are diagnostic
+  compared with spider mite stippling alone. Beat branches over white paper to dislodge
+  adults. Separate from whitefly by the lack of a powdery wing cloud when disturbed.'
+symptoms:
+- yellowing-leaves
+- brown-edges
+- dropping-leaves
+- sticky-residue
+control_methods:
+  biological_controls: Lace bugs have parasitoids including mymarid wasps that attack
+    eggs in some systems. Minute pirate bugs and lacewing larvae feed on nymphs when
+    they can reach them. Avoid broad-spectrum sprays during summer peaks so predators
+    persist. Preserve nearby flowering plants for adult beneficials.
+  preventive_methods: Choose resistant cultivars where breeding programs exist for
+    your host plant. Avoid planting highly susceptible species in reflected heat next
+    to paving. Rinse dust from foliage periodically so predators can move and hunt.
+    Inspect nursery stock leaf undersides before purchase.
+  cultural_practices: Prune interior water sprouts to improve spray coverage if you
+    must treat. Remove the most damaged flushes on small shrubs to reduce nymph density.
+    Mulch root zones to reduce drought stress stacked on top of sap removal. Do not
+    over-fertilize with quick nitrogen during heavy infestations.
+  mechanical_physical: A strong water rinse knocks nymphs off leaves on sturdy plants
+    -- repeat every few days during outbreaks. For houseplants, shower the entire
+    plant focusing undersides. Vacuum is overkill but hand crushing adults on a few
+    specimen leaves works on tiny patios.
+  organic_sprays: Insecticidal soap and horticultural oil work on exposed nymphs when
+    coverage is thorough on leaf undersides. Neem suppresses feeding when used on
+    schedule. Spray at dusk to reduce beneficial insect contact. Test oil on sensitive
+    cultivars first because lace bug hosts include many thin-leaved ornamentals.
+natural_enemies:
+- Parasitic Wasps
+- Minute Pirate Bugs
+- Lacewings
+affected_plants: []
+category: pest

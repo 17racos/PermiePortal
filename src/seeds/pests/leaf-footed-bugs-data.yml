@@ -1,46 +1,46 @@
-- name: "Leaf-footed bugs"
-  slug: "leaf-footed-bugs"
-  picture: "leaf_footed_bugs.webp"
-  scientific_name: "Coreidae"
-  description: >-
-    Leaf-footed bugs are elongate true bugs with often widened hind tibiae on many species. They pierce fruit, seeds,
-    and stems to feed, causing dimpling, discoloration, and premature drop. Nymphs sometimes aggregate in clusters on
-    stems. They are common on tomatoes, peppers, squash, citrus, and nuts from temperate gardens through subtropical orchards.
-  characteristics: >-
-    Adults have long antennae and a visible proboscis folded under the head. Look for nymphs with dark bodies and orange
-    or red markings on some species. Damage on fruit shows pale corky spots under the skin. Distinguish from stink bugs
-    by body shape and leg expansions -- both are pentatomoid lineages but field guides separate them quickly with photos.
-  symptoms:
-  - fruit-damage
-  - wilting
-  - distorted-growth
-  - yellowing-leaves
-  control_methods:
-    biological_controls: >-
-      Egg parasitoids such as Trissolcus and Gryon spp. attack stink bug and some coreid eggs when present in diverse farms.
-      Assassin bugs and spiders prey on nymphs. Avoid killing all wasps at random -- many are parasitoids or non-pests.
-      Provide small-flower nectar sources at field margins for parasitoid adults.
-    preventive_methods: >-
-      Remove weedy winter hosts near vegetable blocks where adults overwinter. Harvest fruit promptly to reduce feeding
-      sites. Use row cover on young transplants until flowering if pollination allows. Inspect seed heads of ornamental
-      grasses where some species aggregate.
-    cultural_practices: >-
-      Hand crush nymph clusters early in morning when they move slowly -- wear gloves because some species smell foul.
-      Shake canes over soapy water in home orchards to drop adults. Prune congregation sites on perennial sunflowers if
-      they harbor breeding populations next to tomatoes.
-    mechanical_physical: >-
-      Row cover after pollination is not viable, so switch to fruit sleeves on high-value tomatoes if feasible. Sticky
-      traps on posts catch some adults but also non-targets -- use sparingly. Bird predation helps at margins but not
-      inside dense canopies.
-    organic_sprays: >-
-      Pyrethrin or azadirachtin applications can reduce nymphs when timed to cluster stages -- always check organic approval
-      and preharvest intervals on food crops. Soap sprays work on soft nymphs with excellent coverage. Avoid spraying open
-      flowers visited by bees.
-  natural_enemies:
-  - Parasitic Wasps
-  - Assassin Bugs
-  - Spiders
-  affected_plants: []
-  # Image attribution: (c) Marcello Consolo, some rights reserved (CC BY-NC-SA)
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+name: Leaf-footed bugs
+slug: leaf-footed-bugs
+picture: leaf_footed_bugs.webp
+scientific_name: Coreidae
+description: Leaf-footed bugs are elongate true bugs with often widened hind tibiae
+  on many species. They pierce fruit, seeds, and stems to feed, causing dimpling,
+  discoloration, and premature drop. Nymphs sometimes aggregate in clusters on stems.
+  They are common on tomatoes, peppers, squash, citrus, and nuts from temperate gardens
+  through subtropical orchards.
+characteristics: Adults have long antennae and a visible proboscis folded under the
+  head. Look for nymphs with dark bodies and orange or red markings on some species.
+  Damage on fruit shows pale corky spots under the skin. Distinguish from stink bugs
+  by body shape and leg expansions -- both are pentatomoid lineages but field guides
+  separate them quickly with photos.
+symptoms:
+- fruit-damage
+- wilting
+- distorted-growth
+- yellowing-leaves
+control_methods:
+  biological_controls: Egg parasitoids such as Trissolcus and Gryon spp. attack stink
+    bug and some coreid eggs when present in diverse farms. Assassin bugs and spiders
+    prey on nymphs. Avoid killing all wasps at random -- many are parasitoids or non-pests.
+    Provide small-flower nectar sources at field margins for parasitoid adults.
+  preventive_methods: Remove weedy winter hosts near vegetable blocks where adults
+    overwinter. Harvest fruit promptly to reduce feeding sites. Use row cover on young
+    transplants until flowering if pollination allows. Inspect seed heads of ornamental
+    grasses where some species aggregate.
+  cultural_practices: Hand crush nymph clusters early in morning when they move slowly
+    -- wear gloves because some species smell foul. Shake canes over soapy water in
+    home orchards to drop adults. Prune congregation sites on perennial sunflowers
+    if they harbor breeding populations next to tomatoes.
+  mechanical_physical: Row cover after pollination is not viable, so switch to fruit
+    sleeves on high-value tomatoes if feasible. Sticky traps on posts catch some adults
+    but also non-targets -- use sparingly. Bird predation helps at margins but not
+    inside dense canopies.
+  organic_sprays: Pyrethrin or azadirachtin applications can reduce nymphs when timed
+    to cluster stages -- always check organic approval and preharvest intervals on
+    food crops. Soap sprays work on soft nymphs with excellent coverage. Avoid spraying
+    open flowers visited by bees.
+natural_enemies:
+- Parasitic Wasps
+- Assassin Bugs
+- Spiders
+affected_plants: []
+category: pest

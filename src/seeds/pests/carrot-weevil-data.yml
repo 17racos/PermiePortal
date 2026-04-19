@@ -1,112 +1,110 @@
----
-- name: Carrot Weevil
-  slug: carrot-weevil
-  picture: carrot_weevil.webp
-  scientific_name: Listronotus oregonensis
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, carrot weevil may
-    already be active. This problem often starts small, then spreads across healthy tissue
-    before most growers realize how serious it is. Warmth, moisture, and crowded foliage usually
-    speed it up. Treat early, because waiting even a few days can turn a manageable infection
-    into major crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - chewed-stems
-  - stem-damage
-  - fruit-damage
-  - holes-in-leaves
-  - root-damage
-  control_methods:
-    biological_controls: >-
-      Ground beetles and rove beetles eat weevil eggs near the crown when adults lay at night;
-      field crickets take some larvae in light soils. Parasitic wasps attack larvae in exposed
-      tunnels occasionally -- more likely in light, sandy fields than heavy clay. Birds probe rows
-      where foliage wilts. These helpers matter only if you avoid nightly pyrethrin baths; broad
-      sprays flatten predators while weevils return from field edges.
-    preventive_methods: >-
-      Adults walk and fly into carrot and parsley blocks from overwintering sites in hedge rows
-      and old crop residue -- scout crown tissue weekly for crescent notches on petioles and for
-      sawdust at the base. Rotate Apiaceae fields so emerging adults meet bare ground or non-host
-      crops. Delay planting until after peak flight if your extension publishes local dates.
-      Remove culls and volunteer carrots that let weevils bridge one season to the next.
-    cultural_practices: >-
-      Avoid excess nitrogen that pushes ultra-lush tops; weevils still attack, but dense canopy
-      hides injury until roots fail. Keep soil moisture even; drought-stressed plants flag damage
-      late. Plow or till old beds to bury crop residue where erosion rules allow. Interplanting
-      onions does not repel weevils in trials -- use rotation and barriers instead. After harvest,
-      disk fields promptly so pupae have fewer safe pockets.
-    mechanical_physical: >-
-      Floating row covers over seedbeds block adults from reaching crowns for egg-lay -- seal
-      edges with soil or staples. Remove covers when you need to thin if flight is still active,
-      then replace or switch to scouting. Hand-pick adults at dusk with a headlamp; they play dead.
-      Shake canopies over a light sheet early in the morning and dump weevils into soapy water.
-    organic_sprays: >-
-      Neem and insecticidal soap contact adults on foliage and crowns -- spray at night when
-      adults climb plants, not at noon when they hide in soil cracks. Spinosad on labeled crops
-      helps when larvae are young and still near the surface. Soil drenches target eggs and young
-      larvae only if product and label allow root crops; check certifier rules. Repeat after rain;
-      these materials have short life on leaf surfaces.
-  natural_enemies:
-  - Ground Beetles
-  - Parasitic Wasps
-  - Insectivorous Birds
-  affected_plants:
-  - slug: alexanders
-    name: Alexanders
-  - slug: angelica
-    name: Angelica
-  - slug: arracacha
-    name: Arracacha
-  - slug: ashitaba
-    name: Ashitaba
-  - slug: carrot
-    name: Carrot
-  - slug: celery
-    name: Celery
-  - slug: culantro
-    name: Culantro
-  - slug: dill
-    name: Dill
-  - slug: dollarweed
-    name: Dollarweed
-  - slug: fennel
-    name: Fennel
-  - slug: gotu-kola
-    name: Gotu Kola
-  - slug: lovage
-    name: Lovage
-  - slug: parsley
-    name: Parsley
-  - slug: parsnip
-    name: Parsnip
-  - slug: rattlesnake-master
-    name: Rattlesnake Master
-  - slug: skirret
-    name: Skirret
-  - slug: sweet-cicely
-    name: Sweet Cicely
-  - slug: wild-anise
-    name: Wild Anise
-  - slug: wild-caraway
-    name: Wild Caraway
-  - slug: wild-carrot
-    name: Wild Carrot
-  - slug: wild-celery
-    name: Wild Celery
-  - slug: wild-chervil
-    name: Wild Chervil
-  - slug: wild-coriander
-    name: Wild Coriander
-  - slug: wild-cumin
-    name: Wild Cumin
-  - slug: wild-dill
-    name: Wild Dill
-  - slug: wild-fennel
-    name: Wild Fennel
-  - slug: wild-parsnip
-    name: Wild Parsnip
+name: Carrot Weevil
+slug: carrot-weevil
+picture: carrot_weevil.webp
+scientific_name: Listronotus oregonensis
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  carrot weevil may already be active. This problem often starts small, then spreads
+  across healthy tissue before most growers realize how serious it is. Warmth, moisture,
+  and crowded foliage usually speed it up. Treat early, because waiting even a few
+  days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- chewed-stems
+- stem-damage
+- fruit-damage
+- holes-in-leaves
+- root-damage
+control_methods:
+  biological_controls: Ground beetles and rove beetles eat weevil eggs near the crown
+    when adults lay at night; field crickets take some larvae in light soils. Parasitic
+    wasps attack larvae in exposed tunnels occasionally -- more likely in light, sandy
+    fields than heavy clay. Birds probe rows where foliage wilts. These helpers matter
+    only if you avoid nightly pyrethrin baths; broad sprays flatten predators while
+    weevils return from field edges.
+  preventive_methods: Adults walk and fly into carrot and parsley blocks from overwintering
+    sites in hedge rows and old crop residue -- scout crown tissue weekly for crescent
+    notches on petioles and for sawdust at the base. Rotate Apiaceae fields so emerging
+    adults meet bare ground or non-host crops. Delay planting until after peak flight
+    if your extension publishes local dates. Remove culls and volunteer carrots that
+    let weevils bridge one season to the next.
+  cultural_practices: Avoid excess nitrogen that pushes ultra-lush tops; weevils still
+    attack, but dense canopy hides injury until roots fail. Keep soil moisture even;
+    drought-stressed plants flag damage late. Plow or till old beds to bury crop residue
+    where erosion rules allow. Interplanting onions does not repel weevils in trials
+    -- use rotation and barriers instead. After harvest, disk fields promptly so pupae
+    have fewer safe pockets.
+  mechanical_physical: Floating row covers over seedbeds block adults from reaching
+    crowns for egg-lay -- seal edges with soil or staples. Remove covers when you
+    need to thin if flight is still active, then replace or switch to scouting. Hand-pick
+    adults at dusk with a headlamp; they play dead. Shake canopies over a light sheet
+    early in the morning and dump weevils into soapy water.
+  organic_sprays: Neem and insecticidal soap contact adults on foliage and crowns
+    -- spray at night when adults climb plants, not at noon when they hide in soil
+    cracks. Spinosad on labeled crops helps when larvae are young and still near the
+    surface. Soil drenches target eggs and young larvae only if product and label
+    allow root crops; check certifier rules. Repeat after rain; these materials have
+    short life on leaf surfaces.
+natural_enemies:
+- Ground Beetles
+- Parasitic Wasps
+- Insectivorous Birds
+affected_plants:
+- slug: alexanders
+  name: Alexanders
+- slug: angelica
+  name: Angelica
+- slug: arracacha
+  name: Arracacha
+- slug: ashitaba
+  name: Ashitaba
+- slug: carrot
+  name: Carrot
+- slug: celery
+  name: Celery
+- slug: culantro
+  name: Culantro
+- slug: dill
+  name: Dill
+- slug: dollarweed
+  name: Dollarweed
+- slug: fennel
+  name: Fennel
+- slug: gotu-kola
+  name: Gotu Kola
+- slug: lovage
+  name: Lovage
+- slug: parsley
+  name: Parsley
+- slug: parsnip
+  name: Parsnip
+- slug: rattlesnake-master
+  name: Rattlesnake Master
+- slug: skirret
+  name: Skirret
+- slug: sweet-cicely
+  name: Sweet Cicely
+- slug: wild-anise
+  name: Wild Anise
+- slug: wild-caraway
+  name: Wild Caraway
+- slug: wild-carrot
+  name: Wild Carrot
+- slug: wild-celery
+  name: Wild Celery
+- slug: wild-chervil
+  name: Wild Chervil
+- slug: wild-coriander
+  name: Wild Coriander
+- slug: wild-cumin
+  name: Wild Cumin
+- slug: wild-dill
+  name: Wild Dill
+- slug: wild-fennel
+  name: Wild Fennel
+- slug: wild-parsnip
+  name: Wild Parsnip
+category: pest

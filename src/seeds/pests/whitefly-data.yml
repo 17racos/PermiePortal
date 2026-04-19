@@ -1,51 +1,49 @@
----
-- name: Whitefly
-  slug: whitefly
-  picture: whitefly.webp
-  scientific_name: Aleyrodidae
-  description: >-
-    If leaves show trails, fruit turns soft, or roots collapse from inside, whitefly may already
-    be feeding. The larval stage does most of the damage, often hidden where you cannot see it
-    at first glance. By the time yellowing or rot appears, feeding may be well underway. Move
-    quickly when symptoms begin to prevent another wave of eggs and larvae.
-  characteristics: >-
-    Watch for tiny eggs near plant tissue, pale legless larvae inside mines or fruit, and sudden
-    soft spots or tunnels. Adults are usually small flies that hover or dart when disturbed.
-    Check around wounds, blossoms, and moist plant debris where egg-laying is common. Cut open
-    suspect tissue: live maggots or fresh tunnels are the clearest field confirmation.
-  symptoms:
-  - sticky-residue
-  - yellowing-leaves
-  - curling-leaves
-  - sooty-deposits
-  control_methods:
-    biological_controls: >-
-      Encarsia and Eretmocerus parasitoids turn whitefly nymphs into black or yellow mummies --
-      buy releases for greenhouse crops or conserve wild populations by skipping calendar
-      sprays. Delphastus catalinae lady beetles eat eggs and nymphs fast. Lacewings help when
-      humidity stays high. If you fog pyrethrin weekly, you farm whiteflies alone; parasitoids die
-      faster than pests rebound.
-    preventive_methods: >-
-      Inspect every new plant; quarantine greenhouse additions for two weeks and tap leaves over
-      white paper. Avoid excess nitrogen that pushes soft, sweet growth whiteflies love. Screen
-      vents and doors before adults ride the wind into clean houses. Blue and yellow sticky cards
-      at canopy height show trends early.
-    cultural_practices: >-
-      Strip heavily infested leaves and bag them; nymphs stay on discarded leaves for days.
-      Intersperse less-preferred species only as diversity for predators, not magic repellence.
-      Clean crop residues between successions so adults cannot hide in old debris. Lower
-      greenhouse heat slightly if possible; reproduction slows below optimal temps.
-    mechanical_physical: >-
-      Yellow sticky traps catch adults for monitoring and some mass reduction in tight houses.
-      A stiff water rinse on leaf undersides dislodges eggs and crawlers on sturdy plants --
-      repeat every two to three days. Vacuum adults from glass walls on cool mornings.
-    organic_sprays: >-
-      Insecticidal soap, neem, and horticultural oil work when they coat undersides where nymphs
-      sit -- avoid hot sun on hairy leaves that hold oil and burn. Repeat on short intervals
-      while generations overlap. Rotate soap, neem, and oil in greenhouses to slow resistance.
-      Spray at dusk to spare parasitoids hunting the same leaves.
-  natural_enemies:
-  - Parasitic Wasps
-  - Ladybugs
-  - Lacewings
-  - Minute Pirate Bugs
+name: Whitefly
+slug: whitefly
+picture: whitefly.webp
+scientific_name: Aleyrodidae
+description: If leaves show trails, fruit turns soft, or roots collapse from inside,
+  whitefly may already be feeding. The larval stage does most of the damage, often
+  hidden where you cannot see it at first glance. By the time yellowing or rot appears,
+  feeding may be well underway. Move quickly when symptoms begin to prevent another
+  wave of eggs and larvae.
+characteristics: 'Watch for tiny eggs near plant tissue, pale legless larvae inside
+  mines or fruit, and sudden soft spots or tunnels. Adults are usually small flies
+  that hover or dart when disturbed. Check around wounds, blossoms, and moist plant
+  debris where egg-laying is common. Cut open suspect tissue: live maggots or fresh
+  tunnels are the clearest field confirmation.'
+symptoms:
+- sticky-residue
+- yellowing-leaves
+- curling-leaves
+- sooty-deposits
+control_methods:
+  biological_controls: Encarsia and Eretmocerus parasitoids turn whitefly nymphs into
+    black or yellow mummies -- buy releases for greenhouse crops or conserve wild
+    populations by skipping calendar sprays. Delphastus catalinae lady beetles eat
+    eggs and nymphs fast. Lacewings help when humidity stays high. If you fog pyrethrin
+    weekly, you farm whiteflies alone; parasitoids die faster than pests rebound.
+  preventive_methods: Inspect every new plant; quarantine greenhouse additions for
+    two weeks and tap leaves over white paper. Avoid excess nitrogen that pushes soft,
+    sweet growth whiteflies love. Screen vents and doors before adults ride the wind
+    into clean houses. Blue and yellow sticky cards at canopy height show trends early.
+  cultural_practices: Strip heavily infested leaves and bag them; nymphs stay on discarded
+    leaves for days. Intersperse less-preferred species only as diversity for predators,
+    not magic repellence. Clean crop residues between successions so adults cannot
+    hide in old debris. Lower greenhouse heat slightly if possible; reproduction slows
+    below optimal temps.
+  mechanical_physical: Yellow sticky traps catch adults for monitoring and some mass
+    reduction in tight houses. A stiff water rinse on leaf undersides dislodges eggs
+    and crawlers on sturdy plants -- repeat every two to three days. Vacuum adults
+    from glass walls on cool mornings.
+  organic_sprays: Insecticidal soap, neem, and horticultural oil work when they coat
+    undersides where nymphs sit -- avoid hot sun on hairy leaves that hold oil and
+    burn. Repeat on short intervals while generations overlap. Rotate soap, neem,
+    and oil in greenhouses to slow resistance. Spray at dusk to spare parasitoids
+    hunting the same leaves.
+natural_enemies:
+- Parasitic Wasps
+- Ladybugs
+- Lacewings
+- Minute Pirate Bugs
+category: pest

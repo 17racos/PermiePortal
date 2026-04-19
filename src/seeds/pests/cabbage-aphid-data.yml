@@ -1,79 +1,78 @@
----
-- name: Cabbage Aphid
-  slug: cabbage-aphid
-  picture: cabbage_aphid.webp
-  scientific_name: Brevicoryne brassicae
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, cabbage aphid may already be on the
-    plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - sticky-residue
-  - curling-leaves
-  - yellowing-leaves
-  - distorted-growth
-  control_methods:
-    biological_controls: >-
-      Diaeretiella rapae wasps lay eggs inside aphids; bronze mummies signal success. Syrphid
-      larvae and lady beetles eat exposed colonies on outer leaves. Lacewings work in tunnels when
-      releases match temperature. Skip soap sprays the day you see parasitoid eggs on leaves --
-      you will kill tomorrow's free workers. Diverse flowering rows at field edges feed adult
-      wasps when brassicas are still small transplants.
-    preventive_methods: >-
-      Cabbage aphids clone fast on soft growing points -- scout hearts weekly, especially
-      downwind of old brassica debris. Flag greenhouses that ran hot last cycle for earlier
-      releases or tighter screening. Rotate brassica blocks with non-host crops so winged
-      migrants meet fewer hosts in a straight line. Remove volunteer mustards that bridge
-      seasons across fence lines.
-    cultural_practices: >-
-      Floating row covers on transplants block early colonists until heat or size forces removal.
-      Strip old brassica residue after harvest; do not leave stumps with live aphids into frost.
-      Avoid excess nitrogen that pushes endless waxy flushes; each flush is a new colony. In seed
-      crops, isolate bolting blocks from heavy aphid fields upwind.
-    mechanical_physical: >-
-      Blast leaf axils and heart leaves with a hard water jet every few days in market gardens --
-      cabbage aphids grip tightly, so pressure matters. For heading cabbage, peel outer wrapper
-      leaves and dunk in cold salt or soap water as a packing-line rinse, not a field fantasy.
-      Vacuum outer leaves on small scales when dry; wet leaves clog vacuums.
-    organic_sprays: >-
-      Insecticidal soap or horticultural oil penetrates the waxy coat after a firm water pre-rinse
-      opens the colony -- spray to drip on hearts and undersides. Neem reduces feeding on open-
-      leaf types; still cover both surfaces. Repeat on short intervals while new colonies appear.
-      Avoid spraying open brassica flowers when bees work; use directed nozzles on inner leaves
-      or spray at night. Reapply after overhead irrigation washes product away.
-  affected_plants:
-  - slug: broccoli
-    name: Broccoli
-  - slug: kale
-    name: Kale
-  - slug: bok-choy
-    name: Bok Choy
-  - slug: wild-mustard-greens
-    name: Wild Mustard Greens
-  - slug: daikon-radish
-    name: Daikon Radish
-  - slug: radish
-    name: Radish
-  - slug: sea-kale
-    name: Sea Kale
-  - slug: sea-rocket
-    name: Sea Rocket
-  - slug: sweet-alyssum
-    name: Sweet Alyssum
-  - slug: tree-collard
-    name: Tree Collard
-  - slug: turkish-rocket
-    name: Turkish Rocket
-  - slug: watercress
-    name: Watercress
-  natural_enemies:
-  - Diaeretiella rapae
-  - Lady Beetles (Coccinellidae)
-  - Syrphid Fly Larvae (Syrphidae)
-  - Lacewing larvae (Chrysopidae)
+name: Cabbage Aphid
+slug: cabbage-aphid
+picture: cabbage_aphid.webp
+scientific_name: Brevicoryne brassicae
+description: If new growth is curling, yellowing, sticky, or chewed, cabbage aphid
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- sticky-residue
+- curling-leaves
+- yellowing-leaves
+- distorted-growth
+control_methods:
+  biological_controls: Diaeretiella rapae wasps lay eggs inside aphids; bronze mummies
+    signal success. Syrphid larvae and lady beetles eat exposed colonies on outer
+    leaves. Lacewings work in tunnels when releases match temperature. Skip soap sprays
+    the day you see parasitoid eggs on leaves -- you will kill tomorrow's free workers.
+    Diverse flowering rows at field edges feed adult wasps when brassicas are still
+    small transplants.
+  preventive_methods: Cabbage aphids clone fast on soft growing points -- scout hearts
+    weekly, especially downwind of old brassica debris. Flag greenhouses that ran
+    hot last cycle for earlier releases or tighter screening. Rotate brassica blocks
+    with non-host crops so winged migrants meet fewer hosts in a straight line. Remove
+    volunteer mustards that bridge seasons across fence lines.
+  cultural_practices: Floating row covers on transplants block early colonists until
+    heat or size forces removal. Strip old brassica residue after harvest; do not
+    leave stumps with live aphids into frost. Avoid excess nitrogen that pushes endless
+    waxy flushes; each flush is a new colony. In seed crops, isolate bolting blocks
+    from heavy aphid fields upwind.
+  mechanical_physical: Blast leaf axils and heart leaves with a hard water jet every
+    few days in market gardens -- cabbage aphids grip tightly, so pressure matters.
+    For heading cabbage, peel outer wrapper leaves and dunk in cold salt or soap water
+    as a packing-line rinse, not a field fantasy. Vacuum outer leaves on small scales
+    when dry; wet leaves clog vacuums.
+  organic_sprays: Insecticidal soap or horticultural oil penetrates the waxy coat
+    after a firm water pre-rinse opens the colony -- spray to drip on hearts and undersides.
+    Neem reduces feeding on open- leaf types; still cover both surfaces. Repeat on
+    short intervals while new colonies appear. Avoid spraying open brassica flowers
+    when bees work; use directed nozzles on inner leaves or spray at night. Reapply
+    after overhead irrigation washes product away.
+affected_plants:
+- slug: broccoli
+  name: Broccoli
+- slug: kale
+  name: Kale
+- slug: bok-choy
+  name: Bok Choy
+- slug: wild-mustard-greens
+  name: Wild Mustard Greens
+- slug: daikon-radish
+  name: Daikon Radish
+- slug: radish
+  name: Radish
+- slug: sea-kale
+  name: Sea Kale
+- slug: sea-rocket
+  name: Sea Rocket
+- slug: sweet-alyssum
+  name: Sweet Alyssum
+- slug: tree-collard
+  name: Tree Collard
+- slug: turkish-rocket
+  name: Turkish Rocket
+- slug: watercress
+  name: Watercress
+natural_enemies:
+- Diaeretiella rapae
+- Lady Beetles (Coccinellidae)
+- Syrphid Fly Larvae (Syrphidae)
+- Lacewing larvae (Chrysopidae)
+category: pest

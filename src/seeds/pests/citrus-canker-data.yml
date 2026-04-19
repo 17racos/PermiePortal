@@ -1,108 +1,101 @@
----
-- name: Citrus Canker
-  slug: citrus-canker
-  picture: citrus_canker.webp
-  scientific_name: Xanthomonas citri subsp. citri
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, citrus canker may
-    already be active. This problem often starts small, then spreads across healthy tissue
-    before most growers realize how serious it is. Warmth, moisture, and crowded foliage usually
-    speed it up. Treat early, because waiting even a few days can turn a manageable infection
-    into major crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - leaf-spots
-  - fruit-damage
-  - dropping-leaves
-  - die-back
-  control_methods:
-    biological_controls: >-
-      No effective biological control exists for citrus canker. The most important
-      biological connection is managing citrus leafminer -- leafminer wounds are
-      the primary entry points for canker bacteria on new flush growth. Reducing
-      leafminer pressure significantly reduces canker infection rates. Healthy soil
-      biology and mycorrhizal fungi support overall tree resilience. Competitive leaf
-      surface microflora may marginally reduce bacterial colonization -- compost tea
-      foliar sprays are sometimes used as part of a holistic program.
-    preventive_methods: >-
-      Citrus canker is a serious bacterial disease regulated by law in many states
-      including Florida -- if you suspect it, contact your state department of
-      agriculture before doing anything. It spreads through rain splash, wind,
-      contaminated tools, and movement of infected plant material. Plant windbreaks
-      to reduce wind-driven rain that splashes bacteria between trees. Use certified
-      disease-free nursery stock only. Disinfect pruning tools between trees with
-      70% isopropyl alcohol. Do not work in citrus when foliage is wet.
-    cultural_practices: >-
-      Manage citrus leafminer aggressively -- leafminer wounds are the primary entry
-      point for canker bacteria. Prune for open canopy to improve airflow and reduce
-      the duration leaves stay wet after rain. Remove and destroy infected branches,
-      fruit, and leaves per local regulatory guidance -- bag material for disposal,
-      never compost. Comply with quarantine orders and removal requirements to protect
-      neighboring groves and orchards.
-    mechanical_physical: >-
-      Remove infected branches and fruit per local regulatory guidance -- cut well
-      beyond visible lesions and sterilize tools between every cut. Bag all infected
-      material for disposal, never compost or chip. Windbreaks of non-host trees
-      reduce the wind-driven rain that splashes bacteria between trees.
-    organic_sprays: >-
-      Copper-based bactericides are the primary organic spray option -- apply on a
-      preventive schedule during periods of new flush growth and wet weather. Copper
-      reduces infection rates but does not cure existing infections. Apply before rain
-      events when possible. Reapply after heavy rain. Use minimum effective copper
-      rates as copper accumulates in soil over time. Combine copper with strict
-      sanitation and leafminer management for best results.
-  natural_enemies:
-  - Antagonistic Bacteria
-  - Beneficial Leaf Microbes
-  affected_plants:
-  - slug: bael-fruit
-    name: Bael Fruit
-  - slug: bengal-quince
-    name: Bengal Quince
-  - slug: bitter-orange
-    name: Bitter Orange
-  - slug: buddha-hand
-    name: Buddha Hand
-  - slug: calamondin
-    name: Calamondin
-  - slug: citron
-    name: Citron
-  - slug: curry-leaf-tree
-    name: Curry Leaf Tree
-  - slug: finger-lime
-    name: Finger Lime
-  - slug: hercules-club
-    name: Hercules Club
-  - slug: kaffir-lime
-    name: Kaffir Lime
-  - slug: kumquat
-    name: Kumquat
-  - slug: lemon-tree
-    name: Lemon Tree
-  - slug: lime-tree
-    name: Lime Tree
-  - slug: pomelo
-    name: Pomelo
-  - slug: prickly-ash
-    name: Prickly Ash
-  - slug: rangpur-lime
-    name: Rangpur Lime
-  - slug: rue
-    name: Rue
-  - slug: sour-orange
-    name: Sour Orange
-  - slug: tangerine
-    name: Tangerine
-  - slug: white-sapote
-    name: White Sapote
-  - slug: wild-lime
-    name: Wild Lime
-  - slug: wood-apple
-    name: Wood Apple
-  - slug: yuzu
-    name: Yuzu
+name: Citrus Canker
+slug: citrus-canker
+picture: citrus_canker.webp
+scientific_name: Xanthomonas citri subsp. citri
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  citrus canker may already be active. This problem often starts small, then spreads
+  across healthy tissue before most growers realize how serious it is. Warmth, moisture,
+  and crowded foliage usually speed it up. Treat early, because waiting even a few
+  days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- leaf-spots
+- fruit-damage
+- dropping-leaves
+- die-back
+control_methods:
+  biological_controls: No effective biological control exists for citrus canker. The
+    most important biological connection is managing citrus leafminer -- leafminer
+    wounds are the primary entry points for canker bacteria on new flush growth. Reducing
+    leafminer pressure significantly reduces canker infection rates. Healthy soil
+    biology and mycorrhizal fungi support overall tree resilience. Competitive leaf
+    surface microflora may marginally reduce bacterial colonization -- compost tea
+    foliar sprays are sometimes used as part of a holistic program.
+  preventive_methods: Citrus canker is a serious bacterial disease regulated by law
+    in many states including Florida -- if you suspect it, contact your state department
+    of agriculture before doing anything. It spreads through rain splash, wind, contaminated
+    tools, and movement of infected plant material. Plant windbreaks to reduce wind-driven
+    rain that splashes bacteria between trees. Use certified disease-free nursery
+    stock only. Disinfect pruning tools between trees with 70% isopropyl alcohol.
+    Do not work in citrus when foliage is wet.
+  cultural_practices: Manage citrus leafminer aggressively -- leafminer wounds are
+    the primary entry point for canker bacteria. Prune for open canopy to improve
+    airflow and reduce the duration leaves stay wet after rain. Remove and destroy
+    infected branches, fruit, and leaves per local regulatory guidance -- bag material
+    for disposal, never compost. Comply with quarantine orders and removal requirements
+    to protect neighboring groves and orchards.
+  mechanical_physical: Remove infected branches and fruit per local regulatory guidance
+    -- cut well beyond visible lesions and sterilize tools between every cut. Bag
+    all infected material for disposal, never compost or chip. Windbreaks of non-host
+    trees reduce the wind-driven rain that splashes bacteria between trees.
+  organic_sprays: Copper-based bactericides are the primary organic spray option --
+    apply on a preventive schedule during periods of new flush growth and wet weather.
+    Copper reduces infection rates but does not cure existing infections. Apply before
+    rain events when possible. Reapply after heavy rain. Use minimum effective copper
+    rates as copper accumulates in soil over time. Combine copper with strict sanitation
+    and leafminer management for best results.
+natural_enemies:
+- Antagonistic Bacteria
+- Beneficial Leaf Microbes
+affected_plants:
+- slug: bael-fruit
+  name: Bael Fruit
+- slug: bengal-quince
+  name: Bengal Quince
+- slug: bitter-orange
+  name: Bitter Orange
+- slug: buddha-hand
+  name: Buddha Hand
+- slug: calamondin
+  name: Calamondin
+- slug: citron
+  name: Citron
+- slug: curry-leaf-tree
+  name: Curry Leaf Tree
+- slug: finger-lime
+  name: Finger Lime
+- slug: hercules-club
+  name: Hercules Club
+- slug: kaffir-lime
+  name: Kaffir Lime
+- slug: kumquat
+  name: Kumquat
+- slug: lemon-tree
+  name: Lemon Tree
+- slug: lime-tree
+  name: Lime Tree
+- slug: pomelo
+  name: Pomelo
+- slug: prickly-ash
+  name: Prickly Ash
+- slug: rangpur-lime
+  name: Rangpur Lime
+- slug: rue
+  name: Rue
+- slug: sour-orange
+  name: Sour Orange
+- slug: tangerine
+  name: Tangerine
+- slug: white-sapote
+  name: White Sapote
+- slug: wild-lime
+  name: Wild Lime
+- slug: wood-apple
+  name: Wood Apple
+- slug: yuzu
+  name: Yuzu
+category: disease

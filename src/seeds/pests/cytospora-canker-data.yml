@@ -1,49 +1,45 @@
----
-- name: Cytospora Canker
-  slug: cytospora-canker
-  picture: cytospora_canker.webp
-  scientific_name: Cytospora spp.
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, cytospora canker may
-    already be active. This problem often starts small, then spreads across healthy tissue
-    before most growers realize how serious it is. Warmth, moisture, and crowded foliage usually
-    speed it up. Treat early, because waiting even a few days can turn a manageable infection
-    into major crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - die-back
-  - bark-damage
-  - wilting
-  - dropping-leaves
-  control_methods:
-    biological_controls: >-
-      Trichoderma products applied to pruning wounds sometimes colonize cut surfaces before
-      Cytospora spores land -- results vary with timing and moisture. Soil biology supports
-      overall tree vigor but does not erase cankers already girdling branches. Combine biocontrol
-      ideas with dry tools and dry weather pruning.
-    preventive_methods: >-
-      Water deeply on schedule so trees do not cycle drought stress and root rot alongside
-      canker risk. Balance nutrition; deficiencies and excesses both weaken wood. Inspect bark
-      after cold snaps and hail for cracks that invite infection. Monitor early summer for sunken
-      lesions and gum on stone fruit and spruce.
-    cultural_practices: >-
-      Prune infected limbs during dry forecasts and remove wood from the site -- spores splash
-      from infected piles. Open canopy for airflow so branches dry before nightfall. Avoid
-      overcrowding windbreaks where humidity stays high and wounds heal slowly.
-    mechanical_physical: >-
-      Sterilize pruning tools between cuts with alcohol or bleach solutions labeled for tools --
-      simple, boring, effective. Chip or burn infected debris where fire rules allow; do not chip
-      onto paths you walk between healthy and sick trees. Rake fallen twigs that hold inoculum.
-    organic_sprays: >-
-      Some copper and lime sulfur programs fit dormant windows on labeled crops -- read stone
-      fruit and spruce sections. Neem shows limited utility on canker fungi; prioritize wound
-      prevention and sanitation. Bordeaux paint on large cuts is old but still about timing and
-      coverage, not faith.
-  natural_enemies:
-  - Trichoderma spp.
-  - Beneficial Soil Microbes
+name: Cytospora Canker
+slug: cytospora-canker
+picture: cytospora_canker.webp
+scientific_name: Cytospora spp.
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  cytospora canker may already be active. This problem often starts small, then spreads
+  across healthy tissue before most growers realize how serious it is. Warmth, moisture,
+  and crowded foliage usually speed it up. Treat early, because waiting even a few
+  days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- die-back
+- bark-damage
+- wilting
+- dropping-leaves
+control_methods:
+  biological_controls: Trichoderma products applied to pruning wounds sometimes colonize
+    cut surfaces before Cytospora spores land -- results vary with timing and moisture.
+    Soil biology supports overall tree vigor but does not erase cankers already girdling
+    branches. Combine biocontrol ideas with dry tools and dry weather pruning.
+  preventive_methods: Water deeply on schedule so trees do not cycle drought stress
+    and root rot alongside canker risk. Balance nutrition; deficiencies and excesses
+    both weaken wood. Inspect bark after cold snaps and hail for cracks that invite
+    infection. Monitor early summer for sunken lesions and gum on stone fruit and
+    spruce.
+  cultural_practices: Prune infected limbs during dry forecasts and remove wood from
+    the site -- spores splash from infected piles. Open canopy for airflow so branches
+    dry before nightfall. Avoid overcrowding windbreaks where humidity stays high
+    and wounds heal slowly.
+  mechanical_physical: Sterilize pruning tools between cuts with alcohol or bleach
+    solutions labeled for tools -- simple, boring, effective. Chip or burn infected
+    debris where fire rules allow; do not chip onto paths you walk between healthy
+    and sick trees. Rake fallen twigs that hold inoculum.
+  organic_sprays: Some copper and lime sulfur programs fit dormant windows on labeled
+    crops -- read stone fruit and spruce sections. Neem shows limited utility on canker
+    fungi; prioritize wound prevention and sanitation. Bordeaux paint on large cuts
+    is old but still about timing and coverage, not faith.
+natural_enemies:
+- Trichoderma spp.
+- Beneficial Soil Microbes
+category: disease

@@ -1,190 +1,189 @@
----
-- name: Pear Psylla
-  slug: pear-psylla
-  picture: pear_psylla.webp
-  scientific_name: Cacopsylla pyricola
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, pear psylla may already be on the
-    plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - sticky-residue
-  - curling-leaves
-  - yellowing-leaves
-  - distorted-growth
-  control_methods:
-    biological_controls: >-
-      Adult pear psylla are jumpy, flat insects; their nymphs sit in cups of honeydew and sooty
-      mold where lady beetles, lacewing larvae, syrphid larvae, minute pirate bugs, and earwigs
-      can reach them if sprays do not wipe the roster first. Parasitic wasps attack nymphs in
-      late spring and summer flushes -- you will see mummies when biocontrol is working. Plant
-      flowering ground covers and mow strips so beneficial insects have pollen and shelter between
-      pear rows. If you blanket-spray pyrethrin every week, you will farm psylla alone -- back off
-      when predator counts rise.
-    preventive_methods: >-
-      Psylla overwinters as adults on bark and in orchard litter, then moves to swelling buds --
-      the first eggs appear when pears break dormancy. Walk rows weekly from silver tip through
-      petal fall and flip new leaves to catch the first nymph wave before honeydew rains begin.
-      Avoid heavy nitrogen that pushes endless soft flushes; each flush is a new nursery. Tie
-      monitoring to degree days if your extension publishes local models so you are not guessing.
-      Flag blocks that exploded last year and scout those first; psylla remembers good restaurants.
-    cultural_practices: >-
-      Train pears to an open vase or tall spindle so inner canopy dries and sprays reach leaf
-      undersides -- psylla loves tight, humid pockets. Summer prune water sprouts that act as
-      infinite salad bars. Strip the most infested shoots on young trees if the load is still
-      localized; bag debris. You cannot rotate a pear tree out of psylla, but you can remove
-      abandoned backyard pears nearby that act as untreated reservoirs. Wash dust off leaves in
-      dry years; dusty foliage favors mites more than psylla, but both signal stressed systems.
-    mechanical_physical: >-
-      Sticky trunk bands catch crawling wingless nymphs in some setups, but adults fly -- use
-      bands as a minor adjunct, not the plan. Power-wash nursery whips before planting to knock
-      overwintering adults. For backyard trees, a strong jet of water on new growth dislodges
-      young nymphs before they settle into their sticky honeydew cups; repeat every few days
-      during flush. Prune out the lowest suckers touching grass where adults rest. In high-tech
-      plantings, overhead cooling misters timed for heat can slow nymph development; pair with
-      disease scouting so you do not invent scab while fighting psylla.
-    organic_sprays: >-
-      Dormant or delayed-dormant narrow-range oil smothers overwintering eggs when labels allow
-      pears -- timing is bud stage specific, read the pear section twice. Insecticidal soap and
-      neem target soft nymphs, not adults under bark; spray when crawlers move onto fresh leaves
-      and add a spreader for waxy pear foliage. Kaolin clay repels ovipositing adults if you keep
-      uniform coverage through spring winds. Avoid spraying open flowers; shift to evening when
-      bees are home. Rotate modes of action across generations so you do not select soap-proof
-      psylla in one decade.
-  natural_enemies:
-  - Ladybugs
-  - Lacewings
-  - Parasitic Wasps
-  affected_plants:
-  - slug: agrimony
-    name: Agrimony
-  - slug: allegheny-serviceberry
-    name: Allegheny Serviceberry
-  - slug: almond-tree
-    name: Almond Tree
-  - slug: american-beauty-plum
-    name: American Beauty Plum
-  - slug: american-hawthorn
-    name: American Hawthorn
-  - slug: american-plum
-    name: American Plum
-  - slug: apple
-    name: Apple
-  - slug: aronia
-    name: Aronia
-  - slug: beach-strawberry
-    name: Beach Strawberry
-  - slug: bearberry-cotoneaster
-    name: Bearberry Cotoneaster
-  - slug: black-chokeberry
-    name: Black Chokeberry
-  - slug: buffalo-plum
-    name: Buffalo Plum
-  - slug: carolina-rose
-    name: Carolina Rose
-  - slug: chickasaw-blackberry
-    name: Chickasaw Blackberry
-  - slug: chickasaw-plum
-    name: Chickasaw Plum
-  - slug: chokeberry
-    name: Chokeberry
-  - slug: climbing-prairie-rose
-    name: Climbing Prairie Rose
-  - slug: cloudberry
-    name: Cloudberry
-  - slug: cockspur-hawthorn
-    name: Cockspur Hawthorn
-  - slug: creeping-raspberry
-    name: Creeping Raspberry
-  - slug: dewberry
-    name: Dewberry
-  - slug: dotted-hawthorn
-    name: Dotted Hawthorn
-  - slug: downy-serviceberry
-    name: Downy Serviceberry
-  - slug: flatwoods-plum
-    name: Flatwoods Plum
-  - slug: frosted-hawthorn
-    name: Frosted Hawthorn
-  - slug: green-hawthorn
-    name: Green Hawthorn
-  - slug: green-apple-tree
-    name: Green Apple Tree
-  - slug: hedge-cotoneaster
-    name: Hedge Cotoneaster
-  - slug: hortulan-plum
-    name: Hortulan Plum
-  - slug: loquat
-    name: Loquat
-  - slug: many-flowered-cotoneaster
-    name: Many Flowered Cotoneaster
-  - slug: mayhaw
-    name: Mayhaw
-  - slug: meadowsweet
-    name: Meadowsweet
-  - slug: munson-plum
-    name: Munson Plum
-  - slug: nectarine-tree
-    name: Nectarine Tree
-  - slug: parsley-hawthorn
-    name: Parsley Hawthorn
-  - slug: pasture-rose
-    name: Pasture Rose
-  - slug: pear-hawthorn
-    name: Pear Hawthorn
-  - slug: pear-tree
-    name: Pear Tree
-  - slug: pineapple-pear
-    name: Pineapple Pear
-  - slug: prairie-crabapple
-    name: Prairie Crabapple
-  - slug: purple-chokeberry
-    name: Purple Chokeberry
-  - slug: raspberry
-    name: Raspberry
-  - slug: red-chokeberry
-    name: Red Chokeberry
-  - slug: red-apple-tree
-    name: Red Apple Tree
-  - slug: rock-cotoneaster
-    name: Rock Cotoneaster
-  - slug: roundleaf-serviceberry
-    name: Roundleaf Serviceberry
-  - slug: running-serviceberry
-    name: Running Serviceberry
-  - slug: sand-blackberry
-    name: Sand Blackberry
-  - slug: sand-cherry
-    name: Sand Cherry
-  - slug: saskatoon-berry
-    name: Saskatoon Berry
-  - slug: serviceberry
-    name: Serviceberry
-  - slug: silverleaf-cotoneaster
-    name: Silverleaf Cotoneaster
-  - slug: smooth-serviceberry
-    name: Smooth Serviceberry
-  - slug: southern-crabapple
-    name: Southern Crabapple
-  - slug: southern-dewberry
-    name: Southern Dewberry
-  - slug: southern-hawthorn
-    name: Southern Hawthorn
-  - slug: strawberry
-    name: Strawberry
-  - slug: swamp-rose
-    name: Swamp Rose
-  - slug: sweet-crabapple
-    name: Sweet Crabapple
-  - slug: virginia-rose
-    name: Virginia Rose
-  - slug: wild-crabapple
-    name: Wild Crabapple
-  - slug: wild-plum
-    name: Wild Plum
+name: Pear Psylla
+slug: pear-psylla
+picture: pear_psylla.webp
+scientific_name: Cacopsylla pyricola
+description: If new growth is curling, yellowing, sticky, or chewed, pear psylla may
+  already be on the plant. This pest often builds quietly, then damage appears all
+  at once. Feeding stress weakens growth, reduces yield, and opens the door to secondary
+  disease. Early cleanup is much easier than fighting a full population surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- sticky-residue
+- curling-leaves
+- yellowing-leaves
+- distorted-growth
+control_methods:
+  biological_controls: Adult pear psylla are jumpy, flat insects; their nymphs sit
+    in cups of honeydew and sooty mold where lady beetles, lacewing larvae, syrphid
+    larvae, minute pirate bugs, and earwigs can reach them if sprays do not wipe the
+    roster first. Parasitic wasps attack nymphs in late spring and summer flushes
+    -- you will see mummies when biocontrol is working. Plant flowering ground covers
+    and mow strips so beneficial insects have pollen and shelter between pear rows.
+    If you blanket-spray pyrethrin every week, you will farm psylla alone -- back
+    off when predator counts rise.
+  preventive_methods: Psylla overwinters as adults on bark and in orchard litter,
+    then moves to swelling buds -- the first eggs appear when pears break dormancy.
+    Walk rows weekly from silver tip through petal fall and flip new leaves to catch
+    the first nymph wave before honeydew rains begin. Avoid heavy nitrogen that pushes
+    endless soft flushes; each flush is a new nursery. Tie monitoring to degree days
+    if your extension publishes local models so you are not guessing. Flag blocks
+    that exploded last year and scout those first; psylla remembers good restaurants.
+  cultural_practices: Train pears to an open vase or tall spindle so inner canopy
+    dries and sprays reach leaf undersides -- psylla loves tight, humid pockets. Summer
+    prune water sprouts that act as infinite salad bars. Strip the most infested shoots
+    on young trees if the load is still localized; bag debris. You cannot rotate a
+    pear tree out of psylla, but you can remove abandoned backyard pears nearby that
+    act as untreated reservoirs. Wash dust off leaves in dry years; dusty foliage
+    favors mites more than psylla, but both signal stressed systems.
+  mechanical_physical: Sticky trunk bands catch crawling wingless nymphs in some setups,
+    but adults fly -- use bands as a minor adjunct, not the plan. Power-wash nursery
+    whips before planting to knock overwintering adults. For backyard trees, a strong
+    jet of water on new growth dislodges young nymphs before they settle into their
+    sticky honeydew cups; repeat every few days during flush. Prune out the lowest
+    suckers touching grass where adults rest. In high-tech plantings, overhead cooling
+    misters timed for heat can slow nymph development; pair with disease scouting
+    so you do not invent scab while fighting psylla.
+  organic_sprays: Dormant or delayed-dormant narrow-range oil smothers overwintering
+    eggs when labels allow pears -- timing is bud stage specific, read the pear section
+    twice. Insecticidal soap and neem target soft nymphs, not adults under bark; spray
+    when crawlers move onto fresh leaves and add a spreader for waxy pear foliage.
+    Kaolin clay repels ovipositing adults if you keep uniform coverage through spring
+    winds. Avoid spraying open flowers; shift to evening when bees are home. Rotate
+    modes of action across generations so you do not select soap-proof psylla in one
+    decade.
+natural_enemies:
+- Ladybugs
+- Lacewings
+- Parasitic Wasps
+affected_plants:
+- slug: agrimony
+  name: Agrimony
+- slug: allegheny-serviceberry
+  name: Allegheny Serviceberry
+- slug: almond-tree
+  name: Almond Tree
+- slug: american-beauty-plum
+  name: American Beauty Plum
+- slug: american-hawthorn
+  name: American Hawthorn
+- slug: american-plum
+  name: American Plum
+- slug: apple
+  name: Apple
+- slug: aronia
+  name: Aronia
+- slug: beach-strawberry
+  name: Beach Strawberry
+- slug: bearberry-cotoneaster
+  name: Bearberry Cotoneaster
+- slug: black-chokeberry
+  name: Black Chokeberry
+- slug: buffalo-plum
+  name: Buffalo Plum
+- slug: carolina-rose
+  name: Carolina Rose
+- slug: chickasaw-blackberry
+  name: Chickasaw Blackberry
+- slug: chickasaw-plum
+  name: Chickasaw Plum
+- slug: chokeberry
+  name: Chokeberry
+- slug: climbing-prairie-rose
+  name: Climbing Prairie Rose
+- slug: cloudberry
+  name: Cloudberry
+- slug: cockspur-hawthorn
+  name: Cockspur Hawthorn
+- slug: creeping-raspberry
+  name: Creeping Raspberry
+- slug: dewberry
+  name: Dewberry
+- slug: dotted-hawthorn
+  name: Dotted Hawthorn
+- slug: downy-serviceberry
+  name: Downy Serviceberry
+- slug: flatwoods-plum
+  name: Flatwoods Plum
+- slug: frosted-hawthorn
+  name: Frosted Hawthorn
+- slug: green-hawthorn
+  name: Green Hawthorn
+- slug: green-apple-tree
+  name: Green Apple Tree
+- slug: hedge-cotoneaster
+  name: Hedge Cotoneaster
+- slug: hortulan-plum
+  name: Hortulan Plum
+- slug: loquat
+  name: Loquat
+- slug: many-flowered-cotoneaster
+  name: Many Flowered Cotoneaster
+- slug: mayhaw
+  name: Mayhaw
+- slug: meadowsweet
+  name: Meadowsweet
+- slug: munson-plum
+  name: Munson Plum
+- slug: nectarine-tree
+  name: Nectarine Tree
+- slug: parsley-hawthorn
+  name: Parsley Hawthorn
+- slug: pasture-rose
+  name: Pasture Rose
+- slug: pear-hawthorn
+  name: Pear Hawthorn
+- slug: pear-tree
+  name: Pear Tree
+- slug: pineapple-pear
+  name: Pineapple Pear
+- slug: prairie-crabapple
+  name: Prairie Crabapple
+- slug: purple-chokeberry
+  name: Purple Chokeberry
+- slug: raspberry
+  name: Raspberry
+- slug: red-chokeberry
+  name: Red Chokeberry
+- slug: red-apple-tree
+  name: Red Apple Tree
+- slug: rock-cotoneaster
+  name: Rock Cotoneaster
+- slug: roundleaf-serviceberry
+  name: Roundleaf Serviceberry
+- slug: running-serviceberry
+  name: Running Serviceberry
+- slug: sand-blackberry
+  name: Sand Blackberry
+- slug: sand-cherry
+  name: Sand Cherry
+- slug: saskatoon-berry
+  name: Saskatoon Berry
+- slug: serviceberry
+  name: Serviceberry
+- slug: silverleaf-cotoneaster
+  name: Silverleaf Cotoneaster
+- slug: smooth-serviceberry
+  name: Smooth Serviceberry
+- slug: southern-crabapple
+  name: Southern Crabapple
+- slug: southern-dewberry
+  name: Southern Dewberry
+- slug: southern-hawthorn
+  name: Southern Hawthorn
+- slug: strawberry
+  name: Strawberry
+- slug: swamp-rose
+  name: Swamp Rose
+- slug: sweet-crabapple
+  name: Sweet Crabapple
+- slug: virginia-rose
+  name: Virginia Rose
+- slug: wild-crabapple
+  name: Wild Crabapple
+- slug: wild-plum
+  name: Wild Plum
+category: pest

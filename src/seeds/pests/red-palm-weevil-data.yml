@@ -1,120 +1,119 @@
----
-- name: Red Palm Weevil
-  slug: red-palm-weevil
-  picture: red_palm_weevil.webp
-  scientific_name: Rhynchophorus ferrugineus
-  description: >-
-    If plants are wilting, notching at the edges, or fruit and roots show hidden feeding damage,
-    red palm weevil may be the cause. Adults chew above ground while larvae often feed out of
-    sight inside soil, stems, or fruit. Damage builds quietly, then plants crash fast when roots
-    are heavily hit. Act early so a small weevil problem does not become a season-long
-    infestation.
-  characteristics: >-
-    Look for small beetles with a hard body and a distinct snout, usually active at dawn, dusk,
-    or night. Check for crescent-shaped leaf notches, punctures in fruit, or tiny entry holes
-    near stems. In soil or damaged tissue, larvae are often pale, legless, and curved in a
-    C-shape. Fresh chew marks plus snout beetles or C-shaped grubs confirm active weevil
-    pressure.
-  symptoms:
-  - chewed-stems
-  - stem-damage
-  - fruit-damage
-  - holes-in-leaves
-  - root-damage
-  - die-back
-  control_methods:
-    biological_controls: >-
-      Classical programs overseas release egg parasitoids that attack weevil eggs on crown
-      tissue -- those insects are regulated and not a backyard mail-order. Woodpeckers and large
-      ants sometimes pull larvae from soft crowns when damage is still shallow. Beauveria bassiana
-      and Metarhizium fungi infect adults and larvae if spores stay wet long enough to penetrate
-      the insect cuticle -- they are tools, not spells. Ants and woodpeckers will not save a palm
-      whose heart is already tunneled; they help at the margins when sanitation happens on time.
-    preventive_methods: >-
-      Adults fly to wounded palms and fresh cut surfaces -- inspect every new palm at planting
-      and reject stock with oozing holes or odd sawdust at the crown. Report suspect palms to
-      agricultural authorities where programs exist; early detection protects whole neighborhoods.
-      Do not move chipped palm debris off-site without treatment rules; grubs ride in hidden
-      fibers. Pheromone traps for monitoring tell you when males are active so you double-check
-      nearby sanitation. Zero tolerance for "we will deal with that stump later" after pruning.
-    cultural_practices: >-
-      Remove and destroy severely infested palms before adults emerge -- chip on site under
-      supervision if regulations require. Avoid leaving tall stumps as brood hotels; grind
-      stumps below grade when possible. Quarantine nursery blocks from regions with established
-      populations until inspectors clear material. When pruning, sterilize tools between trees and
-      never spike a declining palm for temporary support; fresh wounds scream egg-laying site.
-      Coordinate community removal so one untreated yard does not reinfect the block.
-    mechanical_physical: >-
-      Pheromone-baited bucket traps capture male weevils and reduce mating when used as networks,
-      not single buckets near patios. Acoustic tools listen for larval chewing in the crown
-      before fronds collapse -- training matters, false positives happen. For short palms, probe
-      soft spots with a thin wire to destroy accessible larvae when laws allow. Fine mesh sleeves
-      around valuable young palms exclude adults during flight peaks if frames do not wound trunks.
-    organic_sprays: >-
-      Beauveria bassiana and Metarhizium formulations labeled for palm borers go into crown axils
-      as drenches or high-volume sprays during adult activity -- coverage deep in the crown beats
-      brand loyalty. Repeat on schedules the label allows; fungi need moisture to infect. Chitosan
-      and other biofilm disruptors show promise in trials; pair any spray with removal of infested
-      tissue. Neem or soap do not fix advanced tunneling. Always follow worker safety rules for
-      aerial lifts and ladder work near collapsing crowns.
-  natural_enemies:
-  - Scelionid egg parasitoids
-  - Beauveria bassiana
-  - Metarhizium spp.
-  affected_plants:
-  - slug: açaí-palm
-    name: Açaí Palm
-  - slug: aguaje-palm
-    name: Aguaje Palm
-  - slug: bactris-gasipaes
-    name: Bactris Gasipaes
-  - slug: bismarck-palm
-    name: Bismarck Palm
-  - slug: blue-palmetto
-    name: Blue Palmetto
-  - slug: buriti-palm
-    name: Buriti Palm
-  - slug: butia-palm
-    name: Butia Palm
-  - slug: cabbage-palm
-    name: Cabbage Palm
-  - slug: chinese-fan-palm
-    name: Chinese Fan Palm
-  - slug: coconut-palm
-    name: Coconut Palm
-  - slug: coconut-tree
-    name: Coconut Tree
-  - slug: dwarf-palmetto
-    name: Dwarf Palmetto
-  - slug: florida-thatch-palm
-    name: Florida Thatch Palm
-  - slug: jelly-palm
-    name: Jelly Palm
-  - slug: jucara-palm
-    name: Jucara Palm
-  - slug: key-thatch-palm
-    name: Key Thatch Palm
-  - slug: needle-palm
-    name: Needle Palm
-  - slug: nipa-palm
-    name: Nipa Palm
-  - slug: palmetto-palm
-    name: Palmetto Palm
-  - slug: peach-palm
-    name: Peach Palm
-  - slug: pindo-palm
-    name: Pindo Palm
-  - slug: ribbon-palm
-    name: Ribbon Palm
-  - slug: royal-palm
-    name: Royal Palm
-  - slug: sabal-palm
-    name: Sabal Palm
-  - slug: saw-palmetto
-    name: Saw Palmetto
-  - slug: scrub-palmetto
-    name: Scrub Palmetto
-  - slug: tucumã-palm
-    name: Tucumã Palm
-  - slug: windmill-palm
-    name: Windmill Palm
+name: Red Palm Weevil
+slug: red-palm-weevil
+picture: red_palm_weevil.webp
+scientific_name: Rhynchophorus ferrugineus
+description: If plants are wilting, notching at the edges, or fruit and roots show
+  hidden feeding damage, red palm weevil may be the cause. Adults chew above ground
+  while larvae often feed out of sight inside soil, stems, or fruit. Damage builds
+  quietly, then plants crash fast when roots are heavily hit. Act early so a small
+  weevil problem does not become a season-long infestation.
+characteristics: Look for small beetles with a hard body and a distinct snout, usually
+  active at dawn, dusk, or night. Check for crescent-shaped leaf notches, punctures
+  in fruit, or tiny entry holes near stems. In soil or damaged tissue, larvae are
+  often pale, legless, and curved in a C-shape. Fresh chew marks plus snout beetles
+  or C-shaped grubs confirm active weevil pressure.
+symptoms:
+- chewed-stems
+- stem-damage
+- fruit-damage
+- holes-in-leaves
+- root-damage
+- die-back
+control_methods:
+  biological_controls: Classical programs overseas release egg parasitoids that attack
+    weevil eggs on crown tissue -- those insects are regulated and not a backyard
+    mail-order. Woodpeckers and large ants sometimes pull larvae from soft crowns
+    when damage is still shallow. Beauveria bassiana and Metarhizium fungi infect
+    adults and larvae if spores stay wet long enough to penetrate the insect cuticle
+    -- they are tools, not spells. Ants and woodpeckers will not save a palm whose
+    heart is already tunneled; they help at the margins when sanitation happens on
+    time.
+  preventive_methods: Adults fly to wounded palms and fresh cut surfaces -- inspect
+    every new palm at planting and reject stock with oozing holes or odd sawdust at
+    the crown. Report suspect palms to agricultural authorities where programs exist;
+    early detection protects whole neighborhoods. Do not move chipped palm debris
+    off-site without treatment rules; grubs ride in hidden fibers. Pheromone traps
+    for monitoring tell you when males are active so you double-check nearby sanitation.
+    Zero tolerance for "we will deal with that stump later" after pruning.
+  cultural_practices: Remove and destroy severely infested palms before adults emerge
+    -- chip on site under supervision if regulations require. Avoid leaving tall stumps
+    as brood hotels; grind stumps below grade when possible. Quarantine nursery blocks
+    from regions with established populations until inspectors clear material. When
+    pruning, sterilize tools between trees and never spike a declining palm for temporary
+    support; fresh wounds scream egg-laying site. Coordinate community removal so
+    one untreated yard does not reinfect the block.
+  mechanical_physical: Pheromone-baited bucket traps capture male weevils and reduce
+    mating when used as networks, not single buckets near patios. Acoustic tools listen
+    for larval chewing in the crown before fronds collapse -- training matters, false
+    positives happen. For short palms, probe soft spots with a thin wire to destroy
+    accessible larvae when laws allow. Fine mesh sleeves around valuable young palms
+    exclude adults during flight peaks if frames do not wound trunks.
+  organic_sprays: Beauveria bassiana and Metarhizium formulations labeled for palm
+    borers go into crown axils as drenches or high-volume sprays during adult activity
+    -- coverage deep in the crown beats brand loyalty. Repeat on schedules the label
+    allows; fungi need moisture to infect. Chitosan and other biofilm disruptors show
+    promise in trials; pair any spray with removal of infested tissue. Neem or soap
+    do not fix advanced tunneling. Always follow worker safety rules for aerial lifts
+    and ladder work near collapsing crowns.
+natural_enemies:
+- Scelionid egg parasitoids
+- Beauveria bassiana
+- Metarhizium spp.
+affected_plants:
+- slug: açaí-palm
+  name: Açaí Palm
+- slug: aguaje-palm
+  name: Aguaje Palm
+- slug: bactris-gasipaes
+  name: Bactris Gasipaes
+- slug: bismarck-palm
+  name: Bismarck Palm
+- slug: blue-palmetto
+  name: Blue Palmetto
+- slug: buriti-palm
+  name: Buriti Palm
+- slug: butia-palm
+  name: Butia Palm
+- slug: cabbage-palm
+  name: Cabbage Palm
+- slug: chinese-fan-palm
+  name: Chinese Fan Palm
+- slug: coconut-palm
+  name: Coconut Palm
+- slug: coconut-tree
+  name: Coconut Tree
+- slug: dwarf-palmetto
+  name: Dwarf Palmetto
+- slug: florida-thatch-palm
+  name: Florida Thatch Palm
+- slug: jelly-palm
+  name: Jelly Palm
+- slug: jucara-palm
+  name: Jucara Palm
+- slug: key-thatch-palm
+  name: Key Thatch Palm
+- slug: needle-palm
+  name: Needle Palm
+- slug: nipa-palm
+  name: Nipa Palm
+- slug: palmetto-palm
+  name: Palmetto Palm
+- slug: peach-palm
+  name: Peach Palm
+- slug: pindo-palm
+  name: Pindo Palm
+- slug: ribbon-palm
+  name: Ribbon Palm
+- slug: royal-palm
+  name: Royal Palm
+- slug: sabal-palm
+  name: Sabal Palm
+- slug: saw-palmetto
+  name: Saw Palmetto
+- slug: scrub-palmetto
+  name: Scrub Palmetto
+- slug: tucumã-palm
+  name: Tucumã Palm
+- slug: windmill-palm
+  name: Windmill Palm
+category: pest

@@ -1,69 +1,65 @@
----
-- name: Aphids
-  slug: aphids
-  picture: aphids.webp
-  scientific_name: Aphidoidea
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, aphids may already be on the plant.
-    This pest often builds quietly, then damage appears all at once. Feeding stress weakens
-    growth, reduces yield, and opens the door to secondary disease. Early cleanup is much easier
-    than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - sticky-residue
-  - curling-leaves
-  - yellowing-leaves
-  - distorted-growth
-  control_methods:
-    biological_controls: >-
-      Do nothing for 2-3 days after first spotting aphids — ladybug larvae, lacewing eggs,
-      and parasitic wasps are likely already responding. Spraying anything, even water, can
-      kill arriving predators and make the problem worse. To attract these helpers permanently,
-      plant dill, fennel, cilantro, or yarrow nearby — their flat-topped flowers are landing
-      pads for beneficial insects. Never buy ladybugs online or from a store. Commercially
-      sold ladybugs are harvested from wild hibernating populations, carry disease, and fly
-      away within hours of release. Your local ladybugs are already there — feed them with
-      habitat, not purchases.
-    preventive_methods: >-
-      Aphids love soft, sweet new growth — and that growth is caused by too much nitrogen.
-      If you are overfeeding with fertilizer, you are growing an aphid buffet. Healthy plants
-      in living soil with balanced nutrition are genuinely less attractive to aphids. Aphids
-      are born pregnant and a single aphid becomes thousands in one week — early action matters
-      more than any spray. Check new growth weekly. A few aphids with ladybug larvae nearby
-      means the system is working. A colony with no predators in sight means act now.
-    cultural_practices: >-
-      Plant garlic, chives, or strong-smelling herbs at the base of aphid-prone plants —
-      the volatile compounds confuse aphid navigation. Marigolds and nasturtiums at garden
-      edges work as trap crops: aphids prefer them and cluster there instead of your food
-      plants, making cleanup easier. Aphids reproduce without mating — one survivor restarts
-      the colony. After a spray or water blast, check again in 3 days. The lifecycle from
-      birth to reproducing adult is 7-10 days in warm weather, so weekly monitoring catches
-      surges before they become infestations.
-    mechanical_physical: >-
-      A hard jet of water knocks aphids off plants and buys you a few days — they cannot
-      climb back up easily. This works well for light infestations on sturdy plants. Do it
-      in the morning so leaves dry before evening. For heavy infestations, water blasting
-      becomes a daily chore that never quite wins. At that point, move to insecticidal soap
-      and address the underlying cause — too much nitrogen, no beneficial habitat, or a
-      stressed plant that needs help beyond pest control.
-    organic_sprays: >-
-      Insecticidal soap is just soap and water — mix 1-2 teaspoons of pure castile soap
-      (like Dr. Bronner unscented) per quart of water in a spray bottle. That is it.
-      Commercial insecticidal soap is the same thing at 10x the price. Spray directly on
-      aphids, covering undersides of leaves where they cluster. It kills by contact —
-      it must hit the pest to work, and it stops working when it dries. Spray at dusk
-      when beneficial insects are not active, because it kills soft-bodied beneficials too.
-      Neem oil works differently — it disrupts the aphid hormone system and prevents
-      molting. Mix 1 tablespoon neem oil plus 1 teaspoon castile soap per quart of warm
-      water. Apply weekly as prevention or every 3 days during active infestation.
-      Neither spray discriminates — avoid flowers and areas with visible beneficial activity.
-  natural_enemies:
-  - Ladybugs
-  - Lacewings
-  - Parasitic Wasps
-  - Hoverfly Larvae
-  - Predatory Beetles
+name: Aphids
+slug: aphids
+picture: aphids.webp
+scientific_name: Aphidoidea
+description: If new growth is curling, yellowing, sticky, or chewed, aphids may already
+  be on the plant. This pest often builds quietly, then damage appears all at once.
+  Feeding stress weakens growth, reduces yield, and opens the door to secondary disease.
+  Early cleanup is much easier than fighting a full population surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- sticky-residue
+- curling-leaves
+- yellowing-leaves
+- distorted-growth
+control_methods:
+  biological_controls: Do nothing for 2-3 days after first spotting aphids — ladybug
+    larvae, lacewing eggs, and parasitic wasps are likely already responding. Spraying
+    anything, even water, can kill arriving predators and make the problem worse.
+    To attract these helpers permanently, plant dill, fennel, cilantro, or yarrow
+    nearby — their flat-topped flowers are landing pads for beneficial insects. Never
+    buy ladybugs online or from a store. Commercially sold ladybugs are harvested
+    from wild hibernating populations, carry disease, and fly away within hours of
+    release. Your local ladybugs are already there — feed them with habitat, not purchases.
+  preventive_methods: Aphids love soft, sweet new growth — and that growth is caused
+    by too much nitrogen. If you are overfeeding with fertilizer, you are growing
+    an aphid buffet. Healthy plants in living soil with balanced nutrition are genuinely
+    less attractive to aphids. Aphids are born pregnant and a single aphid becomes
+    thousands in one week — early action matters more than any spray. Check new growth
+    weekly. A few aphids with ladybug larvae nearby means the system is working. A
+    colony with no predators in sight means act now.
+  cultural_practices: 'Plant garlic, chives, or strong-smelling herbs at the base
+    of aphid-prone plants — the volatile compounds confuse aphid navigation. Marigolds
+    and nasturtiums at garden edges work as trap crops: aphids prefer them and cluster
+    there instead of your food plants, making cleanup easier. Aphids reproduce without
+    mating — one survivor restarts the colony. After a spray or water blast, check
+    again in 3 days. The lifecycle from birth to reproducing adult is 7-10 days in
+    warm weather, so weekly monitoring catches surges before they become infestations.'
+  mechanical_physical: A hard jet of water knocks aphids off plants and buys you a
+    few days — they cannot climb back up easily. This works well for light infestations
+    on sturdy plants. Do it in the morning so leaves dry before evening. For heavy
+    infestations, water blasting becomes a daily chore that never quite wins. At that
+    point, move to insecticidal soap and address the underlying cause — too much nitrogen,
+    no beneficial habitat, or a stressed plant that needs help beyond pest control.
+  organic_sprays: Insecticidal soap is just soap and water — mix 1-2 teaspoons of
+    pure castile soap (like Dr. Bronner unscented) per quart of water in a spray bottle.
+    That is it. Commercial insecticidal soap is the same thing at 10x the price. Spray
+    directly on aphids, covering undersides of leaves where they cluster. It kills
+    by contact — it must hit the pest to work, and it stops working when it dries.
+    Spray at dusk when beneficial insects are not active, because it kills soft-bodied
+    beneficials too. Neem oil works differently — it disrupts the aphid hormone system
+    and prevents molting. Mix 1 tablespoon neem oil plus 1 teaspoon castile soap per
+    quart of warm water. Apply weekly as prevention or every 3 days during active
+    infestation. Neither spray discriminates — avoid flowers and areas with visible
+    beneficial activity.
+natural_enemies:
+- Ladybugs
+- Lacewings
+- Parasitic Wasps
+- Hoverfly Larvae
+- Predatory Beetles
+category: pest

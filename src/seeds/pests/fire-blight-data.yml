@@ -1,198 +1,187 @@
----
-- name: Fire Blight
-  slug: fire-blight
-  picture: fire_blight.webp
-  scientific_name: Erwinia amylovora
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, fire blight may
-    already be active. This problem often starts small, then spreads across healthy tissue
-    before most growers realize how serious it is. Warmth, moisture, and crowded foliage usually
-    speed it up. Treat early, because waiting even a few days can turn a manageable infection
-    into major crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - wilting
-  - die-back
-  - leaf-spots
-  - brown-edges
-  - fruit-damage
-  control_methods:
-    biological_controls: >-
-      Bacillus subtilis (Serenade) and B. amyloliquefaciens colonize flower
-      surfaces and suppress Erwinia amylovora during the critical bloom infection
-      window — apply at every bloom spray timing. Pseudomonas fluorescens
-      (BlightBan) competes directly with fire blight bacteria at blossom surfaces
-      and is one of the most effective biological controls for any bacterial
-      plant disease. These must be applied preventively before infection —
-      once fire blight is in the tree no biological or chemical treatment stops
-      it. Diverse soil biology and mycorrhizal fungi support tree health and
-      immune response to fire blight infection.
-    preventive_methods: >-
-      Fire blight spreads through open blossoms during warm wet weather above
-      60F (15C) — the bacteria enter through flowers and are then spread by
-      bees, rain, and insects. Once inside the tree it moves through vascular
-      tissue and cannot be stopped. The entire strategy must focus on bloom
-      protection. Copper spray at half-inch green through pink bud reduces
-      bacteria on bark surfaces. Forecasting models (Maryblyt, Cougarblight)
-      predict high-risk infection periods using temperature and wetness data —
-      more accurate than calendar timing.
-    cultural_practices: >-
-      Prune infected shoots 8-12 inches below the lowest visible symptom during
-      dry weather — the bacteria extend further into wood than symptoms show.
-      Sterilize pruning tools between every cut with 70% isopropyl alcohol or
-      10% bleach — fire blight spreads on contaminated tools as fast as on
-      bees. Remove all infected material from the orchard immediately and destroy.
-      Avoid excess nitrogen fertilization which produces the succulent shoot
-      growth most susceptible to fire blight infection. Plant resistant varieties
-      — modern apple and pear breeding has produced many excellent fire blight
-      resistant cultivars.
-    mechanical_physical: >-
-      Pruning infected tissue is the only mechanical control — cut 8-12 inches
-      below visible symptoms and sterilize tools between every cut without
-      exception. Remove all prunings from the orchard and bus —
-      the wilted shepherd's crook shape of blighted shoots is unmistakable.
-      Early removal of new infections prevents spread to larger scaffold
-      branches and the main trunk where fire blight becomes fatal.
-    organic_sprays: >-
-      Copper applied at half-inch green through pink bud reduces overwintering
-      inoculum on bark. Bloom-time applications of Bacillus subtilis, B.
-      amyloliquefaciens, or kaolin clay at every blossom spray timing are the
-      primary organic bloom protection strategy. Apply every 3-5 days during
-      bloom when temperatures and wetness favor infection. Copper during bloom
-      can reduce fruit russeting — use lower rates and buffer with lime if needed.
-      No spray cures fire blight already inside the tree.
-  natural_enemies:
-  - Beneficial Microbes
-  - Antagonistic Bacteria
-  affected_plants:
-  - slug: agrimony
-    name: Agrimony
-  - slug: allegheny-serviceberry
-    name: Allegheny Serviceberry
-  - slug: almond-tree
-    name: Almond Tree
-  - slug: american-beauty-plum
-    name: American Beauty Plum
-  - slug: american-hawthorn
-    name: American Hawthorn
-  - slug: american-plum
-    name: American Plum
-  - slug: apple
-    name: Apple
-  - slug: aronia
-    name: Aronia
-  - slug: beach-strawberry
-    name: Beach Strawberry
-  - slug: bearberry-cotoneaster
-    name: Bearberry Cotoneaster
-  - slug: black-chokeberry
-    name: Black Chokeberry
-  - slug: buffalo-plum
-    name: Buffalo Plum
-  - slug: carolina-rose
-    name: Carolina Rose
-  - slug: chickasaw-blackberry
-    name: Chickasaw Blackberry
-  - slug: chickasaw-plum
-    name: Chickasaw Plum
-  - slug: chokeberry
-    name: Chokeberry
-  - slug: climbing-prairie-rose
-    name: Climbing Prairie Rose
-  - slug: cloudberry
-    name: Cloudberry
-  - slug: cockspur-hawthorn
-    name: Cockspur Hawthorn
-  - slug: creeping-raspberry
-    name: Creeping Raspberry
-  - slug: dewberry
-    name: Dewberry
-  - slug: dotted-hawthorn
-    name: Dotted Hawthorn
-  - slug: downy-serviceberry
-    name: Downy Serviceberry
-  - slug: flatwoods-plum
-    name: Flatwoods Plum
-  - slug: frosted-hawthorn
-    name: Frosted Hawthorn
-  - slug: green-hawthorn
-    name: Green Hawthorn
-  - slug: green-apple-tree
-    name: Green Apple Tree
-  - slug: hedge-cotoneaster
-    name: Hedge Cotoneaster
-  - slug: hortulan-plum
-    name: Hortulan Plum
-  - slug: loquat
-    name: Loquat
-  - slug: many-flowered-cotoneaster
-    name: Many Flowered Cotoneaster
-  - slug: mayhaw
-    name: Mayhaw
-  - slug: meadowsweet
-    name: Meadowsweet
-  - slug: munson-plum
-    name: Munson Plum
-  - slug: nectarine-tree
-    name: Nectarine Tree
-  - slug: parsley-hawthorn
-    name: Parsley Hawthorn
-  - slug: pasture-rose
-    name: Pasture Rose
-  - slug: pear-hawthorn
-    name: Pear Hawthorn
-  - slug: pear-tree
-    name: Pear Tree
-  - slug: pineapple-pear
-    name: Pineapple Pear
-  - slug: prairie-crabapple
-    name: Prairie Crabapple
-  - slug: purple-chokeberry
-    name: Purple Chokeberry
-  - slug: raspberry
-    name: Raspberry
-  - slug: red-chokeberry
-    name: Red Chokeberry
-  - slug: red-apple-tree
-    name: Red Apple Tree
-  - slug: rock-cotoneaster
-    name: Rock Cotoneaster
-  - slug: roundleaf-serviceberry
-    name: Roundleaf Serviceberry
-  - slug: running-serviceberry
-    name: Running Serviceberry
-  - slug: sand-blackberry
-    name: Sand Blackberry
-  - slug: sand-cherry
-    name: Sand Cherry
-  - slug: saskatoon-berry
-    name: Saskatoon Berry
-  - slug: serviceberry
-    name: Serviceberry
-  - slug: silverleaf-cotoneaster
-    name: Silverleaf Cotoneaster
-  - slug: smooth-serviceberry
-    name: Smooth Serviceberry
-  - slug: southern-crabapple
-    name: Southern Crabapple
-  - slug: southern-dewberry
-    name: Southern Dewberry
-  - slug: southern-hawthorn
-    name: Southern Hawthorn
-  - slug: strawberry
-    name: Strawberry
-  - slug: swamp-rose
-    name: Swamp Rose
-  - slug: sweet-crabapple
-    name: Sweet Crabapple
-  - slug: virginia-rose
-    name: Virginia Rose
-  - slug: wild-crabapple
-    name: Wild Crabapple
-  - slug: wild-plum
-    name: Wild Plum
+name: Fire Blight
+slug: fire-blight
+picture: fire_blight.webp
+scientific_name: Erwinia amylovora
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  fire blight may already be active. This problem often starts small, then spreads
+  across healthy tissue before most growers realize how serious it is. Warmth, moisture,
+  and crowded foliage usually speed it up. Treat early, because waiting even a few
+  days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- wilting
+- die-back
+- leaf-spots
+- brown-edges
+- fruit-damage
+control_methods:
+  biological_controls: Bacillus subtilis (Serenade) and B. amyloliquefaciens colonize
+    flower surfaces and suppress Erwinia amylovora during the critical bloom infection
+    window — apply at every bloom spray timing. Pseudomonas fluorescens (BlightBan)
+    competes directly with fire blight bacteria at blossom surfaces and is one of
+    the most effective biological controls for any bacterial plant disease. These
+    must be applied preventively before infection — once fire blight is in the tree
+    no biological or chemical treatment stops it. Diverse soil biology and mycorrhizal
+    fungi support tree health and immune response to fire blight infection.
+  preventive_methods: Fire blight spreads through open blossoms during warm wet weather
+    above 60F (15C) — the bacteria enter through flowers and are then spread by bees,
+    rain, and insects. Once inside the tree it moves through vascular tissue and cannot
+    be stopped. The entire strategy must focus on bloom protection. Copper spray at
+    half-inch green through pink bud reduces bacteria on bark surfaces. Forecasting
+    models (Maryblyt, Cougarblight) predict high-risk infection periods using temperature
+    and wetness data — more accurate than calendar timing.
+  cultural_practices: Prune infected shoots 8-12 inches below the lowest visible symptom
+    during dry weather — the bacteria extend further into wood than symptoms show.
+    Sterilize pruning tools between every cut with 70% isopropyl alcohol or 10% bleach
+    — fire blight spreads on contaminated tools as fast as on bees. Remove all infected
+    material from the orchard immediately and destroy. Avoid excess nitrogen fertilization
+    which produces the succulent shoot growth most susceptible to fire blight infection.
+    Plant resistant varieties — modern apple and pear breeding has produced many excellent
+    fire blight resistant cultivars.
+  mechanical_physical: Pruning infected tissue is the only mechanical control — cut
+    8-12 inches below visible symptoms and sterilize tools between every cut without
+    exception. Remove all prunings from the orchard and bus — the wilted shepherd's
+    crook shape of blighted shoots is unmistakable. Early removal of new infections
+    prevents spread to larger scaffold branches and the main trunk where fire blight
+    becomes fatal.
+  organic_sprays: Copper applied at half-inch green through pink bud reduces overwintering
+    inoculum on bark. Bloom-time applications of Bacillus subtilis, B. amyloliquefaciens,
+    or kaolin clay at every blossom spray timing are the primary organic bloom protection
+    strategy. Apply every 3-5 days during bloom when temperatures and wetness favor
+    infection. Copper during bloom can reduce fruit russeting — use lower rates and
+    buffer with lime if needed. No spray cures fire blight already inside the tree.
+natural_enemies:
+- Beneficial Microbes
+- Antagonistic Bacteria
+affected_plants:
+- slug: agrimony
+  name: Agrimony
+- slug: allegheny-serviceberry
+  name: Allegheny Serviceberry
+- slug: almond-tree
+  name: Almond Tree
+- slug: american-beauty-plum
+  name: American Beauty Plum
+- slug: american-hawthorn
+  name: American Hawthorn
+- slug: american-plum
+  name: American Plum
+- slug: apple
+  name: Apple
+- slug: aronia
+  name: Aronia
+- slug: beach-strawberry
+  name: Beach Strawberry
+- slug: bearberry-cotoneaster
+  name: Bearberry Cotoneaster
+- slug: black-chokeberry
+  name: Black Chokeberry
+- slug: buffalo-plum
+  name: Buffalo Plum
+- slug: carolina-rose
+  name: Carolina Rose
+- slug: chickasaw-blackberry
+  name: Chickasaw Blackberry
+- slug: chickasaw-plum
+  name: Chickasaw Plum
+- slug: chokeberry
+  name: Chokeberry
+- slug: climbing-prairie-rose
+  name: Climbing Prairie Rose
+- slug: cloudberry
+  name: Cloudberry
+- slug: cockspur-hawthorn
+  name: Cockspur Hawthorn
+- slug: creeping-raspberry
+  name: Creeping Raspberry
+- slug: dewberry
+  name: Dewberry
+- slug: dotted-hawthorn
+  name: Dotted Hawthorn
+- slug: downy-serviceberry
+  name: Downy Serviceberry
+- slug: flatwoods-plum
+  name: Flatwoods Plum
+- slug: frosted-hawthorn
+  name: Frosted Hawthorn
+- slug: green-hawthorn
+  name: Green Hawthorn
+- slug: green-apple-tree
+  name: Green Apple Tree
+- slug: hedge-cotoneaster
+  name: Hedge Cotoneaster
+- slug: hortulan-plum
+  name: Hortulan Plum
+- slug: loquat
+  name: Loquat
+- slug: many-flowered-cotoneaster
+  name: Many Flowered Cotoneaster
+- slug: mayhaw
+  name: Mayhaw
+- slug: meadowsweet
+  name: Meadowsweet
+- slug: munson-plum
+  name: Munson Plum
+- slug: nectarine-tree
+  name: Nectarine Tree
+- slug: parsley-hawthorn
+  name: Parsley Hawthorn
+- slug: pasture-rose
+  name: Pasture Rose
+- slug: pear-hawthorn
+  name: Pear Hawthorn
+- slug: pear-tree
+  name: Pear Tree
+- slug: pineapple-pear
+  name: Pineapple Pear
+- slug: prairie-crabapple
+  name: Prairie Crabapple
+- slug: purple-chokeberry
+  name: Purple Chokeberry
+- slug: raspberry
+  name: Raspberry
+- slug: red-chokeberry
+  name: Red Chokeberry
+- slug: red-apple-tree
+  name: Red Apple Tree
+- slug: rock-cotoneaster
+  name: Rock Cotoneaster
+- slug: roundleaf-serviceberry
+  name: Roundleaf Serviceberry
+- slug: running-serviceberry
+  name: Running Serviceberry
+- slug: sand-blackberry
+  name: Sand Blackberry
+- slug: sand-cherry
+  name: Sand Cherry
+- slug: saskatoon-berry
+  name: Saskatoon Berry
+- slug: serviceberry
+  name: Serviceberry
+- slug: silverleaf-cotoneaster
+  name: Silverleaf Cotoneaster
+- slug: smooth-serviceberry
+  name: Smooth Serviceberry
+- slug: southern-crabapple
+  name: Southern Crabapple
+- slug: southern-dewberry
+  name: Southern Dewberry
+- slug: southern-hawthorn
+  name: Southern Hawthorn
+- slug: strawberry
+  name: Strawberry
+- slug: swamp-rose
+  name: Swamp Rose
+- slug: sweet-crabapple
+  name: Sweet Crabapple
+- slug: virginia-rose
+  name: Virginia Rose
+- slug: wild-crabapple
+  name: Wild Crabapple
+- slug: wild-plum
+  name: Wild Plum
+category: disease

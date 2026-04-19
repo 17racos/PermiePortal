@@ -1,75 +1,72 @@
----
-- name: Sweet Potato Weevil
-  slug: sweet-potato-weevil
-  picture: sweet_potato_weevil.webp
-  scientific_name: Cylas formicarius
-  description: >-
-    If plants are wilting, notching at the edges, or fruit and roots show hidden feeding damage,
-    sweet potato weevil may be the cause. Adults chew above ground while larvae often feed out
-    of sight inside soil, stems, or fruit. Damage builds quietly, then plants crash fast when
-    roots are heavily hit. Act early so a small weevil problem does not become a season-long
-    infestation.
-  characteristics: >-
-    Look for small beetles with a hard body and a distinct snout, usually active at dawn, dusk,
-    or night. Check for crescent-shaped leaf notches, punctures in fruit, or tiny entry holes
-    near stems. In soil or damaged tissue, larvae are often pale, legless, and curved in a
-    C-shape. Fresh chew marks plus snout beetles or C-shaped grubs confirm active weevil
-    pressure.
-  symptoms:
-  - chewed-stems
-  - stem-damage
-  - fruit-damage
-  - holes-in-leaves
-  - root-damage
-  control_methods:
-    biological_controls: >-
-      Ants prey on larvae and pupae near the soil surface when sweet potatoes crack open;
-      predation is patchy. Entomopathogenic fungi infect weevils in moist soil but also attack
-      roots if you overwater. Nematodes target pupae in soil when products and soil temperature
-      align -- they are not a sprinkle-on-salt shaker for every field. Keep waterlogging separate
-      from helpful moisture; rot is not biocontrol.
-    preventive_methods: >-
-      Eliminate wild morning glories and volunteer sweet potatoes near beds -- they bridge
-      generations year-round. Inspect slips from certified sources; reject any with stem holes.
-      Do not compost infested roots in warm climates unless piles reach high heat. Pheromone
-      traps show when males fly; use counts to time harvest and sanitation, not hope.
-    cultural_practices: >-
-      Plant certified slips; rogue off-types often carry hidden injury. Deep-bury culls after
-      harvest so larvae cannot emerge next season. Rotate fields away from Solanaceae and
-      Ipomoea weeds for a full year when possible. Hill soil to cover exposed cracks where
-      adults lay eggs at the soil line. Harvest on time and cure quickly; cracked skins invite
-      new infestation in storage.
-    mechanical_physical: >-
-      Pheromone traps capture males in small plots when combined with removal of wild hosts --
-      deploy traps as networks, not single buckets. Tillage that buries crop residue deeply can
-      reduce pupae survival if timing matches local extension advice. Hand removal of volunteer
-      vines along fence rows cuts immigration paths.
-    organic_sprays: >-
-      Steinernema carpocapsae nematodes applied to soil target pupae near harvest where labels
-      permit -- soil must stay moist long enough for infection. Neem soil drenches show partial
-      suppression in trials; combine with sanitation. Foliar sprays on adults work only during
-      flight and require repeat after rain. No organic spray fixes roots already tunneled full of
-      larvae; focus on clean slips and harvest timing.
-  natural_enemies:
-  - Predatory ants
-  - Entomopathogenic nematodes
-  - Entomopathogenic fungi
-  affected_plants:
-  - slug: beach-morning-glory
-    name: Beach Morning Glory
-  - slug: carolina-ponysfoot
-    name: Carolina Ponysfoot
-  - slug: desert-yam
-    name: Desert Yam
-  - slug: dichondra
-    name: Dichondra
-  - slug: kangkong
-    name: Kangkong
-  - slug: railroad-vine
-    name: Railroad Vine
-  - slug: sweet-potato
-    name: Sweet Potato
-  - slug: water-spinach
-    name: Water Spinach
-  - slug: wild-sweet-potato
-    name: Wild Sweet Potato
+name: Sweet Potato Weevil
+slug: sweet-potato-weevil
+picture: sweet_potato_weevil.webp
+scientific_name: Cylas formicarius
+description: If plants are wilting, notching at the edges, or fruit and roots show
+  hidden feeding damage, sweet potato weevil may be the cause. Adults chew above ground
+  while larvae often feed out of sight inside soil, stems, or fruit. Damage builds
+  quietly, then plants crash fast when roots are heavily hit. Act early so a small
+  weevil problem does not become a season-long infestation.
+characteristics: Look for small beetles with a hard body and a distinct snout, usually
+  active at dawn, dusk, or night. Check for crescent-shaped leaf notches, punctures
+  in fruit, or tiny entry holes near stems. In soil or damaged tissue, larvae are
+  often pale, legless, and curved in a C-shape. Fresh chew marks plus snout beetles
+  or C-shaped grubs confirm active weevil pressure.
+symptoms:
+- chewed-stems
+- stem-damage
+- fruit-damage
+- holes-in-leaves
+- root-damage
+control_methods:
+  biological_controls: Ants prey on larvae and pupae near the soil surface when sweet
+    potatoes crack open; predation is patchy. Entomopathogenic fungi infect weevils
+    in moist soil but also attack roots if you overwater. Nematodes target pupae in
+    soil when products and soil temperature align -- they are not a sprinkle-on-salt
+    shaker for every field. Keep waterlogging separate from helpful moisture; rot
+    is not biocontrol.
+  preventive_methods: Eliminate wild morning glories and volunteer sweet potatoes
+    near beds -- they bridge generations year-round. Inspect slips from certified
+    sources; reject any with stem holes. Do not compost infested roots in warm climates
+    unless piles reach high heat. Pheromone traps show when males fly; use counts
+    to time harvest and sanitation, not hope.
+  cultural_practices: Plant certified slips; rogue off-types often carry hidden injury.
+    Deep-bury culls after harvest so larvae cannot emerge next season. Rotate fields
+    away from Solanaceae and Ipomoea weeds for a full year when possible. Hill soil
+    to cover exposed cracks where adults lay eggs at the soil line. Harvest on time
+    and cure quickly; cracked skins invite new infestation in storage.
+  mechanical_physical: Pheromone traps capture males in small plots when combined
+    with removal of wild hosts -- deploy traps as networks, not single buckets. Tillage
+    that buries crop residue deeply can reduce pupae survival if timing matches local
+    extension advice. Hand removal of volunteer vines along fence rows cuts immigration
+    paths.
+  organic_sprays: Steinernema carpocapsae nematodes applied to soil target pupae near
+    harvest where labels permit -- soil must stay moist long enough for infection.
+    Neem soil drenches show partial suppression in trials; combine with sanitation.
+    Foliar sprays on adults work only during flight and require repeat after rain.
+    No organic spray fixes roots already tunneled full of larvae; focus on clean slips
+    and harvest timing.
+natural_enemies:
+- Predatory ants
+- Entomopathogenic nematodes
+- Entomopathogenic fungi
+affected_plants:
+- slug: beach-morning-glory
+  name: Beach Morning Glory
+- slug: carolina-ponysfoot
+  name: Carolina Ponysfoot
+- slug: desert-yam
+  name: Desert Yam
+- slug: dichondra
+  name: Dichondra
+- slug: kangkong
+  name: Kangkong
+- slug: railroad-vine
+  name: Railroad Vine
+- slug: sweet-potato
+  name: Sweet Potato
+- slug: water-spinach
+  name: Water Spinach
+- slug: wild-sweet-potato
+  name: Wild Sweet Potato
+category: pest

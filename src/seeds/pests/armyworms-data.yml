@@ -1,136 +1,127 @@
----
-- name: Armyworms
-  slug: armyworms
-  picture: armyworms.webp
-  scientific_name: Spodoptera spp.
-  description: >-
-    If leaves look shredded overnight or fruit has fresh chew holes, armyworms may be feeding
-    right now. These larvae can eat fast and strip a healthy plant in a short window. Young
-    stages are easy to miss, then damage suddenly explodes as they grow. Catch them early to
-    avoid severe defoliation and contaminated harvests.
-  characteristics: >-
-    Check leaf undersides, growing tips, and stem junctions for eggs, frass pellets, and feeding
-    scars. Larvae vary in color, but most have a soft segmented body and blend into foliage.
-    Look at dusk or early morning when many species feed more actively. Fresh chewing plus live
-    larvae or droppings on lower leaves confirms an active caterpillar outbreak.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - skeletonized-leaves
-  control_methods:
-    biological_controls: >-
-      Trichogramma egg parasitoids attack armyworm eggs before they hatch —
-      release weekly during peak moth flight. Bacillus thuringiensis kurstaki
-      (Bt) and nuclear polyhedrosis virus (NPV) build up naturally in large
-      outbreaks — collapsing blackened larvae are NPV-infected and beneficial
-      to leave in place. Braconid and tachinid flies parasitize larvae. Support
-      all of these with dill, fennel, and sweet alyssum nearby. Ground beetles
-      are important predators of pupae in soil — permanent mulch paths support
-      them year-round. Bats consume large numbers of armyworm moths at night —
-      bat boxes near fields provide real population suppression.
-    preventive_methods: >-
-      Armyworm moths are migratory — populations surge when conditions favor
-      mass breeding in source areas. Pheromone traps monitor adult flight so
-      you know when egg-laying is occurring and when to scout immediately. Eggs
-      are laid in masses on leaf surfaces and hatch within days. Young larvae
-      feed together in groups before dispersing — clustered damage on one plant
-      means many larvae are still localized and easier to manage. Once dispersed
-      they are much harder to control.
-    cultural_practices: >-
-      Early plantings escape the worst late-season pressure from second and
-      third generation moths. Destroy crop stubble immediately after harvest
-      to eliminate pupation sites. Intercrop with diverse flowering plants to
-      support parasitoid populations. Armyworms are generalists — scout the
-      whole garden when moths are flying, not just one crop. Encourage
-      insectivorous birds with habitat — they take large numbers of larvae
-      from soil and foliage during outbreak periods.
-    mechanical_physical: >-
-      Crush egg masses on every scouting pass — masses look like fuzzy gray-green
-      patches of scales covering clustered eggs. Young larvae feeding in groups
-      can be removed by cutting and destroying the infested plant part before
-      they disperse. For corn, apply mineral oil to silks to prevent ear entry.
-      Netting over small garden plots excludes egg-laying moths entirely.
-    organic_sprays: >-
-      Bt kurstaki applied to whorls, leaf axils, and feeding surfaces every
-      5-7 days during peak larval season — must contact small larvae directly,
-      ineffective on larvae over 1 inch. Spinosad provides stronger activity
-      on larger larvae — apply at dusk to minimize bee impact. Neem oil deters
-      egg-laying and has some larval toxicity when applied to feeding surfaces.
-      Apply all sprays in late afternoon or evening when larvae are active.
-  natural_enemies:
-  - Parasitic Wasps
-  - Predatory Beetles
-  - Birds
-  - Lacewings
-  affected_plants:
-  - slug: bamboo
-    name: Bamboo
-  - slug: big-bluestem
-    name: Big Bluestem
-  - slug: blue-grama
-    name: Blue Grama
-  - slug: broomsedge-bluestem
-    name: Broomsedge Bluestem
-  - slug: buffalo-grass
-    name: Buffalo Grass
-  - slug: eastern-gamagrass
-    name: Eastern Gamagrass
-  - slug: elephant-grass
-    name: Elephant Grass
-  - slug: elliotts-bluestem
-    name: Elliott's Bluestem
-  - slug: fever-grass
-    name: Fever Grass
-  - slug: florida-gamagrass
-    name: Florida Gamagrass
-  - slug: gulf-muhly
-    name: Gulf Muhly
-  - slug: hairawn-muhly
-    name: Hairawn Muhly
-  - slug: hairy-grama
-    name: Hairy Grama
-  - slug: indiangrass
-    name: Indiangrass
-  - slug: lemongrass
-    name: Lemongrass
-  - slug: little-bluestem
-    name: Little Bluestem
-  - slug: longawn-muhly
-    name: Longawn Muhly
-  - slug: millet
-    name: Millet
-  - slug: muhly-grass
-    name: Muhly Grass
-  - slug: prairie-cordgrass
-    name: Prairie Cordgrass
-  - slug: purple-lovegrass
-    name: Purple Lovegrass
-  - slug: rice
-    name: Rice
-  - slug: saltgrass
-    name: Saltgrass
-  - slug: saltmeadow-cordgrass
-    name: Saltmeadow Cordgrass
-  - slug: sand-bluestem
-    name: Sand Bluestem
-  - slug: sand-cordgrass
-    name: Sand Cordgrass
-  - slug: sand-grama
-    name: Sand Grama
-  - slug: sand-lovegrass
-    name: Sand Lovegrass
-  - slug: sideoats-grama
-    name: Sideoats Grama
-  - slug: split-beard-bluestem
-    name: Split Beard Bluestem
-  - slug: sweetgrass
-    name: Sweetgrass
-  - slug: switchgrass
-    name: Switchgrass
-  - slug: vetiver-grass
-    name: Vetiver Grass
-  - slug: weeping-lovegrass
-    name: Weeping Lovegrass
-  - slug: wiregrass
-    name: Wiregrass
+name: Armyworms
+slug: armyworms
+picture: armyworms.webp
+scientific_name: Spodoptera spp.
+description: If leaves look shredded overnight or fruit has fresh chew holes, armyworms
+  may be feeding right now. These larvae can eat fast and strip a healthy plant in
+  a short window. Young stages are easy to miss, then damage suddenly explodes as
+  they grow. Catch them early to avoid severe defoliation and contaminated harvests.
+characteristics: Check leaf undersides, growing tips, and stem junctions for eggs,
+  frass pellets, and feeding scars. Larvae vary in color, but most have a soft segmented
+  body and blend into foliage. Look at dusk or early morning when many species feed
+  more actively. Fresh chewing plus live larvae or droppings on lower leaves confirms
+  an active caterpillar outbreak.
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- skeletonized-leaves
+control_methods:
+  biological_controls: Trichogramma egg parasitoids attack armyworm eggs before they
+    hatch — release weekly during peak moth flight. Bacillus thuringiensis kurstaki
+    (Bt) and nuclear polyhedrosis virus (NPV) build up naturally in large outbreaks
+    — collapsing blackened larvae are NPV-infected and beneficial to leave in place.
+    Braconid and tachinid flies parasitize larvae. Support all of these with dill,
+    fennel, and sweet alyssum nearby. Ground beetles are important predators of pupae
+    in soil — permanent mulch paths support them year-round. Bats consume large numbers
+    of armyworm moths at night — bat boxes near fields provide real population suppression.
+  preventive_methods: Armyworm moths are migratory — populations surge when conditions
+    favor mass breeding in source areas. Pheromone traps monitor adult flight so you
+    know when egg-laying is occurring and when to scout immediately. Eggs are laid
+    in masses on leaf surfaces and hatch within days. Young larvae feed together in
+    groups before dispersing — clustered damage on one plant means many larvae are
+    still localized and easier to manage. Once dispersed they are much harder to control.
+  cultural_practices: Early plantings escape the worst late-season pressure from second
+    and third generation moths. Destroy crop stubble immediately after harvest to
+    eliminate pupation sites. Intercrop with diverse flowering plants to support parasitoid
+    populations. Armyworms are generalists — scout the whole garden when moths are
+    flying, not just one crop. Encourage insectivorous birds with habitat — they take
+    large numbers of larvae from soil and foliage during outbreak periods.
+  mechanical_physical: Crush egg masses on every scouting pass — masses look like
+    fuzzy gray-green patches of scales covering clustered eggs. Young larvae feeding
+    in groups can be removed by cutting and destroying the infested plant part before
+    they disperse. For corn, apply mineral oil to silks to prevent ear entry. Netting
+    over small garden plots excludes egg-laying moths entirely.
+  organic_sprays: Bt kurstaki applied to whorls, leaf axils, and feeding surfaces
+    every 5-7 days during peak larval season — must contact small larvae directly,
+    ineffective on larvae over 1 inch. Spinosad provides stronger activity on larger
+    larvae — apply at dusk to minimize bee impact. Neem oil deters egg-laying and
+    has some larval toxicity when applied to feeding surfaces. Apply all sprays in
+    late afternoon or evening when larvae are active.
+natural_enemies:
+- Parasitic Wasps
+- Predatory Beetles
+- Birds
+- Lacewings
+affected_plants:
+- slug: bamboo
+  name: Bamboo
+- slug: big-bluestem
+  name: Big Bluestem
+- slug: blue-grama
+  name: Blue Grama
+- slug: broomsedge-bluestem
+  name: Broomsedge Bluestem
+- slug: buffalo-grass
+  name: Buffalo Grass
+- slug: eastern-gamagrass
+  name: Eastern Gamagrass
+- slug: elephant-grass
+  name: Elephant Grass
+- slug: elliotts-bluestem
+  name: Elliott's Bluestem
+- slug: fever-grass
+  name: Fever Grass
+- slug: florida-gamagrass
+  name: Florida Gamagrass
+- slug: gulf-muhly
+  name: Gulf Muhly
+- slug: hairawn-muhly
+  name: Hairawn Muhly
+- slug: hairy-grama
+  name: Hairy Grama
+- slug: indiangrass
+  name: Indiangrass
+- slug: lemongrass
+  name: Lemongrass
+- slug: little-bluestem
+  name: Little Bluestem
+- slug: longawn-muhly
+  name: Longawn Muhly
+- slug: millet
+  name: Millet
+- slug: muhly-grass
+  name: Muhly Grass
+- slug: prairie-cordgrass
+  name: Prairie Cordgrass
+- slug: purple-lovegrass
+  name: Purple Lovegrass
+- slug: rice
+  name: Rice
+- slug: saltgrass
+  name: Saltgrass
+- slug: saltmeadow-cordgrass
+  name: Saltmeadow Cordgrass
+- slug: sand-bluestem
+  name: Sand Bluestem
+- slug: sand-cordgrass
+  name: Sand Cordgrass
+- slug: sand-grama
+  name: Sand Grama
+- slug: sand-lovegrass
+  name: Sand Lovegrass
+- slug: sideoats-grama
+  name: Sideoats Grama
+- slug: split-beard-bluestem
+  name: Split Beard Bluestem
+- slug: sweetgrass
+  name: Sweetgrass
+- slug: switchgrass
+  name: Switchgrass
+- slug: vetiver-grass
+  name: Vetiver Grass
+- slug: weeping-lovegrass
+  name: Weeping Lovegrass
+- slug: wiregrass
+  name: Wiregrass
+category: pest

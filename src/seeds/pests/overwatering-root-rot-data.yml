@@ -1,48 +1,48 @@
-- name: "Overwatering root rot"
-  slug: "overwatering-root-rot"
-  picture: "overwatering_root_rot.webp"
-  scientific_name: "Pythium, Phytophthora, Rhizoctonia (complex)"
-  description: >-
-    Overwatering root rot is a syndrome where roots sit anaerobic long enough for opportunistic oomycetes and fungi to
-    colonize fine roots, causing wilting despite wet soil, browning at the crown, and sudden collapse of seedlings. It is
-    extremely common in containers without drainage, in heavy clay with poor grading, and in automated irrigation that
-    never dries between cycles. Fixing water first beats chasing pathogens that return the moment media stays soggy again.
-  characteristics: >-
-    Pull plants and smell roots -- some rots are sour or musty compared with healthy earthy odor. Slide outer cortical
-    tissue on suspect stems to see browning streaks in vascular tissue on susceptible hosts. Check emitters for stuck-open
-    valves and for mulch volcanoes burying stems. Lab plating confirms genus when regulatory or high-value crops require it.
-  symptoms:
-  - wilting
-  - root-damage
-  - crown-damage
-  - die-back
-  control_methods:
-    biological_controls: >-
-      Trichoderma and Bacillus subtilis root drenches colonize rhizosphere niches and can suppress Pythium and Rhizoctonia
-      when applied preventively to clean media. Mycorrhizae improve root architecture after recovery. These organisms lose
-      if irrigation keeps roots hypoxic daily -- biology needs gas exchange.
-    preventive_methods: >-
-      Size pots to the plant and use mixes with perlite, bark, or coir structures that drain. Install French drains or
-      surface swales in sunken beds that pond after rain. Calibrate soil moisture sensors in greenhouses instead of guessing
-      by eye. Never let trays sit in standing water all day.
-    cultural_practices: >-
-      Pull mulch back from stems and expose the flare. Raise beds 6 to 8 inches in high water tables where extension
-      recommends. Water in the morning so surfaces dry by evening on susceptible species. Rotate away from known hot spots
-      for soilborne Phytophthora when host-specific strains are documented.
-    mechanical_physical: >-
-      Regrade low spots that puddle within hours after irrigation. Drill extra drainage holes in decorative outer pots.
-      Repot houseplants into fresh mix after trimming black roots with sterile scissors. Discard hopeless liners early so
-      damping off does not spread bench to bench.
-    organic_sprays: >-
-      Copper is rarely the first tool for Pythium in containers -- focus on drainage and labeled biological fungicides
-      where available. Phosphorous acid (phosphite) drenches help some oomycete issues on labeled crops -- confirm legality
-      and crop listings. Hydrogen peroxide drenches circulate online with inconsistent outcomes and can harm biology;
-      prefer proven cultural fixes first.
-  natural_enemies:
-  - Trichoderma
-  - Bacillus subtilis
-  - Competitive Microbes
-  affected_plants: []
-  # Image attribution: Jeremyida002 / Wikimedia Commons / CC BY-SA 4.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+name: Overwatering root rot
+slug: overwatering-root-rot
+picture: overwatering_root_rot.webp
+scientific_name: Pythium, Phytophthora, Rhizoctonia (complex)
+description: Overwatering root rot is a syndrome where roots sit anaerobic long enough
+  for opportunistic oomycetes and fungi to colonize fine roots, causing wilting despite
+  wet soil, browning at the crown, and sudden collapse of seedlings. It is extremely
+  common in containers without drainage, in heavy clay with poor grading, and in automated
+  irrigation that never dries between cycles. Fixing water first beats chasing pathogens
+  that return the moment media stays soggy again.
+characteristics: Pull plants and smell roots -- some rots are sour or musty compared
+  with healthy earthy odor. Slide outer cortical tissue on suspect stems to see browning
+  streaks in vascular tissue on susceptible hosts. Check emitters for stuck-open valves
+  and for mulch volcanoes burying stems. Lab plating confirms genus when regulatory
+  or high-value crops require it.
+symptoms:
+- wilting
+- root-damage
+- crown-damage
+- die-back
+control_methods:
+  biological_controls: Trichoderma and Bacillus subtilis root drenches colonize rhizosphere
+    niches and can suppress Pythium and Rhizoctonia when applied preventively to clean
+    media. Mycorrhizae improve root architecture after recovery. These organisms lose
+    if irrigation keeps roots hypoxic daily -- biology needs gas exchange.
+  preventive_methods: Size pots to the plant and use mixes with perlite, bark, or
+    coir structures that drain. Install French drains or surface swales in sunken
+    beds that pond after rain. Calibrate soil moisture sensors in greenhouses instead
+    of guessing by eye. Never let trays sit in standing water all day.
+  cultural_practices: Pull mulch back from stems and expose the flare. Raise beds
+    6 to 8 inches in high water tables where extension recommends. Water in the morning
+    so surfaces dry by evening on susceptible species. Rotate away from known hot
+    spots for soilborne Phytophthora when host-specific strains are documented.
+  mechanical_physical: Regrade low spots that puddle within hours after irrigation.
+    Drill extra drainage holes in decorative outer pots. Repot houseplants into fresh
+    mix after trimming black roots with sterile scissors. Discard hopeless liners
+    early so damping off does not spread bench to bench.
+  organic_sprays: Copper is rarely the first tool for Pythium in containers -- focus
+    on drainage and labeled biological fungicides where available. Phosphorous acid
+    (phosphite) drenches help some oomycete issues on labeled crops -- confirm legality
+    and crop listings. Hydrogen peroxide drenches circulate online with inconsistent
+    outcomes and can harm biology; prefer proven cultural fixes first.
+natural_enemies:
+- Trichoderma
+- Bacillus subtilis
+- Competitive Microbes
+affected_plants: []
+category: disease

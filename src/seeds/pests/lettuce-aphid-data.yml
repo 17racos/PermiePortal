@@ -1,64 +1,57 @@
----
-- name: Lettuce Aphid
-  slug: lettuce-aphid
-  picture: lettuce_aphid.webp
-  scientific_name: Nasonovia ribisnigri
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, lettuce aphid may already be on the
-    plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - sticky-residue
-  - curling-leaves
-  - yellowing-leaves
-  - distorted-growth
-  control_methods:
-    biological_controls: >-
-      Aphidius spp. and Aphelinus spp. parasitoid wasps mummify lettuce aphids
-      from inside -- look for swollen bronze-colored aphid mummies among colonies
-      as evidence these wasps are working. Syrphid fly larvae and minute pirate bugs
-      also attack. Avoid stripping outer leaves too aggressively which removes the
-      predators along with the aphids. In greenhouses, banker plant systems with
-      barley and cereal aphids support Aphidius populations that move to lettuce
-      aphid. Plant dill and fennel near outdoor lettuce beds to sustain parasitoid
-      wasp populations.
-    preventive_methods: >-
-      Lettuce aphid is particularly troublesome because it hides deep inside forming
-      heads where sprays cannot reach and where it is discovered only at harvest.
-      Light green and soft-leaved varieties are most susceptible. Resistant cultivars
-      exist -- check seed catalogs for lettuce aphid resistance ratings. Scout the
-      base of outer leaves and inside forming heads weekly. Winged forms arrive from
-      spring through fall -- reflective silver mulch under lettuce plantings
-      disorients landing aphids significantly.
-    cultural_practices: >-
-      Choose resistant varieties wherever possible -- this eliminates the problem
-      more reliably than any spray. Increase airflow between rows -- dense humid
-      plantings favor aphid populations. Remove bolting lettuce and cull plants
-      immediately as these host large aphid populations that move to new plantings.
-      Harvest heads promptly at maturity -- overmature lettuce accumulates aphids.
-      Avoid excess nitrogen which produces the soft growth lettuce aphids prefer.
-    mechanical_physical: >-
-      A strong water spray with particular attention to inner leaves dislodges
-      colonies on loose-leaf types -- less effective on tight heading varieties
-      where aphids shelter deep inside. Clip and remove outer leaves with heavy
-      infestations. Reflective silver mulch under plants is one of the most effective
-      and low-maintenance physical deterrents for winged aphids.
-    organic_sprays: >-
-      Insecticidal soap applied with a pressure sprayer that can reach inner leaves
-      kills aphids on contact -- the challenge is getting coverage inside tight
-      heads. Apply every 2-3 days while migrating winged forms continue arriving.
-      Neem oil and azadirachtin reduce reproduction and deter new colonizers.
-      Apply at dusk or early morning. Check pre-harvest interval on any product
-      used on food crops -- insecticidal soap has a 0-day PHI but confirm
-      on any other product used.
-  natural_enemies:
-  - Aphidius spp. (Braconidae)
-  - Aphelinus spp.
-  - Syrphid Fly Larvae (Syrphidae)
-  - Minute Pirate Bugs (Orius spp.)
+name: Lettuce Aphid
+slug: lettuce-aphid
+picture: lettuce_aphid.webp
+scientific_name: Nasonovia ribisnigri
+description: If new growth is curling, yellowing, sticky, or chewed, lettuce aphid
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- sticky-residue
+- curling-leaves
+- yellowing-leaves
+- distorted-growth
+control_methods:
+  biological_controls: Aphidius spp. and Aphelinus spp. parasitoid wasps mummify lettuce
+    aphids from inside -- look for swollen bronze-colored aphid mummies among colonies
+    as evidence these wasps are working. Syrphid fly larvae and minute pirate bugs
+    also attack. Avoid stripping outer leaves too aggressively which removes the predators
+    along with the aphids. In greenhouses, banker plant systems with barley and cereal
+    aphids support Aphidius populations that move to lettuce aphid. Plant dill and
+    fennel near outdoor lettuce beds to sustain parasitoid wasp populations.
+  preventive_methods: Lettuce aphid is particularly troublesome because it hides deep
+    inside forming heads where sprays cannot reach and where it is discovered only
+    at harvest. Light green and soft-leaved varieties are most susceptible. Resistant
+    cultivars exist -- check seed catalogs for lettuce aphid resistance ratings. Scout
+    the base of outer leaves and inside forming heads weekly. Winged forms arrive
+    from spring through fall -- reflective silver mulch under lettuce plantings disorients
+    landing aphids significantly.
+  cultural_practices: Choose resistant varieties wherever possible -- this eliminates
+    the problem more reliably than any spray. Increase airflow between rows -- dense
+    humid plantings favor aphid populations. Remove bolting lettuce and cull plants
+    immediately as these host large aphid populations that move to new plantings.
+    Harvest heads promptly at maturity -- overmature lettuce accumulates aphids. Avoid
+    excess nitrogen which produces the soft growth lettuce aphids prefer.
+  mechanical_physical: A strong water spray with particular attention to inner leaves
+    dislodges colonies on loose-leaf types -- less effective on tight heading varieties
+    where aphids shelter deep inside. Clip and remove outer leaves with heavy infestations.
+    Reflective silver mulch under plants is one of the most effective and low-maintenance
+    physical deterrents for winged aphids.
+  organic_sprays: Insecticidal soap applied with a pressure sprayer that can reach
+    inner leaves kills aphids on contact -- the challenge is getting coverage inside
+    tight heads. Apply every 2-3 days while migrating winged forms continue arriving.
+    Neem oil and azadirachtin reduce reproduction and deter new colonizers. Apply
+    at dusk or early morning. Check pre-harvest interval on any product used on food
+    crops -- insecticidal soap has a 0-day PHI but confirm on any other product used.
+natural_enemies:
+- Aphidius spp. (Braconidae)
+- Aphelinus spp.
+- Syrphid Fly Larvae (Syrphidae)
+- Minute Pirate Bugs (Orius spp.)
+category: pest

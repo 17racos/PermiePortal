@@ -1,62 +1,59 @@
----
-- name: Fungus Gnat
-  slug: fungus-gnat
-  picture: fungus_gnat.webp
-  scientific_name: Bradysia impatiens
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, fungus gnat may
-    already be active. This problem often starts small, then spreads across healthy tissue
-    before most growers realize how serious it is. Warmth, moisture, and crowded foliage usually
-    speed it up. Treat early, because waiting even a few days can turn a manageable infection
-    into major crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - wilting
-  - root-damage
-  - yellowing-leaves
-  - dropping-leaves
-  control_methods:
-    biological_controls: >-
-      Steinernema feltiae nematodes swim in moist media and infect fungus gnat larvae when soil
-      temperature fits the label -- apply right after irrigation. Stratiolaelaps miles mites
-      hunt larvae in the top layer of wet trays. Dalotia coriaria rove beetles cruise the bench
-      eating larvae and pupae. These products fail if you pressure-wash benches daily or drench
-      with incompatible chemicals -- read compatibility charts.
-    preventive_methods: >-
-      Inspect bought-in plugs before they touch clean stock; isolate suspicious trays. Screen
-      greenhouse intakes so adults do not ride the wind through fans. Store bagged mix dry and
-      sealed; damp bags breed gnats before you open them. When starting seeds, use media from
-      trusted batches; mystery compost is a gnat nursery.
-    cultural_practices: >-
-      Let bench surfaces dry between waterings -- fungus gnats complete in the top quarter inch
-      of constantly wet media. Bottom-water or water from below so trays surface-dry faster.
-      Pasteurize or buy consistent-quality mix; avoid green compost in cell trays until it
-      finishes cooking. Fix leaks and level benches so water does not pool under pots.
-    mechanical_physical: >-
-      Yellow sticky cards at media rim height catch adults for trend lines -- rising counts
-      mean dry the bench or treat larvae. Potato slices on the surface lure larvae for monitoring
-      counts; replace slices daily. Vacuum adults from glass walls before they lay eggs on
-      every tray.
-    organic_sprays: >-
-      Bacillus thuringiensis israelensis soil drench kills larvae where products are labeled for
-      greenhouse use -- read the ornamentals section twice. Neem cake or neem soil drenches
-      suppress larvae in some programs; avoid drowning roots chasing flying adults. Rotate BTI
-      with drying and predators so you do not select soap-tolerant flies while algae persists.
-  affected_plants:
-  - slug: basil
-    name: Basil
-  - slug: strawberry
-    name: Strawberry
-  - slug: iceberg-lettuce
-    name: Iceberg Lettuce
-  - slug: celery
-    name: Celery
-  natural_enemies:
-  - Steinernema feltiae
-  - Stratiolaelaps scimitus
-  - Dalotia coriaria
+name: Fungus Gnat
+slug: fungus-gnat
+picture: fungus_gnat.webp
+scientific_name: Bradysia impatiens
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  fungus gnat may already be active. This problem often starts small, then spreads
+  across healthy tissue before most growers realize how serious it is. Warmth, moisture,
+  and crowded foliage usually speed it up. Treat early, because waiting even a few
+  days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- wilting
+- root-damage
+- yellowing-leaves
+- dropping-leaves
+control_methods:
+  biological_controls: Steinernema feltiae nematodes swim in moist media and infect
+    fungus gnat larvae when soil temperature fits the label -- apply right after irrigation.
+    Stratiolaelaps miles mites hunt larvae in the top layer of wet trays. Dalotia
+    coriaria rove beetles cruise the bench eating larvae and pupae. These products
+    fail if you pressure-wash benches daily or drench with incompatible chemicals
+    -- read compatibility charts.
+  preventive_methods: Inspect bought-in plugs before they touch clean stock; isolate
+    suspicious trays. Screen greenhouse intakes so adults do not ride the wind through
+    fans. Store bagged mix dry and sealed; damp bags breed gnats before you open them.
+    When starting seeds, use media from trusted batches; mystery compost is a gnat
+    nursery.
+  cultural_practices: Let bench surfaces dry between waterings -- fungus gnats complete
+    in the top quarter inch of constantly wet media. Bottom-water or water from below
+    so trays surface-dry faster. Pasteurize or buy consistent-quality mix; avoid green
+    compost in cell trays until it finishes cooking. Fix leaks and level benches so
+    water does not pool under pots.
+  mechanical_physical: Yellow sticky cards at media rim height catch adults for trend
+    lines -- rising counts mean dry the bench or treat larvae. Potato slices on the
+    surface lure larvae for monitoring counts; replace slices daily. Vacuum adults
+    from glass walls before they lay eggs on every tray.
+  organic_sprays: Bacillus thuringiensis israelensis soil drench kills larvae where
+    products are labeled for greenhouse use -- read the ornamentals section twice.
+    Neem cake or neem soil drenches suppress larvae in some programs; avoid drowning
+    roots chasing flying adults. Rotate BTI with drying and predators so you do not
+    select soap-tolerant flies while algae persists.
+affected_plants:
+- slug: basil
+  name: Basil
+- slug: strawberry
+  name: Strawberry
+- slug: iceberg-lettuce
+  name: Iceberg Lettuce
+- slug: celery
+  name: Celery
+natural_enemies:
+- Steinernema feltiae
+- Stratiolaelaps scimitus
+- Dalotia coriaria
+category: pest

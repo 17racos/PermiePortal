@@ -1,114 +1,113 @@
----
-- name: Rhinoceros Beetle
-  slug: rhinoceros-beetle
-  picture: rhinoceros_beetle.webp
-  scientific_name: Oryctes rhinoceros
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, rhinoceros beetle may already be on
-    the plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - holes-in-leaves
-  - skeletonized-leaves
-  - chewed-stems
-  - wilting
-  control_methods:
-    biological_controls: >-
-      Oryctes nudivirus is a beetle-specific pathogen used in classical programs where regulators
-      approve releases -- it is not a homebrew tea. Metarhizium and Beauveria fungi infect adults
-      and grubs when spores stay moist on their bodies long enough to germinate. Scoliid wasps
-      parasitize white grubs in soil; birds pick off adults at lights. Pigs and poultry shred
-      breeding piles in smallholder systems; mongooses and monitors are wild predators, not pets
-      you import. Any biocontrol fails if fresh breeding sites appear weekly.
-    preventive_methods: >-
-      Adults lay eggs in piles of decaying palm trunks, sawdust, and composted fronds -- zero idle
-      palm logs is the rule, not a suggestion. After storms, chip debris before grubs finish a
-      generation inside soggy stumps. Coordinate neighborhood cleanup; your neighbor's unmoved pile
-      is your immigration office. Screen nursery stock and reject palms with crown holes or wet
-      frass. In regions with established populations, pheromone monitoring tells you when flights
-      spike so you focus sanitation that week.
-    cultural_practices: >-
-      Chip palm waste hot and turn piles so they finish instead of simmering halfway -- lukewarm
-      piles are beetle nurseries. Kill standing stumps larvae use as condos; grind below soil line
-      where practical. Avoid stacking landscape timbers near crowns where adults hide by day. Turn
-      compost with poultry if local rules allow; birds find grubs fast. Do not rely on bright
-      yard lights for control -- mass outdoor lighting draws adults from kilometers away to mate
-      near your palms.
-    mechanical_physical: >-
-      Pheromone-baited bucket traps catch males and reduce mating pressure when many traps cover
-      a community -- one trap beside a porch mostly rearranges beetles. Hand-remove adults from
-      short palm crowns at night with gloves and a headlamp; drop beetles into soapy water. For
-      accessible breeding piles, sift turning compost and destroy large white grubs you expose.
-      Combine traps with debris removal; traps alone are a finger in the dam.
-    organic_sprays: >-
-      Metarhizium and Beauveria products labeled for scarabs or palm pests target adults and
-      larvae when you apply to moist breeding media or directly to beetles -- spores die dry.
-      Repeat after rain if labels allow. Neem on trap surfaces is a weak backup that may reduce
-      feeding on bait; it is not crown therapy. Follow label safety for pollinators if you spray
-      near flowering canopy. Organic sprays cannot replace removing half-composted palm trunks.
-  natural_enemies:
-  - Scoliid Wasps
-  - Birds
-  affected_plants:
-  - slug: açaí-palm
-    name: Açaí Palm
-  - slug: aguaje-palm
-    name: Aguaje Palm
-  - slug: bactris-gasipaes
-    name: Bactris Gasipaes
-  - slug: bismarck-palm
-    name: Bismarck Palm
-  - slug: blue-palmetto
-    name: Blue Palmetto
-  - slug: buriti-palm
-    name: Buriti Palm
-  - slug: butia-palm
-    name: Butia Palm
-  - slug: cabbage-palm
-    name: Cabbage Palm
-  - slug: chinese-fan-palm
-    name: Chinese Fan Palm
-  - slug: coconut-palm
-    name: Coconut Palm
-  - slug: coconut-tree
-    name: Coconut Tree
-  - slug: dwarf-palmetto
-    name: Dwarf Palmetto
-  - slug: florida-thatch-palm
-    name: Florida Thatch Palm
-  - slug: jelly-palm
-    name: Jelly Palm
-  - slug: jucara-palm
-    name: Jucara Palm
-  - slug: key-thatch-palm
-    name: Key Thatch Palm
-  - slug: needle-palm
-    name: Needle Palm
-  - slug: nipa-palm
-    name: Nipa Palm
-  - slug: palmetto-palm
-    name: Palmetto Palm
-  - slug: peach-palm
-    name: Peach Palm
-  - slug: pindo-palm
-    name: Pindo Palm
-  - slug: ribbon-palm
-    name: Ribbon Palm
-  - slug: royal-palm
-    name: Royal Palm
-  - slug: sabal-palm
-    name: Sabal Palm
-  - slug: saw-palmetto
-    name: Saw Palmetto
-  - slug: scrub-palmetto
-    name: Scrub Palmetto
-  - slug: tucumã-palm
-    name: Tucumã Palm
-  - slug: windmill-palm
-    name: Windmill Palm
+name: Rhinoceros Beetle
+slug: rhinoceros-beetle
+picture: rhinoceros_beetle.webp
+scientific_name: Oryctes rhinoceros
+description: If new growth is curling, yellowing, sticky, or chewed, rhinoceros beetle
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- holes-in-leaves
+- skeletonized-leaves
+- chewed-stems
+- wilting
+control_methods:
+  biological_controls: Oryctes nudivirus is a beetle-specific pathogen used in classical
+    programs where regulators approve releases -- it is not a homebrew tea. Metarhizium
+    and Beauveria fungi infect adults and grubs when spores stay moist on their bodies
+    long enough to germinate. Scoliid wasps parasitize white grubs in soil; birds
+    pick off adults at lights. Pigs and poultry shred breeding piles in smallholder
+    systems; mongooses and monitors are wild predators, not pets you import. Any biocontrol
+    fails if fresh breeding sites appear weekly.
+  preventive_methods: Adults lay eggs in piles of decaying palm trunks, sawdust, and
+    composted fronds -- zero idle palm logs is the rule, not a suggestion. After storms,
+    chip debris before grubs finish a generation inside soggy stumps. Coordinate neighborhood
+    cleanup; your neighbor's unmoved pile is your immigration office. Screen nursery
+    stock and reject palms with crown holes or wet frass. In regions with established
+    populations, pheromone monitoring tells you when flights spike so you focus sanitation
+    that week.
+  cultural_practices: Chip palm waste hot and turn piles so they finish instead of
+    simmering halfway -- lukewarm piles are beetle nurseries. Kill standing stumps
+    larvae use as condos; grind below soil line where practical. Avoid stacking landscape
+    timbers near crowns where adults hide by day. Turn compost with poultry if local
+    rules allow; birds find grubs fast. Do not rely on bright yard lights for control
+    -- mass outdoor lighting draws adults from kilometers away to mate near your palms.
+  mechanical_physical: Pheromone-baited bucket traps catch males and reduce mating
+    pressure when many traps cover a community -- one trap beside a porch mostly rearranges
+    beetles. Hand-remove adults from short palm crowns at night with gloves and a
+    headlamp; drop beetles into soapy water. For accessible breeding piles, sift turning
+    compost and destroy large white grubs you expose. Combine traps with debris removal;
+    traps alone are a finger in the dam.
+  organic_sprays: Metarhizium and Beauveria products labeled for scarabs or palm pests
+    target adults and larvae when you apply to moist breeding media or directly to
+    beetles -- spores die dry. Repeat after rain if labels allow. Neem on trap surfaces
+    is a weak backup that may reduce feeding on bait; it is not crown therapy. Follow
+    label safety for pollinators if you spray near flowering canopy. Organic sprays
+    cannot replace removing half-composted palm trunks.
+natural_enemies:
+- Scoliid Wasps
+- Birds
+affected_plants:
+- slug: açaí-palm
+  name: Açaí Palm
+- slug: aguaje-palm
+  name: Aguaje Palm
+- slug: bactris-gasipaes
+  name: Bactris Gasipaes
+- slug: bismarck-palm
+  name: Bismarck Palm
+- slug: blue-palmetto
+  name: Blue Palmetto
+- slug: buriti-palm
+  name: Buriti Palm
+- slug: butia-palm
+  name: Butia Palm
+- slug: cabbage-palm
+  name: Cabbage Palm
+- slug: chinese-fan-palm
+  name: Chinese Fan Palm
+- slug: coconut-palm
+  name: Coconut Palm
+- slug: coconut-tree
+  name: Coconut Tree
+- slug: dwarf-palmetto
+  name: Dwarf Palmetto
+- slug: florida-thatch-palm
+  name: Florida Thatch Palm
+- slug: jelly-palm
+  name: Jelly Palm
+- slug: jucara-palm
+  name: Jucara Palm
+- slug: key-thatch-palm
+  name: Key Thatch Palm
+- slug: needle-palm
+  name: Needle Palm
+- slug: nipa-palm
+  name: Nipa Palm
+- slug: palmetto-palm
+  name: Palmetto Palm
+- slug: peach-palm
+  name: Peach Palm
+- slug: pindo-palm
+  name: Pindo Palm
+- slug: ribbon-palm
+  name: Ribbon Palm
+- slug: royal-palm
+  name: Royal Palm
+- slug: sabal-palm
+  name: Sabal Palm
+- slug: saw-palmetto
+  name: Saw Palmetto
+- slug: scrub-palmetto
+  name: Scrub Palmetto
+- slug: tucumã-palm
+  name: Tucumã Palm
+- slug: windmill-palm
+  name: Windmill Palm
+category: pest

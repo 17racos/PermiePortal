@@ -1,49 +1,52 @@
-- name: "Fungus gnat larvae"
-  slug: "fungus-gnat-larvae"
-  picture: "fungus_gnat_larvae.webp"
-  scientific_name: "Sciaridae (Bradysia, Lycoriella, and related genera)"
-  description: >-
-    Fungus gnat larvae are translucent legless maggots with black heads that live in the top layer of moist potting mix
-    and feed on fine roots and organic matter. Seedlings yellow, stall, or damp off when feeding and associated root rots
-    stack stress. Adults are tiny dark flies that zigzag near moist media and lights. They explode in propagation houses,
-    houseplant collections, and overwatered containers everywhere plants are grown indoors or under shade.
-  characteristics: >-
-    Slice the top half inch of media and look for threadlike larvae -- compare with shore fly larvae which are more opaque
-    and legless maggots with no distinct head capsule in some taxa. Yellow sticky cards catch adults and show population
-    trends. Potato disks pressed into media lure larvae for monitoring counts after a day or two.
-  symptoms:
-  - wilting
-  - yellowing-leaves
-  - root-damage
-  - crown-damage
-  control_methods:
-    biological_controls: >-
-      Hypoaspis miles (Stratiolaelaps scimitus) predatory mites hunt larvae in moist media when introduced at label rates.
-      Steinernema feltiae nematodes infect sciarid larvae when media is warm and stays moist for days after application.
-      Bacillus thuringiensis israelensis (Bti) soil formulations help in some label-approved settings for fly larvae in
-      containers. Avoid broad drenches that sterilize media unless you replan biocontrol reintroduction.
-    preventive_methods: >-
-      Let the surface of containers dry slightly between irrigations so algae and algae-feeding larvae are less favored.
-      Screen greenhouse vents with fine mesh to exclude adults. Use pasteurized or reputable bagged mixes for seed flats.
-      Remove fallen leaves on bench tops that keep humidity high around pots.
-    cultural_practices: >-
-      Bottom water seed flats to keep the surface drier while roots still access moisture. Increase air movement with fans
-      in propagation zones. Topdress with a thin sand or grit layer on houseplants to reduce egg laying -- repot if algae
-      crusts form. Cull severely stunted trays early so larvae do not spread bench to bench.
-    mechanical_physical: >-
-      Vacuum adult clouds at dusk near doors with a shop vac as a stopgap during outbreaks. Replace the top inch of infested
-      potting mix on cherished houseplants and dispose off-site. Solarize small batches of questionable compost before
-      mixing flats if you have sunny space and time.
-    organic_sprays: >-
-      Neem drenches suppress larvae when applied on schedule and allowed to move through the root zone. Insecticidal soap
-      drenches can work on light infestations but may harm tender roots if repeated excessively. Hydrogen peroxide dilutions
-      circulate online -- they are inconsistent and can damage biology; prefer nematodes or predators with clearer evidence.
-      Always test a few pots before treating an entire greenhouse run.
-  natural_enemies:
-  - Predatory Mites
-  - Nematodes
-  - Predatory Beetles
-  affected_plants: []
-  # Image attribution: Deady et al. (2022) / Wikimedia Commons / CC BY 4.0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+name: Fungus gnat larvae
+slug: fungus-gnat-larvae
+picture: fungus_gnat_larvae.webp
+scientific_name: Sciaridae (Bradysia, Lycoriella, and related genera)
+description: Fungus gnat larvae are translucent legless maggots with black heads that
+  live in the top layer of moist potting mix and feed on fine roots and organic matter.
+  Seedlings yellow, stall, or damp off when feeding and associated root rots stack
+  stress. Adults are tiny dark flies that zigzag near moist media and lights. They
+  explode in propagation houses, houseplant collections, and overwatered containers
+  everywhere plants are grown indoors or under shade.
+characteristics: Slice the top half inch of media and look for threadlike larvae --
+  compare with shore fly larvae which are more opaque and legless maggots with no
+  distinct head capsule in some taxa. Yellow sticky cards catch adults and show population
+  trends. Potato disks pressed into media lure larvae for monitoring counts after
+  a day or two.
+symptoms:
+- wilting
+- yellowing-leaves
+- root-damage
+- crown-damage
+control_methods:
+  biological_controls: Hypoaspis miles (Stratiolaelaps scimitus) predatory mites hunt
+    larvae in moist media when introduced at label rates. Steinernema feltiae nematodes
+    infect sciarid larvae when media is warm and stays moist for days after application.
+    Bacillus thuringiensis israelensis (Bti) soil formulations help in some label-approved
+    settings for fly larvae in containers. Avoid broad drenches that sterilize media
+    unless you replan biocontrol reintroduction.
+  preventive_methods: Let the surface of containers dry slightly between irrigations
+    so algae and algae-feeding larvae are less favored. Screen greenhouse vents with
+    fine mesh to exclude adults. Use pasteurized or reputable bagged mixes for seed
+    flats. Remove fallen leaves on bench tops that keep humidity high around pots.
+  cultural_practices: Bottom water seed flats to keep the surface drier while roots
+    still access moisture. Increase air movement with fans in propagation zones. Topdress
+    with a thin sand or grit layer on houseplants to reduce egg laying -- repot if
+    algae crusts form. Cull severely stunted trays early so larvae do not spread bench
+    to bench.
+  mechanical_physical: Vacuum adult clouds at dusk near doors with a shop vac as a
+    stopgap during outbreaks. Replace the top inch of infested potting mix on cherished
+    houseplants and dispose off-site. Solarize small batches of questionable compost
+    before mixing flats if you have sunny space and time.
+  organic_sprays: Neem drenches suppress larvae when applied on schedule and allowed
+    to move through the root zone. Insecticidal soap drenches can work on light infestations
+    but may harm tender roots if repeated excessively. Hydrogen peroxide dilutions
+    circulate online -- they are inconsistent and can damage biology; prefer nematodes
+    or predators with clearer evidence. Always test a few pots before treating an
+    entire greenhouse run.
+natural_enemies:
+- Predatory Mites
+- Nematodes
+- Predatory Beetles
+affected_plants: []
+category: pest

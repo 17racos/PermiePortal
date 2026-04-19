@@ -1,48 +1,48 @@
-- name: "Shot hole borers"
-  slug: "shot-hole-borers"
-  picture: "shot_hole_borers.webp"
-  scientific_name: "Euwallacea and related Scolytinae"
-  description: >-
-    Shot hole borers are tiny ambrosia beetles that bore into trunks and branches, farming fungi in galleries that stain
-    sapwood and disrupt transport. Multiple entry holes look like buckshot on bark, often on stressed or thin-barked
-    species. Some lineages vector pathogenic fungi that cause rapid dieback in certain hosts. They are a tree health issue
-    in urban forests, orchards, and riparian plantings from subtropical to warm temperate zones.
-  characteristics: >-
-    Look for fine boring dust, round entry holes, and sometimes oozing sap. Prune a suspect twig and examine stained
-    galleries. Ethanol-baited traps help monitor flight timing but attract from the neighborhood -- use with extension
-    guidance. Distinguish from bark beetle species complexes by host lists and lab ID where management differs.
-  symptoms:
-  - wilting
-  - die-back
-  - bark-damage
-  - crown-damage
-  - tunneling
-  control_methods:
-    biological_controls: >-
-      Woodpeckers open galleries and eat larvae where they can reach them. Parasitic wasps attack some scolytines at low
-      rates in native forests. Maintaining tree vigor is the closest thing to biological suppression because healthy trees
-      resist colonization better than stressed ones.
-    preventive_methods: >-
-      Avoid bark injury from equipment and improper pruning. Remove and chip infested material before flight periods when
-      regulations allow. Do not stack green wood against living trees. Irrigate during drought to reduce stress signals
-      that attract beetles.
-    cultural_practices: >-
-      Species diversity in plantings reduces landscape-wide risk compared with monoculture rows. Replace known highly
-      susceptible species in chronic loss sites. Whitewash or shade newly exposed bark after sudden canopy removal if
-      sunscald risk is high in your climate.
-    mechanical_physical: >-
-      Cut and destroy heavily infested limbs. For high-value trees, consult an arborist about systemic options where
-      legally available and evidence-based for your pest-host pair. Debark small logs for firewood use if local guidance
-      supports that approach.
-    organic_sprays: >-
-      Trunk sprays are not reliable once beetles are established under bark. Focus on sanitation and vigor. Some botanical
-      trunk sprays are used professionally at narrow timing windows -- not a default homeowner protocol. Research local
-      extension for species-specific programs rather than improvising.
-  natural_enemies:
-  - Woodpeckers
-  - Parasitic Wasps
-  - Predatory Beetles
-  affected_plants: []
-  # Image attribution: (c) Karl Magnacca, some rights reserved (CC BY-NC), uploaded by Karl Magnacca
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+name: Shot hole borers
+slug: shot-hole-borers
+picture: shot_hole_borers.webp
+scientific_name: Euwallacea and related Scolytinae
+description: Shot hole borers are tiny ambrosia beetles that bore into trunks and
+  branches, farming fungi in galleries that stain sapwood and disrupt transport. Multiple
+  entry holes look like buckshot on bark, often on stressed or thin-barked species.
+  Some lineages vector pathogenic fungi that cause rapid dieback in certain hosts.
+  They are a tree health issue in urban forests, orchards, and riparian plantings
+  from subtropical to warm temperate zones.
+characteristics: Look for fine boring dust, round entry holes, and sometimes oozing
+  sap. Prune a suspect twig and examine stained galleries. Ethanol-baited traps help
+  monitor flight timing but attract from the neighborhood -- use with extension guidance.
+  Distinguish from bark beetle species complexes by host lists and lab ID where management
+  differs.
+symptoms:
+- wilting
+- die-back
+- bark-damage
+- crown-damage
+- tunneling
+control_methods:
+  biological_controls: Woodpeckers open galleries and eat larvae where they can reach
+    them. Parasitic wasps attack some scolytines at low rates in native forests. Maintaining
+    tree vigor is the closest thing to biological suppression because healthy trees
+    resist colonization better than stressed ones.
+  preventive_methods: Avoid bark injury from equipment and improper pruning. Remove
+    and chip infested material before flight periods when regulations allow. Do not
+    stack green wood against living trees. Irrigate during drought to reduce stress
+    signals that attract beetles.
+  cultural_practices: Species diversity in plantings reduces landscape-wide risk compared
+    with monoculture rows. Replace known highly susceptible species in chronic loss
+    sites. Whitewash or shade newly exposed bark after sudden canopy removal if sunscald
+    risk is high in your climate.
+  mechanical_physical: Cut and destroy heavily infested limbs. For high-value trees,
+    consult an arborist about systemic options where legally available and evidence-based
+    for your pest-host pair. Debark small logs for firewood use if local guidance
+    supports that approach.
+  organic_sprays: Trunk sprays are not reliable once beetles are established under
+    bark. Focus on sanitation and vigor. Some botanical trunk sprays are used professionally
+    at narrow timing windows -- not a default homeowner protocol. Research local extension
+    for species-specific programs rather than improvising.
+natural_enemies:
+- Woodpeckers
+- Parasitic Wasps
+- Predatory Beetles
+affected_plants: []
+category: pest

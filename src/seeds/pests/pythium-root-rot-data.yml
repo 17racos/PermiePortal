@@ -1,322 +1,315 @@
----
-- name: Pythium Root Rot
-  slug: pythium-root-rot
-  picture: pythium_root_rot.webp
-  scientific_name: Pythium spp.
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, pythium root rot may
-    already be active. This problem often starts small, then spreads across healthy tissue
-    before most growers realize how serious it is. Warmth, moisture, and crowded foliage usually
-    speed it up. Treat early, because waiting even a few days can turn a manageable infection
-    into major crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - wilting
-  - root-damage
-  - yellowing-leaves
-  - dropping-leaves
-  - crown-damage
-  control_methods:
-    biological_controls: >-
-      Trichoderma harzianum and Gliocladium catenulatum colonize root surfaces
-      competitively and produce compounds that inhibit Pythium — apply as transplant
-      drenches or incorporate into potting mix. Bacillus amyloliquefaciens and
-      B. subtilis strains produce antibiotics active against Pythium — available
-      as commercial biological fungicides. These work best preventively on clean
-      stock in healthy soil, not as cures for infected plants. Arbuscular mycorrhizal
-      fungi strengthen root systems and make plants significantly more tolerant
-      of Pythium pressure.
-    preventive_methods: >-
-      Pythium is a water mold — it thrives in waterlogged, cold, poorly drained
-      soil. The number one prevention is drainage. Raised beds, perlite-amended
-      potting mix, and bottom heat for seedlings prevent the conditions Pythium
-      needs. Do not overwater — let the top inch of soil dry between waterings
-      for most crops. Pond water and recycled irrigation water can carry Pythium
-      zoospores — use clean water sources for seedlings and transplants. Cold
-      soil below 55F (13C) with excess moisture is highest risk.
-    cultural_practices: >-
-      Space plants for airflow. Use well-draining potting mix with perlite or
-      coarse sand — never pure peat or fine compost for seedlings. Bottom heat
-      mats for germination maintain soil temperature above Pythium's optimal range.
-      Pasteurize or purchase sterile potting mix — never reuse mix from previously
-      infected containers. Avoid piling mulch against stems. Improve subsurface
-      drainage with French drains in beds that stay wet after rain.
-    mechanical_physical: >-
-      Solarize infested soil — clear plastic over moist ground for 4-6 weeks in
-      summer reaches temperatures lethal to Pythium zoospores and oospores in
-      the top 6 inches. Steam treatment of propagation beds and reused containers
-      eliminates Pythium before replanting. Remove and bag infected po not compost, as Pythium oospores survive composting.
-    organic_sprays: >-
-      Copper-based fungicides as soil drench have suppressive activity against
-      Pythium — apply preventively before symptoms appear. Hydrogen peroxide
-      (3% diluted 1:4 with water) as soil drench kills Pythium zoospores on
-      contact and breaks down to water and oxygen with no residue — apply when
-      soil is slightly dry for better penetration. Potassium phosphite drenches
-      stimulate plant immune response to Pythium — effective as a preventive
-      program on susceptible crops.
-  natural_enemies:
-  - Trichoderma spp.
-  - Streptomyces spp.
-  - Gliocladium catenulatum
-  affected_plants:
-  - slug: angels-trumpet
-    name: Angel's Trumpet
-  - slug: ashwagandha
-    name: Ashwagandha
-  - slug: buffalo-bur
-    name: Buffalo Bur
-  - slug: chiltepin-pepper
-    name: Chiltepin Pepper
-  - slug: chiltepin-pepper-tree
-    name: Chiltepin Pepper Tree
-  - slug: chinese-lantern
-    name: Chinese Lantern
-  - slug: coastal-groundcherry
-    name: Coastal Groundcherry
-  - slug: devils-trumpet
-    name: Devil's Trumpet
-  - slug: garden-huckleberry
-    name: Garden Huckleberry
-  - slug: goji-berry
-    name: Goji Berry
-  - slug: ground-cherry
-    name: Ground Cherry
-  - slug: horse-nettle
-    name: Horse Nettle
-  - slug: pepino-melon
-    name: Pepino Melon
-  - slug: potato
-    name: Potato
-  - slug: scarlet-eggplant
-    name: Scarlet Eggplant
-  - slug: wild-eggplant
-    name: Wild Eggplant
-  - slug: wonderberry
-    name: Wonderberry
-  - slug: acorn-squash
-    name: Acorn Squash
-  - slug: angled-loofah
-    name: Angled Loofah
-  - slug: apple-gourd
-    name: Apple Gourd
-  - slug: birdhouse-gourd
-    name: Birdhouse Gourd
-  - slug: bitter-melon
-    name: Bitter Melon
-  - slug: bottle-gourd
-    name: Bottle Gourd
-  - slug: buffalo-gourd
-    name: Buffalo Gourd
-  - slug: bushel-gourd
-    name: Bushel Gourd
-  - slug: calabaza
-    name: Calabaza
-  - slug: cassabanana-root-systems
-    name: Cassabanana root systems
-  - slug: caveman-club-gourd
-    name: Caveman Club Gourd
-  - slug: chayote
-    name: Chayote
-  - slug: coccinia
-    name: Coccinia
-  - slug: corsican-gourd
-    name: Corsican Gourd
-  - slug: cucamelon
-    name: Cucamelon
-  - slug: dinosaur-gourd
-    name: Dinosaur Gourd
-  - slug: ivy-gourd
-    name: Ivy Gourd
-  - slug: luffa
-    name: Luffa
-  - slug: monky-muskmelon
-    name: Monky Muskmelon
-  - slug: penguin-gourd
-    name: Penguin Gourd
-  - slug: seminole-pumpkin
-    name: Seminole Pumpkin
-  - slug: snake-gourd
-    name: Snake Gourd
-  - slug: wax-gourd
-    name: Wax Gourd
-  - slug: acacia
-    name: Acacia
-  - slug: african-locust-bean
-    name: African Locust Bean
-  - slug: ahipa
-    name: Ahipa
-  - slug: albizia-lebbeck
-    name: Albizia lebbeck
-  - slug: alfalfa
-    name: Alfalfa
-  - slug: asparagus-bean
-    name: Asparagus Bean
-  - slug: baptisia
-    name: Baptisia
-  - slug: bay-bean
-    name: Bay Bean
-  - slug: beach-bean
-    name: Beach Bean
-  - slug: black-medic
-    name: Black Medic
-  - slug: black-mulga
-    name: Black Mulga
-  - slug: black-locust
-    name: Black Locust
-  - slug: bladder-senna
-    name: Bladder Senna
-  - slug: blue-wild-indigo
-    name: Blue Wild Indigo
-  - slug: carob-tree
-    name: Carob Tree
-  - slug: cassia-alata
-    name: Cassia alata
-  - slug: catclaw-sensitive-briar
-    name: Catclaw Sensitive Briar
-  - slug: chickpea
-    name: Chickpea
-  - slug: chilean-pea
-    name: Chilean Pea
-  - slug: coffee-senna
-    name: Coffee Senna
-  - slug: coffeeweed
-    name: Coffeeweed
-  - slug: coral-bean
-    name: Coral Bean
-  - slug: crimson-clover
-    name: Crimson Clover
-  - slug: crown-vetch
-    name: Crown Vetch
-  - slug: desert-ironwood
-    name: Desert Ironwood
-  - slug: dutch-clover
-    name: Dutch Clover
-  - slug: earth-chestnut
-    name: Earth Chestnut
-  - slug: false-indigo
-    name: False Indigo
-  - slug: fava-bean
-    name: Fava Bean
-  - slug: florida-leadplant
-    name: Florida Leadplant
-  - slug: goats-rue
-    name: Goat's Rue
-  - slug: green-bean
-    name: Green Bean
-  - slug: groundnut
-    name: Groundnut
-  - slug: groundplum-milkvetch
-    name: Groundplum Milkvetch
-  - slug: hairy-indigo
-    name: Hairy Indigo
-  - slug: honey-locust
-    name: Honey Locust
-  - slug: hopniss
-    name: Hopniss
-  - slug: hyacinth-bean
-    name: Hyacinth Bean
-  - slug: ice-cream-bean-tree
-    name: Ice Cream Bean Tree
-  - slug: illinois-bundleflower
-    name: Illinois Bundleflower
-  - slug: indigofera-tinctoria
-    name: Indigofera tinctoria
-  - slug: jatoba
-    name: Jatoba
-  - slug: jicama
-    name: Jicama
-  - slug: lablab-bean
-    name: Lablab Bean
-  - slug: lead-plant
-    name: Lead Plant
-  - slug: leucaena
-    name: Leucaena
-  - slug: lupine
-    name: Lupine
-  - slug: mangrove-bean
-    name: Mangrove Bean
-  - slug: milk-vetch
-    name: Milk Vetch
-  - slug: mimosa
-    name: Mimosa
-  - slug: mung-bean
-    name: Mung Bean
-  - slug: palo-verde
-    name: Palo Verde
-  - slug: partridge-acacia
-    name: Partridge Acacia
-  - slug: partridge-cassia
-    name: Partridge Cassia
-  - slug: partridge-pea
-    name: Partridge Pea
-  - slug: pea
-    name: Pea
-  - slug: perennial-peanut
-    name: Perennial Peanut
-  - slug: pigeon-pea
-    name: Pigeon Pea
-  - slug: plains-wild-indigo
-    name: Plains Wild Indigo
-  - slug: powderpuff-mimosa
-    name: Powderpuff Mimosa
-  - slug: prairie-acacia
-    name: Prairie Acacia
-  - slug: prairie-potato
-    name: Prairie Potato
-  - slug: prairie-turnip
-    name: Prairie Turnip
-  - slug: rattlebox
-    name: Rattlebox
-  - slug: sensitive-briar
-    name: Sensitive Briar
-  - slug: sensitive-plant
-    name: Sensitive Plant
-  - slug: sesbania
-    name: Sesbania
-  - slug: sesbania-grandiflora
-    name: Sesbania grandiflora
-  - slug: showy-partridge-pea
-    name: Showy Partridge Pea
-  - slug: siberian-peashrub
-    name: Siberian Peashrub
-  - slug: siberian-pea-shrub
-    name: Siberian Pea Shrub
-  - slug: sicklepod
-    name: Sicklepod
-  - slug: snow-pea
-    name: Snow Pea
-  - slug: sun-hemp
-    name: Sun Hemp
-  - slug: sunshine-mimosa
-    name: Sunshine Mimosa
-  - slug: tagasaste
-    name: Tagasaste
-  - slug: tephrosia-vogelii
-    name: Tephrosia vogelii
-  - slug: tick-trefoil
-    name: Tick Trefoil
-  - slug: trailing-mimosa
-    name: Trailing Mimosa
-  - slug: tree-medick
-    name: Tree Medick
-  - slug: white-wild-indigo
-    name: White Wild Indigo
-  - slug: wild-indigo-bush
-    name: Wild Indigo Bush
-  - slug: wild-indigo
-    name: Wild Indigo
-  - slug: wild-senna
-    name: Wild Senna
-  - slug: winged-bean
-    name: Winged Bean
-  - slug: wisteria
-    name: Wisteria
-  - slug: yam-bean
-    name: Yam Bean
-  - slug: yellow-sweet-clover
-    name: Yellow Sweet Clover
+name: Pythium Root Rot
+slug: pythium-root-rot
+picture: pythium_root_rot.webp
+scientific_name: Pythium spp.
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  pythium root rot may already be active. This problem often starts small, then spreads
+  across healthy tissue before most growers realize how serious it is. Warmth, moisture,
+  and crowded foliage usually speed it up. Treat early, because waiting even a few
+  days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- wilting
+- root-damage
+- yellowing-leaves
+- dropping-leaves
+- crown-damage
+control_methods:
+  biological_controls: Trichoderma harzianum and Gliocladium catenulatum colonize
+    root surfaces competitively and produce compounds that inhibit Pythium — apply
+    as transplant drenches or incorporate into potting mix. Bacillus amyloliquefaciens
+    and B. subtilis strains produce antibiotics active against Pythium — available
+    as commercial biological fungicides. These work best preventively on clean stock
+    in healthy soil, not as cures for infected plants. Arbuscular mycorrhizal fungi
+    strengthen root systems and make plants significantly more tolerant of Pythium
+    pressure.
+  preventive_methods: Pythium is a water mold — it thrives in waterlogged, cold, poorly
+    drained soil. The number one prevention is drainage. Raised beds, perlite-amended
+    potting mix, and bottom heat for seedlings prevent the conditions Pythium needs.
+    Do not overwater — let the top inch of soil dry between waterings for most crops.
+    Pond water and recycled irrigation water can carry Pythium zoospores — use clean
+    water sources for seedlings and transplants. Cold soil below 55F (13C) with excess
+    moisture is highest risk.
+  cultural_practices: Space plants for airflow. Use well-draining potting mix with
+    perlite or coarse sand — never pure peat or fine compost for seedlings. Bottom
+    heat mats for germination maintain soil temperature above Pythium's optimal range.
+    Pasteurize or purchase sterile potting mix — never reuse mix from previously infected
+    containers. Avoid piling mulch against stems. Improve subsurface drainage with
+    French drains in beds that stay wet after rain.
+  mechanical_physical: Solarize infested soil — clear plastic over moist ground for
+    4-6 weeks in summer reaches temperatures lethal to Pythium zoospores and oospores
+    in the top 6 inches. Steam treatment of propagation beds and reused containers
+    eliminates Pythium before replanting. Remove and bag infected po not compost,
+    as Pythium oospores survive composting.
+  organic_sprays: Copper-based fungicides as soil drench have suppressive activity
+    against Pythium — apply preventively before symptoms appear. Hydrogen peroxide
+    (3% diluted 1:4 with water) as soil drench kills Pythium zoospores on contact
+    and breaks down to water and oxygen with no residue — apply when soil is slightly
+    dry for better penetration. Potassium phosphite drenches stimulate plant immune
+    response to Pythium — effective as a preventive program on susceptible crops.
+natural_enemies:
+- Trichoderma spp.
+- Streptomyces spp.
+- Gliocladium catenulatum
+affected_plants:
+- slug: angels-trumpet
+  name: Angel's Trumpet
+- slug: ashwagandha
+  name: Ashwagandha
+- slug: buffalo-bur
+  name: Buffalo Bur
+- slug: chiltepin-pepper
+  name: Chiltepin Pepper
+- slug: chiltepin-pepper-tree
+  name: Chiltepin Pepper Tree
+- slug: chinese-lantern
+  name: Chinese Lantern
+- slug: coastal-groundcherry
+  name: Coastal Groundcherry
+- slug: devils-trumpet
+  name: Devil's Trumpet
+- slug: garden-huckleberry
+  name: Garden Huckleberry
+- slug: goji-berry
+  name: Goji Berry
+- slug: ground-cherry
+  name: Ground Cherry
+- slug: horse-nettle
+  name: Horse Nettle
+- slug: pepino-melon
+  name: Pepino Melon
+- slug: potato
+  name: Potato
+- slug: scarlet-eggplant
+  name: Scarlet Eggplant
+- slug: wild-eggplant
+  name: Wild Eggplant
+- slug: wonderberry
+  name: Wonderberry
+- slug: acorn-squash
+  name: Acorn Squash
+- slug: angled-loofah
+  name: Angled Loofah
+- slug: apple-gourd
+  name: Apple Gourd
+- slug: birdhouse-gourd
+  name: Birdhouse Gourd
+- slug: bitter-melon
+  name: Bitter Melon
+- slug: bottle-gourd
+  name: Bottle Gourd
+- slug: buffalo-gourd
+  name: Buffalo Gourd
+- slug: bushel-gourd
+  name: Bushel Gourd
+- slug: calabaza
+  name: Calabaza
+- slug: cassabanana-root-systems
+  name: Cassabanana root systems
+- slug: caveman-club-gourd
+  name: Caveman Club Gourd
+- slug: chayote
+  name: Chayote
+- slug: coccinia
+  name: Coccinia
+- slug: corsican-gourd
+  name: Corsican Gourd
+- slug: cucamelon
+  name: Cucamelon
+- slug: dinosaur-gourd
+  name: Dinosaur Gourd
+- slug: ivy-gourd
+  name: Ivy Gourd
+- slug: luffa
+  name: Luffa
+- slug: monky-muskmelon
+  name: Monky Muskmelon
+- slug: penguin-gourd
+  name: Penguin Gourd
+- slug: seminole-pumpkin
+  name: Seminole Pumpkin
+- slug: snake-gourd
+  name: Snake Gourd
+- slug: wax-gourd
+  name: Wax Gourd
+- slug: acacia
+  name: Acacia
+- slug: african-locust-bean
+  name: African Locust Bean
+- slug: ahipa
+  name: Ahipa
+- slug: albizia-lebbeck
+  name: Albizia lebbeck
+- slug: alfalfa
+  name: Alfalfa
+- slug: asparagus-bean
+  name: Asparagus Bean
+- slug: baptisia
+  name: Baptisia
+- slug: bay-bean
+  name: Bay Bean
+- slug: beach-bean
+  name: Beach Bean
+- slug: black-medic
+  name: Black Medic
+- slug: black-mulga
+  name: Black Mulga
+- slug: black-locust
+  name: Black Locust
+- slug: bladder-senna
+  name: Bladder Senna
+- slug: blue-wild-indigo
+  name: Blue Wild Indigo
+- slug: carob-tree
+  name: Carob Tree
+- slug: cassia-alata
+  name: Cassia alata
+- slug: catclaw-sensitive-briar
+  name: Catclaw Sensitive Briar
+- slug: chickpea
+  name: Chickpea
+- slug: chilean-pea
+  name: Chilean Pea
+- slug: coffee-senna
+  name: Coffee Senna
+- slug: coffeeweed
+  name: Coffeeweed
+- slug: coral-bean
+  name: Coral Bean
+- slug: crimson-clover
+  name: Crimson Clover
+- slug: crown-vetch
+  name: Crown Vetch
+- slug: desert-ironwood
+  name: Desert Ironwood
+- slug: dutch-clover
+  name: Dutch Clover
+- slug: earth-chestnut
+  name: Earth Chestnut
+- slug: false-indigo
+  name: False Indigo
+- slug: fava-bean
+  name: Fava Bean
+- slug: florida-leadplant
+  name: Florida Leadplant
+- slug: goats-rue
+  name: Goat's Rue
+- slug: green-bean
+  name: Green Bean
+- slug: groundnut
+  name: Groundnut
+- slug: groundplum-milkvetch
+  name: Groundplum Milkvetch
+- slug: hairy-indigo
+  name: Hairy Indigo
+- slug: honey-locust
+  name: Honey Locust
+- slug: hopniss
+  name: Hopniss
+- slug: hyacinth-bean
+  name: Hyacinth Bean
+- slug: ice-cream-bean-tree
+  name: Ice Cream Bean Tree
+- slug: illinois-bundleflower
+  name: Illinois Bundleflower
+- slug: indigofera-tinctoria
+  name: Indigofera tinctoria
+- slug: jatoba
+  name: Jatoba
+- slug: jicama
+  name: Jicama
+- slug: lablab-bean
+  name: Lablab Bean
+- slug: lead-plant
+  name: Lead Plant
+- slug: leucaena
+  name: Leucaena
+- slug: lupine
+  name: Lupine
+- slug: mangrove-bean
+  name: Mangrove Bean
+- slug: milk-vetch
+  name: Milk Vetch
+- slug: mimosa
+  name: Mimosa
+- slug: mung-bean
+  name: Mung Bean
+- slug: palo-verde
+  name: Palo Verde
+- slug: partridge-acacia
+  name: Partridge Acacia
+- slug: partridge-cassia
+  name: Partridge Cassia
+- slug: partridge-pea
+  name: Partridge Pea
+- slug: pea
+  name: Pea
+- slug: perennial-peanut
+  name: Perennial Peanut
+- slug: pigeon-pea
+  name: Pigeon Pea
+- slug: plains-wild-indigo
+  name: Plains Wild Indigo
+- slug: powderpuff-mimosa
+  name: Powderpuff Mimosa
+- slug: prairie-acacia
+  name: Prairie Acacia
+- slug: prairie-potato
+  name: Prairie Potato
+- slug: prairie-turnip
+  name: Prairie Turnip
+- slug: rattlebox
+  name: Rattlebox
+- slug: sensitive-briar
+  name: Sensitive Briar
+- slug: sensitive-plant
+  name: Sensitive Plant
+- slug: sesbania
+  name: Sesbania
+- slug: sesbania-grandiflora
+  name: Sesbania grandiflora
+- slug: showy-partridge-pea
+  name: Showy Partridge Pea
+- slug: siberian-peashrub
+  name: Siberian Peashrub
+- slug: siberian-pea-shrub
+  name: Siberian Pea Shrub
+- slug: sicklepod
+  name: Sicklepod
+- slug: snow-pea
+  name: Snow Pea
+- slug: sun-hemp
+  name: Sun Hemp
+- slug: sunshine-mimosa
+  name: Sunshine Mimosa
+- slug: tagasaste
+  name: Tagasaste
+- slug: tephrosia-vogelii
+  name: Tephrosia vogelii
+- slug: tick-trefoil
+  name: Tick Trefoil
+- slug: trailing-mimosa
+  name: Trailing Mimosa
+- slug: tree-medick
+  name: Tree Medick
+- slug: white-wild-indigo
+  name: White Wild Indigo
+- slug: wild-indigo-bush
+  name: Wild Indigo Bush
+- slug: wild-indigo
+  name: Wild Indigo
+- slug: wild-senna
+  name: Wild Senna
+- slug: winged-bean
+  name: Winged Bean
+- slug: wisteria
+  name: Wisteria
+- slug: yam-bean
+  name: Yam Bean
+- slug: yellow-sweet-clover
+  name: Yellow Sweet Clover
+category: disease

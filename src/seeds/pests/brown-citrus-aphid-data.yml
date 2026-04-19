@@ -1,107 +1,102 @@
----
-- name: Brown Citrus Aphid
-  slug: brown-citrus-aphid
-  picture: brown_citrus_aphid.webp
-  scientific_name: Toxoptera citricida
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, brown citrus aphid may already be on
-    the plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - sticky-residue
-  - curling-leaves
-  - yellowing-leaves
-  - distorted-growth
-  control_methods:
-    biological_controls: >-
-      Lady beetles, lacewings, syrphid fly larvae, and parasitic wasps (Lipolexis spp.)
-      commonly suppress brown citrus aphid outbreaks when not disrupted by insecticides.
-      Brown citrus aphid is the primary vector of Citrus Tristeza Virus (CTV) -- a
-      single aphid probe transmits CTV in under a minute, meaning insecticides cannot
-      stop virus transmission because they kill aphids too slowly. Focus all biological
-      effort on habitat for natural enemies and preventing aphid establishment. Avoid
-      broad-spectrum insecticides entirely on citrus -- they collapse the beneficial
-      insect community and cause aphid population rebounds.
-    preventive_methods: >-
-      Brown citrus aphid vectors Citrus Tristeza Virus which has killed millions of
-      citrus trees on susceptible rootstocks worldwide. Use CTV-tolerant rootstocks
-      for all new plantings -- this is non-negotiable in areas where brown citrus
-      aphid is present. Reflective mulch under young trees disorients alate (winged)
-      aphids landing from above. Monitor new flush weekly -- brown citrus aphid
-      infestations build quickly on tender new growth.
-    cultural_practices: >-
-      Preserve flowering groundcovers near citrus for parasitic wasp and lacewing
-      populations. Knock down early aphid colonies with a strong water spray on small
-      trees before populations establish. Prune heavily infested new flush into soapy
-      water to destroy colonies before they spread. Avoid working in citrus when winged
-      aphids are actively flying on warm calm days.
-    mechanical_physical: >-
-      A strong water spray dislodges aphid colonies from new flush on small and backyard
-      trees -- effective for early infestations before populations establish. Prune
-      and destroy heavily infested shoot tips into soapy water. Reflective silver mulch
-      under young trees reduces alate aphid landing rates significantly.
-    organic_sprays: >-
-      Insecticidal soap kills aphids on direct contact -- coat new flush growth
-      thoroughly every 3-5 days during active infestation. Narrow-range horticultural
-      oil on new growth suffocates colonies. Neem oil disrupts aphid reproduction and
-      molting. Apply at dusk when beneficial insects are inactive. Accept that no spray
-      prevents CTV transmission -- virus management requires CTV-tolerant rootstocks
-      and biological suppression of aphid populations to low levels.
-  natural_enemies:
-  - Parasitic Wasps
-  - Ladybugs
-  - Lacewings
-  - Hoverfly Larvae
-  affected_plants:
-  - slug: bael-fruit
-    name: Bael Fruit
-  - slug: bengal-quince
-    name: Bengal Quince
-  - slug: bitter-orange
-    name: Bitter Orange
-  - slug: buddha-hand
-    name: Buddha Hand
-  - slug: calamondin
-    name: Calamondin
-  - slug: citron
-    name: Citron
-  - slug: curry-leaf-tree
-    name: Curry Leaf Tree
-  - slug: finger-lime
-    name: Finger Lime
-  - slug: hercules-club
-    name: Hercules Club
-  - slug: kaffir-lime
-    name: Kaffir Lime
-  - slug: kumquat
-    name: Kumquat
-  - slug: lemon-tree
-    name: Lemon Tree
-  - slug: lime-tree
-    name: Lime Tree
-  - slug: pomelo
-    name: Pomelo
-  - slug: prickly-ash
-    name: Prickly Ash
-  - slug: rangpur-lime
-    name: Rangpur Lime
-  - slug: rue
-    name: Rue
-  - slug: sour-orange
-    name: Sour Orange
-  - slug: tangerine
-    name: Tangerine
-  - slug: white-sapote
-    name: White Sapote
-  - slug: wild-lime
-    name: Wild Lime
-  - slug: wood-apple
-    name: Wood Apple
-  - slug: yuzu
-    name: Yuzu
+name: Brown Citrus Aphid
+slug: brown-citrus-aphid
+picture: brown_citrus_aphid.webp
+scientific_name: Toxoptera citricida
+description: If new growth is curling, yellowing, sticky, or chewed, brown citrus
+  aphid may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- sticky-residue
+- curling-leaves
+- yellowing-leaves
+- distorted-growth
+control_methods:
+  biological_controls: Lady beetles, lacewings, syrphid fly larvae, and parasitic
+    wasps (Lipolexis spp.) commonly suppress brown citrus aphid outbreaks when not
+    disrupted by insecticides. Brown citrus aphid is the primary vector of Citrus
+    Tristeza Virus (CTV) -- a single aphid probe transmits CTV in under a minute,
+    meaning insecticides cannot stop virus transmission because they kill aphids too
+    slowly. Focus all biological effort on habitat for natural enemies and preventing
+    aphid establishment. Avoid broad-spectrum insecticides entirely on citrus -- they
+    collapse the beneficial insect community and cause aphid population rebounds.
+  preventive_methods: Brown citrus aphid vectors Citrus Tristeza Virus which has killed
+    millions of citrus trees on susceptible rootstocks worldwide. Use CTV-tolerant
+    rootstocks for all new plantings -- this is non-negotiable in areas where brown
+    citrus aphid is present. Reflective mulch under young trees disorients alate (winged)
+    aphids landing from above. Monitor new flush weekly -- brown citrus aphid infestations
+    build quickly on tender new growth.
+  cultural_practices: Preserve flowering groundcovers near citrus for parasitic wasp
+    and lacewing populations. Knock down early aphid colonies with a strong water
+    spray on small trees before populations establish. Prune heavily infested new
+    flush into soapy water to destroy colonies before they spread. Avoid working in
+    citrus when winged aphids are actively flying on warm calm days.
+  mechanical_physical: A strong water spray dislodges aphid colonies from new flush
+    on small and backyard trees -- effective for early infestations before populations
+    establish. Prune and destroy heavily infested shoot tips into soapy water. Reflective
+    silver mulch under young trees reduces alate aphid landing rates significantly.
+  organic_sprays: Insecticidal soap kills aphids on direct contact -- coat new flush
+    growth thoroughly every 3-5 days during active infestation. Narrow-range horticultural
+    oil on new growth suffocates colonies. Neem oil disrupts aphid reproduction and
+    molting. Apply at dusk when beneficial insects are inactive. Accept that no spray
+    prevents CTV transmission -- virus management requires CTV-tolerant rootstocks
+    and biological suppression of aphid populations to low levels.
+natural_enemies:
+- Parasitic Wasps
+- Ladybugs
+- Lacewings
+- Hoverfly Larvae
+affected_plants:
+- slug: bael-fruit
+  name: Bael Fruit
+- slug: bengal-quince
+  name: Bengal Quince
+- slug: bitter-orange
+  name: Bitter Orange
+- slug: buddha-hand
+  name: Buddha Hand
+- slug: calamondin
+  name: Calamondin
+- slug: citron
+  name: Citron
+- slug: curry-leaf-tree
+  name: Curry Leaf Tree
+- slug: finger-lime
+  name: Finger Lime
+- slug: hercules-club
+  name: Hercules Club
+- slug: kaffir-lime
+  name: Kaffir Lime
+- slug: kumquat
+  name: Kumquat
+- slug: lemon-tree
+  name: Lemon Tree
+- slug: lime-tree
+  name: Lime Tree
+- slug: pomelo
+  name: Pomelo
+- slug: prickly-ash
+  name: Prickly Ash
+- slug: rangpur-lime
+  name: Rangpur Lime
+- slug: rue
+  name: Rue
+- slug: sour-orange
+  name: Sour Orange
+- slug: tangerine
+  name: Tangerine
+- slug: white-sapote
+  name: White Sapote
+- slug: wild-lime
+  name: Wild Lime
+- slug: wood-apple
+  name: Wood Apple
+- slug: yuzu
+  name: Yuzu
+category: pest

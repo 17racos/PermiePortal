@@ -1,89 +1,83 @@
----
-- name: Cabbage Worms
-  slug: cabbage-worms
-  picture: cabbage_worms.webp
-  scientific_name: Pieris rapae
-  description: >-
-    If leaves look shredded overnight or fruit has fresh chew holes, cabbage worms may be
-    feeding right now. These larvae can eat fast and strip a healthy plant in a short window.
-    Young stages are easy to miss, then damage suddenly explodes as they grow. Catch them early
-    to avoid severe defoliation and contaminated harvests.
-  characteristics: >-
-    Check leaf undersides, growing tips, and stem junctions for eggs, frass pellets, and feeding
-    scars. Larvae vary in color, but most have a soft segmented body and blend into foliage.
-    Look at dusk or early morning when many species feed more actively. Fresh chewing plus live
-    larvae or droppings on lower leaves confirms an active caterpillar outbreak.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - skeletonized-leaves
-  control_methods:
-    biological_controls: >-
-      Cotesia glomerata and Cotesia rubecula are parasitic wasps that specifically
-      attack imported cabbageworm larvae -- they are present in most gardens and
-      frequently collapse outbreaks without any intervention. If you see a cabbageworm
-      covered in small yellow or white cocoons, leave it -- those are parasitoid
-      pupae and the worm is already dying. Killing it destroys the next generation
-      of your best allies. Trichogramma egg parasitoids attack eggs before they hatch.
-      Plant dill, fennel, and sweet alyssum to sustain these beneficial wasps year-round.
-      Birds -- especially house sparrows -- actively feed cabbageworms to nestlings.
-    preventive_methods: >-
-      Cabbage worms are the larvae of the white cabbage butterfly -- the small white
-      butterfly you see fluttering around brassica beds is laying single pale yellow
-      eggs on leaf undersides. Check leaf undersides weekly and crush eggs before they
-      hatch. Row covers installed before transplanting completely exclude butterflies
-      from reaching plants -- the most reliable and low-maintenance prevention. One
-      adult butterfly can lay hundreds of eggs across a season -- early exclusion
-      pays dividends throughout the season.
-    cultural_practices: >-
-      Rotate brassica beds each year to reduce the local butterfly population that
-      has learned your garden location. Red or purple-leaved brassica varieties are
-      slightly less attractive to egg-laying females. Remove crop residues promptly
-      after harvest. Interplant with dill, thyme, and sage at bed edges -- aromatic
-      herbs confuse butterfly navigation and support parasitoid wasp populations.
-      Proper spacing for air circulation reduces the humid conditions that allow larvae
-      to feed undetected.
-    mechanical_physical: >-
-      Floating row covers over transplants exclude adult butterflies completely -- 
-      remove at heading or leave on throughout since brassicas do not need pollination.
-      Hand-pick larvae and egg masses on every scouting pass -- larvae are bright
-      green and easy to spot against leaves. Check the dense inner leaves of forming
-      heads where larvae hide. Insect netting at 0.8mm mesh is fine enough to exclude
-      the small cabbage white butterfly while maintaining airflow.
-    organic_sprays: >-
-      Bt kurstaki while larvae are small (under half-inch) is the gold standard -- 
-      it kills caterpillars that eat treated foliage and is completely harmless to
-      everything else including parasitoid wasps. Apply in the evening coating all
-      leaf surfaces. Reapply every 5-7 days and after rain. Spinosad for larger larvae
-      where Bt timing was missed -- apply at dusk. Neem oil deters egg-laying when
-      applied consistently to foliage.
-  natural_enemies:
-  - Parasitic Wasps
-  - Birds
-  - Predatory Beetles
-  affected_plants:
-  - slug: bok-choy
-    name: Bok Choy
-  - slug: broccoli
-    name: Broccoli
-  - slug: daikon-radish
-    name: Daikon Radish
-  - slug: kale
-    name: Kale
-  - slug: radish
-    name: Radish
-  - slug: sea-kale
-    name: Sea Kale
-  - slug: sea-rocket
-    name: Sea Rocket
-  - slug: sweet-alyssum
-    name: Sweet Alyssum
-  - slug: tree-collard
-    name: Tree Collard
-  - slug: turkish-rocket
-    name: Turkish Rocket
-  - slug: watercress
-    name: Watercress
-  - slug: wild-mustard-greens
-    name: Wild Mustard Greens
+name: Cabbage Worms
+slug: cabbage-worms
+picture: cabbage_worms.webp
+scientific_name: Pieris rapae
+description: If leaves look shredded overnight or fruit has fresh chew holes, cabbage
+  worms may be feeding right now. These larvae can eat fast and strip a healthy plant
+  in a short window. Young stages are easy to miss, then damage suddenly explodes
+  as they grow. Catch them early to avoid severe defoliation and contaminated harvests.
+characteristics: Check leaf undersides, growing tips, and stem junctions for eggs,
+  frass pellets, and feeding scars. Larvae vary in color, but most have a soft segmented
+  body and blend into foliage. Look at dusk or early morning when many species feed
+  more actively. Fresh chewing plus live larvae or droppings on lower leaves confirms
+  an active caterpillar outbreak.
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- skeletonized-leaves
+control_methods:
+  biological_controls: Cotesia glomerata and Cotesia rubecula are parasitic wasps
+    that specifically attack imported cabbageworm larvae -- they are present in most
+    gardens and frequently collapse outbreaks without any intervention. If you see
+    a cabbageworm covered in small yellow or white cocoons, leave it -- those are
+    parasitoid pupae and the worm is already dying. Killing it destroys the next generation
+    of your best allies. Trichogramma egg parasitoids attack eggs before they hatch.
+    Plant dill, fennel, and sweet alyssum to sustain these beneficial wasps year-round.
+    Birds -- especially house sparrows -- actively feed cabbageworms to nestlings.
+  preventive_methods: Cabbage worms are the larvae of the white cabbage butterfly
+    -- the small white butterfly you see fluttering around brassica beds is laying
+    single pale yellow eggs on leaf undersides. Check leaf undersides weekly and crush
+    eggs before they hatch. Row covers installed before transplanting completely exclude
+    butterflies from reaching plants -- the most reliable and low-maintenance prevention.
+    One adult butterfly can lay hundreds of eggs across a season -- early exclusion
+    pays dividends throughout the season.
+  cultural_practices: Rotate brassica beds each year to reduce the local butterfly
+    population that has learned your garden location. Red or purple-leaved brassica
+    varieties are slightly less attractive to egg-laying females. Remove crop residues
+    promptly after harvest. Interplant with dill, thyme, and sage at bed edges --
+    aromatic herbs confuse butterfly navigation and support parasitoid wasp populations.
+    Proper spacing for air circulation reduces the humid conditions that allow larvae
+    to feed undetected.
+  mechanical_physical: Floating row covers over transplants exclude adult butterflies
+    completely --  remove at heading or leave on throughout since brassicas do not
+    need pollination. Hand-pick larvae and egg masses on every scouting pass -- larvae
+    are bright green and easy to spot against leaves. Check the dense inner leaves
+    of forming heads where larvae hide. Insect netting at 0.8mm mesh is fine enough
+    to exclude the small cabbage white butterfly while maintaining airflow.
+  organic_sprays: Bt kurstaki while larvae are small (under half-inch) is the gold
+    standard --  it kills caterpillars that eat treated foliage and is completely
+    harmless to everything else including parasitoid wasps. Apply in the evening coating
+    all leaf surfaces. Reapply every 5-7 days and after rain. Spinosad for larger
+    larvae where Bt timing was missed -- apply at dusk. Neem oil deters egg-laying
+    when applied consistently to foliage.
+natural_enemies:
+- Parasitic Wasps
+- Birds
+- Predatory Beetles
+affected_plants:
+- slug: bok-choy
+  name: Bok Choy
+- slug: broccoli
+  name: Broccoli
+- slug: daikon-radish
+  name: Daikon Radish
+- slug: kale
+  name: Kale
+- slug: radish
+  name: Radish
+- slug: sea-kale
+  name: Sea Kale
+- slug: sea-rocket
+  name: Sea Rocket
+- slug: sweet-alyssum
+  name: Sweet Alyssum
+- slug: tree-collard
+  name: Tree Collard
+- slug: turkish-rocket
+  name: Turkish Rocket
+- slug: watercress
+  name: Watercress
+- slug: wild-mustard-greens
+  name: Wild Mustard Greens
+category: pest

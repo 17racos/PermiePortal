@@ -1,284 +1,278 @@
----
-- name: Banded Cucumber Beetle
-  slug: banded-cucumber-beetle
-  picture: banded_cucumber_beetle.webp
-  scientific_name: Diabrotica balteata
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, banded cucumber beetle may already
-    be on the plant. This pest often builds quietly, then damage appears all at once. Feeding
-    stress weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup
-    is much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - holes-in-leaves
-  - skeletonized-leaves
-  - chewed-stems
-  - wilting
-  control_methods:
-    biological_controls: >-
-      Beneficial nematodes (Heterorhabditis bacteriophora) applied to soil in
-      spring target overwintering larvae and pupae in the soil — apply when soil
-      is above 60F (15C) and keep moist for 2 weeks. Ground beetles are important
-      predators of larvae and eggs in soil — permanent mulch and ground cover nearby
-      supports them. Braconid wasps parasitize larvae. The banded cucumber beetle
-      also transmits bacterial wilt disease on contact — a single beetle can infect
-      a plant in one visit, so prevention matters more than control after damage begins.
-    preventive_methods: >-
-      The banded cucumber beetle vectors bacterial wilt — prevention is more important
-      than control. Row covers from transplant until flowering completely exclude
-      beetles during the most vulnerable period. Use transplants rather than direct
-      seed — larger plants tolerate feeding better and you gain protection time under
-      cover. Check plants daily in early summer when adults first emerge. Blue Hubbard
-      squash as a trap crop at bed edges concentrates beetles for destruction.
-    cultural_practices: >-
-      Delay planting 2-3 weeks later than normal — adult beetle pressure drops
-      significantly after the early-season emergence peak. Rotate cucurbit beds
-      at least 100 feet from previous year locations — adults overwinter in field
-      edges near last year's crop. Interplant with radishes, nasturtiums, and
-      catnip which deter cucumber beetles. Remove and destroy crop residues
-      immediately after harvest to eliminate overwintering habitat.
-    mechanical_physical: >-
-      Row covers until first female flower are the most effective physical control.
-      Yellow sticky traps at plant height monitor adult populations. Vacuum plants
-      in early morning when beetles are sluggish. Beetles drop when disturbed —
-      shake plants over a sheet and collect. Hand-pick egg clusters from soil
-      surface near plant bases in early summer.
-    organic_sprays: >-
-      Kaolin clay on leaf surfaces deters feeding and egg-laying without harming
-      beneficials — apply every 7 days and after rain, coating new growth thoroughly.
-      Neem oil disrupts beetle feeding and egg-laying — apply weekly as prevention.
-      Spinosad targets larvae effectively as a soil drench in spring — apply when
-      soil temperatures reach 60F (15C). Pyrethrin provides quick knockdown on
-      adults but harms all insects and y at dusk,
-      never near open flowers.
-  natural_enemies:
-  - Beneficial Nematodes
-  - Ground Beetles
-  - Braconid Wasps
-  affected_plants:
-  - slug: acorn-squash
-    name: Acorn Squash
-  - slug: angled-loofah
-    name: Angled Loofah
-  - slug: apple-gourd
-    name: Apple Gourd
-  - slug: birdhouse-gourd
-    name: Birdhouse Gourd
-  - slug: bitter-melon
-    name: Bitter Melon
-  - slug: bottle-gourd
-    name: Bottle Gourd
-  - slug: buffalo-gourd
-    name: Buffalo Gourd
-  - slug: bushel-gourd
-    name: Bushel Gourd
-  - slug: calabaza
-    name: Calabaza
-  - slug: cassabanana-root-systems
-    name: Cassabanana root systems
-  - slug: caveman-club-gourd
-    name: Caveman Club Gourd
-  - slug: chayote
-    name: Chayote
-  - slug: coccinia
-    name: Coccinia
-  - slug: corsican-gourd
-    name: Corsican Gourd
-  - slug: cucamelon
-    name: Cucamelon
-  - slug: dinosaur-gourd
-    name: Dinosaur Gourd
-  - slug: ivy-gourd
-    name: Ivy Gourd
-  - slug: luffa
-    name: Luffa
-  - slug: monky-muskmelon
-    name: Monky Muskmelon
-  - slug: penguin-gourd
-    name: Penguin Gourd
-  - slug: seminole-pumpkin
-    name: Seminole Pumpkin
-  - slug: snake-gourd
-    name: Snake Gourd
-  - slug: wax-gourd
-    name: Wax Gourd
-  - slug: acacia
-    name: Acacia
-  - slug: african-locust-bean
-    name: African Locust Bean
-  - slug: ahipa
-    name: Ahipa
-  - slug: albizia-lebbeck
-    name: Albizia lebbeck
-  - slug: alfalfa
-    name: Alfalfa
-  - slug: asparagus-bean
-    name: Asparagus Bean
-  - slug: baptisia
-    name: Baptisia
-  - slug: bay-bean
-    name: Bay Bean
-  - slug: beach-bean
-    name: Beach Bean
-  - slug: black-medic
-    name: Black Medic
-  - slug: black-mulga
-    name: Black Mulga
-  - slug: black-locust
-    name: Black Locust
-  - slug: bladder-senna
-    name: Bladder Senna
-  - slug: blue-wild-indigo
-    name: Blue Wild Indigo
-  - slug: carob-tree
-    name: Carob Tree
-  - slug: cassia-alata
-    name: Cassia alata
-  - slug: catclaw-sensitive-briar
-    name: Catclaw Sensitive Briar
-  - slug: chickpea
-    name: Chickpea
-  - slug: chilean-pea
-    name: Chilean Pea
-  - slug: coffee-senna
-    name: Coffee Senna
-  - slug: coffeeweed
-    name: Coffeeweed
-  - slug: coral-bean
-    name: Coral Bean
-  - slug: crimson-clover
-    name: Crimson Clover
-  - slug: crown-vetch
-    name: Crown Vetch
-  - slug: desert-ironwood
-    name: Desert Ironwood
-  - slug: dutch-clover
-    name: Dutch Clover
-  - slug: earth-chestnut
-    name: Earth Chestnut
-  - slug: false-indigo
-    name: False Indigo
-  - slug: fava-bean
-    name: Fava Bean
-  - slug: florida-leadplant
-    name: Florida Leadplant
-  - slug: goats-rue
-    name: Goat's Rue
-  - slug: green-bean
-    name: Green Bean
-  - slug: groundnut
-    name: Groundnut
-  - slug: groundplum-milkvetch
-    name: Groundplum Milkvetch
-  - slug: hairy-indigo
-    name: Hairy Indigo
-  - slug: honey-locust
-    name: Honey Locust
-  - slug: hopniss
-    name: Hopniss
-  - slug: hyacinth-bean
-    name: Hyacinth Bean
-  - slug: ice-cream-bean-tree
-    name: Ice Cream Bean Tree
-  - slug: illinois-bundleflower
-    name: Illinois Bundleflower
-  - slug: indigofera-tinctoria
-    name: Indigofera tinctoria
-  - slug: jatoba
-    name: Jatoba
-  - slug: jicama
-    name: Jicama
-  - slug: lablab-bean
-    name: Lablab Bean
-  - slug: lead-plant
-    name: Lead Plant
-  - slug: leucaena
-    name: Leucaena
-  - slug: lupine
-    name: Lupine
-  - slug: mangrove-bean
-    name: Mangrove Bean
-  - slug: milk-vetch
-    name: Milk Vetch
-  - slug: mimosa
-    name: Mimosa
-  - slug: mung-bean
-    name: Mung Bean
-  - slug: palo-verde
-    name: Palo Verde
-  - slug: partridge-acacia
-    name: Partridge Acacia
-  - slug: partridge-cassia
-    name: Partridge Cassia
-  - slug: partridge-pea
-    name: Partridge Pea
-  - slug: pea
-    name: Pea
-  - slug: perennial-peanut
-    name: Perennial Peanut
-  - slug: pigeon-pea
-    name: Pigeon Pea
-  - slug: plains-wild-indigo
-    name: Plains Wild Indigo
-  - slug: powderpuff-mimosa
-    name: Powderpuff Mimosa
-  - slug: prairie-acacia
-    name: Prairie Acacia
-  - slug: prairie-potato
-    name: Prairie Potato
-  - slug: prairie-turnip
-    name: Prairie Turnip
-  - slug: rattlebox
-    name: Rattlebox
-  - slug: sensitive-briar
-    name: Sensitive Briar
-  - slug: sensitive-plant
-    name: Sensitive Plant
-  - slug: sesbania
-    name: Sesbania
-  - slug: sesbania-grandiflora
-    name: Sesbania grandiflora
-  - slug: showy-partridge-pea
-    name: Showy Partridge Pea
-  - slug: siberian-peashrub
-    name: Siberian Peashrub
-  - slug: siberian-pea-shrub
-    name: Siberian Pea Shrub
-  - slug: sicklepod
-    name: Sicklepod
-  - slug: snow-pea
-    name: Snow Pea
-  - slug: sun-hemp
-    name: Sun Hemp
-  - slug: sunshine-mimosa
-    name: Sunshine Mimosa
-  - slug: tagasaste
-    name: Tagasaste
-  - slug: tephrosia-vogelii
-    name: Tephrosia vogelii
-  - slug: tick-trefoil
-    name: Tick Trefoil
-  - slug: trailing-mimosa
-    name: Trailing Mimosa
-  - slug: tree-medick
-    name: Tree Medick
-  - slug: white-wild-indigo
-    name: White Wild Indigo
-  - slug: wild-indigo-bush
-    name: Wild Indigo Bush
-  - slug: wild-indigo
-    name: Wild Indigo
-  - slug: wild-senna
-    name: Wild Senna
-  - slug: winged-bean
-    name: Winged Bean
-  - slug: wisteria
-    name: Wisteria
-  - slug: yam-bean
-    name: Yam Bean
-  - slug: yellow-sweet-clover
-    name: Yellow Sweet Clover
+name: Banded Cucumber Beetle
+slug: banded-cucumber-beetle
+picture: banded_cucumber_beetle.webp
+scientific_name: Diabrotica balteata
+description: If new growth is curling, yellowing, sticky, or chewed, banded cucumber
+  beetle may already be on the plant. This pest often builds quietly, then damage
+  appears all at once. Feeding stress weakens growth, reduces yield, and opens the
+  door to secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- holes-in-leaves
+- skeletonized-leaves
+- chewed-stems
+- wilting
+control_methods:
+  biological_controls: Beneficial nematodes (Heterorhabditis bacteriophora) applied
+    to soil in spring target overwintering larvae and pupae in the soil — apply when
+    soil is above 60F (15C) and keep moist for 2 weeks. Ground beetles are important
+    predators of larvae and eggs in soil — permanent mulch and ground cover nearby
+    supports them. Braconid wasps parasitize larvae. The banded cucumber beetle also
+    transmits bacterial wilt disease on contact — a single beetle can infect a plant
+    in one visit, so prevention matters more than control after damage begins.
+  preventive_methods: The banded cucumber beetle vectors bacterial wilt — prevention
+    is more important than control. Row covers from transplant until flowering completely
+    exclude beetles during the most vulnerable period. Use transplants rather than
+    direct seed — larger plants tolerate feeding better and you gain protection time
+    under cover. Check plants daily in early summer when adults first emerge. Blue
+    Hubbard squash as a trap crop at bed edges concentrates beetles for destruction.
+  cultural_practices: Delay planting 2-3 weeks later than normal — adult beetle pressure
+    drops significantly after the early-season emergence peak. Rotate cucurbit beds
+    at least 100 feet from previous year locations — adults overwinter in field edges
+    near last year's crop. Interplant with radishes, nasturtiums, and catnip which
+    deter cucumber beetles. Remove and destroy crop residues immediately after harvest
+    to eliminate overwintering habitat.
+  mechanical_physical: Row covers until first female flower are the most effective
+    physical control. Yellow sticky traps at plant height monitor adult populations.
+    Vacuum plants in early morning when beetles are sluggish. Beetles drop when disturbed
+    — shake plants over a sheet and collect. Hand-pick egg clusters from soil surface
+    near plant bases in early summer.
+  organic_sprays: Kaolin clay on leaf surfaces deters feeding and egg-laying without
+    harming beneficials — apply every 7 days and after rain, coating new growth thoroughly.
+    Neem oil disrupts beetle feeding and egg-laying — apply weekly as prevention.
+    Spinosad targets larvae effectively as a soil drench in spring — apply when soil
+    temperatures reach 60F (15C). Pyrethrin provides quick knockdown on adults but
+    harms all insects and y at dusk, never near open flowers.
+natural_enemies:
+- Beneficial Nematodes
+- Ground Beetles
+- Braconid Wasps
+affected_plants:
+- slug: acorn-squash
+  name: Acorn Squash
+- slug: angled-loofah
+  name: Angled Loofah
+- slug: apple-gourd
+  name: Apple Gourd
+- slug: birdhouse-gourd
+  name: Birdhouse Gourd
+- slug: bitter-melon
+  name: Bitter Melon
+- slug: bottle-gourd
+  name: Bottle Gourd
+- slug: buffalo-gourd
+  name: Buffalo Gourd
+- slug: bushel-gourd
+  name: Bushel Gourd
+- slug: calabaza
+  name: Calabaza
+- slug: cassabanana-root-systems
+  name: Cassabanana root systems
+- slug: caveman-club-gourd
+  name: Caveman Club Gourd
+- slug: chayote
+  name: Chayote
+- slug: coccinia
+  name: Coccinia
+- slug: corsican-gourd
+  name: Corsican Gourd
+- slug: cucamelon
+  name: Cucamelon
+- slug: dinosaur-gourd
+  name: Dinosaur Gourd
+- slug: ivy-gourd
+  name: Ivy Gourd
+- slug: luffa
+  name: Luffa
+- slug: monky-muskmelon
+  name: Monky Muskmelon
+- slug: penguin-gourd
+  name: Penguin Gourd
+- slug: seminole-pumpkin
+  name: Seminole Pumpkin
+- slug: snake-gourd
+  name: Snake Gourd
+- slug: wax-gourd
+  name: Wax Gourd
+- slug: acacia
+  name: Acacia
+- slug: african-locust-bean
+  name: African Locust Bean
+- slug: ahipa
+  name: Ahipa
+- slug: albizia-lebbeck
+  name: Albizia lebbeck
+- slug: alfalfa
+  name: Alfalfa
+- slug: asparagus-bean
+  name: Asparagus Bean
+- slug: baptisia
+  name: Baptisia
+- slug: bay-bean
+  name: Bay Bean
+- slug: beach-bean
+  name: Beach Bean
+- slug: black-medic
+  name: Black Medic
+- slug: black-mulga
+  name: Black Mulga
+- slug: black-locust
+  name: Black Locust
+- slug: bladder-senna
+  name: Bladder Senna
+- slug: blue-wild-indigo
+  name: Blue Wild Indigo
+- slug: carob-tree
+  name: Carob Tree
+- slug: cassia-alata
+  name: Cassia alata
+- slug: catclaw-sensitive-briar
+  name: Catclaw Sensitive Briar
+- slug: chickpea
+  name: Chickpea
+- slug: chilean-pea
+  name: Chilean Pea
+- slug: coffee-senna
+  name: Coffee Senna
+- slug: coffeeweed
+  name: Coffeeweed
+- slug: coral-bean
+  name: Coral Bean
+- slug: crimson-clover
+  name: Crimson Clover
+- slug: crown-vetch
+  name: Crown Vetch
+- slug: desert-ironwood
+  name: Desert Ironwood
+- slug: dutch-clover
+  name: Dutch Clover
+- slug: earth-chestnut
+  name: Earth Chestnut
+- slug: false-indigo
+  name: False Indigo
+- slug: fava-bean
+  name: Fava Bean
+- slug: florida-leadplant
+  name: Florida Leadplant
+- slug: goats-rue
+  name: Goat's Rue
+- slug: green-bean
+  name: Green Bean
+- slug: groundnut
+  name: Groundnut
+- slug: groundplum-milkvetch
+  name: Groundplum Milkvetch
+- slug: hairy-indigo
+  name: Hairy Indigo
+- slug: honey-locust
+  name: Honey Locust
+- slug: hopniss
+  name: Hopniss
+- slug: hyacinth-bean
+  name: Hyacinth Bean
+- slug: ice-cream-bean-tree
+  name: Ice Cream Bean Tree
+- slug: illinois-bundleflower
+  name: Illinois Bundleflower
+- slug: indigofera-tinctoria
+  name: Indigofera tinctoria
+- slug: jatoba
+  name: Jatoba
+- slug: jicama
+  name: Jicama
+- slug: lablab-bean
+  name: Lablab Bean
+- slug: lead-plant
+  name: Lead Plant
+- slug: leucaena
+  name: Leucaena
+- slug: lupine
+  name: Lupine
+- slug: mangrove-bean
+  name: Mangrove Bean
+- slug: milk-vetch
+  name: Milk Vetch
+- slug: mimosa
+  name: Mimosa
+- slug: mung-bean
+  name: Mung Bean
+- slug: palo-verde
+  name: Palo Verde
+- slug: partridge-acacia
+  name: Partridge Acacia
+- slug: partridge-cassia
+  name: Partridge Cassia
+- slug: partridge-pea
+  name: Partridge Pea
+- slug: pea
+  name: Pea
+- slug: perennial-peanut
+  name: Perennial Peanut
+- slug: pigeon-pea
+  name: Pigeon Pea
+- slug: plains-wild-indigo
+  name: Plains Wild Indigo
+- slug: powderpuff-mimosa
+  name: Powderpuff Mimosa
+- slug: prairie-acacia
+  name: Prairie Acacia
+- slug: prairie-potato
+  name: Prairie Potato
+- slug: prairie-turnip
+  name: Prairie Turnip
+- slug: rattlebox
+  name: Rattlebox
+- slug: sensitive-briar
+  name: Sensitive Briar
+- slug: sensitive-plant
+  name: Sensitive Plant
+- slug: sesbania
+  name: Sesbania
+- slug: sesbania-grandiflora
+  name: Sesbania grandiflora
+- slug: showy-partridge-pea
+  name: Showy Partridge Pea
+- slug: siberian-peashrub
+  name: Siberian Peashrub
+- slug: siberian-pea-shrub
+  name: Siberian Pea Shrub
+- slug: sicklepod
+  name: Sicklepod
+- slug: snow-pea
+  name: Snow Pea
+- slug: sun-hemp
+  name: Sun Hemp
+- slug: sunshine-mimosa
+  name: Sunshine Mimosa
+- slug: tagasaste
+  name: Tagasaste
+- slug: tephrosia-vogelii
+  name: Tephrosia vogelii
+- slug: tick-trefoil
+  name: Tick Trefoil
+- slug: trailing-mimosa
+  name: Trailing Mimosa
+- slug: tree-medick
+  name: Tree Medick
+- slug: white-wild-indigo
+  name: White Wild Indigo
+- slug: wild-indigo-bush
+  name: Wild Indigo Bush
+- slug: wild-indigo
+  name: Wild Indigo
+- slug: wild-senna
+  name: Wild Senna
+- slug: winged-bean
+  name: Winged Bean
+- slug: wisteria
+  name: Wisteria
+- slug: yam-bean
+  name: Yam Bean
+- slug: yellow-sweet-clover
+  name: Yellow Sweet Clover
+category: pest

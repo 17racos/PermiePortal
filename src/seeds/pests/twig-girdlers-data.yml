@@ -1,209 +1,204 @@
----
-- name: Twig Girdlers
-  slug: twig-girdlers
-  picture: twig_girdlers.webp
-  scientific_name: Oncideres spp.
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, twig girdlers may already be on the
-    plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - bark-damage
-  - die-back
-  - wilting
-  - stem-damage
-  control_methods:
-    biological_controls: >-
-      Woodpeckers and other bark-foraging birds hunt twig girdler larvae in cut
-      branches on the ground -- leaving cut branches accessible rather than
-      immediately removing them allows birds to find and eat the larvae inside.
-      Parasitic wasps attack larvae in galleries. Diverse habitat supporting
-      insectivorous birds near orchards and woodlands provides continuous predation
-      pressure on twig girdler populations. Healthy trees with vigorous growth
-      are more tolerant of girdling damage than stressed trees.
-    preventive_methods: >-
-      Twig girdlers are long-horned beetles that cut neat circles around pencil-thick
-      branches in late summer and fall -- the cut branch hangs or falls cleanly,
-      looking like a pruning cut. The female lays eggs in the cut end of the fallen
-      branch and larvae develop in the wood over winter. Finding and destroying fallen
-      girdled branches before larvae complete development breaks the cycle. Scout under
-      trees in August through October for fallen twigs with characteristic clean cuts.
-      Stressed trees attract more girdling beetles -- maintain tree vigor with
-      proper irrigation and soil health.
-    cultural_practices: >-
-      Collect and destroy all fallen girdled branches immediately -- larvae inside
-      complete development in the cut wood and emerge as adults the following summer.
-      Do not chip girdled wood for mulch as larvae inside survive. Bag or burn fallen
-      branches. Avoid excessive nitrogen fertilization which produces soft wood that
-      is easier to girdle. Maintain tree vigor with consistent irrigation during drought
-      since stressed trees attract more adult beetles.
-    mechanical_physical: >-
-      Collect all fallen girdled twigs and branches during August through October
-      when adults are active -- this is the single most impactful management action.
-      Prune out any hanging girdled branches that have not yet fallen to prevent
-      larvae from completing development. Check under trees weekly during girdling
-      season. Sticky trunk bands catch some adult beetles but are not reliable as
-      a primary control.
-    organic_sprays: >-
-      Kaolin clay applied to trunk bark and major limb surfaces during adult activity
-      (August through October) deters female beetles from laying eggs in girdled
-      branches. Neem oil on bark surfaces disrupts adult feeding and egg-laying
-      behavior. Pyrethrin provides quick knockdown of adults during peak emergence
-      but degrades in hours -- apply at dusk as a last resort for high-value trees
-      with severe annual pressure. No spray is as effective as collecting and destroying
-      fallen girdled branches.
-  natural_enemies:
-  - Birds
-  - Parasitic Wasps
-  - Predatory Beetles
-  affected_plants:
-  - slug: agrimony
-    name: Agrimony
-  - slug: allegheny-serviceberry
-    name: Allegheny Serviceberry
-  - slug: almond-tree
-    name: Almond Tree
-  - slug: american-beauty-plum
-    name: American Beauty Plum
-  - slug: american-hawthorn
-    name: American Hawthorn
-  - slug: american-plum
-    name: American Plum
-  - slug: apple
-    name: Apple
-  - slug: aronia
-    name: Aronia
-  - slug: beach-strawberry
-    name: Beach Strawberry
-  - slug: bearberry-cotoneaster
-    name: Bearberry Cotoneaster
-  - slug: black-chokeberry
-    name: Black Chokeberry
-  - slug: buffalo-plum
-    name: Buffalo Plum
-  - slug: carolina-rose
-    name: Carolina Rose
-  - slug: chickasaw-blackberry
-    name: Chickasaw Blackberry
-  - slug: chickasaw-plum
-    name: Chickasaw Plum
-  - slug: chokeberry
-    name: Chokeberry
-  - slug: climbing-prairie-rose
-    name: Climbing Prairie Rose
-  - slug: cloudberry
-    name: Cloudberry
-  - slug: cockspur-hawthorn
-    name: Cockspur Hawthorn
-  - slug: creeping-raspberry
-    name: Creeping Raspberry
-  - slug: dewberry
-    name: Dewberry
-  - slug: dotted-hawthorn
-    name: Dotted Hawthorn
-  - slug: downy-serviceberry
-    name: Downy Serviceberry
-  - slug: flatwoods-plum
-    name: Flatwoods Plum
-  - slug: frosted-hawthorn
-    name: Frosted Hawthorn
-  - slug: green-hawthorn
-    name: Green Hawthorn
-  - slug: green-apple-tree
-    name: Green Apple Tree
-  - slug: hedge-cotoneaster
-    name: Hedge Cotoneaster
-  - slug: hortulan-plum
-    name: Hortulan Plum
-  - slug: loquat
-    name: Loquat
-  - slug: many-flowered-cotoneaster
-    name: Many Flowered Cotoneaster
-  - slug: mayhaw
-    name: Mayhaw
-  - slug: meadowsweet
-    name: Meadowsweet
-  - slug: munson-plum
-    name: Munson Plum
-  - slug: nectarine-tree
-    name: Nectarine Tree
-  - slug: parsley-hawthorn
-    name: Parsley Hawthorn
-  - slug: pasture-rose
-    name: Pasture Rose
-  - slug: pear-hawthorn
-    name: Pear Hawthorn
-  - slug: pear-tree
-    name: Pear Tree
-  - slug: pineapple-pear
-    name: Pineapple Pear
-  - slug: prairie-crabapple
-    name: Prairie Crabapple
-  - slug: purple-chokeberry
-    name: Purple Chokeberry
-  - slug: raspberry
-    name: Raspberry
-  - slug: red-chokeberry
-    name: Red Chokeberry
-  - slug: red-apple-tree
-    name: Red Apple Tree
-  - slug: rock-cotoneaster
-    name: Rock Cotoneaster
-  - slug: roundleaf-serviceberry
-    name: Roundleaf Serviceberry
-  - slug: running-serviceberry
-    name: Running Serviceberry
-  - slug: sand-blackberry
-    name: Sand Blackberry
-  - slug: sand-cherry
-    name: Sand Cherry
-  - slug: saskatoon-berry
-    name: Saskatoon Berry
-  - slug: serviceberry
-    name: Serviceberry
-  - slug: silverleaf-cotoneaster
-    name: Silverleaf Cotoneaster
-  - slug: smooth-serviceberry
-    name: Smooth Serviceberry
-  - slug: southern-crabapple
-    name: Southern Crabapple
-  - slug: southern-dewberry
-    name: Southern Dewberry
-  - slug: southern-hawthorn
-    name: Southern Hawthorn
-  - slug: strawberry
-    name: Strawberry
-  - slug: swamp-rose
-    name: Swamp Rose
-  - slug: sweet-crabapple
-    name: Sweet Crabapple
-  - slug: virginia-rose
-    name: Virginia Rose
-  - slug: wild-crabapple
-    name: Wild Crabapple
-  - slug: wild-plum
-    name: Wild Plum
-  - slug: allegheny-chinquapin
-    name: Allegheny Chinquapin
-  - slug: bluejack-oak
-    name: Bluejack Oak
-  - slug: bush-chinquapin
-    name: Bush Chinquapin
-  - slug: dwarf-chestnut
-    name: Dwarf Chestnut
-  - slug: dwarf-live-oak
-    name: Dwarf Live Oak
-  - slug: golden-chinquapin
-    name: Golden Chinquapin
-  - slug: myrtle-oak
-    name: Myrtle Oak
-  - slug: sand-live-oak
-    name: Sand Live Oak
-  - slug: turkey-oak
-    name: Turkey Oak
+name: Twig Girdlers
+slug: twig-girdlers
+picture: twig_girdlers.webp
+scientific_name: Oncideres spp.
+description: If new growth is curling, yellowing, sticky, or chewed, twig girdlers
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- bark-damage
+- die-back
+- wilting
+- stem-damage
+control_methods:
+  biological_controls: Woodpeckers and other bark-foraging birds hunt twig girdler
+    larvae in cut branches on the ground -- leaving cut branches accessible rather
+    than immediately removing them allows birds to find and eat the larvae inside.
+    Parasitic wasps attack larvae in galleries. Diverse habitat supporting insectivorous
+    birds near orchards and woodlands provides continuous predation pressure on twig
+    girdler populations. Healthy trees with vigorous growth are more tolerant of girdling
+    damage than stressed trees.
+  preventive_methods: Twig girdlers are long-horned beetles that cut neat circles
+    around pencil-thick branches in late summer and fall -- the cut branch hangs or
+    falls cleanly, looking like a pruning cut. The female lays eggs in the cut end
+    of the fallen branch and larvae develop in the wood over winter. Finding and destroying
+    fallen girdled branches before larvae complete development breaks the cycle. Scout
+    under trees in August through October for fallen twigs with characteristic clean
+    cuts. Stressed trees attract more girdling beetles -- maintain tree vigor with
+    proper irrigation and soil health.
+  cultural_practices: Collect and destroy all fallen girdled branches immediately
+    -- larvae inside complete development in the cut wood and emerge as adults the
+    following summer. Do not chip girdled wood for mulch as larvae inside survive.
+    Bag or burn fallen branches. Avoid excessive nitrogen fertilization which produces
+    soft wood that is easier to girdle. Maintain tree vigor with consistent irrigation
+    during drought since stressed trees attract more adult beetles.
+  mechanical_physical: Collect all fallen girdled twigs and branches during August
+    through October when adults are active -- this is the single most impactful management
+    action. Prune out any hanging girdled branches that have not yet fallen to prevent
+    larvae from completing development. Check under trees weekly during girdling season.
+    Sticky trunk bands catch some adult beetles but are not reliable as a primary
+    control.
+  organic_sprays: Kaolin clay applied to trunk bark and major limb surfaces during
+    adult activity (August through October) deters female beetles from laying eggs
+    in girdled branches. Neem oil on bark surfaces disrupts adult feeding and egg-laying
+    behavior. Pyrethrin provides quick knockdown of adults during peak emergence but
+    degrades in hours -- apply at dusk as a last resort for high-value trees with
+    severe annual pressure. No spray is as effective as collecting and destroying
+    fallen girdled branches.
+natural_enemies:
+- Birds
+- Parasitic Wasps
+- Predatory Beetles
+affected_plants:
+- slug: agrimony
+  name: Agrimony
+- slug: allegheny-serviceberry
+  name: Allegheny Serviceberry
+- slug: almond-tree
+  name: Almond Tree
+- slug: american-beauty-plum
+  name: American Beauty Plum
+- slug: american-hawthorn
+  name: American Hawthorn
+- slug: american-plum
+  name: American Plum
+- slug: apple
+  name: Apple
+- slug: aronia
+  name: Aronia
+- slug: beach-strawberry
+  name: Beach Strawberry
+- slug: bearberry-cotoneaster
+  name: Bearberry Cotoneaster
+- slug: black-chokeberry
+  name: Black Chokeberry
+- slug: buffalo-plum
+  name: Buffalo Plum
+- slug: carolina-rose
+  name: Carolina Rose
+- slug: chickasaw-blackberry
+  name: Chickasaw Blackberry
+- slug: chickasaw-plum
+  name: Chickasaw Plum
+- slug: chokeberry
+  name: Chokeberry
+- slug: climbing-prairie-rose
+  name: Climbing Prairie Rose
+- slug: cloudberry
+  name: Cloudberry
+- slug: cockspur-hawthorn
+  name: Cockspur Hawthorn
+- slug: creeping-raspberry
+  name: Creeping Raspberry
+- slug: dewberry
+  name: Dewberry
+- slug: dotted-hawthorn
+  name: Dotted Hawthorn
+- slug: downy-serviceberry
+  name: Downy Serviceberry
+- slug: flatwoods-plum
+  name: Flatwoods Plum
+- slug: frosted-hawthorn
+  name: Frosted Hawthorn
+- slug: green-hawthorn
+  name: Green Hawthorn
+- slug: green-apple-tree
+  name: Green Apple Tree
+- slug: hedge-cotoneaster
+  name: Hedge Cotoneaster
+- slug: hortulan-plum
+  name: Hortulan Plum
+- slug: loquat
+  name: Loquat
+- slug: many-flowered-cotoneaster
+  name: Many Flowered Cotoneaster
+- slug: mayhaw
+  name: Mayhaw
+- slug: meadowsweet
+  name: Meadowsweet
+- slug: munson-plum
+  name: Munson Plum
+- slug: nectarine-tree
+  name: Nectarine Tree
+- slug: parsley-hawthorn
+  name: Parsley Hawthorn
+- slug: pasture-rose
+  name: Pasture Rose
+- slug: pear-hawthorn
+  name: Pear Hawthorn
+- slug: pear-tree
+  name: Pear Tree
+- slug: pineapple-pear
+  name: Pineapple Pear
+- slug: prairie-crabapple
+  name: Prairie Crabapple
+- slug: purple-chokeberry
+  name: Purple Chokeberry
+- slug: raspberry
+  name: Raspberry
+- slug: red-chokeberry
+  name: Red Chokeberry
+- slug: red-apple-tree
+  name: Red Apple Tree
+- slug: rock-cotoneaster
+  name: Rock Cotoneaster
+- slug: roundleaf-serviceberry
+  name: Roundleaf Serviceberry
+- slug: running-serviceberry
+  name: Running Serviceberry
+- slug: sand-blackberry
+  name: Sand Blackberry
+- slug: sand-cherry
+  name: Sand Cherry
+- slug: saskatoon-berry
+  name: Saskatoon Berry
+- slug: serviceberry
+  name: Serviceberry
+- slug: silverleaf-cotoneaster
+  name: Silverleaf Cotoneaster
+- slug: smooth-serviceberry
+  name: Smooth Serviceberry
+- slug: southern-crabapple
+  name: Southern Crabapple
+- slug: southern-dewberry
+  name: Southern Dewberry
+- slug: southern-hawthorn
+  name: Southern Hawthorn
+- slug: strawberry
+  name: Strawberry
+- slug: swamp-rose
+  name: Swamp Rose
+- slug: sweet-crabapple
+  name: Sweet Crabapple
+- slug: virginia-rose
+  name: Virginia Rose
+- slug: wild-crabapple
+  name: Wild Crabapple
+- slug: wild-plum
+  name: Wild Plum
+- slug: allegheny-chinquapin
+  name: Allegheny Chinquapin
+- slug: bluejack-oak
+  name: Bluejack Oak
+- slug: bush-chinquapin
+  name: Bush Chinquapin
+- slug: dwarf-chestnut
+  name: Dwarf Chestnut
+- slug: dwarf-live-oak
+  name: Dwarf Live Oak
+- slug: golden-chinquapin
+  name: Golden Chinquapin
+- slug: myrtle-oak
+  name: Myrtle Oak
+- slug: sand-live-oak
+  name: Sand Live Oak
+- slug: turkey-oak
+  name: Turkey Oak
+category: pest

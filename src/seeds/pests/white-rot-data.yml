@@ -1,258 +1,252 @@
----
-- name: White Rot
-  slug: white-rot
-  picture: white_rot.webp
-  scientific_name: Sclerotinia sclerotiorum
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, white rot may already
-    be active. This problem often starts small, then spreads across healthy tissue before most
-    growers realize how serious it is. Warmth, moisture, and crowded foliage usually speed it
-    up. Treat early, because waiting even a few days can turn a manageable infection into major
-    crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - wilting
-  - crown-damage
-  - root-damage
-  - yellowing-leaves
-  control_methods:
-    biological_controls: >-
-      Coniothyrium minitans (Contans WG) is a commercially available fungal parasite
-      that specifically attacks Sclerotinia sclerotiorum sclerotia in soil -- the
-      resting bodies that allow white rot to persist for 20+ years. Apply to soil
-      before planting susceptible crops and incorporate shallowly. It takes months to
-      work but provides multi-season suppression. Bacillus subtilis and Trichoderma
-      products colonize soil competitively around roots and reduce Sclerotinia
-      infection rates. Healthy diverse soil biology generally suppresses Sclerotinia
-      more than sterile or depleted soils.
-    preventive_methods: >-
-      White rot (Sclerotinia sclerotiorum) produces white cottony mycelium with black
-      mustard-seed-sized sclerotia on infected stems and crowns -- unmistakable when
-      present. It infects through flowers and dead tissue, then spreads into stems
-      causing sudden wilting and collapse. Sclerotia persist in soil for 20+ years
-      making rotation ineffective without at least 5-6 year breaks from susceptible
-      hosts. Avoid overhead irrigation that keeps canopy wet. Remove and destroy all
-      infected plant material including root crowns immediately -- never compost.
-    cultural_practices: >-
-      Wide plant spacing for maximum air circulation is the most impactful cultural
-      practice -- dense canopies that stay humid for extended periods after rain
-      are highest risk. Avoid overhead irrigation -- drip irrigation keeps the
-      canopy dry and dramatically reduces infection. Remove and destroy all infected
-      plant material including roots and surrounding soil immediately. Do not compost
-      or chip infected material. Incorporate Coniothyrium minitans into crop rotation
-      plans for fields with a history of white rot.
-    mechanical_physical: >-
-      Remove infected plants immediately including the full root crown and a trowel
-      of surrounding soil -- sclerotia in soil spread the infection to adjacent
-      plants. Bag for disposal, never compost. Soil solarization (clear plastic over
-      moist soil for 6-8 weeks in summer) reduces sclerotia viability in the top
-      6 inches of soil where most infections originate. Avoid any tillage that moves
-      infected soil to new areas.
-    organic_sprays: >-
-      Copper-based fungicides applied preventively during high-risk flowering periods
-      reduce infection rates -- apply before wet weather when blossoms are open.
-      Bacillus subtilis (Serenade) as a preventive foliar spray during flowering
-      provides some protection against blossom infection. Potassium bicarbonate
-      kills Sclerotinia spores on contact. No spray cures white rot already established
-      in plant tissue -- remove infected plants immediately and protect healthy ones.
-  natural_enemies:
-  - Beneficial Microbes
-  - Antagonistic Fungi
-  affected_plants:
-  - slug: chives
-    name: Chives
-  - slug: garlic
-    name: Garlic
-  - slug: onion
-    name: Onion
-  - slug: perennial-leek
-    name: Perennial Leek
-  - slug: ramps
-    name: Ramps
-  - slug: society-garlic
-    name: Society Garlic
-  - slug: walking-onion
-    name: Walking Onion
-  - slug: wild-leek
-    name: Wild Leek
-  - slug: acacia
-    name: Acacia
-  - slug: african-locust-bean
-    name: African Locust Bean
-  - slug: ahipa
-    name: Ahipa
-  - slug: albizia-lebbeck
-    name: Albizia lebbeck
-  - slug: alfalfa
-    name: Alfalfa
-  - slug: asparagus-bean
-    name: Asparagus Bean
-  - slug: baptisia
-    name: Baptisia
-  - slug: bay-bean
-    name: Bay Bean
-  - slug: beach-bean
-    name: Beach Bean
-  - slug: black-medic
-    name: Black Medic
-  - slug: black-mulga
-    name: Black Mulga
-  - slug: black-locust
-    name: Black Locust
-  - slug: bladder-senna
-    name: Bladder Senna
-  - slug: blue-wild-indigo
-    name: Blue Wild Indigo
-  - slug: carob-tree
-    name: Carob Tree
-  - slug: cassia-alata
-    name: Cassia alata
-  - slug: catclaw-sensitive-briar
-    name: Catclaw Sensitive Briar
-  - slug: chickpea
-    name: Chickpea
-  - slug: chilean-pea
-    name: Chilean Pea
-  - slug: coffee-senna
-    name: Coffee Senna
-  - slug: coffeeweed
-    name: Coffeeweed
-  - slug: coral-bean
-    name: Coral Bean
-  - slug: crimson-clover
-    name: Crimson Clover
-  - slug: crown-vetch
-    name: Crown Vetch
-  - slug: desert-ironwood
-    name: Desert Ironwood
-  - slug: dutch-clover
-    name: Dutch Clover
-  - slug: earth-chestnut
-    name: Earth Chestnut
-  - slug: false-indigo
-    name: False Indigo
-  - slug: fava-bean
-    name: Fava Bean
-  - slug: florida-leadplant
-    name: Florida Leadplant
-  - slug: goats-rue
-    name: Goat's Rue
-  - slug: green-bean
-    name: Green Bean
-  - slug: groundnut
-    name: Groundnut
-  - slug: groundplum-milkvetch
-    name: Groundplum Milkvetch
-  - slug: hairy-indigo
-    name: Hairy Indigo
-  - slug: honey-locust
-    name: Honey Locust
-  - slug: hopniss
-    name: Hopniss
-  - slug: hyacinth-bean
-    name: Hyacinth Bean
-  - slug: ice-cream-bean-tree
-    name: Ice Cream Bean Tree
-  - slug: illinois-bundleflower
-    name: Illinois Bundleflower
-  - slug: indigofera-tinctoria
-    name: Indigofera tinctoria
-  - slug: jatoba
-    name: Jatoba
-  - slug: jicama
-    name: Jicama
-  - slug: lablab-bean
-    name: Lablab Bean
-  - slug: lead-plant
-    name: Lead Plant
-  - slug: leucaena
-    name: Leucaena
-  - slug: lupine
-    name: Lupine
-  - slug: mangrove-bean
-    name: Mangrove Bean
-  - slug: milk-vetch
-    name: Milk Vetch
-  - slug: mimosa
-    name: Mimosa
-  - slug: mung-bean
-    name: Mung Bean
-  - slug: palo-verde
-    name: Palo Verde
-  - slug: partridge-acacia
-    name: Partridge Acacia
-  - slug: partridge-cassia
-    name: Partridge Cassia
-  - slug: partridge-pea
-    name: Partridge Pea
-  - slug: pea
-    name: Pea
-  - slug: perennial-peanut
-    name: Perennial Peanut
-  - slug: pigeon-pea
-    name: Pigeon Pea
-  - slug: plains-wild-indigo
-    name: Plains Wild Indigo
-  - slug: powderpuff-mimosa
-    name: Powderpuff Mimosa
-  - slug: prairie-acacia
-    name: Prairie Acacia
-  - slug: prairie-potato
-    name: Prairie Potato
-  - slug: prairie-turnip
-    name: Prairie Turnip
-  - slug: rattlebox
-    name: Rattlebox
-  - slug: sensitive-briar
-    name: Sensitive Briar
-  - slug: sensitive-plant
-    name: Sensitive Plant
-  - slug: sesbania
-    name: Sesbania
-  - slug: sesbania-grandiflora
-    name: Sesbania grandiflora
-  - slug: showy-partridge-pea
-    name: Showy Partridge Pea
-  - slug: siberian-peashrub
-    name: Siberian Peashrub
-  - slug: siberian-pea-shrub
-    name: Siberian Pea Shrub
-  - slug: sicklepod
-    name: Sicklepod
-  - slug: snow-pea
-    name: Snow Pea
-  - slug: sun-hemp
-    name: Sun Hemp
-  - slug: sunshine-mimosa
-    name: Sunshine Mimosa
-  - slug: tagasaste
-    name: Tagasaste
-  - slug: tephrosia-vogelii
-    name: Tephrosia vogelii
-  - slug: tick-trefoil
-    name: Tick Trefoil
-  - slug: trailing-mimosa
-    name: Trailing Mimosa
-  - slug: tree-medick
-    name: Tree Medick
-  - slug: white-wild-indigo
-    name: White Wild Indigo
-  - slug: wild-indigo-bush
-    name: Wild Indigo Bush
-  - slug: wild-indigo
-    name: Wild Indigo
-  - slug: wild-senna
-    name: Wild Senna
-  - slug: winged-bean
-    name: Winged Bean
-  - slug: wisteria
-    name: Wisteria
-  - slug: yam-bean
-    name: Yam Bean
-  - slug: yellow-sweet-clover
-    name: Yellow Sweet Clover
+name: White Rot
+slug: white-rot
+picture: white_rot.webp
+scientific_name: Sclerotinia sclerotiorum
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  white rot may already be active. This problem often starts small, then spreads across
+  healthy tissue before most growers realize how serious it is. Warmth, moisture,
+  and crowded foliage usually speed it up. Treat early, because waiting even a few
+  days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- wilting
+- crown-damage
+- root-damage
+- yellowing-leaves
+control_methods:
+  biological_controls: Coniothyrium minitans (Contans WG) is a commercially available
+    fungal parasite that specifically attacks Sclerotinia sclerotiorum sclerotia in
+    soil -- the resting bodies that allow white rot to persist for 20+ years. Apply
+    to soil before planting susceptible crops and incorporate shallowly. It takes
+    months to work but provides multi-season suppression. Bacillus subtilis and Trichoderma
+    products colonize soil competitively around roots and reduce Sclerotinia infection
+    rates. Healthy diverse soil biology generally suppresses Sclerotinia more than
+    sterile or depleted soils.
+  preventive_methods: White rot (Sclerotinia sclerotiorum) produces white cottony
+    mycelium with black mustard-seed-sized sclerotia on infected stems and crowns
+    -- unmistakable when present. It infects through flowers and dead tissue, then
+    spreads into stems causing sudden wilting and collapse. Sclerotia persist in soil
+    for 20+ years making rotation ineffective without at least 5-6 year breaks from
+    susceptible hosts. Avoid overhead irrigation that keeps canopy wet. Remove and
+    destroy all infected plant material including root crowns immediately -- never
+    compost.
+  cultural_practices: Wide plant spacing for maximum air circulation is the most impactful
+    cultural practice -- dense canopies that stay humid for extended periods after
+    rain are highest risk. Avoid overhead irrigation -- drip irrigation keeps the
+    canopy dry and dramatically reduces infection. Remove and destroy all infected
+    plant material including roots and surrounding soil immediately. Do not compost
+    or chip infected material. Incorporate Coniothyrium minitans into crop rotation
+    plans for fields with a history of white rot.
+  mechanical_physical: Remove infected plants immediately including the full root
+    crown and a trowel of surrounding soil -- sclerotia in soil spread the infection
+    to adjacent plants. Bag for disposal, never compost. Soil solarization (clear
+    plastic over moist soil for 6-8 weeks in summer) reduces sclerotia viability in
+    the top 6 inches of soil where most infections originate. Avoid any tillage that
+    moves infected soil to new areas.
+  organic_sprays: Copper-based fungicides applied preventively during high-risk flowering
+    periods reduce infection rates -- apply before wet weather when blossoms are open.
+    Bacillus subtilis (Serenade) as a preventive foliar spray during flowering provides
+    some protection against blossom infection. Potassium bicarbonate kills Sclerotinia
+    spores on contact. No spray cures white rot already established in plant tissue
+    -- remove infected plants immediately and protect healthy ones.
+natural_enemies:
+- Beneficial Microbes
+- Antagonistic Fungi
+affected_plants:
+- slug: chives
+  name: Chives
+- slug: garlic
+  name: Garlic
+- slug: onion
+  name: Onion
+- slug: perennial-leek
+  name: Perennial Leek
+- slug: ramps
+  name: Ramps
+- slug: society-garlic
+  name: Society Garlic
+- slug: walking-onion
+  name: Walking Onion
+- slug: wild-leek
+  name: Wild Leek
+- slug: acacia
+  name: Acacia
+- slug: african-locust-bean
+  name: African Locust Bean
+- slug: ahipa
+  name: Ahipa
+- slug: albizia-lebbeck
+  name: Albizia lebbeck
+- slug: alfalfa
+  name: Alfalfa
+- slug: asparagus-bean
+  name: Asparagus Bean
+- slug: baptisia
+  name: Baptisia
+- slug: bay-bean
+  name: Bay Bean
+- slug: beach-bean
+  name: Beach Bean
+- slug: black-medic
+  name: Black Medic
+- slug: black-mulga
+  name: Black Mulga
+- slug: black-locust
+  name: Black Locust
+- slug: bladder-senna
+  name: Bladder Senna
+- slug: blue-wild-indigo
+  name: Blue Wild Indigo
+- slug: carob-tree
+  name: Carob Tree
+- slug: cassia-alata
+  name: Cassia alata
+- slug: catclaw-sensitive-briar
+  name: Catclaw Sensitive Briar
+- slug: chickpea
+  name: Chickpea
+- slug: chilean-pea
+  name: Chilean Pea
+- slug: coffee-senna
+  name: Coffee Senna
+- slug: coffeeweed
+  name: Coffeeweed
+- slug: coral-bean
+  name: Coral Bean
+- slug: crimson-clover
+  name: Crimson Clover
+- slug: crown-vetch
+  name: Crown Vetch
+- slug: desert-ironwood
+  name: Desert Ironwood
+- slug: dutch-clover
+  name: Dutch Clover
+- slug: earth-chestnut
+  name: Earth Chestnut
+- slug: false-indigo
+  name: False Indigo
+- slug: fava-bean
+  name: Fava Bean
+- slug: florida-leadplant
+  name: Florida Leadplant
+- slug: goats-rue
+  name: Goat's Rue
+- slug: green-bean
+  name: Green Bean
+- slug: groundnut
+  name: Groundnut
+- slug: groundplum-milkvetch
+  name: Groundplum Milkvetch
+- slug: hairy-indigo
+  name: Hairy Indigo
+- slug: honey-locust
+  name: Honey Locust
+- slug: hopniss
+  name: Hopniss
+- slug: hyacinth-bean
+  name: Hyacinth Bean
+- slug: ice-cream-bean-tree
+  name: Ice Cream Bean Tree
+- slug: illinois-bundleflower
+  name: Illinois Bundleflower
+- slug: indigofera-tinctoria
+  name: Indigofera tinctoria
+- slug: jatoba
+  name: Jatoba
+- slug: jicama
+  name: Jicama
+- slug: lablab-bean
+  name: Lablab Bean
+- slug: lead-plant
+  name: Lead Plant
+- slug: leucaena
+  name: Leucaena
+- slug: lupine
+  name: Lupine
+- slug: mangrove-bean
+  name: Mangrove Bean
+- slug: milk-vetch
+  name: Milk Vetch
+- slug: mimosa
+  name: Mimosa
+- slug: mung-bean
+  name: Mung Bean
+- slug: palo-verde
+  name: Palo Verde
+- slug: partridge-acacia
+  name: Partridge Acacia
+- slug: partridge-cassia
+  name: Partridge Cassia
+- slug: partridge-pea
+  name: Partridge Pea
+- slug: pea
+  name: Pea
+- slug: perennial-peanut
+  name: Perennial Peanut
+- slug: pigeon-pea
+  name: Pigeon Pea
+- slug: plains-wild-indigo
+  name: Plains Wild Indigo
+- slug: powderpuff-mimosa
+  name: Powderpuff Mimosa
+- slug: prairie-acacia
+  name: Prairie Acacia
+- slug: prairie-potato
+  name: Prairie Potato
+- slug: prairie-turnip
+  name: Prairie Turnip
+- slug: rattlebox
+  name: Rattlebox
+- slug: sensitive-briar
+  name: Sensitive Briar
+- slug: sensitive-plant
+  name: Sensitive Plant
+- slug: sesbania
+  name: Sesbania
+- slug: sesbania-grandiflora
+  name: Sesbania grandiflora
+- slug: showy-partridge-pea
+  name: Showy Partridge Pea
+- slug: siberian-peashrub
+  name: Siberian Peashrub
+- slug: siberian-pea-shrub
+  name: Siberian Pea Shrub
+- slug: sicklepod
+  name: Sicklepod
+- slug: snow-pea
+  name: Snow Pea
+- slug: sun-hemp
+  name: Sun Hemp
+- slug: sunshine-mimosa
+  name: Sunshine Mimosa
+- slug: tagasaste
+  name: Tagasaste
+- slug: tephrosia-vogelii
+  name: Tephrosia vogelii
+- slug: tick-trefoil
+  name: Tick Trefoil
+- slug: trailing-mimosa
+  name: Trailing Mimosa
+- slug: tree-medick
+  name: Tree Medick
+- slug: white-wild-indigo
+  name: White Wild Indigo
+- slug: wild-indigo-bush
+  name: Wild Indigo Bush
+- slug: wild-indigo
+  name: Wild Indigo
+- slug: wild-senna
+  name: Wild Senna
+- slug: winged-bean
+  name: Winged Bean
+- slug: wisteria
+  name: Wisteria
+- slug: yam-bean
+  name: Yam Bean
+- slug: yellow-sweet-clover
+  name: Yellow Sweet Clover
+category: disease

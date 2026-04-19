@@ -1,48 +1,44 @@
----
-- name: Parsley Worms
-  slug: parsley-worms
-  picture: parsley_worms.webp
-  scientific_name: Depressaria sp.
-  description: >-
-    If leaves look shredded overnight or fruit has fresh chew holes, parsley worms may be
-    feeding right now. These larvae can eat fast and strip a healthy plant in a short window.
-    Young stages are easy to miss, then damage suddenly explodes as they grow. Catch them early
-    to avoid severe defoliation and contaminated harvests.
-  characteristics: >-
-    Check leaf undersides, growing tips, and stem junctions for eggs, frass pellets, and feeding
-    scars. Larvae vary in color, but most have a soft segmented body and blend into foliage.
-    Look at dusk or early morning when many species feed more actively. Fresh chewing plus live
-    larvae or droppings on lower leaves confirms an active caterpillar outbreak.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - skeletonized-leaves
-  control_methods:
-    biological_controls: >-
-      Parasitic wasps attack black swallowtail and related caterpillars; Cotesia cocoons on a
-      still-living caterpillar mean help arrived. Birds and assassin bugs pick off larvae on
-      outer umbels. If you want butterflies later, leave lightly parasitized cats alone. Broad
-      sprays during summer kill parasitoids faster than they kill large larvae.
-    preventive_methods: >-
-      Inspect parsley, dill, and fennel for round eggs on leaf tips from midsummer onward --
-      crush eggs or move larvae to a sacrificial hedge. Decide if parsley is food or butterfly
-      habitat on this bed; mixed goals confuse spraying. Flag rows near last year's outbreak;
-      females often return to the same genetics.
-    cultural_practices: >-
-      Plant extra dill or fennel as a trap crop so egg layers find it before kitchen parsley.
-      Adequate spacing helps leaves dry after dew; tight, humid pockets favor mold more than they
-      repel moths. Intercropping alone does not hide parsley from flying adults.
-    mechanical_physical: >-
-      Hand-pick caterpillars into soapy water when numbers are low -- fast on a patio pot, slow
-      on a farm acre. Floating row covers block adult swallowtails until you remove covers for
-      harvest or pollination.
-    organic_sprays: >-
-      Bacillus thuringiensis kurstaki kills feeding larvae that eat sprayed tissue -- spot-spray
-      individuals you cannot relocate. Neem reduces feeding on small larvae; coverage must hit
-      where they chew. Spray at dusk to spare syrphid eggs on nearby flowers. If the goal is
-      habitat, skip sprays and use picking.
-  natural_enemies:
-  - Parasitic Wasps
-  - Birds
-  - Predatory Insects
+name: Parsley Worms
+slug: parsley-worms
+picture: parsley_worms.webp
+scientific_name: Depressaria sp.
+description: If leaves look shredded overnight or fruit has fresh chew holes, parsley
+  worms may be feeding right now. These larvae can eat fast and strip a healthy plant
+  in a short window. Young stages are easy to miss, then damage suddenly explodes
+  as they grow. Catch them early to avoid severe defoliation and contaminated harvests.
+characteristics: Check leaf undersides, growing tips, and stem junctions for eggs,
+  frass pellets, and feeding scars. Larvae vary in color, but most have a soft segmented
+  body and blend into foliage. Look at dusk or early morning when many species feed
+  more actively. Fresh chewing plus live larvae or droppings on lower leaves confirms
+  an active caterpillar outbreak.
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- skeletonized-leaves
+control_methods:
+  biological_controls: Parasitic wasps attack black swallowtail and related caterpillars;
+    Cotesia cocoons on a still-living caterpillar mean help arrived. Birds and assassin
+    bugs pick off larvae on outer umbels. If you want butterflies later, leave lightly
+    parasitized cats alone. Broad sprays during summer kill parasitoids faster than
+    they kill large larvae.
+  preventive_methods: Inspect parsley, dill, and fennel for round eggs on leaf tips
+    from midsummer onward -- crush eggs or move larvae to a sacrificial hedge. Decide
+    if parsley is food or butterfly habitat on this bed; mixed goals confuse spraying.
+    Flag rows near last year's outbreak; females often return to the same genetics.
+  cultural_practices: Plant extra dill or fennel as a trap crop so egg layers find
+    it before kitchen parsley. Adequate spacing helps leaves dry after dew; tight,
+    humid pockets favor mold more than they repel moths. Intercropping alone does
+    not hide parsley from flying adults.
+  mechanical_physical: Hand-pick caterpillars into soapy water when numbers are low
+    -- fast on a patio pot, slow on a farm acre. Floating row covers block adult swallowtails
+    until you remove covers for harvest or pollination.
+  organic_sprays: Bacillus thuringiensis kurstaki kills feeding larvae that eat sprayed
+    tissue -- spot-spray individuals you cannot relocate. Neem reduces feeding on
+    small larvae; coverage must hit where they chew. Spray at dusk to spare syrphid
+    eggs on nearby flowers. If the goal is habitat, skip sprays and use picking.
+natural_enemies:
+- Parasitic Wasps
+- Birds
+- Predatory Insects
+category: pest

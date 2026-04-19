@@ -1,100 +1,98 @@
----
-- name: Blueberry Maggot
-  slug: blueberry-maggot
-  picture: blueberry_maggot.webp
-  scientific_name: Rhagoletis mendax
-  description: >-
-    If leaves show trails, fruit turns soft, or roots collapse from inside, blueberry maggot may
-    already be feeding. The larval stage does most of the damage, often hidden where you cannot
-    see it at first glance. By the time yellowing or rot appears, feeding may be well underway.
-    Move quickly when symptoms begin to prevent another wave of eggs and larvae.
-  characteristics: >-
-    Watch for tiny eggs near plant tissue, pale legless larvae inside mines or fruit, and sudden
-    soft spots or tunnels. Adults are usually small flies that hover or dart when disturbed.
-    Check around wounds, blossoms, and moist plant debris where egg-laying is common. Cut open
-    suspect tissue: live maggots or fresh tunnels are the clearest field confirmation.
-  symptoms:
-  - root-damage
-  - wilting
-  - yellowing-leaves
-  - holes-in-leaves
-  control_methods:
-    biological_controls: >-
-      Parasitic wasps attack pupae in soil; ground beetles eat larvae in dropped berries; birds
-      and chickens pick larvae from berries on the ground. These helpers help only if you leave
-      some soil surface undisturbed and avoid nightly pyrethrin baths across the whole farm.
-      Nematodes labeled for pupae sometimes work in light soils when soil temperature fits
-      the product. Chickens under bushes after harvest are biocontrol with a business plan.
-    preventive_methods: >-
-      Rhagoletis mendax adults fly when berries soften -- yellow sticky spheres coated with
-      ammonium bait mimic fruit and catch females for monitoring. Hang traps before first ripe
-      berry; rising catches mean net covers or spray windows. Remove every fallen fruit daily
-      during harvest; larvae complete in berries on the ground. Mow or rake under bushes so
-      fruit does not hide in thatch. Wild blueberries along woods can be reservoirs; scout
-      edges first.
-    cultural_practices: >-
-      You cannot rotate a blueberry bush, but you can remove alternate hosts such as honeysuckle
-      berries near rows if they extend the fly season. Keep rows mulched so dropped fruit
-      dries fast; wet thatch holds pupae. Prune for airflow so inner clusters dry after rain;
-      flies still lay, but secondary rot stacks less. After harvest, clean pick promptly so
-      late berries do not ferment on the bush.
-    mechanical_physical: >-
-      Fine mesh netting over entire bushes after pollination stops females from reaching fruit
-      -- seal edges to the ground. Sticky traps alone are monitoring tools; they rarely catch
-      enough females to save a commercial crop. For small plots, individual fruit socks work
-      on prized clusters. Rake and destroy ground fruit before pupation in late summer.
-    organic_sprays: >-
-      Spinosad and neem applied to foliage and fruit can deter egg-laying when timed to trap
-      catches -- follow label PHI for fresh market. Insecticidal soap kills adults on contact
-      if you spray calm evenings when flies rest on leaves. Kaolin clay on berries repels
-      landing females when film stays even; rebuild after rain. Combine any spray with sanitation;
-      sprays fail if rotten fruit still perfumes the row.
-  natural_enemies:
-  - Parasitic Wasps
-  - Predatory Beetles
-  - Insectivorous Birds
-  affected_plants:
-  - slug: azalea
-    name: Azalea
-  - slug: bearberry
-    name: Bearberry
-  - slug: blue-ridge-blueberry
-    name: Blue Ridge Blueberry
-  - slug: blueberry
-    name: Blueberry
-  - slug: cranberry
-    name: Cranberry
-  - slug: crowberry
-    name: Crowberry
-  - slug: darrow-blueberry
-    name: Darrow Blueberry
-  - slug: deerberry
-    name: Deerberry
-  - slug: dwarf-huckleberry
-    name: Dwarf Huckleberry
-  - slug: elliott-blueberry
-    name: Elliott Blueberry
-  - slug: evergreen-huckleberry
-    name: Evergreen Huckleberry
-  - slug: fetterbush
-    name: Fetterbush
-  - slug: highbush-blueberry
-    name: Highbush Blueberry
-  - slug: kinnikinnick
-    name: Kinnikinnick
-  - slug: lingonberry
-    name: Lingonberry
-  - slug: lowbush-cranberry
-    name: Lowbush Cranberry
-  - slug: madrone
-    name: Madrone
-  - slug: pineland-heather
-    name: Pineland Heather
-  - slug: rhododendron
-    name: Rhododendron
-  - slug: salal
-    name: Salal
-  - slug: shiny-blueberry
-    name: Shiny Blueberry
-  - slug: sparkleberry
-    name: Sparkleberry
+name: Blueberry Maggot
+slug: blueberry-maggot
+picture: blueberry_maggot.webp
+scientific_name: Rhagoletis mendax
+description: If leaves show trails, fruit turns soft, or roots collapse from inside,
+  blueberry maggot may already be feeding. The larval stage does most of the damage,
+  often hidden where you cannot see it at first glance. By the time yellowing or rot
+  appears, feeding may be well underway. Move quickly when symptoms begin to prevent
+  another wave of eggs and larvae.
+characteristics: 'Watch for tiny eggs near plant tissue, pale legless larvae inside
+  mines or fruit, and sudden soft spots or tunnels. Adults are usually small flies
+  that hover or dart when disturbed. Check around wounds, blossoms, and moist plant
+  debris where egg-laying is common. Cut open suspect tissue: live maggots or fresh
+  tunnels are the clearest field confirmation.'
+symptoms:
+- root-damage
+- wilting
+- yellowing-leaves
+- holes-in-leaves
+control_methods:
+  biological_controls: Parasitic wasps attack pupae in soil; ground beetles eat larvae
+    in dropped berries; birds and chickens pick larvae from berries on the ground.
+    These helpers help only if you leave some soil surface undisturbed and avoid nightly
+    pyrethrin baths across the whole farm. Nematodes labeled for pupae sometimes work
+    in light soils when soil temperature fits the product. Chickens under bushes after
+    harvest are biocontrol with a business plan.
+  preventive_methods: Rhagoletis mendax adults fly when berries soften -- yellow sticky
+    spheres coated with ammonium bait mimic fruit and catch females for monitoring.
+    Hang traps before first ripe berry; rising catches mean net covers or spray windows.
+    Remove every fallen fruit daily during harvest; larvae complete in berries on
+    the ground. Mow or rake under bushes so fruit does not hide in thatch. Wild blueberries
+    along woods can be reservoirs; scout edges first.
+  cultural_practices: You cannot rotate a blueberry bush, but you can remove alternate
+    hosts such as honeysuckle berries near rows if they extend the fly season. Keep
+    rows mulched so dropped fruit dries fast; wet thatch holds pupae. Prune for airflow
+    so inner clusters dry after rain; flies still lay, but secondary rot stacks less.
+    After harvest, clean pick promptly so late berries do not ferment on the bush.
+  mechanical_physical: Fine mesh netting over entire bushes after pollination stops
+    females from reaching fruit -- seal edges to the ground. Sticky traps alone are
+    monitoring tools; they rarely catch enough females to save a commercial crop.
+    For small plots, individual fruit socks work on prized clusters. Rake and destroy
+    ground fruit before pupation in late summer.
+  organic_sprays: Spinosad and neem applied to foliage and fruit can deter egg-laying
+    when timed to trap catches -- follow label PHI for fresh market. Insecticidal
+    soap kills adults on contact if you spray calm evenings when flies rest on leaves.
+    Kaolin clay on berries repels landing females when film stays even; rebuild after
+    rain. Combine any spray with sanitation; sprays fail if rotten fruit still perfumes
+    the row.
+natural_enemies:
+- Parasitic Wasps
+- Predatory Beetles
+- Insectivorous Birds
+affected_plants:
+- slug: azalea
+  name: Azalea
+- slug: bearberry
+  name: Bearberry
+- slug: blue-ridge-blueberry
+  name: Blue Ridge Blueberry
+- slug: blueberry
+  name: Blueberry
+- slug: cranberry
+  name: Cranberry
+- slug: crowberry
+  name: Crowberry
+- slug: darrow-blueberry
+  name: Darrow Blueberry
+- slug: deerberry
+  name: Deerberry
+- slug: dwarf-huckleberry
+  name: Dwarf Huckleberry
+- slug: elliott-blueberry
+  name: Elliott Blueberry
+- slug: evergreen-huckleberry
+  name: Evergreen Huckleberry
+- slug: fetterbush
+  name: Fetterbush
+- slug: highbush-blueberry
+  name: Highbush Blueberry
+- slug: kinnikinnick
+  name: Kinnikinnick
+- slug: lingonberry
+  name: Lingonberry
+- slug: lowbush-cranberry
+  name: Lowbush Cranberry
+- slug: madrone
+  name: Madrone
+- slug: pineland-heather
+  name: Pineland Heather
+- slug: rhododendron
+  name: Rhododendron
+- slug: salal
+  name: Salal
+- slug: shiny-blueberry
+  name: Shiny Blueberry
+- slug: sparkleberry
+  name: Sparkleberry
+category: pest

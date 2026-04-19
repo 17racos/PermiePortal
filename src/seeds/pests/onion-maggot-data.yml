@@ -1,66 +1,65 @@
----
-- name: Onion Maggot
-  slug: onion-maggot
-  picture: onion_maggot.webp
-  scientific_name: Delia antiqua
-  description: >-
-    If leaves show trails, fruit turns soft, or roots collapse from inside, onion maggot may
-    already be feeding. The larval stage does most of the damage, often hidden where you cannot
-    see it at first glance. By the time yellowing or rot appears, feeding may be well underway.
-    Move quickly when symptoms begin to prevent another wave of eggs and larvae.
-  characteristics: >-
-    Watch for tiny eggs near plant tissue, pale legless larvae inside mines or fruit, and sudden
-    soft spots or tunnels. Adults are usually small flies that hover or dart when disturbed.
-    Check around wounds, blossoms, and moist plant debris where egg-laying is common. Cut open
-    suspect tissue: live maggots or fresh tunnels are the clearest field confirmation.
-  symptoms:
-  - root-damage
-  - wilting
-  - yellowing-leaves
-  - holes-in-leaves
-  control_methods:
-    biological_controls: >-
-      Ground beetles and rove beetles eat fly eggs at the soil surface when adults lay at crowns.
-      Steinernema feltiae nematodes infect maggots in moist soil when soil temperature fits the
-      product -- apply right after thinning or when flies peak. Nematodes fail in cold, dry, or
-      sandy soil; irrigation timing matters more than brand loyalty.
-    preventive_methods: >-
-      Yellow sticky stakes at onion height catch adults for trend lines -- rising catches mean
-      cover or drench windows. Delay planting until soils warm slightly and excess moisture dries;
-      soggy fields smell like fly perfume. Scout for wilting flag leaves; maggot injury mimics
-      drought. Map fields with history and walk those first each spring.
-    cultural_practices: >-
-      Avoid fresh manure before Allium beds; use finished compost. Rotate onion and garlic blocks
-      on at least a three-year cycle. Disk in overwintered culls before adults emerge from pupae.
-      Wait for soil warm-up so seedlings race past vulnerable tiny stages faster. Destroy bolting
-      onions that attract flies from across the road.
-    mechanical_physical: >-
-      Floating row covers on seedbeds and transplants block egg-laying females when edges bury
-      in soil with no gaps -- flies walk under loose flaps. Collars around stems add protection
-      when combined with covers. Fine mesh over low tunnels works for high-value seed crops.
-    organic_sprays: >-
-      Spinosad or neem soil drenches during egg-lay peaks target larvae near crowns -- read labels
-      for crop and timing. Apply nematodes immediately after drench water so carriers stay moist.
-      Repeat after heavy rain washes residues. Foliar sprays hit adults briefly; soil biology does
-      heavy lifting for maggots.
-  natural_enemies:
-  - Ground Beetles
-  - Rove Beetles
-  - Entomopathogenic Nematodes
-  affected_plants:
-  - slug: chives
-    name: Chives
-  - slug: garlic
-    name: Garlic
-  - slug: onion
-    name: Onion
-  - slug: perennial-leek
-    name: Perennial Leek
-  - slug: ramps
-    name: Ramps
-  - slug: society-garlic
-    name: Society Garlic
-  - slug: walking-onion
-    name: Walking Onion
-  - slug: wild-leek
-    name: Wild Leek
+name: Onion Maggot
+slug: onion-maggot
+picture: onion_maggot.webp
+scientific_name: Delia antiqua
+description: If leaves show trails, fruit turns soft, or roots collapse from inside,
+  onion maggot may already be feeding. The larval stage does most of the damage, often
+  hidden where you cannot see it at first glance. By the time yellowing or rot appears,
+  feeding may be well underway. Move quickly when symptoms begin to prevent another
+  wave of eggs and larvae.
+characteristics: 'Watch for tiny eggs near plant tissue, pale legless larvae inside
+  mines or fruit, and sudden soft spots or tunnels. Adults are usually small flies
+  that hover or dart when disturbed. Check around wounds, blossoms, and moist plant
+  debris where egg-laying is common. Cut open suspect tissue: live maggots or fresh
+  tunnels are the clearest field confirmation.'
+symptoms:
+- root-damage
+- wilting
+- yellowing-leaves
+- holes-in-leaves
+control_methods:
+  biological_controls: Ground beetles and rove beetles eat fly eggs at the soil surface
+    when adults lay at crowns. Steinernema feltiae nematodes infect maggots in moist
+    soil when soil temperature fits the product -- apply right after thinning or when
+    flies peak. Nematodes fail in cold, dry, or sandy soil; irrigation timing matters
+    more than brand loyalty.
+  preventive_methods: Yellow sticky stakes at onion height catch adults for trend
+    lines -- rising catches mean cover or drench windows. Delay planting until soils
+    warm slightly and excess moisture dries; soggy fields smell like fly perfume.
+    Scout for wilting flag leaves; maggot injury mimics drought. Map fields with history
+    and walk those first each spring.
+  cultural_practices: Avoid fresh manure before Allium beds; use finished compost.
+    Rotate onion and garlic blocks on at least a three-year cycle. Disk in overwintered
+    culls before adults emerge from pupae. Wait for soil warm-up so seedlings race
+    past vulnerable tiny stages faster. Destroy bolting onions that attract flies
+    from across the road.
+  mechanical_physical: Floating row covers on seedbeds and transplants block egg-laying
+    females when edges bury in soil with no gaps -- flies walk under loose flaps.
+    Collars around stems add protection when combined with covers. Fine mesh over
+    low tunnels works for high-value seed crops.
+  organic_sprays: Spinosad or neem soil drenches during egg-lay peaks target larvae
+    near crowns -- read labels for crop and timing. Apply nematodes immediately after
+    drench water so carriers stay moist. Repeat after heavy rain washes residues.
+    Foliar sprays hit adults briefly; soil biology does heavy lifting for maggots.
+natural_enemies:
+- Ground Beetles
+- Rove Beetles
+- Entomopathogenic Nematodes
+affected_plants:
+- slug: chives
+  name: Chives
+- slug: garlic
+  name: Garlic
+- slug: onion
+  name: Onion
+- slug: perennial-leek
+  name: Perennial Leek
+- slug: ramps
+  name: Ramps
+- slug: society-garlic
+  name: Society Garlic
+- slug: walking-onion
+  name: Walking Onion
+- slug: wild-leek
+  name: Wild Leek
+category: pest

@@ -1,190 +1,184 @@
----
-- name: Apple Maggot
-  slug: apple-maggot
-  picture: apple_maggot.webp
-  scientific_name: Rhagoletis pomonella
-  description: >-
-    If leaves show trails, fruit turns soft, or roots collapse from inside, apple maggot may
-    already be feeding. The larval stage does most of the damage, often hidden where you cannot
-    see it at first glance. By the time yellowing or rot appears, feeding may be well underway.
-    Move quickly when symptoms begin to prevent another wave of eggs and larvae.
-  characteristics: >-
-    Watch for tiny eggs near plant tissue, pale legless larvae inside mines or fruit, and sudden
-    soft spots or tunnels. Adults are usually small flies that hover or dart when disturbed.
-    Check around wounds, blossoms, and moist plant debris where egg-laying is common. Cut open
-    suspect tissue: live maggots or fresh tunnels are the clearest field confirmation.
-  symptoms:
-  - root-damage
-  - wilting
-  - yellowing-leaves
-  - holes-in-leaves
-  control_methods:
-    biological_controls: >-
-      Ground beetles, parasitic wasps, and birds consume apple maggot larvae
-      and pupae in soil under trees — maintain diverse permanent groundcover
-      between rows to support these predators year-round. Steinernema feltiae
-      nematodes applied to soil under tree drip lines in late summer target
-      pupating larvae — apply when soil is moist and above 50F (10C). The
-      most important biological strategy is habitat for ground predators that
-      continuously reduce the pupal population overwinter.
-    preventive_methods: >-
-      Apple maggot adults emerge in late June through August and lay single
-      eggs just under apple skin — the entry hole is invisible and damage
-      only shows when flesh is brown and tunneled inside. By the time you see
-      damage the larva is already feeding. Red sticky sphere traps baited with
-      apple volatile lure and ammonium acetate capture adults and monitor
-      flight — hang 1 trap per dwarf tree at eye height. When traps catch
-      adults consistently, egg-laying is active and protection is critical.
-      Remove all wild apples and crabapples within 100 yards — they are
-      the primary breeding source.
-    cultural_practices: >-
-      Collect and destroy all dropped fruit every 2-3 days during the season —
-      larvae exit fallen fruit to pupate in soil, completing the cycle. Remove
-      wild crabapples near orchards which harbor large populations. Prune for
-      open canopy to improve spray coverage. Harvest promptly at maturity —
-      overripe fruit on trees is attractive to laying females and larvae
-      complete development faster in warm fruit.
-    mechanical_physical: >-
-      Red sticky sphere traps are both monitoring tools and mass trapping
-      devices — use at least 1 per tree for mass trapping effectiveness.
-      Individual fruit bagging with paper bags after petal fall completely
-      excludes apple maggot flies from mechanical control for small plantings. Fine mesh netting over entire
-      dwarf trees after pollination is the commercial equivalent.
-    organic_sprays: >-
-      Kaolin clay (Surround) applied to fruit surfaces deters females from
-      landing to lay eggs — apply every 7-10 days from when adults first appear
-      through harvest, more frequently after rain. Spinosad provides knockdown
-      of adults feeding on foliage — apply at dusk when bees are not active.
-      Neem oil deters egg-laying behavior. No spray reaches larvae inside fruit —
-      all sprays must be applied before egg-laying to be effective.
-  natural_enemies:
-  - Parasitic Wasps
-  - Beneficial Flies
-  - Insectivorous Birds
-  affected_plants:
-  - slug: agrimony
-    name: Agrimony
-  - slug: allegheny-serviceberry
-    name: Allegheny Serviceberry
-  - slug: almond-tree
-    name: Almond Tree
-  - slug: american-beauty-plum
-    name: American Beauty Plum
-  - slug: american-hawthorn
-    name: American Hawthorn
-  - slug: american-plum
-    name: American Plum
-  - slug: apple
-    name: Apple
-  - slug: aronia
-    name: Aronia
-  - slug: beach-strawberry
-    name: Beach Strawberry
-  - slug: bearberry-cotoneaster
-    name: Bearberry Cotoneaster
-  - slug: black-chokeberry
-    name: Black Chokeberry
-  - slug: buffalo-plum
-    name: Buffalo Plum
-  - slug: carolina-rose
-    name: Carolina Rose
-  - slug: chickasaw-blackberry
-    name: Chickasaw Blackberry
-  - slug: chickasaw-plum
-    name: Chickasaw Plum
-  - slug: chokeberry
-    name: Chokeberry
-  - slug: climbing-prairie-rose
-    name: Climbing Prairie Rose
-  - slug: cloudberry
-    name: Cloudberry
-  - slug: cockspur-hawthorn
-    name: Cockspur Hawthorn
-  - slug: creeping-raspberry
-    name: Creeping Raspberry
-  - slug: dewberry
-    name: Dewberry
-  - slug: dotted-hawthorn
-    name: Dotted Hawthorn
-  - slug: downy-serviceberry
-    name: Downy Serviceberry
-  - slug: flatwoods-plum
-    name: Flatwoods Plum
-  - slug: frosted-hawthorn
-    name: Frosted Hawthorn
-  - slug: green-hawthorn
-    name: Green Hawthorn
-  - slug: green-apple-tree
-    name: Green Apple Tree
-  - slug: hedge-cotoneaster
-    name: Hedge Cotoneaster
-  - slug: hortulan-plum
-    name: Hortulan Plum
-  - slug: loquat
-    name: Loquat
-  - slug: many-flowered-cotoneaster
-    name: Many Flowered Cotoneaster
-  - slug: mayhaw
-    name: Mayhaw
-  - slug: meadowsweet
-    name: Meadowsweet
-  - slug: munson-plum
-    name: Munson Plum
-  - slug: nectarine-tree
-    name: Nectarine Tree
-  - slug: parsley-hawthorn
-    name: Parsley Hawthorn
-  - slug: pasture-rose
-    name: Pasture Rose
-  - slug: pear-hawthorn
-    name: Pear Hawthorn
-  - slug: pear-tree
-    name: Pear Tree
-  - slug: pineapple-pear
-    name: Pineapple Pear
-  - slug: prairie-crabapple
-    name: Prairie Crabapple
-  - slug: purple-chokeberry
-    name: Purple Chokeberry
-  - slug: raspberry
-    name: Raspberry
-  - slug: red-chokeberry
-    name: Red Chokeberry
-  - slug: red-apple-tree
-    name: Red Apple Tree
-  - slug: rock-cotoneaster
-    name: Rock Cotoneaster
-  - slug: roundleaf-serviceberry
-    name: Roundleaf Serviceberry
-  - slug: running-serviceberry
-    name: Running Serviceberry
-  - slug: sand-blackberry
-    name: Sand Blackberry
-  - slug: sand-cherry
-    name: Sand Cherry
-  - slug: saskatoon-berry
-    name: Saskatoon Berry
-  - slug: serviceberry
-    name: Serviceberry
-  - slug: silverleaf-cotoneaster
-    name: Silverleaf Cotoneaster
-  - slug: smooth-serviceberry
-    name: Smooth Serviceberry
-  - slug: southern-crabapple
-    name: Southern Crabapple
-  - slug: southern-dewberry
-    name: Southern Dewberry
-  - slug: southern-hawthorn
-    name: Southern Hawthorn
-  - slug: strawberry
-    name: Strawberry
-  - slug: swamp-rose
-    name: Swamp Rose
-  - slug: sweet-crabapple
-    name: Sweet Crabapple
-  - slug: virginia-rose
-    name: Virginia Rose
-  - slug: wild-crabapple
-    name: Wild Crabapple
-  - slug: wild-plum
-    name: Wild Plum
+name: Apple Maggot
+slug: apple-maggot
+picture: apple_maggot.webp
+scientific_name: Rhagoletis pomonella
+description: If leaves show trails, fruit turns soft, or roots collapse from inside,
+  apple maggot may already be feeding. The larval stage does most of the damage, often
+  hidden where you cannot see it at first glance. By the time yellowing or rot appears,
+  feeding may be well underway. Move quickly when symptoms begin to prevent another
+  wave of eggs and larvae.
+characteristics: 'Watch for tiny eggs near plant tissue, pale legless larvae inside
+  mines or fruit, and sudden soft spots or tunnels. Adults are usually small flies
+  that hover or dart when disturbed. Check around wounds, blossoms, and moist plant
+  debris where egg-laying is common. Cut open suspect tissue: live maggots or fresh
+  tunnels are the clearest field confirmation.'
+symptoms:
+- root-damage
+- wilting
+- yellowing-leaves
+- holes-in-leaves
+control_methods:
+  biological_controls: Ground beetles, parasitic wasps, and birds consume apple maggot
+    larvae and pupae in soil under trees — maintain diverse permanent groundcover
+    between rows to support these predators year-round. Steinernema feltiae nematodes
+    applied to soil under tree drip lines in late summer target pupating larvae —
+    apply when soil is moist and above 50F (10C). The most important biological strategy
+    is habitat for ground predators that continuously reduce the pupal population
+    overwinter.
+  preventive_methods: Apple maggot adults emerge in late June through August and lay
+    single eggs just under apple skin — the entry hole is invisible and damage only
+    shows when flesh is brown and tunneled inside. By the time you see damage the
+    larva is already feeding. Red sticky sphere traps baited with apple volatile lure
+    and ammonium acetate capture adults and monitor flight — hang 1 trap per dwarf
+    tree at eye height. When traps catch adults consistently, egg-laying is active
+    and protection is critical. Remove all wild apples and crabapples within 100 yards
+    — they are the primary breeding source.
+  cultural_practices: Collect and destroy all dropped fruit every 2-3 days during
+    the season — larvae exit fallen fruit to pupate in soil, completing the cycle.
+    Remove wild crabapples near orchards which harbor large populations. Prune for
+    open canopy to improve spray coverage. Harvest promptly at maturity — overripe
+    fruit on trees is attractive to laying females and larvae complete development
+    faster in warm fruit.
+  mechanical_physical: Red sticky sphere traps are both monitoring tools and mass
+    trapping devices — use at least 1 per tree for mass trapping effectiveness. Individual
+    fruit bagging with paper bags after petal fall completely excludes apple maggot
+    flies from mechanical control for small plantings. Fine mesh netting over entire
+    dwarf trees after pollination is the commercial equivalent.
+  organic_sprays: Kaolin clay (Surround) applied to fruit surfaces deters females
+    from landing to lay eggs — apply every 7-10 days from when adults first appear
+    through harvest, more frequently after rain. Spinosad provides knockdown of adults
+    feeding on foliage — apply at dusk when bees are not active. Neem oil deters egg-laying
+    behavior. No spray reaches larvae inside fruit — all sprays must be applied before
+    egg-laying to be effective.
+natural_enemies:
+- Parasitic Wasps
+- Beneficial Flies
+- Insectivorous Birds
+affected_plants:
+- slug: agrimony
+  name: Agrimony
+- slug: allegheny-serviceberry
+  name: Allegheny Serviceberry
+- slug: almond-tree
+  name: Almond Tree
+- slug: american-beauty-plum
+  name: American Beauty Plum
+- slug: american-hawthorn
+  name: American Hawthorn
+- slug: american-plum
+  name: American Plum
+- slug: apple
+  name: Apple
+- slug: aronia
+  name: Aronia
+- slug: beach-strawberry
+  name: Beach Strawberry
+- slug: bearberry-cotoneaster
+  name: Bearberry Cotoneaster
+- slug: black-chokeberry
+  name: Black Chokeberry
+- slug: buffalo-plum
+  name: Buffalo Plum
+- slug: carolina-rose
+  name: Carolina Rose
+- slug: chickasaw-blackberry
+  name: Chickasaw Blackberry
+- slug: chickasaw-plum
+  name: Chickasaw Plum
+- slug: chokeberry
+  name: Chokeberry
+- slug: climbing-prairie-rose
+  name: Climbing Prairie Rose
+- slug: cloudberry
+  name: Cloudberry
+- slug: cockspur-hawthorn
+  name: Cockspur Hawthorn
+- slug: creeping-raspberry
+  name: Creeping Raspberry
+- slug: dewberry
+  name: Dewberry
+- slug: dotted-hawthorn
+  name: Dotted Hawthorn
+- slug: downy-serviceberry
+  name: Downy Serviceberry
+- slug: flatwoods-plum
+  name: Flatwoods Plum
+- slug: frosted-hawthorn
+  name: Frosted Hawthorn
+- slug: green-hawthorn
+  name: Green Hawthorn
+- slug: green-apple-tree
+  name: Green Apple Tree
+- slug: hedge-cotoneaster
+  name: Hedge Cotoneaster
+- slug: hortulan-plum
+  name: Hortulan Plum
+- slug: loquat
+  name: Loquat
+- slug: many-flowered-cotoneaster
+  name: Many Flowered Cotoneaster
+- slug: mayhaw
+  name: Mayhaw
+- slug: meadowsweet
+  name: Meadowsweet
+- slug: munson-plum
+  name: Munson Plum
+- slug: nectarine-tree
+  name: Nectarine Tree
+- slug: parsley-hawthorn
+  name: Parsley Hawthorn
+- slug: pasture-rose
+  name: Pasture Rose
+- slug: pear-hawthorn
+  name: Pear Hawthorn
+- slug: pear-tree
+  name: Pear Tree
+- slug: pineapple-pear
+  name: Pineapple Pear
+- slug: prairie-crabapple
+  name: Prairie Crabapple
+- slug: purple-chokeberry
+  name: Purple Chokeberry
+- slug: raspberry
+  name: Raspberry
+- slug: red-chokeberry
+  name: Red Chokeberry
+- slug: red-apple-tree
+  name: Red Apple Tree
+- slug: rock-cotoneaster
+  name: Rock Cotoneaster
+- slug: roundleaf-serviceberry
+  name: Roundleaf Serviceberry
+- slug: running-serviceberry
+  name: Running Serviceberry
+- slug: sand-blackberry
+  name: Sand Blackberry
+- slug: sand-cherry
+  name: Sand Cherry
+- slug: saskatoon-berry
+  name: Saskatoon Berry
+- slug: serviceberry
+  name: Serviceberry
+- slug: silverleaf-cotoneaster
+  name: Silverleaf Cotoneaster
+- slug: smooth-serviceberry
+  name: Smooth Serviceberry
+- slug: southern-crabapple
+  name: Southern Crabapple
+- slug: southern-dewberry
+  name: Southern Dewberry
+- slug: southern-hawthorn
+  name: Southern Hawthorn
+- slug: strawberry
+  name: Strawberry
+- slug: swamp-rose
+  name: Swamp Rose
+- slug: sweet-crabapple
+  name: Sweet Crabapple
+- slug: virginia-rose
+  name: Virginia Rose
+- slug: wild-crabapple
+  name: Wild Crabapple
+- slug: wild-plum
+  name: Wild Plum
+category: pest

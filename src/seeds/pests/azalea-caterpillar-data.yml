@@ -1,98 +1,96 @@
----
-- name: Azalea Caterpillar
-  slug: azalea-caterpillar
-  picture: azalea_caterpillar.webp
-  scientific_name: Datana major
-  description: >-
-    If leaves look shredded overnight or fruit has fresh chew holes, azalea caterpillar may be
-    feeding right now. These larvae can eat fast and strip a healthy plant in a short window.
-    Young stages are easy to miss, then damage suddenly explodes as they grow. Catch them early
-    to avoid severe defoliation and contaminated harvests.
-  characteristics: >-
-    Check leaf undersides, growing tips, and stem junctions for eggs, frass pellets, and feeding
-    scars. Larvae vary in color, but most have a soft segmented body and blend into foliage.
-    Look at dusk or early morning when many species feed more actively. Fresh chewing plus live
-    larvae or droppings on lower leaves confirms an active caterpillar outbreak.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - skeletonized-leaves
-  control_methods:
-    biological_controls: >-
-      Tachinid flies glue eggs to caterpillar skin; ichneumonid wasps inject eggs into larger
-      larvae. Spiders and songbirds pick off larvae crawling between branches. If you see fluffy
-      parasitoid cocoons on a leaf, leave that cluster until wasps emerge -- free pest control.
-      Night spraying of pyrethrin across whole hedges kills these helpers faster than it kills
-      late instars hiding inside leaves.
-    preventive_methods: >-
-      Datana major larvae feed in groups on the interior of azaleas and blueberries -- walk rows
-      in late summer and part the canopy where polite landscaping hides clusters. Early removal
-      of one branch stops headline defoliation later. Flag plants that hosted clusters last year;
-      larvae often reinfest the same genetics. Teach crews to look up, not just at sidewalk edges.
-    cultural_practices: >-
-      On native plantings, accept minor leaf loss if the shrub still flowers next year -- total
-      control is not always the goal. On specimen shrubs near doors, scout weekly during outbreak
-      years. Avoid nitrogen pushes that make soft flushes; caterpillars still eat, but damage
-      looks worse on lush tissue. After caterpillars leave, water if drought stresses recovery;
-      do not over-fertilize burned leaves.
-    mechanical_physical: >-
-      Clip entire branches with clusters into a bucket of soapy water -- faster than picking
-      thirty larvae by hand. Wear gloves; hairs irritate some people. For small plants, drop
-      sheets and shake branches over them in early morning when larvae cluster. Power-wash is a
-      bad idea on thin azalea bark; you break more than caterpillars.
-    organic_sprays: >-
-      Bacillus thuringiensis kurstaki works while larvae are small and actively feeding -- spray
-      undersides where groups sit. Spinosad reaches larger larvae if labels allow ornamentals;
-      still avoid spraying open flowers when bees work. Spray at dusk to spare pollinators on
-      blooming rhododendrons and blueberries. Reapply after rain; Bt washes off quickly.
-  natural_enemies:
-  - Tachinid Flies
-  - Ichneumonid Wasps
-  - Spiders
-  - Songbirds
-  affected_plants:
-  - slug: azalea
-    name: Azalea
-  - slug: bearberry
-    name: Bearberry
-  - slug: blue-ridge-blueberry
-    name: Blue Ridge Blueberry
-  - slug: blueberry
-    name: Blueberry
-  - slug: cranberry
-    name: Cranberry
-  - slug: crowberry
-    name: Crowberry
-  - slug: darrow-blueberry
-    name: Darrow Blueberry
-  - slug: deerberry
-    name: Deerberry
-  - slug: dwarf-huckleberry
-    name: Dwarf Huckleberry
-  - slug: elliott-blueberry
-    name: Elliott Blueberry
-  - slug: evergreen-huckleberry
-    name: Evergreen Huckleberry
-  - slug: fetterbush
-    name: Fetterbush
-  - slug: highbush-blueberry
-    name: Highbush Blueberry
-  - slug: kinnikinnick
-    name: Kinnikinnick
-  - slug: lingonberry
-    name: Lingonberry
-  - slug: lowbush-cranberry
-    name: Lowbush Cranberry
-  - slug: madrone
-    name: Madrone
-  - slug: pineland-heather
-    name: Pineland Heather
-  - slug: rhododendron
-    name: Rhododendron
-  - slug: salal
-    name: Salal
-  - slug: shiny-blueberry
-    name: Shiny Blueberry
-  - slug: sparkleberry
-    name: Sparkleberry
+name: Azalea Caterpillar
+slug: azalea-caterpillar
+picture: azalea_caterpillar.webp
+scientific_name: Datana major
+description: If leaves look shredded overnight or fruit has fresh chew holes, azalea
+  caterpillar may be feeding right now. These larvae can eat fast and strip a healthy
+  plant in a short window. Young stages are easy to miss, then damage suddenly explodes
+  as they grow. Catch them early to avoid severe defoliation and contaminated harvests.
+characteristics: Check leaf undersides, growing tips, and stem junctions for eggs,
+  frass pellets, and feeding scars. Larvae vary in color, but most have a soft segmented
+  body and blend into foliage. Look at dusk or early morning when many species feed
+  more actively. Fresh chewing plus live larvae or droppings on lower leaves confirms
+  an active caterpillar outbreak.
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- skeletonized-leaves
+control_methods:
+  biological_controls: Tachinid flies glue eggs to caterpillar skin; ichneumonid wasps
+    inject eggs into larger larvae. Spiders and songbirds pick off larvae crawling
+    between branches. If you see fluffy parasitoid cocoons on a leaf, leave that cluster
+    until wasps emerge -- free pest control. Night spraying of pyrethrin across whole
+    hedges kills these helpers faster than it kills late instars hiding inside leaves.
+  preventive_methods: Datana major larvae feed in groups on the interior of azaleas
+    and blueberries -- walk rows in late summer and part the canopy where polite landscaping
+    hides clusters. Early removal of one branch stops headline defoliation later.
+    Flag plants that hosted clusters last year; larvae often reinfest the same genetics.
+    Teach crews to look up, not just at sidewalk edges.
+  cultural_practices: On native plantings, accept minor leaf loss if the shrub still
+    flowers next year -- total control is not always the goal. On specimen shrubs
+    near doors, scout weekly during outbreak years. Avoid nitrogen pushes that make
+    soft flushes; caterpillars still eat, but damage looks worse on lush tissue. After
+    caterpillars leave, water if drought stresses recovery; do not over-fertilize
+    burned leaves.
+  mechanical_physical: Clip entire branches with clusters into a bucket of soapy water
+    -- faster than picking thirty larvae by hand. Wear gloves; hairs irritate some
+    people. For small plants, drop sheets and shake branches over them in early morning
+    when larvae cluster. Power-wash is a bad idea on thin azalea bark; you break more
+    than caterpillars.
+  organic_sprays: Bacillus thuringiensis kurstaki works while larvae are small and
+    actively feeding -- spray undersides where groups sit. Spinosad reaches larger
+    larvae if labels allow ornamentals; still avoid spraying open flowers when bees
+    work. Spray at dusk to spare pollinators on blooming rhododendrons and blueberries.
+    Reapply after rain; Bt washes off quickly.
+natural_enemies:
+- Tachinid Flies
+- Ichneumonid Wasps
+- Spiders
+- Songbirds
+affected_plants:
+- slug: azalea
+  name: Azalea
+- slug: bearberry
+  name: Bearberry
+- slug: blue-ridge-blueberry
+  name: Blue Ridge Blueberry
+- slug: blueberry
+  name: Blueberry
+- slug: cranberry
+  name: Cranberry
+- slug: crowberry
+  name: Crowberry
+- slug: darrow-blueberry
+  name: Darrow Blueberry
+- slug: deerberry
+  name: Deerberry
+- slug: dwarf-huckleberry
+  name: Dwarf Huckleberry
+- slug: elliott-blueberry
+  name: Elliott Blueberry
+- slug: evergreen-huckleberry
+  name: Evergreen Huckleberry
+- slug: fetterbush
+  name: Fetterbush
+- slug: highbush-blueberry
+  name: Highbush Blueberry
+- slug: kinnikinnick
+  name: Kinnikinnick
+- slug: lingonberry
+  name: Lingonberry
+- slug: lowbush-cranberry
+  name: Lowbush Cranberry
+- slug: madrone
+  name: Madrone
+- slug: pineland-heather
+  name: Pineland Heather
+- slug: rhododendron
+  name: Rhododendron
+- slug: salal
+  name: Salal
+- slug: shiny-blueberry
+  name: Shiny Blueberry
+- slug: sparkleberry
+  name: Sparkleberry
+category: pest

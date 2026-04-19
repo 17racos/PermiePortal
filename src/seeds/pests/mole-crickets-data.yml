@@ -1,48 +1,48 @@
-- name: "Mole crickets"
-  slug: "mole-crickets"
-  picture: "mole_crickets.webp"
-  scientific_name: "Gryllotalpidae (Scapteriscus, Gryllotalpa, Neocurtilla)"
-  description: >-
-    Mole crickets are chunky orthopterans with shovel-like forelegs that tunnel through soil, severing roots and uprooting
-    small plants. Turf feels spongy and tunnels may open after rain. Some species call loudly at dusk. They are serious
-    pests of lawns, pastures, and vegetables on sandy soils from warm temperate to tropical lowlands wherever moisture
-    allows year-round activity.
-  characteristics: >-
-    Identify by the thumb-shaped digging legs and cylindrical body compared with true mole tunnels from mammals. Soap
-    flushes bring nymphs to the surface for counting. Look for dying grass in irregular patches following tunnel lines.
-    Distinguish damage from white grubs by the presence of surface tunneling and audible chirping in some species.
-  symptoms:
-  - wilting
-  - root-damage
-  - crown-damage
-  - die-back
-  control_methods:
-    biological_controls: >-
-      Larra bicolor wasp parasitizes Scapteriscus adults in parts of the introduced range. Steinernema scapterisci
-      nematodes infect mole crickets when soil temperatures match label windows. Bacillus thuringiensis japonensis strain
-      buibui is labeled for mole cricket nymphs in some products. Avoid blanket carbamate history in soil if you want
-      these biologicals to persist.
-    preventive_methods: >-
-      Reduce outdoor lighting near turf during flight peaks if extension maps show your species is attracted to lights
-      for mating. Improve internal drainage on chronically wet fairways. Choose endophytic grasses where they reduce injury
-      on supporting species. Quarantine sod rolls from known hot spots before laying large areas.
-    cultural_practices: >-
-      Roller packing after irrigation can close shallow tunnels on sports fields where turf managers accept the tradeoff.
-      Raise mowing height to increase rooting volume that tolerates partial root pruning. Overseed thin zones in fall after
-      nymph control windows pass.
-    mechanical_physical: >-
-      Flooding small areas briefly can drive mole crickets to the surface for hand removal on garden scale -- check water
-      rules. Traps baited with synthetic song are used professionally for monitoring. For home beds, digging and destroying
-      egg chambers in spring reduces local pressure when found.
-    organic_sprays: >-
-      Nematode applications are the most consistent organic tool when irrigation follows immediately. Neem drenches show
-      mixed data. Essential oil mixes vary by product -- verify turf safety. Repeat treatments may be needed through
-      nymph stages because contact products miss deep tunnelers.
-  natural_enemies:
-  - Parasitic Wasps
-  - Nematodes
-  - Ground Beetles
-  affected_plants: []
-  # Image attribution: (c) Ron Plinske, all rights reserved, uploaded by Ron Plinske
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+name: Mole crickets
+slug: mole-crickets
+picture: mole_crickets.webp
+scientific_name: Gryllotalpidae (Scapteriscus, Gryllotalpa, Neocurtilla)
+description: Mole crickets are chunky orthopterans with shovel-like forelegs that
+  tunnel through soil, severing roots and uprooting small plants. Turf feels spongy
+  and tunnels may open after rain. Some species call loudly at dusk. They are serious
+  pests of lawns, pastures, and vegetables on sandy soils from warm temperate to tropical
+  lowlands wherever moisture allows year-round activity.
+characteristics: Identify by the thumb-shaped digging legs and cylindrical body compared
+  with true mole tunnels from mammals. Soap flushes bring nymphs to the surface for
+  counting. Look for dying grass in irregular patches following tunnel lines. Distinguish
+  damage from white grubs by the presence of surface tunneling and audible chirping
+  in some species.
+symptoms:
+- wilting
+- root-damage
+- crown-damage
+- die-back
+control_methods:
+  biological_controls: Larra bicolor wasp parasitizes Scapteriscus adults in parts
+    of the introduced range. Steinernema scapterisci nematodes infect mole crickets
+    when soil temperatures match label windows. Bacillus thuringiensis japonensis
+    strain buibui is labeled for mole cricket nymphs in some products. Avoid blanket
+    carbamate history in soil if you want these biologicals to persist.
+  preventive_methods: Reduce outdoor lighting near turf during flight peaks if extension
+    maps show your species is attracted to lights for mating. Improve internal drainage
+    on chronically wet fairways. Choose endophytic grasses where they reduce injury
+    on supporting species. Quarantine sod rolls from known hot spots before laying
+    large areas.
+  cultural_practices: Roller packing after irrigation can close shallow tunnels on
+    sports fields where turf managers accept the tradeoff. Raise mowing height to
+    increase rooting volume that tolerates partial root pruning. Overseed thin zones
+    in fall after nymph control windows pass.
+  mechanical_physical: Flooding small areas briefly can drive mole crickets to the
+    surface for hand removal on garden scale -- check water rules. Traps baited with
+    synthetic song are used professionally for monitoring. For home beds, digging
+    and destroying egg chambers in spring reduces local pressure when found.
+  organic_sprays: Nematode applications are the most consistent organic tool when
+    irrigation follows immediately. Neem drenches show mixed data. Essential oil mixes
+    vary by product -- verify turf safety. Repeat treatments may be needed through
+    nymph stages because contact products miss deep tunnelers.
+natural_enemies:
+- Parasitic Wasps
+- Nematodes
+- Ground Beetles
+affected_plants: []
+category: pest

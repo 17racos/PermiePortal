@@ -1,71 +1,66 @@
----
-- name: Fire Ant
-  slug: fire-ant
-  picture: fire_ant.webp
-  scientific_name: Solenopsis invicta
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, fire ant may already be on the
-    plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - sticky-residue
-  - wilting
-  - yellowing-leaves
-  - chewed-stems
-  control_methods:
-    biological_controls: >-
-      Phorid flies (Pseudacteon spp.) are imported parasitoids that specifically target
-      fire ants — they dive-bomb workers, lay eggs in their heads, and the emerging
-      larvae consume the ant's brain, causing the head to fall off. They have been
-      released across the southern US and are establishing in many areas. You cannot
-      buy them but you can check whether they are present in your county through your
-      state extension service. A diverse ant community outside production areas creates
-      biological competition — fire ants dominate in disturbed, bare soil. Permanent
-      ground cover and undisturbed areas favor native ant species that compete with
-      fire ants for territory.
-    preventive_methods: >-
-      Fire ants thrive in open, sunny, disturbed soil — they rarely establish under
-      dense mulch or in shaded areas. Deep wood chip mulch (4+ inches) dramatically
-      reduces mound establishment in garden beds. Fire ants also protect aphids,
-      mealybugs, and scale insects from predators in exchange for honeydew — managing
-      these soft-bodied pests reduces fire ant presence near plants. New mounds appear
-      after rain when colonies relocate. Inspect perimeters weekly after rainfall in
-      spring and summer. Treat small new mounds immediately — a young colony is a
-      fraction of the size and effort of an established one.
-    cultural_practices: >-
-      Fire ants are most aggressive when mounds are disturbed — always wear closed shoes
-      and long pants when working near known mound areas. They move colony locations
-      frequently, especially after disturbance or flooding. Marking mound locations and
-      tracking movement patterns helps anticipate where new mounds will establish.
-      Compost piles that include lawn sod from infested areas can import fire ant
-      colonies — hot compost piles above 130F (54C) kill ants but not all home piles
-      reach this consistently. Inspect new compost additions from suspect sources.
-    mechanical_physical: >-
-      Pouring 2-3 gallons of boiling water directly into a mound kills 60% of colonies
-      on contact — effective, free, and chemical-free. Do it in cool morning hours when
-      the colony is clustered near the surface for warmth. Multiple treatments 1 week
-      apart improve success rates. This works best on young mounds. Deep-established
-      colonies have tunnels extending 6 feet down and may require multiple boiling
-      water treatments or relocate rather than die. Physically digging up small new
-      mounds and destroying the queen eliminates the colony — the queen is larger,
-      winged if reproductive, and located in the deepest tunnel chamber.
-    organic_sprays: >-
-      D-limonene (orange oil) mound drench kills ants on contact when the entire nest
-      is thoroughly soaked — mix 1.5 oz per gallon of water with a squirt of dish soap
-      and pour 2-3 gallons directly into the mound. The soap breaks surface tension
-      allowing penetration. Effectiveness depends entirely on reaching the queen deep
-      in the mound. Diatomaceous earth sprinkled around mound perimeters deters foraging
-      but does not kill colonies. Spinosad bait products are the most effective organic
-      option for established colonies — workers carry the bait to the queen and brood,
-      eliminating the whole colony over 1-2 weeks. Apply in dry weather away from water.
-  natural_enemies:
-  - Phorid Flies (Pseudacteon spp.)
-  - Parasitic Nematodes (Steinernema spp.)
-  - Fungal and Microsporidian Pathogens
-  - Competing Ant Species
+name: Fire Ant
+slug: fire-ant
+picture: fire_ant.webp
+scientific_name: Solenopsis invicta
+description: If new growth is curling, yellowing, sticky, or chewed, fire ant may
+  already be on the plant. This pest often builds quietly, then damage appears all
+  at once. Feeding stress weakens growth, reduces yield, and opens the door to secondary
+  disease. Early cleanup is much easier than fighting a full population surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- sticky-residue
+- wilting
+- yellowing-leaves
+- chewed-stems
+control_methods:
+  biological_controls: Phorid flies (Pseudacteon spp.) are imported parasitoids that
+    specifically target fire ants — they dive-bomb workers, lay eggs in their heads,
+    and the emerging larvae consume the ant's brain, causing the head to fall off.
+    They have been released across the southern US and are establishing in many areas.
+    You cannot buy them but you can check whether they are present in your county
+    through your state extension service. A diverse ant community outside production
+    areas creates biological competition — fire ants dominate in disturbed, bare soil.
+    Permanent ground cover and undisturbed areas favor native ant species that compete
+    with fire ants for territory.
+  preventive_methods: Fire ants thrive in open, sunny, disturbed soil — they rarely
+    establish under dense mulch or in shaded areas. Deep wood chip mulch (4+ inches)
+    dramatically reduces mound establishment in garden beds. Fire ants also protect
+    aphids, mealybugs, and scale insects from predators in exchange for honeydew —
+    managing these soft-bodied pests reduces fire ant presence near plants. New mounds
+    appear after rain when colonies relocate. Inspect perimeters weekly after rainfall
+    in spring and summer. Treat small new mounds immediately — a young colony is a
+    fraction of the size and effort of an established one.
+  cultural_practices: Fire ants are most aggressive when mounds are disturbed — always
+    wear closed shoes and long pants when working near known mound areas. They move
+    colony locations frequently, especially after disturbance or flooding. Marking
+    mound locations and tracking movement patterns helps anticipate where new mounds
+    will establish. Compost piles that include lawn sod from infested areas can import
+    fire ant colonies — hot compost piles above 130F (54C) kill ants but not all home
+    piles reach this consistently. Inspect new compost additions from suspect sources.
+  mechanical_physical: Pouring 2-3 gallons of boiling water directly into a mound
+    kills 60% of colonies on contact — effective, free, and chemical-free. Do it in
+    cool morning hours when the colony is clustered near the surface for warmth. Multiple
+    treatments 1 week apart improve success rates. This works best on young mounds.
+    Deep-established colonies have tunnels extending 6 feet down and may require multiple
+    boiling water treatments or relocate rather than die. Physically digging up small
+    new mounds and destroying the queen eliminates the colony — the queen is larger,
+    winged if reproductive, and located in the deepest tunnel chamber.
+  organic_sprays: D-limonene (orange oil) mound drench kills ants on contact when
+    the entire nest is thoroughly soaked — mix 1.5 oz per gallon of water with a squirt
+    of dish soap and pour 2-3 gallons directly into the mound. The soap breaks surface
+    tension allowing penetration. Effectiveness depends entirely on reaching the queen
+    deep in the mound. Diatomaceous earth sprinkled around mound perimeters deters
+    foraging but does not kill colonies. Spinosad bait products are the most effective
+    organic option for established colonies — workers carry the bait to the queen
+    and brood, eliminating the whole colony over 1-2 weeks. Apply in dry weather away
+    from water.
+natural_enemies:
+- Phorid Flies (Pseudacteon spp.)
+- Parasitic Nematodes (Steinernema spp.)
+- Fungal and Microsporidian Pathogens
+- Competing Ant Species
+category: pest

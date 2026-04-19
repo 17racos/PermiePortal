@@ -1,326 +1,317 @@
----
-- name: Reniform Nematode
-  slug: reniform-nematode
-  picture: reniform_nematode.webp
-  scientific_name: Rotylenchulus reniformis
-  description: >-
-    If plants stay stunted, yellow, and thirsty even with good care, reniform nematode may be
-    attacking below ground. These microscopic pests damage roots, so the top growth declines
-    before the cause is obvious. Yield drops and wilting worsen in heat because damaged roots
-    cannot keep up. Once populations build in soil, control gets harder, so early detection is
-    critical.
-  characteristics: >-
-    Gently lift a struggling plant and inspect roots for knots, lesions, branching distortion,
-    or weak root mass. Affected plants often appear in patches rather than uniformly across the
-    bed. Symptoms can mimic nutrient stress, but damaged roots with poor feeder growth are a key
-    clue. Lab or microscope confirmation is best, but root injury patterns strongly indicate
-    nematode pressure.
-  symptoms:
-  - galls
-  - root-damage
-  - wilting
-  - yellowing-leaves
-  - distorted-growth
-  control_methods:
-    biological_controls: >-
-      Pasteuria penetrans is a bacterial parasite of reniform nematodes that
-      attaches to nematode cuticle and prevents reproduction — it builds up
-      naturally in infested soil over years and is available commercially in
-      some regions. Purpureocillium lilacinum (formerly Paecilomyces) is a
-      fungus that parasitizes nematode eggs and is available as a biological
-      nematicide. French marigolds (Tagetes patula specifically, not T. erecta)
-      planted densely as a cover crop for a full season suppress reniform nematode
-      populations significantly — the roots exude nematicidal compounds.
-    preventive_methods: >-
-      Reniform nematodes are microscopic and move in water, on tools, and on
-      transplant roots. Infected plants show no distinctive above-ground symptoms
-      initially — just generalized stunting, yellowing, and poor response to
-      fertilizer and water. By the time symptoms are obvious the population is
-      established. Test soil before planting in new areas. Never move soil from
-      infested fields on boots, tools, or equipment. Use certified nematode-free
-      transplants. Reniform nematodes build up fastest in warm, moist, sandy soils.
-    cultural_practices: >-
-      Long rotations with non-host or poor-host crops are the most practical
-      management tool — sorghum-sudangrass hybrids grown as biofumigant cover
-      crops and incorporated while still green significantly reduce nematode
-      populations. Organic matter additions feed the soil food web including
-      predatory nematodes and fungi that attack plant-parasitic nematodes.
-      Summer fallow with repeated tillage desiccates eggs in the top soil
-      layer where temperatures are highest. Avoid moving infested subsoil
-      between beds.
-    mechanical_physical: >-
-      Soil solarization with clear plastic over moist soil for 6-8 weeks in
-      summer reduces reniform nematode populations in the top 12 inches — most
-      effective in Florida and Gulf Coast states where solar gain is highest.
-      Steam treatment of propagation beds eliminates nematodes before planting.
-      Deep tillage in late summer exposes eggs and juvenile nematodes to
-      desiccation and temperature extremes.
-    organic_sprays: >-
-      Neem cake (the byproduct of neem oil pressing) worked into soil at 200-400
-      lbs per acre has documented nematicidal activity — it releases compounds
-      that suppress nematode egg hatching and juvenile mobility. Mustard seed
-      meal incorporated into soil releases glucosinolates with fumigant activity
-      against nematodes. Neither is an instant fix — effects build over multiple
-      applications and seasons. Pasteurized compost topdressings support competitive
-      microbial communities that suppress nematode populations over time.
-  natural_enemies:
-  - Pasteuria spp.
-  - Purpureocillium lilacinum
-  - Predatory Nematodes
-  affected_plants:
-  - slug: angels-trumpet
-    name: Angel's Trumpet
-  - slug: ashwagandha
-    name: Ashwagandha
-  - slug: buffalo-bur
-    name: Buffalo Bur
-  - slug: chiltepin-pepper
-    name: Chiltepin Pepper
-  - slug: chiltepin-pepper-tree
-    name: Chiltepin Pepper Tree
-  - slug: chinese-lantern
-    name: Chinese Lantern
-  - slug: coastal-groundcherry
-    name: Coastal Groundcherry
-  - slug: devils-trumpet
-    name: Devil's Trumpet
-  - slug: garden-huckleberry
-    name: Garden Huckleberry
-  - slug: goji-berry
-    name: Goji Berry
-  - slug: ground-cherry
-    name: Ground Cherry
-  - slug: horse-nettle
-    name: Horse Nettle
-  - slug: pepino-melon
-    name: Pepino Melon
-  - slug: potato
-    name: Potato
-  - slug: scarlet-eggplant
-    name: Scarlet Eggplant
-  - slug: wild-eggplant
-    name: Wild Eggplant
-  - slug: wonderberry
-    name: Wonderberry
-  - slug: acacia
-    name: Acacia
-  - slug: african-locust-bean
-    name: African Locust Bean
-  - slug: ahipa
-    name: Ahipa
-  - slug: albizia-lebbeck
-    name: Albizia lebbeck
-  - slug: alfalfa
-    name: Alfalfa
-  - slug: asparagus-bean
-    name: Asparagus Bean
-  - slug: baptisia
-    name: Baptisia
-  - slug: bay-bean
-    name: Bay Bean
-  - slug: beach-bean
-    name: Beach Bean
-  - slug: black-medic
-    name: Black Medic
-  - slug: black-mulga
-    name: Black Mulga
-  - slug: black-locust
-    name: Black Locust
-  - slug: bladder-senna
-    name: Bladder Senna
-  - slug: blue-wild-indigo
-    name: Blue Wild Indigo
-  - slug: carob-tree
-    name: Carob Tree
-  - slug: cassia-alata
-    name: Cassia alata
-  - slug: catclaw-sensitive-briar
-    name: Catclaw Sensitive Briar
-  - slug: chickpea
-    name: Chickpea
-  - slug: chilean-pea
-    name: Chilean Pea
-  - slug: coffee-senna
-    name: Coffee Senna
-  - slug: coffeeweed
-    name: Coffeeweed
-  - slug: coral-bean
-    name: Coral Bean
-  - slug: crimson-clover
-    name: Crimson Clover
-  - slug: crown-vetch
-    name: Crown Vetch
-  - slug: desert-ironwood
-    name: Desert Ironwood
-  - slug: dutch-clover
-    name: Dutch Clover
-  - slug: earth-chestnut
-    name: Earth Chestnut
-  - slug: false-indigo
-    name: False Indigo
-  - slug: fava-bean
-    name: Fava Bean
-  - slug: florida-leadplant
-    name: Florida Leadplant
-  - slug: goats-rue
-    name: Goat's Rue
-  - slug: green-bean
-    name: Green Bean
-  - slug: groundnut
-    name: Groundnut
-  - slug: groundplum-milkvetch
-    name: Groundplum Milkvetch
-  - slug: hairy-indigo
-    name: Hairy Indigo
-  - slug: honey-locust
-    name: Honey Locust
-  - slug: hopniss
-    name: Hopniss
-  - slug: hyacinth-bean
-    name: Hyacinth Bean
-  - slug: ice-cream-bean-tree
-    name: Ice Cream Bean Tree
-  - slug: illinois-bundleflower
-    name: Illinois Bundleflower
-  - slug: indigofera-tinctoria
-    name: Indigofera tinctoria
-  - slug: jatoba
-    name: Jatoba
-  - slug: jicama
-    name: Jicama
-  - slug: lablab-bean
-    name: Lablab Bean
-  - slug: lead-plant
-    name: Lead Plant
-  - slug: leucaena
-    name: Leucaena
-  - slug: lupine
-    name: Lupine
-  - slug: mangrove-bean
-    name: Mangrove Bean
-  - slug: milk-vetch
-    name: Milk Vetch
-  - slug: mimosa
-    name: Mimosa
-  - slug: mung-bean
-    name: Mung Bean
-  - slug: palo-verde
-    name: Palo Verde
-  - slug: partridge-acacia
-    name: Partridge Acacia
-  - slug: partridge-cassia
-    name: Partridge Cassia
-  - slug: partridge-pea
-    name: Partridge Pea
-  - slug: pea
-    name: Pea
-  - slug: perennial-peanut
-    name: Perennial Peanut
-  - slug: pigeon-pea
-    name: Pigeon Pea
-  - slug: plains-wild-indigo
-    name: Plains Wild Indigo
-  - slug: powderpuff-mimosa
-    name: Powderpuff Mimosa
-  - slug: prairie-acacia
-    name: Prairie Acacia
-  - slug: prairie-potato
-    name: Prairie Potato
-  - slug: prairie-turnip
-    name: Prairie Turnip
-  - slug: rattlebox
-    name: Rattlebox
-  - slug: sensitive-briar
-    name: Sensitive Briar
-  - slug: sensitive-plant
-    name: Sensitive Plant
-  - slug: sesbania
-    name: Sesbania
-  - slug: sesbania-grandiflora
-    name: Sesbania grandiflora
-  - slug: showy-partridge-pea
-    name: Showy Partridge Pea
-  - slug: siberian-peashrub
-    name: Siberian Peashrub
-  - slug: siberian-pea-shrub
-    name: Siberian Pea Shrub
-  - slug: sicklepod
-    name: Sicklepod
-  - slug: snow-pea
-    name: Snow Pea
-  - slug: sun-hemp
-    name: Sun Hemp
-  - slug: sunshine-mimosa
-    name: Sunshine Mimosa
-  - slug: tagasaste
-    name: Tagasaste
-  - slug: tephrosia-vogelii
-    name: Tephrosia vogelii
-  - slug: tick-trefoil
-    name: Tick Trefoil
-  - slug: trailing-mimosa
-    name: Trailing Mimosa
-  - slug: tree-medick
-    name: Tree Medick
-  - slug: white-wild-indigo
-    name: White Wild Indigo
-  - slug: wild-indigo-bush
-    name: Wild Indigo Bush
-  - slug: wild-indigo
-    name: Wild Indigo
-  - slug: wild-senna
-    name: Wild Senna
-  - slug: winged-bean
-    name: Winged Bean
-  - slug: wisteria
-    name: Wisteria
-  - slug: yam-bean
-    name: Yam Bean
-  - slug: yellow-sweet-clover
-    name: Yellow Sweet Clover
-  - slug: acorn-squash
-    name: Acorn Squash
-  - slug: angled-loofah
-    name: Angled Loofah
-  - slug: apple-gourd
-    name: Apple Gourd
-  - slug: birdhouse-gourd
-    name: Birdhouse Gourd
-  - slug: bitter-melon
-    name: Bitter Melon
-  - slug: bottle-gourd
-    name: Bottle Gourd
-  - slug: buffalo-gourd
-    name: Buffalo Gourd
-  - slug: bushel-gourd
-    name: Bushel Gourd
-  - slug: calabaza
-    name: Calabaza
-  - slug: cassabanana-root-systems
-    name: Cassabanana root systems
-  - slug: caveman-club-gourd
-    name: Caveman Club Gourd
-  - slug: chayote
-    name: Chayote
-  - slug: coccinia
-    name: Coccinia
-  - slug: corsican-gourd
-    name: Corsican Gourd
-  - slug: cucamelon
-    name: Cucamelon
-  - slug: dinosaur-gourd
-    name: Dinosaur Gourd
-  - slug: ivy-gourd
-    name: Ivy Gourd
-  - slug: luffa
-    name: Luffa
-  - slug: monky-muskmelon
-    name: Monky Muskmelon
-  - slug: penguin-gourd
-    name: Penguin Gourd
-  - slug: seminole-pumpkin
-    name: Seminole Pumpkin
-  - slug: snake-gourd
-    name: Snake Gourd
-  - slug: wax-gourd
-    name: Wax Gourd
+name: Reniform Nematode
+slug: reniform-nematode
+picture: reniform_nematode.webp
+scientific_name: Rotylenchulus reniformis
+description: If plants stay stunted, yellow, and thirsty even with good care, reniform
+  nematode may be attacking below ground. These microscopic pests damage roots, so
+  the top growth declines before the cause is obvious. Yield drops and wilting worsen
+  in heat because damaged roots cannot keep up. Once populations build in soil, control
+  gets harder, so early detection is critical.
+characteristics: Gently lift a struggling plant and inspect roots for knots, lesions,
+  branching distortion, or weak root mass. Affected plants often appear in patches
+  rather than uniformly across the bed. Symptoms can mimic nutrient stress, but damaged
+  roots with poor feeder growth are a key clue. Lab or microscope confirmation is
+  best, but root injury patterns strongly indicate nematode pressure.
+symptoms:
+- galls
+- root-damage
+- wilting
+- yellowing-leaves
+- distorted-growth
+control_methods:
+  biological_controls: Pasteuria penetrans is a bacterial parasite of reniform nematodes
+    that attaches to nematode cuticle and prevents reproduction — it builds up naturally
+    in infested soil over years and is available commercially in some regions. Purpureocillium
+    lilacinum (formerly Paecilomyces) is a fungus that parasitizes nematode eggs and
+    is available as a biological nematicide. French marigolds (Tagetes patula specifically,
+    not T. erecta) planted densely as a cover crop for a full season suppress reniform
+    nematode populations significantly — the roots exude nematicidal compounds.
+  preventive_methods: Reniform nematodes are microscopic and move in water, on tools,
+    and on transplant roots. Infected plants show no distinctive above-ground symptoms
+    initially — just generalized stunting, yellowing, and poor response to fertilizer
+    and water. By the time symptoms are obvious the population is established. Test
+    soil before planting in new areas. Never move soil from infested fields on boots,
+    tools, or equipment. Use certified nematode-free transplants. Reniform nematodes
+    build up fastest in warm, moist, sandy soils.
+  cultural_practices: Long rotations with non-host or poor-host crops are the most
+    practical management tool — sorghum-sudangrass hybrids grown as biofumigant cover
+    crops and incorporated while still green significantly reduce nematode populations.
+    Organic matter additions feed the soil food web including predatory nematodes
+    and fungi that attack plant-parasitic nematodes. Summer fallow with repeated tillage
+    desiccates eggs in the top soil layer where temperatures are highest. Avoid moving
+    infested subsoil between beds.
+  mechanical_physical: Soil solarization with clear plastic over moist soil for 6-8
+    weeks in summer reduces reniform nematode populations in the top 12 inches — most
+    effective in Florida and Gulf Coast states where solar gain is highest. Steam
+    treatment of propagation beds eliminates nematodes before planting. Deep tillage
+    in late summer exposes eggs and juvenile nematodes to desiccation and temperature
+    extremes.
+  organic_sprays: Neem cake (the byproduct of neem oil pressing) worked into soil
+    at 200-400 lbs per acre has documented nematicidal activity — it releases compounds
+    that suppress nematode egg hatching and juvenile mobility. Mustard seed meal incorporated
+    into soil releases glucosinolates with fumigant activity against nematodes. Neither
+    is an instant fix — effects build over multiple applications and seasons. Pasteurized
+    compost topdressings support competitive microbial communities that suppress nematode
+    populations over time.
+natural_enemies:
+- Pasteuria spp.
+- Purpureocillium lilacinum
+- Predatory Nematodes
+affected_plants:
+- slug: angels-trumpet
+  name: Angel's Trumpet
+- slug: ashwagandha
+  name: Ashwagandha
+- slug: buffalo-bur
+  name: Buffalo Bur
+- slug: chiltepin-pepper
+  name: Chiltepin Pepper
+- slug: chiltepin-pepper-tree
+  name: Chiltepin Pepper Tree
+- slug: chinese-lantern
+  name: Chinese Lantern
+- slug: coastal-groundcherry
+  name: Coastal Groundcherry
+- slug: devils-trumpet
+  name: Devil's Trumpet
+- slug: garden-huckleberry
+  name: Garden Huckleberry
+- slug: goji-berry
+  name: Goji Berry
+- slug: ground-cherry
+  name: Ground Cherry
+- slug: horse-nettle
+  name: Horse Nettle
+- slug: pepino-melon
+  name: Pepino Melon
+- slug: potato
+  name: Potato
+- slug: scarlet-eggplant
+  name: Scarlet Eggplant
+- slug: wild-eggplant
+  name: Wild Eggplant
+- slug: wonderberry
+  name: Wonderberry
+- slug: acacia
+  name: Acacia
+- slug: african-locust-bean
+  name: African Locust Bean
+- slug: ahipa
+  name: Ahipa
+- slug: albizia-lebbeck
+  name: Albizia lebbeck
+- slug: alfalfa
+  name: Alfalfa
+- slug: asparagus-bean
+  name: Asparagus Bean
+- slug: baptisia
+  name: Baptisia
+- slug: bay-bean
+  name: Bay Bean
+- slug: beach-bean
+  name: Beach Bean
+- slug: black-medic
+  name: Black Medic
+- slug: black-mulga
+  name: Black Mulga
+- slug: black-locust
+  name: Black Locust
+- slug: bladder-senna
+  name: Bladder Senna
+- slug: blue-wild-indigo
+  name: Blue Wild Indigo
+- slug: carob-tree
+  name: Carob Tree
+- slug: cassia-alata
+  name: Cassia alata
+- slug: catclaw-sensitive-briar
+  name: Catclaw Sensitive Briar
+- slug: chickpea
+  name: Chickpea
+- slug: chilean-pea
+  name: Chilean Pea
+- slug: coffee-senna
+  name: Coffee Senna
+- slug: coffeeweed
+  name: Coffeeweed
+- slug: coral-bean
+  name: Coral Bean
+- slug: crimson-clover
+  name: Crimson Clover
+- slug: crown-vetch
+  name: Crown Vetch
+- slug: desert-ironwood
+  name: Desert Ironwood
+- slug: dutch-clover
+  name: Dutch Clover
+- slug: earth-chestnut
+  name: Earth Chestnut
+- slug: false-indigo
+  name: False Indigo
+- slug: fava-bean
+  name: Fava Bean
+- slug: florida-leadplant
+  name: Florida Leadplant
+- slug: goats-rue
+  name: Goat's Rue
+- slug: green-bean
+  name: Green Bean
+- slug: groundnut
+  name: Groundnut
+- slug: groundplum-milkvetch
+  name: Groundplum Milkvetch
+- slug: hairy-indigo
+  name: Hairy Indigo
+- slug: honey-locust
+  name: Honey Locust
+- slug: hopniss
+  name: Hopniss
+- slug: hyacinth-bean
+  name: Hyacinth Bean
+- slug: ice-cream-bean-tree
+  name: Ice Cream Bean Tree
+- slug: illinois-bundleflower
+  name: Illinois Bundleflower
+- slug: indigofera-tinctoria
+  name: Indigofera tinctoria
+- slug: jatoba
+  name: Jatoba
+- slug: jicama
+  name: Jicama
+- slug: lablab-bean
+  name: Lablab Bean
+- slug: lead-plant
+  name: Lead Plant
+- slug: leucaena
+  name: Leucaena
+- slug: lupine
+  name: Lupine
+- slug: mangrove-bean
+  name: Mangrove Bean
+- slug: milk-vetch
+  name: Milk Vetch
+- slug: mimosa
+  name: Mimosa
+- slug: mung-bean
+  name: Mung Bean
+- slug: palo-verde
+  name: Palo Verde
+- slug: partridge-acacia
+  name: Partridge Acacia
+- slug: partridge-cassia
+  name: Partridge Cassia
+- slug: partridge-pea
+  name: Partridge Pea
+- slug: pea
+  name: Pea
+- slug: perennial-peanut
+  name: Perennial Peanut
+- slug: pigeon-pea
+  name: Pigeon Pea
+- slug: plains-wild-indigo
+  name: Plains Wild Indigo
+- slug: powderpuff-mimosa
+  name: Powderpuff Mimosa
+- slug: prairie-acacia
+  name: Prairie Acacia
+- slug: prairie-potato
+  name: Prairie Potato
+- slug: prairie-turnip
+  name: Prairie Turnip
+- slug: rattlebox
+  name: Rattlebox
+- slug: sensitive-briar
+  name: Sensitive Briar
+- slug: sensitive-plant
+  name: Sensitive Plant
+- slug: sesbania
+  name: Sesbania
+- slug: sesbania-grandiflora
+  name: Sesbania grandiflora
+- slug: showy-partridge-pea
+  name: Showy Partridge Pea
+- slug: siberian-peashrub
+  name: Siberian Peashrub
+- slug: siberian-pea-shrub
+  name: Siberian Pea Shrub
+- slug: sicklepod
+  name: Sicklepod
+- slug: snow-pea
+  name: Snow Pea
+- slug: sun-hemp
+  name: Sun Hemp
+- slug: sunshine-mimosa
+  name: Sunshine Mimosa
+- slug: tagasaste
+  name: Tagasaste
+- slug: tephrosia-vogelii
+  name: Tephrosia vogelii
+- slug: tick-trefoil
+  name: Tick Trefoil
+- slug: trailing-mimosa
+  name: Trailing Mimosa
+- slug: tree-medick
+  name: Tree Medick
+- slug: white-wild-indigo
+  name: White Wild Indigo
+- slug: wild-indigo-bush
+  name: Wild Indigo Bush
+- slug: wild-indigo
+  name: Wild Indigo
+- slug: wild-senna
+  name: Wild Senna
+- slug: winged-bean
+  name: Winged Bean
+- slug: wisteria
+  name: Wisteria
+- slug: yam-bean
+  name: Yam Bean
+- slug: yellow-sweet-clover
+  name: Yellow Sweet Clover
+- slug: acorn-squash
+  name: Acorn Squash
+- slug: angled-loofah
+  name: Angled Loofah
+- slug: apple-gourd
+  name: Apple Gourd
+- slug: birdhouse-gourd
+  name: Birdhouse Gourd
+- slug: bitter-melon
+  name: Bitter Melon
+- slug: bottle-gourd
+  name: Bottle Gourd
+- slug: buffalo-gourd
+  name: Buffalo Gourd
+- slug: bushel-gourd
+  name: Bushel Gourd
+- slug: calabaza
+  name: Calabaza
+- slug: cassabanana-root-systems
+  name: Cassabanana root systems
+- slug: caveman-club-gourd
+  name: Caveman Club Gourd
+- slug: chayote
+  name: Chayote
+- slug: coccinia
+  name: Coccinia
+- slug: corsican-gourd
+  name: Corsican Gourd
+- slug: cucamelon
+  name: Cucamelon
+- slug: dinosaur-gourd
+  name: Dinosaur Gourd
+- slug: ivy-gourd
+  name: Ivy Gourd
+- slug: luffa
+  name: Luffa
+- slug: monky-muskmelon
+  name: Monky Muskmelon
+- slug: penguin-gourd
+  name: Penguin Gourd
+- slug: seminole-pumpkin
+  name: Seminole Pumpkin
+- slug: snake-gourd
+  name: Snake Gourd
+- slug: wax-gourd
+  name: Wax Gourd
+category: pest

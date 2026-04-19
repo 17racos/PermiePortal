@@ -1,109 +1,104 @@
----
-- name: Squash Vine Borer
-  slug: squash-vine-borer
-  picture: squash_vine_borer.webp
-  scientific_name: Melittia cucurbitae
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, squash vine borer may already be on
-    the plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - tunneling
-  - stem-damage
-  - wilting
-  - die-back
-  - bark-damage
-  control_methods:
-    biological_controls: >-
-      Beneficial nematodes (Steinernema carpocapsae) injected into borer entry
-      holes or applied to soil at the base of stems reach larvae that no spray
-      can contact -- one of the few organic options that works on borers already
-      inside stems. Trichogramma egg parasitoids attack squash vine borer eggs
-      on stems before they hatch -- release weekly during adult flight period.
-      Generalist ground beetles prey on pupae in soil over winter -- permanent
-      mulch paths near the garden support them year-round.
-    preventive_methods: >-
-      Squash vine borer adults are day-flying clearwing moths that look like
-      wasps -- red and black, fast-moving, easy to spot near squash plants in
-      summer. They lay flat reddish-brown eggs individually on stems near the
-      base. Finding and crushing these eggs before they hatch is the highest-value
-      prevention. Row covers from transplant until first female flower completely
-      exclude egg-laying -- remove covers at bloom for pollination. Time a second
-      planting after peak borer flight (mid-August in most areas) to escape pressure.
-    cultural_practices: >-
-      Butternut squash is significantly less preferred by squash vine borers than
-      zucchini, yellow squash, or acorn squash -- choose it when borer pressure
-      is severe. Mound soil over vine nodes every few feet to encourage adventitious
-      rooting -- when borers kill the main stem the vine can continue from new roots.
-      Blue Hubbard squash as a trap crop at bed edges draws borers away from main
-      plantings. Destroy all cucurbit crop residue immediately after harvest.
-    mechanical_physical: >-
-      Slit infested stems lengthwise with a sharp knife to extract and kill the
-      larva inside -- find the entry hole (a sawdust-like frass pile) and cut
-      just far enough to reach the larva. Pack moist soil over the wound and the
-      vine often survives. Check stem bases weekly from June onward for entry holes
-      and fresh frass. Row covers are the most reliable mechanical control.
-    organic_sprays: >-
-      Bt kurstaki has very limited effectiveness because larvae enter stems quickly
-      and are then protected from contact sprays. The only window is targeting newly
-      hatched larvae in the first hours after egg hatch before they tunnel in -- spray
-      stems thoroughly every 5-7 days during adult flight. Kaolin clay on stems deters
-      egg-laying -- apply every 7 days from early June. Focus all spray effort on
-      prevention before larvae enter, not treatment after.
-  natural_enemies:
-  - Braconid Wasps
-  - Ichneumonid Wasps
-  - Beneficial Nematodes
-  affected_plants:
-  - slug: acorn-squash
-    name: Acorn Squash
-  - slug: angled-loofah
-    name: Angled Loofah
-  - slug: apple-gourd
-    name: Apple Gourd
-  - slug: birdhouse-gourd
-    name: Birdhouse Gourd
-  - slug: bitter-melon
-    name: Bitter Melon
-  - slug: bottle-gourd
-    name: Bottle Gourd
-  - slug: buffalo-gourd
-    name: Buffalo Gourd
-  - slug: bushel-gourd
-    name: Bushel Gourd
-  - slug: calabaza
-    name: Calabaza
-  - slug: cassabanana-root-systems
-    name: Cassabanana root systems
-  - slug: caveman-club-gourd
-    name: Caveman Club Gourd
-  - slug: chayote
-    name: Chayote
-  - slug: coccinia
-    name: Coccinia
-  - slug: corsican-gourd
-    name: Corsican Gourd
-  - slug: cucamelon
-    name: Cucamelon
-  - slug: dinosaur-gourd
-    name: Dinosaur Gourd
-  - slug: ivy-gourd
-    name: Ivy Gourd
-  - slug: luffa
-    name: Luffa
-  - slug: monky-muskmelon
-    name: Monky Muskmelon
-  - slug: penguin-gourd
-    name: Penguin Gourd
-  - slug: seminole-pumpkin
-    name: Seminole Pumpkin
-  - slug: snake-gourd
-    name: Snake Gourd
-  - slug: wax-gourd
-    name: Wax Gourd
+name: Squash Vine Borer
+slug: squash-vine-borer
+picture: squash_vine_borer.webp
+scientific_name: Melittia cucurbitae
+description: If new growth is curling, yellowing, sticky, or chewed, squash vine borer
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- tunneling
+- stem-damage
+- wilting
+- die-back
+- bark-damage
+control_methods:
+  biological_controls: Beneficial nematodes (Steinernema carpocapsae) injected into
+    borer entry holes or applied to soil at the base of stems reach larvae that no
+    spray can contact -- one of the few organic options that works on borers already
+    inside stems. Trichogramma egg parasitoids attack squash vine borer eggs on stems
+    before they hatch -- release weekly during adult flight period. Generalist ground
+    beetles prey on pupae in soil over winter -- permanent mulch paths near the garden
+    support them year-round.
+  preventive_methods: Squash vine borer adults are day-flying clearwing moths that
+    look like wasps -- red and black, fast-moving, easy to spot near squash plants
+    in summer. They lay flat reddish-brown eggs individually on stems near the base.
+    Finding and crushing these eggs before they hatch is the highest-value prevention.
+    Row covers from transplant until first female flower completely exclude egg-laying
+    -- remove covers at bloom for pollination. Time a second planting after peak borer
+    flight (mid-August in most areas) to escape pressure.
+  cultural_practices: Butternut squash is significantly less preferred by squash vine
+    borers than zucchini, yellow squash, or acorn squash -- choose it when borer pressure
+    is severe. Mound soil over vine nodes every few feet to encourage adventitious
+    rooting -- when borers kill the main stem the vine can continue from new roots.
+    Blue Hubbard squash as a trap crop at bed edges draws borers away from main plantings.
+    Destroy all cucurbit crop residue immediately after harvest.
+  mechanical_physical: Slit infested stems lengthwise with a sharp knife to extract
+    and kill the larva inside -- find the entry hole (a sawdust-like frass pile) and
+    cut just far enough to reach the larva. Pack moist soil over the wound and the
+    vine often survives. Check stem bases weekly from June onward for entry holes
+    and fresh frass. Row covers are the most reliable mechanical control.
+  organic_sprays: Bt kurstaki has very limited effectiveness because larvae enter
+    stems quickly and are then protected from contact sprays. The only window is targeting
+    newly hatched larvae in the first hours after egg hatch before they tunnel in
+    -- spray stems thoroughly every 5-7 days during adult flight. Kaolin clay on stems
+    deters egg-laying -- apply every 7 days from early June. Focus all spray effort
+    on prevention before larvae enter, not treatment after.
+natural_enemies:
+- Braconid Wasps
+- Ichneumonid Wasps
+- Beneficial Nematodes
+affected_plants:
+- slug: acorn-squash
+  name: Acorn Squash
+- slug: angled-loofah
+  name: Angled Loofah
+- slug: apple-gourd
+  name: Apple Gourd
+- slug: birdhouse-gourd
+  name: Birdhouse Gourd
+- slug: bitter-melon
+  name: Bitter Melon
+- slug: bottle-gourd
+  name: Bottle Gourd
+- slug: buffalo-gourd
+  name: Buffalo Gourd
+- slug: bushel-gourd
+  name: Bushel Gourd
+- slug: calabaza
+  name: Calabaza
+- slug: cassabanana-root-systems
+  name: Cassabanana root systems
+- slug: caveman-club-gourd
+  name: Caveman Club Gourd
+- slug: chayote
+  name: Chayote
+- slug: coccinia
+  name: Coccinia
+- slug: corsican-gourd
+  name: Corsican Gourd
+- slug: cucamelon
+  name: Cucamelon
+- slug: dinosaur-gourd
+  name: Dinosaur Gourd
+- slug: ivy-gourd
+  name: Ivy Gourd
+- slug: luffa
+  name: Luffa
+- slug: monky-muskmelon
+  name: Monky Muskmelon
+- slug: penguin-gourd
+  name: Penguin Gourd
+- slug: seminole-pumpkin
+  name: Seminole Pumpkin
+- slug: snake-gourd
+  name: Snake Gourd
+- slug: wax-gourd
+  name: Wax Gourd
+category: pest

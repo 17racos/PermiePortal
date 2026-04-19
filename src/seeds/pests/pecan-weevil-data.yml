@@ -1,60 +1,56 @@
----
-- name: Pecan Weevil
-  slug: pecan-weevil
-  picture: pecan_weevil.webp
-  scientific_name: Curculio caryae
-  description: >-
-    If plants are wilting, notching at the edges, or fruit and roots show hidden feeding damage,
-    pecan weevil may be the cause. Adults chew above ground while larvae often feed out of sight
-    inside soil, stems, or fruit. Damage builds quietly, then plants crash fast when roots are
-    heavily hit. Act early so a small weevil problem does not become a season-long infestation.
-  characteristics: >-
-    Look for small beetles with a hard body and a distinct snout, usually active at dawn, dusk,
-    or night. Check for crescent-shaped leaf notches, punctures in fruit, or tiny entry holes
-    near stems. In soil or damaged tissue, larvae are often pale, legless, and curved in a
-    C-shape. Fresh chew marks plus snout beetles or C-shaped grubs confirm active weevil
-    pressure.
-  symptoms:
-  - chewed-stems
-  - stem-damage
-  - fruit-damage
-  - holes-in-leaves
-  - root-damage
-  control_methods:
-    biological_controls: >-
-      Steinernema carpocapsae and S. riobrave nematodes infect pecan weevil larvae and pupae in
-      soil when applications hit moist soil under the canopy during larval drop -- timing beats
-      chemistry in organic blocks. Beauveria and Metarhizium fungi infect crawling larvae when
-      humidity stays high. Chickens or guinea fowl under trees scratch larvae where local rules
-      allow; they are not precision tools.
-    preventive_methods: >-
-      Circle traps on trunks catch climbing adults for trend lines -- rising catches mean
-      tighten harvest and ground treatments. Track degree-days for emergence so you are not
-      guessing every July. Harvest as soon as nuts mature; nuts on the ground are weevil condos.
-      Map orchards with history and scout those rows first.
-    cultural_practices: >-
-      Shake or pole adults onto sheets in July and August evenings before they lay in new nuts.
-      Destroy infested nuts and shred husks promptly. Maintain bare soil or short sod under trees
-      during emergence so nematodes contact larvae instead of thatch. Avoid heavy mulch volcanoes
-      against trunks.
-    mechanical_physical: >-
-      Sticky trunk bands catch some crawlers but adults fly -- focus on ground sanitation and
-      traps. Vacuum fallen nuts before larvae crawl away. For backyard trees, pick nuts early
-      and remove husks daily during weevil weeks.
-    organic_sprays: >-
-      Nematode drenches target soil stages, not adults inside nuts -- apply after irrigation
-      when soil stays moist for forty-eight hours. Fungal products need moisture and contact;
-      repeat after rain per label. Kaolin on foliage may deter feeding adults in some programs;
-      read walnut and pecan labels. Organic management pairs nematodes with harvest timing, not
-      hope alone.
-  natural_enemies:
-  - Entomopathogenic Nematodes
-  - Entomopathogenic Fungi
-  - Ground Beetles (Carabidae)
-  affected_plants:
-  - slug: pecan-tree
-    name: Pecan Tree
-  - slug: scrub-hickory
-    name: Scrub Hickory
-  - slug: walnut-tree
-    name: Walnut Tree
+name: Pecan Weevil
+slug: pecan-weevil
+picture: pecan_weevil.webp
+scientific_name: Curculio caryae
+description: If plants are wilting, notching at the edges, or fruit and roots show
+  hidden feeding damage, pecan weevil may be the cause. Adults chew above ground while
+  larvae often feed out of sight inside soil, stems, or fruit. Damage builds quietly,
+  then plants crash fast when roots are heavily hit. Act early so a small weevil problem
+  does not become a season-long infestation.
+characteristics: Look for small beetles with a hard body and a distinct snout, usually
+  active at dawn, dusk, or night. Check for crescent-shaped leaf notches, punctures
+  in fruit, or tiny entry holes near stems. In soil or damaged tissue, larvae are
+  often pale, legless, and curved in a C-shape. Fresh chew marks plus snout beetles
+  or C-shaped grubs confirm active weevil pressure.
+symptoms:
+- chewed-stems
+- stem-damage
+- fruit-damage
+- holes-in-leaves
+- root-damage
+control_methods:
+  biological_controls: Steinernema carpocapsae and S. riobrave nematodes infect pecan
+    weevil larvae and pupae in soil when applications hit moist soil under the canopy
+    during larval drop -- timing beats chemistry in organic blocks. Beauveria and
+    Metarhizium fungi infect crawling larvae when humidity stays high. Chickens or
+    guinea fowl under trees scratch larvae where local rules allow; they are not precision
+    tools.
+  preventive_methods: Circle traps on trunks catch climbing adults for trend lines
+    -- rising catches mean tighten harvest and ground treatments. Track degree-days
+    for emergence so you are not guessing every July. Harvest as soon as nuts mature;
+    nuts on the ground are weevil condos. Map orchards with history and scout those
+    rows first.
+  cultural_practices: Shake or pole adults onto sheets in July and August evenings
+    before they lay in new nuts. Destroy infested nuts and shred husks promptly. Maintain
+    bare soil or short sod under trees during emergence so nematodes contact larvae
+    instead of thatch. Avoid heavy mulch volcanoes against trunks.
+  mechanical_physical: Sticky trunk bands catch some crawlers but adults fly -- focus
+    on ground sanitation and traps. Vacuum fallen nuts before larvae crawl away. For
+    backyard trees, pick nuts early and remove husks daily during weevil weeks.
+  organic_sprays: Nematode drenches target soil stages, not adults inside nuts --
+    apply after irrigation when soil stays moist for forty-eight hours. Fungal products
+    need moisture and contact; repeat after rain per label. Kaolin on foliage may
+    deter feeding adults in some programs; read walnut and pecan labels. Organic management
+    pairs nematodes with harvest timing, not hope alone.
+natural_enemies:
+- Entomopathogenic Nematodes
+- Entomopathogenic Fungi
+- Ground Beetles (Carabidae)
+affected_plants:
+- slug: pecan-tree
+  name: Pecan Tree
+- slug: scrub-hickory
+  name: Scrub Hickory
+- slug: walnut-tree
+  name: Walnut Tree
+category: pest

@@ -1,57 +1,59 @@
-- name: "Armored scale"
-  slug: "armored-scale"
-  picture: "armored_scale.webp"
-  scientific_name: "Diaspididae"
-  description: >-
-    Armored scales are immobile sap feeders protected by a hard wax cover separate from the insect body.
-    They often look like tiny fish scales or bumps glued along stems and leaf veins. Populations build slowly,
-    then yellowing, die-back, and sooty mold from honeydew-producing partners appear as secondary issues.
-    They are common on woody ornamentals and fruit across humid subtropical to temperate climates.
-  characteristics: >-
-    Use a lens: the cover lifts off the surface while the soft insect body remains underneath on some species.
-    Unlike soft scales, armored types do not excrete large amounts of honeydew themselves, but plants may still
-    show decline from chronic sap loss. Scratch tests help -- if the cover pops free and a yellow or purple
-    smear appears, the insect is alive. Track crawler timing with double-sided tape wrapped near existing scales
-    during warm months.
-  symptoms:
-  - yellowing-leaves
-  - die-back
-  - distorted-growth
-  - dropping-leaves
-  - sticky-residue
-  control_methods:
-    biological_controls: >-
-      Aphytis and Comperiella spp. parasitoids attack many diaspidid scales in citrus and ornamental systems.
-      Lady beetle Chilocorus stigma feeds on several armored species when crawlers are exposed. Preserve
-      flowering insectaries so parasitoids have nectar during adult flight. Avoid broad-spectrum sprays during
-      crawler windows because the vulnerable stage is when biocontrol agents work best.
-    preventive_methods: >-
-      Inspect nursery stock before planting and reject heavily infested liners. Quarantine new acquisitions
-      in bright light for two weeks while checking undersides of leaves and stem joints. Do not over-fertilize
-      with quick-release nitrogen, which pushes succulent growth scales colonize faster. Maintain steady soil
-      moisture so plants do not alternate between drought stress and flushes of tender tissue.
-    cultural_practices: >-
-      Prune out the most encrusted twigs when infestations are localized, bagging debris for municipal green
-      waste if available. Open canopy interiors on dense shrubs to improve spray penetration and predator access.
-      Ants farming honeydew from neighboring soft scales can protect scales from predators -- manage ant routes
-      with sticky barriers or bait stations using products labeled for your setting. Replace chronically infested
-      hedging varieties with resistant selections where breeders have documented lower scale loads.
-    mechanical_physical: >-
-      For small plantings, a soft toothbrush and soapy water scrub removes many covers and exposes crawlers to
-      desiccation. Pressure washing can dislodge scales on sturdy bark but risks cambial injury on thin-barked
-      species if pressure is too high. Double-sided tape captures crawlers during emergence peaks when refreshed
-      every few days. Hand removal is tedious but effective on specimen trees where chemical use is undesirable.
-    organic_sprays: >-
-      Horticultural oil during dormancy smothers overwintering scales when labels allow for your species and
-      temperature range. In-season, narrow-range summer oil timed to crawler emergence hits the unprotected
-      stage -- repeat according to label intervals because residual is short. Insecticidal soap helps on soft
-      new growth where complete coverage is possible. Rotate oil and soap rather than stacking rates, because
-      repeated heavy oil in heat can damage foliage.
-  natural_enemies:
-  - Parasitic Wasps
-  - Ladybugs
-  - Predatory Beetles
-  affected_plants: []
-  # Image attribution: (c) Jon Sullivan, some rights reserved (CC BY)
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+name: Armored scale
+slug: armored-scale
+picture: armored_scale.webp
+scientific_name: Diaspididae
+description: Armored scales are immobile sap feeders protected by a hard wax cover
+  separate from the insect body. They often look like tiny fish scales or bumps glued
+  along stems and leaf veins. Populations build slowly, then yellowing, die-back,
+  and sooty mold from honeydew-producing partners appear as secondary issues. They
+  are common on woody ornamentals and fruit across humid subtropical to temperate
+  climates.
+characteristics: 'Use a lens: the cover lifts off the surface while the soft insect
+  body remains underneath on some species. Unlike soft scales, armored types do not
+  excrete large amounts of honeydew themselves, but plants may still show decline
+  from chronic sap loss. Scratch tests help -- if the cover pops free and a yellow
+  or purple smear appears, the insect is alive. Track crawler timing with double-sided
+  tape wrapped near existing scales during warm months.'
+symptoms:
+- yellowing-leaves
+- die-back
+- distorted-growth
+- dropping-leaves
+- sticky-residue
+control_methods:
+  biological_controls: Aphytis and Comperiella spp. parasitoids attack many diaspidid
+    scales in citrus and ornamental systems. Lady beetle Chilocorus stigma feeds on
+    several armored species when crawlers are exposed. Preserve flowering insectaries
+    so parasitoids have nectar during adult flight. Avoid broad-spectrum sprays during
+    crawler windows because the vulnerable stage is when biocontrol agents work best.
+  preventive_methods: Inspect nursery stock before planting and reject heavily infested
+    liners. Quarantine new acquisitions in bright light for two weeks while checking
+    undersides of leaves and stem joints. Do not over-fertilize with quick-release
+    nitrogen, which pushes succulent growth scales colonize faster. Maintain steady
+    soil moisture so plants do not alternate between drought stress and flushes of
+    tender tissue.
+  cultural_practices: Prune out the most encrusted twigs when infestations are localized,
+    bagging debris for municipal green waste if available. Open canopy interiors on
+    dense shrubs to improve spray penetration and predator access. Ants farming honeydew
+    from neighboring soft scales can protect scales from predators -- manage ant routes
+    with sticky barriers or bait stations using products labeled for your setting.
+    Replace chronically infested hedging varieties with resistant selections where
+    breeders have documented lower scale loads.
+  mechanical_physical: For small plantings, a soft toothbrush and soapy water scrub
+    removes many covers and exposes crawlers to desiccation. Pressure washing can
+    dislodge scales on sturdy bark but risks cambial injury on thin-barked species
+    if pressure is too high. Double-sided tape captures crawlers during emergence
+    peaks when refreshed every few days. Hand removal is tedious but effective on
+    specimen trees where chemical use is undesirable.
+  organic_sprays: Horticultural oil during dormancy smothers overwintering scales
+    when labels allow for your species and temperature range. In-season, narrow-range
+    summer oil timed to crawler emergence hits the unprotected stage -- repeat according
+    to label intervals because residual is short. Insecticidal soap helps on soft
+    new growth where complete coverage is possible. Rotate oil and soap rather than
+    stacking rates, because repeated heavy oil in heat can damage foliage.
+natural_enemies:
+- Parasitic Wasps
+- Ladybugs
+- Predatory Beetles
+affected_plants: []
+category: pest

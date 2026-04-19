@@ -1,56 +1,53 @@
----
-- name: Hickory Shuckworm
-  slug: hickory-shuckworm
-  picture: hickory_shuckworm.webp
-  scientific_name: Cydia caryana
-  description: >-
-    If leaves look shredded overnight or fruit has fresh chew holes, hickory shuckworm may be
-    feeding right now. These larvae can eat fast and strip a healthy plant in a short window.
-    Young stages are easy to miss, then damage suddenly explodes as they grow. Catch them early
-    to avoid severe defoliation and contaminated harvests.
-  characteristics: >-
-    Check leaf undersides, growing tips, and stem junctions for eggs, frass pellets, and feeding
-    scars. Larvae vary in color, but most have a soft segmented body and blend into foliage.
-    Look at dusk or early morning when many species feed more actively. Fresh chewing plus live
-    larvae or droppings on lower leaves confirms an active caterpillar outbreak.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - skeletonized-leaves
-  control_methods:
-    biological_controls: >-
-      Trichogramma wasps parasitize moth eggs in research and commercial nut IPM when releases
-      match flight -- not a hobby kit for one backyard tree. Braconid and ichneumonid wasps
-      attack larvae in shucks if sprays stay selective. Preserve these helpers by avoiding
-      blanket pyrethrin during peak parasitism; you trade cheap chemistry for expensive worms.
-    preventive_methods: >-
-      Hang pheromone traps to mark biofix when moths first fly -- that date sets egg-hatch sprays.
-      Scout shucks for entry holes and frass about two weeks after peak trap catch. Flag trees
-      that showed shuck damage last year; larvae often reinfest the same neighborhood.
-    cultural_practices: >-
-      Remove alternate hosts such as late corn near orchards that hold extra moths. Destroy
-      fallen infested nuts so larvae cannot pupate in litter. Open canopy modestly for predator
-      access without sun-scalding nuts -- balance shade and airflow. After harvest, shred husks
-      promptly where equipment allows.
-    mechanical_physical: >-
-      Mating disruption dispensers work on large contiguous pecan or hickory acreage; single
-      backyard trees rarely justify the investment. For home trees, bag clusters or accept some
-      loss and focus on sanitation. Prune low branches that touch grass and splash spores and
-      insect eggs into canopy.
-    organic_sprays: >-
-      Bacillus thuringiensis kurstaki and spinosad target small larvae after nut set -- coverage
-      inside shucks is tough, so time sprays to egg hatch from trap biofix, not the calendar.
-      Use enough water volume to penetrate clusters. Reapply after rain. Bt stops working once
-      larvae tunnel deep in shucks; early timing beats late heroics.
-  natural_enemies:
-  - Trichogramma spp.
-  - Braconid Wasps
-  - Ichneumonid Wasps
-  affected_plants:
-  - slug: pecan-tree
-    name: Pecan Tree
-  - slug: scrub-hickory
-    name: Scrub Hickory
-  - slug: walnut-tree
-    name: Walnut Tree
+name: Hickory Shuckworm
+slug: hickory-shuckworm
+picture: hickory_shuckworm.webp
+scientific_name: Cydia caryana
+description: If leaves look shredded overnight or fruit has fresh chew holes, hickory
+  shuckworm may be feeding right now. These larvae can eat fast and strip a healthy
+  plant in a short window. Young stages are easy to miss, then damage suddenly explodes
+  as they grow. Catch them early to avoid severe defoliation and contaminated harvests.
+characteristics: Check leaf undersides, growing tips, and stem junctions for eggs,
+  frass pellets, and feeding scars. Larvae vary in color, but most have a soft segmented
+  body and blend into foliage. Look at dusk or early morning when many species feed
+  more actively. Fresh chewing plus live larvae or droppings on lower leaves confirms
+  an active caterpillar outbreak.
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- skeletonized-leaves
+control_methods:
+  biological_controls: Trichogramma wasps parasitize moth eggs in research and commercial
+    nut IPM when releases match flight -- not a hobby kit for one backyard tree. Braconid
+    and ichneumonid wasps attack larvae in shucks if sprays stay selective. Preserve
+    these helpers by avoiding blanket pyrethrin during peak parasitism; you trade
+    cheap chemistry for expensive worms.
+  preventive_methods: Hang pheromone traps to mark biofix when moths first fly --
+    that date sets egg-hatch sprays. Scout shucks for entry holes and frass about
+    two weeks after peak trap catch. Flag trees that showed shuck damage last year;
+    larvae often reinfest the same neighborhood.
+  cultural_practices: Remove alternate hosts such as late corn near orchards that
+    hold extra moths. Destroy fallen infested nuts so larvae cannot pupate in litter.
+    Open canopy modestly for predator access without sun-scalding nuts -- balance
+    shade and airflow. After harvest, shred husks promptly where equipment allows.
+  mechanical_physical: Mating disruption dispensers work on large contiguous pecan
+    or hickory acreage; single backyard trees rarely justify the investment. For home
+    trees, bag clusters or accept some loss and focus on sanitation. Prune low branches
+    that touch grass and splash spores and insect eggs into canopy.
+  organic_sprays: Bacillus thuringiensis kurstaki and spinosad target small larvae
+    after nut set -- coverage inside shucks is tough, so time sprays to egg hatch
+    from trap biofix, not the calendar. Use enough water volume to penetrate clusters.
+    Reapply after rain. Bt stops working once larvae tunnel deep in shucks; early
+    timing beats late heroics.
+natural_enemies:
+- Trichogramma spp.
+- Braconid Wasps
+- Ichneumonid Wasps
+affected_plants:
+- slug: pecan-tree
+  name: Pecan Tree
+- slug: scrub-hickory
+  name: Scrub Hickory
+- slug: walnut-tree
+  name: Walnut Tree
+category: pest

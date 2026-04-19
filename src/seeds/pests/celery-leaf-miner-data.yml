@@ -1,112 +1,110 @@
----
-- name: Celery Leaf Miner
-  slug: celery-leaf-miner
-  picture: celery_leaf_miner.webp
-  scientific_name: Gracillariidae sp.
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, celery leaf miner may already be on
-    the plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - tunneling
-  - distorted-growth
-  - leaf-spots
-  - dropping-leaves
-  control_methods:
-    biological_controls: >-
-      Tiny parasitic wasps attack leaf miner larvae inside celery and parsley leaves -- you see
-      their work as brown, puffy mines or exit holes when they succeed. Minute pirate bugs and
-      lacewing larvae hunt exposed eggs before larvae tunnel. These helpers die if you spray
-      broad-spectrum soap or pyrethrin every three days. Leave a few mined leaves if mines look
-      parasitized and plants still photosynthesize; total strip-mining is different from cosmetic
-      tracks.
-    preventive_methods: >-
-      Adult flies lay eggs on undersides of leaves in long, puncture lines -- scout seedling
-      celery weekly with a hand lens and flip leaves before mines appear. Yellow sticky cards
-      near canopy height show fly numbers trending up. Remove volunteer celery and related weeds
-      near fields that bridge generations. In greenhouses, screen vents before adults fly in
-      from outside. If last year's block was hot, rotate location so emerging flies meet fewer
-      hosts immediately.
-    cultural_practices: >-
-      Rotate Apiaceae crops on a two- to three-year cycle in gardens; commercial fields move blocks
-      farther. Interplant with non-hosts for diversity, not because celery repels miners -- it
-      does not. Avoid overhead irrigation that keeps leaves wet all day; miners still come, but
-      foliar diseases stack on top. Keep fertility even; stunted celery shows mines faster
-      because each leaf matters. In high tunnels, remove crop debris between successions so pupae
-      have nowhere to sit.
-    mechanical_physical: >-
-      Clip and destroy heavily mined leaves while larvae are still small -- bag them, do not
-      compost hot. Floating row covers on young transplants block adults during first flights;
-      remove when plants need space or pollination for seed crops. For greenhouse benches, yellow
-      sticky tape along walkways catches adults walking from pot to pot. Vacuum adults on cold
-      mornings when they rest on leaves.
-    organic_sprays: >-
-      Spinosad penetrates leaf tissue enough to kill young leaf miner larvae in some systems --
-      read labels for celery and rate. Neem and soap reduce egg laying if you apply before mines
-      tunnel; after larvae are inside, contact sprays miss them. Rotate modes of action; miners
-      select resistance in greenhouses fast. Spray at dusk to spare parasitoids. Combine any
-      spray with removal of old mines so you are not treating ghosts.
-  natural_enemies:
-  - Parasitoid Wasps
-  - Predatory Insects
-  affected_plants:
-  - slug: alexanders
-    name: Alexanders
-  - slug: angelica
-    name: Angelica
-  - slug: arracacha
-    name: Arracacha
-  - slug: ashitaba
-    name: Ashitaba
-  - slug: carrot
-    name: Carrot
-  - slug: celery
-    name: Celery
-  - slug: culantro
-    name: Culantro
-  - slug: dill
-    name: Dill
-  - slug: dollarweed
-    name: Dollarweed
-  - slug: fennel
-    name: Fennel
-  - slug: gotu-kola
-    name: Gotu Kola
-  - slug: lovage
-    name: Lovage
-  - slug: parsley
-    name: Parsley
-  - slug: parsnip
-    name: Parsnip
-  - slug: rattlesnake-master
-    name: Rattlesnake Master
-  - slug: skirret
-    name: Skirret
-  - slug: sweet-cicely
-    name: Sweet Cicely
-  - slug: wild-anise
-    name: Wild Anise
-  - slug: wild-caraway
-    name: Wild Caraway
-  - slug: wild-carrot
-    name: Wild Carrot
-  - slug: wild-celery
-    name: Wild Celery
-  - slug: wild-chervil
-    name: Wild Chervil
-  - slug: wild-coriander
-    name: Wild Coriander
-  - slug: wild-cumin
-    name: Wild Cumin
-  - slug: wild-dill
-    name: Wild Dill
-  - slug: wild-fennel
-    name: Wild Fennel
-  - slug: wild-parsnip
-    name: Wild Parsnip
+name: Celery Leaf Miner
+slug: celery-leaf-miner
+picture: celery_leaf_miner.webp
+scientific_name: Gracillariidae sp.
+description: If new growth is curling, yellowing, sticky, or chewed, celery leaf miner
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- tunneling
+- distorted-growth
+- leaf-spots
+- dropping-leaves
+control_methods:
+  biological_controls: Tiny parasitic wasps attack leaf miner larvae inside celery
+    and parsley leaves -- you see their work as brown, puffy mines or exit holes when
+    they succeed. Minute pirate bugs and lacewing larvae hunt exposed eggs before
+    larvae tunnel. These helpers die if you spray broad-spectrum soap or pyrethrin
+    every three days. Leave a few mined leaves if mines look parasitized and plants
+    still photosynthesize; total strip-mining is different from cosmetic tracks.
+  preventive_methods: Adult flies lay eggs on undersides of leaves in long, puncture
+    lines -- scout seedling celery weekly with a hand lens and flip leaves before
+    mines appear. Yellow sticky cards near canopy height show fly numbers trending
+    up. Remove volunteer celery and related weeds near fields that bridge generations.
+    In greenhouses, screen vents before adults fly in from outside. If last year's
+    block was hot, rotate location so emerging flies meet fewer hosts immediately.
+  cultural_practices: Rotate Apiaceae crops on a two- to three-year cycle in gardens;
+    commercial fields move blocks farther. Interplant with non-hosts for diversity,
+    not because celery repels miners -- it does not. Avoid overhead irrigation that
+    keeps leaves wet all day; miners still come, but foliar diseases stack on top.
+    Keep fertility even; stunted celery shows mines faster because each leaf matters.
+    In high tunnels, remove crop debris between successions so pupae have nowhere
+    to sit.
+  mechanical_physical: Clip and destroy heavily mined leaves while larvae are still
+    small -- bag them, do not compost hot. Floating row covers on young transplants
+    block adults during first flights; remove when plants need space or pollination
+    for seed crops. For greenhouse benches, yellow sticky tape along walkways catches
+    adults walking from pot to pot. Vacuum adults on cold mornings when they rest
+    on leaves.
+  organic_sprays: Spinosad penetrates leaf tissue enough to kill young leaf miner
+    larvae in some systems -- read labels for celery and rate. Neem and soap reduce
+    egg laying if you apply before mines tunnel; after larvae are inside, contact
+    sprays miss them. Rotate modes of action; miners select resistance in greenhouses
+    fast. Spray at dusk to spare parasitoids. Combine any spray with removal of old
+    mines so you are not treating ghosts.
+natural_enemies:
+- Parasitoid Wasps
+- Predatory Insects
+affected_plants:
+- slug: alexanders
+  name: Alexanders
+- slug: angelica
+  name: Angelica
+- slug: arracacha
+  name: Arracacha
+- slug: ashitaba
+  name: Ashitaba
+- slug: carrot
+  name: Carrot
+- slug: celery
+  name: Celery
+- slug: culantro
+  name: Culantro
+- slug: dill
+  name: Dill
+- slug: dollarweed
+  name: Dollarweed
+- slug: fennel
+  name: Fennel
+- slug: gotu-kola
+  name: Gotu Kola
+- slug: lovage
+  name: Lovage
+- slug: parsley
+  name: Parsley
+- slug: parsnip
+  name: Parsnip
+- slug: rattlesnake-master
+  name: Rattlesnake Master
+- slug: skirret
+  name: Skirret
+- slug: sweet-cicely
+  name: Sweet Cicely
+- slug: wild-anise
+  name: Wild Anise
+- slug: wild-caraway
+  name: Wild Caraway
+- slug: wild-carrot
+  name: Wild Carrot
+- slug: wild-celery
+  name: Wild Celery
+- slug: wild-chervil
+  name: Wild Chervil
+- slug: wild-coriander
+  name: Wild Coriander
+- slug: wild-cumin
+  name: Wild Cumin
+- slug: wild-dill
+  name: Wild Dill
+- slug: wild-fennel
+  name: Wild Fennel
+- slug: wild-parsnip
+  name: Wild Parsnip
+category: pest

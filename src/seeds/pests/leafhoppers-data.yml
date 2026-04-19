@@ -1,67 +1,57 @@
----
-- name: Leafhoppers
-  slug: leafhoppers
-  picture: leafhoppers.webp
-  scientific_name: Cicadellidae
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, leafhoppers may already be on the
-    plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - yellowing-leaves
-  - brown-edges
-  - distorted-growth
-  - wilting
-  control_methods:
-    biological_controls: >-
-      Spiders are the most important generalist predator of leafhoppers —
-      a diverse spider community in permanent ground cover and mulch paths
-      provides continuous population suppression. Parasitic wasps (Anagrus
-      spp.) specifically parasitize leafhopper eggs and are the key biological
-      control agent in vineyards and orchards — they thrive when flowering
-      plants like blackberries and wild fennel are nearby. Assassin bugs,
-      damsel bugs, and minute pirate bugs eat leafhopper nymphs. Avoid
-      broad-spectrum sprays that collapse the beneficial insect community
-      and cause leafhopper population rebounds.
-    preventive_methods: >-
-      Leafhoppers pierce plant tissue and remove sap, causing stippling,
-      yellowing, and browning from leaf edges inward — called hopperburn.
-      They also vector serious diseases including beet curly top virus,
-      aster yellows, and Pierce's disease of grapes. Reflective silver mulch
-      under susceptible crops disorients leafhoppers significantly. Yellow
-      and white sticky traps monitor populations. Adults jump quickly when
-      disturbed — approach plants slowly when scouting.
-    cultural_practices: >-
-      Remove weedy vegetation near gardens in late summer when leafhoppers
-      are migrating to new hosts — tall weeds along field edges are major
-      leafhopper reservoirs. Interplant with aromatic herbs at bed edges
-      to confuse navigation. Avoid excess nitrogen which produces succulent
-      soft growth leafhoppers prefer. Keep diverse permanent plantings
-      including flowering perennials that support parasitic wasp populations
-      year-round.
-    mechanical_physical: >-
-      Yellow and white sticky traps at plant height catch adults for monitoring
-      and modest reduction. A strong water spray dislodges nymphs from leaf
-      undersides — repeat every 2-3 days. Row covers over susceptible crops
-      before leafhopper pressure builds prevent establishment. Kaolin clay
-      on leaf surfaces deters feeding and landing — more effective as a
-      preventive coating than as a reactive spray after infestation.
-    organic_sprays: >-
-      Insecticidal soap kills nymphs on direct contact — coat leaf undersides
-      thoroughly where nymphs feed. Apply every 3-5 days during peak pressure.
-      Neem oil disrupts leafhopper feeding and reproduction — apply weekly
-      as prevention. Kaolin clay on foliage physically deters landing and
-      feeding. Pyrethrin provides quick knockdown but leafhoppers reinvade
-      ra areas. Avoid spraying during bloom as all
-      these products can harm pollinators on open flowers.
-  natural_enemies:
-  - Spiders
-  - Lacewings
-  - Parasitic Wasps
-  - Predatory Bugs
+name: Leafhoppers
+slug: leafhoppers
+picture: leafhoppers.webp
+scientific_name: Cicadellidae
+description: If new growth is curling, yellowing, sticky, or chewed, leafhoppers may
+  already be on the plant. This pest often builds quietly, then damage appears all
+  at once. Feeding stress weakens growth, reduces yield, and opens the door to secondary
+  disease. Early cleanup is much easier than fighting a full population surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- yellowing-leaves
+- brown-edges
+- distorted-growth
+- wilting
+control_methods:
+  biological_controls: Spiders are the most important generalist predator of leafhoppers
+    — a diverse spider community in permanent ground cover and mulch paths provides
+    continuous population suppression. Parasitic wasps (Anagrus spp.) specifically
+    parasitize leafhopper eggs and are the key biological control agent in vineyards
+    and orchards — they thrive when flowering plants like blackberries and wild fennel
+    are nearby. Assassin bugs, damsel bugs, and minute pirate bugs eat leafhopper
+    nymphs. Avoid broad-spectrum sprays that collapse the beneficial insect community
+    and cause leafhopper population rebounds.
+  preventive_methods: Leafhoppers pierce plant tissue and remove sap, causing stippling,
+    yellowing, and browning from leaf edges inward — called hopperburn. They also
+    vector serious diseases including beet curly top virus, aster yellows, and Pierce's
+    disease of grapes. Reflective silver mulch under susceptible crops disorients
+    leafhoppers significantly. Yellow and white sticky traps monitor populations.
+    Adults jump quickly when disturbed — approach plants slowly when scouting.
+  cultural_practices: Remove weedy vegetation near gardens in late summer when leafhoppers
+    are migrating to new hosts — tall weeds along field edges are major leafhopper
+    reservoirs. Interplant with aromatic herbs at bed edges to confuse navigation.
+    Avoid excess nitrogen which produces succulent soft growth leafhoppers prefer.
+    Keep diverse permanent plantings including flowering perennials that support parasitic
+    wasp populations year-round.
+  mechanical_physical: Yellow and white sticky traps at plant height catch adults
+    for monitoring and modest reduction. A strong water spray dislodges nymphs from
+    leaf undersides — repeat every 2-3 days. Row covers over susceptible crops before
+    leafhopper pressure builds prevent establishment. Kaolin clay on leaf surfaces
+    deters feeding and landing — more effective as a preventive coating than as a
+    reactive spray after infestation.
+  organic_sprays: Insecticidal soap kills nymphs on direct contact — coat leaf undersides
+    thoroughly where nymphs feed. Apply every 3-5 days during peak pressure. Neem
+    oil disrupts leafhopper feeding and reproduction — apply weekly as prevention.
+    Kaolin clay on foliage physically deters landing and feeding. Pyrethrin provides
+    quick knockdown but leafhoppers reinvade ra areas. Avoid spraying during bloom
+    as all these products can harm pollinators on open flowers.
+natural_enemies:
+- Spiders
+- Lacewings
+- Parasitic Wasps
+- Predatory Bugs
+category: pest

@@ -1,47 +1,46 @@
----
-- name: Southern Armyworm
-  slug: southern-armyworm
-  picture: southern_armyworm.webp
-  scientific_name: Spodoptera eridania
-  description: >-
-    If leaves look shredded overnight or fruit has fresh chew holes, southern armyworm may be
-    feeding right now. These larvae can eat fast and strip a healthy plant in a short window.
-    Young stages are easy to miss, then damage suddenly explodes as they grow. Catch them early
-    to avoid severe defoliation and contaminated harvests.
-  characteristics: >-
-    Check leaf undersides, growing tips, and stem junctions for eggs, frass pellets, and feeding
-    scars. Larvae vary in color, but most have a soft segmented body and blend into foliage.
-    Look at dusk or early morning when many species feed more actively. Fresh chewing plus live
-    larvae or droppings on lower leaves confirms an active caterpillar outbreak.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - skeletonized-leaves
-  control_methods:
-    biological_controls: >-
-      Braconid wasps and tachinid flies parasitize armyworm larvae; ground beetles pull larvae off
-      plants at night. Birds gorge during outbreaks if fields are not sprayed flat. Diversity along
-      field margins feeds adult parasitoids -- mowing every ditch to bare dirt removes their fuel.
-      Skip pyrethrin during obvious parasitism unless crop loss is immediate.
-    preventive_methods: >-
-      Blacklight traps and sweep nets show when flights spike -- rising catches mean scout daily.
-      Watch weedy margins as sources; larvae march from grasses into irrigated crops. Flag fields
-      downwind of hay that was cut late; armyworms often walk from there.
-    cultural_practices: >-
-      Till or incorporate weedy hosts before larvae large-march across bare soil. Synchronize
-      planting to outrun local peaks where historical data exist -- early or late plantings skip
-      worst windows. After harvest, destroy crop residue so pupae have fewer overwintering sites.
-    mechanical_physical: >-
-      Ditches and barriers barely stop strong flyers; focus on timing sprays and host removal.
-      Hand-collect larvae on small plots at dusk when they feed openly. For backyard corn, drop
-      larvae into soapy water when you see window-pane feeding.
-    organic_sprays: >-
-      Bacillus thuringiensis products work on small larvae that eat treated tissue -- spray before
-      larvae hide in whorls. Spinosad and neem help later instars when coverage is thorough and
-      larvae still feed exposed. Add spreader on waxy leaves. Spray at night to spare pollinators
-      on flowering margins. Reapply after rain.
-  natural_enemies:
-  - Braconid wasps
-  - Tachinid flies
-  - Ground beetles
+name: Southern Armyworm
+slug: southern-armyworm
+picture: southern_armyworm.webp
+scientific_name: Spodoptera eridania
+description: If leaves look shredded overnight or fruit has fresh chew holes, southern
+  armyworm may be feeding right now. These larvae can eat fast and strip a healthy
+  plant in a short window. Young stages are easy to miss, then damage suddenly explodes
+  as they grow. Catch them early to avoid severe defoliation and contaminated harvests.
+characteristics: Check leaf undersides, growing tips, and stem junctions for eggs,
+  frass pellets, and feeding scars. Larvae vary in color, but most have a soft segmented
+  body and blend into foliage. Look at dusk or early morning when many species feed
+  more actively. Fresh chewing plus live larvae or droppings on lower leaves confirms
+  an active caterpillar outbreak.
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- skeletonized-leaves
+control_methods:
+  biological_controls: Braconid wasps and tachinid flies parasitize armyworm larvae;
+    ground beetles pull larvae off plants at night. Birds gorge during outbreaks if
+    fields are not sprayed flat. Diversity along field margins feeds adult parasitoids
+    -- mowing every ditch to bare dirt removes their fuel. Skip pyrethrin during obvious
+    parasitism unless crop loss is immediate.
+  preventive_methods: Blacklight traps and sweep nets show when flights spike -- rising
+    catches mean scout daily. Watch weedy margins as sources; larvae march from grasses
+    into irrigated crops. Flag fields downwind of hay that was cut late; armyworms
+    often walk from there.
+  cultural_practices: Till or incorporate weedy hosts before larvae large-march across
+    bare soil. Synchronize planting to outrun local peaks where historical data exist
+    -- early or late plantings skip worst windows. After harvest, destroy crop residue
+    so pupae have fewer overwintering sites.
+  mechanical_physical: Ditches and barriers barely stop strong flyers; focus on timing
+    sprays and host removal. Hand-collect larvae on small plots at dusk when they
+    feed openly. For backyard corn, drop larvae into soapy water when you see window-pane
+    feeding.
+  organic_sprays: Bacillus thuringiensis products work on small larvae that eat treated
+    tissue -- spray before larvae hide in whorls. Spinosad and neem help later instars
+    when coverage is thorough and larvae still feed exposed. Add spreader on waxy
+    leaves. Spray at night to spare pollinators on flowering margins. Reapply after
+    rain.
+natural_enemies:
+- Braconid wasps
+- Tachinid flies
+- Ground beetles
+category: pest

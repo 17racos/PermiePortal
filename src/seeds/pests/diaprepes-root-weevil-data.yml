@@ -1,51 +1,45 @@
----
-- name: Diaprepes Root Weevil
-  slug: diaprepes-root-weevil
-  picture: diaprepes_root_weevil.webp
-  scientific_name: Diaprepes abbreviatus
-  description: >-
-    If plants are wilting, notching at the edges, or fruit and roots show hidden feeding damage,
-    diaprepes root weevil may be the cause. Adults chew above ground while larvae often feed out
-    of sight inside soil, stems, or fruit. Damage builds quietly, then plants crash fast when
-    roots are heavily hit. Act early so a small weevil problem does not become a season-long
-    infestation.
-  characteristics: >-
-    Look for small beetles with a hard body and a distinct snout, usually active at dawn, dusk,
-    or night. Check for crescent-shaped leaf notches, punctures in fruit, or tiny entry holes
-    near stems. In soil or damaged tissue, larvae are often pale, legless, and curved in a
-    C-shape. Fresh chew marks plus snout beetles or C-shaped grubs confirm active weevil
-    pressure.
-  symptoms:
-  - root-damage
-  - wilting
-  - chewed-stems
-  - holes-in-leaves
-  control_methods:
-    biological_controls: >-
-      Steinernema riobrave and Heterorhabditis bacteriophora nematodes infect diaprepes larvae in
-      moist soil when soil temperature fits product windows -- timing to vulnerable instars beats
-      brand loyalty. Metarhizium fungi contribute when humidity stays high. Ants sometimes disturb
-      larvae at soil surface; not reliable control. Nematodes fail in dry sand; irrigation
-      scheduling matters.
-    preventive_methods: >-
-      Tedders traps and similar tools monitor adult flights -- rising catches mean tighten root
-      inspections and nematode windows. Scout leaf notching on new flush; adults feed before
-      laying in soil. Link tree health programs to root digs on suspect trees; grubs show up
-      before crowns fall over.
-    cultural_practices: >-
-      Avoid compaction and over-irrigation that stack Phytophthora with weevil injury on roots.
-      Remove alternate hosts such as unmanaged citrus relatives near groves. Coordinate area-wide
-      trapping so adults meet more traps and fewer mates -- modest help, not magic.
-    mechanical_physical: >-
-      Mass-trap research trials use color and aggregation cues; small holdings rely on hand
-      collection at night with headlamps and soapy buckets. Landscape fabric barriers rarely stop
-      strong fliers; focus on soil treatments and tree health.
-    organic_sprays: >-
-      Nematode applications target soil larvae -- water them in according to label. Kaolin on
-      foliage reduces adult feeding and notching when film stays even; rebuild after rain. No
-      organic spray fixes roots already girdled by larvae; tree removal sometimes beats repeated
-      heroic sprays.
-  natural_enemies:
-  - Steinernema riobrave
-  - Heterorhabditis bacteriophora
-  - Metarhizium spp.
+name: Diaprepes Root Weevil
+slug: diaprepes-root-weevil
+picture: diaprepes_root_weevil.webp
+scientific_name: Diaprepes abbreviatus
+description: If plants are wilting, notching at the edges, or fruit and roots show
+  hidden feeding damage, diaprepes root weevil may be the cause. Adults chew above
+  ground while larvae often feed out of sight inside soil, stems, or fruit. Damage
+  builds quietly, then plants crash fast when roots are heavily hit. Act early so
+  a small weevil problem does not become a season-long infestation.
+characteristics: Look for small beetles with a hard body and a distinct snout, usually
+  active at dawn, dusk, or night. Check for crescent-shaped leaf notches, punctures
+  in fruit, or tiny entry holes near stems. In soil or damaged tissue, larvae are
+  often pale, legless, and curved in a C-shape. Fresh chew marks plus snout beetles
+  or C-shaped grubs confirm active weevil pressure.
+symptoms:
+- root-damage
+- wilting
+- chewed-stems
+- holes-in-leaves
+control_methods:
+  biological_controls: Steinernema riobrave and Heterorhabditis bacteriophora nematodes
+    infect diaprepes larvae in moist soil when soil temperature fits product windows
+    -- timing to vulnerable instars beats brand loyalty. Metarhizium fungi contribute
+    when humidity stays high. Ants sometimes disturb larvae at soil surface; not reliable
+    control. Nematodes fail in dry sand; irrigation scheduling matters.
+  preventive_methods: Tedders traps and similar tools monitor adult flights -- rising
+    catches mean tighten root inspections and nematode windows. Scout leaf notching
+    on new flush; adults feed before laying in soil. Link tree health programs to
+    root digs on suspect trees; grubs show up before crowns fall over.
+  cultural_practices: Avoid compaction and over-irrigation that stack Phytophthora
+    with weevil injury on roots. Remove alternate hosts such as unmanaged citrus relatives
+    near groves. Coordinate area-wide trapping so adults meet more traps and fewer
+    mates -- modest help, not magic.
+  mechanical_physical: Mass-trap research trials use color and aggregation cues; small
+    holdings rely on hand collection at night with headlamps and soapy buckets. Landscape
+    fabric barriers rarely stop strong fliers; focus on soil treatments and tree health.
+  organic_sprays: Nematode applications target soil larvae -- water them in according
+    to label. Kaolin on foliage reduces adult feeding and notching when film stays
+    even; rebuild after rain. No organic spray fixes roots already girdled by larvae;
+    tree removal sometimes beats repeated heroic sprays.
+natural_enemies:
+- Steinernema riobrave
+- Heterorhabditis bacteriophora
+- Metarhizium spp.
+category: pest

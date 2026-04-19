@@ -1,119 +1,110 @@
----
-- name: Papaya Ringspot Virus
-  slug: papaya-ringspot-virus
-  picture: papaya_ringspot_virus.webp
-  scientific_name: Papaya ringspot virus (PRSV; genus Potyvirus)
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, papaya ringspot virus
-    may already be active. This problem often starts small, then spreads across healthy tissue
-    before most growers realize how serious it is. Warmth, moisture, and crowded foliage usually
-    speed it up. Treat early, because waiting even a few days can turn a manageable infection
-    into major crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - distorted-growth
-  - yellowing-leaves
-  - leaf-spots
-  - dropping-leaves
-  control_methods:
-    biological_controls: >-
-      There is no biological control for papaya ringspot virus once a tree is infected.
-      All biological effort must focus on suppressing the aphid vectors that transmit
-      it. Parasitic wasps, lady beetles, lacewings, and syrphid fly larvae that reduce
-      aphid populations lower the number of probing events that transmit the virus.
-      The key is that aphids transmit PRSV in 30 seconds or less of probing -- even
-      insecticides cannot kill aphids fast enough to prevent transmission. Diverse
-      flowering plants near papayas support beneficial insects that reduce aphid
-      populations to low levels.
-    preventive_methods: >-
-      Papaya ringspot virus causes distinctive mosaic, mottling, and distortion of
-      leaves and characteristic ringspot patterns on fruit -- once you see symptoms
-      the tree is infected and will not recover. PRSV is transmitted by over 20 aphid
-      species in a non-persistent manner -- aphids pick up and transmit the virus
-      in seconds of feeding, making insecticide-based aphid control useless for
-      preventing transmission. Plant upwind of any known infected trees or cucurbit
-      plantings. Remove infected trees immediately -- they are permanent virus
-      reservoirs.
-    cultural_practices: >-
-      Rogue infected trees immediately -- every infected tree is a source of virus
-      that aphids carry to healthy trees. Do not delay removal hoping the tree recovers.
-      In Florida, plant papayas as far as possible from cucurbit crops which also host
-      PRSV. Use physical barriers of tall dense non-host plants between papaya plantings
-      and neighboring properties. Time plantings to avoid peak aphid flight periods
-      in your area. Cross-protection using mild PRSV strains is used commercially
-      in some regions.
-    mechanical_physical: >-
-      Fine insect netting over young trees provides temporary protection from aphid
-      vectors during establishment -- remove once trees are vigorous as netting
-      restricts growth and airflow. Reflective silver mulch under trees disorients
-      alate (winged) aphids landing from above and reduces initial inoculation rates
-      by up to 50%. Row covers on young transplants during establishment give the
-      tree time to establish before exposure.
-    organic_sprays: >-
-      Mineral oil sprays (1-2% solution) applied to foliage create a coating that
-      physically interferes with aphid stylet probing and reduces PRSV transmission
-      rates -- one of the few sprays with documented virus prevention efficacy.
-      Apply every 5-7 days during high aphid pressure. Kaolin clay on foliage deters
-      aphid landing and probing. Insecticidal soap and neem oil reduce aphid populations
-      but cannot prevent virus transmission since aphids transmit it before they are
-      killed. Focus spray effort on reducing aphid populations to low levels rather
-      than elimination.
-  natural_enemies:
-  - Parasitic Wasps (Aphidiinae)
-  - Ladybugs
-  - Lacewings
-  - Hoverfly Larvae
-  affected_plants:
-  - slug: papaya
-    name: Papaya
-  - slug: acorn-squash
-    name: Acorn Squash
-  - slug: angled-loofah
-    name: Angled Loofah
-  - slug: apple-gourd
-    name: Apple Gourd
-  - slug: birdhouse-gourd
-    name: Birdhouse Gourd
-  - slug: bitter-melon
-    name: Bitter Melon
-  - slug: bottle-gourd
-    name: Bottle Gourd
-  - slug: buffalo-gourd
-    name: Buffalo Gourd
-  - slug: bushel-gourd
-    name: Bushel Gourd
-  - slug: calabaza
-    name: Calabaza
-  - slug: cassabanana-root-systems
-    name: Cassabanana root systems
-  - slug: caveman-club-gourd
-    name: Caveman Club Gourd
-  - slug: chayote
-    name: Chayote
-  - slug: coccinia
-    name: Coccinia
-  - slug: corsican-gourd
-    name: Corsican Gourd
-  - slug: cucamelon
-    name: Cucamelon
-  - slug: dinosaur-gourd
-    name: Dinosaur Gourd
-  - slug: ivy-gourd
-    name: Ivy Gourd
-  - slug: luffa
-    name: Luffa
-  - slug: monky-muskmelon
-    name: Monky Muskmelon
-  - slug: penguin-gourd
-    name: Penguin Gourd
-  - slug: seminole-pumpkin
-    name: Seminole Pumpkin
-  - slug: snake-gourd
-    name: Snake Gourd
-  - slug: wax-gourd
-    name: Wax Gourd
+name: Papaya Ringspot Virus
+slug: papaya-ringspot-virus
+picture: papaya_ringspot_virus.webp
+scientific_name: Papaya ringspot virus (PRSV; genus Potyvirus)
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  papaya ringspot virus may already be active. This problem often starts small, then
+  spreads across healthy tissue before most growers realize how serious it is. Warmth,
+  moisture, and crowded foliage usually speed it up. Treat early, because waiting
+  even a few days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- distorted-growth
+- yellowing-leaves
+- leaf-spots
+- dropping-leaves
+control_methods:
+  biological_controls: There is no biological control for papaya ringspot virus once
+    a tree is infected. All biological effort must focus on suppressing the aphid
+    vectors that transmit it. Parasitic wasps, lady beetles, lacewings, and syrphid
+    fly larvae that reduce aphid populations lower the number of probing events that
+    transmit the virus. The key is that aphids transmit PRSV in 30 seconds or less
+    of probing -- even insecticides cannot kill aphids fast enough to prevent transmission.
+    Diverse flowering plants near papayas support beneficial insects that reduce aphid
+    populations to low levels.
+  preventive_methods: Papaya ringspot virus causes distinctive mosaic, mottling, and
+    distortion of leaves and characteristic ringspot patterns on fruit -- once you
+    see symptoms the tree is infected and will not recover. PRSV is transmitted by
+    over 20 aphid species in a non-persistent manner -- aphids pick up and transmit
+    the virus in seconds of feeding, making insecticide-based aphid control useless
+    for preventing transmission. Plant upwind of any known infected trees or cucurbit
+    plantings. Remove infected trees immediately -- they are permanent virus reservoirs.
+  cultural_practices: Rogue infected trees immediately -- every infected tree is a
+    source of virus that aphids carry to healthy trees. Do not delay removal hoping
+    the tree recovers. In Florida, plant papayas as far as possible from cucurbit
+    crops which also host PRSV. Use physical barriers of tall dense non-host plants
+    between papaya plantings and neighboring properties. Time plantings to avoid peak
+    aphid flight periods in your area. Cross-protection using mild PRSV strains is
+    used commercially in some regions.
+  mechanical_physical: Fine insect netting over young trees provides temporary protection
+    from aphid vectors during establishment -- remove once trees are vigorous as netting
+    restricts growth and airflow. Reflective silver mulch under trees disorients alate
+    (winged) aphids landing from above and reduces initial inoculation rates by up
+    to 50%. Row covers on young transplants during establishment give the tree time
+    to establish before exposure.
+  organic_sprays: Mineral oil sprays (1-2% solution) applied to foliage create a coating
+    that physically interferes with aphid stylet probing and reduces PRSV transmission
+    rates -- one of the few sprays with documented virus prevention efficacy. Apply
+    every 5-7 days during high aphid pressure. Kaolin clay on foliage deters aphid
+    landing and probing. Insecticidal soap and neem oil reduce aphid populations but
+    cannot prevent virus transmission since aphids transmit it before they are killed.
+    Focus spray effort on reducing aphid populations to low levels rather than elimination.
+natural_enemies:
+- Parasitic Wasps (Aphidiinae)
+- Ladybugs
+- Lacewings
+- Hoverfly Larvae
+affected_plants:
+- slug: papaya
+  name: Papaya
+- slug: acorn-squash
+  name: Acorn Squash
+- slug: angled-loofah
+  name: Angled Loofah
+- slug: apple-gourd
+  name: Apple Gourd
+- slug: birdhouse-gourd
+  name: Birdhouse Gourd
+- slug: bitter-melon
+  name: Bitter Melon
+- slug: bottle-gourd
+  name: Bottle Gourd
+- slug: buffalo-gourd
+  name: Buffalo Gourd
+- slug: bushel-gourd
+  name: Bushel Gourd
+- slug: calabaza
+  name: Calabaza
+- slug: cassabanana-root-systems
+  name: Cassabanana root systems
+- slug: caveman-club-gourd
+  name: Caveman Club Gourd
+- slug: chayote
+  name: Chayote
+- slug: coccinia
+  name: Coccinia
+- slug: corsican-gourd
+  name: Corsican Gourd
+- slug: cucamelon
+  name: Cucamelon
+- slug: dinosaur-gourd
+  name: Dinosaur Gourd
+- slug: ivy-gourd
+  name: Ivy Gourd
+- slug: luffa
+  name: Luffa
+- slug: monky-muskmelon
+  name: Monky Muskmelon
+- slug: penguin-gourd
+  name: Penguin Gourd
+- slug: seminole-pumpkin
+  name: Seminole Pumpkin
+- slug: snake-gourd
+  name: Snake Gourd
+- slug: wax-gourd
+  name: Wax Gourd
+category: disease

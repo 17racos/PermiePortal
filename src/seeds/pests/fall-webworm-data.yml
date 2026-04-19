@@ -1,64 +1,58 @@
----
-- name: Fall Webworm
-  slug: fall-webworm
-  picture: fall_webworm.webp
-  scientific_name: Hyphantria cunea
-  description: >-
-    If leaves look shredded overnight or fruit has fresh chew holes, fall webworm may be feeding
-    right now. These larvae can eat fast and strip a healthy plant in a short window. Young
-    stages are easy to miss, then damage suddenly explodes as they grow. Catch them early to
-    avoid severe defoliation and contaminated harvests.
-  characteristics: >-
-    Check leaf undersides, growing tips, and stem junctions for eggs, frass pellets, and feeding
-    scars. Larvae vary in color, but most have a soft segmented body and blend into foliage.
-    Look at dusk or early morning when many species feed more actively. Fresh chewing plus live
-    larvae or droppings on lower leaves confirms an active caterpillar outbreak.
-  symptoms:
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  - skeletonized-leaves
-  control_methods:
-    biological_controls: >-
-      Ichneumonid and braconid parasitoid wasps and tachinid flies attack fall
-      webworm larvae inside the web -- they are already present in most areas
-      and provide significant suppression in undisturbed landscapes. Birds -- 
-      especially yellow-billed cuckoos and mockingbirds -- rip webs open and
-      consume larvae actively. Maintaining diverse understory habitat and reducing
-      broad-spectrum sprays allows these enemies to build up. Bacillus thuringiensis
-      kurstaki (Bt) is highly targeted -- it kills caterpillars that eat treated
-      foliage and nothing else, preserving all parasitoids working inside webs.
-    preventive_methods: >-
-      Fall webworm builds silken webs at branch tips from midsummer through fall -- 
-      the large gauzy tents enclosing leaves and twigs are unmistakable. A mature
-      tree tolerates one or two webbing episodes without lasting harm -- fall
-      webworm is largely a cosmetic problem on established landscape trees. Young
-      trees and nursery stock are more vulnerable. The key window for control is
-      small webs early in the season before larvae grow large and the web expands.
-      Act when webs are softball-sized, not when they cover entire branch ends.
-    cultural_practices: >-
-      Accept light webbing on mature landscape trees when webs are few -- the
-      tree will recover and the parasitoid wasps reservoired in the colony will
-      help protect other plants. In orchards and nurseries, lower tolerance is
-      appropriate. Remove winter egg masses from bark on young trees during dormancy
-      to reduce the following season population. Avoid late-season nitrogen fertilization
-      that pushes succulent new growth when moth flights peak.
-    mechanical_physical: >-
-      Prune out accessible webs into a bucket of soapy water -- the most effective
-      control for yard trees. Do it in early morning when larvae are clustered inside
-      the web for warmth. Cut the supporting branch several inches below the web base.
-      For high branches, a pole pruner reaches small webs before larvae grow large
-      enough to disperse. Do not burn webs on the tree -- this damages bark and
-      spreads larvae that drop to escape.
-    organic_sprays: >-
-      Bt kurstaki sprayed inside and around small webs targets larvae feeding on
-      treated foliage -- penetrate the web enough to wet foliage inside. Apply
-      in the evening when larvae are active. Spot-treat individual webs rather than
-      blanket-spraying entire trees to protect parasitoid wasps working inside colonies.
-      Spinosad as a follow-up for larger larvae. Neem oil on ornamentals deters adult
-      egg-laying when applied to foliage before webs appear.
-  natural_enemies:
-  - Tachinid Flies (Tachinidae)
-  - Ichneumonid Wasps
-  - Braconid Wasps
-  - Insectivorous Birds
+name: Fall Webworm
+slug: fall-webworm
+picture: fall_webworm.webp
+scientific_name: Hyphantria cunea
+description: If leaves look shredded overnight or fruit has fresh chew holes, fall
+  webworm may be feeding right now. These larvae can eat fast and strip a healthy
+  plant in a short window. Young stages are easy to miss, then damage suddenly explodes
+  as they grow. Catch them early to avoid severe defoliation and contaminated harvests.
+characteristics: Check leaf undersides, growing tips, and stem junctions for eggs,
+  frass pellets, and feeding scars. Larvae vary in color, but most have a soft segmented
+  body and blend into foliage. Look at dusk or early morning when many species feed
+  more actively. Fresh chewing plus live larvae or droppings on lower leaves confirms
+  an active caterpillar outbreak.
+symptoms:
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+- skeletonized-leaves
+control_methods:
+  biological_controls: Ichneumonid and braconid parasitoid wasps and tachinid flies
+    attack fall webworm larvae inside the web -- they are already present in most
+    areas and provide significant suppression in undisturbed landscapes. Birds --  especially
+    yellow-billed cuckoos and mockingbirds -- rip webs open and consume larvae actively.
+    Maintaining diverse understory habitat and reducing broad-spectrum sprays allows
+    these enemies to build up. Bacillus thuringiensis kurstaki (Bt) is highly targeted
+    -- it kills caterpillars that eat treated foliage and nothing else, preserving
+    all parasitoids working inside webs.
+  preventive_methods: Fall webworm builds silken webs at branch tips from midsummer
+    through fall --  the large gauzy tents enclosing leaves and twigs are unmistakable.
+    A mature tree tolerates one or two webbing episodes without lasting harm -- fall
+    webworm is largely a cosmetic problem on established landscape trees. Young trees
+    and nursery stock are more vulnerable. The key window for control is small webs
+    early in the season before larvae grow large and the web expands. Act when webs
+    are softball-sized, not when they cover entire branch ends.
+  cultural_practices: Accept light webbing on mature landscape trees when webs are
+    few -- the tree will recover and the parasitoid wasps reservoired in the colony
+    will help protect other plants. In orchards and nurseries, lower tolerance is
+    appropriate. Remove winter egg masses from bark on young trees during dormancy
+    to reduce the following season population. Avoid late-season nitrogen fertilization
+    that pushes succulent new growth when moth flights peak.
+  mechanical_physical: Prune out accessible webs into a bucket of soapy water -- the
+    most effective control for yard trees. Do it in early morning when larvae are
+    clustered inside the web for warmth. Cut the supporting branch several inches
+    below the web base. For high branches, a pole pruner reaches small webs before
+    larvae grow large enough to disperse. Do not burn webs on the tree -- this damages
+    bark and spreads larvae that drop to escape.
+  organic_sprays: Bt kurstaki sprayed inside and around small webs targets larvae
+    feeding on treated foliage -- penetrate the web enough to wet foliage inside.
+    Apply in the evening when larvae are active. Spot-treat individual webs rather
+    than blanket-spraying entire trees to protect parasitoid wasps working inside
+    colonies. Spinosad as a follow-up for larger larvae. Neem oil on ornamentals deters
+    adult egg-laying when applied to foliage before webs appear.
+natural_enemies:
+- Tachinid Flies (Tachinidae)
+- Ichneumonid Wasps
+- Braconid Wasps
+- Insectivorous Birds
+category: pest

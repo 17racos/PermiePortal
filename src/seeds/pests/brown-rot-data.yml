@@ -1,195 +1,185 @@
----
-- name: Brown Rot
-  slug: brown-rot
-  picture: brown_rot.webp
-  scientific_name: Monilinia fructicola
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, brown rot may already
-    be active. This problem often starts small, then spreads across healthy tissue before most
-    growers realize how serious it is. Warmth, moisture, and crowded foliage usually speed it
-    up. Treat early, because waiting even a few days can turn a manageable infection into major
-    crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - fruit-damage
-  - wilting
-  - die-back
-  - leaf-spots
-  control_methods:
-    biological_controls: >-
-      Antagonistic yeasts and bacteria — Bacillus subtilis (Serenade),
-      Aureobasidium pullulans — colonize blossom and fruit surfaces and compete
-      with Monilinia spores, reducing infection rates when applied preventively.
-      These work best as part of a spray rotation during high-risk periods,
-      not as standalone controls. A diverse phyllosphere microbial community
-      generally suppresses fungal diseases — avoid broad-spectrum copper sprays
-      that sterilize fruit surfaces and eliminate beneficial competing organisms.
-      Encourage insectivorous birds that reduce pest insects which wound fruit
-      and create brown rot entry points.
-    preventive_methods: >-
-      Brown rot spreads fastest in warm humid weather during bloom and as fruit
-      ripens. Infections start at wounds — insect feeding holes, hail damage,
-      cracking from uneven watering, and bird pecks all provide entry. Any
-      wounded fruit in a humid period will develop brown rot within 24-48 hours.
-      Mummified fruit left on trees and on the ground are the primary inoculum
-      source for the following season — removing them in winter dramatically
-      reduces spring infection pressure. Scout during bloom and the 2 weeks
-      before harvest when spore loads peak.
-    cultural_practices: >-
-      Remove all mummified fruit from trees and ground every winter — this is
-      the most impactful single action for brown rot management. Prune for
-      open canopy and remove water sprouts that create humid interior zones.
-      Thin fruit clusters so individual fruit do not touch — contact between
-      fruit is a primary spread pathway. Avoid overhead irrigation that wets
-      fruit for extended periods. Harvest promptly at proper maturity and cool
-      fruit quickly — brown rot progresses rapidly in warm storage.
-    mechanical_physical: >-
-      Individual fruit bagging protects from insect wounds that enable brown
-      rot entry. Rain covers over small plantings prevent the wet conditions
-      that favor infection during ripening. Remove and destroy infected fruit
-      immediately — do not leave it on the ground where it produces billions
-      of spores. Shake out all mummies from trees before winter using a pole.
-    organic_sprays: >-
-      Sulfur fungicide applied on a 7-10 day schedule during bloom and again
-      2-3 weeks before harvest is the most reliable organic protection — do
-      not apply when temperatures exceed 90F (32C) as it causes leaf and fruit
-      burn. Copper products work well at bloom timing. Bacillus subtilis
-      (Serenade) provides biological suppression and can be alternated with
-      sulfur to reduce resistance risk. Apply preventively before infection
-      periods, not after fruit is already rotting.
-  natural_enemies:
-  - Antagonistic Yeasts
-  - Bacillus subtilis (commercial biocontrol strains)
-  - Competitive Epiphytic Microbes
-  affected_plants:
-  - slug: agrimony
-    name: Agrimony
-  - slug: allegheny-serviceberry
-    name: Allegheny Serviceberry
-  - slug: almond-tree
-    name: Almond Tree
-  - slug: american-beauty-plum
-    name: American Beauty Plum
-  - slug: american-hawthorn
-    name: American Hawthorn
-  - slug: american-plum
-    name: American Plum
-  - slug: apple
-    name: Apple
-  - slug: aronia
-    name: Aronia
-  - slug: beach-strawberry
-    name: Beach Strawberry
-  - slug: bearberry-cotoneaster
-    name: Bearberry Cotoneaster
-  - slug: black-chokeberry
-    name: Black Chokeberry
-  - slug: buffalo-plum
-    name: Buffalo Plum
-  - slug: carolina-rose
-    name: Carolina Rose
-  - slug: chickasaw-blackberry
-    name: Chickasaw Blackberry
-  - slug: chickasaw-plum
-    name: Chickasaw Plum
-  - slug: chokeberry
-    name: Chokeberry
-  - slug: climbing-prairie-rose
-    name: Climbing Prairie Rose
-  - slug: cloudberry
-    name: Cloudberry
-  - slug: cockspur-hawthorn
-    name: Cockspur Hawthorn
-  - slug: creeping-raspberry
-    name: Creeping Raspberry
-  - slug: dewberry
-    name: Dewberry
-  - slug: dotted-hawthorn
-    name: Dotted Hawthorn
-  - slug: downy-serviceberry
-    name: Downy Serviceberry
-  - slug: flatwoods-plum
-    name: Flatwoods Plum
-  - slug: frosted-hawthorn
-    name: Frosted Hawthorn
-  - slug: green-hawthorn
-    name: Green Hawthorn
-  - slug: green-apple-tree
-    name: Green Apple Tree
-  - slug: hedge-cotoneaster
-    name: Hedge Cotoneaster
-  - slug: hortulan-plum
-    name: Hortulan Plum
-  - slug: loquat
-    name: Loquat
-  - slug: many-flowered-cotoneaster
-    name: Many Flowered Cotoneaster
-  - slug: mayhaw
-    name: Mayhaw
-  - slug: meadowsweet
-    name: Meadowsweet
-  - slug: munson-plum
-    name: Munson Plum
-  - slug: nectarine-tree
-    name: Nectarine Tree
-  - slug: parsley-hawthorn
-    name: Parsley Hawthorn
-  - slug: pasture-rose
-    name: Pasture Rose
-  - slug: pear-hawthorn
-    name: Pear Hawthorn
-  - slug: pear-tree
-    name: Pear Tree
-  - slug: pineapple-pear
-    name: Pineapple Pear
-  - slug: prairie-crabapple
-    name: Prairie Crabapple
-  - slug: purple-chokeberry
-    name: Purple Chokeberry
-  - slug: raspberry
-    name: Raspberry
-  - slug: red-chokeberry
-    name: Red Chokeberry
-  - slug: red-apple-tree
-    name: Red Apple Tree
-  - slug: rock-cotoneaster
-    name: Rock Cotoneaster
-  - slug: roundleaf-serviceberry
-    name: Roundleaf Serviceberry
-  - slug: running-serviceberry
-    name: Running Serviceberry
-  - slug: sand-blackberry
-    name: Sand Blackberry
-  - slug: sand-cherry
-    name: Sand Cherry
-  - slug: saskatoon-berry
-    name: Saskatoon Berry
-  - slug: serviceberry
-    name: Serviceberry
-  - slug: silverleaf-cotoneaster
-    name: Silverleaf Cotoneaster
-  - slug: smooth-serviceberry
-    name: Smooth Serviceberry
-  - slug: southern-crabapple
-    name: Southern Crabapple
-  - slug: southern-dewberry
-    name: Southern Dewberry
-  - slug: southern-hawthorn
-    name: Southern Hawthorn
-  - slug: strawberry
-    name: Strawberry
-  - slug: swamp-rose
-    name: Swamp Rose
-  - slug: sweet-crabapple
-    name: Sweet Crabapple
-  - slug: virginia-rose
-    name: Virginia Rose
-  - slug: wild-crabapple
-    name: Wild Crabapple
-  - slug: wild-plum
-    name: Wild Plum
+name: Brown Rot
+slug: brown-rot
+picture: brown_rot.webp
+scientific_name: Monilinia fructicola
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  brown rot may already be active. This problem often starts small, then spreads across
+  healthy tissue before most growers realize how serious it is. Warmth, moisture,
+  and crowded foliage usually speed it up. Treat early, because waiting even a few
+  days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- fruit-damage
+- wilting
+- die-back
+- leaf-spots
+control_methods:
+  biological_controls: Antagonistic yeasts and bacteria — Bacillus subtilis (Serenade),
+    Aureobasidium pullulans — colonize blossom and fruit surfaces and compete with
+    Monilinia spores, reducing infection rates when applied preventively. These work
+    best as part of a spray rotation during high-risk periods, not as standalone controls.
+    A diverse phyllosphere microbial community generally suppresses fungal diseases
+    — avoid broad-spectrum copper sprays that sterilize fruit surfaces and eliminate
+    beneficial competing organisms. Encourage insectivorous birds that reduce pest
+    insects which wound fruit and create brown rot entry points.
+  preventive_methods: Brown rot spreads fastest in warm humid weather during bloom
+    and as fruit ripens. Infections start at wounds — insect feeding holes, hail damage,
+    cracking from uneven watering, and bird pecks all provide entry. Any wounded fruit
+    in a humid period will develop brown rot within 24-48 hours. Mummified fruit left
+    on trees and on the ground are the primary inoculum source for the following season
+    — removing them in winter dramatically reduces spring infection pressure. Scout
+    during bloom and the 2 weeks before harvest when spore loads peak.
+  cultural_practices: Remove all mummified fruit from trees and ground every winter
+    — this is the most impactful single action for brown rot management. Prune for
+    open canopy and remove water sprouts that create humid interior zones. Thin fruit
+    clusters so individual fruit do not touch — contact between fruit is a primary
+    spread pathway. Avoid overhead irrigation that wets fruit for extended periods.
+    Harvest promptly at proper maturity and cool fruit quickly — brown rot progresses
+    rapidly in warm storage.
+  mechanical_physical: Individual fruit bagging protects from insect wounds that enable
+    brown rot entry. Rain covers over small plantings prevent the wet conditions that
+    favor infection during ripening. Remove and destroy infected fruit immediately
+    — do not leave it on the ground where it produces billions of spores. Shake out
+    all mummies from trees before winter using a pole.
+  organic_sprays: Sulfur fungicide applied on a 7-10 day schedule during bloom and
+    again 2-3 weeks before harvest is the most reliable organic protection — do not
+    apply when temperatures exceed 90F (32C) as it causes leaf and fruit burn. Copper
+    products work well at bloom timing. Bacillus subtilis (Serenade) provides biological
+    suppression and can be alternated with sulfur to reduce resistance risk. Apply
+    preventively before infection periods, not after fruit is already rotting.
+natural_enemies:
+- Antagonistic Yeasts
+- Bacillus subtilis (commercial biocontrol strains)
+- Competitive Epiphytic Microbes
+affected_plants:
+- slug: agrimony
+  name: Agrimony
+- slug: allegheny-serviceberry
+  name: Allegheny Serviceberry
+- slug: almond-tree
+  name: Almond Tree
+- slug: american-beauty-plum
+  name: American Beauty Plum
+- slug: american-hawthorn
+  name: American Hawthorn
+- slug: american-plum
+  name: American Plum
+- slug: apple
+  name: Apple
+- slug: aronia
+  name: Aronia
+- slug: beach-strawberry
+  name: Beach Strawberry
+- slug: bearberry-cotoneaster
+  name: Bearberry Cotoneaster
+- slug: black-chokeberry
+  name: Black Chokeberry
+- slug: buffalo-plum
+  name: Buffalo Plum
+- slug: carolina-rose
+  name: Carolina Rose
+- slug: chickasaw-blackberry
+  name: Chickasaw Blackberry
+- slug: chickasaw-plum
+  name: Chickasaw Plum
+- slug: chokeberry
+  name: Chokeberry
+- slug: climbing-prairie-rose
+  name: Climbing Prairie Rose
+- slug: cloudberry
+  name: Cloudberry
+- slug: cockspur-hawthorn
+  name: Cockspur Hawthorn
+- slug: creeping-raspberry
+  name: Creeping Raspberry
+- slug: dewberry
+  name: Dewberry
+- slug: dotted-hawthorn
+  name: Dotted Hawthorn
+- slug: downy-serviceberry
+  name: Downy Serviceberry
+- slug: flatwoods-plum
+  name: Flatwoods Plum
+- slug: frosted-hawthorn
+  name: Frosted Hawthorn
+- slug: green-hawthorn
+  name: Green Hawthorn
+- slug: green-apple-tree
+  name: Green Apple Tree
+- slug: hedge-cotoneaster
+  name: Hedge Cotoneaster
+- slug: hortulan-plum
+  name: Hortulan Plum
+- slug: loquat
+  name: Loquat
+- slug: many-flowered-cotoneaster
+  name: Many Flowered Cotoneaster
+- slug: mayhaw
+  name: Mayhaw
+- slug: meadowsweet
+  name: Meadowsweet
+- slug: munson-plum
+  name: Munson Plum
+- slug: nectarine-tree
+  name: Nectarine Tree
+- slug: parsley-hawthorn
+  name: Parsley Hawthorn
+- slug: pasture-rose
+  name: Pasture Rose
+- slug: pear-hawthorn
+  name: Pear Hawthorn
+- slug: pear-tree
+  name: Pear Tree
+- slug: pineapple-pear
+  name: Pineapple Pear
+- slug: prairie-crabapple
+  name: Prairie Crabapple
+- slug: purple-chokeberry
+  name: Purple Chokeberry
+- slug: raspberry
+  name: Raspberry
+- slug: red-chokeberry
+  name: Red Chokeberry
+- slug: red-apple-tree
+  name: Red Apple Tree
+- slug: rock-cotoneaster
+  name: Rock Cotoneaster
+- slug: roundleaf-serviceberry
+  name: Roundleaf Serviceberry
+- slug: running-serviceberry
+  name: Running Serviceberry
+- slug: sand-blackberry
+  name: Sand Blackberry
+- slug: sand-cherry
+  name: Sand Cherry
+- slug: saskatoon-berry
+  name: Saskatoon Berry
+- slug: serviceberry
+  name: Serviceberry
+- slug: silverleaf-cotoneaster
+  name: Silverleaf Cotoneaster
+- slug: smooth-serviceberry
+  name: Smooth Serviceberry
+- slug: southern-crabapple
+  name: Southern Crabapple
+- slug: southern-dewberry
+  name: Southern Dewberry
+- slug: southern-hawthorn
+  name: Southern Hawthorn
+- slug: strawberry
+  name: Strawberry
+- slug: swamp-rose
+  name: Swamp Rose
+- slug: sweet-crabapple
+  name: Sweet Crabapple
+- slug: virginia-rose
+  name: Virginia Rose
+- slug: wild-crabapple
+  name: Wild Crabapple
+- slug: wild-plum
+  name: Wild Plum
+category: disease

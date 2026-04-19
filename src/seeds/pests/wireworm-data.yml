@@ -1,171 +1,165 @@
----
-- name: Wireworm
-  slug: wireworm
-  picture: wireworm.webp
-  scientific_name: Elateridae (larvae; e.g., Agriotes spp.)
-  description: >-
-    If leaves look shredded overnight or fruit has fresh chew holes, wireworm may be feeding
-    right now. These larvae can eat fast and strip a healthy plant in a short window. Young
-    stages are easy to miss, then damage suddenly explodes as they grow. Catch them early to
-    avoid severe defoliation and contaminated harvests.
-  characteristics: >-
-    Check leaf undersides, growing tips, and stem junctions for eggs, frass pellets, and feeding
-    scars. Larvae vary in color, but most have a soft segmented body and blend into foliage.
-    Look at dusk or early morning when many species feed more actively. Fresh chewing plus live
-    larvae or droppings on lower leaves confirms an active caterpillar outbreak.
-  symptoms:
-  - root-damage
-  - wilting
-  - holes-in-leaves
-  - stem-damage
-  control_methods:
-    biological_controls: >-
-      Entomopathogenic nematodes (Steinernema feltiae, S. carpocapsae) applied to moist
-      warm soil target wireworm larvae -- apply when soil temperature is above 55F
-      (13C) and keep moist for 2 weeks. Results are variable but improve with repeated
-      applications over seasons. Ground beetles are voracious wireworm predators -- 
-      permanent undisturbed soil edges, mulch paths, and diverse plantings support
-      ground beetle populations year-round. Metarhizium brunneum fungal products show
-      promising results against wireworms in research trials and are becoming commercially
-      available. Birds -- especially robins, starlings, and crows -- actively probe
-      for wireworms after tillage.
-    preventive_methods: >-
-      Wireworms are the larvae of click beetles -- hard, shiny, yellow-orange worms
-      1-2 inches long in soil. They chew into seeds, roots, tubers, and underground
-      stems, causing plants to wilt and die with no visible above-ground pest. Before
-      planting a new bed in old lawn or weedy ground, do a soil bioassay -- bury
-      a germinating wheat or potato chunk 4-6 inches deep, check after 5 days, and
-      count wireworms attracted to it. High counts predict serious damage. Wireworm
-      populations built under sod take 2-3 years to decline after grass is removed.
-    cultural_practices: >-
-      Summer fallow with repeated shallow tillage every 1-2 weeks desiccates exposed
-      larvae and brings them to the surface for bird predation -- the most effective
-      long-term reduction strategy. Delay planting until soil warms above 50F (10C) -- 
-      wireworms are most damaging in cold soil when seeds germinate slowly and are
-      vulnerable longer. Convert weedy sod gradually over 1-2 seasons rather than
-      sudden tillage -- sudden plowing concentrates wireworm populations that dispersed
-      through the sod. Mustard cover crops incorporated green as a biofumigant reduce
-      wireworm populations in trials.
-    mechanical_physical: >-
-      Potato trap baiting works well for monitoring and modest control -- bury cut
-      potato pieces 4 inches deep, mark with a stick, check after 3-5 days and destroy
-      wireworms found feeding. Place traps every 3 feet in new beds. Solarization with
-      clear plastic over moist soil for 4-6 weeks in summer kills wireworms in the top
-      6 inches where temperatures reach lethal levels. Flame weeding seed beds before
-      planting reduces newly hatched larvae near the soil surface.
-    organic_sprays: >-
-      Spinosad seed treatments or bait stations reduce wireworm damage to germinating
-      seeds where organically labeled. Entomopathogenic nematodes as soil drench are
-      the best spray option -- apply to moist soil and irrigate in thoroughly.
-      Diatomaceous earth mixed into the top 2 inches of soil at planting damages larvae
-      moving through it. No surface spray reaches wireworms in the soil -- all
-      effective treatments must be incorporated into the soil or applied as drenches.
-  natural_enemies:
-  - Ground Beetles
-  - Entomopathogenic Nematodes
-  - Birds
-  affected_plants:
-  - slug: bamboo
-    name: Bamboo
-  - slug: big-bluestem
-    name: Big Bluestem
-  - slug: blue-grama
-    name: Blue Grama
-  - slug: broomsedge-bluestem
-    name: Broomsedge Bluestem
-  - slug: buffalo-grass
-    name: Buffalo Grass
-  - slug: eastern-gamagrass
-    name: Eastern Gamagrass
-  - slug: elephant-grass
-    name: Elephant Grass
-  - slug: elliotts-bluestem
-    name: Elliott's Bluestem
-  - slug: fever-grass
-    name: Fever Grass
-  - slug: florida-gamagrass
-    name: Florida Gamagrass
-  - slug: gulf-muhly
-    name: Gulf Muhly
-  - slug: hairawn-muhly
-    name: Hairawn Muhly
-  - slug: hairy-grama
-    name: Hairy Grama
-  - slug: indiangrass
-    name: Indiangrass
-  - slug: lemongrass
-    name: Lemongrass
-  - slug: little-bluestem
-    name: Little Bluestem
-  - slug: longawn-muhly
-    name: Longawn Muhly
-  - slug: millet
-    name: Millet
-  - slug: muhly-grass
-    name: Muhly Grass
-  - slug: prairie-cordgrass
-    name: Prairie Cordgrass
-  - slug: purple-lovegrass
-    name: Purple Lovegrass
-  - slug: rice
-    name: Rice
-  - slug: saltgrass
-    name: Saltgrass
-  - slug: saltmeadow-cordgrass
-    name: Saltmeadow Cordgrass
-  - slug: sand-bluestem
-    name: Sand Bluestem
-  - slug: sand-cordgrass
-    name: Sand Cordgrass
-  - slug: sand-grama
-    name: Sand Grama
-  - slug: sand-lovegrass
-    name: Sand Lovegrass
-  - slug: sideoats-grama
-    name: Sideoats Grama
-  - slug: split-beard-bluestem
-    name: Split Beard Bluestem
-  - slug: sweetgrass
-    name: Sweetgrass
-  - slug: switchgrass
-    name: Switchgrass
-  - slug: vetiver-grass
-    name: Vetiver Grass
-  - slug: weeping-lovegrass
-    name: Weeping Lovegrass
-  - slug: wiregrass
-    name: Wiregrass
-  - slug: angels-trumpet
-    name: Angel's Trumpet
-  - slug: ashwagandha
-    name: Ashwagandha
-  - slug: buffalo-bur
-    name: Buffalo Bur
-  - slug: chiltepin-pepper
-    name: Chiltepin Pepper
-  - slug: chiltepin-pepper-tree
-    name: Chiltepin Pepper Tree
-  - slug: chinese-lantern
-    name: Chinese Lantern
-  - slug: coastal-groundcherry
-    name: Coastal Groundcherry
-  - slug: devils-trumpet
-    name: Devil's Trumpet
-  - slug: garden-huckleberry
-    name: Garden Huckleberry
-  - slug: goji-berry
-    name: Goji Berry
-  - slug: ground-cherry
-    name: Ground Cherry
-  - slug: horse-nettle
-    name: Horse Nettle
-  - slug: pepino-melon
-    name: Pepino Melon
-  - slug: potato
-    name: Potato
-  - slug: scarlet-eggplant
-    name: Scarlet Eggplant
-  - slug: wild-eggplant
-    name: Wild Eggplant
-  - slug: wonderberry
-    name: Wonderberry
+name: Wireworm
+slug: wireworm
+picture: wireworm.webp
+scientific_name: Elateridae (larvae; e.g., Agriotes spp.)
+description: If leaves look shredded overnight or fruit has fresh chew holes, wireworm
+  may be feeding right now. These larvae can eat fast and strip a healthy plant in
+  a short window. Young stages are easy to miss, then damage suddenly explodes as
+  they grow. Catch them early to avoid severe defoliation and contaminated harvests.
+characteristics: Check leaf undersides, growing tips, and stem junctions for eggs,
+  frass pellets, and feeding scars. Larvae vary in color, but most have a soft segmented
+  body and blend into foliage. Look at dusk or early morning when many species feed
+  more actively. Fresh chewing plus live larvae or droppings on lower leaves confirms
+  an active caterpillar outbreak.
+symptoms:
+- root-damage
+- wilting
+- holes-in-leaves
+- stem-damage
+control_methods:
+  biological_controls: Entomopathogenic nematodes (Steinernema feltiae, S. carpocapsae)
+    applied to moist warm soil target wireworm larvae -- apply when soil temperature
+    is above 55F (13C) and keep moist for 2 weeks. Results are variable but improve
+    with repeated applications over seasons. Ground beetles are voracious wireworm
+    predators --  permanent undisturbed soil edges, mulch paths, and diverse plantings
+    support ground beetle populations year-round. Metarhizium brunneum fungal products
+    show promising results against wireworms in research trials and are becoming commercially
+    available. Birds -- especially robins, starlings, and crows -- actively probe
+    for wireworms after tillage.
+  preventive_methods: Wireworms are the larvae of click beetles -- hard, shiny, yellow-orange
+    worms 1-2 inches long in soil. They chew into seeds, roots, tubers, and underground
+    stems, causing plants to wilt and die with no visible above-ground pest. Before
+    planting a new bed in old lawn or weedy ground, do a soil bioassay -- bury a germinating
+    wheat or potato chunk 4-6 inches deep, check after 5 days, and count wireworms
+    attracted to it. High counts predict serious damage. Wireworm populations built
+    under sod take 2-3 years to decline after grass is removed.
+  cultural_practices: Summer fallow with repeated shallow tillage every 1-2 weeks
+    desiccates exposed larvae and brings them to the surface for bird predation --
+    the most effective long-term reduction strategy. Delay planting until soil warms
+    above 50F (10C) --  wireworms are most damaging in cold soil when seeds germinate
+    slowly and are vulnerable longer. Convert weedy sod gradually over 1-2 seasons
+    rather than sudden tillage -- sudden plowing concentrates wireworm populations
+    that dispersed through the sod. Mustard cover crops incorporated green as a biofumigant
+    reduce wireworm populations in trials.
+  mechanical_physical: Potato trap baiting works well for monitoring and modest control
+    -- bury cut potato pieces 4 inches deep, mark with a stick, check after 3-5 days
+    and destroy wireworms found feeding. Place traps every 3 feet in new beds. Solarization
+    with clear plastic over moist soil for 4-6 weeks in summer kills wireworms in
+    the top 6 inches where temperatures reach lethal levels. Flame weeding seed beds
+    before planting reduces newly hatched larvae near the soil surface.
+  organic_sprays: Spinosad seed treatments or bait stations reduce wireworm damage
+    to germinating seeds where organically labeled. Entomopathogenic nematodes as
+    soil drench are the best spray option -- apply to moist soil and irrigate in thoroughly.
+    Diatomaceous earth mixed into the top 2 inches of soil at planting damages larvae
+    moving through it. No surface spray reaches wireworms in the soil -- all effective
+    treatments must be incorporated into the soil or applied as drenches.
+natural_enemies:
+- Ground Beetles
+- Entomopathogenic Nematodes
+- Birds
+affected_plants:
+- slug: bamboo
+  name: Bamboo
+- slug: big-bluestem
+  name: Big Bluestem
+- slug: blue-grama
+  name: Blue Grama
+- slug: broomsedge-bluestem
+  name: Broomsedge Bluestem
+- slug: buffalo-grass
+  name: Buffalo Grass
+- slug: eastern-gamagrass
+  name: Eastern Gamagrass
+- slug: elephant-grass
+  name: Elephant Grass
+- slug: elliotts-bluestem
+  name: Elliott's Bluestem
+- slug: fever-grass
+  name: Fever Grass
+- slug: florida-gamagrass
+  name: Florida Gamagrass
+- slug: gulf-muhly
+  name: Gulf Muhly
+- slug: hairawn-muhly
+  name: Hairawn Muhly
+- slug: hairy-grama
+  name: Hairy Grama
+- slug: indiangrass
+  name: Indiangrass
+- slug: lemongrass
+  name: Lemongrass
+- slug: little-bluestem
+  name: Little Bluestem
+- slug: longawn-muhly
+  name: Longawn Muhly
+- slug: millet
+  name: Millet
+- slug: muhly-grass
+  name: Muhly Grass
+- slug: prairie-cordgrass
+  name: Prairie Cordgrass
+- slug: purple-lovegrass
+  name: Purple Lovegrass
+- slug: rice
+  name: Rice
+- slug: saltgrass
+  name: Saltgrass
+- slug: saltmeadow-cordgrass
+  name: Saltmeadow Cordgrass
+- slug: sand-bluestem
+  name: Sand Bluestem
+- slug: sand-cordgrass
+  name: Sand Cordgrass
+- slug: sand-grama
+  name: Sand Grama
+- slug: sand-lovegrass
+  name: Sand Lovegrass
+- slug: sideoats-grama
+  name: Sideoats Grama
+- slug: split-beard-bluestem
+  name: Split Beard Bluestem
+- slug: sweetgrass
+  name: Sweetgrass
+- slug: switchgrass
+  name: Switchgrass
+- slug: vetiver-grass
+  name: Vetiver Grass
+- slug: weeping-lovegrass
+  name: Weeping Lovegrass
+- slug: wiregrass
+  name: Wiregrass
+- slug: angels-trumpet
+  name: Angel's Trumpet
+- slug: ashwagandha
+  name: Ashwagandha
+- slug: buffalo-bur
+  name: Buffalo Bur
+- slug: chiltepin-pepper
+  name: Chiltepin Pepper
+- slug: chiltepin-pepper-tree
+  name: Chiltepin Pepper Tree
+- slug: chinese-lantern
+  name: Chinese Lantern
+- slug: coastal-groundcherry
+  name: Coastal Groundcherry
+- slug: devils-trumpet
+  name: Devil's Trumpet
+- slug: garden-huckleberry
+  name: Garden Huckleberry
+- slug: goji-berry
+  name: Goji Berry
+- slug: ground-cherry
+  name: Ground Cherry
+- slug: horse-nettle
+  name: Horse Nettle
+- slug: pepino-melon
+  name: Pepino Melon
+- slug: potato
+  name: Potato
+- slug: scarlet-eggplant
+  name: Scarlet Eggplant
+- slug: wild-eggplant
+  name: Wild Eggplant
+- slug: wonderberry
+  name: Wonderberry
+category: pest

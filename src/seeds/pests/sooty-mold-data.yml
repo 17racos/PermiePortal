@@ -1,63 +1,56 @@
----
-- name: Sooty Mold
-  slug: sooty-mold
-  picture: sooty_mold.webp
-  scientific_name: Capnodium spp.
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, sooty mold may already
-    be active. This problem often starts small, then spreads across healthy tissue before most
-    growers realize how serious it is. Warmth, moisture, and crowded foliage usually speed it
-    up. Treat early, because waiting even a few days can turn a manageable infection into major
-    crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - black-coating
-  - sticky-residue
-  - yellowing-leaves
-  - dropping-leaves
-  - sooty-deposits
-  control_methods:
-    biological_controls: >-
-      Sooty mold does not infect plants directly -- it grows on honeydew secreted
-      by aphids, scales, whiteflies, and mealybugs. Eliminating the honeydew-producing
-      insects eliminates the sooty mold. Parasitoid wasps, lady beetles, lacewings,
-      and syrphid fly larvae that collapse aphid and scale populations are the real
-      solution. Ants farm these insects and protect them from natural enemies in
-      exchange for honeydew -- managing ant access with sticky trunk barriers is
-      the most impactful single action to allow biological control to work.
-    preventive_methods: >-
-      Black sooty coating on leaves, stems, and fruit that wipes off is sooty mold.
-      It blocks sunlight and reduces photosynthesis in severe cases but the real
-      problem is the insects producing the honeydew underneath. Find the source -- 
-      check leaves above the sooty coating for aphid colonies, check bark and stem
-      crevices for scale insects, check leaf undersides for whitefly nymphs. Treating
-      sooty mold without treating the insect source is pointless.
-    cultural_practices: >-
-      Install sticky trunk barriers to exclude ants from tree canopies -- ants
-      actively protect aphids, scales, and mealybugs from all natural enemies. Without
-      ant protection these insects are quickly controlled by natural enemies and
-      honeydew production stops. Prune dense interior branches to improve spray
-      coverage when treating the source insects. Reduce nitrogen fertilization that
-      produces the soft lush growth that honeydew-producing insects prefer.
-    mechanical_physical: >-
-      Soft brush and water washes sooty mold off ornamentals once the insect source
-      is under control -- the mold does not re-establish without fresh honeydew.
-      Pressure washing removes stubborn deposits from sturdy foliage and bark. For
-      fruit trees, washing fruit before harvest with mild soap solution removes
-      sooty mold deposits.
-    organic_sprays: >-
-      Treat the insect source, not the sooty mold. Horticultural oil or insecticidal
-      soap targeted at the aphid, scale, whitefly, or mealybug colonies producing
-      honeydew eliminates the food source and the mold dies within weeks. A light
-      solution of potassium bicarbonate or castile soap can wash existing mold from
-      small plants. Once the insect source is eliminated sooty mold weathers away
-      without treatment.
-  natural_enemies:
-  - Parasitic Wasps
-  - Lady Beetles
-  - Lacewings
+name: Sooty Mold
+slug: sooty-mold
+picture: sooty_mold.webp
+scientific_name: Capnodium spp.
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  sooty mold may already be active. This problem often starts small, then spreads
+  across healthy tissue before most growers realize how serious it is. Warmth, moisture,
+  and crowded foliage usually speed it up. Treat early, because waiting even a few
+  days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- black-coating
+- sticky-residue
+- yellowing-leaves
+- dropping-leaves
+- sooty-deposits
+control_methods:
+  biological_controls: Sooty mold does not infect plants directly -- it grows on honeydew
+    secreted by aphids, scales, whiteflies, and mealybugs. Eliminating the honeydew-producing
+    insects eliminates the sooty mold. Parasitoid wasps, lady beetles, lacewings,
+    and syrphid fly larvae that collapse aphid and scale populations are the real
+    solution. Ants farm these insects and protect them from natural enemies in exchange
+    for honeydew -- managing ant access with sticky trunk barriers is the most impactful
+    single action to allow biological control to work.
+  preventive_methods: Black sooty coating on leaves, stems, and fruit that wipes off
+    is sooty mold. It blocks sunlight and reduces photosynthesis in severe cases but
+    the real problem is the insects producing the honeydew underneath. Find the source
+    --  check leaves above the sooty coating for aphid colonies, check bark and stem
+    crevices for scale insects, check leaf undersides for whitefly nymphs. Treating
+    sooty mold without treating the insect source is pointless.
+  cultural_practices: Install sticky trunk barriers to exclude ants from tree canopies
+    -- ants actively protect aphids, scales, and mealybugs from all natural enemies.
+    Without ant protection these insects are quickly controlled by natural enemies
+    and honeydew production stops. Prune dense interior branches to improve spray
+    coverage when treating the source insects. Reduce nitrogen fertilization that
+    produces the soft lush growth that honeydew-producing insects prefer.
+  mechanical_physical: Soft brush and water washes sooty mold off ornamentals once
+    the insect source is under control -- the mold does not re-establish without fresh
+    honeydew. Pressure washing removes stubborn deposits from sturdy foliage and bark.
+    For fruit trees, washing fruit before harvest with mild soap solution removes
+    sooty mold deposits.
+  organic_sprays: Treat the insect source, not the sooty mold. Horticultural oil or
+    insecticidal soap targeted at the aphid, scale, whitefly, or mealybug colonies
+    producing honeydew eliminates the food source and the mold dies within weeks.
+    A light solution of potassium bicarbonate or castile soap can wash existing mold
+    from small plants. Once the insect source is eliminated sooty mold weathers away
+    without treatment.
+natural_enemies:
+- Parasitic Wasps
+- Lady Beetles
+- Lacewings
+category: disease

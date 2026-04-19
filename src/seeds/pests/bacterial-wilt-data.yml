@@ -1,56 +1,59 @@
-- name: "Bacterial wilt"
-  slug: "bacterial-wilt"
-  picture: "bacterial_wilt.webp"
-  scientific_name: "Ralstonia solanacearum species complex"
-  description: >-
-    Bacterial wilt clogs xylem so entire branches or plants collapse while foliage may still look oddly green
-    for a day or two. It spreads with soil water, tools, infected transplants, and root contact. Warm, wet
-    soil favors rapid symptom expression in susceptible hosts like tomato, pepper, eggplant, and many ornamentals.
-    There is no cure for an infected plant -- management is exclusion, sanitation, and resistant varieties.
-  characteristics: >-
-    Cut a stem at soil level and suspend the cut end in clear water -- bacterial ooze may stream as milky threads
-    in advanced cases, though this test is not foolproof on every host. Brown vascular discoloration visible when
-    you peel bark helps distinguish wilt from root rot in some crops. Symptoms often start on one side of the plant
-    or one runner before the whole system fails. Fields with history of brown, water-soaked stem bases and rapid
-    collapse after hot weather should be treated as contaminated until tested.
-  symptoms:
-  - wilting
-  - die-back
-  - stem-damage
-  - crown-damage
-  - root-damage
-  control_methods:
-    biological_controls: >-
-      Suppressive soils with high organic matter and diverse microbial communities sometimes slow bacterial wilt
-      establishment compared with fumigated or sterile media. Some commercial biocontrol strains of Bacillus and
-      Pseudomonas are studied for competitive exclusion, but results vary by strain, crop, and environment.
-      Beneficial mycorrhizae improve root health indirectly but do not replace sanitation. Think of biology as a
-      buffer that works best when rotation, drainage, and clean planting stock are already in place.
-    preventive_methods: >-
-      Use certified disease-free seed and transplants from reputable sources. Never return wash water from
-      suspected plants onto beds or tools without cleaning. Rotate susceptible solanums away from known hot spots
-      for several seasons where space allows. Choose resistant rootstocks and cultivars when breeders have released
-      material for your crop and pathogen race.
-    cultural_practices: >-
-      Improve drainage in low spots so roots are not anaerobic during warm rains. Avoid high nitrogen that pushes
-      lush growth when plants are already under disease pressure. Mulch with materials that do not hold excess
-      moisture against crowns if your climate is humid. Grafting susceptible tomatoes onto resistant rootstocks is
-      a documented practice in regions where races are mapped.
-    mechanical_physical: >-
-      Remove and destroy infected plants before oozing contacts neighboring roots -- do not compost symptomatic tissue.
-      Sterilize blades between plants with a labeled tool disinfectant or dilute bleach solution following safety guidance.
-      Dedicated boots or disposable foot covers reduce soil tracking between blocks in high tunnels. Solarizing soil
-      can lower inoculum in small beds when done according to extension timing for your latitude.
-    organic_sprays: >-
-      Foliar sprays do not cure systemic bacterial wilt inside vascular tissue. Copper products may reduce secondary
-      leaf spots on some hosts but do not resurrect collapsed plants. Focus spending on clean inputs and rotation
-      instead of repeated copper that can accumulate in soil biology. If you experiment with biological drenches,
-      track results carefully because efficacy data for home scale is thinner than for major commercial pathogens.
-  natural_enemies:
-  - Competitive Microbes
-  - Antagonistic Bacteria
-  - Beneficial Fungi
-  affected_plants: []
-  # Image attribution: Scot Nelson / Wikimedia Commons / CC0
-  # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+name: Bacterial wilt
+slug: bacterial-wilt
+picture: bacterial_wilt.webp
+scientific_name: Ralstonia solanacearum species complex
+description: Bacterial wilt clogs xylem so entire branches or plants collapse while
+  foliage may still look oddly green for a day or two. It spreads with soil water,
+  tools, infected transplants, and root contact. Warm, wet soil favors rapid symptom
+  expression in susceptible hosts like tomato, pepper, eggplant, and many ornamentals.
+  There is no cure for an infected plant -- management is exclusion, sanitation, and
+  resistant varieties.
+characteristics: Cut a stem at soil level and suspend the cut end in clear water --
+  bacterial ooze may stream as milky threads in advanced cases, though this test is
+  not foolproof on every host. Brown vascular discoloration visible when you peel
+  bark helps distinguish wilt from root rot in some crops. Symptoms often start on
+  one side of the plant or one runner before the whole system fails. Fields with history
+  of brown, water-soaked stem bases and rapid collapse after hot weather should be
+  treated as contaminated until tested.
+symptoms:
+- wilting
+- die-back
+- stem-damage
+- crown-damage
+- root-damage
+control_methods:
+  biological_controls: Suppressive soils with high organic matter and diverse microbial
+    communities sometimes slow bacterial wilt establishment compared with fumigated
+    or sterile media. Some commercial biocontrol strains of Bacillus and Pseudomonas
+    are studied for competitive exclusion, but results vary by strain, crop, and environment.
+    Beneficial mycorrhizae improve root health indirectly but do not replace sanitation.
+    Think of biology as a buffer that works best when rotation, drainage, and clean
+    planting stock are already in place.
+  preventive_methods: Use certified disease-free seed and transplants from reputable
+    sources. Never return wash water from suspected plants onto beds or tools without
+    cleaning. Rotate susceptible solanums away from known hot spots for several seasons
+    where space allows. Choose resistant rootstocks and cultivars when breeders have
+    released material for your crop and pathogen race.
+  cultural_practices: Improve drainage in low spots so roots are not anaerobic during
+    warm rains. Avoid high nitrogen that pushes lush growth when plants are already
+    under disease pressure. Mulch with materials that do not hold excess moisture
+    against crowns if your climate is humid. Grafting susceptible tomatoes onto resistant
+    rootstocks is a documented practice in regions where races are mapped.
+  mechanical_physical: Remove and destroy infected plants before oozing contacts neighboring
+    roots -- do not compost symptomatic tissue. Sterilize blades between plants with
+    a labeled tool disinfectant or dilute bleach solution following safety guidance.
+    Dedicated boots or disposable foot covers reduce soil tracking between blocks
+    in high tunnels. Solarizing soil can lower inoculum in small beds when done according
+    to extension timing for your latitude.
+  organic_sprays: Foliar sprays do not cure systemic bacterial wilt inside vascular
+    tissue. Copper products may reduce secondary leaf spots on some hosts but do not
+    resurrect collapsed plants. Focus spending on clean inputs and rotation instead
+    of repeated copper that can accumulate in soil biology. If you experiment with
+    biological drenches, track results carefully because efficacy data for home scale
+    is thinner than for major commercial pathogens.
+natural_enemies:
+- Competitive Microbes
+- Antagonistic Bacteria
+- Beneficial Fungi
+affected_plants: []
+category: disease

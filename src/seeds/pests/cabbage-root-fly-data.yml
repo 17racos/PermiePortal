@@ -1,76 +1,73 @@
----
-- name: Cabbage Root Fly
-  slug: cabbage-root-fly
-  picture: cabbage_root_fly.webp
-  scientific_name: Delia radicum
-  description: >-
-    If leaves show trails, fruit turns soft, or roots collapse from inside, cabbage root fly may
-    already be feeding. The larval stage does most of the damage, often hidden where you cannot
-    see it at first glance. By the time yellowing or rot appears, feeding may be well underway.
-    Move quickly when symptoms begin to prevent another wave of eggs and larvae.
-  characteristics: >-
-    Watch for tiny eggs near plant tissue, pale legless larvae inside mines or fruit, and sudden
-    soft spots or tunnels. Adults are usually small flies that hover or dart when disturbed.
-    Check around wounds, blossoms, and moist plant debris where egg-laying is common. Cut open
-    suspect tissue: live maggots or fresh tunnels are the clearest field confirmation.
-  symptoms:
-  - root-damage
-  - wilting
-  - yellowing-leaves
-  - holes-in-leaves
-  control_methods:
-    biological_controls: >-
-      Parasitic nematodes that target fly larvae in soil can infect cabbage root fly maggots when
-      soil temperature and moisture fit the label -- apply at egg hatch near the stem. Ground
-      beetles eat eggs at the soil surface. Beneficial soil microbes compete indirectly; they do
-      not replace collars. Nematodes starve in dry sand; water timing matters as much as product
-      choice.
-    preventive_methods: >-
-      Adults lay eggs at the base of brassica stems -- rotate blocks every season and destroy
-      old brassica stumps where pupae overwinter. Floating row covers stop adults when installed
-      before flight and sealed at the edges. Sticky traps at canopy height monitor flights; they
-      warn more than they cure. Scout for first wilting in hot dry spells; that is often maggot
-      injury, not drought alone.
-    cultural_practices: >-
-      Improve drainage so crowns do not crack from wet-dry swings; cracks invite egg-lay. Use
-      finished compost, not fresh manure that attracts flies. Remove volunteer brassicas along
-      paths. Keep soil moisture even during head formation; stressed plants show damage faster.
-    mechanical_physical: >-
-      Cardboard or tar paper collars pressed to the stem block females from laying at soil line
-      when installed dry and snug. Fine mesh row tunnels exclude adults; vent on hot days so
-      plants do not cook. Solarize seedbeds only in hot climates with weeks to spare before
-      planting.
-    organic_sprays: >-
-      Neem soil drenches at egg hatch sometimes reduce survival -- read labels for crop and
-      timing. Bio-nematicides work best paired with nematodes or rotation, not alone. Foliar neem
-      targets adults when they rest on leaves; short residual means repeat after rain. Combine
-      sprays with physical barriers; liquids rarely fix heavy fly years without sanitation.
-  natural_enemies:
-  - Parasitic Nematodes
-  - Beneficial Soil Microbes
-  - Predatory Insects
-  affected_plants:
-  - slug: bok-choy
-    name: Bok Choy
-  - slug: broccoli
-    name: Broccoli
-  - slug: daikon-radish
-    name: Daikon Radish
-  - slug: kale
-    name: Kale
-  - slug: radish
-    name: Radish
-  - slug: sea-kale
-    name: Sea Kale
-  - slug: sea-rocket
-    name: Sea Rocket
-  - slug: sweet-alyssum
-    name: Sweet Alyssum
-  - slug: tree-collard
-    name: Tree Collard
-  - slug: turkish-rocket
-    name: Turkish Rocket
-  - slug: watercress
-    name: Watercress
-  - slug: wild-mustard-greens
-    name: Wild Mustard Greens
+name: Cabbage Root Fly
+slug: cabbage-root-fly
+picture: cabbage_root_fly.webp
+scientific_name: Delia radicum
+description: If leaves show trails, fruit turns soft, or roots collapse from inside,
+  cabbage root fly may already be feeding. The larval stage does most of the damage,
+  often hidden where you cannot see it at first glance. By the time yellowing or rot
+  appears, feeding may be well underway. Move quickly when symptoms begin to prevent
+  another wave of eggs and larvae.
+characteristics: 'Watch for tiny eggs near plant tissue, pale legless larvae inside
+  mines or fruit, and sudden soft spots or tunnels. Adults are usually small flies
+  that hover or dart when disturbed. Check around wounds, blossoms, and moist plant
+  debris where egg-laying is common. Cut open suspect tissue: live maggots or fresh
+  tunnels are the clearest field confirmation.'
+symptoms:
+- root-damage
+- wilting
+- yellowing-leaves
+- holes-in-leaves
+control_methods:
+  biological_controls: Parasitic nematodes that target fly larvae in soil can infect
+    cabbage root fly maggots when soil temperature and moisture fit the label -- apply
+    at egg hatch near the stem. Ground beetles eat eggs at the soil surface. Beneficial
+    soil microbes compete indirectly; they do not replace collars. Nematodes starve
+    in dry sand; water timing matters as much as product choice.
+  preventive_methods: Adults lay eggs at the base of brassica stems -- rotate blocks
+    every season and destroy old brassica stumps where pupae overwinter. Floating
+    row covers stop adults when installed before flight and sealed at the edges. Sticky
+    traps at canopy height monitor flights; they warn more than they cure. Scout for
+    first wilting in hot dry spells; that is often maggot injury, not drought alone.
+  cultural_practices: Improve drainage so crowns do not crack from wet-dry swings;
+    cracks invite egg-lay. Use finished compost, not fresh manure that attracts flies.
+    Remove volunteer brassicas along paths. Keep soil moisture even during head formation;
+    stressed plants show damage faster.
+  mechanical_physical: Cardboard or tar paper collars pressed to the stem block females
+    from laying at soil line when installed dry and snug. Fine mesh row tunnels exclude
+    adults; vent on hot days so plants do not cook. Solarize seedbeds only in hot
+    climates with weeks to spare before planting.
+  organic_sprays: Neem soil drenches at egg hatch sometimes reduce survival -- read
+    labels for crop and timing. Bio-nematicides work best paired with nematodes or
+    rotation, not alone. Foliar neem targets adults when they rest on leaves; short
+    residual means repeat after rain. Combine sprays with physical barriers; liquids
+    rarely fix heavy fly years without sanitation.
+natural_enemies:
+- Parasitic Nematodes
+- Beneficial Soil Microbes
+- Predatory Insects
+affected_plants:
+- slug: bok-choy
+  name: Bok Choy
+- slug: broccoli
+  name: Broccoli
+- slug: daikon-radish
+  name: Daikon Radish
+- slug: kale
+  name: Kale
+- slug: radish
+  name: Radish
+- slug: sea-kale
+  name: Sea Kale
+- slug: sea-rocket
+  name: Sea Rocket
+- slug: sweet-alyssum
+  name: Sweet Alyssum
+- slug: tree-collard
+  name: Tree Collard
+- slug: turkish-rocket
+  name: Turkish Rocket
+- slug: watercress
+  name: Watercress
+- slug: wild-mustard-greens
+  name: Wild Mustard Greens
+category: pest

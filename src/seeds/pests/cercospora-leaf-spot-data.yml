@@ -1,49 +1,46 @@
----
-- name: Cercospora Leaf Spot
-  slug: cercospora-leaf-spot
-  picture: cercospora_leaf_spot.webp
-  scientific_name: Cercospora spp.
-  description: >-
-    If leaves, stems, or fruit suddenly look spotted, sunken, or rotting, cercospora leaf spot
-    may already be active. This problem often starts small, then spreads across healthy tissue
-    before most growers realize how serious it is. Warmth, moisture, and crowded foliage usually
-    speed it up. Treat early, because waiting even a few days can turn a manageable infection
-    into major crop loss.
-  characteristics: >-
-    Look for a pattern, not one bad leaf: expanding spots, dark or pale halos, fuzzy growth, or
-    tissue that collapses when touched. Check both leaf surfaces, stem bases, and fruit scars
-    where symptoms first appear. New lesions after rain, overhead watering, or heavy dew are a
-    strong clue. When separate spots begin merging into larger dead patches, the disease is
-    advancing quickly.
-  symptoms:
-  - leaf-spots
-  - yellowing-leaves
-  - dropping-leaves
-  - wilting
-  control_methods:
-    biological_controls: >-
-      Bacillus subtilis and Pseudomonas products applied to leaves compete for infection sites
-      when humidity is high -- anecdotal help, not a stand-in for rotation. Trichoderma soil
-      drenches support root zone biology; leaf pathogens still need dry leaves. Strongest gains
-      come from shortening leaf wetness, not from compost tea alone.
-    preventive_methods: >-
-      Scout lower canopy first; spores splash upward after rain. Deep plow or remove infected
-      debris in intensive beet and chard rotations so inoculum does not volunteer next season.
-      Begin protectant programs before forecast rains on susceptible cultivars.
-    cultural_practices: >-
-      Widen row spacing and orient rows with prevailing wind so leaves dry faster. Destroy crop
-      residue after harvest; infected trash holds spores over winter. Rotate away from hosts for
-      two years where feasible; short rotations stack disease faster than yields.
-    mechanical_physical: >-
-      Drip irrigation keeps foliage dry; avoid late-day overhead watering that leaves leaves wet
-      all night. In small gardens, prune lower leaves that touch soil and splash spores. Mulch
-      with material that does not hold infected leaves against stems.
-    organic_sprays: >-
-      Copper and sulfur protectants follow label crops and rates -- apply before wetting events,
-      not after lesions merge. Bacillus-based biofungicides add layers in humid seasons. Neem
-      rotates as supplemental; test phytotoxicity on tender greens. Reapply after rain per label;
-      protectant chemistry washes off.
-  natural_enemies:
-  - Bacillus subtilis
-  - Pseudomonas spp.
-  - Trichoderma spp.
+name: Cercospora Leaf Spot
+slug: cercospora-leaf-spot
+picture: cercospora_leaf_spot.webp
+scientific_name: Cercospora spp.
+description: If leaves, stems, or fruit suddenly look spotted, sunken, or rotting,
+  cercospora leaf spot may already be active. This problem often starts small, then
+  spreads across healthy tissue before most growers realize how serious it is. Warmth,
+  moisture, and crowded foliage usually speed it up. Treat early, because waiting
+  even a few days can turn a manageable infection into major crop loss.
+characteristics: 'Look for a pattern, not one bad leaf: expanding spots, dark or pale
+  halos, fuzzy growth, or tissue that collapses when touched. Check both leaf surfaces,
+  stem bases, and fruit scars where symptoms first appear. New lesions after rain,
+  overhead watering, or heavy dew are a strong clue. When separate spots begin merging
+  into larger dead patches, the disease is advancing quickly.'
+symptoms:
+- leaf-spots
+- yellowing-leaves
+- dropping-leaves
+- wilting
+control_methods:
+  biological_controls: Bacillus subtilis and Pseudomonas products applied to leaves
+    compete for infection sites when humidity is high -- anecdotal help, not a stand-in
+    for rotation. Trichoderma soil drenches support root zone biology; leaf pathogens
+    still need dry leaves. Strongest gains come from shortening leaf wetness, not
+    from compost tea alone.
+  preventive_methods: Scout lower canopy first; spores splash upward after rain. Deep
+    plow or remove infected debris in intensive beet and chard rotations so inoculum
+    does not volunteer next season. Begin protectant programs before forecast rains
+    on susceptible cultivars.
+  cultural_practices: Widen row spacing and orient rows with prevailing wind so leaves
+    dry faster. Destroy crop residue after harvest; infected trash holds spores over
+    winter. Rotate away from hosts for two years where feasible; short rotations stack
+    disease faster than yields.
+  mechanical_physical: Drip irrigation keeps foliage dry; avoid late-day overhead
+    watering that leaves leaves wet all night. In small gardens, prune lower leaves
+    that touch soil and splash spores. Mulch with material that does not hold infected
+    leaves against stems.
+  organic_sprays: Copper and sulfur protectants follow label crops and rates -- apply
+    before wetting events, not after lesions merge. Bacillus-based biofungicides add
+    layers in humid seasons. Neem rotates as supplemental; test phytotoxicity on tender
+    greens. Reapply after rain per label; protectant chemistry washes off.
+natural_enemies:
+- Bacillus subtilis
+- Pseudomonas spp.
+- Trichoderma spp.
+category: disease

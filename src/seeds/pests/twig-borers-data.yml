@@ -1,49 +1,47 @@
-- name: "Twig borers"
-  slug: "twig-borers"
-  picture: "twig_borers.webp"
-  scientific_name: "Multiple Coleoptera and Lepidoptera (twig-boring guild)"
-  description: >-
-    Twig borers are larvae of small moths or beetles that tunnel inside shoots, causing flagged dead tips, sawdust at
-    entry holes, and weakened scaffold on fruit trees and ornamentals. Damage is often localized to current-year wood.
-    Hosts range from stone fruit to pecan to roses depending on species complex in your region across temperate to subtropical
-    production zones.
-  characteristics: >-
-    Split flagged twigs lengthwise to find tunnels, frass, and larvae or pupae. Note hole size and position relative to
-    buds -- some shothole borers differ in gallery pattern. Use regional extension fact sheets to separate lesser peachtree
-    borer look-alikes from true twig-boring guild members on your crop.
-  symptoms:
-  - die-back
-  - wilting
-  - bark-damage
-  - chewed-stems
-  - tunneling
-  control_methods:
-    biological_controls: >-
-      Parasitic wasps attack eggs and larvae of many twig-boring lepidopterans. Woodpeckers and nuthatches probe shallow
-      tunnels on orchard edges. Preserve flowering understory for parasitoid adults. Avoid orchard-wide sprays during bloom
-      that remove these allies.
-    preventive_methods: >-
-      Remove and destroy prunings before adults emerge. Paint large pruning cuts only when your crop guide recommends it,
-      because improper paint traps moisture. Avoid leaving long stubs that attract egg laying. Choose resistant rootstocks
-      where breeding programs document benefit.
-    cultural_practices: >-
-      Prune during safe windows for your species to avoid attracting egg layers to fresh wounds. Sanitize tools between trees
-      when bacterial diseases also occur in your area. Train young trees to fewer dominant leaders to reduce twig crowding
-      that hides early infestations.
-    mechanical_physical: >-
-      Clip and burn or chip flagged tips when regulations allow, removing larvae before they descend to larger wood. Band
-      trunks with mating disruption or sticky monitoring tools only where species-specific programs exist -- not generic
-      fixes.
-    organic_sprays: >-
-      Bt sprays target young caterpillar twig borers on susceptible hosts when timing matches egg hatch -- follow regional
-      degree-day models. Kaolin films on trunks deter some egg layers on labeled crops. Horticultural oil dormant applications
-      help on some lepidopteran complexes but not all twig borers -- confirm with extension. Spinosad is an option on labeled
-      crops with bee precautions.
-  natural_enemies:
-  - Parasitic Wasps
-  - Woodpeckers
-  - Predatory Beetles
-  affected_plants: []
-  # Image attribution: (c) Mark Hura, some rights reserved (CC BY-NC), uploaded by Mark Hura
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+name: Twig borers
+slug: twig-borers
+picture: twig_borers.webp
+scientific_name: Multiple Coleoptera and Lepidoptera (twig-boring guild)
+description: Twig borers are larvae of small moths or beetles that tunnel inside shoots,
+  causing flagged dead tips, sawdust at entry holes, and weakened scaffold on fruit
+  trees and ornamentals. Damage is often localized to current-year wood. Hosts range
+  from stone fruit to pecan to roses depending on species complex in your region across
+  temperate to subtropical production zones.
+characteristics: Split flagged twigs lengthwise to find tunnels, frass, and larvae
+  or pupae. Note hole size and position relative to buds -- some shothole borers differ
+  in gallery pattern. Use regional extension fact sheets to separate lesser peachtree
+  borer look-alikes from true twig-boring guild members on your crop.
+symptoms:
+- die-back
+- wilting
+- bark-damage
+- chewed-stems
+- tunneling
+control_methods:
+  biological_controls: Parasitic wasps attack eggs and larvae of many twig-boring
+    lepidopterans. Woodpeckers and nuthatches probe shallow tunnels on orchard edges.
+    Preserve flowering understory for parasitoid adults. Avoid orchard-wide sprays
+    during bloom that remove these allies.
+  preventive_methods: Remove and destroy prunings before adults emerge. Paint large
+    pruning cuts only when your crop guide recommends it, because improper paint traps
+    moisture. Avoid leaving long stubs that attract egg laying. Choose resistant rootstocks
+    where breeding programs document benefit.
+  cultural_practices: Prune during safe windows for your species to avoid attracting
+    egg layers to fresh wounds. Sanitize tools between trees when bacterial diseases
+    also occur in your area. Train young trees to fewer dominant leaders to reduce
+    twig crowding that hides early infestations.
+  mechanical_physical: Clip and burn or chip flagged tips when regulations allow,
+    removing larvae before they descend to larger wood. Band trunks with mating disruption
+    or sticky monitoring tools only where species-specific programs exist -- not generic
+    fixes.
+  organic_sprays: Bt sprays target young caterpillar twig borers on susceptible hosts
+    when timing matches egg hatch -- follow regional degree-day models. Kaolin films
+    on trunks deter some egg layers on labeled crops. Horticultural oil dormant applications
+    help on some lepidopteran complexes but not all twig borers -- confirm with extension.
+    Spinosad is an option on labeled crops with bee precautions.
+natural_enemies:
+- Parasitic Wasps
+- Woodpeckers
+- Predatory Beetles
+affected_plants: []
+category: pest

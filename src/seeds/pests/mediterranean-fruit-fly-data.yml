@@ -1,49 +1,46 @@
----
-- name: Mediterranean Fruit Fly
-  slug: mediterranean-fruit-fly
-  picture: mediterranean_fruit_fly.webp
-  scientific_name: Ceratitis capitata
-  description: >-
-    If leaves show trails, fruit turns soft, or roots collapse from inside, mediterranean fruit
-    fly may already be feeding. The larval stage does most of the damage, often hidden where you
-    cannot see it at first glance. By the time yellowing or rot appears, feeding may be well
-    underway. Move quickly when symptoms begin to prevent another wave of eggs and larvae.
-  characteristics: >-
-    Watch for tiny eggs near plant tissue, pale legless larvae inside mines or fruit, and sudden
-    soft spots or tunnels. Adults are usually small flies that hover or dart when disturbed.
-    Check around wounds, blossoms, and moist plant debris where egg-laying is common. Cut open
-    suspect tissue: live maggots or fresh tunnels are the clearest field confirmation.
-  symptoms:
-  - fruit-damage
-  - wilting
-  - distorted-growth
-  - leaf-spots
-  control_methods:
-    biological_controls: >-
-      Psyttalia concolor and Diachasmimorpha wasps parasitize medfly larvae in fruit in classical
-      programs -- not a backyard hobby release. Native parasitoids help when sanitation is strong
-      and broad sprays stay rare. Preserve locals by using bait-focused tactics that target
-      feeding flies, not entire canopies.
-    preventive_methods: >-
-      Hang Jackson traps and regional monitoring lures early -- legal restrictions on moving
-      homegrown fruit from quarantine zones exist for good reason. Educate neighbors about larvae
-      hitchhiking in fruit; one forgotten bucket can seed a block. Coordinate with agriculture
-      agencies when programs require reporting.
-    cultural_practices: >-
-      Pick up fallen fruit daily during fly season; larvae complete in ground drops. Remove
-      unmanaged hosts in abandoned orchards that act as reservoirs. Neighborhood cleanup beats
-      solo heroics; Medfly does not respect fence lines. After harvest, strip trees of lingering
-      fruit.
-    mechanical_physical: >-
-      Bag individual fruit clusters where labor allows -- excludes females from stinging. Heat or
-      cold treatment of fruit for trade follows certified protocols, not kitchen experiments.
-      Trapping for monitoring guides regional responses; one trap does not clear a county.
-    organic_sprays: >-
-      Bait sprays mix protein lure with spinosad or other approved actives on spot trees or
-      alternate rows -- attracts and kills searching females and males without fogging entire
-      canopy. Reapply per regional program after rain. Follow label distances from water and
-      bee forage. Bait sprays are not a substitute for fruit removal.
-  natural_enemies:
-  - Psyttalia concolor
-  - Diachasmimorpha tryoni
-  - Diachasmimorpha longicaudata
+name: Mediterranean Fruit Fly
+slug: mediterranean-fruit-fly
+picture: mediterranean_fruit_fly.webp
+scientific_name: Ceratitis capitata
+description: If leaves show trails, fruit turns soft, or roots collapse from inside,
+  mediterranean fruit fly may already be feeding. The larval stage does most of the
+  damage, often hidden where you cannot see it at first glance. By the time yellowing
+  or rot appears, feeding may be well underway. Move quickly when symptoms begin to
+  prevent another wave of eggs and larvae.
+characteristics: 'Watch for tiny eggs near plant tissue, pale legless larvae inside
+  mines or fruit, and sudden soft spots or tunnels. Adults are usually small flies
+  that hover or dart when disturbed. Check around wounds, blossoms, and moist plant
+  debris where egg-laying is common. Cut open suspect tissue: live maggots or fresh
+  tunnels are the clearest field confirmation.'
+symptoms:
+- fruit-damage
+- wilting
+- distorted-growth
+- leaf-spots
+control_methods:
+  biological_controls: Psyttalia concolor and Diachasmimorpha wasps parasitize medfly
+    larvae in fruit in classical programs -- not a backyard hobby release. Native
+    parasitoids help when sanitation is strong and broad sprays stay rare. Preserve
+    locals by using bait-focused tactics that target feeding flies, not entire canopies.
+  preventive_methods: Hang Jackson traps and regional monitoring lures early -- legal
+    restrictions on moving homegrown fruit from quarantine zones exist for good reason.
+    Educate neighbors about larvae hitchhiking in fruit; one forgotten bucket can
+    seed a block. Coordinate with agriculture agencies when programs require reporting.
+  cultural_practices: Pick up fallen fruit daily during fly season; larvae complete
+    in ground drops. Remove unmanaged hosts in abandoned orchards that act as reservoirs.
+    Neighborhood cleanup beats solo heroics; Medfly does not respect fence lines.
+    After harvest, strip trees of lingering fruit.
+  mechanical_physical: Bag individual fruit clusters where labor allows -- excludes
+    females from stinging. Heat or cold treatment of fruit for trade follows certified
+    protocols, not kitchen experiments. Trapping for monitoring guides regional responses;
+    one trap does not clear a county.
+  organic_sprays: Bait sprays mix protein lure with spinosad or other approved actives
+    on spot trees or alternate rows -- attracts and kills searching females and males
+    without fogging entire canopy. Reapply per regional program after rain. Follow
+    label distances from water and bee forage. Bait sprays are not a substitute for
+    fruit removal.
+natural_enemies:
+- Psyttalia concolor
+- Diachasmimorpha tryoni
+- Diachasmimorpha longicaudata
+category: pest

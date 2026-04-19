@@ -1,48 +1,46 @@
----
-- name: Mites
-  slug: mites
-  picture: mites.webp
-  scientific_name: Acari
-  description: >-
-    If leaves look dusty, speckled, bronzed, or curled without obvious chewing, mites is a
-    likely suspect. Mites are tiny but can multiply fast, especially during heat and dry air.
-    Plants lose vigor as feeding drains cell contents from leaves and tender growth. Early
-    action matters, because heavy infestations can spread through a bed in days.
-  characteristics: >-
-    Use a hand lens and check leaf undersides first, especially near veins and new growth. Look
-    for pinprick stippling, fine webbing in some species, and tiny moving dots that range from
-    pale to red or brown. Tap a leaf over white paper; moving specks suggest active mites.
-    Stippled leaves plus mites or eggs clustered under foliage confirms the diagnosis.
-  symptoms:
-  - yellowing-leaves
-  - webbing
-  - silvery-streaking
-  - brown-edges
-  control_methods:
-    biological_controls: >-
-      Predatory mites such as Phytoseiulus and Neoseiulus species hunt spider mites when humidity
-      stays above fifty percent and broad sprays stop. Lady beetles and lacewings eat mites on
-      open leaves. Buying predators works only after you end calendar pyrethrin; otherwise you
-      donate money to insectaries weekly.
-    preventive_methods: >-
-      Scout leaf undersides weekly with a lens during hot, dry weather -- stippling shows up
-      before webs. Quarantine new nursery stock; mites ride wind and clothing. Flag beds that
-      bronzed last year; drought stress invites repeat flare-ups.
-    cultural_practices: >-
-      Space and prune for air movement, but remember spider mites love hot dry air -- humidity
-      management matters as much as spacing. Avoid nitrogen dumps that push soft growth every
-      flush. Keep soil moisture even; drought-stressed plants flag mites before they flag thirst.
-    mechanical_physical: >-
-      A strong jet of water aimed at leaf undersides knocks mites off -- repeat every two to
-      three days for two weeks to break a generation. Sticky traps catch adults dispersing in
-      greenhouses; they monitor more than control. For small plants, wipe leaves with a damp
-      cloth.
-    organic_sprays: >-
-      Neem oil and insecticidal soap contact mites and eggs when coverage is thorough -- add
-      spreader on waxy leaves. Spray at dusk to reduce sunburn and to spare predators active by
-      day. Reapply after rain; short residual means overlapping generations need repeat apps.
-      Rotate sulfur, soap, and neem in tunnels to slow resistance.
-  natural_enemies:
-  - Predatory Mites
-  - Ladybugs
-  - Lacewings
+name: Mites
+slug: mites
+picture: mites.webp
+scientific_name: Acari
+description: If leaves look dusty, speckled, bronzed, or curled without obvious chewing,
+  mites is a likely suspect. Mites are tiny but can multiply fast, especially during
+  heat and dry air. Plants lose vigor as feeding drains cell contents from leaves
+  and tender growth. Early action matters, because heavy infestations can spread through
+  a bed in days.
+characteristics: Use a hand lens and check leaf undersides first, especially near
+  veins and new growth. Look for pinprick stippling, fine webbing in some species,
+  and tiny moving dots that range from pale to red or brown. Tap a leaf over white
+  paper; moving specks suggest active mites. Stippled leaves plus mites or eggs clustered
+  under foliage confirms the diagnosis.
+symptoms:
+- yellowing-leaves
+- webbing
+- silvery-streaking
+- brown-edges
+control_methods:
+  biological_controls: Predatory mites such as Phytoseiulus and Neoseiulus species
+    hunt spider mites when humidity stays above fifty percent and broad sprays stop.
+    Lady beetles and lacewings eat mites on open leaves. Buying predators works only
+    after you end calendar pyrethrin; otherwise you donate money to insectaries weekly.
+  preventive_methods: Scout leaf undersides weekly with a lens during hot, dry weather
+    -- stippling shows up before webs. Quarantine new nursery stock; mites ride wind
+    and clothing. Flag beds that bronzed last year; drought stress invites repeat
+    flare-ups.
+  cultural_practices: Space and prune for air movement, but remember spider mites
+    love hot dry air -- humidity management matters as much as spacing. Avoid nitrogen
+    dumps that push soft growth every flush. Keep soil moisture even; drought-stressed
+    plants flag mites before they flag thirst.
+  mechanical_physical: A strong jet of water aimed at leaf undersides knocks mites
+    off -- repeat every two to three days for two weeks to break a generation. Sticky
+    traps catch adults dispersing in greenhouses; they monitor more than control.
+    For small plants, wipe leaves with a damp cloth.
+  organic_sprays: Neem oil and insecticidal soap contact mites and eggs when coverage
+    is thorough -- add spreader on waxy leaves. Spray at dusk to reduce sunburn and
+    to spare predators active by day. Reapply after rain; short residual means overlapping
+    generations need repeat apps. Rotate sulfur, soap, and neem in tunnels to slow
+    resistance.
+natural_enemies:
+- Predatory Mites
+- Ladybugs
+- Lacewings
+category: pest

@@ -1,50 +1,52 @@
-- name: "Cutworm larvae"
-  slug: "cutworm-larvae"
-  picture: "cutworm_larvae.webp"
-  scientific_name: "Noctuidae (Agrotis, Peridroma, and related genera)"
-  description: >-
-    Cutworms are caterpillars that clip seedlings at soil line, sometimes dragging small plants underground to feed.
-    They feed at night and hide just under the soil surface by day, which makes blame fall on birds or rabbits first.
-    Outbreaks follow weedy fallow, fresh tillage, or thick mulch that gives them cover. They occur on vegetables,
-    grains, and nursery transplants across temperate to subtropical production zones.
-  characteristics: >-
-    Search the top inch of soil within an inch of a freshly cut stem to find a curled caterpillar in earth-tone colors.
-    Droppings are small dark pellets near the wound. Distinguish from slug slime trails and from wireworm hollowed stems.
-    Many species have distinct setae patterns under magnification if you need species-level ID for trap crop planning.
-  symptoms:
-  - chewed-stems
-  - wilting
-  - crown-damage
-  - holes-in-leaves
-  control_methods:
-    biological_controls: >-
-      Trichogramma wasps parasitize eggs of some cutworm species when released at correct density and timing. Ground beetles,
-      ants, and spiders consume eggs and small larvae at the soil surface. Bacillus thuringiensis kurstaki (Bt) kills
-      young caterpillars that ingest treated leaf tissue -- it is ineffective on large larvae hiding in soil. Nematodes
-      can infect cutworms in moist soil when species and rates match label guidance.
-    preventive_methods: >-
-      Mow or till weeds two weeks before planting to flush cutworms through the food gap before your crop goes in. Delay
-      transplanting until soil warms slightly so plants outgrow vulnerable size quickly. Remove crop residue that shelters
-      larvae between seasons where rotation allows. Scout edges of fields next to sod or pasture, because adults migrate from
-      those habitats.
-    cultural_practices: >-
-      Collars made from cardboard or plastic cups sunken around stems block surface feeding on high-value transplants.
-      Bare soil cultivation for a few days before planting exposes larvae to birds. Intercrop fast-germinating covers
-      that do not shade the main crop excessively if your system uses that pattern. Avoid planting into freshly killed
-      sod without a waiting period.
-    mechanical_physical: >-
-      Hand pick larvae during evening checks with a headlamp -- effective on small beds. Cultivate lightly between rows
-      in the morning to desiccate larvae forced to the surface. For high tunnels, disturb mulch bands where cutworms concentrate
-      after irrigation.
-    organic_sprays: >-
-      Bt sprays in evening cover foliage eaten overnight -- reapply after rain. Spinosad is allowed in many organic systems
-      for chewing larvae -- rotate modes of action and protect pollinators by not spraying open flowers. Neem can reduce
-      feeding damage on some species but works slowly. Always confirm preharvest intervals on food crops.
-  natural_enemies:
-  - Parasitic Wasps
-  - Ground Beetles
-  - Spiders
-  affected_plants: []
-  # Image attribution: No image found
-  # Image source: none
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+name: Cutworm larvae
+slug: cutworm-larvae
+picture: cutworm_larvae.webp
+scientific_name: Noctuidae (Agrotis, Peridroma, and related genera)
+description: Cutworms are caterpillars that clip seedlings at soil line, sometimes
+  dragging small plants underground to feed. They feed at night and hide just under
+  the soil surface by day, which makes blame fall on birds or rabbits first. Outbreaks
+  follow weedy fallow, fresh tillage, or thick mulch that gives them cover. They occur
+  on vegetables, grains, and nursery transplants across temperate to subtropical production
+  zones.
+characteristics: Search the top inch of soil within an inch of a freshly cut stem
+  to find a curled caterpillar in earth-tone colors. Droppings are small dark pellets
+  near the wound. Distinguish from slug slime trails and from wireworm hollowed stems.
+  Many species have distinct setae patterns under magnification if you need species-level
+  ID for trap crop planning.
+symptoms:
+- chewed-stems
+- wilting
+- crown-damage
+- holes-in-leaves
+control_methods:
+  biological_controls: Trichogramma wasps parasitize eggs of some cutworm species
+    when released at correct density and timing. Ground beetles, ants, and spiders
+    consume eggs and small larvae at the soil surface. Bacillus thuringiensis kurstaki
+    (Bt) kills young caterpillars that ingest treated leaf tissue -- it is ineffective
+    on large larvae hiding in soil. Nematodes can infect cutworms in moist soil when
+    species and rates match label guidance.
+  preventive_methods: Mow or till weeds two weeks before planting to flush cutworms
+    through the food gap before your crop goes in. Delay transplanting until soil
+    warms slightly so plants outgrow vulnerable size quickly. Remove crop residue
+    that shelters larvae between seasons where rotation allows. Scout edges of fields
+    next to sod or pasture, because adults migrate from those habitats.
+  cultural_practices: Collars made from cardboard or plastic cups sunken around stems
+    block surface feeding on high-value transplants. Bare soil cultivation for a few
+    days before planting exposes larvae to birds. Intercrop fast-germinating covers
+    that do not shade the main crop excessively if your system uses that pattern.
+    Avoid planting into freshly killed sod without a waiting period.
+  mechanical_physical: Hand pick larvae during evening checks with a headlamp -- effective
+    on small beds. Cultivate lightly between rows in the morning to desiccate larvae
+    forced to the surface. For high tunnels, disturb mulch bands where cutworms concentrate
+    after irrigation.
+  organic_sprays: Bt sprays in evening cover foliage eaten overnight -- reapply after
+    rain. Spinosad is allowed in many organic systems for chewing larvae -- rotate
+    modes of action and protect pollinators by not spraying open flowers. Neem can
+    reduce feeding damage on some species but works slowly. Always confirm preharvest
+    intervals on food crops.
+natural_enemies:
+- Parasitic Wasps
+- Ground Beetles
+- Spiders
+affected_plants: []
+category: pest

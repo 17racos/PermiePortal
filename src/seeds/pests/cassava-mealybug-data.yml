@@ -1,63 +1,62 @@
----
-- name: Cassava Mealybug
-  slug: cassava-mealybug
-  picture: cassava_mealybug.webp
-  scientific_name: Phenacoccus manihoti
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, cassava mealybug may already be on
-    the plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - sticky-residue
-  - yellowing-leaves
-  - distorted-growth
-  - sooty-deposits
-  control_methods:
-    biological_controls: >-
-      Anagyrus lopezi and other encyrtid wasps parasitize cassava mealybug in classical programs
-      where they are established -- they are not a bottle every farm can order. Lady beetles,
-      lacewings, and syrphid larvae eat exposed crawlers when sprays do not kill them first.
-      Banker plants that host grain aphids can feed predators in greenhouses -- balance that
-      with virus risk. Torching hedgerows kills the wasps and keeps mealybugs.
-    preventive_methods: >-
-      Quarantine every new cutting in bright shade for two weeks; mealybugs ride nursery stock
-      like tourists with luggage. Monitor shoot tips after long transport -- first colonies sit
-      behind leaf sheaths. Reject material with ant chains farming mealybugs; ants block
-      parasitoids. Map fields that flared last season and walk those edges first each month.
-    cultural_practices: >-
-      Start from virus-indexed, clean planting material when programs exist. Intercrop with
-      species that shelter predators only if those plants do not harbor worse pests. Rogue
-      heavily infested stems early and bury or burn where allowed so crawlers do not walk down
-      the row. Avoid nitrogen dumps that push soft tips mealybugs love.
-    mechanical_physical: >-
-      Pressure-wash nursery stock before planting out -- you knock off adults and crawlers
-      before they touch soil. Prune tip infestations into soapy buckets; bag prunings. For small
-      plots, wipe stems with alcohol-soaked cloths between plants if virus is not a concern.
-    organic_sprays: >-
-      Horticultural oil or soap penetrates wax coats -- repeat twice weekly until crawler waves
-      slow. Neem suppresses feeding if coverage is thorough on both sides of leaves. Rotate oil
-      and soap so you do not select wax-heavy survivors. Spray in cool mornings to reduce
-      phytotoxicity on tender shoots.
-  natural_enemies:
-  - Anagyrus lopezi
-  - Lady Beetles
-  - Lacewings
-  affected_plants:
-  - slug: candle-nut-tree
-    name: Candle Nut Tree
-  - slug: cassava
-    name: Cassava
-  - slug: chaya
-    name: Chaya
-  - slug: pineland-croton
-    name: Pineland Croton
-  - slug: sweet-cassava-variants
-    name: Sweet Cassava variants
-  - slug: tree-spinach
-    name: Tree Spinach
+name: Cassava Mealybug
+slug: cassava-mealybug
+picture: cassava_mealybug.webp
+scientific_name: Phenacoccus manihoti
+description: If new growth is curling, yellowing, sticky, or chewed, cassava mealybug
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- sticky-residue
+- yellowing-leaves
+- distorted-growth
+- sooty-deposits
+control_methods:
+  biological_controls: Anagyrus lopezi and other encyrtid wasps parasitize cassava
+    mealybug in classical programs where they are established -- they are not a bottle
+    every farm can order. Lady beetles, lacewings, and syrphid larvae eat exposed
+    crawlers when sprays do not kill them first. Banker plants that host grain aphids
+    can feed predators in greenhouses -- balance that with virus risk. Torching hedgerows
+    kills the wasps and keeps mealybugs.
+  preventive_methods: Quarantine every new cutting in bright shade for two weeks;
+    mealybugs ride nursery stock like tourists with luggage. Monitor shoot tips after
+    long transport -- first colonies sit behind leaf sheaths. Reject material with
+    ant chains farming mealybugs; ants block parasitoids. Map fields that flared last
+    season and walk those edges first each month.
+  cultural_practices: Start from virus-indexed, clean planting material when programs
+    exist. Intercrop with species that shelter predators only if those plants do not
+    harbor worse pests. Rogue heavily infested stems early and bury or burn where
+    allowed so crawlers do not walk down the row. Avoid nitrogen dumps that push soft
+    tips mealybugs love.
+  mechanical_physical: Pressure-wash nursery stock before planting out -- you knock
+    off adults and crawlers before they touch soil. Prune tip infestations into soapy
+    buckets; bag prunings. For small plots, wipe stems with alcohol-soaked cloths
+    between plants if virus is not a concern.
+  organic_sprays: Horticultural oil or soap penetrates wax coats -- repeat twice weekly
+    until crawler waves slow. Neem suppresses feeding if coverage is thorough on both
+    sides of leaves. Rotate oil and soap so you do not select wax-heavy survivors.
+    Spray in cool mornings to reduce phytotoxicity on tender shoots.
+natural_enemies:
+- Anagyrus lopezi
+- Lady Beetles
+- Lacewings
+affected_plants:
+- slug: candle-nut-tree
+  name: Candle Nut Tree
+- slug: cassava
+  name: Cassava
+- slug: chaya
+  name: Chaya
+- slug: pineland-croton
+  name: Pineland Croton
+- slug: sweet-cassava-variants
+  name: Sweet Cassava variants
+- slug: tree-spinach
+  name: Tree Spinach
+category: pest

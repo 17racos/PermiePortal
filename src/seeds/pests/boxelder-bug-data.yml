@@ -1,75 +1,71 @@
----
-- name: Boxelder Bug
-  slug: boxelder-bug
-  picture: boxelder_bug.webp
-  scientific_name: Boisea trivittata
-  description: >-
-    If new growth is curling, yellowing, sticky, or chewed, boxelder bug may already be on the
-    plant. This pest often builds quietly, then damage appears all at once. Feeding stress
-    weakens growth, reduces yield, and opens the door to secondary disease. Early cleanup is
-    much easier than fighting a full population surge later.
-  characteristics: >-
-    Inspect the newest growth first: leaf undersides, flower buds, stem joints, and tender tips
-    where pests gather. Look for body shape, color, eggs, cast skins, honeydew, webbing, or
-    fresh puncture marks. A hand lens and a white paper tap test help reveal small life stages.
-    Matching visible pests with fresh plant damage confirms active infestation.
-  symptoms:
-  - fruit-damage
-  - wilting
-  - yellowing-leaves
-  - distorted-growth
-  control_methods:
-    biological_controls: >-
-      Birds, spiders, and ground beetles pick off boxelder bugs at the margins, but nothing
-      outdoors collapses a sun-warmed wall covered in thousands -- predators help steady
-      pressure on nymph clusters on seed-bearing maples, not miracle cures. Diverse yard habitat
-      supports generalists between flights. If you fog pyrethrin across siding weekly, you kill
-      spiders and still see bugs next Tuesday.
-    preventive_methods: >-
-      Plan caulking and screen repairs in late winter before warm spring sun pulls overwintering
-      adults to south-facing walls. Turn off bright porch lights during late-summer flight weeks
-      so you are not calling every bug in the county to the door. Explain clearly that boxelder
-      bugs do not eat houses for lumber -- management targets human comfort and stain prevention,
-      not saving the maple from certain doom.
-    cultural_practices: >-
-      Female boxelder trees produce seeds that feed nymphs -- replace with seedless cultivars near
-      patios if design allows. Rake samaras from decks and gutters so nymphs have less food next
-      spring. In orchards next to maples, pick fruit promptly and remove ground drops that add
-      congregation spots. Avoid stacking firewood against sunny siding where adults overwinter
-      in cracks.
-    mechanical_physical: >-
-      Vacuum or sweep adults and nymphs from walls into soapy water -- faster and safer than
-      fogging living rooms. Seal gaps around windows, vents, and utility penetrations with caulk
-      or fine mesh before late summer flights. Heat-treat or sun-dry stored patio cushions and
-      holiday decor that sat in sheds with bugs. Sticky tape on sills helps monitoring; it will
-      not clear a neighborhood.
-    organic_sprays: >-
-      Insecticidal soap or horticultural oil knocks down aggregations on siding and foundation
-      plantings when spray fully contacts insects -- repeat after rain. Food-grade diatomaceous
-      earth in dry cracks may abrade crawlers; wear a mask and follow label placement, never
-      broadcast into wind. Indoor sprays are rarely justified; vacuuming beats indoor chemistry
-      for people and pets.
-  affected_plants:
-  - slug: chalk-maple
-    name: Chalk Maple
-  - slug: florida-maple
-    name: Florida Maple
-  - slug: apple
-    name: Apple
-  - slug: longan
-    name: Longan
-  - slug: lychee
-    name: Lychee
-  - slug: soapberry
-    name: Soapberry
-  - slug: western-soapberry
-    name: Western Soapberry
-  - slug: wingleaf-soapberry
-    name: Wingleaf Soapberry
-  - slug: yellowhorn-tree
-    name: Yellowhorn Tree
-  natural_enemies:
-  - Orb-weaver Spiders
-  - Ground Beetles (Carabidae)
-  - Insectivorous Birds
-  - Assassin Bugs (Reduviidae)
+name: Boxelder Bug
+slug: boxelder-bug
+picture: boxelder_bug.webp
+scientific_name: Boisea trivittata
+description: If new growth is curling, yellowing, sticky, or chewed, boxelder bug
+  may already be on the plant. This pest often builds quietly, then damage appears
+  all at once. Feeding stress weakens growth, reduces yield, and opens the door to
+  secondary disease. Early cleanup is much easier than fighting a full population
+  surge later.
+characteristics: 'Inspect the newest growth first: leaf undersides, flower buds, stem
+  joints, and tender tips where pests gather. Look for body shape, color, eggs, cast
+  skins, honeydew, webbing, or fresh puncture marks. A hand lens and a white paper
+  tap test help reveal small life stages. Matching visible pests with fresh plant
+  damage confirms active infestation.'
+symptoms:
+- fruit-damage
+- wilting
+- yellowing-leaves
+- distorted-growth
+control_methods:
+  biological_controls: Birds, spiders, and ground beetles pick off boxelder bugs at
+    the margins, but nothing outdoors collapses a sun-warmed wall covered in thousands
+    -- predators help steady pressure on nymph clusters on seed-bearing maples, not
+    miracle cures. Diverse yard habitat supports generalists between flights. If you
+    fog pyrethrin across siding weekly, you kill spiders and still see bugs next Tuesday.
+  preventive_methods: Plan caulking and screen repairs in late winter before warm
+    spring sun pulls overwintering adults to south-facing walls. Turn off bright porch
+    lights during late-summer flight weeks so you are not calling every bug in the
+    county to the door. Explain clearly that boxelder bugs do not eat houses for lumber
+    -- management targets human comfort and stain prevention, not saving the maple
+    from certain doom.
+  cultural_practices: Female boxelder trees produce seeds that feed nymphs -- replace
+    with seedless cultivars near patios if design allows. Rake samaras from decks
+    and gutters so nymphs have less food next spring. In orchards next to maples,
+    pick fruit promptly and remove ground drops that add congregation spots. Avoid
+    stacking firewood against sunny siding where adults overwinter in cracks.
+  mechanical_physical: Vacuum or sweep adults and nymphs from walls into soapy water
+    -- faster and safer than fogging living rooms. Seal gaps around windows, vents,
+    and utility penetrations with caulk or fine mesh before late summer flights. Heat-treat
+    or sun-dry stored patio cushions and holiday decor that sat in sheds with bugs.
+    Sticky tape on sills helps monitoring; it will not clear a neighborhood.
+  organic_sprays: Insecticidal soap or horticultural oil knocks down aggregations
+    on siding and foundation plantings when spray fully contacts insects -- repeat
+    after rain. Food-grade diatomaceous earth in dry cracks may abrade crawlers; wear
+    a mask and follow label placement, never broadcast into wind. Indoor sprays are
+    rarely justified; vacuuming beats indoor chemistry for people and pets.
+affected_plants:
+- slug: chalk-maple
+  name: Chalk Maple
+- slug: florida-maple
+  name: Florida Maple
+- slug: apple
+  name: Apple
+- slug: longan
+  name: Longan
+- slug: lychee
+  name: Lychee
+- slug: soapberry
+  name: Soapberry
+- slug: western-soapberry
+  name: Western Soapberry
+- slug: wingleaf-soapberry
+  name: Wingleaf Soapberry
+- slug: yellowhorn-tree
+  name: Yellowhorn Tree
+natural_enemies:
+- Orb-weaver Spiders
+- Ground Beetles (Carabidae)
+- Insectivorous Birds
+- Assassin Bugs (Reduviidae)
+category: pest

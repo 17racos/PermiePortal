@@ -1,122 +1,118 @@
----
-- name: Palm Weevil
-  slug: palm-weevil
-  picture: palm_weevil.webp
-  scientific_name: Rhynchophorus palmarum
-  description: >-
-    If plants are wilting, notching at the edges, or fruit and roots show hidden feeding damage,
-    palm weevil may be the cause. Adults chew above ground while larvae often feed out of sight
-    inside soil, stems, or fruit. Damage builds quietly, then plants crash fast when roots are
-    heavily hit. Act early so a small weevil problem does not become a season-long infestation.
-  characteristics: >-
-    Look for small beetles with a hard body and a distinct snout, usually active at dawn, dusk,
-    or night. Check for crescent-shaped leaf notches, punctures in fruit, or tiny entry holes
-    near stems. In soil or damaged tissue, larvae are often pale, legless, and curved in a
-    C-shape. Fresh chew marks plus snout beetles or C-shaped grubs confirm active weevil
-    pressure.
-  symptoms:
-  - chewed-stems
-  - stem-damage
-  - fruit-damage
-  - holes-in-leaves
-  - root-damage
-  - die-back
-  control_methods:
-    biological_controls: >-
-      Steinernema and Heterorhabditis nematodes swim into wet galleries and infect larvae if
-      temperature and humidity stay in range -- they fail in dry crowns. Beauveria bassiana and
-      similar fungi need moisture on insect bodies to germinate and kill. Woodpeckers excavate
-      larvae when tissue is still firm; ants harass dying adults on the ground. Nematodes and
-      fungi are precision tools applied after sanitation exposes galleries, not instead of removing
-      hopelessly mined palms.
-    preventive_methods: >-
-      Rhynchophorus palmarum adults locate palms by scent of fermentation and fresh wounds --
-      never move untreated chipped debris or stumps from known outbreak zones. Inspect imported
-      palms for holes, odd sawdust, and soft hearts before they leave the truck. Maintain potassium
-      nutrition on sandy soils; potassium-starved palms flag stress before leaves fully yellow.
-      Report regulatory suspects promptly where programs exist; early detection beats heroic late
-      sprays. Teach crews to sterilize tools between blocks so diseases and egg layers do not share
-      a dirty saw.
-    cultural_practices: >-
-      Sterilize pruning blades between trees; avoid cosmetic crown haircuts during peak adult
-      flight unless you can protect cuts immediately. Remove and chip infested palms before adults
-      bore out; delay turns one tree into a neighborhood emitter. In greenhouse culture, isolate
-      new palms for a quarantine window and scout crowns with a bright light. Pheromone plus
-      kairomone bucket traps help monitoring and can lower male counts when deployed as grids, not
-      single ornaments near doors.
-    mechanical_physical: >-
-      Approved trap spikes or gallery probes destroy reachable larvae when laws and safety allow --
-      training matters around power tools near collapsing crowns. Screen greenhouse palms with
-      fine mesh on vents and doors during flight peaks; outdoor mature groves rely on sanitation.
-      For short ornamental palms, hand-remove adults at night with gloves; they play dead, then
-      fly. Combine physical removal with moisture management so fungi or nematodes you apply next
-      actually survive.
-    organic_sprays: >-
-      Neem and Beauveria bassiana directed into crown axils and fresh wounds target adults and
-      young larvae on contact -- repeat during rainy periods when adults move and spores stay wet.
-      No organic spray rebuilds a heart fully eaten by larvae; sprays buy time on partial
-      infestations only. Follow label rates for palm height and worker safety. Rotate biological
-      products as labels allow; overuse without debris removal selects for survivors. If the crown
-      pulls out by hand, stop spraying and remove the palm.
-  natural_enemies:
-  - Woodpeckers
-  - Ants
-  - Entomopathogenic Nematodes
-  - Entomopathogenic Fungi
-  affected_plants:
-  - slug: açaí-palm
-    name: Açaí Palm
-  - slug: aguaje-palm
-    name: Aguaje Palm
-  - slug: bactris-gasipaes
-    name: Bactris Gasipaes
-  - slug: bismarck-palm
-    name: Bismarck Palm
-  - slug: blue-palmetto
-    name: Blue Palmetto
-  - slug: buriti-palm
-    name: Buriti Palm
-  - slug: butia-palm
-    name: Butia Palm
-  - slug: cabbage-palm
-    name: Cabbage Palm
-  - slug: chinese-fan-palm
-    name: Chinese Fan Palm
-  - slug: coconut-palm
-    name: Coconut Palm
-  - slug: coconut-tree
-    name: Coconut Tree
-  - slug: dwarf-palmetto
-    name: Dwarf Palmetto
-  - slug: florida-thatch-palm
-    name: Florida Thatch Palm
-  - slug: jelly-palm
-    name: Jelly Palm
-  - slug: jucara-palm
-    name: Jucara Palm
-  - slug: key-thatch-palm
-    name: Key Thatch Palm
-  - slug: needle-palm
-    name: Needle Palm
-  - slug: nipa-palm
-    name: Nipa Palm
-  - slug: palmetto-palm
-    name: Palmetto Palm
-  - slug: peach-palm
-    name: Peach Palm
-  - slug: pindo-palm
-    name: Pindo Palm
-  - slug: ribbon-palm
-    name: Ribbon Palm
-  - slug: royal-palm
-    name: Royal Palm
-  - slug: sabal-palm
-    name: Sabal Palm
-  - slug: saw-palmetto
-    name: Saw Palmetto
-  - slug: scrub-palmetto
-    name: Scrub Palmetto
-  - slug: tucumã-palm
-    name: Tucumã Palm
-  - slug: windmill-palm
-    name: Windmill Palm
+name: Palm Weevil
+slug: palm-weevil
+picture: palm_weevil.webp
+scientific_name: Rhynchophorus palmarum
+description: If plants are wilting, notching at the edges, or fruit and roots show
+  hidden feeding damage, palm weevil may be the cause. Adults chew above ground while
+  larvae often feed out of sight inside soil, stems, or fruit. Damage builds quietly,
+  then plants crash fast when roots are heavily hit. Act early so a small weevil problem
+  does not become a season-long infestation.
+characteristics: Look for small beetles with a hard body and a distinct snout, usually
+  active at dawn, dusk, or night. Check for crescent-shaped leaf notches, punctures
+  in fruit, or tiny entry holes near stems. In soil or damaged tissue, larvae are
+  often pale, legless, and curved in a C-shape. Fresh chew marks plus snout beetles
+  or C-shaped grubs confirm active weevil pressure.
+symptoms:
+- chewed-stems
+- stem-damage
+- fruit-damage
+- holes-in-leaves
+- root-damage
+- die-back
+control_methods:
+  biological_controls: Steinernema and Heterorhabditis nematodes swim into wet galleries
+    and infect larvae if temperature and humidity stay in range -- they fail in dry
+    crowns. Beauveria bassiana and similar fungi need moisture on insect bodies to
+    germinate and kill. Woodpeckers excavate larvae when tissue is still firm; ants
+    harass dying adults on the ground. Nematodes and fungi are precision tools applied
+    after sanitation exposes galleries, not instead of removing hopelessly mined palms.
+  preventive_methods: Rhynchophorus palmarum adults locate palms by scent of fermentation
+    and fresh wounds -- never move untreated chipped debris or stumps from known outbreak
+    zones. Inspect imported palms for holes, odd sawdust, and soft hearts before they
+    leave the truck. Maintain potassium nutrition on sandy soils; potassium-starved
+    palms flag stress before leaves fully yellow. Report regulatory suspects promptly
+    where programs exist; early detection beats heroic late sprays. Teach crews to
+    sterilize tools between blocks so diseases and egg layers do not share a dirty
+    saw.
+  cultural_practices: Sterilize pruning blades between trees; avoid cosmetic crown
+    haircuts during peak adult flight unless you can protect cuts immediately. Remove
+    and chip infested palms before adults bore out; delay turns one tree into a neighborhood
+    emitter. In greenhouse culture, isolate new palms for a quarantine window and
+    scout crowns with a bright light. Pheromone plus kairomone bucket traps help monitoring
+    and can lower male counts when deployed as grids, not single ornaments near doors.
+  mechanical_physical: Approved trap spikes or gallery probes destroy reachable larvae
+    when laws and safety allow -- training matters around power tools near collapsing
+    crowns. Screen greenhouse palms with fine mesh on vents and doors during flight
+    peaks; outdoor mature groves rely on sanitation. For short ornamental palms, hand-remove
+    adults at night with gloves; they play dead, then fly. Combine physical removal
+    with moisture management so fungi or nematodes you apply next actually survive.
+  organic_sprays: Neem and Beauveria bassiana directed into crown axils and fresh
+    wounds target adults and young larvae on contact -- repeat during rainy periods
+    when adults move and spores stay wet. No organic spray rebuilds a heart fully
+    eaten by larvae; sprays buy time on partial infestations only. Follow label rates
+    for palm height and worker safety. Rotate biological products as labels allow;
+    overuse without debris removal selects for survivors. If the crown pulls out by
+    hand, stop spraying and remove the palm.
+natural_enemies:
+- Woodpeckers
+- Ants
+- Entomopathogenic Nematodes
+- Entomopathogenic Fungi
+affected_plants:
+- slug: açaí-palm
+  name: Açaí Palm
+- slug: aguaje-palm
+  name: Aguaje Palm
+- slug: bactris-gasipaes
+  name: Bactris Gasipaes
+- slug: bismarck-palm
+  name: Bismarck Palm
+- slug: blue-palmetto
+  name: Blue Palmetto
+- slug: buriti-palm
+  name: Buriti Palm
+- slug: butia-palm
+  name: Butia Palm
+- slug: cabbage-palm
+  name: Cabbage Palm
+- slug: chinese-fan-palm
+  name: Chinese Fan Palm
+- slug: coconut-palm
+  name: Coconut Palm
+- slug: coconut-tree
+  name: Coconut Tree
+- slug: dwarf-palmetto
+  name: Dwarf Palmetto
+- slug: florida-thatch-palm
+  name: Florida Thatch Palm
+- slug: jelly-palm
+  name: Jelly Palm
+- slug: jucara-palm
+  name: Jucara Palm
+- slug: key-thatch-palm
+  name: Key Thatch Palm
+- slug: needle-palm
+  name: Needle Palm
+- slug: nipa-palm
+  name: Nipa Palm
+- slug: palmetto-palm
+  name: Palmetto Palm
+- slug: peach-palm
+  name: Peach Palm
+- slug: pindo-palm
+  name: Pindo Palm
+- slug: ribbon-palm
+  name: Ribbon Palm
+- slug: royal-palm
+  name: Royal Palm
+- slug: sabal-palm
+  name: Sabal Palm
+- slug: saw-palmetto
+  name: Saw Palmetto
+- slug: scrub-palmetto
+  name: Scrub Palmetto
+- slug: tucumã-palm
+  name: Tucumã Palm
+- slug: windmill-palm
+  name: Windmill Palm
+category: pest

@@ -1,91 +1,78 @@
----
-- name: Slugs
-  slug: slugs
-  picture: slugs.webp
-  scientific_name: Gastropoda
-  description: >-
-    If seedlings disappear overnight, leaves have ragged irregular holes with no
-    insect in sight, and there is a silvery slime trail on soil or leaves in the
-    morning — slugs were there. They feed at night and hide during the day under
-    debris, boards, dense mulch, and soil cracks. Slugs are essentially snails
-    without shells, which means they dry out faster and are more dependent on
-    moisture and cover. A wet spring or summer night followed by missing seedlings
-    is the classic scenario. They can completely destroy a seedling in one night
-    and will return to the same plants repeatedly until stopped.
-  characteristics: >-
-    Look for silvery dried slime trails on soil, pots, and lower leaves — this
-    is the most reliable sign. Holes in leaves are ragged and irregular, not
-    the clean cuts of caterpillars or the skeletonizing of beetles. Check under
-    boards, dense mulch, low-lying leaves, and pot rims during the day — slugs
-    cluster in cool damp hiding spots. Go out with a flashlight an hour after
-    dark and you will find them actively feeding. Eggs are small, round, pearl-like
-    clusters laid in soil under debris. Young slugs are translucent and tiny —
-    easy to miss until populations build.
-  symptoms:
-  - slime-trails
-  - holes-in-leaves
-  - chewed-stems
-  - fruit-damage
-  control_methods:
-    biological_controls: >-
-      If you have a slug problem, the real answer is you have a duck problem —
-      ducks are the most effective slug control available and will clear a garden
-      of slugs faster than any other method. Khaki Campbell and Indian Runner
-      ducks are particularly efficient. Ground beetles are the most important
-      insect predator of slugs and their eggs — permanent mulch paths and
-      undisturbed soil edges support ground beetle populations year-round.
-      Frogs and toads eat slugs actively — a garden pond or water feature
-      attracts them permanently. Hedgehogs where present are voracious slug
-      predators. Nematodes (Phasmarhabditis hermaphrodita) specifically
-      parasitize slugs and are available commercially — apply to moist soil
-      when temperatures are above 40F (5C) for 2-3 week suppression.
-    preventive_methods: >-
-      Slugs need moisture and cover — remove both and populations collapse.
-      Water in the morning so soil surface dries before evening when slugs
-      feed. Remove boards, debris, and dense low ground cover near vulnerable
-      plants. Slugs hide under anything on the ground — a piece of cardboard
-      left overnight becomes a slug trap you can collect and destroy in the
-      morning. Seedlings are highest risk — larger established plants tolerate
-      slug feeding much better. Start seeds indoors and transplant larger
-      starts rather than direct seeding into slug-prone beds. Copper reacts
-      with slug mucus and causes a mild electric-like deterrent — copper
-      tape around pots and raised bed edges works for container plants.
-    cultural_practices: >-
-      Rough, dry mulches like straw and wood chips are less hospitable than
-      fine wet mulches. A dry soil surface strip around the perimeter of beds
-      creates a barrier slugs are reluctant to cross. Avoid evening irrigation
-      which creates ideal slug feeding conditions. Hand-pick at night with a
-      flashlight — drop into soapy water or salt. Set out boards or wet
-      cardboard as traps during the day and collect slugs underneath each
-      morning. Beer traps (shallow containers sunk to soil level filled with
-      cheap beer) attract and drown slugs effectively — empty and refill every
-      2-3 days. Garlic and chives planted at bed edges have some deterrent
-      effect on slugs specifically.
-    mechanical_physical: >-
-      Hand-picking at night is the fastest population reduction method —
-      go out an hour after dark with a flashlight and salt shaker or bucket
-      of soapy water. A single night of picking can dramatically reduce
-      pressure. Copper tape barriers around individual pots and raised beds
-      work well for container gardens. Coarse materials slugs dislike crossing
-      — sharp sand, crushed eggshells, diatomaceous earth — applied as a
-      dry band around vulnerable plants create physical barriers that must
-      be reapplied after rain. Beer traps are highly effective: slugs are
-      attracted from several feet away, fall in, and drown.
-    organic_sprays: >-
-      Diatomaceous earth (food grade) applied as a dry band around plants
-      damages slug bodies through microscopic sharp edges — must be reapplied
-      after every rain or irrigation as it loses effectiveness when wet.
-      Iron phosphate baits (Sluggo, Escar-Go) are the safest and most
-      effective organic slug bait — iron phosphate breaks down into iron
-      and phosphate fertilizer, is safe around pets and wildlife, and slugs
-      die underground after consuming it. Scatter lightly around plants
-      rather than piling. Avoid metaldehyde baits which are toxic to pets,
-      wildlife, and beneficial invertebrates. Salt kills slugs on contact
-      but damages soil — use sparingly and not near plant roots.
-  natural_enemies:
-  - Ducks
-  - Ground Beetles
-  - Frogs
-  - Toads
-  - Hedgehogs
-  - Nematodes
+name: Slugs
+slug: slugs
+picture: slugs.webp
+scientific_name: Gastropoda
+description: If seedlings disappear overnight, leaves have ragged irregular holes
+  with no insect in sight, and there is a silvery slime trail on soil or leaves in
+  the morning — slugs were there. They feed at night and hide during the day under
+  debris, boards, dense mulch, and soil cracks. Slugs are essentially snails without
+  shells, which means they dry out faster and are more dependent on moisture and cover.
+  A wet spring or summer night followed by missing seedlings is the classic scenario.
+  They can completely destroy a seedling in one night and will return to the same
+  plants repeatedly until stopped.
+characteristics: Look for silvery dried slime trails on soil, pots, and lower leaves
+  — this is the most reliable sign. Holes in leaves are ragged and irregular, not
+  the clean cuts of caterpillars or the skeletonizing of beetles. Check under boards,
+  dense mulch, low-lying leaves, and pot rims during the day — slugs cluster in cool
+  damp hiding spots. Go out with a flashlight an hour after dark and you will find
+  them actively feeding. Eggs are small, round, pearl-like clusters laid in soil under
+  debris. Young slugs are translucent and tiny — easy to miss until populations build.
+symptoms:
+- slime-trails
+- holes-in-leaves
+- chewed-stems
+- fruit-damage
+control_methods:
+  biological_controls: If you have a slug problem, the real answer is you have a duck
+    problem — ducks are the most effective slug control available and will clear a
+    garden of slugs faster than any other method. Khaki Campbell and Indian Runner
+    ducks are particularly efficient. Ground beetles are the most important insect
+    predator of slugs and their eggs — permanent mulch paths and undisturbed soil
+    edges support ground beetle populations year-round. Frogs and toads eat slugs
+    actively — a garden pond or water feature attracts them permanently. Hedgehogs
+    where present are voracious slug predators. Nematodes (Phasmarhabditis hermaphrodita)
+    specifically parasitize slugs and are available commercially — apply to moist
+    soil when temperatures are above 40F (5C) for 2-3 week suppression.
+  preventive_methods: Slugs need moisture and cover — remove both and populations
+    collapse. Water in the morning so soil surface dries before evening when slugs
+    feed. Remove boards, debris, and dense low ground cover near vulnerable plants.
+    Slugs hide under anything on the ground — a piece of cardboard left overnight
+    becomes a slug trap you can collect and destroy in the morning. Seedlings are
+    highest risk — larger established plants tolerate slug feeding much better. Start
+    seeds indoors and transplant larger starts rather than direct seeding into slug-prone
+    beds. Copper reacts with slug mucus and causes a mild electric-like deterrent
+    — copper tape around pots and raised bed edges works for container plants.
+  cultural_practices: Rough, dry mulches like straw and wood chips are less hospitable
+    than fine wet mulches. A dry soil surface strip around the perimeter of beds creates
+    a barrier slugs are reluctant to cross. Avoid evening irrigation which creates
+    ideal slug feeding conditions. Hand-pick at night with a flashlight — drop into
+    soapy water or salt. Set out boards or wet cardboard as traps during the day and
+    collect slugs underneath each morning. Beer traps (shallow containers sunk to
+    soil level filled with cheap beer) attract and drown slugs effectively — empty
+    and refill every 2-3 days. Garlic and chives planted at bed edges have some deterrent
+    effect on slugs specifically.
+  mechanical_physical: 'Hand-picking at night is the fastest population reduction
+    method — go out an hour after dark with a flashlight and salt shaker or bucket
+    of soapy water. A single night of picking can dramatically reduce pressure. Copper
+    tape barriers around individual pots and raised beds work well for container gardens.
+    Coarse materials slugs dislike crossing — sharp sand, crushed eggshells, diatomaceous
+    earth — applied as a dry band around vulnerable plants create physical barriers
+    that must be reapplied after rain. Beer traps are highly effective: slugs are
+    attracted from several feet away, fall in, and drown.'
+  organic_sprays: Diatomaceous earth (food grade) applied as a dry band around plants
+    damages slug bodies through microscopic sharp edges — must be reapplied after
+    every rain or irrigation as it loses effectiveness when wet. Iron phosphate baits
+    (Sluggo, Escar-Go) are the safest and most effective organic slug bait — iron
+    phosphate breaks down into iron and phosphate fertilizer, is safe around pets
+    and wildlife, and slugs die underground after consuming it. Scatter lightly around
+    plants rather than piling. Avoid metaldehyde baits which are toxic to pets, wildlife,
+    and beneficial invertebrates. Salt kills slugs on contact but damages soil — use
+    sparingly and not near plant roots.
+natural_enemies:
+- Ducks
+- Ground Beetles
+- Frogs
+- Toads
+- Hedgehogs
+- Nematodes
+category: pest

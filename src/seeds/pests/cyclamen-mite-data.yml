@@ -1,223 +1,218 @@
----
-- name: Cyclamen Mite
-  slug: cyclamen-mite
-  picture: cyclamen_mite.webp
-  scientific_name: Steneotarsonemus pallidus
-  description: >-
-    If leaves look dusty, speckled, bronzed, or curled without obvious chewing, cyclamen mite is
-    a likely suspect. Mites are tiny but can multiply fast, especially during heat and dry air.
-    Plants lose vigor as feeding drains cell contents from leaves and tender growth. Early
-    action matters, because heavy infestations can spread through a bed in days.
-  characteristics: >-
-    Use a hand lens and check leaf undersides first, especially near veins and new growth. Look
-    for pinprick stippling, fine webbing in some species, and tiny moving dots that range from
-    pale to red or brown. Tap a leaf over white paper; moving specks suggest active mites.
-    Stippled leaves plus mites or eggs clustered under foliage confirms the diagnosis.
-  symptoms:
-  - yellowing-leaves
-  - webbing
-  - silvery-streaking
-  - brown-edges
-  control_methods:
-    biological_controls: >-
-      Amblyseius californicus and Neoseiulus cucumeris predatory mites attack cyclamen
-      mites in enclosed production environments -- release preventively before damage
-      peaks for best results. These are available commercially and establish well when
-      introduced early with adequate humidity above 60%. For outdoor plants, conserve
-      generalist predators by avoiding unnecessary broad-spectrum sprays. Cyclamen mites
-      are extremely small -- 1/100 inch -- and live deep in plant tissue where most
-      predators cannot reach them effectively.
-    preventive_methods: >-
-      Cyclamen mites cause distinctive distorted, stunted, and thickened new growth -- 
-      leaves curl downward and inward, new shoots are twisted and misshapen. Unlike
-      spider mites, there is no webbing. The damage looks like herbicide injury or
-      viral disease. Use a strong hand lens to confirm -- cyclamen mites are almost
-      invisible to the naked eye and cluster in protected growing points. Buy only
-      certified mite-free strawberry crowns and ornamental transplants. Work from
-      clean to dirty blocks in the greenhouse -- cyclamen mites transfer easily on
-      hands, tools, and clothing.
-    cultural_practices: >-
-      Hot water treatment of strawberry crowns at 111F (44C) for 30 minutes kills
-      cyclamen mites without damaging crowns -- standard practice in commercial
-      strawberry production for clean stock. Discard severely infested plants rather
-      than treating -- heavily infested plants spread mites faster than treatment
-      can control them. Isolate infested benches immediately. Dip pruners and tools
-      in 70% isopropyl alcohol between plants and varieties. Lower temperature extremes
-      in greenhouses reduce cyclamen mite reproduction rates.
-    mechanical_physical: >-
-      Isolate infested plant batches immediately -- cyclamen mites transfer on hands,
-      tools, clothing, and air movement in greenhouses. Avoid working wet plants where
-      mites stick to tools and spread easily. Remove and destroy severely infested
-      growing tips to reduce mite populations and sources of spread.
-    organic_sprays: >-
-      Sulfur dust or spray applied early at first sign of distortion suppresses cyclamen
-      mite populations -- apply every 5-7 days and cover growing points thoroughly
-      where mites concentrate. Horticultural oil smothers mites on accessible plant
-      surfaces. Insecticidal soap on ornamentals where labeled -- strawberries require
-      label caution on timing relative to harvest. Repeat applications are essential
-      because eggs are protected deep in plant tissue and hatch continuously.
-  natural_enemies:
-  - Neoseiulus cucumeris
-  - Amblyseius californicus
-  - Minute Pirate Bugs
-  affected_plants:
-  - slug: agrimony
-    name: Agrimony
-  - slug: allegheny-serviceberry
-    name: Allegheny Serviceberry
-  - slug: almond-tree
-    name: Almond Tree
-  - slug: american-beauty-plum
-    name: American Beauty Plum
-  - slug: american-hawthorn
-    name: American Hawthorn
-  - slug: american-plum
-    name: American Plum
-  - slug: apple
-    name: Apple
-  - slug: aronia
-    name: Aronia
-  - slug: beach-strawberry
-    name: Beach Strawberry
-  - slug: bearberry-cotoneaster
-    name: Bearberry Cotoneaster
-  - slug: black-chokeberry
-    name: Black Chokeberry
-  - slug: buffalo-plum
-    name: Buffalo Plum
-  - slug: carolina-rose
-    name: Carolina Rose
-  - slug: chickasaw-blackberry
-    name: Chickasaw Blackberry
-  - slug: chickasaw-plum
-    name: Chickasaw Plum
-  - slug: chokeberry
-    name: Chokeberry
-  - slug: climbing-prairie-rose
-    name: Climbing Prairie Rose
-  - slug: cloudberry
-    name: Cloudberry
-  - slug: cockspur-hawthorn
-    name: Cockspur Hawthorn
-  - slug: creeping-raspberry
-    name: Creeping Raspberry
-  - slug: dewberry
-    name: Dewberry
-  - slug: dotted-hawthorn
-    name: Dotted Hawthorn
-  - slug: downy-serviceberry
-    name: Downy Serviceberry
-  - slug: flatwoods-plum
-    name: Flatwoods Plum
-  - slug: frosted-hawthorn
-    name: Frosted Hawthorn
-  - slug: green-hawthorn
-    name: Green Hawthorn
-  - slug: green-apple-tree
-    name: Green Apple Tree
-  - slug: hedge-cotoneaster
-    name: Hedge Cotoneaster
-  - slug: hortulan-plum
-    name: Hortulan Plum
-  - slug: loquat
-    name: Loquat
-  - slug: many-flowered-cotoneaster
-    name: Many Flowered Cotoneaster
-  - slug: mayhaw
-    name: Mayhaw
-  - slug: meadowsweet
-    name: Meadowsweet
-  - slug: munson-plum
-    name: Munson Plum
-  - slug: nectarine-tree
-    name: Nectarine Tree
-  - slug: parsley-hawthorn
-    name: Parsley Hawthorn
-  - slug: pasture-rose
-    name: Pasture Rose
-  - slug: pear-hawthorn
-    name: Pear Hawthorn
-  - slug: pear-tree
-    name: Pear Tree
-  - slug: pineapple-pear
-    name: Pineapple Pear
-  - slug: prairie-crabapple
-    name: Prairie Crabapple
-  - slug: purple-chokeberry
-    name: Purple Chokeberry
-  - slug: raspberry
-    name: Raspberry
-  - slug: red-chokeberry
-    name: Red Chokeberry
-  - slug: red-apple-tree
-    name: Red Apple Tree
-  - slug: rock-cotoneaster
-    name: Rock Cotoneaster
-  - slug: roundleaf-serviceberry
-    name: Roundleaf Serviceberry
-  - slug: running-serviceberry
-    name: Running Serviceberry
-  - slug: sand-blackberry
-    name: Sand Blackberry
-  - slug: sand-cherry
-    name: Sand Cherry
-  - slug: saskatoon-berry
-    name: Saskatoon Berry
-  - slug: serviceberry
-    name: Serviceberry
-  - slug: silverleaf-cotoneaster
-    name: Silverleaf Cotoneaster
-  - slug: smooth-serviceberry
-    name: Smooth Serviceberry
-  - slug: southern-crabapple
-    name: Southern Crabapple
-  - slug: southern-dewberry
-    name: Southern Dewberry
-  - slug: southern-hawthorn
-    name: Southern Hawthorn
-  - slug: strawberry
-    name: Strawberry
-  - slug: swamp-rose
-    name: Swamp Rose
-  - slug: sweet-crabapple
-    name: Sweet Crabapple
-  - slug: virginia-rose
-    name: Virginia Rose
-  - slug: wild-crabapple
-    name: Wild Crabapple
-  - slug: wild-plum
-    name: Wild Plum
-  - slug: angels-trumpet
-    name: Angel's Trumpet
-  - slug: ashwagandha
-    name: Ashwagandha
-  - slug: buffalo-bur
-    name: Buffalo Bur
-  - slug: chiltepin-pepper
-    name: Chiltepin Pepper
-  - slug: chiltepin-pepper-tree
-    name: Chiltepin Pepper Tree
-  - slug: chinese-lantern
-    name: Chinese Lantern
-  - slug: coastal-groundcherry
-    name: Coastal Groundcherry
-  - slug: devils-trumpet
-    name: Devil's Trumpet
-  - slug: garden-huckleberry
-    name: Garden Huckleberry
-  - slug: goji-berry
-    name: Goji Berry
-  - slug: ground-cherry
-    name: Ground Cherry
-  - slug: horse-nettle
-    name: Horse Nettle
-  - slug: pepino-melon
-    name: Pepino Melon
-  - slug: potato
-    name: Potato
-  - slug: scarlet-eggplant
-    name: Scarlet Eggplant
-  - slug: wild-eggplant
-    name: Wild Eggplant
-  - slug: wonderberry
-    name: Wonderberry
+name: Cyclamen Mite
+slug: cyclamen-mite
+picture: cyclamen_mite.webp
+scientific_name: Steneotarsonemus pallidus
+description: If leaves look dusty, speckled, bronzed, or curled without obvious chewing,
+  cyclamen mite is a likely suspect. Mites are tiny but can multiply fast, especially
+  during heat and dry air. Plants lose vigor as feeding drains cell contents from
+  leaves and tender growth. Early action matters, because heavy infestations can spread
+  through a bed in days.
+characteristics: Use a hand lens and check leaf undersides first, especially near
+  veins and new growth. Look for pinprick stippling, fine webbing in some species,
+  and tiny moving dots that range from pale to red or brown. Tap a leaf over white
+  paper; moving specks suggest active mites. Stippled leaves plus mites or eggs clustered
+  under foliage confirms the diagnosis.
+symptoms:
+- yellowing-leaves
+- webbing
+- silvery-streaking
+- brown-edges
+control_methods:
+  biological_controls: Amblyseius californicus and Neoseiulus cucumeris predatory
+    mites attack cyclamen mites in enclosed production environments -- release preventively
+    before damage peaks for best results. These are available commercially and establish
+    well when introduced early with adequate humidity above 60%. For outdoor plants,
+    conserve generalist predators by avoiding unnecessary broad-spectrum sprays. Cyclamen
+    mites are extremely small -- 1/100 inch -- and live deep in plant tissue where
+    most predators cannot reach them effectively.
+  preventive_methods: Cyclamen mites cause distinctive distorted, stunted, and thickened
+    new growth --  leaves curl downward and inward, new shoots are twisted and misshapen.
+    Unlike spider mites, there is no webbing. The damage looks like herbicide injury
+    or viral disease. Use a strong hand lens to confirm -- cyclamen mites are almost
+    invisible to the naked eye and cluster in protected growing points. Buy only certified
+    mite-free strawberry crowns and ornamental transplants. Work from clean to dirty
+    blocks in the greenhouse -- cyclamen mites transfer easily on hands, tools, and
+    clothing.
+  cultural_practices: Hot water treatment of strawberry crowns at 111F (44C) for 30
+    minutes kills cyclamen mites without damaging crowns -- standard practice in commercial
+    strawberry production for clean stock. Discard severely infested plants rather
+    than treating -- heavily infested plants spread mites faster than treatment can
+    control them. Isolate infested benches immediately. Dip pruners and tools in 70%
+    isopropyl alcohol between plants and varieties. Lower temperature extremes in
+    greenhouses reduce cyclamen mite reproduction rates.
+  mechanical_physical: Isolate infested plant batches immediately -- cyclamen mites
+    transfer on hands, tools, clothing, and air movement in greenhouses. Avoid working
+    wet plants where mites stick to tools and spread easily. Remove and destroy severely
+    infested growing tips to reduce mite populations and sources of spread.
+  organic_sprays: Sulfur dust or spray applied early at first sign of distortion suppresses
+    cyclamen mite populations -- apply every 5-7 days and cover growing points thoroughly
+    where mites concentrate. Horticultural oil smothers mites on accessible plant
+    surfaces. Insecticidal soap on ornamentals where labeled -- strawberries require
+    label caution on timing relative to harvest. Repeat applications are essential
+    because eggs are protected deep in plant tissue and hatch continuously.
+natural_enemies:
+- Neoseiulus cucumeris
+- Amblyseius californicus
+- Minute Pirate Bugs
+affected_plants:
+- slug: agrimony
+  name: Agrimony
+- slug: allegheny-serviceberry
+  name: Allegheny Serviceberry
+- slug: almond-tree
+  name: Almond Tree
+- slug: american-beauty-plum
+  name: American Beauty Plum
+- slug: american-hawthorn
+  name: American Hawthorn
+- slug: american-plum
+  name: American Plum
+- slug: apple
+  name: Apple
+- slug: aronia
+  name: Aronia
+- slug: beach-strawberry
+  name: Beach Strawberry
+- slug: bearberry-cotoneaster
+  name: Bearberry Cotoneaster
+- slug: black-chokeberry
+  name: Black Chokeberry
+- slug: buffalo-plum
+  name: Buffalo Plum
+- slug: carolina-rose
+  name: Carolina Rose
+- slug: chickasaw-blackberry
+  name: Chickasaw Blackberry
+- slug: chickasaw-plum
+  name: Chickasaw Plum
+- slug: chokeberry
+  name: Chokeberry
+- slug: climbing-prairie-rose
+  name: Climbing Prairie Rose
+- slug: cloudberry
+  name: Cloudberry
+- slug: cockspur-hawthorn
+  name: Cockspur Hawthorn
+- slug: creeping-raspberry
+  name: Creeping Raspberry
+- slug: dewberry
+  name: Dewberry
+- slug: dotted-hawthorn
+  name: Dotted Hawthorn
+- slug: downy-serviceberry
+  name: Downy Serviceberry
+- slug: flatwoods-plum
+  name: Flatwoods Plum
+- slug: frosted-hawthorn
+  name: Frosted Hawthorn
+- slug: green-hawthorn
+  name: Green Hawthorn
+- slug: green-apple-tree
+  name: Green Apple Tree
+- slug: hedge-cotoneaster
+  name: Hedge Cotoneaster
+- slug: hortulan-plum
+  name: Hortulan Plum
+- slug: loquat
+  name: Loquat
+- slug: many-flowered-cotoneaster
+  name: Many Flowered Cotoneaster
+- slug: mayhaw
+  name: Mayhaw
+- slug: meadowsweet
+  name: Meadowsweet
+- slug: munson-plum
+  name: Munson Plum
+- slug: nectarine-tree
+  name: Nectarine Tree
+- slug: parsley-hawthorn
+  name: Parsley Hawthorn
+- slug: pasture-rose
+  name: Pasture Rose
+- slug: pear-hawthorn
+  name: Pear Hawthorn
+- slug: pear-tree
+  name: Pear Tree
+- slug: pineapple-pear
+  name: Pineapple Pear
+- slug: prairie-crabapple
+  name: Prairie Crabapple
+- slug: purple-chokeberry
+  name: Purple Chokeberry
+- slug: raspberry
+  name: Raspberry
+- slug: red-chokeberry
+  name: Red Chokeberry
+- slug: red-apple-tree
+  name: Red Apple Tree
+- slug: rock-cotoneaster
+  name: Rock Cotoneaster
+- slug: roundleaf-serviceberry
+  name: Roundleaf Serviceberry
+- slug: running-serviceberry
+  name: Running Serviceberry
+- slug: sand-blackberry
+  name: Sand Blackberry
+- slug: sand-cherry
+  name: Sand Cherry
+- slug: saskatoon-berry
+  name: Saskatoon Berry
+- slug: serviceberry
+  name: Serviceberry
+- slug: silverleaf-cotoneaster
+  name: Silverleaf Cotoneaster
+- slug: smooth-serviceberry
+  name: Smooth Serviceberry
+- slug: southern-crabapple
+  name: Southern Crabapple
+- slug: southern-dewberry
+  name: Southern Dewberry
+- slug: southern-hawthorn
+  name: Southern Hawthorn
+- slug: strawberry
+  name: Strawberry
+- slug: swamp-rose
+  name: Swamp Rose
+- slug: sweet-crabapple
+  name: Sweet Crabapple
+- slug: virginia-rose
+  name: Virginia Rose
+- slug: wild-crabapple
+  name: Wild Crabapple
+- slug: wild-plum
+  name: Wild Plum
+- slug: angels-trumpet
+  name: Angel's Trumpet
+- slug: ashwagandha
+  name: Ashwagandha
+- slug: buffalo-bur
+  name: Buffalo Bur
+- slug: chiltepin-pepper
+  name: Chiltepin Pepper
+- slug: chiltepin-pepper-tree
+  name: Chiltepin Pepper Tree
+- slug: chinese-lantern
+  name: Chinese Lantern
+- slug: coastal-groundcherry
+  name: Coastal Groundcherry
+- slug: devils-trumpet
+  name: Devil's Trumpet
+- slug: garden-huckleberry
+  name: Garden Huckleberry
+- slug: goji-berry
+  name: Goji Berry
+- slug: ground-cherry
+  name: Ground Cherry
+- slug: horse-nettle
+  name: Horse Nettle
+- slug: pepino-melon
+  name: Pepino Melon
+- slug: potato
+  name: Potato
+- slug: scarlet-eggplant
+  name: Scarlet Eggplant
+- slug: wild-eggplant
+  name: Wild Eggplant
+- slug: wonderberry
+  name: Wonderberry
+category: pest

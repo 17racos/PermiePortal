@@ -1,103 +1,91 @@
----
-- name: Deer
-  slug: deer
-  picture: deer.webp
-  scientific_name: Odocoileus virginianus
-  description: >-
-    If plants are cleanly stripped of leaves and tender growth overnight with no
-    other signs of pest activity, deer were there. Unlike most pests, deer damage
-    is obvious and large scale — entire branches browsed, bark rubbed off small
-    trees, and young plants eaten to the ground. They are creatures of habit and
-    will return to the same garden every night once they discover a food source.
-    A single deer can destroy months of garden work in one visit. Bucks also rub
-    antlers on young tree trunks in fall, girdling and killing them. In suburban
-    and rural Florida, white-tailed deer are active year-round.
-  characteristics: >-
-    Look for clean diagonal cuts on stems — deer have no upper incisors so they
-    tear rather than cut cleanly, leaving a ragged edge on thicker stems but
-    clean browsing on soft growth. Hoof prints are heart-shaped, 2-3 inches long.
-    Droppings are small dark oval pellets in clusters. Bark damage on tree trunks
-    at 2-4 feet height with vertical scraping marks is antler rubbing. Deer
-    typically browse at the same height — 2 to 6 feet — stripping lower branches
-    uniformly. Check for damage at dawn when deer are most active and tracks
-    are fresh.
-  symptoms:
-  - chewed-stems
-  - bark-damage
-  - fruit-damage
-  - wilting
-  control_methods:
-    biological_controls: >-
-      No practical biological control exists for deer. Coyotes, bobcats, and
-      Florida panthers are natural predators but do not effectively protect
-      gardens. Planting deer-resistant species throughout the food forest
-      reduces overall attractiveness — deer have strong plant preferences and
-      will leave highly aromatic plants like lemongrass, rosemary, lavender,
-      and strongly scented herbs largely alone. A diverse food forest with
-      many species is less catastrophically damaged than a monoculture when
-      deer visit — they browse selectively and move on rather than destroying
-      everything. Over time, very dense plantings with thorny understory species
-      like hawthorn and rugosa rose create physical barriers deer navigate around.
-    preventive_methods: >-
-      Deer are neophobic — they are cautious about new objects and smells in
-      familiar territory. Frequently changing deterrents works better than
-      leaving the same one in place. They are most active at dawn, dusk, and
-      overnight. New plantings and tender growth in spring are highest risk.
-      Deer pressure increases in fall when natural food sources decline and
-      during drought when garden plants are among the few green things available.
-      Know your local deer patterns — the same animals use the same routes
-      nightly. Motion-activated lighting and sprinklers startle deer effectively
-      but they habituate within 1-2 weeks if nothing actually threatens them.
-    cultural_practices: >-
-      The only reliable long-term solution is physical exclusion — an 8-foot
-      fence or a double fence system. A single 6-foot fence is not reliable
-      as deer can jump it. A double fence of two 4-foot fences 3 feet apart
-      works because deer cannot simultaneously jump height and width. Thorny
-      hedges of hawthorn, rugosa rose, or trifoliate orange planted densely
-      create living fences that improve over time. For individual trees, wire
-      cages or spiral tree guards protect trunks from antler rubbing during
-      fall rut. Protect new transplants individually until established — mature
-      plants recover from deer browse, seedlings often do not.
-    mechanical_physical: >-
-      Physical barriers are the only mechanical control that reliably works.
-      Chicken wire or hardware cloth cages around individual plants and young
-      trees protect them until large enough to tolerate browse. T-posts with
-      deer netting (7-8 feet tall) around garden areas is effective when
-      installed correctly with no gaps. Motion-activated sprinklers (Scarecrow
-      type) provide short-term deterrence but require frequent repositioning
-      to maintain effectiveness as deer habituate. Fishing line strung at
-      2 and 4 feet height around beds confuses deer — they feel resistance
-      they cannot see and avoid the area. Inexpensive and surprisingly effective.
-    organic_sprays: >-
-      Deer repellent sprays based on putrescent egg solids (Liquid Fence,
-      Deer Out) are the most consistently effective chemical deterrents —
-      the smell mimics predator activity and triggers avoidance instinct.
-      Apply every 2-3 weeks and after rain, coating new growth thoroughly.
-      Rotate with other repellents every few weeks to prevent habituation.
-      Human hair in mesh bags, Irish Spring soap bars, and predator urine
-      have inconsistent results but cost nothing and are worth trying as
-      part of a rotation. No spray works reliably on its own — combine
-      with physical barriers for high-value plants. Reapplication is
-      non-negotiable — a single application wears off and deer return.
-  natural_enemies:
-  - Coyotes
-  - Bobcats
-  - Florida Panthers
-  - Black Bears
-  affected_plants:
-  - slug: moringa
-    name: Moringa
-  - slug: banana
-    name: Banana
-  - slug: mulberry
-    name: Mulberry
-  - slug: fig
-    name: Fig
-  - slug: blueberry
-    name: Blueberry
-  - slug: elderberry
-    name: Elderberry
-  - slug: sweet-potato
-    name: Sweet Potato
-  - slug: comfrey
-    name: Comfrey
+name: Deer
+slug: deer
+picture: deer.webp
+scientific_name: Odocoileus virginianus
+description: If plants are cleanly stripped of leaves and tender growth overnight
+  with no other signs of pest activity, deer were there. Unlike most pests, deer damage
+  is obvious and large scale — entire branches browsed, bark rubbed off small trees,
+  and young plants eaten to the ground. They are creatures of habit and will return
+  to the same garden every night once they discover a food source. A single deer can
+  destroy months of garden work in one visit. Bucks also rub antlers on young tree
+  trunks in fall, girdling and killing them. In suburban and rural Florida, white-tailed
+  deer are active year-round.
+characteristics: Look for clean diagonal cuts on stems — deer have no upper incisors
+  so they tear rather than cut cleanly, leaving a ragged edge on thicker stems but
+  clean browsing on soft growth. Hoof prints are heart-shaped, 2-3 inches long. Droppings
+  are small dark oval pellets in clusters. Bark damage on tree trunks at 2-4 feet
+  height with vertical scraping marks is antler rubbing. Deer typically browse at
+  the same height — 2 to 6 feet — stripping lower branches uniformly. Check for damage
+  at dawn when deer are most active and tracks are fresh.
+symptoms:
+- chewed-stems
+- bark-damage
+- fruit-damage
+- wilting
+control_methods:
+  biological_controls: No practical biological control exists for deer. Coyotes, bobcats,
+    and Florida panthers are natural predators but do not effectively protect gardens.
+    Planting deer-resistant species throughout the food forest reduces overall attractiveness
+    — deer have strong plant preferences and will leave highly aromatic plants like
+    lemongrass, rosemary, lavender, and strongly scented herbs largely alone. A diverse
+    food forest with many species is less catastrophically damaged than a monoculture
+    when deer visit — they browse selectively and move on rather than destroying everything.
+    Over time, very dense plantings with thorny understory species like hawthorn and
+    rugosa rose create physical barriers deer navigate around.
+  preventive_methods: Deer are neophobic — they are cautious about new objects and
+    smells in familiar territory. Frequently changing deterrents works better than
+    leaving the same one in place. They are most active at dawn, dusk, and overnight.
+    New plantings and tender growth in spring are highest risk. Deer pressure increases
+    in fall when natural food sources decline and during drought when garden plants
+    are among the few green things available. Know your local deer patterns — the
+    same animals use the same routes nightly. Motion-activated lighting and sprinklers
+    startle deer effectively but they habituate within 1-2 weeks if nothing actually
+    threatens them.
+  cultural_practices: The only reliable long-term solution is physical exclusion —
+    an 8-foot fence or a double fence system. A single 6-foot fence is not reliable
+    as deer can jump it. A double fence of two 4-foot fences 3 feet apart works because
+    deer cannot simultaneously jump height and width. Thorny hedges of hawthorn, rugosa
+    rose, or trifoliate orange planted densely create living fences that improve over
+    time. For individual trees, wire cages or spiral tree guards protect trunks from
+    antler rubbing during fall rut. Protect new transplants individually until established
+    — mature plants recover from deer browse, seedlings often do not.
+  mechanical_physical: Physical barriers are the only mechanical control that reliably
+    works. Chicken wire or hardware cloth cages around individual plants and young
+    trees protect them until large enough to tolerate browse. T-posts with deer netting
+    (7-8 feet tall) around garden areas is effective when installed correctly with
+    no gaps. Motion-activated sprinklers (Scarecrow type) provide short-term deterrence
+    but require frequent repositioning to maintain effectiveness as deer habituate.
+    Fishing line strung at 2 and 4 feet height around beds confuses deer — they feel
+    resistance they cannot see and avoid the area. Inexpensive and surprisingly effective.
+  organic_sprays: Deer repellent sprays based on putrescent egg solids (Liquid Fence,
+    Deer Out) are the most consistently effective chemical deterrents — the smell
+    mimics predator activity and triggers avoidance instinct. Apply every 2-3 weeks
+    and after rain, coating new growth thoroughly. Rotate with other repellents every
+    few weeks to prevent habituation. Human hair in mesh bags, Irish Spring soap bars,
+    and predator urine have inconsistent results but cost nothing and are worth trying
+    as part of a rotation. No spray works reliably on its own — combine with physical
+    barriers for high-value plants. Reapplication is non-negotiable — a single application
+    wears off and deer return.
+natural_enemies:
+- Coyotes
+- Bobcats
+- Florida Panthers
+- Black Bears
+affected_plants:
+- slug: moringa
+  name: Moringa
+- slug: banana
+  name: Banana
+- slug: mulberry
+  name: Mulberry
+- slug: fig
+  name: Fig
+- slug: blueberry
+  name: Blueberry
+- slug: elderberry
+  name: Elderberry
+- slug: sweet-potato
+  name: Sweet Potato
+- slug: comfrey
+  name: Comfrey
+category: animal

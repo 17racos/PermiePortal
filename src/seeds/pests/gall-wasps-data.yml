@@ -1,48 +1,50 @@
-- name: "Gall wasps"
-  slug: "gall-wasps"
-  picture: "gall_wasps.webp"
-  scientific_name: "Cynipidae"
-  description: >-
-    Gall wasps are tiny hymenopterans whose larvae trigger abnormal plant growths called galls on oaks, roses, hickories,
-    and other hosts. Most galls are cosmetic, but heavy loads on young trees can reduce growth and twig dieback occurs
-    when galls cluster at shoot tips. Adults are short-lived and often hard to spot; damage is diagnosed from the gall
-    itself. They occur wherever host trees grow from cool temperate oak savannas to subtropical landscapes.
-  characteristics: >-
-    Match gall shape and position on the plant to extension keys -- spangles on leaves differ from stem swellings on twigs.
-    Cut an active gall in the growing season to find a pale larva or pupal cell inside. Distinguish from bacterial crown
-    gall (rough, soil-line) and from mite erinea. Note whether exit holes are present, which indicates parasites or the
-    previous generation has already emerged.
-  symptoms:
-  - galls
-  - distorted-growth
-  - die-back
-  - yellowing-leaves
-  control_methods:
-    biological_controls: >-
-      Parasitic wasps in families such as Torymidae and Ormyridae attack cynipid larvae inside galls, often leaving
-      a cluster of smaller exit holes. Birds peck papery galls for protein in winter. Preserve native plant diversity
-      near oak plantings so parasitoid complexes stay intact. Avoid spraying oaks during spring adult flights unless a
-      separate pest truly warrants it.
-    preventive_methods: >-
-      Choose tree species and provenances known to resist the worst local gall complexes when planting large blocks.
-      Avoid over-fertilizing young oaks, which sometimes pushes extremely succulent growth that certain gall wasps favor.
-      Inspect nursery liners for galled twigs before planting. Space trees so airflow reduces secondary stress on galled shoots.
-    cultural_practices: >-
-      Prune and destroy localized galled twigs on small ornamentals before larvae complete development -- bag debris.
-      Rake and remove fallen leaves that host decomposer generations for species with complex lifecycles where extension
-      guides recommend it. For rose mossy-root galls, prune below the gall and disinfect tools between cuts.
-    mechanical_physical: >-
-      Physical removal of individual large galls on shrubs is possible when few. Banding sticky traps on trunks does not
-      intercept flying adults meaningfully. For high-value bonsai, wire brush is not advised -- prefer pruning.
-    organic_sprays: >-
-      Sprays rarely reach larvae sealed inside galls, so focus effort on pruning and tree vigor. Horticultural oil is
-      not a standard gall wasp fix. If secondary borers invade weakened wood, address those separately with arborist guidance.
-      Document populations over years before committing to intensive interventions on native oaks where galls are natural.
-  natural_enemies:
-  - Parasitic Wasps
-  - Birds
-  - Predatory Beetles
-  affected_plants: []
-  # Image attribution: (c) Katja Schulz, some rights reserved (CC BY)
-  # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
+name: Gall wasps
+slug: gall-wasps
+picture: gall_wasps.webp
+scientific_name: Cynipidae
+description: Gall wasps are tiny hymenopterans whose larvae trigger abnormal plant
+  growths called galls on oaks, roses, hickories, and other hosts. Most galls are
+  cosmetic, but heavy loads on young trees can reduce growth and twig dieback occurs
+  when galls cluster at shoot tips. Adults are short-lived and often hard to spot;
+  damage is diagnosed from the gall itself. They occur wherever host trees grow from
+  cool temperate oak savannas to subtropical landscapes.
+characteristics: Match gall shape and position on the plant to extension keys -- spangles
+  on leaves differ from stem swellings on twigs. Cut an active gall in the growing
+  season to find a pale larva or pupal cell inside. Distinguish from bacterial crown
+  gall (rough, soil-line) and from mite erinea. Note whether exit holes are present,
+  which indicates parasites or the previous generation has already emerged.
+symptoms:
+- galls
+- distorted-growth
+- die-back
+- yellowing-leaves
+control_methods:
+  biological_controls: Parasitic wasps in families such as Torymidae and Ormyridae
+    attack cynipid larvae inside galls, often leaving a cluster of smaller exit holes.
+    Birds peck papery galls for protein in winter. Preserve native plant diversity
+    near oak plantings so parasitoid complexes stay intact. Avoid spraying oaks during
+    spring adult flights unless a separate pest truly warrants it.
+  preventive_methods: Choose tree species and provenances known to resist the worst
+    local gall complexes when planting large blocks. Avoid over-fertilizing young
+    oaks, which sometimes pushes extremely succulent growth that certain gall wasps
+    favor. Inspect nursery liners for galled twigs before planting. Space trees so
+    airflow reduces secondary stress on galled shoots.
+  cultural_practices: Prune and destroy localized galled twigs on small ornamentals
+    before larvae complete development -- bag debris. Rake and remove fallen leaves
+    that host decomposer generations for species with complex lifecycles where extension
+    guides recommend it. For rose mossy-root galls, prune below the gall and disinfect
+    tools between cuts.
+  mechanical_physical: Physical removal of individual large galls on shrubs is possible
+    when few. Banding sticky traps on trunks does not intercept flying adults meaningfully.
+    For high-value bonsai, wire brush is not advised -- prefer pruning.
+  organic_sprays: Sprays rarely reach larvae sealed inside galls, so focus effort
+    on pruning and tree vigor. Horticultural oil is not a standard gall wasp fix.
+    If secondary borers invade weakened wood, address those separately with arborist
+    guidance. Document populations over years before committing to intensive interventions
+    on native oaks where galls are natural.
+natural_enemies:
+- Parasitic Wasps
+- Birds
+- Predatory Beetles
+affected_plants: []
+category: pest

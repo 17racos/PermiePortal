@@ -1,48 +1,46 @@
----
-- name: Clover Weevils
-  slug: clover-weevils
-  picture: clover_weevils.webp
-  scientific_name: Sitona lepidus
-  description: >-
-    If plants are wilting, notching at the edges, or fruit and roots show hidden feeding damage,
-    clover weevils may be the cause. Adults chew above ground while larvae often feed out of
-    sight inside soil, stems, or fruit. Damage builds quietly, then plants crash fast when roots
-    are heavily hit. Act early so a small weevil problem does not become a season-long
-    infestation.
-  characteristics: >-
-    Look for small beetles with a hard body and a distinct snout, usually active at dawn, dusk,
-    or night. Check for crescent-shaped leaf notches, punctures in fruit, or tiny entry holes
-    near stems. In soil or damaged tissue, larvae are often pale, legless, and curved in a
-    C-shape. Fresh chew marks plus snout beetles or C-shaped grubs confirm active weevil
-    pressure.
-  symptoms:
-  - chewed-stems
-  - stem-damage
-  - fruit-damage
-  - holes-in-leaves
-  - root-damage
-  control_methods:
-    biological_controls: >-
-      Parasitic wasps attack clover weevil larvae in soil and stems where diverse pastures support
-      them -- not a mail-order fix for one lawn. Ground beetles and birds eat adults walking at
-      night. Avoid broad-spectrum sprays on whole pastures; you kill predators and keep weevils.
-    preventive_methods: >-
-      Walk clover stands weekly during first flights -- adults notch leaf edges before larvae
-      mine stems. Sticky traps at canopy height show trends. Rotate hay fields with non-legume
-      breaks when agronomy allows so overwintering adults meet fewer hosts immediately.
-    cultural_practices: >-
-      Balance fertility; ultra-lush clover shows notching faster but also recovers fast if
-      weather helps. Remove heavily infested windrows and hay bales that hold larvae. After wet
-      years, inspect stands for crown rot stacked on weevil injury.
-    mechanical_physical: >-
-      Row covers on small seed increases block adults when edges seal -- rare at pasture scale.
-      Sticky traps capture some adults for monitoring; vacuum is not practical on acres. On garden
-      clover, shake plants over a sheet at dawn.
-    organic_sprays: >-
-      Neem and insecticidal soap contact adults on foliage -- spray at night when weevils climb
-      stems. Kaolin may deter feeding on low-growing legumes if film stays even. Repeat after rain;
-      short residual means timing beats brand. Combine sprays with mowing or removal of hot spots.
-  natural_enemies:
-  - Parasitic Wasps
-  - Ground Beetles
-  - Insectivorous Birds
+name: Clover Weevils
+slug: clover-weevils
+picture: clover_weevils.webp
+scientific_name: Sitona lepidus
+description: If plants are wilting, notching at the edges, or fruit and roots show
+  hidden feeding damage, clover weevils may be the cause. Adults chew above ground
+  while larvae often feed out of sight inside soil, stems, or fruit. Damage builds
+  quietly, then plants crash fast when roots are heavily hit. Act early so a small
+  weevil problem does not become a season-long infestation.
+characteristics: Look for small beetles with a hard body and a distinct snout, usually
+  active at dawn, dusk, or night. Check for crescent-shaped leaf notches, punctures
+  in fruit, or tiny entry holes near stems. In soil or damaged tissue, larvae are
+  often pale, legless, and curved in a C-shape. Fresh chew marks plus snout beetles
+  or C-shaped grubs confirm active weevil pressure.
+symptoms:
+- chewed-stems
+- stem-damage
+- fruit-damage
+- holes-in-leaves
+- root-damage
+control_methods:
+  biological_controls: Parasitic wasps attack clover weevil larvae in soil and stems
+    where diverse pastures support them -- not a mail-order fix for one lawn. Ground
+    beetles and birds eat adults walking at night. Avoid broad-spectrum sprays on
+    whole pastures; you kill predators and keep weevils.
+  preventive_methods: Walk clover stands weekly during first flights -- adults notch
+    leaf edges before larvae mine stems. Sticky traps at canopy height show trends.
+    Rotate hay fields with non-legume breaks when agronomy allows so overwintering
+    adults meet fewer hosts immediately.
+  cultural_practices: Balance fertility; ultra-lush clover shows notching faster but
+    also recovers fast if weather helps. Remove heavily infested windrows and hay
+    bales that hold larvae. After wet years, inspect stands for crown rot stacked
+    on weevil injury.
+  mechanical_physical: Row covers on small seed increases block adults when edges
+    seal -- rare at pasture scale. Sticky traps capture some adults for monitoring;
+    vacuum is not practical on acres. On garden clover, shake plants over a sheet
+    at dawn.
+  organic_sprays: Neem and insecticidal soap contact adults on foliage -- spray at
+    night when weevils climb stems. Kaolin may deter feeding on low-growing legumes
+    if film stays even. Repeat after rain; short residual means timing beats brand.
+    Combine sprays with mowing or removal of hot spots.
+natural_enemies:
+- Parasitic Wasps
+- Ground Beetles
+- Insectivorous Birds
+category: pest
