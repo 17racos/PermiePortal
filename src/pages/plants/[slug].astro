@@ -31,12 +31,15 @@ const imagePath = plant.picture ? `/assets/plants/${plant.picture}` : null;
 const familySlug = plant.family ? plant.family.toLowerCase().replace(/[^a-z0-9]+/g, '-') : null;
 
 // Practitioner notes — split into individual facts
-const practitionerFacts = plant.practitioner_notes
-  ? plant.practitioner_notes
+const fieldObsFacts = plant.field_observations
+  ? String(plant.field_observations)
       .split('\n')
       .map((l: string) => l.trim())
       .filter((l: string) => l.length > 0 && l.toLowerCase() !== 'needs_data')
   : [];
+const plantPestList: string[] = Array.isArray(plant.pests) ? plant.pests : [];
+const plantDiseases: string[] = Array.isArray(plant.diseases) ? plant.diseases : [];
+const plantAnimals: string[] = Array.isArray(plant.animal_pressure) ? plant.animal_pressure : [];
 
 // Purpose — split into lines, separating intro from bullet points
 const purposeRaw = plant.purpose || '';
@@ -124,6 +127,12 @@ const purposeLines = purposeRaw
   .cautions-list li { background: rgba(122,59,30,0.2); border-left-color: var(--rust); }
 
   /* PEST CARDS */
+  .threat-group { margin-bottom: 1.5rem; }
+  .threat-group-title { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--straw); margin-bottom: 0.5rem; }
+  .threat-list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.5rem; }
+  .threat-list li { font-family: 'Space Mono', monospace; font-size: 0.65rem; background: var(--bark); border: 1px solid rgba(139,184,58,0.15); padding: 0.25rem 0.6rem; color: var(--ash); }
+  .threat-link { color: var(--rust); text-decoration: none; }
+  .threat-link:hover { color: var(--paper); }
   .pest-card { display: block; text-decoration: none; background: var(--bark); border: 1px solid rgba(139,184,58,0.15); padding: 1rem 1.25rem; transition: all 0.2s; margin-bottom: 0.5rem; }
   .pest-card:hover { border-color: rgba(196,85,26,0.5); background: rgba(122,59,30,0.15); }
   .pest-card-name { font-family: 'Bebas Neue', sans-serif; font-size: 1.2rem; color: var(--paper); margin-bottom: 0.25rem; }
@@ -243,12 +252,12 @@ const purposeLines = purposeRaw
     </div>
   )}
 
-  <!-- PRACTITIONER NOTES -->
-  {practitionerFacts.length > 0 && (
+  <!-- FIELD OBSERVATIONS -->
+  {fieldObsFacts.length > 0 && (
     <div class="section">
-      <p class="section-label">Practitioner Notes</p>
+      <p class="section-label">Field Observations</p>
       <ul class="practitioner-list">
-        {practitionerFacts.map((fact: string) => <li>{fact}</li>)}
+        {fieldObsFacts.map((fact: string) => <li>{fact}</li>)}
       </ul>
     </div>
   )}
@@ -281,16 +290,53 @@ const purposeLines = purposeRaw
   )}
 
   <!-- PEST PRESSURE -->
-  {plantPests.length > 0 && (
+  {(plantPests.length > 0 || plantDiseases.length > 0 || plantAnimals.length > 0 || plantPests.length > 0) && (
     <div class="section">
-      <p class="section-label">Pest Pressure</p>
-      <div class="section-title">Known Threats — Organic Solutions Only</div>
-      {plantPests.map(pest => (
-        <a href={`/pests/${pest.slug}`} class="pest-card">
-          <div class="pest-card-name">{pest.name}</div>
-          {pest.scientific_name && <div class="pest-card-sci">{pest.scientific_name}</div>}
-        </a>
-      ))}
+      <p class="section-label">Threats &amp; Pressure</p>
+
+      {plantPestList.length > 0 && (
+        <div class="threat-group">
+          <div class="threat-group-title">🐛 Pests</div>
+          <ul class="threat-list">
+            {plantPestList.map((p: string) => {
+              const match = pestsData.find((pd: any) => pd.name?.toLowerCase() === p.toLowerCase());
+              return match
+                ? <li><a href={`/pests/${match.slug}`} class="threat-link">{p}</a></li>
+                : <li>{p}</li>;
+            })}
+          </ul>
+        </div>
+      )}
+
+      {plantDiseases.length > 0 && (
+        <div class="threat-group">
+          <div class="threat-group-title">🦠 Diseases</div>
+          <ul class="threat-list">
+            {plantDiseases.map((d: string) => <li>{d}</li>)}
+          </ul>
+        </div>
+      )}
+
+      {plantAnimals.length > 0 && (
+        <div class="threat-group">
+          <div class="threat-group-title">🦎 Animal Pressure</div>
+          <ul class="threat-list">
+            {plantAnimals.map((a: string) => <li>{a}</li>)}
+          </ul>
+        </div>
+      )}
+
+      {plantPests.length > 0 && (
+        <div class="threat-group">
+          <div class="threat-group-title">📋 Pest Profiles</div>
+          {plantPests.map((pest: any) => (
+            <a href={`/pests/${pest.slug}`} class="pest-card">
+              <div class="pest-card-name">{pest.name}</div>
+              {pest.scientific_name && <div class="pest-card-sci">{pest.scientific_name}</div>}
+            </a>
+          ))}
+        </div>
+      )}
     </div>
   )}
 
