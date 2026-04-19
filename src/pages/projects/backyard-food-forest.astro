@@ -105,6 +105,18 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
     .nav-links a { font-size: 0.62rem; }
     .footer { flex-direction: column; gap: 1rem; padding: 1.5rem; }
   }
+
+  /* TOC */
+  .toc-float { position: fixed; right: 1.5rem; top: 50%; transform: translateY(-50%); z-index: 50; display: flex; flex-direction: column; gap: 0.35rem; }
+  .toc-dot { width: 8px; height: 8px; border-radius: 50%; background: rgba(184,176,160,0.3); border: 1px solid rgba(184,176,160,0.2); cursor: pointer; transition: all 0.2s; position: relative; }
+  .toc-dot:hover, .toc-dot.active { background: var(--lime); border-color: var(--lime); }
+  .toc-dot .toc-label { position: absolute; right: 1.4rem; top: 50%; transform: translateY(-50%); white-space: nowrap; font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.08em; color: var(--paper); background: rgba(15,13,10,0.9); padding: 0.2rem 0.5rem; opacity: 0; pointer-events: none; transition: opacity 0.2s; border: 1px solid rgba(139,184,58,0.2); }
+  .toc-dot:hover .toc-label { opacity: 1; }
+  @media (max-width: 1100px) { .toc-float { display: none; } }
+  /* JUMP MENU mobile */
+  .jump-menu { display: none; margin: 0 auto 0; max-width: 1200px; padding: 0.75rem 2rem; }
+  .jump-select { width: 100%; font-family: 'Space Mono', monospace; font-size: 0.65rem; background: var(--bark); color: var(--ash); border: 1px solid rgba(139,184,58,0.2); padding: 0.5rem 0.75rem; letter-spacing: 0.06em; cursor: pointer; }
+  @media (max-width: 1100px) { .jump-menu { display: block; } }
   /* PLANT LINKS */
   .photo-caption .plant-link { color: var(--lime); text-decoration: none; border-bottom: 1px solid rgba(139,184,58,0.3); transition: border-color 0.2s; }
   .photo-caption .plant-link:hover { border-color: var(--lime); }
@@ -141,6 +153,51 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
 </div>
 
 <main>
+
+<!-- JUMP MENU mobile -->
+<div class="jump-menu">
+  <select class="jump-select" onchange="document.getElementById(this.value)?.scrollIntoView({behavior:'smooth'}); this.selectedIndex=0;">
+    <option value="">— Jump to section —</option>
+    <option value="before-after">Before &amp; After</option>
+    <option value="breaking-ground">Breaking Ground</option>
+    <option value="establishment">Establishment</option>
+    <option value="taking-hold">Taking Hold</option>
+    <option value="coming-back">Coming Back</option>
+    <option value="frog-pond">The Frog Pond</option>
+    <option value="summer-explosion">Summer Explosion</option>
+    <option value="snow">It Snowed in Florida</option>
+    <option value="recovery">Post-Snow Recovery</option>
+    <option value="spring-surge">Spring Surge</option>
+    <option value="flowering">Everything Flowering</option>
+    <option value="thriving">Thriving on Neglect</option>
+    <option value="current-state">Current State</option>
+    <option value="timeline">Timeline</option>
+    <option value="species">Species List</option>
+    <option value="honest">What Actually Happened</option>
+  </select>
+</div>
+
+<!-- TOC desktop dots -->
+<nav class="toc-float" aria-label="Page sections">
+  <a class="toc-dot" href="#before-after"><span class="toc-label">Before &amp; After</span></a>
+  <a class="toc-dot" href="#breaking-ground"><span class="toc-label">Breaking Ground</span></a>
+  <a class="toc-dot" href="#establishment"><span class="toc-label">Establishment</span></a>
+  <a class="toc-dot" href="#taking-hold"><span class="toc-label">Taking Hold</span></a>
+  <a class="toc-dot" href="#coming-back"><span class="toc-label">Coming Back</span></a>
+  <a class="toc-dot" href="#frog-pond"><span class="toc-label">The Frog Pond</span></a>
+  <a class="toc-dot" href="#summer-explosion"><span class="toc-label">Summer Explosion</span></a>
+  <a class="toc-dot" href="#snow"><span class="toc-label">Snow in Florida</span></a>
+  <a class="toc-dot" href="#recovery"><span class="toc-label">Post-Snow Recovery</span></a>
+  <a class="toc-dot" href="#spring-surge"><span class="toc-label">Spring Surge</span></a>
+  <a class="toc-dot" href="#flowering"><span class="toc-label">Everything Flowering</span></a>
+  <a class="toc-dot" href="#thriving"><span class="toc-label">Thriving on Neglect</span></a>
+  <a class="toc-dot" href="#current-state"><span class="toc-label">Current State</span></a>
+  <a class="toc-dot" href="#timeline"><span class="toc-label">Timeline</span></a>
+  <a class="toc-dot" href="#species"><span class="toc-label">Species List</span></a>
+  <a class="toc-dot" href="#honest"><span class="toc-label">What Actually Happened</span></a>
+</nav>
+
+
 
 <!-- HERO -->
 <div class="project-hero">
@@ -183,7 +240,7 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
 <!-- BEFORE / AFTER -->
 <div class="section">
   <p class="section-label">The Transformation</p>
-  <h2 class="section-title">Before & After</h2>
+  <h2 class="section-title" id="before-after">Before & After</h2>
   <p class="section-body">Same backyard. Same perspective. 3 years apart. The lawn is gone. The system feeds itself.</p>
 
   <div class="ba-grid">
@@ -213,7 +270,7 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
 <!-- BREAKING GROUND -->
 <div class="section">
   <p class="section-label">How It Started</p>
-  <h2 class="section-title">Breaking Ground</h2>
+  <h2 class="section-title" id="breaking-ground">Breaking Ground</h2>
   <p class="section-body">Sheet mulching started July 8, 2023. Just wood chips on top, plants in the same day. No tilling. No soil removal. The lawn dies (Slowly since I didnt use Cardboard) underneath and feeds the system as it breaks down.</p>
 
   <div class="photo-grid">
@@ -235,7 +292,7 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
 <!-- YEAR 1: ESTABLISHMENT -->
 <div class="section">
   <p class="section-label">Year 1 — August & September 2023</p>
-  <h2 class="section-title">Establishment</h2>
+  <h2 class="section-title" id="establishment">Establishment</h2>
   <p class="section-body">Six weeks in. Some things are taking off. Some are struggling. The weeds are arriving. The wildlife noticed before I did.</p>
 
   <div class="photo-grid">
@@ -272,7 +329,7 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
 <!-- YEAR 1: TAKING HOLD -->
 <div class="section">
   <p class="section-label">Year 1 — October–December 2023</p>
-  <h2 class="section-title">Taking Hold</h2>
+  <h2 class="section-title" id="taking-hold">Taking Hold</h2>
   <p class="section-body">The system started to look intentional. Tithonia hit peak height. Florida Betony took over the ground layer and I let it. A raptor showed up. The food web was assembling itself.</p>
 
   <div class="photo-grid">
@@ -305,7 +362,7 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
 <!-- YEAR 2: COMING BACK -->
 <div class="section">
   <p class="section-label">Year 2 — February & March 2024</p>
-  <h2 class="section-title">Coming Back</h2>
+  <h2 class="section-title" id="coming-back">Coming Back</h2>
   <p class="section-body">First winter behind us. Most things survived. The weeds came back faster than the plants. Added strawberries, a white mulberry, and started making proper paths with sticks and logs.</p>
 
   <div class="photo-grid">
@@ -353,7 +410,7 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
 <!-- YEAR 2: FROG POND -->
 <div class="section">
   <p class="section-label">Year 2 — April & May 2024</p>
-  <h2 class="section-title">The Frog Pond</h2>
+  <h2 class="section-title" id="frog-pond">The Frog Pond</h2>
   <p class="section-body">Decided it was time to stop attracting frogs accidentally and start attracting them on purpose. Dug a pond, stocked it with local macro and microfauna captured from retention ponds, and waited. First frog moved in within 30 days.</p>
 
   <div class="photo-grid">
@@ -390,7 +447,7 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
 <!-- YEAR 2: EXPLOSION -->
 <div class="section">
   <p class="section-label">Year 2 — July–September 2024</p>
-  <h2 class="section-title">Summer Explosion</h2>
+  <h2 class="section-title" id="summer-explosion">Summer Explosion</h2>
   <p class="section-body">Florida summer did what Florida summer does. Everything went vertical. Then two windstorms in quick succession took out the Tithonia, damaged the Moringa, collapsed the Chaya, and destroyed the trellis. The system absorbed it and kept going.</p>
 
   <div class="photo-grid">
@@ -469,7 +526,7 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
 <!-- YEAR 3: SNOW -->
 <div class="section">
   <p class="section-label">Year 3 — January 2025</p>
-  <h2 class="section-title">It Snowed in Florida</h2>
+  <h2 class="section-title" id="snow">It Snowed in Florida</h2>
   <p class="section-body">January 2025 brought snow to Yulee. Not supposed to happen. At that point I assumed everything was done for. It wasn't.</p>
 
   <div class="photo-grid two-col">
@@ -487,7 +544,7 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
 <!-- YEAR 3: RECOVERY -->
 <div class="section">
   <p class="section-label">Year 3 — March & April 2025</p>
-  <h2 class="section-title">Post-Snow Recovery</h2>
+  <h2 class="section-title" id="recovery">Post-Snow Recovery</h2>
   <p class="section-body">Spread Crimson and Dutch Clover and Daikon Radish after the snow. The <a href="/plants/daikon-radish" class="plant-link">Daikon</a> became one of the best decisions of the year — free nutrients, bee habitat, and edible pods. Built the hummingbird garden. Replaced the destroyed trellis with a cattle panel anchored with rebar. Done with windstorms.</p>
 
   <div class="photo-grid">
@@ -520,7 +577,7 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
 <!-- YEAR 3: SPRING SURGE -->
 <div class="section">
   <p class="section-label">Year 3 — Late April 2025</p>
-  <h2 class="section-title">Spring Surge</h2>
+  <h2 class="section-title" id="spring-surge">Spring Surge</h2>
   <p class="section-body">Late April and everything came back at once. The crimson clover was everywhere. Added three banana trees to the grove. The frog pond ecosystem survived the snow intact — minnows and all.</p>
 
   <div class="photo-grid">
@@ -572,7 +629,7 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
 <!-- YEAR 3: MAY 2025 -->
 <div class="section">
   <p class="section-label">Year 3 — May 2025</p>
-  <h2 class="section-title">Everything Flowering</h2>
+  <h2 class="section-title" id="flowering">Everything Flowering</h2>
   <p class="section-body">May and the whole system was in bloom. <a href="/plants/daikon-radish" class="plant-link">Daikon</a>, clover, Sunshine Mimosa all flowering at once. The nitrogen fixing stack around the Lemon Tree was clearly paying off.</p>
 
   <div class="photo-grid">
@@ -605,7 +662,7 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
 <!-- YEAR 3: PEAK -->
 <div class="section">
   <p class="section-label">Year 3 — November 2025</p>
-  <h2 class="section-title">Thriving on Neglect</h2>
+  <h2 class="section-title" id="thriving">Thriving on Neglect</h2>
   <p class="section-body">By fall 2025 the strategy had shifted: feed the system with the system. Almost every Tithonia used as chop-and-drop. Lemongrass too. No more buying mulch. No more inputs. The nitrogen fixers stacked around the Lemon Tree were visibly paying off — it got massive. The drought conditions that summer were handled better than expected.</p>
 
   <div class="photo-grid">
@@ -638,7 +695,7 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
 <!-- CURRENT STATE -->
 <div class="section">
   <p class="section-label">Current — April 2026</p>
-  <h2 class="section-title">Year 3 State of the System</h2>
+  <h2 class="section-title" id="current-state">Year 3 State of the System</h2>
   <p class="section-body">Spring flush after another cold winter for this area. <a href="/plants/goji-berry" class="plant-link">Goji</a> and Elderberry doing great the <a href="/plants/goji-berry" class="plant-link">Goji</a> got massive. The Tithonia rows are all making a comeback and I can see the starts of the Okinawa and Longevity Spinach coming back. All of my Lemongrass clumps are making a comeback. It will be a slow creep until summer.</p>
 
   <div class="photo-grid">
@@ -660,7 +717,7 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
 <!-- TIMELINE -->
 <div class="section">
   <p class="section-label">The Record</p>
-  <h2 class="section-title">Monthly Timeline</h2>
+  <h2 class="section-title" id="timeline">Monthly Timeline</h2>
   <p class="section-body">229 photos across 3 years. The full record of what happened, when, and why.</p>
 
   <div class="timeline">
@@ -710,7 +767,7 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
 <!-- SPECIES -->
 <div class="section">
   <p class="section-label">What's Growing</p>
-  <h2 class="section-title">Species List</h2>
+  <h2 class="section-title" id="species">Species List</h2>
 
   <div class="species-grid">
     <div class="species-group">
@@ -752,7 +809,7 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
 <!-- HONEST -->
 <div class="section">
   <p class="section-label">The Honest Part</p>
-  <h2 class="section-title">What Actually Happened</h2>
+  <h2 class="section-title" id="honest">What Actually Happened</h2>
 
   <div class="honest-grid">
     <div class="honest-card">
@@ -836,6 +893,30 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
     if (e.key === 'ArrowRight') next();
   });
   }); // end DOMContentLoaded
+</script>
+
+
+<script is:inline>
+  // TOC active dot highlight
+  const dots = document.querySelectorAll('.toc-dot');
+  const sections = ['before-after','breaking-ground','establishment','taking-hold',
+    'coming-back','frog-pond','summer-explosion','snow','recovery','spring-surge',
+    'flowering','thriving','current-state','timeline','species','honest'];
+  
+  function updateTOC() {
+    let current = sections[0];
+    for (const id of sections) {
+      const el = document.getElementById(id);
+      if (el && el.getBoundingClientRect().top < window.innerHeight * 0.4) {
+        current = id;
+      }
+    }
+    dots.forEach((dot, i) => {
+      dot.classList.toggle('active', sections[i] === current);
+    });
+  }
+  window.addEventListener('scroll', updateTOC, {passive: true});
+  updateTOC();
 </script>
 
 </BaseLayout>
