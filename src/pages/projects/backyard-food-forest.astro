@@ -177,6 +177,12 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
     <li><a href="/about">About</a></li>
   </ul>
 </nav>
+<script is:inline>
+  (function(){
+    var n = document.querySelector('.nav');
+    if(n) document.documentElement.style.setProperty('--nav-h', n.offsetHeight + 'px');
+  })();
+</script>
 
 <div class="breadcrumb">
   <a href="/">Home</a> / <a href="/projects">Projects</a> / Backyard Food Forest
