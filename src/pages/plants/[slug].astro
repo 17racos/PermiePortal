@@ -14,10 +14,6 @@ export function getStaticPaths() {
 
 const { plant } = Astro.props;
 
-const plantPests = pestsData.filter(pest =>
-  pest.affected_plants?.some((p: any) => p.slug === plant.slug)
-);
-
 const companions = plant.companions || [];
 
 // Filter out empty/placeholder cautions
@@ -288,7 +284,7 @@ const purposeLines = purposeRaw
   )}
 
   <!-- THREATS & PRESSURE -->
-  {(plantPestList.length > 0 || plantPests.length > 0) && (
+  {plantPestList.length > 0 && (
     <div class="section">
       <p class="section-label">Threats &amp; Pressure</p>
       <ul class="threat-list">
@@ -299,16 +295,6 @@ const purposeLines = purposeRaw
             : <li>{p}</li>;
         })}
       </ul>
-      {plantPests.length > 0 && (
-        <div style="margin-top:1.5rem;">
-          {plantPests.map((pest: any) => (
-            <a href={`/pests/${pest.slug}`} class="pest-card">
-              <div class="pest-card-name">{pest.name}</div>
-              {pest.scientific_name && <div class="pest-card-sci">{pest.scientific_name}</div>}
-            </a>
-          ))}
-        </div>
-      )}
     </div>
   )}
 
