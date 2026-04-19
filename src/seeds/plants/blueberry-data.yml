@@ -84,9 +84,6 @@ pests:
 - Glass Snails
 - Leatherleaf Slug
 - Nutrient Burn
-growth_habit: Tree
-data_quality_score: 0.8
-diseases:
 - Powdery Mildew
 - Gall Wasps
 - Leaf Scorch
@@ -96,7 +93,8 @@ diseases:
 - Nitrogen Deficiency
 - Potassium Deficiency
 - Calcium Deficiency
-animal_pressure:
 - Azalea Caterpillar
 - Jumping Worms
 - Deer
+growth_habit: Tree
+data_quality_score: 0.8

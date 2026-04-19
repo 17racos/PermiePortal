@@ -72,9 +72,6 @@ pests:
 - Chafer Grubs
 - Root Feeding Grubs
 - Cutworm Larvae
-growth_habit: Tree
-data_quality_score: 0.8
-diseases:
 - Alternaria Leaf Spot
 - Bacterial Leaf Spot
 - Fusarium Wilt
@@ -86,6 +83,7 @@ diseases:
 - Bacterial Wilt
 - Magnesium Deficiency
 - Potassium Deficiency
-animal_pressure:
 - Brown Marmorated Stink Bug
 - Mole Crickets
+growth_habit: Tree
+data_quality_score: 0.8

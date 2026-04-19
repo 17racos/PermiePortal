@@ -71,10 +71,6 @@ pests:
 - Strawberry Root Weevil
 - Twig Girdlers
 - Vine Weevil
-growth_habit: Small deciduous tree or large shrub; deeply lobed leaves; white flowers;
-  red pomes
-data_quality_score: 0.79
-diseases:
 - Brown Rot
 - Fire Blight
 - Gall Mite
@@ -82,8 +78,10 @@ diseases:
 - Leaf Spot
 - Rust Mite
 - Spotted Lanternfly
-animal_pressure:
 - Brown Marmorated Stink Bug
 - Eastern Tent Caterpillar
 - Harlequin Ladybird
 - Tent Caterpillar
+growth_habit: Small deciduous tree or large shrub; deeply lobed leaves; white flowers;
+  red pomes
+data_quality_score: 0.79
