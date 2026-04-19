@@ -1,4 +1,5 @@
 ---
+import Navbar from '../../components/Navbar.astro';
 // src/pages/plants/families.astro
 import BaseLayout from '../../components/layouts/BaseLayout.astro';
 import plantsData from '../../data/plants.json';
@@ -84,17 +85,7 @@ const FAMILY_NOTES: Record<string, string> = {
   }
 </style>
 
-<nav class="nav">
-  <a href="/" class="nav-logo">PermiePortal</a>
-  <ul class="nav-links">
-    <li><a href="/plants">Plants</a></li>
-    <li><a href="/pests">Pests</a></li>
-    <li><a href="/plants/families">Plant Families</a></li>
-    <li><a href="/articles">Articles</a></li>
-    <li><a href="/projects">Projects</a></li>
-    <li><a href="/about">About</a></li>
-  </ul>
-</nav>
+<Navbar />
 
 <div class="breadcrumb">
   <a href="/plants">← Plants</a> / Families
