@@ -143,7 +143,7 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
   @media (max-width: 900px) { .toc-float { display: none; } }
   /* JUMP MENU mobile */
   .jump-menu { display: none; padding: 0.6rem 1.25rem; border-bottom: 1px solid rgba(139,184,58,0.1); background: rgba(28,24,18,0.97); z-index: 90; }
-  .jump-menu.is-stuck { position: fixed; top: 92px; left: 0; right: 0; backdrop-filter: blur(8px); box-shadow: 0 2px 8px rgba(0,0,0,0.4); }
+  .jump-menu.is-stuck { position: fixed; top: 0; left: 0; right: 0; backdrop-filter: blur(8px); box-shadow: 0 2px 8px rgba(0,0,0,0.4); z-index: 95; }
   .jump-select { width: 100%; font-family: 'Space Mono', monospace; font-size: 0.65rem; background: var(--bark); color: var(--ash); border: 1px solid rgba(139,184,58,0.2); padding: 0.5rem 0.75rem; letter-spacing: 0.06em; cursor: pointer; }
   @media (max-width: 900px) { .jump-menu { display: block; } }
 
@@ -939,12 +939,33 @@ document.addEventListener('DOMContentLoaded', function() {
   const jumpMenu = document.querySelector('.jump-menu');
   if (jumpMenu) {
     const navEl = document.querySelector('.nav');
-    const navH = navEl ? navEl.offsetHeight : 92;
-    // Menu sits right below nav -- stick as soon as user scrolls at all
+    const navH = navEl ? navEl.offsetHeight : 56;
+    const menuH = jumpMenu.offsetHeight;
+
+    // Spacer prevents page jump when menu goes fixed
+    const spacer = document.createElement('div');
+    spacer.style.height = '0px';
+    jumpMenu.parentNode.insertBefore(spacer, jumpMenu.nextSibling);
+
     function checkSticky() {
-      jumpMenu.classList.toggle('is-stuck', window.scrollY > 4);
+      if (window.scrollY > 4) {
+        if (!jumpMenu.classList.contains('is-stuck')) {
+          jumpMenu.style.top = navH + 'px';
+          jumpMenu.classList.add('is-stuck');
+          spacer.style.height = menuH + 'px';
+        }
+      } else {
+        if (jumpMenu.classList.contains('is-stuck')) {
+          jumpMenu.classList.remove('is-stuck');
+          jumpMenu.style.top = '';
+          spacer.style.height = '0px';
+        }
+      }
     }
     window.addEventListener('scroll', checkSticky, {passive: true});
+    window.addEventListener('resize', () => {
+      jumpMenu.style.top = (navEl ? navEl.offsetHeight : 56) + 'px';
+    }, {passive: true});
     checkSticky();
   }
 
