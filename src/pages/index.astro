@@ -1,6 +1,7 @@
 ---
 // src/pages/index.astro
 import BaseLayout from '../components/layouts/BaseLayout.astro';
+import Navbar from '../components/Navbar.astro';
 import plantsData from '../data/plants.json';
 import pestsData from '../data/pests.json';
 
@@ -70,13 +71,6 @@ const tickerMessages = [
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
     pointer-events: none; z-index: 0; opacity: 0.4;
   }
-
-  /* NAV */
-  .nav { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 2rem; border-bottom: 1px solid rgba(139,184,58,0.2); position: relative; z-index: 10; }
-  .nav-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; letter-spacing: 0.08em; color: var(--lime); text-decoration: none; }
-  .nav-links { display: flex; gap: 2rem; list-style: none; }
-  .nav-links a { font-family: 'Space Mono', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ash); text-decoration: none; transition: color 0.2s; }
-  .nav-links a:hover { color: var(--lime); }
 
   /* HERO */
   .hero { position: relative; min-height: 92vh; display: grid; grid-template-columns: 1fr 1fr; align-items: center; padding: 4rem 2rem 4rem 4rem; gap: 4rem; overflow: hidden; }
@@ -231,18 +225,7 @@ const tickerMessages = [
   }
 </style>
 
-<nav class="nav">
-  <a href="/" class="nav-logo">PermiePortal</a>
-  <ul class="nav-links">
-    <li><a href="/plants">Plants</a></li>
-    <li><a href="/pests">Pests</a></li>
-    <li><a href="/diagnose">Diagnose</a></li>
-    <li><a href="/articles">Articles</a></li>
-    <li><a href="/projects">Projects</a></li>
-    <li><a href="/about">About</a></li>
-  </ul>
-  <button class="nav-hamburger" id="nav-open" aria-label="Open menu">☰</button>
-</nav>
+<Navbar />
 
 
 <div class="rant-bar" aria-hidden="true">
