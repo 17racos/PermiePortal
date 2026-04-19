@@ -883,144 +883,71 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
 </div>
 
 <script is:inline>
+document.addEventListener('DOMContentLoaded', function() {
+
+  // LIGHTBOX
   const lightbox = document.getElementById('lightbox');
   const lbImg = document.getElementById('lightbox-img');
   const lbCaption = document.getElementById('lightbox-caption');
-  const lbClose = document.getElementById('lightbox-close');
-  const lbPrev = document.getElementById('lightbox-prev');
-  const lbNext = document.getElementById('lightbox-next');
-
-  document.addEventListener('DOMContentLoaded', function() {
-  // Collect all photo-item images
   const items = Array.from(document.querySelectorAll('.photo-item img, .ba-img'));
   let current = 0;
 
-  function open(index) {
+  function lbOpen(index) {
     current = index;
     const img = items[current];
     lbImg.src = img.src;
     lbImg.alt = img.alt;
-    const caption = img.closest('.photo-item')?.querySelector('.photo-caption')?.textContent
+    lbCaption.textContent = img.closest('.photo-item')?.querySelector('.photo-caption')?.textContent
       || img.closest('.ba-side')?.querySelector('.ba-label')?.textContent
       || img.alt;
-    lbCaption.textContent = caption;
     lightbox.classList.add('active');
     document.body.style.overflow = 'hidden';
   }
+  function lbClose() { lightbox.classList.remove('active'); document.body.style.overflow = ''; }
+  function lbPrev() { lbOpen((current - 1 + items.length) % items.length); }
+  function lbNext() { lbOpen((current + 1) % items.length); }
 
-  function close() {
-    lightbox.classList.remove('active');
-    document.body.style.overflow = '';
-  }
-
-  function prev() { open((current - 1 + items.length) % items.length); }
-  function next() { open((current + 1) % items.length); }
-
-  items.forEach((img, i) => {
-    img.addEventListener('click', () => open(i));
-  });
-
-  lbClose.addEventListener('click', close);
-  lbPrev.addEventListener('click', prev);
-  lbNext.addEventListener('click', next);
-  lightbox.addEventListener('click', (e) => { if (e.target === lightbox) close(); });
-
+  items.forEach((img, i) => img.addEventListener('click', () => lbOpen(i)));
+  document.getElementById('lightbox-close').addEventListener('click', lbClose);
+  document.getElementById('lightbox-prev').addEventListener('click', lbPrev);
+  document.getElementById('lightbox-next').addEventListener('click', lbNext);
+  lightbox.addEventListener('click', (e) => { if (e.target === lightbox) lbClose(); });
   document.addEventListener('keydown', (e) => {
     if (!lightbox.classList.contains('active')) return;
-    if (e.key === 'Escape') close();
-    if (e.key === 'ArrowLeft') prev();
-    if (e.key === 'ArrowRight') next();
+    if (e.key === 'Escape') lbClose();
+    if (e.key === 'ArrowLeft') lbPrev();
+    if (e.key === 'ArrowRight') lbNext();
   });
-  }); // end DOMContentLoaded
-</script>
 
-
-<script is:inline>
-  // TOC active dot highlight
+  // TOC active dot
   const dots = document.querySelectorAll('.toc-dot');
   const sections = ['before-after','breaking-ground','establishment','taking-hold',
     'coming-back','frog-pond','summer-explosion','snow','recovery','spring-surge',
     'flowering','thriving','current-state','timeline','species','honest'];
-  
   function updateTOC() {
-    let current = sections[0];
+    let cur = sections[0];
     for (const id of sections) {
       const el = document.getElementById(id);
-      if (el && el.getBoundingClientRect().top < window.innerHeight * 0.4) {
-        current = id;
-      }
+      if (el && el.getBoundingClientRect().top < window.innerHeight * 0.4) cur = id;
     }
-    dots.forEach((dot, i) => {
-      dot.classList.toggle('active', sections[i] === current);
-    });
+    dots.forEach((dot, i) => dot.classList.toggle('active', sections[i] === cur));
   }
   window.addEventListener('scroll', updateTOC, {passive: true});
   updateTOC();
-</script>
 
-
-<script is:inline>
-  // TOC active dot highlight
-  const dots = document.querySelectorAll('.toc-dot');
-  const sections = ['before-after','breaking-ground','establishment','taking-hold',
-    'coming-back','frog-pond','summer-explosion','snow','recovery','spring-surge',
-    'flowering','thriving','current-state','timeline','species','honest'];
-  
-  function updateTOC() {
-    let current = sections[0];
-    for (const id of sections) {
-      const el = document.getElementById(id);
-      if (el && el.getBoundingClientRect().top < window.innerHeight * 0.4) {
-        current = id;
-      }
-    }
-    dots.forEach((dot, i) => {
-      dot.classList.toggle('active', sections[i] === current);
-    });
-  }
-  window.addEventListener('scroll', updateTOC, {passive: true});
-  updateTOC();
-</script>
-
-
-<script is:inline>
-  // TOC active dot highlight
-  const dots = document.querySelectorAll('.toc-dot');
-  const sections = ['before-after','breaking-ground','establishment','taking-hold',
-    'coming-back','frog-pond','summer-explosion','snow','recovery','spring-surge',
-    'flowering','thriving','current-state','timeline','species','honest'];
-  
-  function updateTOC() {
-    let current = sections[0];
-    for (const id of sections) {
-      const el = document.getElementById(id);
-      if (el && el.getBoundingClientRect().top < window.innerHeight * 0.4) {
-        current = id;
-      }
-    }
-    dots.forEach((dot, i) => {
-      dot.classList.toggle('active', sections[i] === current);
-    });
-  }
-  window.addEventListener('scroll', updateTOC, {passive: true});
-  updateTOC();
-</script>
-
-
-<script is:inline>
-  // Sticky jump menu via JS (CSS sticky unreliable with sibling layout)
+  // STICKY JUMP MENU
   const jumpMenu = document.querySelector('.jump-menu');
   if (jumpMenu) {
-    const sentinel = document.createElement('div');
-    sentinel.style.height = '1px';
-    jumpMenu.parentNode.insertBefore(sentinel, jumpMenu);
-    
-    const observer = new IntersectionObserver(([entry]) => {
-      jumpMenu.classList.toggle('is-stuck', !entry.isIntersecting);
-    }, { threshold: 0, rootMargin: '-48px 0px 0px 0px' });
-    
-    observer.observe(sentinel);
+    const navHeight = document.querySelector('.nav')?.offsetHeight || 48;
+    let menuTop = jumpMenu.getBoundingClientRect().top + window.scrollY;
+    function checkSticky() {
+      jumpMenu.classList.toggle('is-stuck', window.scrollY > menuTop - navHeight);
+    }
+    window.addEventListener('scroll', checkSticky, {passive: true});
+    checkSticky();
   }
+
+});
 </script>
 
 </BaseLayout>
