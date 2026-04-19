@@ -93,27 +93,45 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
 
   @media (max-width: 768px) {
     .project-hero { grid-template-columns: 1fr; }
-    .project-hero .hero-img-wrap { height: 50vw; overflow: hidden; }
-    .hero-content { padding: 2rem 1.5rem; }
+    .project-hero .hero-img-wrap { height: 56vw; overflow: hidden; }
+    .hero-content { padding: 1.75rem 1.25rem; }
+    .hero-title { font-size: 2.8rem; line-height: 1; }
+    .hero-desc { font-size: 0.92rem; }
     .stats-bar { grid-template-columns: 1fr 1fr; }
+    .stat { padding: 1.25rem 0.75rem; }
+    .stat-number { font-size: 2rem; }
     .ba-grid { grid-template-columns: 1fr; }
-    .photo-grid { grid-template-columns: 1fr 1fr; }
+    .photo-grid { grid-template-columns: 1fr 1fr; gap: 1px; }
     .photo-grid.two-col { grid-template-columns: 1fr; }
+    .photo-caption { font-size: 0.56rem; padding: 0.4rem 0.5rem; line-height: 1.35; }
     .honest-grid { grid-template-columns: 1fr; }
-    .timeline-item { grid-template-columns: 1fr; gap: 0.25rem; }
-    .section { padding: 2.5rem 1.25rem; }
-    .nav-links { gap: 1rem; }
-    .nav-links a { font-size: 0.62rem; }
-    .footer { flex-direction: column; gap: 1rem; padding: 1.5rem; }
-    .photo-caption { font-size: 0.55rem; }
-    .section-title { font-size: 2rem; }
-    .hero-title { font-size: 2.5rem; }
+    .timeline-item { grid-template-columns: 1fr; gap: 0.2rem; }
+    .timeline-date { font-size: 0.6rem; padding-top: 0; color: var(--lime); }
+    .timeline-content { font-size: 0.88rem; }
+    .section { padding: 2rem 1rem; }
+    .section-title { font-size: 1.8rem; }
+    .section-label { font-size: 0.6rem; }
+    .section-body { font-size: 0.92rem; }
+    .species-grid { grid-template-columns: 1fr 1fr; gap: 0.6rem; }
+    .species-group { padding: 0.9rem; }
+    .species-list { font-size: 0.82rem; line-height: 1.7; }
+    .nav-links { gap: 0.8rem; }
+    .nav-links a { font-size: 0.6rem; }
+    .nav { padding: 1rem 1.25rem; }
+    .nav-logo { font-size: 1.4rem; }
+    .breadcrumb { padding: 0.6rem 1rem; font-size: 0.58rem; }
+    .footer { flex-direction: column; gap: 0.75rem; padding: 1.25rem; }
+    .honest-card { padding: 1.1rem; }
+    .honest-card-body { font-size: 0.85rem; }
   }
   @media (max-width: 480px) {
     .photo-grid { grid-template-columns: 1fr; }
     .stats-bar { grid-template-columns: 1fr 1fr; }
-    .nav-links a { font-size: 0.55rem; }
-    .nav-links { gap: 0.6rem; }
+    .nav-links a { font-size: 0.52rem; }
+    .nav-links { gap: 0.5rem; }
+    .hero-title { font-size: 2.2rem; }
+    .species-grid { grid-template-columns: 1fr; }
+    .stat-number { font-size: 1.75rem; }
   }
 
   /* TOC */
@@ -124,7 +142,8 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
   .toc-dot:hover .toc-label { opacity: 1; }
   @media (max-width: 900px) { .toc-float { display: none; } }
   /* JUMP MENU mobile */
-  .jump-menu { display: none; padding: 0.6rem 1.25rem; border-bottom: 1px solid rgba(139,184,58,0.1); background: rgba(28,24,18,0.97); position: sticky; top: 48px; z-index: 90; backdrop-filter: blur(8px); }
+  .jump-menu { display: none; padding: 0.6rem 1.25rem; border-bottom: 1px solid rgba(139,184,58,0.1); background: rgba(28,24,18,0.97); z-index: 90; }
+  .jump-menu.is-stuck { position: fixed; top: 48px; left: 0; right: 0; backdrop-filter: blur(8px); box-shadow: 0 2px 8px rgba(0,0,0,0.4); }
   .jump-select { width: 100%; font-family: 'Space Mono', monospace; font-size: 0.65rem; background: var(--bark); color: var(--ash); border: 1px solid rgba(139,184,58,0.2); padding: 0.5rem 0.75rem; letter-spacing: 0.06em; cursor: pointer; }
   @media (max-width: 900px) { .jump-menu { display: block; } }
 
@@ -985,6 +1004,23 @@ const photoCount = (_self.match(/src="\/media\/food-forest\//g) || []).length;
   }
   window.addEventListener('scroll', updateTOC, {passive: true});
   updateTOC();
+</script>
+
+
+<script is:inline>
+  // Sticky jump menu via JS (CSS sticky unreliable with sibling layout)
+  const jumpMenu = document.querySelector('.jump-menu');
+  if (jumpMenu) {
+    const sentinel = document.createElement('div');
+    sentinel.style.height = '1px';
+    jumpMenu.parentNode.insertBefore(sentinel, jumpMenu);
+    
+    const observer = new IntersectionObserver(([entry]) => {
+      jumpMenu.classList.toggle('is-stuck', !entry.isIntersecting);
+    }, { threshold: 0, rootMargin: '-48px 0px 0px 0px' });
+    
+    observer.observe(sentinel);
+  }
 </script>
 
 </BaseLayout>
