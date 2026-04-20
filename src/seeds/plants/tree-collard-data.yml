@@ -2,8 +2,8 @@ common_name: Tree Collard
 picture: tree_collard.webp
 scientific_name: Brassica oleracea var. acephala 'Tree Collard'
 aka:
-  - Tree Kale
-  - Tree Cabbage
+- Tree Kale
+- Tree Cabbage
 family: Brassicaceae
 zone: 8-10
 ideal_temp_min: 55
@@ -12,15 +12,15 @@ min_temp: 20
 max_temp: 95
 perennial: true
 layers:
-  - Shrub
+- Shrub
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Mulcher
-  - Dynamic Accumulator
-  - Erosion Control
-  - Animal Fodder
-  - Border Plant
+- Edible
+- Wildlife Attractor
+- Mulcher
+- Dynamic Accumulator
+- Erosion Control
+- Animal Fodder
+- Border Plant
 description: |-
   Tree collards are perennial leafy greens belonging to the Brassica family, closely related to traditional collards and kale. They can grow over 1.8 meters (6 feet) tall, developing into tall, spindly plants with few leaves if left unpruned. The leaves are large, crinkly, and range in color from blue-green to purple, depending on the variety. Tree collards are known for their mild flavor and are a reliable source of nutritious greens year-round.
 
@@ -32,43 +32,43 @@ description: |-
 purpose: |-
   Edible: Perennial Brassica oleracea var. acephala leaves stay mild year-round in mild winters -- harvest 15--20 cm blades continuously from pruned plants to prevent leggy, leaf-sparse poles.
   Wildlife Attractor: Yellow four-petaled flowers on tall bolting stems feed generalist pollinators whenever you let a plant cycle to seed -- skip this if brassica pests already own your block.
-  Mulcher: Large crinkled leaves drop steadily; chop-and-drop prunings feed the guild floor without importing straw from off-site.
+  Mulcher: Large crinkled leaves drop steadily -- chop-and-drop prunings feed the guild floor without importing straw from off-site.
   Dynamic Accumulator: Deep, fleshy roots mine calcium and other minerals into leaf tissue that returns to soil via mulch and compost cycles.
   Erosion Control: Fibrous root mats and continuous leaf cover armor sloping beds where annual brassicas would leave bare soil between plantings.
   Animal Fodder: Protein-forward foliage accepts the same brassica pest vigilance as kale -- useful poultry browse when caged from trunk collars.
   Border Plant: Repeated hard pruning keeps a 6 ft+ edible hedge along paths -- thornless but visually assertive compared with soft herbs.
 companions:
-  - slug: chives
-    name: Chives
-  - slug: marigold
-    name: Marigold
-  - slug: mint
-    name: Mint
-  - slug: rosemary
-    name: Rosemary
-  - slug: onion
-    name: Onion
+- slug: chives
+  name: Chives
+- slug: marigold
+  name: Marigold
+- slug: mint
+  name: Mint
+- slug: rosemary
+  name: Rosemary
+- slug: onion
+  name: Onion
 cautions:
-  - Tomato
-  - Strawberry
+- Tomato
+- Strawberry
 pests:
-  - Aphids
-  - Cabbage Aphid
-  - Cabbage Looper
-  - Cabbage Root Fly
-  - Cabbage Root Maggots
-  - Cabbage Worms
-  - Cross-striped Cabbageworm
-  - Diamondback Moth
-  - Flea Beetles
-  - Harlequin Bug
-  - Imported Cabbageworm
-  - Slugs
-  - Swede Midge
-  - Root Rot
+- Aphids
+- Cabbage Aphid
+- Cabbage Looper
+- Cabbage Root Fly
+- Cabbage Root Maggots
+- Cabbage Worms
+- Cross-striped Cabbageworm
+- Diamondback Moth
+- Flea Beetles
+- Harlequin Bug
+- Imported Cabbageworm
+- Slugs
+- Swede Midge
+- Root Rot
 growth_habit: Tree
 data_quality_score: 0.8
 companions_normalized:
-  - original: Chive
-    resolved_slug: chives
-    name: Chives
+- original: Chive
+  resolved_slug: chives
+  name: Chives

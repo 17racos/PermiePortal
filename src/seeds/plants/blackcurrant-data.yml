@@ -10,12 +10,12 @@ min_temp: -20
 max_temp: 0
 perennial: true
 layers:
-  - Shrub
+- Shrub
 plant_function:
-  - Edible
-  - Medicinal
-  - Wildlife Attractor
-  - Border Plant
+- Edible
+- Medicinal
+- Wildlife Attractor
+- Border Plant
 description: |-
   Blackcurrant (Ribes nigrum) is a deciduous shrub native to Europe and parts of northern Asia. It typically grows about 1–1.5 m (3–5 ft) tall and forms dense canes topped with fragrant leaves and clusters of dark berries. In permaculture, blackcurrant earns its spot as a reliable small-structure plant: it gives edible fruit, supports beneficial insects with early blooms, and leaves behind prunable wood and leaf litter that feed the soil cycle.
 
@@ -27,19 +27,19 @@ description: |-
 purpose: |-
   Edible: Ribes nigrum yields tart black berries high in vitamin C for jam, cordial, and freezer batches when the cluster ripens unevenly across the bush.
   Medicinal: Dark skins and seeds carry anthocyanins and polyphenols used in concentrated syrups and teas where growers already meter sugar load and serving size like other tart small fruits.
-  Wildlife Attractor: Early yellow-green racemes pull bees in cool spring; ripe strings feed birds fast unless you net the ends you mean to keep.
+  Wildlife Attractor: Early yellow-green racemes pull bees in cool spring -- ripe strings feed birds fast unless you net the ends you mean to keep.
   Border Plant: Woody canes sprout from the base so you can renew a low screen by removing old wood without replanting the whole line.
 companions:
-  - slug: comfrey
-    name: Comfrey
-  - slug: garlic
-    name: Garlic
-  - slug: nasturtium
-    name: Nasturtium
+- slug: comfrey
+  name: Comfrey
+- slug: garlic
+  name: Garlic
+- slug: nasturtium
+  name: Nasturtium
 cautions:
-  - Avoid planting near white pine (Pinus strobus) due to blister rust host concerns.
+- Avoid planting near white pine (Pinus strobus) due to blister rust host concerns.
 pests:
-  - Aphids
-  - Scale Insects
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Scale Insects
+- Root Rot
+- Caterpillars

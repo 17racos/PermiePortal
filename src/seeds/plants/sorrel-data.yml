@@ -2,10 +2,10 @@ common_name: Sorrel
 picture: sorrel.webp
 scientific_name: Rumex acetosa
 aka:
-  - Garden Sorrel
-  - Common Sorrel
-  - Spinach Dock
-  - Narrow-leaved Dock
+- Garden Sorrel
+- Common Sorrel
+- Spinach Dock
+- Narrow-leaved Dock
 family: Polygonaceae
 zone: 3-7
 ideal_temp_min: 60°F (16°C)
@@ -14,12 +14,12 @@ min_temp: -40°F (-40°C)
 max_temp: 85°F (29°C)
 perennial: true
 layers:
-  - Ground Cover
+- Ground Cover
 plant_function:
-  - Edible
-  - Medicinal
-  - Ground Cover
-  - Wildlife Attractor
+- Edible
+- Medicinal
+- Ground Cover
+- Wildlife Attractor
 description: |-
   Sorrel (*Rumex acetosa*), also known as Garden Sorrel or Common Sorrel, is a perennial herbaceous plant native to Eurasia and commonly found in grassland habitats. It typically reaches heights of up to 60 centimeters (24 inches), featuring slender, juicy stems and arrow-shaped (sagittate) leaves that grow from a rosette. The lower leaves are 7 to 15 centimeters (2.8 to 5.9 inches) in length with long petioles, while the upper leaves are sessile and often turn crimson. Sorrel produces whorled spikes of reddish-green flowers in early summer, which later become purplish. The plant is dioecious, meaning individual plants are either male or female. It thrives in moist, well-drained soils and can grow in poor soil conditions.
 
@@ -32,24 +32,24 @@ purpose: |-
   Edible: Rumex acetosa spear-shaped leaves carry oxalic zip for spring soups -- blanch generously if kidneys already fight stone chemistry.
   Medicinal: European herbals leaned on cooled sorrel teas for bowel support -- confirm modern contraindications before therapeutic daily quarts.
   Ground Cover: Low rosettes elbow out chickweed along moist partial-shade paths where mowing skips.
-  Wildlife Attractor: Tiny green flower spikes feed small pollinators while copper skipper larvae chew leaves thin enough to spot mines from the path.
+  Wildlife Attractor: Tiny green flower spikes feed small pollinators -- while copper skipper larvae chew leaves thin enough to spot mines from the path.
 companions:
-  - slug: strawberry
-    name: Strawberry
-  - slug: chives
-    name: Chives
-  - slug: cabbage
-    name: Cabbage
+- slug: strawberry
+  name: Strawberry
+- slug: chives
+  name: Chives
+- slug: cabbage
+  name: Cabbage
 cautions:
-  - None reported
+- None reported
 pests:
-  - Aphids
-  - Rhubarb Curculio
-  - Slugs
-  - Snails
+- Aphids
+- Rhubarb Curculio
+- Slugs
+- Snails
 growth_habit: Tree
 data_quality_score: 0.8
 companions_normalized:
-  - original: Strawberries
-    resolved_slug: strawberry
-    name: Strawberry
+- original: Strawberries
+  resolved_slug: strawberry
+  name: Strawberry

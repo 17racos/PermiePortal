@@ -2,8 +2,8 @@ common_name: Cherimoya
 picture: cherimoya.webp
 scientific_name: Annona cherimola
 aka:
-  - Custard Apple
-  - Ice Cream Fruit
+- Custard Apple
+- Ice Cream Fruit
 family: Annonaceae
 zone: 10-11
 ideal_temp_min: 65
@@ -12,12 +12,12 @@ min_temp: 28
 max_temp: 100
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Edible
-  - Ornamental
-  - Shade Provider
-  - Wildlife Attractor
+- Edible
+- Ornamental
+- Shade Provider
+- Wildlife Attractor
 description: |-
   Cherimoya is a smallish deciduous-to-semi-evergreen annonaceous tree with hand-sized, scaly green fruit and sweet, custardy flesh that tastes like someone crossed a pear with a pineapple and a hug. Hand pollination is often required outside its native Andean window because natural pollinators can be lazy tourists. Warm outer margins are marginal—occasional fruit in the warmest pockets, more reliable deep into true tropical climates. Young trees are frost-tender; established specimens tolerate brief cool dips better than hype suggests, but not a real freeze party.
 
@@ -32,25 +32,25 @@ purpose: |-
   Edible: scaly green fruit ripens off-tree to custard flesh when hand pollination fills carpels in frost-protected orchards where two genetically distinct clones cross pollen with a brush.
   Ornamental: gray-green deciduous leaves and open branching read sculptural in courtyards even on years when beetle pollination fails and fruit set stays sparse.
   Shade Provider: rounded crown throws humid subtropical shade over understory cacao, vanilla vines, or nursery tables once scaffold limbs lift above head height.
-  Wildlife Attractor: protogynous flowers perfume nights for beetles while ripe soft fruit draws fruit flies and mammals unless mesh bags protect clusters at sugar rise.
+  Wildlife Attractor: protogynous flowers perfume nights for beetles -- while ripe soft fruit draws fruit flies and mammals unless mesh bags protect clusters at sugar rise.
 companions:
-  - slug: ice-cream-bean-tree
-    name: Ice Cream Bean Tree
-  - slug: papaya
-    name: Papaya
-  - slug: banana
-    name: Banana
-  - slug: cacao
-    name: Cacao
+- slug: ice-cream-bean-tree
+  name: Ice Cream Bean Tree
+- slug: papaya
+  name: Papaya
+- slug: banana
+  name: Banana
+- slug: cacao
+  name: Cacao
 cautions:
-  - Flooded soil
-  - Wind-exposed hilltops
+- Flooded soil
+- Wind-exposed hilltops
 pests:
-  - Scale Insects
-  - Mealybugs
-  - Aphids
-  - Caribbean Fruit Fly
+- Scale Insects
+- Mealybugs
+- Aphids
+- Caribbean Fruit Fly
 companions_normalized:
-  - original: Ice Cream Bean
-    resolved_slug: ice-cream-bean-tree
-    name: Ice Cream Bean Tree
+- original: Ice Cream Bean
+  resolved_slug: ice-cream-bean-tree
+  name: Ice Cream Bean Tree
