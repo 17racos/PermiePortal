@@ -7,3 +7,10 @@ dist/
 
 
 
+logs/daily.log
+
+# Migration artifacts
+backups/
+exports/
+/tmp/permie_*.log
+review/cursor_enrich_*.md
