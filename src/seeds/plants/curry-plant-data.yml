@@ -10,11 +10,11 @@ min_temp: 20
 max_temp: 0
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Edible
-  - Medicinal
-  - Wildlife Attractor
+- Edible
+- Medicinal
+- Wildlife Attractor
 description: |-
   Curry plant (Murraya koenigii) is an evergreen aromatic shrub native to tropical regions of Asia, grown for its glossy compound leaves with a distinct curry-like fragrance. It typically forms a bushy canopy and can be kept as a medium-height shrub in managed gardens, with new leaf flushes throughout warm seasons. In permaculture, it’s valuable because it turns a living shrub into a continuous kitchen harvest, while its flowers contribute nectar support and its leaf litter helps keep the understory fed.
 
@@ -26,18 +26,18 @@ description: |-
 purpose: |-
   Edible: Murraya koenigii leaves supply continuous aromatic harvests for tempering oil -- pick young leaflets for brightest carbazole-related flavor oils.
   Medicinal: Traditional use targets aromatic bitters for appetite and metabolism -- treat leaf chemistry as potent; research contraindications.
-  Wildlife Attractor: Panicles of small, sweet-scented flowers feed generalist pollinators along kitchen herb rows in frost-free climates.
+  Wildlife Attractor: Panicles of small, sweet-scented flowers feed generalist pollinators -- along kitchen herb rows in frost-free climates.
 companions:
-  - slug: ginger
-    name: Ginger
-  - slug: garlic
-    name: Garlic
-  - slug: marigold
-    name: Marigold
+- slug: ginger
+  name: Ginger
+- slug: garlic
+  name: Garlic
+- slug: marigold
+  name: Marigold
 cautions:
-  - Avoid planting where winter freezes repeatedly damage young growth; cold-stressed plants become pest magnets.
+- Avoid planting where winter freezes repeatedly damage young growth; cold-stressed plants become pest magnets.
 pests:
-  - Aphids
-  - Spider Mites
-  - Whiteflies
-  - Root Rot
+- Aphids
+- Spider Mites
+- Whiteflies
+- Root Rot

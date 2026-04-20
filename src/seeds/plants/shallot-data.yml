@@ -10,11 +10,11 @@ min_temp: -40
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Pest Management
-  - Medicinal
+- Edible
+- Pest Management
+- Medicinal
 description: |-
   Shallot (Allium cepa var. aggregatum) is an allium grown for its mild, multi-clove bulbs and flavorful greens. It is native to parts of Europe and Asia and is widely cultivated as a cool-season vegetable that stores well. Plants typically reach about 25–45 cm (10–18 in) tall with clustered bulbs underground. In permaculture, shallots matter because they provide reliable edible harvests while their strong allium scent helps confuse some pest movement and supports rotation diversity—an underrated system-level advantage.
 
@@ -25,18 +25,18 @@ description: |-
   Harvest when tops start to yellow and fall over; cure bulbs in airflow. Use fresh greens early, then harvest bulbs when fully formed. Store cool and dry for later cooking.
 purpose: |-
   Edible: Allium cepa var. aggregatum divides into clustered cloves mild enough for raw pickle yet sweet enough under duck fat -- cure until necks tighten for winter cellar storage.
-  Pest Management: Allyl sulfides released from bruised foliage confuse carrot rust flies and onion maggot adults when shallow-rooted carrot rows flank shallot drills in tight rotations.
+  Pest Management: Allyl sulfides released from bruised foliage confuse carrot rust flies and onion maggot adults -- when shallow-rooted carrot rows flank shallot drills in tight rotations.
   Medicinal: Fermented syrup traditions sit beside documented circulatory sulfur chemistry -- reserve therapeutic claims for clinicians while you rely on bulbs for layered flavor first.
 companions:
-  - slug: carrot
-    name: Carrot
-  - slug: lettuce
-    name: Lettuce
-  - slug: garlic
-    name: Garlic
+- slug: carrot
+  name: Carrot
+- slug: lettuce
+  name: Lettuce
+- slug: garlic
+  name: Garlic
 cautions:
-  - Avoid persistent wetness; alliums rot when soil stays soggy.
+- Avoid persistent wetness; alliums rot when soil stays soggy.
 pests:
-  - Aphids
-  - Slugs
-  - Root Rot
+- Aphids
+- Slugs
+- Root Rot

@@ -10,11 +10,11 @@ min_temp: 15
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Medicinal
-  - Ground Cover
+- Edible
+- Medicinal
+- Ground Cover
 description: |-
   Spinach (Spinacia oleracea) is a cool-season leafy green grown for its tender leaves eaten fresh or cooked. It originated in Persia and quickly became a staple across temperate vegetable gardens, where it performs best in cool weather. Plants typically grow about 15–30 cm (6–12 in) tall in rosettes, and in permaculture spinach matters because it turns short, cool windows into repeatable nutrition while the leaf canopy shades soil and helps keep beds usable between longer crop cycles. Regular harvests also encourage fresh leaf production when temperatures are still forgiving.
 
@@ -26,19 +26,19 @@ description: |-
 purpose: |-
   Edible: Spinacia oleracea savoy leaves stack vitamin A and nitrate punch for spring salads -- harvest outer leaves before stalks elongate into bitter seed pillars.
   Medicinal: Iron-folate nutrition underpins clinic advice for anemia-prone diets -- coordinate portions with blood-thinning meds because vitamin K density is real.
-  Ground Cover: Dense rosettes shade spinach alleys under taller brassicas so weed seeds never see sunlight between rows.
+  Ground Cover: Dense rosettes shade spinach alleys under taller brassicas so weed seeds never see sunlight -- between rows.
 companions:
-  - slug: lettuce
-    name: Lettuce
-  - slug: garlic
-    name: Garlic
-  - slug: radish
-    name: Radish
+- slug: lettuce
+  name: Lettuce
+- slug: garlic
+  name: Garlic
+- slug: radish
+  name: Radish
 cautions:
-  - Heat triggers bolting; plan shade or shift sowing windows.
+- Heat triggers bolting; plan shade or shift sowing windows.
 pests:
-  - Aphids
-  - Slugs
-  - Root Rot
-  - Cucumber Mosaic Virus
-  - Caterpillars
+- Aphids
+- Slugs
+- Root Rot
+- Cucumber Mosaic Virus
+- Caterpillars

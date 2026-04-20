@@ -2,8 +2,8 @@ common_name: Thai Basil
 picture: thai_basil.webp
 scientific_name: Ocimum basilicum var. thyrsiflorum
 aka:
-  - Horapha
-  - Anise basil
+- Horapha
+- Anise basil
 family: Lamiaceae
 zone: 9-11
 ideal_temp_min: 65
@@ -12,11 +12,11 @@ min_temp: 32
 max_temp: 100
 perennial: false
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Pollinator
-  - Pest Management
+- Edible
+- Pollinator
+- Pest Management
 description: |-
   Thai basil is the liquorice-mint square-stemmed workhorse of stir-fries and phở—purple stems, pointed leaves, and flower spikes bees treat like a runway. Distinct from sweet basil; do not substitute unless you enjoy flavor chaos.
 
@@ -30,29 +30,29 @@ description: |-
   Pinch tips and flower spikes for continuous kitchen harvest until frost stops growth.
 purpose: |-
   Edible: Ocimum basilicum var. thyrsiflorum liquorice spikes strip into beef salads and chili oil -- harvest before woodiness because stems toughen faster than Italian sweet types.
-  Pollinator: Purple whorled blooms spike late summer basil rows if you dare delay pesto cuts for bee forage gaps.
-  Pest Management: Eugenol-rich leaf volatiles mask tomato-to-moth cues when tight tomato-basil guilds breathe together in humid frames.
+  Pollinator: Purple whorled blooms spike late summer basil rows -- if you dare delay pesto cuts for bee forage gaps.
+  Pest Management: Eugenol-rich leaf volatiles mask tomato-to-moth cues -- when tight tomato-basil guilds breathe together in humid frames.
 companions:
-  - slug: tomato
-    name: Tomato
-  - slug: bell-pepper
-    name: Bell Pepper
-  - slug: eggplant
-    name: Eggplant
+- slug: tomato
+  name: Tomato
+- slug: bell-pepper
+  name: Bell Pepper
+- slug: eggplant
+  name: Eggplant
 cautions:
-  - Cold wet soil at germination
-  - Dense shade
+- Cold wet soil at germination
+- Dense shade
 pests:
-  - aphids
-  - japanese beetles
-  - whiteflies
+- aphids
+- japanese beetles
+- whiteflies
 growth_habit: Bushy annual basil with upright flower spikes
 data_quality_score: 0.8
 field_observations: No field observations yet
 companions_normalized:
-  - original: Tomatoes
-    resolved_slug: tomato
-    name: Tomato
-  - original: Peppers
-    resolved_slug: bell-pepper
-    name: Bell Pepper
+- original: Tomatoes
+  resolved_slug: tomato
+  name: Tomato
+- original: Peppers
+  resolved_slug: bell-pepper
+  name: Bell Pepper
