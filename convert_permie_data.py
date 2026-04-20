@@ -10,6 +10,7 @@ Changes in v3:
   - companion slug validation + quarantine to companions_unresolved
   - zone parsed into zone_min / zone_max (YAML unchanged)
   - relationships schema expanded with type, evidence, severity, regional
+  - plant_family edges + families.json (taxonomy nodes, derived from plant.family)
   - no silent data loss: all invalid data surfaced or quarantined
 
 Usage:
@@ -101,6 +102,27 @@ def slugify(text):
     text = re.sub(r'[\s_]+', '-', text)
     text = re.sub(r'-+', '-', text)
     return text.strip('-')
+
+
+def family_slug(canonical_name):
+    """
+    Slug for botanical family — matches Astro src/pages/plants/family/[family].astro:
+      f.toLowerCase().replace(/[^a-z0-9]+/g, '-')
+    """
+    s = str(canonical_name or "").strip().lower()
+    if not s:
+        return ""
+    s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+    return s
+
+
+def is_valid_family(family):
+    s = (family or "").strip()
+    if not s:
+        return False
+    if s == "NEEDS_DATA":
+        return False
+    return True
 
 
 def load_yaml_safe(filepath):
@@ -733,6 +755,255 @@ def build_relationships(plants, pests, warnings):
     return relationships
 
 
+# ── FAMILY NODES & PLANT → FAMILY EDGES ───────────────────────────────────────
+
+def enrich_family_nodes(family_nodes, plants, relationships):
+    """
+    Enrich family nodes with pest pressure and trait profiles.
+    Runs after build_family_nodes() and build_plant_family_edges().
+    Modifies family_nodes in place. Returns pest_family_index.
+    """
+    from collections import defaultdict, Counter as _Counter
+
+    plant_by_slug = {p["slug"]: p for p in plants}
+
+    # plant → family
+    plant_to_family = {}
+    for r in relationships:
+        if r.get("type") == "plant_family":
+            plant_to_family[r["source_slug"]] = r["target_slug"]
+
+    # family → plants
+    family_to_plants = defaultdict(list)
+    for slug, fam in plant_to_family.items():
+        family_to_plants[fam].append(slug)
+
+    # plant → pests (plant_pest edges only)
+    plant_to_pests = defaultdict(set)
+    for r in relationships:
+        if r.get("type") == "plant_pest":
+            plant_to_pests[r["source_slug"]].add(r.get("pest_name", ""))
+
+    # ── Pest pressure per family ──────────────────────────────────────────────
+    family_pest_pressure = {}
+    for fam_slug, plant_slugs in family_to_plants.items():
+        all_pests = []
+        for ps in plant_slugs:
+            all_pests.extend(p for p in plant_to_pests.get(ps, set()) if p)
+        pest_counter = _Counter(all_pests)
+        family_pest_pressure[fam_slug] = {
+            "plant_count":             len(plant_slugs),
+            "total_pest_associations": len(all_pests),
+            "unique_pests":            len(pest_counter),
+            "avg_pests_per_plant":     round(len(all_pests) / len(plant_slugs), 2)
+                                       if plant_slugs else 0,
+            "top_pests":               [{"name": n, "count": c}
+                                        for n, c in pest_counter.most_common(5)],
+        }
+
+    # ── Trait profiles per family ─────────────────────────────────────────────
+    family_traits = {}
+    for fam_slug, plant_slugs in family_to_plants.items():
+        fam_plants = [plant_by_slug[ps] for ps in plant_slugs if ps in plant_by_slug]
+        functions_all = []
+        layers_all    = []
+        perennial_count = 0
+        for p in fam_plants:
+            functions_all.extend(p.get("plant_function", []) or [])
+            layers_all.extend(p.get("layers", []) or [])
+            if p.get("perennial"):
+                perennial_count += 1
+        fn_counter  = _Counter(functions_all)
+        lay_counter = _Counter(layers_all)
+        family_traits[fam_slug] = {
+            "top_functions":  [{"name": n, "count": c}
+                                for n, c in fn_counter.most_common(5)],
+            "top_layers":     [{"name": n, "count": c}
+                                for n, c in lay_counter.most_common(3)],
+            "perennial_ratio": round(perennial_count / len(fam_plants), 2)
+                               if fam_plants else 0,
+            "nitrogen_fixers": fn_counter.get("Nitrogen Fixer", 0),
+        }
+
+    # ── Pest → family reverse index ───────────────────────────────────────────
+    pest_to_families = defaultdict(lambda: defaultdict(int))
+    for r in relationships:
+        if r.get("type") == "plant_pest":
+            fam_slug = plant_to_family.get(r["source_slug"])
+            if fam_slug:
+                pest_to_families[r.get("pest_name", "")][fam_slug] += 1
+
+    pest_family_index = {}
+    for pest_name, fam_counts in pest_to_families.items():
+        if not pest_name:
+            continue
+        total = sum(fam_counts.values())
+        pest_family_index[pest_name] = {
+            "total_plants_affected": total,
+            "families": [
+                {
+                    "family_slug": fs,
+                    "plant_count": c,
+                    "exposure": round(
+                        c / family_pest_pressure[fs]["plant_count"], 2
+                    ) if fs in family_pest_pressure else 0,
+                }
+                for fs, c in sorted(fam_counts.items(), key=lambda x: -x[1])
+            ],
+        }
+
+    # ── Merge into family nodes in place ──────────────────────────────────────
+    for node in family_nodes:
+        slug = node["slug"]
+        node["pest_pressure"] = family_pest_pressure.get(slug, {
+            "plant_count": node.get("plant_count", 0),
+            "total_pest_associations": 0,
+            "unique_pests": 0,
+            "avg_pests_per_plant": 0,
+            "top_pests": [],
+        })
+        node["trait_profile"] = family_traits.get(slug, {
+            "top_functions": [],
+            "top_layers": [],
+            "perennial_ratio": 0,
+            "nitrogen_fixers": 0,
+        })
+
+    return pest_family_index
+
+
+def build_family_nodes(plants, warnings):
+    """
+    One node per unique family slug derived from plant.family.
+    Deterministic order: sorted by slug.
+    """
+    slug_to_canonicals = defaultdict(set)
+    slug_counts = defaultdict(int)
+
+    for p in plants:
+        fam = (p.get("family") or "").strip()
+        if not is_valid_family(fam):
+            continue
+        slug = family_slug(fam)
+        if not slug:
+            warnings.append(
+                f"  ⚠️  FAMILY SLUG EMPTY [{p.get('common_name', '')}]: "
+                f"family={fam!r} — skipped for graph"
+            )
+            continue
+        slug_to_canonicals[slug].add(fam)
+        slug_counts[slug] += 1
+
+    nodes = []
+    for slug in sorted(slug_to_canonicals.keys()):
+        canonicals = sorted(slug_to_canonicals[slug])
+        if len(canonicals) > 1:
+            warnings.append(
+                f"  ⚠️  FAMILY CANONICAL COLLISION [slug={slug}]: "
+                f"{canonicals} — using {canonicals[0]!r}"
+            )
+        nodes.append({
+            "slug": slug,
+            "canonical_name": canonicals[0],
+            "plant_count": slug_counts[slug],
+            "source": "derived_from_plants",
+        })
+    return nodes
+
+
+def build_plant_family_edges(plants):
+    """
+    One plant_family edge per plant with a valid, slugifiable family.
+    IDs: {plant_slug}__{family_slug}__plant_family
+    """
+    seen = set()
+    edges = []
+
+    for plant in plants:
+        fam = (plant.get("family") or "").strip()
+        if not is_valid_family(fam):
+            continue
+        fs = family_slug(fam)
+        if not fs:
+            continue
+
+        rel_id = f"{plant['slug']}__{fs}__plant_family"
+        if rel_id in seen:
+            continue
+        seen.add(rel_id)
+
+        edges.append({
+            "id": rel_id,
+            "type": "plant_family",
+            "source_slug": plant["slug"],
+            "source_type": "plant",
+            "target_slug": fs,
+            "target_type": "family",
+            "severity": None,
+            "regional": [],
+            "evidence": "taxonomy",
+            "plant_slug": plant["slug"],
+            "plant_name": plant["common_name"],
+            "family_slug": fs,
+            "family_name": fam,
+        })
+
+    return edges
+
+
+def validate_family_graph(plants, families, plant_family_edges):
+    """
+    - Every plant with a valid, slugifiable family has exactly one plant_family edge.
+    - Every target family slug in edges exists in families.json.
+    """
+    family_slugs = {f["slug"] for f in families}
+
+    for fs in {e["target_slug"] for e in plant_family_edges}:
+        if fs not in family_slugs:
+            print(
+                f"\n❌ FAMILY VALIDATION: edge references unknown family slug {fs!r} "
+                f"(not in families.json)",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+
+    by_plant = Counter(e["plant_slug"] for e in plant_family_edges)
+
+    for p in plants:
+        fam = (p.get("family") or "").strip()
+        if not is_valid_family(fam):
+            if by_plant[p["slug"]] != 0:
+                print(
+                    f"\n❌ FAMILY VALIDATION: plant {p['slug']!r} has plant_family edge(s) "
+                    f"but family is invalid or NEEDS_DATA",
+                    file=sys.stderr,
+                )
+                sys.exit(1)
+            continue
+
+        fs = family_slug(fam)
+        if not fs:
+            if by_plant[p["slug"]] != 0:
+                print(
+                    f"\n❌ FAMILY VALIDATION: plant {p['slug']!r} has edge but family "
+                    f"slug is empty",
+                    file=sys.stderr,
+                )
+                sys.exit(1)
+            continue
+
+        n = by_plant[p["slug"]]
+        if n != 1:
+            print(
+                f"\n❌ FAMILY VALIDATION: plant {p['slug']!r} expected 1 plant_family edge, "
+                f"got {n}",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+
+    return True
+
+
 # ── MAIN ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -819,7 +1090,16 @@ def main():
     # ── Build relationships ─────────────────────────────────────────────────
     print("\n🔗 Building relationships...")
     relationships = build_relationships(plants, pests, all_warnings)
-    print(f"  ✅ {len(relationships)} relationships mapped")
+    print(f"  ✅ {len(relationships)} plant_pest relationships mapped")
+
+    family_nodes = build_family_nodes(plants, all_warnings)
+    plant_family_edges = build_plant_family_edges(plants)
+    validate_family_graph(plants, family_nodes, plant_family_edges)
+    relationships = relationships + plant_family_edges
+    print(f"  ✅ {len(plant_family_edges)} plant_family edges")
+    print(f"  ✅ {len(family_nodes)} family nodes")
+    pest_family_index = enrich_family_nodes(family_nodes, plants, relationships)
+    print(f"  ✅ Family nodes enriched with pest pressure + trait profiles")
 
     # ── Build pest category index from processed pests ─────────────────────
     pest_category_index = {p['name'].lower(): p['category'] for p in pests}
@@ -828,8 +1108,10 @@ def main():
     STRESSOR_CATEGORIES = frozenset({'disease', 'abiotic', 'animal_pressure'})
 
     for plant in plants:
-        rel_pests = [r['pest_name'] for r in relationships
-                     if r['plant_slug'] == plant['slug']]
+        rel_pests = [
+            r['pest_name'] for r in relationships
+            if r.get('type') == 'plant_pest' and r.get('plant_slug') == plant['slug']
+        ]
         raw_pests = plant.pop('_raw_pests', [])
         rel_lower = {p.lower() for p in rel_pests}
         extra = [p for p in raw_pests if p.lower() not in rel_lower]
@@ -888,12 +1170,14 @@ def main():
     print("=" * 50)
     print(f"  Plants:        {len(plants)}")
     print(f"  Pests:         {len(pests)}")
-    print(f"  Relationships: {len(relationships)}")
+    plant_pest_only = [r for r in relationships if r.get('type') == 'plant_pest']
+    print(f"  Relationships: {len(relationships)} ({len(plant_pest_only)} plant_pest + "
+          f"{len(relationships) - len(plant_pest_only)} other)")
     print(f"  Warnings:      {len(all_warnings)}")
 
     for label, counter_key in [("Most pest-affected plants", "plant_name"),
                                 ("Most widespread pests", "pest_name")]:
-        counts = Counter(r[counter_key] for r in relationships).most_common(5)
+        counts = Counter(r[counter_key] for r in plant_pest_only).most_common(5)
         print(f"\n  {label}:")
         for name, count in counts:
             print(f"    {name}: {count}")
@@ -915,12 +1199,16 @@ def main():
     write_json("plants.json", plants)
     write_json("pests.json", pests)
     write_json("relationships.json", relationships)
+    write_json("families.json", {
+        "families":          family_nodes,
+        "pest_family_index": pest_family_index,
+    })
 
     if not args.no_copy:
         import shutil
         ASTRO_DATA.mkdir(parents=True, exist_ok=True)
         print(f"\n📁 Updating src/data/")
-        for fname in ["plants.json", "pests.json", "relationships.json"]:
+        for fname in ["plants.json", "pests.json", "relationships.json", "families.json"]:
             shutil.copy2(OUTPUT_DIR / fname, ASTRO_DATA / fname)
             print(f"  ✅ {fname}")
         print("\n✅ Done — Astro will hot-reload automatically")
