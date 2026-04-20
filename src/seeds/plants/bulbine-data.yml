@@ -1,40 +1,62 @@
 - common_name: Bulbine
   picture: bulbine.webp
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Bulbine frutescens
+  aka:
+  - Stalked Bulbine
+  - Burn Jelly Plant
+  family: Asphodelaceae
+  zone: 9-11
+  ideal_temp_min: 55
+  ideal_temp_max: 90
+  min_temp: 28
+  max_temp: 105
   perennial: true
   layers:
-  - NEEDS_DATA
-  plant_function: []
-  growth_habit: "NEEDS_DATA"
-  description: "NEEDS_DATA"
+  - Herb
+  - Ground Cover
+  plant_function:
+  - Edible
+  - Medicinal
+  - Ground Cover
+  - Pollinator
+  - Ornamental
+  - Border Plant
+  growth_habit: Herbaceous succulent perennial
+  description: |-
+    Bulbine (Bulbine frutescens) is a clumping, succulent perennial from southern Africa that forms neat rosettes of narrow, fleshy leaves and sends up slender spikes of starry yellow or orange flowers for much of the year in frost-free climates. Plants typically reach 30 to 60 cm (12 to 24 inches) tall and spread slowly into dense mats, making them useful as a low border or dry-garden ground layer. The fresh leaf gel is widely used like aloe for minor skin irritation, which is why it is often called burn jelly plant in horticulture.
+
+    In permaculture and dry gardens across warm temperate to subtropical zones, bulbine fills the niche of a tough, rabbit-resistant filler between larger succulents and herbs without demanding irrigation once roots establish.
+
+    Give full sun to light shade. It prefers sharply drained soil and tolerates drought well; water deeply but infrequently during establishment, then reduce in the wet season only if soil stays soggy. It does not tolerate hard freezes for long; protect below about 28°F (-2°C) or grow as a seasonal accent in cooler zones.
+
+    Divide offsets from the base in early warm weather, or take individual rosettes with some root attached and replant into dry mix. Seeds can be sown on the surface of sandy mix after danger of frost, keeping trays warm until germination.
+
+    Harvest leaves as needed for topical use; pick from mature rosettes and use promptly. Flowers can be deadheaded to tidy clumps or left for pollinators during peak bloom flushes.
   purpose: |-
-    FunctionName: description of what this plant does -- mechanism or behavior
-    FunctionName: description of what this plant does -- mechanism or behavior
+    Edible: Young leaves are occasionally eaten cooked in small amounts in traditional use -- treat as a minor potherb only, not a staple, because aloin-related compounds in related genera warrant caution and positive ID.
+    Medicinal: Fresh gel from crushed leaves is applied to sunburn and insect bites -- mucilage soothes tissue while the plant is kept as a living first-aid patch beside paths in dry gardens.
+    Ground Cover: Dense fibrous roots and low foliage knit bare soil under shrubs -- use between larger succulents to suppress weeds without shading them out.
+    Pollinator: Small yellow to orange flowers open repeatedly in warm weather -- provides nectar to small bees and hoverflies when many temperate perennials are dormant.
+    Ornamental: Evergreen succulent texture and long bloom season suit rockeries and parking strips -- reads as structured color even under reflected heat.
+    Border Plant: Mounded clumps edge paths and beds without flopping -- defines lines in xeriscape designs where turf is undesirable.
   companions:
-  - slug: NEEDS_DATA
-    name: NEEDS_DATA
+  - slug: sedum
+    name: Sedum
+  - slug: echeveria
+    name: Echeveria
+  - slug: agave
+    name: Agave
   cautions:
-  - NEEDS_DATA
+  - None documented
   field_observations: ""
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Spider Mites
+  - Mealybugs
+  - Scale Insects
+  companion_categories:
+  - name: Dry-season succulent polycultures
+    type: system
+  companions_unresolved: []
   # Image attribution: (c) Alan Melville, some rights reserved (CC BY-NC-ND), uploaded by Alan Melville
   # Image source: inaturalist
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
-  # See: review/cursor_enrich_*.md for enrichment instructions
-  companion_categories:
-  - name: NEEDS_DATA
-    original: NEEDS_DATA
-    type: junk
-  companions_unresolved:
-  - name: Echeveria
-    original: Echeveria
-  plant_function_unresolved:
-  - NEEDS_DATA

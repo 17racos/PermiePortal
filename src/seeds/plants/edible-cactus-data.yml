@@ -1,25 +1,43 @@
 - common_name: Edible Cactus
   picture: edible_cactus.webp
-  scientific_name: "NEEDS_DATA"
-  aka: []
-  family: "NEEDS_DATA"
-  zone: "NEEDS_DATA"
-  ideal_temp_min: 0
-  ideal_temp_max: 0
-  min_temp: 0
-  max_temp: 0
+  scientific_name: Opuntia ficus-indica
+  aka:
+  - Nopal
+  - Prickly Pear
+  family: Cactaceae
+  zone: 9-12
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 15
+  max_temp: 115
   perennial: true
   layers:
-  - NEEDS_DATA
-  plant_function: []
-  growth_habit: "NEEDS_DATA"
-  description: "NEEDS_DATA"
+  - Shrub
+  - Ground Cover
+  plant_function:
+  - Edible
+  - Medicinal
+  - Ground Cover
+  - Animal Fodder
+  - Erosion Control
+  - Wildlife Attractor
+  growth_habit: Succulent shrub or small tree
+  description: |-
+    Edible cactus commonly refers to spineless or low-spine prickly pears such as Opuntia ficus-indica, a large, pad-forming cactus from the Americas that is now cultivated worldwide for cladodes (nopal), fruit (tuna), and fodder. Plants develop woody bases and branching, flat cladodes that can reach several meters across; glochids and spines vary by clone, so handle with tongs and gloves. It is a signature crop of dryland food systems because pads and fruit are produced with very little irrigation once established.
+
+    It belongs in full sun in well-drained mineral soil. It tolerates extended drought but grows faster with occasional deep watering in the dry season; avoid standing water or heavy clay that chills roots in winter. In marginal zones, choose cold-hardy selections and plant on slopes or berms for drainage.
+
+    Propagate from pads laid on dry soil until they root, or from seed after the wet season warm-up. Cuttings taken in warm weather root quickly if allowed to callus a few days before planting.
+
+    Harvest young pads when they are thumb-thick and still bright green; glochids must be shaved or blistered off before cooking. Fruit is picked when deep-colored and slightly soft, using tongs and brushes to remove glochids.
   purpose: |-
-    FunctionName: description of what this plant does -- mechanism or behavior
-    FunctionName: description of what this plant does -- mechanism or behavior
+    Edible: Young cladodes and ripe fruit are staple vegetables and beverages across Latin America -- mucilage and fiber arrive with minimal water compared to leafy annuals.
+    Medicinal: Cooked nopal and filtered juices show up in traditional glucose and lipid support protocols -- modern evidence is mixed; coordinate with clinicians if using therapeutically.
+    Ground Cover: Pads root along edges and exclude weeds under fruit trees -- living mulch that survives foot traffic better than herbaceous covers once established.
+    Animal Fodder: Chopped cladodes are drought fodder for cattle and goats after spines are removed -- crude protein and water content buffer dry-season rations.
+    Erosion Control: Shallow but wide root mats bind terrace edges and orchard berms -- slows sheet flow after storms in subtropical dry forests.
+    Wildlife Attractor: Flowers feed native bees; fruit feeds birds and mammals -- place away from narrow paths where dropped fruit could be a slip hazard.
   companions:
-  - slug: NEEDS_DATA
-    name: NEEDS_DATA
   - slug: agave
     name: Agave
   - slug: aloe
@@ -27,17 +45,15 @@
   - slug: moringa
     name: Moringa
   cautions:
-  - NEEDS_DATA
+  - None documented
   field_observations: ""
   pests:
-  - NEEDS_DATA
+  - Aphids
+  - Scale Insects
+  - Mealybugs
+  - Spider Mites
+  companion_categories:
+  - name: Dryland fruit-and-fodder hedges
+    type: system
   # Image attribution: Treysam / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
-  # AUTO-GENERATED STUB — requires Cursor Agent enrichment
-  # See: review/cursor_enrich_*.md for enrichment instructions
-  companion_categories:
-  - name: NEEDS_DATA
-    original: NEEDS_DATA
-    type: junk
-  plant_function_unresolved:
-  - NEEDS_DATA
