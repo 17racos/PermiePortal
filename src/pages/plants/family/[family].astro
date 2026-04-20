@@ -1,6 +1,7 @@
 ---
 // src/pages/plants/family/[family].astro
 import BaseLayout from '../../../components/layouts/BaseLayout.astro';
+import Navbar from '../../../components/Navbar.astro';
 import plantsData from '../../../data/plants.json';
 import pestsData from '../../../data/pests.json';
 import familiesRaw from '../../../data/families.json';
@@ -274,17 +275,7 @@ const activeFamilyNote = FAMILY_NOTES[familyName] || {
   }
 </style>
 
-<nav class="nav">
-  <a href="/" class="nav-logo">PermiePortal</a>
-  <ul class="nav-links">
-    <li><a href="/plants">Plants</a></li>
-    <li><a href="/pests">Pests</a></li>
-    <li><a href="/plants/families">Plant Families</a></li>
-    <li><a href="/articles">Articles</a></li>
-    <li><a href="/projects">Projects</a></li>
-    <li><a href="/about">About</a></li>
-  </ul>
-</nav>
+<Navbar />
 
 <div class="breadcrumb">
   <a href="/plants">Plants</a> / <a href="/plants/families">Families</a> / {familyName}
