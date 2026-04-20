@@ -22,13 +22,10 @@ plant_function:
 description: |-
   Jabuticaba, also known as the Brazilian grape tree, is a tropical evergreen tree native to Brazil. This slow-growing tree can reach heights of 3-15 meters (10-49 feet), characterized by dense, dark-green foliage and distinctive peeling bark. The tree is especially unique because it produces fruits directly on its trunk and branches rather than hanging from twigs. Fruits are small, glossy, black or deep-purple berries, approximately 2-4 cm (0.8-1.5 inches) in diameter, with juicy, gelatinous, translucent flesh.
 
-  🌞💧 Sun and Water Requirements:
   Jabuticaba prefers full sun but can tolerate partial shade. It requires consistently moist, slightly acidic soil, ideally well-drained and rich in organic matter. Regular watering is essential, especially during dry periods.
 
-  ✂️🫘 Methods to Propagate:
   Jabuticaba is commonly propagated by seeds, cuttings, air layering, or grafting. Seed-grown plants fruit in 8-15 years, while grafted trees fruit within 3-5 years.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
   Fruit is ready for harvesting 20-30 days after flowering, usually 2-3 times per year. Berries should be picked once they reach a glossy black color, measuring around 2-4 cm in diameter.
 purpose: |-
   Edible: Plinia cauliflora fruits directly from smooth bark in glossy black clusters -- eat fresh within two days, ferment into wine, or simmer into jam because pulp oxidizes fast once picked.
@@ -36,9 +33,10 @@ purpose: |-
   Pollinator: Tiny white blossoms dusted along trunks feed native stingless bees where present and honeybees elsewhere -- avoid spraying bark during cauliflory bloom if you want fruit set on slow-maturing trees.
   Wildlife Attractor: Split fruit draws tanagers and opossums under the canopy -- harvest daily or accept ground mess and seedling volunteers near drip lines.
 companions:
-- Citrus
-- Banana
-- Guava
+- slug: banana
+  name: Banana
+- slug: guava
+  name: Guava
 cautions:
 - Eucalyptus
 pests:
@@ -49,3 +47,6 @@ pests:
 - Armored Scale
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Citrus
+  original: Citrus

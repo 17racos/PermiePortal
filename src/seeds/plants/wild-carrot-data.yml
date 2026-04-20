@@ -25,19 +25,11 @@ description: |-
 
   subtropical and tropical Americas: common in disturbed sunny spots. It will cross with garden carrot if both flower — save seed away from Queen Anne if you care about cultivar purity.
 
-  ☀️💧 Sun and Water:
-  - Full sun.
-  - Dry to average, well-drained soils; laughs at poor dirt.
-  - Drought-tolerant once established.
+  Full sun. Dry to average, well-drained soils; laughs at poor dirt. Drought-tolerant once established.
 
-  ✂️ Propagation:
-  - Seed; self-sows freely.
-  - Transplant young rosettes in cool, wet weather only.
+  Seed; self-sows freely. Transplant young rosettes in cool, wet weather only.
 
-  🌾 Harvest / Best Use Timing:
-  - Snip tender Wild Carrot growth in cool mornings for best texture -- heat-stressed leaves taste like their day job.
-  - Flowers at full color for peak volatiles; seeds when pods rattle but before they self-sow across paths.
-  - Dry herbs in thin layers; deep piles steam themselves into compost.
+  Snip tender Wild Carrot growth in cool mornings for best texture -- heat-stressed leaves taste like their day job. Flowers at full color for peak volatiles; seeds when pods rattle but before they self-sow across paths. Dry herbs in thin layers; deep piles steam themselves into compost.
 purpose: |-
   Edible: Daucus carota young first-year roots smell sweetly carrot when crushed -- still risk hemlock confusion; seeds add spice when fully dry.
   Medicinal: Seed essential oil entered traditional anti-spasm formulas -- modern use stays culinary-scale; pregnancy safety is not a forum thread topic.
@@ -46,9 +38,10 @@ purpose: |-
   Border Plant: Second-year 1 m lace flowers float above lower forbs -- airy fence-line texture without shrub weight.
   Dynamic Accumulator: Deep taproot mines potassium and trace metals into biennial tops -- chop before seed rain if you do not want volunteers.
 companions:
-- Yarrow
-- Clover
-- Black-Eyed Susan
+- slug: yarrow
+  name: Yarrow
+- slug: black-eyed-susan
+  name: Black-eyed Susan
 cautions:
 - Confusion with poison hemlock and water hemlock
 pests:
@@ -63,3 +56,6 @@ pests:
 - Swallowtail Caterpillar
 growth_habit: Biennial taprooted forb
 data_quality_score: 0.78
+companions_unresolved:
+- name: Clover
+  original: Clover

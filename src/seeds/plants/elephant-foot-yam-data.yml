@@ -26,26 +26,21 @@ description: |-
 
   Possible as a summer spectacle in 9b with winter-dry dormancy protection; mulch heavy over dormant corms during cold snaps. Tropical growers have the boring easy mode.
 
-  ☀️💧 Sun and Water Requirements:
-
   Bright shade to dappled sun; avoid blasting noon sun on fresh leaves.
   Rich, moist, well-drained soil during growth; keep dormant corms from rotting in cold wet.
 
-  ✂️ Propagation:
-
   Offset cormels, division of main corm with clean tools, or seed for the patient and curious.
-
-  🌾 Harvest / Best Use Timing:
 
   Corm harvest follows cultural processing knowledge for your region; single leaf collapses into mulch at season’s end.
 purpose: |-
   Edible: Amorphophallus paeoniifolius corms yield tropical staple starch only after thorough cooking to knock down calcium oxalate raphides -- dig when the single seasonal leaf yellows and store dormant corms dry above 55°F to avoid black rot in 9-11.
   Ornamental: One speckled petiole unfurling into a patio-scale umbrella leaf -- or a corpse-flower inflorescence season -- reads as honest aroid spectacle in humid summer food-forest understories.
-  Mulcher: Collapsing petiole sheaths and spent spathe tissue fold straight into compost when dormancy begins, returning the season's potassium pulse before you lift the mother corm for division.
+  Mulcher: Collapsing petiole sheaths and spent spathe tissue fold straight into compost when dormancy begins -- returning the season's potassium pulse before you lift the mother corm for division.
 companions:
-- Taro
-- Bananas
-- Shade trees
+- slug: banana
+  name: Banana
+- slug: taro
+  name: Taro
 cautions:
 - Pet chew toys—calcium oxalate drama
 - Soggy winter beds in marginal zones
@@ -53,6 +48,13 @@ pests:
 - nematodes
 - slugs
 - snails
-growth_habit: Seasonal aroid with single huge leaf or inflorescence from tuberous
-  corm
+growth_habit: Seasonal aroid with single huge leaf or inflorescence from tuberous corm
 data_quality_score: 0.74
+companions_normalized:
+- original: Bananas
+  resolved_slug: banana
+  name: Banana
+companion_categories:
+- name: Shade trees
+  original: Shade trees
+  type: system

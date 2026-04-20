@@ -2,7 +2,7 @@ common_name: Rattlesnake Master
 picture: rattlesnake_master.webp
 scientific_name: Eryngium yuccifolium
 aka:
-- Button eryngo
+  - Button eryngo
 family: Apiaceae
 zone: 3-8
 ideal_temp_min: 55
@@ -11,52 +11,44 @@ min_temp: -30
 max_temp: 98
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Edible
-- Pollinator
-- Wildlife Attractor
-- Ornamental
+  - Edible
+  - Pollinator
+  - Wildlife Attractor
+  - Ornamental
 description: |-
   Rattlesnake master (Eryngium yuccifolium) is a striking prairie perennial of central and eastern North America with yucca-like leaves and spherical white flower heads that hum with insect life. Deep taproots punch through tough soils where shallow-rooted perennials stall. It belongs in meadow plantings, bioswale berms, and pollinator strips that refuse to look like bedding annuals.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun; shade causes weak floppy stems.
-  - Drought tolerant once established; still benefits from occasional deep watering in sand.
-  - Well-drained to mesic soils; tolerates clay if winter wet does not rot crowns.
+  Full sun; shade causes weak floppy stems. Drought tolerant once established; still benefits from occasional deep watering in sand. Well-drained to mesic soils; tolerates clay if winter wet does not rot crowns.
 
-  ✂️ Propagation:
-  - Seeds: cold moist stratify; germination improves after winter.
-  - Root cuttings from young plants; older taproots resent disturbance.
-  - Transplant small seedlings; mature plants sulk if moved casually.
+  Seeds: cold moist stratify; germination improves after winter. Root cuttings from young plants; older taproots resent disturbance. Transplant small seedlings; mature plants sulk if moved casually.
 
-  🌾 Harvest / Best Use Timing:
-  - Roots historically appear in herbal literature—modern use belongs to trained practitioners.
-  - Leave most flower heads for pollinators; collect seed when spheres brown and detach easily.
-  - Cut old stems in late winter to leave hollow stalks for cavity-nesting insects.
+  Roots historically appear in herbal literature—modern use belongs to trained practitioners. Leave most flower heads for pollinators; collect seed when spheres brown and detach easily. Cut old stems in late winter to leave hollow stalks for cavity-nesting insects.
 purpose: |-
   Edible: Eryngium yuccifolium young leaf hearts and roots appear in sparse Indigenous food records with heavy caution because Apiaceae confusion kills -- treat public plantings as wildlife architecture, not brunch foraging unless ID skills are courtroom-grade.
   Pollinator: White spherical umbels swarm with native bees, predatory wasps, soldier beetles, and rare pollinators during high-summer dearth -- fragrance reads honey-mild; sit upwind if you like perfume with your morning coffee.
   Wildlife Attractor: Spiny seed heads feed goldfinches; hollow stems shelter small overwintering bees if you delay mowing until spring -- leave random stalks for honest insect hotel texture along meadow margins.
   Ornamental: Yucca-like rosettes and silvery bracted balls sell modern prairie plantings and bioswale berms -- deep taproot laughs at drought once established where wet winter clay does not rot crowns.
 companions:
-- Narrowleaf Mountain Mint — fine-leaved insectary contrast beside bold eryngium rosettes
-- Mountain Mint — late-summer pollinator synergy with overlapping bloom windows
-- Roughleaf Dogwood — shrub backdrop that frames tall prairie forbs without shading
-  them flat
+  - slug: narrowleaf-mountain-mint
+    name: Narrowleaf Mountain Mint
+  - slug: mountain-mint
+    name: Mountain Mint
+  - slug: roughleaf-dogwood
+    name: Roughleaf Dogwood
 cautions:
-- None documented
+  - None documented
 pests:
-- Aphids
-- Celery Leaf Miner
-- Dill Worms
-- Japanese Beetles
-- Leafhoppers
-- Carrot Fly
-- Carrot Rust Fly
-- Carrot Weevil
-- Parsnip Canker
-- Swallowtail Caterpillar
-growth_habit: Upright perennial from deep taproot with basal rosette and tall branched
-  inflorescences
+  - Aphids
+  - Celery Leaf Miner
+  - Dill Worms
+  - Japanese Beetles
+  - Leafhoppers
+  - Carrot Fly
+  - Carrot Rust Fly
+  - Carrot Weevil
+  - Parsnip Canker
+  - Swallowtail Caterpillar
+growth_habit: Upright perennial from deep taproot with basal rosette and tall branched inflorescences
 data_quality_score: 0.78

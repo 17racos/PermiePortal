@@ -20,23 +20,20 @@ plant_function:
 description: |-
   Angel's Trumpet (*Brugmansia* species) are large shrubs or small trees that can reach heights of 6-20 feet (1.8-6 meters) in frost-free areas. They have many branching trunks with simple, alternately arranged leaves that can be toothed or entire. The large, pendulous, trumpet-shaped flowers, ranging from 6 to 24 inches (15-60 cm) long, come in shades of white, cream, yellow, peach, orange, pink, and red. Most species are fragrant, especially in the evening, attracting pollinators such as moths and hummingbirds. All parts of the plant are highly toxic if ingested.
 
-  🌞💧 **Sun and Water Requirements:**
   Thrive in full sun to partial shade. Require moist, fertile, well-drained soil. Regular watering is essential, especially during dry periods, but overwatering should be avoided to prevent root rot.
 
-  ✂️🫘 **Methods to Propagate:**
   Easily propagated by rooting 4-6 inch (10-15 cm) cuttings taken from the end of a branch during the summer. Cuttings should be placed in moist, well-drained soil and kept in a warm, shaded area until roots develop.
 
-  🧑‍🌾👩‍🌾 **When to Harvest:**
   As ornamental plants, they are not typically harvested. Pruning can be done to maintain shape and encourage bushier growth. Any pruning should be done with caution due to the plant's toxicity.
 purpose: |-
   Ornamental: Brugmansia spp. hang foot-long trumpet blooms in cream through apricot, releasing heavy evening perfume from softwood shrubs -- place where night breezes reach patios, not bedroom windows you want scent-free.
   Medicinal: Tropane alkaloids in leaves and sap underlie carefully supervised topical and entheogenic traditions in parts of South America -- all casual internal use is off the table because the margin between dose and emergency is thin.
   Wildlife Attractor: Pale tubes open dusk to dawn, pulling sphinx moths and hummingbirds with nectar deep enough that short-tongued insects bounce -- fragrance spikes after dark when diurnal bees clock out.
 companions:
-- Hibiscus
-- Canna Lily
-- Elephant Ear
-- Banana
+- slug: canna-lily
+  name: Canna Lily
+- slug: banana
+  name: Banana
 cautions:
 - Nightshade
 pests:
@@ -68,3 +65,8 @@ pests:
 - Brown Marmorated Stink Bug
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Hibiscus
+  original: Hibiscus
+- name: Elephant Ear
+  original: Elephant Ear

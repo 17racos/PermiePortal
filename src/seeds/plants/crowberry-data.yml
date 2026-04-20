@@ -22,26 +22,25 @@ plant_function:
 description: |-
   Crowberry (Empetrum nigrum) is a low, needle-leaved evergreen subshrub of cold bogs, heaths, and windswept barrens across northern regions and high elevations, forming mats studded with small glossy black berries. Height is usually under 1 foot (0.3 m) with creeping stems that root at nodes. The fruit is mildly sweet-tart and historically important where other fruits are scarce; ecologically it is ground-hugging armor against wind and thin soil.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun in cool climates; partial shade acceptable where summer heat spikes. Prefers acidic, organic soils that stay moist but not sewage-soggy; tolerates droughty rock once established in its comfort band. Avoid lime-heavy beds that erase Ericaceae chemistry.
 
-  ✂️ Propagation:
   Layer low stems onto moist peat-sand; hold with stones until roots anchor. Sow seed after cold stratification; germination is slow and irregular, matching the plant’s personality. Softwood cuttings under mist can work for named selections if you have them.
 
-  🌾 Harvest / Best Use Timing:
   Berries ripen late in the short season; taste improves after frost in many sites. Pick by hand along the mat; expect modest yields that reward patience, not capitalism. Leave some fruit for ground-foraging birds that evolved with these systems.
 purpose: |-
   Edible: Empetrum nigrum glossy black berries are mild sweet-tart -- pick late in the short season; flavor often improves after frost in cold sites.
   Wildlife Attractor: Ground-foraging birds and small mammals take fruit when other sugar is under snow -- leave clusters on the mat for guild partners.
-  Ground Cover: Needle-leaved evergreen stems creep and root, tiling acidic bogs and exposed barrens where height stays under a foot.
-  Erosion Control: Dense mats hold thin organic layers over rock on windswept slopes and coastal heaths.
+  Ground Cover: Needle-leaved evergreen stems creep and root, tiling acidic bogs and exposed barrens -- where height stays under a foot.
+  Erosion Control: Dense mats hold thin organic layers over rock -- stabilizes windswept slopes and coastal heaths where no other groundcover establishes.
 companions:
-- Lingonberry — shared acidity and similar cultural needs in Ericaceous beds
-- Lowbush Cranberry — complementary fruiting times and bog-culture synergy
-- Yarrow — shallow roots and insectary flowers at the edge without shading the mat
+- slug: lingonberry
+  name: Lingonberry
+- slug: lowbush-cranberry
+  name: Lowbush Cranberry
+- slug: yarrow
+  name: Yarrow
 cautions:
-- Hot humid summers — often declines outside its native chill band no matter how much
-  you cheer
+- Hot humid summers — often declines outside its native chill band no matter how much you cheer
 - High pH soils — chlorosis and slow death; fix the bed or pick another plant
 pests:
 - Aphids
@@ -53,6 +52,5 @@ pests:
 - Strawberry Root Weevil
 - Vine Weevil
 - Azalea Caterpillar
-growth_habit: Low mat-forming evergreen subshrub; needle leaves; black berries; cold-climate
-  specialist
+growth_habit: Low mat-forming evergreen subshrub; needle leaves; black berries; cold-climate specialist
 data_quality_score: 0.77

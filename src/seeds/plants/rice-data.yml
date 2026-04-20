@@ -18,18 +18,15 @@ plant_function:
 - Mulcher
 - Erosion Control
 - Animal Fodder
-- Water Purifier
+- Water Purification
 - Ground Cover
 description: |-
   Rice (Oryza sativa) is an annual grass species widely cultivated for its edible grains. The plant typically grows to heights between 1 and 2 meters, featuring erect stems with smooth surfaces and long, lanceolate leaves. The inflorescence is a terminal panicle bearing numerous small spikelets, each containing a single floret. The fruit is a caryopsis, commonly known as a rice grain.
 
-  🌞💧 Sun and Water Requirements:
   Rice thrives in full sun and requires abundant water, often grown in flooded fields known as paddies. Consistent moisture is crucial throughout its growth cycle.
 
-  ✂️🫘 Methods to Propagate:
   Propagation is primarily through direct sowing of seeds or transplanting seedlings. Seeds are sown in nurseries and later transplanted to paddies.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
   Harvest occurs when grains turn golden brown and reach full maturity, typically 3 to 6 months after planting, depending on the variety.
 purpose: |-
   Edible: Oryza sativa caryopses polish into white, brown, or red grains for daily calories, rice milk, and koji starters -- flooded paddies cut weed competition during early tillering; upland dry systems need different cultivars and weed timing.
@@ -37,12 +34,9 @@ purpose: |-
   Mulcher: Rice straw bales mulch garlic and strawberry rows after threshing -- high silica slows breakdown; chop fine or combine with legume greens so carbon does not lock surface nitrogen all spring.
   Erosion Control: Dense transplants and puddled clay seal terrace edges where monsoon rains would gully bare slopes -- contour bunds plus vetiver toes stabilize headlands machinery chews bare.
   Animal Fodder: Broken grains, rice bran, and ammoniated straw enter pig, dairy, and poultry rations across humid tropics -- watch aflatoxin in humid storage before feeding moldy bran loads.
-  Water Purifier: Shallow floodwater lets suspended silt drop and supports denitrifying biofilms on rhizospheres before water exits tailwater ditches -- still monitor arsenic uptake on contaminated sites before reuse irrigation.
   Ground Cover: Closed canopy by tillering shades paddy water, cutting algal bloom pressure and evaporative losses -- matches short-statured varieties to water depth so stems do not lodge when grain heads load.
-companions:
-- Azolla
-- Fish
-- Duck
+    Water Purification: Flooded paddy systems with intact straw and algae mats reduce suspended solids -- traditional integrated rice-fish systems show improved water clarity versus monoculture flooding.
+companions: []
 cautions:
 - None
 pests:
@@ -60,3 +54,13 @@ pests:
 - Leaf Blight
 growth_habit: Tree
 data_quality_score: 0.8
+companion_categories:
+- name: Azolla
+  original: Azolla
+  type: ecosystem
+- name: Fish
+  original: Fish
+  type: ecosystem
+- name: Duck
+  original: Duck
+  type: ecosystem

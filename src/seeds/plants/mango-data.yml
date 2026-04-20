@@ -21,13 +21,10 @@ plant_function:
 description: |-
   Mango is a large, evergreen tree native to South Asia, capable of reaching heights of 15-30 meters (50-100 feet). It has a dense canopy of glossy, dark green leaves and produces fragrant, small white flowers. The fruit is a fleshy drupe, varying in size and color, with a sweet, juicy, orange-yellow flesh surrounding a large seed.
 
-  🌞💧 Sun and Water Requirements:
   Mango trees prefer full sun and well-drained, slightly acidic to neutral soils rich in organic matter. They are drought-tolerant once established but benefit from regular watering during dry periods.
 
-  ✂️🫘 Methods to Propagate:
   Propagation is typically through grafting to ensure desirable fruit characteristics. Seed propagation is possible but may not produce true-to-type fruit. Grafting involves joining a scion from a desired variety onto a rootstock.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
   Harvesting occurs when fruits mature and develop full coloration, usually in late spring to summer. Mature fruits emit a sweet fragrance and yield slightly to gentle pressure.
 purpose: |-
   Edible: Mangifera indica fruits range from fiberless dessert types to tangy green pickles -- eat ripe fruit when shoulders fill and aroma peaks; sap and peel oils can blister skin on sensitive people during harvest.
@@ -36,9 +33,10 @@ purpose: |-
   Windbreaker: Wide-spreading crown and leathery leaves blunt steady trade winds across paddocks -- prune for open vase shape so interior fruiting wood still gets light.
   Border Plant: Long-lived trunks mark property lines in frost-free regions -- space for equipment because buttressed roots lift pavement when planners underestimate mature spread.
 companions:
-- Pigeon Pea
-- Citrus
-- Papaya
+- slug: pigeon-pea
+  name: Pigeon Pea
+- slug: papaya
+  name: Papaya
 cautions:
 - None specified
 pests:
@@ -57,3 +55,6 @@ pests:
 - Iguana
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Citrus
+  original: Citrus

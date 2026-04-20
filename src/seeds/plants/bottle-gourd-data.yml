@@ -30,25 +30,20 @@ description: |-
 
   Plant after soil warms; long season helps huge gourds cure on the vine before first frost. Downy mildew arrives on schedule every year—plan succession or resistant mindset.
 
-  ☀️💧 Sun and Water Requirements:
-
   Full sun, fertile well-drained soil, consistent moisture during fruit sizing; cut water as fruits mature for hard-shell types.
-
-  ✂️ Propagation:
 
   Direct-sow or transplant carefully; provide trellis or regret ground rot.
 
-  🌾 Harvest / Best Use Timing:
-
   Pick young fruit for summer-squash use; let mature fruits cure on-vine before first frost for hard-shell containers and crafts.
 purpose: |-
-  Edible: Lagenaria siceraria harvests pencil-thin fruit like summer squash for curries, then shifts to starchy gourds only if you stop picking and let skins lignify on the vine.
-  Ornamental: Huge white night flowers and coiling tendrils cover arbors in one season, giving vertical shade over beans without waiting years for a tree.
-  Fiber: Fully cured shells turn into hard calabash for dippers, musical rattles, and bird boxes once seeds rattle free and walls pass the thumbnail scratch test.
+  Edible: Lagenaria siceraria harvests pencil-thin fruit like summer squash for curries, then shifts to starchy gourds only -- if you stop picking and let skins lignify on the vine.
+  Ornamental: Huge white night flowers and coiling tendrils cover arbors in one season -- giving vertical shade over beans without waiting years for a tree.
+  Fiber: Fully cured shells turn into hard calabash for dippers, musical rattles, and bird boxes -- once seeds rattle free and walls pass the thumbnail scratch test.
 companions:
-- Corn
-- Beans
-- Nasturtium
+- slug: nasturtium
+  name: Nasturtium
+- slug: fava-bean
+  name: Fava Bean
 cautions:
 - Heavy wet foliage without airflow
 - Planting next to susceptible cucurbits if you ignore rotation
@@ -70,3 +65,13 @@ pests:
 - spotted cucumber beetle
 growth_habit: Vigorous annual vine with tendrils
 data_quality_score: 0.8
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index
+companions_normalized:
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

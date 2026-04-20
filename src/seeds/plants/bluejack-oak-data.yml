@@ -21,27 +21,25 @@ plant_function:
 description: |-
   Bluejack oak (Quercus incana) is a small to medium deciduous oak of sandy pine savannas and dry woodlands in the southeastern United States, named for the bluish cast of mature leaves with dense pubescence beneath. It typically reaches 20–35 feet (6–11 m), often multi-trunked, and produces acorns valued by wildlife in fire-adapted ecosystems. The species suits restoration of sandhill longleaf matrices, livestock shade belts on droughty ground, and low-maintenance savanna plantings where turf pretends it belongs but does not.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun; thrives in dry, infertile, well-drained sands and tolerates periodic drought once established. Poor fit for heavy clay or chronically irrigated lawn islands. Young trees benefit from mulch rings to reduce competition; avoid overwatering that favors root rots.
 
-  ✂️ Propagation:
   Sow acorns immediately after fall collection; delay allows desiccation death. Protect sown nuts from rodents with mesh. Transplant small seedlings with taproots intact during dormancy; large specimens resent moving.
 
-  🌾 Harvest / Best Use Timing:
   Acorns ripen in fall; wildlife harvest is the primary use—human use requires leaching tannins like other red oaks. Prune for clearance only; natural form is part of its windfirm architecture. Collect local ecotype seed for restoration genetics.
 purpose: |-
-  Wildlife Attractor: Quercus incana acorns are small but numerous, feeding jays and deer mice in sandhill savannas while catkins drop pollen for early bees.
-  Mulcher: Blue-gray leaves with felty undersides decay into thin acidic litter that feeds mycorrhizae under longleaf matrices without smothering wiregrass.
-  Shade Provider: Multi-trunk crowns stay open enough that ground-layer legumes still flower, unlike closed maple shade that kills understory sun budgets.
-  Erosion Control: Lateral roots spread through deep sand on slopes, locking road cuts where clay-loving trees rot or tip after one wet year.
+  Wildlife Attractor: Quercus incana acorns are small but numerous -- feeding jays and deer mice in sandhill savannas while catkins drop pollen for early bees.
+  Mulcher: Blue-gray leaves with felty undersides decay into thin acidic litter -- that feeds mycorrhizae under longleaf matrices without smothering wiregrass.
+  Shade Provider: Multi-trunk crowns stay open enough that ground-layer legumes still flower, unlike closed maple shade -- that kills understory sun budgets.
+  Erosion Control: Lateral roots spread through deep sand on slopes, locking road cuts -- where clay-loving trees rot or tip after one wet year.
 companions:
-- Longleaf Pine — classic sandhill overstory partner; oaks occupy midstory gaps
-- Turkey Oak — shared dry oak ecology with staggered acorn timing for wildlife
-- Little Bluestem — warm-season bunchgrass carries fire-ready fuel and structure beneath
-  scattered oak crowns
+- slug: longleaf-pine
+  name: Longleaf Pine
+- slug: turkey-oak
+  name: Turkey Oak
+- slug: little-bluestem
+  name: Little Bluestem
 cautions:
-- Fire exclusion — without periodic fire or mechanical clearing, midstory can thicken
-  and alter habitat value
+- Fire exclusion — without periodic fire or mechanical clearing, midstory can thicken and alter habitat value
 - Heavy clay relocation — chronic root rot and poor growth compared with native sand
 pests:
 - Borers

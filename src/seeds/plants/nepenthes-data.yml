@@ -20,21 +20,16 @@ plant_function:
 description: |-
   Nepenthes, commonly known as Tropical Pitcher Plants or Monkey Cups, are carnivorous plants native to Southeast Asia, Madagascar, and Australia. They are renowned for their unique pitcher-shaped traps that lure, capture, and digest insects. These plants typically produce long, tendril-bearing leaves with pitchers at their tips. The pitchers contain a slippery interior and digestive fluids to break down prey, providing essential nutrients in nutrient-poor soils. Nepenthes thrive in warm, humid environments and can be cultivated indoors with proper care.
 
-  🌞💧 Sun and Water Requirements:
   Nepenthes prefer bright, indirect sunlight. They thrive in partial sunlight, receiving several hours of unobstructed, direct sun with bright filtered light during the rest of the day. Avoid full shade, as sunlight is essential for pitcher production and good color. Maintain high humidity levels (60-80%) and keep the soil consistently moist but well-drained. Using distilled or rainwater is ideal to prevent mineral buildup. :contentReference[oaicite:0]{index=0}
 
-  ✂️🫘 Methods to Propagate:
   Propagation is commonly done through stem cuttings. Select a healthy vine and cut a segment with at least two nodes. Remove the lower leaves and plant the cutting in a moist, well-draining medium like a mix of sphagnum moss and perlite. Maintain high humidity and indirect light until roots develop. :contentReference[oaicite:1]{index=1}
 
-  🧑‍🌾👩‍🌾 When to Harvest:
   Nepenthes are primarily ornamental and not harvested for consumption. Regularly prune dead or dying pitchers and leaves to maintain plant health and appearance.
 purpose: |-
   Pest Management: Pitcher lids and peristomes secrete nectar that lures flies, ants, and gnats into fluid laced with surfactants and proteases, digesting prey to replace missing soil nitrogen on bare ultramafic or peat substrates -- not a housefly vacuum for whole barns, but real biocontrol on bench scale.
   Wildlife Attractor: Pitcher fluid hosts specialist mosquito larvae and midge communities while larger pitchers occasionally drown small vertebrates in wild populations -- greenhouse specimens still pull curious insect traffic at humid windows.
   Ground Cover: Lowland rosette species with stolons carpet humid greenhouse floors, living walls, and epiphyte tables where roots stay moist and air stays moving -- highland vines need vertical trellis, not ground-mat expectations.
-companions:
-- Fern
-- Orchid
+companions: []
 cautions:
 - None specific
 pests:
@@ -42,3 +37,8 @@ pests:
 - Mealybugs
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Fern
+  original: Fern
+- name: Orchid
+  original: Orchid

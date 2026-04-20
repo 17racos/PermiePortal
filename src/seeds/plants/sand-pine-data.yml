@@ -21,24 +21,23 @@ plant_function:
 description: |-
   Sand pine (Pinus clausa) is a small to medium pine of deep sandy ridges and scrub in the southeastern United States, often multi-trunked with twisted form in harsh exposure and serotinous cones that open after fire in many populations. Heights of 20–40 feet (6–12 m) are typical, though stunted forms hug windswept dunes. It stabilizes sand, feeds squirrels with seeds, and teaches patience to anyone expecting timber-straight specimens.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun for dense needles and reliable cone production. Deep, acidic, excessively drained sands are home; tolerates drought once established. Avoid alkaline or compacted clay unless you enjoy pine funerals.
 
-  ✂️ Propagation:
   Sow seed; heat may be needed to open serotinous cones—follow restoration nursery protocols. Transplant small seedlings with root balls intact. Prune only for clearance; do not top pines.
 
-  🌾 Harvest / Best Use Timing:
   Pine straw mulch can be raked sustainably from needle drop—avoid stripping living crowns. Timber use is modest; ecological value often exceeds board feet. Growth flushes follow warm wet periods.
 purpose: |-
-  Erosion Control: Pinus clausa taproots wedge into deep acidic sand where most broadleaf canopy trees stall without pumped water.
-  Wildlife Attractor: Serotinous cones feed caching rodents after fire cues; twisted crowns hold bark forage for brown-headed nuthatches and other scrub specialists.
-  Windbreaker: Multi-stemmed clumps planted in staggered rows slow steady Gulf and Atlantic plain winds across field edges and citrus blocks.
-  Biomass: Long acidic needle drop feeds mycorrhizal mats for oaks and palmettos planted in the same scrub story.
+  Erosion Control: Pinus clausa taproots wedge into deep acidic sand -- where most broadleaf canopy trees stall without pumped water.
+  Wildlife Attractor: Serotinous cones feed caching rodents after fire cues -- twisted crowns hold bark forage for brown-headed nuthatches and other scrub specialists.
+  Windbreaker: Multi-stemmed clumps planted in staggered rows slow steady Gulf and Atlantic plain winds -- across field edges and citrus blocks.
+  Biomass: Long acidic needle drop feeds mycorrhizal mats -- benefits oaks and palmettos planted in the same scrub story over time.
 companions:
-- Scrub Palmetto — shared scrub architecture with complementary fan leaves
-- Longleaf Pine — taller pine neighbor in fire-managed sandhill systems where both
-  occur
-- Wax Myrtle — nitrogen-fixing shrub layer at scrub margins
+- slug: scrub-palmetto
+  name: Scrub Palmetto
+- slug: longleaf-pine
+  name: Longleaf Pine
+- slug: wax-myrtle
+  name: Wax Myrtle
 cautions:
 - Fire ecology — many populations need periodic fire for recruitment; follow regulations
 - Alkaline soil — chlorosis and chronic sulking
@@ -47,6 +46,5 @@ pests:
 - Bagworm
 - Scale Insects
 - Spider Mites
-growth_habit: Scrub pine; twisted form on deep sand; serotinous cones; coastal plain
-  ridges
+growth_habit: Scrub pine; twisted form on deep sand; serotinous cones; coastal plain ridges
 data_quality_score: 0.78

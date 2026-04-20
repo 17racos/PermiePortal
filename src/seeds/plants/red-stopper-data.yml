@@ -2,7 +2,7 @@ common_name: Red Stopper
 picture: red_stopper.webp
 scientific_name: Eugenia rhombea
 aka:
-- Redberry stopper
+  - Redberry stopper
 family: Myrtaceae
 zone: 10-11
 ideal_temp_min: 65
@@ -11,45 +11,39 @@ min_temp: 28
 max_temp: 100
 perennial: true
 layers:
-- Shrub
-- Tree
+  - Shrub
+  - Tree
 plant_function:
-- Edible
-- Wildlife Attractor
-- Border Plant
-- Ornamental
+  - Edible
+  - Wildlife Attractor
+  - Border Plant
+  - Ornamental
 description: |-
   Red stopper (Eugenia rhombea) is a compact evergreen tree or large shrub native to the Caribbean and parts of extreme southern Florida and the Keys, often on limestone and coastal rockland. Small leaves, smooth bark, and red to black berry-like fruit mark it as classic myrtle family material. It suits salt-tolerant hedges, bird gardens, and edible landscaping in frost-free climates where larger stoppers need not dominate every view.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun to light shade; densest habit in bright light.
-  - Moderate moisture; drought tolerant once established in humid maritime air.
-  - Well-drained, often alkaline rocky soils; container plants need fast mix, not peat soup.
+  Full sun to light shade; densest habit in bright light. Moderate moisture; drought tolerant once established in humid maritime air. Well-drained, often alkaline rocky soils; container plants need fast mix, not peat soup.
 
-  ✂️ Propagation:
-  - Seeds cleaned and sown fresh; germination can be slow.
-  - Semi-hardwood cuttings under humidity in warm seasons.
-  - Light shaping after flowering if hedging; avoid heavy shearing into old wood without buds.
+  Seeds cleaned and sown fresh; germination can be slow. Semi-hardwood cuttings under humidity in warm seasons. Light shaping after flowering if hedging; avoid heavy shearing into old wood without buds.
 
-  🌾 Harvest / Best Use Timing:
-  - Fruit is eaten out of hand when fully colored and soft; flavor is mild, more bird snack than supermarket berry.
-  - Pick for trials before birds strip clusters in peak season.
-  - Mulch root zone to reduce evaporative stress in dry-season heat.
+  Fruit is eaten out of hand when fully colored and soft; flavor is mild, more bird snack than supermarket berry. Pick for trials before birds strip clusters in peak season. Mulch root zone to reduce evaporative stress in dry-season heat.
 purpose: |-
   Edible: Eugenia rhombea pea-sized red-to-black drupes taste tart-sweet out of hand or in jelly once pectin and sugar balance the myrtle tang -- thin skin bruises fast; harvest into trays before heat collapses turgor.
   Wildlife Attractor: Dense fruiting feeds mockingbirds and warblers in Keys rockland; small white flowers feed bees before hurricane season -- plant clusters so cross-pollination beats singleton shy-fruiting.
   Border Plant: Tight evergreen habit clips into waist-high coastal hedges along limestone paths -- tolerates salt spray better than many tropical fruit trees if drainage stays honest through wet season.
   Ornamental: Small opposite leaves and smooth tan bark read polished beside coarse saw palmetto -- works in formal Coral Gables entries or wildish hammock restoration with equal visual discipline.
 companions:
-- Spanish Stopper — related Eugenia for staggered fruiting and layered evergreen texture
-- Wild Lime — native citrus relative for shared limestone ecology in coastal plantings
-- Myrtle Oak — scrub oak canopy over stopper understory on sandy coastal ridges
+  - slug: white-stopper
+    name: White Stopper
+  - slug: wild-lime
+    name: Wild Lime
+  - slug: myrtle-oak
+    name: Myrtle Oak
 cautions:
-- None documented
+  - None documented
 pests:
-- Mealybugs
-- Oriental Fruit Fly
-- Scale Insects
-- Whiteflies
+  - Mealybugs
+  - Oriental Fruit Fly
+  - Scale Insects
+  - Whiteflies
 growth_habit: Evergreen shrub to small tree with fine leaves and multistem habit
 data_quality_score: 0.74

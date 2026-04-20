@@ -21,29 +21,22 @@ plant_function:
 description: |-
   Sida (Sida rhombifolia) is a warm-climate mallow relative of fields, roadsides, and disturbed ground throughout tropical and subtropical Americas and beyond. Upright to sprawling stems carry yellow flowers and small dry fruits; stems yield coarse fiber in traditional systems. It can behave as a weed in agriculture yet still functions as a summer nectar plant and erosion stitch on brutal soils.
 
-   ☀️💧 Sun and Water Requirements:
   Full sun for strongest growth and flowering; tolerates part shade with lax habit. Tolerates drought and poor soils once established; also accepts irrigated garden conditions where it grows faster—often unwelcome there. Drainage should prevent chronic root rot in cool wet winters at northern range limits.
 
-  ✂️ Propagation:
   Self-sows freely; sow seed after last frost in warm soil. Cut back before seed set in managed beds if containment matters. Not typically divided; treat as short-lived perennial or annual northward.
 
-   🌾 Harvest / Best Use Timing:
   Fiber-focused harvests cut stems at early bloom before lignification climbs; rett and rinse carefully. For ecology, leave late flowers for bees; collect seed only in controlled trials to avoid spreading invasives.
 purpose: |-
-  Fiber: Sida rhombifolia stems rett to coarse jute-class fiber still twisted into baling twine where industrial imports fail midseason.
-  Pollinator: Lemon-yellow five-petal mallow blooms track midday heat when cucurbits have shut nectar taps for the afternoon.
-  Wildlife Attractor: Segmented capsules launch seeds for mourning doves along field margins while flea beetles chew foliage without killing the taproot crown.
-  Ground Cover: Sprawling stems stitch road cuts until slower perennials arrive if you mow seed heads where neighbors complain.
+  Fiber: Sida rhombifolia stems rett to coarse jute-class fiber still twisted into baling twine -- where industrial imports fail midseason.
+  Pollinator: Lemon-yellow five-petal mallow blooms track midday heat -- when cucurbits have shut nectar taps for the afternoon.
+  Wildlife Attractor: Segmented capsules launch seeds for mourning doves along field margins -- while flea beetles chew foliage without killing the taproot crown.
+  Ground Cover: Sprawling stems stitch road cuts until slower perennials arrive if you mow seed heads -- where neighbors complain.
 companions:
-- Cowpea — warm-season legume intercrop; competes for light and breaks monoculture
-  in subsistence rotations
-- Okra — shared malvaceous bed timing; both handle heat if fertility is moderated
-- Grain Sorghum — tall matrix shades aggressive warm-season weeds while allowing bee
-  access at margins
+- slug: okra
+  name: Okra
 cautions:
 - Agricultural weed status — prevent seed rain into production fields
-- Invasive reports — check regional lists in frost-free islands and coasts before
-  introduction
+- Invasive reports — check regional lists in frost-free islands and coasts before introduction
 pests:
 - Banded Winged Whitefly
 - Cocoa Pod Borer
@@ -51,3 +44,8 @@ pests:
 - Leafhoppers
 growth_habit: Warm-climate mallow; yellow flowers; coarse stems; disturbed ground
 data_quality_score: 0.82
+companions_unresolved:
+- name: Cowpea
+  original: Cowpea — warm-season legume intercrop; competes for light and breaks monoculture in subsistence rotations
+- name: Grain Sorghum
+  original: Grain Sorghum — tall matrix shades aggressive warm-season weeds while allowing bee access at margins

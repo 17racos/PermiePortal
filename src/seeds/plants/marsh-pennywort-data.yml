@@ -2,8 +2,8 @@ common_name: Marsh Pennywort
 picture: marsh_pennywort.webp
 scientific_name: Hydrocotyle umbellata
 aka:
-- Manyflower marshpennywort
-- Water pennywort (also used for other Hydrocotyle spp.)
+  - Manyflower marshpennywort
+  - Water pennywort (also used for other Hydrocotyle spp.)
 family: Araliaceae
 zone: 5-11
 ideal_temp_min: 50
@@ -12,46 +12,41 @@ min_temp: 15
 max_temp: 100
 perennial: true
 layers:
-- Ground Cover
-- Aquatic
+  - Ground Cover
+  - Aquatic
 plant_function:
-- Ground Cover
-- Aquatic
-- Wildlife Attractor
-- Edible
+  - Ground Cover
+  - Aquatic
+  - Wildlife Attractor
+  - Edible
 description: |-
   Marsh pennywort (Hydrocotyle umbellata) is a low, creeping wetland plant with round, peltate leaves like green coins and delicate umbels of tiny flowers. Stolons root at nodes, matting pond margins, ditches, and the wet shoulders of swales; in deep water it can form floating rafts. It is smaller and more herbaceous than the infamous giant floating pennywort (different species, worse manners).
 
   subtropical and tropical Americas: Common in subtropical and tropical wet habitats; useful for wildlife ponds, rain gardens, and constructed wetlands where you want living green pavement instead of algae sermons.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun to part shade; intense tropical sun may yellow leaves if water fluctuates wildly—some midday shade helps.
-  - Saturated soil to shallow standing water; tolerates periodic drawdown but not prolonged desert cosplay.
+  Full sun to part shade; intense tropical sun may yellow leaves if water fluctuates wildly—some midday shade helps. Saturated soil to shallow standing water; tolerates periodic drawdown but not prolonged desert cosplay.
 
-  ✂️ Propagation:
-  - Divide mats anytime in warm weather; anchor sections with a stone until roots grab.
-  - Stolons: pin a runner to wet soil or submerged gravel; sever from parent once anchored.
+  Divide mats anytime in warm weather; anchor sections with a stone until roots grab. Stolons: pin a runner to wet soil or submerged gravel; sever from parent once anchored.
 
-  🌾 Harvest / Best Use Timing:
-  - Some cultures use related Hydrocotyle as a potherb; confirm ID and local toxicity guidance before nibbling—this database is not your stomach’s lawyer.
-  - For habitat use, trim rampant edges in wet season to guide spread and toss excess into compost or mulch berms while still fresh.
+  Some cultures use related Hydrocotyle as a potherb; confirm ID and local toxicity guidance before nibbling—this database is not your stomach’s lawyer. For habitat use, trim rampant edges in wet season to guide spread and toss excess into compost or mulch berms while still fresh.
 purpose: |-
   Ground Cover: Hydrocotyle umbellata stolons creep across mud, rooting at every node -- knits splash zones so sheet flow does not strip bare soil during summer thunderstorms.
   Aquatic: Round peltate leaves float or stand in inches of water -- bridges open water to upland sedges without needing deep submergence like duck potato.
   Wildlife Attractor: Tiny umbels feed minute flies and beetles while mats shelter tadpoles -- leave floating carpets if amphibian nursery matters more than golf-course tidy ponds.
   Edible: Some Asian traditions blanch tender stems -- positive ID matters because look-alike pennyworts vary in chemistry; when in doubt, use it as habitat, not salad.
 companions:
-- Cattail — vertical structure and deep rhizosphere contrast with pennywort’s carpet;
-  together they clarify “deep water vs. splash zone” in a pond guild.
-- Pickerelweed — emergent spikes and showy flowers stack height classes for pollinators
-  while pennywort seals the mud gap at the toe of the slope.
-- Duckweed — floating layer + creeping layer = two niches of nutrient uptake and shade
-  that calm algae’s main-character syndrome.
+  - slug: cattail
+    name: Cattail
+  - slug: pickerelweed
+    name: Pickerelweed
 cautions:
-- None documented
+  - None documented
 pests:
-- Snails
-- Aphids
-growth_habit: Creeping stoloniferous perennial; mats expand vegetatively in wet soil
-  or shallow water
+  - Snails
+  - Aphids
+growth_habit: Creeping stoloniferous perennial; mats expand vegetatively in wet soil or shallow water
 data_quality_score: 0.75
+companion_categories:
+  - name: Duckweed
+    original: Duckweed — floating layer + creeping layer = two niches of nutrient uptake and shade that calm algae’s main-character syndrome.
+    type: ecosystem

@@ -20,31 +20,27 @@ plant_function:
 description: |-
   Buffalo bur (Solanum rostratum) is a spiny annual nightshade of prairies, pastures, and disturbed roadsides across much of North America, branching into a bushy plant roughly 1–3 feet (30–90 cm) with yellow flowers and formidable burred fruits. It is a historical host of Colorado potato beetle and is often treated as a weed in grazing systems because spines injure mouths and hide in wool. Some indigenous uses exist for carefully prepared plant parts—modern foragers should assume toxicity until expert training says otherwise.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun; thrives in dry, disturbed soils with low competition. Tolerates drought and lean sand; over-irrigated fertile beds make giant, extra-spiny monsters. Not a rain-garden plant.
 
-  ✂️ Propagation:
   Usually arrives uninvited via seedbanks. If studying insects, direct-sow after last frost into warm soil; do not move plants across regions where they are regulated. Remove burred fruits before they embed in socks, dogs, and reputations.
 
-  🌾 Harvest / Best Use Timing:
   Not a crop for casual harvest—fruits and foliage contain solanaceous alkaloids. For beetle monitoring, scout foliage in mid-summer. Mow or pull before spine hardening if excluding from pasture, wearing gloves.
 purpose: |-
-  Wildlife Attractor: Solanum rostratum yellow nightshade flowers supply pollen and nectar to specialist bees in prairie remnants, while spiny burs snag onto coyote fur for seed drift.
-  Dynamic Accumulator: One season of taprooted growth mines nitrogen and potassium into stems you can chip before bur hardening, then compost off-site away from hay fields.
-  Mulcher: Early-summer slash of soft growth adds high-nitrogen greens to compost piles if you wear leather gloves and stop before spines lignify.
-  Pest Management: Entomologists used this species as an alternate host to study Colorado potato beetle movement, a lab curiosity most growers still replace with rotation and scouting on actual potatoes.
+  Wildlife Attractor: Solanum rostratum yellow nightshade flowers supply pollen and nectar to specialist bees in prairie remnants, -- while spiny burs snag onto coyote fur for seed drift.
+  Dynamic Accumulator: One season of taprooted growth mines nitrogen and potassium into stems you can chip -- before bur hardening, then compost off-site away from hay fields.
+  Mulcher: Early-summer slash of soft growth adds high-nitrogen greens to compost piles -- if you wear leather gloves and stop before spines lignify.
+  Pest Management: Entomologists used this species as an alternate host to study Colorado potato beetle movement, a lab curiosity most growers still replace with rotation and scouting -- on actual potatoes.
 companions:
-- Sunflower — shares open disturbed niches; sunflower height can shade out lower burs
-  if timed correctly
-- Partridge Pea — annual legume matrix on similar prairie edges without recommending
-  deliberate co-cropping in grazing paddocks
-- Little Bluestem — perennial bunchgrass succession eventually reduces annual nightshade
-  pressure on rested sites
+- slug: sunflower
+  name: Sunflower
+- slug: partridge-pea
+  name: Partridge Pea
+- slug: little-bluestem
+  name: Little Bluestem
 cautions:
 - Spines — mechanical injury to people, pets, and livestock mouths
 - Solanum alkaloids — poisoning risk if consumed; do not feed in hay
-- Weed status — restricted or listed in some regions; verify local rules before moving
-  seed
+- Weed status — restricted or listed in some regions; verify local rules before moving seed
 pests:
 - Andean Potato Weevil
 - Aphids

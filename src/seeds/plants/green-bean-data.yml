@@ -22,13 +22,10 @@ plant_function:
 description: |-
   Green beans are fast-growing annual legumes that can be either bush or pole varieties. They produce long, slender pods that are harvested before the seeds inside mature. The plants have trifoliate leaves and small, white to purple flowers that develop into edible pods. Bush varieties grow up to 60 cm (2 feet) tall, while pole beans require trellises and can reach 2-3 meters (6-10 feet). They thrive in well-drained soil and warm temperatures.
 
-  🌞💧 Sun and Water Requirements:
   Green beans require full sun, with at least 6-8 hours of direct sunlight daily. They prefer moist, well-draining soil with regular watering, but excessive moisture can lead to fungal diseases.
 
-  ✂️🫘 Methods to Propagate:
   Green beans are grown from seeds. Sow seeds directly into the soil 2.5 cm (1 inch) deep, spaced 10-15 cm (4-6 inches) apart for bush beans and 20 cm (8 inches) apart for pole beans. Germination occurs within 7-10 days in warm soil.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
   Green beans are typically ready to harvest within 50-65 days. Harvest the pods when they are firm but before the seeds inside fully develop. Frequent harvesting encourages continuous production.
 purpose: |-
   Edible: Phaseolus vulgaris snap pods are tender when seeds are immature -- blanch, stir-fry, or pickle within days of pick because fiber toughens once beans swell inside the wall.
@@ -36,10 +33,12 @@ purpose: |-
   Pollinator: White to lilac papilionaceous flowers offer nectar and pollen to small bees while the canopy is still low -- open flowers during morning hours when beneficials are active before heat shuts them down.
   Ground Cover: Bush types form a low leaf canopy that shades soil between rows -- it suppresses some annual weeds and slows evaporation until pods finish, though it will not outcompete perennial thugs without cultivation.
 companions:
-- Corn
-- Carrot
-- Cucumber
-- Marigold
+- slug: carrot
+  name: Carrot
+- slug: cucumber
+  name: Cucumber
+- slug: marigold
+  name: Marigold
 cautions:
 - Onion
 - Garlic
@@ -77,3 +76,6 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Corn
+  original: Corn

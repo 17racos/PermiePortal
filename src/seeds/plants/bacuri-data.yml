@@ -15,33 +15,26 @@ layers:
 - Tree
 plant_function:
 - Edible
-- Timber
 - Wildlife Attractor
 description: |-
   Bacuri is a hefty Amazonian forest tree with thick-skinned brown fruit and aromatic pulp that shows up in local sweets and beverages where marketing departments have not yet flattened the story. Tall canopy component—not a balcony plant unless your balcony is unreasonable.
 
   Essentially not a 9a crop. This is for collectors in true tropical lowland or greenhouse estates. If you are reading this in humid subtropical regions, enjoy the wiki rabbit hole and move on.
 
-  ☀️💧 Sun and Water Requirements:
-
   Full sun when mature; young trees appreciate partial shade in savanna transition.
   Deep, fertile, well-drained acidic soils; consistent rainfall pattern.
 
-  ✂️ Propagation:
-
   Fresh seeds; long taproot makes later transplant touchy—plan final location or use deep containers.
-
-  🌾 Harvest / Best Use Timing:
 
   Collect thick-rinded fruit when mature for sweets and beverages; processing demands a stout knife and respect for latex.
 purpose: |-
   Edible: Platonia insignis thick-rinded brown fruit yields aromatic sweet-sour pulp for Brazilian sweets and beverages after you win the knife fight with latex -- plan processing days, not five-minute snacks.
-  Timber: Dense yellow-brown wood serves local construction and tool stock where rotations respect slow tropical growth -- export ethics still matter; do not cosplay sustainable harvest on paper only.
   Wildlife Attractor: Massive canopy flowers and fallen fruit feed monkeys, parrots, and beetles in Amazonian systems -- heavy fruit also dents anything parked under loading branches.
 companions:
-- Cupuacu
-- Ice Cream Bean Tree
-- Understory shade-tolerant crops
+- slug: cupuacu
+  name: Cupuacu
+- slug: ice-cream-bean-tree
+  name: Ice Cream Bean Tree
 cautions:
 - Calcareous water without organic buffering
 - Marginal chill without protection
@@ -51,3 +44,9 @@ pests:
 - caterpillars
 growth_habit: Large tropical canopy tree
 data_quality_score: 0.68
+companion_categories:
+- name: Understory shade-tolerant crops
+  original: Understory shade-tolerant crops
+  type: system
+human_uses:
+- Timber

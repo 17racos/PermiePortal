@@ -20,23 +20,23 @@ plant_function:
 description: |-
   Bush chinquapin is a low, clumping relative of chestnuts in the Castanea pumila complex of the southeastern United States, forming thickets with small, heavily toothed leaves and spiny burrs enclosing a single small nut. Height is commonly 3–8 feet (1–2.5 m) in open sandhill and oak understories, spreading by root sprouts. It provides mast where taller chestnut species are absent, fitting savanna restoration, wildlife plots, and droughty acidic edges.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun to partial shade; best mast in high light. Prefers well-drained, acidic, often sandy soils; tolerates drought once established compared with riparian shrubs. Mulch young sprouts; avoid alkaline irrigation.
 
-  ✂️ Propagation:
   Sow fresh nuts after stratification or outdoors in protected beds. Transplant root sprouts with ample roots in dormancy. Grafting to blight-tolerant stock is a specialist orchard path.
 
-  🌾 Harvest / Best Use Timing:
   Gather burrs as they split in fall; cure nuts briefly before eating or roasting. Expect heavy wildlife losses unless protected. Prune crowded interior stems to reduce disease pressure in humid years.
 purpose: |-
-  Edible: Castanea pumila var. pumila nuts roast one at a time out of spiny burrs, giving true chestnut flavor if you leach tannins like other red-oak-cycle mast.
-  Wildlife Attractor: Wild turkeys and deer scratch for single nuts in sandhill longleaf understories where fire returns keep shrubs low enough for sunlight to hit the burr crop.
-  Erosion Control: Root sprouts knit shifting sand after road cuts, holding banks until wiregrass and longleaf seedlings bind deeper horizons.
-  Mulcher: Small serrated leaves drop acidic litter that feeds ericaceous neighbors without smothering low wiregrass clumps.
+  Edible: Castanea pumila var. pumila nuts roast one at a time out of spiny burrs -- giving true chestnut flavor if you leach tannins like other red-oak-cycle mast.
+  Wildlife Attractor: Wild turkeys and deer scratch for single nuts in sandhill longleaf understories -- where fire returns keep shrubs low enough for sunlight to hit the burr crop.
+  Erosion Control: Root sprouts knit shifting sand after road cuts -- holding banks until wiregrass and longleaf seedlings bind deeper horizons.
+  Mulcher: Small serrated leaves drop acidic litter that feeds ericaceous neighbors -- without smothering low wiregrass clumps.
 companions:
-- Longleaf Pine — classic overstory for southeastern sandhill chinquapin thickets
-- Turkey Oak — shared dry oak habitat with complementary acorn timing
-- Wiregrass — ground-layer associate in fire-return ecosystems where chinquapin persists
+- slug: longleaf-pine
+  name: Longleaf Pine
+- slug: turkey-oak
+  name: Turkey Oak
+- slug: wiregrass
+  name: Wiregrass
 cautions:
 - Chestnut blight — monitor for cankers; genetics vary in susceptibility
 - Black Walnut — juglone stress possible near massive walnut root zones
@@ -47,6 +47,5 @@ pests:
 - Twig Girdlers
 - Gall Mite
 - Tent Caterpillar
-growth_habit: Low clumping chestnut relative; spiny single-nut burrs; acidic sandy
-  sites
+growth_habit: Low clumping chestnut relative; spiny single-nut burrs; acidic sandy sites
 data_quality_score: 0.85

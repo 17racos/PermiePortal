@@ -23,16 +23,11 @@ plant_function:
 description: |-
   Peanut butter fruit tree (Bunchosia argentea) is a small evergreen tree or large shrub from Central and northern South America, often kept under about 10–15 feet in cultivation but capable of growing larger in the wild. It has glossy, simple leaves and clusters of small yellow flowers followed by oval red-orange drupes; the ripe pulp is soft and famously smells and tastes reminiscent of peanut butter or dried figs, with a sticky sweetness.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun to light shade for best flowering and fruit set; protect young plants from harsh midday sun until established.
-  - Likes steady moisture in subtropical and tropical Americas’s humid warm season; use well-drained soil and reduce watering briefly in the coolest, drier months to avoid soggy roots.
+  Full sun to light shade for best flowering and fruit set; protect young plants from harsh midday sun until established. Likes steady moisture in subtropical and tropical Americas’s humid warm season; use well-drained soil and reduce watering briefly in the coolest, drier months to avoid soggy roots.
 
-  ✂️ Methods to Propagate:
-  - Seeds: clean fresh seed, sow in warm (75–85°F) moist mix; germination can be slow and irregular—patience helps.
-  - Cuttings: semi-hardwood cuttings in late warm season, kept humid and warm, root for genetically identical clones of a good-tasting selection.
+  Seeds: clean fresh seed, sow in warm (75–85°F) moist mix; germination can be slow and irregular—patience helps. Cuttings: semi-hardwood cuttings in late warm season, kept humid and warm, root for genetically identical clones of a good-tasting selection.
 
-  🌾 When to Harvest:
-  - Pick fruit when fully colored and slightly soft; flavor peaks at full ripeness. In tropical and subtropical frost-free sites, harvest may repeat across much of the year with peaks after rainy-season flushes.
+  Pick fruit when fully colored and slightly soft; flavor peaks at full ripeness. In tropical and subtropical frost-free sites, harvest may repeat across much of the year with peaks after rainy-season flushes.
 purpose: |-
   Edible: Bunchosia argentea red-orange drupes soften to sticky pulp that reads peanut-butter-and-fig for out-of-hand snacks, jams, and ice cream swirls -- harvest fully colored fruit fast because shelf life is measured in days, not weeks.
   Pollinator: Small yellow malpighiaceous flowers supply oil and pollen to stingless bees and generalist honeybees during warm-season flushes -- keep sprays off bloom if you want fruit set on container plants moved outdoors.
@@ -40,16 +35,20 @@ purpose: |-
   Ornamental: Glossy simple leaves and clustered red fruit make a tidy evergreen anchor in mixed borders -- stays under roughly 3–5 m with pruning, so it fits small lots where mango would bully sight lines.
   Shade Provider: Rounded modest crown gives broken shade to young chaya, turmeric, or nursery tables during peak tropical insolation -- still thin interior for airflow where Caribbean fruit fly is already on the mailing list.
 companions:
-- Banana
-- Papaya
-- Pineapple
-- Chaya
+- slug: banana
+  name: Banana
+- slug: papaya
+  name: Papaya
+- slug: chaya
+  name: Chaya
 cautions:
 - None documented
 pests:
 - Scale Insects
 - Mealybugs
 - Aphids
-growth_habit: Small evergreen tree to large multistem shrub; glossy leaves; showy
-  red-orange fruit
+growth_habit: Small evergreen tree to large multistem shrub; glossy leaves; showy red-orange fruit
 data_quality_score: 0.75
+companions_unresolved:
+- name: Pineapple
+  original: Pineapple

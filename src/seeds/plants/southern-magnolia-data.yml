@@ -21,29 +21,23 @@ plant_function:
 description: |-
   Southern magnolia is glossy evergreen ego with lemon-cream flowers and a leaf-drop habit that refuses minimalism. Native to the Southeast, it reads "estate driveway" but works as heat-season shade and bird cover in food forests if you accept litter.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun to part shade; denser in sun, thinner in shade — pick your aesthetic tax.
-  - Moist, acidic, organic-rich soil preferred; tolerates clay if drainage exists.
-  - Drought-tolerant when established but looks richer with summer water.
+  Full sun to part shade; denser in sun, thinner in shade — pick your aesthetic tax. Moist, acidic, organic-rich soil preferred; tolerates clay if drainage exists. Drought-tolerant when established but looks richer with summer water.
 
-  ✂️ Methods to Propagate:
-  - Seeds: stratify; slow road to treehood, good for cheap experiments.
-  - Cuttings: semi-hardwood with auxin and humidity for patient propagators.
-  - Grafting and air layering used for named cultivars with predictable form.
+  Seeds: stratify; slow road to treehood, good for cheap experiments. Cuttings: semi-hardwood with auxin and humidity for patient propagators. Grafting and air layering used for named cultivars with predictable form.
 
-  🌾 Harvest / Best Use Timing:
-  - Pick mature cones when follicles open and scarlet seeds show -- air-dry seeds briefly before sowing or cold storage experiments.
-  - Floral parts are ornamental use primarily -- fragrance peaks on freshly opened blooms.
-  - Leaf drop is mulch timing -- rake into beds if scale insects are not part of the bundle.
+  Pick mature cones when follicles open and scarlet seeds show -- air-dry seeds briefly before sowing or cold storage experiments. Floral parts are ornamental use primarily -- fragrance peaks on freshly opened blooms. Leaf drop is mulch timing -- rake into beds if scale insects are not part of the bundle.
 purpose: |-
-  Wildlife Attractor: Magnolia grandiflora cone-like follicles shed bright red arils that squirrels cache while dense evergreen limbs hide swallow nests along pasture edges.
-  Shade Provider: Leathery leaves reflect Gulf humidity while casting year-round shade for camellias and understory tea shrubs that fry in open sun.
-  Windbreaker: Low wide limbs flex in hurricane gusts yet stay foliated enough to blunt wind across citrus blocks and tunnel houses.
-  Ornamental: Copper-backed foliage and lemon-vanilla plate blooms anchor estate entries where soil drainage matches the romance.
+  Wildlife Attractor: Magnolia grandiflora cone-like follicles shed bright red arils that squirrels cache -- while dense evergreen limbs hide swallow nests along pasture edges.
+  Shade Provider: Leathery leaves reflect Gulf humidity -- while casting year-round shade for camellias and understory tea shrubs that fry in open sun.
+  Windbreaker: Low wide limbs flex in hurricane gusts yet stay foliated enough to blunt wind -- across citrus blocks and tunnel houses.
+  Ornamental: Copper-backed foliage and lemon-vanilla plate blooms anchor estate entries -- where soil drainage matches the romance.
 companions:
-- Beautyberry
-- Ferns
-- Muscadine
+- slug: beautyberry
+  name: Beautyberry
+- slug: cinnamon-fern
+  name: Cinnamon Fern
+- slug: muscadine
+  name: Muscadine
 cautions:
 - Planting under eaves where heavy branches and leaves clog gutters without mercy
 - Expecting tidy lawns beneath without rake labor
@@ -51,3 +45,13 @@ pests:
 - Scale Insects
 - Japanese Beetles
 - Caterpillars
+companions_unresolved:
+- name: Fern
+  original: Ferns
+  note: normalization_target_not_in_index
+- name: Muscadine
+  original: Muscadine
+companions_normalized:
+- original: Ferns
+  resolved_slug: cinnamon-fern
+  name: Cinnamon Fern

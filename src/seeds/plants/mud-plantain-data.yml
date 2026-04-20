@@ -23,27 +23,20 @@ description: |-
 
   subtropical and tropical Americas ponds and rain gardens can host it without drama; pair with other warm-zone aquatics and avoid drying the root crown for long stretches.
 
-  ☀️💧 Sun and Water:
-  - Full sun for best bloom; tolerates light shade.
-  - Wet mud to shallow water; recedes if baked dry for weeks.
-  - Rich organic muck is welcome.
+  Full sun for best bloom; tolerates light shade. Wet mud to shallow water; recedes if baked dry for weeks. Rich organic muck is welcome.
 
-  ✂️ Propagation:
-  - Division of rooted mats in warm weather.
-  - Seed on saturated soil; keep humid until established.
+  Division of rooted mats in warm weather. Seed on saturated soil; keep humid until established.
 
-  🌾 Harvest / Best Use Timing:
-  - Ecological value and subtle edible uses depend on correct ID -- harvest only where law and sanitation allow.
-  - Thin dense stands if mosquito habitat becomes a managed-water issue.
-  - Leave regenerating rhizome patches after any removal.
+  Ecological value and subtle edible uses depend on correct ID -- harvest only where law and sanitation allow. Thin dense stands if mosquito habitat becomes a managed-water issue. Leave regenerating rhizome patches after any removal.
 purpose: |-
-  Wildlife Attractor: Short-lived blue “monkey-face” Pontederiaceae flowers draw small bees and flies to fluctuating shorelines while mat foliage gives cover for tadpoles, microcrustaceans, and aquatic insect nymphs between wet and drawdown phases.
+  Wildlife Attractor: Short-lived blue “monkey-face” Pontederiaceae flowers draw small bees and flies to fluctuating shorelines -- while mat foliage gives cover for tadpoles, microcrustaceans, and aquatic insect nymphs between wet and drawdown phases.
   Border Plant: Low Heteranthera limosa carpets visually soften pond margins, rain-garden weirs, and irrigation spillways where hard edges would glare -- pairs with pickerelweed and spatterdock for staggered height without monoculture mulch.
   Erosion Control: Creeping stems and fibrous roots knit seasonally exposed mud, cutting wave splash and sheet flow that would otherwise undercut liner edges -- thin overcrowded mats if stagnant pockets become mosquito nurseries.
 companions:
-- Pickerelweed
-- Duck Potato
-- Spatterdock
+- slug: pickerelweed
+  name: Pickerelweed
+- slug: spatterdock
+  name: Spatterdock
 cautions:
 - None documented
 pests:
@@ -51,3 +44,7 @@ pests:
 - Snails
 growth_habit: Mat-forming aquatic herb
 data_quality_score: 0.7
+companion_categories:
+- name: Duck Potato
+  original: Duck Potato
+  type: ecosystem

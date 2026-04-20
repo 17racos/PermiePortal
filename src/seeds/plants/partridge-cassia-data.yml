@@ -2,8 +2,8 @@ common_name: Partridge Cassia
 picture: partridge_cassia.webp
 scientific_name: Chamaecrista nictitans
 aka:
-- Sensitive partridge pea
-- Wild sensitive plant
+  - Sensitive partridge pea
+  - Wild sensitive plant
 family: Fabaceae
 zone: 5-10
 ideal_temp_min: 65
@@ -12,72 +12,64 @@ min_temp: 15
 max_temp: 105
 perennial: false
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Nitrogen Fixer
-- Pollinator
-- Wildlife Attractor
-- Ground Cover
+  - Nitrogen Fixer
+  - Pollinator
+  - Wildlife Attractor
+  - Ground Cover
 description: |-
   Partridge cassia here maps to Chamaecrista nictitans, a warm-season annual or short-lived legume of open sandy soils, roadsides, and disturbed ground across much of the Americas in tropical to warm-temperate climates. Leaves fold on touch like a modest mimosa; small yellow flowers give way to slender pods. It is a native disturbance responder that fixes nitrogen while early succession looks messy to lawn purists.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun; shade reduces bloom and nodulation.
-  - Drought tolerant once established in warm months; still benefits from rain after germination.
-  - Sandy or well-drained soils match its ecology; avoids stagnant wet clay.
+  Full sun; shade reduces bloom and nodulation. Drought tolerant once established in warm months; still benefits from rain after germination. Sandy or well-drained soils match its ecology; avoids stagnant wet clay.
 
-  ✂️ Propagation:
-  - Direct-sow seed after soil warms; scarify if germination is slow.
-  - Thin seedlings to avoid overcrowding that favors powdery mildew.
-  - Do not transplant taprooted volunteers late—move tiny seedlings if needed.
+  Direct-sow seed after soil warms; scarify if germination is slow. Thin seedlings to avoid overcrowding that favors powdery mildew. Do not transplant taprooted volunteers late—move tiny seedlings if needed.
 
-  🌾 Harvest / Best Use Timing:
-  - For cover, mow or crimp at early pod set if managing a succession bed; leave some plants to reseed.
-  - Seeds mature unevenly—collect brown pods before full shatter for intentional replanting.
-  - Leave patches blooming for specialist bees that recognize small cassioid flowers.
+  For cover, mow or crimp at early pod set if managing a succession bed; leave some plants to reseed. Seeds mature unevenly—collect brown pods before full shatter for intentional replanting. Leave patches blooming for specialist bees that recognize small cassioid flowers.
 purpose: |-
   Nitrogen Fixer: Chamaecrista nictitans nodulates on warm-season annual roots, leaving nitrogen-rich residue when frost kills tops -- broadcast into disturbed sand after fire or grading so succession gets a legume pulse without perennial shade.
   Pollinator: Small yellow axillary flowers offer pollen and nectar to sweat bees and halictids on roadsides -- blooms close by midday heat, so pollinators learn the narrow morning window.
   Wildlife Attractor: Sensitive-compound leaves host sulphur butterfly larvae; dehiscent pods rattle seed for juncos and sparrows if stems stand into winter -- mow strips late if you need tidy sight lines but accept lost bird calories.
   Ground Cover: Prostrate branching hugs bare sand between bluestem plugs and wiregrass restoration plugs the first two seasons -- expect self-sowing yellow drifts wherever soil stays open and sun stays high.
 companions:
-- Showy Partridge Pea — taller showier cousin for staggered height in the same insectary
-  strip
-- Rattlesnake Master — structural contrast beside fine-leaved legumes on dry banks
-- Narrowleaf Sunflower — perennial backbone that returns after annual cassias finish
+  - slug: partridge-pea
+    name: Partridge Pea
+  - slug: rattlesnake-master
+    name: Rattlesnake Master
+  - slug: swamp-sunflower
+    name: Swamp Sunflower
 cautions:
-- None documented
+  - None documented
 pests:
-- Aphids
-- Banded Cucumber Beetle
-- Bean Aphid
-- Bean Leaf Beetle
-- Bean Weevil
-- Corn Earworm
-- Cowpea Curculio
-- Fall Armyworm
-- Kudzu Bug
-- Leafhoppers
-- Locust Borer
-- Locust Leaf Miner
-- Lubber Grasshopper
-- Pea Moth
-- Pea Weevil
-- Reniform Nematode
-- Root Aphid
-- Soybean Looper
-- Spittlebugs
-- Stink Bug
-- Striped Cucumber Beetle
-- Fusarium Wilt
-- Ganoderma Butt Rot
-- Pythium Root Rot
-- Spotted Cucumber Beetle
-- White Rot
-- Brown Marmorated Stink Bug
-- Caterpillars
-- Harlequin Ladybird
-- Velvetbean Caterpillar
-growth_habit: Branching annual herb with sensitive compound leaves and small yellow
-  flowers
+  - Aphids
+  - Banded Cucumber Beetle
+  - Bean Aphid
+  - Bean Leaf Beetle
+  - Bean Weevil
+  - Corn Earworm
+  - Cowpea Curculio
+  - Fall Armyworm
+  - Kudzu Bug
+  - Leafhoppers
+  - Locust Borer
+  - Locust Leaf Miner
+  - Lubber Grasshopper
+  - Pea Moth
+  - Pea Weevil
+  - Reniform Nematode
+  - Root Aphid
+  - Soybean Looper
+  - Spittlebugs
+  - Stink Bug
+  - Striped Cucumber Beetle
+  - Fusarium Wilt
+  - Ganoderma Butt Rot
+  - Pythium Root Rot
+  - Spotted Cucumber Beetle
+  - White Rot
+  - Brown Marmorated Stink Bug
+  - Caterpillars
+  - Harlequin Ladybird
+  - Velvetbean Caterpillar
+growth_habit: Branching annual herb with sensitive compound leaves and small yellow flowers
 data_quality_score: 0.74

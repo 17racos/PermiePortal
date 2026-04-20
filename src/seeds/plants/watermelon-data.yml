@@ -18,32 +18,20 @@ plant_function:
 description: |-
   Watermelon (Citrullus lanatus) is a warm-season vine grown for its refreshing, sweet fruit. It originates from Africa and is now cultivated across warm temperate and subtropical regions throughout the Americas. Plants sprawl with large leaves and tendrils, typically reaching 1–3 m (3–10 ft) of spread depending on spacing and training. In permaculture, watermelon matters because it provides heavy summer edible output while its leaf canopy reduces soil evaporation and helps keep the bed shaded and stable when the season is aggressively hot.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun is essential for flowering and sugar development; shade reduces yield.
-  - Water consistently during vine growth and fruit sizing; drought reduces sweetness and can cause cracking.
-  - Prefers fertile, well-drained soil with compost.
-  - Avoid waterlogged soil; root and crown diseases increase.
+  Full sun is essential for flowering and sugar development; shade reduces yield. Water consistently during vine growth and fruit sizing; drought reduces sweetness and can cause cracking. Prefers fertile, well-drained soil with compost. Avoid waterlogged soil; root and crown diseases increase.
 
-  ✂️ Propagation:
-  - Seeds (direct sow): sow after soil warms; germination often occurs in 3–10 days.
-  - Start and transplant: start indoors when your season is short; transplant carefully to avoid root disturbance.
-  - Relay sow: plant small batches for staggered harvest and reduced weather risk.
+  Seeds (direct sow): sow after soil warms; germination often occurs in 3–10 days. Start and transplant: start indoors when your season is short; transplant carefully to avoid root disturbance. Relay sow: plant small batches for staggered harvest and reduced weather risk.
 
-  🌾 Harvest / Best Use Timing:
-  - Harvest when rind color is deep, the fruit sounds hollow, and the stem end dries slightly (varies by variety).
-  - Pick in the cool part of the day for best texture.
-  - Eat fresh; store short-term in the fridge or process into juice/freeze for later use.
+  Harvest when rind color is deep, the fruit sounds hollow, and the stem end dries slightly (varies by variety). Pick in the cool part of the day for best texture. Eat fresh; store short-term in the fridge or process into juice/freeze for later use.
 purpose: |-
   Edible: Citrullus lanatus sweet flesh is 90% water but still stacks sugar for summer -- seedless triploids need diploid pollinizers; icebox types fit short seasons.
   Pollinator: Large yellow monoecious flowers open at dawn for solitary bees -- insufficient pollination shows as bottle-shaped fruit; one active hive can set acres.
   Water Retention: Huge palmately lobed leaves shade planting berms -- reduces evaporation from melon skins touching hot soil when you mulch with straw.
 companions:
-- Corn (Zea mays) — creates edge structure and shade timing that can reduce extreme
-  hot-sun stress for nearby plants.
-- Marigold (Tagetes patula) — flowers attract beneficial insects and improve pest
-  monitoring in the patch.
-- Dill (Anethum graveolens) — provides flowers for beneficial insects while you harvest
-  watermelons.
+- slug: marigold
+  name: Marigold
+- slug: dill
+  name: Dill
 cautions:
 - Keep fruit off wet soil with straw/boards to reduce rot.
 pests:
@@ -51,3 +39,6 @@ pests:
 - Spider Mites
 - Root Rot
 - Caterpillars
+companions_unresolved:
+- name: Corn
+  original: Corn (Zea mays) — creates edge structure and shade timing that can reduce extreme hot-sun stress for nearby plants.

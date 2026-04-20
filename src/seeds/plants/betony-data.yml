@@ -2,8 +2,8 @@ common_name: Betony
 picture: betony.webp
 scientific_name: Stachys officinalis
 aka:
-- Wood betony
-- Bishop's wort
+  - Wood betony
+  - Bishop's wort
 family: Lamiaceae
 zone: 4-8
 ideal_temp_min: 50
@@ -12,29 +12,23 @@ min_temp: -30
 max_temp: 90
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Medicinal
-- Pollinator
-- Border Plant
-- Ground Cover
-- Ornamental
+  - Medicinal
+  - Pollinator
+  - Border Plant
+  - Ground Cover
+  - Ornamental
 description: |-
   Betony (Stachys officinalis) is a clump-forming mint-family perennial from Europe, naturalized in parts of North America. Basal rosettes send up square stems roughly 1–2 feet tall topped with dense spikes of magenta-pink tubular flowers attractive to bees. Leaves are softly textured and often slightly wrinkled, with a tidy habit in good drainage.
 
   subtropical and tropical Americas lowlands treat it as a cool-season or north-Florida candidate—humid subtropical summers invite mildew unless sited with morning sun, afternoon relief, and ruthless airflow. Puerto Rico highlands may behave more kindly than steamy coasts.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun in cool summers; light afternoon shade where heat spikes above its European comfort.
-  - Average, well-drained loam; tolerates moderate drought once established—wet clay in August is fungal summer camp.
+  Full sun in cool summers; light afternoon shade where heat spikes above its European comfort. Average, well-drained loam; tolerates moderate drought once established—wet clay in August is fungal summer camp.
 
-  ✂️ Methods to Propagate:
-  - Division in spring or fall—split crowns with a sharp knife and replant promptly.
-  - Seeds: surface sow in spring; germination moderate—label trays so you do not confuse betony with actual mint chaos.
+  Division in spring or fall—split crowns with a sharp knife and replant promptly. Seeds: surface sow in spring; germination moderate—label trays so you do not confuse betony with actual mint chaos.
 
-  🌾 Harvest / Best Use Timing:
-  - Harvest flowering tops at early full bloom for drying; strip leaves for tea earlier if that is your use case.
-  - Leave late spikes for pollinators if you are not running a commercial drying operation—bees pay rent too.
+  Harvest flowering tops at early full bloom for drying; strip leaves for tea earlier if that is your use case. Leave late spikes for pollinators if you are not running a commercial drying operation—bees pay rent too.
 purpose: |-
   Medicinal: Stachys officinalis flowering tops dry for European nervine and head-tension teas where alkaloid load stays mild compared with concentrated extracts -- pregnancy contraindications still appear in modern monographs.
   Pollinator: Magenta-lipped tubes line vertical spikes for long-tongued bumblebees after spring bulbs fade -- deadheading redirects energy if mildew already claimed lower leaves in humid summers.
@@ -42,16 +36,17 @@ purpose: |-
   Ground Cover: Evergreen basal rosettes tile bare niches between taller perennials when clumps expand slowly -- foot traffic tolerance is light, not stadium-grade.
   Ornamental: Crinkled leaves and stacked pink wands read honest cottage -- pair with yarrow for complementary texture without matching water needs stupidly.
 companions:
-- Yarrow — contrasting foliage and shared pollinators; both tolerate lean soil if
-  drainage is real.
-- Echinacea — staggered bloom keeps the border from going silent by July.
-- Hyssop officinalis — mint-family neighbor with different flower architecture; shared
-  bee traffic, dissimilar height if you plan it.
+  - slug: yarrow
+    name: Yarrow
+  - slug: echinacea
+    name: Echinacea
+  - slug: hyssop-officinalis
+    name: Hyssop officinalis
 cautions:
-- None documented
+  - None documented
 pests:
-- Aphids
-- Spider Mites
-- Slugs
+  - Aphids
+  - Spider Mites
+  - Slugs
 growth_habit: Clumping lamiaceous perennial; square stems; dense pink flower spikes
 data_quality_score: 0.75

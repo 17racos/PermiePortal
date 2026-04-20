@@ -24,27 +24,20 @@ plant_function:
 description: |-
   Ramps are the Appalachian spring onion that launched a thousand overharvest horror stories. Leaves and bulbs taste like garlic met a leek at a folk festival. They want rich, moist hardwood duff, cool winters, and ethical harvest — take leaves or thin patches, not whole populations for restaurant clout. subtropical and tropical Americas is south of prime range; only try if you can mimic cool, shady, limestone-y forest floor without delusion.
 
-  ☀️💧 Sun and Water Requirements:
-  - Dappled shade to full shade under deciduous canopy; summer sun cooks them.
-  - Consistent soil moisture resembling a sponge, not a swamp.
-  - Cool soil: heavy mulch of leaves, avoid hot dry banks.
+  Dappled shade to full shade under deciduous canopy; summer sun cooks them. Consistent soil moisture resembling a sponge, not a swamp. Cool soil: heavy mulch of leaves, avoid hot dry banks.
 
-  ✂️ Methods to Propagate:
-  - Seeds: sow fresh; slow germination — shade beds, keep moist 1–2 years realistically.
-  - Bulb offsets: transplant small bulbs from thinned patches you legally own or grew.
+  Seeds: sow fresh; slow germination — shade beds, keep moist 1–2 years realistically. Bulb offsets: transplant small bulbs from thinned patches you legally own or grew.
 
-  🌾 Harvest / Best Use Timing:
-  - Ramps: dig tubers or roots after tops senesce or frost signals storage shift -- curing a few days at 50-60°F (10-16°C) sweetens some starches.
-  - Loosen soil wide first -- snapped necks invite rot in storage.
-  - Brush-dry before long storage; plastic totes without airflow grow penicillin cosplay.
+  Ramps: dig tubers or roots after tops senesce or frost signals storage shift -- curing a few days at 50-60°F (10-16°C) sweetens some starches. Loosen soil wide first -- snapped necks invite rot in storage. Brush-dry before long storage; plastic totes without airflow grow penicillin cosplay.
 purpose: |-
   Edible: Allium tricoccum two flat leaves and small bulbs deliver sweet-garlic punch to spring eggs and pesto when sliced thin -- ethical harvest means one leaf per plant or thinning owned patches, not stripping public woods for restaurant clout.
   Medicinal: Same sulfur compounds underpin Appalachian spring tonic folklore for blood-moving narratives -- medicinal strength still belongs with practitioners if you push beyond occasional culinary doses.
   Wildlife Attractor: White umbels feed native bees in shaded sugar-maple duff before canopy closes -- leave seed heads where colonies are fragile so populations rebuild instead of vanishing for brunch trends.
 companions:
-- Trout lily
-- Bloodroot
-- Spicebush
+- slug: bloodroot
+  name: Bloodroot
+- slug: spicebush
+  name: Spicebush
 cautions:
 - Full-sun sand hills
 - Overharvest from wild public land
@@ -56,3 +49,7 @@ pests:
 - Thrips
 - Root Rot
 - White Rot
+companions_unresolved:
+- name: Trout Lily
+  original: Trout lily
+  note: normalization_target_not_in_index

@@ -21,13 +21,10 @@ plant_function:
 description: |-
   Wild lime (Zanthoxylum fagara) is a thorny evergreen shrub to small tree of coastal hammocks, scrub, and limestone soils in the Caribbean and humid subtropical Gulf–Atlantic coastal plain where hardy. Aromatic leaves smell citrusy when crushed; small flowers yield red drupes on females where pollinators cooperate. It is a classic native understory for bird-thicket plantings and living fences that laugh at casual browsing.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun to bright part shade; densest hedge in sun. Well-drained rocky or sandy soils match natural sites; tolerates coastal wind and light salt exposure once established. Moderate drought tolerance after rooting; irrigate young plants through dry spells.
 
-   ✂️ Propagation:
   Sow seed after pulp cleaning; germination can be slow. Semi-hardwood cuttings under mist in warm months. Transplant carefully—thorns punish rushed handling.
 
-  🌾 Harvest / Best Use Timing:
   Leaves are used sparingly as citrus-like seasoning where traditions support it; verify tolerance and chemistry. Fruits are mostly wildlife food; prune for shape after fruiting if formal hedges matter.
 purpose: |-
   Edible: Zanthoxylum fagara leaves add lime-citrus zest to fish and beans -- harvest with gloves; thorns are not negotiable.
@@ -35,10 +32,10 @@ purpose: |-
   Border Plant: Train as impenetrable hedge on limestone coasts -- tolerates salt spray better than many citrus relatives.
   Pest Management: Spines stop casual deer browsing on adjacent vegetables -- still watch citrus psyllids on tender flushes.
 companions:
-- White Stopper — evergreen native matrix in coastal hammocks; complementary fruiting
-  for birds
-- Gumbo Limbo — dappled canopy over wild lime thickets; classic limestone island association
-- Simpson Stopper — mid-height evergreen layer; shared bird food and coastal tolerance
+- slug: white-stopper
+  name: White Stopper
+- slug: simpson-stopper
+  name: Simpson Stopper
 cautions:
 - Thorns — wear gloves; eye protection when pruning in tight quarters
 - Dioecious females needed for fruit — plant multiples if wildlife berries are a goal
@@ -60,6 +57,8 @@ pests:
 - Citrus Rust Mite
 - Rust Mite
 - Swallowtail Caterpillar
-growth_habit: Thorny evergreen rutaceous shrub; citrus-scented leaves; red drupes
-  on females; limestone coasts
+growth_habit: Thorny evergreen rutaceous shrub; citrus-scented leaves; red drupes on females; limestone coasts
 data_quality_score: 0.85
+companions_unresolved:
+- name: Gumbo Limbo
+  original: Gumbo Limbo — dappled canopy over wild lime thickets; classic limestone island association

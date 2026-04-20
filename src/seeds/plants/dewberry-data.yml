@@ -23,28 +23,24 @@ plant_function:
 description: |-
   Dewberry (Rubus trivialis) is a trailing bramble in the rose family, forming low, sometimes semi-erect canes armed with hooked prickles and producing early-summer blackberries smaller than commercial cultivars but often sweeter in the field. It is native to open woods, roadsides, and disturbed edges across the southeastern United States into parts of Mexico and the Caribbean, rooting at the nodes like a honest ground-layer engineer. For growers, it offers free erosion control on banks and fencerows—if you accept thorns, wandering canes, and the occasional territorial dispute with lawn ideology.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun to partial shade; best fruiting with strong light. Tolerates moderate drought once canes establish but fruits better with even soil moisture through flowering and fruit swell. Well-drained soils reduce root diseases; soggy flats invite rots that turn canes into compost drama.
 
-  ✂️ Propagation:
   Tip-layering: bury cane tips in soil in early wet season; sever rooted plantlets next season.
    Root cuttings from young suckers can establish new patches in prepared beds.
 
-   🌾 Harvest / Best Use Timing:
   Pick when berries turn glossy black and release with a gentle tug; morning picks hold better for the table. Process quickly—dewberries are soft and perishable. Cut out old fruiting canes after harvest to direct energy to new primocanes.
 purpose: |-
   Edible: Rubus trivialis blackberries stay soft and aromatic -- pick glossy black drupelets for quick jam before heat collapses the fruit.
-  Wildlife Attractor: White rose-family flowers feed early pollinators; fruit feeds songbirds along fencerows and ditch banks.
-  Erosion Control: Trailing primocanes root at nodes, knitting loose soil on moist slopes and pond margins.
-  Ground Cover: Thorny mats exclude many weeds under trees where wandering canes are acceptable.
+  Wildlife Attractor: White rose-family flowers feed early pollinators -- fruit feeds songbirds along fencerows and ditch banks.
+  Erosion Control: Trailing primocanes root at nodes -- knitting loose soil on moist slopes and pond margins.
+  Ground Cover: Thorny mats exclude many weeds under trees -- effective where wandering canes are acceptable and mowing is impractical.
 companions:
-- Elderberry — taller shrub layer; shares edge ecology without shading dewberries
-  flat
-- Blackberry — similar culture; stagger rows to simplify pruning and harvest lanes
-- Yarrow — low, droughty companions that do not compete for deep bramble roots
+- slug: elderberry
+  name: Elderberry
+- slug: yarrow
+  name: Yarrow
 cautions:
-- Wild Rubus patches may host rose rosette disease vectors—inspect canes and remove
-  witch's-broom growth
+- Wild Rubus patches may host rose rosette disease vectors—inspect canes and remove witch's-broom growth
 pests:
 - Apple Maggot
 - Apple Scab
@@ -85,3 +81,6 @@ pests:
 - Tent Caterpillar
 growth_habit: Trailing perennial bramble; black fruits; rooting nodes on canes
 data_quality_score: 0.84
+companions_unresolved:
+- name: Blackberry
+  original: Blackberry — similar culture; stagger rows to simplify pruning and harvest lanes

@@ -21,23 +21,23 @@ plant_function:
 description: |-
   Sago palm (Cycas revoluta) is a cycad, not a true palm, with a stout trunk or subterranean stem, stiff glossy fronds, and cones produced separately by male and female plants. It is native to southern Japan and widely planted in warm temperate to tropical landscapes for architectural foliage. Mature specimens can reach 6–10 feet (1.8–3 m) of visible trunk over decades. All parts contain toxic compounds—especially seeds—so design it as ornamental structure, not snack aisle.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun along coasts; bright partial shade inland in hot climates prevents frond burn. Well-drained, gritty soils prevent root rot; drought-tolerant once established but looks freshest with deep occasional watering in dry seasons. Avoid chronically wet pots or heavy clay without drainage holes.
 
-  ✂️ Propagation:
   Sow cleaned seed in warm, humid conditions—germination is slow. Remove offsets (“pups”) with sterile tools if cloning is desired. Prune only fully brown fronds; yellowing may be nutrient signal, not automatic excuse for scissors.
 
-  🌾 Harvest / Best Use Timing:
   Not a food crop for casual harvest—seeds are dangerous without specialized traditional processing. Growth flushes appear in warm wet periods; expect one or two leaf crowns per year in ideal heat.
 purpose: |-
   Ornamental: Cycas revoluta is a living fossil rosette of stiff glossy fronds on a slow stem -- reads as sculpture in warm xeric borders where true palms repeat the same silhouette.
-  Border Plant: Short visible trunks or ground-hugging crowns mark walk edges and courtyard entries without casting the wide shade of canopy trees.
-  Shade Provider: Young plants hold a dense leaf crown close to soil level so low succulents, bulbs, and dry-shade herbs sit in real microshade at the base.
+  Border Plant: Short visible trunks or ground-hugging crowns mark walk edges and courtyard entries -- without casting the wide shade of canopy trees.
+  Shade Provider: Young plants hold a dense leaf crown close to soil level so low succulents, bulbs, and dry-shade herbs sit -- in real microshade at the base.
   Wildlife Attractor: Male cones shed pollen that specialist weevils move in habitat where native cycad pollinators still visit -- not a nectar story for honeybees, but a niche insect relationship.
 companions:
-- Agave — sharp texture contrast in xeric beds sharing sun and drainage
-- Lavender — drought-tolerant perimeter herb at the dripline where soil stays lean
-- Rosemary — aromatic sun lover alongside cycads in Mediterranean-style plantings
+- slug: agave
+  name: Agave
+- slug: lavender
+  name: Lavender
+- slug: rosemary
+  name: Rosemary
 cautions:
 - Toxic seeds and tissues—keep away from curious pets and unsupervised snack experiments
 - Cold wet soil — root rot during cool rainy spells on poorly drained sites
@@ -45,6 +45,5 @@ pests:
 - Scale Insects
 - Aphids
 - Spider Mites
-growth_habit: Cycad rosette or short trunk; stiff glossy fronds; warm temperate to
-  tropical ornamental
+growth_habit: Cycad rosette or short trunk; stiff glossy fronds; warm temperate to tropical ornamental
 data_quality_score: 0.8

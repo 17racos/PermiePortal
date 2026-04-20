@@ -2,8 +2,8 @@ common_name: New Jersey Tea
 picture: new_jersey_tea.webp
 scientific_name: Ceanothus americanus
 aka:
-- Wild snowball
-- Redroot
+  - Wild snowball
+  - Redroot
 family: Rhamnaceae
 zone: 4-9
 ideal_temp_min: 40
@@ -12,44 +12,38 @@ min_temp: -30
 max_temp: 100
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Nitrogen Fixer
-- Pollinator
-- Wildlife Attractor
-- Border Plant
+  - Nitrogen Fixer
+  - Pollinator
+  - Wildlife Attractor
+  - Border Plant
 description: |-
   New Jersey tea (Ceanothus americanus) is a deciduous, fine-textured shrub of dry savannas and open woods, bearing small serrated leaves and dense clusters of tiny white flowers that read as “foam parties for pollinators.” Height commonly stays 2–3 feet in harsh sites, taller with moisture; roots partner with Frankia actinobacteria for nitrogen fixation—subtle, not as flashy as legume nodules, still paying rent.
 
   subtropical and tropical Americas: Northern and central Florida can host it on sandy, well-drained banks; deep south humidity demands extra spacing, airflow, and avoidance of heavy clay swamps—this plant prefers honesty about drainage.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun for tight habit and maximum bloom; light shade acceptable but flowering drops the mic early.
-  - Dry to medium moisture; drought-tolerant once established; hates wet feet—berm it or regret it.
+  Full sun for tight habit and maximum bloom; light shade acceptable but flowering drops the mic early. Dry to medium moisture; drought-tolerant once established; hates wet feet—berm it or regret it.
 
-  ✂️ Propagation:
-  - Scarified seed with a short hot-water soak; stratify if indoor germination is stubborn.
-  - Softwood cuttings in late spring under mist; keep humidity high until roots call back.
+  Scarified seed with a short hot-water soak; stratify if indoor germination is stubborn. Softwood cuttings in late spring under mist; keep humidity high until roots call back.
 
-  🌾 Harvest / Best Use Timing:
-  - Historical use as a caffeine-free tea substitute involved dried leaves; confirm ID and personal tolerance before hosting a tasting party.
-  - Prune after bloom to shape; avoid heavy late-season cuts that remove next year’s wood.
+  Historical use as a caffeine-free tea substitute involved dried leaves; confirm ID and personal tolerance before hosting a tasting party. Prune after bloom to shape; avoid heavy late-season cuts that remove next year’s wood.
 purpose: |-
   Nitrogen Fixer: Frankia-actinorhizal nodules on Ceanothus americanus roots convert atmospheric N₂ on dry savanna banks and oak openings -- interplant with prairie grasses whose fibrous roots pick up the leaf-litter nitrogen pulse each autumn.
   Pollinator: Foamy white cymes of tiny flowers offer shallow nectar to small native bees, halictids, and parasitoid wasps during early-summer bloom before big composite waves -- full sun keeps inflorescences dense; shade thins them fast.
   Wildlife Attractor: Three-lobed capsules split to feed quail, juncos, and other granivores while low architecture gives cover for insects that songbirds hunt at meadow edges -- leave some seed heads standing through winter for honest calories.
   Border Plant: 60–100 cm mounding habit edges paths, parking bioswales, and meadow transitions without swallowing sight lines -- drought-tolerant once established if drainage stays honest on sand or gravel berms.
 companions:
-- Black-eyed Susan — overlapping prairie aesthetic; shallow fibrous roots vs. deeper
-  shrub roots reduce trench warfare.
-- Echinacea — staggered bloom extends pollinator service contracts through summer.
-- Yarrow — aromatic foliage and deep drought tolerance on the drier shoulder while
-  New Jersey tea holds the slightly moister pocket.
+  - slug: black-eyed-susan
+    name: Black-eyed Susan
+  - slug: echinacea
+    name: Echinacea
+  - slug: yarrow
+    name: Yarrow
 cautions:
-- None documented
+  - None documented
 pests:
-- Japanese Beetles
-- Scale Insects
-growth_habit: Deciduous mounding shrub; spreads modestly by root suckers in ideal
-  sites
+  - Japanese Beetles
+  - Scale Insects
+growth_habit: Deciduous mounding shrub; spreads modestly by root suckers in ideal sites
 data_quality_score: 0.75

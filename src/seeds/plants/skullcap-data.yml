@@ -22,28 +22,21 @@ plant_function:
 description: |-
   Skullcap is the mint-family nerve herb people whisper about beside chamomile. Flowers look like tiny helmets — hence the name, not a metal band. subtropical and tropical Americas sits at the warm edge of range; give it morning sun, afternoon shade, and moist rich soil like a spoiled trout stream edge. Florida also hosts native Scutellaria species; ID matters if you wild-forage.
 
-  ☀️💧 Sun and Water Requirements:
-  - Partial shade ideal; full sun only with constant moisture and cool roots.
-  - Rich, humusy, well-drained but never bone-dry soil.
-  - Mulch to buffer summer heat and reduce weed competition.
+  Partial shade ideal; full sun only with constant moisture and cool roots. Rich, humusy, well-drained but never bone-dry soil. Mulch to buffer summer heat and reduce weed competition.
 
-  ✂️ Methods to Propagate:
-  - Seeds: cold stratify; surface sow in spring.
-  - Division: split clumps in early spring as growth resumes.
+  Seeds: cold stratify; surface sow in spring. Division: split clumps in early spring as growth resumes.
 
-  🌾 Harvest / Best Use Timing:
-  - Harvest Skullcap aerial parts in early flowering for many mint-family uses -- oils shift after full bloom.
-  - Dry in shade with airflow between 95-110°F (35-43°C) until crisp; mold invalidates the batch.
-  - Label harvest date and plant part -- winter you will not remember which jar was optimism.
+  Harvest Skullcap aerial parts in early flowering for many mint-family uses -- oils shift after full bloom. Dry in shade with airflow between 95-110°F (35-43°C) until crisp; mold invalidates the batch. Label harvest date and plant part -- winter you will not remember which jar was optimism.
 purpose: |-
   Medicinal: Scutellaria lateriflora flowering tops are tinctured for nervine protocols in modern North American practice -- adulteration with germander species has poisoned batches before, so voucher specimens and lab-tested seed matter more than forum confidence.
   Pollinator: Blue helmet flowers hide nectar at the floor of a tiny galea that favors small carpenter bees (Ceratina) and sweat bees over honeybees -- bloom runs weeks in moist shade where many herbs refuse to set buds.
   Wildlife Attractor: Late-season seeds shake from rattling calyxes into leaf litter where sparrows scratch -- dense knee-high mats also give cover to small frogs at the wet edge of paths if you stop mowing riparian strips.
   Ground Cover: Rhizomatous clumps spread under spicebush and elderberry without climbing trunks -- keeps mud off dog traffic zones while still letting spring ephemerals punch through before canopy closes.
 companions:
-- Violet
-- Ferns
-- Spicebush
+- slug: spicebush
+  name: Spicebush
+- slug: cinnamon-fern
+  name: Cinnamon Fern
 cautions:
 - Hot dry berms
 - Confusing with unrelated plants when harvesting wild
@@ -51,3 +44,13 @@ pests:
 - Aphids
 - Spider mites
 - Whiteflies
+companions_unresolved:
+- name: Violet
+  original: Violet
+- name: Fern
+  original: Ferns
+  note: normalization_target_not_in_index
+companions_normalized:
+- original: Ferns
+  resolved_slug: cinnamon-fern
+  name: Cinnamon Fern

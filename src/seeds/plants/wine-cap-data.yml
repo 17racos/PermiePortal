@@ -16,31 +16,18 @@ layers:
 - Fungal
 plant_function:
 - Edible
-- Decomposer
-- Soil Builder
 - Mulcher
 - Ground Cover
 description: |-
   Wine caps are the extroverts of the food forest floor — big burgundy-to-wine-red caps, a skirt-like ring on the stipe, and a habit of threading through wood chip paths and straw beds like they own the place. They are one of the most beginner-friendly outdoor mushrooms for Florida growers: they tolerate heat better than most temperate species, colonize fresh hardwood chips aggressively, and fruit reliably after late summer and fall rain events when beds are established. Placed under fruit trees they turn cardboard and chip aesthetics into a low-input protein crop while the mycelium stitches the soil underneath. Identify before you eat — young wine caps are distinctive, but gilled-mushroom ID discipline still applies.
 
-  ☀️💧 Sun and Water:
-  - Part shade to dappled sun; full afternoon sun desiccates surface chips and kills fruiting.
-  - Consistent moisture during colonization; deep occasional soak beats constant light sprinkle if drainage is good.
-  - Fresh hardwood chips and straw layers; avoid bark nuggets and anaerobic pits — both smell wrong and grow the wrong things.
+  Part shade to dappled sun; full afternoon sun desiccates surface chips and kills fruiting. Consistent moisture during colonization; deep occasional soak beats constant light sprinkle if drainage is good. Fresh hardwood chips and straw layers; avoid bark nuggets and anaerobic pits — both smell wrong and grow the wrong things.
 
-  ✂️ Propagation:
-  - Spawn into fresh hardwood chip or straw beds; top-dress yearly with new woody material to sustain the patch.
-  - Move handfuls of actively colonized white substrate to new bed areas to extend coverage.
-  - Patches become self-sustaining under regularly refreshed mulch.
+  Spawn into fresh hardwood chip or straw beds; top-dress yearly with new woody material to sustain the patch. Move handfuls of actively colonized white substrate to new bed areas to extend coverage. Patches become self-sustaining under regularly refreshed mulch.
 
-  🌾 Harvest / Best Use Timing:
-  - Flush Wine Cap before caps flatten and spores dust -- younger tissue holds better flavor for most logs and beds.
-  - Twist or cut at base; second flushes often follow if humidity stays honest.
-  - Refrigerate in paper bags and use within days; saute or pickle rather than letting slimy regret arrive.
+  Flush Wine Cap before caps flatten and spores dust -- younger tissue holds better flavor for most logs and beds. Twist or cut at base; second flushes often follow if humidity stays honest. Refrigerate in paper bags and use within days; saute or pickle rather than letting slimy regret arrive.
 purpose: |-
   Edible: Stropharia rugosoannulata caps stain wine-red when young -- saute until done; confirm burgundy cap, skirted ring, and purple-gray gills before any bite.
-  Decomposer: White-rot mycelium runs through hardwood chips and straw -- turns arborist dumps into soil-prep projects in one season.
-  Soil Builder: Hyphal networks glue chip layers into moisture sponges -- worm and springtail populations spike under established beds.
   Mulcher: Active patches digest woody mulch faster than passive piles -- top-dress fresh chips yearly or fruiting stalls.
   Ground Cover: Mycelium carpets wood-chip paths under fruit trees -- living mulch you can eat when flushes arrive after rains.
 substrate:
@@ -49,24 +36,27 @@ substrate:
 - Mixed straw and chip layers
 - Cardboard as base layer under chips
 mycelium_type: Saprobic; white rot on lignocellulosic material
-fruiting_season: Fall through spring in Florida; peaks October through March after
-  rain events; summer heat slows fruiting but mycelium persists
-cultivation_difficulty: Beginner — one of the most forgiving outdoor cultivation species
-  for subtropical climates
-spawn_type: Chip bed spawn (grain or sawdust spawn mixed into fresh chips); colonized
-  substrate transfer for patch expansion
+fruiting_season: Fall through spring in Florida; peaks October through March after rain events; summer heat slows fruiting but mycelium persists
+cultivation_difficulty: Beginner — one of the most forgiving outdoor cultivation species for subtropical climates
+spawn_type: Chip bed spawn (grain or sawdust spawn mixed into fresh chips); colonized substrate transfer for patch expansion
 companions:
-- Apple -- fruit tree guild host; wine cap thrives in wood chip mulch under fruit
-  trees
-- Comfrey -- chop-and-drop mulch feeds the wood chip substrate wine cap colonizes
-- Mulberry -- fast-growing tree producing abundant wood chip substrate when pruned
-- Fig -- Mediterranean guild companion; shares well-drained mulched beds
+- slug: apple
+  name: Apple
+- slug: comfrey
+  name: Comfrey
+- slug: fig
+  name: Fig
 cautions:
-- Confirm wine-red to burgundy cap, white gills, and skirt ring before harvest; do
-  not eat any gilled mushroom without a full ID
+- Confirm wine-red to burgundy cap, white gills, and skirt ring before harvest; do not eat any gilled mushroom without a full ID
 pests:
 - Slugs
 - Fungus Gnats
-growth_habit: Saprobic mushroom fruiting from wood chip and straw beds in partial
-  shade
+growth_habit: Saprobic mushroom fruiting from wood chip and straw beds in partial shade
 data_quality_score: 0.85
+companions_unresolved:
+- name: Mulberry
+  original: Mulberry -- fast-growing tree producing abundant wood chip substrate when pruned
+ecological_role:
+- Decomposer
+plant_function_unresolved:
+- Soil Builder

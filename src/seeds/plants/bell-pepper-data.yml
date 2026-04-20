@@ -10,46 +10,36 @@ min_temp: 32
 max_temp: 0
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Edible
-- Medicinal
-- Pollinator
-- Wildlife Attractor
+  - Edible
+  - Medicinal
+  - Pollinator
+  - Wildlife Attractor
 description: |-
   Bell pepper (Capsicum annuum) is a warm-season fruiting plant grown for thick-fleshed peppers eaten fresh, cooked, or preserved. Originating in the Americas, it forms sturdy, branching plants that typically reach about 45–90 cm (18–35 in) tall. In permaculture, bell peppers earn their keep twice: fruits feed people, while flowers support pollinators and the plant’s leafy biomass can be composted as carbon-rich matter.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun; flowering and fruit set drop fast when light is limited.
-  - Water regularly during growth; keep soil evenly moist but never waterlogged.
-  - Prefers fertile, well-drained loam amended with compost.
-  - Cold is the enemy: growth stalls when nights drop near 50°F (10°C).
+  Full sun; flowering and fruit set drop fast when light is limited. Water regularly during growth; keep soil evenly moist but never waterlogged. Prefers fertile, well-drained loam amended with compost. Cold is the enemy: growth stalls when nights drop near 50°F (10°C).
 
-  ✂️ Propagation:
-  - Seeds: start indoors 8–10 weeks before transplanting; germination commonly takes 7–21 days at warm temperatures.
-  - Transplants: move seedlings outdoors after danger of frost and when soil is consistently warm (often above ~60°F / 16°C).
-  - Optional: start a second sowing 2–3 weeks later to spread harvest risk across weather swings.
+  Seeds: start indoors 8–10 weeks before transplanting; germination commonly takes 7–21 days at warm temperatures. Transplants: move seedlings outdoors after danger of frost and when soil is consistently warm (often above ~60°F / 16°C). Optional: start a second sowing 2–3 weeks later to spread harvest risk across weather swings.
 
-  🌾 Harvest / Best Use Timing:
-  - Harvest when fruits reach full size; pick green for crispness or let them ripen toward yellow/red for sweetness.
-  - Cut peppers with a short stem to avoid tearing vines.
-  - Roast, sauté, dehydrate, or pickle for storage; freeze chopped pieces after blanching.
+  Harvest when fruits reach full size; pick green for crispness or let them ripen toward yellow/red for sweetness. Cut peppers with a short stem to avoid tearing vines. Roast, sauté, dehydrate, or pickle for storage; freeze chopped pieces after blanching.
 purpose: |-
   Edible: Capsicum annuum blocky bells size on sturdy determinate frames for fresh crunch or stuffed roasting -- pick green for fryer snap or hold for red sweetness depending on Brix patience and fruit fly pressure.
   Medicinal: Red ripe walls concentrate carotenoids and vitamin C used in everyday anti-inflammatory eating patterns -- capsaicin stays near zero in true bells, so heat seekers still need chiles elsewhere.
   Pollinator: Small white nightshade flowers offer pollen and limited nectar to native bees during warm mornings -- blossom drop when nights stay below 55°F (13°C) is the plant complaining, not mysterious bad luck.
   Wildlife Attractor: Split fruit draws wasps and mockingbirds on ends of rows humans skip -- leave one sacrificial plant unmaintained if you want honest garden biodiversity receipts.
 companions:
-- Basil (Ocimum basilicum) — aromatic foliage helps mask pepper scent and supplies
-  pollinator-friendly blooms.
-- Marigold (Tagetes patula) — dense, nectar-rich flowers pull beneficial insects into
-  the bed.
-- Chives (Allium schoenoprasum) — strong scent “confuses the menu” for many common
-  garden sap-feeders.
+  - slug: basil
+    name: Basil
+  - slug: marigold
+    name: Marigold
+  - slug: chives
+    name: Chives
 cautions:
-- Frost and cold soil stunt growth; wait for warm nights before transplanting.
+  - Frost and cold soil stunt growth; wait for warm nights before transplanting.
 pests:
-- Aphids
-- Whiteflies
-- Spider Mites
-- Root Rot
+  - Aphids
+  - Whiteflies
+  - Spider Mites
+  - Root Rot

@@ -29,31 +29,27 @@ plant_function:
 description: |-
   Chia (Salvia hispanica) is an annual herbaceous plant native to central and southern Mexico and Guatemala. It typically grows up to 1 meter (3 feet) tall, featuring opposite lime-green leaves with serrated edges. The plant produces spikes of small blue, purple, or white flowers that are highly self-pollinating. Its tiny oval seeds, about 1 millimeter in diameter, are mottled in shades of brown, gray, black, and white. When soaked, these seeds form a mucilaginous gel.
 
-  🌞💧 Sun and Water Requirements:
   Chia thrives in full sun and prefers well-drained soils. It is drought-tolerant once established but benefits from regular watering during germination and early growth stages.
 
-  ✂️🫘 Methods to Propagate:
   Propagation is primarily through seeds. Sow seeds directly into the soil after the last frost, ensuring they receive consistent moisture until germination.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
   Harvest occurs approximately 100 to 150 days after planting, once the flowers have dried and seeds are easily shaken free.
 purpose: |-
-  Edible: Mucilage-rich seeds gel in water for puddings, drinks, and egg-free binders while supplying oil and protein from a single-season Salvia crop.
-  Medicinal: Gel and seed meal appear in Mesoamerican tradition as a cooling food-medicine for digestion and sustained energy on long walks.
-  Pollinator: Short-lived blue to white lipped flowers on upright spikes feed bees when nights stay warm enough for bloom.
-  Wildlife Attractor: Mature seeds draw granivorous birds and rodents that also redistribute fallen seed along field margins.
-  Mulcher: Frost-killed stalks and leaves fold into compost as fast-curing herbaceous litter after seed harvest.
-  Dynamic Accumulator: Deepish roots and leafy growth pull minerals into standing biomass that returns to soil when stems are cut and composted.
-  Erosion Control: Dense summer stands knit surface soil on slopes until harvest removes standing cover.
-  Animal Fodder: Whole plants can be chopped green into poultry or rabbit forage trials where seed toxicity to stock is ruled out first.
-  Border Plant: Columnar flower spikes mark bed ends in warm annual rotations without shading low neighbors for long.
-  Pest Management: Strongly scented foliage can mask host cues when interplanted with brassicas or solanums in mixed rows.
-  Biofuel: Seed oil fraction is pressed experimentally for lamp oil and small-scale bio-oil where high-oil landraces are selected.
-  Ground Cover: Young plants shade row middles briefly between taller crops; re-sow when late-season gaps reopen.
+  Edible: Mucilage-rich seeds gel in water for puddings, drinks, and egg-free binders -- while supplying oil and protein from a single-season Salvia crop.
+  Medicinal: Gel and seed meal appear in Mesoamerican tradition as a cooling food-medicine -- for digestion and sustained energy on long walks.
+  Pollinator: Short-lived blue to white lipped flowers on upright spikes feed bees -- when nights stay warm enough for bloom.
+  Wildlife Attractor: Mature seeds draw granivorous birds and rodents that also redistribute fallen seed -- along field margins.
+  Mulcher: Frost-killed stalks and leaves fold into compost as fast-curing herbaceous litter -- after seed harvest.
+  Dynamic Accumulator: Deepish roots and leafy growth pull minerals into standing biomass that returns to soil -- when stems are cut and composted.
+  Erosion Control: Dense summer stands knit surface soil on slopes -- cover persists until harvest removes standing biomass.
+  Animal Fodder: Whole plants can be chopped green into poultry or rabbit forage trials -- where seed toxicity to stock is ruled out first.
+  Border Plant: Columnar flower spikes mark bed ends in warm annual rotations without shading low neighbors -- for long.
+  Pest Management: Strongly scented foliage can mask host cues when interplanted with brassicas or solanums -- in mixed rows.
+  Biofuel: Seed oil fraction is pressed experimentally for lamp oil and small-scale bio-oil -- where high-oil landraces are selected.
+  Ground Cover: Young plants shade row middles briefly between taller crops -- re-sow when late-season gaps reopen.
 companions:
-- Beans
-- Corn
-- Squash
+- slug: fava-bean
+  name: Fava Bean
 cautions:
 - None
 pests:
@@ -61,3 +57,15 @@ pests:
 - Flea Beetles
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index
+- name: Corn
+  original: Corn
+- name: Squash
+  original: Squash
+companions_normalized:
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

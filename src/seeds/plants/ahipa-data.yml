@@ -18,31 +18,20 @@ layers:
 plant_function:
 - Edible
 - Nitrogen Fixer
-- Green Manure
 description: |-
   Ahipa is the lesser-hyped Pachyrhizus cousin: bushy, short-day, and grown for starchy roots and edible beans in some landraces — with the usual legume caveat that raw beans can be toxic stupidity if you skip cooking. It fixes nitrogen while pretending to be a root crop, which is exactly the kind of multitasking permaculture likes. Treat it as a warm-season annual outside the true tropics.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun for tuber fill; half-day sun yields disappointment and excuses.
-  - Loose, deep soil for root expansion; steady moisture, no constant swamp.
-  - Frost ends the season; plan harvest before first freeze.
+  Full sun for tuber fill; half-day sun yields disappointment and excuses. Loose, deep soil for root expansion; steady moisture, no constant swamp. Frost ends the season; plan harvest before first freeze.
 
-  ✂️ Methods to Propagate:
-  - Seeds: sow after soil warms; in short-season areas start indoors.
-  - Tubers: replant crown pieces in frost-free climates where tradition supports it.
+  Seeds: sow after soil warms; in short-season areas start indoors. Tubers: replant crown pieces in frost-free climates where tradition supports it.
 
-  🌾 Harvest / Best Use Timing:
-  - Ahipa: dig tubers or roots after tops senesce or frost signals storage shift -- curing a few days at 50-60°F (10-16°C) sweetens some starches.
-  - Loosen soil wide first -- snapped necks invite rot in storage.
-  - Brush-dry before long storage; plastic totes without airflow grow penicillin cosplay.
+  Ahipa: dig tubers or roots after tops senesce or frost signals storage shift -- curing a few days at 50-60°F (10-16°C) sweetens some starches. Loosen soil wide first -- snapped necks invite rot in storage. Brush-dry before long storage; plastic totes without airflow grow penicillin cosplay.
 purpose: |-
   Edible: Pachyrhizus ahipa forms starchy tubers under short-day tropical conditions while some landraces also offer edible seed after thorough cooking -- never treat raw seed like snack food because legume-type inhibitors in the genus do not negotiate.
   Nitrogen Fixer: Bushy vines nodulate on roots so the bed gains nitrogen credit for the following corn or squash rotation -- dig nodules on a test root before assuming inoculation happened on new ground.
-  Green Manure: If a season ends before tubers size up, slash vines and soft tops into the soil to feed microbes -- fibrous residue breaks faster than woody cover crops, fitting tight warm-season windows.
 companions:
-- Corn
-- Amaranth
-- Squash
+- slug: amaranth
+  name: Amaranth
 cautions:
 - Heavy clay pans that deform tubers
 - Eating undercooked seeds
@@ -76,3 +65,10 @@ pests:
 - Brown Marmorated Stink Bug
 - Harlequin Ladybird
 - Velvetbean Caterpillar
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Squash
+  original: Squash
+plant_function_unresolved:
+- Green Manure

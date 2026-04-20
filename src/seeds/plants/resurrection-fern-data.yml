@@ -2,7 +2,7 @@ common_name: Resurrection Fern
 picture: resurrection_fern.webp
 scientific_name: Pleopeltis polypodioides
 aka:
-- Miracle fern
+  - Miracle fern
 family: Polypodiaceae
 zone: 6-10
 ideal_temp_min: 55
@@ -11,46 +11,37 @@ min_temp: -10
 max_temp: 102
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Ornamental
-- Wildlife Attractor
-- Erosion Control
-- Ground Cover
+  - Ornamental
+  - Wildlife Attractor
+  - Erosion Control
+  - Ground Cover
 description: |-
   Resurrection fern (Pleopeltis polypodioides) is an epiphytic and lithophytic fern of southeastern North America and parts of the Neotropics, famous for curling brown in drought and greening within hours after rain. It roots on oak limbs and shaded rock with a creeping rhizome net. In gardens it is a living lecture on desiccation tolerance mounted on bark slabs, living walls, and mossy trunks.
 
-  ☀️💧 Sun and Water Requirements:
-  - Bright shade to dappled light; direct midday sun desiccates fronds even if the plant survives.
-  - Drought tolerant in the sense of dormancy, not happiness—mist or rain rhythm keeps it lush.
-  - Needs a porous substrate: tree bark, tree fern fiber, or rock with organic pockets; soggy potting mix rots rhizomes.
+  Bright shade to dappled light; direct midday sun desiccates fronds even if the plant survives. Drought tolerant in the sense of dormancy, not happiness—mist or rain rhythm keeps it lush. Needs a porous substrate: tree bark, tree fern fiber, or rock with organic pockets; soggy potting mix rots rhizomes.
 
-  ✂️ Propagation:
-  - Division of rhizome mats wired to fresh bark with moss interlayer.
-  - Spores on sterile medium under high humidity—slow, for hobbyists.
-  - Transplant patches after summer rains when rehydrated.
+  Division of rhizome mats wired to fresh bark with moss interlayer. Spores on sterile medium under high humidity—slow, for hobbyists. Transplant patches after summer rains when rehydrated.
 
-  🌾 Harvest / Best Use Timing:
-  - Not a food plant; value is display and microhabitat for invertebrates.
-  - Reattach fallen mats after storms before they bake on pavement.
-  - Reduce summer irrigation frequency in humid greenhouses to avoid black rot between scales.
+  Not a food plant; value is display and microhabitat for invertebrates. Reattach fallen mats after storms before they bake on pavement. Reduce summer irrigation frequency in humid greenhouses to avoid black rot between scales.
 purpose: |-
   Ornamental: Pleopeltis polypodioides fronds shift from desiccated brown curls to vivid green ribbons within hours of rain -- mount on oak bark slabs for living-wall drama without soil pots pretending to be natural.
   Wildlife Attractor: Rehydrated mats host springtails and mites that anoles and wrens pick from epiphyte islands -- not a nectar bar, but honest microfauna sushi for humid woodland edges.
   Erosion Control: Rhizome pads bind thin humus pockets on limestone outcrops and live-oak limbs where soil would otherwise wash in summer deluges -- still mist during dry weeks if you want lush display instead of crispy dormancy theater.
   Ground Cover: Creeping stems visually soften coarse bark and mossy boulders in shade gardens -- wire mats with sphagnum interlayer so rhizomes breathe; soggy potting mix rots crowns fast.
 companions:
-- Sand Live Oak — rough bark hosts epiphytes where humidity swings are moderated by
-  canopy
-- Southern Red Cedar — older bark furrows hold fern patches in humid climates
-- Myrtle Oak — scrub oak neighbors share coastal humidity cycles where epiphytes revive
-  after rain
+  - slug: sand-live-oak
+    name: Sand Live Oak
+  - slug: southern-red-cedar
+    name: Southern Red Cedar
+  - slug: myrtle-oak
+    name: Myrtle Oak
 cautions:
-- None documented
+  - None documented
 pests:
-- Scale Insects
-- Mealybugs
-- Spider Mites
-growth_habit: Creeping epiphytic fern forming mats on bark and rock, reviving after
-  wetting
+  - Scale Insects
+  - Mealybugs
+  - Spider Mites
+growth_habit: Creeping epiphytic fern forming mats on bark and rock, reviving after wetting
 data_quality_score: 0.76

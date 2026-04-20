@@ -2,8 +2,8 @@ common_name: Panama Candle Tree
 picture: panama_candle_tree.webp
 scientific_name: Parmentiera cereifera
 aka:
-- Candle Tree
-- Guajilote
+  - Candle Tree
+  - Guajilote
 family: Bignoniaceae
 zone: 10b-13
 ideal_temp_min: 65
@@ -12,22 +12,19 @@ min_temp: 30
 max_temp: 110
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Edible
-- Ornamental
-- Shade Provider
-- Wildlife Attractor
+  - Edible
+  - Ornamental
+  - Shade Provider
+  - Wildlife Attractor
 description: |-
   Panama candle tree (Parmentiera cereifera) is a slow-growing tropical tree famous for cauliflorous, cucumber-shaped green fruits that hang like tapered candles from trunk and older branches. Native to Central America, it reaches 20–40 feet (6–12 m) in cultivation, with compound leaves and a narrow crown useful in tight lots. The crisp fruit is eaten raw or pickled where traditions exist, and the tree doubles as a conversation piece in humid lowland food forests.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun after establishment; young plants appreciate light shade during the hottest months. Rich, well-drained soils with steady moisture through the warm wet season and irrigation in dry spells support fruit sizing. Wind protection helps large leaflets; avoid salt spray and chronically waterlogged roots.
 
-  ✂️ Propagation:
   Sow fresh seed; germination improves with warmth and humidity. Graft or air-layer selections with superior fruit quality. Prune for clearance along walkways where dangling fruit could head-butt humans.
 
-  🌾 Harvest / Best Use Timing:
   Pick fruits when firm-green for crunchy use; timing is read from size and gloss rather than calendar months. Process pickles quickly; thin skin loses water in refrigeration wars. Peak production follows heat and rainfall cycles typical of tropical lowlands.
 purpose: |-
   Edible: Parmentiera cereifera cauliflorous “candles” stay cucumber-crisp for salads, quick pickles, and Latin American relishes when picked green-tender -- site harvest away from glass roofs because ripe drops dent optimism.
@@ -35,18 +32,18 @@ purpose: |-
   Shade Provider: Narrow 6–12 m crown throws broken shade over cacao, ginger, or nursery tables while the tree is young -- mature specimens still filter light lightly compared with dense mango canopies.
   Wildlife Attractor: Bat-pollinated night flowers on older wood set fruit that hits ground for beetles and rodents if you skip daily pickup -- relaxed sanitation builds soil fauna, tight sanitation keeps flies off patio stone.
 companions:
-- Cacao — shade-tolerant understory tree appreciating broken light from a narrow high
-  crown
-- Papaya — fast fruiting neighbor using vertical space while the candle tree slowly
-  raises its crown
-- Ginger — rhizome groundcover along the dripline where irrigation is already managed
+  - slug: cacao
+    name: Cacao
+  - slug: papaya
+    name: Papaya
+  - slug: ginger
+    name: Ginger
 cautions:
-- Frost — young growth burns near 32°F (0°C); not a marginal-subtropical gamble without
-  protection
-- Falling fruit — site away from vehicle glass and human foreheads
+  - Frost — young growth burns near 32°F (0°C); not a marginal-subtropical gamble without protection
+  - Falling fruit — site away from vehicle glass and human foreheads
 pests:
-- Scale Insects
-- Aphids
-- Whiteflies
+  - Scale Insects
+  - Aphids
+  - Whiteflies
 growth_habit: Slow tropical tree; compound leaves; elongated green cauliflorous fruit
 data_quality_score: 0.77

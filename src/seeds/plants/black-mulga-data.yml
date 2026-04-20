@@ -2,8 +2,8 @@ common_name: Black Mulga
 picture: black_mulga.webp
 scientific_name: Acacia aneura
 aka:
-- Mulga
-- Mulga wattle
+  - Mulga
+  - Mulga wattle
 family: Fabaceae
 zone: 9b-11
 ideal_temp_min: 65
@@ -12,30 +12,24 @@ min_temp: 25
 max_temp: 115
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Nitrogen Fixer
-- Animal Fodder
-- Windbreaker
-- Wildlife Attractor
-- Erosion Control
-- Mulcher
+  - Nitrogen Fixer
+  - Animal Fodder
+  - Windbreaker
+  - Wildlife Attractor
+  - Erosion Control
+  - Mulcher
 description: |-
   Black mulga refers to the dark-barked forms of mulga wattle (Acacia aneura), a dominant Australian arid-zone acacia with needle-like phyllodes, yellow rod flowers, and woody pods. It grows as a shrubby tree often roughly 6–12 m in favorable sites, with a root system built for long dry spells and sudden rain.
 
   subtropical and tropical Americas suit it only where frost is rare and drainage is aggressive—think xeric landscape collections, Keys-adjacent microclimates, and Puerto Rican rain-shadow pockets. Humid air is tolerable if soil never stays sour-wet; root rot is the usual tropical insult.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun for dense phyllodes and reliable flowering.
-  - Sandy, well-drained soil; deep occasional watering beats daily spritz—this is not a pond margin plant.
+  Full sun for dense phyllodes and reliable flowering. Sandy, well-drained soil; deep occasional watering beats daily spritz—this is not a pond margin plant.
 
-  ✂️ Methods to Propagate:
-  - Seeds: treat with hot water soak until swelling, sow warm—classic hard-seeded acacia protocol.
-  - Seedlings from reputable sources for known provenance—avoid casual import ethics violations.
+  Seeds: treat with hot water soak until swelling, sow warm—classic hard-seeded acacia protocol. Seedlings from reputable sources for known provenance—avoid casual import ethics violations.
 
-  🌾 Harvest / Best Use Timing:
-  - For browse trials, offer fresh growth in rotation after rains when tannin balance shifts—livestock responses vary by animal and plant form.
-  - For mulch, prune after flowering if you need material without deleting next year’s buds entirely—coppice thoughtfully.
+  For browse trials, offer fresh growth in rotation after rains when tannin balance shifts—livestock responses vary by animal and plant form. For mulch, prune after flowering if you need material without deleting next year’s buds entirely—coppice thoughtfully.
 purpose: |-
   Nitrogen Fixer: Acacia aneura phyllodes feed rhizobia that bank nitrogen in sand where creosote and palo verde partners still need starter bands -- hot-water seed soak beats dry-sown patience games.
   Animal Fodder: Narrow phyllodes browse like salty hay for cattle after rains when tannin dilutes -- introduce slowly because some herds spit mulga until hunger educates opinions.
@@ -44,45 +38,44 @@ purpose: |-
   Erosion Control: Deep lateral roots knit mine spoil and arroyo walls that sheet-wash each monsoon -- pair with jojoba upslope for complementary root depths.
   Mulcher: Fine phyllode litter feeds termite tunnels that return minerals fast in hot dry cycles -- accept bronze needle drop as soil income, not nuisance.
 companions:
-- Jojoba — fellow xeric shrub-tree chemistry; shared drainage religion and low irrigation
-  pride.
-- Agave — succulent structural contrast that will not steal the acacia’s sun if placed
-  to the south in northern hemisphere layouts.
-- Palo Verde — small leguminous canopy neighbor in dry designs; stagger roots so neither
-  tree girdles the other.
+  - slug: jojoba
+    name: Jojoba
+  - slug: agave
+    name: Agave
+  - slug: palo-verde
+    name: Palo Verde
 cautions:
-- None documented
+  - None documented
 pests:
-- Aphids
-- Banded Cucumber Beetle
-- Bean Aphid
-- Bean Leaf Beetle
-- Bean Weevil
-- Borers
-- Corn Earworm
-- Cowpea Curculio
-- Fall Armyworm
-- Kudzu Bug
-- Locust Borer
-- Locust Leaf Miner
-- Lubber Grasshopper
-- Pea Moth
-- Pea Weevil
-- Reniform Nematode
-- Root Aphid
-- Scale Insects
-- Soybean Looper
-- Spittlebugs
-- Stink Bug
-- Striped Cucumber Beetle
-- Fusarium Wilt
-- Ganoderma Butt Rot
-- Pythium Root Rot
-- Spotted Cucumber Beetle
-- White Rot
-- Brown Marmorated Stink Bug
-- Harlequin Ladybird
-- Velvetbean Caterpillar
-growth_habit: Australian acacia with needle phyllodes; shrub to small tree; yellow
-  flower rods; drought architecture
+  - Aphids
+  - Banded Cucumber Beetle
+  - Bean Aphid
+  - Bean Leaf Beetle
+  - Bean Weevil
+  - Borers
+  - Corn Earworm
+  - Cowpea Curculio
+  - Fall Armyworm
+  - Kudzu Bug
+  - Locust Borer
+  - Locust Leaf Miner
+  - Lubber Grasshopper
+  - Pea Moth
+  - Pea Weevil
+  - Reniform Nematode
+  - Root Aphid
+  - Scale Insects
+  - Soybean Looper
+  - Spittlebugs
+  - Stink Bug
+  - Striped Cucumber Beetle
+  - Fusarium Wilt
+  - Ganoderma Butt Rot
+  - Pythium Root Rot
+  - Spotted Cucumber Beetle
+  - White Rot
+  - Brown Marmorated Stink Bug
+  - Harlequin Ladybird
+  - Velvetbean Caterpillar
+growth_habit: Australian acacia with needle phyllodes; shrub to small tree; yellow flower rods; drought architecture
 data_quality_score: 0.7

@@ -2,8 +2,8 @@ common_name: Agrimony
 picture: agrimony.webp
 scientific_name: Agrimonia eupatoria
 aka:
-- Church steeples
-- Sticklewort
+  - Church steeples
+  - Sticklewort
 family: Rosaceae
 zone: 5-9
 ideal_temp_min: 55
@@ -12,29 +12,23 @@ min_temp: -20
 max_temp: 95
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Medicinal
-- Pollinator
-- Wildlife Attractor
-- Border Plant
-- Ground Cover
+  - Medicinal
+  - Pollinator
+  - Wildlife Attractor
+  - Border Plant
+  - Ground Cover
 description: |-
   Agrimony (Agrimonia eupatoria) is a clumping herbaceous perennial in the rose family, native to Europe and naturalized in parts of North America. It forms upright stems roughly 2–4 feet tall with pinnately compound leaves softly hairy beneath and slender spikes of small yellow flowers that ripen into burr-like fruits that snag socks with enthusiasm.
 
   In subtropical and tropical Americas it is a cooler-season or north-Florida personality: the Panhandle and elevated sites tolerate it more than steamy tropical and subtropical zones lowlands, while Puerto Rico gardeners may treat it as a high-elevation or winter-active curiosity unless a local ecotype proves otherwise. Humidity increases foliar disease pressure—airflow matters.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun to light shade; more shade in the hottest end of its range.
-  - Average, well-drained soil; steady moisture beats boom-bust irrigation; avoid standing water around the crown.
+  Full sun to light shade; more shade in the hottest end of its range. Average, well-drained soil; steady moisture beats boom-bust irrigation; avoid standing water around the crown.
 
-  ✂️ Methods to Propagate:
-  - Seeds: cold-moist stratify several weeks, surface-sow in spring; expect variable germination.
-  - Division of established clumps in early spring or fall when the crown is visible—faster than seed for a defined hedge row.
+  Seeds: cold-moist stratify several weeks, surface-sow in spring; expect variable germination. Division of established clumps in early spring or fall when the crown is visible—faster than seed for a defined hedge row.
 
-  🌾 Harvest / Best Use Timing:
-  - Harvest aerial parts at early bloom for traditional herb use; dry quickly in thin layers to reduce mold in humid air.
-  - Leave late flowers for pollinators if you are not running a commercial drying rack—ethics beat maximalist stripping.
+  Harvest aerial parts at early bloom for traditional herb use; dry quickly in thin layers to reduce mold in humid air. Leave late flowers for pollinators if you are not running a commercial drying rack—ethics beat maximalist stripping.
 purpose: |-
   Medicinal: Agrimonia eupatoria flowering tops yield mild astringent tannins used in European throat teas and topical washes -- harvest at early yellow spike before hooked fruits form unless you enjoy tweezing fabric.
   Pollinator: Five-petaled yellow cups open sequentially up a three-foot (0.9 m) wand, feeding small Andrenid bees and tachinid flies through July heat when clover is already brown -- each flower lasts a day, so the spike stays open for weeks.
@@ -42,51 +36,52 @@ purpose: |-
   Border Plant: Vertical spires of soft pinnate leaves read as rhythm markers between lower catmint and taller ironweed -- tolerates half-day shade on east fences without mildew if air moves.
   Ground Cover: Basal rosettes overwinter flat under snow, shading bare mud between taller perennials in spring -- not a turf substitute, but effective at crowding annual chickweed until warm-season grasses wake.
 companions:
-- Yarrow — overlapping pollinator service and similar sun; contrasting foliage texture
-  at the same height band.
-- Echinacea — extends bloom sequence so the border is not a one-week fireworks show.
-- Comfrey — deep-mining mulch plant at the back of the bed feeds the whole polyculture
-  without stealing agrimony’s light.
+  - slug: yarrow
+    name: Yarrow
+  - slug: echinacea
+    name: Echinacea
+  - slug: comfrey
+    name: Comfrey
 cautions:
-- None documented
+  - None documented
 pests:
-- Aphids
-- Apple Maggot
-- Apple Scab
-- Bagworm
-- Blackberry Psyllid
-- Cherry Fruit Fly
-- Codling Moth
-- Cyclamen Mite
-- Fall Webworm
-- Japanese Beetles
-- Lesser Peachtree Borer
-- Oriental Fruit Fly
-- Oriental Fruit Moth
-- Peach Twig Borer
-- Peachtree Borer
-- Pear Psylla
-- Plum Curculio
-- Raspberry Beetle
-- Raspberry Cane Borer
-- Rose Slug
-- Sparganothis Fruitworm
-- Spittlebugs
-- Stink Bug
-- Strawberry Root Weevil
-- Twig Girdlers
-- Vine Weevil
-- Brown Rot
-- Fire Blight
-- Gall Mite
-- Leaf Blight
-- Leaf Spot
-- Powdery Mildew
-- Rust Mite
-- Spotted Lanternfly
-- Brown Marmorated Stink Bug
-- Eastern Tent Caterpillar
-- Harlequin Ladybird
-- Tent Caterpillar
+  - Aphids
+  - Apple Maggot
+  - Apple Scab
+  - Bagworm
+  - Blackberry Psyllid
+  - Cherry Fruit Fly
+  - Codling Moth
+  - Cyclamen Mite
+  - Fall Webworm
+  - Japanese Beetles
+  - Lesser Peachtree Borer
+  - Oriental Fruit Fly
+  - Oriental Fruit Moth
+  - Peach Twig Borer
+  - Peachtree Borer
+  - Pear Psylla
+  - Plum Curculio
+  - Raspberry Beetle
+  - Raspberry Cane Borer
+  - Rose Slug
+  - Sparganothis Fruitworm
+  - Spittlebugs
+  - Stink Bug
+  - Strawberry Root Weevil
+  - Twig Girdlers
+  - Vine Weevil
+  - Brown Rot
+  - Fire Blight
+  - Gall Mite
+  - Leaf Blight
+  - Leaf Spot
+  - Powdery Mildew
+  - Rust Mite
+  - Spotted Lanternfly
+  - Brown Marmorated Stink Bug
+  - Eastern Tent Caterpillar
+  - Harlequin Ladybird
+  - Tent Caterpillar
 growth_habit: Upright perennial herb; pinnate leaves; yellow flower spikes; burr fruits
 data_quality_score: 0.75

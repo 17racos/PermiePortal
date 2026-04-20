@@ -10,43 +10,34 @@ min_temp: 15
 max_temp: 0
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Edible
-- Biomass
-- Erosion Control
+  - Edible
+  - Biomass
+  - Erosion Control
 description: |-
   Quinoa (Chenopodium quinoa) is an annual crop grown for edible seeds and fast, nutritious biomass. It originates in the Andes of South America and has been cultivated for centuries in cool, high-altitude climates, with varieties adapted to different day lengths and temperatures. Plants typically grow about 1–2 m (3–7 ft) tall depending on variety and conditions, and in permaculture it matters because it provides grain-like calories plus a leafy residue that can cover soil, feed compost, and help stabilize beds during seasonal transitions.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun for best growth and seed development; partial shade reduces yield.
-  - Moderate water for germination and early growth; reduce slightly as plants mature.
-  - Prefers well-drained soil with organic matter; avoid waterlogged ground.
-  - Tolerates cool nights better than many warm-season grains.
+  Full sun for best growth and seed development; partial shade reduces yield. Moderate water for germination and early growth; reduce slightly as plants mature. Prefers well-drained soil with organic matter; avoid waterlogged ground. Tolerates cool nights better than many warm-season grains.
 
-  ✂️ Propagation:
-  - Seeds (direct sow): sow in cool weather when soil is workable; germination is commonly around 3–8 days.
-  - Thin to spacing once seedlings are sturdy to improve airflow and seed fill.
-  - Succession sow: repeat in small batches to spread harvest and reduce weather risk.
+  Seeds (direct sow): sow in cool weather when soil is workable; germination is commonly around 3–8 days. Thin to spacing once seedlings are sturdy to improve airflow and seed fill. Succession sow: repeat in small batches to spread harvest and reduce weather risk.
 
-  🌾 Harvest / Best Use Timing:
-  - Harvest when seed heads are mature and dry, with seeds that separate easily.
-  - Dry further if needed, then thresh and store cool.
-  - Harvest leaf biomass earlier if you want greens while seed development is still underway.
+  Harvest when seed heads are mature and dry, with seeds that separate easily. Dry further if needed, then thresh and store cool. Harvest leaf biomass earlier if you want greens while seed development is still underway.
 purpose: |-
   Edible: Chenopodium quinoa seeds rinse free of bitter saponins then cook into fluffy pseudo-grain higher in complete protein than most cereals -- harvest when moisture drops below roughly 10% before shatter losses paint the ground black.
   Biomass: Tall colorful stalks and leaves chop into carbon-rich compost layers after threshing -- haul residues back to beds instead of burning if you want organic matter gains without smoke complaints.
   Erosion Control: Fibrous roots and closed canopy shield bare soil on Andean-style terraces and cool-season garden fallows -- tolerates light frost during seed fill better than maize on the same calendar slot.
 companions:
-- Garlic (Allium sativum) — rotation partner that helps disrupt pest pressure in mixed
-  bed cycles.
-- Lettuce (Lactuca sativa) — cool-season understory that uses shallow space while
-  quinoa develops.
-- Marigold (Tagetes patula) — flowers attract beneficial insects during seedbed transitions.
+  - slug: garlic
+    name: Garlic
+  - slug: lettuce
+    name: Lettuce
+  - slug: marigold
+    name: Marigold
 cautions:
-- Raw quinoa seeds often contain natural saponins; rinse thoroughly before cooking.
+  - Raw quinoa seeds often contain natural saponins; rinse thoroughly before cooking.
 pests:
-- Aphids
-- Spider Mites
-- Root Rot
-- Caterpillars
+  - Aphids
+  - Spider Mites
+  - Root Rot
+  - Caterpillars

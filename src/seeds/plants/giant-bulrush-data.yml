@@ -15,35 +15,28 @@ layers:
 - Aquatic
 - Herbaceous
 plant_function:
-- Water Purifier
+- Water Purification
 - Wildlife Attractor
 - Mulcher
 - Erosion Control
 description: |-
   Giant bulrush is the vertical wetland wallpaper — tall triangular stems, rhizomatous expansion, and a work ethic for stabilizing pond margins. Not the edible headline like duck potato; more the structure and filtration crew. In subtropical and tropical Americas it belongs in restoration and intentional wetland cells, not dry berms.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun in shallow water or saturated soils along edges.
-  - Tolerates seasonal flooding and some brackish influence depending on ecotype.
-  - Rhizomes spread — contain with liners or design for expansion.
+  Full sun in shallow water or saturated soils along edges. Tolerates seasonal flooding and some brackish influence depending on ecotype. Rhizomes spread — contain with liners or design for expansion.
 
-  ✂️ Methods to Propagate:
-  - Rhizome division: transplant chunks with roots in warm wet weather.
-  - Seeds: available for restoration; establishment slower than vegetative plugs.
+  Rhizome division: transplant chunks with roots in warm wet weather. Seeds: available for restoration; establishment slower than vegetative plugs.
 
-  🌾 Harvest / Best Use Timing:
-  - For Giant Bulrush, value timing follows ecology -- thin or skim when biomass blocks flow or outcompetes natives per local guidance.
-  - Floating mats: work cool mornings so fragments do not drift downstream and colonize new sins.
-  - Compost hot active piles after any removal so wet tissues do not restart the invasion from your own yard.
+  For Giant Bulrush, value timing follows ecology -- thin or skim when biomass blocks flow or outcompetes natives per local guidance. Floating mats: work cool mornings so fragments do not drift downstream and colonize new sins. Compost hot active piles after any removal so wet tissues do not restart the invasion from your own yard.
 purpose: |-
-  Water Purifier: Schoenoplectus californicus rhizosphere traps suspended sediments and pulls stormwater nitrogen fractions in constructed wetland cells sized for first-flush volumes on western subdivisions you already plumbed with bypass weirs.
-  Wildlife Attractor: Red-winged blackbirds weave nesting platforms into four-meter tule clumps while California red-legged frogs hide base shade on Central Valley pond margins you thin before floating mats block canoe passes each spring.
-  Mulcher: Senescent culms fold into anaerobic marsh detritus feeding denitrifying bacteria when managers skim biomass into hot compost piles after any removal so wet tissues do not restart colonization from your own yard-waste windrow.
-  Erosion Control: Rhizomes spread under shallow water to armor shoreline wake damage from ski boats better than riprap on soft mucky Sacramento delta peat where cattail monocultures would have blocked sight lines you wanted open for safety.
+  Water Purification: Schoenoplectus californicus rhizosphere traps suspended sediments -- and pulls stormwater nitrogen fractions in constructed wetland cells sized for first-flush volumes on western subdivisions you already plumbed with bypass weirs.
+  Wildlife Attractor: Red-winged blackbirds weave nesting platforms into four-meter tule clumps -- while California red-legged frogs hide base shade on Central Valley pond margins you thin before floating mats block canoe passes each spring.
+  Mulcher: Senescent culms fold into anaerobic marsh detritus feeding denitrifying bacteria -- when managers skim biomass into hot compost piles after any removal so wet tissues do not restart colonization from your own yard-waste windrow.
+  Erosion Control: Rhizomes spread under shallow water to armor shoreline wake damage from ski boats better than riprap on soft mucky Sacramento delta peat -- where cattail monocultures would have blocked sight lines you wanted open for safety.
 companions:
-- Duck potato
-- Pickerelweed
-- Cattail
+- slug: pickerelweed
+  name: Pickerelweed
+- slug: cattail
+  name: Cattail
 cautions:
 - Planting in dry perennial beds without irrigation amnesia therapy
 - Small lined ponds if you hate aggressive rhizomes
@@ -51,3 +44,7 @@ pests:
 - Aphids
 - Mites
 - Armyworms
+companion_categories:
+- name: Duck potato
+  original: Duck potato
+  type: ecosystem

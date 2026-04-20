@@ -23,13 +23,10 @@ plant_function:
 description: |-
   Alternanthera is a genus comprising various species known for their vibrant and diverse foliage colors, including shades of green, red, yellow, pink, and purple. These plants can range from small, mounding forms to taller, hedge-like varieties, typically reaching heights between 15 to 60 cm (6 to 24 inches). The glossy leaves make them popular choices for ornamental use in gardens and containers.
 
-  🌞💧 Sun and Water Requirements:
   Alternanthera thrives in full sun to partial shade, with the most vivid leaf colors appearing under full sun conditions. They prefer moist, organically rich, well-drained soils. Once established, these plants exhibit considerable drought and heat tolerance.
 
-  ✂️🫘 Methods to Propagate:
   Propagation is commonly achieved through stem cuttings. Cut a healthy stem segment, remove the lower leaves, and place it in water or moist soil until roots develop. This method ensures the new plant retains the characteristics of the parent.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
   For edible species, young leaves and shoots can be harvested as needed throughout the growing season. Regular harvesting encourages bushier growth and maintains the plant's appearance.
 purpose: |-
   Edible: Alternanthera sessilis leaves enter South and Southeast Asian stir-fries as mild greens when harvested young -- ornamental Joseph's coat cultivars may not match that chemistry, so verify species before bulk harvest.
@@ -38,9 +35,8 @@ purpose: |-
   Border Plant: Chartreuse, burgundy, and lime cultivars edge beds with color density that reads designed rather than weedy -- afternoon shade inland reduces bleaching on thinnest leaves.
   Wildlife Attractor: Dense mats shelter predatory ground beetles and spiders that hunt exposed soil pests -- flowers are inconspicuous but still pull small pollinators in warm months.
 companions:
-- Coleus
-- Marigold
-- Petunia
+- slug: marigold
+  name: Marigold
 cautions:
 - None known
 pests:
@@ -49,3 +45,8 @@ pests:
 - Spider Mites
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Coleus
+  original: Coleus
+- name: Petunia
+  original: Petunia

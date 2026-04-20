@@ -22,30 +22,26 @@ plant_function:
 description: |-
   Lathyrus chilensis, commonly known as the Chilean Pea or Perennial Sweet Pea, is a herbaceous perennial vine native to Chile. It is renowned for its vibrant red to pink pea-like flowers that bloom profusely during the summer months. The plant exhibits a climbing habit, using tendrils to support itself on nearby structures or plants, and can reach heights of up to 2 meters (6.5 feet). Its compound leaves are composed of multiple leaflets, providing a delicate and feathery appearance.
 
-  🌞💧 Sun and Water Requirements:
-  - Prefers full sun to partial shade.
-  - Thrives in well-drained soils with moderate moisture levels.
-  - Once established, it exhibits some drought tolerance but benefits from regular watering during prolonged dry periods.
+  Prefers full sun to partial shade. Thrives in well-drained soils with moderate moisture levels. Once established, it exhibits some drought tolerance but benefits from regular watering during prolonged dry periods.
 
-  ✂️🫘 Methods to Propagate:
-  - **Seeds**: Sow seeds in the spring after the last frost. Soaking seeds overnight can enhance germination rates.
-  - **Division**: Established clumps can be divided in early spring or fall to propagate new plants.
+  Seeds: Sow seeds in the spring after the last frost. Soaking seeds overnight can enhance germination rates. Division: Established clumps can be divided in early spring or fall to propagate new plants.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
-  - While the plant is primarily ornamental, young shoots and tendrils can be harvested in early spring for culinary uses, similar to other pea tendrils.
-  - Harvest edible parts before flowering for the best texture and flavor.
+  While the plant is primarily ornamental, young shoots and tendrils can be harvested in early spring for culinary uses, similar to other pea tendrils. Harvest edible parts before flowering for the best texture and flavor.
 purpose: |-
-  Edible: Young tendrils and shoot tips taste pea-sweet in salads; treat Lathyrus as occasional greens, not a daily staple, because some relatives carry lathyrogen risk.
-  Nitrogen Fixer: Climbing legume roots nodulate with rhizobia and tuck extra nitrogen into biomass that returns when vines are cut at season end.
-  Pollinator: Pink to magenta papilionaceous flowers supply nectar and pollen to long-tongued bees along sunny trellis faces.
-  Wildlife Attractor: Flowering canopy and seed pods feed insects and small birds that hunt among the vine tangle.
-  Ground Cover: Lower stems sprawl and shade soil at the trellis base while upper growth climbs for light.
+  Edible: Young tendrils and shoot tips taste pea-sweet in salads -- treat Lathyrus as occasional greens, not a daily staple, because some relatives carry lathyrogen risk.
+  Nitrogen Fixer: Climbing legume roots nodulate with rhizobia and tuck extra nitrogen into biomass that returns -- when vines are cut at season end.
+  Pollinator: Pink to magenta papilionaceous flowers supply nectar and pollen to long-tongued bees -- along sunny trellis faces.
+  Wildlife Attractor: Flowering canopy and seed pods feed insects and small birds -- that hunt among the vine tangle.
+  Ground Cover: Lower stems sprawl and shade soil at the trellis base -- while upper growth climbs for light.
 companions:
-- Comfrey
-- Nasturtium
-- Clover
-- Garlic
-- Chive
+- slug: chives
+  name: Chives
+- slug: comfrey
+  name: Comfrey
+- slug: nasturtium
+  name: Nasturtium
+- slug: garlic
+  name: Garlic
 cautions:
 - Walnut
 - Tomato
@@ -81,3 +77,10 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_normalized:
+- original: Chive
+  resolved_slug: chives
+  name: Chives
+companions_unresolved:
+- name: Clover
+  original: Clover

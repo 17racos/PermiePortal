@@ -25,20 +25,11 @@ description: |-
 
   Raspberries grow best in well-draining, slightly acidic soil with high organic matter. They require a period of winter dormancy to produce fruit and thrive in regions with cool winters and mild summers. They spread via underground runners and can form dense thickets if not maintained.
 
-   🌞💧 Sun and Water Requirements:
-  - Prefers full sun for maximum fruit production.
-  - Requires well-draining, fertile soil with moderate moisture.
-  - Avoid overly wet or waterlogged conditions, as roots are prone to rot.
+  Prefers full sun for maximum fruit production. Requires well-draining, fertile soil with moderate moisture. Avoid overly wet or waterlogged conditions, as roots are prone to rot.
 
-  ✂️🫘 Methods to Propagate:
-  - Cuttings: Root cuttings taken from healthy canes can be transplanted.
-  - Suckers: New shoots that emerge from the root system can be dug up and replanted.
-  - Seeds: Less common due to slow germination and genetic variability.
+  Cuttings: Root cuttings taken from healthy canes can be transplanted. Suckers: New shoots that emerge from the root system can be dug up and replanted. Seeds: Less common due to slow germination and genetic variability.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
-  - Fruits ripen from mid-summer to early fall, depending on variety.
-  - Harvest when berries are fully colored and easily detach from the stem.
-  - Pick regularly to encourage continued production.
+  Fruits ripen from mid-summer to early fall, depending on variety. Harvest when berries are fully colored and easily detach from the stem. Pick regularly to encourage continued production.
 purpose: |-
   Edible: Aggregate drupelets slip off the receptacle when sugar peaks -- summer reds for fresh eating, fall golds for freezing, and any overload cooks to seedless puree if you run it through a chinois before jam.
   Medicinal: Dried Rubus idaeus leaf is the classic European pregnancy tea herb -- use first-trimester formulas only with qualified guidance because uterine tone claims are serious business, not kitchen whimsy.
@@ -46,10 +37,12 @@ purpose: |-
   Wildlife Attractor: Bramble thickets give catbirds and brown thrashers thorny cover next to open pasture -- fruiting laterals at the thicket edge feed them first so inner rows stay cleaner for human picks.
   Erosion Control: Underground stolons and fibrous roots interlace on ditch banks and orchard berms where mower wheels would otherwise compact bare clay -- living canes catch snow and leaf litter that would slide off smooth soil.
 companions:
-- Chive
-- Garlic
-- Clover
-- Comfrey
+- slug: chives
+  name: Chives
+- slug: garlic
+  name: Garlic
+- slug: comfrey
+  name: Comfrey
 cautions:
 - Potato
 - Tomato
@@ -109,3 +102,10 @@ pests:
 - Jumping Worms
 growth_habit: Tree
 data_quality_score: 0.8
+companions_normalized:
+- original: Chive
+  resolved_slug: chives
+  name: Chives
+companions_unresolved:
+- name: Clover
+  original: Clover

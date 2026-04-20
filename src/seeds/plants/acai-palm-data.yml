@@ -19,27 +19,24 @@ plant_function:
 description: |-
   Açaí is the multi-stemmed palm behind the purple smoothie bowl industrial complex—slender trunks, pinnate leaves, and fruit borne in hanging clusters that want heat, humidity, and shade when young. Marginal at best outdoors; coastal tropical and subtropical zones triers with canopy shade and winter protection experiments exist. Everyone else: greenhouse or vacation.
 
-  ☀️💧 Sun and Water Requirements:
-
   Part shade for juveniles; more sun with age in humid air.
   Consistent soil moisture; intolerant of drought once pushing new spears.
 
-  ✂️ Propagation:
-
   Fresh seed.
   Clumping habit from multiple stems—division is not a casual weekend trick on big specimens.
-
-  🌾 Harvest / Best Use Timing:
 
   Process fruit pulp soon after harvest; quality drops fast once picked, especially on hot days. Palm-heart harvest kills that stem—plan accordingly (sustainability debates apply).
 purpose: |-
   Edible: Euterpe oleracea clusters yield fatty purple pulp for same-day processing into bowls and beverages while palm-heart harvest removes one entire stem from the clump -- plan which trunks you sacrifice because that stem does not regrow.
   Wildlife Attractor: Pendant infructescences in Amazonian-style humidity feed fruit bats, parrots, and insects that evolved with clustering palms -- leave lower heads in wilder margins if you want honest frugivore traffic beyond the smoothie economy.
-  Mulcher: Evergreen pinnate fronds shed steadily in wet heat, building a thick acidic litter mat that cools soil for cacao seedlings, turmeric, and other shade guild members tucked under the outer drip line.
+  Mulcher: Evergreen pinnate fronds shed steadily in wet heat -- builds a thick acidic litter mat that cools soil for cacao seedlings, turmeric, and other shade guild members tucked under the outer drip line.
 companions:
-- Theobroma cacao
-- Turmeric
-- Ice Cream Bean Tree
+- slug: turmeric
+  name: Turmeric
+- slug: ice-cream-bean-tree
+  name: Ice Cream Bean Tree
+- slug: cacao
+  name: Cacao
 cautions:
 - Dry cold winds
 - Open exposed 9a fields
@@ -54,3 +51,6 @@ pests:
 - Heart Rot
 growth_habit: Clustering palm of lowland humid tropics
 data_quality_score: 0.72
+companions_unresolved:
+- name: Theobroma cacao
+  original: Theobroma cacao

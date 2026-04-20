@@ -2,9 +2,9 @@ common_name: Murici
 picture: murici.webp
 scientific_name: Byrsonima crassifolia
 aka:
-- Nance
-- Craboo
-- Changunga
+  - Nance
+  - Craboo
+  - Changunga
 family: Malpighiaceae
 zone: 10-11
 ideal_temp_min: 65
@@ -13,39 +13,41 @@ min_temp: 30
 max_temp: 105
 perennial: true
 layers:
-- Tree
-- Shrub
+  - Tree
+  - Shrub
 plant_function:
-- Edible
-- Wildlife Attractor
-- Ornamental
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
 description: |-
   Murici (nance) is the little yellow cherry that ferments in buckets, perfumes the yard when flowering, and laughs at drought once established. Flavor is polarizing—like cheese had an argument with a flower.
 
   True tropical lean; warmest coastal pockets only for in-ground permanence. Everyone else keeps it mobile or admits defeat gracefully.
 
   Sun and water: Full sun for heaviest flowering and fruit. Tolerates poor, sandy soils; appreciates deep occasional watering when fruiting in dry spells.
-  ✂️ Propagation:
+
   Seeds (variable juvenility); grafted selections for known fruit quality where available.
 
-  🌾 Harvest / Best Use Timing:
-  - Murici: pick when color, aroma, and a gentle yield to pressure agree for that species -- impatient fruit keeps starch, latex, or both.
-  - Clip clusters with clean tools; shallow trays beat deep piles that bruise the optimistic bottom layer.
-  - Rain splits thin skins -- pick before monsoon weeks if weather apps cooperate.
+  Murici: pick when color, aroma, and a gentle yield to pressure agree for that species -- impatient fruit keeps starch, latex, or both. Clip clusters with clean tools; shallow trays beat deep piles that bruise the optimistic bottom layer. Rain splits thin skins -- pick before monsoon weeks if weather apps cooperate.
 purpose: |-
   Edible: Byrsonima crassifolia drupes are thin-fleshed around a large stone yet ferment into regional chicha, cordials, and candies once sugar and heat tame the polarizing cheese-floral note -- harvest yellow clusters on aroma and slight give before monsoon rains split skins.
   Wildlife Attractor: Tanagers, orioles, and other frugivores strip golden clusters fast in dry tropical yards -- leave perimeter strings of fruit if you want seed dispersal into fence lines without netting every limb.
   Ornamental: Rough gray bark, drought-leathery foliage, and foamy yellow inflorescences sell the small tree along driveways where irrigation is honest sand-country sparse -- fruiting ornament that still reads as food forest, not purely decorative fluff.
 companions:
-- Papaya
-- Moringa
-- Drought-tolerant understory herbs
+  - slug: papaya
+    name: Papaya
+  - slug: moringa
+    name: Moringa
 cautions:
-- Waterlogged clay
-- Hard freezes
+  - Waterlogged clay
+  - Hard freezes
 pests:
-- scale insects
-- caribbean fruit fly
-- aphids
+  - scale insects
+  - caribbean fruit fly
+  - aphids
 growth_habit: Shrubby tree; rough bark; clusters of small yellow fruit
 data_quality_score: 0.75
+companion_categories:
+  - name: Drought-tolerant understory herbs
+    original: Drought-tolerant understory herbs
+    type: system

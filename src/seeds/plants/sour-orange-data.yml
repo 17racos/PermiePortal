@@ -22,28 +22,21 @@ plant_function:
 description: |-
   Sour orange is Citrus × aurantium wearing its working-class name tag — thorny, aromatic, and historically the rootstock and marmalade backbone of the humid South. Naturalized in places that now side-eye it. subtropical and tropical Americas: marginal in 9a without protection; citrus greening and psyllid politics are the real HOA.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun for fruit and flower density.
-  - Well-drained, slightly acidic soil; consistent moisture but not saturated roots.
-  - Windbreak reduces cosmetic leaf miner damage; does not cure industry-scale disease.
+  Full sun for fruit and flower density. Well-drained, slightly acidic soil; consistent moisture but not saturated roots. Windbreak reduces cosmetic leaf miner damage; does not cure industry-scale disease.
 
-  ✂️ Methods to Propagate:
-  - Budding and grafting onto selected rootstocks — how the trade does it.
-  - Seeds: variable offspring; useful for rootstock experiments and hedgerow chaos.
+  Budding and grafting onto selected rootstocks — how the trade does it. Seeds: variable offspring; useful for rootstock experiments and hedgerow chaos.
 
-  🌾 Harvest / Best Use Timing:
-  - Pick Sour Orange fruit when sugar-acid balance peaks for your use -- marmalade wants different timing than fresh slices.
-  - Color is a hint, not a contract; sample one fruit from each sector of the canopy.
-  - Store fresh citrus cool and dry; zest freezes well if you strip peel before shrivel sets in.
+  Pick Sour Orange fruit when sugar-acid balance peaks for your use -- marmalade wants different timing than fresh slices. Color is a hint, not a contract; sample one fruit from each sector of the canopy. Store fresh citrus cool and dry; zest freezes well if you strip peel before shrivel sets in.
 purpose: |-
   Edible: Citrus aurantium seville-type fruit cooks into marmalade whose bitterness needs serious sugar -- zest oils beat sweet orange for aromatic backbone.
   Medicinal: Neroli distillations and dried peel entries show up in Materia Medica drafts -- separate cosmetic lab notes from pharmacy shelf claims before dosing people.
-  Wildlife Attractor: Strong-scented white blooms overload honeybee maps in February groves while fallen fruit ferments for possums if you slack on pickup rounds.
-  Windbreaker: Thorn-armored hedges deflect sea breezes across citrus understory guilds once you suit up for pruning sessions.
+  Wildlife Attractor: Strong-scented white blooms overload honeybee maps in February groves -- while fallen fruit ferments for possums if you slack on pickup rounds.
+  Windbreaker: Thorn-armored hedges deflect sea breezes across citrus understory guilds once you suit up -- for pruning sessions.
 companions:
-- Comfrey
-- Clover
-- Nasturtium
+- slug: comfrey
+  name: Comfrey
+- slug: nasturtium
+  name: Nasturtium
 cautions:
 - Planting as naive "easy citrus" without regional disease context
 - Heavy wet feet in winter cold
@@ -66,3 +59,6 @@ pests:
 - Rust Mite
 - Sooty Mold
 - Swallowtail Caterpillar
+companions_unresolved:
+- name: Clover
+  original: Clover

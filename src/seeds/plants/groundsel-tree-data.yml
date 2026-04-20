@@ -21,14 +21,11 @@ plant_function:
 description: |-
   Groundsel tree (Baccharis halimifolia) is a deciduous to semi-evergreen asteraceous shrub of coastal salt marshes, ditches, and wet roadsides in eastern North America and the Caribbean, with salt-tolerant leaves and fluffy white seed heads on female plants that look like cotton exploded politely. It stabilizes berms and brackish edges where less salt-honest shrubs die of chemistry. Some regions list it as invasive in disturbed wetlands—check local guidance before planting outside native range.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun; tolerates brackish soils, periodic inundation, and sandy coastal berms. Freshwater wet ditches also suit it; drought on upland sand is tolerable once established but reduces lushness. Avoid deep shade. Hardy through warm-temperate freezes; tip burn follows extreme cold snaps at range edges.
 
-  ✂️ Propagation:
   Seeds float on wind; sow on moist sand for restoration plugs.
   Hardwood cuttings stuck in wet media root readily in warm weather.
 
-  🌾 Harvest / Best Use Timing:
   For erosion control, plant before storm season; stake small liners in surge zones. Prune female clones near patios if cottony seed offends tidy aesthetics—know sex when purchasing.
 purpose: |-
   Wildlife Attractor: Baccharis halimifolia flowers feed late-season pollinators, while female plants produce copious fluffy seed for songbirds -- dense twigs give cover to small vertebrates along brackish ditches.
@@ -36,15 +33,14 @@ purpose: |-
   Border Plant: Loose, multi-stemmed habit screens junk piles and pond pumps without formal geometry -- prune females near patios if cottony seed offends tidy aesthetics.
   Biomass: Fast, soft growth chips into salty mulch for coastal berms after storms -- avoid using salty prunings around inland acid-loving crops that hate sodium loads.
 companions:
-- Marsh Elder — shares disturbed wet-edge ecology; stagger management to reduce allergenic
-  pollen timing near doors
-- Saltmeadow Cordgrass — low intertidal to high marsh transition structure behind
-  shrub line
-- Seaside Goldenrod — late flowers extend pollinator support in saline-influenced
-  sun
+- slug: saltmeadow-cordgrass
+  name: Saltmeadow Cordgrass
+- slug: marsh-elder
+  name: Marsh Elder
+- slug: seaside-goldenrod
+  name: Seaside Goldenrod
 cautions:
-- Regional invasiveness — outside native range it can colonize disturbed wetlands;
-  verify local invasive lists before planting
+- Regional invasiveness — outside native range it can colonize disturbed wetlands; verify local invasive lists before planting
 pests:
 - Aphids
 - Banded Winged Whitefly
@@ -55,3 +51,8 @@ pests:
 - Whiteflies
 growth_habit: Salt-tolerant shrub; small leaves; fluffy white seeds on female plants
 data_quality_score: 0.82
+companions_unresolved:
+- name: Marsh Elder
+  original: Marsh Elder — shares disturbed wet-edge ecology; stagger management to reduce allergenic pollen timing near doors
+- name: Seaside Goldenrod
+  original: Seaside Goldenrod — late flowers extend pollinator support in saline-influenced sun

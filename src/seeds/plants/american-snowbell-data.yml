@@ -2,7 +2,7 @@ common_name: American Snowbell
 picture: american_snowbell.webp
 scientific_name: Styrax americanus
 aka:
-- American snowbell styrax
+  - American snowbell styrax
 family: Styracaceae
 zone: 6-9
 ideal_temp_min: 45
@@ -11,22 +11,19 @@ min_temp: -10
 max_temp: 100
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Ornamental
-- Wildlife Attractor
-- Water Retention
-- Border Plant
+  - Ornamental
+  - Wildlife Attractor
+  - Water Retention
+  - Border Plant
 description: |-
   American snowbell (Styrax americanus) is a deciduous to semi-evergreen shrub of southeastern North American swamps, stream banks, and acid wetlands, forming a delicate fountain of slender branches hung with bell-shaped white flowers in late spring. Mature height is often 5–10 feet (1.5–3 m), sometimes taller in shade with a vase shape. It brings refined wetland beauty to rain gardens, pond margins, and humid food forest edges from temperate parts of the Gulf Coastal Plain into subtropical transition zones.
 
-  ☀️💧 Sun and Water Requirements:
   Partial shade to full sun where soil moisture is reliable; afternoon shade reduces stress in the warmest sites. Requires acidic, organic-rich soil that stays moist but not permanently stagnant; tolerates brief inundation typical of swamp edges. Mulch with leaf mold or pine fines to mimic natural humus.
 
-  ✂️ Propagation:
   Sow seed after warm-cold stratification cycles or fall sow outdoors in moist beds. Softwood cuttings in early summer under mist root with hormone. Air-layer low branches in humid weather if seed is scarce.
 
-  🌾 Harvest / Best Use Timing:
   Not a primary food crop—value is ornamental and ecological. Prune after flowering to shape; avoid heavy shearing that destroys the natural weeping line. Collect seed when capsules brown if you breed or share genetics.
 purpose: |-
   Ornamental: Styrax americanus weeping branches carry clusters of white bells that read delicate against coarse wetland neighbors -- plant slightly uphill so you look up into flowers instead of down at mulch.
@@ -34,17 +31,17 @@ purpose: |-
   Water Retention: Roots tolerate periodic inundation in rain gardens and pond margins where stormwater pauses long enough for sediment to drop -- leaf mold mulch keeps pH honest without limestone topdress mistakes.
   Border Plant: Fountain habit softens transitions between paths and soggy ground without straight-line plastic edging -- chlorosis on alkaline irrigation is the usual failure mode, not pests.
 companions:
-- Sweetbay Magnolia — shared acidic wet soils and complementary white flowers at different
-  seasons
-- Cardinal Flower — red tubular blooms at the water’s edge draw hummingbirds alongside
-  snowbell’s insect clientele
-- Inkberry — evergreen backbone in the same pH range without root aggression typical
-  of larger trees
+  - slug: sweetbay-magnolia
+    name: Sweetbay Magnolia
+  - slug: cardinal-flower
+    name: Cardinal Flower
+  - slug: inkberry
+    name: Inkberry
 cautions:
-- Alkaline irrigation or limestone mulch — chlorosis on acid-loving Styrax
-- Droughty berms without supplemental water — leaf scorch and dieback in hot dry spells
+  - Alkaline irrigation or limestone mulch — chlorosis on acid-loving Styrax
+  - Droughty berms without supplemental water — leaf scorch and dieback in hot dry spells
 pests:
-- Scale Insects
-- Aphids
+  - Scale Insects
+  - Aphids
 growth_habit: Fountain-shaped shrub; bell-shaped white flowers; moist acidic sites
 data_quality_score: 0.85

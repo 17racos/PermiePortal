@@ -22,26 +22,23 @@ description: |-
 
   Grow spring through fall; bolts in heat but keeps producing if you steal tips. Frost ends the party—extend with row cover or pots.
 
-  ☀️💧 Sun and Water Requirements:
-
   Full sun, rich well-drained soil, steady moisture.
   Wilts fast in pots—mulch and check daily in August.
 
-  ✂️ Propagation:
-
   Seed indoors after last frost or direct sow warm soil; cuttings root in water in a week if you forget to label them.
-
-  🌾 Harvest / Best Use Timing:
 
   Pinch tips and flower spikes for continuous kitchen harvest until frost stops growth.
 purpose: |-
   Edible: Ocimum basilicum var. thyrsiflorum liquorice spikes strip into beef salads and chili oil -- harvest before woodiness because stems toughen faster than Italian sweet types.
-  Pollinator: Purple whorled blooms spike late summer basil rows if you dare delay pesto cuts for bee forage gaps.
-  Pest Management: Eugenol-rich leaf volatiles mask tomato-to-moth cues when tight tomato-basil guilds breathe together in humid frames.
+  Pollinator: Purple whorled blooms spike late summer basil rows -- if you dare delay pesto cuts for bee forage gaps.
+  Pest Management: Eugenol-rich leaf volatiles mask tomato-to-moth cues -- when tight tomato-basil guilds breathe together in humid frames.
 companions:
-- Tomatoes
-- Eggplant
-- Peppers
+- slug: tomato
+  name: Tomato
+- slug: bell-pepper
+  name: Bell Pepper
+- slug: eggplant
+  name: Eggplant
 cautions:
 - Cold wet soil at germination
 - Dense shade
@@ -52,3 +49,10 @@ pests:
 growth_habit: Bushy annual basil with upright flower spikes
 data_quality_score: 0.8
 field_observations: No field observations yet
+companions_normalized:
+- original: Tomatoes
+  resolved_slug: tomato
+  name: Tomato
+- original: Peppers
+  resolved_slug: bell-pepper
+  name: Bell Pepper

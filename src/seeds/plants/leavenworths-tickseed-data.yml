@@ -2,7 +2,7 @@ common_name: Leavenworth's Tickseed
 picture: leavenworths_tickseed.webp
 scientific_name: Coreopsis leavenworthii
 aka:
-- Leavenworth tickseed
+  - Leavenworth tickseed
 family: Asteraceae
 zone: 8-11
 ideal_temp_min: 65
@@ -11,22 +11,19 @@ min_temp: 15
 max_temp: 105
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Pollinator
-- Ornamental
-- Wildlife Attractor
-- Erosion Control
+  - Pollinator
+  - Ornamental
+  - Wildlife Attractor
+  - Erosion Control
 description: |-
   Leavenworth’s tickseed (Coreopsis leavenworthii) is an annual or short-lived perennial wildflower of wet prairies, ditches, and ruderal openings in the southeastern United States, bearing bright yellow ray flowers with dark centers on wiry stems. Height is often 1–3 feet (0.3–1 m). It self-sows enthusiastically in moist sunny sites, making it valuable for rain gardens, bioswale edges, and native meadow mixes in humid subtropical climates.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun for dense bloom; light shade reduces flowers. Moist to wet, organic soils match natural ditches; tolerates short dry spells after establishment but sulks on xeric berms. Avoid planting in sealed clay saucers without overflow.
 
-  ✂️ Propagation:
   Sow seed in fall or early spring; self-sown volunteers often outperform fussy trays. Thin dense carpets if airflow becomes a mildew invitation. Cut back spent stalks if you dislike the brown phase—leave some for seed if you want free reruns.
 
-  🌾 Harvest / Best Use Timing:
   Peak bloom tracks warm wet season—plan pollinator tours then. Collect dry seed heads for sharing with ethical local genotype notes. Leave late heads for finches if winter mess is acceptable.
 purpose: |-
   Pollinator: Coreopsis leavenworthii paints wet ditches yellow with dark-centered disks that syrphid flies and small bees work during summer heat -- blooms peak when rain gardens stay moist.
@@ -34,21 +31,22 @@ purpose: |-
   Wildlife Attractor: Finches pick mature achenes from upright stalks -- leave dead stems until spring if winter structure matters more than instant tidiness.
   Erosion Control: Fibrous roots bind saturated ditch banks where turf rots -- mass plugs on contour so roots interlock before next monsoon sheet flow.
 companions:
-- Florida Paintbrush — complementary late-season forb color in sandy-wet ecotones
-- Gulf Muhly — warm-season grass matrix behind lower forbs on well-drained upper swale
-- Dense Blazingstar — taller forb structure where moisture gradients allow mixed meadow
-  design
+  - slug: florida-paintbrush
+    name: Florida Paintbrush
+  - slug: gulf-muhly
+    name: Gulf Muhly
+  - slug: dense-blazingstar
+    name: Dense Blazingstar
 cautions:
-- Self-seeding excess — edit volunteers if paths and pavers are sacred
-- Powdery Mildew — crowded humid pockets without airflow invite foliar ugliness
+  - Self-seeding excess — edit volunteers if paths and pavers are sacred
+  - Powdery Mildew — crowded humid pockets without airflow invite foliar ugliness
 pests:
-- Aphids
-- Banded Winged Whitefly
-- Greenhouse Whitefly
-- Japanese Beetles
-- Lettuce Aphid
-- Lubber Grasshopper
-- Root Aphid
-growth_habit: Annual to short-lived perennial Coreopsis; yellow daisy flowers; moist
-  ditches and prairies
+  - Aphids
+  - Banded Winged Whitefly
+  - Greenhouse Whitefly
+  - Japanese Beetles
+  - Lettuce Aphid
+  - Lubber Grasshopper
+  - Root Aphid
+growth_habit: Annual to short-lived perennial Coreopsis; yellow daisy flowers; moist ditches and prairies
 data_quality_score: 0.78

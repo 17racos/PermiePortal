@@ -24,13 +24,10 @@ plant_function:
 description: |-
   Allegheny chinquapin (Castanea pumila) is a native deciduous shrub to small tree of eastern North American woodlands, bearing glossy toothed leaves and spiny burrs that hide one small, sweet kernel each. Mature plants often reach roughly 10–20 feet (3–6 m) and can spread by root sprouts, forming thickets that stabilize slopes and feed wildlife when oaks dominate the canopy. The nuts were a historic human food where larger chestnuts were scarce, and they remain a valuable calorie for birds and small mammals in food forests and restoration plantings.
 
-  ☀️💧 Sun and Water Requirements:
   Prefers full sun to partial shade; tolerates dappled understory light once established. Best on moist, well-drained, acidic to slightly acidic loam rich in organic matter; tolerates dry rocky slopes but grows more slowly. Avoid constantly waterlogged soil. Hardy in its listed zones; young shoots can be damaged by late freezes after mild winters.
 
-  ✂️ Propagation:
   Sow fresh nuts outdoors in fall or stratify cold-moist 2–4 months and sow in spring—germination is often erratic but improves with prompt planting. Dig root suckers in late dormancy with some roots attached and transplant into prepared beds. Grafting onto disease-tolerant rootstocks is used in breeding programs but is a specialist technique.
 
-  🌾 Harvest / Best Use Timing:
   Collect burrs when they split and nuts begin to drop, typically in early to mid fall in temperate climates. Cure nuts briefly in a dry, airy place; use soon or refrigerate—small kernels dry out quickly. Roasting improves flavor and reduces handling spoilage.
 purpose: |-
   Edible: Castanea pumila kernels inside spiny burrs taste sweet-roasty like miniature chestnuts once roasted -- one nut per burr means you plant clusters for human-scale harvests, not single specimen fantasy.
@@ -38,15 +35,13 @@ purpose: |-
   Mulcher: Toothed leaves and fine twigs decay into acidic fungal litter that matches oak-hickory understory guilds -- rake lightly only where thick mats smother desired spring ephemerals.
   Erosion Control: Suckering thickets knit rocky slopes and old-field edges where shallow-rooted turf fails -- fibrous mats slow surface flow during thunderstorms without needing plastic matting.
 companions:
-- White Oak — shared mycorrhizal associates and dappled canopy light match chinquapin’s
-  woodland niche
-- Highbush Blueberry — similar acidic, organic-rich soil and partial sun understory
-- Serviceberry — early bloom and fruit without overshading the shorter chestnut relative
+- slug: highbush-blueberry
+  name: Highbush Blueberry
+- slug: serviceberry
+  name: Serviceberry
 cautions:
-- Black Walnut — juglone can stress many species in the chestnut tribe; site away
-  from heavy walnut root zones
-- Chestnut blight (Cryphonectria parasitica) — still a risk; choose documented resistant
-  sources when available
+- Black Walnut — juglone can stress many species in the chestnut tribe; site away from heavy walnut root zones
+- Chestnut blight (Cryphonectria parasitica) — still a risk; choose documented resistant sources when available
 pests:
 - Borers
 - Fall Webworm
@@ -57,3 +52,6 @@ pests:
 - Tent Caterpillar
 growth_habit: Multi-stem deciduous shrub to small tree; spiny burrs; toothed leaves
 data_quality_score: 0.85
+companions_unresolved:
+- name: White Oak
+  original: White Oak — shared mycorrhizal associates and dappled canopy light match chinquapin’s woodland niche

@@ -2,8 +2,8 @@ common_name: Hairawn Muhly
 picture: hairawn_muhly.webp
 scientific_name: Muhlenbergia sericea
 aka:
-- Silky muhly
-- Muhly grass
+  - Silky muhly
+  - Muhly grass
 family: Poaceae
 zone: 8-11
 ideal_temp_min: 65
@@ -12,22 +12,19 @@ min_temp: 15
 max_temp: 105
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Ornamental
-- Erosion Control
-- Wildlife Attractor
-- Border Plant
+  - Ornamental
+  - Erosion Control
+  - Wildlife Attractor
+  - Border Plant
 description: |-
   Hairawn muhly (Muhlenbergia sericea) is a warm-season bunchgrass of coastal dunes, pine flatwoods, and sandy roadsides in the southeastern United States and Caribbean, forming fine-textured clumps with silky inflorescences that catch light. Height is often 1–3 feet (0.3–1 m) depending on ecotype and moisture. It suits native coastal gardens, bioswale margins, and low-fertility beds where turf would demand a hose and a therapist.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun for best flowering and upright habit; partial shade stretches stems. Well-drained sandy soils are home territory; tolerates salt spray and short drought after establishment. Avoid heavy clay unless you amend for drainage like you mean it.
 
-  ✂️ Propagation:
   Divide clumps in early spring; keep divisions moist until rooted. Sow seed warm; establishment is faster with weed control the first season. Cut back old growth in late winter before new shoots emerge.
 
-  🌾 Harvest / Best Use Timing:
   Ornamental peak aligns with warm-season flowering—plan views and paths accordingly. Leave standing for winter texture if you accept a brief messy phase. Collect seed for restoration only from appropriate local ecotypes with permits if required.
 purpose: |-
   Ornamental: Muhlenbergia sericea carries silky, narrow panicles that catch coastal breeze -- fine texture contrasts with broader forbs when you mass clumps along dunes or flatwood edges.
@@ -35,24 +32,25 @@ purpose: |-
   Wildlife Attractor: Seeds feed small birds and rodents into fall while low clumps hide ground fauna -- leave standing stems through winter for texture before cutting before the spring flush.
   Border Plant: Low lines define paths and parking strips without mowing -- mass plantings read intentional; one lonely tuft looks like a nursery label fell off.
 companions:
-- Gulf Muhly — pink-cloud relative for staggered autumn drama in mixed muhly masses
-- Florida Paintbrush — native forb adding late-season pollinator value behind low
-  grasses
-- Little Bluestem — slightly taller warm-season matrix grass sharing sandy sun
+  - slug: gulf-muhly
+    name: Gulf Muhly
+  - slug: florida-paintbrush
+    name: Florida Paintbrush
+  - slug: little-bluestem
+    name: Little Bluestem
 cautions:
-- Wet clay — crowns rot; choose wet-prairie grasses if soil stays soggy
-- Deep inland cold — marginally hardy; protect microclimate or accept occasional winter
-  bronze
+  - Wet clay — crowns rot; choose wet-prairie grasses if soil stays soggy
+  - Deep inland cold — marginally hardy; protect microclimate or accept occasional winter bronze
 pests:
-- Armyworms
-- Bamboo Mite
-- Corn Earworm
-- Fall Armyworm
-- Lubber Grasshopper
-- Rice Blast Fungus
-- Rice Water Weevil
-- Spittlebugs
-- Wireworm
-- Leaf Blight
+  - Armyworms
+  - Bamboo Mite
+  - Corn Earworm
+  - Fall Armyworm
+  - Lubber Grasshopper
+  - Rice Blast Fungus
+  - Rice Water Weevil
+  - Spittlebugs
+  - Wireworm
+  - Leaf Blight
 growth_habit: Fine warm-season bunchgrass; silky panicles; coastal sand and flatwoods
 data_quality_score: 0.78

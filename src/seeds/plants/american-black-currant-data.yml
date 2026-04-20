@@ -2,7 +2,7 @@ common_name: American Black Currant
 picture: american_black_currant.webp
 scientific_name: Ribes americanum
 aka:
-- Wild black currant
+  - Wild black currant
 family: Grossulariaceae
 zone: 3-7
 ideal_temp_min: 35
@@ -11,39 +11,37 @@ min_temp: -40
 max_temp: 95
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Edible
-- Wildlife Attractor
-- Pollinator
-- Dynamic Accumulator
+  - Edible
+  - Wildlife Attractor
+  - Pollinator
+  - Dynamic Accumulator
 description: |-
   American black currant (Ribes americanum) is a deciduous native shrub of cool, moist North American thickets and riparian edges, forming an upright clump roughly 3–6 feet (1–2 m) with maple-like lobed leaves and dangling racemes of greenish-yellow spring flowers. Glossy black berries ripen in early to mid summer, tart and aromatic, valued for jelly, syrup, and wildlife forage where commercial Ribes crops are uncommon. It fits food forests, hedgerows, and wetland buffers that stay sunny and damp but not stagnant.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun to light shade; best fruiting in at least half-day sun. Prefers consistently moist, humus-rich, well-drained soil; tolerates brief inundation on stream margins but not permanent anaerobic muck. Mulch keeps roots cool; drought reduces berry size quickly.
 
-  ✂️ Propagation:
   Sow seed after cold stratification 90–120 days, or sow outdoors in fall. Hardwood cuttings taken in late dormancy root under bottom heat. Dig suckers with roots in early spring before bud break and reset in prepared beds.
 
-  🌾 Harvest / Best Use Timing:
   Pick clusters when berries are fully black, slightly soft, and aromatic—before birds take the entire crop. Process within a day or two; currants freeze well for off-season cooking. Prune out oldest canes after several years to renew fruiting wood.
 purpose: |-
   Edible: Ribes americanum clusters stay lip-puckering raw but cook into jewel-clear jellies where sugar meets high pectin -- pick fully black, slightly soft berries before cedar waxwings finish the accounting.
   Wildlife Attractor: Glossy black fruit and maple-lobed leaves feed catbirds, chipmunks, and moth larvae along damp thickets -- leave a few canes uncut each year so fruiting wood stays sunlit.
-  Pollinator: Dangling greenish racemes open before many canopy trees leaf out, offering early pollen loads to bees waking from winter carbohydrate debt.
-  Dynamic Accumulator: Fibrous roots mine moist riparian subsoil for potassium and magnesium that return via leaf litter under elderberry and dogwood guild partners.
+  Pollinator: Dangling greenish racemes open before many canopy trees leaf out -- offers early pollen loads to bees waking from winter carbohydrate debt.
+  Dynamic Accumulator: Fibrous roots mine moist riparian subsoil for potassium and magnesium -- returned via leaf litter under elderberry and dogwood guild partners.
 companions:
-- Elderberry — shared moist, fertile soils and complementary fruiting seasons for
-  pollinators
-- Highbush Blueberry — similar acidity management and partial-sun shrub layer
-- Joe-Pye Weed — tall summer flowers at the damp margin without shading currants hard
+  - slug: elderberry
+    name: Elderberry
+  - slug: highbush-blueberry
+    name: Highbush Blueberry
+  - slug: joe-pye-weed
+    name: Joe Pye Weed
 cautions:
-- White Pine Blister Rust (Cronartium ribicola) — some areas restrict Ribes near pines;
-  check local rules before planting
-- Gooseberry Sawfly — can strip leaves quickly; scout larvae in spring
+  - White Pine Blister Rust (Cronartium ribicola) — some areas restrict Ribes near pines; check local rules before planting
+  - Gooseberry Sawfly — can strip leaves quickly; scout larvae in spring
 pests:
-- Aphids
-- Gooseberry Sawfly
+  - Aphids
+  - Gooseberry Sawfly
 growth_habit: Upright deciduous multistem shrub; lobed leaves; black berries in clusters
 data_quality_score: 0.85

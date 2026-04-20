@@ -20,30 +20,31 @@ plant_function:
 description: |-
   Bloodroot (Sanguinaria canadensis) is a spring ephemeral of eastern North American deciduous forests, emerging wrapped in a single folded leaf that unfurls as a lobed canopy over a white, many-petaled flower. Orange-red latex in roots and stems gives the plant its name and historical dye and medicine associations. Plants spread slowly by rhizomes, forming low colonies in rich, moist soils before trees leaf out, then often going dormant by early summer.
 
-  ☀️💧 Sun and Water Requirements:
   Partial shade under deciduous canopy; needs bright spring light before closure, then shade and cool soil through summer dormancy. Moist, humus-rich, well-drained soil is ideal; dry sandy sites shorten display. Avoid standing water around rhizomes.
 
-  ✂️ Propagation:
   Divide rhizomes in dormancy with each piece bearing a bud; replant shallowly. Sow fresh seed before it dries; keep moist through warm then cold cycles. Ants distribute elaiosome-bearing seeds naturally—mimic forest floor moisture if starting indoors.
 
-  🌾 Harvest / Best Use Timing:
   Ornamental peak is early spring bloom; do not strip wild populations. Any medicinal or dye use requires correct identification and toxicity awareness—alkaloids are real. Collect seed when pods begin to open if propagating selected forms.
 purpose: |-
-  Medicinal: Sanguinaria canadensis sap and rhizome carry benzylisoquinoline alkaloids, so external poultice traditions stay separate from risky internal dosing without trained supervision.
-  Ornamental: A single wrap leaf unfurls over white multi-petaled blooms for a week-long spring flash before trees close the canopy.
-  Ground Cover: Rhizomes creep slowly in rich leaf mold, knitting colonies where you keep summer shade and moisture honest.
-  Wildlife Attractor: Early flying bees and syrphids work the short-lived flowers during the cold window before canopy leaf-out ends the show.
+  Medicinal: Sanguinaria canadensis sap and rhizome carry benzylisoquinoline alkaloids -- so external poultice traditions stay separate from risky internal dosing without trained supervision.
+  Ornamental: A single wrap leaf unfurls over white multi-petaled blooms for a week-long spring flash -- before trees close the canopy.
+  Ground Cover: Rhizomes creep slowly in rich leaf mold -- knitting colonies where you keep summer shade and moisture honest.
+  Wildlife Attractor: Early flying bees and syrphids work the short-lived flowers during the cold window -- before canopy leaf-out ends the show.
 companions:
-- Trillium — shares spring ephemeral timing and rich woodland soil
-- Virginia Bluebells — complementary bloom color sequence in the same niche
-- Sugar Maple — overstory that delivers the light rhythm bloodroot expects
+- slug: virginia-bluebells
+  name: Virginia Bluebells
 cautions:
-- Toxic if ingested — alkaloids can cause serious symptoms; keep away from curious
-  pets and uninformed foragers
+- Toxic if ingested — alkaloids can cause serious symptoms; keep away from curious pets and uninformed foragers
 - Overcollection from wild woods — choose nursery-propagated stock for plantings
 pests:
 - Slugs
 - Snails
-growth_habit: Spring ephemeral; palmately lobed leaf; white flowers; orange rhizome
-  sap
+growth_habit: Spring ephemeral; palmately lobed leaf; white flowers; orange rhizome sap
 data_quality_score: 0.85
+companions_unresolved:
+- name: Trillium
+  original: Trillium — shares spring ephemeral timing and rich woodland soil
+- name: Virginia Bluebells
+  original: Virginia Bluebells — complementary bloom color sequence in the same niche
+- name: Sugar Maple
+  original: Sugar Maple — overstory that delivers the light rhythm bloodroot expects

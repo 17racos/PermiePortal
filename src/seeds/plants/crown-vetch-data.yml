@@ -20,16 +20,12 @@ plant_function:
 - Biomass
 - Animal Fodder
 description: |-
-  Crown vetch (*Securigera varia*) is a rhizomatous perennial legume that forms dense, pink-purple flowering mats along roadsides and disturbed ground. Pinnate leaves climb via tendril-tipped leaflets, and roots spread aggressively belowground. Height is usually under 60 cm when unsupported. It was once promoted for erosion control but is now recognized as invasive or problematic in many regions, smothering diverse plant communities. **Do not plant where it can escape into natural areas, rights-of-way stewardship sites, or native restoration projects in Florida and Puerto Rico**—local regulations and land ethics should win over nostalgia for quick greenwash fixes.
+  Crown vetch (*Securigera varia*) is a rhizomatous perennial legume that forms dense, pink-purple flowering mats along roadsides and disturbed ground. Pinnate leaves climb via tendril-tipped leaflets, and roots spread aggressively belowground. Height is usually under 60 cm when unsupported. It was once promoted for erosion control but is now recognized as invasive or problematic in many regions, smothering diverse plant communities. Do not plant where it can escape into natural areas, rights-of-way stewardship sites, or native restoration projects in Florida and Puerto Rico—local regulations and land ethics should win over nostalgia for quick greenwash fixes.
 
-  ☀️💧 **Sun and Water Requirements:**
   Full sun to light shade. Tolerates poor, dry soils once established; moderate moisture speeds spread. Only consider contained settings (e.g., bounded beds with root barriers) if you accept ongoing management.
 
-  ✂️ **Methods to Propagate:**
-  - **Seeds:** Scarify and sow in spring; germination improves with warm soil.
-  - **Rhizome pieces:** Any fragment can root—this is why it is a containment risk, not a selling point for careless planting.
+  Seeds: Scarify and sow in spring; germination improves with warm soil. Rhizome pieces: Any fragment can root—this is why it is a containment risk, not a selling point for careless planting.
 
-  🌾 **Best Use Timing:**
   If already on your land, mow or graze before seed set to slow invasion (check toxicity concerns for livestock). Replace long-term with native legumes suited to your biome rather than feeding perpetual battle.
 purpose: |-
   Nitrogen Fixer: Securigera varia rhizobia fix N into legume tissue -- cycle cut biomass only inside bounded systems so rhizomes do not export the problem.
@@ -37,10 +33,10 @@ purpose: |-
   Biomass: Fast leafy growth yields chop-and-drop mulch on contained banks -- avoid seeding into prairies or restoration parcels.
   Animal Fodder: Historically grazed where adapted -- verify nitrile glycoside and local toxicity guidance before turning stock onto large stands.
 companions:
-- Tall fescue
-- Switchgrass
-- Chicory
-- Birdsfoot trefoil
+- slug: switchgrass
+  name: Switchgrass
+- slug: chicory
+  name: Chicory
 cautions:
 - Butterfly weed
 - Blazing star
@@ -77,3 +73,8 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Vine
 data_quality_score: 0.72
+companions_unresolved:
+- name: Tall fescue
+  original: Tall fescue
+- name: Birdsfoot trefoil
+  original: Birdsfoot trefoil

@@ -25,29 +25,24 @@ description: |-
 
   The large flowers attract pollinators such as butterflies, bees, and hummingbirds, making it a valuable plant for biodiversity. It is also an excellent biomass producer, contributing rich organic matter when used as a green mulch or compost.
 
-   🌞💧 Sun and Water Requirements:
-  - Prefers full sun (6+ hours of direct sunlight).
-  - Well-drained, moderately fertile soil is ideal.
-  - Drought-tolerant but benefits from occasional deep watering in dry conditions.
+  Prefers full sun (6+ hours of direct sunlight). Well-drained, moderately fertile soil is ideal. Drought-tolerant but benefits from occasional deep watering in dry conditions.
 
-  ✂️🫘 Methods to Propagate:
-  - Seeds: Direct sow after the last frost or start indoors and transplant.
-  - Cuttings: Can be propagated from semi-hardwood cuttings.
+  Seeds: Direct sow after the last frost or start indoors and transplant. Cuttings: Can be propagated from semi-hardwood cuttings.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
-  - Blooms continuously in warm seasons.
-  - Cut flowers for arrangements or seed collection when mature.
+  Blooms continuously in warm seasons. Cut flowers for arrangements or seed collection when mature.
 purpose: |-
-  Pollinator: Plate-sized orange-red daisy heads keep pumping nectar through humid heat when many annual vegetables have stopped flowering, pulling honeybees, butterflies, and hummingbirds to the back edge of the bed.
-  Wildlife Attractor: Tall inflorescences act like beacons for swallowtails and sulphurs that cruise above low herbs; seed heads left late feed finches once frost thins other forage.
-  Mulcher: Stems cut knee- to chest-high before seeds mature make a wet, fast-heating layer in compost or chop-and-drop beside heavy-feeding corn and squash.
-  Dynamic Accumulator: Soft succulent stems take up nutrients from fresh manure or compost side-dressings and return them to the soil surface when laid as green mulch after cutting.
-  Border Plant: A single row screens compost piles, tanks, or neighbor windows in one season without casting the decades-long shade of a planted timber hedge.
+  Pollinator: Plate-sized orange-red daisy heads keep pumping nectar through humid heat when many annual vegetables have stopped flowering -- pulling honeybees, butterflies, and hummingbirds to the back edge of the bed.
+  Wildlife Attractor: Tall inflorescences act like beacons for swallowtails and sulphurs that cruise above low herbs -- seed heads left late feed finches once frost thins other forage.
+  Mulcher: Stems cut knee- to chest-high before seeds mature make a wet, fast-heating layer -- in compost or chop-and-drop beside heavy-feeding corn and squash.
+  Dynamic Accumulator: Soft succulent stems take up nutrients from fresh manure or compost side-dressings and return them to the soil surface -- when laid as green mulch after cutting.
+  Border Plant: A single row screens compost piles, tanks, or neighbor windows in one season -- without casting the decades-long shade of a planted timber hedge.
 companions:
-- Corn
-- Tomatoes
-- Beans
-- Sunflower
+- slug: tomato
+  name: Tomato
+- slug: sunflower
+  name: Sunflower
+- slug: fava-bean
+  name: Fava Bean
 cautions:
 - None reported
 pests:
@@ -63,3 +58,16 @@ pests:
 growth_habit: Herbaceous shrub
 data_quality_score: 0.8
 field_observations: No field observations yet
+companions_normalized:
+- original: Tomatoes
+  resolved_slug: tomato
+  name: Tomato
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index

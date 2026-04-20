@@ -2,7 +2,7 @@ common_name: Wild Petunia
 picture: wild_petunia.webp
 scientific_name: Ruellia caroliniensis
 aka:
-- Carolina Wild Petunia
+  - Carolina Wild Petunia
 family: Acanthaceae
 zone: 6-10
 ideal_temp_min: 45
@@ -11,22 +11,19 @@ min_temp: -5
 max_temp: 110
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Pollinator
-- Ground Cover
-- Ornamental
-- Wildlife Attractor
+  - Pollinator
+  - Ground Cover
+  - Ornamental
+  - Wildlife Attractor
 description: |-
   Wild petunia (Ruellia caroliniensis) is a low, spreading perennial of southeastern North American dry woodlands and glades, with lavender funnel flowers that last a day but repeat through warm months. Plants reach roughly 6–18 inches (15–45 cm), rooting at nodes. It suits dry shade borders, path edges, and pollinator strips where heat is honest.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun to light partial shade; more sun increases bloom in humid climates. Well-drained, lean to average soils suit it; tolerates drought once established. Avoid wet clay.
 
-  ✂️ Propagation:
   Divide clumps in spring; sow seed after frost with surface press.
 
-  🌾 Harvest / Best Use Timing:
   Primarily ornamental—peak bloom tracks heat waves through warm months.
 purpose: |-
   Pollinator: Ruellia caroliniensis lavender funnels open daily in heat -- long-tongued bees and occasional hummingbirds work the wide throat.
@@ -34,14 +31,17 @@ purpose: |-
   Ornamental: One-day flowers repeat waves all summer -- silver little bluestem backdrop makes the lavender pop.
   Wildlife Attractor: Succession bloom covers midsummer nectar gaps when spring ephemerals are memory -- leave patches for skipper larvae where species overlap.
 companions:
-- Little Bluestem — drought-class grass neighbor sharing sun and drainage
-- Milkweed — taller forb neighbor in pollinator strips
-- Wild Bergamot — aromatic forb extending bloom sequence into mid-summer
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: milkweed
+    name: Milkweed
+  - slug: wild-bergamot
+    name: Wild Bergamot
 cautions:
-- Overwatering — sprawly growth with fewer flowers
+  - Overwatering — sprawly growth with fewer flowers
 pests:
-- Aphids
-- Spider Mites
-- Whiteflies
+  - Aphids
+  - Spider Mites
+  - Whiteflies
 growth_habit: Low spreading ruellia; lavender funnels; dry woodland and glade edges
 data_quality_score: 0.79

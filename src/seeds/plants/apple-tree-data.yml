@@ -27,20 +27,11 @@ description: |-
 
   Apple trees thrive in temperate climates with cold winters for proper dormancy. They require cross-pollination from compatible varieties for fruit production. The trees bloom in early spring with fragrant white to pink flowers, attracting bees and other pollinators. The fruit ripens in late summer to fall, with a wide range of flavors, colors, and textures depending on the cultivar. Proper pruning enhances airflow, reduces disease risk, and improves fruit quality.
 
-   🌞💧 Sun and Water Requirements:
-  - Prefers full sun for optimal fruiting.
-  - Requires well-drained, loamy soil rich in organic matter.
-  - Moderate water needs; deep watering during dry periods promotes strong root growth.
+  Prefers full sun for optimal fruiting. Requires well-drained, loamy soil rich in organic matter. Moderate water needs; deep watering during dry periods promotes strong root growth.
 
-  ✂️🫘 Methods to Propagate:
-  - Grafting: The most common method, ensuring desired fruit traits.
-  - Seeds: Can be grown from seed but results in unpredictable fruit characteristics.
-  - Cuttings: Hardwood cuttings can root, but success rates vary.
+  Grafting: The most common method, ensuring desired fruit traits. Seeds: Can be grown from seed but results in unpredictable fruit characteristics. Cuttings: Hardwood cuttings can root, but success rates vary.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
-  - Harvest times vary by cultivar, typically between late summer and fall.
-  - Fruit is ready when it detaches easily from the branch with a slight twist.
-  - Store apples in a cool, dry place to extend shelf life.
+  Harvest times vary by cultivar, typically between late summer and fall. Fruit is ready when it detaches easily from the branch with a slight twist. Store apples in a cool, dry place to extend shelf life.
 purpose: |-
   Edible: Malus domestica cultivars span sharp cider bittersweets to crisp dessert apples depending on scion choice -- rootstock controls final height, so match understory guilds to dwarfing versus standard vigor.
   Medicinal: Slow-fermented apple cider vinegar carries acetobacter acids and fruit minerals used in folk bitters and oxymels -- use labeled culinary process, not half-sealed jars of mystery juice on the counter.
@@ -51,11 +42,14 @@ purpose: |-
   Erosion Control: Orchard grass alleys and fibrous root mats slow sheet flow on sloped sites compared with bare cultivation -- keyline design still beats wishful thinking on steep ground.
   Border Plant: Hedgerow-trained apples mark field edges with spring bloom and winter silhouette -- fire blight bacteria love warm wet blossoms, so open vase pruning is structural disease management, not vanity.
 companions:
-- Comfrey
-- Nasturtium
-- Clover
-- Garlic
-- Chive
+- slug: chives
+  name: Chives
+- slug: comfrey
+  name: Comfrey
+- slug: nasturtium
+  name: Nasturtium
+- slug: garlic
+  name: Garlic
 cautions:
 - Walnut
 - Tomato
@@ -101,3 +95,10 @@ pests:
 - Tent Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_normalized:
+- original: Chive
+  resolved_slug: chives
+  name: Chives
+companions_unresolved:
+- name: Clover
+  original: Clover

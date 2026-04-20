@@ -16,32 +16,25 @@ layers:
 plant_function:
 - Medicinal
 - Pollinator
-- Drought Tolerant
 - Wildlife Attractor
 description: |-
   Damiana is the wiry aromatic shrub from dry subtropical scrub—small serrated leaves, yellow flowers that look cheerful about surviving bad soil, and a long folk history as a tea herb and alleged mood tonic (your mileage and ethics may vary). Happy in 9b+ sandy yards with drainage; hates wet feet in winter. Coastal dryness is fine; inland bog is not.
 
-  ☀️💧 Sun and Water Requirements:
-
   Full sun for dense growth and oils.
   Low to moderate water once established; behaves like it read the xeriscape pamphlet.
 
-  ✂️ Propagation:
-
   Semi-hardwood cuttings, seed in warm conditions; light scarification can help stubborn seed.
-
-  🌾 Harvest / Best Use Timing:
 
   Harvest leafy stems for tea and drying when growth is aromatic and before woodiness dominates; timing follows your drying and formulation plan.
 purpose: |-
   Medicinal: Turnera diffusa leafy stems yield aromatic tea long used for mood and urinary tonics -- dry quickly with airflow; verify legal status and dosing with current references.
-  Pollinator: Small yellow flowers feed native bees along dry border strips through warm months.
-  Drought Tolerant: Wiry aromatic shrub survives sandy, lean sites with occasional deep watering once roots run -- sulks in wet winter clay.
-  Wildlife Attractor: Scrubby cover and late seeds support insects and small birds in xeric mimic beds.
+  Pollinator: Small yellow flowers feed native bees along dry border strips -- reliable bloom through warm months when moisture-dependent herbs have finished.
+  Wildlife Attractor: Scrubby cover and late seeds support insects -- and small birds in xeric mimic beds.
 companions:
-- Agave
-- Mesquite-class legumes
-- Desert Sage
+- slug: agave
+  name: Agave
+- slug: desert-sage
+  name: Desert Sage
 cautions:
 - Heavy clay with summer monsoon + no slope
 - Deep shade
@@ -51,3 +44,8 @@ pests:
 - spider mites
 growth_habit: Multi-stemmed aromatic subshrub
 data_quality_score: 0.74
+plant_traits:
+- Drought Tolerant
+companions_unresolved:
+- name: Mesquite-class legumes
+  original: Mesquite-class legumes

@@ -20,27 +20,20 @@ plant_function:
 description: |-
   Grumichama is the myrtle-family cherry that fruited at the family reunion without asking — dark sweet berries, handsome glossy leaves, and a tropical resume that laughs at subtropical and tropical Americas frost unless you are in the warmest pockets. Small tree or big shrub depending on pruning and ambition.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun to high shade; fruits heavier with more sun and honest fertility.
-  - Rich, well-drained, slightly acidic soil; steady moisture when fruiting.
-  - Young plants need wind protection and mulch — roots are not drama majors but dislike bake.
+  Full sun to high shade; fruits heavier with more sun and honest fertility. Rich, well-drained, slightly acidic soil; steady moisture when fruiting. Young plants need wind protection and mulch — roots are not drama majors but dislike bake.
 
-  ✂️ Methods to Propagate:
-  - Seeds: plant fresh; variable juvenility before fruit — bring patience.
-  - Grafting selected varieties onto seedling rootstocks where material exists.
+  Seeds: plant fresh; variable juvenility before fruit — bring patience. Grafting selected varieties onto seedling rootstocks where material exists.
 
-  🌾 Harvest / Best Use Timing:
-  - Grumichama: pick when color, aroma, and a gentle yield to pressure agree for that species -- impatient fruit keeps starch, latex, or both.
-  - Clip clusters with clean tools; shallow trays beat deep piles that bruise the optimistic bottom layer.
-  - Rain splits thin skins -- pick before monsoon weeks if weather apps cooperate.
+  Grumichama: pick when color, aroma, and a gentle yield to pressure agree for that species -- impatient fruit keeps starch, latex, or both. Clip clusters with clean tools; shallow trays beat deep piles that bruise the optimistic bottom layer. Rain splits thin skins -- pick before monsoon weeks if weather apps cooperate.
 purpose: |-
   Edible: Eugenia brasiliensis bears dark, thin-skinned cherries with resinous sweet pulp -- eat fresh when fully soft, or cook into jam while spitting large seeds that refuse polite chewing.
   Wildlife Attractor: Creamy myrtle flowers draw small bees and wasps, and ripe fruit brings fruit-eating birds in warm months -- net canopies or harvest early if you want human share in frosty-marginal sites.
   Ornamental: Glossy opposite leaves and coppery new growth read tidy in evergreen hedges -- keep fruiting shrubs sunward and wind-protected so the show stays foliar, not wind-tattered.
 companions:
-- Jaboticaba
-- Surinam cherry
-- Mulberry
+- slug: jaboticaba
+  name: Jaboticaba
+- slug: surinam-cherry
+  name: Surinam Cherry
 cautions:
 - Exposed 9a frost hollows without protection
 - Waterlogged heavy clay without berm or drainage edits
@@ -49,3 +42,6 @@ pests:
 - Mediterranean Fruit Fly
 - Oriental Fruit Fly
 - Scale Insects
+companions_unresolved:
+- name: Mulberry
+  original: Mulberry

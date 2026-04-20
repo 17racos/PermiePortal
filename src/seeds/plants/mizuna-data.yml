@@ -2,7 +2,7 @@ common_name: Mizuna
 picture: mizuna.webp
 scientific_name: Brassica rapa var. nipposinica
 aka:
-- Japanese Mustard Greens
+  - Japanese Mustard Greens
 family: Brassicaceae
 zone: 4-10
 ideal_temp_min: 45
@@ -11,33 +11,37 @@ min_temp: 20
 max_temp: 88
 perennial: false
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Edible
-- Ground Cover
-- Pollinator
+  - Edible
+  - Ground Cover
+  - Pollinator
 description: |-
   Mizuna (Brassica rapa var. nipposinica) is a useful annual species in the Brassicaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a herbaceous form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.
 
-  ☀️💧 Sun and Water Requirements:
   Best performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 45°F (7°C) and 72°F (22°C), with stress rising near 88°F (31°C).
 
-  ✂️ Propagation:
   Direct seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.
 
-  🌾 Harvest / Best Use Timing:
   Harvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.
 purpose: |-
   Edible: Finely serrated Brassica rapa var. nipposinica leaves give mild mustard-nuanced salad cuts, quick stir-fry greens, and pickle-friendly twists in the cool window -- succession-sow every few weeks because heat turns flavor harsh faster than heading kales forgive drought.
   Ground Cover: Shallow rosettes carpet bed edges, orchard aisles, and polytunnel shoulders where mowing stops -- paired with mulch, the leaves cap soil evaporation between taller companions without forming a sod-thick mat.
   Pollinator: Small yellow four-petaled flowers on bolting stems offer pollen and nectar to early honeybees, solitary bees, and hoverflies -- leaving a few plants to bolt supports beneficials even while you prioritize younger leaves for the kitchen.
-companions:
-- Lettuce - similar cool-season timing and shallow root sharing.
-- Radish - quick marker crop that opens soil for repeated sowing.
-- Scallion - aromatic leaves can confuse brassica pests.
+companions: []
 cautions:
-- Fennel - can reduce vigor of nearby annual greens.
+  - Fennel - can reduce vigor of nearby annual greens.
 pests:
-- Flea Beetles
-- Aphids
-- Cabbage Worms
+  - Flea Beetles
+  - Aphids
+  - Cabbage Worms
+companion_categories:
+  - name: Lettuce - similar cool-season timing and shallow root sharing.
+    original: Lettuce - similar cool-season timing and shallow root sharing.
+    type: system
+  - name: Radish - quick marker crop that opens soil for repeated sowing.
+    original: Radish - quick marker crop that opens soil for repeated sowing.
+    type: system
+  - name: Scallion - aromatic leaves can confuse brassica pests.
+    original: Scallion - aromatic leaves can confuse brassica pests.
+    type: system

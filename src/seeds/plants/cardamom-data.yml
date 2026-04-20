@@ -20,22 +20,22 @@ plant_function:
 description: |-
   Cardamom (*Elettaria cardamomum*) is an herbaceous perennial native to tropical regions of India, Burma, and Sri Lanka. It forms clumps up to 5.5 meters (18 feet) tall, with lush, bright green, lance-shaped leaves up to 60 centimeters (24 inches) long, arranged alternately on pseudostems. The plant produces white, butterfly-shaped flowers with reddish-purple markings, occurring in clusters near the base on stems up to 1 meter (3.3 feet) long. The fruit is a light green, three-sided capsule containing 15-20 aromatic black seeds.
 
-  🌞💧 Sun and Water Requirements:
   Cardamom thrives in partial shade to full shade conditions, preferring loamy, well-draining soil with an acidic pH. It requires consistent moisture, so regular watering is essential to keep the soil evenly moist but not waterlogged.
 
-  ✂️🫘 Methods to Propagate:
   Propagation is typically achieved through division of rhizomes. This should be done during the warm season, ensuring each division has at least one healthy shoot and a portion of the root system.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
   The plant begins flowering at 2-3 years of age, with white flowers appearing in spring and summer. The fruiting period is approximately 120 days after flowering. Harvest the pods just before they fully ripen to maintain their aromatic qualities.
 purpose: |-
-  Edible: green capsules yield black resinous seeds that grind into warm aromatic spice for curries, chai, and Nordic pastries when pods are harvested just before split.
-  Medicinal: seeds steep into carminative teas for upset stomach traditions across South Asia where volatile oils still warrant pregnancy and medication interaction checks.
-  Wildlife Attractor: butterfly-shaped white flowers with purple markings draw bees and small flies to the humid forest-floor inflorescences under shade cloth in plantation mimic guilds.
+  Edible: green capsules yield black resinous seeds that grind into warm aromatic spice for curries, chai, and Nordic pastries -- when pods are harvested just before split.
+  Medicinal: seeds steep into carminative teas for upset stomach traditions across South Asia -- where volatile oils still warrant pregnancy and medication interaction checks.
+  Wildlife Attractor: butterfly-shaped white flowers with purple markings draw bees and small flies to the humid forest-floor inflorescences -- under shade cloth in plantation mimic guilds.
 companions:
-- Ginger
-- Turmeric
-- Black Pepper
+- slug: ginger
+  name: Ginger
+- slug: turmeric
+  name: Turmeric
+- slug: black-pepper
+  name: Black Pepper
 cautions:
 - None
 pests:
@@ -45,3 +45,6 @@ pests:
 - Spider Mites
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Black Pepper
+  original: Black Pepper

@@ -17,30 +17,22 @@ layers:
 plant_function:
 - Nitrogen Fixer
 - Wildlife Attractor
-- Soil Improvement
 - Ground Cover
 description: |-
   Partridge pea is a native annual legume with feathery leaves, yellow flowers freckled with red, and pods that rattle like tiny maracas. It colonizes disturbed sand and roadsides across the Southeast—including subtropical and tropical Americas—fixing nitrogen while feeding bees and caterpillars. Not a lawn monoculture plant; think pollinator strips, food forest edges, and “stop mowing this sandhill” experiments.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun; blooms thin out fast in shade.
-  - Sandy, well-drained soils preferred; drought-tolerant once seedlings establish—classic Florida sandhill attitude.
+  Full sun; blooms thin out fast in shade. Sandy, well-drained soils preferred; drought-tolerant once seedlings establish—classic Florida sandhill attitude.
 
-  ✂️ Methods to Propagate:
-  - Seeds: scarify or winter-sow; self-sows freely where happy—manage if you do not want a yellow takeover.
-  - Direct sow after last frost when soil warms.
+  Seeds: scarify or winter-sow; self-sows freely where happy—manage if you do not want a yellow takeover. Direct sow after last frost when soil warms.
 
-  🌾 Harvest notes:
-  - Ecological harvest: seed for next year’s strips; not a primary human food crop in most gardens.
+  Ecological harvest: seed for next year’s strips; not a primary human food crop in most gardens.
 purpose: |-
   Nitrogen Fixer: Chamaecrista fasciculata annual legume nodulates on sandhill and roadside soils, pumping plant-available nitrogen into biomass that winter frost releases -- overseed after spring burns or mechanical scarification for best nodulation.
   Wildlife Attractor: Yellow flowers freckled red offer pollen to long-tongued bees; foliage hosts cloudless sulphur and gray hairstreak larvae -- leave pods to rattle seed for bobwhite and rodents if restoration goals beat tidiness.
-  Soil Improvement: Fine roots and leaf litter build crumb structure on impoverished sand where organic matter was scraped away -- till lightly only if you must; most pollinator strips succeed with scalping plus broadcast seed.
   Ground Cover: Knee-high branching covers bare mineral soil the first warm season after disturbance while slower prairie perennials establish below -- pulls back naturally once canopy closes unless fire or mowing reopens light.
 companions:
-- Blazing star
-- Native grasses
-- Wild indigo
+- slug: wild-indigo
+  name: Wild Indigo
 cautions:
 - Heavy irrigated turf where it will be out-competed and bored
 - Dense shade under evergreen monocultures
@@ -75,3 +67,12 @@ pests:
 - Caterpillars
 - Harlequin Ladybird
 - Velvetbean Caterpillar
+companions_unresolved:
+- name: Blazing star
+  original: Blazing star
+companion_categories:
+- name: Native grasses
+  original: Native grasses
+  type: system
+plant_function_unresolved:
+- Soil Improvement

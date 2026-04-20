@@ -24,21 +24,19 @@ description: |-
   Treat as a cool-season carpet; summer humidity can rot it in heavy soil—grit, slope, or morning sun help.
 
   Sun and water: Part sun to light shade in hot climates; more sun OK where summers are mild. Sharp drainage; keep evenly moist but never soggy.
-  ✂️ Propagation:
+
   Division; small rooted pieces; seeds are fiddly—vegetative wins.
 
-  🌾 Harvest / Best Use Timing:
-  - Snip tender Corsican Mint growth in cool mornings for best texture -- heat-stressed leaves taste like their day job.
-  - Flowers at full color for peak volatiles; seeds when pods rattle but before they self-sow across paths.
-  - Dry herbs in thin layers; deep piles steam themselves into compost.
+  Snip tender Corsican Mint growth in cool mornings for best texture -- heat-stressed leaves taste like their day job. Flowers at full color for peak volatiles; seeds when pods rattle but before they self-sow across paths. Dry herbs in thin layers; deep piles steam themselves into compost.
 purpose: |-
-  Edible: Minute menthol-rich leaves punch above their weight as cocktail garnishes and fruit salad accents where a little heat meets sweet.
-  Ground Cover: Flat carpets thread between pavers and stone steps, releasing perfume when shoes brush the leaves in damp shade.
-  Ornamental: Tiny rounded leaves form tight lime-green to chartreuse mats that read as intentional grout in rock gardens and fairy-scale borders.
+  Edible: Minute menthol-rich leaves punch above their weight as cocktail garnishes and fruit salad accents -- where a little heat meets sweet.
+  Ground Cover: Flat carpets thread between pavers and stone steps -- releasing perfume when shoes brush the leaves in damp shade.
+  Ornamental: Tiny rounded leaves form tight lime-green to chartreuse mats -- that read as intentional grout in rock gardens and fairy-scale borders.
 companions:
-- Thyme
-- Sedum
-- Alpine strawberries
+- slug: thyme
+  name: Thyme
+- slug: sedum
+  name: Sedum
 cautions:
 - Heavy wet clay
 - Deep shade plus humidity (rot bingo)
@@ -48,3 +46,6 @@ pests:
 - slugs
 growth_habit: Mat-forming miniature mint; tiny leaves; tolerates light foot traffic
 data_quality_score: 0.75
+companions_unresolved:
+- name: Alpine strawberries
+  original: Alpine strawberries

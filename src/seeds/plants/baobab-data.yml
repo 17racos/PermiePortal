@@ -2,8 +2,8 @@ common_name: Baobab
 picture: baobab.webp
 scientific_name: Adansonia digitata
 aka:
-- African baobab
-- Monkey-bread tree
+  - African baobab
+  - Monkey-bread tree
 family: Malvaceae
 zone: 10b-11
 ideal_temp_min: 70
@@ -12,28 +12,22 @@ min_temp: 30
 max_temp: 115
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Edible
-- Medicinal
-- Wildlife Attractor
-- Shade Provider
-- Water Retention
-- Ornamental
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  - Shade Provider
+  - Water Retention
+  - Ornamental
 description: |-
   The African baobab (Adansonia digitata) is one of the iconic massive-trunked trees of dry savannas, famous for water-storing wood, palmately compound leaves, large white night-opening flowers pollinated by bats and moths, and long woody pods filled with sour, vitamin C–rich pulp around seeds. Mature specimens are landscape-scale architecture decades in the making. Dry-season discipline matches its African rhythm; wet-season humidity is fine if soil drains and roots breathe.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun for strong form and flowering once established.
-  - Deep, sandy-loam, well-drained soil; young trees want regular water, mature trees tolerate pronounced dry spells—never drown the caudex mentality of the root zone.
+  Full sun for strong form and flowering once established. Deep, sandy-loam, well-drained soil; young trees want regular water, mature trees tolerate pronounced dry spells—never drown the caudex mentality of the root zone.
 
-  ✂️ Methods to Propagate:
-  - Seeds: nick or soak, sow warm; protect seedlings from snails and overwatering in humid Florida nights.
-  - Grafting of known fruiting forms where available—decades are long to wait on a dud phenotype.
+  Seeds: nick or soak, sow warm; protect seedlings from snails and overwatering in humid Florida nights. Grafting of known fruiting forms where available—decades are long to wait on a dud phenotype.
 
-  🌾 Harvest / Best Use Timing:
-  - Harvest pods when woody and dry on the tree; pulp separates for drinks, sauces, and fermented experiments.
-  - Young leaves are used as a pot herb in some traditions—moderation and sourcing clarity beat influencer trends.
+  Harvest pods when woody and dry on the tree; pulp separates for drinks, sauces, and fermented experiments. Young leaves are used as a pot herb in some traditions—moderation and sourcing clarity beat influencer trends.
 purpose: |-
   Edible: Adansonia digitata dry pods yield sour vitamin-C-rich pulp for spritely drinks and jellies while seeds press to artisan oil -- shell fibers punish rushed processing, so plan kitchen time, not patio-peeling fantasies.
   Medicinal: Commercial baobab powder trades on soluble fiber and polyphenol chemistry from mesocarp -- verify supplier testing and your own contraindications before stacking superfood scoops without context.
@@ -42,20 +36,19 @@ purpose: |-
   Water Retention: Cylinder-shaped trunks store moisture through multi-month drought -- driveways and tourist stomp rings kill cambium faster than lack of rain, so design access paths outside the critical root plate.
   Ornamental: Silver-barked giants read instantly as tropical savanna monuments -- only commit yard space if decades of litter and eventual crane-scale pruning match your life plans.
 companions:
-- Pigeon Pea — fast legume edge that fixes nitrogen without pretending to share the
-  baobab's century timeline.
-- Lemongrass — aromatic perimeter that tolerates sun and occasional shade at the drip
-  line.
-- Sweet Potato — living soil cover outside the critical root zone if you herd the
-  vines away from trunk flare.
+  - slug: pigeon-pea
+    name: Pigeon Pea
+  - slug: lemongrass
+    name: Lemongrass
+  - slug: sweet-potato
+    name: Sweet Potato
 cautions:
-- None documented
+  - None documented
 pests:
-- Aphids
-- Banded Winged Whitefly
-- Cocoa Pod Borer
-- Mealybugs
-- Scale Insects
-growth_habit: Massive deciduous malvaceous tree; bottle-shaped trunk in age; palmately
-  compound leaves; large nocturnal flowers
+  - Aphids
+  - Banded Winged Whitefly
+  - Cocoa Pod Borer
+  - Mealybugs
+  - Scale Insects
+growth_habit: Massive deciduous malvaceous tree; bottle-shaped trunk in age; palmately compound leaves; large nocturnal flowers
 data_quality_score: 0.75

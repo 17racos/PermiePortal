@@ -2,8 +2,8 @@ common_name: Jewel of Opar
 picture: jewel_of_opar.webp
 scientific_name: Talinum paniculatum
 aka:
-- Fameflower
-- Pink baby's-breath (common trade name; not Gypsophila)
+  - Fameflower
+  - Pink baby's-breath (common trade name; not Gypsophila)
 family: Talinaceae
 zone: 8-11
 ideal_temp_min: 55
@@ -12,31 +12,22 @@ min_temp: 15
 max_temp: 105
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Edible
-- Ornamental
-- Pollinator
-- Wildlife Attractor
-- Border Plant
-- Ground Cover
+  - Edible
+  - Ornamental
+  - Pollinator
+  - Wildlife Attractor
+  - Border Plant
+  - Ground Cover
 description: |-
   Jewel of Opar (Talinum paniculatum) is a succulent-flavored herbaceous perennial from Central America and the southern United States, beloved for lime-green leaves, airy panicles of tiny pink flowers, and jewel-like seed pods that catch light like beads on a string. Plants form loose mounds roughly 30–60 cm (12–24 inches) tall and wider with age in lean, sunny beds. Young leaves read like mild purslane in texture; mature plants shift energy into showy inflorescences that belong in the ornamental-edible border where drought honesty is a virtue.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun keeps stems stiff and flowering honest; shade invites lank growth and fewer sparkles.
-  - Drought-tolerant once established; water deeply then let soil approach dry between irrigations rather than misting daily.
-  - Sharp drainage is non-negotiable—gritty mix or raised beds beat soggy clay that cooks crowns in warm wet winters.
+  Full sun keeps stems stiff and flowering honest; shade invites lank growth and fewer sparkles. Drought-tolerant once established; water deeply then let soil approach dry between irrigations rather than misting daily. Sharp drainage is non-negotiable—gritty mix or raised beds beat soggy clay that cooks crowns in warm wet winters.
 
-  ✂️ Methods to Propagate:
-  - Seeds: surface sow in warm trays; light aids germination, usually within 1–2 weeks at roughly 70–80°F (21–27°C).
-  - Soft tip cuttings in warm months root in perlite or sand with gentle bottom heat.
-  - Division of older clumps after the dry season break resets woody bases and multiplies planting stock.
+  Seeds: surface sow in warm trays; light aids germination, usually within 1–2 weeks at roughly 70–80°F (21–27°C). Soft tip cuttings in warm months root in perlite or sand with gentle bottom heat. Division of older clumps after the dry season break resets woody bases and multiplies planting stock.
 
-  🌾 Harvest / Best Use Timing:
-  - Snip young leaves before flowering for the tenderest kitchen trials; flavor intensifies as plants age.
-  - Harvest decorative seed stems when capsules color but before they shatter if you want clean arrangements or saved seed.
-  - Shear spent inflorescences in long-season climates to encourage another flush before short days slow growth.
+  Snip young leaves before flowering for the tenderest kitchen trials; flavor intensifies as plants age. Harvest decorative seed stems when capsules color but before they shatter if you want clean arrangements or saved seed. Shear spent inflorescences in long-season climates to encourage another flush before short days slow growth.
 purpose: |-
   Edible: Talinum paniculatum young leaves taste mildly of purslane -- nibble small amounts from known plants because Talinum spp. vary in oxalate load and positive ID matters before salad scale-ups.
   Ornamental: Lime foliage, pink mist inflorescences, and copper seed capsules catch low sun through summer -- reads jewelry-like on dry berms where thirsty annuals crisp.
@@ -45,20 +36,20 @@ purpose: |-
   Border Plant: Loose mounds edge paths at knee height without shading neighbors -- shear woody bases every few years so centers do not hollow out in frost-free climates.
   Ground Cover: Fibrous roots spread laterally in gritty soil, knitting mulch without turf -- fails in wet winter clay that rots succulent crowns overnight.
 companions:
-- Purslane — matches sun and spare-water ethics so irrigation schedules stay one-track
-  minded.
-- Sedum — shared drainage class reduces crown-rot roulette in rainy warm spells on
-  berms.
-- Echinacea — deeper roots and upright habit occupy different space while pulling
-  pollinators into the same sight line.
+  - slug: purslane
+    name: Purslane
+  - slug: sedum
+    name: Sedum
+  - slug: echinacea
+    name: Echinacea
 cautions:
-- Prolonged cold wet soil in winter can rot crowns even where labels promise toughness.
+  - Prolonged cold wet soil in winter can rot crowns even where labels promise toughness.
 pests:
-- Aphids
-- Spider Mites
-- Mealybugs
-- Whiteflies
-- Thrips
+  - Aphids
+  - Spider Mites
+  - Mealybugs
+  - Whiteflies
+  - Thrips
 growth_habit: Herb
 data_quality_score: 0.85
 field_observations: |-

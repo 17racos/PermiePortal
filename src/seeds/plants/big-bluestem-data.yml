@@ -2,8 +2,8 @@ common_name: Big Bluestem
 picture: big_bluestem.webp
 scientific_name: Andropogon gerardii
 aka:
-- Turkeyfoot
-- Tallgrass prairie flagship grass
+  - Turkeyfoot
+  - Tallgrass prairie flagship grass
 family: Poaceae
 zone: 4-9
 ideal_temp_min: 60
@@ -12,23 +12,20 @@ min_temp: -35
 max_temp: 100
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Animal Fodder
-- Biomass
-- Erosion Control
-- Wildlife Attractor
-- Ornamental
+  - Animal Fodder
+  - Biomass
+  - Erosion Control
+  - Wildlife Attractor
+  - Ornamental
 description: |-
   Big bluestem (Andropogon gerardii) is a warm-season bunchgrass of North American tallgrass prairie, forming tall clumps with blue-green spring blades that shift copper-red in autumn and seed heads shaped like a turkey’s foot. Culms commonly reach 4–8 feet (1.2–2.4 m) in favorable moisture, shorter on dry ridges. It is a backbone species for prairie restoration, pasture diversification, and ornamental meadows that refuse to pretend Kentucky bluegrass is native.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun for strongest growth and flowering; shade weakens stems. Tolerates drought and lean soils once deep roots develop; responds to occasional summer rain or irrigation with rapid regrowth. Avoid chronic wet, compacted sites that favor cool-season weeds over warm-season roots.
 
-  ✂️ Propagation:
   Sow fresh or cold-stratified seed in late spring when soil warms; establishment is slow the first year, explosive the next. Divide dormant crowns in early spring for landscape plugs. Use local ecotype seed when restoring genetics matched to rainfall and daylength.
 
-   🌾 Harvest / Best Use Timing:
   For hay or silage, cut during early boot to early bloom for quality; leave standing through winter for wildlife cover if forage is not the priority. Burn or mow on restoration schedules appropriate to your region and regulations—not random weekend boredom.
 purpose: |-
   Animal Fodder: Andropogon gerardii hay cut at early boot holds protein better than late lignified turkeyfoot stems -- rotational grazing beats continuous nibble if you want stand persistence on restored prairie.
@@ -37,27 +34,26 @@ purpose: |-
   Wildlife Attractor: Turkeyfoot seeds feed bobwhite and sparrows while hollow stems shelter native bees if you delay mowing until April warmth -- standing brown winter stems are habitat, not mess, on honest sites.
   Ornamental: Copper-red fall color and 2 m culms sell designed meadows -- chlorosis on high-pH fill means choose local ecotype or accept yellow drama, not more fertilizer noise.
 companions:
-- Switchgrass — complementary warm-season grass with different texture and timing
-  in mixed meadows
-- Pale Purple Coneflower — forb partner for pollinator support and contrasting bloom
-  architecture
-- Wild Bergamot — aromatic forb shares sun and handles competitive grass neighbors
-  at margins
+  - slug: switchgrass
+    name: Switchgrass
+  - slug: pale-purple-coneflower
+    name: Pale Purple Coneflower
+  - slug: wild-bergamot
+    name: Wild Bergamot
 cautions:
-- Heavy nitrogen + frequent mowing — favors weedier competitors and can thin bluestem
-  stands over time
+  - Heavy nitrogen + frequent mowing — favors weedier competitors and can thin bluestem stands over time
 pests:
-- Aphids
-- Armyworms
-- Bamboo Mite
-- Corn Earworm
-- Fall Armyworm
-- Grasshopper
-- Lubber Grasshopper
-- Rice Blast Fungus
-- Rice Water Weevil
-- Spittlebugs
-- Wireworm
-- Leaf Blight
+  - Aphids
+  - Armyworms
+  - Bamboo Mite
+  - Corn Earworm
+  - Fall Armyworm
+  - Grasshopper
+  - Lubber Grasshopper
+  - Rice Blast Fungus
+  - Rice Water Weevil
+  - Spittlebugs
+  - Wireworm
+  - Leaf Blight
 growth_habit: Warm-season bunchgrass; tall culms; turkeyfoot seed heads; deep roots
 data_quality_score: 0.85

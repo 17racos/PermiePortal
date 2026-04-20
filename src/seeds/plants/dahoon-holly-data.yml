@@ -24,21 +24,19 @@ description: |-
   Native component of swamps, pond margins, and flatwoods edges. If you have a rain garden that pretends to be a lawn, this is closer to honesty.
 
   Sun and water: Full sun to part shade; tolerates wet soils and periodic inundation better than most hollies. Mulch and organic soil help in sandy drought pockets.
-  ✂️ Propagation:
+
   Seeds require patience (dioecious—need male pollen near females for berries); cuttings and nursery liners are the practical route.
 
-  🌾 Harvest / Best Use Timing:
-  - Native wildlife timing matters more than human harvest -- berries support birds; leave plenty.
-  - If collecting for restoration projects, take only from known-safe sites and legal permission contexts.
-  - Prune for structure in cool months; hollies resent torn bark summer pruning.
+  Native wildlife timing matters more than human harvest -- berries support birds; leave plenty. If collecting for restoration projects, take only from known-safe sites and legal permission contexts. Prune for structure in cool months; hollies resent torn bark summer pruning.
 purpose: |-
   Wildlife Attractor: Female Ilex cassine trees bear red drupes through lean winter weeks for robins, waxwings, and migrants -- plant known females with a male for pollination.
   Ornamental: Native evergreen holly reads clean in rain gardens and pond margins with glossy leaves and bright fruit -- wetland aesthetic without exotic hedge clones.
-  Windbreaker: Multi-stem clumps blunt wind and sight lines along swales and stormwater basins where herbaceous plants would lodge or rot.
+  Windbreaker: Multi-stem clumps blunt wind and sight lines along swales and stormwater basins -- where herbaceous plants would lodge or rot.
 companions:
-- Buttonbush
-- Red maple
-- Wax myrtle
+- slug: buttonbush
+  name: Buttonbush
+- slug: wax-myrtle
+  name: Wax Myrtle
 cautions:
 - Bone-dry exposed dunes without irrigation
 - Assuming every seedling will berry (check sex or buy known females with a male nearby)
@@ -48,3 +46,7 @@ pests:
 - spider mites
 growth_habit: Multi-trunked large shrub to small tree; often in wet sites
 data_quality_score: 0.75
+companions_unresolved:
+- name: Red Maple
+  original: Red maple
+  note: normalization_target_not_in_index

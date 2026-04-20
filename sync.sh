@@ -33,6 +33,12 @@ fi
 
 python3 "$CONVERTER"
 
+# Re-resolve companions after every sync — new plants auto-promote from unresolved
+python3 "$PROJECT/resolve_companions.py" 2>&1 | grep -E "RESOLVED|NORMALIZED|Files changed|not found" || true
+
+# Re-resolve companions after every sync — new plants auto-promote from unresolved
+python3 "$PROJECT/resolve_companions.py" 2>&1 | grep -E "RESOLVED|NORMALIZED|Files changed|not found" || true
+
 echo ""
 echo -e "${GREEN}================================${NC}"
 echo -e "${GREEN}✅ Sync complete${NC}"

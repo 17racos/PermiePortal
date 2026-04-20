@@ -23,13 +23,10 @@ plant_function:
 description: |-
   Lantana is a perennial flowering shrub native to Central and South America, growing between 0.3 to 1.8 meters (1-6 feet) tall. It features clusters of small, brightly colored flowers that can change hues as they mature, attracting butterflies, bees, and hummingbirds. The leaves are coarse, lightly toothed, and emit a pungent scent when crushed. Lantana is highly adaptable, tolerating heat, drought, and salt, making it suitable for various landscapes. However, in certain regions, it is considered invasive due to its rapid growth and ability to outcompete native vegetation.
 
-  🌞💧 Sun and Water Requirements:
   Thrives in full sun, requiring at least six hours of direct sunlight daily. Prefers well-drained soil and is drought-tolerant once established. Overwatering should be avoided to prevent root rot.
 
-  ✂️🫘 Methods to Propagate:
   Propagated through seeds or semi-hardwood cuttings. Seeds should be sown in warm conditions, while cuttings taken in late spring or early summer can root in moist, well-draining soil.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
   While lantana is primarily ornamental, if harvesting for decorative purposes or traditional uses, collect flowers when in full bloom. Note: All parts of the plant are toxic if ingested; handle with care.
 purpose: |-
   Pollinator: Lantana camara flower heads change color as they age, signaling nectar status to butterflies and skippers -- mass drifts because hummingbirds and hawkmoths cruise for volume, not singleton stems.
@@ -37,9 +34,8 @@ purpose: |-
   Ground Cover: Trailing cultivars knit hot, dry banks where turf fails -- still plan editing because stems root where tips touch soil.
   Border Plant: Mounding types edge paths with continuous bloom -- all parts are toxic if eaten, so site away from toddler forage curricula and pet chew toys.
 companions:
-- Marigold
-- Salvia
-- Coneflower
+- slug: marigold
+  name: Marigold
 cautions:
 - None specified
 pests:
@@ -49,3 +45,8 @@ pests:
 - Lace Bugs
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Salvia
+  original: Salvia
+- name: Coneflower
+  original: Coneflower

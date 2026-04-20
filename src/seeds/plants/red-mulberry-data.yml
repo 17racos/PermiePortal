@@ -2,7 +2,7 @@ common_name: Red Mulberry
 picture: red_mulberry.webp
 scientific_name: Morus rubra
 aka:
-- American mulberry
+  - American mulberry
 family: Moraceae
 zone: 4-9
 ideal_temp_min: 55
@@ -11,50 +11,41 @@ min_temp: -25
 max_temp: 102
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Edible
-- Wildlife Attractor
-- Shade Provider
-- Animal Fodder
+  - Edible
+  - Wildlife Attractor
+  - Shade Provider
+  - Animal Fodder
 description: |-
   Red mulberry (Morus rubra) is a fast-growing deciduous tree native to eastern North America, bearing dark sweet fruits that stain fingers and sidewalks with equal enthusiasm. Variable leaves may be mitten-lobed; bark becomes chunky with age. It is a resilient yard tree for poultry runs, food forests, and silvopasture edges where messy fruit is a feature, not a liability.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun for heaviest fruiting; tolerates partial shade with fewer berries.
-  - Moderate moisture; drought tolerant once established but fruits better with even water.
-  - Adaptable soils; tolerates clay, sand, and urban edges better than many fruit trees.
+  Full sun for heaviest fruiting; tolerates partial shade with fewer berries. Moderate moisture; drought tolerant once established but fruits better with even water. Adaptable soils; tolerates clay, sand, and urban edges better than many fruit trees.
 
-  ✂️ Propagation:
-  - Seeds: sow fresh after pulp removal; stratify if storing.
-  - Hardwood cuttings root with bottom heat.
-  - Graft named selections if you found a truly superior wild tree.
+  Seeds: sow fresh after pulp removal; stratify if storing. Hardwood cuttings root with bottom heat. Graft named selections if you found a truly superior wild tree.
 
-  🌾 Harvest / Best Use Timing:
-  - Pick when berries release easily and stain deep purple—taste before buckets, flavor varies by tree.
-  - Process quickly into jam, wine, or dried fruit; ripe mulberries wait for no one.
-  - Prune for clearance under branches if paths or vehicles dislike purple rain.
+  Pick when berries release easily and stain deep purple—taste before buckets, flavor varies by tree. Process quickly into jam, wine, or dried fruit; ripe mulberries wait for no one. Prune for clearance under branches if paths or vehicles dislike purple rain.
 purpose: |-
   Edible: Morus rubra black-red syncarps sweeten fully when soft and stain fingers like wine must -- eat fresh, dry as “mulberry raisins,” or boil into syrup; white-fruited seedlings happen; label mother trees you like for grafting.
   Wildlife Attractor: Catkins feed silk moths; ripe fruit feeds cedar waxwings, raccoons, and foxes faster than humans pick -- accept purple sidewalk art or sheet mulch drops unless you net scaffolds.
   Shade Provider: Fast 10–20 m broad crown cools chicken runs, pig paddocks, and understory pawpaw guilds within a few seasons -- winter silhouette stays open enough for spring solar gain on dormant beds.
   Animal Fodder: Fallen fruit cleans paddocks of flies while feeding pigs and poultry extra calories -- rotate species through drip line to avoid compaction and phytophthora from constant pugging on wet clay.
 companions:
-- Pawpaw — shade-tolerant understory fruiting tree beneath open mulberry canopies
-  on rich sites
-- American Elderberry — earlier bloom and different fruiting window diversify pollinator
-  and bird support
-- Southern Hackberry — native canopy partner sharing edge ecology without identical
-  pest timing
+  - slug: pawpaw
+    name: Pawpaw
+  - slug: american-elderberry
+    name: American Elderberry
+  - slug: sugar-hackberry
+    name: Sugar Hackberry
 cautions:
-- None documented
+  - None documented
 pests:
-- Cuban Laurel Thrips
-- Fig Beetle
-- Japanese Beetles
-- Scale Insects
-- Whiteflies
-- mealybugs
+  - Cuban Laurel Thrips
+  - Fig Beetle
+  - Japanese Beetles
+  - Scale Insects
+  - Whiteflies
+  - mealybugs
 growth_habit: Fast-growing deciduous tree with broad crown and often zigzag twigs
 data_quality_score: 0.78
 field_observations: No field observations yet

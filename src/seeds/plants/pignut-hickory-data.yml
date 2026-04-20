@@ -2,7 +2,7 @@ common_name: Pignut Hickory
 picture: pignut_hickory.webp
 scientific_name: Carya glabra
 aka:
-- []
+  - []
 family: Juglandaceae
 zone: 4-9
 ideal_temp_min: 60
@@ -11,33 +11,37 @@ min_temp: -25
 max_temp: 104
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Wildlife Attractor
-- Shade Provider
-- Erosion Control
+  - Wildlife Attractor
+  - Shade Provider
+  - Erosion Control
 description: |-
   Pignut Hickory (Carya glabra) is a useful perennial species in the Juglandaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a tree form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.
 
-  ☀️💧 Sun and Water Requirements:
   Best performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 60°F (16°C) and 88°F (31°C), with stress rising near 104°F (40°C).
 
-  ✂️ Propagation:
   Direct seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.
 
-  🌾 Harvest / Best Use Timing:
   Harvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.
 purpose: |-
   Wildlife Attractor: Small Carya glabra nuts feed squirrels, blue jays, and wild turkeys willing to hammer thin shells; mast years pulse fat reserves for winter birds -- humans rarely bother the bitter pignuts except as survival forage.
   Shade Provider: Tall straight trunk and ascending limbs cast high dappled shade over dry upland oak-hickory understory -- pawpaw and serviceberry tolerate the filtered light while taproot mines different soil horizons.
   Erosion Control: Deep taproot and coarse lateral roots anchor ridge-top sand and shale barrens where shallow-rooted pines slip -- leaf litter builds duff that slows sheet erosion across decades.
-companions:
-- Bluestem Grass - supports soil cover on dry upland sites.
-- Serviceberry - woodland edge companion with staggered resource use.
-- Goldenrod - late-season pollinator support beneath open crowns.
+companions: []
 cautions:
-- Apple - juglone sensitivity can reduce nearby tree performance.
+  - Apple - juglone sensitivity can reduce nearby tree performance.
 pests:
-- Pecan Weevil
-- Hickory Shuckworm
-- Eastern Tent Caterpillar
+  - Pecan Weevil
+  - Hickory Shuckworm
+  - Eastern Tent Caterpillar
+companion_categories:
+  - name: Bluestem Grass - supports soil cover on dry upland sites.
+    original: Bluestem Grass - supports soil cover on dry upland sites.
+    type: system
+  - name: Serviceberry - woodland edge companion with staggered resource use.
+    original: Serviceberry - woodland edge companion with staggered resource use.
+    type: system
+  - name: Goldenrod - late-season pollinator support beneath open crowns.
+    original: Goldenrod - late-season pollinator support beneath open crowns.
+    type: system

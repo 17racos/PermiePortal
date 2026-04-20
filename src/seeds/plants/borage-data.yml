@@ -29,36 +29,30 @@ description: |-
 
   The plant thrives in a variety of soil conditions but prefers well-drained, sandy, or loamy soils. It is drought-tolerant once established and self-seeds prolifically, making it an easy-to-grow addition to gardens, food forests, and medicinal herb beds.
 
-   🌞💧 Sun and Water Requirements:
-  - Prefers full sun but tolerates partial shade.
-  - Grows well in well-drained, moderately fertile soil.
-  - Requires moderate watering but is drought-tolerant once established.
+  Prefers full sun but tolerates partial shade. Grows well in well-drained, moderately fertile soil. Requires moderate watering but is drought-tolerant once established.
 
-  ✂️🫘 Methods to Propagate:
-  - Seeds: Direct sow in early spring or late summer; germinates quickly in warm soil.
-  - Self-seeding: Readily self-seeds, often returning year after year in favorable conditions.
-  - Transplanting: Can be transplanted when young, but prefers direct sowing.
+  Seeds: Direct sow in early spring or late summer; germinates quickly in warm soil. Self-seeding: Readily self-seeds, often returning year after year in favorable conditions. Transplanting: Can be transplanted when young, but prefers direct sowing.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
-  - Leaves can be harvested at any time for culinary or medicinal use.
-  - Flowers should be harvested fresh when fully open for the best flavor.
-  - Seeds mature in late summer and can be collected for future planting.
+  Leaves can be harvested at any time for culinary or medicinal use. Flowers should be harvested fresh when fully open for the best flavor. Seeds mature in late summer and can be collected for future planting.
 purpose: |-
   Edible: Cucumber-flavored young leaves and electric-blue flowers drop into Pimm’s cups and goat cheese salads -- bristly hairs mean small dice or use mostly flowers for texture-sensitive guests.
   Medicinal: Seed oil is the GLA commerce source -- home use stays with leaf tea traditions for “cooling” inflammation comfort; pregnancy and liver medication lists still apply to concentrated seed oil products.
   Pollinator: Nectar refills every few minutes in peak sun -- honeybees work borage in shifts; place upwind of strawberries if you want measurable pollinator traffic lift in observation hives.
   Wildlife Attractor: Hoverfly density on one ten-foot row can outnumber adjacent beds without blue stars -- those same hoverflies hunt aphids on nearby brassica starts.
-  Mulcher: Frost-killed skeletons crumble fast when mowed into paths; summer prunings wilt to slimy layer in three hot days if mixed with dry straw.
+  Mulcher: Frost-killed skeletons crumble fast when mowed into paths -- summer prunings wilt to slimy layer in three hot days if mixed with dry straw.
   Dynamic Accumulator: Potassium in dried leaf tissue runs higher than lettuce from the same soil test batch -- chop-and-drop under fruiting tomatoes is the cheap redistribution method.
-  Erosion Control: Taproot punches through compacted corners of annual beds where shovels bounced last spring; pulls out clean at end of season for compost.
+  Erosion Control: Taproot punches through compacted corners of annual beds where shovels bounced last spring -- pulls out clean at end of season for compost.
   Border Plant: Self-seeded volunteers mark compost-rich zones honestly -- pull extras where they shade slow carrots, keep giants next to corn where height helps nothing get lost.
   Pest Management: Aphids will land on borage first some years -- that concentration is scouting signal, not failure, when you release or attract predators the same week.
 companions:
-- Tomato
-- Strawberry
-- Squash
-- Cabbage
-- Cucumber
+- slug: tomato
+  name: Tomato
+- slug: strawberry
+  name: Strawberry
+- slug: cabbage
+  name: Cabbage
+- slug: cucumber
+  name: Cucumber
 cautions:
 - None known
 pests:
@@ -67,3 +61,6 @@ pests:
 growth_habit: Tree
 data_quality_score: 0.8
 field_observations: No field observations yet
+companions_unresolved:
+- name: Squash
+  original: Squash

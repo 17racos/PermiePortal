@@ -20,13 +20,10 @@ plant_function:
 description: |-
   Beaked hazelnut (Corylus cornuta) is a cold-hardy deciduous shrub of northern and montane North America, recognizable by elongated leafy husks that project like a beak beyond the small nut. Plants form thickets roughly 6–15 feet (2–4.5 m) in sunnier openings or woodland edges, flowering in very early spring when catkins shed pollen on wind. The nuts are prized by wildlife and patient humans, fitting hedgerows, forest gardens, and slope stabilization projects in cool-temperate climates.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun to partial shade; best nut production with strong light. Prefers moist, well-drained, humus-rich soils; tolerates rocky slopes and cold winters far better than heat. Mulch to protect shallow roots; drought during kernel fill reduces quality.
 
-  ✂️ Propagation:
   Sow fresh nuts after cold stratification or outdoors in rodent-excluding beds. Layer low stems to ground; separate rooted shoots after one growing season. Dig suckers with roots in early spring.
 
-  🌾 Harvest / Best Use Timing:
   Collect when husks begin to brown and nuts loosen inside, typically late summer to fall in northern areas. Dry before storage; roast to improve flavor and shelling. Expect heavy losses to jays and squirrels unless you time harvest aggressively.
 purpose: |-
   Edible: Corylus cornuta nuts hide inside long leafy beaks that strip away to reveal small sweet kernels after roasting -- shell ratio keeps humans humble, so plant thickets for bowl-scale harvests.
@@ -34,15 +31,22 @@ purpose: |-
   Erosion Control: Suckering clumps knit rocky forest road cuts and lake bluffs where shallow soil would not hold larger trees -- shade-tolerant stems resprout after mechanical bruising if cambium stays attached.
   Mulcher: Hazel leaves decay into fungal duff that matches birch-aspen edges -- rake only where mats smother spring trillium you value more than tidiness.
 companions:
-- Paper Birch — light canopy and shared mycorrhizal networks on cool slopes
-- Highbush Blueberry — acidic organic understory without overshading hazels
-- Wild Strawberry — ground cover that tolerates nut drop and seasonal shade
+- slug: highbush-blueberry
+  name: Highbush Blueberry
+- slug: paper-birch
+  name: Paper Birch
+- slug: wild-strawberry
+  name: Wild Strawberry
 cautions:
-- Eastern Filbert Blight — less susceptible than some Corylus avellana cultivars but
-  not immune; scout cankers
+- Eastern Filbert Blight — less susceptible than some Corylus avellana cultivars but not immune; scout cankers
 - Competing turf right to the trunk — mower damage and vole cover increase risk
 pests:
 - Japanese Beetles
 - Borers
 growth_habit: Suckering deciduous shrub; long-beaked husks; early catkins
 data_quality_score: 0.85
+companions_unresolved:
+- name: Paper Birch
+  original: Paper Birch — light canopy and shared mycorrhizal networks on cool slopes
+- name: Wild Strawberry
+  original: Wild Strawberry — ground cover that tolerates nut drop and seasonal shade

@@ -22,19 +22,13 @@ plant_function:
 description: |-
   Psidium guajava is the backyard workhorse of subtropical fruit: scrappy enough for warm-margin microclimates if you dodge the worst freezes, absurdly productive once happy, and beloved by every fruit fly within county lines. Fragrant flowers, rough bark, and fruit that runs from white to pink pulp depending on cultivar.
 
-  ☀️💧 Sun and Water Requirements:
-
   Full sun for heaviest fruiting; young plants appreciate light shade during brutal heat.
   Deep, well-drained soil; steady moisture in fruit fill, but not boggy roots.
   Mulch hard to buffer soil temps and cut weed competition.
 
-  ✂️ Propagation:
-
   Seeds: fresh seed germinates quickly; offspring variable.
   Cuttings and air-layering: clone a known good cultivar — do not roll dice on seedling fruit quality.
   Grafted or named varieties from nurseries: fastest path to dessert.
-
-  🌾 Harvest / Best Use Timing:
 
   Pick when fruit gives slightly under gentle pressure and aroma develops — guavas are masters of the 'one day perfect, next day mush' timeline.
 purpose: |-
@@ -43,10 +37,12 @@ purpose: |-
   Windbreaker: Multiple stems and dense foliage take edge out of steady sea breezes when trained as a low tree -- protect young plants from desiccating wind until bark thickens.
   Mulcher: Rough, exfoliating bark and constant leaf shed give coarse chop-and-drop material under the drip line -- rake debris into guild beds instead of letting mats smother its own surface roots.
 companions:
-- Banana
-- Papaya
-- Legume Tree
-- Sweet Potato
+- slug: banana
+  name: Banana
+- slug: papaya
+  name: Papaya
+- slug: sweet-potato
+  name: Sweet Potato
 cautions:
 - Low frost pockets with no protection for young trees
 - Overhead irrigation that keeps foliage wet all night
@@ -62,3 +58,6 @@ pests:
 - Florida Wax Scale
 - Oleander Scale
 - Anthracnose
+companions_unresolved:
+- name: Legume Tree
+  original: Legume Tree

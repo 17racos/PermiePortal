@@ -2,8 +2,8 @@ common_name: Mountain Mint
 picture: mountain_mint.webp
 scientific_name: Pycnanthemum muticum
 aka:
-- Short-toothed mountain mint
-- Clustered mountain mint
+  - Short-toothed mountain mint
+  - Clustered mountain mint
 family: Lamiaceae
 zone: 4-8
 ideal_temp_min: 55
@@ -12,46 +12,37 @@ min_temp: -25
 max_temp: 98
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Edible
-- Pollinator
-- Pest Management
-- Wildlife Attractor
+  - Edible
+  - Pollinator
+  - Pest Management
+  - Wildlife Attractor
 description: |-
   Mountain mint here refers to Pycnanthemum muticum, a native eastern North American perennial mint relative with silvery bracts that look frosted even at noon. Stems are square, leaves aromatic, and late-summer flower heads pull in pollinators like a magnet. It is a workhorse edge plant for herb spirals, orchard understories, and insectary strips where aggressive true mints would cause regret.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun to light shade; tighter spacing and more sun yield stiffer, upright clumps.
-  - Moderate moisture; tolerates short drought once deep roots establish but blooms heavier with even water.
-  - Average garden soil; tolerates clay if drainage is not stagnant.
+  Full sun to light shade; tighter spacing and more sun yield stiffer, upright clumps. Moderate moisture; tolerates short drought once deep roots establish but blooms heavier with even water. Average garden soil; tolerates clay if drainage is not stagnant.
 
-  ✂️ Propagation:
-  - Division in spring or fall; replant vigorous outer ring pieces.
-  - Softwood cuttings in late spring root quickly under mist or humidity dome.
-  - Seeds: cold stratify; germination variable—division is faster for landscape use.
+  Division in spring or fall; replant vigorous outer ring pieces. Softwood cuttings in late spring root quickly under mist or humidity dome. Seeds: cold stratify; germination variable—division is faster for landscape use.
 
-  🌾 Harvest / Best Use Timing:
-  - Snip leafy flowering tops just as bracts color for tea or drying; aroma peaks before full brownout.
-  - Leave at least a third of stems for late pollinators and winter structure.
-  - Dry bundles upside down in shade with airflow to preserve volatile oils.
+  Snip leafy flowering tops just as bracts color for tea or drying; aroma peaks before full brownout. Leave at least a third of stems for late pollinators and winter structure. Dry bundles upside down in shade with airflow to preserve volatile oils.
 purpose: |-
   Edible: Silvery-bracted Pycnanthemum muticum tops snip into minty teas, syrups, and herb salts with a resin spike distinct from spearmint -- harvest before stems brown out completely if you want peak volatile-oil perfume in the dry rack.
   Pollinator: Tight white to lavender flower heads pack nectar accessible to small native bees, wasps, tachinid flies, and late-summer butterflies when goldenrods open nearby -- leave a third of stems uncut so insects finish fueling before frost.
   Pest Management: Crushed lamiaceous foliage releases monoterpenes that mask brassica host cues when bands are planted along vegetable rows -- best paired with scouting because scent helps confusion, not a force field against heavy infestations.
   Wildlife Attractor: Insect traffic on mint heads pulls warblers, flycatchers, and chickadees to hunt along hedgerow edges -- position clumps where you can watch the aerial feeding frenzy without shading sun-hungry crops flat.
 companions:
-- Rattlesnake Master — contrasting texture in sunny pollinator beds with overlapping
-  bloom periods
-- Narrowleaf Sunflower — yellow composite heads pair with silver bracts for late-season
-  display
-- Roughleaf Dogwood — shrub backdrop defines the insectary border without shading
-  mint flat
+  - slug: rattlesnake-master
+    name: Rattlesnake Master
+  - slug: swamp-sunflower
+    name: Swamp Sunflower
+  - slug: roughleaf-dogwood
+    name: Roughleaf Dogwood
 cautions:
-- None documented
+  - None documented
 pests:
-- Aphids
-- Spider Mites
-- Whiteflies
+  - Aphids
+  - Spider Mites
+  - Whiteflies
 growth_habit: Upright clumping perennial herb spreading slowly by short rhizomes
 data_quality_score: 0.78

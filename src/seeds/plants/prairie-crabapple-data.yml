@@ -2,8 +2,8 @@ common_name: Prairie Crabapple
 picture: prairie_crabapple.webp
 scientific_name: Malus ioensis
 aka:
-- Iowa Crab
-- Wild Sweet Crabapple
+  - Iowa Crab
+  - Wild Sweet Crabapple
 family: Rosaceae
 zone: 4-8
 ideal_temp_min: 35
@@ -12,22 +12,19 @@ min_temp: -35
 max_temp: 100
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Edible
-- Wildlife Attractor
-- Pollinator
-- Border Plant
+  - Edible
+  - Wildlife Attractor
+  - Pollinator
+  - Border Plant
 description: |-
   Prairie crabapple (Malus ioensis) is a small native tree of central North American prairies and savannas, famous for fragrant pink spring blossoms and small yellow-green fruit that hangs into winter for birds. Heights of 15–25 feet (4.5–7.5 m) are typical, often with a broad crown and occasional thorns on wild forms. It is a hardy rootstock candidate, hedgerow anchor, and pollinizer for orchard apples where cross-compatibility is confirmed.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun for best flowering and fruiting; tolerates light shade with fewer blooms. Average to moist, well-drained soils suit it; tolerates clay if drainage is not stagnant. Mulch to reduce grass competition while young; deep watering speeds establishment in dry years.
 
-  ✂️ Propagation:
   Sow stratified seed; seedlings vary in thorniness and fruit quality. Graft cultivars onto seedling roots for predictable ornament or fruit. Prune for an open vase shape to improve airflow and reduce scab pressure.
 
-  🌾 Harvest / Best Use Timing:
   Fruit is small and tart—jelly, pectin, and wildlife food are honest uses. Pick after color ripens and before complete bird depredation if humans want a share. Bloom timing tracks local spring warmth after hard freezes near 24°F (-4°C) risk passes.
 purpose: |-
   Edible: Malus ioensis small yellow-green pomes run tart-astringent straight off the tree but cook into high-pectin jelly and cider vinegar once sugar and acid tests match your palate -- not a dessert apple; think hedgerow utility.
@@ -35,50 +32,51 @@ purpose: |-
   Pollinator: Profuse spring bloom overlaps orchard apples for shared pollinizer service where compatibility tests say yes -- still verify graft compatibility before topworking commercial scions onto wild-type thorn seedlings.
   Border Plant: 4–7 m rounded crowns mark savanna fencelines and windbreak understories without shading entire hay fields -- thorny wild forms need path planning before kids learn shortcuts through the row.
 companions:
-- Wild Plum — thicket neighbor extending fruit succession and pollinizer overlap
-- Serviceberry — earlier bloom sequence in the same edge guild
-- Pale Purple Coneflower — forb layer beneath open canopy where light still reaches
-  ground
+  - slug: american-plum
+    name: American Plum
+  - slug: serviceberry
+    name: Serviceberry
+  - slug: pale-purple-coneflower
+    name: Pale Purple Coneflower
 cautions:
-- Fire Blight — prune strikes in dry weather; sanitize tools between cuts
-- Thorny wild forms — plan paths before planting seedling lottery surprises
+  - Fire Blight — prune strikes in dry weather; sanitize tools between cuts
+  - Thorny wild forms — plan paths before planting seedling lottery surprises
 pests:
-- Apple Maggot
-- Apple Scab
-- Bagworm
-- Blackberry Psyllid
-- Cherry Fruit Fly
-- Codling Moth
-- Cyclamen Mite
-- Fall Webworm
-- Japanese Beetles
-- Lesser Peachtree Borer
-- Oriental Fruit Fly
-- Oriental Fruit Moth
-- Peach Twig Borer
-- Peachtree Borer
-- Pear Psylla
-- Plum Curculio
-- Raspberry Beetle
-- Raspberry Cane Borer
-- Rose Slug
-- Sparganothis Fruitworm
-- Spittlebugs
-- Stink Bug
-- Strawberry Root Weevil
-- Twig Girdlers
-- Vine Weevil
-- Brown Rot
-- Fire Blight
-- Gall Mite
-- Leaf Blight
-- Leaf Spot
-- Rust Mite
-- Spotted Lanternfly
-- Brown Marmorated Stink Bug
-- Eastern Tent Caterpillar
-- Harlequin Ladybird
-- Tent Caterpillar
-growth_habit: Small deciduous tree; fragrant pink bloom; small persistent crabapples;
-  savanna and prairie edge
+  - Apple Maggot
+  - Apple Scab
+  - Bagworm
+  - Blackberry Psyllid
+  - Cherry Fruit Fly
+  - Codling Moth
+  - Cyclamen Mite
+  - Fall Webworm
+  - Japanese Beetles
+  - Lesser Peachtree Borer
+  - Oriental Fruit Fly
+  - Oriental Fruit Moth
+  - Peach Twig Borer
+  - Peachtree Borer
+  - Pear Psylla
+  - Plum Curculio
+  - Raspberry Beetle
+  - Raspberry Cane Borer
+  - Rose Slug
+  - Sparganothis Fruitworm
+  - Spittlebugs
+  - Stink Bug
+  - Strawberry Root Weevil
+  - Twig Girdlers
+  - Vine Weevil
+  - Brown Rot
+  - Fire Blight
+  - Gall Mite
+  - Leaf Blight
+  - Leaf Spot
+  - Rust Mite
+  - Spotted Lanternfly
+  - Brown Marmorated Stink Bug
+  - Eastern Tent Caterpillar
+  - Harlequin Ladybird
+  - Tent Caterpillar
+growth_habit: Small deciduous tree; fragrant pink bloom; small persistent crabapples; savanna and prairie edge
 data_quality_score: 0.81

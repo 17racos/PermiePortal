@@ -2,8 +2,8 @@ common_name: Yerba Mate
 picture: yerba_mate.webp
 scientific_name: Ilex paraguariensis
 aka:
-- Mate
-- Paraguayan holly
+  - Mate
+  - Paraguayan holly
 family: Aquifoliaceae
 zone: 9-11
 ideal_temp_min: 55
@@ -12,30 +12,21 @@ min_temp: 15
 max_temp: 100
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Edible
-- Medicinal
-- Wildlife Attractor
-- Shade Provider
-- Border Plant
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  - Shade Provider
+  - Border Plant
 description: |-
   Yerba mate (Ilex paraguariensis) is an evergreen tree to large shrub of Atlantic forests in South America, grown for dried leaves brewed into mate—a caffeinated, theobromine-carrying drink with deep cultural roots far beyond ‘trend tea.’ Leaves are leathery, lightly toothed, and harvestable once plants size up; young plants look like polite holly cousins until trunks thicken. In humid subtropical sites it appreciates acidic, well-drained soil, dappled to full sun transitions, and honest air movement to reduce foliar funk.
 
-  ☀️💧 Sun and Water Requirements:
-  - Young plants often favor partial shade; mature trees accept more sun where roots can explore moisture.
-  - Consistent moisture without swamp conditions; mulch keeps roots cool in heat.
-  - Protect from hard freezes when young; mature specimens tolerate brief dips better with site protection.
+  Young plants often favor partial shade; mature trees accept more sun where roots can explore moisture. Consistent moisture without swamp conditions; mulch keeps roots cool in heat. Protect from hard freezes when young; mature specimens tolerate brief dips better with site protection.
 
-  ✂️ Propagation:
-  - Seeds need fresh sowing and patience—germination can be slow and variable.
-  - Cuttings from semi-hardwood can clone known selections when humidity is managed.
-  - Air-layering works for backyard propagation of proven trees.
+  Seeds need fresh sowing and patience—germination can be slow and variable. Cuttings from semi-hardwood can clone known selections when humidity is managed. Air-layering works for backyard propagation of proven trees.
 
-  🌾 Harvest / Best Use Timing:
-  - Harvest leaves on a rotation that leaves enough canopy for recovery—this is a tree crop, not basil.
-  - Dry with airflow to prevent mold; mate flavor depends on clean fermentation and drying steps if you go traditional.
-  - Store dried leaf like tea: airtight, dark, away from spice-cabinet chaos.
+  Harvest leaves on a rotation that leaves enough canopy for recovery—this is a tree crop, not basil. Dry with airflow to prevent mold; mate flavor depends on clean fermentation and drying steps if you go traditional. Store dried leaf like tea: airtight, dark, away from spice-cabinet chaos.
 purpose: |-
   Edible: Ilex paraguariensis leaves dry-roast into mate with caffeine plus theobromine -- traditional processing includes blanching and aging steps for flavor.
   Medicinal: Guaraná-class stimulant profile -- anxiety, insomnia, and MAOI interactions are real; treat like tea, not a supplement stack.
@@ -43,17 +34,17 @@ purpose: |-
   Shade Provider: 15 m evergreen umbrella suits banana and ginger understory in humid subtropics -- air movement prevents fungal sulk.
   Border Plant: Row-plant on 3 m centers for leaf harvest -- width matches eventual buttressed trunks, not one-year wishful spacing.
 companions:
-- Banana — fast herbaceous shade and leaf litter while mate is young; manage banana
-  vigor so it does not smother the holly.
-- Moringa — seasonal light partner if coppiced responsibly; avoid permanent shade
-  wars.
-- Elderberry — edge shrub with different bloom timing; shares hedgerow culture without
-  sharing pests one-to-one.
+  - slug: banana
+    name: Banana
+  - slug: moringa
+    name: Moringa
+  - slug: elderberry
+    name: Elderberry
 cautions:
-- None documented
+  - None documented
 pests:
-- Aphids
-- Scale Insects
-- Spider Mites
+  - Aphids
+  - Scale Insects
+  - Spider Mites
 growth_habit: Evergreen tree to large shrub; dense branching when tip-pruned for leaf
 data_quality_score: 0.82

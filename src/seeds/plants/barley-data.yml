@@ -10,47 +10,36 @@ min_temp: -30
 max_temp: 0
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Edible
-- Animal Fodder
-- Biomass
-- Erosion Control
+  - Edible
+  - Animal Fodder
+  - Biomass
+  - Erosion Control
 description: |-
   Barley (Hordeum vulgare) is a cool-season cereal grain grown for its edible kernels and its tough, carbon-rich straw. It is native to the Fertile Crescent region and related areas in Southwest Asia, and it now thrives across temperate climates worldwide. Plants typically grow about 60–120 cm (24–47 in) tall and form upright heads that fill a field with grain and residue. In permaculture, barley is a “two-for-one” tool: food and fodder up top, mulch and soil armor below, plus a rotation partner that keeps bare ground from turning into erosion training.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun for best yields; partial shade reduces head weight.
-  - Moderate water during germination and early growth, then taper as plants mature.
-  - Prefers fertile, well-drained loam; heavy wet soil increases seedling losses.
-  - Handles cool weather well, but hates heat spikes during flowering and grain fill.
+  Full sun for best yields; partial shade reduces head weight. Moderate water during germination and early growth, then taper as plants mature. Prefers fertile, well-drained loam; heavy wet soil increases seedling losses. Handles cool weather well, but hates heat spikes during flowering and grain fill.
 
-  ✂️ Propagation:
-  - Seeds (spring sow): direct-seed after soil warms to roughly 45–55°F (7–13°C); germination commonly occurs in 4–7 days.
-  - Seeds (fall/winter cover): sow before winter for an overwintering cover crop in mild-winter climates; expect spring regrowth and green biomass.
-  - Sow thick for mulch: you’ll get faster ground coverage and better weed suppression.
+  Seeds (spring sow): direct-seed after soil warms to roughly 45–55°F (7–13°C); germination commonly occurs in 4–7 days. Seeds (fall/winter cover): sow before winter for an overwintering cover crop in mild-winter climates; expect spring regrowth and green biomass. Sow thick for mulch: you’ll get faster ground coverage and better weed suppression.
 
-  🌾 Harvest / Best Use Timing:
-  - Grain: harvest when heads are mature and kernels are dry to hard (often late spring to early summer).
-  - Straw/mulch: cut straw when grain is in the dough stage so residues still break down well.
-  - Green fodder: for fresh biomass, cut young barley about 30–45 days after sowing.
+  Grain: harvest when heads are mature and kernels are dry to hard (often late spring to early summer). Straw/mulch: cut straw when grain is in the dough stage so residues still break down well. Green fodder: for fresh biomass, cut young barley about 30–45 days after sowing.
 purpose: |-
   Edible: Hordeum vulgare six-row and two-row types malt for beer or simmer as pearled grain while hull-less forms suit quick soups -- heads mature dry when awns yellow and grain dents under thumbnail, not when stalks still juice green.
   Animal Fodder: Awned straw softens in ammoniated balage for cattle while whole heads with screenings fatten poultry scratch -- watch ergot in humid flowering years before feeding bulk grain.
   Biomass: Carbon-heavy stubble after combine passes feeds no-till soybeans or squash when crimped on schedule -- straw rots faster than oak chips, so layer thinner under fruit trees.
   Erosion Control: Fibrous crown roots hold winter cover-crop slopes until warm-season perennials anchor -- spring barley on berms catches March rains that would sheet off bare subsoil after citrus picks.
 companions:
-- Comfrey (Symphytum officinale) — deep roots bring minerals up; chopped comfrey complements
-  barley straw as a nitrogen/carbon balance.
-- Pea (Pisum sativum) — pairs in rotation windows; peas add nitrogen to reduce barley’s
-  fertilizer hunger.
-- Potato (Solanum tuberosum) — barley straw can become a weed-smothering mulch before
-  potato planting.
+  - slug: comfrey
+    name: Comfrey
+  - slug: pea
+    name: Pea
+  - slug: potato
+    name: Potato
 cautions:
-- Avoid continuous planting of cereal crops; rotation helps reduce buildup of grass
-  diseases and residue-borne pests.
+  - Avoid continuous planting of cereal crops; rotation helps reduce buildup of grass diseases and residue-borne pests.
 pests:
-- Aphids
-- Borers
-- Root Rot
-- Caterpillars
+  - Aphids
+  - Borers
+  - Root Rot
+  - Caterpillars

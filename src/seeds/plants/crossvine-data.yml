@@ -20,31 +20,29 @@ plant_function:
 description: |-
   Crossvine (Bignonia capreolata) is a woody, semi-evergreen climber of the trumpet-creeper alliance, native to wooded floodplains and moist slopes across much of the eastern and central United States into northeastern Mexico. It climbs by tendrils with adhesive disks, reaching the sub-canopy on trunks and fences, and opens showy orange-red tubular flowers in late cool-season to warm-season flushes that hummingbirds notice. Mature vines develop shaggy bark and a calm, forest-garden presence—useful for vertical structure without the brittle formality of generic ornamental walls.
 
-  ☀️💧 Sun and Water Requirements:
    Full sun to partial shade; best flowering with at least half-day sun. Prefers moist, fertile, well-drained soils but tolerates periodic dry spells once established. Not a true bog plant—avoid standing water around the crown. Young growth can burn in desiccating wind; site with some shelter in arid microclimates.
 
-  ✂️ Propagation:
   Semi-hardwood cuttings in warm, humid conditions root reliably with bottom heat.
   Layer low stems where they touch soil and sever rooted layers the following season.
 
-  🌾 Harvest / Best Use Timing:
   Bloom peaks vary by climate; enjoy flowers and hummingbird traffic as the primary yield. Prune after major flowering to control size on trellises; avoid heavy shearing that removes next season's buds on some forms.
 purpose: |-
   Wildlife Attractor: Bignonia capreolata's orange-red tubular flowers feed hummingbirds -- woody stems give small birds cover along forest edges and fences.
-  Pollinator: Nectar-rich trumpets open in late cool-season to warm-season flushes for long-tongued bees and hawkmoths where ranges overlap.
-  Ornamental: Showy blooms and shaggy bark dress pergolas, snags, and mesh trellises without brittle English ivy formality.
-  Erosion Control: Tendrils with adhesive disks grip wire fences and rough banks, slowing sheet flow on vertical structures you intend to vegetate.
+  Pollinator: Nectar-rich trumpets open in late cool-season to warm-season flushes for long-tongued bees and hawkmoths -- where ranges overlap.
+  Ornamental: Showy blooms and shaggy bark dress pergolas, snags, and mesh trellises -- without brittle English ivy formality.
+  Erosion Control: Tendrils with adhesive disks grip wire fences and rough banks -- slowing sheet flow on vertical structures you intend to vegetate.
 companions:
-- Eastern Redbud — understory pink blooms contrast timing with crossvine's later tubular
-  show
-- American Wisteria — another native twiner; stagger pruning so one partner is not
-  stripped bare each year
-- Oak — rough bark accepts tendrils; high branches carry flowers at hummingbird height
+- slug: eastern-redbud
+  name: Eastern Redbud
+- slug: wisteria
+  name: Wisteria
 cautions:
-- Black Walnut — juglone-sensitive plants nearby may struggle; crossvine is often
-  more tolerant than herbaceous companions, but guild design still matters
+- Black Walnut — juglone-sensitive plants nearby may struggle; crossvine is often more tolerant than herbaceous companions, but guild design still matters
 pests:
 - Scale Insects
 - Spider Mites
 growth_habit: Woody vine; tendrils with adhesive tips; trumpet flowers in clusters
 data_quality_score: 0.85
+companions_unresolved:
+- name: Oak
+  original: Oak — rough bark accepts tendrils; high branches carry flowers at hummingbird height

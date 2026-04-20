@@ -18,28 +18,19 @@ layers:
 - Herbaceous
 plant_function:
 - Nitrogen Fixer
-- Green Manure
 - Ornamental
 description: |-
   Rattlebox (*Crotalaria spectabilis*) is an annual herbaceous plant in the Fabaceae family, known for its vibrant yellow flowers and distinctive seed pods that rattle when shaken. It typically grows to a height of 1.2 to 1.5 meters (4 to 5 feet) with erect, ridged stems covered in short hairs. The leaves are simple, obovate, and alternately arranged, measuring 3.3 to 9.2 centimeters in length and 1 to 3.8 centimeters in width. Flowering occurs from August to November, producing bright yellow blooms that attract various pollinators. The plant thrives in full sun and prefers sandy, well-drained soils. Propagation is primarily through seeds, which can be sown directly into the soil after the last frost. Harvesting for green manure purposes is best done before the plant sets seed to maximize nutrient content.
 
-  ✂️🫘 Methods to Propagate:
-  - **Seed Propagation:** Sow seeds directly into the soil after the last frost. Scarification of seeds can improve germination rates.
+  Seed Propagation: Sow seeds directly into the soil after the last frost. Scarification of seeds can improve germination rates.
 
-  🌞💧 Sun and Water Requirements:
-  - **Sun:** Prefers full sun exposure.
-  - **Water:** Requires moderate watering; drought-tolerant once established but performs best with regular moisture.
+  Sun: Prefers full sun exposure. Water: Requires moderate watering; drought-tolerant once established but performs best with regular moisture.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
-  - For green manure, incorporate the plant into the soil before it sets seed to maximize nutrient content.
+  For green manure, incorporate the plant into the soil before it sets seed to maximize nutrient content.
 purpose: |-
   Nitrogen Fixer: Crotalaria spectabilis nodulates on warm-season roots, pumping plant-available nitrogen into biomass before winter kill -- seed is toxic to many livestock; never graze stands or bale hay with pods included.
-  Green Manure: Flail bright yellow pea-flowering tops before hard seed set and incorporate for fast-rotting organic matter on sandy vegetable fields -- late incorporation still risks alkaloid residues; follow with a non-sensitive crop window.
   Ornamental: Erect stems carry showy yellow papilionaceous flowers and inflated rattling pods that read tropical in annual beds -- treat as short-lived spectacle, not a pet-friendly snack garden because pyrrolizidine alkaloids are real.
-companions:
-- Corn
-- Cotton
-- Vegetables
+companions: []
 cautions:
 - Livestock (due to toxicity)
 pests:
@@ -74,3 +65,12 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Cotton
+  original: Cotton
+- name: Vegetables
+  original: Vegetables
+plant_function_unresolved:
+- Green Manure

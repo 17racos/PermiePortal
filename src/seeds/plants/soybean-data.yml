@@ -1,0 +1,54 @@
+- common_name: Soybean
+  picture: soybean.webp
+  scientific_name: Glycine max
+  aka:
+  - Soya Bean
+  family: Fabaceae
+  zone: 2-11
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 32
+  max_temp: 105
+  perennial: false
+  layers:
+  - Herb
+  plant_function:
+  - Edible
+  - Nitrogen Fixer
+  - Animal Fodder
+  - Biomass
+  - Dynamic Accumulator
+  growth_habit: Annual legume
+  description: |-
+    Soybean (Glycine max) is a warm-season annual legume domesticated in East Asia and now central to global protein and oil systems. Bushy plants reach 30 to 120 cm (1 to 4 feet) with trifoliate leaves and self-fertile flowers that mature into pods packed with high-protein seeds. Maturity groups match latitude and photoperiod across temperate to subtropical production regions.
+
+    In diversified farms, soy fills summer nitrogen fixation, green manure, and small-scale edamame niches where equipment matches scale.
+
+    Plant in warm soil after frost risk; short-day types suit lower latitudes. Consistent moisture during pod fill improves yield; drought at flowering causes flower abortion.
+
+    Inoculate seed with compatible rhizobia when history is absent. Rotate away from close relatives to reduce disease buildup.
+
+    Harvest edamame when pods are plump and bright green; harvest dry grain when pods rattle and moisture matches storage or processing targets.
+  purpose: |-
+    Edible: Immature pods and mature beans diversify protein on farm -- processing into milk or tempeh adds value beyond commodity channels when scale fits.
+    Nitrogen Fixer: Root nodules supply residual nitrogen for following crops -- design rotations that capture that credit in soil tests.
+    Animal Fodder: Meal and hulls feed monogastrics and ruminants in balanced rations -- amino acid profile complements cereal grains.
+    Biomass: Green manure plow-down adds organic matter -- time incorporation to avoid anaerobic piles in wet weather.
+    Dynamic Accumulator: Fast growth mines nutrients from fertile topsoil -- straw return recycles phosphorus and potassium if ash or compost loops close.
+  companions:
+  - slug: maize
+    name: Maize
+  - slug: sunflower
+    name: Sunflower
+  - slug: alfalfa
+    name: Alfalfa
+  cautions:
+  - None documented
+  field_observations: ""
+  pests:
+  - Aphids
+  - Japanese Beetles
+  - Soybean Looper
+  companion_categories:
+  - name: Summer annual legume rotations
+    type: system

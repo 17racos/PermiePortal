@@ -10,44 +10,34 @@ min_temp: -20
 max_temp: 0
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Edible
-- Medicinal
-- Wildlife Attractor
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
 description: |-
   Currant (Ribes rubrum) is a deciduous shrub native to temperate parts of Europe and western Asia. It typically grows about 1–2 m (3–7 ft) tall with upright stems and clusters of translucent, red berries. In permaculture, it matters because you get a dependable fruit harvest from a woody structure plant, plus early spring flowers that feed pollinators before many other shrubs start working.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun to partial shade; more light improves berry color and sweetness.
-  - Water moderately during flowering and fruit sizing; drought reduces berry size and juice.
-  - Prefers well-drained soil rich in organic matter; avoid chronically wet ground.
-  - Handles cool temperate climates well, but hot, dry summers benefit from mulch and occasional deep watering.
+  Full sun to partial shade; more light improves berry color and sweetness. Water moderately during flowering and fruit sizing; drought reduces berry size and juice. Prefers well-drained soil rich in organic matter; avoid chronically wet ground. Handles cool temperate climates well, but hot, dry summers benefit from mulch and occasional deep watering.
 
-  ✂️ Propagation:
-  - Cuttings: take hardwood cuttings in dormancy, keep evenly moist, and expect rooting in 8–12 weeks.
-  - Layering: bend a low cane to the ground in early season, keep it in contact with moist soil, and transplant after roots form (often by late season).
-  - Seeds: sow with cold stratification; germination can take weeks to months and seedlings take longer to fruit.
+  Cuttings: take hardwood cuttings in dormancy, keep evenly moist, and expect rooting in 8–12 weeks. Layering: bend a low cane to the ground in early season, keep it in contact with moist soil, and transplant after roots form (often by late season). Seeds: sow with cold stratification; germination can take weeks to months and seedlings take longer to fruit.
 
-  🌾 Harvest / Best Use Timing:
-  - Harvest berries when they turn fully red and taste sweet-tart; pick in rounds as clusters ripen at slightly different speeds.
-  - Eat fresh, freeze, or process into syrups, sauces, and preserves that store flavor for the long winter gap.
-  - Prune after harvest to maintain productive cane structure for the next season.
+  Harvest berries when they turn fully red and taste sweet-tart; pick in rounds as clusters ripen at slightly different speeds. Eat fresh, freeze, or process into syrups, sauces, and preserves that store flavor for the long winter gap. Prune after harvest to maintain productive cane structure for the next season.
 purpose: |-
   Edible: Ribes rubrum clusters yield translucent red currants for jelly, syrup, and summer sauces -- pick when fully colored and sweet-tart.
   Medicinal: Dark pigments and polyphenols in ripe berries show up in traditional cordials -- keep sugar loads honest if you cite health while preserving.
   Wildlife Attractor: Early racemes feed bees before many shrubs bloom -- ripe strings feed finches and waxwings if you share the harvest.
 companions:
-- Comfrey (Symphytum officinale) — chop-and-drop minerals and carbon help the shrub
-  maintain steady growth during fruit sizing.
-- Garlic (Allium sativum) — strong scent helps break up pest navigation in mixed beds
-  around fruiting shrubs.
-- Lettuce (Lactuca sativa) — shallow-rooted understory uses the cool season under
-  partial shade without competing with cane depth.
+  - slug: comfrey
+    name: Comfrey
+  - slug: garlic
+    name: Garlic
+  - slug: lettuce
+    name: Lettuce
 cautions:
-- Plant away from heavy, waterlogged soil; persistent wetness stresses cane health.
+  - Plant away from heavy, waterlogged soil; persistent wetness stresses cane health.
 pests:
-- Aphids
-- Scale Insects
-- Root Rot
-- Caterpillars
+  - Aphids
+  - Scale Insects
+  - Root Rot
+  - Caterpillars

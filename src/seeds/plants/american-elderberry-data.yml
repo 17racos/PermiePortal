@@ -21,15 +21,9 @@ plant_function:
 description: |-
   American elderberry is a suckering deciduous shrub with compound leaves, flat white flower clusters in late spring, and heavy bunches of small purple-black berries. Flowers and ripe, cooked berries are traditional food; raw unripe berries, bark, and leaves are not your friend—cyanogenic glycosides mean basic kitchen chemistry matters. Across much of the eastern US it makes an excellent rain garden edge, ditch stabilizer, and bird buffet. Fruit quality jumps with named cultivars and a second genetically distinct clone for pollination.
 
-  ☀️💧 Sun and Water Requirements:
-
   Full sun for maximum fruit; tolerates part shade with fewer berries. Moist, fertile soil preferred; handles seasonal wet feet better than desert plants.
 
-  ✂️ Propagation:
-
   Hardwood cuttings in dormancy; root suckers; seed (variable). Commercial growers use selected clones—wild seedlings can be sparse-fruiting.
-
-  🌾 Harvest / Best Use Timing:
 
   Pick flower clusters for fritters or cordials when fully open; strip ripe berries for syrup, wine, or cooked preserves—cook or ferment properly and skip raw unripe fruit.
 purpose: |-
@@ -38,10 +32,12 @@ purpose: |-
   Wildlife Attractor: Flat white cymes feed syrphid flies and native bees in late spring while heavy berry umbels feed catbirds and robins in summer -- plan netting or a sacrificial row because traffic is loud.
   Mulcher: Fast suckering canes produce soft stems and compound leaves for chop-and-drop along rain-garden berms -- cut after flowering if you need mulch without sacrificing every berry cluster on that cane.
 companions:
-- Comfrey
-- Yarrow
-- Hazelnut
-- Pawpaw
+- slug: comfrey
+  name: Comfrey
+- slug: yarrow
+  name: Yarrow
+- slug: pawpaw
+  name: Pawpaw
 cautions:
 - Deep dry shade
 pests:
@@ -49,3 +45,6 @@ pests:
 - Japanese Beetles
 - Borers
 - Powdery Mildew
+companions_unresolved:
+- name: Hazelnut
+  original: Hazelnut

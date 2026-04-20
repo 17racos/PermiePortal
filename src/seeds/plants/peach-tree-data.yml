@@ -2,8 +2,8 @@ common_name: Peach tree
 picture: peach_tree.webp
 scientific_name: Prunus persica
 aka:
-- Peach
-- Nectarine (smooth-skinned mutants)
+  - Peach
+  - Nectarine (smooth-skinned mutants)
 family: Rosaceae
 zone: 5-9
 ideal_temp_min: 40
@@ -12,33 +12,24 @@ min_temp: -15
 max_temp: 100
 perennial: true
 layers:
-- Canopy
-- Sub-Canopy
+  - Canopy
+  - Sub-Canopy
 plant_function:
-- Edible
-- Medicinal
-- Pollinator
-- Wildlife Attractor
-- Mulcher
-- Dynamic Accumulator
-- Border Plant
+  - Edible
+  - Medicinal
+  - Pollinator
+  - Wildlife Attractor
+  - Mulcher
+  - Dynamic Accumulator
+  - Border Plant
 description: |-
   The peach tree (Prunus persica) is a deciduous stone fruit species from northwest China, naturalized and bred across temperate to warm-temperate belts of the Americas for juicy drupes with fuzzy skin (or smooth in nectarine forms). Standard trees may reach roughly 4–6 meters (13–20 feet) on seedling roots, while modern rootstocks keep crowns smaller for ladders, light, and spray-threshold honesty. Bark is glossy reddish-brown when young; spring bloom is pink to rose before leaves fully expand, making peaches a seasonal signal in orchards and backyard rows alike.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun drives fruit sugar and disease recovery—shade yields leafy disappointment.
-  - Deep, infrequent irrigation beats chronic sprinkle patterns that only flirt with roots.
-  - Well-drained loam limits phytophthora drama; heavy soils demand berming or species honesty about replant stress.
+  Full sun drives fruit sugar and disease recovery—shade yields leafy disappointment. Deep, infrequent irrigation beats chronic sprinkle patterns that only flirt with roots. Well-drained loam limits phytophthora drama; heavy soils demand berming or species honesty about replant stress.
 
-  ✂️ Methods to Propagate:
-  - Grafting onto labeled rootstocks is the practical path for known cultivars, chill requirement, and tree size.
-  - Budding in late summer pairs scion wood with active cambium on compatible Prunus understocks.
-  - Seeds grow trees but fruit quality roulette is real—use for rootstock experiments, not promised dessert.
+  Grafting onto labeled rootstocks is the practical path for known cultivars, chill requirement, and tree size. Budding in late summer pairs scion wood with active cambium on compatible Prunus understocks. Seeds grow trees but fruit quality roulette is real—use for rootstock experiments, not promised dessert.
 
-  🌾 Harvest / Best Use Timing:
-  - Pick when background color lightens and fruit yields slightly to gentle pressure; aroma beats Instagram gloss for flavor truth.
-  - Process windfalls fast—peaches wait for no one's calendar.
-  - Summer prune after harvest in humid climates to reopen canopy and reduce brown-rot microclimate.
+  Pick when background color lightens and fruit yields slightly to gentle pressure; aroma beats Instagram gloss for flavor truth. Process windfalls fast—peaches wait for no one's calendar. Summer prune after harvest in humid climates to reopen canopy and reduce brown-rot microclimate.
 purpose: |-
   Edible: Prunus persica melting and non-melting flesh types ripen from background color break and slight yield for canning, drying, grilling, and out-of-hand juice bombs -- thin fruitlets hard so remaining peaches size beyond brown-rot magnets.
   Medicinal: Peach kernel preparations supply amygdalin controversies in folk cancer lore while flowers appear in Chinese cooling teas -- keep internal medicinal use inside professional toxicology guidance because cyanogenic compounds are not kitchen seasoning.
@@ -48,26 +39,25 @@ purpose: |-
   Dynamic Accumulator: Fine feeder roots explore drip-line mulch bands returning potassium to surface litter from subsoil moisture lenses -- pair with comfrey outside the collar rot zone to lift complementary minerals.
   Border Plant: Dwarfing rootstocks line driveways and food-forest shoulders at human scale while standard seedlings mark field corners -- thornless selections still need scaffold spacing so ladders and deer fences coexist.
 companions:
-- Comfrey — chop-and-drop leaves feed shallow feeder roots without competing for trunk
-  space if kept outside the dripline.
-- White Clover — living understory fixes nitrogen and cushions soil while mower strips
-  stay away from trunks.
-- Lavender — sun-loving shallow roots occupy different horizons while supporting generalist
-  pollinators near bloom overlap.
+  - slug: comfrey
+    name: Comfrey
+  - slug: white-clover
+    name: White Clover
+  - slug: lavender
+    name: Lavender
 cautions:
-- Black Walnut — juglone and related allelopathy from walnut-family neighbors stress
-  many Prunus roots; keep separation literal.
+  - Black Walnut — juglone and related allelopathy from walnut-family neighbors stress many Prunus roots; keep separation literal.
 pests:
-- Leaf Curl
-- Oriental Fruit Moth
-- Peachtree Borer
-- Peach Twig Borer
-- Plum Curculio
-- Scale Insects
-- Japanese Beetles
-- Aphids
-- Spider Mites
-- Brown Rot
+  - Leaf Curl
+  - Oriental Fruit Moth
+  - Peachtree Borer
+  - Peach Twig Borer
+  - Plum Curculio
+  - Scale Insects
+  - Japanese Beetles
+  - Aphids
+  - Spider Mites
+  - Brown Rot
 growth_habit: Tree
 data_quality_score: 0.85
 field_observations: No field observations yet

@@ -10,44 +10,34 @@ min_temp: -40
 max_temp: 0
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Edible
-- Medicinal
-- Pest Management
+  - Edible
+  - Medicinal
+  - Pest Management
 description: |-
   Leek (Allium porrum) is a cool-season allium grown for its thick, tender leaf bases that form the edible “white” portion and flavorful greens. It is native to Europe and has become a staple across temperate vegetable gardens. In permaculture, leeks matter because they give you a reliable harvest from cool-season beds while their strong scent helps confuse pest movement and improves crop rotation diversity. Plants typically reach about 30–60 cm (12–24 in) tall.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun to partial shade; more light supports sturdy growth.
-  - Water moderately and consistently during establishment; drought can stunt leaf development.
-  - Prefers fertile, well-drained soil with compost; standing water increases rot risk.
-  - Protect from extreme heat that pushes bolting.
+  Full sun to partial shade; more light supports sturdy growth. Water moderately and consistently during establishment; drought can stunt leaf development. Prefers fertile, well-drained soil with compost; standing water increases rot risk. Protect from extreme heat that pushes bolting.
 
-  ✂️ Propagation:
-  - Seeds: start indoors and transplant, or direct-sow in cool periods; germination often takes about 7–14 days.
-  - Thin seedlings early so each plant can build a thick base.
-  - Succession sow every few weeks in suitable weather to spread harvest.
+  Seeds: start indoors and transplant, or direct-sow in cool periods; germination often takes about 7–14 days. Thin seedlings early so each plant can build a thick base. Succession sow every few weeks in suitable weather to spread harvest.
 
-  🌾 Harvest / Best Use Timing:
-  - Harvest when bases are thick enough for eating, typically 60–120 days from sowing depending on variety.
-  - Pull gently and replant nothing—leeks hate root disturbance once settled.
-  - Store cool and humid for short-term use, or cook promptly.
+  Harvest when bases are thick enough for eating, typically 60–120 days from sowing depending on variety. Pull gently and replant nothing—leeks hate root disturbance once settled. Store cool and humid for short-term use, or cook promptly.
 purpose: |-
   Edible: Allium porrum forms long, blanched shanks when soil or tubes exclude light -- slice for soup and gratin through cool months, and harvest before midsummer heat triggers woody cores and bolting.
   Medicinal: Sulfur compounds and kaempferol glycosides in leaves echo garlic-family food-medicine uses for circulation and immune support -- eat as food first; therapeutic dosing belongs in clinical context.
   Pest Management: Onion thrips and leaf miners still arrive, but interplanting leeks with carrots disrupts monoculture cues -- scout undersides because strong scent is not a substitute for sticky traps.
 companions:
-- Carrot (Daucus carota) — rotates bed profiles between root crops and alliums while
-  keeping cool-season soil productive.
-- Lettuce (Lactuca sativa) — uses partial shade/space and shares cool-season timing
-  for easier bed management.
-- Garlic (Allium sativum) — same family rotation benefits and similar care simplifies
-  scheduling.
+  - slug: carrot
+    name: Carrot
+  - slug: lettuce
+    name: Lettuce
+  - slug: garlic
+    name: Garlic
 cautions:
-- Avoid waterlogged soil; leek rot is not a motivational poster.
+  - Avoid waterlogged soil; leek rot is not a motivational poster.
 pests:
-- Aphids
-- Slugs
-- Root Rot
-- Caterpillars
+  - Aphids
+  - Slugs
+  - Root Rot
+  - Caterpillars

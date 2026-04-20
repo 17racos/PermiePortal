@@ -25,37 +25,23 @@ plant_function:
 - Erosion Control
 - Windbreaker
 - Border Plant
-description: "Elderberry (Sambucus nigra) is a fast-growing, deciduous shrub reaching\
-  \ heights of 2–4 meters (6–12 feet). It produces clusters of small, fragrant white\
-  \ flowers followed by dark purple to black berries in late summer. \n\nThis hardy\
-  \ plant thrives in moist, well-drained soil and is commonly found along riverbanks,\
-  \ woodlands, and hedgerows. It is widely cultivated for its edible and medicinal\
-  \ uses, as well as its ability to attract pollinators and wildlife.\n\n \U0001F31E\
-  \U0001F4A7 Sun and Water Requirements:\n- Prefers full sun but tolerates partial\
-  \ shade.\n- Requires moist, well-drained soil but can tolerate occasional drought.\n\
-  - Benefits from deep watering during dry spells.\n\n✂️\U0001FAD8 Methods to Propagate:\n\
-  - Seeds: Sow in fall or cold-stratify before planting in spring.\n- Cuttings: Softwood\
-  \ cuttings in spring or hardwood cuttings in late winter root easily.\n- Suckers:\
-  \ Can be propagated by transplanting root suckers.\n\n\U0001F9D1‍\U0001F33E\U0001F469\
-  ‍\U0001F33E When to Harvest:\n- Flowers are harvested in late spring or early summer\
-  \ for teas and syrups.\n- Berries are ready for harvest in late summer to early\
-  \ fall when fully ripe and dark purple-black.\n- Only ripe berries should be used;\
-  \ unripe berries contain toxins."
+description: "Elderberry (Sambucus nigra) is a fast-growing, deciduous shrub reaching heights of 2–4 meters (6–12 feet). It produces clusters of small, fragrant white flowers followed by dark purple to black berries in late summer. \n\nThis hardy plant thrives in moist, well-drained soil and is commonly found along riverbanks, woodlands, and hedgerows. It is widely cultivated for its edible and medicinal uses, as well as its ability to attract pollinators and wildlife.\n\n 🌞💧 Sun and Water Requirements:\nPrefers full sun but tolerates partial shade. Requires moist, well-drained soil but can tolerate occasional drought. Benefits from deep watering during dry spells.\n\n🫘 Methods to Propagate:\nSeeds: Sow in fall or cold-stratify before planting in spring. Cuttings: Softwood cuttings in spring or hardwood cuttings in late winter root easily. Suckers: Can be propagated by transplanting root suckers.\n\n🧑🌾👩🌾 When to Harvest:\nFlowers are harvested in late spring or early summer for teas and syrups. Berries are ready for harvest in late summer to early fall when fully ripe and dark purple-black. Only ripe berries should be used; unripe berries contain toxins."
 purpose: |-
   Edible: Fully ripe purple-black berry clusters cook down into syrup, wine, and jam; flower umbels picked fully open the same morning make fritters or cordial while fragrance is high -- never eat raw green berries, bark, or leaves, which carry cyanogenic glycosides.
   Medicinal: Flower and ripe-berry preparations are traditional for colds and winter immune support in European and North American herbalism -- confirm species (S. nigra vs canadensis) and preparation with current references before internal use.
-  Pollinator: Cream-white corymbs open in late spring before many summer nectar flows, feeding honeybees, solitary bees, syrphid flies, and beetles that use shallow, open flower platforms.
-  Wildlife Attractor: Soft fruit feeds robins, catbirds, and cedar waxwings in late summer; multi-stemmed thickets give cover at woodland edges next to fields.
-  Dynamic Accumulator: Fast leafy growth each season concentrates potassium and phosphorus in leaf litter that falls under the shrub for guild partners with fibrous roots.
-  Erosion Control: Shallow spreading roots and suckering stems knit moist banks along ditches, pond margins, and pasture edges where sheet flow would otherwise carve gullies.
-  Windbreaker: Hedgerows 8 to 12 feet tall break gusts across vegetable rows and tunnels without the deep permanent shade of a tall nut or oak canopy.
-  Border Plant: Even spacing along fences marks boundaries and livestock lanes while staying easy to coppice for straight suckers useful for coarse basketry and wattle.
+  Pollinator: Cream-white corymbs open in late spring before many summer nectar flows, feeding honeybees, solitary bees, syrphid flies, -- and beetles that use shallow, open flower platforms.
+  Wildlife Attractor: Soft fruit feeds robins, catbirds, -- and cedar waxwings in late summer; multi-stemmed thickets give cover at woodland edges next to fields.
+  Dynamic Accumulator: Fast leafy growth each season concentrates potassium -- and phosphorus in leaf litter that falls under the shrub for guild partners with fibrous roots.
+  Erosion Control: Shallow spreading roots -- and suckering stems knit moist banks along ditches, pond margins, and pasture edges where sheet flow would otherwise carve gullies.
+  Windbreaker: Hedgerows 8 to 12 feet tall break gusts across vegetable rows -- and tunnels without the deep permanent shade of a tall nut or oak canopy.
+  Border Plant: Even spacing along fences marks boundaries -- and livestock lanes while staying easy to coppice for straight suckers useful for coarse basketry and wattle.
 companions:
-- Raspberry
-- Currant
-- Hazelnut
-- Comfrey
-- Clover
+- slug: raspberry
+  name: Raspberry
+- slug: currant
+  name: Currant
+- slug: comfrey
+  name: Comfrey
 cautions:
 - Walnut
 - Corn
@@ -95,3 +81,8 @@ pests:
 growth_habit: Tree
 data_quality_score: 0.8
 field_observations: No field observations yet
+companions_unresolved:
+- name: Hazelnut
+  original: Hazelnut
+- name: Clover
+  original: Clover

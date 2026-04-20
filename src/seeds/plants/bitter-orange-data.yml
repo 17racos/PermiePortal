@@ -22,28 +22,21 @@ plant_function:
 description: |-
   Bitter orange is the citrus your marmalade dreams are built on — too sour for polite juice, perfect for candied peel and existential cooking. Thorny and tough, it has escaped and naturalized in places that now regret casual planting. In subtropical and tropical Americas it is marginal outside protected 9b pockets; young trees freeze, older wood can return from below if rootstock cooperates. Citrus greening territory means management reality, not Pinterest.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun for flower and fruit density.
-  - Well-drained, slightly acidic soil; consistent moisture but not soggy roots.
-  - Wind protection reduces leaf miner tears cosmetically, not politically.
+  Full sun for flower and fruit density. Well-drained, slightly acidic soil; consistent moisture but not soggy roots. Wind protection reduces leaf miner tears cosmetically, not politically.
 
-  ✂️ Methods to Propagate:
-  - Budding and grafting onto selected rootstocks — commercial path.
-  - Seeds: grow for rootstock or curiosity; fruit quality diverges wildly.
+  Budding and grafting onto selected rootstocks — commercial path. Seeds: grow for rootstock or curiosity; fruit quality diverges wildly.
 
-  🌾 Harvest / Best Use Timing:
-  - Pick Bitter Orange fruit when sugar-acid balance peaks for your use -- marmalade wants different timing than fresh slices.
-  - Color is a hint, not a contract; sample one fruit from each sector of the canopy.
-  - Store fresh citrus cool and dry; zest freezes well if you strip peel before shrivel sets in.
+  Pick Bitter Orange fruit when sugar-acid balance peaks for your use -- marmalade wants different timing than fresh slices. Color is a hint, not a contract; sample one fruit from each sector of the canopy. Store fresh citrus cool and dry; zest freezes well if you strip peel before shrivel sets in.
 purpose: |-
   Edible: Citrus × aurantium Seville types bring high-pectin sour juice and aromatic peel for marmalade and triple-sec style macerations -- fresh out-of-hand eating still punishes casual tasters with face-scrunch honesty.
   Medicinal: Neroli hydrosol from flowers and bitter peel tinctures enter European nervine formulas -- photosensitizing furanocoumarins mean sun exposure after skin applications is not theoretical worry.
   Ornamental: Thorny evergreen scaffold carries perfumed white blooms in spring before small orange fruit dot the canopy -- use as impenetrable hedgerow where citrus greening management still fits your ethics.
   Wildlife Attractor: Open citrus flowers feed honeybees while fallen sour fruit feeds opossums and wasps along fencelines -- surrender windfall strips if you want wildlife rent without cleaning every orange.
 companions:
-- Comfrey
-- Clover
-- Nasturtium
+- slug: comfrey
+  name: Comfrey
+- slug: nasturtium
+  name: Nasturtium
 cautions:
 - Planting in known citrus greening quarantine fantasy
 - Overhead irrigation that fuels fungal pity parties
@@ -65,3 +58,6 @@ pests:
 - Citrus Rust Mite
 - Rust Mite
 - Swallowtail Caterpillar
+companions_unresolved:
+- name: Clover
+  original: Clover

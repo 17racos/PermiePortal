@@ -24,23 +24,21 @@ plant_function:
 description: |-
   Chickweed (*Stellaria media*) is a low-growing annual herb native to Eurasia but now widespread globally. It typically forms dense mats up to 40 centimeters (16 inches) in length. The plant has slender, weak stems with a single line of fine hairs and small, opposite, oval leaves that are smooth and light green. Its small, white, star-shaped flowers, about 5 millimeters (0.2 inches) in diameter, have five deeply lobed petals, giving the appearance of ten petals. Chickweed thrives in moist, fertile, and nitrogen-rich soils, often found in lawns, gardens, and shaded areas.
 
-  ✂️🫘 **Methods to Propagate:**
   Chickweed propagates primarily through seeds, which can remain viable in the soil for up to ten years. It can produce seeds five weeks after germination and will continue to produce seeds for months. Each plant can produce over 800 seeds. Seeds germinate in autumn and spring, favoring cool, moist conditions. To cultivate, scatter seeds over prepared soil and lightly press them in without covering, as they require light for germination.
 
-  🌞💧 **Sun and Water Requirements:**
   Chickweed prefers partial shade but can tolerate full sun, especially in cooler climates. It thrives in moist, well-drained soils rich in organic matter. Regular watering is essential to maintain soil moisture, particularly during dry periods, to prevent wilting.
 
-  🧑‍🌾👩‍🌾 **When to Harvest:**
   Harvest young, tender shoots and leaves before the plant flowers for the best flavor and nutritional value. Chickweed can be harvested multiple times throughout its growing season, as it regenerates quickly after cutting.
 purpose: |-
-  Edible: Cool-weather mats yield mild, juicy tops for salads and quick wilts; harvest before stems turn stringy and always separate from toxic look-alikes.
-  Medicinal: Fresh poultices and salves use the juicy stems for itchy skin in home herbal practice; internal claims stay anecdotal and dose-sensitive.
-  Ground Cover: Prostrate stems root at nodes and carpet disturbed, fertile ground, outcompeting many summer weeds until heat ends the stand.
-  Wildlife Attractor: Dense foliage shelters ground beetles and small spiders while seeds feed finches and other granivores through late winter.
+  Edible: Cool-weather mats yield mild, juicy tops for salads and quick wilts -- harvest before stems turn stringy and always separate from toxic look-alikes.
+  Medicinal: Fresh poultices and salves use the juicy stems for itchy skin in home herbal practice -- internal claims stay anecdotal and dose-sensitive.
+  Ground Cover: Prostrate stems root at nodes and carpet disturbed, fertile ground, outcompeting many summer weeds -- until heat ends the stand.
+  Wildlife Attractor: Dense foliage shelters ground beetles and small spiders -- while seeds feed finches and other granivores through late winter.
 companions:
-- Clover
-- Dandelion
-- Plantain
+- slug: broadleaf-plantain
+  name: Broadleaf Plantain
+- slug: dandelion
+  name: Dandelion
 cautions:
 - None reported
 pests:
@@ -48,3 +46,6 @@ pests:
 - Downy Mildew
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Clover
+  original: Clover

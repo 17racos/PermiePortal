@@ -2,7 +2,7 @@ common_name: Gorse
 picture: gorse.webp
 scientific_name: Ulex europaeus
 aka:
-- []
+  - []
 family: Fabaceae
 zone: 6-9
 ideal_temp_min: 50
@@ -11,33 +11,37 @@ min_temp: 10
 max_temp: 95
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Nitrogen Fixer
-- Windbreaker
-- Wildlife Attractor
+  - Nitrogen Fixer
+  - Windbreaker
+  - Wildlife Attractor
 description: |-
   Gorse (Ulex europaeus) is a useful perennial species in the Fabaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a shrub form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.
 
-  ☀️💧 Sun and Water Requirements:
   Best performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 50°F (10°C) and 78°F (26°C), with stress rising near 95°F (35°C).
 
-  ✂️ Propagation:
   Direct seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.
 
-  🌾 Harvest / Best Use Timing:
   Harvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.
 purpose: |-
   Nitrogen Fixer: Ulex europaeus hosts Rhizobium-class symbionts on legume roots that convert atmospheric N₂ into plant-available nitrogen -- interplant with hungry forbs downslope of shrubs so leaf litter and nodulated roots feed the row without soluble fertilizer passes.
   Windbreaker: Evergreen, wiry stems build a permeable hedge that cuts wind speed across exposed pasture or coast -- site as a multi-row shelterbelt where thorns are acceptable and fire management plans exist, because dry fuel loads are real.
   Wildlife Attractor: Bright yellow pea flowers produce nectar and pollen in cool seasons when many forbs are dormant -- finches and small mammals later use the thicket for cover from raptors if you leave structure unshaved.
-companions:
-- Hawthorn - dense mixed hedges increase bird habitat complexity.
-- Yarrow - supports beneficial insects at hedge margins.
-- Broom - similar drought and soil tolerance in tough edge sites.
+companions: []
 cautions:
-- None documented
+  - None documented
 pests:
-- Aphids
-- Scale Insects
-- Mites
+  - Aphids
+  - Scale Insects
+  - Mites
+companion_categories:
+  - name: Hawthorn - dense mixed hedges increase bird habitat complexity.
+    original: Hawthorn - dense mixed hedges increase bird habitat complexity.
+    type: system
+  - name: Yarrow - supports beneficial insects at hedge margins.
+    original: Yarrow - supports beneficial insects at hedge margins.
+    type: system
+  - name: Broom - similar drought and soil tolerance in tough edge sites.
+    original: Broom - similar drought and soil tolerance in tough edge sites.
+    type: system

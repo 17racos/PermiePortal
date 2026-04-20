@@ -18,31 +18,21 @@ plant_function:
 - Ornamental
 - Shade Provider
 - Edible
-description: "Marlberry (*Ardisia escallonioides*) is a native Florida shrub to small\
-  \ tree with leathery leaves, drooping clusters of small white flowers, and dark\
-  \ berries. It is shade-tolerant and often found in hardwood hammocks — exactly the\
-  \ kind of layered, low-light niche where grass worship fails and ecology wins.\n\
-  \nDo not confuse it with invasive coral ardisia (*Ardisia crenata*). This one belongs\
-  \ here; that one is the yard-invading cosplay.\n\n☀️\U0001F4A7 Sun and Water:\n\
-  - Part shade to shade; tolerates some morning sun with adequate moisture.\n- Likes\
-  \ steady organic moisture but needs drainage; mulch and humus mimic hammock floor\
-  \ conditions.\n\n✂️ ✂️ Propagation: \n- Seeds: sow ripe cleaned seed in a humid,\
-  \ well-drained medium; can be slow.\n- Cuttings: hardwood or semi-hardwood with\
-  \ rooting hormone under humidity.\n- Transplants: container plants; keep moist while\
-  \ roots establish.\n\n\U0001F33E Harvest / Best Use Timing:\n- Marlberry: pick peak\
-  \ flavor when fruits soften slightly and detach easily -- birds are a parallel calendar.\n\
-  - Harvest after dew dries to reduce mold in baskets.\n- Jam batches same day if\
-  \ humidity is high; acid and sugar balance matter more than Instagram gloss."
+description: "Marlberry (*Ardisia escallonioides*) is a native Florida shrub to small tree with leathery leaves, drooping clusters of small white flowers, and dark berries. It is shade-tolerant and often found in hardwood hammocks — exactly the kind of layered, low-light niche where grass worship fails and ecology wins.\n\nDo not confuse it with invasive coral ardisia (*Ardisia crenata*). This one belongs here; that one is the yard-invading cosplay.\n\n💧 Sun and Water:\nPart shade to shade; tolerates some morning sun with adequate moisture. Likes steady organic moisture but needs drainage; mulch and humus mimic hammock floor conditions.\n\n  Propagation: \nSeeds: sow ripe cleaned seed in a humid, well-drained medium; can be slow. Cuttings: hardwood or semi-hardwood with rooting hormone under humidity. Transplants: container plants; keep moist while roots establish.\n\n🌾 Harvest / Best Use Timing:\nMarlberry: pick peak flavor when fruits soften slightly and detach easily -- birds are a parallel calendar. Harvest after dew dries to reduce mold in baskets. Jam batches same day if humidity is high; acid and sugar balance matter more than Instagram gloss."
 purpose: |-
   Wildlife Attractor: Ardisia escallonioides dangling white flower clusters feed native bees while ink-black berries feed mockingbirds -- not the invasive coral ardisia; ID matters before you promote seedlings.
   Ornamental: Leathery, whorled leaves and tiered branching read tidy in partial-shade hammocks -- site under oak canopy where grass fails honestly.
   Shade Provider: Multi-stem habit filters light for wild coffee and coontie -- mulch with leaf litter, not dyed rock, so iron stays available on limestone.
   Edible: Berries are thin-pulped and stain everything -- taste is mild curiosity, not calorie planning; harvest into dark bowls if jam experiments matter.
 companions:
-- Wild Coffee
-- Simpson Stopper
-- Coontie
-- Ferns
+- slug: wild-coffee
+  name: Wild Coffee
+- slug: simpson-stopper
+  name: Simpson Stopper
+- slug: coontie
+  name: Coontie
+- slug: cinnamon-fern
+  name: Cinnamon Fern
 cautions:
 - Invasive ground covers that smother seedlings
 pests:
@@ -52,3 +42,11 @@ pests:
 - Aphids
 growth_habit: Shrub
 data_quality_score: 0.75
+companions_unresolved:
+- name: Fern
+  original: Ferns
+  note: normalization_target_not_in_index
+companions_normalized:
+- original: Ferns
+  resolved_slug: cinnamon-fern
+  name: Cinnamon Fern

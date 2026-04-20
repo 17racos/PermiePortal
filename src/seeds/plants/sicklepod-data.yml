@@ -21,33 +21,25 @@ plant_function:
 description: |-
   Sicklepod (Senna obtusifolia) is a warm-climate annual or short-lived legume native to the Americas but widely naturalized across tropical and subtropical regions, famous for sickle-shaped pods and weedy fields. Yellow flowers give way to pods that shatter seed aggressively. In permaculture discourse it is often a cautionary tale: useful for biomass and insect traffic in controlled contexts, a headache where seed banks already exist.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun; shade weakens pods and reduces competitiveness.
-  - Drought tolerant in warm months once established; germination needs moisture.
-  - Disturbed, often poor soils; thrives where crops were stressed and bare soil invited pioneers.
+  Full sun; shade weakens pods and reduces competitiveness. Drought tolerant in warm months once established; germination needs moisture. Disturbed, often poor soils; thrives where crops were stressed and bare soil invited pioneers.
 
-  ✂️ Propagation:
-  - Seeds scarify and sow warm; do not spread where local law lists it as invasive.
-  - Remove plants before pods mature if managing an accidental infestation.
-  - Do not compost mature pods unless your pile reliably hits pathogen-kill heat—seeds survive smugly.
+  Seeds scarify and sow warm; do not spread where local law lists it as invasive. Remove plants before pods mature if managing an accidental infestation. Do not compost mature pods unless your pile reliably hits pathogen-kill heat—seeds survive smugly.
 
-  🌾 Harvest / Best Use Timing:
-  - For biomass trials, cut before seed set and mulch or compost hot.
-  - Seeds are used in some traditional systems with expert guidance—toxicity and regulation vary by region.
-  - Document location and disposal if pulling on conservation land—seed banks persist for years.
+  For biomass trials, cut before seed set and mulch or compost hot. Seeds are used in some traditional systems with expert guidance—toxicity and regulation vary by region. Document location and disposal if pulling on conservation land—seed banks persist for years.
 purpose: |-
   Nitrogen Fixer: Senna obtusifolia nodulates during one hot wet season -- cut before sickle pods brown if you want biomass without burying next year in seeds.
-  Wildlife Attractor: Sulphur butterflies oviposit on compound leaves while small bees work yellow cassia blossoms along ditch banks.
+  Wildlife Attractor: Sulphur butterflies oviposit on compound leaves -- while small bees work yellow cassia blossoms along ditch banks.
   Dynamic Accumulator: Rapacious canopy mines fertility from disturbed cotton fields into leaf tissue -- compost green chop before woody lignin locks nutrients away.
-  Biomass: Shoulder-high stands produce heavy summer slash for mulch if you tarp suppress seed banks afterward on farm edges that already fight senna drift.
+  Biomass: Shoulder-high stands produce heavy summer slash for mulch -- if you tarp suppress seed banks afterward on farm edges that already fight senna drift.
 companions:
-- Velvetleaf — another disturbance-era annual that signals the same weedy field chemistry
-- Sunflower — tall crop neighbor historically found in mixed warm-season field edges
-- Spanish Needles — bidens-class annual that shares roadsides; study together to sharpen
-  weed ID
+- slug: velvetleaf
+  name: Velvetleaf
+- slug: sunflower
+  name: Sunflower
+- slug: spanish-needles
+  name: Spanish Needles
 cautions:
-- Aggressive self-seeder and listed invasive in many jurisdictions—do not introduce
-  casually
+- Aggressive self-seeder and listed invasive in many jurisdictions—do not introduce casually
 pests:
 - Aphids
 - Banded Cucumber Beetle
@@ -77,6 +69,5 @@ pests:
 - Brown Marmorated Stink Bug
 - Harlequin Ladybird
 - Velvetbean Caterpillar
-growth_habit: Upright branching annual legume with yellow flowers and long curved
-  pods
+growth_habit: Upright branching annual legume with yellow flowers and long curved pods
 data_quality_score: 0.7

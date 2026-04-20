@@ -2,8 +2,8 @@ common_name: Peppervine
 picture: peppervine.webp
 scientific_name: Nekemias arborea
 aka:
-- Pepper vine
-- Cow itch vine
+  - Pepper vine
+  - Cow itch vine
 family: Vitaceae
 zone: 5-9
 ideal_temp_min: 55
@@ -12,46 +12,39 @@ min_temp: -10
 max_temp: 100
 perennial: true
 layers:
-- Vine
+  - Vine
 plant_function:
-- Wildlife Attractor
-- Ornamental
-- Erosion Control
-- Shade Provider
+  - Wildlife Attractor
+  - Ornamental
+  - Erosion Control
+  - Shade Provider
 description: |-
   Peppervine (Nekemias arborea, formerly Ampelopsis arborea) is a deciduous climbing vine of eastern and central North America, common in floodplains, fencerows, and woodland edges. Compound leaves with glossy, pepper-scented foliage can smother small supports if ignored. Birds spread seeds after eating fruit; humans should treat berries as questionable snacks—this is habitat vine, not trail mix.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun to partial shade; fruiting and color better with strong light.
-  - Moderate moisture; tolerates seasonal wet feet along streams.
-  - Average to rich soil; mulched roots handle heat better on pergolas.
+  Full sun to partial shade; fruiting and color better with strong light. Moderate moisture; tolerates seasonal wet feet along streams. Average to rich soil; mulched roots handle heat better on pergolas.
 
-  ✂️ Propagation:
-  - Seeds from ripe fruit cleaned and cold stratified; germination can be slow.
-  - Hardwood cuttings in dormancy with bottom heat.
-  - Layering low stems where you want a thicket for wildlife.
+  Seeds from ripe fruit cleaned and cold stratified; germination can be slow. Hardwood cuttings in dormancy with bottom heat. Layering low stems where you want a thicket for wildlife.
 
-  🌾 Harvest / Best Use Timing:
-  - Do not harvest fruit for human food without authoritative ID and local knowledge—GI upset is common.
-  - For habitat, leave fruit for migrating birds in late summer and autumn.
-  - Prune hard in winter to keep posts and small trees from structural damage.
+  Do not harvest fruit for human food without authoritative ID and local knowledge—GI upset is common. For habitat, leave fruit for migrating birds in late summer and autumn. Prune hard in winter to keep posts and small trees from structural damage.
 purpose: |-
   Wildlife Attractor: Dark Nekemias arborea berries feed migrating songbirds that swallow seeds whole; dense tangles shelter rabbits and snakes along floodplain edges -- humans should skip berries because GI upset is documented.
   Ornamental: Glossy trifoliolate leaves and porcelain-blue fruit clusters turn pergolas into eastern woodland theater -- crush foliage for pepper scent ID before confusing with poison ivy novices still fear.
   Erosion Control: Fast twining growth knits riprap and disturbed levee toes after floods while slower shrubs resprout -- cut back hard each winter if you need to keep supports from collapsing under weight.
   Shade Provider: Summer canopy on trellis cuts glare on west windows and livestock lanes -- winter dormancy returns light for solar gain when you actually want it.
 companions:
-- Moonseed Vine — native vine guild for teaching leaf and fruit differences on the
-  same fence
-- Riverbank Grape — true grape nearby clarifies bark, tendrils, and fruit for learners
-- Roughleaf Dogwood — stiff shrub accepts light vine layers without collapsing
+  - slug: moonseed-vine
+    name: Moonseed Vine
+  - slug: riverbank-grape
+    name: Riverbank Grape
+  - slug: roughleaf-dogwood
+    name: Roughleaf Dogwood
 cautions:
-- Fruit can cause digestive upset in humans if eaten
+  - Fruit can cause digestive upset in humans if eaten
 pests:
-- Japanese Beetles
-- Leafhoppers
-- Scale Insects
-- Spotted Lanternfly
-- Powdery Mildew
+  - Japanese Beetles
+  - Leafhoppers
+  - Scale Insects
+  - Spotted Lanternfly
+  - Powdery Mildew
 growth_habit: Fast-growing deciduous vine with bipinnate leaves and tendrils
 data_quality_score: 0.74

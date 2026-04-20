@@ -24,29 +24,26 @@ plant_function:
 description: |-
   Dwarf palmetto (Sabal minor) is a trunkless or short-trunk fan palm of moist forests, floodplains, and shaded hammocks across the southeastern United States into Mexico and parts of the Caribbean, often listed under the same scientific name as blue palmetto. Clumps of palmate leaves on long petioles typically reach about 5–10 feet (1.5–3 m) above ground. It is structural understory for humid subtropical food forests, bioswales, and shaded courtyards where winter lows occasionally test palm optimism.
 
-  ☀️💧 Sun and Water Requirements:
   Part shade to full sun depending on moisture; full sun near coasts needs irrigation support inland. Prefers rich, moist, well-drained soils; tolerates brief inundation in natural rhythms but not permanent ponding around the crown. Protect from desiccating wind on cold-margin sites; mulch after hard freezes where you are zone-pushing.
 
-  ✂️ Propagation:
   Sow fresh seed in warm humid media; palm germination is slow—patience is the actual input. Transplant young plants with intact root balls; minimizing root disturbance improves survival. Remove only fully brown fronds; green leaves still feed the plant despite landscape fashion trends.
 
-  🌾 Harvest / Best Use Timing:
   Landscape and habitat value are primary; heart-of-palm harvest is not sustainable from wild clumps—do not cosplay colonial extraction. Collect fallen dry fronds for mulch or craft without stripping the crown. Watch for new spear growth after winter damage before declaring a plant dead.
 purpose: |-
   Ornamental: Sabal minor fan leaves on long petioles give tropical structure without a tall trunk -- classic moist-hammock and courtyard palm in warm zones.
-  Wildlife Attractor: Persistent fronds shelter tree frogs, snakes, and litter invertebrates in humid understories.
-  Border Plant: Clumping habit marks pond margins, paths, and bioswales with clear vertical texture at 5–10 feet.
-  Shade Provider: Broad palmate blades cast moving shade for gingers, spiderworts, and shade herbs during peak sun.
-  Mulcher: Brown petiole sheaths and fallen blades build slow organic mats that smother weeds near the crown.
+  Wildlife Attractor: Persistent fronds shelter tree frogs, snakes, and litter invertebrates -- in humid understories.
+  Border Plant: Clumping habit marks pond margins, paths, and bioswales -- with clear vertical texture at 5–10 feet.
+  Shade Provider: Broad palmate blades cast moving shade for gingers, spiderworts, and shade herbs -- most effective during peak summer sun in humid understories.
+  Mulcher: Brown petiole sheaths and fallen blades build slow organic mats -- that smother weeds near the crown.
 companions:
-- Switchgrass — upright warm-season matrix contrasts fan leaves without root trench
-  warfare
-- Elderberry — taller deciduous neighbor that tolerates moist feet in similar edge
-  niches
-- Spiderwort — herbaceous color layer that accepts dappled light near palm bases
+- slug: switchgrass
+  name: Switchgrass
+- slug: elderberry
+  name: Elderberry
+- slug: spiderwort
+  name: Spiderwort
 cautions:
-- Palmetto Weevil — stressed or damaged palms attract larvae that destroy growing
-  points
+- Palmetto Weevil — stressed or damaged palms attract larvae that destroy growing points
 - Chronic wet crown in cold — rot complexes masquerade as winter injury
 pests:
 - Coconut Mite
@@ -57,6 +54,5 @@ pests:
 - Scale Insects
 - Ganoderma Butt Rot
 - Heart Rot
-growth_habit: Trunkless or short-trunk fan palm; clumping; moist-forest understory;
-  subtropical to warm-temperate
+growth_habit: Trunkless or short-trunk fan palm; clumping; moist-forest understory; subtropical to warm-temperate
 data_quality_score: 0.81

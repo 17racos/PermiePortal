@@ -2,8 +2,8 @@ common_name: Nipa Palm
 picture: nipa_palm.webp
 scientific_name: Nypa fruticans
 aka:
-- Nipa palm
-- Attap palm
+  - Nipa palm
+  - Attap palm
 family: Arecaceae
 zone: 10-13
 ideal_temp_min: 70
@@ -12,51 +12,44 @@ min_temp: 40
 max_temp: 105
 perennial: true
 layers:
-- Aquatic
-- Tree
+  - Aquatic
+  - Tree
 plant_function:
-- Aquatic
-- Biomass
-- Fiber
-- Wildlife Attractor
+  - Aquatic
+  - Biomass
+  - Fiber
+  - Wildlife Attractor
 description: |-
   The nipa palm (Nypa fruticans) is a mangrove associate with feathery fronds erupting from prostrate, branching trunks that creep through brackish mud like botanical subway lines. It dominates tidal estuaries and soft coastlines across the Indo-Pacific, producing sweet sap, thatch, and fruits while stabilizing mushy shorelines. This is not a lawn palm—it is infrastructure with chlorophyll.
 
   subtropical and tropical Americas: Puerto Rico and the Caribbean have limited historical presence; most US readers will meet it abroad or in collections. If you are in true tropical estuary restoration contexts, match salinity and tidal regime honestly—wishful planting in freshwater pits creates different problems.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun in humid tropics; partial shade tolerated while young.
-  - Brackish tidal flooding to sustained wet mud; growth ties to salinity and hydroperiod—dry uplands are a non-starter.
+  Full sun in humid tropics; partial shade tolerated while young. Brackish tidal flooding to sustained wet mud; growth ties to salinity and hydroperiod—dry uplands are a non-starter.
 
-  ✂️ Propagation:
-  - Collect buoyant propagules from water; plant into soft mud at protected sites during calm tidal windows.
-  - Division of clumping rhizome sections is practiced where traditional harvest systems exist—learn local methods before improvising.
+  Collect buoyant propagules from water; plant into soft mud at protected sites during calm tidal windows. Division of clumping rhizome sections is practiced where traditional harvest systems exist—learn local methods before improvising.
 
-  🌾 Harvest / Best Use Timing:
-  - Sap tapping follows mature stand management rhythms; over-tapping without rotation is how traditions become cautionary tales.
-  - Thatch and leaf harvest after fronds mature; fruit processing is seasonal and wet-work—plan boots, not vibes.
+  Sap tapping follows mature stand management rhythms; over-tapping without rotation is how traditions become cautionary tales. Thatch and leaf harvest after fronds mature; fruit processing is seasonal and wet-work—plan boots, not vibes.
 purpose: |-
   Aquatic: Nypa fruticans spreads by submarine rhizomes through brackish tidal mud with pneumatophore-like breathing roots where upright feather palms would drown -- growth tracks salinity and hydroperiod, so match planting to real estuary charts, not backyard pond cosplay.
   Biomass: Enormous pinnate fronds yield thatch, roofing, and bulk mulch for village-scale economies along Indo-Pacific coasts -- rotational harvest prevents stands from thinning into weedy gaps while still feeding local craft cycles.
   Fiber: Split petioles and woven leaflets become baskets, mats, and cordage with high tensile strength wet or dry -- traditional tapping for sweet sap runs on mature clumps managed by people who already know the tidal calendar.
   Wildlife Attractor: Rhizome tangles shelter fiddler crabs, mudskippers, and juvenile fish while fruiting spikes feed bats and pigs where land meets brackish water -- matrix planting stitches mangrove edges into nursery habitat instead of bare mud pans.
 companions:
-- Mangrove Bean — leguminous associate along estuarine edges; complementary root strategies
-  share stabilization labor without identical niche overlap.
-- Banana — upland edge crop on berms behind mangrove zone; captures nutrients cycling
-  from tidal exchange while staying above daily salt splash.
-- Taro — freshwater transition pockets landward of brackish stands; marks the gradient
-  so you stop planting sweet potatoes in salt mud like a tourist.
+  - slug: bay-bean
+    name: Bay Bean
+  - slug: banana
+    name: Banana
+  - slug: taro
+    name: Taro
 cautions:
-- None documented
+  - None documented
 pests:
-- Coconut Mite
-- Palm Weevil
-- Palmetto Weevil
-- Red Palm Weevil
-- Rhinoceros Beetle
-- Ganoderma Butt Rot
-- Heart Rot
-growth_habit: Rhizomatous palm without upright trunk; forms extensive clonal stands
-  in tidal mud
+  - Coconut Mite
+  - Palm Weevil
+  - Palmetto Weevil
+  - Red Palm Weevil
+  - Rhinoceros Beetle
+  - Ganoderma Butt Rot
+  - Heart Rot
+growth_habit: Rhizomatous palm without upright trunk; forms extensive clonal stands in tidal mud
 data_quality_score: 0.75

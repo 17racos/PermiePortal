@@ -20,29 +20,26 @@ plant_function:
 description: |-
   Coral honeysuckle (Lonicera sempervirens) is a native North American twining vine valued for clusters of tubular red to coral flowers with yellow interiors, blooming heavily in late spring with scattered rebloom in summer where happy. Semi-evergreen in mild winters, deciduous in cold climates, it climbs 10–20 feet (3–6 m) on trellises, arbors, and shrubs without the strangulation reputation of invasive Asian honeysuckles. Hummingbirds treat it as infrastructure.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun to partial shade; best flowering in high light. Average, well-drained garden soil with moderate moisture; tolerates short dry spells once established but not desert conditions. Mulch roots; avoid overhead irrigation that promotes mildew on crowded foliage.
 
-  ✂️ Propagation:
   Softwood cuttings in early summer with hormone under mist. Layer low stems to soil; detach rooted portions next year. Sow seed after cold stratification; seedlings vary in flower color intensity.
 
-  🌾 Harvest / Best Use Timing:
   Berries are sparse and not a human food focus—leave for birds if formed. Prune after main bloom to shape trellises; light summer trims encourage rebloom. Train new growth horizontally for more flower spur formation.
 purpose: |-
   Pollinator: Coral-red tubes with yellow throat flare peak in late spring for ruby-throated hummingbirds moving north -- summer rebloom happens if you deadhead spent clusters before berry energy locks in.
-  Wildlife Attractor: Finches pick sparse red berries when ripe; dense twining gives cardinals nest sites off the ground without the strangulation habit of Asian bush honeysuckle.
+  Wildlife Attractor: Finches pick sparse red berries when ripe -- dense twining gives cardinals nest sites off the ground without the strangulation habit of Asian bush honeysuckle.
   Ornamental: Semi-evergreen leaves stay neat on trellis compared with trumpet creeper -- good for HOA-visible posts where you still want a native plant stamp.
-  Erosion Control: Root crown mulched thick at the top of a retaining wall holds soil behind lattice while stems veil concrete with living green.
+  Erosion Control: Root crown mulched thick at the top of a retaining wall holds soil behind lattice -- while stems veil concrete with living green.
 companions:
-- Crossvine — complementary trumpet vines on large arbor posts with staggered bloom
-  peaks
-- Passionflower — finer textured vine for mixed vertical polycultures on sturdy supports
-- Scarlet Bee Balm — herb layer beneath trellis draws hummingbirds to a two-story
-  buffet
+- slug: crossvine
+  name: Crossvine
+- slug: passionflower
+  name: Passionflower
+- slug: scarlet-bee-balm
+  name: Scarlet Bee Balm
 cautions:
 - Powdery Mildew — improve air flow; avoid wetting foliage late in the day
-- Asian Bush Honeysuckle nearby — do not confuse seedlings; remove invasives to reduce
-  hybridization risk where documented
+- Asian Bush Honeysuckle nearby — do not confuse seedlings; remove invasives to reduce hybridization risk where documented
 pests:
 - Aphids
 - Powdery Mildew
@@ -53,3 +50,6 @@ field_observations: |-
   Horizontal training is how you buy more flowers; vertical-only fuss yields fewer tubes.
   If leaves look dusty white, reach for airflow before the spray bottle reflex.
   Hummingbird wars at the feeder are optional; this vine is the organic pay-per-view.
+companions_unresolved:
+- name: Scarlet Bee Balm
+  original: Scarlet Bee Balm — herb layer beneath trellis draws hummingbirds to a two-story buffet

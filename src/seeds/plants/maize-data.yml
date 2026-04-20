@@ -1,0 +1,54 @@
+- common_name: Maize
+  picture: maize.webp
+  scientific_name: Zea mays
+  aka:
+  - Corn
+  family: Poaceae
+  zone: 3-11
+  ideal_temp_min: 60
+  ideal_temp_max: 95
+  min_temp: 32
+  max_temp: 105
+  perennial: false
+  layers:
+  - Herb
+  plant_function:
+  - Edible
+  - Animal Fodder
+  - Biomass
+  - Mulcher
+  - Pollinator
+  growth_habit: Annual grass
+  description: |-
+    Maize (Zea mays) is a warm-season annual grass domesticated in the Americas, grown for sweet ears, dent grain, silage, and biomass. Single-culm or lightly tillering plants reach 1.5 to 4 meters (5 to 13 feet) depending on variety, with broad leaves and separate male and female inflorescences. Kernel types range from sugary sweet corn to starchy flint and dent landraces adapted across humid subtropical to temperate zones.
+
+    It anchors annual grain beds, three-sister mounds with running squash, and silage blocks in integrated livestock systems worldwide.
+
+    Plant in full sun after soil warms; seeds rot in cold, wet soil. Consistent moisture around pollination prevents blank ears; drought during grain fill reduces test weight sharply.
+
+    Direct-sow in warm soil 2 to 3 cm deep, or start transplants for short seasons. Isolate popcorn, sweet, and field types by distance or timing to limit unwanted crosses.
+
+    Harvest sweet corn when silks brown and kernels exude milky sap when punctured; harvest grain when husks dry and kernel moisture matches storage or processing goals.
+  purpose: |-
+    Edible: Fresh sweet ears, nixtamalized masa, and roasted grain diversify calorie bases -- starch yield per unit area remains high when fertility matches hybrid or landrace demand.
+    Animal Fodder: Whole-plant silage carries energy for ruminants -- harvest window balances sugar with fiber before lignin spikes.
+    Biomass: Stover feeds compost or biochar systems after grain removal -- carbon-heavy residue balances nitrogen-rich green manures in piles.
+    Mulcher: Shredded stalks cover soil overwinter -- slows erosion on sloping annual blocks when combined with cover crops following harvest.
+    Pollinator: Although wind-pollinated, border rows of mixed herbs nearby support beneficial insects that reduce pest outbreaks in adjacent annuals -- design field margins intentionally rather than leaving bare dirt.
+  companions:
+  - slug: pumpkin
+    name: Pumpkin
+  - slug: winter-squash
+    name: Winter Squash
+  - slug: green-bean
+    name: Green Bean
+  cautions:
+  - Tomato
+  field_observations: ""
+  pests:
+  - Corn Earworm
+  - Fall Armyworm
+  - Japanese Beetles
+  companion_categories:
+  - name: Three-sister mounds
+    type: system

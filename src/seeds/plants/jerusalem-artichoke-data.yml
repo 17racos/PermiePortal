@@ -24,19 +24,11 @@ plant_function:
 description: |-
   Jerusalem artichoke is the sunflower that went underground and invented fart jokes. Tubers are inulin-rich — great for diabetics on paper, chaotic for dinner parties if portions are naive. It spreads from overlooked tuber bits; treat it like bamboo's polite cousin that still invades if you ignore boundaries. subtropical and tropical Americas grows it fine; harvest in cool months for firmer texture.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun for tall stems and heavy tuber set.
-  - Average to rich soil; steady moisture during growth, drier at harvest if soil allows.
-  - Confine to beds or barrels if you fear eternal volunteers.
+  Full sun for tall stems and heavy tuber set. Average to rich soil; steady moisture during growth, drier at harvest if soil allows. Confine to beds or barrels if you fear eternal volunteers.
 
-  ✂️ Methods to Propagate:
-  - Tubers: replant golf-ball-sized pieces in spring after last frost.
-  - Crowns: moving clumps resets spread when neighbors complain.
+  Tubers: replant golf-ball-sized pieces in spring after last frost. Crowns: moving clumps resets spread when neighbors complain.
 
-  🌾 Harvest / Best Use Timing:
-  - Jerusalem Artichoke: dig tubers or roots after tops senesce or frost signals storage shift -- curing a few days at 50-60°F (10-16°C) sweetens some starches.
-  - Loosen soil wide first -- snapped necks invite rot in storage.
-  - Brush-dry before long storage; plastic totes without airflow grow penicillin cosplay.
+  Jerusalem Artichoke: dig tubers or roots after tops senesce or frost signals storage shift -- curing a few days at 50-60°F (10-16°C) sweetens some starches. Loosen soil wide first -- snapped necks invite rot in storage. Brush-dry before long storage; plastic totes without airflow grow penicillin cosplay.
 purpose: |-
   Edible: Helianthus tuberosus tubers store inulin that roasts sweet and pickles crisp -- start with small servings because fermentation in the gut rewards patience over bravado at the potluck.
   Animal Fodder: Hogs uproot and clean beds in autumn, converting tops and culls into pork while breaking soil for next season -- rotate species so nematodes do not build in monoculture sunchokes.
@@ -44,9 +36,10 @@ purpose: |-
   Wildlife Attractor: Late-season yellow ray flowers feed bumblebees after many composites fade -- leave seed heads if goldfinches need winter pickings along wet meadow edges.
   Dynamic Accumulator: Deep rhizomes mine potassium and phosphorus that return when tops rot in place -- pair with comfrey downslope so nutrient cycling hits multiple horizons.
 companions:
-- Beans
-- Corn
-- Comfrey
+- slug: comfrey
+  name: Comfrey
+- slug: fava-bean
+  name: Fava Bean
 cautions:
 - Unbounded planting in manicured yards
 - Serving huge portions to guests without warning
@@ -59,3 +52,13 @@ pests:
 - Root Aphid
 - Powdery Mildew
 - Root Rot
+companions_unresolved:
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index
+- name: Corn
+  original: Corn
+companions_normalized:
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

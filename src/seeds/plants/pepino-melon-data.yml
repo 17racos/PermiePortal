@@ -2,8 +2,8 @@ common_name: Pepino Melon
 picture: pepino_melon.webp
 scientific_name: Solanum muricatum
 aka:
-- Pepino dulce
-- Melon pear
+  - Pepino dulce
+  - Melon pear
 family: Solanaceae
 zone: 9-11
 ideal_temp_min: 60
@@ -12,66 +12,58 @@ min_temp: 28
 max_temp: 100
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Edible
-- Ornamental
-- Pollinator
+  - Edible
+  - Ornamental
+  - Pollinator
 description: |-
   Pepino melon (Solanum muricatum) is a short-lived shrubby nightshade from the Andean highlands, grown across frost-free parts of the Americas for melon-like fruits streaked purple when ripe. Soft, broad leaves and a sprawling habit resemble a polite eggplant cousin. It suits protected courtyards, polytunnels, and mild coastal gardens where tomatoes thrive but true melons sulk.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun to very light shade; fruit colors best with strong light.
-  - Moderate, even moisture during fruit swell; reduce if nights stay cool and humid to limit rot.
-  - Rich, well-drained loam; container culture needs disciplined drainage, not souvenir saucers.
+  Full sun to very light shade; fruit colors best with strong light. Moderate, even moisture during fruit swell; reduce if nights stay cool and humid to limit rot. Rich, well-drained loam; container culture needs disciplined drainage, not souvenir saucers.
 
-  ✂️ Propagation:
-  - Semi-hardwood cuttings rooted under humidity in warm seasons.
-  - Seeds possible but variable; named selections stay truer to cuttings.
-  - Pinch tips to branch bushy plants; stake heavy fruiting stems.
+  Semi-hardwood cuttings rooted under humidity in warm seasons. Seeds possible but variable; named selections stay truer to cuttings. Pinch tips to branch bushy plants; stake heavy fruiting stems.
 
-  🌾 Harvest / Best Use Timing:
-  - Pick when fruits yield slightly to pressure and striping purples; flavor is bland if picked green.
-  - Ripen indoors off-plant like a tomato if borderline and nights turn cool.
-  - Overripe fruits split—check daily during peak season.
+  Pick when fruits yield slightly to pressure and striping purples; flavor is bland if picked green. Ripen indoors off-plant like a tomato if borderline and nights turn cool. Overripe fruits split—check daily during peak season.
 purpose: |-
   Edible: Solanum muricatum pepinos ripen to melon-cucumber sweetness with purple striping when nights stay warm -- pick at full color and slight yield; flavor stays bland if harvested green like supermarket tomatoes.
   Ornamental: Soft gray-green leaves and egg-shaped fruit make tidy container specimens on patios -- stake sprawling stems so striped fruit hangs at eye level instead of mud-splashing on pavers.
   Pollinator: Purple-streaked star flowers offer pollen to bumble workers and generalist bees during warm months -- avoid broad-spectrum sprays during bloom if you want fruit set in polytunnels.
 companions:
-- Scarlet Eggplant — matches nightshade soil prep, timing, and staking habits in warm
-  beds
-- Pineapple Sage — hummingbird traffic and contrasting texture without root crowding
-  Solanum
-- Lemon Balm — low herb layer fills bare soil and tolerates similar irrigation rhythms
+  - slug: scarlet-eggplant
+    name: Scarlet Eggplant
+  - slug: pineapple-sage
+    name: Pineapple Sage
+  - slug: lemon-balm
+    name: Lemon Balm
 cautions:
-- None documented
+  - None documented
 pests:
-- Andean Potato Weevil
-- Aphids
-- Broad Mite
-- Colorado Potato Beetle
-- Corn Earworm
-- Cyclamen Mite
-- Flea Beetles
-- Greenhouse Whitefly
-- Leaf Curl
-- Pepper Weevil
-- Potato Scab
-- Reniform Nematode
-- Root Aphid
-- Shore Fly
-- Spider Mites
-- Stink Bug
-- Tobacco Budworm
-- Tomato Hornworms
-- Whiteflies
-- Wireworm
-- Fusarium Wilt
-- Late Blight
-- Leaf Spot
-- Pythium Root Rot
-- Spotted Cucumber Beetle
-- Brown Marmorated Stink Bug
+  - Andean Potato Weevil
+  - Aphids
+  - Broad Mite
+  - Colorado Potato Beetle
+  - Corn Earworm
+  - Cyclamen Mite
+  - Flea Beetles
+  - Greenhouse Whitefly
+  - Leaf Curl
+  - Pepper Weevil
+  - Potato Scab
+  - Reniform Nematode
+  - Root Aphid
+  - Shore Fly
+  - Spider Mites
+  - Stink Bug
+  - Tobacco Budworm
+  - Tomato Hornworms
+  - Whiteflies
+  - Wireworm
+  - Fusarium Wilt
+  - Late Blight
+  - Leaf Spot
+  - Pythium Root Rot
+  - Spotted Cucumber Beetle
+  - Brown Marmorated Stink Bug
 growth_habit: Soft-wooded branching shrub sprawl to several feet without hard pruning
 data_quality_score: 0.78

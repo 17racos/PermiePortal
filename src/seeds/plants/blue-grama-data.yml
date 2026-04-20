@@ -21,29 +21,26 @@ plant_function:
 description: |-
   Blue grama (Bouteloua gracilis) is a warm-season bunchgrass of shortgrass prairie and dry foothills from central Canada to Mexico, famous for eyebrow-shaped one-sided seed heads that hover above fine blue-green blades. It typically grows 6–20 inches (15–50 cm) depending on rainfall, forming dense tufts that outcompete weeds once established. In permaculture it is a low-input lawn alternative, path edge stabilizer, and forage component that respects water budgets better than cool-season turf cosplay.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun; shade weakens stands and invites weed takeover. Extremely drought-tolerant with deep roots after establishment; occasional deep watering speeds establishment the first year. Tolerates alkaline, rocky, and lean soils; hates prolonged waterlogging without air.
 
-  ✂️ Propagation:
    Sow seed in warm soil after frost risk; keep weed pressure down while seedlings are tiny. Divide dormant bunches in early spring for landscape plugs. Use local ecotype seed when restoring rainfall patterns matched to your site.
 
-  🌾 Harvest / Best Use Timing:
   For grazing, rotate before severe defoliation during drought—warm-season grasses recover from crown reserves when rain returns. For seed harvest, collect when spikelets dry and detach; ornamental mowing can wait until after winter interest if you like the seed-flag aesthetic.
 purpose: |-
-  Ground Cover: Bouteloua gracilis bunches stitch into short warm-season turf on sun-baked flats where cool-season grasses brown out by July.
-  Animal Fodder: Young leaves stay palatable for sheep and cattle if you rotate before seed stalks lignify, because protein dives once one-sided spikes fully extend.
-  Erosion Control: Dense fibrous roots bind disturbed road cuts and terrace faces in dry climates where shallow-rooted weeds wash first.
-  Ornamental: Eyebrow-shaped spikes hover an inch above blades and catch low winter light coppery tan against snow.
-  Wildlife Attractor: Sparrows and harvest mice work seed heads in fall while basal tufts hide overwintering crickets at soil level.
+  Ground Cover: Bouteloua gracilis bunches stitch into short warm-season turf on sun-baked flats -- where cool-season grasses brown out by July.
+  Animal Fodder: Young leaves stay palatable for sheep and cattle -- if you rotate before seed stalks lignify, because protein dives once one-sided spikes fully extend.
+  Erosion Control: Dense fibrous roots bind disturbed road cuts and terrace faces in dry climates -- where shallow-rooted weeds wash first.
+  Ornamental: Eyebrow-shaped spikes hover an inch above blades -- catch low winter light coppery tan against snow.
+  Wildlife Attractor: Sparrows and harvest mice work seed heads in fall -- while basal tufts hide overwintering crickets at soil level.
 companions:
-- Little Bluestem — taller warm-season neighbor adds vertical contrast in mixed prairie
-  mixes
-- Pale Purple Coneflower — forb partner pulls pollinators through grass-dominated
-  plantings
-- Yarrow — low forb handles dry edges beside grama without irrigation blackmail
+- slug: little-bluestem
+  name: Little Bluestem
+- slug: pale-purple-coneflower
+  name: Pale Purple Coneflower
+- slug: yarrow
+  name: Yarrow
 cautions:
-- Heavy shade — thins to moss and disappointment unless you redesign for shade-tolerant
-  species
+- Heavy shade — thins to moss and disappointment unless you redesign for shade-tolerant species
 pests:
 - Aphids
 - Armyworms
@@ -57,6 +54,5 @@ pests:
 - Spittlebugs
 - Wireworm
 - Leaf Blight
-growth_habit: Warm-season bunchgrass; one-sided seed spikes; dry prairie and steppe
-  specialist
+growth_habit: Warm-season bunchgrass; one-sided seed spikes; dry prairie and steppe specialist
 data_quality_score: 0.86

@@ -20,31 +20,30 @@ plant_function:
 description: |-
   Ashe magnolia (Magnolia ashei) is a rare, small deciduous tree of humid temperate woodlands in parts of the southeastern United States, valued for enormous leaves that can exceed 12 inches (30 cm) in length and fragrant creamy flowers marked with rose-purple inner bases. Plants often grow as multi-stemmed understory individuals roughly 10–25 feet (3–8 m), spreading by root sprouts in favorable litter-rich soils. It suits native plant collections, shaded courtyards, and oak-pine edges where humidity stays moderate and root zones stay cool.
 
-  ☀️💧 Sun and Water Requirements:
   Partial shade, especially from high canopy or east-facing exposures; harsh midday sun burns leaves on young plants. Moist, well-drained, acidic organic soil mimics forest floor conditions; drought and compacted fill cause rapid decline. Mulch deeply but keep mulch off stem flare.
 
-  ✂️ Propagation:
   Sow fresh seed after removing red sarcotesta; do not let seed desiccate. Warm stratification followed by cold may improve germination in some lots. Softwood cuttings are difficult for amateurs—seed is the practical route for most growers.
 
-  🌾 Harvest / Best Use Timing:
   Not a crop plant—enjoy flowers in spring and large tropical-looking foliage through summer. Collect ripe follicles before wildlife scatter all seed if you propagate. Minimal pruning; remove only dead wood or crowded sprouts to preserve natural form.
 purpose: |-
   Ornamental: Magnolia ashei carries dinner-plate leaves and fragrant cream cups stained rose-purple inside -- multi-stem understory form gives bigleaf drama without a 60-foot oak footprint.
   Wildlife Attractor: Beetle-pollinated flowers and red-seeded follicles feed specialist insects and small mammals in Gulf Coastal hammocks -- collect seed quickly if you propagate because wildlife empties follicles fast.
   Shade Provider: Very broad deciduous leaves cast deep cool shade for Christmas ferns, hydrangeas, and spring ephemerals at the drip line -- afternoon sun inland bronzes juvenile foliage without canopy protection.
   Mulcher: Thick acidic leaf fall builds fungal duff under oaks and hickories -- rake only where mats smother tiny bulbs you still want to see each March.
-companions:
-- Christmas Fern — evergreen ground cover tolerates magnolia leaf litter acidity
-- Oakleaf Hydrangea — layered texture under high canopy with similar organic soil
-  needs
-- Flowering Dogwood — complementary spring bloom sequence without overshading the
-  magnolia crown
+companions: []
 cautions:
-- Limited commercial availability — verify ethical provenance; wild digging damages
-  rare populations
+- Limited commercial availability — verify ethical provenance; wild digging damages rare populations
 - Dry winds and reflected heat from walls — leaf scorch on juvenile plants
 pests:
 - Scale Insects
 - Caterpillars
 growth_habit: Small deciduous tree or large shrub; very large leaves; fragrant flowers
 data_quality_score: 0.8
+companions_unresolved:
+- name: Christmas Fern
+  original: Christmas Fern — evergreen ground cover tolerates magnolia leaf litter acidity
+- name: Oakleaf Hydrangea
+  original: Oakleaf Hydrangea — layered texture under high canopy with similar organic soil needs
+  note: normalization_target_not_in_index
+- name: Flowering Dogwood
+  original: Flowering Dogwood — complementary spring bloom sequence without overshading the magnolia crown

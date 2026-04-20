@@ -26,22 +26,20 @@ description: |-
   Thrives in winter cool and mild seasons; can look tatty in brutal summer drought unless given a little shade and moisture.
 
   Sun and water: Full sun to part shade. Tolerates poor, compacted soil—that is the brand. Irrigate if you want lush leaves for harvest.
-  ✂️ Propagation:
+
   Self-seeds abundantly; transplant rosettes when soil is moist.
 
-  🌾 Harvest / Best Use Timing:
-  - Snip tender Ribwort Plantain growth in cool mornings for best texture -- heat-stressed leaves taste like their day job.
-  - Flowers at full color for peak volatiles; seeds when pods rattle but before they self-sow across paths.
-  - Dry herbs in thin layers; deep piles steam themselves into compost.
+  Snip tender Ribwort Plantain growth in cool mornings for best texture -- heat-stressed leaves taste like their day job. Flowers at full color for peak volatiles; seeds when pods rattle but before they self-sow across paths. Dry herbs in thin layers; deep piles steam themselves into compost.
 purpose: |-
   Edible: Plantago lanceolata young strap leaves add mild bitterness to spring salads while seeds grind into psyllium-style mucilage when fully ripe -- harvest from clean margins; roadside soot tastes like regret, not terroir.
   Medicinal: Fresh leaf poultices and leaf tea appear in European first-aid for insect bites and minor wounds tied to aucubin content -- dry fast with airflow; moldy piles belong in compost, not apothecary jars.
   Dynamic Accumulator: Deep taproots pull calcium and magnesium from subsoil fractures into leaf ash that composts back onto beds -- chop before seed rain if you dislike editing plantain out of carrot rows next year.
   Animal Fodder: Rabbits, poultry, and goats nibble tender rosettes in rotational paddocks where plantain volunteers after overgrazing -- protein beats turf grass; still rotate species so animals do not monodiets on one weed.
 companions:
-- Clover
-- Dandelion
-- Yarrow
+- slug: dandelion
+  name: Dandelion
+- slug: yarrow
+  name: Yarrow
 cautions:
 - Confusing with plantains you cannot ID
 - Overharvesting single wild patches to extinction
@@ -51,3 +49,6 @@ pests:
 - flea beetles
 growth_habit: Low rosette perennial; erect flower spikes
 data_quality_score: 0.75
+companions_unresolved:
+- name: Clover
+  original: Clover

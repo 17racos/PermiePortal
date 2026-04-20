@@ -23,31 +23,26 @@ plant_function:
 description: |-
   Curry leaf tree (Murraya koenigii) is a multi-stemmed tropical to subtropical shrub or small tree from South and Southeast Asia, famous for aromatic compound leaves used as a fresh seasoning. In frost-free climates it reaches roughly 10–20 feet (3–6 m) unless kept smaller by pruning. White fragrant flowers yield small dark berries that are not the culinary focus—leaves are the crop that earns it space near kitchens and herb gardens.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun for dense aromatic foliage; light shade acceptable in hottest deserts if humidity exists. Rich, well-drained soil with steady moisture during warm growth periods; reduce water when nights cool and growth slows. Protect from drying wind on marginally cold sites.
 
-  ✂️ Propagation:
   Sow fresh seed warm; viability drops quickly with age—old packets are decoration. Root semi-hardwood cuttings under humidity in warm weather for clones of high-oil selections. Air-layering works on older stems if you want a instant small tree.
 
-  🌾 Harvest / Best Use Timing:
   Pick young leaflets for brightest flavor; frequent tipping keeps plants bushy and within reach. Flowers are pleasant but removing some inflorescences can redirect energy to leaves on small specimens. Freeze or dry leaves carefully—quality drops if they stew in plastic.
 purpose: |-
   Edible: Murraya koenigii compound leaflets carry the true curry-leaf aroma for tadka and sambar -- freeze or dry carefully; flavor fades fast in plastic.
   Medicinal: Ayurvedic texts emphasize leaf extracts for digestion and glycemic support -- confirm species ID and drug interactions before daily therapeutic use.
-  Ornamental: Glossy pinnate foliage and fragrant white flowers suit subtropical courtyards as a small multi-stem tree or large shrub.
-  Wildlife Attractor: Citrus-family flowers draw small bees and butterflies in warm months where the plant is not invasive.
+  Ornamental: Glossy pinnate foliage and fragrant white flowers suit subtropical courtyards -- works as a small multi-stem tree or large shrub depending on pruning.
+  Wildlife Attractor: Citrus-family flowers draw small bees and butterflies in warm months -- where the plant is not invasive.
 companions:
-- Moringa — fast leafy neighbor that tolerates similar heat cycles without root trench
-  warfare
-- Lemongrass — shared culinary bed with distinct harvest timing and complementary
-  scents
-- Banana — dappled understory while young; move curry leaf into sun as canopy rises
-  if needed
+- slug: moringa
+  name: Moringa
+- slug: lemongrass
+  name: Lemongrass
+- slug: banana
+  name: Banana
 cautions:
-- Frost — foliage burns below roughly 30°F (-1°C); container culture for marginal
-  zones
-- Invasive potential — confirm local assessments before planting near natural areas
-  in oceanic climates
+- Frost — foliage burns below roughly 30°F (-1°C); container culture for marginal zones
+- Invasive potential — confirm local assessments before planting near natural areas in oceanic climates
 pests:
 - Aphids
 - Asian Citrus Psyllid
@@ -68,6 +63,5 @@ pests:
 - Citrus Rust Mite
 - Rust Mite
 - Swallowtail Caterpillar
-growth_habit: Multi-stemmed Rutaceae shrub to small tree; pinnate aromatic leaves;
-  tropical/subtropical
+growth_habit: Multi-stemmed Rutaceae shrub to small tree; pinnate aromatic leaves; tropical/subtropical
 data_quality_score: 0.83

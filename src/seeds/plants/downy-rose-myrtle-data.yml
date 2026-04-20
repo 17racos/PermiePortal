@@ -2,11 +2,11 @@ common_name: Downy Rose Myrtle
 picture: downy_rose_myrtle.webp
 scientific_name: Rhodomyrtus tomentosa
 aka:
-- Downy rose-myrtle
-- Ceylon hill gooseberry
-- Rose Myrtle
-- Downy Myrtle
-- Hill Gooseberry
+  - Downy rose-myrtle
+  - Ceylon hill gooseberry
+  - Rose Myrtle
+  - Downy Myrtle
+  - Hill Gooseberry
 family: Myrtaceae
 zone: 9-13
 ideal_temp_min: 65
@@ -15,41 +15,38 @@ min_temp: 25
 max_temp: 105
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Edible
-- Ornamental
-- Wildlife Attractor
-- Ground Cover
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  - Ground Cover
 description: |-
   Downy rose myrtle (Rhodomyrtus tomentosa) is the same species often sold under multiple common names: an evergreen shrub with rose-pink myrtle flowers and small purple berries, native to southern and southeastern Asia and naturalized in some oceanic and subtropical regions. Height ranges roughly 3–7 feet (1–2 m) unless constrained by pruning or exposure. This entry emphasizes ornamental fruiting hedges and the ecological responsibility of planting a species that resprouts strongly after disturbance.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun for heaviest bloom; bright part shade reduces stress where midday heat is extreme. Well-drained, organic soils with regular irrigation during establishment; mature plants tolerate short dry spells in humid air. Avoid chronically saturated root zones that trigger root rots masked as mysterious decline without honest drainage diagnosis.
 
-  ✂️ Propagation:
   Seed from ripe fruit sown warm after cleaning; many seedlings vary in vigor. Cuttings from semi-hardwood tips root under mist in summer for uniform hedges. Remove root suckers promptly where spread is unwelcome.
 
-  🌾 Harvest / Best Use Timing:
   Berries are picked fully colored for fresh use or processing in cultures with established recipes. For wildlife corridors, leave a percentage of fruit untouched. Prune after fruiting to shape; heavy rejuvenation cuts stimulate basal sprouts—plan for that energy instead of pretending stems will politely behave.
 purpose: |-
   Edible: Rhodomyrtus tomentosa purple berries are tart-sweet for jams where regional recipes exist -- confirm local legality; species can spread by bird-dispersed seed.
-  Ornamental: Rose-pink myrtle flowers and tomentose evergreen foliage suit subtropical hedges and courtyard screens.
+  Ornamental: Rose-pink myrtle flowers and tomentose evergreen foliage suit subtropical hedges and courtyard screens -- note invasive status in some regions before planting.
   Wildlife Attractor: Frugivorous birds move seed -- design for containment if conservation parcels border the planting.
-  Ground Cover: Low branching fills warm-climate edges where mowing-dependent turf wastes water.
+  Ground Cover: Low branching fills warm-climate edges -- eliminates mowing-dependent turf that wastes water on exposed slopes.
 companions:
-- Lilly Pilly — related myrtle allies with similar cultural needs in mixed screens
-- Brush Cherry — another Myrtaceae hedge element with complementary texture
-- Banana — tall fast biomass neighbor that shades roots lightly without smothering
-  shrubs
+  - slug: syzygium-smithii
+    name: Syzygium smithii
+  - slug: brush-cherry
+    name: Brush Cherry
+  - slug: banana
+    name: Banana
 cautions:
-- Listed invasive in some subtropical states and islands — obey local prohibitions
-- Competes with native understory after fire or clearing — avoid near conservation
-  parcels
+  - Listed invasive in some subtropical states and islands — obey local prohibitions
+  - Competes with native understory after fire or clearing — avoid near conservation parcels
 pests:
-- Oriental Fruit Fly
-- Scale Insects
-- Whiteflies
-growth_habit: Evergreen multi-stem shrub; showy pink flowers; purple berries; suckers
-  from roots
+  - Oriental Fruit Fly
+  - Scale Insects
+  - Whiteflies
+growth_habit: Evergreen multi-stem shrub; showy pink flowers; purple berries; suckers from roots
 data_quality_score: 0.72

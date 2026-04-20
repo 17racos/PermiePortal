@@ -25,17 +25,14 @@ plant_function:
 description: |-
   Papaya is a fast-growing, tropical fruit tree native to Central America. It typically reaches heights of 3-10 meters (10-33 feet) with a single, unbranched trunk topped by a crown of large, palmate leaves. The tree produces oval-shaped fruits with green skin that ripen to yellow or orange, containing sweet, orange flesh and numerous black seeds.
 
-  🌞💧 Sun and Water Requirements:
   Papayas thrive in full sun and well-drained soils. They require consistent moisture but are sensitive to waterlogged conditions, which can lead to root rot. Regular watering is essential, especially during dry periods.
 
-  ✂️🫘 Methods to Propagate:
   Propagation is commonly done through seeds. To grow from seed:
   1. Extract seeds from a ripe papaya fruit.
   2. Clean and dry the seeds.
   3. Plant seeds directly in the desired location, as papayas do not transplant well due to their sensitive root systems.
   4. Seeds typically germinate in about two weeks.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
   Harvesting occurs when the fruit's skin changes from green to yellow, usually 6-9 months after planting. Fruits can be picked when partially yellow and allowed to ripen off the tree.
 purpose: |-
   Edible: Carica papaya melons ripen from green to yellow-orange with musky-sweet flesh around central black seeds for fresh eating, smoothies, and green-papaya salads -- thin to single-stem females (or hermaphrodite lines) for reliable fruit; bag clusters if fruit flies own your block.
@@ -48,9 +45,10 @@ purpose: |-
   Border Plant: Soft-wooded single trunks screen fences and poultry yards within one rainy season -- replant roughly decade-scale because hollow stems eventually lodge in wind unless topped on purpose.
   Pest Management: Fermented leaf teas and interplanted aromatics confuse some chewing insects in anecdotal trials -- still scout for ringspot virus vectors because companion scent is not a substitute for clean tools and tolerant cultivars.
 companions:
-- Banana
-- Sweet Potato
-- Mustard
+- slug: banana
+  name: Banana
+- slug: sweet-potato
+  name: Sweet Potato
 cautions:
 - None specified
 pests:
@@ -62,3 +60,6 @@ pests:
 - Green Iguana
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Mustard
+  original: Mustard

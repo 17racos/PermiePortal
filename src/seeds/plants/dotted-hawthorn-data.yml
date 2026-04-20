@@ -22,28 +22,25 @@ plant_function:
 description: |-
   Dotted hawthorn (Crataegus punctata) is a native North American rosaceous tree or large shrub of old fields, woodland edges, and limestone openings, bearing white spring blossoms and red to yellowish pome fruits dotted with glandular specks. Mature height is often 20–30 feet (6–9 m) with a rounded crown and formidable thorns on many individuals. It is a backbone species for wildlife hedgerows, pasture edges, and restoration blocks where hawthorn diversity is welcome.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun to light shade; more sun equals heavier flowering and fruiting. Adapts to many soils if drainage is reasonable; tolerates alkaline substrates better than some eastern Crataegus. Young trees benefit from mulch to reduce grass competition at the root flare.
 
-  ✂️ Propagation:
   Sow cleaned seed after warm-cold stratification cycles; hawthorns are patient germinators. Chip budding or grafting is used for selected fruit lines in orchard contexts. Transplant small bareroot specimens in cool moist weather to limit transplant shock.
 
-  🌾 Harvest / Best Use Timing:
   Pick fruit after color change when slightly soft for processing into jelly or fruit leather—flavor is tart. For wildlife-first plantings, leave clusters until birds schedule their banquet. Prune crossing branches in late winter; avoid heavy summer topping that invites water sprouts.
 purpose: |-
   Edible: Crataegus punctata pomes are tart -- cook into jelly or leather after the red-to-yellow fruit softens; seeds contain cyanogenic compounds like other hawthorns.
-  Wildlife Attractor: White May blossoms feed diverse pollinators; red pomes feed thrushes and mammals into winter.
-  Erosion Control: Deep roots and thorny architecture stabilize old-field edges and limestone cuts animals shortcut through.
-  Border Plant: Thorny crowns mark livestock and property lines with native rosaceous structure instead of plastic signage.
+  Wildlife Attractor: White May blossoms feed diverse pollinators -- red pomes feed thrushes and mammals into winter.
+  Erosion Control: Deep roots and thorny architecture stabilize old-field edges and limestone cuts -- animals avoid the thorns, reducing trampling pressure on the slope.
+  Border Plant: Thorny crowns mark livestock and property lines with native rosaceous structure -- instead of plastic signage.
 companions:
-- American Plum — complementary early bloom and fruit sequence along fencerows
-- Serviceberry — earlier fruiting neighbor that staggers wildlife calories in the
-  same hedgerow
-- Echinacea — herbaceous insectary layer under open canopies without competing for
-  crown space
+- slug: american-plum
+  name: American Plum
+- slug: serviceberry
+  name: Serviceberry
+- slug: echinacea
+  name: Echinacea
 cautions:
-- Fire Blight — rosaceous risk in humid springs on susceptible genotypes; prune out
-  strikes promptly
+- Fire Blight — rosaceous risk in humid springs on susceptible genotypes; prune out strikes promptly
 - Thorns — serious puncture hazard during careless ladder work or child shortcuts
 pests:
 - Apple Maggot
@@ -82,6 +79,5 @@ pests:
 - Eastern Tent Caterpillar
 - Harlequin Ladybird
 - Tent Caterpillar
-growth_habit: Thorny deciduous small tree; white clusters; speckled haws; edge and
-  pasture species
+growth_habit: Thorny deciduous small tree; white clusters; speckled haws; edge and pasture species
 data_quality_score: 0.76

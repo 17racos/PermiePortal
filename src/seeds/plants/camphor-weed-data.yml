@@ -20,24 +20,21 @@ plant_function:
 description: |-
   Camphor weed (Heterotheca subaxillaris) is a resinous annual to biennial aster of open sandy ground, roadsides, and old fields in eastern and central North America, often branching 1–4 feet (30–120 cm) with yellow daisy flowers and aromatic foliage when crushed. It colonizes disturbance quickly, feeding pollinators in late season when many species fade. Treat it as a native pioneer, not a formal border staple, unless you enjoy self-seeding surprises.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun; thrives in dry, infertile sand and tolerates drought once taproots establish. Poor fit for irrigated perennial beds where seed rain becomes a nuisance. Avoid overwatering in heavy clay that promotes root rots.
 
-  ✂️ Propagation:
   Direct-sow after frost; needs light for germination—surface sow and press in. Transplant volunteers early if curating a pioneer patch. Remove seed heads before dispersal if excluding from a refined garden.
 
-  🌾 Harvest / Best Use Timing:
   Not a standard crop—value is ecological. For experiments in aromatic oils, harvest flowering tops on dry mornings; research processing before scaling. Mow or pull before heavy seed set if managing succession to grasses.
 purpose: |-
   Wildlife Attractor: Yellow resinous daisies bloom late in warm-temperate fields when many earlier forbs finish, feeding bees and butterflies before frost -- camphorweed's late bloom window fills a nectar gap most annual gardens leave empty.
-  Dynamic Accumulator: Pulls minerals into hairy stems on sandy waste ground fast enough to chop before pappus seeds mature and move those nutrients into compost windrows.
-  Mulcher: Cut stems lay down as aromatic mulch on bare early-succession soil if mowing happens before fluffy seeds ripen and drift into beds.
-  Biomass: Produces rank annual-to-biennial bulk on roadsides with little irrigation, giving high carbon returns per weeding pass when timed before seed rain.
+  Dynamic Accumulator: Pulls minerals into hairy stems on sandy waste ground fast enough to chop -- before pappus seeds mature and move those nutrients into compost windrows.
+  Mulcher: Cut stems lay down as aromatic mulch on bare early-succession soil -- if mowing happens before fluffy seeds ripen and drift into beds.
+  Biomass: Produces rank annual-to-biennial bulk on roadsides with little irrigation -- giving high carbon returns per weeding pass when timed before seed rain.
 companions:
-- Partridge Pea — annual legume companion in early-succession pollinator strips
-- Blazing Star — perennial upgrade path; manage camphor weed seed as liatris establishes
-- Little Bluestem — warm-season matrix that eventually competes down pioneer forbs
-  with fire or mowing
+- slug: partridge-pea
+  name: Partridge Pea
+- slug: little-bluestem
+  name: Little Bluestem
 cautions:
 - Self-seeding — abundant pappus-borne seed invades mulched beds near open sand
 - Aromatic resins — may irritate sensitive skin on hot days when handling heaps
@@ -49,6 +46,8 @@ pests:
 - Lettuce Aphid
 - Lubber Grasshopper
 - Root Aphid
-growth_habit: Branching annual to biennial aster; yellow flowers; aromatic resinous
-  foliage
+growth_habit: Branching annual to biennial aster; yellow flowers; aromatic resinous foliage
 data_quality_score: 0.8
+companions_unresolved:
+- name: Blazing Star
+  original: Blazing Star — perennial upgrade path; manage camphor weed seed as liatris establishes

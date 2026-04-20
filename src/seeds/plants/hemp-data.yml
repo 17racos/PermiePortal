@@ -16,34 +16,22 @@ layers:
 plant_function:
 - Fiber
 - Edible
-- Cover Crop
 - Dynamic Accumulator
 description: |-
   Industrial hemp is Cannabis sativa grown for fiber, seed, and extract markets — not the lounge-chair marketing story, just a fast annual that eats sunlight and makes long bast fibers. Legality is a paperwork theme park: follow your state program if you plant a field, or you will meet people with badges. subtropical and tropical Americas humidity raises disease pressure; choose adapted cultivars and spacing for air flow.
 
-  ☀️💧 Sun and Water:
-  - Full sun; competitive stand needs fertility and water early, then moderate through season.
-  - Well-drained soil; soggy fields invite root pathogens.
+  Full sun; competitive stand needs fertility and water early, then moderate through season. Well-drained soil; soggy fields invite root pathogens.
 
-  ✂️ Propagation:
-  - Direct seed when soil warms; tight spacing for fiber, wider for seed.
-  - Transplants used in some systems for weed control head start.
+  Direct seed when soil warms; tight spacing for fiber, wider for seed. Transplants used in some systems for weed control head start.
 
   PermieBro: great in a rotation slot; still not a magic carbon credit tree.
 
-  🌾 Harvest / Best Use Timing:
-  - Fiber hemp: harvest at early to mid-bloom for long bast strips -- seed hemp follows combine moisture rules for that cultivar.
-  - CBD-type fields follow regional compliance testing windows -- legal paperwork is part of the calendar.
-  - Dry stalks in shocks with airflow; moldy hemp is landfill, not craft.
+  Fiber hemp: harvest at early to mid-bloom for long bast strips -- seed hemp follows combine moisture rules for that cultivar. CBD-type fields follow regional compliance testing windows -- legal paperwork is part of the calendar. Dry stalks in shocks with airflow; moldy hemp is landfill, not craft.
 purpose: |-
   Fiber: Cannabis sativa grown for fiber forms long bast strips in the outer stem -- ret or decorticate at early bloom for cordage and textile feedstock, then dry shocks with airflow so mold does not trash the crop.
   Edible: Oilseed lines produce grain-grade achenes and pressing oil where cultivars and law allow -- harvest at correct moisture for combines and keep THC compliance testing on the calendar, not as an afterthought.
-  Cover Crop: Tight-spaced fiber stands close canopy fast enough to smother summer annual weeds -- terminate before seed set if you dislike volunteers, or rotate into fall brassicas that use the residue.
   Dynamic Accumulator: Deep taproots mine subsoil nutrients that return when stalks are chipped or composted -- pair with clover undersow if you want extra N fixation in the same season slot.
-companions:
-- Clover
-- Oats
-- Field Pea
+companions: []
 cautions:
 - Planting without checking state hemp rules
 pests:
@@ -52,3 +40,12 @@ pests:
 - Powdery Mildew
 growth_habit: Annual
 data_quality_score: 0.7
+companions_unresolved:
+- name: Clover
+  original: Clover
+- name: Oats
+  original: Oats
+- name: Field Pea
+  original: Field Pea
+plant_function_unresolved:
+- Cover Crop

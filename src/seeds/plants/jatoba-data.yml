@@ -17,7 +17,6 @@ layers:
 - Canopy
 plant_function:
 - Edible
-- Timber
 - Wildlife Attractor
 - Nitrogen Fixer
 description: |-
@@ -25,32 +24,25 @@ description: |-
 
   Frost-free lowlands suit in-ground culture; outside the warmest coastal pockets treat it as marginal unless you accept occasional cold damage—collector or greenhouse logic applies in cooler subtropical zones.
 
-  ☀️💧 Sun and Water Requirements:
-
   Full sun for strong architecture and reliable flowering.
   Deep, well-drained soil; established trees tolerate seasonal dry periods typical of savanna and forest-edge habitats.
 
-  ✂️ Propagation:
-
   Fresh seeds after scarification; germination improves with warmth and moisture.
   Long taproot—transplant young or plan permanent placement; field-grown stock resents root disturbance.
-
-  🌾 Harvest / Best Use Timing:
 
   Fruit pulp when pods mature and aroma peaks—regional recipes use ripe pulp for drinks and sweets.
   Timber only where legal, sustainable, and sized for the site; this is a lifetime canopy commitment, not a patio impulse.
 purpose: |-
   Edible: Hymenaea courbaril pods yield mealy pulp around seeds that sweetens into caramel notes when fully ripe -- regional drinks and sweets start there; ignore playground nicknames until you taste a properly aged pod.
-  Timber: Heartwood is dense, polishable, and resin-rich for flooring and turnery -- harvest only under legal sustained-yield plans because mature trunks take human lifetimes to replace.
   Wildlife Attractor: Large woody pods hit the litter layer for agoutis, peccaries, and beetles -- leave some pods uncollected if ground wildlife pantry matters on large lots.
   Nitrogen Fixer: Root nodules partner with rhizobia typical of detarioide legumes -- leaf litter and root turnover bank nitrogen into tropical guild soils beneath cacao without urea passes.
 companions:
-- Cacao — shade-loving understory crop that appreciates dappled light and humidity
-  under a tall legume canopy where management keeps air movement.
-- Papaya — fast soft-wood pioneer that uses light before jatoba closes the canopy;
-  similar tropical soil and irrigation logic on well-drained sites.
-- Grumichama — smaller myrtle relative for the shrub layer; shares fruit-garden guild
-  aesthetics without competing for the upper canopy.
+- slug: cacao
+  name: Cacao
+- slug: papaya
+  name: Papaya
+- slug: grumichama
+  name: Grumichama
 cautions:
 - Heavy clay with poor drainage
 - Urban lots that cannot host a real canopy tree
@@ -87,3 +79,5 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Very large evergreen canopy tree in native range
 data_quality_score: 0.75
+human_uses:
+- Timber

@@ -23,26 +23,23 @@ description: |-
 
   Marginal. Loves humidity and acidic soils; cold tolerance is not its brand. Serious growers use greenhouse or the warmest coastal microclimates.
 
-  ☀️💧 Sun and Water Requirements:
-
   Full sun to bright part shade.
   High water table tolerance compared to desert fruit; still needs drainage between flood pulses—potted growers mimic wet/dry rhythm carefully.
 
-  ✂️ Propagation:
-
   Seeds (short viability—fresh is best); air-layering for known selections.
-
-  🌾 Harvest / Best Use Timing:
 
   Pick sour green fruit for peak vitamin C or riper purple fruit for easier eating—timing follows juice versus fresh-use goals.
 purpose: |-
-  Edible: sour cherry-sized berries juice into extremely acidic vitamin C–rich drinks, syrups, and powders when picked green for peak acid or riper purple for softer eating.
-  Wildlife Attractor: clusters along river margins draw birds, bats, and insects to sweet-tart fruit that ripens during flood pulses in native Amazonian rhythms.
-  Erosion Control: multi-stemmed roots grip silty banks and pond edges in acidic wet soils where it tolerates seasonal inundation better than upland fruit trees.
+  Edible: sour cherry-sized berries juice into extremely acidic vitamin C–rich drinks, syrups, and powders -- when picked green for peak acid or riper purple for softer eating.
+  Wildlife Attractor: clusters along river margins draw birds, bats, and insects to sweet-tart fruit -- that ripens during flood pulses in native Amazonian rhythms.
+  Erosion Control: multi-stemmed roots grip silty banks and pond edges in acidic wet soils -- where it tolerates seasonal inundation better than upland fruit trees.
 companions:
-- Açaí palm
-- Guava
-- Wetland edge species
+- slug: acai-palm
+  name: Açaí Palm
+- slug: guava
+  name: Guava
+- slug: acai-palm
+  name: Açaí Palm
 cautions:
 - Alkaline irrigation water without soil organic matter
 - Dry upland sand without irrigation
@@ -53,3 +50,7 @@ pests:
 - scale insects
 growth_habit: Bushy evergreen shrub to small tree in wet tropics
 data_quality_score: 0.7
+companion_categories:
+- name: Wetland edge species
+  original: Wetland edge species
+  type: system

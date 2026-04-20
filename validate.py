@@ -1,18 +1,28 @@
 #!/usr/bin/env python3
 """
-PermiePortal Enrichment Validator
-===================================
-Run this AFTER every Cursor Agent enrichment session, BEFORE ./sync.sh
+PermiePortal plant-seed validator (stage 3 of the pipeline)
+===========================================================
+Role ONLY:
+- Schema-ish checks on plant YAML (required sections, field presence)
+- Pest names against pests-data.yml (and per-file pest seeds)
+- Companion structure / vagueness rules
+- Description length and keyword sections
+- Safe mechanical auto-fixes (--fix): e.g. geography string replace, drop invalid pest tokens
 
-Catches:
-- Invented pest slugs not in pests-data.yml
+NOT in scope:
+- Inventing or rewriting descriptions (beyond tiny safe replacements in --fix)
+- Enriching missing content or replacing NEEDS_DATA with real data
+- Creative judgment; that belongs to the Cursor agent + human editors
+
+Run after agent sessions, before ./sync.sh when checking plant seeds.
+
+Checks include:
+- Pest names not in pests-data.yml
 - Descriptions too short (< 400 chars)
-- Missing propagation/sun/water sections in description
-- Vague companions (categories instead of species)
-- Growing conditions in cautions field — acceptable per policy
-- NEEDS_DATA fields still remaining
-- North Florida geographic framing
-- Singular pest names when plural exists (Whitefly vs Whiteflies)
+- Missing sun/water/propagation cues in description
+- Vague companion strings
+- NEEDS_DATA still present
+- North Florida geographic framing (optional --fix)
 
 Usage:
   python3 validate.py              # check all seeds

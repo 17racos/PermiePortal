@@ -17,31 +17,23 @@ plant_function:
 - Ground Cover
 - Ornamental
 - Erosion Control
-- Drought Tolerant
 description: |-
   Dichondra is a creeping coin-leaf ground cover that reads ‘lawn’ to people allergic to grass monocultures. It mats low, tolerates light foot traffic, and laughs at mowing schedules. In subtropical and tropical Americas humidity, give it drainage and airflow or it will invite fungal drama like any other mat-forming plant.
 
-   🌞💧 Sun and Water Requirements:
-  - Part sun to light shade in hot climates; coastal plantings often take more sun with irrigation.
-  - Regular moisture for lush mats; established patches endure short dry spells.
-  - Avoid soggy, stagnant low spots.
+  Part sun to light shade in hot climates; coastal plantings often take more sun with irrigation. Regular moisture for lush mats; established patches endure short dry spells. Avoid soggy, stagnant low spots.
 
-  ✂️🫘 Methods to Propagate:
-  - Plug trays or stolons pressed into prepared soil.
-  - Divide mats in spring.
-  - Seed possible for some selections; plugs are faster.
+  Plug trays or stolons pressed into prepared soil. Divide mats in spring. Seed possible for some selections; plugs are faster.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
-  - Mow or clip lightly to thicken; not a food crop for humans.
+  Mow or clip lightly to thicken; not a food crop for humans.
 purpose: |-
   Ground Cover: Dichondra repens forms coin-leaf mats that tolerate light foot traffic on irrigated paths -- mow or clip to thicken.
-  Ornamental: Bright green kidneyweed reads as intentional lawn alternative in partial sun without ryegrass monoculture.
-  Erosion Control: Stolons knit gentle slopes on irrigated terraces where soil would otherwise wash between pavers.
-  Drought Tolerant: Established mats endure short dry spells better than pampered turf once roots deepen -- still needs drainage in humid heat.
+  Ornamental: Bright green kidneyweed reads as intentional lawn alternative in partial sun -- without ryegrass monoculture.
+  Erosion Control: Stolons knit gentle slopes on irrigated terraces -- where soil would otherwise wash between pavers.
 companions:
-- Peach
-- Citrus
-- Thyme
+- slug: peach-tree
+  name: Peach tree
+- slug: thyme
+  name: Thyme
 cautions:
 - Deep shade plus constant wet — mildew city
 pests:
@@ -49,3 +41,8 @@ pests:
 - Slugs
 - Snails
 - Sweet Potato Weevil
+plant_traits:
+- Drought Tolerant
+companions_unresolved:
+- name: Citrus
+  original: Citrus

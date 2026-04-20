@@ -2,8 +2,8 @@ common_name: Bignay
 picture: bignay.webp
 scientific_name: Antidesma bunius
 aka:
-- Bugnay
-- Chinese laurel
+  - Bugnay
+  - Chinese laurel
 family: Phyllanthaceae
 zone: 10-11
 ideal_temp_min: 70
@@ -12,39 +12,39 @@ min_temp: 30
 max_temp: 100
 perennial: true
 layers:
-- Tree
-- Shrub
+  - Tree
+  - Shrub
 plant_function:
-- Edible
-- Wildlife Attractor
-- Ornamental
-- Mulcher
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  - Mulcher
 description: |-
   Bignay is a Southeast Asian tree bearing long racemes of sour-to-sweet red berries—wine, jams, and brave faces at potlucks. Dioecious: you need male and female plants for fruit unless you luck into a hermaphrodite selection — subtropical and tropical Americas are only friendly in warm microclimates; cold snaps punish careless placement.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun to light shade; more sun generally means heavier flowering and fruiting where climate allows.
-  - Deep, fertile, well-drained soil; consistent moisture during fruit development.
+  Full sun to light shade; more sun generally means heavier flowering and fruiting where climate allows. Deep, fertile, well-drained soil; consistent moisture during fruit development.
 
-  ✂️ Methods to Propagate:
-  - Seeds: viable from fresh fruit; juveniles take years—patience or grafting for production.
-  - Cuttings and air-layering used for known sexed selections when available.
+  Seeds: viable from fresh fruit; juveniles take years—patience or grafting for production. Cuttings and air-layering used for known sexed selections when available.
 
-  🌾 Harvest notes:
-  - Ripening is staggered along the cluster; pick as individual berries darken—taste before you commit a whole batch to fermentation.
+  Ripening is staggered along the cluster; pick as individual berries darken—taste before you commit a whole batch to fermentation.
 purpose: |-
   Edible: Antidesma bunius strings of sour-to-sweet red berries stagger ripen along each raceme for wine and jam once sugar balances acid -- dioecious plants mean you keep a tagged male near females or jars stay empty.
   Wildlife Attractor: Fruiting panicles feed bulbuls and barbets in Asian home ranges while dropped berries volunteer seedlings under canopy -- net human rows if you dislike surprise thickets.
   Ornamental: Glossy alternate leaves and long pendulous fruit stems read tidy in humid 10b courtyards -- light pruning after harvest keeps height walkable under eaves.
   Mulcher: Evergreen leaf litter feeds understory ginger and banana circles with steady fungal duff -- rake only where mats smother low seedbank experiments.
 companions:
-- Banana
-- Leucaena
-- Ginger understory
+  - slug: banana
+    name: Banana
+  - slug: leucaena
+    name: Leucaena
 cautions:
-- Exposed frost pockets for young trees
-- Waterlogged clay that suffocates roots
+  - Exposed frost pockets for young trees
+  - Waterlogged clay that suffocates roots
 pests:
-- Scale Insects
-- Mealybugs
-- Aphids
+  - Scale Insects
+  - Mealybugs
+  - Aphids
+companion_categories:
+  - name: Ginger understory
+    original: Ginger understory
+    type: system

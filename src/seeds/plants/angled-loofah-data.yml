@@ -20,27 +20,22 @@ plant_function:
 description: |-
   Angled loofah is the ridged cousin of the sponge loofah — young fruit stir-fries like a cucumber with ambition; old fruit becomes fibrous skeletons for scrubbing dishes and exfoliating your bad decisions. It is a heat-loving annual vine that will climb your fence, your tomatoes, and your dignity if you skip a trellis. In subtropical and tropical Americas plant after soil warms; the first cold snap ends the party.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun and rich, organic soil with steady moisture during fruit set.
-  - Heavy feeder — compost and occasional balanced fertility beat miracle-gro cosplay.
-  - Trellis strongly; fruit hangs straighter and rots less than fruits on wet ground.
+  Full sun and rich, organic soil with steady moisture during fruit set. Heavy feeder — compost and occasional balanced fertility beat miracle-gro cosplay. Trellis strongly; fruit hangs straighter and rots less than fruits on wet ground.
 
-  ✂️ Methods to Propagate:
-  - Direct sow 2–3 seeds per hill after last frost, thin to strongest.
-  - Transplant: start indoors 3–4 weeks before last frost if you need head start on short seasons.
+  Direct sow 2–3 seeds per hill after last frost, thin to strongest. Transplant: start indoors 3–4 weeks before last frost if you need head start on short seasons.
 
-  🌾 Harvest / Best Use Timing:
-  - Angled Loofah: pick fruits young for vegetable use or fully ripe for seed and sweetness goals -- one plant rarely serves both fantasies.
-  - Cut stems morning; afternoon wilt reduces quality fast above 90°F (32°C).
-  - Check trellis daily during peak set; hidden fruits split after rain.
+  Angled Loofah: pick fruits young for vegetable use or fully ripe for seed and sweetness goals -- one plant rarely serves both fantasies. Cut stems morning; afternoon wilt reduces quality fast above 90°F (32°C). Check trellis daily during peak set; hidden fruits split after rain.
 purpose: |-
   Edible: Luffa acutangula young ridged fruits stir-fry crisp like assertive cucumbers when picked under 20 cm -- ridges hide sudden fiber, so harvest often during heat waves when fruits jump from tender to rope overnight.
   Fiber: Fully mature gourds dry to rattling seeds inside, then peel to expose angular sponge skeletons for scrubbing and crafts -- leave too long on the vine and pith rots before fibers set clean.
   Pollinator: Big yellow cucurbit flowers offer pollen and nectar mornings before squash bees dominate -- trellis vines so blooms stay off wet mulch where cucumber beetles party less.
 companions:
-- Beans
-- Nasturtium
-- Marigold
+- slug: nasturtium
+  name: Nasturtium
+- slug: marigold
+  name: Marigold
+- slug: fava-bean
+  name: Fava Bean
 cautions:
 - Wet foliage without airflow (disease city)
 - Letting vines sprawl on damp soil
@@ -60,3 +55,11 @@ pests:
 - Papaya Ringspot Virus
 - Pythium Root Rot
 - Spotted cucumber beetle
+companions_unresolved:
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index
+companions_normalized:
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

@@ -19,27 +19,25 @@ plant_function:
 - Erosion Control
 - Windbreaker
 description: |-
-  Desert date (*Balanites aegyptiaca*) is a slow-growing, extremely drought-tolerant tree from arid regions of Africa and parts of the Middle East, armed with spines and bearing narrow, compound-looking branchlets. Mature height is often 3–10 m depending on moisture; the yellow-green drupes are used in some traditions after careful processing while other plant parts can be toxic—**treat all use as advanced homework, not casual foraging**. In subtropical and tropical Americas it suits frost-free, rain-shadow microclimates, rockeries, and xeric demonstration plantings; it will rot in lawn sprinklers and heavy clay.
+  Desert date (*Balanites aegyptiaca*) is a slow-growing, extremely drought-tolerant tree from arid regions of Africa and parts of the Middle East, armed with spines and bearing narrow, compound-looking branchlets. Mature height is often 3–10 m depending on moisture; the yellow-green drupes are used in some traditions after careful processing while other plant parts can be toxic—treat all use as advanced homework, not casual foraging. In subtropical and tropical Americas it suits frost-free, rain-shadow microclimates, rockeries, and xeric demonstration plantings; it will rot in lawn sprinklers and heavy clay.
 
-  ☀️💧 **Sun and Water Requirements:**
   Full sun. Deep, very well-drained soil; essentially dry-season survival once established. Water deeply but rarely during establishment only.
 
-  ✂️ **Methods to Propagate:**
-  - **Seeds:** Soak or scarify hard seeds; sow in warm, fast-draining mix and keep lightly moist until germination.
-  - **Transplants:** Move young taprooted seedlings carefully into final positions to minimize disturbance.
+  Seeds: Soak or scarify hard seeds; sow in warm, fast-draining mix and keep lightly moist until germination. Transplants: Move young taprooted seedlings carefully into final positions to minimize disturbance.
 
-  🌾 **When to Harvest / Best Use Timing:**
   Fruit handling belongs to knowledgeable processors only. For landscape use, prune for clearance around thorns in the cool morning and disinfect tools—spines are not decorative jokes.
 purpose: |-
   Edible: Balanites aegyptiaca yellow-green drupes enter traditional diets only after knowledgeable processing -- alkaloids and saponins make raw use dangerous; research before any kitchen trial.
   Animal Fodder: Thorny branchlets and fruit pulp have supported drought livestock abroad -- work with a veterinarian where toxicity varies by population.
-  Erosion Control: Deep taproot and sparse canopy reduce rain splash on rocky arid soils where few trees persist.
-  Windbreaker: Multi-stem, spiny frames blunt hot dry winds along xeric lanes and livestock corridors.
+  Erosion Control: Deep taproot and sparse canopy reduce rain splash on rocky arid soils -- where few trees persist.
+  Windbreaker: Multi-stem, spiny frames blunt hot dry winds -- effective along xeric lanes and livestock corridors with zero irrigation once established.
 companions:
-- Mesquite
-- Palo verde
-- Agave
-- Prickly pear
+- slug: edible-cactus
+  name: Edible Cactus
+- slug: palo-verde
+  name: Palo Verde
+- slug: agave
+  name: Agave
 cautions:
 - None documented
 pests:
@@ -47,3 +45,6 @@ pests:
 - Borers
 growth_habit: Tree
 data_quality_score: 0.76
+companions_unresolved:
+- name: Mesquite
+  original: Mesquite

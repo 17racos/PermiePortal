@@ -2,8 +2,8 @@ common_name: Araza
 picture: araza.webp
 scientific_name: Eugenia stipitata
 aka:
-- Arazá
-- Amazon cherry
+  - Arazá
+  - Amazon cherry
 family: Myrtaceae
 zone: 10-11
 ideal_temp_min: 72
@@ -12,26 +12,20 @@ min_temp: 32
 max_temp: 105
 perennial: true
 layers:
-- Tree
-- Shrub
+  - Tree
+  - Shrub
 plant_function:
-- Edible
-- Wildlife Attractor
-- Ornamental
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
 description: |-
   Araza is a loud tropical myrtle from the Amazon headwaters—soft yellow fruit, extreme acidity, and aromatics that want sugar the way lemonade wants a business model. Often grown as a shrubby tree for juice and nectars.
 
   Collector plant for warmest pockets or greenhouse. Occasional light frost may be survived briefly when mature—do not bet the farm on 9a without protection.
 
-  ☀️💧 Sun and Water Requirements:
-
   Full sun for productivity. Loves steady moisture and organic mulch; intolerant of drought once fruiting hard.
 
-  ✂️ Propagation:
-
   Seeds (variable); grafting onto related rootstocks where expertise exists.
-
-  🌾 Harvest / Best Use Timing:
 
   Pick fruit when soft yellow and aromatic for juice, nectars, or heavily sweetened desserts; plan processing around extreme acidity.
 purpose: |-
@@ -39,16 +33,21 @@ purpose: |-
   Wildlife Attractor: Amazonian myrtle flowers and soft fruit pull specialist fruit flies and frugivorous birds in humid heat -- net outer branches if humans need volume beyond what wildlife taxes.
   Ornamental: Evergreen shrubby crowns with glossy leaves give humid subtropical structure between taller canopy trees -- tip-prune young plants for bush form if ladder harvest is not your hobby.
 companions:
-- Guava
-- Perennial Peanut
-- Heavy mulch circles
+  - slug: guava
+    name: Guava
+  - slug: perennial-peanut
+    name: Perennial Peanut
 cautions:
-- Wind-exposed hilltops without irrigation
-- Calcareous soil without amendment
+  - Wind-exposed hilltops without irrigation
+  - Calcareous soil without amendment
 pests:
-- Caribbean Fruit Fly
-- Oriental Fruit Fly
-- aphids
-- scale insects
+  - Caribbean Fruit Fly
+  - Oriental Fruit Fly
+  - aphids
+  - scale insects
 growth_habit: Evergreen shrub to small tree
 data_quality_score: 0.7
+companion_categories:
+  - name: Heavy mulch circles
+    original: Heavy mulch circles
+    type: system

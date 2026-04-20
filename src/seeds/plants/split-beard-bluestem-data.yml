@@ -20,23 +20,23 @@ plant_function:
 description: |-
   Split beard bluestem (Andropogon ternarius) is a warm-season bunchgrass of southeastern North American dry prairies, sandhills, and roadsides, with blue-green summer foliage turning copper and fluffy white seed tails catching backlight in fall. Stems usually reach 2–4 feet (60–120 cm). It is a fine-textured companion to little bluestem in restoration mixes and a low-input ornamental for lean, sunny beds.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun for upright habit and showy seed heads; shade reduces flowering. Well-drained, lean soils suit it; tolerates drought once established. Avoid wet clay; water only to establish.
 
-  ✂️ Propagation:
   Sow seed in warm soil after frost risk. Divide bunches in spring if needed. Cut back old growth in late winter.
 
-  🌾 Harvest / Best Use Timing:
   Collect seed when tails are dry for restoration. Leave standing for winter structure and birds. Peak color tracks late-summer into fall heat.
 purpose: |-
-  Erosion Control: Andropogon ternarius fibrous roots anchor Gulf Coastal plain cuts where sand wants to slide after hard rains.
-  Wildlife Attractor: Fluffy white seed flags feed sparrows while basal tufts hide skipper larvae through winter dormancy.
-  Ornamental: Metallic blue summer blades shift copper while seed awns glow against little bluestem companions on dry banks.
-  Biomass: Fine stems cut after frost fold into carbon-heavy mulch that feeds fungal chains on droughty rooftop soils.
+  Erosion Control: Andropogon ternarius fibrous roots anchor Gulf Coastal plain cuts -- where sand wants to slide after hard rains.
+  Wildlife Attractor: Fluffy white seed flags feed sparrows -- while basal tufts hide skipper larvae through winter dormancy.
+  Ornamental: Metallic blue summer blades shift copper -- while seed awns glow against little bluestem companions on dry banks.
+  Biomass: Fine stems cut after frost fold into carbon-heavy mulch -- that feeds fungal chains on droughty rooftop soils.
 companions:
-- Little Bluestem — complementary Andropogon texture in mixed prairie matrices
-- Prairie Coneflower — forb contrast in color and form on the same dry bank
-- Milkweed — pollinator forb neighbor in sunny strips
+- slug: little-bluestem
+  name: Little Bluestem
+- slug: prairie-coneflower
+  name: Prairie Coneflower
+- slug: milkweed
+  name: Milkweed
 cautions:
 - Wet clay — poor performance compared with sandhill truth
 - Over-irrigation — weeds outcompete lean-grass minimalism
@@ -54,6 +54,5 @@ pests:
 - Spittlebugs
 - Wireworm
 - Leaf Blight
-growth_habit: Warm-season bunchgrass; copper fall color; white fluffy seed tails;
-  dry sandy soils
+growth_habit: Warm-season bunchgrass; copper fall color; white fluffy seed tails; dry sandy soils
 data_quality_score: 0.82

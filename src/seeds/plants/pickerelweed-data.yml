@@ -16,34 +16,28 @@ layers:
 plant_function:
 - Edible
 - Wildlife Attractor
-- Water Purifier
+- Water Purification
 - Ornamental
 description: |-
   Pickerelweed is the classic emergent pond plant with glossy leaves and spikes of blue-purple flowers that look designed for dragonflies. Young leaf stalks and seeds have food use histories; positive ID and clean water matter — do not forage next to stormwater outflows named after chemicals. In subtropical and tropical Americas it spreads politely in shallow margins and helps clarify water by catching silt.
 
-   ☀️💧 Sun and Water:
-  - Full sun for best bloom; tolerates light shade with fewer flowers.
-  - Roots in submerged soil 6-18 inches of water typical; stabilizes pond edges.
+  Full sun for best bloom; tolerates light shade with fewer flowers. Roots in submerged soil 6-18 inches of water typical; stabilizes pond edges.
 
-  ✂️ Propagation:
-  - Divide rhizomes in spring.
-  - Seeds germinate in warm wet conditions.
+  Divide rhizomes in spring. Seeds germinate in warm wet conditions.
 
   Great in a frog hotel; terrible in a dry rock garden unless you enjoy brown archaeology.
 
-  🌾 Harvest / Best Use Timing:
-  - Harvest Pickerelweed in warm active growth when leaves or shoots look crisp, before yellow water-stress marches in.
-  - Morning picks ship better than wilted afternoon drama -- rinse grit in clean water, not pond soup.
-  - Use quickly or blanch and freeze; aquatic tissues turn slimy faster than upland herbs in plastic bags.
+  Harvest Pickerelweed in warm active growth when leaves or shoots look crisp, before yellow water-stress marches in. Morning picks ship better than wilted afternoon drama -- rinse grit in clean water, not pond soup. Use quickly or blanch and freeze; aquatic tissues turn slimy faster than upland herbs in plastic bags.
 purpose: |-
   Edible: Pontederia cordata young leaf petioles and starchy seeds entered Indigenous and regional kitchens after careful cleaning -- harvest only from clean water you would swim in; cook shoots like asparagus, parch seeds like tiny rice if ID is certain.
   Wildlife Attractor: Spikes of blue-purple flowers feed long-tongued bees; submerged rhizomes give cover for small fish, tadpoles, and dragonfly nymphs -- expect redwing blackbirds to weave nest flags into tall spikes.
-  Water Purifier: Dense roots trap silt and sponge nitrate from stocked pond effluent before it reaches open water -- thin mats if flow stagnates enough to grow mosquito larvae between stems.
   Ornamental: Glossy sagittate leaves and vertical bloom wands read as designed wetland architecture -- beats plastic heron decoys for honest pond-edge drama.
+    Water Purification: Emergent rhizomes and stems uptake dissolved phosphorus and nitrogen -- established stands measurably reduce nutrient load in pond and wetland edges.
 companions:
-- Cattail
-- Duck Potato
-- Lotus
+- slug: cattail
+  name: Cattail
+- slug: lotus
+  name: Lotus
 cautions:
 - Droughty berms with no liner or water source
 pests:
@@ -51,3 +45,7 @@ pests:
 - Snails
 growth_habit: Emergent aquatic
 data_quality_score: 0.75
+companion_categories:
+- name: Duck Potato
+  original: Duck Potato
+  type: ecosystem

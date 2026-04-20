@@ -17,31 +17,25 @@ plant_function:
 - Edible
 - Nitrogen Fixer
 - Animal Fodder
-- Soil Improvement
 - Erosion Control
 - Pollinator
 description: |-
   Alfalfa, also known as lucerne, is a perennial flowering plant in the legume family. It typically grows up to 1 meter (3.3 feet) in height and has a deep root system that can extend more than 15 meters (49 feet) to access groundwater. The plant has trifoliate leaves with obovate leaflets and clusters of small purple flowers. It is highly valued for its nutritional content and is widely cultivated as forage for livestock. Alfalfa thrives in well-drained soils with a neutral pH and requires full sun for optimal growth. It is drought-tolerant due to its extensive root system and can improve soil fertility through nitrogen fixation.
 
-  ✂️🫘 **Methods to Propagate:**
   Alfalfa is commonly propagated through seeds. The seeds should be inoculated with Rhizobium bacteria to ensure effective nitrogen fixation. Sowing is typically done in the spring or fall, depending on the climate, at a depth of about 1 centimeter (0.4 inches). A firm seedbed and adequate soil moisture are essential for successful germination.
 
-  🌞💧 **Sun and Water Requirements:**
   Alfalfa requires full sun exposure to thrive. It prefers well-drained soils and is tolerant of drought conditions once established, thanks to its deep root system. However, during establishment, consistent moisture is crucial to ensure proper root development.
 
-  🧑‍🌾👩‍🌾 **When to Harvest:**
   The optimal time to harvest alfalfa is at the early bloom stage, which balances yield and nutritional quality. Multiple cuttings can be made throughout the growing season, typically every 28 to 35 days, depending on growth conditions.
 purpose: |-
   Edible: Medicago sativa sprouts from certified seed land on sandwiches with crunch -- field hay is forage, not salad; keep sprouting seed labeled food-grade to avoid crop-chemistry carryover.
   Nitrogen Fixer: Deep perennial taproot hosts Sinorhizobium meliloti nodules that keep fixing across multiple hay cuts -- rotate tomatoes or corn into the old stand the year after final kill to catch the biggest mineralized N flush.
   Animal Fodder: Early-bloom hay tests near twenty percent crude protein and fuels dairy without grain if you cut before lignin spikes -- autotoxicity means you cannot reliably reseed alfalfa into its own stubble without a break crop.
-  Soil Improvement: Fifteen-meter (49 ft) rooting depth opens vertical channels that later shallow-rooted vegetables exploit after plowless transition -- years of taproot die-off leaves organic carbon down profile where tillage rarely reached.
   Erosion Control: Sod-forming crowns knit terrace fills on highway cuts where annual covers wash out -- living crowns slow overland flow better than straw blankets once the stand closes in year two.
   Pollinator: Purple raceme flowers stack nectar for alkali bees and leafcutter bees through June heat -- leave border strips uncut if you want pollination services on adjacent melons while you still harvest central hay rounds.
 companions:
-- Corn
-- Oats
-- Barley
+- slug: barley
+  name: Barley
 cautions:
 - Onion
 - Garlic
@@ -77,3 +71,10 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Oats
+  original: Oats
+plant_function_unresolved:
+- Soil Improvement

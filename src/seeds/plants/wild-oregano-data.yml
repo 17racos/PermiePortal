@@ -21,13 +21,10 @@ plant_function:
 description: |-
   Wild oregano (Lippia graveolens) is a resinous aromatic shrub of dry scrub, thorn forests, and limestone hills from the southwestern United States through Mexico and Central America. Small opposite leaves and clusters of tubular white to pink flowers make it a drought-tough culinary shrub for xeric herb gardens and pollinator hedges. The flavor is bold oregano-thyme, not mild supermarket Origanum.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun for tightest growth and strongest oils. Excellent drainage is mandatory; tolerates extended dry season once established. Avoid heavy wet clay unless sharply bermed; cold wet winters kill marginal plants in cool zone 9 pockets.
 
-  ✂️ Propagation:
   Sow seed in warm soil after last frost in frost-free starts; germination variable. Semi-hardwood cuttings root with bottom heat. Prune after bloom to prevent woody legginess in containers.
 
-  🌾 Harvest / Best Use Timing:
   Clip leafy tips before heavy flowering for peak kitchen potency; dry in thin layers out of direct sun. Leave some blooms for bees if you are not running a commercial spice operation.
 purpose: |-
   Edible: Lippia graveolens leaves are Mexican oregano -- resinous thymol-carvacrol punch; dry hard because fresh leaves bruise to brown mush.
@@ -35,17 +32,20 @@ purpose: |-
   Ornamental: Gray mounding shrub to 1 m fits xeric borders -- cold wet winters kill marginal 9a plants unless on berms.
   Pest Management: Volatile cloud can confuse aphid search on downwind tomatoes -- still scout; chemistry is not a shield.
 companions:
-- Agave — structural succulent contrast; both want sharp drainage and sun
-- Prickly Pear — low-input edible matrix; shared dry-season ecology in subtropical
-  scrub gardens
-- Scarlet Sage — red tubular flowers for hummingbirds alongside bee-focused Lippia
-  blooms
+- slug: agave
+  name: Agave
+- slug: edible-cactus
+  name: Edible Cactus
+- slug: scarlet-sage
+  name: Scarlet Sage
 cautions:
-- Frost sensitivity — protect container plants or site against warm walls in marginal
-  zones
+- Frost sensitivity — protect container plants or site against warm walls in marginal zones
 - Flavor intensity — easy to overseason; add gradually in cooking
 pests:
 - Spider Mites
 - Whiteflies
 growth_habit: Aromatic resinous shrub; tubular flowers; dry scrub and limestone hills
 data_quality_score: 0.85
+companions_unresolved:
+- name: Scarlet Sage
+  original: Scarlet Sage — red tubular flowers for hummingbirds alongside bee-focused Lippia blooms

@@ -2,8 +2,8 @@ common_name: Black Sapote
 picture: black_sapote.webp
 scientific_name: Diospyros nigra
 aka:
-- Chocolate pudding fruit
-- Zapote prieto
+  - Chocolate pudding fruit
+  - Zapote prieto
 family: Ebenaceae
 zone: 10-11
 ideal_temp_min: 70
@@ -12,26 +12,20 @@ min_temp: 28
 max_temp: 110
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Edible
-- Ornamental
-- Wildlife Attractor
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
 description: |-
   Black sapote is the persimmon that cosplays as dessert—green skin, pulp that ripens to brown and spoonable, flavor that is mild-sweet and not actually chocolate no matter what the brochures claim. Evergreen to semi-evergreen tree with glossy leaves and the quiet confidence of something that fruits in the tropics.
 
   True tropical. 9b explorers need serious microclimate or accept occasional insult from cold snaps. Coastal tropical and subtropical zones and keys energy.
 
-  ☀️💧 Sun and Water Requirements:
-
   Full sun for fruiting.
   Deep, regular watering when young; established trees tolerate short dry periods but not salt spray bravado without selection.
 
-  ✂️ Propagation:
-
   Seedlings variable; grafted trees for known fruit quality. Fresh seed germinates readily in warm mix.
-
-  🌾 Harvest / Best Use Timing:
 
   Pick mature-green fruit with a tight calyx and ripen off the tree until pulp softens and darkens; fully green hard fruit will not rescue itself on the counter.
 purpose: |-
@@ -39,17 +33,22 @@ purpose: |-
   Ornamental: Glossy evergreen canopy carries tennis-ball fruit that photographs like chocolate props -- grafted cultivars control seediness; seedlings stay genetic roulette for texture.
   Wildlife Attractor: Split overripe fruit draws opossums and fruit flies within hours of human procrastination -- leave a sacrificial groundcloth row if you want honest wildlife rent without porch mess.
 companions:
-- Mamey Sapote
-- Pigeon Pea
-- Mulch species
+  - slug: mamey-sapote
+    name: Mamey Sapote
+  - slug: pigeon-pea
+    name: Pigeon Pea
 cautions:
-- Exposed frost hollows
-- Waterlogged heavy clay
+  - Exposed frost hollows
+  - Waterlogged heavy clay
 pests:
-- Caribbean Fruit Fly
-- Persimmon Borer
-- Persimmon Psylla
-- mealybugs
-- scale insects
+  - Caribbean Fruit Fly
+  - Persimmon Borer
+  - Persimmon Psylla
+  - mealybugs
+  - scale insects
 growth_habit: Medium to large evergreen fruiting tree
 data_quality_score: 0.75
+companion_categories:
+  - name: Mulch species
+    original: Mulch species
+    type: system

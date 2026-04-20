@@ -20,34 +20,18 @@ plant_function:
 - Dynamic Accumulator
 - Erosion Control
 - Biofuel
-description: "Sun Hemp (*Crotalaria juncea*) is a fast-growing annual legume primarily\
-  \ cultivated as a cover crop and green manure. It grows upright, reaching heights\
-  \ of 1 to 3.5 meters (3 to 11.5 feet) with fibrous, ridged stems. The leaves are\
-  \ oblong-lanceolate, spirally arranged along the stem, measuring 4 to 12 centimeters\
-  \ (1.5 to 4.7 inches) in length. It produces bright yellow, pea-like flowers in\
-  \ terminal clusters, followed by small seed pods containing black or brown seeds.\
-  \ Its deep taproot improves soil aeration while fixing nitrogen into the soil. \n\
-  \n✂️\U0001FAD8 Methods to Propagate:\nSun Hemp is best propagated through direct\
-  \ seeding. Seeds should be sown at a depth of 1.5 to 2.5 centimeters (0.6 to 1 inch)\
-  \ in warm, well-drained soil when temperatures exceed 20°C (68°F). Germination occurs\
-  \ within 3 to 7 days.\n\n\U0001F31E\U0001F4A7 Sun and Water Requirements:\nThis\
-  \ plant thrives in full sun and prefers well-drained sandy or loamy soils with a\
-  \ neutral to slightly acidic pH. It is drought-tolerant but benefits from occasional\
-  \ watering in dry conditions.\n\n\U0001F9D1‍\U0001F33E\U0001F469‍\U0001F33E When\
-  \ to Harvest:\nIf used as green manure, Sun Hemp should be incorporated into the\
-  \ soil before flowering (around 8 to 12 weeks after planting). For fiber production,\
-  \ it should be harvested at full bloom when stems are at their strongest."
+description: "Sun Hemp (*Crotalaria juncea*) is a fast-growing annual legume primarily cultivated as a cover crop and green manure. It grows upright, reaching heights of 1 to 3.5 meters (3 to 11.5 feet) with fibrous, ridged stems. The leaves are oblong-lanceolate, spirally arranged along the stem, measuring 4 to 12 centimeters (1.5 to 4.7 inches) in length. It produces bright yellow, pea-like flowers in terminal clusters, followed by small seed pods containing black or brown seeds. Its deep taproot improves soil aeration while fixing nitrogen into the soil. \n\n🫘 Methods to Propagate:\nSun Hemp is best propagated through direct seeding. Seeds should be sown at a depth of 1.5 to 2.5 centimeters (0.6 to 1 inch) in warm, well-drained soil when temperatures exceed 20°C (68°F). Germination occurs within 3 to 7 days.\n\n🌞💧 Sun and Water Requirements:\nThis plant thrives in full sun and prefers well-drained sandy or loamy soils with a neutral to slightly acidic pH. It is drought-tolerant but benefits from occasional watering in dry conditions.\n\n🧑🌾👩🌾 When to Harvest:\nIf used as green manure, Sun Hemp should be incorporated into the soil before flowering (around 8 to 12 weeks after planting). For fiber production, it should be harvested at full bloom when stems are at their strongest."
 purpose: |-
   Nitrogen Fixer: Crotalaria juncea nodulates aggressively in tropical heat -- knock down stands before woody lignin spikes so nitrogen tied in tissue returns green.
-  Mulcher: Six-foot woody stems slash into mulch that suppresses weeds through fall sweet potato plantings when timed before pods mature their alkaloids.
+  Mulcher: Six-foot woody stems slash into mulch that suppresses weeds -- time cuts before pods mature their alkaloids to avoid soil contamination.
   Dynamic Accumulator: Deep taproots mine subsoil phosphorus on worn cotton fields -- tissue tests show spikes in potassium and micronutrients ready for compost windrows.
-  Erosion Control: Fast canopy closes rows on slopes where summer storms would sheet-wash bare ground between tree crops.
-  Biofuel: High cellulose tonnage feeds pellet trials and anaerobic digestors on farms already metering moisture into methane tanks.
+  Erosion Control: Fast canopy closes rows on slopes -- prevents sheet-wash on bare ground between tree crops during summer storms.
+  Biofuel: High cellulose tonnage feeds pellet trials -- and anaerobic digestors on farms already metering moisture into methane tanks.
 companions:
-- Corn
-- Sorghum
-- Millet
-- Cowpea
+- slug: sorghum
+  name: Sorghum
+- slug: millet
+  name: Millet
 cautions:
 - None known
 pests:
@@ -83,3 +67,8 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Cowpea
+  original: Cowpea

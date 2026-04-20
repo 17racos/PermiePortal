@@ -2,8 +2,8 @@ common_name: Golden Currant
 picture: golden_currant.webp
 scientific_name: Ribes aureum
 aka:
-- Clove currant
-- Buffalo currant
+  - Clove currant
+  - Buffalo currant
 family: Grossulariaceae
 zone: 3-8
 ideal_temp_min: 35
@@ -12,23 +12,20 @@ min_temp: -40
 max_temp: 100
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Edible
-- Wildlife Attractor
-- Pollinator
-- Border Plant
+  - Edible
+  - Wildlife Attractor
+  - Pollinator
+  - Border Plant
 description: |-
   Golden currant (Ribes aureum) is a deciduous ribes shrub of riparian thickets, rocky slopes, and prairie edges across much of North America, famous for clove-scented yellow spring flowers and tart golden to black berries on spine-free stems. It is a food forest understory fruit for cold and continental climates where citrus is greenhouse gossip. White pine blister rust regulations still matter in some jurisdictions—check local rules before planting near five-needle pines in restricted areas.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun to partial shade; best fruiting with strong light and even soil moisture through bloom and berry swell. Tolerates drought once established but berries shrink without water. Prefers well-drained, fertile soils; tolerates alkaline sites better than many Ribes. Winter-hardy deep into cold zones; late spring frosts can damage flowers—site with air drainage on frost pockets.
 
-  ✂️ Propagation:
   Hardwood cuttings in late winter root with bottom heat.
   Seeds require cold-moist stratification; germination stretches across weeks.
 
-  🌾 Harvest / Best Use Timing:
   Pick berries when fully colored, soft, and aromatic; use fresh, in jams, or fermented. Prune old wood after harvest to renew fruiting wood and open the center for air.
 purpose: |-
   Edible: Ribes aureum berries ripen tart to sweet as they darken -- eat out of hand, cook into jam, or ferment; clove-scented flowers are edible in small amounts as garnish when you want perfume without sugar.
@@ -36,17 +33,16 @@ purpose: |-
   Pollinator: Pale yellow, intensely fragrant spring clusters offer nectar and pollen to early bees when nights are still cool -- a reliable insect draw on ribes hedges before summer composites peak.
   Border Plant: Spine-free, arching stems knit into edible hedgerows and path edges -- fragrant bloom reads as a seasonal landmark without the blood tax of gooseberry spines.
 companions:
-- Serviceberry — early fruiting shrub layer with staggered harvests in cold-climate
-  guilds
-- Wild Plum — thorny thicket contrast with spineless currants along fencerows
-- Comfrey — dynamic mulch under shrubs without aggressive root competition if placed
-  at drip line
+  - slug: serviceberry
+    name: Serviceberry
+  - slug: american-plum
+    name: American Plum
+  - slug: comfrey
+    name: Comfrey
 cautions:
-- White Pine Blister Rust — Ribes can be alternate hosts; follow regional restrictions
-  near commercial five-needle pine production
+  - White Pine Blister Rust — Ribes can be alternate hosts; follow regional restrictions near commercial five-needle pine production
 pests:
-- Japanese Beetles
-- Aphids
-growth_habit: Deciduous ribes shrub; fragrant yellow flowers; tart golden to dark
-  berries
+  - Japanese Beetles
+  - Aphids
+growth_habit: Deciduous ribes shrub; fragrant yellow flowers; tart golden to dark berries
 data_quality_score: 0.85

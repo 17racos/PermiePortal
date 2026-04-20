@@ -22,13 +22,10 @@ plant_function:
 description: |-
   Winged bean (Psophocarpus tetragonolobus) is a tropical legume vine grown for ridged pods, edible leaves and flowers, and—on short-day landraces—tubers, earning its reputation as a multi-harvest crop for humid subtropical to tropical systems with long warm seasons. Vines need sturdy trellising and rhizobia inoculation appropriate to cowpea-type groups for reliable nitrogen fixation. It is a heat-loving species that sulks below roughly 50°F (10°C) and rewards growers who plan vertical space before planting.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun for reliable flowering and pod set. Rich, well-drained soil with steady moisture during rapid vine elongation; ease back on water when nights cool. Mulch roots to buffer soil temperature; avoid waterlogged clay that rots crowns.
 
-  ✂️ Propagation:
   Sow seeds warm after frost risk, inoculated with compatible rhizobia. Some short-day types produce harvestable tubers—verify your seed line before expecting underground yields. Tip cuttings can root in humid shade for clonal trials on known high-performing plants.
 
-  🌾 Harvest / Best Use Timing:
   Pick pods young and crisp for snap use; harvest tender shoot tips and flowers where your cuisine uses them. For tuber types, dig after tops senesce when local practice recommends. Expect the longest production window in climates with extended heat above 70°F (21°C).
 purpose: |-
   Edible: Psophocarpus tetragonolobus winged pods snap when young -- leaves, flowers, and short-day tubers extend harvest on one trellis if your seed line is tuber-forming.
@@ -36,11 +33,10 @@ purpose: |-
   Ground Cover: Triple-compound leaves laminate trellis shade -- soil stays cool under humid tropical heat.
   Animal Fodder: High-protein vines graze after sun-wilting in Asian trials -- match oxalate and trypsin inhibitor handling to species.
 companions:
-- Corn — sturdy living pole for twining; winged bean fixes nitrogen at the row base
-- Sunflower — secondary vertical support and complementary pollinator draw at the
-  bed edge
-- Yardlong Bean — fellow heat-loving legume vine on a parallel trellis with airflow
-  between runs
+- slug: sunflower
+  name: Sunflower
+- slug: asparagus-bean
+  name: Asparagus Bean
 cautions:
 - Cold soil sowing — seed rots or sits idle until heat arrives
 - Deep shade — lanky growth with few pods despite impressive vine ego
@@ -76,3 +72,6 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Heat-loving twining legume vine; winged pods; long-season tropical/subtropical
 data_quality_score: 0.85
+companions_unresolved:
+- name: Corn
+  original: Corn — sturdy living pole for twining; winged bean fixes nitrogen at the row base

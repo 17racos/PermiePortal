@@ -21,28 +21,26 @@ plant_function:
 description: |-
   Florida leadplant (Amorpha herbacea) is a low, fine-textured leguminous shrub of sandhills, scrub, and dry pinelands in the southeastern United States, with tiny compound leaves and slender spikes of purple pea flowers that call bumble bees like a polite dinner bell. It is a dwarf cousin in the false-indigo tribe—nitrogen fixation without pretending to be a six-foot meadow statue. Use it in xeric polycultures, pine understories, and roadsides where irrigation is a rumor and sun is abundant.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun; requires well-drained, sandy or rocky soils and tolerates drought once established. Not for heavy clay swales or chronically irrigated turf margins. Mildly salt-tolerant on some coastal sands but not a mangrove. Hardy through warm-temperate winters; stems may die back after hard freezes and resprout from crown.
 
-  ✂️ Propagation:
    Scarified seed sown warm improves germination speed.
   Softwood cuttings under humidity can clone selected forms with compact habit.
 
-  🌾 Harvest / Best Use Timing:
   Chop-and-drop prunings after flowering to mulch neighboring plants lightly—avoid removing all photosynthetic wood at once. Leave some spent spikes for seed-eating insects where aesthetics allow.
 purpose: |-
-  Nitrogen Fixer: Amorpha herbacea rhizobia on sandhill taproots lift nitrogen slowly under Pinus palustris where taller Baptisia would steal sun from wiregrass rows you already committed to ground-layer restoration goals.
-  Pollinator: Knee-height purple spikes align with bumble tongue reach in scrub openings where taller false indigo never sets seed on the same drought calendar you manage with fire return instead of irrigation.
-  Wildlife Attractor: Fine compound leaves host skipper larvae while seeds feed small rodents caching under turkey oak litter on two-foot airy mounds you let widen slowly instead of hedging into meatballs.
-  Border Plant: Low airy masses edge paths in xeric native beds without shading strawberry mulch belts on the sunny berm face where rosemary already proves sharp drainage chemistry matches Amorpha crowns.
+  Nitrogen Fixer: Amorpha herbacea rhizobia on sandhill taproots lift nitrogen slowly under Pinus palustris -- where taller Baptisia would steal sun from wiregrass rows you already committed to ground-layer restoration goals.
+  Pollinator: Knee-height purple spikes align with bumble tongue reach in scrub openings -- where taller false indigo never sets seed on the same drought calendar you manage with fire return instead of irrigation.
+  Wildlife Attractor: Fine compound leaves host skipper larvae -- while seeds feed small rodents caching under turkey oak litter on two-foot airy mounds you let widen slowly instead of hedging into meatballs.
+  Border Plant: Low airy masses edge paths in xeric native beds without shading strawberry mulch belts on the sunny berm face -- where rosemary already proves sharp drainage chemistry matches Amorpha crowns.
 companions:
-- Rosemary — culinary shrub shares sun and sharp drainage without competing root architecture
-- Prickly Pear — succulent structure contrasts fine Amorpha foliage in xeric beds
-- Sandhill Milkweed — native milkweed pairs with legumes for pollinator diversity
-  on sand
+- slug: rosemary
+  name: Rosemary
+- slug: edible-cactus
+  name: Edible Cactus
+- slug: sandhill-milkweed
+  name: Sandhill Milkweed
 cautions:
-- Over-irrigation and rich compost smother the xeric charm—growth gets floppy and
-  roots sulk
+- Over-irrigation and rich compost smother the xeric charm—growth gets floppy and roots sulk
 pests:
 - Aphids
 - Banded Cucumber Beetle
@@ -75,3 +73,6 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Low leguminous shrub; fine leaves; purple flower spikes; sandhill affinity
 data_quality_score: 0.83
+companions_unresolved:
+- name: Sandhill Milkweed
+  original: Sandhill Milkweed — native milkweed pairs with legumes for pollinator diversity on sand

@@ -2,8 +2,8 @@ common_name: Red Elderberry
 picture: red_elderberry.webp
 scientific_name: Sambucus racemosa
 aka:
-- Red-Berried Elder
-- Stinking Elder
+  - Red-Berried Elder
+  - Stinking Elder
 family: Adoxaceae
 zone: 3-7
 ideal_temp_min: 35
@@ -12,22 +12,19 @@ min_temp: -40
 max_temp: 90
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Wildlife Attractor
-- Border Plant
-- Mulcher
-- Medicinal
+  - Wildlife Attractor
+  - Border Plant
+  - Mulcher
+  - Medicinal
 description: |-
   Red elderberry (Sambucus racemosa) is a deciduous shrub of northern and montane North American forests and edges, recognized for conical cream flower clusters and bright red fruit borne in upright arrays rather than flat umbels. Plants typically reach 6–12 feet (1.8–3.5 m), often colonizing openings with suckers. It is primarily a wildlife and habitat shrub—human edible use is culturally specific and legally sensitive; default to bird food and landscape function unless trained tradition says otherwise.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun to partial shade; best flowering with morning sun and afternoon relief in hot climates. Moist, fertile, well-drained soils suit it; tolerates cold winters where range overlaps. Mulch to maintain even soil moisture; avoid drought baking on sandy cuts without irrigation.
 
-  ✂️ Propagation:
   Sow stratified seed; divide suckers in early spring. Hardwood cuttings root in humid cold frames. Prune old canes after fruiting to renew growth and reduce overcrowding.
 
-  🌾 Harvest / Best Use Timing:
   If harvesting for any use, follow vetted regional guidance—many populations treat red elder chemistry seriously. For wildlife design, leave fruit clusters through bird migration windows. Bloom peaks in late spring after hard frost risk near 28°F (-2°C) passes in cold climates.
 purpose: |-
   Wildlife Attractor: Sambucus racemosa pyramidal cream cymes feed early flies and bees; bright red berry clusters feed grosbeaks and thrushes in montane openings -- default to bird food unless trained tradition covers safe human processing.
@@ -35,17 +32,18 @@ purpose: |-
   Mulcher: Soft compound leaves drop fast-decaying litter that feeds fungal duff under spruce and fir edges -- rake lightly into guild beds if you want nutrient return without smothering low forbs.
   Medicinal: Bark and cambium appear in some Pacific Northwest materia medica lines distinct from black elder syrups -- cyanogenic glycoside loads differ by tissue; internal use demands expert species confirmation, not blog confidence.
 companions:
-- Serviceberry — earlier bloom and different fruit color in the same edge guild
-- Highbush Cranberry — moist-margin shrub neighbor extending seasonal structure
-- Wild Columbine — spring forb at the shrub skirt before canopy leaf-out deepens shade
+  - slug: serviceberry
+    name: Serviceberry
+  - slug: highbush-cranberry
+    name: Highbush Cranberry
+  - slug: wild-columbine
+    name: Wild Columbine
 cautions:
-- Toxicity and preparation sensitivity—do not improvise human consumption from generic
-  internet recipes
-- Suckering — expands into paths without edging or mowing buffers
+  - Toxicity and preparation sensitivity—do not improvise human consumption from generic internet recipes
+  - Suckering — expands into paths without edging or mowing buffers
 pests:
-- Aphids
-- Spider Mites
-- Powdery Mildew
-growth_habit: Suckering deciduous shrub; cream pyramidal flower clusters; bright red
-  fruit; cool forests and edges
+  - Aphids
+  - Spider Mites
+  - Powdery Mildew
+growth_habit: Suckering deciduous shrub; cream pyramidal flower clusters; bright red fruit; cool forests and edges
 data_quality_score: 0.78

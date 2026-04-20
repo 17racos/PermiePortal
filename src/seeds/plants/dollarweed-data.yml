@@ -22,27 +22,24 @@ plant_function:
 description: |-
   Dollarweed (Hydrocotyle bonariensis) is a creeping perennial with round, peltate leaves often described as silver-dollar sized, common in moist lawns, pond margins, and brackish-influenced ground along warm coasts from the United States through the Caribbean and parts of South America. It is a salad green and survival forage in some traditions—mild when young, mucilaginous when older—and an indicator plant that laughs at over-irrigation. In design terms it is either a living mulch in wet polycultures or a symptom of drainage fiction; the plant does not care which story you tell.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun to partial shade. Thrives in consistently moist to wet soils and tolerates brief inundation; not a desert ground cover. Brackish exposure is tolerated on some sites—coastal swales are its résumé. Reduce irrigation frequency if you want it less enthusiastic in turf.
 
-  ✂️ Propagation:
   Stem fragments with nodes root freely in wet media—accidental propagation is the default mode.
   Division of mats in cool, moist weather transplants cleanly into pond edges or rain gardens.
 
-   🌾 Harvest / Best Use Timing:
   Gather young leaves before flowering for the best texture in salads or cooked greens. In managed wetlands, thin mats seasonally to maintain open water for amphibians if biodiversity is the goal.
 purpose: |-
   Edible: Hydrocotyle bonariensis young round leaves are mild salad or pot herbs when ID is certain -- avoid chemically treated lawns.
-  Aquatic: Creeping stems root in saturated soil along pond shelves, swales, and brackish-influenced margins.
-  Ground Cover: Peltate leaves tile wet ground, reducing splash erosion and suppressing some weeds in rain gardens.
-  Wildlife Attractor: Wet-edge cover shelters tadpoles, snails, and aquatic invertebrates at the waterline.
+  Aquatic: Creeping stems root in saturated soil along pond shelves, swales, and brackish-influenced margins -- stabilizes edges where emergent plants are slow to establish.
+  Ground Cover: Peltate leaves tile wet ground -- reducing splash erosion and suppressing some weeds in rain gardens.
+  Wildlife Attractor: Wet-edge cover shelters tadpoles, snails, and aquatic invertebrates -- dense mat at the waterline provides refuge from predators and desiccation.
 companions:
-- Pickerelweed — emergent aquatics share wet margins without identical rooting depth
-- Cattail — taller structure behind low Hydrocotyle mats along pond edges
-- Duck Potato — edible wetland starches in deeper water behind the creeping fringe
+- slug: pickerelweed
+  name: Pickerelweed
+- slug: cattail
+  name: Cattail
 cautions:
-- Do not harvest from chemically treated lawns or uncertain water quality—bioaccumulation
-  and dog-walking residues are not gourmet
+- Do not harvest from chemically treated lawns or uncertain water quality—bioaccumulation and dog-walking residues are not gourmet
 pests:
 - Celery Leaf Miner
 - Dill Worms
@@ -55,3 +52,7 @@ pests:
 - Swallowtail Caterpillar
 growth_habit: Creeping perennial; round peltate leaves; moist-ground specialist
 data_quality_score: 0.83
+companion_categories:
+- name: Duck Potato
+  original: Duck Potato — edible wetland starches in deeper water behind the creeping fringe
+  type: ecosystem

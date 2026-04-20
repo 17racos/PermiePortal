@@ -24,21 +24,19 @@ description: |-
   Native along swamp margins and low ground; plant where summer humidity and wet feet are features, not bugs.
 
   Sun and water: Full sun to part shade. Tolerates periodic inundation; fruiting improves with sun and steady soil moisture during spring growth.
-  ✂️ Propagation:
+
   Seeds (double dormancy—slow); grafting selected cultivars onto seedling hawthorn roots for known jelly performance.
 
-  🌾 Harvest / Best Use Timing:
-  - Mayhaw: pick when full color, slight give, and aroma align -- early picks often ripen off-tree in a 65-72°F (18-22°C) room.
-  - Taste-test one fruit per tree sector; sun-exposed shoulders ripen faster than shaded interiors.
-  - Process windfalls within hours for jam or pulp; leaving them invites fruit fly internships.
+  Mayhaw: pick when full color, slight give, and aroma align -- early picks often ripen off-tree in a 65-72°F (18-22°C) room. Taste-test one fruit per tree sector; sun-exposed shoulders ripen faster than shaded interiors. Process windfalls within hours for jam or pulp; leaving them invites fruit fly internships.
 purpose: |-
   Edible: Crataegus opaca bears scarlet pomes tart enough for regional mayhaw jelly -- cook with sugar and pectin; flavor is brighter than bland grocery strawberry jam.
   Wildlife Attractor: White May clusters feed pollinators while thorny scaffolding shelters nesting birds -- fruit feeds wildlife whether humans win the jelly race or not.
   Ornamental: Glossy leaves, spring blossom, and red haws give four-season structure along swamp margins -- site where wet feet are a feature, not a drainage failure.
 companions:
-- Elderberry
-- Buttonbush
-- Native iris
+- slug: elderberry
+  name: Elderberry
+- slug: buttonbush
+  name: Buttonbush
 cautions:
 - Bone-dry berms
 - Fire blight-prone sites without cultivar selection (risk varies)
@@ -82,3 +80,6 @@ pests:
 - Tent Caterpillar
 growth_habit: Small tree to large shrub; thorny; often multi-trunked in wet sites
 data_quality_score: 0.75
+companions_unresolved:
+- name: Native iris
+  original: Native iris

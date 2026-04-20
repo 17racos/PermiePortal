@@ -2,9 +2,9 @@ common_name: Piedmont Purslane
 picture: piedmont_purslane.webp
 scientific_name: Portulaca pilosa
 aka:
-- Kiss-me-quick
-- Hairy purslane
-- Moss rose relative (same genus, different vibe)
+  - Kiss-me-quick
+  - Hairy purslane
+  - Moss rose relative (same genus, different vibe)
 family: Portulacaceae
 zone: 5-11
 ideal_temp_min: 60
@@ -13,26 +13,20 @@ min_temp: 20
 max_temp: 105
 perennial: true
 layers:
-- Herbaceous
-- Ground Cover
+  - Herbaceous
+  - Ground Cover
 plant_function:
-- Edible
-- Ground Cover
-- Wildlife Attractor
+  - Edible
+  - Ground Cover
+  - Wildlife Attractor
 description: |-
   Portulaca pilosa is the low, slightly hairy purslane cousin of flashy moss rose—prostrate stems, tiny yellow flowers, succulent leaves, and a talent for colonizing hot disturbed ground including sun-baked sidewalks.
 
   Explodes in warm wet weather; tolerates drought by going crisp then bouncing back. Edible like common purslane—ID carefully and skip sprayed lots.
 
-  ☀️💧 Sun and Water Requirements:
-
   Full sun; lean to average soil; excellent drainage. Occasional deep watering beats chronic sprinkle.
 
-  ✂️ Propagation:
-
   Stem pieces root casually; seed after summer heat—do not invite it if you hate editing volunteers.
-
-  🌾 Harvest / Best Use Timing:
 
   Snip young tips in moderation when sourcing is clean—oxalates still matter.
 purpose: |-
@@ -40,14 +34,21 @@ purpose: |-
   Ground Cover: Hairy prostrate stems root at nodes across sun-baked pavers, rockery gaps, and tomato berms where irrigation is sporadic -- goes crisp-dormant in drought then greens after the first honest rain.
   Wildlife Attractor: Minute yellow portulaca flowers feed small native bees and micro syrphids in heat when larger blossoms pause -- cluster mats three feet wide so pollinators find volume worth revisiting.
 companions:
-- Sweet Potato
-- Tomatoes
-- Roselle
+  - slug: tomato
+    name: Tomato
+  - slug: sweet-potato
+    name: Sweet Potato
+  - slug: roselle
+    name: Roselle
 cautions:
-- Overwatering in cool weather (rot)
-- Confusing with sprayed urban weeds
+  - Overwatering in cool weather (rot)
+  - Confusing with sprayed urban weeds
 pests:
-- aphids
-- leafhoppers
+  - aphids
+  - leafhoppers
 growth_habit: Prostrate annual or short-lived perennial in frost-free areas
 data_quality_score: 0.8
+companions_normalized:
+  - original: Tomatoes
+    resolved_slug: tomato
+    name: Tomato

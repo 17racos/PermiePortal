@@ -2,8 +2,8 @@ common_name: Wild Indigo Bush
 picture: wild_indigo_bush.webp
 scientific_name: Amorpha fruticosa
 aka:
-- False indigo bush
-- Bastard indigobush
+  - False indigo bush
+  - Bastard indigobush
 family: Fabaceae
 zone: 4-9
 ideal_temp_min: 40
@@ -12,22 +12,19 @@ min_temp: -35
 max_temp: 102
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Nitrogen Fixer
-- Wildlife Attractor
-- Erosion Control
-- Border Plant
+  - Nitrogen Fixer
+  - Wildlife Attractor
+  - Erosion Control
+  - Border Plant
 description: |-
   Wild indigo bush (Amorpha fruticosa) is a deciduous leguminous shrub of riverbanks, wet prairies, and disturbed moist ground across much of North America. Spikes of purple-blue flowers with orange stamens glow in early summer; compound leaves read soft gray-green. Deep roots fix nitrogen while stabilizing riparian soils, making it a backbone species for buffer strips and wet meadow restoration.
 
-   ☀️💧 Sun and Water Requirements:
   Full sun for best bloom and nodule activity; tolerates light shade with looser habit. Tolerates wet soils and periodic inundation better than many shrubs; also handles average moisture once established. Not for dry xeric berms without irrigation.
 
-  ✂️ Propagation:
   Scarify seed and sow after last frost or fall-sow outdoors; germination improves with warm water soaks. Hardwood cuttings taken in dormancy can root. Transplant young shrubs in cool wet weather.
 
-   🌾 Harvest / Best Use Timing:
   Not a primary human food; historical dye references exist for related species—verify chemistry before experiments. For conservation, cut old stems in late winter to encourage vigorous spring growth and leave some standing for insects.
 purpose: |-
   Nitrogen Fixer: Amorpha fruticosa nodulates with cowpea-type rhizobia on wet-ground roots -- purple spikes add nitrogen-rich litter when stems die back.
@@ -35,42 +32,44 @@ purpose: |-
   Erosion Control: Suckering roots armor riparian toes during spring floods -- classic buffer-strip shrub between crop and creek.
   Border Plant: Loose open habit reads meadow-shrubby -- mow margins if suckers jump into lawn; not a boxwood hedge.
 companions:
-- Swamp Sunflower — tall late color behind indigo spikes; shared moisture and sun
-- Switchgrass — warm-season matrix reduces weed pressure around shrub bases
-- Elderberry — quick fruiting shrub at drier upper bank while indigo holds toe slope
+  - slug: swamp-sunflower
+    name: Swamp Sunflower
+  - slug: switchgrass
+    name: Switchgrass
+  - slug: elderberry
+    name: Elderberry
 cautions:
-- Spreading clumps — suckers may appear in ideal wet sites; mow margins if containment
-  matters
-- False indigo name confusion — not Baptisia; different genus, different garden habits
+  - Spreading clumps — suckers may appear in ideal wet sites; mow margins if containment matters
+  - False indigo name confusion — not Baptisia; different genus, different garden habits
 pests:
-- Aphids
-- Banded Cucumber Beetle
-- Bean Aphid
-- Bean Leaf Beetle
-- Bean Weevil
-- Corn Earworm
-- Cowpea Curculio
-- Fall Armyworm
-- Japanese Beetles
-- Kudzu Bug
-- Locust Borer
-- Locust Leaf Miner
-- Lubber Grasshopper
-- Pea Moth
-- Pea Weevil
-- Reniform Nematode
-- Root Aphid
-- Soybean Looper
-- Spittlebugs
-- Stink Bug
-- Striped Cucumber Beetle
-- Fusarium Wilt
-- Ganoderma Butt Rot
-- Pythium Root Rot
-- Spotted Cucumber Beetle
-- White Rot
-- Brown Marmorated Stink Bug
-- Harlequin Ladybird
-- Velvetbean Caterpillar
+  - Aphids
+  - Banded Cucumber Beetle
+  - Bean Aphid
+  - Bean Leaf Beetle
+  - Bean Weevil
+  - Corn Earworm
+  - Cowpea Curculio
+  - Fall Armyworm
+  - Japanese Beetles
+  - Kudzu Bug
+  - Locust Borer
+  - Locust Leaf Miner
+  - Lubber Grasshopper
+  - Pea Moth
+  - Pea Weevil
+  - Reniform Nematode
+  - Root Aphid
+  - Soybean Looper
+  - Spittlebugs
+  - Stink Bug
+  - Striped Cucumber Beetle
+  - Fusarium Wilt
+  - Ganoderma Butt Rot
+  - Pythium Root Rot
+  - Spotted Cucumber Beetle
+  - White Rot
+  - Brown Marmorated Stink Bug
+  - Harlequin Ladybird
+  - Velvetbean Caterpillar
 growth_habit: Deciduous leguminous shrub; purple flower spikes; moist banks and prairies
 data_quality_score: 0.85

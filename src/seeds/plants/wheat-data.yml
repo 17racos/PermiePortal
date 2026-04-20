@@ -10,45 +10,34 @@ min_temp: -20
 max_temp: 0
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Edible
-- Animal Fodder
-- Erosion Control
+  - Edible
+  - Animal Fodder
+  - Erosion Control
 description: |-
   Wheat (Triticum aestivum) is a cool-season cereal grown for edible grain and sturdy straw. Native to the Fertile Crescent, it has spread worldwide and adapts to many temperate climates, especially where winter conditions support reliable tillering. Plants typically reach 60–120 cm (24–47 in) tall, forming upright stalks and heads that mature into grain. In permaculture, wheat matters because it provides stored calories plus a bulky residue that can become mulch, animal fodder, and compost inputs, while its dense cover reduces erosion during winter transitions.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun for the best grain fill; partial shade reduces yield.
-  - Water for establishment and early growth; taper moisture as plants mature.
-  - Prefers well-drained loam with compost and organic matter.
-  - Avoid waterlogged ground which increases root stress and disease.
+  Full sun for the best grain fill; partial shade reduces yield. Water for establishment and early growth; taper moisture as plants mature. Prefers well-drained loam with compost and organic matter. Avoid waterlogged ground which increases root stress and disease.
 
-  ✂️ Propagation:
-  - Seeds (fall sow): direct-sow in autumn for overwintering cover and spring grain development.
-  - Seeds (spring sow): work where winters are too harsh; expect shorter stands.
-  - Optional: sow thick if your goal is biomass/mulch, thin for grain.
+  Seeds (fall sow): direct-sow in autumn for overwintering cover and spring grain development. Seeds (spring sow): work where winters are too harsh; expect shorter stands. Optional: sow thick if your goal is biomass/mulch, thin for grain.
 
-  🌾 Harvest / Best Use Timing:
-  - Grain harvest when heads are mature and kernels are dry and hard.
-  - Straw/mulch: cut after grain harvest or when straw is at usable stage; cure for storage if needed.
-  - Green fodder: cut earlier for fresh feed-style biomass if your system supports it.
+  Grain harvest when heads are mature and kernels are dry and hard. Straw/mulch: cut after grain harvest or when straw is at usable stage; cure for storage if needed. Green fodder: cut earlier for fresh feed-style biomass if your system supports it.
 purpose: |-
   Edible: Triticum aestivum berries mill to bread flour or sprout for malt -- hard red winter types need vernalization; spring wheat fits short northern windows.
   Animal Fodder: Straw bales bed livestock; screenings and weed seeds go to chickens -- return manure to beds closing the carbon loop you just exported as bales.
   Erosion Control: Fall-sown stands armor fields all winter -- roots exude glues that build aggregates faster than bare fallow mud receives rain.
 companions:
-- Crimson Clover (Trifolium incarnatum) — legume partner that adds nitrogen and boosts
-  cover-crop performance.
-- Garlic (Allium sativum) — rotation partner that helps diversify plant scents and
-  reduce continuous host pressure.
-- Comfrey (Symphytum officinale) — supports soil fertility with chop-and-drop, improving
-  wheat growth when placed nearby.
+  - slug: crimson-clover
+    name: Crimson Clover
+  - slug: garlic
+    name: Garlic
+  - slug: comfrey
+    name: Comfrey
 cautions:
-- Rotate away from other cereals if possible; continuous cereal growth increases pest/disease
-  carryover.
+  - Rotate away from other cereals if possible; continuous cereal growth increases pest/disease carryover.
 pests:
-- Aphids
-- Borers
-- Root Rot
-- Caterpillars
+  - Aphids
+  - Borers
+  - Root Rot
+  - Caterpillars

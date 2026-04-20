@@ -2,47 +2,47 @@ common_name: Coontie
 picture: coontie.webp
 scientific_name: Zamia integrifolia
 aka:
-- Florida Arrowroot
-- Wild Sago
-- Coontie Palm
-- Zamia integrifolia
-- Seminole Bread
+  - Florida Arrowroot
+  - Wild Sago
+  - Coontie Palm
+  - Zamia integrifolia
+  - Seminole Bread
 family: Zamiaceae
-zone: (8b-11)
+zone: 8-11
 ideal_temp_min: 60
 ideal_temp_max: 80
 min_temp: 10
 max_temp: 100
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Ground Cover
-- Wildlife Attractor
-- Medicinal
+  - Ground Cover
+  - Wildlife Attractor
+  - Medicinal
 description: |-
   Coontie is a low-growing, evergreen cycad native to Florida and parts of the southeastern United States. Resembling a fern, it features feather-like, light green, leathery foliage that emerges from a large underground storage root. Typically, it grows up to 0.9 meters (3 feet) tall and wide, forming a mounding shrub over time. Coontie is dioecious, producing separate male and female cones. The plant is highly adaptable, tolerating full sun to deep shade, and is both drought and salt-tolerant once established. Notably, it serves as the sole larval food source for the Atala butterfly, making it a valuable addition to wildlife gardens.
 
-  ✂️🫘 Methods to Propagate:
   Coontie can be propagated through seeds or division. Seeds should be collected from mature female cones and cleaned before planting. Sow seeds in well-draining soil, keeping them moist until germination, which may take several months. Division involves separating offsets from the parent plant, ensuring each division has a portion of the root system, and replanting them.
 
-  🌞💧 Sun and Water Requirements:
   Coontie thrives in a range of light conditions, from full sun to full shade. It prefers well-draining soil and, once established, is drought-tolerant. Regular watering during the initial establishment period will promote healthy growth.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
   While Coontie has historical significance as a source of starch (Florida arrowroot), processing requires careful removal of toxins. Due to its toxicity and the complexity of safe preparation, harvesting for consumption is not recommended without proper expertise.
 purpose: |-
-  Ground Cover: Zamia integrifolia forms low evergreen rosettes that shade soil under oaks and pines, excluding weeds where roots are left undisturbed.
-  Wildlife Attractor: Foliage is the sole larval food for Eumaeus atala; planting coontie is how you invite that neon butterfly back onto coastal sites.
-  Medicinal: Seminole arrowroot tradition leached toxic cycasin from shredded caudex with long running water; home cooks should treat all raw tissue as poisonous.
+  Ground Cover: Zamia integrifolia forms low evergreen rosettes that shade soil under oaks -- and pines, excluding weeds where roots are left undisturbed.
+  Wildlife Attractor: Foliage is the sole larval food for Eumaeus atala -- planting coontie is how you invite that neon butterfly back onto coastal sites.
+  Medicinal: Seminole arrowroot tradition leached toxic cycasin from shredded caudex with long running water -- home cooks should treat all raw tissue as poisonous.
 companions:
-- Muhly Grass
-- Beautyberry
-- Saw Palmetto
+  - slug: hairawn-muhly
+    name: Hairawn Muhly
+  - slug: beautyberry
+    name: Beautyberry
+  - slug: saw-palmetto
+    name: Saw Palmetto
 cautions:
-- None specified
+  - None specified
 pests:
-- Scale insects
-- Mealybugs
+  - Scale insects
+  - Mealybugs
 growth_habit: Tree
 data_quality_score: 0.8

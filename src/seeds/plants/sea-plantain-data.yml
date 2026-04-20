@@ -22,31 +22,28 @@ plant_function:
 description: |-
   Sea plantain is the coastal cousin of the plantains your lawn hates — same genus, salt on its boots, better PR. Young leaves are a salty-green nibble; older leaves teach you about fiber. It hugs brackish margins, shell middens, and dunes where lesser herbs cry. In subtropical and tropical Americas it is a legit native-adjacent forage along Gulf and Atlantic edges if you ID carefully and skip polluted wrack lines.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun typical of coastal exposure.
-  - Tolerates salt spray and periodic inundation; needs drainage between tides in garden mimic beds.
-  - Freshwater garden culture: lean, gritty soil; do not over-fertilize into lush slug bait.
+  Full sun typical of coastal exposure. Tolerates salt spray and periodic inundation; needs drainage between tides in garden mimic beds. Freshwater garden culture: lean, gritty soil; do not over-fertilize into lush slug bait.
 
-  ✂️ Methods to Propagate:
-  - Seeds: cold stratify or direct sow in cool season; keep moist until established.
-  - Division: split tight crowns in cool weather for quick clumps.
+  Seeds: cold stratify or direct sow in cool season; keep moist until established. Division: split tight crowns in cool weather for quick clumps.
 
-  🌾 Harvest / Best Use Timing:
-  - Snip tender Sea Plantain growth in cool mornings for best texture -- heat-stressed leaves taste like their day job.
-  - Flowers at full color for peak volatiles; seeds when pods rattle but before they self-sow across paths.
-  - Dry herbs in thin layers; deep piles steam themselves into compost.
+  Snip tender Sea Plantain growth in cool mornings for best texture -- heat-stressed leaves taste like their day job. Flowers at full color for peak volatiles; seeds when pods rattle but before they self-sow across paths. Dry herbs in thin layers; deep piles steam themselves into compost.
 purpose: |-
   Edible: Plantago maritima young strap leaves taste minerally bright when picked cool mornings before heat turns them fibrous -- rotate harvest patches on private dunes and skip wrack lines with runoff question marks.
   Medicinal: Ribbed leaves supply the same mucilage European herbalists mash into poultices for insect bites -- patch-test skin before you borrow cottage protocols wholesale.
-  Erosion Control: Dense fibrous crowns grip shell hash and upper beach sand where waves pull lesser herbs offshore.
-  Wildlife Attractor: Tall narrow flower spikes feed tiny bees on exposed margins where larger forbs stay salt-burned.
+  Erosion Control: Dense fibrous crowns grip shell hash and upper beach sand -- where waves pull lesser herbs offshore.
+  Wildlife Attractor: Tall narrow flower spikes feed tiny bees on exposed margins -- where larger forbs stay salt-burned.
 companions:
-- Saltwort
-- Sea purslane
-- Beach sunflower
+- slug: saltwort
+  name: Saltwort
+- slug: sea-purslane
+  name: Sea Purslane
 cautions:
 - Heavy shade and boggy freshwater that rots crowns
 - Harvest from contaminated runoff zones
 pests:
 - Slugs
 - Aphids
+companions_unresolved:
+- name: Beach Sunflower
+  original: Beach sunflower
+  note: normalization_target_not_in_index

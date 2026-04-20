@@ -2,8 +2,8 @@ common_name: Ground Cherry
 picture: ground_cherry.webp
 scientific_name: Physalis pruinosa
 aka:
-- Husk tomato
-- Strawberry tomato
+  - Husk tomato
+  - Strawberry tomato
 family: Solanaceae
 zone: 3-10
 ideal_temp_min: 60
@@ -12,24 +12,21 @@ min_temp: 32
 max_temp: 100
 perennial: false
 layers:
-- Herbaceous
-- Ground Cover
+  - Herbaceous
+  - Ground Cover
 plant_function:
-- Edible
-- Wildlife Attractor
-- Ground Cover
-- Ornamental
+  - Edible
+  - Wildlife Attractor
+  - Ground Cover
+  - Ornamental
 description: |-
   Ground cherry (Physalis pruinosa) is a warm-season solanaceous annual related to tomatillos, producing sweet-tart berries inside papery lanterns that drop when ripe—nature's portion control with built-in packaging. Native and naturalized forms occur across much of temperate North America; cultivated selections improve size and flavor for jam, pie, and fermentation projects. It fits annual polycultures with corn and beans, row edges, and containers where nightshade literacy is assumed, not optional.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun; fertile, well-drained loam with steady moisture yields the largest lanterns. Heat-loving; growth stalls below about 50°F (10°C). Mulch soil to reduce splash-borne diseases and keep fallen fruit clean. Avoid waterlogging—damping-off and root rots murder seedlings.
 
-   ✂️ Propagation:
   Start seeds indoors 6–8 weeks before last frost or direct-sow in warm soil.
   Stake or cage like determinate tomatoes if winds roll branches.
 
-   🌾 Harvest / Best Use Timing:
   Gather fallen lanterns when husks dry and berries color inside; flavor sweetens off-plant for a few days in the husk. Remove husks before cooking; process ripe fruit only—green berries retain solanine baggage.
 purpose: |-
   Edible: Physalis pruinosa ripens sweet-tart berries inside dry, papery husks -- gather fallen lanterns when husks bleach and fruit colors, then husk before cooking because green berries carry solanine-related baggage.
@@ -37,36 +34,37 @@ purpose: |-
   Ground Cover: Sprawling stems and wide leaves shade soil in warm-season annual polycultures -- mulch beneath to keep splashed soil off lower leaves and reduce fungal spotting.
   Ornamental: Bladder-like calyxes turn straw-colored and inflate around fruit -- they read as kinetic jewelry in kitchen gardens where you want edible drama without nonproductive ornamentals.
 companions:
-- Basil — culinary annual guild member with complementary pest monitoring
-- Nasturtium — trap crop and edible flower distraction at bed edges
-- Marigold — dense root presence in sunny annual rows without matching solanaceous
-  disease profile exactly
+  - slug: basil
+    name: Basil
+  - slug: nasturtium
+    name: Nasturtium
+  - slug: marigold
+    name: Marigold
 cautions:
-- Green unripe fruit and calyx residues contain solanine-related compounds—wait for
-  full ripeness inside dry husks
+  - Green unripe fruit and calyx residues contain solanine-related compounds—wait for full ripeness inside dry husks
 pests:
-- Andean Potato Weevil
-- Broad Mite
-- Colorado Potato Beetle
-- Corn Earworm
-- Cyclamen Mite
-- Flea Beetles
-- Greenhouse Whitefly
-- Leaf Curl
-- Pepper Weevil
-- Potato Scab
-- Reniform Nematode
-- Root Aphid
-- Shore Fly
-- Stink Bug
-- Tobacco Budworm
-- Tomato Hornworms
-- Wireworm
-- Fusarium Wilt
-- Late Blight
-- Leaf Spot
-- Pythium Root Rot
-- Spotted Cucumber Beetle
-- Brown Marmorated Stink Bug
+  - Andean Potato Weevil
+  - Broad Mite
+  - Colorado Potato Beetle
+  - Corn Earworm
+  - Cyclamen Mite
+  - Flea Beetles
+  - Greenhouse Whitefly
+  - Leaf Curl
+  - Pepper Weevil
+  - Potato Scab
+  - Reniform Nematode
+  - Root Aphid
+  - Shore Fly
+  - Stink Bug
+  - Tobacco Budworm
+  - Tomato Hornworms
+  - Wireworm
+  - Fusarium Wilt
+  - Late Blight
+  - Leaf Spot
+  - Pythium Root Rot
+  - Spotted Cucumber Beetle
+  - Brown Marmorated Stink Bug
 growth_habit: Branching annual nightshade; papery husked fruit; warm-season crop
 data_quality_score: 0.84

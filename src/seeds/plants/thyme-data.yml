@@ -28,35 +28,31 @@ description: |-
 
   This hardy herb is drought-tolerant and adapts well to poor soils, making it a low-maintenance addition to gardens. Thyme has antimicrobial properties and is commonly used in culinary dishes, herbal teas, and natural medicine.
 
-   🌞💧 Sun and Water Requirements:
-  - Prefers full sun (6-8 hours of direct sunlight daily).
-  - Thrives in dry, well-drained sandy or loamy soil.
-  - Drought-tolerant; requires minimal watering once established.
+  Prefers full sun (6-8 hours of direct sunlight daily). Thrives in dry, well-drained sandy or loamy soil. Drought-tolerant; requires minimal watering once established.
 
-  ✂️🫘 Methods to Propagate:
-  - **Seeds**: Sow indoors in early spring or direct sow after the last frost.
-  - **Cuttings**: Take softwood cuttings in spring and root in moist soil.
-  - **Division**: Separate mature plants in early spring or fall.
+  Seeds: Sow indoors in early spring or direct sow after the last frost. Cuttings: Take softwood cuttings in spring and root in moist soil. Division: Separate mature plants in early spring or fall.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
-  - Harvest leaves throughout the growing season.
-  - Best flavor is achieved just before flowering.
-  - Cut stems and dry them for long-term storage.
+  Harvest leaves throughout the growing season. Best flavor is achieved just before flowering. Cut stems and dry them for long-term storage.
 purpose: |-
-  Edible: Thymus vulgaris narrow leaves harvested before noon carry peak thymol oil for roast vegetables and syrups tied to Provençal drying racks.
+  Edible: Thymus vulgaris narrow leaves harvested before noon carry peak thymol oil -- for roast vegetables and syrups tied to Provençal drying racks.
   Medicinal: Thymol shows documented antimicrobial activity in lab assays -- translate lab mic values to human doses with clinicians before marketing cure stories.
-  Pollinator: Pink-lipped flowers hug stems in early summer for short-tongued bees walking thyme carpets between pavers.
-  Wildlife Attractor: Nectar sustains parasitic wasps hunting caterpillars along herb spirals dense enough to read green from orbit.
-  Mulcher: Sheared clippings dry into thyme-smelling mulch that suppresses slug traffic on strawberry hills.
+  Pollinator: Pink-lipped flowers hug stems in early summer for short-tongued bees walking thyme carpets -- between pavers.
+  Wildlife Attractor: Nectar sustains parasitic wasps hunting caterpillars -- along herb spirals dense enough to read green from orbit.
+  Mulcher: Sheared clippings dry into thyme-smelling mulch that suppresses slug traffic -- on strawberry hills.
   Dynamic Accumulator: Fibrous roots mine calcium into sun-stressed foliage -- sweep trimmings into compost ahead of brassica beds.
-  Border Plant: Woody mats edge stone paths where mower strips would scalp shallow crowns.
-  Pest Management: Volatile plumes confuse cabbage moths scouting brassica rows when thyme bands stay wide enough to release scent plumes.
+  Border Plant: Woody mats edge stone paths -- survives where mower strips would scalp shallow crowns of other herbs.
+  Pest Management: Volatile plumes confuse cabbage moths scouting brassica rows -- when thyme bands stay wide enough to release scent plumes.
 companions:
-- Cabbage
-- Tomatoes
-- Strawberries
-- Eggplant
-- Roses
+- slug: tomato
+  name: Tomato
+- slug: strawberry
+  name: Strawberry
+- slug: cabbage
+  name: Cabbage
+- slug: eggplant
+  name: Eggplant
+- slug: roselle
+  name: Roselle
 cautions:
 - Onions
 pests:
@@ -65,3 +61,17 @@ pests:
 - Whiteflies
 growth_habit: Tree
 data_quality_score: 0.8
+companions_normalized:
+- original: Tomatoes
+  resolved_slug: tomato
+  name: Tomato
+- original: Strawberries
+  resolved_slug: strawberry
+  name: Strawberry
+- original: Roses
+  resolved_slug: roselle
+  name: Roselle
+companions_unresolved:
+- name: Rose
+  original: Roses
+  note: normalization_target_not_in_index

@@ -21,13 +21,10 @@ plant_function:
 description: |-
   White stopper (Eugenia axillaris) is an evergreen shrub to small tree of coastal strands, hammocks, and limestone margins in the Caribbean and humid subtropical Gulf–Atlantic coastal plain where hardy. Small opposite leaves, peeling bark on older trunks, and white flowers followed by dark berries make it a backbone native for hedges, bird gardens, and salt-tolerant windbreak understory. It tolerates pruning and shapes well for formal native screens.
 
-  ☀️💧 Sun and Water Requirements:
    Full sun to bright part shade; densest hedge in sun. Well-drained soils are essential; tolerates coastal wind and light salt spray once established. Moderate drought tolerance after rooting; irrigate young plants through dry seasons. Avoid chronic waterlogging without aeration.
 
-  ✂️ Propagation:
   Sow fresh seed soon after cleaning; germination can be irregular. Semi-hardwood cuttings under mist in warm months root for clones. Transplant during warm wet weather; mulch to suppress competing vines.
 
-  🌾 Harvest / Best Use Timing:
   Berries are eaten by birds; human use is minor and ID-dependent. Clip hedge faces after flowering if formal shape matters, or wait until post-fruiting to preserve bird calories.
 purpose: |-
   Wildlife Attractor: Eugenia axillaris black drupes line bird bellies through winter -- creamy axillary flowers feed tiny native bees in hammocks when little else is evergreen-blooming.
@@ -35,21 +32,19 @@ purpose: |-
   Border Plant: Tolerates formal shearing into tall screens -- dioecious planning matters if you want dense fruit loads for wildlife.
   Erosion Control: Shallow fibrous roots knit dune sand and shell rock -- survives salt spray better than most broadleaf hedge plants once established.
 companions:
-- Wild Lime — thorny native matrix in coastal hammocks; shared limestone and salt-tolerant
-  ecology
-- Gumbo Limbo — dappled canopy over stopper hedges; classic tropical coastal association
-  where ranges overlap
-- Simpson Stopper — layered evergreen structure at different heights for continuous
-  bird cover
+- slug: wild-lime
+  name: Wild Lime
+- slug: simpson-stopper
+  name: Simpson Stopper
 cautions:
-- Hard freeze sensitivity — marginal in coolest zone 10 pockets; protect young plants
-  during rare cold snaps
-- Laurel wilt — monitor for rapid wilting in regions where this disease occurs; diversify
-  plantings
+- Hard freeze sensitivity — marginal in coolest zone 10 pockets; protect young plants during rare cold snaps
+- Laurel wilt — monitor for rapid wilting in regions where this disease occurs; diversify plantings
 pests:
 - Oriental Fruit Fly
 - Scale Insects
 - Whiteflies
-growth_habit: Evergreen shrub to small tree; white flowers; dark berries; coastal
-  hammocks
+growth_habit: Evergreen shrub to small tree; white flowers; dark berries; coastal hammocks
 data_quality_score: 0.85
+companions_unresolved:
+- name: Gumbo Limbo
+  original: Gumbo Limbo — dappled canopy over stopper hedges; classic tropical coastal association where ranges overlap

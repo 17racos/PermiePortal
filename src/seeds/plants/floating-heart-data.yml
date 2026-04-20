@@ -2,8 +2,8 @@ common_name: Floating Heart
 picture: floating_heart.webp
 scientific_name: Nymphoides aquatica
 aka:
-- Big Floatingheart
-- Banana Plant (aquarium trade)
+  - Big Floatingheart
+  - Banana Plant (aquarium trade)
 family: Menyanthaceae
 zone: 6-11
 ideal_temp_min: 65
@@ -12,39 +12,36 @@ min_temp: 25
 max_temp: 100
 perennial: true
 layers:
-- Aquatic
+  - Aquatic
 plant_function:
-- Wildlife Attractor
-- Border Plant
+  - Wildlife Attractor
+  - Border Plant
 description: |-
   Nymphoides aquatica is a Southeast native floating-leaf plant with round, lily-pad-like foliage and small white flowers held above the water. It spreads by runners and can carpet quiet pond bays — excellent shade for fish, frog perches, and dragonfly drama. The "banana plant" nickname comes from chunky winter tubers the aquarium hobby loves; in nature those tubers help it survive dry-downs.
 
   In subtropical and tropical Americas it is right at home in sheltered, acidic to neutral ponds. In tiny water features, thin runners so it does not smother everything.
 
-  ☀️💧 Sun and Water:
-  - Full sun to light shade; flowers best with sun.
-  - Still or slow water; rooted in bottom muck with floating leaves.
-  - Do not let the pond dry completely for long if you want to keep stands.
+  Full sun to light shade; flowers best with sun. Still or slow water; rooted in bottom muck with floating leaves. Do not let the pond dry completely for long if you want to keep stands.
 
-  ✂️ Propagation:
-  - Detach plantlets from runners.
-  - Tubers can be planted in submerged substrate in spring.
+  Detach plantlets from runners. Tubers can be planted in submerged substrate in spring.
 
-  🌾 Harvest / Best Use Timing:
-  - Thin floating mats when coverage blocks light for submersed plants you value.
-  - Work in cool morning air so broken fragments drift less.
-  - Compost removed biomass in active piles; do not toss live pieces into new water bodies.
+  Thin floating mats when coverage blocks light for submersed plants you value. Work in cool morning air so broken fragments drift less. Compost removed biomass in active piles; do not toss live pieces into new water bodies.
 purpose: |-
-  Wildlife Attractor: Nymphoides aquatica white fringed water-snowflake blooms give small bees landing platforms while juvenile fish shelter under round pads in southeastern pond bays you thin before mats smother pickerelweed spikes.
+  Wildlife Attractor: Nymphoides aquatica white fringed water-snowflake blooms give small bees landing platforms -- juvenile fish shelter under round pads, thin mats before they smother pickerelweed spikes.
   Border Plant: Rooted floating pads mark still-water margins without kissing seawalls -- runners need seasonal thinning so open water stays wide enough for dragonfly emergence stems you meant to keep visible from the deck.
 companions:
-- Watershield
-- Spatterdock
-- Duck Potato
+  - slug: watershield
+    name: Watershield
+  - slug: spatterdock
+    name: Spatterdock
 cautions:
-- None documented
+  - None documented
 pests:
-- Aphids
-- Snails
+  - Aphids
+  - Snails
 growth_habit: Floating aquatic herb
 data_quality_score: 0.74
+companion_categories:
+  - name: Duck Potato
+    original: Duck Potato
+    type: ecosystem

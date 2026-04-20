@@ -21,24 +21,23 @@ plant_function:
 description: |-
   Sand bluestem (Andropogon hallii) is a warm-season bunchgrass of central North American sandhills and dry prairies, with blue-green summer foliage turning copper in fall and airy seed heads on stems often 3–5 feet (0.9–1.5 m). Deep roots exploit sandy soils where shallow-rooted competitors bake. It is a core species for restoration, erosion control on coarse slopes, and ornamental meadows that refuse irrigation guilt.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun for upright stems and full inflorescences; shade reduces vigor. Well-drained sandy to loamy soils are ideal; tolerates drought and lean fertility once established. Avoid wet clay that rots crowns; water only to establish.
 
-  ✂️ Propagation:
   Sow seed in warm soil after frost risk; lightly cover. Divide mature bunches carefully in spring if needed. Cut back old growth in late winter to clear space for new tillers.
 
-  🌾 Harvest / Best Use Timing:
   Cut seed stems for arrangements when color peaks; leave standing material for wildlife through winter if aesthetics allow. Peak growth tracks heat and summer rainfall patterns.
 purpose: |-
-  Erosion Control: Andropogon hallii sends roots deep into loose sand so bunch crowns lock dune toes and terrace cuts where shallow annuals wash out after one thunder cell.
-  Wildlife Attractor: Late-season airy seed heads feed songbirds while stiff stems shelter overwintering insects in reconstructed prairie mixes.
-  Biomass: Copper-colored standing stems chop into coarse mulch that feeds fungal chains on carbon-poor coastal sands when timed after seed drop.
-  Ornamental: Blue-green summer foliage flips copper in cool nights before florists harvest stems for upright texture in dry meadow designs.
+  Erosion Control: Andropogon hallii sends roots deep into loose sand so bunch crowns lock dune toes and terrace cuts -- where shallow annuals wash out after one thunder cell.
+  Wildlife Attractor: Late-season airy seed heads feed songbirds -- while stiff stems shelter overwintering insects in reconstructed prairie mixes.
+  Biomass: Copper-colored standing stems chop into coarse mulch that feeds fungal chains on carbon-poor coastal sands -- when timed after seed drop.
+  Ornamental: Blue-green summer foliage flips copper in cool nights -- before florists harvest stems for upright texture in dry meadow designs.
 companions:
-- Little Bluestem — related Andropogon neighbor with finer texture for layered prairie
-  matrices
-- Prairie Coneflower — forb contrast in color and form on the same dry bank
-- Milkweed — forb neighbor for pollinator value alongside warm-season grasses
+- slug: little-bluestem
+  name: Little Bluestem
+- slug: prairie-coneflower
+  name: Prairie Coneflower
+- slug: milkweed
+  name: Milkweed
 cautions:
 - Wet clay — rot and replacement shopping
 - Rich irrigation — lanky growth with fewer copper fireworks
@@ -56,6 +55,5 @@ pests:
 - Spittlebugs
 - Wireworm
 - Leaf Blight
-growth_habit: Warm-season bunchgrass; blue-green foliage; copper fall; deep sandy
-  soils
+growth_habit: Warm-season bunchgrass; blue-green foliage; copper fall; deep sandy soils
 data_quality_score: 0.81

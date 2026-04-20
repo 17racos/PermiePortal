@@ -2,7 +2,7 @@ common_name: Wild Rice
 picture: wild_rice.webp
 scientific_name: Zizania palustris
 aka:
-- Northern Wild Rice
+  - Northern Wild Rice
 family: Poaceae
 zone: 3-8
 ideal_temp_min: 60
@@ -11,33 +11,37 @@ min_temp: 32
 max_temp: 90
 perennial: false
 layers:
-- Aquatic
+  - Aquatic
 plant_function:
-- Edible
-- Aquatic
-- Wildlife Attractor
+  - Edible
+  - Aquatic
+  - Wildlife Attractor
 description: |-
   Wild Rice (Zizania palustris) is a useful annual species in the Poaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a aquatic form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.
 
-  ☀️💧 Sun and Water Requirements:
   Best performance comes with full sun to light partial shade, depending on heat intensity. Keep soil moisture steady during establishment, then water by seasonal demand. Well-drained fertile soil works for most upland entries, while wetland species require saturated margins. Most growth accelerates between 60°F (16°C) and 80°F (27°C), with stress rising near 90°F (32°C).
 
-  ✂️ Propagation:
   Direct seeding is the simplest method where climate allows; sow at the start of the local favorable season and keep the seed zone evenly moist through germination. A second pathway is transplanting nursery starts or divisions once roots are active and temperatures are stable. Woody entries can also be established from dormant bare-root stock or grafted material for cultivar reliability.
 
-  🌾 Harvest / Best Use Timing:
   Harvest edible portions at peak maturity for intended use: leafy crops before heat stress, fruiting types at full color, root crops after starch set, and nuts or grains once fully mature and dry. For ecological functions, the strongest value appears after canopy closure, flowering, and annual residue cycling, when soil cover and habitat effects become consistent.
 purpose: |-
   Edible: Zizania palustris grains are true wild rice -- knock ripe seeds into canoe or combine; parched grain tastes nutty without domestic paddy rice starch profile.
   Aquatic: Annual grass grows rooted in shallow lakes and flowages -- needs water depth control; not a row crop on upland loam.
   Wildlife Attractor: Dense stands feed canvasbacks and mallards -- manage harvest so wildlife and humans do not schedule the same week every year.
-companions:
-- Pickerelweed - supports aquatic habitat complexity and bank stability.
-- Arrowhead - shares shallow-water zone and diversifies edible yield.
-- Blue Flag Iris - roots help stabilize pond margins around rice beds.
+companions: []
 cautions:
-- Cattail - can dominate shallow wetlands and outcompete young rice stands.
+  - Cattail - can dominate shallow wetlands and outcompete young rice stands.
 pests:
-- Rice Water Weevil
-- Rice Blast Fungus
-- Leafhoppers
+  - Rice Water Weevil
+  - Rice Blast Fungus
+  - Leafhoppers
+companion_categories:
+  - name: Pickerelweed - supports aquatic habitat complexity and bank stability.
+    original: Pickerelweed - supports aquatic habitat complexity and bank stability.
+    type: system
+  - name: Arrowhead - shares shallow-water zone and diversifies edible yield.
+    original: Arrowhead - shares shallow-water zone and diversifies edible yield.
+    type: system
+  - name: Blue Flag Iris - roots help stabilize pond margins around rice beds.
+    original: Blue Flag Iris - roots help stabilize pond margins around rice beds.
+    type: system

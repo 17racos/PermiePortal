@@ -21,14 +21,11 @@ plant_function:
 description: |-
   Leatherleaf fern (Rumohra adiantiformis) is a robust, glossy evergreen fern with leathery fronds widely used in the cut-greens trade and common in subtropical to tropical woodlands of the Americas, Africa, and islands—check regional provenance before planting because non-native stock can escape in mild climates. It forms clumps from scaly rhizomes, tolerates low light and coastal humidity, and provides year-round texture under trees where delicate ferns desiccate. For permaculture, it is primarily an ornamental ground layer and erosion mat on shady, well-drained slopes—not a calorie crop.
 
-  ☀️💧 Sun and Water Requirements:
   Partial to full shade; tolerates bright shade on humid coasts. Prefers moist, well-drained, humus-rich soils; tolerates short dry spells once established but fronds brown at tips in drought. Salt spray tolerance is moderate on some coastal sites. Avoid freezing exposures without protection—hardy through warm-temperate frost pockets at best.
 
-   ✂️ Propagation:
   Division of rhizome clumps in cool, moist weather resets crowded specimens.
   Spores are slow; use for nursery work, not instant landscapes.
 
-  🌾 Harvest / Best Use Timing:
   Cut fronds sparingly for arrangements from cultivated clumps; overcutting weakens plants. In gardens, remove winter-damaged fronds before spring fiddleheads emerge on other species nearby.
 purpose: |-
   Ornamental: Rumohra adiantiformis holds glossy, dark fronds year-round under oak canopy -- reads upscale in courtyards where delicate maidenhair ferns desiccate.
@@ -36,15 +33,17 @@ purpose: |-
   Fiber: Floral industry cuts fronds for long-lasting greenery -- home harvest means rotating stems so crowns stay vigorous, not stripped for one wedding bouquet.
   Erosion Control: Interlocking rhizomes knit leaf-litter slopes in coastal hammocks -- pair with mulch because exposed soil still washes in heavy subtropical rains.
 companions:
-- Coontie — subtropical cycad underplanting shares dry shade discipline once established
-- Saw Palmetto — low palm structure with fern ground layer in coastal hammock designs
-- Oak — dappled high shade and leaf mulch match Rumohra aesthetics in naturalistic
-  plantings
+- slug: coontie
+  name: Coontie
+- slug: saw-palmetto
+  name: Saw Palmetto
 cautions:
-- Invasive risk in mild, humid climates outside native range—verify regional invasive
-  plant lists before landscape release
+- Invasive risk in mild, humid climates outside native range—verify regional invasive plant lists before landscape release
 pests:
 - Scale Insects
 - Mealybugs
 growth_habit: Evergreen clumping fern; leathery fronds; shade and humidity specialist
 data_quality_score: 0.82
+companions_unresolved:
+- name: Oak
+  original: Oak — dappled high shade and leaf mulch match Rumohra aesthetics in naturalistic plantings

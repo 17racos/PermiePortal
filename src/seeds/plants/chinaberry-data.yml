@@ -22,31 +22,27 @@ plant_function:
 description: |-
   Chinaberry (Melia azedarach) is a fast-growing deciduous tree native to Asia, widely naturalized in warm-temperate to subtropical regions, with bipinnate leaves, lilac-like spring flowers, and yellow drupes containing seeds historically used for beads—toxic if eaten casually. Heights of 30–50 feet (9–15 m) are common with a spreading crown. It is listed invasive in multiple areas and can displace natives along roadsides; this profile supports identification and management literacy, not encouragement where ecology is already paying the bill.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun for dense canopy; tolerates drought and poor soils once established, which partly explains its weediness. Occasional deep watering speeds early growth; over-irrigation on heavy clay can stress roots without stopping spread ambition.
 
-  ✂️ Propagation:
   Spreads abundantly by seed; cutting and grinding stumps are common control tactics where regulated. If managing legacy trees, remove flowers or fruit before seed maturation to reduce recruitment.
 
-  🌾 Harvest / Best Use Timing:
    Do not forage drupes for food—toxicity is documented. Bead craft from hardened seeds is historical but secondary to ecological responsibility; prioritize preventing spread.
 purpose: |-
-  Ornamental: Lilac-scented spring panicles and airy bipinnate leaves gave this Melia street-tree presence before modern weed lists caught up with its seed rain.
-  Shade Provider: Fast, wide-spreading crown throws deep summer shade over driveways, barnyards, and poultry runs where legacy trees already stand.
-  Wildlife Attractor: Nectar supports generalist pollinators while yellow drupes feed birds that also plant new trees along fence lines unless fruit is removed.
-  Mulcher: Heavy leaf fall smothers weedy understory and returns minerals to the surface if you rake litter into beds you control.
-  Border Plant: Old shelterbelt rows still mark field edges and screen dust until slower native replacements size up.
+  Ornamental: Lilac-scented spring panicles and airy bipinnate leaves gave this Melia street-tree presence -- before modern weed lists caught up with its seed rain.
+  Shade Provider: Fast, wide-spreading crown throws deep summer shade over driveways, barnyards, and poultry runs -- where legacy trees already stand.
+  Wildlife Attractor: Nectar supports generalist pollinators -- while yellow drupes feed birds that also plant new trees along fence lines unless fruit is removed.
+  Mulcher: Heavy leaf fall smothers weedy understory and returns minerals to the surface -- if you rake litter into beds you control.
+  Border Plant: Old shelterbelt rows still mark field edges and screen dust -- until slower native replacements size up.
 companions:
-- Elderberry — quick native shrub layer for succession replacement plantings near
-  legacy trees
-- Yarrow — tough forb colonizes margins during conversion from monoculture shade to
-  layered systems
-- Sunflower — annual marker rows during transition plantings without long-term commitment
-  to chinaberry
+- slug: elderberry
+  name: Elderberry
+- slug: yarrow
+  name: Yarrow
+- slug: sunflower
+  name: Sunflower
 cautions:
 - Toxic fruit and plant parts — keep away from curious livestock and children
-- Invasive regulation — verify local weed status before planting, selling, or moving
-  seed
+- Invasive regulation — verify local weed status before planting, selling, or moving seed
 pests:
 - Japanese Beetles
 - Scale Insects

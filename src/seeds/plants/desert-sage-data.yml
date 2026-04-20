@@ -21,25 +21,19 @@ plant_function:
 description: |-
   Desert sage is a gray, aromatic shrub with shocking magenta flowers—desert glam without the glitter glue. It expects Western drainage honesty; Florida humidity is a stress test unless you cheat with grit, slope, and spacing. subtropical and tropical Americas growers: think rock garden royalty on a raised berm, not bog princess.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun for bloom density and tight habit.
-  - Extremely well-drained, lean soil; deep occasional soak beats daily spritzing.
+  Full sun for bloom density and tight habit. Extremely well-drained, lean soil; deep occasional soak beats daily spritzing.
 
-  ✂️ Methods to Propagate:
-  - Cuttings: semi-hardwood with bottom heat in warm weather.
-  - Seeds: can be slow/variable; clones preserve known good forms.
+  Cuttings: semi-hardwood with bottom heat in warm weather. Seeds: can be slow/variable; clones preserve known good forms.
 
-  🌾 Harvest notes:
-  - Light pruning after bloom; aromatic leaves for smudge bundles and crafts—verify safe indoor use.
+  Light pruning after bloom; aromatic leaves for smudge bundles and crafts—verify safe indoor use.
 purpose: |-
-  Pollinator: Salvia dorrii magenta tubular flowers open in spring on silver mounds, feeding early bees when desert forage is still thin.
-  Wildlife Attractor: Hummingbirds probe the long corollas on warm days in suitable dry-climate sites.
-  Border Plant: Aromatic gray foliage and shocking bloom read as a structured edge along gravel paths and berms.
+  Pollinator: Salvia dorrii magenta tubular flowers open in spring on silver mounds -- feeding early bees when desert forage is still thin.
+  Wildlife Attractor: Hummingbirds probe the long corollas on warm days -- reliable attractor in suitable dry-climate sites where tubular flowers are scarce.
+  Border Plant: Aromatic gray foliage and shocking bloom read as a structured edge -- along gravel paths and berms.
   Medicinal: Traditional smudge and tea uses lean on volatile oils -- internal use needs species-correct ID and modern safety review.
 companions:
-- Penstemon
-- Agave
-- Yucca
+- slug: agave
+  name: Agave
 cautions:
 - Humid shade and heavy mulch on crowns
 - Lawn irrigation overspray every morning
@@ -47,3 +41,8 @@ pests:
 - Aphids
 - Spider Mites
 - Root Rot
+companions_unresolved:
+- name: Penstemon
+  original: Penstemon
+- name: Yucca
+  original: Yucca

@@ -22,28 +22,21 @@ plant_function:
 description: |-
   Wild sweet potato (Ipomoea pandurata) is a native eastern North American perennial vine with heart-shaped leaves and big white morning-glory blooms striped red-purple in the throat. It climbs fences and shrubs via twining stems and forms a massive underground storage root over time—edible history exists, but modern foragers should verify identity, land permissions, and preparation because look-alikes in Ipomoea are not all friendly. In subtropical and tropical Americas it grows vigorously in warm months; manage it like a native vine with boundaries.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun to light shade; blooms more in sun.
-  - Average soil moisture; tolerates summer humidity but rots in constantly soggy low spots.
-  - Provide a trellis, dead tree, or tolerant shrub—do not unleash on delicate perennials without a plan.
+  Full sun to light shade; blooms more in sun. Average soil moisture; tolerates summer humidity but rots in constantly soggy low spots. Provide a trellis, dead tree, or tolerant shrub—do not unleash on delicate perennials without a plan.
 
-  ✂️ Methods to Propagate:
-  - Sow scarified seed after frost danger in spring; nick seed coat carefully to improve soak.
-  - Root cuttings from young root pieces are possible but slow—mostly a curiosity.
-  - Easiest expansion is allowing established plants to resprout from root crown; transplant dormant pieces with caution and labels.
+  Sow scarified seed after frost danger in spring; nick seed coat carefully to improve soak. Root cuttings from young root pieces are possible but slow—mostly a curiosity. Easiest expansion is allowing established plants to resprout from root crown; transplant dormant pieces with caution and labels.
 
-  🌾 Harvest / Best Use Timing:
-  - If pursuing roots, harvest from known patches in dormant season with landowner consent and expert ID.
-  - Otherwise treat as erosion-stabilizing ground cover and pollinator vine—clip back before it smothers unwilling hosts.
+  If pursuing roots, harvest from known patches in dormant season with landowner consent and expert ID. Otherwise treat as erosion-stabilizing ground cover and pollinator vine—clip back before it smothers unwilling hosts.
 purpose: |-
   Edible: Ipomoea pandurata massive roots can weigh 10+ kg -- historical use exists; modern eating needs landowner permission, certain ID versus toxic morning glories, and cooking knowledge.
   Ground Cover: Heart-shaped leaves laminate trellises and banks July through frost -- clip back if smothering planted shrubs.
   Wildlife Attractor: Big white morning-glory trumpets feed sphinx moths at night -- native bee guilds visit by day.
   Erosion Control: Deep tuber anchors sand cuts -- twining stems knit surface before perennial grasses establish.
 companions:
-- Corn
-- Green Bean
-- Sunflower
+- slug: green-bean
+  name: Green Bean
+- slug: sunflower
+  name: Sunflower
 cautions:
 - None documented
 pests:
@@ -52,3 +45,6 @@ pests:
 - Sweet Potato Weevil
 growth_habit: Herbaceous perennial vine
 data_quality_score: 0.75
+companions_unresolved:
+- name: Corn
+  original: Corn

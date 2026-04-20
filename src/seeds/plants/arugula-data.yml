@@ -2,8 +2,8 @@ common_name: Arugula
 picture: arugula.webp
 scientific_name: Eruca vesicaria
 aka:
-- Rocket
-- Roquette
+  - Rocket
+  - Roquette
 family: Brassicaceae
 zone: 3-11
 ideal_temp_min: 45
@@ -12,36 +12,38 @@ min_temp: 25
 max_temp: 90
 perennial: false
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Edible
-- Pollinator
-- Ground Cover
+  - Edible
+  - Pollinator
+  - Ground Cover
 description: |-
   Arugula (Eruca vesicaria) is a fast-growing leafy annual in the mustard family, native to the Mediterranean and long cultivated across temperate and subtropical food systems. Plants form low rosettes 8-18 inches tall with deeply lobed leaves and spicy flavor, then send up flower stalks with cream-white blooms. In permaculture beds it earns its space as a quick turnover green, early nectar source, and living cover between slower crops.
 
-  ☀️💧 Sun and Water Requirements:
   Arugula performs best in full sun to light partial shade. It prefers evenly moist, well-drained loam rich in organic matter and bolts fast in prolonged heat or drought stress. Mulch helps hold moisture and keep leaf flavor mild. It tolerates light frost down to about 25°F (-4°C) but declines in sustained heat above 90°F (32°C).
 
-  ✂️ Propagation:
   Direct sow seed every 2-3 weeks during cool periods for steady harvests; germination usually takes 4-8 days. It can also be started in modules and transplanted at 2-3 true leaves for tighter spacing control. Volunteer reseeding is common if a few plants are allowed to flower and set seed.
 
-  🌾 Harvest / Best Use Timing:
   Cut outer leaves once plants reach 4-6 inches tall, usually 20-30 days from sowing. For bunch harvest, cut whole rosettes before bolting. Flowers are edible and useful in salads, and mature seed can be saved or used as a pungent spice.
 purpose: |-
   Edible: Eruca vesicaria rosettes give mustard-pepper bite in salads while flower clusters and young siliques stay edible before heat turns them harsh -- cut outer leaves at 10-15 cm for cut-and-come-again beds between slower brassicas.
   Pollinator: Small cream flowers along bolted racemes feed solitary bees and syrphid flies in cool shoulder weeks when few other annuals are blooming -- let a few plants flower if you want volunteer seed without starving the pick row.
-  Ground Cover: Dense 20-30 day sowings tile bare soil between tomatoes and carrots, cutting splash erosion and smothering chickweed flushes until the canopy crop closes the row.
-companions:
-- Tomato - late-season canopy gives afternoon shade that slows bolting in warm spells.
-- Carrot - arugula fills bare soil quickly while carrot roots occupy deeper layers.
-- Onion - upright onion leaves share space efficiently and their scent can confuse
-  some chewing pests.
+  Ground Cover: Dense 20-30 day sowings tile bare soil between tomatoes and carrots -- cut splash erosion and smother chickweed flushes until the canopy crop closes the row.
+companions: []
 cautions:
-- Fennel - can suppress nearby annuals through strong root-zone competition and allelopathic
-  effects.
+  - Fennel - can suppress nearby annuals through strong root-zone competition and allelopathic effects.
 pests:
-- Aphids
-- Flea Beetles
-- Cabbage Worms
-- Slugs
+  - Aphids
+  - Flea Beetles
+  - Cabbage Worms
+  - Slugs
+companion_categories:
+  - name: Tomato - late-season canopy gives afternoon shade that slows bolting in warm spells.
+    original: Tomato - late-season canopy gives afternoon shade that slows bolting in warm spells.
+    type: system
+  - name: Carrot - arugula fills bare soil quickly while carrot roots occupy deeper layers.
+    original: Carrot - arugula fills bare soil quickly while carrot roots occupy deeper layers.
+    type: system
+  - name: Onion - upright onion leaves share space efficiently and their scent can confuse some chewing pests.
+    original: Onion - upright onion leaves share space efficiently and their scent can confuse some chewing pests.
+    type: system

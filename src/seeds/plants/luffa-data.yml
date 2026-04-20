@@ -20,28 +20,24 @@ plant_function:
 description: |-
   Luffa is the shower sponge that was a vegetable first. Young fruit harvests like a zucchini; left to mature, the flesh dries into fibrous skeleton you can peel like a weird banana of scrubbing. Long-season vine — subtropical and tropical Americas needs early start, trellis, and cultivars that finish before cool nights stall fruit fill.
 
-  ☀️💧 Sun and Water:
-  - Full sun.
-  - Steady water during growth; reduce as fruits mature for sponges to dry down cleanly.
+  Full sun. Steady water during growth; reduce as fruits mature for sponges to dry down cleanly.
 
-  ✂️ Propagation:
-  - Direct-sow after frost or start indoors 3-4 weeks ahead; roots resent rough transplanting — use deep pots.
-  - Trellis for straight fruit; ground fruits curve and collect slug opinions.
+  Direct-sow after frost or start indoors 3-4 weeks ahead; roots resent rough transplanting — use deep pots. Trellis for straight fruit; ground fruits curve and collect slug opinions.
 
   You can buy plastic loofahs, but where is the drama in that.
 
-  🌾 Harvest / Best Use Timing:
-  - Luffa: pick fruits young for vegetable use or fully ripe for seed and sweetness goals -- one plant rarely serves both fantasies.
-  - Cut stems morning; afternoon wilt reduces quality fast above 90°F (32°C).
-  - Check trellis daily during peak set; hidden fruits split after rain.
+  Luffa: pick fruits young for vegetable use or fully ripe for seed and sweetness goals -- one plant rarely serves both fantasies. Cut stems morning; afternoon wilt reduces quality fast above 90°F (32°C). Check trellis daily during peak set; hidden fruits split after rain.
 purpose: |-
   Edible: Luffa aegyptiaca fruits stay tender enough to slice like zucchini when under eight inches -- pick young or the interior fiber skeleton hardens into scrubber territory whether you planned it or not.
   Fiber: Fully mature gourds dry to open-weave sponges after peel and seed removal -- shake seeds outdoors unless you enjoy volunteer cucurbits next spring.
   Ornamental: Bright yellow cucurbit flowers hang along overhead trellis lines -- site vines on sturdy cattle panels because weight at peak humidity snaps flimsy stakes.
 companions:
-- Beans
-- Marigold
-- Nasturtium
+- slug: marigold
+  name: Marigold
+- slug: nasturtium
+  name: Nasturtium
+- slug: fava-bean
+  name: Fava Bean
 cautions:
 - Late planting with short frost-free window
 pests:
@@ -63,3 +59,11 @@ pests:
 - Spotted Cucumber Beetle
 growth_habit: Annual vine
 data_quality_score: 0.78
+companions_unresolved:
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index
+companions_normalized:
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

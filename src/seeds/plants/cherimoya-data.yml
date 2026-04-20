@@ -21,29 +21,27 @@ plant_function:
 description: |-
   Cherimoya is a smallish deciduous-to-semi-evergreen annonaceous tree with hand-sized, scaly green fruit and sweet, custardy flesh that tastes like someone crossed a pear with a pineapple and a hug. Hand pollination is often required outside its native Andean window because natural pollinators can be lazy tourists. Warm outer margins are marginal—occasional fruit in the warmest pockets, more reliable deep into true tropical climates. Young trees are frost-tender; established specimens tolerate brief cool dips better than hype suggests, but not a real freeze party.
 
-  ☀️💧 Sun and Water Requirements:
-
   Full sun once established; partial shade acceptable inland in blazing heat.
   Deep, fertile, well-drained soil; consistent moisture during fruit swell; reduce overwatering in cool wet winters.
-
-  ✂️ Propagation:
 
   Grafted trees for known cultivars; seedlings for rootstocks and gambling; cuttings and air layering possible but fussier.
   Plant two genetically different trees or learn to paint pollen with a brush like a caffeinated bee.
 
-  🌾 Harvest / Best Use Timing:
-
   Harvest fruit when mature green begins to yield and aroma builds; ripening finishes off the tree with hand pollination often required for good set.
 purpose: |-
-  Edible: scaly green fruit ripens off-tree to custard flesh when hand pollination fills carpels in frost-protected orchards where two genetically distinct clones cross pollen with a brush.
-  Ornamental: gray-green deciduous leaves and open branching read sculptural in courtyards even on years when beetle pollination fails and fruit set stays sparse.
-  Shade Provider: rounded crown throws humid subtropical shade over understory cacao, vanilla vines, or nursery tables once scaffold limbs lift above head height.
-  Wildlife Attractor: protogynous flowers perfume nights for beetles while ripe soft fruit draws fruit flies and mammals unless mesh bags protect clusters at sugar rise.
+  Edible: scaly green fruit ripens off-tree to custard flesh when hand pollination fills carpels in frost-protected orchards -- where two genetically distinct clones cross pollen with a brush.
+  Ornamental: gray-green deciduous leaves and open branching read sculptural in courtyards even on years -- when beetle pollination fails and fruit set stays sparse.
+  Shade Provider: rounded crown throws humid subtropical shade over understory cacao, vanilla vines, or nursery tables -- once scaffold limbs lift above head height.
+  Wildlife Attractor: protogynous flowers perfume nights for beetles -- while ripe soft fruit draws fruit flies and mammals unless mesh bags protect clusters at sugar rise.
 companions:
-- Papaya
-- Banana
-- Ice Cream Bean
-- Cacao
+- slug: ice-cream-bean-tree
+  name: Ice Cream Bean Tree
+- slug: papaya
+  name: Papaya
+- slug: banana
+  name: Banana
+- slug: cacao
+  name: Cacao
 cautions:
 - Flooded soil
 - Wind-exposed hilltops
@@ -52,3 +50,7 @@ pests:
 - Mealybugs
 - Aphids
 - Caribbean Fruit Fly
+companions_normalized:
+- original: Ice Cream Bean
+  resolved_slug: ice-cream-bean-tree
+  name: Ice Cream Bean Tree

@@ -21,33 +21,31 @@ plant_function:
 - Edible
 - Medicinal
 - Wildlife Attractor
+- Border Plant
+- Mulcher
+- Pollinator
 description: |-
   Roselle is hibiscus that files taxes as a vegetable: tart calyces for tea and jam, edible leaves if you are not boring, and a clock that screams annual once frost finds subtropical and tropical Americas. Plant after soil warms — cool roots make a sulk factory.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun for thick stems and heavy calyx production.
-  - Even moisture; drought shrinks calyx size and your winter pantry dreams.
-  - Well-drained fertile soil; responds to compost without corporate fertilizer poetry.
+  Full sun for thick stems and heavy calyx production. Even moisture; drought shrinks calyx size and your winter pantry dreams. Well-drained fertile soil; responds to compost without corporate fertilizer poetry.
 
-  ✂️ Methods to Propagate:
-  - Seeds: direct sow warm soil or start indoors 4–6 weeks before last frost.
-  - Cuttings: take semi-hardwood in warm months — roots with humidity, not hope alone.
+  Seeds: direct sow warm soil or start indoors 4–6 weeks before last frost. Cuttings: take semi-hardwood in warm months — roots with humidity, not hope alone.
 
-  🌾 Harvest / Best Use Timing:
-  - Roselle: pick peak flavor when fruits soften slightly and detach easily -- birds are a parallel calendar.
-  - Harvest after dew dries to reduce mold in baskets.
-  - Jam batches same day if humidity is high; acid and sugar balance matter more than Instagram gloss.
+  Roselle: pick peak flavor when fruits soften slightly and detach easily -- birds are a parallel calendar. Harvest after dew dries to reduce mold in baskets. Jam batches same day if humidity is high; acid and sugar balance matter more than Instagram gloss.
 purpose: |-
   Edible: Fleshy red calyx cups swell after the yellow hibiscus bloom falls -- pick for Florida cranberry jelly, simple syrup, and acid teas; young leaves cook like mild okra if you strip them before stems toughen.
   Medicinal: Hibiscus-family acids and anthocyanins in calyx tea are traditional for blood pressure support -- can lower readings measurably; check meds, pregnancy, and first-cup orthostatic dizziness on hot afternoons.
-  Wildlife Attractor: Open hibiscus faces feed bees all summer; finches pick mature seed from dry capsules if you leave a few heads uncut past frost for winter interest.
-  Pollinator: Large anthers dust carpenter bees and sweat bees that cannot reach deep mint tubes nearby on the same guild list.
-  Mulcher: Frost-killed woody stems chip into paths or compost; calyx harvest residue after processing still carries enough acid to activate a hot compost pile when layered thin.
-  Border Plant: Red-stemmed annual rows read as a seasonal hedge along south fences where you want height without permanent shade from woody shrubs.
+  Wildlife Attractor: Open hibiscus faces feed bees all summer -- finches pick mature seed from dry capsules if you leave a few heads uncut past frost for winter interest.
+  Pollinator: Large anthers dust carpenter bees and sweat bees -- serves pollinators that cannot reach deep mint tubes nearby on the same guild list.
+  Mulcher: Frost-killed woody stems chip into paths or compost -- calyx harvest residue after processing still carries enough acid to activate a hot compost pile when layered thin.
+  Border Plant: Red-stemmed annual rows read as a seasonal hedge along south fences -- where you want height without permanent shade from woody shrubs.
 companions:
-- Okra
-- Peppers
-- Basil
+- slug: bell-pepper
+  name: Bell Pepper
+- slug: okra
+  name: Okra
+- slug: basil
+  name: Basil
 cautions:
 - Planting too early in cool wet soil
 - Expecting perennial life where hard frost exists
@@ -58,3 +56,7 @@ pests:
 - Japanese Beetles
 - Whiteflies
 field_observations: No field observations yet
+companions_normalized:
+- original: Peppers
+  resolved_slug: bell-pepper
+  name: Bell Pepper

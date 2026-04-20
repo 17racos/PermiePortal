@@ -2,8 +2,8 @@ common_name: Little Bluestem
 picture: little_bluestem.webp
 scientific_name: Schizachyrium scoparium
 aka:
-- Beard grass
-- Blue stem
+  - Beard grass
+  - Blue stem
 family: Poaceae
 zone: 3-10
 ideal_temp_min: 60
@@ -12,22 +12,19 @@ min_temp: -35
 max_temp: 105
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Erosion Control
-- Wildlife Attractor
-- Ornamental
-- Animal Fodder
+  - Erosion Control
+  - Wildlife Attractor
+  - Ornamental
+  - Animal Fodder
 description: |-
   Little bluestem (Schizachyrium scoparium) is a warm-season bunchgrass of North American prairies, roadsides, and open woods, valued for blue-green summer foliage shifting to copper, burgundy, and seed heads that catch winter light. Clumps typically reach 2–4 feet (0.6–1.2 m). It is a matrix species for meadow restoration, rain garden berms, and ornamental plantings where turf would be a hydrological lie.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun for color and upright habit; too much shade yields lax stems. Well-drained soils from sand to clay if not waterlogged; excellent drought tolerance after establishment. Avoid chronic irrigation designed for bluegrass cosplay.
 
-  ✂️ Propagation:
   Sow seed shallow in warm soil; weed control year one determines success. Divide dormant crowns in early spring. Burn or mow on ecologically informed schedules—not random buzz cuts.
 
-  🌾 Harvest / Best Use Timing:
   For grazing, follow warm-season utilization guidance. For gardens, leave standing for winter structure; cut back before spring growth. Collect seed when ripe for local genotype mixes.
 purpose: |-
   Erosion Control: Schizachyrium scoparium roots form dense mats that anchor sandy berms and highway cuts -- pair with switchgrass on wetter toes where little bluestem would rot.
@@ -35,25 +32,26 @@ purpose: |-
   Ornamental: Summer blue-green foliage shifts to burgundy and flame in autumn -- mass in lean soil; irrigation and fertilizer produce floppy stems that lodge after storms.
   Animal Fodder: Palatability peaks in early summer before seedheads lignify -- rotate grazing so crowns recover; overgrazing in drought beats plants down faster than warm-season grasses recharge.
 companions:
-- Indiangrass — taller warm-season neighbor for vertical layering in prairie mixes
-- Dense Blazingstar — forb spikes interplanted for pollinator structure
-- Echinacea — taprooted forb companion adding summer pollinator structure in sunny
-  prairie mixes
+  - slug: indiangrass
+    name: Indiangrass
+  - slug: dense-blazingstar
+    name: Dense Blazingstar
+  - slug: echinacea
+    name: Echinacea
 cautions:
-- Wet winter clay — some mortality; improve drainage or choose wet-prairie species
-- Heavy shade — color and flowering collapse; pick sedges for dark sites
+  - Wet winter clay — some mortality; improve drainage or choose wet-prairie species
+  - Heavy shade — color and flowering collapse; pick sedges for dark sites
 pests:
-- Armyworms
-- Bamboo Mite
-- Corn Earworm
-- Fall Armyworm
-- Grasshopper
-- Lubber Grasshopper
-- Rice Blast Fungus
-- Rice Water Weevil
-- Spittlebugs
-- Wireworm
-- Leaf Blight
-growth_habit: Warm-season bunchgrass; blue summer foliage; copper winter color; prairie
-  matrix
+  - Armyworms
+  - Bamboo Mite
+  - Corn Earworm
+  - Fall Armyworm
+  - Grasshopper
+  - Lubber Grasshopper
+  - Rice Blast Fungus
+  - Rice Water Weevil
+  - Spittlebugs
+  - Wireworm
+  - Leaf Blight
+growth_habit: Warm-season bunchgrass; blue summer foliage; copper winter color; prairie matrix
 data_quality_score: 0.83

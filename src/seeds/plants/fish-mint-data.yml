@@ -24,23 +24,23 @@ plant_function:
 description: |-
   Fish Mint (*Houttuynia cordata*) is a herbaceous perennial plant native to Southeast Asia, growing to a height of 0.6–1 meter (2–3.3 feet) and spreading up to 1 meter (3.3 feet). It features heart-shaped leaves, 4–9 cm long and 3–8 cm broad, which often develop red and yellow splotches, giving the plant its 'Chameleon' nickname. The plant produces small greenish-yellow flowers borne on terminal spikes 2–3 cm long, surrounded by four to six large white basal bracts, typically blooming in the summer. The leaves have a unique taste due to the presence of decanoyl acetaldehyde, often described as 'fishy,' and are used in various Asian cuisines.
 
-  🌞💧 **Sun and Water Requirements:**
   Fish Mint thrives in moist to wet soil and can tolerate slight submersion in water, making it suitable for aquatic gardens. It prefers partially to fully sunny locations but can also grow in shaded areas. Regular watering is essential, especially in drier conditions, to maintain soil moisture.
 
-  ✂️🫘 **Methods to Propagate:**
   Fish Mint propagates vigorously through its rhizomes. Division is the most common method of propagation, best performed in spring or fall. Care should be taken to control its spread, as it can become invasive in garden settings.
 
-  🧑‍🌾👩‍🌾 **When to Harvest:**
   Harvest Fish Mint leaves throughout the growing season as needed. For culinary uses, young, tender leaves are preferred for their milder flavor. The roots can also be harvested and used in various dishes.
 purpose: |-
   Edible: Houttuynia cordata leaves carry decanoyl acetaldehyde for the namesake fishy punch in Vietnamese salads and hot pots -- young tips stay milder while autumn-dug rhizomes flavor broths where the taste is deliberately acquired, not hidden.
   Medicinal: Houttuynin chemistry enters Chinese materia medica for heat-clearing protocols -- contact dermatitis shows up in sensitized users and long high-dose internal regimens need clinician review before kitchen scaling experiments.
-  Ground Cover: Rhizomes stolon through damp partial shade to replace turf where Iris laevigata lines pond returns with less mowing drama in zone 5-11 beds you contain with buried edge or basket planting.
-  Aquatic: Roots tolerate rhizome baskets an inch or two underwater in eddy bays where still water lets white involucral bracts reflect to pollinating flies without drowning crowns in stagnant black muck.
+  Ground Cover: Rhizomes stolon through damp partial shade to replace turf -- where Iris laevigata lines pond returns with less mowing drama in zone 5-11 beds you contain with buried edge or basket planting.
+  Aquatic: Roots tolerate rhizome baskets an inch or two underwater in eddy bays -- where still water lets white involucral bracts reflect to pollinating flies without drowning crowns in stagnant black muck.
 companions:
-- Marsh Gladiolus
-- Lady's Mantle
-- Meadowsweet
+- slug: meadowsweet
+  name: Meadowsweet
+- slug: marsh-gladiolus
+  name: Marsh Gladiolus
+- slug: ladys-mantle
+  name: Lady's Mantle
 cautions:
 - None noted
 pests:
@@ -48,3 +48,8 @@ pests:
 - Whiteflies
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Marsh Gladiolus
+  original: Marsh Gladiolus
+- name: Lady's Mantle
+  original: Lady's Mantle

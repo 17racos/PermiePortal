@@ -2,10 +2,10 @@ common_name: Goumi
 picture: goumi.webp
 scientific_name: Elaeagnus multiflora
 aka:
-- Cherry elaeagnus
-- Gumi
-- Goumi Berry
-- Goumi Cherry
+  - Cherry elaeagnus
+  - Gumi
+  - Goumi Berry
+  - Goumi Cherry
 family: Elaeagnaceae
 zone: 5-9
 ideal_temp_min: 50
@@ -14,22 +14,19 @@ min_temp: -20
 max_temp: 95
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Edible
-- Nitrogen Fixer
-- Wildlife Attractor
-- Border Plant
+  - Edible
+  - Nitrogen Fixer
+  - Wildlife Attractor
+  - Border Plant
 description: |-
   Goumi (Elaeagnus multiflora) is a deciduous to semi-evergreen shrub from East Asia, widely planted for silvery-scaled leaves, fragrant spring flowers, and tart scarlet berries speckled with silver. Plants typically reach 6–10 feet (1.8–3 m) and tolerate lean soils thanks to actinorhizal nitrogen fixation on roots. It suits temperate to warm-summer food hedges, windbreak understories, and poultry margins where thorns are acceptable trade for fruit.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun for heaviest fruiting; light shade reduces yield but aids establishment in hot dry sites. Well-drained soils; tolerates drought after establishment due to salt-tolerant family physiology. Avoid waterlogged clay that rots roots while you blame the cultivar.
 
-  ✂️ Propagation:
   Sow cleaned seed after stratification if available; vegetative propagation is more predictable for selected types. Softwood cuttings under mist root in warm weather. Prune after fruiting to open the interior for light and air.
 
-  🌾 Harvest / Best Use Timing:
   Berries soften and sweeten somewhat after astringent early stages—taste before bulk processing. Use for jelly, sauces, or drying when fully colored. Flowers are powerfully scented—plant downwind of bedroom windows if you are scent-sensitive.
 purpose: |-
   Edible: Elaeagnus multiflora yields tart scarlet berries freckled with silver that soften after the first astringent bite -- cook into jelly and sauces once fully colored, tasting each batch because astringency varies with ripeness and cultivar.
@@ -37,18 +34,17 @@ purpose: |-
   Wildlife Attractor: Heavily scented spring flowers pull bees into the hedge row, and ripe fruit feeds songbirds in minutes -- net canopies or harvest early if you want human share instead of feathered redistribution.
   Border Plant: Dense, sometimes thorny twigs knit into a living fence that marks property lines and slows casual foot traffic -- prune after fruiting to keep interior wood lit and air moving so silver-scaled foliage stays productive.
 companions:
-- Autumn Olive — related Elaeagnus-flowering window overlap can improve fruit set
-  where policies allow planting
-- Apple — rosaceous neighbor sharing hedgerow management and beneficial insect traffic
-  at row edges
-- Comfrey — deep-mining herb mulch that feeds the root zone without shading the crown
+  - slug: autumn-olive
+    name: Autumn Olive
+  - slug: apple
+    name: Apple
+  - slug: comfrey
+    name: Comfrey
 cautions:
-- Potentially invasive in some regions — check local assessments before planting near
-  natural areas
-- Thorns — present on many selections; wear gloves for pruning theater
+  - Potentially invasive in some regions — check local assessments before planting near natural areas
+  - Thorns — present on many selections; wear gloves for pruning theater
 pests:
-- Japanese Beetles
-- Scale Insects
-growth_habit: Nitrogen-fixing shrub; silvery leaves; fragrant flowers; red silver-flecked
-  berries
+  - Japanese Beetles
+  - Scale Insects
+growth_habit: Nitrogen-fixing shrub; silvery leaves; fragrant flowers; red silver-flecked berries
 data_quality_score: 0.84

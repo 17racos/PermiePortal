@@ -22,27 +22,20 @@ description: |-
 
   subtropical and tropical Americas: It will grow only where summers are shaded, mulched, and never baked dry—think live-oak understory experiments in Florida, not full-sun hellstrips. Puerto Rico’s tropical shade gardens at elevation can mimic its European forest-floor cravings; lowland heat plus humidity demands extra airflow and organic mulch or you get mildew confetti.
 
-  ☀️💧 Sun and Water Requirements:
-  - Light shade to full shade; a few morning rays are enough; midday sun is leaf-scorch theater.
-  - Even moisture; humus-rich, well-drained soil—never soggy anaerobic pots.
+  Light shade to full shade; a few morning rays are enough; midday sun is leaf-scorch theater. Even moisture; humus-rich, well-drained soil—never soggy anaerobic pots.
 
-  ✂️ Propagation:
-  - Divide mats in spring or fall; replant pieces with roots and water until new whorls appear.
-  - Root stem sections pinned to soil in shade; keep humidity steady until they anchor.
+  Divide mats in spring or fall; replant pieces with roots and water until new whorls appear. Root stem sections pinned to soil in shade; keep humidity steady until they anchor.
 
-  🌾 Harvest / Best Use Timing:
-  - Gather flowering tops for drying when scent peaks; traditional flavoring uses are tiny-dose territory—respect coumarin cautions.
-  - Shear ragged mats after bloom to refresh appearance and reduce fungal load in humid weeks.
+  Gather flowering tops for drying when scent peaks; traditional flavoring uses are tiny-dose territory—respect coumarin cautions. Shear ragged mats after bloom to refresh appearance and reduce fungal load in humid weeks.
 purpose: |-
   Edible: Galium odoratum dried whorls flavor May wine and syrups with coumarin sweetness -- keep intake modest because concentrated extracts challenge livers already on thin ice.
-  Ground Cover: Shallow rhizomes carpet shade under elderberries so mower strips shrink to paths only.
-  Ornamental: Starry white May blooms hover above glossy whorled leaves for designers who quit fighting dry shade lawn altogether.
+  Ground Cover: Shallow rhizomes carpet shade under elderberries so mower strips shrink -- to paths only.
+  Ornamental: Starry white May blooms hover above glossy whorled leaves -- for designers who quit fighting dry shade lawn altogether.
 companions:
-- Hosta — larger leaves contrast fine whorls; both want shade and steady moisture.
-- Ferns — ostrich or Christmas types share understory ethics without allelopathic
-  shade wars.
-- Wild Ginger — low mats interdigitate in deep shade where sun lovers would simply
-  die of honesty.
+- slug: wild-ginger
+  name: Wild Ginger
+- slug: cinnamon-fern
+  name: Cinnamon Fern
 cautions:
 - Bermuda grass
 - English ivy
@@ -52,3 +45,13 @@ pests:
 - Powdery Mildew
 growth_habit: Rhizomatous perennial herb; whorled leaves; spring star flowers
 data_quality_score: 0.75
+companions_unresolved:
+- name: Hosta
+  original: Hosta — larger leaves contrast fine whorls; both want shade and steady moisture.
+- name: Fern
+  original: Ferns — ostrich or Christmas types share understory ethics without allelopathic shade wars.
+  note: normalization_target_not_in_index
+companions_normalized:
+- original: Ferns — ostrich or Christmas types share understory ethics without allelopathic shade wars.
+  resolved_slug: cinnamon-fern
+  name: Cinnamon Fern

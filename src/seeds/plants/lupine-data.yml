@@ -24,7 +24,7 @@ plant_function:
 - Ornamental
 description: |-
   Lupines are herbaceous perennials known for their tall, spiky flower clusters that come in a variety of colors, including blue, purple, pink, and white. They typically grow between 0.3 to 1.5 meters (1 to 5 feet) in height, with some species reaching up to 6 meters (20 feet). The plants have deeply divided, palmate leaves and produce seed pods after flowering. They thrive in cooler climates and prefer well-drained, sandy soils. Lupines are also known for their nitrogen-fixing ability, enriching the soil in which they grow. Propagation is commonly done through seeds, which should be scarified before planting. Harvesting of seeds occurs in late summer when the pods turn brown and begin to split.
-  ☀️💧 Sun and Water Requirements — Full sun to bright partial shade; hot-summer climates benefit from afternoon shade. Well-drained, sandy or gravelly loam with slightly acidic pH suits most species; avoid waterlogged clay that rots deep taproots. Moderate moisture during establishment and flowering; established plants tolerate short dry spells but not standing water.
+
 purpose: |-
   Edible: Sweet Lupinus selections produce debittered lupin beans after long soaking and boiling -- wild-collected species often carry bitter quinolizidine alkaloids that demand lab-grade processing, not campfire roasting.
   Nitrogen Fixer: Bradyrhizobium nodules on lupine roots fix nitrogen in poor sand -- follow with non-legume crops that mine the bank left in residues after you slash spent stalks.
@@ -33,9 +33,10 @@ purpose: |-
   Erosion Control: Deep taproots anchor road cuts and ski-slope restoration mixes -- choose regional ecotypes so bloom timing matches local pollinator flights.
   Ornamental: Spires of blue to magenta flowers read alpine-clean in borders -- provide sharp drainage; wet winter clay rots crowns overnight.
 companions:
-- Yarrow
-- Coneflower
-- Black-eyed Susan
+- slug: yarrow
+  name: Yarrow
+- slug: black-eyed-susan
+  name: Black-eyed Susan
 cautions:
 - Carrot
 - Potato
@@ -72,3 +73,6 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Coneflower
+  original: Coneflower

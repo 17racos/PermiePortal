@@ -25,32 +25,26 @@ description: |-
 
   Ginger thrives in warm, humid climates and requires rich, well-drained soil. It can be grown in the ground or in containers, making it versatile for home gardens. The plant's rhizomes spread underground, forming dense clusters that can be divided for propagation.
 
-   🌞💧 Sun and Water Requirements:
-  - Prefers partial shade to full sun.
-  - Requires moist, well-drained, fertile soil rich in organic matter.
-  - Needs consistent watering but should not be waterlogged.
+  Prefers partial shade to full sun. Requires moist, well-drained, fertile soil rich in organic matter. Needs consistent watering but should not be waterlogged.
 
-  ✂️🫘 Methods to Propagate:
-  - Rhizomes: Plant sections of rhizomes with at least one growth bud.
-  - Division: Established plants can be divided and replanted.
-  - No seeds: Typically does not produce viable seeds.
+  Rhizomes: Plant sections of rhizomes with at least one growth bud. Division: Established plants can be divided and replanted. No seeds: Typically does not produce viable seeds.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
-  - Harvest rhizomes 8–10 months after planting when leaves start to yellow and die back.
-  - Young ginger (baby ginger) can be harvested earlier for a milder flavor.
-  - Cut and store rhizomes in a cool, dry place or refrigerate for fresh use.
+  Harvest rhizomes 8–10 months after planting when leaves start to yellow and die back. Young ginger (baby ginger) can be harvested earlier for a milder flavor. Cut and store rhizomes in a cool, dry place or refrigerate for fresh use.
 purpose: |-
-  Edible: Pungent rhizome is grated fresh for tea and stir-fry or pickled young as gari; mature hands eight to ten months after planting carry the heat and fiber cooks expect in candied stem ginger.
+  Edible: Pungent rhizome is grated fresh for tea and stir-fry or pickled young as gari -- mature hands eight to ten months after planting carry the heat and fiber cooks expect in candied stem ginger.
   Medicinal: Gingerol-rich rhizome is traditional for nausea from motion and morning sickness -- clinical trials support some anti-nausea use; high doses thin blood slightly and can upset reflux-prone stomachs.
-  Mulcher: Lance leaves yellow in fall dormancy and lay flat as a quick mulch mat under banana shade where they disappear before spring sprout pushes through.
-  Dynamic Accumulator: Rhizome mass banks potassium taken up during the rainy growth flush; composting spent planting pieces returns that fraction to the bed for the next rotation.
-  Border Plant: Clumping rows edge paths in partial shade beside turmeric and lemongrass, signaling the “wet foot, warm soil” zone of the food forest without spreading by seed in cultivation.
+  Mulcher: Lance leaves yellow in fall dormancy and lay flat as a quick mulch mat under banana shade -- where they disappear before spring sprout pushes through.
+  Dynamic Accumulator: Rhizome mass banks potassium taken up during the rainy growth flush -- composting spent planting pieces returns that fraction to the bed for the next rotation.
+  Border Plant: Clumping rows edge paths in partial shade beside turmeric and lemongrass, signaling the “wet foot, warm soil” zone of the food forest -- without spreading by seed in cultivation.
 companions:
-- Turmeric
-- Lemon Grass
-- Banana
-- Citrus
-- Moringa
+- slug: lemongrass
+  name: Lemongrass
+- slug: turmeric
+  name: Turmeric
+- slug: banana
+  name: Banana
+- slug: moringa
+  name: Moringa
 cautions:
 - Onion
 - Garlic
@@ -65,3 +59,10 @@ pests:
 growth_habit: Tree
 data_quality_score: 0.8
 field_observations: No field observations yet
+companions_normalized:
+- original: Lemon Grass
+  resolved_slug: lemongrass
+  name: Lemongrass
+companions_unresolved:
+- name: Citrus
+  original: Citrus

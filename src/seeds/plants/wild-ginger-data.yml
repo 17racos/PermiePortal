@@ -26,21 +26,19 @@ description: |-
   Only in cool pockets and northward; heat and long humid summers are not its personality—try native Hexastylis species farther south if you want ginger-ish leaves.
 
   Sun and water: Full to partial shade; rich, moist, humusy soil that never bakes. Mimics forest floor, not parking median.
-  ✂️ Propagation:
+
   Rhizome division when dormant; fresh seed sown immediately; slow spread—patience is currency.
 
-  🌾 Harvest / Best Use Timing:
-  - Harvest Wild Ginger aerial parts in early flowering for many mint-family uses -- oils shift after full bloom.
-  - Dry in shade with airflow between 95-110°F (35-43°C) until crisp; mold invalidates the batch.
-  - Label harvest date and plant part -- winter you will not remember which jar was optimism.
+  Harvest Wild Ginger aerial parts in early flowering for many mint-family uses -- oils shift after full bloom. Dry in shade with airflow between 95-110°F (35-43°C) until crisp; mold invalidates the batch. Label harvest date and plant part -- winter you will not remember which jar was optimism.
 purpose: |-
   Ground Cover: rhizomes creep under leaf litter in heart-shaped pairs -- stays under 20 cm, perfect for trillium neighbors.
   Medicinal: rhizome entered Indigenous and eclectic practice as a mild stimulant and emetic -- not interchangeable with Zingiber; confirm species and safety references before internal experiments.
   Wildlife Attractor: Brown jug flowers sit on soil for ants and flies -- seed elaiosomes feed ants that plant next generation.
 companions:
-- Ferns
-- Trillium
-- Spicebush
+- slug: spicebush
+  name: Spicebush
+- slug: cinnamon-fern
+  name: Cinnamon Fern
 cautions:
 - Full sun and drought
 - Confusing with unrelated “wild ginger” toxic lookalikes in other regions
@@ -50,3 +48,13 @@ pests:
 - Root Rot
 growth_habit: Rhizomatous perennial; two broad leaves per stem node; low carpet
 data_quality_score: 0.75
+companions_unresolved:
+- name: Fern
+  original: Ferns
+  note: normalization_target_not_in_index
+- name: Trillium
+  original: Trillium
+companions_normalized:
+- original: Ferns
+  resolved_slug: cinnamon-fern
+  name: Cinnamon Fern

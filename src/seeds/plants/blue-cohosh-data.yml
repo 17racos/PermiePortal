@@ -20,29 +20,31 @@ plant_function:
 description: |-
   Blue cohosh (Caulophyllum thalictroides) is a long-lived woodland perennial of eastern North America, bearing blue-green, thrice-compound leaves reminiscent of meadow-rue and odd yellow-green to brownish spring flowers that mature into striking blue berries on thick stalks. Plants stand roughly 1–3 feet (30–90 cm) in flower and fruit, spreading slowly by rhizomes in rich, moist forest soils. Berries and roots appear in historical herbal literature but contain alkaloids—modern use belongs strictly to trained practitioners.
 
-  ☀️💧 Sun and Water Requirements:
   Partial to full shade; morning sun with afternoon shade works in cooler zones. Moist, well-drained, humus-rich soil mimics maple-beech forest floors; drought causes early dormancy and weak fruiting. Mulch with leaf mold; avoid waterlogged clay.
 
-  ✂️ Propagation:
   Sow fresh seed promptly; double dormancy may delay germination 1–2 years—label pots and wait. Divide dormant rhizomes in early spring, ensuring each piece has buds. Patience beats forcing heat on this species.
 
-  🌾 Harvest / Best Use Timing:
   Garden value peaks at the blue-berry stage in early summer—photograph, do not overpick wild stands. Any root harvest for medicine should come only from abundant cultivated patches with legal and ethical review; toxicity is real.
 purpose: |-
-  Medicinal: Caulophyllum thalictroides roots and berries carry methylcytisine-class alkaloids tied to old midwifery texts, so any internal use stays in credentialed hands, not casual tea experiments.
-  Ornamental: Waxy blue berries on thick green stalks read after the odd yellow-brown spring flowers fade, giving a shade-bed color cue you can spot from the path.
-  Wildlife Attractor: Thrips and small bees work the early flowers; thrushes move the blue berries when colonies fruit in humid maple-beech litter.
-  Ground Cover: Slow rhizomes fill rich moist shade without stolon runners, so colonies expand on decade scales if soil stays high in leaf mold.
+  Medicinal: Caulophyllum thalictroides roots and berries carry methylcytisine-class alkaloids tied to old midwifery texts -- so any internal use stays in credentialed hands, not casual tea experiments.
+  Ornamental: Waxy blue berries on thick green stalks read after the odd yellow-brown spring flowers fade -- giving a shade-bed color cue you can spot from the path.
+  Wildlife Attractor: Thrips and small bees work the early flowers -- thrushes move the blue berries when colonies fruit in humid maple-beech litter.
+  Ground Cover: Slow rhizomes fill rich moist shade without stolon runners -- so colonies expand on decade scales if soil stays high in leaf mold.
 companions:
-- Jack-in-the-Pulpit — shares rich moist shade and staggered seasonal interest
-- Maidenhair Fern — matches acidic organic soils and appreciates cohosh’s light shade
-- American Beech — overstory that provides stable cool litter and gentle spring light
+- slug: maidenhair-fern
+  name: Maidenhair Fern
+- slug: jack-in-the-pulpit
+  name: Jack-in-the-Pulpit
 cautions:
 - Toxicity — berries are not food; ingestion can cause serious symptoms
 - Pregnancy — historical use tied to uterine effects; avoid casual experimentation
 pests:
 - Slugs
 - Snails
-growth_habit: Herbaceous perennial; blue-green compound leaves; blue berries on thick
-  stems
+growth_habit: Herbaceous perennial; blue-green compound leaves; blue berries on thick stems
 data_quality_score: 0.85
+companions_unresolved:
+- name: Jack-in-the-Pulpit
+  original: Jack-in-the-Pulpit — shares rich moist shade and staggered seasonal interest
+- name: American Beech
+  original: American Beech — overstory that provides stable cool litter and gentle spring light

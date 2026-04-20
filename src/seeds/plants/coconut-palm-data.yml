@@ -24,32 +24,27 @@ plant_function:
 description: |-
   Coconut palm (Cocos nucifera) is a tall single-trunk palm of tropical coasts and humid lowlands, famous for copra, cooking oil, sap, fiber, and the iconic nut that floats between islands. Mature specimens commonly reach 50–80 feet (15–24 m) in cultivation, with pinnate fronds forming a high crown. In permaculture it is a long-lived staple tree for humid tropics and frost-free subtropical margins where salt spray and wind are part of daily weather.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun drives best growth and fruiting; young plants tolerate light shade while establishing. Likes deep, well-drained soils and steady moisture in the warm season; tolerates short dry spells once roots run deep but not prolonged drought on sandy sites. Salt-laden wind is normal habitat—avoid chronically waterlogged pits that suffocate roots.
 
-  ✂️ Propagation:
   Sow whole mature nuts on their side in warm, humid media; germination is slow and variable but reliable when heat stays above roughly 70°F (21°C). Select seed from productive, disease-free mother palms when possible. Tall varieties are not practical to move once large—plan spacing for falling fronds and fruit from day one.
 
-  🌾 Harvest / Best Use Timing:
   Pick drinking coconuts while husks are still green; wait for brown husks when targeting copra or oil. Cut inflorescences for sap only on trees you understand—tapping stresses palms and needs clean technique. Prune dead fronds for safety, not vanity; green fronds feed the crown.
 purpose: |-
-  Edible: Green nuts give drinking water and jelly meat; mature copra supplies cooking oil, grated flesh, and cream for curries across humid tropical kitchens.
-  Animal Fodder: Sprouted copra cake and young palm fronds enter cattle, goat, and pig rations only where farmers understand aflatoxin risk and balance with other feeds.
-  Windbreaker: Tall elastic trunks and feather fronds flex in hurricanes, shedding segmented leaves instead of snapping whole crowns like many broadleaf trees.
-  Shade Provider: High canopy throws shifting noon shade over cacao, young banana mats, and understory tubers during equatorial sun peaks.
-  Mulcher: Fallen fronds and spathes become slow-decay coarse mulch that suppresses weeds and cushions soil under climbing crops.
+  Edible: Green nuts give drinking water and jelly meat -- mature copra supplies cooking oil, grated flesh, and cream for curries across humid tropical kitchens.
+  Animal Fodder: Sprouted copra cake and young palm fronds enter cattle, goat, and pig rations only -- where farmers understand aflatoxin risk and balance with other feeds.
+  Windbreaker: Tall elastic trunks and feather fronds flex in hurricanes -- shedding segmented leaves instead of snapping whole crowns like many broadleaf trees.
+  Shade Provider: High canopy throws shifting noon shade over cacao, young banana mats, and understory tubers -- useful during equatorial sun peaks.
+  Mulcher: Fallen fronds and spathes become slow-decay coarse mulch -- that suppresses weeds and cushions soil under climbing crops.
 companions:
-- Banana — quick herbaceous shade and biomass at the stem base while juvenile palms
-  establish
-- Papaya — fast fruiting gap-filler in the young palm understory before the crown
-  closes
-- Sweet Potato — living ground cover stabilizes soil around irrigation rings without
-  competing for canopy
+- slug: banana
+  name: Banana
+- slug: papaya
+  name: Papaya
+- slug: sweet-potato
+  name: Sweet Potato
 cautions:
-- Falling fruit and fronds — serious strike hazard; do not site over paths, vehicles,
-  or roofs you like
-- Cold wet soil — young palms rot in cool, saturated media even if air temperatures
-  look mild
+- Falling fruit and fronds — serious strike hazard; do not site over paths, vehicles, or roofs you like
+- Cold wet soil — young palms rot in cool, saturated media even if air temperatures look mild
 pests:
 - Coconut Mite
 - Palm Weevil
@@ -59,6 +54,5 @@ pests:
 - Scale Insects
 - Ganoderma Butt Rot
 - Heart Rot
-growth_habit: Single-trunk pinnate palm; tropical coastal; very tall in standard types;
-  long-lived perennial
+growth_habit: Single-trunk pinnate palm; tropical coastal; very tall in standard types; long-lived perennial
 data_quality_score: 0.82

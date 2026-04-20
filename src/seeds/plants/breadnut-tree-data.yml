@@ -22,26 +22,24 @@ plant_function:
 description: |-
   Breadnut or ramón (Brosimum alicastrum) is a large tropical evergreen tree from Mexico through Central America and the Caribbean, historically cultivated for starchy seeds roasted or ground, edible young leaves, and fodder during dry seasons. Mature specimens reach 80–115 feet (24–35 m) in forest settings with smooth gray bark and milky latex like other Moraceae. In agroforestry it is a calorie-dense canopy species that feeds people, livestock, and wildlife while producing deep shade for understory crops—plan spacing before the crown owns the field.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun to partial shade depending on seed source; forest ecotypes tolerate shade juveniles. Prefers deep, well-drained soils with steady moisture during establishment; mature trees endure seasonal drought but fruit and leaf fodder decline without rain. Frost sensitivity limits production to frost-free climates for reliable yields.
 
-  ✂️ Propagation:
   Sow fresh seed immediately; desiccation kills viability quickly. Air-layer or graft superior nut lines once identified. Protect young plants from grazing until stems lignify above browse height.
 
-  🌾 Harvest / Best Use Timing:
   Collect fallen ripe fruit and extract seeds for drying and roasting; timing follows local wet–dry rhythm. Young leaves can be cut during fodder pinch periods if management plans avoid stripping crowns. Prune for clearance only with sharp tools and respect for latex mess.
 purpose: |-
-  Edible: Brosimum alicastrum seeds roast like chestnuts after you leach tannins from the dried nut, giving a storable flour base where maize storage is humid and risky.
-  Animal Fodder: Young leaves cut during dry months feed cattle in Central American silvopasture trials when grass goes brown between rains.
-  Shade Provider: 25–35 m crowns cast deep shade for cacao, coffee, or understory ginger once you open enough light wells with directional pruning.
-  Wildlife Attractor: Fig-like infructescences draw coatis and parrots in native range, so plan harvest timing if mammals camp under your best producers.
-  Mulcher: Evergreen foliage drops steadily, feeding soil fungi at the drip line if you leave litter instead of bare-scalping under the trunk with blowers.
+  Edible: Brosimum alicastrum seeds roast like chestnuts after you leach tannins from the dried nut -- giving a storable flour base where maize storage is humid and risky.
+  Animal Fodder: Young leaves cut during dry months feed cattle in Central American silvopasture trials -- when grass goes brown between rains.
+  Shade Provider: 25–35 m crowns cast deep shade for cacao, coffee, or understory ginger -- once you open enough light wells with directional pruning.
+  Wildlife Attractor: Fig-like infructescences draw coatis and parrots in native range -- so plan harvest timing if mammals camp under your best producers.
+  Mulcher: Evergreen foliage drops steadily -- feeding soil fungi at the drip line if you leave litter instead of bare-scalping under the trunk with blowers.
 companions:
-- Cacao — shade-tolerant understory crop under high tropical canopy where management
-  allows
-- Turmeric — rhizomes along partial-shade north flanks with mulch and drainage
-- Lemongrass — perimeter herb handles competition at the dripline without climbing
-  the trunk
+- slug: cacao
+  name: Cacao
+- slug: turmeric
+  name: Turmeric
+- slug: lemongrass
+  name: Lemongrass
 cautions:
 - Milky latex — skin and eye irritation possible; gloves and eye protection beat bravado
 pests:
@@ -50,6 +48,5 @@ pests:
 - Fig Beetle
 - Mealybugs
 - Scale Insects
-growth_habit: Large tropical Moraceae tree; milky latex; starchy seeds from small
-  fig-like fruit
+growth_habit: Large tropical Moraceae tree; milky latex; starchy seeds from small fig-like fruit
 data_quality_score: 0.79

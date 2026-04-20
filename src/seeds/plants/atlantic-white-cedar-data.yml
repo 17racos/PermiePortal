@@ -20,13 +20,10 @@ plant_function:
 description: |-
   Atlantic white cedar (Chamaecyparis thyoides) is a columnar evergreen conifer of acidic wetlands along the Atlantic and Gulf Coastal Plains, forming dense groves on peat and sandy peat where groundwater fluctuates but roots stay cool. Mature trees often reach 40–60 feet (12–18 m) with fine scale-like foliage and shreddy bark, historically prized for rot-resistant timber and now for restoration of bog forests, bioswales, and windbreaks on wet ground.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun to light shade; best development in high light. Requires consistently moist, acidic soil; tolerates seasonal high water tables but not prolonged deep stagnant flooding without aeration periods. Salt spray tolerance is modest—site inland of primary dunes unless using known coastal ecotypes.
 
-  ✂️ Propagation:
   Sow seed in fall outdoors on moist peat-sand mix or stratify moist-cold and sow in spring. Hardwood cuttings from young stock root slowly under mist with bottom heat. Transplant container-grown liners into prepared wet sites; bare-root large specimens poorly.
 
-  🌾 Harvest / Best Use Timing:
   Timber rotations are decades long—home scale uses focus on living hedgerows and carbon-dense biomass. Prune leaders only for formal screens; natural form is narrow already. Collect cones when scales begin to open if saving seed.
 purpose: |-
   Windbreaker: Chamaecyparis thyoides forms a narrow evergreen wall that slows salt-laden gusts across poultry runs and tunnel houses on acidic wet ground -- tighter spacing works until crowns interlock decades in.
@@ -34,10 +31,10 @@ purpose: |-
   Erosion Control: Shallow fibrous roots knit peat and sandy pond banks that sheet-flow would otherwise strip -- bioswale plantings use it where aeration cycles exist, not in permanent deep anaerobic muck.
   Biomass: Fine twig and scale litter chips fast for acidic mulch under blueberries -- coppice blocks on long rotation if you need renewable posts without importing cedar stakes.
 companions:
-- Sweetbay Magnolia — shared acidic wet soils and layered canopy structure
-- Inkberry — lower evergreen layer beneath cedar edges without root trench warfare
-- Red Maple — associates in natural swamps; maple handles slightly wider moisture
-  swings
+- slug: sweetbay-magnolia
+  name: Sweetbay Magnolia
+- slug: inkberry
+  name: Inkberry
 cautions:
 - Deer browsing — can girdle leaders on young plantations in heavy pressure areas
 - Drought on upland fill — needles bronze and trees fail without irrigation
@@ -47,3 +44,7 @@ pests:
 - Scale Insects
 growth_habit: Columnar evergreen conifer; scale leaves; moist acidic wetland affinity
 data_quality_score: 0.85
+companions_unresolved:
+- name: Red Maple
+  original: Red Maple — associates in natural swamps; maple handles slightly wider moisture swings
+  note: normalization_target_not_in_index

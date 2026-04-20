@@ -21,29 +21,23 @@ plant_function:
 description: |-
   Shiso is the mint-adjacent annual with green or purple serrated leaves that sashimi plates and Korean pickles cannot live without. Self-sows like it pays rent in seeds — subtropical and tropical Americas gardeners either love the volunteers or learn to deadhead before the deed is done. Flavor is bold anise-cinnamon; not a shy herb.
 
-  ☀️💧 Sun and Water:
-  - Full sun to light shade; purple forms color best with sun.
-  - Steady moisture; heat flags plants in dry pots fast.
+  Full sun to light shade; purple forms color best with sun. Steady moisture; heat flags plants in dry pots fast.
 
-   ✂️ Propagation:
-  - Seed: surface sow after frost; cold stratification optional but improves some lots.
-  - Transplant starts for head start against summer.
+  Seed: surface sow after frost; cold stratification optional but improves some lots. Transplant starts for head start against summer.
 
    Invasive alerts exist in some southeastern states — keep it in the kitchen garden, not the conservation easement.
 
-  🌾 Harvest / Best Use Timing:
-  - Snip tender Shiso growth in cool mornings for best texture -- heat-stressed leaves taste like their day job.
-  - Flowers at full color for peak volatiles; seeds when pods rattle but before they self-sow across paths.
-  - Dry herbs in thin layers; deep piles steam themselves into compost.
+  Snip tender Shiso growth in cool mornings for best texture -- heat-stressed leaves taste like their day job. Flowers at full color for peak volatiles; seeds when pods rattle but before they self-sow across paths. Dry herbs in thin layers; deep piles steam themselves into compost.
 purpose: |-
   Edible: Perilla frutescens bronzy or green serrated leaves wrap sashimi and bruise into ume pickles with distinct shiso ketones -- pinch tops before flowering or flavor turns stemmy.
-  Pollinator: Late-season spikes of tiny white lipped mint flowers feed sweat bees along pepper rows if you dare let seed mature.
-  Pest Management: Volatile perillaldehyde plumes confuse some flea beetles scouting solanaceous beds when inter-rows stay tight.
-  Ornamental: Plum-leaf selections read like nursery coleus yet remain fully edible until frost blackens vines.
+  Pollinator: Late-season spikes of tiny white lipped mint flowers feed sweat bees along pepper rows -- if you dare let seed mature.
+  Pest Management: Volatile perillaldehyde plumes confuse some flea beetles scouting solanaceous beds -- when inter-rows stay tight.
+  Ornamental: Plum-leaf selections read like nursery coleus yet remain fully edible -- until frost blackens vines.
 companions:
-- Tomato
-- Pepper
-- Basil
+- slug: tomato
+  name: Tomato
+- slug: basil
+  name: Basil
 cautions:
 - Letting seed rain into natural areas where it is unwelcome
 pests:
@@ -52,3 +46,6 @@ pests:
 - Spider Mites
 growth_habit: Annual
 data_quality_score: 0.76
+companions_unresolved:
+- name: Pepper
+  original: Pepper

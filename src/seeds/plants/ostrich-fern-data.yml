@@ -23,17 +23,11 @@ description: |-
 
   It wants cold winters and cool, moist soils; humid lowland tropics sit south of its happy place unless you simulate mountain creek conditions and accept marginal performance.
 
-  ☀️💧 Sun and Water Requirements:
-
   Part to full shade; rich, moist, slightly acidic soil with steady humus.
   Never let a clump dry to dust in summer if you want lush crowns.
 
-  ✂️ Propagation:
-
   Division of crowns in early spring; spores (slow, specialist fun); transplant rhizome sections with buds.
   Fiddlehead patches are long-term investments, not instant noodles.
-
-  🌾 Harvest / Best Use Timing:
 
   Harvest fiddleheads only with positive ID and local tradition; spring flush is the edible window.
 purpose: |-
@@ -42,10 +36,10 @@ purpose: |-
   Erosion Control: Tough black rhizome mats knit leaf-litter banks on cold-water streams where freeze-thaw sloughs sediment -- avoid planting in steamy lowland tropics where crowns rot without honest chill.
   Wildlife Attractor: Wet shade architecture shelters salamanders, spring peepers, and detritivore food webs under frond skirts -- fiddlehead harvest patches should rotate so wildlife corridors keep intact litter depth every year.
 companions:
-- Wild Ginger
-- Trout Lily
-- Solomon Seal
-- Marsh Marigold
+- slug: wild-ginger
+  name: Wild Ginger
+- slug: marsh-marigold
+  name: Marsh Marigold
 cautions:
 - Blazing full sun
 - Dry sand
@@ -53,3 +47,10 @@ pests:
 - Slugs
 - Snails
 - Japanese Beetles
+companions_unresolved:
+- name: Trout Lily
+  original: Trout Lily
+  note: normalization_target_not_in_index
+- name: Solomon's Seal
+  original: Solomon Seal
+  note: normalization_target_not_in_index

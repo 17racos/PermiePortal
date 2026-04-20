@@ -24,28 +24,21 @@ description: |-
 
   In a subtropical and tropical Americas food forest, tuck it in the shallow littoral zone with other natives; it stabilizes muck and gives cover for small wetland critters.
 
-  ☀️💧 Sun and Water:
-  - Full sun to part shade.
-  - Constant wet soil or a few inches of standing water; not a drought plant.
-  - Soft, silty or muddy bottoms are ideal.
+  Full sun to part shade. Constant wet soil or a few inches of standing water; not a drought plant. Soft, silty or muddy bottoms are ideal.
 
-  ✂️ Propagation:
-  - Division of clumps in early spring.
-  - Seed: surface-sow on wet mud; needs moisture through germination.
+  Division of clumps in early spring. Seed: surface-sow on wet mud; needs moisture through germination.
 
-  🌾 Harvest / Best Use Timing:
-  - Harvest Water Plantain in warm active growth when leaves or shoots look crisp, before yellow water-stress marches in.
-  - Morning picks ship better than wilted afternoon drama -- rinse grit in clean water, not pond soup.
-  - Use quickly or blanch and freeze; aquatic tissues turn slimy faster than upland herbs in plastic bags.
+  Harvest Water Plantain in warm active growth when leaves or shoots look crisp, before yellow water-stress marches in. Morning picks ship better than wilted afternoon drama -- rinse grit in clean water, not pond soup. Use quickly or blanch and freeze; aquatic tissues turn slimy faster than upland herbs in plastic bags.
 purpose: |-
   Edible: Alisma subcordatum has limited modern table use -- some Indigenous references cite related Alisma species after careful prep; treat this native primarily as habitat, not lunch, until you complete ethics and ID homework.
-  Wildlife Attractor: Airy panicles of white-pink flowers attract small bees and beetles; emergent leaves give cover for tadpoles and micro predators along pond shoulders.
+  Wildlife Attractor: Airy panicles of white-pink flowers attract small bees and beetles -- emergent leaves give cover for tadpoles and micro predators along pond shoulders.
   Erosion Control: Fibrous crowns anchor mucky margins against wave chop -- plant in a few inches of water or saturated silt to replace bare mud.
   Border Plant: Long petioles lift leaves like mini hostas at the waterline -- softens the visual jump from spatterdock to upland forbs.
 companions:
-- Pickerelweed
-- Duck Potato
-- Cattail
+- slug: pickerelweed
+  name: Pickerelweed
+- slug: cattail
+  name: Cattail
 cautions:
 - None documented
 pests:
@@ -54,3 +47,7 @@ pests:
 - Slugs
 growth_habit: Emergent aquatic herb
 data_quality_score: 0.72
+companion_categories:
+- name: Duck Potato
+  original: Duck Potato
+  type: ecosystem

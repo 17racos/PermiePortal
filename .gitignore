@@ -7,3 +7,22 @@ dist/
 
 
 
+logs/daily.log
+
+# Migration artifacts
+backups/
+exports/
+/tmp/permie_*.log
+review/cursor_enrich_*.md
+
+# Generated JSON — rebuilt by sync.sh at deploy time
+src/data/plants.json
+src/data/pests.json
+src/data/relationships.json
+__pycache__/
+*.pyc
+review/cursor_agent_prompt.md
+review/enrich_nursery_plants.md
+review/pest_symptoms_cursor_agent.md
+review/purpose_quality_pass.md
+review/targeted_enrichment.md

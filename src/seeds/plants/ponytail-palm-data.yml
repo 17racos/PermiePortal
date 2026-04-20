@@ -14,29 +14,23 @@ layers:
 - Shrub
 plant_function:
 - Ornamental
-- Indoor Plant
 - Wildlife Attractor
 description: |-
   The Ponytail Palm (*Beaucarnea recurvata*) is a drought-tolerant plant native to eastern Mexico. Despite its common name, it is not a true palm. The plant features a bulbous trunk base that stores water and long, slender, arching leaves that resemble a ponytail. It can grow up to 9 meters (30 feet) outdoors but remains much smaller indoors.
 
-  🌞💧 **Sun and Water Requirements:**
   Thrives in bright light, including full sun. Requires infrequent watering; allow the soil to dry out between waterings to prevent root rot.
 
-  ✂️🫘 **Methods to Propagate:**
   Propagation is typically done through seeds or by removing and planting offsets (pups) that grow at the base of mature plants.
 
-  🧑‍🌾👩‍🌾 **When to Harvest:**
   As an ornamental plant, there is no traditional harvest. Offsets can be removed and replanted when they are about 10 centimeters (4 inches) tall.
 purpose: |-
   Ornamental: Beaucarnea recurvata swollen caudex stores water under a fountain of recurved linear leaves -- reads like living sculpture on xeric patios where true palms would demand more root run.
-  Indoor Plant: Asparagaceae habit tolerates dry apartment air and bright south windows if watering stays sparse -- fluoride-tip burn shows on tap water; shift to rain or distilled if leaf ends brown symmetrically.
   Wildlife Attractor: Outdoor specimens in frost-free yards send towering panicles of tiny cream flowers that drip nectar for honeybees once the caudex reaches blooming maturity -- may take decades in pots, faster in ground with heat.
 companions:
-- Cactus
-- Succulent
-- Agave
-- Aloe
-- Yucca
+- slug: agave
+  name: Agave
+- slug: aloe
+  name: Aloe
 cautions:
 - None
 pests:
@@ -44,6 +38,14 @@ pests:
 - Mealybugs
 - Scale Insects
 - Spider Mites
-growth_habit: Succulent-stemmed Beaucarnea; shrub to small tree outdoors in frost-free
-  sites
+growth_habit: Succulent-stemmed Beaucarnea; shrub to small tree outdoors in frost-free sites
 data_quality_score: 0.8
+companions_unresolved:
+- name: Cactus
+  original: Cactus
+- name: Succulent
+  original: Succulent
+- name: Yucca
+  original: Yucca
+plant_function_unresolved:
+- Indoor Plant

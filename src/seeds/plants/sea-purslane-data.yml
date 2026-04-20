@@ -23,27 +23,18 @@ description: |-
 
   Native-ish coastal vibe along both coasts; great for salty swales, living shoreline buffers, and “nothing else will grow here” beds.
 
-  ☀️💧 Sun and Water Requirements:
-
   Full sun.
   Tolerates salt spray and periodic inundation; also handles garden irrigation if drainage exists—do not marinate it in stagnant muck.
 
-  ✂️ Propagation:
-
   Cuttings root obnoxiously easily; seed where legal and ecologically appropriate.
-
-  🌾 Harvest / Best Use Timing:
 
   Snip young tips when sourcing is legal and clean—respect protected shoreline rules.
 purpose: |-
-  Edible: Sesuvium portulacastrum juicy tips carry clean brine crunch after you confirm jurisdiction allows picking and upstream water stays honest.
-  Erosion Control: Succulent mats knit foredune sand and pond spoil berms against surge overwash that exposes raw substrate.
-  Ground Cover: Red-stemmed carpets fill salty swales and mangrove skirts where inland sedums rot from humidity.
-  Wildlife Attractor: Dense foliage shades amphipods and shoreline flies that shorebirds probe at falling tides.
-companions:
-- Mangrove associates
-- Salt-tolerant grasses
-- Beach sunflower
+  Edible: Sesuvium portulacastrum juicy tips carry clean brine crunch -- after you confirm jurisdiction allows picking and upstream water stays honest.
+  Erosion Control: Succulent mats knit foredune sand and pond spoil berms against surge overwash -- that exposes raw substrate.
+  Ground Cover: Red-stemmed carpets fill salty swales and mangrove skirts -- where inland sedums rot from humidity.
+  Wildlife Attractor: Dense foliage shades amphipods and shoreline flies -- shorebirds probe the mat at falling tides for concentrated invertebrate prey.
+companions: []
 cautions:
 - Deep forest shade
 - Pure freshwater bog without salt—competes poorly with aggressive aquatics
@@ -52,3 +43,14 @@ pests:
 - caterpillars
 growth_habit: Prostrate succulent perennial herb
 data_quality_score: 0.74
+companions_unresolved:
+- name: Beach Sunflower
+  original: Beach sunflower
+  note: normalization_target_not_in_index
+companion_categories:
+- name: Mangrove associates
+  original: Mangrove associates
+  type: system
+- name: Salt-tolerant grasses
+  original: Salt-tolerant grasses
+  type: system

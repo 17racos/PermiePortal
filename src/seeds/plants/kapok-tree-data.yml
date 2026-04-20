@@ -2,8 +2,8 @@ common_name: Kapok Tree
 picture: kapok_tree.webp
 scientific_name: Ceiba pentandra
 aka:
-- Silk cotton tree
-- Ceiba
+  - Silk cotton tree
+  - Ceiba
 family: Malvaceae
 zone: 10b-12
 ideal_temp_min: 68
@@ -12,49 +12,41 @@ min_temp: 30
 max_temp: 115
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Fiber
-- Shade Provider
-- Wildlife Attractor
-- Windbreaker
+  - Fiber
+  - Shade Provider
+  - Wildlife Attractor
+  - Windbreaker
 description: |-
   Kapok tree is a tropical giant famous for buttressed trunks, deciduous seasonal leaf drop, and pods packed with silky floss once used in flotation and insulation. Young growth may bear spines; mature canopy can exceed 100 feet tall in forest openings, casting deep shade and dropping enormous limbs if poorly managed in small lots.
 
   In subtropical and tropical Americas it belongs only where frost is absent, soil volume is generous, and you accept hurricane-era limb awareness—Puerto Rico’s lowlands suit it culturally and climatically; Florida’s warmest keys and south mainland pockets can host it with space. Kapok fiber competes with synthetics now; permaculture value is shade, biomass, and habitat more than mattress stuffing.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun for straight trunk development when young; emergent form in mixed plantings later tolerates some side shade.
-  - Deep, well-drained soil with room for plate roots; avoid paving over root zones.
-  - Regular water during establishment; mature trees tap deep moisture but appreciate irrigation during prolonged dry spells in sandy keys soils.
+  Full sun for straight trunk development when young; emergent form in mixed plantings later tolerates some side shade. Deep, well-drained soil with room for plate roots; avoid paving over root zones. Regular water during establishment; mature trees tap deep moisture but appreciate irrigation during prolonged dry spells in sandy keys soils.
 
-  ✂️ Propagation:
-  - Seeds from kapok fluff germinate quickly when fresh; sow in deep tree tubes.
-  - Air-layering for select landscape specimens if local expertise exists.
-  - Purchase grafted or selected liners for predictable spinelessness and form where nurseries offer them.
+  Seeds from kapok fluff germinate quickly when fresh; sow in deep tree tubes. Air-layering for select landscape specimens if local expertise exists. Purchase grafted or selected liners for predictable spinelessness and form where nurseries offer them.
 
-  🌾 Harvest / Best Use Timing:
-  - Collect pods when capsules split and floss dries; wear masks—fibers are irritating to breathe.
-  - Use floss for crafts, mulch, or experimental insulation; woody capsules compost slowly—chop before piles.
+  Collect pods when capsules split and floss dries; wear masks—fibers are irritating to breathe. Use floss for crafts, mulch, or experimental insulation; woody capsules compost slowly—chop before piles.
 purpose: |-
   Fiber: Ceiba pentandra pods release water-resistant kapok floss once used in life jackets -- harvest when capsules split, wear a mask because airborne hairs irritate lungs, and compost woody husks after chipping.
   Shade Provider: Massive buttressed trunks hold a wide-spreading crown that shades cacao, coffee, or livestock loafing lots -- site with acreage because plate roots lift pavement where engineers skip setbacks.
   Wildlife Attractor: Large white night flowers open for bats and hawkmoths while old trunks develop hollows for cavity nesters -- retain snag habitat where safety allows, not where limbs overhang roofs.
   Windbreaker: Emergent height and limber branches dissipate wind across plantation rows -- still plan hurricane pruning because massive limbs can shed if included bark weakens crotches.
 companions:
-- Banana — rapid-cycle understory benefits from filtered light and leaf litter once
-  kapok is tall enough.
-- Cacao — traditional shade associate in tropical systems where humidity and drainage
-  align.
-- Turmeric — shade-tolerant rhizome crop uses kapok leaf mulch and stable humidity
-  under high canopy.
+  - slug: banana
+    name: Banana
+  - slug: cacao
+    name: Cacao
+  - slug: turmeric
+    name: Turmeric
 cautions:
-- None documented
+  - None documented
 pests:
-- Banded Winged Whitefly
-- Cocoa Pod Borer
-- Mealybugs
-- Scale Insects
-- Caterpillars
+  - Banded Winged Whitefly
+  - Cocoa Pod Borer
+  - Mealybugs
+  - Scale Insects
+  - Caterpillars
 growth_habit: Massive tropical tree; buttressed trunk; silky seed floss in woody pods
 data_quality_score: 0.7

@@ -24,33 +24,30 @@ plant_function:
 description: |-
   Tree collards are perennial leafy greens belonging to the Brassica family, closely related to traditional collards and kale. They can grow over 1.8 meters (6 feet) tall, developing into tall, spindly plants with few leaves if left unpruned. The leaves are large, crinkly, and range in color from blue-green to purple, depending on the variety. Tree collards are known for their mild flavor and are a reliable source of nutritious greens year-round.
 
-  🌞💧 Sun and Water Requirements:
-  - Prefer full sun but can tolerate partial shade.
-  - Thrive in well-drained, loamy soil rich in organic matter.
-  - Require consistent moisture; approximately 2.5 cm (1 inch) of water per week.
+  Prefer full sun but can tolerate partial shade. Thrive in well-drained, loamy soil rich in organic matter. Require consistent moisture; approximately 2.5 cm (1 inch) of water per week.
 
-  ✂️🫘 Methods to Propagate:
-  - Cuttings: The most common method; take 15–20 cm (6–8 inch) cuttings from healthy plants and root them in soil or water.
-  - Seeds: Less common due to potential variability; sow seeds 0.6–1.2 cm (0.25–0.5 inch) deep in nutrient-rich soil.
+  Cuttings: The most common method; take 15–20 cm (6–8 inch) cuttings from healthy plants and root them in soil or water. Seeds: Less common due to potential variability; sow seeds 0.6–1.2 cm (0.25–0.5 inch) deep in nutrient-rich soil.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
-  - Harvest individual leaves when they reach 15–20 cm (6–8 inches) long.
-  - Regular harvesting encourages bushier growth and prevents legginess.
-  - Leaves can be harvested year-round, even after frost, which can enhance their sweetness.
+  Harvest individual leaves when they reach 15–20 cm (6–8 inches) long. Regular harvesting encourages bushier growth and prevents legginess. Leaves can be harvested year-round, even after frost, which can enhance their sweetness.
 purpose: |-
   Edible: Perennial Brassica oleracea var. acephala leaves stay mild year-round in mild winters -- harvest 15--20 cm blades continuously from pruned plants to prevent leggy, leaf-sparse poles.
   Wildlife Attractor: Yellow four-petaled flowers on tall bolting stems feed generalist pollinators whenever you let a plant cycle to seed -- skip this if brassica pests already own your block.
-  Mulcher: Large crinkled leaves drop steadily; chop-and-drop prunings feed the guild floor without importing straw from off-site.
-  Dynamic Accumulator: Deep, fleshy roots mine calcium and other minerals into leaf tissue that returns to soil via mulch and compost cycles.
-  Erosion Control: Fibrous root mats and continuous leaf cover armor sloping beds where annual brassicas would leave bare soil between plantings.
+  Mulcher: Large crinkled leaves drop steadily -- chop-and-drop prunings feed the guild floor without importing straw from off-site.
+  Dynamic Accumulator: Deep, fleshy roots mine calcium and other minerals into leaf tissue -- that returns to soil via mulch and compost cycles.
+  Erosion Control: Fibrous root mats and continuous leaf cover armor sloping beds -- where annual brassicas would leave bare soil between plantings.
   Animal Fodder: Protein-forward foliage accepts the same brassica pest vigilance as kale -- useful poultry browse when caged from trunk collars.
   Border Plant: Repeated hard pruning keeps a 6 ft+ edible hedge along paths -- thornless but visually assertive compared with soft herbs.
 companions:
-- Marigold
-- Mint
-- Rosemary
-- Onion
-- Chive
+- slug: chives
+  name: Chives
+- slug: marigold
+  name: Marigold
+- slug: mint
+  name: Mint
+- slug: rosemary
+  name: Rosemary
+- slug: onion
+  name: Onion
 cautions:
 - Tomato
 - Strawberry
@@ -71,3 +68,7 @@ pests:
 - Root Rot
 growth_habit: Tree
 data_quality_score: 0.8
+companions_normalized:
+- original: Chive
+  resolved_slug: chives
+  name: Chives

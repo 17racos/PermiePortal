@@ -21,13 +21,10 @@ plant_function:
 description: |-
   Wild sarsaparilla (Aralia nudicaulis) is a low woodland perennial of cool-temperate North American forests, spreading by rhizomes beneath leaf litter. A single leaf stalk splits into three compound leaves; separate leafless stalks carry spherical umbels of greenish flowers followed by dark berries on red pedicels. Roots have a long folk history distinct from tropical Smilax “sarsaparilla,” so common-name shopping must stay species-specific.
 
-  ☀️💧 Sun and Water Requirements:
    Shade to dappled light; avoid full sun except in coolest summers. Moist, humus-rich, well-drained forest soils match ecology; tolerates dry shade once established but not drought on sandy ridges without mulch. Mimic forest floor with leaf mold.
 
-   ✂️ Propagation:
   Sow seed after double dormancy cycles or fall sow outdoors for natural stratification. Divide rhizomes in early spring with patience—pieces are fragile. Transplant small offsets under nurse trees.
 
-  🌾 Harvest / Best Use Timing:
    Root harvest for herbal use only after patches are abundant and laws allow; rotate harvest zones. Berries are sparingly used in some traditions—verify safety and ID. Leave most fruit for wildlife.
 purpose: |-
   Medicinal: Aralia nudicaulis rhizome is North American “sarsaparilla” root -- distinct from Smilax species; traditional tonic use requires correct ID and sustainable harvest rotation.
@@ -35,17 +32,19 @@ purpose: |-
   Ground Cover: Rhizomes wander under leaf litter forming low colonies -- no tall canopy layer; perfect under sugar maple.
   Edible: Berries are sparingly used in some traditions -- low reward, high ID stakes; leave most for wildlife until you propagate large patches.
 companions:
-- Trout Lily — spring ephemerals before sarsaparilla canopy fills; shared rich woodland
-  soil
-- Wild Ginger — low carpet under taller aralias; both want steady organic mulch
-- American Hazelnut — shrubby edge provides dappled light; nut husks add litter like
-  natural forest
+- slug: wild-ginger
+  name: Wild Ginger
+- slug: american-hazelnut
+  name: American Hazelnut
 cautions:
 - Misidentification with other Aralia — root harvest demands confident ID skills
 - Slow spread — do not overharvest small patches; think decades, not weekends
 pests:
 - Slugs
 - Aphids
-growth_habit: Rhizomatous woodland perennial; single umbrella-like leaf; spherical
-  flower umbels
+growth_habit: Rhizomatous woodland perennial; single umbrella-like leaf; spherical flower umbels
 data_quality_score: 0.85
+companions_unresolved:
+- name: Trout Lily
+  original: Trout Lily — spring ephemerals before sarsaparilla canopy fills; shared rich woodland soil
+  note: normalization_target_not_in_index

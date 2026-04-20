@@ -2,8 +2,8 @@ common_name: Lead Plant
 picture: lead_plant.webp
 scientific_name: Amorpha canescens
 aka:
-- Prairie shoestring
-- Buffalo bellows (folk)
+  - Prairie shoestring
+  - Buffalo bellows (folk)
 family: Fabaceae
 zone: 2-9
 ideal_temp_min: 40
@@ -12,29 +12,21 @@ min_temp: -40
 max_temp: 100
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Nitrogen Fixer
-- Wildlife Attractor
-- Erosion Control
-- Mulcher
-- Ornamental
+  - Nitrogen Fixer
+  - Wildlife Attractor
+  - Erosion Control
+  - Mulcher
+  - Ornamental
 description: |-
   Lead plant is a silvery prairie shrub that fixes nitrogen without asking for applause. Purple flower spikes read "native insect disco" in June. Name is about leaf color, not heavy-metal soil — though it handles tough, dry soils like a champ. In subtropical and tropical Americas it is more a sandhill / open-edge experiment than default understory; match it to full sun and drainage, not bog life.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun for compact form and flowers; leggy in shade.
-  - Dry to medium moisture; excellent drought tolerance once established.
-  - Well-drained sandy or rocky soils preferred; hates wet feet.
+  Full sun for compact form and flowers; leggy in shade. Dry to medium moisture; excellent drought tolerance once established. Well-drained sandy or rocky soils preferred; hates wet feet.
 
-  ✂️ Methods to Propagate:
-  - Seeds: scarify and stratify for reliable germination; direct sow in prepared beds.
-  - Cuttings: semi-hardwood in summer with rooting hormone and humidity.
+  Seeds: scarify and stratify for reliable germination; direct sow in prepared beds. Cuttings: semi-hardwood in summer with rooting hormone and humidity.
 
-  🌾 Harvest / Best Use Timing:
-  - For mulch and chop-and-drop, harvest leafy growth after flowering when biomass is high but before seed shatter if you want less spread.
-  - Wildlife value peaks if you leave some stands uncut each year.
-  - Never strip more than a third of canopy on small plants.
+  For mulch and chop-and-drop, harvest leafy growth after flowering when biomass is high but before seed shatter if you want less spread. Wildlife value peaks if you leave some stands uncut each year. Never strip more than a third of canopy on small plants.
 purpose: |-
   Nitrogen Fixer: Amorpha canescens nodulates with rhizobia on droughty sand -- interplant with little bluestem so fixed N and leaf litter feed the grass matrix without fertilizer passes.
   Wildlife Attractor: Spikes of purple pea flowers feed native bees while oily seeds feed quail and finches -- leave some stands uncut each year if wildlife pantry matters more than tidy meadow mowing.
@@ -42,40 +34,43 @@ purpose: |-
   Mulcher: Silvery compound leaves drop fine litter that feeds fungal duff underfoot -- chop-and-drop prunings after bloom if you want faster nutrient return to poor soils.
   Ornamental: Lead-gray foliage contrasts dark green coneflower leaves in prairie borders -- full sun keeps plants compact; shade yields leggy disappointment.
 companions:
-- Little bluestem
-- Purple coneflower
-- Coreopsis
+  - slug: echinacea
+    name: Echinacea
+  - slug: lanceleaf-coreopsis
+    name: Lanceleaf Coreopsis
+  - slug: little-bluestem
+    name: Little Bluestem
 cautions:
-- Chronic irrigation and clay puddles
-- Deep shade
+  - Chronic irrigation and clay puddles
+  - Deep shade
 pests:
-- Aphids
-- Banded Cucumber Beetle
-- Bean Aphid
-- Bean Leaf Beetle
-- Bean Weevil
-- Corn Earworm
-- Cowpea Curculio
-- Fall Armyworm
-- Japanese beetles
-- Kudzu Bug
-- Locust Borer
-- Locust Leaf Miner
-- Lubber Grasshopper
-- Pea Moth
-- Pea Weevil
-- Reniform Nematode
-- Root Aphid
-- Soybean Looper
-- Spittlebugs
-- Stink Bug
-- Striped Cucumber Beetle
-- Fusarium Wilt
-- Ganoderma Butt Rot
-- Powdery Mildew
-- Pythium Root Rot
-- Spotted Cucumber Beetle
-- White Rot
-- Brown Marmorated Stink Bug
-- Harlequin Ladybird
-- Velvetbean Caterpillar
+  - Aphids
+  - Banded Cucumber Beetle
+  - Bean Aphid
+  - Bean Leaf Beetle
+  - Bean Weevil
+  - Corn Earworm
+  - Cowpea Curculio
+  - Fall Armyworm
+  - Japanese beetles
+  - Kudzu Bug
+  - Locust Borer
+  - Locust Leaf Miner
+  - Lubber Grasshopper
+  - Pea Moth
+  - Pea Weevil
+  - Reniform Nematode
+  - Root Aphid
+  - Soybean Looper
+  - Spittlebugs
+  - Stink Bug
+  - Striped Cucumber Beetle
+  - Fusarium Wilt
+  - Ganoderma Butt Rot
+  - Powdery Mildew
+  - Pythium Root Rot
+  - Spotted Cucumber Beetle
+  - White Rot
+  - Brown Marmorated Stink Bug
+  - Harlequin Ladybird
+  - Velvetbean Caterpillar

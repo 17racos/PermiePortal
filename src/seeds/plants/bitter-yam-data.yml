@@ -2,8 +2,8 @@ common_name: Bitter Yam
 picture: bitter_yam.webp
 scientific_name: Dioscorea dumetorum
 aka:
-- Cluster yam
-- Three-leaf yam
+  - Cluster yam
+  - Three-leaf yam
 family: Dioscoreaceae
 zone: 10-11
 ideal_temp_min: 70
@@ -12,41 +12,38 @@ min_temp: 40
 max_temp: 100
 perennial: true
 layers:
-- Vine
+  - Vine
 plant_function:
-- Edible
-- Ground Cover
-- Biomass
-- Dynamic Accumulator
+  - Edible
+  - Ground Cover
+  - Biomass
+  - Dynamic Accumulator
 description: |-
   Bitter yam is a tropical African yam species with a reputation: edible forms exist after careful processing, and ignorant snacking is how you learn respect for cyanogenic glycosides the hard way. This is not the beginner's "dig and mash" yam — it is a serious food-security crop where traditional detox methods are known. Permaculture angle: perennial vine, heavy tuber, excellent for trellising on sturdy posts in frost-free sites.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun for productivity; tolerates bright partial shade but may yield less.
-  - Deep, loose, fertile soil; consistent moisture in growth season, drier when vines senesce depending on local practice.
-  - Frost-free; cold snaps damage vines and tuber quality.
+  Full sun for productivity; tolerates bright partial shade but may yield less. Deep, loose, fertile soil; consistent moisture in growth season, drier when vines senesce depending on local practice. Frost-free; cold snaps damage vines and tuber quality.
 
-  ✂️ Methods to Propagate:
-  - Tubers: plant crown pieces or whole small tubers when soil is warm.
-  - Vine cuttings: some Dioscorea root from nodes; success varies — keep humid until rooted.
+  Tubers: plant crown pieces or whole small tubers when soil is warm. Vine cuttings: some Dioscorea root from nodes; success varies — keep humid until rooted.
 
-  🌾 Harvest / Best Use Timing:
-  - Bitter Yam: dig tubers or roots after tops senesce or frost signals storage shift -- curing a few days at 50-60°F (10-16°C) sweetens some starches.
-  - Loosen soil wide first -- snapped necks invite rot in storage.
-  - Brush-dry before long storage; plastic totes without airflow grow penicillin cosplay.
+  Bitter Yam: dig tubers or roots after tops senesce or frost signals storage shift -- curing a few days at 50-60°F (10-16°C) sweetens some starches. Loosen soil wide first -- snapped necks invite rot in storage. Brush-dry before long storage; plastic totes without airflow grow penicillin cosplay.
 purpose: |-
   Edible: Dioscorea dumetorum tubers demand documented fermentation or leaching before they are food instead of chemistry homework -- cyanogenic glucoside loads in wild forms do not negotiate with shortcut cooks.
   Ground Cover: Aggressive warm-season vines shade beds and smother weeds when trellised on posts away from valued bark -- twining stems scar fruit-tree cambium if you get lazy with placement.
   Biomass: Frost-killed vines chop into compost for fast green layer in frost-free rotations -- confirm no quarantine pathogens before moving material between counties.
-  Dynamic Accumulator: Deep storage roots mine subsoil potassium that returns only if you compost vine residues on-site instead of exporting every scrap off the holding.
+  Dynamic Accumulator: Deep storage roots mine subsoil potassium -- returns only if you compost vine residues on-site instead of exporting every scrap off the holding.
 companions:
-- Pigeon pea
-- Cassava
-- Tall sorghum (living trellis)
+  - slug: pigeon-pea
+    name: Pigeon Pea
+  - slug: cassava
+    name: Cassava
 cautions:
-- Shallow rocky soil that restricts tuber expansion
-- Undocumented wild harvest without ID and processing knowledge
+  - Shallow rocky soil that restricts tuber expansion
+  - Undocumented wild harvest without ID and processing knowledge
 pests:
-- Nematodes
-- Aphids
-- Root Rot
+  - Nematodes
+  - Aphids
+  - Root Rot
+companion_categories:
+  - name: Tall sorghum (living trellis)
+    original: Tall sorghum (living trellis)
+    type: system

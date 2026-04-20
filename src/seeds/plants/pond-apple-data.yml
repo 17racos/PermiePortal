@@ -23,15 +23,9 @@ description: |-
 
   Ecological workhorse: roots in wet, brackish-to-fresh muck; canopy for wading birds; not something you casually plant far outside its range.
 
-  ☀️💧 Sun and Water Requirements:
-
   Full sun to part shade; tolerates seasonal inundation and brackish influence; wants heat and humidity.
 
-  ✂️ Propagation:
-
   Seeds from ripe fruit; transplant seedlings from ethical local sources if restoring wetland habitat—check regulations for coastal projects.
-
-  🌾 Harvest / Best Use Timing:
 
   Fruit historically feeds wildlife more than discerning humans—sample only with ID clarity and low flavor expectations.
 purpose: |-
@@ -40,13 +34,20 @@ purpose: |-
   Erosion Control: Buttressed trunks and adventitious roots armor pond banks against sheet flow and minor storm surge -- tolerates brackish pulses better than true freshwater-only hardwoods on the same site.
   Shade Provider: Open Annona crown gives broken shade to sawgrass, pickerelweed, and marsh fern understory -- juvenile growth tolerates seasonal inundation that would drown pecans on the same berm.
 companions:
-- Mangrove
-- Buttonwood
-- Bald Cypress
-- Pickerelweed
+- slug: bald-cypress
+  name: Bald Cypress
+- slug: pickerelweed
+  name: Pickerelweed
+- slug: buttonwood
+  name: Buttonwood
 cautions:
 - Dry upland sand without irrigation
 pests:
 - Scale Insects
 - Mealybugs
 - Aphids
+companions_unresolved:
+- name: Mangrove
+  original: Mangrove
+- name: Buttonwood
+  original: Buttonwood

@@ -25,32 +25,26 @@ description: |-
 
   Garlic thrives in well-drained, fertile soil with full sun exposure. It is commonly used as a companion plant due to its strong aroma, which repels many pests and improves overall garden health.
 
-   🌞💧 Sun and Water Requirements:
-  - Prefers full sun for optimal growth.
-  - Requires well-drained, fertile soil; sandy loam is ideal.
-  - Moderate water needs; avoid overwatering to prevent bulb rot.
+  Prefers full sun for optimal growth. Requires well-drained, fertile soil; sandy loam is ideal. Moderate water needs; avoid overwatering to prevent bulb rot.
 
-  ✂️🫘 Methods to Propagate:
-  - Cloves: Plant individual cloves in fall for a summer harvest.
-  - Bulbils: Some varieties produce small bulbils in flower heads, which can be replanted.
-  - No seeds: Garlic rarely produces viable seeds and is best propagated by cloves.
+  Cloves: Plant individual cloves in fall for a summer harvest. Bulbils: Some varieties produce small bulbils in flower heads, which can be replanted. No seeds: Garlic rarely produces viable seeds and is best propagated by cloves.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
-  - Harvest when leaves turn yellow and begin to dry out, typically 8–10 months after planting.
-  - Allow bulbs to cure in a dry, shaded area for 2–3 weeks before storage.
-  - Can be used fresh or stored for long-term use in a cool, dry place.
+  Harvest when leaves turn yellow and begin to dry out, typically 8–10 months after planting. Allow bulbs to cure in a dry, shaded area for 2–3 weeks before storage. Can be used fresh or stored for long-term use in a cool, dry place.
 purpose: |-
-  Edible: Fall-planted hardneck cloves swell into tight heads by early summer; scapes snap off three weeks before harvest for pesto so bulbs size fully instead of splitting.
+  Edible: Fall-planted hardneck cloves swell into tight heads by early summer -- scapes snap off three weeks before harvest for pesto so bulbs size fully instead of splitting.
   Medicinal: Allicin forms when cloves are crushed; traditional use spans winter cold care and kitchen antiseptic for minor cuts -- raw stomach upset is common; avoid therapeutic doses with certain blood thinners without medical review.
-  Pest Management: Root-zone sulfur compounds reduce root-knot nematode pressure in following brassica beds; inter-rows with carrots and roses confuse onion-thrips flight paths enough to matter in small plots.
-  Dynamic Accumulator: Leaf analysis shows elevated sulfur and moderate potassium pulled from compost-fed topsoil and stored in wrappers that return to soil when you mulch stalks after harvest.
-  Border Plant: Single-file cloves along bed margins mark rotation boundaries between solanaceae and legume sections and give a repeatable harvest rhythm for succession planning.
+  Pest Management: Root-zone sulfur compounds reduce root-knot nematode pressure in following brassica beds -- inter-rows with carrots and roses confuse onion-thrips flight paths enough to matter in small plots.
+  Dynamic Accumulator: Leaf analysis shows elevated sulfur and moderate potassium pulled from compost-fed topsoil and stored in wrappers that return to soil -- when you mulch stalks after harvest.
+  Border Plant: Single-file cloves along bed margins mark rotation boundaries between solanaceae and legume sections and give a repeatable harvest rhythm -- for succession planning.
 companions:
-- Tomato
-- Carrot
-- Lettuce
-- Rose
-- Cabbage
+- slug: tomato
+  name: Tomato
+- slug: carrot
+  name: Carrot
+- slug: lettuce
+  name: Lettuce
+- slug: cabbage
+  name: Cabbage
 cautions:
 - Bean
 - Pea
@@ -67,3 +61,6 @@ pests:
 - White Rot
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Rose
+  original: Rose

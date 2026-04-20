@@ -30,20 +30,11 @@ plant_function:
 description: |-
   Oregano (Origanum vulgare) is a hardy, aromatic perennial herb native to the Mediterranean. It grows in clumps with small, dark green leaves and produces clusters of purple to pink flowers that attract pollinators. The plant is well-suited for dry, well-drained soils and is highly drought-tolerant once established. Known for its strong, pungent flavor, oregano is a staple in Mediterranean cuisine.
 
-   🌞💧 Sun and Water Requirements:
-  - Prefers full sun but tolerates partial shade.
-  - Thrives in well-drained, sandy or loamy soil.
-  - Drought-tolerant once established; requires moderate watering.
+  Prefers full sun but tolerates partial shade. Thrives in well-drained, sandy or loamy soil. Drought-tolerant once established; requires moderate watering.
 
-  ✂️🫘 Methods to Propagate:
-  - Seeds: Direct sow or start indoors 6-8 weeks before the last frost.
-  - Cuttings: Stem cuttings root easily in water or soil.
-  - Division: Established plants can be divided and transplanted.
+  Seeds: Direct sow or start indoors 6-8 weeks before the last frost. Cuttings: Stem cuttings root easily in water or soil. Division: Established plants can be divided and transplanted.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
-  - Harvest leaves once the plant reaches at least 10 cm (4 in) tall.
-  - Cut stems just before flowering for the strongest flavor.
-  - Best harvested in the morning when oils are most concentrated.
+  Harvest leaves once the plant reaches at least 10 cm (4 in) tall. Cut stems just before flowering for the strongest flavor. Best harvested in the morning when oils are most concentrated.
 purpose: |-
   Edible: Origanum vulgare leaves dry into pungent carvacrol-thymol seasoning for tomato sauces, za'atar blends, and oil infusions -- harvest before full bloom for kitchen potency, then let some spikes flower for insects.
   Medicinal: Steam-distilled oil and fresh-leaf teas anchor European respiratory and antimicrobial herb traditions -- therapeutic doses concentrate irritant phenols; keep medicinal use inside trained guidance, especially around pregnancy and infants.
@@ -55,12 +46,16 @@ purpose: |-
   Pest Management: Volatile monoterpenes released when leaves bruise mask cabbage-moth host cues along row ends -- still scout undersides because scent helps confusion, not annihilation, under heavy oviposition flights.
   Ground Cover: Prostrate selections root at nodes between stepping stones, tolerating occasional foot traffic and reflecting heat off pavers -- keep soil lean so flavor stays concentrated instead of turning bland on nitrogen guilt.
 companions:
-- Basil
-- Tomato
-- Pepper
-- Rosemary
-- Lavender
-- Thyme
+- slug: basil
+  name: Basil
+- slug: tomato
+  name: Tomato
+- slug: rosemary
+  name: Rosemary
+- slug: lavender
+  name: Lavender
+- slug: thyme
+  name: Thyme
 cautions:
 - Cucumber
 pests:
@@ -69,3 +64,6 @@ pests:
 - Whiteflies
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Pepper
+  original: Pepper

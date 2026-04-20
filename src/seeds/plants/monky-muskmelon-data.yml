@@ -22,15 +22,9 @@ description: |-
 
   In hot humid climates, spring and fall windows beat midsummer fungal fiestas; use trellis or mulch to keep fruit off wet soil. Downy mildew arrives like a season ticket holder.
 
-  ☀️💧 Sun and Water Requirements:
-
   Full sun; fertile, well-drained soil; consistent moisture during fruit set—drought gives you bitter, small melons and personal regret.
 
-  ✂️ Propagation:
-
   Direct seed after soil hits ~70°F (21°C); transplants for head starts. Save seed only from open-pollinated types if you enjoy genetic roulette.
-
-  🌾 Harvest / Best Use Timing:
 
   Pick when rind color, netting, and aroma say ripe for your cultivar—under- or overripe melons punish optimism.
 purpose: |-
@@ -38,10 +32,12 @@ purpose: |-
   Pollinator: Morning-opening yellow flowers supply pollen and nectar to squash bees, honeybees, and bumble workers during fruit set -- cluster several vines or pair with early sunflowers so pollinators find volume worth revisiting.
   Ground Cover: Large leaves on trailing vines shade row middles and cut soil evaporation when fruit are trellised or slung -- keep developing melons off damp mulch at night to reduce belly-rot and anthracnose invitation.
 companions:
-- Corn
-- Beans
-- Nasturtium
-- Radish
+- slug: nasturtium
+  name: Nasturtium
+- slug: radish
+  name: Radish
+- slug: fava-bean
+  name: Fava Bean
 cautions:
 - Wet foliage all night
 - Shade
@@ -62,3 +58,13 @@ pests:
 - Papaya Ringspot Virus
 - Pythium Root Rot
 - Spotted Cucumber Beetle
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index
+companions_normalized:
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

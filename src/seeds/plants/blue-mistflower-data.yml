@@ -19,38 +19,36 @@ plant_function:
 description: |-
   Blue mistflower (Conoclinium coelestinum) is a perennial wildflower forming clumps of upright stems and cloud-like sprays of small lavender-blue blooms. It is native to North America and is valued for its long flowering season and easy ability to draw insects late in the year. Mature plants are commonly 30–90 cm (12–35 in) tall and spread by reseeding and underground growth. In permaculture, it’s a nectar anchor that keeps pollinators working when many other flowers are already packing up.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun to partial shade; more shade can reduce blooms in the hottest weeks.
-  - Keep moisture moderate: it prefers evenly moist soil but will handle brief dry spells once established.
-  - Likes fertile, well-drained ground with organic matter.
-  - Avoid waterlogged soil for long periods; crowns can rot.
+  Full sun to partial shade; more shade can reduce blooms in the hottest weeks. Keep moisture moderate: it prefers evenly moist soil but will handle brief dry spells once established. Likes fertile, well-drained ground with organic matter. Avoid waterlogged soil for long periods; crowns can rot.
 
-  ✂️ Propagation:
-  - Seeds: sow in place or start indoors; germination often takes 10–20 days when kept evenly moist.
-  - Division: split clumps in spring or fall; replant immediately and water deeply for the first 2–3 weeks.
-  - Cut-back: mowing after flowering can encourage regrowth where summers are forgiving.
+  Seeds: sow in place or start indoors; germination often takes 10–20 days when kept evenly moist. Division: split clumps in spring or fall; replant immediately and water deeply for the first 2–3 weeks. Cut-back: mowing after flowering can encourage regrowth where summers are forgiving.
 
-  🌾 Harvest / Best Use Timing:
-  - For flowers: harvest blooms regularly once they start showing color to keep the flush going.
-  - For ground cover: let it establish, then mow lightly to manage spread before seed sets.
-  - Use flowers in bouquets; remove spent heads if you want less reseeding.
+  For flowers: harvest blooms regularly once they start showing color to keep the flush going. For ground cover: let it establish, then mow lightly to manage spread before seed sets. Use flowers in bouquets; remove spent heads if you want less reseeding.
 purpose: |-
-  Pollinator: Conoclinium coelestinum pushes lavender-blue mist heads when goldenrods start, so migrating monarchs and local bumblebees still find nectar after asters thin out.
-  Wildlife Attractor: Tight stems hold dew and small spiders that feed micro predators, while late syrphids work the disk flowers at face height for easy scouting.
-  Ornamental: Soft cloud inflorescences read from across the yard, marking wet-sun beds without staking or deadheading every day.
-  Ground Cover: Rhizomes spread into dense patches that shade soil and crowd summer weeds if moisture stays even through the hot weeks.
+  Pollinator: Conoclinium coelestinum pushes lavender-blue mist heads when goldenrods start -- so migrating monarchs and local bumblebees still find nectar after asters thin out.
+  Wildlife Attractor: Tight stems hold dew and small spiders that feed micro predators, -- while late syrphids work the disk flowers at face height for easy scouting.
+  Ornamental: Soft cloud inflorescences read from across the yard -- marking wet-sun beds without staking or deadheading every day.
+  Ground Cover: Rhizomes spread into dense patches that shade soil and crowd summer weeds -- if moisture stays even through the hot weeks.
 companions:
-- Echinacea purpurea (purple coneflower) — long-season flowers share pollinator traffic
-  and pair well in mixed native-style beds.
-- Solidago canadensis (Canada goldenrod) — late-blooming companion that overlaps nectar
-  windows.
-- Monarda fistulosa (wild bergamot) — aromatic flower spikes attract similar beneficial
-  insects while adding structure.
+- slug: echinacea
+  name: Echinacea
+- slug: wild-bergamot
+  name: Wild Bergamot
 cautions:
-- In wet, rich ground it can spread; manage by light mowing or thinning before seed
-  ripens.
+- In wet, rich ground it can spread; manage by light mowing or thinning before seed ripens.
 pests:
 - Aphids
 - Spider Mites
 - Slugs
 - Root Rot
+companions_normalized:
+- original: Echinacea purpurea (purple coneflower) — long-season flowers share pollinator traffic and pair well in mixed native-style beds.
+  resolved_slug: echinacea
+  name: Echinacea
+- original: Monarda fistulosa (wild bergamot) — aromatic flower spikes attract similar beneficial insects while adding structure.
+  resolved_slug: wild-bergamot
+  name: Wild Bergamot
+companions_unresolved:
+- name: Goldenrod
+  original: Solidago canadensis (Canada goldenrod) — late-blooming companion that overlaps nectar windows.
+  note: normalization_target_not_in_index

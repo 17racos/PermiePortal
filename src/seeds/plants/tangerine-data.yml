@@ -19,25 +19,26 @@ plant_function:
 description: |-
   The tangerine tree is a small to medium-sized evergreen, typically reaching heights of 4.5–6 meters (15–20 feet). It bears glossy, lance-shaped leaves and fragrant white flowers that give way to bright orange, easily peelable fruits. Tangerines thrive in full sun and well-draining, slightly acidic soils. They require regular watering, especially during dry periods, but are sensitive to waterlogged conditions.
 
-  ✂️🫘 Methods to Propagate:
   Tangerines are commonly propagated through grafting onto rootstocks, which ensures disease resistance and desired fruit characteristics. They can also be grown from seeds, but seedlings may not produce true-to-type fruit.
 
-  🌞💧 Sun and Water Requirements:
   Tangerine trees require full sun exposure, receiving at least 6–8 hours of direct sunlight daily. They prefer consistent moisture but need well-draining soil to prevent root rot.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
   The fruits are typically ready for harvest from late fall to early spring. Mature tangerines should be firm and heavy for their size, with a deep orange color. They do not continue to ripen after picking, so ensure they are fully mature before harvesting.
 purpose: |-
   Edible: Citrus reticulata loose-skinned mandarins peel one-handed on porch steps -- acid drops late fall when navels still hang green on neighboring trees.
-  Pollinator: Sweet white citrus bloom oils sync with early bee flights through humid subtropical orchards before summer heat shuts nectar quality.
-  Wildlife Attractor: Sparrows and peel-focused raccoons patrol dropped fruit under backyard canopies while parasitic wasps hunt leafminer larvae in the same foliage.
+  Pollinator: Sweet white citrus bloom oils sync with early bee flights through humid subtropical orchards -- before summer heat shuts nectar quality.
+  Wildlife Attractor: Sparrows and peel-focused raccoons patrol dropped fruit under backyard canopies -- while parasitic wasps hunt leafminer larvae in the same foliage.
 companions:
-- Marigold
-- Petunia
-- Dill
-- Fennel
-- Lemon Balm
-- Parsley
+- slug: marigold
+  name: Marigold
+- slug: dill
+  name: Dill
+- slug: fennel
+  name: Fennel
+- slug: lemon-balm
+  name: Lemon Balm
+- slug: parsley
+  name: Parsley
 cautions:
 - None specified
 pests:
@@ -61,3 +62,6 @@ pests:
 - Swallowtail Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Petunia
+  original: Petunia

@@ -22,27 +22,24 @@ plant_function:
 description: |-
   Deerberry (Vaccinium stamineum) is an open, deciduous blueberry relative of acidic woodlands and savanna edges, recognizable by long, exserted stamens that make flowers look starry and brush-like. It ranges widely in eastern North America, forming airy shrubs with small, dark berries that are tart and seedy but edible when fully ripe. In permaculture it fills the niche between ornamental blueberry rows and wild thickets—less commercial yield, more resilience on poor acid sands where rhizosphere honesty beats irrigation theater.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun to partial shade; fruiting improves with more light if soil stays acidic. Needs moist, well-drained, organic-acid soils typical of ericaceous plants; chlorosis on alkaline ground is a billboard for wrong pH. Drought tolerance is modest compared with sandhill oaks—mulch and avoid root baking.
 
-   ✂️ Propagation:
   Softwood cuttings under mist in late spring can root for clones of known fruit quality.
   Seeds require cold-moist stratification and patience; seedlings vary in vigor and flavor.
 
-  🌾 Harvest / Best Use Timing:
   Pick berries when fully colored, soft, and detaching easily; underripe fruit is astringent. Use for jams with other fruit, small-batch ferments, or wildlife share agreements. Prune old stems after winter to renew growth on multi-stemmed plants.
 purpose: |-
   Edible: Vaccinium stamineum berries stay tart and seedy -- combine with sweeter fruit for jam when fully soft and black.
-  Wildlife Attractor: Open airy shrubs expose flowers and fruit to diverse bees, butterflies, and fruit-eating birds along savanna edges.
-  Border Plant: Fine branching and modest height texture transitions between forest interior and open field without a solid wall.
-  Pollinator: Flowers with long-exserted stamens offer accessible pollen to small native bees on warm spring days.
+  Wildlife Attractor: Open airy shrubs expose flowers and fruit to diverse bees, butterflies, and fruit-eating birds -- along savanna edges.
+  Border Plant: Fine branching and modest height texture transitions between forest interior and open field -- without a solid wall.
+  Pollinator: Flowers with long-exserted stamens offer accessible pollen to small native bees -- on warm spring days.
 companions:
-- Highbush Blueberry — shared acidic mulch regime and complementary fruiting times
-- Mountain Laurel — evergreen structure and similar soil chemistry in part shade guilds
-- Pine — needle mulch maintains acidity; dappled light suits understory Vaccinium
+- slug: highbush-blueberry
+  name: Highbush Blueberry
+- slug: mountain-laurel
+  name: Mountain Laurel
 cautions:
-- Black Walnut — juglone and dry competition stress ericaceous roots; keep Vaccinium
-  outside the drip line
+- Black Walnut — juglone and dry competition stress ericaceous roots; keep Vaccinium outside the drip line
 pests:
 - Blueberry Maggot
 - Cranberry Fruitworm
@@ -55,3 +52,8 @@ pests:
 - Azalea Caterpillar
 growth_habit: Deciduous open shrub; small tart berries; long-exserted stamens in bloom
 data_quality_score: 0.84
+companions_unresolved:
+- name: Mountain Laurel
+  original: Mountain Laurel — evergreen structure and similar soil chemistry in part shade guilds
+- name: Pine
+  original: Pine — needle mulch maintains acidity; dappled light suits understory Vaccinium

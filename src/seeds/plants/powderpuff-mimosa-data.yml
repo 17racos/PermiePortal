@@ -21,13 +21,10 @@ plant_function:
 description: |-
   Powderpuff mimosa (Calliandra surinamensis) is a tropical to frost-free subtropical shrub native to South America, widely planted for spherical pink inflorescences like makeup puffs. Ferny compound leaves close at night; flowers attract hummingbirds and large bees in warm months. It brings legume nitrogen fixation and high drama color to frost-free food forests without confusing it with creeping Mimosa groundcovers.
 
-   ☀️💧 Sun and Water Requirements:
   Full sun for densest bloom; leggy shade growth is mostly sticks. Rich, well-drained soils with steady moisture in the warm season and a dry season in true tropical climates produce best form. Protect from hard freezes; container culture allows winter shelter in marginal zones.
 
-  ✂️ Propagation:
    Sow scarified seed in warm soil; semi-hardwood cuttings under mist root reliably. Prune after bloom waves to keep shrubs compact; wear gloves—stems can irritate sensitive skin.
 
-  🌾 Harvest / Best Use Timing:
   Not a primary food shrub; occasional traditional uses exist—verify safety. Cut long-stemmed flowers for tropical arrangements early morning; deadhead lightly to encourage repeat bloom where climate allows.
 purpose: |-
   Nitrogen Fixer: Calliandra surinamensis roots nodulate with rhizobia that leak nitrogen to neighboring understory on well-drained tropical beds -- prune spent spherical heads to force repeat bloom without letting shrubs lignify into rangy sticks.
@@ -35,14 +32,11 @@ purpose: |-
   Pollinator: Long red filaments fit hummingbird bills and large carpenter bees during steamy months when many temperate ornamentals pause -- pair with ixora for staggered warm-season nectar density.
   Wildlife Attractor: Dense twigging shelters small passerines from raptors along frost-free fencelines -- still check regional invasive lists before mass planting near conservation land because seed rain travels.
 companions:
-- Papaya — fast fruiting overstory in frost-free polycultures; mimosa fixes N at shrub
-  layer
-- Pineapple — ground-level production under open shrub canopies where light penetrates
-- Ixora — complementary tropical flower colors; both want warmth and drainage
+- slug: papaya
+  name: Papaya
 cautions:
 - Frost sensitivity — dies back to ground or entirely in cold snaps without protection
-- Invasive potential — confirm local guidance before planting near natural areas in
-  frost-free regions
+- Invasive potential — confirm local guidance before planting near natural areas in frost-free regions
 pests:
 - Banded Cucumber Beetle
 - Bean Aphid
@@ -73,6 +67,10 @@ pests:
 - Brown Marmorated Stink Bug
 - Harlequin Ladybird
 - Velvetbean Caterpillar
-growth_habit: Tropical leguminous shrub; ferny leaves; pink powderpuff flowers; frost-free
-  climates
+growth_habit: Tropical leguminous shrub; ferny leaves; pink powderpuff flowers; frost-free climates
 data_quality_score: 0.85
+companions_unresolved:
+- name: Pineapple
+  original: Pineapple — ground-level production under open shrub canopies where light penetrates
+- name: Ixora
+  original: Ixora — complementary tropical flower colors; both want warmth and drainage

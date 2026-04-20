@@ -26,33 +26,27 @@ description: |-
 
   Basil thrives in warm, sunny conditions with well-drained soil and requires regular pruning to promote bushy growth. It is highly valued for its ability to repel certain pests while attracting beneficial insects. Basil is commonly grown in herb gardens, companion planted with vegetables, or grown in containers.
 
-   🌞💧 Sun and Water Requirements:
-  - Prefers full sun but tolerates partial shade.
-  - Requires well-drained, moist, fertile soil.
-  - Needs regular watering; soil should be kept evenly moist but not waterlogged.
+  Prefers full sun but tolerates partial shade. Requires well-drained, moist, fertile soil. Needs regular watering; soil should be kept evenly moist but not waterlogged.
 
-  ✂️🫘 Methods to Propagate:
-  - Seeds: Sow indoors 4–6 weeks before the last frost or direct sow after the danger of frost has passed.
-  - Cuttings: Can be propagated from stem cuttings placed in water or moist soil.
-  - Succession Planting: Recommended every few weeks for a continuous harvest.
+  Seeds: Sow indoors 4–6 weeks before the last frost or direct sow after the danger of frost has passed. Cuttings: Can be propagated from stem cuttings placed in water or moist soil. Succession Planting: Recommended every few weeks for a continuous harvest.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
-  - Leaves can be harvested once the plant reaches 15 cm (6 inches) in height.
-  - Regular pruning encourages bushy growth and prevents early flowering.
-  - Flowers should be pinched off to prolong leaf production unless grown for pollinators.
+  Leaves can be harvested once the plant reaches 15 cm (6 inches) in height. Regular pruning encourages bushy growth and prevents early flowering. Flowers should be pinched off to prolong leaf production unless grown for pollinators.
 purpose: |-
-  Edible: Genovese types give broad sweet leaves for pesto until first flower; Thai types hold anise-clove flavor through hotter nights for stir-fry and herb plates picked the same day they are cooked.
+  Edible: Genovese types give broad sweet leaves for pesto until first flower -- Thai types hold anise-clove flavor through hotter nights for stir-fry and herb plates picked the same day they are cooked.
   Medicinal: Eugenol and methyl chavicol in leaf are traditional for gas and cramping tea -- pregnancy-sensitive advisors often limit medicinal basil oil concentrates; kitchen leaf doses are milder.
-  Pollinator: If you stop pinching, small white or purple whorls feed honeybees and solitary bees for weeks in late summer when vegetable rows have few other herbs in bloom.
-  Wildlife Attractor: Blooming spikes draw tachinid flies and parasitic wasps that patrol tomato foliage for hornworm eggs when basil is allowed a short flower window at season end.
-  Border Plant: Compact lines edge tomato beds and paths so harvest scissors never cross muddy boots; succession sow every three weeks so downy mildew on one cohort does not end all pesto.
-  Pest Management: Essential oil haze from brushed leaves masks tomato host odor enough to matter at bed scale; combine with marigold and allium neighbors rather than expecting basil alone to stop every aphid flight.
+  Pollinator: If you stop pinching, small white or purple whorls feed honeybees and solitary bees for weeks -- late summer bloom when vegetable rows have few other herbs in bloom.
+  Wildlife Attractor: Blooming spikes draw tachinid flies and parasitic wasps -- patrol tomato foliage for hornworm eggs when basil is allowed a short flower window at season end.
+  Border Plant: Compact lines edge tomato beds and paths so harvest scissors never cross muddy boots -- succession sow every three weeks so downy mildew on one cohort does not end all pesto.
+  Pest Management: Essential oil haze from brushed leaves masks tomato host odor enough to matter at bed scale -- combine with marigold and allium neighbors rather than expecting basil alone to stop every aphid flight.
 companions:
-- Tomato
-- Pepper
-- Oregano
-- Lettuce
-- Marigold
+- slug: tomato
+  name: Tomato
+- slug: oregano
+  name: Oregano
+- slug: lettuce
+  name: Lettuce
+- slug: marigold
+  name: Marigold
 cautions:
 - Rue
 - Fennel
@@ -81,3 +75,6 @@ field_observations: |-
   Pinch flower buds weekly if leaves are the crop—blooming shifts flavor woody overnight in hot weather.
   Downy mildew shows yellow leaf tops and gray fuzz below—remove infected leaves early; resistant cultivars exist.
   Wet foliage overnight invites basil pathogens—morning water at soil line beats evening spritzing.
+companions_unresolved:
+- name: Pepper
+  original: Pepper

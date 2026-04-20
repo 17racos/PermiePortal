@@ -24,15 +24,9 @@ description: |-
 
   Needs a long warm season; start early under cover if you want big fruit before frost. Humidity means downy mildew is a calendar event, not a surprise.
 
-  ☀️💧 Sun and Water Requirements:
-
   Full sun, fertile well-drained soil, steady moisture while vines run; reduce watering as fruits mature for storage types.
 
-  ✂️ Propagation:
-
   Direct-sow warm soil or transplant carefully; trellis small types, ground culture for monsters if you have space and slug patrol.
-
-  🌾 Harvest / Best Use Timing:
 
   Pick immature fruit with full wax bloom for kitchen use; let storage types mature on-vine before frost for winter melon projects.
 purpose: |-
@@ -40,9 +34,10 @@ purpose: |-
   Ground Cover: Rampant cucurbit vines smother mulch if you do not trellis -- assign territory or accept pumpkin-style imperialism across paths.
   Pollinator: Big yellow monoecious flowers open at dawn for squash bees -- long-season tropical heat keeps setting fruit when pickleworm pressure already moved into summer squash.
 companions:
-- Corn
-- Beans
-- Nasturtium
+- slug: nasturtium
+  name: Nasturtium
+- slug: fava-bean
+  name: Fava Bean
 cautions:
 - Cold wet soil at planting
 - Crowding with poor airflow
@@ -65,3 +60,13 @@ pests:
 - Spotted Cucumber Beetle
 growth_habit: Robust annual vine; long-season types sprawl widely
 data_quality_score: 0.8
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index
+companions_normalized:
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

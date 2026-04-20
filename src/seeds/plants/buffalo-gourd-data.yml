@@ -25,22 +25,18 @@ description: |-
   Tolerates heat and sand; hates constant wet feet—give it lean, sunny ground or watch it sulk fungal.
 
   Sun and water: Full sun. Very drought-tolerant once established; occasional deep soak mimics desert arroyo logic better than daily spritzing.
-  ✂️ Propagation:
+
   Seeds; taproot makes transplant of large plants a bad bet.
 
-  🌾 Harvest / Best Use Timing:
-  - Buffalo Gourd: pick fruits young for vegetable use or fully ripe for seed and sweetness goals -- one plant rarely serves both fantasies.
-  - Cut stems morning; afternoon wilt reduces quality fast above 90°F (32°C).
-  - Check trellis daily during peak set; hidden fruits split after rain.
+  Buffalo Gourd: pick fruits young for vegetable use or fully ripe for seed and sweetness goals -- one plant rarely serves both fantasies. Cut stems morning; afternoon wilt reduces quality fast above 90°F (32°C). Check trellis daily during peak set; hidden fruits split after rain.
 purpose: |-
-  Edible: Cucurbita foetidissima seeds yield edible oil after slow roast and press routines documented in Southwestern kitchens, not something you crack straight off the vine like a melon.
-  Fiber: Mature gourds cure into hard shells for rattles and dippers once odor fades, while inner fibers strip for rough cordage if you soak and beat pulp patiently.
-  Ground Cover: Silver vines scramble three meters a season from a deep taproot, shading arroyo banks where shallow annuals desiccate by June.
-  Wildlife Attractor: Coyotes and rodents cache bitter seeds anyway, so leave far fruit if you want seedling recruitment downwash, not beside irrigated melons.
+  Edible: Cucurbita foetidissima seeds yield edible oil after slow roast and press routines documented in Southwestern kitchens -- not something you crack straight off the vine like a melon.
+  Fiber: Mature gourds cure into hard shells for rattles and dippers once odor fades, -- while inner fibers strip for rough cordage if you soak and beat pulp patiently.
+  Ground Cover: Silver vines scramble three meters a season from a deep taproot -- shading arroyo banks where shallow annuals desiccate by June.
+  Wildlife Attractor: Coyotes and rodents cache bitter seeds anyway -- so leave far fruit if you want seedling recruitment downwash, not beside irrigated melons.
 companions:
-- Yucca
-- Agave
-- Desert legumes
+- slug: agave
+  name: Agave
 cautions:
 - Irrigated lawn culture
 - Eating random wild cucurbits without positive ID
@@ -61,6 +57,12 @@ pests:
 - Papaya Ringspot Virus
 - Pythium Root Rot
 - spotted cucumber beetle
-growth_habit: Perennial trailing vine from large taproot; silvery leaves; foul odor
-  when bruised
+growth_habit: Perennial trailing vine from large taproot; silvery leaves; foul odor when bruised
 data_quality_score: 0.75
+companions_unresolved:
+- name: Yucca
+  original: Yucca
+companion_categories:
+- name: Desert legumes
+  original: Desert legumes
+  type: system

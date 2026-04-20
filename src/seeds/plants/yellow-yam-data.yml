@@ -24,23 +24,21 @@ description: |-
   subtropical and tropical Americas: Needs a long frost-free window for serious tubers; treat as experimental unless you are south and committed to harvest discipline.
 
   Sun and water: Full sun for maximum photosynthate to tubers. Deep, loose soil with organic matter; steady moisture in growth, dry-down before harvest where practical.
-  ✂️ Propagation:
+
   Vine cuttings and small tuber pieces (head sprout); do not move named landraces across borders illegally—local laws apply.
 
   Guild notes: Corn can serve as a living trellis if you manage spacing so the yam still gets sun; pigeon pea fixes nitrogen at the bed edge without smothering tubers; cassava matches the long tropical calendar—watch water competition on sandy soils.
 
-  🌾 Harvest / Best Use Timing:
-  - Yellow Yam: dig tubers or roots after tops senesce or frost signals storage shift -- curing a few days at 50-60°F (10-16°C) sweetens some starches.
-  - Loosen soil wide first -- snapped necks invite rot in storage.
-  - Brush-dry before long storage; plastic totes without airflow grow penicillin cosplay.
+  Yellow Yam: dig tubers or roots after tops senesce or frost signals storage shift -- curing a few days at 50-60°F (10-16°C) sweetens some starches. Loosen soil wide first -- snapped necks invite rot in storage. Brush-dry before long storage; plastic totes without airflow grow penicillin cosplay.
 purpose: |-
   Edible: Dioscorea cayenensis yellow-fleshed tubers bulk to serious weight in 12-month tropical rotations -- peel irritates skin; use gloves and long curing.
   Ground Cover: Twining stems claim trellis and tree trunks -- assign engineered posts or apologize to orchard trees.
   Mulcher: Frost-killed or hand-cut vines compost hot -- mix with browns; vines return potassium to the bed that fed tubers.
 companions:
-- Corn
-- Pigeon Pea
-- Cassava
+- slug: pigeon-pea
+  name: Pigeon Pea
+- slug: cassava
+  name: Cassava
 cautions:
 - Letting vines girdle orchard trees
 - Waterlogged heavy clay
@@ -50,3 +48,6 @@ pests:
 - Mites
 growth_habit: Herbaceous twining vine from large underground tuber
 data_quality_score: 0.75
+companions_unresolved:
+- name: Corn
+  original: Corn

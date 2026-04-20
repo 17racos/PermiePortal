@@ -2,8 +2,8 @@ common_name: Mountain Soursop
 picture: mountain_soursop.webp
 scientific_name: Annona montana
 aka:
-- Wild soursop
-- Mountain custard apple
+  - Wild soursop
+  - Mountain custard apple
 family: Annonaceae
 zone: 10-11
 ideal_temp_min: 65
@@ -12,44 +12,38 @@ min_temp: 30
 max_temp: 105
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Edible
-- Wildlife Attractor
-- Shade Provider
-- Medicinal
+  - Edible
+  - Wildlife Attractor
+  - Shade Provider
+  - Medicinal
 description: |-
   Mountain soursop (Annona montana) is a tropical annonaceous tree with glossy leaves and aromatic, custard-apple-family fruit that tends to be more acidic and fibrous than commercial soursop (Annona muricata), but still squarely in the “spoon and hope” dessert category. Trees often reach 20–40 feet in cultivation, forming a rounded crown useful for dappled shade in food forests.
 
   subtropical and tropical Americas: At home in Puerto Rico’s lowlands and humid foothills; in Florida treat it as a serious 10b+ proposition with wind protection and excellent drainage—annonas hate soggy roots about as much as bureaucracy.
 
-  ☀️💧 Sun and Water Requirements:
-  - Full sun for best flowering and fruiting once the frame is established.
-  - Deep, fertile, well-drained soil; steady moisture in the wet season, disciplined drainage in the dry season to avoid phytophthora fan clubs.
+  Full sun for best flowering and fruiting once the frame is established. Deep, fertile, well-drained soil; steady moisture in the wet season, disciplined drainage in the dry season to avoid phytophthora fan clubs.
 
-  ✂️ Propagation:
-  - Seeds: plant fresh; seedlings vary—expect a lottery unless you clone elite mothers.
-  - Grafting or budding onto compatible annona rootstocks where specialists offer material; timing follows warm-season cambium activity.
+  Seeds: plant fresh; seedlings vary—expect a lottery unless you clone elite mothers. Grafting or budding onto compatible annona rootstocks where specialists offer material; timing follows warm-season cambium activity.
 
-  🌾 Harvest / Best Use Timing:
-  - Pick when fruit yields slightly to pressure and aroma turns up the volume; flavor ripens off-tree to a point—experience beats Instagram timing.
-  - Process quickly; annona pulp does not respect your weekend schedule.
+  Pick when fruit yields slightly to pressure and aroma turns up the volume; flavor ripens off-tree to a point—experience beats Instagram timing. Process quickly; annona pulp does not respect your weekend schedule.
 purpose: |-
   Edible: Annona montana fruit stays more acidic, aromatic, and fibrous than commercial Annona muricata yet still spoons into custards, juices, and ice creams once fully soft -- pick on slight yield and rising perfume, then process pulp fast before oxidative browning wins.
   Wildlife Attractor: Nitrophilic beetles and other annona-specific pollinators work the protogynous flowers at dusk -- ripe fruit feeds bats and birds unless you bag scaffolds, so plan harvest timing with frugivore calendars.
   Shade Provider: Rounded 6–12 m crown gives dappled humid-tropical shade for understory ginger, turmeric, or vanilla on mulched berms -- open interior pruning improves airflow where night humidity stacks anthracnose pressure.
   Medicinal: Bark and leaf decoctions appear in Caribbean folk materia medica for parasitic and fever narratives tied to acetogenin chemistry -- internal use belongs with trained practitioners because therapeutic margin and species ID errors are both real risks.
 companions:
-- Soursop — overlapping pollination ecology and management rhythm; scouting for annona
-  pests stays one walkthrough instead of two departments.
-- Banana — quick biomass and evaporative cooling at the edge; keep bananas from shading
-  the crown once the tree is fruiting age.
-- Pigeon Pea — chop-and-drop nitrogen and living stake culture on the sunny side without
-  running roots through the annona crown.
+  - slug: soursop
+    name: Soursop
+  - slug: banana
+    name: Banana
+  - slug: pigeon-pea
+    name: Pigeon Pea
 cautions:
-- None documented
+  - None documented
 pests:
-- Caribbean Fruit Fly
-- Scale Insects
+  - Caribbean Fruit Fly
+  - Scale Insects
 growth_habit: Small to medium tropical tree; irregular branching typical of annonas
 data_quality_score: 0.75

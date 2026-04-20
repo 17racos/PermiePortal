@@ -20,30 +20,25 @@ plant_function:
 description: |-
   The Nectarine Tree (Prunus persica var. nucipersica) is a deciduous fruit tree producing smooth-skinned, juicy fruits similar to peaches. Typically reaching heights of 4–6 meters (13–20 feet), nectarines are prized for their sweet flavor and are consumed fresh, dried, or used in cooking and baking.
 
-  🌞💧 Sun and Water Requirements:
-  - Requires full sun exposure to ensure healthy growth and fruit development.
-  - Prefers well-drained, loamy soils with a slightly acidic to neutral pH (6.0–7.0).
-  - Needs regular watering, especially during dry periods, to maintain soil moisture without waterlogging.
+  Requires full sun exposure to ensure healthy growth and fruit development. Prefers well-drained, loamy soils with a slightly acidic to neutral pH (6.0–7.0). Needs regular watering, especially during dry periods, to maintain soil moisture without waterlogging.
 
-  ✂️🫘 Methods to Propagate:
-  - Grafting: Common method to propagate specific cultivars, ensuring fruit quality and disease resistance.
-  - Seeds: Can be grown from seeds, but the resulting trees may not produce true-to-type fruit and can take longer to bear.
+  Grafting: Common method to propagate specific cultivars, ensuring fruit quality and disease resistance. Seeds: Can be grown from seeds, but the resulting trees may not produce true-to-type fruit and can take longer to bear.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
-  - Fruits typically ripen in late spring to summer, depending on the variety and climate.
-  - Harvest when the fruit develops full color and yields slightly to gentle pressure.
-  - Handle with care to avoid bruising, and consume or process shortly after harvesting for best flavor and quality.
+  Fruits typically ripen in late spring to summer, depending on the variety and climate. Harvest when the fruit develops full color and yields slightly to gentle pressure. Handle with care to avoid bruising, and consume or process shortly after harvesting for best flavor and quality.
 purpose: |-
   Edible: Smooth-skinned Prunus persica var. nucipersica fruit ripens with full background color and slight yield for out-of-hand eating, canning, and drying -- handle gently after harvest because bruised cheeks invite brown rot in humid finishing weather.
   Pollinator: Pink spring blossoms open before many summer crops, offering pollen and nectar to honeybees, mason bees, and hoverflies during orchard bloom -- avoid dormant-oil mis-timing that smothers tight bud clusters.
   Wildlife Attractor: Split fruit and ground drops feed raccoons, opossums, and fruit-eating birds along orchard skirts -- harvest rounds or accept wildlife tax where sanitation versus habitat is a design choice.
   Border Plant: Dwarfing rootstocks train into backyard fence lines, front-yard accent trees, and formal allées when spaced for air movement -- thornless smooth skin still needs pruned scaffold spacing so paths stay passable.
 companions:
-- Comfrey
-- Garlic
-- Chive
-- Clover
-- Nasturtium
+- slug: chives
+  name: Chives
+- slug: comfrey
+  name: Comfrey
+- slug: garlic
+  name: Garlic
+- slug: nasturtium
+  name: Nasturtium
 cautions:
 - Walnut
 - Tomato
@@ -88,3 +83,10 @@ pests:
 - Tent Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_normalized:
+- original: Chive
+  resolved_slug: chives
+  name: Chives
+companions_unresolved:
+- name: Clover
+  original: Clover

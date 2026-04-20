@@ -21,28 +21,21 @@ plant_function:
 description: |-
   Caraway is the biennial-perennial spice carrot your rye bread remembers — feathery leaves, umbels of white-to-pink flowers, then seeds with that warm, resinous bite. In subtropical and tropical Americas it behaves like a cool-season worker: lush in winter and spring, cranky when nights stop cooling off. Grow for leaves, taproot experiments, and seed heads; harvest seeds when brown and crisp. Not a tropical hero, but a fun rotation herb if you refuse to only plant basil.
 
-  ☀️💧 Sun and Water:
-  - Full sun in cool months; light afternoon shade when heat spikes.
-  - Even moisture; drought pushes premature flowering.
-  - Deep, fertile soil helps the root and seed cycle.
+  Full sun in cool months; light afternoon shade when heat spikes. Even moisture; drought pushes premature flowering. Deep, fertile soil helps the root and seed cycle.
 
-  ✂️ Propagation:
-  - Seed: sow in fall or early spring; thinning improves airflow.
-  - Second-year plants produce the heaviest seed — plan the cycle.
+  Seed: sow in fall or early spring; thinning improves airflow. Second-year plants produce the heaviest seed — plan the cycle.
 
-  🌾 Harvest / Best Use Timing:
-  - Snip tender Wild Caraway growth in cool mornings for best texture -- heat-stressed leaves taste like their day job.
-  - Flowers at full color for peak volatiles; seeds when pods rattle but before they self-sow across paths.
-  - Dry herbs in thin layers; deep piles steam themselves into compost.
+  Snip tender Wild Caraway growth in cool mornings for best texture -- heat-stressed leaves taste like their day job. Flowers at full color for peak volatiles; seeds when pods rattle but before they self-sow across paths. Dry herbs in thin layers; deep piles steam themselves into compost.
 purpose: |-
   Edible: Carum carvi mericarps flavor rye bread and sauerkraut -- second-year umbels yield the spice; first-year roots taste like parsley-carrot.
   Medicinal: Carvone-rich oil drives carminative reputation -- therapeutic doses still track culinary use unless you own a still and lab.
   Pollinator: White-pink umbels host parasitoid wasps and mini bees before dill dominates July -- succession plant with cilantro for continuous Apiaceae bloom.
   Border Plant: Feathery cool-season rosettes edge beds in Mediterranean climates -- bolts fast when heat arrives; treat as winter crop in subtropics.
 companions:
-- Peas
-- Lettuce
-- Chives
+- slug: lettuce
+  name: Lettuce
+- slug: chives
+  name: Chives
 cautions:
 - None documented
 pests:
@@ -58,3 +51,6 @@ pests:
 - Swallowtail Caterpillar
 growth_habit: Biennial umbellifer (often managed as a seed crop)
 data_quality_score: 0.75
+companions_unresolved:
+- name: Peas
+  original: Peas

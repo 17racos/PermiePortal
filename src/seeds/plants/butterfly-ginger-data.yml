@@ -24,25 +24,19 @@ plant_function:
 description: |-
   Butterfly Ginger (*Hedychium coronarium*) is an upright perennial native to the forest understory of Asia. It typically reaches heights of 1.2 to 1.5 meters (4 to 5 feet) and spreads about 1.2 to 1.8 meters (4 to 6 feet). The plant features long, lanceolate green leaves arranged alternately along its stems. During late summer to fall, it produces fragrant white flowers reminiscent of butterflies, which are particularly attractive to pollinators. The plant thrives in hot and humid conditions, preferring consistently moist soils.
 
-  🌞💧 Sun and Water Requirements:
   Butterfly Ginger flourishes in full sun to partial shade. In hotter climates, providing afternoon shade can help prevent leaf scorch. The plant prefers consistently moist, well-draining soils and benefits from regular watering, especially during dry periods.
 
-  ✂️🫘 Methods to Propagate:
   Propagation is commonly achieved through division of rhizomes. This is best done in early spring before new growth begins. Dig up the clump, separate the rhizomes ensuring each division has at least one growth bud, and replant them at the same depth in prepared soil.
 
-  🧑‍🌾👩‍🌾 When to Harvest:
   While primarily grown for ornamental purposes, in regions where Butterfly Ginger is cultivated for its edible and medicinal properties, the rhizomes are typically harvested in late fall. This is when the plant's aerial parts begin to die back, indicating the rhizomes have stored maximum nutrients.
 purpose: |-
-  Edible: Hedychium coronarium buds enter Thai salads for ginger-lily zip, while rhizomes stay fibrous spice only where traditional prep strips tough sheath layers first.
-  Medicinal: Aromatic oils from flowers show up in old headache snuffs and muscle oils across tropical Asia, still sold as perfumery grade if you track dilution and skin sensitivity.
-  Pollinator: Night-opening white trumpets release heavy fragrance that hawkmoths follow along ditch banks, even when daytime bees ignore the plant.
-  Wildlife Attractor: Tree frogs camp in rolled leaf bases after rain, and spiders web the lower stems where gnats collect from irrigation overspray.
-  Ground Cover: Clumping rhizomes spread two meters wide in moist shade, shading out dollarweed if you keep mulch deep and pH slightly acid.
-  Erosion Control: Roots grip pond margins and rain-garden swales where water stands for days, holding soil while pickerelweed roots knit deeper mud.
-companions:
-- Fern
-- Hostas
-- Elephant Ear
+  Edible: Hedychium coronarium buds enter Thai salads for ginger-lily zip, -- while rhizomes stay fibrous spice only where traditional prep strips tough sheath layers first.
+  Medicinal: Aromatic oils from flowers show up in old headache snuffs and muscle oils across tropical Asia, still sold as perfumery grade -- if you track dilution and skin sensitivity.
+  Pollinator: Night-opening white trumpets release heavy fragrance that hawkmoths follow along ditch banks, even -- when daytime bees ignore the plant.
+  Wildlife Attractor: Tree frogs camp in rolled leaf bases after rain, and spiders web the lower stems -- where gnats collect from irrigation overspray.
+  Ground Cover: Clumping rhizomes spread two meters wide in moist shade -- shading out dollarweed if you keep mulch deep and pH slightly acid.
+  Erosion Control: Roots grip pond margins and rain-garden swales where water stands for days -- holding soil while pickerelweed roots knit deeper mud.
+companions: []
 cautions:
 - None known
 pests:
@@ -51,3 +45,11 @@ pests:
 - Slugs
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Fern
+  original: Fern
+- name: Hosta
+  original: Hostas
+  note: normalization_target_not_in_index
+- name: Elephant Ear
+  original: Elephant Ear

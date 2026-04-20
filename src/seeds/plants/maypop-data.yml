@@ -2,10 +2,10 @@ common_name: Maypop
 picture: maypop.webp
 scientific_name: Passiflora incarnata
 aka:
-- Purple Passionflower
-- Wild apricot
-- Wild Passionvine
-- Wild Passion Vine
+  - Purple Passionflower
+  - Wild apricot
+  - Wild Passionvine
+  - Wild Passion Vine
 family: Passifloraceae
 zone: 5-9
 ideal_temp_min: 60
@@ -14,28 +14,22 @@ min_temp: -10
 max_temp: 105
 perennial: true
 layers:
-- Vine
-- Herbaceous
+  - Vine
+  - Herbaceous
 plant_function:
-- Edible
-- Medicinal
-- Pollinator
-- Wildlife Attractor
+  - Edible
+  - Medicinal
+  - Pollinator
+  - Wildlife Attractor
 description: |-
   Maypop is the native Southeast passionflower that dies back to the roots like a responsible perennial, then erupts into intricate lavender flowers and greenish edible fruit that pop when you step on them—hence the name, and hence childhood memories.
 
   Right at home—edge plant, fence cover, butterfly magnet (Gulf fritillary will use it hard). Expect defoliation some years; the vine usually laughs it off.
 
-  ☀️💧 Sun and Water Requirements:
-
   Full sun to light shade.
   Average moisture; tolerates drought once established but fruits better with steady water.
 
-  ✂️ Propagation:
-
   Seeds, hardwood cuttings, or digging dormant root suckers with permission on your own land.
-
-  🌾 Harvest / Best Use Timing:
 
   Pick maypops when they yield slightly and aroma peaks; leave some for caterpillar cycles if you are sharing the vine.
 purpose: |-
@@ -44,16 +38,25 @@ purpose: |-
   Pollinator: Lavender fringed corona and elevated anthers feed large carpenter bees that buzz the flower release pollen -- intricate morphology rewards specialists, not casual fly-bys.
   Wildlife Attractor: Gulf fritillary larvae strip leaves some summers -- plant extra vines or accept defoliation if butterfly completion matters more than pristine foliage.
 companions:
-- Elderberry
-- Sunflowers
-- Native grasses
+  - slug: sunflower
+    name: Sunflower
+  - slug: elderberry
+    name: Elderberry
 cautions:
-- Tiny trellises with ambition issues
-- Spraying every caterpillar you see
+  - Tiny trellises with ambition issues
+  - Spraying every caterpillar you see
 pests:
-- aphids
-- spider mites
-- whiteflies
-- caterpillars
+  - aphids
+  - spider mites
+  - whiteflies
+  - caterpillars
 growth_habit: Herbaceous perennial vine, dies back in winter
 data_quality_score: 0.82
+companions_normalized:
+  - original: Sunflowers
+    resolved_slug: sunflower
+    name: Sunflower
+companion_categories:
+  - name: Native grasses
+    original: Native grasses
+    type: system

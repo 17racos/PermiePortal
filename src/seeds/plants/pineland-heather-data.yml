@@ -2,8 +2,8 @@ common_name: Pineland Heather
 picture: pineland_heather.webp
 scientific_name: Ceratiola ericoides
 aka:
-- Florida Rosemary
-- Sand Heath
+  - Florida Rosemary
+  - Sand Heath
 family: Ericaceae
 zone: 9b-11
 ideal_temp_min: 45
@@ -12,22 +12,19 @@ min_temp: 20
 max_temp: 105
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Wildlife Attractor
-- Erosion Control
-- Ornamental
-- Border Plant
+  - Wildlife Attractor
+  - Erosion Control
+  - Ornamental
+  - Border Plant
 description: |-
   Pineland heather (Ceratiola ericoides) is an aromatic evergreen shrub of deep sandy scrub, with needle-like leaves that smell resinous when crushed and a rounded form usually 3–6 feet (0.9–1.8 m) tall. It is not a culinary rosemary despite one common name—think ericaceous chemistry and habitat specialization. In xeric permaculture it anchors sandhill plantings, supports native bee and specialist insect relationships, and refuses to pretend it enjoys lawn sprinklers.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun and excellent drainage are non-negotiable; shade yields sparse, uneven plants. Pure sand or sandy gravel with low fertility matches native sites. Drought-tolerant; irrigation should mimic summer thunderstorms, not perpetual soggy mulch.
 
-  ✂️ Propagation:
   Difficult from cuttings for beginners; seed after appropriate treatments per native-plant guides. Avoid heavy root disturbance when transplanting container plants. Prune lightly to shape; hard shearing removes interior buds slowly.
 
-  🌾 Harvest / Best Use Timing:
   Not a food crop—handle as habitat and ornamental. Growth pulses follow warm wet periods. Collect seed ethically only where regulations and population health permit.
 purpose: |-
   Wildlife Attractor: Ceratiola ericoides resinous stems feed specialist bees and provide dense cover for Florida scrub-jays and small reptiles on deep sand -- do not substitute random rosemary ecotypes if conservation genetics matter.
@@ -35,24 +32,25 @@ purpose: |-
   Ornamental: Needle foliage reads rosemary-cool from a distance while staying native to southeastern sandhills -- chemistry is ericaceous, not culinary-rosemary safe for kitchen substitution without ID certainty.
   Border Plant: 1–2 m rounded shrubs mark dry garden rooms, trailheads, and firewise buffers where sprinklers stay off -- allelopathic roots mean keep thirsty vegetables upslope in different soil volumes.
 companions:
-- Scrub Palmetto — shared scrub guild with contrasting leaf form and similar drainage
-  demands
-- Southern Red Cedar — high canopy dappling light without smothering sandhill shrubs
-- Yaupon Holly — evergreen neighbor at slightly richer scrub margins for layered structure
+  - slug: scrub-palmetto
+    name: Scrub Palmetto
+  - slug: southern-red-cedar
+    name: Southern Red Cedar
+  - slug: yaupon-holly
+    name: Yaupon Holly
 cautions:
-- Allelopathic tendencies—avoid pairing with moisture-loving vegetables in the same
-  root zone
-- Wet soils and heavy clay — decline and dieback without drama, just outcome
+  - Allelopathic tendencies—avoid pairing with moisture-loving vegetables in the same root zone
+  - Wet soils and heavy clay — decline and dieback without drama, just outcome
 pests:
-- Aphids
-- Blueberry Maggot
-- Cranberry Fruitworm
-- Cranberry Tipworm
-- Scale Insects
-- Sparganothis Fruitworm
-- Spider Mites
-- Strawberry Root Weevil
-- Vine Weevil
-- Azalea Caterpillar
+  - Aphids
+  - Blueberry Maggot
+  - Cranberry Fruitworm
+  - Cranberry Tipworm
+  - Scale Insects
+  - Sparganothis Fruitworm
+  - Spider Mites
+  - Strawberry Root Weevil
+  - Vine Weevil
+  - Azalea Caterpillar
 growth_habit: Evergreen needle-leaf shrub; aromatic; deep sand scrub specialist
 data_quality_score: 0.76

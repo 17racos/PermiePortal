@@ -24,22 +24,20 @@ description: |-
   Often grown as a cool-season biennial—summer heat can make it ratty unless given afternoon shade and airflow.
 
   Sun and water: Full sun in cool climates; part afternoon shade in hot ones. Well-drained, average fertility; drought-tolerant once established but looks richer with occasional deep water.
-  ✂️ Propagation:
+
   Seeds sown in fall or early spring; barely cover seed; thinning prevents mildew parties.
 
-  🌾 Harvest / Best Use Timing:
-  - Snip tender Clary Sage growth in cool mornings for best texture -- heat-stressed leaves taste like their day job.
-  - Flowers at full color for peak volatiles; seeds when pods rattle but before they self-sow across paths.
-  - Dry herbs in thin layers; deep piles steam themselves into compost.
+  Snip tender Clary Sage growth in cool mornings for best texture -- heat-stressed leaves taste like their day job. Flowers at full color for peak volatiles; seeds when pods rattle but before they self-sow across paths. Dry herbs in thin layers; deep piles steam themselves into compost.
 purpose: |-
-  Medicinal: Linalool-rich bracts and spikes yield essential oil for muscatel bitters, eyewashes, and menstrual-support formulas in trained European herbal practice.
-  Ornamental: Fuzzy basal rosettes rocket into pastel pink-white towers that give cottage borders vertical drama in the second-year bloom window.
-  Wildlife Attractor: Tall verticillasters feed long-tongued bees and bumblebees after spring bulbs finish but before autumn asters open.
-  Edible: Bracts flavor old wine-cup recipes and vermouth trials; treat as accent flavoring, not bulk salad, because thujone-type chemistry deserves respect.
+  Medicinal: Linalool-rich bracts and spikes yield essential oil for muscatel bitters, eyewashes, and menstrual-support formulas -- in trained European herbal practice.
+  Ornamental: Fuzzy basal rosettes rocket into pastel pink-white towers -- that give cottage borders vertical drama in the second-year bloom window.
+  Wildlife Attractor: Tall verticillasters feed long-tongued bees and bumblebees after spring bulbs finish but -- before autumn asters open.
+  Edible: Bracts flavor old wine-cup recipes and vermouth trials -- treat as accent flavoring, not bulk salad, because thujone-type chemistry deserves respect.
 companions:
-- Lavender
-- Yarrow
-- Ornamental grasses
+- slug: lavender
+  name: Lavender
+- slug: yarrow
+  name: Yarrow
 cautions:
 - Humid stagnant corners (fungal leaf drama)
 - Overfertilizing soft growth that flops
@@ -49,3 +47,7 @@ pests:
 - whiteflies
 growth_habit: Biennial or short-lived perennial; rosette first year, tall bloom second
 data_quality_score: 0.75
+companion_categories:
+- name: Ornamental grasses
+  original: Ornamental grasses
+  type: system

@@ -2,7 +2,7 @@ common_name: Virginia Rose
 picture: virginia_rose.webp
 scientific_name: Rosa virginiana
 aka:
-- Prairie Rose
+  - Prairie Rose
 family: Rosaceae
 zone: 4-9
 ideal_temp_min: 35
@@ -11,22 +11,19 @@ min_temp: -35
 max_temp: 100
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Wildlife Attractor
-- Border Plant
-- Edible
-- Ornamental
+  - Wildlife Attractor
+  - Border Plant
+  - Edible
+  - Ornamental
 description: |-
   Virginia rose (Rosa virginiana) is a native eastern North American rose forming upright to arching canes with pink fragrant flowers in summer and red hips persisting into winter. Plants reach 3–6 feet (0.9–1.8 m), often in moist to average soils at meadow edges. Hips support teas and jellies where processing respects tannins; petals flavor syrups on unsprayed plants.
 
-  ☀️💧 Sun and Water Requirements:
   Full sun to light partial shade; best flowering with strong light. Average to moist, well-drained soils suit it; tolerates clay if drainage moves. Mulch during establishment.
 
-  ✂️ Propagation:
   Hardwood cuttings in dormancy; stratified seed for diversity. Renewal-prune old canes after several years.
 
-  🌾 Harvest / Best Use Timing:
   Gather hips when fully red and slightly soft—process for tea or jelly. Peak bloom tracks mid-summer warmth.
 purpose: |-
   Wildlife Attractor: Rosa virginiana single pink flowers feed native bees; red hips persist for winter songbirds -- leave some canes unpruned if you want cedar waxwing drama.
@@ -34,50 +31,53 @@ purpose: |-
   Edible: Tart hips and perfumed petals make syrup and tea on unsprayed plants -- tannins demand cooking or sweetening; verify identity before any hip wine experiments.
   Ornamental: Open, single flowers beat double garden roses for pollinator access -- glossy summer foliage reads native-chic in eastern sun.
 companions:
-- Little Bluestem — warm-season grass matrix around rose bases sharing sun
-- Milkweed — complementary forb for pollinator strips
-- Wild Bergamot — aromatic neighbor extending bloom sequence
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: milkweed
+    name: Milkweed
+  - slug: wild-bergamot
+    name: Wild Bergamot
 cautions:
-- Thorns — plan paths before romantic strolls
-- Rose Rosette Disease — remove infected canes; improve spacing where mites thrive
+  - Thorns — plan paths before romantic strolls
+  - Rose Rosette Disease — remove infected canes; improve spacing where mites thrive
 pests:
-- Aphids
-- Apple Maggot
-- Apple Scab
-- Bagworm
-- Blackberry Psyllid
-- Cherry Fruit Fly
-- Codling Moth
-- Cyclamen Mite
-- Fall Webworm
-- Japanese Beetles
-- Lesser Peachtree Borer
-- Oriental Fruit Fly
-- Oriental Fruit Moth
-- Peach Twig Borer
-- Peachtree Borer
-- Pear Psylla
-- Plum Curculio
-- Raspberry Beetle
-- Raspberry Cane Borer
-- Rose Slug
-- Sparganothis Fruitworm
-- Spider Mites
-- Spittlebugs
-- Stink Bug
-- Strawberry Root Weevil
-- Twig Girdlers
-- Vine Weevil
-- Brown Rot
-- Fire Blight
-- Gall Mite
-- Leaf Blight
-- Leaf Spot
-- Rust Mite
-- Spotted Lanternfly
-- Brown Marmorated Stink Bug
-- Eastern Tent Caterpillar
-- Harlequin Ladybird
-- Tent Caterpillar
+  - Aphids
+  - Apple Maggot
+  - Apple Scab
+  - Bagworm
+  - Blackberry Psyllid
+  - Cherry Fruit Fly
+  - Codling Moth
+  - Cyclamen Mite
+  - Fall Webworm
+  - Japanese Beetles
+  - Lesser Peachtree Borer
+  - Oriental Fruit Fly
+  - Oriental Fruit Moth
+  - Peach Twig Borer
+  - Peachtree Borer
+  - Pear Psylla
+  - Plum Curculio
+  - Raspberry Beetle
+  - Raspberry Cane Borer
+  - Rose Slug
+  - Sparganothis Fruitworm
+  - Spider Mites
+  - Spittlebugs
+  - Stink Bug
+  - Strawberry Root Weevil
+  - Twig Girdlers
+  - Vine Weevil
+  - Brown Rot
+  - Fire Blight
+  - Gall Mite
+  - Leaf Blight
+  - Leaf Spot
+  - Rust Mite
+  - Spotted Lanternfly
+  - Brown Marmorated Stink Bug
+  - Eastern Tent Caterpillar
+  - Harlequin Ladybird
+  - Tent Caterpillar
 growth_habit: Native rose; pink summer flowers; red hips; meadow and woodland edges
 data_quality_score: 0.8
