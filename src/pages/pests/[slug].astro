@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar.astro';
 // src/pages/pests/[slug].astro
 import BaseLayout from '../../components/layouts/BaseLayout.astro';
 import pestsData from '../../data/pests.json';
+import familiesRaw from '../../data/families.json';
 
 export function getStaticPaths() {
   return pestsData.map(pest => ({
@@ -12,6 +13,17 @@ export function getStaticPaths() {
 }
 
 const { pest } = Astro.props;
+
+// Resolve family exposure data for this pest from pest_family_index
+const pestFamilyIndex = familiesRaw.pest_family_index || {};
+const familyExposure = pestFamilyIndex[pest.name] || null;
+
+// Build family canonical name lookup
+const familyNodes = familiesRaw.families || [];
+const familyBySlug: Record<string, string> = {};
+for (const f of familyNodes) {
+  familyBySlug[f.slug] = f.canonical_name;
+}
 
 const controlSectionLabels: Record<string, string> = {
   organic_sprays: 'Organic Sprays',
@@ -151,6 +163,15 @@ const ifasUrl = `https://edis.ifas.ufl.edu/search?q=${nameQuery}`;
   .plant-link-name { font-family: 'Space Mono', monospace; font-size: 0.72rem; color: var(--paper); letter-spacing: 0.04em; }
 
   /* FOOTER */
+  .family-exposure-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.6rem; }
+  .family-exposure-card { display: block; text-decoration: none; padding: 0.9rem 1.1rem; background: var(--bark); border: 1px solid rgba(212,168,67,0.15); transition: all 0.2s; }
+  .family-exposure-card:hover { border-color: rgba(212,168,67,0.4); background: rgba(42,61,31,0.15); }
+  .family-exposure-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.25rem; }
+  .family-exposure-name { font-family: 'Space Mono', monospace; font-size: 0.72rem; color: var(--paper); letter-spacing: 0.04em; }
+  .family-exposure-pct { font-family: 'Bebas Neue', sans-serif; font-size: 1.1rem; color: var(--straw); }
+  .family-exposure-count { font-size: 0.72rem; color: var(--ash); margin-bottom: 0.5rem; }
+  .family-exposure-bar { height: 2px; background: rgba(212,168,67,0.15); border-radius: 1px; }
+  .family-exposure-fill { height: 100%; background: var(--straw); border-radius: 1px; }
   .footer { padding: 2rem 4rem; border-top: 1px solid rgba(139,184,58,0.15); display: flex; justify-content: space-between; align-items: center; margin-top: 2rem; }
   .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.2rem; color: var(--lime); letter-spacing: 0.08em; }
   .footer-copy { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--ash); }
