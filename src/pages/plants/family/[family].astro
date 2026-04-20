@@ -3,6 +3,7 @@
 import BaseLayout from '../../../components/layouts/BaseLayout.astro';
 import plantsData from '../../../data/plants.json';
 import pestsData from '../../../data/pests.json';
+import familiesRaw from '../../../data/families.json';
 
 export function getStaticPaths() {
   const familyMap: Record<string, any[]> = {};
@@ -13,13 +14,22 @@ export function getStaticPaths() {
     if (!familyMap[slug]) familyMap[slug] = [];
     familyMap[slug].push(plant);
   }
+  const familyNodes = Array.isArray(familiesRaw) ? familiesRaw : (familiesRaw.families || []);
+  const familyNodeMap: Record<string, any> = {};
+  for (const node of familyNodes) {
+    familyNodeMap[node.slug] = node;
+  }
   return Object.entries(familyMap).map(([slug, plants]) => ({
     params: { family: slug },
-    props: { plants, familyName: plants[0].family }
+    props: {
+      plants,
+      familyName: plants[0].family,
+      familyNode: familyNodeMap[slug] || null,
+    }
   }));
 }
 
-const { plants, familyName } = Astro.props;
+const { plants, familyName, familyNode } = Astro.props;
 
 // Sort plants by common name
 const sorted = [...plants].sort((a, b) => a.common_name.localeCompare(b.common_name));
@@ -53,34 +63,55 @@ const zones = plants.flatMap(p => {
 const minZone = zones.length ? Math.min(...zones) : null;
 const maxZone = zones.length ? Math.max(...zones) : null;
 
-// Build pest pressure for this family
-// Count how many family plants each pest affects
-const pestCounts: Record<string, number> = {};
-for (const plant of plants) {
-  for (const pestName of (plant.pests || [])) {
-    pestCounts[pestName] = (pestCounts[pestName] || 0) + 1;
-  }
-}
-
 // Build pest lookup for slug/scientific_name
 const pestLookup: Record<string, any> = {};
 for (const pest of pestsData) {
   pestLookup[pest.name] = pest;
 }
 
-// Pests affecting at least 20% of family — sorted by coverage
-const minCount = Math.max(2, Math.floor(plants.length * 0.2));
-const familyPests = Object.entries(pestCounts)
-  .filter(([, count]) => count >= minCount)
-  .sort((a, b) => b[1] - a[1])
-  .slice(0, 15)
-  .map(([name, count]) => ({
-    name,
-    count,
-    slug: pestLookup[name]?.slug || name.toLowerCase().replace(/\s+/g, '-'),
-    scientific_name: pestLookup[name]?.scientific_name || '',
-    pct: Math.round((count / plants.length) * 100),
-  }));
+// Use graph-derived pest pressure from families.json when available
+// Falls back to manual aggregation for families not in graph
+const graphPestPressure = familyNode?.pest_pressure || null;
+const graphTopPests = graphPestPressure?.top_pests || [];
+
+// Build familyPests from graph top_pests (already aggregated + sorted)
+// Fall back to manual count if no graph data
+const familyPests = (() => {
+  if (graphTopPests.length > 0) {
+    return graphTopPests
+      .filter((p: any) => p.count >= Math.max(2, Math.floor(plants.length * 0.1)))
+      .slice(0, 15)
+      .map((p: any) => ({
+        name: p.name,
+        count: p.count,
+        slug: pestLookup[p.name]?.slug || p.name.toLowerCase().replace(/\s+/g, '-'),
+        scientific_name: pestLookup[p.name]?.scientific_name || '',
+        pct: Math.round((p.count / plants.length) * 100),
+      }));
+  }
+  // Fallback: manual aggregation
+  const pestCounts: Record<string, number> = {};
+  for (const plant of plants) {
+    for (const pestName of (plant.pests || [])) {
+      pestCounts[pestName] = (pestCounts[pestName] || 0) + 1;
+    }
+  }
+  const fallbackMinCount = Math.max(2, Math.floor(plants.length * 0.2));
+  return Object.entries(pestCounts)
+    .filter(([, count]) => count >= fallbackMinCount)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 15)
+    .map(([name, count]) => ({
+      name,
+      count: count as number,
+      slug: pestLookup[name]?.slug || name.toLowerCase().replace(/\s+/g, '-'),
+      scientific_name: pestLookup[name]?.scientific_name || '',
+      pct: Math.round(((count as number) / plants.length) * 100),
+    }));
+})();
+
+// Graph-derived trait profile
+const traitProfile = familyNode?.trait_profile || null;
 
 const FAMILY_NOTES: Record<string, {note: string, wiki: string}> = {
   'Fabaceae': {
@@ -294,6 +325,24 @@ const activeFamilyNote = FAMILY_NOTES[familyName] || {
         <div class="stat-value">{count} plants</div>
       </div>
     ))}
+    {graphPestPressure && (
+      <div class="stat-row">
+        <div class="stat-label">Avg Pests / Plant</div>
+        <div class="stat-value">{graphPestPressure.avg_pests_per_plant}</div>
+      </div>
+    )}
+    {traitProfile && traitProfile.perennial_ratio > 0 && (
+      <div class="stat-row">
+        <div class="stat-label">Perennial Ratio</div>
+        <div class="stat-value">{Math.round(traitProfile.perennial_ratio * 100)}%</div>
+      </div>
+    )}
+    {traitProfile && traitProfile.nitrogen_fixers > 0 && (
+      <div class="stat-row">
+        <div class="stat-label">Nitrogen Fixers</div>
+        <div class="stat-value">{traitProfile.nitrogen_fixers}</div>
+      </div>
+    )}
   </div>
 </div>
 
@@ -315,7 +364,7 @@ const activeFamilyNote = FAMILY_NOTES[familyName] || {
     <p class="section-label">Shared Pest Pressure</p>
     <div class="section-title">Pests That Target {familyName}</div>
     <p style="font-size:0.9rem; color:var(--ash); margin-bottom:1.5rem; font-style:italic;">
-      Showing pests affecting {minCount}+ plants in this family. Click any pest for organic control methods.
+      Showing pests affecting multiple plants in this family. Click any pest for organic control methods.
     </p>
     <div class="pest-grid">
       {familyPests.map(pest => (
