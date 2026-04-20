@@ -47505,7 +47505,12 @@
     "growth_habit": "Deciduous understory viburnum; maple-like leaves; dark bird berries",
     "description": "Mapleleaf viburnum (Viburnum acerifolium) is a deciduous understory shrub of eastern North American forests, with three-lobed leaves reminiscent of maple, creamy late-spring flowers, and dark berries that ripen for birds in late summer. Humans can sample berries cautiously—flavor is mild and variable, and positive ID is mandatory because not all viburnums are snack allies. It thrives in dappled shade under oaks and hickories, filling the niche between spring ephemerals and tall canopy drama.\n\nPartial to full shade; tolerates morning sun in cool climates. Prefers moist, well-drained, humus-rich forest soils; tolerates dry shade once established but grows slowly. Mulch with leaf mold; avoid bark volcanoes against stems. Cold-hardy deep into northern zones; heat stress appears in full-sun exposures southward without irrigation.\n\nSoftwood cuttings under mist in early summer root for clones.\nSeeds require double dormancy warm-cold cycles—plan multi-year nursery patience.\n\nSample berries only when fully ripe, soft, and confirmed by multiple field marks—spit test first. For wildlife-first gardens, leave fruit clusters intact. Prune after fruiting if shaping; avoid heavy spring cuts that remove flowers.",
     "purpose": "Wildlife Attractor: Viburnum acerifolium clusters of black-blue drupes feed thrushes and small mammals -- while flat-topped spring flowers supply nectar to native bees in oak-hickory understories.\nEdible: Fully ripe berries taste mildly sweet with almond-adjacent notes -- nibble only with confident ID because other viburnums carry compounds you do not want to trial-and-error.\nBorder Plant: Three-lobed leaves echo maple texture at knee height along shaded paths -- tolerates dry shade once established if oak leaf mulch keeps roots cool.\nOrnamental: Fall shifts mauve-pink before leaf drop -- pairs with witch-hazel for late-season interest when most understory shrubs are sticks.",
-    "companions": [],
+    "companions": [
+      {
+        "slug": "witch-hazel",
+        "name": "Witch Hazel"
+      }
+    ],
     "companions_unresolved": [
       {
         "name": "Sugar Maple",
@@ -88560,6 +88565,70 @@
       "Caterpillars",
       "Harlequin Ladybird",
       "Velvetbean Caterpillar"
+    ]
+  },
+  {
+    "slug": "witch-hazel",
+    "common_name": "Witch Hazel",
+    "scientific_name": "NEEDS_DATA",
+    "aka": [],
+    "family": "NEEDS_DATA",
+    "picture": "witch_hazel.webp",
+    "zone": "NEEDS_DATA",
+    "zone_min": null,
+    "zone_max": null,
+    "ideal_temp_min": 0,
+    "ideal_temp_max": 0,
+    "min_temp": 0,
+    "max_temp": 0,
+    "perennial": true,
+    "layers": [
+      "NEEDS_DATA"
+    ],
+    "plant_function": [],
+    "plant_traits": [],
+    "human_uses": [],
+    "ecological_role": [],
+    "plant_function_unresolved": [
+      "NEEDS_DATA"
+    ],
+    "growth_habit": "NEEDS_DATA",
+    "description": "NEEDS_DATA",
+    "purpose": "FunctionName: description of what this plant does -- mechanism or behavior\nFunctionName: description of what this plant does -- mechanism or behavior",
+    "companions": [],
+    "companions_unresolved": [
+      "NEEDS_DATA"
+    ],
+    "companions_normalized": [],
+    "companion_categories": [
+      {
+        "name": "NEEDS_DATA",
+        "original": "NEEDS_DATA",
+        "type": "junk"
+      }
+    ],
+    "cautions": [
+      "NEEDS_DATA"
+    ],
+    "field_observations": "",
+    "data_quality_score": 0.417,
+    "data_quality_dimensions": {
+      "description_length": false,
+      "description_clean": true,
+      "purpose_present": true,
+      "purpose_format": true,
+      "purpose_aligned": false,
+      "functions_count": false,
+      "functions_valid": false,
+      "companions_present": true,
+      "pests_present": true,
+      "scientific_name": false,
+      "zone_present": false,
+      "no_needs_data": false,
+      "has_field_observations": false
+    },
+    "pests": [
+      "NEEDS_DATA"
     ]
   },
   {
