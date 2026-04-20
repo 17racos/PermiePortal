@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Obsolete one-off: patched old automate.py prompt strings. Pipeline refactor removed that text."""
 from pathlib import Path
 
 f = Path("automate.py")
