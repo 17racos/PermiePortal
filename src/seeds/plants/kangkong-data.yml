@@ -19,7 +19,6 @@ layers:
 plant_function:
 - Edible
 - Ground Cover
-- Soil Improvement
 description: |-
   Kangkong is a heat-loving aquatic/moist-soil vine grown like spinach that actually respects summer. Hollow stems, lush leaves, stir-fry royalty. In Florida it is regulated as an invasive aquatic plant in many contexts—grow it like you mean containment (tanks, raised beds lined from waterways, zero “let’s see what the canal thinks”). subtropical and tropical Americas frosts set the calendar; treat it as annual or greenhouse winter crop unless you are frost-free.
 
@@ -31,7 +30,6 @@ description: |-
 purpose: |-
   Edible: Ipomoea aquatica hollow stems and leaves stir-fry like mustard spinach -- blanch before high heat to tame oxalate bite, and never harvest from waterways where city runoff or snail vectors make the pot a hospital trip.
   Ground Cover: Floating or moist-soil vines close canopy over aquaponic rafts and wet beds -- containment is mandatory because escaped stems form mats that regulators list as invasive in subtropical drainage ditches.
-  Soil Improvement: Tonnes of succulent biomass compost into nitrogen-rich slurry when beds are drained for season turnover -- keep residues on your farm, not in public canals.
 companions: []
 cautions:
 - Floating mats that can reach public water
@@ -51,3 +49,5 @@ companion_categories:
 - name: Wetland-edge species only where law and ethics allow zero escape
   original: Wetland-edge species only where law and ethics allow zero escape
   type: system
+plant_function_unresolved:
+- Soil Improvement

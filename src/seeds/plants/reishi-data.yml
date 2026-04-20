@@ -16,8 +16,6 @@ layers:
 - Fungal
 plant_function:
 - Medicinal
-- Decomposer
-- Soil Builder
 - Biomass
 description: |-
   Eastern reishi is a lacquered bracket fungus on hardwoods and root crowns — glossy, kidney-shaped, woody, with a distinctive red-to-orange varnished cap. Taxonomy is genuinely messy: the Ganoderma lucidum sold in Asian commerce is likely a different species than what grows on American oaks and maples; G. sessile is the common eastern U.S. lacquered bracket. In subtropical Florida they appear on stressed oaks, sweetgums, and other hardwoods — the tree is usually signaling root rot or internal decay when a bracket shows up. Outdoor log cultivation in shade with buried or stump-inoculated blocks is viable but slow. Sawdust blocks indoors produce antler-form fruiting bodies in high-CO₂ conditions, classic caps in fresh air — both are usable.
@@ -29,8 +27,6 @@ description: |-
   Harvest mature brackets when still flexible -- chalky dry conks are past prime for tea quality. Slice ribbons and air-dry with fan flow; finish crisp before jar sealing. Long low simmers extract polysaccharide body; label batches with wood host and date.
 purpose: |-
   Medicinal: Ganoderma sessile lacquered brackets yield triterpenoids and beta-glucans in long low simmers like East Asian lingzhi practice -- Asian commerce often stamps lucidum on unrelated taxa; voucher your local varnish shelf against stem host and pore anatomy before marketing doses to yourself.
-  Decomposer: White-rot mycelium cleaves lignin in buried oak logs and maple stumps, recycling heartwood into spongy punk before total collapse -- stressed living trees can host weak parasitic phases that arborists read as hazard flags, not just mushroom money.
-  Soil Builder: Myceliated wood chips left in place become water-holding lignin sponge that earthworms invade after fruiting finishes -- bury spent indoor blocks along fruit-tree driplines to feed fungal networks without smothering feeder roots.
   Biomass: Each harvest removes pounds of woody conk tissue while leaving basal mycelium to reflush -- air-dry ribbons to crisp before jarring because residual moisture grows mold faster than marketing claims grow.
 substrate:
 - Oak (primary outdoor)
@@ -58,3 +54,7 @@ companions_unresolved:
   original: Maple -- common secondary host in temperate food forests
 - name: Sweetgum
   original: Sweetgum -- southeastern US host tree; grows at base of stressed or dying specimens
+ecological_role:
+- Decomposer
+plant_function_unresolved:
+- Soil Builder

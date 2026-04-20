@@ -78,6 +78,8 @@ FUNCTION_ROUTING = {
     "Soil Improvement":           ("plant_function_unresolved", "Soil Improvement"),
     "Soil Builder":               ("plant_function_unresolved", "Soil Builder"),
     "Cover Crop":                 ("plant_function_unresolved", "Cover Crop"),
+    "Green Manure":               ("plant_function_unresolved", "Green Manure"),
+    "Pest Repellent":             ("plant_function",            "Pest Management"),
 }
 
 # ── PURPOSE LINE FORMAT ───────────────────────────────────────────────────────

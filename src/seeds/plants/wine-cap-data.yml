@@ -16,8 +16,6 @@ layers:
 - Fungal
 plant_function:
 - Edible
-- Decomposer
-- Soil Builder
 - Mulcher
 - Ground Cover
 description: |-
@@ -58,3 +56,7 @@ data_quality_score: 0.85
 companions_unresolved:
 - name: Mulberry
   original: Mulberry -- fast-growing tree producing abundant wood chip substrate when pruned
+ecological_role:
+- Decomposer
+plant_function_unresolved:
+- Soil Builder

@@ -17,7 +17,6 @@ layers:
 plant_function:
 - Edible
 - Pest Management
-- Soil Improvement
 - Border Plant
 description: |-
   Huacatay is a tall, pungent marigold relative used in Andean cooking—think cilantro’s weird cousin who lifts weights. The smell is strong enough to split a room; some insects agree and move out. In subtropical and tropical Americas grow it as a warm-season annual unless you are in a frost-free pocket. Do not assume “herb” means “plant anywhere next to delicate seedlings without consequences”—it can bully neighbors through scent chemistry.
@@ -30,7 +29,6 @@ description: |-
 purpose: |-
   Edible: Tagetes minuta leaves bring intense black-mint, cilantro-adjacent flavor to Andean stews and ají -- start with small pinches because heat and concentration can overpower a pot faster than polite herbs.
   Pest Management: High loads of tagetone and ocimene volatiles repel or confuse nematodes and some insect herbivores in intercropping trials -- results hinge on biomass and timing, not a single seedling waved like incense.
-  Soil Improvement: End-of-season slash returns aromatic biomass that feeds soil fungi and suppresses some soil pests when incorporated -- chop before hard seed set unless you want volunteer marigolds next year.
   Border Plant: Six-foot aromatic walls screen compost piles and poultry yards -- place downwind of delicate seedlings because root exudates can bully light-feeding neighbors.
 companions:
 - slug: tomato
@@ -61,3 +59,5 @@ companions_normalized:
 - original: Beans
   resolved_slug: fava-bean
   name: Fava Bean
+plant_function_unresolved:
+- Soil Improvement

@@ -17,7 +17,6 @@ layers:
 plant_function:
 - Medicinal
 - Mulcher
-- Soil Improvement
 description: |-
   Turkey tail is the rainbow paper fan you have definitely already seen on a dead log — thin, flexible, leathery brackets with concentric color zones ranging from cream to rust to dark brown, always with a white pore surface underneath. It is one of the most common wood-decay fungi in the world and thrives in Florida's humid woodlands on any dead hardwood it can find. Not a standout edible texture-wise (tough and papery), but it is among the most researched medicinal mushrooms — PSK (krestin) and PSP extracts from Trametes versicolor have been studied in cancer adjunct therapy in Asia for decades. Ecologically it punches above its weight as a lignin breaker, preparing woody carbon for the soil food web.
 
@@ -29,7 +28,6 @@ description: |-
 purpose: |-
   Medicinal: Trametes versicolor is the source species for PSK and PSP extracts studied alongside conventional cancer care in Asia -- verify fruiting-body ID, extraction method, and lab quality before betting health on capsules.
   Mulcher: Thin, zonate brackets reduce hardwood logs to spongy pulp -- lignin-first white rot turns slash piles into inoculated sponge for the next fungal wave.
-  Soil Improvement: Hyphae leak organic acids and sugars into adjacent leaf litter -- worm and springtail populations spike as wood transitions to humus-coated crumbs.
 substrate:
 - Oak (primary)
 - Sweetgum
@@ -54,3 +52,5 @@ companions_unresolved:
   original: Sweetgum
 - name: Willow
   original: Willow
+plant_function_unresolved:
+- Soil Improvement

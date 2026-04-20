@@ -2,7 +2,7 @@ common_name: Water Hyacinth
 picture: water_hyacinth.webp
 scientific_name: Eichhornia crassipes
 aka:
-  - Common Water Hyacinth
+- Common Water Hyacinth
 family: Pontederiaceae
 zone: 9-12
 ideal_temp_min: 70
@@ -11,12 +11,11 @@ min_temp: 32
 max_temp: 110
 perennial: true
 layers:
-  - Aquatic
+- Aquatic
 plant_function:
-  - Water Purifier
-  - Animal Fodder
-  - Mulcher
-  - Green Manure
+- Water Purification
+- Animal Fodder
+- Mulcher
 description: |-
   Water hyacinth is a floating rosette with glossy leaves and lavender flowers—gorgeous, fast, and ecologically obnoxious when it escapes. It strips nutrients from water, mats thick enough to stall boats, and is illegal to possess in many warm-climate jurisdictions because it clogs springs and rivers.
 
@@ -29,18 +28,19 @@ description: |-
 
   Remove biomass on a schedule in contained systems for compost or fodder—never dump into open waterways.
 purpose: |-
-  Water Purifier: Eichhornia crassipes floating roots strip dissolved nitrogen and phosphorus from eutrophic water in hours -- containment barrels only; open water releases are ecological crimes in warm climates.
   Animal Fodder: Chopped foliage fed dairy trials in tropics after sun-wilting to reduce water content -- legality and hygiene vary; never feed from sewage-fed mats without lab clearance.
   Mulcher: Ton-per-acre biomass hauls to hot compost piles -- mix with browns; succulent tissue alone goes anaerobic fast.
-  Green Manure: Rapid growth fixes little nitrogen itself but concentrates nutrients from water into plant tissue -- incorporate into terrestrial beds as mineral transfer, not as cover-crop nitrogen fantasy.
+    Water Purification: Floating root mats rapidly absorb dissolved nitrogen and phosphorus -- used in constructed wetlands and wastewater polishing where biomass is harvested regularly to prevent oxygen depletion.
 companions: []
 cautions:
-  - Open waterways
-  - Natural ponds
+- Open waterways
+- Natural ponds
 pests:
-  - Aphids
-  - Snails
+- Aphids
+- Snails
 companion_categories:
-  - name: None outdoors (contained systems only)
-    original: None outdoors (contained systems only)
-    type: junk
+- name: None outdoors (contained systems only)
+  original: None outdoors (contained systems only)
+  type: junk
+plant_function_unresolved:
+- Green Manure

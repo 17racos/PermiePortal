@@ -22,7 +22,6 @@ plant_function:
 - Edible
 - Nitrogen Fixer
 - Wildlife Attractor
-- Soil Improvement
 description: |-
   Prairie turnip is a Great Plains legume with a starchy taproot that fed humans long before grocery aisles—blue-purple flowers, silvery leaves, and a root that does not appreciate rushed harvest. It is slow from seed; wild harvest has ethics and ID requirements. subtropical and tropical Americas is outside its native heartland; treat trials as experimental unless you are deliberately mimicking prairie drainage and sun.
 
@@ -35,7 +34,6 @@ purpose: |-
   Edible: Pediomelum esculentum starchy taproots roast or boil like prairie potatoes after positive ID and respectful harvest ethics on wild stands -- slow from seed; cultivate dedicated beds instead of stripping remnant prairies.
   Nitrogen Fixer: Rhizobia nodulate roots on dry Great Plains soils, feeding companion grasses through nodule turnover -- inoculate new garden soil with prairie legume inoculant so nodules fill instead of staying empty jewelry.
   Wildlife Attractor: Purple papilionaceous flowers feed native bees during early-summer prairie bloom -- foliage hosts specialist larvae where local ecotypes still exist; do not transplant wild-dug roots without permits.
-  Soil Improvement: Deep taproots and periodic top dieback drill organic matter channels into calcareous sand -- pair with leadplant and bluestem so biomass cycles return without single-species thatch mats.
 companions:
 - slug: echinacea
   name: Echinacea
@@ -80,3 +78,5 @@ companion_categories:
 - name: Native grasses
   original: Native grasses
   type: system
+plant_function_unresolved:
+- Soil Improvement

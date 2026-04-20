@@ -18,7 +18,6 @@ layers:
 plant_function:
 - Edible
 - Ground Cover
-- Drought Tolerant
 description: |-
   Warrigal greens is the salty succulent spinach impersonator Captain Cook’s crew probably side-eyed—thick leaves, mild flavor when cooked, oxalates that mean you should blanch like an adult. Spreads wide in friendly climates.
 
@@ -33,7 +32,6 @@ description: |-
 purpose: |-
   Edible: Tetragonia tetragonoides leaves need blanching to knock oxalates down -- salty coastal flavor pairs with fish; skip huge raw salads.
   Ground Cover: Prostrate stems root at nodes and carpet sand -- living mulch under beach sunflowers where true spinach collapses.
-  Drought Tolerant: Succulent foliage and deep roots shrug off dry spells once established -- still prefers occasional irrigation for tender tips.
 companions:
 - slug: sweet-potato
   name: Sweet Potato
@@ -52,3 +50,5 @@ companions_unresolved:
 - name: Beach Sunflower
   original: Beach sunflower
   note: normalization_target_not_in_index
+plant_traits:
+- Drought Tolerant

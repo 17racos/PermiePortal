@@ -1,4 +1,3 @@
----
 - common_name: Edible Cactus
   picture: edible_cactus.webp
   scientific_name: "NEEDS_DATA"
@@ -11,23 +10,34 @@
   max_temp: 0
   perennial: true
   layers:
-    - NEEDS_DATA
-  plant_function:
-    - NEEDS_DATA
+  - NEEDS_DATA
+  plant_function: []
   growth_habit: "NEEDS_DATA"
   description: "NEEDS_DATA"
   purpose: |-
     FunctionName: description of what this plant does -- mechanism or behavior
     FunctionName: description of what this plant does -- mechanism or behavior
   companions:
-    - slug: NEEDS_DATA
-      name: NEEDS_DATA
+  - slug: NEEDS_DATA
+    name: NEEDS_DATA
+  - slug: agave
+    name: Agave
+  - slug: aloe
+    name: Aloe
+  - slug: moringa
+    name: Moringa
   cautions:
-    - NEEDS_DATA
+  - NEEDS_DATA
   field_observations: ""
   pests:
-    - NEEDS_DATA
+  - NEEDS_DATA
   # Image attribution: Treysam / Wikimedia Commons / CC BY-SA 4.0
   # Image source: wikimedia
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment
   # See: review/cursor_enrich_*.md for enrichment instructions
+  companion_categories:
+  - name: NEEDS_DATA
+    original: NEEDS_DATA
+    type: junk
+  plant_function_unresolved:
+  - NEEDS_DATA

@@ -15,7 +15,6 @@ layers:
 - Tree
 plant_function:
 - Edible
-- Timber
 - Wildlife Attractor
 description: |-
   Bacuri is a hefty Amazonian forest tree with thick-skinned brown fruit and aromatic pulp that shows up in local sweets and beverages where marketing departments have not yet flattened the story. Tall canopy component—not a balcony plant unless your balcony is unreasonable.
@@ -30,7 +29,6 @@ description: |-
   Collect thick-rinded fruit when mature for sweets and beverages; processing demands a stout knife and respect for latex.
 purpose: |-
   Edible: Platonia insignis thick-rinded brown fruit yields aromatic sweet-sour pulp for Brazilian sweets and beverages after you win the knife fight with latex -- plan processing days, not five-minute snacks.
-  Timber: Dense yellow-brown wood serves local construction and tool stock where rotations respect slow tropical growth -- export ethics still matter; do not cosplay sustainable harvest on paper only.
   Wildlife Attractor: Massive canopy flowers and fallen fruit feed monkeys, parrots, and beetles in Amazonian systems -- heavy fruit also dents anything parked under loading branches.
 companions:
 - slug: cupuacu
@@ -50,3 +48,5 @@ companion_categories:
 - name: Understory shade-tolerant crops
   original: Understory shade-tolerant crops
   type: system
+human_uses:
+- Timber

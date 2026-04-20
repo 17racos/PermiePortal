@@ -17,7 +17,6 @@ layers:
 plant_function:
 - Nitrogen Fixer
 - Wildlife Attractor
-- Soil Improvement
 - Ground Cover
 description: |-
   Partridge pea is a native annual legume with feathery leaves, yellow flowers freckled with red, and pods that rattle like tiny maracas. It colonizes disturbed sand and roadsides across the Southeast—including subtropical and tropical Americas—fixing nitrogen while feeding bees and caterpillars. Not a lawn monoculture plant; think pollinator strips, food forest edges, and “stop mowing this sandhill” experiments.
@@ -30,7 +29,6 @@ description: |-
 purpose: |-
   Nitrogen Fixer: Chamaecrista fasciculata annual legume nodulates on sandhill and roadside soils, pumping plant-available nitrogen into biomass that winter frost releases -- overseed after spring burns or mechanical scarification for best nodulation.
   Wildlife Attractor: Yellow flowers freckled red offer pollen to long-tongued bees; foliage hosts cloudless sulphur and gray hairstreak larvae -- leave pods to rattle seed for bobwhite and rodents if restoration goals beat tidiness.
-  Soil Improvement: Fine roots and leaf litter build crumb structure on impoverished sand where organic matter was scraped away -- till lightly only if you must; most pollinator strips succeed with scalping plus broadcast seed.
   Ground Cover: Knee-high branching covers bare mineral soil the first warm season after disturbance while slower prairie perennials establish below -- pulls back naturally once canopy closes unless fire or mowing reopens light.
 companions:
 - slug: wild-indigo
@@ -76,3 +74,5 @@ companion_categories:
 - name: Native grasses
   original: Native grasses
   type: system
+plant_function_unresolved:
+- Soil Improvement

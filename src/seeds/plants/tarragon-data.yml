@@ -1,4 +1,3 @@
----
 - common_name: Tarragon
   picture: tarragon.webp
   scientific_name: "NEEDS_DATA"
@@ -11,23 +10,32 @@
   max_temp: 0
   perennial: true
   layers:
-    - NEEDS_DATA
-  plant_function:
-    - NEEDS_DATA
+  - NEEDS_DATA
+  plant_function: []
   growth_habit: "NEEDS_DATA"
   description: "NEEDS_DATA"
   purpose: |-
     FunctionName: description of what this plant does -- mechanism or behavior
     FunctionName: description of what this plant does -- mechanism or behavior
   companions:
-    - slug: NEEDS_DATA
-      name: NEEDS_DATA
+  - slug: NEEDS_DATA
+    name: NEEDS_DATA
   cautions:
-    - NEEDS_DATA
+  - NEEDS_DATA
   field_observations: ""
   pests:
-    - NEEDS_DATA
+  - NEEDS_DATA
   # Image attribution: (c) Steve Matson, some rights reserved (CC BY), uploaded by Steve Matson
   # Image source: inaturalist
   # AUTO-GENERATED STUB — requires Cursor Agent enrichment
   # See: review/cursor_enrich_*.md for enrichment instructions
+  companions_unresolved:
+  - name: Pepper
+    original: Pepper
+    note: generic_term
+  companion_categories:
+  - name: NEEDS_DATA
+    original: NEEDS_DATA
+    type: junk
+  plant_function_unresolved:
+  - NEEDS_DATA

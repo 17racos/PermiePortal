@@ -19,8 +19,6 @@ layers:
 plant_function:
 - Fiber
 - Edible
-- Cover Crop
-- Green Manure
 description: |-
   Corchorus olitorius is the dual-use annual malvaceous workhorse: edible leafy greens in many cuisines and bast fiber in the 'actually industrial' sense. It wants long sultry days, fertile soil, and moisture when it is stacking biomass—heat the way monsoon summers deliver it. Treat it like kenaf's slimmer cousin: not subtle, not evergreen, not impressed by your spring frost dates.
 
@@ -35,7 +33,6 @@ description: |-
 purpose: |-
   Fiber: Corchorus olitorius stems yield summer bast fiber for cordage trials -- harvest stems before lignin turns rope bitter, then rett and rinse like small-scale linen without industrial boilers.
   Edible: Young leaves cook into mucilaginous molokhia stews across North Africa and the Levant -- pick tips during explosive mid-summer growth before stems turn fibrous.
-  Green Manure: Turn under succulent tops before hard seed set if you want organic matter without jute volunteers next season -- incorporate deeply so fibers break down instead of tying up nitrogen on the surface.
 companions:
 - slug: pigeon-pea
   name: Pigeon Pea
@@ -53,3 +50,6 @@ pests:
 companions_unresolved:
 - name: Cowpea
   original: Cowpea
+plant_function_unresolved:
+- Cover Crop
+- Green Manure

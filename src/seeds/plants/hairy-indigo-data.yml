@@ -15,9 +15,7 @@ layers:
 - Ground Cover
 plant_function:
 - Nitrogen Fixer
-- Green Manure
 - Animal Fodder
-- Cover Crop
 - Wildlife Attractor
 description: |-
   Hairy indigo is the warm-season cover crop for people tired of bare soil baking like parking lots. It is hairier than your uncle's vacation photos and fixes nitrogen while smothering weeds if you give it heat and time. Not the same as the perennial false indigo gang — this one behaves like an annual hero in Florida summer rotations. Seed in warm soil; frost finishes it without tears.
@@ -29,7 +27,6 @@ description: |-
   For Hairy Indigo, harvest timing follows the primary function you planted for -- flowers, fodder, mulch, or structure. Coppice or prune dormant windows where winters exist; subtropical plants often prefer dry-season cuts. Always sanitize tools between diseased and clean plants -- drama spreads faster than newsletters.
 purpose: |-
   Nitrogen Fixer: Indigofera hirsuta hosts rhizobia on roots that fix atmospheric nitrogen into warm sandy fields -- follow with fall brassicas or corn so the next crop mines the bank left in root residues.
-  Green Manure: Mow before hard seed set and incorporate green tissue to feed soil microbes -- fresh legume biomass breaks down fast and releases N just as cool-season follow crops root in.
   Animal Fodder: Hairy stems and leaves provide warm-season browse acceptable to cattle when rotations stay short -- watch bloat risk like any lush legume and never turn hungry animals into unmowed novel forage.
   Wildlife Attractor: Small pink pea flowers feed native bees when you allow a bloom window before incorporation -- skip mowing for one week if beneficial insects need the nectar during a summer dearth.
 companions:
@@ -73,3 +70,6 @@ companions_unresolved:
   original: Sorghum-sudangrass
 - name: Cowpea
   original: Cowpea
+plant_function_unresolved:
+- Green Manure
+- Cover Crop
