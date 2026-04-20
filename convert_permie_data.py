@@ -474,9 +474,11 @@ def process_plant(data, source_file, known_plant_slugs, warnings):
     else:
         companions_unresolved = _converter_unresolved
 
-    # ── Pest references ─────────────────────────────────────────────────────
+    # ── Pest references — split into pests vs stressors ───────────────────
     raw_pests = norm_list(data.get('pests', []))
     pest_slugs = [slugify(p) for p in raw_pests]
+    # stressor_slugs populated after pest category index is built (post-pass)
+    # stored as raw list here; split applied in main() after pests are loaded
 
     # ── Data quality ────────────────────────────────────────────────────────
     quality_score, quality_dimensions = compute_data_quality(data, common_name, warnings)
@@ -537,6 +539,66 @@ def normalize_affected_plants_yaml(raw):
     return out
 
 
+# ── PEST CATEGORY CLASSIFIER ─────────────────────────────────────────────────
+# Deterministic rules — no inference, no AI. Order matters: more specific first.
+
+ABIOTIC_PATTERNS = [
+    'deficiency', 'overwater', 'drought stress', 'heat stress',
+    'cold stress', 'frost damage', 'salt stress', 'nutrient',
+    'ph imbalance', 'waterlog', 'compaction',
+]
+
+DISEASE_PATTERNS = [
+    'rot', 'mildew', 'blight', 'wilt', 'rust', 'canker', 'scab',
+    'mosaic', 'virus', 'fungal', 'bacterial', 'phytophthora',
+    'pythium', 'fusarium', 'botrytis', 'anthracnose', 'damping',
+    'leaf spot', 'crown rot', 'root rot',
+]
+
+ANIMAL_PATTERNS = [
+    'deer', 'rabbit', 'iguana', 'armadillo', 'squirrel', 'vole',
+    'mole', 'gopher', 'raccoon', 'bird', 'frog', 'rat', 'mouse',
+    'slug', 'snail', 'cattle', 'goat', 'pig',
+]
+
+VALID_PEST_CATEGORIES = frozenset({
+    'pest', 'disease', 'abiotic', 'animal_pressure'
+})
+
+
+def classify_pest_category(name: str, yaml_category: str) -> str:
+    """
+    Deterministic pest category classifier.
+    Name-pattern rules take priority over YAML category for abiotic/animal
+    because historical YAML entries used 'disease' incorrectly for deficiencies.
+    YAML wins for 'pest' and 'disease' only when no pattern matches.
+    Final fallback: 'pest'.
+    """
+    # Remap legacy category values first
+    if yaml_category == 'animal':
+        yaml_category = 'animal_pressure'
+
+    name_lower = name.lower()
+
+    # Abiotic patterns always win — deficiencies were miscategorized as disease
+    if any(p in name_lower for p in ABIOTIC_PATTERNS):
+        return 'abiotic'
+
+    # Animal patterns always win
+    if any(p in name_lower for p in ANIMAL_PATTERNS):
+        return 'animal_pressure'
+
+    # Disease patterns win over generic YAML 'pest'
+    if any(p in name_lower for p in DISEASE_PATTERNS):
+        return 'disease'
+
+    # YAML category wins if it's valid and no pattern matched
+    if yaml_category in VALID_PEST_CATEGORIES:
+        return yaml_category
+
+    return 'pest'  # safe default
+
+
 def process_pest(data):
     if not isinstance(data, dict):
         return None
@@ -562,7 +624,7 @@ def process_pest(data):
         "name":             name,
         "scientific_name":  data.get('scientific_name', ''),
         "picture":          data.get('picture', ''),
-        "category":         data.get('category', 'pest'),
+        "category":         classify_pest_category(name, data.get('category', '').__str__().strip()),
         "description":      clean_string(data.get('description', '')),
         "characteristics":  clean_string(data.get('characteristics', '')),
         "control_methods":  control_methods,
@@ -759,14 +821,32 @@ def main():
     relationships = build_relationships(plants, pests, all_warnings)
     print(f"  ✅ {len(relationships)} relationships mapped")
 
-    # ── Clean up internal fields ────────────────────────────────────────────
+    # ── Build pest category index from processed pests ─────────────────────
+    pest_category_index = {p['name'].lower(): p['category'] for p in pests}
+
+    # ── Clean up internal fields + split pests vs stressors ─────────────────
+    STRESSOR_CATEGORIES = frozenset({'disease', 'abiotic', 'animal_pressure'})
+
     for plant in plants:
         rel_pests = [r['pest_name'] for r in relationships
                      if r['plant_slug'] == plant['slug']]
         raw_pests = plant.pop('_raw_pests', [])
         rel_lower = {p.lower() for p in rel_pests}
         extra = [p for p in raw_pests if p.lower() not in rel_lower]
-        plant['pests'] = rel_pests + extra
+        all_plant_pests = rel_pests + extra
+
+        # Split into pests (true insects/pests) vs stressors (disease/abiotic/animal)
+        true_pests = []
+        stressors  = []
+        for p in all_plant_pests:
+            cat = pest_category_index.get(p.lower(), 'pest')
+            if cat in STRESSOR_CATEGORIES:
+                stressors.append(p)
+            else:
+                true_pests.append(p)
+
+        plant['pests']     = true_pests
+        plant['stressors'] = stressors
         plant.pop('pest_slugs', None)
         plant.pop('_source', None)
 
