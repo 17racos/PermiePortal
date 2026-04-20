@@ -384,7 +384,10 @@ const purposeLines = purposeRaw
                   <div class="threat-group-title">⚠️ Abiotic Stress</div>
                   <ul class="threat-list">
                     {abiotic.map((p: string) => (
-                      <li>{p}</li>
+                      <li>{pestSlug(p)
+                        ? <a href={`/pests/${pestSlug(p)}`} class="threat-link">{p}</a>
+                        : p}
+                      </li>
                     ))}
                   </ul>
                 </div>

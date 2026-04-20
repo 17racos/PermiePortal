@@ -579,9 +579,18 @@ DISEASE_PATTERNS = [
 
 ANIMAL_PATTERNS = [
     'deer', 'rabbit', 'iguana', 'armadillo', 'squirrel', 'vole',
-    'mole', 'gopher', 'raccoon', 'bird', 'frog', 'rat', 'mouse',
-    'slug', 'snail', 'cattle', 'goat', 'pig',
+    'mole', 'gopher', 'raccoon', 'frog', 'rat', 'mouse',
+    'cattle', 'goat', 'pig', 'lizard', 'tortoise',
 ]
+
+# Explicit overrides — compound names that pattern matching gets wrong
+# key: lowercase name, value: correct category
+CATEGORY_OVERRIDES = {
+    'overwatering root rot':  'disease',
+    'caterpillars':           'pest',
+    'leatherleaf slug':       'pest',
+    'lubber grasshopper':     'pest',
+}
 
 VALID_PEST_CATEGORIES = frozenset({
     'pest', 'disease', 'abiotic', 'animal_pressure'
@@ -601,6 +610,9 @@ def classify_pest_category(name: str, yaml_category: str) -> str:
         yaml_category = 'animal_pressure'
 
     name_lower = name.lower()
+    # Explicit overrides win before any pattern matching
+    if name_lower in CATEGORY_OVERRIDES:
+        return CATEGORY_OVERRIDES[name_lower]
 
     # Abiotic patterns always win — deficiencies were miscategorized as disease
     if any(p in name_lower for p in ABIOTIC_PATTERNS):
