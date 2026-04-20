@@ -265,7 +265,7 @@ const purposeLines = purposeRaw
           <div class="section-title">Good Neighbors</div>
           {companions.length > 0 ? (
             <ul class="companion-list">
-              {companions.map((c: string) => <li>{c}</li>)}
+              {companions.map((c: any) => <li>{typeof c === "string" ? c : c.name}</li>)}
             </ul>
           ) : (
             <p class="empty-state">No companion data yet.</p>
