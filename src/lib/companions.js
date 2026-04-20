@@ -1,5 +1,8 @@
 /**
  * src/lib/companions.js
+ * NOTE: Not currently rendered on plant profile pages.
+ * Intended for future Guild Builder integration — suggest next plants,
+ * swaps, and diversity improvements based on guild composition.
  * =====================
  * suggestCompanions(targetPlantSlug, plants, relationships) — data-driven companion finder.
  *
