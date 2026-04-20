@@ -2,8 +2,8 @@ common_name: Pomegranate Tree
 picture: pomegranate.webp
 scientific_name: Punica granatum
 aka:
-  - Anar
-  - Grenadier
+- Anar
+- Grenadier
 family: Lythraceae
 zone: 7-11
 ideal_temp_min: 40
@@ -12,16 +12,16 @@ min_temp: 10
 max_temp: 110
 perennial: true
 layers:
-  - Shrub
-  - Tree
+- Shrub
+- Tree
 plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
-  - Windbreaker
-  - Erosion Control
-  - Border Plant
+- Edible
+- Medicinal
+- Pollinator
+- Wildlife Attractor
+- Windbreaker
+- Erosion Control
+- Border Plant
 description: |-
   The Pomegranate Tree (Punica granatum) is a deciduous fruit-bearing shrub or small tree that grows up to 3-6 meters (10-20 feet) tall. It is known for its bright red flowers, dense foliage, and round fruits filled with juicy, edible seeds. Pomegranates thrive in warm, arid, and semi-arid climates with well-drained soil and plenty of sun.
 
@@ -39,19 +39,26 @@ purpose: |-
   Erosion Control: Woody crowns and suckering roots stabilize terrace cuts in calcareous hills where irrigation is scarce -- mulch rings hold moisture through aril swell months without burying graft unions.
   Border Plant: Clip hedgerow forms define courtyard edges with dual-use beauty -- dwarf cultivars stay knee-high for knot gardens; species types reach small-tree height for alley cropping.
 companions:
-  - Fig
-  - Olive
-  - Lavender
-  - Rosemary
+- slug: fig
+  name: Fig
 cautions:
-  - Walnut
-  - Fennel
+- Walnut
+- Fennel
 pests:
-  - Aphids
-  - Whiteflies
-  - Mealybugs
-  - Borers
-  - Pomegranate Butterfly
-  - Leaf-Footed Bugs
+- Aphids
+- Whiteflies
+- Mealybugs
+- Borers
+- Pomegranate Butterfly
+- Leaf-Footed Bugs
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Olive
+  original: Olive
+- name: Lavender
+  original: Lavender
+  note: generic_term
+- name: Rosemary
+  original: Rosemary
+  note: generic_term

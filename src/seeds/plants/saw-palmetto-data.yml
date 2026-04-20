@@ -2,8 +2,8 @@ common_name: Saw Palmetto
 picture: saw_palmetto.webp
 scientific_name: Serenoa repens
 aka:
-  - Scrub Palm
-  - Silver Saw Palmetto
+- Scrub Palm
+- Silver Saw Palmetto
 family: Arecaceae
 zone: 8-10
 ideal_temp_min: 65°F (18°C)
@@ -12,13 +12,13 @@ min_temp: 15°F (-9°C)
 max_temp: 95°F (35°C)
 perennial: true
 layers:
-  - Shrub
+- Shrub
 plant_function:
-  - Edible
-  - Medicinal
-  - Wildlife Attractor
-  - Ground Cover
-  - Erosion Control
+- Edible
+- Medicinal
+- Wildlife Attractor
+- Ground Cover
+- Erosion Control
 description: |-
   Saw Palmetto is a slow-growing, clumping palm native to the southeastern United States. It typically reaches heights of 1.5 to 3 meters (5 to 10 feet) and spreads 1.2 to 3 meters (4 to 10 feet) wide. The plant features fan-shaped fronds with sharp, saw-like teeth along the petioles, giving it its common name. Leaf color varies from green to silvery-blue, especially in coastal regions. Saw Palmetto thrives in full sun to partial shade and is highly adaptable to various soil types, including sandy and well-drained soils. Once established, it is both drought-tolerant and moderately salt-tolerant, making it suitable for coastal landscapes. The plant produces small, fragrant, cream-colored flowers, followed by bluish-black drupes that ripen between August and October.
 
@@ -34,19 +34,23 @@ purpose: |-
   Ground Cover: Trunkless suckering mats tile pine understories and exclude turf weeds under oak drip lines without forming a thirsty lawn.
   Erosion Control: Fibrous roots spread through deep coastal sand so hurricane surge leaves stems standing where bare soil would wash seaward.
 companions:
-  - Longleaf Pine
-  - Slash Pine
-  - Live Oak
+- slug: longleaf-pine
+  name: Longleaf Pine
+- slug: slash-pine
+  name: Slash Pine
 cautions:
-  - None specified
+- None specified
 pests:
-  - Coconut Mite
-  - Palm Weevil
-  - Palmetto Weevil
-  - Red Palm Weevil
-  - Rhinoceros Beetle
-  - Scale Insects
-  - Ganoderma Butt Rot
-  - Heart Rot
+- Coconut Mite
+- Palm Weevil
+- Palmetto Weevil
+- Red Palm Weevil
+- Rhinoceros Beetle
+- Scale Insects
+- Ganoderma Butt Rot
+- Heart Rot
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Live Oak
+  original: Live Oak

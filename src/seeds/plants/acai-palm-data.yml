@@ -31,9 +31,10 @@ purpose: |-
   Wildlife Attractor: Pendant infructescences in Amazonian-style humidity feed fruit bats, parrots, and insects that evolved with clustering palms -- leave lower heads in wilder margins if you want honest frugivore traffic beyond the smoothie economy.
   Mulcher: Evergreen pinnate fronds shed steadily in wet heat, building a thick acidic litter mat that cools soil for cacao seedlings, turmeric, and other shade guild members tucked under the outer drip line.
 companions:
-- Theobroma cacao
-- Turmeric
-- Ice Cream Bean Tree
+- slug: turmeric
+  name: Turmeric
+- slug: ice-cream-bean-tree
+  name: Ice Cream Bean Tree
 cautions:
 - Dry cold winds
 - Open exposed 9a fields
@@ -48,3 +49,6 @@ pests:
 - Heart Rot
 growth_habit: Clustering palm of lowland humid tropics
 data_quality_score: 0.72
+companions_unresolved:
+- name: Theobroma cacao
+  original: Theobroma cacao

@@ -39,9 +39,8 @@ purpose: |-
   Windbreaker: Fast straight poles reach forty to eighty feet in a decade on poor sites, slowing desiccating wind across poultry yards and tunnel houses while still letting winter light through after leaf drop.
   Border Plant: Thornless cultivars mark property lines with post-grade rot-resistant wood from thinned stems -- keep coppice cycles short where neighbors worry about brittle deadwood overhanging shared fences.
 companions:
-- Clover
-- Barley
-- Black Walnut
+- slug: barley
+  name: Barley
 cautions:
 - None specified
 pests:
@@ -76,3 +75,9 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Clover
+  original: Clover
+  note: generic_term
+- name: Black Walnut
+  original: Black Walnut

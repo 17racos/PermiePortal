@@ -31,14 +31,17 @@ purpose: |-
   Wildlife Attractor: Beetles pollinate night-opening flowers; fish and tadpoles shelter under pads -- dragonflies lay on stems.
   Edible: Some Mexican traditions use starchy rhizome or seed after careful prep -- verify water quality upstream; urban ponds are not your pantry.
 companions:
-- Pickerelweed — emergent neighbor at pond margins sharing freshwater sun
-- Duckweed — floating layer in open water between lily pads where managed for poultry
-  or fish
-- Cattail — edge species at the wetland interface beyond deeper lily zones
+- slug: pickerelweed
+  name: Pickerelweed
+- slug: cattail
+  name: Cattail
 cautions:
-- Invasive potential in sensitive wetlands—check regulations before introducing outside
-  native range
+- Invasive potential in sensitive wetlands—check regulations before introducing outside native range
 - Water quality — edible use requires knowing what upstream landowners apply
 pests: []
 growth_habit: Rhizomatous aquatic; floating leaves; yellow flowers; warm ponds
 data_quality_score: 0.78
+companion_categories:
+- name: Duckweed
+  original: Duckweed — floating layer in open water between lily pads where managed for poultry or fish
+  type: ecosystem

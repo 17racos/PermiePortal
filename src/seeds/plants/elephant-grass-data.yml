@@ -33,12 +33,10 @@ purpose: |-
   Windbreaker: Clumping walls three to seven meters tall break cyclonic gusts across poultry runs and tunnel houses when spaced tighter than maize on the windward fence line in zone 8-11.
   Biofuel: Tonnes of cellulose per hectare feed anaerobic digester trials and lignocellulosic ethanol pilots wherever chop-and-haul logistics already exist for Napier fodder blocks.
 companions:
-- Pigeon Pea — fixes nitrogen at the row edge; cut-and-come-again legume biomass between
-  elephant grass harvests.
-- Cowpea — summer legume intercrop or rotation partner that tolerates heat when grass
-  is cut back for fodder.
-- Leucaena — managed fodder-tree strips alongside grass for ruminant systems; match
-  species to local invasiveness guidance and animal tolerance.
+- slug: pigeon-pea
+  name: Pigeon Pea
+- slug: leucaena
+  name: Leucaena
 cautions:
 - None specified
 pests:
@@ -57,3 +55,6 @@ pests:
 - Root Rot
 growth_habit: Tall perennial bunchgrass; dense clumps to several meters
 data_quality_score: 0.8
+companions_unresolved:
+- name: Cowpea
+  original: Cowpea — summer legume intercrop or rotation partner that tolerates heat when grass is cut back for fodder.

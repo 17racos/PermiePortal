@@ -36,9 +36,12 @@ purpose: |-
   Windbreaker: A row of semi-dwarf trees slows desiccating wind across vegetable beds -- space trunks for equipment and keep lower skirts lifted so airflow reduces scab-susceptible leaf carpets.
   Border Plant: Trained apples mark orchard edges and driveway lines with seasonal blossom and fruit -- underplant with comfrey or chives outside the feeder-root zone so mowing strips stay honest.
 companions:
-- Chive
-- Garlic
-- Nasturtium
+- slug: chives
+  name: Chives
+- slug: garlic
+  name: Garlic
+- slug: nasturtium
+  name: Nasturtium
 cautions:
 - Walnut
 pests:
@@ -80,3 +83,7 @@ pests:
 - Tent Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_normalized:
+- original: Chive
+  resolved_slug: chives
+  name: Chives

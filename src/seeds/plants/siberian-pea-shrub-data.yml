@@ -33,10 +33,7 @@ purpose: |-
   Windbreaker: Tight twiggy growth to fifteen feet breaks prairie wind across zone 3 berry plantings -- plant a staggered double row if your site sees steady 30 mph (48 km/h) winter gusts off open fields.
   Erosion Control: Fibrous roots grab road ditch spoil and new-build berms where topsoil was thin -- pair with mulch for the first two summers until the canopy closes enough to shade out cheatgrass on the slope face.
   Animal Fodder: Chickens scratch fallen pods in autumn when protein helps molt -- ruminants browse young foliage if you introduce volume slowly; heavy monogastric pod gorging can still cause digestive upset on naive stomachs.
-companions:
-- Apple
-- Pear
-- Plum
+companions: []
 cautions:
 - None known
 pests:
@@ -71,3 +68,13 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Pear
+  original: Pear
+  note: generic_term
+- name: Plum
+  original: Plum
+  note: generic_term
+- name: Apple
+  original: Apple
+  note: generic_term

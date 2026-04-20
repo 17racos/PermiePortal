@@ -34,9 +34,8 @@ purpose: |-
   Animal Fodder: Crude protein in young leaves runs in the high teens on dry matter basis -- rotational goat browsing works if you rest paddocks before crowns yellow from overgrazing.
   Edible: Landscape selections are bred for cover, not snack peanuts -- underground pegs carry tiny seeds; human use stays experimental while livestock value is proven across Gulf Coast research plots.
 companions:
-- Bermuda Grass
-- Bahia Grass
-- Alfalfa
+- slug: alfalfa
+  name: Alfalfa
 cautions:
 - None
 pests:
@@ -71,3 +70,8 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Bermuda Grass
+  original: Bermuda Grass
+- name: Bahia Grass
+  original: Bahia Grass

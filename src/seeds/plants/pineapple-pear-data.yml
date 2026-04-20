@@ -41,13 +41,14 @@ purpose: |-
   Border Plant: 6–9 m trees mark property lines and driveway allées when trained to central leader -- thorns absent on most pear wood, so paths stay friendlier than hawthorn hedges at knee height.
   Pest Management: Nasturtium and chive bands at the dripline confuse some psyllid and moth searches with volatile masking -- still scout for fire blight strikes because companions are not antibiotic sprays.
 companions:
-- Chives
-- Comfrey
-- Daffodil
-- Clover
-- Nasturtium
-- Garlic
-- Marigold
+- slug: chives
+  name: Chives
+- slug: comfrey
+  name: Comfrey
+- slug: nasturtium
+  name: Nasturtium
+- slug: garlic
+  name: Garlic
 cautions:
 - None
 pests:
@@ -93,3 +94,12 @@ pests:
 - Tent Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Daffodil
+  original: Daffodil
+- name: Clover
+  original: Clover
+  note: generic_term
+- name: Marigold
+  original: Marigold
+  note: generic_term

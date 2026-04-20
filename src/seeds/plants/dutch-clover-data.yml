@@ -2,9 +2,9 @@ common_name: Dutch Clover
 picture: dutchclover.webp
 scientific_name: Trifolium repens
 aka:
-  - White Clover
-  - Ladino Clover
-  - Creeping Clover
+- White Clover
+- Ladino Clover
+- Creeping Clover
 family: Fabaceae
 zone: 3-10
 ideal_temp_min: 40
@@ -13,17 +13,17 @@ min_temp: -30
 max_temp: 100
 perennial: true
 layers:
-  - Ground Cover
+- Ground Cover
 plant_function:
-  - Nitrogen Fixer
-  - Pollinator
-  - Wildlife Attractor
-  - Mulcher
-  - Dynamic Accumulator
-  - Erosion Control
-  - Animal Fodder
-  - Border Plant
-  - Ground Cover
+- Nitrogen Fixer
+- Pollinator
+- Wildlife Attractor
+- Mulcher
+- Dynamic Accumulator
+- Erosion Control
+- Animal Fodder
+- Border Plant
+- Ground Cover
 description: |-
   Dutch Clover (Trifolium repens) is a low-growing, creeping perennial that spreads through stolons, forming dense mats. It has trifoliate green leaves and produces small white or pinkish flowers that attract bees and other pollinators. It is highly adaptable and commonly used as a cover crop, living mulch, and ground cover in orchards and gardens.
 
@@ -44,44 +44,55 @@ purpose: |-
   Animal Fodder: Dairy rotations graze ladino hard in spring flush for crude protein north of twenty percent -- poultry yards benefit from self-harvested leaves if you accept some bare patches under heavy scratching.
   Border Plant: Low edge along fence lines marks dog runs and chicken moats without blocking sight lines -- dense enough to exclude creeping Bermuda from beds if you maintain a twelve-inch mow strip toward the invader side.
   Ground Cover: Mat height under eight inches slips under young grapevines or high-bush blueberry skirts -- stolons bridge mulch gaps so weeds never see bare photoperiod after rain events.
-companions:
-  - Apple
-  - Pear
-  - Cherry
-  - Grape
-  - Tomato
+companions: []
 cautions:
-  - Onion
-  - Garlic
+- Onion
+- Garlic
 pests:
-  - Aphids
-  - Banded Cucumber Beetle
-  - Bean Aphid
-  - Bean Leaf Beetle
-  - Bean Weevil
-  - Corn Earworm
-  - Cowpea Curculio
-  - Fall Armyworm
-  - Kudzu Bug
-  - Locust Borer
-  - Locust Leaf Miner
-  - Lubber Grasshopper
-  - Pea Moth
-  - Pea Weevil
-  - Reniform Nematode
-  - Root Aphid
-  - Soybean Looper
-  - Spittlebugs
-  - Stink Bug
-  - Striped Cucumber Beetle
-  - Fusarium Wilt
-  - Ganoderma Butt Rot
-  - Pythium Root Rot
-  - Root Rot
-  - Spotted Cucumber Beetle
-  - White Rot
-  - Brown Marmorated Stink Bug
-  - Harlequin Ladybird
-  - Velvetbean Caterpillar
+- Aphids
+- Banded Cucumber Beetle
+- Bean Aphid
+- Bean Leaf Beetle
+- Bean Weevil
+- Corn Earworm
+- Cowpea Curculio
+- Fall Armyworm
+- Kudzu Bug
+- Locust Borer
+- Locust Leaf Miner
+- Lubber Grasshopper
+- Pea Moth
+- Pea Weevil
+- Reniform Nematode
+- Root Aphid
+- Soybean Looper
+- Spittlebugs
+- Stink Bug
+- Striped Cucumber Beetle
+- Fusarium Wilt
+- Ganoderma Butt Rot
+- Pythium Root Rot
+- Root Rot
+- Spotted Cucumber Beetle
+- White Rot
+- Brown Marmorated Stink Bug
+- Harlequin Ladybird
+- Velvetbean Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Pear
+  original: Pear
+  note: generic_term
+- name: Cherry
+  original: Cherry
+  note: generic_term
+- name: Grape
+  original: Grape
+  note: generic_term
+- name: Apple
+  original: Apple
+  note: generic_term
+- name: Tomato
+  original: Tomato
+  note: generic_term

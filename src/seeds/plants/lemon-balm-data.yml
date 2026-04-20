@@ -2,7 +2,7 @@ common_name: Lemon Balm
 picture: lemonbalm.webp
 scientific_name: Melissa officinalis
 aka:
-  - Balm Mint
+- Balm Mint
 family: Lamiaceae
 zone: 4-9
 ideal_temp_min: 55
@@ -11,15 +11,15 @@ min_temp: -20
 max_temp: 100
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
-  - Dynamic Accumulator
-  - Border Plant
-  - Pest Management
+- Edible
+- Medicinal
+- Pollinator
+- Wildlife Attractor
+- Dynamic Accumulator
+- Border Plant
+- Pest Management
 description: |-
   Lemon Balm (Melissa officinalis) is a bushy, aromatic herb that grows up to 90 cm (3 feet) tall. It has bright green, oval-shaped, serrated leaves with a strong lemon scent. The small white or pale yellow flowers bloom in late summer and attract bees and other beneficial pollinators.
 
@@ -38,17 +38,28 @@ purpose: |-
   Dynamic Accumulator: Potassium and nitrogen spike in quick leaf tests after compost tea drenches; chop-and-drop prunings rot fast enough to feed fall brassicas without tying up surface nitrogen for months.
   Border Plant: Clumps edge raised beds under partial shade where mint would bully neighbors; Melissa spreads by seed and runner so harvest edges hard twice a summer to keep paths walkable.
   Pest Management: Rubbed leaf juice on ankles repels biting flies for short outdoor chores; plant density beside seating matters more than single sprigs for any stable effect.
-companions:
-  - Tomato
-  - Cabbage
-  - Squash
-  - Chamomile
-  - Basil
+companions: []
 cautions:
-  - Mint (can compete aggressively)
+- Mint (can compete aggressively)
 pests:
-  - Aphids
-  - Whiteflies
-  - Leafhoppers
+- Aphids
+- Whiteflies
+- Leafhoppers
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Squash
+  original: Squash
+  note: generic_term
+- name: Tomato
+  original: Tomato
+  note: generic_term
+- name: Cabbage
+  original: Cabbage
+  note: generic_term
+- name: Chamomile
+  original: Chamomile
+  note: generic_term
+- name: Basil
+  original: Basil
+  note: generic_term

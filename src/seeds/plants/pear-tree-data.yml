@@ -2,8 +2,8 @@ common_name: Pear Tree
 picture: peartree.webp
 scientific_name: Pyrus communis
 aka:
-  - European Pear
-  - Asian Pear (Pyrus pyrifolia)
+- European Pear
+- Asian Pear (Pyrus pyrifolia)
 family: Rosaceae
 zone: 4-9
 ideal_temp_min: 35
@@ -12,14 +12,14 @@ min_temp: -30
 max_temp: 100
 perennial: true
 layers:
-  - Canopy
-  - Sub-Canopy
+- Canopy
+- Sub-Canopy
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Windbreaker
-  - Border Plant
-  - Erosion Control
+- Edible
+- Wildlife Attractor
+- Windbreaker
+- Border Plant
+- Erosion Control
 description: |-
   The Pear Tree (Pyrus communis) is a deciduous fruit tree known for its sweet and juicy fruits. It grows between 4.5-12 meters (15-40 feet) tall, with a rounded crown and upright branches. Blossoms appear in early spring, providing nectar for pollinators. Fruits mature in late summer to fall and are rich in fiber and vitamins.
 
@@ -35,53 +35,60 @@ purpose: |-
   Border Plant: Espaliered pears mark fencelines and courtyard walls in tight lots while freestanding standards anchor orchard corners -- pair with comfrey outside the collar zone to feed surface feeders without volcano mulch.
   Erosion Control: Deep coarse roots anchor orchard berms and hillside terraces where pears replace failing annual covers -- grass understory is fine if mower blast never strips bark at the flare.
 companions:
-  - Apple
-  - Clover
-  - Nasturtium
-  - Comfrey
+- slug: nasturtium
+  name: Nasturtium
+- slug: comfrey
+  name: Comfrey
 cautions:
-  - Walnut
-  - Fennel
+- Walnut
+- Fennel
 pests:
-  - Apple Maggot
-  - Apple Scab
-  - Bagworm
-  - Blackberry Psyllid
-  - Cherry Fruit Fly
-  - Codling Moth
-  - Cyclamen Mite
-  - Fall Webworm
-  - Gray Mold
-  - Lesser Peachtree Borer
-  - Oriental Fruit Fly
-  - Oriental Fruit Moth
-  - Peach Twig Borer
-  - Peachtree Borer
-  - Pear Psylla
-  - Plum Curculio
-  - Raspberry Beetle
-  - Raspberry Cane Borer
-  - Rose Slug
-  - Sparganothis Fruitworm
-  - Spittlebugs
-  - Stink Bug
-  - Strawberry Root Weevil
-  - Twig Girdlers
-  - Vine Weevil
-  - White Peach Scale
-  - Bark Beetles
-  - Twig Borers
-  - Brown Rot
-  - Cytospora Canker
-  - Fire Blight
-  - Gall Mite
-  - Leaf Blight
-  - Leaf Spot
-  - Rust Mite
-  - Spotted Lanternfly
-  - Brown Marmorated Stink Bug
-  - Eastern Tent Caterpillar
-  - Harlequin Ladybird
-  - Tent Caterpillar
+- Apple Maggot
+- Apple Scab
+- Bagworm
+- Blackberry Psyllid
+- Cherry Fruit Fly
+- Codling Moth
+- Cyclamen Mite
+- Fall Webworm
+- Gray Mold
+- Lesser Peachtree Borer
+- Oriental Fruit Fly
+- Oriental Fruit Moth
+- Peach Twig Borer
+- Peachtree Borer
+- Pear Psylla
+- Plum Curculio
+- Raspberry Beetle
+- Raspberry Cane Borer
+- Rose Slug
+- Sparganothis Fruitworm
+- Spittlebugs
+- Stink Bug
+- Strawberry Root Weevil
+- Twig Girdlers
+- Vine Weevil
+- White Peach Scale
+- Bark Beetles
+- Twig Borers
+- Brown Rot
+- Cytospora Canker
+- Fire Blight
+- Gall Mite
+- Leaf Blight
+- Leaf Spot
+- Rust Mite
+- Spotted Lanternfly
+- Brown Marmorated Stink Bug
+- Eastern Tent Caterpillar
+- Harlequin Ladybird
+- Tent Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Clover
+  original: Clover
+  note: generic_term
+- name: Apple
+  original: Apple
+  note: generic_term

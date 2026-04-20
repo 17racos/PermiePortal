@@ -2,8 +2,8 @@ common_name: Persimmon Tree
 picture: persimmon.webp
 scientific_name: Diospyros spp.
 aka:
-  - Japanese Persimmon (Diospyros kaki)
-  - American Persimmon (Diospyros virginiana)
+- Japanese Persimmon (Diospyros kaki)
+- American Persimmon (Diospyros virginiana)
 family: Ebenaceae
 zone: 4-10
 ideal_temp_min: 50
@@ -12,14 +12,14 @@ min_temp: -25
 max_temp: 100
 perennial: true
 layers:
-  - Canopy
-  - Sub-Canopy
+- Canopy
+- Sub-Canopy
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Windbreaker
-  - Border Plant
-  - Erosion Control
+- Edible
+- Wildlife Attractor
+- Windbreaker
+- Border Plant
+- Erosion Control
 description: |-
   The Persimmon Tree (Diospyros spp.) is a deciduous fruit tree known for its sweet, vibrant orange fruits. The tree can grow between 4.5-20 meters (15-65 feet) tall, with a dense canopy and glossy, dark green leaves that turn orange in autumn. The fruit matures in late fall, with astringent varieties needing full ripening before consumption. Persimmons are high in vitamins A and C.
 
@@ -35,18 +35,24 @@ purpose: |-
   Border Plant: Single-trunk or open-vase forms read as a formal orchard edge along lanes yet still read as native edge forest where virginiana runs wild -- spacing at 15 to 25 feet keeps airflow high enough to limit foliar disease pressure.
   Erosion Control: Deep taproot and wide lateral plate anchor terrace fills and road cuts where surface irrigation would otherwise polish clay bare -- leaf drop each autumn adds a steady litter layer that catches rainfall impact on the slope face.
 companions:
-  - Mulberry
-  - Clover
-  - Comfrey
-  - Elderberry
+- slug: comfrey
+  name: Comfrey
+- slug: elderberry
+  name: Elderberry
 cautions:
-  - Walnut
-  - Fennel
+- Walnut
+- Fennel
 pests:
-  - Mealybugs
-  - Persimmon Borer
-  - Persimmon Psylla
-  - Scale Insects
-  - Root Rot
+- Mealybugs
+- Persimmon Borer
+- Persimmon Psylla
+- Scale Insects
+- Root Rot
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Mulberry
+  original: Mulberry
+- name: Clover
+  original: Clover
+  note: generic_term

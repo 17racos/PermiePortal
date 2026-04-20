@@ -33,10 +33,7 @@ purpose: |-
   Nitrogen Fixer: Rhizobial nodules on roots pump nitrogen into humid tropical soils -- interplant with coffee, cacao, or annual understory vegetables so fixed N and leaf litter feed the guild during coppice cycles.
   Shade Provider: Wide, light-green canopy filters tropical sun for shade-grown understory crops -- prune lateral branches to keep light moving while still protecting soil from midday bake.
   Soil Improver: Soft, pinnate leaflets drop continuously, rotting into fungal-dominated humus under mature trees -- periodic pollarding returns phosphorus-rich slash to the mulch layer without importing off-site compost.
-companions:
-- Coffee
-- Cocoa
-- Tea
+companions: []
 cautions:
 - None known
 pests:
@@ -71,3 +68,10 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Coffee
+  original: Coffee
+- name: Cocoa
+  original: Cocoa
+- name: Tea
+  original: Tea

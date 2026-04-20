@@ -34,16 +34,14 @@ purpose: |-
   Wildlife Attractor: Split fruit and peeling bark harbor ants and fruit flies that feed mockingbirds -- pick drops promptly if pavement cleanliness matters more than opportunistic insectivores.
   Border Plant: Thorny, compact habit suits espalier along walls or as a defined courtyard tree -- keep mower rings clear so collar rot does not argue with your hedge geometry.
 companions:
-- Marigold
-- Nasturtium
-- Basil
-- Mint
-- Borage
-- Parsley
-- Thyme
-- Clover
-- Pea
-- Garlic
+- slug: nasturtium
+  name: Nasturtium
+- slug: borage
+  name: Borage
+- slug: parsley
+  name: Parsley
+- slug: garlic
+  name: Garlic
 cautions:
 - Walnut
 pests:
@@ -72,3 +70,22 @@ pests:
 - Swallowtail Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Clover
+  original: Clover
+  note: generic_term
+- name: Marigold
+  original: Marigold
+  note: generic_term
+- name: Basil
+  original: Basil
+  note: generic_term
+- name: Mint
+  original: Mint
+  note: generic_term
+- name: Thyme
+  original: Thyme
+  note: generic_term
+- name: Pea
+  original: Pea
+  note: generic_term

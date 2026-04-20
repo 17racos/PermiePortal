@@ -34,10 +34,7 @@ purpose: |-
   Animal Fodder: Vines harvested before frost replace part of dairy silage in humid tropics; tuber culls go cooked to pigs to avoid raw bulk that can ferment in the gut.
   Pollinator: Dawn-opened pink funnels give nectar to early bees and hawkmoths on weeks when the main crop flowers are not yet open.
   Mulcher: Frost-killed vines lay flat as winter cover on the bed; shallow fibrous roots decay in place and leave channels that spring beans root into without extra tillage.
-companions:
-- Corn
-- Bean
-- Marigold
+companions: []
 cautions:
 - Squash
 pests:
@@ -53,3 +50,13 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Corn
+  original: Corn
+  note: generic_term
+- name: Bean
+  original: Bean
+  note: generic_term
+- name: Marigold
+  original: Marigold
+  note: generic_term

@@ -90,7 +90,11 @@ PURPOSE_LINE_RE = re.compile(r'^([A-Za-z][A-Za-z\s]+):\s+.+\s+--\s+.+$')
 def slugify(text):
     if not text:
         return ""
+    import unicodedata
     text = str(text).lower().strip()
+    # Normalize unicode: strip diacritics (ç→c, í→i, é→e, etc.)
+    text = unicodedata.normalize('NFD', text)
+    text = ''.join(c for c in text if unicodedata.category(c) != 'Mn')
     text = re.sub(r'[^\w\s-]', '', text)
     text = re.sub(r'[\s_]+', '-', text)
     text = re.sub(r'-+', '-', text)

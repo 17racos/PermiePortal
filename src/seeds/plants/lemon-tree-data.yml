@@ -33,16 +33,14 @@ purpose: |-
   Wildlife Attractor: Orioles pierce ripe fruit in humid climates; leave one branch sacrificial if you want color without netting the whole scaffold.
   Border Plant: Dwarfing rootstock lemons stay hedge-height along sunny fences where standard trees would shade the vegetable bed by June.
 companions:
-- Marigold
-- Nasturtium
-- Basil
-- Mint
-- Borage
-- Parsley
-- Thyme
-- Clover
-- Pea
-- Garlic
+- slug: nasturtium
+  name: Nasturtium
+- slug: borage
+  name: Borage
+- slug: parsley
+  name: Parsley
+- slug: garlic
+  name: Garlic
 cautions:
 - Walnut
 pests:
@@ -78,3 +76,22 @@ pests:
 - Swallowtail Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Clover
+  original: Clover
+  note: generic_term
+- name: Marigold
+  original: Marigold
+  note: generic_term
+- name: Basil
+  original: Basil
+  note: generic_term
+- name: Mint
+  original: Mint
+  note: generic_term
+- name: Thyme
+  original: Thyme
+  note: generic_term
+- name: Pea
+  original: Pea
+  note: generic_term

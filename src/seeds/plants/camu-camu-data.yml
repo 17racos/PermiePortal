@@ -2,8 +2,8 @@ common_name: Camu Camu
 picture: camu_camu.webp
 scientific_name: Myrciaria dubia
 aka:
-  - Cacari
-  - Guayabo
+- Cacari
+- Guayabo
 family: Myrtaceae
 zone: 10-11
 ideal_temp_min: 72
@@ -12,12 +12,12 @@ min_temp: 30
 max_temp: 105
 perennial: true
 layers:
-  - Shrub
-  - Tree
+- Shrub
+- Tree
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Erosion Control
+- Edible
+- Wildlife Attractor
+- Erosion Control
 description: |-
   Camu camu is the Amazonian myrtle that fruits in floodplain energy—sour cherry-sized berries with vitamin C numbers that make supplement grifters sweat. In cultivation it behaves as a multi-stemmed riverine shrub to small tree.
 
@@ -34,21 +34,23 @@ purpose: |-
   Wildlife Attractor: clusters along river margins draw birds, bats, and insects to sweet-tart fruit that ripens during flood pulses in native Amazonian rhythms.
   Erosion Control: multi-stemmed roots grip silty banks and pond edges in acidic wet soils where it tolerates seasonal inundation better than upland fruit trees.
 companions:
-  - slug: açaí-palm
-    name: Açaí Palm
-  - slug: guava
-    name: Guava
+- slug: açaí-palm
+  name: Açaí Palm
+- slug: guava
+  name: Guava
+- slug: acai-palm
+  name: Açaí Palm
 cautions:
-  - Alkaline irrigation water without soil organic matter
-  - Dry upland sand without irrigation
+- Alkaline irrigation water without soil organic matter
+- Dry upland sand without irrigation
 pests:
-  - Caribbean Fruit Fly
-  - Oriental Fruit Fly
-  - aphids
-  - scale insects
+- Caribbean Fruit Fly
+- Oriental Fruit Fly
+- aphids
+- scale insects
 growth_habit: Bushy evergreen shrub to small tree in wet tropics
 data_quality_score: 0.7
 companion_categories:
-  - name: Wetland edge species
-    original: Wetland edge species
-    type: system
+- name: Wetland edge species
+  original: Wetland edge species
+  type: system

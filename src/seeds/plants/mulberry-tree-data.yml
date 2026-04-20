@@ -2,9 +2,9 @@ common_name: Mulberry Tree
 picture: mulberry.webp
 scientific_name: Morus spp.
 aka:
-  - White Mulberry (Morus alba)
-  - Red Mulberry (Morus rubra)
-  - Black Mulberry (Morus nigra)
+- White Mulberry (Morus alba)
+- Red Mulberry (Morus rubra)
+- Black Mulberry (Morus nigra)
 family: Moraceae
 zone: 4-10
 ideal_temp_min: 55
@@ -13,17 +13,17 @@ min_temp: -25
 max_temp: 110
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Edible
-  - Medicinal
-  - Wildlife Attractor
-  - Mulcher
-  - Dynamic Accumulator
-  - Erosion Control
-  - Animal Fodder
-  - Windbreaker
-  - Border Plant
+- Edible
+- Medicinal
+- Wildlife Attractor
+- Mulcher
+- Dynamic Accumulator
+- Erosion Control
+- Animal Fodder
+- Windbreaker
+- Border Plant
 description: |-
   Mulberry trees (Morus spp.) are fast-growing deciduous trees known for their sweet, nutritious berries and their ability to thrive in various climates. They produce an abundance of fruit, which is enjoyed fresh, dried, or made into jams and wines. The trees have deep roots, making them resilient to drought conditions and suitable for erosion control.
 
@@ -45,25 +45,33 @@ purpose: |-
   Windbreaker: Fast juvenile growth gives a permeable first wall north of tender citrus before slower evergreen oaks finish the job.
   Border Plant: Pollarded lines mark lane edges along chicken runs where you want summer shade, winter sun, and weekly berry pickup without climbing gear.
 companions:
-  - Elderberry
-  - Comfrey
-  - Clover
-  - Raspberry
-  - Strawberry
+- slug: elderberry
+  name: Elderberry
+- slug: comfrey
+  name: Comfrey
+- slug: strawberry
+  name: Strawberry
 cautions:
-  - Walnut
+- Walnut
 pests:
-  - Aphids
-  - Cuban Laurel Thrips
-  - Fig Beetle
-  - Scale Insects
-  - Spider Mites
-  - Whiteflies
-  - mealybugs
-  - Armored Scale
-  - White Peach Scale
-  - Ambrosia Beetles
-  - Shot Hole Borers
-  - Twig Borers
+- Aphids
+- Cuban Laurel Thrips
+- Fig Beetle
+- Scale Insects
+- Spider Mites
+- Whiteflies
+- mealybugs
+- Armored Scale
+- White Peach Scale
+- Ambrosia Beetles
+- Shot Hole Borers
+- Twig Borers
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Clover
+  original: Clover
+  note: generic_term
+- name: Raspberry
+  original: Raspberry
+  note: generic_term

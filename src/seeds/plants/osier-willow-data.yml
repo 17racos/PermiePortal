@@ -2,8 +2,8 @@ common_name: Osier Willow
 picture: owillow.webp
 scientific_name: Salix viminalis
 aka:
-  - Basket Willow
-  - Common Osier
+- Basket Willow
+- Common Osier
 family: Salicaceae
 zone: 4-9
 ideal_temp_min: 40
@@ -12,17 +12,17 @@ min_temp: -30
 max_temp: 100
 perennial: true
 layers:
-  - Shrub
-  - Tree
+- Shrub
+- Tree
 plant_function:
-  - Wildlife Attractor
-  - Erosion Control
-  - Windbreaker
-  - Border Plant
-  - Dynamic Accumulator
-  - Mulcher
-  - Animal Fodder
-  - Water Purifier
+- Wildlife Attractor
+- Erosion Control
+- Windbreaker
+- Border Plant
+- Dynamic Accumulator
+- Mulcher
+- Animal Fodder
+- Water Purifier
 description: |-
   Osier Willow (Salix viminalis) is a fast-growing, deciduous shrub or small tree known for its long, flexible branches that make it ideal for basket weaving and coppicing. It thrives in moist soils and is often found along riverbanks and wetlands. The tree provides valuable wildlife habitat, erosion control, and windbreak functions in a permaculture system.
 
@@ -41,15 +41,21 @@ purpose: |-
   Animal Fodder: Young leaves and tender tips accept browsing by sheep, goats, and rabbits when rotated before lignification -- salicin chemistry limits monodiets, so pair willow blocks with grass hay.
   Water Purifier: Roots take up dissolved ammonium, nitrate, and some heavy metals from facultative wetland cells fed by graywater or dairy yard runoff -- harvest biomass regularly or metals reconcentrate in litter when leaves senesce on site.
 companions:
-  - Alder
-  - Willow
-  - Elderberry
-  - Comfrey
+- slug: alder
+  name: Alder
+- slug: elderberry
+  name: Elderberry
+- slug: comfrey
+  name: Comfrey
 cautions:
-  - Walnut
+- Walnut
 pests:
-  - Willow Beetles
-  - Aphids
-  - Gall Mite
+- Willow Beetles
+- Aphids
+- Gall Mite
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Willow
+  original: Willow
+  note: generic_term
