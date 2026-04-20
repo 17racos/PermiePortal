@@ -4,6 +4,8 @@ import Navbar from '../../components/Navbar.astro';
 import BaseLayout from '../../components/layouts/BaseLayout.astro';
 import plantsData from '../../data/plants.json';
 import pestsData from '../../data/pests.json';
+import relationshipsData from '../../data/relationships.json';
+import { suggestCompanions } from '../../lib/companions.js';
 
 export function getStaticPaths() {
   return plantsData.map(plant => ({
@@ -15,6 +17,7 @@ export function getStaticPaths() {
 const { plant } = Astro.props;
 
 const companions = plant.companions || [];
+const companionSuggestions = suggestCompanions(plant.slug, plantsData, relationshipsData);
 
 // Unresolved companions — valid plant references not yet in database
 const companionsUnresolved = (plant.companions_unresolved || [])
@@ -134,6 +137,18 @@ const purposeLines = purposeRaw
   .companion-list li { font-family: 'Space Mono', monospace; font-size: 0.78rem; padding: 0.4rem 0.75rem; background: rgba(42,61,31,0.4); border-left: 2px solid var(--leaf); color: var(--paper); }
   .cautions-list li { background: rgba(122,59,30,0.2); border-left-color: var(--rust); }
   .unresolved-companions { margin-top: 1.25rem; }
+  .suggested-companions { margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid rgba(139,184,58,0.12); }
+  .suggested-companions-note { font-size: 0.78rem; color: var(--ash); font-style: italic; margin-bottom: 0.75rem; line-height: 1.5; }
+  .suggestion-cards { display: flex; flex-direction: column; gap: 0.4rem; }
+  .suggestion-card { display: flex; justify-content: space-between; align-items: center; padding: 0.5rem 0.75rem; background: rgba(28,24,18,0.6); border: 1px solid rgba(139,184,58,0.15); text-decoration: none; transition: border-color 0.2s; }
+  .suggestion-card:hover { border-color: rgba(139,184,58,0.35); }
+  .suggestion-card-left { display: flex; flex-direction: column; gap: 0.15rem; }
+  .suggestion-card-name { font-family: 'Space Mono', monospace; font-size: 0.72rem; color: var(--paper); }
+  .suggestion-card-family { font-size: 0.68rem; color: var(--ash); font-style: italic; }
+  .suggestion-card-right { display: flex; align-items: center; gap: 0.5rem; flex-shrink: 0; }
+  .suggestion-badge { font-family: 'Space Mono', monospace; font-size: 0.55rem; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.15rem 0.45rem; border: 1px solid rgba(139,184,58,0.3); color: var(--lime); }
+  .suggestion-badge.same { border-color: rgba(184,176,160,0.25); color: var(--ash); }
+  .suggestion-pest-count { font-family: 'Space Mono', monospace; font-size: 0.6rem; color: var(--ash); opacity: 0.7; }
   .unresolved-label { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ash); opacity: 0.7; margin-bottom: 0.4rem; }
   .unresolved-list li { background: rgba(28,24,18,0.5); border-left-color: rgba(184,176,160,0.3); color: var(--ash); font-style: italic; }
   .unresolved-note { font-family: 'Space Mono', monospace; font-size: 0.55rem; letter-spacing: 0.08em; color: var(--ash); opacity: 0.45; margin-top: 0.4rem; }
@@ -324,6 +339,39 @@ const purposeLines = purposeRaw
               </ul>
             </div>
           )}
+        </div>
+      </div>
+    </div>
+  )}
+
+  <!-- SUGGESTED COMPANIONS -->
+  {companionSuggestions.suggestions && companionSuggestions.suggestions.length > 0 && (
+    <div class="section">
+      <p class="section-label">Graph-Derived Suggestions</p>
+      <div class="section-inner">
+        <div class="suggested-companions">
+          <p class="suggested-companions-note">
+            Data-driven suggestions based on lower shared pest overlap and family diversity.
+          </p>
+          <div class="suggestion-cards">
+            {companionSuggestions.suggestions.map((s: any) => (
+              <a href={`/plants/${s.slug}`} class="suggestion-card">
+                <div class="suggestion-card-left">
+                  <div class="suggestion-card-name">{s.common_name}</div>
+                  {s.family && <div class="suggestion-card-family">{s.family}</div>}
+                </div>
+                <div class="suggestion-card-right">
+                  <span class={`suggestion-badge${s.same_family ? ' same' : ''}`}>
+                    {s.same_family ? 'Same family' : 'Diff family'}
+                  </span>
+                  {s.shared_pest_count === 0
+                    ? <span class="suggestion-pest-count">0 shared pests</span>
+                    : <span class="suggestion-pest-count">{s.shared_pest_count} shared</span>
+                  }
+                </div>
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </div>
