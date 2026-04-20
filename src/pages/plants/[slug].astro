@@ -16,6 +16,19 @@ const { plant } = Astro.props;
 
 const companions = plant.companions || [];
 
+// Unresolved companions — valid plant references not yet in database
+const companionsUnresolved = (plant.companions_unresolved || [])
+  .filter((c: any) => {
+    const name = typeof c === 'string' ? c : c?.name || '';
+    return name && name !== 'NEEDS_DATA';
+  })
+  .slice(0, 5);
+
+// Companion categories — ecological context entries, system type only
+const companionCategories = (plant.companion_categories || [])
+  .filter((c: any) => c?.type === 'system' && c?.name)
+  .slice(0, 4);
+
 // Filter out empty/placeholder cautions
 const cautions = (plant.cautions || []).filter((c: string) =>
   c && !['none documented', 'none', 'none significant', 'none noted'].includes(
@@ -119,6 +132,12 @@ const purposeLines = purposeRaw
   .companion-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
   .companion-list li { font-family: 'Space Mono', monospace; font-size: 0.78rem; padding: 0.4rem 0.75rem; background: rgba(42,61,31,0.4); border-left: 2px solid var(--leaf); color: var(--paper); }
   .cautions-list li { background: rgba(122,59,30,0.2); border-left-color: var(--rust); }
+  .unresolved-companions { margin-top: 1.25rem; }
+  .unresolved-label { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ash); opacity: 0.7; margin-bottom: 0.4rem; }
+  .unresolved-list li { background: rgba(28,24,18,0.5); border-left-color: rgba(184,176,160,0.3); color: var(--ash); font-style: italic; }
+  .unresolved-note { font-family: 'Space Mono', monospace; font-size: 0.55rem; letter-spacing: 0.08em; color: var(--ash); opacity: 0.45; margin-top: 0.4rem; }
+  .ecological-context { margin-top: 1.5rem; }
+  .context-list li { background: rgba(28,24,18,0.4); border-left-color: rgba(143,184,58,0.25); color: var(--ash); font-size: 0.73rem; }
 
   /* PEST CARDS */
   .threat-group { margin-bottom: 1.5rem; }
@@ -257,7 +276,7 @@ const purposeLines = purposeRaw
   )}
 
   <!-- COMPANION PLANTING -->
-  {(companions.length > 0 || cautions.length > 0) && (
+  {(companions.length > 0 || cautions.length > 0 || companionsUnresolved.length > 0 || companionCategories.length > 0) && (
     <div class="section">
       <p class="section-label">Companion Planting</p>
       <div class="two-col">
@@ -270,15 +289,41 @@ const purposeLines = purposeRaw
           ) : (
             <p class="empty-state">No companion data yet.</p>
           )}
+
+          {companionsUnresolved.length > 0 && (
+            <div class="unresolved-companions">
+              <p class="unresolved-label">Also mentioned as companions:</p>
+              <ul class="companion-list unresolved-list">
+                {companionsUnresolved.map((c: any) => (
+                  <li>{typeof c === 'string' ? c : c.name}</li>
+                ))}
+              </ul>
+              <p class="unresolved-note">Not yet profiled in PermiePortal</p>
+            </div>
+          )}
         </div>
-        {cautions.length > 0 && (
-          <div>
-            <div class="section-title">Cautions</div>
-            <ul class="companion-list cautions-list">
-              {cautions.map((a: string) => <li>{a}</li>)}
-            </ul>
-          </div>
-        )}
+
+        <div>
+          {cautions.length > 0 && (
+            <div>
+              <div class="section-title">Cautions</div>
+              <ul class="companion-list cautions-list">
+                {cautions.map((a: string) => <li>{a}</li>)}
+              </ul>
+            </div>
+          )}
+
+          {companionCategories.length > 0 && (
+            <div class="ecological-context">
+              <div class="section-title">Ecological Context</div>
+              <ul class="companion-list context-list">
+                {companionCategories.map((c: any) => (
+                  <li>{c.name}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   )}
