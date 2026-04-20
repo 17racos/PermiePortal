@@ -27,7 +27,7 @@ from pathlib import Path
 from collections import Counter, defaultdict
 
 # ── CONFIG ───────────────────────────────────────────────────────────────────
-PROJECT    = Path.home() / "apps/permieportal"
+PROJECT    = Path(__file__).parent.resolve()
 SEEDS_DIR  = PROJECT / "src/seeds/plants"
 PESTS_DIR  = PROJECT / "src/seeds/pests"
 OUTPUT_DIR = PROJECT / "exports"
