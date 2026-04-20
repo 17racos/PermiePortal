@@ -2,9 +2,9 @@ common_name: Glasswort
 picture: glasswort.webp
 scientific_name: Salicornia spp.
 aka:
-- Pickleweed
-- Marsh samphire
-- Sea asparagus
+  - Pickleweed
+  - Marsh samphire
+  - Sea asparagus
 family: Amaranthaceae (Chenopodioideae)
 zone: 5-11
 ideal_temp_min: 55
@@ -13,12 +13,11 @@ min_temp: 10
 max_temp: 105
 perennial: true
 layers:
-- Aquatic
+  - Aquatic
 plant_function:
-- Edible
-- Ground Cover
-- Wildlife Attractor
-- Soil Improvement
+  - Edible
+  - Ground Cover
+  - Wildlife Attractor
 description: |-
   Glasswort is a jointed, succulent halophyte you find in salt marsh and brackish edges — the kind of plant that laughs while your lawn grass throws a tantrum in saline soil. Young tips are salty-crisp and edible raw or pickled; older stems get woody. A niche edible for coastal and brackish food systems, not a row-crop fantasy.
 
@@ -34,15 +33,16 @@ description: |-
   Harvest from clean sites only; salt marsh can hide runoff issues you do not want on the plate.
 purpose: |-
   Edible: Salicornia jointed tips snap crisp for pickles when clipped spring ebb before inner hollow lignifies -- sodium chloride taste is honest salinity cue so harvest only from clean marsh boards you already tested for road runoff signatures.
-  Ground Cover: Succulent mats tile intertidal zone between mangrove pneumatophores where upland herbs die once soil EC meters read oceanic on the same brackish ditch banks glasswort volunteered beside dying St. Augustine you finally stopped forcing.
+  Ground Cover: Succulent mats tile intertidal zone between mangrove pneumatophores where upland herbs die once soil EC meters read oceanic on the same brackish ditch banks glasswort volunteered beside dying St -- augustine you finally stopped forcing.
   Wildlife Attractor: Red glasswort patches fuel migratory waterfowl fattening on Atlantic flyway mudflats when seed heads mature before October cold fronts push birds south past impoundments you manage with drawdown calendars not guesswork.
-  Soil Improvement: Halophyte exudates and salt cycling occupy niches useless to glycophyte guilds -- abundant Salicornia along lawn edges signals brackish diagnosis faster than soil lab mail when irrigation pulls shallow saline water tables upward.
 companions:
-- Seagrape
-- Sea Purslane
-- Sea Plantain
+  - Seagrape
+  - Sea Purslane
+  - Sea Plantain
 cautions:
-- Dry xeric companions that need sharp drainage
+  - Dry xeric companions that need sharp drainage
 pests:
-- Aphids
-- Caterpillars
+  - Aphids
+  - Caterpillars
+plant_function_unresolved:
+  - Soil Improvement

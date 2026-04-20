@@ -2,7 +2,7 @@ common_name: Damiana
 picture: damiana.webp
 scientific_name: Turnera diffusa
 aka:
-- Hierba de la pastora
+  - Hierba de la pastora
 family: Passifloraceae
 zone: 9-11
 ideal_temp_min: 65
@@ -11,13 +11,12 @@ min_temp: 22
 max_temp: 110
 perennial: true
 layers:
-- Shrub
-- Herbaceous
+  - Shrub
+  - Herbaceous
 plant_function:
-- Medicinal
-- Pollinator
-- Drought Tolerant
-- Wildlife Attractor
+  - Medicinal
+  - Pollinator
+  - Wildlife Attractor
 description: |-
   Damiana is the wiry aromatic shrub from dry subtropical scrub—small serrated leaves, yellow flowers that look cheerful about surviving bad soil, and a long folk history as a tea herb and alleged mood tonic (your mileage and ethics may vary). Happy in 9b+ sandy yards with drainage; hates wet feet in winter. Coastal dryness is fine; inland bog is not.
 
@@ -30,18 +29,19 @@ description: |-
 purpose: |-
   Medicinal: Turnera diffusa leafy stems yield aromatic tea long used for mood and urinary tonics -- dry quickly with airflow; verify legal status and dosing with current references.
   Pollinator: Small yellow flowers feed native bees along dry border strips through warm months.
-  Drought Tolerant: Wiry aromatic shrub survives sandy, lean sites with occasional deep watering once roots run -- sulks in wet winter clay.
-  Wildlife Attractor: Scrubby cover and late seeds support insects and small birds in xeric mimic beds.
+  Wildlife Attractor: Scrubby cover and late seeds support insects -- and small birds in xeric mimic beds.
 companions:
-- Agave
-- Mesquite-class legumes
-- Desert Sage
+  - Agave
+  - Mesquite-class legumes
+  - Desert Sage
 cautions:
-- Heavy clay with summer monsoon + no slope
-- Deep shade
+  - Heavy clay with summer monsoon + no slope
+  - Deep shade
 pests:
-- aphids
-- whiteflies
-- spider mites
+  - aphids
+  - whiteflies
+  - spider mites
 growth_habit: Multi-stemmed aromatic subshrub
 data_quality_score: 0.74
+plant_traits:
+  - Drought Tolerant

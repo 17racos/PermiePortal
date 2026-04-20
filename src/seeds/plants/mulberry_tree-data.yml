@@ -2,9 +2,9 @@ common_name: Mulberry Tree
 picture: mulberry.webp
 scientific_name: Morus spp.
 aka:
-- White Mulberry (Morus alba)
-- Red Mulberry (Morus rubra)
-- Black Mulberry (Morus nigra)
+  - White Mulberry (Morus alba)
+  - Red Mulberry (Morus rubra)
+  - Black Mulberry (Morus nigra)
 family: Moraceae
 zone: 4-10
 ideal_temp_min: 55
@@ -13,33 +13,27 @@ min_temp: -25
 max_temp: 110
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Edible
-- Medicinal
-- Wildlife Attractor
-- Mulcher
-- Dynamic Accumulator
-- Erosion Control
-- Animal Fodder
-- Windbreaker
-- Border Plant
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  - Mulcher
+  - Dynamic Accumulator
+  - Erosion Control
+  - Animal Fodder
+  - Windbreaker
+  - Border Plant
 description: |-
   Mulberry trees (Morus spp.) are fast-growing deciduous trees known for their sweet, nutritious berries and their ability to thrive in various climates. They produce an abundance of fruit, which is enjoyed fresh, dried, or made into jams and wines. The trees have deep roots, making them resilient to drought conditions and suitable for erosion control.
 
   The leaves of some species, particularly Morus alba, are a primary food source for silkworms. Mulberries attract pollinators and wildlife, making them an excellent addition to food forests and permaculture designs.
 
-  - Prefers full sun but tolerates partial shade.
-  - Requires moderate to low watering; drought-tolerant once established.
-  - Adaptable to different soil types but thrives in well-draining, loamy soil.
+  Prefers full sun but tolerates partial shade. Requires moderate to low watering; drought-tolerant once established. Adaptable to different soil types but thrives in well-draining, loamy soil.
 
-  - Seeds: Requires cold stratification before planting.
-  - Cuttings: Can be propagated using softwood or hardwood cuttings.
-  - Grafting: Often grafted onto rootstock for improved growth.
+  Seeds: Requires cold stratification before planting. Cuttings: Can be propagated using softwood or hardwood cuttings. Grafting: Often grafted onto rootstock for improved growth.
 
-  - Berries ripen in late spring to early summer.
-  - Fruit is ready when it turns deep red, purple, or black, depending on the variety.
-  - Harvest by gently shaking the branches; ripe berries fall easily.
+  Berries ripen in late spring to early summer. Fruit is ready when it turns deep red, purple, or black, depending on the variety. Harvest by gently shaking the branches; ripe berries fall easily.
 purpose: |-
   Edible: Black, red, or white types stain fingers for weeks -- eat out of hand, dry like raisins, or cook down to syrup; Morus alba leaves are the historic silkworm feed and a boiled green in some Asian kitchens.
   Medicinal: Root-bark tea shows up in old texts for blood sugar support -- modern evidence is thin; do not confuse bark harvest with girdling young trees you still want fruit from.
@@ -51,25 +45,25 @@ purpose: |-
   Windbreaker: Fast juvenile growth gives a permeable first wall north of tender citrus before slower evergreen oaks finish the job.
   Border Plant: Pollarded lines mark lane edges along chicken runs where you want summer shade, winter sun, and weekly berry pickup without climbing gear.
 companions:
-- Elderberry
-- Comfrey
-- Clover
-- Raspberry
-- Strawberry
+  - Elderberry
+  - Comfrey
+  - Clover
+  - Raspberry
+  - Strawberry
 cautions:
-- Walnut
+  - Walnut
 pests:
-- Aphids
-- Cuban Laurel Thrips
-- Fig Beetle
-- Scale Insects
-- Spider Mites
-- Whiteflies
-- mealybugs
-- Armored Scale
-- White Peach Scale
-- Ambrosia Beetles
-- Shot Hole Borers
-- Twig Borers
+  - Aphids
+  - Cuban Laurel Thrips
+  - Fig Beetle
+  - Scale Insects
+  - Spider Mites
+  - Whiteflies
+  - mealybugs
+  - Armored Scale
+  - White Peach Scale
+  - Ambrosia Beetles
+  - Shot Hole Borers
+  - Twig Borers
 growth_habit: Tree
 data_quality_score: 0.8

@@ -2,9 +2,9 @@ common_name: Chaga
 picture: chaga.webp
 scientific_name: Inonotus obliquus
 aka:
-- Birch Conk
-- Cinder Conk
-- Clinker Polypore
+  - Birch Conk
+  - Cinder Conk
+  - Clinker Polypore
 family: Hymenochaetaceae
 zone: 2-7
 ideal_temp_min: 40
@@ -13,54 +13,43 @@ min_temp: -50
 max_temp: 85
 perennial: true
 layers:
-- Fungal
+  - Fungal
 plant_function:
-- Edible
-- Medicinal
-- Soil Builder
-- Decomposer
-- Biomass
+  - Edible
+  - Medicinal
+  - Biomass
 description: |-
   Chaga is not a mushroom in the cap-and-stem sense — it is a sterile conk stage of Inonotus obliquus, erupting from birch bark as a cracked, charcoal-black mass with an orange-brown interior. It belongs to cold-climate birch forests and has no honest outdoor analog in subtropical Florida. If you are reading this in Jacksonville, you are planning a sourcing strategy, not a planting calendar. Wild harvest ethics matter here: slow-growing conks are easily overharvested, and stripping live public trees is bad form in any zip code.
 
-  - Native range is cool, humid continental climates tied to paper and yellow birch.
-  - No subtropical substitute; river birch in FL will not produce meaningful conks.
-  - Indoor cultivation research exists but is not backyard-accessible.
+  Native range is cool, humid continental climates tied to paper and yellow birch. No subtropical substitute; river birch in FL will not produce meaningful conks. Indoor cultivation research exists but is not backyard-accessible.
 
-  - Not a home propagation crop in the subtropics.
-  - Source from reputable northern foragers or certified growers if you want the tea.
-  - Inoculation of birch logs exists experimentally but requires years of colonization.
+  Not a home propagation crop in the subtropics. Source from reputable northern foragers or certified growers if you want the tea. Inoculation of birch logs exists experimentally but requires years of colonization.
 
-  - Conks are traditionally taken in cold months after hard freezes when tissue is firm -- never strip a live birch to bare wood.
-  - Leave partial conk and respect land permissions; mail-order northern sources are the honest path in warm Americas.
-  - Slice thin and dry completely before storage; rehydrate for slow decoctions, not crunchy salad cosplay.
+  Conks are traditionally taken in cold months after hard freezes when tissue is firm -- never strip a live birch to bare wood. Leave partial conk and respect land permissions; mail-order northern sources are the honest path in warm Americas. Slice thin and dry completely before storage; rehydrate for slow decoctions, not crunchy salad cosplay.
 purpose: |-
   Edible: sterile conk scrapes into long-simmered decoctions for earthy tea after drying thin slices -- it is not a cap-and-stem mushroom for sauté despite social media claims.
-  Medicinal: betulin-rich extracts appear in northern European and Siberian immune-support traditions where harvest ethics and drug interaction research still outweigh supplement hype.
-  Soil Builder: white-rot mycelium slowly decomposes birch heartwood into spongy punk that later becomes stable humus in boreal forest floors when hosts are left partially standing.
-  Decomposer: breaks lignin inside living Betula stems, recycling woody carbon into fungal biomass and beetle galleries until the tree fails unless managers remove stressed individuals safely.
+  Medicinal: betulin-rich extracts appear in northern European -- and Siberian immune-support traditions where harvest ethics and drug interaction research still outweigh supplement hype.
   Biomass: perennial conks add dense fungal tissue to the coarse woody debris pile when ethical partial harvest leaves inoculum on the host instead of stripping bark bare.
 substrate:
-- Birch (primary)
-- Alder
-- Elm (rarely)
+  - Birch (primary)
+  - Alder
+  - Elm (rarely)
 mycelium_type: Parasitic / white rot
-fruiting_season: Perennial conk; harvest traditionally after hard freeze, late fall
-  through winter
+fruiting_season: Perennial conk; harvest traditionally after hard freeze, late fall through winter
 cultivation_difficulty: Not recommended for subtropical cultivation
-spawn_type: Outdoor only — natural inoculation or experimental log colonization in
-  northern climates
+spawn_type: Outdoor only — natural inoculation or experimental log colonization in northern climates
 companions:
-- Birch -- primary host tree; Chaga parasitizes Betula species almost exclusively
-  in the wild
-- Alder -- secondary host in some northern regions; same Betulaceae family
-- Comfrey -- dynamic accumulator planted near host trees feeds the surrounding soil
-  biology
+  - Birch -- primary host tree; Chaga parasitizes Betula species almost exclusively in the wild
+  - Alder -- secondary host in some northern regions; same Betulaceae family
+  - Comfrey -- dynamic accumulator planted near host trees feeds the surrounding soil biology
 cautions:
-- Not suitable for subtropical or tropical cultivation
-- Repeated conk harvesting from live trees accelerates host decline
+  - Not suitable for subtropical or tropical cultivation
+  - Repeated conk harvesting from live trees accelerates host decline
 pests:
-- Borers
-growth_habit: Parasitic canker on birch and related hosts; cold northern climates
-  only
+  - Borers
+growth_habit: Parasitic canker on birch and related hosts; cold northern climates only
 data_quality_score: 0.78
+ecological_role:
+  - Decomposer
+plant_function_unresolved:
+  - Soil Builder

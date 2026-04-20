@@ -2,13 +2,13 @@ common_name: Singapore Daisy
 picture: singapore_daisy.webp
 scientific_name: Sphagneticola trilobata
 aka:
-- Bay Biscayne Creeping-Oxeye
-- Creeping Daisy
-- Creeping Oxeye
-- Creeping Wedelia
-- Rabbit's Paw
-- Trailing Daisy
-- Yellow Dots
+  - Bay Biscayne Creeping-Oxeye
+  - Creeping Daisy
+  - Creeping Oxeye
+  - Creeping Wedelia
+  - Rabbit's Paw
+  - Trailing Daisy
+  - Yellow Dots
 family: Asteraceae
 zone: 9-11
 ideal_temp_min: 65
@@ -17,11 +17,11 @@ min_temp: 32
 max_temp: 100
 perennial: true
 layers:
-- Ground Cover
+  - Ground Cover
 plant_function:
-- Ground Cover
-- Erosion Control
-- Pollinator
+  - Ground Cover
+  - Erosion Control
+  - Pollinator
 description: |-
   Singapore Daisy is a vigorous, mat-forming perennial herb that typically grows up to 70 cm (27.5 inches) tall when flowering. It features glossy dark green leaves, usually with three pointed lobes and toothed edges, arranged in opposite pairs along green or reddish hairy stems that can reach up to 2 meters (6.5 feet) in length. The plant produces bright yellow to orange-yellow daisy-like flowers, approximately 2-3 cm (0.8-1.2 inches) in diameter, throughout the year, with a peak flowering period from spring to autumn. While it is often used as an ornamental ground cover due to its dense foliage and attractive flowers, Singapore Daisy is considered invasive in many regions, as it can outcompete native vegetation and disrupt local ecosystems. :contentReference[oaicite:0]{index=0}
 
@@ -32,22 +32,21 @@ description: |-
   As an ornamental ground cover, Singapore Daisy does not have specific harvest times. However, regular pruning or mowing may be necessary to manage its growth and prevent it from invading unintended areas. Care should be taken to properly dispose of plant material to prevent unintentional spread. :contentReference[oaicite:3]{index=3}
 purpose: |-
   Ground Cover: Sphagneticola trilobata runners sprint across humid roadsides into dense mats that choke understory seedlings -- containment only succeeds where bureaucracy matches shovel hours.
-  Erosion Control: Stolon roots knit wet ditch banks faster than natives return on disturbed Caribbean fill, which is exactly why regulators flag this aster relative on invasive lists.
-  Pollinator: Small yellow-ray heads feed sweat bees along berms already lost to creeping oxeye dominance.
-companions:
-- None (due to its invasive nature, it is not recommended to plant Singapore Daisy
-  near other species)
+  Erosion Control: Stolon roots knit wet ditch banks faster than natives return on disturbed Caribbean fill -- regulators flag this aster on invasive lists for exactly this reason.
+  Pollinator: Small yellow-ray heads feed sweat bees -- best deployed along berms already lost to creeping oxeye dominance where containment is the only goal.
+companions: []
 cautions:
-- Native Plants (to prevent competition and displacement)
+  - Native Plants (to prevent competition and displacement)
 pests:
-- Aphids
-- Banded Winged Whitefly
-- Greenhouse Whitefly
-- Lettuce Aphid
-- Lubber Grasshopper
-- Root Aphid
-- Spider Mites
-- Whiteflies
+  - Aphids
+  - Banded Winged Whitefly
+  - Greenhouse Whitefly
+  - Lettuce Aphid
+  - Lubber Grasshopper
+  - Root Aphid
+  - Spider Mites
+  - Whiteflies
 growth_habit: Tree
 data_quality_score: 0.8
 field_observations: No field observations yet
+companions_unresolved: []

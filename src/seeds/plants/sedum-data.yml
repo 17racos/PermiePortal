@@ -2,7 +2,7 @@ common_name: Sedum
 picture: sedum.webp
 scientific_name: Sedum spp.
 aka:
-- Stonecrop
+  - Stonecrop
 family: Crassulaceae
 zone: 3-9
 ideal_temp_min: 65
@@ -11,12 +11,11 @@ min_temp: -30
 max_temp: 95
 perennial: true
 layers:
-- Ground Cover
+  - Ground Cover
 plant_function:
-- Ground Cover
-- Pollinator
-- Drought Tolerant
-- Ornamental
+  - Ground Cover
+  - Pollinator
+  - Ornamental
 description: |-
   Sedum, commonly known as Stonecrop, comprises a diverse genus of succulent plants characterized by their fleshy leaves and clusters of star-shaped flowers. These plants vary in form, ranging from low-growing ground covers to upright varieties, making them versatile choices for various garden settings. Sedums are renowned for their drought tolerance and ability to thrive in poor, well-drained soils. Their foliage colors range from light green to blue-gray and reddish-bronze, depending on the species and cultivar. Bloom times vary, with some species flowering in late summer to autumn, attracting bees and butterflies to the garden.
 
@@ -26,22 +25,23 @@ description: |-
 
   As ornamental plants, sedums are not typically harvested. However, cuttings for propagation can be taken during the growing season.
 purpose: |-
-  Ground Cover: Sedum spp. mats of bead leaves tile rockery gaps so weeds lose light before they sprout on thin alpine soils.
+  Ground Cover: Sedum spp. mats of bead leaves tile rockery gaps -- weeds lose light before they sprout on thin alpine soils.
   Pollinator: Flat umbels of starry pink-to-yellow blooms open late summer on many stonecrops -- short-tongued bees walk the platforms while butterflies pick the taller telephium types.
-  Drought Tolerant: CAM-style succulence lets leaves shrink irrigation demand on green roofs and gravel berms where timers would rot conventional perennials.
-  Ornamental: Breeders stack colors from lime gold to mahogany cherry on ground-hugging rosettes that read intentional beside stepping stones.
+  Ornamental: Breeders stack colors from lime gold to mahogany cherry on ground-hugging rosettes -- reads intentional beside stepping stones in dry rockery designs.
 companions:
-- Echinacea
-- Salvia
-- Lavender
-- Ornamental Grass
-- Coreopsis
+  - Echinacea
+  - Salvia
+  - Lavender
+  - Ornamental Grass
+  - Coreopsis
 cautions:
-- None
+  - None
 pests:
-- Aphids
-- Mealybugs
-- Slugs
-- Snails
+  - Aphids
+  - Mealybugs
+  - Slugs
+  - Snails
 growth_habit: Tree
 data_quality_score: 0.8
+plant_traits:
+  - Drought Tolerant

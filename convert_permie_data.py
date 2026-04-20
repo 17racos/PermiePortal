@@ -54,6 +54,32 @@ VALID_FUNCTIONS = frozenset({
     "Plant Growth Stimulant", "Biofuel",
 })
 
+
+# ── INVALID FUNCTION ROUTING ─────────────────────────────────────────────────
+# Maps non-canonical plant_function values to their correct destination field.
+# Applied in process_plant() — keeps plant_function semantically clean.
+#
+FUNCTION_ROUTING = {
+    # Traits → plant_traits
+    "Drought Tolerant":           ("plant_traits",              "Drought Tolerant"),
+    "Cold Hardy":                 ("plant_traits",              "Cold Hardy"),
+    "Fast Growing":               ("plant_traits",              "Fast Growing"),
+    # Human uses → human_uses
+    "Timber":                     ("human_uses",                "Timber"),
+    "Dye Plant":                  ("human_uses",                "Dye"),
+    "Dye":                        ("human_uses",                "Dye"),
+    # Ecological role → ecological_role
+    "Decomposer":                 ("ecological_role",           "Decomposer"),
+    "Mycorrhizal":                ("ecological_role",           "Mycorrhizal"),
+    # Spelling corrections — stay in plant_function with canonical name
+    "Water Purifier":             ("plant_function",            "Water Purification"),
+    "Border Plant -Ground Cover": ("plant_function",            "Ground Cover"),
+    # Ambiguous — quarantine for manual review
+    "Soil Improvement":           ("plant_function_unresolved", "Soil Improvement"),
+    "Soil Builder":               ("plant_function_unresolved", "Soil Builder"),
+    "Cover Crop":                 ("plant_function_unresolved", "Cover Crop"),
+}
+
 # ── PURPOSE LINE FORMAT ───────────────────────────────────────────────────────
 # Required: "FunctionName: description -- mechanism"
 PURPOSE_LINE_RE = re.compile(r'^([A-Za-z][A-Za-z\s]+):\s+.+\s+--\s+.+$')
@@ -274,7 +300,10 @@ def compute_data_quality(data, plant_name, warnings):
         "purpose_aligned":     purpose_aligned,
         "functions_count":     len(functions) >= 3,
         "functions_valid":     all(f in VALID_FUNCTIONS for f in functions),
-        "companions_present":  len(companions_resolved) >= 2,
+        "companions_present":  len(companions_resolved) >= 2 or any(
+            "invasive" in str(c).lower()
+            for c in norm_list(data.get("cautions", []))
+        ),
         "pests_present":       len(pests_raw) >= 1,
         "scientific_name":     bool(sci_name) and sci_name != 'NEEDS_DATA',
         "zone_present":        zone_min is not None,
@@ -365,14 +394,47 @@ def process_plant(data, source_file, known_plant_slugs, warnings):
             f"  ⚠️  DEPRECATED [{common_name}]: 'practitioner_notes' found in "
             f"{source_file} — field is removed. Migrate content to field_observations."
         )
-    # ── plant_function validation ───────────────────────────────────────────
-    raw_functions = norm_list(data.get('plant_function', []))
-    invalid_functions = [f for f in raw_functions if f not in VALID_FUNCTIONS]
-    if invalid_functions:
-        warnings.append(
-            f"  ⚠️  FUNCTION INVALID [{common_name}]: "
-            f"unrecognized values: {invalid_functions}"
-        )
+    # ── plant_function validation + routing ─────────────────────────────────
+    raw_functions   = norm_list(data.get('plant_function', []))
+    clean_functions = []
+    plant_traits    = norm_list(data.get('plant_traits', []))
+    human_uses      = norm_list(data.get('human_uses', []))
+    ecological_role = norm_list(data.get('ecological_role', []))
+    fn_unresolved   = norm_list(data.get('plant_function_unresolved', []))
+
+    for fn in raw_functions:
+        if fn in VALID_FUNCTIONS:
+            clean_functions.append(fn)
+        elif fn in FUNCTION_ROUTING:
+            dest_field, canonical = FUNCTION_ROUTING[fn]
+            if dest_field == "plant_function":
+                if canonical not in clean_functions:
+                    clean_functions.append(canonical)
+            elif dest_field == "plant_traits":
+                if canonical not in plant_traits:
+                    plant_traits.append(canonical)
+            elif dest_field == "human_uses":
+                if canonical not in human_uses:
+                    human_uses.append(canonical)
+            elif dest_field == "ecological_role":
+                if canonical not in ecological_role:
+                    ecological_role.append(canonical)
+            elif dest_field == "plant_function_unresolved":
+                if canonical not in fn_unresolved:
+                    fn_unresolved.append(canonical)
+                warnings.append(
+                    f"  ⚠️  FUNCTION REVIEW [{common_name}]: "
+                    f"'{fn}' is ambiguous → plant_function_unresolved"
+                )
+        else:
+            if fn not in fn_unresolved:
+                fn_unresolved.append(fn)
+            warnings.append(
+                f"  ⚠️  FUNCTION INVALID [{common_name}]: "
+                f"'{fn}' unknown → plant_function_unresolved"
+            )
+
+    raw_functions = clean_functions
 
     # ── Purpose validation ──────────────────────────────────────────────────
     purpose_raw = clean_string(data.get('purpose', ''))
@@ -415,7 +477,11 @@ def process_plant(data, source_file, known_plant_slugs, warnings):
         "max_temp":                data.get('max_temp'),
         "perennial":               data.get('perennial'),
         "layers":                  norm_list(data.get('layers', [])),
-        "plant_function":          raw_functions,
+        "plant_function":            raw_functions,
+        "plant_traits":              plant_traits,
+        "human_uses":                human_uses,
+        "ecological_role":           ecological_role,
+        "plant_function_unresolved": fn_unresolved,
         "growth_habit":            data.get('growth_habit', ''),
         "description":             clean_string(data.get('description', '')),
         "purpose":                 purpose_raw,

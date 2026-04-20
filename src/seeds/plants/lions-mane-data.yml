@@ -2,9 +2,9 @@ common_name: Lion's Mane
 picture: lions_mane.webp
 scientific_name: Hericium erinaceus
 aka:
-- Pom Pom Mushroom
-- Bearded Tooth
-- Monkey Head Mushroom
+  - Pom Pom Mushroom
+  - Bearded Tooth
+  - Monkey Head Mushroom
 family: Hericiaceae
 zone: 4-9
 ideal_temp_min: 50
@@ -13,50 +13,41 @@ min_temp: -20
 max_temp: 90
 perennial: true
 layers:
-- Fungal
+  - Fungal
 plant_function:
-- Edible
-- Medicinal
-- Mulcher
+  - Edible
+  - Medicinal
+  - Mulcher
 description: |-
   Lion's mane fruits as a cascading mass of white spines from hardwood wounds, dead trunks, and log ends — beech and oak are classic hosts, maple works too. The fruiting body looks like nothing else in the forest; misidentification risk is very low, which makes it a good species for careful beginners. In subtropical Florida, outdoor log inoculation works in shaded, humid microclimates — north-facing lean-tos and canopy shade are your allies. Indoor kit grows are how most Florida growers meet this species and they are genuinely beginner-friendly. Brain health marketing is louder than the evidence, but the flavor — crab-like, meaty, sweet — needs no advertising.
 
-  - Shade stacks and forest edge; protect from desiccating wind and afternoon sun.
-  - Logs need consistent moisture retention without waterlogging; vertical stacking improves drainage.
-  - Indoor: high humidity (85-95%) at pinning, strong fresh air exchange to prevent long spiny teeth from balling up into blobs.
+  Shade stacks and forest edge; protect from desiccating wind and afternoon sun. Logs need consistent moisture retention without waterlogging; vertical stacking improves drainage. Indoor: high humidity (85-95%) at pinning, strong fresh air exchange to prevent long spiny teeth from balling up into blobs.
 
-  - Sawdust or plug spawn into fresh-cut hardwood logs; seal holes with cheese wax.
-  - Supplemented sawdust blocks for indoor production.
-  - Save clean genetics on agar if you find an exceptional wild strain.
+  Sawdust or plug spawn into fresh-cut hardwood logs; seal holes with cheese wax. Supplemented sawdust blocks for indoor production. Save clean genetics on agar if you find an exceptional wild strain.
 
-  - Flush Lion's Mane before caps flatten and spores dust -- younger tissue holds better flavor for most logs and beds.
-  - Twist or cut at base; second flushes often follow if humidity stays honest.
-  - Refrigerate in paper bags and use within days; saute or pickle rather than letting slimy regret arrive.
+  Flush Lion's Mane before caps flatten and spores dust -- younger tissue holds better flavor for most logs and beds. Twist or cut at base; second flushes often follow if humidity stays honest. Refrigerate in paper bags and use within days; saute or pickle rather than letting slimy regret arrive.
 purpose: |-
   Edible: Hericium erinaceus forms icicle-like teeth that sauté to crab-meat texture with sweet shellfish notes -- harvest while spines stay long and white before the cluster yellows and spore load turns bitter.
   Medicinal: Hot-water extracts from fruiting bodies enter traditional Asian tonics for gut and nerve support -- modern trials track nerve-growth-factor analogs, but evidence is early, so keep claims proportional to your citation stack.
   Mulcher: White-rot mycelium digests lignin in oak and beech logs, returning coarse woody debris to fungal humus -- bury spent logs when flushes finish so stumps recycle instead of hosting competitor fungi.
 substrate:
-- Oak (primary outdoor)
-- Beech (primary outdoor)
-- Maple
-- Supplemented hardwood sawdust (indoor)
-- Sterilized straw/hardwood blend (indoor)
+  - Oak (primary outdoor)
+  - Beech (primary outdoor)
+  - Maple
+  - Supplemented hardwood sawdust (indoor)
+  - Sterilized straw/hardwood blend (indoor)
 mycelium_type: White rot saprobe
-fruiting_season: Fall through early spring outdoors; year-round indoors with temperature
-  control
-cultivation_difficulty: Beginner to intermediate — kits are very forgiving; log inoculation
-  requires shade management in subtropical climates
-spawn_type: Plug spawn or sawdust spawn for logs; grain or sawdust spawn for indoor
-  blocks; liquid culture for cloning
+fruiting_season: Fall through early spring outdoors; year-round indoors with temperature control
+cultivation_difficulty: Beginner to intermediate — kits are very forgiving; log inoculation requires shade management in subtropical climates
+spawn_type: Plug spawn or sawdust spawn for logs; grain or sawdust spawn for indoor blocks; liquid culture for cloning
 companions:
-- Beech
-- Maple
-- Oak
+  - Beech
+  - Maple
+  - Oak
 cautions:
-- None documented
+  - None documented
 pests:
-- Fungus Gnats
-- Slugs
+  - Fungus Gnats
+  - Slugs
 growth_habit: Toothed saprobic fungus on hardwood wounds and logs
 data_quality_score: 0.84
