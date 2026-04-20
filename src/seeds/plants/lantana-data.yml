@@ -34,9 +34,8 @@ purpose: |-
   Ground Cover: Trailing cultivars knit hot, dry banks where turf fails -- still plan editing because stems root where tips touch soil.
   Border Plant: Mounding types edge paths with continuous bloom -- all parts are toxic if eaten, so site away from toddler forage curricula and pet chew toys.
 companions:
-- Marigold
-- Salvia
-- Coneflower
+- slug: marigold
+  name: Marigold
 cautions:
 - None specified
 pests:
@@ -46,3 +45,8 @@ pests:
 - Lace Bugs
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Salvia
+  original: Salvia
+- name: Coneflower
+  original: Coneflower

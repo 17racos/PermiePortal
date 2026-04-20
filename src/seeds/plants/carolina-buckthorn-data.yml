@@ -34,16 +34,18 @@ purpose: |-
   Border Plant: multi-stem screens soften sight lines along paths and pasture fences where managers want a native Rhamnaceae edge instead of ornamental buckthorn imports.
   Erosion Control: fibrous roots stabilize cuts, old-field margins, and thin upland clay where periodic drought still beats constant bogging for this small tree.
 companions:
-- Flowering Dogwood — complementary spring bloom and red fruit show at different seasons
-- American Beautyberry — purple fruit contrast with buckthorn drupes on similar edges
-- Oak — overstory partner providing dappled light typical of natural buckthorn sites
+- slug: beautyberry
+  name: Beautyberry
 cautions:
-- Dioecious plants — need male and female individuals nearby for heavy fruit set on
-  females
-- Berries not casual human food — verify species and preparation before any ingestion
-  experiments
+- Dioecious plants — need male and female individuals nearby for heavy fruit set on females
+- Berries not casual human food — verify species and preparation before any ingestion experiments
 pests:
 - Scale Insects
 - Japanese Beetles
 growth_habit: Deciduous shrub to small tree; glossy leaves; red to black drupes
 data_quality_score: 0.85
+companions_unresolved:
+- name: Flowering Dogwood
+  original: Flowering Dogwood — complementary spring bloom and red fruit show at different seasons
+- name: Oak
+  original: Oak — overstory partner providing dappled light typical of natural buckthorn sites

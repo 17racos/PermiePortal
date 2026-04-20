@@ -39,8 +39,7 @@ purpose: |-
   Wildlife Attractor: Eastern black swallowtail larvae eat fine leaves without killing large plants -- plant a dedicated clump away from carrot if you do not want shared caterpillar confusion.
   Dynamic Accumulator: Sulfur signature in tissues reads higher than lettuce from the same bed -- ash and composted stalks return that load to the surface soil when you cut plants after seed drop.
   Border Plant: Six-foot bronze clouds mark allelopathic no-go zones around its own drip line -- honest visual signal that tomatoes and beans need another bed until residue fades next season.
-companions:
-  - Best grown alone
+companions: []
 cautions:
   - Tomato
   - Bean
@@ -59,3 +58,7 @@ pests:
   - Swallowtail Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companion_categories:
+  - name: Best grown alone
+    original: Best grown alone
+    type: system

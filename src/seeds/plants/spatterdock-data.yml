@@ -35,9 +35,10 @@ purpose: |-
   Erosion Control: Thick rhizome carpets anchor muck against motorboat wakes on lake margins where bare soil would lift as plumes.
   Border Plant: Raised heart-shaped pads and upright flowers frame pond edges louder than ornamental pond kits ever manage.
 companions:
-  - Duck Potato
-  - Pickerelweed
-  - Watershield
+  - slug: pickerelweed
+    name: Pickerelweed
+  - slug: watershield
+    name: Watershield
 cautions:
   - None documented
 pests:
@@ -45,3 +46,7 @@ pests:
   - Snails
 growth_habit: Rhizomatous aquatic forb
 data_quality_score: 0.76
+companion_categories:
+  - name: Duck Potato
+    original: Duck Potato
+    type: ecosystem

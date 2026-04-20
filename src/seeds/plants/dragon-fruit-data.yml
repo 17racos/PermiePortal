@@ -28,9 +28,12 @@ purpose: |-
   Medicinal: Betalain-rich pulp shows up in antioxidant-focused food traditions -- treat as seasonal fruit, not a pharmacy substitute.
   Pollinator: Large white flowers open after dark for hawkmoths and nectar-feeding bats where they occur -- hand-pollinate in still greenhouses if night visitors are absent.
 companions:
-  - Aloe (Aloe vera) — shares the “dry feet” principle and benefits from gritty soil and trellis microclimate.
-  - Ginger (Zingiber officinale) — thrives in warm, sheltered understories while dragon fruit offers partial shade.
-  - Banana (Musa acuminata) — provides tall windbreak and leaf litter to enrich understory while you train the cactus upward.
+  - slug: aloe
+    name: Aloe
+  - slug: ginger
+    name: Ginger
+  - slug: banana
+    name: Banana
 cautions:
   - Avoid overwatering; consistently wet soil triggers root and stem rot.
   - Expect thorns on older segments; harvest carefully to avoid injuries and stem damage.

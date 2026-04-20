@@ -300,9 +300,15 @@ def compute_data_quality(data, plant_name, warnings):
         "purpose_aligned":     purpose_aligned,
         "functions_count":     len(functions) >= 3,
         "functions_valid":     all(f in VALID_FUNCTIONS for f in functions),
-        "companions_present":  len(companions_resolved) >= 2 or any(
-            "invasive" in str(c).lower()
-            for c in norm_list(data.get("cautions", []))
+        "companions_present":  (
+            len(companions_resolved) >= 2
+            or len([c for c in (data.get("companions_unresolved", []) or [])
+                    if isinstance(c, dict) and c.get("name")]) >= 1
+            or len(norm_list(data.get("companion_categories", []))) >= 1
+            or any(
+                "invasive" in str(c).lower()
+                for c in norm_list(data.get("cautions", []))
+            )
         ),
         "pests_present":       len(pests_raw) >= 1,
         "scientific_name":     bool(sci_name) and sci_name != 'NEEDS_DATA',
@@ -450,9 +456,17 @@ def process_plant(data, source_file, known_plant_slugs, warnings):
 
     # ── Companion validation ────────────────────────────────────────────────
     companions_raw = data.get('companions', []) or []
-    companions_resolved, companions_unresolved = validate_companions(
+    companions_resolved, _converter_unresolved = validate_companions(
         common_name, companions_raw, known_plant_slugs, warnings
     )
+    # companions_unresolved, companions_normalized, companion_categories may have
+    # been pre-structured by resolve_companions.py — pass them through as-is
+    # Only use converter-generated unresolved if no structured data exists
+    _yaml_unresolved = data.get('companions_unresolved', []) or []
+    if _yaml_unresolved and isinstance(_yaml_unresolved[0], dict):
+        companions_unresolved = _yaml_unresolved  # already structured
+    else:
+        companions_unresolved = _converter_unresolved
 
     # ── Pest references ─────────────────────────────────────────────────────
     raw_pests = norm_list(data.get('pests', []))
@@ -487,6 +501,8 @@ def process_plant(data, source_file, known_plant_slugs, warnings):
         "purpose":                 purpose_raw,
         "companions":              companions_resolved,
         "companions_unresolved":   companions_unresolved,
+        "companions_normalized":   data.get('companions_normalized', []) or [],
+        "companion_categories":    data.get('companion_categories', []) or [],
         "cautions":                norm_list(data.get('cautions', [])),
         "field_observations":      clean_string(data.get('field_observations', '')),
         "data_quality_score":      quality_score,

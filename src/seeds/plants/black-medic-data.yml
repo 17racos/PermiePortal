@@ -37,9 +37,12 @@ purpose: |-
   Pollinator: Tiny yellow globes feed small halictid bees in summer heat -- delay mower one week on sacrifice strips if pollinator rent matters more than stripe aesthetics.
   Biomass: Quick topsoil green manure breaks down in weeks, not months -- pair with straw when folding into beds so carbon-nitrogen math stays honest in compost.
 companions:
-  - Dutch Clover — complementary legume layer with different height and persistence; shared pollinators.
-  - Plantain — deep-taproot nutrient pump in the same disturbed niche without chemical feud documented here.
-  - Dandelion — early-season resource for pollinators alongside medic’s summer yellow; both outrage lawn purists equally.
+  - slug: dutch-clover
+    name: Dutch Clover
+  - slug: broadleaf-plantain
+    name: Broadleaf Plantain
+  - slug: dandelion
+    name: Dandelion
 cautions:
   - None documented
 pests:

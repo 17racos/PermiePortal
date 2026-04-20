@@ -2,8 +2,8 @@ common_name: Soapberry
 picture: soapberry.webp
 scientific_name: Sapindus saponaria
 aka:
-- Wild Chinaberry
-- Jaboncillo
+  - Wild Chinaberry
+  - Jaboncillo
 family: Sapindaceae
 zone: 8-11
 ideal_temp_min: 45
@@ -12,12 +12,12 @@ min_temp: 10
 max_temp: 110
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Wildlife Attractor
-- Border Plant
-- Erosion Control
-- Ornamental
+  - Wildlife Attractor
+  - Border Plant
+  - Erosion Control
+  - Ornamental
 description: |-
   Soapberry (Sapindus saponaria) is a deciduous tree from subtropical Americas, bearing compound leaves, small flowers, and translucent yellow berries rich in saponins that foam in water—hence traditional soap uses where knowledge is sound. Trees reach 30–50 feet (9–15 m), often along streams and limestone soils. It is not a snack tree—internal use of saponins is risky—but it excels as wildlife food, shade, and erosion control on tough sites.
 
@@ -32,20 +32,20 @@ purpose: |-
   Erosion Control: Fibrous roots lace thin soil over karst rock so backyard berms stop washing during summer cloudbursts.
   Ornamental: Ferny bipinnate leaves flash light green against dark live oak canopies in subtropical mixed screens.
 companions:
-- Mexican Elderberry — riparian shrub neighbor sharing moisture gradients without
-  identical chemistry
-- Wax Myrtle — nitrogen-fixing shrub at slightly wetter margins
-- Beautyberry — purple fruit contrast at shrub height along woodland edges
+  - slug: mexican-elderberry
+    name: Mexican Elderberry
+  - slug: wax-myrtle
+    name: Wax Myrtle
+  - slug: beautyberry
+    name: Beautyberry
 cautions:
-- Saponin toxicity—do not treat berries like dessert without trained guidance
-- Name collision with buffaloberry “soapberry” chatter—Sapindus saponaria is this
-  entry’s anchor
+  - Saponin toxicity—do not treat berries like dessert without trained guidance
+  - Name collision with buffaloberry “soapberry” chatter—Sapindus saponaria is this entry’s anchor
 pests:
-- Aphids
-- Boxelder Bug
-- Scale Insects
-- Spider Mites
-- Spotted Lanternfly
-growth_habit: Deciduous soapberry tree; compound leaves; yellow translucent fruit;
-  subtropical woodlands
+  - Aphids
+  - Boxelder Bug
+  - Scale Insects
+  - Spider Mites
+  - Spotted Lanternfly
+growth_habit: Deciduous soapberry tree; compound leaves; yellow translucent fruit; subtropical woodlands
 data_quality_score: 0.78

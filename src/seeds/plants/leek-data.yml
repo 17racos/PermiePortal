@@ -28,9 +28,12 @@ purpose: |-
   Medicinal: Sulfur compounds and kaempferol glycosides in leaves echo garlic-family food-medicine uses for circulation and immune support -- eat as food first; therapeutic dosing belongs in clinical context.
   Pest Management: Onion thrips and leaf miners still arrive, but interplanting leeks with carrots disrupts monoculture cues -- scout undersides because strong scent is not a substitute for sticky traps.
 companions:
-  - Carrot (Daucus carota) — rotates bed profiles between root crops and alliums while keeping cool-season soil productive.
-  - Lettuce (Lactuca sativa) — uses partial shade/space and shares cool-season timing for easier bed management.
-  - Garlic (Allium sativum) — same family rotation benefits and similar care simplifies scheduling.
+  - slug: carrot
+    name: Carrot
+  - slug: lettuce
+    name: Lettuce
+  - slug: garlic
+    name: Garlic
 cautions:
   - Avoid waterlogged soil; leek rot is not a motivational poster.
 pests:

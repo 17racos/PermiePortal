@@ -2,8 +2,8 @@ common_name: Sesbania
 picture: sesbania.webp
 scientific_name: Sesbania spp.
 aka:
-  - Riverhemp
-  - Coffeeweed
+- Riverhemp
+- Coffeeweed
 family: Fabaceae
 zone: 9-11
 ideal_temp_min: 75°F (24°C)
@@ -12,14 +12,14 @@ min_temp: 25°F (-4°C)
 max_temp: 100°F (38°C)
 perennial: true
 layers:
-  - Sub-Canopy
-  - Shrub
-  - Aquatic
+- Sub-Canopy
+- Shrub
+- Aquatic
 plant_function:
-  - Nitrogen Fixer
-  - Animal Fodder
-  - Biofuel
-  - Ornamental
+- Nitrogen Fixer
+- Animal Fodder
+- Biofuel
+- Ornamental
 description: |-
   Sesbania species are fast-growing shrubs or small trees that can reach heights of up to 8 meters (26 feet). They have pinnately compound leaves with numerous small leaflets and produce yellow or white flowers, often with brown or purple streaks. The plants are commonly found in tropical and subtropical regions, thriving in a variety of soil types, including sandy and clay soils, often in wet or flooded conditions. Sesbania is known for its ability to fix nitrogen, improving soil fertility. Propagation is typically done through seeds, which can be sown directly into the soil. Harvesting for fodder or green manure can occur multiple times a year due to its rapid growth.
 
@@ -29,42 +29,46 @@ purpose: |-
   Biofuel: Woody stems from sesbania hedges chip into anaerobic digestors or charcoal trials where growers already meter moisture content before burners light.
   Ornamental: Scarlet Sesbania grandiflora blooms hang like parrot beaks along Asian yard fences -- useful marker when mixing species instead of pretending every sesbania looks the same.
 companions:
-  - Rice
-  - Maize
-  - Sorghum
+- slug: rice
+  name: Rice
+- slug: sorghum
+  name: Sorghum
 cautions:
-  - None reported
+- None reported
 pests:
-  - Banded Cucumber Beetle
-  - Bean Aphid
-  - Bean Leaf Beetle
-  - Bean Weevil
-  - Borers
-  - Corn Earworm
-  - Cowpea Curculio
-  - Fall Armyworm
-  - Kudzu Bug
-  - Locust Borer
-  - Locust Leaf Miner
-  - Lubber Grasshopper
-  - Pea Moth
-  - Pea Weevil
-  - Reniform Nematode
-  - Root Aphid
-  - Rootknot Nematodes
-  - Soybean Looper
-  - Spittlebugs
-  - Stink Bug
-  - Striped Cucumber Beetle
-  - Fusarium Wilt
-  - Ganoderma Butt Rot
-  - Pythium Root Rot
-  - Spotted Cucumber Beetle
-  - White Rot
-  - Brown Marmorated Stink Bug
-  - Harlequin Ladybird
-  - Velvetbean Caterpillar
+- Banded Cucumber Beetle
+- Bean Aphid
+- Bean Leaf Beetle
+- Bean Weevil
+- Borers
+- Corn Earworm
+- Cowpea Curculio
+- Fall Armyworm
+- Kudzu Bug
+- Locust Borer
+- Locust Leaf Miner
+- Lubber Grasshopper
+- Pea Moth
+- Pea Weevil
+- Reniform Nematode
+- Root Aphid
+- Rootknot Nematodes
+- Soybean Looper
+- Spittlebugs
+- Stink Bug
+- Striped Cucumber Beetle
+- Fusarium Wilt
+- Ganoderma Butt Rot
+- Pythium Root Rot
+- Spotted Cucumber Beetle
+- White Rot
+- Brown Marmorated Stink Bug
+- Harlequin Ladybird
+- Velvetbean Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
 plant_function_unresolved:
-  - Soil Improvement
+- Soil Improvement
+companions_unresolved:
+- name: Maize
+  original: Maize

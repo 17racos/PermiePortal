@@ -10,11 +10,11 @@ min_temp: -20
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Nitrogen Fixer
-  - Mulcher
-  - Pollinator
+- Nitrogen Fixer
+- Mulcher
+- Pollinator
 description: |-
   Red clover (Trifolium pratense) is a perennial forage and cover crop prized for its dense foliage and long-lasting pink-purple flower heads. It is native to Europe and western Asia and has become widely cultivated in temperate regions for soil improvement and pollinator support. Plants typically grow about 30–90 cm (12–35 in) tall and spread by both reseeding and root growth. In permaculture, red clover matters because it fixes nitrogen through root nodules, provides quick mulch biomass when cut, and extends nectar availability for beneficial insects during parts of the season when many flowering plants slow down.
 
@@ -28,13 +28,17 @@ purpose: |-
   Mulcher: Second-year stands cut at early pink bud yield soft stems that break down in three weeks on a vegetable bed surface -- leave six-inch stubble so crowns regrow for another nectar cycle.
   Pollinator: Long-tongued bumblebees work the pink-purple globes when white Dutch clover is too short for deep reach -- uncut strips along squash rows measurably improve fruit set where honeybees are scarce.
 companions:
-  - Oats (Avena sativa) — cereal cover pairs well with clover’s nitrogen and adds thicker biomass for residue layering.
-  - Comfrey (Symphytum officinale) — deep roots complement clover’s shallow soil zone and the combined mulch supports a richer soil system.
-  - Garlic (Allium sativum) — rotation partner; clover residues help keep soil covered while garlic fills the next crop window.
+- slug: comfrey
+  name: Comfrey
+- slug: garlic
+  name: Garlic
 cautions:
-  - Red clover can thin out over time; reseed or manage stands in cycles.
+- Red clover can thin out over time; reseed or manage stands in cycles.
 pests:
-  - Aphids
-  - Spittlebugs
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Spittlebugs
+- Root Rot
+- Caterpillars
+companions_unresolved:
+- name: Oats
+  original: Oats (Avena sativa) — cereal cover pairs well with clover’s nitrogen and adds thicker biomass for residue layering.

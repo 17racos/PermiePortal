@@ -34,9 +34,10 @@ purpose: |-
   Ground Cover: Rampant cucurbit vines smother mulch if you do not trellis -- assign territory or accept pumpkin-style imperialism across paths.
   Pollinator: Big yellow monoecious flowers open at dawn for squash bees -- long-season tropical heat keeps setting fruit when pickleworm pressure already moved into summer squash.
 companions:
-- Corn
-- Beans
-- Nasturtium
+- slug: nasturtium
+  name: Nasturtium
+- slug: fava-bean
+  name: Fava Bean
 cautions:
 - Cold wet soil at planting
 - Crowding with poor airflow
@@ -59,3 +60,13 @@ pests:
 - Spotted Cucumber Beetle
 growth_habit: Robust annual vine; long-season types sprawl widely
 data_quality_score: 0.8
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index
+companions_normalized:
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

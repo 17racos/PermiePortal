@@ -34,9 +34,12 @@ purpose: |-
   Ground Cover: Woody bases resprout after hard cutback, rooting nodes that knit sandy beds and crowd out purslane along drip lines.
   Border Plant: Stays under knee height even in full sun, giving a front edge along walks where taller porterweeds would arch into foot traffic.
 companions:
-  - Firebush — red tubular flowers for hummingbirds layered behind low porterweed carpets.
-  - Beautyberry — purple fruit and loose habit contrast ground-hugging verbenaceous texture.
-  - Tithonia — tall annual sunflower relative for vertical pollinator pull above porterweed’s low plane.
+  - slug: firebush
+    name: Firebush
+  - slug: beautyberry
+    name: Beautyberry
+  - slug: tithonia
+    name: Tithonia
 cautions:
   - None documented
 pests:

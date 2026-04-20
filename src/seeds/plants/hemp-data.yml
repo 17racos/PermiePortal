@@ -2,8 +2,8 @@ common_name: Hemp
 picture: hemp.webp
 scientific_name: Cannabis sativa
 aka:
-  - Industrial Hemp
-  - Fiber Hemp
+- Industrial Hemp
+- Fiber Hemp
 family: Cannabaceae
 zone: 3-11
 ideal_temp_min: 55
@@ -12,12 +12,12 @@ min_temp: 25
 max_temp: 100
 perennial: false
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Fiber
-  - Edible
-  - Cover Crop
-  - Dynamic Accumulator
+- Fiber
+- Edible
+- Cover Crop
+- Dynamic Accumulator
 description: |-
   Industrial hemp is Cannabis sativa grown for fiber, seed, and extract markets — not the lounge-chair marketing story, just a fast annual that eats sunlight and makes long bast fibers. Legality is a paperwork theme park: follow your state program if you plant a field, or you will meet people with badges. subtropical and tropical Americas humidity raises disease pressure; choose adapted cultivars and spacing for air flow.
 
@@ -31,17 +31,20 @@ description: |-
 purpose: |-
   Fiber: Cannabis sativa grown for fiber forms long bast strips in the outer stem -- ret or decorticate at early bloom for cordage and textile feedstock, then dry shocks with airflow so mold does not trash the crop.
   Edible: Oilseed lines produce grain-grade achenes and pressing oil where cultivars and law allow -- harvest at correct moisture for combines and keep THC compliance testing on the calendar, not as an afterthought.
-  Cover Crop: Tight-spaced fiber stands close canopy fast enough to smother summer annual weeds -- terminate before seed set if you dislike volunteers, or rotate into fall brassicas that use the residue.
   Dynamic Accumulator: Deep taproots mine subsoil nutrients that return when stalks are chipped or composted -- pair with clover undersow if you want extra N fixation in the same season slot.
-companions:
-  - Clover
-  - Oats
-  - Field Pea
+companions: []
 cautions:
-  - Planting without checking state hemp rules
+- Planting without checking state hemp rules
 pests:
-  - Corn Earworm
-  - Japanese Beetles
-  - Powdery Mildew
+- Corn Earworm
+- Japanese Beetles
+- Powdery Mildew
 growth_habit: Annual
 data_quality_score: 0.7
+companions_unresolved:
+- name: Clover
+  original: Clover
+- name: Oats
+  original: Oats
+- name: Field Pea
+  original: Field Pea

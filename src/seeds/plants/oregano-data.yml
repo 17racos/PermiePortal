@@ -2,11 +2,11 @@ common_name: Oregano
 picture: oregano.webp
 scientific_name: Origanum vulgare
 aka:
-  - Wild Marjoram
-  - Origanum hirtum (Greek Oregano)
-  - Creeping Oregano
-  - Greek Oregano
-  - Syrian Oregano
+- Wild Marjoram
+- Origanum hirtum (Greek Oregano)
+- Creeping Oregano
+- Greek Oregano
+- Syrian Oregano
 family: Lamiaceae
 zone: 4-10
 ideal_temp_min: 50
@@ -15,18 +15,18 @@ min_temp: -30
 max_temp: 100
 perennial: true
 layers:
-  - Herbaceous
-  - Ground Cover
+- Herbaceous
+- Ground Cover
 plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
-  - Mulcher
-  - Dynamic Accumulator
-  - Border Plant
-  - Pest Management
-  - Ground Cover
+- Edible
+- Medicinal
+- Pollinator
+- Wildlife Attractor
+- Mulcher
+- Dynamic Accumulator
+- Border Plant
+- Pest Management
+- Ground Cover
 description: |-
   Oregano (Origanum vulgare) is a hardy, aromatic perennial herb native to the Mediterranean. It grows in clumps with small, dark green leaves and produces clusters of purple to pink flowers that attract pollinators. The plant is well-suited for dry, well-drained soils and is highly drought-tolerant once established. Known for its strong, pungent flavor, oregano is a staple in Mediterranean cuisine.
 
@@ -46,17 +46,24 @@ purpose: |-
   Pest Management: Volatile monoterpenes released when leaves bruise mask cabbage-moth host cues along row ends -- still scout undersides because scent helps confusion, not annihilation, under heavy oviposition flights.
   Ground Cover: Prostrate selections root at nodes between stepping stones, tolerating occasional foot traffic and reflecting heat off pavers -- keep soil lean so flavor stays concentrated instead of turning bland on nitrogen guilt.
 companions:
-  - Basil
-  - Tomato
-  - Pepper
-  - Rosemary
-  - Lavender
-  - Thyme
+- slug: basil
+  name: Basil
+- slug: tomato
+  name: Tomato
+- slug: rosemary
+  name: Rosemary
+- slug: lavender
+  name: Lavender
+- slug: thyme
+  name: Thyme
 cautions:
-  - Cucumber
+- Cucumber
 pests:
-  - Spider Mites
-  - Aphids
-  - Whiteflies
+- Spider Mites
+- Aphids
+- Whiteflies
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Pepper
+  original: Pepper

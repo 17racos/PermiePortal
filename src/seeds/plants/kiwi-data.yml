@@ -28,9 +28,12 @@ purpose: |-
   Pollinator: Creamy, saucer-shaped spring flowers offer pollen and nectar to honeybees before apples peak -- avoid insecticide during bloom if you want fruit set on marginal microclimates.
   Wildlife Attractor: Overripe windfalls feed opossums and raccoons along trellis bases -- pick early or net rows if vertebrate tithe conflicts with harvest goals.
 companions:
-  - Comfrey (Symphytum officinale) — deep roots and chop-and-drop mulch help keep vine feeding consistent.
-  - Garlic (Allium sativum) — helps diversify smells around the trellis and supports rotation scheduling.
-  - Crimson Clover (Trifolium incarnatum) — cool-season ground cover that adds organic matter while you wait on fruiting.
+  - slug: comfrey
+    name: Comfrey
+  - slug: garlic
+    name: Garlic
+  - slug: crimson-clover
+    name: Crimson Clover
 cautions:
   - Kiwi vines need appropriate male/female planting for fruiting (or reliable pollination partners).
 pests:

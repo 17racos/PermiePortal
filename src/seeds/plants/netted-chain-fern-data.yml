@@ -32,9 +32,12 @@ purpose: |-
   Erosion Control: Interwoven roots bind organic muck banks that slough during spate flows -- use behind woody debris weirs where you need living geotextile instead of plastic underlayment on shaded slopes.
   Ornamental: Pinnae held to the light show reticulate venation that sells the plant to fern classes and rain-garden tours -- reads finer-textured than cinnamon fern when designers want chain-mail patterning at boot height.
 companions:
-  - Royal Fern — taller sterile fronds create layered wetland texture beside chain fern
-  - Marsh Fern — similar hydrology with contrasting frond division patterns for teaching ID
-  - Pond Cypress — in soggy sunny edges, knees and ferns signal authentic swamp aesthetic
+  - slug: royal-fern
+    name: Royal Fern
+  - slug: marsh-fern
+    name: Marsh Fern
+  - slug: pond-cypress
+    name: Pond Cypress
 cautions:
   - None documented
 pests:

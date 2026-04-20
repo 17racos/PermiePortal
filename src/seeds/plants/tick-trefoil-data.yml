@@ -2,8 +2,8 @@ common_name: Tick Trefoil
 picture: tick_trefoil.webp
 scientific_name: Desmodium paniculatum
 aka:
-  - Panicled tick trefoil
-  - Tick-clover
+- Panicled tick trefoil
+- Tick-clover
 family: Fabaceae
 zone: 4-9
 ideal_temp_min: 50
@@ -12,11 +12,11 @@ min_temp: -20
 max_temp: 100
 perennial: true
 layers:
-  - Herb
+- Herb
 plant_function:
-  - Nitrogen Fixer
-  - Wildlife Attractor
-  - Ground Cover
+- Nitrogen Fixer
+- Wildlife Attractor
+- Ground Cover
 description: |-
   Tick trefoil (Desmodium paniculatum and relatives) is a native legume herb of woodland edges and openings: compound leaves, pink pea flowers, and seeds packaged with adhesive legumes that stick to socks like passive-aggressive souvenirs. Plants are often 2–4 feet, branching and soft-stemmed unless grazed.
 
@@ -32,41 +32,45 @@ purpose: |-
   Wildlife Attractor: Pink ladder flowers feed long-tongued bees while segmented seeds feed bobwhite and songbirds scratching leaf litter.
   Ground Cover: Arching legume stems stitch oak savanna gaps where invasive Lespedeza would otherwise close canopy openings first.
 companions:
-  - Beautyberry — purple fruit display under oak canopy while tick trefoil fills herb layer without root combat.
-  - Goldenrod — late-season nectar contrast; both appreciate sunny woodland edges if moisture holds.
-  - Switchgrass — warm-season grass matrix supports legume volunteers and hides leggy lower stems visually.
+- slug: beautyberry
+  name: Beautyberry
+- slug: switchgrass
+  name: Switchgrass
 cautions:
-  - St. Augustine grass — dense thatch and mower culture smother establishing Desmodium seedlings at woodland edges.
-  - English ivy — evergreen mat excludes light and pulls moisture from native herb-layer recruits.
+- St. Augustine grass — dense thatch and mower culture smother establishing Desmodium seedlings at woodland edges.
+- English ivy — evergreen mat excludes light and pulls moisture from native herb-layer recruits.
 pests:
-  - Aphids
-  - Banded Cucumber Beetle
-  - Bean Aphid
-  - Bean Leaf Beetle
-  - Bean Weevil
-  - Corn Earworm
-  - Cowpea Curculio
-  - Fall Armyworm
-  - Kudzu Bug
-  - Locust Borer
-  - Locust Leaf Miner
-  - Lubber Grasshopper
-  - Pea Moth
-  - Pea Weevil
-  - Reniform Nematode
-  - Root Aphid
-  - Rootknot Nematodes
-  - Soybean Looper
-  - Spittlebugs
-  - Stink Bug
-  - Striped Cucumber Beetle
-  - Fusarium Wilt
-  - Ganoderma Butt Rot
-  - Pythium Root Rot
-  - Spotted Cucumber Beetle
-  - White Rot
-  - Brown Marmorated Stink Bug
-  - Harlequin Ladybird
-  - Velvetbean Caterpillar
+- Aphids
+- Banded Cucumber Beetle
+- Bean Aphid
+- Bean Leaf Beetle
+- Bean Weevil
+- Corn Earworm
+- Cowpea Curculio
+- Fall Armyworm
+- Kudzu Bug
+- Locust Borer
+- Locust Leaf Miner
+- Lubber Grasshopper
+- Pea Moth
+- Pea Weevil
+- Reniform Nematode
+- Root Aphid
+- Rootknot Nematodes
+- Soybean Looper
+- Spittlebugs
+- Stink Bug
+- Striped Cucumber Beetle
+- Fusarium Wilt
+- Ganoderma Butt Rot
+- Pythium Root Rot
+- Spotted Cucumber Beetle
+- White Rot
+- Brown Marmorated Stink Bug
+- Harlequin Ladybird
+- Velvetbean Caterpillar
 growth_habit: Herbaceous perennial legume; sticky loments; pink pea flowers
 data_quality_score: 0.76
+companions_unresolved:
+- name: Goldenrod
+  original: Goldenrod — late-season nectar contrast; both appreciate sunny woodland edges if moisture holds.

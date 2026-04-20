@@ -2,7 +2,7 @@ common_name: Cempedak
 picture: cempedak.webp
 scientific_name: Artocarpus integer
 aka:
-- Champedak
+  - Champedak
 family: Moraceae
 zone: 10-12
 ideal_temp_min: 72
@@ -11,13 +11,13 @@ min_temp: 32
 max_temp: 105
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Edible
-- Animal Fodder
-- Shade Provider
-- Mulcher
-- Wildlife Attractor
+  - Edible
+  - Animal Fodder
+  - Shade Provider
+  - Mulcher
+  - Wildlife Attractor
 description: |-
   Cempedak (Artocarpus integer) is a Southeast Asian relative of jackfruit, producing smaller, aromatic syncarps with soft, sweet to savory arils eaten fresh, fried, or cooked in regional cuisines, often with stronger scent than jackfruit at peak ripeness. Trees reach 50–80 feet (15–24 m) with glossy leaves and milky latex; fruit hangs from short stems on trunks and branches. In humid tropical food forests it is a calorie canopy—site it where neighbors cannot complain about perfume they did not vote for.
 
@@ -33,18 +33,20 @@ purpose: |-
   Mulcher: very large alternate leaves drop in flushes that feed soil mesofauna when raked into guild mulch instead of paving the entire dripline for foot traffic.
   Wildlife Attractor: cauliflorous inflorescences feed beetles and flies while ripe fallen fruit draws rats, birds, and insects unless picked on the color-break schedule.
 companions:
-- Jackfruit — related Artocarpus with staggered fruit types when both are managed
-  for light
-- Turmeric — rhizomes tolerate partial shade on the north flank with mulch
-- Lemongrass — marks paths and tolerates root competition at the dripline
+  - slug: jackfruit
+    name: Jackfruit
+  - slug: turmeric
+    name: Turmeric
+  - slug: lemongrass
+    name: Lemongrass
 cautions:
-- Strong odor at ripeness — siting near bedroom windows invites regret
-- Latex — stains and sticks; plan tools and clothes accordingly
+  - Strong odor at ripeness — siting near bedroom windows invites regret
+  - Latex — stains and sticks; plan tools and clothes accordingly
 pests:
-- Aphids
-- Cuban Laurel Thrips
-- Fig Beetle
-- Mealybugs
-- Scale Insects
+  - Aphids
+  - Cuban Laurel Thrips
+  - Fig Beetle
+  - Mealybugs
+  - Scale Insects
 growth_habit: Large tropical Moraceae tree; very large scented syncarps; milky latex
 data_quality_score: 0.79

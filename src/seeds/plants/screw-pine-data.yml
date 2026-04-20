@@ -34,9 +34,12 @@ purpose: |-
   Windbreaker: Spiral crowns flex in salt wind yet stay leaf-full enough to blunt trade breezes behind coconut understory guilds.
   Ornamental: Screw-leaf silhouette reads dinosaur-formal along avenues and lagoon edges where symmetry beats flower color.
 companions:
-  - Coconut Tree
-  - Banana
-  - Coco Plum
+  - slug: coconut-palm
+    name: Coconut Palm
+  - slug: banana
+    name: Banana
+  - slug: coco-plum
+    name: Coco Plum
 cautions:
   - None documented
 pests:

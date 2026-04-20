@@ -35,9 +35,12 @@ purpose: |-
   Erosion Control: Deep taproot and many-branched crown bind coarse, fast-draining slopes where shallow-rooted turf scours -- pair with agave or prickly pear so each species occupies different root horizons along a dry fence line.
   Border Plant: Silvery, aromatic shrubs knit into a permeable screen along property edges -- full sun and air movement keep resin production honest; wet clay inland still rots crowns faster than desert rhetoric admits.
 companions:
-  - Agave — shares sun, drainage, and low supplemental water philosophy without shading guayule out.
-  - Desert Willow — deeper-rooted flowering tree uses a different water horizon while casting light, dappled shade on guayule’s windward side.
-  - Prickly Pear — shallow, water-frugal pads occupy different root strata and reduce foot traffic compaction along fence lines.
+  - slug: agave
+    name: Agave
+  - slug: desert-willow
+    name: Desert Willow
+  - slug: edible-cactus
+    name: Edible Cactus
 cautions:
   - Tamarisk
   - Russian Olive

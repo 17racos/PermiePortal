@@ -2,8 +2,8 @@ common_name: Peanut Butter Fruit Tree
 picture: peanut_butter_fruit_tree.webp
 scientific_name: Bunchosia argentea
 aka:
-  - Peanut Butter Fruit
-  - Guácimo Colorado
+- Peanut Butter Fruit
+- Guácimo Colorado
 family: Malpighiaceae
 zone: 10-11
 ideal_temp_min: 65
@@ -12,14 +12,14 @@ min_temp: 30
 max_temp: 100
 perennial: true
 layers:
-  - Tree
-  - Shrub
+- Tree
+- Shrub
 plant_function:
-  - Edible
-  - Pollinator
-  - Wildlife Attractor
-  - Ornamental
-  - Shade Provider
+- Edible
+- Pollinator
+- Wildlife Attractor
+- Ornamental
+- Shade Provider
 description: |-
   Peanut butter fruit tree (Bunchosia argentea) is a small evergreen tree or large shrub from Central and northern South America, often kept under about 10–15 feet in cultivation but capable of growing larger in the wild. It has glossy, simple leaves and clusters of small yellow flowers followed by oval red-orange drupes; the ripe pulp is soft and famously smells and tastes reminiscent of peanut butter or dried figs, with a sticky sweetness.
 
@@ -35,15 +35,20 @@ purpose: |-
   Ornamental: Glossy simple leaves and clustered red fruit make a tidy evergreen anchor in mixed borders -- stays under roughly 3–5 m with pruning, so it fits small lots where mango would bully sight lines.
   Shade Provider: Rounded modest crown gives broken shade to young chaya, turmeric, or nursery tables during peak tropical insolation -- still thin interior for airflow where Caribbean fruit fly is already on the mailing list.
 companions:
-  - Banana
-  - Papaya
-  - Pineapple
-  - Chaya
+- slug: banana
+  name: Banana
+- slug: papaya
+  name: Papaya
+- slug: chaya
+  name: Chaya
 cautions:
-  - None documented
+- None documented
 pests:
-  - Scale Insects
-  - Mealybugs
-  - Aphids
+- Scale Insects
+- Mealybugs
+- Aphids
 growth_habit: Small evergreen tree to large multistem shrub; glossy leaves; showy red-orange fruit
 data_quality_score: 0.75
+companions_unresolved:
+- name: Pineapple
+  original: Pineapple

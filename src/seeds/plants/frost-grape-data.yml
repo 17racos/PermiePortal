@@ -33,16 +33,18 @@ purpose: |-
   Erosion Control: Liana stems lace floodplain willows and fence posts to knit debris during high-water events on Midwest streambanks where you prune for sun each dormant season instead of letting fungal load smother fruiting wood.
   Mulcher: Broad cordate leaves drop heavy autumn mats that feed spring morel patches under retained riparian shade when prunings stay on-site chop-and-drop instead of municipal yard-waste trucks hauling carbon away.
 companions:
-- River Birch — dappled riparian light and leaf litter match Vitis ecology without
-  smothering crowns
-- American Persimmon — late fruit extends mast calendar alongside frost grapes
-- Hazelnut — shrub layer beneath trellised grapes separates vertical fruit zones
+- slug: american-persimmon
+  name: American Persimmon
 cautions:
-- Grapevine diseases (powdery mildew, anthracnose) build in humid, crowded canopies—prune
-  for sun and air
+- Grapevine diseases (powdery mildew, anthracnose) build in humid, crowded canopies—prune for sun and air
 pests:
 - Japanese Beetles
 - Powdery Mildew
 - Spotted Lanternfly
 growth_habit: Native grapevine; shreddy bark; late-hanging tart fruit clusters
 data_quality_score: 0.85
+companions_unresolved:
+- name: River Birch
+  original: River Birch — dappled riparian light and leaf litter match Vitis ecology without smothering crowns
+- name: Hazelnut
+  original: Hazelnut — shrub layer beneath trellised grapes separates vertical fruit zones

@@ -2,7 +2,7 @@ common_name: Pecan Tree
 picture: pecan_tree.webp
 scientific_name: Carya illinoinensis
 aka:
-  - Pecan
+- Pecan
 family: Juglandaceae
 zone: 5-9
 ideal_temp_min: 70
@@ -11,14 +11,14 @@ min_temp: -20
 max_temp: 100
 perennial: true
 layers:
-  - Canopy
+- Canopy
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Windbreaker
-  - Erosion Control
-  - Animal Fodder
-  - Dynamic Accumulator
+- Edible
+- Wildlife Attractor
+- Windbreaker
+- Erosion Control
+- Animal Fodder
+- Dynamic Accumulator
 description: |-
   The Pecan Tree (Carya illinoinensis) is a large deciduous tree native to central and eastern North America, known for its delicious and nutrient-rich nuts. Mature trees can reach heights of 18–25 meters (60–80 feet) with a spreading canopy, making them excellent shade providers. Pecan trees have a long lifespan, often exceeding 100 years, and can live up to 400 years under optimal conditions.
 
@@ -35,28 +35,34 @@ purpose: |-
   Animal Fodder: Whole cracked nuts, press cake, and clean shell fragments enter cattle finishing rations for energy density -- watch aflatoxin testing in humid finishes before feeding moldy windfall loads.
   Dynamic Accumulator: Leaf litter returns potassium and zinc to surface mulch rings under drip irrigation emitters -- sweep leaves back under canopy instead of hauling to landfill so micronutrients recycle with decomposition fungi.
 companions:
-  - Comfrey
-  - Clover
-  - Persimmon
-  - Plum
-  - Aronia
+- slug: comfrey
+  name: Comfrey
+- slug: aronia
+  name: Aronia
 cautions:
-  - Tomato
-  - Potato
+- Tomato
+- Potato
 pests:
-  - Aphids
-  - Fall Webworm
-  - Hickory Shuckworm
-  - Pecan Scab
-  - Pecan Weevil
-  - Twig Girdlers
-  - Walnut Husk Fly
-  - June Beetle Grubs
-  - Armored Scale
-  - Ambrosia Beetles
-  - Bark Beetles
-  - Twig Borers
-  - Cytospora Canker
-  - Powdery Mildew
+- Aphids
+- Fall Webworm
+- Hickory Shuckworm
+- Pecan Scab
+- Pecan Weevil
+- Twig Girdlers
+- Walnut Husk Fly
+- June Beetle Grubs
+- Armored Scale
+- Ambrosia Beetles
+- Bark Beetles
+- Twig Borers
+- Cytospora Canker
+- Powdery Mildew
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Clover
+  original: Clover
+- name: Persimmon
+  original: Persimmon
+- name: Plum
+  original: Plum

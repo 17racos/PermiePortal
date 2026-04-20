@@ -2,7 +2,7 @@ common_name: Nectarine Tree
 picture: nectarine_tree.webp
 scientific_name: Prunus persica var. nucipersica
 aka:
-  - Nectarine
+- Nectarine
 family: Rosaceae
 zone: 5-9
 ideal_temp_min: 65
@@ -11,12 +11,12 @@ min_temp: -15
 max_temp: 95
 perennial: true
 layers:
-  - Sub-Canopy
+- Sub-Canopy
 plant_function:
-  - Edible
-  - Pollinator
-  - Wildlife Attractor
-  - Border Plant
+- Edible
+- Pollinator
+- Wildlife Attractor
+- Border Plant
 description: |-
   The Nectarine Tree (Prunus persica var. nucipersica) is a deciduous fruit tree producing smooth-skinned, juicy fruits similar to peaches. Typically reaching heights of 4–6 meters (13–20 feet), nectarines are prized for their sweet flavor and are consumed fresh, dried, or used in cooking and baking.
 
@@ -31,52 +31,62 @@ purpose: |-
   Wildlife Attractor: Split fruit and ground drops feed raccoons, opossums, and fruit-eating birds along orchard skirts -- harvest rounds or accept wildlife tax where sanitation versus habitat is a design choice.
   Border Plant: Dwarfing rootstocks train into backyard fence lines, front-yard accent trees, and formal allées when spaced for air movement -- thornless smooth skin still needs pruned scaffold spacing so paths stay passable.
 companions:
-  - Comfrey
-  - Garlic
-  - Chive
-  - Clover
-  - Nasturtium
+- slug: chives
+  name: Chives
+- slug: comfrey
+  name: Comfrey
+- slug: garlic
+  name: Garlic
+- slug: nasturtium
+  name: Nasturtium
 cautions:
-  - Walnut
-  - Tomato
+- Walnut
+- Tomato
 pests:
-  - Apple Maggot
-  - Apple Scab
-  - Bagworm
-  - Blackberry Psyllid
-  - Borers
-  - Cherry Fruit Fly
-  - Codling Moth
-  - Cyclamen Mite
-  - Fall Webworm
-  - Leaf Curl
-  - Lesser Peachtree Borer
-  - Oriental Fruit Fly
-  - Oriental Fruit Moth
-  - Peach Twig Borer
-  - Peachtree Borer
-  - Pear Psylla
-  - Plum Curculio
-  - Raspberry Beetle
-  - Raspberry Cane Borer
-  - Rose Slug
-  - Sparganothis Fruitworm
-  - Spittlebugs
-  - Stink Bug
-  - Strawberry Root Weevil
-  - Twig Girdlers
-  - Vine Weevil
-  - Brown Rot
-  - Cytospora Canker
-  - Fire Blight
-  - Gall Mite
-  - Leaf Blight
-  - Leaf Spot
-  - Rust Mite
-  - Spotted Lanternfly
-  - Brown Marmorated Stink Bug
-  - Eastern Tent Caterpillar
-  - Harlequin Ladybird
-  - Tent Caterpillar
+- Apple Maggot
+- Apple Scab
+- Bagworm
+- Blackberry Psyllid
+- Borers
+- Cherry Fruit Fly
+- Codling Moth
+- Cyclamen Mite
+- Fall Webworm
+- Leaf Curl
+- Lesser Peachtree Borer
+- Oriental Fruit Fly
+- Oriental Fruit Moth
+- Peach Twig Borer
+- Peachtree Borer
+- Pear Psylla
+- Plum Curculio
+- Raspberry Beetle
+- Raspberry Cane Borer
+- Rose Slug
+- Sparganothis Fruitworm
+- Spittlebugs
+- Stink Bug
+- Strawberry Root Weevil
+- Twig Girdlers
+- Vine Weevil
+- Brown Rot
+- Cytospora Canker
+- Fire Blight
+- Gall Mite
+- Leaf Blight
+- Leaf Spot
+- Rust Mite
+- Spotted Lanternfly
+- Brown Marmorated Stink Bug
+- Eastern Tent Caterpillar
+- Harlequin Ladybird
+- Tent Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_normalized:
+- original: Chive
+  resolved_slug: chives
+  name: Chives
+companions_unresolved:
+- name: Clover
+  original: Clover

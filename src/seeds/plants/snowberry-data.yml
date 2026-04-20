@@ -35,12 +35,10 @@ purpose: |-
   Erosion Control: Suckering roots knit riparian sand and road-cut spoil where moisture stays honest through summer draws.
   Ornamental: Ghost berries hang against bare twigs all winter for designers who plan structure before flower catalogs arrive.
 companions:
-- Elderberry — similar riparian appetites and wildlife value; stagger heights for
-  layered bird cover.
-- Red-osier Dogwood — contrasting stem color and shared love of moisture without chemical
-  warfare.
-- Ostrich Fern — fibrous roots and seasonal fronds fill the shady skirt without competing
-  for deep moisture the shrub needs.
+- slug: elderberry
+  name: Elderberry
+- slug: ostrich-fern
+  name: Ostrich Fern
 cautions:
 - Hot dry exposed parking strips in the subtropics
 - Walnut
@@ -50,3 +48,7 @@ pests:
 - Leafrollers
 growth_habit: Deciduous suckering shrub; arching stems; persistent white berries
 data_quality_score: 0.72
+companions_unresolved:
+- name: Red Osier Dogwood
+  original: Red-osier Dogwood — contrasting stem color and shared love of moisture without chemical warfare.
+  note: normalization_target_not_in_index

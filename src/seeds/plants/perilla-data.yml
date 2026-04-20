@@ -2,7 +2,7 @@ common_name: Perilla
 picture: perilla.webp
 scientific_name: Perilla frutescens
 aka:
-- Shiso
+  - Shiso
 family: Lamiaceae
 zone: 6-11
 ideal_temp_min: 60
@@ -11,11 +11,11 @@ min_temp: 35
 max_temp: 100
 perennial: false
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Edible
-- Medicinal
-- Pollinator
+  - Edible
+  - Medicinal
+  - Pollinator
 description: |-
   Perilla (Perilla frutescens) is a useful annual species in the Lamiaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a herbaceous form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.
 
@@ -28,13 +28,20 @@ purpose: |-
   Edible: Perilla frutescens bicolor leaves wrap Korean ssam, pickle as umeboshi partners, and fry tempura with shiso aromatics -- red types color vinegar; seed oil is omega-3 rich but oxidizes fast once crushed, so small batches beat hero jars.
   Medicinal: Leaf and seed fractions appear in Kampo and TCM lines for cough and seafood-poisoning narratives -- perilla ketone loads vary by chemotype; keep concentrated extracts inside practitioner dosing, not casual tea megadoses.
   Pollinator: Open-faced whorled spikes feed long-tongued bees and syrphid flies in late-summer heat when many herbs quit -- let a few plants bolt in insectary rows while you keep kitchen rows cut for leaf quality.
-companions:
-- Basil - similar harvest rhythm and pollinator value in herb strips.
-- Eggplant - perilla can act as aromatic intercrop and living mulch.
-- Marigold - supports beneficial insect diversity around annual beds.
+companions: []
 cautions:
-- None documented
+  - None documented
 pests:
-- Aphids
-- Whiteflies
-- Leaf Spot
+  - Aphids
+  - Whiteflies
+  - Leaf Spot
+companion_categories:
+  - name: Basil - similar harvest rhythm and pollinator value in herb strips.
+    original: Basil - similar harvest rhythm and pollinator value in herb strips.
+    type: system
+  - name: Eggplant - perilla can act as aromatic intercrop and living mulch.
+    original: Eggplant - perilla can act as aromatic intercrop and living mulch.
+    type: system
+  - name: Marigold - supports beneficial insect diversity around annual beds.
+    original: Marigold - supports beneficial insect diversity around annual beds.
+    type: system

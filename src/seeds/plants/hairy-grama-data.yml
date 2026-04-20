@@ -2,7 +2,7 @@ common_name: Hairy Grama
 picture: hairy_grama.webp
 scientific_name: Bouteloua hirsuta
 aka:
-- Hairy grama grass
+  - Hairy grama grass
 family: Poaceae
 zone: 5-9
 ideal_temp_min: 60
@@ -11,12 +11,12 @@ min_temp: -20
 max_temp: 105
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Animal Fodder
-- Erosion Control
-- Wildlife Attractor
-- Ornamental
+  - Animal Fodder
+  - Erosion Control
+  - Wildlife Attractor
+  - Ornamental
 description: |-
   Hairy grama (Bouteloua hirsuta) is a warm-season shortgrass of dry prairies, rocky slopes, and open woodlands from central North America into Mexico, recognizable by comb-like spikes and hairy lemmas that give the species its common name. Plants form low tufts often under 1 foot (0.3 m) with flowering stems reaching slightly higher. It belongs in xeric meadow mixes, green roofs with depth, and restoration seedings where water is honest scarcity, not temporary inconvenience.
 
@@ -31,26 +31,26 @@ purpose: |-
   Wildlife Attractor: Small seeds feed ground-foraging birds and rodents in prairie patches -- leave standing stubble into fall so granivores have access after flowering combs mature.
   Ornamental: One-sided spikes look like miniature eyelash combs along the stem -- mass with little bluestem for two-height warm-season choreography in dry meadow designs.
 companions:
-- Little Bluestem — taller warm-season matrix grass sharing dry prairie culture
-- Hairy Wild Petunia — low forb layer adding flower color at similar height without
-  shade stress
-- Yarrow — shallow insectary neighbor along meadow edges with drought tolerance
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: prairie-wild-petunia
+    name: Prairie Wild Petunia
+  - slug: yarrow
+    name: Yarrow
 cautions:
-- Wet clay — root rot and winterkill; choose switchgrass if soil stays soggy
-- Heavy thatch buildup — occasional fire or mowing may be needed in dense stands per
-  local guidance
+  - Wet clay — root rot and winterkill; choose switchgrass if soil stays soggy
+  - Heavy thatch buildup — occasional fire or mowing may be needed in dense stands per local guidance
 pests:
-- Armyworms
-- Bamboo Mite
-- Corn Earworm
-- Fall Armyworm
-- Grasshopper
-- Lubber Grasshopper
-- Rice Blast Fungus
-- Rice Water Weevil
-- Spittlebugs
-- Wireworm
-- Leaf Blight
-growth_habit: Low warm-season bunchgrass; comb-like spikes; dry prairie and rocky
-  soils
+  - Armyworms
+  - Bamboo Mite
+  - Corn Earworm
+  - Fall Armyworm
+  - Grasshopper
+  - Lubber Grasshopper
+  - Rice Blast Fungus
+  - Rice Water Weevil
+  - Spittlebugs
+  - Wireworm
+  - Leaf Blight
+growth_habit: Low warm-season bunchgrass; comb-like spikes; dry prairie and rocky soils
 data_quality_score: 0.76

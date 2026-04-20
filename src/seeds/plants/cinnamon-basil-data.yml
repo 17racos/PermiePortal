@@ -2,7 +2,7 @@ common_name: Cinnamon Basil
 picture: cinnamon_basil.webp
 scientific_name: Ocimum basilicum 'Cinnamon'
 aka:
-  - Mexican Spice Basil
+- Mexican Spice Basil
 family: Lamiaceae
 zone: 9-11
 ideal_temp_min: 65
@@ -11,12 +11,12 @@ min_temp: 32
 max_temp: 100
 perennial: false
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Pollinator
-  - Pest Management
-  - Ornamental
+- Edible
+- Pollinator
+- Pest Management
+- Ornamental
 description: |-
   Cinnamon basil is a sweet basil cultivar with purple stems and a warm spicy note that whispers cinnamon without being dessert. Standard culinary basil life cycle: heat-loving annual in most of the U.S., possible short-lived perennial in frost-free Florida if you do not let it flower into exhaustion. subtropical and tropical Americas: plant after frost, harvest aggressively, let a few spikes bloom for pollinators if you can spare the leaf quality dip.
 
@@ -33,14 +33,18 @@ purpose: |-
   Pest Management: High volatile-oil foliage can obscure host-plant odors for thrips and aphids when Ocimum is woven through tomato and pepper rows.
   Ornamental: Bronze stems and columnar habit photograph cleanly for nursery benches and front-yard herb spirals in frost-free towns.
 companions:
-  - Tomato
-  - Pepper
-  - Marigold
+- slug: tomato
+  name: Tomato
+- slug: marigold
+  name: Marigold
 cautions:
-  - Cold wet soil at transplant
+- Cold wet soil at transplant
 pests:
-  - Aphids
-  - Japanese Beetles
-  - Whiteflies
+- Aphids
+- Japanese Beetles
+- Whiteflies
 growth_habit: Annual
 data_quality_score: 0.75
+companions_unresolved:
+- name: Pepper
+  original: Pepper

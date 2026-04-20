@@ -35,9 +35,10 @@ purpose: |-
   Wildlife Attractor: Tiny umbels feed minute flies and beetles while mats shelter tadpoles -- leave floating carpets if amphibian nursery matters more than golf-course tidy ponds.
   Edible: Some Asian traditions blanch tender stems -- positive ID matters because look-alike pennyworts vary in chemistry; when in doubt, use it as habitat, not salad.
 companions:
-  - Cattail — vertical structure and deep rhizosphere contrast with pennywort’s carpet; together they clarify “deep water vs. splash zone” in a pond guild.
-  - Pickerelweed — emergent spikes and showy flowers stack height classes for pollinators while pennywort seals the mud gap at the toe of the slope.
-  - Duckweed — floating layer + creeping layer = two niches of nutrient uptake and shade that calm algae’s main-character syndrome.
+  - slug: cattail
+    name: Cattail
+  - slug: pickerelweed
+    name: Pickerelweed
 cautions:
   - None documented
 pests:
@@ -45,3 +46,7 @@ pests:
   - Aphids
 growth_habit: Creeping stoloniferous perennial; mats expand vegetatively in wet soil or shallow water
 data_quality_score: 0.75
+companion_categories:
+  - name: Duckweed
+    original: Duckweed — floating layer + creeping layer = two niches of nutrient uptake and shade that calm algae’s main-character syndrome.
+    type: ecosystem

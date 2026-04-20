@@ -2,9 +2,9 @@ common_name: Basil
 picture: basil.webp
 scientific_name: Ocimum basilicum
 aka:
-  - Sweet Basil
-  - Culinary Basil
-  - Thai Basil (Ocimum basilicum var. thyrsiflora)
+- Sweet Basil
+- Culinary Basil
+- Thai Basil (Ocimum basilicum var. thyrsiflora)
 family: Lamiaceae
 zone: 9-11
 ideal_temp_min: 50
@@ -13,14 +13,14 @@ min_temp: 32
 max_temp: 100
 perennial: false
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
-  - Border Plant
-  - Pest Management
+- Edible
+- Medicinal
+- Pollinator
+- Wildlife Attractor
+- Border Plant
+- Pest Management
 description: |-
   Basil (Ocimum basilicum) is a fast-growing, aromatic herb widely used for culinary and medicinal purposes. It has bright green, oval leaves with a strong, slightly sweet aroma. The plant grows between 30–90 cm (12–36 inches) tall and produces small white or purple flowers that attract pollinators.
 
@@ -39,36 +39,42 @@ purpose: |-
   Border Plant: Compact lines edge tomato beds and paths so harvest scissors never cross muddy boots; succession sow every three weeks so downy mildew on one cohort does not end all pesto.
   Pest Management: Essential oil haze from brushed leaves masks tomato host odor enough to matter at bed scale; combine with marigold and allium neighbors rather than expecting basil alone to stop every aphid flight.
 companions:
-  - Tomato
-  - Pepper
-  - Oregano
-  - Lettuce
-  - Marigold
+- slug: tomato
+  name: Tomato
+- slug: oregano
+  name: Oregano
+- slug: lettuce
+  name: Lettuce
+- slug: marigold
+  name: Marigold
 cautions:
-  - Rue
-  - Fennel
+- Rue
+- Fennel
 pests:
-  - Aphids
-  - Whiteflies
-  - Japanese Beetles
-  - Spider Mites
-  - Fungus Gnats
-  - Whitefly
-  - Gray Mold
-  - Root Aphid
-  - Fungus Gnat Larvae
-  - Cutworm Larvae
-  - Glass Snails
-  - Leatherleaf Slug
-  - Nutrient Burn
-  - Fungus Gnat
-  - Overwatering Root Rot
-  - Nitrogen Deficiency
-  - Cucumber Mosaic Virus
-  - Iguana
+- Aphids
+- Whiteflies
+- Japanese Beetles
+- Spider Mites
+- Fungus Gnats
+- Whitefly
+- Gray Mold
+- Root Aphid
+- Fungus Gnat Larvae
+- Cutworm Larvae
+- Glass Snails
+- Leatherleaf Slug
+- Nutrient Burn
+- Fungus Gnat
+- Overwatering Root Rot
+- Nitrogen Deficiency
+- Cucumber Mosaic Virus
+- Iguana
 growth_habit: Tree
 data_quality_score: 0.8
 field_observations: |-
   Pinch flower buds weekly if leaves are the crop—blooming shifts flavor woody overnight in hot weather.
   Downy mildew shows yellow leaf tops and gray fuzz below—remove infected leaves early; resistant cultivars exist.
   Wet foliage overnight invites basil pathogens—morning water at soil line beats evening spritzing.
+companions_unresolved:
+- name: Pepper
+  original: Pepper

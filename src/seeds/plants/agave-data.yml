@@ -2,8 +2,8 @@ common_name: Agave
 picture: agave.webp
 scientific_name: Agave spp.
 aka:
-  - Century Plant
-  - Maguey
+- Century Plant
+- Maguey
 family: Asparagaceae
 zone: 7-11
 ideal_temp_min: 60
@@ -12,11 +12,11 @@ min_temp: 10
 max_temp: 100
 perennial: true
 layers:
-  - Ground Cover
+- Ground Cover
 plant_function:
-  - Biofuel
-  - Fiber
-  - Ornamental
+- Biofuel
+- Fiber
+- Ornamental
 description: |-
   Agave is a genus of succulent plants known for their rosette of thick, fibrous leaves that end in sharp points. Sizes vary from small species measuring 30 cm (1 foot) to larger ones reaching up to 2.5 meters (8 feet) in height. Agaves are monocarpic, flowering once at the end of their life cycle, which can range from 8 to 30 years. The flowering stalk can grow several meters tall, bearing numerous tubular flowers. After flowering, the main plant dies, but it often produces offsets or "pups" around its base.
 
@@ -31,15 +31,19 @@ purpose: |-
   Fiber: Sisal-type species yield long leaf fibers for rope, matting, and erosion-control wattles once leaves are decorticated and dried -- wear gloves because raphides and saponins make sloppy stripping an itchy lesson.
   Ornamental: Rosettes of thick glaucous leaves give sculptural focal points in xeric beds where other perennials fry -- remember the plant is monocarpic so the flowering mast signals replacement planning from pups or bulbils.
 companions:
-  - Yucca
-  - Cactus
-  - Sage
+- slug: sage
+  name: Sage
 cautions:
-  - Aloe
+- Aloe
 pests:
-  - Asparagus Beetle
-  - Mealybugs
-  - Palmetto Weevil
-  - Scale Insects
+- Asparagus Beetle
+- Mealybugs
+- Palmetto Weevil
+- Scale Insects
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Yucca
+  original: Yucca
+- name: Cactus
+  original: Cactus

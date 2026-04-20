@@ -34,9 +34,12 @@ purpose: |-
   Wildlife Attractor: Spring yellow inflorescences overload native solitary bees; summer pods feed quail and rodents willing to grind hard seeds -- expect litter of spent flowers that dry into golden mulch under the crown.
   Ornamental: Lime-green bark and gold flower clouds sell the tree along roadsides and xeric front yards -- winter silhouette stays airy so designers stop mistaking drought honesty for abandonment.
 companions:
-  - Desert Ironwood — long-lived nurse/overstory texture; ironwood’s density contrasts palo verde’s airy crown for layered desert guilds.
-  - Agave — succulent understory that respects dry shade and reflects glare; shallow roots avoid taproot turf wars.
-  - Pigeon Pea — fast legume edge for chop-and-drop on the sunny side of the drip line if you keep it offset from the trunk.
+  - slug: desert-ironwood
+    name: Desert Ironwood
+  - slug: agave
+    name: Agave
+  - slug: pigeon-pea
+    name: Pigeon Pea
 cautions:
   - None documented
 pests:

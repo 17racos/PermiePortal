@@ -28,9 +28,12 @@ purpose: |-
   Pollinator: Pale lilac-lipped flowers sit just above the mat in early summer, feeding small Halictid bees that work low thyme carpets when taller monarda is still in bud -- shear spent blooms if you hate self-sown thyme volunteers in path cracks.
   Ground Cover: Prostrate selections root along stems, forming six-inch (15 cm) mats that survive foot glances better than upright thyme -- plant on berms with sharp drainage because winter-wet crowns rot fast in clay pans.
 companions:
-  - Rosemary (Salvia rosmarinus) — both prefer sun and drainage, making bed care simpler.
-  - Marigold (Tagetes patula) — adds nectar and helps you monitor pest changes in the same front-edge zone.
-  - Thyme (Thymus vulgaris) — same cultural needs and layered aroma encourages a stable herb patch guild.
+  - slug: rosemary
+    name: Rosemary
+  - slug: marigold
+    name: Marigold
+  - slug: thyme
+    name: Thyme
 cautions:
   - Avoid heavy, waterlogged soil; crown rot is the main long-term problem.
 pests:

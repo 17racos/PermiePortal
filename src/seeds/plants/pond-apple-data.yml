@@ -34,13 +34,18 @@ purpose: |-
   Erosion Control: Buttressed trunks and adventitious roots armor pond banks against sheet flow and minor storm surge -- tolerates brackish pulses better than true freshwater-only hardwoods on the same site.
   Shade Provider: Open Annona crown gives broken shade to sawgrass, pickerelweed, and marsh fern understory -- juvenile growth tolerates seasonal inundation that would drown pecans on the same berm.
 companions:
-- Mangrove
-- Buttonwood
-- Bald Cypress
-- Pickerelweed
+- slug: bald-cypress
+  name: Bald Cypress
+- slug: pickerelweed
+  name: Pickerelweed
 cautions:
 - Dry upland sand without irrigation
 pests:
 - Scale Insects
 - Mealybugs
 - Aphids
+companions_unresolved:
+- name: Mangrove
+  original: Mangrove
+- name: Buttonwood
+  original: Buttonwood

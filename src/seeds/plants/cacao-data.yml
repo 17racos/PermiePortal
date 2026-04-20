@@ -30,9 +30,12 @@ purpose: |-
   Medicinal: pulp and nibs carry methylxanthines and polyphenols used in traditional tonics -- dose matters because theobromine is toxic to dogs and risky for some people.
   Wildlife Attractor: Tiny cauliflorous Theobroma cacao flowers depend on biting midges and other small pollinators in humid shade, and ripe pods draw mammals and insects to fallen fruit.
 companions:
-  - Banana
-  - Papaya
-  - Coconut
+  - slug: coconut-palm
+    name: Coconut Palm
+  - slug: banana
+    name: Banana
+  - slug: papaya
+    name: Papaya
 cautions:
   - None
 pests:

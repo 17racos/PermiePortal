@@ -2,7 +2,7 @@ common_name: Yacon
 picture: yacon.webp
 scientific_name: Smallanthus sonchifolius
 aka:
-  - Peruvian ground apple
+- Peruvian ground apple
 family: Asteraceae
 zone: 7-11
 ideal_temp_min: 50
@@ -11,12 +11,12 @@ min_temp: 25
 max_temp: 95
 perennial: true
 layers:
-  - Herbaceous
-  - Root
+- Herbaceous
+- Root
 plant_function:
-  - Edible
-  - Mulcher
-  - Dynamic Accumulator
+- Edible
+- Mulcher
+- Dynamic Accumulator
 description: |-
   Yacon is the sunflower relative that stashes inulin in crunchy tubers — sweet on the tongue, polite on the glycemic gossip if you believe the brochures. Top growth dies with frost; underground crowns come back where winters are mild. subtropical and tropical Americas: mulch crowns, hedge bets on freezes.
 
@@ -30,19 +30,30 @@ purpose: |-
   Mulcher: 2 m stems die back to frost -- chop tops for mulch rings before wind shreds leaves across the county.
   Dynamic Accumulator: Large root system mines moist loam -- harvest crowns separately from edible tubers so replant stock survives.
 companions:
-  - Comfrey
-  - Beans
-  - Nasturtium
+- slug: comfrey
+  name: Comfrey
+- slug: nasturtium
+  name: Nasturtium
+- slug: fava-bean
+  name: Fava Bean
 cautions:
-  - Harvesting all crowns — leave propagules or buy again like a tourist
-  - Waterlogged winter soil on frozen crowns
+- Harvesting all crowns — leave propagules or buy again like a tourist
+- Waterlogged winter soil on frozen crowns
 pests:
-  - Aphids
-  - Banded Winged Whitefly
-  - Greenhouse Whitefly
-  - Lettuce Aphid
-  - Lubber Grasshopper
-  - Root Aphid
-  - Rootknot Nematodes
-  - Slugs
-  - Armadillo
+- Aphids
+- Banded Winged Whitefly
+- Greenhouse Whitefly
+- Lettuce Aphid
+- Lubber Grasshopper
+- Root Aphid
+- Rootknot Nematodes
+- Slugs
+- Armadillo
+companions_unresolved:
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index
+companions_normalized:
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

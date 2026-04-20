@@ -32,9 +32,12 @@ purpose: |-
   Shade Provider: Single cordons on pergola rafters cast moving leaf shadow that drops afternoon wall temperature on west-facing patios in humid summers.
   Pollinator: Tiny greenish grape flowers are wind-pollinated but still visited by small bees along raceme edges -- keep two self-fertile selections or a pollinizer female if your site is isolated.
 companions:
-  - Elderberry — fruiting shrub edge that tolerates similar sunny, messy hedgerow culture without demanding the same trellis.
-  - Comfrey — mineral mulch cuts at the row base to feed soil life where mower strips fail ethics.
-  - Tithonia — tall annual flower draws pollinators alongside late-summer fruit scouting walks.
+  - slug: elderberry
+    name: Elderberry
+  - slug: comfrey
+    name: Comfrey
+  - slug: tithonia
+    name: Tithonia
 cautions:
   - None documented
 pests:

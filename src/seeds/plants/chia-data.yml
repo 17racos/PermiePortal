@@ -48,9 +48,8 @@ purpose: |-
   Biofuel: Seed oil fraction is pressed experimentally for lamp oil and small-scale bio-oil where high-oil landraces are selected.
   Ground Cover: Young plants shade row middles briefly between taller crops; re-sow when late-season gaps reopen.
 companions:
-- Beans
-- Corn
-- Squash
+- slug: fava-bean
+  name: Fava Bean
 cautions:
 - None
 pests:
@@ -58,3 +57,15 @@ pests:
 - Flea Beetles
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index
+- name: Corn
+  original: Corn
+- name: Squash
+  original: Squash
+companions_normalized:
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

@@ -2,8 +2,8 @@ common_name: Cattail
 picture: cattail.webp
 scientific_name: Typha latifolia
 aka:
-  - Broadleaf cattail
-  - Bulrush (colloquial confusion)
+- Broadleaf cattail
+- Bulrush (colloquial confusion)
 family: Typhaceae
 zone: 3-10
 ideal_temp_min: 40
@@ -12,14 +12,14 @@ min_temp: -40
 max_temp: 100
 perennial: true
 layers:
-  - Herbaceous
-  - Aquatic
-  - Root
+- Herbaceous
+- Aquatic
+- Root
 plant_function:
-  - Edible
-  - Water Purification
-  - Wildlife Attractor
-  - Mulcher
+- Edible
+- Water Purification
+- Wildlife Attractor
+- Mulcher
 description: |-
   Cattail is the swamp multitool: edible shoots, pollen pancakes if you are ambitious, and dense rhizomes that stabilize muck while filtering water like a grumpy intern. In subtropical and tropical Americas it dominates ditches, pond margins, and anywhere society forgot drainage. Harvest only from clean water — cattails are not a heavy-metal detox strategy, they are a sponge.
 
@@ -32,13 +32,19 @@ purpose: |-
   Wildlife Attractor: dense stems hide red-winged blackbirds, rails, -- and amphibians while seeds fluff feeds finches after heads brown in late fall marshes.
   Mulcher: senesced leaves collapse into anaerobic muck that feeds detritivores -- and builds peat edges when cut material is rolled back into the wetland instead of bagging every stem.
 companions:
-  - Pickerelweed
-  - Duck potato
-  - Water lily
+- slug: pickerelweed
+  name: Pickerelweed
 cautions:
-  - Harvest from roadside ditches with mystery runoff
-  - Small ornamental ponds without containment if you dislike monoculture
+- Harvest from roadside ditches with mystery runoff
+- Small ornamental ponds without containment if you dislike monoculture
 pests:
-  - Aphids
-  - Snails
-  - Caterpillars
+- Aphids
+- Snails
+- Caterpillars
+companions_unresolved:
+- name: Water lily
+  original: Water lily
+companion_categories:
+- name: Duck potato
+  original: Duck potato
+  type: ecosystem

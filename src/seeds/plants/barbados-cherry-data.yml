@@ -34,9 +34,10 @@ purpose: |-
   Wildlife Attractor: Ripe cherries pull mockingbirds, anoles, and butterflies to the same shrub humans net -- leave interior branches unpruned if lizards need cover from midday heat.
   Ornamental: Shell-pink flowers against glossy evergreen leaves read as tidy dooryard citrus alternative without giant tree space -- iron chlorosis on alkaline irrigation shows as yellow veins on new growth first.
 companions:
-- Citrus
-- Guava
-- Papaya
+- slug: guava
+  name: Guava
+- slug: papaya
+  name: Papaya
 cautions:
 - Waterlogged soils
 pests:
@@ -44,3 +45,6 @@ pests:
 - Scale Insects
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Citrus
+  original: Citrus

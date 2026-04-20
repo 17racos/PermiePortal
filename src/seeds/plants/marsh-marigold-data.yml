@@ -35,9 +35,12 @@ purpose: |-
   Pollinator: Flowers face upward for easy landing boards in breezy wetland sun -- mass clumps so early pollinators cruise a corridor instead of isolated stems.
   Water Retention: Fibrous roots knit saturated muck, slowing erosion when ice heaves and spring floods rearrange soft banks.
 companions:
-  - Cattail — shares the same soggy real estate; tall cattails define the deep-water side while marsh marigold carpets the shallows, reducing bare-muck erosion.
-  - Blue Flag Iris — staggered bloom and contrasting foliage structure keep the margin visually legible while roots interlace to armor soft banks.
-  - Softstem Bulrush — vertical stems break wind fetch on small ponds; marsh marigold fills the transition zone between open water and upland rush tussocks.
+  - slug: cattail
+    name: Cattail
+  - slug: blue-flag-iris
+    name: Blue Flag Iris
+  - slug: softstem-bulrush
+    name: Softstem Bulrush
 cautions:
   - None documented
 pests:

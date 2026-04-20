@@ -38,10 +38,8 @@ purpose: |-
   Wildlife Attractor: Bee traffic on grape-scented blooms can overwhelm small arbors -- remove Asian seed pods before riverbanks get new colonies.
   Shade Provider: Mature stems lace overhead to filter noon sun -- girdles naive trees; train on dedicated posts, not saplings you love.
 companions:
-- Grape
-- Hardy Kiwi
-- Maypop
-- Rose
+- slug: maypop
+  name: Maypop
 cautions:
 - Weak trellis
 - Small fragile trees
@@ -77,3 +75,10 @@ pests:
 - Caterpillars
 - Harlequin Ladybird
 - Velvetbean Caterpillar
+companions_unresolved:
+- name: Grape
+  original: Grape
+- name: Hardy Kiwi
+  original: Hardy Kiwi
+- name: Rose
+  original: Rose

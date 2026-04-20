@@ -2,8 +2,8 @@ common_name: American Persimmon
 picture: american_persimmon.webp
 scientific_name: Diospyros virginiana
 aka:
-  - Common persimmon
-  - Eastern persimmon
+- Common persimmon
+- Eastern persimmon
 family: Ebenaceae
 zone: 4-9
 ideal_temp_min: 45
@@ -12,12 +12,12 @@ min_temp: -25
 max_temp: 100
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Timber
-  - Ornamental
+- Edible
+- Wildlife Attractor
+- Timber
+- Ornamental
 description: |-
   American persimmon is the native astringent poker that ripens into sugar only after frost—or patience—then feeds everything with a sweet tooth. Taprooted, slow to fruit from seed, worth it for honest regional food forests.
 
@@ -34,16 +34,21 @@ purpose: |-
   Timber: Dense ebony-family wood works for turning, tool handles, and fence posts when thinned stems reach usable diameter -- harvest ethics still matter because slow growth means each cut is a long wait for replacement.
   Ornamental: Blocky bark, black gumdrop buds, and apricot fall color carry winter interest in eastern food forests -- multi-trunk forms look architectural without needing separate ornamental filler trees.
 companions:
-  - Pawpaw
-  - Black locust
-  - Native grasses
+- slug: pawpaw
+  name: Pawpaw
+- slug: black-locust
+  name: Black Locust
 cautions:
-  - Expecting instant gratification from seedling trees
-  - Planting under aggressive turf competition without mulch ring honesty
+- Expecting instant gratification from seedling trees
+- Planting under aggressive turf competition without mulch ring honesty
 pests:
-  - Persimmon Borer
-  - borers
-  - persimmon psylla
-  - scale insects
+- Persimmon Borer
+- borers
+- persimmon psylla
+- scale insects
 growth_habit: Medium deciduous tree; often multi-trunked; deep taproot
 data_quality_score: 0.8
+companion_categories:
+- name: Native grasses
+  original: Native grasses
+  type: system

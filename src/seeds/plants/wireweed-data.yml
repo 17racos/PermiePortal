@@ -30,11 +30,10 @@ purpose: |-
   Ground Cover: Prostrate mats hug compacted path edges where turf dies -- tells you soil is compacted; fix compaction, not just pull weeds.
   Dynamic Accumulator: Scavenges N from foot-traffic zones into wiry stems -- compost pulled plants before seeds mature or you bank future headaches.
 companions:
-- White Clover — low legume matrix can outcompete knotweed gaps in lawn conversion
-  projects with proper mowing height
-- Ryegrass — quick cover crop to stabilize disturbed soil while perennial sod establishes
-- Buckwheat — smother crop in rotation; shades and outcompetes early-season knotweed
-  in vegetable fallows
+- slug: white-clover
+  name: White Clover
+- slug: buckwheat
+  name: Buckwheat
 cautions:
 - Agricultural weed — seed bank persistence; prevent seed set in production fields
 - Pesticide residues — do not forage from sprayed rights-of-way
@@ -42,6 +41,8 @@ pests:
 - Flea Beetles
 - Leafhoppers
 - Rhubarb Curculio
-growth_habit: Prostrate annual knotweed; wiry stems; tiny leaves; compacted disturbed
-  ground
+growth_habit: Prostrate annual knotweed; wiry stems; tiny leaves; compacted disturbed ground
 data_quality_score: 0.82
+companions_unresolved:
+- name: Ryegrass
+  original: Ryegrass — quick cover crop to stabilize disturbed soil while perennial sod establishes

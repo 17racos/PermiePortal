@@ -30,9 +30,12 @@ purpose: |-
   Water Retention: wide rosette leaves shade bed soil through cool seasons, slowing surface drying while the storage root sizes in steady moisture without bogging.
   Border Plant: upright crinkled foliage rings carrot or leek rows as a visible cool-season bed edge before the swollen crown lifts at harvest.
 companions:
-  - Leek (Allium ampeloprasum) — similar cool-season rhythm and helps diversify bed structure without heavy competition.
-  - Carrot (Daucus carota) — staged harvesting in the same season keeps beds useful and supports soil life with varied root profiles.
-  - Thyme (Thymus vulgaris) — aromatic ground-level companion that supports pollinators and keeps the border from going bare.
+  - slug: leek
+    name: Leek
+  - slug: carrot
+    name: Carrot
+  - slug: thyme
+    name: Thyme
 cautions:
   - Hot weather can cause bolting or rough texture; provide partial shade during heat waves.
 pests:

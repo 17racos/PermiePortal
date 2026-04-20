@@ -32,17 +32,18 @@ purpose: |-
   Pest Management: Carvacrol-rich foliage can mask crop odors when dotted through brassica rows -- insects still arrive; scouting stays mandatory.
   Ornamental: Rhizomatous drifts read cottage-meadow soft -- spreads politely compared with Mentha spicata underground riots.
 companions:
-- Yarrow — contrasting foliage and shared sun; both handle lean soils
-- Hyssop — upright spikes pair with lower wild basil drift; pollinator synergy
-- Coneflower — taller summer structure behind aromatic ground layer
+- slug: yarrow
+  name: Yarrow
+- slug: hyssop-officinalis
+  name: Hyssop officinalis
 cautions:
-- Naturalized status — confirm local ecologist guidance before planting near sensitive
-  natural areas
-- Mint-family allergies — aromatic concentration can irritate sensitive skin in hot
-  sun
+- Naturalized status — confirm local ecologist guidance before planting near sensitive natural areas
+- Mint-family allergies — aromatic concentration can irritate sensitive skin in hot sun
 pests:
 - Aphids
 - Spider Mites
-growth_habit: Rhizomatous perennial; aromatic leaves; pink-purple tubular flowers;
-  meadow edges
+growth_habit: Rhizomatous perennial; aromatic leaves; pink-purple tubular flowers; meadow edges
 data_quality_score: 0.84
+companions_unresolved:
+- name: Coneflower
+  original: Coneflower — taller summer structure behind aromatic ground layer

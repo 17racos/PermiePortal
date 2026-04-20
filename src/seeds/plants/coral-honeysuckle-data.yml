@@ -31,15 +31,13 @@ purpose: |-
   Ornamental: Semi-evergreen leaves stay neat on trellis compared with trumpet creeper -- good for HOA-visible posts where you still want a native plant stamp.
   Erosion Control: Root crown mulched thick at the top of a retaining wall holds soil behind lattice while stems veil concrete with living green.
 companions:
-- Crossvine — complementary trumpet vines on large arbor posts with staggered bloom
-  peaks
-- Passionflower — finer textured vine for mixed vertical polycultures on sturdy supports
-- Scarlet Bee Balm — herb layer beneath trellis draws hummingbirds to a two-story
-  buffet
+- slug: crossvine
+  name: Crossvine
+- slug: passionflower
+  name: Passionflower
 cautions:
 - Powdery Mildew — improve air flow; avoid wetting foliage late in the day
-- Asian Bush Honeysuckle nearby — do not confuse seedlings; remove invasives to reduce
-  hybridization risk where documented
+- Asian Bush Honeysuckle nearby — do not confuse seedlings; remove invasives to reduce hybridization risk where documented
 pests:
 - Aphids
 - Powdery Mildew
@@ -50,3 +48,6 @@ field_observations: |-
   Horizontal training is how you buy more flowers; vertical-only fuss yields fewer tubes.
   If leaves look dusty white, reach for airflow before the spray bottle reflex.
   Hummingbird wars at the feeder are optional; this vine is the organic pay-per-view.
+companions_unresolved:
+- name: Scarlet Bee Balm
+  original: Scarlet Bee Balm — herb layer beneath trellis draws hummingbirds to a two-story buffet

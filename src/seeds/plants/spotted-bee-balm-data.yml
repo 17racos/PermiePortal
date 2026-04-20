@@ -2,11 +2,11 @@ common_name: Spotted Bee Balm
 picture: spotted_bee_balm.webp
 scientific_name: Monarda punctata
 aka:
-- Dotted horsemint
-- Spotted horsemint
-- Spotted Beebalm
-- Horsemint
-- Dotted Horsemint
+  - Dotted horsemint
+  - Spotted horsemint
+  - Spotted Beebalm
+  - Horsemint
+  - Dotted Horsemint
 family: Lamiaceae
 zone: 4-9
 ideal_temp_min: 50
@@ -15,13 +15,13 @@ min_temp: -25
 max_temp: 102
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Pollinator
-- Medicinal
-- Ornamental
-- Wildlife Attractor
-- Pest Management
+  - Pollinator
+  - Medicinal
+  - Ornamental
+  - Wildlife Attractor
+  - Pest Management
 description: |-
   Spotted bee balm (Monarda punctata) is an aromatic mint-family perennial of sandy prairies, pine barrens, and open coastal plain habitats across much of eastern and central North America. Plants are often biennial-acting in harsh sites but persist by seed; whorls of creamy flowers spotted with purple ride stacked tiers up the stem, smelling of thyme and oregano. Long-tongued bees, wasps, and butterflies mob it in late summer when many flowers quit.
 
@@ -37,19 +37,17 @@ purpose: |-
   Wildlife Attractor: Busy hymenopteran traffic pulls flycatchers and warblers to hunt along meadow margins you leave unmowed.
   Pest Management: Carvacrol plumes confuse some herbivore scent trails when dotted horsemint forms insectary strips beside solanaceous rows -- scout damage anyway because oils are not armor.
 companions:
-- Butterfly Weed — shared sun and lean soil; staggered bloom from mid to late summer
-  for monarchs and bees
-- Little Bluestem — structural grass matrix reduces soil splash and contrasts fine
-  foliage with bold horsemint stems
-- Purple Coneflower — overlapping pollinator service; both handle summer heat if drainage
-  is honest
+  - slug: milkweed
+    name: Milkweed
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: echinacea
+    name: Echinacea
 cautions:
-- Powdery mildew-prone relatives — spacing and sun reduce risk; avoid overhead irrigation
-  schedules that wet foliage all night
-- Skin photosensitivity — handling aromatic oils then strong sun can irritate sensitive
-  people
+  - Powdery mildew-prone relatives — spacing and sun reduce risk; avoid overhead irrigation schedules that wet foliage all night
+  - Skin photosensitivity — handling aromatic oils then strong sun can irritate sensitive people
 pests:
-- Spider Mites
-- Powdery Mildew
+  - Spider Mites
+  - Powdery Mildew
 growth_habit: Upright aromatic perennial; stacked whorled flowers; sandy-soil specialist
 data_quality_score: 0.85

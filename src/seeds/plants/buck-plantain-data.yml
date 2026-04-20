@@ -2,9 +2,9 @@ common_name: Buck Plantain
 picture: buck_plantain.webp
 scientific_name: Plantago coronopus
 aka:
-  - Buckhorn Plantain
-  - Minutina
-  - Erba Stella
+- Buckhorn Plantain
+- Minutina
+- Erba Stella
 family: Plantaginaceae
 zone: 4-10
 ideal_temp_min: 45
@@ -13,14 +13,14 @@ min_temp: 10
 max_temp: 95
 perennial: false (biennial or cool-season annual in hot climates)
 layers:
-  - Herbaceous
-  - Ground Cover
+- Herbaceous
+- Ground Cover
 plant_function:
-  - Edible
-  - Medicinal
-  - Dynamic Accumulator
-  - Animal Fodder
-  - Border Plant
+- Edible
+- Medicinal
+- Dynamic Accumulator
+- Animal Fodder
+- Border Plant
 description: |-
   Buck plantain (Plantago coronopus) is a low, rosette-forming plant with narrow, toothed leaves that look a bit like antlers — hence the horn names. Young leaves are a salty, mineral-rich salad green; older foliage gets tougher but still works chopped into soups or as livestock forage. It tolerates poor, compacted soil and is a classic "pavement weed" that permies reclaim as food.
 
@@ -38,14 +38,18 @@ purpose: |-
   Animal Fodder: Rabbits and laying hens strip rosettes in runs without belly bloat issues you see on pure lettuce dumps.
   Border Plant: Low antler rosettes line path stones where mower wheels skip, surviving salt splash better than many broadleaf weeds.
 companions:
-  - Clover
-  - Chicory
-  - Yarrow
+- slug: chicory
+  name: Chicory
+- slug: yarrow
+  name: Yarrow
 cautions:
-  - None documented
+- None documented
 pests:
-  - Aphids
-  - Slugs
-  - Snails
+- Aphids
+- Slugs
+- Snails
 growth_habit: Rosette herb
 data_quality_score: 0.75
+companions_unresolved:
+- name: Clover
+  original: Clover

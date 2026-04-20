@@ -2,9 +2,9 @@ common_name: Texas Persimmon
 picture: texas_persimmon.webp
 scientific_name: Diospyros texana
 aka:
-  - Mexican persimmon
-  - Black persimmon
-  - Chapote
+- Mexican persimmon
+- Black persimmon
+- Chapote
 family: Ebenaceae
 zone: 7-10
 ideal_temp_min: 45
@@ -13,11 +13,11 @@ min_temp: 0
 max_temp: 110
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Erosion Control
+- Edible
+- Wildlife Attractor
+- Erosion Control
 description: |-
   Texas persimmon (Diospyros texana) is a drought-hardy, often multi-trunked small tree or large shrub with smooth gray bark, small leaves, and black juicy fruit when female plants find a pollinator partner. Heights commonly range 10–25 feet in the wild, tighter in harsh sites—roots laugh at limestone where other fruit trees send resignation letters.
 
@@ -32,17 +32,21 @@ purpose: |-
   Edible: Diospyros texana black cherry-sized fruit sweetens after black skin wrinkles -- stain hands like ink while making thick syrup for hill-country pancakes.
   Wildlife Attractor: Raccoons and coyotes spread seeds downhill while mockingbirds strip female trees unless you bag clusters early.
   Erosion Control: Taproots wedge into Edwards Plateau limestone so steep lots keep soil during flash floods that erase shallow-rooted lawn.
-companions:
-  - Agarita — fellow thorny drought shrub guild member; contrasting berries and layered bird food.
-  - Texas Mountain Laurel — evergreen structure and spring flowers frame deciduous persimmon without chemical grudges.
-  - Blackbrush Acacia — nitrogen-friendly spacing in dry thickets; both respect limestone and contempt for irrigation.
+companions: []
 cautions:
-  - Cattail — flags a hydrology mismatch; persimmon roots suffocate in soggy muck while cattail thrives.
-  - Japanese honeysuckle — twining stems girdle young trunks and shade out lower branches along fencerows.
+- Cattail — flags a hydrology mismatch; persimmon roots suffocate in soggy muck while cattail thrives.
+- Japanese honeysuckle — twining stems girdle young trunks and shade out lower branches along fencerows.
 pests:
-  - Aphids
-  - Persimmon Borer
-  - Persimmon Psylla
-  - Scale Insects
+- Aphids
+- Persimmon Borer
+- Persimmon Psylla
+- Scale Insects
 growth_habit: Multi-trunked small tree; smooth gray bark; black fruit on female plants
 data_quality_score: 0.78
+companions_unresolved:
+- name: Agarita
+  original: Agarita — fellow thorny drought shrub guild member; contrasting berries and layered bird food.
+- name: Texas Mountain Laurel
+  original: Texas Mountain Laurel — evergreen structure and spring flowers frame deciduous persimmon without chemical grudges.
+- name: Blackbrush Acacia
+  original: Blackbrush Acacia — nitrogen-friendly spacing in dry thickets; both respect limestone and contempt for irrigation.

@@ -31,9 +31,12 @@ purpose: |-
   Erosion Control: Deep roots and suckering crowns knit alluvium on scoured banks after ice jams retreat -- train off lone yard trees or riparian trunks you want to keep bark-intact; riparia climbs like it means it.
   Shade Provider: Dense summer leaves on pergolas and cattle lanes cast moving shade where humid Midwest summers punish open pens -- dormant hard pruning keeps fruiting wood reachable without jungle tangle.
 companions:
-  - Roughleaf Dogwood — native shrub accepts vine layers along moist edges
-  - Peppervine — contrasting compound leaves teach ID on the same fence line
-  - Moonseed Vine — another native vine for side-by-side fruit and leaf comparison
+  - slug: roughleaf-dogwood
+    name: Roughleaf Dogwood
+  - slug: peppervine
+    name: Peppervine
+  - slug: moonseed-vine
+    name: Moonseed Vine
 cautions:
   - None documented
 pests:

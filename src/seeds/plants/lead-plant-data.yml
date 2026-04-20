@@ -34,9 +34,12 @@ purpose: |-
   Mulcher: Silvery compound leaves drop fine litter that feeds fungal duff underfoot -- chop-and-drop prunings after bloom if you want faster nutrient return to poor soils.
   Ornamental: Lead-gray foliage contrasts dark green coneflower leaves in prairie borders -- full sun keeps plants compact; shade yields leggy disappointment.
 companions:
-  - Little bluestem
-  - Purple coneflower
-  - Coreopsis
+  - slug: echinacea
+    name: Echinacea
+  - slug: lanceleaf-coreopsis
+    name: Lanceleaf Coreopsis
+  - slug: little-bluestem
+    name: Little Bluestem
 cautions:
   - Chronic irrigation and clay puddles
   - Deep shade

@@ -2,8 +2,8 @@ common_name: Spikenard
 picture: spikenard.webp
 scientific_name: Aralia racemosa
 aka:
-- American Spikenard
-- Petty morrel
+  - American Spikenard
+  - Petty morrel
 family: Araliaceae
 zone: 3-8
 ideal_temp_min: 45
@@ -12,13 +12,13 @@ min_temp: -35
 max_temp: 95
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Edible
-- Medicinal
-- Wildlife Attractor
-- Pollinator
-- Mulcher
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  - Pollinator
+  - Mulcher
 description: |-
   Spikenard (Aralia racemosa) is a bold herbaceous perennial of eastern North American woodlands, forming a shrub-like clump to about 3–8 feet (1–2.5 m) with large compound leaves and airy summer panicles of tiny white flowers followed by purple-black berries. The thick aromatic root has a long history in herbal traditions and modest wild-food use; berries feed birds. It brings lush understory biomass and late-season pollinator support to shaded food forests and restoration edges.
 
@@ -34,20 +34,17 @@ purpose: |-
   Pollinator: Cream panicles open in humid August shade where goldenrod crowds have already peaked in sunnier fields.
   Mulcher: Huge divided leaves carpet tulip poplar duff with fast fungal food for millipedes under intact canopy.
 companions:
-- Black Cohosh — shared moist shade; staggered bloom and contrasting foliage structure
-  in woodland borders
-- Wild Ginger — low carpet under spikenard’s tall stems; both prefer rich woodland
-  soil and steady moisture
-- American Hazelnut — shrubby edge provides dappled light; nut drop and leaf litter
-  reinforce the forest-floor mulch regime
+  - slug: black-cohosh
+    name: Black Cohosh
+  - slug: wild-ginger
+    name: Wild Ginger
+  - slug: american-hazelnut
+    name: American Hazelnut
 cautions:
-- Confusion with other Aralia species — misidentification risks; verify leaves, inflorescence,
-  and habitat before eating roots or fruit
-- Pets and livestock — berries and other parts may cause illness if grazed in quantity;
-  not a pasture plant
+  - Confusion with other Aralia species — misidentification risks; verify leaves, inflorescence, and habitat before eating roots or fruit
+  - Pets and livestock — berries and other parts may cause illness if grazed in quantity; not a pasture plant
 pests:
-- Aphids
-- Japanese Beetles
-growth_habit: Tall herbaceous perennial; huge compound leaves; white flower panicles;
-  purple-black berries
+  - Aphids
+  - Japanese Beetles
+growth_habit: Tall herbaceous perennial; huge compound leaves; white flower panicles; purple-black berries
 data_quality_score: 0.85

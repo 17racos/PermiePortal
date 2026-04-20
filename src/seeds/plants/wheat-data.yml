@@ -28,9 +28,12 @@ purpose: |-
   Animal Fodder: Straw bales bed livestock; screenings and weed seeds go to chickens -- return manure to beds closing the carbon loop you just exported as bales.
   Erosion Control: Fall-sown stands armor fields all winter -- roots exude glues that build aggregates faster than bare fallow mud receives rain.
 companions:
-  - Crimson Clover (Trifolium incarnatum) — legume partner that adds nitrogen and boosts cover-crop performance.
-  - Garlic (Allium sativum) — rotation partner that helps diversify plant scents and reduce continuous host pressure.
-  - Comfrey (Symphytum officinale) — supports soil fertility with chop-and-drop, improving wheat growth when placed nearby.
+  - slug: crimson-clover
+    name: Crimson Clover
+  - slug: garlic
+    name: Garlic
+  - slug: comfrey
+    name: Comfrey
 cautions:
   - Rotate away from other cereals if possible; continuous cereal growth increases pest/disease carryover.
 pests:

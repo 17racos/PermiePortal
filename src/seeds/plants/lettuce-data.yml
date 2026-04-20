@@ -28,9 +28,12 @@ purpose: |-
   Pollinator: Yellow ligulate petals on bolted plants feed small bees if you leave a few volunteers to flower -- pull most heads before seed rain if downy mildew spores already haunt the patch.
   Ground Cover: Dense transplants shade inter-row soil in cool months, slowing annual weeds and cutting splash onto taller crops -- succession sow every two weeks so heads do not all mature the same week.
 companions:
-  - Carrot (Daucus carota) — staggered root/leaf layering keeps space productive and improves bed structure.
-  - Radish (Raphanus sativus) — quick rooting loosens and creates a rotation rhythm that complements lettuce’s fast harvest.
-  - Garlic (Allium sativum) — strong aroma disrupts pest travel paths around cool-season greens.
+  - slug: carrot
+    name: Carrot
+  - slug: radish
+    name: Radish
+  - slug: garlic
+    name: Garlic
 cautions:
   - Bolting in heat is normal; use shade cloth or shift sowing windows to cool periods.
 pests:

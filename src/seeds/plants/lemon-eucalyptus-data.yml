@@ -34,9 +34,12 @@ purpose: |-
   Wildlife Attractor: White flowers feed honeybees and lorikeets where ranges overlap -- hollow-forming branches later house cavity nesters if you retain safe snags.
   Ornamental: Powder-white trunk and lemon-scented juvenile foliage read classic Australian park tree -- plan for 100-foot height because small-lot plantings become sidewalk heave and neighbor disputes within a decade.
 companions:
-  - Comfrey — deep-rooted chop-and-drop under the drip line; handles litter load and recycles leaf-fall nutrients without competing for height.
-  - Sweet Potato — sprawling ground cover at the canopy edge to hold soil where bark and leaf shed; keep back from trunk flare to reduce rodent hideouts.
-  - Lemongrass — clumping aromatic grass in the open skirt for visual rhythm and harvest; tolerates heat and occasional litter acidity if drainage is good.
+  - slug: comfrey
+    name: Comfrey
+  - slug: sweet-potato
+    name: Sweet Potato
+  - slug: lemongrass
+    name: Lemongrass
 cautions:
   - Planting under power lines unless you enjoy angry letters
   - Fire-prone wildland edges without management plan

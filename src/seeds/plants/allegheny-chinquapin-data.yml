@@ -35,15 +35,13 @@ purpose: |-
   Mulcher: Toothed leaves and fine twigs decay into acidic fungal litter that matches oak-hickory understory guilds -- rake lightly only where thick mats smother desired spring ephemerals.
   Erosion Control: Suckering thickets knit rocky slopes and old-field edges where shallow-rooted turf fails -- fibrous mats slow surface flow during thunderstorms without needing plastic matting.
 companions:
-- White Oak — shared mycorrhizal associates and dappled canopy light match chinquapin’s
-  woodland niche
-- Highbush Blueberry — similar acidic, organic-rich soil and partial sun understory
-- Serviceberry — early bloom and fruit without overshading the shorter chestnut relative
+- slug: highbush-blueberry
+  name: Highbush Blueberry
+- slug: serviceberry
+  name: Serviceberry
 cautions:
-- Black Walnut — juglone can stress many species in the chestnut tribe; site away
-  from heavy walnut root zones
-- Chestnut blight (Cryphonectria parasitica) — still a risk; choose documented resistant
-  sources when available
+- Black Walnut — juglone can stress many species in the chestnut tribe; site away from heavy walnut root zones
+- Chestnut blight (Cryphonectria parasitica) — still a risk; choose documented resistant sources when available
 pests:
 - Borers
 - Fall Webworm
@@ -54,3 +52,6 @@ pests:
 - Tent Caterpillar
 growth_habit: Multi-stem deciduous shrub to small tree; spiny burrs; toothed leaves
 data_quality_score: 0.85
+companions_unresolved:
+- name: White Oak
+  original: White Oak — shared mycorrhizal associates and dappled canopy light match chinquapin’s woodland niche

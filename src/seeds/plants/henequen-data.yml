@@ -2,7 +2,7 @@ common_name: Henequen
 picture: henequen.webp
 scientific_name: Agave fourcroydes
 aka:
-  - Cuban sisal
+- Cuban sisal
 family: Asparagaceae
 zone: 9-11
 ideal_temp_min: 55
@@ -11,11 +11,11 @@ min_temp: 25
 max_temp: 110
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Mulcher
-  - Erosion Control
-  - Animal Fodder
+- Mulcher
+- Erosion Control
+- Animal Fodder
 description: |-
   Henequen is Yucatán's fiber agave — huge rosettes, sword leaves with terminal spines, and historical henequen rope industry sweat. Related to sisal but its own species and industrial story. Flowers once then declines like agave drama demands. subtropical and tropical Americas: dry berm plant, not swamp roommate.
 
@@ -29,14 +29,18 @@ purpose: |-
   Erosion Control: Rosettes of sword leaves anchor rocky, well-drained slopes across Yucatán-style sites -- mass plants on berms where summer wet on cold soil would rot lesser succulents.
   Animal Fodder: Historical systems occasionally grazed trimmed leaves in quantity-limited contexts -- verify saponin and oxalate tolerance for your livestock class before turning animals into fiber-agave experiments.
 companions:
-  - Prickly pear
-  - Blue agave
-  - Yucca
+- slug: edible-cactus
+  name: Edible Cactus
+- slug: blue-agave
+  name: Blue Agave
 cautions:
-  - Walking barefoot near leaf tips — this is not a metaphor
-  - Heavy clay bowls in rainy cool winters
+- Walking barefoot near leaf tips — this is not a metaphor
+- Heavy clay bowls in rainy cool winters
 pests:
-  - Asparagus Beetle
-  - Mealybugs
-  - Palmetto Weevil
-  - Scale Insects
+- Asparagus Beetle
+- Mealybugs
+- Palmetto Weevil
+- Scale Insects
+companions_unresolved:
+- name: Yucca
+  original: Yucca

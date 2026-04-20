@@ -2,8 +2,8 @@ common_name: Yellow Yam
 picture: yellow_yam.webp
 scientific_name: Dioscorea cayenensis
 aka:
-  - Yellow guinea yam
-  - Twelve-month yam (regional)
+- Yellow guinea yam
+- Twelve-month yam (regional)
 family: Dioscoreaceae
 zone: 10-11
 ideal_temp_min: 70
@@ -12,12 +12,12 @@ min_temp: 35
 max_temp: 105
 perennial: true
 layers:
-  - Vine
-  - Root
+- Vine
+- Root
 plant_function:
-  - Edible
-  - Ground Cover
-  - Mulcher
+- Edible
+- Ground Cover
+- Mulcher
 description: |-
   Yellow yam is a true Dioscorea vine grown for large starchy tubers—Caribbean and West African kitchens know it; HOA committees fear it. Trellis honestly or apologize to your trees later.
 
@@ -35,15 +35,19 @@ purpose: |-
   Ground Cover: Twining stems claim trellis and tree trunks -- assign engineered posts or apologize to orchard trees.
   Mulcher: Frost-killed or hand-cut vines compost hot -- mix with browns; vines return potassium to the bed that fed tubers.
 companions:
-  - Corn
-  - Pigeon Pea
-  - Cassava
+- slug: pigeon-pea
+  name: Pigeon Pea
+- slug: cassava
+  name: Cassava
 cautions:
-  - Letting vines girdle orchard trees
-  - Waterlogged heavy clay
+- Letting vines girdle orchard trees
+- Waterlogged heavy clay
 pests:
-  - Nematodes
-  - Aphids
-  - Mites
+- Nematodes
+- Aphids
+- Mites
 growth_habit: Herbaceous twining vine from large underground tuber
 data_quality_score: 0.75
+companions_unresolved:
+- name: Corn
+  original: Corn

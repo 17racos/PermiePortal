@@ -35,9 +35,10 @@ purpose: |-
   Wildlife Attractor: Finches work dry capsules in fall while stems harbor beneficial spiders -- leave dead stalks until spring if winter structure matters for birds.
   Water Retention: Deep roots and lush summer canopy slow sheet flow across bioswales -- standing water cools faster when broad leaves shade shallow pools during heat waves.
 companions:
-  - Pickerelweed — emergent aquatics share pond margins and complementary flower forms for pollinator pathways.
-  - Duck Potato — overlapping wetland niche with edible tuber interest at deeper water transition zones.
-  - Cattail — vertical texture contrast; manage cattail vigor so it does not shade out hibiscus completely.
+  - slug: pickerelweed
+    name: Pickerelweed
+  - slug: cattail
+    name: Cattail
 cautions:
   - None documented
 pests:
@@ -48,3 +49,7 @@ pests:
   - Whiteflies
 growth_habit: Tall herbaceous perennial mallow; huge summer flowers; moist to wet sites
 data_quality_score: 0.74
+companion_categories:
+  - name: Duck Potato
+    original: Duck Potato — overlapping wetland niche with edible tuber interest at deeper water transition zones.
+    type: ecosystem

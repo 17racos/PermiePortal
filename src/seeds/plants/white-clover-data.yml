@@ -10,11 +10,11 @@ min_temp: -20
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Nitrogen Fixer
-  - Mulcher
-  - Pollinator
+- Nitrogen Fixer
+- Mulcher
+- Pollinator
 description: |-
   White clover (Trifolium repens) is a creeping perennial legume grown as a living mulch, pasture component, and cover crop. It is native to Europe and western Asia and forms low mats with trifoliate leaves and white flower heads. Plants typically spread widely and can reach about 10–25 cm (4–10 in) tall in grazed or mowed systems. In permaculture, it matters because white clover fixes nitrogen through root nodules, supplies frequent leaf biomass when you mow, and supports pollinators with accessible blooms in cool seasons.
 
@@ -28,13 +28,17 @@ purpose: |-
   Mulcher: Weekly mower passes at three inches drop fine leaf chips that slip between vegetable leaves without matting like grass -- residue breaks down fast enough that spring brassicas do not yellow from carbon tie-up.
   Pollinator: White globes sit at bee belly height on paths and orchard floors during cool mornings when canopy trees offer little bloom -- syrphid flies use the shallow nectar for egg loads next to aphid-prone rows.
 companions:
-  - Comfrey (Symphytum officinale) — pairs well as a taller chop-and-drop partner, cycling nutrients between clover and deeper roots.
-  - Garlic (Allium sativum) — rotation partner; clover ground cover helps keep moisture steady while garlic follows in cycles.
-  - Oats (Avena sativa) — cereal cover complements clover by producing thicker mulch layers for bed transitions.
+- slug: comfrey
+  name: Comfrey
+- slug: garlic
+  name: Garlic
 cautions:
-  - Stand thinning often signals poor drainage or mowing too low.
+- Stand thinning often signals poor drainage or mowing too low.
 pests:
-  - Aphids
-  - Spittlebugs
-  - Slugs
-  - Root Rot
+- Aphids
+- Spittlebugs
+- Slugs
+- Root Rot
+companions_unresolved:
+- name: Oats
+  original: Oats (Avena sativa) — cereal cover complements clover by producing thicker mulch layers for bed transitions.

@@ -2,8 +2,8 @@ common_name: Prairie Cordgrass
 picture: prairie_cordgrass.webp
 scientific_name: Spartina pectinata
 aka:
-- Freshwater Cordgrass
-- Sloughgrass
+  - Freshwater Cordgrass
+  - Sloughgrass
 family: Poaceae
 zone: 3-9
 ideal_temp_min: 40
@@ -12,12 +12,12 @@ min_temp: -40
 max_temp: 100
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Erosion Control
-- Wildlife Attractor
-- Water Retention
-- Biomass
+  - Erosion Control
+  - Wildlife Attractor
+  - Water Retention
+  - Biomass
 description: |-
   Prairie cordgrass (Spartina pectinata) is a robust rhizomatous grass of North American wetlands, wet prairies, and rain-garden bottoms, forming tall clumps with narrow leaves and airy flowering panicles in summer. Culms often reach 4–7 feet (1.2–2.1 m), spreading by rhizomes into soil-stabilizing colonies where moisture is reliable. It is not the coastal saltmarsh Spartina complex—this is the inland workhorse for biofiltration, bank binding, and habitat structure in freshwater contexts.
 
@@ -32,28 +32,28 @@ purpose: |-
   Water Retention: Tall culms slow sheet flow and drop silt during storm peaks, extending hydroperiod a few critical days for wetland herbs downstream -- harvest some winter biomass so stands do not choke flow entirely.
   Biomass: Carbon-heavy straw chips into acidic mulch for blueberry rows or hugel cores beside wet zones -- avoid spreading rhizome fragments uphill into dry beds unless you enjoy surprise cordgrass colonies.
 companions:
-- Marsh Blazingstar — complementary forb color rising above shorter wet-meadow grasses
-- Swamp Milkweed — milkweed neighbor for monarch habitat in moist sun
-- Pickerelweed — emergent aquatic at the deeper water interface where cordgrass meets
-  open water
+  - slug: dense-blazingstar
+    name: Dense Blazingstar
+  - slug: swamp-milkweed
+    name: Swamp Milkweed
+  - slug: pickerelweed
+    name: Pickerelweed
 cautions:
-- Rhizome vigor — can expand beyond tiny formal beds without edging or containers
-- Salt exposure — not a coastal saltmarsh specialist; chronic salinity selects different
-  Spartina species
+  - Rhizome vigor — can expand beyond tiny formal beds without edging or containers
+  - Salt exposure — not a coastal saltmarsh specialist; chronic salinity selects different Spartina species
 pests:
-- Aphids
-- Armyworms
-- Bamboo Mite
-- Corn Earworm
-- Fall Armyworm
-- Japanese Beetles
-- Lubber Grasshopper
-- Rice Blast Fungus
-- Rice Water Weevil
-- Spider Mites
-- Spittlebugs
-- Wireworm
-- Leaf Blight
-growth_habit: Tall rhizomatous grass; moist soil and wetland margins; airy summer
-  panicles
+  - Aphids
+  - Armyworms
+  - Bamboo Mite
+  - Corn Earworm
+  - Fall Armyworm
+  - Japanese Beetles
+  - Lubber Grasshopper
+  - Rice Blast Fungus
+  - Rice Water Weevil
+  - Spider Mites
+  - Spittlebugs
+  - Wireworm
+  - Leaf Blight
+growth_habit: Tall rhizomatous grass; moist soil and wetland margins; airy summer panicles
 data_quality_score: 0.8

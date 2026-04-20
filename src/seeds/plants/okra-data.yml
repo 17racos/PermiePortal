@@ -33,9 +33,12 @@ purpose: |-
   Pollinator: Bright hibiscus-type flowers feed bees and beneficial insects when many beds are heat-stressed.
   Wildlife Attractor: Flower and seed resources help sustain beneficial garden life and improve system resilience around your food crops.
 companions:
-  - Basil (Ocimum basilicum) — aromatic leaves pair well with warm season okra beds and add fast harvest from the same schedule.
-  - Marigold (Tagetes patula) — nectar-rich blooms draw beneficial insects and help you monitor pest changes.
-  - Garlic (Allium sativum) — strong scent helps diversify crop odors and supports rotation timing in mixed plantings.
+  - slug: basil
+    name: Basil
+  - slug: marigold
+    name: Marigold
+  - slug: garlic
+    name: Garlic
 cautions:
   - Avoid cold snaps; okra is heat-dependent and will stall or die after frost.
   - Don’t overwater in heavy soils; root problems show up as yellowing and slow growth.

@@ -33,15 +33,17 @@ purpose: |-
   Fiber: Floral industry cuts fronds for long-lasting greenery -- home harvest means rotating stems so crowns stay vigorous, not stripped for one wedding bouquet.
   Erosion Control: Interlocking rhizomes knit leaf-litter slopes in coastal hammocks -- pair with mulch because exposed soil still washes in heavy subtropical rains.
 companions:
-- Coontie — subtropical cycad underplanting shares dry shade discipline once established
-- Saw Palmetto — low palm structure with fern ground layer in coastal hammock designs
-- Oak — dappled high shade and leaf mulch match Rumohra aesthetics in naturalistic
-  plantings
+- slug: coontie
+  name: Coontie
+- slug: saw-palmetto
+  name: Saw Palmetto
 cautions:
-- Invasive risk in mild, humid climates outside native range—verify regional invasive
-  plant lists before landscape release
+- Invasive risk in mild, humid climates outside native range—verify regional invasive plant lists before landscape release
 pests:
 - Scale Insects
 - Mealybugs
 growth_habit: Evergreen clumping fern; leathery fronds; shade and humidity specialist
 data_quality_score: 0.82
+companions_unresolved:
+- name: Oak
+  original: Oak — dappled high shade and leaf mulch match Rumohra aesthetics in naturalistic plantings

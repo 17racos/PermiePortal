@@ -33,9 +33,12 @@ purpose: |-
   Animal Fodder: Verified-safe cultivar leaves chop into poultry mash during flush growth once solanine protocols match your flock experiment notes.
   Pollinator: Small white star blooms with yellow anthers release pollen in heat that pulls sweat bees and halictids along Solanum rows.
 companions:
-  - Pepino Melon — another bushy Solanum for shared warm-season polyculture rhythm
-  - Lemon Balm — low herb layer fills soil surface without competing for deep nutrients
-  - Wonderberry — related nightshade height class for comparative training and harvest timing
+  - slug: pepino-melon
+    name: Pepino Melon
+  - slug: lemon-balm
+    name: Lemon Balm
+  - slug: wonderberry
+    name: Wonderberry
 cautions:
   - Unripe fruit and uncertain cultivars can be toxic—verify type before feeding animals or children
 pests:

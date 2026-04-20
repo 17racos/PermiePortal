@@ -31,9 +31,12 @@ purpose: |-
   Border Plant: Dense ankle- to chest-high thickets armed with fierce prickles slow livestock and casual foot traffic along scrub roadsides.
   Erosion Control: Rhizomatous roots grab deep sand on banks and disturbed cuts where lighter soils would slide after hard rain.
 companions:
-  - Sand Live Oak — evergreen oak canopy over bramble understory on coastal ridges
-  - Myrtle Oak — scrub oak neighbor sharing sand and sun ecology
-  - Southern Dewberry — lower trailing Rubus layer for staggered fruiting times
+  - slug: sand-live-oak
+    name: Sand Live Oak
+  - slug: myrtle-oak
+    name: Myrtle Oak
+  - slug: dewberry
+    name: Dewberry
 cautions:
   - None documented
 pests:

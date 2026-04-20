@@ -29,9 +29,12 @@ purpose: |-
   Wildlife Attractor: Dark fruit feeds foxes, raccoons, and songbirds; tangled deciduous canopy gives catbirds and cardinals nesting cover along humid woodland margins -- expect heavy wildlife tax unless you net choice clusters.
   Shade Provider: Thick summer leaf wall on pergolas, arbors, or livestock lanes cuts west-wall heat load and afternoon glare -- winter dormancy returns light, so pair with evergreen understory where year-round shade is mandatory.
 companions:
-  - Sand Live Oak — sturdy limbs support heavy vine weight along fencerows
-  - Southern Red Cedar — rough bark accepts tendrils where posts are scarce
-  - Roughleaf Dogwood — shrubby edge lifts fruiting wood toward light
+  - slug: sand-live-oak
+    name: Sand Live Oak
+  - slug: southern-red-cedar
+    name: Southern Red Cedar
+  - slug: roughleaf-dogwood
+    name: Roughleaf Dogwood
 cautions:
   - None documented
 pests:

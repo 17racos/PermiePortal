@@ -2,7 +2,7 @@ common_name: Hoary Plantain
 picture: hoary_plantain.webp
 scientific_name: Plantago media
 aka:
-  - White plantain
+- White plantain
 family: Plantaginaceae
 zone: 3-9
 ideal_temp_min: 40
@@ -11,13 +11,13 @@ min_temp: -30
 max_temp: 90
 perennial: true
 layers:
-  - Herbaceous
-  - Ground Cover
+- Herbaceous
+- Ground Cover
 plant_function:
-  - Edible
-  - Medicinal
-  - Wildlife Attractor
-  - Ground Cover
+- Edible
+- Medicinal
+- Wildlife Attractor
+- Ground Cover
 description: |-
   Hoary plantain is the fuzzy-leaf lawn gatecrasher Eurasia exported while everyone obsessed on dandelions. Young leaves are milder than broadleaf plantain; older leaves remind you that fiber exists. Tolerant of mowing abuse and mediocre soil — classic "weed" that is also lunch if you stop spraying glyphosate like cologne. In subtropical and tropical Americas it behaves as a cool-season happy rosette with summer slowdown.
 
@@ -32,12 +32,16 @@ purpose: |-
   Wildlife Attractor: Dense spikes of tiny flowers feed small bees and syrphid flies along paths -- tolerate some bloom if you want beneficial insect support in low groundcover layers.
   Ground Cover: Fuzzy rosettes knit thin turf gaps in compacted soil where fussy perennials refuse to establish -- accepts mowing abuse better than many ornamentals sold as steppable groundcovers.
 companions:
-  - Clover
-  - Dandelion
-  - Yarrow
+- slug: dandelion
+  name: Dandelion
+- slug: yarrow
+  name: Yarrow
 cautions:
-  - Heavy herbicide strips if you plan to eat it
-  - Expecting turfgrass aesthetics from biodiversity
+- Heavy herbicide strips if you plan to eat it
+- Expecting turfgrass aesthetics from biodiversity
 pests:
-  - Slugs
-  - Aphids
+- Slugs
+- Aphids
+companions_unresolved:
+- name: Clover
+  original: Clover

@@ -2,9 +2,9 @@ common_name: Borage
 picture: borage.webp
 scientific_name: Borago officinalis
 aka:
-  - Starflower
-  - Bee Bush
-  - Tailwort
+- Starflower
+- Bee Bush
+- Tailwort
 family: Boraginaceae
 zone: 2-11
 ideal_temp_min: 40
@@ -13,17 +13,17 @@ min_temp: 20
 max_temp: 100
 perennial: false
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
-  - Mulcher
-  - Dynamic Accumulator
-  - Erosion Control
-  - Border Plant
-  - Pest Management
+- Edible
+- Medicinal
+- Pollinator
+- Wildlife Attractor
+- Mulcher
+- Dynamic Accumulator
+- Erosion Control
+- Border Plant
+- Pest Management
 description: |-
   Borage (Borago officinalis) is an annual herb known for its striking blue, star-shaped flowers and fuzzy, cucumber-flavored leaves. It grows quickly, reaching heights of 60–90 cm (2–3 feet) with a sprawling habit. Borage is highly attractive to pollinators and beneficial insects.
 
@@ -45,16 +45,22 @@ purpose: |-
   Border Plant: Self-seeded volunteers mark compost-rich zones honestly -- pull extras where they shade slow carrots, keep giants next to corn where height helps nothing get lost.
   Pest Management: Aphids will land on borage first some years -- that concentration is scouting signal, not failure, when you release or attract predators the same week.
 companions:
-  - Tomato
-  - Strawberry
-  - Squash
-  - Cabbage
-  - Cucumber
+- slug: tomato
+  name: Tomato
+- slug: strawberry
+  name: Strawberry
+- slug: cabbage
+  name: Cabbage
+- slug: cucumber
+  name: Cucumber
 cautions:
-  - None known
+- None known
 pests:
-  - Aphids
-  - Caterpillars
+- Aphids
+- Caterpillars
 growth_habit: Tree
 data_quality_score: 0.8
 field_observations: No field observations yet
+companions_unresolved:
+- name: Squash
+  original: Squash

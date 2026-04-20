@@ -34,9 +34,12 @@ purpose: |-
   Wildlife Attractor: Large white night flowers open for bats and hawkmoths while old trunks develop hollows for cavity nesters -- retain snag habitat where safety allows, not where limbs overhang roofs.
   Windbreaker: Emergent height and limber branches dissipate wind across plantation rows -- still plan hurricane pruning because massive limbs can shed if included bark weakens crotches.
 companions:
-  - Banana — rapid-cycle understory benefits from filtered light and leaf litter once kapok is tall enough.
-  - Cacao — traditional shade associate in tropical systems where humidity and drainage align.
-  - Turmeric — shade-tolerant rhizome crop uses kapok leaf mulch and stable humidity under high canopy.
+  - slug: banana
+    name: Banana
+  - slug: cacao
+    name: Cacao
+  - slug: turmeric
+    name: Turmeric
 cautions:
   - None documented
 pests:

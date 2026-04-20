@@ -2,9 +2,9 @@ common_name: Garlic
 picture: garlic.webp
 scientific_name: Allium sativum
 aka:
-  - Wild Garlic
-  - Hardneck Garlic (Allium sativum var. ophioscorodon)
-  - Softneck Garlic (Allium sativum var. sativum)
+- Wild Garlic
+- Hardneck Garlic (Allium sativum var. ophioscorodon)
+- Softneck Garlic (Allium sativum var. sativum)
 family: Amaryllidaceae
 zone: 3-10
 ideal_temp_min: 32
@@ -13,13 +13,13 @@ min_temp: -20
 max_temp: 100
 perennial: false (grown as an annual)
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Medicinal
-  - Pest Management
-  - Dynamic Accumulator
-  - Border Plant
+- Edible
+- Medicinal
+- Pest Management
+- Dynamic Accumulator
+- Border Plant
 description: |-
   Garlic (Allium sativum) is a bulbous perennial typically grown as an annual for its pungent, edible cloves. The plant has long, slender leaves and produces small white or purple flowers. It is one of the oldest cultivated plants and is valued for both culinary and medicinal uses.
 
@@ -37,24 +37,30 @@ purpose: |-
   Dynamic Accumulator: Leaf analysis shows elevated sulfur and moderate potassium pulled from compost-fed topsoil and stored in wrappers that return to soil when you mulch stalks after harvest.
   Border Plant: Single-file cloves along bed margins mark rotation boundaries between solanaceae and legume sections and give a repeatable harvest rhythm for succession planning.
 companions:
-  - Tomato
-  - Carrot
-  - Lettuce
-  - Rose
-  - Cabbage
+- slug: tomato
+  name: Tomato
+- slug: carrot
+  name: Carrot
+- slug: lettuce
+  name: Lettuce
+- slug: cabbage
+  name: Cabbage
 cautions:
-  - Bean
-  - Pea
-  - Asparagus
+- Bean
+- Pea
+- Asparagus
 pests:
-  - Leek Moth
-  - Nematodes
-  - Onion Fly
-  - Onion Maggot
-  - Onion Thrips
-  - Thrips
-  - Bulb Mites
-  - Root Rot
-  - White Rot
+- Leek Moth
+- Nematodes
+- Onion Fly
+- Onion Maggot
+- Onion Thrips
+- Thrips
+- Bulb Mites
+- Root Rot
+- White Rot
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Rose
+  original: Rose

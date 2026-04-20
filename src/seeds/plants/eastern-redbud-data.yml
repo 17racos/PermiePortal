@@ -34,9 +34,12 @@ purpose: |-
   Nitrogen Fixer: Fabaceae rhizobia on roots add biologically available nitrogen to mulch layers -- not a row-crop substitute alone, but useful in diverse edges.
   Border Plant: Small stature fits courtyards, understory slots, and fence lines beneath taller hardwoods.
 companions:
-  - Pawpaw — shade-tolerant fruiting understory that wakes later; timing reduces direct competition for early light.
-  - Comfrey — mineral mulch cuts at the drip line without shading the crown for long.
-  - Elderberry — fast shrub edge for wildlife structure; shares hedgerow aesthetics without identical pest calendars.
+  - slug: pawpaw
+    name: Pawpaw
+  - slug: comfrey
+    name: Comfrey
+  - slug: elderberry
+    name: Elderberry
 cautions:
   - Walnut
 pests:

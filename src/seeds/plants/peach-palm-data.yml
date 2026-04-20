@@ -2,9 +2,9 @@ common_name: Peach Palm
 picture: peach_palm.webp
 scientific_name: Bactris gasipaes
 aka:
-  - Chontaduro
-  - Pupunha
-  - Pejibaye
+- Chontaduro
+- Pupunha
+- Pejibaye
 family: Arecaceae
 zone: 10-11
 ideal_temp_min: 70
@@ -13,13 +13,13 @@ min_temp: 30
 max_temp: 100
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Edible
-  - Animal Fodder
-  - Mulcher
-  - Windbreaker
-  - Wildlife Attractor
+- Edible
+- Animal Fodder
+- Mulcher
+- Windbreaker
+- Wildlife Attractor
 description: |-
   Peach palm is a clustering palm from humid lowland Neotropics grown for starchy hearts (palmito), boiling-grade fruit, and sometimes fodder. It is not a lazy backyard pet: it wants heat, humidity, and steady moisture, and the spines on the trunk are nature's way of saying "wear gloves." In subtropical and tropical Americas you are on the cold edge — treat it as a greenhouse or microclimate gamble, not a sure bet.
 
@@ -35,31 +35,36 @@ purpose: |-
   Windbreaker: Clustering stems form a thorny lattice that shreds trade winds across humid lowland alleys while still leaking light to understory -- space clumps so internal airflow prevents rhizosphere anaerobic drama.
   Wildlife Attractor: Orange-red fruit bunches feed toucans, monkeys, and pigs if sanitation relaxes -- net outer stems near houses or accept shared harvests with frugivores that already know the smell.
 companions:
-  - Banana
-  - Cacao
-  - Inga
-  - Pigeon Pea
+- slug: banana
+  name: Banana
+- slug: cacao
+  name: Cacao
+- slug: pigeon-pea
+  name: Pigeon Pea
 cautions:
-  - Cold, dry winds
-  - Poorly drained stagnant muck
+- Cold, dry winds
+- Poorly drained stagnant muck
 pests:
-  - Coconut Mite
-  - Mealybugs
-  - Palm Weevil
-  - Palmetto Weevil
-  - Red Palm Weevil
-  - Rhinoceros Beetle
-  - Scale insects
-  - White Peach Scale
-  - Ambrosia Beetles
-  - Bark Beetles
-  - Shot Hole Borers
-  - Twig Borers
-  - Treehoppers
-  - Leaf-Footed Bugs
-  - Russet Mites
-  - Ganoderma Butt Rot
-  - Heart Rot
-  - Leaf Scorch
-  - Sunscald
-  - Gall Wasps
+- Coconut Mite
+- Mealybugs
+- Palm Weevil
+- Palmetto Weevil
+- Red Palm Weevil
+- Rhinoceros Beetle
+- Scale insects
+- White Peach Scale
+- Ambrosia Beetles
+- Bark Beetles
+- Shot Hole Borers
+- Twig Borers
+- Treehoppers
+- Leaf-Footed Bugs
+- Russet Mites
+- Ganoderma Butt Rot
+- Heart Rot
+- Leaf Scorch
+- Sunscald
+- Gall Wasps
+companions_unresolved:
+- name: Inga
+  original: Inga

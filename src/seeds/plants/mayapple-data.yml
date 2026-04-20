@@ -31,9 +31,12 @@ purpose: |-
   Medicinal: Rhizomes contain podophyllotoxin used in professional wart compounds -- extreme toxicity means home experimentation is malpractice, not folk craft.
   Ground Cover: Rhizomatous colonies of paired peltate leaves exclude garlic mustard and other invaders in rich mesic shade -- foot traffic collapses rhizomes, so stake paths through colonies.
 companions:
-  - Wild Leek — staggered phenology shares rich woodland soil without root trench warfare
-  - Wild Ginger — low evergreen texture under mayapple umbrellas
-  - Roughleaf Dogwood — shrub edge gives dappled light that mayapple expects
+  - slug: ramps
+    name: Ramps
+  - slug: wild-ginger
+    name: Wild Ginger
+  - slug: roughleaf-dogwood
+    name: Roughleaf Dogwood
 cautions:
   - All plant parts except fully ripe fruit are toxic if eaten
 growth_habit: Rhizomatous spring ephemeral with paired peltate leaves and hidden flowers

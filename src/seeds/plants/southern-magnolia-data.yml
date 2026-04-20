@@ -2,7 +2,7 @@ common_name: Southern Magnolia
 picture: southern_magnolia.webp
 scientific_name: Magnolia grandiflora
 aka:
-  - Bull bay
+- Bull bay
 family: Magnoliaceae
 zone: 7-10
 ideal_temp_min: 45
@@ -11,13 +11,13 @@ min_temp: 0
 max_temp: 105
 perennial: true
 layers:
-  - Tree
-  - Canopy
+- Tree
+- Canopy
 plant_function:
-  - Wildlife Attractor
-  - Shade Provider
-  - Windbreaker
-  - Ornamental
+- Wildlife Attractor
+- Shade Provider
+- Windbreaker
+- Ornamental
 description: |-
   Southern magnolia is glossy evergreen ego with lemon-cream flowers and a leaf-drop habit that refuses minimalism. Native to the Southeast, it reads "estate driveway" but works as heat-season shade and bird cover in food forests if you accept litter.
 
@@ -32,13 +32,24 @@ purpose: |-
   Windbreaker: Low wide limbs flex in hurricane gusts yet stay foliated enough to blunt wind across citrus blocks and tunnel houses.
   Ornamental: Copper-backed foliage and lemon-vanilla plate blooms anchor estate entries where soil drainage matches the romance.
 companions:
-  - Beautyberry
-  - Ferns
-  - Muscadine
+- slug: beautyberry
+  name: Beautyberry
+- slug: cinnamon-fern
+  name: Cinnamon Fern
 cautions:
-  - Planting under eaves where heavy branches and leaves clog gutters without mercy
-  - Expecting tidy lawns beneath without rake labor
+- Planting under eaves where heavy branches and leaves clog gutters without mercy
+- Expecting tidy lawns beneath without rake labor
 pests:
-  - Scale Insects
-  - Japanese Beetles
-  - Caterpillars
+- Scale Insects
+- Japanese Beetles
+- Caterpillars
+companions_unresolved:
+- name: Fern
+  original: Ferns
+  note: normalization_target_not_in_index
+- name: Muscadine
+  original: Muscadine
+companions_normalized:
+- original: Ferns
+  resolved_slug: cinnamon-fern
+  name: Cinnamon Fern

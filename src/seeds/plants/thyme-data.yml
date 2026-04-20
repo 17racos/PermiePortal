@@ -2,8 +2,8 @@ common_name: Thyme
 picture: thyme.webp
 scientific_name: Thymus vulgaris
 aka:
-  - Common Thyme
-  - Garden Thyme
+- Common Thyme
+- Garden Thyme
 family: Lamiaceae
 zone: 4-9
 ideal_temp_min: 60
@@ -12,17 +12,17 @@ min_temp: -30
 max_temp: 95
 perennial: true
 layers:
-  - Herbaceous
-  - Ground Cover
+- Herbaceous
+- Ground Cover
 plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
-  - Mulcher
-  - Dynamic Accumulator
-  - Border Plant
-  - Pest Management
+- Edible
+- Medicinal
+- Pollinator
+- Wildlife Attractor
+- Mulcher
+- Dynamic Accumulator
+- Border Plant
+- Pest Management
 description: |-
   Thyme is a low-growing, aromatic perennial herb with woody stems and small, fragrant leaves. It thrives in well-drained soil and full sun, making it an excellent choice for borders, rock gardens, and companion planting. The plant produces small purple or pink flowers that attract pollinators such as bees and butterflies.
 
@@ -43,16 +43,35 @@ purpose: |-
   Border Plant: Woody mats edge stone paths where mower strips would scalp shallow crowns.
   Pest Management: Volatile plumes confuse cabbage moths scouting brassica rows when thyme bands stay wide enough to release scent plumes.
 companions:
-  - Cabbage
-  - Tomatoes
-  - Strawberries
-  - Eggplant
-  - Roses
+- slug: tomato
+  name: Tomato
+- slug: strawberry
+  name: Strawberry
+- slug: cabbage
+  name: Cabbage
+- slug: eggplant
+  name: Eggplant
+- slug: roselle
+  name: Roselle
 cautions:
-  - Onions
+- Onions
 pests:
-  - Aphids
-  - Spider Mites
-  - Whiteflies
+- Aphids
+- Spider Mites
+- Whiteflies
 growth_habit: Tree
 data_quality_score: 0.8
+companions_normalized:
+- original: Tomatoes
+  resolved_slug: tomato
+  name: Tomato
+- original: Strawberries
+  resolved_slug: strawberry
+  name: Strawberry
+- original: Roses
+  resolved_slug: roselle
+  name: Roselle
+companions_unresolved:
+- name: Rose
+  original: Roses
+  note: normalization_target_not_in_index

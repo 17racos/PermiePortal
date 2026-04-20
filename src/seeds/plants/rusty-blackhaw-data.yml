@@ -32,9 +32,12 @@ purpose: |-
   Border Plant: Dense multi-stem vase habit and thornless twigs build drought-tough informal hedges along fence lines and limestone glades.
   Ornamental: Leathery glossy foliage shows rusty hairs on young growth for honest field ID, and fall color shifts brick-red on dry upland sites.
 companions:
-  - Possumhaw Viburnum — wet-site cousin for moisture gradient plantings in large gardens
-  - Roughleaf Dogwood — shares edge ecology and extends sequential bloom for insects
-  - Sand Live Oak — evergreen oak canopy over viburnum understory on sandy ridges
+  - slug: possumhaw-viburnum
+    name: Possumhaw Viburnum
+  - slug: roughleaf-dogwood
+    name: Roughleaf Dogwood
+  - slug: sand-live-oak
+    name: Sand Live Oak
 cautions:
   - None documented
 pests:

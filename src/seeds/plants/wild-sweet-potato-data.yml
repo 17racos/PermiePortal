@@ -2,8 +2,8 @@ common_name: Wild Sweet Potato
 picture: wild_sweet_potato.webp
 scientific_name: Ipomoea pandurata
 aka:
-  - Bigroot Morning Glory
-  - Man-of-the-Earth
+- Bigroot Morning Glory
+- Man-of-the-Earth
 family: Convolvulaceae
 zone: 4-9
 ideal_temp_min: 55
@@ -12,13 +12,13 @@ min_temp: 10
 max_temp: 100
 perennial: true
 layers:
-  - Vine
-  - Root
+- Vine
+- Root
 plant_function:
-  - Edible
-  - Ground Cover
-  - Wildlife Attractor
-  - Erosion Control
+- Edible
+- Ground Cover
+- Wildlife Attractor
+- Erosion Control
 description: |-
   Wild sweet potato (Ipomoea pandurata) is a native eastern North American perennial vine with heart-shaped leaves and big white morning-glory blooms striped red-purple in the throat. It climbs fences and shrubs via twining stems and forms a massive underground storage root over time—edible history exists, but modern foragers should verify identity, land permissions, and preparation because look-alikes in Ipomoea are not all friendly. In subtropical and tropical Americas it grows vigorously in warm months; manage it like a native vine with boundaries.
 
@@ -33,14 +33,18 @@ purpose: |-
   Wildlife Attractor: Big white morning-glory trumpets feed sphinx moths at night -- native bee guilds visit by day.
   Erosion Control: Deep tuber anchors sand cuts -- twining stems knit surface before perennial grasses establish.
 companions:
-  - Corn
-  - Green Bean
-  - Sunflower
+- slug: green-bean
+  name: Green Bean
+- slug: sunflower
+  name: Sunflower
 cautions:
-  - None documented
+- None documented
 pests:
-  - Japanese Beetles
-  - Leafhoppers
-  - Sweet Potato Weevil
+- Japanese Beetles
+- Leafhoppers
+- Sweet Potato Weevil
 growth_habit: Herbaceous perennial vine
 data_quality_score: 0.75
+companions_unresolved:
+- name: Corn
+  original: Corn

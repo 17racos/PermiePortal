@@ -2,8 +2,8 @@ common_name: Acorn Squash
 picture: acorn_squash.webp
 scientific_name: Cucurbita pepo var. turbinata
 aka:
-  - Pepper Squash
-  - Des Moines Squash
+- Pepper Squash
+- Des Moines Squash
 family: Cucurbitaceae
 zone: 3-10
 ideal_temp_min: 70°F
@@ -12,11 +12,11 @@ min_temp: 32°F
 max_temp: 95°F
 perennial: false
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Ground Cover
-  - Animal Fodder
+- Edible
+- Ground Cover
+- Animal Fodder
 description: |-
   Acorn squash is a variety of winter squash recognized for its distinctive ribbed exterior and acorn-like shape. The most common cultivars exhibit dark green skin, occasionally accented with patches of orange or yellow, and encase sweet, tender, yellow-orange flesh. Typically weighing between 1 to 2 pounds (0.45 to 0.9 kilograms) and measuring approximately 10 to 18 centimeters (4 to 7 inches) in length, acorn squash is a versatile addition to various culinary dishes.
 
@@ -34,49 +34,53 @@ purpose: |-
   Ground Cover: Vines sprawl between corn hills or melon tunnels, shading soil, slowing evaporation, and hiding beneficial cricket habitat where bare dirt would crust after irrigation sets.
   Animal Fodder: Culls, split fruit, and trimmed vines go to pigs and poultry as seasonal calorie dumps after the human harvest pass -- seeds add protein if birds and mammals tolerate cucurbit skins without choke risk.
 companions:
-  - Corn
-  - Bean
-  - Radish
+- slug: radish
+  name: Radish
 cautions:
-  - Potato
+- Potato
 pests:
-  - Banded Cucumber Beetle
-  - Beet Armyworm
-  - Broad Mite
-  - Greenhouse Whitefly
-  - Melonworm
-  - Pickleworm
-  - Reniform Nematode
-  - Shore Fly
-  - Silverleaf Whitefly
-  - Southern Armyworm
-  - Southern Green Stink Bug
-  - Squash Bug
-  - Squash Vine Borer
-  - Stink Bug
-  - Striped Cucumber Beetle
-  - White Grubs
-  - June Beetle Grubs
-  - Chafer Grubs
-  - Root Feeding Grubs
-  - Sod Webworms
-  - Billbugs
-  - Planthoppers
-  - Leaf-Footed Bugs
-  - Root Aphid
-  - Cutworm Larvae
-  - Nutrient Burn
-  - Treehoppers
-  - Bacterial Leaf Spot
-  - Fusarium Wilt
-  - Leaf Spot
-  - Papaya Ringspot Virus
-  - Pythium Root Rot
-  - Spotted Cucumber Beetle
-  - Bacterial Wilt
-  - Sunscald
-  - Magnesium Deficiency
-  - Nitrogen Deficiency
-  - Potassium Deficiency
+- Banded Cucumber Beetle
+- Beet Armyworm
+- Broad Mite
+- Greenhouse Whitefly
+- Melonworm
+- Pickleworm
+- Reniform Nematode
+- Shore Fly
+- Silverleaf Whitefly
+- Southern Armyworm
+- Southern Green Stink Bug
+- Squash Bug
+- Squash Vine Borer
+- Stink Bug
+- Striped Cucumber Beetle
+- White Grubs
+- June Beetle Grubs
+- Chafer Grubs
+- Root Feeding Grubs
+- Sod Webworms
+- Billbugs
+- Planthoppers
+- Leaf-Footed Bugs
+- Root Aphid
+- Cutworm Larvae
+- Nutrient Burn
+- Treehoppers
+- Bacterial Leaf Spot
+- Fusarium Wilt
+- Leaf Spot
+- Papaya Ringspot Virus
+- Pythium Root Rot
+- Spotted Cucumber Beetle
+- Bacterial Wilt
+- Sunscald
+- Magnesium Deficiency
+- Nitrogen Deficiency
+- Potassium Deficiency
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Bean
+  original: Bean

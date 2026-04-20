@@ -2,8 +2,8 @@ common_name: Corsican Stonecrop
 picture: corsican_stonecrop.webp
 scientific_name: Sedum dasyphyllum
 aka:
-  - Thick-leaved stonecrop
-  - Blue tears (cultivar names)
+- Thick-leaved stonecrop
+- Blue tears (cultivar names)
 family: Crassulaceae
 zone: 7-11
 ideal_temp_min: 50
@@ -12,12 +12,12 @@ min_temp: 10
 max_temp: 105
 perennial: true
 layers:
-  - Ground Cover
+- Ground Cover
 plant_function:
-  - Ornamental
-  - Ground Cover
-  - Erosion Control
-  - Water Retention
+- Ornamental
+- Ground Cover
+- Erosion Control
+- Water Retention
 description: |-
   Corsican stonecrop (*Sedum dasyphyllum*) is a tiny, mat-forming succulent with bead-like leaves that blush rose in sun, rooting along stems as it creeps over rocks and wall caps. Individual rosettes are only millimeters across, but colonies spread widely in favorable cracks. It is a classic green roof and crevice plant for sharp drainage. In subtropical and tropical Americas it thrives in bright, breezy, fast-drying microsites—humid shade invites rot, so give it rooftop, path edge, or hypertufa conditions.
 
@@ -32,15 +32,20 @@ purpose: |-
   Erosion Control: Interlocking stems and adventitious roots grip thin soil on vertical stonework and alpine berms until mortar joints stabilize.
   Water Retention: CAM tissue stores water through droughty weeks, plumping again within hours of a rare summer shower.
 companions:
-  - Hens and chicks
-  - Prickly pear
-  - Thyme
-  - Agave
+- slug: edible-cactus
+  name: Edible Cactus
+- slug: thyme
+  name: Thyme
+- slug: agave
+  name: Agave
 cautions:
-  - None documented
+- None documented
 pests:
-  - Mealybugs
-  - Aphids
-  - Spider Mites
+- Mealybugs
+- Aphids
+- Spider Mites
 growth_habit: Ground Cover
 data_quality_score: 0.8
+companions_unresolved:
+- name: Hens and chicks
+  original: Hens and chicks

@@ -31,9 +31,12 @@ purpose: |-
   Border Plant: Shearable hedgerows mark limestone fencerows where thornless barriers keep cattle honest along highway rights-of-way.
   Animal Fodder: Goats browse green tips during drought when grasses brown -- monitor copper balance because cedar-heavy diets skew mineral intake.
 companions:
-  - Sand Live Oak — evergreen broadleaf neighbor in sandy ridge plantings
-  - Roughleaf Dogwood — deciduous understory at woodland edges beside cedar colonization
-  - Mustang Grape — native grape on cedar fencerows where posts are living trees
+  - slug: sand-live-oak
+    name: Sand Live Oak
+  - slug: roughleaf-dogwood
+    name: Roughleaf Dogwood
+  - slug: mustang-grape
+    name: Mustang Grape
 cautions:
   - Apple — shared cedar-apple rust life cycle can blemish nearby rosaceous fruit foliage
 pests:

@@ -28,9 +28,12 @@ purpose: |-
   Medicinal: Glucosinolate-rich foliage supplies the kitchen-pharmacy tradition of warming mustard plasters and foot baths for congestion -- topical use only on intact skin; internal medicinal claims belong with trained practitioners, not blog confidence.
   Pest Management: Pungent volatiles and biofumigant potential from macerated green biomass are used ahead of nematode-sensitive crops when incorporated immediately -- as a living row plant the scent disrupts some herbivore host-finding when interplanted with less aromatic lines.
 companions:
-  - Lettuce (Lactuca sativa) — shares cool-season timing and benefits from similar bed moisture management.
-  - Garlic (Allium sativum) — helps diversify bed scent and supports rotation planning around brassicas.
-  - Pea (Pisum sativum) — adds nitrogen input and improves bed structure after harvest windows.
+  - slug: lettuce
+    name: Lettuce
+  - slug: garlic
+    name: Garlic
+  - slug: pea
+    name: Pea
 cautions:
   - Bolting happens in heat; use shade or succession sowing to avoid “pepper confetti” bitterness.
 pests:

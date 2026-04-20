@@ -2,8 +2,8 @@ common_name: Prairie Phlox
 picture: prairie_phlox.webp
 scientific_name: Phlox pilosa
 aka:
-- Downy Phlox
-- Fragrant Phlox
+  - Downy Phlox
+  - Fragrant Phlox
 family: Polemoniaceae
 zone: 3-9
 ideal_temp_min: 40
@@ -12,13 +12,13 @@ min_temp: -30
 max_temp: 100
 perennial: true
 layers:
-- Herbaceous
-- Ground Cover
+  - Herbaceous
+  - Ground Cover
 plant_function:
-- Pollinator
-- Ground Cover
-- Ornamental
-- Wildlife Attractor
+  - Pollinator
+  - Ground Cover
+  - Ornamental
+  - Wildlife Attractor
 description: |-
   Prairie phlox (Phlox pilosa) is a clump-forming perennial of North American prairies and open woods, bearing clusters of fragrant pink to lavender flowers in late spring and early summer atop stems usually under 2 feet (60 cm). Narrow leaves are softly hairy, giving a gray-green haze at ground level. It excels in sunny borders, meadow strips, and any garden that wants long-tongued pollinator service without importing neon annuals.
 
@@ -33,18 +33,18 @@ purpose: |-
   Ornamental: Pink-lavender cushions read softer than neon annual flats in designed meadow strips -- powdery mildew shows on crowded humid nights, so give wind slots between clumps.
   Wildlife Attractor: Night fragrance supports hawkmoth pollination syndromes while diurnal bees still work open faces -- leave a few seed heads if you want finch snacks, deadhead walkways if self-sowing annoys pavers.
 companions:
-- Little Bluestem — warm-season grass scaffold sharing sun and drainage
-- Orange Coneflower — complementary yellow blooms later in the season for extended
-  color
-- Wild Bergamot — mint-family neighbor extending pollinator hours with different floral
-  architecture
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: orange-coneflower
+    name: Orange Coneflower
+  - slug: wild-bergamot
+    name: Wild Bergamot
 cautions:
-- Powdery Mildew — improve airflow; avoid evening overhead watering
-- Over-fertilization — lush foliage, fewer flowers, same old story
+  - Powdery Mildew — improve airflow; avoid evening overhead watering
+  - Over-fertilization — lush foliage, fewer flowers, same old story
 pests:
-- Aphids
-- Spider Mites
-- Powdery Mildew
-growth_habit: Clumping perennial; fragrant pink-lavender clusters; prairie and open
-  woodland edges
+  - Aphids
+  - Spider Mites
+  - Powdery Mildew
+growth_habit: Clumping perennial; fragrant pink-lavender clusters; prairie and open woodland edges
 data_quality_score: 0.8

@@ -32,9 +32,10 @@ purpose: |-
   Biomass: Frost-killed vines chop into compost for fast green layer in frost-free rotations -- confirm no quarantine pathogens before moving material between counties.
   Dynamic Accumulator: Deep storage roots mine subsoil potassium that returns only if you compost vine residues on-site instead of exporting every scrap off the holding.
 companions:
-  - Pigeon pea
-  - Cassava
-  - Tall sorghum (living trellis)
+  - slug: pigeon-pea
+    name: Pigeon Pea
+  - slug: cassava
+    name: Cassava
 cautions:
   - Shallow rocky soil that restricts tuber expansion
   - Undocumented wild harvest without ID and processing knowledge
@@ -42,3 +43,7 @@ pests:
   - Nematodes
   - Aphids
   - Root Rot
+companion_categories:
+  - name: Tall sorghum (living trellis)
+    original: Tall sorghum (living trellis)
+    type: system

@@ -2,8 +2,8 @@ common_name: Big Bluestem
 picture: big_bluestem.webp
 scientific_name: Andropogon gerardii
 aka:
-- Turkeyfoot
-- Tallgrass prairie flagship grass
+  - Turkeyfoot
+  - Tallgrass prairie flagship grass
 family: Poaceae
 zone: 4-9
 ideal_temp_min: 60
@@ -12,13 +12,13 @@ min_temp: -35
 max_temp: 100
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Animal Fodder
-- Biomass
-- Erosion Control
-- Wildlife Attractor
-- Ornamental
+  - Animal Fodder
+  - Biomass
+  - Erosion Control
+  - Wildlife Attractor
+  - Ornamental
 description: |-
   Big bluestem (Andropogon gerardii) is a warm-season bunchgrass of North American tallgrass prairie, forming tall clumps with blue-green spring blades that shift copper-red in autumn and seed heads shaped like a turkey’s foot. Culms commonly reach 4–8 feet (1.2–2.4 m) in favorable moisture, shorter on dry ridges. It is a backbone species for prairie restoration, pasture diversification, and ornamental meadows that refuse to pretend Kentucky bluegrass is native.
 
@@ -34,27 +34,26 @@ purpose: |-
   Wildlife Attractor: Turkeyfoot seeds feed bobwhite and sparrows while hollow stems shelter native bees if you delay mowing until April warmth -- standing brown winter stems are habitat, not mess, on honest sites.
   Ornamental: Copper-red fall color and 2 m culms sell designed meadows -- chlorosis on high-pH fill means choose local ecotype or accept yellow drama, not more fertilizer noise.
 companions:
-- Switchgrass — complementary warm-season grass with different texture and timing
-  in mixed meadows
-- Pale Purple Coneflower — forb partner for pollinator support and contrasting bloom
-  architecture
-- Wild Bergamot — aromatic forb shares sun and handles competitive grass neighbors
-  at margins
+  - slug: switchgrass
+    name: Switchgrass
+  - slug: pale-purple-coneflower
+    name: Pale Purple Coneflower
+  - slug: wild-bergamot
+    name: Wild Bergamot
 cautions:
-- Heavy nitrogen + frequent mowing — favors weedier competitors and can thin bluestem
-  stands over time
+  - Heavy nitrogen + frequent mowing — favors weedier competitors and can thin bluestem stands over time
 pests:
-- Aphids
-- Armyworms
-- Bamboo Mite
-- Corn Earworm
-- Fall Armyworm
-- Grasshopper
-- Lubber Grasshopper
-- Rice Blast Fungus
-- Rice Water Weevil
-- Spittlebugs
-- Wireworm
-- Leaf Blight
+  - Aphids
+  - Armyworms
+  - Bamboo Mite
+  - Corn Earworm
+  - Fall Armyworm
+  - Grasshopper
+  - Lubber Grasshopper
+  - Rice Blast Fungus
+  - Rice Water Weevil
+  - Spittlebugs
+  - Wireworm
+  - Leaf Blight
 growth_habit: Warm-season bunchgrass; tall culms; turkeyfoot seed heads; deep roots
 data_quality_score: 0.85

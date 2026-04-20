@@ -29,9 +29,7 @@ purpose: |-
   Pest Management: Pitcher lids and peristomes secrete nectar that lures flies, ants, and gnats into fluid laced with surfactants and proteases, digesting prey to replace missing soil nitrogen on bare ultramafic or peat substrates -- not a housefly vacuum for whole barns, but real biocontrol on bench scale.
   Wildlife Attractor: Pitcher fluid hosts specialist mosquito larvae and midge communities while larger pitchers occasionally drown small vertebrates in wild populations -- greenhouse specimens still pull curious insect traffic at humid windows.
   Ground Cover: Lowland rosette species with stolons carpet humid greenhouse floors, living walls, and epiphyte tables where roots stay moist and air stays moving -- highland vines need vertical trellis, not ground-mat expectations.
-companions:
-- Fern
-- Orchid
+companions: []
 cautions:
 - None specific
 pests:
@@ -39,3 +37,8 @@ pests:
 - Mealybugs
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Fern
+  original: Fern
+- name: Orchid
+  original: Orchid

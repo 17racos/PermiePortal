@@ -2,8 +2,8 @@ common_name: Fig
 picture: fig.webp
 scientific_name: Ficus carica
 aka:
-  - Common Fig
-  - Edible Fig
+- Common Fig
+- Edible Fig
 family: Moraceae
 zone: 7-11
 ideal_temp_min: 50
@@ -12,15 +12,15 @@ min_temp: 15
 max_temp: 105
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Edible
-  - Medicinal
-  - Wildlife Attractor
-  - Dynamic Accumulator
-  - Erosion Control
-  - Windbreaker
-  - Border Plant
+- Edible
+- Medicinal
+- Wildlife Attractor
+- Dynamic Accumulator
+- Erosion Control
+- Windbreaker
+- Border Plant
 description: "Fig (Ficus carica) is a deciduous tree or large shrub that grows between 3–10 meters (10–33 feet) tall. It has broad, lobed leaves and produces sweet, soft, fleshy fruit that varies in color from green to purple when ripe. \n\nFig trees are well-adapted to Mediterranean and subtropical climates but can survive in cooler regions if protected from frost. They are drought-tolerant once established and can grow in a wide range of soil conditions. The tree's deep roots help stabilize soil, making it useful for erosion control.\n\n 🌞💧 Sun and Water Requirements:\nPrefers full sun with at least 6–8 hours of sunlight per day. Grows best in well-drained, loamy, or sandy soil. Drought-tolerant but benefits from occasional deep watering, especially in hot climates.\n\n🫘 Methods to Propagate:\nCuttings: Hardwood cuttings in winter or softwood cuttings in early summer. Layering: Air layering works well for propagation. Seeds: Can be grown from seeds but often results in variable fruit quality.\n\n🧑🌾👩🌾 When to Harvest:\nFruit is ready when soft, slightly drooping, and changes color (typically summer to early fall). Harvest figs gently to avoid bruising. Best eaten fresh, dried, or processed into jams and preserves."
 purpose: |-
   Edible: Main-crop figs soften at the eye -- and weep nectar when ready; split fruit goes straight to dehydrators or solar dryers while firm breba types on some cultivars ripen weeks earlier on last year's wood.
@@ -31,40 +31,46 @@ purpose: |-
   Windbreaker: Open vase-trained trees planted on a slight angle to prevailing wind filter gusts across olive rows -- and vegetable terraces without forming a solid dark wall.
   Border Plant: Single-trunk specimens mark lane edges -- and livestock pens where deep shade is acceptable; root barriers keep paving and foundations from heaving in sandy soil.
 companions:
-  - Comfrey
-  - Clover
-  - Pomegranate
-  - Grape
-  - Mulberry Tree
+- slug: comfrey
+  name: Comfrey
+- slug: mulberry-tree
+  name: Mulberry Tree
 cautions:
-  - Walnut
-  - Onion
+- Walnut
+- Onion
 pests:
-  - Fig Beetle
-  - Mealybugs
-  - Rootknot Nematodes
-  - Cuban Laurel Thrips
-  - Scale Insects
-  - Armored Scale
-  - Soft Scale
-  - Black Scale
-  - Brown Soft Scale
-  - Cottony Cushion Scale
-  - Florida Wax Scale
-  - White Peach Scale
-  - Tea Scale
-  - Oleander Scale
-  - Ambrosia Beetles
-  - Shot Hole Borers
-  - Twig Borers
-  - Leaf-Footed Bugs
-  - Russet Mites
-  - Root Rot
-  - Gall Wasps
-  - Calcium Deficiency
-  - Cuban Tree Frog
-  - Green Iguana
-  - Deer
+- Fig Beetle
+- Mealybugs
+- Rootknot Nematodes
+- Cuban Laurel Thrips
+- Scale Insects
+- Armored Scale
+- Soft Scale
+- Black Scale
+- Brown Soft Scale
+- Cottony Cushion Scale
+- Florida Wax Scale
+- White Peach Scale
+- Tea Scale
+- Oleander Scale
+- Ambrosia Beetles
+- Shot Hole Borers
+- Twig Borers
+- Leaf-Footed Bugs
+- Russet Mites
+- Root Rot
+- Gall Wasps
+- Calcium Deficiency
+- Cuban Tree Frog
+- Green Iguana
+- Deer
 growth_habit: Tree
 data_quality_score: 0.8
 field_observations: No field observations yet
+companions_unresolved:
+- name: Clover
+  original: Clover
+- name: Pomegranate
+  original: Pomegranate
+- name: Grape
+  original: Grape

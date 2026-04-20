@@ -36,9 +36,12 @@ purpose: |-
   Border Plant: Vertical spires of soft pinnate leaves read as rhythm markers between lower catmint and taller ironweed -- tolerates half-day shade on east fences without mildew if air moves.
   Ground Cover: Basal rosettes overwinter flat under snow, shading bare mud between taller perennials in spring -- not a turf substitute, but effective at crowding annual chickweed until warm-season grasses wake.
 companions:
-  - Yarrow — overlapping pollinator service and similar sun; contrasting foliage texture at the same height band.
-  - Echinacea — extends bloom sequence so the border is not a one-week fireworks show.
-  - Comfrey — deep-mining mulch plant at the back of the bed feeds the whole polyculture without stealing agrimony’s light.
+  - slug: yarrow
+    name: Yarrow
+  - slug: echinacea
+    name: Echinacea
+  - slug: comfrey
+    name: Comfrey
 cautions:
   - None documented
 pests:

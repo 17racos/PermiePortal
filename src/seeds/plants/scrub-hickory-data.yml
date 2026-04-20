@@ -31,9 +31,12 @@ purpose: |-
   Windbreaker: Twisted multi-stem crowns blunt steady coastal-plain winds across citrus edges and scrub restoration plots without shading ground layers like tall pecans.
   Shade Provider: Wide-spreading scrubby limbs cast patchy noon shade for palmettos, lyonia, and humans resting between planting waves.
 companions:
-  - Sand Live Oak — evergreen oak overstory sharing deep sand and sun
-  - Myrtle Oak — evergreen scrub oak midstory beneath taller hickory crowns
-  - Sand Blackberry — thorny fruiting understory in open scrub gaps
+  - slug: sand-live-oak
+    name: Sand Live Oak
+  - slug: myrtle-oak
+    name: Myrtle Oak
+  - slug: sand-blackberry
+    name: Sand Blackberry
 cautions:
   - None documented
 pests:

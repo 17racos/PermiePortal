@@ -34,9 +34,12 @@ purpose: |-
   Windbreaker: Dense strap foliage shreds onshore wind into eddies so leeward bananas and beach sunflower stop sand-blasting -- spacing matters; crowns still need airflow so internal rot does not hollow big clumps.
   Erosion Control: Prop roots dive through shifting dune sand and hurricane wrack, knitting shoreline profiles where pure grass would wash -- bury toes on purpose during restoration so architecture matches natural flare angles.
 companions:
-  - Screw Pine — overlapping cultural uses and management cues; scouting pests and nutrient needs stays one skill tree (distinct taxa sometimes share common names—track by scientific name when planting).
-  - Banana — quick biomass leeward of pandanus windbreak; bananas appreciate salt-filtered airflow if drainage stays honest.
-  - Lemongrass — aromatic perimeter herb that tolerates coastal wind when given mulch; confuses some pest search images at the edge.
+  - slug: screw-pine
+    name: Screw Pine
+  - slug: banana
+    name: Banana
+  - slug: lemongrass
+    name: Lemongrass
 cautions:
   - None documented
 pests:

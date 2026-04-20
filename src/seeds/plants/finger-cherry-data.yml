@@ -2,12 +2,12 @@ common_name: Finger Cherry
 picture: finger_cherry.webp
 scientific_name: Syzygium australe
 aka:
-- Brush cherry
-- Magenta lilly pilly
-- Australian water pear
-- Syzygium australe
-- Creek Lilly Pilly
-- Scrub Cherry
+  - Brush cherry
+  - Magenta lilly pilly
+  - Australian water pear
+  - Syzygium australe
+  - Creek Lilly Pilly
+  - Scrub Cherry
 family: Myrtaceae
 zone: 9-12
 ideal_temp_min: 65
@@ -16,13 +16,13 @@ min_temp: 26
 max_temp: 105
 perennial: true
 layers:
-- Shrub
-- Tree
+  - Shrub
+  - Tree
 plant_function:
-- Edible
-- Ornamental
-- Wildlife Attractor
-- Border Plant
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  - Border Plant
 description: |-
   Finger cherry (Syzygium australe) is an Australian rainforest margin tree or large shrub widely planted in humid subtropical landscapes for glossy leaves, fluffy cream flowers, and magenta to red pear-shaped fruit nicknamed finger cherries in some markets. Cultivated specimens often reach 15–30 feet (4.5–9 m) but accept hedging. It is a Myrtaceae workhorse for edible hedgerows and windbreaks in frost-free climates where psyllid pressure is managed thoughtfully.
 
@@ -37,21 +37,18 @@ purpose: |-
   Wildlife Attractor: Myrtaceous nectar supports honeybees and stingless-bee hobbyists through spring flush while ripe fruit draws fruit flies and fruit-eating birds unless harvest beats their calendar on the same row.
   Border Plant: Accepts hedge shears at three-foot wingspans or trains single-leader small trees for sight-line blocking on brackish wind lots where salt spray browns many broadleaf alternatives.
 companions:
-- Lilly Pilly — related hedge species with overlapping pollinators and staggered fruit
-  in mixed rows
-- Brush Cherry — Myrtaceae neighbor that shares cultural needs without identical harvest
-  timing
-- Lemongrass — perimeter herb marking irrigation lines without competing for canopy
-  space
+  - slug: syzygium-smithii
+    name: Syzygium smithii
+  - slug: brush-cherry
+    name: Brush Cherry
+  - slug: lemongrass
+    name: Lemongrass
 cautions:
-- Hard frost — tissue damage below roughly 26°F (-3°C) on exposed sites; protect young
-  plants
-- Psyllid and scale pressure — humid coastal plantings need monitoring, not neglect
-  dressed as organic virtue
+  - Hard frost — tissue damage below roughly 26°F (-3°C) on exposed sites; protect young plants
+  - Psyllid and scale pressure — humid coastal plantings need monitoring, not neglect dressed as organic virtue
 pests:
-- Mealybugs
-- Oriental Fruit Fly
-- Scale Insects
-growth_habit: Evergreen Myrtaceae tree or shrub; cream flowers; magenta fruit; hedge-tolerant
-  in humid subtropics
+  - Mealybugs
+  - Oriental Fruit Fly
+  - Scale Insects
+growth_habit: Evergreen Myrtaceae tree or shrub; cream flowers; magenta fruit; hedge-tolerant in humid subtropics
 data_quality_score: 0.8

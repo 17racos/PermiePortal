@@ -2,8 +2,8 @@ common_name: Water Yam
 picture: water_yam.webp
 scientific_name: Dioscorea alata
 aka:
-- Winged yam
-- Purple yam (regional names vary)
+  - Winged yam
+  - Purple yam (regional names vary)
 family: Dioscoreaceae
 zone: 8-11
 ideal_temp_min: 70
@@ -12,12 +12,12 @@ min_temp: 25
 max_temp: 105
 perennial: true
 layers:
-- Vine
-- Root
+  - Vine
+  - Root
 plant_function:
-- Edible
-- Ground Cover
-- Mulcher
+  - Edible
+  - Ground Cover
+  - Mulcher
 description: |-
   Water yam is the winged-stem Dioscorea that climbs trellises, trees, and homeowner patience—massive tubers possible where the frost-free season is long enough. Some forms are regulated or problematic; verify local rules before you plant your yard into a liability.
 
@@ -33,16 +33,23 @@ purpose: |-
   Edible: Dioscorea alata winged yams exceed 50 kg in pampered plots -- purple flesh types need long frost-free seasons; verify regional invasiveness before gifting bulbils to neighbors.
   Ground Cover: Annual vines smother trellises and fence tops -- assign serious arbor strength; girdling young trees is a documented bad habit if you look away midsummer.
   Mulcher: Frost-blackened foliage drops in place -- chop coarse stems before composting so piles heat evenly.
-companions:
-- Strong trellis trees
-- Nitrogen companions at the base
-- Nothing fragile the vine can smother
+companions: []
 cautions:
-- Planting invasive forms where prohibited
-- Weak trellising
+  - Planting invasive forms where prohibited
+  - Weak trellising
 pests:
-- nematodes
-- rootknot nematodes
-- aphids
+  - nematodes
+  - rootknot nematodes
+  - aphids
 growth_habit: Herbaceous perennial twining vine with annual stems from tuber
 data_quality_score: 0.72
+companion_categories:
+  - name: Strong trellis trees
+    original: Strong trellis trees
+    type: system
+  - name: Nitrogen companions at the base
+    original: Nitrogen companions at the base
+    type: system
+  - name: Nothing fragile the vine can smother
+    original: Nothing fragile the vine can smother
+    type: system

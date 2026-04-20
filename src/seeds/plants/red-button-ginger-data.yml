@@ -2,10 +2,10 @@ common_name: Red Button Ginger
 picture: red_button_ginger.webp
 scientific_name: Costus woodsonii
 aka:
-  - Scarlet Spiral Flag
-  - Indian Head Ginger
-  - Dwarf Cone Ginger
-  - Spiral Ginger
+- Scarlet Spiral Flag
+- Indian Head Ginger
+- Dwarf Cone Ginger
+- Spiral Ginger
 family: Costaceae
 zone: 9-11
 ideal_temp_min: 65
@@ -14,14 +14,14 @@ min_temp: 32
 max_temp: 95
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Medicinal
-  - Wildlife Attractor
-  - Erosion Control
-  - Border Plant
-  - Ground Cover
+- Edible
+- Medicinal
+- Wildlife Attractor
+- Erosion Control
+- Border Plant
+- Ground Cover
 description: |-
   Red Button Ginger (*Costus woodsonii*) is a tropical, evergreen perennial native to Central and South America. It is renowned for its vibrant red, cone-shaped inflorescences from which yellow-orange flowers emerge sequentially, providing year-round visual interest. The plant typically grows to a height of 1–2 meters (3–6 feet) with lush, dark green, spirally arranged leaves.
 
@@ -38,15 +38,19 @@ purpose: |-
   Border Plant: Spiral-leafed stems to 2 m mark patio corners with red cone buttons year-round in frost-free humidity -- shear spent cones for tidy sight lines without removing all ant rewards if biocontrol matters.
   Ground Cover: Dense basal foliage shades weeds under palm trunks and workshop eaves where sun is bright but indirect -- still mulch because bare soil between spirals invites nutgrass when irrigation slips.
 companions:
-  - Fern
-  - Caladium
-  - Ginger
+- slug: ginger
+  name: Ginger
 cautions:
-  - None specifically documented
+- None specifically documented
 pests:
-  - Aphids
-  - Spider Mites
-  - Mealybugs
+- Aphids
+- Spider Mites
+- Mealybugs
 growth_habit: Tree
 data_quality_score: 0.8
 field_observations: No field observations yet
+companions_unresolved:
+- name: Fern
+  original: Fern
+- name: Caladium
+  original: Caladium

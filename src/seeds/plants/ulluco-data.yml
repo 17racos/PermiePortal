@@ -2,8 +2,8 @@ common_name: Ulluco
 picture: ulluco.webp
 scientific_name: Ullucus tuberosus
 aka:
-  - Melloco
-  - Earth gem
+- Melloco
+- Earth gem
 family: Basellaceae
 zone: 8-10
 ideal_temp_min: 45
@@ -12,12 +12,12 @@ min_temp: 28
 max_temp: 85
 perennial: true
 layers:
-  - Herbaceous
-  - Root
+- Herbaceous
+- Root
 plant_function:
-  - Edible
-  - Ground Cover
-  - Dynamic Accumulator
+- Edible
+- Ground Cover
+- Dynamic Accumulator
 description: |-
   Ulluco is the Andean technicolor tuber that refuses to be a potato cosplay. Daylength-sensitive and frost-tender, it wants cool nights and mild days — think high-elevation vibe in a Florida winter garden experiment, not July furnace beds. Tubers form late; patience is the whole personality. Skin pigments mean anthocyanin stains and smug salad photos.
 
@@ -31,14 +31,25 @@ purpose: |-
   Ground Cover: Succulent stems sprawl low once cool nights trigger tuber fill -- temporary living mulch under brassicas before subtropical frost collapses the vines.
   Dynamic Accumulator: Fast leafy growth during short-day windows concentrates minerals in vine tips -- chop senescing tops back into Andean-style beds before slugs claim the credit.
 companions:
-  - Peas
-  - Lettuce
-  - Brassicas
+- slug: lettuce
+  name: Lettuce
+- slug: broccoli
+  name: Broccoli
 cautions:
-  - Hot dry summer as primary growing season
-  - Expecting potato yields on your first naive attempt
+- Hot dry summer as primary growing season
+- Expecting potato yields on your first naive attempt
 pests:
-  - Aphids
-  - Slugs
-  - Ulluco Weevil
-  - Root Rot
+- Aphids
+- Slugs
+- Ulluco Weevil
+- Root Rot
+companions_unresolved:
+- name: Peas
+  original: Peas
+- name: Brassica
+  original: Brassicas
+  note: normalization_target_not_in_index
+companions_normalized:
+- original: Brassicas
+  resolved_slug: broccoli
+  name: Broccoli

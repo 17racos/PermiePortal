@@ -32,13 +32,10 @@ purpose: |-
   Wildlife Attractor: Self-seeding drifts feed late-season generalist pollinators on construction-scalp soils where irrigation overspray keeps ground moist enough for warm-season annual metabolism through zone 9-12 shoulder seasons.
   Ornamental: Airy wands hold saturated orange inflorescences on thin stems for wildflower strips needing tropical annual color without sterile hybrid petunias on the same HOA-facing berm you mulched with pine straw honesty.
 companions:
-- Cosmos — similar self-seeding annual energy with complementary flower forms
-- Zinnia — dense annual color that shares sun and pollinators in mixed beds
-- Basil — culinary annual with different chemistry; helps fill space without identical
-  pest profile
+- slug: basil
+  name: Basil
 cautions:
-- Can behave aggressively in mild frost-free climates—deadhead if you do not want
-  a monologue of orange seedlings
+- Can behave aggressively in mild frost-free climates—deadhead if you do not want a monologue of orange seedlings
 pests:
 - Aphids
 - Banded Winged Whitefly
@@ -47,6 +44,10 @@ pests:
 - Lubber Grasshopper
 - Root Aphid
 - Whiteflies
-growth_habit: Warm-season annual forb; orange-red composite flowers; disturbed-ground
-  colonizer
+growth_habit: Warm-season annual forb; orange-red composite flowers; disturbed-ground colonizer
 data_quality_score: 0.8
+companions_unresolved:
+- name: Cosmos
+  original: Cosmos — similar self-seeding annual energy with complementary flower forms
+- name: Zinnia
+  original: Zinnia — dense annual color that shares sun and pollinators in mixed beds

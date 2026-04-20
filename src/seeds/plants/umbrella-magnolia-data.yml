@@ -31,18 +31,18 @@ purpose: |-
   Shade Provider: Huge deciduous leaves shade out spring ephemerals by June -- underplant trout lily and bloodroot for the narrow light window before the green ceiling closes.
   Mulcher: Leaf volume smothers weeds with acidic, slow mats -- rake toward acid-loving shrubs instead of fighting the natural mess.
 companions:
-- Spicebush — early bloom and bird fruit under magnolia skirt; shared moist acidic
-  soils
-- Christmas Fern — evergreen ground presence tolerates dry shade once magnolia leaves
-  drop
-- American Ginseng — classic Appalachian associate in mature shade; both need rich
-  humus and patience
+- slug: spicebush
+  name: Spicebush
 cautions:
 - Wind exposure — large leaves shred on windy ridgetops without taller windbreaks
 - Flower fragrance — some people find blooms unpleasant up close; site paths accordingly
 pests:
 - Scale Insects
 - Japanese Beetles
-growth_habit: Small deciduous tree; huge clustered leaves at stem tips; moist cove
-  forests
+growth_habit: Small deciduous tree; huge clustered leaves at stem tips; moist cove forests
 data_quality_score: 0.85
+companions_unresolved:
+- name: Christmas Fern
+  original: Christmas Fern — evergreen ground presence tolerates dry shade once magnolia leaves drop
+- name: American Ginseng
+  original: American Ginseng — classic Appalachian associate in mature shade; both need rich humus and patience

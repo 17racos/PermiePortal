@@ -2,8 +2,8 @@ common_name: Orange Coneflower
 picture: orange_coneflower.webp
 scientific_name: Rudbeckia fulgida
 aka:
-- Black-Eyed Susan
-- Rudbeckia
+  - Black-Eyed Susan
+  - Rudbeckia
 family: Asteraceae
 zone: 3-9
 ideal_temp_min: 45
@@ -12,12 +12,12 @@ min_temp: -30
 max_temp: 100
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Pollinator
-- Wildlife Attractor
-- Ornamental
-- Border Plant
+  - Pollinator
+  - Wildlife Attractor
+  - Ornamental
+  - Border Plant
 description: |-
   Orange coneflower (Rudbeckia fulgida) is a durable perennial sunflower relative of eastern and central North American meadows, bearing golden orange rays around a dark central cone through the warm months. Plants typically reach 2–3 feet (60–90 cm), spreading into dense clumps that laugh at mediocre soil if drainage exists. It is a workhorse in pollinator strips, rain-garden berms, and any sunny border that needs color without coddling.
 
@@ -32,22 +32,23 @@ purpose: |-
   Ornamental: Orange ray petals around chocolate disks read as prairie color without hybrid fluff -- reblooms after shearing first wave if moisture stays steady and mildew pressure is low.
   Border Plant: Two-foot clumps edge paths, parking islands, and vegetable beds without casting deep shade on low crops -- divide every few years when centers go woody and flower count drops.
 companions:
-- Little Bluestem — warm-season grass scaffold contrasting flower color and texture
-- Prairie Coneflower — complementary Asteraceae neighbor extending bloom sequence
-  in the same bed
-- Wild Bergamot — aromatic forb sharing pollinators while differing in flower shape
-  and height
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: prairie-coneflower
+    name: Prairie Coneflower
+  - slug: wild-bergamot
+    name: Wild Bergamot
 cautions:
-- Overwatering + poor air — leaf spots invite gossip; thin nearby competitors
-- Name collision—many “black-eyed Susans” exist; this entry is Rudbeckia fulgida complex
+  - Overwatering + poor air — leaf spots invite gossip; thin nearby competitors
+  - Name collision—many “black-eyed Susans” exist; this entry is Rudbeckia fulgida complex
 pests:
-- Aphids
-- Banded Winged Whitefly
-- Greenhouse Whitefly
-- Japanese Beetles
-- Lettuce Aphid
-- Lubber Grasshopper
-- Root Aphid
-- Powdery Mildew
+  - Aphids
+  - Banded Winged Whitefly
+  - Greenhouse Whitefly
+  - Japanese Beetles
+  - Lettuce Aphid
+  - Lubber Grasshopper
+  - Root Aphid
+  - Powdery Mildew
 growth_habit: Clumping perennial; orange rays; dark cone; meadow and border adapted
 data_quality_score: 0.8

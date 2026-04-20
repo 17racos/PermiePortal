@@ -2,8 +2,8 @@ common_name: Buddha Hand
 picture: buddha_hand.webp
 scientific_name: Citrus medica var. sarcodactylis
 aka:
-  - Fingered citron
-  - Bushukan (Japanese)
+- Fingered citron
+- Bushukan (Japanese)
 family: Rutaceae
 zone: 9-11
 ideal_temp_min: 65
@@ -12,13 +12,13 @@ min_temp: 24
 max_temp: 105
 perennial: true
 layers:
-  - Tree
-  - Shrub
+- Tree
+- Shrub
 plant_function:
-  - Edible
-  - Ornamental
-  - Border Plant
-  - Wildlife Attractor
+- Edible
+- Ornamental
+- Border Plant
+- Wildlife Attractor
 description: |-
   Buddha’s hand is a citron that forgot what “normal fruit shape” means—fused segments look like citrus cosplaying as a cephalopod. Almost no pulp: it is zest, candy, liqueur, and temple offering fuel. Treat like other citrus for culture; subtropical and tropical Americas needs frost strategy, drainage, and realistic expectations about greening-era scouting.
 
@@ -33,27 +33,31 @@ purpose: |-
   Border Plant: Compact dwarfing stocks keep the canopy at eye level along warm courtyard walls where standard oranges would shade windows too hard.
   Wildlife Attractor: White citrus flowers release the same heavy fragrance as other citrons, pulling honeybees during warm nights if you skip broad-spectrum sprays during bloom.
 companions:
-  - Comfrey
-  - Clover
-  - Chives
+- slug: comfrey
+  name: Comfrey
+- slug: chives
+  name: Chives
 cautions:
-  - Low frost pockets without protection for young trees
-  - Lawn herbicide drift
+- Low frost pockets without protection for young trees
+- Lawn herbicide drift
 pests:
-  - Asian Citrus Psyllid
-  - Broad Mite
-  - Brown Citrus Aphid
-  - Citrus Greening
-  - Citrus Leafminer
-  - Citrus Mealybug
-  - Citrus Red Mite
-  - Citrus Root Weevil
-  - Citrus Whitefly
-  - Leaf Curl
-  - Oriental Fruit Fly
-  - Scale Insects
-  - Texas Citrus Mite
-  - Citrus Canker
-  - Citrus Rust Mite
-  - Rust Mite
-  - Swallowtail Caterpillar
+- Asian Citrus Psyllid
+- Broad Mite
+- Brown Citrus Aphid
+- Citrus Greening
+- Citrus Leafminer
+- Citrus Mealybug
+- Citrus Red Mite
+- Citrus Root Weevil
+- Citrus Whitefly
+- Leaf Curl
+- Oriental Fruit Fly
+- Scale Insects
+- Texas Citrus Mite
+- Citrus Canker
+- Citrus Rust Mite
+- Rust Mite
+- Swallowtail Caterpillar
+companions_unresolved:
+- name: Clover
+  original: Clover

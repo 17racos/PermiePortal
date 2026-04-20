@@ -2,9 +2,9 @@ common_name: Sweet Coltsfoot
 picture: sweet_coltsfoot.webp
 scientific_name: Petasites japonicus
 aka:
-  - Fuki
-  - Japanese butterbur
-  - Giant butterbur
+- Fuki
+- Japanese butterbur
+- Giant butterbur
 family: Asteraceae
 zone: 5-9
 ideal_temp_min: 45
@@ -13,11 +13,11 @@ min_temp: -20
 max_temp: 90
 perennial: true
 layers:
-  - Herb
+- Herb
 plant_function:
-  - Edible
-  - Ground Cover
-  - Water Retention
+- Edible
+- Ground Cover
+- Water Retention
 description: |-
   Japanese sweet coltsfoot (Petasites japonicus) is a bold riparian perennial with enormous round leaves on long petioles and early spring spikes of flowers before the canopy drama arrives. Clumps spread by rhizomes and love wet feet, forming a mini-jungle 2–4 feet tall in ideal sites—orderly gardens need rhizome barriers or regret.
 
@@ -33,20 +33,24 @@ purpose: |-
   Ground Cover: Dinner-plate leaves shade riparian mud so invasive knotweed loses light battles on restoration sites managed with shovel discipline.
   Water Retention: Rhizomatous quilts sponge storm surge on shady creek banks before runoff reaches trout redds downstream.
 companions:
-  - Skunk Cabbage — shared wetland niche layers texture; both want steady moisture and shade.
-  - Ostrich Fern — fills mid-height niche with fiddleheads while coltsfoot handles the giant-leaf lower story.
-  - Marsh Marigold — early yellow flowers before coltsfoot leaves dominate; both enjoy splash zones.
+- slug: ostrich-fern
+  name: Ostrich Fern
+- slug: marsh-marigold
+  name: Marsh Marigold
 cautions:
-  - Dry berms with drip-only lies
-  - Small-statured spring bulbs that get buried under rhizome bulldozers
+- Dry berms with drip-only lies
+- Small-statured spring bulbs that get buried under rhizome bulldozers
 pests:
-  - Aphids
-  - Banded Winged Whitefly
-  - Greenhouse Whitefly
-  - Lettuce Aphid
-  - Lubber Grasshopper
-  - Root Aphid
-  - Slugs
-  - Snails
+- Aphids
+- Banded Winged Whitefly
+- Greenhouse Whitefly
+- Lettuce Aphid
+- Lubber Grasshopper
+- Root Aphid
+- Slugs
+- Snails
 growth_habit: Rhizomatous herb; huge round leaves; early spring floral spikes
 data_quality_score: 0.72
+companions_unresolved:
+- name: Skunk Cabbage
+  original: Skunk Cabbage — shared wetland niche layers texture; both want steady moisture and shade.

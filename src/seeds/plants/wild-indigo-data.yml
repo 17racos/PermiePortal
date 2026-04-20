@@ -34,9 +34,12 @@ purpose: |-
   Wildlife Attractor: Long-tongued bees and butterflies work the banner-and-keel flowers -- bloom window is short but loud.
   Dynamic Accumulator: Deep taproot mines calcium and micronutrients into leaf tissue -- dormant stems chop-and-drop recycle those salts on-site.
 companions:
-  - Little bluestem
-  - Coreopsis
-  - Yarrow
+  - slug: lanceleaf-coreopsis
+    name: Lanceleaf Coreopsis
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: yarrow
+    name: Yarrow
 cautions:
   - Wet clay flats
   - Shade-heavy corners (lodging and fewer flowers)

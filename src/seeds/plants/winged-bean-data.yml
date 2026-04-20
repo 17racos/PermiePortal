@@ -33,11 +33,10 @@ purpose: |-
   Ground Cover: Triple-compound leaves laminate trellis shade -- soil stays cool under humid tropical heat.
   Animal Fodder: High-protein vines graze after sun-wilting in Asian trials -- match oxalate and trypsin inhibitor handling to species.
 companions:
-- Corn — sturdy living pole for twining; winged bean fixes nitrogen at the row base
-- Sunflower — secondary vertical support and complementary pollinator draw at the
-  bed edge
-- Yardlong Bean — fellow heat-loving legume vine on a parallel trellis with airflow
-  between runs
+- slug: sunflower
+  name: Sunflower
+- slug: asparagus-bean
+  name: Asparagus Bean
 cautions:
 - Cold soil sowing — seed rots or sits idle until heat arrives
 - Deep shade — lanky growth with few pods despite impressive vine ego
@@ -73,3 +72,6 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Heat-loving twining legume vine; winged pods; long-season tropical/subtropical
 data_quality_score: 0.85
+companions_unresolved:
+- name: Corn
+  original: Corn — sturdy living pole for twining; winged bean fixes nitrogen at the row base

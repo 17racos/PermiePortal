@@ -28,9 +28,12 @@ purpose: |-
   Medicinal: Traditional use targets aromatic bitters for appetite and metabolism -- treat leaf chemistry as potent; research contraindications.
   Wildlife Attractor: Panicles of small, sweet-scented flowers feed generalist pollinators along kitchen herb rows in frost-free climates.
 companions:
-  - Ginger (Zingiber officinale) — likes warm, humus-rich conditions; curry plant leaf litter helps keep soil biology active.
-  - Garlic (Allium sativum) — strong scent and rotation timing help disrupt pest pressure in nearby kitchen herb plantings.
-  - Marigold (Tagetes patula) — pulls beneficial insects while you manage sap-feeder pests by observation.
+  - slug: ginger
+    name: Ginger
+  - slug: garlic
+    name: Garlic
+  - slug: marigold
+    name: Marigold
 cautions:
   - Avoid planting where winter freezes repeatedly damage young growth; cold-stressed plants become pest magnets.
 pests:

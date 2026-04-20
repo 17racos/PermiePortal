@@ -37,10 +37,10 @@ purpose: |-
   Animal Fodder: Leafy types make high-protein poultry forage when cut before flowering -- grain heads finish finches and chickens if you leave windfall rows after human threshing.
   Ground Cover: Colonies tile between taller crops during the warm gap, shading soil and outcompeting pigweed cousins until frost ends the cycle -- cut before seed shatter if volunteers are unwelcome.
 companions:
-- Corn
-- Beans
-- Squash
-- Sunflower
+- slug: sunflower
+  name: Sunflower
+- slug: fava-bean
+  name: Fava Bean
 cautions:
 - None known
 pests:
@@ -48,3 +48,15 @@ pests:
 - Caterpillars
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index
+- name: Squash
+  original: Squash
+companions_normalized:
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

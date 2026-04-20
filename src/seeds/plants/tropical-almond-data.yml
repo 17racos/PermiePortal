@@ -2,11 +2,11 @@ common_name: Tropical Almond
 picture: tropical_almond.webp
 scientific_name: Terminalia catappa
 aka:
-- Sea Almond
-- Indian Almond
-- Ketapang
-- Beach Almond
-- Singapore Almond
+  - Sea Almond
+  - Indian Almond
+  - Ketapang
+  - Beach Almond
+  - Singapore Almond
 family: Combretaceae
 zone: 10b-12
 ideal_temp_min: 60
@@ -15,12 +15,12 @@ min_temp: 28
 max_temp: 110
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Edible
-- Shade Provider
-- Windbreaker
-- Ornamental
+  - Edible
+  - Shade Provider
+  - Windbreaker
+  - Ornamental
 description: |-
   Tropical almond (Terminalia catappa) is the same species many coastal plantings call sea almond or Indian almond—a large tree with tiered branches, glossy leaves that color before abscission, and fibrous drupes containing edible kernels when roasted properly. Heights of 40–60 feet (12–18 m) are common along tropical shores. This duplicate listing exists for searchers using “tropical almond” language; see Sea Almond entry for parallel copy.
 
@@ -35,17 +35,18 @@ purpose: |-
   Windbreaker: Coastal plantings knit into salt-tolerant windwalls -- salt spray bronzes young foliage but mature trees hold beaches and roadsides where less tolerant broadleaves fail.
   Ornamental: Broad glossy leaves color sunset-red before abscission -- the show reads tropical even where the tree is functioning as a municipal street tree.
 companions:
-- Sea Almond — duplicate Terminalia catappa record under another common name; one
-  tree, two database cards
-- Coconut Palm — complementary coastal canopy architecture
-- Lemongrass — perimeter herb along maintenance paths
+  - slug: tropical-almond
+    name: Tropical Almond
+  - slug: coconut-palm
+    name: Coconut Palm
+  - slug: lemongrass
+    name: Lemongrass
 cautions:
-- Falling fruit and leaves—site away from skylights and parked cars
-- Duplicate taxonomy with Sea Almond entry—Terminalia catappa is the scientific anchor
+  - Falling fruit and leaves—site away from skylights and parked cars
+  - Duplicate taxonomy with Sea Almond entry—Terminalia catappa is the scientific anchor
 pests:
-- Scale Insects
-- Aphids
-- Spider Mites
-growth_habit: Large coastal tropical tree; seasonal leaf color; edible kernel in fibrous
-  drupe
+  - Scale Insects
+  - Aphids
+  - Spider Mites
+growth_habit: Large coastal tropical tree; seasonal leaf color; edible kernel in fibrous drupe
 data_quality_score: 0.76

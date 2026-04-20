@@ -32,17 +32,18 @@ purpose: |-
   Ornamental: Gray mounding shrub to 1 m fits xeric borders -- cold wet winters kill marginal 9a plants unless on berms.
   Pest Management: Volatile cloud can confuse aphid search on downwind tomatoes -- still scout; chemistry is not a shield.
 companions:
-- Agave — structural succulent contrast; both want sharp drainage and sun
-- Prickly Pear — low-input edible matrix; shared dry-season ecology in subtropical
-  scrub gardens
-- Scarlet Sage — red tubular flowers for hummingbirds alongside bee-focused Lippia
-  blooms
+- slug: agave
+  name: Agave
+- slug: edible-cactus
+  name: Edible Cactus
 cautions:
-- Frost sensitivity — protect container plants or site against warm walls in marginal
-  zones
+- Frost sensitivity — protect container plants or site against warm walls in marginal zones
 - Flavor intensity — easy to overseason; add gradually in cooking
 pests:
 - Spider Mites
 - Whiteflies
 growth_habit: Aromatic resinous shrub; tubular flowers; dry scrub and limestone hills
 data_quality_score: 0.85
+companions_unresolved:
+- name: Scarlet Sage
+  original: Scarlet Sage — red tubular flowers for hummingbirds alongside bee-focused Lippia blooms

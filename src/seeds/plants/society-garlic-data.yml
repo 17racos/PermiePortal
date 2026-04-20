@@ -33,9 +33,12 @@ purpose: |-
   Pest Management: Bruised leaf sulfur volatiles mask host cues for rose aphids in tight patio trials -- rain washes the plume in hours, so crush a border handful after storms if greenfly clusters return on buds.
   Ground Cover: Clumping mats eighteen inches (45 cm) tall fill dry berms where liriope would want more irrigation -- divide every three years before humid-clay centers go hollow and flowering weakens.
 companions:
-- Roses
-- Tomatoes
-- Carrots
+- slug: tomato
+  name: Tomato
+- slug: carrot
+  name: Carrot
+- slug: roselle
+  name: Roselle
 cautions:
 - None specified
 pests:
@@ -48,3 +51,17 @@ pests:
 growth_habit: Tree
 data_quality_score: 0.8
 field_observations: No field observations yet
+companions_normalized:
+- original: Tomatoes
+  resolved_slug: tomato
+  name: Tomato
+- original: Carrots
+  resolved_slug: carrot
+  name: Carrot
+- original: Roses
+  resolved_slug: roselle
+  name: Roselle
+companions_unresolved:
+- name: Rose
+  original: Roses
+  note: normalization_target_not_in_index

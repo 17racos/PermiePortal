@@ -34,9 +34,12 @@ purpose: |-
   Ornamental: Crimson cylinders against needle-like aromatic leaves read instantly from the sidewalk, marking drip zones you actually irrigate.
   Erosion Control: Surface roots spread through sandy berms after two wet seasons, locking soil where seepage would otherwise undercut mulch.
 companions:
-  - Firebush — overlapping hummingbird clientele with a different flower architecture for staggered bloom.
-  - Beautyberry — purple fruit contrast and loose habit that reads well behind tighter bottlebrush forms.
-  - Lemongrass — clumping edge that marks irrigation lines and tolerates heat without stealing crown space.
+  - slug: firebush
+    name: Firebush
+  - slug: beautyberry
+    name: Beautyberry
+  - slug: lemongrass
+    name: Lemongrass
 cautions:
   - None documented
 pests:

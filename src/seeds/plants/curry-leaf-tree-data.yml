@@ -2,9 +2,9 @@ common_name: Curry Leaf Tree
 picture: curry_leaf_tree.webp
 scientific_name: Murraya koenigii
 aka:
-- Curry leaf plant
-- Kari patta
-- Sweet neem
+  - Curry leaf plant
+  - Kari patta
+  - Sweet neem
 family: Rutaceae
 zone: 9-12
 ideal_temp_min: 65
@@ -13,13 +13,13 @@ min_temp: 30
 max_temp: 110
 perennial: true
 layers:
-- Shrub
-- Tree
+  - Shrub
+  - Tree
 plant_function:
-- Edible
-- Medicinal
-- Ornamental
-- Wildlife Attractor
+  - Edible
+  - Medicinal
+  - Ornamental
+  - Wildlife Attractor
 description: |-
   Curry leaf tree (Murraya koenigii) is a multi-stemmed tropical to subtropical shrub or small tree from South and Southeast Asia, famous for aromatic compound leaves used as a fresh seasoning. In frost-free climates it reaches roughly 10–20 feet (3–6 m) unless kept smaller by pruning. White fragrant flowers yield small dark berries that are not the culinary focus—leaves are the crop that earns it space near kitchens and herb gardens.
 
@@ -34,37 +34,34 @@ purpose: |-
   Ornamental: Glossy pinnate foliage and fragrant white flowers suit subtropical courtyards as a small multi-stem tree or large shrub.
   Wildlife Attractor: Citrus-family flowers draw small bees and butterflies in warm months where the plant is not invasive.
 companions:
-- Moringa — fast leafy neighbor that tolerates similar heat cycles without root trench
-  warfare
-- Lemongrass — shared culinary bed with distinct harvest timing and complementary
-  scents
-- Banana — dappled understory while young; move curry leaf into sun as canopy rises
-  if needed
+  - slug: moringa
+    name: Moringa
+  - slug: lemongrass
+    name: Lemongrass
+  - slug: banana
+    name: Banana
 cautions:
-- Frost — foliage burns below roughly 30°F (-1°C); container culture for marginal
-  zones
-- Invasive potential — confirm local assessments before planting near natural areas
-  in oceanic climates
+  - Frost — foliage burns below roughly 30°F (-1°C); container culture for marginal zones
+  - Invasive potential — confirm local assessments before planting near natural areas in oceanic climates
 pests:
-- Aphids
-- Asian Citrus Psyllid
-- Broad Mite
-- Brown Citrus Aphid
-- Citrus Greening
-- Citrus Leafminer
-- Citrus Mealybug
-- Citrus Red Mite
-- Citrus Root Weevil
-- Citrus Whitefly
-- Leaf Curl
-- Oriental Fruit Fly
-- Scale Insects
-- Texas Citrus Mite
-- Whiteflies
-- Citrus Canker
-- Citrus Rust Mite
-- Rust Mite
-- Swallowtail Caterpillar
-growth_habit: Multi-stemmed Rutaceae shrub to small tree; pinnate aromatic leaves;
-  tropical/subtropical
+  - Aphids
+  - Asian Citrus Psyllid
+  - Broad Mite
+  - Brown Citrus Aphid
+  - Citrus Greening
+  - Citrus Leafminer
+  - Citrus Mealybug
+  - Citrus Red Mite
+  - Citrus Root Weevil
+  - Citrus Whitefly
+  - Leaf Curl
+  - Oriental Fruit Fly
+  - Scale Insects
+  - Texas Citrus Mite
+  - Whiteflies
+  - Citrus Canker
+  - Citrus Rust Mite
+  - Rust Mite
+  - Swallowtail Caterpillar
+growth_habit: Multi-stemmed Rutaceae shrub to small tree; pinnate aromatic leaves; tropical/subtropical
 data_quality_score: 0.83

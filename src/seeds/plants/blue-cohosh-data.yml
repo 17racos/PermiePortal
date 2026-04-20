@@ -31,15 +31,18 @@ purpose: |-
   Wildlife Attractor: Thrips and small bees work the early flowers; thrushes move the blue berries when colonies fruit in humid maple-beech litter.
   Ground Cover: Slow rhizomes fill rich moist shade without stolon runners, so colonies expand on decade scales if soil stays high in leaf mold.
 companions:
-- Jack-in-the-Pulpit — shares rich moist shade and staggered seasonal interest
-- Maidenhair Fern — matches acidic organic soils and appreciates cohosh’s light shade
-- American Beech — overstory that provides stable cool litter and gentle spring light
+- slug: maidenhair-fern
+  name: Maidenhair Fern
 cautions:
 - Toxicity — berries are not food; ingestion can cause serious symptoms
 - Pregnancy — historical use tied to uterine effects; avoid casual experimentation
 pests:
 - Slugs
 - Snails
-growth_habit: Herbaceous perennial; blue-green compound leaves; blue berries on thick
-  stems
+growth_habit: Herbaceous perennial; blue-green compound leaves; blue berries on thick stems
 data_quality_score: 0.85
+companions_unresolved:
+- name: Jack-in-the-Pulpit
+  original: Jack-in-the-Pulpit — shares rich moist shade and staggered seasonal interest
+- name: American Beech
+  original: American Beech — overstory that provides stable cool litter and gentle spring light

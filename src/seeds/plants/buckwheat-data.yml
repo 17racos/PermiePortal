@@ -34,10 +34,12 @@ purpose: |-
   Pollinator: White to pink umbels open in about forty-five days from sowing and load nectar so fast that honeybees switch recruitment dances midafternoon -- short bloom means plant successive strips if you need a month-long bee bridge.
   Wildlife Attractor: Hoverflies and small solitary bees pack the same inflorescences that later set triangular seed for ground-feeding sparrows -- leave one unmowed patch if you want finches cleaning volunteer grain before it sprouts.
 companions:
-- Cowpea
-- Millet
-- Sunflower
-- Phacelia
+- slug: millet
+  name: Millet
+- slug: sunflower
+  name: Sunflower
+- slug: phacelia
+  name: Phacelia
 cautions:
 - Waterlogged fields
 - Shade
@@ -48,3 +50,6 @@ pests:
 - Rhubarb Curculio
 - slugs
 - snails
+companions_unresolved:
+- name: Cowpea
+  original: Cowpea

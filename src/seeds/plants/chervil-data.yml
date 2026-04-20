@@ -28,9 +28,12 @@ purpose: |-
   Medicinal: Apiaceous volatile oils show up in old European herbals as a mild digestive bitter and topical wash for irritated skin.
   Pollinator: Small white umbels open in waves and supply nectar to tiny bees and syrphid flies when many summer vegetables are not in bloom.
 companions:
-  - Lettuce (Lactuca sativa) — shared cool-season timing and similar moisture needs make bed management easier.
-  - Radish (Raphanus sativus) — quick roots loosen soil and create room so chervil doesn’t have to compete with slow space-hoggers.
-  - Garlic (Allium sativum) — strong aroma and rotation timing reduce pest pressure in cool herb beds.
+  - slug: lettuce
+    name: Lettuce
+  - slug: radish
+    name: Radish
+  - slug: garlic
+    name: Garlic
 cautions:
   - Chervil bolts in heat; shade and succession sowing keep you from harvesting “just flowers.”
 pests:

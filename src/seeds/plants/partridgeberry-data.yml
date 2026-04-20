@@ -34,9 +34,12 @@ purpose: |-
   Ornamental: Glossy opposite evergreen leaves and scarlet berries read as woodland tapestry under highbush blueberry skirts -- no plastic mulch theater required if leaf mold stays thick.
   Ground Cover: Stems root at nodes into slow, polite mats that exclude turf bullies on acidic humus -- tuck between ferns and sedges where dog traffic stays honest.
 companions:
-  - Highbush Blueberry — shared acidic organic soil; partridgeberry carpets between shrubs while blueberries handle vertical structure.
-  - Elderberry — dappled edge shrub; elder’s leaf drop feeds the fungal buffet partridgeberry roots expect.
-  - Snowberry — complementary northern woodland shrub with pale berries; staggered fruit colors extend wildlife pantry hours.
+  - slug: highbush-blueberry
+    name: Highbush Blueberry
+  - slug: elderberry
+    name: Elderberry
+  - slug: snowberry
+    name: Snowberry
 cautions:
   - None documented
 pests:

@@ -2,10 +2,10 @@ common_name: Riberry
 picture: riberry.webp
 scientific_name: Syzygium luehmannii
 aka:
-- Lilly Pilly
-- Small-Leaved Lilly Pilly
-- Syzygium luehmannii
-- Small-leafed Lilly Pilly
+  - Lilly Pilly
+  - Small-Leaved Lilly Pilly
+  - Syzygium luehmannii
+  - Small-leafed Lilly Pilly
 family: Myrtaceae
 zone: 10-11
 ideal_temp_min: 55
@@ -14,13 +14,13 @@ min_temp: 28
 max_temp: 100
 perennial: true
 layers:
-- Tree
-- Shrub
+  - Tree
+  - Shrub
 plant_function:
-- Edible
-- Wildlife Attractor
-- Ornamental
-- Border Plant
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  - Border Plant
 description: |-
   Riberry (Syzygium luehmannii) is an Australian rainforest margin tree or large shrub, farmed for small, crimson, slightly pear-shaped fruit with clove-cinnamon aromatics that anchor jams, sauces, and boutique beverages. Plants typically reach 20–40 feet (6–12 m) in humid subtropical climates, with glossy leaves and flaky bark that peels like tired wallpaper in humid air. In warm-climate permaculture it is a hedge candidate, bird feeder, and conversation fruit for growers bored with bland berries.
 
@@ -35,20 +35,19 @@ purpose: |-
   Ornamental: Coppery new growth and exfoliating bark flakes justify front-yard placement before first fruit -- glossy opposite leaves read tidy in humid climates where fungus would spot lesser myrtles.
   Border Plant: Responds to clipping into 2–3 m screens along poultry paddocks and pool fences -- keep mulch doughnut off trunks because collar rot follows volcano mulch plus over-irrigation in warm wet winters.
 companions:
-- Syzygium australe — related lilly pilly with staggered fruit personality for extended
-  harvest windows
-- Carambola Tree — contrasting canopy height and fruit geometry in a myrtle-rich guild
-- Lemongrass — perimeter herb along driplines marking irrigation and scent boundaries
+  - slug: finger-cherry
+    name: Finger Cherry
+  - slug: carambola
+    name: Carambola
+  - slug: lemongrass
+    name: Lemongrass
 cautions:
-- Duplicate taxon also listed as Syzygium luehmannii under another filename—search
-  noise, not a second species
-- Pests of myrtle family—watch scale and sooty mold partnerships after ant highways
-  appear
+  - Duplicate taxon also listed as Syzygium luehmannii under another filename—search noise, not a second species
+  - Pests of myrtle family—watch scale and sooty mold partnerships after ant highways appear
 pests:
-- Aphids
-- Caribbean Fruit Fly
-- Oriental Fruit Fly
-- Scale Insects
-growth_habit: Evergreen myrtle tree-shrub; crimson aromatic fruit; humid subtropical
-  margins
+  - Aphids
+  - Caribbean Fruit Fly
+  - Oriental Fruit Fly
+  - Scale Insects
+growth_habit: Evergreen myrtle tree-shrub; crimson aromatic fruit; humid subtropical margins
 data_quality_score: 0.78

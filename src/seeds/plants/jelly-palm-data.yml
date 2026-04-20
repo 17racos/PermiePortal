@@ -2,8 +2,8 @@ common_name: Jelly Palm
 picture: jelly_palm.webp
 scientific_name: Butia odorata
 aka:
-  - South American jelly palm
-  - Butia capitata (older lumping)
+- South American jelly palm
+- Butia capitata (older lumping)
 family: Arecaceae
 zone: 8b-11
 ideal_temp_min: 45
@@ -12,12 +12,12 @@ min_temp: 12
 max_temp: 105
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Edible
-  - Ornamental
-  - Wildlife Attractor
-  - Windbreaker
+- Edible
+- Ornamental
+- Wildlife Attractor
+- Windbreaker
 description: |-
   Jelly palm is the cold-hardier Butia crowd favorite for "actual fruit, not just landscaping lies." Yellow-orange fruits are sweet-tart and messy — plant it where falling pulp will not paint your Prius. Trunk is stout, slow, and serious; this is not a rental-apartment houseplant. subtropical and tropical Americas 8b microclimates grow it with mulch and patience; younger plants need frost protection during insult winters.
 
@@ -32,19 +32,23 @@ purpose: |-
   Wildlife Attractor: Falling fruit ferments fast and draws raccoons and wasps -- site away from parked cars and harvest promptly if you dislike purple concrete splats.
   Windbreaker: Low head of stiff fronds knocks wind below eye level in mixed fruit rows -- interplant with taller broadleaf windbreaks because palms alone do not stop hurricane fetch.
 companions:
-  - Citrus
-  - Feijoa
-  - Comfrey
+- slug: pineapple-guava
+  name: Pineapple Guava
+- slug: comfrey
+  name: Comfrey
 cautions:
-  - Dark shade and wet feet
-  - Planting under eaves where fruit stains concrete
+- Dark shade and wet feet
+- Planting under eaves where fruit stains concrete
 pests:
-  - Aphids
-  - Coconut Mite
-  - Palm Weevil
-  - Palmetto Weevil
-  - Red Palm Weevil
-  - Rhinoceros Beetle
-  - Scale insects
-  - Ganoderma Butt Rot
-  - Heart Rot
+- Aphids
+- Coconut Mite
+- Palm Weevil
+- Palmetto Weevil
+- Red Palm Weevil
+- Rhinoceros Beetle
+- Scale insects
+- Ganoderma Butt Rot
+- Heart Rot
+companions_unresolved:
+- name: Citrus
+  original: Citrus

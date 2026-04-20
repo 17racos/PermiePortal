@@ -2,8 +2,8 @@ common_name: Thorny Buffaloberry
 picture: thorny_buffaloberry.webp
 scientific_name: Shepherdia argentea
 aka:
-- Silver Buffaloberry
-- Buffalo Berry
+  - Silver Buffaloberry
+  - Buffalo Berry
 family: Elaeagnaceae
 zone: 3-7
 ideal_temp_min: 30
@@ -12,12 +12,12 @@ min_temp: -40
 max_temp: 100
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Nitrogen Fixer
-- Wildlife Attractor
-- Border Plant
-- Erosion Control
+  - Nitrogen Fixer
+  - Wildlife Attractor
+  - Border Plant
+  - Erosion Control
 description: |-
   Thorny buffaloberry (Shepherdia argentea) is a cold-hardy actinorhizal shrub of North American prairies and river terraces, with silvery leaves, thorny stems on many plants, and red or yellow tart berries that feed birds and traditional kitchens where processing is understood. Plants reach 6–12 feet (1.8–3.5 m), often forming thickets. Thorns vary by individual—assume gloves until proven otherwise.
 
@@ -32,17 +32,18 @@ purpose: |-
   Border Plant: Wolf-height hedges clothed in silver needles stop drifting snow faster than woven wire along northern lanes.
   Erosion Control: Suckering roots weld Missouri River cobble bars where cottonwood seedlings still lack footing.
 companions:
-- Silverberry Shrub — related Elaeagnaceae neighbor with similar silver foliage at
-  shrub height
-- Wild Plum — thicket fruit neighbor extending successional harvests
-- Raspberry — bramble edge at sunnier margins of buffaloberry thickets
+  - slug: silverberry
+    name: Silverberry
+  - slug: american-plum
+    name: American Plum
+  - slug: raspberry
+    name: Raspberry
 cautions:
-- Thorns — plan paths, ladders, and vet visits accordingly
-- Dioecious fruiting—plant male and female individuals if fruit is the goal
+  - Thorns — plan paths, ladders, and vet visits accordingly
+  - Dioecious fruiting—plant male and female individuals if fruit is the goal
 pests:
-- Scale Insects
-- Aphids
-- Spider Mites
-growth_habit: Thorny actinorhizal shrub; silvery leaves; tart berries; cold river
-  terraces
+  - Scale Insects
+  - Aphids
+  - Spider Mites
+growth_habit: Thorny actinorhizal shrub; silvery leaves; tart berries; cold river terraces
 data_quality_score: 0.79

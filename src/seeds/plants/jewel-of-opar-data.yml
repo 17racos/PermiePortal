@@ -36,9 +36,12 @@ purpose: |-
   Border Plant: Loose mounds edge paths at knee height without shading neighbors -- shear woody bases every few years so centers do not hollow out in frost-free climates.
   Ground Cover: Fibrous roots spread laterally in gritty soil, knitting mulch without turf -- fails in wet winter clay that rots succulent crowns overnight.
 companions:
-  - Purslane — matches sun and spare-water ethics so irrigation schedules stay one-track minded.
-  - Sedum — shared drainage class reduces crown-rot roulette in rainy warm spells on berms.
-  - Echinacea — deeper roots and upright habit occupy different space while pulling pollinators into the same sight line.
+  - slug: purslane
+    name: Purslane
+  - slug: sedum
+    name: Sedum
+  - slug: echinacea
+    name: Echinacea
 cautions:
   - Prolonged cold wet soil in winter can rot crowns even where labels promise toughness.
 pests:

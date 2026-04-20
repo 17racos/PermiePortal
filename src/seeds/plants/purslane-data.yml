@@ -35,9 +35,8 @@ purpose: |-
   Dynamic Accumulator: Fleshy leaves concentrate magnesium and potassium from fertile garden soils into fast-rotting mulch when you hoe and drop tops in place -- not a deep subsoil miner, just a quick nutrient shuttle.
   Wildlife Attractor: Minute yellow flowers open mornings for small bees; tiny black seeds feed sparrows if you stop weeding every gap -- balance harvest for humans versus birds on the same patio edge.
 companions:
-- Corn
-- Tomato
-- Pepper
+- slug: tomato
+  name: Tomato
 cautions:
 - None
 pests:
@@ -46,3 +45,8 @@ pests:
 - Rootknot Nematodes
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Pepper
+  original: Pepper

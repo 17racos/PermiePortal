@@ -2,9 +2,9 @@ common_name: Oyster Mushroom
 picture: oyster_mushroom.webp
 scientific_name: Pleurotus ostreatus
 aka:
-  - Pearl Oyster
-  - Tree Oyster
-  - Hiratake (Japanese)
+- Pearl Oyster
+- Tree Oyster
+- Hiratake (Japanese)
 family: Pleurotaceae
 zone: 5-12
 ideal_temp_min: 55
@@ -13,12 +13,12 @@ min_temp: 25
 max_temp: 90
 perennial: true
 layers:
-  - Fungal
+- Fungal
 plant_function:
-  - Edible
-  - Medicinal
-  - Mulcher
-  - Soil Improvement
+- Edible
+- Medicinal
+- Mulcher
+- Soil Improvement
 description: |-
   Oyster mushrooms are the beginner's handshake with log culture — they colonize fast, tolerate a wider range of substrates than almost any other cultivated species, and forgive clumsy technique better than shiitake or lion's mane. In subtropical Florida, fresh-cut hardwoods (oak, sweetgum, alder, poplar-type species) inoculated with plug or sawdust spawn and kept in shade will produce within 6-12 months. They also run on straw, coffee grounds, cardboard, and supplemented sawdust blocks — the most substrate-flexible edible species for urban and small-scale growing. Multiple Pleurotus species exist (pink oyster P. djamor handles Florida heat better than standard P. ostreatus); match species to season. Wild flushes from dead hardwoods after rain are common and identifiable with care — gilled mushroom ID discipline still applies.
 
@@ -31,27 +31,30 @@ purpose: |-
   Edible: Pleurotus ostreatus and heat-tolerant P. djamor fruit from straw logs, supplemented sawdust blocks, and totem-stacked oak within months of inoculation -- harvest caps while margins still inroll before spore loads coat the fruiting room.
   Medicinal: Fruiting bodies carry beta-glucans and modest lovastatin analogs studied for lipid and immune modulation -- eat as food first; capsule marketing routinely outruns human bioavailability data from whole mushrooms.
   Mulcher: Spent oyster blocks and crumbly log ends rot into melanized lignin-rich humus that worms invade quickly -- bury tails under sheet mulch to finish decomposition without slime trails across paths.
-  Soil Improvement: White-rot mycelium leaps from logs into adjacent wood chips, leaf mold, or compost bands, preconditioning cellulose for later plant roots -- stomp spent substrate into muddy wheel ruts to firm footing after rainy harvest weeks.
 substrate:
-  - Oak (primary outdoor log culture)
-  - Sweetgum
-  - Alder
-  - Elm
-  - Wheat straw (indoor/sheltered production)
-  - Hardwood sawdust with wheat bran supplement (indoor blocks)
-  - Coffee grounds (supplemental or small-batch production)
+- Oak (primary outdoor log culture)
+- Sweetgum
+- Alder
+- Elm
+- Wheat straw (indoor/sheltered production)
+- Hardwood sawdust with wheat bran supplement (indoor blocks)
+- Coffee grounds (supplemental or small-batch production)
 mycelium_type: White rot saprobe; very wide lignocellulosic substrate tolerance
 fruiting_season: Fall through spring on standard P. ostreatus in Florida; pink oyster (P. djamor) extends production through summer heat; year-round possible with species rotation
 cultivation_difficulty: Beginner — the most forgiving cultivated species for first-time log or block growers
 spawn_type: Plug spawn or sawdust spawn for logs; grain spawn to supplemented sawdust for indoor blocks; straw column spawn for outdoor low-tech production
 companions:
-  - Oak
-  - Elm
-  - Alder
+- slug: alder
+  name: Alder
 cautions:
-  - Confirm identity before harvest — wild Pleurotus is distinctive but a few tough, pale bracket fungi share hardwood habitat
+- Confirm identity before harvest — wild Pleurotus is distinctive but a few tough, pale bracket fungi share hardwood habitat
 pests:
-  - Fungus Gnats
-  - Slugs
+- Fungus Gnats
+- Slugs
 growth_habit: White-rot saprobe on hardwood logs, stumps, and lignocellulosic substrates; cluster fruiting on log ends and sides
 data_quality_score: 0.86
+companions_unresolved:
+- name: Oak
+  original: Oak
+- name: Elm
+  original: Elm

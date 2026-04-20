@@ -30,10 +30,10 @@ purpose: |-
   Medicinal: Tropane alkaloids in leaves and sap underlie carefully supervised topical and entheogenic traditions in parts of South America -- all casual internal use is off the table because the margin between dose and emergency is thin.
   Wildlife Attractor: Pale tubes open dusk to dawn, pulling sphinx moths and hummingbirds with nectar deep enough that short-tongued insects bounce -- fragrance spikes after dark when diurnal bees clock out.
 companions:
-- Hibiscus
-- Canna Lily
-- Elephant Ear
-- Banana
+- slug: canna-lily
+  name: Canna Lily
+- slug: banana
+  name: Banana
 cautions:
 - Nightshade
 pests:
@@ -65,3 +65,8 @@ pests:
 - Brown Marmorated Stink Bug
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Hibiscus
+  original: Hibiscus
+- name: Elephant Ear
+  original: Elephant Ear

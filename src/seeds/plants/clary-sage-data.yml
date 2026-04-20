@@ -34,9 +34,10 @@ purpose: |-
   Wildlife Attractor: Tall verticillasters feed long-tongued bees and bumblebees after spring bulbs finish but before autumn asters open.
   Edible: Bracts flavor old wine-cup recipes and vermouth trials; treat as accent flavoring, not bulk salad, because thujone-type chemistry deserves respect.
 companions:
-  - Lavender
-  - Yarrow
-  - Ornamental grasses
+  - slug: lavender
+    name: Lavender
+  - slug: yarrow
+    name: Yarrow
 cautions:
   - Humid stagnant corners (fungal leaf drama)
   - Overfertilizing soft growth that flops
@@ -46,3 +47,7 @@ pests:
   - whiteflies
 growth_habit: Biennial or short-lived perennial; rosette first year, tall bloom second
 data_quality_score: 0.75
+companion_categories:
+  - name: Ornamental grasses
+    original: Ornamental grasses
+    type: system

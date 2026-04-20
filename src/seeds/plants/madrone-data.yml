@@ -34,12 +34,10 @@ purpose: |-
   Ornamental: Cinnamon peeling bark on muscular trunks reads like West Coast jewelry -- site once from small liners because mature specimens hate transplanting and irrigation overload.
   Shade Provider: Open, round crown casts light shade for salal, bulbs, and drought bulbs -- match companions to dry summer shade, not lawn sprinkler culture against the trunk.
 companions:
-- Douglas Fir — conifer overstory common in Pacific mosaic forests with madrone gaps
-- Oregon White Oak — deciduous oak contrast with evergreen Arbutus in valley savannas
-- Salal — ericaceous ground cover shares mycorrhizal aesthetics under partial shade
+- slug: salal
+  name: Salal
 cautions:
-- Sudden Oak Death (Phytophthora ramorum) and related phytophthoras threaten Arbutus
-  in parts of its range—sanitize tools and source clean nursery stock
+- Sudden Oak Death (Phytophthora ramorum) and related phytophthoras threaten Arbutus in parts of its range—sanitize tools and source clean nursery stock
 pests:
 - Blueberry Maggot
 - Borers
@@ -50,6 +48,10 @@ pests:
 - Strawberry Root Weevil
 - Vine Weevil
 - Azalea Caterpillar
-growth_habit: Evergreen Pacific tree; exfoliating red bark; red berries; dry-summer
-  adaptation
+growth_habit: Evergreen Pacific tree; exfoliating red bark; red berries; dry-summer adaptation
 data_quality_score: 0.86
+companions_unresolved:
+- name: Douglas Fir
+  original: Douglas Fir — conifer overstory common in Pacific mosaic forests with madrone gaps
+- name: Oregon White Oak
+  original: Oregon White Oak — deciduous oak contrast with evergreen Arbutus in valley savannas

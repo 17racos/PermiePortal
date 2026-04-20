@@ -2,7 +2,7 @@ common_name: African Blue Basil
 picture: african_blue_basil.webp
 scientific_name: Ocimum basilicum × Ocimum kilimandscharicum
 aka:
-- African blue basil
+  - African blue basil
 family: Lamiaceae
 zone: 9-11
 ideal_temp_min: 65
@@ -11,12 +11,12 @@ min_temp: 32
 max_temp: 100
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Edible
-- Pollinator
-- Pest Management
-- Ornamental
+  - Edible
+  - Pollinator
+  - Pest Management
+  - Ornamental
 description: |-
   African blue basil is the sterile hybrid that flowers until the bees need traffic control—camphor-clove scent, purple stems, and none of that bolt-to-seed anxiety because the plant is mostly living in the perpetual bloom timeline. Tender perennial; often overwinters in 9b with mulch and dry spells; pots come indoors when polar nonsense threatens.
 
@@ -32,15 +32,25 @@ purpose: |-
   Pest Management: Volatile-rich foliage slots into aromatic edge strips beside solanums where growers report fewer settling aphids -- results track site humidity and spray history, not Instagram certainty.
   Ornamental: Purple stems and stacked blooms read as designed landscape filler in subtropical yards while still paying pollinator rent through heat that collapses common sweet basil.
 companions:
-- Tomatoes
-- Peppers
-- Eggplant
+  - slug: tomato
+    name: Tomato
+  - slug: bell-pepper
+    name: Bell Pepper
+  - slug: eggplant
+    name: Eggplant
 cautions:
-- Hard frost without cover
-- Overfertilizer soft growth that aphids love
+  - Hard frost without cover
+  - Overfertilizer soft growth that aphids love
 pests:
-- aphids
-- whiteflies
-- spider mites
+  - aphids
+  - whiteflies
+  - spider mites
 growth_habit: Bushy hybrid basil, often grown as tender perennial
 data_quality_score: 0.78
+companions_normalized:
+  - original: Tomatoes
+    resolved_slug: tomato
+    name: Tomato
+  - original: Peppers
+    resolved_slug: bell-pepper
+    name: Bell Pepper

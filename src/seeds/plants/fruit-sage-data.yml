@@ -2,8 +2,8 @@ common_name: Fruit Sage
 picture: fruit_sage.webp
 scientific_name: Salvia elegans
 aka:
-  - Pineapple sage
-  - Tangerine sage
+- Pineapple sage
+- Tangerine sage
 family: Lamiaceae
 zone: 8-11
 ideal_temp_min: 55
@@ -12,13 +12,13 @@ min_temp: 15
 max_temp: 100
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Ornamental
-  - Wildlife Attractor
+- Edible
+- Medicinal
+- Pollinator
+- Ornamental
+- Wildlife Attractor
 description: |-
   Fruit sage here is the pineapple-scented Salvia elegans crowd-pleaser: scarlet late-season tubes that make hummingbirds insufferably smug. Leaves smell like candy propaganda and taste mild-sweet in teas and syrups. In subtropical and tropical Americas it often dies to the roots in a rude freeze then returns like nothing happened — mulch the crown and stop acting shocked.
 
@@ -34,13 +34,17 @@ purpose: |-
   Ornamental: Velvet apple-green leaves on red petiole stems read tropical in layered beds even before September scarlet spikes dominate front-yard sightlines your neighbors slow-roll past on the same border you water on soaker timers.
   Wildlife Attractor: Hummingbird territorial dogfights concentrate over densest Salvia elegans clumps when paired feeders stay empty during migration double-up weeks along coastal flyways you already mapped with eBird checklist discipline.
 companions:
-  - Mexican sunflower
-  - Basil
-  - Pepper
+- slug: mexican-sunflower
+  name: Mexican Sunflower
+- slug: basil
+  name: Basil
 cautions:
-  - Wet feet all winter
-  - Deep shade (gets leggy and sulk)
+- Wet feet all winter
+- Deep shade (gets leggy and sulk)
 pests:
-  - Aphids
-  - Whiteflies
-  - Spider mites
+- Aphids
+- Whiteflies
+- Spider mites
+companions_unresolved:
+- name: Pepper
+  original: Pepper

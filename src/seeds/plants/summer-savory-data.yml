@@ -28,9 +28,12 @@ purpose: |-
   Medicinal: Tea traditions lean on savory for digestive bitterness -- dose like food first and escalate only with clinician maps because thujone cousins matter for vulnerable folks.
   Pollinator: Tiny white mint flowers hug stems in midsummer gaps when bee balm finished but asters have not opened yet.
 companions:
-  - Rosemary (Salvia rosmarinus) — similar sun and drainage needs; both benefit from dry bed edges.
-  - Marigold (Tagetes patula) — nectar blooms pull beneficial insects into herb guilds.
-  - Thyme (Thymus vulgaris) — layered herb aroma supports consistent pollinator presence across the front edge.
+  - slug: rosemary
+    name: Rosemary
+  - slug: marigold
+    name: Marigold
+  - slug: thyme
+    name: Thyme
 cautions:
   - Avoid overwatering; soggy soil is the fastest path to root decline.
 pests:

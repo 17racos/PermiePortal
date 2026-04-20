@@ -30,9 +30,12 @@ purpose: |-
   Shade Provider: fine leaves cast light shade over comfrey, elderberry, and livestock drinkers in moist edges where summer sun would otherwise flash-dry shallow pools.
   Animal Fodder: young leaves and twigs coppice into repeated browse or chip fodder cycles for goats and rabbits where managers rotate cuts to avoid bark girdling.
 companions:
-  - Comfrey (Symphytum officinale) — chop-and-drop complements willow biomass and pairs well in moist edge guilds.
-  - Cattail (Typha latifolia) — wetland neighbor that fits the same water rhythm and helps stabilize saturated margins.
-  - Elderberry (Sambucus canadensis) — understory shrub layer that shares moisture needs and builds layered habitat.
+  - slug: comfrey
+    name: Comfrey
+  - slug: cattail
+    name: Cattail
+  - slug: elderberry
+    name: Elderberry
 cautions:
   - Rooting can push into drains, sidewalks, and foundations; keep a separation zone.
 pests:

@@ -2,7 +2,7 @@ common_name: Turmeric
 picture: turmeric.webp
 scientific_name: Curcuma longa
 aka:
-  - Indian Saffron
+- Indian Saffron
 family: Zingiberaceae
 zone: 8-11
 ideal_temp_min: 68
@@ -11,13 +11,13 @@ min_temp: 50
 max_temp: 100
 perennial: true
 layers:
-  - Herbaceous
-  - Root
+- Herbaceous
+- Root
 plant_function:
-  - Edible
-  - Medicinal
-  - Mulcher
-  - Dynamic Accumulator
+- Edible
+- Medicinal
+- Mulcher
+- Dynamic Accumulator
 description: |-
   Turmeric is a tropical, rhizomatous herbaceous perennial plant that grows up to 1 meter (3 feet) tall. It produces large, oblong green leaves and stunning yellow or orange flowers. The underground rhizome is the most valued part of the plant and is commonly used as a spice, dye, and medicinal remedy.
 
@@ -36,19 +36,24 @@ purpose: |-
   Ornamental: Tall pleated leaves and short spikes of pale yellow orchid-like flowers give a tropical look in temperate polytunnels where the plant behaves like a seasonal foliage focal.
   Pollinator: Nectar from Curcuma spikes feeds small bees and flower flies on days when the greenhouse vents are open and little else is blooming inside.
 companions:
-  - Ginger
-  - Lemongrass
-  - Banana
-  - Chili Pepper
+- slug: ginger
+  name: Ginger
+- slug: lemongrass
+  name: Lemongrass
+- slug: banana
+  name: Banana
 cautions:
-  - None reported
+- None reported
 pests:
-  - Aphids
-  - Rootknot Nematodes
-  - Spider Mites
-  - Bulb Mites
-  - Fungus Gnat Larvae
-  - Armadillo
+- Aphids
+- Rootknot Nematodes
+- Spider Mites
+- Bulb Mites
+- Fungus Gnat Larvae
+- Armadillo
 growth_habit: Tree
 data_quality_score: 0.8
 field_observations: No field observations yet
+companions_unresolved:
+- name: Chili Pepper
+  original: Chili Pepper

@@ -2,7 +2,7 @@ common_name: Sand Grama
 picture: sand_grama.webp
 scientific_name: Bouteloua chondrosioides
 aka:
-- Sprucetop Grama
+  - Sprucetop Grama
 family: Poaceae
 zone: 5-10
 ideal_temp_min: 45
@@ -11,12 +11,12 @@ min_temp: -20
 max_temp: 110
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Erosion Control
-- Ground Cover
-- Wildlife Attractor
-- Ornamental
+  - Erosion Control
+  - Ground Cover
+  - Wildlife Attractor
+  - Ornamental
 description: |-
   Sand grama (Bouteloua chondrosioides) is a warm-season bunchgrass of southwestern North American grasslands and desert grasslands, bearing comb-like inflorescences on wiry stems usually 1–2 feet (30–60 cm) tall. It thrives in sandy, well-drained soils with lean fertility and rewards growers who stop fertilizing like it is corn. Use it in xeric meadows, green roofs, and any border that wants fine texture without sprinkler entitlement.
 
@@ -31,26 +31,28 @@ purpose: |-
   Wildlife Attractor: Comb seed heads feed ground-foraging birds while basal clumps shelter ants and spiders at soil level.
   Ornamental: Horizontal rat-tail inflorescences hover just above foliage for graphic motion in lean meadow plantings that refuse sprinkler guilt.
 companions:
-- Agave — succulent structural neighbor sharing sun and sharp drainage
-- Purple Lovegrass — fine grass contrast with purple haze inflorescences at similar
-  heights
-- Prairie Coneflower — forb color verticals above low grama mounds
+  - slug: agave
+    name: Agave
+  - slug: purple-lovegrass
+    name: Purple Lovegrass
+  - slug: prairie-coneflower
+    name: Prairie Coneflower
 cautions:
-- Heavy clay and wet feet — decline while you buy replacement toys
-- Overfertilization — weeds win the beauty contest
+  - Heavy clay and wet feet — decline while you buy replacement toys
+  - Overfertilization — weeds win the beauty contest
 pests:
-- Aphids
-- Armyworms
-- Bamboo Mite
-- Corn Earworm
-- Fall Armyworm
-- Japanese Beetles
-- Lubber Grasshopper
-- Rice Blast Fungus
-- Rice Water Weevil
-- Spider Mites
-- Spittlebugs
-- Wireworm
-- Leaf Blight
+  - Aphids
+  - Armyworms
+  - Bamboo Mite
+  - Corn Earworm
+  - Fall Armyworm
+  - Japanese Beetles
+  - Lubber Grasshopper
+  - Rice Blast Fungus
+  - Rice Water Weevil
+  - Spider Mites
+  - Spittlebugs
+  - Wireworm
+  - Leaf Blight
 growth_habit: Warm-season bunchgrass; comb inflorescences; sandy dry grasslands
 data_quality_score: 0.79

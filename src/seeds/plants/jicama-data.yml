@@ -36,9 +36,10 @@ purpose: |-
   Nitrogen Fixer: Rhizobia colonize roots if inoculated, trading nitrogen for sugars -- heavy nodulation can compete with tuber sizing, so balance fertility if yield matters more than green manure.
   Ground Cover: Twining stems shade soil through the warm season until harvest strips the bed -- use as a living mulch row between taller crops, then dig tubers before frost collapses vines into slime.
 companions:
-- Corn
-- Beans
-- Sunflowers
+- slug: sunflower
+  name: Sunflower
+- slug: fava-bean
+  name: Fava Bean
 cautions:
 - Heavy wet clay that splits tubers
 - Late planting that runs out of heat
@@ -74,3 +75,16 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Twining annual legume vine with edible storage root
 data_quality_score: 0.78
+companions_normalized:
+- original: Sunflowers
+  resolved_slug: sunflower
+  name: Sunflower
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index

@@ -28,9 +28,12 @@ purpose: |-
   Medicinal: Resinous apple-scented leaves yield tea with a sage-meets-fruit profile for calming evening brews -- dry leaves slowly with airflow because woolly mint-family herbs mold if piled deep while damp.
   Wildlife Attractor: Fragrant foliage and long-bloom window pull hummingbirds and native bees into dry shade gardens -- pair with evergreen oaks so leaf litter matches the plant’s Californian chaparral niche.
 companions:
-  - Rosemary (Salvia rosmarinus) — shares sun and well-drained soil preferences, creating a consistent aromatic bed guild.
-  - Marigold (Tagetes patula) — brings extra nectar and color, and helps you spot pest population shifts early.
-  - Thyme (Thymus vulgaris) — low-growing companion reduces bare soil and supports pollinator movement across the bed.
+  - slug: rosemary
+    name: Rosemary
+  - slug: marigold
+    name: Marigold
+  - slug: thyme
+    name: Thyme
 cautions:
   - Avoid overwatering; the plant dislikes persistent wet soil.
 pests:

@@ -2,8 +2,8 @@ common_name: Imbe
 picture: imbe.webp
 scientific_name: Garcinia livingstonei
 aka:
-  - African mangosteen
-  - Lowveld mangosteen
+- African mangosteen
+- Lowveld mangosteen
 family: Clusiaceae
 zone: 10-11
 ideal_temp_min: 60
@@ -12,11 +12,11 @@ min_temp: 28
 max_temp: 110
 perennial: true
 layers:
-  - Shrub
+- Shrub
 plant_function:
-  - Edible
-  - Ornamental
-  - Wildlife Attractor
+- Edible
+- Ornamental
+- Wildlife Attractor
 description: |-
   Imbe is a shrubby Garcinia with orange, pleasantly tart fruit and a knack for looking tidy while being picky about cold. Dioecious — you need a male pollinator for female fruiting plants unless your nursery sold you a grafted cheat code. In subtropical and tropical Americas it is a protected coastal 10a mood, not an inland gamble. Sun, heat, drainage, and mulch make the difference between ‘cute plant’ and ‘actually fruiting.’
 
@@ -30,12 +30,16 @@ purpose: |-
   Ornamental: Thick, dark leaves on a compact shrub read tidy in evergreen hedges -- site in frost-free pockets because cold snaps brown foliage faster than marketing photos admit.
   Wildlife Attractor: Fallen fruit feeds hornbills and fruit doves where ranges overlap -- harvest promptly or accept losses because pulp ferments on pavement within hours in tropical heat.
 companions:
-  - Banana
-  - Papaya
-  - Citrus
+- slug: banana
+  name: Banana
+- slug: papaya
+  name: Papaya
 cautions:
-  - Frost pockets and saturated clay
+- Frost pockets and saturated clay
 pests:
-  - Scale Insects
-  - Mealybugs
-  - Whiteflies
+- Scale Insects
+- Mealybugs
+- Whiteflies
+companions_unresolved:
+- name: Citrus
+  original: Citrus

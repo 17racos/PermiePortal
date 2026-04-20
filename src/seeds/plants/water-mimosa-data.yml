@@ -28,9 +28,10 @@ purpose: |-
   Edible: Young leaves and shoots enter Thai and Vietnamese soups as rau nhut -- harvest tips weekly for tenderness; older stems lignify fast.
   Water Retention: Floating mats shade stock ponds and reduce evaporative loss -- rhizosphere oxygenation is modest compared with true oxygenators, so pair with submerged plants if fish load is high.
 companions:
-  - Water Hyacinth (Eichhornia crassipes) — supports wetland habitat complexity in many warm regions.
-  - Duckweed (Lemna minor) — small floating neighbor that fills water-surface micro-space while mimosa provides bigger foliage.
-  - Comfrey (Symphytum officinale) — nearby dry-bed companion; chop-and-drop can feed soil around pond edges.
+  - slug: water-hyacinth
+    name: Water Hyacinth
+  - slug: comfrey
+    name: Comfrey
 cautions:
   - Avoid cold conditions; aquatic legumes can struggle if water temperatures drop sharply.
 pests:
@@ -38,3 +39,7 @@ pests:
   - Spider Mites
   - Whiteflies
   - Root Rot
+companion_categories:
+  - name: Duckweed
+    original: Duckweed (Lemna minor) — small floating neighbor that fills water-surface micro-space while mimosa provides bigger foliage.
+    type: ecosystem

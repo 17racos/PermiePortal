@@ -2,12 +2,12 @@ common_name: Hyacinth Bean
 picture: hyacinth_bean.webp
 scientific_name: Lablab purpureus
 aka:
-  - Lablab bean
-  - Australian pea
-  - Lablab Bean
-  - Lablab
-  - Indian Bean
-  - Egyptian Bean
+- Lablab bean
+- Australian pea
+- Lablab Bean
+- Lablab
+- Indian Bean
+- Egyptian Bean
 family: Fabaceae
 zone: 9-11
 ideal_temp_min: 65
@@ -16,13 +16,13 @@ min_temp: 32
 max_temp: 100
 perennial: true
 layers:
-  - Vine
+- Vine
 plant_function:
-  - Edible
-  - Nitrogen Fixer
-  - Animal Fodder
-  - Ornamental
-  - Pollinator
+- Edible
+- Nitrogen Fixer
+- Animal Fodder
+- Ornamental
+- Pollinator
 description: |-
   Hyacinth bean is the purple-flowered vine that makes fences look goth and edible at the same time — if you cook the right cultivar stage because raw dry seeds are not a prank worth trying. In frost-free climates it is a short-lived perennial vine; in subtropical and tropical Americas treat it as a long annual unless winter is mild and you mulch the crown. Heat lover; sulks in cold soil.
 
@@ -38,39 +38,43 @@ purpose: |-
   Ornamental: Purple-leaf selections turn trellises into vertical color blocks -- site with sun behind the viewer so translucent leaves glow; still plan for strong posts because stems lignify heavy each season.
   Pollinator: Pink-purple pea flowers open in late summer when many spring vines are done -- honeybees work the racemes for nectar before you strip pods for the kitchen.
 companions:
-  - Corn
-  - Squash
-  - Sweet potato
+- slug: sweet-potato
+  name: Sweet Potato
 cautions:
-  - Eating unknown ornamental cultivar seeds raw
-  - Shady, cold microsites
+- Eating unknown ornamental cultivar seeds raw
+- Shady, cold microsites
 pests:
-  - Aphids
-  - Banded Cucumber Beetle
-  - Bean Aphid
-  - Bean Weevil
-  - Bean leaf beetle
-  - Corn Earworm
-  - Cowpea Curculio
-  - Fall Armyworm
-  - Japanese beetles
-  - Kudzu Bug
-  - Locust Borer
-  - Locust Leaf Miner
-  - Lubber Grasshopper
-  - Pea Moth
-  - Pea Weevil
-  - Reniform Nematode
-  - Root Aphid
-  - Soybean Looper
-  - Spittlebugs
-  - Stink Bug
-  - Striped Cucumber Beetle
-  - Fusarium Wilt
-  - Ganoderma Butt Rot
-  - Pythium Root Rot
-  - Spotted Cucumber Beetle
-  - White Rot
-  - Brown Marmorated Stink Bug
-  - Harlequin Ladybird
-  - Velvetbean Caterpillar
+- Aphids
+- Banded Cucumber Beetle
+- Bean Aphid
+- Bean Weevil
+- Bean leaf beetle
+- Corn Earworm
+- Cowpea Curculio
+- Fall Armyworm
+- Japanese beetles
+- Kudzu Bug
+- Locust Borer
+- Locust Leaf Miner
+- Lubber Grasshopper
+- Pea Moth
+- Pea Weevil
+- Reniform Nematode
+- Root Aphid
+- Soybean Looper
+- Spittlebugs
+- Stink Bug
+- Striped Cucumber Beetle
+- Fusarium Wilt
+- Ganoderma Butt Rot
+- Pythium Root Rot
+- Spotted Cucumber Beetle
+- White Rot
+- Brown Marmorated Stink Bug
+- Harlequin Ladybird
+- Velvetbean Caterpillar
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Squash
+  original: Squash

@@ -10,11 +10,11 @@ min_temp: 15
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Dynamic Accumulator
-  - Erosion Control
-  - Mulcher
+- Dynamic Accumulator
+- Erosion Control
+- Mulcher
 description: |-
   Oilseed radish (Raphanus sativus var. oleiformis) is a fast-growing brassica cover crop grown for its heavy-rooted biomass and soil-scavenging taproots. It is native to Eurasia and has become widely used across temperate gardens as a “between-crop” tool because it establishes quickly, pumps out leaves, and can help break up compacted layers. Plants typically reach 30–90 cm (12–35 in) tall depending on timing, and the thick roots create channels that improve infiltration once you cut or terminate the stand in permaculture systems.
 
@@ -28,14 +28,18 @@ purpose: |-
   Erosion Control: Fast-closing canopy plus fibrous crown roots armor fallow beds through autumn storms when summer crops left bare mineral soil -- drill thick after August harvest windows in temperate rotations.
   Mulcher: Broad brassica leaves and hollow root channels decay into winter mulch blankets that suppress chickweed and annual grasses -- follow with a roller-crimper or mower timing that keeps stems green enough to break down, not lignify into thatch rope.
 companions:
-  - Oats (Avena sativa) — cereal cover plus radish roots gives layered biomass and a better residue breakdown timeline.
-  - Crimson Clover (Trifolium incarnatum) — legume nitrogen pairs well with radish’s fast carbon build, improving the next bed.
-  - Garlic (Allium sativum) — rotation partner that benefits from radish’s residue stabilization and reduced pest-host continuity.
+- slug: crimson-clover
+  name: Crimson Clover
+- slug: garlic
+  name: Garlic
 cautions:
-  - Avoid letting the stand fully go to seed if you don’t want volunteers in subsequent crops.
-  - Don’t plant oilseed radish repeatedly in the same spot as other brassicas; rotate to reduce disease and pest buildup.
+- Avoid letting the stand fully go to seed if you don’t want volunteers in subsequent crops.
+- Don’t plant oilseed radish repeatedly in the same spot as other brassicas; rotate to reduce disease and pest buildup.
 pests:
-  - Aphids
-  - Spider Mites
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Spider Mites
+- Root Rot
+- Caterpillars
+companions_unresolved:
+- name: Oats
+  original: Oats (Avena sativa) — cereal cover plus radish roots gives layered biomass and a better residue breakdown timeline.

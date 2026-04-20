@@ -36,9 +36,12 @@ purpose: |-
   Windbreaker: Open, fine-textured canopy trims desiccating coastal trades above cactus understory while letting enough light through for agaves to keep color -- not a dense wind wall like live oak, more a filtered baffle.
   Border Plant: White-thorned multi-trunks knit livestock-proof edges along arid fencelines when trained young -- plan access gates wide because mature arms weep low and still poke curious calves.
 companions:
-  - Pigeon Pea — fast legume chop-and-drop on the sunny margin; keep offset so mature acacia roots do not file harassment claims.
-  - Agave — succulent skirt that respects dry shade and reflects heat; shallow roots avoid taproot trench warfare.
-  - Desert Ironwood — long-lived neighbor for layered desert canopy; ironwood’s mass complements acacia’s perfume and lighter frame.
+  - slug: pigeon-pea
+    name: Pigeon Pea
+  - slug: agave
+    name: Agave
+  - slug: desert-ironwood
+    name: Desert Ironwood
 cautions:
   - None documented
 pests:

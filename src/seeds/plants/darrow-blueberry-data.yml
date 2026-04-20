@@ -2,7 +2,7 @@ common_name: Darrow Blueberry
 picture: darrow_blueberry.webp
 scientific_name: Vaccinium corymbosum 'Darrow'
 aka:
-  - Southern Highbush Darrow
+- Southern Highbush Darrow
 family: Ericaceae
 zone: 7-9
 ideal_temp_min: 45
@@ -11,12 +11,12 @@ min_temp: -5
 max_temp: 98
 perennial: true
 layers:
-  - Shrub
+- Shrub
 plant_function:
-  - Edible
-  - Pollinator
-  - Wildlife Attractor
-  - Ornamental
+- Edible
+- Pollinator
+- Wildlife Attractor
+- Ornamental
 description: "‘Darrow’ is a southern highbush blueberry (*Vaccinium corymbosum*) cultivar known for large berries and vigorous growth when site and chill requirements are met. It is the kind of plant that rewards boring fundamentals: pH in the blueberry band, mulch, irrigation that does not suffocate roots, and annual pruning to renew fruiting wood.\n\nsubtropical and tropical Americas: pair with other cultivars for cross-pollination and staggered harvest; verify chill fit before you emotionally invest.\n\n💧 Sun and Water:\nFull sun. Steady moisture from bloom through harvest; reduce soggy spells with raised beds, pine mulch, and drainage.\n\n  Propagation: \nHome growers usually buy liners; cloning is softwood cuttings under mist. Avoid growing from seed if you want ‘Darrow’ — genetics will wander.\n\n🌾 Harvest / Best Use Timing:\nDarrow Blueberry: pick berries when fully colored and detach with a gentle tug -- whitish bloom still present is fine. Cool mornings beat hot afternoons for shelf life; chill soon if not eating the same day. Freeze dry on trays before bagging so berries do not fuse into a single ice meteor."
 purpose: |-
   Edible: Vaccinium corymbosum 'Darrow' sets large southern highbush berries for fresh eating -- and freezing when chill hours match the cultivar.
@@ -24,24 +24,29 @@ purpose: |-
   Wildlife Attractor: Ripe blue fruit feeds catbirds and thrushes -- net rows or share a percentage honestly.
   Ornamental: Upright vigorous shrubs give bold edible structure in acid-mulched yards where pH -- and irrigation stay consistent.
 companions:
-  - Elliott Blueberry
-  - Highbush Blueberry
-  - Pine
-  - Strawberry
+- slug: elliott-blueberry
+  name: Elliott Blueberry
+- slug: highbush-blueberry
+  name: Highbush Blueberry
+- slug: strawberry
+  name: Strawberry
 cautions:
-  - Standing water and compaction
+- Standing water and compaction
 pests:
-  - Aphids
-  - Blueberry Maggot
-  - Cranberry Fruitworm
-  - Cranberry Tipworm
-  - Japanese Beetles
-  - Scale Insects
-  - Sparganothis Fruitworm
-  - Strawberry Root Weevil
-  - Vine Weevil
-  - Spider Mites
-  - Powdery Mildew
-  - Azalea Caterpillar
+- Aphids
+- Blueberry Maggot
+- Cranberry Fruitworm
+- Cranberry Tipworm
+- Japanese Beetles
+- Scale Insects
+- Sparganothis Fruitworm
+- Strawberry Root Weevil
+- Vine Weevil
+- Spider Mites
+- Powdery Mildew
+- Azalea Caterpillar
 growth_habit: Shrub
 data_quality_score: 0.78
+companions_unresolved:
+- name: Pine
+  original: Pine

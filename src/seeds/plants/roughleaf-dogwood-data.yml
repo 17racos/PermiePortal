@@ -31,9 +31,12 @@ purpose: |-
   Border Plant: Suckering thickets knit livestock lanes and fencerows into living walls that need little shearing if you accept thicket architecture -- lollipop fans should shop ornamental cultivars elsewhere.
   Ornamental: Sandpaper upper leaf surfaces flash honest ID against other Cornus; fruiting stalks color after bloom for late-season quiet drama -- prune after flowering if shaping, winter cuts erase spring show.
 companions:
-  - Riverbank Grape — native vine uses dogwood stems as natural trellis along moist edges
-  - Red Mulberry — taller fruiting tree overhead in mixed native hedgerows
-  - Rattlesnake Master — prairie-forb contrast on drier shoulders above dogwood wet zone
+  - slug: riverbank-grape
+    name: Riverbank Grape
+  - slug: red-mulberry
+    name: Red Mulberry
+  - slug: rattlesnake-master
+    name: Rattlesnake Master
 cautions:
   - None documented
 pests:

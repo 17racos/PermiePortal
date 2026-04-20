@@ -2,7 +2,7 @@ common_name: Cannonball Tree
 picture: cannonball_tree.webp
 scientific_name: Couroupita guianensis
 aka:
-- Ayahuma
+  - Ayahuma
 family: Lecythidaceae
 zone: 10b-12
 ideal_temp_min: 72
@@ -11,13 +11,13 @@ min_temp: 32
 max_temp: 105
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Ornamental
-- Wildlife Attractor
-- Shade Provider
-- Mulcher
-- Medicinal
+  - Ornamental
+  - Wildlife Attractor
+  - Shade Provider
+  - Mulcher
+  - Medicinal
 description: |-
   Cannonball tree (Couroupita guianensis) is a large tropical tree of northern South America and parts of Central America and the Caribbean, famous for spherical woody fruits resembling cannonballs and fragrant flowers borne on trunk and branches (cauliflory). It reaches 80–115 feet (24–35 m) in forest openings with a spreading crown. In botanic gardens and spacious tropical landscapes it is a spectacle and bat-pollination case study—not a tree for tiny lots or people who park cars under anything that drops multi-pound spheres.
 
@@ -33,16 +33,18 @@ purpose: |-
   Mulcher: drops large leaves and floral bracts steadily, feeding soil mesofauna when litter is left under the dripline instead of paved over.
   Medicinal: bark and flower lore appear in Amazonian ethnomedical references where legal status and trained preparation still gate any topical or internal use.
 companions:
-- Lemongrass — perimeter clump marks safe walking zones away from falling fruit
-- Turmeric — shade-tolerant herb layer along northern margins with mulch
-- Papaya — uses vertical light differently in early succession before cannonball crowns
-  expand
+  - slug: lemongrass
+    name: Lemongrass
+  - slug: turmeric
+    name: Turmeric
+  - slug: papaya
+    name: Papaya
 cautions:
-- Falling fruit hazard — plant away from paths, vehicles, and fragile egos
-- Sap and plant chemistry — handle unknown tissues with respect and gloves
+  - Falling fruit hazard — plant away from paths, vehicles, and fragile egos
+  - Sap and plant chemistry — handle unknown tissues with respect and gloves
 pests:
-- Scale Insects
-- Mealybugs
-- Aphids
+  - Scale Insects
+  - Mealybugs
+  - Aphids
 growth_habit: Huge tropical tree; cauliflorous flowers; large spherical woody fruit
 data_quality_score: 0.76

@@ -34,9 +34,12 @@ purpose: |-
   Border Plant: Soft, non-vining texture can edge shade beds and ginger-turmeric zones without forming a tall light barrier.
   Ground Cover: Stems root at nodes in organic-rich, evenly moist soil -- a living mulch under fruit trees where sun-loving herbs scorch.
 companions:
-  - Ginger — shares warm understory culture with big leaves that signal water presence honestly.
-  - Turmeric — seasonal dieback rhythms pair if you mark beds so harvest does not shred tilo mats.
-  - Comfrey — mineral mulch source upslope; keep heavy drops off delicate tilo leaves if possible.
+  - slug: ginger
+    name: Ginger
+  - slug: turmeric
+    name: Turmeric
+  - slug: comfrey
+    name: Comfrey
 cautions:
   - None documented
 pests:

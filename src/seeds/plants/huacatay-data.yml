@@ -2,9 +2,9 @@ common_name: Huacatay
 picture: huacatay.webp
 scientific_name: Tagetes minuta
 aka:
-  - Peruvian black mint
-  - Wild marigold
-  - Stinking Roger
+- Peruvian black mint
+- Wild marigold
+- Stinking Roger
 family: Asteraceae
 zone: 9-11
 ideal_temp_min: 65
@@ -13,12 +13,12 @@ min_temp: 28
 max_temp: 100
 perennial: false
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Pest Management
-  - Soil Improvement
-  - Border Plant
+- Edible
+- Pest Management
+- Soil Improvement
+- Border Plant
 description: |-
   Huacatay is a tall, pungent marigold relative used in Andean cooking—think cilantro’s weird cousin who lifts weights. The smell is strong enough to split a room; some insects agree and move out. In subtropical and tropical Americas grow it as a warm-season annual unless you are in a frost-free pocket. Do not assume “herb” means “plant anywhere next to delicate seedlings without consequences”—it can bully neighbors through scent chemistry.
 
@@ -33,18 +33,31 @@ purpose: |-
   Soil Improvement: End-of-season slash returns aromatic biomass that feeds soil fungi and suppresses some soil pests when incorporated -- chop before hard seed set unless you want volunteer marigolds next year.
   Border Plant: Six-foot aromatic walls screen compost piles and poultry yards -- place downwind of delicate seedlings because root exudates can bully light-feeding neighbors.
 companions:
-  - Tomatoes
-  - Peppers
-  - Beans
+- slug: tomato
+  name: Tomato
+- slug: bell-pepper
+  name: Bell Pepper
+- slug: fava-bean
+  name: Fava Bean
 cautions:
-  - Tiny seedlings sensitive to allelopathic drama
-  - Low spots that stay soggy and rot stems
+- Tiny seedlings sensitive to allelopathic drama
+- Low spots that stay soggy and rot stems
 pests:
-  - Aphids
-  - Banded Winged Whitefly
-  - Greenhouse Whitefly
-  - Lettuce Aphid
-  - Lubber Grasshopper
-  - Root Aphid
-  - Spider Mites
-  - Whiteflies
+- Aphids
+- Banded Winged Whitefly
+- Greenhouse Whitefly
+- Lettuce Aphid
+- Lubber Grasshopper
+- Root Aphid
+- Spider Mites
+- Whiteflies
+companions_normalized:
+- original: Tomatoes
+  resolved_slug: tomato
+  name: Tomato
+- original: Peppers
+  resolved_slug: bell-pepper
+  name: Bell Pepper
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

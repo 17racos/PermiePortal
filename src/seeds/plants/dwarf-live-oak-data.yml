@@ -33,13 +33,12 @@ purpose: |-
   Mulcher: Small evergreen oak leaves acidify duff slowly -- feeds mycorrhizal webs under wiregrass and palmetto neighbors.
   Border Plant: Knee-high oak mats define savanna and scrub edges without closing a tall canopy.
 companions:
-- Wiregrass — classic longleaf ground layer partner; carries fire-ready structure
-  where prescribed fire is used
-- Turkey Oak — taller oak matrix above dwarf clones on sandhill sites
-- Bluestem — warm-season grasses interdigitate with oak runners in mosaic plantings
+- slug: wiregrass
+  name: Wiregrass
+- slug: turkey-oak
+  name: Turkey Oak
 cautions:
-- Prescribed fire and mowing require knowledge—treatments that work in savanna restoration
-  can terrify suburban turf expectations
+- Prescribed fire and mowing require knowledge—treatments that work in savanna restoration can terrify suburban turf expectations
 pests:
 - Borers
 - Fall Webworm
@@ -49,3 +48,6 @@ pests:
 - Tent Caterpillar
 growth_habit: Evergreen rhizomatous oak; low mats; small acorns; sandhill affinity
 data_quality_score: 0.85
+companions_unresolved:
+- name: Bluestem
+  original: Bluestem — warm-season grasses interdigitate with oak runners in mosaic plantings

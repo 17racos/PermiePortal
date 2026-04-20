@@ -10,12 +10,12 @@ min_temp: 32
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Pollinator
-  - Wildlife Attractor
-  - Water Retention
+- Edible
+- Pollinator
+- Wildlife Attractor
+- Water Retention
 description: |-
   Cucumber (Cucumis sativus) is a warm-season vine grown for crisp, refreshing fruits harvested before they turn seedy and tough. It is native to South Asia and thrives across subtropical to temperate gardens when warm weather is steady. Vines can sprawl 1–2 m (3–6 ft) and produce large leaves that spread shade across the bed. In permaculture, cucumbers bring quick edible returns and help keep soil covered, especially when you trellis them so fruits stay off wet ground.
 
@@ -30,16 +30,20 @@ purpose: |-
   Wildlife Attractor: Blossoms feed syrphids and small bees; dense foliage gives cover for predatory ground beetles along bed edges.
   Water Retention: Large leaves cast shade over mulched soil under trellised plantings -- reduces evaporative loss compared with bare ground between rows.
 companions:
-  - Corn (Zea mays) — creates partial wind buffering and vertical structure for trellis-like planting layouts.
-  - Dill (Anethum graveolens) — attracts beneficial insects with its flowers, supporting cucumber pest management.
-  - Marigold (Tagetes patula) — adds nectar for beneficial insects and helps you track pest pressure changes quickly.
+- slug: dill
+  name: Dill
+- slug: marigold
+  name: Marigold
 cautions:
-  - Powdery mildew risk rises with poor airflow; avoid overhead watering and trellis for ventilation.
+- Powdery mildew risk rises with poor airflow; avoid overhead watering and trellis for ventilation.
 pests:
-  - Aphids
-  - Spider Mites
-  - Whiteflies
-  - Slugs
-  - Root Rot
-  - Cucumber Mosaic Virus
-  - Caterpillars
+- Aphids
+- Spider Mites
+- Whiteflies
+- Slugs
+- Root Rot
+- Cucumber Mosaic Virus
+- Caterpillars
+companions_unresolved:
+- name: Corn
+  original: Corn (Zea mays) — creates partial wind buffering and vertical structure for trellis-like planting layouts.

@@ -31,9 +31,12 @@ purpose: |-
   Erosion Control: Fibrous roots bind salty mud through wet-dry tidal swings where turf would drown or burn.
   Ornamental: Cloudy pastel flower pads soften riprap and bioengineering profiles without pretending this is a cottage perennial inland.
 companions:
-  - Sea Lavender — perennial sea lavender builds vertical structure in similar brackish niches
-  - Saltwort — low succulent halophyte neighbor in upper marsh zones
-  - Narrowleaf Sunflower — adds height and yellow contrast where salinity is moderate
+  - slug: sea-lavender
+    name: Sea Lavender
+  - slug: saltwort
+    name: Saltwort
+  - slug: swamp-sunflower
+    name: Swamp Sunflower
 cautions:
   - None documented
 pests:

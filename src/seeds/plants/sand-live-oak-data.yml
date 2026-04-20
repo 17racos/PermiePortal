@@ -31,9 +31,12 @@ purpose: |-
   Shade Provider: Dense foliage casts summer shade over palmettos, grapes, and livestock lanes without the deep darkness of taller bottomland oaks.
   Erosion Control: Wide lateral roots knit deep aeolian sand that would drift off dunes if left to herbaceous cover alone.
 companions:
-  - Myrtle Oak — lower evergreen oak layer beneath taller sand live oak canopies
-  - Scrub Hickory — adds mast diversity and contrasting bark in scrub restoration
-  - Sand Blackberry — thorny understory fruiting layer in sunny oak openings
+  - slug: myrtle-oak
+    name: Myrtle Oak
+  - slug: scrub-hickory
+    name: Scrub Hickory
+  - slug: sand-blackberry
+    name: Sand Blackberry
 cautions:
   - None documented
 pests:

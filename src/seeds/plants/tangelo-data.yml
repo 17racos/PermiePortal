@@ -34,9 +34,12 @@ purpose: |-
   Wildlife Attractor: Split fruit left on canopy edges feeds orioles and raccoons after humans finish prime picking windows.
   Ornamental: Orange globes hang against glossy canopy backdrops along paths where designers stage literal fruit ornaments.
 companions:
-  - Comfrey — chop-and-drop mulch outside the trunk circle to feed soil without burying the root flare.
-  - Lemongrass — scented heat-tolerant edge that pairs with citrus-heavy cooking.
-  - Fennel — insectary plant; keep it from shading young citrus if it gets ambitious.
+  - slug: comfrey
+    name: Comfrey
+  - slug: lemongrass
+    name: Lemongrass
+  - slug: fennel
+    name: Fennel
 cautions:
   - Walnut
 pests:

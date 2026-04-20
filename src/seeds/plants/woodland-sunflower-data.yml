@@ -31,12 +31,10 @@ purpose: |-
   Erosion Control: Rhizomatous spread knits dry slopes after trail cuts -- give room or expect friendly takeover.
   Biomass: Tall stems chop-and-drop into savanna plantings -- faster than oak litter, slower than grass clippings.
 companions:
-- Wild Bergamot — aromatic mint-family flowers alongside yellow sunflowers; shared
-  edge habitat
-- Little Bluestem — warm-season grass matrix for savanna structure; handles drier
-  soils than swamp sunflower companions
-- Gray Goldenrod — late gold without aggressive rhizomes; complementary pollinator
-  timing
+- slug: wild-bergamot
+  name: Wild Bergamot
+- slug: little-bluestem
+  name: Little Bluestem
 cautions:
 - Rhizome spread — give room or mow margins in small formal beds
 - Powdery mildew — improve airflow if humid summers coat lower leaves
@@ -48,6 +46,8 @@ pests:
 - Lubber Grasshopper
 - Root Aphid
 - Sunflower Moth
-growth_habit: Rhizomatous perennial sunflower; yellow blooms; dry to mesic woodland
-  edges
+growth_habit: Rhizomatous perennial sunflower; yellow blooms; dry to mesic woodland edges
 data_quality_score: 0.85
+companions_unresolved:
+- name: Gray Goldenrod
+  original: Gray Goldenrod — late gold without aggressive rhizomes; complementary pollinator timing

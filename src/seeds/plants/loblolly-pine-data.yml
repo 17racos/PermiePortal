@@ -2,8 +2,8 @@ common_name: Loblolly Pine
 picture: loblolly_pine.webp
 scientific_name: Pinus taeda
 aka:
-- Southern pine
-- Arkansas pine
+  - Southern pine
+  - Arkansas pine
 family: Pinaceae
 zone: 6-9
 ideal_temp_min: 55
@@ -12,12 +12,12 @@ min_temp: -5
 max_temp: 105
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Windbreaker
-- Wildlife Attractor
-- Mulcher
-- Biomass
+  - Windbreaker
+  - Wildlife Attractor
+  - Mulcher
+  - Biomass
 description: |-
   Loblolly pine (Pinus taeda) is a fast-growing southern yellow pine of humid temperate to subtropical lowlands and uplands in the southeastern United States, forming tall straight trunks with long needles in bundles of three and large cones. Heights of 60–100 feet (18–30 m) are common in open stands. It is a timber and windbreak staple, a mulch factory, and a reminder that pine savanna ecology wants fire literacy, not leaf-blower supremacy.
 
@@ -32,18 +32,19 @@ purpose: |-
   Mulcher: Needles in bundles of three drop acidic litter that suppresses understory weeds -- mulch blueberries and gallberry where low pH is already the goal.
   Biomass: Straight boles yield southern yellow pine lumber and pulp -- on-farm use includes pole barns and biochar trials when markets dip.
 companions:
-- Longleaf Pine — savanna associate where fire-managed ecosystems are a real commitment,
-  not a hashtag
-- Little Bluestem — warm-season grass ground layer in open pine savanna plantings
-- Florida Paintbrush — native forb adding pollinator value in sunny pine openings
+  - slug: longleaf-pine
+    name: Longleaf Pine
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: florida-paintbrush
+    name: Florida Paintbrush
 cautions:
-- Ice storms — brittle young branches in some ice events; site and thin for resilience
-- Dense shade — excludes sun-loving crops under mature stands without planning
+  - Ice storms — brittle young branches in some ice events; site and thin for resilience
+  - Dense shade — excludes sun-loving crops under mature stands without planning
 pests:
-- Bagworm
-- Borers
-- Scale Insects
-- Bark Beetles
-growth_habit: Fast tall yellow pine; needles in threes; large cones; humid southeastern
-  lowlands
+  - Bagworm
+  - Borers
+  - Scale Insects
+  - Bark Beetles
+growth_habit: Fast tall yellow pine; needles in threes; large cones; humid southeastern lowlands
 data_quality_score: 0.8

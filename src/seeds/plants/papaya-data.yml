@@ -45,9 +45,10 @@ purpose: |-
   Border Plant: Soft-wooded single trunks screen fences and poultry yards within one rainy season -- replant roughly decade-scale because hollow stems eventually lodge in wind unless topped on purpose.
   Pest Management: Fermented leaf teas and interplanted aromatics confuse some chewing insects in anecdotal trials -- still scout for ringspot virus vectors because companion scent is not a substitute for clean tools and tolerant cultivars.
 companions:
-- Banana
-- Sweet Potato
-- Mustard
+- slug: banana
+  name: Banana
+- slug: sweet-potato
+  name: Sweet Potato
 cautions:
 - None specified
 pests:
@@ -59,3 +60,6 @@ pests:
 - Green Iguana
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Mustard
+  original: Mustard

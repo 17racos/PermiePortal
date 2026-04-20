@@ -2,8 +2,8 @@ common_name: Lychee
 picture: lychee.webp
 scientific_name: Litchi chinensis
 aka:
-- Litchi
-- Chinese strawberry (old nickname)
+  - Litchi
+  - Chinese strawberry (old nickname)
 family: Sapindaceae
 zone: 10-11
 ideal_temp_min: 65
@@ -12,11 +12,11 @@ min_temp: 24
 max_temp: 105
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Edible
-- Ornamental
-- Wildlife Attractor
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
 description: |-
   Lychee is the soapberry-family diva: glossy evergreen leaves, panicles of cream flowers, and fruit that spoils faster than your weekend plans. Wind, soggy roots, and winter nerves are how dreams die.
 
@@ -35,20 +35,20 @@ purpose: |-
   Ornamental: Glossy even-pinnate leaves and red new flushes read subtropical luxe -- protect young trees from desiccating wind or leaf margins bronze while fruit set aborts.
   Wildlife Attractor: Raccoons and birds strip color-break clusters overnight -- net entire canopies or harvest slightly green-ripe for cooking if vertebrate tithe is not budgeted.
 companions:
-- Longan — similar sapindaceous culture and pest scouting; pairing simplifies irrigation
-  and organic spray timing at the orchard edge.
-- Pigeon Pea — fixes nitrogen on the orchard perimeter without running roots under
-  the lychee crown if you give it offset planting.
-- Comfrey — chop-and-drop mulch and nutrient cycling under the drip line where grass
-  competition would steal water.
+  - slug: longan
+    name: Longan
+  - slug: pigeon-pea
+    name: Pigeon Pea
+  - slug: comfrey
+    name: Comfrey
 cautions:
-- High pH water and soil without amendment
-- Lawn herbicide drift
+  - High pH water and soil without amendment
+  - Lawn herbicide drift
 pests:
-- Aphids
-- Boxelder Bug
-- Caribbean Fruit Fly
-- Scale Insects
-- Spotted Lanternfly
+  - Aphids
+  - Boxelder Bug
+  - Caribbean Fruit Fly
+  - Scale Insects
+  - Spotted Lanternfly
 growth_habit: Medium to large evergreen tree; dense rounded crown when managed
 data_quality_score: 0.75

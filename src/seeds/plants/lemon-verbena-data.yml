@@ -2,7 +2,7 @@ common_name: Lemon Verbena
 picture: lemon_verbena.webp
 scientific_name: Aloysia citrodora
 aka:
-  - Lemon beebrush
+- Lemon beebrush
 family: Verbenaceae
 zone: 8-11
 ideal_temp_min: 45
@@ -11,13 +11,13 @@ min_temp: 15
 max_temp: 100
 perennial: true
 layers:
-  - Herbaceous
-  - Shrub
+- Herbaceous
+- Shrub
 plant_function:
-  - Edible
-  - Medicinal
-  - Ornamental
-  - Pollinator
+- Edible
+- Medicinal
+- Ornamental
+- Pollinator
 description: |-
   Lemon verbena is the tea plant that smells like honest lemonade without the sugar guilt. Deciduous in cooler winters, it often dies to the ground in subtropical and tropical Americas freezes and returns from the crown if mulch behaved. Container culture lets you drag dignity indoors when polar nonsense arrives. Leaves dry beautifully; fresh leaves bruise into syrups and cordials.
 
@@ -32,13 +32,17 @@ purpose: |-
   Ornamental: Long willowy shoots read soft green fountains in large patio pots -- dies to crown in hard frost zones; mulch mounded eight inches (20 cm) over crowns if you want dice-roll survival below 20°F (-7°C).
   Pollinator: Tiny pale lilac tubes open in loose axillary clusters in late summer, feeding small native bees when flashy annuals are tired -- bloom is brief unless you stop hedge-shearing for three weeks and accept rangier shape.
 companions:
-  - Rosemary
-  - Sage
-  - Citrus
+- slug: rosemary
+  name: Rosemary
+- slug: sage
+  name: Sage
 cautions:
-  - Wet winter pots without drainage
-  - Letting woody stems get congested without air flow
+- Wet winter pots without drainage
+- Letting woody stems get congested without air flow
 pests:
-  - Whiteflies
-  - Aphids
-  - Spider mites
+- Whiteflies
+- Aphids
+- Spider mites
+companions_unresolved:
+- name: Citrus
+  original: Citrus

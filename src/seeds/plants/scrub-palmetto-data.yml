@@ -2,7 +2,7 @@ common_name: Scrub Palmetto
 picture: scrub_palmetto.webp
 scientific_name: Sabal etonia
 aka:
-- Scrub Palmetto Palm
+  - Scrub Palmetto Palm
 family: Arecaceae
 zone: 8b-11
 ideal_temp_min: 45
@@ -11,13 +11,13 @@ min_temp: 15
 max_temp: 105
 perennial: true
 layers:
-- Shrub
-- Tree
+  - Shrub
+  - Tree
 plant_function:
-- Ornamental
-- Wildlife Attractor
-- Erosion Control
-- Border Plant
+  - Ornamental
+  - Wildlife Attractor
+  - Erosion Control
+  - Border Plant
 description: |-
   Scrub palmetto (Sabal etonia) is a fan palm of deep sandy scrub, usually with an underground or short aboveground trunk and costapalmate leaves silvery underneath. It is smaller and more clumping in habit than many landscape sabals, fitting dry, acidic sites where irrigation is absent. Use it in fire-adapted scrub restorations, xeric borders, and wildlife plantings where palmetto structure beats turf theater.
 
@@ -32,24 +32,24 @@ purpose: |-
   Erosion Control: Fibrous palm roots weld deep Aeolian sand on cuts where blowouts start if you shave every understory species.
   Border Plant: Underground-trunk colonies trace property lines along scrub roadsides without shading out low wildflowers the way cabbage palms would.
 companions:
-- Sand Pine — overstory pine in classic scrub mosaic where both belong ecologically
-- Pineland Heather — ericaceous shrub neighbor on the same sand sheet with contrasting
-  texture
-- Beautyberry — color contrast at scrub margins with more organic litter
+  - slug: sand-pine
+    name: Sand Pine
+  - slug: pineland-heather
+    name: Pineland Heather
+  - slug: beautyberry
+    name: Beautyberry
 cautions:
-- Fire ecology — scrub systems may expect periodic fire; follow regulations and safety
-  training
-- Wet clay — chronic sulk and rot away from sand honesty
+  - Fire ecology — scrub systems may expect periodic fire; follow regulations and safety training
+  - Wet clay — chronic sulk and rot away from sand honesty
 pests:
-- Aphids
-- Coconut Mite
-- Palm Weevil
-- Palmetto Weevil
-- Red Palm Weevil
-- Rhinoceros Beetle
-- Scale Insects
-- Ganoderma Butt Rot
-- Heart Rot
-growth_habit: Small fan palm; subterranean or short trunk; silver leaf undersides;
-  deep sand scrub
+  - Aphids
+  - Coconut Mite
+  - Palm Weevil
+  - Palmetto Weevil
+  - Red Palm Weevil
+  - Rhinoceros Beetle
+  - Scale Insects
+  - Ganoderma Butt Rot
+  - Heart Rot
+growth_habit: Small fan palm; subterranean or short trunk; silver leaf undersides; deep sand scrub
 data_quality_score: 0.78

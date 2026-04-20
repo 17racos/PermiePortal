@@ -34,9 +34,12 @@ purpose: |-
   Erosion Control: Deep lateral roots bind desert berms and highway cuts where shallow annuals die -- mulch young plants against rodent girdling until bark lignifies.
   Windbreaker: Staggered rows filter abrasive wind across citrus and vegetable rows in arid valleys -- combine with taller legume windbreaks because jojoba alone stops ground-level flow, not storm fetch aloft.
 companions:
-  - Agave — shares drainage dogma and sun; agave basal rosettes use space jojoba lifts overhead.
-  - Prickly Pear — pads occupy understory without competing for the same soil moisture profile once both are established.
-  - Guayule — resinous shrub neighbor for dry hedgerow trials where each species occupies slightly different depth niches.
+  - slug: agave
+    name: Agave
+  - slug: edible-cactus
+    name: Edible Cactus
+  - slug: guayule
+    name: Guayule
 cautions:
   - Tamarisk
   - Russian Olive

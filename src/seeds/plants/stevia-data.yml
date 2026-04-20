@@ -36,9 +36,12 @@ purpose: |-
   Pest Management: Intense diterpene sap discourages rabbit browse along beds where lettuce would vanish overnight.
   Pollinator: Tiny white disk flowers feed mini bees if you delay deadheading -- commercial growers often pinch blooms to keep leaf glycosides peak.
 companions:
-  - Basil — shares warm-season culture and kitchen timing for pesto–tea harvest days.
-  - Lemon Balm — mint-family neighbor that tolerates similar moisture if given elbow room.
-  - Chamomile — low, cooling edge plant that flowers on a different schedule for pollinator overlap.
+  - slug: basil
+    name: Basil
+  - slug: lemon-balm
+    name: Lemon Balm
+  - slug: chamomile
+    name: Chamomile
 cautions:
   - Fennel
 pests:

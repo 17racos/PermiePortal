@@ -10,11 +10,11 @@ min_temp: 32
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Ground Cover
-  - Water Retention
+- Edible
+- Ground Cover
+- Water Retention
 description: |-
   Pumpkin (Cucurbita pepo) is a warm-season creeping vine grown for its edible fruit and thick, storage-friendly flesh. It originates from North America and has been widely cultivated across the Americas for centuries, producing large leaves and sprawling, tendril-guided growth. In permaculture, pumpkins matter because their rapid cover shades soil, reduces evaporation, and creates a dense living mulch that helps suppress weeds while you harvest food that stores well through the off-season. Mature plants commonly sprawl several meters, with fruits ranging widely by variety.
 
@@ -28,14 +28,18 @@ purpose: |-
   Ground Cover: Hairy vines with plate-sized leaves carpet row middles under corn scaffolds, shading pigweed and slowing soil evaporation during fruit swell -- lift fruit onto boards or straw to keep belly rot off wet nights.
   Water Retention: Dense canopy traps humidity at soil line, cutting irrigation pulses needed through fruit set -- still risks powdery mildew if airflow stalls, so prune vine tips where they pile thicker than your ethics allow.
 companions:
-  - Corn (Zea mays) — corn stalks provide vertical structure; pumpkin spreads below for living mulch.
-  - Nasturtium (Tropaeolum majus) — trailing flowers attract beneficial insects and occupy space without harsh competition.
-  - Marigold (Tagetes patula) — helps draw beneficial insects and gives you a visible monitor bed for pest activity.
+- slug: nasturtium
+  name: Nasturtium
+- slug: marigold
+  name: Marigold
 cautions:
-  - Keep fruit off wet soil with straw or boards; fruit rot steals harvest fast.
-  - Powdery mildew risk rises with poor airflow—avoid crowding vines.
+- Keep fruit off wet soil with straw or boards; fruit rot steals harvest fast.
+- Powdery mildew risk rises with poor airflow—avoid crowding vines.
 pests:
-  - Aphids
-  - Spider Mites
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Spider Mites
+- Root Rot
+- Caterpillars
+companions_unresolved:
+- name: Corn
+  original: Corn (Zea mays) — corn stalks provide vertical structure; pumpkin spreads below for living mulch.

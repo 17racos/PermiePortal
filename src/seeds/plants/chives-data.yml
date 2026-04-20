@@ -33,11 +33,12 @@ purpose: |-
   Pest Management: Sulfur-rich Allium exudates can repel or confuse carrot rust flies and some rose-chewing beetles when clumps sit downwind of host rows.
   Border Plant: Neat 20–40 cm mounds edge paths and rose beds with a tidy silhouette that tolerates light foot brush from harvest traffic.
 companions:
-- Carrot
-- Tomato
-- Rose
-- Grape
-- Apple
+- slug: carrot
+  name: Carrot
+- slug: tomato
+  name: Tomato
+- slug: apple
+  name: Apple
 cautions:
 - Bean
 - Pea
@@ -50,3 +51,8 @@ pests:
 - White Rot
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Rose
+  original: Rose
+- name: Grape
+  original: Grape

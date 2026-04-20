@@ -2,8 +2,8 @@ common_name: Coastal Rosemary
 picture: coastal_rosemary.webp
 scientific_name: Westringia fruticosa
 aka:
-  - Australian rosemary
-  - Native rosemary
+- Australian rosemary
+- Native rosemary
 family: Lamiaceae
 zone: 9-11
 ideal_temp_min: 55
@@ -12,12 +12,12 @@ min_temp: 25
 max_temp: 100
 perennial: true
 layers:
-  - Shrub
+- Shrub
 plant_function:
-  - Ornamental
-  - Wildlife Attractor
-  - Border Plant
-  - Windbreaker
+- Ornamental
+- Wildlife Attractor
+- Border Plant
+- Windbreaker
 description: |-
   Coastal rosemary (*Westringia fruticosa*) is not a true rosemary, but a fine-leaved Australian shrub that plays the same visual role—gray-green linear leaves and a dense, rounded habit to about 1–2 m tall and wide. Small white to pale lilac flowers with speckled throats appear in waves through the warm months. It tolerates salt breeze, making it useful near Florida and Puerto Rico shorelines, yet still needs drainage during tropical downpours.
 
@@ -32,15 +32,20 @@ purpose: |-
   Border Plant: Dense rounded shrubs edge paths, dog runs, and citrus understories without thorns tearing harvest clothes.
   Windbreaker: Multiple staggered rows blunt onshore gales and salt spray before wind hits patio glass or tender understory perennials.
 companions:
-  - Agave
-  - Lantana
-  - Bulbine
-  - Dwarf coconut palm
+- slug: agave
+  name: Agave
+- slug: lantana
+  name: Lantana
+- slug: bulbine
+  name: Bulbine
 cautions:
-  - None documented
+- None documented
 pests:
-  - Scale Insects
-  - Aphids
-  - Spider Mites
+- Scale Insects
+- Aphids
+- Spider Mites
 growth_habit: Shrub
 data_quality_score: 0.8
+companions_unresolved:
+- name: Dwarf coconut palm
+  original: Dwarf coconut palm

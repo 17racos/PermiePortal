@@ -32,9 +32,12 @@ purpose: |-
   Shade Provider: Light upward-arching limbs cast soft shade for mayapples and hydrangea guilds that rot in full sun.
   Border Plant: Maturing under 40 feet keeps urban easements clear while still framing entries with four-season bark interest.
 companions:
-  - Mayapple — spring ephemeral underpart for matching rich woodland soils
-  - Wild Leek — ethical patches only, sharing moist humus under open canopy
-  - Roughleaf Dogwood — shrub layer at the sunnier edge of a silverbell grouping
+  - slug: mayapple
+    name: Mayapple
+  - slug: ramps
+    name: Ramps
+  - slug: roughleaf-dogwood
+    name: Roughleaf Dogwood
 cautions:
   - None documented
 pests:

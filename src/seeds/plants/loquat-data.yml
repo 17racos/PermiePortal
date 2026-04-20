@@ -42,9 +42,8 @@ purpose: |-
   Windbreaker: Low evergreen canopy filters salt gusts along coastal hedges without casting the deep shade of live oak on south-facing vegetable rows.
   Border Plant: Tight line-planting along fence tops screens neighbors while staying shorter than mango for urban lots that still want winter fruit.
 companions:
-- Citrus
-- Fig
-- Pomegranate
+- slug: fig
+  name: Fig
 cautions:
 - None
 pests:
@@ -93,3 +92,8 @@ pests:
 growth_habit: Tree
 data_quality_score: 0.8
 field_observations: No field observations yet
+companions_unresolved:
+- name: Citrus
+  original: Citrus
+- name: Pomegranate
+  original: Pomegranate

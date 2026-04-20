@@ -2,7 +2,7 @@ common_name: Red Bay
 picture: red_bay.webp
 scientific_name: Persea borbonia
 aka:
-- Scrub Bay
+  - Scrub Bay
 family: Lauraceae
 zone: 7-10
 ideal_temp_min: 65
@@ -11,11 +11,11 @@ min_temp: 15
 max_temp: 105
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Wildlife Attractor
-- Medicinal
-- Ornamental
+  - Wildlife Attractor
+  - Medicinal
+  - Ornamental
 description: |-
   Red Bay (Persea borbonia) is a useful perennial species in the Lauraceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a tree form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.
 
@@ -28,13 +28,20 @@ purpose: |-
   Wildlife Attractor: Persea borbonia evergreen drupes feed warblers, woodpeckers, and swallowtails while aromatic leaves host spicebush swallowtail larvae along maritime forest edges -- laurel wilt is a regional lethal threat; scout redbay ambrosia beetle symptoms early.
   Medicinal: Crushed leaves supply camphor-sassafras volatile oils used in traditional liniments and teas for warming narratives -- safrole analog concerns mean internal use belongs with trained guidance, not casual infusion guessing.
   Ornamental: Glossy lanceolate leaves with rusty indumentum beneath flash in coastal breezes -- multi-stemmed small tree fits native buffers where larger magnolias would overpower sight lines on narrow lots.
-companions:
-- Wax Myrtle - shares acidic soil preference and bird-habitat role.
-- Yaupon Holly - compatible evergreen structure in mixed hedgerows.
-- Fakahatchee Grass - stabilizes moist soils under open canopy.
+companions: []
 cautions:
-- Avocado - shared pest and disease pressure can increase when planted tightly together.
+  - Avocado - shared pest and disease pressure can increase when planted tightly together.
 pests:
-- Borers
-- Scale Insects
-- Leaf Spot
+  - Borers
+  - Scale Insects
+  - Leaf Spot
+companion_categories:
+  - name: Wax Myrtle - shares acidic soil preference and bird-habitat role.
+    original: Wax Myrtle - shares acidic soil preference and bird-habitat role.
+    type: system
+  - name: Yaupon Holly - compatible evergreen structure in mixed hedgerows.
+    original: Yaupon Holly - compatible evergreen structure in mixed hedgerows.
+    type: system
+  - name: Fakahatchee Grass - stabilizes moist soils under open canopy.
+    original: Fakahatchee Grass - stabilizes moist soils under open canopy.
+    type: system

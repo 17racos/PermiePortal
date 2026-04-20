@@ -2,9 +2,9 @@ common_name: Comfrey
 picture: comfrey.webp
 scientific_name: Symphytum officinale
 aka:
-  - Knitbone
-  - Bone Set
-  - Russian Comfrey (Symphytum × uplandicum)
+- Knitbone
+- Bone Set
+- Russian Comfrey (Symphytum × uplandicum)
 family: Boraginaceae
 zone: 3-9
 ideal_temp_min: 40
@@ -13,15 +13,15 @@ min_temp: -40
 max_temp: 100
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Medicinal
-  - Wildlife Attractor
-  - Mulcher
-  - Dynamic Accumulator
-  - Erosion Control
-  - Animal Fodder
-  - Border Plant
+- Medicinal
+- Wildlife Attractor
+- Mulcher
+- Dynamic Accumulator
+- Erosion Control
+- Animal Fodder
+- Border Plant
 description: |-
   Comfrey (Symphytum officinale) is a fast-growing herbaceous perennial known for its deep roots and high biomass production. It grows up to 1.2 meters (4 feet) tall and has large, rough, lance-shaped leaves covered in fine hairs. The plant produces clusters of bell-shaped purple, pink, or white flowers that attract pollinators.
 
@@ -41,19 +41,18 @@ purpose: |-
   Animal Fodder: Wilted leaf mixed into pig, poultry, and rabbit rations raises protein and mineral intake; limit fresh bulk grazing until animals are accustomed because alkaloid load varies by line and cut timing.
   Border Plant: Sterile Russian comfrey stays along compost bins, paths, and poultry yards as a living edge that does not seed into neighboring beds the way common comfrey will.
 companions:
-  - Apple
-  - Pear
-  - Plum
-  - Walnut
-  - Tomato
+- slug: apple
+  name: Apple
+- slug: tomato
+  name: Tomato
 cautions:
-  - None known
+- None known
 pests:
-  - Slugs
-  - Snails
-  - Jumping Worms
-  - Armadillo
-  - Deer
+- Slugs
+- Snails
+- Jumping Worms
+- Armadillo
+- Deer
 growth_habit: Tree
 data_quality_score: 0.8
 field_observations: |-
@@ -61,3 +60,10 @@ field_observations: |-
   Harvest before flowering for highest leaf protein—after bloom, fiber jumps and chop-and-drop quality drops.
   Slugs rasp young leaves in wet springs—diatomaceous refresh after rain saves first cuts.
   Wear long sleeves—hairs irritate some people; wash tools before touching face mid-harvest.
+companions_unresolved:
+- name: Pear
+  original: Pear
+- name: Plum
+  original: Plum
+- name: Walnut
+  original: Walnut

@@ -2,8 +2,8 @@ common_name: Garden Huckleberry
 picture: garden_huckleberry.webp
 scientific_name: Solanum melanocerasum
 aka:
-- Sunberry
-- Huckleberry nightshade
+  - Sunberry
+  - Huckleberry nightshade
 family: Solanaceae
 zone: 3-11
 ideal_temp_min: 60
@@ -12,13 +12,13 @@ min_temp: 32
 max_temp: 100
 perennial: false
 layers:
-- Herbaceous
-- Shrub
+  - Herbaceous
+  - Shrub
 plant_function:
-- Edible
-- Biomass
-- Wildlife Attractor
-- Border Plant
+  - Edible
+  - Biomass
+  - Wildlife Attractor
+  - Border Plant
 description: |-
   Garden huckleberry (Solanum melanocerasum) is a fast-growing warm-season solanaceous annual widely grown in temperate to subtropical gardens for cooked berries and sometimes young cooked greens, with glossy leaves and dark fruits that demand full ripening and cooking—green berries and foliage carry solanine baggage. It is not a wild Vaccinium huckleberry; the name is garden-center poetry. Use it in diversified annual beds, subsistence polycultures, and teaching gardens where nightshade literacy is part of the curriculum.
 
@@ -34,37 +34,37 @@ purpose: |-
   Wildlife Attractor: Purple star solanum flowers pull bumble visits in annual beds where determinate tomatoes already stopped flowering in August heat on the same south-wall microclimate you mulched with straw bales not plastic.
   Border Plant: Glossy foliage screens compost corrals on south-wall microclimates where you need a six-foot annual screen tall enough to hide bins from alley sight lines without committing to permanent bamboo you would regret after first rhizome escape.
 companions:
-- Marigold — root-secretions folklore aside, shared sun annual bed with pest-monitoring
-  value
-- Basil — complementary annual herb that does not share identical pest timing
-- Okra — tall warm-season partner that tolerates similar heat and fertility
+  - slug: marigold
+    name: Marigold
+  - slug: basil
+    name: Basil
+  - slug: okra
+    name: Okra
 cautions:
-- Green berries and leaves contain solanine-related alkaloids—cooking and full ripeness
-  are not optional footnotes
+  - Green berries and leaves contain solanine-related alkaloids—cooking and full ripeness are not optional footnotes
 pests:
-- Andean Potato Weevil
-- Broad Mite
-- Colorado Potato Beetle
-- Corn Earworm
-- Cyclamen Mite
-- Flea Beetles
-- Greenhouse Whitefly
-- Leaf Curl
-- Pepper Weevil
-- Potato Scab
-- Reniform Nematode
-- Root Aphid
-- Shore Fly
-- Stink Bug
-- Tobacco Budworm
-- Tomato Hornworms
-- Wireworm
-- Fusarium Wilt
-- Late Blight
-- Leaf Spot
-- Pythium Root Rot
-- Spotted Cucumber Beetle
-- Brown Marmorated Stink Bug
-growth_habit: Warm-season annual nightshade; large leaves; dark berries when fully
-  ripe
+  - Andean Potato Weevil
+  - Broad Mite
+  - Colorado Potato Beetle
+  - Corn Earworm
+  - Cyclamen Mite
+  - Flea Beetles
+  - Greenhouse Whitefly
+  - Leaf Curl
+  - Pepper Weevil
+  - Potato Scab
+  - Reniform Nematode
+  - Root Aphid
+  - Shore Fly
+  - Stink Bug
+  - Tobacco Budworm
+  - Tomato Hornworms
+  - Wireworm
+  - Fusarium Wilt
+  - Late Blight
+  - Leaf Spot
+  - Pythium Root Rot
+  - Spotted Cucumber Beetle
+  - Brown Marmorated Stink Bug
+growth_habit: Warm-season annual nightshade; large leaves; dark berries when fully ripe
 data_quality_score: 0.83

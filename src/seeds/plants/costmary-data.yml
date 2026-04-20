@@ -32,10 +32,14 @@ purpose: |-
   Ornamental: Crisp oblong leaves and yellow composite buttons give cottage borders a tall aromatic backbone through summer.
   Pest Management: Strong resinous odor can mask brassica cues or repel some chewing insects when costmary weaves through mixed vegetable rows.
 companions:
-  - Rue
-  - Hyssop
-  - Chives
-  - Calendula
+  - slug: hyssop-officinalis
+    name: Hyssop officinalis
+  - slug: rue
+    name: Rue
+  - slug: chives
+    name: Chives
+  - slug: calendula
+    name: Calendula
 cautions:
   - None documented
 pests:

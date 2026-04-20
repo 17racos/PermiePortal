@@ -2,8 +2,8 @@ common_name: Elliott's Bluestem
 picture: elliotts_bluestem.webp
 scientific_name: Andropogon gyrans
 aka:
-- Elliott bluestem
-- Breakaway grass
+  - Elliott bluestem
+  - Breakaway grass
 family: Poaceae
 zone: 5-9
 ideal_temp_min: 60
@@ -12,12 +12,12 @@ min_temp: -15
 max_temp: 100
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Wildlife Attractor
-- Erosion Control
-- Biomass
-- Ornamental
+  - Wildlife Attractor
+  - Erosion Control
+  - Biomass
+  - Ornamental
 description: |-
   Elliott's bluestem (Andropogon gyrans) is a warm-season bunchgrass of dry woodlands, sandhills, and open pine savannas in the southeastern United States, named for stems that shed spikelets in a way that suggests mechanical drama. Clumps reach about 2–4 feet (0.6–1.2 m) with bluish summer foliage turning copper in autumn. It belongs in native meadow mixes, restoration blocks, and low-input ornamental plantings where little bluestem cousins need a regional teammate.
 
@@ -32,26 +32,25 @@ purpose: |-
   Biomass: Warm-season leaves build carbon for meadow hay piles or controlled-burn ash returns when land managers follow local ecological burn windows instead of random brush piles alone.
   Ornamental: Glaucous summer blades shift copper in autumn alongside little bluestem mixes so savanna-inspired beds gain a coastal-plain species without cloning the same cultivar on every berm.
 companions:
-- Little Bluestem — complementary warm-season grass matrix with overlapping cultural
-  needs
-- Indiangrass — taller neighbor for vertical layering in savanna-inspired mixes
-- Dense Blazingstar — forb spikes that flower among grasses without demanding lawn
-  care
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: indiangrass
+    name: Indiangrass
+  - slug: dense-blazingstar
+    name: Dense Blazingstar
 cautions:
-- Wet heavy clay — winter wet rots crowns; amend drainage or choose different species
-- Shrub encroachment without fire or mowing — grasses lose light in abandoned savanna
-  cosplay
+  - Wet heavy clay — winter wet rots crowns; amend drainage or choose different species
+  - Shrub encroachment without fire or mowing — grasses lose light in abandoned savanna cosplay
 pests:
-- Armyworms
-- Bamboo Mite
-- Corn Earworm
-- Fall Armyworm
-- Lubber Grasshopper
-- Rice Blast Fungus
-- Rice Water Weevil
-- Spittlebugs
-- Wireworm
-- Leaf Blight
-growth_habit: Warm-season bunchgrass; bluish foliage; copper fall color; dry savanna
-  and sandhill adapted
+  - Armyworms
+  - Bamboo Mite
+  - Corn Earworm
+  - Fall Armyworm
+  - Lubber Grasshopper
+  - Rice Blast Fungus
+  - Rice Water Weevil
+  - Spittlebugs
+  - Wireworm
+  - Leaf Blight
+growth_habit: Warm-season bunchgrass; bluish foliage; copper fall color; dry savanna and sandhill adapted
 data_quality_score: 0.74

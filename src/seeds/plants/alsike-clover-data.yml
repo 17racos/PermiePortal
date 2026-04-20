@@ -10,12 +10,12 @@ min_temp: -30
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Nitrogen Fixer
-  - Mulcher
-  - Ground Cover
-  - Animal Fodder
+- Nitrogen Fixer
+- Mulcher
+- Ground Cover
+- Animal Fodder
 description: |-
   Alsike clover (Trifolium hybridum) is a perennial legume that forms a low, spreading mat
   of soft foliage and short flower heads, native to Europe and adapted across temperate
@@ -37,13 +37,17 @@ purpose: |-
   Ground Cover: Low pink-white flower heads and trifoliate leaves tile orchard alleys and rain-garden berms where taller covers would shade low crops -- avoid long anaerobic puddling that thins crowns on clay flats.
   Animal Fodder: Palatable tops make dairy-quality hay on cool sites -- watch photosensitivity risk in horses with pink skin eating large amounts of blooming alsike during bright weather, a documented clover quirk worth respecting.
 companions:
-  - Comfrey (Symphytum officinale) — deep roots mine minerals while alsike clover supplies nitrogen to the topsoil via clover residue.
-  - Garlic (Allium sativum) — cool-season growth pairs well in rotations; clover mulch suppresses weeds around garlic rows.
-  - Oats (Avena sativa) — cereal cover works with clover in mixed or sequential plantings to keep ground covered and improve soil structure.
+- slug: comfrey
+  name: Comfrey
+- slug: garlic
+  name: Garlic
 cautions:
-  - Long-term waterlogging can thin stands; replant after crown decline.
+- Long-term waterlogging can thin stands; replant after crown decline.
 pests:
-  - Aphids
-  - Spittlebugs
-  - Slugs
-  - Root Rot
+- Aphids
+- Spittlebugs
+- Slugs
+- Root Rot
+companions_unresolved:
+- name: Oats
+  original: Oats (Avena sativa) — cereal cover works with clover in mixed or sequential plantings to keep ground covered and improve soil structure.

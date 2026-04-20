@@ -31,14 +31,12 @@ purpose: |-
   Dynamic Accumulator: mines disturbed ground quickly, moving nutrients into leafy stems that can be chipped off-site after a chop cycle instead of letting seedbanks thicken.
   Animal Fodder: Livestock sometimes graze young Urena lobata before stems stiffen -- mature plants turn woody and bristly, so fodder value is a narrow early-season window.
 companions:
-- Elderberry — both colonize disturbed edges; elder provides structure while you manage
-  caesarweed seed rain
-- Dogfennel — tall aromatic forb matrix on similar waste ground (management, not romance)
-- Guinea Grass — competitive warm-season grass can suppress annual malvaceous weeds
-  with repeated mowing timing
+- slug: elderberry
+  name: Elderberry
+- slug: dogfennel
+  name: Dogfennel
 cautions:
-- Invasive potential — listed or problematic in parts of the subtropical United States
-  and Caribbean basin
+- Invasive potential — listed or problematic in parts of the subtropical United States and Caribbean basin
 - Burr hitchhiking — spreads on livestock, clothing, and machinery
 - Skin irritation — some people react to malvaceous hairs; gloves for heavy pulling
 pests:
@@ -46,6 +44,8 @@ pests:
 - Banded Winged Whitefly
 - Cocoa Pod Borer
 - Japanese Beetles
-growth_habit: Upright malvaceous annual to short-lived perennial; pink flowers; burr
-  fruits
+growth_habit: Upright malvaceous annual to short-lived perennial; pink flowers; burr fruits
 data_quality_score: 0.75
+companions_unresolved:
+- name: Guinea Grass
+  original: Guinea Grass — competitive warm-season grass can suppress annual malvaceous weeds with repeated mowing timing

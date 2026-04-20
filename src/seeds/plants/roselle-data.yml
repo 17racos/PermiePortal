@@ -37,9 +37,12 @@ purpose: |-
   Mulcher: Frost-killed woody stems chip into paths or compost; calyx harvest residue after processing still carries enough acid to activate a hot compost pile when layered thin.
   Border Plant: Red-stemmed annual rows read as a seasonal hedge along south fences where you want height without permanent shade from woody shrubs.
 companions:
-  - Okra
-  - Peppers
-  - Basil
+  - slug: bell-pepper
+    name: Bell Pepper
+  - slug: okra
+    name: Okra
+  - slug: basil
+    name: Basil
 cautions:
   - Planting too early in cool wet soil
   - Expecting perennial life where hard frost exists
@@ -50,3 +53,7 @@ pests:
   - Japanese Beetles
   - Whiteflies
 field_observations: No field observations yet
+companions_normalized:
+  - original: Peppers
+    resolved_slug: bell-pepper
+    name: Bell Pepper

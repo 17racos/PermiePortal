@@ -28,9 +28,12 @@ purpose: |-
   Wildlife Attractor: Persistent red pomes and dense evergreen cover feed songbirds and small mammals through winter dry spells -- leave fruit if your goal is cedar waxwing theater.
   Border Plant: Twisting 2--6 m evergreen shrub canes knit drought-tolerant screens along paths and chaparral edges -- prickly structure slows casual foot traffic without looking like ornamental boxwood cosplay.
 companions:
-  - Rosemary (Salvia rosmarinus) — aromatic evergreen companion that prefers sun and drainage.
-  - Lavender (Lavandula angustifolia) — supports dry, sunny understory conditions and brings nectar for pollinators.
-  - Thyme (Thymus vulgaris) — low herb that stabilizes soil on shrub edges and adds edible/medicinal harvest.
+  - slug: rosemary
+    name: Rosemary
+  - slug: lavender
+    name: Lavender
+  - slug: thyme
+    name: Thyme
 cautions:
   - Be careful with fruit processing and plant identification; do not assume all similar red berries are safe.
 pests:

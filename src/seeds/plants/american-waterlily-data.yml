@@ -2,10 +2,10 @@ common_name: American Waterlily
 picture: american_waterlily.webp
 scientific_name: Nymphaea odorata
 aka:
-- Fragrant Water Lily
-- Beaver Root
-- Fragrant Waterlily
-- White Water Lily
+  - Fragrant Water Lily
+  - Beaver Root
+  - Fragrant Waterlily
+  - White Water Lily
 family: Nymphaeaceae
 zone: 3-11
 ideal_temp_min: 65
@@ -14,14 +14,14 @@ min_temp: 10
 max_temp: 95
 perennial: true
 layers:
-- Aquatic
-- Herbaceous
+  - Aquatic
+  - Herbaceous
 plant_function:
-- Edible
-- Aquatic
-- Wildlife Attractor
-- Ornamental
-- Shade Provider
+  - Edible
+  - Aquatic
+  - Wildlife Attractor
+  - Ornamental
+  - Shade Provider
 description: |-
   American waterlily (Nymphaea odorata) is a widespread native aquatic perennial with floating round leaves and fragrant white (sometimes pink-tinged) flowers that open by day across still ponds, lakes, and slow backwaters. Rhizomes creep in shallow muck while leaf stalks reach the surface from roughly 1–6 feet (0.3–1.8 m) of water depending on form and clarity. It fits permaculture water features as a food, medicine, and habitat plant—when used with containment forethought in small artificial ponds.
 
@@ -37,16 +37,19 @@ purpose: |-
   Ornamental: Classic temperate water-garden look using verified native ecotypes -- repot crowded rhizomes every few years or bloom size shrinks while leaves pretend vigor.
   Shade Provider: Expanding pads cut sunlight reaching planktonic algae, cooling water a degree or two in small lined basins -- thin surface cover if dissolved oxygen drops for stocked fish during heat spikes.
 companions:
-- Pickerelweed — emergent spikes complement lily pads at the shallower shelf
-- Duck Potato — tuberous emergent diversifies edges while lilies handle deeper quiet
-  water
-- Cattail — shares wetland aesthetics; manage both if small ponds turn into monoculture
-  wrestling
+  - slug: pickerelweed
+    name: Pickerelweed
+  - slug: cattail
+    name: Cattail
 cautions:
-- Small ornamental ponds — unchecked rhizomes can carpet the surface and clog intakes
-- Non-native waterlily bans — some regions restrict imports; use verified native material
+  - Small ornamental ponds — unchecked rhizomes can carpet the surface and clog intakes
+  - Non-native waterlily bans — some regions restrict imports; use verified native material
 pests:
-- aphids
-- Spider Mites
+  - aphids
+  - Spider Mites
 growth_habit: Rhizomatous floating-leaf aquatic; day-blooming fragrant flowers
 data_quality_score: 0.78
+companion_categories:
+  - name: Duck Potato
+    original: Duck Potato — tuberous emergent diversifies edges while lilies handle deeper quiet water
+    type: ecosystem

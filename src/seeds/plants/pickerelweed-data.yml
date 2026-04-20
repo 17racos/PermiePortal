@@ -34,9 +34,10 @@ purpose: |-
   Water Purifier: Dense roots trap silt and sponge nitrate from stocked pond effluent before it reaches open water -- thin mats if flow stagnates enough to grow mosquito larvae between stems.
   Ornamental: Glossy sagittate leaves and vertical bloom wands read as designed wetland architecture -- beats plastic heron decoys for honest pond-edge drama.
 companions:
-  - Cattail
-  - Duck Potato
-  - Lotus
+  - slug: cattail
+    name: Cattail
+  - slug: lotus
+    name: Lotus
 cautions:
   - Droughty berms with no liner or water source
 pests:
@@ -44,3 +45,7 @@ pests:
   - Snails
 growth_habit: Emergent aquatic
 data_quality_score: 0.75
+companion_categories:
+  - name: Duck Potato
+    original: Duck Potato
+    type: ecosystem

@@ -2,8 +2,8 @@ common_name: Black Chokeberry
 picture: black_chokeberry.webp
 scientific_name: Aronia melanocarpa
 aka:
-- Aronia (trade name overlap)
-- Chokeberry
+  - Aronia (trade name overlap)
+  - Chokeberry
 family: Rosaceae
 zone: 3-8
 ideal_temp_min: 55
@@ -12,13 +12,13 @@ min_temp: -35
 max_temp: 95
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Edible
-- Wildlife Attractor
-- Ornamental
-- Border Plant
-- Mulcher
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  - Border Plant
+  - Mulcher
 description: |-
   Black chokeberry (Aronia melanocarpa) is a suckering North American shrub cultivated for dense clusters of purple-black, astringent berries used in juice, wine, and antioxidant-rich products, plus red fall foliage and white May blossoms. Plants commonly reach 3–6 feet (0.9–1.8 m), forming thickets useful in hedgerows, rain-garden margins, and multifunctional borders. Unlike sweet dessert bushes, aronia tells the truth in the mouth—tannins first, sugar in the kitchen.
 
@@ -34,51 +34,52 @@ purpose: |-
   Border Plant: Suckering thickets mark compost-yard edges and slow cross-yard wind without formal fencing -- renewal prune oldest canes after fruit so centers stay productive.
   Mulcher: Thin rosaceous leaves drop into hedge feet, feeding fungal duff for blueberry partners -- rake only where mats smother spring ephemerals you still want visible.
 companions:
-- Highbush Blueberry — shared acidic mulch and irrigation culture with staggered harvest
-  timing
-- American Hazelnut — taller shrub uses vertical space above low chokeberry thickets
-- Yarrow — dry-tolerant forb at the sunny front of rows increases beneficial insect
-  traffic
+  - slug: highbush-blueberry
+    name: Highbush Blueberry
+  - slug: american-hazelnut
+    name: American Hazelnut
+  - slug: yarrow
+    name: Yarrow
 cautions:
-- Apple — humid springs can share rosaceous disease pressure when canopies intertwine
+  - Apple — humid springs can share rosaceous disease pressure when canopies intertwine
 pests:
-- Aphids
-- Apple Maggot
-- Apple Scab
-- Bagworm
-- Blackberry Psyllid
-- Cherry Fruit Fly
-- Codling Moth
-- Cyclamen Mite
-- Fall Webworm
-- Japanese Beetles
-- Lesser Peachtree Borer
-- Oriental Fruit Fly
-- Oriental Fruit Moth
-- Peach Twig Borer
-- Peachtree Borer
-- Pear Psylla
-- Plum Curculio
-- Raspberry Beetle
-- Raspberry Cane Borer
-- Rose Slug
-- Sparganothis Fruitworm
-- Spittlebugs
-- Stink Bug
-- Strawberry Root Weevil
-- Twig Girdlers
-- Vine Weevil
-- Brown Rot
-- Fire Blight
-- Gall Mite
-- Leaf Blight
-- Leaf Spot
-- Powdery Mildew
-- Rust Mite
-- Spotted Lanternfly
-- Brown Marmorated Stink Bug
-- Eastern Tent Caterpillar
-- Harlequin Ladybird
-- Tent Caterpillar
+  - Aphids
+  - Apple Maggot
+  - Apple Scab
+  - Bagworm
+  - Blackberry Psyllid
+  - Cherry Fruit Fly
+  - Codling Moth
+  - Cyclamen Mite
+  - Fall Webworm
+  - Japanese Beetles
+  - Lesser Peachtree Borer
+  - Oriental Fruit Fly
+  - Oriental Fruit Moth
+  - Peach Twig Borer
+  - Peachtree Borer
+  - Pear Psylla
+  - Plum Curculio
+  - Raspberry Beetle
+  - Raspberry Cane Borer
+  - Rose Slug
+  - Sparganothis Fruitworm
+  - Spittlebugs
+  - Stink Bug
+  - Strawberry Root Weevil
+  - Twig Girdlers
+  - Vine Weevil
+  - Brown Rot
+  - Fire Blight
+  - Gall Mite
+  - Leaf Blight
+  - Leaf Spot
+  - Powdery Mildew
+  - Rust Mite
+  - Spotted Lanternfly
+  - Brown Marmorated Stink Bug
+  - Eastern Tent Caterpillar
+  - Harlequin Ladybird
+  - Tent Caterpillar
 growth_habit: Suckering deciduous shrub; white spring flowers; black astringent berries
 data_quality_score: 0.84

@@ -2,8 +2,8 @@ common_name: Western Soapberry
 picture: western_soapberry.webp
 scientific_name: Sapindus drummondii
 aka:
-- Wild China Tree
-- Wingleaf Soapberry
+  - Wild China Tree
+  - Wingleaf Soapberry
 family: Sapindaceae
 zone: 7-10
 ideal_temp_min: 40
@@ -12,13 +12,13 @@ min_temp: -5
 max_temp: 110
 perennial: true
 layers:
-- Tree
-- Shrub
+  - Tree
+  - Shrub
 plant_function:
-- Wildlife Attractor
-- Erosion Control
-- Border Plant
-- Ornamental
+  - Wildlife Attractor
+  - Erosion Control
+  - Border Plant
+  - Ornamental
 description: |-
   Western soapberry (Sapindus drummondii) is a deciduous tree or large shrub of south-central North American woodlands and limestone hills, bearing compound leaves and translucent yellow berries rich in saponins. Plants reach 20–40 feet (6–12 m), often multi-stemmed. Berries support traditional soap demonstrations—not casual snacks—while birds handle the chemistry fine.
 
@@ -33,21 +33,20 @@ purpose: |-
   Border Plant: Multi-stem habit forms airy screens along dry fence lines -- thorns absent compared with eastern soapberry cousins.
   Ornamental: Ferny compound leaves bronze in fall before drop -- less showy than maples, perfect for Hill Country natives palettes.
 companions:
-- Soapberry — eastern relative Sapindus saponaria in parallel entry; compare ranges
-  before designing duplicate functions
-- Mexican Elderberry — moisture-gradient neighbor at slightly wetter sites in southwestern
-  transitions
-- Agave — succulent contrast on dry limestone edges where both tolerate lean soils
+  - slug: soapberry
+    name: Soapberry
+  - slug: mexican-elderberry
+    name: Mexican Elderberry
+  - slug: agave
+    name: Agave
 cautions:
-- Saponin toxicity—do not improvise human consumption
-- Name overlap with wingleaf soapberry entries—Sapindus drummondii is this record’s
-  anchor
+  - Saponin toxicity—do not improvise human consumption
+  - Name overlap with wingleaf soapberry entries—Sapindus drummondii is this record’s anchor
 pests:
-- Aphids
-- Boxelder Bug
-- Scale Insects
-- Spider Mites
-- Spotted Lanternfly
-growth_habit: Deciduous soapberry tree-shrub; compound leaves; yellow translucent
-  fruit; limestone hills
+  - Aphids
+  - Boxelder Bug
+  - Scale Insects
+  - Spider Mites
+  - Spotted Lanternfly
+growth_habit: Deciduous soapberry tree-shrub; compound leaves; yellow translucent fruit; limestone hills
 data_quality_score: 0.78

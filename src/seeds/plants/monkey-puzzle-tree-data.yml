@@ -34,9 +34,12 @@ purpose: |-
   Shade Provider: High crown with relatively open interior filters light into a cool microclimate for acid-loving ferns, small shrubs, and woodland-edge forbs once lower limbs lift.
   Edible: Female trees eventually bear large cones with starchy pehuén seeds traditionally pit-roasted in southern Chile where tenure and law allow -- outside native range treat nuts as a rare decades-long bonus, not a reliable annual staple, and confirm local rules before collecting.
 companions:
-  - Rhododendron — shared love of acidic organic mulch and filtered light at the woodland margin; roots occupy different depths if you give space.
-  - Maidenhair Fern — ground-layer humidity buffer under partial shade; fern fronds do not compete for sun with the araucaria crown.
-  - Southern Magnolia — complementary broadleaf evergreen that handles heat where monkey puzzle is marginal; both appreciate deep mulch and wind respect.
+  - slug: rhododendron
+    name: Rhododendron
+  - slug: maidenhair-fern
+    name: Maidenhair Fern
+  - slug: southern-magnolia
+    name: Southern Magnolia
 cautions:
   - None documented
 pests:

@@ -2,9 +2,9 @@ common_name: Jerusalem Artichoke
 picture: jerusalem_artichoke.webp
 scientific_name: Helianthus tuberosus
 aka:
-  - Sunchoke
-  - Earth apple
-  - Earth Apple
+- Sunchoke
+- Earth apple
+- Earth Apple
 family: Asteraceae
 zone: 3-9
 ideal_temp_min: 50
@@ -13,14 +13,14 @@ min_temp: -30
 max_temp: 95
 perennial: true
 layers:
-  - Herbaceous
-  - Root
+- Herbaceous
+- Root
 plant_function:
-  - Edible
-  - Animal Fodder
-  - Mulcher
-  - Wildlife Attractor
-  - Dynamic Accumulator
+- Edible
+- Animal Fodder
+- Mulcher
+- Wildlife Attractor
+- Dynamic Accumulator
 description: |-
   Jerusalem artichoke is the sunflower that went underground and invented fart jokes. Tubers are inulin-rich — great for diabetics on paper, chaotic for dinner parties if portions are naive. It spreads from overlooked tuber bits; treat it like bamboo's polite cousin that still invades if you ignore boundaries. subtropical and tropical Americas grows it fine; harvest in cool months for firmer texture.
 
@@ -36,18 +36,29 @@ purpose: |-
   Wildlife Attractor: Late-season yellow ray flowers feed bumblebees after many composites fade -- leave seed heads if goldfinches need winter pickings along wet meadow edges.
   Dynamic Accumulator: Deep rhizomes mine potassium and phosphorus that return when tops rot in place -- pair with comfrey downslope so nutrient cycling hits multiple horizons.
 companions:
-  - Beans
-  - Corn
-  - Comfrey
+- slug: comfrey
+  name: Comfrey
+- slug: fava-bean
+  name: Fava Bean
 cautions:
-  - Unbounded planting in manicured yards
-  - Serving huge portions to guests without warning
+- Unbounded planting in manicured yards
+- Serving huge portions to guests without warning
 pests:
-  - Aphids
-  - Banded Winged Whitefly
-  - Greenhouse Whitefly
-  - Lettuce Aphid
-  - Lubber Grasshopper
-  - Root Aphid
-  - Powdery Mildew
-  - Root Rot
+- Aphids
+- Banded Winged Whitefly
+- Greenhouse Whitefly
+- Lettuce Aphid
+- Lubber Grasshopper
+- Root Aphid
+- Powdery Mildew
+- Root Rot
+companions_unresolved:
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index
+- name: Corn
+  original: Corn
+companions_normalized:
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

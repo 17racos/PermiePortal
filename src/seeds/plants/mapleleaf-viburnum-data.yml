@@ -32,15 +32,18 @@ purpose: |-
   Edible: Fully ripe berries taste mildly sweet with almond-adjacent notes -- nibble only with confident ID because other viburnums carry compounds you do not want to trial-and-error.
   Border Plant: Three-lobed leaves echo maple texture at knee height along shaded paths -- tolerates dry shade once established if oak leaf mulch keeps roots cool.
   Ornamental: Fall shifts mauve-pink before leaf drop -- pairs with witch-hazel for late-season interest when most understory shrubs are sticks.
-companions:
-- Sugar Maple — overstory dappled light and leaf litter match natural forest ecology
-- Witch Hazel — late-season flowers extend interest beneath viburnum fruiting time
-- Christmas Fern — evergreen ground layer under shrub skirts without smothering crowns
+companions: []
 cautions:
-- Viburnum leaf beetle is a regional defoliator—monitor skeletonized leaves and diversify
-  plantings to buffer outbreaks
+- Viburnum leaf beetle is a regional defoliator—monitor skeletonized leaves and diversify plantings to buffer outbreaks
 pests:
 - Japanese Beetles
 - Aphids
 growth_habit: Deciduous understory viburnum; maple-like leaves; dark bird berries
 data_quality_score: 0.85
+companions_unresolved:
+- name: Sugar Maple
+  original: Sugar Maple — overstory dappled light and leaf litter match natural forest ecology
+- name: Witch Hazel
+  original: Witch Hazel — late-season flowers extend interest beneath viburnum fruiting time
+- name: Christmas Fern
+  original: Christmas Fern — evergreen ground layer under shrub skirts without smothering crowns

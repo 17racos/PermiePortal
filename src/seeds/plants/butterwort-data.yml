@@ -2,7 +2,7 @@ common_name: Butterwort
 picture: butterwort.webp
 scientific_name: Pinguicula spp.
 aka:
-  - Pinguicula
+- Pinguicula
 family: Lentibulariaceae
 zone: 7-10
 ideal_temp_min: 50
@@ -11,12 +11,12 @@ min_temp: 20
 max_temp: 95
 perennial: true
 layers:
-  - Ground Cover
+- Ground Cover
 plant_function:
-  - Pest Management
-  - Ground Cover
-  - Ornamental
-  - Pollinator
+- Pest Management
+- Ground Cover
+- Ornamental
+- Pollinator
 description: |-
   Butterworts are carnivorous plants with rosettes of succulent, glandular leaves that excrete a sticky fluid to trap insects. They are typically found in moist, acidic environments such as bogs and fens. Butterworts produce attractive, funnel-shaped flowers that can be white, pink, or purple. They require partial shade to full sun and consistently moist, well-draining soil to thrive.
 
@@ -31,13 +31,17 @@ purpose: |-
   Ornamental: Pink or violet snapdragon-like flowers hover above jeweled leaves, reading as collector-grade ground layer on humid patios and greenhouse benches.
   Pollinator: Small native halictids still reach nectar in temperate bog gardens if you keep flowers above water film and avoid oil sprays that glue traps shut.
 companions:
-  - Sphagnum Moss
-  - Sundew
-  - Pitcher Plant
+- slug: sundew
+  name: Sundew
+- slug: pitcher-plant
+  name: Pitcher Plant
 cautions:
-  - Plants requiring high nutrient soils
+- Plants requiring high nutrient soils
 pests:
-  - Aphids
-  - Root Rot
+- Aphids
+- Root Rot
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Sphagnum Moss
+  original: Sphagnum Moss

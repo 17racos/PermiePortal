@@ -10,12 +10,12 @@ min_temp: 32
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Pollinator
-  - Wildlife Attractor
-  - Water Retention
+- Edible
+- Pollinator
+- Wildlife Attractor
+- Water Retention
 description: |-
   Cantaloupe (Cucumis melo) is a warm-season vine grown for its aromatic, sweet fruit and crunchy flesh. The crop traces back to regions of Africa and surrounding warm climates, and it now thrives across temperate-to-subtropical gardens with reliable heat. Vines can sprawl 1–3 m (3–10 ft), and fruits often weigh 1–5 kg depending on variety. In permaculture, cantaloupe earns space because it turns sun into food while its spreading canopy shades soil, cutting evaporation and keeping the bed cooler.
 
@@ -30,14 +30,18 @@ purpose: |-
   Wildlife Attractor: Split Cucumis melo melons and dropped overripe fruit draw wasps, ants, and mammals to the patch perimeter if culls sit on mulch more than a day in warm weather.
   Water Retention: vines blanket raised beds with hairy leaves that shade soil, cutting evaporative loss between irrigations while fruits size on warm-season trellises or straw.
 companions:
-  - Corn (Zea mays) — tall stalks provide partial wind buffering and can create a more stable microclimate for vines.
-  - Dill (Anethum graveolens) — flower heads attract beneficial insects that support cucumber-beetle and aphid control around cucurbits.
-  - Marigold (Tagetes patula) — pulls beneficial insects into the patch and helps you spot pest changes early.
+- slug: dill
+  name: Dill
+- slug: marigold
+  name: Marigold
 cautions:
-  - Wet ground invites fruit rots; use straw or boards to keep fruit off soil and improve airflow through the canopy.
+- Wet ground invites fruit rots; use straw or boards to keep fruit off soil and improve airflow through the canopy.
 pests:
-  - Aphids
-  - Spider Mites
-  - Slugs
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Spider Mites
+- Slugs
+- Root Rot
+- Caterpillars
+companions_unresolved:
+- name: Corn
+  original: Corn (Zea mays) — tall stalks provide partial wind buffering and can create a more stable microclimate for vines.

@@ -30,9 +30,12 @@ purpose: |-
   Pollinator: Small white nightshade flowers offer pollen and limited nectar to native bees during warm mornings -- blossom drop when nights stay below 55°F (13°C) is the plant complaining, not mysterious bad luck.
   Wildlife Attractor: Split fruit draws wasps and mockingbirds on ends of rows humans skip -- leave one sacrificial plant unmaintained if you want honest garden biodiversity receipts.
 companions:
-  - Basil (Ocimum basilicum) — aromatic foliage helps mask pepper scent and supplies pollinator-friendly blooms.
-  - Marigold (Tagetes patula) — dense, nectar-rich flowers pull beneficial insects into the bed.
-  - Chives (Allium schoenoprasum) — strong scent “confuses the menu” for many common garden sap-feeders.
+  - slug: basil
+    name: Basil
+  - slug: marigold
+    name: Marigold
+  - slug: chives
+    name: Chives
 cautions:
   - Frost and cold soil stunt growth; wait for warm nights before transplanting.
 pests:

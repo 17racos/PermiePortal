@@ -32,9 +32,7 @@ purpose: |-
   Medicinal: Milky latex and roots appear in traditional wart and respiratory protocols -- toxicity overlaps with medicine, so match species references before self-experimenting.
   Wildlife Attractor: Foliage feeds monarch and queen larvae while umbels feed bees, wasps, and flies -- plant patches, not singles, so caterpillars do not starve the only stem.
   Erosion Control: Deep rhizomes and fibrous roots knit disturbed banks and ditch sides -- pair moist-site species with wet feet, drought species with sharp drainage.
-companions:
-- Coneflower
-- Blazing Star
+companions: []
 cautions:
 - None specified
 pests:
@@ -42,3 +40,8 @@ pests:
 - Japanese Beetles
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Coneflower
+  original: Coneflower
+- name: Blazing Star
+  original: Blazing Star

@@ -2,8 +2,8 @@ common_name: Century Plant
 picture: century_plant.webp
 scientific_name: Agave americana
 aka:
-  - American aloe (misnomer)
-  - Maguey
+- American aloe (misnomer)
+- Maguey
 family: Asparagaceae
 zone: 8-11
 ideal_temp_min: 60
@@ -12,13 +12,13 @@ min_temp: 12
 max_temp: 110
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Fiber
-  - Ornamental
-  - Erosion Control
-  - Mulcher
+- Edible
+- Fiber
+- Ornamental
+- Erosion Control
+- Mulcher
 description: |-
   Century plant is the meme agave: rosette for years, then one absurd flowering spike, then the rosette dies like it finished the boss fight. Sap can irritate skin; spine tips file human stupidity down to the bone. Edible use centers on roasted hearts and careful processing traditions — not random backyard tequila fantasies without permits and sense. In subtropical and tropical Americas it grows bold until a wet winter tries to rot the crown; drainage is non-negotiable.
 
@@ -34,13 +34,17 @@ purpose: |-
   Erosion Control: adventitious roots grip fractured limestone and decomposed granite slopes where shallow soil would slip under summer storms without living anchors holding rock plates.
   Mulcher: trimmed leaves add slow-decaying litter to dry guild mulch when spines are shaved or burned off gloves-first -- heavy spines mean chop-and-drop stays a tool job, not barefoot whimsy.
 companions:
-  - Prickly pear
-  - Desert spoon
-  - Low sedums
+- slug: edible-cactus
+  name: Edible Cactus
 cautions:
-  - Shade and irrigation addiction
-  - High-traffic paths (spines)
+- Shade and irrigation addiction
+- High-traffic paths (spines)
 pests:
-  - Asparagus Beetle
-  - Borers
-  - Scale insects
+- Asparagus Beetle
+- Borers
+- Scale insects
+companions_unresolved:
+- name: Desert spoon
+  original: Desert spoon
+- name: Low sedums
+  original: Low sedums

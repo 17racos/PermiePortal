@@ -2,9 +2,9 @@ common_name: Rangpur Lime
 picture: rangpur_lime.webp
 scientific_name: Citrus × limonia
 aka:
-  - Lemandarin
-  - Rangpur mandarin
-  - Canton lemon
+- Lemandarin
+- Rangpur mandarin
+- Canton lemon
 family: Rutaceae
 zone: 8-11
 ideal_temp_min: 65
@@ -13,12 +13,12 @@ min_temp: 20
 max_temp: 105
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Border Plant
-  - Windbreaker
+- Edible
+- Wildlife Attractor
+- Border Plant
+- Windbreaker
 description: |-
   Rangpur lime is a mandarin–citron hybrid that fruits like a sour orange got caffeinated: acidic juice, wrinkly red-orange fruit, and more cold tolerance than most sweet oranges—still not a polar bear, but subtropical and tropical Americas growers sometimes lean on it when fancy navels throw a tantrum after a hard freeze.
 
@@ -33,29 +33,34 @@ purpose: |-
   Border Plant: Thorny evergreen canopy marks frost-marginal property lines where sweet oranges would sulk -- still mulch wide; mower blast on trunks invites psyllid stress and collar rot drama.
   Windbreaker: Multiple staggered trees join mixed farm hedges that trim advective citrus freezes -- wood hardens with age, so first-year plants need fabric or wind cloth until cambium lignifies.
 companions:
-  - Comfrey
-  - Clover
-  - Chives
-  - Nasturtium
+- slug: comfrey
+  name: Comfrey
+- slug: chives
+  name: Chives
+- slug: nasturtium
+  name: Nasturtium
 cautions:
-  - Lawn chemical runoff aimed at the root zone
-  - Shaded, boggy pockets that stay wet after summer storms
+- Lawn chemical runoff aimed at the root zone
+- Shaded, boggy pockets that stay wet after summer storms
 pests:
-  - Aphids
-  - Asian Citrus Psyllid
-  - Broad Mite
-  - Brown Citrus Aphid
-  - Citrus Greening
-  - Citrus Leafminer
-  - Citrus Mealybug
-  - Citrus Red Mite
-  - Citrus Root Weevil
-  - Citrus Whitefly
-  - Leaf Curl
-  - Oriental Fruit Fly
-  - Scale Insects
-  - Texas Citrus Mite
-  - Citrus Canker
-  - Citrus Rust Mite
-  - Rust Mite
-  - Swallowtail Caterpillar
+- Aphids
+- Asian Citrus Psyllid
+- Broad Mite
+- Brown Citrus Aphid
+- Citrus Greening
+- Citrus Leafminer
+- Citrus Mealybug
+- Citrus Red Mite
+- Citrus Root Weevil
+- Citrus Whitefly
+- Leaf Curl
+- Oriental Fruit Fly
+- Scale Insects
+- Texas Citrus Mite
+- Citrus Canker
+- Citrus Rust Mite
+- Rust Mite
+- Swallowtail Caterpillar
+companions_unresolved:
+- name: Clover
+  original: Clover

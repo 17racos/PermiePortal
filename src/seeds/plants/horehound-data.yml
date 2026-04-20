@@ -35,9 +35,12 @@ purpose: |-
   Pest Management: Pungent volatile oils and felted leaf hairs confuse some herbivorous insects when woven into mixed aromatic edges -- pair with yarrow and lavender so no single scent profile dominates host-finding cues.
   Animal Fodder: Sheep and goats nibble bitter leaves during drought when tender pasture browns out -- offer as a minority of diet, not sole forage, because extreme bitterness limits intake.
 companions:
-  - Lavender — shares sun, drainage, and pollinator service timing without demanding identical water.
-  - Oregano — overlapping bloom supports beneficial insects while roots occupy slightly different depths.
-  - Yarrow — deep taproot and umbels complement horehound’s low mounds for layered insectary structure.
+  - slug: lavender
+    name: Lavender
+  - slug: oregano
+    name: Oregano
+  - slug: yarrow
+    name: Yarrow
 cautions:
   - Mint
   - Lemon Balm

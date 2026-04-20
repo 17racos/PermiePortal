@@ -33,14 +33,17 @@ purpose: |-
   Mulcher: Ripped mats compost fast when turned into piles before seed set -- banked seeds still survive years so combine biomass return with fertility reduction instead of naive mulch alone pretending seed banks vanished.
   Edible: Young leaves entered some Latin foraging lists after heavy washing off petrochemical lawns -- verify whorled ID against bedstraw look-alikes before salad ambition on any ditch bank you did not soil-test for salt drift.
 companions:
-- Clover — legume companion in low turf polycultures; shares mowing height experiments
-- Dichondra — alternative lawn species that can coexist or compete depending on water
-- Purslane — succulent ground layer in similar disturbed, sunny niches
+- slug: dichondra
+  name: Dichondra
+- slug: purslane
+  name: Purslane
 cautions:
-- Do not eat from sprayed lawns or uncertain irrigation water—soluble salts and herbicide
-  residues do not rinse away with optimism
+- Do not eat from sprayed lawns or uncertain irrigation water—soluble salts and herbicide residues do not rinse away with optimism
 pests:
 - Aphids
 - Whiteflies
 growth_habit: Low branching warm-season forb; small white flowers; lawn and edge colonizer
 data_quality_score: 0.8
+companions_unresolved:
+- name: Clover
+  original: Clover — legume companion in low turf polycultures; shares mowing height experiments

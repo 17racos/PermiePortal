@@ -2,8 +2,8 @@ common_name: Royal Palm
 picture: royal_palm.webp
 scientific_name: Roystonea regia
 aka:
-- Cuban Royal Palm
-- Florida Royal Palm
+  - Cuban Royal Palm
+  - Florida Royal Palm
 family: Arecaceae
 zone: 10b-12
 ideal_temp_min: 60
@@ -12,12 +12,12 @@ min_temp: 28
 max_temp: 105
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Ornamental
-- Shade Provider
-- Windbreaker
-- Wildlife Attractor
+  - Ornamental
+  - Shade Provider
+  - Windbreaker
+  - Wildlife Attractor
 description: |-
   Royal palm (Roystonea regia) is a towering pinnate-leaf palm of the Caribbean and parts of Central America, instantly recognized by a smooth green shaft, swollen mid-trunk profile on many individuals, and a crown of long feathery fronds. Heights of 50–80 feet (15–24 m) are common in ideal sites, making it an avenue and park icon. In tropical permaculture it supplies high shade, vertical structure, and that undeniable “we are not in Kansas” silhouette.
 
@@ -32,23 +32,24 @@ purpose: |-
   Windbreaker: Avenue spacing of tall pinnate trunks shreds steady onshore flow across Keys lots and coastal drives when crowns overlap slightly aloft -- still site away from glass roofs; falling boots of dead fronds do not negotiate.
   Wildlife Attractor: Cream panicles feed bees in warm weeks; purple-black fruit feeds pigeons and parrots where allowed -- rake sidewalks after fruit fall or slip hazards replace postcard glamour fast.
 companions:
-- Coconut Palm — complementary palm architecture in multi-height tropical windbreaks
-- Banana — fast broadleaf neighbor using different canopy layers during royal palm
-  juvenile years
-- Lemongrass — perimeter herb along maintenance paths with volatile oils marking edges
+  - slug: coconut-palm
+    name: Coconut Palm
+  - slug: banana
+    name: Banana
+  - slug: lemongrass
+    name: Lemongrass
 cautions:
-- Falling fronds and fruit—site away from pedestrian skull zones and glass skylights
-- Lightning attraction on open sites—tall isolated palms are not shy about storms
+  - Falling fronds and fruit—site away from pedestrian skull zones and glass skylights
+  - Lightning attraction on open sites—tall isolated palms are not shy about storms
 pests:
-- Aphids
-- Coconut Mite
-- Palm Weevil
-- Palmetto Weevil
-- Red Palm Weevil
-- Rhinoceros Beetle
-- Scale Insects
-- Ganoderma Butt Rot
-- Heart Rot
-growth_habit: Very tall pinnate palm; smooth green crownshaft; Caribbean and tropical
-  urban icon
+  - Aphids
+  - Coconut Mite
+  - Palm Weevil
+  - Palmetto Weevil
+  - Red Palm Weevil
+  - Rhinoceros Beetle
+  - Scale Insects
+  - Ganoderma Butt Rot
+  - Heart Rot
+growth_habit: Very tall pinnate palm; smooth green crownshaft; Caribbean and tropical urban icon
 data_quality_score: 0.78

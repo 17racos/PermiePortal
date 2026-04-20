@@ -28,9 +28,12 @@ purpose: |-
   Wildlife Attractor: Dangling yellow-green spring racemes feed bumble queens; ripe fruit feeds robins and chipmunks unless netted -- leave lower canes for ground-foragers if human harvest targets stay on upper wires.
   Border Plant: Upright 1–1.5 m clumps define kitchen garden corners with thornless canes easier to prune than gooseberry -- mulch keeps roots cool; airflow pruning beats fungal panic sprays in humid summers.
 companions:
-  - Comfrey (Symphytum officinale) — chopped comfrey supports soil fertility and pairs with clonal pruning cycles.
-  - Garlic (Allium sativum) — strong scent helps confuse some pest travel paths around berry shrubs.
-  - Lettuce (Lactuca sativa) — cool-season understory fits the partially shaded root zone and shares manageable watering.
+  - slug: comfrey
+    name: Comfrey
+  - slug: garlic
+    name: Garlic
+  - slug: lettuce
+    name: Lettuce
 cautions:
   - Avoid heavy waterlogging; wet root zones stress cane health.
 pests:

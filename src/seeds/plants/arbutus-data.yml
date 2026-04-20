@@ -10,12 +10,12 @@ min_temp: 10
 max_temp: 0
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Ornamental
-  - Border Plant
+- Edible
+- Wildlife Attractor
+- Ornamental
+- Border Plant
 description: |-
   Arbutus (Arbutus unedo), often called the strawberry tree, is an evergreen small tree
   native to the Mediterranean region and nearby western parts of Eurasia. It typically forms
@@ -35,13 +35,17 @@ purpose: |-
   Ornamental: Leathery evergreen leaves and cinnamon exfoliating bark give year-round structure in Mediterranean-climate guilds -- chlorosis on limestone soils is the usual failure, not pests.
   Border Plant: Compact rounded crowns edge paths and privacy screens without casting deep shade like oaks -- pair with other ericaceous plants that share acidic, well-drained honesty.
 companions:
-  - Blueberry (Vaccinium corymbosum) — shares acidic-soil needs and boosts understory biodiversity.
-  - Heather (Calluna vulgaris) — forms an understory that reduces erosion and weed pressure under the tree.
-  - Rosemary (Salvia rosmarinus) — drought-tolerant companion that matches well-drained, sun-forward beds.
+- slug: blueberry
+  name: Blueberry
+- slug: rosemary
+  name: Rosemary
 cautions:
-  - Avoid alkaline, limestone-heavy soils; poor drainage and high pH both stress arbutus and invite decline.
+- Avoid alkaline, limestone-heavy soils; poor drainage and high pH both stress arbutus and invite decline.
 pests:
-  - Aphids
-  - Scale Insects
-  - Borers
-  - Root Rot
+- Aphids
+- Scale Insects
+- Borers
+- Root Rot
+companions_unresolved:
+- name: Heather
+  original: Heather (Calluna vulgaris) — forms an understory that reduces erosion and weed pressure under the tree.

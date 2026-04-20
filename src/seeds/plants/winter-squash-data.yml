@@ -10,11 +10,11 @@ min_temp: 32
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Ground Cover
-  - Water Retention
+- Edible
+- Ground Cover
+- Water Retention
 description: |-
   Winter squash (Cucurbita maxima) is a warm-season vine grown for its thick-rinded, storage-friendly fruits harvested at full maturity. It is native to the Americas and now thrives across temperate-to-subtropical gardens where warm seasons are long enough. Plants sprawl with large leaves and tendrils and typically reach a few meters in spread depending on spacing and training. In permaculture, winter squash matters because it produces serious off-season calories and its dense canopy shades soil, moderates evaporation, and reduces weed pressure while you wait for longer crop cycles to finish.
 
@@ -28,13 +28,17 @@ purpose: |-
   Ground Cover: 6 m vines smother beds with prickly hairs -- mulch paths or train vines to avoid grass invasion.
   Water Retention: Huge pubescent leaves shade soil and cut evaporation from fruit skins -- still need even water during fruit swell to avoid blossom-end rot.
 companions:
-  - Corn (Zea mays) — vertical structure at edges and strong canopy layering.
-  - Nasturtium (Tropaeolum majus) — beneficial insect attraction in the same warm-season patch.
-  - Marigold (Tagetes patula) — nectar and pest monitoring visibility in the bed edge zone.
+- slug: nasturtium
+  name: Nasturtium
+- slug: marigold
+  name: Marigold
 cautions:
-  - Keep fruit off wet soil to avoid rot.
+- Keep fruit off wet soil to avoid rot.
 pests:
-  - Aphids
-  - Spider Mites
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Spider Mites
+- Root Rot
+- Caterpillars
+companions_unresolved:
+- name: Corn
+  original: Corn (Zea mays) — vertical structure at edges and strong canopy layering.

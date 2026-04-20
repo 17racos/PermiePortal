@@ -35,9 +35,8 @@ purpose: |-
   Wildlife Attractor: Spikes of tiny white cups along stem tips drip nectar for stingless bees and small flies in humid shade houses -- bloom is subtle; most wildlife value is canopy cover for shade understory frogs if you let lower branches skirt soil.
   Ground Cover: Wide cordate leaves tile forest floor under bananas or cacao where sun is broken -- stems root when touching mulch, so edge the patch or accept a broadleaf thicket spreading toward paths.
 companions:
-- Corn
-- Beans
-- Squash
+- slug: fava-bean
+  name: Fava Bean
 cautions:
 - None specified
 pests:
@@ -46,3 +45,15 @@ pests:
 growth_habit: Tree
 data_quality_score: 0.8
 field_observations: No field observations yet
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index
+- name: Squash
+  original: Squash
+companions_normalized:
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

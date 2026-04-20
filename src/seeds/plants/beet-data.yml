@@ -30,9 +30,12 @@ purpose: |-
   Ground Cover: 30-45 day canopies shade drills between slower crops, cutting evaporation until canopy closes -- harvest tops for kitchen before they pull too much from sizing roots.
   Mulcher: Chopped beet tops fold carbon-light green into compost or worm bins when mixed with straw -- avoid burying huge wet piles anaerobic next to crowns still sizing underground.
 companions:
-  - Dill (Anethum graveolens) — flowers attract beneficial insects while dill’s aroma helps distract some pest traffic.
-  - Onion (Allium cepa) — strong scent “confuses the menu,” and both crop well in the same cool-season window.
-  - Lettuce (Lactuca sativa) — similar moisture needs and shallow root habits let you stage harvests together without heavy competition.
+  - slug: dill
+    name: Dill
+  - slug: onion
+    name: Onion
+  - slug: lettuce
+    name: Lettuce
 cautions:
   - Letting soil swing from wet to dry can make roots fibrous; keep moisture steady, especially as roots swell.
 pests:

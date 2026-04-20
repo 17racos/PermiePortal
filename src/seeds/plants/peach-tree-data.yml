@@ -39,9 +39,12 @@ purpose: |-
   Dynamic Accumulator: Fine feeder roots explore drip-line mulch bands returning potassium to surface litter from subsoil moisture lenses -- pair with comfrey outside the collar rot zone to lift complementary minerals.
   Border Plant: Dwarfing rootstocks line driveways and food-forest shoulders at human scale while standard seedlings mark field corners -- thornless selections still need scaffold spacing so ladders and deer fences coexist.
 companions:
-  - Comfrey — chop-and-drop leaves feed shallow feeder roots without competing for trunk space if kept outside the dripline.
-  - White Clover — living understory fixes nitrogen and cushions soil while mower strips stay away from trunks.
-  - Lavender — sun-loving shallow roots occupy different horizons while supporting generalist pollinators near bloom overlap.
+  - slug: comfrey
+    name: Comfrey
+  - slug: white-clover
+    name: White Clover
+  - slug: lavender
+    name: Lavender
 cautions:
   - Black Walnut — juglone and related allelopathy from walnut-family neighbors stress many Prunus roots; keep separation literal.
 pests:

@@ -2,8 +2,8 @@ common_name: Sweet Woodruff
 picture: sweet_woodruff.webp
 scientific_name: Galium odoratum
 aka:
-  - Wild baby’s breath
-  - Master of the wood
+- Wild baby’s breath
+- Master of the wood
 family: Rubiaceae
 zone: 4-9
 ideal_temp_min: 45
@@ -12,11 +12,11 @@ min_temp: -30
 max_temp: 90
 perennial: true
 layers:
-  - Ground Cover
+- Ground Cover
 plant_function:
-  - Edible
-  - Ground Cover
-  - Ornamental
+- Edible
+- Ground Cover
+- Ornamental
 description: |-
   Sweet woodruff (Galium odoratum) is a shade-groundcover charmer: whorls of narrow leaves, tiny white starry flowers in spring, and coumarin scent that ramps up when dried—think May wine folklore without the Pinterest cosplay. Mats stay low, 6–12 inches, spreading politely by runners in moist, woodsy soil.
 
@@ -32,15 +32,26 @@ purpose: |-
   Ground Cover: Shallow rhizomes carpet shade under elderberries so mower strips shrink to paths only.
   Ornamental: Starry white May blooms hover above glossy whorled leaves for designers who quit fighting dry shade lawn altogether.
 companions:
-  - Hosta — larger leaves contrast fine whorls; both want shade and steady moisture.
-  - Ferns — ostrich or Christmas types share understory ethics without allelopathic shade wars.
-  - Wild Ginger — low mats interdigitate in deep shade where sun lovers would simply die of honesty.
+- slug: wild-ginger
+  name: Wild Ginger
+- slug: cinnamon-fern
+  name: Cinnamon Fern
 cautions:
-  - Bermuda grass
-  - English ivy
+- Bermuda grass
+- English ivy
 pests:
-  - Slugs
-  - Snails
-  - Powdery Mildew
+- Slugs
+- Snails
+- Powdery Mildew
 growth_habit: Rhizomatous perennial herb; whorled leaves; spring star flowers
 data_quality_score: 0.75
+companions_unresolved:
+- name: Hosta
+  original: Hosta — larger leaves contrast fine whorls; both want shade and steady moisture.
+- name: Fern
+  original: Ferns — ostrich or Christmas types share understory ethics without allelopathic shade wars.
+  note: normalization_target_not_in_index
+companions_normalized:
+- original: Ferns — ostrich or Christmas types share understory ethics without allelopathic shade wars.
+  resolved_slug: cinnamon-fern
+  name: Cinnamon Fern

@@ -29,9 +29,12 @@ purpose: |-
   Wildlife Attractor: Dark fruit feeds foxes, raccoons, and songbirds; foliage hosts sphinx moths and leafhoppers that wood-warblers pick through -- leave some clusters if restoration goals beat human jelly quotas.
   Shade Provider: High-climbing deciduous canopy on arbors and cattle pens cuts summer UV while winter leaflessness returns light for solar drying racks -- retighten wire annually because grape weight grows faster than optimism.
 companions:
-  - Mustang Grape — related native grape for comparative fruiting times along the same trellis run
-  - Southern Red Cedar — rough bark posts for naturalistic fencerow vines
-  - Roughleaf Dogwood — shrubby ladder into lower canopy for fruiting wood
+  - slug: mustang-grape
+    name: Mustang Grape
+  - slug: southern-red-cedar
+    name: Southern Red Cedar
+  - slug: roughleaf-dogwood
+    name: Roughleaf Dogwood
 cautions:
   - None documented
 pests:

@@ -2,8 +2,8 @@ common_name: Purple Chokeberry
 picture: purple_chokeberry.webp
 scientific_name: Aronia prunifolia
 aka:
-- Purple-Fruited Chokeberry
-- Photinia prunifolia
+  - Purple-Fruited Chokeberry
+  - Photinia prunifolia
 family: Rosaceae
 zone: 3-8
 ideal_temp_min: 35
@@ -12,12 +12,12 @@ min_temp: -35
 max_temp: 100
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Edible
-- Wildlife Attractor
-- Border Plant
-- Ornamental
+  - Edible
+  - Wildlife Attractor
+  - Border Plant
+  - Ornamental
 description: |-
   Purple chokeberry (Aronia prunifolia) is a deciduous shrub of eastern North American wetlands and moist thickets, bearing white spring flowers, glossy summer leaves, and dark purple to black astringent berries prized for juices and jellies after processing. Plants typically reach 6–10 feet (1.8–3 m), often suckering into bird-friendly colonies. It belongs in rain-garden backs, hedgerows, and any moist border where native fruit chemistry meets human patience.
 
@@ -32,52 +32,53 @@ purpose: |-
   Border Plant: Suckering 2–3 m shrubs screen moist fencelines and rain-garden backs when contained by mowing strips -- tolerates wet feet better than beach plum on the same berm if drainage moves within days, not weeks.
   Ornamental: Glossy summer leaves turn wine-red with bead-string fruit clusters that photograph well against snow -- powdery mildew shows on humid stagnant air; open pruning helps more than panic sprays.
 companions:
-- Serviceberry — earlier fruiting small tree at the drier margin of the same guild
-- Highbush Cranberry — moist-site viburnum neighbor extending winter fruit interest
-- Marsh Blazingstar — upright forb contrast in moist sun without root competition
-  for the shrub canopy
+  - slug: serviceberry
+    name: Serviceberry
+  - slug: highbush-cranberry
+    name: Highbush Cranberry
+  - slug: dense-blazingstar
+    name: Dense Blazingstar
 cautions:
-- Astringent raw fruit — not a kid’s trail snack without processing education
-- Suckering — expands into mowed turf if edges are unguarded
+  - Astringent raw fruit — not a kid’s trail snack without processing education
+  - Suckering — expands into mowed turf if edges are unguarded
 pests:
-- Aphids
-- Apple Maggot
-- Apple Scab
-- Bagworm
-- Blackberry Psyllid
-- Cherry Fruit Fly
-- Codling Moth
-- Cyclamen Mite
-- Fall Webworm
-- Japanese Beetles
-- Lesser Peachtree Borer
-- Oriental Fruit Fly
-- Oriental Fruit Moth
-- Peach Twig Borer
-- Peachtree Borer
-- Pear Psylla
-- Plum Curculio
-- Raspberry Beetle
-- Raspberry Cane Borer
-- Rose Slug
-- Sparganothis Fruitworm
-- Spittlebugs
-- Stink Bug
-- Strawberry Root Weevil
-- Twig Girdlers
-- Vine Weevil
-- Brown Rot
-- Fire Blight
-- Gall Mite
-- Leaf Blight
-- Leaf Spot
-- Powdery Mildew
-- Rust Mite
-- Spotted Lanternfly
-- Brown Marmorated Stink Bug
-- Eastern Tent Caterpillar
-- Harlequin Ladybird
-- Tent Caterpillar
-growth_habit: Suckering deciduous shrub; white spring flowers; dark purple fruit;
-  moist thickets
+  - Aphids
+  - Apple Maggot
+  - Apple Scab
+  - Bagworm
+  - Blackberry Psyllid
+  - Cherry Fruit Fly
+  - Codling Moth
+  - Cyclamen Mite
+  - Fall Webworm
+  - Japanese Beetles
+  - Lesser Peachtree Borer
+  - Oriental Fruit Fly
+  - Oriental Fruit Moth
+  - Peach Twig Borer
+  - Peachtree Borer
+  - Pear Psylla
+  - Plum Curculio
+  - Raspberry Beetle
+  - Raspberry Cane Borer
+  - Rose Slug
+  - Sparganothis Fruitworm
+  - Spittlebugs
+  - Stink Bug
+  - Strawberry Root Weevil
+  - Twig Girdlers
+  - Vine Weevil
+  - Brown Rot
+  - Fire Blight
+  - Gall Mite
+  - Leaf Blight
+  - Leaf Spot
+  - Powdery Mildew
+  - Rust Mite
+  - Spotted Lanternfly
+  - Brown Marmorated Stink Bug
+  - Eastern Tent Caterpillar
+  - Harlequin Ladybird
+  - Tent Caterpillar
+growth_habit: Suckering deciduous shrub; white spring flowers; dark purple fruit; moist thickets
 data_quality_score: 0.8

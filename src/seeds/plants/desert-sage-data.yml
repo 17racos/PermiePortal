@@ -2,8 +2,8 @@ common_name: Desert Sage
 picture: desert_sage.webp
 scientific_name: Salvia dorrii
 aka:
-  - Purple sage
-  - Dorr's sage
+- Purple sage
+- Dorr's sage
 family: Lamiaceae
 zone: 5-9
 ideal_temp_min: 55
@@ -12,12 +12,12 @@ min_temp: -15
 max_temp: 105
 perennial: true
 layers:
-  - Shrub
+- Shrub
 plant_function:
-  - Pollinator
-  - Wildlife Attractor
-  - Border Plant
-  - Medicinal
+- Pollinator
+- Wildlife Attractor
+- Border Plant
+- Medicinal
 description: |-
   Desert sage is a gray, aromatic shrub with shocking magenta flowers—desert glam without the glitter glue. It expects Western drainage honesty; Florida humidity is a stress test unless you cheat with grit, slope, and spacing. subtropical and tropical Americas growers: think rock garden royalty on a raised berm, not bog princess.
 
@@ -32,13 +32,17 @@ purpose: |-
   Border Plant: Aromatic gray foliage and shocking bloom read as a structured edge along gravel paths and berms.
   Medicinal: Traditional smudge and tea uses lean on volatile oils -- internal use needs species-correct ID and modern safety review.
 companions:
-  - Penstemon
-  - Agave
-  - Yucca
+- slug: agave
+  name: Agave
 cautions:
-  - Humid shade and heavy mulch on crowns
-  - Lawn irrigation overspray every morning
+- Humid shade and heavy mulch on crowns
+- Lawn irrigation overspray every morning
 pests:
-  - Aphids
-  - Spider Mites
-  - Root Rot
+- Aphids
+- Spider Mites
+- Root Rot
+companions_unresolved:
+- name: Penstemon
+  original: Penstemon
+- name: Yucca
+  original: Yucca

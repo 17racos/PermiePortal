@@ -2,8 +2,8 @@ common_name: American Hawthorn
 picture: american_hawthorn.webp
 scientific_name: Crataegus mollis
 aka:
-- Downy Hawthorn
-- Red Haw
+  - Downy Hawthorn
+  - Red Haw
 family: Rosaceae
 zone: 4-8
 ideal_temp_min: 55
@@ -12,14 +12,14 @@ min_temp: -30
 max_temp: 100
 perennial: true
 layers:
-- Tree
-- Shrub
+  - Tree
+  - Shrub
 plant_function:
-- Edible
-- Wildlife Attractor
-- Windbreaker
-- Border Plant
-- Ornamental
+  - Edible
+  - Wildlife Attractor
+  - Windbreaker
+  - Border Plant
+  - Ornamental
 description: |-
   American hawthorn here refers to downy hawthorn (Crataegus mollis), a native North American small tree of woodland edges and pastures, bearing showy white spring blossoms, red fall fruit, and thorny architecture that laughs at casual browsing. It typically grows 20–30 feet (6–9 m) with a rounded crown and rough, scaly bark; fruit is mealy but usable for jellies where traditions still remember how. In permaculture it is a hardy windbreak element, wildlife pantry, and informal hedge species for temperate hedgerows.
 
@@ -35,53 +35,53 @@ purpose: |-
   Border Plant: Multi-stem thickets mark property lines and livestock lanes with spines that deter casual shortcuts -- mow suckers on the garden side if colonial spread exceeds the chaos budget.
   Ornamental: Scaly gray bark, white corymbs, and persistent red fruit give three-season structure in hedgerows -- fire blight still visits rosaceous blooms, so open canopies beat tight mushroom cuts.
 companions:
-- Black Elderberry — different fruiting time and height stack resources for pollinators
-  and birds
-- American Plum — shares edge ecology and extends fruit succession without identical
-  pest timing
-- Wild Bergamot — understory forbs increase beneficial insect traffic around hawthorn
-  bloom
+  - slug: elderberry
+    name: Elderberry
+  - slug: american-plum
+    name: American Plum
+  - slug: wild-bergamot
+    name: Wild Bergamot
 cautions:
-- Fire Blight — warm wet springs can move bacterial blight through rosaceous blossoms
-- Black Walnut — juglone-tolerant but paired sensitive understory may still sulk
+  - Fire Blight — warm wet springs can move bacterial blight through rosaceous blossoms
+  - Black Walnut — juglone-tolerant but paired sensitive understory may still sulk
 pests:
-- Apple Maggot
-- Apple Scab
-- Bagworm
-- Blackberry Psyllid
-- Borers
-- Cherry Fruit Fly
-- Codling Moth
-- Cyclamen Mite
-- Fall Webworm
-- Japanese Beetles
-- Lesser Peachtree Borer
-- Oriental Fruit Fly
-- Oriental Fruit Moth
-- Peach Twig Borer
-- Peachtree Borer
-- Pear Psylla
-- Plum Curculio
-- Raspberry Beetle
-- Raspberry Cane Borer
-- Rose Slug
-- Scale Insects
-- Sparganothis Fruitworm
-- Spittlebugs
-- Stink Bug
-- Strawberry Root Weevil
-- Twig Girdlers
-- Vine Weevil
-- Brown Rot
-- Fire Blight
-- Gall Mite
-- Leaf Blight
-- Leaf Spot
-- Rust Mite
-- Spotted Lanternfly
-- Brown Marmorated Stink Bug
-- Eastern Tent Caterpillar
-- Harlequin Ladybird
-- Tent Caterpillar
+  - Apple Maggot
+  - Apple Scab
+  - Bagworm
+  - Blackberry Psyllid
+  - Borers
+  - Cherry Fruit Fly
+  - Codling Moth
+  - Cyclamen Mite
+  - Fall Webworm
+  - Japanese Beetles
+  - Lesser Peachtree Borer
+  - Oriental Fruit Fly
+  - Oriental Fruit Moth
+  - Peach Twig Borer
+  - Peachtree Borer
+  - Pear Psylla
+  - Plum Curculio
+  - Raspberry Beetle
+  - Raspberry Cane Borer
+  - Rose Slug
+  - Scale Insects
+  - Sparganothis Fruitworm
+  - Spittlebugs
+  - Stink Bug
+  - Strawberry Root Weevil
+  - Twig Girdlers
+  - Vine Weevil
+  - Brown Rot
+  - Fire Blight
+  - Gall Mite
+  - Leaf Blight
+  - Leaf Spot
+  - Rust Mite
+  - Spotted Lanternfly
+  - Brown Marmorated Stink Bug
+  - Eastern Tent Caterpillar
+  - Harlequin Ladybird
+  - Tent Caterpillar
 growth_habit: Thorny deciduous small tree; white clusters of flowers; red haws
 data_quality_score: 0.78

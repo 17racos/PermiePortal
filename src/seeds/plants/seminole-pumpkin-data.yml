@@ -2,8 +2,8 @@ common_name: Seminole Pumpkin
 picture: seminole_pumpkin.webp
 scientific_name: Cucurbita moschata
 aka:
-  - Florida Seminole Pumpkin
-  - Calabaza
+- Florida Seminole Pumpkin
+- Calabaza
 family: Cucurbitaceae
 zone: 8-11
 ideal_temp_min: 70
@@ -12,11 +12,11 @@ min_temp: 40
 max_temp: 100
 perennial: true
 layers:
-  - Vine
+- Vine
 plant_function:
-  - Edible
-  - Ground Cover
-  - Animal Fodder
+- Edible
+- Ground Cover
+- Animal Fodder
 description: |-
   Seminole pumpkin is a heat-loving Cucurbita moschata landrace tied to Florida Indigenous agriculture—tough vines, hard-shelled fruit, and a reputation for shrugging off humidity that makes northern pumpkins sulk. Fruit is typically round to squat, tan or green-striped, with sweet orange flesh used like winter squash or calabaza. In subtropical and tropical Americas it behaves like a very long-season annual unless winter is mild; farther south old vines can persist and resprout, which is why it is often called perennial pumpkin country lore.
 
@@ -30,34 +30,39 @@ purpose: |-
   Ground Cover: Rampant vines tile orchard floors and arbor tops so weeds lose light beneath humid subtropical polycultures.
   Animal Fodder: Older leaves and blemished squash roll into pig and poultry paddocks where landowners already track nightshade alkaloid limits.
 companions:
-  - Corn
-  - Bean
-  - Nasturtium
-  - Marigold
+- slug: nasturtium
+  name: Nasturtium
+- slug: marigold
+  name: Marigold
 cautions:
-  - Potato
+- Potato
 pests:
-  - Aphids
-  - Banded Cucumber Beetle
-  - Beet Armyworm
-  - Broad Mite
-  - Greenhouse Whitefly
-  - Melonworm
-  - Pickleworm
-  - Reniform Nematode
-  - Shore Fly
-  - Silverleaf Whitefly
-  - Southern Armyworm
-  - Southern Green Stink Bug
-  - Squash Bug
-  - Squash Vine Borer
-  - Striped Cucumber Beetle
-  - Fusarium Wilt
-  - Leaf Spot
-  - Papaya Ringspot Virus
-  - Powdery Mildew
-  - Pythium Root Rot
-  - Spotted Cucumber Beetle
-  - Bacterial Wilt
+- Aphids
+- Banded Cucumber Beetle
+- Beet Armyworm
+- Broad Mite
+- Greenhouse Whitefly
+- Melonworm
+- Pickleworm
+- Reniform Nematode
+- Shore Fly
+- Silverleaf Whitefly
+- Southern Armyworm
+- Southern Green Stink Bug
+- Squash Bug
+- Squash Vine Borer
+- Striped Cucumber Beetle
+- Fusarium Wilt
+- Leaf Spot
+- Papaya Ringspot Virus
+- Powdery Mildew
+- Pythium Root Rot
+- Spotted Cucumber Beetle
+- Bacterial Wilt
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Bean
+  original: Bean

@@ -32,10 +32,12 @@ purpose: |-
   Pollinator: Morning-opening yellow flowers supply pollen and nectar to squash bees, honeybees, and bumble workers during fruit set -- cluster several vines or pair with early sunflowers so pollinators find volume worth revisiting.
   Ground Cover: Large leaves on trailing vines shade row middles and cut soil evaporation when fruit are trellised or slung -- keep developing melons off damp mulch at night to reduce belly-rot and anthracnose invitation.
 companions:
-- Corn
-- Beans
-- Nasturtium
-- Radish
+- slug: nasturtium
+  name: Nasturtium
+- slug: radish
+  name: Radish
+- slug: fava-bean
+  name: Fava Bean
 cautions:
 - Wet foliage all night
 - Shade
@@ -56,3 +58,13 @@ pests:
 - Papaya Ringspot Virus
 - Pythium Root Rot
 - Spotted Cucumber Beetle
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index
+companions_normalized:
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

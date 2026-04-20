@@ -34,10 +34,7 @@ purpose: |-
   Erosion Control: Succulent mats knit foredune sand and pond spoil berms against surge overwash that exposes raw substrate.
   Ground Cover: Red-stemmed carpets fill salty swales and mangrove skirts where inland sedums rot from humidity.
   Wildlife Attractor: Dense foliage shades amphipods and shoreline flies that shorebirds probe at falling tides.
-companions:
-- Mangrove associates
-- Salt-tolerant grasses
-- Beach sunflower
+companions: []
 cautions:
 - Deep forest shade
 - Pure freshwater bog without salt—competes poorly with aggressive aquatics
@@ -46,3 +43,14 @@ pests:
 - caterpillars
 growth_habit: Prostrate succulent perennial herb
 data_quality_score: 0.74
+companions_unresolved:
+- name: Beach Sunflower
+  original: Beach sunflower
+  note: normalization_target_not_in_index
+companion_categories:
+- name: Mangrove associates
+  original: Mangrove associates
+  type: system
+- name: Salt-tolerant grasses
+  original: Salt-tolerant grasses
+  type: system

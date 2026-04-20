@@ -32,9 +32,12 @@ purpose: |-
   Wildlife Attractor: Insect crowds mob inflorescences in chill-hour climates -- birds crack capsules when seeds mature.
   Windbreaker: Rounded 8 m crown softens north-wind across orchard rows -- needs cold winters to flower; low-chill sites get leaves without nuts.
 companions:
-  - Goumi Berry
-  - Sea Buckthorn
-  - Comfrey
+  - slug: goumi
+    name: Goumi
+  - slug: sea-buckthorn
+    name: Sea Buckthorn
+  - slug: comfrey
+    name: Comfrey
 cautions:
   - None documented
 pests:

@@ -36,11 +36,10 @@ purpose: |-
   Ornamental: Morning pink-purple trumpets open fresh on goat-hoof leaves for photos before noon fade -- not the fence-climbing sweet potato mistake if you sourced true coastal ecotype.
   Wildlife Attractor: Nectar feeds hawkmoths and native bees while mats shelter beach wolf spiders and hatchling routes where foot traffic is actually controlled.
 companions:
-- Sea Oats — classic pairing on dunes; morning glory lower, grasses higher on the
-  slope
-- Bay Bean — legume neighbor that adds nitrogen to shared sandy substrate
-- Cocoplum — shrubby island between beach vine and inland plantings in subtropical
-  designs
+- slug: bay-bean
+  name: Bay Bean
+- slug: coco-plum
+  name: Coco Plum
 cautions:
 - Frost — dies back to roots or kills outright where freezes are hard or prolonged
 - Smothering adjacent delicate natives — steer runners with sand trenching or trim
@@ -48,6 +47,12 @@ pests:
 - Leafhoppers
 - Sweet Potato Weevil
 - Caterpillars
-growth_habit: Prostrate perennial vine; bilobed leaves; large pink-purple funnelform
-  flowers
+growth_habit: Prostrate perennial vine; bilobed leaves; large pink-purple funnelform flowers
 data_quality_score: 0.85
+companions_normalized:
+- original: Cocoplum — shrubby island between beach vine and inland plantings in subtropical designs
+  resolved_slug: coco-plum
+  name: Coco Plum
+companions_unresolved:
+- name: Sea Oats
+  original: Sea Oats — classic pairing on dunes; morning glory lower, grasses higher on the slope

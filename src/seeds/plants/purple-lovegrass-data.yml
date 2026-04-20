@@ -2,7 +2,7 @@ common_name: Purple Lovegrass
 picture: purple_lovegrass.webp
 scientific_name: Eragrostis spectabilis
 aka:
-- Tumble Grass
+  - Tumble Grass
 family: Poaceae
 zone: 5-10
 ideal_temp_min: 40
@@ -11,12 +11,12 @@ min_temp: -25
 max_temp: 110
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Ornamental
-- Erosion Control
-- Ground Cover
-- Wildlife Attractor
+  - Ornamental
+  - Erosion Control
+  - Ground Cover
+  - Wildlife Attractor
 description: |-
   Purple lovegrass (Eragrostis spectabilis) is a short-lived to perennial bunchgrass of eastern North American dry roadsides, glades, and prairie edges, famous for airy panicles that blush reddish purple in late summer and catch backlight like smoke. Clumps reach 1–2 feet (30–60 cm), seeding gently into gravel and sunny gaps. It is a staple for green roofs, hellstrips, and meadow matrices that need fine texture without bamboo ambition.
 
@@ -31,29 +31,28 @@ purpose: |-
   Ground Cover: Fine-textured tufts fill gaps between coneflowers and bergamot without stolon takeover -- self-sows into gravel; delightful or deplorable depending on driveway diplomacy.
   Wildlife Attractor: Tiny seeds feed juncos and sparrows; basal clumps shelter ground beetles -- leave winter skeletons standing until spring warm if insect overwintering matters more than tidy curb appeal.
 companions:
-- Little Bluestem — taller warm-season grass sharing drought ethics with contrasting
-  inflorescence scale
-- Prairie Coneflower — complementary forbs adding bold flower forms above fine grass
-  texture
-- Wild Bergamot — aromatic forb neighbor with mid-summer bloom overlapping grass color
-  peaks
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: prairie-coneflower
+    name: Prairie Coneflower
+  - slug: wild-bergamot
+    name: Wild Bergamot
 cautions:
-- Self-sowing in gravel — delightful or deplorable depending on driveway politics
-- Short-lived in rich irrigated beds—lean soil extends lifespan and color honesty
+  - Self-sowing in gravel — delightful or deplorable depending on driveway politics
+  - Short-lived in rich irrigated beds—lean soil extends lifespan and color honesty
 pests:
-- Aphids
-- Armyworms
-- Bamboo Mite
-- Corn Earworm
-- Fall Armyworm
-- Japanese Beetles
-- Lubber Grasshopper
-- Rice Blast Fungus
-- Rice Water Weevil
-- Spider Mites
-- Spittlebugs
-- Wireworm
-- Leaf Blight
-growth_habit: Bunching warm-season grass; purple-red airy panicles; dry sunny sites
-  and roadsides
+  - Aphids
+  - Armyworms
+  - Bamboo Mite
+  - Corn Earworm
+  - Fall Armyworm
+  - Japanese Beetles
+  - Lubber Grasshopper
+  - Rice Blast Fungus
+  - Rice Water Weevil
+  - Spider Mites
+  - Spittlebugs
+  - Wireworm
+  - Leaf Blight
+growth_habit: Bunching warm-season grass; purple-red airy panicles; dry sunny sites and roadsides
 data_quality_score: 0.81

@@ -30,9 +30,12 @@ purpose: |-
   Windbreaker: Knee-to-head-height evergreen canopy shreds salt-laden sea breezes and upland gusts along coastal strands and ridge lines without casting deep permanent shade like tall live oaks -- tight twigging filters wind instead of flexing like sailcloth.
   Border Plant: Clipped or natural low mounding hedge defines scrub-yard edges, tortoise habitat buffers, and parking islands on irrigation-free sand -- small myrtle-like leaves keep formal lines legible even in drought years.
 companions:
-  - Sand Live Oak — taller evergreen oak extends vertical structure in the same sandy niche
-  - Scrub Hickory — adds mast diversity and contrasting bark texture in scrub plantings
-  - Spanish Stopper — small-tree layer under taller oaks for layered evergreen screening
+  - slug: sand-live-oak
+    name: Sand Live Oak
+  - slug: scrub-hickory
+    name: Scrub Hickory
+  - slug: white-stopper
+    name: White Stopper
 cautions:
   - None documented
 pests:

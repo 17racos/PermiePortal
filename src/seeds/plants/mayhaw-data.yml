@@ -2,8 +2,8 @@ common_name: Mayhaw
 picture: mayhaw.webp
 scientific_name: Crataegus opaca
 aka:
-  - Riverflat hawthorn
-  - May haw
+- Riverflat hawthorn
+- May haw
 family: Rosaceae
 zone: 7-10
 ideal_temp_min: 40
@@ -12,12 +12,12 @@ min_temp: -5
 max_temp: 100
 perennial: true
 layers:
-  - Tree
-  - Shrub
+- Tree
+- Shrub
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Ornamental
+- Edible
+- Wildlife Attractor
+- Ornamental
 description: |-
   Mayhaw is the southern hawthorn that parties in wet woods and coughs up jelly so tart it makes grocery jam feel like lying. Thorns, white spring flowers, red fall fruit—classic permaculture “work for your sugar.”
 
@@ -33,49 +33,53 @@ purpose: |-
   Wildlife Attractor: White May clusters feed pollinators while thorny scaffolding shelters nesting birds -- fruit feeds wildlife whether humans win the jelly race or not.
   Ornamental: Glossy leaves, spring blossom, and red haws give four-season structure along swamp margins -- site where wet feet are a feature, not a drainage failure.
 companions:
-  - Elderberry
-  - Buttonbush
-  - Native iris
+- slug: elderberry
+  name: Elderberry
+- slug: buttonbush
+  name: Buttonbush
 cautions:
-  - Bone-dry berms
-  - Fire blight-prone sites without cultivar selection (risk varies)
+- Bone-dry berms
+- Fire blight-prone sites without cultivar selection (risk varies)
 pests:
-  - Apple Maggot
-  - Apple Scab
-  - Bagworm
-  - Blackberry Psyllid
-  - Cherry Fruit Fly
-  - Codling Moth
-  - Cyclamen Mite
-  - Fall Webworm
-  - Lesser Peachtree Borer
-  - Oriental Fruit Fly
-  - Oriental Fruit Moth
-  - Peach Twig Borer
-  - Peachtree Borer
-  - Pear Psylla
-  - Plum Curculio
-  - Raspberry Beetle
-  - Raspberry Cane Borer
-  - Rose Slug
-  - Sparganothis Fruitworm
-  - Spittlebugs
-  - Stink Bug
-  - Strawberry Root Weevil
-  - Twig Girdlers
-  - Vine Weevil
-  - aphids
-  - scale insects
-  - Brown Rot
-  - Gall Mite
-  - Leaf Blight
-  - Leaf Spot
-  - Rust Mite
-  - Spotted Lanternfly
-  - fire blight
-  - Brown Marmorated Stink Bug
-  - Eastern Tent Caterpillar
-  - Harlequin Ladybird
-  - Tent Caterpillar
+- Apple Maggot
+- Apple Scab
+- Bagworm
+- Blackberry Psyllid
+- Cherry Fruit Fly
+- Codling Moth
+- Cyclamen Mite
+- Fall Webworm
+- Lesser Peachtree Borer
+- Oriental Fruit Fly
+- Oriental Fruit Moth
+- Peach Twig Borer
+- Peachtree Borer
+- Pear Psylla
+- Plum Curculio
+- Raspberry Beetle
+- Raspberry Cane Borer
+- Rose Slug
+- Sparganothis Fruitworm
+- Spittlebugs
+- Stink Bug
+- Strawberry Root Weevil
+- Twig Girdlers
+- Vine Weevil
+- aphids
+- scale insects
+- Brown Rot
+- Gall Mite
+- Leaf Blight
+- Leaf Spot
+- Rust Mite
+- Spotted Lanternfly
+- fire blight
+- Brown Marmorated Stink Bug
+- Eastern Tent Caterpillar
+- Harlequin Ladybird
+- Tent Caterpillar
 growth_habit: Small tree to large shrub; thorny; often multi-trunked in wet sites
 data_quality_score: 0.75
+companions_unresolved:
+- name: Native iris
+  original: Native iris

@@ -10,12 +10,12 @@ min_temp: -20
 max_temp: 0
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Ornamental
-  - Shade Provider
+- Edible
+- Wildlife Attractor
+- Ornamental
+- Shade Provider
 description: |-
   Cornelian cherry (Cornus mas) is a deciduous shrub or small tree native to Europe and western Asia, famous for its early spring blooms. It typically grows about 3–8 m (10–26 ft) tall and forms dense, branching growth with leathery leaves and clusters of small yellow flowers that arrive before many other garden plants wake up. In permaculture, that early nectar is free pollinator fuel, while the red, tangy drupes become a jam-and-snack harvest that extends the food calendar.
 
@@ -30,14 +30,18 @@ purpose: |-
   Ornamental: Flaking bark, early gold flowers, and dangling red fruit give four-season structure to small urban trees and large shrubs.
   Shade Provider: Rounded crown throws dappled shade over early bulbs, comfrey, and woodland herbs at the dripline without dense darkness.
 companions:
-  - Comfrey (Symphytum officinale) — deep roots and chop-and-drop mulch pair with cornelian cherry’s soil-building role.
-  - Hazel (Corylus avellana) — similar climate tolerance and understory spacing supports layered woodland-style plantings.
-  - Garlic (Allium sativum) — helps manage pest pressure in nearby beds and keeps the ground productive between tree roots.
+- slug: comfrey
+  name: Comfrey
+- slug: garlic
+  name: Garlic
 cautions:
-  - Avoid planting where drainage is poor; cornelian cherry dislikes long waterlogged seasons.
+- Avoid planting where drainage is poor; cornelian cherry dislikes long waterlogged seasons.
 pests:
-  - Aphids
-  - Borers
-  - Scale Insects
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Borers
+- Scale Insects
+- Root Rot
+- Caterpillars
+companions_unresolved:
+- name: Hazel
+  original: Hazel (Corylus avellana) — similar climate tolerance and understory spacing supports layered woodland-style plantings.

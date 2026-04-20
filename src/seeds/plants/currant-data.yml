@@ -28,9 +28,12 @@ purpose: |-
   Medicinal: Dark pigments and polyphenols in ripe berries show up in traditional cordials -- keep sugar loads honest if you cite health while preserving.
   Wildlife Attractor: Early racemes feed bees before many shrubs bloom -- ripe strings feed finches and waxwings if you share the harvest.
 companions:
-  - Comfrey (Symphytum officinale) — chop-and-drop minerals and carbon help the shrub maintain steady growth during fruit sizing.
-  - Garlic (Allium sativum) — strong scent helps break up pest navigation in mixed beds around fruiting shrubs.
-  - Lettuce (Lactuca sativa) — shallow-rooted understory uses the cool season under partial shade without competing with cane depth.
+  - slug: comfrey
+    name: Comfrey
+  - slug: garlic
+    name: Garlic
+  - slug: lettuce
+    name: Lettuce
 cautions:
   - Plant away from heavy, waterlogged soil; persistent wetness stresses cane health.
 pests:

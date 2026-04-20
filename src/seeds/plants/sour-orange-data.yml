@@ -2,8 +2,8 @@ common_name: Sour Orange
 picture: sour_orange.webp
 scientific_name: Citrus × aurantium
 aka:
-  - Seville orange
-  - Bitter orange
+- Seville orange
+- Bitter orange
 family: Rutaceae
 zone: 9-11
 ideal_temp_min: 55
@@ -12,13 +12,13 @@ min_temp: 22
 max_temp: 105
 perennial: true
 layers:
-  - Tree
-  - Shrub
+- Tree
+- Shrub
 plant_function:
-  - Edible
-  - Medicinal
-  - Wildlife Attractor
-  - Windbreaker
+- Edible
+- Medicinal
+- Wildlife Attractor
+- Windbreaker
 description: |-
   Sour orange is Citrus × aurantium wearing its working-class name tag — thorny, aromatic, and historically the rootstock and marmalade backbone of the humid South. Naturalized in places that now side-eye it. subtropical and tropical Americas: marginal in 9a without protection; citrus greening and psyllid politics are the real HOA.
 
@@ -33,28 +33,32 @@ purpose: |-
   Wildlife Attractor: Strong-scented white blooms overload honeybee maps in February groves while fallen fruit ferments for possums if you slack on pickup rounds.
   Windbreaker: Thorn-armored hedges deflect sea breezes across citrus understory guilds once you suit up for pruning sessions.
 companions:
-  - Comfrey
-  - Clover
-  - Nasturtium
+- slug: comfrey
+  name: Comfrey
+- slug: nasturtium
+  name: Nasturtium
 cautions:
-  - Planting as naive "easy citrus" without regional disease context
-  - Heavy wet feet in winter cold
+- Planting as naive "easy citrus" without regional disease context
+- Heavy wet feet in winter cold
 pests:
-  - Asian Citrus Psyllid
-  - Broad Mite
-  - Brown Citrus Aphid
-  - Citrus Greening
-  - Citrus Leafminer
-  - Citrus Mealybug
-  - Citrus Red Mite
-  - Citrus Root Weevil
-  - Citrus Whitefly
-  - Diaprepes Root Weevil
-  - Leaf Curl
-  - Oriental Fruit Fly
-  - Texas Citrus Mite
-  - Citrus Canker
-  - Citrus Rust Mite
-  - Rust Mite
-  - Sooty Mold
-  - Swallowtail Caterpillar
+- Asian Citrus Psyllid
+- Broad Mite
+- Brown Citrus Aphid
+- Citrus Greening
+- Citrus Leafminer
+- Citrus Mealybug
+- Citrus Red Mite
+- Citrus Root Weevil
+- Citrus Whitefly
+- Diaprepes Root Weevil
+- Leaf Curl
+- Oriental Fruit Fly
+- Texas Citrus Mite
+- Citrus Canker
+- Citrus Rust Mite
+- Rust Mite
+- Sooty Mold
+- Swallowtail Caterpillar
+companions_unresolved:
+- name: Clover
+  original: Clover

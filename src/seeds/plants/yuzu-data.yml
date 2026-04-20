@@ -2,7 +2,7 @@ common_name: Yuzu
 picture: yuzu.webp
 scientific_name: Citrus junos
 aka:
-  - Japanese citron
+- Japanese citron
 family: Rutaceae
 zone: 8-10
 ideal_temp_min: 45
@@ -11,12 +11,12 @@ min_temp: 10
 max_temp: 100
 perennial: true
 layers:
-  - Tree
-  - Shrub
+- Tree
+- Shrub
 plant_function:
-  - Edible
-  - Medicinal
-  - Ornamental
+- Edible
+- Medicinal
+- Ornamental
 description: |-
   Yuzu is the cold-hardier citrus eccentric — knobby fruit, fierce aromatics, and a fan club among chefs who like marmalade with philosophy. Not sweet juice box citrus; peel and juice are the point. subtropical and tropical Americas still gets freeze quizzes; site on south slopes, mulch roots, and accept occasional wood dieback without identity crisis.
 
@@ -30,27 +30,31 @@ purpose: |-
   Medicinal: Hot yuzu tea shows up in East Asian cold-season comfort -- vitamin C is real; drug interactions follow standard citrus rules.
   Ornamental: Thorny twigs hold fragrant white flowers and odd yellow fruit -- conversation piece on patios where freezes stay mild.
 companions:
-  - Comfrey
-  - Clover
-  - Nasturtium
+- slug: comfrey
+  name: Comfrey
+- slug: nasturtium
+  name: Nasturtium
 cautions:
-  - Ignoring HLB / psyllid context in commercial citrus zones
-  - Low frost pockets with poor air drainage
+- Ignoring HLB / psyllid context in commercial citrus zones
+- Low frost pockets with poor air drainage
 pests:
-  - Asian Citrus Psyllid
-  - Broad Mite
-  - Brown Citrus Aphid
-  - Citrus Greening
-  - Citrus Leafminer
-  - Citrus Mealybug
-  - Citrus Red Mite
-  - Citrus Root Weevil
-  - Citrus Whitefly
-  - Leaf Curl
-  - Oriental Fruit Fly
-  - Scale Insects
-  - Texas Citrus Mite
-  - Citrus Canker
-  - Citrus Rust Mite
-  - Rust Mite
-  - Swallowtail Caterpillar
+- Asian Citrus Psyllid
+- Broad Mite
+- Brown Citrus Aphid
+- Citrus Greening
+- Citrus Leafminer
+- Citrus Mealybug
+- Citrus Red Mite
+- Citrus Root Weevil
+- Citrus Whitefly
+- Leaf Curl
+- Oriental Fruit Fly
+- Scale Insects
+- Texas Citrus Mite
+- Citrus Canker
+- Citrus Rust Mite
+- Rust Mite
+- Swallowtail Caterpillar
+companions_unresolved:
+- name: Clover
+  original: Clover

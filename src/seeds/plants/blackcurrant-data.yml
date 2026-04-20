@@ -30,9 +30,12 @@ purpose: |-
   Wildlife Attractor: Early yellow-green racemes pull bees in cool spring; ripe strings feed birds fast unless you net the ends you mean to keep.
   Border Plant: Woody canes sprout from the base so you can renew a low screen by removing old wood without replanting the whole line.
 companions:
-  - Comfrey (Symphytum officinale) — chop-and-drop adds minerals and carbon under the shrub’s fruiting season.
-  - Garlic (Allium sativum) — helps confuse pests by scent and fits well in cool-season rotation patterns.
-  - Nasturtium (Tropaeolum majus) — trailing flowers attract beneficial insects and occupy space without competing heavily for cane height.
+  - slug: comfrey
+    name: Comfrey
+  - slug: garlic
+    name: Garlic
+  - slug: nasturtium
+    name: Nasturtium
 cautions:
   - Avoid planting near white pine (Pinus strobus) due to blister rust host concerns.
 pests:

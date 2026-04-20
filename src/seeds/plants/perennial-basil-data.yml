@@ -31,9 +31,12 @@ purpose: |-
   Medicinal: African basil oils show antimicrobial literature in lab assays at concentrations kitchens never hit -- treat culinary use as flavor medicine, not pharmacy substitution, especially around anticoagulant-sensitive households.
   Wildlife Attractor: Tall lavender flower spikes feed honeybees and carpenter bees when you delay shearing -- let one hedge row bolt while you keep kitchen rows pinched for leaf oils.
 companions:
-  - Tomatoes
-  - Peppers
-  - Roselle
+  - slug: tomato
+    name: Tomato
+  - slug: bell-pepper
+    name: Bell Pepper
+  - slug: roselle
+    name: Roselle
 cautions:
   - Hard freeze on unmulched container plants
   - Confusing with true annual basils for timing and pruning
@@ -41,3 +44,10 @@ pests:
   - Aphids
   - Whiteflies
   - Japanese Beetles
+companions_normalized:
+  - original: Tomatoes
+    resolved_slug: tomato
+    name: Tomato
+  - original: Peppers
+    resolved_slug: bell-pepper
+    name: Bell Pepper

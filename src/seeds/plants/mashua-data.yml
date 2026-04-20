@@ -2,11 +2,11 @@ common_name: Mashua
 picture: mashua.webp
 scientific_name: Tropaeolum tuberosum
 aka:
-  - Añu
-  - Cubio
-  - Tuberous Nasturtium
-  - Anu
-  - Isaño
+- Añu
+- Cubio
+- Tuberous Nasturtium
+- Anu
+- Isaño
 family: Tropaeolaceae
 zone: 8-11
 ideal_temp_min: 50
@@ -15,13 +15,13 @@ min_temp: 25
 max_temp: 90
 perennial: true
 layers:
-  - Vine
-  - Root
+- Vine
+- Root
 plant_function:
-  - Edible
-  - Ground Cover
-  - Ornamental
-  - Wildlife Attractor
+- Edible
+- Ground Cover
+- Ornamental
+- Wildlife Attractor
 description: |-
   Mashua is an Andean nasturtium relative that climbs like it owes money and forms underground tubers that look like alien fingerling potatoes. Leaves and flowers are edible in small amounts like garden nasturtiums; tubers have a sharp, peppery kick that mellows with cooking. In subtropical and tropical Americas treat it as a cool-season crop: grow through fall/winter/spring, lift tubers before deep heat or rot risk.
 
@@ -38,14 +38,25 @@ purpose: |-
   Ornamental: Scarlet-orange nasturtium blooms climb cornstalks in classic Andean stacks -- looks decorative while quietly banking calories underground.
   Wildlife Attractor: Long-spurred flowers feed bumblebees climbing the vine -- harvest tubers before rodents discover the cache at soil line.
 companions:
-  - Corn
-  - Beans
-  - Yacon
+- slug: yacon
+  name: Yacon
+- slug: fava-bean
+  name: Fava Bean
 cautions:
-  - Summer swamp beds
+- Summer swamp beds
 pests:
-  - Aphids
-  - Slugs
-  - Caterpillars
+- Aphids
+- Slugs
+- Caterpillars
 growth_habit: Herbaceous vine
 data_quality_score: 0.7
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index
+companions_normalized:
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

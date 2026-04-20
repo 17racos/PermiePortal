@@ -35,9 +35,12 @@ purpose: |-
   Pollinator: Small blooms offer nectar to halictid bees and minute syrphids -- plant drifts because micro-pollinators cruise for patch volume.
   Border Plant: Edges paths and pond cobbles without mowing -- shear after seed set if volunteers crack orderly joints.
 companions:
-  - Creeping Phlox — different texture and spring color stack; phlox handles slightly drier toes while mazus takes the shadier, wetter interstices.
-  - Carpet Bugle — complementary mat with contrasting foliage color; together they confuse the eye of weed seedlings looking for open real estate.
-  - Maidenhair Fern — fine fronds cast dappled shade and raise humidity at ground level, which keeps mazus from auditioning as hay.
+  - slug: creeping-phlox
+    name: Creeping Phlox
+  - slug: carpet-bugle
+    name: Carpet Bugle
+  - slug: maidenhair-fern
+    name: Maidenhair Fern
 cautions:
   - None documented
 pests:

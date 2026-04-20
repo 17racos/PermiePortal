@@ -2,8 +2,8 @@ common_name: Sunflower
 picture: sunflower.webp
 scientific_name: Helianthus annuus
 aka:
-  - Common Sunflower
-  - Giant Sunflower
+- Common Sunflower
+- Giant Sunflower
 family: Asteraceae
 zone: 2-11
 ideal_temp_min: 65
@@ -12,17 +12,17 @@ min_temp: 25
 max_temp: 100
 perennial: false
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Pollinator
-  - Mulcher
-  - Dynamic Accumulator
-  - Erosion Control
-  - Windbreaker
-  - Border Plant
-  - Biofuel
+- Edible
+- Wildlife Attractor
+- Pollinator
+- Mulcher
+- Dynamic Accumulator
+- Erosion Control
+- Windbreaker
+- Border Plant
+- Biofuel
 description: |-
   Sunflowers are tall, annual plants with large, bright yellow flowers that can grow up to 3.6 meters (12 feet) in height. They have deep taproots that improve soil structure and reduce erosion. The flowers produce abundant nectar and pollen, attracting bees, butterflies, and birds.
 
@@ -44,22 +44,38 @@ purpose: |-
   Border Plant: Dense summer screen along chain link hides compost piles from street view yet dies back in winter so southern light still reaches greenhouse glazing -- stagger heights by cultivar for less monolithic silhouette.
   Biofuel: High-linoleic lines historically fed small-batch biodiesel reactors on farms that already owned presses -- economics favor feed-grade oil today, but the chemistry still works if you filter waxes cold before injection pumps see it.
 companions:
-  - Corn
-  - Cucumbers
-  - Squash
-  - Beans
-  - Lettuce
+- slug: cucumber
+  name: Cucumber
+- slug: lettuce
+  name: Lettuce
+- slug: fava-bean
+  name: Fava Bean
 cautions:
-  - Potatoes
+- Potatoes
 pests:
-  - Aphids
-  - Banded Winged Whitefly
-  - Cutworms
-  - Greenhouse Whitefly
-  - Lettuce Aphid
-  - Lubber Grasshopper
-  - Root Aphid
-  - Sunflower Moth
-  - Leaf-Footed Bugs
+- Aphids
+- Banded Winged Whitefly
+- Cutworms
+- Greenhouse Whitefly
+- Lettuce Aphid
+- Lubber Grasshopper
+- Root Aphid
+- Sunflower Moth
+- Leaf-Footed Bugs
 growth_habit: Tree
 data_quality_score: 0.8
+companions_normalized:
+- original: Cucumbers
+  resolved_slug: cucumber
+  name: Cucumber
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Squash
+  original: Squash
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index

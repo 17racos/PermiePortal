@@ -2,8 +2,8 @@ common_name: Windmill Palm
 picture: windmill_palm.webp
 scientific_name: Trachycarpus fortunei
 aka:
-  - Chusan palm
-  - Chinese windmill palm
+- Chusan palm
+- Chinese windmill palm
 family: Arecaceae
 zone: 7-11
 ideal_temp_min: 55
@@ -12,12 +12,12 @@ min_temp: 5
 max_temp: 105
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Ornamental
-  - Windbreaker
-  - Wildlife Attractor
-  - Mulcher
+- Ornamental
+- Windbreaker
+- Wildlife Attractor
+- Mulcher
 description: |-
   Windmill palm is the palm Northerners point at and whisper “see, we can too.” Single trunk, fan leaves, modest size by palm standards. In subtropical and tropical Americas it is one of the more plausible trunking palms if you avoid salt blast and remember that “hardy” is not “immune to idiot pruning.” Old leaf bases (“boots”) are aesthetic choice—clean trunk or shaggy wizard staff, your call.
 
@@ -32,19 +32,32 @@ purpose: |-
   Wildlife Attractor: Insect-pollinated spring inflorescences drip honey; blue-black fruit feeds starlings where allowed to set -- remove seedheads near patios if mess annoys.
   Mulcher: Cast fronds chop-and-drop for mulch rings -- petiole spines demand gloves; decay is slower than deciduous leaf litter.
 companions:
-  - Ferns
-  - Ginger
-  - Understory shrubs that tolerate root competition
+- slug: ginger
+  name: Ginger
+- slug: cinnamon-fern
+  name: Cinnamon Fern
 cautions:
-  - Coastal salt spray without acclimation
-  - Grade changes that bury root crowns
+- Coastal salt spray without acclimation
+- Grade changes that bury root crowns
 pests:
-  - Coconut Mite
-  - Mealybugs
-  - Palm Weevil
-  - Palmetto Weevil
-  - Red Palm Weevil
-  - Rhinoceros Beetle
-  - Scale Insects
-  - Ganoderma Butt Rot
-  - Heart Rot
+- Coconut Mite
+- Mealybugs
+- Palm Weevil
+- Palmetto Weevil
+- Red Palm Weevil
+- Rhinoceros Beetle
+- Scale Insects
+- Ganoderma Butt Rot
+- Heart Rot
+companions_unresolved:
+- name: Fern
+  original: Ferns
+  note: normalization_target_not_in_index
+companion_categories:
+- name: Understory shrubs that tolerate root competition
+  original: Understory shrubs that tolerate root competition
+  type: system
+companions_normalized:
+- original: Ferns
+  resolved_slug: cinnamon-fern
+  name: Cinnamon Fern

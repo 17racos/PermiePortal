@@ -2,8 +2,8 @@ common_name: Madagascar Vanilla
 picture: madagascar_vanilla.webp
 scientific_name: Vanilla planifolia
 aka:
-  - Bourbon Vanilla
-  - Flat-Leaved Vanilla
+- Bourbon Vanilla
+- Flat-Leaved Vanilla
 family: Orchidaceae
 zone: 10-11
 ideal_temp_min: 60
@@ -12,11 +12,11 @@ min_temp: 40
 max_temp: 95
 perennial: true
 layers:
-  - Vine
+- Vine
 plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
+- Edible
+- Medicinal
+- Pollinator
 description: |-
   Madagascar Vanilla (*Vanilla planifolia*) is a perennial climbing orchid native to Mexico and Central America, now extensively cultivated in Madagascar. This vine can reach lengths of up to 15 meters (49 feet), featuring thick, fleshy stems and succulent, oblong leaves. It produces greenish-yellow, fragrant flowers that bloom briefly, each lasting only a day. The plant thrives in warm, humid tropical climates and requires a support structure to climb, often utilizing host trees or trellises. The fruit, known as vanilla beans, are long, slender pods that contain numerous tiny seeds. These pods are harvested and cured to develop the characteristic vanilla flavor and aroma.
 
@@ -30,14 +30,18 @@ purpose: |-
   Medicinal: Vanillin shows mild antioxidant and calming notes in folk teas -- evidence is thin for clinical claims, but food-dose extract in warm milk still settles nerves without pretending to replace prescriptions.
   Pollinator: Wild Mexican meliponines pollinate relatives in habitat -- outside range, growers transfer pollen with toothpicks because no local bee matches the flower’s lip mechanics.
 companions:
-  - Cacao
-  - Coffee
-  - Banana
+- slug: cacao
+  name: Cacao
+- slug: banana
+  name: Banana
 cautions:
-  - None
+- None
 pests:
-  - Aphids
-  - Mealybugs
-  - Scale Insects
+- Aphids
+- Mealybugs
+- Scale Insects
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Coffee
+  original: Coffee

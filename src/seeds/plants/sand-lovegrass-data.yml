@@ -2,7 +2,7 @@ common_name: Sand Lovegrass
 picture: sand_lovegrass.webp
 scientific_name: Eragrostis trichodes
 aka:
-- Sand Love Grass
+  - Sand Love Grass
 family: Poaceae
 zone: 5-10
 ideal_temp_min: 45
@@ -11,12 +11,12 @@ min_temp: -15
 max_temp: 110
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Erosion Control
-- Ornamental
-- Wildlife Attractor
-- Biomass
+  - Erosion Control
+  - Ornamental
+  - Wildlife Attractor
+  - Biomass
 description: |-
   Sand lovegrass (Eragrostis trichodes) is a warm-season bunchgrass of central North American sandy prairies and roadsides, producing large, airy panicles that catch light like smoke on stems often 2–4 feet (60–120 cm). It roots quickly on disturbed sand, making it useful for erosion control during early succession while longer-lived prairie species establish. In ornamental design it pairs with purple lovegrass for a two-stage lovegrass drama nobody asked for but everyone photographs.
 
@@ -31,25 +31,28 @@ purpose: |-
   Wildlife Attractor: Tiny seeds feed sparrows and longspurs while bunch bases shelter insects at soil level through winter dormancy.
   Biomass: Standing straw-colored stems chop into coarse mulch that feeds fungal chains on carbon-starved coastal sands when timed after seed shatter.
 companions:
-- Sand Bluestem — taller warm-season grass neighbor sharing sandhill ethics
-- Purple Lovegrass — smaller Eragrostis cousin with contrasting purple haze timing
-- Prairie Coneflower — forb verticals above lovegrass mounds in dry mixes
+  - slug: sand-bluestem
+    name: Sand Bluestem
+  - slug: purple-lovegrass
+    name: Purple Lovegrass
+  - slug: prairie-coneflower
+    name: Prairie Coneflower
 cautions:
-- Short-lived on rich irrigated beds—lean sand extends performance
-- Self-sowing in gravel—delightful or deplorable per driveway politics
+  - Short-lived on rich irrigated beds—lean sand extends performance
+  - Self-sowing in gravel—delightful or deplorable per driveway politics
 pests:
-- Aphids
-- Armyworms
-- Bamboo Mite
-- Corn Earworm
-- Fall Armyworm
-- Japanese Beetles
-- Lubber Grasshopper
-- Rice Blast Fungus
-- Rice Water Weevil
-- Spider Mites
-- Spittlebugs
-- Wireworm
-- Leaf Blight
+  - Aphids
+  - Armyworms
+  - Bamboo Mite
+  - Corn Earworm
+  - Fall Armyworm
+  - Japanese Beetles
+  - Lubber Grasshopper
+  - Rice Blast Fungus
+  - Rice Water Weevil
+  - Spider Mites
+  - Spittlebugs
+  - Wireworm
+  - Leaf Blight
 growth_habit: Warm-season bunchgrass; large airy panicles; sandy prairies and roadsides
 data_quality_score: 0.8

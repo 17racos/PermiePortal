@@ -34,10 +34,8 @@ purpose: |-
   Wildlife Attractor: Eupatorium specialists and generalist moth larvae chew foliage -- accept some ragged leaves if moth completion is part of your wet-meadow restoration goal.
   Border Plant: Six- to eight-foot stems form a soft purple wall at the back of rain gardens -- pair with shorter sedges in front so scale reads intentional, not weedy.
 companions:
-- Aster
-- Goldenrod
-- Black-eyed Susan
-- Coneflower
+- slug: black-eyed-susan
+  name: Black-eyed Susan
 cautions:
 - None specified
 pests:
@@ -50,3 +48,10 @@ pests:
 - Powdery Mildew
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Aster
+  original: Aster
+- name: Goldenrod
+  original: Goldenrod
+- name: Coneflower
+  original: Coneflower

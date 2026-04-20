@@ -31,11 +31,10 @@ purpose: |-
   Border Plant: Upright gray-green fans give tropical focal points along entries without spreading stolons -- tight root run actually improves bloom, so repot divas instead of oversized pampered tubs.
   Ground Cover: Wide basal clumps tile ground under high canopies where little else tolerates reflected heat, shading soil and blocking weeds along south-facing stucco -- still not a walkable lawn substitute.
 companions:
-- Canna
-- Croton
-- Fern
-- Heliconia
-- Ginger
+- slug: canna-lily
+  name: Canna Lily
+- slug: ginger
+  name: Ginger
 cautions:
 - None
 pests:
@@ -46,3 +45,10 @@ pests:
 - Leaf Spot
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Croton
+  original: Croton
+- name: Fern
+  original: Fern
+- name: Heliconia
+  original: Heliconia

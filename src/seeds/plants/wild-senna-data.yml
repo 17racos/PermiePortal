@@ -32,13 +32,12 @@ purpose: |-
   Wildlife Attractor: Long brown pods rattle seed for sparrows late winter -- leave stems if you want finch percussion.
   Ornamental: Upright 3--5 ft wands fit rain-garden shoulders -- moist sun keeps stems stiff; shade makes them flop.
 companions:
-- Milkweed — shared monarch and pollinator goals alongside sulphur host chemistry
-  on senna
-- Ironweed — purple late-summer contrast behind yellow senna spikes; both handle moisture
-- Switchgrass — warm-season matrix supports tall senna stems against windthrow
+- slug: milkweed
+  name: Milkweed
+- slug: switchgrass
+  name: Switchgrass
 cautions:
-- Laxative chemistry — seeds are not snack food; keep away from curious children and
-  pets
+- Laxative chemistry — seeds are not snack food; keep away from curious children and pets
 - Deer browsing — young plants may need cages until woody bases develop
 pests:
 - Aphids
@@ -72,3 +71,6 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Upright perennial legume; yellow flowers; long pods; moist edges
 data_quality_score: 0.85
+companions_unresolved:
+- name: Ironweed
+  original: Ironweed — purple late-summer contrast behind yellow senna spikes; both handle moisture

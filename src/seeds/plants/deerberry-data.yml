@@ -34,12 +34,10 @@ purpose: |-
   Border Plant: Fine branching and modest height texture transitions between forest interior and open field without a solid wall.
   Pollinator: Flowers with long-exserted stamens offer accessible pollen to small native bees on warm spring days.
 companions:
-- Highbush Blueberry — shared acidic mulch regime and complementary fruiting times
-- Mountain Laurel — evergreen structure and similar soil chemistry in part shade guilds
-- Pine — needle mulch maintains acidity; dappled light suits understory Vaccinium
+- slug: highbush-blueberry
+  name: Highbush Blueberry
 cautions:
-- Black Walnut — juglone and dry competition stress ericaceous roots; keep Vaccinium
-  outside the drip line
+- Black Walnut — juglone and dry competition stress ericaceous roots; keep Vaccinium outside the drip line
 pests:
 - Blueberry Maggot
 - Cranberry Fruitworm
@@ -52,3 +50,8 @@ pests:
 - Azalea Caterpillar
 growth_habit: Deciduous open shrub; small tart berries; long-exserted stamens in bloom
 data_quality_score: 0.84
+companions_unresolved:
+- name: Mountain Laurel
+  original: Mountain Laurel — evergreen structure and similar soil chemistry in part shade guilds
+- name: Pine
+  original: Pine — needle mulch maintains acidity; dappled light suits understory Vaccinium

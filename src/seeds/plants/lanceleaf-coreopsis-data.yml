@@ -36,12 +36,12 @@ purpose: |-
   Ground Cover: Basal rosettes exclude some annual weeds in meadow matrices -- allow self-seeding if you want free replacements because individual crowns are short-lived.
   Wildlife Attractor: Finches strip dry heads in fall -- leave standing seed if winter bird TV matters more than tidy stubble aesthetics.
 companions:
-- Black-eyed Susan — complementary yellow composite with different texture and timing
-- Little Bluestem — warm-season grass matrix prevents coreopsis flop in windy sites
-- Butterfly Milkweed — orange milkweed pairs with yellow coreopsis for monarch waystations
+- slug: black-eyed-susan
+  name: Black-eyed Susan
+- slug: little-bluestem
+  name: Little Bluestem
 cautions:
-- Self-seeding enthusiasm — deadhead or thin volunteers if designs require strict
-  species ratios
+- Self-seeding enthusiasm — deadhead or thin volunteers if designs require strict species ratios
 pests:
 - Aphids
 - Banded Winged Whitefly
@@ -52,3 +52,6 @@ pests:
 - Root Aphid
 growth_habit: Short-lived perennial coreopsis; lance leaves; large yellow daisy flowers
 data_quality_score: 0.85
+companions_unresolved:
+- name: Butterfly Milkweed
+  original: Butterfly Milkweed — orange milkweed pairs with yellow coreopsis for monarch waystations

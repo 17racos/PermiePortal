@@ -2,7 +2,7 @@ common_name: Bladderwort
 picture: bladderwort.webp
 scientific_name: Utricularia spp.
 aka:
-  - Bladderworts
+- Bladderworts
 family: Lentibulariaceae
 zone: 4-10
 ideal_temp_min: 60
@@ -11,10 +11,10 @@ min_temp: 30
 max_temp: 100
 perennial: true
 layers:
-  - Aquatic
+- Aquatic
 plant_function:
-  - Water Purification
-  - Pest Management
+- Water Purification
+- Pest Management
 description: |-
   Bladderworts are a genus of carnivorous plants consisting of over 200 species, found in aquatic and wetland habitats worldwide. They lack traditional roots and possess highly divided, underwater leaf-like stems equipped with small hollow sacs, or "bladders." These bladders actively capture and digest tiny animals such as insect larvae, aquatic worms, and water fleas through a suction mechanism, making them one of the fastest known plant movements. The flowers, which grow above water, are typically yellow and two-lipped with a forward-facing spur on the lower lip, resembling snapdragons. This unique carnivorous adaptation allows bladderworts to thrive in nutrient-poor environments by obtaining essential nutrients from their prey.
 
@@ -24,15 +24,18 @@ description: |-
 
   Not typically harvested, as bladderworts are primarily valued for their ecological roles in aquatic ecosystems.
 purpose: |-
-  Water Purifier: Utricularia spp. underwater bladders fire on micro-crustaceans -- and larvae, stripping excess animal plankton from tubs and pond edges where fertilizer runoff would otherwise feed algae alone.
+  Water Purification: Utricularia spp. underwater bladders fire on micro-crustaceans -- and larvae, stripping excess animal plankton from tubs and pond edges where fertilizer runoff would otherwise feed algae alone.
   Pest Management: Those same traps pull mosquito larvae -- and other tiny swimmers fast enough to matter in small still pools when you pair plants with aeration and refuse fish-food dumping.
 companions:
-  - Water Lily
-  - Pickerelweed
+- slug: pickerelweed
+  name: Pickerelweed
 cautions:
-  - None
+- None
 pests:
-  - Aphids
-  - Mites
+- Aphids
+- Mites
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Water Lily
+  original: Water Lily

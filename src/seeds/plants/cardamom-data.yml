@@ -30,9 +30,10 @@ purpose: |-
   Medicinal: seeds steep into carminative teas for upset stomach traditions across South Asia where volatile oils still warrant pregnancy and medication interaction checks.
   Wildlife Attractor: butterfly-shaped white flowers with purple markings draw bees and small flies to the humid forest-floor inflorescences under shade cloth in plantation mimic guilds.
 companions:
-- Ginger
-- Turmeric
-- Black Pepper
+- slug: ginger
+  name: Ginger
+- slug: turmeric
+  name: Turmeric
 cautions:
 - None
 pests:
@@ -42,3 +43,6 @@ pests:
 - Spider Mites
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Black Pepper
+  original: Black Pepper

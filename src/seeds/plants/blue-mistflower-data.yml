@@ -10,12 +10,12 @@ min_temp: 10
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Pollinator
-  - Wildlife Attractor
-  - Ornamental
-  - Ground Cover
+- Pollinator
+- Wildlife Attractor
+- Ornamental
+- Ground Cover
 description: |-
   Blue mistflower (Conoclinium coelestinum) is a perennial wildflower forming clumps of upright stems and cloud-like sprays of small lavender-blue blooms. It is native to North America and is valued for its long flowering season and easy ability to draw insects late in the year. Mature plants are commonly 30–90 cm (12–35 in) tall and spread by reseeding and underground growth. In permaculture, it’s a nectar anchor that keeps pollinators working when many other flowers are already packing up.
 
@@ -30,13 +30,25 @@ purpose: |-
   Ornamental: Soft cloud inflorescences read from across the yard, marking wet-sun beds without staking or deadheading every day.
   Ground Cover: Rhizomes spread into dense patches that shade soil and crowd summer weeds if moisture stays even through the hot weeks.
 companions:
-  - Echinacea purpurea (purple coneflower) — long-season flowers share pollinator traffic and pair well in mixed native-style beds.
-  - Solidago canadensis (Canada goldenrod) — late-blooming companion that overlaps nectar windows.
-  - Monarda fistulosa (wild bergamot) — aromatic flower spikes attract similar beneficial insects while adding structure.
+- slug: echinacea
+  name: Echinacea
+- slug: wild-bergamot
+  name: Wild Bergamot
 cautions:
-  - In wet, rich ground it can spread; manage by light mowing or thinning before seed ripens.
+- In wet, rich ground it can spread; manage by light mowing or thinning before seed ripens.
 pests:
-  - Aphids
-  - Spider Mites
-  - Slugs
-  - Root Rot
+- Aphids
+- Spider Mites
+- Slugs
+- Root Rot
+companions_normalized:
+- original: Echinacea purpurea (purple coneflower) — long-season flowers share pollinator traffic and pair well in mixed native-style beds.
+  resolved_slug: echinacea
+  name: Echinacea
+- original: Monarda fistulosa (wild bergamot) — aromatic flower spikes attract similar beneficial insects while adding structure.
+  resolved_slug: wild-bergamot
+  name: Wild Bergamot
+companions_unresolved:
+- name: Goldenrod
+  original: Solidago canadensis (Canada goldenrod) — late-blooming companion that overlaps nectar windows.
+  note: normalization_target_not_in_index

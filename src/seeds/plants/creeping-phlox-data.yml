@@ -2,8 +2,8 @@ common_name: Creeping Phlox
 picture: creeping_phlox.webp
 scientific_name: Phlox subulata
 aka:
-  - Moss phlox
-  - Mountain phlox
+- Moss phlox
+- Mountain phlox
 family: Polemoniaceae
 zone: 3-9
 ideal_temp_min: 45
@@ -12,12 +12,12 @@ min_temp: -35
 max_temp: 95
 perennial: true
 layers:
-  - Ground Cover
+- Ground Cover
 plant_function:
-  - Ornamental
-  - Pollinator
-  - Ground Cover
-  - Erosion Control
+- Ornamental
+- Pollinator
+- Ground Cover
+- Erosion Control
 description: |-
   Creeping phlox (*Phlox subulata*) is a mat-forming evergreen perennial famous for spring sheets of five-petaled flowers in pink, purple, blue, or white. Needle-like leaves pack tightly on stems that root as they spread, typically staying under 15 cm tall but covering wide areas over time. Native to eastern North American rocky slopes, it wants sharp drainage. In subtropical and tropical Americas it is best on berms, rock gardens, or containers—humid, wet pockets invite mildew unless air moves freely and soil dries between rains.
 
@@ -32,15 +32,20 @@ purpose: |-
   Ground Cover: Evergreen needle-like stems root as they spread, knitting dense mats that exclude many weeds on lean soil too harsh for turf.
   Erosion Control: Interwoven stems and fibrous roots slow rain splash on berms, terrace faces, and thin-soil inclines.
 companions:
-  - Creeping thyme
-  - Sedum
-  - Dianthus
-  - Candytuft
+- slug: creeping-thyme
+  name: Creeping Thyme
+- slug: sedum
+  name: Sedum
 cautions:
-  - None documented
+- None documented
 pests:
-  - Spider Mites
-  - Aphids
-  - Powdery Mildew
+- Spider Mites
+- Aphids
+- Powdery Mildew
 growth_habit: Ground Cover
 data_quality_score: 0.8
+companions_unresolved:
+- name: Dianthus
+  original: Dianthus
+- name: Candytuft
+  original: Candytuft

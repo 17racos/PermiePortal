@@ -2,8 +2,8 @@ common_name: Shiny Blueberry
 picture: shiny_blueberry.webp
 scientific_name: Vaccinium myrsinites
 aka:
-  - Ground Blueberry
-  - Creeping Blueberry
+- Ground Blueberry
+- Creeping Blueberry
 family: Ericaceae
 zone: 7-10
 ideal_temp_min: 45
@@ -12,12 +12,12 @@ min_temp: 0
 max_temp: 100
 perennial: true
 layers:
-  - Shrub
+- Shrub
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Ground Cover
-  - Pollinator
+- Edible
+- Wildlife Attractor
+- Ground Cover
+- Pollinator
 description: "Shiny blueberry (*Vaccinium myrsinites*) is a low, rhizomatous native blueberry of pine flatwoods and sandhills — glossy little leaves, small tasty fruit, and a refusal to impersonate a 6-foot northern highbush. It spreads into colonies that stabilize sandy acid soils and feed wildlife (and humans who kneel politely).\n\nsubtropical and tropical Americas: a righteous native layer under pines and with other ericaceous species; do not expect bucket yields — expect authenticity.\n\n💧 Sun and Water:\nFull sun to bright part-shade. Sandy, acidic, well-drained soil; tolerates dry spells once established. Mulch with pine needles or pine bark.\n\n  Propagation: \nRhizome division during warm wet weather. Cuttings: softwood or semi-hardwood in humid propagation setups. Seeds: cold stratify; slow. Transplant small chunks with roots rather than bare rhizome jerky.\n\n🌾 Harvest / Best Use Timing:\nShiny Blueberry: pick berries when fully colored and detach with a gentle tug -- whitish bloom still present is fine. Cool mornings beat hot afternoons for shelf life; chill soon if not eating the same day. Freeze dry on trays before bagging so berries do not fuse into a single ice meteor."
 purpose: |-
   Edible: Vaccinium myrsinites tiny teal berries demand crouching patience -- taste intensely of pine understory resin when sampled fresh off sandhill mats.
@@ -25,23 +25,28 @@ purpose: |-
   Ground Cover: Rhizomatous ankle-high thickets stitch wiregrass openings -- spreads without shading sand oak seedlings below.
   Pollinator: Urn-shaped blooms hang early enough to supply nectar -- flowers before domestic blueberries open two counties north.
 companions:
-  - Sparkleberry
-  - Gopher Apple
-  - Pine
-  - Wiregrass
+- slug: sparkleberry
+  name: Sparkleberry
+- slug: gopher-apple
+  name: Gopher Apple
+- slug: wiregrass
+  name: Wiregrass
 cautions:
-  - Lime, ash amendments, and alkaline irrigation
+- Lime, ash amendments, and alkaline irrigation
 pests:
-  - Aphids
-  - Blueberry Maggot
-  - Cranberry Fruitworm
-  - Cranberry Tipworm
-  - Japanese Beetles
-  - Sparganothis Fruitworm
-  - Spider Mites
-  - Strawberry Root Weevil
-  - Vine Weevil
-  - Powdery Mildew
-  - Azalea Caterpillar
+- Aphids
+- Blueberry Maggot
+- Cranberry Fruitworm
+- Cranberry Tipworm
+- Japanese Beetles
+- Sparganothis Fruitworm
+- Spider Mites
+- Strawberry Root Weevil
+- Vine Weevil
+- Powdery Mildew
+- Azalea Caterpillar
 growth_habit: Shrub
 data_quality_score: 0.76
+companions_unresolved:
+- name: Pine
+  original: Pine

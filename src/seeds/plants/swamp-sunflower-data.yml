@@ -33,12 +33,10 @@ purpose: |-
   Erosion Control: Aggressive rhizomes armor pond spoil berms against fetch while roots drink nitrate runoff from upslope lawns.
   Biomass: Eight-foot stems chop into soggy-zone mulch that feeds ducks and decomposition fungi without hauling chips downslope.
 companions:
-- Swamp Dogwood — shrub backbone behind tall sunflower masses; shared wet soils and
-  bird traffic
-- Ironweed — complementary purple aster-family blooms at similar heights; both love
-  moisture and sun
-- Joe-Pye Weed — earlier pink clouds transitioning to yellow sunflower walls; consistent
-  pollinator corridor
+- slug: swamp-dogwood
+  name: Swamp Dogwood
+- slug: joe-pye-weed
+  name: Joe Pye Weed
 cautions:
 - Rhizome spread — contain with mowing strips or deep edging in small yards
 - Powdery mildew — improve spacing and morning sun exposure in humid climates
@@ -50,6 +48,8 @@ pests:
 - Lubber Grasshopper
 - Root Aphid
 - Sunflower Moth
-growth_habit: Tall rhizomatous perennial; narrow leaves; many small yellow sunflower
-  heads; moist sites
+growth_habit: Tall rhizomatous perennial; narrow leaves; many small yellow sunflower heads; moist sites
 data_quality_score: 0.85
+companions_unresolved:
+- name: Ironweed
+  original: Ironweed — complementary purple aster-family blooms at similar heights; both love moisture and sun

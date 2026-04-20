@@ -28,9 +28,12 @@ purpose: |-
   Wildlife Attractor: Dense, thorny scaffolding shelters nesting songbirds while May blossoms feed pollinators and red haws feed thrushes into winter -- leave upper branches unpruned if wildlife pantry matters more than formal symmetry.
   Border Plant: Multi-stemmed habit and gray thorns make a stock-proof hedge along paddocks or paths -- shear sides for width control but renew interior wood so flowering spurs stay productive and fire blight has fewer damp pockets.
 companions:
-  - Comfrey (Symphytum officinale) — chop-and-drop near the base helps build soil and keeps the understory productive.
-  - Garlic (Allium sativum) — strong scent can help reduce nearby pest pressure and supports rotation timing in garden edges.
-  - Yarrow (Achillea millefolium) — drought-tolerant perennial companion that attracts beneficial insects alongside hawthorn bloom cycles.
+  - slug: comfrey
+    name: Comfrey
+  - slug: garlic
+    name: Garlic
+  - slug: yarrow
+    name: Yarrow
 cautions:
   - It’s thorny: plan pruning access and place it where you want a barrier, not where people trip through it.
 pests:

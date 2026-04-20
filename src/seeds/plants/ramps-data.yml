@@ -2,11 +2,11 @@ common_name: Ramps
 picture: ramps.webp
 scientific_name: Allium tricoccum
 aka:
-  - Wild leek
-  - Spring onion (regional)
-  - Wild Leek
-  - Ramp
-  - Wild Garlic
+- Wild leek
+- Spring onion (regional)
+- Wild Leek
+- Ramp
+- Wild Garlic
 family: Amaryllidaceae
 zone: 3-8
 ideal_temp_min: 35
@@ -15,12 +15,12 @@ min_temp: -35
 max_temp: 85
 perennial: true
 layers:
-  - Herbaceous
-  - Root
+- Herbaceous
+- Root
 plant_function:
-  - Edible
-  - Medicinal
-  - Wildlife Attractor
+- Edible
+- Medicinal
+- Wildlife Attractor
 description: |-
   Ramps are the Appalachian spring onion that launched a thousand overharvest horror stories. Leaves and bulbs taste like garlic met a leek at a folk festival. They want rich, moist hardwood duff, cool winters, and ethical harvest — take leaves or thin patches, not whole populations for restaurant clout. subtropical and tropical Americas is south of prime range; only try if you can mimic cool, shady, limestone-y forest floor without delusion.
 
@@ -34,17 +34,22 @@ purpose: |-
   Medicinal: Same sulfur compounds underpin Appalachian spring tonic folklore for blood-moving narratives -- medicinal strength still belongs with practitioners if you push beyond occasional culinary doses.
   Wildlife Attractor: White umbels feed native bees in shaded sugar-maple duff before canopy closes -- leave seed heads where colonies are fragile so populations rebuild instead of vanishing for brunch trends.
 companions:
-  - Trout lily
-  - Bloodroot
-  - Spicebush
+- slug: bloodroot
+  name: Bloodroot
+- slug: spicebush
+  name: Spicebush
 cautions:
-  - Full-sun sand hills
-  - Overharvest from wild public land
+- Full-sun sand hills
+- Overharvest from wild public land
 pests:
-  - Onion Fly
-  - Onion Maggot
-  - Onion Thrips
-  - Slugs
-  - Thrips
-  - Root Rot
-  - White Rot
+- Onion Fly
+- Onion Maggot
+- Onion Thrips
+- Slugs
+- Thrips
+- Root Rot
+- White Rot
+companions_unresolved:
+- name: Trout Lily
+  original: Trout lily
+  note: normalization_target_not_in_index

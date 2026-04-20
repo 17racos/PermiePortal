@@ -2,8 +2,8 @@ common_name: Lingonberry
 picture: lingonberry.webp
 scientific_name: Vaccinium vitis-idaea
 aka:
-- Cowberry
-- Lowbush cranberry (regional)
+  - Cowberry
+  - Lowbush cranberry (regional)
 family: Ericaceae
 zone: 2-7
 ideal_temp_min: 40
@@ -12,13 +12,13 @@ min_temp: -40
 max_temp: 85
 perennial: true
 layers:
-- Shrub
-- Ground Cover
+  - Shrub
+  - Ground Cover
 plant_function:
-- Edible
-- Ground Cover
-- Wildlife Attractor
-- Ornamental
+  - Edible
+  - Ground Cover
+  - Wildlife Attractor
+  - Ornamental
 description: |-
   Lingonberry (Vaccinium vitis-idaea) is a low evergreen subshrub of cold boreal and montane heaths, forming mats with leathery leaves, pale bell flowers, and tart red berries famous in Nordic kitchens. Height is usually under 1 foot (0.3 m) with creeping stems. It suits acidic edible groundcovers, rock gardens in cool climates, and container culture where pH and drainage are controlled honestly.
 
@@ -33,23 +33,24 @@ purpose: |-
   Wildlife Attractor: Lingon feeds grouse, thrushes, and small mammals across boreal floors -- net or pick early if human pantry goals conflict with migrating flocks.
   Ornamental: Waxy leaves and persistent fruit read jewel-like against snow -- use in rock gardens where sun stays cool enough to prevent summer scorch on southern aspects.
 companions:
-- Lowbush Cranberry — related Ericaceous fruiting neighbor with overlapping pH needs
-- Yarrow — insectary forb at the sunnier edge without shading the mat
-- Highbush Cranberry — taller viburnum layer outside the acidic mat for vertical structure
+  - slug: lowbush-cranberry
+    name: Lowbush Cranberry
+  - slug: yarrow
+    name: Yarrow
+  - slug: highbush-cranberry
+    name: Highbush Cranberry
 cautions:
-- Heat and humidity — often struggles south of its comfort band no matter how much
-  you cheer
-- High pH water — chronic iron chlorosis; fix water or choose different crops
+  - Heat and humidity — often struggles south of its comfort band no matter how much you cheer
+  - High pH water — chronic iron chlorosis; fix water or choose different crops
 pests:
-- Aphids
-- Blueberry Maggot
-- Cranberry Fruitworm
-- Cranberry Tipworm
-- Sparganothis Fruitworm
-- Spider Mites
-- Strawberry Root Weevil
-- Vine Weevil
-- Azalea Caterpillar
-growth_habit: Low evergreen Ericaceous subshrub; red tart berries; cold heath and
-  woodland soils
+  - Aphids
+  - Blueberry Maggot
+  - Cranberry Fruitworm
+  - Cranberry Tipworm
+  - Sparganothis Fruitworm
+  - Spider Mites
+  - Strawberry Root Weevil
+  - Vine Weevil
+  - Azalea Caterpillar
+growth_habit: Low evergreen Ericaceous subshrub; red tart berries; cold heath and woodland soils
 data_quality_score: 0.82

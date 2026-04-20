@@ -33,9 +33,10 @@ purpose: |-
   Ornamental: Glossy alternate leaves and long pendulous fruit stems read tidy in humid 10b courtyards -- light pruning after harvest keeps height walkable under eaves.
   Mulcher: Evergreen leaf litter feeds understory ginger and banana circles with steady fungal duff -- rake only where mats smother low seedbank experiments.
 companions:
-  - Banana
-  - Leucaena
-  - Ginger understory
+  - slug: banana
+    name: Banana
+  - slug: leucaena
+    name: Leucaena
 cautions:
   - Exposed frost pockets for young trees
   - Waterlogged clay that suffocates roots
@@ -43,3 +44,7 @@ pests:
   - Scale Insects
   - Mealybugs
   - Aphids
+companion_categories:
+  - name: Ginger understory
+    original: Ginger understory
+    type: system

@@ -2,8 +2,8 @@ common_name: Rose Apple
 picture: rose_apple.webp
 scientific_name: Syzygium jambos
 aka:
-- Jambos
-- Malabar plum (name collision territory — verify regional usage)
+  - Jambos
+  - Malabar plum (name collision territory — verify regional usage)
 family: Myrtaceae
 zone: 9-11
 ideal_temp_min: 60
@@ -12,11 +12,11 @@ min_temp: 26
 max_temp: 110
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Edible
-- Wildlife Attractor
-- Ornamental
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
 description: |-
   Syzygium jambos is the pom-pom flowering myrtle tree whose waxy fruit smells like roses and tastes like subtle pear-water — not a sugar bomb, more a porch snack for people who like quiet flavors. Fluffy flowers embarrass ornamentals twice their price. Possible in warm pockets; protect young trees from hard freezes.
 
@@ -33,17 +33,20 @@ purpose: |-
   Wildlife Attractor: Cedar waxwings and mynas strip canopies of ripe fruit in warm districts; fluffy cream inflorescences pull bees hard during dry weeks -- net individual limbs if human share beats bird queue on small trees.
   Ornamental: Powder-puff flower clusters and smooth gray bark stage a myrtle showpiece before first fruit -- surface roots want wide wood-chip mulch, not turf to trunk, or chlorosis and mower rash advertise neglect.
 companions:
-- Guava
-- Jaboticaba
-- Pitanga
+  - slug: surinam-cherry
+    name: Surinam Cherry
+  - slug: guava
+    name: Guava
+  - slug: jaboticaba
+    name: Jaboticaba
 cautions:
-- Frost pockets on juvenile trees
-- Chronic overwatering in heavy clay
+  - Frost pockets on juvenile trees
+  - Chronic overwatering in heavy clay
 pests:
-- Aphids
-- Caribbean Fruit Fly
-- Oriental Fruit Fly
-- Scale Insects
-- Armored Scale
-- Black Scale
-- Cottony Cushion Scale
+  - Aphids
+  - Caribbean Fruit Fly
+  - Oriental Fruit Fly
+  - Scale Insects
+  - Armored Scale
+  - Black Scale
+  - Cottony Cushion Scale

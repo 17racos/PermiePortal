@@ -2,9 +2,9 @@ common_name: Ginger
 picture: ginger.webp
 scientific_name: Zingiber officinale
 aka:
-  - Common Ginger
-  - Culinary Ginger
-  - Zanzibar Ginger
+- Common Ginger
+- Culinary Ginger
+- Zanzibar Ginger
 family: Zingiberaceae
 zone: 8-12
 ideal_temp_min: 65
@@ -13,13 +13,13 @@ min_temp: 50
 max_temp: 100
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Medicinal
-  - Mulcher
-  - Dynamic Accumulator
-  - Border Plant
+- Edible
+- Medicinal
+- Mulcher
+- Dynamic Accumulator
+- Border Plant
 description: |-
   Ginger (Zingiber officinale) is a tropical, herbaceous perennial known for its underground rhizomes, which are used in cooking and medicine. It grows up to 1 meter (3 feet) tall, with narrow, lance-shaped leaves and small yellow-green flowers with purple streaks.
 
@@ -37,22 +37,32 @@ purpose: |-
   Dynamic Accumulator: Rhizome mass banks potassium taken up during the rainy growth flush; composting spent planting pieces returns that fraction to the bed for the next rotation.
   Border Plant: Clumping rows edge paths in partial shade beside turmeric and lemongrass, signaling the “wet foot, warm soil” zone of the food forest without spreading by seed in cultivation.
 companions:
-  - Turmeric
-  - Lemon Grass
-  - Banana
-  - Citrus
-  - Moringa
+- slug: lemongrass
+  name: Lemongrass
+- slug: turmeric
+  name: Turmeric
+- slug: banana
+  name: Banana
+- slug: moringa
+  name: Moringa
 cautions:
-  - Onion
-  - Garlic
+- Onion
+- Garlic
 pests:
-  - Rootknot Nematodes
-  - Aphids
-  - Spider Mites
-  - Bulb Mites
-  - Fungus Gnat Larvae
-  - Root Rot
-  - Armadillo
+- Rootknot Nematodes
+- Aphids
+- Spider Mites
+- Bulb Mites
+- Fungus Gnat Larvae
+- Root Rot
+- Armadillo
 growth_habit: Tree
 data_quality_score: 0.8
 field_observations: No field observations yet
+companions_normalized:
+- original: Lemon Grass
+  resolved_slug: lemongrass
+  name: Lemongrass
+companions_unresolved:
+- name: Citrus
+  original: Citrus

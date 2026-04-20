@@ -31,14 +31,13 @@ purpose: |-
   Erosion Control: Fibrous roots and interlaced canes lock soil on ditch banks, pasture edges, and old-field transitions where tip-rooting spreads.
   Border Plant: Managed hedgerows become a living barrier that slows trespass and contains livestock better than smooth wire alone.
 companions:
-- Elderberry — taller shrub neighbor at the thicket edge with different fruiting season
-- American Plum — thorny fencerow partner diversifying bloom and fruit for wildlife
-- Blackberry Lily — ornamental accent (actually iris relative) along paths for human
-  scale beside brutal canes
+- slug: elderberry
+  name: Elderberry
+- slug: american-plum
+  name: American Plum
 cautions:
 - Thorns — serious puncture hazard; site away from high-traffic pinch points
-- Invasive tendency outside native range — verify local ecology before moving clones
-  across regions
+- Invasive tendency outside native range — verify local ecology before moving clones across regions
 pests:
 - Apple Maggot
 - Apple Scab
@@ -78,3 +77,6 @@ pests:
 - Tent Caterpillar
 growth_habit: Thorny arching blackberry canes; early-summer black fruits; thicket-forming
 data_quality_score: 0.85
+companions_unresolved:
+- name: Blackberry Lily
+  original: Blackberry Lily — ornamental accent (actually iris relative) along paths for human scale beside brutal canes

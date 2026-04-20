@@ -32,20 +32,19 @@ purpose: |-
   Ornamental: Coppery peeling bark and glossy opposite leaves read tropical even when fruit is sparse -- drought-tough once established.
   Border Plant: Thorny selections stop goats and humans -- living fence for frost-free ranch edges.
 companions:
-- Papaya — fast overstory for young guava; both want warm-season moisture management
-- Pineapple — ground-level bromeliad production under open guava skirt where light
-  penetrates
-- Mexican Sunflower — nutrient-scavenging chop-and-drop support in tropical polycultures;
-  attracts pollinators
+- slug: papaya
+  name: Papaya
+- slug: mexican-sunflower
+  name: Mexican Sunflower
 cautions:
-- Fruit fly pressure — sanitation and harvest timing matter in humid tropics; bag
-  fruit if needed
-- Naturalization risk — confirm local invasive status before planting near natural
-  areas
+- Fruit fly pressure — sanitation and harvest timing matter in humid tropics; bag fruit if needed
+- Naturalization risk — confirm local invasive status before planting near natural areas
 pests:
 - Caribbean Fruit Fly
 - Oriental Fruit Fly
 - Scale Insects
-growth_habit: Evergreen myrtle relative; aromatic foliage; small guava-like fruits;
-  frost-free climates
+growth_habit: Evergreen myrtle relative; aromatic foliage; small guava-like fruits; frost-free climates
 data_quality_score: 0.85
+companions_unresolved:
+- name: Pineapple
+  original: Pineapple — ground-level bromeliad production under open guava skirt where light penetrates

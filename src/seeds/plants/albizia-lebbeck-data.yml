@@ -39,9 +39,12 @@ purpose: |-
   Windbreaker: Fast straight boles slot into tropical shelterbelts that slow wind across tunnel houses -- pair with species that tolerate occasional branch shed during hurricanes instead of pretending this is oak-grade timber.
   Ornamental: Cream flower globes perfume humid nights loud enough to notice from the patio -- sweep spent petals off pool skimmers if you plant upwind of water features.
 companions:
-  - Lemongrass — aromatic edge crop tolerates sun and occasional shade; confuses some pest search patterns at the perimeter.
-  - Cassava — starch understory that handles dappled light once the canopy lifts.
-  - Sweet Potato — soil-covering living mulch on the sunny side of the drip line if you manage runners off the trunk.
+  - slug: lemongrass
+    name: Lemongrass
+  - slug: cassava
+    name: Cassava
+  - slug: sweet-potato
+    name: Sweet Potato
 cautions:
   - None documented
 pests:

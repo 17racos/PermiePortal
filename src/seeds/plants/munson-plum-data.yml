@@ -2,8 +2,8 @@ common_name: Munson Plum
 picture: munson_plum.webp
 scientific_name: Prunus munsoniana
 aka:
-- Wild Goose Plum
-- Munson Wild Plum
+  - Wild Goose Plum
+  - Munson Wild Plum
 family: Rosaceae
 zone: 5-9
 ideal_temp_min: 40
@@ -12,13 +12,13 @@ min_temp: -20
 max_temp: 100
 perennial: true
 layers:
-- Shrub
-- Tree
+  - Shrub
+  - Tree
 plant_function:
-- Edible
-- Wildlife Attractor
-- Border Plant
-- Erosion Control
+  - Edible
+  - Wildlife Attractor
+  - Border Plant
+  - Erosion Control
 description: |-
   Munson plum (Prunus munsoniana) is a North American wild plum complex member—often thicket-forming—valued for small tart fruit, spring bloom, and wildlife cover on slopes and fence lines. Plants behave as large shrubs to small trees around 8–15 feet (2.5–4.5 m), spreading by suckers into bird-friendly thickets when soil disturbance allows. In temperate permaculture it fills early-succession edges, stabilizes cuts, and supplies jam-grade fruit without pretending to be a supermarket hybrid.
 
@@ -33,54 +33,52 @@ purpose: |-
   Border Plant: Rhizomatous suckers knit livestock lanes, fence lines, and field edges into thorny living fences when spaced and mowed on the outward face -- interior thinning after fruiting keeps fungal lodging from turning the thicket into a twig pile.
   Erosion Control: Fibrous roots anchor cut banks, old pond berms, and road ditches where periodic mowing is the only management -- mulch young suckers the first season so grass does not win the race to the water table.
 companions:
-- Raspberry — bramble layer uses thicket edge light without competing at the same
-  root depth
-- Serviceberry — earlier fruiting small tree at the thicket margin for staggered wildlife
-  and human harvests
-- Wild Plum — related Prunus neighbor extending bloom and fruit timing across the
-  hedgerow
+  - slug: raspberry
+    name: Raspberry
+  - slug: serviceberry
+    name: Serviceberry
+  - slug: american-plum
+    name: American Plum
 cautions:
-- Black Walnut — juglone-sensitive plums may sulk within the drip line; site outside
-  the chemical jurisdiction
-- Livestock — pits and cyanogenic tissues are not appropriate browse snacks
+  - Black Walnut — juglone-sensitive plums may sulk within the drip line; site outside the chemical jurisdiction
+  - Livestock — pits and cyanogenic tissues are not appropriate browse snacks
 pests:
-- Aphids
-- Apple Maggot
-- Apple Scab
-- Bagworm
-- Blackberry Psyllid
-- Cherry Fruit Fly
-- Codling Moth
-- Cyclamen Mite
-- Fall Webworm
-- Japanese Beetles
-- Lesser Peachtree Borer
-- Oriental Fruit Fly
-- Oriental Fruit Moth
-- Peach Twig Borer
-- Peachtree Borer
-- Pear Psylla
-- Plum Curculio
-- Raspberry Beetle
-- Raspberry Cane Borer
-- Rose Slug
-- Sparganothis Fruitworm
-- Spittlebugs
-- Stink Bug
-- Strawberry Root Weevil
-- Twig Girdlers
-- Vine Weevil
-- Brown Rot
-- Fire Blight
-- Gall Mite
-- Leaf Blight
-- Leaf Spot
-- Rust Mite
-- Spotted Lanternfly
-- Brown Marmorated Stink Bug
-- Eastern Tent Caterpillar
-- Harlequin Ladybird
-- Tent Caterpillar
-growth_habit: Suckering deciduous shrub to small tree; white spring flowers; small
-  red-yellow plums
+  - Aphids
+  - Apple Maggot
+  - Apple Scab
+  - Bagworm
+  - Blackberry Psyllid
+  - Cherry Fruit Fly
+  - Codling Moth
+  - Cyclamen Mite
+  - Fall Webworm
+  - Japanese Beetles
+  - Lesser Peachtree Borer
+  - Oriental Fruit Fly
+  - Oriental Fruit Moth
+  - Peach Twig Borer
+  - Peachtree Borer
+  - Pear Psylla
+  - Plum Curculio
+  - Raspberry Beetle
+  - Raspberry Cane Borer
+  - Rose Slug
+  - Sparganothis Fruitworm
+  - Spittlebugs
+  - Stink Bug
+  - Strawberry Root Weevil
+  - Twig Girdlers
+  - Vine Weevil
+  - Brown Rot
+  - Fire Blight
+  - Gall Mite
+  - Leaf Blight
+  - Leaf Spot
+  - Rust Mite
+  - Spotted Lanternfly
+  - Brown Marmorated Stink Bug
+  - Eastern Tent Caterpillar
+  - Harlequin Ladybird
+  - Tent Caterpillar
+growth_habit: Suckering deciduous shrub to small tree; white spring flowers; small red-yellow plums
 data_quality_score: 0.79

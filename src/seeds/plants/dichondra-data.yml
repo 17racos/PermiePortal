@@ -2,8 +2,8 @@ common_name: Dichondra
 picture: dichondra.webp
 scientific_name: Dichondra repens
 aka:
-  - Lawn leaf
-  - Kidneyweed
+- Lawn leaf
+- Kidneyweed
 family: Convolvulaceae
 zone: 8-11
 ideal_temp_min: 55
@@ -12,11 +12,11 @@ min_temp: 20
 max_temp: 100
 perennial: true
 layers:
-  - Ground Cover
+- Ground Cover
 plant_function:
-  - Ground Cover
-  - Ornamental
-  - Erosion Control
+- Ground Cover
+- Ornamental
+- Erosion Control
 description: |-
   Dichondra is a creeping coin-leaf ground cover that reads ‘lawn’ to people allergic to grass monocultures. It mats low, tolerates light foot traffic, and laughs at mowing schedules. In subtropical and tropical Americas humidity, give it drainage and airflow or it will invite fungal drama like any other mat-forming plant.
 
@@ -30,15 +30,19 @@ purpose: |-
   Ornamental: Bright green kidneyweed reads as intentional lawn alternative in partial sun without ryegrass monoculture.
   Erosion Control: Stolons knit gentle slopes on irrigated terraces where soil would otherwise wash between pavers.
 companions:
-  - Peach
-  - Citrus
-  - Thyme
+- slug: peach-tree
+  name: Peach tree
+- slug: thyme
+  name: Thyme
 cautions:
-  - Deep shade plus constant wet — mildew city
+- Deep shade plus constant wet — mildew city
 pests:
-  - Cutworms
-  - Slugs
-  - Snails
-  - Sweet Potato Weevil
+- Cutworms
+- Slugs
+- Snails
+- Sweet Potato Weevil
 plant_traits:
-  - Drought Tolerant
+- Drought Tolerant
+companions_unresolved:
+- name: Citrus
+  original: Citrus

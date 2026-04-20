@@ -33,13 +33,10 @@ purpose: |-
   Ground Cover: Low, fine foliage forms a temporary living mulch in lean sand -- it will not smother established perennials but does shade germinating weeds through the bloom window.
   Wildlife Attractor: Finches and other granivores strip dry heads once seeds mature -- leave spent inflorescences if you want late-season bird traffic without supplemental feeders.
 companions:
-- Liatris — vertical spikes contrast low Coreopsis mounds in prairie-style beds
-- Bluestem — warm-season grasses carry structure after annuals finish
-- Partridge Pea — yellow-flowered annual legume complements bloom palette and soil
-  biology
+- slug: partridge-pea
+  name: Partridge Pea
 cautions:
-- Heavy fertility and irrigation can produce lush flop—lean soil often gives better
-  posture
+- Heavy fertility and irrigation can produce lush flop—lean soil often gives better posture
 pests:
 - Aphids
 - Banded Winged Whitefly
@@ -50,3 +47,8 @@ pests:
 - Root Aphid
 growth_habit: Annual coreopsis; gold rays with dark centers; sandy open-ground affinity
 data_quality_score: 0.83
+companions_unresolved:
+- name: Liatris
+  original: Liatris — vertical spikes contrast low Coreopsis mounds in prairie-style beds
+- name: Bluestem
+  original: Bluestem — warm-season grasses carry structure after annuals finish

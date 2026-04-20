@@ -32,10 +32,12 @@ purpose: |-
   Wildlife Attractor: Flat white cymes feed syrphid flies and native bees in late spring while heavy berry umbels feed catbirds and robins in summer -- plan netting or a sacrificial row because traffic is loud.
   Mulcher: Fast suckering canes produce soft stems and compound leaves for chop-and-drop along rain-garden berms -- cut after flowering if you need mulch without sacrificing every berry cluster on that cane.
 companions:
-- Comfrey
-- Yarrow
-- Hazelnut
-- Pawpaw
+- slug: comfrey
+  name: Comfrey
+- slug: yarrow
+  name: Yarrow
+- slug: pawpaw
+  name: Pawpaw
 cautions:
 - Deep dry shade
 pests:
@@ -43,3 +45,6 @@ pests:
 - Japanese Beetles
 - Borers
 - Powdery Mildew
+companions_unresolved:
+- name: Hazelnut
+  original: Hazelnut

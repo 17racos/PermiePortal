@@ -2,9 +2,9 @@ common_name: Marigold
 picture: marigold.webp
 scientific_name: Tagetes spp.
 aka:
-  - French Marigold (Tagetes patula)
-  - African Marigold (Tagetes erecta)
-  - Mexican Marigold (Tagetes lucida)
+- French Marigold (Tagetes patula)
+- African Marigold (Tagetes erecta)
+- Mexican Marigold (Tagetes lucida)
 family: Asteraceae
 zone: 2-11
 ideal_temp_min: 60
@@ -13,15 +13,15 @@ min_temp: 20
 max_temp: 100
 perennial: false (grown as an annual in most climates)
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
-  - Pest Management
-  - Border Plant
-  - Water Purification
+- Edible
+- Medicinal
+- Pollinator
+- Wildlife Attractor
+- Pest Management
+- Border Plant
+- Water Purification
 description: |-
   Marigold (Tagetes spp.) is a hardy, fast-growing flowering plant known for its bright yellow, orange, and red blossoms. It is commonly used in gardens for pest control and soil improvement. Marigolds are easy to grow, requiring minimal maintenance, and they bloom profusely throughout the growing season.
 
@@ -39,25 +39,31 @@ purpose: |-
   Wildlife Attractor: Hoverflies and parasitic wasps work flat yellow platforms for nectar while hunting aphids on neighboring brassica leaves in late summer.
   Pest Management: Interplanted rows reduce root-knot nematode counts in sandy vegetable soils when marigold roots occupy the bed all season -- effect is species- and timing-specific, not a sticker on the pot.
   Border Plant: Twelve-inch French types edge tomato beds with color coding for succession sow dates -- tall African types back-stop corn rows as visible bee billboards.
-  Water Purifier: Tagetes roots take up soluble lead and zinc in contaminated-soil trials used for science, not kitchen confidence -- useful language for brownfield phytostabilization designs, not drinking-water magic.
+  Water Purification: Tagetes roots take up soluble lead and zinc in contaminated-soil trials used for science, not kitchen confidence -- useful language for brownfield phytostabilization designs, not drinking-water magic.
 companions:
-  - Tomato
-  - Basil
-  - Pepper
-  - Cabbage
-  - Eggplant
+- slug: tomato
+  name: Tomato
+- slug: basil
+  name: Basil
+- slug: cabbage
+  name: Cabbage
+- slug: eggplant
+  name: Eggplant
 cautions:
-  - Bean
+- Bean
 pests:
-  - Aphids
-  - Banded Winged Whitefly
-  - Greenhouse Whitefly
-  - Lettuce Aphid
-  - Lubber Grasshopper
-  - Root Aphid
-  - Slugs
-  - Spider Mites
-  - Whiteflies
+- Aphids
+- Banded Winged Whitefly
+- Greenhouse Whitefly
+- Lettuce Aphid
+- Lubber Grasshopper
+- Root Aphid
+- Slugs
+- Spider Mites
+- Whiteflies
 growth_habit: Tree
 data_quality_score: 0.8
 field_observations: No field observations yet
+companions_unresolved:
+- name: Pepper
+  original: Pepper

@@ -2,8 +2,8 @@ common_name: Bitter Orange
 picture: bitter_orange.webp
 scientific_name: Citrus × aurantium
 aka:
-  - Seville orange
-  - Sour orange
+- Seville orange
+- Sour orange
 family: Rutaceae
 zone: 9-11
 ideal_temp_min: 55
@@ -12,13 +12,13 @@ min_temp: 22
 max_temp: 105
 perennial: true
 layers:
-  - Tree
-  - Shrub
+- Tree
+- Shrub
 plant_function:
-  - Edible
-  - Medicinal
-  - Ornamental
-  - Wildlife Attractor
+- Edible
+- Medicinal
+- Ornamental
+- Wildlife Attractor
 description: |-
   Bitter orange is the citrus your marmalade dreams are built on — too sour for polite juice, perfect for candied peel and existential cooking. Thorny and tough, it has escaped and naturalized in places that now regret casual planting. In subtropical and tropical Americas it is marginal outside protected 9b pockets; young trees freeze, older wood can return from below if rootstock cooperates. Citrus greening territory means management reality, not Pinterest.
 
@@ -33,27 +33,31 @@ purpose: |-
   Ornamental: Thorny evergreen scaffold carries perfumed white blooms in spring before small orange fruit dot the canopy -- use as impenetrable hedgerow where citrus greening management still fits your ethics.
   Wildlife Attractor: Open citrus flowers feed honeybees while fallen sour fruit feeds opossums and wasps along fencelines -- surrender windfall strips if you want wildlife rent without cleaning every orange.
 companions:
-  - Comfrey
-  - Clover
-  - Nasturtium
+- slug: comfrey
+  name: Comfrey
+- slug: nasturtium
+  name: Nasturtium
 cautions:
-  - Planting in known citrus greening quarantine fantasy
-  - Overhead irrigation that fuels fungal pity parties
+- Planting in known citrus greening quarantine fantasy
+- Overhead irrigation that fuels fungal pity parties
 pests:
-  - Asian Citrus Psyllid
-  - Broad Mite
-  - Brown Citrus Aphid
-  - Citrus Greening
-  - Citrus Leafminer
-  - Citrus Mealybug
-  - Citrus Red Mite
-  - Citrus Root Weevil
-  - Citrus Whitefly
-  - Leaf Curl
-  - Oriental Fruit Fly
-  - Scale insects
-  - Texas Citrus Mite
-  - Citrus Canker
-  - Citrus Rust Mite
-  - Rust Mite
-  - Swallowtail Caterpillar
+- Asian Citrus Psyllid
+- Broad Mite
+- Brown Citrus Aphid
+- Citrus Greening
+- Citrus Leafminer
+- Citrus Mealybug
+- Citrus Red Mite
+- Citrus Root Weevil
+- Citrus Whitefly
+- Leaf Curl
+- Oriental Fruit Fly
+- Scale insects
+- Texas Citrus Mite
+- Citrus Canker
+- Citrus Rust Mite
+- Rust Mite
+- Swallowtail Caterpillar
+companions_unresolved:
+- name: Clover
+  original: Clover

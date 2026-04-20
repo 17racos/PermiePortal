@@ -32,17 +32,18 @@ purpose: |-
   Wildlife Attractor: Small flies and beetles work the inflorescences when bee-heavy meadows are quiet -- leave spikes standing if you want seed for goldfinches after frost.
   Mulcher: Large dissected leaves build deep leaf mold under oaks and maples -- cut stems after hard freeze if tidy winter views matter more than standing insect habitat.
 companions:
-- Solomon's Seal — arching shade perennial that shares moist humus and different height
-  layers
-- Wild Ginger — low evergreen groundcover that appreciates cohosh shade and leaf mulch
-- Red Oak — high canopy that provides the dappled light regime cohosh expects
+- slug: wild-ginger
+  name: Wild Ginger
 cautions:
-- Hepatotoxicity concerns with concentrated extracts — consult qualified practitioners;
-  not casual self-experimentation
+- Hepatotoxicity concerns with concentrated extracts — consult qualified practitioners; not casual self-experimentation
 - Pregnancy and liver conditions — widely contraindicated in professional herb literature
 pests:
 - Slugs
 - Japanese Beetles
-growth_habit: Upright herbaceous perennial; tall white racemes; compound leaves; woodland
-  shade
+growth_habit: Upright herbaceous perennial; tall white racemes; compound leaves; woodland shade
 data_quality_score: 0.85
+companions_unresolved:
+- name: Solomon's Seal
+  original: Solomon's Seal — arching shade perennial that shares moist humus and different height layers
+- name: Red Oak
+  original: Red Oak — high canopy that provides the dappled light regime cohosh expects

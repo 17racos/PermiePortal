@@ -31,11 +31,14 @@ purpose: |-
   Windbreaker: Multiple parallel rows of trained scaffolds slow desiccating wind across vegetable blocks and berry tunnels in Mediterranean-climate valleys -- keep crowns open so humid pockets do not harbor hull rot fungi.
   Border Plant: Small to medium deciduous crowns mark field edges and driveway entries with early bloom and summer shade -- root competition is real, so keep heavy feeders outside the drip line unless irrigated.
 companions:
-- Clover
-- Fennel
-- Borage
-- Garlic
-- Comfrey
+- slug: fennel
+  name: Fennel
+- slug: borage
+  name: Borage
+- slug: garlic
+  name: Garlic
+- slug: comfrey
+  name: Comfrey
 cautions:
 - Grass
 pests:
@@ -78,3 +81,6 @@ pests:
 - Tent Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Clover
+  original: Clover

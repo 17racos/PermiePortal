@@ -28,9 +28,12 @@ purpose: |-
   Medicinal: Leaf and seed oils show up in global traditions as cooling digestives and metal-chelating kitchen supports; evidence quality varies by claim.
   Pollinator: Lacy white umbels feed tiny parasitic wasps, syrphid flies, and bees during the bolt phase when you stop plucking leaves for the kitchen.
 companions:
-  - Lettuce (Lactuca sativa) — shared cool-season window and similar moisture needs make scheduling easier.
-  - Marigold (Tagetes patula) — attracts beneficial insects and helps you spot aphid flare-ups sooner.
-  - Carrot (Daucus carota) — rotating between roots and greens diversifies your bed structure and supports soil biodiversity.
+  - slug: lettuce
+    name: Lettuce
+  - slug: marigold
+    name: Marigold
+  - slug: carrot
+    name: Carrot
 cautions:
   - Bolting happens in heat; use partial shade and succession sowing to keep leaves usable.
 pests:

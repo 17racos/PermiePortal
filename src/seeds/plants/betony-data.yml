@@ -36,9 +36,12 @@ purpose: |-
   Ground Cover: Evergreen basal rosettes tile bare niches between taller perennials when clumps expand slowly -- foot traffic tolerance is light, not stadium-grade.
   Ornamental: Crinkled leaves and stacked pink wands read honest cottage -- pair with yarrow for complementary texture without matching water needs stupidly.
 companions:
-  - Yarrow — contrasting foliage and shared pollinators; both tolerate lean soil if drainage is real.
-  - Echinacea — staggered bloom keeps the border from going silent by July.
-  - Hyssop officinalis — mint-family neighbor with different flower architecture; shared bee traffic, dissimilar height if you plan it.
+  - slug: yarrow
+    name: Yarrow
+  - slug: echinacea
+    name: Echinacea
+  - slug: hyssop-officinalis
+    name: Hyssop officinalis
 cautions:
   - None documented
 pests:

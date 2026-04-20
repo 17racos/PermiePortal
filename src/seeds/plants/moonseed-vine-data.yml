@@ -32,9 +32,12 @@ purpose: |-
   Medicinal: Berberine-class alkaloids drove historic indigenous use of roots and stems for documented protocols -- modern self-experimentation is a bad trade because fruit is toxic and easily confused with small wild grapes.
   Shade Provider: Summer leaf canopy on overhead lattice cuts glare on patios and west windows while roots stay in cooler edge soils -- cut hard in late winter if you need to redirect energy toward fruit for birds.
 companions:
-  - Riverbank Grape — true grape nearby trains the eye to separate leaf and fruit characters
-  - Roughleaf Dogwood — sturdy stems tolerate light twining without collapsing
-  - Peppervine — another native vine for comparative ID training along the same fence line
+  - slug: riverbank-grape
+    name: Riverbank Grape
+  - slug: roughleaf-dogwood
+    name: Roughleaf Dogwood
+  - slug: peppervine
+    name: Peppervine
 cautions:
   - Fruit and other parts toxic; can be mistaken for wild grapes
 growth_habit: Deciduous twining woody vine climbing several meters on supports

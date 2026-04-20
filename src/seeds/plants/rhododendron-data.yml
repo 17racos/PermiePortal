@@ -31,11 +31,8 @@ purpose: |-
   Wildlife Attractor: Dense twigging shelters winter wrens and towhees from hawks; toxic leaves deter mammal browse so nests stay less molested than on soft-deciduous shrubs -- still plan spacing for airflow against lace bugs.
   Erosion Control: Fibrous shallow roots knit mulch on shaded cuts where turf would slide -- pair with rotted oak leaf mold, not alkaline topsoil, or chlorosis paints the whole slope yellow by August.
 companions:
-- Fern
-- Hosta
-- Azalea
-- Dogwood
-- Camellia
+- slug: azalea
+  name: Azalea
 cautions:
 - None
 pests:
@@ -50,3 +47,12 @@ pests:
 - Caterpillars
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Fern
+  original: Fern
+- name: Hosta
+  original: Hosta
+- name: Dogwood
+  original: Dogwood
+- name: Camellia
+  original: Camellia

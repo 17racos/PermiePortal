@@ -31,9 +31,10 @@ purpose: |-
   Erosion Control: interwoven stolons knit sandy berms and gentle pond banks after wet-season rains when rooted plugs spread into continuous living geotextile.
   Wildlife Attractor: humid carpets shelter tree frogs, wolf spiders, and predatory beetles that patrol mulch seams in moist subtropical courtyards.
 companions:
-- Dwarf Mondo Grass — fine texture contrast in shade paths with similar moisture needs
-- Blue Flag Iris — upright leaves rise from dichondra carpets at pond edges
-- Swamp Sunflower — taller seasonal color behind low ponysfoot foreground in wet sun
+- slug: blue-flag-iris
+  name: Blue Flag Iris
+- slug: swamp-sunflower
+  name: Swamp Sunflower
 cautions:
 - Foot traffic — not a sports lawn substitute; breaks down under heavy compaction
 - Winter cold — marginal in cooler zone 7 without protected microsites
@@ -43,3 +44,6 @@ pests:
 - Sweet Potato Weevil
 growth_habit: Creeping perennial; small rounded leaves; moist part-sun to sun mats
 data_quality_score: 0.85
+companions_unresolved:
+- name: Dwarf Mondo Grass
+  original: Dwarf Mondo Grass — fine texture contrast in shade paths with similar moisture needs

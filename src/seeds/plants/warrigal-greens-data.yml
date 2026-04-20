@@ -35,9 +35,10 @@ purpose: |-
   Ground Cover: Prostrate stems root at nodes and carpet sand -- living mulch under beach sunflowers where true spinach collapses.
   Drought Tolerant: Succulent foliage and deep roots shrug off dry spells once established -- still prefers occasional irrigation for tender tips.
 companions:
-- Beach sunflower
-- Sweet potato
-- Okra
+- slug: sweet-potato
+  name: Sweet Potato
+- slug: okra
+  name: Okra
 cautions:
 - Eating huge raw salads without blanching
 - Boggy shade
@@ -47,3 +48,7 @@ pests:
 - caterpillars
 growth_habit: Prostrate to ascending succulent herb
 data_quality_score: 0.78
+companions_unresolved:
+- name: Beach Sunflower
+  original: Beach sunflower
+  note: normalization_target_not_in_index

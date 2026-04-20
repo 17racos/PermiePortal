@@ -33,13 +33,12 @@ purpose: |-
   Ornamental: Two-tiered whorls of lance leaves create a botanical puzzle for shade gardeners -- first-year plants show one whorl, flowering stems add a second story that signals maturity.
   Ground Cover: Rhizomes creep slowly through leaf mold, filling niches between trilliums without forming dense turf -- mulch with deciduous duff, not shredded rubber, so mycorrhizae stay connected.
 companions:
-- Trillium — shares rich mesic shade timing; avoid trampling when working beds
-- Mayapple — umbrella leaves create lower canopy layer beneath Medeola tiers
-- Wild Ginger — evergreen-ish ground aroma without competing for the same rooting
-  horizon
+- slug: mayapple
+  name: Mayapple
+- slug: wild-ginger
+  name: Wild Ginger
 cautions:
-- Wild harvest collapses local populations—grow from ethical nursery stock and treat
-  as a conservation species, not a snack farm
+- Wild harvest collapses local populations—grow from ethical nursery stock and treat as a conservation species, not a snack farm
 pests:
 - Slugs
 - Snails
@@ -48,3 +47,6 @@ pests:
 - Sunscald
 growth_habit: Woodland perennial; tiered whorled leaves; nodding flowers; dark berries
 data_quality_score: 0.84
+companions_unresolved:
+- name: Trillium
+  original: Trillium — shares rich mesic shade timing; avoid trampling when working beds

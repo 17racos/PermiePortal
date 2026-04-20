@@ -2,8 +2,8 @@ common_name: Cythera
 picture: cythera.webp
 scientific_name: Phlomis × cytherea
 aka:
-- Phlomis cytherea
-- Jerusalem sage hybrid
+  - Phlomis cytherea
+  - Jerusalem sage hybrid
 family: Lamiaceae
 zone: 7-10
 ideal_temp_min: 50
@@ -12,13 +12,13 @@ min_temp: 0
 max_temp: 100
 perennial: true
 layers:
-- Shrub
-- Herbaceous
+  - Shrub
+  - Herbaceous
 plant_function:
-- Ornamental
-- Pollinator
-- Wildlife Attractor
-- Border Plant
+  - Ornamental
+  - Pollinator
+  - Wildlife Attractor
+  - Border Plant
 description: |-
   Cythera (Phlomis × cytherea) is a small evergreen subshrub in the mint family, a named hybrid of Mediterranean Phlomis species, valued for sage-like gray-green leaves and stacked whorls of soft yellow hooded flowers over a long warm-season window. Plants typically form rounded mounds about 2–3 feet (0.6–1 m) tall and wide with woody bases. It suits dry borders, sunny banks, and pollinator strips in Mediterranean and warm-temperate climates where summer rain is unreliable.
 
@@ -33,16 +33,17 @@ purpose: |-
   Wildlife Attractor: Rattling seed heads feed finches if stems stand into cool weather instead of deadheading everything.
   Border Plant: Rounded 2–3 foot mounds fit dry path edges and stone walls where drainage is sharp and winters stay mild.
 companions:
-- Lavender — shared drainage religion and complementary flower color temperature
-- Rosemary — matches sun and dry feet while contrasting leaf shape along the border
-- Yarrow — shallow roots and flat umbels knit the front edge without shading Phlomis
-  crowns
+  - slug: lavender
+    name: Lavender
+  - slug: rosemary
+    name: Rosemary
+  - slug: yarrow
+    name: Yarrow
 cautions:
-- Poor drainage — crown rot in rainy winters on heavy clay without slope or amendment
-- Deep shade — opens habit with few flowers and leggy stems reaching for light
+  - Poor drainage — crown rot in rainy winters on heavy clay without slope or amendment
+  - Deep shade — opens habit with few flowers and leggy stems reaching for light
 pests:
-- Aphids
-- Spider Mites
-growth_habit: Evergreen mint-family subshrub; woody base; whorled hooded flowers;
-  drought-tolerant mound
+  - Aphids
+  - Spider Mites
+growth_habit: Evergreen mint-family subshrub; woody base; whorled hooded flowers; drought-tolerant mound
 data_quality_score: 0.74

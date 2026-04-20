@@ -32,9 +32,12 @@ purpose: |-
   Windbreaker: Shear into formal hedges or leave irregular screens on dunes -- tolerates salt and drought once established.
   Erosion Control: Fibrous roots bind coastal sand -- survives hurricane salt spray that kills fussier evergreens.
 companions:
-  - Beautyberry
-  - Muhly grass
-  - Wiregrass
+  - slug: hairawn-muhly
+    name: Hairawn Muhly
+  - slug: beautyberry
+    name: Beautyberry
+  - slug: wiregrass
+    name: Wiregrass
 cautions:
   - Confusing with other hollies for tea experiments
   - Planting only males if you wanted berries for wildlife or aesthetics

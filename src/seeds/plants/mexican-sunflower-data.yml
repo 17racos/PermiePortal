@@ -10,11 +10,11 @@ min_temp: 32
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Pollinator
-  - Wildlife Attractor
-  - Mulcher
+- Pollinator
+- Wildlife Attractor
+- Mulcher
 description: |-
   Mexican sunflower (Tithonia diversifolia) is a fast-growing, sun-loving plant prized for its big orange daisy blooms and its ability to pump out biomass quickly. It belongs to the daisy family and is commonly grown across warm temperate and subtropical climates as a short-season annual or managed perennial. In permaculture, it matters because it gives you two inputs at once: a high-visibility nectar source for pollinators and a chopable mass you can turn into mulch so the soil stays covered instead of cooking under bare sun.
 
@@ -31,13 +31,17 @@ purpose: |-
   Border Plant: A single row of diversifolia screens compost piles, water tanks, or unsightly fence lines within one warm season without the permanent shade commitment of a tree hedge.
   Erosion Control: Dense fibrous root mass binds topsoil on disturbed slopes and orchard alleys where bare soil would compact and crust between rain events.
 companions:
-  - Corn (Zea mays) — tall structure improves edge microclimate while sunflower adds nectar and chopable residue.
-  - Marigold (Tagetes patula) — keeps beneficial insect pressure active and makes it easier to spot pest surges early.
-  - Basil (Ocimum basilicum) — shares warm-season growth and benefits from sunflower’s canopy shading when plants are young.
+- slug: marigold
+  name: Marigold
+- slug: basil
+  name: Basil
 cautions:
-  - Manage self-seeding; it can turn into a stubborn volunteer in small gardens.
+- Manage self-seeding; it can turn into a stubborn volunteer in small gardens.
 pests:
-  - Aphids
-  - Spider Mites
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Spider Mites
+- Root Rot
+- Caterpillars
+companions_unresolved:
+- name: Corn
+  original: Corn (Zea mays) — tall structure improves edge microclimate while sunflower adds nectar and chopable residue.

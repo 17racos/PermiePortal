@@ -2,8 +2,8 @@ common_name: Florida Thatch Palm
 picture: florida_thatch_palm.webp
 scientific_name: Thrinax radiata
 aka:
-- Silk palm
-- Sea thatch palm
+  - Silk palm
+  - Sea thatch palm
 family: Arecaceae
 zone: 10b-12
 ideal_temp_min: 70
@@ -12,12 +12,12 @@ min_temp: 28
 max_temp: 105
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Ornamental
-- Wildlife Attractor
-- Fiber
-- Border Plant
+  - Ornamental
+  - Wildlife Attractor
+  - Fiber
+  - Border Plant
 description: |-
   Florida thatch palm (Thrinax radiata) is a medium fan palm of coastal tropical hammocks and limestone substrates in the Caribbean basin and parts of southern peninsular Florida, forming a slender gray trunk topped with green palmate leaves. Height commonly reaches 20–30 feet (6–9 m) in open conditions. Historically used for thatch and crafts, it now anchors wind-tolerant landscaping, parking islands, and coastal food-forest edges where salt breeze is part of the contract.
 
@@ -32,25 +32,23 @@ purpose: |-
   Fiber: Traditional Keys thatch uses old gray frond fiber when harvest timing respects carbohydrate drawdown on living crowns -- modern crafters braid cordage from ethically thinned fans after hurricane season removes brown sails anyway.
   Border Plant: Single trunks line limestone paths where foot traffic needs visibility without wide-spreading surface roots buckling pavers like Ficus microcarpa hedges you already ripped out twice on the same walk score.
 companions:
-- Coconut Palm — taller overstory for dappled coastal polycultures with staggered
-  canopy heights
-- Sea Almond — complementary coastal tree layer with different leaf texture at the
-  property line
-- Lemongrass — perimeter herb marking irrigation zones without competing for crown
-  space
+  - slug: coconut-palm
+    name: Coconut Palm
+  - slug: tropical-almond
+    name: Tropical Almond
+  - slug: lemongrass
+    name: Lemongrass
 cautions:
-- Hard frost — tissue damage on marginally hardy sites; protect juveniles during rare
-  cold events
-- Nutrient deficiencies on pure limestone — watch for persistent chlorosis patterns,
-  not one-off yellow leaves
+  - Hard frost — tissue damage on marginally hardy sites; protect juveniles during rare cold events
+  - Nutrient deficiencies on pure limestone — watch for persistent chlorosis patterns, not one-off yellow leaves
 pests:
-- Coconut Mite
-- Palm Weevil
-- Palmetto Weevil
-- Red Palm Weevil
-- Rhinoceros Beetle
-- Scale Insects
-- Ganoderma Butt Rot
-- Heart Rot
+  - Coconut Mite
+  - Palm Weevil
+  - Palmetto Weevil
+  - Red Palm Weevil
+  - Rhinoceros Beetle
+  - Scale Insects
+  - Ganoderma Butt Rot
+  - Heart Rot
 growth_habit: Slender single-trunk fan palm; coastal limestone and sand; tropical/subtropical
 data_quality_score: 0.78

@@ -29,9 +29,12 @@ purpose: |-
   Ornamental: Magenta-purple daisy flowers and jelly-cylinder leaves read as finer-scale living mulch than chunky Mesembryanthemum on green roofs, rockeries, and salt-spray balconies -- full sun keeps mats tight; shade etiolates and rots crowns in humid winters.
   Erosion Control: Prostrate stems root at nodes, locking dune sand and roof media against sheet flow -- pair with deeper-rooted dune shrubs landward so the ice plant sheet is not the only structural line in a storm surge.
 companions:
-  - Sea Rocket — annual brassy cousin on upper beach zones with staggered life cycle
-  - Saltmarsh Aster — perennial composite for slightly less saline back-dune moisture
-  - Railroad Vine — tropical beach vine overhead while ice plant holds the sand sheet
+  - slug: sea-rocket
+    name: Sea Rocket
+  - slug: saltmarsh-aster
+    name: Saltmarsh Aster
+  - slug: beach-morning-glory
+    name: Beach Morning Glory
 cautions:
   - Do not confuse with unrelated toxic garden plants called “ice plant” in other regions
 pests:

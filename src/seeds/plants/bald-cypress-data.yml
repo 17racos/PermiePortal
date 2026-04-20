@@ -2,8 +2,8 @@ common_name: Bald Cypress
 picture: bald_cypress.webp
 scientific_name: Taxodium distichum
 aka:
-- Swamp Cypress
-- Deciduous Cypress
+  - Swamp Cypress
+  - Deciduous Cypress
 family: Cupressaceae
 zone: 4-10
 ideal_temp_min: 60
@@ -12,13 +12,13 @@ min_temp: -20
 max_temp: 105
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Wildlife Attractor
-- Erosion Control
-- Shade Provider
-- Mulcher
-- Ornamental
+  - Wildlife Attractor
+  - Erosion Control
+  - Shade Provider
+  - Mulcher
+  - Ornamental
 description: |-
   Bald cypress (Taxodium distichum) is a deciduous conifer of southeastern North American swamps and river bottoms, famous for buttressed trunks, rusty fall needles, and knees in flooded soils. It reaches 60–100+ feet (18–30+ m) with a strong straight bole when given room, tolerating long seasonal inundation that drowns lesser trees. In permaculture it is a cornerstone riparian and rain-garden canopy for temperate to subtropical zones, sequestering carbon and stabilizing banks while dropping acidic needle mulch.
 
@@ -34,20 +34,20 @@ purpose: |-
   Mulcher: Rust-colored needle rain acidifies mulch rings for blueberries and azaleas downstream -- sweep intakes and pond skimmers where mats would clog pumps.
   Ornamental: Feathery summer foliage and copper fall needles beat turf theater on wet berms -- chlorosis on high-pH fill means match species to soil chemistry, not more iron wishful thinking.
 companions:
-- Highbush Blueberry — appreciates cypress needle mulch and partial shade from high
-  canopy
-- Elderberry — wet-tolerant shrub layer along margins without matching final tree
-  height
-- Duck Potato — emergent edge species shares riparian aesthetics where water levels
-  fluctuate
+  - slug: highbush-blueberry
+    name: Highbush Blueberry
+  - slug: elderberry
+    name: Elderberry
 cautions:
-- High soil pH — persistent chlorosis without mulch or species better matched to alkaline
-  sites
+  - High soil pH — persistent chlorosis without mulch or species better matched to alkaline sites
 pests:
-- Bagworm
-- Borers
-- Scale Insects
-- Spider Mites
-growth_habit: Large deciduous conifer; buttressed base; feathery foliage; wet-site
-  specialist
+  - Bagworm
+  - Borers
+  - Scale Insects
+  - Spider Mites
+growth_habit: Large deciduous conifer; buttressed base; feathery foliage; wet-site specialist
 data_quality_score: 0.84
+companion_categories:
+  - name: Duck Potato
+    original: Duck Potato — emergent edge species shares riparian aesthetics where water levels fluctuate
+    type: ecosystem

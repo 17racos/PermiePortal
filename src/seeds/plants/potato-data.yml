@@ -30,10 +30,12 @@ purpose: |-
   Animal Fodder: Boiled culls and sorted smalls feed pigs and dairy cows while vine tops enter silage mixes after heat wilting to reduce solanine loads -- never feed greened sun-exposed tubers because glycoalkaloid spikes are real.
   Ground Cover: Fast-closing canopies between hilled rows shade soil, capillary wick evaporation, and suppress late-germinating weeds until canopy senescence -- timing matters: senesce tops before harvest so skins set.
 companions:
-- Beans
-- Cabbage
-- Corn
-- Marigold
+- slug: cabbage
+  name: Cabbage
+- slug: marigold
+  name: Marigold
+- slug: fava-bean
+  name: Fava Bean
 cautions:
 - Tomato
 - Eggplant
@@ -84,3 +86,13 @@ pests:
 - Mole Crickets
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index
+- name: Corn
+  original: Corn
+companions_normalized:
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

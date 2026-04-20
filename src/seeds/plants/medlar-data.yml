@@ -28,9 +28,12 @@ purpose: |-
   Ornamental: Twisted branches, large leaves, and odd brown pomes hang on into winter -- reads medieval beside manicured lawns.
   Wildlife Attractor: Spring nectar feeds early bees while bletting fruit drops feed rodents and wasps -- pick up drops if yellow jackets host conventions near patios.
 companions:
-  - Comfrey (Symphytum officinale) — chop-and-drop mulch supports tree feeding and improves soil structure.
-  - Garlic (Allium sativum) — helps with bed rotation timing and keeps pest pressure more visible around tree edges.
-  - Rosemary (Salvia rosmarinus) — aromatic, drought-tolerant companion that suits well-drained planting zones.
+  - slug: comfrey
+    name: Comfrey
+  - slug: garlic
+    name: Garlic
+  - slug: rosemary
+    name: Rosemary
 cautions:
   - Don’t rush eating: firm fruit needs bletting; otherwise it tastes like disappointment.
 pests:

@@ -2,7 +2,7 @@ common_name: Southern Crabapple
 picture: southern_crabapple.webp
 scientific_name: Malus angustifolia
 aka:
-- Narrowleaf Crabapple
+  - Narrowleaf Crabapple
 family: Rosaceae
 zone: 6-9
 ideal_temp_min: 40
@@ -11,13 +11,13 @@ min_temp: -10
 max_temp: 105
 perennial: true
 layers:
-- Shrub
-- Tree
+  - Shrub
+  - Tree
 plant_function:
-- Edible
-- Wildlife Attractor
-- Pollinator
-- Border Plant
+  - Edible
+  - Wildlife Attractor
+  - Pollinator
+  - Border Plant
 description: |-
   Southern crabapple (Malus angustifolia) is a native thorny shrub to small tree of southeastern North American wood margins, bearing fragrant pink-white spring flowers and small yellow-green crabapples that hang into winter for wildlife. Heights of 10–25 feet (3–7.5 m) occur, often multi-stemmed with suckers. Fruit is tart for human preserves; birds treat it as winter currency.
 
@@ -32,48 +32,51 @@ purpose: |-
   Pollinator: Clustered rose-family flowers open early enough to sync with native bee emergence on Gulf Coastal plain hedgerows.
   Border Plant: Thorny suckering thickets trace livestock lanes where fence wire alone would not slow determined animals.
 companions:
-- Wild Plum — thicket neighbor extending fruit succession
-- Serviceberry — earlier soft fruit in the same guild
-- Beautyberry — late color at the shrub layer below crabapple canopy
+  - slug: american-plum
+    name: American Plum
+  - slug: serviceberry
+    name: Serviceberry
+  - slug: beautyberry
+    name: Beautyberry
 cautions:
-- Fire Blight — prune strikes in dry weather; sanitize tools
-- Thorns — plan paths before planting lottery seedlings
+  - Fire Blight — prune strikes in dry weather; sanitize tools
+  - Thorns — plan paths before planting lottery seedlings
 pests:
-- Apple Maggot
-- Apple Scab
-- Bagworm
-- Blackberry Psyllid
-- Cherry Fruit Fly
-- Codling Moth
-- Cyclamen Mite
-- Fall Webworm
-- Japanese Beetles
-- Lesser Peachtree Borer
-- Oriental Fruit Fly
-- Oriental Fruit Moth
-- Peach Twig Borer
-- Peachtree Borer
-- Pear Psylla
-- Plum Curculio
-- Raspberry Beetle
-- Raspberry Cane Borer
-- Rose Slug
-- Sparganothis Fruitworm
-- Spittlebugs
-- Stink Bug
-- Strawberry Root Weevil
-- Twig Girdlers
-- Vine Weevil
-- Brown Rot
-- Fire Blight
-- Gall Mite
-- Leaf Blight
-- Leaf Spot
-- Rust Mite
-- Spotted Lanternfly
-- Brown Marmorated Stink Bug
-- Eastern Tent Caterpillar
-- Harlequin Ladybird
-- Tent Caterpillar
+  - Apple Maggot
+  - Apple Scab
+  - Bagworm
+  - Blackberry Psyllid
+  - Cherry Fruit Fly
+  - Codling Moth
+  - Cyclamen Mite
+  - Fall Webworm
+  - Japanese Beetles
+  - Lesser Peachtree Borer
+  - Oriental Fruit Fly
+  - Oriental Fruit Moth
+  - Peach Twig Borer
+  - Peachtree Borer
+  - Pear Psylla
+  - Plum Curculio
+  - Raspberry Beetle
+  - Raspberry Cane Borer
+  - Rose Slug
+  - Sparganothis Fruitworm
+  - Spittlebugs
+  - Stink Bug
+  - Strawberry Root Weevil
+  - Twig Girdlers
+  - Vine Weevil
+  - Brown Rot
+  - Fire Blight
+  - Gall Mite
+  - Leaf Blight
+  - Leaf Spot
+  - Rust Mite
+  - Spotted Lanternfly
+  - Brown Marmorated Stink Bug
+  - Eastern Tent Caterpillar
+  - Harlequin Ladybird
+  - Tent Caterpillar
 growth_habit: Thorny native crabapple; fragrant spring bloom; small persistent fruit
 data_quality_score: 0.79

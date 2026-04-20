@@ -2,9 +2,9 @@ common_name: Blueberry
 picture: blueberry.webp
 scientific_name: Vaccinium spp.
 aka:
-  - Highbush Blueberry (Vaccinium corymbosum)
-  - Lowbush Blueberry (Vaccinium angustifolium)
-  - Rabbiteye Blueberry (Vaccinium virgatum)
+- Highbush Blueberry (Vaccinium corymbosum)
+- Lowbush Blueberry (Vaccinium angustifolium)
+- Rabbiteye Blueberry (Vaccinium virgatum)
 family: Ericaceae
 zone: 3-10
 ideal_temp_min: 35
@@ -13,16 +13,16 @@ min_temp: -40
 max_temp: 100
 perennial: true
 layers:
-  - Shrub
+- Shrub
 plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
-  - Mulcher
-  - Dynamic Accumulator
-  - Erosion Control
-  - Border Plant
+- Edible
+- Medicinal
+- Pollinator
+- Wildlife Attractor
+- Mulcher
+- Dynamic Accumulator
+- Erosion Control
+- Border Plant
 description: |-
   Blueberry (Vaccinium spp.) is a deciduous or evergreen shrub, depending on the variety, known for its small, nutrient-rich blue berries. The plant typically grows between 30 cm–2.5 meters (1–8 feet) tall, with bell-shaped white or pink flowers in spring that develop into edible berries by summer.
 
@@ -43,49 +43,55 @@ purpose: |-
   Erosion Control: Shallow dense matting holds pine-bark mulch and drip irrigation in place on 5 to 15 percent slopes where bare mineral soil would sheet during summer storms.
   Border Plant: Tight hedge spacing at three to four feet on center makes a living fence tall enough to screen compost bins yet short enough to net without scaffolding -- bloom faces outward for pollinator access.
 companions:
-  - Strawberry
-  - Azalea
-  - Rhododendron
-  - Clover
-  - Pine
+- slug: strawberry
+  name: Strawberry
+- slug: azalea
+  name: Azalea
+- slug: rhododendron
+  name: Rhododendron
 cautions:
-  - Tomato
-  - Potato
-  - Pepper
+- Tomato
+- Potato
+- Pepper
 pests:
-  - Aphids
-  - Blueberry Maggot
-  - Cranberry Fruitworm
-  - Cranberry Tipworm
-  - Japanese Beetles
-  - Sparganothis Fruitworm
-  - Spider Mites
-  - Strawberry Root Weevil
-  - Vine Weevil
-  - White Grubs
-  - June Beetle Grubs
-  - Chafer Grubs
-  - Root Feeding Grubs
-  - Armored Scale
-  - Tea Scale
-  - Twig Borers
-  - Lace Bugs
-  - Treehoppers
-  - Root Aphid
-  - Glass Snails
-  - Leatherleaf Slug
-  - Nutrient Burn
-  - Powdery Mildew
-  - Gall Wasps
-  - Leaf Scorch
-  - Overwatering Root Rot
-  - Iron Deficiency
-  - Magnesium Deficiency
-  - Nitrogen Deficiency
-  - Potassium Deficiency
-  - Calcium Deficiency
-  - Azalea Caterpillar
-  - Jumping Worms
-  - Deer
+- Aphids
+- Blueberry Maggot
+- Cranberry Fruitworm
+- Cranberry Tipworm
+- Japanese Beetles
+- Sparganothis Fruitworm
+- Spider Mites
+- Strawberry Root Weevil
+- Vine Weevil
+- White Grubs
+- June Beetle Grubs
+- Chafer Grubs
+- Root Feeding Grubs
+- Armored Scale
+- Tea Scale
+- Twig Borers
+- Lace Bugs
+- Treehoppers
+- Root Aphid
+- Glass Snails
+- Leatherleaf Slug
+- Nutrient Burn
+- Powdery Mildew
+- Gall Wasps
+- Leaf Scorch
+- Overwatering Root Rot
+- Iron Deficiency
+- Magnesium Deficiency
+- Nitrogen Deficiency
+- Potassium Deficiency
+- Calcium Deficiency
+- Azalea Caterpillar
+- Jumping Worms
+- Deer
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Clover
+  original: Clover
+- name: Pine
+  original: Pine

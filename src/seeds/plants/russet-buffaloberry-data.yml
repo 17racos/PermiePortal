@@ -2,8 +2,8 @@ common_name: Russet Buffaloberry
 picture: russet_buffaloberry.webp
 scientific_name: Shepherdia canadensis
 aka:
-- Canada Buffaloberry
-- Soapberry
+  - Canada Buffaloberry
+  - Soapberry
 family: Elaeagnaceae
 zone: 2-7
 ideal_temp_min: 30
@@ -12,12 +12,12 @@ min_temp: -50
 max_temp: 90
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Nitrogen Fixer
-- Wildlife Attractor
-- Edible
-- Border Plant
+  - Nitrogen Fixer
+  - Wildlife Attractor
+  - Edible
+  - Border Plant
 description: |-
   Russet buffaloberry (Shepherdia canadensis) is a cold-hardy nitrogen-fixing shrub of northern North American forests and river terraces, bearing silvery-scaly leaves, inconspicuous flowers, and tart orange-red berries high in saponins that foam when crushed. Plants reach 3–8 feet (0.9–2.4 m), often thicket-forming. Fruit supports Indigenous foodways where processing is understood; raw handfuls are astringent and soapy—respect the chemistry.
 
@@ -32,18 +32,18 @@ purpose: |-
   Edible: Ripe berries foam from saponins -- traditional processing is the honest route; raw handfuls stay astringent and soapy without the kitchen steps elders document.
   Border Plant: Thorny colonies mark cold hedgerows, pasture corners, and wildlife corridors where informal density beats mowed monoculture edging.
 companions:
-- Wild Plum — thicket neighbor extending fruit succession in hedgerows
-- Serviceberry — earlier soft fruit at slightly less extreme sites along the same
-  margin
-- Raspberry — bramble layer at the sunnier edge of a buffaloberry thicket
+  - slug: american-plum
+    name: American Plum
+  - slug: serviceberry
+    name: Serviceberry
+  - slug: raspberry
+    name: Raspberry
 cautions:
-- Saponin content—raw overeating is unwise; learn processing from vetted sources
-- Name collision with true soapberries—Shepherdia canadensis is the scientific anchor
-  here
+  - Saponin content—raw overeating is unwise; learn processing from vetted sources
+  - Name collision with true soapberries—Shepherdia canadensis is the scientific anchor here
 pests:
-- Aphids
-- Spider Mites
-- Scale Insects
-growth_habit: Cold-hardy actinorhizal shrub; silvery leaves; tart orange-red berries;
-  thickets
+  - Aphids
+  - Spider Mites
+  - Scale Insects
+growth_habit: Cold-hardy actinorhizal shrub; silvery leaves; tart orange-red berries; thickets
 data_quality_score: 0.8

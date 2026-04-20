@@ -2,8 +2,8 @@ common_name: Key Thatch Palm
 picture: key_thatch_palm.webp
 scientific_name: Leucothrinax morrisii
 aka:
-- Brittle thatch palm
-- Miami palm
+  - Brittle thatch palm
+  - Miami palm
 family: Arecaceae
 zone: 10b-12
 ideal_temp_min: 70
@@ -12,12 +12,12 @@ min_temp: 30
 max_temp: 105
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Ornamental
-- Wildlife Attractor
-- Fiber
-- Border Plant
+  - Ornamental
+  - Wildlife Attractor
+  - Fiber
+  - Border Plant
 description: |-
   Key thatch palm (Leucothrinax morrisii), formerly placed in Thrinax, is a medium fan palm of coastal rock and sandy keys in subtropical islands, forming a slender trunk and green palmate leaves adapted to salt breeze. Heights often reach 15–25 feet (4.5–7.5 m). It suits coastal landscapes, parking islands, and tropical food-forest edges where drainage is sharp and frost visits are rare insults.
 
@@ -32,22 +32,23 @@ purpose: |-
   Fiber: Tough fan segments historically roof chickee huts -- harvest sparingly from landscape specimens; overstripping fronds stresses palms already dealing with salt and drought.
   Border Plant: Massed clumps edge dune walks and parking islands -- spacing matters because mature fans overlap sidewalks when planners forget crown spread.
 companions:
-- Florida Thatch Palm — related palm architecture with overlapping coastal culture
-  at safe spacing
-- Coconut Palm — taller overstory for layered wind defense on exposed lots
-- Seagrape — coastal shrub layer with complementary leaf texture near dune toes
+  - slug: florida-thatch-palm
+    name: Florida Thatch Palm
+  - slug: coconut-palm
+    name: Coconut Palm
+  - slug: seagrape
+    name: Seagrape
 cautions:
-- Hard frost — marginal outside tropical keys; protect juveniles during unusual cold
-- Poor drainage inland — rot follows vanity plantings in clay saucers
+  - Hard frost — marginal outside tropical keys; protect juveniles during unusual cold
+  - Poor drainage inland — rot follows vanity plantings in clay saucers
 pests:
-- Coconut Mite
-- Palm Weevil
-- Palmetto Weevil
-- Red Palm Weevil
-- Rhinoceros Beetle
-- Scale Insects
-- Ganoderma Butt Rot
-- Heart Rot
-growth_habit: Medium coastal fan palm; slender trunk; salt-tolerant; tropical keys
-  and limestone
+  - Coconut Mite
+  - Palm Weevil
+  - Palmetto Weevil
+  - Red Palm Weevil
+  - Rhinoceros Beetle
+  - Scale Insects
+  - Ganoderma Butt Rot
+  - Heart Rot
+growth_habit: Medium coastal fan palm; slender trunk; salt-tolerant; tropical keys and limestone
 data_quality_score: 0.76

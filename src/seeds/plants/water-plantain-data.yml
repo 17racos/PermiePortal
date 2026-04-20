@@ -35,9 +35,10 @@ purpose: |-
   Erosion Control: Fibrous crowns anchor mucky margins against wave chop -- plant in a few inches of water or saturated silt to replace bare mud.
   Border Plant: Long petioles lift leaves like mini hostas at the waterline -- softens the visual jump from spatterdock to upland forbs.
 companions:
-  - Pickerelweed
-  - Duck Potato
-  - Cattail
+  - slug: pickerelweed
+    name: Pickerelweed
+  - slug: cattail
+    name: Cattail
 cautions:
   - None documented
 pests:
@@ -46,3 +47,7 @@ pests:
   - Slugs
 growth_habit: Emergent aquatic herb
 data_quality_score: 0.72
+companion_categories:
+  - name: Duck Potato
+    original: Duck Potato
+    type: ecosystem

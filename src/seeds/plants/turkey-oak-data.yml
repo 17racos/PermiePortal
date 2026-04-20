@@ -2,7 +2,7 @@ common_name: Turkey Oak
 picture: turkey_oak.webp
 scientific_name: Quercus laevis
 aka:
-- Scrub oak
+  - Scrub oak
 family: Fagaceae
 zone: 7-10
 ideal_temp_min: 45
@@ -11,12 +11,12 @@ min_temp: 0
 max_temp: 110
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Wildlife Attractor
-- Erosion Control
-- Mulcher
-- Shade Provider
+  - Wildlife Attractor
+  - Erosion Control
+  - Mulcher
+  - Shade Provider
 description: |-
   Turkey oak (Quercus laevis) is a small to medium deciduous oak of deep sandy ridges, scrub, and open pine woodlands across the southeastern United States. Twisted branches, deeply lobed leaves reminiscent of turkey tracks, and harsh dry sites define its attitude. Acorns feed wildlife where taller oaks struggle on droughty sand; the species anchors fire-adapted ecosystems and low-input silvopasture edges.
 
@@ -31,23 +31,21 @@ purpose: |-
   Mulcher: Thick, deeply lobed "turkey track" leaves build acidic, slow mats -- perfect for blueberry guilds that want fungal litter, not fast green compost.
   Shade Provider: Open, gnarled canopy throws dappled shade for sparkleberry and little bluestem ground layers -- not a lawn tree unless you enjoy ankle-high sand and acorns.
 companions:
-- Longleaf Pine — classic sandhill pairing; pine needles reinforce acidity and light
-  shade
-- Sparkleberry — understory blueberry relative tolerates dry shade at oak margins
-- Little Bluestem — bunchgrass matrix stabilizes sand between oak crowns; shared fire-adapted
-  ecology
+  - slug: longleaf-pine
+    name: Longleaf Pine
+  - slug: sparkleberry
+    name: Sparkleberry
+  - slug: little-bluestem
+    name: Little Bluestem
 cautions:
-- Black Walnut — not a typical associate; juglone and soil texture mismatch on sand
-  vs walnut riparian habits
-- Oak wilt risk regions — follow local pruning timing rules; minimize wounds during
-  vector-active seasons
+  - Black Walnut — not a typical associate; juglone and soil texture mismatch on sand vs walnut riparian habits
+  - Oak wilt risk regions — follow local pruning timing rules; minimize wounds during vector-active seasons
 pests:
-- Borers
-- Fall Webworm
-- Scale Insects
-- Twig Girdlers
-- Gall Mite
-- Tent Caterpillar
-growth_habit: Scrubby deciduous oak; turkey-track lobed leaves; sandhill specialist;
-  acorns for wildlife
+  - Borers
+  - Fall Webworm
+  - Scale Insects
+  - Twig Girdlers
+  - Gall Mite
+  - Tent Caterpillar
+growth_habit: Scrubby deciduous oak; turkey-track lobed leaves; sandhill specialist; acorns for wildlife
 data_quality_score: 0.85

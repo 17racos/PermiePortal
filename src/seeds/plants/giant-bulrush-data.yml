@@ -2,8 +2,8 @@ common_name: Giant Bulrush
 picture: giant_bulrush.webp
 scientific_name: Schoenoplectus californicus
 aka:
-  - California bulrush
-  - Tule (regional)
+- California bulrush
+- Tule (regional)
 family: Cyperaceae
 zone: 5-11
 ideal_temp_min: 45
@@ -12,13 +12,13 @@ min_temp: -10
 max_temp: 105
 perennial: true
 layers:
-  - Aquatic
-  - Herbaceous
+- Aquatic
+- Herbaceous
 plant_function:
-  - Water Purification
-  - Wildlife Attractor
-  - Mulcher
-  - Erosion Control
+- Water Purification
+- Wildlife Attractor
+- Mulcher
+- Erosion Control
 description: |-
   Giant bulrush is the vertical wetland wallpaper — tall triangular stems, rhizomatous expansion, and a work ethic for stabilizing pond margins. Not the edible headline like duck potato; more the structure and filtration crew. In subtropical and tropical Americas it belongs in restoration and intentional wetland cells, not dry berms.
 
@@ -33,13 +33,18 @@ purpose: |-
   Mulcher: Senescent culms fold into anaerobic marsh detritus feeding denitrifying bacteria when managers skim biomass into hot compost piles after any removal so wet tissues do not restart colonization from your own yard-waste windrow.
   Erosion Control: Rhizomes spread under shallow water to armor shoreline wake damage from ski boats better than riprap on soft mucky Sacramento delta peat where cattail monocultures would have blocked sight lines you wanted open for safety.
 companions:
-  - Duck potato
-  - Pickerelweed
-  - Cattail
+- slug: pickerelweed
+  name: Pickerelweed
+- slug: cattail
+  name: Cattail
 cautions:
-  - Planting in dry perennial beds without irrigation amnesia therapy
-  - Small lined ponds if you hate aggressive rhizomes
+- Planting in dry perennial beds without irrigation amnesia therapy
+- Small lined ponds if you hate aggressive rhizomes
 pests:
-  - Aphids
-  - Mites
-  - Armyworms
+- Aphids
+- Mites
+- Armyworms
+companion_categories:
+- name: Duck potato
+  original: Duck potato
+  type: ecosystem

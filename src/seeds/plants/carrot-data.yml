@@ -29,11 +29,16 @@ purpose: |-
   Dynamic Accumulator: deep orange roots mine loose beds for potassium and phosphorus -- nutrients move into tops when plants are chopped at senescence instead of hauled away.
   Border Plant: rows edge onion and lettuce beds with a low feathery skirt that marks bed lines -- stays short enough not to shade neighboring crops.
 companions:
-  - Onion
-  - Garlic
-  - Lettuce
-  - Tomato
-  - Chive
+  - slug: chives
+    name: Chives
+  - slug: onion
+    name: Onion
+  - slug: garlic
+    name: Garlic
+  - slug: lettuce
+    name: Lettuce
+  - slug: tomato
+    name: Tomato
 cautions:
   - Dill
   - Fennel
@@ -61,3 +66,7 @@ pests:
   - Mole Crickets
 growth_habit: Tree
 data_quality_score: 0.8
+companions_normalized:
+  - original: Chive
+    resolved_slug: chives
+    name: Chives

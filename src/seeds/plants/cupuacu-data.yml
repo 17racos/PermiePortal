@@ -2,7 +2,7 @@ common_name: Cupuacu
 picture: cupuacu.webp
 scientific_name: Theobroma grandiflorum
 aka:
-  - Cupuaçu
+- Cupuaçu
 family: Malvaceae
 zone: 11-12
 ideal_temp_min: 70
@@ -11,11 +11,11 @@ min_temp: 32
 max_temp: 100
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Shade Provider
+- Edible
+- Wildlife Attractor
+- Shade Provider
 description: |-
   Cupuacu is cacao's loud cousin in the rainforest — big fuzzy brown fruit, pulp that tastes like pear crossed with pineapple propaganda, and seeds that become confectionery butter in countries that actually process it. True lowland humid tropical; continental subtropical and tropical Americas is "nice try" unless you own a conservatory and a therapist.
 
@@ -29,15 +29,19 @@ purpose: |-
   Wildlife Attractor: Understory flowers and large fuzzy fruit engage tropical pollinators and frugivores in humid lowland systems.
   Shade Provider: Medium canopy filters harsh tropical sun for cacao, bananas, and shade-tolerant understory herbs once the tree sizes up.
 companions:
-  - Cacao
-  - Banana
-  - Inga
+- slug: cacao
+  name: Cacao
+- slug: banana
+  name: Banana
 cautions:
-  - Cool dry winters typical of subtropical and tropical Americas
-  - Saline or calcareous soils without amendment and irony management
+- Cool dry winters typical of subtropical and tropical Americas
+- Saline or calcareous soils without amendment and irony management
 pests:
-  - Banded Winged Whitefly
-  - Cocoa Pod Borer
-  - Mealybugs
-  - Scale Insects
-  - Anthracnose
+- Banded Winged Whitefly
+- Cocoa Pod Borer
+- Mealybugs
+- Scale Insects
+- Anthracnose
+companions_unresolved:
+- name: Inga
+  original: Inga

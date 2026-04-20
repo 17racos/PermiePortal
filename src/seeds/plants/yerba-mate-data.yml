@@ -34,9 +34,12 @@ purpose: |-
   Shade Provider: 15 m evergreen umbrella suits banana and ginger understory in humid subtropics -- air movement prevents fungal sulk.
   Border Plant: Row-plant on 3 m centers for leaf harvest -- width matches eventual buttressed trunks, not one-year wishful spacing.
 companions:
-  - Banana — fast herbaceous shade and leaf litter while mate is young; manage banana vigor so it does not smother the holly.
-  - Moringa — seasonal light partner if coppiced responsibly; avoid permanent shade wars.
-  - Elderberry — edge shrub with different bloom timing; shares hedgerow culture without sharing pests one-to-one.
+  - slug: banana
+    name: Banana
+  - slug: moringa
+    name: Moringa
+  - slug: elderberry
+    name: Elderberry
 cautions:
   - None documented
 pests:

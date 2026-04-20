@@ -2,7 +2,7 @@ common_name: Weeping Lovegrass
 picture: weeping_lovegrass.webp
 scientific_name: Eragrostis curvula
 aka:
-- African Lovegrass
+  - African Lovegrass
 family: Poaceae
 zone: 6-11
 ideal_temp_min: 45
@@ -11,12 +11,12 @@ min_temp: -5
 max_temp: 115
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Erosion Control
-- Ornamental
-- Biomass
-- Border Plant
+  - Erosion Control
+  - Ornamental
+  - Biomass
+  - Border Plant
 description: |-
   Weeping lovegrass (Eragrostis curvula) is a warm-season bunchgrass from southern Africa, widely planted for erosion control and fine-textured ornamental borders, forming dense fountains of narrow leaves and airy panicles on plants about 2–3 feet (60–90 cm) tall. It tolerates heat, drought, and poor soils once established. Check regional invasive lists—some areas classify lovegrasses as problematic.
 
@@ -31,26 +31,28 @@ purpose: |-
   Biomass: Sheared tops make airy straw for thin mulch layers -- high silica means slower rot than legume clippings.
   Border Plant: Clumping habit stays put without rhizome wander -- line gravel paths where running grasses would colonize beds.
 companions:
-- Purple Lovegrass — smaller Eragrostis cousin with contrasting purple haze seed heads
-- Sand Lovegrass — related genus neighbor in dry meadow mixes
-- Prairie Coneflower — forb verticals rising above low lovegrass mounds
+  - slug: purple-lovegrass
+    name: Purple Lovegrass
+  - slug: sand-lovegrass
+    name: Sand Lovegrass
+  - slug: prairie-coneflower
+    name: Prairie Coneflower
 cautions:
-- Invasive risk in some regions—verify local weed council opinions before mass seeding
-- Self-seeding near wildlands—edit volunteers aggressively
+  - Invasive risk in some regions—verify local weed council opinions before mass seeding
+  - Self-seeding near wildlands—edit volunteers aggressively
 pests:
-- Aphids
-- Armyworms
-- Bamboo Mite
-- Corn Earworm
-- Fall Armyworm
-- Japanese Beetles
-- Lubber Grasshopper
-- Rice Blast Fungus
-- Rice Water Weevil
-- Spider Mites
-- Spittlebugs
-- Wireworm
-- Leaf Blight
-growth_habit: Warm-season weeping bunchgrass; fine leaves; airy panicles; hot dry
-  sites
+  - Aphids
+  - Armyworms
+  - Bamboo Mite
+  - Corn Earworm
+  - Fall Armyworm
+  - Japanese Beetles
+  - Lubber Grasshopper
+  - Rice Blast Fungus
+  - Rice Water Weevil
+  - Spider Mites
+  - Spittlebugs
+  - Wireworm
+  - Leaf Blight
+growth_habit: Warm-season weeping bunchgrass; fine leaves; airy panicles; hot dry sites
 data_quality_score: 0.76

@@ -30,9 +30,10 @@ purpose: |-
   Wildlife Attractor: Nymphoides aquatica white fringed water-snowflake blooms give small bees landing platforms -- juvenile fish shelter under round pads, thin mats before they smother pickerelweed spikes.
   Border Plant: Rooted floating pads mark still-water margins without kissing seawalls -- runners need seasonal thinning so open water stays wide enough for dragonfly emergence stems you meant to keep visible from the deck.
 companions:
-  - Watershield
-  - Spatterdock
-  - Duck Potato
+  - slug: watershield
+    name: Watershield
+  - slug: spatterdock
+    name: Spatterdock
 cautions:
   - None documented
 pests:
@@ -40,3 +41,7 @@ pests:
   - Snails
 growth_habit: Floating aquatic herb
 data_quality_score: 0.74
+companion_categories:
+  - name: Duck Potato
+    original: Duck Potato
+    type: ecosystem

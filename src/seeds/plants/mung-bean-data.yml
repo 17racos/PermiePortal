@@ -30,9 +30,10 @@ purpose: |-
   Nitrogen Fixer: Cowpea-group rhizobia nodulate the branched root system, leaving residual nitrate for the following cereal or solanum crop when vines are incorporated green -- inoculate with the correct strain on new ground so nodules fill instead of staying empty ornaments.
   Ground Cover: Low-branching annual vines with trifoliate leaves shade soil between summer vegetables, smothering late-germinating weeds once rows close -- best after soil stays above 65°F (18°C) so seed rots do not erase the stand.
 companions:
-- Corn
-- Cucumber
-- Eggplant
+- slug: cucumber
+  name: Cucumber
+- slug: eggplant
+  name: Eggplant
 cautions:
 - Onion
 - Garlic
@@ -68,3 +69,6 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Corn
+  original: Corn

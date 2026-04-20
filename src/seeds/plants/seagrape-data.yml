@@ -2,8 +2,8 @@ common_name: Seagrape
 picture: seagrape.webp
 scientific_name: Coccoloba uvifera
 aka:
-  - Baygrape
-  - Sea grape
+- Baygrape
+- Sea grape
 family: Polygonaceae
 zone: 10-11
 ideal_temp_min: 70
@@ -12,13 +12,13 @@ min_temp: 28
 max_temp: 100
 perennial: true
 layers:
-  - Shrub
-  - Tree
+- Shrub
+- Tree
 plant_function:
-  - Edible
-  - Erosion Control
-  - Wildlife Attractor
-  - Windbreaker
+- Edible
+- Erosion Control
+- Wildlife Attractor
+- Windbreaker
 description: |-
   Seagrape is the coastal shrub with round leaves the size of salad plates and fruit clusters that look like micro-grapes—astringent fresh, friendlier in jelly and wine after you respect the seed. It stabilizes dunes and laughs at salt spray; inland subtropical and tropical Americas lacks the maritime vibe it prefers, though warm pockets try. Dioecious: plant both sexes for fruit, or enjoy the foliage architecture solo.
 
@@ -33,14 +33,18 @@ purpose: |-
   Wildlife Attractor: Cream flower spikes drip nectar for coastal insects before pea-sized fruit fuels migrating songbirds that strip clusters overnight.
   Windbreaker: Dinner-plate evergreen leaves shed salt spray and knock velocity off trade winds leeward of vegetable tunnels.
 companions:
-  - Saw Palmetto
-  - Muhly Grass
-  - Yucca
+- slug: hairawn-muhly
+  name: Hairawn Muhly
+- slug: saw-palmetto
+  name: Saw Palmetto
 cautions:
-  - Deep freeze inland sites without protection
-  - Heavy clay with poor drainage away from coast
+- Deep freeze inland sites without protection
+- Heavy clay with poor drainage away from coast
 pests:
-  - Aphids
-  - Rhubarb Curculio
-  - Scale Insects
-  - Whiteflies
+- Aphids
+- Rhubarb Curculio
+- Scale Insects
+- Whiteflies
+companions_unresolved:
+- name: Yucca
+  original: Yucca

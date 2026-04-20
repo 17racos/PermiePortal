@@ -10,11 +10,11 @@ min_temp: -20
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Nitrogen Fixer
-  - Mulcher
-  - Ground Cover
+- Nitrogen Fixer
+- Mulcher
+- Ground Cover
 description: |-
   Hairy vetch (Vicia villosa) is a fast-growing legume cover crop known for its ability to fix nitrogen and for its ability to cover bare ground quickly. It forms a spreading, trailing mat of vines and feathery leaves, often reaching about 30–90 cm (12–35 in) long during cover-crop growth. In permaculture, it matters because it converts otherwise idle winter soil into living soil armor: it shades the ground, suppresses weeds, and turns into nitrogen-rich mulch for the next planting.
 
@@ -28,13 +28,17 @@ purpose: |-
   Mulcher: Hairy stems and tendrils mat into a weed-suppressing blanket four to six inches thick after roller-crimping -- that layer holds moisture for transplanted nightshades while earthworms pull pieces down within weeks in warm soil.
   Ground Cover: Winter-hardy growth closes alleys between summer-killed beds before chickweed seeds germinate -- spring regrowth after light frost still covers soil until you are ready to plant heat-loving crops.
 companions:
-  - Oats (Avena sativa) — cereal bulk plus vetch nitrogen creates a balanced, easier-to-manage cover mix.
-  - Radish (Raphanus sativus) — roots break up compaction while vetch cover keeps the surface from washing out.
-  - Garlic (Allium sativum) — fits well after cover-crop windows; vetch mulch helps suppress weeds and stabilize soil moisture.
+- slug: radish
+  name: Radish
+- slug: garlic
+  name: Garlic
 cautions:
-  - Avoid letting it fully seed if you want clean transitions; it can volunteer later and crowd seedlings.
+- Avoid letting it fully seed if you want clean transitions; it can volunteer later and crowd seedlings.
 pests:
-  - Aphids
-  - Slugs
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Slugs
+- Root Rot
+- Caterpillars
+companions_unresolved:
+- name: Oats
+  original: Oats (Avena sativa) — cereal bulk plus vetch nitrogen creates a balanced, easier-to-manage cover mix.

@@ -2,8 +2,8 @@ common_name: Wild Columbine
 picture: wild_columbine.webp
 scientific_name: Aquilegia canadensis
 aka:
-- Eastern Red Columbine
-- Eastern Columbine
+  - Eastern Red Columbine
+  - Eastern Columbine
 family: Ranunculaceae
 zone: 3-8
 ideal_temp_min: 35
@@ -12,12 +12,12 @@ min_temp: -35
 max_temp: 95
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Pollinator
-- Ornamental
-- Wildlife Attractor
-- Ground Cover
+  - Pollinator
+  - Ornamental
+  - Wildlife Attractor
+  - Ground Cover
 description: |-
   Wild columbine (Aquilegia canadensis) is a short-lived perennial of eastern North American wood margins and cliffs, with red and yellow nodding flowers adapted to hummingbirds and long-tongued bees. Plants reach 1–2 feet (30–60 cm), self-sowing into rocky, well-drained pockets. It thrives in dappled shade and lean soils where irrigation is modest.
 
@@ -32,18 +32,18 @@ purpose: |-
   Wildlife Attractor: Finches shake seed from erect capsules; columbine duskywing caterpillars chew foliage -- holes mean success, not failure.
   Ground Cover: Basal rosettes occupy rock crevices -- self-sows into gravel where irrigation is honest.
 companions:
-- Wild Blue Phlox — spring shade neighbor with blue flowers contrasting columbine
-  reds
-- Virginia Stonecrop — succulent groundcover at the toe of rocky slopes sharing lean
-  soils
-- Serviceberry — small tree providing dappled canopy above columbine colonies
+  - slug: wild-blue-phlox
+    name: Wild Blue Phlox
+  - slug: wild-stonecrop
+    name: Wild Stonecrop
+  - slug: serviceberry
+    name: Serviceberry
 cautions:
-- Leaf miners cosmetic damage—tolerate or remove leaves; avoid panic sprays on pollinator
-  plants
-- Short-lived individuals—plan self-sowing or succession
+  - Leaf miners cosmetic damage—tolerate or remove leaves; avoid panic sprays on pollinator plants
+  - Short-lived individuals—plan self-sowing or succession
 pests:
-- Aphids
-- Spider Mites
-- Japanese Beetles
+  - Aphids
+  - Spider Mites
+  - Japanese Beetles
 growth_habit: Short-lived perennial; red-yellow spurred flowers; woodland rock margins
 data_quality_score: 0.83

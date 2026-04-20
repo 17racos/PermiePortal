@@ -33,24 +33,21 @@ purpose: |-
   Biomass: One season can produce 2 m of stem volume for compost experiments -- chop before capsules mature or you fund a decade of soil seed bank regret.
   Wildlife Attractor: Yellow-orange mallow flowers feed generalist bees; oil-rich seeds line songbird gizzards in weedy fencerows -- ecological value in agriculture, deliberate planting rarely justified.
 companions:
-- Grain Sorghum — tall summer canopy suppresses velvetleaf seedlings via shade in
-  rotation trials
-- Sunflower — competitive summer crop that can reduce velvetleaf vigor when planted
-  dense and managed
-- Winter Rye — fall-planted cover outcompetes early-season velvetleaf germination
-  in cool soils
+- slug: sunflower
+  name: Sunflower
+- slug: winter-rye
+  name: Winter Rye
 cautions:
-- Invasive agricultural weed — illegal or discouraged in some jurisdictions; do not
-  spread seed deliberately
-- Allelopathy — extracts can suppress crop seedlings; avoid returning large amounts
-  of fresh green biomass to sensitive beds
-- Seed longevity — soil banks persist years; one careless season seeds a decade of
-  regret
+- Invasive agricultural weed — illegal or discouraged in some jurisdictions; do not spread seed deliberately
+- Allelopathy — extracts can suppress crop seedlings; avoid returning large amounts of fresh green biomass to sensitive beds
+- Seed longevity — soil banks persist years; one careless season seeds a decade of regret
 pests:
 - Banded Winged Whitefly
 - Cocoa Pod Borer
 - Japanese Beetles
 - Leafhoppers
-growth_habit: Tall warm-season annual; velvety heart-shaped leaves; woody seed capsules;
-  disturbed soils
+growth_habit: Tall warm-season annual; velvety heart-shaped leaves; woody seed capsules; disturbed soils
 data_quality_score: 0.82
+companions_unresolved:
+- name: Grain Sorghum
+  original: Grain Sorghum — tall summer canopy suppresses velvetleaf seedlings via shade in rotation trials

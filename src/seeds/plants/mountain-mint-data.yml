@@ -32,9 +32,12 @@ purpose: |-
   Pest Management: Crushed lamiaceous foliage releases monoterpenes that mask brassica host cues when bands are planted along vegetable rows -- best paired with scouting because scent helps confusion, not a force field against heavy infestations.
   Wildlife Attractor: Insect traffic on mint heads pulls warblers, flycatchers, and chickadees to hunt along hedgerow edges -- position clumps where you can watch the aerial feeding frenzy without shading sun-hungry crops flat.
 companions:
-  - Rattlesnake Master — contrasting texture in sunny pollinator beds with overlapping bloom periods
-  - Narrowleaf Sunflower — yellow composite heads pair with silver bracts for late-season display
-  - Roughleaf Dogwood — shrub backdrop defines the insectary border without shading mint flat
+  - slug: rattlesnake-master
+    name: Rattlesnake Master
+  - slug: swamp-sunflower
+    name: Swamp Sunflower
+  - slug: roughleaf-dogwood
+    name: Roughleaf Dogwood
 cautions:
   - None documented
 pests:

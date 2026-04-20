@@ -2,8 +2,8 @@ common_name: Autumn Olive
 picture: autumn_olive.webp
 scientific_name: Elaeagnus umbellata
 aka:
-- Autumn Elaeagnus
-- Japanese Silverberry
+  - Autumn Elaeagnus
+  - Japanese Silverberry
 family: Elaeagnaceae
 zone: 4-9
 ideal_temp_min: 45
@@ -12,12 +12,12 @@ min_temp: -25
 max_temp: 100
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Edible
-- Nitrogen Fixer
-- Wildlife Attractor
-- Windbreaker
+  - Edible
+  - Nitrogen Fixer
+  - Wildlife Attractor
+  - Windbreaker
 description: |-
   Autumn olive is a fast, thorny shrub with silvery-scaly leaves, fragrant spring flowers, and speckled red berries that birds broadcast everywhere. It fixes nitrogen via actinorhizal roots and laughs at poor soil—which is exactly why it became an invasive nightmare across much of eastern North America. Present and spreading in disturbed edges; do not plant new specimens if you respect nearby natural areas. If you inherited one, heavy fruit removal and replacement with native **Elaeagnus** relatives (where appropriate) is the adult move.
 
@@ -32,14 +32,17 @@ purpose: |-
   Wildlife Attractor: Heavy late fruit feeds cedar waxwings and robins that also fly seeds into successional woods -- strip fruit before drop if you inherited a hedge and neighbors care about native understories.
   Windbreaker: Thorny silver-leaf thickets slow wind on old farm lanes where the plant already exists -- design replacement natives on the sunny side before removing canopy in one reckless afternoon.
 companions:
-- Black Locust
-- Seaberry
-- Goumi
+  - slug: sea-buckthorn
+    name: Sea Buckthorn
+  - slug: black-locust
+    name: Black Locust
+  - slug: goumi
+    name: Goumi
 cautions:
-- Natural areas
-- Bird flight paths into preserves
+  - Natural areas
+  - Bird flight paths into preserves
 pests:
-- Japanese Beetles
-- Scale Insects
-- Aphids
-- Borers
+  - Japanese Beetles
+  - Scale Insects
+  - Aphids
+  - Borers

@@ -34,9 +34,12 @@ purpose: |-
   Wildlife Attractor: Split fruit on the ground feeds raccoons and rats faster than humans -- harvest drops or accept urban safari.
   Biomass: Annual pruning yields chipper loads of glossy leaves -- compost in-place if HLB and canker status allow; otherwise solarize or export chips per local quarantine sense.
 companions:
-  - Comfrey — mineral-rich mulch cuts fed outside the trunk zone.
-  - Lemongrass — heat-tolerant edge grass that marks irrigation stops and pairs with citrus cuisine.
-  - Nasturtium — aphid diversion and edible flowers along the orchard margin.
+  - slug: comfrey
+    name: Comfrey
+  - slug: lemongrass
+    name: Lemongrass
+  - slug: nasturtium
+    name: Nasturtium
 cautions:
   - Walnut
 pests:

@@ -2,7 +2,7 @@ common_name: Blue Grama
 picture: blue_grama.webp
 scientific_name: Bouteloua gracilis
 aka:
-- Mosquito Grass
+  - Mosquito Grass
 family: Poaceae
 zone: 3-10
 ideal_temp_min: 60
@@ -11,13 +11,13 @@ min_temp: -35
 max_temp: 105
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Ground Cover
-- Animal Fodder
-- Erosion Control
-- Ornamental
-- Wildlife Attractor
+  - Ground Cover
+  - Animal Fodder
+  - Erosion Control
+  - Ornamental
+  - Wildlife Attractor
 description: |-
   Blue grama (Bouteloua gracilis) is a warm-season bunchgrass of shortgrass prairie and dry foothills from central Canada to Mexico, famous for eyebrow-shaped one-sided seed heads that hover above fine blue-green blades. It typically grows 6–20 inches (15–50 cm) depending on rainfall, forming dense tufts that outcompete weeds once established. In permaculture it is a low-input lawn alternative, path edge stabilizer, and forage component that respects water budgets better than cool-season turf cosplay.
 
@@ -33,27 +33,26 @@ purpose: |-
   Ornamental: Eyebrow-shaped spikes hover an inch above blades and catch low winter light coppery tan against snow.
   Wildlife Attractor: Sparrows and harvest mice work seed heads in fall while basal tufts hide overwintering crickets at soil level.
 companions:
-- Little Bluestem — taller warm-season neighbor adds vertical contrast in mixed prairie
-  mixes
-- Pale Purple Coneflower — forb partner pulls pollinators through grass-dominated
-  plantings
-- Yarrow — low forb handles dry edges beside grama without irrigation blackmail
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: pale-purple-coneflower
+    name: Pale Purple Coneflower
+  - slug: yarrow
+    name: Yarrow
 cautions:
-- Heavy shade — thins to moss and disappointment unless you redesign for shade-tolerant
-  species
+  - Heavy shade — thins to moss and disappointment unless you redesign for shade-tolerant species
 pests:
-- Aphids
-- Armyworms
-- Bamboo Mite
-- Corn Earworm
-- Fall Armyworm
-- Grasshopper
-- Lubber Grasshopper
-- Rice Blast Fungus
-- Rice Water Weevil
-- Spittlebugs
-- Wireworm
-- Leaf Blight
-growth_habit: Warm-season bunchgrass; one-sided seed spikes; dry prairie and steppe
-  specialist
+  - Aphids
+  - Armyworms
+  - Bamboo Mite
+  - Corn Earworm
+  - Fall Armyworm
+  - Grasshopper
+  - Lubber Grasshopper
+  - Rice Blast Fungus
+  - Rice Water Weevil
+  - Spittlebugs
+  - Wireworm
+  - Leaf Blight
+growth_habit: Warm-season bunchgrass; one-sided seed spikes; dry prairie and steppe specialist
 data_quality_score: 0.86

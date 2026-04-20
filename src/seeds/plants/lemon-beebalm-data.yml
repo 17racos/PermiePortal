@@ -2,8 +2,8 @@ common_name: Lemon Beebalm
 picture: lemon_beebalm.webp
 scientific_name: Monarda citriodora
 aka:
-- Lemon mint
-- Horsemint
+  - Lemon mint
+  - Horsemint
 family: Lamiaceae
 zone: 5-10
 ideal_temp_min: 60
@@ -12,12 +12,12 @@ min_temp: -15
 max_temp: 105
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Edible
-- Medicinal
-- Pollinator
-- Ornamental
+  - Edible
+  - Medicinal
+  - Pollinator
+  - Ornamental
 description: |-
   Lemon beebalm (Monarda citriodora) is an aromatic mint-family annual or short-lived perennial of central North American prairies and roadsides, bearing stacked whorls of pink to lavender tubular flowers with citrus-scented foliage. Height is commonly 2–3 feet (0.6–1 m). It excels in pollinator strips, herb gardens, and meadow edges where soil drains between rains and airflow exists to temper mildew’s ego.
 
@@ -32,16 +32,17 @@ purpose: |-
   Pollinator: Stacked whorls of pink-lavender tubes feed bumblebees, swallowtails, and hummingbirds in prairie heat -- plant drifts so pollinators cruise a corridor instead of isolated stems.
   Ornamental: Vertical inflorescences add layered color between knee-high grasses -- shear after bloom if mildew makes leaves ugly, and reseed next year because stands behave annual in hottest zones.
 companions:
-- Bee Balm — related Monarda for staggered bloom windows if mildew-resistant types
-  chosen
-- Wild Bergamot — overlapping pollinators with complementary flower color and height
-- Yarrow — shallow insectary edge that tolerates lean soil at the bed front
+  - slug: bee-balm
+    name: Bee Balm
+  - slug: wild-bergamot
+    name: Wild Bergamot
+  - slug: yarrow
+    name: Yarrow
 cautions:
-- Powdery Mildew — still possible on congested growth; prune and space for airflow
-- Aggressive self-seeding — edit early if paths matter
+  - Powdery Mildew — still possible on congested growth; prune and space for airflow
+  - Aggressive self-seeding — edit early if paths matter
 pests:
-- Spider Mites
-- Aphids
-growth_habit: Aromatic mint-family annual/short perennial; whorled flowers; citrus-scented
-  leaves
+  - Spider Mites
+  - Aphids
+growth_habit: Aromatic mint-family annual/short perennial; whorled flowers; citrus-scented leaves
 data_quality_score: 0.8

@@ -31,10 +31,10 @@ purpose: |-
   Erosion Control: Shallow fibrous roots knit peat and sandy pond banks that sheet-flow would otherwise strip -- bioswale plantings use it where aeration cycles exist, not in permanent deep anaerobic muck.
   Biomass: Fine twig and scale litter chips fast for acidic mulch under blueberries -- coppice blocks on long rotation if you need renewable posts without importing cedar stakes.
 companions:
-- Sweetbay Magnolia — shared acidic wet soils and layered canopy structure
-- Inkberry — lower evergreen layer beneath cedar edges without root trench warfare
-- Red Maple — associates in natural swamps; maple handles slightly wider moisture
-  swings
+- slug: sweetbay-magnolia
+  name: Sweetbay Magnolia
+- slug: inkberry
+  name: Inkberry
 cautions:
 - Deer browsing — can girdle leaders on young plantations in heavy pressure areas
 - Drought on upland fill — needles bronze and trees fail without irrigation
@@ -44,3 +44,7 @@ pests:
 - Scale Insects
 growth_habit: Columnar evergreen conifer; scale leaves; moist acidic wetland affinity
 data_quality_score: 0.85
+companions_unresolved:
+- name: Red Maple
+  original: Red Maple — associates in natural swamps; maple handles slightly wider moisture swings
+  note: normalization_target_not_in_index

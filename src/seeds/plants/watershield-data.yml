@@ -32,9 +32,10 @@ purpose: |-
   Wildlife Attractor: Floating oval pads give dragonflies perches and sunfish shade -- gelatinous coating deters grazers enough to leave habitat structure intact.
   Border Plant: Rooted rhizomes mark the deep-to-shallow transition with understated oval pads -- pairs with spatterdock where you want native texture without lotus drama.
 companions:
-  - Floating Heart
-  - Spatterdock
-  - Duck Potato
+  - slug: floating-heart
+    name: Floating Heart
+  - slug: spatterdock
+    name: Spatterdock
 cautions:
   - None documented
 pests:
@@ -42,3 +43,7 @@ pests:
   - Snails
 growth_habit: Rhizomatous floating aquatic
 data_quality_score: 0.72
+companion_categories:
+  - name: Duck Potato
+    original: Duck Potato
+    type: ecosystem

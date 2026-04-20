@@ -2,8 +2,8 @@ common_name: Breadnut Tree
 picture: breadnut_tree.webp
 scientific_name: Brosimum alicastrum
 aka:
-- Ramón
-- Maya Nut
+  - Ramón
+  - Maya Nut
 family: Moraceae
 zone: 10-12
 ideal_temp_min: 70
@@ -12,13 +12,13 @@ min_temp: 32
 max_temp: 105
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Edible
-- Animal Fodder
-- Shade Provider
-- Wildlife Attractor
-- Mulcher
+  - Edible
+  - Animal Fodder
+  - Shade Provider
+  - Wildlife Attractor
+  - Mulcher
 description: |-
   Breadnut or ramón (Brosimum alicastrum) is a large tropical evergreen tree from Mexico through Central America and the Caribbean, historically cultivated for starchy seeds roasted or ground, edible young leaves, and fodder during dry seasons. Mature specimens reach 80–115 feet (24–35 m) in forest settings with smooth gray bark and milky latex like other Moraceae. In agroforestry it is a calorie-dense canopy species that feeds people, livestock, and wildlife while producing deep shade for understory crops—plan spacing before the crown owns the field.
 
@@ -34,19 +34,19 @@ purpose: |-
   Wildlife Attractor: Fig-like infructescences draw coatis and parrots in native range, so plan harvest timing if mammals camp under your best producers.
   Mulcher: Evergreen foliage drops steadily, feeding soil fungi at the drip line if you leave litter instead of bare-scalping under the trunk with blowers.
 companions:
-- Cacao — shade-tolerant understory crop under high tropical canopy where management
-  allows
-- Turmeric — rhizomes along partial-shade north flanks with mulch and drainage
-- Lemongrass — perimeter herb handles competition at the dripline without climbing
-  the trunk
+  - slug: cacao
+    name: Cacao
+  - slug: turmeric
+    name: Turmeric
+  - slug: lemongrass
+    name: Lemongrass
 cautions:
-- Milky latex — skin and eye irritation possible; gloves and eye protection beat bravado
+  - Milky latex — skin and eye irritation possible; gloves and eye protection beat bravado
 pests:
-- Aphids
-- Cuban Laurel Thrips
-- Fig Beetle
-- Mealybugs
-- Scale Insects
-growth_habit: Large tropical Moraceae tree; milky latex; starchy seeds from small
-  fig-like fruit
+  - Aphids
+  - Cuban Laurel Thrips
+  - Fig Beetle
+  - Mealybugs
+  - Scale Insects
+growth_habit: Large tropical Moraceae tree; milky latex; starchy seeds from small fig-like fruit
 data_quality_score: 0.79

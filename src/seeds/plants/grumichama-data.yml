@@ -2,7 +2,7 @@ common_name: Grumichama
 picture: grumichama.webp
 scientific_name: Eugenia brasiliensis
 aka:
-  - Brazilian cherry
+- Brazilian cherry
 family: Myrtaceae
 zone: 10-11
 ideal_temp_min: 65
@@ -11,12 +11,12 @@ min_temp: 28
 max_temp: 100
 perennial: true
 layers:
-  - Tree
-  - Shrub
+- Tree
+- Shrub
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Ornamental
+- Edible
+- Wildlife Attractor
+- Ornamental
 description: |-
   Grumichama is the myrtle-family cherry that fruited at the family reunion without asking — dark sweet berries, handsome glossy leaves, and a tropical resume that laughs at subtropical and tropical Americas frost unless you are in the warmest pockets. Small tree or big shrub depending on pruning and ambition.
 
@@ -30,14 +30,18 @@ purpose: |-
   Wildlife Attractor: Creamy myrtle flowers draw small bees and wasps, and ripe fruit brings fruit-eating birds in warm months -- net canopies or harvest early if you want human share in frosty-marginal sites.
   Ornamental: Glossy opposite leaves and coppery new growth read tidy in evergreen hedges -- keep fruiting shrubs sunward and wind-protected so the show stays foliar, not wind-tattered.
 companions:
-  - Jaboticaba
-  - Surinam cherry
-  - Mulberry
+- slug: jaboticaba
+  name: Jaboticaba
+- slug: surinam-cherry
+  name: Surinam Cherry
 cautions:
-  - Exposed 9a frost hollows without protection
-  - Waterlogged heavy clay without berm or drainage edits
+- Exposed 9a frost hollows without protection
+- Waterlogged heavy clay without berm or drainage edits
 pests:
-  - Caribbean Fruit Fly
-  - Mediterranean Fruit Fly
-  - Oriental Fruit Fly
-  - Scale Insects
+- Caribbean Fruit Fly
+- Mediterranean Fruit Fly
+- Oriental Fruit Fly
+- Scale Insects
+companions_unresolved:
+- name: Mulberry
+  original: Mulberry

@@ -34,9 +34,12 @@ purpose: |-
   Wildlife Attractor: Fruit splits invite starlings and mockingbirds; flagging ripe clusters early beats losing the whole water-facing side of the canopy.
   Ornamental: Blushed peel and glossy evergreen foliage read as a canopy marker along paths where you want food plants visible from the house.
 companions:
-  - Comfrey — mineral mulch factory at the drip line; keep the crown open for air and light.
-  - Lemongrass — scented edge planting that tolerates heat and marks irrigation end-stops.
-  - Fennel — insectary plant that pulls beneficials; keep it from owning the whole understory unless you like chaos.
+  - slug: comfrey
+    name: Comfrey
+  - slug: lemongrass
+    name: Lemongrass
+  - slug: fennel
+    name: Fennel
 cautions:
   - Walnut
 pests:

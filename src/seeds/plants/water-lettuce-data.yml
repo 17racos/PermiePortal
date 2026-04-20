@@ -29,9 +29,7 @@ description: |-
 purpose: |-
   Water Purifier: Pistia stratiotes rosettes dangle feathery roots that strip ammonia and phosphates from stock tanks -- shade suppresses algae in closed loops; any escape down storm drains is why states ban outdoor possession.
   Animal Fodder: Ducks graze leaves where law allows -- verify water quality first; plants grown in nutrient-heavy wastewater concentrate whatever dissolved in that soup.
-companions:
-  - Azolla (contained)
-  - Duckweed (contained)
+companions: []
 cautions:
   - Open waterways
   - Any setup where flood can float plants to public water
@@ -41,3 +39,10 @@ pests:
   - caterpillars
 growth_habit: Free-floating aquatic rosette; stoloniferous mat former
 data_quality_score: 0.75
+companion_categories:
+  - name: Azolla (contained)
+    original: Azolla (contained)
+    type: ecosystem
+  - name: Duckweed (contained)
+    original: Duckweed (contained)
+    type: ecosystem

@@ -2,8 +2,8 @@ common_name: Yellow Jessamine
 picture: yellow_jessamine.webp
 scientific_name: Gelsemium sempervirens
 aka:
-- Carolina jessamine
-- Evening trumpetflower
+  - Carolina jessamine
+  - Evening trumpetflower
 family: Gelsemiaceae
 zone: 7-10
 ideal_temp_min: 45
@@ -12,12 +12,12 @@ min_temp: 5
 max_temp: 105
 perennial: true
 layers:
-- Vine
+  - Vine
 plant_function:
-- Ornamental
-- Wildlife Attractor
-- Erosion Control
-- Border Plant
+  - Ornamental
+  - Wildlife Attractor
+  - Erosion Control
+  - Border Plant
 description: |-
   Yellow jessamine (Gelsemium sempervirens) is a twining evergreen vine of woods edges, fences, and streamside thickets in the humid subtropical Gulf–Atlantic coastal plain and related climates where winters stay mild. Fragrant yellow trumpet flowers open in late winter to spring, a beacon for early pollinators. All parts contain toxic alkaloids—beautiful, useful for trellises, and absolutely not a salad ingredient.
 
@@ -32,21 +32,18 @@ purpose: |-
   Erosion Control: Twining stems knit wire mesh on cut banks faster than waiting for shrubs to root -- still needs training away from small tree trunks.
   Border Plant: Fence-top jessamine screens roads in one season -- annual hard prune after bloom keeps weight off posts.
 companions:
-- Crossvine — complementary red-orange spring vines on large pergolas; both handle
-  humid subtropical swings
-- Coral Honeysuckle — staggered bloom colors for hummingbirds; provide separate supports
-  to avoid tangled maintenance wars
-- American Wisteria — native twiner option for massive structures; site both with
-  ruthless pruning calendars
+  - slug: crossvine
+    name: Crossvine
+  - slug: coral-honeysuckle
+    name: Coral Honeysuckle
+  - slug: wisteria
+    name: Wisteria
 cautions:
-- All parts toxic to humans and many animals — do not plant where livestock browse
-  or toddlers forage
-- Misidentification with edible jasmines — common-name confusion can be medically
-  dangerous
-- Rapid growth on trees — can girdle small trunks if unmanaged—use posts and wires
-  instead
+  - All parts toxic to humans and many animals — do not plant where livestock browse or toddlers forage
+  - Misidentification with edible jasmines — common-name confusion can be medically dangerous
+  - Rapid growth on trees — can girdle small trunks if unmanaged—use posts and wires instead
 pests:
-- Scale Insects
-- Aphids
+  - Scale Insects
+  - Aphids
 growth_habit: Evergreen twining vine; fragrant yellow trumpets; toxic alkaloids throughout
 data_quality_score: 0.85

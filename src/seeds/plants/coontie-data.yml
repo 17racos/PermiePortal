@@ -33,9 +33,12 @@ purpose: |-
   Wildlife Attractor: Foliage is the sole larval food for Eumaeus atala -- planting coontie is how you invite that neon butterfly back onto coastal sites.
   Medicinal: Seminole arrowroot tradition leached toxic cycasin from shredded caudex with long running water -- home cooks should treat all raw tissue as poisonous.
 companions:
-  - Muhly Grass
-  - Beautyberry
-  - Saw Palmetto
+  - slug: hairawn-muhly
+    name: Hairawn Muhly
+  - slug: beautyberry
+    name: Beautyberry
+  - slug: saw-palmetto
+    name: Saw Palmetto
 cautions:
   - None specified
 pests:

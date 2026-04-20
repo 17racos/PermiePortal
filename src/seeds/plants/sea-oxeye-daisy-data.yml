@@ -32,9 +32,12 @@ purpose: |-
   Erosion Control: Woody crowns resprout after salt splash so foredune mats hold sand where annual colonizers wash away each spring tide series.
   Wildlife Attractor: Seed heads feed small passerines while stiff stems anchor spider silk that catches insect drift above high tide wrack.
 companions:
-  - Railroad Vine — prostrate morning glory runs along foredune while oxeye forms mounded clumps
-  - New Zealand Ice Plant — succulent mat behind front-line dunes shares salt ethics
-  - Sea Rocket — annual brassy filler reseeding in upper beach zones
+  - slug: beach-morning-glory
+    name: Beach Morning Glory
+  - slug: new-zealand-ice-plant
+    name: New Zealand Ice Plant
+  - slug: sea-rocket
+    name: Sea Rocket
 cautions:
   - None documented
 pests:

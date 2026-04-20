@@ -33,9 +33,10 @@ purpose: |-
   Medicinal: Camphor-forward Salvia clevelandii oils enter smudge bundles, steams, and topical liniments in western herbal practice where dosage and pregnancy contraindications are taught.
   Border Plant: Mounding gray foliage and structured bloom spikes define parking strips and orchard edges without weekly irrigation guilt.
 companions:
-  - Lavender
-  - Yarrow
-  - California poppy (where climate matches)
+  - slug: lavender
+    name: Lavender
+  - slug: yarrow
+    name: Yarrow
 cautions:
   - Humid shade with heavy mulch on crowns
   - Irrigation schedules designed for St. Augustine grass
@@ -43,3 +44,7 @@ pests:
   - Aphids
   - Spider Mites
   - Whiteflies
+companion_categories:
+  - name: California poppy (where climate matches)
+    original: California poppy (where climate matches)
+    type: system

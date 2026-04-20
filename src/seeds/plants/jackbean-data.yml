@@ -10,11 +10,11 @@ min_temp: 32
 max_temp: 0
 perennial: true
 layers:
-  - Vine
+- Vine
 plant_function:
-  - Nitrogen Fixer
-  - Animal Fodder
-  - Mulcher
+- Nitrogen Fixer
+- Animal Fodder
+- Mulcher
 description: |-
   Jackbean (Canavalia ensiformis) is a warm-season legume grown for its ability to quickly build biomass, fix nitrogen, and produce large seeds used in food systems and as a fodder resource when properly processed. It forms twining vines with leathery leaves and produces long pods that hold seeds big enough to make you pay attention. In permaculture, it matters because it turns hungry soil time into living soil work: ground cover, nitrogen input, and harvestable biomass for mulch or feed cycles.
 
@@ -28,13 +28,17 @@ purpose: |-
   Animal Fodder: Leaves and young pods work as silage and browse when vines stay vegetative -- mature seeds need long cooking or fermentation because raw legume lectins are toxic to mammals.
   Mulcher: Heat-loving vines smother weeds and return leafy biomass when slashed -- time mowing before pods lignify so mulch breaks down instead of forming a thatch mat over crowns.
 companions:
-  - Corn (Zea mays) — warm-season canopy partner that supports vertical structure and rotation timing.
-  - Sunflower (Helianthus annuus) — tall companion adds biomass and helps keep the ground shaded.
-  - Garlic (Allium sativum) — aromatic bulb helps diversify bed scent and rotation in mixed plots.
+- slug: sunflower
+  name: Sunflower
+- slug: garlic
+  name: Garlic
 cautions:
-  - Raw seeds can be toxic; process thoroughly before any food use and keep out of reach of pets/livestock.
+- Raw seeds can be toxic; process thoroughly before any food use and keep out of reach of pets/livestock.
 pests:
-  - Aphids
-  - Borers
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Borers
+- Root Rot
+- Caterpillars
+companions_unresolved:
+- name: Corn
+  original: Corn (Zea mays) — warm-season canopy partner that supports vertical structure and rotation timing.

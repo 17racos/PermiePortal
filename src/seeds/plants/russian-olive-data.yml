@@ -34,9 +34,8 @@ purpose: |-
   Windbreaker: Tall multistem habit and narrow silvery leaves blunt desiccating wind across dry corridors, berms, and poultry yards while winter light still passes after leaf drop.
   Animal Fodder: Managed browse of tender stems appears in pastoral trials for sheep and goats -- verify stocking rules and palatability tests before leaning on it as primary forage.
 companions:
-  - Yarrow
-  - Lavender cotton
-  - Drought-tolerant grasses at the drip line
+  - slug: yarrow
+    name: Yarrow
 cautions:
   - Wetlands and riparian zones where spread is socially unacceptable
   - Planting where regional conservation groups will rightfully glare
@@ -44,3 +43,10 @@ pests:
   - Scale Insects
   - Japanese Beetles
   - Borers
+companion_categories:
+  - name: Lavender cotton
+    original: Lavender cotton
+    type: system
+  - name: Drought-tolerant grasses at the drip line
+    original: Drought-tolerant grasses at the drip line
+    type: system

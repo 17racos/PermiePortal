@@ -2,7 +2,7 @@ common_name: Blue Agave
 picture: blue_agave.webp
 scientific_name: Agave tequilana
 aka:
-  - Weber blue agave
+- Weber blue agave
 family: Asparagaceae
 zone: 9-11
 ideal_temp_min: 55
@@ -11,11 +11,11 @@ min_temp: 25
 max_temp: 110
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Mulcher
-  - Erosion Control
+- Edible
+- Mulcher
+- Erosion Control
 description: |-
   Blue agave is the spiky fountain of desert capitalism — same species behind tequila, same drama in the landscape. Rosette for years, then a telegraph pole of bloom and death. In subtropical and tropical Americas it is a dry microclimate pet, not a swamp roommate.
 
@@ -29,14 +29,18 @@ purpose: |-
   Mulcher: Thick spent leaves strip to coarse fiber bundles that brown fast on berms, so chop-and-drop cycles add carbon without fine turf thatch.
   Erosion Control: Fibrous roots grip rocky slopes in dry climates where shallow-rooted annuals wash out after the first monsoon burst.
 companions:
-  - Prickly pear
-  - Desert sage
-  - Yucca
+- slug: edible-cactus
+  name: Edible Cactus
+- slug: desert-sage
+  name: Desert Sage
 cautions:
-  - Heavy irrigation in cool seasons
-  - Planting in low frost pockets without grit amendment
+- Heavy irrigation in cool seasons
+- Planting in low frost pockets without grit amendment
 pests:
-  - Asparagus Beetle
-  - Mealybugs
-  - Palmetto Weevil
-  - Scale Insects
+- Asparagus Beetle
+- Mealybugs
+- Palmetto Weevil
+- Scale Insects
+companions_unresolved:
+- name: Yucca
+  original: Yucca

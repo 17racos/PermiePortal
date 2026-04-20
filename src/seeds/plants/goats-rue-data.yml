@@ -2,8 +2,8 @@ common_name: Goat's Rue
 picture: goats_rue.webp
 scientific_name: Galega officinalis
 aka:
-  - Professor-weed
-  - French lilac
+- Professor-weed
+- French lilac
 family: Fabaceae
 zone: 4-8
 ideal_temp_min: 55
@@ -12,12 +12,12 @@ min_temp: -30
 max_temp: 90
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Nitrogen Fixer
-  - Medicinal
-  - Wildlife Attractor
-  - Animal Fodder
+- Nitrogen Fixer
+- Medicinal
+- Wildlife Attractor
+- Animal Fodder
 description: |-
   Goat's rue is a tall perennial legume with bluish flowers and a résumé that includes “livestock poison if mishandled” and “historical galactagogue folklore.” It fixes nitrogen with rhizobia suited to the genus—not a generic bean inoculant guess. Several regions list it as invasive weed; subtropical and tropical Americas heat can stress it compared to cooler strongholds. Grow as a managed hedgerow experiment, not a salad bar.
 
@@ -32,40 +32,46 @@ purpose: |-
   Wildlife Attractor: Bicolor lavender-white pea racemes feed long-tongued bees in northern summers where plant spreads only under mowing or harvest control regimes that keep seed rain off wetlands listed invasive on your county extension map printout.
   Animal Fodder: Estonian hay trials cut regrowth at bud stage for dairy cows after wilting removes volatile toxicity spikes -- default stance stays do-not-graze without published regional extension sheets because fresh green Galega still poisons sheep at typical naive pasture intakes.
 companions:
-  - Apple
-  - Willow
-  - Wet meadow forbs
+- slug: apple
+  name: Apple
 cautions:
-  - Pastures with naive grazers and no management
-  - Letting seed spread where listed as invasive
+- Pastures with naive grazers and no management
+- Letting seed spread where listed as invasive
 pests:
-  - Aphids
-  - Banded Cucumber Beetle
-  - Bean Aphid
-  - Bean Leaf Beetle
-  - Bean Weevil
-  - Corn Earworm
-  - Cowpea Curculio
-  - Fall Armyworm
-  - Kudzu Bug
-  - Locust Borer
-  - Locust Leaf Miner
-  - Lubber Grasshopper
-  - Pea Moth
-  - Pea Weevil
-  - Reniform Nematode
-  - Root Aphid
-  - Soybean Looper
-  - Spittlebugs
-  - Stink Bug
-  - Striped Cucumber Beetle
-  - Whiteflies
-  - Fusarium Wilt
-  - Ganoderma Butt Rot
-  - Pythium Root Rot
-  - Root Rot
-  - Spotted Cucumber Beetle
-  - White Rot
-  - Brown Marmorated Stink Bug
-  - Harlequin Ladybird
-  - Velvetbean Caterpillar
+- Aphids
+- Banded Cucumber Beetle
+- Bean Aphid
+- Bean Leaf Beetle
+- Bean Weevil
+- Corn Earworm
+- Cowpea Curculio
+- Fall Armyworm
+- Kudzu Bug
+- Locust Borer
+- Locust Leaf Miner
+- Lubber Grasshopper
+- Pea Moth
+- Pea Weevil
+- Reniform Nematode
+- Root Aphid
+- Soybean Looper
+- Spittlebugs
+- Stink Bug
+- Striped Cucumber Beetle
+- Whiteflies
+- Fusarium Wilt
+- Ganoderma Butt Rot
+- Pythium Root Rot
+- Root Rot
+- Spotted Cucumber Beetle
+- White Rot
+- Brown Marmorated Stink Bug
+- Harlequin Ladybird
+- Velvetbean Caterpillar
+companions_unresolved:
+- name: Willow
+  original: Willow
+companion_categories:
+- name: Wet meadow forbs
+  original: Wet meadow forbs
+  type: system

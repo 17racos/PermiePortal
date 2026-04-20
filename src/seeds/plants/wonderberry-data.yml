@@ -2,8 +2,8 @@ common_name: Wonderberry
 picture: wonderberry.webp
 scientific_name: Solanum retroflexum
 aka:
-- Sunberry
-- Garden huckleberry (ambiguous marketing name)
+  - Sunberry
+  - Garden huckleberry (ambiguous marketing name)
 family: Solanaceae
 zone: 3-9
 ideal_temp_min: 55
@@ -12,11 +12,11 @@ min_temp: -5
 max_temp: 100
 perennial: false
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Edible
-- Ornamental
-- Wildlife Attractor
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
 description: |-
   Wonderberry (Solanum retroflexum) is a fast-growing annual nightshade developed for garden use, producing clusters of small dark berries on branching plants in warm summers. It sits in the tangled taxonomy of black nightshade relatives—treat every seed source as a distinct genotype until proven otherwise. In permaculture it is a novelty berry for jam trials and insectary rows, not a staple calorie crop.
 
@@ -30,39 +30,39 @@ purpose: |-
   Ornamental: Nightshade shrublets with tiny white flowers and glossy berries read curious in annual beds -- not a backbone hedge.
   Wildlife Attractor: Generalist bees work flowers; catbirds strip ripe clusters -- net if human jam beats bird charity.
 companions:
-- Tomato — shared solanaceous bed culture; both want rich soil and consistent moisture
-- Basil — aromatic intercrop folklore in vegetable gardens; handles different rooting
-  depth
-- Nasturtium — trap crop and ground splash shield at soil line for nightshade rows
+  - slug: tomato
+    name: Tomato
+  - slug: basil
+    name: Basil
+  - slug: nasturtium
+    name: Nasturtium
 cautions:
-- Nightshade chemistry variability — verify edibility for your seed source; green
-  berries are not food
-- Self-sowing — remove unwanted volunteers before they fruit if escapes are a concern
+  - Nightshade chemistry variability — verify edibility for your seed source; green berries are not food
+  - Self-sowing — remove unwanted volunteers before they fruit if escapes are a concern
 pests:
-- Andean Potato Weevil
-- Aphids
-- Broad Mite
-- Colorado Potato Beetle
-- Corn Earworm
-- Cyclamen Mite
-- Flea Beetles
-- Greenhouse Whitefly
-- Leaf Curl
-- Pepper Weevil
-- Potato Scab
-- Reniform Nematode
-- Root Aphid
-- Shore Fly
-- Stink Bug
-- Tobacco Budworm
-- Tomato Hornworms
-- Wireworm
-- Fusarium Wilt
-- Late Blight
-- Leaf Spot
-- Pythium Root Rot
-- Spotted Cucumber Beetle
-- Brown Marmorated Stink Bug
-growth_habit: Branching annual nightshade; clusters of small dark berries; warm garden
-  soils
+  - Andean Potato Weevil
+  - Aphids
+  - Broad Mite
+  - Colorado Potato Beetle
+  - Corn Earworm
+  - Cyclamen Mite
+  - Flea Beetles
+  - Greenhouse Whitefly
+  - Leaf Curl
+  - Pepper Weevil
+  - Potato Scab
+  - Reniform Nematode
+  - Root Aphid
+  - Shore Fly
+  - Stink Bug
+  - Tobacco Budworm
+  - Tomato Hornworms
+  - Wireworm
+  - Fusarium Wilt
+  - Late Blight
+  - Leaf Spot
+  - Pythium Root Rot
+  - Spotted Cucumber Beetle
+  - Brown Marmorated Stink Bug
+growth_habit: Branching annual nightshade; clusters of small dark berries; warm garden soils
 data_quality_score: 0.82

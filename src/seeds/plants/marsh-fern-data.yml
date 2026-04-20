@@ -32,9 +32,12 @@ purpose: |-
   Erosion Control: Fibrous mats bind rain-garden swales where intermittent inundation would wash bare soil -- pair with sedges upslope for two-height stabilization.
   Ornamental: Lance-shaped, deeply lobed fronds read clean in teaching wetlands -- contrast with broad royal fern behind for layered texture.
 companions:
-  - Royal Fern — shares wet footing without crowding; contrasting frond architecture
-  - Netted Chain Fern — similar hydrology, staggered heights for layered wetland texture
-  - Marsh Mallow — emergent stems and flowers above fern carpet without root competition for depth
+  - slug: royal-fern
+    name: Royal Fern
+  - slug: netted-chain-fern
+    name: Netted Chain Fern
+  - slug: marsh-mallow
+    name: Marsh Mallow
 cautions:
   - None documented
 pests:

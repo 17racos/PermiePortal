@@ -38,11 +38,16 @@ purpose: |-
   Animal Fodder: Protein-forward foliage accepts the same brassica pest vigilance as kale -- useful poultry browse when caged from trunk collars.
   Border Plant: Repeated hard pruning keeps a 6 ft+ edible hedge along paths -- thornless but visually assertive compared with soft herbs.
 companions:
-  - Marigold
-  - Mint
-  - Rosemary
-  - Onion
-  - Chive
+  - slug: chives
+    name: Chives
+  - slug: marigold
+    name: Marigold
+  - slug: mint
+    name: Mint
+  - slug: rosemary
+    name: Rosemary
+  - slug: onion
+    name: Onion
 cautions:
   - Tomato
   - Strawberry
@@ -63,3 +68,7 @@ pests:
   - Root Rot
 growth_habit: Tree
 data_quality_score: 0.8
+companions_normalized:
+  - original: Chive
+    resolved_slug: chives
+    name: Chives

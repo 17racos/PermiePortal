@@ -32,14 +32,11 @@ purpose: |-
   Pollinator: Long red filaments fit hummingbird bills and large carpenter bees during steamy months when many temperate ornamentals pause -- pair with ixora for staggered warm-season nectar density.
   Wildlife Attractor: Dense twigging shelters small passerines from raptors along frost-free fencelines -- still check regional invasive lists before mass planting near conservation land because seed rain travels.
 companions:
-- Papaya — fast fruiting overstory in frost-free polycultures; mimosa fixes N at shrub
-  layer
-- Pineapple — ground-level production under open shrub canopies where light penetrates
-- Ixora — complementary tropical flower colors; both want warmth and drainage
+- slug: papaya
+  name: Papaya
 cautions:
 - Frost sensitivity — dies back to ground or entirely in cold snaps without protection
-- Invasive potential — confirm local guidance before planting near natural areas in
-  frost-free regions
+- Invasive potential — confirm local guidance before planting near natural areas in frost-free regions
 pests:
 - Banded Cucumber Beetle
 - Bean Aphid
@@ -70,6 +67,10 @@ pests:
 - Brown Marmorated Stink Bug
 - Harlequin Ladybird
 - Velvetbean Caterpillar
-growth_habit: Tropical leguminous shrub; ferny leaves; pink powderpuff flowers; frost-free
-  climates
+growth_habit: Tropical leguminous shrub; ferny leaves; pink powderpuff flowers; frost-free climates
 data_quality_score: 0.85
+companions_unresolved:
+- name: Pineapple
+  original: Pineapple — ground-level production under open shrub canopies where light penetrates
+- name: Ixora
+  original: Ixora — complementary tropical flower colors; both want warmth and drainage

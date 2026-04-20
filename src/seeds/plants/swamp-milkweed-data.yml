@@ -32,9 +32,12 @@ purpose: |-
   Wildlife Attractor: Monarch caterpillars strip leaves to lace -- cluster five or more stems so larvae finish without starvation drama.
   Water Retention: Rhizomatous roots bind anaerobic muck while rooting zone pulls nitrate pulses from fertilizer drift before water leaves the wetland cell.
 companions:
-  - Joe-Pye Weed — matches moisture and height for layered wetland color without root combat.
-  - Cardinal Flower — red tubular flowers at the water’s edge complement pink milkweed and share hummingbird traffic.
-  - Switchgrass — roots knit soil behind the milkweed line; stems hide leggy lower stems when aesthetics matter.
+  - slug: joe-pye-weed
+    name: Joe Pye Weed
+  - slug: cardinal-flower
+    name: Cardinal Flower
+  - slug: switchgrass
+    name: Switchgrass
 cautions:
   - Cattail — tall clones shade out milkweed in shallow pond margins where light is already scarce.
   - Johnsongrass — aggressive rhizomes and allelopathic habits invade moist ditches and bully slower perennials.

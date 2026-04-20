@@ -28,9 +28,12 @@ purpose: |-
   Erosion Control: Fibrous roots and winter tiller mass armor fields when summer vegetables would leave bare soil -- survives frost that kills oats.
   Animal Fodder: Boot-stage grazing feeds dairy before heading -- watch ergot in wet years; straw returns after rumen passes through.
 companions:
-  - Crimson Clover (Trifolium incarnatum) — nitrogen-fixing companion improves rye’s nitrogen balance and speeds residue breakdown.
-  - Garlic (Allium sativum) — rotation partner; rye cover helps suppress weeds before garlic planting.
-  - Comfrey (Symphytum officinale) — deeper mineral cycling supports mixed fertility build-up in bed edges.
+  - slug: crimson-clover
+    name: Crimson Clover
+  - slug: garlic
+    name: Garlic
+  - slug: comfrey
+    name: Comfrey
 cautions:
   - Avoid planting rye continuously in the same spot; cereal pests and diseases can accumulate.
 pests:

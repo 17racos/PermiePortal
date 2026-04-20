@@ -32,9 +32,12 @@ purpose: |-
   Ornamental: Simultaneous rainbow fruit clusters on one shrub sell rain-garden tours from late summer through fall color -- glossy leaves stay clean-looking where powdery mildew pressure stays low with airflow.
   Border Plant: Multi-stem twiggy frame defines pond margins and bioswale toes without formal shearing -- tolerates wet feet better than most ornamental viburnums if crown stays above stagnant winter water.
 companions:
-  - Rusty Blackhaw — drier-site viburnum cousin for staggered fruiting and height layers
-  - Roughleaf Dogwood — shares moist edge ecology and extends bloom sequence for insects
-  - Netted Chain Fern — ground layer for shady wet feet under open shrub stems
+  - slug: rusty-blackhaw
+    name: Rusty Blackhaw
+  - slug: roughleaf-dogwood
+    name: Roughleaf Dogwood
+  - slug: netted-chain-fern
+    name: Netted Chain Fern
 cautions:
   - None documented
 pests:

@@ -2,8 +2,8 @@ common_name: Serviceberry
 picture: serviceberry.webp
 scientific_name: Amelanchier canadensis
 aka:
-- Shadbush
-- Juneberry
+  - Shadbush
+  - Juneberry
 family: Rosaceae
 zone: 4-8
 ideal_temp_min: 35
@@ -12,13 +12,13 @@ min_temp: -35
 max_temp: 95
 perennial: true
 layers:
-- Shrub
-- Tree
+  - Shrub
+  - Tree
 plant_function:
-- Edible
-- Wildlife Attractor
-- Pollinator
-- Border Plant
+  - Edible
+  - Wildlife Attractor
+  - Pollinator
+  - Border Plant
 description: |-
   Serviceberry (Amelanchier canadensis) is a multistemmed eastern North American shrub to small tree of moist woods edges and old fields, bearing white early-spring flowers and sweet reddish-purple pomes in early summer. Heights of 15–25 feet (4.5–7.5 m) occur in ideal sites, often with suckering colonies along fencerows. It bridges forest and field in permaculture designs, offering human fruit, bird food, and early pollinator support.
 
@@ -33,52 +33,53 @@ purpose: |-
   Pollinator: Drooping white racemes open before hardwood canopy closure to feed mason bees and early hoverflies in cool soil situations.
   Border Plant: Suckering rows trace woodland edges, hedgerows, and pond skirts where taller timber would shade field crops.
 companions:
-- Wild Plum — thicket neighbor extending fruit succession along fencerows
-- Highbush Cranberry — later fruit interest at moister margins
-- Wild Columbine — spring forb at the shrub skirt before canopy closes
+  - slug: american-plum
+    name: American Plum
+  - slug: highbush-cranberry
+    name: Highbush Cranberry
+  - slug: wild-columbine
+    name: Wild Columbine
 cautions:
-- Cedar-apple rust — separate from alternate juniper hosts when disease pressure is
-  high
-- Bird competition — plan netting ethics or shared harvest rows
+  - Cedar-apple rust — separate from alternate juniper hosts when disease pressure is high
+  - Bird competition — plan netting ethics or shared harvest rows
 pests:
-- Aphids
-- Apple Maggot
-- Apple Scab
-- Bagworm
-- Blackberry Psyllid
-- Cherry Fruit Fly
-- Codling Moth
-- Cyclamen Mite
-- Fall Webworm
-- Japanese Beetles
-- Lesser Peachtree Borer
-- Oriental Fruit Fly
-- Oriental Fruit Moth
-- Peach Twig Borer
-- Peachtree Borer
-- Pear Psylla
-- Plum Curculio
-- Raspberry Beetle
-- Raspberry Cane Borer
-- Rose Slug
-- Sparganothis Fruitworm
-- Spittlebugs
-- Stink Bug
-- Strawberry Root Weevil
-- Twig Girdlers
-- Vine Weevil
-- Brown Rot
-- Fire Blight
-- Gall Mite
-- Leaf Blight
-- Leaf Spot
-- Powdery Mildew
-- Rust Mite
-- Spotted Lanternfly
-- Brown Marmorated Stink Bug
-- Eastern Tent Caterpillar
-- Harlequin Ladybird
-- Tent Caterpillar
-growth_habit: Suckering woodland edge tree-shrub; white spring flowers; early-summer
-  berries
+  - Aphids
+  - Apple Maggot
+  - Apple Scab
+  - Bagworm
+  - Blackberry Psyllid
+  - Cherry Fruit Fly
+  - Codling Moth
+  - Cyclamen Mite
+  - Fall Webworm
+  - Japanese Beetles
+  - Lesser Peachtree Borer
+  - Oriental Fruit Fly
+  - Oriental Fruit Moth
+  - Peach Twig Borer
+  - Peachtree Borer
+  - Pear Psylla
+  - Plum Curculio
+  - Raspberry Beetle
+  - Raspberry Cane Borer
+  - Rose Slug
+  - Sparganothis Fruitworm
+  - Spittlebugs
+  - Stink Bug
+  - Strawberry Root Weevil
+  - Twig Girdlers
+  - Vine Weevil
+  - Brown Rot
+  - Fire Blight
+  - Gall Mite
+  - Leaf Blight
+  - Leaf Spot
+  - Powdery Mildew
+  - Rust Mite
+  - Spotted Lanternfly
+  - Brown Marmorated Stink Bug
+  - Eastern Tent Caterpillar
+  - Harlequin Ladybird
+  - Tent Caterpillar
+growth_habit: Suckering woodland edge tree-shrub; white spring flowers; early-summer berries
 data_quality_score: 0.81

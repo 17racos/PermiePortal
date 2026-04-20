@@ -30,9 +30,12 @@ purpose: |-
   Pollinator: Yellow anthers buzz-release pollen for bumblebees; tiny sweat bees work the same flowers on calm mornings when nightshade rows sit beside open weedy margins.
   Pest Management: Strong scent from hairy leaves confuses some host-finding moths when tomatoes sit in mixed beds with basil and alliums; the real win is even moisture and mulch that prevent blossom-end rot and aphid explosions on stressed plants.
 companions:
-  - Basil (Ocimum basilicum) — aromatic leaves help confuse pest traffic and make tomato beds smell less like “single crop buffet.”
-  - Marigold (Tagetes patula) — nectar and color draw beneficial insects and support early monitoring of pest changes.
-  - Garlic (Allium sativum) — strong scent diversifies the crop profile and supports rotation discipline around solanaceae beds.
+  - slug: basil
+    name: Basil
+  - slug: marigold
+    name: Marigold
+  - slug: garlic
+    name: Garlic
 cautions:
   - Avoid overhead watering; wet foliage increases disease risk.
   - Don’t plant tomatoes where soil was heavily diseased in the last season; rotate beds.

@@ -30,9 +30,12 @@ purpose: |-
   Shade Provider: Silvery evergreen canopy cools poultry yards, outdoor kitchens, and understory lavender rows through Mediterranean-dry summers -- skirt-prune for air movement so peacock spot does not party in stagnant interiors.
   Ornamental: Twisting trunks on gnarled specimens and pewter undersides of lanceolate leaves read as structural evergreen architecture in courtyards -- fruiting cultivars still drop stain-prone drupes, so plan paving color accordingly.
 companions:
-  - Lavender (Lavandula angustifolia) — thrives in similar sun and drainage; helps keep the understory aromatic and pollinator-friendly.
-  - Rosemary (Salvia rosmarinus) — drought-tolerant companion that fits Mediterranean-like orchard floors.
-  - Thyme (Thymus vulgaris) — low groundcover reduces evaporation and suppresses weeds under sunny edges.
+  - slug: lavender
+    name: Lavender
+  - slug: rosemary
+    name: Rosemary
+  - slug: thyme
+    name: Thyme
 cautions:
   - Avoid waterlogged soil; root health is the main long-term constraint for olives.
 pests:

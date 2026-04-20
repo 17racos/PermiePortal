@@ -2,7 +2,7 @@ common_name: Scorzonera
 picture: scorzonera.webp
 scientific_name: Scorzonera hispanica
 aka:
-- Black Salsify
+  - Black Salsify
 family: Asteraceae
 zone: 4-9
 ideal_temp_min: 50
@@ -11,11 +11,11 @@ min_temp: 15
 max_temp: 92
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Edible
-- Pollinator
-- Dynamic Accumulator
+  - Edible
+  - Pollinator
+  - Dynamic Accumulator
 description: |-
   Scorzonera (Scorzonera hispanica) is a useful perennial species in the Asteraceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a herbaceous form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.
 
@@ -28,13 +28,20 @@ purpose: |-
   Edible: Scorzonera hispanica long black taproot shreds into matchsticks for roast or cream soup when dug after the first light frosts sweeten starches in cool beds.
   Pollinator: Yellow daisy faces on tall wiry stems open in late season to feed bumblebees and hoverflies when summer annuals are already going to seed.
   Dynamic Accumulator: Deep root pulls minerals from subsoil into fall tops that can move to compost when you lift the whole plant for kitchen use.
-companions:
-- Leek - upright growth leaves root zone available for scorzonera taproots.
-- Lettuce - shallow feeder companion for efficient bed stacking.
-- Calendula - insectary role plus easy chop-and-drop biomass.
+companions: []
 cautions:
-- Jerusalem Artichoke - aggressive tubers can outcompete scorzonera roots.
+  - Jerusalem Artichoke - aggressive tubers can outcompete scorzonera roots.
 pests:
-- Aphids
-- Slugs
-- Rootknot Nematodes
+  - Aphids
+  - Slugs
+  - Rootknot Nematodes
+companion_categories:
+  - name: Leek - upright growth leaves root zone available for scorzonera taproots.
+    original: Leek - upright growth leaves root zone available for scorzonera taproots.
+    type: system
+  - name: Lettuce - shallow feeder companion for efficient bed stacking.
+    original: Lettuce - shallow feeder companion for efficient bed stacking.
+    type: system
+  - name: Calendula - insectary role plus easy chop-and-drop biomass.
+    original: Calendula - insectary role plus easy chop-and-drop biomass.
+    type: system

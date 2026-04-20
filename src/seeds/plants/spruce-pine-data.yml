@@ -2,8 +2,8 @@ common_name: Spruce Pine
 picture: spruce_pine.webp
 scientific_name: Pinus glabra
 aka:
-- Walter Pine
-- Cedar Pine
+  - Walter Pine
+  - Cedar Pine
 family: Pinaceae
 zone: 6-9
 ideal_temp_min: 35
@@ -12,12 +12,12 @@ min_temp: -5
 max_temp: 105
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Wildlife Attractor
-- Windbreaker
-- Erosion Control
-- Biomass
+  - Wildlife Attractor
+  - Windbreaker
+  - Erosion Control
+  - Biomass
 description: |-
   Spruce pine (Pinus glabra) is a southeastern North American pine of moist ravines and mixed hardwood forests, with soft, dark green needles in bundles of two and a somewhat open, irregular crown compared with plantation loblolly. Heights of 50–80 feet (15–24 m) occur in protected sites. It tolerates partial shade as a juvenile, making it useful in woodland restoration and multi-story windbreaks.
 
@@ -32,16 +32,19 @@ purpose: |-
   Erosion Control: Buttressed roots hug seepage slopes from Carolina bays to Florida ravines where spring floods undercut lesser trees.
   Biomass: Long soft needles acidify duff for azaleas and blueberries planted where hardwood leaf litter would read too sweet.
 companions:
-- Longleaf Pine — complementary pine neighbor in savanna restoration where appropriate
-- Wax Myrtle — shrub layer at woodland margins
-- Serviceberry — small flowering tree in partial shade understory during early succession
+  - slug: longleaf-pine
+    name: Longleaf Pine
+  - slug: wax-myrtle
+    name: Wax Myrtle
+  - slug: serviceberry
+    name: Serviceberry
 cautions:
-- Alkaline soil — chlorosis and chronic decline
-- Open-field exposure without windbreak — young trees may flag until roots anchor
+  - Alkaline soil — chlorosis and chronic decline
+  - Open-field exposure without windbreak — young trees may flag until roots anchor
 pests:
-- Aphids
-- Bagworm
-- Scale Insects
-- Spider Mites
+  - Aphids
+  - Bagworm
+  - Scale Insects
+  - Spider Mites
 growth_habit: Moist-woods pine; soft needles in twos; irregular crown; ravine slopes
 data_quality_score: 0.78

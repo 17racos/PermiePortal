@@ -31,9 +31,12 @@ purpose: |-
   Erosion Control: Rhizome pads bind thin humus pockets on limestone outcrops and live-oak limbs where soil would otherwise wash in summer deluges -- still mist during dry weeks if you want lush display instead of crispy dormancy theater.
   Ground Cover: Creeping stems visually soften coarse bark and mossy boulders in shade gardens -- wire mats with sphagnum interlayer so rhizomes breathe; soggy potting mix rots crowns fast.
 companions:
-  - Sand Live Oak — rough bark hosts epiphytes where humidity swings are moderated by canopy
-  - Southern Red Cedar — older bark furrows hold fern patches in humid climates
-  - Myrtle Oak — scrub oak neighbors share coastal humidity cycles where epiphytes revive after rain
+  - slug: sand-live-oak
+    name: Sand Live Oak
+  - slug: southern-red-cedar
+    name: Southern Red Cedar
+  - slug: myrtle-oak
+    name: Myrtle Oak
 cautions:
   - None documented
 pests:

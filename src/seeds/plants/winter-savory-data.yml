@@ -28,9 +28,12 @@ purpose: |-
   Medicinal: Thymol and carvacrol support traditional digestive teas -- pregnancy-sensitive; keep doses culinary unless working with a clinician.
   Pollinator: Small white-lipped flowers feed tiny bees in summer -- trim after bloom to keep mounds tight.
 companions:
-  - Rosemary (Salvia rosmarinus) — shared sun/drainage needs and aromatic guild cohesion.
-  - Thyme (Thymus vulgaris) — low groundcover reduces evaporation and keeps the border edible.
-  - Marigold (Tagetes patula) — adds nectar and visual monitoring for pest activity.
+  - slug: rosemary
+    name: Rosemary
+  - slug: thyme
+    name: Thyme
+  - slug: marigold
+    name: Marigold
 cautions:
   - Avoid waterlogged soil; raised beds and airflow matter in humid climates.
 pests:

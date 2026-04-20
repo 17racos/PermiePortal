@@ -34,9 +34,10 @@ purpose: |-
   Wildlife Attractor: Tanagers, orioles, and other frugivores strip golden clusters fast in dry tropical yards -- leave perimeter strings of fruit if you want seed dispersal into fence lines without netting every limb.
   Ornamental: Rough gray bark, drought-leathery foliage, and foamy yellow inflorescences sell the small tree along driveways where irrigation is honest sand-country sparse -- fruiting ornament that still reads as food forest, not purely decorative fluff.
 companions:
-  - Papaya
-  - Moringa
-  - Drought-tolerant understory herbs
+  - slug: papaya
+    name: Papaya
+  - slug: moringa
+    name: Moringa
 cautions:
   - Waterlogged clay
   - Hard freezes
@@ -46,3 +47,7 @@ pests:
   - aphids
 growth_habit: Shrubby tree; rough bark; clusters of small yellow fruit
 data_quality_score: 0.75
+companion_categories:
+  - name: Drought-tolerant understory herbs
+    original: Drought-tolerant understory herbs
+    type: system

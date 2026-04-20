@@ -39,10 +39,7 @@ purpose: |-
   Border Plant: Dense wall of green culms replaces privacy fencing where ordinances allow -- trench new plantings with root-pruning schedule or accept bamboo lawyering later.
   Ground Cover: Sasa and Pleioblastus dwarf bamboos tile shade paths where mowers fear stairs -- rhizomes surf mulch; edge twice yearly or they swallow stepping stones.
   Biofuel: Three-year-old culms chip into charcoal retorts and rocket-stove fuel faster than oak cordwood renews -- ash returns potassium to guild beds if you spread cooled char thoughtfully.
-companions:
-- Fern
-- Hostas
-- Hydrangea
+companions: []
 cautions:
 - Tomato
 - Pepper
@@ -64,3 +61,11 @@ pests:
 - Leaf Blight
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Fern
+  original: Fern
+- name: Hosta
+  original: Hostas
+  note: normalization_target_not_in_index
+- name: Hydrangea
+  original: Hydrangea

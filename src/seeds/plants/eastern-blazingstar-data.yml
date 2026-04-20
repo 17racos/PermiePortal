@@ -2,8 +2,8 @@ common_name: Eastern Blazingstar
 picture: eastern_blazingstar.webp
 scientific_name: Liatris scariosa
 aka:
-- Savanna blazing star
-- Schreb blazing star
+  - Savanna blazing star
+  - Schreb blazing star
 family: Asteraceae
 zone: 4-9
 ideal_temp_min: 55
@@ -12,12 +12,12 @@ min_temp: -25
 max_temp: 95
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Pollinator
-- Wildlife Attractor
-- Ornamental
-- Erosion Control
+  - Pollinator
+  - Wildlife Attractor
+  - Ornamental
+  - Erosion Control
 description: |-
   Eastern blazingstar (Liatris scariosa) is a prairie and savanna perennial bearing rounded heads of rosy-purple florets along stout stems, blooming in mid to late summer when many meadows need vertical punctuation. Plants often reach 2–5 feet (0.6–1.5 m) from a taproot and corm-like base, with narrow leaves that can clasp the stem. It suits dry-mesic borders, oak openings, and pollinator strips across eastern and central North American climates.
 
@@ -32,23 +32,22 @@ purpose: |-
   Ornamental: Button-shaped inflorescences differ from spike-type blazingstars -- adds design contrast in savanna mixes.
   Erosion Control: Taprooted clumps stabilize sunny slopes when planted in groups on well-drained soil.
 companions:
-- Little Bluestem — warm-season matrix grass matching dry-mesic culture behind flowering
-  stems
-- Indiangrass — taller companion for savanna aesthetic and complementary root depths
-- Bee Balm — overlapping bloom window broadens pollinator service if mildew-resistant
-  selections chosen
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: indiangrass
+    name: Indiangrass
+  - slug: bee-balm
+    name: Bee Balm
 cautions:
-- Wet winter soils on heavy clay — root rot on dormant plants without slope or drainage
-  work
-- Overfertilization — lodging and reduced flowering on lush, naive growth
+  - Wet winter soils on heavy clay — root rot on dormant plants without slope or drainage work
+  - Overfertilization — lodging and reduced flowering on lush, naive growth
 pests:
-- Aphids
-- Banded Winged Whitefly
-- Greenhouse Whitefly
-- Japanese Beetles
-- Lettuce Aphid
-- Lubber Grasshopper
-- Root Aphid
-growth_habit: Upright perennial; rounded flower heads; dry-mesic prairie and savanna
-  adapted
+  - Aphids
+  - Banded Winged Whitefly
+  - Greenhouse Whitefly
+  - Japanese Beetles
+  - Lettuce Aphid
+  - Lubber Grasshopper
+  - Root Aphid
+growth_habit: Upright perennial; rounded flower heads; dry-mesic prairie and savanna adapted
 data_quality_score: 0.78

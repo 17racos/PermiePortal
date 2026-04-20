@@ -10,11 +10,11 @@ min_temp: 32
 max_temp: 0
 perennial: true
 layers:
-  - Vine
+- Vine
 plant_function:
-  - Nitrogen Fixer
-  - Mulcher
-  - Animal Fodder
+- Nitrogen Fixer
+- Mulcher
+- Animal Fodder
 description: |-
   Velvet bean (Mucuna pruriens) is a vigorous twining legume grown as a warm-season cover crop for its ability to build fertility and produce abundant biomass. It is native to tropical regions and is widely used across humid tropics because it grows fast, covers soil quickly, and forms nitrogen-fixing relationships through its roots. Plants can reach several meters when trellised and typically produce large pods with dense seeds. In permaculture, velvet bean matters because it turns hot-season idle time into nitrogen-rich mulch, suppresses weeds with its canopy, and can provide fodder resources when handled appropriately.
 
@@ -28,13 +28,17 @@ purpose: |-
   Mulcher: Rampant twinning growth smothers weeds and returns tons of leafy biomass when slashed pre-pod -- wear gloves; many accessions bear irritating hairs on pods.
   Animal Fodder: Roasted or thoroughly processed seed can supplement ruminant protein -- raw seed contains L-DOPA and lectins; never feed uncooked seed to stock or humans.
 companions:
-  - Corn (Zea mays) — trellis/edge support and warm-season compatibility for mixed cover-crop planning.
-  - Sunflower (Helianthus annuus) — tall companion provides additional canopy and supports beneficial insects.
-  - Garlic (Allium sativum) — rotation partner that helps diversify bed odors and reduce pest continuity.
+- slug: sunflower
+  name: Sunflower
+- slug: garlic
+  name: Garlic
 cautions:
-  - Many velvet bean seeds/parts can be toxic if eaten raw; process thoroughly before any food/feed use.
+- Many velvet bean seeds/parts can be toxic if eaten raw; process thoroughly before any food/feed use.
 pests:
-  - Aphids
-  - Spider Mites
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Spider Mites
+- Root Rot
+- Caterpillars
+companions_unresolved:
+- name: Corn
+  original: Corn (Zea mays) — trellis/edge support and warm-season compatibility for mixed cover-crop planning.

@@ -31,9 +31,8 @@ purpose: |-
   Wildlife Attractor: Brilliant red dehiscent pods flag finches, parrots, and fruit bats across Australian savanna gardens -- expect seed rain and volunteers if you let every follicle pop before pickup.
   Ornamental: Large alternate leaves and scarlet fruit clusters read as subtropical accent even when you never taste the aril -- drought-tolerant once established on sandy soils with honest drainage.
 companions:
-- Acacia
-- Eucalyptus
-- Grevillea
+- slug: acacia
+  name: Acacia
 cautions:
 - None reported
 pests:
@@ -43,3 +42,8 @@ pests:
 - Caterpillars
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Eucalyptus
+  original: Eucalyptus
+- name: Grevillea
+  original: Grevillea

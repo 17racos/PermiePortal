@@ -33,14 +33,10 @@ purpose: |-
   Shade Provider: Thirty-to-sixty-foot evergreen crowns hold snow load better than madrone thin branches while casting year-round dim for huckleberry groundcover guilds on north aspects you mulched with coarse oak duff instead of fine bark volcanoes against trunks.
   Erosion Control: Mycorrhizal root webs lock steep colluvium under summer-dry redwood transition zones where winter rains would deliver shallow slides if understory bare soil stayed exposed on the same percent-slope transects you already mapped with clinometer tapes.
 companions:
-- Madrone — shares evergreen hardwood ecology and mycorrhizal aesthetics on dry summer
-  slopes
-- Douglas Fir — conifer overstory provides dappled light for understory chinquapin
-  in mosaic forests
-- Huckleberry — ericaceous fruiting layer beneath evergreen hardwood canopy edges
+- slug: madrone
+  name: Madrone
 cautions:
-- Chestnut blight risk awareness—know regional pathogen status when sourcing seed
-  and nursery stock
+- Chestnut blight risk awareness—know regional pathogen status when sourcing seed and nursery stock
 pests:
 - Borers
 - Fall Webworm
@@ -50,3 +46,8 @@ pests:
 - Tent Caterpillar
 growth_habit: Evergreen mast tree; golden leaf undersides; spiny burs; montane affinity
 data_quality_score: 0.85
+companions_unresolved:
+- name: Douglas Fir
+  original: Douglas Fir — conifer overstory provides dappled light for understory chinquapin in mosaic forests
+- name: Huckleberry
+  original: Huckleberry — ericaceous fruiting layer beneath evergreen hardwood canopy edges

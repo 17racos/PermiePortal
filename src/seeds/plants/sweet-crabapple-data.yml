@@ -2,7 +2,7 @@ common_name: Sweet Crabapple
 picture: sweet_crabapple.webp
 scientific_name: Malus coronaria
 aka:
-- American Sweet Crabapple
+  - American Sweet Crabapple
 family: Rosaceae
 zone: 4-8
 ideal_temp_min: 35
@@ -11,12 +11,12 @@ min_temp: -30
 max_temp: 100
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Edible
-- Wildlife Attractor
-- Pollinator
-- Ornamental
+  - Edible
+  - Wildlife Attractor
+  - Pollinator
+  - Ornamental
 description: |-
   Sweet crabapple (Malus coronaria) is a native North American tree of moist woods and edges, bearing fragrant white to pink spring flowers and yellow to green crabapples that can be sweeter than many wild crabs when fully ripe. Heights of 20–30 feet (6–9 m) are typical, with a broad crown and occasional thorns on wild forms. It is a pollinizer and wildlife tree for hedgerows where cedar-apple rust is managed.
 
@@ -31,50 +31,51 @@ purpose: |-
   Pollinator: Heavy nectar perfume pulls syrphids into foggy April mornings when natives still hesitate to open.
   Ornamental: Horizontal limbs studded with fragrant blooms justify courtyard specimens even when fruit stays bird-first.
 companions:
-- Serviceberry — earlier fruiting small tree in the same edge guild
-- Wild Plum — thicket neighbor extending successional fruit
-- Wild Columbine — spring forb beneath open canopy before deep shade closes
+  - slug: serviceberry
+    name: Serviceberry
+  - slug: american-plum
+    name: American Plum
+  - slug: wild-columbine
+    name: Wild Columbine
 cautions:
-- Fire Blight — prune strikes in dry weather; sanitize tools
-- Cedar-apple rust — separate from alternate juniper hosts when disease pressure is
-  high
+  - Fire Blight — prune strikes in dry weather; sanitize tools
+  - Cedar-apple rust — separate from alternate juniper hosts when disease pressure is high
 pests:
-- Apple Maggot
-- Apple Scab
-- Bagworm
-- Blackberry Psyllid
-- Cherry Fruit Fly
-- Codling Moth
-- Cyclamen Mite
-- Fall Webworm
-- Japanese Beetles
-- Lesser Peachtree Borer
-- Oriental Fruit Fly
-- Oriental Fruit Moth
-- Peach Twig Borer
-- Peachtree Borer
-- Pear Psylla
-- Plum Curculio
-- Raspberry Beetle
-- Raspberry Cane Borer
-- Rose Slug
-- Sparganothis Fruitworm
-- Spittlebugs
-- Stink Bug
-- Strawberry Root Weevil
-- Twig Girdlers
-- Vine Weevil
-- Brown Rot
-- Fire Blight
-- Gall Mite
-- Leaf Blight
-- Leaf Spot
-- Rust Mite
-- Spotted Lanternfly
-- Brown Marmorated Stink Bug
-- Eastern Tent Caterpillar
-- Harlequin Ladybird
-- Tent Caterpillar
-growth_habit: Native crabapple tree; fragrant spring bloom; yellow-green fruit; moist
-  woods edges
+  - Apple Maggot
+  - Apple Scab
+  - Bagworm
+  - Blackberry Psyllid
+  - Cherry Fruit Fly
+  - Codling Moth
+  - Cyclamen Mite
+  - Fall Webworm
+  - Japanese Beetles
+  - Lesser Peachtree Borer
+  - Oriental Fruit Fly
+  - Oriental Fruit Moth
+  - Peach Twig Borer
+  - Peachtree Borer
+  - Pear Psylla
+  - Plum Curculio
+  - Raspberry Beetle
+  - Raspberry Cane Borer
+  - Rose Slug
+  - Sparganothis Fruitworm
+  - Spittlebugs
+  - Stink Bug
+  - Strawberry Root Weevil
+  - Twig Girdlers
+  - Vine Weevil
+  - Brown Rot
+  - Fire Blight
+  - Gall Mite
+  - Leaf Blight
+  - Leaf Spot
+  - Rust Mite
+  - Spotted Lanternfly
+  - Brown Marmorated Stink Bug
+  - Eastern Tent Caterpillar
+  - Harlequin Ladybird
+  - Tent Caterpillar
+growth_habit: Native crabapple tree; fragrant spring bloom; yellow-green fruit; moist woods edges
 data_quality_score: 0.79

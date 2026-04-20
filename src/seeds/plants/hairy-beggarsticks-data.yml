@@ -2,8 +2,8 @@ common_name: Hairy Beggarsticks
 picture: hairy_beggarsticks.webp
 scientific_name: Bidens alba
 aka:
-- Spanish needles
-- Romerillo
+  - Spanish needles
+  - Romerillo
 family: Asteraceae
 zone: 8-12
 ideal_temp_min: 55
@@ -12,13 +12,13 @@ min_temp: 25
 max_temp: 110
 perennial: false
 layers:
-- Herbaceous
-- Ground Cover
+  - Herbaceous
+  - Ground Cover
 plant_function:
-- Edible
-- Pollinator
-- Wildlife Attractor
-- Medicinal
+  - Edible
+  - Pollinator
+  - Wildlife Attractor
+  - Medicinal
 description: |-
   Hairy beggarsticks (Bidens alba) is a warm-climate annual to short-lived forb with opposite compound leaves, white ray flowers, and seeds armed with two barbed awns that hitchhike on socks and dog fur across the subtropical and tropical Americas. Young leaves are eaten as a pot herb in some Caribbean traditions—identification and clean sites matter more than bravado. Ecologically it is a blunt pioneer: it appears on disturbed, moist, fertile ground and feeds small pollinators when fancier flowers are still ordering business cards.
 
@@ -34,21 +34,21 @@ purpose: |-
   Wildlife Attractor: Barbed two-awn achenes stick to fur and socks, but finches still work the seed heads late season -- manage before set if you dislike hitchhikers in wool or dog coats.
   Medicinal: Coastal folk use leaf teas and washes for minor complaints -- internal use needs positive ID and caution because Asteraceae chemistry varies; do not substitute roadside plants for pharmacy without training.
 companions:
-- Okra — shares warm-season annual bed space without identical flowering phenology
-- Amaranth — edible weed-culture ally in subsistence polycultures with overlapping
-  harvest windows
-- Roselle — hibiscus relative adds height and different floral chemistry in diversified
-  annual rows
+  - slug: okra
+    name: Okra
+  - slug: amaranth
+    name: Amaranth
+  - slug: roselle
+    name: Roselle
 cautions:
-- Barbed seeds cling to clothing, pets, and fleece—exclude from fiber-animal pastures
-  and pristine restoration buffers
+  - Barbed seeds cling to clothing, pets, and fleece—exclude from fiber-animal pastures and pristine restoration buffers
 pests:
-- Aphids
-- Banded Winged Whitefly
-- Greenhouse Whitefly
-- Lettuce Aphid
-- Lubber Grasshopper
-- Root Aphid
-- Whiteflies
+  - Aphids
+  - Banded Winged Whitefly
+  - Greenhouse Whitefly
+  - Lettuce Aphid
+  - Lubber Grasshopper
+  - Root Aphid
+  - Whiteflies
 growth_habit: Warm-season annual forb; white daisy flowers; barbed two-awn seeds
 data_quality_score: 0.8

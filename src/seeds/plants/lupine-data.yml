@@ -33,9 +33,10 @@ purpose: |-
   Erosion Control: Deep taproots anchor road cuts and ski-slope restoration mixes -- choose regional ecotypes so bloom timing matches local pollinator flights.
   Ornamental: Spires of blue to magenta flowers read alpine-clean in borders -- provide sharp drainage; wet winter clay rots crowns overnight.
 companions:
-- Yarrow
-- Coneflower
-- Black-eyed Susan
+- slug: yarrow
+  name: Yarrow
+- slug: black-eyed-susan
+  name: Black-eyed Susan
 cautions:
 - Carrot
 - Potato
@@ -72,3 +73,6 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Coneflower
+  original: Coneflower

@@ -2,9 +2,9 @@ common_name: Wild Bergamot
 picture: wild_bergamot.webp
 scientific_name: Monarda fistulosa
 aka:
-- Bee Balm
-- Horsemint
-- Bergamot
+  - Bee Balm
+  - Horsemint
+  - Bergamot
 family: Lamiaceae
 zone: 3-9
 ideal_temp_min: 40
@@ -13,12 +13,12 @@ min_temp: -30
 max_temp: 100
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Pollinator
-- Medicinal
-- Wildlife Attractor
-- Ornamental
+  - Pollinator
+  - Medicinal
+  - Wildlife Attractor
+  - Ornamental
 description: |-
   Wild bergamot (Monarda fistulosa) is a fragrant perennial of North American prairies and open woods, with lavender tubular flowers in rounded clusters atop square stems usually 2–4 feet (60–120 cm). It feeds long-tongued bees, hummingbird moths, and hummingbirds where ranges overlap. Leaves smell like oregano’s wild cousin—use that fact in teas and pest-confusion sprays where ethics and ID align.
 
@@ -33,15 +33,18 @@ purpose: |-
   Wildlife Attractor: Seed nutlets linger into January on stiff stalks for juncos along prairie edges -- hollow stems also shelter cavity-nesting native bees if you cut some clumps at eighteen inches (45 cm) in rotation each March.
   Ornamental: Lavender lipped bracts read graphic from ten feet (3 m) back in matrix plantings with little bluestem -- mildew shows as white powder on lower leaves in stagnant air, so spacing reads as both aesthetics and disease prevention.
 companions:
-- Little Bluestem — warm-season grass matrix sharing sun and drainage
-- Milkweed — complementary forb for monarch habitat in pollinator strips
-- Prairie Coneflower — forb neighbor with contrasting flower architecture
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: milkweed
+    name: Milkweed
+  - slug: prairie-coneflower
+    name: Prairie Coneflower
 cautions:
-- Powdery Mildew — improve spacing and morning watering discipline
-- Strong aroma divides households—site seating deliberately
+  - Powdery Mildew — improve spacing and morning watering discipline
+  - Strong aroma divides households—site seating deliberately
 pests:
-- Aphids
-- Japanese Beetles
-- Spider Mites
+  - Aphids
+  - Japanese Beetles
+  - Spider Mites
 growth_habit: Aromatic perennial; lavender tubular flower clusters; prairies and edges
 data_quality_score: 0.83

@@ -28,9 +28,12 @@ purpose: |-
   Medicinal: Leaf mineral density backs clinic advice for folate-focused diets -- coordinate vitamin K loads with anticoagulant protocols before eating daily huge salads.
   Water Retention: Broad crinkled leaves shade drip lines so moisture probes read steadier between irrigation pulses on sandy market beds.
 companions:
-  - Garlic (Allium sativum) — allium aroma helps diversify pest landscape and supports rotation scheduling.
-  - Lettuce (Lactuca sativa) — shared cool-season timing and manageable moisture needs for layered bed planting.
-  - Radish (Raphanus sativus) — quick roots loosen soil and create a rotation-friendly rhythm for successive greens.
+  - slug: garlic
+    name: Garlic
+  - slug: lettuce
+    name: Lettuce
+  - slug: radish
+    name: Radish
 cautions:
   - Heat triggers bolting; use partial shade and succession sowing when temperatures rise.
 pests:

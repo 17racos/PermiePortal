@@ -32,9 +32,12 @@ purpose: |-
   Dynamic Accumulator: Rapacious canopy mines fertility from disturbed cotton fields into leaf tissue -- compost green chop before woody lignin locks nutrients away.
   Biomass: Shoulder-high stands produce heavy summer slash for mulch if you tarp suppress seed banks afterward on farm edges that already fight senna drift.
 companions:
-  - Velvetleaf — another disturbance-era annual that signals the same weedy field chemistry
-  - Sunflower — tall crop neighbor historically found in mixed warm-season field edges
-  - Spanish Needles — bidens-class annual that shares roadsides; study together to sharpen weed ID
+  - slug: velvetleaf
+    name: Velvetleaf
+  - slug: sunflower
+    name: Sunflower
+  - slug: spanish-needles
+    name: Spanish Needles
 cautions:
   - Aggressive self-seeder and listed invasive in many jurisdictions—do not introduce casually
 pests:

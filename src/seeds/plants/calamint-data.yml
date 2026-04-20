@@ -32,18 +32,18 @@ purpose: |-
   Ornamental: forms a low mound of fine gray-green foliage with long bloom spikes that read tidy along paths and sunny borders without mint rhizomes spreading underground.
   Pest Management: Volatile oils from Calamintha nepeta foliage can mask host scents for some chewing insects when used as a low aromatic skirt around brassicas or roses, not as a stand-alone spray substitute.
 companions:
-- Lavender — shared sun, drainage, and pollinator synergy without root aggression
-  of mint
-- Rosemary — structural contrast; both prefer lean dryish soils in Mediterranean-style
-  beds
-- Coneflower — taller summer blooms pair with low calamint skirt for layered pollinator
-  forage
+- slug: lavender
+  name: Lavender
+- slug: rosemary
+  name: Rosemary
 cautions:
 - Heavy wet clay in winter — crown rot in marginal zones without slope or amendment
 - Overfertilization — lush growth with fewer flowers and more flopping
 pests:
 - Aphids
 - Spider Mites
-growth_habit: Low mounding perennial; tiny tubular flowers; aromatic mint-relative
-  foliage
+growth_habit: Low mounding perennial; tiny tubular flowers; aromatic mint-relative foliage
 data_quality_score: 0.85
+companions_unresolved:
+- name: Coneflower
+  original: Coneflower — taller summer blooms pair with low calamint skirt for layered pollinator forage

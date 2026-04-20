@@ -32,9 +32,12 @@ purpose: |-
   Ground Cover: Low mats exclude chickweed between tomato heels while shallow roots sip irrigation meant for deeper crops.
   Pest Management: Early aphid colonies on alyssum pulls syrphid larvae onto the buffet -- scout predator arrival before reflex-spraying the bait flowers.
 companions:
-  - Tomato — low edge planting invites hoverflies without shading the crop if kept trimmed.
-  - Kale — brassica pests get watched when alyssum pulls early aphids into the open for predators.
-  - Chives — upright allium lines contrast texture and may confuse some chewing insects at the border.
+  - slug: tomato
+    name: Tomato
+  - slug: kale
+    name: Kale
+  - slug: chives
+    name: Chives
 cautions:
   - Aggressive spreading mint that buries low mats
   - Dense vining squash that smothers bed edges

@@ -39,9 +39,10 @@ purpose: |-
   Dynamic Accumulator: Roadside rosettes concentrate zinc and potassium in leaf ash tests -- chop before seed rain if you do not want mineral-rich biomass volunteering across the whole path.
   Ground Cover: Low rosettes tolerate foot compaction where turfgrass would demand irrigation -- fills gaps between stepping stones yet lifts easily where you need bare soil again for transplants.
 companions:
-- Comfrey
-- Yarrow
-- Clover
+- slug: comfrey
+  name: Comfrey
+- slug: yarrow
+  name: Yarrow
 cautions:
 - Mistaking narrow-leaved plantain (P. lanceolata) if you wanted this exact species
 - Letting it dominate tiny formal beds without a plan
@@ -50,3 +51,6 @@ pests:
 - snails
 growth_habit: Basal-rosette perennial herb
 data_quality_score: 0.8
+companions_unresolved:
+- name: Clover
+  original: Clover

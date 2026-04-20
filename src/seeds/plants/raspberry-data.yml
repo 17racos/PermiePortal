@@ -2,9 +2,9 @@ common_name: Raspberry
 picture: raspberry.webp
 scientific_name: Rubus idaeus
 aka:
-  - Red Raspberry
-  - Black Raspberry (Rubus occidentalis)
-  - Golden Raspberry
+- Red Raspberry
+- Black Raspberry (Rubus occidentalis)
+- Golden Raspberry
 family: Rosaceae
 zone: 3-9
 ideal_temp_min: 55
@@ -13,13 +13,13 @@ min_temp: -20
 max_temp: 95
 perennial: true
 layers:
-  - Shrub
+- Shrub
 plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
-  - Erosion Control
+- Edible
+- Medicinal
+- Pollinator
+- Wildlife Attractor
+- Erosion Control
 description: |-
   Raspberry (Rubus idaeus) is a deciduous perennial shrub that produces small, aggregate fruit composed of multiple drupelets. The plant has upright or trailing canes that can grow up to 1.8 m (6 ft) tall, and many varieties have thorny stems. It is highly valued for its sweet and tart berries, which are rich in antioxidants and vitamins.
 
@@ -37,66 +37,75 @@ purpose: |-
   Wildlife Attractor: Bramble thickets give catbirds and brown thrashers thorny cover next to open pasture -- fruiting laterals at the thicket edge feed them first so inner rows stay cleaner for human picks.
   Erosion Control: Underground stolons and fibrous roots interlace on ditch banks and orchard berms where mower wheels would otherwise compact bare clay -- living canes catch snow and leaf litter that would slide off smooth soil.
 companions:
-  - Chive
-  - Garlic
-  - Clover
-  - Comfrey
+- slug: chives
+  name: Chives
+- slug: garlic
+  name: Garlic
+- slug: comfrey
+  name: Comfrey
 cautions:
-  - Potato
-  - Tomato
-  - Eggplant
+- Potato
+- Tomato
+- Eggplant
 pests:
-  - Aphids
-  - Apple Maggot
-  - Apple Scab
-  - Bagworm
-  - Blackberry Psyllid
-  - Borers
-  - Cherry Fruit Fly
-  - Codling Moth
-  - Cyclamen Mite
-  - Fall Webworm
-  - Gray Mold
-  - Japanese Beetles
-  - Lesser Peachtree Borer
-  - Oriental Fruit Fly
-  - Oriental Fruit Moth
-  - Peach Twig Borer
-  - Peachtree Borer
-  - Pear Psylla
-  - Plum Curculio
-  - Raspberry Beetle
-  - Raspberry Cane Borer
-  - Rose Slug
-  - Sparganothis Fruitworm
-  - Spider Mites
-  - Spittlebugs
-  - Stink Bug
-  - Strawberry Root Weevil
-  - Twig Girdlers
-  - Vine Weevil
-  - White Grubs
-  - Chafer Grubs
-  - Root Feeding Grubs
-  - Treehoppers
-  - Glass Snails
-  - Leatherleaf Slug
-  - Brown Rot
-  - Fire Blight
-  - Gall Mite
-  - Leaf Blight
-  - Leaf Spot
-  - Phytophthora Root Rot
-  - Rust Mite
-  - Spotted Lanternfly
-  - Leaf Scorch
-  - Iron Deficiency
-  - Magnesium Deficiency
-  - Gall Wasps
-  - Brown Marmorated Stink Bug
-  - Eastern Tent Caterpillar
-  - Harlequin Ladybird
-  - Tent Caterpillar
-  - Jumping Worms
+- Aphids
+- Apple Maggot
+- Apple Scab
+- Bagworm
+- Blackberry Psyllid
+- Borers
+- Cherry Fruit Fly
+- Codling Moth
+- Cyclamen Mite
+- Fall Webworm
+- Gray Mold
+- Japanese Beetles
+- Lesser Peachtree Borer
+- Oriental Fruit Fly
+- Oriental Fruit Moth
+- Peach Twig Borer
+- Peachtree Borer
+- Pear Psylla
+- Plum Curculio
+- Raspberry Beetle
+- Raspberry Cane Borer
+- Rose Slug
+- Sparganothis Fruitworm
+- Spider Mites
+- Spittlebugs
+- Stink Bug
+- Strawberry Root Weevil
+- Twig Girdlers
+- Vine Weevil
+- White Grubs
+- Chafer Grubs
+- Root Feeding Grubs
+- Treehoppers
+- Glass Snails
+- Leatherleaf Slug
+- Brown Rot
+- Fire Blight
+- Gall Mite
+- Leaf Blight
+- Leaf Spot
+- Phytophthora Root Rot
+- Rust Mite
+- Spotted Lanternfly
+- Leaf Scorch
+- Iron Deficiency
+- Magnesium Deficiency
+- Gall Wasps
+- Brown Marmorated Stink Bug
+- Eastern Tent Caterpillar
+- Harlequin Ladybird
+- Tent Caterpillar
+- Jumping Worms
 growth_habit: Tree
 data_quality_score: 0.8
+companions_normalized:
+- original: Chive
+  resolved_slug: chives
+  name: Chives
+companions_unresolved:
+- name: Clover
+  original: Clover

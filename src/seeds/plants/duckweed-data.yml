@@ -2,9 +2,9 @@ common_name: Duckweed
 picture: duckweed.webp
 scientific_name: Lemna minor
 aka:
-  - Lesser Duckweed
-  - Lemna cyclostasa
-  - Lemna minima
+- Lesser Duckweed
+- Lemna cyclostasa
+- Lemna minima
 family: Araceae
 zone: 4-10
 ideal_temp_min: 63
@@ -13,12 +13,12 @@ min_temp: 32
 max_temp: 95
 perennial: true
 layers:
-  - Aquatic
+- Aquatic
 plant_function:
-  - Edible
-  - Animal Fodder
-  - Water Purification
-  - Biofuel
+- Edible
+- Animal Fodder
+- Water Purification
+- Biofuel
 description: |-
   Duckweed (*Lemna minor*) is a free-floating aquatic perennial known for its rapid growth and small size. Each plant consists of a single, flat, oval-shaped frond approximately 1.5 to 3.5 millimeters in length, making it one of the smallest flowering plants. The fronds float on the surface of still or slow-moving freshwater bodies, with fine roots hanging beneath. Duckweed thrives in nutrient-rich waters and can form dense, green mats that cover the water's surface.
 
@@ -30,15 +30,18 @@ description: |-
 purpose: |-
   Edible: Lemna minor fronds concentrate protein when skimmed and dried -- Asian cuisines use tiny duckweed as vegetable protein; rinse and process thoughtfully.
   Animal Fodder: Rapid biomass supports fish, poultry, -- and livestock ponds as high-protein surface feed when heavy metals and pathogens are ruled out.
-  Water Purifier: Floating mats strip dissolved nitrogen and phosphorus from eutrophic ponds -- harvest regularly or mats crash oxygen when they senesce.
+  Water Purification: Floating mats strip dissolved nitrogen and phosphorus from eutrophic ponds -- harvest regularly or mats crash oxygen when they senesce.
   Biofuel: Starch-rich fronds are feedstock candidates for biogas digesters -- and ethanol pilots where farm-scale handling exists.
 companions:
-  - Water Lily
-  - Cattail
+- slug: cattail
+  name: Cattail
 cautions:
-  - Watermeal
+- Watermeal
 pests:
-  - Shore Fly
-  - Aphids
+- Shore Fly
+- Aphids
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Water Lily
+  original: Water Lily

@@ -33,9 +33,12 @@ purpose: |-
   Wildlife Attractor: Giant swallowtail larvae chew leaves on thickets you tolerate; red drupes feed thrushes and gamebirds in autumn -- plant extra stems because caterpillar defoliation can look dramatic before pupation.
   Border Plant: Paired stem thorns and suckering colonies define pasture corners and restoration edges where plastic signs rot -- mow outward face only if you enjoy flat tires on hidden spines.
 companions:
-  - Roughleaf Dogwood — non-thorny contrast in mixed shrub rows for wildlife structure
-  - Red Mulberry — taller fruiting tree overhead while prickly ash guards the thicket edge
-  - Rattlesnake Master — sunny herb layer under open shrub canopies on dry margins
+  - slug: roughleaf-dogwood
+    name: Roughleaf Dogwood
+  - slug: red-mulberry
+    name: Red Mulberry
+  - slug: rattlesnake-master
+    name: Rattlesnake Master
 cautions:
   - Thorns and strong oils irritate some people—wear gloves when pruning
 pests:

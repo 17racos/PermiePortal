@@ -2,8 +2,8 @@ common_name: Saltmeadow Cordgrass
 picture: saltmeadow_cordgrass.webp
 scientific_name: Spartina patens
 aka:
-- Salt Marsh Hay
-- Saltmeadow Grass
+  - Salt Marsh Hay
+  - Saltmeadow Grass
 family: Poaceae
 zone: 3-9
 ideal_temp_min: 40
@@ -12,12 +12,12 @@ min_temp: -20
 max_temp: 100
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Erosion Control
-- Wildlife Attractor
-- Water Retention
-- Biomass
+  - Erosion Control
+  - Wildlife Attractor
+  - Water Retention
+  - Biomass
 description: |-
   Saltmeadow cordgrass (Spartina patens) is a fine-textured perennial grass of Atlantic and Gulf coastal marshes and saline meadows, forming dense tufts that tolerate periodic tidal flooding and salt spray. Culms usually reach 1–3 feet (30–90 cm), spreading modestly by short rhizomes compared with larger cordgrass cousins. In restoration and coastal permaculture it knits marsh edges, filters runoff, and provides cover for nesting birds and juvenile fish where salinity is part of the contract.
 
@@ -32,28 +32,28 @@ purpose: |-
   Water Retention: Root-filled salty peat sponges surge water and traps suspended sediment so marsh elevation inches upward instead of washing seaward.
   Biomass: Seasonal dieback of narrow blades feeds accretion and soil organic matter when left in place for restoration goals rather than exported as hay without a salt budget.
 companions:
-- Wax Myrtle — shrub neighbor at slightly higher elevations sharing coastal exposure
-- Glasswort — low succulent forb in higher salinity zones complementing grass structure
-- Pickerelweed — emergent neighbor at lower salinity pockets in marsh margin transitions
+  - slug: wax-myrtle
+    name: Wax Myrtle
+  - slug: glasswort
+    name: Glasswort
+  - slug: pickerelweed
+    name: Pickerelweed
 cautions:
-- Regulatory status of Spartina species varies—coastal plantings require homework,
-  not hope
-- Freshwater-only beds — poor fit; chlorosis and decline without salinity tolerance
-  context
+  - Regulatory status of Spartina species varies—coastal plantings require homework, not hope
+  - Freshwater-only beds — poor fit; chlorosis and decline without salinity tolerance context
 pests:
-- Aphids
-- Armyworms
-- Bamboo Mite
-- Corn Earworm
-- Fall Armyworm
-- Japanese Beetles
-- Lubber Grasshopper
-- Rice Blast Fungus
-- Rice Water Weevil
-- Spider Mites
-- Spittlebugs
-- Wireworm
-- Leaf Blight
-growth_habit: Tufted salt-tolerant grass; brackish marshes; short rhizomes; coastal
-  meadows
+  - Aphids
+  - Armyworms
+  - Bamboo Mite
+  - Corn Earworm
+  - Fall Armyworm
+  - Japanese Beetles
+  - Lubber Grasshopper
+  - Rice Blast Fungus
+  - Rice Water Weevil
+  - Spider Mites
+  - Spittlebugs
+  - Wireworm
+  - Leaf Blight
+growth_habit: Tufted salt-tolerant grass; brackish marshes; short rhizomes; coastal meadows
 data_quality_score: 0.76

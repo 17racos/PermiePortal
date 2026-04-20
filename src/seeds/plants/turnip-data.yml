@@ -28,9 +28,12 @@ purpose: |-
   Medicinal: Glucosinolates and vitamin C show up in both root and leaf -- folk use targets cough and digestion support; brassica thyroid goitrogen math applies if you juice barrels of raw tops daily.
   Erosion Control: Fast-emerging rosettes armor beds between tree crops -- fibrous roots loosen clay while leaves intercept autumn rains on slopes.
 companions:
-  - Lettuce (Lactuca sativa) — shares cool-season scheduling and helps shade soil with leafy cover.
-  - Garlic (Allium sativum) — rotation partner that diversifies odors and supports integrated pest observation.
-  - Radish (Raphanus sativus) — quick roots loosen soil and complement turnip’s deeper taproot profile.
+  - slug: lettuce
+    name: Lettuce
+  - slug: garlic
+    name: Garlic
+  - slug: radish
+    name: Radish
 cautions:
   - Avoid brassica monoculture; rotate to reduce pest/disease carryover.
 pests:

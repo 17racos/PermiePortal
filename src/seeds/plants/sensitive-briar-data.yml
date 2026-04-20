@@ -32,9 +32,12 @@ purpose: |-
   Wildlife Attractor: Sulphur larvae chew sensitive foliage where catclaw prickles discourage mammal browse long enough for pupation.
   Ground Cover: Touch-sensitive leaflets carpet sandy openings while recurved barbs snag boots before bare soil blows off berms.
 companions:
-  - Rattlesnake Master — upright prairie contrast beside low sensitive briar mats
-  - Showy Partridge Pea — taller legume neighbor for layered nitrogen fixation in meadows
-  - Narrowleaf Sunflower — perennial height behind low legumes for vertical structure
+  - slug: rattlesnake-master
+    name: Rattlesnake Master
+  - slug: partridge-pea
+    name: Partridge Pea
+  - slug: swamp-sunflower
+    name: Swamp Sunflower
 cautions:
   - None documented
 pests:

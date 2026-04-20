@@ -34,18 +34,26 @@ purpose: |-
   Mulcher: Three-lobed yellow fall leaves pack calcium for earthworm middens under drip lines on organic-rich bottomlands where summer drought once crisped lesser maple selections without mulch rings you widened.
   Ornamental: Reliable butter-yellow pigment shows where northern Acer saccharum cultivars scorch leaf margins in Gulf heat if irrigation swings boom-bust across zone 6-9 transition yards you monitor with tensiometers.
 companions:
-- Flowering Dogwood — spring understory bloom beneath maple canopy without full shade
-  smothering
-- Spicebush — aromatic shrub layer for wildlife in moist woodlands
-- Ferns — maidenhair and shield ferns occupy the root-mulch zone maples prefer
+- slug: spicebush
+  name: Spicebush
+- slug: cinnamon-fern
+  name: Cinnamon Fern
 cautions:
-- Black Walnut — maples vary in tolerance; avoid tight interplanting where juglone
-  and moisture stress stack
+- Black Walnut — maples vary in tolerance; avoid tight interplanting where juglone and moisture stress stack
 pests:
 - Borers
 - Boxelder Bug
 - Scale Insects
 - Spotted Lanternfly
-growth_habit: Medium deciduous maple; three-lobed leaves; paired samaras; moist forest
-  tree
+growth_habit: Medium deciduous maple; three-lobed leaves; paired samaras; moist forest tree
 data_quality_score: 0.85
+companions_unresolved:
+- name: Flowering Dogwood
+  original: Flowering Dogwood — spring understory bloom beneath maple canopy without full shade smothering
+- name: Fern
+  original: Ferns — maidenhair and shield ferns occupy the root-mulch zone maples prefer
+  note: normalization_target_not_in_index
+companions_normalized:
+- original: Ferns — maidenhair and shield ferns occupy the root-mulch zone maples prefer
+  resolved_slug: cinnamon-fern
+  name: Cinnamon Fern

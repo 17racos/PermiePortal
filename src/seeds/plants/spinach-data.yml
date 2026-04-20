@@ -28,9 +28,12 @@ purpose: |-
   Medicinal: Iron-folate nutrition underpins clinic advice for anemia-prone diets -- coordinate portions with blood-thinning meds because vitamin K density is real.
   Ground Cover: Dense rosettes shade spinach alleys under taller brassicas so weed seeds never see sunlight between rows.
 companions:
-  - Lettuce (Lactuca sativa) — shared cool-season timing and manageable watering simplifies bed work.
-  - Garlic (Allium sativum) — strong scent helps diversify pest pressure in mixed cool-season plantings.
-  - Radish (Raphanus sativus) — quick roots loosen soil and help you harvest something fast while spinach grows.
+  - slug: lettuce
+    name: Lettuce
+  - slug: garlic
+    name: Garlic
+  - slug: radish
+    name: Radish
 cautions:
   - Heat triggers bolting; plan shade or shift sowing windows.
 pests:

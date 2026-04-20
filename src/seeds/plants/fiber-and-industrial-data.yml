@@ -33,9 +33,10 @@ purpose: |-
   Erosion Control: Deep-rooted perennial hemp and dense sisal clamps hold road cuts where annual cotton would expose subsoil right after defoliation harvest strips roots shallow on the same slope class.
   Edible: Flax linseed and cottonseed oil pressings still carry food-grade fat and protein side streams once solvent profiles and state feed laws match whatever you plan to pour into hog rations or pantry jars.
 companions:
-  - Autumn Olive
-  - Comfrey
-  - Pollinator strips
+  - slug: autumn-olive
+    name: Autumn Olive
+  - slug: comfrey
+    name: Comfrey
 cautions:
   - Growing restricted species where law and HOA intersect badly
   - Underestimating processing labor — romance dies at the retting tub
@@ -43,3 +44,7 @@ pests:
   - Armyworms
   - Japanese Beetles
   - Rootknot Nematodes
+companion_categories:
+  - name: Pollinator strips
+    original: Pollinator strips
+    type: system

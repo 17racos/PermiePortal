@@ -39,11 +39,12 @@ purpose: |-
   Pest Management: Vetiver oil from roots repels termites in traditional granary protection -- field-scale claims need local verification.
   Water Purifier: Filter strips of vetiver polish farm runoff and trap silt before water reaches canals -- roots tolerate short anaerobic pulses better than most grasses.
 companions:
-- Banana
-- Citrus
-- Papaya
-- Bamboo
-- Sugarcane
+- slug: banana
+  name: Banana
+- slug: papaya
+  name: Papaya
+- slug: bamboo
+  name: Bamboo
 cautions:
 - None reported
 pests:
@@ -61,3 +62,8 @@ pests:
 - Leaf Blight
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Citrus
+  original: Citrus
+- name: Sugarcane
+  original: Sugarcane

@@ -30,8 +30,8 @@ purpose: |-
   Medicinal: Mitragyna speciosa leaves contain mitragynine-related alkaloids used in traditional Southeast Asian labor culture -- legality shifts by country and state, so verify statutes before growing trees for anything beyond horticultural curiosity.
   Mulcher: Juvenile trees produce large, soft leaves that rot fast into tropical mulch -- useful where law allows managed plantings; still avoid drainage ditches where seeds or cuttings might escape into native hammocks.
 companions:
-  - Leucaena
-  - Shade-tolerant understory herbs (in controlled plantings)
+  - slug: leucaena
+    name: Leucaena
 cautions:
   - Planting where prohibited
   - Overwatering in cool, dark corners (root rot invites itself)
@@ -41,3 +41,7 @@ pests:
   - caterpillars
 growth_habit: Tall tropical tree in optimal climate; smaller in containers
 data_quality_score: 0.7
+companion_categories:
+  - name: Shade-tolerant understory herbs (in controlled plantings)
+    original: Shade-tolerant understory herbs (in controlled plantings)
+    type: system

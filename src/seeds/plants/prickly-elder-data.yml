@@ -33,9 +33,12 @@ purpose: |-
   Ornamental: Giant bipinnate leaves on spiny trunks read tropical in temperate woodland edges -- winter silhouette of bare spines doubles as deer deterrent sculpture along paths.
   Border Plant: Suckering clumps knit wet edge thickets where softer shrubs would fold under deer pressure -- give walking routes wide berth because stem armature is not cosmetic plastic.
 companions:
-  - Pawpaw — dappled-shade fruiting tree that pairs with spiny aralia at woodland edges
-  - Mayapple — lower ephemeral layer beneath open aralia stems in rich woods
-  - Roughleaf Dogwood — complementary white-flowering shrub layer for staggered bloom
+  - slug: pawpaw
+    name: Pawpaw
+  - slug: mayapple
+    name: Mayapple
+  - slug: roughleaf-dogwood
+    name: Roughleaf Dogwood
 cautions:
   - Spiny stems and caustic sap can injure skin and eyes during rough handling
 pests:

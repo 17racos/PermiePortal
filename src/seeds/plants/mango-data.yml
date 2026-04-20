@@ -33,9 +33,10 @@ purpose: |-
   Windbreaker: Wide-spreading crown and leathery leaves blunt steady trade winds across paddocks -- prune for open vase shape so interior fruiting wood still gets light.
   Border Plant: Long-lived trunks mark property lines in frost-free regions -- space for equipment because buttressed roots lift pavement when planners underestimate mature spread.
 companions:
-- Pigeon Pea
-- Citrus
-- Papaya
+- slug: pigeon-pea
+  name: Pigeon Pea
+- slug: papaya
+  name: Papaya
 cautions:
 - None specified
 pests:
@@ -54,3 +55,6 @@ pests:
 - Iguana
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Citrus
+  original: Citrus

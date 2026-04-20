@@ -32,15 +32,10 @@ purpose: |-
   Biomass: Tall rhizomatous clumps build organic matter fast on wet low ground during early succession.
   Pest Management: Diverse insectary stands at field margins support predators -- keep colonies away from crops; rhizomes spread aggressively.
 companions:
-- Broom Sedge — warm-season grass holds ground while dogfennel cycles biomass in old-field
-  mosaics
-- Goldenrod — late-season aster family flowers extend pollinator support in the same
-  sun-baked niche
-- Blackberry — thorny edge structure emerges as dogfennel patches age out without
-  becoming lawn
+- slug: split-beard-bluestem
+  name: Split Beard Bluestem
 cautions:
-- Do not confuse with edible Foeniculum—dogfennel is not a kitchen herb and spreads
-  where invited by bare soil
+- Do not confuse with edible Foeniculum—dogfennel is not a kitchen herb and spreads where invited by bare soil
 pests:
 - Aphids
 - Banded Winged Whitefly
@@ -49,6 +44,10 @@ pests:
 - Lettuce Aphid
 - Lubber Grasshopper
 - Root Aphid
-growth_habit: Tall rhizomatous perennial; finely divided aromatic leaves; flat-topped
-  white flower clusters
+growth_habit: Tall rhizomatous perennial; finely divided aromatic leaves; flat-topped white flower clusters
 data_quality_score: 0.82
+companions_unresolved:
+- name: Goldenrod
+  original: Goldenrod — late-season aster family flowers extend pollinator support in the same sun-baked niche
+- name: Blackberry
+  original: Blackberry — thorny edge structure emerges as dogfennel patches age out without becoming lawn

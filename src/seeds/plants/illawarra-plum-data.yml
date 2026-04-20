@@ -2,8 +2,8 @@ common_name: Illawarra Plum
 picture: illawarra_plum.webp
 scientific_name: Podocarpus elatus
 aka:
-  - Plum pine
-  - Brown pine
+- Plum pine
+- Brown pine
 family: Podocarpaceae
 zone: 9-11
 ideal_temp_min: 55
@@ -12,13 +12,13 @@ min_temp: 24
 max_temp: 102
 perennial: true
 layers:
-  - Tree
-  - Shrub
+- Tree
+- Shrub
 plant_function:
-  - Edible
-  - Shade Provider
-  - Windbreaker
-  - Wildlife Attractor
+- Edible
+- Shade Provider
+- Windbreaker
+- Wildlife Attractor
 description: |-
   Illawarra plum is an Australian podocarp “conifer” that fruits like a shameless gymnosperm: dark, grape-sized, plum-flavored arils on female trees, with glossy evergreen needles and a dense crown that can reach 30–40 feet in favorable subtropical sites.
 
@@ -35,15 +35,19 @@ purpose: |-
   Windbreaker: Flexible branches and tight foliage strip momentum from coastal sea breezes -- useful on exposed ridges if both sexes are present for fruit, not just a pollen-skyline male.
   Wildlife Attractor: Ripe arils feed fruit bats and frugivorous birds faster than humans can net -- sacrifice a lower branch outside netting if you want wildlife working pest patrols elsewhere.
 companions:
-  - Citrus — similar cultural rhythm for irrigation and foliar scouting; staggered harvest spreads labor.
-  - Papaya — fast soft-fruited neighbor that uses vertical space differently while appreciating some midday shade when young.
-  - Comfrey — mineral-rich chop-and-drop under the drip line without competing for canopy.
+- slug: papaya
+  name: Papaya
+- slug: comfrey
+  name: Comfrey
 cautions:
-  - Walnut
-  - Pecan
+- Walnut
+- Pecan
 pests:
-  - Scale Insects
-  - Mealybugs
-  - Aphids
+- Scale Insects
+- Mealybugs
+- Aphids
 growth_habit: Evergreen coniferous tree to large shrub; plum-like arillate fruit on female plants
 data_quality_score: 0.74
+companions_unresolved:
+- name: Citrus
+  original: Citrus — similar cultural rhythm for irrigation and foliar scouting; staggered harvest spreads labor.

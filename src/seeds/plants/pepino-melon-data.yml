@@ -30,9 +30,12 @@ purpose: |-
   Ornamental: Soft gray-green leaves and egg-shaped fruit make tidy container specimens on patios -- stake sprawling stems so striped fruit hangs at eye level instead of mud-splashing on pavers.
   Pollinator: Purple-streaked star flowers offer pollen to bumble workers and generalist bees during warm months -- avoid broad-spectrum sprays during bloom if you want fruit set in polytunnels.
 companions:
-  - Scarlet Eggplant — matches nightshade soil prep, timing, and staking habits in warm beds
-  - Pineapple Sage — hummingbird traffic and contrasting texture without root crowding Solanum
-  - Lemon Balm — low herb layer fills bare soil and tolerates similar irrigation rhythms
+  - slug: scarlet-eggplant
+    name: Scarlet Eggplant
+  - slug: pineapple-sage
+    name: Pineapple Sage
+  - slug: lemon-balm
+    name: Lemon Balm
 cautions:
   - None documented
 pests:

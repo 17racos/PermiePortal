@@ -31,9 +31,12 @@ purpose: |-
   Erosion Control: Roosting roots grip anaerobic mud through daily tidal pump cycles that scour less fibrous species.
   Wildlife Attractor: Papery seeds feed small marsh sparrows while rigid stems shelter spider webs that catch aerial plankton for the wrack-line food web.
 companions:
-  - Saltmarsh Aster — late composite color in slightly higher marsh zones
-  - Saltwort — low succulent neighbor in lowest intertidal margins
-  - Sea Oxeye Daisy — perennial composite for back-dune color with overlapping salt tolerance
+  - slug: saltmarsh-aster
+    name: Saltmarsh Aster
+  - slug: saltwort
+    name: Saltwort
+  - slug: sea-oxeye-daisy
+    name: Sea Oxeye Daisy
 cautions:
   - None documented
 pests:

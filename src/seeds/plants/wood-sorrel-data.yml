@@ -2,8 +2,8 @@ common_name: Wood Sorrel
 picture: wood_sorrel.webp
 scientific_name: Oxalis violacea
 aka:
-  - Violet wood sorrel
-  - Lady's-sorrel (folk)
+- Violet wood sorrel
+- Lady's-sorrel (folk)
 family: Oxalidaceae
 zone: 5-9
 ideal_temp_min: 45
@@ -12,12 +12,12 @@ min_temp: -15
 max_temp: 95
 perennial: true
 layers:
-  - Herbaceous
-  - Ground Cover
+- Herbaceous
+- Ground Cover
 plant_function:
-  - Edible
-  - Ground Cover
-  - Wildlife Attractor
+- Edible
+- Ground Cover
+- Wildlife Attractor
 description: |-
   Wood sorrel is the shamrock-shaped sour nibble that pops up in shade like it pays rent in oxalic acid. Native forms are delicate; some weedy Oxalis cousins are bulldozers—know which crew you invited.
 
@@ -33,15 +33,28 @@ purpose: |-
   Ground Cover: Corm-based clumps emerge after spring rains -- violet-pink flowers open before tree canopy closes.
   Wildlife Attractor: Native bees visit small flowers at low height -- ant-dispersed seeds expand patches where mulch is deep.
 companions:
-  - Ferns
-  - Wild ginger
-  - Shade grasses
+- slug: wild-ginger
+  name: Wild Ginger
+- slug: cinnamon-fern
+  name: Cinnamon Fern
 cautions:
-  - Livestock-heavy grazing (oxalate concerns at volume)
-  - Letting invasive oxalis species pose as “the same thing”
+- Livestock-heavy grazing (oxalate concerns at volume)
+- Letting invasive oxalis species pose as “the same thing”
 pests:
-  - aphids
-  - slugs
-  - spider mites
+- aphids
+- slugs
+- spider mites
 growth_habit: Low perennial from corms; trifoliate leaves, pink to violet flowers
 data_quality_score: 0.75
+companions_unresolved:
+- name: Fern
+  original: Ferns
+  note: normalization_target_not_in_index
+companion_categories:
+- name: Shade grasses
+  original: Shade grasses
+  type: system
+companions_normalized:
+- original: Ferns
+  resolved_slug: cinnamon-fern
+  name: Cinnamon Fern

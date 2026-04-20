@@ -36,9 +36,12 @@ purpose: |-
   Ornamental: Gloriosa-type doubles amp cottage drama; straight species reads meadow honest -- rust on lower leaves is genotype × humidity conversation, not moral failure.
   Biomass: Cut spent stalks after seeds drop for carbon-heavy chop-and-drop between comfrey dumps -- mix with high-nitrogen greens so piles do not sour anaerobic.
 companions:
-  - Echinacea — overlapping pollinators, contrasting petal color, similar cultural needs.
-  - Sunflower — taller aster-family neighbor that extends bloom height and shares sunflower bee traffic.
-  - Yarrow — filler that tolerates lean soil and extends insect diversity at the same height band.
+  - slug: echinacea
+    name: Echinacea
+  - slug: sunflower
+    name: Sunflower
+  - slug: yarrow
+    name: Yarrow
 cautions:
   - None documented
 pests:

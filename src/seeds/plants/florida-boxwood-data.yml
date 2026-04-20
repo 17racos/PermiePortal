@@ -32,15 +32,17 @@ purpose: |-
   Ornamental: Slow evergreen shrub suits dappled coastal food-forest edges where you need under-four-foot architecture without neon annual filler along limestone paths you sweep of hurricane wrack each autumn.
   Erosion Control: Fibrous roots knit limestone rubble on coastal berms against sheetflow from summer king tides brushing upland mulch lines where freshwater lens stays thin above salt wedge intrusion.
 companions:
-- Wild Lime — native citrus relative shares coastal hammock chemistry and layered
-  canopy
-- Gumbo Limbo — dappled shade and windbreak structure above low Schaefferia masses
-- Muhly Grass — airy seed heads contrast fine evergreen shrub texture at ground level
+- slug: wild-lime
+  name: Wild Lime
+- slug: hairawn-muhly
+  name: Hairawn Muhly
 cautions:
-- Hard freezes and inland radiative cold pockets—marginally hardy plants brown at
-  tips after cold snaps
+- Hard freezes and inland radiative cold pockets—marginally hardy plants brown at tips after cold snaps
 pests:
 - Scale Insects
 - Whiteflies
 growth_habit: Slow evergreen shrub; small leathery leaves; coastal hammock specialist
 data_quality_score: 0.83
+companions_unresolved:
+- name: Gumbo Limbo
+  original: Gumbo Limbo — dappled shade and windbreak structure above low Schaefferia masses

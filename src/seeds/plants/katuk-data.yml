@@ -43,10 +43,12 @@ purpose: |-
   Border Plant: Shear waist-high hedge along paths inside food forest rooms where you want a green wall that recovers from mistakes faster than Photinia.
   Ground Cover: Lay long whips on soil and they root at nodes -- good for holding mulch on contour until slower perennials knit in.
 companions:
-- Ginger
-- Turmeric
-- Lemongrass
-- Chili
+- slug: ginger
+  name: Ginger
+- slug: turmeric
+  name: Turmeric
+- slug: lemongrass
+  name: Lemongrass
 cautions:
 - None reported
 pests:
@@ -56,3 +58,6 @@ pests:
 growth_habit: Tree
 data_quality_score: 0.8
 field_observations: No field observations yet
+companions_unresolved:
+- name: Chili
+  original: Chili

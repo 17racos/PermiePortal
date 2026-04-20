@@ -32,16 +32,17 @@ purpose: |-
   Ornamental: Showy blooms and shaggy bark dress pergolas, snags, and mesh trellises without brittle English ivy formality.
   Erosion Control: Tendrils with adhesive disks grip wire fences and rough banks, slowing sheet flow on vertical structures you intend to vegetate.
 companions:
-- Eastern Redbud — understory pink blooms contrast timing with crossvine's later tubular
-  show
-- American Wisteria — another native twiner; stagger pruning so one partner is not
-  stripped bare each year
-- Oak — rough bark accepts tendrils; high branches carry flowers at hummingbird height
+- slug: eastern-redbud
+  name: Eastern Redbud
+- slug: wisteria
+  name: Wisteria
 cautions:
-- Black Walnut — juglone-sensitive plants nearby may struggle; crossvine is often
-  more tolerant than herbaceous companions, but guild design still matters
+- Black Walnut — juglone-sensitive plants nearby may struggle; crossvine is often more tolerant than herbaceous companions, but guild design still matters
 pests:
 - Scale Insects
 - Spider Mites
 growth_habit: Woody vine; tendrils with adhesive tips; trumpet flowers in clusters
 data_quality_score: 0.85
+companions_unresolved:
+- name: Oak
+  original: Oak — rough bark accepts tendrils; high branches carry flowers at hummingbird height

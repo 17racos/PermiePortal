@@ -37,9 +37,12 @@ purpose: |-
   Pollinator: White five-petaled flowers feed small native bees before bramble season peaks -- early bloom means frost pockets still matter on cold coasts.
   Ornamental: Evergreen trifoliate mats read deliberate on rockeries -- red runners in winter add color when flowers pause.
 companions:
-  - Yarrow — tough neighbor that shares sun and drainage without smothering low mats if yarrow stays upslope.
-  - Sea Kale — perennial vegetable aesthetic on coastal-influenced beds; different height class reduces light theft.
-  - Wax Myrtle — native shrubby windbreak that lifts salt spray above the strawberry plane without shading entirely if pruned.
+  - slug: yarrow
+    name: Yarrow
+  - slug: sea-kale
+    name: Sea Kale
+  - slug: wax-myrtle
+    name: Wax Myrtle
 cautions:
   - None documented
 pests:

@@ -32,9 +32,12 @@ purpose: |-
   Pollinator: Brief morning blooms still load pollen onto halictids when you plant drift patches wide enough for bee navigation.
   Ground Cover: Woody mats crawl through sharp drainage cracks where thyme dies from winter wet.
 companions:
-  - Lavender — shared love of sun, drought, and insulting soil; both hate wet feet.
-  - Sedum — shallow roots and succulence match drainage needs without root trench warfare.
-  - Yarrow — deeper taproots and airy flowers contrast texture while tolerating lean beds.
+  - slug: lavender
+    name: Lavender
+  - slug: sedum
+    name: Sedum
+  - slug: yarrow
+    name: Yarrow
 cautions:
   - Wet clay bowls that never dry
   - Aggressive irrigated turf that swamps the crown

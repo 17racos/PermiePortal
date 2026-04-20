@@ -34,9 +34,12 @@ purpose: |-
   Wildlife Attractor: Split or dropped ripe navels feed mockingbirds, orioles, and rodents along orchard skirts -- leaving some ground fruit builds pest-bird tension, so harvest hygiene balances generosity with fly control.
   Border Plant: Evergreen rounded crown suits front-yard food security, driveway allées, and orchard rows when matched to equipment turning radii -- skirt with mulch, not turf volcanoes, to prevent phytophthora collar rot on graft unions.
 companions:
-  - Comfrey — chop-and-drop mulch bank outside the immediate trunk circle.
-  - Nasturtium — trap and table crop at the orchard skirt for aphid diversion.
-  - Marigold — bright insectary ground cover that pairs with citrus guild aesthetics.
+  - slug: comfrey
+    name: Comfrey
+  - slug: nasturtium
+    name: Nasturtium
+  - slug: marigold
+    name: Marigold
 cautions:
   - Walnut
 pests:

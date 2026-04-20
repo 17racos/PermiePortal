@@ -35,12 +35,12 @@ description: |-
 purpose: |-
   Fiber: Corchorus olitorius stems yield summer bast fiber for cordage trials -- harvest stems before lignin turns rope bitter, then rett and rinse like small-scale linen without industrial boilers.
   Edible: Young leaves cook into mucilaginous molokhia stews across North Africa and the Levant -- pick tips during explosive mid-summer growth before stems turn fibrous.
-  Cover Crop: Dense sowing closes canopy fast in the hot slot between spring and fall vegetables -- it is an annual row crop, not an ornamental hedge, so plan termination dates honestly.
   Green Manure: Turn under succulent tops before hard seed set if you want organic matter without jute volunteers next season -- incorporate deeply so fibers break down instead of tying up nitrogen on the surface.
 companions:
-- Pigeon Pea
-- Sunflower
-- Cowpea
+- slug: pigeon-pea
+  name: Pigeon Pea
+- slug: sunflower
+  name: Sunflower
 cautions:
 - Cold wet soil at sowing — seeds rot fast
 - Letting it dry to straw mid-growth if you wanted edible leaves
@@ -50,3 +50,6 @@ pests:
 - Cocoa Pod Borer
 - Japanese Beetles
 - Whiteflies
+companions_unresolved:
+- name: Cowpea
+  original: Cowpea

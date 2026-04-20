@@ -36,9 +36,12 @@ purpose: |-
   Border Plant: Holly-like evergreen leaflets on spiny stems make living fence along paths where you want deer to detour -- shear after fruit if you need tidy sight lines without removing all bird food.
   Pest Management: Dense armored foliage physically blocks deer browse on adjacent soft herbs -- still combine with motion or dog pressure because hungry ungulates sometimes test spines when snow limits options.
 companions:
-  - Evergreen Huckleberry — shared acidic, woodland-edge culture; staggered fruiting extends wildlife grocery hours.
-  - Rhododendron — complementary bloom timing and mulch needs; both sulk in high-pH water—test, don’t guess.
-  - Maidenhair Fern — ground-layer humidity lift beneath shrub skirts; roots occupy different horizons with minimal trench drama.
+  - slug: evergreen-huckleberry
+    name: Evergreen Huckleberry
+  - slug: rhododendron
+    name: Rhododendron
+  - slug: maidenhair-fern
+    name: Maidenhair Fern
 cautions:
   - None documented
 pests:

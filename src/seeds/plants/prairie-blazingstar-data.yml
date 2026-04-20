@@ -2,8 +2,8 @@ common_name: Prairie Blazingstar
 picture: prairie_blazingstar.webp
 scientific_name: Liatris pycnostachya
 aka:
-- Prairie Gayfeather
-- Dense Blazing Star
+  - Prairie Gayfeather
+  - Dense Blazing Star
 family: Asteraceae
 zone: 3-9
 ideal_temp_min: 45
@@ -12,12 +12,12 @@ min_temp: -35
 max_temp: 100
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Pollinator
-- Wildlife Attractor
-- Ornamental
-- Erosion Control
+  - Pollinator
+  - Wildlife Attractor
+  - Ornamental
+  - Erosion Control
 description: |-
   Prairie blazingstar (Liatris pycnostachya) is a tall meadow perennial of central North American prairies and moist low ground, carrying dense spikes of purple florets that open top-down along stems reaching 3–5 feet (0.9–1.5 m). Narrow leaves line the stalks, and fibrous roots anchor plants in loamy soils that swing between moist spring and summer dry downs. It is a staple in pollinator mixes, rain-garden backs, and any sunny border that wants vertical color without shrub bulk.
 
@@ -32,22 +32,23 @@ purpose: |-
   Ornamental: 3–5 ft purple candles rise between switchgrass and little bluestem without shrub bulk -- moist-site ecotype stays stiffer than sandhill blazingstars, so use in rain-garden backs, not xeric rock only.
   Erosion Control: Fibrous corms and roots anchor loamy swales where sheet flow would otherwise strip seed -- mulch crowns lightly to keep summer heat from desiccating bases in humid heat waves.
 companions:
-- Switchgrass — tall warm-season matrix grass contrasting texture and sharing sun
-- Marsh Blazingstar — related Liatris with overlapping ecology for extended color
-  blocks
-- Wild Bergamot — aromatic forb neighbor with complementary flower shape for pollinators
+  - slug: switchgrass
+    name: Switchgrass
+  - slug: dense-blazingstar
+    name: Dense Blazingstar
+  - slug: wild-bergamot
+    name: Wild Bergamot
 cautions:
-- Wet clay without percolation — crown rot during warm humid spells
-- Dry shade — thin spikes and existential flopping
+  - Wet clay without percolation — crown rot during warm humid spells
+  - Dry shade — thin spikes and existential flopping
 pests:
-- Aphids
-- Banded Winged Whitefly
-- Greenhouse Whitefly
-- Japanese Beetles
-- Lettuce Aphid
-- Lubber Grasshopper
-- Root Aphid
-- Powdery Mildew
-growth_habit: Tall clumping perennial; dense purple spikes; moist prairie and meadow
-  margins
+  - Aphids
+  - Banded Winged Whitefly
+  - Greenhouse Whitefly
+  - Japanese Beetles
+  - Lettuce Aphid
+  - Lubber Grasshopper
+  - Root Aphid
+  - Powdery Mildew
+growth_habit: Tall clumping perennial; dense purple spikes; moist prairie and meadow margins
 data_quality_score: 0.81

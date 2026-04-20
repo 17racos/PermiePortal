@@ -2,10 +2,10 @@ common_name: Brush Cherry
 picture: brush_cherry.webp
 scientific_name: Syzygium paniculatum
 aka:
-- Magenta Lilly Pilly
-- Australian Brush Cherry
-- Lilly Pilly
-- Australian Bush Cherry
+  - Magenta Lilly Pilly
+  - Australian Brush Cherry
+  - Lilly Pilly
+  - Australian Bush Cherry
 family: Myrtaceae
 zone: 9-11
 ideal_temp_min: 65
@@ -14,14 +14,14 @@ min_temp: 28
 max_temp: 100
 perennial: true
 layers:
-- Tree
-- Shrub
+  - Tree
+  - Shrub
 plant_function:
-- Edible
-- Ornamental
-- Wildlife Attractor
-- Border Plant
-- Shade Provider
+  - Edible
+  - Ornamental
+  - Wildlife Attractor
+  - Border Plant
+  - Shade Provider
 description: |-
   Brush cherry (Syzygium paniculatum) is an Australian myrtle relative grown as an evergreen shrub or small tree with glossy leaves, fluffy white flowers, and magenta to purple pear-shaped fruit. It reaches 15–40 feet (4.5–12 m) if unpruned but accepts repeated shearing as a formal hedge in frost-free climates. Fruit is edible when ripe with variable sweetness; in food forests it doubles as a privacy screen and bird buffet—plan interior thinning so hedges do not become fungal apartments.
 
@@ -37,18 +37,19 @@ purpose: |-
   Border Plant: Responds to electric trimmers every six weeks in frost-free zones, holding a dense face along pool fences if you thin interior wood yearly.
   Shade Provider: 4–12 m rounded crowns cast humid shade for understory turmeric once mulch keeps root zone evenly moist through tropical wet seasons.
 companions:
-- Lilly Pilly — related Syzygium species extend habitat continuity for pollinators
-- Lemongrass — clumping herb marks hedge bases with aromatic distraction from bare
-  mulch
-- Papaya — uses early light gaps before brush cherry hedges reach full height
+  - slug: syzygium-smithii
+    name: Syzygium smithii
+  - slug: lemongrass
+    name: Lemongrass
+  - slug: papaya
+    name: Papaya
 cautions:
-- Myrtle rust regions — monitor new growth and choose resistant lines where available
-- Sheared walls without thinning — interior dieback invites pests and awkward hollow
-  hedges
+  - Myrtle rust regions — monitor new growth and choose resistant lines where available
+  - Sheared walls without thinning — interior dieback invites pests and awkward hollow hedges
 pests:
-- Aphids
-- Oriental Fruit Fly
-- Scale Insects
-- Whiteflies
+  - Aphids
+  - Oriental Fruit Fly
+  - Scale Insects
+  - Whiteflies
 growth_habit: Evergreen myrtle shrub to tree; white flowers; magenta fruit
 data_quality_score: 0.8

@@ -28,9 +28,12 @@ purpose: |-
   Medicinal: Nasunin anthocyanin in purple skins tracks to antioxidant literature as food chemistry, not a clinic substitute -- anyone on nightshade-sensitive protocols should still treat fruit as solanaceous until their clinician says otherwise.
   Pollinator: Purple star-shaped flowers with prominent yellow anthers offer pollen loads to larger bees through peak heat when many other solanum rows have already stopped flowering.
 companions:
-  - Basil (Ocimum basilicum) — aromatic companion that helps keep insect traffic distributed and improves bed smell (aerodynamic therapy for pests).
-  - Marigold (Tagetes patula) — nectar and color draw beneficial insects and help you spot trouble early.
-  - Garlic (Allium sativum) — strong scent reduces how easily some pests find their host.
+  - slug: basil
+    name: Basil
+  - slug: marigold
+    name: Marigold
+  - slug: garlic
+    name: Garlic
 cautions:
   - Frost and cold nights stunt eggplant; cover young plants or delay transplanting until stable warmth.
 pests:

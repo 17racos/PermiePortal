@@ -10,12 +10,12 @@ min_temp: 50
 max_temp: 0
 perennial: true
 layers:
-  - Vine
+- Vine
 plant_function:
-  - Edible
-  - Medicinal
-  - Shade Provider
-  - Wildlife Attractor
+- Edible
+- Medicinal
+- Shade Provider
+- Wildlife Attractor
 description: |-
   Black pepper vine (Piper nigrum) is a warm-climate climbing perennial that grows with support, producing peppercorns in tiers along the vine. It is native to tropical wet regions of South and Southeast Asia, where humid forests give it bright shade and stable moisture. In permaculture, it turns a living trellis into both food and a long-lived aromatic canopy connection, with leaves contributing biomass and the vine moderating harsh sun below.
 
@@ -30,13 +30,17 @@ purpose: |-
   Shade Provider: Lianas trained on rough posts throw moving shade over coffee and ginger understories while leaf litter keeps humidity honest -- avoid deep shade on juvenile vines or flowering collapses.
   Wildlife Attractor: Slender catkin-like flower spikes feed gnats and small bees that evolved with Piperaceae in Asian forests -- minimal bird use compared with fruit-heavy canopy vines.
 companions:
-  - Coffee (Coffea arabica) — shares warm, shaded understory needs and benefits from coordinated moisture management.
-  - Ginger (Zingiber officinale) — understory companion that likes warm, humid soil and uses leaf litter as mulch.
-  - Banana (Musa acuminata) — provides vertical structure and leaf biomass that supports a humid microclimate edge.
+- slug: ginger
+  name: Ginger
+- slug: banana
+  name: Banana
 cautions:
-  - Vulnerable to frost and prolonged cold; plan for protection or warm-wall trellises in cool climates.
+- Vulnerable to frost and prolonged cold; plan for protection or warm-wall trellises in cool climates.
 pests:
-  - Aphids
-  - Spider Mites
-  - Scale Insects
-  - Borers
+- Aphids
+- Spider Mites
+- Scale Insects
+- Borers
+companions_unresolved:
+- name: Coffee
+  original: Coffee (Coffea arabica) — shares warm, shaded understory needs and benefits from coordinated moisture management.

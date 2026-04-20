@@ -35,10 +35,12 @@ purpose: |-
   Wildlife Attractor: Hanging infructescences feed toucans and palm bats in native range -- expect heavy frugivore traffic and plan cleanup under walkways.
   Shade Provider: Multiple slender trunks cast filtered shade for cacao, banana, or understory gingers -- site where airflow continues because still, humid pockets invite palm weevils and fungal hearts.
 companions:
-- Cacao
-- Banana
-- Inga
-- Jackfruit
+- slug: cacao
+  name: Cacao
+- slug: banana
+  name: Banana
+- slug: jackfruit
+  name: Jackfruit
 cautions:
 - Hard freezes
 - Wind-blasted rooftops
@@ -52,3 +54,6 @@ pests:
 - Scale Insects
 - Ganoderma Butt Rot
 - Heart Rot
+companions_unresolved:
+- name: Inga
+  original: Inga

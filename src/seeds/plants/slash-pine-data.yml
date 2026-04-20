@@ -2,8 +2,8 @@ common_name: Slash Pine
 picture: slash_pine.webp
 scientific_name: Pinus elliottii
 aka:
-- Southern Pine
-- Yellow Pine
+  - Southern Pine
+  - Yellow Pine
 family: Pinaceae
 zone: 7-11
 ideal_temp_min: 45
@@ -12,12 +12,12 @@ min_temp: 10
 max_temp: 110
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Windbreaker
-- Wildlife Attractor
-- Biomass
-- Erosion Control
+  - Windbreaker
+  - Wildlife Attractor
+  - Biomass
+  - Erosion Control
 description: |-
   Slash pine (Pinus elliottii) is a fast-growing southern pine of flatwoods and commercial plantations, with long needles in bundles of two or three and tall straight trunks when given sun and moisture. Heights exceed 80 feet (24 m) in favorable sites, producing timber, pine straw, and habitat structure for wildlife. Ecotypes vary—coastal vs interior forms differ in salt and frost tolerance.
 
@@ -32,20 +32,20 @@ purpose: |-
   Biomass: Resinous small-diameter thinnings chip cleanly into mulch or hog-fuel boilers when pulp markets buy low-grade stems.
   Erosion Control: Tap-rooted pulp rotations anchor Lakeland sands where cotton strips subsurface bare after one drought cycle.
 companions:
-- Longleaf Pine — complementary pine neighbor in multi-species savanna restoration
-  where both belong
-- Wax Myrtle — shrub layer at pine woodland margins
-- Sweetgrass — moist-ground grass associate in cultural and restoration plantings
-  where appropriate
+  - slug: longleaf-pine
+    name: Longleaf Pine
+  - slug: wax-myrtle
+    name: Wax Myrtle
+  - slug: sweetgrass
+    name: Sweetgrass
 cautions:
-- Bark beetles during drought—maintain tree vigor and spacing
-- Fire and machinery — resinous forests demand respect for ignition sources
+  - Bark beetles during drought—maintain tree vigor and spacing
+  - Fire and machinery — resinous forests demand respect for ignition sources
 pests:
-- Aphids
-- Bagworm
-- Scale Insects
-- Spider Mites
-- Bark Beetles
-growth_habit: Fast southern yellow pine; long needles; timber and straw production;
-  flatwoods
+  - Aphids
+  - Bagworm
+  - Scale Insects
+  - Spider Mites
+  - Bark Beetles
+growth_habit: Fast southern yellow pine; long needles; timber and straw production; flatwoods
 data_quality_score: 0.79

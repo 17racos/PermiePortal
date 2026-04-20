@@ -2,9 +2,9 @@ common_name: Elephant Apple
 picture: elephant_apple.webp
 scientific_name: Dillenia indica
 aka:
-- Chulta
-- Indian catmon
-- Hondapara
+  - Chulta
+  - Indian catmon
+  - Hondapara
 family: Dilleniaceae
 zone: 10-13
 ideal_temp_min: 70
@@ -13,12 +13,12 @@ min_temp: 30
 max_temp: 110
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Edible
-- Wildlife Attractor
-- Shade Provider
-- Mulcher
+  - Edible
+  - Wildlife Attractor
+  - Shade Provider
+  - Mulcher
 description: |-
   Elephant apple (Dillenia indica) is a tropical tree of Asian lowland forests and village margins, bearing large oblong leaves, showy fragrant flowers, and green woody fruits the size of small melons that require culinary skill. In cultivation it often reaches 30–50 feet (9–15 m) with a rounded crown. It suits humid tropical food forests as a shade tree and seasonal fruit crop where elephants—or humans with recipes—know what to do with the hard, sour fruit.
 
@@ -33,17 +33,17 @@ purpose: |-
   Shade Provider: Rounded 30-50 foot crowns cast understory shade for bananas, cacao-class companions, and ginger guilds in humid zone 10-13 food forests with reliable monsoon moisture.
   Mulcher: Huge oblong leaves drop fast-decaying litter that rebuilds organic matter on sandy tropical orchard floors when crews rake and chip material back under drip lines after storms.
 companions:
-- Banana — fast herbaceous biomass and partial shade for juvenile tree establishment
-- Coconut Palm — tall overstory that shares coastal humidity without root trench competition
-  at the surface
-- Lemongrass — perimeter herb that marks bed edges and tolerates heat cycles near
-  the drip line
+  - slug: banana
+    name: Banana
+  - slug: coconut-palm
+    name: Coconut Palm
+  - slug: lemongrass
+    name: Lemongrass
 cautions:
-- Frost — not a subtropical tourist; sustained cold kills expanding tissue fast
-- Large fruit drop — site away from fragile roofing and naive foot traffic
+  - Frost — not a subtropical tourist; sustained cold kills expanding tissue fast
+  - Large fruit drop — site away from fragile roofing and naive foot traffic
 pests:
-- Scale Insects
-- Caterpillars
-growth_habit: Evergreen to briefly deciduous tropical tree; large leaves; fragrant
-  flowers; large green woody fruit
+  - Scale Insects
+  - Caterpillars
+growth_habit: Evergreen to briefly deciduous tropical tree; large leaves; fragrant flowers; large green woody fruit
 data_quality_score: 0.76

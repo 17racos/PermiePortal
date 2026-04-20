@@ -2,7 +2,7 @@ common_name: Zigzag Spiderwort
 picture: zigzag_spiderwort.webp
 scientific_name: Tradescantia subaspera
 aka:
-- Wideleaf Spiderwort
+  - Wideleaf Spiderwort
 family: Commelinaceae
 zone: 5-9
 ideal_temp_min: 40
@@ -11,12 +11,12 @@ min_temp: -25
 max_temp: 100
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Pollinator
-- Ground Cover
-- Ornamental
-- Wildlife Attractor
+  - Pollinator
+  - Ground Cover
+  - Ornamental
+  - Wildlife Attractor
 description: |-
   Zigzag spiderwort (Tradescantia subaspera) is a woodland perennial of eastern North America, with broader leaves than many tradescantias and stems that zigzag between nodes, bearing three-petaled blue-violet flowers opening fresh each morning. Plants reach 1–2 feet (30–60 cm), spreading into loose colonies in partial shade with steady moisture. It suits native shade borders and rain-garden shoulders where turf is a bad joke.
 
@@ -31,18 +31,18 @@ purpose: |-
   Ornamental: Stem kinks between nodes give kinetic line in shade borders -- three-petaled blooms read simple up close.
   Wildlife Attractor: Understory insect habitat in layered forests -- deer sometimes browse; survivors refill from rhizomes.
 companions:
-- Wild Ginger — shade groundcover neighbor with contrasting leaf shape
-- Wild Blue Phlox — spring blue flowers contrasting spiderwort purples at similar
-  heights
-- Serviceberry — small tree dappling light above understory colonies
+  - slug: wild-ginger
+    name: Wild Ginger
+  - slug: wild-blue-phlox
+    name: Wild Blue Phlox
+  - slug: serviceberry
+    name: Serviceberry
 cautions:
-- Deep shade — fewer flowers despite polite silence about disappointment
-- Confusion with other Tradescantia species—verify leaf width and stem zigzag before
-  eating experiments
+  - Deep shade — fewer flowers despite polite silence about disappointment
+  - Confusion with other Tradescantia species—verify leaf width and stem zigzag before eating experiments
 pests:
-- Aphids
-- Spider Mites
-- Slugs
-growth_habit: Woodland tradescantia; zigzag stems; blue three-petaled flowers; moist
-  shade
+  - Aphids
+  - Spider Mites
+  - Slugs
+growth_habit: Woodland tradescantia; zigzag stems; blue three-petaled flowers; moist shade
 data_quality_score: 0.81

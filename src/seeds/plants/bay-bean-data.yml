@@ -36,16 +36,13 @@ purpose: |-
   Ground Cover: Trifoliate leathery leaves tile upper beach where turf dies from salt -- midday glare still burns young cuttings unless you irrigate through first dry weeks.
   Wildlife Attractor: Pink-purple pea flowers feed coastal bees while mats shelter ghost crabs and plover chicks where dogs are actually leashed -- seeds stay toxic unless traditional detox is your documented skill.
 companions:
-- Sea Oats — classic dune matrix; bay bean fills lower, more exposed zones in some
-  communities
-- Beach Morning Glory — complementary sand-binding vine with morning trumpet blooms
-  alongside pea flowers
-- Coconut Palm — high canopy that drops litter without smothering low beach legumes
+- slug: beach-morning-glory
+  name: Beach Morning Glory
+- slug: coconut-palm
+  name: Coconut Palm
 cautions:
-- Unverified seed toxicity — do not experiment with food use from wild pods without
-  credible processing protocols
-- Invasive potential outside native range — check regional lists before introducing
-  to new coasts
+- Unverified seed toxicity — do not experiment with food use from wild pods without credible processing protocols
+- Invasive potential outside native range — check regional lists before introducing to new coasts
 pests:
 - Banded Cucumber Beetle
 - Bean Aphid
@@ -75,6 +72,8 @@ pests:
 - Caterpillars
 - Harlequin Ladybird
 - Velvetbean Caterpillar
-growth_habit: Prostrate perennial legume vine; trifoliate leaves; pink-purple pea
-  flowers
+growth_habit: Prostrate perennial legume vine; trifoliate leaves; pink-purple pea flowers
 data_quality_score: 0.8
+companions_unresolved:
+- name: Sea Oats
+  original: Sea Oats — classic dune matrix; bay bean fills lower, more exposed zones in some communities

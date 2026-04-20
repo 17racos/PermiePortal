@@ -35,9 +35,12 @@ purpose: |-
   Pollinator: Blue, pink, or white two-lipped tubes line stiff eighteen-inch (45 cm) spikes through summer, feeding bumblebees and swallowtail butterflies on kitchen-garden paths where shallow-rooted annuals cannot survive foot traffic.
   Ornamental: Tight mounds stay under three feet (0.9 m) in Mediterranean drainage, reading as formal knot-garden punctuation -- winter-kill in humid subtropics turns it into a renewal crop you replant from rooted cuttings each wet season.
 companions:
-  - Sage — similar sun and drainage; stagger bloom for continuous small-bee support.
-  - Thyme — carpets soil surface, reducing splash-borne disease spores onto hyssop stems.
-  - Echinacea — contrasting form and shared pollinator traffic make mixed borders function as living insectaries.
+  - slug: sage
+    name: Sage
+  - slug: thyme
+    name: Thyme
+  - slug: echinacea
+    name: Echinacea
 cautions:
   - Mint
   - Lemon Balm

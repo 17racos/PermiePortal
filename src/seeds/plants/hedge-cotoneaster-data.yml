@@ -2,8 +2,8 @@ common_name: Hedge Cotoneaster
 picture: hedge_cotoneaster.webp
 scientific_name: Cotoneaster lucidus
 aka:
-- Shiny cotoneaster
-- Peking cotoneaster
+  - Shiny cotoneaster
+  - Peking cotoneaster
 family: Rosaceae
 zone: 5-8
 ideal_temp_min: 45
@@ -12,12 +12,12 @@ min_temp: -25
 max_temp: 95
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Ornamental
-- Wildlife Attractor
-- Border Plant
-- Erosion Control
+  - Ornamental
+  - Wildlife Attractor
+  - Border Plant
+  - Erosion Control
 description: |-
   Hedge cotoneaster (Cotoneaster lucidus) is an upright deciduous to semi-evergreen shrub from East Asia, widely used in temperate hedges for glossy dark green leaves, small pink-white flowers, and persistent red berries into winter. Plants commonly reach 6–10 feet (1.8–3 m) if unpruned. It tolerates clipping and provides dense structure for wind buffering and wildlife snacks where the species is not listed as problematic.
 
@@ -32,51 +32,51 @@ purpose: |-
   Border Plant: Upright stems tolerate repeated shearing for property lines and alley screens -- open the hedge interior occasionally so air moves and fire blight strikes are easier to spot on rosaceous wood.
   Erosion Control: Fibrous root mats stabilize sunny slopes when massed on well-drained soil -- soggy bottoms still invite phytophthora-style sudden death masked as mysterious wilt.
 companions:
-- Lavender — sun-loving front edge with contrasting texture along informal hedge faces
-- Rosemary — drought-tolerant accent at corners where drainage is sharp
-- Yarrow — shallow insectary layer along the hedge toe that tolerates sun and occasional
-  drought
+  - slug: lavender
+    name: Lavender
+  - slug: rosemary
+    name: Rosemary
+  - slug: yarrow
+    name: Yarrow
 cautions:
-- Invasive in some regions — verify local weed lists before mass planting near natural
-  areas
-- Fire Blight — rosaceous risk in humid climates; prune out strikes with clean tools
+  - Invasive in some regions — verify local weed lists before mass planting near natural areas
+  - Fire Blight — rosaceous risk in humid climates; prune out strikes with clean tools
 pests:
-- Apple Maggot
-- Apple Scab
-- Bagworm
-- Blackberry Psyllid
-- Cherry Fruit Fly
-- Codling Moth
-- Cyclamen Mite
-- Fall Webworm
-- Lesser Peachtree Borer
-- Oriental Fruit Fly
-- Oriental Fruit Moth
-- Peach Twig Borer
-- Peachtree Borer
-- Pear Psylla
-- Plum Curculio
-- Raspberry Beetle
-- Raspberry Cane Borer
-- Rose Slug
-- Scale Insects
-- Sparganothis Fruitworm
-- Spittlebugs
-- Stink Bug
-- Strawberry Root Weevil
-- Twig Girdlers
-- Vine Weevil
-- Brown Rot
-- Fire Blight
-- Gall Mite
-- Leaf Blight
-- Leaf Spot
-- Rust Mite
-- Spotted Lanternfly
-- Brown Marmorated Stink Bug
-- Eastern Tent Caterpillar
-- Harlequin Ladybird
-- Tent Caterpillar
-growth_habit: Upright shrub; glossy leaves; small flowers; persistent red berries;
-  hedge tolerant
+  - Apple Maggot
+  - Apple Scab
+  - Bagworm
+  - Blackberry Psyllid
+  - Cherry Fruit Fly
+  - Codling Moth
+  - Cyclamen Mite
+  - Fall Webworm
+  - Lesser Peachtree Borer
+  - Oriental Fruit Fly
+  - Oriental Fruit Moth
+  - Peach Twig Borer
+  - Peachtree Borer
+  - Pear Psylla
+  - Plum Curculio
+  - Raspberry Beetle
+  - Raspberry Cane Borer
+  - Rose Slug
+  - Scale Insects
+  - Sparganothis Fruitworm
+  - Spittlebugs
+  - Stink Bug
+  - Strawberry Root Weevil
+  - Twig Girdlers
+  - Vine Weevil
+  - Brown Rot
+  - Fire Blight
+  - Gall Mite
+  - Leaf Blight
+  - Leaf Spot
+  - Rust Mite
+  - Spotted Lanternfly
+  - Brown Marmorated Stink Bug
+  - Eastern Tent Caterpillar
+  - Harlequin Ladybird
+  - Tent Caterpillar
+growth_habit: Upright shrub; glossy leaves; small flowers; persistent red berries; hedge tolerant
 data_quality_score: 0.77

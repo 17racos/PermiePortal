@@ -34,9 +34,12 @@ purpose: |-
   Border Plant: Prostrate soft gray stems read as living mulch along dune paths and rockery edges without the height of shrubs.
   Erosion Control: Matting roots lock beach sand and road-shoulder shell that would otherwise lift in the first onshore gust.
 companions:
-  - Beach Bean
-  - Railroad Vine
-  - Saltbush
+  - slug: beach-morning-glory
+    name: Beach Morning Glory
+  - slug: beach-bean
+    name: Beach Bean
+  - slug: saltbush
+    name: Saltbush
 cautions:
   - Heavy irrigation in poorly drained clay
 pests:

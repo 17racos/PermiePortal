@@ -2,8 +2,8 @@ common_name: Tithonia
 picture: tithonia.webp
 scientific_name: Tithonia rotundifolia
 aka:
-  - Mexican Sunflower
-  - Bolivian Sunflower
+- Mexican Sunflower
+- Bolivian Sunflower
 family: Asteraceae
 zone: 8-11
 ideal_temp_min: 65
@@ -12,14 +12,14 @@ min_temp: 50
 max_temp: 100
 perennial: true
 layers:
-  - Herbaceous
-  - Shrub
+- Herbaceous
+- Shrub
 plant_function:
-  - Pollinator
-  - Wildlife Attractor
-  - Mulcher
-  - Dynamic Accumulator
-  - Border Plant
+- Pollinator
+- Wildlife Attractor
+- Mulcher
+- Dynamic Accumulator
+- Border Plant
 description: |-
   Tithonia, commonly known as Mexican Sunflower, is a fast-growing, heat-tolerant flowering plant that produces vibrant orange-red blooms. It reaches heights of 1.5–3 meters (5–10 feet) and spreads widely, making it an excellent choice for borders and hedgerows. The plant thrives in full sun and well-drained soil, showing remarkable drought resistance.
 
@@ -37,22 +37,37 @@ purpose: |-
   Dynamic Accumulator: Soft succulent stems take up nutrients from fresh manure or compost side-dressings and return them to the soil surface when laid as green mulch after cutting.
   Border Plant: A single row screens compost piles, tanks, or neighbor windows in one season without casting the decades-long shade of a planted timber hedge.
 companions:
-  - Corn
-  - Tomatoes
-  - Beans
-  - Sunflower
+- slug: tomato
+  name: Tomato
+- slug: sunflower
+  name: Sunflower
+- slug: fava-bean
+  name: Fava Bean
 cautions:
-  - None reported
+- None reported
 pests:
-  - Aphids
-  - Banded Winged Whitefly
-  - Greenhouse Whitefly
-  - Lettuce Aphid
-  - Lubber Grasshopper
-  - Root Aphid
-  - Spider Mites
-  - Whiteflies
-  - Jumping Worms
+- Aphids
+- Banded Winged Whitefly
+- Greenhouse Whitefly
+- Lettuce Aphid
+- Lubber Grasshopper
+- Root Aphid
+- Spider Mites
+- Whiteflies
+- Jumping Worms
 growth_habit: Herbaceous shrub
 data_quality_score: 0.8
 field_observations: No field observations yet
+companions_normalized:
+- original: Tomatoes
+  resolved_slug: tomato
+  name: Tomato
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index

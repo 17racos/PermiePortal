@@ -2,8 +2,8 @@ common_name: Giant Granadilla
 picture: giant_granadilla.webp
 scientific_name: Passiflora quadrangularis
 aka:
-  - Barbadine
-  - Giant tumbo
+- Barbadine
+- Giant tumbo
 family: Passifloraceae
 zone: 10-11
 ideal_temp_min: 70
@@ -12,12 +12,12 @@ min_temp: 32
 max_temp: 100
 perennial: true
 layers:
-  - Vine
+- Vine
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Shade Provider
-  - Ornamental
+- Edible
+- Wildlife Attractor
+- Shade Provider
+- Ornamental
 description: |-
   Giant granadilla is the passion vine that skipped leg day and never looked back: huge leaves, big green fruit, mild aromatic pulp. It needs serious trellising—think pergola engineered for weight, not a flimsy tomato cage having an existential crisis. subtropical and tropical Americas is marginal for reliable fruiting; coastal 10a microclimates with frost plans are the honest conversation.
 
@@ -32,13 +32,24 @@ purpose: |-
   Shade Provider: Hand-size glossy leaves laminate pergola tops for understory coffee in humid zone 10-11 yards after vines graft onto resilient rootstocks for fusarium resilience on posts you set in concrete not fence picket optimism alone.
   Ornamental: Square-winged stems and dinner-plate leaves sell jungle aesthetic on engineered arbors steel posts carry while mild winters on coastal microclimates still demand frost plans you already wrote after last polar blip browned tips.
 companions:
-  - Comfrey
-  - Beans
-  - Perennial Peanut
+- slug: comfrey
+  name: Comfrey
+- slug: perennial-peanut
+  name: Perennial Peanut
+- slug: fava-bean
+  name: Fava Bean
 cautions:
-  - Undersized trellis or fence panels
-  - Unprotected young vines in open frost pockets
+- Undersized trellis or fence panels
+- Unprotected young vines in open frost pockets
 pests:
-  - Aphids
-  - Whiteflies
-  - Caterpillars
+- Aphids
+- Whiteflies
+- Caterpillars
+companions_unresolved:
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index
+companions_normalized:
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

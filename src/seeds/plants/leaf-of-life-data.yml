@@ -38,9 +38,12 @@ purpose: |-
   Ornamental: Scalloped blue-green leaves and miniature clones along the rim read alien -- showcase in pots where drainage is sharp and neighbors forgive occasional baby plant litter.
   Border Plant: Low mounds mark the edge between foot traffic and succulent beds -- spikes of greenish flowers attract pollinators if you stop deleting inflorescences for a week.
 companions:
-  - Comfrey — chop-and-drop mineral mulch upslope feeds soil biology without flooding the dry root ethos this succulent demands.
-  - Moringa — light dappled shade and leaf litter from a taller drought-tough tree matches warm-season guild timing if crowns stay open.
-  - Aloe — shares sharp drainage ethics and medicinal-plant respect; both hate chronic overwatering in the same bed.
+  - slug: comfrey
+    name: Comfrey
+  - slug: moringa
+    name: Moringa
+  - slug: aloe
+    name: Aloe
 cautions:
   - None documented
 pests:

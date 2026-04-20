@@ -31,21 +31,19 @@ purpose: |-
   Wildlife Attractor: Interlaced fronds shade amphibians and voles at ground level while canopy moths use ferns as night roosts in open woodland gaps.
   Erosion Control: Deep rhizome networks gridlock cuts and burn scars faster than seeding annual rye, which matters on road prism repairs until slower trees arrive.
 companions:
-- Blueberry — shares acidic, open-woodland conditions at the thicket edge where bracken
-  is thinned, not encouraged
-- Blackberry — competes at similar disturbance edges; use only where you accept a
-  rugged thicket mosaic
-- Pine Seedlings — bracken often naturalizes under pine; manage competition if timber
-  establishment is the goal
+- slug: blueberry
+  name: Blueberry
 cautions:
-- Livestock poisoning — contains thiaminase and other toxins; hay contamination is
-  serious
-- Human fiddlehead risk — improper preparation and cumulative consumption concerns
-  appear in medical literature
-- Aggressive spread — rhizomes cross under paths; use barriers where diversity is
-  prioritized
+- Livestock poisoning — contains thiaminase and other toxins; hay contamination is serious
+- Human fiddlehead risk — improper preparation and cumulative consumption concerns appear in medical literature
+- Aggressive spread — rhizomes cross under paths; use barriers where diversity is prioritized
 pests:
 - Cutworms
 - Caterpillars
 growth_habit: Rhizomatous deciduous fern; large triangular fronds; colony-forming
 data_quality_score: 0.8
+companions_unresolved:
+- name: Blackberry
+  original: Blackberry — competes at similar disturbance edges; use only where you accept a rugged thicket mosaic
+- name: Pine Seedlings
+  original: Pine Seedlings — bracken often naturalizes under pine; manage competition if timber establishment is the goal

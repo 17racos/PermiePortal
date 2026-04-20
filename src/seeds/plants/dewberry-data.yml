@@ -35,13 +35,12 @@ purpose: |-
   Erosion Control: Trailing primocanes root at nodes, knitting loose soil on moist slopes and pond margins.
   Ground Cover: Thorny mats exclude many weeds under trees where wandering canes are acceptable.
 companions:
-- Elderberry — taller shrub layer; shares edge ecology without shading dewberries
-  flat
-- Blackberry — similar culture; stagger rows to simplify pruning and harvest lanes
-- Yarrow — low, droughty companions that do not compete for deep bramble roots
+- slug: elderberry
+  name: Elderberry
+- slug: yarrow
+  name: Yarrow
 cautions:
-- Wild Rubus patches may host rose rosette disease vectors—inspect canes and remove
-  witch's-broom growth
+- Wild Rubus patches may host rose rosette disease vectors—inspect canes and remove witch's-broom growth
 pests:
 - Apple Maggot
 - Apple Scab
@@ -82,3 +81,6 @@ pests:
 - Tent Caterpillar
 growth_habit: Trailing perennial bramble; black fruits; rooting nodes on canes
 data_quality_score: 0.84
+companions_unresolved:
+- name: Blackberry
+  original: Blackberry — similar culture; stagger rows to simplify pruning and harvest lanes

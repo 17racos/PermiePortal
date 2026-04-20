@@ -2,8 +2,8 @@ common_name: Radish
 picture: radish.webp
 scientific_name: Raphanus sativus
 aka:
-  - Daikon (Raphanus sativus var. longipinnatus)
-  - Horseradish Radish
+- Daikon (Raphanus sativus var. longipinnatus)
+- Horseradish Radish
 family: Brassicaceae
 zone: 2-11
 ideal_temp_min: 50
@@ -12,13 +12,13 @@ min_temp: 20
 max_temp: 95
 perennial: false
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Dynamic Accumulator
-  - Pest Management
-  - Mulcher
-  - Erosion Control
+- Edible
+- Dynamic Accumulator
+- Pest Management
+- Mulcher
+- Erosion Control
 description: |-
   The Radish (Raphanus sativus) is a fast-growing root vegetable cultivated for its edible root and greens. It comes in a variety of colors, including red, white, purple, and black. Radishes thrive in cool weather and can be grown in early spring and fall. The plant produces small white, pink, or purple flowers that attract pollinators. It grows best in loose, well-draining soil rich in organic matter.
 
@@ -34,26 +34,31 @@ purpose: |-
   Mulcher: Frost-killed tops and thinned microgreens lay fast-green mulch under garlic -- shred coarse leaves so piles do not mat anaerobic in humid weeks.
   Erosion Control: Quick fibrous roots knit spring garden soil after winter cover crop kill -- pair with oats on slopes where first rains would otherwise wash naked seed beds.
 companions:
-  - Carrot
-  - Lettuce
-  - Cucumber
-  - Peas
+- slug: carrot
+  name: Carrot
+- slug: lettuce
+  name: Lettuce
+- slug: cucumber
+  name: Cucumber
 cautions:
-  - Hyssop
-  - Cabbage
+- Hyssop
+- Cabbage
 pests:
-  - Aphids
-  - Cabbage Aphid
-  - Cabbage Looper
-  - Cabbage Root Fly
-  - Cabbage Root Maggots
-  - Cabbage White Butterflies
-  - Cabbage Worms
-  - Cross-striped Cabbageworm
-  - Diamondback Moth
-  - Flea Beetles
-  - Harlequin Bug
-  - Imported Cabbageworm
-  - Swede Midge
+- Aphids
+- Cabbage Aphid
+- Cabbage Looper
+- Cabbage Root Fly
+- Cabbage Root Maggots
+- Cabbage White Butterflies
+- Cabbage Worms
+- Cross-striped Cabbageworm
+- Diamondback Moth
+- Flea Beetles
+- Harlequin Bug
+- Imported Cabbageworm
+- Swede Midge
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Peas
+  original: Peas

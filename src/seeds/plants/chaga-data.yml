@@ -2,9 +2,9 @@ common_name: Chaga
 picture: chaga.webp
 scientific_name: Inonotus obliquus
 aka:
-  - Birch Conk
-  - Cinder Conk
-  - Clinker Polypore
+- Birch Conk
+- Cinder Conk
+- Clinker Polypore
 family: Hymenochaetaceae
 zone: 2-7
 ideal_temp_min: 40
@@ -13,11 +13,11 @@ min_temp: -50
 max_temp: 85
 perennial: true
 layers:
-  - Fungal
+- Fungal
 plant_function:
-  - Edible
-  - Medicinal
-  - Biomass
+- Edible
+- Medicinal
+- Biomass
 description: |-
   Chaga is not a mushroom in the cap-and-stem sense — it is a sterile conk stage of Inonotus obliquus, erupting from birch bark as a cracked, charcoal-black mass with an orange-brown interior. It belongs to cold-climate birch forests and has no honest outdoor analog in subtropical Florida. If you are reading this in Jacksonville, you are planning a sourcing strategy, not a planting calendar. Wild harvest ethics matter here: slow-growing conks are easily overharvested, and stripping live public trees is bad form in any zip code.
 
@@ -31,25 +31,29 @@ purpose: |-
   Medicinal: betulin-rich extracts appear in northern European -- and Siberian immune-support traditions where harvest ethics and drug interaction research still outweigh supplement hype.
   Biomass: perennial conks add dense fungal tissue to the coarse woody debris pile when ethical partial harvest leaves inoculum on the host instead of stripping bark bare.
 substrate:
-  - Birch (primary)
-  - Alder
-  - Elm (rarely)
+- Birch (primary)
+- Alder
+- Elm (rarely)
 mycelium_type: Parasitic / white rot
 fruiting_season: Perennial conk; harvest traditionally after hard freeze, late fall through winter
 cultivation_difficulty: Not recommended for subtropical cultivation
 spawn_type: Outdoor only — natural inoculation or experimental log colonization in northern climates
 companions:
-  - Birch -- primary host tree; Chaga parasitizes Betula species almost exclusively in the wild
-  - Alder -- secondary host in some northern regions; same Betulaceae family
-  - Comfrey -- dynamic accumulator planted near host trees feeds the surrounding soil biology
+- slug: alder
+  name: Alder
+- slug: comfrey
+  name: Comfrey
 cautions:
-  - Not suitable for subtropical or tropical cultivation
-  - Repeated conk harvesting from live trees accelerates host decline
+- Not suitable for subtropical or tropical cultivation
+- Repeated conk harvesting from live trees accelerates host decline
 pests:
-  - Borers
+- Borers
 growth_habit: Parasitic canker on birch and related hosts; cold northern climates only
 data_quality_score: 0.78
 ecological_role:
-  - Decomposer
+- Decomposer
 plant_function_unresolved:
-  - Soil Builder
+- Soil Builder
+companions_unresolved:
+- name: Birch
+  original: Birch -- primary host tree; Chaga parasitizes Betula species almost exclusively in the wild

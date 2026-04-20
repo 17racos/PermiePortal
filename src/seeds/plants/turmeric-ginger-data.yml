@@ -28,9 +28,12 @@ purpose: |-
   Medicinal: Curcuminoids drive anti-inflammatory tradition -- absorption jumps with black pepper and fat; check gallbladder and blood-thinner contraindications before megadosing garden rhizome.
   Dynamic Accumulator: Dense rhizome mats and broad leaves cycle potassium and micronutrients into mulch when frost kills tops -- chop senesced foliage back into the bed, not the compost bin only.
 companions:
-  - Comfrey (Symphytum officinale) — chop-and-drop adds fertility and supports turmeric’s nutrient-hungry growth rhythm.
-  - Marigold (Tagetes patula) — supports pollinators and adds flower habitat around the bed edges.
-  - Garlic (Allium sativum) — strong scent diversifies plant odors and supports rotation discipline.
+  - slug: comfrey
+    name: Comfrey
+  - slug: marigold
+    name: Marigold
+  - slug: garlic
+    name: Garlic
 cautions:
   - Avoid waterlogged soil; rhizome rot is the main long-term problem.
 pests:

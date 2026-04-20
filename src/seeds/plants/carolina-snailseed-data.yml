@@ -2,7 +2,7 @@ common_name: Carolina Snailseed
 picture: carolina_snailseed.webp
 scientific_name: Cocculus carolinus
 aka:
-- Carolina coralbead
+  - Carolina coralbead
 family: Menispermaceae
 zone: 7-11
 ideal_temp_min: 50
@@ -11,12 +11,12 @@ min_temp: 10
 max_temp: 105
 perennial: true
 layers:
-- Vine
+  - Vine
 plant_function:
-- Wildlife Attractor
-- Ornamental
-- Ground Cover
-- Erosion Control
+  - Wildlife Attractor
+  - Ornamental
+  - Ground Cover
+  - Erosion Control
 description: |-
   Carolina snailseed (Cocculus carolinus) is a deciduous twining vine of southeastern North American thickets and woodland edges, with bright green leaves and showy clusters of glossy red berries (on female plants) that persist into winter on some sites. Stems climb by twining to roughly 10–20 feet (3–6 m) on supports, forming airy screens on fences, trellises, and scrub. Birds distribute seed; humans should treat berries as ornamental-wildlife food, not trail snacks, without expert knowledge.
 
@@ -31,16 +31,17 @@ purpose: |-
   Ground Cover: low twining stems skirt shrub bases and crawl mulch if given string or shrub armature, filling visual gaps without smothering crowns when pruned after fruit.
   Erosion Control: roots stabilize disturbed woodland banks once the vine climbs trellis or living supports that keep fruiting wood off bare sliding soil.
 companions:
-- Coral Honeysuckle — complementary red tubular flowers earlier; shared trellis with
-  staggered color
-- American Wisteria — heavier vine backbone; snailseed fills finer texture between
-  wisteria cords (manage vigor)
-- Beautyberry — shrub anchor that tolerates vine skirts at the thicket edge
+  - slug: coral-honeysuckle
+    name: Coral Honeysuckle
+  - slug: wisteria
+    name: Wisteria
+  - slug: beautyberry
+    name: Beautyberry
 cautions:
-- Spread by birds — expect volunteers near fruiting females in mild climates
-- Male and female plants — need both for showy berries on females
+  - Spread by birds — expect volunteers near fruiting females in mild climates
+  - Male and female plants — need both for showy berries on females
 pests:
-- Scale Insects
-- Aphids
+  - Scale Insects
+  - Aphids
 growth_habit: Deciduous twining vine; red bead-like fruit clusters; warm-humid climates
 data_quality_score: 0.85

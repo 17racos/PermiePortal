@@ -2,9 +2,9 @@ common_name: Ribwort Plantain
 picture: ribwort_plantain.webp
 scientific_name: Plantago lanceolata
 aka:
-  - English plantain
-  - Narrowleaf plantain
-  - Lanceleaf plantain
+- English plantain
+- Narrowleaf plantain
+- Lanceleaf plantain
 family: Plantaginaceae
 zone: 3-9
 ideal_temp_min: 40
@@ -13,13 +13,13 @@ min_temp: -30
 max_temp: 95
 perennial: true
 layers:
-  - Herbaceous
-  - Ground Cover
+- Herbaceous
+- Ground Cover
 plant_function:
-  - Edible
-  - Medicinal
-  - Dynamic Accumulator
-  - Animal Fodder
+- Edible
+- Medicinal
+- Dynamic Accumulator
+- Animal Fodder
 description: |-
   Ribwort plantain is the lawn weed that herbalists respect and turf purists spray. Basal rosette, tight flower spikes, pulls easy after rain—if you decide it owes you rent.
 
@@ -36,15 +36,19 @@ purpose: |-
   Dynamic Accumulator: Deep taproots pull calcium and magnesium from subsoil fractures into leaf ash that composts back onto beds -- chop before seed rain if you dislike editing plantain out of carrot rows next year.
   Animal Fodder: Rabbits, poultry, and goats nibble tender rosettes in rotational paddocks where plantain volunteers after overgrazing -- protein beats turf grass; still rotate species so animals do not monodiets on one weed.
 companions:
-  - Clover
-  - Dandelion
-  - Yarrow
+- slug: dandelion
+  name: Dandelion
+- slug: yarrow
+  name: Yarrow
 cautions:
-  - Confusing with plantains you cannot ID
-  - Overharvesting single wild patches to extinction
+- Confusing with plantains you cannot ID
+- Overharvesting single wild patches to extinction
 pests:
-  - slugs
-  - aphids
-  - flea beetles
+- slugs
+- aphids
+- flea beetles
 growth_habit: Low rosette perennial; erect flower spikes
 data_quality_score: 0.75
+companions_unresolved:
+- name: Clover
+  original: Clover

@@ -32,9 +32,12 @@ purpose: |-
   Medicinal: Historic vermifuge teas carry neurotoxic thujone loads -- modern herbalists meter drops while wildlife agencies list tansy as liver-toxic browse for livestock.
   Ornamental: Brass-button clusters stand knee-high along cottage borders until rhizomes escape into neighboring crowns without edging discipline.
 companions:
-  - Raspberry — tansy rows along cane edges are an old companion tale; monitor spread so rhizomes do not undercut canes.
-  - Cucumber — some growers edge beds for flying pest confusion; keep tansy contained so it does not shade vines.
-  - Potatoes — aromatic skirt may reduce certain insect pressure; still rotate crops like your soil depends on it.
+  - slug: raspberry
+    name: Raspberry
+  - slug: cucumber
+    name: Cucumber
+  - slug: potato
+    name: Potato
 cautions:
   - Peony — tansy’s spreading rhizomes and aromatic chemistry make a poor neighborhood for long-lived perennial crowns.
   - Strawberries — allelopathic edges and root competition can thin mats; keep fruit production beds separate.
@@ -49,3 +52,7 @@ pests:
   - Root Aphid
 growth_habit: Upright rhizomatous perennial; aromatic ferny leaves; yellow flat flower heads
 data_quality_score: 0.74
+companions_normalized:
+  - original: Potatoes — aromatic skirt may reduce certain insect pressure; still rotate crops like your soil depends on it.
+    resolved_slug: potato
+    name: Potato

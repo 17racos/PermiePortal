@@ -2,9 +2,9 @@ common_name: Goat Plum
 picture: goat_plum.webp
 scientific_name: Terminalia ferdinandiana
 aka:
-- Kakadu plum
-- Billygoat plum
-- Gubinge
+  - Kakadu plum
+  - Billygoat plum
+  - Gubinge
 family: Combretaceae
 zone: 10-12
 ideal_temp_min: 70
@@ -13,12 +13,12 @@ min_temp: 30
 max_temp: 110
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Edible
-- Medicinal
-- Wildlife Attractor
-- Shade Provider
+  - Edible
+  - Medicinal
+  - Wildlife Attractor
+  - Shade Provider
 description: |-
   Goat plum (Terminalia ferdinandiana), widely known as Kakadu plum, is a semi-deciduous tree of northern Australian savannas and monsoon margins, bearing oval leaves, cream flower spikes, and pale green to yellow fruit famous for extreme vitamin C content. Cultivated specimens often reach 15–40 feet (4.5–12 m) with a spreading crown. It belongs in tropical dry-season/wet-season food systems where heat is reliable and frost is a rumor.
 
@@ -33,17 +33,17 @@ purpose: |-
   Wildlife Attractor: Cream flower spikes set fruit for native pigeons and flying fox networks across savanna corridors where seed dispersal still functions without cattle compaction mud on monsoon margins you fence differently from pivot-irrigation blocks downhill.
   Shade Provider: Wide crowns shelter young mango rows during dry season when solar load would otherwise sunscald bark on juvenile orchard trunks you underplanted with lemongrass perimeter markers instead of bare soil heat mirrors each afternoon.
 companions:
-- Moringa — complementary fast leaf crop with different root depth along orchard rows
-- Banana — herbaceous biomass and partial shade for juvenile trees in mixed tropical
-  systems
-- Lemongrass — perimeter grass marker that tolerates heat cycles along drip lines
+  - slug: moringa
+    name: Moringa
+  - slug: banana
+    name: Banana
+  - slug: lemongrass
+    name: Lemongrass
 cautions:
-- Frost — not a subtropical poseur; cold snaps damage expanding shoots
-- Biopiracy ethics — commercial use intersects Indigenous knowledge; partner fairly,
-  not extractively
+  - Frost — not a subtropical poseur; cold snaps damage expanding shoots
+  - Biopiracy ethics — commercial use intersects Indigenous knowledge; partner fairly, not extractively
 pests:
-- Scale Insects
-- Caterpillars
-growth_habit: Semi-deciduous tropical tree; cream spikes; pale fruit; monsoon savanna
-  adapted
+  - Scale Insects
+  - Caterpillars
+growth_habit: Semi-deciduous tropical tree; cream spikes; pale fruit; monsoon savanna adapted
 data_quality_score: 0.79

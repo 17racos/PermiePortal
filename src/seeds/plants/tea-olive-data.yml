@@ -34,9 +34,12 @@ purpose: |-
   Ornamental: Glossy opposite leaves plus intermittent creamy clusters give designers evergreen bones without azalea fuss.
   Border Plant: Tight clipping tolerates pathway scent walls outside cafés where flower size never beat fragrance reach.
 companions:
-  - Azalea — shared acidic-soil culture under high shade if irrigation stays honest.
-  - Comfrey — mineral mulch outside the trunk zone without changing pH overnight.
-  - Rosemary — sun-loving edge contrast where drainage is sharp and limestone is not the boss.
+  - slug: azalea
+    name: Azalea
+  - slug: comfrey
+    name: Comfrey
+  - slug: rosemary
+    name: Rosemary
 cautions:
   - None documented
 pests:

@@ -2,12 +2,12 @@ common_name: Cucamelon
 picture: cucamelon.webp
 scientific_name: Melothria scabra
 aka:
-  - Mexican Sour Gherkin
-  - Mouse Melon
-  - Mexican Miniature Watermelon
-  - Mexican Sour Cucumber
-  - Pepquinos
-  - Sandita
+- Mexican Sour Gherkin
+- Mouse Melon
+- Mexican Miniature Watermelon
+- Mexican Sour Cucumber
+- Pepquinos
+- Sandita
 family: Cucurbitaceae
 zone: 7-11
 ideal_temp_min: 75
@@ -16,12 +16,12 @@ min_temp: 50
 max_temp: 95
 perennial: true
 layers:
-  - Herbaceous
-  - Vine
+- Herbaceous
+- Vine
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Ground Cover
+- Edible
+- Wildlife Attractor
+- Ground Cover
 description: |-
   The Cucamelon (Melothria scabra) is a vigorous, climbing vine native to Mexico and Central America. It produces an abundance of small, grape-sized fruits that resemble miniature watermelons but have a cucumber-like taste with a hint of citrus. The plant features palmate leaves and delicate curling tendrils, making it suitable for trellising. It is relatively pest-resistant and drought-tolerant compared to other cucurbits.
 
@@ -35,29 +35,33 @@ purpose: |-
   Wildlife Attractor: Small yellow flowers and nectar draw bees to trellised vines -- fruits are bite-sized bird snacks if you leave some clusters.
   Ground Cover: Palmately lobed leaves and twining stems shade soil along vertical trellis feet, reducing splash on cucurbit beds.
 companions:
-  - Corn
-  - Sunflower
-  - Marigold
+- slug: sunflower
+  name: Sunflower
+- slug: marigold
+  name: Marigold
 cautions:
-  - Potato
-  - Fennel
+- Potato
+- Fennel
 pests:
-  - Aphids
-  - Banded Cucumber Beetle
-  - Broad Mite
-  - Greenhouse Whitefly
-  - Melonworm
-  - Pickleworm
-  - Reniform Nematode
-  - Shore Fly
-  - Slugs
-  - Squash Bug
-  - Squash Vine Borer
-  - Striped Cucumber Beetle
-  - Fusarium Wilt
-  - Leaf Spot
-  - Papaya Ringspot Virus
-  - Pythium Root Rot
-  - Spotted Cucumber Beetle
+- Aphids
+- Banded Cucumber Beetle
+- Broad Mite
+- Greenhouse Whitefly
+- Melonworm
+- Pickleworm
+- Reniform Nematode
+- Shore Fly
+- Slugs
+- Squash Bug
+- Squash Vine Borer
+- Striped Cucumber Beetle
+- Fusarium Wilt
+- Leaf Spot
+- Papaya Ringspot Virus
+- Pythium Root Rot
+- Spotted Cucumber Beetle
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Corn
+  original: Corn

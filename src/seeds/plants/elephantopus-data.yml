@@ -33,14 +33,10 @@ purpose: |-
   Mulcher: Rough rosette leaves senesce into thin humus mats that keep Carolina sand from bare-crusting between wiregrass tussocks on droughty flatwoods edges.
   Ground Cover: Low crowns thread between bunchgrass bases without forming solid turf blankets, so Indiangrass rows still move wind and light the way savanna designers intend.
 companions:
-- Bluestem — warm-season grasses weave with basal rosettes in savanna-style ground
-  layers
-- Liatris — vertical spikes contrast low Elephantopus leaves in sunny beds
-- Partridge Pea — annual legume pulses nitrogen in the same high-light disturbance
-  niche
+- slug: partridge-pea
+  name: Partridge Pea
 cautions:
-- Internal medicinal use without positive identification and professional guidance
-  risks liver-level regret—many asters look alike to beginners
+- Internal medicinal use without positive identification and professional guidance risks liver-level regret—many asters look alike to beginners
 pests:
 - Aphids
 - Banded Winged Whitefly
@@ -51,3 +47,8 @@ pests:
 - Root Aphid
 growth_habit: Basal rosette perennial; rough leaves; slender stalks with small heads
 data_quality_score: 0.82
+companions_unresolved:
+- name: Bluestem
+  original: Bluestem — warm-season grasses weave with basal rosettes in savanna-style ground layers
+- name: Liatris
+  original: Liatris — vertical spikes contrast low Elephantopus leaves in sunny beds

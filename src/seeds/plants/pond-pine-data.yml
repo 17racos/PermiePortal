@@ -2,8 +2,8 @@ common_name: Pond Pine
 picture: pond_pine.webp
 scientific_name: Pinus serotina
 aka:
-- Marsh Pine
-- Pocosin Pine
+  - Marsh Pine
+  - Pocosin Pine
 family: Pinaceae
 zone: 6-9
 ideal_temp_min: 35
@@ -12,12 +12,12 @@ min_temp: -5
 max_temp: 105
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Wildlife Attractor
-- Erosion Control
-- Windbreaker
-- Biomass
+  - Wildlife Attractor
+  - Erosion Control
+  - Windbreaker
+  - Biomass
 description: |-
   Pond pine (Pinus serotina) is a southeastern North American pine of wet savannas, pocosins, and pond margins, recognized for a somewhat irregular crown, long needles in bundles of three, and serotinous cones that open after fire or strong heat. Trees commonly reach 40–70 feet (12–21 m) on acidic, peaty, or sandy soils that stay moist but not permanently stagnant. In restoration and windbreak work it tolerates conditions that dry-site pines refuse, while supplying resinous habitat structure.
 
@@ -32,21 +32,19 @@ purpose: |-
   Windbreaker: Irregular crowns in staggered rows trim steady humid-plain winds across blueberry barrens and strawberry plastic -- spacing wider than loblolly avoids complete light loss on cash crops.
   Biomass: Resinous needle drop and thinned lower branches chip into acidic mulch for ericaceous beds and hugel toes -- high lignin fraction rots slower than maple litter, building long-carbon sponge in wet ground.
 companions:
-- Longleaf Pine — complementary pine neighbor where fire-managed systems include multiple
-  canopy heights
-- Sweetgrass — moist-ground grass matrix at the wetland margin below pine drip lines
-- Wax Myrtle — nitrogen-fixing shrub layer at the ecotone between pine and more open
-  wet ground
+  - slug: longleaf-pine
+    name: Longleaf Pine
+  - slug: sweetgrass
+    name: Sweetgrass
+  - slug: wax-myrtle
+    name: Wax Myrtle
 cautions:
-- Fire ecology — serotinous cones expect periodic burn; understand local regulations
-  before romanticizing flames
-- Alkaline soils and coastal salt — chronic stress and needle chlorosis without amendment
-  or different species choice
+  - Fire ecology — serotinous cones expect periodic burn; understand local regulations before romanticizing flames
+  - Alkaline soils and coastal salt — chronic stress and needle chlorosis without amendment or different species choice
 pests:
-- Aphids
-- Bagworm
-- Scale Insects
-- Spider Mites
-growth_habit: Moist-site pine; needles in threes; irregular crown; serotinous cones;
-  acidic soils
+  - Aphids
+  - Bagworm
+  - Scale Insects
+  - Spider Mites
+growth_habit: Moist-site pine; needles in threes; irregular crown; serotinous cones; acidic soils
 data_quality_score: 0.8

@@ -38,9 +38,12 @@ purpose: |-
   Biomass: Annual prunings and spent bracts add bulky carbon to on-site compost and biochar pits in humid climates where decomposition runs year-round.
   Ornamental: The sheer scale of foliage and fruiting heads reads as living architecture in botanical collections -- only plant where overhead lines and roofs tolerate eventual weight because branches carry serious mass.
 companions:
-  - Pigeon Pea — edge-planted nitrogen fixer that feeds the soil food web without stealing the breadfruit’s crown space if kept outside the main root plate.
-  - Papaya — fast soft-wooded nurse height and light shade for the first years while the canopy tree finds its legs.
-  - Sweet Potato — living mulch on the sunny margin to cover soil, reduce splash, and tolerate the root competition gradient if you keep the vine out of trunk contact.
+  - slug: pigeon-pea
+    name: Pigeon Pea
+  - slug: papaya
+    name: Papaya
+  - slug: sweet-potato
+    name: Sweet Potato
 cautions:
   - None documented
 pests:

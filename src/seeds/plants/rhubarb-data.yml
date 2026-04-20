@@ -29,9 +29,10 @@ purpose: |-
   Mulcher: Elephant-ear leaves layer mulch under currants and cane fruit when slashed after frost -- decompose fast into black humus unless you stack them anaerobic-deep; chop stems separately for drier carbon.
   Erosion Control: Massive crowns and thick roots anchor barnyard berms and orchard slopes where winter rains sheet -- plant on contour swales with comfrey downhill to catch nutrient leachate honestly.
 companions:
-- Strawberry
-- Asparagus
-- Brassica
+- slug: strawberry
+  name: Strawberry
+- slug: asparagus
+  name: Asparagus
 cautions:
 - Fennel
 - Black Walnut
@@ -41,3 +42,6 @@ pests:
 - Snails
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Brassica
+  original: Brassica

@@ -49,9 +49,12 @@ purpose: |-
   Border Plant: Arching stems hit roughly 8–12 feet and read informal, so you can soften a wire fence line without shearing a formal hedge.
   Mulcher: Deciduous pinnate leaves drop a light, airy litter that chips easily under taller trees when you prune after bloom for size.
 companions:
-  - Desert Sage — silvery aromatic contrast with similar sun and drainage; different flower color keeps the border honest.
-  - Yarrow — pollinator bridge species that tolerates lean soil beside the shrub’s drip line.
-  - Lavender — Mediterranean drainage buddy; do not overwater either plant out of misplaced kindness.
+  - slug: desert-sage
+    name: Desert Sage
+  - slug: yarrow
+    name: Yarrow
+  - slug: lavender
+    name: Lavender
 cautions:
   - None documented
 pests:

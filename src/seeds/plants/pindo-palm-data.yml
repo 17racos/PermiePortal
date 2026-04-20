@@ -2,12 +2,12 @@ common_name: Pindo Palm
 picture: pindo_palm.webp
 scientific_name: Butia capitata
 aka:
-  - Jelly palm
-  - South American jelly palm
-  - Wine palm
-  - Butia Palm
-  - Jelly Palm
-  - South American Jelly Palm
+- Jelly palm
+- South American jelly palm
+- Wine palm
+- Butia Palm
+- Jelly Palm
+- South American Jelly Palm
 family: Arecaceae
 zone: 8-11
 ideal_temp_min: 55
@@ -16,12 +16,12 @@ min_temp: 12
 max_temp: 105
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Edible
-  - Ornamental
-  - Windbreaker
-  - Wildlife Attractor
+- Edible
+- Ornamental
+- Windbreaker
+- Wildlife Attractor
 description: |-
   Pindo palm is the cold-tolerant feather palm that drops messy, fragrant yellow fruit and dares you to make jelly. Landscape architects love the blue-gray fronds; squirrels love everything.
 
@@ -38,21 +38,27 @@ purpose: |-
   Windbreaker: Plant tight groups on coastal ridges and west walls to shred desiccating wind before it hits citrus or vegetable rows -- fronds flex instead of shattering like brittle fan palms in ice.
   Wildlife Attractor: Fallen fruit feeds gray squirrels, raccoons, and mockingbirds that ignore your pickup calendar -- pressure-wash patios after jelly weeks or accept sticky sociology experiments.
 companions:
-  - Yucca
-  - Agave
-  - Mediterranean herbs
+- slug: agave
+  name: Agave
 cautions:
-  - Chronic wet feet
-  - Deep shade (weak growth, fewer fruit)
+- Chronic wet feet
+- Deep shade (weak growth, fewer fruit)
 pests:
-  - Coconut Mite
-  - Palm Weevil
-  - Red Palm Weevil
-  - Rhinoceros Beetle
-  - palmetto weevil
-  - scale insects
-  - spider mites
-  - Ganoderma Butt Rot
-  - Heart Rot
+- Coconut Mite
+- Palm Weevil
+- Red Palm Weevil
+- Rhinoceros Beetle
+- palmetto weevil
+- scale insects
+- spider mites
+- Ganoderma Butt Rot
+- Heart Rot
 growth_habit: Solitary pinnate palm; slow to moderate growth
 data_quality_score: 0.75
+companions_unresolved:
+- name: Yucca
+  original: Yucca
+companion_categories:
+- name: Mediterranean herbs
+  original: Mediterranean herbs
+  type: system

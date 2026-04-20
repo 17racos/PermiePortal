@@ -34,12 +34,10 @@ purpose: |-
   Border Plant: Multi-stem hog-plum thickets arm fencerows with thorns dense enough for goat turn zones on sandy flatwoods edges where blackberry rows already prove thorny-hedge ecology on the same property line.
   Pollinator: Shallow nectaries on early February clusters stay reachable for small wild bees on warm zone 8b afternoons before canopy closure shades the same sandhill openings later in spring.
 companions:
-- Blackberry — shares thorny-hedge ecology; stagger pruning for access lanes
-- Beautyberry — purple fruit later in season extends wildlife food calendars
-- Pine — overstory dappled light matches flatwoods ecology; needles mulch acidity
+- slug: beautyberry
+  name: Beautyberry
 cautions:
-- Black Cherry — nearby Prunus can share pest and disease pressure; diversify spacing
-  and sanitation in guilds
+- Black Cherry — nearby Prunus can share pest and disease pressure; diversify spacing and sanitation in guilds
 pests:
 - Apple Maggot
 - Apple Scab
@@ -77,6 +75,10 @@ pests:
 - Eastern Tent Caterpillar
 - Harlequin Ladybird
 - Tent Caterpillar
-growth_habit: Thorny deciduous shrub to small tree; early white flowers; dark astringent
-  plums
+growth_habit: Thorny deciduous shrub to small tree; early white flowers; dark astringent plums
 data_quality_score: 0.83
+companions_unresolved:
+- name: Blackberry
+  original: Blackberry — shares thorny-hedge ecology; stagger pruning for access lanes
+- name: Pine
+  original: Pine — overstory dappled light matches flatwoods ecology; needles mulch acidity

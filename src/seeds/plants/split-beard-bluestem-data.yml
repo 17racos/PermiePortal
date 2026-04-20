@@ -2,7 +2,7 @@ common_name: Split Beard Bluestem
 picture: split_beard_bluestem.webp
 scientific_name: Andropogon ternarius
 aka:
-- Broom Sedge
+  - Broom Sedge
 family: Poaceae
 zone: 4-9
 ideal_temp_min: 40
@@ -11,12 +11,12 @@ min_temp: -15
 max_temp: 110
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Erosion Control
-- Wildlife Attractor
-- Ornamental
-- Biomass
+  - Erosion Control
+  - Wildlife Attractor
+  - Ornamental
+  - Biomass
 description: |-
   Split beard bluestem (Andropogon ternarius) is a warm-season bunchgrass of southeastern North American dry prairies, sandhills, and roadsides, with blue-green summer foliage turning copper and fluffy white seed tails catching backlight in fall. Stems usually reach 2–4 feet (60–120 cm). It is a fine-textured companion to little bluestem in restoration mixes and a low-input ornamental for lean, sunny beds.
 
@@ -31,26 +31,28 @@ purpose: |-
   Ornamental: Metallic blue summer blades shift copper while seed awns glow against little bluestem companions on dry banks.
   Biomass: Fine stems cut after frost fold into carbon-heavy mulch that feeds fungal chains on droughty rooftop soils.
 companions:
-- Little Bluestem — complementary Andropogon texture in mixed prairie matrices
-- Prairie Coneflower — forb contrast in color and form on the same dry bank
-- Milkweed — pollinator forb neighbor in sunny strips
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: prairie-coneflower
+    name: Prairie Coneflower
+  - slug: milkweed
+    name: Milkweed
 cautions:
-- Wet clay — poor performance compared with sandhill truth
-- Over-irrigation — weeds outcompete lean-grass minimalism
+  - Wet clay — poor performance compared with sandhill truth
+  - Over-irrigation — weeds outcompete lean-grass minimalism
 pests:
-- Aphids
-- Armyworms
-- Bamboo Mite
-- Corn Earworm
-- Fall Armyworm
-- Japanese Beetles
-- Lubber Grasshopper
-- Rice Blast Fungus
-- Rice Water Weevil
-- Spider Mites
-- Spittlebugs
-- Wireworm
-- Leaf Blight
-growth_habit: Warm-season bunchgrass; copper fall color; white fluffy seed tails;
-  dry sandy soils
+  - Aphids
+  - Armyworms
+  - Bamboo Mite
+  - Corn Earworm
+  - Fall Armyworm
+  - Japanese Beetles
+  - Lubber Grasshopper
+  - Rice Blast Fungus
+  - Rice Water Weevil
+  - Spider Mites
+  - Spittlebugs
+  - Wireworm
+  - Leaf Blight
+growth_habit: Warm-season bunchgrass; copper fall color; white fluffy seed tails; dry sandy soils
 data_quality_score: 0.82

@@ -2,7 +2,7 @@ common_name: Florida Mint
 picture: florida_mint.webp
 scientific_name: Dicerandra densiflora
 aka:
-- Denseflower balm
+  - Denseflower balm
 family: Lamiaceae
 zone: 8-11
 ideal_temp_min: 55
@@ -11,13 +11,13 @@ min_temp: 20
 max_temp: 102
 perennial: true
 layers:
-- Herbaceous
-- Herb
+  - Herbaceous
+  - Herb
 plant_function:
-- Pollinator
-- Ornamental
-- Wildlife Attractor
-- Medicinal
+  - Pollinator
+  - Ornamental
+  - Wildlife Attractor
+  - Medicinal
 description: |-
   Florida mint (Dicerandra densiflora) is a rare, aromatic mint-family perennial endemic to well-drained sandy ridges in parts of the southeastern United States, with tubular flowers that read as a shout-out to specialist bee pollinators. The genus Dicerandra is famous for oil glands and narrow endemism—this is not supermarket Mentha, and wild collection can harm fragile populations. In cultivation, use nursery-propagated material for native plant gardens, bee borders, and sensory paths where sharp drainage is real and irrigation is restrained.
 
@@ -33,16 +33,16 @@ purpose: |-
   Wildlife Attractor: Rare wild populations still host bee-fidelity guilds ethical garden clones can support when you never harvest from conservation tracts and you cluster patches three feet wide so cruising pollinators notice volume.
   Medicinal: Pulegone-class oils drove regional aromatic trade -- internal use stays with licensed practitioners because narrow endemic ethics outweigh kitchen tea confidence on every internet recipe card you almost clicked.
 companions:
-- Rosemary — shares sun and sharp drainage without competing for the same rooting
-  depth
-- Blanket Flower — long-blooming composites extend pollinator support beside mint-family
-  tubes
-- Sand Pine — overstory for ecological context in ridge restoration designs
+  - slug: rosemary
+    name: Rosemary
+  - slug: blanket-flower
+    name: Blanket Flower
+  - slug: sand-pine
+    name: Sand Pine
 cautions:
-- Many Dicerandra species are legally and ecologically sensitive—never harvest or
-  transplant from wild populations without permits and local expertise
+  - Many Dicerandra species are legally and ecologically sensitive—never harvest or transplant from wild populations without permits and local expertise
 pests:
-- Spider Mites
-- Aphids
+  - Spider Mites
+  - Aphids
 growth_habit: Aromatic perennial mint; tubular flowers; sand ridge specialist in nature
 data_quality_score: 0.82

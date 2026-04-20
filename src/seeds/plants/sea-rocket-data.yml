@@ -31,9 +31,12 @@ purpose: |-
   Wildlife Attractor: Pale lilac blooms feed beach flies and small bees while jointed pods drift seaward with seeds songbirds rarely touch but tides redistribute honestly.
   Ground Cover: Low branching stems tile storm-scoured pockets until perennial sea oats and woody scrub reclaim the line behind them.
 companions:
-  - Railroad Vine — perennial vine behind annual sea rocket on stable foredunes
-  - Sea Oxeye Daisy — perennial mound adds structure when rockets finish their annual sprint
-  - Saltwort — lower marsh succulent for salinity gradients in restoration mixes
+  - slug: beach-morning-glory
+    name: Beach Morning Glory
+  - slug: sea-oxeye-daisy
+    name: Sea Oxeye Daisy
+  - slug: saltwort
+    name: Saltwort
 cautions:
   - Harvest only from clean water; urban runoff and sewage spills make “wild” toxic
 pests:

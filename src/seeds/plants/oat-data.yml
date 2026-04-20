@@ -28,9 +28,12 @@ purpose: |-
   Mulcher: Carbon-heavy oat straw from combine aftermath or mowing lays winter armor over vegetable beds -- residues tie up surface nitrogen briefly, so pair termination timing with the next nitrogen-fixing cover or compost layer.
   Erosion Control: Fibrous crown and fine roots knit bare soil after summer vegetables finish, catching autumn rains on slopes -- thick broadcast seeding closes canopy before winter sheet flow carves gullies in naked beds.
 companions:
-  - Crimson Clover (Trifolium incarnatum) — adds nitrogen to pair with oat’s carbon-heavy straw residues.
-  - Radish (Raphanus sativus) — roots help loosen soil so residues break down with better aeration.
-  - Garlic (Allium sativum) — supports rotation timing in beds and helps diversify bed scent in mixed plots.
+  - slug: crimson-clover
+    name: Crimson Clover
+  - slug: radish
+    name: Radish
+  - slug: garlic
+    name: Garlic
 cautions:
   - Rotate oats with non-grasses; continuous cereal planting increases disease and pest buildup.
 pests:

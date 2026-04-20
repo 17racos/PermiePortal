@@ -35,9 +35,12 @@ purpose: |-
   Ornamental: Upright clumps of gold daisies and narrow leaves read like a perennial herb with garden manners -- pot in cold zones because hard frost erases tops.
   Wildlife Attractor: Late nectar feeds butterflies and small bees after basil bolts -- leave some flowers if pollinator traffic matters more than perfect picks.
 companions:
-  - Peppers
-  - Tomatoes
-  - Basil
+  - slug: bell-pepper
+    name: Bell Pepper
+  - slug: tomato
+    name: Tomato
+  - slug: basil
+    name: Basil
 cautions:
   - Boggy shade
   - Overwatering in cool weather
@@ -52,3 +55,10 @@ pests:
   - whiteflies
 growth_habit: Upright herbaceous perennial; shrubby in frost-free areas
 data_quality_score: 0.75
+companions_normalized:
+  - original: Peppers
+    resolved_slug: bell-pepper
+    name: Bell Pepper
+  - original: Tomatoes
+    resolved_slug: tomato
+    name: Tomato

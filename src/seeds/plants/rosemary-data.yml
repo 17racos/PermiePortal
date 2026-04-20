@@ -2,8 +2,8 @@ common_name: Rosemary
 picture: rosemary.webp
 scientific_name: Rosmarinus officinalis
 aka:
-  - Compass Weed
-  - Dew of the Sea
+- Compass Weed
+- Dew of the Sea
 family: Lamiaceae
 zone: 7-10
 ideal_temp_min: 50
@@ -12,15 +12,15 @@ min_temp: 20
 max_temp: 100
 perennial: true
 layers:
-  - Shrub
+- Shrub
 plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
-  - Windbreaker
-  - Border Plant
-  - Pest Management
+- Edible
+- Medicinal
+- Pollinator
+- Wildlife Attractor
+- Windbreaker
+- Border Plant
+- Pest Management
 description: |-
   Rosemary (Rosmarinus officinalis) is a woody, aromatic, evergreen herb that grows as a perennial shrub. It can reach up to 1.5 meters (5 feet) tall and produces needle-like leaves with a strong fragrance. In the right conditions, rosemary can live for decades and becomes a low-maintenance, drought-tolerant plant. It blooms in late winter through spring with small blue to purple flowers that attract pollinators.
 
@@ -40,19 +40,32 @@ purpose: |-
   Border Plant: Woody framework marks herb garden corners year-round; container specimens move under eaves where hard freezes would kill ground-planted stock in marginal zones.
   Pest Management: Volatile oils confuse cabbage white butterflies searching for brassica scent when rosemary sits upwind of kale starts; still pair with netting on heavy pressure years.
 companions:
-  - Sage
-  - Thyme
-  - Lavender
-  - Cabbage
-  - Beans
+- slug: sage
+  name: Sage
+- slug: thyme
+  name: Thyme
+- slug: lavender
+  name: Lavender
+- slug: cabbage
+  name: Cabbage
+- slug: fava-bean
+  name: Fava Bean
 cautions:
-  - Basil
-  - Mint
-  - Pumpkins
+- Basil
+- Mint
+- Pumpkins
 pests:
-  - Aphids
-  - Whiteflies
-  - Spider Mites
-  - Mealybugs
+- Aphids
+- Whiteflies
+- Spider Mites
+- Mealybugs
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index
+companions_normalized:
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

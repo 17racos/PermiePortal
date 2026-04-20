@@ -33,15 +33,10 @@ purpose: |-
   Border Plant: Loose, multi-stemmed habit screens junk piles and pond pumps without formal geometry -- prune females near patios if cottony seed offends tidy aesthetics.
   Biomass: Fast, soft growth chips into salty mulch for coastal berms after storms -- avoid using salty prunings around inland acid-loving crops that hate sodium loads.
 companions:
-- Marsh Elder — shares disturbed wet-edge ecology; stagger management to reduce allergenic
-  pollen timing near doors
-- Saltmeadow Cordgrass — low intertidal to high marsh transition structure behind
-  shrub line
-- Seaside Goldenrod — late flowers extend pollinator support in saline-influenced
-  sun
+- slug: saltmeadow-cordgrass
+  name: Saltmeadow Cordgrass
 cautions:
-- Regional invasiveness — outside native range it can colonize disturbed wetlands;
-  verify local invasive lists before planting
+- Regional invasiveness — outside native range it can colonize disturbed wetlands; verify local invasive lists before planting
 pests:
 - Aphids
 - Banded Winged Whitefly
@@ -52,3 +47,8 @@ pests:
 - Whiteflies
 growth_habit: Salt-tolerant shrub; small leaves; fluffy white seeds on female plants
 data_quality_score: 0.82
+companions_unresolved:
+- name: Marsh Elder
+  original: Marsh Elder — shares disturbed wet-edge ecology; stagger management to reduce allergenic pollen timing near doors
+- name: Seaside Goldenrod
+  original: Seaside Goldenrod — late flowers extend pollinator support in saline-influenced sun

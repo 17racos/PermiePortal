@@ -33,14 +33,10 @@ purpose: |-
   Border Plant: Fine-textured knee-high shrubs edge acid paths without casting heavy shade.
   Ground Cover: Rhizomes spread broad mats on sandy, low-pH soils where conventional turf fails.
 companions:
-- Lowbush Blueberry — similar culture; interplant for extended berry pick timing on
-  acid sands
-- Pitch Pine — overstory for classic barrens ecology; dappled light suits Gaylussacia
-  mats
-- Bearberry — evergreen contrast and shared acidic ground-layer niche
+- slug: bearberry
+  name: Bearberry
 cautions:
-- Do not plant on limed agricultural soils without sustained acidification—ericaceous
-  roots will yellow and sulk
+- Do not plant on limed agricultural soils without sustained acidification—ericaceous roots will yellow and sulk
 pests:
 - Blueberry Maggot
 - Cranberry Fruitworm
@@ -53,3 +49,8 @@ pests:
 - Azalea Caterpillar
 growth_habit: Low rhizomatous shrub; small blue-black berries; sandy acidic sites
 data_quality_score: 0.84
+companions_unresolved:
+- name: Lowbush Blueberry
+  original: Lowbush Blueberry — similar culture; interplant for extended berry pick timing on acid sands
+- name: Pitch Pine
+  original: Pitch Pine — overstory for classic barrens ecology; dappled light suits Gaylussacia mats

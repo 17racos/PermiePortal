@@ -31,15 +31,18 @@ purpose: |-
   Shade Provider: Open layered crown filters afternoon sun for spicebush, foamflower, and fern understories without the deep shade of sugar maple -- afternoon shade matters at the warm end of zone 7 where dogwood sulks if soils dry.
   Mulcher: Medium textured leaves decay into fungal duff that matches oak-hickory forest floors -- leave drifts under the crown unless mats smother tiny spring ephemerals you value more than tidiness.
 companions:
-- Spicebush — shared moist woodland soils and complementary bloom times for pollinators
-- Foamflower — ground-layer cover that appreciates dogwood dappled shade
-- Red Oak — high canopy partner; dogwood thrives at the oak woodland edge
+- slug: spicebush
+  name: Spicebush
 cautions:
-- Dogwood anthracnose and powdery mildew — improve air flow; avoid overhead sprinklers
-  on foliage
+- Dogwood anthracnose and powdery mildew — improve air flow; avoid overhead sprinklers on foliage
 - Prolonged heat without soil moisture — marginal at the warm edge of zone 7
 pests:
 - Scale Insects
 - Powdery Mildew
 growth_habit: Small deciduous tree; whorled leaves; tiered branching; blue drupes
 data_quality_score: 0.85
+companions_unresolved:
+- name: Foamflower
+  original: Foamflower — ground-layer cover that appreciates dogwood dappled shade
+- name: Red Oak
+  original: Red Oak — high canopy partner; dogwood thrives at the oak woodland edge

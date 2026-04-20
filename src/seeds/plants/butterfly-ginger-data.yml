@@ -36,10 +36,7 @@ purpose: |-
   Wildlife Attractor: Tree frogs camp in rolled leaf bases after rain, and spiders web the lower stems where gnats collect from irrigation overspray.
   Ground Cover: Clumping rhizomes spread two meters wide in moist shade, shading out dollarweed if you keep mulch deep and pH slightly acid.
   Erosion Control: Roots grip pond margins and rain-garden swales where water stands for days, holding soil while pickerelweed roots knit deeper mud.
-companions:
-- Fern
-- Hostas
-- Elephant Ear
+companions: []
 cautions:
 - None known
 pests:
@@ -48,3 +45,11 @@ pests:
 - Slugs
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Fern
+  original: Fern
+- name: Hosta
+  original: Hostas
+  note: normalization_target_not_in_index
+- name: Elephant Ear
+  original: Elephant Ear

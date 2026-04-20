@@ -34,9 +34,8 @@ purpose: |-
   Pollinator: Small tubular flowers offer nectar and pollen on new wood -- prune after fruit if you want shorter renewal wood for next season's bloom height.
   Mulcher: Autumn leaf drop is light but zinc-rich compared with lawn clippings; rake into berry row mulch to feed soil fungi that partner with fibrous roots.
 companions:
-- Lavender
-- Salvia
-- Peony
+- slug: lavender
+  name: Lavender
 cautions:
 - None specifically documented
 pests:
@@ -71,3 +70,8 @@ pests:
 growth_habit: Tree
 data_quality_score: 0.8
 field_observations: No field observations yet
+companions_unresolved:
+- name: Salvia
+  original: Salvia
+- name: Peony
+  original: Peony

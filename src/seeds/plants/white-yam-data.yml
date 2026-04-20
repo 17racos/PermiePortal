@@ -38,9 +38,10 @@ purpose: |-
   Mulcher: Frost-killed haulm piles high -- chip coarse stems before composting so piles heat evenly.
   Animal Fodder: Vine tips graze cattle in West African systems after wilt/sun-dry steps -- verify cyanogenic glycoside protocols for your stock class before turning animals in.
 companions:
-- Corn
-- Pigeon Pea
-- Cassava
+- slug: pigeon-pea
+  name: Pigeon Pea
+- slug: cassava
+  name: Cassava
 cautions:
 - Cool short seasons that stop tuber bulking
 - Waterlogging during dormancy
@@ -50,3 +51,6 @@ pests:
 - aphids
 growth_habit: Twining herbaceous perennial vine from large underground tuber
 data_quality_score: 0.8
+companions_unresolved:
+- name: Corn
+  original: Corn

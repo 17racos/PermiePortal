@@ -2,8 +2,8 @@ common_name: Chicory
 picture: chicory.webp
 scientific_name: Cichorium intybus
 aka:
-  - Blue Sailors
-  - Coffeeweed
+- Blue Sailors
+- Coffeeweed
 family: Asteraceae
 zone: 3-10
 ideal_temp_min: 45
@@ -12,13 +12,13 @@ min_temp: -20
 max_temp: 95
 perennial: true
 layers:
-  - Herbaceous
-  - Root
+- Herbaceous
+- Root
 plant_function:
-  - Edible
-  - Dynamic Accumulator
-  - Pollinator
-  - Ground Cover
+- Edible
+- Dynamic Accumulator
+- Pollinator
+- Ground Cover
 description: |-
   Chicory is the roadside blue daisy that coffee adulterers and Belgian endive fans share a species with — different selections, same tough taproot swagger. Roasted root makes a bitter brew; forcing blanched chicons is advanced kitchen cosplay. subtropical and tropical Americas: grows as biennial/perennial rosette with tall bloom spikes in year two; reseeds freely if you let sky-blue flowers set seed.
 
@@ -35,18 +35,22 @@ purpose: |-
   Pollinator: Sky-blue ligulate flowers open at dawn along tall candelabra spikes in July heat -- honeybees work them steadily when many other forbs have browned off in droughty summers.
   Ground Cover: Year-one rosettes shade bare soil between young fruit trees before canopy closes -- plan removal where self-seeded chicory would compete with shallow-rooted vegetables the next spring.
 companions:
-  - Dandelion
-  - Plantain
-  - Clover
+- slug: broadleaf-plantain
+  name: Broadleaf Plantain
+- slug: dandelion
+  name: Dandelion
 cautions:
-  - Constantly wet heavy clay without slope
+- Constantly wet heavy clay without slope
 pests:
-  - Aphids
-  - Banded Winged Whitefly
-  - Greenhouse Whitefly
-  - Lettuce Aphid
-  - Lubber Grasshopper
-  - Root Aphid
-  - Slugs
+- Aphids
+- Banded Winged Whitefly
+- Greenhouse Whitefly
+- Lettuce Aphid
+- Lubber Grasshopper
+- Root Aphid
+- Slugs
 growth_habit: Biennial or short-lived perennial
 data_quality_score: 0.75
+companions_unresolved:
+- name: Clover
+  original: Clover

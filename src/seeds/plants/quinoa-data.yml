@@ -28,9 +28,12 @@ purpose: |-
   Biomass: Tall colorful stalks and leaves chop into carbon-rich compost layers after threshing -- haul residues back to beds instead of burning if you want organic matter gains without smoke complaints.
   Erosion Control: Fibrous roots and closed canopy shield bare soil on Andean-style terraces and cool-season garden fallows -- tolerates light frost during seed fill better than maize on the same calendar slot.
 companions:
-  - Garlic (Allium sativum) — rotation partner that helps disrupt pest pressure in mixed bed cycles.
-  - Lettuce (Lactuca sativa) — cool-season understory that uses shallow space while quinoa develops.
-  - Marigold (Tagetes patula) — flowers attract beneficial insects during seedbed transitions.
+  - slug: garlic
+    name: Garlic
+  - slug: lettuce
+    name: Lettuce
+  - slug: marigold
+    name: Marigold
 cautions:
   - Raw quinoa seeds often contain natural saponins; rinse thoroughly before cooking.
 pests:

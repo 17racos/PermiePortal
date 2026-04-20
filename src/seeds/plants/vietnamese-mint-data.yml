@@ -2,8 +2,8 @@ common_name: Vietnamese Mint
 picture: vietnamese_mint.webp
 scientific_name: Persicaria odorata
 aka:
-- Laksa Leaf
-- Rau Ram
+  - Laksa Leaf
+  - Rau Ram
 family: Polygonaceae
 zone: 9-13
 ideal_temp_min: 70
@@ -12,11 +12,11 @@ min_temp: 40
 max_temp: 105
 perennial: true
 layers:
-- Ground Cover
+  - Ground Cover
 plant_function:
-- Edible
-- Medicinal
-- Ground Cover
+  - Edible
+  - Medicinal
+  - Ground Cover
 description: |-
   Vietnamese Mint (Persicaria odorata) is a useful perennial species in the Polygonaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a ground cover form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.
 
@@ -29,14 +29,21 @@ purpose: |-
   Edible: Persicaria odorata leaves bring cilantro-citrus punch to laksa, salads, and fish wraps -- heat and humidity make it explode where true cilantro bolts.
   Medicinal: Vietnamese sources use the tea for digestion and topical cooling -- high oxalic tang means moderation for kidney-stone-prone eaters.
   Ground Cover: Rooted stems creep along pond margins and wet shade -- constant moisture keeps tips tender; drought turns leaves leathery and sharp.
-companions:
-- Taro - both thrive in moist soils and partial shade.
-- Lemongrass - vertical structure pairs with creeping mint habit.
-- Turmeric - similar humidity preference and seasonal harvest rhythm.
+companions: []
 cautions:
-- None documented
+  - None documented
 pests:
-- Aphids
-- Fungus Gnat
-- Snails
-- Fungus Gnats
+  - Aphids
+  - Fungus Gnat
+  - Snails
+  - Fungus Gnats
+companion_categories:
+  - name: Taro - both thrive in moist soils and partial shade.
+    original: Taro - both thrive in moist soils and partial shade.
+    type: system
+  - name: Lemongrass - vertical structure pairs with creeping mint habit.
+    original: Lemongrass - vertical structure pairs with creeping mint habit.
+    type: system
+  - name: Turmeric - similar humidity preference and seasonal harvest rhythm.
+    original: Turmeric - similar humidity preference and seasonal harvest rhythm.
+    type: system

@@ -33,9 +33,10 @@ purpose: |-
   Pollinator: Tiny white blossoms dusted along trunks feed native stingless bees where present and honeybees elsewhere -- avoid spraying bark during cauliflory bloom if you want fruit set on slow-maturing trees.
   Wildlife Attractor: Split fruit draws tanagers and opossums under the canopy -- harvest daily or accept ground mess and seedling volunteers near drip lines.
 companions:
-- Citrus
-- Banana
-- Guava
+- slug: banana
+  name: Banana
+- slug: guava
+  name: Guava
 cautions:
 - Eucalyptus
 pests:
@@ -46,3 +47,6 @@ pests:
 - Armored Scale
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Citrus
+  original: Citrus

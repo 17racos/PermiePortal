@@ -2,7 +2,7 @@ common_name: Wild Passionfruit
 picture: wild_passionfruit.webp
 scientific_name: Passiflora foetida
 aka:
-- Stinking passionflower
+  - Stinking passionflower
 family: Passifloraceae
 zone: 9-11
 ideal_temp_min: 65
@@ -11,13 +11,13 @@ min_temp: 22
 max_temp: 105
 perennial: true
 layers:
-- Vine
-- Herbaceous
+  - Vine
+  - Herbaceous
 plant_function:
-- Edible
-- Wildlife Attractor
-- Ground Cover
-- Medicinal
+  - Edible
+  - Wildlife Attractor
+  - Ground Cover
+  - Medicinal
 description: |-
   Wild passionfruit is the frilly invasive-adjacent Passiflora of roadsides and dunes—sticky hairs, bracts that look like origami gone feral, and marble-sized fruit that range from pleasantly tart to “why did I trust a meme.” Check local status: it is a problem plant in some Pacific islands and managed areas.
 
@@ -36,15 +36,21 @@ purpose: |-
   Ground Cover: Sticky hairs and trilobed leaves laminate chain-link -- mow escapes if dunes are protected.
   Medicinal: Passiflora alkaloids show up in folk sleep teas -- species-specific chemistry; do not swap with Passiflora incarnata doses blindly.
 companions:
-- Maypop
-- Native grasses
-- Coastal scrub species
+  - slug: maypop
+    name: Maypop
 cautions:
-- Releasing near preserves where listed
-- Letting it smother saplings you actually like
+  - Releasing near preserves where listed
+  - Letting it smother saplings you actually like
 pests:
-- aphids
-- whiteflies
-- caterpillars
+  - aphids
+  - whiteflies
+  - caterpillars
 growth_habit: Sprawling perennial vine with sticky hairs and bracts
 data_quality_score: 0.7
+companion_categories:
+  - name: Native grasses
+    original: Native grasses
+    type: system
+  - name: Coastal scrub species
+    original: Coastal scrub species
+    type: system

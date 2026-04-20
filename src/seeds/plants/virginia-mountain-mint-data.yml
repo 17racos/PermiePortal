@@ -31,19 +31,18 @@ purpose: |-
   Pest Management: High monoterpene foliage can mask host cues for some chewing insects -- weave into mixed insectary bands, not monoculture blocks.
   Ornamental: Clumping habit stays civilized compared with true mints -- white disks read like buttons in both rain gardens and formal borders.
 companions:
-- New England Aster — late purple-blue daisies after mountain mint peaks; shared sun
-  and average moisture
-- Goldenrod — complementary late gold; both support specialist bees without aggressive
-  root wars
-- Joe-Pye Weed — taller pink backdrop behind mid-height mint masses in moist sunny
-  beds
+- slug: joe-pye-weed
+  name: Joe Pye Weed
 cautions:
-- True mint confusion — verify square stems and floral structure; do not swap care
-  with Mentha species blindly
-- Skin sensitivity — aromatic oils plus sun can irritate some handlers; wash hands
-  before UV tanning experiments
+- True mint confusion — verify square stems and floral structure; do not swap care with Mentha species blindly
+- Skin sensitivity — aromatic oils plus sun can irritate some handlers; wash hands before UV tanning experiments
 pests:
 - Aphids
 - Spider Mites
 growth_habit: Clump perennial; aromatic leaves; flat white flower heads; moist meadows
 data_quality_score: 0.85
+companions_unresolved:
+- name: New England Aster
+  original: New England Aster — late purple-blue daisies after mountain mint peaks; shared sun and average moisture
+- name: Goldenrod
+  original: Goldenrod — complementary late gold; both support specialist bees without aggressive root wars

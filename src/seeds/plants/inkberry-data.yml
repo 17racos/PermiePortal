@@ -34,17 +34,17 @@ purpose: |-
   Ornamental: Bottlebrush habit and dark leaves read native-modern in rain gardens -- pair with red-osier dogwood for winter color contrast on acidic soils.
   Erosion Control: Fibrous roots bind wet sandy banks and pond margins where intermittent inundation would rot dry-land shrubs -- mulch surface roots so mower decks stop scalping collars.
 companions:
-- Red Osier Dogwood — red winter stems contrast ink-green holly in wet shrub borders
-- Highbush Blueberry — shares acidic mulch and supports early pollinators before holly
-  bloom peaks
-- Sweetfern — aromatic nitrogen-fixer ground layer on sandy acidic sites beneath open
-  holly skirts
+- slug: highbush-blueberry
+  name: Highbush Blueberry
 cautions:
-- Grayanotoxins in leaves and berries—do not market as livestock forage or child-safe
-  snacks
+- Grayanotoxins in leaves and berries—do not market as livestock forage or child-safe snacks
 pests:
 - Scale Insects
 - Spider Mites
-growth_habit: Evergreen holly shrub; spineless leaves; black berries on female plants
-  with pollinizer
+growth_habit: Evergreen holly shrub; spineless leaves; black berries on female plants with pollinizer
 data_quality_score: 0.84
+companions_unresolved:
+- name: Red Osier Dogwood
+  original: Red Osier Dogwood — red winter stems contrast ink-green holly in wet shrub borders
+- name: Sweetfern
+  original: Sweetfern — aromatic nitrogen-fixer ground layer on sandy acidic sites beneath open holly skirts

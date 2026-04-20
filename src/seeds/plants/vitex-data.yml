@@ -34,9 +34,12 @@ purpose: |-
   Ornamental: Palmately compound gray-green leaves and upright habit read Mediterranean-clean on patios -- winter dieback in cold zones is normal; wait to prune until buds swell.
   Border Plant: Shear to multi-stem hedges or train small trees -- tolerates droughty, well-drained edges where heavier shrubs rot.
 companions:
-  - Rosemary — drought-tolerant Mediterranean neighbor that shares sun and sharp drainage ethics.
-  - Lavender — overlapping cultural needs when soil is not soggy; both hate wet feet.
-  - Comfrey — chop-and-drop mulch at the drip line without smothering the crown.
+  - slug: rosemary
+    name: Rosemary
+  - slug: lavender
+    name: Lavender
+  - slug: comfrey
+    name: Comfrey
 cautions:
   - None documented
 pests:

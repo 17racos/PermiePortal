@@ -38,10 +38,12 @@ purpose: |-
   Wildlife Attractor: Catbirds, thrushes, and chipmunks treat ripe clusters as open buffets -- net rows before color break or plant extra canes specifically for feathered tax.
   Ornamental: Red autumn foliage and waxy spring flowers read clean in mixed shrub borders -- use as a structural edible where sulfur-amended beds already exist for other acid lovers.
 companions:
-- Strawberry
-- Pine
-- Darrow Blueberry
-- Elliott Blueberry
+- slug: strawberry
+  name: Strawberry
+- slug: darrow-blueberry
+  name: Darrow Blueberry
+- slug: elliott-blueberry
+  name: Elliott Blueberry
 cautions:
 - Heavy clay bowls without berms or raised beds
 pests:
@@ -58,3 +60,6 @@ pests:
 - Azalea Caterpillar
 growth_habit: Shrub
 data_quality_score: 0.8
+companions_unresolved:
+- name: Pine
+  original: Pine

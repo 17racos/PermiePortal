@@ -2,8 +2,8 @@ common_name: Florida Paintbrush
 picture: florida_paintbrush.webp
 scientific_name: Carphephorus corymbosus
 aka:
-- Coastalplain chaffhead
-- Coastal plain chaffhead
+  - Coastalplain chaffhead
+  - Coastal plain chaffhead
 family: Asteraceae
 zone: 8-11
 ideal_temp_min: 65
@@ -12,12 +12,12 @@ min_temp: 15
 max_temp: 105
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Pollinator
-- Wildlife Attractor
-- Ornamental
-- Erosion Control
+  - Pollinator
+  - Wildlife Attractor
+  - Ornamental
+  - Erosion Control
 description: |-
   Florida paintbrush (Carphephorus corymbosus) is a robust herbaceous perennial of sandy pine flatwoods, scrubby edges, and ruderal openings in the southeastern United States, crowned in late warm season by flat-topped clusters of bright pink to lavender disc florets that pull butterflies from across the county. Stems often reach 2–4 feet (0.6–1.2 m) when blooming, with alternate leaves and a slightly hairy texture that reads honest, not manicured. It is a flagship forb for native meadow mixes in humid subtropical climates where irrigation is optional and drainage is not negotiable.
 
@@ -32,25 +32,22 @@ purpose: |-
   Ornamental: Two-to-four-foot vertical stems carry saturated magenta heads above wiregrass matrix without irrigation schedules non-native asters demand on the same sandy burn-return calendar you already manage with fire crews.
   Erosion Control: Deep taproots reopen sandy fire lanes where repeated mower passes compact soils after mechanical hazardous-fuel reduction strips wiregrass tussocks you plan to re-seed with local ecotype seed bags.
 companions:
-- Little Bluestem — warm-season matrix grass sharing sun and dry feet in savanna-style
-  beds
-- Dense Blazingstar — complementary late-season forb height without overlapping flower
-  form exactly
-- Bee Balm — moisture-needy edge species placed where irrigation concentrates, not
-  on the dry crest
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: dense-blazingstar
+    name: Dense Blazingstar
+  - slug: bee-balm
+    name: Bee Balm
 cautions:
-- Wet clay — chronic root suffocation; choose wet-prairie species instead of sandhill
-  cosplay
-- Overfertilization — lush floppy growth with fewer flowers and more aphid social
-  clubs
+  - Wet clay — chronic root suffocation; choose wet-prairie species instead of sandhill cosplay
+  - Overfertilization — lush floppy growth with fewer flowers and more aphid social clubs
 pests:
-- Aphids
-- Banded Winged Whitefly
-- Greenhouse Whitefly
-- Japanese Beetles
-- Lettuce Aphid
-- Lubber Grasshopper
-- Root Aphid
-growth_habit: Upright perennial forb; terminal corymb of pink-purple disc flowers;
-  sandhill and flatwoods
+  - Aphids
+  - Banded Winged Whitefly
+  - Greenhouse Whitefly
+  - Japanese Beetles
+  - Lettuce Aphid
+  - Lubber Grasshopper
+  - Root Aphid
+growth_habit: Upright perennial forb; terminal corymb of pink-purple disc flowers; sandhill and flatwoods
 data_quality_score: 0.8

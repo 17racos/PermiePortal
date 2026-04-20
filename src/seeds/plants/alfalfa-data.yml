@@ -32,13 +32,11 @@ purpose: |-
   Edible: Medicago sativa sprouts from certified seed land on sandwiches with crunch -- field hay is forage, not salad; keep sprouting seed labeled food-grade to avoid crop-chemistry carryover.
   Nitrogen Fixer: Deep perennial taproot hosts Sinorhizobium meliloti nodules that keep fixing across multiple hay cuts -- rotate tomatoes or corn into the old stand the year after final kill to catch the biggest mineralized N flush.
   Animal Fodder: Early-bloom hay tests near twenty percent crude protein and fuels dairy without grain if you cut before lignin spikes -- autotoxicity means you cannot reliably reseed alfalfa into its own stubble without a break crop.
-  Soil Improvement: Fifteen-meter (49 ft) rooting depth opens vertical channels that later shallow-rooted vegetables exploit after plowless transition -- years of taproot die-off leaves organic carbon down profile where tillage rarely reached.
   Erosion Control: Sod-forming crowns knit terrace fills on highway cuts where annual covers wash out -- living crowns slow overland flow better than straw blankets once the stand closes in year two.
   Pollinator: Purple raceme flowers stack nectar for alkali bees and leafcutter bees through June heat -- leave border strips uncut if you want pollination services on adjacent melons while you still harvest central hay rounds.
 companions:
-- Corn
-- Oats
-- Barley
+- slug: barley
+  name: Barley
 cautions:
 - Onion
 - Garlic
@@ -74,3 +72,8 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Oats
+  original: Oats

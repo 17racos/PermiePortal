@@ -2,8 +2,8 @@ common_name: Yellow Dock
 picture: yellow_dock.webp
 scientific_name: Rumex crispus
 aka:
-- Curly Dock
-- Garden Patience
+  - Curly Dock
+  - Garden Patience
 family: Polygonaceae
 zone: 4-9
 ideal_temp_min: 45
@@ -12,12 +12,12 @@ min_temp: -30
 max_temp: 100
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Edible
-- Medicinal
-- Dynamic Accumulator
-- Wildlife Attractor
+  - Edible
+  - Medicinal
+  - Dynamic Accumulator
+  - Wildlife Attractor
 description: |-
   Yellow dock is a robust perennial weed with wavy-edged leaves, tall rust-colored seed spikes, and a taproot that laughs at your hoe. Young leaves are edible when cooked (oxalates—do not mainline raw salads). Roots are the classic bitter alterative of herbalism; seeds feed birds and your socks.
 
@@ -34,15 +34,19 @@ purpose: |-
   Dynamic Accumulator: Carrot-yellow taproot mines iron and potassium from subsoil -- chop leaves before seed rain if you do not want dock acres.
   Wildlife Attractor: Rusty seed panicles feed finches -- burrs cling to socks and dog fur, distributing plants to new compaction zones.
 companions:
-- Comfrey
-- Dandelion
-- Plantain
-- Yarrow
+  - slug: broadleaf-plantain
+    name: Broadleaf Plantain
+  - slug: comfrey
+    name: Comfrey
+  - slug: dandelion
+    name: Dandelion
+  - slug: yarrow
+    name: Yarrow
 cautions:
-- Low-fertility sand without any organic matter
+  - Low-fertility sand without any organic matter
 pests:
-- Aphids
-- Flea Beetles
-- Japanese Beetles
-- Rhubarb Curculio
-- slugs
+  - Aphids
+  - Flea Beetles
+  - Japanese Beetles
+  - Rhubarb Curculio
+  - slugs

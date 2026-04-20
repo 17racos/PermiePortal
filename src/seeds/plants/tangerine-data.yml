@@ -29,12 +29,16 @@ purpose: |-
   Pollinator: Sweet white citrus bloom oils sync with early bee flights through humid subtropical orchards before summer heat shuts nectar quality.
   Wildlife Attractor: Sparrows and peel-focused raccoons patrol dropped fruit under backyard canopies while parasitic wasps hunt leafminer larvae in the same foliage.
 companions:
-- Marigold
-- Petunia
-- Dill
-- Fennel
-- Lemon Balm
-- Parsley
+- slug: marigold
+  name: Marigold
+- slug: dill
+  name: Dill
+- slug: fennel
+  name: Fennel
+- slug: lemon-balm
+  name: Lemon Balm
+- slug: parsley
+  name: Parsley
 cautions:
 - None specified
 pests:
@@ -58,3 +62,6 @@ pests:
 - Swallowtail Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Petunia
+  original: Petunia

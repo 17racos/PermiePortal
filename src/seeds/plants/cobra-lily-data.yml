@@ -30,9 +30,10 @@ purpose: |-
   Wildlife Attractor: Pitcher fluid and decaying prey support midge larvae, mites, and a tight web of arthropods unique to Darlingtonia seeps.
   Ground Cover: Rosettes spread slowly in cold, oxygenated muck beside streams, filling gaps between sedges where turf would drown.
 companions:
-- Sphagnum Moss
-- Sundew
-- Butterwort
+- slug: sundew
+  name: Sundew
+- slug: butterwort
+  name: Butterwort
 cautions:
 - Plants requiring alkaline soils
 pests:
@@ -40,3 +41,6 @@ pests:
 - Spider Mites
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Sphagnum Moss
+  original: Sphagnum Moss

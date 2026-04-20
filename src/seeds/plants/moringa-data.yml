@@ -2,9 +2,9 @@ common_name: Moringa
 picture: moringa.webp
 scientific_name: Moringa oleifera
 aka:
-  - Drumstick Tree
-  - Horseradish Tree
-  - Ben Oil Tree
+- Drumstick Tree
+- Horseradish Tree
+- Ben Oil Tree
 family: Moringaceae
 zone: 9-11
 ideal_temp_min: 70
@@ -13,18 +13,18 @@ min_temp: 32
 max_temp: 120
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Edible
-  - Medicinal
-  - Mulcher
-  - Erosion Control
-  - Animal Fodder
-  - Windbreaker
-  - Water Purification
-  - Plant Growth Stimulant
-  - Pollinator
-  - Shade Provider
+- Edible
+- Medicinal
+- Mulcher
+- Erosion Control
+- Animal Fodder
+- Windbreaker
+- Water Purification
+- Plant Growth Stimulant
+- Pollinator
+- Shade Provider
 description: |-
   Moringa (Moringa oleifera) is a fast-growing, drought-resistant tree that can reach up to 12 meters (40 feet) in height. It has feathery, fern-like leaves that are highly nutritious and used as a food source. The tree produces long, drumstick-shaped pods that contain seeds, which can be eaten or used for oil extraction. Moringa thrives in warm, tropical and subtropical climates and is known for its resilience and ability to grow in poor soil conditions.
 
@@ -47,26 +47,31 @@ purpose: |-
   Pollinator: Fragrant white to cream flowers produced in large panicles feed bees and beneficial insects -- flowering is prolific and extended in warm climates, providing consistent nectar access when many other canopy trees are not in bloom.
   Shade Provider: Dense canopy at 15-20ft creates meaningful understory microclimate -- useful for establishing shade-tolerant crops like ginger, turmeric, and taro beneath. Strategic placement filters afternoon sun in high-heat climates, reducing moisture loss in the beds below.
 companions:
-  - Banana
-  - Papaya
-  - Legume Tree
-  - Sweet Potato
+- slug: banana
+  name: Banana
+- slug: papaya
+  name: Papaya
+- slug: sweet-potato
+  name: Sweet Potato
 cautions:
-  - None documented
+- None documented
 pests:
-  - Aphids
-  - Spider Mites
-  - Whiteflies
-  - Fungus Gnat Larvae
-  - Leatherleaf Slug
-  - Overwatering Root Rot
-  - Nitrogen Deficiency
-  - Caterpillars
-  - Cuban Tree Frog
-  - Green Iguana
-  - Jumping Worms
-  - Armadillo
-  - Deer
+- Aphids
+- Spider Mites
+- Whiteflies
+- Fungus Gnat Larvae
+- Leatherleaf Slug
+- Overwatering Root Rot
+- Nitrogen Deficiency
+- Caterpillars
+- Cuban Tree Frog
+- Green Iguana
+- Jumping Worms
+- Armadillo
+- Deer
 growth_habit: Tree
 data_quality_score: 0.8
 field_observations: No field observations yet
+companions_unresolved:
+- name: Legume Tree
+  original: Legume Tree

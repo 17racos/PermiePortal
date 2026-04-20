@@ -2,8 +2,8 @@ common_name: Skullcap
 picture: skullcap.webp
 scientific_name: Scutellaria lateriflora
 aka:
-  - American skullcap
-  - Blue skullcap
+- American skullcap
+- Blue skullcap
 family: Lamiaceae
 zone: 4-8
 ideal_temp_min: 40
@@ -12,13 +12,13 @@ min_temp: -25
 max_temp: 95
 perennial: true
 layers:
-  - Herbaceous
-  - Ground Cover
+- Herbaceous
+- Ground Cover
 plant_function:
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
-  - Ground Cover
+- Medicinal
+- Pollinator
+- Wildlife Attractor
+- Ground Cover
 description: |-
   Skullcap is the mint-family nerve herb people whisper about beside chamomile. Flowers look like tiny helmets — hence the name, not a metal band. subtropical and tropical Americas sits at the warm edge of range; give it morning sun, afternoon shade, and moist rich soil like a spoiled trout stream edge. Florida also hosts native Scutellaria species; ID matters if you wild-forage.
 
@@ -33,13 +33,24 @@ purpose: |-
   Wildlife Attractor: Late-season seeds shake from rattling calyxes into leaf litter where sparrows scratch -- dense knee-high mats also give cover to small frogs at the wet edge of paths if you stop mowing riparian strips.
   Ground Cover: Rhizomatous clumps spread under spicebush and elderberry without climbing trunks -- keeps mud off dog traffic zones while still letting spring ephemerals punch through before canopy closes.
 companions:
-  - Violet
-  - Ferns
-  - Spicebush
+- slug: spicebush
+  name: Spicebush
+- slug: cinnamon-fern
+  name: Cinnamon Fern
 cautions:
-  - Hot dry berms
-  - Confusing with unrelated plants when harvesting wild
+- Hot dry berms
+- Confusing with unrelated plants when harvesting wild
 pests:
-  - Aphids
-  - Spider mites
-  - Whiteflies
+- Aphids
+- Spider mites
+- Whiteflies
+companions_unresolved:
+- name: Violet
+  original: Violet
+- name: Fern
+  original: Ferns
+  note: normalization_target_not_in_index
+companions_normalized:
+- original: Ferns
+  resolved_slug: cinnamon-fern
+  name: Cinnamon Fern

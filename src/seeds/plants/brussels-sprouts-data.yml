@@ -2,7 +2,7 @@ common_name: Brussels Sprouts
 picture: brussels_sprouts.webp
 scientific_name: Brassica oleracea var. gemmifera
 aka:
-- Sprouts
+  - Sprouts
 family: Brassicaceae
 zone: 3-10
 ideal_temp_min: 45
@@ -11,11 +11,11 @@ min_temp: 20
 max_temp: 85
 perennial: false
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Edible
-- Mulcher
-- Pest Management
+  - Edible
+  - Mulcher
+  - Pest Management
 description: |-
   Brussels Sprouts (Brassica oleracea var. gemmifera) is a useful annual species in the Brassicaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a herbaceous form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.
 
@@ -28,13 +28,20 @@ purpose: |-
   Edible: Brassica oleracea var. gemmifera axillary buds swell into tight marble heads after stems vernalize, giving long-season pickings from the bottom up if you top the plant on schedule.
   Mulcher: Stripped leaves from harvest days rot fast in windrows, returning potassium to the bed when composted with wood chips between rotations.
   Pest Management: Sticky leaf wax and tall stem placement let you scout diamondback larvae at eye level, and inter-row mustard traps can pull moths if your rotation plan already includes sacrificial brassicas.
-companions:
-- Onion - strong aroma helps disrupt brassica pest host finding.
-- Chamomile - supports beneficial hoverflies around brassica blocks.
-- Beet - occupies a different root niche and increases bed productivity.
+companions: []
 cautions:
-- Strawberry - can compete heavily for nutrients in intensive beds.
+  - Strawberry - can compete heavily for nutrients in intensive beds.
 pests:
-- Cabbage Aphid
-- Imported Cabbageworm
-- Cabbage Root Maggots
+  - Cabbage Aphid
+  - Imported Cabbageworm
+  - Cabbage Root Maggots
+companion_categories:
+  - name: Onion - strong aroma helps disrupt brassica pest host finding.
+    original: Onion - strong aroma helps disrupt brassica pest host finding.
+    type: system
+  - name: Chamomile - supports beneficial hoverflies around brassica blocks.
+    original: Chamomile - supports beneficial hoverflies around brassica blocks.
+    type: system
+  - name: Beet - occupies a different root niche and increases bed productivity.
+    original: Beet - occupies a different root niche and increases bed productivity.
+    type: system

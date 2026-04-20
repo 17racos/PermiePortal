@@ -28,9 +28,12 @@ purpose: |-
   Medicinal: Mountain savory tea shows up in Mediterranean folk materia medica for digestive comfort -- verify dose against personal health plans before leaning on daily quarts.
   Pollinator: Tiny pink-white lipped flowers hug stems in summer and pull small bees along herb bed fronts where shallow nectar fits short tongues.
 companions:
-  - Rosemary (Salvia rosmarinus) — both prefer sun and drainage and share pollinator-friendly aromatic guild roles.
-  - Thyme (Thymus vulgaris) — low, dense ground cover stabilizes soil and extends herb harvest continuity.
-  - Marigold (Tagetes patula) — adds nectar and visible pest monitoring in the same warm-season bed edges.
+  - slug: rosemary
+    name: Rosemary
+  - slug: thyme
+    name: Thyme
+  - slug: marigold
+    name: Marigold
 cautions:
   - Avoid heavy, waterlogged soil; crown rot is the main long-term failure mode.
 pests:

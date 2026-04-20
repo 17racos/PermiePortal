@@ -30,9 +30,12 @@ purpose: |-
   Wildlife Attractor: Heavy spring bloom perfumes the yard and loads nectar for honeybees and native bees during a cool-season flowering window.
   Shade Provider: Dense glossy canopy cuts ultraviolet and desiccating wind on understory herbs, perennial peanut, or comfrey mulch bands under the drip line.
 companions:
-  - Rosemary (Salvia rosmarinus) — aromatic and drought-tolerant understory that helps keep the orchard floor from becoming a pest-nursery.
-  - Thyme (Thymus vulgaris) — low aromatic ground layer improves pollinator presence and covers soil with leaf litter.
-  - Marigold (Tagetes patula) — bright blooms attract beneficial insects and help you monitor sap-feeder flare-ups.
+  - slug: rosemary
+    name: Rosemary
+  - slug: thyme
+    name: Thyme
+  - slug: marigold
+    name: Marigold
 cautions:
   - Protect from frost; cover young trees during cold snaps.
 pests:

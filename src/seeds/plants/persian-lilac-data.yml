@@ -2,8 +2,8 @@ common_name: Persian Lilac
 picture: persian_lilac.webp
 scientific_name: Syringa × persica
 aka:
-- Chinaberry Lilac
-- Persian Lilac Hybrid
+  - Chinaberry Lilac
+  - Persian Lilac Hybrid
 family: Oleaceae
 zone: 3-8
 ideal_temp_min: 35
@@ -12,12 +12,12 @@ min_temp: -35
 max_temp: 100
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Ornamental
-- Wildlife Attractor
-- Border Plant
-- Windbreaker
+  - Ornamental
+  - Wildlife Attractor
+  - Border Plant
+  - Windbreaker
 description: |-
   Persian lilac (Syringa × persica) is a compact, fine-branched lilac hybrid group valued for lavender flower clusters in late spring and a rounded habit smaller than many common lilacs. Plants typically reach 4–8 feet (1.2–2.4 m), suckering modestly into airy thickets that perfume hedgerows without shading entire yards. It suits temperate permaculture borders where early pollinator support and cut flowers matter more than edible yield.
 
@@ -32,18 +32,18 @@ purpose: |-
   Border Plant: 1–2.5 m rounded suckering clumps edge paths, patios, and parking strips without shading vegetable rows -- prune immediately after bloom because next year’s buds already hide on old wood.
   Windbreaker: Tight rows along picket fences blunt spring gusts across lettuce beds without casting deep permanent shade like evergreen screens -- still thin centers if powdery mildew loves your humidity.
 companions:
-- Serviceberry — earlier bloom sequence extending pollinator service before lilac
-  opens
-- Wild Columbine — spring forb using partial shade at the lilac skirt before canopy
-  fills
-- Chives — low allium edge deterring some browsing while tolerating sun and dry edges
+  - slug: serviceberry
+    name: Serviceberry
+  - slug: wild-columbine
+    name: Wild Columbine
+  - slug: chives
+    name: Chives
 cautions:
-- Powdery Mildew — improve airflow; avoid overhead sprinklers that extend leaf wetness
-- Pruning after bloom only—autumn haircuts delete next spring’s flowers silently
+  - Powdery Mildew — improve airflow; avoid overhead sprinklers that extend leaf wetness
+  - Pruning after bloom only—autumn haircuts delete next spring’s flowers silently
 pests:
-- Aphids
-- Japanese Beetles
-- Powdery Mildew
-growth_habit: Compact deciduous shrub; fine branches; lavender spring panicles; temperate
-  hedge plant
+  - Aphids
+  - Japanese Beetles
+  - Powdery Mildew
+growth_habit: Compact deciduous shrub; fine branches; lavender spring panicles; temperate hedge plant
 data_quality_score: 0.78

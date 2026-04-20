@@ -2,8 +2,8 @@ common_name: Frosted Hawthorn
 picture: frosted_hawthorn.webp
 scientific_name: Crataegus pruinosa
 aka:
-- Waxy-fruited hawthorn
-- Frosted thorn
+  - Waxy-fruited hawthorn
+  - Frosted thorn
 family: Rosaceae
 zone: 4-8
 ideal_temp_min: 45
@@ -12,13 +12,13 @@ min_temp: -30
 max_temp: 95
 perennial: true
 layers:
-- Shrub
-- Tree
+  - Shrub
+  - Tree
 plant_function:
-- Edible
-- Wildlife Attractor
-- Erosion Control
-- Border Plant
+  - Edible
+  - Wildlife Attractor
+  - Erosion Control
+  - Border Plant
 description: |-
   Frosted hawthorn (Crataegus pruinosa) is a deciduous rosaceous tree or large shrub of eastern North American wood margins, thickets, and old fields, named for the waxy bloom that makes ripe haws look frosted. Height often ranges 15–25 feet (4.5–7.5 m) with a thorny framework and white spring blossoms. It is a wildlife hedgerow workhorse and a modest fruit crop for jelly makers who enjoy tart chemistry.
 
@@ -33,49 +33,50 @@ purpose: |-
   Erosion Control: Deep rosaceous roots and thorny stems armor old-field edges against deer trail shortcuts that would dissect slopes into headcuts on the same clay-loam berms you mulched after removing multiflora rose first.
   Border Plant: Honest thorns mark property corners clearer than polypropylene deer netting that UV-degrades in three seasons on windy exposures where frosted hawthorn already survived last winter's polar vortex shrug without wrapping.
 companions:
-- American Plum — earlier bloom and fruit in the same hedgerow sequence
-- Serviceberry — staggered fruiting for wildlife calories and human snacking
-- Elderberry — fast-growing shrub layer with complementary flowers at the row edge
+  - slug: american-plum
+    name: American Plum
+  - slug: serviceberry
+    name: Serviceberry
+  - slug: elderberry
+    name: Elderberry
 cautions:
-- Fire Blight — watch for shepherd’s crook dieback in humid springs; prune with clean
-  tools
-- Thorns — puncture hazard during pruning; wear eye protection and slow down
+  - Fire Blight — watch for shepherd’s crook dieback in humid springs; prune with clean tools
+  - Thorns — puncture hazard during pruning; wear eye protection and slow down
 pests:
-- Apple Maggot
-- Apple Scab
-- Bagworm
-- Blackberry Psyllid
-- Cherry Fruit Fly
-- Codling Moth
-- Cyclamen Mite
-- Fall Webworm
-- Lesser Peachtree Borer
-- Oriental Fruit Fly
-- Oriental Fruit Moth
-- Peach Twig Borer
-- Peachtree Borer
-- Pear Psylla
-- Plum Curculio
-- Raspberry Beetle
-- Raspberry Cane Borer
-- Rose Slug
-- Sparganothis Fruitworm
-- Spittlebugs
-- Stink Bug
-- Strawberry Root Weevil
-- Twig Girdlers
-- Vine Weevil
-- Brown Rot
-- Fire Blight
-- Gall Mite
-- Leaf Blight
-- Leaf Spot
-- Rust Mite
-- Spotted Lanternfly
-- Brown Marmorated Stink Bug
-- Eastern Tent Caterpillar
-- Harlequin Ladybird
-- Tent Caterpillar
-growth_habit: Thorny deciduous small tree; white flowers; waxy red haws; eastern thickets
-  and edges
+  - Apple Maggot
+  - Apple Scab
+  - Bagworm
+  - Blackberry Psyllid
+  - Cherry Fruit Fly
+  - Codling Moth
+  - Cyclamen Mite
+  - Fall Webworm
+  - Lesser Peachtree Borer
+  - Oriental Fruit Fly
+  - Oriental Fruit Moth
+  - Peach Twig Borer
+  - Peachtree Borer
+  - Pear Psylla
+  - Plum Curculio
+  - Raspberry Beetle
+  - Raspberry Cane Borer
+  - Rose Slug
+  - Sparganothis Fruitworm
+  - Spittlebugs
+  - Stink Bug
+  - Strawberry Root Weevil
+  - Twig Girdlers
+  - Vine Weevil
+  - Brown Rot
+  - Fire Blight
+  - Gall Mite
+  - Leaf Blight
+  - Leaf Spot
+  - Rust Mite
+  - Spotted Lanternfly
+  - Brown Marmorated Stink Bug
+  - Eastern Tent Caterpillar
+  - Harlequin Ladybird
+  - Tent Caterpillar
+growth_habit: Thorny deciduous small tree; white flowers; waxy red haws; eastern thickets and edges
 data_quality_score: 0.76

@@ -2,8 +2,8 @@ common_name: Beautyberry
 picture: beautyberry.webp
 scientific_name: Callicarpa americana
 aka:
-  - American Beautyberry
-  - French Mulberry
+- American Beautyberry
+- French Mulberry
 family: Lamiaceae
 zone: 6-10
 ideal_temp_min: 60
@@ -12,12 +12,12 @@ min_temp: 10
 max_temp: 95
 perennial: true
 layers:
-  - Shrub
+- Shrub
 plant_function:
-  - Edible
-  - Medicinal
-  - Wildlife Attractor
-  - Border Plant
+- Edible
+- Medicinal
+- Wildlife Attractor
+- Border Plant
 description: |-
   Beautyberry (*Callicarpa americana*) is a deciduous shrub native to the southeastern United States. It typically grows 3 to 6 feet (0.9 to 1.8 meters) tall and wide, featuring an open, loose appearance with arching branches. The plant bears medium green, opposite leaves with a coarse texture. In summer, small, pink to lavender flowers emerge in clusters (cymes) at the leaf axils, giving way to striking clusters of glossy, bright purple berries in the fall. These vibrant fruits often persist into winter, providing visual interest and food for wildlife.
 
@@ -33,17 +33,21 @@ purpose: |-
   Border Plant: Loose arching habit to six feet marks woodland edges along paths without forming a solid wall; hard cutback in late winter forces long straight fruiting wood.
   Pollinator: Small axillary pink cymes feed native bees in July heat when large single flowers have passed peak.
   Pest Repellent: Leaf chemistry is strong enough that some gardeners tuck prunings into chicken coops as temporary litter to confuse biting flies -- replace when dry and dusty.
-companions:
-  - Oak
-  - Pine
-  - Magnolia
+companions: []
 cautions:
-  - None
+- None
 pests:
-  - Scale Insects
-  - Aphids
-  - Whiteflies
-  - Lace Bugs
+- Scale Insects
+- Aphids
+- Whiteflies
+- Lace Bugs
 growth_habit: Tree
 data_quality_score: 0.8
 field_observations: No field observations yet
+companions_unresolved:
+- name: Oak
+  original: Oak
+- name: Pine
+  original: Pine
+- name: Magnolia
+  original: Magnolia

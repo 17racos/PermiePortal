@@ -2,8 +2,8 @@ common_name: Longawn Muhly
 picture: longawn_muhly.webp
 scientific_name: Muhlenbergia rigida
 aka:
-- Purple muhly
-- Deer grass (regional)
+  - Purple muhly
+  - Deer grass (regional)
 family: Poaceae
 zone: 7-11
 ideal_temp_min: 65
@@ -12,12 +12,12 @@ min_temp: 0
 max_temp: 110
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Ornamental
-- Erosion Control
-- Wildlife Attractor
-- Border Plant
+  - Ornamental
+  - Erosion Control
+  - Wildlife Attractor
+  - Border Plant
 description: |-
   Longawn muhly (Muhlenbergia rigida) is a warm-season bunchgrass from the southwestern United States into Mexico, forming dense metallic blue-green clumps with narrow leaves and narrow panicles bearing long awns that shimmer in light. Height is often 2–3 feet (0.6–1 m) with inflorescences taller. It suits xeric ornamental beds, green roofs with depth, and southwestern meadow mixes where drainage is honest and irrigation is optional.
 
@@ -32,25 +32,27 @@ purpose: |-
   Wildlife Attractor: Seeds feed sparrows and small rodents while basal clumps shelter lizards -- leave standing winter stems for structure before cutting before the spring flush.
   Border Plant: Tight clumps edge paths and parking strips without mowing -- singletons look lost; drifts read intentional in desert-modern designs.
 companions:
-- Little Bluestem — complementary warm-season grass with overlapping cultural needs
-- Yarrow — shallow insectary forb at the bed edge with drought tolerance
-- Lavender — Mediterranean shrub neighbor sharing sun and dry feet at perimeter
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: yarrow
+    name: Yarrow
+  - slug: lavender
+    name: Lavender
 cautions:
-- Overwatering and rich compost — lanky growth with reduced metallic color
-- Heavy wet clay — not a swamp specialist despite grass stereotypes
+  - Overwatering and rich compost — lanky growth with reduced metallic color
+  - Heavy wet clay — not a swamp specialist despite grass stereotypes
 pests:
-- Aphids
-- Armyworms
-- Bamboo Mite
-- Corn Earworm
-- Fall Armyworm
-- Lubber Grasshopper
-- Rice Blast Fungus
-- Rice Water Weevil
-- Spider Mites
-- Spittlebugs
-- Wireworm
-- Leaf Blight
-growth_habit: Warm-season bunchgrass; metallic leaves; long-awned panicles; southwestern
-  dry grasslands
+  - Aphids
+  - Armyworms
+  - Bamboo Mite
+  - Corn Earworm
+  - Fall Armyworm
+  - Lubber Grasshopper
+  - Rice Blast Fungus
+  - Rice Water Weevil
+  - Spider Mites
+  - Spittlebugs
+  - Wireworm
+  - Leaf Blight
+growth_habit: Warm-season bunchgrass; metallic leaves; long-awned panicles; southwestern dry grasslands
 data_quality_score: 0.79

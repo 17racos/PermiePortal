@@ -28,9 +28,12 @@ purpose: |-
   Medicinal: Seeds carry fixed oil and cucurbitin lore for prostate support -- research quality varies; eat seeds roasted before megadose supplement cosplay.
   Pollinator: Large yellow squash flowers open at dawn for squash bees -- hand-pollinate if bee pressure is low; separate male rolls for tempura.
 companions:
-  - Basil (Ocimum basilicum) — shares warm-season timing and adds aromatic support in kitchen beds.
-  - Marigold (Tagetes patula) — nectar and visible monitoring for pest pressure in squash patches.
-  - Garlic (Allium sativum) — scent helps diversify crop profile and supports rotation discipline.
+  - slug: basil
+    name: Basil
+  - slug: marigold
+    name: Marigold
+  - slug: garlic
+    name: Garlic
 cautions:
   - Don’t let fruits sit too long; oversized zucchini becomes fibrous and reduces future flowering.
 pests:

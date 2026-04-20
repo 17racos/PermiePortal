@@ -2,7 +2,7 @@ common_name: Pennyroyal
 picture: pennyroyal.webp
 scientific_name: Mentha pulegium
 aka:
-  - Pudding grass
+- Pudding grass
 family: Lamiaceae
 zone: 6-9
 ideal_temp_min: 40
@@ -11,13 +11,13 @@ min_temp: -10
 max_temp: 95
 perennial: true
 layers:
-  - Herbaceous
-  - Ground Cover
+- Herbaceous
+- Ground Cover
 plant_function:
-  - Medicinal
-  - Pollinator
-  - Ground Cover
-  - Pest Management
+- Medicinal
+- Pollinator
+- Ground Cover
+- Pest Management
 description: |-
   Pennyroyal is the mint that comes with a safety lecture. Essential oil is dangerous — especially around pregnancy — and the plant's reputation is half insect-repellent folklore, half poison-control case study. Use it as a creeping moist-edge ground cover with boundaries, not as tea cosplay. In subtropical and tropical Americas it wants damp spots; baking sand will ghost it.
 
@@ -32,13 +32,17 @@ purpose: |-
   Ground Cover: Stolons weave damp rain-garden toes, iris skirts, and contained pond pots where true mint would escape -- edge with buried barrier on small lots because wetland spreads anger neighbors fast.
   Pest Management: Crushed leaves release pulegone-rich vapor tested against mosquitoes and fleas in folk practice -- realistic field use is spot repellent on clothing, not fogging toddlers or dogs in closed cars.
 companions:
-  - Elderberry
-  - Iris
-  - Cattail
+- slug: elderberry
+  name: Elderberry
+- slug: cattail
+  name: Cattail
 cautions:
-  - Pregnancy, infants, pets chewing experiments
-  - Letting it escape into sensitive wetlands
+- Pregnancy, infants, pets chewing experiments
+- Letting it escape into sensitive wetlands
 pests:
-  - Aphids
-  - Spider mites
-  - Whiteflies
+- Aphids
+- Spider mites
+- Whiteflies
+companions_unresolved:
+- name: Iris
+  original: Iris

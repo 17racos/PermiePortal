@@ -32,9 +32,12 @@ purpose: |-
   Erosion Control: Deep woody roots wedge into river cobble and shifting bank sand better than shallow cultivated hybrids on the same hot slope.
   Shade Provider: Train cordons across pergolas and south-facing walls so small thick leaves cast summer shade without the dense humidity pocket of larger-leaf table grapes.
 companions:
-  - Riverbank Grape — related grape for comparative training on the same trellis line
-  - Roughleaf Dogwood — shrub posts along sandy river edges for vine attachment
-  - Sand Live Oak — live oak limbs hold grape weight in coastal sand plantings
+  - slug: riverbank-grape
+    name: Riverbank Grape
+  - slug: roughleaf-dogwood
+    name: Roughleaf Dogwood
+  - slug: sand-live-oak
+    name: Sand Live Oak
 cautions:
   - None documented
 pests:

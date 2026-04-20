@@ -29,20 +29,18 @@ purpose: |-
   Wildlife Attractor: Tiny blooms feed small bees and syrphids in humid southeastern summers -- best viewed as wetland pollinator filler, not showy meadow architecture.
   Erosion Control: Stolons root at every node along saturated sand -- useful for stabilizing ditch banks where turfgrass rots; spreads aggressively if irrigation stays shallow and frequent.
 companions:
-- St. Augustinegrass — competitive stoloniferous turf for warm humid lawns; proper
-  height and fertility reduce buttonweed windows
-- Centipedegrass — dense low-input warm-season mat on acidic lawns where moisture
-  is even
-- Pickerelweed — in pond-edge restorations, taller emergent structure breaks up monoculture
-  mats and shifts light patterns
+- slug: pickerelweed
+  name: Pickerelweed
 cautions:
-- Turf invasion — spreads via lawn mowers and wet years; address drainage before chemical
-  fantasies
-- Misidentification — verify opposite leaves and habitat; other “buttonweeds” differ
-  in family and management
+- Turf invasion — spreads via lawn mowers and wet years; address drainage before chemical fantasies
+- Misidentification — verify opposite leaves and habitat; other “buttonweeds” differ in family and management
 pests:
 - Aphids
 - Whiteflies
-growth_habit: Creeping perennial; opposite leaves; white flowers; moist lawns and
-  pond margins
+growth_habit: Creeping perennial; opposite leaves; white flowers; moist lawns and pond margins
 data_quality_score: 0.82
+companions_unresolved:
+- name: St. Augustinegrass
+  original: St. Augustinegrass — competitive stoloniferous turf for warm humid lawns; proper height and fertility reduce buttonweed windows
+- name: Centipedegrass
+  original: Centipedegrass — dense low-input warm-season mat on acidic lawns where moisture is even

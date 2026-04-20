@@ -2,8 +2,8 @@ common_name: Luffa
 picture: luffa.webp
 scientific_name: Luffa aegyptiaca
 aka:
-  - Loofah
-  - Dishcloth Gourd
+- Loofah
+- Dishcloth Gourd
 family: Cucurbitaceae
 zone: 3-11
 ideal_temp_min: 65
@@ -12,11 +12,11 @@ min_temp: 32
 max_temp: 100
 perennial: false
 layers:
-  - Vine
+- Vine
 plant_function:
-  - Edible
-  - Fiber
-  - Ornamental
+- Edible
+- Fiber
+- Ornamental
 description: |-
   Luffa is the shower sponge that was a vegetable first. Young fruit harvests like a zucchini; left to mature, the flesh dries into fibrous skeleton you can peel like a weird banana of scrubbing. Long-season vine — subtropical and tropical Americas needs early start, trellis, and cultivars that finish before cool nights stall fruit fill.
 
@@ -32,27 +32,38 @@ purpose: |-
   Fiber: Fully mature gourds dry to open-weave sponges after peel and seed removal -- shake seeds outdoors unless you enjoy volunteer cucurbits next spring.
   Ornamental: Bright yellow cucurbit flowers hang along overhead trellis lines -- site vines on sturdy cattle panels because weight at peak humidity snaps flimsy stakes.
 companions:
-  - Beans
-  - Marigold
-  - Nasturtium
+- slug: marigold
+  name: Marigold
+- slug: nasturtium
+  name: Nasturtium
+- slug: fava-bean
+  name: Fava Bean
 cautions:
-  - Late planting with short frost-free window
+- Late planting with short frost-free window
 pests:
-  - Aphids
-  - Banded Cucumber Beetle
-  - Broad Mite
-  - Greenhouse Whitefly
-  - Melonworm
-  - Pickleworm
-  - Reniform Nematode
-  - Shore Fly
-  - Squash Bug
-  - Squash Vine Borer
-  - Striped Cucumber Beetle
-  - Fusarium Wilt
-  - Leaf Spot
-  - Papaya Ringspot Virus
-  - Pythium Root Rot
-  - Spotted Cucumber Beetle
+- Aphids
+- Banded Cucumber Beetle
+- Broad Mite
+- Greenhouse Whitefly
+- Melonworm
+- Pickleworm
+- Reniform Nematode
+- Shore Fly
+- Squash Bug
+- Squash Vine Borer
+- Striped Cucumber Beetle
+- Fusarium Wilt
+- Leaf Spot
+- Papaya Ringspot Virus
+- Pythium Root Rot
+- Spotted Cucumber Beetle
 growth_habit: Annual vine
 data_quality_score: 0.78
+companions_unresolved:
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index
+companions_normalized:
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

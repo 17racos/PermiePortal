@@ -2,8 +2,8 @@ common_name: Echinacea
 picture: echinacea.webp
 scientific_name: Echinacea purpurea
 aka:
-  - Purple Coneflower
-  - American Coneflower
+- Purple Coneflower
+- American Coneflower
 family: Asteraceae
 zone: 3-9
 ideal_temp_min: 40
@@ -12,15 +12,15 @@ min_temp: -40
 max_temp: 100
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
-  - Mulcher
-  - Dynamic Accumulator
-  - Border Plant
+- Edible
+- Medicinal
+- Pollinator
+- Wildlife Attractor
+- Mulcher
+- Dynamic Accumulator
+- Border Plant
 description: |-
   Echinacea (Echinacea purpurea) is a hardy perennial herbaceous plant known for its striking purple-pink daisy-like flowers with spiky, cone-shaped centers. It grows up to 90 cm (3 feet) tall, with dark green, lance-shaped leaves. The plant is widely used for its medicinal benefits and as an ornamental flower in gardens.
 
@@ -40,21 +40,27 @@ purpose: |-
   Dynamic Accumulator: Second- and third-year taproots lift calcium and magnesium into leaf tissue measurable in lab ash compared with shallow turf plugs from the same soil series -- chop senesced leaves into compost if you are not saving every cone for birds.
   Border Plant: Drifts along driveway sun give vertical rhythm between lower catmint and taller rudbeckia without hiding sight lines for winter snow removal stakes.
 companions:
-  - Yarrow
-  - Lavender
-  - Bee Balm
-  - Black-eyed Susan
-  - Coneflower
+- slug: yarrow
+  name: Yarrow
+- slug: lavender
+  name: Lavender
+- slug: bee-balm
+  name: Bee Balm
+- slug: black-eyed-susan
+  name: Black-eyed Susan
 cautions:
-  - None known
+- None known
 pests:
-  - Aphids
-  - Banded Winged Whitefly
-  - Greenhouse Whitefly
-  - Japanese Beetles
-  - Lettuce Aphid
-  - Lubber Grasshopper
-  - Root Aphid
-  - Powdery Mildew
+- Aphids
+- Banded Winged Whitefly
+- Greenhouse Whitefly
+- Japanese Beetles
+- Lettuce Aphid
+- Lubber Grasshopper
+- Root Aphid
+- Powdery Mildew
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Coneflower
+  original: Coneflower

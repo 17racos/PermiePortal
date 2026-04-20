@@ -2,11 +2,11 @@ common_name: June Plum
 picture: june_plum.webp
 scientific_name: Spondias dulcis
 aka:
-- Ambarella
-- Golden apple
-- Golden Apple
-- Polynesian Plum
-- Jewish Plum
+  - Ambarella
+  - Golden apple
+  - Golden Apple
+  - Polynesian Plum
+  - Jewish Plum
 family: Anacardiaceae
 zone: 9b-12
 ideal_temp_min: 65
@@ -15,12 +15,12 @@ min_temp: 28
 max_temp: 105
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Edible
-- Shade Provider
-- Wildlife Attractor
-- Windbreaker
+  - Edible
+  - Shade Provider
+  - Wildlife Attractor
+  - Windbreaker
 description: |-
   June plum (Spondias dulcis), widely called ambarella in Caribbean markets, is the same species many lists share with golden apple: a fast tropical tree with pinnate leaves and oval green-yellow fruit eaten crisp when green and juicier when ripe. Heights of 25–50 feet (7.5–15 m) are common. This entry highlights its role in humid subtropical and tropical home orchards where dual-purpose fruit (savory when young, sweeter when mature) stretches kitchen seasons.
 
@@ -35,15 +35,18 @@ purpose: |-
   Wildlife Attractor: Panicles of small white flowers feed insect pollinators while ripe fruit feeds parrots and bats -- harvest windfalls before fruit flies host conventions on pavement.
   Windbreaker: Flexible wood bends in steady trades without snapping like brittle eucalypts -- plant as a coastal edge tree with lower shrubs inside the protected wedge.
 companions:
-- Hog Plum — related Spondias with staggered fruit personality in mixed tropical rows
-- Papaya — fast fruiting neighbor using vertical space differently during early years
-- Lemongrass — perimeter herb marking irrigation lines along the drip edge
+  - slug: hog-plum
+    name: Hog Plum
+  - slug: papaya
+    name: Papaya
+  - slug: lemongrass
+    name: Lemongrass
 cautions:
-- Anacardiaceae chemistry — sensitive individuals should research sap and fruit handling
-- Frost — protect young trees on marginal subtropical sites near 28°F (-2°C)
+  - Anacardiaceae chemistry — sensitive individuals should research sap and fruit handling
+  - Frost — protect young trees on marginal subtropical sites near 28°F (-2°C)
 pests:
-- Caribbean Fruit Fly
-- Mango Seed Weevil
-- Scale Insects
+  - Caribbean Fruit Fly
+  - Mango Seed Weevil
+  - Scale Insects
 growth_habit: Fast tropical tree; pinnate leaves; oval green-yellow fruit; humid lowlands
 data_quality_score: 0.79

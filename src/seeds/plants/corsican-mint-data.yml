@@ -2,8 +2,8 @@ common_name: Corsican Mint
 picture: corsican_mint.webp
 scientific_name: Mentha requienii
 aka:
-  - Creeping mint
-  - Rock mint
+- Creeping mint
+- Rock mint
 family: Lamiaceae
 zone: 6-9
 ideal_temp_min: 45
@@ -12,12 +12,12 @@ min_temp: -10
 max_temp: 95
 perennial: true
 layers:
-  - Ground Cover
-  - Herbaceous
+- Ground Cover
+- Herbaceous
 plant_function:
-  - Edible
-  - Ground Cover
-  - Ornamental
+- Edible
+- Ground Cover
+- Ornamental
 description: |-
   Corsican mint is the tiny creeping mint that carpets cracks and smells like someone stepped on a mojito. Step-on-it release is the feature; turf monoculture is the enemy.
 
@@ -33,15 +33,19 @@ purpose: |-
   Ground Cover: Flat carpets thread between pavers and stone steps, releasing perfume when shoes brush the leaves in damp shade.
   Ornamental: Tiny rounded leaves form tight lime-green to chartreuse mats that read as intentional grout in rock gardens and fairy-scale borders.
 companions:
-  - Thyme
-  - Sedum
-  - Alpine strawberries
+- slug: thyme
+  name: Thyme
+- slug: sedum
+  name: Sedum
 cautions:
-  - Heavy wet clay
-  - Deep shade plus humidity (rot bingo)
+- Heavy wet clay
+- Deep shade plus humidity (rot bingo)
 pests:
-  - spider mites
-  - aphids
-  - slugs
+- spider mites
+- aphids
+- slugs
 growth_habit: Mat-forming miniature mint; tiny leaves; tolerates light foot traffic
 data_quality_score: 0.75
+companions_unresolved:
+- name: Alpine strawberries
+  original: Alpine strawberries

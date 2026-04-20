@@ -39,9 +39,12 @@ purpose: |-
   Mulcher: Fine leaflets drop in flushes after dry-season leaf exchange, feeding termites and soil fungi that buffer surface temperatures for shallow-rooted companions.
   Wildlife Attractor: Lime pompom inflorescences drip nectar for bees and wasps while long brown pods feed monkeys and large insects -- expect noise and theft if you plant beside quiet seating.
 companions:
-  - Sorghum — seasonal grain at the edge uses the light gap under open canopy without demanding irrigation theater.
-  - Pigeon Pea — second legume layer for staggered nitrogen inputs and chop-and-drop mulch at a different height class.
-  - Cassava — drought-tolerant understory carbohydrate that tolerates part shade once Parkia is tall enough.
+  - slug: sorghum
+    name: Sorghum
+  - slug: pigeon-pea
+    name: Pigeon Pea
+  - slug: cassava
+    name: Cassava
 cautions:
   - None documented
 pests:

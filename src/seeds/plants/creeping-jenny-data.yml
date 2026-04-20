@@ -33,13 +33,18 @@ purpose: |-
   Erosion Control: Dense mats intercept raindrop impact on pond banks and shady slopes where turf would thin or burn.
   Wildlife Attractor: Cup-shaped yellow flowers supply pollen and nectar to small bees and syrphid flies through late spring and summer.
 companions:
-- Cattail
-- Papyrus
-- Water Iris
-- Rush
+- slug: cattail
+  name: Cattail
+- slug: papyrus
+  name: Papyrus
 cautions:
 - Drought-loving Mediterranean herbs
 pests:
 - Slugs
 - Snails
 - Aphids
+companions_unresolved:
+- name: Water Iris
+  original: Water Iris
+- name: Rush
+  original: Rush

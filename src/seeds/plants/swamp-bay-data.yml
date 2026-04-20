@@ -2,7 +2,7 @@ common_name: Swamp Bay
 picture: swamp_bay.webp
 scientific_name: Persea palustris
 aka:
-- []
+  - []
 family: Lauraceae
 zone: 7-10
 ideal_temp_min: 65
@@ -11,11 +11,11 @@ min_temp: 15
 max_temp: 103
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Wildlife Attractor
-- Water Retention
-- Ornamental
+  - Wildlife Attractor
+  - Water Retention
+  - Ornamental
 description: |-
   Swamp Bay (Persea palustris) is a useful perennial species in the Lauraceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a tree form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.
 
@@ -28,13 +28,20 @@ purpose: |-
   Wildlife Attractor: Persea palustris glossy evergreen leaves shelter swallowtails while dark drupes feed swamp bears and rodents along Gulf coastal sloughs.
   Water Retention: Shallow rooting in anaerobic muck sponges surge water so detention basins patterned on bay swamps rebound between storms instead of flashing downstream.
   Ornamental: Silvery leaf undersides flash whenever humid breeze lifts canopies along boardwalk plantings meant to mimic natural bay heads.
-companions:
-- Buttonbush - thrives in wet margins and supports pollinators.
-- Bald Cypress - shared tolerance for seasonal flooding in low sites.
-- Pickerelweed - wet-soil ground layer that buffers erosion.
+companions: []
 cautions:
-- Avocado - close planting increases shared laurel-family pest pressure.
+  - Avocado - close planting increases shared laurel-family pest pressure.
 pests:
-- Borers
-- Scale Insects
-- Leaf Spot
+  - Borers
+  - Scale Insects
+  - Leaf Spot
+companion_categories:
+  - name: Buttonbush - thrives in wet margins and supports pollinators.
+    original: Buttonbush - thrives in wet margins and supports pollinators.
+    type: system
+  - name: Bald Cypress - shared tolerance for seasonal flooding in low sites.
+    original: Bald Cypress - shared tolerance for seasonal flooding in low sites.
+    type: system
+  - name: Pickerelweed - wet-soil ground layer that buffers erosion.
+    original: Pickerelweed - wet-soil ground layer that buffers erosion.
+    type: system

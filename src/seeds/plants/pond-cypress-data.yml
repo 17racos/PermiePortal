@@ -31,9 +31,12 @@ purpose: |-
   Water Retention: Seasonal drawdown design pairs with pond cypress to slow peak flows and drop sediment before water exits culverts -- litter fall builds anaerobic muck that holds moisture through dry weeks.
   Shade Provider: Feathery summer canopy cools standing water and emergent macrophyte mats, reducing algal bloom pressure -- winter needle drop returns light for submersed aquatics until spring flush greens again.
 companions:
-  - Netted Chain Fern — ground layer under dappled edges of cypress groves in wet shade
-  - Marsh Fern — fills understory niches where light reaches boggy soil
-  - Royal Fern — dramatic sterile fronds pair visually with buttressed trunks at waterlines
+  - slug: netted-chain-fern
+    name: Netted Chain Fern
+  - slug: marsh-fern
+    name: Marsh Fern
+  - slug: royal-fern
+    name: Royal Fern
 cautions:
   - None documented
 pests:

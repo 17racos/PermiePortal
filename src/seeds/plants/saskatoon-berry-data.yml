@@ -2,8 +2,8 @@ common_name: Saskatoon Berry
 picture: saskatoon_berry.webp
 scientific_name: Amelanchier alnifolia
 aka:
-- Serviceberry
-- Juneberry
+  - Serviceberry
+  - Juneberry
 family: Rosaceae
 zone: 2-7
 ideal_temp_min: 30
@@ -12,12 +12,12 @@ min_temp: -50
 max_temp: 90
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Edible
-- Wildlife Attractor
-- Pollinator
-- Border Plant
+  - Edible
+  - Wildlife Attractor
+  - Pollinator
+  - Border Plant
 description: |-
   Saskatoon berry (Amelanchier alnifolia) is a multistemmed deciduous shrub to small tree of northern North American prairies and open woods, bearing white spring flowers and sweet purple pomes ripening in early summer. Plants typically reach 6–15 feet (1.8–4.5 m), spreading by suckers into bird-friendly thickets. Fruit quality suits fresh eating, pies, and preserves where cedar-apple rust management is planned.
 
@@ -32,52 +32,53 @@ purpose: |-
   Pollinator: Open white racemes supply pollen and nectar in late spring when orchard bloom has finished but bees still hunt calories between cold nights.
   Border Plant: Multistem thickets mark hedgerows, alley crops, and livestock lanes on cold sites where apple timber would winterkill.
 companions:
-- Raspberry — bramble layer at the thicket edge with staggered fruit timing
-- Wild Plum — related hedgerow neighbor extending wildlife food succession
-- Chives — low allium perimeter along driplines
+  - slug: raspberry
+    name: Raspberry
+  - slug: american-plum
+    name: American Plum
+  - slug: chives
+    name: Chives
 cautions:
-- Cedar-apple rust — separate from alternate juniper hosts when disease pressure is
-  high
-- Bird pressure — net ethically or plan shares
+  - Cedar-apple rust — separate from alternate juniper hosts when disease pressure is high
+  - Bird pressure — net ethically or plan shares
 pests:
-- Aphids
-- Apple Maggot
-- Apple Scab
-- Bagworm
-- Blackberry Psyllid
-- Cherry Fruit Fly
-- Codling Moth
-- Cyclamen Mite
-- Fall Webworm
-- Japanese Beetles
-- Lesser Peachtree Borer
-- Oriental Fruit Fly
-- Oriental Fruit Moth
-- Peach Twig Borer
-- Peachtree Borer
-- Pear Psylla
-- Plum Curculio
-- Raspberry Beetle
-- Raspberry Cane Borer
-- Rose Slug
-- Sparganothis Fruitworm
-- Spittlebugs
-- Stink Bug
-- Strawberry Root Weevil
-- Twig Girdlers
-- Vine Weevil
-- Brown Rot
-- Fire Blight
-- Gall Mite
-- Leaf Blight
-- Leaf Spot
-- Powdery Mildew
-- Rust Mite
-- Spotted Lanternfly
-- Brown Marmorated Stink Bug
-- Eastern Tent Caterpillar
-- Harlequin Ladybird
-- Tent Caterpillar
-growth_habit: Suckering shrub-tree; white spring bloom; sweet purple early-summer
-  berries
+  - Aphids
+  - Apple Maggot
+  - Apple Scab
+  - Bagworm
+  - Blackberry Psyllid
+  - Cherry Fruit Fly
+  - Codling Moth
+  - Cyclamen Mite
+  - Fall Webworm
+  - Japanese Beetles
+  - Lesser Peachtree Borer
+  - Oriental Fruit Fly
+  - Oriental Fruit Moth
+  - Peach Twig Borer
+  - Peachtree Borer
+  - Pear Psylla
+  - Plum Curculio
+  - Raspberry Beetle
+  - Raspberry Cane Borer
+  - Rose Slug
+  - Sparganothis Fruitworm
+  - Spittlebugs
+  - Stink Bug
+  - Strawberry Root Weevil
+  - Twig Girdlers
+  - Vine Weevil
+  - Brown Rot
+  - Fire Blight
+  - Gall Mite
+  - Leaf Blight
+  - Leaf Spot
+  - Powdery Mildew
+  - Rust Mite
+  - Spotted Lanternfly
+  - Brown Marmorated Stink Bug
+  - Eastern Tent Caterpillar
+  - Harlequin Ladybird
+  - Tent Caterpillar
+growth_habit: Suckering shrub-tree; white spring bloom; sweet purple early-summer berries
 data_quality_score: 0.82

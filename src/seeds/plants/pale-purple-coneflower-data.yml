@@ -2,8 +2,8 @@ common_name: Pale Purple Coneflower
 picture: pale_purple_coneflower.webp
 scientific_name: Echinacea pallida
 aka:
-- Prairie Coneflower
-- Echinacea
+  - Prairie Coneflower
+  - Echinacea
 family: Asteraceae
 zone: 3-8
 ideal_temp_min: 40
@@ -12,12 +12,12 @@ min_temp: -35
 max_temp: 100
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Pollinator
-- Medicinal
-- Wildlife Attractor
-- Ornamental
+  - Pollinator
+  - Medicinal
+  - Wildlife Attractor
+  - Ornamental
 description: |-
   Pale purple coneflower (Echinacea pallida) is a taprooted prairie perennial with slender drooping ray petals around a spiny central cone, flowering earlier than many garden hybrids and feeding specialist bees adapted to its architecture. Plants reach 2–3 feet (60–90 cm), with narrow rough leaves and deep roots that scoff at short droughts once established. In restoration and permaculture borders it anchors dry-mesic strips, attracts long-tongued pollinators, and supplies roots for careful medicinal use where regulations and ethics align.
 
@@ -32,23 +32,23 @@ purpose: |-
   Wildlife Attractor: Spiny cones mature into goldfinch and siskin buffets while stiff stems house small overwintering bees if you mow late -- leave seed heads until March unless HOA aesthetics override ecology.
   Ornamental: Drooping pale ray petals around coppery cones read as “wild elegance” on gravel berms and dry-mesic reconstructions -- taprooted habit refuses pampered irrigation schedules that make hybrids flop.
 companions:
-- Little Bluestem — warm-season matrix grass sharing dry sun and contrasting flower
-  color
-- Milkweed — complementary milkweed-family neighbor for monarch habitat without identical
-  bloom time
-- Wild Bergamot — aromatic forb extending pollinator service into later summer hours
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: milkweed
+    name: Milkweed
+  - slug: wild-bergamot
+    name: Wild Bergamot
 cautions:
-- Overwatering and rich fertility — lanky stems that lodge after the first thunderstorm
-- Do not dig threatened wild populations—buy nursery seed of documented origin
+  - Overwatering and rich fertility — lanky stems that lodge after the first thunderstorm
+  - Do not dig threatened wild populations—buy nursery seed of documented origin
 pests:
-- Aphids
-- Banded Winged Whitefly
-- Greenhouse Whitefly
-- Japanese Beetles
-- Lettuce Aphid
-- Lubber Grasshopper
-- Root Aphid
-- Powdery Mildew
-growth_habit: Taprooted prairie perennial; narrow leaves; pale drooping rays; dry-mesic
-  sun
+  - Aphids
+  - Banded Winged Whitefly
+  - Greenhouse Whitefly
+  - Japanese Beetles
+  - Lettuce Aphid
+  - Lubber Grasshopper
+  - Root Aphid
+  - Powdery Mildew
+growth_habit: Taprooted prairie perennial; narrow leaves; pale drooping rays; dry-mesic sun
 data_quality_score: 0.82

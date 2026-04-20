@@ -32,9 +32,12 @@ purpose: |-
   Ornamental: Arching fountain habit reads subtropical beside pond cypress knees even though hardiness stretches into piedmont winters.
   Erosion Control: Matting rhizomes lock leaf mold on shaded stream shelves where runoff would strip bare peat after each thunderstorm.
 companions:
-  - Royal Fern — taller wetland fern for layered texture along pond margins
-  - Netted Chain Fern — chain-veined neighbor for comparative ID in the same bog garden
-  - Pond Cypress — dappled shade and humidity cue above fern carpets in swampy designs
+  - slug: royal-fern
+    name: Royal Fern
+  - slug: netted-chain-fern
+    name: Netted Chain Fern
+  - slug: pond-cypress
+    name: Pond Cypress
 cautions:
   - None documented
 pests:

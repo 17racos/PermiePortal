@@ -34,9 +34,12 @@ purpose: |-
   Wildlife Attractor: Finches and sparrows strip mature capsules if you leave stands uncut -- good for seed-eaters, less good if you need clean bed lines next spring.
   Border Plant: Slim spires edge vegetable beds as a self-seeding annual marker -- rotate beds because lobelia likes disturbed soil and disappears when mulch gets too thick and tidy.
 companions:
-  - Yarrow — overlapping insectary role with deeper roots that stabilize soil around lobelia’s finer root system.
-  - Echinacea — shares sun and moderate moisture while extending bloom sequence for beneficial insects.
-  - Black-eyed Susan — later-season color and nectar overlap at the meadow edge without matching lobelia’s exact moisture niche.
+  - slug: yarrow
+    name: Yarrow
+  - slug: echinacea
+    name: Echinacea
+  - slug: black-eyed-susan
+    name: Black-eyed Susan
 cautions:
   - Tobacco
   - Tomato

@@ -2,7 +2,7 @@ common_name: Honeyberry
 picture: honeyberry.webp
 scientific_name: Lonicera caerulea
 aka:
-- Haskap
+  - Haskap
 family: Caprifoliaceae
 zone: 2-7
 ideal_temp_min: 45
@@ -11,11 +11,11 @@ min_temp: -40
 max_temp: 85
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Edible
-- Pollinator
-- Wildlife Attractor
+  - Edible
+  - Pollinator
+  - Wildlife Attractor
 description: |-
   Honeyberry (Lonicera caerulea) is a useful perennial species in the Caprifoliaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a shrub form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.
 
@@ -28,13 +28,20 @@ purpose: |-
   Edible: Lonicera caerulea fruits elongate into blue haskap berries with kiwi-meets-blueberry flavor -- pick when the skin dulls and the flesh yields; unripe fruit stays tart enough to pucker fence posts.
   Pollinator: Early tubular flowers open while apples are still tight bud, giving honeybees and bumblebees pollen in cool soil -- plant two compatible clones for cross-pollination because singles often set light crops.
   Wildlife Attractor: Soft fruit draws robins and chipmunks the week humans blink -- net rows or harvest slightly underripe for jam if you want human share in short-season districts.
-companions:
-- Currant - similar chill requirement and early pollination window.
-- Comfrey - mulch production and moisture buffering at shrub base.
-- Chive - may help suppress fungal issues and uses similar spacing.
+companions: []
 cautions:
-- Black Walnut - juglone exposure can reduce shrub vigor over time.
+  - Black Walnut - juglone exposure can reduce shrub vigor over time.
 pests:
-- Aphids
-- Leafrollers
-- Cranberry Fruitworm
+  - Aphids
+  - Leafrollers
+  - Cranberry Fruitworm
+companion_categories:
+  - name: Currant - similar chill requirement and early pollination window.
+    original: Currant - similar chill requirement and early pollination window.
+    type: system
+  - name: Comfrey - mulch production and moisture buffering at shrub base.
+    original: Comfrey - mulch production and moisture buffering at shrub base.
+    type: system
+  - name: Chive - may help suppress fungal issues and uses similar spacing.
+    original: Chive - may help suppress fungal issues and uses similar spacing.
+    type: system

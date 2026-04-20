@@ -28,9 +28,12 @@ purpose: |-
   Pest Management: Allyl sulfides released from bruised foliage confuse carrot rust flies and onion maggot adults when shallow-rooted carrot rows flank shallot drills in tight rotations.
   Medicinal: Fermented syrup traditions sit beside documented circulatory sulfur chemistry -- reserve therapeutic claims for clinicians while you rely on bulbs for layered flavor first.
 companions:
-  - Carrot (Daucus carota) — rotation partner that uses different soil depth while sharing cool-season scheduling.
-  - Lettuce (Lactuca sativa) — understory cool-season pairing; lettuce uses space under shallots without heavy competition.
-  - Garlic (Allium sativum) — same care and rotation logic; aromatic bed guild helps you monitor pests together.
+  - slug: carrot
+    name: Carrot
+  - slug: lettuce
+    name: Lettuce
+  - slug: garlic
+    name: Garlic
 cautions:
   - Avoid persistent wetness; alliums rot when soil stays soggy.
 pests:

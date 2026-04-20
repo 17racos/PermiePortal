@@ -34,9 +34,12 @@ purpose: |-
   Wildlife Attractor: Split fruit and pecked rinds attract orioles, mockingbirds, and other fruit specialists at the orchard edge -- leave a sacrificial branch outside netting if you want birds working pests elsewhere.
   Border Plant: A single grafted tree or tight row can define a sunny yard edge or driveway orchard -- space for mower swing radius and winter frost drainage, because crowding trunks invites skimpy fruit and bark issues.
 companions:
-  - Comfrey — chop-and-drop mulch at the drip line feeds soil life without stealing the shallow feeder root zone if kept a foot or two out from the trunk.
-  - Nasturtium — bright trap crop at the orchard edge; edible flowers and leaves for salads while aphid pressure watches the nasturtium first.
-  - Marigold — root-zone companionship in citrus guild plantings; flowers also read as a visual scout row for soil critter activity.
+  - slug: comfrey
+    name: Comfrey
+  - slug: nasturtium
+    name: Nasturtium
+  - slug: marigold
+    name: Marigold
 cautions:
   - Walnut
 pests:

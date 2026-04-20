@@ -34,15 +34,18 @@ purpose: |-
   Border Plant: Compact rounded shrubs ten to fifteen feet block sight lines on shady swale toes where irrigation soaker lines keep moisture even through April drought windows that crisp lesser shade shrubs.
   Shade Provider: Dense shade under limbs cools cinnamon fern carpets without juglone baggage that walnut guilds carry on the same north-face paths beside limestone seeps you mulched with coarse oak leaf.
 companions:
-- Sweetbay Magnolia — shares moist acidic ravine aesthetic; seasonal white flowers
-  contrast maroon stars
-- Oakleaf Hydrangea — large leaves and summer blooms layer with Illicium in part shade
-- Cinnamon Fern — moist understory fern fills ground plane without competing for canopy
+- slug: sweetbay-magnolia
+  name: Sweetbay Magnolia
+- slug: cinnamon-fern
+  name: Cinnamon Fern
 cautions:
-- Toxic look-alike risk for foragers—do not confuse with edible Illicium verum or
-  assume "anise" means kitchen safe
+- Toxic look-alike risk for foragers—do not confuse with edible Illicium verum or assume "anise" means kitchen safe
 pests:
 - Scale Insects
 - Spider Mites
 growth_habit: Evergreen shade shrub; aromatic leaves; dark red star-shaped flowers
 data_quality_score: 0.84
+companions_unresolved:
+- name: Oakleaf Hydrangea
+  original: Oakleaf Hydrangea — large leaves and summer blooms layer with Illicium in part shade
+  note: normalization_target_not_in_index

@@ -31,9 +31,12 @@ purpose: |-
   Erosion Control: Dense crown roots grip mucky organic banks on shaded stream bends where sun-loving sedges would fry -- pair with leaf mold mulch that mimics forest floor instead of baking bare clay.
   Ornamental: Fertile pinnae cluster like rusty “flowers” at frond tips, giving vertical scale rain gardens lack when only short sedges show up -- cut browned sterile blades after frost if tidy edges matter more than winter insect hotels.
 companions:
-  - Netted Chain Fern — shorter chain fern layer under royal fronds at the waterline
-  - Marsh Fern — fills similar hydrology with contrasting frond architecture for teaching ID
-  - Marsh Mallow — vertical flowers rise above fern bases in sunny wet margins
+  - slug: netted-chain-fern
+    name: Netted Chain Fern
+  - slug: marsh-fern
+    name: Marsh Fern
+  - slug: marsh-mallow
+    name: Marsh Mallow
 cautions:
   - None documented
 pests:

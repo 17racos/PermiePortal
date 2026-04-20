@@ -33,9 +33,8 @@ purpose: |-
   Ground Cover: rambles horizontally across mulch until trellis lifts vines, shading soil and blocking weeds along fence lines during the warm wet season growth surge.
   Wildlife Attractor: small green-white flowers draw bees and syrphid flies for hand-pollination mornings while ripe fruit draws raccoons unless picked when skin is still glossy firm.
 companions:
-- Corn
-- Beans
-- Squash
+- slug: fava-bean
+  name: Fava Bean
 cautions:
 - Potato
 - Cucumber
@@ -60,3 +59,15 @@ pests:
 - Spotted Cucumber Beetle
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index
+- name: Squash
+  original: Squash
+companions_normalized:
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

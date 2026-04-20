@@ -2,7 +2,7 @@ common_name: Water Hickory
 picture: water_hickory.webp
 scientific_name: Carya aquatica
 aka:
-- []
+  - []
 family: Juglandaceae
 zone: 6-10
 ideal_temp_min: 65
@@ -11,11 +11,11 @@ min_temp: -10
 max_temp: 104
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Wildlife Attractor
-- Water Retention
-- Erosion Control
+  - Wildlife Attractor
+  - Water Retention
+  - Erosion Control
 description: |-
   Water Hickory (Carya aquatica) is a useful perennial species in the Juglandaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a tree form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.
 
@@ -28,13 +28,20 @@ purpose: |-
   Wildlife Attractor: Carya aquatica nuts are small but still feed squirrels, wood ducks, and wild hogs in southern swamps -- leave mast for wetland fauna if human cracking is not worth the effort.
   Water Retention: Shallow-rooted floodplain specialist soaks up seasonally inundated sites -- canopy shade and leaf litter reduce evaporation from blackwater sloughs.
   Erosion Control: Buttressed trunks and cable roots armor riverbanks where only taxodium and bald cypress feel equally at home -- plant on inside bends where sediment deposits build soil instead of washing away.
-companions:
-- Bald Cypress - complementary canopy in floodplain plantings.
-- River Birch - stabilizes banks and shares wet-soil tolerance.
-- Buttonbush - shrub layer for pollinators in riparian guilds.
+companions: []
 cautions:
-- Tomato - juglone sensitivity can limit growth near root zones.
+  - Tomato - juglone sensitivity can limit growth near root zones.
 pests:
-- Pecan Weevil
-- Hickory Shuckworm
-- Fall Webworm
+  - Pecan Weevil
+  - Hickory Shuckworm
+  - Fall Webworm
+companion_categories:
+  - name: Bald Cypress - complementary canopy in floodplain plantings.
+    original: Bald Cypress - complementary canopy in floodplain plantings.
+    type: system
+  - name: River Birch - stabilizes banks and shares wet-soil tolerance.
+    original: River Birch - stabilizes banks and shares wet-soil tolerance.
+    type: system
+  - name: Buttonbush - shrub layer for pollinators in riparian guilds.
+    original: Buttonbush - shrub layer for pollinators in riparian guilds.
+    type: system

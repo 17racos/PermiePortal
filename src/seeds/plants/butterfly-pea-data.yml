@@ -36,9 +36,12 @@ purpose: |-
   Wildlife Attractor: Pea blue and long-tailed skipper larvae chew leaflets on sunny trellis faces, so leave a sacrificial vine end if you want butterflies more than perfect foliage.
   Ornamental: Indigo vines with white eye markings climb 3 m bamboo poles in one season, giving vertical color without waiting years for passionflower wood.
 companions:
-  - Roselle — shares warm-season water and fertility without casting heavy shade if the vine runs the sunny face of the bed.
-  - Malabar Spinach — another twiner for stacked vertical harvest on a sturdy shared trellis with staggered pick timing.
-  - Sweet Potato — sprawling ground cover cools soil and suppresses weeds while the pea climbs where irrigation is coordinated.
+  - slug: roselle
+    name: Roselle
+  - slug: malabar-spinach
+    name: Malabar Spinach
+  - slug: sweet-potato
+    name: Sweet Potato
 cautions:
   - Heavy self-seeding in frost-free years can demand deadheading if you dislike volunteers.
 pests:

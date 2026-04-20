@@ -2,7 +2,7 @@ common_name: Crabapple
 picture: crabapple.webp
 scientific_name: Malus sylvestris
 aka:
-- Wild Apple
+  - Wild Apple
 family: Rosaceae
 zone: 4-8
 ideal_temp_min: 55
@@ -11,11 +11,11 @@ min_temp: -25
 max_temp: 95
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Wildlife Attractor
-- Pollinator
-- Ornamental
+  - Wildlife Attractor
+  - Pollinator
+  - Ornamental
 description: |-
   Crabapple (Malus sylvestris) is a useful perennial species in the Rosaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a tree form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.
 
@@ -28,13 +28,20 @@ purpose: |-
   Wildlife Attractor: Small astringent apples feed deer, raccoons, and cider-fermenting humans while thorny twigs shelter nesting songbirds.
   Pollinator: Masses of pink-white Malus blossoms offer heavy pollen and nectar loads to orchard bees during a concentrated spring flight.
   Ornamental: Weeping and upright crab forms give spring flower foam and winter fruit persistence that street-tree selections chase.
-companions:
-- Chive - helps reduce fungal pressure around root zones.
-- Comfrey - dynamic mulch source and pollinator support under canopy.
-- Yarrow - attracts beneficial predators and parasitoids.
+companions: []
 cautions:
-- Juniper - can host rust diseases that cycle with apple relatives.
+  - Juniper - can host rust diseases that cycle with apple relatives.
 pests:
-- Codling Moth
-- Apple Scab
-- Fire Blight
+  - Codling Moth
+  - Apple Scab
+  - Fire Blight
+companion_categories:
+  - name: Chive - helps reduce fungal pressure around root zones.
+    original: Chive - helps reduce fungal pressure around root zones.
+    type: system
+  - name: Comfrey - dynamic mulch source and pollinator support under canopy.
+    original: Comfrey - dynamic mulch source and pollinator support under canopy.
+    type: system
+  - name: Yarrow - attracts beneficial predators and parasitoids.
+    original: Yarrow - attracts beneficial predators and parasitoids.
+    type: system

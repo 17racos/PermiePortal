@@ -2,9 +2,9 @@ common_name: Parsley
 picture: parsley.webp
 scientific_name: Petroselinum crispum
 aka:
-- Garden Parsley
-- Curly-leaf Parsley
-- Flat-leaf Parsley
+  - Garden Parsley
+  - Curly-leaf Parsley
+  - Flat-leaf Parsley
 family: Apiaceae
 zone: 2-11
 ideal_temp_min: 70
@@ -13,11 +13,11 @@ min_temp: 50
 max_temp: 90
 perennial: false
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Edible
-- Medicinal
-- Ground Cover
+  - Edible
+  - Medicinal
+  - Ground Cover
 description: |-
   Parsley (*Petroselinum crispum*) is a hardy biennial herb, typically cultivated as an annual, belonging to the Apiaceae family. Native to the Mediterranean region, it features bright green, pinnate leaves that can be either curly or flat, depending on the variety. The plant forms a rosette of leaves in its first year and, if allowed to overwinter, produces umbels of small, yellowish-green flowers in its second year. Parsley is renowned for its fresh, slightly peppery flavor and is a staple in various culinary traditions.
 
@@ -31,21 +31,29 @@ purpose: |-
   Medicinal: Fresh leaf and root tinctures appear in European diuretic and kidney-comfort materia medica lines -- apiol-rich seed oil is historically abortifacient; keep medicinal use inside trained guidance, especially around pregnancy.
   Ground Cover: Biennial rosettes shade soil between tomatoes, alliums, and brassicas when sown thick -- shallow roots mean easy hand-weeding replacement when plants bolt in heat.
 companions:
-- Tomato
-- Asparagus
-- Carrot
-- Chive
+  - slug: chives
+    name: Chives
+  - slug: tomato
+    name: Tomato
+  - slug: asparagus
+    name: Asparagus
+  - slug: carrot
+    name: Carrot
 cautions:
-- Lettuce
+  - Lettuce
 pests:
-- Celery Leaf Miner
-- Dill Worms
-- aphids
-- Carrot Fly
-- Carrot Rust Fly
-- Carrot Weevil
-- Parsnip Canker
-- Iguana
-- Swallowtail Caterpillar
+  - Celery Leaf Miner
+  - Dill Worms
+  - aphids
+  - Carrot Fly
+  - Carrot Rust Fly
+  - Carrot Weevil
+  - Parsnip Canker
+  - Iguana
+  - Swallowtail Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_normalized:
+  - original: Chive
+    resolved_slug: chives
+    name: Chives

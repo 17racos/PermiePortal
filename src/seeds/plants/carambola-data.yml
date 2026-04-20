@@ -2,11 +2,11 @@ common_name: Carambola
 picture: carambola.webp
 scientific_name: Averrhoa carambola
 aka:
-  - Star Fruit
-  - Balimbing
-  - Five-corner
-  - Carambola Tree
-  - Starfruit
+- Star Fruit
+- Balimbing
+- Five-corner
+- Carambola Tree
+- Starfruit
 family: Oxalidaceae
 zone: 10-12
 ideal_temp_min: 68
@@ -15,12 +15,12 @@ min_temp: 32
 max_temp: 100
 perennial: true
 layers:
-  - Sub-Canopy
+- Sub-Canopy
 plant_function:
-  - Edible
-  - Medicinal
-  - Wildlife Attractor
-  - Ornamental
+- Edible
+- Medicinal
+- Wildlife Attractor
+- Ornamental
 description: |-
   Carambola, commonly known as star fruit, is a tropical evergreen tree native to Southeast Asia. It typically reaches heights of 6–9 meters (20–30 feet) with a bushy, rounded canopy. The tree produces distinctive, star-shaped fruits when sliced crosswise, measuring 5–15 centimeters (2–6 inches) in length. The fruit's skin is thin, waxy, and turns from green to yellow upon ripening, while the flesh is juicy, crisp, and ranges from sweet to tangy in flavor.
 
@@ -35,16 +35,21 @@ purpose: |-
   Wildlife Attractor: nectar feeds small bees on clustered flowers while ripe thin-skinned stars draw birds and fruit flies unless picked at color break.
   Ornamental: keeps a rounded evergreen oxalidaceous canopy with compound leaves and pendant fruit that reads sculptural in frost-free courtyards and conservatory borders.
 companions:
-  - Banana
-  - Papaya
-  - Pineapple
-  - Citrus
+- slug: banana
+  name: Banana
+- slug: papaya
+  name: Papaya
 cautions:
-  - Walnut
+- Walnut
 pests:
-  - Caribbean Fruit Fly
-  - Scale Insects
-  - Mealybugs
-  - Anthracnose
+- Caribbean Fruit Fly
+- Scale Insects
+- Mealybugs
+- Anthracnose
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Pineapple
+  original: Pineapple
+- name: Citrus
+  original: Citrus

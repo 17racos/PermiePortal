@@ -2,8 +2,8 @@ common_name: Longleaf Pine
 picture: longleaf_pine.webp
 scientific_name: Pinus palustris
 aka:
-- Longleaf yellow pine
-- Southern yellow pine
+  - Longleaf yellow pine
+  - Southern yellow pine
 family: Pinaceae
 zone: 7-10
 ideal_temp_min: 60
@@ -12,12 +12,12 @@ min_temp: 0
 max_temp: 105
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Wildlife Attractor
-- Windbreaker
-- Mulcher
-- Biomass
+  - Wildlife Attractor
+  - Windbreaker
+  - Mulcher
+  - Biomass
 description: |-
   Longleaf pine (Pinus palustris) is a southeastern United States pine of sandy savannas and flatwoods, famous for long needles in bundles of three, a grass stage seedling era, and dependence on fire-maintained openness. Mature trees reach 80–100 feet (24–30 m) with open crowns in savanna contexts. It is a keystone for biodiversity when prescribed fire returns on ecologically meaningful intervals—not when fear owns the deed.
 
@@ -32,18 +32,18 @@ purpose: |-
   Mulcher: Long needles rake into high-carbon pine straw prized for blueberry and azalea mulch -- harvest straw without stripping green crowns or you starve the tree you are monetizing.
   Biomass: Clear, straight boles yield pole-quality timber and resin chemistry -- rotations run decades, so enter only if your land plan measures success in generations, not quarterly yields.
 companions:
-- Loblolly Pine — different life history; avoid mixing goals unless land plan explains
-  the contrast
-- Little Bluestem — warm-season grass layer in fire-maintained savanna plantings
-- Florida Paintbrush — native forb contributing late-season pollinator resources in
-  open pine systems
+  - slug: loblolly-pine
+    name: Loblolly Pine
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: florida-paintbrush
+    name: Florida Paintbrush
 cautions:
-- Fire exclusion — savanna becomes dense woods and groundlayer biodiversity collapses
-- Wrong site clay — poor growth and root disease; match genotype to soil drainage
+  - Fire exclusion — savanna becomes dense woods and groundlayer biodiversity collapses
+  - Wrong site clay — poor growth and root disease; match genotype to soil drainage
 pests:
-- Bagworm
-- Borers
-- Scale Insects
-growth_habit: Tall pine; long needles in threes; savanna and flatwoods; fire-adapted
-  grass stage
+  - Bagworm
+  - Borers
+  - Scale Insects
+growth_habit: Tall pine; long needles in threes; savanna and flatwoods; fire-adapted grass stage
 data_quality_score: 0.81

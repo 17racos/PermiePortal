@@ -36,10 +36,10 @@ purpose: |-
   Erosion Control: Tough black rhizome mats knit leaf-litter banks on cold-water streams where freeze-thaw sloughs sediment -- avoid planting in steamy lowland tropics where crowns rot without honest chill.
   Wildlife Attractor: Wet shade architecture shelters salamanders, spring peepers, and detritivore food webs under frond skirts -- fiddlehead harvest patches should rotate so wildlife corridors keep intact litter depth every year.
 companions:
-- Wild Ginger
-- Trout Lily
-- Solomon Seal
-- Marsh Marigold
+- slug: wild-ginger
+  name: Wild Ginger
+- slug: marsh-marigold
+  name: Marsh Marigold
 cautions:
 - Blazing full sun
 - Dry sand
@@ -47,3 +47,10 @@ pests:
 - Slugs
 - Snails
 - Japanese Beetles
+companions_unresolved:
+- name: Trout Lily
+  original: Trout Lily
+  note: normalization_target_not_in_index
+- name: Solomon's Seal
+  original: Solomon Seal
+  note: normalization_target_not_in_index

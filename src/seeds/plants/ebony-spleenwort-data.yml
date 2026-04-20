@@ -33,14 +33,17 @@ purpose: |-
   Erosion Control: Fibrous roots bind crumbs of organic matter in limestone joints, reducing wash from summer storms.
   Wildlife Attractor: Layered fronds shelter springtails, spiders, and other microfauna in shaded rock gardens.
 companions:
-- Christmas Fern — deeper soil pockets pair with crevice Asplenium on shaded slopes
-- Wild Ginger — low shade ground layer that does not smother shallow fern roots
-- Columbine — dappled-light flowers above fern mosaics on limestone ledges
+- slug: wild-ginger
+  name: Wild Ginger
 cautions:
-- Heavy clay relocation without rock crevices—crowns rot where drainage is poor and
-  winter wet lingers
+- Heavy clay relocation without rock crevices—crowns rot where drainage is poor and winter wet lingers
 pests:
 - Slugs
 - Snails
 growth_habit: Small evergreen fern; dark glossy stipes; crevice and thin-soil specialist
 data_quality_score: 0.84
+companions_unresolved:
+- name: Christmas Fern
+  original: Christmas Fern — deeper soil pockets pair with crevice Asplenium on shaded slopes
+- name: Columbine
+  original: Columbine — dappled-light flowers above fern mosaics on limestone ledges

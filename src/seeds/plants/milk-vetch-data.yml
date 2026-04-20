@@ -34,9 +34,12 @@ purpose: |-
   Pollinator: Papilionaceous flowers trip long-legged bees efficiently -- plant drifts because prairie pollinators search for patch volume, not lonely stems.
   Animal Fodder: Palatability swings with strain and stage -- confirm local Astragalus toxicity lore before turning livestock into unreviewed browse trials.
 companions:
-  - Echinacea — complementary prairie forb; milk vetch banks nitrogen while echinacea handles retail pollinator traffic up top.
-  - Yarrow — deep, droughty pockets beside mesic milk vetch create micro-niches so one bed supports multiple water personalities.
-  - Comfrey — chop-and-drop feeds the soil food web that protects legume roots from stupid human neglect.
+  - slug: echinacea
+    name: Echinacea
+  - slug: yarrow
+    name: Yarrow
+  - slug: comfrey
+    name: Comfrey
 cautions:
   - None documented
 pests:

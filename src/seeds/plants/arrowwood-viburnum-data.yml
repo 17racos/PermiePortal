@@ -31,12 +31,10 @@ purpose: |-
   Erosion Control: Fibrous roots mat ditch banks and rain-garden berms where intermittent moisture would kill drought shrubs -- tolerates periodic wet feet better than upland ninebark on the same site.
   Ornamental: Coarsely toothed clean foliage and blue-black fruit clusters give three-season structure -- viburnum leaf beetle regions demand scouting for skeletonized leaves in late spring, not denial.
 companions:
-- Red Osier Dogwood — contrasting stem color in winter; shared moist-margin niche
-- Ninebark — different texture and bloom time while tolerating similar tough soils
-- Switchgrass — deep-rooted matrix around shrub bases reduces erosion between plants
+- slug: switchgrass
+  name: Switchgrass
 cautions:
-- Viburnum Leaf Beetle — scout for skeletonized leaves in late spring in regions where
-  it occurs
+- Viburnum Leaf Beetle — scout for skeletonized leaves in late spring in regions where it occurs
 - Powdery Mildew — improve air flow if hedges are sheared too tight
 pests:
 - Japanese Beetles
@@ -44,3 +42,8 @@ pests:
 - Powdery Mildew
 growth_habit: Rounded multistem deciduous shrub; white cymes; blue-black drupes
 data_quality_score: 0.85
+companions_unresolved:
+- name: Red Osier Dogwood
+  original: Red Osier Dogwood — contrasting stem color in winter; shared moist-margin niche
+- name: Ninebark
+  original: Ninebark — different texture and bloom time while tolerating similar tough soils

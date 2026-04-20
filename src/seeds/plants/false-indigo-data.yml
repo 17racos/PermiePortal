@@ -39,12 +39,12 @@ purpose: |-
   Dynamic Accumulator: Carrot-yellow taproot pulls calcium into autumn leaf litter you drop on berms after frost kills tops, feeding fruiting shrubs with fibrous feeder roots under the same sun exposure.
   Border Plant: Three-foot basal clumps anchor sunny rain-garden berms without flopping like overspun asters when drainage stays sharp through wet winter crowns.
 companions:
-- Switchgrass — vertical warm-season grass frames Baptisia mounds in meadow designs
-- Coneflower — overlapping bloom periods support pollinators across mid-summer
-- Wild Bergamot — mint-family flowers extend nectar service after indigo spikes fade
+- slug: switchgrass
+  name: Switchgrass
+- slug: wild-bergamot
+  name: Wild Bergamot
 cautions:
-- Transplanting mature taprooted clumps often fails—site young plants where they can
-  age in place
+- Transplanting mature taprooted clumps often fails—site young plants where they can age in place
 pests:
 - Aphids
 - Banded Cucumber Beetle
@@ -77,3 +77,6 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Long-lived legume; shrubby herb; blue pea flowers; inflated pods
 data_quality_score: 0.86
+companions_unresolved:
+- name: Coneflower
+  original: Coneflower — overlapping bloom periods support pollinators across mid-summer

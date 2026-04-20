@@ -33,12 +33,10 @@ purpose: |-
   Shade Provider: long canes lace cattle panels or porch arbors to cast moving green shade over patios and livestock pens in humid eastern summers.
   Erosion Control: woody roots grip riparian silt and road-cut talus when the vine is allowed to climb dead trees or posts instead of smothering valued canopy specimens.
 companions:
-- Elderberry — shrubby counterpoint at the thicket edge; both appreciate moist fertile
-  banks
-- American Persimmon — late fruit after grape season; shared edge ecology without
-  direct competition for canopy
-- River Birch — dappled light through fine branches suits grape leaves without dense
-  shade
+- slug: elderberry
+  name: Elderberry
+- slug: american-persimmon
+  name: American Persimmon
 cautions:
 - Tree girdling — unmanaged vines can shade and weight-break canopy trees you value
 - Japanese Beetles — skeletonized leaves are common in outbreak years
@@ -48,3 +46,6 @@ pests:
 - Spotted Lanternfly
 growth_habit: Woody deciduous vine; summer-ripening clusters; moist edges and thickets
 data_quality_score: 0.85
+companions_unresolved:
+- name: River Birch
+  original: River Birch — dappled light through fine branches suits grape leaves without dense shade

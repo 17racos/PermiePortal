@@ -30,9 +30,12 @@ purpose: |-
   Windbreaker: dense branching slows desiccating winds along orchard edges once the scaffold matures tall enough to catch upper air movement.
   Pest Management: Crushed Cinnamomum camphora leaves release monoterpenes that can confuse some chewing insects when prunings are chipped lightly into guild mulch, not as a guaranteed repellent fence.
 companions:
-  - Sweet Potato (Ipomoea batatas) — tolerates warm understory conditions and benefits from camphor litter mulch.
-  - Ginger (Zingiber officinale) — likes humus-rich shade; leaf-litter mulch keeps moisture even.
-  - Lemon Balm (Melissa officinalis) — aromatic understory companion that supports flexible harvesting around shade.
+  - slug: sweet-potato
+    name: Sweet Potato
+  - slug: ginger
+    name: Ginger
+  - slug: lemon-balm
+    name: Lemon Balm
 cautions:
   - Keep leaf-litter from smothering seedlings; rake back and re-mulch after plants establish.
 pests:

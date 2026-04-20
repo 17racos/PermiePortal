@@ -34,9 +34,12 @@ purpose: |-
   Wildlife Attractor: Split fruit on the ground feeds opossums and mockingbirds -- pick promptly or accept night critters doing cleanup under the canopy.
   Border Plant: Thorny, compact habit fits courtyard pots and small orchard rows -- espalier against walls for frost protection while keeping paths away from spine zones.
 companions:
-  - Basil — understory herb that likes the same bright light and rewards quick harvests between citrus flushes.
-  - Comfrey — mineral-rich mulch cuttings that stay outside the immediate trunk circle.
-  - Lemongrass — clumping grass edge that marks guild boundaries and pairs culturally with lime-heavy cuisines.
+  - slug: basil
+    name: Basil
+  - slug: comfrey
+    name: Comfrey
+  - slug: lemongrass
+    name: Lemongrass
 cautions:
   - Walnut
 pests:

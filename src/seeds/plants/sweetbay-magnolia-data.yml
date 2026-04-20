@@ -2,8 +2,8 @@ common_name: Sweetbay Magnolia
 picture: sweetbay_magnolia.webp
 scientific_name: Magnolia virginiana
 aka:
-- Swampbay
-- Laurel magnolia
+  - Swampbay
+  - Laurel magnolia
 family: Magnoliaceae
 zone: 5-10
 ideal_temp_min: 40
@@ -12,13 +12,13 @@ min_temp: -15
 max_temp: 105
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Ornamental
-- Wildlife Attractor
-- Shade Provider
-- Mulcher
-- Erosion Control
+  - Ornamental
+  - Wildlife Attractor
+  - Shade Provider
+  - Mulcher
+  - Erosion Control
 description: |-
   Sweetbay magnolia (Magnolia virginiana) is an evergreen to semi-evergreen tree of acidic swamps, bay forests, and moist woodlands along the Atlantic and Gulf coastal plains and northward in sheltered microclimates. Lemon-scented creamy flowers open in late spring and sporadically in warm weather; red cone-like fruits show silver seeds. It supplies high-canopy shade in humid subtropical food forests without the heavy darkness of dense broadleaf evergreens.
 
@@ -34,21 +34,18 @@ purpose: |-
   Mulcher: Thin acidic leaves compost fast into blueberry guilds when you leave litter under the drip line instead of bagging it.
   Erosion Control: Buttressed roots hug anaerobic muck on pond shelves so biofiltration cells stay planted through hurricane surge cycles.
 companions:
-- Highbush Blueberry — shared acidity from leaf litter; part-sun edge under magnolia
-  skirt
-- Inkberry — evergreen texture contrast; both accept moist acidic soils in warm-winter
-  zones
-- Cinnamon Fern — fills shady wet pockets beneath outer branches without competing
-  for crown space
+  - slug: highbush-blueberry
+    name: Highbush Blueberry
+  - slug: inkberry
+    name: Inkberry
+  - slug: cinnamon-fern
+    name: Cinnamon Fern
 cautions:
-- Chlorosis on alkaline soils — choose tolerant sites or accept ongoing sulfur/organic
-  acid management
-- Magnolia scale outbreaks — monitor trunks and major limbs; promote beneficial insects
-  with diverse understory
+  - Chlorosis on alkaline soils — choose tolerant sites or accept ongoing sulfur/organic acid management
+  - Magnolia scale outbreaks — monitor trunks and major limbs; promote beneficial insects with diverse understory
 pests:
-- Scale Insects
-- Japanese Beetles
-- caterpillars
-growth_habit: Single- or multi-trunk tree; aromatic creamy flowers; red cone-like
-  fruits; moist acidic sites
+  - Scale Insects
+  - Japanese Beetles
+  - caterpillars
+growth_habit: Single- or multi-trunk tree; aromatic creamy flowers; red cone-like fruits; moist acidic sites
 data_quality_score: 0.85

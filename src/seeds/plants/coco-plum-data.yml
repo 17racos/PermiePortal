@@ -2,8 +2,8 @@ common_name: Coco Plum
 picture: coco_plum.webp
 scientific_name: Chrysobalanus icaco
 aka:
-  - Icaco
-  - Paradise Plum
+- Icaco
+- Paradise Plum
 family: Chrysobalaceae
 zone: 10b-11
 ideal_temp_min: 70
@@ -12,12 +12,12 @@ min_temp: 30
 max_temp: 102
 perennial: true
 layers:
-  - Shrub
+- Shrub
 plant_function:
-  - Edible
-  - Erosion Control
-  - Wildlife Attractor
-  - Windbreaker
+- Edible
+- Erosion Control
+- Wildlife Attractor
+- Windbreaker
 description: |-
   Coco plum (*Chrysobalanus icaco*) is a coastal workhorse: salt-tolerant, wind-sculpted, and willing to fruit white to dark purple drupes with mild, sometimes insipid, sometimes surprisingly pleasant pulp around a big seed. Forms range from low mounding shrubs to taller upright types depending on ecotype and genetics.
 
@@ -34,16 +34,22 @@ purpose: |-
   Wildlife Attractor: Small flowers feed insects; ripe fruit feeds songbirds and mammals that also prune awkward lower branches.
   Windbreaker: Multi-stem mounding to upright forms break horizontal salt wind before it hits patios, pools, and beach cottages.
 companions:
-  - Sea Grape
-  - Myrsine
-  - Simpson Stopper
-  - Beach Sunflower
+- slug: seagrape
+  name: Seagrape
+- slug: myrsine
+  name: Myrsine
+- slug: simpson-stopper
+  name: Simpson Stopper
 cautions:
-  - Prolonged waterlogging in heavy clay
+- Prolonged waterlogging in heavy clay
 pests:
-  - Scale Insects
-  - Whiteflies
-  - Mealybugs
-  - Aphids
+- Scale Insects
+- Whiteflies
+- Mealybugs
+- Aphids
 growth_habit: Shrub
 data_quality_score: 0.74
+companions_unresolved:
+- name: Beach Sunflower
+  original: Beach Sunflower
+  note: normalization_target_not_in_index

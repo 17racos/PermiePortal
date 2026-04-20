@@ -31,9 +31,12 @@ purpose: |-
   Wildlife Attractor: Spiny seed heads feed goldfinches; hollow stems shelter small overwintering bees if you delay mowing until spring -- leave random stalks for honest insect hotel texture along meadow margins.
   Ornamental: Yucca-like rosettes and silvery bracted balls sell modern prairie plantings and bioswale berms -- deep taproot laughs at drought once established where wet winter clay does not rot crowns.
 companions:
-  - Narrowleaf Mountain Mint — fine-leaved insectary contrast beside bold eryngium rosettes
-  - Mountain Mint — late-summer pollinator synergy with overlapping bloom windows
-  - Roughleaf Dogwood — shrub backdrop that frames tall prairie forbs without shading them flat
+  - slug: narrowleaf-mountain-mint
+    name: Narrowleaf Mountain Mint
+  - slug: mountain-mint
+    name: Mountain Mint
+  - slug: roughleaf-dogwood
+    name: Roughleaf Dogwood
 cautions:
   - None documented
 pests:

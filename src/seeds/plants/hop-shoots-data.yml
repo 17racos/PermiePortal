@@ -2,8 +2,8 @@ common_name: Hop Shoots
 picture: hop_shoots.webp
 scientific_name: Humulus lupulus
 aka:
-  - Common hop
-  - Hops
+- Common hop
+- Hops
 family: Cannabaceae
 zone: 5-9
 ideal_temp_min: 50
@@ -12,13 +12,13 @@ min_temp: -20
 max_temp: 95
 perennial: true
 layers:
-  - Vine
-  - Herb
+- Vine
+- Herb
 plant_function:
-  - Edible
-  - Pollinator
-  - Windbreaker
-  - Ornamental
+- Edible
+- Pollinator
+- Windbreaker
+- Ornamental
 description: |-
   Hop shoots come from common hop, a long-lived dioecious vine famous for brewing cones and, in spring kitchens, blanched spears that taste like aggressive asparagus. Twining bines can climb 15–20 feet in a season, with rough leaves and sticky lupulin glands on female cones where present.
 
@@ -35,16 +35,20 @@ purpose: |-
   Windbreaker: Twining bines knit dense summer screens on cattle panels or barn walls -- slows desiccating wind on west-facing vegetable beds without casting deep permanent shade once dormant.
   Ornamental: Chartreuse 'Aureus' selections turn fences into seasonal curtains -- plan for aggressive rhizomes and mildew scouting in humid summers so the display stays leafy, not spotted brown.
 companions:
-  - Grape — shares trellis culture and timing for pruning hygiene; scout both for mite and mildew together.
-  - Comfrey — chop-and-drop feeds the hungry root zone without climbing the wires.
-  - Yarrow — low, aromatic base planting that tolerates drier feet while attracting syrphids and parasitoids upslope of the vines.
+- slug: comfrey
+  name: Comfrey
+- slug: yarrow
+  name: Yarrow
 cautions:
-  - English Ivy
-  - Japanese Honeysuckle
+- English Ivy
+- Japanese Honeysuckle
 pests:
-  - Aphids
-  - Spider Mites
-  - Powdery Mildew
-  - Downy Mildew
+- Aphids
+- Spider Mites
+- Powdery Mildew
+- Downy Mildew
 growth_habit: Herbaceous twining perennial vine; edible spring shoots; female cones on dioecious plants
 data_quality_score: 0.7
+companions_unresolved:
+- name: Grape
+  original: Grape — shares trellis culture and timing for pruning hygiene; scout both for mite and mildew together.

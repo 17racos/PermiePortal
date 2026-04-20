@@ -35,9 +35,10 @@ purpose: |-
   Erosion Control: Thick rhizomes knit mucky banks during hurricane sheet flow where turf would wash -- plant bands along pond toes instead of isolated specimens on dry berms.
   Ornamental: Bold sagittate leaves give native pond geometry without tropical water-arum vibes -- pair with pickerelweed for complementary vertical flowers along the same shelf.
 companions:
-  - Blue Pickerelweed — overlapping wetland niche with complementary flowers; shared pollinator traffic at the waterline.
-  - Pickerelweed — taller flowering structure mixes with arrow arum foliage for layered edge planting.
-  - Cattail — structural backdrop and nutrient sponge; manage spread so arrow arum keeps light.
+  - slug: pickerelweed
+    name: Pickerelweed
+  - slug: cattail
+    name: Cattail
 cautions:
   - None documented
 pests:

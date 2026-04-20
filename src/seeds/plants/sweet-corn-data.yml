@@ -10,11 +10,11 @@ min_temp: 32
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Animal Fodder
-  - Erosion Control
+- Edible
+- Animal Fodder
+- Erosion Control
 description: |-
   Sweet corn (Zea mays) is a warm-season cereal grown for its immature ears harvested as sweet kernels. It originates from the Americas and is widely cultivated across the entire temperate-to-tropical range where summer heat is sufficient. Plants typically grow 1–3 m (3–10 ft) tall with strong stalks and tassels/pollinating structures. In permaculture, sweet corn matters because it provides high-output edible harvest in summer while also producing large biomass residues that become mulch and animal feed after the harvest cycle ends. Dense corn stands can also reduce soil erosion during warm-season storms when fields otherwise get bare.
 
@@ -28,13 +28,27 @@ purpose: |-
   Animal Fodder: Ensiled stalks plus surplus ears finish beef and dairy rotations while manure returns phosphorus back upslope.
   Erosion Control: Narrow-row blocks close canopy fast so July thunderstorms meet living roots instead of bare cultivation strips.
 companions:
-  - Beans (Phaseolus vulgaris) — helps support nitrogen in companion-style planting for corn systems.
-  - Sunflower (Helianthus annuus) — provides additional pollinator nectar and layered canopy structure.
-  - Cucumbers (Cucumis sativus) — ground-cover and trellis timing can reduce bare soil between corn rows.
+- slug: sunflower
+  name: Sunflower
+- slug: cucumber
+  name: Cucumber
+- slug: fava-bean
+  name: Fava Bean
 cautions:
-  - Avoid planting corn where you’ll have persistent waterlogging; root stress shows quickly.
+- Avoid planting corn where you’ll have persistent waterlogging; root stress shows quickly.
 pests:
-  - Aphids
-  - Japanese Beetles
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Japanese Beetles
+- Root Rot
+- Caterpillars
+companions_normalized:
+- original: Cucumbers (Cucumis sativus) — ground-cover and trellis timing can reduce bare soil between corn rows.
+  resolved_slug: cucumber
+  name: Cucumber
+- original: Beans (Phaseolus vulgaris) — helps support nitrogen in companion-style planting for corn systems.
+  resolved_slug: fava-bean
+  name: Fava Bean
+companions_unresolved:
+- name: Bean
+  original: Beans (Phaseolus vulgaris) — helps support nitrogen in companion-style planting for corn systems.
+  note: normalization_target_not_in_index

@@ -2,8 +2,8 @@ common_name: Blue Tongue
 picture: blue_tongue.webp
 scientific_name: Syzygium oleosum
 aka:
-- Blue Lilly Pilly
-- Scented Myrtle (regional common names vary)
+  - Blue Lilly Pilly
+  - Scented Myrtle (regional common names vary)
 family: Myrtaceae
 zone: 9-11
 ideal_temp_min: 65
@@ -12,14 +12,14 @@ min_temp: 26
 max_temp: 100
 perennial: true
 layers:
-- Tree
-- Shrub
+  - Tree
+  - Shrub
 plant_function:
-- Edible
-- Wildlife Attractor
-- Ornamental
-- Border Plant
-- Shade Provider
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  - Border Plant
+  - Shade Provider
 description: |-
   Blue tongue (Syzygium oleosum) is an Australian rainforest margin tree in the myrtle family, grown for aromatic foliage, cream flowers, and dark blue to purple edible fruit that stains mouths the common name promises. It typically reaches 20–40 feet (6–12 m) in cultivation with a dense crown and flaky bark on older trunks. In humid subtropical to tropical plantings it works as a hedge tree, wind-sift screen, and bird-feeding shrub that doubles as a backyard snack if fruit quality matches your selected clone.
 
@@ -35,17 +35,18 @@ purpose: |-
   Border Plant: Accepts repeated shearing in frost-free climates, so you can hold a 2 m screen along property lines without bamboo rhizome drama.
   Shade Provider: Rounded 6–12 m crowns cast humid shade under itself for understory gingers once roots are deep and mulch stays steady.
 companions:
-- Lilly Pilly — related Syzygium species can extend fruiting seasons with staggered
-  bloom
-- Brush Cherry — shares myrtle family culture and hedging uses with compatible spacing
-- Lemongrass — tough clumping herb marks dripline edges in tropical home orchards
+  - slug: syzygium-smithii
+    name: Syzygium smithii
+  - slug: brush-cherry
+    name: Brush Cherry
+  - slug: lemongrass
+    name: Lemongrass
 cautions:
-- Myrtle rust regions — check current disease pressure before importing nursery stock
-  across borders
+  - Myrtle rust regions — check current disease pressure before importing nursery stock across borders
 pests:
-- Aphids
-- Oriental Fruit Fly
-- Scale Insects
-- Whiteflies
+  - Aphids
+  - Oriental Fruit Fly
+  - Scale Insects
+  - Whiteflies
 growth_habit: Evergreen myrtle tree; cream flowers; dark blue-purple berries
 data_quality_score: 0.8

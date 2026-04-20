@@ -2,10 +2,10 @@ common_name: Spanish Plum
 picture: spanish_plum.webp
 scientific_name: Spondias purpurea
 aka:
-- Jocote
-- Red Mombin
-- Barbados Plum
-- Purple Mombin
+  - Jocote
+  - Red Mombin
+  - Barbados Plum
+  - Purple Mombin
 family: Anacardiaceae
 zone: 9b-12
 ideal_temp_min: 60
@@ -14,12 +14,12 @@ min_temp: 28
 max_temp: 110
 perennial: true
 layers:
-- Tree
+  - Tree
 plant_function:
-- Edible
-- Wildlife Attractor
-- Shade Provider
-- Windbreaker
+  - Edible
+  - Wildlife Attractor
+  - Shade Provider
+  - Windbreaker
 description: |-
   Spanish plum (Spondias purpurea) is a market label for jocote, a tropical deciduous tree bearing tart-sweet plum-like fruit ripening through warm wet-to-dry seasonal cycles across Latin America and the Caribbean. Trees commonly reach 15–30 feet (4.5–9 m), flowering on leafless wood before new growth flushes. It belongs with other Spondias in diversified warm orchards where acid-forward fruit diversifies drinks and preserves.
 
@@ -34,18 +34,19 @@ purpose: |-
   Shade Provider: Open umbrella crowns shade juvenile coffee and cacao during seasonal leaf-out on tropical slopes.
   Windbreaker: Multiple stems planted on contour trim steady trades across Caribbean hillside lots before hardwood canopy closes.
 companions:
-- Red Mombin — duplicate taxon under another common name; plant one tree, not two
-  labels
-- June Plum — related Spondias neighbor for staggered fruit personalities
-- Papaya — fast vertical fruiting partner during mombin juvenile years
+  - slug: spanish-plum
+    name: Spanish Plum
+  - slug: june-plum
+    name: June Plum
+  - slug: papaya
+    name: Papaya
 cautions:
-- Duplicate common names across Spondias—this entry is Spondias purpurea per Spanish
-  plum/jocote usage
-- Anacardiaceae sap sensitivity—gloves for heavy pruning if skin reacts
+  - Duplicate common names across Spondias—this entry is Spondias purpurea per Spanish plum/jocote usage
+  - Anacardiaceae sap sensitivity—gloves for heavy pruning if skin reacts
 pests:
-- Aphids
-- Caribbean Fruit Fly
-- Mango Seed Weevil
-- Scale Insects
+  - Aphids
+  - Caribbean Fruit Fly
+  - Mango Seed Weevil
+  - Scale Insects
 growth_habit: Deciduous tropical fruit tree; flowers on bare wood; plum-like fruit
 data_quality_score: 0.76

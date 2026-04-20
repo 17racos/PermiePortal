@@ -37,10 +37,12 @@ purpose: |-
   Windbreaker: Multiple stems and dense foliage take edge out of steady sea breezes when trained as a low tree -- protect young plants from desiccating wind until bark thickens.
   Mulcher: Rough, exfoliating bark and constant leaf shed give coarse chop-and-drop material under the drip line -- rake debris into guild beds instead of letting mats smother its own surface roots.
 companions:
-- Banana
-- Papaya
-- Legume Tree
-- Sweet Potato
+- slug: banana
+  name: Banana
+- slug: papaya
+  name: Papaya
+- slug: sweet-potato
+  name: Sweet Potato
 cautions:
 - Low frost pockets with no protection for young trees
 - Overhead irrigation that keeps foliage wet all night
@@ -56,3 +58,6 @@ pests:
 - Florida Wax Scale
 - Oleander Scale
 - Anthracnose
+companions_unresolved:
+- name: Legume Tree
+  original: Legume Tree

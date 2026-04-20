@@ -2,8 +2,8 @@ common_name: Wild Caraway
 picture: wild_caraway.webp
 scientific_name: Carum carvi
 aka:
-  - Caraway
-  - Meridian Fennel (misleading common name)
+- Caraway
+- Meridian Fennel (misleading common name)
 family: Apiaceae
 zone: 3-9
 ideal_temp_min: 45
@@ -12,12 +12,12 @@ min_temp: -30
 max_temp: 88
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Border Plant
+- Edible
+- Medicinal
+- Pollinator
+- Border Plant
 description: |-
   Caraway is the biennial-perennial spice carrot your rye bread remembers — feathery leaves, umbels of white-to-pink flowers, then seeds with that warm, resinous bite. In subtropical and tropical Americas it behaves like a cool-season worker: lush in winter and spring, cranky when nights stop cooling off. Grow for leaves, taproot experiments, and seed heads; harvest seeds when brown and crisp. Not a tropical hero, but a fun rotation herb if you refuse to only plant basil.
 
@@ -32,21 +32,25 @@ purpose: |-
   Pollinator: White-pink umbels host parasitoid wasps and mini bees before dill dominates July -- succession plant with cilantro for continuous Apiaceae bloom.
   Border Plant: Feathery cool-season rosettes edge beds in Mediterranean climates -- bolts fast when heat arrives; treat as winter crop in subtropics.
 companions:
-  - Peas
-  - Lettuce
-  - Chives
+- slug: lettuce
+  name: Lettuce
+- slug: chives
+  name: Chives
 cautions:
-  - None documented
+- None documented
 pests:
-  - Aphids
-  - Celery Leaf Miner
-  - Dill Worms
-  - Carrot Fly
-  - Carrot Rust Fly
-  - Carrot Weevil
-  - Parsnip Canker
-  - Powdery Mildew
-  - Caterpillars
-  - Swallowtail Caterpillar
+- Aphids
+- Celery Leaf Miner
+- Dill Worms
+- Carrot Fly
+- Carrot Rust Fly
+- Carrot Weevil
+- Parsnip Canker
+- Powdery Mildew
+- Caterpillars
+- Swallowtail Caterpillar
 growth_habit: Biennial umbellifer (often managed as a seed crop)
 data_quality_score: 0.75
+companions_unresolved:
+- name: Peas
+  original: Peas

@@ -2,8 +2,8 @@ common_name: Indiangrass
 picture: indiangrass.webp
 scientific_name: Sorghastrum nutans
 aka:
-- Yellow indiangrass
-- Indian grass
+  - Yellow indiangrass
+  - Indian grass
 family: Poaceae
 zone: 4-9
 ideal_temp_min: 60
@@ -12,12 +12,12 @@ min_temp: -25
 max_temp: 105
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Animal Fodder
-- Erosion Control
-- Wildlife Attractor
-- Biomass
+  - Animal Fodder
+  - Erosion Control
+  - Wildlife Attractor
+  - Biomass
 description: |-
   Indiangrass (Sorghastrum nutans) is a tall warm-season bunchgrass of North American prairies and open oak savannas, famous for golden plume-like panicles in late summer and blue-green foliage with a distinctive ligule like a rifle sight. Clumps reach 4–7 feet (1.2–2.1 m) in rich moist sites, shorter on dry slopes. It anchors restoration mixes, meadow gardens, and livestock rotations where deep-rooted natives beat annual erosion theater.
 
@@ -32,24 +32,26 @@ purpose: |-
   Wildlife Attractor: Tall stems give nesting cover for grassland birds while golden awned seed feeds sparrows and buntings -- leave winter standing crop for structure before burning per local ecological guidance.
   Biomass: Six-foot seasonal growth supplies high-carbon residue for compost piles or prescribed fire fuel -- chip or burn on rotation so thatch does not smother crowns in humid climates.
 companions:
-- Little Bluestem — complementary warm-season matrix at slightly shorter height
-- Switchgrass — taller or co-tall neighbor for layered prairie structure
-- Dense Blazingstar — forb spikes flowering among grasses without lawn inputs
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: switchgrass
+    name: Switchgrass
+  - slug: dense-blazingstar
+    name: Dense Blazingstar
 cautions:
-- Heavy shade — plants stretch and flower poorly; choose sedges for dark corners
-- Wet stagnant clay — winter crown issues; improve drainage or pick wet-prairie species
+  - Heavy shade — plants stretch and flower poorly; choose sedges for dark corners
+  - Wet stagnant clay — winter crown issues; improve drainage or pick wet-prairie species
 pests:
-- Armyworms
-- Bamboo Mite
-- Corn Earworm
-- Fall Armyworm
-- Grasshopper
-- Lubber Grasshopper
-- Rice Blast Fungus
-- Rice Water Weevil
-- Spittlebugs
-- Wireworm
-- Leaf Blight
-growth_habit: Tall warm-season bunchgrass; golden plume panicles; prairie and savanna
-  matrix species
+  - Armyworms
+  - Bamboo Mite
+  - Corn Earworm
+  - Fall Armyworm
+  - Grasshopper
+  - Lubber Grasshopper
+  - Rice Blast Fungus
+  - Rice Water Weevil
+  - Spittlebugs
+  - Wireworm
+  - Leaf Blight
+growth_habit: Tall warm-season bunchgrass; golden plume panicles; prairie and savanna matrix species
 data_quality_score: 0.82

@@ -35,9 +35,10 @@ purpose: |-
   Ground Cover: Prostrate stems root at nodes and carpet disturbed, fertile ground, outcompeting many summer weeds until heat ends the stand.
   Wildlife Attractor: Dense foliage shelters ground beetles and small spiders while seeds feed finches and other granivores through late winter.
 companions:
-- Clover
-- Dandelion
-- Plantain
+- slug: broadleaf-plantain
+  name: Broadleaf Plantain
+- slug: dandelion
+  name: Dandelion
 cautions:
 - None reported
 pests:
@@ -45,3 +46,6 @@ pests:
 - Downy Mildew
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Clover
+  original: Clover

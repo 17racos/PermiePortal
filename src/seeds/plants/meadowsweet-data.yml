@@ -34,9 +34,12 @@ purpose: |-
   Wildlife Attractor: Insect density along foamy spikes draws crab spiders and hunting wasps -- good edge habitat if you tolerate some chewed petals.
   Ornamental: Soft vertical plumes lean over rain-garden toes without formal hedge geometry -- pair with darker foliage downstream for contrast in wet beds.
 companions:
-  - Yarrow — contrasting fine foliage and flat umbels; yarrow tolerates slightly drier shoulders while meadowsweet holds the wet center.
-  - Comfrey — deep-mining mulch plant on the upslope edge; chop-and-drop feeds the moisture-loving root zone without fertilizer fan fiction.
-  - Elderberry — shrub backbone behind the herb layer; roots stabilize banks while providing dappled shade at the water’s edge.
+  - slug: yarrow
+    name: Yarrow
+  - slug: comfrey
+    name: Comfrey
+  - slug: elderberry
+    name: Elderberry
 cautions:
   - None documented
 pests:

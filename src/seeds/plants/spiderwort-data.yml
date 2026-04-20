@@ -2,8 +2,8 @@ common_name: Spiderwort
 picture: spiderwort.webp
 scientific_name: Tradescantia virginiana
 aka:
-- Virginia Spiderwort
-- Bluejacket
+  - Virginia Spiderwort
+  - Bluejacket
 family: Commelinaceae
 zone: 4-9
 ideal_temp_min: 40
@@ -12,12 +12,12 @@ min_temp: -30
 max_temp: 100
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Pollinator
-- Ground Cover
-- Edible
-- Ornamental
+  - Pollinator
+  - Ground Cover
+  - Edible
+  - Ornamental
 description: |-
   Spiderwort (Tradescantia virginiana) is a clump-forming perennial of eastern North American meadows and open woods, with arching leaves and three-petaled blue-violet flowers that open fresh each morning for weeks. Plants reach 1–2 feet (30–60 cm), self-sowing politely in gardens that tolerate a little chaos. Young shoots are mild edibles where ID and spray history are clean.
 
@@ -32,16 +32,18 @@ purpose: |-
   Edible: Mucilaginous young tips and flowers add mild crunch to wild salads when ID and spray history are both clean.
   Ornamental: Slender arching foliage and daily-fresh petals bridge formal border edges to meadow energy without resodding.
 companions:
-- Wild Bergamot — aromatic neighbor extending pollinator service into afternoon
-- Little Bluestem — warm-season grass matrix sharing sun and drainage
-- Milkweed — complementary forb for pollinator strips at taller height
+  - slug: wild-bergamot
+    name: Wild Bergamot
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: milkweed
+    name: Milkweed
 cautions:
-- Wet stagnant soil — crown rot invites replacement shopping
-- Invasive relatives exist—keep native species distinct from wandering houseplant
-  tradescantias
+  - Wet stagnant soil — crown rot invites replacement shopping
+  - Invasive relatives exist—keep native species distinct from wandering houseplant tradescantias
 pests:
-- Aphids
-- Spider Mites
-- Slugs
+  - Aphids
+  - Spider Mites
+  - Slugs
 growth_habit: Clumping perennial; blue three-petaled flowers; meadow and open woodland
 data_quality_score: 0.8

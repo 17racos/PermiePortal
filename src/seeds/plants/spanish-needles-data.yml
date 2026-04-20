@@ -31,9 +31,12 @@ purpose: |-
   Wildlife Attractor: Barbed achenes stick to deer fur while foliage hosts painted lady larvae in weedy succession plots.
   Dynamic Accumulator: Fast annual biomass lifts nutrients from compacted alley soils -- mow before bur marigold seeds deploy if compost piles need the carbon.
 companions:
-  - Showy Partridge Pea — yellow-flowering annual neighbor in disturbed insectary strips
-  - Sunflower — taller composite backdrop sharing full sun and bee traffic
-  - Velvetleaf — another historic field weed for comparative ID training, not romance
+  - slug: partridge-pea
+    name: Partridge Pea
+  - slug: sunflower
+    name: Sunflower
+  - slug: velvetleaf
+    name: Velvetleaf
 cautions:
   - Seeds cling aggressively to clothing and fur—site away from high-traffic paths if that annoys you
 pests:

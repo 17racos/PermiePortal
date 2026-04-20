@@ -32,9 +32,10 @@ purpose: |-
   Wildlife Attractor: Fluffy pink heads feed solitary bees along greenhouse edges where pots stay contained.
   Ornamental: Sensitive leaf motion reads like animation for courtyard pots even though the species self-seeds aggressively outdoors in humid tropics.
 companions:
-  - Sunflower
-  - Basil
-  - Low-growing herbs that do not mind occasional shade
+  - slug: sunflower
+    name: Sunflower
+  - slug: basil
+    name: Basil
 cautions:
   - Letting it escape into conservation areas where it competes with natives
   - Overwatering heavy clay that never dries
@@ -71,3 +72,7 @@ pests:
   - Velvetbean Caterpillar
 plant_function_unresolved:
   - Soil Improvement
+companion_categories:
+  - name: Low-growing herbs that do not mind occasional shade
+    original: Low-growing herbs that do not mind occasional shade
+    type: system

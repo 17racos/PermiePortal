@@ -2,7 +2,7 @@ common_name: White Wild Indigo
 picture: white_wild_indigo.webp
 scientific_name: Baptisia alba
 aka:
-- White False Indigo
+  - White False Indigo
 family: Fabaceae
 zone: 4-9
 ideal_temp_min: 40
@@ -11,12 +11,12 @@ min_temp: -25
 max_temp: 100
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Nitrogen Fixer
-- Pollinator
-- Ornamental
-- Erosion Control
+  - Nitrogen Fixer
+  - Pollinator
+  - Ornamental
+  - Erosion Control
 description: |-
   White wild indigo (Baptisia alba) is a long-lived legume perennial of southeastern North American prairies and open woods, with blue-green trifoliate leaves and tall spikes of white pea flowers in late spring. Plants reach 3–4 feet (0.9–1.2 m), forming shrub-like clumps with deep taproots. It fixes nitrogen slowly but steadily—patience beats bagged urea for lean-soil ethics.
 
@@ -31,42 +31,45 @@ purpose: |-
   Ornamental: Glaucous trifoliate mounds read like small shrubs before bloom -- white candles rise from blue-green cushions in lean sun.
   Erosion Control: Taproot anchors dry prairie banks -- tolerates droughty sand where Baptisia australis wants more moisture.
 companions:
-- Little Bluestem — warm-season grass matrix sharing sun and drainage
-- Orange Coneflower — yellow forb contrast after indigo bloom fades
-- Milkweed — complementary pollinator forb with different bloom timing
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: orange-coneflower
+    name: Orange Coneflower
+  - slug: milkweed
+    name: Milkweed
 cautions:
-- Transplanting large clumps—taproot sulk is legendary
-- Overwatering + heavy soil — crown rot invites replacement shopping
+  - Transplanting large clumps—taproot sulk is legendary
+  - Overwatering + heavy soil — crown rot invites replacement shopping
 pests:
-- Aphids
-- Banded Cucumber Beetle
-- Bean Aphid
-- Bean Leaf Beetle
-- Bean Weevil
-- Corn Earworm
-- Cowpea Curculio
-- Fall Armyworm
-- Japanese Beetles
-- Kudzu Bug
-- Locust Borer
-- Locust Leaf Miner
-- Lubber Grasshopper
-- Pea Moth
-- Pea Weevil
-- Reniform Nematode
-- Root Aphid
-- Soybean Looper
-- Spider Mites
-- Spittlebugs
-- Stink Bug
-- Striped Cucumber Beetle
-- Fusarium Wilt
-- Ganoderma Butt Rot
-- Pythium Root Rot
-- Spotted Cucumber Beetle
-- White Rot
-- Brown Marmorated Stink Bug
-- Harlequin Ladybird
-- Velvetbean Caterpillar
+  - Aphids
+  - Banded Cucumber Beetle
+  - Bean Aphid
+  - Bean Leaf Beetle
+  - Bean Weevil
+  - Corn Earworm
+  - Cowpea Curculio
+  - Fall Armyworm
+  - Japanese Beetles
+  - Kudzu Bug
+  - Locust Borer
+  - Locust Leaf Miner
+  - Lubber Grasshopper
+  - Pea Moth
+  - Pea Weevil
+  - Reniform Nematode
+  - Root Aphid
+  - Soybean Looper
+  - Spider Mites
+  - Spittlebugs
+  - Stink Bug
+  - Striped Cucumber Beetle
+  - Fusarium Wilt
+  - Ganoderma Butt Rot
+  - Pythium Root Rot
+  - Spotted Cucumber Beetle
+  - White Rot
+  - Brown Marmorated Stink Bug
+  - Harlequin Ladybird
+  - Velvetbean Caterpillar
 growth_habit: Long-lived legume perennial; white pea flower spikes; lean sunny soils
 data_quality_score: 0.82

@@ -2,8 +2,8 @@ common_name: Sweet Granadilla
 picture: sweet_granadilla.webp
 scientific_name: Passiflora ligularis
 aka:
-  - Granadilla
-  - Sweet passion fruit
+- Granadilla
+- Sweet passion fruit
 family: Passifloraceae
 zone: 10-11
 ideal_temp_min: 65
@@ -12,12 +12,12 @@ min_temp: 30
 max_temp: 95
 perennial: true
 layers:
-  - Vine
+- Vine
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Erosion Control
-  - Shade Provider
+- Edible
+- Wildlife Attractor
+- Erosion Control
+- Shade Provider
 description: |-
   Sweet granadilla is a vigorous passionflower vine with big, leathery fruit and clear, sweet pulp—less “pucker war” than some purple passion fruits. It wants heat and vertical real estate; in subtropical and tropical Americas treat it as a pampered perennial on a strong trellis, not a shrug-and-ignore ground cover.
 
@@ -32,13 +32,24 @@ purpose: |-
   Erosion Control: Coiling stems knit cocoa-shell mulch on terrace banks once hog panels give vines purchase against cloudburst wash.
   Shade Provider: Broad grape-leaf canopy roofs nursery tables and goat loafing sheds after arbor posts pass engineer loads for seasonal fruit tonnage.
 companions:
-  - Comfrey
-  - Beans
-  - Perennial Peanut
+- slug: comfrey
+  name: Comfrey
+- slug: perennial-peanut
+  name: Perennial Peanut
+- slug: fava-bean
+  name: Fava Bean
 cautions:
-  - Weak trelliswork that collapses under fruit load
-  - Frost pockets with no windbreak for young vines
+- Weak trelliswork that collapses under fruit load
+- Frost pockets with no windbreak for young vines
 pests:
-  - Aphids
-  - Whiteflies
-  - Caterpillars
+- Aphids
+- Whiteflies
+- Caterpillars
+companions_unresolved:
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index
+companions_normalized:
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

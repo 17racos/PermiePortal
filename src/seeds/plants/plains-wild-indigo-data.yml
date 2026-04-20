@@ -2,8 +2,8 @@ common_name: Plains Wild Indigo
 picture: plains_wild_indigo.webp
 scientific_name: Baptisia bracteata
 aka:
-- Longbract Wild Indigo
-- Cream Wild Indigo
+  - Longbract Wild Indigo
+  - Cream Wild Indigo
 family: Fabaceae
 zone: 3-9
 ideal_temp_min: 40
@@ -12,12 +12,12 @@ min_temp: -35
 max_temp: 100
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Nitrogen Fixer
-- Pollinator
-- Erosion Control
-- Ornamental
+  - Nitrogen Fixer
+  - Pollinator
+  - Erosion Control
+  - Ornamental
 description: |-
   Plains wild indigo (Baptisia bracteata) is a mounding legume perennial of central North American prairies and open woods, bearing cream to pale yellow pea flowers in late spring and blue-green trifoliate leaves on bushy plants about 1–2 feet (30–60 cm) tall, often wider than high. Deep taproots and rhizobia partnerships build soil under sunny borders without demanding irrigation. It suits meadow strips, gravel gardens, and any design tired of thirsty foundation shrubs.
 
@@ -32,46 +32,45 @@ purpose: |-
   Erosion Control: Woody crown and thick lateral roots anchor gravelly slopes and reconstructed berms where shallow-rooted annuals wash -- tolerates drought once established; wet clay rots the crown honest and fast.
   Ornamental: Silvery-blue trifoliate mounds read as living boulders in gravel gardens before inflorescences spike -- pairs visually with little bluestem without competing for identical root depth if spaced generously.
 companions:
-- Little Bluestem — warm-season grass matrix sharing sun and drainage with complementary
-  texture
-- Prairie Coneflower — later-season forb neighbor extending color after indigo bloom
-  fades
-- Milkweed — complementary pollinator plant with different bloom time in the same
-  strip
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: prairie-coneflower
+    name: Prairie Coneflower
+  - slug: milkweed
+    name: Milkweed
 cautions:
-- Transplant shock — large taproots sulk; direct-seed or move young plants only
-- Overwatering + heavy soil — crown rot invites replacement shopping
+  - Transplant shock — large taproots sulk; direct-seed or move young plants only
+  - Overwatering + heavy soil — crown rot invites replacement shopping
 pests:
-- Aphids
-- Banded Cucumber Beetle
-- Bean Aphid
-- Bean Leaf Beetle
-- Bean Weevil
-- Corn Earworm
-- Cowpea Curculio
-- Fall Armyworm
-- Japanese Beetles
-- Kudzu Bug
-- Locust Borer
-- Locust Leaf Miner
-- Lubber Grasshopper
-- Pea Moth
-- Pea Weevil
-- Reniform Nematode
-- Root Aphid
-- Soybean Looper
-- Spider Mites
-- Spittlebugs
-- Stink Bug
-- Striped Cucumber Beetle
-- Fusarium Wilt
-- Ganoderma Butt Rot
-- Pythium Root Rot
-- Spotted Cucumber Beetle
-- White Rot
-- Brown Marmorated Stink Bug
-- Harlequin Ladybird
-- Velvetbean Caterpillar
-growth_habit: Low mounding legume perennial; cream pea flowers; deep-rooted prairie
-  species
+  - Aphids
+  - Banded Cucumber Beetle
+  - Bean Aphid
+  - Bean Leaf Beetle
+  - Bean Weevil
+  - Corn Earworm
+  - Cowpea Curculio
+  - Fall Armyworm
+  - Japanese Beetles
+  - Kudzu Bug
+  - Locust Borer
+  - Locust Leaf Miner
+  - Lubber Grasshopper
+  - Pea Moth
+  - Pea Weevil
+  - Reniform Nematode
+  - Root Aphid
+  - Soybean Looper
+  - Spider Mites
+  - Spittlebugs
+  - Stink Bug
+  - Striped Cucumber Beetle
+  - Fusarium Wilt
+  - Ganoderma Butt Rot
+  - Pythium Root Rot
+  - Spotted Cucumber Beetle
+  - White Rot
+  - Brown Marmorated Stink Bug
+  - Harlequin Ladybird
+  - Velvetbean Caterpillar
+growth_habit: Low mounding legume perennial; cream pea flowers; deep-rooted prairie species
 data_quality_score: 0.81

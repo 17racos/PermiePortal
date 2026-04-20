@@ -2,7 +2,7 @@ common_name: Cockspur Hawthorn
 picture: cockspur_hawthorn.webp
 scientific_name: Crataegus crus-galli
 aka:
-- Cockspur Thorn
+  - Cockspur Thorn
 family: Rosaceae
 zone: 4-8
 ideal_temp_min: 55
@@ -11,14 +11,14 @@ min_temp: -30
 max_temp: 100
 perennial: true
 layers:
-- Tree
-- Shrub
+  - Tree
+  - Shrub
 plant_function:
-- Edible
-- Wildlife Attractor
-- Windbreaker
-- Border Plant
-- Ornamental
+  - Edible
+  - Wildlife Attractor
+  - Windbreaker
+  - Border Plant
+  - Ornamental
 description: |-
   Cockspur hawthorn (Crataegus crus-galli) is a native North American hawthorn of thickets, pastures, and woodland edges, armed with long thorns and bearing white spring blossoms followed by red to maroon haws. It typically forms a broad crown 20–30 feet (6–9 m) tall with glossy, often nearly evergreen leaves in mild winters. In hedgerows it is a livestock barrier and wildlife pantry—plan access routes before the thorns write policy.
 
@@ -34,51 +34,52 @@ purpose: |-
   Border Plant: Long thorns and suckering thickets make honest livestock barriers along fence lines without electric wire alone.
   Ornamental: Glossy leaves, showy thorns, and heavy fruit display give Crataegus crus-galli more winter drama than flat hedges.
 companions:
-- American Plum — Prunus neighbor extends fruit succession and edge habitat structure
-- Wild Bergamot — increases beneficial insect traffic during hawthorn bloom
-- Black Elderberry — taller shrub layer adds late-summer berries without identical
-  thorn architecture
+  - slug: american-plum
+    name: American Plum
+  - slug: wild-bergamot
+    name: Wild Bergamot
+  - slug: elderberry
+    name: Elderberry
 cautions:
-- Fire Blight — warm wet springs can move bacterial blossom blight through rosaceous
-  flowers
+  - Fire Blight — warm wet springs can move bacterial blossom blight through rosaceous flowers
 pests:
-- Apple Maggot
-- Apple Scab
-- Bagworm
-- Blackberry Psyllid
-- Borers
-- Cherry Fruit Fly
-- Codling Moth
-- Cyclamen Mite
-- Fall Webworm
-- Japanese Beetles
-- Lesser Peachtree Borer
-- Oriental Fruit Fly
-- Oriental Fruit Moth
-- Peach Twig Borer
-- Peachtree Borer
-- Pear Psylla
-- Plum Curculio
-- Raspberry Beetle
-- Raspberry Cane Borer
-- Rose Slug
-- Scale Insects
-- Sparganothis Fruitworm
-- Spittlebugs
-- Stink Bug
-- Strawberry Root Weevil
-- Twig Girdlers
-- Vine Weevil
-- Brown Rot
-- Fire Blight
-- Gall Mite
-- Leaf Blight
-- Leaf Spot
-- Rust Mite
-- Spotted Lanternfly
-- Brown Marmorated Stink Bug
-- Eastern Tent Caterpillar
-- Harlequin Ladybird
-- Tent Caterpillar
+  - Apple Maggot
+  - Apple Scab
+  - Bagworm
+  - Blackberry Psyllid
+  - Borers
+  - Cherry Fruit Fly
+  - Codling Moth
+  - Cyclamen Mite
+  - Fall Webworm
+  - Japanese Beetles
+  - Lesser Peachtree Borer
+  - Oriental Fruit Fly
+  - Oriental Fruit Moth
+  - Peach Twig Borer
+  - Peachtree Borer
+  - Pear Psylla
+  - Plum Curculio
+  - Raspberry Beetle
+  - Raspberry Cane Borer
+  - Rose Slug
+  - Scale Insects
+  - Sparganothis Fruitworm
+  - Spittlebugs
+  - Stink Bug
+  - Strawberry Root Weevil
+  - Twig Girdlers
+  - Vine Weevil
+  - Brown Rot
+  - Fire Blight
+  - Gall Mite
+  - Leaf Blight
+  - Leaf Spot
+  - Rust Mite
+  - Spotted Lanternfly
+  - Brown Marmorated Stink Bug
+  - Eastern Tent Caterpillar
+  - Harlequin Ladybird
+  - Tent Caterpillar
 growth_habit: Thorny hawthorn; glossy leaves; white flowers; red-maroon haws
 data_quality_score: 0.8

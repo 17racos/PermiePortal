@@ -33,9 +33,10 @@ purpose: |-
   Border Plant: Low Heteranthera limosa carpets visually soften pond margins, rain-garden weirs, and irrigation spillways where hard edges would glare -- pairs with pickerelweed and spatterdock for staggered height without monoculture mulch.
   Erosion Control: Creeping stems and fibrous roots knit seasonally exposed mud, cutting wave splash and sheet flow that would otherwise undercut liner edges -- thin overcrowded mats if stagnant pockets become mosquito nurseries.
 companions:
-  - Pickerelweed
-  - Duck Potato
-  - Spatterdock
+  - slug: pickerelweed
+    name: Pickerelweed
+  - slug: spatterdock
+    name: Spatterdock
 cautions:
   - None documented
 pests:
@@ -43,3 +44,7 @@ pests:
   - Snails
 growth_habit: Mat-forming aquatic herb
 data_quality_score: 0.7
+companion_categories:
+  - name: Duck Potato
+    original: Duck Potato
+    type: ecosystem

@@ -35,9 +35,8 @@ purpose: |-
   Border Plant: Chartreuse, burgundy, and lime cultivars edge beds with color density that reads designed rather than weedy -- afternoon shade inland reduces bleaching on thinnest leaves.
   Wildlife Attractor: Dense mats shelter predatory ground beetles and spiders that hunt exposed soil pests -- flowers are inconspicuous but still pull small pollinators in warm months.
 companions:
-- Coleus
-- Marigold
-- Petunia
+- slug: marigold
+  name: Marigold
 cautions:
 - None known
 pests:
@@ -46,3 +45,8 @@ pests:
 - Spider Mites
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Coleus
+  original: Coleus
+- name: Petunia
+  original: Petunia

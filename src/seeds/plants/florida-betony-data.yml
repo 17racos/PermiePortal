@@ -30,9 +30,12 @@ purpose: |-
   Border Plant: Foot-tall drifts edge sunny herb beds where you want vertical flower spikes without shrub shade on southern peppers.
   Ground Cover: Spreads by underground tubers on moist sites -- expect to dig candy-like roots from paths if you let it wander; some cooks roast small tubers like nuts after positive ID.
 companions:
-  - Rosemary (Salvia rosmarinus) — shares sun-forward conditions and supports aromatic biodiversity.
-  - Thyme (Thymus vulgaris) — low ground layer stabilizes soil and keeps pollinator routes clear.
-  - Echinacea (Echinacea purpurea) — similar pollinator relationships and flowering timing for a mixed perennial band.
+  - slug: rosemary
+    name: Rosemary
+  - slug: thyme
+    name: Thyme
+  - slug: echinacea
+    name: Echinacea
 cautions:
   - Avoid planting in persistently wet, heavy soil; crowns can decline in humid stagnation.
 pests:

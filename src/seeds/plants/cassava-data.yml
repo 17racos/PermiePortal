@@ -2,10 +2,10 @@ common_name: Cassava
 picture: cassava.webp
 scientific_name: Manihot esculenta
 aka:
-  - Manioc
-  - Yuca
-  - Tapioca plant
-  - Sweet Cassava
+- Manioc
+- Yuca
+- Tapioca plant
+- Sweet Cassava
 family: Euphorbiaceae
 zone: 8-12
 ideal_temp_min: 68
@@ -14,12 +14,12 @@ min_temp: 50
 max_temp: 104
 perennial: true
 layers:
-  - Shrub
+- Shrub
 plant_function:
-  - Edible
-  - Animal Fodder
-  - Erosion Control
-  - Biofuel
+- Edible
+- Animal Fodder
+- Erosion Control
+- Biofuel
 description: |-
   Cassava is a shrubby perennial that can reach heights of 6 to 8 feet (1.8 to 2.4 meters), characterized by smooth, erect stems and large, palmate leaves with dark green coloration and reddish veins. The plant produces starchy, tuberous roots that are a staple food in many tropical regions. While primarily grown for its edible roots, cassava also offers ornamental value due to its lush foliage.
 
@@ -34,14 +34,26 @@ purpose: |-
   Erosion Control: fibrous root mats knit sloping tropical fields within months of planting, slowing sheet erosion on red clays when rows follow contour and residues stay on site.
   Biofuel: high-starch roots feed ethanol fermenters and biogas digesters in tropical pilot plants where washwater acidity is managed so neighboring streams are not sacrificed for yield.
 companions:
-  - Corn
-  - Beans
-  - Peanuts
+- slug: fava-bean
+  name: Fava Bean
 cautions:
-  - Sweet Potato
+- Sweet Potato
 pests:
-  - Cassava Mealybug
-  - Cassava Green Mite
-  - Whiteflies
+- Cassava Mealybug
+- Cassava Green Mite
+- Whiteflies
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Corn
+  original: Corn
+- name: Bean
+  original: Beans
+  note: normalization_target_not_in_index
+- name: Peanut
+  original: Peanuts
+  note: normalization_target_not_in_index
+companions_normalized:
+- original: Beans
+  resolved_slug: fava-bean
+  name: Fava Bean

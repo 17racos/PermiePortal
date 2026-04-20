@@ -35,9 +35,8 @@ purpose: |-
   Ground Cover: Rhizomes stolon through damp partial shade to replace turf where Iris laevigata lines pond returns with less mowing drama in zone 5-11 beds you contain with buried edge or basket planting.
   Aquatic: Roots tolerate rhizome baskets an inch or two underwater in eddy bays where still water lets white involucral bracts reflect to pollinating flies without drowning crowns in stagnant black muck.
 companions:
-- Marsh Gladiolus
-- Lady's Mantle
-- Meadowsweet
+- slug: meadowsweet
+  name: Meadowsweet
 cautions:
 - None noted
 pests:
@@ -45,3 +44,8 @@ pests:
 - Whiteflies
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Marsh Gladiolus
+  original: Marsh Gladiolus
+- name: Lady's Mantle
+  original: Lady's Mantle

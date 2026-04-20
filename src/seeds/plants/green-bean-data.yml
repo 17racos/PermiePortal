@@ -33,10 +33,12 @@ purpose: |-
   Pollinator: White to lilac papilionaceous flowers offer nectar and pollen to small bees while the canopy is still low -- open flowers during morning hours when beneficials are active before heat shuts them down.
   Ground Cover: Bush types form a low leaf canopy that shades soil between rows -- it suppresses some annual weeds and slows evaporation until pods finish, though it will not outcompete perennial thugs without cultivation.
 companions:
-- Corn
-- Carrot
-- Cucumber
-- Marigold
+- slug: carrot
+  name: Carrot
+- slug: cucumber
+  name: Cucumber
+- slug: marigold
+  name: Marigold
 cautions:
 - Onion
 - Garlic
@@ -74,3 +76,6 @@ pests:
 - Velvetbean Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Corn
+  original: Corn

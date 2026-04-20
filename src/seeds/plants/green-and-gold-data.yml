@@ -2,8 +2,8 @@ common_name: Green and Gold
 picture: green_and_gold.webp
 scientific_name: Chrysogonum virginianum
 aka:
-  - Goldenstar
-  - Chrysogonum
+- Goldenstar
+- Chrysogonum
 family: Asteraceae
 zone: 5-9
 ideal_temp_min: 55
@@ -12,13 +12,13 @@ min_temp: -10
 max_temp: 95
 perennial: true
 layers:
-  - Ground Cover
-  - Herb
+- Ground Cover
+- Herb
 plant_function:
-  - Ground Cover
-  - Pollinator
-  - Ornamental
-  - Erosion Control
+- Ground Cover
+- Pollinator
+- Ornamental
+- Erosion Control
 description: |-
   Green and gold is a low, spreading native aster-family perennial from eastern North America, forming bright yellow daisy-like blooms over evergreen rosettes of hairy leaves. Mature patches stay under about 8 inches tall in bloom and slowly colonize by short stolons, making a polite woodland edge ground layer rather than a turf replacement thug.
 
@@ -35,20 +35,24 @@ purpose: |-
   Ornamental: Bright gold stars against deep green, hairy foliage read clean along woodland paths and pond margins -- reads intentional where lawn would demand irrigation and mowing for the same visual line.
   Erosion Control: Fibrous roots and low stems intercept rain splash on shaded slopes -- pair with mulch to keep soil from washing between downpours in humid climates.
 companions:
-  - Oak — dappled shade and leaf mulch mirror this plant’s woodland edge niche while roots occupy deeper horizons.
-  - Fern — shares moisture-retentive, shady conditions without outcompeting for low light the way turf grasses would.
-  - Wild Ginger — complementary low ground layer that occupies slightly different soil chemistry and spacing, reducing bare mud between clumps.
+- slug: wild-ginger
+  name: Wild Ginger
 cautions:
-  - English Ivy
-  - Japanese Honeysuckle
+- English Ivy
+- Japanese Honeysuckle
 pests:
-  - Aphids
-  - Banded Winged Whitefly
-  - Greenhouse Whitefly
-  - Lettuce Aphid
-  - Lubber Grasshopper
-  - Root Aphid
-  - Slugs
-  - Snails
+- Aphids
+- Banded Winged Whitefly
+- Greenhouse Whitefly
+- Lettuce Aphid
+- Lubber Grasshopper
+- Root Aphid
+- Slugs
+- Snails
 growth_habit: Low stoloniferous perennial ground cover; yellow star-shaped flowers
 data_quality_score: 0.75
+companions_unresolved:
+- name: Oak
+  original: Oak — dappled shade and leaf mulch mirror this plant’s woodland edge niche while roots occupy deeper horizons.
+- name: Fern
+  original: Fern — shares moisture-retentive, shady conditions without outcompeting for low light the way turf grasses would.

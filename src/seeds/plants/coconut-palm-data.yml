@@ -2,9 +2,9 @@ common_name: Coconut Palm
 picture: coconut_palm.webp
 scientific_name: Cocos nucifera
 aka:
-- Coconut
-- Coco
-- Coconut Tree
+  - Coconut
+  - Coco
+  - Coconut Tree
 family: Arecaceae
 zone: 10-13
 ideal_temp_min: 75
@@ -13,14 +13,14 @@ min_temp: 28
 max_temp: 105
 perennial: true
 layers:
-- Tree
-- Canopy
+  - Tree
+  - Canopy
 plant_function:
-- Edible
-- Animal Fodder
-- Windbreaker
-- Shade Provider
-- Mulcher
+  - Edible
+  - Animal Fodder
+  - Windbreaker
+  - Shade Provider
+  - Mulcher
 description: |-
   Coconut palm (Cocos nucifera) is a tall single-trunk palm of tropical coasts and humid lowlands, famous for copra, cooking oil, sap, fiber, and the iconic nut that floats between islands. Mature specimens commonly reach 50–80 feet (15–24 m) in cultivation, with pinnate fronds forming a high crown. In permaculture it is a long-lived staple tree for humid tropics and frost-free subtropical margins where salt spray and wind are part of daily weather.
 
@@ -36,26 +36,23 @@ purpose: |-
   Shade Provider: High canopy throws shifting noon shade over cacao, young banana mats, and understory tubers during equatorial sun peaks.
   Mulcher: Fallen fronds and spathes become slow-decay coarse mulch that suppresses weeds and cushions soil under climbing crops.
 companions:
-- Banana — quick herbaceous shade and biomass at the stem base while juvenile palms
-  establish
-- Papaya — fast fruiting gap-filler in the young palm understory before the crown
-  closes
-- Sweet Potato — living ground cover stabilizes soil around irrigation rings without
-  competing for canopy
+  - slug: banana
+    name: Banana
+  - slug: papaya
+    name: Papaya
+  - slug: sweet-potato
+    name: Sweet Potato
 cautions:
-- Falling fruit and fronds — serious strike hazard; do not site over paths, vehicles,
-  or roofs you like
-- Cold wet soil — young palms rot in cool, saturated media even if air temperatures
-  look mild
+  - Falling fruit and fronds — serious strike hazard; do not site over paths, vehicles, or roofs you like
+  - Cold wet soil — young palms rot in cool, saturated media even if air temperatures look mild
 pests:
-- Coconut Mite
-- Palm Weevil
-- Palmetto Weevil
-- Red Palm Weevil
-- Rhinoceros Beetle
-- Scale Insects
-- Ganoderma Butt Rot
-- Heart Rot
-growth_habit: Single-trunk pinnate palm; tropical coastal; very tall in standard types;
-  long-lived perennial
+  - Coconut Mite
+  - Palm Weevil
+  - Palmetto Weevil
+  - Red Palm Weevil
+  - Rhinoceros Beetle
+  - Scale Insects
+  - Ganoderma Butt Rot
+  - Heart Rot
+growth_habit: Single-trunk pinnate palm; tropical coastal; very tall in standard types; long-lived perennial
 data_quality_score: 0.82

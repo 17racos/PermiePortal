@@ -33,9 +33,10 @@ purpose: |-
   Timber: Dense yellow-brown wood serves local construction and tool stock where rotations respect slow tropical growth -- export ethics still matter; do not cosplay sustainable harvest on paper only.
   Wildlife Attractor: Massive canopy flowers and fallen fruit feed monkeys, parrots, and beetles in Amazonian systems -- heavy fruit also dents anything parked under loading branches.
 companions:
-- Cupuacu
-- Ice Cream Bean Tree
-- Understory shade-tolerant crops
+- slug: cupuacu
+  name: Cupuacu
+- slug: ice-cream-bean-tree
+  name: Ice Cream Bean Tree
 cautions:
 - Calcareous water without organic buffering
 - Marginal chill without protection
@@ -45,3 +46,7 @@ pests:
 - caterpillars
 growth_habit: Large tropical canopy tree
 data_quality_score: 0.68
+companion_categories:
+- name: Understory shade-tolerant crops
+  original: Understory shade-tolerant crops
+  type: system

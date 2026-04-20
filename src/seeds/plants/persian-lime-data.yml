@@ -34,9 +34,12 @@ purpose: |-
   Wildlife Attractor: Split limes feed mockingbirds and rats along orchard floor unless sanitation crews run daily -- poultry under trees convert drops to eggs with honest tradeoffs for scratched mulch.
   Border Plant: Standard or semi-dwarf frames patio corners and driveway islands when skirt-pruned for mower clearance -- mulch ring beats turf volcanoes for feeder-root health in humid subtropics.
 companions:
-  - Comfrey — chop-and-drop outside the trunk zone to feed fungi without suffocating feeder roots.
-  - Nasturtium — aphid magnet at the row edge; edible flowers for salads while scouts watch pressure.
-  - Marigold — bright ground-level indicator plantings that pair with citrus guild aesthetics and insect observation.
+  - slug: comfrey
+    name: Comfrey
+  - slug: nasturtium
+    name: Nasturtium
+  - slug: marigold
+    name: Marigold
 cautions:
   - Walnut
 pests:

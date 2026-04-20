@@ -34,9 +34,12 @@ purpose: |-
   Shade Provider: Rounded 6–12 m crown gives dappled humid-tropical shade for understory ginger, turmeric, or vanilla on mulched berms -- open interior pruning improves airflow where night humidity stacks anthracnose pressure.
   Medicinal: Bark and leaf decoctions appear in Caribbean folk materia medica for parasitic and fever narratives tied to acetogenin chemistry -- internal use belongs with trained practitioners because therapeutic margin and species ID errors are both real risks.
 companions:
-  - Soursop — overlapping pollination ecology and management rhythm; scouting for annona pests stays one walkthrough instead of two departments.
-  - Banana — quick biomass and evaporative cooling at the edge; keep bananas from shading the crown once the tree is fruiting age.
-  - Pigeon Pea — chop-and-drop nitrogen and living stake culture on the sunny side without running roots through the annona crown.
+  - slug: soursop
+    name: Soursop
+  - slug: banana
+    name: Banana
+  - slug: pigeon-pea
+    name: Pigeon Pea
 cautions:
   - None documented
 pests:

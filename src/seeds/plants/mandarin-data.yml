@@ -30,9 +30,12 @@ purpose: |-
   Wildlife Attractor: Split fruit and dropped peels draw wasps and mockingbirds -- pick before full drop if ground-forager traffic conflicts with barefoot traffic.
   Shade Provider: Rounded evergreen canopy cools lettuce and herbs in the drip line -- mulch wide but keep mulch back from bark to avoid phytophthora collars in humid climates.
 companions:
-  - Rosemary (Salvia rosmarinus) — aromatic understory that matches citrus sun and helps reduce bare soil.
-  - Marigold (Tagetes patula) — nectar flowers bring beneficial insects and add visible monitoring.
-  - Garlic (Allium sativum) — helps diversify the bed scent and rotation pattern around fruit trees.
+  - slug: rosemary
+    name: Rosemary
+  - slug: marigold
+    name: Marigold
+  - slug: garlic
+    name: Garlic
 cautions:
   - Protect from frost; cold-stunned trees often become pest targets.
 pests:

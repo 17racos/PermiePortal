@@ -2,8 +2,8 @@ common_name: Vines
 picture: vines.webp
 scientific_name: Polyculture (multiple species)
 aka:
-  - Vertical Layer
-  - Climbing Guild Members
+- Vertical Layer
+- Climbing Guild Members
 family: Various (design pattern)
 zone: 8-11
 ideal_temp_min: 40
@@ -12,13 +12,13 @@ min_temp: 15
 max_temp: 105
 perennial: true
 layers:
-  - Vine
+- Vine
 plant_function:
-  - Shade Provider
-  - Edible
-  - Wildlife Attractor
-  - Pollinator
-  - Erosion Control
+- Shade Provider
+- Edible
+- Wildlife Attractor
+- Pollinator
+- Erosion Control
 description: |-
   This is not one species — it is the vertical layer in a food forest. Vines turn fence lines, trellises, and young trees (carefully) into production space: passionfruit, grapes, yams, beans, and gourds all climb somewhere. subtropical and tropical Americas gets brutal sun and sudden downpours, so trellis engineering matters as much as the plant list.
 
@@ -36,14 +36,18 @@ purpose: |-
   Pollinator: Large cucurbit and passiflora blossoms open dawn-ready for specialist bees -- night-flowering yams shift the shift for sphinx moths where included.
   Erosion Control: Wisteria-class roots and kudzu-grade cover armor cut banks only when you contain spread -- otherwise you traded erosion for invasion paperwork.
 companions:
-  - Passionflower
-  - Grape
-  - Pole Bean
+- slug: passionflower
+  name: Passionflower
 cautions:
-  - Letting invasive ornamentals replace food-bearing climbers
+- Letting invasive ornamentals replace food-bearing climbers
 pests:
-  - Aphids
-  - Whiteflies
-  - Caterpillars
+- Aphids
+- Whiteflies
+- Caterpillars
 growth_habit: Mixed guild
 data_quality_score: 0.65
+companions_unresolved:
+- name: Grape
+  original: Grape
+- name: Pole Bean
+  original: Pole Bean

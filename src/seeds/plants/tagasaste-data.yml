@@ -2,8 +2,8 @@ common_name: Tagasaste
 picture: tagasaste.webp
 scientific_name: Chamaecytisus palmensis
 aka:
-  - Tree Lucerne
-  - Cytisus proliferus
+- Tree Lucerne
+- Cytisus proliferus
 family: Fabaceae
 zone: 8-10
 ideal_temp_min: 60°F (16°C)
@@ -12,16 +12,16 @@ min_temp: 20°F (-6°C)
 max_temp: 95°F (35°C)
 perennial: true
 layers:
-  - Shrub
-  - Sub-Canopy
+- Shrub
+- Sub-Canopy
 plant_function:
-  - Nitrogen Fixer
-  - Animal Fodder
-  - Erosion Control
-  - Windbreaker
-  - Wildlife Attractor
-  - Pollinator
-  - Ornamental
+- Nitrogen Fixer
+- Animal Fodder
+- Erosion Control
+- Windbreaker
+- Wildlife Attractor
+- Pollinator
+- Ornamental
 description: |-
   Tagasaste (*Chamaecytisus palmensis*), commonly known as Tree Lucerne, is a fast-growing evergreen shrub or small tree native to the Canary Islands. It typically reaches heights of 3 to 6 meters (10 to 20 feet) and features long, drooping branches with trifoliate, grey-green leaves. The plant produces clusters of small, fragrant, creamy-white pea-like flowers, primarily in spring, though flowering can occur from April to September in some regions. These blooms are followed by narrow seed pods containing hard-coated seeds. Tagasaste is highly valued for its ability to thrive in poor, sandy, well-drained soils and its extensive root system, which can extend down to at least 10 meters, allowing it to access deep soil moisture and nutrients. This deep rooting also contributes to its drought tolerance and effectiveness in soil stabilization.
 
@@ -38,43 +38,47 @@ purpose: |-
   Wildlife Attractor: Perfumed white pea-flowers drip nectar for hive bees imported alongside the fodder trials.
   Ornamental: Silvery pinnate leaves plus gold-flowering sprays read Mediterranean formal when contained against courtyard walls.
 companions:
-  - Acacia
-  - Eucalyptus
-  - Grevillea
+- slug: acacia
+  name: Acacia
 cautions:
-  - None reported
+- None reported
 pests:
-  - Aphids
-  - Banded Cucumber Beetle
-  - Bean Aphid
-  - Bean Leaf Beetle
-  - Bean Weevil
-  - Corn Earworm
-  - Cowpea Curculio
-  - Fall Armyworm
-  - Kudzu Bug
-  - Locust Borer
-  - Locust Leaf Miner
-  - Lubber Grasshopper
-  - Pea Moth
-  - Pea Weevil
-  - Reniform Nematode
-  - Root Aphid
-  - Scale Insects
-  - Soybean Looper
-  - Spittlebugs
-  - Stink Bug
-  - Striped Cucumber Beetle
-  - Fusarium Wilt
-  - Ganoderma Butt Rot
-  - Pythium Root Rot
-  - Root Rot
-  - Spotted Cucumber Beetle
-  - White Rot
-  - Brown Marmorated Stink Bug
-  - Harlequin Ladybird
-  - Velvetbean Caterpillar
+- Aphids
+- Banded Cucumber Beetle
+- Bean Aphid
+- Bean Leaf Beetle
+- Bean Weevil
+- Corn Earworm
+- Cowpea Curculio
+- Fall Armyworm
+- Kudzu Bug
+- Locust Borer
+- Locust Leaf Miner
+- Lubber Grasshopper
+- Pea Moth
+- Pea Weevil
+- Reniform Nematode
+- Root Aphid
+- Scale Insects
+- Soybean Looper
+- Spittlebugs
+- Stink Bug
+- Striped Cucumber Beetle
+- Fusarium Wilt
+- Ganoderma Butt Rot
+- Pythium Root Rot
+- Root Rot
+- Spotted Cucumber Beetle
+- White Rot
+- Brown Marmorated Stink Bug
+- Harlequin Ladybird
+- Velvetbean Caterpillar
 growth_habit: Tree
 data_quality_score: 0.8
 plant_function_unresolved:
-  - Soil Improvement
+- Soil Improvement
+companions_unresolved:
+- name: Eucalyptus
+  original: Eucalyptus
+- name: Grevillea
+  original: Grevillea

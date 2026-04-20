@@ -2,8 +2,8 @@ common_name: Aronia
 picture: aronia.webp
 scientific_name: Aronia spp.
 aka:
-- Chokeberry
-- Includes black chokeberry (Aronia melanocarpa) and red chokeberry (Aronia arbutifolia)
+  - Chokeberry
+  - Includes black chokeberry (Aronia melanocarpa) and red chokeberry (Aronia arbutifolia)
 family: Rosaceae
 zone: 3-8
 ideal_temp_min: 55
@@ -12,13 +12,13 @@ min_temp: -35
 max_temp: 95
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Edible
-- Wildlife Attractor
-- Ornamental
-- Border Plant
-- Pollinator
+  - Edible
+  - Wildlife Attractor
+  - Ornamental
+  - Border Plant
+  - Pollinator
 description: |-
   Aronia is a small genus of North American shrubs grown for astringent berries, bright fall color, and cold-hardy tolerance in hedgerows and multifunctional borders; black-fruited Aronia melanocarpa dominates commercial plantings, while red-fruited Aronia arbutifolia brings longer floral tails and red berries for wildlife. Plants are typically 3–8 feet (1–2.4 m), suckering on many sites, and produce white spring clusters followed by pigment-dense fruit that refuses to pose as candy. In permaculture they are the honest hedge crop for juice and preserves—tannins included, no apology marketing. Melanocarpa-type selections emphasize purple-black fruit and red fall foliage; arbutifolia types lean toward red berries and extended floral display for pollinators.
 
@@ -34,50 +34,52 @@ purpose: |-
   Border Plant: Dense stems slow wind and mark boundaries on wet acidic sites where turf gives up -- prune old canes after fruit to keep centers open without shearing everything into mildew city.
   Pollinator: Open rosaceous flowers offer accessible pollen when canopy trees are still tight buds -- bloom runs cool enough that syrphid flies join bees on cloudy mornings.
 companions:
-- Highbush Blueberry — shared acidic organic mulch culture and staggered fruit times
-- American Hazelnut — taller shrub layer uses vertical space above low aronia rows
-- Wild Bergamot — herb layer pulls beneficial insects through aronia bloom
+  - slug: highbush-blueberry
+    name: Highbush Blueberry
+  - slug: american-hazelnut
+    name: American Hazelnut
+  - slug: wild-bergamot
+    name: Wild Bergamot
 cautions:
-- Apple — shared rosaceous disease pressure during humid springs if canopies interlock
-  tightly
+  - Apple — shared rosaceous disease pressure during humid springs if canopies interlock tightly
 pests:
-- Aphids
-- Apple Maggot
-- Apple Scab
-- Bagworm
-- Blackberry Psyllid
-- Cherry Fruit Fly
-- Codling Moth
-- Cyclamen Mite
-- Fall Webworm
-- Japanese Beetles
-- Lesser Peachtree Borer
-- Oriental Fruit Fly
-- Oriental Fruit Moth
-- Peach Twig Borer
-- Peachtree Borer
-- Pear Psylla
-- Plum Curculio
-- Raspberry Beetle
-- Raspberry Cane Borer
-- Rose Slug
-- Sparganothis Fruitworm
-- Spittlebugs
-- Stink Bug
-- Strawberry Root Weevil
-- Twig Girdlers
-- Vine Weevil
-- Brown Rot
-- Fire Blight
-- Gall Mite
-- Leaf Blight
-- Leaf Spot
-- Powdery Mildew
-- Rust Mite
-- Spotted Lanternfly
-- Brown Marmorated Stink Bug
-- Eastern Tent Caterpillar
-- Harlequin Ladybird
-- Tent Caterpillar
+  - Aphids
+  - Apple Maggot
+  - Apple Scab
+  - Bagworm
+  - Blackberry Psyllid
+  - Cherry Fruit Fly
+  - Codling Moth
+  - Cyclamen Mite
+  - Fall Webworm
+  - Japanese Beetles
+  - Lesser Peachtree Borer
+  - Oriental Fruit Fly
+  - Oriental Fruit Moth
+  - Peach Twig Borer
+  - Peachtree Borer
+  - Pear Psylla
+  - Plum Curculio
+  - Raspberry Beetle
+  - Raspberry Cane Borer
+  - Rose Slug
+  - Sparganothis Fruitworm
+  - Spittlebugs
+  - Stink Bug
+  - Strawberry Root Weevil
+  - Twig Girdlers
+  - Vine Weevil
+  - Brown Rot
+  - Fire Blight
+  - Gall Mite
+  - Leaf Blight
+  - Leaf Spot
+  - Powdery Mildew
+  - Rust Mite
+  - Spotted Lanternfly
+  - Brown Marmorated Stink Bug
+  - Eastern Tent Caterpillar
+  - Harlequin Ladybird
+  - Tent Caterpillar
 growth_habit: Suckering deciduous shrub; white spring flowers; black astringent berries
 data_quality_score: 0.83

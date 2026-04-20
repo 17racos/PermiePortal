@@ -32,9 +32,8 @@ purpose: |-
   Windbreaker: Stiff fans flex instead of shattering in coastal gusts once lignified -- still plan setbacks from glass pool cages because falling fronds are not gentle reminders.
   Shade Provider: High crown throws dappled shade for bromeliad tapestries and understory trials after trunk elongates -- juvenile green phase in shade resolves to powder blue once full sun arrives.
 companions:
-- Tropical shrubs
-- Bromeliads
-- Creeping Thyme
+- slug: creeping-thyme
+  name: Creeping Thyme
 cautions:
 - Planting under eaves you like
 - Narrow strips next to driveways once trunks thicken
@@ -49,3 +48,8 @@ pests:
 - Heart Rot
 growth_habit: Massive solitary fan palm
 data_quality_score: 0.74
+companions_unresolved:
+- name: Tropical shrubs
+  original: Tropical shrubs
+- name: Bromeliads
+  original: Bromeliads

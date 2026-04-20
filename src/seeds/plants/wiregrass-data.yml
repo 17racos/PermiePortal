@@ -2,7 +2,7 @@ common_name: Wiregrass
 picture: wiregrass.webp
 scientific_name: Aristida stricta
 aka:
-- Pineywoods Threeawn
+  - Pineywoods Threeawn
 family: Poaceae
 zone: 7-10
 ideal_temp_min: 45
@@ -11,12 +11,12 @@ min_temp: 10
 max_temp: 110
 perennial: true
 layers:
-- Herbaceous
+  - Herbaceous
 plant_function:
-- Erosion Control
-- Wildlife Attractor
-- Ornamental
-- Biomass
+  - Erosion Control
+  - Wildlife Attractor
+  - Ornamental
+  - Biomass
 description: |-
   Wiregrass (Aristida stricta) is a warm-season bunchgrass of southeastern North American pine savannas and sandhills, forming dense tufts of wiry leaves and tall three-awn seed heads that catch light. It is a keystone species in fire-maintained longleaf systems, providing fine fuel and structure for wildlife. Heights of 2–4 feet (60–120 cm) are typical; roots dive deep on sand.
 
@@ -31,27 +31,28 @@ purpose: |-
   Ornamental: Three-awn seed heads catch light like copper wire -- authentic longleaf understory texture in native gardens.
   Biomass: Fine fuel loads carry cool prescribed fire -- legal burn plans only; unburned wiregrass thickets still beat bare sand.
 companions:
-- Longleaf Pine — overstory pine in classic wiregrass savanna where both belong ecologically
-- Little Bluestem — complementary warm-season grass texture in mixed ground layers
-- Milkweed — forb neighbor for pollinator strips at savanna edges
+  - slug: longleaf-pine
+    name: Longleaf Pine
+  - slug: little-bluestem
+    name: Little Bluestem
+  - slug: milkweed
+    name: Milkweed
 cautions:
-- Fire ecology — growth assumes periodic burn in many natural systems; follow laws
-  and safety
-- Wrong soil — clay makes wiregrass a short tragic play
+  - Fire ecology — growth assumes periodic burn in many natural systems; follow laws and safety
+  - Wrong soil — clay makes wiregrass a short tragic play
 pests:
-- Aphids
-- Armyworms
-- Bamboo Mite
-- Corn Earworm
-- Fall Armyworm
-- Japanese Beetles
-- Lubber Grasshopper
-- Rice Blast Fungus
-- Rice Water Weevil
-- Spider Mites
-- Spittlebugs
-- Wireworm
-- Leaf Blight
-growth_habit: Warm-season sandhill grass; three-awn seed heads; longleaf savanna ground
-  layer
+  - Aphids
+  - Armyworms
+  - Bamboo Mite
+  - Corn Earworm
+  - Fall Armyworm
+  - Japanese Beetles
+  - Lubber Grasshopper
+  - Rice Blast Fungus
+  - Rice Water Weevil
+  - Spider Mites
+  - Spittlebugs
+  - Wireworm
+  - Leaf Blight
+growth_habit: Warm-season sandhill grass; three-awn seed heads; longleaf savanna ground layer
 data_quality_score: 0.8

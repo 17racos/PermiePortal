@@ -2,8 +2,8 @@ common_name: Buffalo Plum
 picture: buffalo_plum.webp
 scientific_name: Prunus besseyi
 aka:
-- Western Sand Cherry
-- Rocky Mountain Plum (regional usage)
+  - Western Sand Cherry
+  - Rocky Mountain Plum (regional usage)
 family: Rosaceae
 zone: 3-6
 ideal_temp_min: 55
@@ -12,13 +12,13 @@ min_temp: -40
 max_temp: 100
 perennial: true
 layers:
-- Shrub
+  - Shrub
 plant_function:
-- Edible
-- Wildlife Attractor
-- Border Plant
-- Erosion Control
-- Ornamental
+  - Edible
+  - Wildlife Attractor
+  - Border Plant
+  - Erosion Control
+  - Ornamental
 description: |-
   Buffalo plum commonly refers to western sand cherry (Prunus besseyi), a suckering shrub of Great Plains sandhills and rocky soils bearing fragrant white spring flowers and black edible cherries on a plant that often stays under 4–6 feet (1.2–1.8 m). It spreads by roots into thickets stabilizing blowing sand and feeding wildlife during harsh seasons. In cold, dry-temperate systems it is a pioneer fruiting shrub for hedgerows and windbreak understories where irrigation is scarce and honesty about flavor matters.
 
@@ -34,53 +34,52 @@ purpose: |-
   Erosion Control: Roots run wide in blow-sand, holding dune faces where taller trees would rock until guy wires go in.
   Ornamental: Glossy green leaves and black fruit shine against silver sage companions on xeric berms without drip-line flowers.
 companions:
-- American Plum — taller Prunus neighbor extends fruit succession without identical
-  height competition
-- Yarrow — forb partner at thicket margins handles sun and lean soil beside suckering
-  shrubs
-- Raspberry — bramble uses fence lines beside plum thickets with airflow between fruiting
-  layers
+  - slug: american-plum
+    name: American Plum
+  - slug: yarrow
+    name: Yarrow
+  - slug: raspberry
+    name: Raspberry
 cautions:
-- Suckering into paths — plan barriers or mowing strips before thicket annexes the
-  driveway
+  - Suckering into paths — plan barriers or mowing strips before thicket annexes the driveway
 pests:
-- Aphids
-- Apple Maggot
-- Apple Scab
-- Bagworm
-- Blackberry Psyllid
-- Borers
-- Cherry Fruit Fly
-- Codling Moth
-- Cyclamen Mite
-- Fall Webworm
-- Japanese Beetles
-- Lesser Peachtree Borer
-- Oriental Fruit Fly
-- Oriental Fruit Moth
-- Peach Twig Borer
-- Peachtree Borer
-- Pear Psylla
-- Plum Curculio
-- Raspberry Beetle
-- Raspberry Cane Borer
-- Rose Slug
-- Sparganothis Fruitworm
-- Spittlebugs
-- Stink Bug
-- Strawberry Root Weevil
-- Twig Girdlers
-- Vine Weevil
-- Brown Rot
-- Fire Blight
-- Gall Mite
-- Leaf Blight
-- Leaf Spot
-- Rust Mite
-- Spotted Lanternfly
-- Brown Marmorated Stink Bug
-- Eastern Tent Caterpillar
-- Harlequin Ladybird
-- Tent Caterpillar
+  - Aphids
+  - Apple Maggot
+  - Apple Scab
+  - Bagworm
+  - Blackberry Psyllid
+  - Borers
+  - Cherry Fruit Fly
+  - Codling Moth
+  - Cyclamen Mite
+  - Fall Webworm
+  - Japanese Beetles
+  - Lesser Peachtree Borer
+  - Oriental Fruit Fly
+  - Oriental Fruit Moth
+  - Peach Twig Borer
+  - Peachtree Borer
+  - Pear Psylla
+  - Plum Curculio
+  - Raspberry Beetle
+  - Raspberry Cane Borer
+  - Rose Slug
+  - Sparganothis Fruitworm
+  - Spittlebugs
+  - Stink Bug
+  - Strawberry Root Weevil
+  - Twig Girdlers
+  - Vine Weevil
+  - Brown Rot
+  - Fire Blight
+  - Gall Mite
+  - Leaf Blight
+  - Leaf Spot
+  - Rust Mite
+  - Spotted Lanternfly
+  - Brown Marmorated Stink Bug
+  - Eastern Tent Caterpillar
+  - Harlequin Ladybird
+  - Tent Caterpillar
 growth_habit: Low suckering Prunus shrub; white flowers; black tart cherries
 data_quality_score: 0.8

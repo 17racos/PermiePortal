@@ -28,9 +28,12 @@ purpose: |-
   Wildlife Attractor: Bell honeys nectar feeds bees during Mediterranean wet season while berries fuel thrushes after leaf drop.
   Ornamental: Glossy evergreen blades, shreddy cinnamon bark, and simultaneous flowers plus fruit read mythic along courtyard walls above acid mulch.
 companions:
-  - Blueberry (Vaccinium corymbosum) — shares acidic-soil preferences and benefits from similar orchard floor management.
-  - Rosemary (Salvia rosmarinus) — drought-tolerant companion that fits well-drained, sun-forward beds.
-  - Thyme (Thymus vulgaris) — low ground cover reduces evaporation and helps keep understory tidy.
+  - slug: blueberry
+    name: Blueberry
+  - slug: rosemary
+    name: Rosemary
+  - slug: thyme
+    name: Thyme
 cautions:
   - Avoid alkaline, limestone-heavy soils; poor pH and drainage can stress strawberry tree.
 pests:

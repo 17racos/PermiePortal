@@ -33,9 +33,12 @@ purpose: |-
   Ornamental: Thorn-armed weeping habit carries finger-length fruit visible from paths in collector citrus courtyards where fine foliage reads lighter than standard sweet-orange scaffold canopies.
   Pollinator: White waxy rue-family blooms perfume warm months while honeybees pack heavy pollen loads on anthers heavier than nectar rewards on Australian types grafted to US rootstocks for phytophthora resilience.
 companions:
-  - Kumquat — matches citrus soil and irrigation rhythm; shared scouting for mites, psyllid, and leafminers at the orchard edge.
-  - Kaffir Lime — another specialty citrus with similar cultural needs; hedgerow grouping simplifies organic sprays and monitoring.
-  - Comfrey — chop-and-drop mulch and nutrient pump under the drip line without competing for canopy space.
+  - slug: kumquat
+    name: Kumquat
+  - slug: kaffir-lime
+    name: Kaffir Lime
+  - slug: comfrey
+    name: Comfrey
 cautions:
   - Poor drainage
   - asian citrus psyllid denialism

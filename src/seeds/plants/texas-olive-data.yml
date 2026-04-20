@@ -33,9 +33,8 @@ purpose: |-
   Wildlife Attractor: Long-tongued bees and hummingbirds work tubular corollas before olive-shaped drupes feed coyotes and songbirds along thornscrub arroyos.
   Erosion Control: Deep roots anchor limestone rubble on south Texas hillsides where shallow turf washes into arroyos after monsoon cells.
 companions:
-- Acacia
-- Leucophyllum
-- Salvia
+- slug: acacia
+  name: Acacia
 cautions:
 - None reported
 pests:
@@ -44,3 +43,8 @@ pests:
 - Aphids
 growth_habit: Tree
 data_quality_score: 0.8
+companions_unresolved:
+- name: Leucophyllum
+  original: Leucophyllum
+- name: Salvia
+  original: Salvia
