@@ -577,8 +577,6 @@ def write_cursor_prompts():
             lines.append("\n")
 
         lines.append("---\n\n## When Done\n\n```bash\n")
-        lines.append("python3 validate.py --since 2h\n")
-        lines.append("python3 validate.py --fix --since 2h\n")
         lines.append("./sync.sh --check\n")
         lines.append("./sync.sh\n")
         lines.append(f"rm review/{filename}\n")
