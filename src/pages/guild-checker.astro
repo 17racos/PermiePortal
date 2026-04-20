@@ -19,8 +19,8 @@ const edges = (relationshipsData as any[]).filter(
 ---
 
 <BaseLayout
-  title="Guild Checker — Design Resilient Plant Guilds | PermiePortal"
-  description="Add plants to your guild and instantly see pest overlap, family diversity, and ecological risk score based on 1,043 plants and 9,779 relationships."
+  title="Guild Builder — Design Resilient Plant Guilds | PermiePortal"
+  description="Build a resilient plant guild with live ecological feedback — pest overlap, family diversity, and risk scored from 1,043 plants and 9,779 relationships."
 >
 <style>
   :root {
@@ -101,6 +101,11 @@ const edges = (relationshipsData as any[]).filter(
   .suggestion-item { font-size: 0.88rem; color: var(--ash); line-height: 1.6; padding: 0.6rem 0.75rem; border-left: 2px solid var(--lime); background: rgba(42,61,31,0.15); }
   .suggestion-item.warning { border-left-color: var(--rust); background: rgba(122,59,30,0.1); }
 
+  .diversity-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.6rem; margin-bottom: 0.75rem; }
+  .diversity-stat { background: var(--bark); border: 1px solid rgba(139,184,58,0.12); padding: 0.7rem 0.9rem; }
+  .diversity-stat-value { font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem; color: var(--lime); line-height: 1; }
+  .diversity-stat-key { font-family: 'Space Mono', monospace; font-size: 0.56rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ash); margin-top: 0.2rem; }
+  .diversity-warning { font-size: 0.82rem; color: var(--straw); line-height: 1.55; padding: 0.5rem 0.75rem; border-left: 2px solid var(--straw); background: rgba(212,168,67,0.06); }
   .empty-state { padding: 3rem 0; text-align: center; }
   .empty-state-icon { font-size: 2.5rem; margin-bottom: 1rem; opacity: 0.4; }
   .empty-state-text { font-family: 'Space Mono', monospace; font-size: 0.7rem; color: var(--ash); opacity: 0.6; line-height: 1.8; }
@@ -123,7 +128,7 @@ const edges = (relationshipsData as any[]).filter(
     <li><a href="/plants">Plants</a></li>
     <li><a href="/pests">Pests</a></li>
     <li><a href="/plants/families">Plant Families</a></li>
-    <li><a href="/guild-checker" class="active">Guild Checker</a></li>
+    <li><a href="/guild-checker" class="active">Guild Builder</a></li>
     <li><a href="/articles">Articles</a></li>
     <li><a href="/about">About</a></li>
   </ul>
@@ -131,22 +136,22 @@ const edges = (relationshipsData as any[]).filter(
 
 <div class="page-header">
   <p class="page-eyebrow">Ecological Design Tool</p>
-  <h1 class="page-title">Guild Checker</h1>
+  <h1 class="page-title">Guild Builder</h1>
   <p class="page-desc">
-    Add plants to see pest overlap, family diversity, and ecological risk — scored from 1,043 plants and 9,779 relationships.
+    Add plants and watch live ecological feedback update as you build — family diversity, pest overlap, and resilience scored from 1,043 plants and 9,779 relationships.
   </p>
 </div>
 
 <div class="layout">
   <!-- LEFT: Search + Guild -->
   <div class="panel-left">
-    <p class="panel-label">Search Plants</p>
+    <p class="panel-label">Add Plants to Your Guild</p>
     <div class="search-wrap">
       <input
         type="text"
         id="plant-search"
         class="search-input"
-        placeholder="Type a plant name..."
+        placeholder="Search by common name..."
         autocomplete="off"
       />
       <div class="search-results" id="search-results"></div>
@@ -154,7 +159,7 @@ const edges = (relationshipsData as any[]).filter(
 
     <p class="guild-label">Your Guild — <span id="guild-count">0</span> plants</p>
     <div class="guild-slots" id="guild-slots">
-      <div class="guild-empty" id="guild-empty">Add plants above to start building your guild</div>
+      <div class="guild-empty" id="guild-empty">Search for plants above — your guild starts here</div>
     </div>
     <button class="clear-btn" id="clear-btn">Clear Guild</button>
   </div>
@@ -170,7 +175,7 @@ const edges = (relationshipsData as any[]).filter(
 
     <div id="results" style="display:none">
       <div class="score-display">
-        <p class="panel-label">Risk Score</p>
+        <p class="panel-label">Guild Health</p>
         <div class="score-number" id="score-number">0</div>
         <div class="score-label" id="score-label">LOW RISK — RESILIENCE: 100</div>
         <div class="score-bar-wrap">
@@ -194,7 +199,7 @@ const edges = (relationshipsData as any[]).filter(
       </div>
 
       <div class="result-section" id="section-suggestions">
-        <p class="result-section-title">Analysis</p>
+        <p class="result-section-title">Design Feedback</p>
         <div class="suggestions-list" id="suggestions-list"></div>
       </div>
 
@@ -204,8 +209,13 @@ const edges = (relationshipsData as any[]).filter(
       </div>
 
       <div class="result-section" id="section-families">
-        <p class="result-section-title">Families in Guild</p>
+        <p class="result-section-title">Family Composition</p>
         <div class="family-list" id="families-list"></div>
+      </div>
+      <div class="result-section" id="section-diversity">
+        <p class="result-section-title">Family Diversity</p>
+        <div class="diversity-grid" id="diversity-grid"></div>
+        <div id="diversity-warning" class="diversity-warning" style="display:none"></div>
       </div>
     </div>
   </div>
@@ -366,6 +376,15 @@ function renderResults() {
   if (guild.length < 2) {
     emptyState.style.display = 'block';
     results.style.display    = 'none';
+    // Update empty state message based on guild size
+    const emptyText = emptyState.querySelector('.empty-state-text');
+    if (emptyText) {
+      if (guild.length === 0) {
+        emptyText.innerHTML = 'Start building — search for a plant above<br>and add it to your guild';
+      } else {
+        emptyText.innerHTML = 'Add at least one more plant<br>to see live ecological feedback';
+      }
+    }
     return;
   }
 
@@ -429,6 +448,39 @@ function renderResults() {
     tag.className = 'family-tag';
     tag.textContent = f;
     famEl.appendChild(tag);
+  }
+
+  // Family Diversity (analyzeDiversity logic inlined — same data source)
+  const divGrid = document.getElementById('diversity-grid');
+  const divWarn = document.getElementById('diversity-warning');
+  const n = guild.length;
+  const divFamilies = guild.filter(s => plantToFamily[s]).map(s => plantToFamily[s]);
+  const divCounts = {};
+  for (const f of divFamilies) divCounts[f] = (divCounts[f] || 0) + 1;
+  const uniqueFams = Object.keys(divCounts).length;
+  const divScore = Math.round((Math.min(1, uniqueFams / n)) * 100);
+  const domFamEntry = Object.entries(divCounts).sort((a,b) => b[1]-a[1])[0];
+  const domFam = domFamEntry?.[0] || '—';
+  const domCount = domFamEntry?.[1] || 0;
+  const domRatio = domCount / n;
+  divGrid.innerHTML = `
+    <div class='diversity-stat'><div class='diversity-stat-value'>${uniqueFams}</div><div class='diversity-stat-key'>Unique Families</div></div>
+    <div class='diversity-stat'><div class='diversity-stat-value'>${divScore}%</div><div class='diversity-stat-key'>Diversity Score</div></div>
+    <div class='diversity-stat'><div class='diversity-stat-value'>${n}</div><div class='diversity-stat-key'>Total Plants</div></div>
+    <div class='diversity-stat'><div class='diversity-stat-value' style='font-size:0.95rem;padding-top:0.2rem'>${domFam}</div><div class='diversity-stat-key'>Dominant Family</div></div>
+  `;
+  // Warning
+  let divWarning = null;
+  if (domRatio > 0.5) {
+    divWarning = `${domFam} is ${Math.round(domRatio*100)}% of your guild — consider adding plants from other families.`;
+  } else if (uniqueFams < 3) {
+    divWarning = `Only ${uniqueFams} ${uniqueFams === 1 ? 'family' : 'families'} — aim for 3 or more for ecological resilience.`;
+  }
+  if (divWarning) {
+    divWarn.textContent = '⚠️ ' + divWarning;
+    divWarn.style.display = 'block';
+  } else {
+    divWarn.style.display = 'none';
   }
 }
 
