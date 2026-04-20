@@ -41,11 +41,13 @@ def compute_guild_risk(plant_slugs: List[str]) -> dict:
 
     Returns:
         {
-            "family_diversity_score": float,   # unique_families / total_plants
-            "dominant_families":      list,    # family slugs present in guild
-            "shared_pests":           list,    # pest names affecting >1 plant
-            "risk_score":             float,   # 0.0 (low) – 1.0 (high)
-            "warnings":               list,    # human-readable risk flags
+            "family_diversity_score": float,
+            "dominant_families":      list[str],
+            "shared_pests":           list[{"name": str, "count": int}],
+            "risk_score":             float,
+            "resilience_score":       float,
+            "warnings":               list[str],
+            "suggestions":            list[str],
         }
     """
     data = _load()
@@ -61,7 +63,9 @@ def compute_guild_risk(plant_slugs: List[str]) -> dict:
             "dominant_families":      [],
             "shared_pests":           [],
             "risk_score":             0.0,
+            "resilience_score":       1.0,
             "warnings":               ["No valid plant slugs provided."],
+            "suggestions":            ["Add at least 3 plants to assess guild risk."],
         }
 
     # ── Build indexes (read-only views, no mutation) ──────────────────────────
@@ -93,17 +97,25 @@ def compute_guild_risk(plant_slugs: List[str]) -> dict:
         for pest in plant_to_pests.get(s, set()):
             pest_occurrence[pest] += 1
 
-    total_pests  = len(pest_occurrence)
-    shared_pests = [pest for pest, count in pest_occurrence.items() if count > 1]
+    total_pests = len(pest_occurrence)
 
-    # ── Risk score ────────────────────────────────────────────────────────────
+    # shared_pests as list of {name, count} sorted descending by count
+    shared_pests = [
+        {"name": pest, "count": count}
+        for pest, count in sorted(pest_occurrence.items(), key=lambda x: -x[1])
+        if count > 1
+    ]
+
+    # ── Risk score with size normalization ────────────────────────────────────
     shared_ratio = len(shared_pests) / total_pests if total_pests > 0 else 0.0
+    size_factor  = min(1.0, n / 5)
     risk_score   = round(
-        (1 - family_diversity_score) * 0.5 + shared_ratio * 0.5,
+        ((1 - family_diversity_score) * 0.5 + shared_ratio * 0.5) * size_factor,
         4,
     )
+    resilience_score = round(1 - risk_score, 4)
 
-    # ── Warnings ──────────────────────────────────────────────────────────────
+    # ── Warnings (preserved, no existing logic changed) ───────────────────────
     warnings: list[str] = []
 
     # Family dominance warning (only meaningful for guilds of 3+ plants)
@@ -131,19 +143,46 @@ def compute_guild_risk(plant_slugs: List[str]) -> dict:
             f"they were excluded from family analysis."
         )
 
+    # ── Suggestions ───────────────────────────────────────────────────────────
+    suggestions: list[str] = []
+
+    if family_counts and n >= 3:
+        top_family, top_count = family_counts.most_common(1)[0]
+        if top_count / n > 0.6:
+            suggestions.append(
+                f"Reduce {top_family} representation and replace at least one plant "
+                f"with a species from a different family to spread pest risk."
+            )
+
+    if total_pests > 0 and len(shared_pests) / total_pests > 0.5:
+        suggestions.append(
+            "Introduce aromatic or pest-confusing plants (e.g. Lamiaceae or Asteraceae) "
+            "to break up shared pest pressure across the guild."
+        )
+
+    if family_diversity_score < 0.5:
+        suggestions.append(
+            f"Guild has only {unique_families} family/families across {n} plants — "
+            f"aim for 3-4 distinct families to improve ecological resilience."
+        )
+
+    if not suggestions:
+        suggestions.append("Guild composition looks ecologically balanced.")
+
     return {
         "family_diversity_score": family_diversity_score,
         "dominant_families":      dominant_families,
-        "shared_pests":           sorted(shared_pests),
+        "shared_pests":           shared_pests,
         "risk_score":             risk_score,
+        "resilience_score":       resilience_score,
         "warnings":               warnings,
+        "suggestions":            suggestions,
     }
 
 
 # ── Inline test ───────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    import sys
 
     test_guilds = [
         {
@@ -175,8 +214,12 @@ if __name__ == "__main__":
         print(f"  Plants:             {guild['slugs']}")
         print(f"  Family diversity:   {result['family_diversity_score']}")
         print(f"  Dominant families:  {result['dominant_families'][:4]}")
-        print(f"  Shared pests:       {result['shared_pests'][:5]}")
+        print(f"  Shared pests:       {[p['name'] for p in result['shared_pests'][:5]]}")
         print(f"  Risk score:         {result['risk_score']}")
+        print(f"  Resilience score:   {result['resilience_score']}")
         if result["warnings"]:
             for w in result["warnings"]:
                 print(f"  ⚠️  {w}")
+        if result["suggestions"]:
+            for s in result["suggestions"]:
+                print(f"  💡 {s}")
