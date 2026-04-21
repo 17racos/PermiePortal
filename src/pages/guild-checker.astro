@@ -555,6 +555,8 @@ function getNextBestPlants(currentSlugs, limit = 5) {
     }
   }
 
+  const dominantFamilyRatio = n > 0 ? (Object.values(familyCounts).sort((a,b)=>b-a)[0]||0)/n : 0;
+
   const candidates = [];
 
   // ── Context-aware explanation builder (no hidden scope deps) ───────────────
@@ -720,7 +722,6 @@ function getNextBestPlants(currentSlugs, limit = 5) {
 
   // // ── Balanced guild check — structural completeness, not score threshold ─────────
   const familyDiversity = guildFamilies.size / n;
-  const dominantFamilyRatio = n > 0 ? (Object.values(familyCounts).sort((a,b)=>b-a)[0]||0)/n : 0;
   // Compute real pest overlap (same method as main guild analysis)
   const pestOccurrence2 = {};
   for (const slug of currentSlugs) {
