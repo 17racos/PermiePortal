@@ -165,6 +165,15 @@ const edges = (relationshipsData as any[]).filter(
   .action-item { font-size: 0.85rem; color: var(--paper); line-height: 1.55; padding: 0.55rem 0.75rem; border-left: 2px solid var(--lime); background: rgba(42,61,31,0.15); }
   .action-item.risk { border-left-color: var(--rust); background: rgba(122,59,30,0.1); color: var(--ash); }
   .action-item.caution { border-left-color: var(--straw); background: rgba(212,168,67,0.06); color: var(--ash); }
+  .goal-selector { margin-bottom: 1.5rem; padding-bottom: 1.25rem; border-bottom: 1px solid rgba(139,184,58,0.1); }
+  .goal-optional { font-size: 0.55rem; color: var(--ash); opacity: 0.5; letter-spacing: 0.05em; text-transform: none; font-style: italic; }
+  .goal-buttons { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 0.75rem; }
+  .goal-btn { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.3rem 0.65rem; background: none; border: 1px solid rgba(139,184,58,0.2); color: var(--ash); cursor: pointer; transition: all 0.2s; }
+  .goal-btn:hover { border-color: rgba(139,184,58,0.4); color: var(--lime); }
+  .goal-btn.active { border-color: var(--lime); color: var(--lime); background: rgba(42,61,31,0.3); }
+  .goal-generate-btn { font-family: 'Space Mono', monospace; font-size: 0.62rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.45rem 1rem; background: rgba(42,61,31,0.4); border: 1px solid rgba(139,184,58,0.35); color: var(--lime); cursor: pointer; transition: all 0.2s; width: 100%; }
+  .goal-generate-btn:hover { background: rgba(42,61,31,0.6); border-color: var(--lime); }
+  .goal-header { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--straw); padding: 0.5rem 0.75rem; border-left: 2px solid var(--straw); background: rgba(212,168,67,0.06); margin-bottom: 1rem; line-height: 1.6; }
   .empty-state { padding: 3rem 0; text-align: center; }
   .empty-state-icon { font-size: 2.5rem; margin-bottom: 1rem; opacity: 0.4; }
   .empty-state-text { font-family: 'Space Mono', monospace; font-size: 0.7rem; color: var(--ash); opacity: 0.6; line-height: 1.8; }
@@ -194,6 +203,21 @@ const edges = (relationshipsData as any[]).filter(
 <div class="layout">
   <!-- LEFT: Search + Guild -->
   <div class="panel-left">
+    <div class="goal-selector" id="goal-selector">
+      <p class="panel-label">Start with a Goal <span class="goal-optional">(optional)</span></p>
+      <div class="goal-buttons">
+        <button class="goal-btn" data-goal="food_production">Food Production</button>
+        <button class="goal-btn" data-goal="low_maintenance">Low Maintenance</button>
+        <button class="goal-btn" data-goal="pest_resistant">Pest Resistant</button>
+        <button class="goal-btn" data-goal="pollinator_support">Pollinator Support</button>
+        <button class="goal-btn" data-goal="soil_building">Soil Building</button>
+      </div>
+      <button class="goal-generate-btn" id="goal-generate-btn" style="display:none">
+        Generate Starter Guild →
+      </button>
+    </div>
+    <div id="goal-header" style="display:none" class="goal-header"></div>
+
     <p class="panel-label">Add Plants to Your Guild</p>
     <div class="search-wrap">
       <input
@@ -783,6 +807,120 @@ function getNextBestPlants(currentSlugs, limit = 5) {
   return filtered.map(({ _hasMissing, _hasNewFamily, _sharedPests, ...rest }) => rest);
 }
 
+// ── Goal profiles ────────────────────────────────────────────────────────────
+const GOAL_PROFILES = {
+  food_production: {
+    label: 'Food Production',
+    description: 'Prioritizes edible species with soil support and structural resilience.',
+    targetRoles: ['Edible', 'Ground Cover', 'Nitrogen Fixer', 'Mulcher'],
+    avoidOverweight: ['Ornamental'],
+    preferredGuildSize: 6,
+  },
+  low_maintenance: {
+    label: 'Low Maintenance',
+    description: 'Self-sustaining ground cover, mulch, and pest deterrence with minimal input.',
+    targetRoles: ['Ground Cover', 'Mulcher', 'Pest Management', 'Pollinator'],
+    avoidOverweight: ['Edible'],
+    preferredGuildSize: 5,
+  },
+  pest_resistant: {
+    label: 'Pest Resistant',
+    description: 'Strong pest disruption, pollinator support, and family diversity to reduce shared pressure.',
+    targetRoles: ['Pest Management', 'Pollinator', 'Ground Cover'],
+    avoidOverweight: [],
+    preferredGuildSize: 6,
+  },
+  pollinator_support: {
+    label: 'Pollinator Support',
+    description: 'Dense pollinator habitat with pest deterrence and ground-level coverage.',
+    targetRoles: ['Pollinator', 'Pest Management', 'Ground Cover'],
+    avoidOverweight: [],
+    preferredGuildSize: 5,
+  },
+  soil_building: {
+    label: 'Soil Building',
+    description: 'Deep soil improvement through nitrogen fixation, dynamic accumulation, and biomass production.',
+    targetRoles: ['Nitrogen Fixer', 'Mulcher', 'Dynamic Accumulator', 'Ground Cover'],
+    avoidOverweight: [],
+    preferredGuildSize: 6,
+  },
+};
+
+function generateGoalGuild(goalKey) {
+  const profile = GOAL_PROFILES[goalKey];
+  if (!profile) return [];
+
+  const generated = [];
+  const guildSet  = new Set();
+  const famSeen   = {};
+
+  // Score a candidate against the current growing guild + goal profile
+  function scorePlant(p, currentSlugs) {
+    const fns    = p.plant_function || [];
+    const family = plantToFamily[p.slug] || null;
+    const pests  = plantToPests[p.slug] || new Set();
+
+    // Goal role bonus
+    let goalBonus = 0;
+    for (const fn of fns) {
+      if (profile.targetRoles.includes(fn)) goalBonus += 1.5;
+      if (profile.avoidOverweight.length > 0 &&
+          profile.avoidOverweight.includes(fn) &&
+          !profile.targetRoles.includes(fn)) goalBonus -= 0.5;
+    }
+
+    // Family diversity bonus
+    const existingFamilies = new Set(currentSlugs.map(s => plantToFamily[s]).filter(Boolean));
+    const familyBonus = (family && !existingFamilies.has(family)) ? 1.0 : 0;
+
+    // Pest overlap penalty
+    const guildPests = new Set();
+    for (const s of currentSlugs) {
+      for (const pest of (plantToPests[s] || new Set())) guildPests.add(pest);
+    }
+    let sharedPests = 0;
+    for (const pest of pests) { if (guildPests.has(pest)) sharedPests++; }
+    const pestPenalty = sharedPests * 0.3;
+
+    return goalBonus + familyBonus - pestPenalty;
+  }
+
+  // Build guild iteratively
+  for (let i = 0; i < profile.preferredGuildSize; i++) {
+    let bestSlug  = null;
+    let bestScore = -Infinity;
+
+    for (const p of plantIndex) {
+      if (guildSet.has(p.slug)) continue;
+      if (!p.plant_function || p.plant_function.length === 0) continue;
+
+      // Max 2 per family in generated guild
+      const fam = plantToFamily[p.slug] || '__none__';
+      if ((famSeen[fam] || 0) >= 2) continue;
+
+      const score = scorePlant(p, generated);
+      if (score <= 0 && i > 0) continue; // first plant always gets added
+
+      if (score > bestScore ||
+          (score === bestScore && bestSlug && p.slug < bestSlug)) {
+        bestScore = score;
+        bestSlug  = p.slug;
+      }
+    }
+
+    if (bestSlug) {
+      generated.push(bestSlug);
+      guildSet.add(bestSlug);
+      const fam = plantToFamily[bestSlug] || '__none__';
+      famSeen[fam] = (famSeen[fam] || 0) + 1;
+    } else {
+      break; // no more good candidates
+    }
+  }
+
+  return generated;
+}
+
 // ── Render ────────────────────────────────────────────────────────────────────
 function renderGuild() {
   const slots    = document.getElementById('guild-slots');
@@ -1130,6 +1268,34 @@ function renderResults() {
   }
 }
 
+// ── Goal selector interaction ─────────────────────────────────────────────────
+let selectedGoal = null;
+
+document.querySelectorAll('.goal-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.goal-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    selectedGoal = btn.getAttribute('data-goal');
+    document.getElementById('goal-generate-btn').style.display = 'block';
+  });
+});
+
+document.getElementById('goal-generate-btn').addEventListener('click', () => {
+  if (!selectedGoal) return;
+  const profile  = GOAL_PROFILES[selectedGoal];
+  const slugs    = generateGoalGuild(selectedGoal);
+
+  // Populate guild
+  guild = slugs;
+  renderGuild();
+  renderResults();
+
+  // Show goal header
+  const header = document.getElementById('goal-header');
+  header.innerHTML = `<strong>Goal: ${profile.label}</strong><br>${profile.description}`;
+  header.style.display = 'block';
+});
+
 // ── Search ────────────────────────────────────────────────────────────────────
 const searchInput   = document.getElementById('plant-search');
 const searchResults = document.getElementById('search-results');
@@ -1184,6 +1350,10 @@ document.addEventListener('click', e => {
 // Clear button
 document.getElementById('clear-btn').addEventListener('click', () => {
   guild = [];
+  selectedGoal = null;
+  document.querySelectorAll('.goal-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('goal-generate-btn').style.display = 'none';
+  document.getElementById('goal-header').style.display = 'none';
   renderGuild();
   renderResults();
 });
