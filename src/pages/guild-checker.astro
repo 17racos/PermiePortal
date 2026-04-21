@@ -6,19 +6,6 @@ import relationshipsData from '../data/relationships.json';
 
 // Pass only what's needed to the client — slim down payload
 
-// ── Lightweight layer inference (Phase 4.5) ─────────────────────────────
-function inferLayer(p) {
-  const fns = p.plant_function || [];
-  const name = (p.common_name || '').toLowerCase();
-
-  if (fns.includes('Canopy') || name.includes('tree')) return 'canopy';
-  if (fns.includes('Shrub') || name.includes('bush')) return 'shrub';
-  if (fns.includes('Ground Cover')) return 'ground';
-  if (fns.includes('Root')) return 'root';
-  if (fns.includes('Vine')) return 'vine';
-
-  return 'herb'; // fallback
-}
 
 const plantIndex = plantsData.map((p: any) => ({
 
@@ -28,6 +15,8 @@ const plantIndex = plantsData.map((p: any) => ({
   scientific_name: p.scientific_name,
   plant_function: p.plant_function || [],
   food_role: p.food_role || null,
+  layers: p.layers || [],
+  growth_habit: p.growth_habit || '',
 }));
 
 // Only pass plant_family and plant_pest edges
@@ -343,6 +332,45 @@ const edges = (relationshipsData as any[]).filter(
 </footer>
 
 <script define:vars={{ plantIndex, edges }}>
+
+// ── Lightweight layer inference ──────────────────────────────────────────
+function inferLayer(p) {
+  // Priority 1: p.layers (most authoritative)
+  const rawLayers = p.layers || [];
+  const layerList = Array.isArray(rawLayers) ? rawLayers : [rawLayers];
+
+  for (const l of layerList) {
+    const lc = String(l || '').trim().toLowerCase();
+
+    if (lc === 'tree' || lc === 'canopy') return 'canopy';
+    if (lc === 'subcanopy' || lc === 'sub-canopy' || lc === 'shrub') return 'shrub';
+    if (lc === 'groundcover' || lc === 'ground cover') return 'ground';
+    if (lc === 'vine') return 'vine';
+    if (lc === 'root' || lc === 'rhizosphere') return 'root';
+    if (lc === 'herbaceous' || lc === 'herb') return 'herb';
+  }
+
+  // Priority 2: p.growth_habit
+  const habit = String(p.growth_habit || '').toLowerCase();
+  if (habit.includes('tree') || habit.includes('palm')) return 'canopy';
+  if (habit.includes('shrub') || habit.includes('bush')) return 'shrub';
+  if (habit.includes('vine')) return 'vine';
+  if (habit.includes('grass')) return 'ground';
+  if (habit.includes('root') || habit.includes('tuber') || habit.includes('rhizome')) return 'root';
+  if (habit.includes('herb')) return 'herb';
+
+  // Priority 3: plant_function signals
+  const fns = p.plant_function || [];
+  if (fns.includes('Ground Cover')) return 'ground';
+  if (fns.includes('Vine')) return 'vine';
+
+  // Priority 4: name-based fallback only if nothing else matched
+  const name = String(p.common_name || '').toLowerCase();
+  if (name.includes('tree') || name.includes('palm') || name.includes('oak') || name.includes('pine')) return 'canopy';
+  if (name.includes('shrub') || name.includes('bush')) return 'shrub';
+
+  return 'herb';
+}
 
 // ── Guild state ───────────────────────────────────────────────────────────────
 let guild = [];
