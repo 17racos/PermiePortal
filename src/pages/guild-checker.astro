@@ -224,10 +224,9 @@ const edges = (relationshipsData as any[]).filter(
 
     <div id="results" style="display:none">
       <div class="score-display">
-        <p class="panel-label">System Pressure</p>
+        <p class="panel-label">Shared Pest Pressure</p>
         <div class="score-number" id="score-number">0</div>
         <div class="score-label" id="score-label">LOW PRESSURE — RESILIENCE: 100</div>
-        <p class="score-subtitle">Measures shared pest exposure. Higher values indicate more interaction, not necessarily instability.</p>
         <div class="score-bar-wrap">
           <div class="score-bar" id="score-bar" style="width:0%"></div>
         </div>
@@ -244,7 +243,7 @@ const edges = (relationshipsData as any[]).filter(
         </div>
         <div class="breakdown-card">
           <div class="breakdown-value" id="bd-dominant">—</div>
-          <div class="breakdown-key">Top Family %</div>
+          <div class="breakdown-key">Family Concentration</div>
         </div>
       </div>
 
@@ -410,6 +409,7 @@ function scoreGuild(slugs) {
       familyDiversity: Math.round(familyDiversity * 100),
       pestOverlap:     Math.round(pestOverlap * 100),
       dominantRatio:   Math.round(dominantFamilyRatio * 100),
+      dominantFamily:  topFamily || null,
     },
     dominantFamilies: sortedFamilies.map(([f]) => f),
     sharedPests,
@@ -859,14 +859,19 @@ function renderResults() {
   scoreEl.textContent = r.score;
   scoreEl.className   = `score-number ${r.riskLevel !== 'low' ? r.riskLevel : ''}`;
   const pressureLabel = r.riskLevel === 'low' ? 'LOW' : r.riskLevel === 'medium' ? 'MODERATE' : 'ELEVATED';
-  labelEl.textContent = `${pressureLabel} PRESSURE — RESILIENCE: ${r.resilience}`;
+  labelEl.textContent = `${pressureLabel} SHARED PEST PRESSURE — RESILIENCE: ${r.resilience}`;
   barEl.style.width   = `${r.score}%`;
   barEl.className     = `score-bar ${r.riskLevel !== 'low' ? r.riskLevel : ''}`;
 
   // Breakdown
   document.getElementById('bd-diversity').textContent = r.breakdown.familyDiversity + '%';
   document.getElementById('bd-overlap').textContent   = r.breakdown.pestOverlap + '%';
-  document.getElementById('bd-dominant').textContent  = r.breakdown.dominantRatio + '%';
+  const domFamLabel = r.breakdown.dominantFamily
+    ? r.breakdown.dominantFamily.charAt(0).toUpperCase() + r.breakdown.dominantFamily.slice(1)
+    : null;
+  document.getElementById('bd-dominant').textContent = domFamLabel
+    ? `${domFamLabel} (${r.breakdown.dominantRatio}%)`
+    : r.breakdown.dominantRatio + '%';
 
   // Resilience Factors — pestMitigationScore
   const fnCounts = {};
@@ -906,15 +911,17 @@ function renderResults() {
   suggEl.innerHTML = '';
   for (const w of r.warnings) {
     const li = document.createElement('div');
-    li.className = 'suggestion-item warning';
-    li.textContent = '⚠️ ' + w;
-    suggEl.appendChild(li);
-  }
-  // Balancing statement when pressure and mitigation are both significant
-  if (r.breakdown.pestOverlap > 50 && pestMitigationScore > 50) {
-    const li = document.createElement('div');
-    li.className = 'suggestion-item';
-    li.textContent = '✓ Shared pest pressure exists, but mitigation systems are strong — this guild is likely resilient.';
+    // When mitigation is strong, combine warning + reassurance into one neutral message
+    if (pestMitigationScore > 50 && r.breakdown.pestOverlap > 50) {
+      // Extract pest names from warning for combined message
+      const pestMatch = w.match(/— (.+?) affect/);
+      const pestNames = pestMatch ? pestMatch[1] : 'several pests';
+      li.className = 'suggestion-item';
+      li.textContent = `Shared pest pressure exists — ${pestNames} appear across multiple plants, but mitigation is strong.`;
+    } else {
+      li.className = 'suggestion-item warning';
+      li.textContent = '⚠️ ' + w;
+    }
     suggEl.appendChild(li);
   }
 
@@ -1003,7 +1010,12 @@ function renderResults() {
       reduces_risk:   'reduces risk',
     };
     if (suggestions.length === 0) {
-      nextNote.textContent = '';
+      const hasUrgentGaps = suggestions.some(s => s.intent === 'fills_gap');
+      document.querySelector('#section-next-plants .result-section-title').textContent =
+        hasUrgentGaps ? 'Suggested Next Plants' : 'Low-Risk Expansion Options';
+      nextNote.textContent = hasUrgentGaps
+        ? 'Plants scored by role coverage, family diversity, and pest overlap with your current guild.'
+        : 'Your guild is structurally sound. These are low-risk ways to expand it without increasing shared pest pressure.';
       nextList.innerHTML = '<div class="next-balanced-state">' +
         '<span class="next-balanced-icon">✓</span>' +
         '<div>' +
@@ -1013,7 +1025,12 @@ function renderResults() {
       '</div>';
       nextSection.style.display = 'block';
     } else if (suggestions.length > 0) {
-      nextNote.textContent = 'Plants scored by role coverage, family diversity, and pest overlap with your current guild.';
+      const hasUrgentGaps = suggestions.some(s => s.intent === 'fills_gap');
+      document.querySelector('#section-next-plants .result-section-title').textContent =
+        hasUrgentGaps ? 'Suggested Next Plants' : 'Low-Risk Expansion Options';
+      nextNote.textContent = hasUrgentGaps
+        ? 'Plants scored by role coverage, family diversity, and pest overlap with your current guild.'
+        : 'Your guild is structurally sound. These are low-risk ways to expand it without increasing shared pest pressure.';
       nextList.innerHTML = suggestions.map(p => `
         <a href="/plants/${p.slug}" class="next-plant-card" target="_blank">
           <div class="next-plant-header">
