@@ -11,6 +11,7 @@ const plantIndex = plantsData.map((p: any) => ({
   family: p.family,
   scientific_name: p.scientific_name,
   plant_function: p.plant_function || [],
+  food_role: p.food_role || null,
 }));
 
 // Only pass plant_family and plant_pest edges
@@ -948,6 +949,12 @@ const FOOD_PRODUCTION_EXCLUDE = [
       ? basePestPenalty * 0.7
       : basePestPenalty;
 
+    // food_role bias — additive only, food_production only
+    if (goalKey === 'food_production') {
+      if (p.food_role === 'anchor')    goalBonus += 3.0;
+      else if (p.food_role === 'support')   goalBonus += 1.0;
+      else if (p.food_role === 'specialty') goalBonus -= 2.0;
+    }
     return goalBonus + familyBonus - pestPenalty;
   }
 
@@ -989,6 +996,27 @@ const FOOD_PRODUCTION_EXCLUDE = [
     famSeen[fam] = (famSeen[fam] || 0) + 1;
   }
 
+  // ── Phase 0: Seed with scored food anchors for food_production ──────────
+  if (goalKey === 'food_production') {
+    const anchorCandidates = plantIndex.filter(p =>
+      p.food_role === 'anchor' && !guildSet.has(p.slug) &&
+      p.plant_function && p.plant_function.length > 0
+    );
+    const sortedAnchors = anchorCandidates
+      .map(p => ({ p, score: scorePlant(p, generated) }))
+      .sort((a, b) => b.score - a.score || a.p.slug.localeCompare(b.p.slug))
+      .map(x => x.p);
+    let anchorsAdded = 0;
+    for (const p of sortedAnchors) {
+      if (anchorsAdded >= 2) break;
+      const fam = plantToFamily[p.slug] || '__none__';
+      if (anchorsAdded === 1 && (famSeen[fam] || 0) >= 1) continue;
+      if ((famSeen[fam] || 0) >= 2) continue;
+      addToGuild(p.slug);
+      anchorsAdded++;
+    }
+  }
+
   // ── Phase 1: Fill anchor roles first ─────────────────────────────────────
   if (profile.anchorRoles) {
     for (const [role, count] of Object.entries(profile.anchorRoles)) {
@@ -1010,6 +1038,7 @@ const FOOD_PRODUCTION_EXCLUDE = [
     for (const p of plantIndex) {
       if (guildSet.has(p.slug)) continue;
       if (!p.plant_function || p.plant_function.length === 0) continue;
+      if (goalKey === 'food_production' && p.food_role === 'specialty') continue;
 
       const fam = plantToFamily[p.slug] || '__none__';
       if ((famSeen[fam] || 0) >= 2) continue;
