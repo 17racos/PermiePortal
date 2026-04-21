@@ -127,6 +127,9 @@ const edges = (relationshipsData as any[]).filter(
   .fn-badge.dominant { color: var(--straw); border-color: rgba(212,168,67,0.4); }
   .fn-section-label { font-family: 'Space Mono', monospace; font-size: 0.55rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ash); opacity: 0.6; margin-bottom: 0.3rem; margin-top: 0.1rem; }
   .action-item.positive { border-left-color: var(--lime); background: rgba(42,61,31,0.2); color: var(--ash); }
+  .reinforced-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .reinforced-chip { display: flex; align-items: center; gap: 0.4rem; font-family: 'Space Mono', monospace; font-size: 0.65rem; padding: 0.3rem 0.7rem; background: rgba(42,61,31,0.35); border: 1px solid rgba(139,184,58,0.3); color: var(--lime); }
+  .reinforced-chip-count { font-family: 'Bebas Neue', sans-serif; font-size: 0.9rem; line-height: 1; color: var(--lime); opacity: 0.8; }
   .fn-bar-wrap { width: 60px; height: 2px; background: rgba(139,184,58,0.1); flex-shrink: 0; }
   .fn-bar { height: 100%; transition: width 0.3s; }
   .actions-list { display: flex; flex-direction: column; gap: 0.4rem; }
@@ -240,6 +243,11 @@ const edges = (relationshipsData as any[]).filter(
         <div id="function-balance"></div>
       </div>
 
+      <div class="result-section" id="section-reinforced" style="display:none">
+        <p class="result-section-title">Reinforced Functions</p>
+        <div class="reinforced-chips" id="reinforced-chips"></div>
+      </div>
+
       <div class="result-section" id="section-actions">
         <p class="result-section-title">Design Actions</p>
         <div class="actions-list" id="actions-list"></div>
@@ -339,9 +347,14 @@ function scoreGuild(slugs) {
     suggestions.push('The next plant should likely come from a different family to widen resilience.');
   }
 
-  // Pest overlap — data-driven risk signal
-  if (totalPests > 0 && pestOverlap > 0.5) {
-    warnings.push(`${sharedPests.length} of ${totalPests} pests affect multiple plants in this guild.`);
+  // Pest overlap — show dominant pressures, not raw counts
+  const severeOverlap = sharedPests.filter(p => p.count >= 3);
+  if (severeOverlap.length > 0) {
+    const dominant = severeOverlap.slice(0, 3).map(p => p.name).join(', ');
+    warnings.push(`Several pests affect multiple plants — ${dominant} are the dominant shared pressures.`);
+  } else if (sharedPests.length > 0 && pestOverlap > 0.5) {
+    const dominant = sharedPests.slice(0, 3).map(p => p.name).join(', ');
+    warnings.push(`Some pest overlap exists — ${dominant} affect multiple guild members.`);
   }
 
   if (warnings.length === 0 && suggestions.length === 0) {
@@ -413,8 +426,11 @@ function analyzeGuildFunctions(slugs) {
 
   // dominant: only flag if guild >= 5 AND role > 70% saturation
   // This is rare and intentional — normal overlap is NOT flagged
+  // Dominant: only flag structural/productive roles, never support/soil roles
+  // Erosion Control, Mulcher, Dynamic Accumulator are always beneficial at scale
+  const NEVER_PENALIZE = ['Erosion Control', 'Mulcher', 'Dynamic Accumulator', 'Nitrogen Fixer'];
   const dominant = ALL_TRACKED_ROLES.filter(r =>
-    n >= 5 && counts[r] / n > 0.7
+    n >= 5 && counts[r] / n > 0.7 && !NEVER_PENALIZE.includes(r)
   );
 
   // ── Generate design actions ───────────────────────────────────────────────
@@ -444,24 +460,11 @@ function analyzeGuildFunctions(slugs) {
     actions.push({ type: 'risk', text: dominantMsgs[role] || `${role} saturates this guild — review overall role balance.` });
   }
 
-  // Positive reinforcement notes for reinforced support functions
-  const reinforcedMsgs = {
-    'Nitrogen Fixer':      'Nitrogen-fixing support is reinforced — good for long-term soil fertility.',
-    'Mulcher':             'Mulch production is reinforced — biomass and soil building are well covered.',
-    'Pollinator':          'Pollinator support is reinforced — beneficial insect activity should be strong.',
-    'Dynamic Accumulator': 'Dynamic accumulation is reinforced — mineral cycling is well supported.',
-    'Erosion Control':     'Erosion control is reinforced — soil stability is well covered.',
-    'Ground Cover':        'Ground cover is reinforced — soil protection is strong.',
-    'Pest Management':     'Pest management is reinforced — insect disruption is well supported.',
-  };
-  for (const role of reinforced) {
-    if (!dominant.includes(role) && reinforcedMsgs[role]) {
-      actions.push({ type: 'positive', text: reinforcedMsgs[role] });
-    }
-  }
+  // Positive reinforcement is now rendered as chips in the Reinforced Functions section
+  // (no longer added to actions array — see renderResults() chip rendering below)
 
-  if (actions.length === 0) {
-    actions.push({ type: 'action', text: 'Core foundational roles are well covered — guild looks ecologically balanced.' });
+  if (actions.filter(a => a.type !== 'positive').length === 0) {
+    actions.push({ type: 'action', text: 'No urgent design gaps detected — core roles are well covered.' });
   }
 
   return {
@@ -641,6 +644,24 @@ function renderResults() {
   const actionsList = document.getElementById('actions-list');
 
   if (fnAnalysis) {
+    // ── Reinforced Functions — chips display ──────────────────────────────────
+    const reinforcedSection = document.getElementById('section-reinforced');
+    const reinforcedChips   = document.getElementById('reinforced-chips');
+    const reinforcedRoles   = ALL_TRACKED_ROLES.filter(r => fnAnalysis.counts[r] >= 2);
+
+    if (reinforcedRoles.length > 0) {
+      reinforcedChips.innerHTML = reinforcedRoles.map(role => {
+        const count = fnAnalysis.counts[role];
+        return `<div class="reinforced-chip">
+          <span>${role}</span>
+          <span class="reinforced-chip-count">×${count}</span>
+        </div>`;
+      }).join('');
+      reinforcedSection.style.display = 'block';
+    } else {
+      reinforcedSection.style.display = 'none';
+    }
+
     // ── Function Balance — three grouped sections ────────────────────────────
     const n = guild.length;
     let balanceHTML = '<div class="function-balance">';
