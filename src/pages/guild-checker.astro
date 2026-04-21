@@ -321,19 +321,30 @@ function scoreGuild(slugs) {
   const warnings = [];
   const suggestions = [];
   const topFamily = sortedFamilies[0]?.[0];
+  const topFamilyPct = Math.round(dominantFamilyRatio * 100);
+  const topFamilyLabel = topFamily ? topFamily.charAt(0).toUpperCase() + topFamily.slice(1) : '';
 
+  // Family dominance — contextual, not automatic penalty
+  // Only escalate to risk when BOTH concentration AND pest overlap are high
   if (n >= 3 && dominantFamilyRatio > 0.6) {
-    warnings.push(`Family dominance: ${topFamily} makes up ${Math.round(dominantFamilyRatio * 100)}% of guild.`);
-    suggestions.push(`Replace one ${topFamily} plant with a different family to spread pest risk.`);
+    if (pestOverlap > 0.5) {
+      warnings.push(
+        `${topFamilyLabel} makes up ${topFamilyPct}% of this guild and pest overlap is high — shared pest exposure is elevated.`
+      );
+    } else {
+      suggestions.push(
+        `${topFamilyLabel} makes up ${topFamilyPct}% of this guild. This may be intentional fertility stacking, but watch for shared pest exposure.`
+      );
+    }
+    suggestions.push('The next plant should likely come from a different family to widen resilience.');
   }
+
+  // Pest overlap — data-driven risk signal
   if (totalPests > 0 && pestOverlap > 0.5) {
-    warnings.push(`${sharedPests.length} of ${totalPests} pests affect multiple plants.`);
-    suggestions.push('Add Lamiaceae or Asteraceae plants to disrupt shared pest pressure.');
+    warnings.push(`${sharedPests.length} of ${totalPests} pests affect multiple plants in this guild.`);
   }
-  if (familyDiversity < 0.5) {
-    suggestions.push(`Only ${uniqueFamilies} ${uniqueFamilies === 1 ? 'family' : 'families'} — aim for 3–4 for resilience.`);
-  }
-  if (suggestions.length === 0) {
+
+  if (warnings.length === 0 && suggestions.length === 0) {
     suggestions.push('Guild composition looks ecologically balanced.');
   }
 
