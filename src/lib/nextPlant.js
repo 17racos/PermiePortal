@@ -119,15 +119,34 @@ export function getNextBestPlants(
     else if (sharedPestCount <= 2 && pests.size > 0)
       pestReasons.push('Low shared pest overlap — minimal risk');
 
-    const reasons = [...roleReasons, ...familyReasons, ...pestReasons].slice(0, 3);
-    if (reasons.length === 0) continue;
-
     const hasMissing   = missingReasons.length > 0;
     const hasNewFamily = familyScore > 0;
 
+    // Build context-aware explanations
+    const explanations = [];
+    if (hasMissing) {
+      const role = missingReasons[0]?.replace('Adds missing ','').replace(' function','') || '';
+      const ctxMap = {
+        'Ground Cover':    'Your guild lacks Ground Cover — this plant helps retain moisture and suppress weeds between existing species.',
+        'Pollinator':      'Your guild has no dedicated Pollinator support — this plant attracts beneficial insects that improve yields.',
+        'Pest Management': 'No Pest Management plant exists in your guild — this plant helps confuse or deter insects threatening neighbors.',
+        'Mulcher':         'Your guild lacks a Mulcher — this plant generates biomass that feeds soil biology.',
+        'Nitrogen Fixer':  'Your guild is missing a Nitrogen Fixer — this plant feeds soil nitrogen through root nodules.',
+      };
+      explanations.push(ctxMap[role] || `Your guild is missing ${role} — this plant fills that functional gap.`);
+    }
+    if (hasNewFamily && explanations.length < 2 && family) {
+      const famLabel = family.charAt(0).toUpperCase() + family.slice(1);
+      explanations.push(`Introduces ${famLabel}, adding new family diversity to reduce shared pest vulnerability.`);
+    }
+    if (explanations.length === 0 && sharedPestCount === 0 && pests.size > 0) {
+      explanations.push('This plant shares no pest pressure with your current guild — a clean addition.');
+    }
+    if (explanations.length === 0) continue;
+
     candidates.push({
       slug: p.slug, name: p.common_name, family: family || '',
-      reasons, score: Math.round(score * 10) / 10,
+      explanations, score: Math.round(score * 10) / 10,
       _hasMissing: hasMissing, _hasNewFamily: hasNewFamily,
       _sharedPests: sharedPestCount,
     });
