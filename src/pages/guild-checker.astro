@@ -515,11 +515,11 @@ function analyzeGuildFunctions(slugs) {
 
   // Dominant functions — only fires in large guilds with extreme saturation
   const dominantMsgs = {
-    'Nitrogen Fixer':  'Nitrogen-fixing support is very strong — next additions should complement with productive or support roles.',
-    'Ground Cover':    'Ground cover is well saturated — consider adding height and structural diversity to complement it.',
-    'Pollinator':      'Pollinator support is very strong — consider adding structural or risk-reduction diversity next.',
-    'Mulcher':         'Mulch production is strong — consider adding complementary roles to balance the system.',
-    'Pest Management': 'Pest management is well covered — focus next additions on structural or productive roles.',
+    'Nitrogen Fixer':  'Nitrogen fixation is already well covered — future additions can focus on productivity, pest management, or structural diversity.',
+    'Ground Cover':    'Ground cover is well established — future additions can bring height, yield, or structural variety.',
+    'Pollinator':      'Pollinator support is strong — future additions can broaden structure or introduce productive layers.',
+    'Mulcher':         'Biomass production is well covered — consider adding yield or pest management layers to complement it.',
+    'Pest Management': 'Pest disruption is already strong — future additions can focus on productivity or structural diversity.',
   };
   for (const role of dominant) {
     actions.push({ type: 'caution', text: dominantMsgs[role] || `${role} saturates this guild — review overall role balance.` });
@@ -862,17 +862,22 @@ function generateGoalGuild(goalKey) {
   const guildSet  = new Set();
   const famSeen   = {};
 
-  // ── Scoring function ───────────────────────────────────────────────────────
+  // ── Food Production exclusion list (goal generation only) ───────────────────
+const FOOD_PRODUCTION_EXCLUDE = [
+  'shampoo-ginger', 'florida-pusley', 'wine-cap', 'cordyceps',
+  'oyster-mushroom', 'maitake', 'reishi', 'turkey-tail', 'lion-s-mane',
+];
+
+// ── Scoring function ───────────────────────────────────────────────────────
   function scorePlant(p, currentSlugs) {
     const fns    = p.plant_function || [];
     const family = plantToFamily[p.slug] || null;
     const pests  = plantToPests[p.slug] || new Set();
 
-    // Goal role bonus — stronger Food Production Edible bias
+    // Goal role bonus
     let goalBonus = 0;
     for (const fn of fns) {
       if (profile.targetRoles.includes(fn)) {
-        // Extra boost for primary goal role in food_production
         goalBonus += (goalKey === 'food_production' && fn === 'Edible') ? 2.5 : 1.5;
       }
       if (profile.avoidOverweight.length > 0 &&
@@ -882,7 +887,22 @@ function generateGoalGuild(goalKey) {
       }
     }
 
-    // Support role soft cap — penalize if already 3+ of same support role
+    // Food Production: tiered support-heavy edible penalty + clean edible bonus
+    if (goalKey === 'food_production') {
+      const FP_SUPPORT = ['Ground Cover','Mulcher','Dynamic Accumulator','Erosion Control','Pest Management'];
+      const supportCount = FP_SUPPORT.filter(r => fns.includes(r)).length;
+
+      if (fns.includes('Edible')) {
+        if (supportCount >= 3)      goalBonus -= 2.0; // strong: behaves more like support
+        else if (supportCount === 2) goalBonus -= 1.0; // moderate
+        else if (supportCount <= 1)  goalBonus += 1.5; // clean edible bonus
+      }
+
+      // Exclusion list penalty
+      if (FOOD_PRODUCTION_EXCLUDE.includes(p.slug)) goalBonus -= 3.0;
+    }
+
+    // Support role soft cap
     const roleCounts = {};
     for (const s of currentSlugs) {
       const pp = plantBySlug[s];
@@ -895,14 +915,28 @@ function generateGoalGuild(goalKey) {
       if (SUPPORT_ROLES.includes(fn) && (roleCounts[fn] || 0) >= 3) goalBonus -= 1.0;
     }
 
-    // Family diversity bonus — stronger penalty for repeated family in low_maintenance
+    // Low Maintenance: de-stacking saturated roles
+    if (goalKey === 'low_maintenance') {
+      const SATURATE_ROLES = ['Ground Cover', 'Pollinator', 'Pest Management'];
+      const saturatedRoles = SATURATE_ROLES.filter(r => (roleCounts[r] || 0) >= 2);
+      if (saturatedRoles.length > 0) {
+        const existFams = new Set(currentSlugs.map(s => plantToFamily[s]).filter(Boolean));
+        const addsNewFamily = family && !existFams.has(family);
+        const onlySaturates = fns.every(fn =>
+          saturatedRoles.includes(fn) || !profile.targetRoles.includes(fn)
+        );
+        if (onlySaturates && !addsNewFamily) goalBonus -= 1.25;
+      }
+    }
+
+    // Family diversity bonus
     const existingFamilies = new Set(currentSlugs.map(s => plantToFamily[s]).filter(Boolean));
     const famRepeatCount = currentSlugs.filter(s => plantToFamily[s] === family).length;
     const familyBonus = (family && !existingFamilies.has(family))
       ? 1.0
       : (goalKey === 'low_maintenance' && famRepeatCount >= 1 ? -1.5 : 0);
 
-    // Pest overlap penalty — reduced for food_production
+    // Pest overlap penalty
     const guildPests = new Set();
     for (const s of currentSlugs) {
       for (const pest of (plantToPests[s] || new Set())) guildPests.add(pest);
@@ -929,6 +963,14 @@ function generateGoalGuild(goalKey) {
 
       const fam = plantToFamily[p.slug] || '__none__';
       if ((famSeen[fam] || 0) >= 2) continue;
+
+      // Food Production anchor filter: skip support-heavy edibles + exclusions
+      if (goalKey === 'food_production' && requiredRole === 'Edible') {
+        const FP_SUPPORT = ['Ground Cover','Mulcher','Dynamic Accumulator','Erosion Control','Pest Management'];
+        const supportCount = FP_SUPPORT.filter(r => p.plant_function.includes(r)).length;
+        if (supportCount >= 3) continue;
+        if (FOOD_PRODUCTION_EXCLUDE.includes(p.slug)) continue;
+      }
 
       const score = scorePlant(p, generated);
       if (score > bestScore ||
