@@ -2,11 +2,11 @@ common_name: Wax Apple
 picture: wax_apple.webp
 scientific_name: Syzygium samarangense
 aka:
-  - Java Apple
-  - Rose Apple
-  - Wax Jambu
-  - Bell Fruit
-  - Love Apple
+- Java Apple
+- Rose Apple
+- Wax Jambu
+- Bell Fruit
+- Love Apple
 family: Myrtaceae
 zone: 10b-12
 ideal_temp_min: 60
@@ -15,12 +15,12 @@ min_temp: 30
 max_temp: 105
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Shade Provider
-  - Ornamental
+- Edible
+- Wildlife Attractor
+- Shade Provider
+- Ornamental
 description: |-
   Wax apple (Syzygium samarangense) is a tropical myrtle tree grown for bell-shaped, often waxy-skinned fruit that ranges from pale green to deep red depending on cultivar, with crisp, watery flesh and mild sweetness. Trees reach 25–40 feet (7.5–12 m) in humid climates, flowering intermittently with fluffy stamens. It belongs in warm orchards where heat is reliable and frost is rare.
 
@@ -35,19 +35,20 @@ purpose: |-
   Shade Provider: Open tropical canopy casts dappled shade for understory gingers -- not dense shade; still enough to cut UV on west patios.
   Ornamental: Waxy blush-to-crimson fruit clusters hang like Christmas ornaments -- glossy foliage stays presentable in coastal heat where temperate ornamentals sulk.
 companions:
-  - slug: carambola
-    name: Carambola
-  - slug: lemongrass
-    name: Lemongrass
-  - slug: papaya
-    name: Papaya
+- slug: carambola
+  name: Carambola
+- slug: lemongrass
+  name: Lemongrass
+- slug: papaya
+  name: Papaya
 cautions:
-  - Name collision with other “rose apples”—Syzygium samarangense is this entry’s anchor
-  - Frost near 30°F (-1°C) damages young growth—protect saplings on marginal sites
+- Name collision with other “rose apples”—Syzygium samarangense is this entry’s anchor
+- Frost near 30°F (-1°C) damages young growth—protect saplings on marginal sites
 pests:
-  - Aphids
-  - Caribbean Fruit Fly
-  - Oriental Fruit Fly
-  - Scale Insects
+- Aphids
+- Caribbean Fruit Fly
+- Oriental Fruit Fly
+- Scale Insects
 growth_habit: Tropical myrtle tree; bell-shaped waxy fruit; humid lowland/subtropical heat
 data_quality_score: 0.78
+food_role: anchor

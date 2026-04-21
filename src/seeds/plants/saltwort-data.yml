@@ -2,8 +2,8 @@ common_name: Saltwort
 picture: saltwort.webp
 scientific_name: Batis maritima
 aka:
-  - Turtleweed
-  - Pickleweed
+- Turtleweed
+- Pickleweed
 family: Bataceae
 zone: 9-11
 ideal_temp_min: 60
@@ -12,13 +12,13 @@ min_temp: 25
 max_temp: 100
 perennial: true
 layers:
-  - Herbaceous
-  - Ground Cover
+- Herbaceous
+- Ground Cover
 plant_function:
-  - Edible
-  - Erosion Control
-  - Wildlife Attractor
-  - Ground Cover
+- Edible
+- Erosion Control
+- Wildlife Attractor
+- Ground Cover
 description: |-
   Saltwort (Batis maritima) is a succulent perennial herb of tropical and subtropical coasts in the Americas, forming bright green mats in salt marshes, mangrove edges, and tidal flats. Jointed stems handle daily salt baths without drama. It is a core native for living shorelines, brackish restoration cells, and honest coastal food gardens where freshwater assumptions fail.
 
@@ -33,13 +33,14 @@ purpose: |-
   Wildlife Attractor: Crabs and snails work the stem bases -- small fish nose the flooded carpet on high tides.
   Ground Cover: Bright green carpets exclude freshwater weeds -- salt glands on leaf surfaces eliminate competition that cannot handle salinity.
 companions:
-  - slug: saltmarsh-aster
-    name: Saltmarsh Aster
-  - slug: sea-oxeye-daisy
-    name: Sea Oxeye Daisy
-  - slug: sea-rocket
-    name: Sea Rocket
+- slug: saltmarsh-aster
+  name: Saltmarsh Aster
+- slug: sea-oxeye-daisy
+  name: Sea Oxeye Daisy
+- slug: sea-rocket
+  name: Sea Rocket
 cautions:
-  - Harvest only from uncontaminated water; bioaccumulation is not a conspiracy theory
+- Harvest only from uncontaminated water; bioaccumulation is not a conspiracy theory
 growth_habit: Succulent jointed stems forming low mats in intertidal and supratidal zones
 data_quality_score: 0.72
+food_role: support

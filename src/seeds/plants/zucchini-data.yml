@@ -10,11 +10,11 @@ min_temp: 32
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
+- Edible
+- Medicinal
+- Pollinator
 description: |-
   Zucchini (Cucurbita pepo) is a warm-season summer squash grown for tender, fast-harvest fruits picked before seeds get fully hard. It is native to the Americas and is widely cultivated across temperate and warm climates for quick edible returns throughout summer. Plants typically grow as bushy or semi-vining forms reaching about 60–120 cm (2–4 ft) tall depending on variety, with large leaves that spread shade across the bed. In permaculture, zucchini matters because it produces reliable edible biomass quickly and its flowers help keep pollinator activity strong while the canopy shades soil and reduces evaporation.
 
@@ -28,17 +28,18 @@ purpose: |-
   Medicinal: Seeds carry fixed oil and cucurbitin lore for prostate support -- research quality varies; eat seeds roasted before megadose supplement cosplay.
   Pollinator: Large yellow squash flowers open at dawn for squash bees -- hand-pollinate if bee pressure is low; separate male rolls for tempura.
 companions:
-  - slug: basil
-    name: Basil
-  - slug: marigold
-    name: Marigold
-  - slug: garlic
-    name: Garlic
+- slug: basil
+  name: Basil
+- slug: marigold
+  name: Marigold
+- slug: garlic
+  name: Garlic
 cautions:
-  - Don’t let fruits sit too long; oversized zucchini becomes fibrous and reduces future flowering.
+- Don’t let fruits sit too long; oversized zucchini becomes fibrous and reduces future flowering.
 pests:
-  - Aphids
-  - Spider Mites
-  - Root Rot
-  - Cucumber Mosaic Virus
-  - Caterpillars
+- Aphids
+- Spider Mites
+- Root Rot
+- Cucumber Mosaic Virus
+- Caterpillars
+food_role: specialty

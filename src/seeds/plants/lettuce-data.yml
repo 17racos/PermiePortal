@@ -10,11 +10,11 @@ min_temp: 20
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Pollinator
-  - Ground Cover
+- Edible
+- Pollinator
+- Ground Cover
 description: |-
   Lettuce (Lactuca sativa) is a cool-season leafy crop grown for crisp greens eaten fresh and for its ability to keep producing when the weather stays reasonable. It forms low rosettes or loose heads depending on variety, and plants typically reach 15–30 cm (6–12 in) tall. In permaculture, it matters because it turns short-season space into repeatable harvests and its quick leaf cover helps reduce bare-soil evaporation and soil temperature swings for the next crop.
 
@@ -28,17 +28,18 @@ purpose: |-
   Pollinator: Yellow ligulate petals on bolted plants feed small bees if you leave a few volunteers to flower -- pull most heads before seed rain if downy mildew spores already haunt the patch.
   Ground Cover: Dense transplants shade inter-row soil in cool months, slowing annual weeds and cutting splash onto taller crops -- succession sow every two weeks so heads do not all mature the same week.
 companions:
-  - slug: carrot
-    name: Carrot
-  - slug: radish
-    name: Radish
-  - slug: garlic
-    name: Garlic
+- slug: carrot
+  name: Carrot
+- slug: radish
+  name: Radish
+- slug: garlic
+  name: Garlic
 cautions:
-  - Bolting in heat is normal; use shade cloth or shift sowing windows to cool periods.
+- Bolting in heat is normal; use shade cloth or shift sowing windows to cool periods.
 pests:
-  - Aphids
-  - Slugs
-  - Spider Mites
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Slugs
+- Spider Mites
+- Root Rot
+- Caterpillars
+food_role: support

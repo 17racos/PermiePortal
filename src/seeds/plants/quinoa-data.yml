@@ -10,11 +10,11 @@ min_temp: 15
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Biomass
-  - Erosion Control
+- Edible
+- Biomass
+- Erosion Control
 description: |-
   Quinoa (Chenopodium quinoa) is an annual crop grown for edible seeds and fast, nutritious biomass. It originates in the Andes of South America and has been cultivated for centuries in cool, high-altitude climates, with varieties adapted to different day lengths and temperatures. Plants typically grow about 1–2 m (3–7 ft) tall depending on variety and conditions, and in permaculture it matters because it provides grain-like calories plus a leafy residue that can cover soil, feed compost, and help stabilize beds during seasonal transitions.
 
@@ -28,16 +28,17 @@ purpose: |-
   Biomass: Tall colorful stalks and leaves chop into carbon-rich compost layers after threshing -- haul residues back to beds instead of burning if you want organic matter gains without smoke complaints.
   Erosion Control: Fibrous roots and closed canopy shield bare soil on Andean-style terraces and cool-season garden fallows -- tolerates light frost during seed fill better than maize on the same calendar slot.
 companions:
-  - slug: garlic
-    name: Garlic
-  - slug: lettuce
-    name: Lettuce
-  - slug: marigold
-    name: Marigold
+- slug: garlic
+  name: Garlic
+- slug: lettuce
+  name: Lettuce
+- slug: marigold
+  name: Marigold
 cautions:
-  - Raw quinoa seeds often contain natural saponins; rinse thoroughly before cooking.
+- Raw quinoa seeds often contain natural saponins; rinse thoroughly before cooking.
 pests:
-  - Aphids
-  - Spider Mites
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Spider Mites
+- Root Rot
+- Caterpillars
+food_role: support

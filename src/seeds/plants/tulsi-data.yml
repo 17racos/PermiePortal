@@ -2,11 +2,11 @@ common_name: Tulsi
 picture: tulsi.webp
 scientific_name: Ocimum tenuiflorum
 aka:
-  - Holy basil
-  - Sacred basil
-  - Sacred Basil
-  - Holy Basil (Ocimum tenuiflorum)
-  - Kraphao
+- Holy basil
+- Sacred basil
+- Sacred Basil
+- Holy Basil (Ocimum tenuiflorum)
+- Kraphao
 family: Lamiaceae
 zone: 10-11
 ideal_temp_min: 65
@@ -15,12 +15,12 @@ min_temp: 32
 max_temp: 105
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Medicinal
-  - Edible
-  - Pollinator
-  - Pest Management
+- Medicinal
+- Edible
+- Pollinator
+- Pest Management
 description: |-
   Tulsi is the basil Hindu kitchens and Ayurvedic shelves agree on—clove-pepper aroma, fuzzy stems, terminal flower spikes the bees treat like a buffet. Several forms exist (Rama, Krishna, Kapoor types); all want heat and sun.
 
@@ -37,27 +37,28 @@ purpose: |-
   Pollinator: Terminal flower spikes open progressively in tropical heat -- honeybees work the columns when you stop pinching for seed.
   Pest Management: Volatile oils repel or mask some chewing insects on adjacent rows -- interplant as aromatic confusion, not as a pesticide substitute.
 companions:
-  - slug: tomato
-    name: Tomato
-  - slug: bell-pepper
-    name: Bell Pepper
-  - slug: cinnamon-basil
-    name: Cinnamon Basil
+- slug: tomato
+  name: Tomato
+- slug: bell-pepper
+  name: Bell Pepper
+- slug: cinnamon-basil
+  name: Cinnamon Basil
 cautions:
-  - Shady boggy corners
-  - Hard frost without protection
+- Shady boggy corners
+- Hard frost without protection
 pests:
-  - aphids
-  - whiteflies
-  - japanese beetles
-  - Bulb Mites
+- aphids
+- whiteflies
+- japanese beetles
+- Bulb Mites
 growth_habit: Aromatic shrubby mint relative, multistemmed
 data_quality_score: 0.76
 field_observations: No field observations yet
 companions_normalized:
-  - original: Tomatoes
-    resolved_slug: tomato
-    name: Tomato
-  - original: Peppers
-    resolved_slug: bell-pepper
-    name: Bell Pepper
+- original: Tomatoes
+  resolved_slug: tomato
+  name: Tomato
+- original: Peppers
+  resolved_slug: bell-pepper
+  name: Bell Pepper
+food_role: specialty

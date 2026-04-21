@@ -10,11 +10,11 @@ min_temp: -20
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Animal Fodder
-  - Erosion Control
+- Edible
+- Animal Fodder
+- Erosion Control
 description: |-
   Wheat (Triticum aestivum) is a cool-season cereal grown for edible grain and sturdy straw. Native to the Fertile Crescent, it has spread worldwide and adapts to many temperate climates, especially where winter conditions support reliable tillering. Plants typically reach 60–120 cm (24–47 in) tall, forming upright stalks and heads that mature into grain. In permaculture, wheat matters because it provides stored calories plus a bulky residue that can become mulch, animal fodder, and compost inputs, while its dense cover reduces erosion during winter transitions.
 
@@ -28,16 +28,17 @@ purpose: |-
   Animal Fodder: Straw bales bed livestock; screenings and weed seeds go to chickens -- return manure to beds closing the carbon loop you just exported as bales.
   Erosion Control: Fall-sown stands armor fields all winter -- roots exude glues that build aggregates faster than bare fallow mud receives rain.
 companions:
-  - slug: crimson-clover
-    name: Crimson Clover
-  - slug: garlic
-    name: Garlic
-  - slug: comfrey
-    name: Comfrey
+- slug: crimson-clover
+  name: Crimson Clover
+- slug: garlic
+  name: Garlic
+- slug: comfrey
+  name: Comfrey
 cautions:
-  - Rotate away from other cereals if possible; continuous cereal growth increases pest/disease carryover.
+- Rotate away from other cereals if possible; continuous cereal growth increases pest/disease carryover.
 pests:
-  - Aphids
-  - Borers
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Borers
+- Root Rot
+- Caterpillars
+food_role: anchor

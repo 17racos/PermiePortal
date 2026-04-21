@@ -10,12 +10,12 @@ min_temp: 32
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
+- Edible
+- Medicinal
+- Pollinator
+- Wildlife Attractor
 description: |-
   Bell pepper (Capsicum annuum) is a warm-season fruiting plant grown for thick-fleshed peppers eaten fresh, cooked, or preserved. Originating in the Americas, it forms sturdy, branching plants that typically reach about 45–90 cm (18–35 in) tall. In permaculture, bell peppers earn their keep twice: fruits feed people, while flowers support pollinators and the plant’s leafy biomass can be composted as carbon-rich matter.
 
@@ -30,16 +30,17 @@ purpose: |-
   Pollinator: Small white nightshade flowers offer pollen and limited nectar to native bees during warm mornings -- blossom drop when nights stay below 55°F (13°C) is the plant complaining, not mysterious bad luck.
   Wildlife Attractor: Split fruit draws wasps and mockingbirds on ends of rows humans skip -- leave one sacrificial plant unmaintained if you want honest garden biodiversity receipts.
 companions:
-  - slug: basil
-    name: Basil
-  - slug: marigold
-    name: Marigold
-  - slug: chives
-    name: Chives
+- slug: basil
+  name: Basil
+- slug: marigold
+  name: Marigold
+- slug: chives
+  name: Chives
 cautions:
-  - Frost and cold soil stunt growth; wait for warm nights before transplanting.
+- Frost and cold soil stunt growth; wait for warm nights before transplanting.
 pests:
-  - Aphids
-  - Whiteflies
-  - Spider Mites
-  - Root Rot
+- Aphids
+- Whiteflies
+- Spider Mites
+- Root Rot
+food_role: anchor

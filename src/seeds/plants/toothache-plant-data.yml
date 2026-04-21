@@ -2,11 +2,11 @@ common_name: Toothache Plant
 picture: toothache_plant.webp
 scientific_name: Acmella oleracea
 aka:
-  - Spilanthes
-  - Buzz Buttons
-  - Szechuan Buttons
-  - Eyeball Plant
-  - Electric Daisy
+- Spilanthes
+- Buzz Buttons
+- Szechuan Buttons
+- Eyeball Plant
+- Electric Daisy
 family: Asteraceae
 zone: 9-12
 ideal_temp_min: 65
@@ -15,12 +15,12 @@ min_temp: 32
 max_temp: 100
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Ornamental
+- Edible
+- Medicinal
+- Pollinator
+- Ornamental
 description: |-
   Toothache plant is a low, spreading aster relative with golden pom-pom flowers packed with spilanthol—the compound that makes your mouth buzz like you licked a nine-volt battery. Traditional use for oral numbness is where the common name comes from; cocktail nerds know it as a prank garnish.
 
@@ -37,26 +37,27 @@ purpose: |-
   Pollinator: Dense yellow disc florets pull small native bees and syrphids through brutal summer -- reseeds freely, so site where wanderers are welcome.
   Ornamental: Low, spreading mats and electric flowers read as living carnival in hot-season beds -- fertile, moist soil keeps bloom cycles generous.
 companions:
-  - slug: bell-pepper
-    name: Bell Pepper
-  - slug: basil
-    name: Basil
-  - slug: roselle
-    name: Roselle
-  - slug: lemongrass
-    name: Lemongrass
+- slug: bell-pepper
+  name: Bell Pepper
+- slug: basil
+  name: Basil
+- slug: roselle
+  name: Roselle
+- slug: lemongrass
+  name: Lemongrass
 cautions:
-  - Deep dry shade
+- Deep dry shade
 pests:
-  - Aphids
-  - Banded Winged Whitefly
-  - Greenhouse Whitefly
-  - Lettuce Aphid
-  - Lubber Grasshopper
-  - Root Aphid
-  - Spider Mites
-  - Whiteflies
+- Aphids
+- Banded Winged Whitefly
+- Greenhouse Whitefly
+- Lettuce Aphid
+- Lubber Grasshopper
+- Root Aphid
+- Spider Mites
+- Whiteflies
 companions_normalized:
-  - original: Peppers
-    resolved_slug: bell-pepper
-    name: Bell Pepper
+- original: Peppers
+  resolved_slug: bell-pepper
+  name: Bell Pepper
+food_role: specialty

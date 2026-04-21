@@ -10,11 +10,11 @@ min_temp: -10
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
+- Edible
+- Medicinal
+- Pollinator
 description: |-
   Winter savory (Satureja montana) is a hardy perennial herb grown for its peppery, savory flavor used in cooking and for its aromatic value in garden systems. Native to the Mediterranean region, it forms a low, woody-based shrub with small flowers that attract pollinators. Plants typically reach 20–50 cm (8–20 in) tall and spread in a manageable mound. In permaculture, winter savory matters because it gives you an aromatic, edible herb harvest from a durable perennial bed edge, and its flowers support beneficial insects that also help around your food crops.
 
@@ -28,15 +28,16 @@ purpose: |-
   Medicinal: Thymol and carvacrol support traditional digestive teas -- pregnancy-sensitive; keep doses culinary unless working with a clinician.
   Pollinator: Small white-lipped flowers feed tiny bees in summer -- trim after bloom to keep mounds tight.
 companions:
-  - slug: rosemary
-    name: Rosemary
-  - slug: thyme
-    name: Thyme
-  - slug: marigold
-    name: Marigold
+- slug: rosemary
+  name: Rosemary
+- slug: thyme
+  name: Thyme
+- slug: marigold
+  name: Marigold
 cautions:
-  - Avoid waterlogged soil; raised beds and airflow matter in humid climates.
+- Avoid waterlogged soil; raised beds and airflow matter in humid climates.
 pests:
-  - Aphids
-  - Spider Mites
-  - Root Rot
+- Aphids
+- Spider Mites
+- Root Rot
+food_role: specialty

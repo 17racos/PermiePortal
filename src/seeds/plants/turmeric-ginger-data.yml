@@ -10,11 +10,11 @@ min_temp: 32
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Medicinal
-  - Dynamic Accumulator
+- Edible
+- Medicinal
+- Dynamic Accumulator
 description: |-
   Turmeric ginger (Curcuma longa) is a tropical rhizomatous plant grown for its aromatic, golden rhizomes used as a spice and traditional herbal ingredient. Native to South Asia, it forms leafy clumps of strap-like foliage that can reach about 60–120 cm (24–47 in) tall in warm, fertile conditions. In permaculture, turmeric ginger matters because it converts heat and fertility into a high-value underground harvest, and its dense canopy shades soil while its rhizome system helps build organic-rich, living bed conditions over time.
 
@@ -28,16 +28,17 @@ purpose: |-
   Medicinal: Curcuminoids drive anti-inflammatory tradition -- absorption jumps with black pepper and fat; check gallbladder and blood-thinner contraindications before megadosing garden rhizome.
   Dynamic Accumulator: Dense rhizome mats and broad leaves cycle potassium and micronutrients into mulch when frost kills tops -- chop senesced foliage back into the bed, not the compost bin only.
 companions:
-  - slug: comfrey
-    name: Comfrey
-  - slug: marigold
-    name: Marigold
-  - slug: garlic
-    name: Garlic
+- slug: comfrey
+  name: Comfrey
+- slug: marigold
+  name: Marigold
+- slug: garlic
+  name: Garlic
 cautions:
-  - Avoid waterlogged soil; rhizome rot is the main long-term problem.
+- Avoid waterlogged soil; rhizome rot is the main long-term problem.
 pests:
-  - Aphids
-  - Spider Mites
-  - Fungus Gnats
-  - Root Rot
+- Aphids
+- Spider Mites
+- Fungus Gnats
+- Root Rot
+food_role: specialty

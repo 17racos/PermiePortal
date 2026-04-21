@@ -2,7 +2,7 @@ common_name: Wild Rice
 picture: wild_rice.webp
 scientific_name: Zizania palustris
 aka:
-  - Northern Wild Rice
+- Northern Wild Rice
 family: Poaceae
 zone: 3-8
 ideal_temp_min: 60
@@ -11,11 +11,11 @@ min_temp: 32
 max_temp: 90
 perennial: false
 layers:
-  - Aquatic
+- Aquatic
 plant_function:
-  - Edible
-  - Aquatic
-  - Wildlife Attractor
+- Edible
+- Aquatic
+- Wildlife Attractor
 description: |-
   Wild Rice (Zizania palustris) is a useful annual species in the Poaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a aquatic form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.
 
@@ -30,18 +30,19 @@ purpose: |-
   Wildlife Attractor: Dense stands feed canvasbacks and mallards -- manage harvest so wildlife and humans do not schedule the same week every year.
 companions: []
 cautions:
-  - Cattail - can dominate shallow wetlands and outcompete young rice stands.
+- Cattail - can dominate shallow wetlands and outcompete young rice stands.
 pests:
-  - Rice Water Weevil
-  - Rice Blast Fungus
-  - Leafhoppers
+- Rice Water Weevil
+- Rice Blast Fungus
+- Leafhoppers
 companion_categories:
-  - name: Pickerelweed - supports aquatic habitat complexity and bank stability.
-    original: Pickerelweed - supports aquatic habitat complexity and bank stability.
-    type: system
-  - name: Arrowhead - shares shallow-water zone and diversifies edible yield.
-    original: Arrowhead - shares shallow-water zone and diversifies edible yield.
-    type: system
-  - name: Blue Flag Iris - roots help stabilize pond margins around rice beds.
-    original: Blue Flag Iris - roots help stabilize pond margins around rice beds.
-    type: system
+- name: Pickerelweed - supports aquatic habitat complexity and bank stability.
+  original: Pickerelweed - supports aquatic habitat complexity and bank stability.
+  type: system
+- name: Arrowhead - shares shallow-water zone and diversifies edible yield.
+  original: Arrowhead - shares shallow-water zone and diversifies edible yield.
+  type: system
+- name: Blue Flag Iris - roots help stabilize pond margins around rice beds.
+  original: Blue Flag Iris - roots help stabilize pond margins around rice beds.
+  type: system
+food_role: anchor

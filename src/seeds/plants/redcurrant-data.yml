@@ -10,11 +10,11 @@ min_temp: -20
 max_temp: 0
 perennial: true
 layers:
-  - Shrub
+- Shrub
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Border Plant
+- Edible
+- Wildlife Attractor
+- Border Plant
 description: |-
   Redcurrant (Ribes rubrum) is a deciduous shrub native to parts of Europe and western Asia, grown for its bright red fruit clusters. It typically reaches about 1–1.5 m (3–5 ft) tall with upright canes and fruiting branches that ripen in succession. In permaculture, redcurrant matters because it supplies a reliable berry harvest from a woody, prunable structure plant while supporting early-season pollinators through spring flowers. The dense cane growth also creates living boundaries that reduce bare soil and invite beneficial garden life.
 
@@ -28,16 +28,17 @@ purpose: |-
   Wildlife Attractor: Dangling yellow-green spring racemes feed bumble queens; ripe fruit feeds robins and chipmunks unless netted -- leave lower canes for ground-foragers if human harvest targets stay on upper wires.
   Border Plant: Upright 1–1.5 m clumps define kitchen garden corners with thornless canes easier to prune than gooseberry -- mulch keeps roots cool; airflow pruning beats fungal panic sprays in humid summers.
 companions:
-  - slug: comfrey
-    name: Comfrey
-  - slug: garlic
-    name: Garlic
-  - slug: lettuce
-    name: Lettuce
+- slug: comfrey
+  name: Comfrey
+- slug: garlic
+  name: Garlic
+- slug: lettuce
+  name: Lettuce
 cautions:
-  - Avoid heavy waterlogging; wet root zones stress cane health.
+- Avoid heavy waterlogging; wet root zones stress cane health.
 pests:
-  - Aphids
-  - Scale Insects
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Scale Insects
+- Root Rot
+- Caterpillars
+food_role: anchor

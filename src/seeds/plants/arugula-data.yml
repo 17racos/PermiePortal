@@ -2,8 +2,8 @@ common_name: Arugula
 picture: arugula.webp
 scientific_name: Eruca vesicaria
 aka:
-  - Rocket
-  - Roquette
+- Rocket
+- Roquette
 family: Brassicaceae
 zone: 3-11
 ideal_temp_min: 45
@@ -12,11 +12,11 @@ min_temp: 25
 max_temp: 90
 perennial: false
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Pollinator
-  - Ground Cover
+- Edible
+- Pollinator
+- Ground Cover
 description: |-
   Arugula (Eruca vesicaria) is a fast-growing leafy annual in the mustard family, native to the Mediterranean and long cultivated across temperate and subtropical food systems. Plants form low rosettes 8-18 inches tall with deeply lobed leaves and spicy flavor, then send up flower stalks with cream-white blooms. In permaculture beds it earns its space as a quick turnover green, early nectar source, and living cover between slower crops.
 
@@ -31,19 +31,20 @@ purpose: |-
   Ground Cover: Dense 20-30 day sowings tile bare soil between tomatoes and carrots -- cut splash erosion and smother chickweed flushes until the canopy crop closes the row.
 companions: []
 cautions:
-  - Fennel - can suppress nearby annuals through strong root-zone competition and allelopathic effects.
+- Fennel - can suppress nearby annuals through strong root-zone competition and allelopathic effects.
 pests:
-  - Aphids
-  - Flea Beetles
-  - Cabbage Worms
-  - Slugs
+- Aphids
+- Flea Beetles
+- Cabbage Worms
+- Slugs
 companion_categories:
-  - name: Tomato - late-season canopy gives afternoon shade that slows bolting in warm spells.
-    original: Tomato - late-season canopy gives afternoon shade that slows bolting in warm spells.
-    type: system
-  - name: Carrot - arugula fills bare soil quickly while carrot roots occupy deeper layers.
-    original: Carrot - arugula fills bare soil quickly while carrot roots occupy deeper layers.
-    type: system
-  - name: Onion - upright onion leaves share space efficiently and their scent can confuse some chewing pests.
-    original: Onion - upright onion leaves share space efficiently and their scent can confuse some chewing pests.
-    type: system
+- name: Tomato - late-season canopy gives afternoon shade that slows bolting in warm spells.
+  original: Tomato - late-season canopy gives afternoon shade that slows bolting in warm spells.
+  type: system
+- name: Carrot - arugula fills bare soil quickly while carrot roots occupy deeper layers.
+  original: Carrot - arugula fills bare soil quickly while carrot roots occupy deeper layers.
+  type: system
+- name: Onion - upright onion leaves share space efficiently and their scent can confuse some chewing pests.
+  original: Onion - upright onion leaves share space efficiently and their scent can confuse some chewing pests.
+  type: system
+food_role: anchor

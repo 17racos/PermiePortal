@@ -2,8 +2,8 @@ common_name: Oregon Grape
 picture: oregon_grape.webp
 scientific_name: Berberis aquifolium
 aka:
-  - Tall Oregon grape
-  - Mahonia aquifolium (synonym in older literature)
+- Tall Oregon grape
+- Mahonia aquifolium (synonym in older literature)
 family: Berberidaceae
 zone: 5-9
 ideal_temp_min: 35
@@ -12,13 +12,13 @@ min_temp: -10
 max_temp: 95
 perennial: true
 layers:
-  - Shrub
+- Shrub
 plant_function:
-  - Edible
-  - Medicinal
-  - Wildlife Attractor
-  - Border Plant
-  - Pest Management
+- Edible
+- Medicinal
+- Wildlife Attractor
+- Border Plant
+- Pest Management
 description: |-
   Oregon grape (Berberis aquifolium) is an evergreen, holly-ish shrub with compound, spiny leaflets, bright yellow early-spring flowers, and dusty-blue berries with a tart pucker that educates children about honesty. Plants range from low mounding forms to 6-foot thickets depending on cultivar and site; they prefer woodland edges with organic mulch, not parking-lot heat islands.
 
@@ -36,16 +36,17 @@ purpose: |-
   Border Plant: Holly-like evergreen leaflets on spiny stems make living fence along paths where you want deer to detour -- shear after fruit if you need tidy sight lines without removing all bird food.
   Pest Management: Dense armored foliage physically blocks deer browse on adjacent soft herbs -- still combine with motion or dog pressure because hungry ungulates sometimes test spines when snow limits options.
 companions:
-  - slug: evergreen-huckleberry
-    name: Evergreen Huckleberry
-  - slug: rhododendron
-    name: Rhododendron
-  - slug: maidenhair-fern
-    name: Maidenhair Fern
+- slug: evergreen-huckleberry
+  name: Evergreen Huckleberry
+- slug: rhododendron
+  name: Rhododendron
+- slug: maidenhair-fern
+  name: Maidenhair Fern
 cautions:
-  - None documented
+- None documented
 pests:
-  - Scale Insects
-  - Powdery Mildew
+- Scale Insects
+- Powdery Mildew
 growth_habit: Evergreen multi-stem shrub; suckers slowly into thickets where happy
 data_quality_score: 0.75
+food_role: support

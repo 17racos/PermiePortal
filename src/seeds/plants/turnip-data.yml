@@ -10,11 +10,11 @@ min_temp: 15
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Medicinal
-  - Erosion Control
+- Edible
+- Medicinal
+- Erosion Control
 description: |-
   Turnip (Brassica rapa subsp. rapa) is a cool-season root crop grown for its swollen, edible taproot and its leafy greens. Native to Europe and western Asia, turnips are widely cultivated across temperate gardens because they tolerate cool weather and deliver fast harvests. Plants typically reach 20–45 cm (8–18 in) tall depending on variety, with roots ranging from golf-ball to larger sizes. In permaculture, turnips matter because their roots improve soil texture, their greens provide quick nutrition, and the crop’s fast life cycle helps keep beds covered between longer-season plants.
 
@@ -28,16 +28,17 @@ purpose: |-
   Medicinal: Glucosinolates and vitamin C show up in both root and leaf -- folk use targets cough and digestion support; brassica thyroid goitrogen math applies if you juice barrels of raw tops daily.
   Erosion Control: Fast-emerging rosettes armor beds between tree crops -- fibrous roots loosen clay while leaves intercept autumn rains on slopes.
 companions:
-  - slug: lettuce
-    name: Lettuce
-  - slug: garlic
-    name: Garlic
-  - slug: radish
-    name: Radish
+- slug: lettuce
+  name: Lettuce
+- slug: garlic
+  name: Garlic
+- slug: radish
+  name: Radish
 cautions:
-  - Avoid brassica monoculture; rotate to reduce pest/disease carryover.
+- Avoid brassica monoculture; rotate to reduce pest/disease carryover.
 pests:
-  - Aphids
-  - Slugs
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Slugs
+- Root Rot
+- Caterpillars
+food_role: specialty

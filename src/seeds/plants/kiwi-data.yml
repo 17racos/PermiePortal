@@ -10,11 +10,11 @@ min_temp: 10
 max_temp: 0
 perennial: true
 layers:
-  - Vine
+- Vine
 plant_function:
-  - Edible
-  - Pollinator
-  - Wildlife Attractor
+- Edible
+- Pollinator
+- Wildlife Attractor
 description: |-
   Kiwi (Actinidia deliciosa) is a vigorous deciduous climbing vine grown for its fuzzy fruit and strong trellis habit. It is native to Asia and is now widely cultivated in temperate and warm temperate climates. Plants can reach 4–8 m (13–26 ft) on support, producing white flowers in spring and the familiar green-gold fruit in late season. In permaculture, it matters because it converts vertical space into edible harvest and creates a living canopy that cools understory crops.
 
@@ -28,16 +28,17 @@ purpose: |-
   Pollinator: Creamy, saucer-shaped spring flowers offer pollen and nectar to honeybees before apples peak -- avoid insecticide during bloom if you want fruit set on marginal microclimates.
   Wildlife Attractor: Overripe windfalls feed opossums and raccoons along trellis bases -- pick early or net rows if vertebrate tithe conflicts with harvest goals.
 companions:
-  - slug: comfrey
-    name: Comfrey
-  - slug: garlic
-    name: Garlic
-  - slug: crimson-clover
-    name: Crimson Clover
+- slug: comfrey
+  name: Comfrey
+- slug: garlic
+  name: Garlic
+- slug: crimson-clover
+  name: Crimson Clover
 cautions:
-  - Kiwi vines need appropriate male/female planting for fruiting (or reliable pollination partners).
+- Kiwi vines need appropriate male/female planting for fruiting (or reliable pollination partners).
 pests:
-  - Aphids
-  - Scale Insects
-  - Spider Mites
-  - Root Rot
+- Aphids
+- Scale Insects
+- Spider Mites
+- Root Rot
+food_role: support

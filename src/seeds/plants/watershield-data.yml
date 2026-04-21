@@ -2,8 +2,8 @@ common_name: Watershield
 picture: watershield.webp
 scientific_name: Brasenia schreberi
 aka:
-  - American Water-Shield
-  - Dollar Bonnet
+- American Water-Shield
+- Dollar Bonnet
 family: Cabombaceae
 zone: 4-11
 ideal_temp_min: 60
@@ -12,11 +12,11 @@ min_temp: 15
 max_temp: 98
 perennial: true
 layers:
-  - Aquatic
+- Aquatic
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Border Plant
+- Edible
+- Wildlife Attractor
+- Border Plant
 description: |-
   Brasenia schreberi is a native floating-leaf plant whose oval pads sit under the water surface just enough to look like stained glass from above. New stems and leaf undersides coat themselves in a gelatinous slime — nature's weird sunscreen — which historically was eaten in some cultures after careful preparation. Fish and waterfowl use it for cover; dragonflies love the real estate.
 
@@ -32,18 +32,19 @@ purpose: |-
   Wildlife Attractor: Floating oval pads give dragonflies perches and sunfish shade -- gelatinous coating deters grazers enough to leave habitat structure intact.
   Border Plant: Rooted rhizomes mark the deep-to-shallow transition with understated oval pads -- pairs with spatterdock where you want native texture without lotus drama.
 companions:
-  - slug: floating-heart
-    name: Floating Heart
-  - slug: spatterdock
-    name: Spatterdock
+- slug: floating-heart
+  name: Floating Heart
+- slug: spatterdock
+  name: Spatterdock
 cautions:
-  - None documented
+- None documented
 pests:
-  - Aphids
-  - Snails
+- Aphids
+- Snails
 growth_habit: Rhizomatous floating aquatic
 data_quality_score: 0.72
 companion_categories:
-  - name: Duck Potato
-    original: Duck Potato
-    type: ecosystem
+- name: Duck Potato
+  original: Duck Potato
+  type: ecosystem
+food_role: support

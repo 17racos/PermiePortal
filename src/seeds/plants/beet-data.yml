@@ -10,12 +10,12 @@ min_temp: 15
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Medicinal
-  - Ground Cover
-  - Mulcher
+- Edible
+- Medicinal
+- Ground Cover
+- Mulcher
 description: |-
   Beet (Beta vulgaris subsp. vulgaris) is a cool-season root crop grown for its swollen edible taproot and tender leafy greens. It is native to coastal parts of Europe and the Mediterranean basin, and it has been cultivated for centuries as both a vegetable and a soil-improving garden worker. Typical root sizes range from golf-ball to fist scale depending on variety, while foliage forms a low mat that suppresses weeds. In permaculture systems, beets bring edible nutrition, add organic matter when you chop the tops, and help you keep the soil surface active instead of bare.
 
@@ -30,16 +30,17 @@ purpose: |-
   Ground Cover: 30-45 day canopies shade drills between slower crops, cutting evaporation until canopy closes -- harvest tops for kitchen before they pull too much from sizing roots.
   Mulcher: Chopped beet tops fold carbon-light green into compost or worm bins when mixed with straw -- avoid burying huge wet piles anaerobic next to crowns still sizing underground.
 companions:
-  - slug: dill
-    name: Dill
-  - slug: onion
-    name: Onion
-  - slug: lettuce
-    name: Lettuce
+- slug: dill
+  name: Dill
+- slug: onion
+  name: Onion
+- slug: lettuce
+  name: Lettuce
 cautions:
-  - Letting soil swing from wet to dry can make roots fibrous; keep moisture steady, especially as roots swell.
+- Letting soil swing from wet to dry can make roots fibrous; keep moisture steady, especially as roots swell.
 pests:
-  - Aphids
-  - Slugs
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Slugs
+- Root Rot
+- Caterpillars
+food_role: anchor

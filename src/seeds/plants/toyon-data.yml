@@ -10,11 +10,11 @@ min_temp: 10
 max_temp: 0
 perennial: true
 layers:
-  - Shrub
+- Shrub
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Border Plant
+- Edible
+- Wildlife Attractor
+- Border Plant
 description: |-
   Toyon (Heteromeles arbutifolia) is an evergreen shrub native to California and nearby regions, prized for its dense branching and clusters of bright red berries. Plants typically grow 2–6 m (7–20 ft) tall depending on conditions and management. In permaculture, toyons matter because they provide long-lived habitat structure in shrub layers while offering berry forage for wildlife and a persistent living boundary that reduces erosion and bare soil. Its year-round foliage and seasonal fruit help stabilize ecosystem rhythms across mixed plantings.
 
@@ -28,16 +28,17 @@ purpose: |-
   Wildlife Attractor: Persistent red pomes and dense evergreen cover feed songbirds and small mammals through winter dry spells -- leave fruit if your goal is cedar waxwing theater.
   Border Plant: Twisting 2--6 m evergreen shrub canes knit drought-tolerant screens along paths and chaparral edges -- prickly structure slows casual foot traffic without looking like ornamental boxwood cosplay.
 companions:
-  - slug: rosemary
-    name: Rosemary
-  - slug: lavender
-    name: Lavender
-  - slug: thyme
-    name: Thyme
+- slug: rosemary
+  name: Rosemary
+- slug: lavender
+  name: Lavender
+- slug: thyme
+  name: Thyme
 cautions:
-  - Be careful with fruit processing and plant identification; do not assume all similar red berries are safe.
+- Be careful with fruit processing and plant identification; do not assume all similar red berries are safe.
 pests:
-  - Aphids
-  - Scale Insects
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Scale Insects
+- Root Rot
+- Caterpillars
+food_role: anchor

@@ -10,12 +10,12 @@ min_temp: 15
 max_temp: 0
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Edible
-  - Medicinal
-  - Shade Provider
-  - Ornamental
+- Edible
+- Medicinal
+- Shade Provider
+- Ornamental
 description: |-
   Olive tree (Olea europaea) is an evergreen tree native to the Mediterranean basin, known for silvery leaves, fragrant spring flowers, and fruit that is processed into edible olives and oil. Managed trees typically reach 5–15 m (16–49 ft) depending on cultivar and pruning. In permaculture, olives matter because they turn a long-lived woody structure into food, biomass, and microclimate: the canopy shades understory crops, leaf litter feeds soil life, and prunings become useful mulch while the tree tolerates dry seasons when established.
 
@@ -30,16 +30,17 @@ purpose: |-
   Shade Provider: Silvery evergreen canopy cools poultry yards, outdoor kitchens, and understory lavender rows through Mediterranean-dry summers -- skirt-prune for air movement so peacock spot does not party in stagnant interiors.
   Ornamental: Twisting trunks on gnarled specimens and pewter undersides of lanceolate leaves read as structural evergreen architecture in courtyards -- fruiting cultivars still drop stain-prone drupes, so plan paving color accordingly.
 companions:
-  - slug: lavender
-    name: Lavender
-  - slug: rosemary
-    name: Rosemary
-  - slug: thyme
-    name: Thyme
+- slug: lavender
+  name: Lavender
+- slug: rosemary
+  name: Rosemary
+- slug: thyme
+  name: Thyme
 cautions:
-  - Avoid waterlogged soil; root health is the main long-term constraint for olives.
+- Avoid waterlogged soil; root health is the main long-term constraint for olives.
 pests:
-  - Scale Insects
-  - Aphids
-  - Borers
-  - Root Rot
+- Scale Insects
+- Aphids
+- Borers
+- Root Rot
+food_role: specialty

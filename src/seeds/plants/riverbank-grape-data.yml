@@ -2,7 +2,7 @@ common_name: Riverbank Grape
 picture: riverbank_grape.webp
 scientific_name: Vitis riparia
 aka:
-  - Frost grape
+- Frost grape
 family: Vitaceae
 zone: 3-9
 ideal_temp_min: 50
@@ -11,12 +11,12 @@ min_temp: -40
 max_temp: 98
 perennial: true
 layers:
-  - Vine
+- Vine
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Erosion Control
-  - Shade Provider
+- Edible
+- Wildlife Attractor
+- Erosion Control
+- Shade Provider
 description: |-
   Riverbank grape (Vitis riparia) is a cold-hardy North American wild grape of floodplains, riverbanks, and fencerows from the Atlantic to the Rockies. Small blue-black berries cluster tightly; leaves are often glossy with a skunky note when crushed. It is the rootstock ancestor behind many cultivated grapes and a resilient native for riparian buffers and pergolas in harsh winters.
 
@@ -31,18 +31,19 @@ purpose: |-
   Erosion Control: Deep roots and suckering crowns knit alluvium on scoured banks after ice jams retreat -- train off lone yard trees or riparian trunks you want to keep bark-intact; riparia climbs like it means it.
   Shade Provider: Dense summer leaves on pergolas and cattle lanes cast moving shade where humid Midwest summers punish open pens -- dormant hard pruning keeps fruiting wood reachable without jungle tangle.
 companions:
-  - slug: roughleaf-dogwood
-    name: Roughleaf Dogwood
-  - slug: peppervine
-    name: Peppervine
-  - slug: moonseed-vine
-    name: Moonseed Vine
+- slug: roughleaf-dogwood
+  name: Roughleaf Dogwood
+- slug: peppervine
+  name: Peppervine
+- slug: moonseed-vine
+  name: Moonseed Vine
 cautions:
-  - None documented
+- None documented
 pests:
-  - Japanese Beetles
-  - Leafhoppers
-  - Powdery Mildew
-  - Spotted Lanternfly
+- Japanese Beetles
+- Leafhoppers
+- Powdery Mildew
+- Spotted Lanternfly
 growth_habit: Vigorous deciduous grapevine climbing high on banks, trees, and trellises
 data_quality_score: 0.78
+food_role: support

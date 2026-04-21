@@ -2,8 +2,8 @@ common_name: Wild Eggplant
 picture: wild_eggplant.webp
 scientific_name: Solanum americanum
 aka:
-  - American black nightshade
-  - Glossy nightshade
+- American black nightshade
+- Glossy nightshade
 family: Solanaceae
 zone: 7-12
 ideal_temp_min: 55
@@ -12,11 +12,11 @@ min_temp: 10
 max_temp: 110
 perennial: false
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Medicinal
+- Edible
+- Wildlife Attractor
+- Medicinal
 description: |-
   Wild eggplant (Solanum americanum) is a warm-season annual or short-lived perennial nightshade of disturbed fields, gardens, and roadsides across the Americas and many tropical regions. Small white flowers yield clusters of glossy black berries on branching plants. Some populations have a history of careful culinary use after ripeness checks; others are best treated as toxic look-alike practice dummies—identification and local genotype knowledge matter more than optimism.
 
@@ -30,40 +30,41 @@ purpose: |-
   Wildlife Attractor: Small white star flowers feed syrphids; birds paint fences purple with seed-filled droppings -- plan containment if neighbors hate nightshades.
   Medicinal: Steroidal glycoalkaloid research exists -- leave clinical use to labs; home experiments with nightshades age poorly.
 companions:
-  - slug: okra
-    name: Okra
-  - slug: amaranth
-    name: Amaranth
-  - slug: marigold
-    name: Marigold
+- slug: okra
+  name: Okra
+- slug: amaranth
+  name: Amaranth
+- slug: marigold
+  name: Marigold
 cautions:
-  - Toxic look-alikes and green fruit — Solanum identification errors can hospitalize people; verify with regional experts
-  - Livestock poisoning — berries and foliage risky to grazers; not a poultry forage plant
-  - Invasive potential — prolific seeders; remove unwanted plants before fruit drop
+- Toxic look-alikes and green fruit — Solanum identification errors can hospitalize people; verify with regional experts
+- Livestock poisoning — berries and foliage risky to grazers; not a poultry forage plant
+- Invasive potential — prolific seeders; remove unwanted plants before fruit drop
 pests:
-  - Andean Potato Weevil
-  - Aphids
-  - Broad Mite
-  - Colorado Potato Beetle
-  - Corn Earworm
-  - Cyclamen Mite
-  - Flea Beetles
-  - Greenhouse Whitefly
-  - Leaf Curl
-  - Pepper Weevil
-  - Potato Scab
-  - Reniform Nematode
-  - Root Aphid
-  - Shore Fly
-  - Stink Bug
-  - Tobacco Budworm
-  - Tomato Hornworms
-  - Wireworm
-  - Fusarium Wilt
-  - Late Blight
-  - Leaf Spot
-  - Pythium Root Rot
-  - Spotted Cucumber Beetle
-  - Brown Marmorated Stink Bug
+- Andean Potato Weevil
+- Aphids
+- Broad Mite
+- Colorado Potato Beetle
+- Corn Earworm
+- Cyclamen Mite
+- Flea Beetles
+- Greenhouse Whitefly
+- Leaf Curl
+- Pepper Weevil
+- Potato Scab
+- Reniform Nematode
+- Root Aphid
+- Shore Fly
+- Stink Bug
+- Tobacco Budworm
+- Tomato Hornworms
+- Wireworm
+- Fusarium Wilt
+- Late Blight
+- Leaf Spot
+- Pythium Root Rot
+- Spotted Cucumber Beetle
+- Brown Marmorated Stink Bug
 growth_habit: Branching warm-season nightshade; white flowers; glossy black berries; disturbed soils
 data_quality_score: 0.82
+food_role: specialty

@@ -10,11 +10,11 @@ min_temp: 15
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Medicinal
-  - Erosion Control
+- Edible
+- Medicinal
+- Erosion Control
 description: |-
   Daikon radish (Raphanus sativus var. longipinnatus) is a cool-season root crop grown for its long, crisp taproot and peppery leaves. It originates in East Asia and is widely cultivated across temperate climates for fresh eating, stir-fries, and pickling. Plants typically form a rosette of foliage and a root that can reach 30–60 cm (12–24 in) depending on variety. In permaculture, it earns its keep by punching into compacted soil, feeding the food chain with edible biomass, and improving bed structure when harvested and composted.
 
@@ -28,31 +28,32 @@ purpose: |-
   Medicinal: Isothiocyanates from crushed root appear in folk formulas for sluggish digestion -- keep medicinal talk to kitchen-tea scale unless you map dose against thyroid meds or ulcer risk with a clinician.
   Erosion Control: Eighteen-inch (45 cm) taproots bore through plow pans so the next crop’s roots follow the old channel -- winter-killed tissue leaves vertical pores that catch rainfall instead of letting it sheet across the bed crown.
 companions:
-  - slug: lettuce
-    name: Lettuce
-  - slug: pea
-    name: Pea
-  - slug: garlic
-    name: Garlic
+- slug: lettuce
+  name: Lettuce
+- slug: pea
+  name: Pea
+- slug: garlic
+  name: Garlic
 cautions:
-  - Avoid planting during hot spells; heat increases bolting and rough texture.
+- Avoid planting during hot spells; heat increases bolting and rough texture.
 pests:
-  - Aphids
-  - Slugs
-  - Cabbage Aphid
-  - Cabbage Looper
-  - Cabbage Root Fly
-  - Cabbage Root Maggots
-  - Cabbage Worms
-  - Cross-striped Cabbageworm
-  - Diamondback Moth
-  - Flea Beetles
-  - Harlequin Bug
-  - Imported Cabbageworm
-  - Swede Midge
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Slugs
+- Cabbage Aphid
+- Cabbage Looper
+- Cabbage Root Fly
+- Cabbage Root Maggots
+- Cabbage Worms
+- Cross-striped Cabbageworm
+- Diamondback Moth
+- Flea Beetles
+- Harlequin Bug
+- Imported Cabbageworm
+- Swede Midge
+- Root Rot
+- Caterpillars
 field_observations: |-
   Seed depth matters: shallow sowing can tip roots, deep sowing can slow emergence.
   Don’t transplant daikon—root disturbance turns into forked, sad carrots-with-attitude.
   Harvest before extreme heat makes the root fibrous; flavor is time-dependent chemistry.
+food_role: specialty

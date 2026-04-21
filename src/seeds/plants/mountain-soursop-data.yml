@@ -2,8 +2,8 @@ common_name: Mountain Soursop
 picture: mountain_soursop.webp
 scientific_name: Annona montana
 aka:
-  - Wild soursop
-  - Mountain custard apple
+- Wild soursop
+- Mountain custard apple
 family: Annonaceae
 zone: 10-11
 ideal_temp_min: 65
@@ -12,12 +12,12 @@ min_temp: 30
 max_temp: 105
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Shade Provider
-  - Medicinal
+- Edible
+- Wildlife Attractor
+- Shade Provider
+- Medicinal
 description: |-
   Mountain soursop (Annona montana) is a tropical annonaceous tree with glossy leaves and aromatic, custard-apple-family fruit that tends to be more acidic and fibrous than commercial soursop (Annona muricata), but still squarely in the “spoon and hope” dessert category. Trees often reach 20–40 feet in cultivation, forming a rounded crown useful for dappled shade in food forests.
 
@@ -34,16 +34,17 @@ purpose: |-
   Shade Provider: Rounded 6–12 m crown gives dappled humid-tropical shade for understory ginger, turmeric, or vanilla on mulched berms -- open interior pruning improves airflow where night humidity stacks anthracnose pressure.
   Medicinal: Bark and leaf decoctions appear in Caribbean folk materia medica for parasitic and fever narratives tied to acetogenin chemistry -- internal use belongs with trained practitioners because therapeutic margin and species ID errors are both real risks.
 companions:
-  - slug: soursop
-    name: Soursop
-  - slug: banana
-    name: Banana
-  - slug: pigeon-pea
-    name: Pigeon Pea
+- slug: soursop
+  name: Soursop
+- slug: banana
+  name: Banana
+- slug: pigeon-pea
+  name: Pigeon Pea
 cautions:
-  - None documented
+- None documented
 pests:
-  - Caribbean Fruit Fly
-  - Scale Insects
+- Caribbean Fruit Fly
+- Scale Insects
 growth_habit: Small to medium tropical tree; irregular branching typical of annonas
 data_quality_score: 0.75
+food_role: specialty

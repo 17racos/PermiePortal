@@ -521,6 +521,7 @@ def process_plant(data, source_file, known_plant_slugs, warnings):
         "max_temp":                data.get('max_temp'),
         "perennial":               data.get('perennial'),
         "layers":                  norm_list(data.get('layers', [])),
+        "food_role":               data.get("food_role", None),
         "plant_function":            raw_functions,
         "plant_traits":              plant_traits,
         "human_uses":                human_uses,

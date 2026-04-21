@@ -10,11 +10,11 @@ min_temp: -20
 max_temp: 0
 perennial: true
 layers:
-  - Shrub
+- Shrub
 plant_function:
-  - Edible
-  - Medicinal
-  - Wildlife Attractor
+- Edible
+- Medicinal
+- Wildlife Attractor
 description: |-
   Currant (Ribes rubrum) is a deciduous shrub native to temperate parts of Europe and western Asia. It typically grows about 1–2 m (3–7 ft) tall with upright stems and clusters of translucent, red berries. In permaculture, it matters because you get a dependable fruit harvest from a woody structure plant, plus early spring flowers that feed pollinators before many other shrubs start working.
 
@@ -28,16 +28,17 @@ purpose: |-
   Medicinal: Dark pigments and polyphenols in ripe berries show up in traditional cordials -- keep sugar loads honest if you cite health while preserving.
   Wildlife Attractor: Early racemes feed bees before many shrubs bloom -- ripe strings feed finches and waxwings if you share the harvest.
 companions:
-  - slug: comfrey
-    name: Comfrey
-  - slug: garlic
-    name: Garlic
-  - slug: lettuce
-    name: Lettuce
+- slug: comfrey
+  name: Comfrey
+- slug: garlic
+  name: Garlic
+- slug: lettuce
+  name: Lettuce
 cautions:
-  - Plant away from heavy, waterlogged soil; persistent wetness stresses cane health.
+- Plant away from heavy, waterlogged soil; persistent wetness stresses cane health.
 pests:
-  - Aphids
-  - Scale Insects
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Scale Insects
+- Root Rot
+- Caterpillars
+food_role: specialty

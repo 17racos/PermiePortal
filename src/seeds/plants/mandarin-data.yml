@@ -10,12 +10,12 @@ min_temp: 20
 max_temp: 0
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Edible
-  - Medicinal
-  - Wildlife Attractor
-  - Shade Provider
+- Edible
+- Medicinal
+- Wildlife Attractor
+- Shade Provider
 description: |-
   Mandarin (Citrus reticulata) is an evergreen citrus tree grown for sweet, easy-to-peel fruit and glossy foliage. It typically forms a rounded canopy about 3–6 m (10–20 ft) tall in managed landscapes, producing fragrant flowers and then fruit that ripens in warm seasons depending on cultivar. In permaculture, it matters because you get regular, vitamin-rich calories from a woody structure plant, plus nectar for pollinators and an aromatic canopy that cools the understory.
 
@@ -30,16 +30,17 @@ purpose: |-
   Wildlife Attractor: Split fruit and dropped peels draw wasps and mockingbirds -- pick before full drop if ground-forager traffic conflicts with barefoot traffic.
   Shade Provider: Rounded evergreen canopy cools lettuce and herbs in the drip line -- mulch wide but keep mulch back from bark to avoid phytophthora collars in humid climates.
 companions:
-  - slug: rosemary
-    name: Rosemary
-  - slug: marigold
-    name: Marigold
-  - slug: garlic
-    name: Garlic
+- slug: rosemary
+  name: Rosemary
+- slug: marigold
+  name: Marigold
+- slug: garlic
+  name: Garlic
 cautions:
-  - Protect from frost; cold-stunned trees often become pest targets.
+- Protect from frost; cold-stunned trees often become pest targets.
 pests:
-  - Aphids
-  - Scale Insects
-  - Whiteflies
-  - Borers
+- Aphids
+- Scale Insects
+- Whiteflies
+- Borers
+food_role: specialty

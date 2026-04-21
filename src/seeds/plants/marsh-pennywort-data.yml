@@ -2,8 +2,8 @@ common_name: Marsh Pennywort
 picture: marsh_pennywort.webp
 scientific_name: Hydrocotyle umbellata
 aka:
-  - Manyflower marshpennywort
-  - Water pennywort (also used for other Hydrocotyle spp.)
+- Manyflower marshpennywort
+- Water pennywort (also used for other Hydrocotyle spp.)
 family: Araliaceae
 zone: 5-11
 ideal_temp_min: 50
@@ -12,13 +12,13 @@ min_temp: 15
 max_temp: 100
 perennial: true
 layers:
-  - Ground Cover
-  - Aquatic
+- Ground Cover
+- Aquatic
 plant_function:
-  - Ground Cover
-  - Aquatic
-  - Wildlife Attractor
-  - Edible
+- Ground Cover
+- Aquatic
+- Wildlife Attractor
+- Edible
 description: |-
   Marsh pennywort (Hydrocotyle umbellata) is a low, creeping wetland plant with round, peltate leaves like green coins and delicate umbels of tiny flowers. Stolons root at nodes, matting pond margins, ditches, and the wet shoulders of swales; in deep water it can form floating rafts. It is smaller and more herbaceous than the infamous giant floating pennywort (different species, worse manners).
 
@@ -35,18 +35,19 @@ purpose: |-
   Wildlife Attractor: Tiny umbels feed minute flies and beetles while mats shelter tadpoles -- leave floating carpets if amphibian nursery matters more than golf-course tidy ponds.
   Edible: Some Asian traditions blanch tender stems -- positive ID matters because look-alike pennyworts vary in chemistry; when in doubt, use it as habitat, not salad.
 companions:
-  - slug: cattail
-    name: Cattail
-  - slug: pickerelweed
-    name: Pickerelweed
+- slug: cattail
+  name: Cattail
+- slug: pickerelweed
+  name: Pickerelweed
 cautions:
-  - None documented
+- None documented
 pests:
-  - Snails
-  - Aphids
+- Snails
+- Aphids
 growth_habit: Creeping stoloniferous perennial; mats expand vegetatively in wet soil or shallow water
 data_quality_score: 0.75
 companion_categories:
-  - name: Duckweed
-    original: Duckweed — floating layer + creeping layer = two niches of nutrient uptake and shade that calm algae’s main-character syndrome.
-    type: ecosystem
+- name: Duckweed
+  original: Duckweed — floating layer + creeping layer = two niches of nutrient uptake and shade that calm algae’s main-character syndrome.
+  type: ecosystem
+food_role: support

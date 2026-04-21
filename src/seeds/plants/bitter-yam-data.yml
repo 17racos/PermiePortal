@@ -2,8 +2,8 @@ common_name: Bitter Yam
 picture: bitter_yam.webp
 scientific_name: Dioscorea dumetorum
 aka:
-  - Cluster yam
-  - Three-leaf yam
+- Cluster yam
+- Three-leaf yam
 family: Dioscoreaceae
 zone: 10-11
 ideal_temp_min: 70
@@ -12,12 +12,12 @@ min_temp: 40
 max_temp: 100
 perennial: true
 layers:
-  - Vine
+- Vine
 plant_function:
-  - Edible
-  - Ground Cover
-  - Biomass
-  - Dynamic Accumulator
+- Edible
+- Ground Cover
+- Biomass
+- Dynamic Accumulator
 description: |-
   Bitter yam is a tropical African yam species with a reputation: edible forms exist after careful processing, and ignorant snacking is how you learn respect for cyanogenic glycosides the hard way. This is not the beginner's "dig and mash" yam — it is a serious food-security crop where traditional detox methods are known. Permaculture angle: perennial vine, heavy tuber, excellent for trellising on sturdy posts in frost-free sites.
 
@@ -32,18 +32,19 @@ purpose: |-
   Biomass: Frost-killed vines chop into compost for fast green layer in frost-free rotations -- confirm no quarantine pathogens before moving material between counties.
   Dynamic Accumulator: Deep storage roots mine subsoil potassium -- returns only if you compost vine residues on-site instead of exporting every scrap off the holding.
 companions:
-  - slug: pigeon-pea
-    name: Pigeon Pea
-  - slug: cassava
-    name: Cassava
+- slug: pigeon-pea
+  name: Pigeon Pea
+- slug: cassava
+  name: Cassava
 cautions:
-  - Shallow rocky soil that restricts tuber expansion
-  - Undocumented wild harvest without ID and processing knowledge
+- Shallow rocky soil that restricts tuber expansion
+- Undocumented wild harvest without ID and processing knowledge
 pests:
-  - Nematodes
-  - Aphids
-  - Root Rot
+- Nematodes
+- Aphids
+- Root Rot
 companion_categories:
-  - name: Tall sorghum (living trellis)
-    original: Tall sorghum (living trellis)
-    type: system
+- name: Tall sorghum (living trellis)
+  original: Tall sorghum (living trellis)
+  type: system
+food_role: anchor

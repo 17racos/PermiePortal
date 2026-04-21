@@ -2,8 +2,8 @@ common_name: Yerba Mate
 picture: yerba_mate.webp
 scientific_name: Ilex paraguariensis
 aka:
-  - Mate
-  - Paraguayan holly
+- Mate
+- Paraguayan holly
 family: Aquifoliaceae
 zone: 9-11
 ideal_temp_min: 55
@@ -12,13 +12,13 @@ min_temp: 15
 max_temp: 100
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Edible
-  - Medicinal
-  - Wildlife Attractor
-  - Shade Provider
-  - Border Plant
+- Edible
+- Medicinal
+- Wildlife Attractor
+- Shade Provider
+- Border Plant
 description: |-
   Yerba mate (Ilex paraguariensis) is an evergreen tree to large shrub of Atlantic forests in South America, grown for dried leaves brewed into mate—a caffeinated, theobromine-carrying drink with deep cultural roots far beyond ‘trend tea.’ Leaves are leathery, lightly toothed, and harvestable once plants size up; young plants look like polite holly cousins until trunks thicken. In humid subtropical sites it appreciates acidic, well-drained soil, dappled to full sun transitions, and honest air movement to reduce foliar funk.
 
@@ -34,17 +34,18 @@ purpose: |-
   Shade Provider: 15 m evergreen umbrella suits banana and ginger understory in humid subtropics -- air movement prevents fungal sulk.
   Border Plant: Row-plant on 3 m centers for leaf harvest -- width matches eventual buttressed trunks, not one-year wishful spacing.
 companions:
-  - slug: banana
-    name: Banana
-  - slug: moringa
-    name: Moringa
-  - slug: elderberry
-    name: Elderberry
+- slug: banana
+  name: Banana
+- slug: moringa
+  name: Moringa
+- slug: elderberry
+  name: Elderberry
 cautions:
-  - None documented
+- None documented
 pests:
-  - Aphids
-  - Scale Insects
-  - Spider Mites
+- Aphids
+- Scale Insects
+- Spider Mites
 growth_habit: Evergreen tree to large shrub; dense branching when tip-pruned for leaf
 data_quality_score: 0.82
+food_role: support

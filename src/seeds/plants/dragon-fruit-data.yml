@@ -10,11 +10,11 @@ min_temp: 28
 max_temp: 0
 perennial: true
 layers:
-  - Vine
+- Vine
 plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
+- Edible
+- Medicinal
+- Pollinator
 description: |-
   Dragon fruit (Hylocereus undatus) is a vigorous climbing cactus native to tropical regions of the Americas and widely cultivated in warm climates. It produces long, segmented stems that use support and form airy, branching growth that can reach several meters when trained. The fruits are edible and sweet when ripe, and in permaculture they matter because a trellised cactus gives you shade-filtered vertical structure plus a high-value fruit harvest from a heat-loving plant that hates soggy feet.
 
@@ -28,17 +28,18 @@ purpose: |-
   Medicinal: Betalain-rich pulp shows up in antioxidant-focused food traditions -- treat as seasonal fruit, not a pharmacy substitute.
   Pollinator: Large white flowers open after dark for hawkmoths and nectar-feeding bats where they occur -- hand-pollinate in still greenhouses if night visitors are absent.
 companions:
-  - slug: aloe
-    name: Aloe
-  - slug: ginger
-    name: Ginger
-  - slug: banana
-    name: Banana
+- slug: aloe
+  name: Aloe
+- slug: ginger
+  name: Ginger
+- slug: banana
+  name: Banana
 cautions:
-  - Avoid overwatering; consistently wet soil triggers root and stem rot.
-  - Expect thorns on older segments; harvest carefully to avoid injuries and stem damage.
+- Avoid overwatering; consistently wet soil triggers root and stem rot.
+- Expect thorns on older segments; harvest carefully to avoid injuries and stem damage.
 pests:
-  - Aphids
-  - Spider Mites
-  - Scale Insects
-  - Root Rot
+- Aphids
+- Spider Mites
+- Scale Insects
+- Root Rot
+food_role: specialty

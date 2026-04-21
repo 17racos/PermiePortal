@@ -2,8 +2,8 @@ common_name: Partridgeberry
 picture: partridgeberry.webp
 scientific_name: Mitchella repens
 aka:
-  - Twinflower (also used for Linnaea—different plant)
-  - Deerberry
+- Twinflower (also used for Linnaea—different plant)
+- Deerberry
 family: Rubiaceae
 zone: 3-7
 ideal_temp_min: 35
@@ -12,12 +12,12 @@ min_temp: -30
 max_temp: 88
 perennial: true
 layers:
-  - Ground Cover
+- Ground Cover
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Ornamental
-  - Ground Cover
+- Edible
+- Wildlife Attractor
+- Ornamental
+- Ground Cover
 description: |-
   Partridgeberry (Mitchella repens) is a tiny evergreen rubiaceous creeper of acidic eastern woodlands, bearing paired white flowers (often two-fused) and bright red twin berries that look like nature’s earbuds. Stems root at nodes into a flat mat under trees; growth is slow, polite, and easily smothered by turf monoculture thugs.
 
@@ -34,16 +34,17 @@ purpose: |-
   Ornamental: Glossy opposite evergreen leaves and scarlet berries read as woodland tapestry under highbush blueberry skirts -- no plastic mulch theater required if leaf mold stays thick.
   Ground Cover: Stems root at nodes into slow, polite mats that exclude turf bullies on acidic humus -- tuck between ferns and sedges where dog traffic stays honest.
 companions:
-  - slug: highbush-blueberry
-    name: Highbush Blueberry
-  - slug: elderberry
-    name: Elderberry
-  - slug: snowberry
-    name: Snowberry
+- slug: highbush-blueberry
+  name: Highbush Blueberry
+- slug: elderberry
+  name: Elderberry
+- slug: snowberry
+  name: Snowberry
 cautions:
-  - None documented
+- None documented
 pests:
-  - Slugs
-  - Aphids
+- Slugs
+- Aphids
 growth_habit: Evergreen creeping perennial; slow spread by rooting stems
 data_quality_score: 0.75
+food_role: support

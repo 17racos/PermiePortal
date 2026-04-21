@@ -2,8 +2,8 @@ common_name: Mexican Elderberry
 picture: mexican_elderberry.webp
 scientific_name: Sambucus mexicana
 aka:
-  - Mexican Elder
-  - Tapiro
+- Mexican Elder
+- Tapiro
 family: Adoxaceae
 zone: 6-10
 ideal_temp_min: 45
@@ -12,13 +12,13 @@ min_temp: -5
 max_temp: 105
 perennial: true
 layers:
-  - Shrub
-  - Tree
+- Shrub
+- Tree
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Mulcher
-  - Border Plant
+- Edible
+- Wildlife Attractor
+- Mulcher
+- Border Plant
 description: |-
   Mexican elderberry (Sambucus mexicana) is a fast-growing, often multi-stemmed large shrub to small tree native to Mexico and the southwestern United States, where it lines washes and terrace edges with pinnate leaves and flat white flower clusters followed by small dark berries. Heights of 10–20 feet (3–6 m) are common with moderate water and sun; plants spread by suckers where soil stays workable. In food systems it mirrors other elders—flowers and ripe berries have long kitchen histories where processing traditions are respected—while providing early-season insect resources and late bird food.
 
@@ -33,18 +33,19 @@ purpose: |-
   Mulcher: Compound leaves and fine twigs drop litter that feeds fungal food webs along washes and terrace backs -- rake into beds instead of hauling off-site.
   Border Plant: Multi-stem habit screens poultry paddocks and alley edges when irrigation keeps soil workable -- edge with root barrier if paths must stay straight.
 companions:
-  - slug: elderberry
-    name: Elderberry
-  - slug: pomegranate-tree
-    name: Pomegranate Tree
-  - slug: sunflower
-    name: Sunflower
+- slug: elderberry
+  name: Elderberry
+- slug: pomegranate-tree
+  name: Pomegranate Tree
+- slug: sunflower
+  name: Sunflower
 cautions:
-  - Cyanogenic and irritant tissues in unripe fruit and bark—research processing before marketing to humans or livestock
-  - Suckering — spreads into paths if irrigation is generous and edging is lazy
+- Cyanogenic and irritant tissues in unripe fruit and bark—research processing before marketing to humans or livestock
+- Suckering — spreads into paths if irrigation is generous and edging is lazy
 pests:
-  - Aphids
-  - Spider Mites
-  - Powdery Mildew
+- Aphids
+- Spider Mites
+- Powdery Mildew
 growth_habit: Fast multi-stem shrub to small tree; compound leaves; white umbels; dark berries when ripe; suckering
 data_quality_score: 0.8
+food_role: anchor

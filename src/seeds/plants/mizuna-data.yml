@@ -2,7 +2,7 @@ common_name: Mizuna
 picture: mizuna.webp
 scientific_name: Brassica rapa var. nipposinica
 aka:
-  - Japanese Mustard Greens
+- Japanese Mustard Greens
 family: Brassicaceae
 zone: 4-10
 ideal_temp_min: 45
@@ -11,11 +11,11 @@ min_temp: 20
 max_temp: 88
 perennial: false
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Ground Cover
-  - Pollinator
+- Edible
+- Ground Cover
+- Pollinator
 description: |-
   Mizuna (Brassica rapa var. nipposinica) is a useful annual species in the Brassicaceae family, native or long-naturalized across parts of the Americas and Eurasia depending on lineage. Mature growth is typically a herbaceous form suited to layered guilds, with reliable productivity when site conditions match its ecology. In a permaculture system it contributes food, habitat, and system resilience rather than single-crop output.
 
@@ -30,18 +30,19 @@ purpose: |-
   Pollinator: Small yellow four-petaled flowers on bolting stems offer pollen and nectar to early honeybees, solitary bees, and hoverflies -- leaving a few plants to bolt supports beneficials even while you prioritize younger leaves for the kitchen.
 companions: []
 cautions:
-  - Fennel - can reduce vigor of nearby annual greens.
+- Fennel - can reduce vigor of nearby annual greens.
 pests:
-  - Flea Beetles
-  - Aphids
-  - Cabbage Worms
+- Flea Beetles
+- Aphids
+- Cabbage Worms
 companion_categories:
-  - name: Lettuce - similar cool-season timing and shallow root sharing.
-    original: Lettuce - similar cool-season timing and shallow root sharing.
-    type: system
-  - name: Radish - quick marker crop that opens soil for repeated sowing.
-    original: Radish - quick marker crop that opens soil for repeated sowing.
-    type: system
-  - name: Scallion - aromatic leaves can confuse brassica pests.
-    original: Scallion - aromatic leaves can confuse brassica pests.
-    type: system
+- name: Lettuce - similar cool-season timing and shallow root sharing.
+  original: Lettuce - similar cool-season timing and shallow root sharing.
+  type: system
+- name: Radish - quick marker crop that opens soil for repeated sowing.
+  original: Radish - quick marker crop that opens soil for repeated sowing.
+  type: system
+- name: Scallion - aromatic leaves can confuse brassica pests.
+  original: Scallion - aromatic leaves can confuse brassica pests.
+  type: system
+food_role: anchor

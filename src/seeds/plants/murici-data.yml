@@ -2,9 +2,9 @@ common_name: Murici
 picture: murici.webp
 scientific_name: Byrsonima crassifolia
 aka:
-  - Nance
-  - Craboo
-  - Changunga
+- Nance
+- Craboo
+- Changunga
 family: Malpighiaceae
 zone: 10-11
 ideal_temp_min: 65
@@ -13,12 +13,12 @@ min_temp: 30
 max_temp: 105
 perennial: true
 layers:
-  - Tree
-  - Shrub
+- Tree
+- Shrub
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Ornamental
+- Edible
+- Wildlife Attractor
+- Ornamental
 description: |-
   Murici (nance) is the little yellow cherry that ferments in buckets, perfumes the yard when flowering, and laughs at drought once established. Flavor is polarizing—like cheese had an argument with a flower.
 
@@ -34,20 +34,21 @@ purpose: |-
   Wildlife Attractor: Tanagers, orioles, and other frugivores strip golden clusters fast in dry tropical yards -- leave perimeter strings of fruit if you want seed dispersal into fence lines without netting every limb.
   Ornamental: Rough gray bark, drought-leathery foliage, and foamy yellow inflorescences sell the small tree along driveways where irrigation is honest sand-country sparse -- fruiting ornament that still reads as food forest, not purely decorative fluff.
 companions:
-  - slug: papaya
-    name: Papaya
-  - slug: moringa
-    name: Moringa
+- slug: papaya
+  name: Papaya
+- slug: moringa
+  name: Moringa
 cautions:
-  - Waterlogged clay
-  - Hard freezes
+- Waterlogged clay
+- Hard freezes
 pests:
-  - scale insects
-  - caribbean fruit fly
-  - aphids
+- scale insects
+- caribbean fruit fly
+- aphids
 growth_habit: Shrubby tree; rough bark; clusters of small yellow fruit
 data_quality_score: 0.75
 companion_categories:
-  - name: Drought-tolerant understory herbs
-    original: Drought-tolerant understory herbs
-    type: system
+- name: Drought-tolerant understory herbs
+  original: Drought-tolerant understory herbs
+  type: system
+food_role: support

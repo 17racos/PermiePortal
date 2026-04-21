@@ -2,8 +2,8 @@ common_name: Yellowhorn Tree
 picture: yellowhorn_tree.webp
 scientific_name: Xanthoceras sorbifolium
 aka:
-  - Shiny Leaf Yellowhorn
-  - Chinese Flowering Chestnut
+- Shiny Leaf Yellowhorn
+- Chinese Flowering Chestnut
 family: Sapindaceae
 zone: 4-8
 ideal_temp_min: 35
@@ -12,12 +12,12 @@ min_temp: -25
 max_temp: 100
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Edible
-  - Ornamental
-  - Wildlife Attractor
-  - Windbreaker
+- Edible
+- Ornamental
+- Wildlife Attractor
+- Windbreaker
 description: |-
   Yellowhorn (Xanthoceras sorbifolium) is a deciduous Chinese tree reaching 5–8 m (16–26 ft), valued for showy panicles of white flowers with yellow eyes and edible seeds inside leathery capsules once roasted or processed. Compound leaves resemble mountain ash, giving a tidy orchard aesthetic. It requires winter chill to flower reliably—low-chill subtropical and tropical Americas lowlands are poor matches except in upland microclimates or as a curiosity that may grow leafy but shy to bloom.
 
@@ -32,18 +32,19 @@ purpose: |-
   Wildlife Attractor: Insect crowds mob inflorescences in chill-hour climates -- birds crack capsules when seeds mature.
   Windbreaker: Rounded 8 m crown softens north-wind across orchard rows -- needs cold winters to flower; low-chill sites get leaves without nuts.
 companions:
-  - slug: goumi
-    name: Goumi
-  - slug: sea-buckthorn
-    name: Sea Buckthorn
-  - slug: comfrey
-    name: Comfrey
+- slug: goumi
+  name: Goumi
+- slug: sea-buckthorn
+  name: Sea Buckthorn
+- slug: comfrey
+  name: Comfrey
 cautions:
-  - None documented
+- None documented
 pests:
-  - Aphids
-  - Boxelder Bug
-  - Scale Insects
-  - Spotted Lanternfly
+- Aphids
+- Boxelder Bug
+- Scale Insects
+- Spotted Lanternfly
 growth_habit: Small deciduous tree
 data_quality_score: 0.75
+food_role: support

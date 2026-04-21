@@ -10,11 +10,11 @@ min_temp: -10
 max_temp: 0
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Edible
-  - Ornamental
-  - Wildlife Attractor
+- Edible
+- Ornamental
+- Wildlife Attractor
 description: |-
   Medlar (Mespilus germanica) is a small deciduous tree native to southwestern Asia and nearby temperate regions of Europe. It typically grows about 5–8 m (16–26 ft) tall and forms rounded branches with leathery leaves, fragrant spring flowers, and hard fruits that become edible only after “bletting” (softening). In permaculture, it matters because it adds a distinct, late-season fruit tradition plus seasonal bloom and structure that supports pollinators and garden biodiversity.
 
@@ -28,16 +28,17 @@ purpose: |-
   Ornamental: Twisted branches, large leaves, and odd brown pomes hang on into winter -- reads medieval beside manicured lawns.
   Wildlife Attractor: Spring nectar feeds early bees while bletting fruit drops feed rodents and wasps -- pick up drops if yellow jackets host conventions near patios.
 companions:
-  - slug: comfrey
-    name: Comfrey
-  - slug: garlic
-    name: Garlic
-  - slug: rosemary
-    name: Rosemary
+- slug: comfrey
+  name: Comfrey
+- slug: garlic
+  name: Garlic
+- slug: rosemary
+  name: Rosemary
 cautions:
-  - Don’t rush eating: firm fruit needs bletting; otherwise it tastes like disappointment.
+- Don’t rush eating: firm fruit needs bletting; otherwise it tastes like disappointment.
 pests:
-  - Aphids
-  - Scale Insects
-  - Borers
-  - Caterpillars
+- Aphids
+- Scale Insects
+- Borers
+- Caterpillars
+food_role: anchor

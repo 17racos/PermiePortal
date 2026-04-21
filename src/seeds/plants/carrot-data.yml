@@ -2,8 +2,8 @@ common_name: Carrot
 picture: carrot.webp
 scientific_name: Daucus carota subsp. sativus
 aka:
-  - Wild Carrot (Daucus carota)
-  - Queen Anne's Lace (wild ancestor)
+- Wild Carrot (Daucus carota)
+- Queen Anne's Lace (wild ancestor)
 family: Apiaceae
 zone: 3-10
 ideal_temp_min: 45
@@ -12,14 +12,14 @@ min_temp: 20
 max_temp: 95
 perennial: false
 layers:
-  - Root
+- Root
 plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
-  - Dynamic Accumulator
-  - Border Plant
+- Edible
+- Medicinal
+- Pollinator
+- Wildlife Attractor
+- Dynamic Accumulator
+- Border Plant
 description: "Carrot (Daucus carota subsp. sativus) is a biennial root vegetable grown for its edible taproot. It develops long, cylindrical roots in shades of orange, purple, red, yellow, and white, depending on the variety. The plant has feathery green foliage and produces clusters of small white flowers in its second year if not harvested.\n\nCarrots prefer loose, sandy, or loamy soil free of rocks to encourage straight root development. They are a cool-season crop that grows best in mild temperatures and requires consistent moisture for optimal growth. \n\n 🌞💧 Sun and Water Requirements:\nPrefers full sun but tolerates partial shade. Requires well-drained, loose, sandy or loamy soil. Needs consistent watering to prevent cracking and encourage even growth.\n\n🫘 Methods to Propagate:\nSeeds: Direct sow outdoors 2–4 weeks before the last frost in spring. Succession Planting: Sow every 2–3 weeks for a continuous harvest. Regrowing: Carrot tops can regrow greens in water but will not produce a new root.\n\n🧑🌾👩🌾 When to Harvest:\nRoots are ready for harvest 60–80 days after planting. Harvest when roots reach the desired size, typically 15–20 cm (6–8 inches) in length. Leave some plants in the ground to overwinter for seed production the following year."
 purpose: |-
   Edible: taproots size for crunch storage while feathery tops flavor broths when young -- second-year umbels mean roots toughen once bolting begins.
@@ -29,44 +29,45 @@ purpose: |-
   Dynamic Accumulator: deep orange roots mine loose beds for potassium and phosphorus -- nutrients move into tops when plants are chopped at senescence instead of hauled away.
   Border Plant: rows edge onion and lettuce beds with a low feathery skirt that marks bed lines -- stays short enough not to shade neighboring crops.
 companions:
-  - slug: chives
-    name: Chives
-  - slug: onion
-    name: Onion
-  - slug: garlic
-    name: Garlic
-  - slug: lettuce
-    name: Lettuce
-  - slug: tomato
-    name: Tomato
+- slug: chives
+  name: Chives
+- slug: onion
+  name: Onion
+- slug: garlic
+  name: Garlic
+- slug: lettuce
+  name: Lettuce
+- slug: tomato
+  name: Tomato
 cautions:
-  - Dill
-  - Fennel
+- Dill
+- Fennel
 pests:
-  - Celery Leaf Miner
-  - Dill Worms
-  - Serpentine Leafminer
-  - Wireworm
-  - aphids
-  - Crane Fly Larvae
-  - White Grubs
-  - June Beetle Grubs
-  - Chafer Grubs
-  - Root Feeding Grubs
-  - Root Aphid
-  - Cutworm Larvae
-  - Alternaria Leaf Spot
-  - Carrot Fly
-  - Carrot Rust Fly
-  - Carrot Weevil
-  - Cercospora Leaf Spot
-  - Parsnip Canker
-  - Iguana
-  - Swallowtail Caterpillar
-  - Mole Crickets
+- Celery Leaf Miner
+- Dill Worms
+- Serpentine Leafminer
+- Wireworm
+- aphids
+- Crane Fly Larvae
+- White Grubs
+- June Beetle Grubs
+- Chafer Grubs
+- Root Feeding Grubs
+- Root Aphid
+- Cutworm Larvae
+- Alternaria Leaf Spot
+- Carrot Fly
+- Carrot Rust Fly
+- Carrot Weevil
+- Cercospora Leaf Spot
+- Parsnip Canker
+- Iguana
+- Swallowtail Caterpillar
+- Mole Crickets
 growth_habit: Tree
 data_quality_score: 0.8
 companions_normalized:
-  - original: Chive
-    resolved_slug: chives
-    name: Chives
+- original: Chive
+  resolved_slug: chives
+  name: Chives
+food_role: support

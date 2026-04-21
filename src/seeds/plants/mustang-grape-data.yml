@@ -2,7 +2,7 @@ common_name: Mustang Grape
 picture: mustang_grape.webp
 scientific_name: Vitis mustangensis
 aka:
-  - Mustang grapevine
+- Mustang grapevine
 family: Vitaceae
 zone: 6-10
 ideal_temp_min: 60
@@ -11,11 +11,11 @@ min_temp: -10
 max_temp: 105
 perennial: true
 layers:
-  - Vine
+- Vine
 plant_function:
-  - Edible
-  - Wildlife Attractor
-  - Shade Provider
+- Edible
+- Wildlife Attractor
+- Shade Provider
 description: |-
   Mustang grape (Vitis mustangensis) is a high-climbing deciduous vine native to the south-central United States and adjacent northeastern Mexico, common in woodland margins and sandy soils. Leaves are thick, often slightly white beneath, and fruit clusters bear small dark berries with a tart, musky flavor that cooks into jelly better than it eats out of hand. It is a resilient native grape for trellises, living pergolas, and wildlife corridors where European wine grapes struggle with humidity and disease.
 
@@ -29,18 +29,19 @@ purpose: |-
   Wildlife Attractor: Dark fruit feeds foxes, raccoons, and songbirds; tangled deciduous canopy gives catbirds and cardinals nesting cover along humid woodland margins -- expect heavy wildlife tax unless you net choice clusters.
   Shade Provider: Thick summer leaf wall on pergolas, arbors, or livestock lanes cuts west-wall heat load and afternoon glare -- winter dormancy returns light, so pair with evergreen understory where year-round shade is mandatory.
 companions:
-  - slug: sand-live-oak
-    name: Sand Live Oak
-  - slug: southern-red-cedar
-    name: Southern Red Cedar
-  - slug: roughleaf-dogwood
-    name: Roughleaf Dogwood
+- slug: sand-live-oak
+  name: Sand Live Oak
+- slug: southern-red-cedar
+  name: Southern Red Cedar
+- slug: roughleaf-dogwood
+  name: Roughleaf Dogwood
 cautions:
-  - None documented
+- None documented
 pests:
-  - Japanese Beetles
-  - Scale Insects
-  - Powdery Mildew
-  - Spotted Lanternfly
+- Japanese Beetles
+- Scale Insects
+- Powdery Mildew
+- Spotted Lanternfly
 growth_habit: Woody deciduous vine climbing tens of feet with shreddy bark on old stems
 data_quality_score: 0.78
+food_role: support

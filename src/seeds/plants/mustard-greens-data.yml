@@ -10,11 +10,11 @@ min_temp: 15
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Medicinal
-  - Pest Management
+- Edible
+- Medicinal
+- Pest Management
 description: |-
   Mustard greens (Brassica juncea) are leafy brassicas grown for peppery-tasting leaves used in salads, sautés, and quick cooked dishes. They form rosettes of textured leaves and can be harvested young for tender flavor. In permaculture, they matter because they add fast nutrition while also functioning as a pest-aware crop in brassica rotations, giving you an opportunity to manage insect cycles instead of blindly feeding them. Plants commonly reach 20–60 cm (8–24 in) depending on variety and harvest style.
 
@@ -28,20 +28,21 @@ purpose: |-
   Medicinal: Glucosinolate-rich foliage supplies the kitchen-pharmacy tradition of warming mustard plasters and foot baths for congestion -- topical use only on intact skin; internal medicinal claims belong with trained practitioners, not blog confidence.
   Pest Management: Pungent volatiles and biofumigant potential from macerated green biomass are used ahead of nematode-sensitive crops when incorporated immediately -- as a living row plant the scent disrupts some herbivore host-finding when interplanted with less aromatic lines.
 companions:
-  - slug: lettuce
-    name: Lettuce
-  - slug: garlic
-    name: Garlic
-  - slug: pea
-    name: Pea
+- slug: lettuce
+  name: Lettuce
+- slug: garlic
+  name: Garlic
+- slug: pea
+  name: Pea
 cautions:
-  - Bolting happens in heat; use shade or succession sowing to avoid “pepper confetti” bitterness.
+- Bolting happens in heat; use shade or succession sowing to avoid “pepper confetti” bitterness.
 pests:
-  - Aphids
-  - Slugs
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Slugs
+- Root Rot
+- Caterpillars
 field_observations: |-
   Keep leaves evenly moist for a sweeter, less harsh bite.
   If you want tender growth, harvest frequently—big delays make leaves tough.
   Don’t grow brassicas back-to-back; rotate so pests don’t get a free ride.
+food_role: specialty

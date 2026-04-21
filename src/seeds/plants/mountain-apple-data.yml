@@ -2,10 +2,10 @@ common_name: Mountain Apple
 picture: mountain_apple.webp
 scientific_name: Syzygium malaccense
 aka:
-  - Malay Apple
-  - Otaheite Apple
-  - Rose Apple
-  - Pomerac
+- Malay Apple
+- Otaheite Apple
+- Rose Apple
+- Pomerac
 family: Myrtaceae
 zone: 10b-12
 ideal_temp_min: 65
@@ -14,12 +14,12 @@ min_temp: 30
 max_temp: 105
 perennial: true
 layers:
-  - Tree
+- Tree
 plant_function:
-  - Edible
-  - Shade Provider
-  - Wildlife Attractor
-  - Ornamental
+- Edible
+- Shade Provider
+- Wildlife Attractor
+- Ornamental
 description: |-
   Mountain apple (Syzygium malaccense) is a tropical tree from Southeast Asia and Melanesia, widely planted in humid lowlands and island food forests for crimson new growth, fluffy flowers, and large bell-shaped fruit with crisp, mildly sweet white flesh. Trees often reach 40–60 feet (12–18 m) in protected sites, forming a rounded crown that shades understory crops. It is a classic backyard fruit along equatorial coasts and a reliable heat-lover that sulks when nights dip near freezing.
 
@@ -34,19 +34,20 @@ purpose: |-
   Wildlife Attractor: Showy cream inflorescences with masses of exserted stamens feed bees, syrphid flies, and other generalist pollinators during warm-season bloom waves -- ripe fruit feeds frugivorous birds unless you net clusters.
   Ornamental: Crimson leaf flushes between gloss-green panels sell the tree along driveways and sight lines even when fruit load is light -- pair placement with drainage because waterlogged roots abort flowers quietly.
 companions:
-  - slug: carambola
-    name: Carambola
-  - slug: lemongrass
-    name: Lemongrass
-  - slug: turmeric
-    name: Turmeric
+- slug: carambola
+  name: Carambola
+- slug: lemongrass
+  name: Lemongrass
+- slug: turmeric
+  name: Turmeric
 cautions:
-  - Same species appears under multiple common names in trade—verify scion labels against this scientific ID
-  - Frost near 30°F (-1°C) scars young leaves—protect saplings on marginal subtropical sites
+- Same species appears under multiple common names in trade—verify scion labels against this scientific ID
+- Frost near 30°F (-1°C) scars young leaves—protect saplings on marginal subtropical sites
 pests:
-  - Aphids
-  - Caribbean Fruit Fly
-  - Oriental Fruit Fly
-  - Scale Insects
+- Aphids
+- Caribbean Fruit Fly
+- Oriental Fruit Fly
+- Scale Insects
 growth_habit: Large tropical myrtle tree; crimson flushes; bell-shaped fruit; humid lowland adapted
 data_quality_score: 0.8
+food_role: anchor

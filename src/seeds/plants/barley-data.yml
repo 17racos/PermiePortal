@@ -10,12 +10,12 @@ min_temp: -30
 max_temp: 0
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Animal Fodder
-  - Biomass
-  - Erosion Control
+- Edible
+- Animal Fodder
+- Biomass
+- Erosion Control
 description: |-
   Barley (Hordeum vulgare) is a cool-season cereal grain grown for its edible kernels and its tough, carbon-rich straw. It is native to the Fertile Crescent region and related areas in Southwest Asia, and it now thrives across temperate climates worldwide. Plants typically grow about 60–120 cm (24–47 in) tall and form upright heads that fill a field with grain and residue. In permaculture, barley is a “two-for-one” tool: food and fodder up top, mulch and soil armor below, plus a rotation partner that keeps bare ground from turning into erosion training.
 
@@ -30,16 +30,17 @@ purpose: |-
   Biomass: Carbon-heavy stubble after combine passes feeds no-till soybeans or squash when crimped on schedule -- straw rots faster than oak chips, so layer thinner under fruit trees.
   Erosion Control: Fibrous crown roots hold winter cover-crop slopes until warm-season perennials anchor -- spring barley on berms catches March rains that would sheet off bare subsoil after citrus picks.
 companions:
-  - slug: comfrey
-    name: Comfrey
-  - slug: pea
-    name: Pea
-  - slug: potato
-    name: Potato
+- slug: comfrey
+  name: Comfrey
+- slug: pea
+  name: Pea
+- slug: potato
+  name: Potato
 cautions:
-  - Avoid continuous planting of cereal crops; rotation helps reduce buildup of grass diseases and residue-borne pests.
+- Avoid continuous planting of cereal crops; rotation helps reduce buildup of grass diseases and residue-borne pests.
 pests:
-  - Aphids
-  - Borers
-  - Root Rot
-  - Caterpillars
+- Aphids
+- Borers
+- Root Rot
+- Caterpillars
+food_role: anchor

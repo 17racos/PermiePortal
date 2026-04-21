@@ -2,9 +2,9 @@ common_name: Mexican Tarragon
 picture: mexican_tarragon.webp
 scientific_name: Tagetes lucida
 aka:
-  - Mexican marigold mint
-  - Pericon
-  - Sweet mace
+- Mexican marigold mint
+- Pericon
+- Sweet mace
 family: Asteraceae
 zone: 8-11
 ideal_temp_min: 55
@@ -13,12 +13,12 @@ min_temp: 20
 max_temp: 100
 perennial: true
 layers:
-  - Herbaceous
+- Herbaceous
 plant_function:
-  - Edible
-  - Medicinal
-  - Ornamental
-  - Wildlife Attractor
+- Edible
+- Medicinal
+- Ornamental
+- Wildlife Attractor
 description: |-
   Mexican tarragon is the anise-flavored marigold that fakes tarragon in heat where French tarragon sulks. Tea, mole herbs, pollinator bait—pick your lane.
 
@@ -35,30 +35,31 @@ purpose: |-
   Ornamental: Upright clumps of gold daisies and narrow leaves read like a perennial herb with garden manners -- pot in cold zones because hard frost erases tops.
   Wildlife Attractor: Late nectar feeds butterflies and small bees after basil bolts -- leave some flowers if pollinator traffic matters more than perfect picks.
 companions:
-  - slug: bell-pepper
-    name: Bell Pepper
-  - slug: tomato
-    name: Tomato
-  - slug: basil
-    name: Basil
+- slug: bell-pepper
+  name: Bell Pepper
+- slug: tomato
+  name: Tomato
+- slug: basil
+  name: Basil
 cautions:
-  - Boggy shade
-  - Overwatering in cool weather
+- Boggy shade
+- Overwatering in cool weather
 pests:
-  - Banded Winged Whitefly
-  - Greenhouse Whitefly
-  - Lettuce Aphid
-  - Lubber Grasshopper
-  - Root Aphid
-  - aphids
-  - spider mites
-  - whiteflies
+- Banded Winged Whitefly
+- Greenhouse Whitefly
+- Lettuce Aphid
+- Lubber Grasshopper
+- Root Aphid
+- aphids
+- spider mites
+- whiteflies
 growth_habit: Upright herbaceous perennial; shrubby in frost-free areas
 data_quality_score: 0.75
 companions_normalized:
-  - original: Peppers
-    resolved_slug: bell-pepper
-    name: Bell Pepper
-  - original: Tomatoes
-    resolved_slug: tomato
-    name: Tomato
+- original: Peppers
+  resolved_slug: bell-pepper
+  name: Bell Pepper
+- original: Tomatoes
+  resolved_slug: tomato
+  name: Tomato
+food_role: specialty
