@@ -122,27 +122,49 @@ export function getNextBestPlants(
     const hasMissing   = missingReasons.length > 0;
     const hasNewFamily = familyScore > 0;
 
-    // Build context-aware explanations
+    // Build context-aware explanations (explicit params, no hidden scope)
     const explanations = [];
     if (hasMissing) {
       const role = missingReasons[0]?.replace('Adds missing ','').replace(' function','') || '';
-      const ctxMap = {
-        'Ground Cover':    'Your guild lacks Ground Cover — this plant helps retain moisture and suppress weeds between existing species.',
-        'Pollinator':      'Your guild has no dedicated Pollinator support — this plant attracts beneficial insects that improve yields.',
-        'Pest Management': 'No Pest Management plant exists in your guild — this plant helps confuse or deter insects threatening neighbors.',
-        'Mulcher':         'Your guild lacks a Mulcher — this plant generates biomass that feeds soil biology.',
-        'Nitrogen Fixer':  'Your guild is missing a Nitrogen Fixer — this plant feeds soil nitrogen through root nodules.',
+      const roleMap = {
+        'Ground Cover':    'Adds Ground Cover, protecting exposed soil and reducing moisture loss between your existing plants.',
+        'Pollinator':      'Adds Pollinator support, attracting beneficial insects that improve fruit and seed set across your guild.',
+        'Pest Management': 'Adds Pest Management, helping confuse and deter insects that currently have no disruption in your guild.',
+        'Mulcher':         'Adds a Mulcher, generating biomass that feeds soil biology and reduces bare-ground evaporation.',
+        'Nitrogen Fixer':  'Adds a Nitrogen Fixer, feeding soil nitrogen through root nodules to support neighboring plants.',
       };
-      explanations.push(ctxMap[role] || `Your guild is missing ${role} — this plant fills that functional gap.`);
+      explanations.push(roleMap[role] || `Fills a missing ${role} role in your guild.`);
     }
     if (hasNewFamily && explanations.length < 2 && family) {
       const famLabel = family.charAt(0).toUpperCase() + family.slice(1);
-      explanations.push(`Introduces ${famLabel}, adding new family diversity to reduce shared pest vulnerability.`);
+      if (dominantFamily) {
+        const domLabel = dominantFamily.charAt(0).toUpperCase() + dominantFamily.slice(1);
+        explanations.push(`Introduces ${famLabel}, which breaks the shared pest vulnerability of your ${domLabel}-heavy guild.`);
+      } else {
+        explanations.push(`Introduces ${famLabel}, adding new family diversity that reduces cross-species pest transfer.`);
+      }
     }
-    if (explanations.length === 0 && sharedPestCount === 0 && pests.size > 0) {
-      explanations.push('This plant shares no pest pressure with your current guild — a clean addition.');
+    if (explanations.length < 2 && sharedPestCount === 0 && pests.size > 0) {
+      // Build pestOccurrence for top-pest sorting
+      const pestOcc = {};
+      for (const slug of currentGuildSlugs) {
+        for (const pest of (plantToPests[slug] || new Set())) {
+          pestOcc[pest] = (pestOcc[pest] || 0) + 1;
+        }
+      }
+      const topPests = Array.from(guildPests)
+        .sort((a, b) => (pestOcc[b] || 0) - (pestOcc[a] || 0))
+        .slice(0, 2);
+      if (topPests.length > 0) {
+        explanations.push(`Shares no pests with your guild, reducing the risk of ${topPests.join(' and ')} spreading between plants.`);
+      } else {
+        explanations.push('Shares no pest pressure with your current guild — a clean addition.');
+      }
+    } else if (explanations.length === 0 && sharedPestCount <= 2 && pests.size > 0) {
+      explanations.push('Low pest overlap with your guild — minimal risk of amplifying existing pest pressure.');
     }
     if (explanations.length === 0) continue;
+    if (!hasMissing && !hasNewFamily && sharedPestCount > 2) continue;
 
     candidates.push({
       slug: p.slug, name: p.common_name, family: family || '',
