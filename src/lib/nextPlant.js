@@ -141,22 +141,31 @@ export function getNextBestPlants(
     return a.name.localeCompare(b.name);
   });
 
-  // Balanced guild check
+  // Balanced guild check — structural completeness
   const familyDiversity = guildFamilies.size / n;
   const dominantFamilyRatio = n > 0 ? (Object.values(familyCounts).sort((a,b)=>b-a)[0]||0)/n : 0;
+  const pestOccurrence2 = {};
+  for (const slug of currentGuildSlugs) {
+    for (const pest of (plantToPests[slug] || new Set())) {
+      pestOccurrence2[pest] = (pestOccurrence2[pest] || 0) + 1;
+    }
+  }
+  const totalGuildPests  = Object.keys(pestOccurrence2).length;
+  const sharedGuildPests = Object.values(pestOccurrence2).filter(c => c > 1).length;
+  const pestOverlap      = totalGuildPests > 0 ? sharedGuildPests / totalGuildPests : 0;
+
   if (
     missingRoles.length === 0 &&
     familyDiversity >= 0.75 &&
-    dominantFamilyRatio <= 0.5 &&
-    candidates.length > 0 &&
-    candidates[0].score < 3.0
+    pestOverlap <= 0.3 &&
+    dominantFamilyRatio <= 0.5
   ) {
     return [];
   }
 
-  // Improvement threshold
+  // Improvement threshold: 70%
   const topScore = candidates[0]?.score || 0;
-  const threshold = topScore * 0.6;
+  const threshold = topScore * 0.7;
   const aboveThreshold = candidates.filter(c => c.score >= threshold);
 
   // Intent tagging

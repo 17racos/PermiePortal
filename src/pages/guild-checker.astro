@@ -633,22 +633,31 @@ function getNextBestPlants(currentSlugs, limit = 5) {
     return a.name.localeCompare(b.name);
   });
 
-  // // ── Balanced guild check — return empty if no improvements needed ──────────
+  // // ── Balanced guild check — structural completeness, not score threshold ─────────
   const familyDiversity = guildFamilies.size / n;
   const dominantFamilyRatio = n > 0 ? (Object.values(familyCounts).sort((a,b)=>b-a)[0]||0)/n : 0;
-  if (
-    missingRoles.length === 0 &&
-    familyDiversity >= 0.75 &&
-    dominantFamilyRatio <= 0.5 &&
-    candidates.length > 0 &&
-    candidates[0].score < 3.0
-  ) {
+  // Compute real pest overlap (same method as main guild analysis)
+  const pestOccurrence2 = {};
+  for (const slug of currentSlugs) {
+    for (const pest of (plantToPests[slug] || new Set())) {
+      pestOccurrence2[pest] = (pestOccurrence2[pest] || 0) + 1;
+    }
+  }
+  const totalGuildPests2  = Object.keys(pestOccurrence2).length;
+  const sharedGuildPests2 = Object.values(pestOccurrence2).filter(c => c > 1).length;
+  const pestOverlapReal   = totalGuildPests2 > 0 ? sharedGuildPests2 / totalGuildPests2 : 0;
+
+  const noMissingRoles  = missingRoles.length === 0;
+  const strongDiversity = familyDiversity >= 0.75;
+  const lowOverlap      = pestOverlapReal <= 0.3;
+  const noDominance     = dominantFamilyRatio <= 0.5;
+
+  if (noMissingRoles && strongDiversity && lowOverlap && noDominance) {
     return [];
   }
-
-  // Improvement threshold: only keep candidates within 60% of top score
+  // Improvement threshold: only keep candidates within 70% of top score
   const topScore = candidates[0]?.score || 0;
-  const threshold = topScore * 0.6;
+  const threshold = topScore * 0.7;
   const aboveThreshold = candidates.filter(c => c.score >= threshold);
 
   // Intent tag: primary reason for suggestion
@@ -855,8 +864,8 @@ function renderResults() {
       nextList.innerHTML = '<div class="next-balanced-state">' +
         '<span class="next-balanced-icon">✓</span>' +
         '<div>' +
-          '<div class="next-balanced-title">Guild is well-balanced</div>' +
-          '<div class="next-balanced-sub">Further additions may increase complexity without improving resilience.</div>' +
+          '<div class="next-balanced-title">Guild is structurally sound — no additions needed.</div>' +
+          '<div class="next-balanced-sub">You can add plants for yield or preference, but resilience is already strong.</div>' +
         '</div>' +
       '</div>';
       nextSection.style.display = 'block';
