@@ -5,7 +5,23 @@ import plantsData from '../data/plants.json';
 import relationshipsData from '../data/relationships.json';
 
 // Pass only what's needed to the client — slim down payload
+
+// ── Lightweight layer inference (Phase 4.5) ─────────────────────────────
+function inferLayer(p) {
+  const fns = p.plant_function || [];
+  const name = (p.common_name || '').toLowerCase();
+
+  if (fns.includes('Canopy') || name.includes('tree')) return 'canopy';
+  if (fns.includes('Shrub') || name.includes('bush')) return 'shrub';
+  if (fns.includes('Ground Cover')) return 'ground';
+  if (fns.includes('Root')) return 'root';
+  if (fns.includes('Vine')) return 'vine';
+
+  return 'herb'; // fallback
+}
+
 const plantIndex = plantsData.map((p: any) => ({
+
   slug: p.slug,
   common_name: p.common_name,
   family: p.family,
@@ -862,6 +878,7 @@ function generateGoalGuild(goalKey) {
   const generated = [];
   const guildSet  = new Set();
   const famSeen   = {};
+  const layerSeen = {};
 
   // ── Food Production exclusion list (goal generation only) ───────────────────
 const FOOD_PRODUCTION_EXCLUDE = [
@@ -963,6 +980,9 @@ const FOOD_PRODUCTION_EXCLUDE = [
     let bestSlug  = null;
     let bestScore = -Infinity;
 
+    const preferredLayers = ['canopy', 'shrub', 'ground'];
+
+
     for (const p of plantIndex) {
       if (guildSet.has(p.slug)) continue;
       if (!p.plant_function || p.plant_function.length === 0) continue;
@@ -979,7 +999,13 @@ const FOOD_PRODUCTION_EXCLUDE = [
         if (FOOD_PRODUCTION_EXCLUDE.includes(p.slug)) continue;
       }
 
-      const score = scorePlant(p, generated);
+      const layer = inferLayer(p);
+      let layerPenalty = 0;
+
+      // Prevent overstacking same layer (soft constraint)
+      if ((layerSeen[layer] || 0) >= 2) layerPenalty += 1.5;
+
+      const score = scorePlant(p, generated) - layerPenalty;
       if (score > bestScore ||
           (score === bestScore && bestSlug && p.slug < bestSlug)) {
         bestScore = score;
@@ -994,6 +1020,9 @@ const FOOD_PRODUCTION_EXCLUDE = [
     guildSet.add(slug);
     const fam = plantToFamily[slug] || '__none__';
     famSeen[fam] = (famSeen[fam] || 0) + 1;
+    const p = plantBySlug[slug];
+    const layer = p ? inferLayer(p) : 'herb';
+    layerSeen[layer] = (layerSeen[layer] || 0) + 1;
   }
 
   // ── Phase 0: Seed with scored food anchors for food_production ──────────
@@ -1035,6 +1064,9 @@ const FOOD_PRODUCTION_EXCLUDE = [
     let bestSlug  = null;
     let bestScore = -Infinity;
 
+    const preferredLayers = ['canopy', 'shrub', 'ground'];
+
+
     for (const p of plantIndex) {
       if (guildSet.has(p.slug)) continue;
       if (!p.plant_function || p.plant_function.length === 0) continue;
@@ -1043,7 +1075,18 @@ const FOOD_PRODUCTION_EXCLUDE = [
       const fam = plantToFamily[p.slug] || '__none__';
       if ((famSeen[fam] || 0) >= 2) continue;
 
-      const score = scorePlant(p, generated);
+      const layer = inferLayer(p);
+      let layerPenalty = 0;
+
+      // Prevent overstacking same layer (soft constraint)
+      if ((layerSeen[layer] || 0) >= 2) layerPenalty += 1.5;
+
+      const score = scorePlant(p, generated) - layerPenalty;
+      // Bonus for adding missing structural layer
+      if (!layerSeen[layer] && preferredLayers.includes(layer)) {
+        score += 1.0;
+      }
+
       if (score <= 0) continue;
 
       if (score > bestScore ||
