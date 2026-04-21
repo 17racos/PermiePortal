@@ -81,6 +81,15 @@ const edges = (relationshipsData as any[]).filter(
   .score-label { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ash); margin-top: 0.25rem; }
   .score-bar-wrap { margin-top: 0.75rem; height: 3px; background: rgba(139,184,58,0.15); }
   .score-bar { height: 100%; background: var(--lime); transition: width 0.5s ease, background 0.4s; }
+  .score-subtitle { font-family: 'Space Mono', monospace; font-size: 0.58rem; color: var(--ash); opacity: 0.6; margin-top: 0.4rem; line-height: 1.6; max-width: 320px; }
+  .mitigation-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; }
+  .mitigation-card { background: var(--bark); border: 1px solid rgba(139,184,58,0.12); padding: 0.7rem 0.9rem; }
+  .mitigation-value { font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem; line-height: 1; }
+  .mitigation-value.weak { color: var(--rust); }
+  .mitigation-value.moderate { color: var(--straw); }
+  .mitigation-value.strong { color: var(--lime); }
+  .mitigation-key { font-family: 'Space Mono', monospace; font-size: 0.56rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ash); margin-top: 0.2rem; }
+  .mitigation-label { font-family: 'Space Mono', monospace; font-size: 0.58rem; color: var(--ash); margin-top: 0.15rem; font-style: italic; }
   .score-bar.medium { background: var(--straw); }
   .score-bar.high { background: var(--rust); }
 
@@ -215,9 +224,10 @@ const edges = (relationshipsData as any[]).filter(
 
     <div id="results" style="display:none">
       <div class="score-display">
-        <p class="panel-label">Guild Health</p>
+        <p class="panel-label">System Pressure</p>
         <div class="score-number" id="score-number">0</div>
-        <div class="score-label" id="score-label">LOW RISK — RESILIENCE: 100</div>
+        <div class="score-label" id="score-label">LOW PRESSURE — RESILIENCE: 100</div>
+        <p class="score-subtitle">Measures shared pest exposure. Higher values indicate more interaction, not necessarily instability.</p>
         <div class="score-bar-wrap">
           <div class="score-bar" id="score-bar" style="width:0%"></div>
         </div>
@@ -230,12 +240,17 @@ const edges = (relationshipsData as any[]).filter(
         </div>
         <div class="breakdown-card">
           <div class="breakdown-value" id="bd-overlap">—</div>
-          <div class="breakdown-key">Pest Overlap</div>
+          <div class="breakdown-key">Shared Pest Exposure</div>
         </div>
         <div class="breakdown-card">
           <div class="breakdown-value" id="bd-dominant">—</div>
           <div class="breakdown-key">Top Family %</div>
         </div>
+      </div>
+
+      <div class="result-section" id="section-mitigation">
+        <p class="result-section-title">Resilience Factors</p>
+        <div class="mitigation-grid" id="mitigation-grid"></div>
       </div>
 
       <div class="result-section" id="section-suggestions">
@@ -377,10 +392,10 @@ function scoreGuild(slugs) {
   const severeOverlap = sharedPests.filter(p => p.count >= 3);
   if (severeOverlap.length > 0) {
     const dominant = severeOverlap.slice(0, 3).map(p => p.name).join(', ');
-    warnings.push(`Several pests affect multiple plants — ${dominant} are the dominant shared pressures.`);
+    warnings.push(`Shared pest pressure detected — ${dominant} affect multiple plants in this guild.`);
   } else if (sharedPests.length > 0 && pestOverlap > 0.5) {
     const dominant = sharedPests.slice(0, 3).map(p => p.name).join(', ');
-    warnings.push(`Some pest overlap exists — ${dominant} affect multiple guild members.`);
+    warnings.push(`Some shared pest exposure exists — ${dominant} appear across multiple plants.`);
   }
 
   if (warnings.length === 0 && suggestions.length === 0) {
@@ -843,7 +858,8 @@ function renderResults() {
 
   scoreEl.textContent = r.score;
   scoreEl.className   = `score-number ${r.riskLevel !== 'low' ? r.riskLevel : ''}`;
-  labelEl.textContent = `${r.riskLevel.toUpperCase()} RISK — RESILIENCE: ${r.resilience}`;
+  const pressureLabel = r.riskLevel === 'low' ? 'LOW' : r.riskLevel === 'medium' ? 'MODERATE' : 'ELEVATED';
+  labelEl.textContent = `${pressureLabel} PRESSURE — RESILIENCE: ${r.resilience}`;
   barEl.style.width   = `${r.score}%`;
   barEl.className     = `score-bar ${r.riskLevel !== 'low' ? r.riskLevel : ''}`;
 
@@ -851,6 +867,39 @@ function renderResults() {
   document.getElementById('bd-diversity').textContent = r.breakdown.familyDiversity + '%';
   document.getElementById('bd-overlap').textContent   = r.breakdown.pestOverlap + '%';
   document.getElementById('bd-dominant').textContent  = r.breakdown.dominantRatio + '%';
+
+  // Resilience Factors — pestMitigationScore
+  const fnCounts = {};
+  for (const slug of guild) {
+    const p = plantBySlug[slug];
+    if (!p) continue;
+    for (const fn of (p.plant_function || [])) {
+      fnCounts[fn] = (fnCounts[fn] || 0) + 1;
+    }
+  }
+  const famDiv = r.breakdown.familyDiversity / 100;
+  const rawMitigation = ((fnCounts['Pest Management'] || 0) * 25)
+                      + ((fnCounts['Pollinator'] || 0) * 10)
+                      + (famDiv * 30);
+  const pestMitigationScore = Math.min(100, Math.round(rawMitigation));
+  const mitLabel = pestMitigationScore < 30 ? 'Weak mitigation'
+                 : pestMitigationScore < 60 ? 'Moderate mitigation'
+                 : 'Strong mitigation';
+  const mitClass = pestMitigationScore < 30 ? 'weak'
+                 : pestMitigationScore < 60 ? 'moderate' : 'strong';
+  const mitGrid = document.getElementById('mitigation-grid');
+  mitGrid.innerHTML = `
+    <div class="mitigation-card">
+      <div class="mitigation-value ${mitClass}">${pestMitigationScore}</div>
+      <div class="mitigation-key">Pest Mitigation</div>
+      <div class="mitigation-label">${mitLabel}</div>
+    </div>
+    <div class="mitigation-card">
+      <div class="mitigation-value ${mitClass}">${r.resilience}</div>
+      <div class="mitigation-key">Resilience Score</div>
+      <div class="mitigation-label">${r.resilience >= 75 ? 'Structurally resilient' : r.resilience >= 50 ? 'Moderate resilience' : 'Building resilience'}</div>
+    </div>
+  `;
 
   // Risks (formerly suggestions + warnings — now ecological risk signals only)
   const suggEl = document.getElementById('suggestions-list');
@@ -861,6 +910,14 @@ function renderResults() {
     li.textContent = '⚠️ ' + w;
     suggEl.appendChild(li);
   }
+  // Balancing statement when pressure and mitigation are both significant
+  if (r.breakdown.pestOverlap > 50 && pestMitigationScore > 50) {
+    const li = document.createElement('div');
+    li.className = 'suggestion-item';
+    li.textContent = '✓ Shared pest pressure exists, but mitigation systems are strong — this guild is likely resilient.';
+    suggEl.appendChild(li);
+  }
+
   // Only show pest/family risk suggestions — functional actions moved to Design Actions
   for (const s of r.suggestions) {
     if (s.includes('Lamiaceae') || s.includes('family') || s.includes('families') || s.includes('balanced')) {
