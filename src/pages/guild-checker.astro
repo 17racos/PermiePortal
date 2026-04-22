@@ -1116,11 +1116,20 @@ const FOOD_PRODUCTION_EXCLUDE = [
 
   // ── Phase 0: Seed with scored food anchors for food_production ──────────
   if (goalKey === 'food_production') {
-    const anchorCandidates = plantIndex.filter(p =>
+    let anchorCandidates = plantIndex.filter(p =>
       p.food_role === 'anchor' && !guildSet.has(p.slug) &&
       p.plant_function && p.plant_function.length > 0 &&
-      getZoneFit(p, userZone) !== 'out'
+      getZoneFit(p, userZone) === 'fit'
     );
+
+    // Fallback: allow microclimate anchors only if not enough fit anchors
+    if (anchorCandidates.length < 2) {
+      anchorCandidates = plantIndex.filter(p =>
+        p.food_role === 'anchor' && !guildSet.has(p.slug) &&
+        p.plant_function && p.plant_function.length > 0 &&
+        getZoneFit(p, userZone) !== 'out'
+      );
+    }
     const sortedAnchors = anchorCandidates
       .map(p => ({ p, score: scorePlant(p, generated) }))
       .sort((a, b) => b.score - a.score || a.p.slug.localeCompare(b.p.slug))
