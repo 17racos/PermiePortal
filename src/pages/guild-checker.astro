@@ -103,8 +103,17 @@ const edges = (relationshipsData as any[]).filter(
   .mitigation-label { font-family: 'Space Mono', monospace; font-size: 0.58rem; color: var(--ash); margin-top: 0.15rem; font-style: italic; }
   .pattern-primary { font-family: 'Space Mono', monospace; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--lime); margin-bottom: 0.3rem; }
   .pattern-summary { font-size: 0.85rem; color: var(--ash); line-height: 1.6; margin-bottom: 0.5rem; font-style: italic; }
-  .pattern-traits { display: flex; flex-wrap: wrap; gap: 0.3rem; }
-  .pattern-chip { font-family: 'Space Mono', monospace; font-size: 0.58rem; padding: 0.15rem 0.5rem; border: 1px solid rgba(139,184,58,0.2); color: var(--ash); }
+  .pattern-traits { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.15rem; }
+  .pattern-chip {
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.58rem;
+    padding: 0.15rem 0.5rem;
+    border: 1px solid rgba(139,184,58,0.2);
+    color: var(--ash);
+    white-space: nowrap;
+  }
   .score-bar.medium { background: var(--straw); }
   .score-bar.high { background: var(--rust); }
 
@@ -414,6 +423,13 @@ function inferLayer(p) {
 let guild = [];          // [{slug, source: 'user'|'generated'}]
 let removedByUser = new Set();
 let userZone = 9; // default — will be UI-driven in future phase
+
+// ── User-facing guild add (outer scope) ─────────────────────────────────────
+function addPlantToGuild(slug, source = 'user') {
+  if (guild.some(g => g.slug === slug)) return;
+  guild.push({ slug, source });
+  removedByUser.delete(slug);
+}
 
 // ── Zone compatibility ────────────────────────────────────────────────────────
 function getZoneFit(p, zone) {
@@ -771,6 +787,9 @@ function getNextBestPlants(currentSlugs, limit = 5) {
     const family = plantToFamily[p.slug] || null;
     const pests  = plantToPests[p.slug] || new Set();
 
+    // Food Production: never suggest specialty plants as next-step food guild additions
+    if (selectedGoal === 'food_production' && p.food_role === 'specialty') continue;
+
     // Role scoring — missing roles only show their reason; weak roles max 1
     let roleScore = 0;
     let onlyStrongRoles = true;
@@ -1116,7 +1135,11 @@ const FOOD_PRODUCTION_EXCLUDE = [
         if (canopyCount >= 1 && generated.length < 4) layerPenalty += 2.0;
       }
 
-      const score = scorePlant(p, generated) - layerPenalty;
+      let score = scorePlant(p, generated) - layerPenalty;
+
+      // Food Production: prefer true in-zone additions over microclimate additions
+      const zoneFit = getZoneFit(p, userZone);
+      if (goalKey === 'food_production' && zoneFit === 'microclimate') score -= 1.0;
       if (score > bestScore ||
           (score === bestScore && bestSlug && p.slug < bestSlug)) {
         bestScore = score;
@@ -1215,6 +1238,11 @@ const FOOD_PRODUCTION_EXCLUDE = [
       }
 
       let score = scorePlant(p, generated) - layerPenalty;
+
+      // Food Production: prefer true in-zone additions over microclimate additions
+      const zoneFit2 = getZoneFit(p, userZone);
+      if (goalKey === 'food_production' && zoneFit2 === 'microclimate') score -= 1.0;
+
       // Bonus for adding missing structural layer
       if (!layerSeen[layer] && preferredLayers.includes(layer)) {
         score += 1.0;
@@ -1602,7 +1630,7 @@ function renderResults() {
     patternDisplay.innerHTML = `
       <div class="pattern-primary">${pattern.primaryLabel}</div>
       <div class="pattern-summary">${pattern.summary}</div>
-      <div class="pattern-traits">${pattern.traits.map(t => `<span class="pattern-chip">${t}</span>`).join('')}</div>
+      <div class="pattern-traits">${pattern.traits.map(t => `<span class="pattern-chip">${t}</span>`).join(' ')}</div>
     `;
     patternSection.style.display = 'block';
   } else {
@@ -1778,7 +1806,7 @@ searchInput.addEventListener('input', () => {
       `;
       item.addEventListener('click', () => {
         if (!guild.some(g => g.slug === p.slug)) {
-          addToGuild(p.slug, 'user');
+          addPlantToGuild(p.slug, 'user');
           if (selectedGoal && guild.length > 0) {
             document.getElementById('goal-complete-btn').style.display = 'block';
           }
