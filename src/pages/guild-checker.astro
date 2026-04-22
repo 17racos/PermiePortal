@@ -1620,7 +1620,7 @@ function renderResults() {
           const slug = btn.getAttribute('data-slug');
           if (!slug) return;
 
-          addToGuild(slug, 'generated');
+          addPlantToGuild(slug, 'user');
 
           if (selectedGoal && guild.length > 0) {
             document.getElementById('goal-complete-btn').style.display = 'block';
