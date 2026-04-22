@@ -96,6 +96,10 @@ const edges = (relationshipsData as any[]).filter(
   .mitigation-value.strong { color: var(--lime); }
   .mitigation-key { font-family: 'Space Mono', monospace; font-size: 0.56rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ash); margin-top: 0.2rem; }
   .mitigation-label { font-family: 'Space Mono', monospace; font-size: 0.58rem; color: var(--ash); margin-top: 0.15rem; font-style: italic; }
+  .pattern-primary { font-family: 'Space Mono', monospace; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--lime); margin-bottom: 0.3rem; }
+  .pattern-summary { font-size: 0.85rem; color: var(--ash); line-height: 1.6; margin-bottom: 0.5rem; font-style: italic; }
+  .pattern-traits { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+  .pattern-chip { font-family: 'Space Mono', monospace; font-size: 0.58rem; padding: 0.15rem 0.5rem; border: 1px solid rgba(139,184,58,0.2); color: var(--ash); }
   .score-bar.medium { background: var(--straw); }
   .score-bar.high { background: var(--rust); }
 
@@ -155,8 +159,14 @@ const edges = (relationshipsData as any[]).filter(
   .next-plant-score { font-family: 'Bebas Neue', sans-serif; font-size: 1rem; color: var(--lime); line-height: 1; }
   .next-plant-reasons { display: flex; flex-wrap: wrap; gap: 0.3rem; }
   .next-plant-reason { font-family: 'Space Mono', monospace; font-size: 0.58rem; color: var(--ash); padding: 0.1rem 0.45rem; border: 1px solid rgba(139,184,58,0.2); background: rgba(42,61,31,0.2); }
-  .next-plant-explanations { display: flex; flex-direction: column; gap: 0.3rem; margin-top: 0.3rem; }
-  .next-plant-explanation { font-size: 0.78rem; color: var(--ash); line-height: 1.55; font-style: italic; }
+  .next-plant-explanations { display: flex; flex-direction: column; gap: 0.45rem; margin-top: 0.45rem; }
+  .next-plant-explanation {
+    display: block;
+    font-size: 0.78rem;
+    color: var(--ash);
+    line-height: 1.6;
+    font-style: italic;
+  }
   .intent-badge { font-family: 'Space Mono', monospace; font-size: 0.52rem; letter-spacing: 0.05em; text-transform: uppercase; padding: 0.1rem 0.35rem; border: 1px solid; vertical-align: middle; margin-left: 0.35rem; }
   .intent-badge.fills_gap { color: var(--rust); border-color: rgba(196,85,26,0.4); }
   .intent-badge.adds_diversity { color: var(--lime); border-color: rgba(139,184,58,0.35); }
@@ -280,6 +290,11 @@ const edges = (relationshipsData as any[]).filter(
       <div class="result-section" id="section-mitigation">
         <p class="result-section-title">Resilience Factors</p>
         <div class="mitigation-grid" id="mitigation-grid"></div>
+      </div>
+
+      <div class="result-section" id="section-pattern" style="display:none">
+        <p class="result-section-title">System Pattern</p>
+        <div id="pattern-display"></div>
       </div>
 
       <div class="result-section" id="section-suggestions">
@@ -1033,6 +1048,13 @@ const FOOD_PRODUCTION_EXCLUDE = [
       // Prevent overstacking same layer (soft constraint)
       if ((layerSeen[layer] || 0) >= 2) layerPenalty += 1.5;
 
+      // Soft canopy cap for Food Production:
+      // avoid stacking multiple big structure plants too early
+      if (goalKey === 'food_production' && layer === 'canopy') {
+        const canopyCount = layerSeen['canopy'] || 0;
+        if (canopyCount >= 1 && generated.length < 4) layerPenalty += 2.0;
+      }
+
       const score = scorePlant(p, generated) - layerPenalty;
       if (score > bestScore ||
           (score === bestScore && bestSlug && p.slug < bestSlug)) {
@@ -1109,7 +1131,14 @@ const FOOD_PRODUCTION_EXCLUDE = [
       // Prevent overstacking same layer (soft constraint)
       if ((layerSeen[layer] || 0) >= 2) layerPenalty += 1.5;
 
-      const score = scorePlant(p, generated) - layerPenalty;
+      // Soft canopy cap for Food Production:
+      // avoid stacking multiple big structure plants too early
+      if (goalKey === 'food_production' && layer === 'canopy') {
+        const canopyCount = layerSeen['canopy'] || 0;
+        if (canopyCount >= 1 && generated.length < 4) layerPenalty += 2.0;
+      }
+
+      let score = scorePlant(p, generated) - layerPenalty;
       // Bonus for adding missing structural layer
       if (!layerSeen[layer] && preferredLayers.includes(layer)) {
         score += 1.0;
@@ -1129,6 +1158,82 @@ const FOOD_PRODUCTION_EXCLUDE = [
   }
 
   return generated;
+}
+
+// ── Guild Pattern Recognition (Phase 5) ──────────────────────────────────────
+function analyzeGuildPattern(guildSlugs, fnAnalysis, r) {
+  const counts  = fnAnalysis ? fnAnalysis.counts : {};
+  const overlap = r.breakdown.pestOverlap;
+  const divPct  = r.breakdown.familyDiversity;
+
+  // ── Layer detection ──────────────────────────────────────────────────────
+  const layerSet = new Set();
+  for (const slug of guildSlugs) {
+    const p = plantBySlug[slug];
+    if (p) layerSet.add(inferLayer(p));
+  }
+  const hasCanopy  = layerSet.has('canopy');
+  const hasShrub   = layerSet.has('shrub');
+  const hasGround  = layerSet.has('ground') || layerSet.has('root');
+  const layerCount = layerSet.size;
+
+  // ── Pattern detection (priority order) ───────────────────────────────────
+  let primary = 'balanced';
+
+  // Food Forest: canopy + shrub + ground/root + decent diversity
+  if (hasCanopy && hasShrub && hasGround && divPct >= 60) {
+    primary = 'food_forest';
+  }
+  // Soil Builder: nitrogen + mulch + accumulation
+  else if ((counts['Nitrogen Fixer'] || 0) >= 2 &&
+           (counts['Mulcher'] || 0) >= 2 &&
+           (counts['Dynamic Accumulator'] || 0) >= 2) {
+    primary = 'soil_builder';
+  }
+  // Pollinator Hub
+  else if ((counts['Pollinator'] || 0) >= 3 ||
+           (fnAnalysis && fnAnalysis.dominant && fnAnalysis.dominant.includes('Pollinator'))) {
+    primary = 'pollinator_hub';
+  }
+  // Pest Resistant: strong management + low overlap
+  else if ((counts['Pest Management'] || 0) >= 2 && overlap < 40) {
+    primary = 'pest_resistant';
+  }
+
+  // ── Trait extraction ──────────────────────────────────────────────────────
+  const traits = [];
+  if (divPct >= 70)                          traits.push('high diversity');
+  if (overlap < 30)                          traits.push('low pest pressure');
+  if ((counts['Nitrogen Fixer'] || 0) >= 2)  traits.push('nitrogen rich');
+  if (layerCount >= 3)                       traits.push('layered structure');
+  if ((counts['Pollinator'] || 0) >= 3)      traits.push('pollinator dense');
+  if ((counts['Mulcher'] || 0) >= 2 &&
+      (counts['Ground Cover'] || 0) >= 2)   traits.push('low input');
+  if (r.resilience >= 75)                    traits.push('high resilience');
+
+  // ── Label + summary ───────────────────────────────────────────────────────
+  const labels = {
+    food_forest:    'Food Forest Starter',
+    soil_builder:   'Soil Building System',
+    pollinator_hub: 'Pollinator Hub',
+    pest_resistant: 'Pest Resistant System',
+    balanced:       'Balanced System',
+  };
+
+  const summaries = {
+    food_forest:    'This guild resembles a young layered food system with structural diversity across canopy, shrub, and ground layers.',
+    soil_builder:   'This system is heavily focused on soil building — nitrogen fixation, dynamic accumulation, and biomass production work together.',
+    pollinator_hub: 'This guild prioritizes pollinator attraction and beneficial insect habitat with dense flowering support.',
+    pest_resistant: 'This guild is structured to minimize shared pest pressure through active disruption and family diversity.',
+    balanced:       'This is a balanced system with no dominant ecological specialization — resilient and broadly functional.',
+  };
+
+  return {
+    primary,
+    primaryLabel: labels[primary] || 'Balanced System',
+    traits,
+    summary: summaries[primary] || summaries.balanced,
+  };
 }
 
 // ── Render ────────────────────────────────────────────────────────────────────
@@ -1389,7 +1494,7 @@ function renderResults() {
             <div class="next-plant-score">${p.score}</div>
           </div>
           <div class="next-plant-explanations">
-            ${(p.explanations || []).map(e => `<span class="next-plant-explanation">${e}</span>`).join('')}
+            ${(p.explanations || []).map(e => `<div class="next-plant-explanation">${e}</div>`).join('')}
           </div>
         </a>
       `).join('');
@@ -1399,6 +1504,21 @@ function renderResults() {
     }
   } else {
     nextSection.style.display = 'none';
+  }
+
+  // ── System Pattern ────────────────────────────────────────────────────────
+  const patternSection  = document.getElementById('section-pattern');
+  const patternDisplay  = document.getElementById('pattern-display');
+  if (fnAnalysis && r) {
+    const pattern = analyzeGuildPattern(guild, fnAnalysis, r);
+    patternDisplay.innerHTML = `
+      <div class="pattern-primary">${pattern.primaryLabel}</div>
+      <div class="pattern-summary">${pattern.summary}</div>
+      <div class="pattern-traits">${pattern.traits.map(t => `<span class="pattern-chip">${t}</span>`).join('')}</div>
+    `;
+    patternSection.style.display = 'block';
+  } else {
+    patternSection.style.display = 'none';
   }
 
   if (fnAnalysis) {
