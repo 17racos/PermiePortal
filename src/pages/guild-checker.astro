@@ -185,6 +185,12 @@ const edges = (relationshipsData as any[]).filter(
   .action-item.risk { border-left-color: var(--rust); background: rgba(122,59,30,0.1); color: var(--ash); }
   .action-item.caution { border-left-color: var(--straw); background: rgba(212,168,67,0.06); color: var(--ash); }
   .goal-selector { margin-bottom: 1.5rem; padding-bottom: 1.25rem; border-bottom: 1px solid rgba(139,184,58,0.1); }
+  .zone-selector { margin-bottom: 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid rgba(139,184,58,0.1); }
+  .zone-row { display: flex; align-items: center; gap: 0.75rem; margin-top: 0.5rem; }
+  .zone-slider { flex: 1; appearance: none; height: 2px; background: rgba(139,184,58,0.25); outline: none; cursor: pointer; }
+  .zone-slider::-webkit-slider-thumb { appearance: none; width: 14px; height: 14px; background: var(--lime); border-radius: 0; cursor: pointer; }
+  .zone-slider::-moz-range-thumb { width: 14px; height: 14px; background: var(--lime); border-radius: 0; border: none; cursor: pointer; }
+  .zone-value { font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem; color: var(--lime); line-height: 1; min-width: 2rem; }
   .goal-optional { font-size: 0.55rem; color: var(--ash); opacity: 0.5; letter-spacing: 0.05em; text-transform: none; font-style: italic; }
   .goal-buttons { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 0.75rem; }
   .goal-btn { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.3rem 0.65rem; background: none; border: 1px solid rgba(139,184,58,0.2); color: var(--ash); cursor: pointer; transition: all 0.2s; }
@@ -222,6 +228,14 @@ const edges = (relationshipsData as any[]).filter(
 <div class="layout">
   <!-- LEFT: Search + Guild -->
   <div class="panel-left">
+    <div class="zone-selector">
+      <p class="panel-label">Your Zone <span class="goal-optional">(for filtering)</span></p>
+      <div class="zone-row">
+        <input type="range" id="zone-slider" min="5" max="13" step="0.5" value="9" class="zone-slider">
+        <span class="zone-value" id="zone-display">9</span>
+      </div>
+    </div>
+
     <div class="goal-selector" id="goal-selector">
       <p class="panel-label">Start with a Goal <span class="goal-optional">(optional)</span></p>
       <div class="goal-buttons">
@@ -1104,7 +1118,8 @@ const FOOD_PRODUCTION_EXCLUDE = [
   if (goalKey === 'food_production') {
     const anchorCandidates = plantIndex.filter(p =>
       p.food_role === 'anchor' && !guildSet.has(p.slug) &&
-      p.plant_function && p.plant_function.length > 0
+      p.plant_function && p.plant_function.length > 0 &&
+      getZoneFit(p, userZone) !== 'out'
     );
     const sortedAnchors = anchorCandidates
       .map(p => ({ p, score: scorePlant(p, generated) }))
@@ -1624,6 +1639,14 @@ function renderResults() {
     }
   }
 }
+
+// ── Zone selector interaction ────────────────────────────────────────────────
+const zoneSlider  = document.getElementById('zone-slider');
+const zoneDisplay = document.getElementById('zone-display');
+zoneSlider.addEventListener('input', () => {
+  userZone = parseFloat(zoneSlider.value);
+  zoneDisplay.textContent = userZone % 1 === 0 ? userZone : userZone.toFixed(1);
+});
 
 // ── Goal selector interaction ─────────────────────────────────────────────────
 let selectedGoal = null;
