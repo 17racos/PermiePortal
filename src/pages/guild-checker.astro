@@ -74,6 +74,9 @@ const edges = (relationshipsData as any[]).filter(
   .slot-family { font-size: 0.68rem; color: var(--ash); font-style: italic; }
   .slot-remove { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--rust); cursor: pointer; padding: 0.1rem 0.4rem; border: 1px solid transparent; transition: all 0.15s; background: none; }
   .slot-remove:hover { border-color: var(--rust); background: rgba(196,85,26,0.1); }
+  .plant-tag-auto { font-family: 'Space Mono', monospace; font-size: 0.5rem; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.1rem 0.3rem; border: 1px solid rgba(139,184,58,0.25); color: var(--ash); opacity: 0.7; margin-left: 0.3rem; vertical-align: middle; }
+  .goal-complete-btn { font-family: 'Space Mono', monospace; font-size: 0.62rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.45rem 1rem; background: none; border: 1px solid rgba(139,184,58,0.3); color: var(--ash); cursor: pointer; transition: all 0.2s; width: 100%; margin-top: 0.4rem; }
+  .goal-complete-btn:hover { border-color: var(--lime); color: var(--lime); }
   .guild-empty { font-family: 'Space Mono', monospace; font-size: 0.7rem; color: var(--ash); opacity: 0.5; padding: 1rem 0; text-align: center; border: 1px dashed rgba(139,184,58,0.15); }
 
   .clear-btn { font-family: 'Space Mono', monospace; font-size: 0.62rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ash); background: none; border: 1px solid rgba(184,176,160,0.2); padding: 0.4rem 0.8rem; cursor: pointer; transition: all 0.2s; }
@@ -248,6 +251,9 @@ const edges = (relationshipsData as any[]).filter(
       <button class="goal-generate-btn" id="goal-generate-btn" style="display:none">
         Generate Starter Guild →
       </button>
+      <button class="goal-complete-btn" id="goal-complete-btn" style="display:none">
+        Complete Missing Gaps →
+      </button>
     </div>
     <div id="goal-header" style="display:none" class="goal-header"></div>
 
@@ -405,7 +411,8 @@ function inferLayer(p) {
 }
 
 // ── Guild state ───────────────────────────────────────────────────────────────
-let guild = [];
+let guild = [];          // [{slug, source: 'user'|'generated'}]
+let removedByUser = new Set();
 let userZone = 9; // default — will be UI-driven in future phase
 
 // ── Zone compatibility ────────────────────────────────────────────────────────
@@ -952,14 +959,28 @@ const GOAL_PROFILES = {
 // Support roles subject to soft cap
 const SUPPORT_ROLES = ['Mulcher', 'Ground Cover', 'Dynamic Accumulator', 'Erosion Control'];
 
-function generateGoalGuild(goalKey) {
+function generateGoalGuild(goalKey, { preserveExisting = false } = {}) {
   const profile = GOAL_PROFILES[goalKey];
   if (!profile) return [];
 
-  const generated = [];
+  let generated = [];
   const guildSet  = new Set();
-  const famSeen   = {};
-  const layerSeen = {};
+  let famSeen   = {};
+  let layerSeen = {};
+
+  if (preserveExisting) {
+    for (const g of guild) {
+      generated.push(g.slug);
+      guildSet.add(g.slug);
+      const fam = plantToFamily[g.slug] || '__none__';
+      famSeen[fam] = (famSeen[fam] || 0) + 1;
+      const p = plantBySlug[g.slug];
+      if (p) {
+        const layer = inferLayer(p);
+        layerSeen[layer] = (layerSeen[layer] || 0) + 1;
+      }
+    }
+  }
 
   // ── Food Production exclusion list (goal generation only) ───────────────────
 const FOOD_PRODUCTION_EXCLUDE = [
@@ -1066,6 +1087,7 @@ const FOOD_PRODUCTION_EXCLUDE = [
 
     for (const p of plantIndex) {
       if (guildSet.has(p.slug)) continue;
+      if (removedByUser.has(p.slug)) continue;
       if (!p.plant_function || p.plant_function.length === 0) continue;
       if (!p.plant_function.includes(requiredRole)) continue;
       if (getZoneFit(p, userZone) === 'out') continue;
@@ -1104,7 +1126,8 @@ const FOOD_PRODUCTION_EXCLUDE = [
     return bestSlug;
   }
 
-  function addToGuild(slug) {
+  function addToGuild(slug, source = 'generated') {
+    if (guildSet.has(slug)) return;
     generated.push(slug);
     guildSet.add(slug);
     const fam = plantToFamily[slug] || '__none__';
@@ -1112,6 +1135,8 @@ const FOOD_PRODUCTION_EXCLUDE = [
     const p = plantBySlug[slug];
     const layer = p ? inferLayer(p) : 'herb';
     layerSeen[layer] = (layerSeen[layer] || 0) + 1;
+    guild.push({ slug, source });
+    removedByUser.delete(slug);
   }
 
   // ── Phase 0: Seed with scored food anchors for food_production ──────────
@@ -1168,6 +1193,7 @@ const FOOD_PRODUCTION_EXCLUDE = [
 
     for (const p of plantIndex) {
       if (guildSet.has(p.slug)) continue;
+      if (removedByUser.has(p.slug)) continue;
       if (!p.plant_function || p.plant_function.length === 0) continue;
       if (goalKey === 'food_production' && p.food_role === 'specialty') continue;
       if (getZoneFit(p, userZone) === 'out') continue;
@@ -1207,6 +1233,8 @@ const FOOD_PRODUCTION_EXCLUDE = [
     else break;
   }
 
+  // Note: addToGuild() pushes each slug to guild[] during generation
+  // For preserveExisting mode, only NEW plants were added via addToGuild
   return generated;
 }
 
@@ -1302,7 +1330,8 @@ function renderGuild() {
     empty.style.display = 'block';
   } else {
     empty.style.display = 'none';
-    for (const slug of guild) {
+    for (const g of guild) {
+      const slug = g.slug;
       const p = plantBySlug[slug];
       if (!p) continue;
       const fam = plantToFamily[slug] || '';
@@ -1310,7 +1339,7 @@ function renderGuild() {
       el.className = 'guild-slot';
       el.innerHTML = `
         <div>
-          <div class="slot-name">${p.common_name}</div>
+          <div class="slot-name">${p.common_name}${g.source === 'generated' ? ' <span class="plant-tag-auto">auto</span>' : ''}</div>
           ${fam ? `<div class="slot-family">${fam}</div>` : ''}
         </div>
         <button class="slot-remove" data-slug="${slug}">✕</button>
@@ -1323,7 +1352,14 @@ function renderGuild() {
   slots.querySelectorAll('.slot-remove').forEach(btn => {
     btn.addEventListener('click', () => {
       const slug = btn.getAttribute('data-slug');
-      guild = guild.filter(s => s !== slug);
+      const entry = guild.find(g => g.slug === slug);
+      if (entry && entry.source === 'generated') {
+        removedByUser.add(slug);
+      }
+      guild = guild.filter(g => g.slug !== slug);
+      if (guild.length === 0) {
+        document.getElementById('goal-complete-btn').style.display = 'none';
+      }
       renderGuild();
       renderResults();
     });
@@ -1334,6 +1370,7 @@ function renderResults() {
   const emptyState = document.getElementById('empty-state');
   const results    = document.getElementById('results');
 
+  const guildSlugs = guild.map(g => g.slug);
   if (guild.length < 2) {
     emptyState.style.display = 'block';
     results.style.display    = 'none';
@@ -1352,7 +1389,7 @@ function renderResults() {
   emptyState.style.display = 'none';
   results.style.display    = 'block';
 
-  const r = scoreGuild(guild);
+  const r = scoreGuild(guildSlugs);
   if (!r) return;
 
   // Score display
@@ -1466,8 +1503,8 @@ function renderResults() {
   // Family Diversity (analyzeDiversity logic inlined — same data source)
   const divGrid = document.getElementById('diversity-grid');
   const divWarn = document.getElementById('diversity-warning');
-  const n = guild.length;
-  const divFamilies = guild.filter(s => plantToFamily[s]).map(s => plantToFamily[s]);
+  const n = guildSlugs.length;
+  const divFamilies = guildSlugs.filter(s => plantToFamily[s]).map(s => plantToFamily[s]);
   const divCounts = {};
   for (const f of divFamilies) divCounts[f] = (divCounts[f] || 0) + 1;
   const uniqueFams = Object.keys(divCounts).length;
@@ -1497,7 +1534,7 @@ function renderResults() {
   }
 
   // ── Function analysis ──────────────────────────────────────────────────────
-  const fnAnalysis = analyzeGuildFunctions(guild);
+  const fnAnalysis = analyzeGuildFunctions(guildSlugs);
   const fnBalance  = document.getElementById('function-balance');
   const actionsList = document.getElementById('actions-list');
 
@@ -1506,8 +1543,8 @@ function renderResults() {
   const nextNote    = document.getElementById('next-plants-note');
   const nextList    = document.getElementById('next-plants-list');
 
-  if (guild.length >= 2) {
-    const suggestions = getNextBestPlants(guild, 5);
+  if (guildSlugs.length >= 2) {
+    const suggestions = getNextBestPlants(guildSlugs, 5);
     const intentLabels = {
       fills_gap:      'fills gap',
       adds_diversity: 'adds diversity',
@@ -1561,7 +1598,7 @@ function renderResults() {
   const patternSection  = document.getElementById('section-pattern');
   const patternDisplay  = document.getElementById('pattern-display');
   if (fnAnalysis && r) {
-    const pattern = analyzeGuildPattern(guild, fnAnalysis, r);
+    const pattern = analyzeGuildPattern(guildSlugs, fnAnalysis, r);
     patternDisplay.innerHTML = `
       <div class="pattern-primary">${pattern.primaryLabel}</div>
       <div class="pattern-summary">${pattern.summary}</div>
@@ -1657,6 +1694,14 @@ zoneSlider.addEventListener('input', () => {
   zoneDisplay.textContent = userZone % 1 === 0 ? userZone : userZone.toFixed(1);
 });
 
+// ── Complete guild (preserve existing, fill gaps) ────────────────────────────
+function completeGuild() {
+  if (!selectedGoal) return;
+  generateGoalGuild(selectedGoal, { preserveExisting: true });
+  renderGuild();
+  renderResults();
+}
+
 // ── Goal selector interaction ─────────────────────────────────────────────────
 let selectedGoal = null;
 
@@ -1666,16 +1711,33 @@ document.querySelectorAll('.goal-btn').forEach(btn => {
     btn.classList.add('active');
     selectedGoal = btn.getAttribute('data-goal');
     document.getElementById('goal-generate-btn').style.display = 'block';
+    // Show complete button only if guild has plants
+    if (guild.length > 0) {
+      document.getElementById('goal-complete-btn').style.display = 'block';
+    }
   });
+});
+
+document.getElementById('goal-complete-btn').addEventListener('click', () => {
+  if (!selectedGoal) return;
+  completeGuild();
+  const header = document.getElementById('goal-header');
+  const profile = GOAL_PROFILES[selectedGoal];
+  header.innerHTML = `<strong>Goal: ${profile.label} (gaps completed)</strong><br>${profile.description}`;
+  header.style.display = 'block';
 });
 
 document.getElementById('goal-generate-btn').addEventListener('click', () => {
   if (!selectedGoal) return;
   const profile  = GOAL_PROFILES[selectedGoal];
-  const slugs    = generateGoalGuild(selectedGoal);
+  // Full regeneration — clear existing guild and removedByUser
+  guild = [];
+  removedByUser.clear();
+  generateGoalGuild(selectedGoal);
 
-  // Populate guild
-  guild = slugs;
+  // guild[] is now populated by addToGuild() calls inside generator
+  const slugs = guild.map(g => g.slug);
+  document.getElementById('goal-complete-btn').style.display = 'block';
   renderGuild();
   renderResults();
 
@@ -1697,7 +1759,7 @@ searchInput.addEventListener('input', () => {
   }
 
   const matches = plantIndex
-    .filter(p => p.common_name.toLowerCase().includes(q) && !guild.includes(p.slug))
+    .filter(p => p.common_name.toLowerCase().includes(q) && !guild.some(g => g.slug === p.slug))
     .slice(0, 12);
 
   searchResults.innerHTML = '';
@@ -1715,8 +1777,11 @@ searchInput.addEventListener('input', () => {
           ? `<div class="result-sci">${p.scientific_name}</div>` : ''}
       `;
       item.addEventListener('click', () => {
-        if (!guild.includes(p.slug)) {
-          guild.push(p.slug);
+        if (!guild.some(g => g.slug === p.slug)) {
+          addToGuild(p.slug, 'user');
+          if (selectedGoal && guild.length > 0) {
+            document.getElementById('goal-complete-btn').style.display = 'block';
+          }
           renderGuild();
           renderResults();
         }
@@ -1739,9 +1804,11 @@ document.addEventListener('click', e => {
 // Clear button
 document.getElementById('clear-btn').addEventListener('click', () => {
   guild = [];
+  removedByUser.clear();
   selectedGoal = null;
   document.querySelectorAll('.goal-btn').forEach(b => b.classList.remove('active'));
   document.getElementById('goal-generate-btn').style.display = 'none';
+  document.getElementById('goal-complete-btn').style.display = 'none';
   document.getElementById('goal-header').style.display = 'none';
   renderGuild();
   renderResults();
