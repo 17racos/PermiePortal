@@ -171,6 +171,26 @@ const edges = (relationshipsData as any[]).filter(
   .next-plant-name { font-family: 'Space Mono', monospace; font-size: 0.72rem; color: var(--paper); }
   .next-plant-family { font-size: 0.65rem; color: var(--ash); font-style: italic; }
   .next-plant-score { font-family: 'Bebas Neue', sans-serif; font-size: 1rem; color: var(--lime); line-height: 1; }
+
+  .add-suggestion-btn {
+    background: transparent;
+    border: 1px solid rgba(139,184,58,0.4);
+    color: var(--lime);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s ease;
+  }
+
+  .add-suggestion-btn:hover {
+    background: rgba(139,184,58,0.2);
+    border-color: var(--lime);
+  }
   .next-plant-reasons { display: flex; flex-wrap: wrap; gap: 0.3rem; }
   .next-plant-reason { font-family: 'Space Mono', monospace; font-size: 0.58rem; color: var(--ash); padding: 0.1rem 0.45rem; border: 1px solid rgba(139,184,58,0.2); background: rgba(42,61,31,0.2); }
   .next-plant-explanations { display: flex; flex-direction: column; gap: 0.45rem; margin-top: 0.45rem; }
@@ -1593,6 +1613,23 @@ function renderResults() {
         '</div>' +
       '</div>';
       nextSection.style.display = 'block';
+
+      // Wire suggestion add buttons
+      document.querySelectorAll('.add-suggestion-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const slug = btn.getAttribute('data-slug');
+          if (!slug) return;
+
+          addToGuild(slug, 'generated');
+
+          if (selectedGoal && guild.length > 0) {
+            document.getElementById('goal-complete-btn').style.display = 'block';
+          }
+
+          renderGuild();
+          renderResults();
+        });
+      });
     } else if (suggestions.length > 0) {
       const hasUrgentGaps = suggestions.some(s => s.intent === 'fills_gap');
       document.querySelector('#section-next-plants .result-section-title').textContent =
@@ -1607,7 +1644,10 @@ function renderResults() {
               <div class="next-plant-name">${p.name}${p.intent ? ` <span class="intent-badge ${p.intent}">${intentLabels[p.intent] || p.intent}</span>` : ''}${p.zoneFit === 'microclimate' ? ' <span class="zone-badge micro">microclimate</span>' : ''}</div>
               ${p.family ? `<div class="next-plant-family">${p.family}</div>` : ''}
             </div>
-            <div class="next-plant-score">${p.score}</div>
+            <div style="display:flex; align-items:center; gap:0.5rem;">
+              <div class="next-plant-score">${p.score}</div>
+              <button class="add-suggestion-btn" data-slug="${p.slug}">+</button>
+            </div>
           </div>
           <div class="next-plant-explanations">
             ${(p.explanations || []).map(e => `<div class="next-plant-explanation">${e}</div>`).join('')}
