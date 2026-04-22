@@ -268,6 +268,7 @@ PLANT_STUB = '''---
     - NEEDS_DATA
   plant_function:
     - NEEDS_DATA
+  food_role: NEEDS_DATA  # anchor | support | specialty — only set if Edible in plant_function, else omit
   growth_habit: "NEEDS_DATA"
   description: "NEEDS_DATA"
   purpose: |-
