@@ -864,6 +864,8 @@ function getNextBestPlants(currentSlugs, limit = 5) {
     const zoneFit = getZoneFit(p, userZone);
     if (zoneFit === 'out') continue;
 
+    if (selectedGoal === 'food_production' && p.food_role === 'specialty') continue;
+
     const pestReasons = [];
     if (sharedPestCount === 0 && pests.size > 0)
       pestReasons.push('No shared pest pressure — clean addition');
@@ -1185,7 +1187,9 @@ const FOOD_PRODUCTION_EXCLUDE = [
   // ── Phase 0: Seed with scored food anchors for food_production ──────────
   if (goalKey === 'food_production') {
     let anchorCandidates = plantIndex.filter(p =>
-      p.food_role === 'anchor' && !guildSet.has(p.slug) &&
+      p.food_role === 'anchor' &&
+      !guildSet.has(p.slug) &&
+      !removedByUser.has(p.slug) &&
       p.plant_function && p.plant_function.length > 0 &&
       getZoneFit(p, userZone) === 'fit'
     );
@@ -1193,7 +1197,9 @@ const FOOD_PRODUCTION_EXCLUDE = [
     // Fallback: allow microclimate anchors only if not enough fit anchors
     if (anchorCandidates.length < 2) {
       anchorCandidates = plantIndex.filter(p =>
-        p.food_role === 'anchor' && !guildSet.has(p.slug) &&
+        p.food_role === 'anchor' &&
+        !guildSet.has(p.slug) &&
+        !removedByUser.has(p.slug) &&
         p.plant_function && p.plant_function.length > 0 &&
         getZoneFit(p, userZone) !== 'out'
       );
@@ -1400,10 +1406,7 @@ function renderGuild() {
   slots.querySelectorAll('.slot-remove').forEach(btn => {
     btn.addEventListener('click', () => {
       const slug = btn.getAttribute('data-slug');
-      const entry = guild.find(g => g.slug === slug);
-      if (entry && entry.source === 'generated') {
-        removedByUser.add(slug);
-      }
+      removedByUser.add(slug);
       guild = guild.filter(g => g.slug !== slug);
       if (guild.length === 0) {
         document.getElementById('goal-complete-btn').style.display = 'none';
@@ -1800,7 +1803,6 @@ document.getElementById('goal-generate-btn').addEventListener('click', () => {
   const profile  = GOAL_PROFILES[selectedGoal];
   // Full regeneration — clear existing guild and removedByUser
   guild = [];
-  removedByUser.clear();
   generateGoalGuild(selectedGoal);
 
   // guild[] is now populated by addToGuild() calls inside generator
