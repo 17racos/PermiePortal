@@ -241,3 +241,22 @@ If ANY rule fails:
 - Do NOT leave TODOs or placeholders
 
 Only output the corrected data.
+
+## food_role Classification (edible plants only)
+
+If `plant_function` includes `Edible`, the plant MUST have `food_role` set to one of:
+
+- `anchor` — primary food backbone (fruit trees, staple crops, root crops, major vegetables)
+- `support` — secondary edible (herbs, leafy greens, edible support plants)
+- `specialty` — niche/novelty/medicinal-leaning edible (fungi, unusual edibles, carnivorous plants)
+
+If `plant_function` does NOT include `Edible`, remove `food_role` entirely or leave it absent.
+
+Classification rule:
+> "Would I build a food-producing guild around this plant by default?"
+> Yes → anchor | Maybe/secondary → support | No/niche → specialty
+
+Examples:
+- Tomato, Banana, Pigeon Pea, Moringa → anchor
+- Basil, Lemongrass, Borage → support
+- Shiitake, Shampoo Ginger, Florida Pusley → specialty
