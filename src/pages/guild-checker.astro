@@ -169,6 +169,8 @@ const edges = (relationshipsData as any[]).filter(
   .next-plant-card:hover { border-color: rgba(139,184,58,0.35); }
   .next-plant-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem; }
   .next-plant-name { font-family: 'Space Mono', monospace; font-size: 0.72rem; color: var(--paper); }
+  .next-plant-link { color: var(--paper); text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.15); }
+  .next-plant-link:hover { color: var(--lime); border-bottom-color: var(--lime); }
   .next-plant-family { font-size: 0.65rem; color: var(--ash); font-style: italic; }
   .next-plant-score { font-family: 'Bebas Neue', sans-serif; font-size: 1rem; color: var(--lime); line-height: 1; }
 
@@ -1674,16 +1676,16 @@ function renderResults() {
         ? 'Plants scored by role coverage, family diversity, and pest overlap with your current guild.'
         : 'Your guild is structurally sound. These are low-risk ways to expand it without increasing shared pest pressure.';
       nextList.innerHTML = suggestions.map(p => `
-        <a href="/plants/${p.slug}" class="next-plant-card" target="_blank">
+        <div class="next-plant-card">
           <div class="next-plant-header">
             <div>
-              <div class="next-plant-name">${p.name}${p.intent ? ` <span class="intent-badge ${p.intent}">${intentLabels[p.intent] || p.intent}</span>` : ''}${p.zoneFit === 'microclimate' ? ' <span class="zone-badge micro">microclimate</span>' : ''}</div>
+              <div class="next-plant-name"><a href="/plants/${p.slug}" target="_blank" class="next-plant-link">${p.name}</a>${p.intent ? ` <span class="intent-badge ${p.intent}">${intentLabels[p.intent] || p.intent}</span>` : ''}${p.zoneFit === 'microclimate' ? ' <span class="zone-badge micro">microclimate</span>' : ''}</div>
               ${p.family ? `<div class="next-plant-family">${p.family}</div>` : ''}
             </div>
             <div style="display:flex; align-items:center; gap:0.5rem;">
               <div class="next-plant-score">${p.score}</div>
               <button class="add-suggestion-btn" data-slug="${p.slug}" title="Add to guild">+</button>
-              <button class="dismiss-suggestion-btn" data-slug="${p.slug}" title="Remove this suggestion">−</button>
+              <button class="dismiss-suggestion-btn" data-slug="${p.slug}" title="Dismiss suggestion">−</button>
             </div>
           </div>
           <div class="next-plant-explanations">
