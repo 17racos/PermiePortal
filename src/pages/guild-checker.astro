@@ -860,6 +860,9 @@ if (removedByUser.has(p.slug)) continue;
     if (selectedGoal === 'food_production' && p.food_role === 'specialty') continue;
 
     // Role scoring — missing roles only show their reason; weak roles max 1
+    // Zone fit (already filtered above, but need var for badge/explanation)
+    const zoneFit = getZoneFit(p, userZone);
+
     // ── Sub-score evaluation (mirrors scorePlant logic for consistency) ────
     // Gap: fills missing foundational role
     const FOUND_ROLES = ['Nitrogen Fixer','Pollinator','Pest Management',
@@ -928,6 +931,29 @@ if (removedByUser.has(p.slug)) continue;
     // sharedPestCount > 2: no pest reason
 
     // hasMissing and hasNewFamily are set in sub-score block above
+    // Rebuild missingReasons and familyReasons for explanation builder
+    const missingReasons = [];
+    for (const fn of fns) {
+      if (['Nitrogen Fixer','Pollinator','Pest Management',
+           'Ground Cover','Mulcher','Dynamic Accumulator'].includes(fn) &&
+          !curRoleCounts[fn]) {
+        missingReasons.push(`Adds missing ${fn} function`);
+      }
+    }
+    const familyReasons = [];
+    if (hasNewFamily && family) {
+      const domFam = [...existFamilies].reduce((a, b) =>
+        (currentSlugs.filter(s => plantToFamily[s] === b).length >
+         currentSlugs.filter(s => plantToFamily[s] === a).length) ? b : a, '');
+      const domCount = currentSlugs.filter(s => plantToFamily[s] === domFam).length;
+      const domLabel = domFam ? `${domFam.charAt(0).toUpperCase()}${domFam.slice(1)}` : '';
+      const famLabel = family.charAt(0).toUpperCase() + family.slice(1);
+      if (domCount >= 2 && domLabel) {
+        familyReasons.push(`Introduces ${famLabel}, breaking shared pest pressure in your ${domLabel}-heavy guild.`);
+      } else {
+        familyReasons.push(`Introduces ${famLabel}, widening ecological diversity across your guild.`);
+      }
+    }
     const explanations = buildExplanations(
       fns, family, pests, sharedPestCount,
       hasMissing, missingReasons, hasNewFamily, familyReasons,
