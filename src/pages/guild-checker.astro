@@ -1645,7 +1645,32 @@ function renderResults() {
         '</div>' +
       '</div>';
       nextSection.style.display = 'block';
-
+    } else {
+      const hasUrgentGaps = suggestions.some(s => s.intent === 'fills_gap');
+      document.querySelector('#section-next-plants .result-section-title').textContent =
+        hasUrgentGaps ? 'Suggested Next Plants' : 'Low-Risk Expansion Options';
+      nextNote.textContent = hasUrgentGaps
+        ? 'Plants scored by role coverage, family diversity, and pest overlap with your current guild.'
+        : 'Your guild is structurally sound. These are low-risk ways to expand it without increasing shared pest pressure.';
+      nextList.innerHTML = suggestions.map(p => `
+        <div class="next-plant-card">
+          <div class="next-plant-header">
+            <div>
+              <div class="next-plant-name"><a href="/plants/${p.slug}" target="_blank" class="next-plant-link">${p.name}</a>${p.intent ? ` <span class="intent-badge ${p.intent}">${intentLabels[p.intent] || p.intent}</span>` : ''}${p.zoneFit === 'microclimate' ? ' <span class="zone-badge micro">microclimate</span>' : ''}</div>
+              ${p.family ? `<div class="next-plant-family">${p.family}</div>` : ''}
+            </div>
+            <div style="display:flex; align-items:center; gap:0.5rem;">
+              <div class="next-plant-score">${p.score}</div>
+              <button class="add-suggestion-btn" data-slug="${p.slug}" title="Add to guild">+</button>
+              <button class="dismiss-suggestion-btn" data-slug="${p.slug}" title="Dismiss suggestion">−</button>
+            </div>
+          </div>
+          <div class="next-plant-explanations">
+            ${(p.explanations || []).map(e => `<div class="next-plant-explanation">${e}</div>`).join('')}
+          </div>
+        </div>
+      `).join('');
+      nextSection.style.display = 'block';
       // Wire suggestion add buttons
       document.querySelectorAll('.add-suggestion-btn').forEach(btn => {
         btn.addEventListener('click', () => {
@@ -1674,34 +1699,6 @@ function renderResults() {
           renderResults();
         });
       });
-    } else if (suggestions.length > 0) {
-      const hasUrgentGaps = suggestions.some(s => s.intent === 'fills_gap');
-      document.querySelector('#section-next-plants .result-section-title').textContent =
-        hasUrgentGaps ? 'Suggested Next Plants' : 'Low-Risk Expansion Options';
-      nextNote.textContent = hasUrgentGaps
-        ? 'Plants scored by role coverage, family diversity, and pest overlap with your current guild.'
-        : 'Your guild is structurally sound. These are low-risk ways to expand it without increasing shared pest pressure.';
-      nextList.innerHTML = suggestions.map(p => `
-        <div class="next-plant-card">
-          <div class="next-plant-header">
-            <div>
-              <div class="next-plant-name"><a href="/plants/${p.slug}" target="_blank" class="next-plant-link">${p.name}</a>${p.intent ? ` <span class="intent-badge ${p.intent}">${intentLabels[p.intent] || p.intent}</span>` : ''}${p.zoneFit === 'microclimate' ? ' <span class="zone-badge micro">microclimate</span>' : ''}</div>
-              ${p.family ? `<div class="next-plant-family">${p.family}</div>` : ''}
-            </div>
-            <div style="display:flex; align-items:center; gap:0.5rem;">
-              <div class="next-plant-score">${p.score}</div>
-              <button class="add-suggestion-btn" data-slug="${p.slug}" title="Add to guild">+</button>
-              <button class="dismiss-suggestion-btn" data-slug="${p.slug}" title="Dismiss suggestion">−</button>
-            </div>
-          </div>
-          <div class="next-plant-explanations">
-            ${(p.explanations || []).map(e => `<div class="next-plant-explanation">${e}</div>`).join('')}
-          </div>
-        </a>
-      `).join('');
-      nextSection.style.display = 'block';
-    } else {
-      nextSection.style.display = 'none';
     }
   } else {
     nextSection.style.display = 'none';
