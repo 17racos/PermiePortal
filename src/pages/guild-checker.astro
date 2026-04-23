@@ -826,6 +826,12 @@ function getNextBestPlants(currentSlugs, limit = 5) {
 
   for (const p of plantIndex) {
     if (guildSet.has(p.slug)) continue;
+    if (dismissedSuggestions.has(p.slug)) continue;
+    // Skip fungal families and non-edible specialty plants
+    const FUNGAL_FAMILIES = new Set(['Cordycipitaceae','Strophariaceae','Pleurotaceae',
+      'Omphalotaceae','Polyporaceae','Ganodermataceae','Hericiaceae','Meripilaceae']);
+    if (FUNGAL_FAMILIES.has(p.family)) continue;
+    if (p.food_role === 'specialty' && !(p.plant_function || []).includes('Edible')) continue;
     const fns    = p.plant_function || [];
     const family = plantToFamily[p.slug] || null;
     const pests  = plantToPests[p.slug] || new Set();
