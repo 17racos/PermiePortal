@@ -6,7 +6,6 @@ import relationshipsData from '../data/relationships.json';
 
 // Pass only what's needed to the client — slim down payload
 
-
 const plantIndex = plantsData.map((p: any) => ({
 
   slug: p.slug,
@@ -160,10 +159,7 @@ const edges = (relationshipsData as any[]).filter(
   .fn-badge.dominant { color: var(--straw); border-color: rgba(212,168,67,0.4); }
   .fn-section-label { font-family: 'Space Mono', monospace; font-size: 0.55rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ash); opacity: 0.6; margin-bottom: 0.3rem; margin-top: 0.1rem; }
   .action-item.positive { border-left-color: var(--lime); background: rgba(42,61,31,0.2); color: var(--ash); }
-  .reinforced-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
-  .reinforced-chip { display: flex; align-items: center; gap: 0.4rem; font-family: 'Space Mono', monospace; font-size: 0.65rem; padding: 0.3rem 0.7rem; background: rgba(42,61,31,0.35); border: 1px solid rgba(139,184,58,0.3); color: var(--lime); }
-  .reinforced-chip-count { font-family: 'Bebas Neue', sans-serif; font-size: 0.9rem; line-height: 1; color: var(--lime); opacity: 0.8; }
-  .next-plants-note { font-size: 0.78rem; color: var(--ash); font-style: italic; margin-bottom: 0.75rem; line-height: 1.5; }
+.next-plants-note { font-size: 0.78rem; color: var(--ash); font-style: italic; margin-bottom: 0.75rem; line-height: 1.5; }
   .next-plants-list { display: flex; flex-direction: column; gap: 0.5rem; }
   .next-plant-card { display: block; text-decoration: none; padding: 0.75rem 1rem; background: var(--bark); border: 1px solid rgba(139,184,58,0.15); transition: border-color 0.2s; }
   .next-plant-card:hover { border-color: rgba(139,184,58,0.35); }
@@ -338,9 +334,8 @@ const edges = (relationshipsData as any[]).filter(
 
     <div id="results" style="display:none">
       <div class="score-display">
-        <p class="panel-label">Shared Pest Pressure</p>
-        <div class="score-number" id="score-number">0</div>
-        <div class="score-label" id="score-label">LOW PRESSURE — RESILIENCE: 100</div>
+        <p class="panel-label">System Resilience</p>
+<div class="score-label" id="score-label">Resilience: 100 — low pest overlap</div>
         <div class="score-bar-wrap">
           <div class="score-bar" id="score-bar" style="width:0%"></div>
         </div>
@@ -362,7 +357,7 @@ const edges = (relationshipsData as any[]).filter(
       </div>
 
       <div class="result-section" id="section-mitigation">
-        <p class="result-section-title">Resilience Factors</p>
+        <p class="result-section-title">Risk Drivers & Stability</p>
         <div class="mitigation-grid" id="mitigation-grid"></div>
       </div>
 
@@ -377,7 +372,7 @@ const edges = (relationshipsData as any[]).filter(
       </div>
 
       <div class="result-section" id="section-shared-pests">
-        <p class="result-section-title">Top Shared Pests</p>
+        <p class="result-section-title">Shared Pest Signals (supporting detail)</p>
         <div class="pest-list" id="shared-pests-list"></div>
       </div>
 
@@ -396,9 +391,7 @@ const edges = (relationshipsData as any[]).filter(
         <div id="function-balance"></div>
       </div>
 
-      <div class="result-section" id="section-reinforced" style="display:none">
-        <p class="result-section-title">Reinforced Functions</p>
-        <div class="reinforced-chips" id="reinforced-chips"></div>
+      
       </div>
 
       <div class="result-section" id="section-actions">
@@ -482,6 +475,30 @@ function getZoneFit(p, zone) {
   if (zone >= min && zone <= max)           return 'fit';
   if (zone >= min - 1 && zone <= max + 1)  return 'microclimate';
   return 'out';
+}
+
+function isBadDrylandFoodGuildCandidate(p) {
+  if (!p) return false;
+  const name = (p.common_name || '').toLowerCase();
+  const funcs = Array.isArray(p.plant_function) ? p.plant_function.map(x => String(x).toLowerCase()) : [];
+  const habit = String(p.growth_habit || '').toLowerCase();
+  const layers = Array.isArray(p.layers) ? p.layers.map(x => String(x).toLowerCase()) : [];
+
+  // Hard-name guardrails for clearly wrong suggestions in standard dryland food guilds
+  const bannedNames = [
+    'bladderwort',
+    'butterwort'
+  ];
+  if (bannedNames.some(x => name.includes(x))) return true;
+
+  // Generic habitat-ish guardrails if represented indirectly
+  if (habit.includes('aquatic')) return true;
+  if (layers.includes('aquatic')) return true;
+  if (funcs.includes('aquatic')) return true;
+  if (funcs.includes('wetland')) return true;
+  if (funcs.includes('bog')) return true;
+
+  return false;
 }
 
 // ── Build indexes from edges ──────────────────────────────────────────────────
@@ -569,7 +586,7 @@ function scoreGuild(slugs) {
   const severeOverlap = sharedPests.filter(p => p.count >= 3);
   if (severeOverlap.length > 0) {
     const dominant = severeOverlap.slice(0, 3).map(p => p.name).join(', ');
-    warnings.push(`Shared pest pressure detected — ${dominant} affect multiple plants in this guild.`);
+    warnings.push(`Pest overlap detected — ${dominant} recur across multiple plants in this guild.`);
   } else if (sharedPests.length > 0 && pestOverlap > 0.5) {
     const dominant = sharedPests.slice(0, 3).map(p => p.name).join(', ');
     warnings.push(`Some shared pest exposure exists — ${dominant} appear across multiple plants.`);
@@ -697,7 +714,7 @@ function analyzeGuildFunctions(slugs) {
   };
 }
 
-// ── Next Best Plant scorer (inlined from src/lib/nextPlant.js) ──────────────
+// ── Next Best Plant scorer — uses same sub-score logic as generator ──────────
 // NOTE: Keep in sync with src/lib/nextPlant.js when changing logic.
 // Role weights: high-value missing roles score much higher
 const ROLE_WEIGHTS = {
@@ -827,7 +844,10 @@ function getNextBestPlants(currentSlugs, limit = 5) {
   for (const p of plantIndex) {
     if (guildSet.has(p.slug)) continue;
     if (dismissedSuggestions.has(p.slug)) continue;
-    // Skip fungal families and non-edible specialty plants
+                if (selectedGoal === 'food_production' && isBadDrylandFoodGuildCandidate(p)) continue;
+if (removedByUser.has(p.slug)) continue;
+      if (selectedGoal === 'food_production' && isBadDrylandFoodGuildCandidate(p)) continue;
+// Skip fungal families and non-edible specialty plants
     const FUNGAL_FAMILIES = new Set(['Cordycipitaceae','Strophariaceae','Pleurotaceae',
       'Omphalotaceae','Polyporaceae','Ganodermataceae','Hericiaceae','Meripilaceae']);
     if (FUNGAL_FAMILIES.has(p.family)) continue;
@@ -840,60 +860,65 @@ function getNextBestPlants(currentSlugs, limit = 5) {
     if (selectedGoal === 'food_production' && p.food_role === 'specialty') continue;
 
     // Role scoring — missing roles only show their reason; weak roles max 1
-    let roleScore = 0;
-    let onlyStrongRoles = true;
-    const missingReasons = [];
-    const weakReasons    = [];
+    // ── Sub-score evaluation (mirrors scorePlant logic for consistency) ────
+    // Gap: fills missing foundational role
+    const FOUND_ROLES = ['Nitrogen Fixer','Pollinator','Pest Management',
+                          'Ground Cover','Mulcher','Dynamic Accumulator'];
+    const curRoleCounts = {};
+    for (const s of currentSlugs) {
+      for (const fn of (plantBySlug[s]?.plant_function || []))
+        curRoleCounts[fn] = (curRoleCounts[fn] || 0) + 1;
+    }
+    let gapScore = 0;
+    let hasMissing = false;
     for (const fn of fns) {
-      const w = ROLE_WEIGHTS[fn];
-      if (!w) continue;
-      if (missingRoles.includes(fn)) {
-        roleScore += w.missing;
-        missingReasons.push('Adds missing ' + fn + ' function');
-        onlyStrongRoles = false;
-      } else if (weakRoles.includes(fn)) {
-        roleScore += w.weak;
-        weakReasons.push('Reinforces ' + fn + ' function');
-        onlyStrongRoles = false;
-      }
+      if (FOUND_ROLES.includes(fn) && !curRoleCounts[fn])     { gapScore += 3.0; hasMissing = true; }
+      else if (FOUND_ROLES.includes(fn) && curRoleCounts[fn] === 1) { gapScore += 1.2; }
     }
-    // If fills missing roles, skip weak role reasons entirely
-    // Otherwise show max 1 weak role reason
-    const roleReasons = missingReasons.length > 0
-      ? missingReasons
-      : weakReasons.slice(0, 1);
 
-    const diminishingPenalty = (roleScore === 0 && onlyStrongRoles &&
-      fns.some(fn => strongRoles.includes(fn))) ? -1 : 0;
+    // Diversity: new family
+    const existFamilies = new Set(currentSlugs.map(s => plantToFamily[s]).filter(Boolean));
+    const famRepeat = currentSlugs.filter(s => plantToFamily[s] === family).length;
+    let diversityScore = family && !existFamilies.has(family) ? 2.25
+                       : famRepeat >= 2 ? -1.5 : famRepeat === 1 ? -0.45 : 0;
+    const hasNewFamily = family && !existFamilies.has(family);
 
+    // Structure: missing layer
+    const existLayers = new Set(currentSlugs.map(s => inferLayer(plantBySlug[s] || {})));
+    const myLayer = inferLayer(p);
+    const STRUCT_LAYERS = ['canopy','shrub','ground','vine','root'];
+    let structureScore = 0;
+    if (STRUCT_LAYERS.includes(myLayer) && !existLayers.has(myLayer)) structureScore = 1.2;
+    else if (existLayers.has(myLayer)) {
+      const lc = currentSlugs.filter(s => inferLayer(plantBySlug[s]||{}) === myLayer).length;
+      structureScore = Math.max(-1.2, lc * -0.3);
+    }
+
+    // Risk: shared pest overlap
+    const guildPestSet = new Set();
+    for (const s of currentSlugs) {
+      for (const pest of (plantToPests[s] || new Set())) guildPestSet.add(pest);
+    }
     let sharedPestCount = 0;
-    for (const pest of pests) { if (guildPests.has(pest)) sharedPestCount++; }
-    const pestBonus = sharedPestCount === 0 && pests.size > 0 ? 1.0
-                    : sharedPestCount <= 2 && pests.size > 0  ? 0.5 : 0;
+    for (const pest of pests) { if (guildPestSet.has(pest)) sharedPestCount++; }
+    const riskScore = Math.max(-1.0, 1.0 - sharedPestCount * 0.35);
 
-    let familyScore = 0;
-    const familyReasons = [];
-    if (family && !guildFamilies.has(family)) {
-      familyScore = 1.5;
-      familyReasons.push('Adds new family diversity (' + family + ')');
-    } else if (family && family === dominantFamily) {
-      familyScore = -1;
+    // Redundancy penalty
+    let redundancyPenalty = 0;
+    const SUPP_S = new Set(['Ground Cover','Mulcher','Dynamic Accumulator','Erosion Control']);
+    for (const fn of fns) {
+      const rc = curRoleCounts[fn] || 0;
+      if (rc >= 3) redundancyPenalty += 0.75;
+      else if (rc >= 2 && SUPP_S.has(fn)) redundancyPenalty += 0.45;
     }
 
-    // Meaningful contribution gate: skip weak candidates
-    if (roleScore < 1.0 && familyScore <= 0 && pestBonus <= 0.5) continue;
+    // Diminishing returns across candidates already queued
+    const diminishingPenalty = candidates.filter(c =>
+      (hasMissing && c._hasMissing) || (hasNewFamily && c._hasNewFamily)
+    ).length * 0.5;
 
-    const score = (roleScore * 2.5) + (familyScore * 1.5) + pestBonus
-                  - (sharedPestCount * 0.5) + diminishingPenalty;
-
-    if (score <= 0 && roleReasons.length === 0 && familyReasons.length === 0) continue;
-
-    // Pest reason — only if overlap is clean
-    // Zone fit for suggestions
-    const zoneFit = getZoneFit(p, userZone);
-    if (zoneFit === 'out') continue;
-
-    if (selectedGoal === 'food_production' && p.food_role === 'specialty') continue;
+    const score = gapScore + diversityScore + structureScore + riskScore
+                - redundancyPenalty - diminishingPenalty;
 
     const pestReasons = [];
     if (sharedPestCount === 0 && pests.size > 0)
@@ -902,8 +927,7 @@ function getNextBestPlants(currentSlugs, limit = 5) {
       pestReasons.push('Low shared pest overlap — minimal risk');
     // sharedPestCount > 2: no pest reason
 
-    const hasMissing   = missingReasons.length > 0;
-    const hasNewFamily = familyScore > 0;
+    // hasMissing and hasNewFamily are set in sub-score block above
     const explanations = buildExplanations(
       fns, family, pests, sharedPestCount,
       hasMissing, missingReasons, hasNewFamily, familyReasons,
@@ -990,7 +1014,9 @@ const GOAL_PROFILES = {
     targetRoles: ['Edible', 'Ground Cover', 'Nitrogen Fixer', 'Mulcher'],
     avoidOverweight: ['Ornamental'],
     preferredGuildSize: 6,
-    anchorRoles: { 'Edible': 3, 'Nitrogen Fixer': 1 },
+    anchorRoles: { 'Edible': 3, 'Nitrogen Fixer': 1,
+      'Pest Management': 1
+    },
   },
   low_maintenance: {
     label: 'Low Maintenance',
@@ -1044,11 +1070,11 @@ function generateGoalGuild(goalKey, { preserveExisting = false } = {}) {
       guildSet.add(g.slug);
       const fam = plantToFamily[g.slug] || '__none__';
       famSeen[fam] = (famSeen[fam] || 0) + 1;
-      const p = plantBySlug[g.slug];
-      if (p) {
-        const layer = inferLayer(p);
-        layerSeen[layer] = (layerSeen[layer] || 0) + 1;
-      }
+        const p = plantBySlug[g.slug];
+        if (p) {
+          const layer = inferLayer(p);
+          layerSeen[layer] = (layerSeen[layer] || 0) + 1;
+        }
     }
   }
 
@@ -1056,95 +1082,125 @@ function generateGoalGuild(goalKey, { preserveExisting = false } = {}) {
 const FOOD_PRODUCTION_EXCLUDE = [
   'shampoo-ginger', 'florida-pusley', 'wine-cap', 'cordyceps',
   'oyster-mushroom', 'maitake', 'reishi', 'turkey-tail', 'lion-s-mane',
+  'roselle'
 ];
 
-// ── Scoring function ───────────────────────────────────────────────────────
+// ── Scoring weights (tune here to adjust relative importance) ────────────────
+  const W = {
+    gap:        3.0,   // filling a missing foundational role is highest priority
+    diversity:  1.5,   // new family reduces shared vulnerability
+    structure:  1.2,   // missing layer adds vertical diversity
+    goal:       2.5,   // goal alignment drives identity of the guild
+    risk:       1.0,   // pest separation is a moderate positive
+    redundancy: 1.5,   // stacking covered roles wastes a slot
+    niche:      2.0,   // low-fit plants should lose decisively
+  };
+
+  // ── scorePlant: 2-stage evaluation ────────────────────────────────────────
+  // Stage 1 (eligibility) is handled by callers via continue/filter.
+  // Stage 2 (scoring) produces a named sub-score breakdown.
   function scorePlant(p, currentSlugs) {
     const fns    = p.plant_function || [];
     const family = plantToFamily[p.slug] || null;
     const pests  = plantToPests[p.slug] || new Set();
 
-    // Goal role bonus
-    let goalBonus = 0;
-    for (const fn of fns) {
-      if (profile.targetRoles.includes(fn)) {
-        goalBonus += (goalKey === 'food_production' && fn === 'Edible') ? 2.5 : 1.5;
-      }
-      if (profile.avoidOverweight.length > 0 &&
-          profile.avoidOverweight.includes(fn) &&
-          !profile.targetRoles.includes(fn)) {
-        goalBonus -= goalKey === 'food_production' ? 1.5 : 0.5;
-      }
-    }
-
-    // Food Production: tiered support-heavy edible penalty + clean edible bonus
-    if (goalKey === 'food_production') {
-      const FP_SUPPORT = ['Ground Cover','Mulcher','Dynamic Accumulator','Erosion Control','Pest Management'];
-      const supportCount = FP_SUPPORT.filter(r => fns.includes(r)).length;
-
-      if (fns.includes('Edible')) {
-        if (supportCount >= 3)      goalBonus -= 2.0; // strong: behaves more like support
-        else if (supportCount === 2) goalBonus -= 1.0; // moderate
-        else if (supportCount <= 1)  goalBonus += 1.5; // clean edible bonus
-      }
-
-      // Exclusion list penalty
-      if (FOOD_PRODUCTION_EXCLUDE.includes(p.slug)) goalBonus -= 3.0;
-    }
-
-    // Support role soft cap
-    const roleCounts = {};
+    // ── Build guild state snapshot ────────────────────────────────────────
+    const existingFamilies = new Set(currentSlugs.map(s => plantToFamily[s]).filter(Boolean));
+    const guildLayers      = new Set(currentSlugs.map(s => inferLayer(plantBySlug[s] || {})));
+    const roleCounts       = {};
+    const guildPests       = new Set();
     for (const s of currentSlugs) {
       const pp = plantBySlug[s];
       if (!pp) continue;
-      for (const fn of (pp.plant_function || [])) {
-        if (SUPPORT_ROLES.includes(fn)) roleCounts[fn] = (roleCounts[fn] || 0) + 1;
-      }
-    }
-    for (const fn of fns) {
-      if (SUPPORT_ROLES.includes(fn) && (roleCounts[fn] || 0) >= 3) goalBonus -= 1.0;
-    }
-
-    // Low Maintenance: de-stacking saturated roles
-    if (goalKey === 'low_maintenance') {
-      const SATURATE_ROLES = ['Ground Cover', 'Pollinator', 'Pest Management'];
-      const saturatedRoles = SATURATE_ROLES.filter(r => (roleCounts[r] || 0) >= 2);
-      if (saturatedRoles.length > 0) {
-        const existFams = new Set(currentSlugs.map(s => plantToFamily[s]).filter(Boolean));
-        const addsNewFamily = family && !existFams.has(family);
-        const onlySaturates = fns.every(fn =>
-          saturatedRoles.includes(fn) || !profile.targetRoles.includes(fn)
-        );
-        if (onlySaturates && !addsNewFamily) goalBonus -= 1.25;
-      }
-    }
-
-    // Family diversity bonus
-    const existingFamilies = new Set(currentSlugs.map(s => plantToFamily[s]).filter(Boolean));
-    const famRepeatCount = currentSlugs.filter(s => plantToFamily[s] === family).length;
-    const familyBonus = (family && !existingFamilies.has(family))
-      ? 1.0
-      : (goalKey === 'low_maintenance' && famRepeatCount >= 1 ? -1.5 : 0);
-
-    // Pest overlap penalty
-    const guildPests = new Set();
-    for (const s of currentSlugs) {
+      for (const fn of (pp.plant_function || [])) roleCounts[fn] = (roleCounts[fn] || 0) + 1;
       for (const pest of (plantToPests[s] || new Set())) guildPests.add(pest);
     }
+
+    // ── gapScore: reward filling a missing foundational role ──────────────
+    const FOUNDATIONAL = ['Nitrogen Fixer','Pollinator','Pest Management',
+                          'Ground Cover','Mulcher','Dynamic Accumulator'];
+    let gapScore = 0;
+    for (const fn of fns) {
+      if (FOUNDATIONAL.includes(fn) && !roleCounts[fn])      gapScore += 1.0;
+      else if (FOUNDATIONAL.includes(fn) && roleCounts[fn] === 1) gapScore += 0.4;
+    }
+
+    // ── diversityScore: reward adding a new plant family ─────────────────
+    const famCount = currentSlugs.filter(s => plantToFamily[s] === family).length;
+    let diversityScore = 0;
+    if (family && !existingFamilies.has(family)) diversityScore =  1.0;
+    else if (famCount === 1)                      diversityScore = -0.3;
+    else if (famCount >= 2)                       diversityScore = -1.0;
+
+    // ── structureScore: reward adding a missing growth layer ──────────────
+    const myLayer = inferLayer(p);
+    const STRUCT  = ['canopy','shrub','ground','vine','root'];
+    let structureScore = 0;
+    if (STRUCT.includes(myLayer) && !guildLayers.has(myLayer)) {
+      structureScore = 1.0;
+    } else if (guildLayers.has(myLayer)) {
+      const lc = currentSlugs.filter(s => inferLayer(plantBySlug[s]||{}) === myLayer).length;
+      structureScore = Math.max(-1.0, lc * -0.3);
+    }
+
+    // ── goalScore: reward alignment with selected goal ────────────────────
+    let goalScore = 0;
+    for (const fn of fns) {
+      if (profile.targetRoles.includes(fn))
+        goalScore += (goalKey === 'food_production' && fn === 'Edible') ? 1.5 : 1.0;
+      if (profile.avoidOverweight.includes(fn) && !profile.targetRoles.includes(fn))
+        goalScore -= 0.5;
+    }
+    if (goalKey === 'food_production') {
+      if (p.food_role === 'anchor')       goalScore += 2.0;
+      else if (p.food_role === 'support') goalScore += 0.5;
+    }
+
+    // ── riskScore: reward low shared pest overlap ─────────────────────────
     let sharedPests = 0;
     for (const pest of pests) { if (guildPests.has(pest)) sharedPests++; }
-    const basePestPenalty = sharedPests * 0.3;
-    const pestPenalty = goalKey === 'food_production'
-      ? basePestPenalty * 0.7
-      : basePestPenalty;
+    const riskScore = Math.max(-1.0, 1.0 - sharedPests * 0.35);
 
-    // food_role bias — additive only, food_production only
-    if (goalKey === 'food_production') {
-      if (p.food_role === 'anchor')    goalBonus += 3.0;
-      else if (p.food_role === 'support')   goalBonus += 1.0;
-      else if (p.food_role === 'specialty') goalBonus -= 2.0;
+    // ── redundancyPenalty: penalise stacking already-covered roles ────────
+    const SUPP_ROLES = new Set(['Ground Cover','Mulcher','Dynamic Accumulator','Erosion Control']);
+    let redundancyPenalty = 0;
+    for (const fn of fns) {
+      const rc = roleCounts[fn] || 0;
+      if (rc >= 3)                          redundancyPenalty += 0.5;
+      else if (rc >= 2 && SUPP_ROLES.has(fn)) redundancyPenalty += 0.3;
     }
-    return goalBonus + familyBonus - pestPenalty;
+    if (goalKey === 'low_maintenance') {
+      const SAT = ['Ground Cover','Pollinator','Pest Management'];
+      for (const fn of fns) {
+        if (SAT.includes(fn) && (roleCounts[fn]||0) >= 2 &&
+            family && existingFamilies.has(family)) redundancyPenalty += 0.5;
+      }
+    }
+
+    // ── nichePenalty: penalise low-fit plants in production guilds ────────
+    let nichePenalty = 0;
+    if (goalKey === 'food_production') {
+      const FP_SUPP = ['Ground Cover','Mulcher','Dynamic Accumulator','Erosion Control','Pest Management'];
+      const supportCount = FP_SUPP.filter(r => fns.includes(r)).length;
+      if (fns.includes('Edible')) {
+        if (supportCount >= 3)      nichePenalty += 1.5;
+        else if (supportCount >= 2) nichePenalty += 0.75;
+        else if (supportCount <= 1) nichePenalty -= 0.5; // clean edible bonus
+      }
+      if (FOOD_PRODUCTION_EXCLUDE.includes(p.slug)) nichePenalty += 3.0;
+      if (p.food_role === 'specialty') nichePenalty += 1.5;
+    }
+
+    // ── Final weighted score ──────────────────────────────────────────────
+    return (
+      gapScore        * W.gap        +
+      diversityScore  * W.diversity  +
+      structureScore  * W.structure  +
+      goalScore       * W.goal       +
+      riskScore       * W.risk       -
+      redundancyPenalty * W.redundancy -
+      nichePenalty    * W.niche
+    );
   }
 
   // ── Helper: pick best plant for a required role ───────────────────────────
@@ -1154,7 +1210,6 @@ const FOOD_PRODUCTION_EXCLUDE = [
 
     const preferredLayers = ['canopy', 'shrub', 'ground'];
 
-
     for (const p of plantIndex) {
       if (guildSet.has(p.slug)) continue;
       if (removedByUser.has(p.slug)) continue;
@@ -1162,7 +1217,8 @@ const FOOD_PRODUCTION_EXCLUDE = [
       if (!p.plant_function.includes(requiredRole)) continue;
       if (getZoneFit(p, userZone) === 'out') continue;
 
-      const fam = plantToFamily[p.slug] || '__none__';
+              if (goalKey === 'food_production' && isBadDrylandFoodGuildCandidate(p)) continue;
+const fam = plantToFamily[p.slug] || '__none__';
       if ((famSeen[fam] || 0) >= 2) continue;
 
       // Food Production anchor filter: skip support-heavy edibles + exclusions
@@ -1173,7 +1229,9 @@ const FOOD_PRODUCTION_EXCLUDE = [
         if (FOOD_PRODUCTION_EXCLUDE.includes(p.slug)) continue;
       }
 
-      const layer = inferLayer(p);
+        if (goalKey === 'food_production' && isBadDrylandFoodGuildCandidate(p)) continue;
+
+        const layer = inferLayer(p);
       let layerPenalty = 0;
 
       // Prevent overstacking same layer (soft constraint)
@@ -1188,10 +1246,47 @@ const FOOD_PRODUCTION_EXCLUDE = [
 
       let score = scorePlant(p, generated) - layerPenalty;
 
-      // Food Production: prefer true in-zone additions over microclimate additions
+      
+
+                // ── Meaningful contribution gate ─────────────────────────────
+        let improves = false;
+
+        // Compute missing foundational roles from the current generated guild
+        const currentCounts = {};
+        for (const existingSlug of generated) {
+          const existingPlant = plantBySlug[existingSlug];
+          if (!existingPlant) continue;
+          for (const fn of (existingPlant.plant_function || [])) {
+            currentCounts[fn] = (currentCounts[fn] || 0) + 1;
+          }
+        }
+
+        const missingFoundational = FOUNDATIONAL_ROLES.filter(role => (currentCounts[role] || 0) === 0);
+
+        // 1. Fills a currently missing foundational role
+        if (p.plant_function && p.plant_function.some(role => missingFoundational.includes(role))) {
+          improves = true;
+        }
+
+        // 2. Adds new family
+                if (!famSeen[fam]) improves = true;
+
+        // 3. Adds new layer
+        
+        if (!layerSeen[layer]) improves = true;
+
+        // 4. Mild fallback: only allow if score is high and guild is still small
+        if (!improves && generated.length < 5 && score > 2.5) {
+          improves = true;
+        }
+
+        if (!improves) score -= 2.0;
+
+// Food Production: prefer true in-zone additions over microclimate additions
       const zoneFit = getZoneFit(p, userZone);
       if (goalKey === 'food_production' && zoneFit === 'microclimate') score -= 1.0;
-      if (score > bestScore ||
+              if (goalKey === 'food_production' && p.slug === 'roselle') score -= 3.0;
+if (score > bestScore ||
           (score === bestScore && bestSlug && p.slug < bestSlug)) {
         bestScore = score;
         bestSlug  = p.slug;
@@ -1268,13 +1363,13 @@ const FOOD_PRODUCTION_EXCLUDE = [
 
     const preferredLayers = ['canopy', 'shrub', 'ground'];
 
-
     for (const p of plantIndex) {
       if (guildSet.has(p.slug)) continue;
       if (removedByUser.has(p.slug)) continue;
       if (!p.plant_function || p.plant_function.length === 0) continue;
       if (goalKey === 'food_production' && p.food_role === 'specialty') continue;
-      if (getZoneFit(p, userZone) === 'out') continue;
+              if (goalKey === 'food_production' && isBadDrylandFoodGuildCandidate(p)) continue;
+if (getZoneFit(p, userZone) === 'out') continue;
 
       const fam = plantToFamily[p.slug] || '__none__';
       if ((famSeen[fam] || 0) >= 2) continue;
@@ -1473,14 +1568,10 @@ function renderResults() {
   if (!r) return;
 
   // Score display
-  const scoreEl = document.getElementById('score-number');
   const labelEl = document.getElementById('score-label');
   const barEl   = document.getElementById('score-bar');
-
-  scoreEl.textContent = r.score;
-  scoreEl.className   = `score-number ${r.riskLevel !== 'low' ? r.riskLevel : ''}`;
   const pressureLabel = r.riskLevel === 'low' ? 'LOW' : r.riskLevel === 'medium' ? 'MODERATE' : 'ELEVATED';
-  labelEl.textContent = `${pressureLabel} SHARED PEST PRESSURE — RESILIENCE: ${r.resilience}`;
+  labelEl.textContent = `Resilience: ${r.resilience} — ${pressureLabel.toLowerCase()} pest overlap`;
   barEl.style.width   = `${r.score}%`;
   barEl.className     = `score-bar ${r.riskLevel !== 'low' ? r.riskLevel : ''}`;
 
@@ -1494,7 +1585,7 @@ function renderResults() {
     ? `${domFamLabel} (${r.breakdown.dominantRatio}%)`
     : r.breakdown.dominantRatio + '%';
 
-  // Resilience Factors — pestMitigationScore
+  // Risk Drivers & Stability — pestMitigationScore
   const fnCounts = {};
   for (const slug of guild) {
     const p = plantBySlug[slug];
@@ -1508,7 +1599,7 @@ function renderResults() {
                       + ((fnCounts['Pollinator'] || 0) * 10)
                       + (famDiv * 30);
   const pestMitigationScore = Math.min(100, Math.round(rawMitigation));
-  const mitLabel = pestMitigationScore < 30 ? 'Weak mitigation'
+  const mitLabel = pestMitigationScore < 30 ? 'Weak buffering'
                  : pestMitigationScore < 60 ? 'Moderate mitigation'
                  : 'Strong mitigation';
   const mitClass = pestMitigationScore < 30 ? 'weak'
@@ -1517,7 +1608,7 @@ function renderResults() {
   mitGrid.innerHTML = `
     <div class="mitigation-card">
       <div class="mitigation-value ${mitClass}">${pestMitigationScore}</div>
-      <div class="mitigation-key">Pest Mitigation</div>
+      <div class="mitigation-key">Pest Buffering</div>
       <div class="mitigation-label">${mitLabel}</div>
     </div>
     <div class="mitigation-card">
@@ -1635,7 +1726,7 @@ function renderResults() {
       document.querySelector('#section-next-plants .result-section-title').textContent =
         hasUrgentGaps ? 'Suggested Next Plants' : 'Low-Risk Expansion Options';
       nextNote.textContent = hasUrgentGaps
-        ? 'Plants scored by role coverage, family diversity, and pest overlap with your current guild.'
+        ? 'Plants scored by role coverage, family diversity, resilience impact, and pest overlap with your current guild.'
         : 'Your guild is structurally sound. These are low-risk ways to expand it without increasing shared pest pressure.';
       nextList.innerHTML = '<div class="next-balanced-state">' +
         '<span class="next-balanced-icon">✓</span>' +
@@ -1650,7 +1741,7 @@ function renderResults() {
       document.querySelector('#section-next-plants .result-section-title').textContent =
         hasUrgentGaps ? 'Suggested Next Plants' : 'Low-Risk Expansion Options';
       nextNote.textContent = hasUrgentGaps
-        ? 'Plants scored by role coverage, family diversity, and pest overlap with your current guild.'
+        ? 'Plants scored by role coverage, family diversity, resilience impact, and pest overlap with your current guild.'
         : 'Your guild is structurally sound. These are low-risk ways to expand it without increasing shared pest pressure.';
       nextList.innerHTML = suggestions.map(p => `
         <div class="next-plant-card">
@@ -1720,23 +1811,7 @@ function renderResults() {
   }
 
   if (fnAnalysis) {
-    // ── Reinforced Functions — chips display ──────────────────────────────────
-    const reinforcedSection = document.getElementById('section-reinforced');
-    const reinforcedChips   = document.getElementById('reinforced-chips');
-    const reinforcedRoles   = ALL_TRACKED_ROLES.filter(r => fnAnalysis.counts[r] >= 2);
-
-    if (reinforcedRoles.length > 0) {
-      reinforcedChips.innerHTML = reinforcedRoles.map(role => {
-        const count = fnAnalysis.counts[role];
-        return `<div class="reinforced-chip">
-          <span>${role}</span>
-          <span class="reinforced-chip-count">×${count}</span>
-        </div>`;
-      }).join('');
-      reinforcedSection.style.display = 'block';
-    } else {
-      reinforcedSection.style.display = 'none';
-    }
+    
 
     // ── Function Balance — three grouped sections ────────────────────────────
     const n = guild.length;
