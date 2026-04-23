@@ -1424,7 +1424,7 @@ if (getZoneFit(p, userZone) === 'out') continue;
         score += 1.0;
       }
 
-      if (score <= 0) continue;
+      if (score < 0.5) continue;
 
       if (score > bestScore ||
           (score === bestScore && bestSlug && p.slug < bestSlug)) {
