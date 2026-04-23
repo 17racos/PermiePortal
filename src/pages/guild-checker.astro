@@ -1665,7 +1665,6 @@ function renderResults() {
           dismissedSuggestions.add(slug);
           renderResults();
         });
-      }););
       });
     } else if (suggestions.length > 0) {
       const hasUrgentGaps = suggestions.some(s => s.intent === 'fills_gap');
