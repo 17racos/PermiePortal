@@ -14,6 +14,7 @@ const plantIndex = plantsData.map((p: any) => ({
   scientific_name: p.scientific_name,
   plant_function: p.plant_function || [],
   food_role: p.food_role || null,
+  perennial: p.perennial ?? null,
   layers: p.layers || [],
   growth_habit: p.growth_habit || '',
   zone_min: p.zone_min ?? null,
@@ -100,6 +101,9 @@ const edges = (relationshipsData as any[]).filter(
   .mitigation-value.strong { color: var(--lime); }
   .mitigation-key { font-family: 'Space Mono', monospace; font-size: 0.56rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ash); margin-top: 0.2rem; }
   .mitigation-label { font-family: 'Space Mono', monospace; font-size: 0.58rem; color: var(--ash); margin-top: 0.15rem; font-style: italic; }
+  .why-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.6rem; }
+  .why-list li { font-size: 0.88rem; color: var(--ash); line-height: 1.7; padding-left: 1.1rem; position: relative; }
+  .why-list li::before { content: '→'; position: absolute; left: 0; color: var(--lime); font-family: 'Space Mono', monospace; font-size: 0.72rem; top: 0.18rem; }
   .pattern-primary { font-family: 'Space Mono', monospace; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--lime); margin-bottom: 0.3rem; }
   .pattern-summary { font-size: 0.85rem; color: var(--ash); line-height: 1.6; margin-bottom: 0.5rem; font-style: italic; }
   .pattern-traits { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.15rem; }
@@ -361,6 +365,11 @@ const edges = (relationshipsData as any[]).filter(
         <div class="mitigation-grid" id="mitigation-grid"></div>
       </div>
 
+      <div class="result-section" id="section-why" style="display:none">
+        <p class="result-section-title">Why This Guild Works</p>
+        <ul class="why-list" id="why-list"></ul>
+      </div>
+
       <div class="result-section" id="section-pattern" style="display:none">
         <p class="result-section-title">System Pattern</p>
         <div id="pattern-display"></div>
@@ -614,7 +623,7 @@ function scoreGuild(slugs) {
 }
 
 // ── Function analysis ────────────────────────────────────────────────────────
-// Foundational roles: warn if missing, celebrate if reinforced
+// Core Functions roles: warn if missing, celebrate if reinforced
 const FOUNDATIONAL_ROLES = [
   'Nitrogen Fixer',
   'Ground Cover',
@@ -623,7 +632,7 @@ const FOUNDATIONAL_ROLES = [
   'Mulcher',
 ];
 
-// Contextual roles: show if present, never warn if absent
+// Supporting Functions roles: show if present, never warn if absent
 const CONTEXTUAL_ROLES = [
   'Dynamic Accumulator',
   'Erosion Control',
@@ -885,7 +894,7 @@ if (removedByUser.has(p.slug)) continue;
     // Diversity bonus
     const existFamilies = new Set(currentSlugs.map(s => plantToFamily[s]).filter(Boolean));
     const famRepeat = currentSlugs.filter(s => plantToFamily[s] === family).length;
-    let diversityBonus = family && !existFamilies.has(family) ? 1.8
+    let diversityBonus = family && !existFamilies.has(family) ? 0
                        : famRepeat >= 2 ? -1.2 : famRepeat === 1 ? -0.35 : 0;
     const hasNewFamily = family && !existFamilies.has(family);
 
@@ -1086,7 +1095,8 @@ const ECOLOGICAL_ROLES_VALUED = [
 // calcFunctionStackScore: primary ranking driver
 // 1 fn→1.0, 2→1.7, 3→2.2, 4→2.6, 5+→3.0 (capped, diminishing returns)
 function calcFunctionStackScore(fns) {
-  let score = 0, count = 0;
+  
+let score = 0, count = 0;
   for (const fn of (fns || [])) {
     if (ECOLOGICAL_ROLES_VALUED.includes(fn)) {
       score += 1.0 * Math.pow(0.7, count++);
@@ -1173,7 +1183,7 @@ const FOOD_PRODUCTION_EXCLUDE = [
     // Diversity bonus
     const famCount = currentSlugs.filter(s => plantToFamily[s] === family).length;
     let diversityBonus = 0;
-    if (family && !existingFamilies.has(family)) diversityBonus =  1.2;
+    if (family && !existingFamilies.has(family)) diversityBonus =  0;
     else if (famCount === 1)                      diversityBonus = -0.3;
     else if (famCount >= 2)                       diversityBonus = -1.2;
 
@@ -1190,6 +1200,14 @@ const FOOD_PRODUCTION_EXCLUDE = [
 
     // Goal bonus
     let goalBonus = 0;
+    // ── Perennial bias (Permaculture principle) ─────────────────
+    if (goalKey === 'food_production') {
+      if (p.perennial === true) {
+        goalBonus += 1.2;
+      } else if (p.perennial === false) {
+        goalBonus -= 1.0;
+      }
+    }
     for (const fn of fns) {
       if (profile.targetRoles.includes(fn))
         goalBonus += (goalKey === 'food_production' && fn === 'Edible') ? 1.2 : 0.8;
@@ -1252,7 +1270,7 @@ const FOOD_PRODUCTION_EXCLUDE = [
       if (removedByUser.has(p.slug)) continue;
       if (!p.plant_function || p.plant_function.length === 0) continue;
       if (!p.plant_function.includes(requiredRole)) continue;
-      if (getZoneFit(p, userZone) === 'out') continue;
+      if (getZoneFit(p, userZone) !== 'fit') continue;
 
               if (goalKey === 'food_production' && isBadDrylandFoodGuildCandidate(p)) continue;
 const fam = plantToFamily[p.slug] || '__none__';
@@ -1362,7 +1380,7 @@ if (score > bestScore ||
         !guildSet.has(p.slug) &&
         !removedByUser.has(p.slug) &&
         p.plant_function && p.plant_function.length > 0 &&
-        getZoneFit(p, userZone) !== 'out'
+        getZoneFit(p, userZone) === 'fit'
       );
     }
     const sortedAnchors = anchorCandidates
@@ -1406,7 +1424,7 @@ if (score > bestScore ||
       if (!p.plant_function || p.plant_function.length === 0) continue;
       if (goalKey === 'food_production' && p.food_role === 'specialty') continue;
               if (goalKey === 'food_production' && isBadDrylandFoodGuildCandidate(p)) continue;
-if (getZoneFit(p, userZone) === 'out') continue;
+if (getZoneFit(p, userZone) !== 'fit') continue;
 
       const fam = plantToFamily[p.slug] || '__none__';
       if ((famSeen[fam] || 0) >= 2) continue;
@@ -1451,6 +1469,73 @@ if (getZoneFit(p, userZone) === 'out') continue;
   // Note: addToGuild() pushes each slug to guild[] during generation
   // For preserveExisting mode, only NEW plants were added via addToGuild
   return generated;
+}
+
+// ── Why This Guild Works narrative ───────────────────────────────────────────
+function generateWhyNarrative(guildSlugs, fnAnalysis, r) {
+  const c = fnAnalysis.counts;
+  const pests = r.sharedPests || [];
+  const results = [];
+
+  const plants = guildSlugs
+    .map(slug => plantBySlug[slug])
+    .filter(Boolean);
+
+  const byRole = (role) =>
+    plants.filter(p => (p.plant_function || []).includes(role));
+
+  const names = (arr, limit = 2) =>
+    arr.slice(0, limit).map(p => p.common_name || p.slug).join(arr.length > 1 ? ' and ' : '');
+
+  const nitrogenPlants = byRole('Nitrogen Fixer');
+  const mulchPlants = byRole('Mulcher');
+  if (nitrogenPlants.length && mulchPlants.length) {
+    results.push(`${names(nitrogenPlants)} help feed the system with nitrogen, while ${names(mulchPlants)} add biomass that breaks down into soil fertility.`);
+  } else if (nitrogenPlants.length) {
+    results.push(`${names(nitrogenPlants)} help feed nearby plants by adding nitrogen support to the guild.`);
+  } else if (mulchPlants.length) {
+    results.push(`${names(mulchPlants)} add biomass that can feed soil life and build organic matter over time.`);
+  }
+
+  const groundPlants = byRole('Ground Cover');
+  if (groundPlants.length) {
+    results.push(`${names(groundPlants)} protect exposed soil, hold moisture, and help reduce weed pressure.`);
+  }
+
+  const pollPlants = byRole('Pollinator');
+  const pestPlants = byRole('Pest Management');
+  if (pollPlants.length && pestPlants.length) {
+    results.push(`${names(pollPlants)} support pollinators, while ${names(pestPlants)} help disrupt pests and keep insect pressure more balanced.`);
+  } else if (pollPlants.length) {
+    results.push(`${names(pollPlants)} support pollinators and beneficial insects that help the whole guild function.`);
+  } else if (pestPlants.length) {
+    results.push(`${names(pestPlants)} help confuse, repel, or interrupt pest pressure naturally.`);
+  }
+
+  const shadePlants = byRole('Shade Provider');
+  const anchors = plants.filter(p => p.food_role === 'anchor');
+  if (shadePlants.length) {
+    results.push(`${names(shadePlants)} add shade and structure, creating a more stable micro-environment for nearby plants.`);
+  } else if (anchors.length) {
+    results.push(`${names(anchors)} act as long-term anchor plants, giving the guild structure instead of just short-season production.`);
+  } else if (r.resilience > 70) {
+    results.push(`This guild spreads growth across multiple layers, which makes the system more stable than a flat planting of similar crops.`);
+  }
+
+  const accumPlants = byRole('Dynamic Accumulator');
+  if (accumPlants.length) {
+    results.push(`${names(accumPlants)} help cycle nutrients by pulling them from deeper soil and returning them through leaf drop, chop-and-drop, or dieback.`);
+  }
+
+  if (pests.length > 0 && r.breakdown.pestOverlap < 40) {
+    results.push(`Some shared pest pressure exists, but the guild spreads risk across different plants instead of relying on one crop.`);
+  }
+
+  if (fnAnalysis.reinforced.length >= 3) {
+    results.push(`Several key jobs are backed up by more than one plant, so the system is less dependent on any single species.`);
+  }
+
+  return results.slice(0, 5);
 }
 
 // ── Guild Pattern Recognition (Phase 5) ──────────────────────────────────────
@@ -1832,6 +1917,20 @@ function renderResults() {
     nextSection.style.display = 'none';
   }
 
+  // ── Why This Guild Works ─────────────────────────────────────────────────
+  const whySection = document.getElementById('section-why');
+  const whyList    = document.getElementById('why-list');
+
+  if (fnAnalysis && r) {
+    const whyPoints = generateWhyNarrative(guildSlugs, fnAnalysis, r);
+    if (whyPoints.length > 0) {
+      whyList.innerHTML = whyPoints.map(p => `<li>${p}</li>`).join('');
+      whySection.style.display = 'block';
+    } else {
+      whySection.style.display = 'none';
+    }
+  }
+
   // ── System Pattern ────────────────────────────────────────────────────────
   const patternSection  = document.getElementById('section-pattern');
   const patternDisplay  = document.getElementById('pattern-display');
@@ -1854,8 +1953,8 @@ function renderResults() {
     const n = guild.length;
     let balanceHTML = '<div class="function-balance">';
 
-    // Section 1: Foundational roles (all shown — missing highlighted)
-    balanceHTML += '<div class="fn-section-label">Foundational</div>';
+    // Section 1: Core Functions roles (all shown — missing highlighted)
+    balanceHTML += '<div class="fn-section-label">Core Functions</div>';
     for (const role of FOUNDATIONAL_ROLES) {
       const count     = fnAnalysis.counts[role];
       const isMissing = count === 0;
@@ -1864,7 +1963,7 @@ function renderResults() {
       const rowClass  = isMissing ? 'missing' : isDom ? 'over' : isReinf ? 'strong' : 'strong';
       const cntClass  = isMissing ? 'zero' : 'good';
       const badge     = isMissing ? 'missing' : isDom ? 'dominant' : isReinf ? 'reinforced' : 'present';
-      const badgeTxt  = isMissing ? 'missing' : isDom ? 'dominant' : isReinf ? 'reinforced' : 'present';
+      const badgeTxt  = isMissing ? 'missing' : isDom ? 'dominant' : isReinf ? `${count} plants` : `${count} plant`;
       const barW      = Math.min(100, n > 0 ? Math.round((count / n) * 100) : 0);
       const barColor  = isMissing ? 'var(--rust)' : isDom ? 'var(--straw)' : 'var(--lime)';
       balanceHTML += `<div class="fn-row ${rowClass}">
@@ -1875,10 +1974,10 @@ function renderResults() {
       </div>`;
     }
 
-    // Section 2: Contextual roles (only shown if present)
+    // Section 2: Supporting Functions roles (only shown if present)
     const ctxPresent = CONTEXTUAL_ROLES.filter(r => fnAnalysis.counts[r] > 0);
     if (ctxPresent.length > 0) {
-      balanceHTML += '<div class="fn-section-label" style="margin-top:0.75rem">Contextual</div>';
+      balanceHTML += '<div class="fn-section-label" style="margin-top:0.75rem">Supporting Functions</div>';
       for (const role of ctxPresent) {
         const count   = fnAnalysis.counts[role];
         const isReinf = count >= 2;
@@ -1887,7 +1986,7 @@ function renderResults() {
           <span class="fn-name">${role}</span>
           <div class="fn-bar-wrap"><div class="fn-bar" style="width:${barW}%;background:var(--lime)"></div></div>
           <span class="fn-count good">${count}</span>
-          <span class="fn-badge ${isReinf ? 'reinforced' : 'contextual'}">${isReinf ? 'reinforced' : 'contextual'}</span>
+          <span class="fn-badge ${isReinf ? 'reinforced' : 'contextual'}">${count} ${count === 1 ? 'plant' : 'plants'}</span>
         </div>`;
       }
     }
