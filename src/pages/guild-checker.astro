@@ -148,8 +148,18 @@ const edges = (relationshipsData as any[]).filter(
   .diversity-stat-value { font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem; color: var(--lime); line-height: 1; }
   .diversity-stat-key { font-family: 'Space Mono', monospace; font-size: 0.56rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ash); margin-top: 0.2rem; }
   .diversity-warning { font-size: 0.82rem; color: var(--straw); line-height: 1.55; padding: 0.5rem 0.75rem; border-left: 2px solid var(--straw); background: rgba(212,168,67,0.06); }
+  .how-row { padding: 0.55rem 0; border-bottom: 1px solid rgba(74,124,53,0.18); }
+  .how-role { font-family: 'Space Mono', monospace; font-size: 0.68rem; color: var(--lime); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.2rem; }
+  .how-text { font-size: 0.86rem; color: var(--ash); line-height: 1.6; }
   .function-balance { display: flex; flex-direction: column; gap: 0.5rem; }
-  .fn-row { display: flex; align-items: center; gap: 0.75rem; padding: 0.45rem 0.75rem; background: var(--bark); border: 1px solid rgba(139,184,58,0.1); }
+  .fn-row .fn-badge.contextual {
+    white-space: normal;
+    line-height: 1.55;
+    display: block;
+    margin-top: 0.25rem;
+  }
+  .fn-row {
+ display: flex; align-items: center; gap: 0.75rem; padding: 0.45rem 0.75rem; background: var(--bark); border: 1px solid rgba(139,184,58,0.1); }
   .fn-row.missing { border-color: rgba(196,85,26,0.3); background: rgba(122,59,30,0.1); }
   .fn-row.weak { border-color: rgba(212,168,67,0.25); background: rgba(212,168,67,0.05); }
   .fn-row.strong { border-color: rgba(139,184,58,0.2); background: rgba(42,61,31,0.2); }
@@ -396,7 +406,7 @@ const edges = (relationshipsData as any[]).filter(
       </div>
 
       <div class="result-section" id="section-functions">
-        <p class="result-section-title">Guild Function Map</p>
+        <p class="result-section-title">How This Guild Works</p>
         <div id="function-balance"></div>
       </div>
 
@@ -1960,48 +1970,70 @@ function renderResults() {
   if (fnAnalysis) {
     
 
-    // ── Guild Function Map — three grouped sections ────────────────────────────
-    const n = guild.length;
-    let balanceHTML = '<div class="function-balance">';
+    // ── How This Guild Works (replaces Function Map) ──────────────────────
+    const plantsForRole = (role) => guildSlugs
+      .map(slug => plantBySlug[slug])
+      .filter(p => p && (p.plant_function || []).includes(role))
+      .slice(0, 2);
 
-    // Section 1: Core Functions roles (all shown — missing highlighted)
-    balanceHTML += '<div class="fn-section-label">Core Functions</div>';
-    for (const role of FOUNDATIONAL_ROLES) {
-      const count     = fnAnalysis.counts[role];
-      const isMissing = count === 0;
-      const isReinf   = count >= 2;
-      const isDom     = fnAnalysis.dominant.includes(role);
-      const rowClass  = isMissing ? 'missing' : isDom ? 'over' : isReinf ? 'strong' : 'strong';
-      const cntClass  = isMissing ? 'zero' : 'good';
-      const badge     = isMissing ? 'missing' : isDom ? 'dominant' : isReinf ? 'reinforced' : 'present';
-      const badgeTxt  = isMissing ? 'missing' : isDom ? 'dominant' : isReinf ? `${count} plants` : `${count} plant`;
-      const barW      = Math.min(100, n > 0 ? Math.round((count / n) * 100) : 0);
-      const barColor  = isMissing ? 'var(--rust)' : isDom ? 'var(--straw)' : 'var(--lime)';
-      balanceHTML += `<div class="fn-row ${rowClass}">
-        <span class="fn-name">${roleLabel(role)}</span>
-        <div class="fn-bar-wrap"><div class="fn-bar" style="width:${barW}%;background:${barColor}"></div></div>
-        <span class="fn-badge ${badge}">${badgeTxt}</span>
+    const plantNames = (arr) => arr.map(p => p.common_name || p.slug).join(' and ');
+    const verb = (arr, singular, plural) => arr.length === 1 ? singular : plural;
+
+    const roleExplanations = {
+      'Nitrogen Fixer': {
+        singular: 'fixes nitrogen through root nodules, feeding nearby plants.',
+        plural: 'fix nitrogen through root nodules, feeding nearby plants.'
+      },
+      'Ground Cover': {
+        singular: 'protects soil, reduces moisture loss, and suppresses weeds.',
+        plural: 'protect soil, reduce moisture loss, and suppress weeds.'
+      },
+      'Pollinator': {
+        singular: 'provides nectar and habitat for beneficial insects.',
+        plural: 'provide nectar and habitat for beneficial insects.'
+      },
+      'Pest Management': {
+        singular: 'helps disrupt pest pressure through scent, habitat, and confusion.',
+        plural: 'help disrupt pest pressure through scent, habitat, and confusion.'
+      },
+      'Mulcher': {
+        singular: 'produces biomass that breaks down into soil fertility.',
+        plural: 'produce biomass that breaks down into soil fertility.'
+      },
+      'Dynamic Accumulator': {
+        singular: 'pulls nutrients from deeper soil and returns them through organic matter.',
+        plural: 'pull nutrients from deeper soil and return them through organic matter.'
+      },
+      'Erosion Control': {
+        singular: 'helps stabilize soil and reduce erosion.',
+        plural: 'help stabilize soil and reduce erosion.'
+      }
+    };
+
+    const HOW_ROLES = [
+      'Nitrogen Fixer',
+      'Ground Cover',
+      'Pollinator',
+      'Pest Management',
+      'Mulcher',
+      'Dynamic Accumulator',
+      'Erosion Control'
+    ];
+
+    let howHTML = '<div class="function-balance">';
+
+    for (const role of HOW_ROLES) {
+      const rolePlants = plantsForRole(role);
+      if (!rolePlants.length) continue;
+
+      howHTML += `<div class="how-row">
+        <div class="how-role">${roleLabel(role)}</div>
+        <div class="how-text">${plantNames(rolePlants)} ${verb(rolePlants, roleExplanations[role].singular, roleExplanations[role].plural)}</div>
       </div>`;
     }
 
-    // Section 2: Supporting Functions roles (only shown if present)
-    const ctxPresent = CONTEXTUAL_ROLES.filter(r => fnAnalysis.counts[r] > 0);
-    if (ctxPresent.length > 0) {
-      balanceHTML += '<div class="fn-section-label" style="margin-top:0.75rem">Supporting Functions</div>';
-      for (const role of ctxPresent) {
-        const count   = fnAnalysis.counts[role];
-        const isReinf = count >= 2;
-        const barW    = Math.min(100, n > 0 ? Math.round((count / n) * 100) : 0);
-        balanceHTML += `<div class="fn-row strong">
-          <span class="fn-name">${roleLabel(role)}</span>
-          <div class="fn-bar-wrap"><div class="fn-bar" style="width:${barW}%;background:var(--lime)"></div></div>
-          <span class="fn-badge ${isReinf ? 'reinforced' : 'contextual'}">${count} ${count === 1 ? 'plant' : 'plants'}</span>
-        </div>`;
-      }
-    }
-
-    balanceHTML += '</div>';
-    fnBalance.innerHTML = balanceHTML;
+    howHTML += '</div>';
+    fnBalance.innerHTML = howHTML;
 
     // ── Design Actions ────────────────────────────────────────────────────────
     actionsList.innerHTML = '';
