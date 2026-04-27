@@ -129,8 +129,6 @@ const edges = (relationshipsData as any[]).filter(
   .result-section-title { font-family: 'Space Mono', monospace; font-size: 0.62rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--straw); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid rgba(212,168,67,0.2); }
   .pest-list { display: flex; flex-wrap: wrap; gap: 0.35rem; }
   .pest-tag { font-family: 'Space Mono', monospace; font-size: 0.6rem; padding: 0.2rem 0.6rem; background: rgba(122,59,30,0.2); border: 1px solid rgba(196,85,26,0.25); color: var(--ash); }
-  .pest-link { color: inherit; text-decoration: none; }
-  .pest-link:hover { color: var(--lime); text-decoration: underline; }
   .pest-count { color: var(--rust); margin-left: 0.3rem; }
 
   .family-list { display: flex; flex-wrap: wrap; gap: 0.35rem; }
@@ -296,7 +294,8 @@ const edges = (relationshipsData as any[]).filter(
       <p class="panel-label">Start with a Goal <span class="goal-optional">(optional)</span></p>
       <div class="goal-buttons">
         <button class="goal-btn" data-goal="food_production">Food Production</button>
-        <button class="goal-btn" data-goal="low_maintenance">Self Sustaining</button>
+        <button class="goal-btn" data-goal="low_maintenance">Low Maintenance</button>
+        <button class="goal-btn" data-goal="pest_resistant">Pest Resistant</button>
         <button class="goal-btn" data-goal="pollinator_support">Pollinator Support</button>
         <button class="goal-btn" data-goal="soil_building">Soil Building</button>
       </div>
@@ -382,7 +381,7 @@ const edges = (relationshipsData as any[]).filter(
       </div>
 
       <div class="result-section" id="section-shared-pests">
-        <p class="result-section-title">Common Problems to Watch</p>
+        <p class="result-section-title">Shared Pest Signals (supporting detail)</p>
         <div class="pest-list" id="shared-pests-list"></div>
       </div>
 
@@ -397,7 +396,7 @@ const edges = (relationshipsData as any[]).filter(
       </div>
 
       <div class="result-section" id="section-functions">
-        <p class="result-section-title">Guild Function Map</p>
+        <p class="result-section-title">Function Balance</p>
         <div id="function-balance"></div>
       </div>
 
@@ -624,7 +623,7 @@ function scoreGuild(slugs) {
 }
 
 // ── Function analysis ────────────────────────────────────────────────────────
-// Core Functions roles: warn if missing, celebrate if reinforced
+// Foundational roles: warn if missing, celebrate if reinforced
 const FOUNDATIONAL_ROLES = [
   'Nitrogen Fixer',
   'Ground Cover',
@@ -633,7 +632,7 @@ const FOUNDATIONAL_ROLES = [
   'Mulcher',
 ];
 
-// Supporting Functions roles: show if present, never warn if absent
+// Contextual roles: show if present, never warn if absent
 const CONTEXTUAL_ROLES = [
   'Dynamic Accumulator',
   'Erosion Control',
@@ -641,20 +640,6 @@ const CONTEXTUAL_ROLES = [
 ];
 
 const ALL_TRACKED_ROLES = [...FOUNDATIONAL_ROLES, ...CONTEXTUAL_ROLES];
-const ROLE_LABELS = {
-  "Nitrogen Fixer": "Soil Feeding",
-  "Ground Cover": "Living Groundcover",
-  "Pollinator": "Pollinator Support",
-  "Pest Management": "Plant Health Defense",
-  "Mulcher": "Biomass / Mulch",
-  "Dynamic Accumulator": "Nutrient Cycling",
-  "Erosion Control": "Soil Holding",
-  "Shade Provider": "Shade / Microclimate",
-};
-
-function roleLabel(role) {
-  return ROLE_LABELS[role] || role;
-}
 
 function analyzeGuildFunctions(slugs) {
   const n = slugs.length;
@@ -1065,12 +1050,20 @@ const GOAL_PROFILES = {
     },
   },
   low_maintenance: {
-    label: 'Self Sustaining',
+    label: 'Low Maintenance',
     description: 'Self-sustaining ground cover, mulch, and pest deterrence with minimal input.',
     targetRoles: ['Ground Cover', 'Mulcher', 'Pest Management', 'Pollinator'],
     avoidOverweight: ['Edible'],
     preferredGuildSize: 5,
     anchorRoles: { 'Ground Cover': 1, 'Mulcher': 1, 'Pest Management': 1 },
+  },
+  pest_resistant: {
+    label: 'Pest Resistant',
+    description: 'Strong pest disruption, pollinator support, and family diversity to reduce shared pressure.',
+    targetRoles: ['Pest Management', 'Pollinator', 'Ground Cover'],
+    avoidOverweight: [],
+    preferredGuildSize: 6,
+    anchorRoles: { 'Pest Management': 2, 'Pollinator': 1, 'Ground Cover': 1 },
   },
   pollinator_support: {
     label: 'Pollinator Support',
@@ -1524,14 +1517,14 @@ function generateWhyNarrative(guildSlugs, fnAnalysis, r) {
   if (shadePlants.length) {
     results.push(`${names(shadePlants)} add shade and structure, creating a more stable micro-environment for nearby plants.`);
   } else if (anchors.length) {
-    results.push(`${names(anchors)} provide longer-term structure and productivity compared with short-season crops.`);
+    results.push(`${names(anchors)} act as long-term anchor plants, giving the guild structure instead of just short-season production.`);
   } else if (r.resilience > 70) {
     results.push(`This guild spreads growth across multiple layers, which makes the system more stable than a flat planting of similar crops.`);
   }
 
   const accumPlants = byRole('Dynamic Accumulator');
   if (accumPlants.length) {
-    results.push(`${names(accumPlants)} help${accumPlants.length === 1 ? 's' : ''} cycle nutrients by pulling them from deeper soil and returning them through leaf drop, chop-and-drop, or dieback.`);
+    results.push(`${names(accumPlants)} help cycle nutrients by pulling them from deeper soil and returning them through leaf drop, chop-and-drop, or dieback.`);
   }
 
   if (pests.length > 0 && r.breakdown.pestOverlap < 40) {
@@ -1580,6 +1573,10 @@ function analyzeGuildPattern(guildSlugs, fnAnalysis, r) {
            (fnAnalysis && fnAnalysis.dominant && fnAnalysis.dominant.includes('Pollinator'))) {
     primary = 'pollinator_hub';
   }
+  // Pest Resistant: strong management + low overlap
+  else if ((counts['Pest Management'] || 0) >= 2 && overlap < 40 && divPct >= 60) {
+    primary = 'pest_resistant';
+  }
 
   // ── Trait extraction ──────────────────────────────────────────────────────
   const traits = [];
@@ -1598,6 +1595,7 @@ function analyzeGuildPattern(guildSlugs, fnAnalysis, r) {
     food_forest:    'Food Forest Starter',
     soil_builder:   'Soil Building System',
     pollinator_hub: 'Pollinator Hub',
+    pest_resistant: 'Pest Resistant System',
     balanced:       'Balanced System',
   };
 
@@ -1605,6 +1603,7 @@ function analyzeGuildPattern(guildSlugs, fnAnalysis, r) {
     food_forest:    'This guild resembles a young layered food system with structural diversity across canopy, shrub, and ground layers.',
     soil_builder:   'This system is heavily focused on soil building — nitrogen fixation, dynamic accumulation, and biomass production work together.',
     pollinator_hub: 'This guild prioritizes pollinator attraction and beneficial insect habitat with dense flowering support.',
+    pest_resistant: 'This guild is structured to minimize shared pest pressure through active disruption and family diversity.',
     balanced:       'This is a balanced system with no dominant ecological specialization — resilient and broadly functional.',
   };
 
@@ -1722,16 +1721,16 @@ function renderResults() {
                       + ((fnCounts['Pollinator'] || 0) * 10)
                       + (famDiv * 30);
   const pestMitigationScore = Math.min(100, Math.round(rawMitigation));
-  const mitLabel = pestMitigationScore < 30 ? 'Weak defense'
-                 : pestMitigationScore < 60 ? 'Moderate defense'
-                 : 'Strong defense';
+  const mitLabel = pestMitigationScore < 30 ? 'Weak buffering'
+                 : pestMitigationScore < 60 ? 'Moderate mitigation'
+                 : 'Strong mitigation';
   const mitClass = pestMitigationScore < 30 ? 'weak'
                  : pestMitigationScore < 60 ? 'moderate' : 'strong';
   const mitGrid = document.getElementById('mitigation-grid');
   mitGrid.innerHTML = `
     <div class="mitigation-card">
       <div class="mitigation-value ${mitClass}">${pestMitigationScore}</div>
-      <div class="mitigation-key">Plant Health Defense</div>
+      <div class="mitigation-key">Pest Buffering</div>
       <div class="mitigation-label">${mitLabel}</div>
     </div>
     <div class="mitigation-card">
@@ -1779,11 +1778,7 @@ function renderResults() {
     for (const p of r.sharedPests.slice(0, 5)) {
       const tag = document.createElement('span');
       tag.className = 'pest-tag';
-      const pestSlug = String(p.name).toLowerCase()
-          .replace(/&/g, 'and')
-          .replace(/[^a-z0-9]+/g, '-')
-          .replace(/^-+|-+$/g, '');
-        tag.innerHTML = `<a href="/pests/${pestSlug}" target="_blank" rel="noopener noreferrer" class="pest-link">${p.name}<span class="pest-count">×${p.count}</span></a>`;
+      tag.innerHTML = `${p.name}<span class="pest-count">×${p.count}</span>`;
       pestsEl.appendChild(tag);
     }
   }
@@ -1954,12 +1949,12 @@ function renderResults() {
   if (fnAnalysis) {
     
 
-    // ── Guild Function Map — three grouped sections ────────────────────────────
+    // ── Function Balance — three grouped sections ────────────────────────────
     const n = guild.length;
     let balanceHTML = '<div class="function-balance">';
 
-    // Section 1: Core Functions roles (all shown — missing highlighted)
-    balanceHTML += '<div class="fn-section-label">Core Functions</div>';
+    // Section 1: Foundational roles (all shown — missing highlighted)
+    balanceHTML += '<div class="fn-section-label">Foundational</div>';
     for (const role of FOUNDATIONAL_ROLES) {
       const count     = fnAnalysis.counts[role];
       const isMissing = count === 0;
@@ -1968,28 +1963,30 @@ function renderResults() {
       const rowClass  = isMissing ? 'missing' : isDom ? 'over' : isReinf ? 'strong' : 'strong';
       const cntClass  = isMissing ? 'zero' : 'good';
       const badge     = isMissing ? 'missing' : isDom ? 'dominant' : isReinf ? 'reinforced' : 'present';
-      const badgeTxt  = isMissing ? 'missing' : isDom ? 'dominant' : isReinf ? `${count} plants` : `${count} plant`;
+      const badgeTxt  = isMissing ? 'missing' : isDom ? 'dominant' : isReinf ? 'reinforced' : 'present';
       const barW      = Math.min(100, n > 0 ? Math.round((count / n) * 100) : 0);
       const barColor  = isMissing ? 'var(--rust)' : isDom ? 'var(--straw)' : 'var(--lime)';
       balanceHTML += `<div class="fn-row ${rowClass}">
-        <span class="fn-name">${roleLabel(role)}</span>
+        <span class="fn-name">${role}</span>
         <div class="fn-bar-wrap"><div class="fn-bar" style="width:${barW}%;background:${barColor}"></div></div>
+        <span class="fn-count ${cntClass}">${count}</span>
         <span class="fn-badge ${badge}">${badgeTxt}</span>
       </div>`;
     }
 
-    // Section 2: Supporting Functions roles (only shown if present)
+    // Section 2: Contextual roles (only shown if present)
     const ctxPresent = CONTEXTUAL_ROLES.filter(r => fnAnalysis.counts[r] > 0);
     if (ctxPresent.length > 0) {
-      balanceHTML += '<div class="fn-section-label" style="margin-top:0.75rem">Supporting Functions</div>';
+      balanceHTML += '<div class="fn-section-label" style="margin-top:0.75rem">Contextual</div>';
       for (const role of ctxPresent) {
         const count   = fnAnalysis.counts[role];
         const isReinf = count >= 2;
         const barW    = Math.min(100, n > 0 ? Math.round((count / n) * 100) : 0);
         balanceHTML += `<div class="fn-row strong">
-          <span class="fn-name">${roleLabel(role)}</span>
+          <span class="fn-name">${role}</span>
           <div class="fn-bar-wrap"><div class="fn-bar" style="width:${barW}%;background:var(--lime)"></div></div>
-          <span class="fn-badge ${isReinf ? 'reinforced' : 'contextual'}">${count} ${count === 1 ? 'plant' : 'plants'}</span>
+          <span class="fn-count good">${count}</span>
+          <span class="fn-badge ${isReinf ? 'reinforced' : 'contextual'}">${isReinf ? 'reinforced' : 'contextual'}</span>
         </div>`;
       }
     }
