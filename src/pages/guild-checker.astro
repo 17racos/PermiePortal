@@ -104,6 +104,7 @@ const edges = (relationshipsData as any[]).filter(
   .why-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.6rem; }
   .why-list li { font-size: 0.88rem; color: var(--ash); line-height: 1.7; padding-left: 1.1rem; position: relative; }
   .why-list li::before { content: '→'; position: absolute; left: 0; color: var(--lime); font-family: 'Space Mono', monospace; font-size: 0.72rem; top: 0.18rem; }
+  .mitigation-sentence { font-size: 0.88rem; color: var(--ash); line-height: 1.7; font-style: italic; padding: 0.4rem 0; }
   .pattern-primary { font-family: 'Space Mono', monospace; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--lime); margin-bottom: 0.3rem; }
   .pattern-summary { font-size: 0.85rem; color: var(--ash); line-height: 1.6; margin-bottom: 0.5rem; font-style: italic; }
   .pattern-traits { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.15rem; }
@@ -133,6 +134,8 @@ const edges = (relationshipsData as any[]).filter(
   .pest-link:hover { color: var(--lime); text-decoration: underline; }
   .pest-count { color: var(--rust); margin-left: 0.3rem; }
 
+  .family-link { color: var(--ash); text-decoration: none; margin-right: 0.4rem; }
+  .family-link:hover { color: var(--lime); text-decoration: underline; }
   .family-list { display: flex; flex-wrap: wrap; gap: 0.35rem; }
   .family-tag { font-family: 'Space Mono', monospace; font-size: 0.6rem; padding: 0.2rem 0.6rem; background: rgba(42,61,31,0.3); border: 1px solid rgba(74,124,53,0.25); color: var(--lime); }
 
@@ -349,7 +352,7 @@ const edges = (relationshipsData as any[]).filter(
       <div class="breakdown-grid">
         <div class="breakdown-card">
           <div class="breakdown-value" id="bd-diversity">—</div>
-          <div class="breakdown-key">Family Diversity</div>
+          <div class="breakdown-key">Family Diversity & Risk Spread</div>
         </div>
         <div class="breakdown-card">
           <div class="breakdown-value" id="bd-overlap">—</div>
@@ -362,8 +365,7 @@ const edges = (relationshipsData as any[]).filter(
       </div>
 
       <div class="result-section" id="section-mitigation">
-        <p class="result-section-title">Risk Drivers & Stability</p>
-        <div class="mitigation-grid" id="mitigation-grid"></div>
+        <div id="mitigation-summary"></div>
       </div>
 
       <div class="result-section" id="section-why" style="display:none">
@@ -386,13 +388,10 @@ const edges = (relationshipsData as any[]).filter(
         <div class="pest-list" id="shared-pests-list"></div>
       </div>
 
-      <div class="result-section" id="section-families">
-        <p class="result-section-title">Family Composition</p>
-        <div class="family-list" id="families-list"></div>
-      </div>
       <div class="result-section" id="section-diversity">
-        <p class="result-section-title">Family Diversity</p>
+        <p class="result-section-title">Family Composition & Diversity</p>
         <div class="diversity-grid" id="diversity-grid"></div>
+        <div class="family-list" id="families-list" style="margin-top:0.6rem"></div>
         <div id="diversity-warning" class="diversity-warning" style="display:none"></div>
       </div>
 
@@ -1727,19 +1726,20 @@ function renderResults() {
                  : 'Strong defense';
   const mitClass = pestMitigationScore < 30 ? 'weak'
                  : pestMitigationScore < 60 ? 'moderate' : 'strong';
-  const mitGrid = document.getElementById('mitigation-grid');
-  mitGrid.innerHTML = `
-    <div class="mitigation-card">
-      <div class="mitigation-value ${mitClass}">${pestMitigationScore}</div>
-      <div class="mitigation-key">Plant Health Defense</div>
-      <div class="mitigation-label">${mitLabel}</div>
-    </div>
-    <div class="mitigation-card">
-      <div class="mitigation-value ${mitClass}">${r.resilience}</div>
-      <div class="mitigation-key">Resilience Score</div>
-      <div class="mitigation-label">${r.resilience >= 75 ? 'Structurally resilient' : r.resilience >= 50 ? 'Moderate resilience' : 'Building resilience'}</div>
-    </div>
-  `;
+  const mitSummary = document.getElementById('mitigation-summary');
+  const resWord = r.resilience >= 75 ? 'structurally resilient'
+                : r.resilience >= 50 ? 'moderately resilient' : 'still building resilience';
+  const pmCount  = fnCounts['Pest Management'] || 0;
+  const polCount = fnCounts['Pollinator'] || 0;
+  let mitSentence;
+  if (pestMitigationScore >= 60) {
+    mitSentence = `This guild is ${resWord} with strong biological defense — ${pmCount} pest management and ${polCount} pollinator plant${polCount !== 1 ? 's' : ''} help keep insects in check.`;
+  } else if (pestMitigationScore >= 30) {
+    mitSentence = `This guild is ${resWord}. Plant health defense is present, but repeated pest overlap means this is worth monitoring.`;
+  } else {
+    mitSentence = `This guild is ${resWord}. Consider increasing plant diversity or adding support plants to reduce repeated pest pressure.`;
+  }
+  if (mitSummary) mitSummary.innerHTML = `<p class="mitigation-sentence">${mitSentence}</p>`;
 
   // Risks (formerly suggestions + warnings — now ecological risk signals only)
   const suggEl = document.getElementById('suggestions-list');
@@ -1792,13 +1792,19 @@ function renderResults() {
   const famEl = document.getElementById('families-list');
   famEl.innerHTML = '';
   for (const f of r.dominantFamilies) {
-    const tag = document.createElement('span');
-    tag.className = 'family-tag';
+    const slug = String(f).toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+    const tag = document.createElement('a');
+    tag.className = 'family-tag family-link';
+    tag.href = `/plants/family/${slug}`;
+    tag.target = '_blank';
+    tag.rel = 'noopener noreferrer';
     tag.textContent = f;
     famEl.appendChild(tag);
   }
 
-  // Family Diversity (analyzeDiversity logic inlined — same data source)
+  // Family Composition (analyzeDiversity logic inlined — same data source)
   const divGrid = document.getElementById('diversity-grid');
   const divWarn = document.getElementById('diversity-warning');
   const n = guildSlugs.length;
